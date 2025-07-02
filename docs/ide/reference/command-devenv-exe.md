@@ -1,7 +1,7 @@
 ---
 title: -Command (devenv.exe)
 description: Learn how to use the Command devenv command-line switch to execute a specified command after launching the Visual Studio IDE.
-ms.date: 12/10/2018
+ms.date: 7/2/2025
 ms.topic: reference
 helpviewer_keywords:
 - Devenv, /Command switch
@@ -44,8 +44,6 @@ The third example creates a new file called `some_file.cs` and opens it in a cod
 
 ```shell
 devenv /command "Macros.MyMacros.Module1.OpenFavoriteFiles"
-
-devenv /command "navigate https://learn.microsoft.com/"
 
 devenv /command "nf some_file.cs"
 ```
