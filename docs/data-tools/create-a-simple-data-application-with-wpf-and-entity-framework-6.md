@@ -6,7 +6,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
 ms.topic: tutorial
-ms.date: 03/27/2025
+ms.date: 7/2/2025
 dev_langs:
 - CSharp
 
@@ -17,7 +17,7 @@ dev_langs:
 # Create a basic data application with WPF and Entity Framework 6
 
 ::: moniker range="vs-2022"
-> [!WARNING]
+> [!NOTE]
 > If you're running Visual Studio 2022, ensure you use version 17.3 or later for this tutorial.
 ::: moniker-end
 
@@ -41,7 +41,7 @@ In this tutorial, you:
 
 ## Prerequisites
 
-* [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **Windows Communication Foundation** component installed. To install it:
+* [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with **.NET Desktop Development** workload installed, and the **Windows Communication Foundation** component installed. To install it:
 
    1. Open the **Visual Studio Installer** app, or select **Tools** > **Get Tools and Features** from the Visual Studio menu.
    1. In **Visual Studio Installer**, choose **Modify** next to the version of Visual Studio you want to modify.
@@ -51,6 +51,8 @@ In this tutorial, you:
 * SQL Server Express LocalDB. If you don't have SQL Server Express LocalDB, you can install it from the [SQL Server download page](https://www.microsoft.com/sql-server/sql-server-downloads). Or, you can install it with the **Visual Studio Installer** app as an individual component.
 
 * SQL Server Object Explorer. To install it, install the **Data storage and processing** workload in the **Visual Studio Installer** app.
+
+* Entity Framework 6 tools. This is usually installed when you install the **.NET Dektop Development** workload.
 
 ## Install and connect to Northwind
 
