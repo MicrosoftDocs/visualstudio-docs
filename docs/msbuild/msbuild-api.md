@@ -1,7 +1,7 @@
 ---
 title: Build and inspect projects with the MSBuild API
 description: Explore the public API surface provided in MSBuild that you can use to enable your program to perform builds and inspect projects.
-ms.date: 11/04/2016
+ms.date: 7/1/2025
 ms.topic: overview
 author: ghogen
 ms.author: ghogen
@@ -50,3 +50,15 @@ Documentation for the MSBuild API can be found by using the [.NET API Browser](/
 | [Microsoft.Build.Utilities](/dotnet/api/Microsoft.Build.Utilities?view=msbuild-16&preserve-view=true) | All | Contains helper classes that you can use to create your own MSBuild loggers and tasks.|
 
 In the previous table, All in the Applies To column means the types in the namespace are available in both the .NET Framework and the .NET Core versions of the MSBuild API.
+
+## MSBuild Locator
+
+MSBuild Locator is an API that you can use to find MSBuild on a machine. You can use it in build tools development, when you want to find installed versions of MSBuild.
+
+The NuGetPackage is at [Microsoft.Build.Locator](https://www.nuget.org/packages/Microsoft.Build.Locator/) and the reference documentation is at [Microsoft](/dotnet/api/microsoft.build.locator).
+
+For more information about MSBuildLocator, see [Find and use MSBuild versions](./find-and-use-msbuild-versions.md).
+
+## Related content
+
+- [MSBuild](msbuild.md)
