@@ -45,8 +45,6 @@ The third example creates a new file called `some_file.cs` and opens it in a cod
 ```shell
 devenv /command "Macros.MyMacros.Module1.OpenFavoriteFiles"
 
-devenv /command "navigate https://learn.microsoft.com/"
-
 devenv /command "nf some_file.cs"
 ```
 
