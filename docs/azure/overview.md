@@ -49,7 +49,7 @@ What are you deploying?
 | Azure App Service (.NET Core) | [Deploy an ASP.NET Core web app](/azure/app-service/quickstart-dotnetcore?tabs=net70&pivots=development-environment-vs&toc=%2Fvisualstudio%2Fazure%2Ftoc.json&bc=%2Fvisualstudio%2Fazure%2Fbreadcrumb%2Ftoc.json#publish-your-web-app) |
 | Azure App Service (.NET Framework) | [Deploy an ASP.NET web app (.NET Framework)](/azure/app-service/quickstart-dotnetcore?toc=%2Fvisualstudio%2Fazure%2Ftoc.json&bc=%2Fvisualstudio%2Fazure%2Fbreadcrumb%2Ftoc.json&tabs=netframework48&pivots=development-environment-vs) |
 | Azure Container Apps | [Deploy to Azure Container Apps using Visual Studio](/azure/container-apps/deploy-visual-studio) |
-| Multicontainer app | [Deploy a multicontainer app to Azure Container Apps](./deploy-multicontainer-azure-container-apps.md) |
+| Multicontainer app | [Deploy a multicontainer app to Azure Container Apps](../containers/deploy-multicontainer-azure-container-apps.md) |
 | Azure Functions | [Create your first C# function in Azure using Visual Studio](/azure/azure-functions/functions-create-your-first-function-visual-studio#publish-the-project-to-azure) |
 | Azure Container Registry | [Deploy an ASP.NET container to a container registry using Visual Studio](../containers/hosting-web-apps-in-docker.md) |
 
