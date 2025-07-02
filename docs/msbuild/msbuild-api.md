@@ -53,7 +53,7 @@ In the previous table, All in the Applies To column means the types in the names
 
 ## MSBuild Locator
 
-MSBuild Locator is an API that you can use to find MSBuild on a machine. It can be helpful in tools development, when you want to find installed versions of MSBuild.
+MSBuild Locator is an API that you can use to find MSBuild on a machine. You can use it in build tools development, when you want to find installed versions of MSBuild.
 
 The NuGetPackage is at [Microsoft.Build.Locator](https://www.nuget.org/packages/Microsoft.Build.Locator/) and the reference documentation is at [Microsoft](/dotnet/api/microsoft.build.locator).
 
