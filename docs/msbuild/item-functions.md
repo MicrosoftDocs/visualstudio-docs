@@ -1,7 +1,7 @@
 ---
 title: Call item functions from MSBuild code
 description: Explore how MSBuild code in tasks and targets can call item functions to get information about the items in the project.
-ms.date: 2/7/2025
+ms.date: 7/2/2025
 ms.topic: how-to
 helpviewer_keywords:
 - msbuild, Item functions
@@ -57,11 +57,11 @@ The table below lists the intrinsic functions available for items.
 |`Exists`|`@(MyItems->Exists())`|Filters a set of items to those that actually exist on disk.|
 |`GetPathsOfAllDirectoriesAbove`| `@(MyItems->GetPathsOfAllFilesAbove())`|Given a set of items, returns items representing all the ancestor directories. No order is guaranteed.|
 |`Reverse`|`@(MyItems->Reverse())`|Returns the items in reverse order.|
-|`AnyHaveMetadataValue`|`@(MyItems->AnyHaveMetadataValue("MetadataName", "MetadataValue"))` | Returns a `boolean` to indicate whether any item has the given metadata name and value. The comparison is case insensitive. |
+|`AnyHaveMetadataValue`|`@(MyItems->AnyHaveMetadataValue('MetadataName', 'MetadataValue'))` | Returns a `boolean` to indicate whether any item has the given metadata name and value. The comparison is case insensitive. |
 |`ClearMetadata`|`@(MyItems->ClearMetadata())` |Returns items with their metadata cleared. Only the `itemspec` is retained.|
-|`HasMetadata`|`@(MyItems->HasMetadata("MetadataName"))`|Returns items that have the given metadata name. The comparison is case insensitive.|
-|`Metadata`|`@(MyItems->Metadata("MetadataName"))`|Returns the values of the metadata that have the metadata name. The items returned have the same metadata as the source values.|
-|`WithMetadataValue`|`@(MyItems->WithMetadataValue("MetadataName", "MetadataValue"))`|Returns items that have the given metadata name and value. The comparison is case insensitive.|
+|`HasMetadata`|`@(MyItems->HasMetadata('MetadataName'))`|Returns items that have the given metadata name. The comparison is case insensitive.|
+|`Metadata`|`@(MyItems->Metadata('MetadataName'))`|Returns the values of the metadata that have the metadata name. The items returned have the same metadata as the source values.|
+|`WithMetadataValue`|`@(MyItems->WithMetadataValue('MetadataName', 'MetadataValue'))`|Returns items that have the given metadata name and value. The comparison is case insensitive.|
 
 > [!NOTE]
 > `Exists` can also be used in other contexts; in [MSBuild conditions](msbuild-conditions.md), for example `Condition="Exists('path')"`; or in [Static property functions](property-functions.md), for example `$([System.IO.File]::Exists("path"))`.
