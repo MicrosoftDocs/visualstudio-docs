@@ -176,7 +176,7 @@ private:
       this->Icon = newIcon;
       
       // You can now destroy the Icon, since the form creates
-      // its own copy of the icon accesible through the Form.Icon property.
+      // its own copy of the icon accessible through the Form.Icon property.
       DestroyIcon( newIcon->Handle );
    }
    // </snippet6>
