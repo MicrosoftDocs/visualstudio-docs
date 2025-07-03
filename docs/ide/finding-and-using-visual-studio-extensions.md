@@ -56,6 +56,16 @@ In the Visual Studio IDE, Extension Manager is the tool you use to find, install
 
 The left pane categorizes extensions by those that are available on Visual Studio Marketplace (**Browse**), those that are installed, and those that have updates available. The **Roaming** tab lists all the Visual Studio extensions that you have installed on any machine or instance of Visual Studio. It's designed to let you find your favorite extensions more easily.
 
+:::moniker range=">=vs-2022"
+
+Tabs have command buttons to filter and sort extensions, and a gear icon that takes you to the **Tools** > **Options** screen.
+
+Use the filter command button to filter extensions by category, which includes **Enabled**, **Disabled**, or **Incompatible** extensions. In 17.14 and later, you can also filter by **Pending**, which means extensions that have updates that will be available the next time you restart Visual Studio.
+
+Use the sort button to sort by extension name, extension author, or date.
+
+:::moniker-end
+
 ## Find and install extensions
 
 You can install extensions from [Visual Studio Marketplace](https://marketplace.visualstudio.com) or from Extension Manager in Visual Studio.
