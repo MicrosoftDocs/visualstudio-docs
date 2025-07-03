@@ -47,7 +47,7 @@ public:
 private:
    void InitializeListView()
    {
-      // Set up the inital values for the ListView and populate it.
+      // Set up the initial values for the ListView and populate it.
       this->ListView1 = gcnew ListView;
       this->ListView1->Dock = DockStyle::Top;
       this->ListView1->Location = System::Drawing::Point( 0, 0 );
