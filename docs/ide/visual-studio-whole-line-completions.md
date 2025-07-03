@@ -18,6 +18,8 @@ This feature supports C# in Visual Studio 2022.
 
 ![Screenshot of Whole Line Completion by IntelliCode in Visual Studio.](media/intellicode/intellicode-visual-studio-whole-line-completions-small.png)
 
+To turn text predictions off, disable the IntelliCode extension. Select **Extensions** > **Manage Extensions** from the menu, find and select the IntelliCode extension, and then click **Disable**.
+
 ## How it works
 
 IntelliCode uses a large scale transformer model, trained on around half a million public, open-source repos from GitHub. This model makes predictions on what you type next based on a rich knowledge of what you have coded so far, including:
