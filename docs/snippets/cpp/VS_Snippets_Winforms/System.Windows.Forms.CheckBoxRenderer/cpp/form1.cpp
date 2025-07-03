@@ -42,7 +42,7 @@ namespace CheckBoxRendererSample
         }
 
         //<Snippet2>
-        // Calculate the text bounds, exluding the check box.
+        // Calculate the text bounds, excluding the check box.
         Rectangle getTextRectangle()
         {
             Graphics ^g = this->CreateGraphics();
