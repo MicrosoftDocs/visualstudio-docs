@@ -124,7 +124,7 @@ The tool helps you test a WCF service without writing extra code or committing t
 
 #### WCF Test Client
 
-The WCF Test Client tool enables you to input test parameters, submit the input to a WCF service, and view the response from the service. The tool provides a convenient service testing experience when you combine it with WCF Service Host. The folder location of the tool is *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE*.
+The WCF Test Client tool enables you to input test parameters, submit the input to a WCF service, and view the response from the service. The tool provides a convenient service testing experience when you combine it with WCF Service Host. The location of the tool is *%ProgramFiles(x86)%\Microsoft Visual Studio\2017\Enterprise\Common7\IDE*.
 
 When you select **F5** to debug a WCF service project, WCF Test Client opens and displays a list of service endpoints defined in the configuration file. You can test the parameters and start the service, and repeat this process to continuously test and validate your service. For more information, see [WCF Test Client (WcfTestClient.exe)](/dotnet/framework/wcf/wcf-test-client-wcftestclient-exe).
 
