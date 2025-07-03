@@ -51,7 +51,7 @@ WCF Data Services is an implementation of the Open Data (Open Data Protocol (ODa
 
 The WCF programming model is based on communication between two entities: a WCF service and a WCF client. The programming model is encapsulated in the <xref:System.ServiceModel> namespace in .NET.
 
-## WCF Service
+## WCF service
 
 A WCF service is based on an interface that defines a contract between the service and the client. The service is marked with a <xref:System.ServiceModel.ServiceContractAttribute> attribute, as shown in the following code:
 
@@ -144,7 +144,7 @@ In this scenario, you specify the `endpointConfigurationName` parameter with the
 
 [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]
 
-### Select a service endpoint
+### Select service endpoint
 
 Select a service endpoint by following these steps:
 
@@ -168,7 +168,7 @@ Select a service endpoint by following these steps:
 
 1. When you enter the code, an IntelliSense list displays that includes the overloads for the constructor. Select the `endpointConfigurationName As String` overload.
 
-1. After you select the overload, enter `="`<Endpoint>`"`, where `<Endpoint>` is the name of the endpoint service you want to use.
+1. After you select the overload, enter `="\<Endpoint>"`, where `<Endpoint>` is the name of the endpoint service you want to use.
 
    > [!TIP]
    > The names of the available endpoints are defined in the *app.config* file.
@@ -185,7 +185,7 @@ To find the available endpoints for a WCF service, follow these steps:
 
    When the service reference provides multiple endpoints, there are two or more `<Endpoint>` tags.
 
-1. In the `<EndPoint>` tag definition, locate the `name="`<Endpoint>`"` parameter (where `<Endpoint>` represents an endpoint name). This value is the name for the endpoint that can be passed to the `endpointConfigurationName As String` overload of a constructor for a service reference.
+1. In the `<EndPoint>` tag definition, locate the `name="<Endpoint>"` parameter (where `<Endpoint>` represents an endpoint name). This value is the name for the endpoint that can be passed to the `endpointConfigurationName As String` overload of a constructor for a service reference.
 
 ## Call service methods asynchronously
 
@@ -208,7 +208,7 @@ To call a service method asynchronously, follow these steps:
 
 1. In the **Configure Service Reference** dialog, select the **Generate asynchronous operations** checkbox.
 
-## Bind data returned by a service
+## Bind data returned by service
 
 You can bind data returned by a WCF service to a control just as you bind any other data source to a control. When you add a reference to a WCF service, if the service contains composite types that return data, they're automatically added to the **Data Sources** window.
 
