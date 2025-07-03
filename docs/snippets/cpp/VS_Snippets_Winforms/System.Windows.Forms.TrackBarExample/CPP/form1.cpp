@@ -88,7 +88,7 @@ private:
 internal:
    System::Windows::Forms::TrackBar^ TrackBar1;
 
-   // Initalize the TrackBar and add it to the form.
+   // Initialize the TrackBar and add it to the form.
 private:
    void InitializeTrackBar()
    {

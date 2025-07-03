@@ -65,7 +65,7 @@ private:
    }
 
    // <snippet1>
-   // Initalize the NofifyIcon object's shortcut menu.
+   // Initialize the NofifyIcon object's shortcut menu.
    void InitializeContextMenu()
    {
       array<MenuItem^>^menuList = {gcnew MenuItem( "Sign In" ),gcnew MenuItem( "Get Help" ),gcnew MenuItem( "Open" )};
