@@ -168,7 +168,7 @@ Select a service endpoint by following these steps:
 
 1. When you enter the code, an IntelliSense list displays that includes the overloads for the constructor. Select the `endpointConfigurationName As String` overload.
 
-1. After you select the overload, enter `="<Endpoint>"`, where `<Endpoint>` is the name of the endpoint service you want to use.
+1. After you select the overload, enter `="<ServiceEndpoint>"`, where `<ServiceEndpoint>` is the name of the endpoint service you want to use.
 
    > [!TIP]
    > The names of the available endpoints are defined in the *app.config* file.
@@ -185,7 +185,7 @@ To find the available endpoints for a WCF service, follow these steps:
 
    When the service reference provides multiple endpoints, there are two or more `<Endpoint>` tags.
 
-1. In the `<EndPoint>` tag definition, locate the `name="<Endpoint>"` parameter (where `<Endpoint>` represents an endpoint name). This value is the name for the endpoint that can be passed to the `endpointConfigurationName As String` overload of a constructor for a service reference.
+1. In the `<EndPoint>` tag definition, locate the `name="<ServiceEndpoint>"` parameter (where `<ServiceEndpoint>` represents an endpoint name for the service). This value is the name for the service endpoint that can be passed to the `endpointConfigurationName As String` overload of a constructor for a service reference.
 
 ## Call service methods asynchronously
 
@@ -193,8 +193,7 @@ Most methods in WCF services can be called synchronously or asynchronously. When
 
 When a service reference is added to a project, the default configuration is to call methods synchronously. You can change the behavior to call methods asynchronously in the **Configure Service Reference** dialog.
 
-> [!NOTE]
-> This option is set on a **per-service** basis. If one method for a service is called asynchronously, all methods must be called asynchronously.
+The option is set on a **per-service** basis. If one method for a service is called asynchronously, all methods must be called asynchronously.
 
 [!INCLUDE[note_settings_general](../data-tools/includes/note_settings_general_md.md)]
 
