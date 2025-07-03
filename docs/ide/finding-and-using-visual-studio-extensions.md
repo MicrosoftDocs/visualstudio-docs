@@ -119,6 +119,8 @@ To restrict when per-user extensions load:
 
 ### Automatic extension updates
 
+:::moniker range=">=vs-2019"
+
 Extensions are updated automatically when a new version is available on Visual Studio Marketplace. The new version of the extension is detected and installed in the background. The next time you open Visual Studio, the new version of the extension will be running.
 
 If you want to disable automatic updates, you can disable the feature for all extensions or for only specific extensions.
@@ -126,6 +128,48 @@ If you want to disable automatic updates, you can disable the feature for all ex
 - To disable automatic updates for all extensions, select the **View Settings** button in the **Extensions** > **Manage Extensions** dialog. In the **Options** dialog, under **Environment** > **Extensions**, clear **Automatically update extensions**.
 
 - To disable automatic updates for a specific extension, clear the **Automatically update this extension** option in the extension's details pane on the right side of Extension Manager.
+
+:::moniker-end
+
+:::moniker range=">=vs-2022"
+
+Extensions are updated automatically when a new version is available on Visual Studio Marketplace. The new version of the extension is detected and installed in the background. The next time you open Visual Studio, the new version of the extension will be running.
+
+If you want to disable automatic updates, you can disable the feature for all extensions or for only specific extensions.
+
+- To disable automatic updates for all extensions, select the **View Settings** button in the **Extensions** > **Manage Extensions** dialog. In the **Options** dialog, under **Environment** > **Extensions**, clear **Automatically update extensions**.
+
+- To disable automatic updates for a specific extension, clear the **Automatically update this extension** option in the extension's details pane on the right side of Extension Manager.
+
+### Manage automatic updates (17.14 and later)
+
+Changes in Visual Studio 2022 17.14 and later make it easier to see what's going on with extension updates, and manage auto-update settings from Extension Manager or in **Tools** > **Options**.
+
+Whenever you open the Extension Manager window, you automatically trigger updates. This ensures you are consistently working with the latest features and fixes without needing to manually initiate updates.
+
+When an update is available for an extension, you see a notification in a yellow infobar:
+
+:::image type="content" source="./media/vs-2022/finding-and-using-visual-studio-extensions/extension-manager-notification-bar.png" alt-text="Screenshot showing how Visual Studio notifies you about extension updates that are available.":::
+
+Also, an infobar appears when updates are applied, reminding you to restart Visual Studio so that the extensions take effect.
+
+Settings for automatic updates are available on the extension page:
+
+:::image type="content" source="./media/vs-2022/finding-and-using-visual-studio-extensions/extension-manager-update-automatically.png" alt-text="Screenshot showing how to toggle whether an extension is updated automatically." lightbox="./media/vs-2022/finding-and-using-visual-studio-extensions/extension-manager-update-automatically.png" :::
+
+A new **Pending** category enables you to view only pending updates or modifications.
+
+:::image type="content" source="./media/vs-2022/finding-and-using-visual-studio-extensions/extension-manager-category-pending.png" alt-text="Screenshot showing how to filter the extension list to view only extensions with pending updates." lightbox="./media/vs-2022/finding-and-using-visual-studio-extensions/extension-manager-category-pending.png" :::
+
+#### Auto update settings
+
+You can also configure auto-update settings in **Tools > Options**.
+
+:::image type="content" source="./media/vs-2022/finding-and-using-visual-studio-extensions/extension-manager-tools-options.png" alt-text="Screenshot showing how to configure automatic extension updates in Tools > Options." lightbox="./media/vs-2022/finding-and-using-visual-studio-extensions/extension-manager-tools-options.png" :::
+
+An excluded extensions list is shown that shows the extensions you choose to exclude from automatic updates.
+
+:::moniker-end
 
 ### Crash and unresponsiveness notifications
 
