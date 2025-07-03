@@ -129,7 +129,7 @@ To restrict when per-user extensions load:
 
 ### Automatic extension updates
 
-:::moniker range=">=vs-2019"
+:::moniker range="<=vs-2019"
 
 Extensions are updated automatically when a new version is available on Visual Studio Marketplace. The new version of the extension is detected and installed in the background. The next time you open Visual Studio, the new version of the extension will be running.
 
@@ -151,9 +151,7 @@ If you want to disable automatic updates, you can disable the feature for all ex
 
 - To disable automatic updates for a specific extension, clear the **Automatically update this extension** option in the extension's details pane on the right side of Extension Manager.
 
-### Manage automatic updates (17.14 and later)
-
-Changes in Visual Studio 2022 17.14 and later make it easier to see what's going on with extension updates, and manage auto-update settings from Extension Manager or in **Tools** > **Options**.
+The rest of this section describes changes available in Visual Studio 2022 17.14 and later. The changes make it easier to see what's going on with extension updates, and manage auto-update settings from Extension Manager or in **Tools** > **Options**.
 
 Whenever you open the Extension Manager window, you automatically trigger updates. This ensures you are consistently working with the latest features and fixes without needing to manually initiate updates.
 
