@@ -168,7 +168,7 @@ Select a service endpoint by following these steps:
 
 1. When you enter the code, an IntelliSense list displays that includes the overloads for the constructor. Select the `endpointConfigurationName As String` overload.
 
-1. After you select the overload, enter `="\<Endpoint>"`, where `<Endpoint>` is the name of the endpoint service you want to use.
+1. After you select the overload, enter `="<Endpoint>"`, where `<Endpoint>` is the name of the endpoint service you want to use.
 
    > [!TIP]
    > The names of the available endpoints are defined in the *app.config* file.
