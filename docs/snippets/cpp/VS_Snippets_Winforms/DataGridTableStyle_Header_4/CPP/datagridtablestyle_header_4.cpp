@@ -4,7 +4,7 @@
 /*
 The following program demonstrates the usage of properties 'HeaderBackColor',
 'HeaderForeColor' and events 'HeaderBackColorChanged', 'HeaderForeColorChanged'.
-A table is created and added to a datagrid with two coloumns.The table allows to change
+A table is created and added to a datagrid with two columns.The table allows to change
 Header's  background and foreground colors through selection of combobox values.
 */
 

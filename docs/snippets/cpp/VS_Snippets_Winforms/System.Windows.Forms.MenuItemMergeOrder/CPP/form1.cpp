@@ -69,7 +69,7 @@ public:
       array<MenuItem^>^temp1 = {this->newItem,this->openItem,this->saveItem};
       this->fileItem->MenuItems->AddRange( temp1 );
       
-      // Initalize the optionsMenu item and its contents.
+      // Initialize the optionsMenu item and its contents.
       this->optionsMenu->Index = 1;
       this->optionsMenu->Text = "Options";
       this->viewItem->Index = 0;

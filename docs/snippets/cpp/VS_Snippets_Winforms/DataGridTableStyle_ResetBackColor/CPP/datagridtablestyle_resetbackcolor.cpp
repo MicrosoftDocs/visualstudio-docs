@@ -43,7 +43,7 @@ public:
 
 private:
 
-   // Initialilze form and its controls.
+   // Initialize form and its controls.
    void InitializeComponent()
    {
       myDataGrid = gcnew DataGrid;

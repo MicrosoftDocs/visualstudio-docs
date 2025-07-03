@@ -86,7 +86,7 @@ private:
    // Handle the 'StyleChanged' event for the 'Form'.
    void MyForm_StyleChanged( Object^ /*sender*/, EventArgs^ /*e*/ )
    {
-      MessageBox::Show( "The style releated to the 'Form' has been changed" );
+      MessageBox::Show( "The style related to the 'Form' has been changed" );
    }
    // </Snippet1>
 };

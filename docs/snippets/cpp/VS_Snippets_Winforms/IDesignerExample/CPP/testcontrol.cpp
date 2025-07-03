@@ -41,7 +41,7 @@ public:
       this->component = component;
    }
 
-   // This method peforms the 'default' action for the designer. The default action 
+   // This method performs the 'default' action for the designer. The default action 
    // for a basic IDesigner implementation is invoked when the designer's component 
    // is double-clicked. By default, a component associated with a basic IDesigner 
    // implementation is displayed in the design-mode component tray.

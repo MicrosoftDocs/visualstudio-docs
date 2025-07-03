@@ -20,7 +20,7 @@ namespace TypeCategoryTabExample
    ref class TypeCategoryTab;
 
    // forward declaration.
-   // This component adds a TypeCategoryTab to the propery browser
+   // This component adds a TypeCategoryTab to the property browser
    // that is available for any components in the current design mode document.
 
    [PropertyTabAttribute(TypeCategoryTabExample::TypeCategoryTab::typeid,PropertyTabScope::Document)]

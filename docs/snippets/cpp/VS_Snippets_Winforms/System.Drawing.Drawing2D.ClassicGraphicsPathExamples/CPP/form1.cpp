@@ -116,7 +116,7 @@ private:
 private:
    void AddClosedCurveExample( PaintEventArgs^ e )
    {
-      // Creates a symetrical, closed curve.
+      // Creates a symmetrical, closed curve.
       array<Point>^ myArray = {Point(20,100),Point(40,150),Point(60,125),Point(40,100),Point(60,75),Point(40,50)};
 
       // Create a new path and add curve.
@@ -174,7 +174,7 @@ private:
 private:
    void AddLineExample( PaintEventArgs^ e )
    {
-      //Create a path and add a symetrical triangle using AddLine.
+      // Create a path and add a symmetrical triangle using AddLine.
       GraphicsPath^ myPath = gcnew GraphicsPath;
       myPath->AddLine( 30, 30, 60, 60 );
       myPath->AddLine( 60, 60, 0, 60 );
@@ -191,7 +191,7 @@ private:
 private:
    void AddLinesExample( PaintEventArgs^ e )
    {
-      // Create a symetrical triangle using an array of points.
+      // Create a symmetrical triangle using an array of points.
       array<Point>^ myArray = {Point(30,30),Point(60,60),Point(0,60),Point(30,30)};
 
       //Create a path and add lines.
