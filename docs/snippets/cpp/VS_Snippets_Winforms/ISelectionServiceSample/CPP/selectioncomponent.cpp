@@ -63,7 +63,7 @@ namespace ISelectionServiceExample
                // Because the selection service has been 
                // previously obtained, the component may be in 
                // the process of being resited. 
-               // Detatch the previous selection change event 
+               // Detach the previous selection change event 
                // handlers in case the new selection
                // service is a new service instance belonging to 
                // another design mode service host.

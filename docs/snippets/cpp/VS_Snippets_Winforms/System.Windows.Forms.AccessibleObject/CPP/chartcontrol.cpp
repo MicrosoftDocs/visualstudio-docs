@@ -487,7 +487,7 @@ public:
       }
 
 
-      // Gets the Accessibility object of the child CurveLegend idetified by index.
+      // Gets the Accessibility object of the child CurveLegend identified by index.
       virtual AccessibleObject^ GetChild( int index ) override
       {
          if ( index >= 0 && index < chartControl->Legends->Length )

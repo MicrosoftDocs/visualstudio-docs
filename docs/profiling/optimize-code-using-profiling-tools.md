@@ -1,7 +1,7 @@
 ---
 title: "Beginner's guide to optimizing code"
 description: "Learn how to optimize code and reduce compute costs using Visual Studio profiling tools such as the CPU Usage tool, the .NET Object Allocation tool, and the Database tool."
-ms.date: 3/26/2025
+ms.date: 7/3/2025
 ms.topic: conceptual
 ms.custom: "profiling-seo"
 dev_langs:
@@ -18,55 +18,50 @@ monikerRange: '>= vs-2022'
 ---
 # Case Study: Beginner's guide to optimizing code and reducing compute costs (C#, Visual Basic, C++, F#)
 
-Reducing your compute time means reducing costs, so optimizing your code can save money. This case study uses a sample application with performance issues to demonstrate how to use profiling tools to improve efficiency. If you want to compare profiling tools, see [Which tool should I choose?](../profiling/choose-performance-tool.md)
+Optimizing your code reduces compute time and costs. This case study demonstrates how to use Visual Studio profiling tools to identify and fix performance issues in a sample .NET application. If you want to compare profiling tools, see [Which tool should I choose?](../profiling/choose-performance-tool.md)
 
-This case study covers these topics:
+This guide covers:
 
-- The importance of code optimization and its impact on reducing compute costs.
-- How to use Visual Studio profiling tools to analyze application performance.
-- How to interpret the data provided by these tools to identify performance bottlenecks.
-- How to apply practical strategies to optimize code, focusing on CPU usage, memory allocation, and database interactions.
+- How to use Visual Studio profiling tools to analyze and improve performance.
+- Practical strategies for optimizing CPU usage, memory allocation, and database interactions.
 
-Follow along and then apply these techniques to your own applications to make them more efficient and cost-effective.
+Apply these techniques to make your own applications more efficient.
 
 ## Optimization case study
 
-The sample application examined in this case study is a .NET application that runs queries against a database of blogs and blog posts. It utilizes the Entity Framework, a popular ORM (Object-Relational Mapping) for .NET, to interact with a SQLite local database. The application is structured to execute a large number of queries, simulating a real-world scenario where a .NET application might be required to handle extensive data retrieval tasks. The sample application is a modified version of the [Entity Framework getting started sample](/ef/core/get-started/overview/first-app).
+The sample .NET application runs queries against a SQLite database of blogs and posts using Entity Framework. It executes many queries, simulating a real-world data retrieval scenario. The app is based on the [Entity Framework getting started sample](/ef/core/get-started/overview/first-app), but uses a larger dataset.
 
-The primary performance issue with the sample application lies in how it manages compute resources and interacts with the database. The application has a performance bottleneck that significantly impacts its efficiency and, consequently, the compute costs associated with running it. The problem includes the following symptoms:
+Key performance issues include:
 
-- **High CPU Usage**: Applications may perform inefficient computations or processing tasks in a way that unnecessarily consumes a large amount of CPU resources. This can lead to slow response times and increased operational costs.
+- **High CPU Usage**: Inefficient computations or processing tasks increase CPU consumption and costs.
+- **Inefficient Memory Allocation**: Poor memory management leads to excessive garbage collection and reduced performance.
+- **Database Overheads**: Inefficient queries and excessive database calls degrade performance.
 
-- **Inefficient Memory Allocation**: Applications can sometimes face issues related to memory usage and allocation. In .NET apps, inefficient memory management can lead to increased garbage collection, which in turn can affect application performance.
-
-- **Database Interaction Overheads**: Applications that execute a large number of queries against a database can experience bottlenecks related to database interactions. This includes inefficient queries, excessive database calls, and poor use of Entity Framework capabilities, all of which can degrade performance.
-
-The case study aims to address these issues by employing Visual Studio's profiling tools to analyze the application's performance. By understanding where and how the application's performance can be improved, developers can implement optimizations to reduce CPU usage, improve memory allocation efficiency, streamline database interactions, and optimize resource utilization. The ultimate goal is to enhance the application's overall performance, making it more efficient and cost-effective to run.
+This case study uses Visual Studio profiling tools to pinpoint and address these issues, aiming to make the application more efficient and cost-effective.
 
 ## Challenge
 
-Addressing the performance issues in the sample .NET application presents several challenges. These challenges stem from the complexity of diagnosing performance bottlenecks. The key challenges in fixing the problems described are as follows:
+Fixing these performance issues involves several challenges:
 
-- **Diagnosing Performance Bottlenecks**: One of the primary challenges is accurately identifying the root causes of the performance issues. High CPU usage, inefficient memory allocation, and database interaction overheads can have multiple contributing factors. Developers must use profiling tools effectively to diagnose these issues, which requires some understanding of how these tools work and how to interpret their output.
+- **Diagnosing Bottlenecks**: Identifying root causes of high CPU, memory, or database overheads requires effective use of profiling tools and a correct interpretion of results.
+- **Knowledge and Resource Constraints**: Profiling and optimization require specific skills and experience, which may not always be available.
 
-- **Knowledge and Resource Constraints**: Finally, teams may face constraints related to knowledge, expertise, and resources. Profiling and optimizing an application requires specific skills and experience, and not all teams may have immediate access to these resources.
-
-Addressing these challenges requires a strategic approach that combines effective use of profiling tools, technical knowledge, and careful planning and testing. The case study aims to guide developers through this process, providing strategies and insights to overcome these challenges and improve the application's performance.
+A strategic approach combining profiling tools, technical knowledge, and careful testing is essential to overcome these challenges.
 
 ## Strategy
 
 Here is a high-level view of the approach in this case study:
 
-- We start the investigation by taking a CPU usage trace. Visual Studio's [CPU Usage tool](../profiling/cpu-usage.md) is often helpful to begin performance investigations and to optimize code to reduce cost.
-- Next, to get additional insights to help isolate issues or improve the performance, we collect a trace using one of the other profiling tools. For example:
-  - We take a look at the memory usage. For .NET, we try the [.NET Object Allocation tool](../profiling/dotnet-alloc-tool.md) first. (For either .NET or C++, you can look at the Memory Usage tool instead.)
-  - For ADO.NET or Entity Framework, we can use the [Database tool](../profiling/analyze-database.md) to examine SQL queries, precise query time, and more.
+- Start with a CPU usage trace using Visual Studio's [CPU Usage tool](../profiling/cpu-usage.md). Visual Studio's CPU Usage tool is a good starting point for performance investigations.
+- Collect additional traces for memory and database analysis:
+  - Use the [.NET Object Allocation tool](../profiling/dotnet-alloc-tool.md) for memory insights.
+  - Use the [Database tool](../profiling/analyze-database.md) to examine SQL queries and timings.
 
 Data collection requires the following tasks:
 
-- Setting the app to a Release build.
-- Selecting the CPU Usage tool from the Performance Profiler (**Alt+F2**). (Later steps involve a few of the other tools.)
-- From the Performance Profiler, start the app and collect a trace.
+- Set the app to Release build.
+- Select the CPU Usage tool in Performance Profiler (**Alt+F2**).
+- In the Performance Profiler, start the app and collect a trace.
 
 ### Inspect areas of high CPU usage
 

@@ -16,7 +16,7 @@ public:
       
       //This call is required by the Windows Form Designer.
       InitializeComponent();
-      InitalizeComboBoxAndTextBoxes();
+      InitializeComboBoxAndTextBoxes();
       this->comboBox1->SelectionChangeCommitted += gcnew EventHandler( this, &Form1::comboBox1_SelectionChangeCommitted );
       
       //Add any initialization after the InitializeComponent() call
@@ -68,7 +68,7 @@ internal:
    System::Windows::Forms::TextBox^ textbox1;
 
 private:
-   void InitalizeComboBoxAndTextBoxes()
+   void InitializeComboBoxAndTextBoxes()
    {
       this->comboBox1 = gcnew System::Windows::Forms::ComboBox;
       this->comboBox1->Location = Point(25,150);
