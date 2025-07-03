@@ -336,7 +336,7 @@ LRESULT CMainFrame::OnToolbarReset(WPARAM wp,LPARAM)
 
 	case IDR_BUILD:
 		{
-			// Replace "Confoguration..." button by combobox:
+			// Replace "Configuration..." button by combobox:
 			CMFCToolBarComboBoxButton comboButton(ID_DUMMY_SELECT_ACTIVE_CONFIGURATION, GetCmdMgr()->GetCmdImage(ID_DUMMY_SELECT_ACTIVE_CONFIGURATION, FALSE), CBS_DROPDOWNLIST);
 			comboButton.AddItem(_T("Win32 Debug"));
 			comboButton.AddItem(_T("Win32 Release"));

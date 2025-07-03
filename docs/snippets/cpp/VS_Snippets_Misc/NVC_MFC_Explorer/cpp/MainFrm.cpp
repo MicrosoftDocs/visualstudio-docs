@@ -137,7 +137,7 @@ int CMainFrame::OnCreate(LPCREATESTRUCT lpCreateStruct)
 		return -1;      // fail to create
 	}
 
-	// Each rebar pane will ocupy its own row:
+	// Each rebar pane will occupy its own row:
 	DWORD dwStyle = RBBS_GRIPPERALWAYS | RBBS_FIXEDBMP | RBBS_BREAK;
 
 	if (!m_wndReBar.Create(this) ||

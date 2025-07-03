@@ -1,6 +1,6 @@
 ---
 title: Properties of Domain Relationships
-description: Learn about the properties that are associated with a domain relationshop, like Access Modifier, Custome Attributes, and Generates Double Derived.
+description: Learn about the properties that are associated with a domain relationship, like Access Modifier, Custom Attributes, and Generates Double Derived.
 ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:

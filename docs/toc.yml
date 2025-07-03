@@ -527,8 +527,6 @@
         href: ide/reference/how-to-display-line-numbers-in-the-editor.md
       - name: Display URLs as links
         href: ide/reference/how-to-display-urls-as-links-in-the-editor.md
-      - name: Set language-specific editor options
-        href: ide/reference/setting-language-specific-editor-options.md
     - name: Code style
       items:
       - name: Code style preferences
@@ -894,14 +892,10 @@
       href: ide/preview-changes.md
     - name: Choose Toolbox items, WPF components
       href: ide/reference/choose-toolbox-items-wpf-components.md
-    - name: Code snippet picker
-      href: ide/reference/code-snippet-picker.md
     - name: Command window
       href: ide/reference/command-window.md
     - name: Error List window
       href: ide/reference/error-list-window.md
-    - name: File Properties, JavaScript
-      href: ide/reference/file-properties-javascript.md
     - name: Go To Line
       href: ide/reference/go-to-line.md
     - name: Paste JSON or XML as classes
@@ -934,12 +928,6 @@
           href: ide/reference/international-settings-environment-options-dialog-box.md
         - name: Preview Features
           href: ide/reference/environment-preview-features-options.md
-        - name: Startup
-          href: ide/reference/startup-environment-options-dialog-box.md
-        - name: Tabs and Windows
-          href: ide/reference/tabs-and-windows-environment-options-dialog-box.md
-        - name: Task List
-          href: ide/reference/task-list-environment-options-dialog-box.md
         - name: Trust Settings
           href: ide/reference/trust-settings.md
         - name: Web Browser
@@ -954,12 +942,8 @@
           href: ide/reference/options-dialog-box-projects-and-solutions-build-and-run.md
         - name: Locations
           href: ide/reference/projects-solutions-locations-options.md
-        - name: VB Defaults
-          href: ide/reference/visual-basic-defaults-projects-options-dialog-box.md
         - name: VC++ Project Settings
           href: ide/reference/vcpp-project-settings-projects-and-solutions-options-dialog-box.md
-        - name: Web Projects
-          href: ide/reference/options-dialog-box-projects-and-solutions-web-projects.md
       - name: Text Editor
         items:
         - name: General
@@ -972,8 +956,6 @@
           items:
           - name: General
             href: ide/reference/options-text-editor-all-languages.md
-          - name: Scroll Bars
-            href: ide/reference/options-text-editor-all-languages-scroll-bars.md
           - name: Tabs
             href: ide/reference/options-text-editor-all-languages-tabs.md
         - name: Visual Basic
@@ -1006,24 +988,8 @@
             href: ide/reference/options-text-editor-fsharp-advanced.md
           - name: Code Fixes
             href: ide/reference/options-text-editor-fsharp-code-fixes.md
-          - name: CodeLens
-            href: ide/reference/options-text-editor-fsharp-codelens.md
           - name: IntelliSense
             href: ide/reference/options-text-editor-fsharp-intellisense.md
-        - name: HTML (Web Forms)
-          items:
-          - name: Formatting
-            href: ide/reference/options-text-editor-html-formatting.md
-          - name: Miscellaneous
-            href: ide/reference/options-text-editor-html-miscellaneous.md
-          - name: Validation
-            href: ide/reference/options-text-editor-html-validation.md
-        - name: U-SQL
-          items:
-          - name: Formatting
-            href: ide/reference/options-text-editor-usql-formatting.md
-          - name: IntelliSense
-            href: ide/reference/options-text-editor-usql-intellisense.md
         - name: XAML
           items:
           - name: Formatting
@@ -1076,8 +1042,6 @@
           href: ide/reference/build-page-project-designer-csharp.md
         - name: Advanced Build Settings Dialog Box (C#)
           href: ide/reference/advanced-build-settings-dialog-box-csharp.md
-      - name: Code Analysis, Project Designer
-        href: ide/reference/code-analysis-project-designer.md
       - name: Compile Page, Project Designer (Visual Basic)
         items:
         - name: Compile Page
@@ -1086,8 +1050,6 @@
           href: ide/reference/advanced-compiler-settings-dialog-box-visual-basic.md
         - name: Build Events Dialog Box (Visual Basic)
           href: ide/reference/build-events-dialog-box-visual-basic.md
-      - name: Debug Page, Project Designer
-        href: ide/reference/debug-page-project-designer.md
       - name: My Extensions Page, Project Designer (Visual Basic)
         href: ide/reference/my-extensions-page-project-designer-visual-basic.md
       - name: References Page, Project Designer (Visual Basic)
@@ -1100,10 +1062,6 @@
           href: ide/reference/advanced-settings-for-services-dialog-box.md
       - name: Settings Page, Project Designer
         href: ide/reference/settings-page-project-designer.md
-    - name: Property Pages, JavaScript
-      href: ide/reference/property-pages-javascript.md
-    - name: Property Pages, React, Angular, and Vue
-      href: ide/reference/property-pages-javascript-esproj.md
     - name: Properties window
       href: ide/reference/properties-window.md
     - name: Team Explorer reference

@@ -16,7 +16,7 @@ In this article, you learn to use the Help Viewer to deploy and manage local Hel
 
 If your network environment allows clients to access the internet, you can use the **Help Content Manager** executable to deploy local Help content from the internet. For more information about *HlpCtntMgr.exe* command line syntax, see [Command-line arguments for the Help Content Manager](../help-viewer/command-line-arguments.md).
 
-For information about creating content, creating an intranet service endpoint, and similar types of activities, see the [Help Viewer SDK](../extensibility/internals/microsoft-help-viewer-sdk.md).
+For information about creating content, creating an intranet service endpoint, and similar types of activities, see the [Help Viewer SDK](/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/microsoft-help-viewer-sdk).
 
 If you do not have internet access in your network environment, Help Viewer can deploy local Help content from the intranet or a network share. You can also disable Visual Studio IDE Help options by using [registry key overrides](../help-viewer/behavior-overrides.md) for functionality such as:
 
@@ -142,4 +142,4 @@ Next, you need to package the content so it can be deployed to client computers.
 - [Command-line arguments for the Help Content Manager](../help-viewer/command-line-arguments.md)
 - [Override Help Viewer defaults](../help-viewer/behavior-overrides.md)
 - [Microsoft Help Viewer](../help-viewer/overview.md)
-- [Help Viewer SDK](../extensibility/internals/microsoft-help-viewer-sdk.md)
+- [Help Viewer SDK](/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/microsoft-help-viewer-sdk)

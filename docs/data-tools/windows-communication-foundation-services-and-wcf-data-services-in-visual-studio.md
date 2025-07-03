@@ -278,6 +278,7 @@ The following articles describe concepts and procedures related to WCF services 
 
 | Title | Description |
 | - | - |
+<<<<<<< HEAD
 | [Walkthrough: Create a basic WCF service in Windows Forms](../data-tools/walkthrough-creating-a-simple-wcf-service-in-windows-forms.md) | Provides a step-by-step demonstration of creating and using WCF services in Visual Studio. |
 | [Walkthrough: Create a WCF data service with WPF and Entity Framework](../data-tools/walkthrough-creating-a-wcf-data-service-with-wpf-and-entity-framework.md) | Provides a step-by-step demonstration of how to create and use WCF Data Services in Visual Studio. |
 | [Use the WCF development tools](/dotnet/framework/wcf/using-the-wcf-development-tools) | Describes how to create and test WCF services in Visual Studio. |
@@ -286,6 +287,16 @@ The following articles describe concepts and procedures related to WCF services 
 | [Debug WCF services](../debugger/debugging-wcf-services.md) | Describes common debugging problems and techniques you might encounter when debugging WCF services. |
 | [Walkthrough: Create an n-tier data application](../data-tools/walkthrough-creating-an-n-tier-data-application.md) | Provides step-by-step instructions for creating a typed dataset and separating the TableAdapter and dataset code into multiple projects. |
 | Review the [Configure Service Reference dialog](../data-tools/configure-service-reference-dialog-box.md) | Describes the user interface elements of the **Configure Service Reference** dialog. |
+=======
+| [Walkthrough: Creating a simple WCF Service in Windows Forms](../data-tools/walkthrough-creating-a-simple-wcf-service-in-windows-forms.md) | Provides a step-by-step demonstration of creating and using WCF services in Visual Studio. |
+| [Walkthrough: Creating a WCF data service with WPF and Entity Framework](/previous-versions/visualstudio/visual-studio-2017/data-tools/walkthrough-creating-a-wcf-data-service-with-wpf-and-entity-framework) | Provides a step-by-step demonstration of how to create and use WCF Data Services in Visual Studio. |
+| [Using the WCF development tools](/dotnet/framework/wcf/using-the-wcf-development-tools) | Discusses how to create and test WCF services in Visual Studio. |
+| | [How to: Add, update, or remove a WCF Data Service reference](../data-tools/how-to-add-update-or-remove-a-wcf-data-service-reference.md) |
+| [Troubleshooting service references](/troubleshoot/developer/visualstudio/tools-utilities/troubleshooting-service-references) | Presents some common errors that can occur with service references and how to prevent them. |
+| [Debugging WCF services](../debugger/debugging-wcf-services.md) | Describes common debugging problems and techniques you might encounter when debugging WCF services. |
+| [Walkthrough: Creating an n-tier data application](../data-tools/walkthrough-creating-an-n-tier-data-application.md) | Provides step-by-step instructions for creating a typed dataset and separating the TableAdapter and dataset code into multiple projects. |
+| [Configure Service Reference dialog box](../data-tools/configure-service-reference-dialog-box.md) | Describes the user interface elements of the **Configure Service Reference** dialog box. |
+>>>>>>> 1ae8332f860511787cfae940241f5edf12056de2
 
 ## Related content
 

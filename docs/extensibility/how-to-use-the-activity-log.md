@@ -65,5 +65,5 @@ You should obtain the activity log just before writing to it. Don't cache or sav
 - [/Log (devenv.exe)](../ide/reference/log-devenv-exe.md)
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsActivityLog>
 - <xref:Microsoft.VisualStudio.Shell.Interop.__ACTIVITYLOG_ENTRYTYPE>
-- [Troubleshooting VSPackages](../extensibility/troubleshooting-vspackages.md)
+- [Troubleshooting VSPackages](/troubleshoot/developer/visualstudio/extensibility/troubleshooting-vspackages)
 - [VSPackages](../extensibility/internals/vspackages.md)

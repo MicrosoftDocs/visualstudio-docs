@@ -129,7 +129,7 @@ FONT 8, "MS Sans Serif", 0, 0, 0x1
 BEGIN
     LTEXT           "John Smith",IDC_FROM,28,3,62,8,0,WS_EX_TRANSPARENT
     ICON            IDI_MAIL,IDC_STATIC,2,3,20,20,0,WS_EX_TRANSPARENT
-    PUSHBUTTON      "Hello,\r\nI'm sending you the requsted information",
+    PUSHBUTTON      "Hello,\r\nI'm sending you the requested information",
                     IDC_BUTTON1,28,21,104,27,0,WS_EX_TRANSPARENT
     PUSHBUTTON      "",IDC_FLAG,2,29,12,12
     PUSHBUTTON      "",IDC_DELETE,14,29,12,12

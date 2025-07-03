@@ -26,7 +26,7 @@ To create a source control plug-in, you must create a DLL that implements the fu
 
  Provides a brief overview of the changes that were made to the Source Control Plug-in API in version 1.3.
 
-- [What's new in the Source Control Plug-in API Version 1.2](../../extensibility/internals/what-s-new-in-the-source-control-plug-in-api-version-1-2.md)
+- [What's new in the Source Control Plug-in API Version 1.2](/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/what-s-new-in-the-source-control-plug-in-api-version-1-2)
 
  Provides a brief overview of the changes that were made to the Source Control Plug-in API in version 1.2.
 

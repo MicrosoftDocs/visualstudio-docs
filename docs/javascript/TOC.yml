@@ -67,7 +67,7 @@
 - name: Reference
   items:
   - name: Properties, React, Angular, Vue
-    href: ../ide/reference/property-pages-javascript-esproj.md?toc=%252fvisualstudio%252fjavascript%252ftoc.json
+    href: property-pages-javascript-esproj.md
   - name: MSBuild properties for JSPS
     href: javascript-project-system-msbuild-reference.md
 - name: Resources
