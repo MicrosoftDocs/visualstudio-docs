@@ -153,11 +153,11 @@ When an update is available for an extension, you see a notification in a yellow
 
 Also, an infobar appears when updates are applied, reminding you to restart Visual Studio so that the extensions take effect.
 
-Settings for automatic updates are available on the extension page:
+You can change settings for automatic updates on the extension's page in Extension Manager.
 
 :::image type="content" source="./media/vs-2022/finding-and-using-visual-studio-extensions/extension-manager-update-automatically.png" alt-text="Screenshot showing how to toggle whether an extension is updated automatically." lightbox="./media/vs-2022/finding-and-using-visual-studio-extensions/extension-manager-update-automatically.png" :::
 
-A new **Pending** category enables you to view only pending updates or modifications.
+The **Pending** category enables you to view only extensions with pending updates.
 
 :::image type="content" source="./media/vs-2022/finding-and-using-visual-studio-extensions/extension-manager-category-pending.png" alt-text="Screenshot showing how to filter the extension list to view only extensions with pending updates." lightbox="./media/vs-2022/finding-and-using-visual-studio-extensions/extension-manager-category-pending.png" :::
 
@@ -167,7 +167,7 @@ You can also configure auto-update settings in **Tools > Options**.
 
 :::image type="content" source="./media/vs-2022/finding-and-using-visual-studio-extensions/extension-manager-tools-options.png" alt-text="Screenshot showing how to configure automatic extension updates in Tools > Options." lightbox="./media/vs-2022/finding-and-using-visual-studio-extensions/extension-manager-tools-options.png" :::
 
-An excluded extensions list is shown that shows the extensions you choose to exclude from automatic updates.
+The list under **Extensions excluded from automatic updates** shows the extensions currently set to not be updated automatically. You might use this to ensure the stability and consistency of the extensions you're using during a critical phase of your development lifecycle.
 
 :::moniker-end
 
