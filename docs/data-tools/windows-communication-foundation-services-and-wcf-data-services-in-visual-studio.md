@@ -150,7 +150,7 @@ Select a service endpoint by following these steps:
 
 1. Add a reference to a WCF service by right-clicking the project node in **Solution Explorer** and selecting **Add service reference**.
 
-1. In the Code Editor, add a constructor for the service reference. Replace `ServiceReference` with the namespace for the service reference, and replace `Service1Client` with the name of the service.
+2. In the Code Editor, add a constructor for the service reference. Replace `ServiceReference` with the namespace for the service reference, and replace `Service1Client` with the name of the service.
 
    ### [C#](#tab/csharp)
 
@@ -166,9 +166,9 @@ Select a service endpoint by following these steps:
 
    ---
 
-1. When you enter the code, an IntelliSense list displays that includes the overloads for the constructor. Select the `endpointConfigurationName As String` overload.
+3. When you enter the code, an IntelliSense list displays that includes the overloads for the constructor. Select the `endpointConfigurationName As String` overload.
 
-1. After you select the overload, enter `="<ServiceEndpoint>"`, where `<ServiceEndpoint>` is the name of the endpoint service you want to use.
+4. After you select the overload, enter `="<ServiceEndpoint>"`, where `<ServiceEndpoint>` is the name of the endpoint service you want to use.
 
    > [!TIP]
    > The names of the available endpoints are defined in the *app.config* file.
@@ -227,7 +227,7 @@ To bind a control to a single data field returned by a WCF service, use these st
 
 1. Drag the field onto a form. The control is added to the form along with a <xref:System.Windows.Forms.BindingSource> component and a <xref:System.Windows.Forms.BindingNavigator> component.
 
-1. Repeat steps 4 though 6 and bind any other fields.
+1. Repeat steps 4 through 6 and bind any other fields.
 
 ### Bind control to composite type returned by WCF service
 
