@@ -28,7 +28,7 @@ HRESULT get_PGOEdgeCount ( 
 
  `pRetVal`
 
-[out] Returns the edge count between a caller/calle.
+[out] Returns the edge count between a caller/callee.
 
 ## Return Value
 
