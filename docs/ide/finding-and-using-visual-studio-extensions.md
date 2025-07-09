@@ -19,7 +19,7 @@ ms.subservice: general-ide
 
 # Find, install, and manage extensions for Visual Studio
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 This article describes how to find, install, and manage extension packages in Visual Studio. [Extensions](../extensibility/index.yml) are code packages that run inside Visual Studio and provide new or improved features. Extensions can be controls, samples, templates, tools, or other components that add functionality to Visual Studio, for example, [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsls-vs-2022) or [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs).
 
@@ -42,7 +42,7 @@ For information about creating Visual Studio extensions, see [Visual Studio SDK]
 
 In the Visual Studio IDE, Extension Manager is the tool you use to find, install, and manage Visual Studio extensions. To open Extension Manager, select **Extensions** > **Manage Extensions**. Or type **extensions** in the search box and select **Manage Extensions**.
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 :::image type="content" source="media/finding-using-visual-studio-extensions/vs-2022/extensions-and-updates.png" alt-text="Screenshot of Extension Manager in Visual Studio.":::
 
@@ -56,6 +56,16 @@ In the Visual Studio IDE, Extension Manager is the tool you use to find, install
 
 The left pane categorizes extensions by those that are available on Visual Studio Marketplace (**Browse**), those that are installed, and those that have updates available. The **Roaming** tab lists all the Visual Studio extensions that you have installed on any machine or instance of Visual Studio. It's designed to let you find your favorite extensions more easily.
 
+:::moniker range=">=vs-2022"
+
+Tabs have command buttons to filter and sort extensions, and a gear icon that takes you to the **Tools** > **Options** screen.
+
+Use the filter command button to filter extensions by category, which includes **Enabled**, **Disabled**, or **Incompatible** extensions. In 17.14 and later, you can also filter by **Pending**, which means extensions that have updates that will be available the next time you restart Visual Studio.
+
+Use the sort button to sort by extension name, extension author, or date.
+
+:::moniker-end
+
 ## Find and install extensions
 
 You can install extensions from [Visual Studio Marketplace](https://marketplace.visualstudio.com) or from Extension Manager in Visual Studio.
@@ -66,7 +76,7 @@ To install extensions from Visual Studio:
 
 1. Select **Install**.
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
   After the download completes, you see a notification at the top of Extension Manager: "Your changes are scheduled. The modifications will begin when Microsoft Visual Studio is closed."
 
@@ -119,6 +129,8 @@ To restrict when per-user extensions load:
 
 ### Automatic extension updates
 
+:::moniker range="<=vs-2019"
+
 Extensions are updated automatically when a new version is available on Visual Studio Marketplace. The new version of the extension is detected and installed in the background. The next time you open Visual Studio, the new version of the extension will be running.
 
 If you want to disable automatic updates, you can disable the feature for all extensions or for only specific extensions.
@@ -126,6 +138,46 @@ If you want to disable automatic updates, you can disable the feature for all ex
 - To disable automatic updates for all extensions, select the **View Settings** button in the **Extensions** > **Manage Extensions** dialog. In the **Options** dialog, under **Environment** > **Extensions**, clear **Automatically update extensions**.
 
 - To disable automatic updates for a specific extension, clear the **Automatically update this extension** option in the extension's details pane on the right side of Extension Manager.
+
+:::moniker-end
+
+:::moniker range=">=vs-2022"
+
+Extensions are updated automatically when a new version is available on Visual Studio Marketplace. The new version of the extension is detected and installed in the background. The next time you open Visual Studio, the new version of the extension will be running.
+
+If you want to disable automatic updates, you can disable the feature for all extensions or for only specific extensions.
+
+- To disable automatic updates for all extensions, select the **View Settings** button in the **Extensions** > **Manage Extensions** dialog. In the **Options** dialog, under **Environment** > **Extensions**, clear **Automatically update extensions**.
+
+- To disable automatic updates for a specific extension, clear the **Automatically update this extension** option in the extension's details pane on the right side of Extension Manager.
+
+The rest of this section describes changes available in Visual Studio 2022 17.14 and later. The changes make it easier to see what's going on with extension updates, and manage auto-update settings from Extension Manager or in **Tools** > **Options**.
+
+Whenever you open the Extension Manager window, you automatically trigger updates. This ensures you are consistently working with the latest features and fixes without needing to manually initiate updates.
+
+When an update is available for an extension, you see a notification in a yellow infobar:
+
+:::image type="content" source="./media/vs-2022/finding-and-using-visual-studio-extensions/extension-manager-notification-bar.png" alt-text="Screenshot showing how Visual Studio notifies you about extension updates that are available.":::
+
+Also, an infobar appears when updates are applied, reminding you to restart Visual Studio so that the extensions take effect.
+
+You can change settings for automatic updates on the extension's page in Extension Manager.
+
+:::image type="content" source="./media/vs-2022/finding-and-using-visual-studio-extensions/extension-manager-update-automatically.png" alt-text="Screenshot showing how to toggle whether an extension is updated automatically." lightbox="./media/vs-2022/finding-and-using-visual-studio-extensions/extension-manager-update-automatically.png" :::
+
+The **Pending** category enables you to view only extensions with pending updates.
+
+:::image type="content" source="./media/vs-2022/finding-and-using-visual-studio-extensions/extension-manager-category-pending.png" alt-text="Screenshot showing how to filter the extension list to view only extensions with pending updates." lightbox="./media/vs-2022/finding-and-using-visual-studio-extensions/extension-manager-category-pending.png" :::
+
+#### Auto update settings
+
+You can also configure auto-update settings in **Tools > Options**.
+
+:::image type="content" source="./media/vs-2022/finding-and-using-visual-studio-extensions/extension-manager-tools-options.png" alt-text="Screenshot showing how to configure automatic extension updates in Tools > Options." lightbox="./media/vs-2022/finding-and-using-visual-studio-extensions/extension-manager-tools-options.png" :::
+
+The list under **Extensions excluded from automatic updates** shows the extensions currently set to not be updated automatically. You might use this to ensure the stability and consistency of the extensions you're using during a critical phase of your development lifecycle.
+
+:::moniker-end
 
 ### Crash and unresponsiveness notifications
 
