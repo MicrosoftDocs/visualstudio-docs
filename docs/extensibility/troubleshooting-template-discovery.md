@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot template discovery in Visual Studio
 description: Learn how to enable diagnostic logging to troubleshoot deploying custom projects and templates in the Visual Studio SDK.
-ms.date: 01/02/2018
+ms.date: 7/10/2025
 ms.topic: how-to
 author: tinaschrepfer
 ms.author: tinali
@@ -25,7 +25,7 @@ If you run into problems deploying your project or item templates, you can enabl
 
 4. Open Visual Studio and launch the **Create a new project** and **New Item** dialog boxes to initialize both template trees.
 
-   The template log now appears in **%LOCALAPPDATA%\Microsoft\VisualStudio\16.0_[instanceid]\VsTemplateDiagnosticsList.csv** (instanceid corresponds to the installation ID of your instance of Visual Studio). Each template tree initialization appends entries to this log.
+   The template log now appears in **%LOCALAPPDATA%\Microsoft\VisualStudio\16.0_[instanceid]\VsTemplateDiagnosticList.csv** (instanceid corresponds to the installation ID of your instance of Visual Studio). Each template tree initialization appends entries to this log.
 
 The log file contains the following columns:
 
