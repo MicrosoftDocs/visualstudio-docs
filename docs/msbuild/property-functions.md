@@ -492,7 +492,7 @@ MSBuild 16.7 and higher define several functions for handling [TargetFramework a
 
 |Function signature|Description|
 |------------------------|-----------------|
-|`FilterTargetFrameworks(string incoming, string filter)`|Return the list of the target frameworks that match the specified filter. An incoming target framework from `incoming` is kept if it is compatible with any of the desired target frameworks on `filter`.|
+|`FilterTargetFrameworks(string incoming, string filter)`|Return the list of the target frameworks that match the specified filter. An target framework from `incoming` is kept if it is compatible with any of the desired target frameworks on `filter`.|
 |`GetTargetFrameworkIdentifier(string targetFramework)`|Parse the TargetFrameworkIdentifier from the TargetFramework.|
 |`GetTargetFrameworkVersion(string targetFramework, int versionPartCount)`|Parse the TargetFrameworkVersion from the TargetFramework.|
 |`GetTargetPlatformIdentifier(string targetFramework)`|Parse the TargetPlatformIdentifier from the TargetFramework.|
