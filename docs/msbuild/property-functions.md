@@ -206,25 +206,31 @@ Here is a list of MSBuild property functions:
 |`string ConvertFromBase64(string toDecode)`|Returns the string after converting from base 64 (alphanumeric characters plus `+` and `/`), ending in one or two `=`.|
 |`double Divide(double a, double b)`|Divide two doubles.|
 |`long Divide(long a, long b)`|Divide two longs.|
-|`bool DoesTaskHostExist(string runtime, string architecture)`|Returns whether a task host is currently installed for the specified runtime and architecture values.|
+|`bool DoesTaskHostExist(string runtime, string architecture)`|Returns whether a task host is currently installed for the specified runtime and architecture values. See [MSBuild DoesTaskHostExist](#msbuild-doestaskhostexist). |
 |`string Escape(string unescaped)`|Escape the string according to MSBuild escaping rules.|
-|`string EnsureTrailingSlash(string path)`|If the given path doesn't have a trailing slash then add one. If the path is an empty string, does not modify it.|
+|`string EnsureTrailingSlash(string path)`|If the given path doesn't have a trailing slash then add one. If the path is an empty string, does not modify it. See [MSBuild EnsureTrailingSlash](#msbuild-ensuretrailingslash).|
+|`string FilterTargetFrameworks(string incoming, string filter)`|Return the list of the target frameworks that match the specified filter. An target framework from `incoming` is kept if it is compatible with any of the desired target frameworks on `filter`. See [MSBuild TargetFramework and TargetPlatform functions](#msbuild-targetframework-and-targetplatform-functions).|
 |`string GetCurrentToolsDirectory()`| Get the current MSBuild tools directory. |
-|`GetMSBuildExtensionsPath()`| Gets the MSBuild extensions path. When running *MSBuild.exe*, this is usually the MSBuild executable folder. When running in Visual Studio, this is the MSBuild subfolder under the Visual Studio installation folder. |
+|`string GetMSBuildExtensionsPath()`| Gets the MSBuild extensions path. When running *MSBuild.exe*, this is usually the MSBuild executable folder. When running in Visual Studio, this is the MSBuild subfolder under the Visual Studio installation folder. |
 |`string GetMSBuildSDKsPath()` | Gets the directory where SDKs are expected, for the current MSBuild instance.|
 |`string GetProgramFiles32()` | Gets the filesystem root folder where 32-bit software packages are typically installed. For example, `C:\Program Files (x86)`. |
+|`string GetTargetFrameworkIdentifier(string targetFramework)`|Parse the TargetFrameworkIdentifier from the TargetFramework.  See [MSBuild TargetFramework and TargetPlatform functions](#msbuild-targetframework-and-targetplatform-functions).|
+|`string GetTargetFrameworkVersion(string targetFramework, int versionPartCount)`|Parse the TargetFrameworkVersion from the TargetFramework.  See [MSBuild TargetFramework and TargetPlatform functions](#msbuild-targetframework-and-targetplatform-functions).|
+|`string GetTargetPlatformIdentifier(string targetFramework)`|Parse the TargetPlatformIdentifier from the TargetFramework.  See [MSBuild TargetFramework and TargetPlatform functions](#msbuild-targetframework-and-targetplatform-functions).|
+|`string GetTargetPlatformVersion(string targetFramework, int versionPartCount)`|Parse the TargetPlatformVersion from the TargetFramework.  See [MSBuild TargetFramework and TargetPlatform functions](#msbuild-targetframework-and-targetplatform-functions).|
 |`string GetToolsDirectory32()` | Gets the directory where 32-bit versions of the MSBuild tools are located. |
 |`string GetToolsDirectory64()` | Gets the directory where 64-bit versions of the MSBuild tools are located. |
-|`string GetDirectoryNameOfFileAbove(string startingDirectory, string fileName)`|Locate and return the directory of a file in either the directory specified or a location in the directory structure above that directory.|
-|`string GetPathOfFileAbove(string file, string startingDirectory)`|Searches for and returns the full path to a file in the directory structure at and above the current build file's location, or based on `startingDirectory`, if specified.|
-|`object GetRegistryValue(string keyName, string valueName, object defaultValue)`|Get the value of the registry key and value.|
-|`object GetRegistryValueFromView(string keyName, string valueName, object defaultValue, params object[] views)`|Gets system registry data given the registry key, value, and one or more ordered registry views.|
+|`string GetDirectoryNameOfFileAbove(string startingDirectory, string fileName)`|Locate and return the directory of a file in either the directory specified or a location in the directory structure above that directory. See [MSBuild GetDirectoryNameOfFileAbove](#msbuild-getdirectorynameoffileabove).|
+|`string GetPathOfFileAbove(string file, string startingDirectory)`|Searches for and returns the full path to a file in the directory structure at and above the current build file's location, or based on `startingDirectory`, if specified. See [MSBuild GetPathOfFileAbove](#msbuild-getpathoffileabove). |
+|`object GetRegistryValue(string keyName, string valueName, object defaultValue)`|Get the value of the registry key and value. See [MSBuild GetRegistryValue](#msbuild-getregistryvalue). |
+|`object GetRegistryValueFromView(string keyName, string valueName, object defaultValue, params object[] views)`|Gets system registry data given the registry key, value, and one or more ordered registry views. See [MSBuild GetRegistryValueFromView](#msbuild-getregistryvaluefromview).|
 |`string GetVsInstallRoot()`|Gets the full path to the root of the Visual Studio installation folder associated with the current instance of MSBuild.|
 |`bool IsOsPlatform(string platformString)`|Specify whether the current OS platform is `platformString`. `platformString` must be a member of <xref:System.Runtime.InteropServices.OSPlatform>.|
 |`bool IsOsBsdLike()`|True if the current OS is a BSD-style Unix system.|
 |`bool IsOSUnixLike()`|True if current OS is a Unix system.|
+|`bool IsTargetFrameworkCompatible(string targetFrameworkTarget, string targetFrameworkCandidate)`|Return 'True' if the candidate target framework (second argument) is compatible with the target framework indicated by the first argument, and false otherwise. See [MSBuild TargetFramework and TargetPlatform functions](#msbuild-targetframework-and-targetplatform-functions).|
 |`int LeftShift(int operand, int count)`| Shift left by `count` bits.|
-|`string MakeRelative(string basePath, string path)`|Makes `path` relative to `basePath`. `basePath` must be an absolute directory. If `path` cannot be made relative, it is returned verbatim. Similar to `Uri.MakeRelativeUri`.|
+|`string MakeRelative(string basePath, string path)`|Makes `path` relative to `basePath`. `basePath` must be an absolute directory. If `path` cannot be made relative, it is returned verbatim. Similar to `Uri.MakeRelativeUri`. See [MSBuild MakeRelative](#msbuild-makerelative).|
 |`double Modulo(double a, double b)`|Modulo two doubles.|
 |`long Modulo(long a, long b)`|Modulo two longs.|
 |`double Multiply(double a, double b)`|Multiply two doubles.|
@@ -233,12 +239,18 @@ Here is a list of MSBuild property functions:
 |`string NormalizePath(params string[] path)`|Gets the canonicalized full path of the provided path and ensures it contains the correct directory separator characters for the current operating system.|
 |`int RightShift(int operand, int count)`| Shift right by `count` bits, as a signed integer. |
 |`int RightShiftUnsigned(int operand, int count)`| Shift right by `count` bits, treating the operand as an unsigned integer.|
-|`object StableStringHash(string toHash, StringHashingAlgorithm algo)`| Accepts a string argument, and returns a hash code that is guaranteed to be stable.|
+|`object StableStringHash(string toHash, StringHashingAlgorithm algo)`| Accepts a string argument, and returns a hash code that is guaranteed to be stable. See [MSBuild StableStringHash](#msbuild-stablestringhash).|
 |`string SubstringByAsciiChars(string input, int start, int length)`|Returns a substring of `input`, starting at the specified `start` position and with the specified `length`, treating the string as ASCII-encoded.|
 |`double Subtract(double a, double b)`|Subtract two doubles.|
 |`long Subtract(long a, long b)`|Subtract two longs.|
 |`string Unescape(string escaped)`|Unescape the string according to MSBuild escaping rules.|
-|`string ValueOrDefault(string conditionValue, string defaultValue)`|Returns the string in parameter `defaultValue` only if parameter `conditionValue` is empty, else, return the value `conditionValue`.|
+|`string ValueOrDefault(string conditionValue, string defaultValue)`|Returns the string in parameter `defaultValue` only if parameter `conditionValue` is empty, else, return the value `conditionValue`. See [MSBuild ValueOrDefault](#msbuild-valueordefault).|
+|`bool VersionEquals(string a, string b)`|Return `true` if versions `a` and `b` are equivalent according to the below rules. See [MSBuild Version comparison functions](#msbuild-version-comparison-functions). |
+|`bool VersionGreaterThan(string a, string b)`|Return `true` if version `a` is greater than `b` according to the below rules. See [MSBuild Version comparison functions](#msbuild-version-comparison-functions). |
+|`bool VersionGreaterThanOrEquals(string a, string b)`|Return `true` if version `a` is greater than or equal to `b` according to the below rules. See [MSBuild Version comparison functions](#msbuild-version-comparison-functions). |
+|`bool VersionLessThan(string a, string b)`|Return `true` if version `a` is less than `b` according to the below rules. See [MSBuild Version comparison functions](#msbuild-version-comparison-functions). |
+|`bool VersionLessThanOrEquals(string a, string b)`|Return `true` if version `a` is less than or equal to `b` according to the below rules. See [MSBuild Version comparison functions](#msbuild-version-comparison-functions). |
+|`bool VersionNotEquals(string a, string b)`|Return `false` if versions `a` and `b` are equivalent according to the below rules. See [MSBuild Version comparison functions](#msbuild-version-comparison-functions). |
 
 ## Nested property functions
 
