@@ -204,22 +204,22 @@ Here is a list of MSBuild property functions:
 |`string CheckFeatureAvailability(string featureName)`| Returns the feature name as a string if and only if the specified feature is supported in this version of MSBuild. |
 |`string ConvertToBase64(string toEncode)`|Returns the string after converting all bytes to base 64 (alphanumeric characters plus `+` and `/`), ending in one or two `=`.|
 |`string ConvertFromBase64(string toDecode)`|Returns the string after converting from base 64 (alphanumeric characters plus `+` and `/`), ending in one or two `=`.|
-|`string CurrentMSBuildConfigurationFile()`|Gets the path to the configuration file used by this instance of MSBuild.|
-|`string CurrentMSBuildExePath()` |Gets the path to the executable file for this instance of MSBuild. This path might not be the current running process. For example, if running inside Visual Studio or another host process, the returned path will point to the version of MSBuild found to be associated with the current environment.|
-|`string CurrentMSBuildToolsDirectory()`| Gets the full path to the MSBuild tools directory for the current instance of MSBuild. |
 |`double Divide(double a, double b)`|Divide two doubles.|
 |`long Divide(long a, long b)`|Divide two longs.|
 |`bool DoesTaskHostExist(string runtime, string architecture)`|Returns whether a task host is currently installed for the specified runtime and architecture values.|
 |`string Escape(string unescaped)`|Escape the string according to MSBuild escaping rules.|
 |`string EnsureTrailingSlash(string path)`|If the given path doesn't have a trailing slash then add one. If the path is an empty string, does not modify it.|
 |`string GetCurrentToolsDirectory()`| Get the current MSBuild tools directory. |
-|`string GetToolsDirectory32()` | Gets the directory where Arm64 versions of the MSBuild tools are located. |
+|`GetMSBuildExtensionsPath()`| Gets the MSBuild extensions path. When running *MSBuild.exe*, this is usually the MSBuild executable folder. When running in Visual Studio, this is the MSBuild subfolder under the Visual Studio installation folder. |
+|`string GetMSBuildSDKsPath()` | Gets the directory where SDKs are expected, for the current MSBuild instance.|
+|`string GetProgramFiles32()` | Gets the filesystem root folder where 32-bit software packages are typically installed. For example, `C:\Program Files (x86)`. |
 |`string GetToolsDirectory32()` | Gets the directory where 32-bit versions of the MSBuild tools are located. |
 |`string GetToolsDirectory64()` | Gets the directory where 64-bit versions of the MSBuild tools are located. |
 |`string GetDirectoryNameOfFileAbove(string startingDirectory, string fileName)`|Locate and return the directory of a file in either the directory specified or a location in the directory structure above that directory.|
 |`string GetPathOfFileAbove(string file, string startingDirectory)`|Searches for and returns the full path to a file in the directory structure at and above the current build file's location, or based on `startingDirectory`, if specified.|
 |`object GetRegistryValue(string keyName, string valueName, object defaultValue)`|Get the value of the registry key and value.|
 |`object GetRegistryValueFromView(string keyName, string valueName, object defaultValue, params object[] views)`|Gets system registry data given the registry key, value, and one or more ordered registry views.|
+|`string GetVsInstallRoot()`|Gets the full path to the root of the Visual Studio installation folder associated with the current instance of MSBuild.|
 |`bool IsOsPlatform(string platformString)`|Specify whether the current OS platform is `platformString`. `platformString` must be a member of <xref:System.Runtime.InteropServices.OSPlatform>.|
 |`bool IsOsBsdLike()`|True if the current OS is a BSD-style Unix system.|
 |`bool IsOSUnixLike()`|True if current OS is a Unix system.|
@@ -227,8 +227,6 @@ Here is a list of MSBuild property functions:
 |`string MakeRelative(string basePath, string path)`|Makes `path` relative to `basePath`. `basePath` must be an absolute directory. If `path` cannot be made relative, it is returned verbatim. Similar to `Uri.MakeRelativeUri`.|
 |`double Modulo(double a, double b)`|Modulo two doubles.|
 |`long Modulo(long a, long b)`|Modulo two longs.|
-|`string MSBuildExtensionsPath()`| Gets the MSBuild extensions path. When running *MSBuild.exe*, this is usually the MSBuild executable folder. When running in Visual Studio, this is the MSBuild subfolder under the Visual Studio installation folder. |
-|`string MSBuildSDKsPath()` | Gets the directory where SDKs are expected, for the current MSBuild instance.|
 |`double Multiply(double a, double b)`|Multiply two doubles.|
 |`long Multiply(long a, long b)`|Multiply two longs.|
 |`string NormalizeDirectory(params string[] path)`|Gets the canonicalized full path of the provided directory and ensures it contains the correct directory separator characters for the current operating system while ensuring it has a trailing slash.|
@@ -241,7 +239,6 @@ Here is a list of MSBuild property functions:
 |`long Subtract(long a, long b)`|Subtract two longs.|
 |`string Unescape(string escaped)`|Unescape the string according to MSBuild escaping rules.|
 |`string ValueOrDefault(string conditionValue, string defaultValue)`|Returns the string in parameter `defaultValue` only if parameter `conditionValue` is empty, else, return the value `conditionValue`.|
-|`string VisualStudioInstallRootDirectory()`|Gets the full path to the root of the Visual Studio installation folder associated with the current instance of MSBuild.|
 
 ## Nested property functions
 
