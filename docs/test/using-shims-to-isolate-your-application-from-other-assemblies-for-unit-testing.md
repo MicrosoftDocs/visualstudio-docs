@@ -3,10 +3,10 @@ title: Isolate your app with shims (unit testing)
 description: Learn how to use shim types to divert calls to specific methods to code that you write as part of your test. A shim can return consistent results at every call.
 ms.date: 05/23/2023
 ms.topic: how-to
-ms.author: oscalles
+ms.author: mikejo
 manager: aajohn
 ms.subservice: test-tools
-author: ocallesp
+author: mikejo5000
 dev_langs: 
   - CSharp
   - VB
