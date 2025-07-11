@@ -33,7 +33,7 @@ You can define code style settings per-project by using an [EditorConfig file](#
 
 Code style settings can be specified by adding an [EditorConfig](../ide/create-portable-custom-editor-options.md) file to your project. EditorConfig files are associated with a codebase rather than a Visual Studio personalization account. Settings in an EditorConfig file take precedence over code styles that are specified in the **Options** dialog box. Use an EditorConfig file when you want to enforce coding styles for all contributors to your repo or project. They are especially useful to ensure consistency in a teams programming environment.
 
-To add an EditorConfig file, see [Ways to add an EditorConfig file](../ide/create-portable-custom-editor-options.md#ways-to-add-an-editorconfig-file).
+To add an EditorConfig file, see [Add and remove EditorConfig files](../ide/create-portable-custom-editor-options.md#add-and-remove-editorconfig-files).
 ::: zone-end
 
 ::: zone pivot="programming-language-dotnet,programming-language-dotnetf"

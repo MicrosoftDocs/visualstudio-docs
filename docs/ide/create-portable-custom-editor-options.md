@@ -1,7 +1,7 @@
 ---
 title: Define consistent coding styles with EditorConfig
 description: Add an EditorConfig file to your project or codebase to enforce consistent coding styles for everyone that works in the codebase.
-ms.date: 05/08/2025
+ms.date: 07/07/2025
 author: mikejo5000
 ms.author: mikejo
 manager: mijacobs
@@ -19,7 +19,7 @@ To enforce consistent coding styles for everyone that works in a codebase, you c
 
 In Visual Studio, EditorConfig file settings take precedence over the various global text editor settings available under **Tools** > **Options** > **Text Editor** > **\[C# | C/C++ | Visual Basic\]** > **Code Style**. You can use an EditorConfig file to tailor each codebase to use text editor settings that are specific to that project.
 
-You can manually populate an EditorConfig file, or automatically generate it based on the code style settings you've chosen in Visual Studio. For more information, see [Ways to add an EditorConfig file](#ways-to-add-an-editorconfig-file).
+You can manually populate an EditorConfig file, or automatically generate it based on the code style settings you've chosen in Visual Studio. For more information, see [Ways to add an EditorConfig file](#add-and-remove-editorconfig-files).
 
 When you use an EditorConfig file, you can still continue to set your own personal editor preferences in the Visual Studio text editor. These text editor settings apply whenever you're working in a codebase without an EditorConfig file, or when the EditorConfig file doesn't override a particular setting. An example of such a preference is whether to use tabs or spaces for the code indent style.
 
@@ -60,8 +60,6 @@ EditorConfig supports [code style](/dotnet/fundamentals/code-analysis/code-style
 When you add an EditorConfig file to your project or codebase, Visual Studio formats any new lines of code you write according to the EditorConfig file settings. However, Visual Studio doesn't convert existing styles to the new ones until you format the document or run [Code Cleanup](../ide/code-styles-and-code-cleanup.md#apply-code-styles). For example, if the indents in your file are formatted with tabs and you add an EditorConfig file that formats indents with spaces, the indent characters aren't automatically converted to spaces. When you format the document (select **Edit** > **Advanced** > **Format Document** or press **Ctrl**+**K**, **Ctrl**+**D**), the white-space settings in the EditorConfig file are applied to existing lines of code.
 
 If you remove an EditorConfig file from your project or codebase, you must close and reopen any open code files for the global editor settings to affect new lines of code.
-
-### Ways to add an EditorConfig file
 
 There are a couple of ways you can add an EditorConfig file to your project:
 
