@@ -193,6 +193,7 @@ $([MSBuild]::Add($(NumberOne), $(NumberTwo)))
 
 Here is a list of MSBuild property functions:
 
+:::moniker range=">=vs-2022"
 |Function signature|Description|
 |------------------------|-----------------|
 |`double Add(double a, double b)`|Add two doubles.|
@@ -229,7 +230,7 @@ Here is a list of MSBuild property functions:
 |`bool IsOsBsdLike()`|True if the current OS is a BSD-style Unix system.|
 |`bool IsOSUnixLike()`|True if current OS is a Unix system.|
 |`bool IsTargetFrameworkCompatible(string targetFrameworkTarget, string targetFrameworkCandidate)`|Return 'True' if the candidate target framework (second argument) is compatible with the target framework indicated by the first argument, and false otherwise. See [MSBuild TargetFramework and TargetPlatform functions](#msbuild-targetframework-and-targetplatform-functions).|
-|`int LeftShift(int operand, int count)`| Shift left by `count` bits.|
+|`int LeftShift(int operand, int count)`| Shift left by `count` bits. MSBuild 17.7 and later. |
 |`string MakeRelative(string basePath, string path)`|Makes `path` relative to `basePath`. `basePath` must be an absolute directory. If `path` cannot be made relative, it is returned verbatim. Similar to `Uri.MakeRelativeUri`. See [MSBuild MakeRelative](#msbuild-makerelative).|
 |`double Modulo(double a, double b)`|Modulo two doubles.|
 |`long Modulo(long a, long b)`|Modulo two longs.|
@@ -237,8 +238,8 @@ Here is a list of MSBuild property functions:
 |`long Multiply(long a, long b)`|Multiply two longs.|
 |`string NormalizeDirectory(params string[] path)`|Gets the canonicalized full path of the provided directory and ensures it contains the correct directory separator characters for the current operating system while ensuring it has a trailing slash.|
 |`string NormalizePath(params string[] path)`|Gets the canonicalized full path of the provided path and ensures it contains the correct directory separator characters for the current operating system.|
-|`int RightShift(int operand, int count)`| Shift right by `count` bits, as a signed integer. |
-|`int RightShiftUnsigned(int operand, int count)`| Shift right by `count` bits, treating the operand as an unsigned integer.|
+|`int RightShift(int operand, int count)`| Shift right by `count` bits, as a signed integer. MSBuild 17.7 and later. |
+|`int RightShiftUnsigned(int operand, int count)`| Shift right by `count` bits, treating the operand as an unsigned integer. MSBuild 17.7 and later. |
 |`object StableStringHash(string toHash, StringHashingAlgorithm algo)`| Accepts a string argument, and returns a hash code that is guaranteed to be stable. See [MSBuild StableStringHash](#msbuild-stablestringhash).|
 |`string SubstringByAsciiChars(string input, int start, int length)`|Returns a substring of `input`, starting at the specified `start` position and with the specified `length`, treating the string as ASCII-encoded.|
 |`double Subtract(double a, double b)`|Subtract two doubles.|
@@ -251,6 +252,64 @@ Here is a list of MSBuild property functions:
 |`bool VersionLessThan(string a, string b)`|Return `true` if version `a` is less than `b` according to the below rules. See [MSBuild Version comparison functions](#msbuild-version-comparison-functions). |
 |`bool VersionLessThanOrEquals(string a, string b)`|Return `true` if version `a` is less than or equal to `b` according to the below rules. See [MSBuild Version comparison functions](#msbuild-version-comparison-functions). |
 |`bool VersionNotEquals(string a, string b)`|Return `false` if versions `a` and `b` are equivalent according to the below rules. See [MSBuild Version comparison functions](#msbuild-version-comparison-functions). |
+:::moniker-end
+
+:::moniker range="<=vs-2019"
+|Function signature|Description|
+|------------------------|-----------------|
+|`double Add(double a, double b)`|Add two doubles.|
+|`long Add(long a, long b)`|Add two longs.|
+|`int BitwiseOr(int first, int second)`|Perform a bitwise `OR` on the first and second (first &#124; second).|
+|`int BitwiseAnd(int first, int second)`|Perform a bitwise `AND` on the first and second (first & second).|
+|`int BitwiseXor(int first, int second)`|Perform a bitwise `XOR` on the first and second (first ^ second).|
+|`int BitwiseNot(int first)`|Perform a bitwise `NOT` (~first).|
+|`string CheckFeatureAvailability(string featureName)`| Returns the feature name as a string if and only if the specified feature is supported in this version of MSBuild. |
+|`string ConvertToBase64(string toEncode)`|Returns the string after converting all bytes to base 64 (alphanumeric characters plus `+` and `/`), ending in one or two `=`.|
+|`string ConvertFromBase64(string toDecode)`|Returns the string after converting from base 64 (alphanumeric characters plus `+` and `/`), ending in one or two `=`.|
+|`double Divide(double a, double b)`|Divide two doubles.|
+|`long Divide(long a, long b)`|Divide two longs.|
+|`bool DoesTaskHostExist(string runtime, string architecture)`|Returns whether a task host is currently installed for the specified runtime and architecture values. See [MSBuild DoesTaskHostExist](#msbuild-doestaskhostexist). |
+|`string Escape(string unescaped)`|Escape the string according to MSBuild escaping rules.|
+|`string EnsureTrailingSlash(string path)`|If the given path doesn't have a trailing slash then add one. If the path is an empty string, does not modify it. See [MSBuild EnsureTrailingSlash](#msbuild-ensuretrailingslash).|
+|`string GetCurrentToolsDirectory()`| Get the current MSBuild tools directory. |
+|`string GetMSBuildExtensionsPath()`| Gets the MSBuild extensions path. When running *MSBuild.exe*, this is usually the MSBuild executable folder. When running in Visual Studio, this is the MSBuild subfolder under the Visual Studio installation folder. |
+|`string GetMSBuildSDKsPath()` | Gets the directory where SDKs are expected, for the current MSBuild instance.|
+|`string GetProgramFiles32()` | Gets the filesystem root folder where 32-bit software packages are typically installed. For example, `C:\Program Files (x86)`. |
+|`string GetTargetFrameworkIdentifier(string targetFramework)`|Parse the TargetFrameworkIdentifier from the TargetFramework.  See [MSBuild TargetFramework and TargetPlatform functions](#msbuild-targetframework-and-targetplatform-functions).|
+|`string GetTargetFrameworkVersion(string targetFramework, int versionPartCount)`|Parse the TargetFrameworkVersion from the TargetFramework.  See [MSBuild TargetFramework and TargetPlatform functions](#msbuild-targetframework-and-targetplatform-functions).|
+|`string GetTargetPlatformIdentifier(string targetFramework)`|Parse the TargetPlatformIdentifier from the TargetFramework.  See [MSBuild TargetFramework and TargetPlatform functions](#msbuild-targetframework-and-targetplatform-functions).|
+|`string GetTargetPlatformVersion(string targetFramework, int versionPartCount)`|Parse the TargetPlatformVersion from the TargetFramework.  See [MSBuild TargetFramework and TargetPlatform functions](#msbuild-targetframework-and-targetplatform-functions).|
+|`string GetToolsDirectory32()` | Gets the directory where 32-bit versions of the MSBuild tools are located. |
+|`string GetToolsDirectory64()` | Gets the directory where 64-bit versions of the MSBuild tools are located. |
+|`string GetDirectoryNameOfFileAbove(string startingDirectory, string fileName)`|Locate and return the directory of a file in either the directory specified or a location in the directory structure above that directory. See [MSBuild GetDirectoryNameOfFileAbove](#msbuild-getdirectorynameoffileabove).|
+|`string GetPathOfFileAbove(string file, string startingDirectory)`|Searches for and returns the full path to a file in the directory structure at and above the current build file's location, or based on `startingDirectory`, if specified. See [MSBuild GetPathOfFileAbove](#msbuild-getpathoffileabove). |
+|`object GetRegistryValue(string keyName, string valueName, object defaultValue)`|Get the value of the registry key and value. See [MSBuild GetRegistryValue](#msbuild-getregistryvalue). |
+|`object GetRegistryValueFromView(string keyName, string valueName, object defaultValue, params object[] views)`|Gets system registry data given the registry key, value, and one or more ordered registry views. See [MSBuild GetRegistryValueFromView](#msbuild-getregistryvaluefromview).|
+|`string GetVsInstallRoot()`|Gets the full path to the root of the Visual Studio installation folder associated with the current instance of MSBuild.|
+|`bool IsOsPlatform(string platformString)`|Specify whether the current OS platform is `platformString`. `platformString` must be a member of <xref:System.Runtime.InteropServices.OSPlatform>.|
+|`bool IsOsBsdLike()`|True if the current OS is a BSD-style Unix system.|
+|`bool IsOSUnixLike()`|True if current OS is a Unix system.|
+|`bool IsTargetFrameworkCompatible(string targetFrameworkTarget, string targetFrameworkCandidate)`|Return 'True' if the candidate target framework (second argument) is compatible with the target framework indicated by the first argument, and false otherwise. See [MSBuild TargetFramework and TargetPlatform functions](#msbuild-targetframework-and-targetplatform-functions).|
+|`string MakeRelative(string basePath, string path)`|Makes `path` relative to `basePath`. `basePath` must be an absolute directory. If `path` cannot be made relative, it is returned verbatim. Similar to `Uri.MakeRelativeUri`. See [MSBuild MakeRelative](#msbuild-makerelative).|
+|`double Modulo(double a, double b)`|Modulo two doubles.|
+|`long Modulo(long a, long b)`|Modulo two longs.|
+|`double Multiply(double a, double b)`|Multiply two doubles.|
+|`long Multiply(long a, long b)`|Multiply two longs.|
+|`string NormalizeDirectory(params string[] path)`|Gets the canonicalized full path of the provided directory and ensures it contains the correct directory separator characters for the current operating system while ensuring it has a trailing slash.|
+|`string NormalizePath(params string[] path)`|Gets the canonicalized full path of the provided path and ensures it contains the correct directory separator characters for the current operating system.|
+|`object StableStringHash(string toHash, StringHashingAlgorithm algo)`| Accepts a string argument, and returns a hash code that is guaranteed to be stable. See [MSBuild StableStringHash](#msbuild-stablestringhash).|
+|`string SubstringByAsciiChars(string input, int start, int length)`|Returns a substring of `input`, starting at the specified `start` position and with the specified `length`, treating the string as ASCII-encoded.|
+|`double Subtract(double a, double b)`|Subtract two doubles.|
+|`long Subtract(long a, long b)`|Subtract two longs.|
+|`string Unescape(string escaped)`|Unescape the string according to MSBuild escaping rules.|
+|`string ValueOrDefault(string conditionValue, string defaultValue)`|Returns the string in parameter `defaultValue` only if parameter `conditionValue` is empty, else, return the value `conditionValue`. See [MSBuild ValueOrDefault](#msbuild-valueordefault).|
+|`bool VersionEquals(string a, string b)`|Return `true` if versions `a` and `b` are equivalent according to the below rules. See [MSBuild Version comparison functions](#msbuild-version-comparison-functions). |
+|`bool VersionGreaterThan(string a, string b)`|Return `true` if version `a` is greater than `b` according to the below rules. See [MSBuild Version comparison functions](#msbuild-version-comparison-functions). |
+|`bool VersionGreaterThanOrEquals(string a, string b)`|Return `true` if version `a` is greater than or equal to `b` according to the below rules. See [MSBuild Version comparison functions](#msbuild-version-comparison-functions). |
+|`bool VersionLessThan(string a, string b)`|Return `true` if version `a` is less than `b` according to the below rules. See [MSBuild Version comparison functions](#msbuild-version-comparison-functions). |
+|`bool VersionLessThanOrEquals(string a, string b)`|Return `true` if version `a` is less than or equal to `b` according to the below rules. See [MSBuild Version comparison functions](#msbuild-version-comparison-functions). |
+|`bool VersionNotEquals(string a, string b)`|Return `false` if versions `a` and `b` are equivalent according to the below rules. See [MSBuild Version comparison functions](#msbuild-version-comparison-functions). |
+:::moniker-end
 
 ## Nested property functions
 
@@ -499,6 +558,8 @@ Output:
 
 MSBuild 16.7 and higher define several functions for handling [TargetFramework and TargetPlatform properties](msbuild-target-framework-and-target-platform.md).
 
+:::moniker range=">=vs-2022"
+
 |Function signature|Description|
 |------------------------|-----------------|
 |`FilterTargetFrameworks(string incoming, string filter)`|Return the list of the target frameworks that match the specified filter. An target framework from `incoming` is kept if it matches any of the desired target frameworks on `filter`.|
@@ -507,6 +568,18 @@ MSBuild 16.7 and higher define several functions for handling [TargetFramework a
 |`GetTargetPlatformIdentifier(string targetFramework)`|Parse the TargetPlatformIdentifier from the TargetFramework.|
 |`GetTargetPlatformVersion(string targetFramework, int versionPartCount)`|Parse the TargetPlatformVersion from the TargetFramework.|
 |`IsTargetFrameworkCompatible(string targetFrameworkTarget, string targetFrameworkCandidate)`|Return 'True' if the candidate target framework (second argument) is compatible with the target framework indicated by the first argument, and false otherwise.|
+:::moniker-end
+
+:::moniker range="<=vs-2019"
+
+|Function signature|Description|
+|------------------------|-----------------|
+|`GetTargetFrameworkIdentifier(string targetFramework)`|Parse the TargetFrameworkIdentifier from the TargetFramework.|
+|`GetTargetFrameworkVersion(string targetFramework, int versionPartCount)`|Parse the TargetFrameworkVersion from the TargetFramework.|
+|`GetTargetPlatformIdentifier(string targetFramework)`|Parse the TargetPlatformIdentifier from the TargetFramework.|
+|`GetTargetPlatformVersion(string targetFramework, int versionPartCount)`|Parse the TargetPlatformVersion from the TargetFramework.|
+|`IsTargetFrameworkCompatible(string targetFrameworkTarget, string targetFrameworkCandidate)`|Return 'True' if the candidate target framework (second argument) is compatible with the target framework indicated by the first argument, and false otherwise.|
+:::moniker-end
 
 The `versionPartCount` parameter of `GetTargetFrameworkVersion` and `GetTargetPlatformVersion` has a default value of 2.
 
@@ -547,11 +620,15 @@ Value6 = False
 Value7 = False
 ```
 
+::: moniker range=">=vs-2022"
+
 ### MSBuild FilterTargetFrameworks
 
 With MSBuild 17.6 and later (or .NET 7 and later), you can use this property function to select a subset of a list of Target Framework Monikers (TFMs), to restrict the list to those frameworks that match the list of TFMs given the filter argument.
 
 For example, if `incoming` is `net6.0;net7.0;netstandard2.0` and `filter` is `net7.0;netstandard2.0`, the result is `net7.0;netstandard2.0`.
+
+::: moniker-end
 
 ## MSBuild version-comparison functions
 
