@@ -553,8 +553,6 @@ You can use this property function to select a subset of a list of Target Framew
 
 For example, if `incoming` is `net6.0;net7.0;netstandard2.0` and `filter` is `net7.0;netstandard2.0`, the result is `net7.0;netstandard2.0`.
 
-A TFM in the incoming list or in the filter may omit the version, for example, `net` or `netstandard`. This type of moniker matches all versions of .NET or .NET Standard.
-
 ## MSBuild version-comparison functions
 
 MSBuild 16.5 and higher define several functions for comparing strings that represent versions.
