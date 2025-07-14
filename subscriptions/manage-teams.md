@@ -31,7 +31,7 @@ External contractors may bring licenses to engage with your Visual Studio-licens
 
 + [Visual Studio licensing white paper](https://visualstudio.microsoft.com/wp-content/uploads/2019/06/Visual-Studio-Licensing-Whitepaper-May-2019.pdf)
 + [Visual Studio Administration and Subscriptions Support](https://aka.ms/vsadminhelp)
-+ [Volume Licensing terms](https://www.microsoft.com/licensing/product-licensing/products.aspx)
++ [Volume Licensing terms](https://www.microsoft.com/licensing/docs/view/Product-Terms)
 
 ## See also
 
