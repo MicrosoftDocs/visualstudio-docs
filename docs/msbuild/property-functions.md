@@ -16,13 +16,13 @@ Property functions are calls to .NET methods that appear in MSBuild property def
 
 Unlike tasks, property functions can be used outside of targets. Property functions are evaluated whenever the properties or items get expanded. So, for properties and items outside of any targets, property functions are evaluated before any target runs. For property groups and item groups inside targets, property functions are evaluated when the target is executed.
 
-Without using MSBuild tasks, you can read the system time, compare strings, match regular expressions, and perform other actions in your build script. MSBuild will try to convert string to number and number to string, and make other conversions as required.
+Without using MSBuild tasks, you can read the system time, compare strings, match regular expressions, and perform other actions in your build script. MSBuild tries to convert string to number and number to string, and make other conversions as required.
 
 String values returned from property functions have [special characters](msbuild-special-characters.md) escaped. If you want the value to be treated as though it was put directly in the project file, use `$([MSBuild]::Unescape())` to unescape the special characters.
 
 ## Property function syntax
 
-These are three kinds of property functions; each function has a different syntax:
+There are three kinds of property functions; each kind has a different syntax:
 
 - String (instance) property functions
 - Static property functions
@@ -62,7 +62,7 @@ For example, to set a build property to a new GUID, you can use this script:
 <NewGuid>$([System.Guid]::NewGuid())</NewGuid>
 ```
 
-In static property functions, you can use any public static method or property that's defined in .NET Standard 2.0 for these system classes:
+In static property functions, you can use any public static method or property defined in .NET Standard 2.0 for these system classes:
 
 - [System.Byte](/dotnet/api/System.Byte?view=netstandard-2.0&preserve-view=true)
 - [System.Char](/dotnet/api/System.Char?view=netstandard-2.0&preserve-view=true)
@@ -94,7 +94,7 @@ In static property functions, you can use any public static method or property t
 - [Microsoft.Build.Utilities.ToolLocationHelper](/dotnet/api/Microsoft.Build.Utilities.ToolLocationHelper)
 
 > [!NOTE]
-> Methods and properties that aren't defined in .NET Standard 2.0 might be available when you use MSBuild in an environment that supports them, but can't be guaranteed to be available in all situations. For compatibility reasons, they are best avoided.
+> Methods and properties that aren't defined in .NET Standard 2.0 might be available when you use MSBuild in an environment that supports them, but can't be guaranteed to be available in all situations. For compatibility reasons, they're best avoided.
 
 In addition, you can use the following static methods and properties:
 
@@ -137,11 +137,11 @@ In addition, you can use the following static methods and properties:
 :::moniker range=">=vs-2022"
 #### System.OperatingSystem property functions
 
-The `System.OperatingSystem` property functions return information about the operating system on which MSBuild is running. For example, if your project targets Linux and you build it on macOS, the property functions will return information about macOS.
+The `System.OperatingSystem` property functions return information about the operating system on which MSBuild is running. For example, if your project targets Linux and you build it on macOS, the property functions return information about macOS.
 
-In MSBuild running on .NET (`dotnet build`), all static methods of the `System.OperatingSystem` class will be callable as static property functions.
+In MSBuild running on .NET (`dotnet build`), all static methods of the `System.OperatingSystem` class are callable as static property functions.
 
-In MSBuild running on .NET Framework (`MSBuild.exe`), only the following methods of `System.OperatingSystem` will be callable as static property functions. MSBuild implements them internally, because `System.OperatingSystem` does not define them on .NET Framework. Methods for operating systems for which there is no .NET SDK, such as `System.OperatingSystem::IsTvOS`, are not callable.
+In MSBuild running on .NET Framework (`MSBuild.exe`), only the following methods of `System.OperatingSystem` are callable as static property functions. MSBuild implements them internally, because `System.OperatingSystem` does not define them on .NET Framework. Methods for operating systems for which there's no .NET SDK, such as `System.OperatingSystem::IsTvOS`, are not callable.
 
 - [System.OperatingSystem::IsOSPlatform](/dotnet/api/System.OperatingSystem.IsOSPlatform)
 - [System.OperatingSystem::IsOSPlatformVersionAtLeast](/dotnet/api/System.OperatingSystem.IsOSPlatformVersionAtLeast)
@@ -191,7 +191,7 @@ For example, to add together two properties that have numeric values, use the fo
 $([MSBuild]::Add($(NumberOne), $(NumberTwo)))
 ```
 
-Here is a list of MSBuild property functions:
+Here's a list of MSBuild property functions:
 
 :::moniker range=">=vs-2022"
 |Function signature|Description|
@@ -231,7 +231,7 @@ Here is a list of MSBuild property functions:
 |`bool IsOSUnixLike()`|True if current OS is a Unix system.|
 |`bool IsTargetFrameworkCompatible(string targetFrameworkTarget, string targetFrameworkCandidate)`|Return 'True' if the candidate target framework (second argument) is compatible with the target framework indicated by the first argument, and false otherwise. See [MSBuild TargetFramework and TargetPlatform functions](#msbuild-targetframework-and-targetplatform-functions).|
 |`int LeftShift(int operand, int count)`| Shift left by `count` bits. MSBuild 17.7 and later. |
-|`string MakeRelative(string basePath, string path)`|Makes `path` relative to `basePath`. `basePath` must be an absolute directory. If `path` cannot be made relative, it is returned verbatim. Similar to `Uri.MakeRelativeUri`. See [MSBuild MakeRelative](#msbuild-makerelative).|
+|`string MakeRelative(string basePath, string path)`|Makes `path` relative to `basePath`. `basePath` must be an absolute directory. If `path` can't be made relative, it is returned verbatim. Similar to `Uri.MakeRelativeUri`. See [MSBuild MakeRelative](#msbuild-makerelative).|
 |`double Modulo(double a, double b)`|Modulo two doubles.|
 |`long Modulo(long a, long b)`|Modulo two longs.|
 |`double Multiply(double a, double b)`|Multiply two doubles.|
@@ -365,7 +365,7 @@ This example shows how to import the nearest *EnlistmentInfo.props* file in or a
 <Import Project="$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), EnlistmentInfo.props))\EnlistmentInfo.props" Condition=" '$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), EnlistmentInfo.props))' != '' " />
 ```
 
-Note that this example can be written more concisely by using the `GetPathOfFileAbove` function instead:
+This example can be written more concisely by using the `GetPathOfFileAbove` function instead:
 
 ```xml
 <Import Project="$([MSBuild]::GetPathOfFileAbove(EnlistmentInfo.props))" Condition=" '$([MSBuild]::GetPathOfFileAbove(EnlistmentInfo.props))' != '' " />
@@ -381,7 +381,7 @@ This property function has the following syntax:
 $([MSBuild]::GetPathOfFileAbove(string file, [string startingDirectory]))
 ```
 
-where `file` is the name of the file to search for and `startingDirectory` is an optional directory to start the search in. By default, the search will start in the current file's own directory.
+where `file` is the name of the file to search for and `startingDirectory` is an optional directory to start the search in. By default, the search starts in the current file's own directory.
  
 This example shows how to import a file named *dir.props* in or above the current directory, only if a match is found:
 
@@ -450,7 +450,7 @@ The following is an example.
 $([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft SDKs\Silverlight\v3.0\ReferenceAssemblies', 'SLRuntimeInstallPath', null, RegistryView.Registry64, RegistryView.Registry32))
 ```
 
-gets the **SLRuntimeInstallPath** data of the **ReferenceAssemblies** key, looking first in the 64-bit registry view and then in the 32-bit registry view.
+The preceding code gets the **SLRuntimeInstallPath** data of the **ReferenceAssemblies** key, looking first in the 64-bit registry view and then in the 32-bit registry view.
 
 > [!WARNING]
 > In the .NET SDK version of MSBuild (`dotnet build`), this function is not supported.
@@ -562,23 +562,23 @@ MSBuild 16.7 and higher define several functions for handling [TargetFramework a
 
 |Function signature|Description|
 |------------------------|-----------------|
-|`FilterTargetFrameworks(string incoming, string filter)`|Return the list of the target frameworks that match the specified filter. An target framework from `incoming` is kept if it matches any of the desired target frameworks on `filter`.|
-|`GetTargetFrameworkIdentifier(string targetFramework)`|Parse the TargetFrameworkIdentifier from the TargetFramework.|
-|`GetTargetFrameworkVersion(string targetFramework, int versionPartCount)`|Parse the TargetFrameworkVersion from the TargetFramework.|
-|`GetTargetPlatformIdentifier(string targetFramework)`|Parse the TargetPlatformIdentifier from the TargetFramework.|
-|`GetTargetPlatformVersion(string targetFramework, int versionPartCount)`|Parse the TargetPlatformVersion from the TargetFramework.|
-|`IsTargetFrameworkCompatible(string targetFrameworkTarget, string targetFrameworkCandidate)`|Return 'True' if the candidate target framework (second argument) is compatible with the target framework indicated by the first argument, and false otherwise.|
+| `FilterTargetFrameworks(string incoming, string filter)` | Return the list of the target frameworks that match the specified filter. A target framework from `incoming` is kept if it matches any of the desired target frameworks on `filter`. |
+| `GetTargetFrameworkIdentifier(string targetFramework)` | Parse the TargetFrameworkIdentifier from the TargetFramework. |
+| `GetTargetFrameworkVersion(string targetFramework, int versionPartCount)`| Parse the TargetFrameworkVersion from the TargetFramework. |
+|`GetTargetPlatformIdentifier(string targetFramework)` | Parse the TargetPlatformIdentifier from the TargetFramework. |
+| `GetTargetPlatformVersion(string targetFramework, int versionPartCount)` | Parse the TargetPlatformVersion from the TargetFramework. |
+| `IsTargetFrameworkCompatible(string targetFrameworkTarget, string targetFrameworkCandidate)` | Return true if the candidate target framework (second argument) is compatible with the target framework indicated by the first argument, and false otherwise.|
 :::moniker-end
 
 :::moniker range="<=vs-2019"
 
 |Function signature|Description|
 |------------------------|-----------------|
-|`GetTargetFrameworkIdentifier(string targetFramework)`|Parse the TargetFrameworkIdentifier from the TargetFramework.|
-|`GetTargetFrameworkVersion(string targetFramework, int versionPartCount)`|Parse the TargetFrameworkVersion from the TargetFramework.|
-|`GetTargetPlatformIdentifier(string targetFramework)`|Parse the TargetPlatformIdentifier from the TargetFramework.|
-|`GetTargetPlatformVersion(string targetFramework, int versionPartCount)`|Parse the TargetPlatformVersion from the TargetFramework.|
-|`IsTargetFrameworkCompatible(string targetFrameworkTarget, string targetFrameworkCandidate)`|Return 'True' if the candidate target framework (second argument) is compatible with the target framework indicated by the first argument, and false otherwise.|
+| `GetTargetFrameworkIdentifier(string targetFramework)` | Parse the TargetFrameworkIdentifier from the TargetFramework.|
+| `GetTargetFrameworkVersion(string targetFramework, int versionPartCount)` | Parse the TargetFrameworkVersion from the TargetFramework. |
+| `GetTargetPlatformIdentifier(string targetFramework)` | Parse the TargetPlatformIdentifier from the TargetFramework.|
+| `GetTargetPlatformVersion(string targetFramework, int versionPartCount)` | Parse the TargetPlatformVersion from the TargetFramework. |
+| `IsTargetFrameworkCompatible(string targetFrameworkTarget, string targetFrameworkCandidate)` | Return true if the candidate target framework (second argument) is compatible with the target framework indicated by the first argument, and false otherwise. |
 :::moniker-end
 
 The `versionPartCount` parameter of `GetTargetFrameworkVersion` and `GetTargetPlatformVersion` has a default value of 2.
@@ -665,7 +665,7 @@ In these methods, versions are parsed like <xref:System.Version?displayProperty=
 
 ## MSBuild condition functions
 
-The functions `Exists` and `HasTrailingSlash` are not property functions. They are available for use with the `Condition` attribute. See [MSBuild conditions](msbuild-conditions.md).
+The functions `Exists` and `HasTrailingSlash` are not property functions. They're available for use with the `Condition` attribute. See [MSBuild conditions](msbuild-conditions.md).
 
 ## Related content
 
