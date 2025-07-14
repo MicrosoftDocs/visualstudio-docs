@@ -209,7 +209,7 @@ Here is a list of MSBuild property functions:
 |`bool DoesTaskHostExist(string runtime, string architecture)`|Returns whether a task host is currently installed for the specified runtime and architecture values. See [MSBuild DoesTaskHostExist](#msbuild-doestaskhostexist). |
 |`string Escape(string unescaped)`|Escape the string according to MSBuild escaping rules.|
 |`string EnsureTrailingSlash(string path)`|If the given path doesn't have a trailing slash then add one. If the path is an empty string, does not modify it. See [MSBuild EnsureTrailingSlash](#msbuild-ensuretrailingslash).|
-|`string FilterTargetFrameworks(string incoming, string filter)`|Return the list of the target frameworks that match the specified filter. An target framework from `incoming` is kept if it is compatible with any of the desired target frameworks on `filter`. See [MSBuild TargetFramework and TargetPlatform functions](#msbuild-targetframework-and-targetplatform-functions).|
+|`string FilterTargetFrameworks(string incoming, string filter)`|Return the list of the target frameworks that match the specified filter. A target framework from `incoming` is kept if it is compatible with any of the desired target frameworks on `filter`. See [MSBuild TargetFramework and TargetPlatform functions](#msbuild-targetframework-and-targetplatform-functions).|
 |`string GetCurrentToolsDirectory()`| Get the current MSBuild tools directory. |
 |`string GetMSBuildExtensionsPath()`| Gets the MSBuild extensions path. When running *MSBuild.exe*, this is usually the MSBuild executable folder. When running in Visual Studio, this is the MSBuild subfolder under the Visual Studio installation folder. |
 |`string GetMSBuildSDKsPath()` | Gets the directory where SDKs are expected, for the current MSBuild instance.|
@@ -546,6 +546,14 @@ Value5 = True
 Value6 = False
 Value7 = False
 ```
+
+### MSBuild FilterTargetFrameworks
+
+You can use this property function to select a subset of list of Target Framework Monikers (TFMs), to restrict the list to those frameworks that are compatible with the list of TFMs given the filter argument.
+
+For example, if `incoming` is `net6.0;net7.0;netstandard2.0` and `filter` is `net7.0;netstandard2.0`, the result is `net7.0;netstandard2.0`.
+
+A TFM in the incoming list or in the filter may omit the version, such as `net` or `netstandard`, in which case it matches all versions.
 
 ## MSBuild version-comparison functions
 
