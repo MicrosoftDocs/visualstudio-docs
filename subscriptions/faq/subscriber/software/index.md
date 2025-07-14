@@ -22,4 +22,4 @@ ms.faqid: Section2
 
 [!INCLUDE [How do I troubleshoot in Visual Studio?](includes/troubleshoot-visual-studio.md)]
 
-[!INCLUDE [Microsoft Certified Trainer (MCT) and have Visual Studio Subscription issues?](includes/mct-support.md)]
+[!INCLUDE [Microsoft Certified Trainer (MCT) and have Visual Studio Subscription issues?](includes/microsoft-certified-trainer-support.md)]
