@@ -549,7 +549,7 @@ Value7 = False
 
 ### MSBuild FilterTargetFrameworks
 
-You can use this property function to select a subset of a list of Target Framework Monikers (TFMs), to restrict the list to those frameworks that match the list of TFMs given the filter argument.
+With MSBuild 17.6 and later (or .NET 7 and later), you can use this property function to select a subset of a list of Target Framework Monikers (TFMs), to restrict the list to those frameworks that match the list of TFMs given the filter argument.
 
 For example, if `incoming` is `net6.0;net7.0;netstandard2.0` and `filter` is `net7.0;netstandard2.0`, the result is `net7.0;netstandard2.0`.
 
