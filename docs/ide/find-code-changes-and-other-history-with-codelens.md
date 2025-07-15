@@ -9,6 +9,7 @@ author: Mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: general-ide
+ms.custom: sfi-image-nochange
 
 #customer intent: As a developer, I want to use CodeLens in Visual Studio so I can explore the history of my code directly in the code editor.
 ---

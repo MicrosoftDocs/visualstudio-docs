@@ -8,6 +8,7 @@ author: ghogen
 ms.author: ghogen
 ms.manager: mijacobs
 ms.subservice: general-ide
+ms.custom: sfi-image-nochange
 ---
 # Clone a Git repository in Visual Studio
 

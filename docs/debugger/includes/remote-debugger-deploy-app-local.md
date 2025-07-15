@@ -7,7 +7,9 @@
  ms.topic: include
  ms.date: 05/23/2018
  ms.author: mikejo
- ms.custom: include file
+ ms.custom:
+   - include file
+   - sfi-image-nochange
 ---
 
 1. In the **Solution Explorer**,  right-click the project node and select **Publish** (for Web Forms, **Publish Web App**).

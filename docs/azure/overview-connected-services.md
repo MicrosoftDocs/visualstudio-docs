@@ -8,6 +8,7 @@ ms.topic: overview
 ms.date: 12/3/2024
 ms.author: ghogen
 monikerRange: ">=vs-2019"
+ms.custom: sfi-image-nochange
 ---
 
 # Connect to Azure services, gRPC, OpenAPI, and more

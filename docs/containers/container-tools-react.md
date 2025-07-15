@@ -7,6 +7,7 @@ ms.author: ghogen
 ms.date: 05/30/2024
 ms.subservice: container-tools
 ms.topic: quickstart
+ms.custom: sfi-image-nochange
 ---
 
 # Quickstart: Use Docker with a React Single-page application in Visual Studio

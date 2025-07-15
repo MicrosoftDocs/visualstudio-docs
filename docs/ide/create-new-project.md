@@ -11,6 +11,7 @@ author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide
+ms.custom: sfi-image-nochange
 #customer intent: As a developer, I want to create cd..a new project in Visual Studio.
 ---
 # Create a new project in Visual Studio

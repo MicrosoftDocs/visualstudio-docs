@@ -11,6 +11,7 @@ ms.subservice: javascript-typescript
 dev_langs:
   - JavaScript
 monikerRange: '>= vs-2022'
+ms.custom: sfi-image-nochange
 ---
 # Tutorial: Create an ASP.NET Core app with Angular in Visual Studio
 

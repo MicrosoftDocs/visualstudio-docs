@@ -6,6 +6,7 @@ manager: shve
 ms.date: 04/24/2025
 ms.topic: how-to
 description: Activate the technical support benefit included with your Visual Studio subscription, locate supported products and resources, and learn how to submit incidents.
+ms.custom: sfi-image-nochange
 ---
 # Activate and use the Technical Support benefit in Visual Studio subscriptions
 

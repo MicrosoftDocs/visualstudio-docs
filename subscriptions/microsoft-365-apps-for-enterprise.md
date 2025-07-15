@@ -6,6 +6,7 @@ manager: shve
 ms.date: 09/16/2024
 ms.topic: how-to
 description: Activate and access Microsoft 365 apps for enterprise in Visual Studio subscriptions, and find answers to frequently asked questions.
+ms.custom: sfi-image-nochange
 ---
 
 # Microsoft 365 apps for enterprise in Visual Studio subscriptions

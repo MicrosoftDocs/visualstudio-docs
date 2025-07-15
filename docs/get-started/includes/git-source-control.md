@@ -1,11 +1,14 @@
 ---
 ms.date: 12/04/2024
 ms.subservice: general-ide
-ms.custom: vs-get-started, devdivchpfy22
 ms.author: ghogen
 author: ghogen
 manager: mijacobs
 ms.topic: include
+ms.custom:
+  - vs-get-started
+  - devdivchpfy22
+  - sfi-image-nochange
 ---
 
 ## Add Git source control

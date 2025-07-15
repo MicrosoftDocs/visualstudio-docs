@@ -26,6 +26,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 zone_pivot_groups: programming-languages-set-one
+ms.custom: sfi-image-nochange
 ---
 
 # Attach to running processes with the Visual Studio debugger

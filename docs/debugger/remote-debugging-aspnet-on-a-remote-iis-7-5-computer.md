@@ -7,6 +7,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
+ms.custom: sfi-image-nochange
 ---
 # Remote Debug ASP.NET on a Remote IIS Computer
 

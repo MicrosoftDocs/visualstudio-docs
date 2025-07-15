@@ -6,6 +6,7 @@ manager: shve
 ms.date: 09/11/2024
 ms.topic: how-to
 description: Activate and explore the Power BI Pro benefit available in eligible Visual Studio subscriptions, and find answers to frequently asked questions.
+ms.custom: sfi-image-nochange
 ---
 
 # Power BI Pro in Visual Studio subscriptions

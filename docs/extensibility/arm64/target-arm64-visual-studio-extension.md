@@ -10,6 +10,7 @@ ms.author: anva
 manager: tinali
 ms.subservice: extensibility-integration
 monikerRange: ">=vs-2022"
+ms.custom: sfi-image-nochange
 
 ---
 
