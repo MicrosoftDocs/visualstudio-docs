@@ -323,7 +323,6 @@ For more information about Visual Studio, see these resources:
 - [What's new in Visual Studio 2019](../../ide/whats-new-visual-studio-2019.md)
 - [Productivity tips](../../ide/productivity-features.md)
 ::: moniker-end
-::: moniker range="vs-2022"
-- [What's new in Visual Studio 2022](../../ide/whats-new-visual-studio-2022.md)
+::: moniker range=">=vs-2022"
 - [Productivity tips](../../ide/productivity-features.md)
 ::: moniker-end

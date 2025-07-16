@@ -91,7 +91,7 @@ To specify a .NET Framework version, select an item in the **Framework** list on
 
 ::: moniker-end
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 :::image type="content" source="media/vs-2022/configure-new-project-framework.png" alt-text="Screenshot of the Framework dropdown list in the Configure new project dialog.":::
 

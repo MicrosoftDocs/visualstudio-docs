@@ -60,7 +60,7 @@ For more information about all the formatting options, see [Options, Text Editor
 ::: zone pivot="programming-language-dotnet,programming-language-dotnetf"
 ## .NET code styles in the Options dialog box
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 Code style preferences can be set for all of your C# and Visual Basic projects by opening the **Options** dialog box from the **Tools** menu. In the **Options** dialog box, select **Text Editor** > [**C#** or  **Visual Basic**] > **Code Style**.
 

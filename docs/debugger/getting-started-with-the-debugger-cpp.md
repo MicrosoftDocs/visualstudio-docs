@@ -33,9 +33,9 @@ If you're new to debugging, you might want to read [Debugging for absolute begin
 
 - Visual Studio 2022 **version 17.12** or later with the **Desktop development with C++** workload installed.
 
-   ::: moniker range="vs-2022"
+   ::: moniker range=">=vs-2022"
 
-   - To install Visual Studio 2022 for free, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page.
+   - To install Visual Studio for free, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page.
 
    ::: moniker-end
    ::: moniker range="<=vs-2019"
