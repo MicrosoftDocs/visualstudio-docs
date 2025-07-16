@@ -173,7 +173,7 @@ You can make various changes to the code editor to suit your programming languag
 
 ## Set accessibility options
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 In a neurodiverse world, we want to support our different learners and low-vision users by offering the following font options and color themes:
 

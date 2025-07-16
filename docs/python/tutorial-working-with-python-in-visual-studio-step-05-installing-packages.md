@@ -67,9 +67,9 @@ Use one of the following methods to open the **Python Environments** window:
 
 - If you have a Python project open in **Solution Explorer**, right-click the **Python Environments** node under the project, and select **View All Python Environments**:
 
-   :::moniker range="vs-2022"
+   :::moniker range=">=vs-2022"
 
-   :::image type="content" source="media/environments/environments-view-all-2022.png" alt-text="Screenshot that shows how to open the Python Environments window with right-click in Visual Studio 2022." border="false" lightbox="media/environments/environments-view-all-2022.png":::
+   :::image type="content" source="media/environments/environments-view-all-2022.png" alt-text="Screenshot that shows how to open the Python Environments window with right-click in Visual Studio." border="false" lightbox="media/environments/environments-view-all-2022.png":::
 
    :::moniker-end
    :::moniker range="<=vs-2019"
@@ -149,9 +149,9 @@ To resolve the `matplotlib` import statement, you need to install the necessary 
 
 1. After the packages install, the **Python Environments** window refreshes to show the packages for the selected environment:
 
-   :::moniker range="vs-2022"
+   :::moniker range=">=vs-2022"
 
-   :::image type="content" source="media/packages-matplotlib-numpy-2022.png" alt-text="Screenshot that shows the newly installed matplotlib and numpy packages for the selected environment in the Python Environments window in Visual Studio 2022." border="false" lightbox="media/packages-matplotlib-numpy-2022.png":::
+   :::image type="content" source="media/packages-matplotlib-numpy-2022.png" alt-text="Screenshot that shows the newly installed matplotlib and numpy packages for the selected environment in the Python Environments window in Visual Studio." border="false" lightbox="media/packages-matplotlib-numpy-2022.png":::
 
    :::moniker-end
    :::moniker range="<=vs-2019"

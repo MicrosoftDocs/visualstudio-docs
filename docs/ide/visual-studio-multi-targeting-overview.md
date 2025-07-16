@@ -78,7 +78,7 @@ In an existing Visual Basic, C#, or F# project, you change the target .NET versi
 
 ::: moniker-end
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 1. In **Solution Explorer**, open the right-click context menu for the project that you want to change, and then choose **Properties**.
 
@@ -137,7 +137,7 @@ When you create a .NET Framework project, you can select the target .NET Framewo
 
 ::: moniker-end
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 If you choose to **create a .NET Framework project**, you'll see an interface that's similar to the following screenshot:
 

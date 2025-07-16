@@ -20,7 +20,7 @@ See [Visual Studio 2019 System Requirements](/visualstudio/releases/2019/system-
 
 ::: moniker-end
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 [Visual Studio 2022 version 17.4 is now available as a native Arm64 application](https://aka.ms/vs/arm64) on Windows 11 Arm64. It's the first version of Visual Studio that natively supports building and debugging Arm64 apps on Arm-based processors. With Visual Studio 2022 version 17.4 and later, Visual Studio eliminates the dependence on x64 emulation [for most developer workloads](#supported-workloads). 
 
@@ -108,7 +108,7 @@ Not all Visual Studio projects are configured to launch projects locally when yo
 
 ::: moniker-end
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 ## We need your help!
 

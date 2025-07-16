@@ -20,7 +20,7 @@ Use the **Settings** page of the [Project Designer](project-properties-reference
 
 To access the **Settings** page, select a [project node](../use-solution-explorer.md#solution-explorer-context-menu) in **Solution Explorer**, and then use the right-click context menu to select **Properties**. When the Project Designer appears, select the **Settings** tab.
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 In **Settings** tab, you'll see a **Create or open application settings** link.
 
