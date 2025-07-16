@@ -102,9 +102,9 @@ Now you're ready to run the Django web application and see the features provided
 
    This command sets the selected project as the default **startup project** for the Visual Studio solution. When you start the **Debugger**, Visual Studio runs the code for the startup project. In **Solution Explorer**, the name of the startup project for the solution is shown in bold:
    
-   ::: moniker range="vs-2022"
+   ::: moniker range=">=vs-2022"
 
-   :::image type="content" source="media/django/vs-2022/step-04-startup-project-bold.png" alt-text="Screenshot that shows the Django Web project name is bold in Solution Explorer to indicate it's the startup project in Visual Studio 2022." border="false" lightbox="media/django/vs-2022/step-04-startup-project-bold.png":::
+   :::image type="content" source="media/django/vs-2022/step-04-startup-project-bold.png" alt-text="Screenshot that shows the Django Web project name is bold in Solution Explorer to indicate it's the startup project in Visual Studio." border="false" lightbox="media/django/vs-2022/step-04-startup-project-bold.png":::
 
    ::: moniker-end
    ::: moniker range="<=vs-2019"

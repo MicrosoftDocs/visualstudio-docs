@@ -53,9 +53,9 @@ You can scope searches to the current document, the current solution, or a custo
 
 The **Find and Replace** control appears in the upper right corner of the code editor window. It immediately highlights every occurrence of the given search string in the current document. You can navigate from one occurrence to another by choosing the **Find Next** button or the **Find Previous** button on the search control.
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
-:::image type="content" source="media/vs-2022/find-and-replace-box.png" alt-text="Screenshot of the Find and Replace dialog in the Editor in Visual Studio 2022.":::
+:::image type="content" source="media/vs-2022/find-and-replace-box.png" alt-text="Screenshot of the Find and Replace dialog in the Editor in Visual Studio.":::
 
 ::: moniker-end
 
@@ -138,9 +138,9 @@ You can define component sets as your search scope by choosing the **Edit Custom
 
 Use *multi-caret selection* to make the same edit in two or more places at the same time. For example, you can insert the same text or modify existing text in multiple locations at the same time.
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
-In Visual Studio 2022, we improved the multi-caret copy and paste experience. Previously, pasting multiple lines into multiple carets resulted in the entire clipboard being duplicated at each caret. Now, pasting multiple lines into the same number of carets will insert each line to a respective caret.
+In Visual Studio 2022 and later, pasting multiple lines into the same number of carets will insert each line to a respective caret. In earlier versions, pasting multiple lines into multiple carets results in the entire clipboard being duplicated at each caret.
 
 To use multi-caret, press **Ctrl**+**Alt**+**mouse click** or **Alt**+**Shift**+**.** and then use **Ctrl**+**Shift**+**arrow key** to expand selections. Next, press **Ctrl**+**C** to copy the text in multiple selections. Use **Alt**+**Shift**+**mouse click** to create multiple carets for each line to paste in where you want them. Finally, press **Ctrl**+**V** to paste each line at its own caret.
 

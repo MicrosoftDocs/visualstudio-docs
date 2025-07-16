@@ -33,7 +33,7 @@ You can also hover the mouse pointer over any search result to see the reference
 :::moniker range="vs-2019"
 :::image type="content" source="../ide/media/vside_findallreferences.png" alt-text="Screenshot of the Find All References window." lightbox="../ide/media/vside_findallreferences.png":::
 :::moniker-end
-:::moniker range="vs-2022"
+:::moniker range=">=vs-2022"
 :::image type="content" source="media/vs-2022/find-all-references.png" alt-text="Screenshot of the Find All References window." lightbox="media/vs-2022/find-all-references.png":::
 :::moniker-end
 

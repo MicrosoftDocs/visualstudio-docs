@@ -43,7 +43,7 @@ The **Containers** window opens automatically when you start a containerized .NE
 The left side of the window shows the list of containers on your local machine. The containers associated with your current solution are under **Solution Containers**. On the right is a pane with tabs for **Environment**, **Labels**, **Ports**, **Volumes**, **Files**, and **Logs**.
 
 :::moniker-end
-:::moniker range="vs-2022"
+:::moniker range=">=vs-2022"
 
 The **Containers** window opens automatically when you start a containerized .NET project. To open the **Containers** window any time, select **View** > **Other Windows** > **Containers** from the Visual Studio menu, or press **Ctrl**+**K**, **Ctrl**+**O**. You can also use **Ctrl**+**Q** to open the Visual Studio Search box, type *Containers*, and select the **Containers** item.
 
@@ -72,7 +72,7 @@ The **Environment** tab shows the environment variables in the container. You ca
 ![Screenshot of the Environment tab in the Containers window.](media/view-and-diagnose-containers/container-window.png)
 
 :::moniker-end
-:::moniker range="vs-2022"
+:::moniker range=">=vs-2022"
 
 ![Screenshot of the Environment tab in the Containers window.](media/view-and-diagnose-containers/vs-2022/container-tools-window.png)
 
@@ -131,7 +131,7 @@ To open a file in Visual Studio, double-click the file or right-click it and cho
 :::moniker range="vs-2019"
 ![Screenshot of file open for viewing in Visual Studio.](media/view-and-diagnose-containers/container-file-open.png)
 :::moniker-end
-:::moniker range="vs-2022"
+:::moniker range=">=vs-2022"
 ![Screenshot of file open for viewing in Visual Studio.](media/view-and-diagnose-containers/vs-2022/container-file-open.png)
 :::moniker-end
 

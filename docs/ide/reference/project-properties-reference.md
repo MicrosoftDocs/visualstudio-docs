@@ -27,7 +27,7 @@ The Project Designer appears after you select a [project node](../use-solution-e
 > [!IMPORTANT]
 > The project properties that you can access by using the .NET Project Designer differ from the properties you can access by using the [Properties window](properties-window.md) in Solution Explorer.
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 The following screenshot shows an example of the .NET project properties for a C# console project in the Project Designer.
 
@@ -51,7 +51,7 @@ The following Visual Studio 2019 screenshot shows an example of the .NET project
 
 ::: moniker-end
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 ## Project properties in the .NET Framework Project Designer
 

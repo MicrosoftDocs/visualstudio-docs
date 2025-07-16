@@ -21,7 +21,7 @@ You can add your public GitHub account at any point, after you've [signed into V
 
 ::: moniker-end
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 In this article, you learn how to add your public GitHub or GitHub Enterprise account to your Visual Studio keychain. After you add your account, you can use [GitHub Copilot](visual-studio-github-copilot-install-and-states.md) and [track your code changes in GitHub repositories](../version-control/git-create-repository.md), right from Visual Studio. You can also create and use [GitHub Actions for deployment automation](../azure/azure-deployment-using-github-actions.md).
 
@@ -83,7 +83,7 @@ Then, follow these instructions to add your GitHub account.
    
 ::: moniker-end
    
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 1. Open the Account Settings dialog by going to **File** > **Account Settings...**.
 
@@ -133,7 +133,7 @@ By default, Visual Studio only has public GitHub accounts enabled. Use the follo
 
 ::: moniker-end
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 1. To enable GitHub enterprise accounts, go to **Tools** > **Options** > **More Accounts**.
 
@@ -154,7 +154,7 @@ By default, Visual Studio only has public GitHub accounts enabled. Use the follo
 
 You can add your GitHub EMU account as follows:
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 ### Manage accounts using the profile card
 
@@ -182,7 +182,7 @@ You can add your GitHub EMU account as follows:
 
 ::: moniker-end
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 1. Select the icon with your initials in the upper-right corner of the Visual Studio environment. Open the Account Settings dialog by selecting **Account settings** or by going to **File** > **Account Settings...**. 
 
@@ -217,7 +217,7 @@ To remove an account, select **Remove** for the account you want to remove from 
 
 ::: moniker-end
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 To remove an account:
 

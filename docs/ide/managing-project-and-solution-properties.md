@@ -17,7 +17,7 @@ You access project properties by right-clicking the [project node](use-solution-
 
 Most project properties are not dependent on the configuration or the platform, but some are. Learn more about [setting properties based on configurations](how-to-create-and-edit-configurations.md#set-properties-based-on-configurations).
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 :::image type="content" source="media/vs-2022/properties-from-solution-explorer-context-menu.png" alt-text="Screenshot of the Solution Explorer context menu with the Properties option highlighted.":::
 
@@ -43,7 +43,7 @@ In C#, Visual Basic, and F# projects, properties are exposed in the [.NET Projec
 
 The following screenshot shows the **Build** property page in the .NET **Project Designer** for a console project in C#:
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 :::image type="content" source="reference/media/vs-2022/project-properties-designer-build-csharp.png" alt-text="Screenshot of the Project Designer, with the Build tab selected.":::
 
@@ -57,7 +57,7 @@ The following screenshot shows the **Build** property page in the .NET **Project
 
 The following screenshot shows the **Compile** property page in the .NET **Project Designer** for a console project in Visual Basic:
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 :::image type="content" source="reference/media/vs-2022/project-properties-designer-compile-visual-basic.png" alt-text="Screenshot of the Project Designer, with the Compile tab selected.":::
 

@@ -44,9 +44,9 @@ Follow these steps to create the app from a template:
 
 1. In **Solution Explorer**, right-click the Visual Studio project (_BasicProject_) and select **Add** > **New Item**.
 
-   ::: moniker range="vs-2022"
+   ::: moniker range=">=vs-2022"
 
-   :::image type="content" source="media/django/vs-2022/step-02-add-new-item.png" alt-text="Screenshot that shows how to add a new item to a project in Visual Studio 2022." border="false" lightbox="media/django/vs-2022/step-02-add-new-item.png"::: 
+   :::image type="content" source="media/django/vs-2022/step-02-add-new-item.png" alt-text="Screenshot that shows how to add a new item to a project in Visual Studio." border="false" lightbox="media/django/vs-2022/step-02-add-new-item.png"::: 
 
    ::: moniker-end
    ::: moniker range="<=vs-2019"
@@ -61,9 +61,9 @@ Follow these steps to create the app from a template:
 
    1. Select **Add**.
 
-   ::: moniker range="vs-2022"
+   ::: moniker range=">=vs-2022"
 
-   :::image type="content" source="media/django/vs-2022/step-02-add-django-1-9-app.png" alt-text="Screenshot that shows how to configure the Django 1.9 App template in Visual Studio 2022." border="false" lightbox="media/django/vs-2022/step-02-add-django-1-9-app.png"::: 
+   :::image type="content" source="media/django/vs-2022/step-02-add-django-1-9-app.png" alt-text="Screenshot that shows how to configure the Django 1.9 App template in Visual Studio." border="false" lightbox="media/django/vs-2022/step-02-add-django-1-9-app.png"::: 
 
    ::: moniker-end
    ::: moniker range="<=vs-2019"
@@ -78,9 +78,9 @@ Follow these steps to create the app by using the integrated Django menu command
 
 1. In **Solution Explorer**, right-click the Visual Studio project (_BasicProject_) and select **Add** > **Django app**.
 
-   ::: moniker range="vs-2022"
+   ::: moniker range=">=vs-2022"
 
-   :::image type="content" source="media/django/vs-2022/step-02-add-new-django-app.png" alt-text="Screenshot that shows how to add a new Django app from the context menu in Visual Studio 2022." border="false" lightbox="media/django/vs-2022/step-02-add-new-django-app.png"::: 
+   :::image type="content" source="media/django/vs-2022/step-02-add-new-django-app.png" alt-text="Screenshot that shows how to add a new Django app from the context menu in Visual Studio." border="false" lightbox="media/django/vs-2022/step-02-add-new-django-app.png"::: 
 
    ::: moniker-end
    ::: moniker range="<=vs-2019"
@@ -91,9 +91,9 @@ Follow these steps to create the app by using the integrated Django menu command
 
 1. In the **Add Django App** dialog, enter the app name _HelloDjangoApp_:
 
-   ::: moniker range="vs-2022"
+   ::: moniker range=">=vs-2022"
 
-   :::image type="content" source="media/django/vs-2022/step-02-name-django-app.png" alt-text="Screenshot that shows how to enter a name for the new Django app in Visual Studio 2022." border="false"::: 
+   :::image type="content" source="media/django/vs-2022/step-02-name-django-app.png" alt-text="Screenshot that shows how to enter a name for the new Django app in Visual Studio." border="false"::: 
 
    ::: moniker-end
    ::: moniker range="<=vs-2019"
@@ -108,9 +108,9 @@ Follow these steps to create the app by using the integrated Django menu command
 
 When you create the **HelloDjangoApp** app, Visual Studio creates a folder with the same name in your Visual Studio project:
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
-:::image type="content" source="media/django/vs-2022/step-02-django-subfolder-app-files.png" alt-text="Screenshot that shows the Django subfolder with app files in Visual Studio 2022." border="false" lightbox="media/django/vs-2022/step-02-django-subfolder-app-files.png"::: 
+:::image type="content" source="media/django/vs-2022/step-02-django-subfolder-app-files.png" alt-text="Screenshot that shows the Django subfolder with app files in Visual Studio." border="false" lightbox="media/django/vs-2022/step-02-django-subfolder-app-files.png"::: 
 
 ::: moniker-end
 ::: moniker range="<=vs-2019"
@@ -211,13 +211,13 @@ After you add app-specific content, run your app again and check the route views
 
 After you update the Django app code and test the updates, you can review and commit your changes to source control:
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 1. Save the changes to your project files, such as with the **Ctrl**+**S** keyboard shortcut.
 
 1. On the Git controls bar, select the uncommitted changes (pencil 11) to open the **Git Changes** window:
 
-   :::image type="content" source="media/django/vs-2022/step-02-app-page-uncommitted-changes.png" alt-text="Screenshot that shows the uncommitted changes option on the Visual Studio 2022 status bar." border="false" lightbox="media/django/vs-2022/step-02-app-page-uncommitted-changes.png"::: 
+   :::image type="content" source="media/django/vs-2022/step-02-app-page-uncommitted-changes.png" alt-text="Screenshot that shows the uncommitted changes option on the Visual Studio status bar." border="false" lightbox="media/django/vs-2022/step-02-app-page-uncommitted-changes.png"::: 
 
 1. In the **Git Changes** window, enter a commit message, and select **Commit All**: 
 
