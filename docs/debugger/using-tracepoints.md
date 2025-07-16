@@ -26,7 +26,7 @@ The following example program is a simple `for` loop with a counter variable tha
 :::image type="content" source="../debugger/media/counterexample.png" alt-text="Screenshot of a sample counter program.":::
 ::: moniker-end
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 The following example program is a simple `for` loop with a counter variable that increases by one every time the loop runs another iteration.
 
@@ -85,7 +85,7 @@ You can set tracepoints by specifying an output string under the **Action** chec
 
 ::: moniker-end
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 You can set tracepoints by specifying an output string under the **Action** checkbox in the **Breakpoint Settings** window.
 
@@ -145,7 +145,7 @@ You can also use special keywords to display more specific information. Enter th
 
 ::: moniker-end
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 This menu allows you to log a message to the Output window. Type the strings you want to output into the message box (no quotes necessary). If you want to display values of variables, make sure you enclose it in curly braces.
 
@@ -200,7 +200,7 @@ For a more comprehensive look at valid expressions you can use while setting con
 
 ::: moniker-end
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 For a conditional expression, an output message displays only when certain conditions are met.
 
@@ -237,7 +237,7 @@ For hit count, you can choose to output a message when the line of code where th
 
 ::: moniker-end
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 A hit count condition allows you to send output only after the line of code where the tracepoint is set has executed a specified number of times.
 
@@ -271,7 +271,7 @@ Enclose strings (such as names) in double quotes. Values can be entered without 
 
 ::: moniker-end
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 For a filter condition, specify which devices, processes, or threads output is shown for.
 

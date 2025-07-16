@@ -40,7 +40,7 @@ By default, the following settings are synchronized:
 
 ## Turn off synchronized settings on a particular computer
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 Synchronized settings for Visual Studio are turned on by default. You can turn off synchronized settings on a computer by going to the **Tools** > **Options** > **Environment** > **Accounts** page and clearing the **Synchronize settings across devices and installs on this machine (enabling this may overwrite local settings)** checkbox.
 

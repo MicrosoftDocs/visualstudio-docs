@@ -77,7 +77,7 @@ When selected, you can rename all the references in a project to that of the cod
 
 When selected, Visual Studio displays a message box asking whether or not it should also rename all references in the project to that of the code element.
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 ## Enable namespace update when moving files
 

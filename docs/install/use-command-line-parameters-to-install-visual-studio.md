@@ -186,7 +186,7 @@ Syntax examples:
    C:\>"C:\Program Files\Microsoft\Visual Studio\2022\Enterprise\vs_enterprise.exe" modifySettings --channelUri https://aka.ms/vs/17/release.LTSC.17.0/channel --productID Microsoft.VisualStudio.Product.Enterprise --newChannelUri \\layoutserver\share\path\channelmanifest.json --removeOos true --quiet
   ``` 
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 ## Rollback command and command-line parameters
 Starting in Visual Studio 2022, you can [roll back an update](/troubleshoot/developer/visualstudio/installation/troubleshoot-installation-issues?toc=%2Fvisualstudio%2Ftoc.json#7-roll-back-to-a-previous-install-for-visual-studio-2022-only) programmatically by using the installer on the client machine and passing in the rollback command alongside the installation path instance. 

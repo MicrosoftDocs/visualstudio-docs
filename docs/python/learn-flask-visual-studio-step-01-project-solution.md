@@ -29,9 +29,9 @@ This tutorial differs from the [Flask Quickstart](../ide/quickstart-python.md?to
 
 ## Prerequisites
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
-- Visual Studio 2022 on Windows with the following options selected in the Visual Studio Installer:
+- Visual Studio 2022 or later on Windows with the following options selected in the Visual Studio Installer:
 
    - On the **Workloads** tab, select the **Python development** option. For more information, see [Install Python support in Visual Studio](installing-python-support-in-visual-studio.md).
 
@@ -58,11 +58,11 @@ In Step 1 of this tutorial, you create a single Visual Studio solution to contai
 
 Follow this procedure to create the solution and a Flask web project:
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 1. In Visual Studio, select **File** > **New** > **Project** and search for "Flask." Then, select the **Blank Flask Web Project** template and select **Next**.
 
-   :::image type="content" source="media/flask/vs-2022/step-01-new-blank-project.png" alt-text="Screenshot that shows how to select the Blank Flask Web Project template in Visual Studio 2022." border="false" lightbox="media/flask/vs-2022/step-01-new-blank-project.png"::: 
+   :::image type="content" source="media/flask/vs-2022/step-01-new-blank-project.png" alt-text="Screenshot that shows how to select the Blank Flask Web Project template in Visual Studio." border="false" lightbox="media/flask/vs-2022/step-01-new-blank-project.png"::: 
 
 1. Configure your new project and solution:
 
@@ -119,18 +119,13 @@ Follow this procedure to create the solution and a Flask web project:
 
 ## Examine Git controls
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 In the next procedure, you familiarize yourself with Visual Studio support for Git source control.
 
-> [!IMPORTANT]
-> With the release of Visual Studio 2019 [**version 16.8**](/visualstudio/releases/2019/release-notes-history), the Git version control experience is on by default. If you'd like to learn more about how it compares with Team Explorer, see the [**Side-by-side comparison of Git and Team Explorer**](../version-control/git-team-explorer-feature-comparison.md) page.
->
-> However, if you prefer to continue to use Team Explorer in Visual Studio 2019, go to **Tools** > **Options** > **Environment** > **Preview Features** and then toggle the **New Git user experience** checkbox. (This option is not available in Visual Studio 2022 and later.) For more information, see [Connect to projects in Team Explorer](/visualstudio/ide/connect-team-project).
-
 1. To commit the project to your local source control, select **Add to Source Control** at the bottom right in the Visual Studio main window and then select **Git**:
 
-   :::image type="content" source="media/flask/vs-2022/step-01-git-add-to-source-control.png" alt-text="Screenshot that shows how to Create a Git repository in Visual Studio 2022." border="false" lightbox="media/flask/vs-2022/step-01-git-add-to-source-control.png":::
+   :::image type="content" source="media/flask/vs-2022/step-01-git-add-to-source-control.png" alt-text="Screenshot that shows how to Create a Git repository in Visual Studio." border="false" lightbox="media/flask/vs-2022/step-01-git-add-to-source-control.png":::
 
    The **Create Git** repository window opens, where you can create and push a new repository.
 
@@ -207,7 +202,7 @@ For more information on source control as automation, see [The Source of Truth: 
 
 Follow these steps to prevent Visual Studio from auto-committing a new project:
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 1. Select **Tools** > **Options** > **Source Control** > **Git Global Settings**.
 
@@ -226,7 +221,7 @@ Follow these steps to prevent Visual Studio from auto-committing a new project:
 
 After you configure source control for your project, you can create the virtual environment with the necessary Flask packages that the project requires. You can then use the **Git Changes** window to exclude the environment's folder from source control.
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 1. In **Solution Explorer**, right-click the **Python Environments** node and select **Add Environment**.
 
@@ -431,11 +426,11 @@ Now you're ready to run your project in Visual Studio by following this procedur
 
 There's a difference between using the **Debug** menu commands and the server commands listed on the project's **Python** submenu.
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 In addition to the **Debug** menu commands and toolbar buttons, you can also launch the server by using the **Python** > **Start server** or **Python** > **Start debug server** commands on the project's context menu. 
 
-:::image type="content" source="media/flask/vs-2022/step-01-project-python-commands.png" alt-text="Screenshot that shows the Python commands for the selected project in Solution Explorer in Visual Studio 2022." border="false" lightbox="media/flask/vs-2022/step-01-project-python-commands.png"::: 
+:::image type="content" source="media/flask/vs-2022/step-01-project-python-commands.png" alt-text="Screenshot that shows the Python commands for the selected project in Solution Explorer in Visual Studio." border="false" lightbox="media/flask/vs-2022/step-01-project-python-commands.png"::: 
 
 ::: moniker-end
 ::: moniker range="<=vs-2019"

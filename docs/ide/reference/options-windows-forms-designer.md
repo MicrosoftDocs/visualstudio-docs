@@ -20,7 +20,7 @@ The Windows Forms Designer options page lets you set preferences for the grids a
 
 ## .NET Core
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 **Connection timeout (sec)**\
 Controls the Windows Forms out-of-process designer connection timeout, as measured in seconds. The minimum value is 120 seconds.

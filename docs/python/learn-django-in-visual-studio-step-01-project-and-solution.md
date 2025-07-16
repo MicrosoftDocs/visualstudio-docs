@@ -27,9 +27,9 @@ In Step 1 of the tutorial, you learn how to:
 
 ## Prerequisites
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
-- Visual Studio 2022 on Windows with the following options selected in the Visual Studio Installer:
+- Visual Studio 2022 or later on Windows with the following options selected in the Visual Studio Installer:
 
    - On the **Workloads** tab, select the **Python development** option. For more information, see [Install Python support in Visual Studio](installing-python-support-in-visual-studio.md).
 
@@ -64,7 +64,7 @@ When you work with Django from the command line, you usually start a project by 
 
 Follow this procedure to create the solution and project:
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 1. In Visual Studio, select **File** > **New** > **Project** and search for "Django." Then, select the **Blank Django Web Project** template and select **Next**.
 
@@ -125,7 +125,7 @@ Follow this procedure to create the solution and project:
 
 ## Examine Git controls
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 In the next procedure, you familiarize yourself with Visual Studio support for Git source control.
 
@@ -213,7 +213,7 @@ For more information on source control as automation, see [The Source of Truth: 
 
 Follow these steps to prevent Visual Studio from auto-committing a new project:
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 1. Select **Tools** > **Options** > **Source Control** > **Git Global Settings**.
 
@@ -232,7 +232,7 @@ Follow these steps to prevent Visual Studio from auto-committing a new project:
 
 After you configure source control for your project, you can create the virtual environment with the necessary Django packages that the project requires. You can then use the **Git Changes** window to exclude the environment's folder from source control.
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 1. In **Solution Explorer**, right-click the **Python Environments** node and select **Add Environment**.
 
@@ -332,9 +332,9 @@ In this section, you examine the boilerplate code in the Project file (_.py_) th
 
 1. Open **Solution Explorer** to view your solution and project files. The initial project contains only two files, _manage.py_ and _requirements.txt_:
 
-   ::: moniker range="vs-2022"
+   ::: moniker range=">=vs-2022"
 
-   :::image type="content" source="media/django/vs-2022/step-01-django-python-commands.png" alt-text="Screenshot that shows the initial Django project files in Solution Explorer in Visual Studio 2022." border="false" lightbox="media/django/vs-2022/step-01-django-python-commands.png"::: 
+   :::image type="content" source="media/django/vs-2022/step-01-django-python-commands.png" alt-text="Screenshot that shows the initial Django project files in Solution Explorer in Visual Studio." border="false" lightbox="media/django/vs-2022/step-01-django-python-commands.png"::: 
 
    ::: moniker-end
    ::: moniker range="<=vs-2019"
@@ -351,9 +351,9 @@ In this section, you examine the boilerplate code in the Project file (_.py_) th
 
 1. In addition to the two files, the project also has a subfolder with the same name as the project. This folder contains the basic Django project files:
 
-   ::: moniker range="vs-2022"
+   ::: moniker range=">=vs-2022"
 
-   :::image type="content" source="media/django/vs-2022/step-01-django-project-solution-explorer.png" alt-text="Screenshot that shows the subfolder in the initial Django project in Solution Explorer in Visual Studio 2022." border="false" lightbox="media/django/vs-2022/step-01-django-project-solution-explorer.png"::: 
+   :::image type="content" source="media/django/vs-2022/step-01-django-project-solution-explorer.png" alt-text="Screenshot that shows the subfolder in the initial Django project in Solution Explorer in Visual Studio." border="false" lightbox="media/django/vs-2022/step-01-django-project-solution-explorer.png"::: 
 
    ::: moniker-end
    ::: moniker range="<=vs-2019"
@@ -405,11 +405,11 @@ When you deploy your Django web app to a web host, you use the web server on the
 
 There's a difference between using the **Debug** menu commands and the server commands listed on the project's **Python** submenu.
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 In addition to the **Debug** menu commands and toolbar buttons, you can also launch the server by using the **Python** > **Start server** or **Python** > **Start debug server** commands on the project's context menu. 
 
-:::image type="content" source="media/django/vs-2022/step-01-project-python-debug-commands.png" alt-text="Screenshot that shows the Python commands for the selected project in Solution Explorer in Visual Studio 2022." border="false" lightbox="media/django/vs-2022/step-01-project-python-debug-commands.png"::: 
+:::image type="content" source="media/django/vs-2022/step-01-project-python-debug-commands.png" alt-text="Screenshot that shows the Python commands for the selected project in Solution Explorer in Visual Studio." border="false" lightbox="media/django/vs-2022/step-01-project-python-debug-commands.png"::: 
 
 ::: moniker-end
 ::: moniker range="<=vs-2019"
