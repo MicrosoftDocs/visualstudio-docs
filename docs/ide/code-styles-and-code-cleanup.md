@@ -22,11 +22,18 @@ Code style preferences allow you to control aspects of code such as indent style
 - For all code you edit in Visual Studio based on settings for the text editor [.NET Options page](#net-code-styles-in-the-options-dialog-box) or [C/C++ Options page](#cc-code-styles-in-the-options-dialog-box).
 
 You can also configure Visual Studio to apply code style preferences using the **Code Cleanup** and **Format Document** commands.
+
 ::: moniker-end
 
 ::: moniker range="vs-2019"
 You can define code style settings per-project by using an [EditorConfig file](#code-styles-in-editorconfig-files), or for all code you edit in Visual Studio on the text editor [.NET Options page](#net-code-styles-in-the-options-dialog-box) or [C/C++ Options page](#cc-code-styles-in-the-options-dialog-box). For C# code, you can also configure Visual Studio to apply these code style preferences using the **Code Cleanup** (Visual Studio 2019) and **Format Document** (Visual Studio 2017) commands.
 ::: moniker-end
+
+::: zone pivot="programming-language-dotnet,programming-language-dotnetf"
+For .NET, the code style preferences are based on .NET compiler platform (Roslyn) analyzers. For more information, see [Code analysis using .NET compiler platform (Roslyn) analyzers](../code-quality/roslyn-analyzers-overview.md).
+
+In Visual Studio 2019 version 16.5 and later, rule set files are deprecated in favor of EditorConfig files for code style configuration for .NET code. For more information, see [Convert an existing rule set file to an EditorConfig file](../code-quality/use-roslyn-analyzers.md#convert-an-existing-rule-set-file-to-an-editorconfig-file).
+::: zone-end
 
 ::: zone pivot="programming-language-dotnet,programming-language-cpp,programming-language-dotnetf"
 ## Code styles in EditorConfig files
