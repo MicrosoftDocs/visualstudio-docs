@@ -381,7 +381,8 @@ In general, **OK**, **Cancel**, and **Help** buttons should be arranged horizont
 
 ![Acceptable configurations for control buttons in Visual Studio dialogs](../../extensibility/ux-guidelines/media/0704-04_controlbuttonconfig.png "0704-04_ControlButtonConfig")<br />Acceptable configurations for control buttons in Visual Studio dialogs
 
-The dialog must include a default control button. To determine the best command to use as the default, choose from the following options (listed in order of precedence):
+The dialog must include a default control button. This is a button that is invoked by pressing the Enter key - see [Button IsDefault](/dotnet/api/system.windows.controls.button.isdefault?view=netframework-4.7.2&preserve-view=true)
+.To determine the best command to use as the default, choose from the following options (listed in order of precedence):
 
 - Choose the safest and most secure command as the default. This means choosing the command most likely to prevent data loss and avoid unintended system access.
 
@@ -390,13 +391,7 @@ The dialog must include a default control button. To determine the best command 
 Avoid choosing a permanently destructive action for the default command. If such a command is present, choose a safer command as the default instead.
 
 #### Access keys
-Do not use access keys for **OK**, **Cancel**, or **Help** buttons. These buttons are mapped to shortcut keys by default:
-
-| Button name | Keyboard shortcut |
-| --- | --- |
-| OK | Enter |
-| Cancel | Esc |
-| Help | F1 |
+Do not use access keys for **OK** or **Cancel**. Enter and Escape shortcuts can be set with [Button IsDefault](/dotnet/api/system.windows.controls.button.isdefault?view=netframework-4.7.2&preserve-view=true) and [Button IsCancel](/dotnet/api/system.windows.controls.button.iscancel?view=netframework-4.7.2&preserve-view=true) respectively.
 
 #### Imagery
 Use images sparingly in dialogs. Don't use large icons in dialogs merely to use up space. Use images only if they are an important part of conveying the message to the user, like warning icons or status animations.
