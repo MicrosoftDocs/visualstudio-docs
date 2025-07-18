@@ -596,6 +596,7 @@ The following example shows how these functions are used.
         <Value5>$([MSBuild]::IsTargetFrameworkCompatible('net5.0-windows', 'net5.0'))</Value5>
         <Value6>$([MSBuild]::IsTargetFrameworkCompatible('net5.0', 'net6.0'))</Value6>
         <Value7>$([MSBuild]::IsTargetFrameworkCompatible('net5.0', 'net8.0'))</Value7>
+        <Value8>$([MSBuild]::IsTargetFrameworkCompatible('net8.0', 'net6.0'))</Value8>
     </PropertyGroup>
 
     <Target Name="MyTarget">
@@ -606,6 +607,7 @@ The following example shows how these functions are used.
         <Message Text="Value5 = $(Value5)" />
         <Message Text="Value6 = $(Value6)" />
         <Message Text="Value7 = $(Value7)" />
+        <Message Text="Value8 = $(Value8)" />
     </Target>
 </Project>
 ```
@@ -618,6 +620,7 @@ Value4 = 7.0
 Value5 = True
 Value6 = False
 Value7 = False
+Value8 = True
 ```
 
 ::: moniker range=">=vs-2022"
