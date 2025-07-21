@@ -1,61 +1,72 @@
 ---
-title: "Debug a parallel application"
-description: Debug a parallel application by using the Parallel Tasks and Parallel Stacks windows in the Visual Studio integrated development environment (IDE).
-ms.date: "10/24/2023"
+title: "Debug an async application"
+description: Debug an async application by using the Parallel Stacks windows in the Visual Studio integrated development environment (IDE).
+ms.date: "07/14/2025"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"
-  - "VB"
-  - "FSharp"
-  - "C++"
 helpviewer_keywords:
   - "debugger, parallel tasks walkthrough"
   - "parallel stacks toolwindow"
   - "parallel tasks toolwindow"
-  - "parallel applications, debugging [C++]"
-  - "debugging, parallel applications"
-  - "parallel applications, debugging [Visual Basic]"
-  - "parallel applications, debugging [C#]"
+  - "debugging, async applications"
+  - "async applications, debugging [C#]"
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
+monikerRange: '>= vs-2022'
 ---
-# Walkthrough: Debugging a Parallel Application in Visual Studio (C#, Visual Basic, C++)
+# Debug an async application
 
-This walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks** windows to debug a parallel application. These windows help you understand and verify the run-time behavior of code that uses the [Task Parallel Library (TPL)](/dotnet/standard/parallel-programming/task-parallel-library-tpl) or the [Concurrency Runtime](/cpp/parallel/concrt/concurrency-runtime). This walkthrough provides sample code that has built-in breakpoints. After the code breaks, the walkthrough shows how to use the **Parallel Tasks** and **Parallel Stacks** windows to examine it.
+This tutorial shows how to use the Tasks view of **Parallel Stacks** window to debug a C# async application. This window helps you understand and verify the run-time behavior of code that uses the async/await pattern, also called the [Task-based asynchronous pattern (TAP)](/dotnet/standard/asynchronous-programming-patterns/task-based-asynchronous-pattern-tap).
 
-This walkthrough teaches these tasks:
+For apps using the [Task Parallel Library (TPL)](/dotnet/standard/parallel-programming/task-parallel-library-tpl) but not the async/await pattern, or for C++ apps using the [Concurrency Runtime](/cpp/parallel/concrt/concurrency-runtime), the **Threads** view in the **Parallel Stacks** window is the most useful tool for debugging. For more information, see [View threads and tasks in the Parallel Stacks window](../debugger/using-the-parallel-stacks-window.md).
 
-- How to view the call stacks of all threads in one view.
+The Tasks view helps you to:
 
-- How to view the list of `System.Threading.Tasks.Task` instances that are created in your application.
+- View call stack visualizations for apps that use the async/await pattern. In these scenarios, the Tasks view provides a more complete picture of your app state.
 
-- How to view the real call stacks of tasks instead of threads.
+- Identify async code that is scheduled to run but isn't yet running. For example, an HTTP request that has not returned any data is more likely to show up in the Tasks view instead of the Threads view, which helps you to isolate the problem.
 
-- How to navigate to code from the **Parallel Tasks** and **Parallel Stacks** windows.
+- Help identify issues such as the sync-over-async pattern along with hints related to potential issues such as blocked or waiting tasks. The [sync-over-async code pattern](https://devblogs.microsoft.com/pfxteam/should-i-expose-synchronous-wrappers-for-asynchronous-methods/) refers to code that is calling asynchronous methods in a synchronous fashion, which is known to block threads and is the most common cause of thread pool starvation.
 
-- How the windows cope with scale through grouping, zooming, and other related features.
+## C# sample
 
-## Prerequisites
+The sample code in this walkthrough is for an application that simulates a day in the life of a gorilla. The purpose of the exercise is to understand how to use the Tasks view of the Parallel Stacks window to debug an async application.
 
-This walkthrough assumes that **Just My Code** is enabled (it's enabled by default in more recent versions of Visual Studio). On the **Tools** menu, select **Options**, expand the **Debugging** node, select **General**, and then select **Enable Just My Code (Managed only)**. If you don't set this feature, you can still use this walkthrough, but your results might differ from the illustrations.
+The sample includes an example of using the sync-over-async antipattern, which can result in thread pool starvation.
 
-### C# sample
+To make the call stack intuitive, the sample app performs the following sequential steps:
 
-If you use the C# sample, this walkthrough also assumes that External Code is hidden. To toggle whether external code is displayed, right-click the **Name** table header of the **Call Stack** window, and then select or clear **Show External Code**. If you don't set this feature, you can still use this walkthrough, but your results might differ from the illustrations.
+1. Creates an object representing a gorilla.
+1. Gorilla wakes up.
+1. Gorilla goes on a morning walk.
+1. Gorilla finds bananas in the jungle.
+1. Gorilla eats.
+1. Gorilla engages in monkey business.
 
-### C++ sample
+## Async call stacks
 
-If you use the C++ sample, you can ignore references to External Code in this article. External Code only applies to the C# sample.
+The Tasks view in Parallel Stacks provides a visualization for async call stacks, so you can see what's happening (or supposed to happen) in your application.
 
-### Illustrations
+Here are a few important points to remember when interpreting data in the Tasks view.
 
-The illustrations in this article are recorded on a quad core computer running the C# sample. Although you can use other configurations to complete this walkthrough, the illustrations might differ from what is displayed on your computer.
+- Async call stacks are logical or virtual call stacks, not physical call stacks representing the stack. When working with async code (for example, using the `await` keyword), the debugger provides a view of the "async call stacks", or "virtual call stacks". Async call stacks are different from thread-based call stacks, or "physical stacks", because async call stacks aren't necessarily running currently on any physical thread. Instead, the async call stacks are continuations or "promises" of code that will run in the future, asynchronously. The call stacks are created using [continuations](/dotnet/standard/parallel-programming/chaining-tasks-by-using-continuation-tasks).
+
+- Async code that is scheduled but not currently running doesn't appear on the physical call stack, but should appear on the async call stack in the Tasks view. If you're blocking threads using methods such as `.Wait` or `.Result`, you may see the code in the physical call stack instead.
+
+- Async virtual call stacks aren't always intuitive, due to branching that results from the use of method calls such as `.WaitAny` or `.WaitAll`.
+
+- The **Call Stack** window may be useful in combination with the Tasks view, since it shows the physical call stack for the current executing thread.
+
+- Identical sections of the virtual call stack are grouped together to simplify the visualization for complex apps.
+
+  The following conceptual animation shows how grouping is applied to virtual call stacks. Only identical segments of a virtual call stack are grouped.
+
+  ![Illustration of the grouping of virtual call stacks.](../debugger/media/vs-2022/debug-asynchronous-virtual-call-stacks-top-bottom.gif)
 
 ## Create the sample project
-
-The sample code in this walkthrough is for an application that does nothing. The purpose of the exercise is to understand how to use the tool windows to debug a parallel application.
 
 1. Open Visual Studio and create a new project.
 
@@ -65,392 +76,228 @@ The sample code in this walkthrough is for an application that does nothing. The
    On the start window, choose **New project**.
    ::: moniker-end
 
-   ::: moniker range="vs-2019"
-   On the start window, choose **Create a new project**.
-   ::: moniker-end
+   On the **Create a new project** window, enter or type *console* in the search box. Next, choose **C#** from the Language list, and then choose **Windows** from the Platform list.
 
-   On the **Create a new project** window, enter or type *console* in the search box. Next, choose **C#**, **C++**, or **Visual Basic** from the Language list, and then choose **Windows** from the Platform list.
-
-   After you apply the language and platform filters, choose the **Console App** for .NET Core or C++, and then choose **Next**.
+   After you apply the language and platform filters, choose the **Console App** for .NET, and then choose **Next**.
 
    > [!NOTE]
-   > If you don't see the correct template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET desktop development** or **Desktop development with C++** workload, then choose **Modify**.
+   > If you don't see the correct template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET desktop development** workload, then choose **Modify**.
 
-   In the **Configure your new project** window, type a name or use the default name in the **Project name** box. Then, choose **Next** or **Create**, whichever option is available.
+   In the **Configure your new project** window, type a name or use the default name in the **Project name** box. Then, choose **Next**.
 
-   For .NET Core, choose either the recommended target framework or .NET 8, and then choose **Create**.
+   For .NET, choose either the recommended target framework or .NET 8, and then choose **Create**.
 
    A new console project appears. After the project has been created, a source file appears.
 
-1. Open the .cpp, .cs, or .vb code file in the project. Delete its contents to create an empty code file.
+1. Open the *.cs* code file in the project. Delete its contents to create an empty code file.
 
 1. Paste the following code for your chosen language into the empty code file.
 
-   ### [C#](#tab/csharp)
-   :::code language="csharp" source="../snippets/csharp/VS_Snippets_Misc/debugger/cs/s.cs" id="Snippet1":::
+   ```csharp
+   using System.Diagnostics;
 
-   ### [VB](#tab/vb)
-   :::code language="vb" source="../snippets/visualbasic/VS_Snippets_Misc/debugger/vb/module1.vb" id="Snippet1":::
+   namespace AsyncTasks_SyncOverAsync
+   {
+        class Jungle
+        {
+            public static async Task<int> FindBananas()
+            {
+                await Task.Delay(1000);
+                Console.WriteLine("Got bananas.");
+                return 0;
+            }
+    
+            static async Task Gorilla_Start()
+            {
+                Debugger.Break();
+                Gorilla koko = new Gorilla();
+                int result = await Task.Run(koko.WakeUp);
+            }
+    
+            static async Task Main(string[] args)
+            {
+                List<Task> tasks = new List<Task>();
+                for (int i = 0; i < 2; i++)
+                {
+                    Task task = Gorilla_Start();
+                    tasks.Add(task);
+    
+                }
+                await Task.WhenAll(tasks);
+    
+            }
+        }
+    
+        class Gorilla
+        {
+    
+            public async Task<int> WakeUp()
+            {
+                int myResult = await MorningWalk();
+    
+                return myResult;
+            }
+    
+            public async Task<int> MorningWalk()
+            {
+                int myResult = await Jungle.FindBananas();
+                GobbleUpBananas(myResult);
+    
+                return myResult;
+            }
+    
+            /// <summary>
+            /// Calls a .Wait.
+            /// </summary>
+            public void GobbleUpBananas(int food)
+            {
+                Console.WriteLine("Trying to gobble up food synchronously...");
+    
+                Task mb = DoSomeMonkeyBusiness();
+                mb.Wait();
+    
+            }
+    
+            public async Task DoSomeMonkeyBusiness()
+            {
+                Debugger.Break();
+                while (!System.Diagnostics.Debugger.IsAttached)
+                {
+                    Thread.Sleep(100);
+                }
+    
+                await Task.Delay(30000);
+                Console.WriteLine("Monkey business done");
+            }
+        }
+   }
+   ```
+   
 
-   ### [C++](#tab/cpp)
-   :::code language="cpp" source="../snippets/cpp/VS_Snippets_Misc/debugger/cpp/beta2_native.cpp" id="Snippet1":::
-
-   ---
-
-After you update the code file, save your changes and build the solution.
+   After you update the code file, save your changes and build the solution.
 
 1. On the **File** menu, select **Save All**.
 
-1. On the **Build** menu, select **Rebuild Solution**.
+1. On the **Build** menu, select **Build Solution**.
 
-Notice there are four calls to `Debugger.Break` (`DebugBreak` in the C++ sample). Therefore, you don't have to insert breakpoints. Just running the application causes it to break in the debugger up to four times.
+## Use the Tasks View of the Parallel Stacks window
 
-## Use the Parallel Stacks Window: Threads View
+1. On the **Debug** menu, select **Start Debugging** (or **F5**) and wait for the first `Debugger.Break()` to be hit.
 
-To begin, on the **Debug** menu, select **Start Debugging**. Wait until the first breakpoint is hit.
+1. Press **F5** once, and the debugger pauses again on the same `Debugger.Break()` line.
 
-### View the call stack of a single thread
+   This pauses in the second call to `Gorilla_Start`, which occurs within a second async task.
 
-1. On the **Debug** menu, point to **Windows** and then select **Threads**. Dock the **Threads** window at the bottom of Visual Studio.
+1. Select **Debug > Windows > Parallel Stacks** to open the Parallel Stacks window, and then select **Tasks** from the **View** dropdown in the window.
 
-1. On the **Debug** menu, point to **Windows** and then select **Call Stack**. Dock the **Call Stack** window at the bottom Visual Studio.
+   ![Screenshot of Tasks view in Parallel Stacks window.](../debugger/media/vs-2022/debug-asynchronous-parallel-stacks-tasks-view.png)
 
-1. Double-click a thread in the **Threads** window to make it current. Current threads have a yellow arrow. When you change the current thread, its call stack is displayed in the **Call Stack** window.
+   Notice the labels for the async call stacks describe **2 Async Logical Stacks**. When you last pressed **F5**, you started another task. For simplification in complex apps, identical async call stacks are grouped together into a single visual representation. This provides more complete information, especially in scenarios with many tasks.
 
-### Examine the Parallel Stacks window
+   In contrast to the Tasks view, the **Call Stack** window shows the call stack for the current thread only, not for multiple tasks. It is often helpful to view both of them together for a more complete picture of the app state.
 
-On the **Debug** menu, point to **Windows** and then select **Parallel Stacks**. Make sure that **Threads** is selected in the box at the upper-left corner.
+   ![Screenshot of Call Stack.](../debugger/media/vs-2022/debug-asynchronous-call-stack.png)
 
-By using the **Parallel Stacks** window, you can view multiple call stacks at the same time in one view. The following illustration shows the **Parallel Stacks** window above the **Call Stack** window.
+   > [!TIP]
+   > The Call Stack window can show you information such as a deadlock, using the description `Async cycle`.
 
-::: moniker range=">=vs-2022"
-![Screenshot of Threads view in Parallel Stacks window.](../debugger/media/vs-2022/pdb-walkthrough-1.png "PDB_Walkthrough_1")
-::: moniker-end
+   During debugging, you can toggle whether external code is displayed. To toggle the feature, right-click the **Name** table header of the **Call Stack** window, and then select or clear **Show External Code**. If you show external code, you can still use this walkthrough, but your results might differ from the illustrations.
 
-::: moniker range="vs-2019"
-![Threads view in Parallel Stacks window](../debugger/media/pdb_walkthrough_1.png "PDB_Walkthrough_1")
-::: moniker-end
+1. Press **F5** again, and the debugger pauses in the `DoSomeMonkeyBusiness` method.
 
-The call stack of the Main thread appears in one box and the call stacks for the other four threads are grouped in another box. Four threads are grouped together because their stack frames share the same method contexts; that is, they are in the same methods: `A`, `B`, and `C`. To view the thread IDs and names of the threads that share the same box, hover over the box with the header (**[#] Threads**). The current thread is displayed in bold.
+   ![Screenshot of Tasks view after F5.](../debugger/media/vs-2022/debug-asynchronous-parallel-stacks-tasks-view-2.png)
 
-::: moniker range=">=vs-2022"
-![Screenshot of Tooltip that shows thread IDs and names.](../debugger/media/vs-2022/pdb-walkthrough-1a.png "PDB_Walkthrough_1A")
-::: moniker-end
+   This view shows a more complete async call stack after more async methods were added to the internal continuation chain, which occurs when using `await` and similar methods. `DoSomeMonkeyBusiness` may or may not be present at the top of the async call stack because it is an async method but has not yet been added to the continuation chain. We will explore why this is the case in the steps that follow.
 
-::: moniker range="vs-2019"
-![Tooltip that shows thread IDs and names](../debugger/media/pdb_walkthrough_1a.png "PDB_Walkthrough_1A")
-::: moniker-end
+   This view also shows the blocked icon for `Jungle.Main` ![Status Blocked](media/icon-status-block.png). This is informative, but does not usually indicate a problem. A blocked task is one that is blocked because it's waiting on another task to finish, an event to be signaled, or a lock to be released.
 
-The yellow arrow indicates the active stack frame of the current thread.
+1. Hover over the `GobbleUpBananas` method to get information about the two threads that are running the tasks.
 
-You can set how much detail to show for the stack frames (**Module Names**, **Parameter Types**, **Parameter Names**, **Parameter Values**, **Line Numbers** and **Byte Offsets**) by right-clicking in the **Call Stack** window.
+   ![Screenshot of the threads associated with the call stack.](../debugger/media/vs-2022/debug-asynchronous-parallel-stacks-tasks-view-threads.png)
 
-A blue highlight around a box indicates that the current thread is part of that box. The current thread is also indicated by the bold stack frame in the tooltip. If you double-click the Main thread in the Threads window, you can observe that the highlight arrow in the **Parallel Stacks** window moves accordingly.
+   The current thread also appears in the **Thread** list in the Debug toolbar.
 
-::: moniker range=">=vs-2022"
-![Screenshot of Highlighted main thread in Parallel Stacks window.](../debugger/media/vs-2022/pdb-walkthrough-1c.png "PDB_Walkthrough_1C")
-::: moniker-end
+   ![Screenshot of the current thread in the Debug toolbar.](../debugger/media/vs-2022/debug-asynchronous-parallel-stacks-threads-debug-toolbar.png)
 
-::: moniker range="vs-2019"
-![Highlighted main thread in Parallel Stacks window](../debugger/media/pdb_walkthrough_1c.png "PDB_Walkthrough_1C")
-::: moniker-end
+   You can use the **Thread** list to switch the debugger context to a different thread.
 
-### Resume execution until the second breakpoint
+1. Press **F5** again and the debugger pauses in the `DoSomeMonkeyBusiness` method for the second task.
 
-To resume execution until the second breakpoint is hit, on the **Debug** menu, select **Continue**. The following illustration shows the thread tree at the second breakpoint.
+   ![Screenshot of Tasks view after second F5.](../debugger/media/vs-2022/debug-asynchronous-parallel-stacks-tasks-view-3.png) 
 
-::: moniker range=">=vs-2022"
-![Screenshot of Parallel Stacks window that shows many branches.](../debugger/media/vs-2022/pdb-walkthrough-2.png "PDB_Walkthrough_2")
-::: moniker-end
+   Depending on the timing of task execution, at this point you see either separate or grouped async call stacks.
+   
+   In the preceding illustration, the async call stacks for the two tasks are separate because they aren't identical.
 
-::: moniker range="vs-2019"
-![Parallel Stacks window that shows many branches](../debugger/media/pdb_walkthrough_2.png "PDB_Walkthrough_2")
-::: moniker-end
+1. Press **F5** again, and you will see a long delay occur and the Tasks view doesn't show any async call stack information.
 
-At the first breakpoint, four threads all went from S.A to S.B to S.C methods. That information is still visible in the **Parallel Stacks** window, but the four threads have progressed further. One of them continued to S.D and then S.E. Another continued to S.F, S.G, and S.H. Two others continued to S.I and S.J, and from there one of them went to S.K and the other continued to nonuser External Code.
+   The delay is caused by a long-running task. For purposes of this example, it simulates a long-running task such as a web request, which may result in a case of thread pool starvation. Nothing appears in the Tasks view because even though tasks may be blocked you aren't currently paused in the debugger.
 
-::: moniker range=">=vs-2022"
-You can hover over stack frames to see thread IDs plus other frame details. The blue highlight indicates the current thread and the yellow arrow indicates the active stack frame of the current thread.
-::: moniker-end
+   > [!TIP]
+   > The **Break All** button is a good way to get call stack information if a deadlock occurs or all tasks and threads are currently blocked.
 
-::: moniker range="vs-2019"
-You can hover over the box header, for example, **1 Thread** or **2 Threads**, to see the thread IDs of the threads. You can hover over stack frames to see thread IDs plus other frame details. The blue highlight indicates the current thread and the yellow arrow indicates the active stack frame of the current thread.
-::: moniker-end
+1. At the top of the IDE in the Debug toolbar, select the **Break All** button (pause icon), **Ctrl + Alt + Break**.
 
-The cloth-threads icon (interweaved lines) indicates the active stack frames of the noncurrent threads. In the **Call Stack** window, double-click S.B to switch frames. The **Parallel Stacks** window indicates the current stack frame of the current thread by using a curved arrow icon.
+   ![Screenshot of Tasks view after selecting Break All.](../debugger/media/vs-2022/debug-asynchronous-parallel-stacks-break-all.png) 
+ 
+   Near the top of the async call stack in the Tasks view, you see that `GobbleUpBananas` is blocked. In fact, two tasks are blocked at the same point. A blocked task isn't necessarily unexpected and does not necessarily mean there's a problem. However, the observed delay in execution indicates a problem, and the call stack information here shows the location of the problem.
+  
+   In the left side of preceding screenshot, the curled green arrow indicates the current debugger context. The two tasks are blocked on `mb.Wait()` in the `GobbleUpBananas` method.
 
-> [!NOTE]
-> For a description of all the icons in the Parallel Stacks window, see [Using the Parallel Stacks window](../debugger/using-the-parallel-stacks-window.md#use-the-parallel-stacks-window).
+   The Call Stack window also shows that the current thread is blocked.
 
-In the **Threads** window, switch between threads and observe that the view in the **Parallel Stacks** window is updated.
+   ![Screenshot of Call Stack after selecting Break All.](../debugger/media/vs-2022/debug-asynchronous-parallel-stacks-break-all-call-stack.png) 
 
-You can switch to another thread, or to another frame of another thread, by using the shortcut menu in the **Parallel Stacks** window. For example, right-click S.J, point to **Switch To Frame**, and then select a command.
+   The call to `Wait()` blocks the threads within the synchronous call to `GobbleUpBananas`. This is an example of the sync-over-async antipattern, and if this occurred on a UI thread or under large processing workloads it would typically be addressed with a code fix using `await`. For more information, see [Debug thread pool starvation](/dotnet/core/diagnostics/debug-threadpool-starvation). To use profiling tools to debug thread pool starvation, see [Case study: Isolate a performance issue](../profiling/isolate-performance-issue.md).
 
-::: moniker range=">=vs-2022"
-![Screenshot of Parallel Stacks Path of Execution.](../debugger/media/vs-2022/pdb-walkthrough-2b.png "PDB_Walkthrough_2B")
-::: moniker-end
+   Also of interest, `DoSomeMonkeyBusiness` does not appear on the call stack. It is currently scheduled, not running, so it only appears in the async call stack in the Tasks view.
 
-::: moniker range="vs-2019"
-![Parallel Stacks Path of Execution](../debugger/media/pdb_walkthrough_2b.png "PDB_Walkthrough_2B")
-::: moniker-end
+   > [!TIP]
+   > The debugger breaks into code on a per-thread basis. For example, this means that if you press **F5** to continue execution, and the app hits the next breakpoint, it may break into code on a different thread. If you need to manage this for debugging purposes, you can add additional breakpoints, add conditional breakpoints, or use **Break All**. For more information about this behavior, see [Follow a single thread with conditional breakpoints](../debugger/get-started-debugging-multithreaded-apps.md#bkmk_follow_a_thread).
 
-Right-click S.C and point to **Switch To Frame**. One of the commands has a check mark that indicates the stack frame of the current thread. You can switch to that frame of the same thread (only the curved arrow moves) or you can switch to the other thread (the blue highlight also moves). The following illustration shows the submenu.
+## Fix the sample code
 
-::: moniker range=">=vs-2022"
-![Screenshot of Stacks menu with 2 options on C while J is current.](../debugger/media/vs-2022/pdb-walkthrough-3.png "PDB_Walkthrough_3")
-::: moniker-end
+1. Replace the `GobbleUpBananas` method with the following code.
 
-::: moniker range="vs-2019"
-![Stacks menu with 2 options on C while J is current](../debugger/media/pdb_walkthrough_3.png "PDB_Walkthrough_3")
-::: moniker-end
+   ```csharp
+    public async Task GobbleUpBananas(int food) // Previously returned void.
+    {
+        Console.WriteLine("Trying to gobble up food...");
+ 
+        //Task mb = DoSomeMonkeyBusiness();
+        //mb.Wait();
+        await DoSomeMonkeyBusiness();
+    }
+   ```
 
-::: moniker range="vs-2019"
-When a method context is associated with just one stack frame, the box header displays **1 Thread** and you can switch to it by double-clicking. If you double-click a method context that has more than 1 frame associated with it, then the menu automatically pops up. As you hover over the method contexts, notice the black triangle at the right. Clicking that triangle also displays the shortcut menu.
-::: moniker-end
+1. In the `MorningWalk` method, call GobbleUpBananas using `await`.
 
-For large applications that have many threads, you might want to focus on just a subset of threads. The **Parallel Stacks** window can display call stacks only for flagged threads. To flag threads, use the shortcut menu or the first cell of a thread.
+   ```csharp
+   await GobbleUpBananas(myResult);
+   ```
 
-On the toolbar, select the **Show Only Flagged** button next to the list box.
+1. Select the **Restart** button (**Ctrl + Shift + F5**), and then press F5 several times until the app appears to "hang".
 
-::: moniker range=">=vs-2022"
-![Screenshot of Parallel Stacks window and tooltip.](../debugger/media/vs-2022/pdb-walkthrough-3a.png "PDB_Walkthrough_3A")
-::: moniker-end
+1. Press **Break All**.
 
-::: moniker range="vs-2019"
-![Parallel Stacks window and tooltip](../debugger/media/pdb_walkthrough_3a.png "PDB_Walkthrough_3A")
-::: moniker-end
+   This time, `GobbleUpBananas` runs asynchronously. When you break, you see the async call stack.
 
-Now, only flagged threads show up in the **Parallel Stacks** window.
+   ![Screenshot of debugger context after code fix.](../debugger/media/vs-2022/debug-asynchronous-parallel-stacks-code-fixed.png) 
 
-### Resume execution until the third breakpoint
+   The Call Stack window is empty except for the `ExternalCode` entry. 
 
-1. To resume execution until the third breakpoint is hit, on the **Debug** menu, select **Continue**.
+   The code editor doesn't show us anything, except it provides a message indicating that all threads are executing external code.
 
-   When multiple threads are in the same method but the method wasn't at the beginning of the call stack, the method appears in different boxes. An example at the current breakpoint is S.L, which has three threads in it and appears in three boxes. Double-click S.L.
-
-   ::: moniker range=">=vs-2022"
-   ![Screenshot of Execution path in Parallel Stacks window.](../debugger/media/vs-2022/pdb-walkthrough-3b.png "PDB_Walkthrough_3B")
-   ::: moniker-end
-
-   ::: moniker range="vs-2019"
-   ![Execution path in Parallel Stacks window](../debugger/media/pdb_walkthrough_3b.png "PDB_Walkthrough_3B")
-   ::: moniker-end
-
-   Notice that S.L is bold in the other two boxes so that you can see where else it appears. If you want to see which frames call into S.L and which frames it calls, select the **Toggle Method View** button on the toolbar. The following illustration shows the method view of The **Parallel Stacks** window.
-
-   ::: moniker range=">=vs-2022"
-   ![Screenshot of Method view in Parallel Stacks window.](../debugger/media/vs-2022/pdb-walkthrough-4.png "PDW_Walkthrough_4")
-   ::: moniker-end
-
-   ::: moniker range="vs-2019"
-   ![Method view in Parallel Stacks window](../debugger/media/pdb_walkthrough_4.png "PDW_Walkthrough_4")
-   ::: moniker-end
-
-   Notice how the diagram pivoted on the selected method and positioned it in its own box in the middle of the view. The callees and callers appear on the top and bottom, respectively. Select the **Toggle Method View** button again to leave this mode.
-
-   The shortcut menu of the **Parallel Stacks** window also has the following other items.
-
-   - **Hexadecimal Display** toggles the numbers in the tooltips between decimal and hexadecimal.
-
-   - **Symbol Settings** open the respective dialog boxes.
-
-   - **Show Threads in Source** toggles the display of thread markers in your source code, which shows the location of threads in your source code.
-
-   - **Show External Code** displays all the frames even if they aren't in user code. Try it to see the diagram expand to accommodate the other frames (which might be dimmed because you don't have symbols for them).
-
-1. In the **Parallel Stacks** window, make sure that the **Auto Scroll to Current Stack Frame** button on the toolbar is on.
-
-   When you have large diagrams and you step to the next breakpoint, you might want the view to auto scroll to the active stack frame of the current thread; that is, the thread that hit the breakpoint first.
-
-1. Before you continue, in the **Parallel Stacks** window, scroll all the way to the left and all the way down.
-
-### Resume execution until the fourth breakpoint
-
-1. To resume execution until the fourth breakpoint is hit, on the **Debug** menu, select **Continue**.
-
-   Notice how the view autoscrolled into place. Switch threads in the **Threads** window or switch stack frames in the **Call Stack** window and notice how the view always autoscrolls to the correct frame. Turn off **Auto Scroll to Current Tool Frame** option and view the difference.
-
-   The **Bird's Eye View** also helps with large diagrams in the **Parallel Stacks** window. By default, the **Bird's Eye View** is on. But you can toggle it by clicking the button between the scroll bars on the lower-right corner of the window, as shown in the following illustration.
-
-   ::: moniker range=">=vs-2022"
-   ![Screenshot of Birds eye view in Parallel Stacks window.](../debugger/media/vs-2022/pdb-walkthrough-5.png "PDB_Walkthrough_5")
-   ::: moniker-end
-
-   ::: moniker range="vs-2019"
-   ![Bird's&#45;eye view in Parallel Stacks window](../debugger/media/pdb_walkthrough_5.png "PDB_Walkthrough_5")
-   ::: moniker-end
-
-   In bird's eye view, you can move the rectangle to quickly pan around the diagram.
-
-   Another way to move the diagram in any direction is to select a blank area of the diagram and drag it where you want it.
-
-   To zoom in and out of the diagram, press and hold CTRL while you move the mouse wheel. Alternatively, select the Zoom button on the toolbar and then use the Zoom tool.
-
-   ::: moniker range="vs-2019"
-   You can also view the stacks in a top-down direction instead of bottom-up, by clicking the **Tools** menu, clicking **Options**, and then select or clear the option under the **Debugging** node.
-   ::: moniker-end
-
-1. Before you continue, on the **Debug** menu, select **Stop Debugging** to end execution.
-
-## Use the Parallel Tasks Window and the Tasks View of the Parallel Stacks window
-
-We recommended that you complete the earlier procedures before you continue.
-
-Restart the application until the first breakpoint is hit:
-
-1. On the **Debug** menu, select **Start Debugging** and wait for the first breakpoint to be hit.
-
-1. On the **Debug** menu, point to **Windows** and then select **Threads**. Dock the **Threads** window at the bottom of Visual Studio.
-
-1. On the **Debug** menu, point to **Windows** and select **Call Stack**. Dock the **Call Stack** window at the bottom of Visual Studio.
-
-1. Double-click a thread in the **Threads** window to make it current. Current threads have the yellow arrow. When you change the current thread, the other windows are updated. Next, we examine tasks.
-
-1. On the **Debug** menu, point to **Windows**, and then select **Tasks**. The following illustration shows the **Tasks** window.
-
-   ::: moniker range=">=vs-2022"
-   ![Screenshot of Four running tasks in Tasks window.](../debugger/media/vs-2022/pdb-walkthrough-6.png "PDW_Walkthrough_6")
-   ::: moniker-end
-
-   ::: moniker range="vs-2019"
-   ![Four running tasks in Tasks window](../debugger/media/pdb_walkthrough_6.png "PDW_Walkthrough_6")
-   ::: moniker-end
-
-   For each running Task, you can read its ID, which is returned by the same-named property, the ID and name of the thread that runs it, its location (hovering over that displays a tooltip that has the whole call stack). Also, under the **Task** column, you can see the method that was passed into the task; in other words, the starting point.
-
-   You can sort any column. Notice the sort glyph that indicates the sort column and direction. You can also reorder the columns by dragging them left or right.
-
-   The yellow arrow indicates the current task. You can switch tasks by double-clicking a task or by using the shortcut menu. When you switch tasks, the underlying thread becomes current and the other windows are updated.
-
-   ::: moniker range=">=vs-2022"
-   When you manually switch from one task to another, the arrow outline indicates the current debugger context for a noncurrent task.
-   ::: moniker-end
-
-   ::: moniker range="vs-2019"
-   When you manually switch from one task to another, the yellow arrow moves, but a white arrow still shows the task that caused the debugger to break.
-   ::: moniker-end
-
-### Resume execution until the second breakpoint
-
-To resume execution until the second breakpoint is hit, on the **Debug** menu, select **Continue**.
-
-::: moniker range=">=vs-2022"
-Previously, the **Status** column showed all tasks as Active, but now two of the tasks are Blocked. Tasks can be blocked for [many different reasons](/dotnet/standard/parallel-programming/potential-pitfalls-in-data-and-task-parallelism). In the **Status** column, hover over a waiting task to learn why it's blocked. For example, in the following illustration, task 11 is waiting on task 12.
-
-![Screenshot of Two waiting tasks in Tasks window.](../debugger/media/vs-2022/pdb-walkthrough-7.png "PDB_Walkthrough_7")
-::: moniker-end
-
-::: moniker range="vs-2019"
-
-Previously, the **Status** column showed all tasks as Active, but now two of the tasks are Blocked. Tasks can be blocked for [many different reasons](/dotnet/standard/parallel-programming/potential-pitfalls-in-data-and-task-parallelism). In the **Status** column, hover over a waiting task to learn why it's blocked. For example, in the following illustration, task 4 is waiting on task 5.
-
-![Two waiting tasks in Tasks window](../debugger/media/pdb_walkthrough_7.png "PDB_Walkthrough_7")
-
-Task 4, in turn, is waiting on a monitor owned by the thread assigned to task 2. (Right-click the header row and choose **Columns** > **Thread Assignment** to view the thread assignment value for task 2).
-
-![Waiting task and tooltip in Tasks window](../debugger/media/pdb_walkthrough_7a.png "PDB_Walkthrough_7A")
-::: moniker-end
-
-You can flag a task by clicking the flag in the first column of the **Tasks** window.
-
-You can use flagging to track tasks between different breakpoints in the same debugging session or to filter for tasks whose call stacks are shown in the **Parallel Stacks** window.
-
-When you used the **Parallel Stacks** window earlier, you viewed the application threads. View the **Parallel Stacks** window again, but this time view the application tasks. Do this by selecting **Tasks** in the box on the upper left. The following illustration shows the Tasks View.
-
-::: moniker range=">=vs-2022"
-![Screenshot of Tasks view in Parallel Stacks window.](../debugger/media/vs-2022/pdb-walkthrough-8.png "PDB_Walkthrough_8")
-::: moniker-end
-
-::: moniker range="vs-2019"
-![Tasks view in Parallel Stacks window](../debugger/media/pdb_walkthrough_8.png "PDB_Walkthrough_8")
-::: moniker-end
-
-Threads that aren't currently executing tasks aren't shown in the Tasks View of the **Parallel Stacks** window. Also, for threads that execute tasks, some of the stack frames that aren't relevant to tasks are filtered from the top and bottom of the stack.
-
-View the **Tasks** window again. Right-click any column header to see a shortcut menu for the column.
-
-You can use the shortcut menu to add or remove columns. For example, the AppDomain column isn't selected; therefore, it isn't displayed in the list. Select **Parent**. The **Parent** column appears without values for any of the four tasks.
-
-### Resume execution until the third breakpoint
-
-To resume execution until the third breakpoint is hit, on the **Debug** menu, select **Continue**.
-
-::: moniker range=">=vs-2022"
-![Screenshot of Parent&#45;child view in Tasks window.](../debugger/media/vs-2022/pdb-walkthrough-9.png "PDB_Walkthrough_9")
-
-In this example run, notice that task 11 and task 12 are running on the same thread (show the **Thread Assignment** column if it's hidden). This information isn't displayed in the **Threads** window; seeing it here's another benefit of the **Tasks** window. To confirm this, view the **Parallel Stacks** window. Make sure that you're viewing **Tasks**. You can locate tasks 11 and 12 by scanning the tooltips on the **Parallel Stacks** window.
-
-![Task view in Parallel Stacks window](../debugger/media/vs-2022/pdb-walkthrough-9a.png "PDB_Walkthrough_9A")
-
-::: moniker-end
-::: moniker range="vs-2019"
-
-A new task, task 5, is now running and task 4 is now waiting. You can see why by hovering over the waiting task in the **Status** window. In the **Parent** column, notice that task 4 is the parent of task 5.
-
-To better visualize the parent-child relationship, right-click the column header row and then select **Parent Child View**. You should see the following illustration.
-
-![Parent&#45;child view in Tasks window](../debugger/media/pdb_walkthrough_9.png "PDB_Walkthrough_9")
-
-Notice that task 4 and task 5 are running on the same thread (show the **Thread Assignment** column if it's hidden). This information isn't displayed in the **Threads** window; seeing it here's another benefit of the **Tasks** window. To confirm this, view the **Parallel Stacks** window. Make sure that you're viewing **Tasks**. Locate tasks 4 and 5 by double-clicking them in the **Tasks** window. When you do, the blue highlight in the **Parallel Stacks** window is updated. You can also locate tasks 4 and 5 by scanning the tooltips on the **Parallel Stacks** window.
-
-![Task view in Parallel Stacks window](../debugger/media/pdb_walkthrough_9a.png "PDB_Walkthrough_9A")
-
-In the **Parallel Stacks** window, right-click S.P, and then select **Go To Thread**. The window switches to Threads View and the corresponding frame is in view. You can see both tasks on the same thread.
-
-![Highlighted thread in threads view](../debugger/media/pdb_walkthrough_9b.png "PDB_Walkthrough_9B")
-
-This is another benefit of the Tasks View in the **Parallel Stacks** window, compared to the **Threads** window.
-::: moniker-end
-
-### Resume execution until the fourth breakpoint
-
-To resume execution until the third breakpoint is hit, on the **Debug** menu, select **Continue**. Select the **ID** column header to sort by ID. You should see the following illustration.
-
-::: moniker range=">=vs-2022"
-![Screenshot of Four task states in Parallel Stacks window.](../debugger/media/vs-2022/pdb-walkthrough-10.png "PDB_Walkthrough_10")
-
-Task 10 and task 11 are now waiting on each other and are blocked. There are also several new tasks that are now scheduled. Scheduled tasks are tasks that have been started in code but have not run yet. Therefore, their **Location** and **Thread Assignment** columns show default messages or are empty.
-::: moniker-end
-
-::: moniker range="vs-2019"
-![Four task states in Parallel Stacks window](../debugger/media/pdb_walkthrough_10.png "PDB_Walkthrough_10")
-
-Because task 5 has completed, it's no longer displayed. If that isn't the case on your computer and the deadlock isn't shown, step one time by pressing **F11**.
-
-Task 3 and task 4 are now waiting on each other and are blocked. There are also 5 new tasks that are children of task 2 and are now scheduled. Scheduled tasks are tasks that have been started in code but have not run yet. Therefore, their **Location** and **Thread Assignment** columns are empty.
-
-View the **Parallel Stacks** window again. The header of each box has a tooltip that shows the thread IDs and names. Switch to Tasks View in the **Parallel Stacks** window. Hover over a header to see the task ID and name, and the status of the task, as shown in the following illustration.
-
-![Header tooltip in Parallel Stacks window](../debugger/media/pdb_walkthrough_11.png "PDB_Walkthrough_11")
-::: moniker-end
-
-You can group the tasks by column. In the **Tasks** window, right-click the **Status** column header and then select **Group by Status**. The following illustration shows the **Tasks** window grouped by status.
-
-::: moniker range=">=vs-2022"
-![Screenshot of Grouped tasks in Tasks window.](../debugger/media/vs-2022/pdb-walkthrough-12.png "PDB_Walkthrough_12")
-::: moniker-end
-
-::: moniker range="vs-2019"
-![Grouped tasks in Tasks window](../debugger/media/pdb_walkthrough_12.png "PDB_Walkthrough_12")
-::: moniker-end
-
-You can also group by any other column. By grouping tasks, you can focus on a subset of tasks. Each collapsible group has a count of the items that are grouped together.
-
-The last feature of the **Tasks** window to examine is the shortcut menu that is displayed when you right-click a task.
-
-The shortcut menu displays different commands, depending on the status of the task. The commands might include **Copy**, **Select All**, **Hexadecimal Display**, **Switch to Task**, **Freeze Assigned Thread**, **Freeze All Threads But This**, and **Thaw Assigned Thread**, and **Flag**.
-
-You can freeze the underlying thread of a task, or tasks, or you can freeze all threads except the assigned one. A frozen thread is represented in the **Tasks** window as it is in the **Threads** window, by a blue *pause* icon.
+   However, the Tasks view does provide useful information. `DoSomeMonkeyBusiness` is at the top of the async call stack, as expected. This correctly tells us where the long-running method is located. This is helpful to isolate async/await issues when the physical call stack in the Call Stack window isn't providing enough details.
 
 ## Summary
 
-This walkthrough demonstrated the **Parallel Tasks** and **Parallel Stacks** debugger windows. Use these windows on real projects that use multithreaded code. You can examine parallel code written in C++, C#, or Visual Basic.
+This walkthrough demonstrated the **Parallel Stacks** debugger window. Use this window on apps that use the async/await pattern.
 
 ## Related content
 
 - [Debugging Multithreaded Applications](../debugger/walkthrough-debugging-a-parallel-application.md)
 - [First look at the debugger](../debugger/debugger-feature-tour.md)
-- [Debugging Managed Code](/visualstudio/debugger/)
 - [Parallel Programming](/dotnet/standard/parallel-programming/index)
 - [Concurrency Runtime](/cpp/parallel/concrt/concurrency-runtime)
 - [Using the Parallel Stacks Window](../debugger/using-the-parallel-stacks-window.md)
