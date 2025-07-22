@@ -21,6 +21,10 @@ You can manually populate an EditorConfig file, or automatically generate it bas
 
 When you add an EditorConfig file to your project in Visual Studio, only new lines of code are formatted based on the EditorConfig settings. The formatting of existing code isn't changed unless you run the **Code Cleanup** or **Format Document** commands. For more information, see [Apply code styles](../ide/code-styles-and-code-cleanup.md).
 
+::: moniker range=">= vs-2022"
+:::image type="content" source="media/vs-2022/editorconfig-dotnet.png" alt-text="Screenshot that shows the .editorconfig file.":::
+::: moniker-end
+
 ## EditorConfig and code style preferences
 
 In Visual Studio, EditorConfig file settings take precedence over the various global text editor settings available under **Tools** > **Options** > **Text Editor** > **\[C# | C/C++ | Visual Basic\]** > **Code Style**. You can use an EditorConfig file to tailor each codebase to use text editor settings that are specific to that project.
@@ -31,7 +35,7 @@ When you use an EditorConfig file, you can still continue to set your own person
 
 EditorConfig file settings let you maintain consistent coding styles and conventions in a codebase, regardless of the editor or IDE you use. Some coding styles you can control are indent style, tab width, end-of-line characters, and encoding. For example, if your C# codebase has a convention that indents use five space characters, documents use UTF-8 encoding, and lines ends with CR/LF, you can configure an EditorConfig file to use this convention.
 
-EditorConfig files are useful when coding conventions you use on your personal projects differ from those conventions used on your team's projects. For example, you might prefer that an indent adds a tab character in your code. However, your team might prefer that an indent adds four space instead. EditorConfig files resolve this problem by letting you have a configuration for each scenario.
+EditorConfig files are useful when coding conventions you use on your personal projects differ from those conventions used on your team's projects. For example, you might prefer that an indent adds a tab character in your code. However, your team might prefer that an indent adds four spaces instead. EditorConfig files resolve this problem by letting you have a configuration for each scenario.
 
 Because an `.editorconfig` file in the codebase contains the EditorConfig settings, they travel along with that codebase. As long as you open the code file in an EditorConfig-compliant editor, the text editor settings are activated.
 
