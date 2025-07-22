@@ -21,7 +21,7 @@ You can manually populate an EditorConfig file, or automatically generate it bas
 
 When you add an EditorConfig file to your project in Visual Studio, only new lines of code are formatted based on the EditorConfig settings. The formatting of existing code isn't changed unless you run the **Code Cleanup** or **Format Document** commands. For more information, see [Apply code styles](../ide/code-styles-and-code-cleanup.md).
 
-For .NET, Visual Studio provides a formatted version of the `.editorconfig` file instead of the plain text file.
+For .NET, Visual Studio shows a formatted version of the `.editorconfig` file instead of the plain text file.
 
 ::: moniker range=">= vs-2022"
 :::image type="content" source="media/vs-2022/editorconfig-dotnet.png" alt-text="Screenshot that shows the .editorconfig file.":::
