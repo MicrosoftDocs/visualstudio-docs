@@ -21,6 +21,8 @@ You can manually populate an EditorConfig file, or automatically generate it bas
 
 When you add an EditorConfig file to your project in Visual Studio, only new lines of code are formatted based on the EditorConfig settings. The formatting of existing code isn't changed unless you run the **Code Cleanup** or **Format Document** commands. For more information, see [Apply code styles](../ide/code-styles-and-code-cleanup.md).
 
+For .NET, Visual Studio provides a formatted version of the `.editorconfig` file.
+
 ::: moniker range=">= vs-2022"
 :::image type="content" source="media/vs-2022/editorconfig-dotnet.png" alt-text="Screenshot that shows the .editorconfig file.":::
 ::: moniker-end
@@ -33,7 +35,7 @@ When you use an EditorConfig file, you can still continue to set your own person
 
 ## Code consistency
 
-EditorConfig file settings let you maintain consistent coding styles and conventions in a codebase, regardless of the editor or IDE you use. Some coding styles you can control are indent style, tab width, end-of-line characters, and encoding. For example, if your C# codebase has a convention that indents use five space characters, documents use UTF-8 encoding, and lines ends with CR/LF, you can configure an EditorConfig file to use this convention.
+EditorConfig file settings let you maintain consistent coding styles and conventions in a codebase, regardless of the editor or IDE you use. Some coding styles you can control are indent style, tab width, end-of-line characters, and encoding. For example, if your C# codebase has a convention that indents use five space characters, documents use UTF-8 encoding, and lines ends with CR/LF, you can configure an EditorConfig file to use this convention. For information on supported conventions, see [Supported settings](#supported-settings).
 
 EditorConfig files are useful when coding conventions you use on your personal projects differ from those conventions used on your team's projects. For example, you might prefer that an indent adds a tab character in your code. However, your team might prefer that an indent adds four spaces instead. EditorConfig files resolve this problem by letting you have a configuration for each scenario.
 
@@ -46,7 +48,9 @@ Because an `.editorconfig` file in the codebase contains the EditorConfig settin
 
 ## Supported settings
 
-The editor in Visual Studio supports the core set of [EditorConfig properties](https://editorconfig.org/#supported-properties):
+EditorConfig supports all Visual Studio-supported languages except XML.
+
+For each language, the editor in Visual Studio supports the core set of [EditorConfig properties](https://editorconfig.org/#supported-properties):
 
 - indent_style
 - indent_size
@@ -56,8 +60,6 @@ The editor in Visual Studio supports the core set of [EditorConfig properties](h
 - trim_trailing_whitespace
 - insert_final_newline
 - root
-
-EditorConfig supports all Visual Studio-supported languages except XML.
 
 For C# and Visual Basic, EditorConfig also supports [code-style rules](/dotnet/fundamentals/code-analysis/code-style-rule-options) including [language](/dotnet/fundamentals/code-analysis/style-rules/language-rules), [formatting](/dotnet/fundamentals/code-analysis/style-rules/formatting-rules), and [naming](/dotnet/fundamentals/code-analysis/style-rules/naming-rules). For example, you can specify a C# language rule regarding the use of var when defining variables. Or, you can specify a naming rule that async method names must include an "Async" suffix.
 
@@ -75,7 +77,7 @@ If there is no EditorConfig file, you can add one to the project using one of th
 
 - [Manually add the EditorConfig file](#add-an-editorconfig-file-to-a-project).
 
-- Use [IntelliCode for Visual Studio](/visualstudio/ide/intellicode-visual-studio) to generate an `.editorconfig` file in your solution. Right-click in Solution Explorer and choosing **Add** > **New EditorConfig (IntelliCode)** from the context menu. IntelliCode for Visual Studio infers your code styles from existing code, and then creates an EditorConfig file with your code-style preferences predefined.
+- Use [IntelliCode for Visual Studio](/visualstudio/ide/intellicode-visual-studio) to generate an `.editorconfig` file in your solution. Right-click in Solution Explorer and choose **Add** > **New EditorConfig (IntelliCode)** from the context menu. IntelliCode for Visual Studio infers your code styles from existing code, and then creates an EditorConfig file with your code-style preferences predefined.
 
 ### Generate an EditorConfig from code-style settings
 
@@ -111,9 +113,13 @@ To add an EditorConfig file to your project or solution, follow these steps:
 
    :::image type="content" source="media/vs-2022/editorconfig-item-templates-new.png" alt-text="Screenshot that shows EditorConfig file item templates in Visual Studio.":::
 
+   If you don't see the item template, you need to add the file manually or you can add the Intellicode version of `.editorconfig`, and then modify it for your language.
+
 1. Select the **editorconfig File (empty)** template to add an EditorConfig file prefilled with default EditorConfig options for whitespace, code style, and naming conventions. Or, select the **editorconfig File (.NET)** template to add an EditorConfig file prefilled with default [.NET whitespace, code style, and naming conventions](/dotnet/fundamentals/code-analysis/code-style-rule-options).
 
    A new `.editorconfig` file appears in Solution Explorer, and opens in the editor as a new tab.
+   
+   For .NET, Visual Studio provides a formatted version of the file, as follows.
 
    ::: moniker range=">= vs-2022"
    :::image type="content" source="media/vs-2022/editorconfig-dotnet-new.png" alt-text="Screenshot that shows the .editorconfig file in Solution Explorer and editor.":::
