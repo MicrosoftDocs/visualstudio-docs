@@ -53,9 +53,9 @@ The editor in Visual Studio supports the core set of [EditorConfig properties](h
 - insert_final_newline
 - root
 
-EditorConfig supports all Visual Studio-supported languages except for XML support EditorConfig editor settings.
+EditorConfig supports all Visual Studio-supported languages except XML.
 
-EditorConfig supports [code style](/dotnet/fundamentals/code-analysis/code-style-rule-options) conventions including [language](/dotnet/fundamentals/code-analysis/style-rules/language-rules), [formatting](/dotnet/fundamentals/code-analysis/style-rules/formatting-rules), and [naming](/dotnet/fundamentals/code-analysis/style-rules/naming-rules) conventions for C# and Visual Basic.
+For C# and Visual Basic, EditorConfig also supports [code-style rules](/dotnet/fundamentals/code-analysis/code-style-rule-options) including [language](/dotnet/fundamentals/code-analysis/style-rules/language-rules), [formatting](/dotnet/fundamentals/code-analysis/style-rules/formatting-rules), and [naming](/dotnet/fundamentals/code-analysis/style-rules/naming-rules). For example, you can specify a C# language rule regarding the use of var when defining variables. Or, you can specify a naming rule that async method names must include an "Async" suffix.
 
 ## Add and remove EditorConfig files
 
