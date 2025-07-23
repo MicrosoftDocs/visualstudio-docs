@@ -1,7 +1,7 @@
 ---
 title: "Debug a JavaScript or TypeScript app"
 description: Debug JavaScript and TypeScript applications in Visual Studio, reach breakpoints in your code, attach the debugger, inspect variables, view the call stack, and more.
-ms.date: "07/09/2024"
+ms.date: "07/23/2025"
 ms.topic: "how-to"
 ms.devlang: javascript
 author: "mikejo5000"
