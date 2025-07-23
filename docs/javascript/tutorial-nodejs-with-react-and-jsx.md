@@ -2,7 +2,7 @@
 title: "Create a Node.js and React app"
 description: Create a Node.js web application project from a Visual Studio template, use IntelliSense and other built-in features for Node.js, and create a simple app with React.
 ms.custom: vs-acquisition
-ms.date: 11/06/2023
+ms.date: 07/23/2025
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
