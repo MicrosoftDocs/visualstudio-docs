@@ -3,7 +3,7 @@ title: Microsoft 365 apps for enterprise in subscriptions
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 09/16/2024
+ms.date: 07/23/2025
 ms.topic: how-to
 description: Activate and access Microsoft 365 apps for enterprise in Visual Studio subscriptions, and find answers to frequently asked questions.
 ---
@@ -63,8 +63,7 @@ The process for activating your Microsoft 365 apps for enterprise subscription i
 | Visual Studio Dev Essentials | my.visualstudio.com | Not available | N/A |
 |  |
 
-
-\* Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), Microsoft Cloud Partner Network (formerly MPN), FTE, MCT Software & Services Developer, BizSpark, Most Valuable Professional (MVP), Regional Director (RD), MCT Software & Services, Imagine, Microsoft Partner Network.*
+\* Includes: Not for Resale (NFR), Visual Studio Industry Partner (VSIP), Microsoft Cloud Partner Network (formerly MPN), FTE, MCT Software & Services Developer, Most Valuable Professional (MVP), Regional Director (RD), Imagine, Microsoft Partner Network.*
 
 > [!NOTE]
 > M365 apps for enterprise is no longer included in Visual Studio Dev Essentials memberships.  
