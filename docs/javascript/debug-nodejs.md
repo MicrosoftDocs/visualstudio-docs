@@ -81,7 +81,7 @@ For help with generating source maps, see [Generate source maps for debugging](#
 ### <a name="prepare_the_browser_for_debugging"></a> Manually configure the browser for debugging
 
 ::: moniker range=">=vs-2022"
-In Visual Studio 2022, the procedure described in this section is available only in ASP.NET and ASP.NET Core applications. It is required only in uncommon scenarios where you need to customize browser settings.
+In Visual Studio 2022, the procedure described in this section is available only in ASP.NET and ASP.NET Core applications. It is required only in uncommon scenarios where you need to customize browser settings. In *.esproj* projects, the browser is configured for debugging by default.
 ::: moniker-end
 
 For this scenario, use either Microsoft Edge or Chrome.
@@ -123,6 +123,8 @@ For this scenario, use either Microsoft Edge or Chrome.
 ### Attach the debugger to client-side script
 
 ::: moniker range=">=vs-2022"
+In some scenarios, you may need to attach the debugger to a running app.
+
 To attach the debugger from Visual Studio and hit breakpoints in the client-side code, it needs help with identifying the correct process. Here's one way to enable it.
 
 1. Make sure your app is running in the browser in debug mode, as described in the preceding section.
@@ -135,7 +137,7 @@ To attach the debugger from Visual Studio and hit breakpoints in the client-side
 
     To find the specific code in a transpiled file, use **Ctrl**+**F** (**Edit** > **Find and Replace** > **Quick Find**).
 
-    For client-side code, to hit a breakpoint in a TypeScript file, *.vue*, or *JSX* file typically requires the use of [source maps](#generate_source_maps). A source map must be configured correctly to support debugging in Visual Studio.
+    For client-side code, to hit a breakpoint in a TypeScript file, *.vue*, or *JSX* file typically requires the use of [source maps](https://code.visualstudio.com/docs/nodejs/nodejs-debugging#_source-maps). A source map must be configured correctly to support debugging in Visual Studio.
 
 1. Choose **Debug** > **Attach to Process**.
 
@@ -162,7 +164,7 @@ To attach the debugger from Visual Studio and hit breakpoints in the client-side
 
     You may hit the breakpoint in either a transpiled `.js` file or source file, depending on your app type, which steps you followed previously, and other factors such as your browser state. Either way, you can step through code and examine variables.
 
-   * If you need to break into code in a TypeScript, JSX, or `.vue` source file and are unable to do it, make sure that your environment is set up correctly, as described in the [Troubleshooting](#troubleshooting_source_maps) section.
+   * If you need to break into code in a TypeScript, JSX, or `.vue` source file and are unable to do it, make sure that your environment is set up correctly, as described in the [Source maps](https://code.visualstudio.com/docs/nodejs/nodejs-debugging#_source-maps) section of the VS Code documentation.
 
    * If you need to break into code in a transpiled JavaScript file (for example, *app-bundle.js*) and are unable to do it, remove the source map file, *filename.js.map*.
 ::: moniker-end
@@ -211,6 +213,7 @@ To attach the debugger from Visual Studio and hit breakpoints in the client-side
    * If you need to break into code in a transpiled JavaScript file (for example, *app-bundle.js*) and are unable to do it, remove the source map file, *filename.js.map*.
 ::: moniker-end
 
+::: moniker range="vs-2019"
 ### <a name="troubleshooting_source_maps"></a> Troubleshooting breakpoints and source maps
 
 If you need to break into code in a TypeScript or JSX source file and are unable to do it, use **Attach to Process** as described in the previous section to attach the debugger. Make sure that your environment is set up correctly:
@@ -288,6 +291,7 @@ If you add a `tsconfig.json` file to your project, Visual Studio treats the dire
 - **sourceRoot**: Specifies the location where the debugger should find TypeScript files instead of the source locations. Use this flag if the run-time sources need to be in a different location than the location at design-time. The location specified is embedded in the source map to direct the debugger to where the source files are located.
 
 For more details about the compiler options, check the page [Compiler Options](https://www.typescriptlang.org/docs/handbook/compiler-options.html) on the TypeScript Handbook.
+::: moniker-end
 
 ::: moniker range="vs-2019"
 ### Configure source maps using project settings (TypeScript project)
