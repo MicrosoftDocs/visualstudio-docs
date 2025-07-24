@@ -3,7 +3,7 @@ title: C# Dev Kit for Visual Studio Code
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 10/31/2024
+ms.date: 07/23/2025
 ms.topic: how-to
 
 description: Explore the C# Dev Kit for Visual Studio Code that provides a rich C# editing experience, AI-powered development, solution management, and integrated testing.
@@ -49,7 +49,7 @@ C# Dev Kit builds on the same foundations as Visual Studio for some of its funct
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure | Available | N/A |
 |GitHub Codespaces | Any | Available | N/A |
 
-\* *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), FTE, BizSpark, Imagine, Imagine Premium, Microsoft Cloud Partner Program, Most Valuable Professional (MVP), Regional Director (RD), MCT Software & Services Developer, MCT Software & Services.*
+\* *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), FTE, Imagine, Imagine Premium, Microsoft Cloud Partner Program, Most Valuable Professional (MVP), Regional Director (RD), MCT Software & Services Developer.*
 
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
