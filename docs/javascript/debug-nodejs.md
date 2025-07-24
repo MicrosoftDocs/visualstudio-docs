@@ -61,7 +61,13 @@ Visual Studio provides client-side debugging support only for Chrome and Microso
 
   For more detailed information, see this [blog post for Google Chrome](https://devblogs.microsoft.com/aspnet/client-side-debugging-of-asp-net-projects-in-google-chrome). For debugging TypeScript in ASP.NET Core, see [Add TypeScript to an existing ASP.NET Core app](tutorial-aspnet-with-typescript.md).
 
+::: moniker range=">=vs-2022"
+- For *.esproj* projects in Visual Studio 2022, you can debug client-side script using standard debugging methods to hit breakpoints. To configure debugging, you can modify *launch.json* settings, which work the same as in VS Code. For more information about debugger configuration options, see [Launch configuration attributes](https://code.visualstudio.com/docs/nodejs/nodejs-debugging#_launch-configuration-attributes).
+::: moniker-end
+
+::: moniker range="vs-2019"
 - For Node.js applications and other JavaScript projects, follow the steps described in this article.
+::: moniker-end
 
 >[!NOTE]
 > For ASP.NET and ASP.NET Core, debugging embedded scripts in *.CSHTML* files is not supported. JavaScript code must be in separate files to enable debugging.
@@ -72,7 +78,11 @@ If your source is minified or created by a transpiler like TypeScript or Babel, 
 
 For help with generating source maps, see [Generate source maps for debugging](#generate_source_maps).
 
-### <a name="prepare_the_browser_for_debugging"></a> Prepare the browser for debugging
+### <a name="prepare_the_browser_for_debugging"></a> Manually configure the browser for debugging
+
+::: moniker range=">=vs-2022"
+In Visual Studio 2022, the procedure described in this section is available only in ASP.NET and ASP.NET Core applications. It is required only in uncommon scenarios where you need to customize browser settings.
+::: moniker-end
 
 For this scenario, use either Microsoft Edge or Chrome.
 
