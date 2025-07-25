@@ -1,5 +1,10 @@
 {
   "redirections": [
+        {
+      "source_path": "docs/ide/reference/application-page-project-designer-uwp.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/application-page-project-designer-uwp",
+      "redirect_document_id": false
+    },
     {
       "source_path": "docs/ide/reference/options-windows-forms-designer-data-ui-customization.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-windows-forms-designer-data-ui-customization",
