@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "docs/ide/reference/build-page-project-designer-csharp.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/build-page-project-designer-csharp",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/reference/build-events-page-project-designer-csharp.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/how-to-specify-build-events-csharp",
       "redirect_document_id": false
