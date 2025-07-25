@@ -23,7 +23,7 @@ To get started with Copilot Free in Visual Studio, you need:
 ## Get started with Copilot Free in Visual Studio
 
 With Visual Studio version 17.14, you can [activate Copilot Free at first launch](work-with-github-accounts.md#add-a-github-account-at-first-launch).
-You can also [set up from the Copilot Chat window](work-with-github-accounts.md#add-a-github-account-from-the-Copilot-chat-window) later as follows:
+You can also [set up from the Copilot Chat window](work-with-github-accounts.md#add-a-github-account-from-the-copilot-chat-window) later as follows:
 
 1. Use **Ctrl+\\** to open the chat window in Visual Studio. You can also select the **GitHub Copilot** badge in the upper-right corner of the IDE, and then select **Open Chat Window to Sign In** from the dropdown to open chat.
 1. Select **Sign up for Copilot Free** or **Sign up with Google**
