@@ -43,6 +43,16 @@ If you sign in with a GitHub account that doesn't have an active GitHub Copilot 
 
 If you choose to not sign in with GitHub at first launch, you can add your GitHub account later using the **profile card** or the **Account Settings** dialog as follows.
 
+### Add a GitHub account from the Copilot chat window
+
+If you have [GitHub Copilot installed](visual-studio-github-copilot-install-and-states.md), you can add a new or existing GitHub account by selecting [**Sign up for Copilot Free**](copilot-free-plan.md) from the Copilot chat window, even if you haven't [signed into Visual Studio](signing-in-to-visual-studio.md#sign-in-to-your-account).
+
+You can also sign in with your [Google account linked to your GitHub account](https://github.blog/changelog/2025-07-15-social-login-with-google-is-now-generally-available), offering more flexibility for authentication.
+
+In Visual Studio 17.14.10 or later, you can add your Google account more seamlessly by selecting [**Sign up with Google**].
+
+:::image type="content" source="../ide/media/vs-2022/signup-copilot-chat.png" alt-text="Screenshot showing Copilot chat sign in flow.":::
+
 ### Add a GitHub account from the **profile card**
 
 Select the **Sign in** link in the upper-right corner of the Visual Studio environment and sign in with a [Microsoft account, work account, or school account](signing-in-to-visual-studio.md) or a GitHub account.
