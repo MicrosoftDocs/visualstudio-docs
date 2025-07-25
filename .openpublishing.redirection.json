@@ -1046,6 +1046,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/ide/reference/options-text-editor-csharp-formatting.md",
+      "redirect_url": "/visualstudio/ide/code-styles-and-code-cleanup",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/csharp-developer-productivity.md",
       "redirect_url": "/visualstudio/ide/productivity-features",
       "redirect_document_id": false

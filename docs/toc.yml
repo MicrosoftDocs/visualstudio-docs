@@ -968,8 +968,6 @@
           items:
           - name: Advanced
             href: ide/reference/options-text-editor-csharp-advanced.md
-          - name: Code Style > Formatting
-            href: ide/reference/options-text-editor-csharp-formatting.md
           - name: IntelliSense
             href: ide/reference/options-text-editor-csharp-intellisense.md
         - name: C/C++
