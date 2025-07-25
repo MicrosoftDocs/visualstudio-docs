@@ -11,6 +11,13 @@ ms.subservice: general-ide
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.CSharp.Code_Style.General
 - VS.ToolsOptionsPages.Text_Editor.Basic.Code_Style.General
+- VS.ToolsOptionsPages.Text_Editor.CSharp.Formatting.Spacing
+- VS.ToolsOptionsPages.Text_Editor.CSharp.Formatting.NewLines
+- VS.ToolsOptionsPages.Text_Editor.CSharp.Formatting.Indentation
+- VS.ToolsOptionsPages.Text_Editor.CSharp.Formatting.Wrapping
+- VS.ToolsOptionsPages.Text_Editor.CSharp.Formatting
+- VS.ToolsOptionsPages.Text_Editor.CSharp.Formatting.General
+- VS.ToolsOptionsPages.Text_Editor.CSharp.Code_Style.Formatting.General
 zone_pivot_groups: programming-languages-set-two
 ---
 # Code style preferences and code cleanup
