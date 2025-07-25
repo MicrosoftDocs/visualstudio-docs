@@ -1014,8 +1014,6 @@
         href: ide/reference/project-properties-reference.md
       - name: .NET Project Designer (C#)
         href: ide/reference/project-designer-dotnet-csharp.md
-      - name: My Extensions Page, Project Designer (Visual Basic)
-        href: ide/reference/my-extensions-page-project-designer-visual-basic.md
       - name: Settings Page, Project Designer
         href: ide/reference/settings-page-project-designer.md
     - name: Properties window
