@@ -31,7 +31,7 @@ If the Visual Studio development environment is already open, you can create a n
 
 ::: moniker-end
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 ## Open the "Create a new project" dialog
 
@@ -66,9 +66,9 @@ Select a template and then select **Next**.
 
 ::: moniker-end
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
-:::image type="content" source="media/vs-2022/create-new-project-filters.png" alt-text="Screenshot of the project template filters in Visual Studio 2022.":::
+:::image type="content" source="media/vs-2022/create-new-project-filters.png" alt-text="Screenshot of the project template filters.":::
 
 The tags that appear under each template correspond to the three dropdown filters (language, platform, and project type).
 
@@ -98,13 +98,13 @@ Select **Create** to create the new project.
 
 ::: moniker-end
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 ## Configure your new project
 
 The **Configure your new project** dialog has options to name your project (and solution), select a disk location, and more.
 
-:::image type="content" source="media/vs-2022/configure-new-project.png" alt-text="Screenshot showing the Configure your new project dialog in Visual Studio 2022 and the options to set, including the project name and project location." lightbox="media/vs-2022/configure-new-project.png":::
+:::image type="content" source="media/vs-2022/configure-new-project.png" alt-text="Screenshot showing the Configure your new project dialog in Visual Studio and the options to set, including the project name and project location." lightbox="media/vs-2022/configure-new-project.png":::
 
 The **Additional information** dialog includes options to select a Framework version, an authentication type, and more.
 

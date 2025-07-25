@@ -149,7 +149,7 @@ Select these check boxes to display dotted vertical lines between the curly brac
 
 - Don't put ref or out on custom struct
 
-   Uncheck this checkbox to avoid potentionally unintended cloning of structs by refencing existing struct objects when extracting an expression into a method call.
+   Uncheck this checkbox to avoid potentially unintended cloning of structs by referencing existing struct objects when extracting an expression into a method call.
 
    ### Example
 

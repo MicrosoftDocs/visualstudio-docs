@@ -28,9 +28,9 @@ To debug apps in a local Docker container, the following tools must be installed
 
 ::: moniker-end
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
-- [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the Web Development workload installed
+- [Visual Studio 2022 or later](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the Web Development workload installed
 
 ::: moniker-end
 

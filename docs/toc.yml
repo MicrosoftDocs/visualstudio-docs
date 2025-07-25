@@ -527,8 +527,6 @@
         href: ide/reference/how-to-display-line-numbers-in-the-editor.md
       - name: Display URLs as links
         href: ide/reference/how-to-display-urls-as-links-in-the-editor.md
-      - name: Set language-specific editor options
-        href: ide/reference/setting-language-specific-editor-options.md
     - name: Code style
       items:
       - name: Code style preferences
@@ -930,10 +928,6 @@
           href: ide/reference/international-settings-environment-options-dialog-box.md
         - name: Preview Features
           href: ide/reference/environment-preview-features-options.md
-        - name: Tabs and Windows
-          href: ide/reference/tabs-and-windows-environment-options-dialog-box.md
-        - name: Task List
-          href: ide/reference/task-list-environment-options-dialog-box.md
         - name: Trust Settings
           href: ide/reference/trust-settings.md
         - name: Web Browser
@@ -962,8 +956,6 @@
           items:
           - name: General
             href: ide/reference/options-text-editor-all-languages.md
-          - name: Scroll Bars
-            href: ide/reference/options-text-editor-all-languages-scroll-bars.md
           - name: Tabs
             href: ide/reference/options-text-editor-all-languages-tabs.md
         - name: Visual Basic
@@ -976,8 +968,6 @@
           items:
           - name: Advanced
             href: ide/reference/options-text-editor-csharp-advanced.md
-          - name: Code Style > Formatting
-            href: ide/reference/options-text-editor-csharp-formatting.md
           - name: IntelliSense
             href: ide/reference/options-text-editor-csharp-intellisense.md
         - name: C/C++
@@ -998,14 +988,6 @@
             href: ide/reference/options-text-editor-fsharp-code-fixes.md
           - name: IntelliSense
             href: ide/reference/options-text-editor-fsharp-intellisense.md
-        - name: HTML (Web Forms)
-          items:
-          - name: Formatting
-            href: ide/reference/options-text-editor-html-formatting.md
-        - name: U-SQL
-          items:
-          - name: Formatting
-            href: ide/reference/options-text-editor-usql-formatting.md
         - name: XAML
           items:
           - name: Formatting
@@ -1019,11 +1001,7 @@
           - name: Miscellaneous
             href: ide/reference/options-text-editor-xml-miscellaneous.md
       - name: Windows Forms Designer
-        items:
-        - name: General
-          href: ide/reference/options-windows-forms-designer.md
-        - name: Data UI Customization
-          href: ide/reference/options-windows-forms-designer-data-ui-customization.md
+        href: ide/reference/options-windows-forms-designer.md
       - name: XAML Designer
         href: ide/reference/xaml-designer.md
     - name: Output window
@@ -1036,46 +1014,6 @@
         href: ide/reference/project-properties-reference.md
       - name: .NET Project Designer (C#)
         href: ide/reference/project-designer-dotnet-csharp.md
-      - name: Application Page, Project Designer (UWP)
-        href: ide/reference/application-page-project-designer-uwp.md
-      - name: Application Page, Project Designer (Visual Basic)
-        items:
-        - name: Application Page
-          href: ide/reference/application-page-project-designer-visual-basic.md
-        - name: Assembly Information Dialog Box
-          href: ide/reference/assembly-information-dialog-box.md
-      - name: Application Page, Project Designer (C#)
-        href: ide/reference/application-page-project-designer-csharp.md
-      - name: Build Events Page, Project Designer (C#)
-        items:
-        - name: Build Events Page
-          href: ide/reference/build-events-page-project-designer-csharp.md
-        - name: Pre-build Event-Post-build Event Command Line Dialog Box
-          href: ide/reference/pre-build-event-post-build-event-command-line-dialog-box.md
-      - name: Build Page, Project Designer (C#)
-        items:
-        - name: Build Page
-          href: ide/reference/build-page-project-designer-csharp.md
-        - name: Advanced Build Settings Dialog Box (C#)
-          href: ide/reference/advanced-build-settings-dialog-box-csharp.md
-      - name: Compile Page, Project Designer (Visual Basic)
-        items:
-        - name: Compile Page
-          href: ide/reference/compile-page-project-designer-visual-basic.md
-        - name: Advanced Compiler Settings Dialog Box (Visual Basic)
-          href: ide/reference/advanced-compiler-settings-dialog-box-visual-basic.md
-        - name: Build Events Dialog Box (Visual Basic)
-          href: ide/reference/build-events-dialog-box-visual-basic.md
-      - name: My Extensions Page, Project Designer (Visual Basic)
-        href: ide/reference/my-extensions-page-project-designer-visual-basic.md
-      - name: References Page, Project Designer (Visual Basic)
-        href: ide/reference/references-page-project-designer-visual-basic.md
-      - name: Services Page, Project Designer
-        items:
-        - name: Services Page
-          href: ide/reference/services-page-project-designer.md
-        - name: Advanced Settings for Services Dialog Box
-          href: ide/reference/advanced-settings-for-services-dialog-box.md
       - name: Settings Page, Project Designer
         href: ide/reference/settings-page-project-designer.md
     - name: Properties window

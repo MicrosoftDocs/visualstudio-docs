@@ -246,7 +246,7 @@ namespace AngleEditor
             AngleControl^ angleControl = gcnew AngleControl(  *dynamic_cast<double^>(value) );
             edSvc->DropDownControl( angleControl );
 
-            // Return the value in the appropraite data format.
+            // Return the value in the appropriate data format.
             if ( value->GetType() == double::typeid )
                         return angleControl->angle;
             else

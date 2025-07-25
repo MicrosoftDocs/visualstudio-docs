@@ -3,7 +3,7 @@ title: Community support offerings in Visual Studio subscriptions
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 09/11/2024
+ms.date: 07/24/2025
 ms.topic: conceptual
 description:  Learn about the various community-based support offerings in Visual Studio subscriptions
 ---
@@ -34,6 +34,11 @@ You can search for answers, or view content in product areas such as:
 + Azure DevOps Server (TFS)
 
 Within each area, there are updates, problem reports, discussion of new features, and more. You can also report problems and request new features.  
+
+> [!IMPORTANT]
+> Visual Studio for Mac was retired on August 31, 2024 in accordance with [Microsoft’s Modern Lifecycle Policy](https://learn.microsoft.com/lifecycle/policies/modern).
+>
+> [Learn more about support timelines and alternatives](/visualstudio/mac/what-happened-to-vs-for-mac).
 
 ## Microsoft Q&A
 
@@ -85,7 +90,7 @@ Accessing the community forum is simple.
 0. For **Step 2: Code of Conduct** read the Code of Conduct and then select the checkbox to indicate your acceptance of the Code of Conduct and Terms of Service.
 0. Select **Register** to finish setting up your profile.
 
- You're now ready to use the community portal.  The home page has news about the community.  To see content specific to the communities you joined, select the **Community Hubs** drop-down at the top of the page and choose a community from your list.  You can always add communities to the list by selecting **Browse All Community Hubs**, selecting on the hub of your choice, and then selecting **Join**.
+ You're now ready to use the community portal.  The home page has news about the community. To see content specific to the communities you joined, select the **Community Hubs** drop-down at the top of the page and choose a community from your list.  You can always add communities to the list by selecting **Browse All Community Hubs**, selecting on the hub of your choice, and then selecting **Join**.
 
 ## Azure on Microsoft Q&A 
 

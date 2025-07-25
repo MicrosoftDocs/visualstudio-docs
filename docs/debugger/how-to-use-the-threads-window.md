@@ -1,7 +1,7 @@
 ---
-title: Debug a multithreaded app with the Threads window
-description: Debug a multithreaded application by using the Threads window and the Debug Location toolbar in the Visual Studio integrated development environment (IDE).
-ms.date: 10/19/2023
+title: Debug a deadlock using the Threads view
+description: Debug a deadlock in a multithreaded application by using the Threads view of the Parallel Stacks window in the Visual Studio integrated development environment (IDE).
+ms.date: 7/25/2025
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -15,184 +15,296 @@ author: mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: debug-diagnostics
+monikerRange: '>= vs-2022'
 ---
-# Walkthrough: Debug a multithreaded app using the Threads window (C#, Visual Basic, C++)
+# Debug a deadlock using the Threads view
 
-Several Visual Studio user interface elements help you debug multithreaded apps. This article introduces multithreaded debugging features in the code editor window, **Debug Location** toolbar, and **Threads** window. For information about other tools for debugging multithreaded apps, see [Get started debugging multithreaded apps](../debugger/get-started-debugging-multithreaded-apps.md).
+This tutorial shows how to use the **Threads** view of **Parallel Stacks** windows to debug a C# multithreaded application. This window helps you understand and verify the run-time behavior of multithreaded code.
 
-Completing this tutorial takes only a few minutes, and familiarizes you with the basics of debugging multithreaded apps.
+The Threads view is also supported for C++ and Visual Basic, so the same principles described in this article for C# also apply to C++ and Visual Basic.
 
-## Create a multithreaded app project
+The Threads view helps you to:
 
-Create the following multithreaded app project to use in this tutorial:
+- View call stack visualizations for multiple threads, which provides a more complete picture of your app state than the Call Stack window, which just shows the call stack for the current thread.
+
+- Help identify issues such as blocked or deadlocked threads.
+
+## C# sample
+
+The sample code in this walkthrough is for an application that simulates a day in the life of a gorilla. The purpose of the exercise is to understand how to use the Threads view of the Parallel Stacks window to debug a multithreaded application.
+
+The sample includes an example of a deadlock, which occurs when two threads are waiting on each other.
+
+To make the call stack intuitive, the sample app performs the following sequential steps:
+
+1. Creates an object representing a gorilla.
+1. Gorilla wakes up.
+1. Gorilla goes on a morning walk.
+1. Gorilla finds bananas in the jungle.
+1. Gorilla eats.
+1. Gorilla engages in monkey business.
+
+## Multithreaded call stacks
+
+Identical sections of the call stack are grouped together to simplify the visualization for complex apps.
+
+The following conceptual animation shows how grouping is applied to call stacks. Only identical segments of a call stack are grouped.
+
+![Illustration of the grouping of call stacks.](../debugger/media/vs-2022/debug-multithreaded-call-stacks.gif)
+
+## Create the sample project
+
+To create the project:
 
 1. Open Visual Studio and create a new project.
 
-   If the start window is not open, choose **File** > **Start Window**.
+   If the start window isn't open, choose **File** > **Start Window**.
 
-   ::: moniker range=">=vs-2022"
-   On the start window, choose **New project**.
-   ::: moniker-end
-   ::: moniker range="vs-2019"
-   On the start window, choose **Create a new project**.
-   ::: moniker-end
+   On the Start window, choose **New project**.
 
-   On the **Create a new project** window, enter or type *console* in the search box. Next, choose **C#** or **C++** from the Language list, and then choose **Windows** from the Platform list.
+   On the **Create a new project** window, enter or type *console* in the search box. Next, choose **C#** from the Language list, and then choose **Windows** from the Platform list.
 
-   After you apply the language and platform filters, choose the **Console App** for .NET Core, .NET 5+, or C++, and then choose **Next**.
+   After you apply the language and platform filters, choose the **Console App** for .NET, and then choose **Next**.
 
    > [!NOTE]
-   > If you don't see the correct template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET desktop development** or **Desktop development with C++** workload, then choose **Modify**.
+   > If you don't see the correct template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET desktop development** workload, then choose **Modify**.
 
-   In the **Configure your new project** window, type a name or use the default name in the **Project name** box. Then, choose **Next** or **Create**, whichever option is available.
+   In the **Configure your new project** window, type a name or use the default name in the **Project name** box. Then, choose **Next**.
 
-   For .NET Core or .NET 5+, choose either the recommended target framework or .NET 8, and then choose **Create**.
+   For .NET, choose either the recommended target framework or .NET 8, and then choose **Create**.
 
-   A new console project appears. After the project has been created, a source file appears. Depending on the language you have chosen, the source file might be called *Program.cs* or *MyThreadWalkthroughApp.cpp*.
+   A new console project appears. After the project has been created, a source file appears.
 
-1. Replace the code in the source file with the C# or C++ example code from [Get started debugging multithreaded apps](../debugger/get-started-debugging-multithreaded-apps.md).
+1. Open the *.cs* code file in the project. Delete its contents to create an empty code file.
 
-1. Select **File** > **Save All**.
+1. Paste the following code for your chosen language into the empty code file.
 
-## Start debugging
-
-1. Find the following lines in the source code:
-
-   ### [C#](#tab/csharp)
    ```csharp
-   Thread.Sleep(3000);
-   Console.WriteLine();
+    using System.Diagnostics;
+    
+    namespace Multithreaded_Deadlock
+    {
+        class Jungle
+        {
+            public static readonly object tree = new object();
+            public static readonly object banana_bunch = new object();
+            public static Barrier barrier = new Barrier(2);
+    
+            public static int FindBananas()
+            {
+                // Lock tree first, then banana
+                lock (tree)
+                {
+                    lock (banana_bunch)
+                    {
+                        Console.WriteLine("Got bananas.");
+                        return 0;
+                    }
+                }
+            }
+    
+            static void Gorilla_Start(object lockOrderObj)
+            {
+                Debugger.Break();
+                bool lockTreeFirst = (bool)lockOrderObj;
+                Gorilla koko = new Gorilla(lockTreeFirst);
+                int result = 0;
+                var done = new ManualResetEventSlim(false);
+    
+                Thread t = new Thread(() =>
+                {
+                    result = koko.WakeUp();
+                    done.Set();
+                });
+                t.Start();
+                done.Wait();
+            }
+    
+            static void Main(string[] args)
+            {
+                List<Thread> threads = new List<Thread>();
+                // Start two threads with opposite lock orders
+                threads.Add(new Thread(Gorilla_Start));
+                threads[0].Start(true);  // First gorilla locks tree then banana
+                threads.Add(new Thread(Gorilla_Start));
+                threads[1].Start(false); // Second gorilla locks banana then tree
+    
+                foreach (var t in threads)
+                {
+                    t.Join();
+                }
+            }
+        }
+    
+        class Gorilla
+        {
+            private readonly bool lockTreeFirst;
+    
+            public Gorilla(bool lockTreeFirst)
+            {
+                this.lockTreeFirst = lockTreeFirst;
+            }
+    
+            public int WakeUp()
+            {
+                int myResult = MorningWalk();
+                return myResult;
+            }
+    
+            public int MorningWalk()
+            {
+                Debugger.Break();
+                if (lockTreeFirst)
+                {
+                    lock (Jungle.tree)
+                    {
+                        Jungle.barrier.SignalAndWait(5000); // For thread timing consistency in sample
+                        Jungle.FindBananas();
+                        GobbleUpBananas();
+                    }
+                }
+                else
+                {
+                    lock (Jungle.banana_bunch)
+                    {
+                        Jungle.barrier.SignalAndWait(5000); // For thread timing consistency in sample
+                        Jungle.FindBananas();
+                        GobbleUpBananas();
+                    }
+                }
+                return 0;
+            }
+    
+            public void GobbleUpBananas()
+            {
+                Console.WriteLine("Trying to gobble up food...");
+                DoSomeMonkeyBusiness();
+            }
+    
+            public void DoSomeMonkeyBusiness()
+            {
+                Thread.Sleep(1000);
+                Console.WriteLine("Monkey business done");
+            }
+        }
+    }
    ```
+   
+   After you update the code file, save your changes and build the solution.
 
-   ### [C++](#tab/cpp)
-   ```cpp
-   Thread::Sleep(3000);
-   Console.WriteLine();
-   ```
-   ---
+1. On the **File** menu, select **Save All**.
 
-1. Set a breakpoint on the `Console.WriteLine();` line by clicking in the left gutter, or selecting the line and pressing **F9**.
+1. On the **Build** menu, select **Build Solution**.
 
-   The breakpoint appears as a red circle in the left gutter next to the code line.
+## Use the Threads view of the Parallel Stacks window
 
-1. Select **Debug** > **Start Debugging**, or press **F5**.
+To start debugging:
 
-   The app starts in debug mode, and pauses at the breakpoint.
+1. On the **Debug** menu, select **Start Debugging** (or **F5**) and wait for the first `Debugger.Break()` to be hit.
 
-1. While in break mode, open the **Threads** window by selecting **Debug** > **Windows** > **Threads**. You must be in a debugging session to open or see the **Threads** and other debugging windows.
+1. Press **F5** once, and the debugger pauses again on the same `Debugger.Break()` line.
 
-## Examine thread markers
+   This pauses in the second call to `Gorilla_Start`, which occurs within a second thread.
 
-1. In the source code, locate the `Console.WriteLine();` line.
+   > [!TIP]
+   > The debugger breaks into code on a per-thread basis. For example, this means that if you press **F5** to continue execution, and the app hits the next breakpoint, it may break into code on a different thread. If you need to manage this behavior for debugging purposes, you can add additional breakpoints, conditional breakpoints, or use **Break All**. For more information on using conditional breakpoints, see [Follow a single thread with conditional breakpoints](../debugger/get-started-debugging-multithreaded-apps.md#bkmk_follow_a_thread).
 
-   1. Right-click in the **Threads** window, and select **Show Threads in Source** ![Show Threads in Source](../debugger/media/dbg-multithreaded-show-threads.png "ThreadMarker") from the menu.
+1. Select **Debug > Windows > Parallel Stacks** to open the Parallel Stacks window, and then select **Threads** from the **View** dropdown in the window.
 
-   The gutter next to the source code line now displays a *thread marker* icon ![Thread Marker](../debugger/media/dbg-thread-marker.png "Thread Marker"). The thread marker indicates that a thread is stopped at this location. If there is more than one stopped thread at the location, the ![multiple threads](../debugger/media/dbg-multithreaded-show-threads.png "multiple threads") icon appears.
+   ![Screenshot of Threads view in Parallel Stacks window.](../debugger/media/vs-2022/debug-multithreaded-parallel-stacks-threads-view.png)
 
-1. Hover the pointer over the thread marker. A DataTip appears, showing the name and thread ID number for the stopped thread or threads. The thread names may be `<No Name>`.
+   In **Threads** view, the stack frame and call path of the current thread are highlighted in blue. The current location of the thread is shown by the yellow arrow.
 
-   >[!TIP]
-   >To help identify nameless threads, you can rename them in the **Threads** window. Right-click the thread and select **Rename**.
+   Notice the label for the call stack for `Gorilla_Start` is **2 Threads**. When you last pressed **F5**, you started another thread. For simplification in complex apps, identical call stacks are grouped together into a single visual representation. This simplifies potentially complex information, especially in scenarios with many threads.
 
-1. Right-click the thread marker in the source code to see the available options on the shortcut menu.
+   During debugging, you can toggle whether external code is displayed. To toggle the feature, select or clear **Show External Code**. If you show external code, you can still use this walkthrough, but your results might differ from the illustrations.
 
-## Flag and unflag threads
+1. Press **F5** again, and the debugger pauses in the `Debugger.Break()` line in the `MorningWalk` method.
 
-You can flag threads to keep track of threads you want to pay special attention to.
+   The Parallel Stacks window shows the location of the current executing thread in the `MorningWalk` method.
 
-Flag and unflag threads from the source code editor or from the **Threads** window. Choose whether to display only flagged threads, or all threads, from the **Debug Location** or **Threads** window toolbars. Selections made from any location affect all locations.
+   ![Screenshot of Threads view after F5.](../debugger/media/vs-2022/debug-multithreaded-parallel-stacks-threads-view-2.png)
 
-### Flag and unflag threads in source code
+1. Hover over the `MorningWalk` method to get information about the two threads represented by the grouped call stack.
 
-1. Open the **Debug Location** toolbar by selecting **View** > **Toolbars** > **Debug Location**. You can also right-click in the toolbar area and select **Debug Location**.
+   :::image type="content" source="../debugger/media/vs-2022/debug-multithreaded-parallel-stacks-threads-view-threads.png" border="false" alt-text="Screenshot of the threads associated with the call stack." lightbox="../debugger/media/vs-2022/debug-multithreaded-parallel-stacks-threads-view-threads.png":::
 
-1. The **Debug Location** toolbar has three fields: **Process**, **Thread**, and **Stack Frame**. Drop down the **Thread** list, and note how many threads there are. In the **Thread** list, the currently executing thread is marked by a **>** symbol.
+   The current thread also appears in the **Thread** list in the Debug toolbar.
 
-1. In the source code window, hover over a thread marker icon in the gutter and select the flag icon (or one of the empty flag icons) in the DataTip. The flag icon turns red.
+   ![Screenshot of the current thread in the Debug toolbar.](../debugger/media/vs-2022/debug-multithreaded-parallel-stacks-threads-debug-toolbar.png)
 
-   You can also right-click a thread marker icon, point to **Flag**, and then select a thread to flag from the shortcut menu.
+   You can use the **Thread** list to switch the debugger context to a different thread. This does not change the current executing thread, just the debugger context.
 
-1. On the **Debug Location** toolbar, select the **Show Only Flagged Threads** icon ![Show Flagged Threads](../debugger/media/dbg-threads-show-flagged.png "Show Flagged Threads"), to the right of the **Thread** field. The icon is grayed out unless one or more threads are flagged.
+   Alternatively, you can switch the debugger context by double-clicking a method in the Threads view, or by right-clicking on a method in the Threads view and selecting **Switch to Frame** > **\[thread ID\]**.
 
-   Only the flagged thread now appears in the **Thread** dropdown in the toolbar. To show all threads again, select the **Show Only Flagged Threads** icon again.
+1. Press **F5** again and the debugger pauses in the `MorningWalk` method for the second thread.
 
-   >[!TIP]
-   >After you have flagged some threads, you can place your cursor in the code editor, right-click, and select **Run Flagged Threads to Cursor**. Make sure to choose code that all flagged threads will reach. **Run Flagged Threads to Cursor** will pause threads on the selected line of code, making it easier to control the order of execution by [freezing and thawing threads](#bkmk_freeze).
+   ![Screenshot of Threads view after second F5.](../debugger/media/vs-2022/debug-multithreaded-parallel-stacks-threads-view-3.png) 
 
-1. To toggle the flagged or unflagged status of the currently executing thread, select the single flag **Toggle Current Thread Flagged State** toolbar button, to the left of the **Show Only Flagged Threads** button. Flagging the current thread is useful for locating the current thread when only flagged threads are showing.
+   Depending on the timing of thread execution, at this point you see either separate or grouped call stacks.
+   
+   In the preceding illustration, the call stacks for the two threads are partially grouped. The identical segments of the call stacks are grouped, and arrow lines point to the segments that are separated (that is, not identical). The current stack frame is indicated by the blue highlighting.
 
-1. To unflag a thread, hover over the thread marker in the source code and select the red flag icon to clear it, or right-click the thread marker and select **Unflag**.
+1. Press **F5** again, and you will see a long delay occur and the Threads view doesn't show any call stack information.
 
-### Flag and unflag threads in the Threads window
+   The delay is caused by a deadlock. Nothing appears in the Threads view because even though threads may be blocked you aren't currently paused in the debugger.
 
-In the **Threads** window, flagged threads have red flag icons next to them, while unflagged threads, if shown, have empty outline icons.
+   > [!TIP]
+   > The **Break All** button is a good way to get call stack information if a deadlock occurs or all threads are currently blocked.
 
-![Threads Window](../debugger/media/dbg-threads-window.png "Threads Window")
+1. At the top of the IDE in the Debug toolbar, select the **Break All** button (pause icon), or use **Ctrl + Alt + Break**.
 
-Select a flag icon to change the thread state to flagged or unflagged, depending on its current state.
+   :::image type="content" source="../debugger/media/vs-2022/debug-multithreaded-parallel-stacks-break-all.png" border="false" alt-text="Screenshot of Threads view after selecting Break All." lightbox="../debugger/media/vs-2022/debug-multithreaded-parallel-stacks-break-all.png":::
+ 
+   The top of the call stack in the Threads view shows that `FindBananas` is deadlocked. The execution pointer in `FindBananas` is a curled green arrow, indicating the current debugger context but also it tells us that the threads are not currently running.
 
-You can also right-click a line and select **Flag**, **Unflag**, or **Unflag All Threads** from the shortcut menu.
+   In the code editor, we find the curled green arrow in the `lock` function. The two threads are blocked on the `lock` function in the `FindBananas` method.
 
-The **Threads** window toolbar also has a **Show Flagged Threads Only** button, which is the right-hand one of the two flag icons. It works the same as the button on the **Debug Location** toolbar, and either button controls the display in both locations.
+   :::image type="content" source="../debugger/media/vs-2022/debug-multithreaded-parallel-stacks-break-all-editor.png" border="false" alt-text="Screenshot of code editor after selecting Break All." lightbox="../debugger/media/vs-2022/debug-multithreaded-parallel-stacks-break-all-editor.png":::
 
-### Other Threads window features
+   Depending on the order of thread execution, the deadlock appears in either the `lock(tree)` or `lock(banana_bunch)` statement.
 
-In the **Threads** window, select the header of any column to sort the threads by that column. Select again to reverse the sort order. If all threads are showing, selecting the flag icon column sorts the threads by flagged or unflagged status.
+   The call to `lock` blocks the threads in the `FindBananas` method. One thread is waiting for the lock on `tree` to be released by the other thread, but the other thread is waiting for the lock on `banana_bunch` to be released before it can release the lock on `tree`. This is an example of a classic deadlock that occurs when two threads are waiting on each other.
 
-The second column of the **Threads** window (with no header) is the **Current Thread** column. A yellow arrow in this column marks the current execution point.
+   If you're using Copilot, you can also get AI-generated thread summaries to help identify potential deadlocks.
 
-The **Location** column shows where each thread appears in the source code. Select the expand arrow next to the **Location** entry, or hover over the entry, to show a partial call stack for that thread.
+   :::image type="content" source="../debugger/media/vs-2022/debug-multithreaded-parallel-stacks-break-all-copilot.png" border="false" alt-text="Screenshot of Copilot thread summary descriptions." lightbox="../debugger/media/vs-2022/debug-multithreaded-parallel-stacks-break-all-copilot.png":::
 
->[!TIP]
->For a graphical view of the call stacks for threads, use the [Parallel Stacks](../debugger/using-the-parallel-stacks-window.md) window. To open the window, while debugging, select **Debug**> **Windows** > **Parallel Stacks**.
 
-In addition to **Flag**, **Unflag**, and **Unflag All Threads**, the right-click context menu for **Thread** window items has:
+## Fix the sample code
 
-- The **Show Threads in Source** button.
-- **Hexadecimal display**, which changes the **Thread ID**s in the **Threads** window from decimal to hexadecimal format.
-- [Switch To Thread](#switch-to-another-thread), which immediately switches execution to that thread.
-- **Rename**, which lets you change the thread name.
-- [Freeze and Thaw](#bkmk_freeze) commands.
+To fix this code, always acquire multiple locks in a consistent, global order across all threads. This prevents circular waits and eliminates deadlocks.
 
-## <a name="bkmk_freeze"></a> Freeze and thaw thread execution
+1. To fix the deadlock, replace the code in `MorningWalk` with the following code.
 
-You can freeze and thaw, or suspend and resume, threads to control the order in which the threads perform work. Freezing and thawing threads can help you resolve concurrency issues, such as deadlocks and race conditions.
+    ```csharp
+    public int MorningWalk()
+    {
+        Debugger.Break();
+        // Always lock tree first, then banana_bunch
+        lock (Jungle.tree)
+        {
+            Jungle.barrier.SignalAndWait(5000); // OK to remove
+            lock (Jungle.banana_bunch)
+            {
+                Jungle.FindBananas();
+                GobbleUpBananas();
+            }
+        }
+        return 0;
+    }
+    ```
 
-> [!TIP]
-> To follow a single thread without freezing other threads, which is also a common debugging scenario, see [Get started debugging multithreaded applications](../debugger/get-started-debugging-multithreaded-apps.md#bkmk_follow_a_thread).
+2. Restart the app.
 
-**To freeze and unfreeze threads:**
+## Summary
 
-1. In the **Threads** window, right-click any thread and then select **Freeze**. A **Pause** icon in the **Current Thread** column indicates that the thread is frozen.
-
-1. Select **Columns** in the **Threads** window toolbar, and then select **Suspended Count** to display the **Suspended Count** column. The suspended count value for the frozen thread is **1**.
-
-1. Right-click the frozen thread and select **Thaw**.
-
-   The **Pause** icon disappears, and the **Suspended Count** value changes to **0**.
-
-## Switch to another thread
-
-You may see a **The application is in break mode** window when you try to switch to another thread. This window tells you that the thread does not have any code that the current debugger can display. For example, you may be debugging managed code, but the thread is native code. The window offers suggestions for resolving the issue.
-
-**To switch to another thread:**
-
-1. In the **Threads** window, make a note of the current thread ID, which is the thread with a yellow arrow in the **Current Thread** column. You'll want to switch back to this thread to continue your app.
-
-1. Right-click a different thread and select **Switch To Thread** from the context menu.
-
-1. Observe that the yellow arrow location has changed in the **Threads** window. The original current thread marker also remains, as an outline.
-
-   Look at the tooltip on the thread marker in the code source editor, and the list in the **Thread** dropdown on the **Debug Location** toolbar. Observe that the current thread has also changed there.
-
-1. On the **Debug Location** toolbar, select a different thread from the **Thread** list. Note that the current thread changes in the other two locations also.
-
-1. In the source code editor, right-click a thread marker, point to **Switch To Thread**, and select another thread from the list. Observe that the current thread changes in all three locations.
-
-With the thread marker in source code, you can switch only to threads that are stopped at that location. By using the **Threads** window and **Debug Location** toolbar, you can switch to any thread.
-
-You've now learned the basics of debugging multithreaded apps. You can observe, flag and unflag, and freeze and thaw threads by using the **Threads** window, the **Thread** list in the **Debug Location** toolbar, or thread markers in the source code editor.
+This walkthrough demonstrated the **Parallel Stacks** debugger window. Use this window on real projects that use multithreaded code. You can examine parallel code written in C++, C#, or Visual Basic.
 
 ## Related content
-- [Debug multithreaded applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)
-- [How to: Switch to another thread while debugging](../debugger/how-to-switch-to-another-thread-while-debugging.md)
+
+- [Debugging Multithreaded Applications](../debugger/walkthrough-debugging-a-parallel-application.md)
+- [First look at the debugger](../debugger/debugger-feature-tour.md)
+- [Parallel Programming](/dotnet/standard/parallel-programming/index)
+- [Concurrency Runtime](/cpp/parallel/concrt/concurrency-runtime)
+- [Using the Parallel Stacks Window](../debugger/using-the-parallel-stacks-window.md)

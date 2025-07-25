@@ -3,10 +3,10 @@ title: Isolate your app with shims (unit testing)
 description: Learn how to use shim types to divert calls to specific methods to code that you write as part of your test. A shim can return consistent results at every call.
 ms.date: 05/23/2023
 ms.topic: how-to
-ms.author: oscalles
+ms.author: mikejo
 manager: aajohn
 ms.subservice: test-tools
-author: ocallesp
+author: mikejo5000
 dev_langs: 
   - CSharp
   - VB
@@ -100,7 +100,7 @@ this.Records = System.IO.File.ReadAllLines(path);
 
    - On the shortcut menu, select **Add Fakes Assembly**.
 
-   ![Screnshot of the command Add Fakes Assembly.](../test/media/microsoft-fakes-shims-add-fakes-assembly.png)
+   ![Screenshot of the command Add Fakes Assembly.](../test/media/microsoft-fakes-shims-add-fakes-assembly.png)
 
 Since building results in some warnings and errors because not all types can be used with shims, you will have to modify the content of `Fakes\mscorlib.fakes` to exclude them.
 

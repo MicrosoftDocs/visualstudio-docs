@@ -40,9 +40,9 @@ As you develop a Django application, you typically add many more Python, HTML, C
 
 1. Right-click the folder in which you want to create a new file and select **Add** > **New Item**. The **Add New Item** dialog opens:
    
-   ::: moniker range="vs-2022"
+   ::: moniker range=">=vs-2022"
 
-   :::image type="content" source="media/django/vs-2022/step-03-add-item-from-template.png" alt-text="Screenshot that shows the available templates on the Add New Item dialog in Visual Studio 2022." border="false" lightbox="media/django/vs-2022/step-03-add-item-from-template.png"::: 
+   :::image type="content" source="media/django/vs-2022/step-03-add-item-from-template.png" alt-text="Screenshot that shows the available templates on the Add New Item dialog in Visual Studio." border="false" lightbox="media/django/vs-2022/step-03-add-item-from-template.png"::: 
 
    ::: moniker-end
    ::: moniker range="<=vs-2019"

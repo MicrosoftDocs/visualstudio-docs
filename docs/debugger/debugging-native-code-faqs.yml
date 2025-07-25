@@ -39,7 +39,7 @@ sections:
       - question: |
           How can I find out if my pointers corrupt a memory address?
         answer: |
-          Check for heap corruption. Most memory corruption is due to heap corruption. Try using the Global Flags Utility (gflags.exe) or pageheap.exe. See [/windows-hardware/drivers/debugger/gflags-and-pageheap](/windows-hardware/drivers/debugger/gflags-and-pageheap).
+          Check for heap corruption. Most memory corruption is due to heap corruption. Try using the Global Flags Utility (gflags.exe) or pageheap.exe. See [GFlags and PageHeap](/windows-hardware/drivers/debugger/gflags-and-pageheap).
 
           To find where the memory address is modified:
 

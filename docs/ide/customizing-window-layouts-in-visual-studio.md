@@ -6,6 +6,7 @@ ms.topic: how-to
 f1_keywords:
 - vs.windows
 - vs.environment
+- "VS.ToolsOptionsPages.Environment.TabsAndWindows"
 helpviewer_keywords:
 - windows [Visual Studio], managing
 - custom window configurations
@@ -37,7 +38,7 @@ When you customize a window layout, the Visual Studio [integrated development en
 
 You can also name and save a custom layout and then switch between layouts with a single command. For example, you could create a layout for editing and a layout for debugging, and switch between them by selecting **Window** > **Apply Window Layout**.
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 > [!TIP]
 > Starting with Visual Studio 17.9, the list of open documents was moved from a binary format in the .suo file to a plain text format in a JSON file. The JSON file is saved in the hidden .vs folder in the same location as the .suo file (**solutionFolder**.vs\\**solutionName**\v17). This JSON file contains the list of open documents and their properties, the layout of document groups and containers, and vertical tab column width. Storing in plain text as JSON enables easier backup and the ability to check in different sets of open documents that can be restored as needed.
@@ -84,7 +85,7 @@ To return a tool window or document window to its most recent docked location, s
 
 The following screenshot shows the guide diamond for document windows, which can be docked only within the editing frame:
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 :::image type="content" source="media/document-window-guide-diamond.png" alt-text="Screenshot of the document window guide diamond.":::
 
@@ -209,7 +210,7 @@ Tab groups extend your ability to manage limited workspace while you're working 
 
 #### Vertical document tabs
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 You can manage your document tabs in a vertical list on either the left or right side of the editor.
 
@@ -233,17 +234,17 @@ You can apply vertical document tabs in the following ways:
 
 ::: moniker-end
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 - Right-click a tab, select **Set Tab Layout**, and then select **Place Tabs on the Left**, **Place Tabs on the Top**, or **Place Tabs on the Right**. (To return the tabs to their default position, select **Place Tabs on the Top**.)
 
 ::: moniker-end
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 ### Color-code document tabs
 
-Visual Studio 2022 includes new personalization options that can help you work more efficiently. You can now color-code file tabs by project so that you don't need to hunt for your open files.
+Visual Studio 2022 and later include personalization options that can help you work more efficiently. You can now color-code file tabs by project so that you don't need to hunt for your open files.
 
 To color-code tabs, go to **Tools** > **Options** > **Environment** > **Tabs and Windows**. Then select the **Colorize document tabs by** checkbox and select either **Project**, **File extension**, or **Regular Expression** in the dropdown list.
 

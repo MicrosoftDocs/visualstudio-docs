@@ -648,7 +648,7 @@ If none of these conditions are detected, a project cache is created. The cache 
 
 ## Shipping your extension
 
-For information on how to create VSIX files, see [Shipping Visual Studio Extensions](../extensibility/shipping-visual-studio-extensions.md). For information on how to add files to special install locations, for example, to add files under `$(VCTargetsPath)`, see [Installing outside the extensions folder](../extensibility/set-install-root.md).
+For information on how to create VSIX files, see [Shipping Visual Studio Extensions](../extensibility/shipping-visual-studio-extensions.md). For information on how to add files to special install locations, for example, to add files under `$(VCTargetsPath)`, see [Installing outside the extensions folder](/previous-versions/visualstudio/visual-studio-2017/extensibility/set-install-root).
 
 ## Additional resources
 

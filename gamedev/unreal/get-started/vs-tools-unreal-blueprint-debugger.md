@@ -1,7 +1,7 @@
 ---
 title: "Debug Unreal Engine Blueprints in Visual Studio"
 description: "Learn how to use Visual Studio's Blueprint debugger to debug Unreal Engine Blueprint code alongside C++ code."
-ms.date: 06/20/2025
+ms.date: 07/01/2025
 ms.topic: how-to
 ms.service: visual-studio
 ms.subservice: unreal-engine-tools
@@ -15,33 +15,32 @@ ai-usage: ai-assisted
 
 # Debug Unreal Engine Blueprints in Visual Studio
 
-Visual Studio improves debugging Unreal Engine projects by showing information about Unreal Engine Blueprints in the call stack and local variables windows. This feature lets you debug Blueprint code alongside your C++ code in a one debugging session. With this functionality, you can easily track interactions between Blueprints and C++ code, making it simpler to identify and fix bugs.
+Visual Studio improves debugging Unreal Engine projects by showing information about Unreal Engine Blueprints in the call stack and local variables windows. This feature lets you debug Blueprint code alongside your C++ code in one debugging session. With this functionality, you can easily track interactions between Blueprints and C++ code, making it easier to find and fix bugs.
 
-Blueprints are a visual scripting technology available in Unreal Engine for rapid prototyping and development. They can interact with C++ code and in many cases games are originally designed as Blueprints and later converted to C++ to improve performance. If you spend time converting Blueprints to C++, this functionality lets you analyze Blueprints together with C++ code to help with the conversion. This reduces the need to switch between Visual Studio and the Unreal Editor, providing a seamless debugging experience and reducing context-switching.
+Blueprints are a visual scripting technology in Unreal Engine used for rapid prototyping and development. Blueprints can call C++ code. In many cases, games are originally designed as Blueprints and later converted to C++ to improve performance. If you spend time converting Blueprints to C++, this new debugging functionality lets you analyze Blueprints and C++ code together. Which reduces the need to switch between Visual Studio and the Unreal Editor and provides a seamless debugging experience with less context-switching.
 
 Visual Studio Blueprint debugger support provides:
 
+- **Unified debugging experience**: Debug Blueprints and C++ code in the same session.
 - **Integrated call stack**: Blueprint frames appear in the same call stack as C++ frames.
-- **Variable inspection**: View Blueprint node pins and their values appear in the local variables window.
-- **Unified debugging experience**: Debug Blueprint and C++ code in the same session.
+- **Variable inspection**: View Blueprint node pins and their values in the local variables window.
 - **Breakpoint support**: Set breakpoints in C++ code called by Blueprints. This is useful when you have multiple Blueprints that can call C++ code, but you aren't sure which ones do and why.
 
 ## Prerequisites
 
+- Unreal Engine installed along with debug symbols.
 - Visual Studio 2022 17.14 or later with the **Game development with C++** workload installed.
-- **Visual Studio debugger tools for Unreal Engine Blueprints** component.
-- **Visual Studio Tools for Unreal Engine** component.
-- Unreal Engine plugin for Visual Studio.
-- Unreal Engine installed with debug symbols.
-- Visual Studio plugin for Unreal Engine.
+- Visual Studio Tools for Unreal Engine installed into Visual Studio.
+- Visual Studio debugger tools for Unreal Engine Blueprints installed into Visual Studio.
+- Unreal Engine plugin for Visual Studio installed into Unreal Engine.
 
 ## Install prerequisites
 
 Run the Visual Studio Installer to install the required components to debug Unreal Engine Blueprints. For more information about installing Visual Studio Tools for Unreal Engine, see [Get started with Visual Studio Tools for Unreal Engine](vs-tools-unreal-quickstart.md).
 
-- On the **Workloads** pane, make sure the **Game development with C++** workload is installed, along with **Visual Studio debugger tools for Unreal Engine Blueprints** and **Visual Studio Tools for Unreal Engine**:
+On the **Workloads** pane, make sure the **Game development with C++** workload is installed, along with **Visual Studio debugger tools for Unreal Engine Blueprints** and **Visual Studio Tools for Unreal Engine**:
 
-    :::image type="content" source="../media/vs-installer-unreal-engine-workload.png" alt-text="Screenshot of the Visual Studio installer. The Game development with C++ workload is selected. In the installation details pane, Visual Studio Tools for Unreal Engine, Visual Studio debugger tools for Unreal Engine Blueprints, HSL Tools, And Windows 11 SDK are selected." lightbox="../media/vs-installer-unreal-engine-workload.png":::
+:::image type="content" source="../media/vs-installer-unreal-engine-workload.png" alt-text="Screenshot of the Visual Studio installer. The Game development with C++ workload is selected. In the installation details pane, Visual Studio Tools for Unreal Engine, Visual Studio debugger tools for Unreal Engine Blueprints, HSL Tools, And Windows 11 SDK are selected." lightbox="../media/vs-installer-unreal-engine-workload.png":::
 
 ### Install Unreal Engine debug symbols
 
@@ -61,15 +60,16 @@ Install debug symbols for each version of Unreal Engine you debug with Visual St
 
 ### Install Unreal Engine plugin for Visual Studio
 
-The Unreal Engine plugin for Visual Studio installs into Unreal Engine. It's automatically activated when you open an Unreal Engine project in Visual Studio. This plugin provides the necessary integration between Unreal Engine and Visual Studio to view Blueprint node pin values in the Visual Studio debugger local variables window.
+The Unreal Engine plugin for Visual Studio installs into Unreal Engine. Once installed, it's automatically activated when you open an Unreal Engine project in Visual Studio. This plugin provides integration between Unreal Engine and Visual Studio to support viewing Blueprint node pin values in the Visual Studio debugger local variables window.
 
-For manual installation instructions, see [vc-ue-extensions](https://github.com/microsoft/vc-ue-extensions).
+For manual installation instructions, see [Unreal Engine plugin for Visual Studio](https://github.com/microsoft/vc-ue-extensions).
 
 If you have an Unreal Engine project that you can open in Visual Studio, another way to install the plugin is in Visual Studio via the Unreal Engine Configuration window:
-- With an Unreal Engine project opened in Visual Studio, choose **Project** > **Configure Tools for Unreal Engine** to open the **Unreal Engine Integration Configuration** window.
+
+- With an Unreal Engine project opened in Visual Studio, select **Project** > **Configure Tools for Unreal Engine** to open the **Unreal Engine Integration Configuration** window.
 - In the **Visual Studio Integration Tool Status** section, select **Install to Project** or **Install to Engine** as meets your needs.
 
-If you don't see the install buttons, choose the refresh icon to refresh the status. If you need to install the plugin manually, select the **Manual installation instructions** link to open the [vc-ue-extensions](https://github.com/microsoft/vc-ue-extensions/blob/main/README.md) page, which contains installation instructions.
+If you don't see the install buttons, choose the refresh icon to refresh the status. If you need to install the plugin manually, select the **Manual installation instructions** link to open the [Unreal Engine plugin for Visual Studio](https://github.com/microsoft/vc-ue-extensions/blob/main/README.md) page, which contains installation instructions.
 
 :::image type="content" source="../media/vs-unreal-engine-configuration-page-plugin.png" alt-text="Screenshot of the Unreal Engine Integration Configuration window. In the Visual Studio Integration Tool Status section, the refresh, Install to Project, and Install to Engine buttons are highlighted. The Manual installation instructions link is also highlighted.":::
 
@@ -84,10 +84,6 @@ To test the Blueprint debugger functionality, create a project that contains Blu
 
 1. After creating the project, close all Unreal Editor instances.
 1. In Visual Studio, open the generated Visual Studio solution file (*.sln*).
-
-### Install Visual Studio plugin for Unreal Engine
-
-To support viewing node pin variables for Blueprints in the Visual Studio debugger, you also need to install the Visual Studio plugin for Unreal Engine. The plugin can be installed in either the Engine or Game project sources. It's automatically activated when an Unreal Engine project is opened in Visual Studio. For installation instructions, see [vc-ue-extensions](https://github.com/microsoft/vc-ue-extensions).
 
 ## Debug Blueprints
 
@@ -119,7 +115,7 @@ Follow these steps to set a breakpoint, inspect a Blueprint function, and view i
 The Visual Studio Blueprint debugger provides a seamless debugging experience that bridges the gap between C++ and Blueprint code in Unreal Engine projects. This integrated approach allows you to:
 
 - Track execution flow from C++ to Blueprints and back.
-- Inspect Blueprint variables, node pin values, and C++ variables.
+- Inspect Blueprint node pin values and C++ variables.
 - Step through Blueprint execution frames in the same debugging session as C++ code.
 
 This unified debugging experience helps resolve issues efficiently across both coding paradigms, eliminating the need to switch between different debugging tools.

@@ -11,7 +11,7 @@ metadata:
   author: mikejo5000
   ms.author: mikejo
   manager: mijacobs
-  ms.date: 12/05/2023
+  ms.date: 07/23/2025
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
 
@@ -23,7 +23,7 @@ landingContent:
     linkLists:
       - linkListType: overview
         links:
-          - text: First look at testing tools
+          - text: Overview of testing tools
             url: improve-code-quality.md
           - text: Unit test tools & tasks
             url: unit-test-your-code.md

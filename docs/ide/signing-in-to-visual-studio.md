@@ -60,7 +60,7 @@ While you don't have to sign in with your Microsoft account, there are many adva
 
 ::: moniker-end
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 In this article, you learn how to sign in to Visual Studio with your Microsoft or GitHub account, add and switch user accounts, update your profile, sign out of your account, and the benefits to signing in.
 
@@ -141,7 +141,7 @@ There are several types of accounts you can add:
 
   ::: moniker-end
 
-  ::: moniker range="vs-2022"
+  ::: moniker range=">=vs-2022"
   
   1. Select the icon with your profile name in the upper-right corner of the Visual Studio environment.
   1. Select **Add another account** and then choose **Microsoft** account to sign into.
@@ -180,7 +180,7 @@ To sign out of all accounts:
 
 ::: moniker-end
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 <a name="profile"></a>
 

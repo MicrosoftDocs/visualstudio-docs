@@ -28,4 +28,4 @@ With live, project-based code analyzers in Visual Studio, API authors can ship d
 
 - [.NET compiler platform package version reference](roslyn-version-support.md)
 - [More docs on the GitHub OSS site](https://github.com/dotnet/roslyn/tree/main/docs/analyzers)
-- [FxCop rules implemented with Roslyn analyzers](../code-quality/fxcop-rule-port-status.md)
+- [FxCop rules implemented with Roslyn analyzers](/previous-versions/visualstudio/visual-studio-2019/code-quality/fxcop-rule-port-status)

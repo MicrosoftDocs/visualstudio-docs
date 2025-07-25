@@ -3,7 +3,7 @@ title: Pluralsight benefit in Visual Studio subscriptions
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 03/26/2025
+ms.date: 07/24/2025
 ms.topic: how-to
 description: Activate and explore the Pluralsight training benefit available in eligible Visual Studio subscriptions, and find answers to frequently asked questions.
 ---
@@ -31,7 +31,7 @@ The following table describes the Pluralsight training benefits that are include
 |  Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure | Not available | NA |
 |  Visual Studio Enterprise (NFR<sup>1</sup>) | Program | Not available | NA |
 
-<sup>1</sup> *Includes: Not for Resale (NFR), Visual Studio Industry Partner (VSIP), BizSpark, MCT Software & Services Developer, MCT Software & Services, Most Valuable Professional (MVP), Regional Director (RD), Microsoft Cloud Partner Program, FTE, Imagine, NFR Basic.*
+<sup>1</sup> *Includes: Not for Resale (NFR), Visual Studio Industry Partner (VSIP), MCT Software & Services Developer, Most Valuable Professional (MVP), Regional Director (RD), Microsoft Cloud Partner Program, FTE, Imagine, NFR Basic.*
 
 <sup>2</sup> *The Pluralsight benefit in select Visual Studio subscriptions renews when your subscription renews. For example, if you have an annual subscription that you renew each year, the benefit is available to you each year when you renew. If you have a multi-year subscription, the Pluralsight benefit is available to you once during the term of the subscription. If you renew a multi-year subscription, the benefit is available again after the renewal.*
 

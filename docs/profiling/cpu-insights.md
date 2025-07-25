@@ -19,7 +19,7 @@ CPU insights is a sub-feature of the CPU Usage tool that shows common potential 
 
 The **Top Insights** section in the CPU Usage tool shows quick CPU details, insights, and suggestions in the description so that you can continue diagnosing the issue. The **Learn more** link shows you in-depth documentation that explains your issue. If you need more information, **View source code** shows more details. Once selected, you can see the call tree view, showing the process, functions, and which callers use the most CPU.
 
-![Screenshot showing Autio Insights selected.](./media/vs-2022/top-insights.png)
+![Screenshot showing Auto Insights selected.](./media/vs-2022/top-insights.png)
 
 ## View top functions
 

@@ -89,7 +89,7 @@ private:
       }
 
       // Select the appropriate brush depending on if the item is selected.
-      // Since State can be a combinateion (bit-flag) of enum values, you can't use
+      // Since State can be a combination (bit-flag) of enum values, you can't use
       // "==" to compare them.
       if ( (e->State & DrawItemState::Selected) == DrawItemState::Selected )
             brush = SystemBrushes::HighlightText;

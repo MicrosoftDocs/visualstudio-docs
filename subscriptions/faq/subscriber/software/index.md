@@ -4,7 +4,7 @@ description: FAQs list for Downloading and Activating Software.
 ms.topic: conceptual
 author: joseb-rdc
 ms.author: amast
-ms.date: 09/30/2024
+ms.date: 07/14/2025
 ms.faqid: Section2
 ---
 
@@ -21,3 +21,5 @@ ms.faqid: Section2
 [!INCLUDE [Where are my product keys?](includes/where-are-product-keys.md)]
 
 [!INCLUDE [How do I troubleshoot in Visual Studio?](includes/troubleshoot-visual-studio.md)]
+
+[!INCLUDE [Microsoft Certified Trainer (MCT) and have Visual Studio Subscription issues?](includes/microsoft-certified-trainer-support.md)]
