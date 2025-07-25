@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "docs/ide/reference/services-page-project-designer.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/services-page-project-designer",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/reference/compile-page-project-designer-visual-basic.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/compile-page-project-designer-visual-basic",
       "redirect_document_id": false
