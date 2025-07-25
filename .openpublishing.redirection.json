@@ -1,5 +1,15 @@
 {
   "redirections": [
+        {
+      "source_path": "docs/ide/reference/build-events-dialog-box-visual-basic.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/how-to-specify-build-events-visual-basic",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/references-page-project-designer-visual-basic.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/references-page-project-designer-visual-basic",
+      "redirect_document_id": false
+    },
     {
       "source_path": "docs/ide/reference/advanced-settings-for-services-dialog-box.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/advanced-settings-for-services-dialog-box",
