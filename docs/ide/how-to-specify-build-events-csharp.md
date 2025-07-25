@@ -10,6 +10,8 @@ helpviewer_keywords:
 - post-build events
 - build events [Visual Studio]
 - builds [Visual Studio], events
+f1_keywords:
+- cs.ProjectPropertiesBuildEvents
 author: ghogen
 ms.author: ghogen
 manager: mijacobs
