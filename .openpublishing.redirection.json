@@ -1,6 +1,16 @@
 {
   "redirections": [
     {
+      "source_path": "docs/ide/reference/application-page-project-designer-csharp.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/application-page-project-designer-csharp",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/advanced-build-settings-dialog-box-csharp.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/advanced-build-settings-dialog-box-csharp",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/reference/advanced-compiler-settings-dialog-box-visual-basic.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/advanced-compiler-settings-dialog-box-visual-basic",
       "redirect_document_id": false
