@@ -28,7 +28,7 @@ You can also [set up from the Copilot Chat window](work-with-github-accounts.md#
 1. Use **Ctrl+\\** to open the chat window in Visual Studio. You can also select the **GitHub Copilot** badge in the upper-right corner of the IDE, and then select **Open Chat Window to Sign In** from the dropdown to open chat.
 1. Select **Sign up for Copilot Free** or **Sign up with Google**
 
-   :::image type="content" source="media/vs-2022/signup-copilot-chat.png" alt-text="Screenshot showing Copilot chat sign in flow.":::
+   :::image type="content" source="../ide/media/vs-2022/copilot-free/sign-up-for-copilot-free.png" alt-text="Screenshot of Sign up for Copilot Free in the Chat window.":::
 
 1. If you have an existing GitHub account, sign in when prompted. If not, follow the steps to create a new GitHub account. 
 1. Once finished, you’re redirected back to Visual Studio. 

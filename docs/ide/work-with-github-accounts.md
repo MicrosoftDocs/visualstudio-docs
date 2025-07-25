@@ -51,7 +51,7 @@ You can also sign in with your [Google account linked to your GitHub account](ht
 
 In Visual Studio 17.14.10 or later, you can add your Google account more seamlessly by selecting [**Sign up with Google**].
 
-:::image type="content" source="../ide/media/vs-2022/signup-copilot-chat.png" alt-text="Screenshot showing Copilot chat sign in flow.":::
+:::image type="content" source="media/vs-2022/copilot-free/sign-up-for-copilot-free.png" alt-text="Screenshot of Sign up for Copilot Free in the Chat window.":::
 
 ### Add a GitHub account from the **profile card**
 
