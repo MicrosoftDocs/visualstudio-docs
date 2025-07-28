@@ -81,7 +81,7 @@ You can manually use another bootstrapper to install a new instance of Visual St
 Next, follow the steps to select the components you need for your installation. For more information, see [Install Visual Studio](install-visual-studio.md#step-4---choose-workloads).
 
 > [!TIP]
-> IT Administrators who want to suppress visibility of the Visual Studio Installer **Available** tab, or otherwise customize the availability of layout offerings on the **Available** tab, can configure client registry and policies. For more information, see [configure policies for enterprise deployments of Visual Studio](/visualstudio/install/configure-policies-for-enterprise-deployments).
+> IT Administrators who want to suppress visibility of the Visual Studio Installer **Available** tab, or otherwise customize the availability of layout offerings on the **Available** tab, can configure client registry and policies. For more information, see [Configure policies for enterprise deployments of Visual Studio](/visualstudio/install/configure-policies-for-enterprise-deployments).
 
 ### Programmatic installation
 
@@ -103,7 +103,7 @@ You can't start the installer programmatically from the same directory that the 
 
 ## .NET Framework versions and side-by-side installations
 
-Visual Basic, Visual C#, and Visual F# projects use the **Target Framework** option in the **Project Designer** to specify the version of the .NET Framework that they use. For a C++ project, you can manually change the target framework by modifying the *.vcxproj* file. For more information, see [Version compatibility in the .NET Framework](/dotnet/framework/migration-guide/version-compatibility).
+Visual Basic, Visual C#, and Visual F# projects use the **Target framework** option in the **Project Designer** to specify the version of the .NET Framework that they use. For a C++ project, you can manually change the target framework by modifying the *.vcxproj* file. For more information, see [Version compatibility in the .NET Framework](/dotnet/framework/migration-guide/version-compatibility).
 
 When you create a project, you can specify which version of the .NET Framework the project targets in the **.NET Framework** list in the **New Project** dialog box.
 
