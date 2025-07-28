@@ -4,7 +4,7 @@ description: Learn how to install Visual Studio on a computer that has an earlie
 ms.custom: vs-acquisition
 ms.date: 08/01/2025
 ms.subservice: installation
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - side-by-side installations [Visual Studio]
 - Help [Visual Studio], installing
@@ -16,7 +16,7 @@ manager: mijacobs
 ---
 # Install Visual Studio versions side-by-side
 
-You can install Visual Studio on a computer that has an earlier or later [major version](/visualstudio/productinfo/release-rhythm#determining-your-product-edition-version-and-channel) of Visual Studio already installed.
+You can install Visual Studio on a computer that has an earlier or later [major version](/visualstudio/productinfo/release-rhythm#determining-your-product-edition-version-and-channel) of Visual Studio already installed. This article describes how to install multiple versions of Visual Studio. 
 
 ::: moniker range="vs-2019"
 
