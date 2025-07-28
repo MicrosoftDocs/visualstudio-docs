@@ -41,8 +41,6 @@ landingContent:
         links:
           - text: Multicontainer app with Docker Compose
             url: tutorial-multicontainer.md
-          - text: React.js app in a container
-            url: container-tools-react.md
           - text: Debugging Docker apps
             url: edit-and-refresh.md
 
