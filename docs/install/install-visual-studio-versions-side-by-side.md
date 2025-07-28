@@ -1,8 +1,8 @@
 ---
-title: Install Visual Studio versions side-by-side
+title: Install Visual Studio Versions Side-by-Side
 description: Learn how to install Visual Studio on a computer that has an earlier or later version of Visual Studio already installed.
 ms.custom: vs-acquisition
-ms.date: 06/18/2024
+ms.date: 08/01/2025
 
 ms.subservice: installation
 ms.topic: conceptual
@@ -13,7 +13,7 @@ helpviewer_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
-#customer intent: As a developer, I want to learn how to install different versions of Visual Studio on the same system to support different projects developed over time.
+#customer intent: As a developer, I want to learn how to install different versions of Visual Studio on the same system to support different projects.
 ---
 # Install Visual Studio versions side-by-side
 
