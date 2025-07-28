@@ -24,13 +24,13 @@ ms.subservice: installation
 
 ::: moniker range="vs-2019"
 
-Welcome to Visual Studio 2019! In this version, it's easy to choose and install just the features you need. And because of its reduced minimum footprint, it installs quickly and with less system impact.
+In Visual Studio 2019, it's easy to choose and install just the features you need. And because of its reduced minimum footprint, it installs quickly and with less system impact.
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
-Welcome to Visual Studio 2022! In this version, it's easy to choose and install just the features you need.
+In Visual Studio 2022, it's easy to choose and install just the features you need.
 
 ::: moniker-end
 
@@ -155,7 +155,7 @@ If you downloaded a bootstrapper file, you can use it to install Visual Studio. 
 
 ::: moniker-end
 
-Visual Studio Installer opens. You can also install any product that the [Visual Studio Installer Available tab](install-visual-studio-versions-side-by-side.md#install-different-editions-of-the-same-major-visual-studio-version-side-by-side) offers.
+Visual Studio Installer opens. You can also install any product that's listed on the [Visual Studio Installer Available tab](install-visual-studio-versions-side-by-side.md#install-different-editions-of-the-same-major-visual-studio-version-side-by-side).
 
 ## Step 4 - Choose workloads
 
@@ -171,7 +171,7 @@ After you install the Visual Studio Installer, you can use it to customize your 
 
 1. After you choose the workloads that you want, select **Install**.
 
-   Next, status screens appear that show the progress of your Visual Studio installation.
+   Next, a status screen that shows the progress of your Visual Studio installation appears.
 
 ::: moniker-end
 
@@ -185,7 +185,7 @@ After you install the Visual Studio Installer, you can use it to customize your 
 
 1. After you choose the workloads that you want, select **Install**.
 
-   Next, status screens appear that show the progress of your Visual Studio installation.
+   Next, a status screen that shows the progress of your Visual Studio installation appears.
 
 ::: moniker-end
 
@@ -230,7 +230,7 @@ By default, the installer program tries to match the language of the operating s
 
 You can also change the default language by running the installer at a command prompt. For example, you can force the installer to run in English by using the following command:
 
-  ```shell
+  ```cmd
   vs_installer.exe --locale en-US
   ```
 
