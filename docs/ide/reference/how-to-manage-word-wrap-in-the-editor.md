@@ -1,7 +1,7 @@
 ---
 title: Toggle word wrap to see long code or line numbers
 description: Enable word wrapping to display code on multiple lines, or turn the feature off to see line numbers.
-ms.date: 06/27/2025
+ms.date: 07/28/2025
 ms.topic: how-to
 helpviewer_keywords:
 - word wrap
@@ -34,6 +34,16 @@ You can turn the **Word wrap** option on or off. When enabled, long lines that e
 
    > [!NOTE]
    > The **Show visual glyphs for Word Wrap** option displays a return-arrow indicator where a long line wraps onto a second line. These reminder arrows are not added to your code. They are for display purposes only.
+
+## To indent word wrap
+
+To change word wrap indentation:
+
+1. Go to **Tools > Options > Text Editor > General**.
+1. Under **Display**, select or clear the **Automatically indent when word wrap is enabled** option.
+
+By default, word wrap indentation is enabled. If you prefer your wrapped lines not be indented, simply uncheck this option.
+Use this setting to help improve readability and maintain the desired formatting of your code.
 
 ## Known issues
 
