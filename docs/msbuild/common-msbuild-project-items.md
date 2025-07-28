@@ -53,6 +53,8 @@ This item doesn't apply to non-.NET projects.
 |WrapperTool|Optional string. The name of the wrapper tool that is used on the component. Values are:<br /><br />1. primary<br />2. tlbimp<br />3. primaryortlbimp<br />4. `aximp`|
 |Isolated|Optional boolean. Specifies whether the component is a reg-free component.|
 
+See [Troubleshoot COM references](troubleshoot-com-references.md).
+
 ## COMFileReference
 
 Represents a list of type libraries to reference by file path, instead of using the system registry. This type of reference can be a good alternative to COMReference in cases where you want to avoid a dependency on the build machine's registry, either because the account that runs the build doesn't have elevated privileges to edit the registry on the build server, or you don't want the build to have a dependency on the state of the registry. If you use `COMFileReference` to reference an artifact on a system path, then your build has a dependency on the system state. If the system artifact changes due to a change in the state of the system, such as when products are installed, updated, or uninstalled (or if you run the same build on a different machine), then the wrapper assembly can change, even if the build logic hasn't changed. To ensure a consistent build result, you can cache a known copy of the COM artifact in a place you control, such as under your project or solution folder, and reference that instead of the system artifact.
@@ -63,6 +65,8 @@ This item doesn't apply to non-.NET projects.
 |---------------|-----------------|
 |EmbedInteropTypes|Optional boolean. If true, embed the interop types from this reference directly into your assembly rather than generating an interop DLL.|
 |WrapperTool|Optional string. The name of the wrapper tool that is used on the component. Values are:<br /><br />1.  primary<br />2. tlbimp<br />3. primaryortlbimp<br />4. `aximp`|
+
+See [Troubleshoot COM references](troubleshoot-com-references.md).
 
 ## NativeReference
 
