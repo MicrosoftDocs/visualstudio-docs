@@ -242,7 +242,7 @@ The installer retains this setting when you run it again. The installer supports
 
 You can also change the default language by running the installer at a command prompt. For example, you can force the installer to run in English by using the following command:
 
-  ```shell
+  ```cmd
   vs_installer.exe --locale en-US
   ```
 
@@ -303,11 +303,11 @@ Visual Studio opens your new project, and you're ready to code!
 
 1. Select the **Launch** button.
 
-1. In the start window, choose **Create a new project**.
+1. In the start window, select **Create a new project**.
 
 1. In the template search box, enter the type of app you want to create to see a list of available templates. The list of templates depends on the workloads that you chose during installation. To see different templates, choose different workloads.
 
-   You can also filter your search for a specific programming language by using the **Language** dropdown list. The **Platform** list and the **Project type** list also provide filters.
+   You can also filter your search for a specific programming language by using the language dropdown list. The platform list and the project type list also provide filters.
 
 1. Select **Next**. Provide information in the following dialogs, and then select **Create**.
 
