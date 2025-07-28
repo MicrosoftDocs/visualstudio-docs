@@ -139,7 +139,7 @@ The **HTML** tab of the Toolbox provides components that are useful on web pages
 
 To create an instance of a tool on the **HTML** tab, either double-click the tool to add it to your document at the current insertion point, or select the tool and drag it to the desired position on the editing surface.
 
-## UI elements
+### UI elements
 
 The following tools are available by default on the HTML tab.
 
