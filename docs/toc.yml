@@ -1020,17 +1020,8 @@
       href: ide/reference/properties-window.md
     - name: Team Explorer reference
       href: ide/reference/team-explorer-reference.md
-    - name: Toolbox
-      items:
-      - name: Reference
-        displayName: Toolbox
-        href: ide/reference/toolbox.md
-      - name: Toolbox, Components Tab
-        href: ide/reference/toolbox-components-tab.md
-      - name: Toolbox, Data Tab
-        href: ide/reference/toolbox-data-tab.md
-      - name: Toolbox, HTML Tab
-        href: ide/reference/toolbox-html-tab.md
+    - name: Toolbox window
+      href: ide/reference/toolbox.md
   - name: Devenv command-line switches
     items:
     - name: Reference
