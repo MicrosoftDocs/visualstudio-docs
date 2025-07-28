@@ -45,7 +45,7 @@ If you choose to not sign in with GitHub at first launch, you can add your GitHu
 
 ### Add a GitHub account from the Copilot Chat window
 
-Select the GitHub Copilot badge in the upper-right corner of the IDE and select **Open Chat Window** from the dropdown, or use **Ctrl+\** to open the Copilot chat window.
+Select the GitHub Copilot badge in the upper-right corner of the IDE and select **Open Chat Window** from the dropdown, or use **Ctrl+\\** to open the Copilot chat window.
 Then select one of the following:
 - **Sign up for Copilot Free** to setup Copilot Free for a new or existing GitHub account
 - **Sign up with Google** to sign in with a Google account linked to your GitHub account
