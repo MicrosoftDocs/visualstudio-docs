@@ -112,6 +112,8 @@ items:
     items:
     - name: Troubleshoot assembly references
       href: troubleshoot-assembly-references.md
+    - name: Troubleshoot COM references
+      href: troubleshoot-com-references.md
     - name: Batching
       items:
       - name: MSBuild batching
