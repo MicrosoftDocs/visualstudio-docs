@@ -3,7 +3,7 @@ title: Download software titles in subscriptions
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 09/17/2024
+ms.date: 07/25/2025
 ms.topic: conceptual
 description: Find and download Microsoft software titles in Visual Studio subscriptions and locate the software you need to get the most out of your subscription. 
 ---
@@ -20,32 +20,32 @@ If your subscription is provided by your work or school, your subscriptions admi
 
 When you visit the [Downloads](https://my.visualstudio.com/downloads/featured?wt.mc_id=o~msft~docs) page, you see popular downloads arranged in groups by product type. You can select one of the popular downloads shown, or search for any product using the search bar at the top of the page.
 > [!div class="mx-imgBorder"]
-> ![Subscriber downloads page](_img/subscriber-downloads/subscriber-downloads-resized.png "Screenshot of the Downloads page on the subscription portal.")
+> ![Subscriber downloads page](_img/subscriber-downloads/subscriber-downloads-visual-studio-2022.png "Screenshot of the Downloads page on the subscription portal.")
 
-For example, if you choose **Visual Studio 2019** from the Developer Tools list, you see a list of available Visual Studio 2019 downloads.
+For example, if you choose **Visual Studio 2022** from the Developer Tools list, you see a list of available Visual Studio 2022 downloads.
 > [!div class="mx-imgBorder"]
-> ![Visual Studio 2019 downloads](_img/subscriber-downloads/vs2019-product-list.png "Screenshot of the list of available downloads for Visual Studio 2019.")
+> ![Visual Studio 2022 downloads](_img/subscriber-downloads/visual-studio-2022-product-list.png "Screenshot of the list of available downloads for Visual Studio 2022.")
 
 You easily select your architecture, language, and file type using the available drop-down menus. Choose your preferred options, and  select **Download** to begin downloading the product.
 
 > [!NOTE]
-> Not all titles are available in all architectures, languages or file formats.
+> Not all titles are available in all architectures, languages, or file formats.
 
 ### Displaying download details
 
 Selecting the product name or on the Info link displays the details for that download and providing access to the release notes for the product.
 > [!div class="mx-imgBorder"]
-> ![Visual Studio 2019 download details](_img/subscriber-downloads/vs2019-info.png "Screenshot of the Visual Studio Enterprise 2019 product details page. The Info tab is selected.")
+> ![Visual Studio 2022 download details](_img/subscriber-downloads/visual-studio-2022-info.png "Screenshot of the Visual Studio Enterprise 2022 product details page. The Info tab is selected.")
 
 In the details pane, you can also select the **Keys** tab to check the status of your product keys.
 > [!div class="mx-imgBorder"]
-> ![Visual Studio 2019 product keys](_img/subscriber-downloads/vs2019-keys.png "Screenshot of the Visual Studio Enterprise 2019 product details page with the Keys tab selected.")
+> ![Visual Studio 2022 product keys](_img/subscriber-downloads/visual-studio-2022-keys.png "Screenshot of the Visual Studio Enterprise 2022 product details page with the Keys tab selected.")
 
 ### Obtaining product keys
 
-To obtain a product key for the download, you can either select the blue key labeled **Get Key** or if you're already viewing the details pane, select **Claim key** on the **Keys** tab.
+To obtain a product key for the download, you can either select the blue key labeled **Get Key** or if you're already viewing the details pane, select **blue key** on the **Keys** tab.
 > [!div class="mx-imgBorder"]
-> ![Visual Studio 2019 claim product keys](_img/subscriber-downloads/vs2019-claim-keys.png "Screenshot of the Visual Studio Enterprise 2019 product details page showing one claimed product key.")
+> ![Visual Studio 2022 claim product keys](_img/subscriber-downloads/visual-studio-2022-claim-keys.png "Screenshot of the Visual Studio Enterprise 2019 product details page showing one claimed product key.")
 
 ## Resources
 
