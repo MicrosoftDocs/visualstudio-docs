@@ -1,6 +1,21 @@
 {
   "redirections": [
     {
+      "source_path": "docs/ide/reference/toolbox-data-tab.md",
+      "redirect_url": "/visualstudio/ide/reference/toolbox",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/toolbox-html-tab.md",
+      "redirect_url": "/visualstudio/ide/reference/toolbox",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/toolbox-components-tab.md",
+      "redirect_url": "/visualstudio/ide/reference/toolbox",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/reference/my-extensions-page-project-designer-visual-basic.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/my-extensions-page-project-designer-visual-basic",
       "redirect_document_id": false
