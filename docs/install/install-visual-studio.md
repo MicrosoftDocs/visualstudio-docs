@@ -1,8 +1,8 @@
 ---
-title: Install Visual Studio and choose your preferred features
+title: Install Visual Studio and Choose Your Preferred Features
 titleSuffix: ''
 description: Learn how to install Visual Studio quickly. To reduce the installation footprint, choose your preferred features.
-ms.date: 09/06/2024
+ms.date: 08/01/2025
 ms.custom: vs-acquisition
 ms.topic: install-set-up-deploy
 helpviewer_keywords:
@@ -16,8 +16,9 @@ helpviewer_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
-
 ms.subservice: installation
+
+#customer intent: As a developer, I want to install Visual Studio with the features I will need so that I can control the installation footprint. 
 ---
 # Install Visual Studio
 
