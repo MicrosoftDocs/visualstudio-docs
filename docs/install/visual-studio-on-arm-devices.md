@@ -1,12 +1,14 @@
 ---
-title: Visual Studio on ARM processor powered devices
-description: Review recommendations for using Visual Studio on devices with Arm-based processors, including supported workloads, and remote targeting.
-ms.date: 6/14/2024
-ms.topic: conceptual
+title: Visual Studio on ARM Processor-Powered Devices
+description: Review recommendations for using Visual Studio on devices with ARM-based processors, including supported workloads and remote targeting.
+ms.date: 08/01/2025
+ms.topic: concept-article
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: installation
+
+#customer intent: As a developer, I want to learn about Visual Basic support for ARM so that I can determine 
 ---
 # Visual Studio on Arm-powered devices
 
