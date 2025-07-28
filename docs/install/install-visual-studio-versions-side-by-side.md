@@ -24,7 +24,7 @@ Before you install versions side-by-side, review the following conditions:
 
 - Suppose that you use Visual Studio 2019 to open a solution that was created in Visual Studio 2017. You can later open and modify the solution in the earlier version, unless you implement features that are specific to Visual Studio 2019.
 
-- Suppose that you use Visual Studio 2019 to open a solution that was created in Visual Studio 2017 or an earlier version. You might need to modify your projects and files to be compatible with Visual Studio 2019. For more information, see [Port, migrate, and upgrade Visual Studio Projects](/visualstudio/releases/2019/port-migrate-and-upgrade-visual-studio-projects).
+- Suppose that you use Visual Studio 2019 to open a solution that was created in Visual Studio 2017 or an earlier version. You might need to modify your projects and files to be compatible with Visual Studio 2019. For more information, see [Port, migrate, and upgrade Visual Studio projects](/visualstudio/releases/2019/port-migrate-and-upgrade-visual-studio-projects).
 
 ::: moniker-end
 
@@ -34,7 +34,7 @@ Before you install versions side-by-side, review the following conditions:
 
 - Suppose that you use Visual Studio 2022 to open a solution that was created in Visual Studio 2017 or Visual Studio 2019. You can later open and modify the solution again in the earlier version, unless you implement features that are specific to Visual Studio 2022.
 
-- Suppose that you use Visual Studio 2022 to open a solution that was created in Visual Studio 2019 or an earlier version. You might need to modify your projects and files to be compatible with Visual Studio 2022. For more information, see [Port, migrate, and upgrade Visual Studio Projects](/visualstudio/releases/2022/port-migrate-and-upgrade-visual-studio-projects).
+- Suppose that you use Visual Studio 2022 to open a solution that was created in Visual Studio 2019 or an earlier version. You might need to modify your projects and files to be compatible with Visual Studio 2022. For more information, see [Port, migrate, and upgrade Visual Studio projects](/visualstudio/releases/2022/port-migrate-and-upgrade-visual-studio-projects).
 
 ::: moniker-end
 
@@ -81,7 +81,7 @@ You can manually use another bootstrapper to install a new instance of Visual St
 Next, follow the steps to select the components you need for your installation. For more information, see [Install Visual Studio](install-visual-studio.md#step-4---choose-workloads).
 
 > [!TIP]
-> IT Administrators who want to suppress visibility of the Visual Studio Installer **Available** tab, or otherwise customize the availability of layout offerings on the **Available** tab, can configure client registry and policies. For more information, see [Configure policies for enterprise deployments of Visual Studio](/visualstudio/install/configure-policies-for-enterprise-deployments).
+> IT Administrators who want to suppress visibility of the Visual Studio Installer **Available** tab, or otherwise customize the availability of layout offerings on the **Available** tab, can configure the client registry and policies. For more information, see [Configure policies for enterprise deployments of Visual Studio](/visualstudio/install/configure-policies-for-enterprise-deployments).
 
 ### Programmatic installation
 
