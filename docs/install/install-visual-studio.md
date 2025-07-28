@@ -147,7 +147,7 @@ If you downloaded a bootstrapper file, you can use it to install Visual Studio. 
 
 ::: moniker range=">=vs-2022"
 
-1. From your *Downloads* folder, double-click the bootstrapper named *VisualStudioSetup.exe* or named something like *vs_community.exe* to start the installation.
+1. From your *Downloads* folder, double-click the bootstrapper named *VisualStudioSetup.exe*, or named something like *vs_community.exe*, to start the installation.
 
 1. If you see a User Account Control notice, select **Yes**. The dialog box asks you to acknowledge the Microsoft [License Terms](https://visualstudio.microsoft.com/license-terms/) and the Microsoft [Privacy Statement](https://privacy.microsoft.com/privacystatement). Select **Continue**.
 
@@ -291,7 +291,7 @@ After your installation is complete, you can get started developing with Visual 
 
 1. In the search box, enter the type of app you want to create to see a list of available templates. The list of templates depends on the workloads that you chose during installation. To see different templates, choose different workloads.
 
-   You can also filter your search for a specific programming language by using the **Language** dropdown list. The **Platform** list and the **Project type** list also provide filters.
+   You can also filter your search for a specific programming language by using the language dropdown list. The platform list and the project type list also provide filters.
 
 1. Select **Next**. Provide information in the following dialogs, and then select **Create**.
 
