@@ -79,7 +79,7 @@ In the chat window, after a tool invocation, use the **Allow** dropdown options 
 
 You can reset tool confirmation selections in **Tools** > **Options** > **GitHub** > **Copilot** > **Tools**.
 
-:::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-tool-config.png" alt-text="Screenshot that shows tool confirmation options." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-tool-config-options.png":::
+:::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-tool-config-options.png" alt-text="Screenshot that shows tool confirmation options." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-tool-config-options.png":::
 
 <!-- TODO: Define what "Reset solution setting does -->
 
