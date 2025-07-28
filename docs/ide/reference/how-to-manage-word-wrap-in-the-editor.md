@@ -37,6 +37,8 @@ You can turn the **Word wrap** option on or off. When enabled, long lines that e
 
 ## To indent word wrap
 
+Starting with Visual Studio 17.13, you can choose whether wrapped lines in the editor should be indented.
+
 To change word wrap indentation:
 
 1. Go to **Tools > Options > Text Editor > General**.
