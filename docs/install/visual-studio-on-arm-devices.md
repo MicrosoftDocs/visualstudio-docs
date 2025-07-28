@@ -8,15 +8,15 @@ ms.author: meghaanand
 manager: mijacobs
 ms.subservice: installation
 
-#customer intent: As a developer, I want to learn about Visual Basic support for ARM so that I can determine 
+#customer intent: As a developer, I want to learn about Visual Studio support for ARM so that I can determine the best path for getting started with building and debugging ARM64 apps by using Visual Studio.  
 ---
-# Visual Studio on Arm-powered devices
+# Visual Studio on ARM-powered devices
 
 ::: moniker range="vs-2019"
 
-Visual Studio is built to target processors based on the x86 architecture, and there are no versions of Visual Studio for ARM-based processors.
+Visual Studio 2019 is built to target processors based on the x86 architecture, and there are no versions of Visual Studio 2019 for ARM-based processors.
 
-Visual Studio can run on ARM-powered devices via x86 emulation, though some features aren't currently supported on Azure Resource Manager. As such, we don't recommend running Visual Studio on devices that use ARM-based processors, and instead recommend remotely targeted ARM devices.
+Visual Studio can run on ARM-powered devices via x86 emulation, though some features aren't currently supported on Azure Resource Manager. Therefore, we don't recommend running Visual Studio 2019 on devices that use ARM-based processors. Instead, we recommend remotely targeting ARM devices.
 
 See [Visual Studio 2019 System Requirements](/visualstudio/releases/2019/system-requirements) for supported operating systems, hardware, supported languages, and other requirements and guidance.
 
@@ -24,26 +24,26 @@ See [Visual Studio 2019 System Requirements](/visualstudio/releases/2019/system-
 
 ::: moniker range=">=vs-2022"
 
-[Visual Studio 2022 version 17.4 is now available as a native Arm64 application](https://aka.ms/vs/arm64) on Windows 11 Arm64. It's the first version of Visual Studio that natively supports building and debugging Arm64 apps on Arm-based processors. With Visual Studio 2022 version 17.4 and later, Visual Studio eliminates the dependence on x64 emulation [for most developer workloads](#supported-workloads). 
+[Visual Studio 2022 version 17.4 is now available as a native ARM64 application](https://aka.ms/vs/arm64) on Windows 11 for ARM-based PCs. It's the first version of Visual Studio that natively supports building and debugging ARM64 apps on ARM-based processors. Visual Studio 2022 version 17.4 and later eliminate the dependence on x64 emulation [for most developer workloads](#supported-workloads).
 
-## Get started with Arm64 Visual Studio
+## Get started with Visual Studio for ARM64
 
-To get started with the native Arm64 Visual Studio experience:
+To get started with the native ARM64 Visual Studio experience:
 
-- Ensure you have an Arm64 device with Windows 11.
-- Uninstall any prior versions of Visual Studio from your Arm64 device.
-- Download and install the latest version [Visual Studio 2022](https://visualstudio.microsoft.com/vs/).
+- Ensure that Windows 11 is installed on your ARM64 device.
+- Uninstall any prior versions of Visual Studio from your ARM64 device.
+- Download and install the latest version of [Visual Studio 2022](https://visualstudio.microsoft.com/vs/).
 
-## Installing Arm64 Visual Studio
+## Installing Visual Studio for ARM64
 
-There's a single installer for both Visual Studio x64 and Arm64 architectures. The Visual Studio Installer detects if the system architecture is Arm64. The installer then downloads and installs the Arm64 version of Visual Studio on your Arm64 device (support is for Windows 11). If you're installing the product via a layout, you need to [explicitly configure the layout to include ARM binaries](./use-command-line-parameters-to-install-visual-studio.md#layout-command-and-command-line-parameters).
+There's a single installer for both Visual Studio x64 and Visual Studio ARM64 architectures. The Visual Studio Installer detects whether the system architecture is ARM64. If it is, the installer downloads and installs the ARM64 version of Visual Studio. (Only Windows 11 is supported.) If you install the product via a layout, you need to [explicitly configure the layout to include ARM binaries](./use-command-line-parameters-to-install-visual-studio.md#layout-command-and-command-line-parameters).
 
 > [!NOTE]
-> For Windows 11 Arm64, you must uninstall all previous versions of Visual Studio (x64, x86) before installing Visual Studio 2022 version 17.4 or later.
+> To use Visual Studio for ARM64, you must uninstall all previous versions of Visual Studio (x64, x86) before you install Visual Studio 2022 17.4 or later.
 
 ## Supported workloads
 
-The Arm64 GA supports the following workloads:
+The Visual Studio for ARM64 supports the following workloads:
 
 - .NET desktop development
 - Desktop development with C++
@@ -57,12 +57,12 @@ The Arm64 GA supports the following workloads:
 - Linux and embedded development with C++
 - Database development with SQL Server Data Tools
 
-### Managed developers
+### Managed development
 
-With this release, you can now build desktop applications (Windows Forms and WPF) using both .NET 6+ and .NET Framework 4.8.1. 
+With this release, you can build desktop applications (Windows Forms and WPF) using both .NET 6+ and .NET Framework 4.8.1. 
 .NET Framework 4.8.1 is included in the next major update for Windows 11 and will be available for previous operating systems in the future. 
 
-### Native developers
+### Native development
 
 With the Visual Studio 2022 version 17.4 release or later, you can access the new native Arm64 MSVC (Microsoft Visual C++) compiler toolset, including C++ Code Analysis, while still targeting all platforms currently supported by MSVC.
 
