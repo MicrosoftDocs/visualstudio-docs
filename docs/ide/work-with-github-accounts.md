@@ -49,7 +49,7 @@ If you have [GitHub Copilot installed](visual-studio-github-copilot-install-and-
 
 You can also sign in with your [Google account linked to your GitHub account](https://github.blog/changelog/2025-07-15-social-login-with-google-is-now-generally-available), offering more flexibility for authentication.
 
-In Visual Studio 17.14.10 or later, you can add your Google account more seamlessly by selecting [**Sign up with Google**].
+In Visual Studio 17.14.10 or later, you can add your Google account more seamlessly by selecting **Sign up with Google**.
 
 :::image type="content" source="media/vs-2022/copilot-free/sign-up-for-copilot-free.png" alt-text="Screenshot of Sign up for Copilot Free in the Chat window.":::
 
