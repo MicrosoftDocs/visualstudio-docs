@@ -22,7 +22,7 @@ This articles walks you through uninstalling Visual Studio, the integrated suite
 > [!TIP]
 > If you're having trouble with your instance of Visual Studio, try the [Repair  Visual Studio](../install/repair-visual-studio.md) tool.
 >
-> To change the location for some of your Visual Studio files, it's possible to do so without uninstalling your current instance. For more information, see [Select the installation locations](../install/change-installation-locations.md).
+> To change the location for some of your Visual Studio files, you can do so without uninstalling your current instance. For more information, see [Select the installation locations](../install/change-installation-locations.md).
 
 ## Uninstall by using Visual Studio Installer
 
@@ -37,9 +37,7 @@ You can use Visual Studio Installer to uninstall versions of Visual Studio.
    :::image type="content" source="media/vs-2019/visual-studio-installer.png" alt-text="Screenshot that shows searching for the Visual Studio Installer on the Start menu.":::
 
    > [!NOTE]
-   > You can also find the Visual Studio Installer in the following location:
-   >
-   > *C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe*
+   > You can also find the Visual Studio Installer at *C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe*.
 
    You might have to update the installer before you continue. If you do, follow the prompts.
 
