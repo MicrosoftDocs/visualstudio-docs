@@ -99,12 +99,12 @@ If you try to install an extension that has dependencies, the installer determin
 Extensions that are packaged in *.vsix* files might be available in locations other than Visual Studio Marketplace. The **Extensions** > **Extension Manager** dialog can't detect these files, but you can install a *.vsix* file by double-clicking the file or selecting the file and then selecting **Enter**. If you encounter permission issues, ensure that you're running Visual Studio as an administrator. After that, just follow the instructions. When the extension is installed, you can use Extension Manager to enable it, disable it, or uninstall it.
 
 > [!NOTE]
-> - Visual Studio Marketplace contains both VSIX-based and MSI-based extensions. Extension Manager can't enable or disable .msi-based extensions.
+> - Visual Studio Marketplace contains both VSIX-based and MSI-based extensions. Extension Manager can't enable or disable MSI-based extensions.
 > - If an MSI-based extension includes an *extension.vsixmanifest* file, the extension appears in **Extension Manager**.
 
 ## Uninstall or disable an extension
 
-If you want to stop using an extension, you can either disable it or uninstall it. Disabling an extension keeps it installed but unloaded. Find the extension and select **Uninstall** or **Disable**. Restart Visual Studio to unload a disabled extension.
+If you want to stop using an extension, you can either disable it or uninstall it. Disabling an extension keeps it installed but unloaded. Find the extension and, on the ellipsis menu (**...**), select **Uninstall** or **Disable**. Restart Visual Studio to unload a disabled extension.
 
 > [!NOTE]
 > You can disable VSIX-based extensions but not extensions that are installed via MSI. MSI-installed extensions can only be uninstalled.
@@ -115,7 +115,7 @@ This section provides information about managing extensions for an organization,
 
 ### Per-user and administrative extensions
 
-Most extensions are per-user extensions and are installed in the *%LocalAppData%\Microsoft\VisualStudio\\<Visual Studio version\>\Extensions\\* folder. A few extensions are administrative extensions and are installed in the *\<Visual Studio installation folder>\Common7\IDE\Extensions\\* folder.
+Most extensions are per-user extensions and are installed in the *%LocalAppData%\Microsoft\VisualStudio\\Packages\\* folder. A few extensions are administrative extensions and are installed in the *\<Visual Studio installation folder>\Common7\IDE\Extensions\\* folder.
 
 To protect your system against extensions that might contain errors or malicious code, you can restrict per-user extensions to load only when Visual Studio is run with normal user permissions. This causes per-user extensions to be disabled when Visual Studio is run with elevated permissions.
 
@@ -147,7 +147,7 @@ Extensions are updated automatically when a new version is available on Visual S
 
 If you want to disable automatic updates, you can disable the feature for all extensions or for only specific extensions.
 
-- To disable automatic updates for all extensions, select the **View Settings** button in the **Extensions** > **Manage Extensions** dialog. In the **Options** dialog, under **Environment** > **Extensions**, clear **Automatically update extensions**.
+- To disable automatic updates for all extensions, select the **View Settings** button in the **Extensions** > **Manage Extensions** dialog. In the **Options** dialog, under **Environment** > **Extensions**, clear **Install updates automatically**.
 
 - To disable automatic updates for a specific extension, clear the **Automatically update this extension** option in the extension's details pane on the right side of Extension Manager.
 
