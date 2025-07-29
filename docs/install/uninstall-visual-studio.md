@@ -49,7 +49,7 @@ You can use Visual Studio Installer to uninstall versions of Visual Studio.
 
    :::image type="content" source="media/vs-2019/uninstall-visualstudio-confirm.png" alt-text="Screenshot that shows the dialog to confirm that you want to uninstall Visual Studio 2019.":::
 
-If you change your mind later and want to reinstall Visual Studio 2019, start the Visual Studio Installer again, choose the **Available** tab, choose the edition of Visual Studio that you want to install, and then select **Install**.
+If you change your mind later and want to reinstall Visual Studio 2019, start the Visual Studio Installer again, select the **Available** tab, choose the edition of Visual Studio that you want to install, and then select **Install**.
 
 ::: moniker-end
 
@@ -123,7 +123,7 @@ To run the InstallCleanup.exe tool:
    1. Type *cmd* in the Windows search box.
    1. Right-click **Command Prompt**, and then select **Run as administrator**.
 
-1. Enter the full path of the InstallCleanup.exe tool and add the command-line parameters that you prefer. By default, the path of the tool is as shown in the following command. The double quotation marks enclose a command that contains spaces.
+1. Enter the full path of the InstallCleanup.exe tool and add the command-line parameters that you prefer. By default, the path of the tool is as shown in the following command. Double quotation marks are used to enclose a command that contains spaces.
 
    ```cmd
    "C:\Program Files (x86)\Microsoft Visual Studio\Installer\InstallCleanup.exe"
