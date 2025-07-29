@@ -1,7 +1,7 @@
 ---
 title: 'GitHub Copilot Free in Visual Studio'
 description: Use GitHub Copilot Completions, Chat, and Edits for free in Visual Studio.
-ms.date: 5/13/2025
+ms.date: 7/29/2025
 ms.topic: overview 
 author: anandmeg
 ms.author: meghaanand
@@ -23,12 +23,12 @@ To get started with Copilot Free in Visual Studio, you need:
 ## Get started with Copilot Free in Visual Studio
 
 With Visual Studio version 17.14, you can [activate Copilot Free at first launch](work-with-github-accounts.md#add-a-github-account-at-first-launch).
-You can set up Copilot Free using Visual Studio later as follows:
+You can also [set up from the Copilot Chat window](work-with-github-accounts.md#add-a-github-account-from-the-copilot-chat-window) later as follows:
 
-1. Use **Ctrl+\\** to open the chat window in Visual Studio. You can also select the **GitHub Copilot** badge in the upper-right corner of the IDE, and then select **Open Chat Window** from the dropdown to open chat.
-1. Select **Sign up for Copilot Free**.
+1. Use **Ctrl+\\** to open the chat window in Visual Studio. You can also select the **GitHub Copilot** badge in the upper-right corner of the IDE, and then select **Open Chat Window to Sign In** from the dropdown to open chat.
+1. Select **Sign up for Copilot Free** or **Sign up with Google**
 
-   :::image type="content" source="media/vs-2022/copilot-free/sign-up-for-copilot-free.png" alt-text="Screenshot of Sign up for Copilot Free in the Chat window.":::
+   :::image type="content" source="../ide/media/vs-2022/copilot-free/sign-up-for-copilot-free.png" alt-text="Screenshot of Sign up for Copilot Free in the Chat window.":::
 
 1. If you have an existing GitHub account, sign in when prompted. If not, follow the steps to create a new GitHub account. 
 1. Once finished, you’re redirected back to Visual Studio. 
