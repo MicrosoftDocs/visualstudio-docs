@@ -14,7 +14,7 @@ ms.subservice: installation
 
 ::: moniker range="vs-2019"
 
-Visual Studio 2019 is built to target processors based on the x86 architecture, and there are no versions of Visual Studio 2019 for ARM-based processors. This articles provides information about running Visual Studio via x86 emulation amd remotely targeting ARM devices. 
+Visual Studio 2019 is built to target processors based on the x86 architecture, and there are no versions of Visual Studio 2019 for ARM-based processors. This article provides information about running Visual Studio via x86 emulation and remotely targeting ARM devices. 
 
 Visual Studio can run on ARM-powered devices via x86 emulation, though some features aren't currently supported on Azure Resource Manager. Therefore, we don't recommend running Visual Studio 2019 on devices that use ARM-based processors. Instead, we recommend remotely targeting ARM devices.
 
@@ -43,7 +43,7 @@ There's a single installer for both Visual Studio x64 and Visual Studio ARM64 ar
 
 ## Supported workloads
 
-The Visual Studio for ARM64 supports the following workloads:
+Visual Studio for ARM64 supports the following workloads:
 
 - .NET desktop development
 - Desktop development with C++
@@ -60,7 +60,7 @@ The Visual Studio for ARM64 supports the following workloads:
 ### Managed development
 
 With this release, you can build desktop applications (Windows Forms and WPF) targeting both .NET 6 and later and .NET Framework 4.8.1. 
-.NET Framework 4.8.1 is included in Windows 11 and is installable in some versions of Windows 10. 
+.NET Framework 4.8.1 is included in Windows 11 and is installable on some versions of Windows 10. 
 
 ### Native development
 
@@ -74,7 +74,7 @@ With Visual Studio 2022 17.4 and later, you can access the native ARM64 Visual C
 
 Many C++ libraries are available on ARM64. vcpkg also runs natively on ARM64, and although some dependent non-Microsoft tools might still run emulated, you can successfully build and consume more than 1,700 C++ libraries directly in your native ARM64 build environment.
 
-If you install the **Desktop development with C++ workload**, you can load any desktop C++ project and solution using MSBuild, and then use the editing, building, and debugging capabilities that you're already familiar with in Visual Studio.
+If you install the **Desktop development with C++** workload, you can load any desktop C++ project and solution using MSBuild, and then use the editing, building, and debugging capabilities that you're already familiar with in Visual Studio.
 
 ## Visual Studio versions before 17.4
 
