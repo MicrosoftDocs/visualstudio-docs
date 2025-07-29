@@ -1,7 +1,7 @@
 ---
-title: Find & manage extension packages
-description: Learn about extensions in Visual Studio and how to manage them so you have the controls, samples, templates, tools, and other components you need.
-ms.date: 09/05/2024
+title: Find and Manage Extension Packages
+description: Learn about extensions in Visual Studio and how to manage them so you have the controls, samples, templates, tools, and other components that you need.
+ms.date: 08/01/2025
 ms.topic: how-to
 f1_keywords:
 - vs.ExtensionManager
@@ -26,7 +26,7 @@ This article describes how to find, install, and manage extension packages in Vi
 For information about creating Visual Studio extensions, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md). For information about using extensions, see the individual extension page on [Visual Studio Marketplace](https://marketplace.visualstudio.com/vs). For information about finding extensions, see the [Where Are My Favorite Extensions in Visual Studio 2022?](https://devblogs.microsoft.com/visualstudio/where-are-my-favorite-extensions-in-visual-studio-2022/) blog post.
 
 > [!NOTE]
-> To learn more about a new extensibility model that's currently in preview, see the [Build Better Extensions with VisualStudio.Extensibility (Preview 3)](https://devblogs.microsoft.com/visualstudio/visualstudio-extensibility-preview-3/) blog post.
+> To learn more about an extensibility model that's currently in preview, see the [Build Better Extensions with VisualStudio.Extensibility (Preview 3)](https://devblogs.microsoft.com/visualstudio/visualstudio-extensibility-preview-3/) blog post.
 
 ::: moniker-end
 
@@ -40,7 +40,7 @@ For information about creating Visual Studio extensions, see [Visual Studio SDK]
 
 ## Use Extension Manager 
 
-In the Visual Studio IDE, Extension Manager is the tool you use to find, install, and manage Visual Studio extensions. To open Extension Manager, select **Extensions** > **Manage Extensions**. Or type **extensions** in the search box and select **Manage Extensions**.
+In the Visual Studio IDE, Extension Manager is the tool that you use to find, install, and manage Visual Studio extensions. To open Extension Manager, select **Extensions** > **Manage Extensions**. Or enter **extensions** in the search box and select **Manage Extensions**.
 
 ::: moniker range=">=vs-2022"
 
