@@ -1126,6 +1126,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/ide/reference/projects-solutions-locations-options",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/projects-solutions-locations-options",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/reference/choose-toolbox-items-wpf-components.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/choose-toolbox-items-wpf-components",
       "redirect_document_id": false
