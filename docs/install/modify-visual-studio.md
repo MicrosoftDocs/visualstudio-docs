@@ -1,8 +1,8 @@
 ---
-title: Modify Visual Studio workloads and components
+title: Modify Visual Studio Workloads and Components
 titleSuffix: ''
 description: Modify your Visual Studio installation with the Visual Studio Installer. Add or remove workloads, components, and language packs.
-ms.date: 08/19/2024
+ms.date: 08/01/2025
 ms.topic: how-to
 ms.custom: vs-acquisition
 helpviewer_keywords:
@@ -25,7 +25,7 @@ It's easy to modify Visual Studio so that it includes only what you want. To do 
 
 ## Prerequisites
 
-- By default, to install, update, or modify Visual Studio, the account performing the update must have administrative permissions on the machine. It must also have permissions to the source where the product updates are located (either the internet or an internal location). If you're logged in as a typical user and try to perform one of these commands, you get a User Account Control notice prompting you for admin credentials. Starting in August 2023, an admin can delegate control of modifying Visual Studio to standard users by configuring the [`AllowStandardUserControl` policy](configure-policies-for-enterprise-deployments.md#controlling-installation-download-and-update-behavior). For more information, see [User Permissions and Visual Studio](../ide/user-permissions-and-visual-studio.md).
+- By default, to install, update, or modify Visual Studio, the account performing the update must have administrative permissions on the machine. It must also have permissions to the source where the product updates are located (either the internet or an internal location). If you're signed in as a typical user and try to perform one of these commands, you get a User Account Control notice prompting you for admin credentials. Starting in August 2023, an admin can delegate control of modifying Visual Studio to standard users by configuring the [`AllowStandardUserControl` policy](configure-policies-for-enterprise-deployments.md#controlling-installation-download-and-update-behavior). For more information, see [User Permissions and Visual Studio](../ide/user-permissions-and-visual-studio.md).
 
 - The following procedures assume you have an internet connection. For information about how to modify a previously created [offline installation](create-an-offline-installation-of-visual-studio.md) of Visual Studio, see:
   - [Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
