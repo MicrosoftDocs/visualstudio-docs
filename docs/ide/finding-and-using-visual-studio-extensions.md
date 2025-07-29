@@ -58,9 +58,9 @@ The left pane categorizes extensions by those that are available on Visual Studi
 
 :::moniker range=">=vs-2022"
 
-Tabs have command buttons to filter and sort extensions, and a gear button that takes you to the **Tools** > **Options** screen.
+Tabs have buttons to filter and sort extensions, and a gear button that takes you to the **Tools** > **Options** screen.
 
-You can Use the filter command button to filter extensions by category. Categories include **Enabled**, **Disabled**, and **Incompatible**. In 17.14 and later, you can also filter by **Pending**, which refers to extensions that have updates that will be available the next time you restart Visual Studio.
+You can Use the filter button to filter extensions by category. Categories include **Enabled**, **Disabled**, and **Incompatible**. In 17.14 and later, you can also filter by **Pending**, which filters by extensions that have updates that will be available the next time you restart Visual Studio.
 
 Use the sort button to sort by extension name, extension author, or date.
 
@@ -100,7 +100,7 @@ Extensions that are packaged in *.vsix* files might be available in locations ot
 
 > [!NOTE]
 > - Visual Studio Marketplace contains both VSIX-based and MSI-based extensions. Extension Manager can't enable or disable MSI-based extensions.
-> - If an MSI-based extension includes an *extension.vsixmanifest* file, the extension appears in **Extension Manager**.
+> - If an MSI-based extension includes an *extension.vsixmanifest* file, the extension appears in Extension Manager.
 
 ## Uninstall or disable an extension
 
@@ -173,7 +173,7 @@ The **Pending** category enables you to view only extensions that have pending u
 
 You can also configure automatic update settings in **Tools > Options**.
 
-:::image type="content" source="./media/vs-2022/finding-and-using-visual-studio-extensions/extension-manager-tools-options.png" alt-text="Screenshot showing how to configure automatic extension updates in Tools > Options." lightbox="./media/vs-2022/finding-and-using-visual-studio-extensions/extension-manager-tools-options.png" :::
+:::image type="content" source="./media/vs-2022/finding-and-using-visual-studio-extensions/extension-manager-tools-options.png" alt-text="Screenshot showing how to configure automatic extension updates in Tools > Options." :::
 
 The list under **Extensions excluded from automatic updates** shows the extensions that won't be updated automatically. You might use this to ensure the stability and consistency of the extensions you're using during a critical phase of your development lifecycle.
 
