@@ -2,6 +2,7 @@
 title: About GitHub Copilot Chat in Visual Studio
 description: Learn about the fully integrated GitHub Copilot Chat in Visual Studio. Use the chat interface to ask coding-related questions from right within the IDE.
 ms.date: 2/26/2025
+ms.update-cycle: 180-days
 ms.topic: overview 
 author: anandmeg
 ms.author: meghaanand

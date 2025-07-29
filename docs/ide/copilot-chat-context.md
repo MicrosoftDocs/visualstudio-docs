@@ -2,6 +2,7 @@
 title: 'Tips & Tricks for GitHub Copilot Chat in Visual Studio'
 description: Use slash commands, references, and threads to form better questions and get better answers with scoped context in GitHub Copilot Chat.
 ms.date: 6/16/2025
+ms.update-cycle: 180-days
 ms.topic: how-to 
 author: anandmeg
 ms.author: meghaanand
