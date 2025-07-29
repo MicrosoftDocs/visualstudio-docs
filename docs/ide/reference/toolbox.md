@@ -139,8 +139,6 @@ The **HTML** tab of the Toolbox provides components that are useful on web pages
 
 To create an instance of a tool on the **HTML** tab, either double-click the tool to add it to your document at the current insertion point, or select the tool and drag it to the desired position on the editing surface.
 
-### UI elements
-
 The following tools are available by default on the HTML tab.
 
 **Pointer**
@@ -349,8 +347,6 @@ Displays data objects you can add to a forms and components. The **Data** tab of
 
 > [!TIP]
 > Running the Data Source Configuration Wizard automatically creates and configures most data items. For more information, see [Add new data sources](../../data-tools/add-new-data-sources.md).
-
-### UI Element list
 
 To go directly to the .NET reference page for a component, press **F1** on the item in the **Toolbox** or on the component item in the tray of the designer.
 
