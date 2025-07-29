@@ -1,8 +1,8 @@
 ---
-title: Uninstall or remove Visual Studio
+title: Uninstall or Remove Visual Studio
 titleSuffix: ''
 description: Uninstall or remove your installation of Visual Studio along with its integrated suite of productivity tools for developers.
-ms.date: 06/18/2024
+ms.date: 08/01/2025
 ms.custom: vs-acquisition
 ms.topic: how-to
 f1_keywords:
