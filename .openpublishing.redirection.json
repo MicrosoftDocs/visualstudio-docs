@@ -1125,7 +1125,22 @@
       "redirect_url": "/visualstudio/help-viewer/find-topics",
       "redirect_document_id": false
     },
-        {
+    {
+      "source_path": "docs/ide/reference/choose-toolbox-items-wpf-components.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/choose-toolbox-items-wpf-components",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/options-dialog-box-visual-studio.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-dialog-box-visual-studio",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/web-browser-environment-options-dialog-box.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/web-browser-environment-options-dialog-box",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/reference/project-properties-reference.md",
       "redirect_url": "/visualstudio/ide/project-properties-reference",
       "redirect_document_id": false
