@@ -12,6 +12,7 @@ helpviewer_keywords:
 - builds [Visual Studio], events
 f1_keywords:
 - vb.ProjectPropertiesBuildEvents
+- vb.ProjectPropertiesBuildEventsBuilder
 author: ghogen
 ms.author: ghogen
 manager: mijacobs
