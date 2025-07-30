@@ -10,6 +10,7 @@ ms.subservice: general-ide
 dev_langs:
   - CSharp
   - VB
+ms.custom: sfi-image-nochange
 ---
 # Split or merge if statements
 

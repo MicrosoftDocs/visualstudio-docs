@@ -8,6 +8,7 @@ ms.topic: conceptual
 ms.date: 03/20/2025
 ms.author: ghogen
 monikerRange: ">= vs-2019"
+ms.custom: sfi-image-nochange
 ---
 
 # Add Azure Cosmos DB to your app by using Visual Studio Connected Services

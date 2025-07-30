@@ -9,6 +9,7 @@ ms.author: ghogen
 ms.manager: mijacobs
 
 ms.subservice: general-ide
+ms.custom: sfi-image-nochange
 ---
 # Create a GitHub account to use with Visual Studio
 

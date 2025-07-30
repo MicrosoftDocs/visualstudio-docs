@@ -8,6 +8,7 @@ ms.topic: conceptual
 ms.date: 10/30/2024
 ms.author: ghogen
 monikerRange: ">= vs-2019"
+ms.custom: sfi-image-nochange
 ---
 
 # Add a connection to an Azure SQL Database

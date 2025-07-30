@@ -9,6 +9,7 @@ ms.topic: how-to
 ms.date: 10/28/2021
 ms.author: ghogen
 monikerRange: ">=vs-2019"
+ms.custom: sfi-image-nochange
 ---
 
 # Deploy to Docker Hub

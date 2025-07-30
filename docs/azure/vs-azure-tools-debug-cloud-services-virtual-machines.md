@@ -7,6 +7,7 @@ ms.topic: how-to
 ms.date: 03/06/2024
 ms.author: mikejo
 ms.subservice: debug-diagnostics
+ms.custom: sfi-image-nochange
 ---
 
 # Debug an Azure Cloud Services (extended support) service in Visual Studio

@@ -6,6 +6,7 @@ manager: shve
 ms.date: 09/16/2024
 ms.topic: how-to
 description: Migrate assigned Visual Studio subscriptions from one agreement to another, and understand how the move affects subscription benefits and Azure credits.
+ms.custom: sfi-image-nochange
 ---
 
 # Migrate subscriptions from one agreement to another

@@ -10,6 +10,7 @@ ms.topic: how-to
 ms.date: 06/18/2024
 ms.author: ghogen
 monikerRange: ">=vs-2019"
+ms.custom: sfi-image-nochange
 ---
 
 # Publish a Cloud Services (classic) project to Cloud Services (extended support) by using Visual Studio

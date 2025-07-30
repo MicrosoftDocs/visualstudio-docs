@@ -12,8 +12,10 @@ manager: mijacobs
 ms.subservice: general-ide
 
 ms.topic: whats-new
-ms.custom: vs-acquisition
 monikerRange: vs-2019
+ms.custom:
+  - vs-acquisition
+  - sfi-image-nochange
 ---
 # What's new in Visual Studio 2019
 
