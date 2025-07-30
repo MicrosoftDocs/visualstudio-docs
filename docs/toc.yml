@@ -900,8 +900,6 @@
       href: ide/reference/command-prompt-powershell.md
     - name: Preview Changes
       href: ide/preview-changes.md
-    - name: Choose Toolbox items, WPF components
-      href: ide/reference/choose-toolbox-items-wpf-components.md
     - name: Command window
       href: ide/reference/command-window.md
     - name: Error List window
@@ -914,8 +912,6 @@
       href: ide/reference/miscellaneous-files.md
     - name: Options
       items:
-      - name: Options dialog box
-        href: ide/reference/options-dialog-box-visual-studio.md
       - name: Environment
         items:
         - name: General
@@ -940,8 +936,6 @@
           href: ide/reference/environment-preview-features-options.md
         - name: Trust Settings
           href: ide/reference/trust-settings.md
-        - name: Web Browser
-          href: ide/reference/web-browser-environment-options-dialog-box.md
         - name: Notifications window
           href: ide/reference/user-notifications-window.md
       - name: Projects and Solutions
@@ -950,8 +944,6 @@
           href: ide/reference/projects-and-solutions-options-dialog-box.md
         - name: Build and Run
           href: ide/reference/options-dialog-box-projects-and-solutions-build-and-run.md
-        - name: Locations
-          href: ide/reference/projects-solutions-locations-options.md
         - name: VC++ Project Settings
           href: ide/reference/vcpp-project-settings-projects-and-solutions-options-dialog-box.md
       - name: Text Editor
