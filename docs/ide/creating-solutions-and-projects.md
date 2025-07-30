@@ -12,6 +12,7 @@ author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide
+ms.custom: sfi-image-nochange
 
 #customer intent: As a developer, I want to learn how to create Visual Studio projects and solutions to store artifacts so that I can effectively manage my solutions.
 ---

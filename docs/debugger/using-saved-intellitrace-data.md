@@ -14,6 +14,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
+ms.custom: sfi-image-nochange
 ---
 # Using saved IntelliTrace data (C#, Visual Basic, C++)
 

@@ -1,7 +1,6 @@
 ---
 title: "Tutorial: Open project from repo in Visual Studio"
 description: In this tutorial, learn how to open a cloned project in a Git or Azure DevOps repository by using Visual Studio and view files in Solution Explorer.
-ms.custom: vs-acquisition
 ms.date: 12/19/2024
 ms.subservice: general-ide
 ms.topic: tutorial
@@ -10,6 +9,9 @@ ms.author: meghaanand
 manager: mijacobs
 dev_langs:
   - CSharp
+ms.custom:
+  - vs-acquisition
+  - sfi-image-nochange
 #customer intent: As a developer who works on projects in remote repositories, I want to learn how to integrate Visual Studio seamlessly with Git and Azure DevOps repositories.
 ---
 # Tutorial: Open a project from a repo

@@ -11,6 +11,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
+ms.custom: sfi-image-nochange
 ---
 # Learn productivity tips and tricks for the debugger in Visual Studio
 

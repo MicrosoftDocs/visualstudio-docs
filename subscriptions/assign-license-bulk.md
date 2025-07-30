@@ -6,6 +6,7 @@ manager: shve
 ms.date: 06/26/2025
 ms.topic: conceptual
 description: Assign multiple subscriptions to one or more users at the same time with the bulk operation features in the Subscriptions Admin Portal.
+ms.custom: sfi-image-nochange
 ---
 
 # Assign subscriptions to multiple users

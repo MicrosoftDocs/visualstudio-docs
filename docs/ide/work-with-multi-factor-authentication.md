@@ -8,6 +8,7 @@ author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide
+ms.custom: sfi-image-nochange
 ---
 
 # Sign in to Visual Studio with accounts that require multifactor authentication (MFA)

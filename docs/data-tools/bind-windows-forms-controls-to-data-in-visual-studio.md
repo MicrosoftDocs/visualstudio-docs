@@ -16,6 +16,7 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
+ms.custom: sfi-image-nochange
 ---
 
 # Bind Windows Forms controls to data in .NET Framework applications

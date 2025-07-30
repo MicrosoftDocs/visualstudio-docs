@@ -8,6 +8,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2022'
+ms.custom: sfi-image-nochange
 ---
 # Remote Debug ASP.NET Core on Azure App Service (Windows)
 

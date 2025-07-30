@@ -9,6 +9,7 @@ author: MikeJo5000
 ms.author: mikejo 
 manager: AndSter
 ms.subservice: debug-diagnostics
+ms.custom: sfi-image-nochange
 ---
 # Events viewer
 

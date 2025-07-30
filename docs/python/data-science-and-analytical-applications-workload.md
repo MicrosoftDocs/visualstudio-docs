@@ -7,6 +7,7 @@ author: cwebster-99
 ms.author: cowebster
 manager: mijacobs
 ms.subservice: python
+ms.custom: sfi-image-nochange
 
 # CustomerIntent: As a developer, I want to use the Data science and analytical applications workload in Visual Studio so I can work with multiple languages and runtime distributions.
 ---

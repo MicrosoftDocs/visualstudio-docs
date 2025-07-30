@@ -7,6 +7,7 @@ monikerRange: ">=vs-2022"
 ms.subservice: extensibility-integration
 ms.topic: overview
 ms.date: 05/09/2024
+ms.custom: sfi-image-nochange
 ---
 
 # Overview

@@ -9,11 +9,13 @@ helpviewer_keywords:
 - Toolbox, HTML tab
 - HTML Designer, setting options
 - HTML tab in Toolbox
-ms.custom: "ide-ref"
 author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
+ms.custom:
+  - "ide-ref"
+  - sfi-image-nochange
 ---
 # Toolbox, HTML tab
 

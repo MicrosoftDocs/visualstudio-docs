@@ -12,6 +12,7 @@ ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:
+ms.custom: sfi-ropc-nochange
 - CPP
 - CSharp
 ---
