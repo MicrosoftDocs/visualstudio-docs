@@ -12,6 +12,7 @@ helpviewer_keywords:
   - copilot chat context
   - context, copilot chat
 monikerRange: '>= vs-2022'
+ms.custom: sfi-image-nochange
 ---
 # Get better answers by setting the context for GitHub Copilot Chat in Visual Studio
 

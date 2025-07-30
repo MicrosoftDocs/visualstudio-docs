@@ -8,6 +8,7 @@ ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide
 monikerRange: ">=vs-2019"
+ms.custom: sfi-image-nochange
 ---
 # Add your GitHub accounts to your Visual Studio keychain
 

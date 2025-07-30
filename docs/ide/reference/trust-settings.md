@@ -1,7 +1,6 @@
 ---
 title: Trust Settings for files and folders
 description: Learn how to change trust settings for files and folders to keep Visual Studio secure.
-ms.custom: "ide-ref"
 author: ghogen
 ms.author: ghogen
 manager: mijacobs
@@ -16,6 +15,9 @@ helpviewer_keywords:
  - "mark of the web"
  - "trusted files"
  - "trusted folders"
+ms.custom:
+  - "ide-ref"
+  - sfi-image-nochange
 ---
 # Configure trust settings for files and folders
 

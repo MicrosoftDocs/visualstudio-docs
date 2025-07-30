@@ -11,6 +11,7 @@ ms.subservice: javascript-typescript
 monikerRange: 'vs-2019'
 dev_langs:
   - JavaScript
+ms.custom: sfi-image-nochange
 ---
 # Publish a Node.js application to Azure (Linux App Service)
 

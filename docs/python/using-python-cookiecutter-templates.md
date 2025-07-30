@@ -7,6 +7,7 @@ author: cwebster-99
 ms.author: cowebster
 manager: mijacobs
 ms.subservice: python
+ms.custom: sfi-image-nochange
 
 #customer intent: As a developer, I want to use the CookieCutter extension so that I can discover and use templates for Python code in Visual Studio.
 ---

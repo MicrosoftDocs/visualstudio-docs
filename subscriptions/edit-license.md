@@ -6,6 +6,7 @@ manager: shve
 ms.date: 01/28/2025
 ms.topic: how-to
 description: Learn how admins can edit subscription assignments.
+ms.custom: sfi-image-nochange
 ---
 
 # Edit Visual Studio subscription assignments

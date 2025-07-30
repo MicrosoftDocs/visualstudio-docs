@@ -9,6 +9,7 @@ author: therealjohn
 ms.author: johmil
 manager: crdun
 zone_pivot_groups: platform
+ms.custom: sfi-image-nochange
 ---
 # Use Visual Studio Tools for Unity
 

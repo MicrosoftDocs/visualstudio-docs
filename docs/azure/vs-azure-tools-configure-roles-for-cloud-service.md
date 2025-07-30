@@ -7,6 +7,7 @@ ms.subservice: azure-development
 ms.topic: how-to
 ms.date: 03/21/2017
 ms.author: ghogen
+ms.custom: sfi-image-nochange
 ---
 
 # Configure Azure Cloud Services (extended support) roles with Visual Studio

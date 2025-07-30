@@ -6,6 +6,7 @@ ms.author: ghogen
 ms.date: 10/23/2023
 ms.subservice: container-tools
 ms.topic: how-to
+ms.custom: sfi-image-nochange
 ---
 
 # Deploy an app into a container in Azure or Docker Hub

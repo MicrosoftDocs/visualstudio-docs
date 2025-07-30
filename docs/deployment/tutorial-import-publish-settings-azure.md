@@ -9,6 +9,7 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: deployment
+ms.custom: sfi-image-nochange
 ---
 # Get publish settings from Azure and import into Visual Studio
 

@@ -8,6 +8,7 @@ ms.topic: conceptual
 ms.date: 05/15/2023
 ms.author: ghogen
 monikerRange: ">= vs-2019"
+ms.custom: sfi-image-nochange
 ---
 
 # Add Azure SignalR by using Visual Studio Connected Services

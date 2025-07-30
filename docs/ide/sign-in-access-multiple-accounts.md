@@ -7,6 +7,7 @@ author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide
+ms.custom: sfi-image-nochange
 ---
 # Access multiple accounts associated with the Visual Studio sign-in account
 

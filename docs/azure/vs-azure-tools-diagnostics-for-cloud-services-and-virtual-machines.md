@@ -7,6 +7,7 @@ ms.subservice: azure-development
 ms.topic: conceptual
 ms.date: 03/06/2024
 ms.author: mikejo
+ms.custom: sfi-image-nochange
 ---
 
 # Set up diagnostics for Azure Cloud Services (extended support) and virtual machines

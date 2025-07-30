@@ -7,6 +7,7 @@ author: tinaschrepfer
 ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
+ms.custom: sfi-image-nochange
 ---
 # Shared colors for Visual Studio
 
