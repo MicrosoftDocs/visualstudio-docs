@@ -36,9 +36,9 @@ Follow these steps to adjust your Flask project to allow for further development
 
 1. In **Solution Explorer**, right-click your Flask project folder (_BasicProject_), and select **Add** > **New Folder**. 
 
-   ::: moniker range="vs-2022"
+   ::: moniker range=">=vs-2022"
 
-   :::image type="content" source="media/flask/vs-2022/step-02-add-hello-flask-folder.png" alt-text="Screenshot that shows how to add the Hello Flask folder in Visual Studio 2022." border="false" lightbox="media/flask/vs-2022/step-02-add-hello-flask-folder.png"::: 
+   :::image type="content" source="media/flask/vs-2022/step-02-add-hello-flask-folder.png" alt-text="Screenshot that shows how to add the Hello Flask folder in Visual Studio." border="false" lightbox="media/flask/vs-2022/step-02-add-hello-flask-folder.png"::: 
 
    ::: moniker-end
 
@@ -52,9 +52,9 @@ Follow these steps to adjust your Flask project to allow for further development
 
    1. Select **Add**.
 
-   ::: moniker range="vs-2022"
+   ::: moniker range=">=vs-2022"
 
-   :::image type="content" source="media/flask/vs-2022/step-02-add-init-file.png" alt-text="Screenshot that shows how to add the init python file in Visual Studio 2022." border="false" lightbox="media/flask/vs-2022/step-02-add-init-file.png"::: 
+   :::image type="content" source="media/flask/vs-2022/step-02-add-init-file.png" alt-text="Screenshot that shows how to add the init python file in Visual Studio." border="false" lightbox="media/flask/vs-2022/step-02-add-init-file.png"::: 
 
    ::: moniker-end
 
@@ -109,9 +109,9 @@ Follow these steps to adjust your Flask project to allow for further development
 
 1. Confirm your refactored Flask project structure looks like the following example:
 
-   ::: moniker range="vs-2022"
+   ::: moniker range=">=vs-2022"
 
-   :::image type="content" source="media/flask/vs-2022/step-02-project-structure.png" alt-text="Screenshot that shows the updated Flask project structure in Solution Explorer in Visual Studio 2022." border="false" lightbox="media/flask/vs-2022/step-02-project-structure.png"::: 
+   :::image type="content" source="media/flask/vs-2022/step-02-project-structure.png" alt-text="Screenshot that shows the updated Flask project structure in Solution Explorer in Visual Studio." border="false" lightbox="media/flask/vs-2022/step-02-project-structure.png"::: 
 
    ::: moniker-end
    ::: moniker range="<=vs-2019"
@@ -152,13 +152,13 @@ You can also set breakpoints at various parts of the code and follow the app sta
 
 After you refactor the code and test the updates, you can review and commit your changes to source control:
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 1. Save the changes to your project files, such as with the **Ctrl**+**S** keyboard shortcut.
 
 1. On the Git controls bar, select the uncommitted changes (pencil 5) to open the **Git Changes** window:
 
-   :::image type="content" source="media/flask/vs-2022/step-02-refactor-uncommitted-changes.png" alt-text="Screenshot that shows the uncommitted changes option on the Visual Studio 2022 status bar." border="false" lightbox="media/flask/vs-2022/step-02-refactor-uncommitted-changes.png"::: 
+   :::image type="content" source="media/flask/vs-2022/step-02-refactor-uncommitted-changes.png" alt-text="Screenshot that shows the uncommitted changes option on the Visual Studio status bar." border="false" lightbox="media/flask/vs-2022/step-02-refactor-uncommitted-changes.png"::: 
 
 1. In the **Git Changes** window, enter a commit message, and select **Commit All**: 
 

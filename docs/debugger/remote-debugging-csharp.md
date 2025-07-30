@@ -63,7 +63,7 @@ The debugger can't deploy Visual C# or Visual Basic desktop applications to a re
 
 4. On the **Properties** page, choose the **Debug** tab.
 
-    ::: moniker range="vs-2022"
+    ::: moniker range=">=vs-2022"
     For C# projects targeting .NET Core or .NET 5+, starting in Visual Studio 2022, choose the **Debug launch profiles UI** from the **Debug** tab to configure settings for remote debugging.
 
     ![Screenshot of the Debug launch profile UI in the Visual Studio Project Properties for C# and .NET.](../debugger/media/vs-2022/remote-debugger-csharp-launch-profile.png)

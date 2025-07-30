@@ -42,7 +42,7 @@ You can export an installation configuration file from a previously installed in
 
 1. Verify that your selections are accurate, and then choose **Export**.
 
-   ::: moniker range="vs-2022"
+   ::: moniker range=">=vs-2022"
 
       :::image type="content" source="media/vs-2022/export-configuration-confirmation-1.png" alt-text="Screenshot of the Export Window." lightbox="media/vs-2022/export-configuration-confirmation-1.png":::
 

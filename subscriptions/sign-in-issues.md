@@ -3,7 +3,7 @@ title: Troubleshooting suggestions for signing in to Visual Studio subscriptions
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 04/23/2025
+ms.date: 07/24/2025
 ms.topic: conceptual
 description: Review potential sign-in troubleshooting steps for Visual Studio subscriptions, including Microsoft Accounts (MSA) limitations, failures due to aliases or deleted addresses.
 ms.custom: sfi-image-nochange
@@ -85,7 +85,7 @@ If your admin changes the sign-in email address on your subscription, you should
 
 | Benefit Name | Use updated email address? | If subscriber hasn't activated the benefit yet | If subscriber activated with the previous sign-in email address | If the subscriber is using an alternate email address | 
 | ------------------------ | -------------------------- |--------------------------------- | --------------------------- |------------------------------------ |
-| Power BI Pro <br>Microsoft 365 apps for Enterprise <br>PARASOFT Virtualize/SOAtest Professional Desktop <br>WhiteSource Bolt <br>DataCamp - 3-month subscription <br>CODE Magazine | No | Use new sign-in email address to | Continue using the old email address for access. | N/A |
+| Power BI Pro <br>Microsoft 365 apps for Enterprise <br>DataCamp - 3-month subscription <br>CODE Magazine | No | Use new sign-in email address to | Continue using the old email address for access. | N/A |
 | Pluralsight <br>LinkedIn Learning <br>Dometrain <br>DevForge | No | Access can be created using any email address. Once it's created, it will not change even if an admin updates the subscriber's sign in email. | Access can be created using any email address. Once it's created, it will not change even if an admin updates the subscriber's sign in email. | Access can be created using any email address. Once it's created, it will not change even if an admin updates the subscriber's sign in email. |
 | Visual Studio LIVE! Events discount  | No | No email address is needed. | No email address is needed. | No email address is needed. |
 | GitHub Enterprise  | No\* | This benefit is set up by the GitHub admin in your org. Subscribers should use the email address where their invitation was sent. | This benefit is set up by the GitHub admin in your org. Subscribers should use the email address where their invitation was sent. | This benefit is set up by the GitHub admin in your org. Subscribers should use the email address where their invitation was sent.             |

@@ -308,10 +308,12 @@
       items:
       - name: Get started debugging multithreaded applications
         href: get-started-debugging-multithreaded-apps.md
+      - name: Debug an async application
+        href: walkthrough-debugging-a-parallel-application.md
+      - name: Debug a parallel application
+        href: debug-parallel-application.md
       - name: Debug using the Threads window
         href: how-to-use-the-threads-window.md
-      - name: Debug a parallel application
-        href: walkthrough-debugging-a-parallel-application.md
     - name: Tools to debug threads and processes
       items:
       - name: Use the Parallel Stacks window

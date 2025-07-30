@@ -172,7 +172,7 @@ To see the output outside of Visual Studio, in a system console window, build an
 
 ::: moniker-end
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 1. In the **Build** menu, choose **Build Solution**.
 

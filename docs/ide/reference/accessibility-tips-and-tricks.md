@@ -33,7 +33,7 @@ For some folks, certain colors are more difficult to see. If you want more contr
 
 :::image type="content" source="media/blue-extra-contrast-theme.png" alt-text="Screenshot that shows a comparison of the Blue theme and the Blue Extra Contrast theme.":::
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 > [!TIP]
 > To learn about the color contrast ratio adjustments and the new [Cascadia Code](../how-to-change-fonts-and-colors-in-visual-studio.md#use-the-cascadia-code-font) font we've added to make Visual Studio more accessible, see [We've upgraded the UI in Visual Studio 2022](https://devblogs.microsoft.com/visualstudio/weve-upgraded-the-ui-in-visual-studio-2022/).
@@ -101,7 +101,7 @@ When a notification appears in the IDE, here's how you can access the Notificati
 
 ## Assign audio cues to Visual Studio program events
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 Starting with [version 17.3](/visualstudio/releases/2022/release-notes-v17.3) and continuing in [version 17.4](/visualstudio/releases/2022/release-notes-v17.4) & later, you can add audio cues for program events directly within Visual Studio. Specifically, you can toggle a setting so that Visual Studio plays an audio cue when the caret in the editor arrives on a line with an error, breakpoint, or warning. When you view a file in the *Diff* view, Visual Studio can also play an audio cue when the caret arrives on a line that's been added or removed.
 

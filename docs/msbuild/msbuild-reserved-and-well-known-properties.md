@@ -91,7 +91,7 @@ The table in this section shows the MSBuild predefined properties. The example c
 | `WindowsSDK80Path` | Well-known | | |
 :::moniker-end
 
-:::moniker range="vs-2022"
+:::moniker range=">=vs-2022"
 
 | Property | Reserved or well-known | Description | Example |
 |----------------------------------|------------------------| - | - |

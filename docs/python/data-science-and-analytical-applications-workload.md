@@ -27,9 +27,9 @@ Python is a primary scripting language used for data science. Python is easy to 
 
 The Data science and analytical applications workload is available in the Visual Studio Installer under **Workloads** > **Other Toolsets**:
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
-:::image type="content" source="media/workload/data-science-workload-2022.png" alt-text="Screenshot that shows how to select the Data science and analytics applications workload in the Visual Studio Installer 2022." border="false" lightbox="media/workload/data-science-workload-2022.png":::
+:::image type="content" source="media/workload/data-science-workload-2022.png" alt-text="Screenshot that shows how to select the Data science and analytics applications workload in the Visual Studio Installer." border="false" lightbox="media/workload/data-science-workload-2022.png":::
 
 ::: moniker-end
 ::: moniker range="<=vs-2019"
@@ -66,9 +66,9 @@ You enjoy the following advantages by running your code where your data already 
 
 To take full advantage of SQL Server integration, use the Visual Studio Installer to install the **Workloads** > **Other Toolsets** > **Data storage and processing** workload. Select the **SQL Server Data Tools** option to enable SQL IntelliSense, syntax highlighting, and deployment:
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
-:::image type="content" source="media/workload/data-storage-workload-2022.png" alt-text="Screenshot that shows how to select the Data storage and processing workload in the Visual Studio Installer 2022." border="false" lightbox="media/workload/data-storage-workload-2022.png":::
+:::image type="content" source="media/workload/data-storage-workload-2022.png" alt-text="Screenshot that shows how to select the Data storage and processing workload in the Visual Studio Installer." border="false" lightbox="media/workload/data-storage-workload-2022.png":::
 
 ::: moniker-end
 ::: moniker range="<=vs-2019"

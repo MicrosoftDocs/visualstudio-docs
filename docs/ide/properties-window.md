@@ -79,5 +79,5 @@ Provides a Search function for properties and events when editing XAML files in 
 
 ## See also
 
-- [Project Properties Reference](../../ide/reference/project-properties-reference.md)
-- [Customizing window layouts](../../ide/customizing-window-layouts-in-visual-studio.md)
+- [Project Properties Reference](../ide/reference/project-properties-reference.md)
+- [Customizing window layouts](../ide/customizing-window-layouts-in-visual-studio.md)

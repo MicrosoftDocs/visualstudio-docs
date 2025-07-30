@@ -25,19 +25,19 @@ Visual Studio includes two command-line shells for developers, a command prompt 
     :::image type="content" source="media/developer-command-prompt-for-vs/command-prompt.png" alt-text="Screenshot of the Developer Command Prompt for Visual Studio 2019 showing clrver tool.":::
     ::: moniker-end
 
-    ::: moniker range="vs-2022"
-    :::image type="content" source="media/developer-command-prompt-for-vs/developer-command-prompt-visual-studio-2022.png" alt-text="Screenshot of the Developer Command Prompt for Visual Studio 2022 that shows the clrver tool.":::
+    ::: moniker range=">=vs-2022"
+    :::image type="content" source="media/developer-command-prompt-for-vs/developer-command-prompt-visual-studio-2022.png" alt-text="Screenshot of the Developer Command Prompt for Visual Studio that shows the clrver tool.":::
     ::: moniker-end
 
 - **Visual Studio Developer PowerShell** - More powerful than a command prompt. For example, you can pass the output of one command (known as a *cmdlet*) to another cmdlet. This shell has the same environment variables set as Developer Command Prompt. Available since Visual Studio 2019.
 
-    ::: moniker range="vs-2022"
-    :::image type="content" source="media/developer-command-prompt-for-vs/developer-powershell-visual-studio-2022.png" alt-text="Screenshot of the Developer PowerShell tool in Visual Studio 2022.":::
+    ::: moniker range=">=vs-2022"
+    :::image type="content" source="media/developer-command-prompt-for-vs/developer-powershell-visual-studio-2022.png" alt-text="Screenshot of the Developer PowerShell tool in Visual Studio 2022 and later.":::
     ::: moniker-end
 
 Starting in [Visual Studio 2019](https://devblogs.microsoft.com/visualstudio/say-hello-to-the-new-visual-studio-terminal/), Visual Studio includes an integrated **terminal** that can host either of these shells (Developer Command Prompt and Developer PowerShell). You can also open multiple tabs of each shell. The Visual Studio terminal is built on top of [Windows Terminal](/windows/terminal/). To open the terminal in Visual Studio, select **View** > **Terminal**.
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 :::image type="content" source="media/developer-command-prompt-for-vs/visual-studio-2022-terminal-window.png" alt-text="Screenshot of the Visual Studio terminal pane that shows multiple tabs.":::
 ::: moniker-end
 
@@ -72,8 +72,8 @@ Follow these steps to open Developer Command Prompt or Developer PowerShell from
 
 1. On the menu bar, select **Tools** > **Command Line** > **Developer Command Prompt** or **Developer PowerShell**.
 
-    ::: moniker range="vs-2022"
-    :::image type="content" source="media/developer-command-prompt-for-vs/visual-studio-2022-command-line-menu.png" alt-text="Screenshot of the Command Line menu in Visual Studio 2022.":::
+    ::: moniker range=">=vs-2022"
+    :::image type="content" source="media/developer-command-prompt-for-vs/visual-studio-2022-command-line-menu.png" alt-text="Screenshot of the Command Line menu in Visual Studio 2022 and later.":::
     ::: moniker-end
 
     ::: moniker range="vs-2019" 
@@ -236,7 +236,7 @@ For Developer PowerShell, the starting directory of the shell is the Visual Stud
 The Project Location can be adjusted in **Tools** > **Options** > **Projects &amp; Solutions** > **Project Location**.
 ::: moniker-end
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 The Project Location can be adjusted in **Tools** > **Options** > **Projects &amp; Solutions** > **Locations**.
 ::: moniker-end
 

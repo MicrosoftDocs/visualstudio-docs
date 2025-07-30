@@ -3,7 +3,7 @@ title: Azure DevOps benefits eligibility for subscribers
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 09/11/2024
+ms.date: 07/23/2025
 ms.topic: conceptual
 description: Check if your Visual Studio subscription level makes you eligible for Azure DevOps benefits in each organization in which you're a member.
 ---
@@ -16,7 +16,6 @@ As an active Visual Studio subscriber, you can use a range of features in Azure 
    > [!div class="mx-imgBorder"]
    > ![Azure DevOps Tile](_img/vs-azure-devops/vs-azure-devops-tile.png "Screenshot of the Azure DevOps tile.  The Get started button is highlighted.")
 
-   
 When you sign in to Azure DevOps using either the identity that you used for activating your Visual Studio subscription or your [alternate identity](vs-alternate-identity.md), we recognize you automatically.  This way you can also add the work or school account you use when logging into Visual Studio, Microsoft 365, or your corporate or school network.  You have access to Azure DevOps using both your personal account and your work or school account.
 
 [Sign up for a free Azure DevOps organization](https://visualstudio.microsoft.com/team-services/)
@@ -34,7 +33,7 @@ When you sign in to Azure DevOps using either the identity that you used for act
 ||
 
 <sup>1</sup>  *Includes:  Not for Resale (NFR - including ISV, Alumni and others), Most Valuable Professional (MVP), Regional Director (RD), Visual Studio Industry Partner (VSIP), Microsoft Cloud Partner Program (Enterprise), BizSpark, MCT Software & Services Developer, FTE.
-  Excludes: MCT Software & Services, Imagine.*
+  Excludes: Imagine.*
 
 <sup>2</sup> *Basic plan includes defining release pipelines and multi-stage continuous deployment (CD) pipelines, and using approvals and gates to control deployments; when the Free access to Pipelines Preview feature is enabled, Stakeholders gain access to all Azure Pipelines features.*
 

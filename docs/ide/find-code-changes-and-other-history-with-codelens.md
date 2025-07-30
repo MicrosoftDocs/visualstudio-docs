@@ -16,7 +16,7 @@ ms.custom: sfi-image-nochange
 
 # Find code changes and other history with CodeLens
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 Visual Studio CodeLens helps you stay focused on your work while you find out what happened to your code - all without leaving the Interactive Development Environment (IDE) code editor. You can find references to a piece of code, changes to your code, linked bugs, Azure DevOps work items, code reviews, and unit tests.
 

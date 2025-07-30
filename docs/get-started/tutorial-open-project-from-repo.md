@@ -28,11 +28,11 @@ In this tutorial, you learn how to:
 
 - If you don't have Visual Studio yet, go to [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) to install it for free.
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 ## Open a project from a GitHub repo
 
-Visual Studio makes it easy to open a project from a repo. You can do so when you start Visual Studio, or you can do so directly from within the [Visual Studio IDE](visual-studio-ide.md?view=vs-2022&preserve-view=true).
+Visual Studio makes it easy to open a project from a repo. You can do so when you start Visual Studio, or you can do so directly from within the [Visual Studio IDE](visual-studio-ide.md).
 
 Here's how.
 
@@ -313,7 +313,7 @@ For more information, see:
 
 ::: moniker-end
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 - [About Git in Visual Studio](../version-control/git-with-visual-studio.md)
 - [Brpwse a repo](../version-control/git-browse-repository.md)

@@ -16,11 +16,11 @@ ms.subservice: general-ide
 ---
 # Settings page, Project Designer
 
-Use the **Settings** page of the [Project Designer](project-properties-reference.md) to specify a project's application settings. Application settings enable you to store and retrieve property settings and other information for your application dynamically. They also enable you to maintain custom application and user preferences on a client computer. For more information, see [Manage application settings](../managing-application-settings-dotnet.md).
+Use the **Settings** page of the [Project Designer](../ide/reference/project-properties-reference.md) to specify a project's application settings. Application settings enable you to store and retrieve property settings and other information for your application dynamically. They also enable you to maintain custom application and user preferences on a client computer. For more information, see [Manage application settings](managing-application-settings-dotnet.md).
 
-To access the **Settings** page, select a [project node](../use-solution-explorer.md#solution-explorer-context-menu) in **Solution Explorer**, and then use the right-click context menu to select **Properties**. When the Project Designer appears, select the **Settings** tab.
+To access the **Settings** page, select a [project node](use-solution-explorer.md#solution-explorer-context-menu) in **Solution Explorer**, and then use the right-click context menu to select **Properties**. When the Project Designer appears, select the **Settings** tab.
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 In **Settings** tab, you'll see a **Create or open application settings** link.
 
@@ -70,7 +70,7 @@ For Visual Basic projects, the access modifier can be **Friend** or **Public**.
 
 By default, the setting is **Internal** in C# and **Friend** in Visual Basic. When Visual Studio generates helper classes as **Internal** or **Friend**, executable (*.exe*) applications cannot access the resources and settings that you have added to class libraries (*.dll* files). If you have to share resources and settings from a class library, set the access modifier to **Public**.
 
-For more information about the settings helper classes, see [Manage application settings](../managing-application-settings-dotnet.md).
+For more information about the settings helper classes, see [Manage application settings](managing-application-settings-dotnet.md).
 
 ## Settings grid
 
@@ -101,5 +101,5 @@ The data or value associated with the application setting. For example, if the s
 
 ## See also
 
-- [Manage application settings](../managing-application-settings-dotnet.md)
+- [Manage application settings](managing-application-settings-dotnet.md)
 - [Access application settings (Visual Basic)](/dotnet/visual-basic/developing-apps/programming/app-settings/accessing-application-settings)

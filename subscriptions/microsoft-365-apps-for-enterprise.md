@@ -3,7 +3,7 @@ title: Microsoft 365 apps for enterprise in subscriptions
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 09/16/2024
+ms.date: 07/23/2025
 ms.topic: how-to
 description: Activate and access Microsoft 365 apps for enterprise in Visual Studio subscriptions, and find answers to frequently asked questions.
 ms.custom: sfi-image-nochange
@@ -16,7 +16,7 @@ Microsoft 365 apps for enterprise (formerly Office 365 Pro Plus) is available in
 Create your best work. Work anywhere with apps that are always updated. Microsoft 365 apps for enterprise is a subscription that comes with premium apps like Word, Excel, PowerPoint, OneNote, Outlook, Publisher, and Access. (Publisher and Access available on PC only). The apps can be installed on multiple devices, including PCs, Macs, iPads, iPhones, Android tablets, and Android phones. With a subscription, you get the latest versions of the apps and automatically receive updates when they happen.
 
 > [!NOTE]
-> When it's included in your Visual Studio subscription, you're licensed to use Microsoft 365 apps for enterprise for production use.  The term of the subscription is 12 months, so if the term of your Visual Studio subscription is longer than one year, the Microsoft 365 apps for enterprise offer may expire before you reach the end of your subscription, depending on when you activated the benefit.
+> When it's included in your Visual Studio subscription, you're licensed to use Microsoft 365 apps for enterprise for production use. The subscription lasts for 12 months, so if your Visual Studio subscription runs longer than one year, the Microsoft 365 apps for enterprise offer might expire before your subscription ends, depending on the activation date of the benefit.
 
 ## Activation steps
 
@@ -64,26 +64,25 @@ The process for activating your Microsoft 365 apps for enterprise subscription i
 | Visual Studio Dev Essentials | my.visualstudio.com | Not available | N/A |
 |  |
 
-
-\* Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), Microsoft Cloud Partner Network (formerly MPN), FTE, MCT Software & Services Developer, BizSpark, Most Valuable Professional (MVP), Regional Director (RD), MCT Software & Services, Imagine, Microsoft Partner Network.*
+\* Includes: Not for Resale (NFR), Visual Studio Industry Partner (VSIP), Microsoft Cloud Partner Network (formerly MPN), FTE, MCT Software & Services Developer, Most Valuable Professional (MVP), Regional Director (RD), Imagine, Microsoft Partner Network.*
 
 > [!NOTE]
-> M365 apps for enterprise is no longer included in Visual Studio Dev Essentials memberships.  
+> Microsoft 365 apps for enterprise is no longer included in Visual Studio Dev Essentials memberships.  
 
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
 
-Not sure which subscription you're using? Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your sign-in email address. If you don't see all your subscriptions, you may have one or more assigned to a different sign-in email address. You need to sign in with that email address to see those subscriptions.
+Not sure which subscription you're using? Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your sign-in email address. If you don't see all your subscriptions, you might have one or more assigned to a different sign-in email address. You need to sign in with that email address to see those subscriptions.
 
 ## Frequently asked questions
 
 ### Q: I have a three year Visual Studio subscription. Is the Microsoft 365 apps for Enterprise benefit available for the full length of that subscription?
-A:  No.  The Microsoft 365 offer is a 12-month trial.  You can activate it at any time within the term of your Visual Studio subscription. 
+A:  No. The Microsoft 365 offer is a 12-month trial. You can activate it at any time within the term of your Visual Studio subscription. 
 
 ## Support resources
 
 + For technical support with any component of Microsoft 365 apps for enterprise, visit https://support.microsoft.com/all-products and select the product.
-+ For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://aka.ms/vssubscriberhelp).
++ For assistance with sales, subscriptions, accounts, and billing for Visual Studio Subscriptions, contact Visual Studio [Subscriptions Support](https://aka.ms/vssubscriberhelp).
 + Have a question about Visual Studio IDE, Azure DevOps or other Visual Studio products or services?  Visit [Visual Studio Support](https://visualstudio.microsoft.com/support/).
 
 ## See also
@@ -95,7 +94,7 @@ A:  No.  The Microsoft 365 offer is a 12-month trial.  You can activate it at an
 
 ## Next steps
 
-Be sure to activate these great benefits to make the most of your Visual Studio subscription:
+To make the most of your Visual Studio subscription, activate these great benefits:
 + [Visual Studio](vs-ide-benefit.md)
 + [Azure DevOps](vs-azure-devops.md)
 + [Azure DevTest offer / credits](/azure/devtest/offer/)

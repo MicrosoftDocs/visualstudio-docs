@@ -3,7 +3,7 @@ title: Get started in the subscription portal
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 04/28/2025
+ms.date: 07/24/2025
 ms.topic: overview
 description: Explore the full range of benefits available with your Visual Studio subscriptions from the subscription portal, including tools, services, and partner offers.
 ---
@@ -34,7 +34,7 @@ The Tools category is where you find the core development tools, such as the Vis
 
 ### Professional Development
 
-This category contains benefits such as online training from Microsoft and our partners, as well as a subscription to MSDN Magazine, all to help you advance your development skills and stay abreast of all things code.
+This category contains benefits such as online training from Microsoft and our partners, as well as a subscription to CODE Magazine, all to help you advance your development skills and stay abreast of all things code.
 
 ### Support
 
