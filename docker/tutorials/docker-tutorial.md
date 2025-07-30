@@ -7,6 +7,7 @@ ms.author: ghogen
 ms.service: vs-code
 ms.topic: tutorial 
 ms.date: 05/30/2024
+ms.custom: sfi-image-nochange
 # Agreed with Docker Inc. to provide this content. Contact is: nebuk89. Mike Morton has context on MSFT side, but has moved on to another role. 
 ---
 

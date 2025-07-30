@@ -11,6 +11,7 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
+ms.custom: sfi-image-nochange
 ---
 
 # Connect to an Access database in .NET Framework applications

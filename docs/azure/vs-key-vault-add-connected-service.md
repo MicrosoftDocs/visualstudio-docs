@@ -4,10 +4,12 @@ titleSuffix: ""
 description: Use this tutorial to help you learn how to add Key Vault support to an ASP.NET or ASP.NET Core web application.
 author: ghogen
 manager: mijacobs
-ms.custom: devx-track-csharp
 ms.topic: how-to
 ms.date: 10/30/2024
 ms.author: ghogen
+ms.custom:
+  - devx-track-csharp
+  - sfi-image-nochange
 ---
 
 # Add Key Vault to your web application by using Visual Studio Connected Services

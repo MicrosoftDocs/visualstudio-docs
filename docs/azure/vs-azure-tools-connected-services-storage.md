@@ -7,6 +7,7 @@ ms.subservice: azure-development
 ms.topic: how-to
 ms.date: 10/17/2024
 ms.author: ghogen
+ms.custom: sfi-image-nochange
 ---
 
 # Adding Azure Storage by using Visual Studio Connected Services

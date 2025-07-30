@@ -9,6 +9,9 @@ author: alexwolfmsft
 ms.author: alexwolf
 ms.subservice: deployment
 monikerRange: '>= vs-2022'
+ms.custom:
+  - sfi-ropc-nochange
+  - sfi-image-nochange
 ---
 
 # Tutorial: Deploy an ASP.NET Core app and Database to Azure Container Apps using GitHub Actions

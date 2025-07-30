@@ -7,6 +7,7 @@ ms.topic: how-to
 ms.date: 04/17/2025
 ms.subservice: container-tools
 monikerRange: ">=vs-2019"
+ms.custom: sfi-image-nochange
 
 #customer intent: As a Visual Studio developer, I want to learn how to use the Containers window so I can quickly and easily view and interact with my container projects.
 

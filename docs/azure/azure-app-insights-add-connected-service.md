@@ -7,6 +7,9 @@ ms.subservice: azure-development
 ms.topic: how-to
 ms.date: 07/01/2025
 ms.author: ghogen
+ms.custom:
+  - sfi-ropc-nochange
+  - sfi-image-nochange
 #customer intent: As a developer, I want to use Connected Services in Visual Studio, so I can connect Application Insights to my application.
 ---
 

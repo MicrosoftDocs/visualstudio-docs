@@ -7,6 +7,7 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: msbuild
+ms.custom: sfi-image-nochange
 ---
 # Troubleshoot assembly references
 

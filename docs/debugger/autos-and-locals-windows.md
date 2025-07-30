@@ -14,6 +14,7 @@ ms.author: mikejo
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ms.collection: ce-skilling-ai-copilot
+ms.custom: sfi-image-nochange
 ---
 
 # Inspect variables and return values in the Visual Studio debugger

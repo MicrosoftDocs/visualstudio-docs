@@ -7,6 +7,7 @@ author: cwebster-99
 ms.author: cowebster
 manager: mijacobs
 ms.subservice: python
+ms.custom: sfi-image-nochange
 
 #customer intent: As a developer, I want to publish a Python web application directly to Azure App Service from Visual Studio on Linux, including the necessary content for the web.config file.
 ---

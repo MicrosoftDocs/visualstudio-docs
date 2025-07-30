@@ -6,6 +6,7 @@ manager: shve
 ms.date: 04/25/2025
 ms.topic: overview
 description: Purchase (rent) Visual Studio Professional or Visual Studio Enterprise on a month-to-month or annual basis, with no long-term contract.
+ms.custom: sfi-image-nochange
 ---
 
 # Buy Visual Studio Professional and Visual Studio Enterprise cloud subscriptions

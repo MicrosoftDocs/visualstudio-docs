@@ -7,6 +7,7 @@ ms.author: ghogen
 ms.date: 7/24/2025
 ms.subservice: container-tools
 ms.topic: quickstart
+ms.custom: sfi-image-nochange
 monikerRange: vs-2019
 ---
 

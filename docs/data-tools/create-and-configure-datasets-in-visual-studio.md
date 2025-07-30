@@ -8,6 +8,7 @@ ms.subservice: data-tools
 ms.topic: how-to
 ms.date: 03/04/2025
 helpviewer_keywords:
+ms.custom: sfi-image-nochange
 - typed datasets, creating
 - datasets, creating
 - datasets, configuring

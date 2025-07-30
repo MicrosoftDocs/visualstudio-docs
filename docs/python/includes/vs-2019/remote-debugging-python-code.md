@@ -11,6 +11,7 @@ ms.subservice: python
 ms.workload:
   - python
   - data-science
+ms.custom: sfi-image-nochange
 ---
 
 In this article, you explore how to configure your Visual Studio installation to support debugging Python code on remote Linux computers. This walkthrough is based on Visual Studio 2019 version 16.6.

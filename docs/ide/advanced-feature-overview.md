@@ -1,13 +1,15 @@
 ---
 title: Explore advanced features for developers
 description: Learn about the advanced features that might be more appropriate for experienced developers, or those developers who are already familiar with Visual Studio.
-ms.custom: vs-acquisition
 ms.date: 8/19/2023
 ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide
+ms.custom:
+  - vs-acquisition
+  - sfi-image-nochange
 ---
 # Features of Visual Studio
 

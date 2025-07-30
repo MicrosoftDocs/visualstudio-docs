@@ -11,6 +11,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2019'
+ms.custom: sfi-image-nochange
 ---
 
 # Attach to a process running on a Docker container
