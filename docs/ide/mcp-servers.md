@@ -15,7 +15,7 @@ monikerRange: '>= vs-2022'
 Model Context Protocol (MCP) is an open standard that enables AI models to interact with external tools and services through a unified interface. In Visual Studio, MCP support enhances GitHub Copilot's agent mode by allowing you to connect any MCP-compatible server to your agentic coding workflow. This article guides you through setting up MCP servers and using tools with agent mode in Visual Studio.
 
 ## Prerequisites
-+ [Visual Studio 2022 version 17.14](/visualstudio/releases/2022/release-history) or later.
++ [Visual Studio 2022 version 17.14](/visualstudio/releases/2022/release-history) or later. The latest servicing release of 17.14 is highly recommended as MCP features are actively being added with each release.
 
 ## How do MCP and Visual Studio extend GitHub Copilot's agent?
 
@@ -29,54 +29,33 @@ By standardizing this interaction, MCP eliminates the need for custom integratio
 
 ## Configuration example with GitHub MCP server
 
-1. Create a new file: `<SOLUTIONDIR>\.mcp.json`. Using Visual Studio to edit this file is recommended so its JSON schema is automatically applied.
+The following walkthrough requires 17.14.9 or later.
+
+1. Create a new file: `<SOLUTIONDIR>\.mcp.json` or `%USERPROFILE%\.mcp.json`. Using Visual Studio to edit this file is recommended so its JSON schema is automatically applied.
 2. Paste the following contents into the `.mcp.json` file
 
   ```json
   {
-    "inputs": [
-      {
-        "id": "github_pat",
-        "description": "GitHub personal access token",
-        "type": "promptString",
-        "password": true
-      }
-    ],
     "servers": {
       "github": {
-        "type": "stdio",
-        "command": "docker",
-        "args": [
-          "run",
-          "-i",
-          "--rm",
-          "-e",
-          "GITHUB_PERSONAL_ACCESS_TOKEN",
-          "ghcr.io/github/github-mcp-server"
-        ],
-        "env": {
-          "GITHUB_PERSONAL_ACCESS_TOKEN": "${input:github_pat}"
-        }
+        "url": "https://api.githubcopilot.com/mcp/"
       }
     }
   }
   ```
 
-3. Get a Personal Access Token for your [GitHub Account](https://github.com/settings/personal-access-tokens)
-4. In Visual Studio, click the `Ask` dropdown in the GitHub Copilot Chat window, and then select `Agent`.
+3. Save the file, then activate the CodeLens that appears over the new server to authenticate to this server using a GitHub account.
+
+5. In Visual Studio, click the `Ask` dropdown in the GitHub Copilot Chat window, and then select `Agent`.
 
     :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-dropdown.png" alt-text="Screenshot that shows Copilot agent mode selector." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-dropdown.png":::
 
-5. When prompted, paste your personal access token into the dialog.
-
-    :::image type="content" source="media/vs-2022/mcp-servers/model-context-protocol-personal-access-token.png" alt-text="Screenshot that shows entering the personal access token." lightbox="media/vs-2022/mcp-servers/model-context-protocol-personal-access-token.png":::
-
-6. Select the tools you'd like to use, for example, `list_issues`
+7. Select the tools you'd like to use, for example, `list_issues`
 
     :::image type="content" source="media/vs-2022/mcp-servers/model-context-protocol-github-tools-list.png" alt-text="Screenshot that shows MCP GitHub tools." lightbox="media/vs-2022/mcp-servers/model-context-protocol-github-tools-list.png":::
 
-7. Try a sample prompt: `list issues assigned to me on GitHub`
-8. Copilot asks for permission to use a tool made available to it by the MCP server, select **Allow** with the scope you wish to proceed with.
+8. Try a sample prompt: `list issues assigned to me on GitHub`
+9. Copilot asks for permission to use a tool made available to it by the MCP server, select **Allow** with the scope you wish to proceed with.
 
     :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-tool-approval.png" alt-text="Screenshot that shows the agent tools confirmation options." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-tool-approval.png":::
 
