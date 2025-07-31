@@ -1,7 +1,7 @@
 ---
 title: 'Tips & Tricks for GitHub Copilot Chat in Visual Studio'
 description: Use slash commands, references, and threads to form better questions and get better answers with scoped context in GitHub Copilot Chat.
-ms.date: 6/16/2025
+ms.date: 7/31/2025
 ms.topic: how-to 
 author: anandmeg
 ms.author: meghaanand
@@ -21,9 +21,6 @@ In this article, you learn how to get better answers by providing more informati
 + Use [slash commands](#slash-commands) to quickly specify common tasks like `/explain` to get code explanations.
 + Use the [guided chat experience](#prompting-guidance) and [custom instructions](#enable-custom-instructions) to refine context.
 + [Attach images](#attach-images) to your prompt to provide additional context and better illustrate your ideas.
-+ Scope the chat to specific files using [references](#reference).
-+ Review the [source used](#find-context) by Copilot to generate the answer.
-+ Use different [threads](#threads) for each of your Copilot chats so you can maintain different contexts in each.
 
 Learn more about [AI-assisted development in Visual Studio](../ide/ai-assisted-development-visual-studio.md) and how to [use Copilot Chat in Visual Studio](../ide/visual-studio-github-copilot-chat.md#use-copilot-chat-in-visual-studio).
 
@@ -32,7 +29,7 @@ Learn more about [AI-assisted development in Visual Studio](../ide/ai-assisted-d
 To get started using GitHub Copilot Chat in Visual Studio, you need:
 + Visual Studio 2022 [version 17.10](/visualstudio/releases/2022/release-history) or later
 + [Sign in to Visual Studio using a GitHub account](work-with-github-accounts.md) with [Copilot access](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot) <br/>
-  <sup>**</sup> You can use [GitHub Copilot for Free](copilot-free-plan.md).
+  <sup>**</sup> You can sign up for [GitHub Copilot for Free](copilot-free-plan.md).
 
 Support for GitHub Copilot Chat will be provided by GitHub and can be reached at https://support.github.com.
 
@@ -80,7 +77,7 @@ You can use slash commands in a [chat window](visual-studio-github-copilot-chat.
 | /generate | Generate code to answer specified question. <br> Example: `/generate code to add two numbers in Calculator.cs`| Yes | Yes | 
 | /help | Get help on using Copilot Chat. <br> Example: `/help`| Yes | Yes | 
 | /optimize | Analyze and improve running time of the selected code. <br> Examples:<br> - `/optimize the AddItemToBasket method in BasketService.cs`</br>- select desired code and enter `/optimize`| Yes | Yes |
-| /tests| Create unit tests for the selected code.<br>  Example: select desired code and enter `/tests using XUnit Framework`| Yes | Yes | 
+| /tests| Create unit tests for the selected code.<br>  Example: select desired code and enter `/tests using XUnit Framework`| Yes | Yes |
 
 :::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-context-slash-commands.png" alt-text="Screenshot of slash commands in inline chat view and chat windows.":::
 
@@ -88,7 +85,7 @@ With Visual Studio 2022 version 17.13, as the user types a slash command, the co
 
 ## <a name="attach-images"></a>Attach images to a chat prompt
 
-With vision integration for Copilot Chat in Visual Studio 17.14 Preview 1 and later, you can [attach images](visual-studio-github-copilot-chat.md#attach-images-to-chat-prompts) to your chat prompt, providing Copilot with additional context for improved responses. Use images in combination with [scope](#reference) and other contextual features such as slash commands to generate tailored responses.
+With vision integration for Copilot Chat in Visual Studio 17.14 and later, you can [attach images](visual-studio-github-copilot-chat.md#attach-images-to-chat-prompts) to your chat prompt, providing Copilot with additional context for improved responses. Use images in combination with [scope](copilot-chat-referencing-context.md#reference-context) and other contextual features such as slash commands to generate tailored responses.
 
 In the following example, Copilot interprets the attached image to generate a plan and suggest code to create a colorful Breakout game from scratch.
 

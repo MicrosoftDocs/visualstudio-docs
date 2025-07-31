@@ -30,13 +30,13 @@ Visual Studio automatically provides context to the chat prompt based on your cu
 
 The following information is implicitly included in the chat context:
 - The currently selected text in the active editor.
-- The file name or notebook name of the active editor.
+- The current file active in the editor.
 
-The actual contents of the active file are not included in the context, but are shown as a suggested context item in the chat input box (indicated with italic text and a dotted outline). Depending on your prompt, Visual Studio might decide to read the contents of the active file. To explicitly include the contents of the active file in the chat context, select the suggested file in the chat input box.
+Depending on your prompt, Copilot reads the contents of the active file. To explicitly include the contents of another file in the chat context, select the suggested file using the `+` button in the chat view to **Add attachment**.
 
 :::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-implicit-context.png" alt-text="Screenshot of implicit context in Copilot Chat.":::
 
-## Reference: scope Copilot results
+## <a name="reference-context"></a>Reference: scope Copilot results
 
 You can ask your coding related questions in natural language and GitHub Copilot Chat will answer these in the context of the codebase open in Visual Studio. With references you can get more specific about the information you want Copilot to consider when answering your question.
 
@@ -67,6 +67,14 @@ Use *@workspace* to refer to the solution active in the IDE for context. When us
 With Visual Studio 2022 version 17.11, [GitHub Copilot Enterprise](https://docs.github.com/en/enterprise-cloud@latest/copilot/about-github-copilot/subscription-plans-for-github-copilot) subscribers can now use `@github` in chat to include context from their entire repository and to search the web (if [search is enabled by your admin](https://docs.github.com/en/enterprise-cloud@latest/copilot/managing-copilot/managing-copilot-for-your-enterprise/managing-policies-and-features-for-copilot-in-your-enterprise#give-copilot-access-to-bing)). To learn more about the collection of GitHub-specific skills that Copilot can use to answer your question when using `@github`, see [Using GitHub skills for Copilot](https://docs.github.com/en/enterprise-cloud@latest/copilot/using-github-copilot/asking-github-copilot-questions-in-your-ide?tool=visualstudio#using-github-skills-for-copilot-preview).
 
 :::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-context-at-github.png" alt-text="Screenshot of using GitHub skills in Copilot Chat.":::
+
+## <a name="attach-images"></a>Reference an image
+
+With vision integration for Copilot Chat in Visual Studio 17.14 and later, you can [attach images](visual-studio-github-copilot-chat.md#attach-images-to-chat-prompts) to your chat prompt, providing Copilot with additional context for improved responses. Use images in combination with [scope](#reference-context) and other contextual features such as [slash commands](copilot-chat-context.md#slash-commands) to generate tailored responses.
+
+In the following example, Copilot interprets the attached image to generate a plan and suggest code to create a colorful Breakout game from scratch.
+
+:::image type="content" source="media/vs-2022/visual-studio-github-copilot-chat/example-attach-image-chat.png" alt-text="Screenshot of an example scenario of adding an image in Copilot Chat." lightbox="media/vs-2022/visual-studio-github-copilot-chat/example-attach-image-chat.png" :::
 
 ### Reference output window
 
