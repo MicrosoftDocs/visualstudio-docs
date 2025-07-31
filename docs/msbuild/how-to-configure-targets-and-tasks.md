@@ -29,7 +29,7 @@ The following `UsingTask` attributes affect all operations of a task in a partic
 <UsingTask TaskName="SimpleTask"
     Runtime="CLR2"
     Architecture="x86"
-    AssemblyFile="$(MSBuildToolsPath)\Microsoft.Build.Tasks.v3.5.dll" />
+    AssemblyFile="$(MSBuildToolsPath)\Microsoft.Build.Tasks.Core.dll" />
 ```
 
 You can also use the `MSBuildRuntime` and `MSBuildArchitecture` parameters to set the target context of an individual task invocation.
@@ -84,7 +84,7 @@ By default, MSBuild handles UsingTask's as "first one wins." Starting in 17.2, M
 
 ## Task factories
 
-THe following table shows the task factories provided by the MSBuild installation:
+The following table shows the task factories provided by the MSBuild installation:
 
 | Task factory | Description |
 | - | - |

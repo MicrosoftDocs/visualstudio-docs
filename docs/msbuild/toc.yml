@@ -92,10 +92,8 @@ items:
         items:
         - name: MSBuild inline tasks
           href: msbuild-inline-tasks.md
-        - name: 'Walkthrough: Creating an inline task'
-          href: walkthrough-creating-an-inline-task.md
-      - name: MSBuild inline tasks with RoslynCodeTaskFactory
-        href: msbuild-roslyncodetaskfactory.md
+        - name: Create an inline task
+          href: msbuild-roslyncodetaskfactory.md
     - name: Comparing properties and items
       href: comparing-properties-and-items.md
     - name: Evaluate items and properties

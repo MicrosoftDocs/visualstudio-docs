@@ -16,6 +16,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/msbuild/walkthrough-creating-an-inline-task.md",
+      "redirect_url": "/visualstudio/msbuild/msbuild-roslyncodetaskfactory",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/reference/pre-build-event-post-build-event-command-line-dialog-box.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/pre-build-event-post-build-event-command-line-dialog-box",
       "redirect_document_id": false
