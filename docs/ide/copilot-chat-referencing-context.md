@@ -1,7 +1,7 @@
 ---
-title: 'Scope context with references'
+title: 'Manage chat context with references'
 description: Use references to set context and get better answers in GitHub Copilot Chat.
-ms.date: 7/16/2025
+ms.date: 7/31/2025
 ms.topic: how-to 
 author: anandmeg
 ms.author: meghaanand
@@ -13,26 +13,42 @@ helpviewer_keywords:
   - context, copilot chat
 monikerRange: '>= vs-2022'
 ---
-# Manage context with references
+# Manage chat context with references
 
-You can ask [**GitHub Copilot Chat**](visual-studio-github-copilot-chat.md) to give you code suggestions, explain code, generate unit tests, and suggest code fixes. In addition to your prompt, Copilot uses additional context, like the code in your current file and the chat history, to generate a response.
+Scope your questions to [**GitHub Copilot Chat**](visual-studio-github-copilot-chat.md) by using references to get better answer, in addition to its implicit contextual knowledge.
 
 In this article, you learn how to get better answers by providing more information to Copilot Chat:
-+ Scope the chat to specific files using [references](#reference).
-+ Review the [source used](#find-context) by Copilot to generate the answer.
-+ Use different [threads](#threads) for each of your Copilot chats so you can maintain different contexts in each.
 
-## <a name="reference"></a>Reference: scope Copilot results to a particular file or entire solution
+- Understand the implicit context Copilot leverages behind the scenes
+- Scope the chat to specific files using references
+- Review the source used by Copilot to generate the answer
+- Use different threads for each of your Copilot chats so you can maintain different contexts in each
+
+## Implicit context
+
+Visual Studio automatically provides context to the chat prompt based on your current activity.
+
+The following information is implicitly included in the chat context:
+- The currently selected text in the active editor.
+- The file name or notebook name of the active editor.
+
+The actual contents of the active file are not included in the context, but are shown as a suggested context item in the chat input box (indicated with italic text and a dotted outline). Depending on your prompt, Visual Studio might decide to read the contents of the active file. To explicitly include the contents of the active file in the chat context, select the suggested file in the chat input box.
+
+:::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-implicit-context.png" alt-text="Screenshot of implicit context in Copilot Chat.":::
+
+## Reference: scope Copilot results
 
 You can ask your coding related questions in natural language and GitHub Copilot Chat will answer these in the context of the codebase open in Visual Studio. With references you can get more specific about the information you want Copilot to consider when answering your question.
 
 By selecting a specific context in your codebase, you're able to form better questions easily without having to write out or paste long pieces of information. Specifying the context also enables Copilot to provide you with more relevant answers.
 
+:::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-references.png" alt-text="Screenshot of references in Copilot Chat.":::
+
 ### Reference a file
 
 To easily reference a file in GitHub Copilot Chat, simply add a *#* symbol at the beginning of the file name. For example, if you have a file named *BasketService.cs*, refer to it in the chat as *#BasketService.cs*. 
 
-:::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-context-hash-reference.png" alt-text="Screenshot of references in Copilot Chat.":::
+:::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-context-hash-reference.png" alt-text="Screenshot of file reference in Copilot Chat.":::
 
 ### Reference a method, class, or function
 
@@ -84,9 +100,12 @@ Copilot Chat displays the context it used after every result, so that you can te
 
 :::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-references-used-dropdown.png" alt-text="Screenshot of References used dropdown in Copilot Chat." lightbox="media/vs-2022/copilot-chat-context/copilot-chat-references-used-dropdown.png":::
 
-## <a name="threads"></a>Organize: isolate chats with Copilot into threads  
+## <a name="threads"></a>Organize: manage chat history context with threads 
 
-If you’re using Copilot Chat extensively to ask questions as you code, you can organize your conversations in a way that keeps them on-topic. Copilot Chat for Visual Studio now provides an easy way to start new conversations (threads) to keep them focused on the task at hand, and keep the context clear so the answers are based on relevant history. 
+As you iterate and send multiple chat prompts in a chat session, Copilot uses the history of chat prompts and responses as context for your current chat prompt. This means that you can ask follow-up questions or clarify your previous question without having to repeat the context. For example, you can ask "How does this differ from ...", "Now add a test case", "explain in more detail", and more.
+
+To start over with a new chat session and discard the current context, start a [new thread](#new-thread) in the chat view. This is useful when you want to move to a different topic and avoid the previous context and history.
+Use threads to keep conversations focused on the task at hand, and keep the context clear so the answers are based on relevant history. 
 
 ### <a name="new-thread"></a>New chat thread
 
