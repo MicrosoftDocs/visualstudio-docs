@@ -1,7 +1,7 @@
 ---
 title: "Unit testing JavaScript and TypeScript"
 description: Explore unit testing support in Visual Studio for JavaScript and TypeScript code by using the Node.js Tools for Visual Studio.
-ms.date: "12/06/2024"
+ms.date: "7/31/2025"
 ms.topic: "how-to"
 ms.devlang: javascript
 author: "mikejo5000"
@@ -107,6 +107,11 @@ The following example is based on the TypeScript React project template provided
    });
    ```
 
+   ::: moniker range="vs-2022"
+   > [!IMPORTANT]
+   > Due to a known [MSBuild issue](https://github.com/dotnet/msbuild/issues/7873), open the folder, *Program Files\Microsoft Visual Studio\2022\\<version\>\Common7\IDE\Extensions\TestPlatform*, and rename *System.Memory.dll* to a different name. This fix enables test discovery.
+   ::: moniker-end
+
 1. Open Test Explorer (choose **Test** > **Test Explorer**) and Visual Studio discovers and displays tests. If tests are not showing initially, then rebuild the project to refresh the list.
 
    ![Screenshot of Test Explorer test discovery (.esproj).](../javascript/media/vs-2022/unit-tests-esproj-discovery.png)
@@ -148,9 +153,16 @@ The following example is based on the ASP.NET Core Model-View-Controller project
 
 1. In the **Browse** tab, search for the following packages and install each one:
 
+   ::: moniker range=">=vs-2022"
+   - [Microsoft.TypeScript.MSBuild](https://www.nuget.org/packages/Microsoft.TypeScript.MSBuild)
+   - [Npm](https://www.nuget.org/packages/Npm)
+   ::: moniker-end
+
+   ::: moniker range="vs-2019"
    - [Microsoft.TypeScript.MSBuild](https://www.nuget.org/packages/Microsoft.TypeScript.MSBuild)
    - [Npm](https://www.nuget.org/packages/Npm)
    - [Microsoft.JavaScript.UnitTest](https://www.nuget.org/packages/Microsoft.JavaScript.UnitTest/)
+   ::: moniker-end
 
    Use the NuGet package to add TypeScript support instead of the npm TypeScript package.
 
@@ -336,6 +348,11 @@ The following example is based on the ASP.NET Core Model-View-Controller project
       })
    })
    ```
+
+   ::: moniker range="vs-2022"
+   > [!IMPORTANT]
+   > Due to a known [MSBuild issue](https://github.com/dotnet/msbuild/issues/7873), open the folder, *Program Files\Microsoft Visual Studio\2022\\<version\>\Common7\IDE\Extensions\TestPlatform*, and rename *System.Memory.dll* to a different name. This fix enables test discovery.
+   ::: moniker-end
 
 1. Open Test Explorer (choose **Test** > **Windows** > **Test Explorer**) and Visual Studio discovers and displays tests. If tests are not showing initially, then rebuild the project to refresh the list. The following illustration shows the Jest example, with two different unit test files.
 
