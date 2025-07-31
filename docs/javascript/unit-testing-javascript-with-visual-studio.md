@@ -114,10 +114,8 @@ The following example is based on the TypeScript React project template provided
    > [!NOTE]
    > For TypeScript, do not use the `outfile` option in *tsconfig.json*, because Test Explorer won't be able to find your unit tests. You can use the `outdir` option, but make sure that configuration files such as `package.json` and `tsconfig.json` are in the project root.
 
-   ::: moniker range="vs-2022"
    > [!IMPORTANT]
    > If the output from **Tests** in the Output window shows a `ReadOnlySpan` error during test discovery, use this workaround for a known [MSBuild issue](https://github.com/dotnet/msbuild/issues/7873). Open the folder, *Program Files\Microsoft Visual Studio\2022\\<version\>\Common7\IDE\Extensions\TestPlatform*, and rename *System.Memory.dll* to a different name. This fix enables test discovery.
-   ::: moniker-end
 
 ### Run tests (.esproj)
 
