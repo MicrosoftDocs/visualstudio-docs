@@ -1,8 +1,8 @@
 ---
-title: "Quickstart: Create a Python web app with Visual Studio"
+title: Create a Python Web App with Visual Studio
 titleSuffix: ""
-description: Follow guided steps to use Visual Studio and the Flask framework to build a web application in Python, add a code file, and run the app.
-ms.date: 04/18/2024
+description: Learn how to use Visual Studio and the Flask framework to build a web application in Python, add a code file, and run the app.
+ms.date: 07/29/2025
 ms.subservice: python
 ms.topic: quickstart
 author: cwebster-99
@@ -19,14 +19,14 @@ In this quickstart, you create a Python web application based on the Flask frame
 
 ::: moniker range="vs-2019"
 
-If you need to install Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free. In the installer, select the **Python development** workload.
+If you need to install Visual Studio, go to [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) to install it for free. In the installer, select the **Python development** workload.
 
 ::: moniker-end
 ::: moniker range=">=vs-2022"
 
-If you need to install Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free. In the Visual Studio Installer, select the **Python development** workload, and in the installation details, select **Python web support**.
+If you need to install Visual Studio, go to [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) to install it for free. In the Visual Studio Installer, select the **Python development** workload. In the installation details pane, select **Python web support**.
 
-:::image type="content" source="media/vs-2022/python-web.png" alt-text="Screenshot of the Visual Studio Installer with the Python development workload and Python web support selected." lightbox="media/vs-2022/python-web.png" border="false":::
+:::image type="content" source="media/vs-2022/python-web.png" alt-text="Screenshot of the Visual Studio Installer with the Python development workload and Python web support selected." lightbox="media/vs-2022/python-web.png":::
 
 ::: moniker-end
 
@@ -40,12 +40,12 @@ The following steps create an empty project that serves as a container for the a
 
    ::: moniker range="vs-2019"
 
-   :::image type="content" source="media/quickstart-python-00-web-project-2019a.png" alt-text="Screenshot that shows how to create a new Python Web Project in Visual Studio 2019." lightbox="media/quickstart-python-00-web-project-2019a.png" border="false":::
+   :::image type="content" source="media/quickstart-python-00-web-project-2019a.png" alt-text="Screenshot that shows how to create a new Python Web Project in Visual Studio 2019." lightbox="media/quickstart-python-00-web-project-2019a.png":::
 
    ::: moniker-end
    ::: moniker range=">=vs-2022"
 
-   :::image type="content" source="media/vs-2022/python-web-project.png" alt-text="Screenshot that shows how to create a new Python Web Project in Visual Studio." lightbox="media/vs-2022/python-web-project.png" border="false":::
+   :::image type="content" source="media/vs-2022/python-web-project.png" alt-text="Screenshot that shows how to create a new Python Web Project in Visual Studio." lightbox="media/vs-2022/python-web-project.png":::
 
    ::: moniker-end
 
@@ -53,7 +53,7 @@ The following steps create an empty project that serves as a container for the a
 
    If you don't see the Python project templates, run the **Visual Studio Installer**. In the Installer, select **More** > **Modify**, select the **Python development** workload, and then choose **Modify**.
 
-   :::image type="content" source="../python/media/installation-python-workload.png" alt-text="Screenshot that shows how to select the Python development workload in the Visual Studio Installer." lightbox="../python/media/installation-python-workload.png" border="false":::
+   :::image type="content" source="../python/media/installation-python-workload.png" alt-text="Screenshot that shows how to select the Python development workload in the Visual Studio Installer." lightbox="../python/media/installation-python-workload.png":::
 
    ::: moniker-end
    ::: moniker range=">=vs-2022"
@@ -66,12 +66,12 @@ The following steps create an empty project that serves as a container for the a
 
    ::: moniker range="vs-2019"
 
-   :::image type="content" source="media/quickstart-python-00-web-project-2019b.png" alt-text="Screenshot that shows how to configure settings for the new Python Web Project in Visual Studio 2019." lightbox="media/quickstart-python-00-web-project-2019b.png" border="false":::
+   :::image type="content" source="media/quickstart-python-00-web-project-2019b.png" alt-text="Screenshot that shows how to configure settings for the new Python Web Project in Visual Studio 2019." lightbox="media/quickstart-python-00-web-project-2019b.png":::
 
    ::: moniker-end
    ::: moniker range=">=vs-2022"
 
-   :::image type="content" source="media/vs-2022/configure-project.png" alt-text="Screenshot that shows how to configure settings for the new Python Web Project in Visual Studio 2022." lightbox="media/vs-2022/configure-project.png" border="false":::
+   :::image type="content" source="media/vs-2022/configure-project.png" alt-text="Screenshot that shows how to configure settings for the new Python Web Project in Visual Studio." lightbox="media/vs-2022/configure-project.png":::
 
    ::: moniker-end
 
@@ -79,12 +79,12 @@ The following steps create an empty project that serves as a container for the a
 
    ::: moniker range="vs-2019"
 
-   :::image type="content" source="media/quickstart-python-01-empty-project-2019.png" alt-text="Screenshot that shows the newly created empty Python Web Project in the Solution Explorer." lightbox="media/quickstart-python-01-empty-project-2019.png" border="false":::
+   :::image type="content" source="media/quickstart-python-01-empty-project-2019.png" alt-text="Screenshot that shows the newly created empty Python Web Project in the Solution Explorer." lightbox="media/quickstart-python-01-empty-project-2019.png":::
 
    ::: moniker-end
    ::: moniker range=">=vs-2022"
 
-   :::image type="content" source="media/vs-2022/solution-explorer.png" alt-text="Screenshot that shows the newly created empty Python Web Project in the Solution Explorer." lightbox="media/vs-2022/solution-explorer.png" border="false":::
+   :::image type="content" source="media/vs-2022/solution-explorer.png" alt-text="Screenshot showing the newly created empty Python Web Project in the Solution Explorer." lightbox="media/vs-2022/solution-explorer.png":::
 
    ::: moniker-end
 
@@ -92,7 +92,7 @@ The following steps create an empty project that serves as a container for the a
 
 There are advantages to creating a project in Visual Studio for a Python application. Python applications are typically defined by using only folders and files, but this simple structure can become burdensome as applications grow larger. Applications can involve autogenerated files, JavaScript for web applications, and other components. A Visual Studio project helps manage this complexity.
 
-The project is identified with a `.pyproj` file, which identifies all the source and content files associated with your project. The `.pyproj` file contains build information for each file, maintains information to integrate with source-control systems, and helps organize your application into logical components.
+The project is identified with a *.pyproj* file, which identifies all the source and content files associated with your project. The *.pyproj* file contains build information for each file, maintains information to integrate with source-control systems, and helps organize your application into logical components.
 
 A Visual Studio solution is a container that helps you manage one or more related projects as a group. Visual Studio shows your solutions in **Solution Explorer**. The solution stores configuration settings that aren't specific to a project. Projects in a solution can also reference one another. For example, running a Python app project can automatically build a second project, like a C++ extension that the Python app uses.
 
@@ -106,12 +106,12 @@ Use the following steps to install the Flask library into the default *global en
 
    ::: moniker range="vs-2019"
 
-   :::image type="content" source="media/quickstart-python-02-default-environment-2019.png" alt-text="Screenshot of Solution Explorer showing the default environment in Visual Studio 2019." lightbox="media/quickstart-python-02-default-environment-2019.png" border="false":::
+   :::image type="content" source="media/quickstart-python-02-default-environment-2019.png" alt-text="Screenshot of Solution Explorer showing the default environment in Visual Studio 2019." lightbox="media/quickstart-python-02-default-environment-2019.png":::
 
    ::: moniker-end
    ::: moniker range=">=vs-2022"
 
-   :::image type="content" source="media/vs-2022/python-environment.png" alt-text="Screenshot that shows the default environment in Solution Explorer in Visual Studio 2022." lightbox="media/vs-2022/python-environment.png" border="false":::
+   :::image type="content" source="media/vs-2022/python-environment.png" alt-text="Screenshot that shows the default environment in Solution Explorer in Visual Studio." lightbox="media/vs-2022/python-environment.png":::
 
    ::: moniker-end
 
@@ -120,17 +120,17 @@ Use the following steps to install the Flask library into the default *global en
 1. Enter *flask* in the search field.
 
    - If the **Flask** command appears below the search box, then Flask is already present on the system. Continue to the next step.
-   
+
    - If the **Flask** command doesn't appear below the search box, select **Run command: pip install flask**.
 
       ::: moniker range="vs-2019"
 
-      :::image type="content" source="media/quickstart-python-03-install-package-2019.png" alt-text="Screenshot that shows how to install the Flask library by using pip install in Visual Studio 2019." lightbox="media/quickstart-python-03-install-package-2019.png" border="false":::
+      :::image type="content" source="media/quickstart-python-03-install-package-2019.png" alt-text="Screenshot that shows how to install the Flask library by using pip install in Visual Studio 2019." lightbox="media/quickstart-python-03-install-package-2019.png":::
 
       ::: moniker-end
       ::: moniker range=">=vs-2022"
 
-      :::image type="content" source="media/vs-2022/install-flask.png" alt-text="Screenshot that shows how to install the Flask library by using pip install in Visual Studio 2022." lightbox="media/vs-2022/install-flask.png" border="false":::
+      :::image type="content" source="media/vs-2022/install-flask.png" alt-text="Screenshot that shows how to install the Flask library by using pip install in Visual Studio." lightbox="media/vs-2022/install-flask.png":::
 
       ::: moniker-end
 
@@ -140,12 +140,12 @@ Use the following steps to install the Flask library into the default *global en
 
    ::: moniker range="vs-2019"
 
-   :::image type="content" source="media/quickstart-python-04-package-installed-2019.png" alt-text="Screenshot that shows the Flask library installed and present in Solution Explorer in Visual Studio 2019." lightbox="media/quickstart-python-04-package-installed-2019.png" border="false":::
+   :::image type="content" source="media/quickstart-python-04-package-installed-2019.png" alt-text="Screenshot that shows the Flask library installed and present in Solution Explorer in Visual Studio 2019." lightbox="media/quickstart-python-04-package-installed-2019.png":::
 
    ::: moniker-end
    ::: moniker range=">=vs-2022"
 
-   :::image type="content" source="media/vs-2022/flask-installed.png" alt-text="Screenshot that shows the Flask library installed and present in Solution Explorer in Visual Studio 2022." lightbox="media/vs-2022/flask-installed.png" border="false":::
+   :::image type="content" source="media/vs-2022/flask-installed.png" alt-text="Screenshot that shows the Flask library installed and present in Solution Explorer in Visual Studio." lightbox="media/vs-2022/flask-installed.png":::
 
    ::: moniker-end
 
@@ -164,7 +164,7 @@ You're now ready to add some Python code to implement a minimal web application.
 
 1. Enter the file name *app.py*, and select **Add**. Visual Studio automatically opens the file in an editor window.
 
-1. Copy the following code and paste it into the `app.py` file:
+1. Copy the following code and paste it into the *app.py* file:
 
    ```python
    from flask import Flask
@@ -188,7 +188,7 @@ You're now ready to add some Python code to implement a minimal web application.
       # Run the app server on localhost:4449
       app.run('localhost', 4449)
 
-The **Add New Item** dialog displays many other types of files that you can add to a Python project, such as a Python class, a Python package, a Python unit test, or `web.config` files. In general, these *item templates* are a great way to quickly create files with useful boilerplate code.
+The **Add New Item** dialog displays many other types of files that you can add to a Python project, such as a Python class, a Python package, a Python unit test, or *web.config* files. In general, these *item templates* are a great way to quickly create files with useful boilerplate code.
 
 For more information about Flask, see the [Flask Quickstart](https://flask.palletsprojects.com/quickstart/#quickstart).
 
@@ -196,16 +196,16 @@ For more information about Flask, see the [Flask Quickstart](https://flask.palle
 
 Follow these steps to run your web application:
 
-1. In **Solution Explorer**, right-click the `app.py` file and select **Set as Startup File**. This command identifies the code file to launch in Python when running the app.
+1. In **Solution Explorer**, right-click the *app.py* file and select **Set as Startup File**. This command identifies the code file to launch in Python when running the app.
 
    ::: moniker range="vs-2019"
 
-   :::image type="content" source="media/quickstart-python-05-set-as-startup-file-2019.png" alt-text="Screenshot that shows how to set the startup file for a project in Solution Explorer in Visual Studio 2019." lightbox="media/quickstart-python-05-set-as-startup-file-2019.png" border="false":::
+   :::image type="content" source="media/quickstart-python-05-set-as-startup-file-2019.png" alt-text="Screenshot that shows how to set the startup file for a project in Solution Explorer in Visual Studio 2019." lightbox="media/quickstart-python-05-set-as-startup-file-2019.png":::
 
    ::: moniker-end
    ::: moniker range=">=vs-2022"
 
-   :::image type="content" source="media/vs-2022/set-startup-file.png" alt-text="Screenshot that shows how to set the startup file for a project in Solution Explorer in Visual Studio 2022." lightbox="media/vs-2022/set-startup-file.png" border="false":::
+   :::image type="content" source="media/vs-2022/set-startup-file.png" alt-text="Screenshot that shows how to set the startup file for a project in Solution Explorer in Visual Studio." lightbox="media/vs-2022/set-startup-file.png":::
 
    ::: moniker-end
 
@@ -215,17 +215,17 @@ Follow these steps to run your web application:
 
 1. In Visual Studio, select **Debug** > **Start Without Debugging** or select **Ctrl**+**F5**, which saves changes to your files and runs the app.
 
-   A command window opens and displays the message **Running in https:\//`localhost:4449**`. A browser window opens to `localhost:4449` and displays the message **Hello, Python!**. The `GET` request also appears in the command window with a status of `200`.
+   A command window opens and displays the message **"Running in https:\//localhost:4449"**. A browser window opens to `localhost:4449` and displays the message **"Hello, Python!"**. The `GET` request also appears in the command window with a status of **"200"**.
 
    If a browser doesn't open automatically, open the browser of your choice and go to `localhost:4449`.
 
-   If you see only the Python interactive shell in the command window, or if that window flashes on the screen briefly, make sure the `app.py` file is set as the startup file.
+   If you see only the Python interactive shell in the command window, or if that window flashes on the screen briefly, make sure the *app.py* file is set as the startup file.
 
 1. In the browser window, go to `localhost:4449/hello` to test that the decorator for the `/hello` resource also works.
 
-   Again, the `GET` request appears in the command window with a status of `200`.
-   
-   Try some other URLs as well to see that they show `404` status codes in the command window.
+   Again, the `GET` request appears in the command window with a status of **"200"**.
+
+   Try some other URLs as well to see that they show **"404"** status codes in the command window.
 
 1. Close the command window to stop the app, and then close the browser window.
 
@@ -240,5 +240,5 @@ You can run your app with or without debugging enabled. Here are the differences
 ## Related content
  
 - [Quickstart: Create a Python project from a template](../python/quickstart-02-python-in-visual-studio-project-from-template.md)
-- [Tutorial: Get started with Python in Visual Studio](../python/tutorial-working-with-python-in-visual-studio-step-01-create-project.md)
-- [Python web app templates in Visual Studio](../python/python-web-application-project-templates.md)
+- [Tutorial: Work with Python in Visual Studio](../python/tutorial-working-with-python-in-visual-studio-step-01-create-project.md)
+- [Python web application project templates](../python/python-web-application-project-templates.md)

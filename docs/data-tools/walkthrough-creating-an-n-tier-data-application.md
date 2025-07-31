@@ -13,6 +13,7 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
+ms.custom: sfi-image-nochange
 ---
 
 # Walkthrough: Create an n-tier data application with ADO.NET and the .NET Framework

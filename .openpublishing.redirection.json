@@ -16,6 +16,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/ide/reference/pre-build-event-post-build-event-command-line-dialog-box.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/pre-build-event-post-build-event-command-line-dialog-box",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/reference/my-extensions-page-project-designer-visual-basic.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/my-extensions-page-project-designer-visual-basic",
       "redirect_document_id": false
@@ -1133,6 +1138,46 @@
     {
       "source_path": "docs/help-viewer/find-topics-index.md",
       "redirect_url": "/visualstudio/help-viewer/find-topics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/projects-solutions-locations-options",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/projects-solutions-locations-options",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/choose-toolbox-items-wpf-components.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/choose-toolbox-items-wpf-components",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/options-dialog-box-visual-studio.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-dialog-box-visual-studio",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/web-browser-environment-options-dialog-box.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/web-browser-environment-options-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/project-properties-reference.md",
+      "redirect_url": "/visualstudio/ide/project-properties-reference",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/properties-window.md",
+      "redirect_url": "/visualstudio/ide/properties-window",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/settings-page-project-designer.md",
+      "redirect_url": "/visualstudio/ide/settings-page-project-designer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/project-designer-dotnet-csharp.md",
+      "redirect_url": "/visualstudio/ide/project-designer-dotnet-csharp",
       "redirect_document_id": false
     },
     {

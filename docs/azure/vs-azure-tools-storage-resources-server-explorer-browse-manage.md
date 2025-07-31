@@ -8,6 +8,7 @@ ms.topic: conceptual
 ms.date: 03/06/2024
 ms.author: ghogen
 monikerRange: "<=vs-2019"
+ms.custom: sfi-image-nochange
 ---
 
 # Browse and manage storage resources by using Server Explorer

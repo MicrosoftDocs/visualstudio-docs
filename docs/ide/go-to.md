@@ -12,6 +12,7 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
+ms.custom: sfi-image-nochange
 
 #customer intent: As a developer, I want to explore Go To commands in Visual Studio so that I can quickly find specific items. 
 ---

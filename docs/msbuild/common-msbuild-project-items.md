@@ -53,6 +53,8 @@ This item doesn't apply to non-.NET projects.
 |WrapperTool|Optional string. The name of the wrapper tool that is used on the component. Values are:<br /><br />1. primary<br />2. tlbimp<br />3. primaryortlbimp<br />4. `aximp`|
 |Isolated|Optional boolean. Specifies whether the component is a reg-free component.|
 
+See [Troubleshoot COM references](troubleshoot-com-references.md).
+
 ## COMFileReference
 
 Represents a list of type libraries to reference by file path, instead of using the system registry. This type of reference can be a good alternative to COMReference in cases where you want to avoid a dependency on the build machine's registry, either because the account that runs the build doesn't have elevated privileges to edit the registry on the build server, or you don't want the build to have a dependency on the state of the registry. If you use `COMFileReference` to reference an artifact on a system path, then your build has a dependency on the system state. If the system artifact changes due to a change in the state of the system, such as when products are installed, updated, or uninstalled (or if you run the same build on a different machine), then the wrapper assembly can change, even if the build logic hasn't changed. To ensure a consistent build result, you can cache a known copy of the COM artifact in a place you control, such as under your project or solution folder, and reference that instead of the system artifact.
@@ -63,6 +65,8 @@ This item doesn't apply to non-.NET projects.
 |---------------|-----------------|
 |EmbedInteropTypes|Optional boolean. If true, embed the interop types from this reference directly into your assembly rather than generating an interop DLL.|
 |WrapperTool|Optional string. The name of the wrapper tool that is used on the component. Values are:<br /><br />1.  primary<br />2. tlbimp<br />3. primaryortlbimp<br />4. `aximp`|
+
+See [Troubleshoot COM references](troubleshoot-com-references.md).
 
 ## NativeReference
 
@@ -84,6 +88,7 @@ Represents a reference to another project. `ProjectReference` items are transfor
 |Project|Optional string. A GUID for the reference, in the form {12345678-1234-1234-1234-123456781234}.|
 |OutputItemType|Optional string. Item type to emit target outputs into. Default is blank. If the Reference metadata is set to "true" (default), then target outputs become references for the compiler.|
 |ReferenceOutputAssembly|Optional boolean. If set to `false`, doesn't include the output of the referenced project as a [Reference](#reference) of this project, but still ensures that the other project builds before this one. Defaults to `true`.|
+|BuildReference| Optional boolean. If set to `false`, this ProjectReference will not be built by MSBuild. Its default targets (see 'Targets' below) will not be called at all.
 |Private|Optional boolean. Specifies whether the reference should be copied to the output folder. This attribute matches the **Copy Local** property of the reference that's in the Visual Studio IDE.|
 |SetConfiguration|Optional string. Sets the global property `Configuration` for the referenced project, for example `Configuration=Release`.|
 |SetPlatform|Optional string. Sets the global property `Platform` for the referenced project, for example `Platform=AnyCPU`.|

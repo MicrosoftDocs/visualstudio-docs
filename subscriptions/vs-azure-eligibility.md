@@ -3,7 +3,7 @@ title: Azure Dev/Test eligible credits in subscriptions
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 04/30/2025
+ms.date: 07/30/2025
 ms.topic: conceptual
 description: Check if your Visual Studio subscription includes Azure Dev/Test credits so you can try various Azure services at no cost.
 ---
@@ -30,8 +30,8 @@ To get started using the Azure Dev/Test credits included in your subscription, v
 | Visual Studio Enterprise - Microsoft Cloud Partner Program | $150 monthly credit | Yes |
 | Visual Studio Professional - Microsoft Cloud Partner Program | Not available | |
 | Visual Studio Enterprise – Azure Dev Tools for Teaching | Not available | |
+| Visual Studio Enterprise - Student Ambassadors | $150 monthly credit | Yes |
 | Visual Studio Enterprise – Microsoft for Startups | Not available | |
-| Visual Studio Enterprise – MCT Software & Services | $100 monthly credit | Yes |
 | Visual Studio Enterprise – MCT Software & Services Developer | $150 monthly credit | Yes |
 
 \* *Includes: Not for Resale (NFR), Most Valuable Professional (MVP), Regional Director (RD), Visual Studio Industry Partner (VSIP). Excludes: NFR Basic programs such as Alumni, ISV, Xbox, etc.*

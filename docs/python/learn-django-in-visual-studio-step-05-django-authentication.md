@@ -8,6 +8,7 @@ author: cwebster-99
 ms.author: cowebster
 manager: mijacobs
 ms.subservice: python
+ms.custom: sfi-image-nochange
 
 # CustomerIntent: As a developer, I want to create Django web applications in Visual Studio so I can use the authentication features included with the Django Web Project template.
 ---

@@ -10,6 +10,7 @@ author: tinaschrepfer
 ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
+ms.custom: sfi-image-nochange
 ---
 # Walkthrough: Publish a Visual Studio extension
 

@@ -6,6 +6,7 @@ manager: shve
 ms.date: 09/16/2024
 ms.topic: conceptual
 description: Explore management tasks for your Visual Studio subscriptions, including renewal, transfer, profile changes, and setting preferences.
+ms.custom: sfi-image-nochange
 ---
 # Managing subscriptions
 
