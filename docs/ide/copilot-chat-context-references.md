@@ -15,7 +15,7 @@ monikerRange: '>= vs-2022'
 ---
 # Manage chat context with references
 
-Scope your questions to [**GitHub Copilot Chat**](visual-studio-github-copilot-chat.md) by using references to get better answers, in addition to its implicit contextual knowledge.
+Scope your questions to [**GitHub Copilot Chat**](visual-studio-github-copilot-chat.md) by using references, in addition to its implicit contextual knowledge, to get better answers.
 
 In this article, you learn how to get better answers by providing more information to Copilot Chat:
 
