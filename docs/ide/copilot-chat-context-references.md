@@ -1,6 +1,6 @@
 ---
 title: 'Manage chat context with references'
-description: Use references to set context and get better answers in GitHub Copilot Chat.
+description: Use references to form better questions and get better answers with scoped context in GitHub Copilot Chat.
 ms.date: 7/31/2025
 ms.topic: how-to 
 author: anandmeg
@@ -15,7 +15,7 @@ monikerRange: '>= vs-2022'
 ---
 # Manage chat context with references
 
-Scope your questions to [**GitHub Copilot Chat**](visual-studio-github-copilot-chat.md) by using references to get better answer, in addition to its implicit contextual knowledge.
+Scope your questions to [**GitHub Copilot Chat**](visual-studio-github-copilot-chat.md) by using references to get better answers, in addition to its implicit contextual knowledge.
 
 In this article, you learn how to get better answers by providing more information to Copilot Chat:
 

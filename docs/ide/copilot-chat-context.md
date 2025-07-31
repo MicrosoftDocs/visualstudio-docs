@@ -1,6 +1,6 @@
 ---
 title: 'Customize chat responses'
-description: Use slash commands to form better questions and get better answers with scoped context in GitHub Copilot Chat.
+description: Use custom instructions and prompt files to customize responses and use slash commands to set quick context for common tasks.
 ms.date: 7/31/2025
 ms.topic: how-to 
 author: anandmeg
@@ -15,11 +15,12 @@ monikerRange: '>= vs-2022'
 ---
 # Customize chat responses and set context
 
-You can ask [**GitHub Copilot Chat**](visual-studio-github-copilot-chat.md) to give you code suggestions, explain code, generate unit tests, and suggest code fixes. In addition to your prompt, Copilot uses additional context, like the code in your current file, any attached images, and the chat history, to generate a response.
+You can ask [**GitHub Copilot Chat**](visual-studio-github-copilot-chat.md) to give you code suggestions, explain code, generate unit tests, and suggest code fixes. Chat in Visual Studio can give you responses and generate code that matches your coding practices and project requirements, if you give it the right context. Instead of repeatedly adding this information in every chat prompt, you can store this context in files and automatically include it in every chat request.
 
 In this article, you learn how to get better answers by providing more information to Copilot Chat:
-+ Use [slash commands](#slash-commands) to quickly specify common tasks like `/explain` to get code explanations.
-+ Use the [guided chat experience](#prompting-guidance) and [custom instructions](#enable-custom-instructions) to refine context.
++ Use [slash commands](#slash-commands) to quickly specify common tasks like `/explain` to get code explanations
++ Use the [guided chat experience](#prompting-guidance) to refine context
++ Use [custom instructions](#enable-custom-instructions) and [prompt files](#use-prompt-files) to customize responses
 
 Learn more about [AI-assisted development in Visual Studio](../ide/ai-assisted-development-visual-studio.md) and how to [use Copilot Chat in Visual Studio](../ide/visual-studio-github-copilot-chat.md#use-copilot-chat-in-visual-studio).
 
@@ -62,7 +63,7 @@ To use a prompt file:
 
 :::image type="content" source="media/vs-2022/copilot-chat-context/prompt-files.png" alt-text="Screenshot of using prompt files in GitHub Copilot Chat.":::
 
-## <a name="slash-commands"></a>Use slash commands in Copilot Chat for common tasks
+## <a name="slash-commands"></a>Use slash commands to set context for common tasks
 
 Slash commands in Copilot Chat help you set the intent quickly for common development tasks. By using specific slash commands to form your question, you can get better answers without having to write out long questions. 
 
