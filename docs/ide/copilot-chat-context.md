@@ -1,5 +1,5 @@
 ---
-title: 'Use slash commands in Copilot Chat'
+title: 'Customize chat responses'
 description: Use slash commands to form better questions and get better answers with scoped context in GitHub Copilot Chat.
 ms.date: 7/31/2025
 ms.topic: how-to 
@@ -13,7 +13,7 @@ helpviewer_keywords:
   - context, copilot chat
 monikerRange: '>= vs-2022'
 ---
-# Use slash command to set the chat context
+# Customize chat responses and set context
 
 You can ask [**GitHub Copilot Chat**](visual-studio-github-copilot-chat.md) to give you code suggestions, explain code, generate unit tests, and suggest code fixes. In addition to your prompt, Copilot uses additional context, like the code in your current file, any attached images, and the chat history, to generate a response.
 

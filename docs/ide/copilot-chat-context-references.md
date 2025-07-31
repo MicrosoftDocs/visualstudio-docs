@@ -23,7 +23,7 @@ In this article, you learn how to get better answers by providing more informati
 + Scope the chat to specific files using [references](#reference-context)
 + [Attach images](#attach-images) to your prompt to provide additional context and better illustrate your ideas
 + Review the [source](#find-context) used by Copilot to generate the answer
-+ Use different [threads](#threads) for each of your Copilot chats so you can maintain different contexts in each
++ Use different [threads](#threads) for each of your Copilot chats to maintain chat history and different context in each
 
 ## Prerequisites
 

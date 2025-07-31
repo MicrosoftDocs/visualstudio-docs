@@ -159,9 +159,9 @@
       href: ide/copilot-edits.md
   - name: Chat context
     items:
-    - name: Use slash commands
+    - name: Customize responses
       href: ide/copilot-chat-context.md
-    - name: Use references
+    - name: Manage context
       href: ide/copilot-chat-context-references.md
   - name: Guides
     items:
