@@ -25,6 +25,13 @@ In this article, you learn how to get better answers by providing more informati
 + Review the [source](#find-context) used by Copilot to generate the answer
 + Use different [threads](#threads) for each of your Copilot chats so you can maintain different contexts in each
 
+## Prerequisites
+
+To get started using GitHub Copilot Chat in Visual Studio, you need:
++ Visual Studio 2022 [version 17.10](/visualstudio/releases/2022/release-history) or later
++ [Sign in to Visual Studio using a GitHub account](work-with-github-accounts.md) with [Copilot access](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot) <br/>
+  <sup>**</sup> You can sign up for [GitHub Copilot for Free](copilot-free-plan.md).
+
 ## Implicit context
 
 Visual Studio automatically provides context to the chat prompt based on your current activity.
