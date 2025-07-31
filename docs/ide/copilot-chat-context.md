@@ -1,6 +1,6 @@
 ---
-title: 'Tips & Tricks for GitHub Copilot Chat in Visual Studio'
-description: Use slash commands, references, and threads to form better questions and get better answers with scoped context in GitHub Copilot Chat.
+title: 'Use slash commands in Copilot Chat'
+description: Use slash commands to form better questions and get better answers with scoped context in GitHub Copilot Chat.
 ms.date: 7/31/2025
 ms.topic: how-to 
 author: anandmeg
@@ -13,14 +13,13 @@ helpviewer_keywords:
   - context, copilot chat
 monikerRange: '>= vs-2022'
 ---
-# Get better answers by setting the context for GitHub Copilot Chat in Visual Studio
+# Use slash command to set the chat context
 
-You can ask [**GitHub Copilot Chat**](visual-studio-github-copilot-chat.md) to give you code suggestions, explain code, generate unit tests, and suggest code fixes. In addition to your prompt, Copilot uses additional context, like the code in your current file and the chat history, to generate a response.
+You can ask [**GitHub Copilot Chat**](visual-studio-github-copilot-chat.md) to give you code suggestions, explain code, generate unit tests, and suggest code fixes. In addition to your prompt, Copilot uses additional context, like the code in your current file, any attached images, and the chat history, to generate a response.
 
 In this article, you learn how to get better answers by providing more information to Copilot Chat:
 + Use [slash commands](#slash-commands) to quickly specify common tasks like `/explain` to get code explanations.
 + Use the [guided chat experience](#prompting-guidance) and [custom instructions](#enable-custom-instructions) to refine context.
-+ [Attach images](#attach-images) to your prompt to provide additional context and better illustrate your ideas.
 
 Learn more about [AI-assisted development in Visual Studio](../ide/ai-assisted-development-visual-studio.md) and how to [use Copilot Chat in Visual Studio](../ide/visual-studio-github-copilot-chat.md#use-copilot-chat-in-visual-studio).
 
@@ -82,14 +81,6 @@ You can use slash commands in a [chat window](visual-studio-github-copilot-chat.
 :::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-context-slash-commands.png" alt-text="Screenshot of slash commands in inline chat view and chat windows.":::
 
 With Visual Studio 2022 version 17.13, as the user types a slash command, the command expands out the prompt in natural language to display the context the command will use.
-
-## <a name="attach-images"></a>Attach images to a chat prompt
-
-With vision integration for Copilot Chat in Visual Studio 17.14 and later, you can [attach images](visual-studio-github-copilot-chat.md#attach-images-to-chat-prompts) to your chat prompt, providing Copilot with additional context for improved responses. Use images in combination with [scope](copilot-chat-referencing-context.md#reference-context) and other contextual features such as slash commands to generate tailored responses.
-
-In the following example, Copilot interprets the attached image to generate a plan and suggest code to create a colorful Breakout game from scratch.
-
-:::image type="content" source="media/vs-2022/visual-studio-github-copilot-chat/example-attach-image-chat.png" alt-text="Screenshot of an example scenario of adding an image in Copilot Chat." lightbox="media/vs-2022/visual-studio-github-copilot-chat/example-attach-image-chat.png" :::
 
 ## Next steps
 

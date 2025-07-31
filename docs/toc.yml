@@ -159,8 +159,10 @@
       href: ide/copilot-edits.md
   - name: Chat context
     items:
-    - name: Tips to improve results
+    - name: Use slash commands
       href: ide/copilot-chat-context.md
+    - name: Use references
+      href: ide/copilot-chat-context-references.md
   - name: Guides
     items:
     - name: Debug with Copilot
