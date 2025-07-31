@@ -109,6 +109,7 @@ Here are some examples of using references for context control:
 | I have a test method named #TestCalculator. How can I ensure that it's being executed correctly?| TestCalculator method |
 | Could you explain the differences between classes #BasketService and #OrderService?| BasketService class and OrderService class |
 | In my @workspace where is #AddItemToBasket? | Current solution open in the IDE |
+| Update my UI in App.tsx to resemble this image | Uploaded image |
 
 ## <a name="find-context"></a>Review the sources used by Copilot Chat
 
