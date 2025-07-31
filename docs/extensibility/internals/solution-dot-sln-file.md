@@ -65,7 +65,7 @@ Standard header that defines the file format version.
 The major version of Visual Studio that (most recently) saved this solution file. This information controls the version number in the solution icon.
 
 `VisualStudioVersion = 16.0.28701.123`\
-The full version of Visual Studio that (most recently) saved the solution file. If the solution file is saved by a newer version of Visual Studio that has the same major version. This value isn't updated so as to lessen churn in the file.
+The full version of Visual Studio that (most recently) saved the solution file. If the solution file is saved by a newer version of Visual Studio that has the same major version, this value isn't updated so as to lessen churn in the file.
 
 `MinimumVisualStudioVersion = 10.0.40219.1`\
 The minimum (oldest) version of Visual Studio that can open this solution file.
