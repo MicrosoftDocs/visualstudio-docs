@@ -107,17 +107,17 @@ The following example is based on the TypeScript React project template provided
    });
    ```
 
-   ::: moniker range="vs-2022"
-   > [!IMPORTANT]
-   > Due to a known [MSBuild issue](https://github.com/dotnet/msbuild/issues/7873), open the folder, *Program Files\Microsoft Visual Studio\2022\\<version\>\Common7\IDE\Extensions\TestPlatform*, and rename *System.Memory.dll* to a different name. This fix enables test discovery.
-   ::: moniker-end
-
 1. Open Test Explorer (choose **Test** > **Test Explorer**) and Visual Studio discovers and displays tests. If tests are not showing initially, then rebuild the project to refresh the list.
 
    ![Screenshot of Test Explorer test discovery (.esproj).](../javascript/media/vs-2022/unit-tests-esproj-discovery.png)
 
    > [!NOTE]
    > For TypeScript, do not use the `outfile` option in *tsconfig.json*, because Test Explorer won't be able to find your unit tests. You can use the `outdir` option, but make sure that configuration files such as `package.json` and `tsconfig.json` are in the project root.
+
+   ::: moniker range="vs-2022"
+   > [!IMPORTANT]
+   > If the output from **Tests** in the Output window shows a `ReadOnlySpan` error during test discovery, use this workaround for a known [MSBuild issue](https://github.com/dotnet/msbuild/issues/7873). Open the folder, *Program Files\Microsoft Visual Studio\2022\\<version\>\Common7\IDE\Extensions\TestPlatform*, and rename *System.Memory.dll* to a different name. This fix enables test discovery.
+   ::: moniker-end
 
 ### Run tests (.esproj)
 
@@ -349,17 +349,17 @@ The following example is based on the ASP.NET Core Model-View-Controller project
    })
    ```
 
-   ::: moniker range="vs-2022"
-   > [!IMPORTANT]
-   > Due to a known [MSBuild issue](https://github.com/dotnet/msbuild/issues/7873), open the folder, *Program Files\Microsoft Visual Studio\2022\\<version\>\Common7\IDE\Extensions\TestPlatform*, and rename *System.Memory.dll* to a different name. This fix enables test discovery.
-   ::: moniker-end
-
 1. Open Test Explorer (choose **Test** > **Windows** > **Test Explorer**) and Visual Studio discovers and displays tests. If tests are not showing initially, then rebuild the project to refresh the list. The following illustration shows the Jest example, with two different unit test files.
 
    ![Screenshot of Test Explorer test discovery (ASP.NET Core).](../javascript/media/vs-2022/unit-tests-asp-dotnet-discovery.png)
 
    > [!NOTE]
    > For TypeScript, do not use the `outfile` option in *tsconfig.json*, because Test Explorer won't be able to find your unit tests. You can use the `outdir` option, but make sure that configuration files such as `package.json` and `tsconfig.json` are in the project root.
+
+   ::: moniker range="vs-2022"
+   > [!IMPORTANT]
+   > If the output from **Tests** in the Output window shows a `ReadOnlySpan` error during test discovery, use this workaround for a known [MSBuild issue](https://github.com/dotnet/msbuild/issues/7873). Open the folder, *Program Files\Microsoft Visual Studio\2022\\<version\>\Common7\IDE\Extensions\TestPlatform*, and rename *System.Memory.dll* to a different name. This fix enables test discovery.
+   ::: moniker-end
 
 ### Run tests (ASP.NET Core)
 
