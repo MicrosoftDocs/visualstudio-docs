@@ -1,8 +1,8 @@
 ---
-title: Python in Visual Studio tutorial Step 4, debugging
+title: "Tutorial Step 4: Use Visual Studio Debugger"
 titleSuffix: ""
-description: Step 4 of a core walkthrough of Python capabilities in Visual Studio that demonstrates how to run Python code in the debugger.
-ms.date: 04/18/2024
+description: Explore step 4 of a tutorial about Python capabilities in Visual Studio that demonstrates how to run Python code in the debugger.
+ms.date: 07/30/2025
 ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster
@@ -12,7 +12,7 @@ ms.subservice: python
 # CustomerIntent: As a developer, I want to debug my Python code in Visual Studio so I can access a robust debugging environment with rich features.
 ---
 
-# Tutorial: Run code in the Debugger in Visual Studio
+# Tutorial: Run code in the Visual Studio Debugger
 
 This article presents Step 4 in the tutorial series _Work with Python in Visual Studio_.
 
@@ -36,7 +36,7 @@ To prepare for the debugging exercise, follow these steps to update your Python 
 
 1. Open your Python project file (_.py_) in the editor.
 
-1. Replace the code in the file with the following code. This version of the code expands the `make_dot_string` function so you can examine its discrete steps in the debugger. It moves the `for` loop into a `main` function and runs it explicitly by calling the `main` function:
+1. Replace the code in the file with the following code. This version of the code expands the `make_dot_string` function so you can examine its discrete steps in the debugger. It moves the `for` loop into a `main` function, and then runs it explicitly by calling the `main` function:
 
    ```python
    from math import cos, radians
@@ -75,21 +75,21 @@ Now you're ready to start checking your updated Python code in the **Debugger**.
  
    Breakpoints stop execution of code at a marked point so you can inspect the program state. A red dot appears on each line that has a set breakpoint.
 
-   :::image type="content" source="media/tutor-python-4-set-breakpoint.png" alt-text="Screenshot that shows how to set a breakpoint in the Debugger in Visual Studio." border="false" lightbox="media/tutor-python-4-set-breakpoint.png":::
+   :::image type="content" source="media/tutor-python-4-set-breakpoint.png" alt-text="Screenshot that shows how to set a breakpoint in the Debugger in Visual Studio." lightbox="media/tutor-python-4-set-breakpoint.png":::
 
 1. Start the **Debugger** again (**F5**). The running code for the program stops on the line with the set breakpoint. You can now inspect the call stack and examine variables for this state of the running program code.
-   
+
    Visual Studio provides many ways to observe your program code and execution data, including the following windows:
-   
+
    - The **Call stack** shows the history of function and method calls by the program code.
    - Defined variables that are in-scope appear in the **Autos** window.
    - The **Locals** view shows all variables that Visual Studio finds in the current scope (including functions), even before they're defined in the code.
 
    To see the full list of available windows and actions, select **Debug** > **Windows**.
-   
+
    You can open the **Debugger** windows to view your program state when a breakpoint is encountered:
 
-   :::image type="content" source="media/tutor-python-4-debugger-windows.png" alt-text="Screenshot of the Debugger windows that show the program state when Visual Studio stops at a set breakpoint." border="false" lightbox="media/tutor-python-4-debugger-windows.png":::
+   :::image type="content" source="media/tutor-python-4-debugger-windows.png" alt-text="Screenshot of the Debugger windows that show the program state when Visual Studio stops at a set breakpoint." lightbox="media/tutor-python-4-debugger-windows.png":::
 
 ## Use Debugger actions
 
@@ -97,7 +97,7 @@ When Visual Studio stops code execution at a breakpoint, there are several comma
 
 The **Debugger** toolbar along the top of the Visual Studio window provides quick access to the most common debugging commands:
 
-:::image type="content" source="media/tutor-python-4-debugger-toolbar.png" alt-text="Screenshot of the Debugger toolbar in Visual Studio." border="false" lightbox="media/tutor-python-4-debugger-toolbar.png":::
+:::image type="content" source="media/tutor-python-4-debugger-toolbar.png" alt-text="Screenshot of the Debugger toolbar in Visual Studio." lightbox="media/tutor-python-4-debugger-toolbar.png":::
 
 The following table summarizes these commands as they appear from left to right on the toolbar:
 
@@ -134,7 +134,7 @@ Follow these steps to work with **Debugger** actions in your Python code:
 
 1. Continue stepping with **Step Into** until the return from the `make_dot_string` function.
 
-   When you reach the end of the `make_dot_string` function code, the next step returns the ***Debugger** to the `for` loop with the new return value in the `s` variable.
+   When you reach the end of the `make_dot_string` function code, the next step returns the **Debugger** to the `for` loop with the new return value in the `s` variable.
    
    As you step again to the `print` statement, notice that the **Step Into** action on the `print` statement doesn't enter into that function. This behavior is because the `print` function isn't written in Python. It's native code inside the Python runtime.
 
@@ -157,14 +157,14 @@ The following steps show how to define a breakpoint condition on the `for` loop 
 1. In the **Breakpoint Settings** popup dialog, configure the following settings to create the **Condition**:
 
    1. Set the condition type to **Conditional Expression**.
-   
+
    1. Define the condition evaluation to **Is true**.
-   
+
    1. Enter `i > 1600` as the condition value.
-   
+
    1. Select **Close**.
 
-   :::image type="content" source="media/tutor-python-4-set-breakpoint-condition.png" alt-text="Screenshot that shows how to set a conditional breakpoint in the Debugger in Visual Studio." border="false" lightbox="media/tutor-python-4-set-breakpoint-condition.png":::
+   :::image type="content" source="media/tutor-python-4-set-breakpoint-condition.png" alt-text="Screenshot that shows how to set a conditional breakpoint in the Debugger in Visual Studio." lightbox="media/tutor-python-4-set-breakpoint-condition.png":::
 
 1. Select **F5** to continue debugging and program execution. Observe that the program runs many iterations before it reaches the conditional breakpoint.
 
@@ -175,9 +175,9 @@ The following steps show how to define a breakpoint condition on the `for` loop 
    1. Hover over the red dot and select **Disable**, or right-click the red dot and select **Disable breakpoint**.
 
    1. Select **Continue** (or press **F5**) to run the program.
-   
+
    When the program ends, Visual Studio stops the debugging session and returns to editing mode.
-   
+
    You can also delete a breakpoint. Select the red dot or right-click the dot and select **Delete breakpoint**. This action also deletes any defined conditions.
 
 > [!TIP]
@@ -186,4 +186,4 @@ The following steps show how to define a breakpoint condition on the `for` loop 
 ## Next step
 
 > [!div class="nextstepaction"]
-> [Step 5: Install packages and manage Python environments](tutorial-working-with-python-in-visual-studio-step-05-installing-packages.md)
+> [Step 5: Install packages in your Python environment](tutorial-working-with-python-in-visual-studio-step-05-installing-packages.md)
