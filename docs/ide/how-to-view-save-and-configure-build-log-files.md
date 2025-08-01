@@ -1,7 +1,7 @@
 ---
 title: View, save, and configure build log files
 description: Explore how to configure build log files with information about the compiler and other tools for troubleshooting build failures.
-ms.date: 08/21/2024
+ms.date: 08/01/2025
 ms.subservice: compile-build
 ms.topic: how-to
 author: ghogen
