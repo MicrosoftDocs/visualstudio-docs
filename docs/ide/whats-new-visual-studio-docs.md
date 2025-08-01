@@ -148,7 +148,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- [Testing tools in Visual Studio # Required; page title displayed in search results. Include the brand. < 60 chars.](../test/index.yml) - Metadata updates
+- [Testing tools in Visual Studio](../test/index.yml) - Metadata updates
 - [Code generation, compilation, and naming conventions in Microsoft Fakes](../test/code-generation-compilation-and-naming-conventions-in-microsoft-fakes.md) - Update author values for Test
 - [Isolate code under test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md) - Update author values for Test
 - [Use shims to isolate your app for unit testing](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md) - Update author values for Test
