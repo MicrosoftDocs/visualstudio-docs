@@ -24,12 +24,6 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 - [Azure development with Visual Studio](../azure/overview.md) - Update Azure Development overview
 - [Add Application Insights with Visual Studio Connected Services](../azure/azure-app-insights-add-connected-service.md) - Review and update
 
-### Containers
-
-**Updated articles**
-
-- [Docker container development tools documentation](../containers/index.yml) - Containers index page updates
-
 ### Data tools
 
 **Updated articles**
@@ -85,7 +79,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 - [Specify build events (C#)](../ide/how-to-specify-build-events-csharp.md) - UI Reference cleanup and redirections for .NET Framework project designer pages
 - [Specify build events (Visual Basic)](../ide/how-to-specify-build-events-visual-basic.md) - UI Reference cleanup and redirections for .NET Framework project designer pages
 - [Code style preferences and code cleanup](../ide/code-styles-and-code-cleanup.md)
-  - Update C# language UI ref
+  - Update C# language UI reference
   - Clarify source for .NET code styles in the IDE
 - [Use GitHub Copilot for free in Visual Studio](../ide/copilot-free-plan.md) - Visual Studio 17.14.10 social sign in updates
 - [Add your GitHub accounts to your Visual Studio keychain](../ide/work-with-github-accounts.md)
