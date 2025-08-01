@@ -34,12 +34,9 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 ### Debugger
 
-**New articles**
-
-- [Walkthrough: Debugging a parallel application in Visual Studio (C#, C++)](../debugger/debug-parallel-application.md)
-
 **Updated articles**
 
+- [Walkthrough: Debugging a parallel application in Visual Studio (C#, C++)](../debugger/debug-parallel-application.md)
 - [Debug an async application](../debugger/walkthrough-debugging-a-parallel-application.md) - Update .NET sample in async debugging and refactor content
 
 ### Deployment
