@@ -5,7 +5,7 @@ author: ghogen
 manager: mijacobs
 ms.subservice: azure-development
 ms.topic: how-to
-ms.date: 06/18/2024
+ms.date: 08/01/2025
 ms.author: ghogen
 monikerRange: ">=vs-2019"
 ---
