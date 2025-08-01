@@ -77,7 +77,7 @@ The following example is based on the TypeScript React project template provided
 
    - vitest
 
-   This package are added to the *package.json* file under dependencies.
+   This package is added to the *package.json* file under dependencies.
 
    > [!NOTE]
    > If you're using jest, the jest-editor-support npm package is required as well as the jest package.
@@ -137,7 +137,7 @@ For some unit test frameworks, unit tests are typically run against the generate
 
 ## Write unit tests for ASP.NET Core
 
-To add support for unit testing of JavaScript and TypeScript in an ASP.NET Core project, you need to add TypeScript, Npm, and unit testing support to the project by including required NuGet packages.
+To add support for unit testing of JavaScript and TypeScript in an ASP.NET Core project, you need to add TypeScript, npm, and unit testing support to the project by including required NuGet packages.
 
 ### Add a unit test (ASP.NET Core)
 
@@ -187,7 +187,7 @@ The following example is based on the ASP.NET Core Model-View-Controller project
 
    # [Mocha](#tab/mocha)
 
-   The `JavaScriptTestRoot` element specifies the location for your unit tests. To simplify the configuration for Mocha, in this example we point the test root to the output folder, *wwwroot\js\tests\*.
+   The `JavaScriptTestRoot` element specifies the location for your unit tests. To simplify the configuration for Mocha, in this example we point the test root to the output folder, *wwwroot\js\tests\\*.
 
    ```xml
    <PropertyGroup>
