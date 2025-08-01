@@ -3,7 +3,7 @@ title: Understanding the product keys offered in your Visual Studio subscription
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 04/17/2025
+ms.date: 08/01/2025
 ms.topic: conceptual
 description: Obtain and manage your product keys in Visual Studio subscriptions for products that require keys for installation or activation.
 ---
@@ -42,16 +42,16 @@ Our research shows that most subscribers are covered by the number of product ke
 
 1. Sign in to your Visual Studio subscription. 
 2. Go to the [Product Keys](https://my.visualstudio.com/productkeys?wt.mc_id=o~msft~docs) page. On this page you can find static keys that work for all users of a product, get custom keys just for your use, see the status of your key claim limits, and export all of your product keys. 
-3. For a specific key, select the blue **Get Key** link for a particular product on the [Downloads](https://my.visualstudio.com/downloads) page as shown in the following image. 
+3. For a specific key, select the **Blue Key** icon for a particular product on the [Downloads](https://my.visualstudio.com/downloads) page as shown in the following image. 
  When multiple keys exist for a single product, notes are displayed on the Notes column for the download to assist you in identifying which key should be used.
 
 Some products bundle multiple editions of the product into a single download. In these cases, the product key entered determines which edition of the product is installed.
-Some keys are provided automatically, such as "static" keys, which you can use as many times as needed because activation isn't required. Other keys must be claimed by selecting the **Get Key** link for the product.
+Some keys are provided automatically, such as "static" keys, which you can use as many times as needed because activation isn't required. Other keys must be claimed by selecting the **Blue Key** icon for the product.
 > [!div class="mx-imgBorder"]
-> ![Get Key from Downloads Page](_img/product-keys/download-get-key.png "Screenshot of the download page for Visual Studio Professional 2019. The Get key link is highlighted.")
+> ![Get Key from Downloads Page](_img/product-keys/download-get-key-rev.png "Screenshot of the download page for Visual Studio Enterprise 2022. The blue key icon is highlighted.")
 
 > [!div class="mx-imgBorder"]
-> ![Product Keys Page](_img/product-keys/product-keys-page.png "Screenshot of the Product keys page on the subscription portal.")
+> ![Product Keys Page](_img/product-keys/product-keys-page-rev.png "Screenshot of the Product keys page on the subscription portal.")
 
 Various key types are available, depending on the product.
 
