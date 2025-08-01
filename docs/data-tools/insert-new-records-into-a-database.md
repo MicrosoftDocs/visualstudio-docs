@@ -1,7 +1,7 @@
 ---
 title: Insert records into database (.NET Framework)
 description: Insert new records into a database with .NET Framework application development in Visual Studio, including the ADO.NET TableAdapter Update method.
-ms.date: 08/26/2024
+ms.date: 08/01/2025
 ms.topic: how-to
 dev_langs:
 - VB
