@@ -1,6 +1,21 @@
 {
   "redirections": [
     {
+      "source_path": "docs/ide/reference/toolbox-data-tab.md",
+      "redirect_url": "/visualstudio/ide/reference/toolbox",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/toolbox-html-tab.md",
+      "redirect_url": "/visualstudio/ide/reference/toolbox",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/toolbox-components-tab.md",
+      "redirect_url": "/visualstudio/ide/reference/toolbox",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/msbuild/walkthrough-creating-an-inline-task.md",
       "redirect_url": "/visualstudio/msbuild/msbuild-roslyncodetaskfactory",
       "redirect_document_id": false
