@@ -41,7 +41,7 @@ Before you can distribute prerequisite software with a ClickOnce application, yo
 
 6. Copy the file to the root folder for the prerequisite.
 
-    For example, for the .NET Framework 4.7.2 prerequisite, copy the file to the `%ProgramFiles(x86)%\Microsoft SDKs\ClickOnce Bootstrapper\Packages\DotNetFX472* folder.
+    For example, for the .NET Framework 4.7.2 prerequisite, copy the file to the `%ProgramFiles(x86)%\Microsoft SDKs\ClickOnce Bootstrapper\Packages\DotNetFX472` folder.
 
     You can now distribute the installer package with your application.
 
