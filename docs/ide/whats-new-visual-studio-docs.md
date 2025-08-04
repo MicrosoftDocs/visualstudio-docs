@@ -49,7 +49,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- [Application Patterns for Visual Studio](../extensibility/ux-guidelines/application-patterns-for-visual-studio.md) - Correct application patterns for visual studio
+- [Application Patterns for Visual Studio](../extensibility/ux-guidelines/application-patterns-for-visual-studio.md) - Correct application patterns for Visual Studio
 
 ### Get started
 
