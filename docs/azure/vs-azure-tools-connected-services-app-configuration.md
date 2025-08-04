@@ -7,6 +7,7 @@ ms.topic: how-to
 ms.date: 05/15/2023
 ms.author: ghogen
 monikerRange: ">=vs-2019"
+ms.custom: sfi-image-nochange
 ---
 
 # Adding Azure App Configuration by using Visual Studio Connected Services

@@ -1,7 +1,7 @@
 ---
 title: About GitHub Copilot Chat in Visual Studio
 description: Learn about the fully integrated GitHub Copilot Chat in Visual Studio. Use the chat interface to ask coding-related questions from right within the IDE.
-ms.date: 2/26/2025
+ms.date: 7/31/2025
 ms.update-cycle: 180-days
 ms.topic: overview 
 author: anandmeg
@@ -54,7 +54,7 @@ You can ask your coding related questions in natural language and GitHub Copilot
 
 There are two places you can ask Copilot these questions; in a [chat window](#ask-questions-in-the-chat-window), or directly inline in the code that you're looking to modify, using [inline chat](#ask-questions-in-the-inline-chat-view). For questions where your goal is to modify or add to the code file you have open in the editor, the inline chat view will usually work best, whereas more general coding questions are best answered in the chat pane.
 
-See [tips to improve Copilot chat](copilot-chat-context.md) results to learn how to use [slash commands](copilot-chat-context.md#slash-commands), [references](copilot-chat-context.md#reference), [sources used](copilot-chat-context.md#find-context), and [threads](copilot-chat-context.md#threads) to get better answers with scoped context in Copilot Chat.
+See [tips to improve Copilot chat](copilot-chat-context.md) results to learn how to use [slash commands](copilot-chat-context.md#slash-commands), [references](copilot-chat-context-references.md#reference-context), [sources used](copilot-chat-context-references.md#find-context), and [threads](copilot-chat-context-references.md#threads) to get better answers with scoped context in Copilot Chat.
 
 >[!NOTE]
 >With Visual Studio 2022 version 17.11, [content exclusion is available for GitHub Copilot Chat](visual-studio-github-copilot-admin.md#github-copilot-chat-in-visual-studio-and-content-exclusions) in Visual Studio. Content excluded by your admin will now be ignored in chat's responses. See [configuring content exclusions for GitHub Copilot](https://docs.github.com/copilot/managing-github-copilot-in-your-organization/configuring-content-exclusions-for-github-copilot?tool=visualstudio) to learn more.
@@ -112,8 +112,8 @@ The inline chat view of Copilot Chat in Visual Studio enables you to ask your qu
 
 ### Attach images to chat prompts
 
-With Visual Studio 17.14 Preview 1, you can attach images in chat to add contextual input and generate better responses.
-To attach an image to a prompt, paste an image from the clipboard or select the paperclip icon in the chat window to upload an image from File Explorer. Copilot analyzes the image and uses it as additional context to generate a better response.
+With Visual Studio 17.14 and later, you can attach images in chat to add contextual input and generate better responses.
+To attach an image to a prompt, paste an image from the clipboard or select the ➕ icon ton in the chat input and then select **Upload Image** to upload an image from File Explorer. Copilot analyzes the image and uses it as additional context to generate a better response.
 
 :::image type="content" source="media/vs-2022/visual-studio-github-copilot-chat/attach-image-copilot-chat.png" alt-text="Screenshot of how to attach images in Copilot Chat." lightbox="media/vs-2022/visual-studio-github-copilot-chat/attach-image-copilot-chat.png" :::
 

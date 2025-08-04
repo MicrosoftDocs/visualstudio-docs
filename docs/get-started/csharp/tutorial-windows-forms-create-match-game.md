@@ -7,6 +7,7 @@ manager: mijacobs
 ms.subservice: general-ide
 ms.topic: tutorial
 ms.date: 08/23/2024
+ms.custom: sfi-image-nochange
 
 #customer intent: As a developer, I want to learn about using the Visual Studio IDE to create a Windows Forms application. 
 ---

@@ -10,6 +10,7 @@ manager: mijacobs
 ms.subservice: javascript-typescript
 dev_langs:
   - JavaScript
+ms.custom: sfi-image-nochange
 ---
 
 # Debug a JavaScript or TypeScript app in Visual Studio

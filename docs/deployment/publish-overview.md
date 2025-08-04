@@ -16,6 +16,7 @@ ms.author: ghogen
 manager: mijacobs
 monikerRange: '>= vs-2019'
 ms.subservice: deployment
+ms.custom: sfi-image-nochange
 ---
 # Overview of Publish
 

@@ -9,6 +9,7 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: deployment
+ms.custom: sfi-image-nochange
 ---
 # Quickstart: Publish an ASP.NET web app
 

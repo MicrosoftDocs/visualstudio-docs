@@ -8,6 +8,7 @@ ms.topic: overview
 ms.date: 08/17/2023
 ms.author: ghogen
 monikerRange: ">=vs-2019"
+ms.custom: sfi-image-nochange
 ---
 
 # GitHub Actions deployment to Azure in Visual Studio

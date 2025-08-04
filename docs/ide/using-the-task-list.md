@@ -1,7 +1,7 @@
 ---
 title: Use Task List to track and use code comments
 description: Explore the Task List tool in Visual Studio and discover how to efficiently use code comments, including tracking code tokens and managing code shortcuts.
-ms.date: 08/19/2024
+ms.date: 08/01/2025
 ms.topic: how-to
 f1_keywords:
 - TaskListWindow

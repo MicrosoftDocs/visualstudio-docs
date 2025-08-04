@@ -1,7 +1,7 @@
 ---
 title: Create an MSBuild Inline Task with RoslynCodeTaskFactory
 description: Learn about MSBuild RoslynCodeTaskFactory, which uses the cross-platform Roslyn compilers to generate in-memory task assemblies for use as inline tasks.
-ms.date: 09/21/2017
+ms.date: 7/15/2025
 ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, tasks
@@ -12,17 +12,17 @@ ms.subservice: msbuild
 ---
 # Create an MSBuild inline task with RoslynCodeTaskFactory
 
-Similar to the [CodeTaskFactory](../msbuild/msbuild-inline-tasks.md), RoslynCodeTaskFactory uses the cross-platform Roslyn compilers to generate in-memory task assemblies for use as inline tasks.  RoslynCodeTaskFactory tasks target .NET Standard and can work on .NET Framework and .NET Core runtimes as well as other platforms such as Linux and macOS.
+`RoslynCodeTaskFactory` uses the cross-platform Roslyn compilers to generate in-memory task assemblies for use as inline tasks. `RoslynCodeTaskFactory` tasks target .NET Standard and can work on .NET Framework and .NET Core runtimes as well as other platforms such as Linux and macOS.
 
 >[!NOTE]
 >The RoslynCodeTaskFactory is available in MSBuild 15.8 and above only. MSBuild versions follow Visual Studio versions, so RoslynCodeTaskFactory is available in Visual Studio 2017 version 15.8 and higher.
 
 ## The structure of an inline task with RoslynCodeTaskFactory
 
- RoslynCodeTaskFactory inline tasks are declared in an identical way as [CodeTaskFactory](../msbuild/msbuild-inline-tasks.md), the only difference being that they target .NET Standard.  The inline task and the `UsingTask` element that contains it are typically included in a *.targets* file and imported into other project files as required. Here is a basic inline task. Notice that it does nothing.
+ `RoslynCodeTaskFactory` inline tasks are declared by using the `UsingTask` element. The inline task and the `UsingTask` element that contains it are typically included in a `.targets` file and imported into other project files as required. Here's a basic inline task. Notice that it does nothing.
 
 ```xml
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
   <!-- This simple inline task does nothing. -->
   <UsingTask
     TaskName="DoNothing"
@@ -47,15 +47,15 @@ Similar to the [CodeTaskFactory](../msbuild/msbuild-inline-tasks.md), RoslynCode
 
 - The `AssemblyFile` attribute gives the location of the inline task factory. Alternatively, you can use the `AssemblyName` attribute to specify the fully qualified name of the inline task factory class, which is typically located in the global assembly cache (GAC).
 
-The remaining elements of the `DoNothing` task are empty and are provided to illustrate the order and structure of an inline task. A more robust example is presented later in this topic.
+The remaining elements of the `DoNothing` task are empty and are provided to illustrate the order and structure of an inline task. A more robust example is presented later in this article.
 
-- The `ParameterGroup` element is optional. When specified, it declares the parameters for the task. For more information about input and output parameters, see [Input and Output Parameters](#input-and-output-parameters) later in this topic.
+- The `ParameterGroup` element is optional. When specified, it declares the parameters for the task. For more information about input and output parameters, see [Input and Output Parameters](#input-and-output-parameters) later in this article.
 
 - The `Task` element describes and contains the task source code.
 
-- The `Reference` element specifies references to the .NET assemblies that you are using in your code. This is equivalent to adding a reference to a project in Visual Studio. The `Include` attribute specifies the path of the referenced assembly.
+- The `Reference` element specifies references to the .NET assemblies that you're using in your code. This is equivalent to adding a reference to a project in Visual Studio. The `Include` attribute specifies the path of the referenced assembly.
 
-- The `Using` element lists the namespaces that you want to access. This resembles the `Using` statement in Visual C#. The `Namespace` attribute specifies the namespace to include.
+- The `Using` element lists the namespaces that you want to access. This element resembles the `using` directive in Visual C#. The `Namespace` attribute specifies the namespace to include.
 
 `Reference` and `Using` elements are language-agnostic. Inline tasks can be written in any one of the supported .NET CodeDom languages, for example, Visual Basic or Visual C#.
 
@@ -81,14 +81,14 @@ The code itself typically appears between a `<![CDATA[` marker and a `]]>` marke
 Alternatively, you can use the `Source` attribute of the `Code` element to specify the location of a file that contains the code for your task. The code in the source file must be of the type that is specified by the `Type` attribute. If the `Source` attribute is present, the default value of `Type` is `Class`. If `Source` is not present, the default value is `Fragment`.
 
 > [!NOTE]
-> When defining the task class in the source file, the class name must agree with the `TaskName` attribute of the corresponding [UsingTask](../msbuild/usingtask-element-msbuild.md) element.
+> If you define the task class in a source file, the class name must agree with the `TaskName` attribute of the corresponding [UsingTask](../msbuild/usingtask-element-msbuild.md) element.
 
 ## Hello World
 
- Here is a more robust inline task with RoslynCodeTaskFactory. The HelloWorld task displays "Hello, world!" on the default error logging device, which is typically the system console or the Visual Studio **Output** window. The `Reference` element in the example is included just for illustration.
+ Here is a more robust inline task with `RoslynCodeTaskFactory`. The HelloWorld task displays "Hello, world!" on the default error logging device, which is typically the system console or the Visual Studio **Output** window. The `Reference` element in the example is included just for illustration.
 
 ```xml
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
   <!-- This simple inline task displays "Hello, world!" -->
   <UsingTask
     TaskName="HelloWorld"
@@ -110,10 +110,10 @@ Log.LogError("Hello, world!");
 </Project>
 ```
 
-You could save the HelloWorld task in a file that is named *HelloWorld.targets*, and then invoke it from a project as follows.
+You could save the `HelloWorld` task in a file that is named *HelloWorld.targets*, and then invoke it from a project as follows.
 
 ```xml
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
   <Import Project="HelloWorld.targets" />
   <Target Name="Hello">
     <HelloWorld />
@@ -157,14 +157,14 @@ defines these three parameters:
 
 - `Tally` is an output parameter of type System.Int32.
 
-If the `Code` element has the `Type` attribute of `Fragment` or `Method`, then properties are automatically created for every parameter.  In RoslynCodeTaskFactory, if the `Code` element has the `Type` attribute of `Class`, then you do not have to specify the `ParameterGroup`, since it is inferred from the source code (this is a difference from `CodeTaskFactory`). Otherwise, properties must be explicitly declared in the task source code, and must exactly match their parameter definitions.
+If the `Code` element has the `Type` attribute of `Fragment` or `Method`, then properties are automatically created for every parameter. In RoslynCodeTaskFactory, if the `Code` element has the `Type` attribute of `Class`, then you do not have to specify the `ParameterGroup`, since it is inferred from the source code (this is a difference from `CodeTaskFactory`). Otherwise, properties must be explicitly declared in the task source code, and must exactly match their parameter definitions.
 
 ## Example
 
  The following inline task logs some messages and returns a string.
 
 ```xml
-<Project xmlns='http://schemas.microsoft.com/developer/msbuild/2003' ToolsVersion="15.0">
+<Project>
 
     <UsingTask TaskName="MySample"
                TaskFactory="RoslynCodeTaskFactory"
@@ -200,7 +200,7 @@ If the `Code` element has the `Type` attribute of `Fragment` or `Method`, then p
 These inline tasks can combine paths and get the file name.
 
 ```xml
-<Project xmlns='http://schemas.microsoft.com/developer/msbuild/2003' ToolsVersion="15.0">
+<Project>
 
     <UsingTask TaskName="PathCombine"
                TaskFactory="RoslynCodeTaskFactory"
@@ -254,14 +254,14 @@ These inline tasks can combine paths and get the file name.
 
 ## Provide backward compatibility
 
-`RoslynCodeTaskFactory` first became available in MSBuild version 15.8. Suppose you have a situation where you want to support previous versions of Visual Studio and MSBuild, when `RoslynCodeTaskFactory` was not available, but `CodeTaskFactory` was, but you want to use the same build script. You can use a `Choose` construct that uses the `$(MSBuildVersion)` property to decide at build time whether to use the `RoslynCodeTaskFactory` or fall back to `CodeTaskFactory`, as in the following example:
+`RoslynCodeTaskFactory` first became available in MSBuild version 15.8. Suppose you want to support previous versions of Visual Studio and MSBuild, when `RoslynCodeTaskFactory` was not available, but `CodeTaskFactory` was, but you want to use the same build script. You can use a `Choose` construct that uses the `$(MSBuildVersion)` property to decide at build time whether to use the `RoslynCodeTaskFactory` or fall back to `CodeTaskFactory`, as in the following example:
 
 ```xml
-<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk" DefaultTargets="RunTask">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
   </PropertyGroup>
 
   <Choose>
@@ -306,4 +306,3 @@ These inline tasks can combine paths and get the file name.
 ## Related content
 
 - [Tasks](../msbuild/msbuild-tasks.md)
-- [Walkthrough: Create an inline task](../msbuild/walkthrough-creating-an-inline-task.md)

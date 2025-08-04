@@ -6,6 +6,7 @@ ms.topic: how-to
 author: "willbrown"
 ms.author: madsk
 manager: "justinclareburt"
+ms.custom: sfi-image-nochange
 ---
 # Make extensions compatible with Visual Studio 2019/2017 and Visual Studio 2015
 

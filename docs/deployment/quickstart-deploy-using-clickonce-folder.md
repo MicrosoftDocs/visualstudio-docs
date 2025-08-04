@@ -10,6 +10,7 @@ ms.author: JohnHart
 manager: mijacobs
 ms.subservice: deployment
 monikerRange: '>= vs-2019'
+ms.custom: sfi-image-nochange
 ---
 # Deploy a .NET Windows desktop application using ClickOnce
 

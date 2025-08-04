@@ -7,6 +7,7 @@ author: tinaschrepfer
 ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
+ms.custom: sfi-ropc-nochange
 ---
 # Colors and Styling for Visual Studio
 
