@@ -244,7 +244,8 @@ These video tutorials demonstrate how you can use the Threads and Tasks views of
 
 ## Related content
 - [Get started debugging a multithreaded application](../debugger/get-started-debugging-multithreaded-apps.md)
-- [Walkthrough: Debug a parallel application](../debugger/walkthrough-debugging-a-parallel-application.md)
+- [Debug an async application (.NET)](../debugger/walkthrough-debugging-a-parallel-application.md)
+- [Debug a deadlock](../debugger/how-to-use-the-threads-window.md)
 - [Switch to Another Thread While Debugging in Visual Studio](../debugger/how-to-switch-to-another-thread-while-debugging.md)
 - [Debugging managed code](/visualstudio/debugger/)
 - [Parallel programming](/dotnet/standard/parallel-programming/index)

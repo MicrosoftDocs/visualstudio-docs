@@ -42,8 +42,6 @@ The section covers some common debugging problems and techniques for native appl
 
 [How to: Debug Injected Code](/cpp/windows/attributes/cpp-attributes-com-net#debug-injected-code.md) provides guidance on debugging code that uses attributes. Instructions include how to turn on Source Annotation, how to view injected code, and how to view the disassembly code at the current execution point.
 
-[Walkthrough: Debugging a Parallel Application](../debugger/walkthrough-debugging-a-parallel-application.md) describes how to use the **Parallel Tasks** and **Parallel Stacks** tool windows to debug a parallel application.
-
 ## Related sections
 
 [Prepare to debug C++ projects](../debugger/debugging-preparation-visual-cpp-project-types.md) provides links to topics that describe how to debug the native project types created by the C++ project templates.

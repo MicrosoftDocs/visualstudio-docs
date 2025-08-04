@@ -296,7 +296,7 @@ This walkthrough demonstrated the **Parallel Stacks** debugger window. Use this 
 
 ## Related content
 
-- [Debugging Multithreaded Applications](../debugger/walkthrough-debugging-a-parallel-application.md)
+- [Debug a deadlock](../debugger/how-to-use-the-threads-window.md)
 - [First look at the debugger](../debugger/debugger-feature-tour.md)
 - [Parallel Programming](/dotnet/standard/parallel-programming/index)
 - [Concurrency Runtime](/cpp/parallel/concrt/concurrency-runtime)
