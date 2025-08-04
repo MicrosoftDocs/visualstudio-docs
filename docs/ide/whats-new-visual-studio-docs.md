@@ -79,15 +79,10 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
   - Update C# language UI reference
   - Clarify source for .NET code styles in the IDE
 - [Use GitHub Copilot for free in Visual Studio](../ide/copilot-free-plan.md) - Visual Studio 17.14.10 social sign in updates
-- [Add your GitHub accounts to your Visual Studio keychain](../ide/work-with-github-accounts.md)
-  - Visual Studio 17.14.10 social sign in updates
-  - [SCOPED] Moniker range future proofing
-- [Define consistent coding styles with EditorConfig](../ide/create-portable-custom-editor-options.md)
-  - Update article on EditorConfig
-  - Update author values for Test
+- [Add your GitHub accounts to your Visual Studio keychain](../ide/work-with-github-accounts.md) - Visual Studio 17.14.10 social sign in updates
+- [Define consistent coding styles with EditorConfig](../ide/create-portable-custom-editor-options.md) - Update article on EditorConfig
 - [Find, install, and manage extensions for Visual Studio](../ide/finding-and-using-visual-studio-extensions.md)
   - Extension Manager updates for 17.14
-  - Update ownership metadata
 - [IntelliCode: AI-assisted code development in Visual Studio](../ide/intellicode-visual-studio.md) - Update UI text
 - [AI assistance when you write code](../ide/visual-studio-whole-line-completions.md) - Mention how to disable
 - [Customize chat responses and set context](../ide/copilot-chat-context.md) - Refactoring context page
@@ -140,16 +135,6 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 - [Install Python support in Visual Studio](../python/installing-python-support-in-visual-studio.md) - Review and update
 - [Create and manage Python environments in Visual Studio](../python/managing-python-environments-in-visual-studio.md) - Review and update
 - [Python support in Visual Studio on Windows](../python/overview-of-python-tools-for-visual-studio.md) - Review and update
-
-### Test
-
-**Updated articles**
-
-- [Testing tools in Visual Studio](../test/index.yml) - Metadata updates
-- [Code generation, compilation, and naming conventions in Microsoft Fakes](../test/code-generation-compilation-and-naming-conventions-in-microsoft-fakes.md) - Update author values for Test
-- [Isolate code under test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md) - Update author values for Test
-- [Use shims to isolate your app for unit testing](../test/using-shims-to-isolate-your-application-from-other-assemblies-for-unit-testing.md) - Update author values for Test
-- [Use stubs to isolate parts of your application from each other for unit testing](../test/using-stubs-to-isolate-parts-of-your-application-from-each-other-for-unit-testing.md) - Update author values for Test
 
 ### Community contributors
 
