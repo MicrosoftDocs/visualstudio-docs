@@ -310,7 +310,7 @@
         href: get-started-debugging-multithreaded-apps.md
       - name: Debug an async application
         href: walkthrough-debugging-a-parallel-application.md
-      - name: Debug using the Threads window
+      - name: Debug a deadlock
         href: how-to-use-the-threads-window.md
     - name: Tools to debug threads and processes
       items:
