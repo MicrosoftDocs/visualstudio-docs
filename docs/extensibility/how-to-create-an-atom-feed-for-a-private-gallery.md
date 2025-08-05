@@ -1,7 +1,7 @@
 ---
 title: 'Create an Atom Feed for a Private Gallery'
 description: You can create an Atom (RSS) feed to an intranet location that contains extensions and add the feed to Extensions and Updates as a private gallery.
-ms.date: 11/04/2016
+ms.date: 8/5/2025
 ms.topic: how-to
 helpviewer_keywords:
 - Atom feed, VSIX private galleries
@@ -37,7 +37,7 @@ You can create an Atom (RSS) feed to an intranet location that contains extensio
   <id>uuid:bcecded5-97c8-4d24-96f1-7d9e16652433;id=1</id>
   <updated>2011-04-14T21:25:48Z</updated>
   <entry>
-    <id>SelectionHighlight..a14874d2-8199-4a60-af8a-11d6447813aa</id>
+    <id>SelectionHighlight.aaaaaaaa-0000-1111-2222-bbbbbbbbbbbb</id>
     <title type="text">Highlight all occurrences of selected word</title>
     <summary type="text">This extends the editor to highlight ....</summary>
     <published>2011-04-14T14:24:51-07:00</published>
@@ -45,11 +45,11 @@ You can create an Atom (RSS) feed to an intranet location that contains extensio
     <author>
       <name>Microsoft</name>
     </author>
-    <link rel="icon" href="VSIXImages/SelectionHighlight..a14874d2-8199-4a60-af8a-11d6447813aa_Icon_SelectionHighlightIcon.jpg" />
-    <link rel="previewimage" href="VSIXImages/SelectionHighlight..a14874d2-8199-4a60-af8a-11d6447813aa_PreviewImage_SelectionHighlight.jpg" />
+    <link rel="icon" href="VSIXImages/SelectionHighlight.aaaaaaaa-0000-1111-2222-bbbbbbbbbbbb_Icon_SelectionHighlightIcon.jpg" />
+    <link rel="previewimage" href="VSIXImages/SelectionHighlight.aaaaaaaa-0000-1111-2222-bbbbbbbbbbbb_PreviewImage_SelectionHighlight.jpg" />
     <content type="application/octet-stream" src="SelectionHighlight.vsix" />
     <Vsix xmlns="http://schemas.microsoft.com/developer/vsx-syndication-schema/2010" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-      <Id>SelectionHighlight..a14874d2-8199-4a60-af8a-11d6447813aa</Id>
+      <Id>SelectionHighlight.aaaaaaaa-0000-1111-2222-bbbbbbbbbbbb</Id>
       <Version>1.31</Version>
       <References />
       <Rating xsi:nil="true" />
