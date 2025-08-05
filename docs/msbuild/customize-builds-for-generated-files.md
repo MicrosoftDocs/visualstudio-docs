@@ -32,9 +32,9 @@ Files generated during execution don't exist during the evaluation phase, theref
 
   <ItemGroup>
     <!-- If your generated file was placed in `obj\` -->
-    <None Include="$(IntermediateOutputPath)my-generated-file.xyz" CopyToOutputDirectory="PreserveNewest"/>
+    <None Include="$(IntermediateOutputPath)GeneratedFile.cs" CopyToOutputDirectory="PreserveNewest"/>
     <!-- If you know exactly where that file is going to be, you can hard code the path. -->
-    <None Include="some\specific\path\my-generated-file.xyz" CopyToOutputDirectory="PreserveNewest"/>
+    <None Include="some\specific\path\my-generatedfile" CopyToOutputDirectory="PreserveNewest"/>
     
     <!-- If you want to capture "all files of a certain type", you can glob like so. -->
     <None Include="some\specific\path\*.xyz" CopyToOutputDirectory="PreserveNewest"/>
@@ -51,7 +51,7 @@ Adding your generated file to `None` or `Content` is sufficient for the build pr
 
 ## Next steps
 
-This example could be improved to support more realistic use cases. For example, to support incremental builds when the generated code depends on an input file, `Inputs` and `Outputs` should be provided to the target. Such a target would only regenerate the file if the date of the input file or files is more recent than the output file. Often when customizing for code generation, it's recommended to create a custom task. See [Create a custom task for code generation](./tutorial-custom-task-code-generation.md).
+This example could be improved to support more realistic use cases. For example, to support [incremental builds](./incremental-builds.md) when the generated code depends on an input file, `Inputs` and `Outputs` should be provided to the target. Such a target would only regenerate the file if the date of the input file or files is more recent than the output file. Often when customizing for code generation, it's recommended to create a custom task. See [Create a custom task for code generation](./tutorial-custom-task-code-generation.md).
 
 ## Related content
 
