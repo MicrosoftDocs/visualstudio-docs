@@ -56,4 +56,3 @@ Flagged threads also receive special treatment in the **Thread** list on the **D
 ## Related content
 - [Debug Multithreaded Applications](../debugger/debug-multithreaded-applications-in-visual-studio.md)
 - [Get started debugging multithreaded applications](../debugger/get-started-debugging-multithreaded-apps.md)
-- [Debug a dealock using the Threads view](../debugger/how-to-use-the-threads-window.md)

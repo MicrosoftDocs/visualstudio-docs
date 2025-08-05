@@ -25,7 +25,7 @@ You can open most debugger windows while you're debugging your program. To see a
 |Immediate|CTRL+ALT+I|[Immediate Window](../ide/reference/immediate-window.md)|
 |Parallel Stacks|CTR:+SHIFT+D, S|[Using the Parallel Stacks Window](../debugger/using-the-parallel-stacks-window.md)|
 |Parallel Watch|CTR:+SHIFT+D, (1, 2, 3, 4)|[Get started Debugging Multithreaded Applications](../debugger/get-started-debugging-multithreaded-apps.md)|
-|Threads|CTRL+ALT+H|[Debug a deadlock using the Threads view](../debugger/how-to-use-the-threads-window.md)|
+|Threads|CTRL+ALT+H|[View threads in the Visual Studio debugger](../debugger/walkthrough-debugging-a-multithreaded-application.md)|
 |Modules|CTRL+ALT+U|[How to: Use the Modules Window](../debugger/how-to-use-the-modules-window.md)|
 |GPU Threads|-|[How to: Use the GPU Threads Window](../debugger/how-to-use-the-gpu-threads-window.md)|
 |Tasks|CTR:+SHIFT+D, K|[Using the Tasks Window](../debugger/using-the-tasks-window.md)|
