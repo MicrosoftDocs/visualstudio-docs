@@ -1,7 +1,7 @@
 ---
 title: Manage references in a project
 description: Manage references to external components and connected services in your project so Visual Studio can locate the component or the service.
-ms.date: 08/12/2024
+ms.date: 8/5/2025
 ms.topic: conceptual
 f1_keywords:
 - vs.ProjectPropertiesReferencePaths
@@ -140,6 +140,10 @@ Unlike most other project types, a *shared project* doesn't have any binary outp
 ## File references
 
 File references are direct references to assemblies outside the context of a Visual Studio project. You create them by using the **Browse** tab of the Reference Manager dialog box. Use a file reference when you just have an assembly or component, and not the project that creates it as output.
+
+## NuGet package references
+
+To referene a NuGet package, see [Install and use a package in Visual Studio](/nuget/quickstart/install-and-use-a-package-in-visual-studio).
 
 ## Related content
 
