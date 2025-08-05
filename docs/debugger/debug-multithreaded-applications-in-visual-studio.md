@@ -41,9 +41,17 @@ The existence of multiple processes enables a computer to perform more than one 
 
 Visual Studio provides different tools for use in debugging multithreaded apps.
 
+::: moniker range=">= vs-2022"
 - For threads, the primary tools for debugging threads are the **Parallel Stacks** window, the **Parallel Watch** window, thread markers in source windows, the **Threads** window, and the **Debug Location** toolbar. To learn about the **Threads** view in **Parallel Stacks**, see [Debug a deadlock using Threads view](../debugger/how-to-use-the-threads-window.md). To learn how to use the **Parallel Stacks** and **Parallel Watch** windows, see [Get started debugging a multithreaded application](../debugger/get-started-debugging-multithreaded-apps.md). The get started article shows how to use thread markers. Also, see [Walkthrough: Debugging a C++ AMP application](/cpp/parallel/amp/walkthrough-debugging-a-cpp-amp-application).
 
 - For .NET code that uses async, the primary tools for debugging are **Tasks** view in the **Parallel Stacks** window. To get started, see [Debug an async application (.NET)](../debugger/walkthrough-debugging-a-parallel-application.md).
+::: moniker-end
+
+::: moniker range="vs-2019"
+- For threads, the primary tools for debugging threads are the **Parallel Stacks** window, the **Parallel Watch** window, thread markers in source windows, the **Threads** window, and the **Debug Location** toolbar. To learn about the **Threads** view in **Parallel Stacks**, see [View threads and tasks in the Parallel Stacks window](../debugger/using-the-parallel-stacks-window.md).. To learn how to use the **Parallel Stacks** and **Parallel Watch** windows, see [Get started debugging a multithreaded application](../debugger/get-started-debugging-multithreaded-apps.md). The get started article shows how to use thread markers. Also, see [Walkthrough: Debugging a C++ AMP application](/cpp/parallel/amp/walkthrough-debugging-a-cpp-amp-application).
+
+- For .NET code that uses async, the primary tools for debugging are **Tasks** view in the **Parallel Stacks** window. For more information, see [View threads and tasks in the Parallel Stacks window](../debugger/using-the-parallel-stacks-window.md).
+::: moniker-end
 
 - For debugging threads on the GPU, the primary tool is the **GPU Threads** window. See [How to: Use the GPU Threads window](../debugger/how-to-use-the-gpu-threads-window.md).
 

@@ -21,7 +21,13 @@ ms.subservice: debug-diagnostics
 
 The **Tasks** window resembles the **Threads** window, except that it shows information about <xref:System.Threading.Tasks.Task?displayProperty=fullName> or [task_handle](/cpp/parallel/concrt/reference/task-group-class) objects instead of each thread. Like threads, tasks represent asynchronous operations that can run concurrently; however, multiple tasks may run on the same thread.
 
+::: moniker range=">=vs-2022"
 In .NET code, you can use the **Tasks** window when you work with apps using the async/await pattern (**Await** and **Async** in VisualBasic). However, the **Tasks** view in the **Parallel Stacks** window is often more helpful for debugging async applications. For more information, see [Debug an async application](../debugger/walkthrough-debugging-a-parallel-application.md).
+::: moniker-end
+
+::: moniker range="vs-2019"
+In .NET code, you can use the **Tasks** window when you work with apps using the async/await pattern (**Await** and **Async** in VisualBasic). However, the **Tasks** view in the **Parallel Stacks** window is often more helpful for debugging async applications. For more information, see [View threads and tasks in the Parallel Stacks window](../debugger/using-the-parallel-stacks-window.md).
+::: moniker-end
 
 > [!TIP]
 > For C/C++ code, the **Threads** view in the **Parallel Stacks** window is typically the most helpful when you need to debug [task groups](/cpp/parallel/concrt/task-parallelism-concurrency-runtime), [parallel algorithms](/cpp/parallel/concrt/parallel-algorithms), [asynchronous agents](/cpp/parallel/concrt/asynchronous-agents), and [lightweight tasks](/cpp/parallel/concrt/task-scheduler-concurrency-runtime). For more information, see [View threads and tasks in the Parallel Stacks window](../debugger/using-the-parallel-stacks-window.md).

@@ -32,7 +32,13 @@ The **Threads** window in the Visual Studio debugger lets you examine and work w
 
 The **Threads** window is available only while the Visual Studio debugger is running. During a debugging session, you can open the window by selecting **Debug** > **Windows** > **Threads**.
 
+::: moniker range=">= vs-2022"
 This article describes how to work with the **Threads** window for your C#, Visual Basic, or C++ programs. However, the **Threads** view in the Parallel Stacks window is often more helpful for debugging. For more information, see [Debug a deadlock using the Threads view](./how-to-use-the-threads-window.md) and [View threads and tasks in the Parallel Stacks window](../debugger/using-the-parallel-stacks-window.md).
+::: moniker-end
+
+::: moniker range="vs-2019"
+This article describes how to work with the **Threads** window for your C#, Visual Basic, or C++ programs. However, the **Threads** view in the Parallel Stacks window is often more helpful for debugging. For more information, see [View threads and tasks in the Parallel Stacks window](../debugger/using-the-parallel-stacks-window.md).
+::: moniker-end
 
 ## Explore the Threads window table
 
