@@ -11,6 +11,8 @@ dev_langs:
 helpviewer_keywords: 
   - multithreaded debugging, tutorial
   - tutorials, multithreaded debugging
+  - deadlock, debugging
+  - debugging, deadlock
 author: mikejo5000
 ms.author: mikejo
 manager: mijacobs
@@ -303,7 +305,7 @@ This walkthrough demonstrated the **Parallel Stacks** debugger window. Use this 
 
 ## Related content
 
-- [Debugging Multithreaded Applications](../debugger/walkthrough-debugging-a-parallel-application.md)
+- [Debug an async application (.NET)](../debugger/walkthrough-debugging-a-parallel-application.md)
 - [First look at the debugger](../debugger/debugger-feature-tour.md)
 - [Parallel Programming](/dotnet/standard/parallel-programming/index)
 - [Concurrency Runtime](/cpp/parallel/concrt/concurrency-runtime)
