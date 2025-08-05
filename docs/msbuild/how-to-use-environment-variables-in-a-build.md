@@ -18,7 +18,7 @@ When you build projects, it's often necessary to set build options using informa
 
 ## Reference environment variables
 
- All environment variables that are valid MSBuild property names are available to the MSBuild project file as properties. Valid property names are described in [MSBuild properties](msbuild-properties.md). For example, environment variables that begin with a number are not available in MSBuild.
+ All environment variables that are valid MSBuild property names are available to the MSBuild project file as properties. Valid property names are described in [MSBuild properties](msbuild-properties.md). For example, environment variables that begin with a number aren't available in MSBuild.
 
 > [!NOTE]
 > If the project file contains an explicit definition of a property that has the same name as an environment variable, the property in the project file overrides the value of the environment variable.
@@ -33,7 +33,7 @@ When you build projects, it's often necessary to set build options using informa
 
 #### To provide a default value for a property
 
-- Use a `Condition` attribute on a property to set the value only if the property has no value. For example, the following code sets the `ToolsPath` property to *c:\tools* only if the `ToolsPath` environment variable is not set:
+- Use a `Condition` attribute on a property to set the value only if the property has no value. For example, the following code sets the `ToolsPath` property to *c:\tools* only if the `ToolsPath` environment variable isn't set:
 
      `<ToolsPath Condition="'$(TOOLSPATH)' == ''">c:\tools</ToolsPath>`
 
