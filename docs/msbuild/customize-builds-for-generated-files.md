@@ -1,7 +1,7 @@
 ---
 title: Handle generated files in a build
 description: Customize MSBuild project files in Visual Studio so that files generated during the build process are included in build output.
-ms.date: 02/28/2023
+ms.date: 8/5/2025
 ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, transforms
@@ -22,6 +22,13 @@ Files generated during execution don't exist during the evaluation phase, theref
   
   <!-- Some logic that generates your file goes here -->
   <!-- Generated files should be placed in $(IntermediateOutputPath) -->
+  <WriteLinesToFile
+      File="$(IntermediateOutputPath)GeneratedFile.cs"
+      Lines='enum MyEnum { A, B }'
+      Overwrite="true" />
+    <ItemGroup>
+      <Compile Include="$(IntermediateOutputPath)GeneratedFile.cs" />
+    </ItemGroup>
 
   <ItemGroup>
     <!-- If your generated file was placed in `obj\` -->
@@ -34,9 +41,17 @@ Files generated during execution don't exist during the evaluation phase, theref
     <None Include="some\specific\path\*.*" CopyToOutputDirectory="PreserveNewest"/>
   </ItemGroup>
 </Target>
+
+ <Target Name="CleanGeneratedCode" AfterTargets="CoreClean">
+  <Delete Files="$(IntermediateOutputPath)GeneratedFile.cs" />
+</Target>
 ```
 
 Adding your generated file to `None` or `Content` is sufficient for the build process to see it. You also want to ensure it gets added at the right time. Ideally, your target runs before `BeforeBuild`. `AssignTargetPaths` is another possible target, as it is the final opportunity to modify `None` and `Content` items (among others) before they are transformed into new items. See [Common Item Types](common-msbuild-project-items.md).
+
+## Next steps
+
+This example could be improved to support more realistic use cases. For example, to support incremental builds when the generated code depends on an input file, `Inputs` and `Outputs` should be provided to the target. Such a target would only regenerate the file if the date of the input file or files is more recent than the output file. Often when customizing for code generation, it's recommended to create a custom task. See [Create a custom task for code generation](./tutorial-custom-task-code-generation.md).
 
 ## Related content
 
