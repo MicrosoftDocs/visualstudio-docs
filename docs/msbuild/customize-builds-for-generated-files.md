@@ -32,7 +32,7 @@ Files generated during execution don't exist during the evaluation phase, theref
 
   <ItemGroup>
     <!-- If your generated file was placed in `obj\` -->
-    <None Include="$(IntermediateOutputPath)GeneratedFile.cs" CopyToOutputDirectory="PreserveNewest"/>
+    <None Include="$(IntermediateOutputPath)GeneratedFile.cs" TargetPath="GeneratedFile.cs" CopyToOutputDirectory="PreserveNewest"/>
     <!-- If you know exactly where that file is going to be, you can hard code the path. -->
     <None Include="some\specific\path\my-generatedfile" CopyToOutputDirectory="PreserveNewest"/>
     
@@ -48,6 +48,25 @@ Files generated during execution don't exist during the evaluation phase, theref
 ```
 
 Adding your generated file to `None` or `Content` is sufficient for the build process to see it. You also want to ensure it gets added at the right time. Ideally, your target runs before `BeforeBuild`. `AssignTargetPaths` is another possible target, as it is the final opportunity to modify `None` and `Content` items (among others) before they are transformed into new items. See [Common Item Types](common-msbuild-project-items.md).
+
+If you put the above into a file and call it `buildcodegen.targets`, you can run `dotnet new console`, import the file, and then build it to test everything:
+
+```xml
+<Project Sdk="Microsoft.NET.Sdk">
+<Import Project="buildcodegen.targets"/>
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
+```
+
+Run *msbuild.exe* and look at the output to verify that your file was generated and copied to the output folder. You can use *ildasm.exe* to confirm that your output binaries include the generated code `MyEnum`:
+
+`ildasm CodeGen.dll`
 
 ## Next steps
 
