@@ -72,9 +72,7 @@ Here are a few important points to remember when interpreting data in the Tasks 
 
    If the start window isn't open, choose **File** > **Start Window**.
 
-   ::: moniker range=">=vs-2022"
    On the start window, choose **New project**.
-   ::: moniker-end
 
    On the **Create a new project** window, enter or type *console* in the search box. Next, choose **C#** from the Language list, and then choose **Windows** from the Platform list.
 
