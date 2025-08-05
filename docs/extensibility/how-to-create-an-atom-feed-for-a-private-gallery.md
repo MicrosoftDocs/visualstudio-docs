@@ -16,13 +16,13 @@ ms.subservice: extensibility-integration
 You can create an Atom (RSS) feed to an intranet location that contains extensions and add the feed to **Extensions and Updates** as a private gallery. For more information, see [Private galleries](../extensibility/private-galleries.md).
 
 ## Create an Atom feed
- To create an Atom feed as a private gallery, you first gather your extensions (*.vsix* files) into a folder. You can organize them into subfolders if you want. You will also need the following resources:
+ To create an Atom feed as a private gallery, you first gather your extensions (`.vsix` files) into a folder. You can organize them into subfolders if you want. You also need the following resources:
 
 - An *atom.xml* file that makes the extensions available as a private gallery. For information about how to connect the *atom.xml* file to **Extensions and Updates**, see [Private galleries](../extensibility/private-galleries.md).
 
-- A folder that contains any image files that were extracted from the extensions (for example, screen shots). The *atom.xml* file contains relative links to these images so that they are available in **Extensions and Updates**.
+- A folder that contains any image files that were extracted from the extensions (for example, screen shots). The *atom.xml* file contains relative links to these images so that they're available in **Extensions and Updates**.
 
-  For example, assume that you have gathered the following two extensions into a folder:
+  For example, assume that you've gathered the following two extensions into a folder:
 
 - *Template_Wizard_239.vsix*, which is an empty VSIX project template.
 
@@ -64,7 +64,7 @@ You can create an Atom (RSS) feed to an intranet location that contains extensio
 </feed>
 ```
 
- Notice that the two link tags refer to screen shots in the generated folder of images.
+ Notice that the two link tags refer to screenshots in the generated folder of images.
 
 ## Related content
 - [Private galleries](../extensibility/private-galleries.md)
