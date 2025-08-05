@@ -19,7 +19,7 @@ ms.subservice: debug-diagnostics
 ---
 # Using the Tasks Window (C#, Visual Basic, C++)
 
-The **Tasks** window resembles the **Threads** window, except that it shows information about <xref:System.Threading.Tasks.Task?displayProperty=fullName> or [task_handle](/cpp/parallel/concrt/reference/task-group-class) objects instead of each thread. Like threads, tasks represent asynchronous operations that can run concurrently; however, multiple tasks may run on the same thread.
+The **Tasks** window resembles the **Threads** window, except that it shows information about asynchronous tasks created using the async/await pattern, also called the [Task-based asynchronous pattern (TAP)](/dotnet/standard/asynchronous-programming-patterns/task-based-asynchronous-pattern-tap) instead of thread-based information. Like threads, tasks represent asynchronous operations that can run concurrently; however, multiple tasks may run on the same thread.
 
 ::: moniker range=">=vs-2022"
 In .NET code, you can use the **Tasks** window when you work with apps using the async/await pattern (**Await** and **Async** in VisualBasic). However, the **Tasks** view in the **Parallel Stacks** window is often more helpful for debugging async applications. For more information, see [Debug an async application](../debugger/walkthrough-debugging-a-parallel-application.md).
