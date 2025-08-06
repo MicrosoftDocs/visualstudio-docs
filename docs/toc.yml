@@ -906,8 +906,6 @@
       href: ide/reference/command-window.md
     - name: Error List window
       href: ide/reference/error-list-window.md
-    - name: Go To Line
-      href: ide/reference/go-to-line.md
     - name: Paste JSON or XML as classes
       href: ide/reference/paste-json-xml.md
     - name: Miscellaneous files

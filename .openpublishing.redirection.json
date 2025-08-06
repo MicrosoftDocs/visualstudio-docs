@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "docs/ide/reference/go-to-line.md",
+      "redirect_url": "/visualstudio/ide/go-to",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/reference/toolbox-data-tab.md",
       "redirect_url": "/visualstudio/ide/reference/toolbox",
       "redirect_document_id": false
