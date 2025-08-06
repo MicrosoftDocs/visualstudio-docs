@@ -1,7 +1,7 @@
 ---
 title: 'Use Environment Variables in a Build'
 description: Work with environment variables in MSBuild project files, and use environment variables to set build options without modifying the project file.
-ms.date: 08/14/2024
+ms.date: 8/5/2025
 ms.topic: how-to
 helpviewer_keywords:
 - environment variables, referencing
@@ -14,11 +14,11 @@ ms.subservice: msbuild
 ---
 # Use environment variables in a build
 
-When you build projects, it is often necessary to set build options using information that is not in the project file or the files that comprise your project. This information is typically stored in environment variables.
+When you build projects, it's often necessary to set build options using information that isn't in the project file or the files that comprise your project. This information is typically stored in environment variables.
 
 ## Reference environment variables
 
- All environment variables that are valid MSBuild property names are available to the Microsoft Build Engine (MSBuild) project file as properties. Valid property names are described in [MSBuild properties](msbuild-properties.md). For example, environment variables that begin with a number are not available in MSBuild.
+ All environment variables that are valid MSBuild property names are available to the MSBuild project file as properties. Valid property names are described in [MSBuild properties](msbuild-properties.md). For example, environment variables that begin with a number aren't available in MSBuild.
 
 > [!NOTE]
 > If the project file contains an explicit definition of a property that has the same name as an environment variable, the property in the project file overrides the value of the environment variable.
@@ -29,11 +29,11 @@ When you build projects, it is often necessary to set build options using inform
 
    `<FinalOutput>$(BIN_PATH)\MyAssembly.dll</FinalOutput>`
 
-  You can use a `Condition` attribute to provide a default value for a property if the environment variable was not set.
+  You can use a `Condition` attribute to provide a default value for a property if the environment variable wasn't set.
 
 #### To provide a default value for a property
 
-- Use a `Condition` attribute on a property to set the value only if the property has no value. For example, the following code sets the `ToolsPath` property to *c:\tools* only if the `ToolsPath` environment variable is not set:
+- Use a `Condition` attribute on a property to set the value only if the property has no value. For example, the following code sets the `ToolsPath` property to *c:\tools* only if the `ToolsPath` environment variable isn't set:
 
      `<ToolsPath Condition="'$(TOOLSPATH)' == ''">c:\tools</ToolsPath>`
 
