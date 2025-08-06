@@ -7,10 +7,10 @@ ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
-dev_langs:
 ms.custom:
   - vs-acquisition
   - sfi-image-nochange
+dev_langs:
 - VB
 ---
 # Welcome to the Visual Studio IDE | Visual Basic
