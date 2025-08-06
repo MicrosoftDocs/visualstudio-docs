@@ -1,7 +1,7 @@
 ---
 title: "Unit testing JavaScript and TypeScript"
 description: Explore unit testing support in Visual Studio for JavaScript and TypeScript code by using the Node.js Tools for Visual Studio.
-ms.date: "7/31/2025"
+ms.date: "8/6/2025"
 ms.topic: "how-to"
 ms.devlang: javascript
 author: "mikejo5000"
@@ -115,7 +115,7 @@ The following example is based on the TypeScript React project template provided
    > For TypeScript, don't use the `outfile` option in *tsconfig.json*, because Test Explorer won't be able to find your unit tests. You can use the `outdir` option, but make sure that configuration files such as `package.json` and `tsconfig.json` are in the project root.
 
    > [!IMPORTANT]
-   > If the output from **Tests** in the Output window shows a `ReadOnlySpan` error during test discovery, use this workaround for a known [MSBuild issue](https://github.com/dotnet/msbuild/issues/7873). Open the folder, *Program Files\Microsoft Visual Studio\2022\\<version\>\Common7\IDE\Extensions\TestPlatform*, and rename *System.Memory.dll* to a different name. This fix enables test discovery.
+   > If the output from **Tests** in the Output window shows a `ReadOnlySpan` error during test discovery, use the following workaround for a known [MSBuild issue](https://github.com/dotnet/msbuild/issues/7873). Open the folder, *Program Files\Microsoft Visual Studio\2022\\<version\>\Common7\IDE\Extensions\TestPlatform*, and rename *System.Memory.dll* to a different name. This fix enables test discovery.
 
 ### Run tests (.esproj)
 
@@ -132,6 +132,16 @@ For some unit test frameworks, unit tests are typically run against the generate
 
 > [!NOTE]
 > Profiling tests and code coverage aren't currently supported.
+
+## Run unit tests from the command line for a CLI-based project (.esproj)
+
+You can run unit tests directly from the command line for your unit test framework the same way you would if you weren't using Visual Studio.
+
+You may also choose to run the tests from the command line using *vstest.console*. For example, you may want to use vstest.console to maintain consistency with C# unit tests, or to run in Azure DevOps. Use the following command, but replace `MyProj` with your project name.
+
+```
+vstest.console .\MyProj.esproj /TestAdapterPath:"C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\Extensions\Microsoft\JavaScript"
+```
 
 ::: moniker-end
 
@@ -356,7 +366,7 @@ The following example is based on the ASP.NET Core Model-View-Controller project
 
    ::: moniker range="vs-2022"
    > [!IMPORTANT]
-   > If the output from **Tests** in the Output window shows a `ReadOnlySpan` error during test discovery, use this workaround for a known [MSBuild issue](https://github.com/dotnet/msbuild/issues/7873). Open the folder, *Program Files\Microsoft Visual Studio\2022\\<version\>\Common7\IDE\Extensions\TestPlatform*, and rename *System.Memory.dll* to a different name. This fix enables test discovery.
+   > If the output from **Tests** in the Output window shows a `ReadOnlySpan` error during test discovery, use the following workaround for a known [MSBuild issue](https://github.com/dotnet/msbuild/issues/7873). Open the folder, *Program Files\Microsoft Visual Studio\2022\\<version\>\Common7\IDE\Extensions\TestPlatform*, and rename *System.Memory.dll* to a different name. This fix enables test discovery.
    ::: moniker-end
 
 ### Run tests (ASP.NET Core)
