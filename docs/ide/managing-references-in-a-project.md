@@ -143,7 +143,7 @@ File references are direct references to assemblies outside the context of a Vis
 
 ## NuGet package references
 
-To referene a NuGet package, see [Install and use a package in Visual Studio](/nuget/quickstart/install-and-use-a-package-in-visual-studio).
+To reference a NuGet package, see [Install and use a package in Visual Studio](/nuget/quickstart/install-and-use-a-package-in-visual-studio).
 
 ## Related content
 
