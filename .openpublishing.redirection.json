@@ -2336,6 +2336,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/debugger/debug-parallel-application.md",
+      "redirect_url": "/visualstudio/debugger/get-started-debugging-multithreaded-apps",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "docs/debugger/walkthrough-debugging-a-windows-form.md",
       "redirect_url": "/visualstudio/debugger/debugger-feature-tour",
       "redirect_document_id": true
