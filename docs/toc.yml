@@ -287,6 +287,8 @@
       href: ide/visual-studio-ide-64-bit-support.md
     - name: Set AutoRecover options
       href: ide/autorecover-environment-options-dialog-box.md
+    - name: Work with miscellaneous files
+      href: ide/miscellaneous-files.md
   - name: Develop without projects or solutions
     items:
     - name: 'How to: Develop without a project'
@@ -910,8 +912,6 @@
       href: ide/reference/error-list-window.md
     - name: Paste JSON or XML as classes
       href: ide/reference/paste-json-xml.md
-    - name: Miscellaneous files
-      href: ide/reference/miscellaneous-files.md
     - name: Options
       items:
       - name: Environment

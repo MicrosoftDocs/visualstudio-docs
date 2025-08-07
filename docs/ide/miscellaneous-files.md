@@ -1,7 +1,7 @@
 ---
-title: Miscellaneous files
+title: Work with miscellaneous files
 description: Learn how to work on files that are not included in a Visual Studio project or solution.
-ms.date: 11/04/2016
+ms.date: 8/7/2025
 ms.topic: reference
 f1_keywords:
 - VS.newfile
@@ -19,13 +19,13 @@ ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide
 ---
-# Miscellaneous files
+# Work with miscellaneous files
 
 You might want to use the Visual Studio editor to work on files independently from a project or solution. While you have a solution open, you can open and modify files without adding them to a solution or to a project. Files you want to work with independently are called miscellaneous files. Miscellaneous files are external to solutions and projects, are not included in builds, and cannot be included with a solution under source control.
 
 Opening files independently from a project or solution is useful for a variety of reasons. You might have a file that you want to view while developing a project-based solution but that's not integral to the solution's development. Common examples include development notes or instructions, database schema, and code clips. In addition, you might want to create a stand-alone file.
 
-![Solutions Projects](../../ide/reference/media/projects_solutions_misc.gif)
+![Solutions Projects](../ide/media/projects_solutions_misc.gif)
 
 Solution Explorer can display a **Miscellaneous Files** folder for the files if the options for the folder are enabled. The options can be set from the [Documents, Environment, Options Dialog Box](../../ide/reference/documents-environment-options-dialog-box.md). After you close a miscellaneous file, it is not associated with any particular solution or project unless an option is enabled for that as well.
 

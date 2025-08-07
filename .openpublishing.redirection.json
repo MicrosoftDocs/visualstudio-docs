@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "docs/ide/reference/miscellaneous-files.md",
+      "redirect_url": "/visualstudio/ide/miscellaneous-files",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/reference/autorecover-environment-options-dialog-box.md",
       "redirect_url": "/visualstudio/ide/autorecover-environment-options-dialog-box",
       "redirect_document_id": false
