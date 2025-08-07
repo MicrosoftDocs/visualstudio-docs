@@ -285,6 +285,8 @@
         href: ide/template-parameters.md
     - name: 64-bit support
       href: ide/visual-studio-ide-64-bit-support.md
+    - name: Set AutoRecover options
+      href: ide/autorecover-environment-options-dialog-box.md
   - name: Develop without projects or solutions
     items:
     - name: 'How to: Develop without a project'
@@ -918,8 +920,6 @@
           href: ide/reference/general-environment-options-dialog-box.md
         - name: Accounts
           href: ide/reference/accounts-environment-options-dialog-box.md
-        - name: AutoRecover
-          href: ide/reference/autorecover-environment-options-dialog-box.md
         - name: Documents
           href: ide/reference/documents-environment-options-dialog-box.md
         - name: Extensions
