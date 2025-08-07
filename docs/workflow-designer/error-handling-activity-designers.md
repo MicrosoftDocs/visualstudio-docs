@@ -3,9 +3,9 @@ title: Workflow Designer - Error Handling Activity Designers
 description: Learn how you can use the Error Handling activity designers to manage error handling in Workflow Designer.
 ms.date: 11/04/2016
 ms.topic: reference
-author: jodavis
-ms.author: jodavis
-manager: mijacobs
+author: sayedihashimi
+author: sayedha
+manager: timheuer
 ms.subservice: workflow-designer
 ---
 # Error Handling Activity Designers

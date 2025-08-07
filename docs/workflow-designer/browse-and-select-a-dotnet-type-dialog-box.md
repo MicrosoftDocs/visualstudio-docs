@@ -6,9 +6,9 @@ ms.topic: conceptual
 f1_keywords:
 - TypeBrowser.UI
 - ActivityTypeResolver.UI
-author: jodavis
-ms.author: jodavis
-manager: mijacobs
+author: sayedihashimi
+author: sayedha
+manager: timheuer
 ms.subservice: workflow-designer
 ---
 # Browse and Select a .NET Type Dialog Box

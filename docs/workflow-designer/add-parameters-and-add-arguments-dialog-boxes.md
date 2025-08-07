@@ -5,9 +5,9 @@ ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
 - AddParameters.UI
-author: jodavis
-ms.author: jodavis
-manager: mijacobs
+author: sayedihashimi
+author: sayedha
+manager: timheuer
 ms.subservice: workflow-designer
 ---
 # Add Parameters and Add Arguments Dialog Boxes

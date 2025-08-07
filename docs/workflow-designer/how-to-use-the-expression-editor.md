@@ -5,9 +5,9 @@ ms.date: 11/04/2016
 ms.topic: how-to
 f1_keywords:
 - System.Activities.Presentation.View.ExpressionTextBox.UI
-author: jodavis
-ms.author: jodavis
-manager: mijacobs
+author: sayedihashimi
+author: sayedha
+manager: timheuer
 ms.subservice: workflow-designer
 ---
 # Use the Expression Editor

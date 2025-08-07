@@ -6,9 +6,9 @@ ms.topic: how-to
 f1_keywords:
 - System.Activities.Presentation.Annotations.Annotation.UI
 - Annotation
-author: jodavis
-ms.author: jodavis
-manager: mijacobs
+author: sayedihashimi
+author: sayedha
+manager: timheuer
 ms.subservice: workflow-designer
 ---
 # Add comments to a workflow in the Workflow Designer

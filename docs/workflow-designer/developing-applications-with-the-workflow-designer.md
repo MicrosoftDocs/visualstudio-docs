@@ -11,9 +11,9 @@ helpviewer_keywords:
 - Workflow Designer [WFD]
 - Visual Studio Workflow Designer [WFD]
 - Workflow Designer [WFD], overview
-author: jodavis
-ms.author: jodavis
-manager: mijacobs
+author: sayedihashimi
+author: sayedha
+manager: timheuer
 ms.subservice: workflow-designer
 ---
 # Develop apps with the Workflow Designer

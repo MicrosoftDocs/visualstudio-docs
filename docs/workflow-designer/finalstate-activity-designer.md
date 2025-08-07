@@ -3,9 +3,9 @@ title: "Workflow Designer - FinalState Activity Designer"
 description: Learn how you can use the FinalState designer to create a State that terminates a state machine instance.
 ms.date: 11/04/2016
 ms.topic: reference
-author: jodavis
-ms.author: jodavis
-manager: mijacobs
+author: sayedihashimi
+author: sayedha
+manager: timheuer
 ms.subservice: workflow-designer
 ---
 # FinalState Activity Designer

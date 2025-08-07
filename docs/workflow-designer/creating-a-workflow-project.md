@@ -6,9 +6,9 @@ ms.topic: conceptual
 helpviewer_keywords:
 - Workflow Designer, creating a workflow project
 - creating a workflow project
-author: jodavis
-ms.author: jodavis
-manager: mijacobs
+author: sayedihashimi
+author: sayedha
+manager: timheuer
 ms.subservice: workflow-designer
 ---
 # Workflow project templates

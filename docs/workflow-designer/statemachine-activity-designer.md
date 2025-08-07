@@ -6,9 +6,9 @@ ms.topic: reference
 f1_keywords:
 - StateMachine Designer
 - System.Activities.Statements.StateMachine.UI
-author: jodavis
-ms.author: jodavis
-manager: mijacobs
+author: sayedihashimi
+author: sayedha
+manager: timheuer
 ms.subservice: workflow-designer
 ---
 # StateMachine Activity Designer

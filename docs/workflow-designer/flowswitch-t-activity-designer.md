@@ -8,9 +8,9 @@ f1_keywords:
 - System.Activities.Statements.FlowSwitch`1.UI
 - System.Activities.Core.Presentation.FlowSwitchLink`1.UI
 - System.Activities.Core.Presentation.FlowSwitchLinkIdentifier.UI
-author: jodavis
-ms.author: jodavis
-manager: mijacobs
+author: sayedihashimi
+author: sayedha
+manager: timheuer
 ms.subservice: workflow-designer
 ---
 # FlowSwitch\<T> Activity Designer

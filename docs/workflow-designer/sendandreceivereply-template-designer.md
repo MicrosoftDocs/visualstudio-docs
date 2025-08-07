@@ -6,9 +6,9 @@ ms.topic: reference
 f1_keywords:
   - "System.ServiceModel.Activities.SendAndReceiveReply.UI"
   - "System.ServiceModel.Activities.ReceiveReply.UI"
-author: jodavis
-ms.author: jodavis
-manager: mijacobs
+author: sayedihashimi
+author: sayedha
+manager: timheuer
 ms.subservice: workflow-designer
 ---
 # SendAndReceiveReply Template Designer
