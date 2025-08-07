@@ -1,12 +1,11 @@
 ---
 title: git fetch, pull, push, & sync
 description: Fetch, pull, push, and sync in Visual Studio to accomplish version control for your projects by using Git or Azure DevOps.
-ms.date: 08/13/2024
+ms.date: 8/7/2025
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
 ms.manager: mijacobs
-
 ms.subservice: general-ide
 ---
 # Use git fetch, pull, push and sync for version control in Visual Studio
