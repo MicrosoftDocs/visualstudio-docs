@@ -7,7 +7,7 @@ f1_keywords:
 - VS.CHOOSEITEMS.SYSTEM.ACTIVITIES_COMPONENTS
 - VS.CHOOSEITEMS.SYSTEM.ACTIVITIES COMPONENTS
 author: sayedihashimi
-author: sayedha
+ms.author: sayedha
 manager: timheuer
 ms.subservice: workflow-designer
 ---

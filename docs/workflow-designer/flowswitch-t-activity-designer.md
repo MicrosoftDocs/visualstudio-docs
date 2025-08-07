@@ -9,7 +9,7 @@ f1_keywords:
 - System.Activities.Core.Presentation.FlowSwitchLink`1.UI
 - System.Activities.Core.Presentation.FlowSwitchLinkIdentifier.UI
 author: sayedihashimi
-author: sayedha
+ms.author: sayedha
 manager: timheuer
 ms.subservice: workflow-designer
 ---

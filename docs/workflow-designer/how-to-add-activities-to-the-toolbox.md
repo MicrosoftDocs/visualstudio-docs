@@ -4,7 +4,7 @@ description: In Workflow Designer, learn how to add activities to the Toolbox in
 ms.date: 11/04/2016
 ms.topic: how-to
 author: sayedihashimi
-author: sayedha
+ms.author: sayedha
 manager: timheuer
 ms.subservice: workflow-designer
 ---

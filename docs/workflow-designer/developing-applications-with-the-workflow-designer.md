@@ -12,7 +12,7 @@ helpviewer_keywords:
 - Visual Studio Workflow Designer [WFD]
 - Workflow Designer [WFD], overview
 author: sayedihashimi
-author: sayedha
+ms.author: sayedha
 manager: timheuer
 ms.subservice: workflow-designer
 ---

@@ -7,7 +7,7 @@ f1_keywords:
 - StateMachine Designer
 - System.Activities.Statements.StateMachine.UI
 author: sayedihashimi
-author: sayedha
+ms.author: sayedha
 manager: timheuer
 ms.subservice: workflow-designer
 ---

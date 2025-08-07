@@ -4,7 +4,7 @@ description: Learn how to search within the Workflow Designer to find items by k
 ms.date: 11/04/2016
 ms.topic: how-to
 author: sayedihashimi
-author: sayedha
+ms.author: sayedha
 manager: timheuer
 ms.subservice: workflow-designer
 ---

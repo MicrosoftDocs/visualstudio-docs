@@ -4,7 +4,7 @@ description: Learn how workflows are defined in terms of XAML and how to debug X
 ms.date: 11/04/2016
 ms.topic: how-to
 author: sayedihashimi
-author: sayedha
+ms.author: sayedha
 manager: timheuer
 ms.subservice: workflow-designer
 ---

@@ -4,7 +4,7 @@ description: Learn how to use Messaging activity designers to create and configu
 ms.date: 11/04/2016
 ms.topic: reference
 author: sayedihashimi
-author: sayedha
+ms.author: sayedha
 manager: timheuer
 ms.subservice: workflow-designer
 ---

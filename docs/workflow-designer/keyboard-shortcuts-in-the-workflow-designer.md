@@ -6,7 +6,7 @@ ms.topic: reference
 f1_keywords:
 - WFDKeyboardShortcuts.UI
 author: sayedihashimi
-author: sayedha
+ms.author: sayedha
 manager: timheuer
 ms.subservice: workflow-designer
 ---

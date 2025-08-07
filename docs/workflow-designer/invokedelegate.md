@@ -7,7 +7,7 @@ f1_keywords:
   - "InvokeDelegate Designer"
   - "System.Activities.Statements.InvokeDelegate.UI"
 author: sayedihashimi
-author: sayedha
+ms.author: sayedha
 ---
 # InvokeDelegate
 

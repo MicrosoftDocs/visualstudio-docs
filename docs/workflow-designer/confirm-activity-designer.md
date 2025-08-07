@@ -6,7 +6,7 @@ ms.topic: reference
 f1_keywords:
   - "System.Activities.Statements.Confirm.UI"
 author: sayedihashimi
-author: sayedha
+ms.author: sayedha
 manager: timheuer
 ms.subservice: workflow-designer
 ---

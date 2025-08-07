@@ -7,7 +7,7 @@ f1_keywords:
 - System.Activities.Presentation.Annotations.Annotation.UI
 - Annotation
 author: sayedihashimi
-author: sayedha
+ms.author: sayedha
 manager: timheuer
 ms.subservice: workflow-designer
 ---

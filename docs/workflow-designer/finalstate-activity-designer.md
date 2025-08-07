@@ -4,7 +4,7 @@ description: Learn how you can use the FinalState designer to create a State tha
 ms.date: 11/04/2016
 ms.topic: reference
 author: sayedihashimi
-author: sayedha
+ms.author: sayedha
 manager: timheuer
 ms.subservice: workflow-designer
 ---

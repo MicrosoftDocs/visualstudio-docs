@@ -6,7 +6,7 @@ ms.topic: conceptual
 f1_keywords:
   - "WFDShellFeatures.UI"
 author: sayedihashimi
-author: sayedha
+ms.author: sayedha
 manager: timheuer
 ms.subservice: workflow-designer
 ---

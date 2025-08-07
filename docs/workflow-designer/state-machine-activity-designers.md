@@ -4,7 +4,7 @@ description: Learn about the system-provided activity designers you can use to c
 ms.date: 11/04/2016
 ms.topic: reference
 author: sayedihashimi
-author: sayedha
+ms.author: sayedha
 manager: timheuer
 ms.subservice: workflow-designer
 ---

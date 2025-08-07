@@ -4,7 +4,7 @@ description: Learn how you can add workflow activities, designers, and other fam
 ms.date: 06/25/2018
 ms.topic: how-to
 author: sayedihashimi
-author: sayedha
+ms.author: sayedha
 manager: timheuer
 ms.subservice: workflow-designer
 ---

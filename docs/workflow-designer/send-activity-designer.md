@@ -6,7 +6,7 @@ ms.topic: reference
 f1_keywords:
   - "System.ServiceModel.Activities.Send.UI"
 author: sayedihashimi
-author: sayedha
+ms.author: sayedha
 manager: timheuer
 ms.subservice: workflow-designer
 ---

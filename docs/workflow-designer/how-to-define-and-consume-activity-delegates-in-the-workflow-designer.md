@@ -4,7 +4,7 @@ description: In Workflow Designer, learn how .NET Framework 4.5 includes an out-
 ms.date: 11/04/2016
 ms.topic: how-to
 author: sayedihashimi
-author: sayedha
+ms.author: sayedha
 manager: timheuer
 ms.subservice: workflow-designer
 ---

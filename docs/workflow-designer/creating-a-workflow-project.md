@@ -7,7 +7,7 @@ helpviewer_keywords:
 - Workflow Designer, creating a workflow project
 - creating a workflow project
 author: sayedihashimi
-author: sayedha
+ms.author: sayedha
 manager: timheuer
 ms.subservice: workflow-designer
 ---

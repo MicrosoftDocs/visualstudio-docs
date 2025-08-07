@@ -4,7 +4,7 @@ description: Learn about Control Flow Activity Designers, which are system-provi
 ms.date: 11/04/2016
 ms.topic: reference
 author: sayedihashimi
-author: sayedha
+ms.author: sayedha
 manager: timheuer
 ms.subservice: workflow-designer
 ---
