@@ -1,7 +1,7 @@
 ---
 title: Use the Immediate Window
 description: Learn how to use the Immediate window to debug and evaluate expressions, execute statements, and print variable values.
-ms.date: 02/25/2019
+ms.date: 08/05/2025
 ms.topic: how-to
 dev_langs:
 - VB
@@ -20,19 +20,19 @@ ms.subservice: general-ide
 
 Use the **Immediate** window to debug and evaluate expressions, execute statements, and print variable values. The **Immediate** window evaluates expressions by building and using the currently selected project.
 
-To display the **Immediate** window, open a project for editing, and then choose **Debug** > **Windows** > **Immediate** or press **Ctrl**+**Alt**+**I**. You can also enter **Debug.Immediate** in the **Command** window.
+To display the **Immediate** window, open a project to edit, and then choose **Debug** > **Windows** > **Immediate** or press **Ctrl**+**Alt**+**I**. You can also enter **Debug.Immediate** in the **Command** window.
 
 The **Immediate** window supports IntelliSense.
 
 ## Display the values of variables
 
-The **Immediate** window is particularly useful when you're debugging an app. For example, to check the value of a variable `varA`, you can use the [Print command](../../ide/reference/print-command.md):
+The **Immediate** window is useful when you debug an app. For example, to check the value of a variable `varA`, you can use the [Print command](../../ide/reference/print-command.md):
 
 ```cmd
 >Debug.Print varA
 ```
 
-The question mark (?) is an alias for `Debug.Print`, so this command can also be written:
+The question mark (`?`) is an alias for `Debug.Print`, so this command can also be written:
 
 ```cmd
 ? varA
@@ -41,7 +41,7 @@ The question mark (?) is an alias for `Debug.Print`, so this command can also be
 Both versions of this command return the value of the variable `varA`.
 
 > [!TIP]
-> To issue a Visual Studio command in the **Immediate** window, you must preface the command with a greater than sign (>). To enter multiple commands, switch to the [Command window](command-window.md).
+> To issue a Visual Studio command in the **Immediate** window, you must preface the command with a greater than sign (`>`). To enter multiple commands, switch to the [Command window](command-window.md).
 
 ## Design-time expression evaluation
 
@@ -65,23 +65,23 @@ You can use the **Immediate** window to execute a function or subroutine at desi
    End Module
    ```
 
-2. On the **Debug** menu, choose **Windows** > **Immediate**.
+1. On the **Debug** menu, choose **Windows** > **Immediate**.
 
-3. Type `?MyFunction(2)` in the **Immediate** window and press **Enter**.
+1. Type `?MyFunction(2)` in the **Immediate** window and press **Enter**.
 
     The **Immediate** window runs `MyFunction` and displays `4`.
 
-If the function or subroutine contains a breakpoint, Visual Studio breaks execution at the appropriate point. You can then use the debugger windows to examine your program state. For more information, see [Walkthrough: Debugging at Design Time](../../debugger/walkthrough-debugging-at-design-time.md).
+If the function or subroutine contains a breakpoint, Visual Studio breaks execution at the appropriate point. You can then use the debugger windows to examine your program state. For more information, see [Walkthrough: Debug at design time](../../debugger/walkthrough-debugging-at-design-time.md).
 
 You can't use design-time expression evaluation in project types that require starting up an execution environment, including Visual Studio Tools for Office projects, web projects, Smart Device projects, and SQL projects.
 
 ### Design-time expression evaluation in multi-project solutions
 
-When establishing the context for design-time expression evaluation, Visual Studio references the currently selected project in Solution Explorer. If no project is selected in Solution Explorer, Visual Studio attempts to evaluate the function against the startup project. If the function cannot be evaluated in the current context, you'll receive an error message. If you're attempting to evaluate a function in a project that's not the startup project for the solution and you receive an error, try selecting the project in Solution Explorer and attempt the evaluation again.
+When establishing the context for design-time expression evaluation, Visual Studio references the currently selected project in Solution Explorer. If no project is selected in Solution Explorer, Visual Studio attempts to evaluate the function against the startup project. If the function can't be evaluated in the current context, you receive an error message. If you're attempting to evaluate a function in a project that's not the startup project for the solution and you receive an error, try selecting the project in Solution Explorer and attempt the evaluation again.
 
 ## Enter commands
 
-Enter the greater than sign (>) when issuing Visual Studio commands in the **Immediate** window. Use the **Up arrow** and **Down arrow** keys to scroll through your previously used commands.
+Enter the greater than sign (`>`) when issuing Visual Studio commands in the **Immediate** window. Use the **Up arrow** and **Down arrow** keys to scroll through your previously used commands.
 
 |Task|Solution|Example|
 |----------|--------------|-------------|
@@ -92,7 +92,7 @@ Enter the greater than sign (>) when issuing Visual Studio commands in the **Imm
 
 ## Mark mode
 
-When you click on any previous line in the **Immediate** window, you shift automatically into Mark mode. This allows you to select, edit, and copy the text of previous commands as you would in any text editor, and paste them into the current line.
+When you select any previous line in the **Immediate** window, you shift automatically into Mark mode. This allows you to select, edit, and copy the text of previous commands as you would in any text editor, and paste them into the current line.
 
 ## Examples
 
@@ -118,15 +118,15 @@ In some settings configurations, first-chance exception notifications are displa
 
 ### Toggle first-chance exception notifications in the Immediate window
 
-1. On the **View** menu, click **Other Windows**, and click **Output**.
+1. On the **View** menu, select **Output**.
 
 2. Right-click on the text area of the **Output** window, and then select or deselect **Exception Messages**.
 
-## See also
+## Related content
 
-- [Navigating through Code with the Debugger](../../debugger/navigating-through-code-with-the-debugger.md)
+- [Navigating through code by using the debugger](../../debugger/navigating-through-code-with-the-debugger.md)
 - [Command Window](../../ide/reference/command-window.md)
-- [First look at the debugger](../../debugger/debugger-feature-tour.md)
-- [Walkthrough: Debugging at Design Time](../../debugger/walkthrough-debugging-at-design-time.md)
+- [Overview of the debugger](../../debugger/debugger-feature-tour.md)
+- [Debug at design time](../../debugger/walkthrough-debugging-at-design-time.md)
 - [Visual Studio Command Aliases](../../ide/reference/visual-studio-command-aliases.md)
-- [Using Regular Expressions in Visual Studio](../../ide/using-regular-expressions-in-visual-studio.md)
+- [Use regular expressions in Visual Studio](../../ide/using-regular-expressions-in-visual-studio.md)
