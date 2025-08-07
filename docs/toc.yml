@@ -930,8 +930,6 @@
           href: ide/reference/fonts-and-colors-environment-options-dialog-box.md
         - name: Import and Export Settings
           href: ide/reference/import-and-export-settings-environment-options-dialog-box.md
-        - name: International Settings
-          href: ide/reference/international-settings-environment-options-dialog-box.md
         - name: Preview Features
           href: ide/reference/environment-preview-features-options.md
         - name: Trust Settings
@@ -952,8 +950,6 @@
           href: ide/reference/options-text-editor-general.md
         - name: Advanced
           href: ide/reference/options-text-editor-advanced.md
-        - name: File Extension
-          href: ide/reference/options-text-editor-file-extension.md
         - name: All Languages
           items:
           - name: General

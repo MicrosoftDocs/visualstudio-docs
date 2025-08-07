@@ -1,6 +1,16 @@
 {
   "redirections": [
     {
+      "source_path": "docs/ide/reference/options-text-editor-file-extension.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-text-editor-file-extension",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/international-settings-environment-options-dialog-box.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/international-settings-environment-options-dialog-box",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/reference/go-to-line.md",
       "redirect_url": "/visualstudio/ide/go-to",
       "redirect_document_id": false
