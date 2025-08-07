@@ -18,9 +18,9 @@ ms.subservice: general-ide
 ---
 # Use the Immediate window
 
-Use the **Immediate** window to debug and evaluate expressions, execute statements, and print variable values. The **Immediate** window evaluates expressions by building and using the currently selected project.
+This article explains how to use the **Immediate** window to debug and evaluate expressions, execute statements, and print variable values. The **Immediate** window evaluates expressions by building and using the currently selected project.
 
-To display the **Immediate** window, open a project to edit, and then choose **Debug** > **Windows** > **Immediate** or press **Ctrl**+**Alt**+**I**. You can also enter **Debug.Immediate** in the **Command** window.
+To display the **Immediate** window, first open a project to edit, and then choose **Debug** > **Windows** > **Immediate** or press **Ctrl**+**Alt**+**I**. You can also enter *Debug.Immediate* in the **Command** window.
 
 The **Immediate** window supports IntelliSense.
 

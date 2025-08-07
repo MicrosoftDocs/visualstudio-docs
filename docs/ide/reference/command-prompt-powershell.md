@@ -35,7 +35,7 @@ Visual Studio includes two command-line shells for developers, a command prompt 
     :::image type="content" source="media/developer-command-prompt-for-vs/developer-powershell-visual-studio-2022.png" alt-text="Screenshot of the Developer PowerShell tool in Visual Studio 2022 and later.":::
     ::: moniker-end
 
-Starting in Visual Studio 2019, Visual Studio includes an [integrated terminal]((https://devblogs.microsoft.com/visualstudio/say-hello-to-the-new-visual-studio-terminal/)) that can host either of these command-line shells. You can also open multiple tabs of each shell. The Visual Studio terminal is built on top of [Windows Terminal](/windows/terminal/). To open the terminal in Visual Studio, select **View** > **Terminal**.
+Starting in Visual Studio 2019, Visual Studio includes an [integrated terminal](https://devblogs.microsoft.com/visualstudio/say-hello-to-the-new-visual-studio-terminal/) that can host either of these command-line shells. You can also open multiple tabs of each shell. The Visual Studio terminal is built on top of [Windows Terminal](/windows/terminal/). To open the terminal in Visual Studio, select **View** > **Terminal**.
 
 ::: moniker range=">=vs-2022"
 :::image type="content" source="media/developer-command-prompt-for-vs/visual-studio-2022-terminal-window.png" alt-text="Screenshot of the Visual Studio terminal pane that shows multiple tabs.":::
