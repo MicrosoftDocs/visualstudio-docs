@@ -189,7 +189,7 @@ You can use a `Literal` element in the *SquareRoot.snippet* file to help users e
 
    The code snippet is inserted and the editable literal is highlighted for replacement. Hover over the replacement parameter to see the tooltip for the value.
 
-   ![Code snippet replacement parameter tooltip in Visual Studio](media/snippet-replacement-parameter-tooltip.png)
+   :::image type="content" source="media/snippet-replacement-parameter-tooltip.png" alt-text="Screenshot of code snippet replacement parameter tooltip in Visual Studio.":::
 
    > [!TIP]
    > If there's more than one replaceable parameter in a snippet, you can press **Tab** to navigate from one parameter to the other to change the values.
