@@ -154,11 +154,11 @@ You might want the user to replace parts of a code snippet. For example, you mig
 
 You can provide two types of replacements: literals and objects.
 
-- Use the [literal element](code-snippets-schema-reference.md#literal-element) to identify a replacement for code entirely contained within the snippet that can be customized after being inserted into the code. For example, a string or numeric value.
+- Use the [Literal element](code-snippets-schema-reference.md#literal-element) to identify a replacement for code entirely contained within the snippet that can be customized after being inserted into the code. For example, a string or numeric value.
 
-- Use the [object element](code-snippets-schema-reference.md#object-element) to identify an item that the code snippet requires but is probably defined outside of the snippet. For example, an object instance or a control.
+- Use the [Object element](code-snippets-schema-reference.md#object-element) to identify an item that the code snippet requires but is probably defined outside of the snippet. For example, an object instance or a control.
 
-You can use a `literal` element in the *SquareRoot.snippet* file to help users easily change the number to calculate the square root of.
+You can use a `Literal` element in the *SquareRoot.snippet* file to help users easily change the number to calculate the square root of.
 
 1. In the *SquareRoot.snippet* file, modify the `Snippet` element as follows:
 
