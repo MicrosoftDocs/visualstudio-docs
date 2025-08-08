@@ -41,7 +41,7 @@ The question mark (?) is an alias for `Debug.Print`, so this command can also be
 Both versions of this command return the value of the variable `varA`.
 
 > [!TIP]
-> To issue a Visual Studio command in the **Immediate** window, you must preface the command with a greater than sign (>). To enter multiple commands, switch to the [Command window](command-window.md).
+> To issue a Visual Studio command in the **Immediate** window, you must preface the command with a greater than sign (>). To enter multiple commands, switch to the [Command window](../ide/reference/command-window.md).
 
 ## Design-time expression evaluation
 
