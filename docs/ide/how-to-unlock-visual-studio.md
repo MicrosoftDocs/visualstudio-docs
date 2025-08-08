@@ -1,7 +1,7 @@
 ---
-title: Extend a trial version or update a license
+title: Extend a Trial Version or Update a License
 description: Learn how to extend a free trial of Visual Studio, use an online subscription or product key to unlock Visual Studio, and update a stale or expired license.
-ms.date: 08/22/2024
+ms.date: 08/08/2025
 ms.topic: how-to
 author: anandmeg
 ms.author: meghaanand
@@ -23,7 +23,7 @@ To continue using Visual Studio after a trial period ends, unlock it with an [on
 
 1. Select the **Sign in** button in the upper-right corner of the IDE. (Or go to **File** > **Account Settings** to open the **Account Settings** dialog, and then select **Sign in**).
 
-1. Enter the credentials for either a [Microsoft account or a work or school account](signing-in-to-visual-studio.md). Visual Studio finds a Visual Studio subscription or an Azure DevOps organization that's associated with your account.
+1. Enter the credentials for a [Microsoft account, a work or school account, or a GitHub account](signing-in-to-visual-studio.md). Visual Studio finds a Visual Studio subscription or an Azure DevOps organization that's associated with your account.
 
 > [!IMPORTANT]
 > Visual Studio automatically looks for associated online subscriptions when you connect to an Azure DevOps organization from the **Team Explorer** window. When you connect to an Azure DevOps organization, you can use both Microsoft and work or school accounts to sign in. If an online subscription exists for that user account, Visual Studio automatically unlocks the IDE.
@@ -54,9 +54,9 @@ This message indicates that, although your subscription might still be valid, th
 
 Before the license token goes stale, Visual Studio first shows a warning message that asks you to re-enter your credentials.
 
-If you don't re-enter your credentials, the token will eventually expire, and the **Account Settings** dialog will notify of the number of days remaining before your token becomes stale. After your token expires, you must re-enter your credentials for the account before you can continue using Visual Studio.
+If you don't re-enter your credentials, the token will eventually expire, and the **Account Settings** dialog will specify the number of days remaining before your token becomes stale. After your token expires, you must re-enter your credentials for the account before you can continue using Visual Studio.
 
-Note that CA policies that are enabled on an account might affect the account state or license. You can [troubleshoot the CA/MFA issues](work-with-multi-factor-authentication.md#troubleshoot-sign-in-issues) to find a resolution. For accounts that are associated with multiple Microsoft Entra ID tenants, [filtering out nonessential tenants](work-with-multi-factor-authentication.md#how-to-filter-out-individual-tenants) might help. You can do that by using the **Filter account** dialog (**File > Account settings > Apply Filter**). When [re-authenticating an account](work-with-multi-factor-authentication.md#reauthenticating-an-account), you can also filter out any directories that have access issues by using the **Re-enter your credentials** dialog.
+Note that CA policies that are enabled on an account might affect the account state or license. You can [troubleshoot the CA/MFA issues](work-with-multi-factor-authentication.md#troubleshoot-sign-in-issues) to find a resolution. For accounts that are associated with multiple Microsoft Entra ID tenants, [filtering out nonessential tenants](work-with-multi-factor-authentication.md#how-to-filter-out-individual-tenants) might help. You can do that by using the **Filter account** dialog (**File > Account Settings > ellipsis button (...) > Apply filter**). When [re-authenticating an account](work-with-multi-factor-authentication.md#reauthenticating-an-account), you can also filter out any directories that have access issues by using the **Re-enter your credentials** dialog.
 
 >[!Important]
 >If you use Visual Studio for extended periods in environments that have limited or no internet access, you should use a product key to unlock Visual Studio to avoid interruption.
@@ -67,7 +67,7 @@ If your extended trial or subscription is expired and you no longer have access 
 
 :::image type="content" source="media/vs-2022/expired-license-account-settings-dialog.png" alt-text="Screenshot of an expired license notification in Visual Studio." border="false":::
 
-If you have another subscription that's associated with a different account, [add that account](signing-in-to-visual-studio.md#add-and-switch-user-accounts-in-visual-studio) to the **All Accounts** list on the left side of the dialog box by selecting the **+Add** dropdown.
+If you have another subscription that's associated with a different account, [add that account](signing-in-to-visual-studio.md#add-and-switch-user-accounts-in-visual-studio) to the **All Accounts** list on the left side of the dialog box by selecting **+Add**.
 
 You can also enter the [product key for your Visual Studio subscription](/visualstudio/subscriptions/product-keys) in the **Account Settings** dialog. To do that, select **Unlock with a Product Key** and enter the product key in the **Enter a product key** dialog.
 
