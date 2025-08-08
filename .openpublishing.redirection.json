@@ -1,6 +1,21 @@
 {
   "redirections": [
     {
+      "source_path": "docs/ide/reference/miscellaneous-files.md",
+      "redirect_url": "/visualstudio/ide/miscellaneous-files",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/autorecover-environment-options-dialog-box.md",
+      "redirect_url": "/visualstudio/ide/autorecover-environment-options-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/environment-preview-features-options.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/environment-preview-features-options",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/reference/options-text-editor-file-extension.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-text-editor-file-extension",
       "redirect_document_id": false
