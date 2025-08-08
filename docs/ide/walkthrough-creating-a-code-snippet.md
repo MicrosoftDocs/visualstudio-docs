@@ -1,7 +1,7 @@
 ---
-title: Create a code snippet in Visual Studio
+title: Create a Code Snippet in Visual Studio
 description: Learn how to create a code snippet, use replacement parameters and project references, and import a snippet to Visual Studio.
-ms.date: 04/11/2024
+ms.date: 08/05/2025
 ms.topic: how-to
 helpviewer_keywords:
 - code snippets, creating
@@ -20,21 +20,21 @@ dev_langs:
 ---
 # Walkthrough: Create a code snippet in Visual Studio
 
-Code snippets are preauthored pieces of code that are ready to insert into your application. You can increase productivity and reliability by using code snippets to reduce the time spent typing repetitive code or searching for samples.
+You can increase productivity and reliability by using code snippets to reduce the time spent typing repetitive code or searching for samples. Code snippets are preauthored pieces of code that are ready to insert into your application.
 
-You can create your own code snippets and add them to the code snippets that Visual Studio already includes. This article walks you through how to create a code snippet in just a few steps. You create an XML file, fill in the appropriate elements, and add your code to the file. You can optionally use replacement parameters and project references. Then, you import the snippet to your Visual Studio installation.
+You can create your own code snippets and add them to the code snippets that Visual Studio already includes. This article walks through how to create a code snippet in just a few steps. You create an XML file, fill in the appropriate elements, and add your code to the file. You can optionally use replacement parameters and project references. Then, you import the snippet to your Visual Studio installation.
 
 ## Create a code snippet
 
 1. Open Visual Studio, and select **Continue without code** on the **Start** screen.
 
-   :::image type="content" source="reference/media/start-visual-studio-continue-without-code.png" alt-text="Screenshot of the Start window with the 'Continue without code' option selected.":::
+   :::image type="content" source="reference/media/start-visual-studio-continue-without-code.png" alt-text="Screenshot of the Start window with the Continue without code option selected.":::
 
 1. From the menu bar, select **File** > **New File**, or enter **Ctrl**+**N**.
 
 1. In the **New File** dialog box, select **XML File**, and then select **Open**.
 
-    :::image type="content" source="reference/media/open-new-xml-file.png" alt-text="Screenshot of the 'New File' dialog box with the 'XML File' option selected.":::
+    :::image type="content" source="reference/media/open-new-xml-file.png" alt-text="Screenshot of the New File dialog box with the XML File option selected.":::
 
 1. Paste the following basic snippet template into the code editor.
 
@@ -56,7 +56,7 @@ You can create your own code snippets and add them to the code snippets that Vis
 
 1. Enter the title *Square Root* into the snippet `Title` element.
 
-1. In the **Language** attribute of the `Code` element, fill in **CSharp** for a C# snippet or **VB** for Visual Basic.
+1. In the `Language` attribute of the `Code` element, fill in *CSharp* for a C# snippet or *VB* for Visual Basic.
 
    > [!TIP]
    > To see all the available language values, see [Attributes](code-snippets-schema-reference.md#attributes) in the [Code snippets schema reference](code-snippets-schema-reference.md).
@@ -93,13 +93,13 @@ You can create your own code snippets and add them to the code snippets that Vis
    The snippet is copied to one of the following locations, depending on the code language:
 
    ::: moniker range=">= vs-2022"
-   *%USERPROFILE%\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets*
-   *%USERPROFILE%\Documents\Visual Studio 2022\Code Snippets\Visual Basic\My Code Snippets*
+   - *%USERPROFILE%\Documents\Visual Studio 2022\Code Snippets\Visual C#\My Code Snippets*
+   - *%USERPROFILE%\Documents\Visual Studio 2022\Code Snippets\Visual Basic\My Code Snippets*
    ::: moniker-end
 
    ::: moniker range="<= vs-2019"
-   *%USERPROFILE%\Documents\Visual Studio 2019\Code Snippets\Visual C#\My Code Snippets*
-   *%USERPROFILE%\Documents\Visual Studio 2019\Code Snippets\Visual Basic\My Code Snippets*
+   - *%USERPROFILE%\Documents\Visual Studio 2019\Code Snippets\Visual C#\My Code Snippets*
+   - *%USERPROFILE%\Documents\Visual Studio 2019\Code Snippets\Visual Basic\My Code Snippets*
    ::: moniker-end
 
 1. Test your snippet by opening a C# or Visual Basic project. With a code file open in the editor, take one of the following actions:
@@ -144,7 +144,7 @@ The description field provides more information about your code snippet when vie
 
 1. Open the Visual Studio **Code Snippets Manager** and select your code snippet. In the right pane, notice that the **Description**, **Author**, and **Shortcut** fields are now populated.
 
-   ![Code snippet description in Code Snippet Manager](media/code-snippet-description-author.png)
+   :::image type="content" source="media/code-snippet-description-author.png" alt-text="Screenshot showing a code snippet description in Code Snippet Manager.":::
 
 1. To test the shortcut, open the project you used previously, type *sqrt* in the editor and press **Tab** once for Visual Basic or twice for C#. The snippet code is inserted.
 
@@ -154,9 +154,9 @@ You might want the user to replace parts of a code snippet. For example, you mig
 
 You can provide two types of replacements: literals and objects.
 
-- Use the [Literal](code-snippets-schema-reference.md#literal-element) element to identify a replacement for code entirely contained within the snippet that can be customized after being inserted into the code. For example, a string or numeric value.
+- Use the [Literal element](code-snippets-schema-reference.md#literal-element) to identify a replacement for code entirely contained within the snippet that can be customized after being inserted into the code. For example, a string or numeric value.
 
-- Use the [Object](code-snippets-schema-reference.md#object-element) element to identify an item that the code snippet requires but is probably defined outside of the snippet. For example, an object instance or a control.
+- Use the [Object element](code-snippets-schema-reference.md#object-element) to identify an item that the code snippet requires but is probably defined outside of the snippet. For example, an object instance or a control.
 
 You can use a `Literal` element in the *SquareRoot.snippet* file to help users easily change the number to calculate the square root of.
 
@@ -189,16 +189,16 @@ You can use a `Literal` element in the *SquareRoot.snippet* file to help users e
 
    The code snippet is inserted and the editable literal is highlighted for replacement. Hover over the replacement parameter to see the tooltip for the value.
 
-   ![Code snippet replacement parameter tooltip in Visual Studio](media/snippet-replacement-parameter-tooltip.png)
+   :::image type="content" source="media/snippet-replacement-parameter-tooltip.png" alt-text="Screenshot of code snippet replacement parameter tooltip in Visual Studio.":::
 
    > [!TIP]
    > If there's more than one replaceable parameter in a snippet, you can press **Tab** to navigate from one parameter to the other to change the values.
 
 ## Import a namespace
 
-You can use a code snippet to add a `using` directive (C#) or `Imports` statement (Visual Basic) by including the [Imports](code-snippets-schema-reference.md#imports-element) element. For .NET Framework projects, you can also add a reference to the project by using the [References](code-snippets-schema-reference.md#references-element) element.
+You can use a code snippet to add a `using` directive (C#) or `Imports` statement (Visual Basic) by including the [Imports element](code-snippets-schema-reference.md#imports-element). For .NET Framework projects, you can also add a reference to the project by using the [References element](code-snippets-schema-reference.md#references-element).
 
-The following XML shows a code snippet that uses the method `File.Exists` in the `System.IO` namespace, and therefore defines the **Imports** element to import the `System.IO` namespace.
+The following XML shows a code snippet that uses the method `File.Exists` in the `System.IO` namespace, and therefore defines the `Imports` element to import the `System.IO` namespace.
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
