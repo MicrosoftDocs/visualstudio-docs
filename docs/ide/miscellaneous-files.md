@@ -1,6 +1,6 @@
 ---
 title: Work with miscellaneous files
-description: Learn how to work on files that are not included in a Visual Studio project or solution.
+description: Learn how to work on files that aren't included in a Visual Studio project or solution.
 ms.date: 8/7/2025
 ms.topic: reference
 f1_keywords:
@@ -21,7 +21,7 @@ ms.subservice: general-ide
 ---
 # Work with miscellaneous files
 
-You might want to use the Visual Studio editor to work on files independently from a project or solution. While you have a solution open, you can open and modify files without adding them to a solution or to a project. Files you want to work with independently are called miscellaneous files. Miscellaneous files are external to solutions and projects, are not included in builds, and cannot be included with a solution under source control.
+You might want to use the Visual Studio editor to work on files independently from a project or solution. While you have a solution open, you can open and modify files without adding them to a solution or to a project. Files you want to work with independently are called miscellaneous files. Miscellaneous files are external to solutions and projects, aren't included in builds, and can't be included with a solution under source control.
 
 Opening files independently from a project or solution is useful for a variety of reasons. You might have a file that you want to view while developing a project-based solution but that's not integral to the solution's development. Common examples include development notes or instructions, database schema, and code clips. In addition, you might want to create a stand-alone file.
 
@@ -32,7 +32,7 @@ Solution Explorer can display a **Miscellaneous Files** folder for the files if 
 The **Miscellaneous Files** folder represents the files as links. Although this folder is not part of a solution, when you open a solution, some or all of the miscellaneous files that were opened when the solution was last closed are reopened, depending upon the settings for the folder.
 
 > [!NOTE]
-> Some of the files that do not appear in the **Miscellaneous Files** folder are files that you cannot modify within the IDE, such as .zip files and .doc files. The IDE doesn't track files that can only be modified through an external editor.
+> Some of the files that don't appear in the **Miscellaneous Files** folder are files that you can't modify within the IDE, such as .zip files and .doc files. The IDE doesn't track files that can only be modified through an external editor.
 
 ## Commands available in the IDE
 
@@ -40,7 +40,7 @@ The menus, toolbars, and the commands they contain change based on the format of
 
 ## Folder display options
 
-You can set display options for the **Miscellaneous Files** folder so that the folder appears even though you have not opened any miscellaneous files. The solution file does not permanently manage a list of miscellaneous files. It uses an optional feature that allows it to remember a per-user, most recently used (MRU) list of files.
+You can set display options for the **Miscellaneous Files** folder so that the folder appears even though you have not opened any miscellaneous files. The solution file doesn't permanently manage a list of miscellaneous files. It uses an optional feature that allows it to remember a per-user, most recently used (MRU) list of files.
 
 ## See also
 
