@@ -73,7 +73,7 @@ Follow these steps to open Developer Command Prompt or Developer PowerShell from
 1. On the menu bar, select **Tools** > **Command Line** > **Developer Command Prompt** or **Developer PowerShell**.
 
     ::: moniker range=">=vs-2022"
-    :::image type="content" source="media/developer-command-prompt-for-vs/visual-studio-2022-command-line-menu.png" alt-text="Screenshot of the Command Line menu in Visual Studio":::
+    :::image type="content" source="media/developer-command-prompt-for-vs/visual-studio-2022-command-line-menu.png" alt-text="Screenshot of the Command Line menu in Visual Studio.":::
     ::: moniker-end
 
     ::: moniker range="vs-2019" 
