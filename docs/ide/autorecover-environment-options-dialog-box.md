@@ -49,4 +49,4 @@ You can configure Visual Studio to automatically back up files or not. You can a
 
 ### See also
 
-- [Options dialog box](../../ide/reference/options-dialog-box-visual-studio.md)
+- [Options dialog box](../ide/reference/options-dialog-box-visual-studio.md)

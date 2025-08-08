@@ -27,7 +27,7 @@ Opening files independently from a project or solution is useful for a variety o
 
 ![Solutions Projects](../ide/media/projects_solutions_misc.gif)
 
-Solution Explorer can display a **Miscellaneous Files** folder for the files if the options for the folder are enabled. The options can be set from the [Documents, Environment, Options Dialog Box](../../ide/reference/documents-environment-options-dialog-box.md). After you close a miscellaneous file, it is not associated with any particular solution or project unless an option is enabled for that as well.
+Solution Explorer can display a **Miscellaneous Files** folder for the files if the options for the folder are enabled. The options can be set from the [Documents, Environment, Options Dialog Box](../ide/reference/documents-environment-options-dialog-box.md). After you close a miscellaneous file, it is not associated with any particular solution or project unless an option is enabled for that as well.
 
 The **Miscellaneous Files** folder represents the files as links. Although this folder is not part of a solution, when you open a solution, some or all of the miscellaneous files that were opened when the solution was last closed are reopened, depending upon the settings for the folder.
 
@@ -44,6 +44,6 @@ You can set display options for the **Miscellaneous Files** folder so that the f
 
 ## See also
 
-- [Develop code in Visual Studio without projects or solutions](../develop-code-in-visual-studio-without-projects-or-solutions.md)
-- [Solutions and Projects](../../ide/solutions-and-projects-in-visual-studio.md)
-- [Documents, Environment, Options Dialog Box](../../ide/reference/documents-environment-options-dialog-box.md)
+- [Develop code in Visual Studio without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md)
+- [Solutions and Projects](../ide/solutions-and-projects-in-visual-studio.md)
+- [Documents, Environment, Options Dialog Box](../ide/reference/documents-environment-options-dialog-box.md)
