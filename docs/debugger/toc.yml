@@ -362,8 +362,8 @@
       href: /visualstudio/bridge/bridge-to-kubernetes-vs
     - name: Debug with Container Tools >>
       href: ../containers/edit-and-refresh.md
-  - name: Immediate window
-    href: ../ide/reference/immediate-window.md
+  - name: Use the Immediate window
+    href: ../ide/immediate-window.md
   - name: Work with...
     items:
     - name: .NET
