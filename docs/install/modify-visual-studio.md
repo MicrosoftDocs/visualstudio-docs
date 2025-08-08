@@ -2,7 +2,7 @@
 title: Modify Visual Studio Workloads and Components
 titleSuffix: ''
 description: Modify your Visual Studio installation with the Visual Studio Installer. Add or remove workloads, components, and language packs.
-ms.date: 08/01/2025
+ms.date: 08/08/2025
 ms.topic: how-to
 ms.custom: vs-acquisition
 helpviewer_keywords:
