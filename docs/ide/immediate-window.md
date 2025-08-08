@@ -26,7 +26,7 @@ The **Immediate** window supports IntelliSense.
 
 ## Display the values of variables
 
-The **Immediate** window is particularly useful when you're debugging an app. For example, to check the value of a variable `varA`, you can use the [Print command](../../ide/reference/print-command.md):
+The **Immediate** window is particularly useful when you're debugging an app. For example, to check the value of a variable `varA`, you can use the [Print command](../ide/reference/print-command.md):
 
 ```cmd
 >Debug.Print varA
@@ -71,7 +71,7 @@ You can use the **Immediate** window to execute a function or subroutine at desi
 
     The **Immediate** window runs `MyFunction` and displays `4`.
 
-If the function or subroutine contains a breakpoint, Visual Studio breaks execution at the appropriate point. You can then use the debugger windows to examine your program state. For more information, see [Walkthrough: Debugging at Design Time](../../debugger/walkthrough-debugging-at-design-time.md).
+If the function or subroutine contains a breakpoint, Visual Studio breaks execution at the appropriate point. You can then use the debugger windows to examine your program state. For more information, see [Walkthrough: Debugging at Design Time](../debugger/walkthrough-debugging-at-design-time.md).
 
 You can't use design-time expression evaluation in project types that require starting up an execution environment, including Visual Studio Tools for Office projects, web projects, Smart Device projects, and SQL projects.
 
@@ -124,9 +124,9 @@ In some settings configurations, first-chance exception notifications are displa
 
 ## See also
 
-- [Navigating through Code with the Debugger](../../debugger/navigating-through-code-with-the-debugger.md)
-- [Command Window](../../ide/reference/command-window.md)
-- [First look at the debugger](../../debugger/debugger-feature-tour.md)
-- [Walkthrough: Debugging at Design Time](../../debugger/walkthrough-debugging-at-design-time.md)
-- [Visual Studio Command Aliases](../../ide/reference/visual-studio-command-aliases.md)
-- [Using Regular Expressions in Visual Studio](../../ide/using-regular-expressions-in-visual-studio.md)
+- [Navigating through Code with the Debugger](../debugger/navigating-through-code-with-the-debugger.md)
+- [Command Window](../ide/reference/command-window.md)
+- [First look at the debugger](../debugger/debugger-feature-tour.md)
+- [Walkthrough: Debugging at Design Time](../debugger/walkthrough-debugging-at-design-time.md)
+- [Visual Studio Command Aliases](../ide/reference/visual-studio-command-aliases.md)
+- [Using Regular Expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md)
