@@ -86,7 +86,7 @@ In the **Tabs** section, choose the following options.
 ## Troubleshooting
 
 > [!TIP]
-> Adaptive formatting may override your custom tab settings. To disable adaptive formatting, go to **Text Editor** > **Advanced** and toggle **Use adaptive formatting**. You can also use an [.editorconfig](../create-portable-custom-editor-options.md) file to manage indent styles.
+> Adaptive formatting may override your custom tab settings. To disable adaptive formatting, go to **Text Editor** > **Advanced** and toggle **Use adaptive formatting**. You can also use an [.editorconfig](../ide/create-portable-custom-editor-options.md) file to manage indent styles.
 
 ## Next steps
 
