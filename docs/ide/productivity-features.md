@@ -62,7 +62,7 @@ Write code more quickly by using the following features.
 
      To insert a snippet, on the menu bar, choose **Edit** > **IntelliSense** > **Insert Snippet** or **Surround With**, or open the shortcut menu in a file and choose **Snippet** > **Insert Snippet** or **Surround With**. For more information, see [Code Snippets](../ide/code-snippets.md).
 
-- **[Paste JSON or XML as classes](reference/paste-json-xml.md)**. Copy any JSON or XML text fragment to the clipboard and then paste it as strongly typed .NET classes into any C# or Visual Basic code file. To do so, use **Edit** > **Paste Special** > **Paste JSON As Classes** (or **Paste XML As Classes**).
+- **[Paste JSON or XML as classes](../ide/paste-json-xml.md)**. Copy any JSON or XML text fragment to the clipboard and then paste it as strongly typed .NET classes into any C# or Visual Basic code file. To do so, use **Edit** > **Paste Special** > **Paste JSON As Classes** (or **Paste XML As Classes**).
 
 - **Fix code errors inline**. Quick Actions let you easily refactor, generate, or otherwise modify code with a single action. These actions can be applied using the light bulb ![Light bulb icon](media/light-bulb-icon.png) or screwdriver ![Screwdriver icon](media/screwdriver-icon.png) icons, or by pressing **Alt**+**Enter** or **Ctrl**+**.** when your cursor is on the appropriate line of code. See [Quick Actions](quick-actions.md) for more information.
 
@@ -158,7 +158,7 @@ Debugging can take time, but the following tips can help you speed up the proces
 
      To add a DataTip, the debugger must be in break mode. Place the cursor on the variable, and then choose the pin button on the DataTip that appears. When debugging is stopped, a blue pin icon appears in the source file next to the line of code that contains the variable. If you point to the blue pin, the value of the variable from the most recent debugging session appears.
 
-- **Clear the Immediate window**. You can erase the contents of the [Immediate window](../ide/reference/immediate-window.md) at design time by entering `>cls` or `>Edit.ClearAll`
+- **Clear the Immediate window**. You can erase the contents of the [Immediate window](../ide/immediate-window.md) at design time by entering `>cls` or `>Edit.ClearAll`
 
      For more information about other commands, see [Visual Studio command aliases](../ide/reference/visual-studio-command-aliases.md).
 

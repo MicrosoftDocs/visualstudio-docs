@@ -64,6 +64,6 @@ This example creates a new web page "test1.htm" and opens it in the source code 
 
 - [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)
 - [Command Window](../../ide/reference/command-window.md)
-- [Immediate Window](../../ide/reference/immediate-window.md)
+- [Immediate Window](../../ide/immediate-window.md)
 - [Find/Command Box](../../ide/find-command-box.md)
 - [Visual Studio Command Aliases](../../ide/reference/visual-studio-command-aliases.md)

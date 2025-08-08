@@ -13,7 +13,7 @@ ms.date: 03/28/2024
 ---
 # C# IntelliSense
 
-C# IntelliSense is a language-specific code-completion aid. It's available to you when you write C# code in the code editor and debug it in the [Immediate mode](../ide/reference/immediate-window.md) command window.
+C# IntelliSense is a language-specific code-completion aid. It's available to you when you write C# code in the code editor and debug it in the [Immediate mode](../ide/immediate-window.md) command window.
 
 ## Completion lists
 

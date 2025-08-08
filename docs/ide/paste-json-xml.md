@@ -16,7 +16,7 @@ In Visual Studio, you can copy text from JSON or XML files and then paste the te
 :::image type="content" source="media/paste-json-xml-class-sml.png" alt-text="Screenshot of the Paste Special option from the Edit menu in Visual Studio." lightbox="media/paste-json-xml-class-lrg.png":::
 
 > [!TIP]
-> If you don't see the **Paste Special** option on the **Edit** menu, make sure that you have at least one of the following [**workloads**](../../install/modify-visual-studio.md#change-workloads-or-individual-components) installed: **ASP.NET and web development**, **Azure development**, or **.NET desktop development**. Then, make sure that you select the program file for your app. For example, for a C# app, select the **Program.cs** file in [Solution Explorer](../use-solution-explorer.md).
+> If you don't see the **Paste Special** option on the **Edit** menu, make sure that you have at least one of the following [**workloads**](../install/modify-visual-studio.md#change-workloads-or-individual-components) installed: **ASP.NET and web development**, **Azure development**, or **.NET desktop development**. Then, make sure that you select the program file for your app. For example, for a C# app, select the **Program.cs** file in [Solution Explorer](../ide/use-solution-explorer.md).
 
 **JSON** (**J**ava**S**cript **O**bject **N**otation) and **XML** (e**X**tensible **M**arkup **L**anguage) are similar in that they're both used to store and transport data. JSON, however, is less verbose and can use arrays.
 
@@ -163,5 +163,5 @@ namespace PasteDemo
 
 ## See also
 
-- [Features of the code editor](../../ide/writing-code-in-the-code-and-text-editor.md)
-- [Productivity guide for Visual Studio](../productivity-features.md)
+- [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)
+- [Productivity guide for Visual Studio](../ide/productivity-features.md)

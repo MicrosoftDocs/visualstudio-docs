@@ -23,7 +23,7 @@ To debug XAML code behind an app from the XAML designer, such as declarative dat
 
 ## Use the Immediate window
 
-You can use the Visual Studio **Immediate** window to execute a function or subroutine without running your app. If the function or subroutine contains a breakpoint, Visual Studio will break at the breakpoint. You can then use the debugger windows to examine your program state. This feature is called *debugging at design time*. For detailed information, see [Use the Immediate window](../ide/reference/immediate-window.md)
+You can use the Visual Studio **Immediate** window to execute a function or subroutine without running your app. If the function or subroutine contains a breakpoint, Visual Studio will break at the breakpoint. You can then use the debugger windows to examine your program state. This feature is called *debugging at design time*. For detailed information, see [Use the Immediate window](../ide/immediate-window.md)
 
 The following example is in Visual Basic. You can also use the **Immediate** window at design time in C#, F#, and C++/CLI apps. For C++/CLI, compile without the /clr option to use the Immediate window.
 
