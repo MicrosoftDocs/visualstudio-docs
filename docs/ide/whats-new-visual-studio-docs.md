@@ -366,7 +366,7 @@ The following people contributed to the Visual Studio docs during this period. T
 - [Visual Studio performance tips and tricks](../ide/visual-studio-performance-tips-and-tricks.md) - Update Visual Studio performance tips
 - [What's new in Visual Studio 2022](../ide/whats-new-visual-studio-2022.md) - Update What's New for 17.14
 - [Add or remove imported namespaces (Visual Basic)](../ide/how-to-add-or-remove-imported-namespaces-visual-basic.md) - Update procedure for Visual Basic Import namespaces
-- [Use the Immediate window](../ide/reference/immediate-window.md) - Update article on the Immediate window
+- [Use the Immediate window](../ide/immediate-window.md) - Update article on the Immediate window
 - [JavaScript IntelliSense](../ide/javascript-intellisense.md) - Refactor JavaScript/TypeScript editor content
 - [Add Visual Studio editor support for other languages](../ide/adding-visual-studio-editor-support-for-other-languages.md) - Updates for user feedback
 - [Customize the scroll bar](../ide/how-to-track-your-code-by-customizing-the-scrollbar.md) - Updates for user feedback on track changes
