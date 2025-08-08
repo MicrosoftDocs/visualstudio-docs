@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "docs/ide/reference/options-text-editor-all-languages-tabs.md",
+      "redirect_url": "/visualstudio/ide/options-text-editor-all-languages-tabs",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/reference/paste-json-xml.md",
       "redirect_url": "/visualstudio/ide/paste-json-xml",
       "redirect_document_id": false
