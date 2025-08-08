@@ -1,7 +1,7 @@
 ---
 title: Understand build configurations
 description: Discover how to work with build configurations when you need to build your projects with different settings in Visual Studio.
-ms.date: 11/14/2024
+ms.date: 8/7/2025
 ms.subservice: compile-build
 ms.topic: conceptual
 f1_keywords:
@@ -67,8 +67,10 @@ The configuration and platform that a project targets are used together to speci
 ![Screenshot of project designer configurations.](media/understanding-build-configurations/project-designer-configuration.png)
 :::moniker-end
 :::moniker range=">=vs-2022"
-![Screenshot of project designer configurations.](media/vs-2022/build-configuration-project-designer-configuration.png)
+![Screenshot of project designer configurations.](media/vs-2022/understanding-build-configurations/project-designer-build-configurations.png)
 :::moniker-end
+
+The predefined constants for each configuration are shown underneath the textbox where you can enter your own. These predefined constants are defined by the SDK your project uses. To see where these properties are defined, you can look for how the MSBuild property `DefineConstants` is defined and modified in the .NET SDK installation folder where `.props` and `.targets` files are located. The SDKs provide MSBuild properties that you can set in the project file to disable the predefined definitions; for example, see [DisableImplicitFrameworkDefines](/dotnet/core/project-sdk/msbuild-props#disableimplicitframeworkdefines).
 
 ## How Visual Studio associates project configurations with solution configurations
 
