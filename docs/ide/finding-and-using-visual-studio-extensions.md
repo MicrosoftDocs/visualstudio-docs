@@ -1,7 +1,7 @@
 ---
 title: Find and Manage Extension Packages
 description: Learn about extensions in Visual Studio and how to manage them so you have the controls, samples, templates, tools, and other components that you need.
-ms.date: 08/01/2025
+ms.date: 08/08/2025
 ms.topic: how-to
 f1_keywords:
 - vs.ExtensionManager
@@ -60,7 +60,7 @@ The left pane categorizes extensions by those that are available on Visual Studi
 
 Tabs have buttons to filter and sort extensions, and a gear button that takes you to the **Tools** > **Options** screen.
 
-You can Use the filter button to filter extensions by category. Categories include **Enabled**, **Disabled**, and **Incompatible**. In 17.14 and later, you can also filter by **Pending**, which filters by extensions that have updates that will be available the next time you restart Visual Studio.
+You can use the filter button to filter extensions by category. Categories for **Installed** extensions include **Enabled**, **Disabled**, and **Incompatible**. In 17.14 and later, you can also filter by **Pending**, which filters by extensions with updates that will be applied the next time you restart Visual Studio.
 
 Use the sort button to sort by extension name, extension author, or date.
 
@@ -80,7 +80,7 @@ To install extensions from Visual Studio:
 
   After the download completes, you see a notification at the top of Extension Manager: "Your changes are scheduled. The modifications will begin when Microsoft Visual Studio is closed."
 
-  :::image type="content" source="media/finding-and-using-visual-studio-extensions/manage-extensions-install-notification.png" alt-text="Screenshot that shows the notification stating that changes are scheduled." lightbox="media/finding-and-using-visual-studio-extensions/manage-extensions-install-notification.png":::
+  :::image type="content" source="media/finding-and-using-visual-studio-extensions/manage-extensions-install-notification.png" alt-text="Screenshot that shows the notification in Extension Manager stating that changes are scheduled." lightbox="media/finding-and-using-visual-studio-extensions/manage-extensions-install-notification.png":::
 
 ::: moniker-end
 
@@ -88,7 +88,7 @@ To install extensions from Visual Studio:
 
 After the download completes, you'll see a notification at the bottom of the Manage Extensions dialog: "The extension is scheduled for install. Your extension will be installed after all instances of Visual Studio have been closed."
 
-  :::image type="content" source="media/vs-2019/manage-extensions-install-notification.png" alt-text="Screenshot that shows the notification stating that changes are scheduled." lightbox="media/vs-2019/manage-extensions-install-notification.png":::
+  :::image type="content" source="media/vs-2019/manage-extensions-install-notification.png" alt-text="Screenshot that shows the notification in Extension Manager stating that changes are scheduled." lightbox="media/vs-2019/manage-extensions-install-notification.png":::
 
 ::: moniker-end
 
@@ -104,7 +104,7 @@ Extensions that are packaged in *.vsix* files might be available in locations ot
 
 ## Uninstall or disable an extension
 
-If you want to stop using an extension, you can either disable it or uninstall it. Disabling an extension keeps it installed but unloaded. Find the extension and, on the ellipsis menu (**...**), select **Uninstall** or **Disable**. Restart Visual Studio to unload a disabled extension.
+If you want to stop using an extension, you can either disable it or uninstall it. Disabling an extension keeps it installed but unloaded. Find the extension and select **Uninstall** or **Disable**. Restart Visual Studio to unload a disabled extension.
 
 > [!NOTE]
 > You can disable VSIX-based extensions but not extensions that are installed via MSI. MSI-installed extensions can only be uninstalled.
@@ -155,7 +155,7 @@ The rest of this section describes changes available in Visual Studio 2022 17.14
 
 Whenever you open the Extension Manager window, you automatically trigger updates. This ensures that you're consistently working with the latest features and don't need to manually initiate updates.
 
-When an update is available for an extension, you see a yellow notification:
+When an update is available for an extension, you see a yellow notification infobar:
 
 :::image type="content" source="./media/vs-2022/finding-and-using-visual-studio-extensions/extension-manager-notification-bar.png" alt-text="Screenshot showing how Visual Studio notifies you about extension updates that are available.":::
 
