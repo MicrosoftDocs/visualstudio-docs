@@ -608,8 +608,8 @@
       href: /troubleshoot/developer/visualstudio/ide/troubleshoot-class-designer-errors?toc=%2Fvisualstudio%2Ftoc.json
   - name: Improve your code
     href: ide/find-and-fix-code-errors.md
-  - name: Immediate window
-    href: ide/reference/immediate-window.md
+  - name: Use the Immediate window
+    href: ide/immediate-window.md
   - name: Tips and tricks
     items:
     - name: Productivity features

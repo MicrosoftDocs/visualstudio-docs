@@ -158,7 +158,7 @@ Debugging can take time, but the following tips can help you speed up the proces
 
      To add a DataTip, the debugger must be in break mode. Place the cursor on the variable, and then choose the pin button on the DataTip that appears. When debugging is stopped, a blue pin icon appears in the source file next to the line of code that contains the variable. If you point to the blue pin, the value of the variable from the most recent debugging session appears.
 
-- **Clear the Immediate window**. You can erase the contents of the [Immediate window](../ide/reference/immediate-window.md) at design time by entering `>cls` or `>Edit.ClearAll`
+- **Clear the Immediate window**. You can erase the contents of the [Immediate window](../ide/immediate-window.md) at design time by entering `>cls` or `>Edit.ClearAll`
 
      For more information about other commands, see [Visual Studio command aliases](../ide/reference/visual-studio-command-aliases.md).
 
