@@ -2,7 +2,7 @@
 title: Create a pull request in Visual Studio
 titleSuffix: ""
 description: Create a pull request in Visual Studio by using GitHub or Azure DevOps.
-ms.date: 1/13/2025
+ms.date: 8/7/2025
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
