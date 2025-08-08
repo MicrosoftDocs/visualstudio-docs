@@ -570,6 +570,8 @@
       href: ide/how-to-track-your-code-by-customizing-the-scrollbar.md
     - name: Set bookmarks in code
       href: ide/setting-bookmarks-in-code.md
+    - name: Paste JSON or XML as classes
+      href: ide/paste-json-xml.md
     - name: CodeLens
       items:
       - name: Find code history with CodeLens
@@ -910,8 +912,6 @@
       href: ide/reference/command-window.md
     - name: Error List window
       href: ide/reference/error-list-window.md
-    - name: Paste JSON or XML as classes
-      href: ide/reference/paste-json-xml.md
     - name: Options
       items:
       - name: Environment
