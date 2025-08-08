@@ -70,5 +70,5 @@ devenv /LCID 1033
 ## See also
 
 - [Devenv command-line switches](../../ide/reference/devenv-command-line-switches.md)
-- [International Settings, Environment, Options Dialog Box](../../ide/reference/international-settings-environment-options-dialog-box.md)
+- [International Settings, Environment, Options Dialog Box](/previous-versions/visualstudio/visual-studio-2017/ide/reference/international-settings-environment-options-dialog-box)
 - [Customizing window layouts](../../ide/customizing-window-layouts-in-visual-studio.md)
