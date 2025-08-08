@@ -267,7 +267,7 @@ Use this control to toggle the editing context settings altogether, or personali
 
 - [Options, Text Editor, All Languages](../../ide/reference/options-text-editor-all-languages.md)
 - [Options, Text Editor, All Languages, Tabs](../../ide/reference/options-text-editor-all-languages-tabs.md)
-- [Options, Text Editor, File Extension](../../ide/reference/options-text-editor-file-extension.md)
+- [Options, Text Editor, File Extension](/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-text-editor-file-extension)
 - [Identifying and Customizing Keyboard Shortcuts](../../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md)
 - [Customizing the Editor](../how-to-change-text-case-in-the-editor.md)
 - [Using IntelliSense](../../ide/using-intellisense.md)

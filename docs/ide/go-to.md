@@ -93,5 +93,4 @@ Center window | Move the window to the center of the top of the code editor, ins
 ## Related content
 
 - [Navigate code](../ide/navigating-code.md)
-- [Go To Line dialog box](../ide/reference/go-to-line.md)
 - [Go To Definition and Peek Definition](../ide/go-to-and-peek-definition.md)
