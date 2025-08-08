@@ -14,7 +14,7 @@ ms.subservice: installation
 
 ::: moniker range="vs-2019"
 
-Visual Studio 2019 is built to target processors based on the x86 architecture, and there are no versions of Visual Studio 2019 for ARM-based processors. This article provides information about running Visual Studio via x86 emulation and remotely targeting Arm devices. 
+Visual Studio is built to target processors based on the x86 architecture, and there are no versions of Visual Studio for ARM-based processors. This article provides information about running Visual Studio via x86 emulation and remotely targeting Arm devices. 
 
 Visual Studio can run on ARM-powered devices via x86 emulation, though some features aren't currently supported on Azure Resource Manager. Therefore, we don't recommend running Visual Studio 2019 on devices that use ARM-based processors. Instead, we recommend remotely targeting ARM devices.
 
