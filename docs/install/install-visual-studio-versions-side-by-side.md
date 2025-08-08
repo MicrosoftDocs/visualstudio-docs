@@ -2,7 +2,7 @@
 title: Install Visual Studio Versions Side-by-Side
 description: Learn how to install Visual Studio on a computer that has an earlier or later version of Visual Studio already installed.
 ms.custom: vs-acquisition
-ms.date: 08/01/2025
+ms.date: 08/08/2025
 ms.subservice: installation
 ms.topic: concept-article
 helpviewer_keywords:
@@ -56,7 +56,7 @@ You can manually use another bootstrapper to install a new instance of Visual St
 
 1. To use another bootstrapper, you can download and run one of the bootstrapper files for Visual Studio 2019 from the [Visual Studio 2019 releases](/visualstudio/releases/2019/history#installing-an-earlier-release) page for the edition that you want to install side-by-side with your existing installation of Visual Studio. If you're in an organization, your IT Administrator might create a layout and provide a link to the bootstrapper in that layout.
 
-1. You use the installer's **Available** tab when you already have another version of Visual Studio installed. First, on the Visual Studio **Tools** menu, select **Get Tools and Features**. After the installer updates, select the **Available** tab and install one of the listed products.
+1. You use the installer's **Available** tab when you already have another version of Visual Studio installed. First find the **Visual Studio Installer** on your computer and start it. After the installer updates, select the **Available** tab and install one of the listed products.
 
 ::: moniker-end
 
@@ -72,7 +72,7 @@ You can manually use another bootstrapper to install a new instance of Visual St
 
 1. To use another bootstrapper, you can download and run one of the bootstrapper files for Visual Studio 2022 from either the [Visual Studio downloads page](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) or the [Visual Studio 2022 releases](/visualstudio/releases/2022/release-history#release-dates-and-build-numbers) page for the minor version that you want to install side-by-side with your existing version of Visual Studio.
 
-1. You use the installer's **Available** tab when you already have another version of Visual Studio installed. First, on the Visual Studio **Tools** menu, select **Get Tools and Features**. After the installer updates, select the **Available** tab and install one of the listed products.
+1. You use the installer's **Available** tab when you already have another version of Visual Studio installed. First, on the Visual Studio **Tools** menu, select **Get Tools and Features** to start the Visual Studio Installer. After the installer updates, select the **Available** tab and install one of the listed products.
 
 ::: moniker-end
 

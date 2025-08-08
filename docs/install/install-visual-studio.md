@@ -2,7 +2,7 @@
 title: Install Visual Studio and Choose Your Preferred Features
 titleSuffix: ''
 description: Learn how to install Visual Studio quickly. To reduce the installation footprint, choose your preferred features.
-ms.date: 08/01/2025
+ms.date: 08/08/2025
 ms.custom: vs-acquisition
 ms.topic: install-set-up-deploy
 helpviewer_keywords:
@@ -307,7 +307,7 @@ Visual Studio opens your new project, and you're ready to code!
 
 1. In the template search box, enter the type of app you want to create to see a list of available templates. The list of templates depends on the workloads that you chose during installation. To see different templates, choose different workloads.
 
-   You can also filter your search for a specific programming language by using the language dropdown list. The platform list and the project type list also provide filters.
+   You can also filter your search for a specific programming language by using the **All languages** dropdown list. You can filter by using the **All platforms** list and the **All project types** list, too.
 
 1. Select **Next**. Provide information in the following dialogs, and then select **Create**.
 
