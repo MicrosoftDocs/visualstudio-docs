@@ -1,0 +1,52 @@
+---
+title: Set AutoRecover options
+description: Learn about the AutoRecover, Environment, Options dialog box and how it's used to specify whether or not to automatically back up files.
+ms.date: 08/07/2025
+ms.topic: reference
+f1_keywords:
+- VS.DialogAutoRestore
+- VS.ToolsOptionsPages.Environment.AutoRecover
+- VS.ToolsOptionsPages.Environment.Auto_Save_and_Restore
+helpviewer_keywords:
+- files, recovering
+- AutoRecover page
+- saving files, automatically
+- files, saving automatically
+ms.custom: "ide-ref"
+author: anandmeg
+ms.author: meghaanand
+manager: mijacobs
+ms.subservice: general-ide
+---
+# Set AutoRecover options
+
+You can configure Visual Studio to automatically back up files or not. You can also specify if you want to restore modified files if Visual Studio shuts down unexpectedly.
+
+1. To access this dialog box, go to **Tools** > **Options** > **Environment** > **AutoRecover**.
+
+   :::image type="content" source="media/autorecover-options.png" alt-text="Screenshot of the AutoRecover section in the Options dialog box":::
+
+1. Select **Save AutoRecover information every [n] minutes**.
+
+   ::: moniker range=">=vs-2022"
+
+   Use this option to customize how often a file is automatically saved in the editor. For previously saved files, Visual Studio saves a copy of the file in *%LocalAppData%\Microsoft\VisualStudio\BackupFiles\\[projectname]*. If the file is new and unsaved, Visual Studio autosaves it by using a randomly generated file name.
+
+   ::: moniker-end
+
+   ::: moniker range="vs-2019"
+
+   Use this option to customize how often a file is automatically saved in the editor. For previously saved files, Visual Studio 2019 version 16.2 and later saves a copy of the file in *%LocalAppData%\Microsoft\VisualStudio\BackupFiles\\[projectname]*. If the file is new and unsaved, Visual Studio autosaves it by using a randomly generated file name.
+
+   > [!NOTE]
+   > If you're using Visual Studio 2019 version 16.1 or earlier, the file location is *%USERPROFILE%\Documents\Visual Studio [version]\Backup Files\\[projectname]*. For more information, see the [Visual Studio 2019 Release Notes History](/visualstudio/releases/2019/release-notes-history/) page.
+
+   ::: moniker-end
+
+1. Specify a value under the **Keep AutoRecover information for [n] days** option.
+
+   Use this option to specify how long Visual Studio keeps files created for autorecovery.
+
+### See also
+
+- [Options dialog box](../ide/reference/options-dialog-box-visual-studio.md)
