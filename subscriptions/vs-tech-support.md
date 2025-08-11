@@ -53,7 +53,7 @@ Product level descriptions: Expand **Unavailable support plans**. If you see **S
    + The Subscription ID, which can be found on the [Subscriptions](https://my.visualstudio.com/subscriptions) tab.
 
    > [!div class="mx-imgBorder"]
-   > ![Technical Support Benefit Find Subscription ID](_img/vs-tech-support/vs-tech-support-subID-cropped-rev.png "Screenshot of the subscriptions page. An example of a subscription ID is highlighted.")
+   > ![Technical Support Benefit Find Subscription ID](_img/vs-tech-support/visual-studio-tech-support-subID-cropped-rev.png "Screenshot of the subscriptions page. An example of a subscription ID is highlighted.")
 
 4. After the process is completed, you receive an email containing your **Contract ID** and **Access ID** you use when creating a support incident. It also provides instructions for submitting support incidents using your new Access ID and Contract ID. 
 
@@ -76,7 +76,7 @@ To submit an incident via the Support for business portal, follow these steps:
 
 0. In the **Step 1** section, select the appropriate entries from the drop-down lists to indicate your product, version, issue, etc. Complete the text fields for the summary of the issue and to describe the issue in more detail. You might be redirected to a specific cloud portal (for example, Azure or Microsoft 365) depending on the product.
    > [!div class="mx-imgBorder"]
-   > ![Create a new support request](_img/vs-tech-support/vs-tech-support-create-new-rev.png "Screenshot of the new support request dialog.") 
+   > ![Create a new support request](_img/vs-tech-support/visual-studio-tech-support-create-new-rev.png "Screenshot of the new support request dialog.") 
 0. Select your **Support Type**.
 0. Enter the **Access ID** and **Contract ID** you received in your confirmation email when you activated your support benefit. Select **Add**.
 0. Supply your location and time zone.
