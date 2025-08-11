@@ -6,9 +6,9 @@ ms.topic: conceptual
 helpviewer_keywords:
 - Visual Studio Workflow Designer [WFD], debugging workflows
 - Workflow Designer [WFD], debugging workflows
-author: jodavis
-ms.author: jodavis
-manager: mijacobs
+author: sayedihashimi
+ms.author: sayedha
+manager: timheuer
 ms.subservice: workflow-designer
 ---
 # Debug workflows with the Workflow Designer

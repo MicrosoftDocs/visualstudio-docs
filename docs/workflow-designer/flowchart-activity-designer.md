@@ -7,9 +7,9 @@ f1_keywords:
 - System.Activities.Statements.Flowchart.UI
 - System.Activities.Statements.FlowStep.UI
 - System.Activities.Core.Presentation.FlowStart.UI
-author: jodavis
-ms.author: jodavis
-manager: mijacobs
+author: sayedihashimi
+ms.author: sayedha
+manager: timheuer
 ms.subservice: workflow-designer
 ---
 # Flowchart Activity Designer
