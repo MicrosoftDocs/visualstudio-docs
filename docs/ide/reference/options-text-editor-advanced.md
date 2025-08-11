@@ -92,7 +92,7 @@ Select this option to disable the new [multi-caret selection](../finding-and-rep
 
 ## Use adaptive formatting
 
-Based on your most recently updated file, Visual Studio recognizes whether you prefer to use tabs or spaces to indent code. The adaptive formatting option is selected by default. When unselected, Visual Studio uses the settings in **Tools** > **Options** > **Text Editor** > **All Languages** > **[Tabs](options-text-editor-all-languages-tabs.md)** instead.
+Based on your most recently updated file, Visual Studio recognizes whether you prefer to use tabs or spaces to indent code. The adaptive formatting option is selected by default. When unselected, Visual Studio uses the settings in **Tools** > **Options** > **Text Editor** > **All Languages** > **[Tabs](../options-text-editor-all-languages-tabs.md)** instead.
 
 > [!TIP]
 > You can also change how Visual Studio manages your preferred indent style by using an .*editorconfig* file. For more information, see [Create portable, custom editor settings with EditorConfig](../create-portable-custom-editor-options.md).
@@ -134,7 +134,7 @@ Select this option if you prefer to set the maximum latency that Visual Studio a
 
 ## Use adaptive formatting
 
-Based on your most recently updated file, Visual Studio recognizes whether you prefer to use tabs or spaces for code indentation. The adaptive formatting option is selected by default. When unselected, Visual Studio uses the settings in **Tools** > **Options** > **Text Editor** > **All Languages** > **[Tabs](options-text-editor-all-languages-tabs.md)** instead.
+Based on your most recently updated file, Visual Studio recognizes whether you prefer to use tabs or spaces for code indentation. The adaptive formatting option is selected by default. When unselected, Visual Studio uses the settings in **Tools** > **Options** > **Text Editor** > **All Languages** > **[Tabs](../options-text-editor-all-languages-tabs.md)** instead.
 
 ::: moniker-end
 
