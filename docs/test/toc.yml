@@ -56,9 +56,9 @@
     href: test-execution-with-hot-reload.md
   - name: Write unit tests for managed code
     items:
-    - name: 'Walkthrough: Create and run unit tests for managed code'
+    - name: Create and run unit tests for managed code
       href: walkthrough-creating-and-running-unit-tests-for-managed-code.md
-    - name: 'Walkthrough: Test-driven development'
+    - name: Get started with test-driven development
       href: quick-start-test-driven-development-with-test-explorer.md
     - name: Microsoft Fakes
       items:
