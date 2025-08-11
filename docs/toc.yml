@@ -543,6 +543,8 @@
         href: ide/reference/how-to-display-line-numbers-in-the-editor.md
       - name: Display URLs as links
         href: ide/reference/how-to-display-urls-as-links-in-the-editor.md
+      - name: Change indents and tabs
+        href: ide/reference/options-text-editor-all-languages-tabs.md
     - name: Code style
       items:
       - name: Code style preferences
@@ -952,8 +954,6 @@
           items:
           - name: General
             href: ide/reference/options-text-editor-all-languages.md
-          - name: Tabs
-            href: ide/reference/options-text-editor-all-languages-tabs.md
         - name: Visual Basic
           items:
           - name: Advanced
