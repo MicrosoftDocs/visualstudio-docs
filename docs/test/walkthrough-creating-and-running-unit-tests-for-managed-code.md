@@ -14,14 +14,14 @@ manager: mijacobs
 ms.subservice: test-tools
 author: mikejo5000
 ---
-# Create and run unit tests for managed code
+# Create and run unit tests for .NET
 
 This article steps you through creating, running, and customizing a series of unit tests using the Microsoft unit test framework for managed code and Visual Studio **Test Explorer**. You start with a C# project that is under development, create tests that exercise its code, run the tests, and examine the results. Then you change the project code and rerun the tests. If you would like a conceptual overview of these tasks before going through these steps, see [Unit test basics](../test/unit-test-basics.md).
 
 This article describes how to manually create unit tests. If you would like to generate tests automatically from existing code, see the following articles:
 
 - [Create unit test method stubs from code](../test/create-unit-tests-menu.md)
-- [Use slash commands in GitHub Copilot](../ide/copilot-chat-context?view=vs-2022#slash-commands)
+- [Use slash commands in GitHub Copilot](../ide/copilot-chat-context.md#slash-commands)
 
 ## Prerequisites
 
