@@ -60,6 +60,6 @@ File.OpenFile "C:\My Projects\project1\Test1.css" /e:"Source Code (text) Editor"
 
 - [Visual Studio commands](../../ide/reference/visual-studio-commands.md)
 - [Command window](../../ide/reference/command-window.md)
-- [Immediate window](../../ide/reference/immediate-window.md)
+- [Immediate window](../../ide/immediate-window.md)
 - [Find/Command box](../../ide/find-command-box.md)
 - [Visual Studio command aliases](../../ide/reference/visual-studio-command-aliases.md)
