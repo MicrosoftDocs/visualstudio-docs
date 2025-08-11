@@ -46,7 +46,7 @@ ms.subservice: general-ide
 
 Learn how to change the default tab and indentation behavior for the Code Editor in Visual Studio using the text editor configuration options.
 
-## Access the All Languages Tabs options
+## Access options for indents and tabs
 
 1. Open Visual Studio.
 2. On the menu bar, select **Tools** > **Options**.
