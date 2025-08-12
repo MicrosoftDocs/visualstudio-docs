@@ -1,7 +1,7 @@
 ---
 title: "View threads in the Parallel Stacks window"
 description: Use Parallel Stacks to help debug multithreaded applications. You can view stack information for all threads, and task-centered call stack information.
-ms.date: "01/22/2025"
+ms.date: "8/5/2025"
 ms.topic: "conceptual"
 f1_keywords:
   - "vs.debug.parallelstacks"
@@ -23,9 +23,17 @@ The **Parallel Stacks** window is useful for debugging multithreaded application
 
 - [Threads view](#threads-view) shows call stack information for all threads in the app. You can navigate between threads and stack frames on those threads.
 
+::: moniker range=">=vs-2022"
 - [Tasks view](#tasks-view) shows task-centered call stack information.
-  - In managed code, **Tasks** view shows call stacks of <xref:System.Threading.Tasks.Task?displayProperty=fullName> objects.
-  - In native code, **Tasks** view shows call stacks of [task groups](/cpp/parallel/concrt/task-parallelism-concurrency-runtime), [parallel algorithms](/cpp/parallel/concrt/parallel-algorithms), [asynchronous agents](/cpp/parallel/concrt/asynchronous-agents), and [lightweight tasks](/cpp/parallel/concrt/task-scheduler-concurrency-runtime).
+  - For .NET apps using the async/await pattern, the Tasks view is the most helpful for debugging. For a step-by-step tutorial, see [Debug an async application](../debugger/walkthrough-debugging-a-parallel-application.md).
+  - For apps using the [Task Parallel Library (TPL)](/dotnet/standard/parallel-programming/task-parallel-library-tpl) but not the async/await pattern, or for C++ apps using the [Concurrency Runtime](/cpp/parallel/concrt/concurrency-runtime), the **Threads** view in the **Parallel Stacks** window is the most useful tool for debugging.
+::: moniker-end
+
+::: moniker range="vs-2019"
+- [Tasks view](#tasks-view) shows task-centered call stack information.
+  - For .NET apps using the async/await pattern, the Tasks view is the most helpful for debugging.
+  - For apps using the [Task Parallel Library (TPL)](/dotnet/standard/parallel-programming/task-parallel-library-tpl) but not the async/await pattern, or for C++ apps using the [Concurrency Runtime](/cpp/parallel/concrt/concurrency-runtime), the **Threads** view in the **Parallel Stacks** window is the most useful tool for debugging.
+::: moniker-end
 
 - [Method View](#method-view) pivots the call stack on a selected method.
 
@@ -244,7 +252,8 @@ These video tutorials demonstrate how you can use the Threads and Tasks views of
 
 ## Related content
 - [Get started debugging a multithreaded application](../debugger/get-started-debugging-multithreaded-apps.md)
-- [Walkthrough: Debug a parallel application](../debugger/walkthrough-debugging-a-parallel-application.md)
+- [Debug an async application (.NET)](../debugger/walkthrough-debugging-a-parallel-application.md)
+- [Debug a deadlock](../debugger/how-to-use-the-threads-window.md)
 - [Switch to Another Thread While Debugging in Visual Studio](../debugger/how-to-switch-to-another-thread-while-debugging.md)
 - [Debugging managed code](/visualstudio/debugger/)
 - [Parallel programming](/dotnet/standard/parallel-programming/index)

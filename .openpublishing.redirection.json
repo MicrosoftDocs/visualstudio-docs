@@ -1,6 +1,51 @@
 {
   "redirections": [
     {
+      "source_path": "docs/ide/reference/options-text-editor-all-languages-tabs.md",
+      "redirect_url": "/visualstudio/ide/options-text-editor-all-languages-tabs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/paste-json-xml.md",
+      "redirect_url": "/visualstudio/ide/paste-json-xml",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/immediate-window.md",
+      "redirect_url": "/visualstudio/ide/immediate-window",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/miscellaneous-files.md",
+      "redirect_url": "/visualstudio/ide/miscellaneous-files",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/autorecover-environment-options-dialog-box.md",
+      "redirect_url": "/visualstudio/ide/autorecover-environment-options-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/environment-preview-features-options.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/environment-preview-features-options",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/options-text-editor-file-extension.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-text-editor-file-extension",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/international-settings-environment-options-dialog-box.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/international-settings-environment-options-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/go-to-line.md",
+      "redirect_url": "/visualstudio/ide/go-to",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/reference/toolbox-data-tab.md",
       "redirect_url": "/visualstudio/ide/reference/toolbox",
       "redirect_document_id": false
@@ -2334,6 +2379,11 @@
       "source_path": "docs/ide/understanding-build-platforms.md",
       "redirect_url": "/visualstudio/ide/how-to-configure-projects-to-target-platforms",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/debug-parallel-application.md",
+      "redirect_url": "/visualstudio/debugger/get-started-debugging-multithreaded-apps",
+      "redirect_document_id": true
     },
     {
       "source_path": "docs/debugger/walkthrough-debugging-a-windows-form.md",

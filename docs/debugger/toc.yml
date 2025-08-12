@@ -310,9 +310,7 @@
         href: get-started-debugging-multithreaded-apps.md
       - name: Debug an async application
         href: walkthrough-debugging-a-parallel-application.md
-      - name: Debug a parallel application
-        href: debug-parallel-application.md
-      - name: Debug using the Threads window
+      - name: Debug a deadlock
         href: how-to-use-the-threads-window.md
     - name: Tools to debug threads and processes
       items:
@@ -364,8 +362,8 @@
       href: /visualstudio/bridge/bridge-to-kubernetes-vs
     - name: Debug with Container Tools >>
       href: ../containers/edit-and-refresh.md
-  - name: Immediate window
-    href: ../ide/reference/immediate-window.md
+  - name: Use the Immediate window
+    href: ../ide/immediate-window.md
   - name: Work with...
     items:
     - name: .NET

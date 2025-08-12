@@ -6,8 +6,8 @@ ms.topic: reference
 f1_keywords:
   - "InvokeDelegate Designer"
   - "System.Activities.Statements.InvokeDelegate.UI"
-author: jodavis
-ms.author: jodavis
+author: sayedihashimi
+ms.author: sayedha
 ---
 # InvokeDelegate
 

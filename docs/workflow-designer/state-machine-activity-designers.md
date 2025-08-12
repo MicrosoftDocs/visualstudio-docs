@@ -3,9 +3,9 @@ title: "Workflow Designer - State Machine Activity Designers"
 description: Learn about the system-provided activity designers you can use to create and manage state machine workflows.
 ms.date: 11/04/2016
 ms.topic: reference
-author: jodavis
-ms.author: jodavis
-manager: mijacobs
+author: sayedihashimi
+ms.author: sayedha
+manager: timheuer
 ms.subservice: workflow-designer
 ---
 # State Machine Activity Designers

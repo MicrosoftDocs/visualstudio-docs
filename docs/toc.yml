@@ -285,6 +285,10 @@
         href: ide/template-parameters.md
     - name: 64-bit support
       href: ide/visual-studio-ide-64-bit-support.md
+    - name: Set AutoRecover options
+      href: ide/autorecover-environment-options-dialog-box.md
+    - name: Work with miscellaneous files
+      href: ide/miscellaneous-files.md
   - name: Develop without projects or solutions
     items:
     - name: 'How to: Develop without a project'
@@ -539,6 +543,8 @@
         href: ide/reference/how-to-display-line-numbers-in-the-editor.md
       - name: Display URLs as links
         href: ide/reference/how-to-display-urls-as-links-in-the-editor.md
+      - name: Change indents and tabs
+        href: ide/options-text-editor-all-languages-tabs.md
     - name: Code style
       items:
       - name: Code style preferences
@@ -566,6 +572,8 @@
       href: ide/how-to-track-your-code-by-customizing-the-scrollbar.md
     - name: Set bookmarks in code
       href: ide/setting-bookmarks-in-code.md
+    - name: Paste JSON or XML as classes
+      href: ide/paste-json-xml.md
     - name: CodeLens
       items:
       - name: Find code history with CodeLens
@@ -604,8 +612,8 @@
       href: /troubleshoot/developer/visualstudio/ide/troubleshoot-class-designer-errors?toc=%2Fvisualstudio%2Ftoc.json
   - name: Improve your code
     href: ide/find-and-fix-code-errors.md
-  - name: Immediate window
-    href: ide/reference/immediate-window.md
+  - name: Use the Immediate window
+    href: ide/immediate-window.md
   - name: Tips and tricks
     items:
     - name: Productivity features
@@ -906,12 +914,6 @@
       href: ide/reference/command-window.md
     - name: Error List window
       href: ide/reference/error-list-window.md
-    - name: Go To Line
-      href: ide/reference/go-to-line.md
-    - name: Paste JSON or XML as classes
-      href: ide/reference/paste-json-xml.md
-    - name: Miscellaneous files
-      href: ide/reference/miscellaneous-files.md
     - name: Options
       items:
       - name: Environment
@@ -920,8 +922,6 @@
           href: ide/reference/general-environment-options-dialog-box.md
         - name: Accounts
           href: ide/reference/accounts-environment-options-dialog-box.md
-        - name: AutoRecover
-          href: ide/reference/autorecover-environment-options-dialog-box.md
         - name: Documents
           href: ide/reference/documents-environment-options-dialog-box.md
         - name: Extensions
@@ -932,10 +932,6 @@
           href: ide/reference/fonts-and-colors-environment-options-dialog-box.md
         - name: Import and Export Settings
           href: ide/reference/import-and-export-settings-environment-options-dialog-box.md
-        - name: International Settings
-          href: ide/reference/international-settings-environment-options-dialog-box.md
-        - name: Preview Features
-          href: ide/reference/environment-preview-features-options.md
         - name: Trust Settings
           href: ide/reference/trust-settings.md
         - name: Notifications window
@@ -954,14 +950,10 @@
           href: ide/reference/options-text-editor-general.md
         - name: Advanced
           href: ide/reference/options-text-editor-advanced.md
-        - name: File Extension
-          href: ide/reference/options-text-editor-file-extension.md
         - name: All Languages
           items:
           - name: General
             href: ide/reference/options-text-editor-all-languages.md
-          - name: Tabs
-            href: ide/reference/options-text-editor-all-languages-tabs.md
         - name: Visual Basic
           items:
           - name: Advanced

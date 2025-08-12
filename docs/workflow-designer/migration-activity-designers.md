@@ -3,9 +3,9 @@ title: "Workflow Designer - Migration Activity Designers"
 description: Learn how to use the Migration activity designers to call workflow 3.0/3.5 activities from a workflow that targets .NET Framework 4 or later.
 ms.date: 11/04/2016
 ms.topic: reference
-author: jodavis
-ms.author: jodavis
-manager: mijacobs
+author: sayedihashimi
+ms.author: sayedha
+manager: timheuer
 ms.subservice: workflow-designer
 ---
 # Migration activity designers

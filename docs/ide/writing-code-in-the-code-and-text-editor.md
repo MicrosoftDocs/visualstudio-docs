@@ -93,7 +93,7 @@ Visual Studio offers a few time-savers when it comes to copying and pasting code
 
     :::image type="content" source="media/vs-2022/copy-trim-indentation.png" alt-text="Screenshot that shows a before and after comparison to highlight the Copy and Trim Indentation feature.":::
 
-- **[Paste JSON or XML as classes](reference/paste-json-xml.md)**. Copy any JSON or XML text fragment to the clipboard and then paste it as strongly typed .NET classes into any C# or Visual Basic code file. To do so, use **Edit** > **Paste Special** > **Paste JSON As Classes** (or **Paste XML As Classes**).
+- **[Paste JSON or XML as classes](../ide/paste-json-xml.md)**. Copy any JSON or XML text fragment to the clipboard and then paste it as strongly typed .NET classes into any C# or Visual Basic code file. To do so, use **Edit** > **Paste Special** > **Paste JSON As Classes** (or **Paste XML As Classes**).
 
 ::: moniker-end
 

@@ -1,7 +1,7 @@
 ---
 title: Windows Forms Designer tutorial
 description: 'Use Windows Forms Designer to build applications and arrange controls, set margins and padding, adjust layout, size, and display, and set property values.'
-ms.date: 08/27/2024
+ms.date: 8/5/2025
 ms.topic: tutorial
 helpviewer_keywords:
 - Windows Forms Designer, get started
@@ -29,6 +29,22 @@ When you're finished, you'll have a custom control that's been assembled by usin
 
 > [!TIP]
 > If you're a C++ developer and are looking for a tutorial to help you create a Windows app that includes forms and controls, see [Creating a forms-based MFC application](/cpp/mfc/reference/creating-a-forms-based-mfc-application?view=msvc-170&preserve-view=true). For more generalized info, see [Overview of Windows programming in C++](/cpp/windows/overview-of-windows-programming-in-cpp?view=msvc-170&preserve-view=true).
+
+## Prerequisites
+
+::: moniker range="=vs-2019"
+
+- If you don't have Visual Studio, go to [Visual Studio downloads](https://visualstudio.microsoft.com/vs/) to install it for free.
+- The **.NET desktop development** workload. To verify or install this workload in Visual Studio, select **Tools** > **Get Tools and Features**. For more information, see [Change workloads or individual components](../install/modify-visual-studio.md#change-workloads-or-individual-components).
+
+::: moniker-end
+
+::: moniker range=">=vs-2022"
+
+- If you don't have Visual Studio, go to [Visual Studio 2022 downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-create-csharp-winform-app-page-cta) to install it for free.
+- The **.NET desktop development** workload. To verify or install this workload in Visual Studio, select **Tools** > **Get Tools and Features**. For more information, see [Change workloads or individual components](../install/modify-visual-studio.md#change-workloads-or-individual-components).
+
+::: moniker-end
 
 ## Create the custom control project
 
