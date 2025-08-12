@@ -17,7 +17,7 @@ ms.subservice: msbuild
 When you build projects, it's often necessary to set build options using information that isn't in the project file or the files that comprise your project. This information is typically stored in environment variables.
 
 > [!NOTE]
-> Environment variables are considered trusted inputs by MSBuild. They can direct the loading of extensibility from non-default locations during a build.
+> MSBuild treats environment variables as trusted inputs. They can cause MSBuild to load build logic (such as tasks, targets, or .props files) from non-default locations, or change how the build executes.
 
 ## Reference environment variables
 
