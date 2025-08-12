@@ -2,6 +2,7 @@
 title: 'Use MCP servers (Preview)'
 description: Adding MCP servers in Visual Studio to extend GitHub Copilot agent capabilities, setting up mcp.json and managing tool permissions.
 ms.date: 6/18/2025
+ms.update-cycle: 180-days
 ms.topic: get-started
 author: anandmeg
 ms.author: meghaanand

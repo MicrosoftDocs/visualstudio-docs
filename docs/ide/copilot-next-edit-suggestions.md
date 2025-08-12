@@ -2,6 +2,7 @@
 title: Copilot Next Edit Suggestions
 description: Use Copilot Next Edit Suggestions (NES) to predict where you'll want to make your next edit and what that edit should be, based on your recent code edits.
 ms.date: 5/13/2025
+ms.update-cycle: 180-days
 ms.topic: get-started
 author: anandmeg
 ms.author: meghaanand

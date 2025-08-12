@@ -2,6 +2,7 @@
 title: 'GitHub Copilot Free in Visual Studio'
 description: Use GitHub Copilot Completions, Chat, and Edits for free in Visual Studio.
 ms.date: 7/29/2025
+ms.update-cycle: 180-days
 ms.topic: overview 
 author: anandmeg
 ms.author: meghaanand
