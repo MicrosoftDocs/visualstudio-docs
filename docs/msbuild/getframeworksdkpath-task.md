@@ -41,7 +41,7 @@ In addition to the parameters listed above, this task inherits parameters from t
 The following example uses the `GetFrameworkSdkPath` task to store the path to the Windows SDK in the `SdkPath` property.
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
     <Target Name="GetPath">
         <GetFrameworkSdkPath>
             <Output

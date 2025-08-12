@@ -65,7 +65,7 @@ In addition to the generic `Item` element, ItemGroup allows child elements that 
 The following code example shows the user-defined item collections `Res` and `CodeFiles` declared inside of an `ItemGroup` element. Each of the items in the `Res` item collection contains a user-defined child [ItemMetadata](../msbuild/itemmetadata-element-msbuild.md) element.
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
     <ItemGroup>
         <Res Include = "Strings.fr.resources" >
             <Culture>fr</Culture>

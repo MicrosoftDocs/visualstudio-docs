@@ -45,8 +45,7 @@ When using `CallTarget`, MSBuild evaluates the called target in a new scope, as 
  The following example calls `TargetA` from inside `CallOtherTargets`.
 
 ```xml
-<Project DefaultTargets="CallOtherTargets"
-    xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="CallOtherTargets">
 
     <Target Name="CallOtherTargets">
         <CallTarget Targets="TargetA"/>

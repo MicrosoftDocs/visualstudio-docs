@@ -48,7 +48,7 @@ In addition to the parameters listed above, this task inherits parameters from t
 The following code example verifies that all required properties are set. If they are not set, the project raises an error event, and logs the value of the `Text` parameter of the `Error` task.
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
     <Target Name="ValidateCommandLine">
         <Error
             Text=" The 0 property must be set on the command line."

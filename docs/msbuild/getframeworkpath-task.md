@@ -46,7 +46,7 @@ In addition to the parameters listed above, this task inherits parameters from t
 The following example uses the `GetFrameworkPath` task to store the path to the .NET Framework in the `FrameworkPath` property.
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
     <Target Name="GetPath">
         <GetFrameworkPath>
             <Output

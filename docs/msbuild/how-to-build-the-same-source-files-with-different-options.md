@@ -95,8 +95,7 @@ The following example demonstrates a project file that defines two property grou
 Here's the project file:
 
 ```xml
-<Project DefaultTargets = "Compile"
-    xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets = "Compile">
 
     <!-- Set default flavor, if env variable 'Flavor' not set or specified on command line -->
     <PropertyGroup>
@@ -155,8 +154,7 @@ msbuild colortest.proj -t:go -property:Color=Green
 Here's the project file:
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003"
-ToolsVersion="4.0" TreatAsLocalProperty="Color">
+<Project TreatAsLocalProperty="Color">
 
     <PropertyGroup>
         <Color>Blue</Color>

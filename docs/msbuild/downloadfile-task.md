@@ -51,7 +51,7 @@ In addition to the parameters listed above, this task inherits parameters from t
 The following example downloads a file and includes it in the `Content` items prior to building the project.
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
 
     <PropertyGroup>
       <MyUrl>https://raw.githubusercontent.com/Microsoft/msbuild/master/LICENSE</MyUrl>

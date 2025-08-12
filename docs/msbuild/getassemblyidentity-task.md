@@ -41,7 +41,7 @@ In addition to the parameters listed above, this task inherits parameters from t
 The following example retrieves the identity of the files specified in the `MyAssemblies` item, and outputs them into the `MyAssemblyIdentities` item.
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
     <ItemGroup>
         <MyAssemblies Include="File1.dll;File2.dll" />
     </ItemGroup>

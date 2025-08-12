@@ -42,7 +42,7 @@ Sets the access and modification times of files.
  The following example uses the `Touch` task to change the access and modification times of the files specified in the `Files` item collection, and puts the list of successfully touched files in the `FilesTouched` item collection.
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
 
 <ItemGroup>
     <Files Include="File1.cs;File2.cs;File3.cs" />

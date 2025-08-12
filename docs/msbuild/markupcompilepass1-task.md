@@ -94,7 +94,7 @@ If any XAML file is localizable, or references a locally-defined type, a second 
 The following example shows how to convert three *Page* XAML files to binary format files. *Page1* contains a reference to a type, `Class1`, which is in the root namespace of the project and therefore, is not converted to binary format files in this markup compile pass. Instead, the [GenerateTemporaryTargetAssembly](../msbuild/generatetemporarytargetassembly-task.md) is executed and is followed by the [MarkupCompilePass2](../msbuild/markupcompilepass2-task.md).
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
   <UsingTask
     TaskName="Microsoft.Build.Tasks.Windows.MarkupCompilePass1"
     AssemblyFile="C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0\PresentationBuildTasks.dll" />

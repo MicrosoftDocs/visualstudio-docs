@@ -532,7 +532,7 @@ The MSBuild `ValueOrDefault` property function returns the first argument, unles
 The following example shows how this function is used.
 
 ```xml
-<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
 
     <PropertyGroup>
         <Value1>$([MSBuild]::ValueOrDefault('$(UndefinedValue)', 'a'))</Value1>
@@ -586,7 +586,7 @@ The `versionPartCount` parameter of `GetTargetFrameworkVersion` and `GetTargetPl
 The following example shows how these functions are used. 
 
 ```xml
-<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
 
     <PropertyGroup>
         <Value1>$([MSBuild]::GetTargetFrameworkIdentifier('net5.0-windows7.0'))</Value1>

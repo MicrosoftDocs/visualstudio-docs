@@ -151,7 +151,7 @@ In addition to the parameters listed above, this task inherits parameters from t
 The following example uses the `GenerateBootstrapper` task to install an application that must have the .NET Framework 2.0 installed as a prerequisite.
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
 
     <ItemGroup>
         <BootstrapperFile Include="Microsoft.Net.Framework.2.0">

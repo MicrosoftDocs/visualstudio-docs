@@ -42,7 +42,7 @@ In addition to the parameters listed above, this task inherits parameters from t
 The following example uses the `FindUnderPath` task to determine if the files contained in the `MyFiles` item have paths that exist under the path specified by the `SearchPath` property. After the task completes, the `FilesNotFoundInPath` item contains the *File1.txt* file, and the `FilesFoundInPath` item contains the *File2.txt* file.
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
     <ItemGroup>
         <MyFiles Include="C:\File1.txt" />
         <MyFiles Include="C:\Projects\MyProject\File2.txt" />

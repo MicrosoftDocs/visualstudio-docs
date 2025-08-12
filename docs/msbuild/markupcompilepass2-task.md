@@ -48,7 +48,7 @@ A reference to the generated temporary assembly is provided to <xref:Microsoft.B
 The following example shows how to use the <xref:Microsoft.Build.Tasks.Windows.MarkupCompilePass2> task to perform a second pass compilation.
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
   <UsingTask
     TaskName="Microsoft.Build.Tasks.Windows.MarkupCompilePass2"
     AssemblyFile="C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0\PresentationBuildTasks.dll" />
