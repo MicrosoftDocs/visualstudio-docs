@@ -76,8 +76,7 @@ The project file contains `Convert` and `Build` targets. The `GenerateContentFil
 > Although the `Convert` target can build incrementally, all outputs from that target are always required as inputs for the `Build` target. MSBuild automatically provides all the outputs from one target as inputs for another target when you use the `Output` element.
 
 ```xml
-<Project DefaultTargets="Build"
-    xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >
+<Project DefaultTargets="Build">
 
     <ItemGroup>
         <TXTFile Include="*.txt"/>

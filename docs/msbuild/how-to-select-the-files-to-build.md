@@ -154,8 +154,7 @@ In most project files, you don't need to explicitly pass the `Compile` item to a
 The following code example shows a project that includes all of the input files separately.
 
 ```xml
-<Project DefaultTargets="Compile"
-    xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >
+<Project DefaultTargets="Compile">
     <PropertyGroup>
         <Builtdir>built</Builtdir>
     </PropertyGroup>
@@ -189,8 +188,7 @@ The following code example shows a project that includes all of the input files 
 The following code example uses a wildcard to include all the *.cs* files.
 
 ```xml
-<Project DefaultTargets="Compile"
-    xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >
+<Project DefaultTargets="Compile">
 
     <PropertyGroup>
         <builtdir>built</builtdir>

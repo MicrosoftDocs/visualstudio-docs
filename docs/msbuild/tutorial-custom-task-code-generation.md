@@ -483,7 +483,7 @@ In this section, you'll wire up the task implementation in `.props` and `.target
 
     ```xml
     <?xml version="1.0" encoding="utf-8" ?>
-    <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <Project>
     <!--defining properties interesting for my task-->
     <PropertyGroup>
         <!--The folder where the custom task will be present. It points to inside the nuget package. -->
@@ -509,7 +509,7 @@ In this section, you'll wire up the task implementation in `.props` and `.target
 
     ```xml
     <?xml version="1.0" encoding="utf-8" ?>
-    <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <Project>
 
     <!--Defining all the text files input parameters-->
     <ItemGroup>

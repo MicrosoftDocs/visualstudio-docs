@@ -61,7 +61,7 @@ Contains a collection of `Import` elements that are grouped under an optional co
  The following code example shows the `ImportGroup` element.
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
     <ImportGroup>
         <Import Project="$(Targets1.targets)" />
         <Import Project="$(Targets2.targets)" />

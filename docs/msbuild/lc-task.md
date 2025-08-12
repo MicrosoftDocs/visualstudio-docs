@@ -42,7 +42,7 @@ The following table describes the parameters for the `LC` task.
 The following example uses the `LC` task to compile licenses.
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
 <!-- Item declarations, etc -->
 
     <Target Name="CompileLicenses">

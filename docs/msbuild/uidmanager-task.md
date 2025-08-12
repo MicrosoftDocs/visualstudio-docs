@@ -35,7 +35,7 @@ The <xref:Microsoft.Build.Tasks.Windows.UidManager> task checks, updates, or rem
  The following example uses the <xref:Microsoft.Build.Tasks.Windows.UidManager> task to check that the specified source XAML files contain XAML elements that have appropriate UIDs.
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
   <UsingTask
     TaskName="Microsoft.Build.Tasks.Windows.UidManager"
     AssemblyFile="C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0\PresentationBuildTasks.dll" />

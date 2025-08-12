@@ -56,8 +56,7 @@ This task is equivalent to using the **/compile** switch for [Resgen.exe](/dotne
 The following example project contains two tasks: the `GenerateResource` task to compile resources and the `Csc` task to compile both the source code files and the compiled resources files. The resource files compiled by the `GenerateResource` task are stored in the `Resources` item and passed to the `Csc` task.
 
 ```xml
-<Project DefaultTargets = "Build"
-    xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >
+<Project DefaultTargets = "Build">
 
     <Target Name="Resources">
         <GenerateResource

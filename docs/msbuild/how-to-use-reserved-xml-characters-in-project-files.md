@@ -40,8 +40,7 @@ When you author project files, you might need to use reserved XML characters, fo
  In the following code example, double quotes are used to highlight the file name in the message that is output by the project file.
 
 ```xml
-<Project DefaultTargets="Compile"
-    xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >
+<Project DefaultTargets="Compile">
     <!-- Set the application name as a property -->
     <PropertyGroup>
         <appname>"HelloWorldCS"</appname>

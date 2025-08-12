@@ -50,8 +50,7 @@ For information about using special characters in file or project references, se
  The following example project file references the project name as a reserved property to specify the name for the output.
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003"
-    DefaultTargets = "Compile">
+<Project DefaultTargets = "Compile">
 
     <!-- Specify the inputs -->
     <ItemGroup>
@@ -79,7 +78,7 @@ For information about using special characters in file or project references, se
 The following example project file uses the `MSBuildProjectDirectory` reserved property to create the full path to a file in the project file location. The example uses the [property function syntax](property-functions.md#property-function-syntax) to call the static .NET Framework method <xref:System.IO.Path.Combine*?displayProperty=fullName>.
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
 
     <!-- Build the path to a file in the root of the project -->
     <PropertyGroup>

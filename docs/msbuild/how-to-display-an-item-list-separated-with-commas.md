@@ -46,8 +46,7 @@ For this example, the equivalent command-line command is:
 `findstr /i /c:hello /c:world /c:msbuild phrases.txt`
 
 ```xml
-<Project DefaultTargets = "Find"
-    xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >
+<Project DefaultTargets = "Find">
 
     <ItemGroup>
         <Phrase Include="hello"/>

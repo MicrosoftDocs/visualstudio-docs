@@ -37,7 +37,7 @@ You can add localization attributes and comments to XAML content. With Windows P
 The following example merges the localization comments of several XAML binary format files into a single *.loc* file.
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
   <UsingTask
     TaskName="Microsoft.Build.Tasks.Windows.MergeLocalizationDirectives"
     AssemblyFile="C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0\PresentationBuildTasks.dll" />

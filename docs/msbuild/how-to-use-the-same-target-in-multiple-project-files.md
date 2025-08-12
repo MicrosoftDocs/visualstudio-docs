@@ -36,7 +36,7 @@ The `Import` element is used to insert one project file into another project fil
  When the project builds, all properties are evaluated first, followed by items. For example, the following XML defines the imported project file *MyCommon.targets*:
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
     <PropertyGroup>
         <Name>MyCommon</Name>
     </PropertyGroup>
@@ -50,9 +50,7 @@ The `Import` element is used to insert one project file into another project fil
  The following XML defines *MyApp.proj*, which imports *MyCommon.targets*:
 
 ```xml
-<Project
-    DefaultTargets="Go"
-    xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Go">
     <PropertyGroup>
         <Name>MyApp</Name>
     </PropertyGroup>
@@ -81,7 +79,7 @@ The `Import` element is used to insert one project file into another project fil
  The following code example shows the *MyCommon.targets* file that the second code example imports. The *.targets* file evaluates properties from the importing project to configure the build.
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
     <PropertyGroup>
         <Flavor Condition="'$(Flavor)'==''">DEBUG</Flavor>
         <Optimize Condition="'$(Flavor)'=='RETAIL'">yes</Optimize>
@@ -100,8 +98,7 @@ The `Import` element is used to insert one project file into another project fil
  The following code example imports the *MyCommon.targets* file.
 
 ```xml
-<Project DefaultTargets="Build"
-    xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build">
     <PropertyGroup>
         <Flavor>RETAIL</Flavor>
     </PropertyGroup>

@@ -35,7 +35,7 @@ The following `UsingTask` attributes affect all operations of a task in a partic
 You can also use the `MSBuildRuntime` and `MSBuildArchitecture` parameters to set the target context of an individual task invocation.
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
     <Target Name="MyTarget">
         <SimpleTask MSBuildRuntime="CLR2" MSBuildArchitecture= "x86"/>
     </Target>
@@ -60,7 +60,7 @@ Before MSBuild runs a task, it looks for a matching `UsingTask` that has the sam
     Architecture="x86"
     AssemblyFile="$(MyToolsPath)\MyTool.4.0.dll" />
 
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
     <Target Name="MyTarget">
         <MyTool MSBuildRuntime="CLR2" MSBuildArchitecture= "x86"/>
     </Target>
@@ -121,7 +121,7 @@ The `RoslynCodeTaskFactory` provides a mechanism by which you can write C# or Vi
 Like any other task parameters, `MSBuildRuntime` and `MSBuildArchitecture` can be set from build properties.
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
     <PropertyGroup>
         <FrameworkVersion>3.0</FrameworkVersion>
     </PropertyGroup>

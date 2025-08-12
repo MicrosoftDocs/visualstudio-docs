@@ -69,7 +69,7 @@ For more information about dependency analysis and how to use transforms, see [M
 The following example shows a project file for MSBuild that uses transforms. The example assumes the *c:\sub0\sub1\sub2\sub3* directory contains only one *.xsd* file and the working directory is *c:\sub0*.
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
     <ItemGroup>
         <Schema Include="sub1\**\*.xsd"/>
     </ItemGroup>

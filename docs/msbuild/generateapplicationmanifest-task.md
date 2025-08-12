@@ -90,8 +90,7 @@ This illustrates the simplest possible manifest generation scenario where ClickO
 > For more information on the `Thumbprint` property used in the `SignFile` task in this example, see [SignFile task](../msbuild/signfile-task.md).
 
 ```xml
-<Project DefaultTargets="Build"
-    xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build">
 
     <ItemGroup>
         <EntryPoint Include="SimpleWinApp.exe" />
@@ -144,8 +143,7 @@ This example is similar to previous example except the name and identity of the 
 > For more information on the `Thumbprint` property used in the `SignFile` task in this example, see [SignFile task](../msbuild/signfile-task.md).
 
 ```xml
-<Project DefaultTargets="Build"
-    xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build">
 
     <ItemGroup>
         <EntryPoint Include="SimpleWinApp.exe" />
@@ -203,8 +201,7 @@ This example uses the `GenerateApplicationManifest` and `GenerateDeploymentManif
 > For more information on the `Thumbprint` property used in the `SignFile` task in this example, see [SignFile task](../msbuild/signfile-task.md).
 
 ```xml
-<Project DefaultTargets="Build"
-    xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build">
 
     <ItemGroup>
         <EntryPoint Include="SimpleWinApp.exe" />
@@ -321,7 +318,7 @@ This example produces the *Test.exe.manifest*, making the application XCOPY depl
 > In the example below, all application binaries are pre-built in order to focus on manifest generation aspects. This example produces a fully working ClickOnce deployment.
 
 ```xml
-<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build">
 
     <ItemGroup>
         <File Include="Test.exe" />

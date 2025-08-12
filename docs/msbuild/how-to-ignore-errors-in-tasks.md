@@ -46,8 +46,7 @@ Use the `ContinueOnError` attribute of the task. For example:
 The following code example illustrates that the `Build` target still runs and the build is considered a success, even if the `Delete` task fails.
 
 ```xml
-<Project DefaultTargets="FakeBuild"
-    xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="FakeBuild">
     <ItemGroup>
         <Files Include="*.obj"/>
     </ItemGroup>
