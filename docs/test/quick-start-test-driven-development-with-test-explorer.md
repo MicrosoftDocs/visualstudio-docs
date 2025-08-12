@@ -1,18 +1,18 @@
 ---
-title: Test-driven development walkthrough
+title: Test-driven development tutorial
 description: Learn how to develop a tested method in C# using Microsoft Test Framework, which you can easily adapt for other languages or test frameworks, such as NUnit.
 ms.date: 5/16/2025
-ms.topic: conceptual
+ms.topic: how-to
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: test-tools
 author: mikejo5000
 ---
-# Walkthrough: Test-driven development using Test Explorer
+# Tutorial: Test-driven development using Test Explorer
 
 Create unit tests to help keep your code working correctly through incremental code changes. There are several frameworks that you can use to write unit tests, including some developed by third parties. Some test frameworks are specialized for testing in different languages or platforms. Test Explorer provides a single interface for unit tests in any of these frameworks. For more information about **Test Explorer**, see [Run unit tests with Test Explorer](run-unit-tests-with-test-explorer.md) and [Test Explorer FAQ](test-explorer-faq.md).
 
-This walkthrough demonstrates how to develop a tested method in C# using Microsoft Test Framework (MSTest). You can easily adapt it for other languages or other test frameworks, such as NUnit. For more information, see [Install third-party unit test frameworks](install-third-party-unit-test-frameworks.md).
+This article demonstrates how to develop a tested method in C# using Microsoft Test Framework (MSTest). You can easily adapt it for other languages or other test frameworks, such as NUnit. For more information, see [Install third-party unit test frameworks](install-third-party-unit-test-frameworks.md).
 
 ## Create a test and generate code
 

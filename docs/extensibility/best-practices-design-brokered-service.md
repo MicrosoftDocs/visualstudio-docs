@@ -13,7 +13,7 @@ ms.subservice: extensibility-integration
 ---
 # Best practices for designing a brokered service
 
-Follow the general [guidance and restrictions documented for RPC interfaces](https://microsoft.github.io/vs-streamjsonrpc/docs/dynamicproxy.html) for StreamJsonRpc.
+Follow the general [guidance and restrictions documented for RPC interfaces](https://microsoft.github.io/vs-streamjsonrpc/docs/proxies.html) for StreamJsonRpc.
 
 In addition, the following guidelines apply to brokered services.
 

@@ -2,6 +2,7 @@
 title: 'Use agent mode'
 description: Use GitHub Copilot Agent to iterate on code in Visual Studio by making code edits, running commands, and reading error/build context.
 ms.date: 7/28/2025
+ms.update-cycle: 180-days
 ms.topic: get-started
 author: anandmeg
 ms.author: meghaanand

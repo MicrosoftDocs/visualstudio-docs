@@ -2,6 +2,7 @@
 title: Inspect variables - Visual Studio debugger
 description: Inspect variables in the Autos and Locals windows while debugging in Visual Studio. The Autos and Locals windows show variable values while you are debugging.
 ms.date: 4/10/2025
+ms.update-cycle: 180-days
 ms.topic: how-to
 f1_keywords:
   - vs.debug.autos
