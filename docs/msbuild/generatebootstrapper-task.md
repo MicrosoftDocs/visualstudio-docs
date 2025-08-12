@@ -146,6 +146,26 @@ The following describe the parameters of the `GenerateBootstrapper` task.
 
 In addition to the parameters listed above, this task inherits parameters from the <xref:Microsoft.Build.Tasks.TaskExtension> class, which itself inherits from the <xref:Microsoft.Build.Utilities.Task> class. For a list of these additional parameters and their descriptions, see [TaskExtension base class](../msbuild/taskextension-base-class.md).
 
+## Example
+
+The following example uses the `GenerateBootstrapper` task to install an application that must have the .NET Framework 4.8 installed as a prerequisite.
+
+```xml
+<ItemGroup>
+  <BootstrapperFile Include="Microsoft.Net.Framework.4.8">
+    <ProductName>.NET Framework 4.8</ProductName>
+  </BootstrapperFile>
+</ItemGroup>
+
+<Target Name="CustomBootstrapper">
+  <GenerateBootstrapper
+    ApplicationFile="MyApp.exe"
+    BootstrapperItems="@(BootstrapperFile)"
+    OutputPath="$(OutputPath)"
+    ComponentsLocation="Relative" />
+</Target>
+```
+
 ## See also
 
 - [Tasks](../msbuild/msbuild-tasks.md)
