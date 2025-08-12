@@ -32,7 +32,7 @@ These restrictions typically include that properties and indexers are not allowe
 
 The <xref:Microsoft.ServiceHub.Framework.ServiceJsonRpcDescriptor> is the recommended derived type for brokered services.
 This class utilizes the <xref:StreamJsonRpc> library when the client and service require RPC to communicate.
-StreamJsonRpc applies certain restrictions on the service interface as [described here](https://microsoft.github.io/vs-streamjsonrpc/docs/dynamicproxy.html).
+StreamJsonRpc applies certain restrictions on the service interface as [described here](https://microsoft.github.io/vs-streamjsonrpc/docs/proxies.html).
 
 The interface *may* derive from <xref:System.IDisposable>, <xref:System.IAsyncDisposable?displayProperty=fullName>, or even <xref:Microsoft.VisualStudio.Threading.IAsyncDisposable?displayProperty=fullName> but this is not required by the system.
 The generated client proxies will implement <xref:System.IDisposable> either way.
