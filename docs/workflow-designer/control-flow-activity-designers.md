@@ -3,9 +3,9 @@ title: Workflow Designer - Control Flow Activity Designers
 description: Learn about Control Flow Activity Designers, which are system-provided activities used to control the flow within a workflow.
 ms.date: 11/04/2016
 ms.topic: reference
-author: jodavis
-ms.author: jodavis
-manager: mijacobs
+author: sayedihashimi
+ms.author: sayedha
+manager: timheuer
 ms.subservice: workflow-designer
 ---
 # Control Flow Activity Designers

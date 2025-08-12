@@ -5,9 +5,9 @@ ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
   - "System.Activities.Statements.DoWhile.UI"
-author: jodavis
-ms.author: jodavis
-manager: mijacobs
+author: sayedihashimi
+ms.author: sayedha
+manager: timheuer
 ms.subservice: workflow-designer
 ---
 # DoWhile Activity Designer
