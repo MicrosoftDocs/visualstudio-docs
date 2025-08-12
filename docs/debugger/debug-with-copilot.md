@@ -2,6 +2,7 @@
 title: Debug with GitHub Copilot
 description: Use Copilot to help debug your apps and provide performance insights.
 ms.date: 3/17/2025
+ms.update-cycle: 180-days
 ms.topic: how-to
 dev_langs: 
   - CSharp
