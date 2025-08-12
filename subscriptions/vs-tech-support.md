@@ -53,7 +53,7 @@ Product level descriptions: Expand **Unavailable support plans**. If you see **S
    + The Subscription ID, which can be found on the [Subscriptions](https://my.visualstudio.com/subscriptions) tab.
 
    > [!div class="mx-imgBorder"]
-   > ![Technical Support Benefit Find Subscription ID](_img/vs-tech-support/visual-studio-tech-support-subcription-id-cropped-rev.png "Screenshot of the subscriptions page. An example of a subscription ID is highlighted.")
+   > ![Technical Support Benefit Find Subscription ID](_img/vs-tech-support/visual-studio-tech-support-subscription-id-cropped-rev.png "Screenshot of the subscriptions page. An example of a subscription ID is highlighted.")
 
 4. After the process is completed, you receive an email containing your **Contract ID** and **Access ID** you use when creating a support incident. It also provides instructions for submitting support incidents using your new Access ID and Contract ID. 
 
