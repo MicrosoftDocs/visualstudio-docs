@@ -12,7 +12,7 @@ ms.subservice: msbuild
 
 You can configure MSBuild targets and tasks to run out-of-process with MSBuild so that you can run tasks in contexts that differ from the one running the overall build. This can be useful when running tasks that are not compatible with 64-bit MSBuild and when targeting a different version of .NET Framework. 
 
-For example, you can target a 32-bit .NET Framework 2.0 application while the development computer is running on a 64-bit .NET Framework 4.5 operating system. You can also target computers that run with the .NET Framework 4 or earlier. The combination of 32- or 64-bitness and the specific .NET Framework version is known as the *target context*.
+For example, you can target a 32-bit .NET Framework 3.5 SP1 application while the development computer is running on a 64-bit .NET Framework 4.7.2 operating system. You can also target computers that run with the .NET Framework 4 or earlier. The combination of 32- or 64-bitness and the specific .NET Framework version is known as the *target context*.
 
 ## Tasks
 
