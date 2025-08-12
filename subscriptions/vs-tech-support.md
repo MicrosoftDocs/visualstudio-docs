@@ -3,7 +3,7 @@ title: Activate Technical Support for subscriptions
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 07/23/2025
+ms.date: 08/11/2025
 ms.topic: how-to
 description: Activate the technical support benefit included with your Visual Studio subscription, locate supported products and resources, and learn how to submit incidents.
 ms.custom: sfi-image-nochange
@@ -53,7 +53,7 @@ Product level descriptions: Expand **Unavailable support plans**. If you see **S
    + The Subscription ID, which can be found on the [Subscriptions](https://my.visualstudio.com/subscriptions) tab.
 
    > [!div class="mx-imgBorder"]
-   > ![Technical Support Benefit Find Subscription ID](_img/vs-tech-support/vs-tech-support-subID-cropped.png "Screenshot of the subscriptions page. An example of a subscription ID is highlighted.")
+   > ![Technical Support Benefit Find Subscription ID](_img/vs-tech-support/visual-studio-tech-support-subscription-id-cropped-rev.png "Screenshot of the subscriptions page. An example of a subscription ID is highlighted.")
 
 4. After the process is completed, you receive an email containing your **Contract ID** and **Access ID** you use when creating a support incident. It also provides instructions for submitting support incidents using your new Access ID and Contract ID. 
 
@@ -74,23 +74,23 @@ To submit an incident via the Support for business portal, follow these steps:
 
 1. Sign in to <https://support.microsoft.com/en-us/supportforbusiness/productselection>
 
-0. In the **Step 1** section, select the appropriate entries from the drop-down lists to indicate your product, version, issue, etc. Complete the text fields for the summary of the issue and to describe the issue in more detail. Then select **Next**.
+0. In the **Step 1** section, select the appropriate entries from the drop-down lists to indicate your product, version, issue, etc. Complete the text fields for the summary of the issue and to describe the issue in more detail. You might be redirected to a specific cloud portal (for example, Azure or Microsoft 365) depending on the product.
    > [!div class="mx-imgBorder"]
-   > ![Create a new support request](_img/vs-tech-support/vs-tech-support-create-new.png "Screenshot of the new support request dialog.") 
-0. In the **Step 2** section, supply your location and time zone.
-0. Select **Add contract**.
+   > ![Create a new support request](_img/vs-tech-support/visual-studio-tech-support-create-new-rev.png "Screenshot of the new support request dialog.") 
+0. Select your **Support Type**.
 0. Enter the **Access ID** and **Contract ID** you received in your confirmation email when you activated your support benefit. Select **Add**.
+0. Supply your location and time zone.
    > [!div class="mx-imgBorder"]
    > ![Add a Contract ID](_img/vs-tech-support/vs-tech-support-add-contract-id.png "Screenshot of the dialog to add a new contract ID.") 
-0. Your new support contract appears in the **Step 2**. Select it.
+0. Your new support contract appears in the **Step 1**. Select it.
+0. **Step 2**, enter **Issue Description**
 0. Indicate the severity of your issue. "Important" is the default. 
 0. Choose when you would like to receive support. "Only during business hours" is selected by default. The option for "24/7 support" is only available if you selected "Critical" as the severity.
 0. Select **Next** to continue. 
-0. For **Step 3**, provide the contact information you would like your support agent to use to contact you. 
+0. For **Step 3**, provide the contact information you would like your support agent to use to contact you and other email addresses for Sharing information if needed. 
    > [!div class="mx-imgBorder"]
    > ![Verify your contact information](_img/vs-tech-support/vs-tech-support-contact-info.png "Screenshot of primary contact information dialog.") 
-0. In **Step 4**, you can share this support request information with others on your team. Enter the email addresses of the people with whom you would like to share the request. Select **Next** to move to the next step.
-0. **Step 5** summarizes all of the information you provide for the incident. If you're satisfied that everything is correct and you're ready to proceed, select **Submit**. 
+0. In **Step 3**, select **Submit**.
  
 ### Submit an incident by phone
 
@@ -110,18 +110,15 @@ To use your Visual Studio subscription technical support benefit for issues rela
 |--------------------|----------|---------|------------|
 | Visual Studio Enterprise (Standard) | VL, Azure, Retail, selected NFR<sup>1</sup> | 4 incidents | Yes |
 | Visual Studio Enterprise subscription with GitHub Enterprise | VL | 4 incidents | Yes |
-| Visual Studio Professional (Standard) | VL, Azure, Retail, selected NFR<sup>2</sup> | 2 incidents | Yes |
+| Visual Studio Professional (Standard) | VL, Azure, Retail | 2 incidents | Yes |
 | Visual Studio Professional subscription with GitHub Enterprise | VL | 2 incidents | Yes |
 | Visual Studio Test Professional (Standard) | VL, Retail | 2 incidents | Yes |
 | MSDN Platforms (Standard) | VL, Retail | 2 incidents | Yes |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure | Not available | NA |
-||
 
-<sup>1</sup> *Includes: Imagine Premium. Excludes: Not for Resale (NFR), Visual Studio Industry Partner (VSIP), Microsoft AI Cloud Partner Program, Full Time Employee (FTE), Microsoft Certified Trainer (MCT) Software & Services Developer, Imagine Standard, Most Valuable Professional (MVP), Regional Director (RD), Not for Resale Basic (NFR Basic)*
+<sup>1</sup> *Includes: Student Ambassadors. Excludes: Not for Resale (NFR), Visual Studio Industry Partner (VSIP), Microsoft AI Cloud Partner Program (MAICPP), Full Time Employee (FTE), Microsoft Certified Trainer (MCT) Software & Services Developer, Most Valuable Professional (MVP), Regional Director (RD), Not for Resale Basic (NFR Basic), Independent Software Vendor (ISV), Bug Bounty Program, Microsoft Startups.*
 
-<sup>2</sup> *Includes: Imagine Standard.*
-
-Not sure which subscription you're using?  Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you might have one or more assigned to a different email address. You need to sign in with that email address to see those subscriptions.
+Not sure which subscription you're using? Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you might have one or more assigned to a different email address. You need to sign in with that email address to see those subscriptions.
 
 ## Support resources
 

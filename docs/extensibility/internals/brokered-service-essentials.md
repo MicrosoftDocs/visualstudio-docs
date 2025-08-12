@@ -73,7 +73,7 @@ Because the moniker is included in the service's descriptor, a client can typica
 A descriptor adds the behavior necessary to set up an RPC connection between the brokered service and its client or when required to serialize RPC calls to/from a <xref:System.IO.Stream>.
 
 Visual Studio recommends using the <xref:Microsoft.ServiceHub.Framework.ServiceJsonRpcDescriptor> derived type for brokered services which utilizes the StreamJsonRpc library when the client and service require RPC to communicate.
-StreamJsonRpc applies certain restrictions on the service interface as [described here](https://microsoft.github.io/vs-streamjsonrpc/docs/dynamicproxy.html).
+StreamJsonRpc applies certain restrictions on the service interface as [described here](https://microsoft.github.io/vs-streamjsonrpc/docs/proxies.html).
 
 A descriptor rarely needs to be used directly.
 Instead, it's typically acquired from <xref:Microsoft.VisualStudio.VisualStudioServices> or a library that offers the service, then used as an argument to <xref:Microsoft.ServiceHub.Framework.IServiceBroker.GetProxyAsync%2A>.

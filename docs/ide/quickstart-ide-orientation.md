@@ -4,6 +4,7 @@ description: Learn about some of the windows, menus, and other UI features of th
 ms.custom: vs-acquisition
 titleSuffix: ''
 ms.date: 1/23/2025
+ms.update-cycle: 180-days
 ms.topic: conceptual
 author: anandmeg
 ms.author: meghaanand
