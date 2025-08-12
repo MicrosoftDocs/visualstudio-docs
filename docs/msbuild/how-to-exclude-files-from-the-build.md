@@ -145,8 +145,7 @@ Use `Remove` when you have a predefined item list, such as in the case of the st
  The following code example builds a project with all of the *.cs* files in the directory except *Form2.cs*.
 
 ```xml
-<Project DefaultTargets="Compile"
-    xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >
+<Project DefaultTargets="Compile">
 
     <PropertyGroup>
         <builtdir>built</builtdir>

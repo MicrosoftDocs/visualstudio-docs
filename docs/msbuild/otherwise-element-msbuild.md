@@ -73,8 +73,7 @@ Specifies the block of code to execute if and only if the conditions of all `Whe
  The following project uses the `Choose` element to select which set of property values in the `When` elements to set. If the `Condition` attributes of both `When` elements evaluate to `false`, the property values in the `Otherwise` element are set.
 
 ```xml
-<Project
-    xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >
+<Project>
     <PropertyGroup>
         <Configuration Condition="'$(Configuration)' == ''">Debug</Configuration>
         <OutputType>Exe</OutputType>

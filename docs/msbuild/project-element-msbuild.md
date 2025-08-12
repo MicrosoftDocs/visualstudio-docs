@@ -29,8 +29,7 @@ Required root element of an MSBuild project file.
          DefaultTargets="TargetC;TargetD"
          TreatAsLocalProperty="PropertyA;PropertyB"
          ToolsVersion="<version number>"
-         Sdk="name[/version]"
-         xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+         Sdk="name[/version]">
     <Sdk... />
     <Choose>... </Choose>
     <PropertyGroup>... </PropertyGroup>

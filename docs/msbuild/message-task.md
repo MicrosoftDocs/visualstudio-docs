@@ -45,7 +45,7 @@ Logs a message during a build.
  The following code example logs messages to all registered loggers.
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
     <Target Name="DisplayMessages">
         <Message Text="Project File Name = $(MSBuildProjectFile)" />
         <Message Text="Project Extension = $(MSBuildProjectExtension)" />

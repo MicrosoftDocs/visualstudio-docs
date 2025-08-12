@@ -23,8 +23,7 @@ If a target contains a task that uses batched items as inputs or outputs, the `T
 The following example contains an item list named `Res` that is divided into two batches based on the `Culture` item metadata. Each of these batches is passed into the `AL` task, which creates an output assembly for each batch. By using batching on the `Outputs` attribute of the `Target` element, MSBuild can determine if each of the individual batches is up-to-date before running the target. Without using target batching, both batches of items would be run by the task every time the target was executed.
 
 ```xml
-<Project
-    xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
 
     <ItemGroup>
         <Res Include="Strings.fr.resources">

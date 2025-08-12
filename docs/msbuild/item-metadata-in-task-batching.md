@@ -34,8 +34,7 @@ Batching allows you to divide an item list into different batches based on item 
 The following example shows how to divide an item list into batches based on item metadata. The `ExampColl` item list is divided into three batches based on the `Number` item metadata. The presence of `%(ExampColl.Number)`in the `Text` attribute notifies MSBuild that batching should be performed. The `ExampColl` item list is divided into three batches based on the `Number` metadata, and each batch is passed separately into the task.
 
 ```xml
-<Project
-    xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
 
     <ItemGroup>
         <ExampColl Include="Item1">
@@ -84,8 +83,7 @@ MSBuild can divide multiple item lists into batches based on the same metadata. 
 The following example shows how to divide multiple item lists into batches based on item metadata. The `ExampColl` and `ExampColl2` item lists are each divided into three batches based on the `Number` item metadata. The presence of `%(Number)`in the `Text` attribute notifies MSBuild that batching should be performed. The `ExampColl` and `ExampColl2` item lists are divided into three batches based on the `Number` metadata, and each batch is passed separately into the task.
 
 ```xml
-<Project
-    xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
 
     <ItemGroup>
 
@@ -134,8 +132,7 @@ Batching can also be performed on well-known item metadata that is assigned to e
 The following example shows how to batch each item in an item list one at a time. The `ExampColl` item list is divided into six batches, each batch containing one item of the item list. The presence of `%(Identity)`in the `Text` attribute notifies MSBuild that batching should be performed.
 
 ```xml
-<Project
-    xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
 
     <ItemGroup>
 
@@ -170,7 +167,7 @@ Identity: 'Item6' -- Items in ExampColl: Item6
 However, `Identity` is not guaranteed to be unique; its value is the evaluated final value of the `Include` attribute. Therefore, if any `Include` attributes are used multiple times, they are batched together. As the following example shows, this technique requires the `Include` attributes to be unique for each item in the group. To illustrate this point, consider the following code:
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
   <ItemGroup>
     <Item Include="1">
       <M>1</M>
@@ -203,8 +200,7 @@ Batching can be used to filter out certain items from an item list before passin
 The following example shows how to divide an item list into batches based on item metadata, and then filter those batches when they are passed into a task. The `ExampColl` item list is divided into three batches based on the `Number` item metadata. The `Condition` attribute of the task specifies that only batches with a `Number` item metadata value of `2` will be passed into the task
 
 ```xml
-<Project
-    xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
 
     <ItemGroup>
 

@@ -84,8 +84,7 @@ Imports the contents of one project file into another project file.
  The following example shows a project that has several items and properties and imports a general project file.
 
 ```xml
-<Project DefaultTargets="Compile"
-    xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Compile">
 
     <PropertyGroup>
         <resourcefile>Strings.resx</resourcefile>

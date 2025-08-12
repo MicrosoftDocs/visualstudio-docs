@@ -36,7 +36,7 @@ The `InitialTargets` attribute of the [Project](../msbuild/project-element-msbui
 The value of the `InitialTargets` attribute can be a semicolon-delimited, ordered list of targets. The following example specifies that the `Warm` target runs, and then the `Eject` target runs.
 
 ```xml
-<Project InitialTargets="Warm;Eject" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project InitialTargets="Warm;Eject">
 ```
 
 Imported projects can have their own `InitialTargets` attributes. All initial targets are aggregated together and run in order.
@@ -50,7 +50,7 @@ The `DefaultTargets` attribute of the [Project](../msbuild/project-element-msbui
 The value of the `DefaultTargets` attribute can be a semicolon-delimited, ordered list of default targets. The following example specifies that the `Clean` target runs, and then the `Build` target runs.
 
 ```xml
-<Project DefaultTargets="Clean;Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Clean;Build">
 ```
 
 You can override the default targets by using the **-target** switch on the command line. The following example specifies that the `Build` target runs, and then the `Report` target runs. When you specify targets in this way, any default targets are ignored.
@@ -91,7 +91,7 @@ You can specify target order by using the `BeforeTargets` and `AfterTargets` att
 Consider the following script.
 
 ```xml
-<Project DefaultTargets="Compile;Link" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Compile;Link">
     <Target Name="Compile">
         <Message Text="Compiling" />
     </Target>

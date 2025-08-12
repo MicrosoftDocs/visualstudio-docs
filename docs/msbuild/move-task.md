@@ -44,7 +44,7 @@ Moves files to a new location.
 The following example moves files from the *source* folder to the *dest* folder. The *source* and *dest* folders are relative to the project file. If *dest* doesn't exist, it is created.
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
   <ItemGroup>
     <FilesToMove Include="source\*.*"/>
   </ItemGroup>
@@ -64,7 +64,7 @@ The following example moves files from the *source* folder to the *dest* folder.
 The following example renames files according to a replacement pattern. It assumes files like *files\original1.txt* and *files\original2.txt* exist and *original.txt* exists at the project level prior to execution. Note the use of the string item function `Replace` to modify the filenames. See [Item functions](item-functions.md).
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
 
   <ItemGroup>
     <FilesToRename Include="files\original*" />    
@@ -83,7 +83,7 @@ The following example renames files according to a replacement pattern. It assum
 The following examples rename all files in a complete subtree that contain the search text and replacement text in the MSBuild properties. It shows the use of the string property function `Replace` to modify the filename. It also demonstrates the use of the `OverwriteReadOnlyFiles` option.
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
 
   <PropertyGroup>
     <SearchText>original</SearchText>
@@ -107,7 +107,7 @@ The following examples rename all files in a complete subtree that contain the s
 You might find it useful to use item metadata to construct the destination file list. Here, the well-known item metadata `%(RelativeDir)` and `%(Filename)` are referenced to construct the modified filenames, in this case to change the extensions for any file in a subtree with the extension `.txt` to `.orig`.
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
 
   <PropertyGroup>
     <NewExtension>orig</NewExtension>

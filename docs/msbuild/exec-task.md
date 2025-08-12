@@ -57,7 +57,7 @@ The parameters `IgnoreExitCode` and `IgnoreStandardErrorWarningFormat` affect th
 The following example uses the `Exec` task to run a command.
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
     <ItemGroup>
         <Binaries Include="*.dll;*.exe"/>
     </ItemGroup>
