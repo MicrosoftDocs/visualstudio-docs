@@ -115,7 +115,7 @@ This section provides information about managing extensions for an organization,
 
 ### Per-user and administrative extensions
 
-Most extensions are per-user extensions and are installed in the *%LocalAppData%\Microsoft\VisualStudio\\Extensions\\* folder. A few extensions are administrative extensions and are installed in the *\<Visual Studio installation folder>\Common7\IDE\Extensions\\* folder.
+Most extensions are per-user extensions and are installed in the *%LocalAppData%\Microsoft\VisualStudio\\<Visual Studio version\>\Extensions\\* folder. A few extensions are administrative extensions and are installed in the *\<Visual Studio installation folder>\Common7\IDE\Extensions\\* folder.
 
 To protect your system against extensions that might contain errors or malicious code, you can restrict per-user extensions to load only when Visual Studio is run with normal user permissions. This causes per-user extensions to be disabled when Visual Studio is run with elevated permissions.
 
