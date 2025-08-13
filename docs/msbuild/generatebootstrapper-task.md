@@ -148,27 +148,22 @@ In addition to the parameters listed above, this task inherits parameters from t
 
 ## Example
 
-The following example uses the `GenerateBootstrapper` task to install an application that must have the .NET Framework 2.0 installed as a prerequisite.
+The following example uses the `GenerateBootstrapper` task to install an application that must have the .NET Framework 4.8 installed as a prerequisite.
 
 ```xml
-<Project>
+<ItemGroup>
+  <BootstrapperFile Include="Microsoft.Net.Framework.4.8">
+    <ProductName>.NET Framework 4.8</ProductName>
+  </BootstrapperFile>
+</ItemGroup>
 
-    <ItemGroup>
-        <BootstrapperFile Include="Microsoft.Net.Framework.2.0">
-            <ProductName>Microsoft .NET Framework 2.0</ProductName>
-        </BootstrapperFile>
-    </ItemGroup>
-
-    <Target Name="BuildBootstrapper">
-        <GenerateBootstrapper
-            ApplicationFile="WindowsApplication1.application"
-            ApplicationName="WindowsApplication1"
-            ApplicationUrl="http://mycomputer"
-            BootstrapperItems="@(BootstrapperFile)"
-            OutputPath="C:\output" />
-    </Target>
-
-</Project>
+<Target Name="CustomBootstrapper">
+  <GenerateBootstrapper
+    ApplicationFile="MyApp.exe"
+    BootstrapperItems="@(BootstrapperFile)"
+    OutputPath="$(OutputPath)"
+    ComponentsLocation="Relative" />
+</Target>
 ```
 
 ## See also

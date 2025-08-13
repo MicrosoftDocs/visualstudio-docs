@@ -58,7 +58,7 @@ In addition to the generic `Item` element, ItemGroup allows child elements that 
 | Element | Description |
 | - | - |
 | [Project](../msbuild/project-element-msbuild.md) | Required root element of an MSBuild project file. |
-| [Target](../msbuild/target-element-msbuild.md) | Starting with .NET Framework 3.5, the `ItemGroup` element can appear inside a `Target` element. For more information, see [Targets](../msbuild/msbuild-targets.md). |
+| [Target](../msbuild/target-element-msbuild.md) | The `ItemGroup` element can appear inside a `Target` element. For more information, see [Targets](../msbuild/msbuild-targets.md). |
 
 ## Example
 

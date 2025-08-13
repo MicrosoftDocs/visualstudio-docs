@@ -71,7 +71,7 @@ Imports the contents of one project file into another project file.
 
 ## Wildcards
 
- In the .NET Framework 4, MSBuild allows wildcards in the Project attribute. When there are wildcards, all matches found are sorted (for reproducibility), and then they are imported in that order as if the order had been explicitly set.
+ MSBuild allows wildcards in the Project attribute. When there are wildcards, all matches found are sorted (for reproducibility), and then they are imported in that order as if the order had been explicitly set.
 
  This is useful if you want to offer an extensibility point so that someone else can import a file without requiring you to explicitly add the file name to the importing file. For this purpose, *Microsoft.Common.Targets* contains the following line at the top of the file.
 
