@@ -35,7 +35,7 @@ In addition to the parameters listed above, this task inherits parameters from t
 The following example executes the `AssignTargetPath` task to configure a project.
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
     <Target Name="MyProject">
         <AssignTargetPath
 RootFolder="Resources"

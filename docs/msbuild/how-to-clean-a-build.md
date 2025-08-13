@@ -58,8 +58,7 @@ In this example, the default target is defined as `Compile` and is used automati
 To specify multiple targets, you can use the `-target` switch with multiple targets in a list separated by a semicolon. For example, to use the target `Clean`, and then the target `Compile`, enter: `msbuild <file name>.proj -t:Clean;Compile`.
 
 ```xml
-<Project DefaultTargets = "Compile"
-    xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >
+<Project DefaultTargets = "Compile">
 
     <PropertyGroup>
         <!-- Set the application name as a property -->

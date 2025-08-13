@@ -44,7 +44,7 @@ Writes the paths of the specified items to the specified text file.
  The following example uses the `WriteLinesToFile` task to write the paths of the items in the `MyItems` item collection to the file specified by the `MyTextFile` item collection.
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
 
     <ItemGroup>
         <MyTextFile Include="Items.txt"/>

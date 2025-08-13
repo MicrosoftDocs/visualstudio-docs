@@ -121,7 +121,7 @@ For more information about wildcard characters, see [How to: Select the files to
  You can reference item metadata throughout the project file by using the syntax `%(ItemMetadataName)`. If ambiguity exists, you can qualify a reference by using the name of the item type. For example, you can specify `%(ItemType.ItemMetaDataName)`. The following example uses the `Display` metadata to batch the `Message` task. For more information about how to use item metadata for batching, see [Item metadata in task batching](../msbuild/item-metadata-in-task-batching.md).
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
     <ItemGroup>
         <Stuff Include="One.cs" >
             <Display>false</Display>
@@ -259,9 +259,7 @@ Specifies the string matching strategy used by `MatchOnMetadata` for matching th
  The following example illustrates how to use the `KeepMetadata` attribute.
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003"
-ToolsVersion="4.0">
-
+<Project>
     <ItemGroup>
         <FirstItem Include="rhinoceros">
             <Class>mammal</Class>
@@ -302,7 +300,7 @@ Output:
  The following example illustrates how to use the `RemoveMetadata` attribute.
 
 ```xml
-<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
 
     <PropertyGroup>
         <MetadataToRemove>Size;Material</MetadataToRemove>
@@ -356,7 +354,7 @@ For more operations on items, see [MSBuild item functions](item-functions.md).
  The following example illustrates how to use the `KeepDuplicates` attribute.
 
 ```xml
-<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
 
     <ItemGroup>
         <Item1 Include="hourglass;boomerang" />

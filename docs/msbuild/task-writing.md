@@ -55,7 +55,7 @@ namespace MyTasks
 The following MSBuild project file runs the preceding task:
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
     <Target Name="MyTarget">
         <SimpleTask />
     </Target>
@@ -86,7 +86,7 @@ namespace MyTasks
 The following project file runs this task and sets `MyProperty` to the given value.
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
    <Target Name="MyTarget">
       <SimpleTask MyProperty="Value for MyProperty" />
    </Target>
@@ -239,7 +239,7 @@ This C# class demonstrates a task that derives from the <xref:Microsoft.Build.Ut
 The following example shows a project file that invokes the previous example task, `SimpleTask3`.
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
     <UsingTask TaskName="SimpleTask3.SimpleTask3"
         AssemblyFile="SimpleTask3\bin\debug\simpletask3.dll"/>
 

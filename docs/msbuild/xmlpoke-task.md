@@ -50,7 +50,7 @@ Here's a sample.xml to modify:
 In this example, if you want to modify `/Package/mp:PhoneIdentity/PhoneProductId`, then use
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
   <PropertyGroup>
     <Namespace>
         <Namespace Prefix="dn" Uri="http://schemas.microsoft.com/appx/manifest/foundation/windows10" />

@@ -71,7 +71,7 @@ In addition to the parameters listed above, this task inherits parameters from t
 The following example copies the items in the `MySourceFiles` item collection into the folder *c:\MyProject\Destination*.
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
 
     <ItemGroup>
         <MySourceFiles Include="a.cs;b.cs;c.cs"/>
@@ -92,7 +92,7 @@ The following example copies the items in the `MySourceFiles` item collection in
 The following example demonstrates how to do a recursive copy. This project copies all of the files recursively from *c:\MySourceTree* into *c:\MyDestinationTree*, while maintaining the directory structure.
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
 
     <Target Name="CopyFiles">
         <ItemGroup>

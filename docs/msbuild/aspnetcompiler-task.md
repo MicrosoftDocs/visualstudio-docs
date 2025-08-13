@@ -49,7 +49,7 @@ The following table describes the parameters of the `AspNetCompiler` task.
 The following code example uses the `AspNetCompiler` task to precompile an ASP.NET application.
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
     <Target Name="PrecompileWeb">
         <AspNetCompiler
             VirtualPath="/MyWebSite"

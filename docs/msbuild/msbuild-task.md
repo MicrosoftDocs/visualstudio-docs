@@ -78,7 +78,7 @@ Builds MSBuild projects from another MSBuild project.
 ### a.proj
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
     <Target Name="Build">
         <MSBuild Projects="a1.sln..." Properties="Configuration=Debug"/>
         <MSBuild Projects="a2.sln" Properties="Configuration=Release"/>
@@ -91,7 +91,7 @@ Builds MSBuild projects from another MSBuild project.
 ### a.proj
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
     <ItemGroup>
         <ProjectToBuild Include="a1.sln...">
             <Properties>Configuration=Debug</Properties>
@@ -109,7 +109,7 @@ Builds MSBuild projects from another MSBuild project.
  \- or -
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
     <ItemGroup>
         <ProjectToBuild Include="a1.sln..."/>
         <ProjectToBuild Include="a2.sln">
@@ -130,7 +130,7 @@ Builds MSBuild projects from another MSBuild project.
 ### a.proj
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
     <Target Name="Build">
         <MSBuild Projects="a1.sln..." Properties="Configuration=Release;
           Architecture=x86"/>
@@ -145,7 +145,7 @@ Builds MSBuild projects from another MSBuild project.
 ### a.proj
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
     <ItemGroup>
         <ProjectToBuild Include="a1.sln...">
             <AdditionalProperties>Architecture=x86
@@ -168,7 +168,7 @@ Builds MSBuild projects from another MSBuild project.
  The following example uses the `MSBuild` task to build the projects specified by the `ProjectReferences` item collection. The resulting target outputs are stored in the `AssembliesBuiltByChildProjects` item collection.
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
 
     <ItemGroup>
         <ProjectReferences Include="*.*proj" />

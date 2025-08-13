@@ -43,7 +43,7 @@ In addition to the parameters listed in this article, this task inherits paramet
  The following example executes the `AssignCulture` task with the `ResourceFiles` item collection.
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
     <ItemGroup>
         <ResourceFiles Include="MyResource1.fr.resx"/>
         <ResourceFiles Include="MyResource2.XX.resx"/>

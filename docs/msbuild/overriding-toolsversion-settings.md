@@ -42,9 +42,7 @@ msbuild.exe someproj.proj -tv:12.0 -p:Configuration=Debug
 1. Create a file that's named *projectA.proj* and that contains the following code:
 
     ```xml
-    <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003"
-    ToolsVersion="12.0">
-
+    <Project>
         <Target Name="go" >
             <Message Text="projectA.proj" />
             <Message Text="MSBuildToolsVersion: $(MSBuildToolsVersion)" />
@@ -60,8 +58,7 @@ msbuild.exe someproj.proj -tv:12.0 -p:Configuration=Debug
 2. Create another file that's named *projectB.proj* and that contains the following code:
 
     ```xml
-    <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003"
-    ToolsVersion="12.0">
+    <Project>
 
         <Target Name="go">
             <Message Text="projectB.proj" />
