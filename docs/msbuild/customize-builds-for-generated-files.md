@@ -49,7 +49,7 @@ Files generated during execution don't exist during the evaluation phase, theref
 
 Adding your generated file to `None` or `Content` is sufficient for the build process to see it. You also want to ensure it gets added at the right time. Ideally, your target runs before `BeforeBuild`. `AssignTargetPaths` is another possible target, as it is the final opportunity to modify `None` and `Content` items (among others) before they are transformed into new items. See [Common Item Types](common-msbuild-project-items.md).
 
-If you put the above into a file and call it `buildcodegen.targets`, you can run `dotnet new console`, import the file, and then build it to test everything:
+Copy the above, paste it into a file, and call it `buildcodegen.targets`. Then, run `dotnet new console`, import the file, and  build it to see how it works.
 
 ```xml
 <Project Sdk="Microsoft.NET.Sdk">
