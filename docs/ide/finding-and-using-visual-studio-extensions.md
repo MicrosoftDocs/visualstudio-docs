@@ -201,6 +201,26 @@ When you see one of these notifications, you can ignore it or take one of the fo
 > [!NOTE]
 > A UI unresponsiveness notification or crash notification means that one of the extension's modules was on the stack when the UI was unresponsive or when the crash occurred. It doesn't necessarily mean that the extension caused the problem. It's possible that the extension called code that's part of Visual Studio, which in turn resulted in unresponsive UI or a crash. However, the notification might still be useful if the extension that led to the UI unresponsiveness or crash isn't important to you. In this case, disabling the extension avoids the UI unresponsiveness or crash in the future.
 
+### Marketplace protections
+
+The Visual Studio Marketplace for extensions employs several mechanisms to protect you from malicious extensions:
+
+* **Malware scanning**: The Marketplace runs a malware scan on each extension package that's published to ensure its safety. The scan, which uses several antivirus engines, is run for each new extension and for each extension update. Until the scan is all clear, the extension won't be published in the Marketplace for public usage.
+
+* **Verified publishers**: Publishers can verify (blue check mark) their identity by proving domain ownership. It shows that the publisher has proven domain-name ownership to the Marketplace. It also shows that the Marketplace has verified both the existence of the domain and the good standing of the publisher on the Marketplace for at least six months.
+
+* **Unusual usage monitoring**: The Marketplace monitors the downloads and usage patterns of extensions to detect unusual behavior.
+
+* **Name squatting**: The Marketplace stops extension authors from stealing the names of official publishers, such as Microsoft or RedHat, and popular extensions, like GitHub Copilot.
+
+* **Block List**: If a malicious extension is reported and verified, or a vulnerability is found in an extension dependency, the extension is removed from the Marketplace.
+
+* **Extension Signature Verification**: The Visual Studio Marketplace signs all extensions when they're published. Visual Studio checks this signature when you install an extension to verify the integrity and the source of the extension package.
+
+* **Secret Scanning**: The Marketplace automatically scans every newly published extension for secrets such as API keys or credentials (e.g., Azure DevOps PAT tokens). If any secrets are detected, publishing is blocked to prevent potential security risks. VSCE tool scans .env files during packaging and blocks publishing if secrets are found.
+
+Learn about these measures in the [Security and Trust in Visual Studio Marketplace blog post](https://devblogs.microsoft.com/blog/security-and-trust-in-visual-studio-marketplace).
+
 ### Samples
 
 When you install an online sample, the solution is stored in two locations:
