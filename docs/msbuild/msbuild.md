@@ -79,7 +79,7 @@ The command line `dotnet build --help` lists the command-line options specific t
 
  MSBuild uses an XML-based project file format that's straightforward and extensible. The MSBuild project file format lets developers describe the items that are to be built, and also how they are to be built for different operating systems and configurations. In addition, the project file format lets developers author reusable build rules that can be factored into separate files so that builds can be performed consistently across different projects in the product.
 
- The Visual Studio build system stores project-specific logic in the project file itself, and uses imported MSBuild XML files with extensions like `.props` and `.targets` to define the standard build logic. The `.props` files define MSBuild properties, and `.targets` files define MSBuild targets. These imports are sometimes visible in the Visual Studio project file, but in newer projects such as .NET Core, .NET 5 and .NET 6 projects, you don't see the imports in the project file; instead, you see an SDK reference, which looks like this:
+ The Visual Studio build system stores project-specific logic in the project file itself, and uses imported MSBuild XML files with extensions like `.props` and `.targets` to define the standard build logic. The `.props` files define MSBuild properties, and `.targets` files define MSBuild targets. These imports are sometimes visible in the Visual Studio project file, but in .NET SDK projects, which are used in .NET Core (and .NET 5 and later), you don't see the imports in the project file; instead, you see an SDK reference, which looks like this:
 
 ```xml
 <Project Sdk="Microsoft.Net.Sdk">
@@ -179,7 +179,7 @@ The command line `dotnet build --help` lists the command-line options specific t
 
 ## <a name="BKMK_Multitargeting"></a> Multitargeting
 
- By using Visual Studio, you can compile an application to run on any one of several versions of .NET Framework or .NET Core, including .NET 5 and later. For example, you can compile an application to run on .NET Framework 4 on a 32-bit platform, and you can compile the same application to run on .NET Framework 4.8 on a 64-bit platform. The ability to compile to more than one framework is named multitargeting.
+ By using Visual Studio, you can compile an application to run on any one of several versions of .NET Framework or .NET Core, including .NET 5 and later. For example, you can compile an application to run on .NET Framework 3.5 SP1 on a 32-bit platform, and you can compile the same application to run on .NET Framework 4.8 on a 64-bit platform. The ability to compile to more than one framework is named multitargeting.
 
  These are some of the benefits of multitargeting:
 

@@ -68,8 +68,8 @@ Contains a set of tasks for MSBuild to execute sequentially.
 | Element | Description |
 | - | - |
 | [Task](../msbuild/task-element-msbuild.md) | Creates and executes an instance of an MSBuild task. There may be zero or more tasks in a target. |
-| [PropertyGroup](../msbuild/propertygroup-element-msbuild.md) | Contains a set of user-defined `Property` elements. Starting in the .NET Framework 3.5, a `Target` element may contain `PropertyGroup` elements. |
-| [ItemGroup](../msbuild/itemgroup-element-msbuild.md) | Contains a set of user-defined `Item` elements. Starting in the .NET Framework 3.5, a `Target` element may contain `ItemGroup` elements. For more information, see [Items](../msbuild/msbuild-items.md). |
+| [PropertyGroup](../msbuild/propertygroup-element-msbuild.md) | Contains a set of user-defined `Property` elements. A `Target` element may contain `PropertyGroup` elements. |
+| [ItemGroup](../msbuild/itemgroup-element-msbuild.md) | Contains a set of user-defined `Item` elements. A `Target` element may contain `ItemGroup` elements. For more information, see [Items](../msbuild/msbuild-items.md). |
 | [OnError](../msbuild/onerror-element-msbuild.md) | Causes one or more targets to execute if the `ContinueOnError` attribute is ErrorAndStop (or `false`) for a failed task. There may be zero or more `OnError` elements in a target. If `OnError` elements are present, they must be the last elements in the `Target` element.<br /><br /> For information about the `ContinueOnError` attribute, see [Task element (MSBuild)](../msbuild/task-element-msbuild.md). |
 
 ### Parent elements
