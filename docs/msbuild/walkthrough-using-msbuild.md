@@ -9,6 +9,7 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: msbuild
+ms.custom: peer-review-program
 ---
 # Tutorial: Use MSBuild
 
