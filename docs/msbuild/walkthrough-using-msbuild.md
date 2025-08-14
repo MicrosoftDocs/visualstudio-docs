@@ -77,7 +77,11 @@ To install MSBuild on a system that doesn't have Visual Studio, go to **Build To
 >[!NOTE]
 > For some project types, such as C++, you need to unload the project (right-click on the project file and choose **Unload project**) before you can open and edit the project file.
 
-## Targets and tasks
+## Add a target and a task
+
+In this section, you add a target to the project file, which writes a message to the build output. The next section provides a brief overview of targets and tasks in MSBuild project files.
+
+### Targets and tasks
 
 Project files are XML files with the root node [Project](../msbuild/project-element-msbuild.md).
 
@@ -107,7 +111,6 @@ In SDK-style projects, you don't see this import element, since the SDK attribut
 
 MSBuild keeps track of the targets of a build, and guarantees that each target is built no more than once.
 
-## Add a target and a task
 
  Add a target to the project file. Add a task to the target that prints a message.
 
@@ -207,10 +210,10 @@ You can also specify desired targets by running MSBuild from the command line. I
  Build properties can be redefined at any time. If
 
 ```xml
-<TargetFrameworkVersion>net6.0</TargetFrameworkVersion>
+<TargetFrameworkVersion>net8.0</TargetFrameworkVersion>
 ```
 
- appears later in the project file, or in a file imported later in the project file, then `TargetFrameworkVersion` takes the new value "net6.0"
+ appears later in the project file, or in a file imported later in the project file, then `TargetFrameworkVersion` takes the new value "net8.0"
 
 ## Examine a property value
 
@@ -243,7 +246,17 @@ Use this syntax to examine some of the properties in the project file.
 
 1. Examine the output. You should see these two lines (your output might differ):
 
-    ::: moniker range="=vs-2022"
+
+    ::: moniker range="visualstudio"
+
+    ```output
+    Configuration is Debug
+    MSBuildToolsPath is C:\Program Files\Microsoft Visual Studio\18\MSBuild\Current\Bin\amd64
+    ```
+
+    ::: moniker-end
+
+    ::: moniker range="vs-2022"
 
     ```output
     Configuration is Debug
