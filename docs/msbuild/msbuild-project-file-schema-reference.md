@@ -1,7 +1,7 @@
 ---
 title: MSBuild Project File Schema Reference
 description: See a table listing all the MSBuild XML Schema elements with their available attributes and child elements.
-ms.date: 11/04/2016
+ms.date: 8/14/2025
 ms.topic: reference
 dev_langs:
 - VB
@@ -28,8 +28,15 @@ The following table shows links to each version of the XSD schema:
 
 | MSBuild Version | GitHub link | Raw link (for tooling) |
 | - | - |
-| 17.7 | [Microsoft.Build.xsd version 17.7.0](https://github.com/dotnet/msbuild/blob/v17.7.0/src/MSBuild/Microsoft.Build.xsd) | [raw](https://raw.githubusercontent.com/dotnet/msbuild/v17.7.0/src/MSBuild/Microsoft.Build.xsd) |
-| 17.6 | [Microsoft.Build.xsd version 17.6.3](https://github.com/dotnet/msbuild/blob/v17.6.3/src/MSBuild/Microsoft.Build.xsd) | [raw](https://raw.githubusercontent.com/dotnet/msbuild/v17.6.3/src/MSBuild/Microsoft.Build.xsd) |
+| 17.14 | [Microsoft.Build.xsd version 17.14.13](https://github.com/dotnet/msbuild/blob/v17.14.13/src/MSBuild/Microsoft.Build.xsd) | | [raw](https://raw.githubusercontent.com/dotnet/msbuild/v17.14.13/src/MSBuild/Microsoft.Build.xsd) |
+| 17.13 | [Microsoft.Build.xsd version 17.13.26](https://github.com/dotnet/msbuild/blob/v17.13.26/src/MSBuild/Microsoft.Build.xsd) | | [raw](https://raw.githubusercontent.com/dotnet/msbuild/v17.13.26/src/MSBuild/Microsoft.Build.xsd) |
+| 17.12 | [Microsoft.Build.xsd version 17.12.41](https://github.com/dotnet/msbuild/blob/v17.12.41/src/MSBuild/Microsoft.Build.xsd) | | [raw](https://raw.githubusercontent.com/dotnet/msbuild/v17.12.41/src/MSBuild/Microsoft.Build.xsd) |
+| 17.11 | [Microsoft.Build.xsd version 17.11.31](https://github.com/dotnet/msbuild/blob/v17.11.31/src/MSBuild/Microsoft.Build.xsd) | | [raw](https://raw.githubusercontent.com/dotnet/msbuild/v17.11.31/src/MSBuild/Microsoft.Build.xsd) |
+| 17.10 | [Microsoft.Build.xsd version 17.10.29](https://github.com/dotnet/msbuild/blob/v17.10.29/src/MSBuild/Microsoft.Build.xsd) | | [raw](https://raw.githubusercontent.com/dotnet/msbuild/v17.10.29/src/MSBuild/Microsoft.Build.xsd) |
+| 17.9 | [Microsoft.Build.xsd version 17.9.8](https://github.com/dotnet/msbuild/blob/v17.9.8/src/MSBuild/Microsoft.Build.xsd) | | [raw](https://raw.githubusercontent.com/dotnet/msbuild/v17.9.8/src/MSBuild/Microsoft.Build.xsd) |
+| 17.8 | [Microsoft.Build.xsd version 17.8.32](https://github.com/dotnet/msbuild/blob/v17.8.32/src/MSBuild/Microsoft.Build.xsd) | | [raw](https://raw.githubusercontent.com/dotnet/msbuild/v17.8.32/src/MSBuild/Microsoft.Build.xsd) |
+| 17.7 | [Microsoft.Build.xsd version 17.7.4](https://github.com/dotnet/msbuild/blob/v17.7.4/src/MSBuild/Microsoft.Build.xsd) | [raw](https://raw.githubusercontent.com/dotnet/msbuild/v17.7.4/src/MSBuild/Microsoft.Build.xsd) |
+| 17.6 | [Microsoft.Build.xsd version 17.6.11](https://github.com/dotnet/msbuild/blob/v17.6.11/src/MSBuild/Microsoft.Build.xsd) | [raw](https://raw.githubusercontent.com/dotnet/msbuild/v17.6.11/src/MSBuild/Microsoft.Build.xsd) |
 | 17.5 | [Microsoft.Build.xsd version 17.5.1](https://github.com/dotnet/msbuild/blob/v17.5.1/src/MSBuild/Microsoft.Build.xsd) | [raw](https://raw.githubusercontent.com/dotnet/msbuild/v17.5.1/src/MSBuild/Microsoft.Build.xsd) |
 | 17.4 | [Microsoft.Build.xsd version 17.4.4](https://github.com/dotnet/msbuild/blob/v17.4.4/src/MSBuild/Microsoft.Build.xsd) | [raw](https://raw.githubusercontent.com/dotnet/msbuild/v17.4.4/src/MSBuild/Microsoft.Build.xsd) |
 | 17.3 | [Microsoft.Build.xsd version 17.3.1](https://github.com/dotnet/msbuild/blob/v17.3.1/src/MSBuild/Microsoft.Build.xsd) | [raw](https://raw.githubusercontent.com/dotnet/msbuild/v17.3.1/src/MSBuild/Microsoft.Build.xsd) |
