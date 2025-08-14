@@ -1,7 +1,7 @@
 ---
 title: How MSBuild builds projects
 description: Discover how MSBuild processes your project files, whether you invoke the build tool from Visual Studio or from a command line or script.
-ms.date: 3/10/2025
+ms.date: 8/14/2025
 ms.topic: overview
 helpviewer_keywords:
 - MSBuild, build process overview
@@ -13,9 +13,15 @@ ms.custom: peer-review-program
 ---
 # How MSBuild builds projects
 
-How does MSBuild actually work? In this article, you'll learn how MSBuild processes your project files, whether invoked from Visual Studio, or from a command line or script. Knowing how MSBuild works can help you better diagnose problems and better customize your build process. This article describes the build process and is largely applicable to all project types.
+MSBuild is Microsoft's build engine that is used to build most Visual Studio projects. MSBuild invokes compilers to build your code, but also includes flexible configuration and customization options, and infrastructure for creating not just compiled binaries, but also a wide range of other output artifacts. MSBuild is very configurable and customizable, but to get the most out of this customizability, it's important to understand how MSBuild works. In this article, you'll learn how MSBuild processes your project files, whether invoked from Visual Studio, or from a command line or script. Knowing how MSBuild works can help you better diagnose problems and better customize your build process. This article describes the build process and is largely applicable to all project types.
 
-The complete build process consists of [initial startup](#startup), [evaluation](#evaluation-phase), and [execution](#execution-phase) of the targets and tasks that build the project. In addition to these inputs, external imports define the details of the build process, including both [standard imports](#standard-imports) such as *Microsoft.Common.targets* and [user-configurable imports](#user-configurable-imports) at the solution or project level.
+The complete build process consists of
+
+- [initial startup](#startup) - the processing of command-line options.
+- [evaluation](#evaluation-phase) - the interpretation and processing of the text of the MSBuild project file.
+- [execution](#execution-phase) - runs the targets and tasks that build the project.
+
+In addition to the source files and other input artifacts, external imports define the details of the build process, including both [standard imports](#standard-imports) such as *Microsoft.Common.targets* and [user-configurable imports](#user-configurable-imports) at the solution or project level.
 
 ## Startup
 
