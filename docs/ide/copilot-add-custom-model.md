@@ -1,6 +1,6 @@
 ---
-title: 'Bring your own model to chat'
-description: Learn how to add and configure custom language models in GitHub Copilot Chat in Visual Studio, by using API keys from other providers.
+title: 'Using model in Copilot Chat'
+description: Learn how to select, configure, and use built-in or custom AI models in GitHub Copilot Chat for Visual Studio.
 ms.date: 8/19/2025
 ms.update-cycle: 180-days
 ms.topic: get-started
@@ -11,11 +11,37 @@ ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
 monikerRange: '>= vs-2022'
 ---
-# Add and configure custom models in chat
+# Using models in Copilot Chat
+
+With Visual Studio 17.14, Copilot in Visual Studio uses **GPT-4.1** as the default model (previously GPT-4o). GPT-4.1 provides faster response times, higher quality suggestions, and improved efficiency for coding tasks.
+
+You can also select from additional models or add your own, allowing you to choose the model that best fits your workflow requirements.
+
+## Available models
+ 
+Choose from an expanded set of models in the model picker:
+ 
+- Claude Sonnet 4
+- Claude Opus 4
+- GPT-5
+- Claude Sonnet 3.5
+- Claude 3.7 (thinking and non-thinking)
+- OpenAI o3-mini
+- Gemini 2.0 Flash
+- Gemini 2.5 Pro
+
+**Model selection improvements**
+
+- **Persistent selection**: The model you choose remains selected across chat threads.
+- **Enable models directly**: If a model is available in your plan but not yet enabled, you’ll see a prompt in the model picker to activate it.
+
+> Model availability depends on your Copilot subscription and the current status of each model. For Copilot Enterprise and Business, administrators must enable the **Preview** policy in Copilot settings before models are available in Visual Studio.
+
+## Add and configure custom models in chat
 
 With the latest servicing release of 17.14, Visual Studio now supports adding your own language model to the chat experience. You can now use API keys from providers like Anthropic, Google, and OpenAI to integrate a wider range of models directly into Chat. This feature enables you to select and configure models based on your workflow requirements or to test new model capabilities as they become available.
 
-## Benefits
+### Benefits
 
 Using your own model provides the following capabilities:
 
@@ -24,7 +50,7 @@ Using your own model provides the following capabilities:
 - **API management**: Monitor and control API usage, rate limits, and quotas directly with your chosen provider.
 - **Switching models**: Change between built-in and custom models as needed for different tasks or workflows.
 
-## Get started
+### Get started
 
 To add an API key from OpenAI, Anthropic, or Google:
 
@@ -36,7 +62,7 @@ To add an API key from OpenAI, Anthropic, or Google:
 
 > This feature is not available for Copilot Business or Copilot Enterprise users.
 
-## Limitations and considerations
+### Limitations and considerations
 
 - Custom model support is limited to the Chat experience in Visual Studio and does not affect code completions or other AI-assisted features, such as commit message generation.
 - Model capabilities depend on the provider; some third-party models may not support tool use, vision inputs, or advanced features.
