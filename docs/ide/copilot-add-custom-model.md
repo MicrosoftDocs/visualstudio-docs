@@ -1,6 +1,7 @@
 ---
 title: 'Bring your own model to chat'
 description: Learn how to add and configure custom language models in GitHub Copilot Chat in Visual Studio, by using API keys from other providers.
+ms.date: 8/19/2025
 ms.update-cycle: 180-days
 ms.topic: get-started
 author: anandmeg
