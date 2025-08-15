@@ -54,13 +54,14 @@ Using your own model provides the following capabilities:
 
 To add an API key from OpenAI, Anthropic, or Google:
 
-1. Open the Chat view. 
-1. Select **Manage Models** from the model picker.
-1. Select your provider and enter the necessary credentials (such as API key or endpoint URL). 
-1. Select from preset models or add your own using provider-specific options. 
-1. Once added, your custom model will appear in the model picker for chat. 
-
-> This feature is not available for Copilot Business or Copilot Enterprise users.
+1. Open the **model picker** in Chat view. 
+1. Select your provider (currently supported: **OpenAI**, **Anthropic**, and **Google**; additional providers may be added in future releases).
+1. Enter your **API key**. 
+1. Select:
+    - Any standard model listed, or
+    - Any supported model offered by your provider, even if it doesn't appear in the default list.
+1. Once added, the custom model appears in the model picker.
+1. Start prompting in chat. Chat uses the custom model.
 
 ### Limitations and considerations
 
@@ -68,6 +69,7 @@ To add an API key from OpenAI, Anthropic, or Google:
 - Model capabilities depend on the provider; some third-party models may not support tool use, vision inputs, or advanced features.
 - Services like embeddings, intent detection, and repository indexing may continue to use the Copilot API.
 - When using a custom model, output is returned directly from the provider and may bypass Copilot’s responsible AI filtering.
+- Custom model support is **not** available for Copilot Business or Enterprise users.
 
 ## Related content
 
