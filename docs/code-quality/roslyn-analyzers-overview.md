@@ -92,7 +92,9 @@ The following screenshot shows the command-line build output from building a pro
 
 ### Rule severity
 
-If you want to configure [analyzer rule severity](../code-quality/use-roslyn-analyzers.md#configure-severity-levels), you must install the analyzer as a NuGet package. You can't configure rule severity from analyzers that were installed as a Visual Studio extension.
+Visual Studio 2019 version 16.3 and later, you can configure rule severity using an EditorConfig file instead of a ruleset.
+
+If you want to configure [analyzer rule severity](../code-quality/use-roslyn-analyzers.md#configure-severity-levels) from Solution Explorer, you must install the analyzer as a NuGet package. You can't configure rule severity from analyzers that were installed as a Visual Studio extension.
 
 ## Next steps
 

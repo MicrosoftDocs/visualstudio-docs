@@ -48,7 +48,7 @@ sections:
       - question: |
           Does .NET Compiler Platform-based code analysis work in continuous integration (CI) builds?
         answer: |
-          Yes. For analyzers that are installed from a NuGet package, those rules are [enforced at build time](roslyn-analyzers-overview.md#build-errors), including during a CI build. Analyzers used in CI builds respect rule configuration from both rule sets and EditorConfig files. Currently, the code analyzers that are built into Visual Studio are not available as a NuGet package, and so these rules are not enforceable in a CI build.
+          Yes. For analyzers that are installed with .NET SDK 5.0 or higher, or from a NuGet package, those rules are [enforced at build time](roslyn-analyzers-overview.md#build-errors), including during a CI build. Analyzers used in CI builds respect rule configuration from both rule sets and EditorConfig files. Starting with .NET 5.0, the code style analyzers that are built into Visual Studio are also included in the .NET SDK, and most of them are enforceable in a CI build. For more information, see [Enable on build](/dotnet/fundamentals/code-analysis/overview?tabs=net-9#enable-on-build).
 
   - name: IDE analyzers versus StyleCop
     questions:
