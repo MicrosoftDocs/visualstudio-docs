@@ -1,7 +1,7 @@
 ---
-title: 'Use MCP servers (Preview)'
-description: Adding MCP servers in Visual Studio to extend GitHub Copilot agent capabilities, setting up mcp.json and managing tool permissions.
-ms.date: 6/18/2025
+title: 'Use MCP servers'
+description: Learn how to add MCP servers in Visual Studio to extend GitHub Copilot agent capabilities, set up mcp.json, and manage tool permissions.
+ms.date: 8/19/2025
 ms.update-cycle: 180-days
 ms.topic: get-started
 author: anandmeg
@@ -11,29 +11,30 @@ ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
 monikerRange: '>= vs-2022'
 ---
-# Use MCP servers (Preview)
+# Use MCP servers
 
 Model Context Protocol (MCP) is an open standard that enables AI models to interact with external tools and services through a unified interface. In Visual Studio, MCP support enhances GitHub Copilot's agent mode by allowing you to connect any MCP-compatible server to your agentic coding workflow. This article guides you through setting up MCP servers and using tools with agent mode in Visual Studio.
 
 ## Prerequisites
-+ [Visual Studio 2022 version 17.14](/visualstudio/releases/2022/release-history) or later. The latest servicing release of 17.14 is highly recommended as MCP features are actively being added with each release.
++ [Visual Studio 2022 version 17.14](/visualstudio/releases/2022/release-history) or later.
+  The latest servicing release of 17.14 is highly recommended as MCP features are actively being added with each release.
 
 ## How do MCP and Visual Studio extend GitHub Copilot's agent?
 
-* MCP clients, such as Visual Studio connect to MCP servers and request actions on behalf of the AI model
+* MCP clients, such as Visual Studio connect to MCP servers and request actions on behalf of the AI model.
 * MCP servers provide one or more tools that expose specific functionalities through a well-defined interface.
-* The Model Context Protocol (MCP) defines the message format for communication between clients and servers, including tool discovery, invocation, and response handling
+* The Model Context Protocol (MCP) defines the message format for communication between clients and servers, including tool discovery, invocation, and response handling.
 
 For example, a file system MCP server might provide tools for reading, writing, or searching files and directories. [GitHub's official MCP server](https://github.com/github/github-mcp-server) offers tools to list repositories, create pull requests, or manage issues. MCP servers can run locally on your machine or be hosted remotely, and Visual Studio supports both configurations.
 
-By standardizing this interaction, MCP eliminates the need for custom integrations between each AI model and each tool. This allows you to extend your AI assistant's capabilities by simply adding new MCP servers to your workspace. Learn more about the Model Context Protocol specification.
+By standardizing this interaction, MCP eliminates the need for custom integrations between each AI model and each tool. This allows you to extend your AI assistant's capabilities by simply adding new MCP servers to your workspace. Learn more about the [Model Context Protocol specification](https://modelcontextprotocol.io/specification/draft).
 
 ## Configuration example with GitHub MCP server
 
 The following walkthrough requires 17.14.9 or later.
 
 1. Create a new file: `<SOLUTIONDIR>\.mcp.json` or `%USERPROFILE%\.mcp.json`. Using Visual Studio to edit this file is recommended so its JSON schema is automatically applied.
-2. Paste the following contents into the `.mcp.json` file
+1. Paste the following contents into the `.mcp.json` file
 
   ```json
   {
@@ -45,24 +46,29 @@ The following walkthrough requires 17.14.9 or later.
   }
   ```
 
-3. Save the file, then activate the CodeLens that appears over the new server to authenticate to this server using a GitHub account.
+1. Save the file, then activate the CodeLens that appears over the new server to authenticate to this server using a GitHub account.
 
-5. In Visual Studio, click the `Ask` dropdown in the GitHub Copilot Chat window, and then select `Agent`.
+1. In Visual Studio, click the `Ask` dropdown in the GitHub Copilot Chat window, and then select `Agent`.
 
     :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-dropdown.png" alt-text="Screenshot that shows Copilot agent mode selector." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-dropdown.png":::
 
-7. Select the tools you'd like to use, for example, `list_issues`
+1. Select the tools you'd like to use, for example, `list_issues`
 
     :::image type="content" source="media/vs-2022/mcp-servers/model-context-protocol-github-tools-list.png" alt-text="Screenshot that shows MCP GitHub tools." lightbox="media/vs-2022/mcp-servers/model-context-protocol-github-tools-list.png":::
 
-8. Try a sample prompt: `list issues assigned to me on GitHub`
-9. Copilot asks for permission to use a tool made available to it by the MCP server, select **Allow** with the scope you wish to proceed with.
+1. Try a sample prompt: `list issues assigned to me on GitHub`
+1. Copilot asks for permission to use a tool made available to it by the MCP server, select **Allow** with the scope you wish to proceed with.
 
     :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-tool-approval.png" alt-text="Screenshot that shows the agent tools confirmation options." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-tool-approval.png":::
 
 ## Supported MCP capabilities
 
-Visual Studio supports local standard input/output (`stdio`), server-sent events (`sse`), and streamable HTTP (`http`) for MCP server transport. Currently of the three [primitives](https://modelcontextprotocol.io/specification/2025-03-26#features) (tools, prompts, resources), servers can only provide tools to Copilot's agent mode. The list and descriptions of tools can be updated dynamically using list changed events. Visual Studio provides servers with the current solution folders using `roots` [(spec)](https://modelcontextprotocol.io/docs/concepts/roots).
+Visual Studio supports the following MCP capabilities:
+
+- MCP Server transport: Local standard input/output (`stdio`), server-sent events (`sse`), and streamable HTTP (`http`).
+- MCP features: Currently of the three [primitives](https://modelcontextprotocol.io/specification/2025-03-26#features) (tools, prompts, resources), servers can only provide tools to Copilot's agent mode. The list and descriptions of tools can be updated dynamically using list changed events.
+- Visual Studio provides servers with the current solution folders using `roots` [(spec)](https://modelcontextprotocol.io/docs/concepts/roots).
+- [MCP authorization](https://modelcontextprotocol.io/specification/draft/basic/authorization): Visual Studio supports authentication for remote servers with any OAuth provider.
 
 ## Finding MCP servers
 
@@ -70,7 +76,24 @@ MCP's [official server repository](https://github.com/modelcontextprotocol/serve
 
 MCP is still a relatively new standard, and the ecosystem is rapidly evolving. As more developers adopt MCP, you can expect to see an increasing number of servers and tools available for integration with your projects.
 
-## Adding an MCP server
+## Add an MCP server
+
+You have multiple options to add an MCP server in Visual Studio:
+
+### One-click install from the web
+
+With the latest servicing release of 17.14, Visual Studio now supports direct installation of MCP Servers. You can click the **Install** button on an MCP server to automatically add it to your Visual Studio instance.
+
+To add a one-click install button to your MCP server repo, or if you notice one missing from a public server repo, you can create one using the following protocol handler template:  
+
+### Add from chat view
+
+To add an MCP server in Visual Studio:
+
+1. Select the green plus (`+`) button in the tool picker in the chat window.
+1. Specify the server name, input method, any arguments, and URL for HTTP servers.
+
+  :::image type="content" source="media/vs-2022/mcp-servers/configure-server-visual-studio.png" alt-text="Screenshot that shows the agent tools confirmation options." lightbox="media/vs-2022/mcp-servers/configure-server-visual-studio.png":::
 
 ### Create a file to manage configuration of MCP servers
 
@@ -94,7 +117,7 @@ MCP server configurations are read from the following directories, in the follow
 
 Some of these locations require `.mcp.json` while others require `mcp.json`.
 
-### MCP configuration format
+## MCP configuration format
 
 You may define both **remote** (URL and credentials) and **local** (command-line invocation) servers.
 
@@ -110,7 +133,7 @@ When the file is saved with valid syntax, GitHub Copilot's agent restarts and re
 
 :::image type="content" source="media/vs-2022/mcp-servers/model-context-protocol-add-solution-item.png" alt-text="Screenshot that shows adding the MCP configuration file location to Solution Items." lightbox="media/vs-2022/mcp-servers/model-context-protocol-add-solution-item.png":::
 
-### Tool Lifecycle
+### Tool lifecycle
 
 As soon as a server is discovered or added:
 
@@ -133,11 +156,19 @@ You can reset tool confirmation selections in **Tools** > **Options** > **GitHub
 
 :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-tool-config.png" alt-text="Screenshot that shows the tools configuration setting." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-tool-config.png":::
 
+## Manage authorization 
+
+Visual Studio now supports authentication for remote servers with any OAuth provider, per [MCP authorization spec](https://modelcontextprotocol.io/specification/draft/basic/authorization), in addition to integration with the Visual Studio keychain. 
+
+To manage authentication for an MCP server:
+- Select **Manage Authentication** for that server from CodeLens in the `.mcp.json` file. 
+- Provide credentials for the necessary OAuth provider for that server in the browser pop-up.
+
 ## Frequently asked questions
 
 #### As an administrator, how do I control use of MCP servers in agent mode for Visual Studio users?
 
-Agent mode and MCP usage in Visual Studio are governed by the **Editor preview features** flag in the GitHub Copilot dashboard for administrators.
+Agent mode and MCP usage in Visual Studio are governed by the GitHub policy settings in the GitHub Copilot dashboard for administrators.
 If the administrator turns off this setting, users under that subscription won’t be able to use agent mode or connect to MCP servers in Visual Studio.
 
 For more information, see [managing policies and features for copilot in your enterprise](https://docs.github.com/en/enterprise-cloud@latest/copilot/managing-copilot/managing-copilot-for-your-enterprise/managing-policies-and-features-for-copilot-in-your-enterprise#editor-preview-features).
