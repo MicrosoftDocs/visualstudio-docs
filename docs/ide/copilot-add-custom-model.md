@@ -33,7 +33,7 @@ To add an API key from OpenAI, Anthropic, or Google:
 1. Select from preset models or add your own using provider-specific options. 
 1. Once added, your custom model will appear in the model picker for chat. 
 
-> [!NOTE] This feature is not available for Copilot Business or Copilot Enterprise users.
+> This feature is not available for Copilot Business or Copilot Enterprise users.
 
 ## Limitations and considerations
 
