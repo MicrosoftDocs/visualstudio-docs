@@ -62,6 +62,14 @@ For example, to set a build property to a new GUID, you can use this script:
 <NewGuid>$([System.Guid]::NewGuid())</NewGuid>
 ```
 
+In MSBuild 17.14 and later, you can use the parameter syntax "out _" to invoke a static method with an `out` parameter. The out parameter value is ignored. For example:
+
+```xml
+<IsInteger>$([System.Int32]::TryParse("123", out _))</IsInteger>
+```
+
+The property `IsInteger` is `true` if the input ("123" in this example) is successfully parsed as an integer, but the parsed value is ignored.
+
 In static property functions, you can use any public static method or property defined in .NET Standard 2.0 for these system classes:
 
 - [System.Byte](/dotnet/api/System.Byte?view=netstandard-2.0&preserve-view=true)
