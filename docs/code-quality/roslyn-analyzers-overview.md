@@ -73,7 +73,7 @@ Visual Studio includes a core set of Roslyn analyzers, which are always active. 
 
 ### Scope
 
-If you install an analyzer as a NuGet package, the preferred method, it applies only to the project where the NuGet package is installed. Otherwise, if you install an analyzer as a Visual Studio extension, it applies at the solution level and to all instances of Visual Studio. In team environments, an analyzer you install as a NuGet package is in scope for all developers that work on that project.
+If you install an analyzer as a NuGet package, the preferred method for external analyzers, it applies only to the project where the NuGet package is installed. Otherwise, if you install an analyzer as a Visual Studio extension, it applies at the solution level and to all instances of Visual Studio. In team environments, an analyzer you install as a NuGet package is in scope for all developers that work on that project.
 
 > [!NOTE]
 > First-party analyzers ship within the .NET SDK. It's preferable that you enable these analyzers from the .NET SDK instead of installing them as a `Microsoft.CodeAnalysis.NetAnalyzers` [NuGet package](https://www.nuget.org/packages/Microsoft.CodeAnalysis.NetAnalyzers). Enabling the analyzers from the .NET SDK ensures that you automatically get analyzer bug fixes and new analyzers as soon as you update the SDK. For more information about analyzers, see [Enable or install first-party .NET analyzers](install-net-analyzers.md).
@@ -92,9 +92,7 @@ The following screenshot shows the command-line build output from building a pro
 
 ### Rule severity
 
-Visual Studio 2019 version 16.3 and later, you can configure rule severity using an EditorConfig file instead of a ruleset.
-
-If you want to configure [analyzer rule severity](../code-quality/use-roslyn-analyzers.md#configure-severity-levels) from Solution Explorer, you must install the analyzer as a NuGet package. You can't configure rule severity from analyzers that were installed as a Visual Studio extension.
+If you want to configure [analyzer rule severity](../code-quality/use-roslyn-analyzers.md#configure-severity-levels) for external analyzers, you must install the analyzer as a NuGet package. You can't configure rule severity from analyzers that were installed as a Visual Studio extension.
 
 ## Next steps
 
