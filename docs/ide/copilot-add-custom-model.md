@@ -52,7 +52,7 @@ Using your own model provides the following capabilities:
 
 ### Get started
 
-To add an API key from OpenAI, Anthropic, or Google:
+To add an API key:
 
 1. Open the **model picker** in Chat view. 
 1. Select your provider (currently supported: **OpenAI**, **Anthropic**, and **Google**; additional providers may be added in future releases).
