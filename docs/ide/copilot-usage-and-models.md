@@ -1,7 +1,7 @@
 ---
 title: 'GitHub Copilot usage and models'
 description: Learn how to manage your GitHub Copilot usage and models directly within Visual Studio.
-ms.date: 6/4/2025
+ms.date: 8/19/2025
 ms.update-cycle: 180-days
 ms.topic: overview 
 author: anandmeg
