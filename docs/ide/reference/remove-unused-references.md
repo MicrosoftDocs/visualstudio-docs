@@ -31,17 +31,27 @@ This refactoring applies to:
 
 1. Verify that the option is enabled.
 
-   Select **Tools** > **Options** > **Text Editor** > **C#** > **Advanced**, and enable **Show "Removed Unused References" command in Solution Explorer (experimental)**.
+   Select **Tools** > **Options** > **Text Editor** > **C#** > **Advanced**, and enable **Show "Removed Unused References" command in Solution Explorer**.
 
-1. Right click on a project name or dependencies node in Solution Explorer.
+1. In Solution Explorer, right click on a project name or the Dependencies node.
 
 1. Select **Remove Unused References**.
 
-    ![Remove Unused References command](media/remove-unused-references-command.png)
+  ::: moniker range=">= vs-2022"
+  ![Remove Unused References command](media/vs-2022/remove-unused-references-command.png)
+  ::: moniker-end
+  ::: moniker range="vs-2019"
+  ![Remove Unused References command](media/remove-unused-references-command.png)
+  ::: moniker-end
 
 1. The **Remove Unused References** dialog will open displaying references that have no usage in source code. Unused references will be pre-selected for removal with an option to preserve references by selecting `Keep` from the Action drop down.
 
-    ![Remove Unused References dialog](media/remove-unused-references-dialog.png)
+  ::: moniker range=">= vs-2022"
+  ![Remove Unused References dialog](media/vs-2022/remove-unused-references-dialog.png)
+  ::: moniker-end
+  ::: moniker range="vs-2019"
+  ![Remove Unused References dialog](media/remove-unused-references-dialog.png)
+  ::: moniker-end
 
 1. Click `Apply` to remove selected references.
 
