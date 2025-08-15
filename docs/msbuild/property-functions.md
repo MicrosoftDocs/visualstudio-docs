@@ -62,7 +62,7 @@ For example, to set a build property to a new GUID, you can use this script:
 <NewGuid>$([System.Guid]::NewGuid())</NewGuid>
 ```
 
-In MSBuild 17.14 and later, you can use the parameter syntax "out _" to invoke a static method with an `out` parameter. The out parameter value is ignored. For example:
+In MSBuild 17.14 and later, you can use the parameter syntax "out _" to invoke a static method with an `out` parameter. See [Reference parameters](/dotnet/csharp/language-reference/keywords/method-parameters#reference-parameters). The `out` parameter value is ignored. For example:
 
 ```xml
 <IsInteger>$([System.Int32]::TryParse("123", out _))</IsInteger>
