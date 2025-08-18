@@ -41,7 +41,7 @@ sections:
 
           > [!NOTE]
           > - EditorConfig files can only be used to enable rules and set their severity in Visual Studio 2019 version 16.3 and later.
-          > - EditorConfig files cannot be used to configure legacy analysis, whereas rule sets can.
+          > - EditorConfig files can't be used to configure legacy analysis, whereas rule sets can.
 
   - name: Code analysis in continuous integration (CI) builds
     questions:
@@ -71,7 +71,7 @@ sections:
       - question: |
           What's the difference between FxCop analyzers and .NET analyzers?
         answer: |
-          Both FxCop analyzers and .NET analyzers refers to the .NET Compiler Platform ("Roslyn") analyzer implementations of FxCop CA rules. Prior to Visual Studio 2019 16.8 and .NET 5.0, these analyzers shipped as `Microsoft.CodeAnalysis.FxCopAnalyzers` [NuGet package](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers). Starting in Visual Studio 2019 16.8 and .NET 5.0, these analyzers are [included with the .NET SDK](/dotnet/fundamentals/code-analysis/overview). They are also available as `Microsoft.CodeAnalysis.NetAnalyzers` [NuGet package](https://www.nuget.org/packages/Microsoft.CodeAnalysis.NetAnalyzers). Please consider [migrating from FxCop analyzers to .NET analyzers](migrate-from-fxcop-analyzers-to-net-analyzers.md).
+          Both FxCop analyzers and .NET analyzers refers to the .NET Compiler Platform ("Roslyn") analyzer implementations of FxCop CA rules. Prior to Visual Studio 2019 16.8 and .NET 5.0, these analyzers shipped as `Microsoft.CodeAnalysis.FxCopAnalyzers` [NuGet package](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers). Starting in Visual Studio 2019 16.8 and .NET 5.0, these analyzers are [included with the .NET SDK](/dotnet/fundamentals/code-analysis/overview). They're also available as `Microsoft.CodeAnalysis.NetAnalyzers` [NuGet package](https://www.nuget.org/packages/Microsoft.CodeAnalysis.NetAnalyzers). Please consider [migrating from FxCop analyzers to .NET analyzers](migrate-from-fxcop-analyzers-to-net-analyzers.md).
 
   - name: Treat warnings as errors
     questions:
