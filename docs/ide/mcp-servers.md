@@ -84,7 +84,55 @@ You have multiple options to add an MCP server in Visual Studio:
 
 With the latest servicing release of 17.14, Visual Studio now supports direct installation of MCP Servers. You can click the **Install** button on an MCP server to automatically add it to your Visual Studio instance.
 
-To add a one-click install button to your MCP server repo, or if you notice one missing from a public server repo, you can create one using the protocol handler template
+To enable a one-click install button for any MCP server in Visual Studio:
+
+1. Write your MCP server config in JSON.
+  - **HTTP/SSE server example**
+
+      ```json
+      {"name":"My Server","type":"http","url":"https://example.com/mcp/"} 
+      ```
+
+  - **stdio server example**
+
+      ```json
+      {"name":"My Server","type":"stdio","command":"python","args":["-m","my_mcp.server"]}
+      ```
+
+    Required fields:
+    | **Field** | **Description** |
+    |---------------------------|:--------------------:|
+    | `name` | Friendly name for your server |
+    | `type` | Server connection type, for example, "http" or "stdio" |
+    | `url` | URL of the server, required for "http"|
+    | `command` | Command to start the server executable, required for "stdio" |
+    | `args` |Array of arguments passed to the command, required for "stdio" |
+
+1. URL-encode the JSON, you can use an online encoder or your browser console.
+   
+   Browser console example: 
+   
+   ```js
+   encodeURIComponent('{"name":"My Server","type":"http","url":"https://example.com/mcp/"}')
+   ```
+
+1. Insert the URL-encoded JSON into the MCP URI format to form a Visual Studio install link.
+
+    Format:
+
+    ```bash
+    vsweb+mcp:/install?<ENCODED_JSON>
+    ```
+
+1. Add the markdown badge to your GitHub repo/docs.
+
+  Example:
+
+   ```markdown
+   [![Install MCP Server in Visual Studio](https://img.shields.io/badge/Install%20in%20Visual%20Studio-blue?logo=visualstudio)](vsweb+mcp:/install?<ENCODED_JSON>)
+   ```
+
+When a user clicks the badge, Visual Studio will launch (or prompt to open), and the MCP install dialog will appear, pre-filled with your server details.
 
 ### Add from chat view
 
@@ -97,7 +145,7 @@ To add an MCP server in Visual Studio:
 
 ### Create a file to manage configuration of MCP servers
 
-If you do not already have an `mcp.json` file, you can create it in various locations depending on the repos, users, and IDEs you would like the servers to be available/used for.
+If you do not already have an `mcp.json` file, create one in any of the supported locations based on your repository, user, or IDE requirements. To add an MCP server, locate the server’s JSON configuration online (for example, from the GitHub MCP servers repository) and paste it into your `mcp.json` file.
 
 ### File locations for automatic discovery of MCP configuration
 
