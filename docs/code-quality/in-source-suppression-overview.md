@@ -194,7 +194,7 @@ The properties of the attribute include:
 
   - [`module`](#module-suppression-scope): This scope suppresses warnings against an assembly. It's a global suppression that applies to the entire project.
 
-  - `resource`: ([Legacy FxCop](../code-quality/static-code-analysis-for-managed-code-overview.md) only) This scope suppresses warnings in diagnostic info written to resource files that are part of the module (assembly). This scope isn't read or respected in C#/VB compilers for Roslyn analyzer diagnostics, which only analyze source files.
+  - `resource`: ([legacy analysis](../code-quality/static-code-analysis-for-managed-code-overview.md) only) This scope suppresses warnings in diagnostic info written to resource files that are part of the module (assembly). This scope isn't read or respected in C#/VB compilers for Roslyn analyzer diagnostics, which only analyze source files.
 
   - `type`: This scope suppresses warnings against a type.
 
@@ -222,7 +222,7 @@ If there are strict performance reasons for minimizing in-source suppression met
 
 For maintainability reasons, omitting the rule name isn't recommended.
 
-### Suppress selective violations within a method body
+### Suppress selective violations within a method body (legacy analysis only)
 
 Suppression attributes can be applied to a method, but can't be embedded within a method body. All violations of a particular rule are suppressed if you add the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute to the method.
 
