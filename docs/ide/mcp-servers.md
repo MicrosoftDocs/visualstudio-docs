@@ -84,8 +84,9 @@ You have multiple options to add an MCP server in Visual Studio:
 
 With the latest servicing release of 17.14, Visual Studio now supports direct installation of MCP Servers. You can click the **Install** button on an MCP server to automatically add it to your Visual Studio instance.
 
+</br>
 <details>
-<summary>To add a one-click install button for any MCP server in Visual Studio:</summary>
+<summary><strong title="To add a one-click install button for any MCP server in Visual Studio:">Add one-click install button for MCP server</strong></summary>
 
 1. Write your MCP server config in JSON.
   - **HTTP/SSE server example**
@@ -144,7 +145,7 @@ When a user clicks the badge, Visual Studio will launch (or prompt to open), and
 To add an MCP server in Visual Studio:
 
 1. Select the green plus (`+`) button in the tool picker in the chat window.
-1. Specify the server name, input method, any arguments, and URL for HTTP servers.
+1. Specify the server name and connection details, such as the URL for HTTP servers or the command and arguments for stdio servers.
 
   :::image type="content" source="media/vs-2022/mcp-servers/configure-server-visual-studio.png" alt-text="Screenshot that shows adding an MCP server from chat view." lightbox="media/vs-2022/mcp-servers/configure-server-visual-studio.png":::
 
