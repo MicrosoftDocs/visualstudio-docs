@@ -104,7 +104,7 @@ With the latest servicing release of 17.14, Visual Studio now supports direct in
     Required fields:
 
     | **Field** | **Description** |
-    |-----------|:---------------:|
+    |-----------|---------------|
     | `name` | Friendly name for your server |
     | `type` | Server connection type, for example, "http" or "stdio" |
     | `url` | URL of the server, required for "http"|
