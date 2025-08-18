@@ -37,21 +37,21 @@ This refactoring applies to:
 
 1. Select **Remove Unused References**.
 
-  ::: moniker range=">= vs-2022"
-  ![Remove Unused References command](media/vs-2022/remove-unused-references-command.png)
-  ::: moniker-end
-  ::: moniker range="vs-2019"
-  ![Remove Unused References command](media/remove-unused-references-command.png)
-  ::: moniker-end
+   ::: moniker range=">= vs-2022"
+   ![Screenshot of Remove Unused References command](media/vs-2022/remove-unused-references-command.png)
+   ::: moniker-end
+   ::: moniker range="vs-2019"
+   ![Screenshot of Remove Unused References command](media/remove-unused-references-command.png)
+   ::: moniker-end
 
 1. The **Remove Unused References** dialog opens, displaying references that have no usage in source code. Unused references are pre-selected for removal with an option to preserve references by selecting `Keep` from the Action drop down.
 
-  ::: moniker range=">= vs-2022"
-  ![Remove Unused References dialog](media/vs-2022/remove-unused-references-dialog.png)
-  ::: moniker-end
-  ::: moniker range="vs-2019"
-  ![Remove Unused References dialog](media/remove-unused-references-dialog.png)
-  ::: moniker-end
+   ::: moniker range=">= vs-2022"
+   ![Screenshot of Remove Unused References dialog](media/vs-2022/remove-unused-references-dialog.png)
+   ::: moniker-end
+   ::: moniker range="vs-2019"
+   ![Screenshot of Remove Unused References dialog](media/remove-unused-references-dialog.png)
+   ::: moniker-end
 
 1. Click `Apply` to remove selected references.
 
