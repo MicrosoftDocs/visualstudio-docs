@@ -15,7 +15,7 @@ ms.custom: sfi-image-nochange
 
 # Use the Containers window
 
-You can use the Visual Studio **Containers** window to see what's going on inside the Docker containers that host your apps and to view your container images. If you're used to running Docker commands to view and analyze your containers, this window provides a convenient way to monitor and interact with containers without leaving the Visual Studio IDE.
+You can use the Visual Studio **Containers** window to see what's going on inside the containers that host your apps and to view your container images. If you're used to running Docker commands to view and analyze your containers, this window provides a convenient way to monitor and interact with containers without leaving the Visual Studio IDE.
 
 ## Prerequisites
 
@@ -24,11 +24,19 @@ You can use the Visual Studio **Containers** window to see what's going on insid
 - [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
 - [Visual Studio 2019 version 16.4](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) or later.
 :::moniker-end
-:::moniker range=">=vs-2022"
+:::moniker range="vs-2022"
 - [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
 - [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) or [Visual Studio 2019 version 16.4](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) or later.
 - For the Docker Compose node:
   - [Visual Studio 2022 version 17.7 or later](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta)
+  - Docker v2, which installs with Docker Desktop and is on by default.
+
+:::moniker-end
+
+:::moniker range="visualstudio"
+- [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows) or [Podman Desktop](https://podman-desktop.io/downloads).
+- [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta)
+- For the Docker Compose node:
   - Docker v2, which installs with Docker Desktop and is on by default.
 
 :::moniker-end

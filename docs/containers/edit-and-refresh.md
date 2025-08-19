@@ -1,26 +1,26 @@
 ---
 title: Debug apps in a local Docker container
-description: Modify applications running in a local Docker container, refresh with the Edit and Refresh actions, and set debugging breakpoints.
+description: Modify applications running in a local container, refresh with the Edit and Refresh actions, and set debugging breakpoints.
 ms.author: ghogen
 author: ghogen
 manager: mijacobs
 ms.topic: how-to
-ms.date: 4/1/2025
+ms.date: 8/19/2025
 ms.subservice: container-tools
 ---
 
-# Debug apps in a local Docker container
+# Debug apps in a local container
 
-Visual Studio provides a consistent way to develop Docker containers and validate your application locally.
+Visual Studio provides a consistent way to develop containers and validate your application locally.
 You can run and debug your apps in Linux or Windows containers running on your local Windows desktop with Docker installed, and you don't have to restart the container each time you make a code change.
 
-This article illustrates how to use Visual Studio to start an app in a local Docker container, make changes, and then refresh the browser to see the changes. This article also shows you how to set breakpoints for debugging for containerized apps. Supported project types include web app, console app, and Azure function targeting .NET Framework and .NET Core. The examples presented in this article are a project of type ASP.NET Core Web App and a project of type Console App (.NET Framework).
+This article illustrates how to use Visual Studio to start an app in a local container, make changes, and then refresh the browser to see the changes. This article also shows you how to set breakpoints for debugging for containerized apps. Supported project types include web app, console app, and Azure function targeting .NET Framework and .NET Core. The examples presented in this article are a project of type ASP.NET Core Web App and a project of type Console App (.NET Framework).
 
 If you already have a project of a supported type, Visual Studio can create a Dockerfile and configure your project to run in a container. See [Container Tools in Visual Studio](overview.md).
 
 ## Prerequisites
 
-To debug apps in a local Docker container, the following tools must be installed:
+To debug apps in a local container, the following tools must be installed:
 
 ::: moniker range="vs-2019"
 
@@ -34,6 +34,11 @@ To debug apps in a local Docker container, the following tools must be installed
 
 ::: moniker-end
 
+::: moniker range="visualstudio"
+
+- [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the Web Development workload installed
+
+::: moniker-end
 To run Docker containers locally, you must have a local Docker client. You can use [Docker Desktop](https://www.docker.com/get-docker), which requires Windows 10 or later.
 
 ## Create a web app
@@ -117,6 +122,7 @@ Often, changes require further inspection. You can use the debugging features of
 Also, in Visual Studio 17.10 and later, [Hot Reload](../debugger/hot-reload.md) is supported in containers, although be aware that in a container, you have to refresh the page to see changes. If the change is to a CSS file, you again have to refresh the page to see those changes. Note also that updates to scoped CSS files (`.razor.css` files, see [ASP.NET Core Blazor CSS isolation](/aspnet/core/blazor/components/css-isolation)) are not supported as part of hot reload.
 :::moniker-end
 
+:::moniker range="<=vs-2022"
 ## Create a .NET Framework console app
 
 This section presents how to debug a .NET Framework console app project in a local Docker container by first showing how to add Docker support to the project. It's important to recognize that different project types have different levels of Docker support. There are even different levels of Docker support for .NET Core (including .NET 5 and later) console app projects versus .NET Framework console app projects.
@@ -141,9 +147,9 @@ The following procedure demonstrates how to add orchestration support to a .NET 
 4. Press **F5** to start debugging and hit the breakpoint.
 5. Switch to Visual Studio to view the breakpoint and inspect values.
 
-   :::moniker range="<=vs-2019"
    ![Screenshot of the code window for Program.cs in Visual Studio with a breakpoint set to the left of a code line that is highlighted in yellow.](media/edit-and-refresh/breakpoint-console.png)
-   ::: moniker-end
+
+:::moniker-end
 
 :::moniker range=">=vs-2022"
 

@@ -8,7 +8,7 @@ ms.subservice: container-tools
 ms.topic: how-to
 ---
 
-# Customize Docker containers in Visual Studio
+# Customize containers in Visual Studio
 
 You can customize your container images by editing the Dockerfile that Visual Studio generates when you add Docker support to your project. Whether you're building a customized container from the Visual Studio IDE, or setting up a command-line build, you need to know how Visual Studio uses the Dockerfile to build your projects. You need to know such details because, for performance reasons, Visual Studio follows a special process for building and running containerized apps that isn't obvious from the Dockerfile.
 

@@ -3,33 +3,59 @@ title: Visual Studio Container Tools with ASP.NET
 author: ghogen
 description: Use Visual Studio Container Tools and Docker for Windows to build and debug containerized apps and publish to a container registry, Docker Hub, or Azure App Service.
 ms.author: ghogen
-ms.date: 12/3/2024
+ms.date: 8/19/2025
 ms.subservice: container-tools
 ms.topic: quickstart
 ---
 
-# Quickstart: Docker in Visual Studio
+# Quickstart: Container Tools in Visual Studio
 
 ::: moniker range="vs-2019"
 
 [!INCLUDE[Visual Studio Container Tools](includes/vs-2019/container-tools.md)]
 
 ::: moniker-end
+
 ::: moniker range=">=vs-2022"
 
 With Visual Studio, you can easily build, debug, and run containerized .NET, ASP.NET, and ASP.NET Core apps and publish them to Azure Container Registry, Docker Hub, Azure App Service, or your own Container Registry. In this article, you publish an ASP.NET Core app to Azure Container Registry.
+:::moniker-end
 
 ## Prerequisites
 
-- [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
+:::moniker range="visualstudio"
+
+- [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows) or [Podman Desktop](https://podman-desktop.io/downloads).
+- [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **Web Development**, **Azure Tools** workload, and/or **.NET desktop development** workload installed
+- To publish to Azure Container Registry, an Azure subscription. [Sign up for a free trial](https://azure.microsoft.com/free/dotnet/).
+
+:::moniker-end
+::: moniker range="vs-2022"
+- [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows).
 - [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **Web Development**, **Azure Tools** workload, and/or **.NET desktop development** workload installed
 - To publish to Azure Container Registry, an Azure subscription. [Sign up for a free trial](https://azure.microsoft.com/free/dotnet/).
+:::moniker-end
+
+::: moniker range="vs-2022"
+## Installation and setup
+
+For Docker installation, first review the information at [Docker Desktop for Windows: What to know before you install](https://docs.docker.com/docker-for-windows/install/#what-to-know-before-you-install). Next, install [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows).
+
+:::moniker-end
+
+:::moniker range="visualstudio"
 
 ## Installation and setup
 
 For Docker installation, first review the information at [Docker Desktop for Windows: What to know before you install](https://docs.docker.com/docker-for-windows/install/#what-to-know-before-you-install). Next, install [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows).
 
-## Add a project to a Docker container
+To use Podman as the container platform, download [Podman Desktop](https://podman-desktop.io/downloads) for Windows, and then follow the tutorial at [Podman for windows](https://github.com/containers/podman/blob/main/docs/tutorials/podman-for-windows.md) to initialize and start a Podman machine.
+
+:::moniker-end
+
+:::moniker range=">=vs-2022"
+
+## Add a project to a container
 
 1. Before you create the Visual Studio project, make sure Docker Desktop is running the type of containers (Windows or Linux) that you intend to use in your Visual Studio project.
 
@@ -40,7 +66,7 @@ For Docker installation, first review the information at [Docker Desktop for Win
 
 1. Create a new project using the **ASP.NET Core Web App** template or if you want to use the .NET Framework instead of .NET Core, choose **ASP.NET Web Application (.NET Framework)**.
 
-1. On the **Create new web application** screen, make sure the **Enable Docker Support** checkbox is selected.
+1. On the **Create new web application** screen, make sure the **Enable container Support** checkbox is selected.
 
    ![Screenshot of Enable Docker Support checkbox.](media/container-tools/vs-2022/web-app-additional-information-docker-linux.png)
 
@@ -83,11 +109,11 @@ COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "MyWebApp.dll"]
 ```
 
-The preceding *Dockerfile* is based on the [Microsoft Container Registry (MCR)](https://azure.microsoft.com/blog/microsoft-syndicates-container-catalog/) .NET 8 image and includes instructions for modifying the base image by building the project named `MyWebApp` and adding it to the container. If you're using the .NET Framework, the base image is different.
+The preceding *Dockerfile* is based on the [Microsoft syndicates container catalog](https://azure.microsoft.com/blog/microsoft-syndicates-container-catalog/) .NET 8 image and includes instructions for modifying the base image by building the project named `MyWebApp` and adding it to the container. If you're using the .NET Framework, the base image is different.
 
 When the new project dialog's **Configure for HTTPS** checkbox is checked, the *Dockerfile* exposes two ports. One port is used for HTTP traffic; the other port is used for HTTPS. If the checkbox isn't checked, a single port (80) is exposed for HTTP traffic.
 
-With Visual Studio 2022 version 17.7 or later, you can target [.NET 8](https://dotnet.microsoft.com/download/). In that case, you have the benefit of being able to run your app more securely, as a normal user, rather than with elevated permissions. The default Dockerfile generated by Visual Studio for .NET 8 projects is configured to run as a normal user. To enable this behavior on an existing project, add the line `USER app` to the Dockerfile in the base image. Also, because port 80 is restricted for normal users, expose ports 8080 and 8081 instead of 80 and 443. Port 8080 is used for HTTP traffic, and port 8081 is used for HTTPS. To run as a normal user, the container must use a .NET 8 base image, and the app must run as a .NET 8 app. When configured correctly, your Dockerfile should contain code as in the following example:
+When targeting .NET 8 and later, you have the benefit of being able to run your app more securely, as a normal user, rather than with elevated permissions. The default Dockerfile generated by Visual Studio for .NET 8 projects is configured to run as a normal user. To enable this behavior on an existing project, add the line `USER app` to the Dockerfile in the base image. Also, because port 80 is restricted for normal users, expose ports 8080 and 8081 instead of 80 and 443. Port 8080 is used for HTTP traffic, and port 8081 is used for HTTPS. To run as a normal user, the container must use a .NET 8 base image, and the app must run as a .NET 8 app. When configured correctly, your Dockerfile should contain code as in the following example:
 
 ```dockerfile
 FROM mcr.microsoft.com/dotnet/aspnet:8.0-preview AS base
