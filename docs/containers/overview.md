@@ -1,6 +1,6 @@
 ---
 title: Visual Studio Container Tools on Windows
-description: Explore tools available for working with containers in Visual Studio for Windows, including CI/CD, and choose whether to work with a Dockerfile, or build a containerized app without a Dockerfile.
+description: Explore tools available for working with Docker or Podman containers in Visual Studio for Windows, including CI/CD, and choose whether to work with a Dockerfile, or build a containerized app without a Dockerfile.
 author: ghogen
 ms.author: ghogen
 ms.topic: overview
@@ -9,7 +9,7 @@ ms.subservice: container-tools
 ms.custom: peer-review-program
 ---
 
-# Visual Studio Container Tools for Docker
+# Visual Studio Container Tools
 
 :::moniker range="visualstudio"
 
