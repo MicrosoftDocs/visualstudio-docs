@@ -89,17 +89,17 @@ With the latest servicing release of 17.14, Visual Studio now supports direct in
 <summary><strong title="To add a one-click install button for any MCP server in Visual Studio:">Add one-click install button for MCP server</strong></summary>
 
 1. Write your MCP server config in JSON.
-  - **HTTP/SSE server example**
+    - **HTTP/SSE server example**
 
-      ```json
-      {"name":"My Server","type":"http","url":"https://example.com/mcp/"} 
-      ```
+        ```json
+        {"name":"My Server","type":"http","url":"https://example.com/mcp/"} 
+        ```
 
-  - **stdio server example**
+    - **stdio server example**
 
-      ```json
-      {"name":"My Server","type":"stdio","command":"python","args":["-m","my_mcp.server"]}
-      ```
+        ```json
+        {"name":"My Server","type":"stdio","command":"python","args":["-m","my_mcp.server"]}
+        ```
 
     Required fields:
 
@@ -129,11 +129,11 @@ With the latest servicing release of 17.14, Visual Studio now supports direct in
 
 4. Add the markdown badge to your GitHub repo/docs.
 
-  Example:
+    Example:
 
-   ```markdown
-   [![Install MCP Server in Visual Studio](https://img.shields.io/badge/Install%20in%20Visual%20Studio-blue?logo=visualstudio)](vsweb+mcp:/install?<ENCODED_JSON>)
-   ```
+    ```markdown
+    [![Install MCP Server in Visual Studio](https://img.shields.io/badge/Install%20in%20Visual%20Studio-blue?logo=visualstudio)](vsweb+mcp:/install?<ENCODED_JSON>)
+    ```
 
 When a user clicks the badge, Visual Studio will launch (or prompt to open), and the MCP install dialog will appear, pre-filled with your server details.
 
