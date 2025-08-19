@@ -1,7 +1,7 @@
 ---
 title: "Debug an async application"
 description: Debug an async application by using the Parallel Stacks windows in the Visual Studio integrated development environment (IDE).
-ms.date: "07/14/2025"
+ms.date: "08/19/2025"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"
@@ -21,7 +21,7 @@ monikerRange: '>= vs-2022'
 
 This tutorial shows how to use the Tasks view of **Parallel Stacks** window to debug a C# async application. This window helps you understand and verify the run-time behavior of code that uses the async/await pattern, also called the [Task-based asynchronous pattern (TAP)](/dotnet/standard/asynchronous-programming-patterns/task-based-asynchronous-pattern-tap).
 
-For apps using the [Task Parallel Library (TPL)](/dotnet/standard/parallel-programming/task-parallel-library-tpl) but not the async/await pattern, or for C++ apps using the [Concurrency Runtime](/cpp/parallel/concrt/concurrency-runtime), the **Threads** view in the **Parallel Stacks** window is the most useful tool for debugging. For more information, see [View threads and tasks in the Parallel Stacks window](../debugger/using-the-parallel-stacks-window.md).
+For apps using the [Task Parallel Library (TPL)](/dotnet/standard/parallel-programming/task-parallel-library-tpl) but not the async/await pattern, or for C++ apps using the [Concurrency Runtime](/cpp/parallel/concrt/concurrency-runtime), use the **Threads** view in the **Parallel Stacks** window for debugging. For more information, see [Debug a deadlock](../debugger/how-to-use-the-threads-window.md) and [View threads and tasks in the Parallel Stacks window](../debugger/using-the-parallel-stacks-window.md).
 
 The Tasks view helps you to:
 
