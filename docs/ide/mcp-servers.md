@@ -34,30 +34,30 @@ By standardizing this interaction, MCP eliminates the need for custom integratio
 The following walkthrough requires 17.14.9 or later.
 
 1. Create a new file: `<SOLUTIONDIR>\.mcp.json` or `%USERPROFILE%\.mcp.json`. Using Visual Studio to edit this file is recommended so its JSON schema is automatically applied.
-1. Paste the following contents into the `.mcp.json` file
+2. Paste the following contents into the `.mcp.json` file
 
-  ```json
-  {
-    "servers": {
-      "github": {
-        "url": "https://api.githubcopilot.com/mcp/"
+    ```json
+    {
+      "servers": {
+        "github": {
+          "url": "https://api.githubcopilot.com/mcp/"
+        }
       }
     }
-  }
-  ```
+    ```
 
-1. Save the file, then activate the CodeLens that appears over the new server to authenticate to this server using a GitHub account.
+3. Save the file, then activate the CodeLens that appears over the new server to authenticate to this server using a GitHub account.
 
-1. In Visual Studio, click the `Ask` dropdown in the GitHub Copilot Chat window, and then select `Agent`.
+4. In Visual Studio, click the `Ask` dropdown in the GitHub Copilot Chat window, and then select `Agent`.
 
     :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-dropdown.png" alt-text="Screenshot that shows Copilot agent mode selector." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-dropdown.png":::
 
-1. Select the tools you'd like to use, for example, `list_issues`
+5. Select the tools you'd like to use, for example, `list_issues`
 
     :::image type="content" source="media/vs-2022/mcp-servers/model-context-protocol-github-tools-list.png" alt-text="Screenshot that shows MCP GitHub tools." lightbox="media/vs-2022/mcp-servers/model-context-protocol-github-tools-list.png":::
 
-1. Try a sample prompt: `list issues assigned to me on GitHub`
-1. Copilot asks for permission to use a tool made available to it by the MCP server, select **Allow** with the scope you wish to proceed with.
+6. Try a sample prompt: `list issues assigned to me on GitHub`
+7. Copilot asks for permission to use a tool made available to it by the MCP server, select **Allow** with the scope you wish to proceed with.
 
     :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-tool-approval.png" alt-text="Screenshot that shows the agent tools confirmation options." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-tool-approval.png":::
 
@@ -111,7 +111,7 @@ With the latest servicing release of 17.14, Visual Studio now supports direct in
     | `command` | Command to start the server executable, required for "stdio" |
     | `args` |Array of arguments passed to the command, required for "stdio" |
 
-1. URL-encode the JSON, you can use an online encoder or your browser console.
+2. URL-encode the JSON, you can use an online encoder or your browser console.
    
    Browser console example: 
    
@@ -119,7 +119,7 @@ With the latest servicing release of 17.14, Visual Studio now supports direct in
    encodeURIComponent('{"name":"My Server","type":"http","url":"https://example.com/mcp/"}')
    ```
 
-1. Insert the URL-encoded JSON into the MCP URI format to form a Visual Studio install link.
+3. Insert the URL-encoded JSON into the MCP URI format to form a Visual Studio install link.
 
     Format:
 
@@ -127,7 +127,7 @@ With the latest servicing release of 17.14, Visual Studio now supports direct in
     vsweb+mcp:/install?<ENCODED_JSON>
     ```
 
-1. Add the markdown badge to your GitHub repo/docs.
+4. Add the markdown badge to your GitHub repo/docs.
 
   Example:
 
