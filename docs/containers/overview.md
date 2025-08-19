@@ -68,7 +68,7 @@ The **Containers** window lets you view running containers, browse available ima
 
 ::: moniker-end
 
-::: moniker range=">=vs-2022"
+::: moniker range="vs-2022"
 
 ## Prerequisites
 

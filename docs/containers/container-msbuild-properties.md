@@ -65,7 +65,7 @@ The following table shows the MSBuild properties available for Dockerfile projec
 | DockerfileTag | The tag to use when building the Docker image. In debugging, a ":dev" is appended to the tag. | Assembly name after stripping nonalphanumeric characters with the following rules: <br/> If the resultant tag is all numeric, then "image" is inserted as a prefix (for example, image2314) <br/> If the resultant tag is an empty string, then "image" is used as the tag. |1.0.1872750 or newer|
 :::moniker-end
 
-:::moniker range="visual-studio"
+:::moniker range="visualstudio"
 
 The following table shows the MSBuild properties available for Dockerfile projects. The NuGet package version applies to [Microsoft.VisualStudio.Azure.Containers.Tools.Targets](https://www.nuget.org/packages/Microsoft.VisualStudio.Azure.Containers.Tools.Targets/).
 

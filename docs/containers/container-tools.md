@@ -21,9 +21,10 @@ ms.topic: quickstart
 With Visual Studio, you can easily build, debug, and run containerized .NET, ASP.NET, and ASP.NET Core apps and publish them to Azure Container Registry, Docker Hub, Azure App Service, or your own Container Registry. In this article, you publish an ASP.NET Core app to Azure Container Registry.
 :::moniker-end
 
-## Prerequisites
 
 :::moniker range="visualstudio"
+
+## Prerequisites
 
 - [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows) or [Podman Desktop](https://podman-desktop.io/downloads).
 - [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **Web Development**, **Azure Tools** workload, and/or **.NET desktop development** workload installed
@@ -31,6 +32,9 @@ With Visual Studio, you can easily build, debug, and run containerized .NET, ASP
 
 :::moniker-end
 ::: moniker range="vs-2022"
+
+## Prerequisites
+
 - [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows).
 - [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **Web Development**, **Azure Tools** workload, and/or **.NET desktop development** workload installed
 - To publish to Azure Container Registry, an Azure subscription. [Sign up for a free trial](https://azure.microsoft.com/free/dotnet/).

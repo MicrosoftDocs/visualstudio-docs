@@ -22,7 +22,7 @@ You can add support for Docker containers in supported Visual Studio project typ
 - To publish to Azure Container Registry, an Azure subscription. [Sign up for a free trial](https://azure.microsoft.com/offers/ms-azr-0044p/).
 :::moniker-end
 
-::: moniker range=">=vs-2022"
+::: moniker range="vs-2022"
 
 ## Prerequisites
 
