@@ -54,13 +54,13 @@ In Visual Studio 2019 version 16.4 and later, the **Containers** window is avail
 - [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **Web Development**, **Azure Tools** workload, and/or **.NET desktop development** workload installed
 - To publish to Azure Container Registry, an Azure subscription. [Sign up for a free trial](https://azure.microsoft.com/offers/ms-azr-0044p/).
 
-## Docker support in Visual Studio
+## Container support in Visual Studio
 
-Docker support is available for ASP.NET projects, ASP.NET Core projects, and .NET Core (and .NET 5 and later) console projects.
+Container support is available for ASP.NET projects, ASP.NET Core projects, and .NET Core (and .NET 5 and later) console projects.
 
-The support for Docker in Visual Studio has changed over a number of releases in response to customer needs. There are several options to add Docker support to a project, and the supported options vary by the type of project and the version of Visual Studio. With some supported project types, if you just want a container for a single project, without using orchestration, you can do that by adding container support. You can choose Docker or Podman as a container platform, and easily switch between them without changing the project. The next level is container orchestration support, which adds appropriate support files for the particular orchestrator you choose.
+The support for containers in Visual Studio has changed over a number of releases in response to customer needs. There are several options to add container support to a project, and the supported options vary by the type of project and the version of Visual Studio. With some supported project types, if you just want a container for a single project, without using orchestration, you can do that by adding container support. You can choose Docker or Podman as a container platform, and easily switch between them without changing the project. The next level is container orchestration support, which adds appropriate support files for the particular orchestrator you choose.
 
-When you add container support to a .NET 7 or later project, you have two container build types to choose from for adding Docker support. You can choose to add a Dockerfile to specify how to build the container images, or you can choose to use the built-in container support provided by the .NET SDK.
+When you add container support to a .NET 7 or later project, you have two container build types to choose from for adding container support. You can choose to add a Dockerfile to specify how to build the container images, or you can choose to use the built-in container support provided by the .NET SDK.
 
 Also, when you choose container orchestration, you can use Docker Compose or Service Fabric as container orchestration services.
 
@@ -90,7 +90,13 @@ In Visual Studio 2022, the **Containers** window is available, which lets you vi
 
 ::: moniker-end
 
-To create a project with Docker support, or add Docker support to an existing project, see [Add Docker support](add-container-support.md).
+:::moniker range="visualstudio"
+To create a project with container support, or add container support to an existing project, see [Add container support](add-container-support.md).
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+To create a project with Docker support, or add Docker support to an existing project, see [Add container support](add-container-support.md).
+:::moniker-end
 
 > [!NOTE]
 > Docker's licensing requirements might be different for different versions of Docker Desktop. Refer to the [Docker documentation](https://docs.docker.com/subscription/) to understand the current licensing requirements for using your version of Docker Desktop for development in your situation.
