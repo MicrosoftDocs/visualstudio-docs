@@ -31,21 +31,6 @@ The Tasks view helps you to:
 
 - Help identify issues such as the sync-over-async pattern along with hints related to potential issues such as blocked or waiting tasks. The [sync-over-async code pattern](https://devblogs.microsoft.com/pfxteam/should-i-expose-synchronous-wrappers-for-asynchronous-methods/) refers to code that is calling asynchronous methods in a synchronous fashion, which is known to block threads and is the most common cause of thread pool starvation.
 
-## C# sample
-
-The sample code in this walkthrough is for an application that simulates a day in the life of a gorilla. The purpose of the exercise is to understand how to use the Tasks view of the Parallel Stacks window to debug an async application.
-
-The sample includes an example of using the sync-over-async antipattern, which can result in thread pool starvation.
-
-To make the call stack intuitive, the sample app performs the following sequential steps:
-
-1. Creates an object representing a gorilla.
-1. Gorilla wakes up.
-1. Gorilla goes on a morning walk.
-1. Gorilla finds bananas in the jungle.
-1. Gorilla eats.
-1. Gorilla engages in monkey business.
-
 ## Async call stacks
 
 The Tasks view in Parallel Stacks provides a visualization for async call stacks, so you can see what's happening (or supposed to happen) in your application.
@@ -65,6 +50,21 @@ Here are a few important points to remember when interpreting data in the Tasks 
   The following conceptual animation shows how grouping is applied to virtual call stacks. Only identical segments of a virtual call stack are grouped.
 
   ![Illustration of the grouping of virtual call stacks.](../debugger/media/vs-2022/debug-asynchronous-virtual-call-stacks-top-bottom.gif)
+
+## C# sample
+
+The sample code in this walkthrough is for an application that simulates a day in the life of a gorilla. The purpose of the exercise is to understand how to use the Tasks view of the Parallel Stacks window to debug an async application.
+
+The sample includes an example of using the sync-over-async antipattern, which can result in thread pool starvation.
+
+To make the call stack intuitive, the sample app performs the following sequential steps:
+
+1. Creates an object representing a gorilla.
+1. Gorilla wakes up.
+1. Gorilla goes on a morning walk.
+1. Gorilla finds bananas in the jungle.
+1. Gorilla eats.
+1. Gorilla engages in monkey business.
 
 ## Create the sample project
 

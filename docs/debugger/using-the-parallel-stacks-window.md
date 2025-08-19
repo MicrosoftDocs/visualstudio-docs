@@ -194,15 +194,13 @@ The following table describes the main features of the **Threads** view:
 ::: moniker-end
 
 ## Tasks view
-If your app uses <xref:System.Threading.Tasks.Task?displayProperty=fullName> objects (managed code) or `task_handle` objects (native code) to express parallelism, you can use **Tasks** view. **Tasks** view shows call stacks of tasks instead of threads.
 
-In **Tasks** view:
+For .NET apps using the async/await pattern, the Tasks view is the most helpful for debugging. For a step-by-step tutorial, see [Debug an async application](../debugger/walkthrough-debugging-a-parallel-application.md).
 
-- Call stacks of threads that aren't running tasks aren't shown.
-- Call stacks of threads that are running tasks are visually trimmed at the top and bottom, to show the most relevant frames for tasks.
-- When several tasks are on one thread, the call stacks of those tasks are shown in separate nodes.
+In **Tasks** view, you can:
 
-To see an entire call stack, switch back to **Threads** view by right-clicking in a stack frame and selecting **Go to Thread**.
+- View call stack visualizations for apps that use the async/await pattern.
+- Identify async code that is scheduled to run but isn't yet running.
 
 The following illustration shows the **Threads** view at the top and the corresponding **Tasks** view at the bottom.
 
