@@ -1,6 +1,6 @@
 ---
 title: Install and manage GitHub Copilot in Visual Studio
-description: Learn how to install GitHub Copilot to get GitHub Copilot Completions and Chat in Visual Studio. Use the Copilot badge in the IDE to access options to manage or troubleshoot your Copilot state. 
+description: Learn how to install and manage your GitHub Copilot installation in Visual Studio. Use the Copilot badge in the IDE to access options to manage or troubleshoot your Copilot state. 
 ms.date: 3/28/2025
 ms.update-cycle: 180-days
 ms.topic: install-set-up-deploy
@@ -12,11 +12,9 @@ ms.collection: ce-skilling-ai-copilot
 monikerRange: '>= vs-2022'
 ms.custom: [copilot-learning-hub]
 ---
-# Install GitHub Copilot in Visual Studio
+# Manage your GitHub Copilot installation in Visual Studio
 
-**GitHub Copilot Completions** and **GitHub Copilot Chat** in Visual Studio enable enhanced [AI-assisted development in Visual Studio](ai-assisted-development-visual-studio.md), helping you be more productive and efficient when writing code.
-
-In this article, you learn how to install and manage GitHub Copilot in [Visual Studio 2022 version 17.10 or later](/visualstudio/releases/2022/release-notes).
+In this article, you will learn how to manage your GitHub Copilot installation in [Visual Studio 2022 version 17.10 or later](/visualstudio/releases/2022/release-notes).
  
 ## Install using the Visual Studio Installer
 
