@@ -42,7 +42,7 @@ Files generated during execution don't exist during the evaluation phase, theref
   </ItemGroup>
 </Target>
 
- <Target Name="CleanGeneratedCode" AfterTargets="CoreClean">
+<Target Name="CleanGeneratedCode" AfterTargets="CoreClean">
   <Delete Files="$(IntermediateOutputPath)GeneratedFile.cs" />
 </Target>
 ```
@@ -53,14 +53,13 @@ Copy the above, paste it into a file, and call it `buildcodegen.targets`. Then, 
 
 ```xml
 <Project Sdk="Microsoft.NET.Sdk">
-<Import Project="buildcodegen.targets"/>
+  <Import Project="buildcodegen.targets"/>
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-
 </Project>
 ```
 
