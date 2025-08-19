@@ -85,10 +85,18 @@ As you type code or comments in the editor, GitHub Copilot provides context-awar
   
     :::image type="content" source="media/vs-2022/visual-studio-github-copilot-extension/github-copilot-whole-line-completions.gif" alt-text="Animated screenshot that shows using the GitHub Copilot completions in Visual Studio.":::
 
-   **Tips**
+## Tips and tricks
+Keyboard shortcuts related to completions:
 
    - Manually trigger a completion using <kbd>Alt</kbd>+<kbd>,</kbd>
    - Cycle through available completions using <kbd>Alt</kbd>+<kbd>.</kbd> (next) and <kbd>Alt</kbd>+<kbd>,</kbd> (previous)
+   - Partially accept a completion word by word using <kbd>Ctrl</kbd>+<kbd>Right Arrow</kbd>
+   - Partially accept a completion line by line using <kbd>Ctrl</kbd>+<kbd>Down Arrow</kbd>
+
+Customize your completions experience with settings:
+
+   - If you feel like completions appear too quickly sometimes and interrupt your typing, go to **Tools** -> **Options** -> **IntelliCode** -> **Advanced** and turn on **wait for pauses in typing before showing whole line completions**. This setting will add a debounce to request code completions when you are typing, so you will not see completions quickly showing and disappearing while you are typing fast. 
+   - By default, completions are automatically triggered by each keystroke you type. If you do not want automatic completions and want to only receive completions when you request it, go to **Tools** -> **Options** -> **IntelliCode** -> **General** and turn off **Automatically generate code completions in the Editor**. Then, use <kbd>Alt</kbd>+<kbd>,</kbd> to manually trigger completions.
 
 ## Content exclusions
 
