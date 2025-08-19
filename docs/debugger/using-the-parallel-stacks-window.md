@@ -91,10 +91,10 @@ Icon|Description|
 |![Yellow arrow](media/icon-parallel-yellow-arrow.png)|Indicates the current location (active stack frame) of the current thread.|
 |![Threads icon](media/icon-parallelthreads.gif)|Indicates the current location (active stack frame) of a non-current thread.|
 |![Green arrow](media/icon-parallel-green-arrow.png)|Indicates the current stack frame (the current debugger context). The method name is bold wherever it appears.|
-|![Status Error](media/vs-2022/icon-status-error.png)|Indicates that the current stack frame has Critical status warning such as Deadlock.|
-|![Status Excluded](media/vs-2022/icon-status-excluded.png)|Indicates the deadlocked node.|
-|![Status Information](media/vs-2022/icon-status-information.png)|Indicates that the current stack frame has additional information such as Waiting on, Waiting on lock, owned by, etc. |
-|![Status Blocked](media/vs-2022/icon-status-block.png)|Indicates that the current task is in blocked/waiting state, etc. |
+|![Status Error](media/vs-2022/icon-status-error.png)|(.NET) Indicates that the current stack frame has Critical status warning such as Deadlock.|
+|![Status Excluded](media/vs-2022/icon-status-excluded.png)|(.NET) Indicates the deadlocked node.|
+|![Status Information](media/vs-2022/icon-status-information.png)|(.NET) Indicates that the current stack frame has additional information such as Waiting on, Waiting on lock, owned by, etc. |
+|![Status Blocked](media/vs-2022/icon-status-block.png)|(.NET) Indicates that the current task is in blocked/waiting state, etc. |
 |![Status Running](media/vs-2022/icon-status-running.png)|Indicates the currently running task.|
 
 ::: moniker-end
@@ -250,8 +250,6 @@ These video tutorials demonstrate how you can use the Threads and Tasks views of
 
 ## Related content
 - [Get started debugging a multithreaded application](../debugger/get-started-debugging-multithreaded-apps.md)
-- [Debug an async application (.NET)](../debugger/walkthrough-debugging-a-parallel-application.md)
-- [Debug a deadlock](../debugger/how-to-use-the-threads-window.md)
 - [Switch to Another Thread While Debugging in Visual Studio](../debugger/how-to-switch-to-another-thread-while-debugging.md)
 - [Debugging managed code](/visualstudio/debugger/)
 - [Parallel programming](/dotnet/standard/parallel-programming/index)

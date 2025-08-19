@@ -20,11 +20,13 @@ ms.subservice: debug-diagnostics
 
 Visual Studio provides several tools and user interface elements to help you debug multithreaded applications. This tutorial shows how to use thread markers, the **Parallel Stacks** window, the **Parallel Watch** window, conditional breakpoints, and filter breakpoints. Completing this tutorial familiarizes you with Visual Studio features for debugging multithreaded applications.
 
+::: moniker range=">=vs-2022"
 For tutorials that are more scenario-focused, see the following articles.
 
 - [Debug a deadlock using Threads view](../debugger/how-to-use-the-threads-window.md).
 
 - [Debug an async application (.NET)](../debugger/walkthrough-debugging-a-parallel-application.md).
+::: moniker-end
 
 The first step is to create a multithreaded application project.
 
