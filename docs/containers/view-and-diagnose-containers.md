@@ -65,6 +65,19 @@ If you're using Docker Compose and Visual Studio 2022 version 17.7 or later, you
 ![Screenshot showing Docker Compose nodes in the Containers window.](./media/view-and-diagnose-containers/vs-2022/containers-logs-interleaved.png)
 
 :::moniker-end
+:::moniker range="visualstudio"
+
+The **Containers** window opens automatically when you start a containerized .NET project. To open the **Containers** window any time, select **View** > **Other Windows** > **Containers** from the Visual Studio menu, or press **Ctrl**+**K**, **Ctrl**+**O**. You can also use **Ctrl**+**Q** to open the Visual Studio Search box, type *Containers*, and select the **Containers** item.
+
+![Screenshot of the Containers window in Visual Studio with a container selected in the left pane, and the Environment tab selected in the right pane.](media/view-and-diagnose-containers/vs-2022/container-tools-window.png)
+
+The left side of the window shows the list of containers on your local machine. The containers associated with your current solution are under **Solution Containers**. On the right is a pane with tabs for **Environment**, **Labels**, **Ports**, **Volumes**, **Files**, **Logs**, and **Details**.
+
+If you're using Docker Compose, you see a tree of nodes, with a parent node for your solution and child nodes for each project enrolled in Docker Compose.
+
+![Screenshot showing Docker Compose nodes in the Containers window.](./media/view-and-diagnose-containers/vs-2022/containers-logs-interleaved.png)
+
+:::moniker-end
 
 > [!TIP]
 > By default, the **Containers** window is docked with the **Watch** window when the debugger is running. You can easily customize where the **Containers** tool window is docked. See [Customizing window layouts in Visual Studio](../ide/customizing-window-layouts-in-visual-studio.md).
