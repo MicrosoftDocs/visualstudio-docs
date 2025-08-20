@@ -9,7 +9,6 @@ dev_langs:
   - "CSharp"
   - "VB"
   - "FSharp"
-  - "C++"
 helpviewer_keywords:
   - "debugger, parallel tasks window"
 author: "mikejo5000"
@@ -17,7 +16,7 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
-# Using the Tasks Window (C#, Visual Basic, C++)
+# Using the Tasks Window (C#, Visual Basic)
 
 The **Tasks** window resembles the **Threads** window, except that it shows information about asynchronous tasks created using the async/await pattern, also called the [Task-based asynchronous pattern (TAP)](/dotnet/standard/asynchronous-programming-patterns/task-based-asynchronous-pattern-tap) instead of thread-based information. Like threads, tasks represent asynchronous operations that can run concurrently; however, multiple tasks may run on the same thread.
 
@@ -30,7 +29,7 @@ In .NET code, you can use the **Tasks** window when you work with apps using the
 ::: moniker-end
 
 > [!TIP]
-> For C/C++ code, the **Threads** view in the **Parallel Stacks** window is typically the most helpful when you need to debug [task groups](/cpp/parallel/concrt/task-parallelism-concurrency-runtime), [parallel algorithms](/cpp/parallel/concrt/parallel-algorithms), [asynchronous agents](/cpp/parallel/concrt/asynchronous-agents), and [lightweight tasks](/cpp/parallel/concrt/task-scheduler-concurrency-runtime). For more information, see [View threads and tasks in the Parallel Stacks window](../debugger/using-the-parallel-stacks-window.md).
+> For C/C++ code, use the **Threads** view in the **Parallel Stacks** window when you need to debug [task groups](/cpp/parallel/concrt/task-parallelism-concurrency-runtime), [parallel algorithms](/cpp/parallel/concrt/parallel-algorithms), [asynchronous agents](/cpp/parallel/concrt/asynchronous-agents), and [lightweight tasks](/cpp/parallel/concrt/task-scheduler-concurrency-runtime). For more information, see [View threads and tasks in the Parallel Stacks window](../debugger/using-the-parallel-stacks-window.md).
 
 You can use the **Tasks** window whenever you break into the debugger. You can access it on the **Debug** menu by clicking **Windows** and then clicking **Tasks**. The following illustration shows the **Tasks** window in its default mode.
 
@@ -117,8 +116,6 @@ The **Switch to Task** command makes the current task the active task. The **Swi
 
 ## Related content
 
-- [Debug an async application (.NET)](../debugger/walkthrough-debugging-a-parallel-application.md)
-- [Debug a deadlock](../debugger/how-to-use-the-threads-window.md)
 - [First look at the debugger](../debugger/debugger-feature-tour.md)
 - [Debugging Managed Code](/visualstudio/debugger/)
 - [Parallel Programming](/dotnet/standard/parallel-programming/index)
