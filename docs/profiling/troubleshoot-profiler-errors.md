@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot profiling errors
 description: Troubleshoot profiling errors, including no data in filters, slow results, and source information unavailable, and follow error message guidance to fix issues.
-ms.date: 06/28/2023
+ms.date: 08/19/2025
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
@@ -74,7 +74,7 @@ After a long memory profiling session, any attempt to analyze the result is met 
 There was a mismatch between the snapshot information captured by the memory tool and that of the collection agent. This result means that the memory tool wasn't able to find the heap state file for a native snapshot. Or, this result the memory tool couldn't match the GC start time of the snapshot to the one registered in the *diagsession* file to retrieve the GCStats.
 
 **How to fix**
-This issue was due to a bug in the tool that was fixed in 17.3. Upgrading to a later version should solve the issue. If the issue is still persistent after upgrading, create a feedback ticket and attach to the ticket:
+This issue was due to a bug in the tool that was fixed in Visual Studio 2022 version 17.3. Upgrading to a later version should solve the issue. If the issue is still persistent after upgrading, create a feedback ticket and attach to the ticket:
 
 - The *diagsession* file
 - A minidump of Visual Studio
