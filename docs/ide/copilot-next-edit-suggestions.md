@@ -1,7 +1,7 @@
 ---
 title: Copilot Next Edit Suggestions
 description: Use Copilot Next Edit Suggestions (NES) to predict where you'll want to make your next edit and what that edit should be, based on your recent code edits.
-ms.date: 5/13/2025
+ms.date: 8/20/2025
 ms.update-cycle: 180-days
 ms.topic: get-started
 author: anandmeg
@@ -75,6 +75,22 @@ NES helps with repetitive changes, such as updating code syntax to modern C++ us
   :::image type="content" source="media/vs-2022/next-edit-suggestions/rename-variable-edits.png" alt-text="Screenshot that shows NES suggesting edits when a variable is renamed.":::
   
 -  Match code style. After you paste some code, NES suggests adjustments to match it with the style of the surrounding code.
+
+## Hide Next Edit Suggestions (Preview)
+
+If you prefer a quieter editor, you can now hide Next Edit Suggestions (NES) in Visual Studio and review them only when you choose.
+
+NES will still be triggered by your edits, but when a suggestion is available, only the margin indicator appears in the gutter, pointing to the relevant line. The suggestion itself remains hidden until you choose to view it.
+
+:::image type="content" source="media/vs-2022/next-edit-suggestions/next-edit-suggestions-collapse.png" alt-text="Screenshot that shows NES being hidden and only gutter arrow is shown.":::
+
+To view a hidden suggestion, click the margin indicator or press the `Tab` key. The suggestion will then be displayed. You can press `Tab` again to accept it or `Esc` to dismiss it. After accepting a suggestion, any related suggestions will automatically appear. Unrelated new suggestions will remain hidden until you choose to view them.
+
+For example, in the following video, after changing Point to Point3D, an NES suggestion becomes available but is not shown immediately. The margin indicator and hint bar highlight a suggestion on line 4, which is displayed after clicking the indicator.
+
+:::image type="content" source="media/vs-2022/next-edit-suggestions/next-edit-suggestions-collapse-mode.gif" alt-text="Animated screenshot showing the NES collapse mode flow.":::
+
+To enable this feature, go to **Tools** > **Options** > **GitHub** > **Copilot** > **Copilot Completions** and select **Collapse Next Edit Suggestions**.
 
 ## Related content
 
