@@ -91,11 +91,11 @@ In Visual Studio 2022, the **Containers** window is available, which lets you vi
 ::: moniker-end
 
 :::moniker range="visualstudio"
-To create a project with container support, or add container support to an existing project, see [Add container support](add-container-support.md).
+To create a project with container support, or add container support to an existing project, see [Add support for containers](add-container-support.md).
 :::moniker-end
 
 :::moniker range="<=vs-2022"
-To create a project with Docker support, or add Docker support to an existing project, see [Add container support](add-container-support.md).
+To create a project with Docker support, or add Docker support to an existing project, see [Add support for containers](add-container-support.md).
 :::moniker-end
 
 > [!NOTE]
@@ -163,7 +163,7 @@ For Service Fabric, see [Tutorial: Deploy your ASP.NET Core app to Azure Service
 
 For further details on the services implementation and use of Visual Studio tools for working with containers, read the following articles:
 
-[Add container support](add-container-support.md)
+[Add support for containers](add-container-support.md)
 
 [Container Tools in Visual Studio](container-tools.md)
 
