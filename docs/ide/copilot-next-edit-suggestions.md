@@ -76,9 +76,9 @@ NES helps with repetitive changes, such as updating code syntax to modern C++ us
   
 -  Match code style. After you paste some code, NES suggests adjustments to match it with the style of the surrounding code.
 
-## Hide Next Edit Suggestions (Preview)
+## Hide Next Edit Suggestions
 
-If you prefer a quieter editor, you can now hide Next Edit Suggestions (NES) in Visual Studio and review them only when you choose.
+With the August release of Visual Studio 17.14, you can now hide Next Edit Suggestions (NES) in Visual Studio and review them only when you choose. To enable this feature, select **Tools** > **Options** > **GitHub** > **Copilot** > **Copilot Completions** > **Collapse Next Edit Suggestions**.
 
 NES will still be triggered by your edits, but when a suggestion is available, only the margin indicator appears in the gutter, pointing to the relevant line. The suggestion itself remains hidden until you choose to view it.
 
@@ -86,11 +86,9 @@ NES will still be triggered by your edits, but when a suggestion is available, o
 
 To view a hidden suggestion, click the margin indicator or press the `Tab` key. The suggestion will then be displayed. You can press `Tab` again to accept it or `Esc` to dismiss it. After accepting a suggestion, any related suggestions will automatically appear. Unrelated new suggestions will remain hidden until you choose to view them.
 
-For example, in the following video, after changing Point to Point3D, an NES suggestion becomes available but is not shown immediately. The margin indicator and hint bar highlight a suggestion on line 4, which is displayed after clicking the indicator.
+As in the following example, after changing *Point* to *Point3D*, an NES suggestion becomes available but is not shown immediately. The margin indicator and hint bar highlight a suggestion on line 4, which is displayed after clicking the indicator.
 
 :::image type="content" source="media/vs-2022/next-edit-suggestions/next-edit-suggestions-collapse-mode.gif" alt-text="Animated screenshot showing the NES collapse mode flow.":::
-
-To enable this feature, go to **Tools** > **Options** > **GitHub** > **Copilot** > **Copilot Completions** and select **Collapse Next Edit Suggestions**.
 
 ## Related content
 
