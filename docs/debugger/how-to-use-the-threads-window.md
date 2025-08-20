@@ -1,7 +1,7 @@
 ---
 title: Debug a deadlock using the Threads view
 description: Debug a deadlock in a multithreaded application by using the Threads view of the Parallel Stacks window in the Visual Studio integrated development environment (IDE).
-ms.date: 7/25/2025
+ms.date: 8/19/2025
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -21,9 +21,9 @@ monikerRange: '>= vs-2022'
 ---
 # Debug a deadlock using the Threads view
 
-This tutorial shows how to use the **Threads** view of **Parallel Stacks** windows to debug a C# multithreaded application. This window helps you understand and verify the run-time behavior of multithreaded code.
+This tutorial shows how to use the **Threads** view of **Parallel Stacks** windows to debug a multithreaded application. This window helps you understand and verify the run-time behavior of multithreaded code.
 
-The Threads view is also supported for C++ and Visual Basic, so the same principles described in this article for C# also apply to C++ and Visual Basic.
+The Threads view is supported for C#, C++, and Visual Basic. Sample code is provided for C# and C++, but some of the content and illustrations apply only to the C# sample code.principles.
 
 The Threads view helps you to:
 
@@ -31,7 +31,15 @@ The Threads view helps you to:
 
 - Help identify issues such as blocked or deadlocked threads.
 
-## C# sample
+## Multithreaded call stacks
+
+Identical sections of the call stack are grouped together to simplify the visualization for complex apps.
+
+The following conceptual animation shows how grouping is applied to call stacks. Only identical segments of a call stack are grouped.
+
+![Illustration of the grouping of call stacks.](../debugger/media/vs-2022/debug-multithreaded-call-stacks.gif)
+
+## Sample code overview (C#, C++)
 
 The sample code in this walkthrough is for an application that simulates a day in the life of a gorilla. The purpose of the exercise is to understand how to use the Threads view of the Parallel Stacks window to debug a multithreaded application.
 
@@ -46,14 +54,6 @@ To make the call stack intuitive, the sample app performs the following sequenti
 1. Gorilla eats.
 1. Gorilla engages in monkey business.
 
-## Multithreaded call stacks
-
-Identical sections of the call stack are grouped together to simplify the visualization for complex apps.
-
-The following conceptual animation shows how grouping is applied to call stacks. Only identical segments of a call stack are grouped.
-
-![Illustration of the grouping of call stacks.](../debugger/media/vs-2022/debug-multithreaded-call-stacks.gif)
-
 ## Create the sample project
 
 To create the project:
@@ -64,23 +64,24 @@ To create the project:
 
    On the Start window, choose **New project**.
 
-   On the **Create a new project** window, enter or type *console* in the search box. Next, choose **C#** from the Language list, and then choose **Windows** from the Platform list.
+   On the **Create a new project** window, enter or type *console* in the search box. Next, choose **C#** or **C++** from the Language list, and then choose **Windows** from the Platform list.
 
-   After you apply the language and platform filters, choose the **Console App** for .NET, and then choose **Next**.
+   After you apply the language and platform filters, choose the **Console App** for your chosen language, and then choose **Next**.
 
    > [!NOTE]
    > If you don't see the correct template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET desktop development** workload, then choose **Modify**.
 
    In the **Configure your new project** window, type a name or use the default name in the **Project name** box. Then, choose **Next**.
 
-   For .NET, choose either the recommended target framework or .NET 8, and then choose **Create**.
+   For a .NET project, choose either the recommended target framework or .NET 8, and then choose **Create**.
 
    A new console project appears. After the project has been created, a source file appears.
 
-1. Open the *.cs* code file in the project. Delete its contents to create an empty code file.
+1. Open the *.cs* (or *.cpp*) code file in the project. Delete its contents to create an empty code file.
 
 1. Paste the following code for your chosen language into the empty code file.
 
+    ### [C#](#tab/csharp)
    ```csharp
     using System.Diagnostics;
     
@@ -191,6 +192,84 @@ To create the project:
         }
     }
    ```
+
+    ### [C++](#tab/cpp)
+   ```cpp
+    #include <iostream>
+    #include <thread>
+    #include <mutex>
+    #include <vector>
+    #include <chrono>
+
+    namespace Jungle {
+
+        std::mutex tree;
+        std::mutex banana_bunch;
+
+        void FindBananas() {
+            // Lock tree first, then banana
+            std::lock_guard<std::mutex> lock1(tree);
+            std::lock_guard<std::mutex> lock2(banana_bunch);
+            std::cout << "Got bananas." << std::endl;
+        }
+
+        class Gorilla {
+            bool lockTreeFirst;
+        public:
+            Gorilla(bool lockTreeFirst_) : lockTreeFirst(lockTreeFirst_) {}
+
+            void WakeUp() {
+                MorningWalk();
+            }
+
+            void MorningWalk() {
+                __debugbreak();
+                if (lockTreeFirst) {
+                    std::unique_lock<std::mutex> lock1(tree);
+                    std::this_thread::sleep_for(std::chrono::milliseconds(100)); // Simulate barrier
+                    FindBananas();
+                    GobbleUpBananas();
+                }
+                else {
+                    std::unique_lock<std::mutex> lock2(banana_bunch);
+                    std::this_thread::sleep_for(std::chrono::milliseconds(100)); // Simulate barrier
+                    FindBananas();
+                    GobbleUpBananas();
+                }
+            }
+
+            void GobbleUpBananas() {
+                std::cout << "Trying to gobble up food..." << std::endl;
+                DoSomeMonkeyBusiness();
+            }
+
+            void DoSomeMonkeyBusiness() {
+                std::this_thread::sleep_for(std::chrono::seconds(1));
+                std::cout << "Monkey business done" << std::endl;
+            }
+        };
+
+        void Gorilla_Start(bool lockTreeFirst) {
+            __debugbreak();
+            Gorilla koko(lockTreeFirst);
+            koko.WakeUp();
+        }
+
+    } // namespace Multithreaded_Deadlock
+
+    int main() {
+        using namespace Jungle;
+        std::vector<std::thread> threads;
+        threads.emplace_back(Gorilla_Start, true);  // First gorilla locks tree then banana
+        threads.emplace_back(Gorilla_Start, false); // Second gorilla locks banana then tree
+
+        for (auto& t : threads) {
+            t.join();
+        }
+        return 0;
+    }
+   ```
+
    
    After you update the code file, save your changes and build the solution.
 
@@ -203,6 +282,9 @@ To create the project:
 To start debugging:
 
 1. On the **Debug** menu, select **Start Debugging** (or **F5**) and wait for the first `Debugger.Break()` to be hit.
+
+   > [!NOTE]
+   > In C++, the debugger pauses in `__debug_break()`. The rest of the code references and illustrations in this article are for the C# version, but the same debugging principles apply to C++.
 
 1. Press **F5** once, and the debugger pauses again on the same `Debugger.Break()` line.
 
@@ -251,6 +333,9 @@ To start debugging:
 
    The delay is caused by a deadlock. Nothing appears in the Threads view because even though threads may be blocked you aren't currently paused in the debugger.
 
+   > [!NOTE]
+   > In C++, you also see a debug error indicating that `abort()` has been called.
+
    > [!TIP]
    > The **Break All** button is a good way to get call stack information if a deadlock occurs or all threads are currently blocked.
 
@@ -259,6 +344,9 @@ To start debugging:
    :::image type="content" source="../debugger/media/vs-2022/debug-multithreaded-parallel-stacks-break-all.png" border="false" alt-text="Screenshot of Threads view after selecting Break All." lightbox="../debugger/media/vs-2022/debug-multithreaded-parallel-stacks-break-all.png":::
  
    The top of the call stack in the Threads view shows that `FindBananas` is deadlocked. The execution pointer in `FindBananas` is a curled green arrow, indicating the current debugger context but also it tells us that the threads are not currently running.
+
+   > [!NOTE]
+   > In C++, you don't see the helpful "deadlock detected" information and icons. However, you still find the curled green arrow in `Jungle.FindBananas`, hinting at the location of the deadlock.
 
    In the code editor, we find the curled green arrow in the `lock` function. The two threads are blocked on the `lock` function in the `FindBananas` method.
 
