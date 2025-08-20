@@ -63,7 +63,7 @@ The following table shows the properties that can be set in this section:
 
 ::: moniker-end
 
-::: moniker range=">=vs-2022"
+::: moniker range="vs-2022"
 
 | Property in Debug Profile UI | Setting name in launchSettings.json |Example|Description|
 | - | - | - | - |

@@ -84,16 +84,16 @@ Some properties listed as obsolete are replaced by equivalent values in *launchs
 | `ContainerFastModeStage`<br/><br/>(replaces `DockerfileFastModeStage`) | The Dockerfile stage (that is, target) to be used when building the image in debug mode. | First stage found in the Dockerfile (usually base) | |
 | `ContainerIncludeDefaultImageLabels` (replaces: `DockerIncludeDefaultImageLabels`) | | | |
 | `ContainerLabelBuiltImages` (replaces `DockerLabelBuiltImages`)| | | |
-| `ContainerPath`<br/><br/>(obsolete: `DockerfileFile`) | Describes the default Dockerfile to use to build/run the container for the project. | Dockerfile |1.0.1872750 or newer|
+| `ContainerPath`<br/><br/>(replaces `DockerfileFile`) | Describes the default Dockerfile to use to build/run the container for the project. | Dockerfile |1.0.1872750 or newer|
 | `ContainerRepository`<br/><br/>(replaces `DockerRepository`) | | | |
 | `ContainerImageTag` or `ContainerImageTags`<br/><br/>(replaces `DockerfileTag`) | The tag to use when building the Docker image. In debugging, a ":dev" is appended to the tag. | Assembly name after stripping nonalphanumeric characters with the following rules: <br/> If the resultant tag is all numeric, then "image" is inserted as a prefix (for example, image2314) <br/> If the resultant tag is an empty string, then "image" is used as the tag. |1.0.1872750 or newer|
-| `DockerDebuggeeArguments`<br/><br/>(obsolete; use `commandLineArgs` in *launchsettings.json*) | When debugging, the debugger is instructed to pass these arguments to the launched executable. | - |1.7.8 or newer|
-| `DockerDebuggeeProgram`<br/><br/>(obsolete; use `executablePath` in *launchsettings.json*) | When debugging, the debugger is instructed to launch this executable. | - |1.7.8 or newer|
+| `DockerDebuggeeArguments`<br/><br/>(obsolete, use `commandLineArgs` in *launchsettings.json*) | When debugging, the debugger is instructed to pass these arguments to the launched executable. | - |1.7.8 or newer|
+| `DockerDebuggeeProgram`<br/><br/>(obsolete, use `executablePath` in *launchsettings.json*) | When debugging, the debugger is instructed to launch this executable. | - |1.7.8 or newer|
 | `DockerDebuggeeKillProgram` | This command is used to kill the running process in a container. | - |1.7.8 or newer|
 | `DockerDebuggeeWorkingDirectory`<br/><br/>(obsolete; use `workingDirectory` in *launchsettings.json*) | When debugging, the debugger is instructed to use this path as the working directory. | C:\app (Windows) or /app (Linux) |1.7.8 or newer|
 | DockerDefaultTargetOS | The default target operating system used when building the Docker image. | Set by Visual Studio. |1.0.1985401 or newer|
-| `DockerfileRunArguments`<br/><br/>(obsolete, use `ContainerRunArguments` in *launchsettings.json*) | Additional arguments passed to the [Docker run](https://docs.docker.com/engine/reference/commandline/run/) command. | Not applicable. |1.0.1872750 or newer|
-| `DockerfileRunEnvironmentFiles`<br/><br/>(obsolete, use `ContainerRunEnvironmentFiles` in *launchsettings.json*) | Semicolon-delimited list of environment files applied during Docker run. | Not applicable. |1.0.1872750 or newer|
+| `DockerfileRunArguments`<br/><br/>(obsolete, use `containerRunArguments` in *launchsettings.json*) | Additional arguments passed to the [Docker run](https://docs.docker.com/engine/reference/commandline/run/) command. | Not applicable. |1.0.1872750 or newer|
+| `DockerfileRunEnvironmentFiles`<br/><br/>(obsolete, use `containerRunEnvironmentFiles` in *launchsettings.json*) | Semicolon-delimited list of environment files applied during Docker run. | Not applicable. |1.0.1872750 or newer|
 
 :::moniker-end
 
