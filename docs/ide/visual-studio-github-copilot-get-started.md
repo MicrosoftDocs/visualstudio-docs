@@ -1,7 +1,7 @@
 ---
 title: Get Started with Copilot in Visual Studio 
 description: Learn how to get started successfully with using Copilot in Visual Studio.
-ms.date: 8/252025
+ms.date: 8/25/2025
 ms.update-cycle: 180-days
 ms.topic: install-set-up-deploy
 author: rachelkang
@@ -22,13 +22,16 @@ Copilot is here to help you code faster and with greater accuracy by suggesting 
 By the end of this guide, you will be well equipped to explore the best of your personal Copilot in Visual Studio.
 
 ## Step 1: Launch Copilot
-1. Open **Visual Studio** (version 17.8 or late).
+1. Open **Visual Studio** (version 17.8 or later).
 > Note: Update to the latest version of Visual Studio to get the most out of Copilot.
 1. Create a new project, open an existing project, or continue without code.
-1. Click on the **GitHub Copilot** badge in the upper right corner of Visual Studio.
-(image)
-1. Click **Open Chat Window to Sign In**
-> Note: If you do not have Copilot installed, click "Install Copilot" and make sure you have Copilot installed. For more guidance, see [Manage your GitHub Copilot installation in Visual Studio](visual-studio-github-copilot-install-and-states.md).
+1. Click on the **GitHub Copilot** badge in the upper right corner of Visual Studio. Then, click **Open Chat Window to Sign In**
+
+   :::image type="content" source="media/vs-2022/visual-studio-github-copilot-install-and-states/copilot-state-inactive-sign-in.png" alt-text="GitHub Copilot badge in Visual Studio":::
+
+    > [!NOTE]
+    > If you do not have Copilot installed, click "Install Copilot" and make sure you have Copilot installed. For more guidance, see [Manage your GitHub Copilot installation in Visual Studio](visual-studio-github-copilot-install-and-states.md).
+
 1. From the Chat window, click one of the buttons to sign in with an existing account or [**Sign up for Copilot Free**](copilot-free-plan.md). Complete the sign up or sign in process in your browser through GitHub. Return to Visual Studio once you are signed in.
 1. Copilot is now ready to use in Visual Studio!
 
@@ -44,11 +47,11 @@ Once you're signed in, you'll be able to interact with Copilot in the Chat windo
 ## Step 3: Tailor your Copilot Chat to you
 Make Copilot work best for you, your project, and whatever you need most in your development workflow.
 
-- **Share references for [context](copilot-chat-context-references)**: Click the **+** button to attach any additional desired context, from uploading images to asking Copilot to look at your entire solution.
+- **Share references for [context](copilot-chat-context-references.md)**: Click the **+** button to attach any additional desired context, from uploading images to asking Copilot to look at your entire solution.
 
-- **Access different [models](copilot-usage-and-models#understand-model-selection)**: Use the model picker in the prompt window to explore the latest AI models, and experiment with different models for different scenarios - whether it's answering quick questions, writing documentation, or generating multi-file code edits.
+- **Access different [models](copilot-usage-and-models.md#understand-model-selection)**: Use the model picker in the prompt window to explore the latest AI models, and experiment with different models for different scenarios - whether it's answering quick questions, writing documentation, or generating multi-file code edits.
 
-- **Add custom instructions**: Add reusable [custom instructions](copilot-chat-context#enable-custom-instructions) in `.github/copilot-instructions.md` and [prompt files]((copilot-chat-context#use-prompt-files)) to `.github/prompts` to tailor how Copilot responds to you, from honoring your unique coding style to considering special edge cases for your project.
+- **Add custom instructions**: Add reusable [custom instructions](copilot-chat-context.md#enable-custom-instructions) in `.github/copilot-instructions.md` and [prompt files](copilot-chat-context.md#use-prompt-files)) to `.github/prompts` to tailor how Copilot responds to you, from honoring your unique coding style to considering special edge cases for your project.
 
 ## Next steps
 
