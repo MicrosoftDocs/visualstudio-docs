@@ -1,7 +1,7 @@
 ---
 title: "Debug an async application"
 description: Debug an async application by using the Parallel Stacks windows in the Visual Studio integrated development environment (IDE).
-ms.date: "07/14/2025"
+ms.date: "08/19/2025"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"
@@ -21,7 +21,7 @@ monikerRange: '>= vs-2022'
 
 This tutorial shows how to use the Tasks view of **Parallel Stacks** window to debug a C# async application. This window helps you understand and verify the run-time behavior of code that uses the async/await pattern, also called the [Task-based asynchronous pattern (TAP)](/dotnet/standard/asynchronous-programming-patterns/task-based-asynchronous-pattern-tap).
 
-For apps using the [Task Parallel Library (TPL)](/dotnet/standard/parallel-programming/task-parallel-library-tpl) but not the async/await pattern, or for C++ apps using the [Concurrency Runtime](/cpp/parallel/concrt/concurrency-runtime), the **Threads** view in the **Parallel Stacks** window is the most useful tool for debugging. For more information, see [View threads and tasks in the Parallel Stacks window](../debugger/using-the-parallel-stacks-window.md).
+For apps using the [Task Parallel Library (TPL)](/dotnet/standard/parallel-programming/task-parallel-library-tpl) but not the async/await pattern, or for C++ apps using the [Concurrency Runtime](/cpp/parallel/concrt/concurrency-runtime), use the **Threads** view in the **Parallel Stacks** window for debugging. For more information, see [Debug a deadlock](../debugger/how-to-use-the-threads-window.md) and [View threads and tasks in the Parallel Stacks window](../debugger/using-the-parallel-stacks-window.md).
 
 The Tasks view helps you to:
 
@@ -30,21 +30,6 @@ The Tasks view helps you to:
 - Identify async code that is scheduled to run but isn't yet running. For example, an HTTP request that has not returned any data is more likely to show up in the Tasks view instead of the Threads view, which helps you to isolate the problem.
 
 - Help identify issues such as the sync-over-async pattern along with hints related to potential issues such as blocked or waiting tasks. The [sync-over-async code pattern](https://devblogs.microsoft.com/pfxteam/should-i-expose-synchronous-wrappers-for-asynchronous-methods/) refers to code that is calling asynchronous methods in a synchronous fashion, which is known to block threads and is the most common cause of thread pool starvation.
-
-## C# sample
-
-The sample code in this walkthrough is for an application that simulates a day in the life of a gorilla. The purpose of the exercise is to understand how to use the Tasks view of the Parallel Stacks window to debug an async application.
-
-The sample includes an example of using the sync-over-async antipattern, which can result in thread pool starvation.
-
-To make the call stack intuitive, the sample app performs the following sequential steps:
-
-1. Creates an object representing a gorilla.
-1. Gorilla wakes up.
-1. Gorilla goes on a morning walk.
-1. Gorilla finds bananas in the jungle.
-1. Gorilla eats.
-1. Gorilla engages in monkey business.
 
 ## Async call stacks
 
@@ -65,6 +50,21 @@ Here are a few important points to remember when interpreting data in the Tasks 
   The following conceptual animation shows how grouping is applied to virtual call stacks. Only identical segments of a virtual call stack are grouped.
 
   ![Illustration of the grouping of virtual call stacks.](../debugger/media/vs-2022/debug-asynchronous-virtual-call-stacks-top-bottom.gif)
+
+## C# sample
+
+The sample code in this walkthrough is for an application that simulates a day in the life of a gorilla. The purpose of the exercise is to understand how to use the Tasks view of the Parallel Stacks window to debug an async application.
+
+The sample includes an example of using the sync-over-async antipattern, which can result in thread pool starvation.
+
+To make the call stack intuitive, the sample app performs the following sequential steps:
+
+1. Creates an object representing a gorilla.
+1. Gorilla wakes up.
+1. Gorilla goes on a morning walk.
+1. Gorilla finds bananas in the jungle.
+1. Gorilla eats.
+1. Gorilla engages in monkey business.
 
 ## Create the sample project
 
