@@ -49,7 +49,7 @@ Make Copilot work best for you, your project, and whatever you need most in your
 
 - **Share references for [context](copilot-chat-context-references.md)**: Click the **+** button to attach any additional desired context, from uploading images to asking Copilot to look at your entire solution.
 
-- **Access different [models](copilot-usage-and-models.md#understand-model-selection)**: Use the model picker in the prompt window to explore the latest AI models, and experiment with different models for different scenarios - whether it's answering quick questions, writing documentation, or generating multi-file code edits.
+- **Access different [models](copilot-usage-and-models.md#understand-model-selection)**: Use the model picker in the prompt window to explore the latest AI models, or [bring your own model](https://devblogs.microsoft.com/visualstudio/bring-your-own-model-visual-studio-chat/) to Copilot! Experiment with different models for different scenarios - whether it's answering quick questions, writing documentation, or generating multi-file code edits.
 
 - **Add custom instructions**: Add reusable [custom instructions](copilot-chat-context.md#enable-custom-instructions) in `.github/copilot-instructions.md` and [prompt files](copilot-chat-context.md#use-prompt-files)) to `.github/prompts` to tailor how Copilot responds to you, from honoring your unique coding style to considering special edge cases for your project.
 
