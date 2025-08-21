@@ -35,7 +35,7 @@ The Threads view helps you to:
 
 Identical sections of the call stack are grouped together to simplify the visualization for complex apps.
 
-The following conceptual animation shows how grouping is applied to call stacks. Only identical segments of a call stack are grouped.
+The following conceptual animation shows how grouping is applied to call stacks. Only identical segments of a call stack are grouped. Hover over a grouped call stack to idenitfy the threads.
 
 ![Illustration of the grouping of call stacks.](../debugger/media/vs-2022/debug-multithreaded-call-stacks.gif)
 
