@@ -62,7 +62,7 @@ The table below lists the intrinsic functions available for items.
 |`HasMetadata`|`@(MyItems->HasMetadata('MetadataName'))`|Returns items that have the given metadata name. The comparison is case insensitive.|
 |`Metadata`|`@(MyItems->Metadata('MetadataName'))`|Returns the values of the metadata that have the metadata name. The items returned have the same metadata as the source values.|
 |`WithMetadataValue`|`@(MyItems->WithMetadataValue('MetadataName', 'MetadataValue'))`|Returns items that have the given metadata name and value. The comparison is case insensitive.|
-|`WithoutMetadataValue`|`@(MyItems->WithoutMetadataValue('MetadataName', 'MetadataValue'))`| (VS 17.8+) Returns items that don't have the given metadata value. The comparison is case insensitive.|
+|`WithoutMetadataValue`|`@(MyItems->WithoutMetadataValue('MetadataName', 'MetadataValue'))`| (MSBuild 17.8 and later) Returns items that don't have the given metadata value. The comparison is case insensitive.|
 
 > [!NOTE]
 > `Exists` can also be used in other contexts; in [MSBuild conditions](msbuild-conditions.md), for example `Condition="Exists('path')"`; or in [Static property functions](property-functions.md), for example `$([System.IO.File]::Exists("path"))`.
