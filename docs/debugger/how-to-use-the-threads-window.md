@@ -23,7 +23,7 @@ monikerRange: '>= vs-2022'
 
 This tutorial shows how to use the **Threads** view of **Parallel Stacks** windows to debug a multithreaded application. This window helps you understand and verify the run-time behavior of multithreaded code.
 
-The Threads view is supported for C#, C++, and Visual Basic. Sample code is provided for C# and C++, but some of the content and illustrations apply only to the C# sample code.principles.
+The Threads view is supported for C#, C++, and Visual Basic. Sample code is provided for C# and C++, but some of the code references and illustrations apply only to the C# sample code.
 
 The Threads view helps you to:
 
@@ -35,7 +35,7 @@ The Threads view helps you to:
 
 Identical sections of the call stack are grouped together to simplify the visualization for complex apps.
 
-The following conceptual animation shows how grouping is applied to call stacks. Only identical segments of a call stack are grouped.
+The following conceptual animation shows how grouping is applied to call stacks. Only identical segments of a call stack are grouped. Hover over a grouped call stack to idenitfy the threads.
 
 ![Illustration of the grouping of call stacks.](../debugger/media/vs-2022/debug-multithreaded-call-stacks.gif)
 
