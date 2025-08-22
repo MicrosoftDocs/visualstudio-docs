@@ -101,6 +101,16 @@ To create a project with Docker support, or add Docker support to an existing pr
 > [!NOTE]
 > Docker's licensing requirements might be different for different versions of Docker Desktop. Refer to the [Docker documentation](https://docs.docker.com/subscription/) to understand the current licensing requirements for using your version of Docker Desktop for development in your situation.
 
+:::moniker range="visualstudio"
+
+## Podman support in Visual Studio
+
+Visual Studio supports Podman containers, a popular container management tool that provides a daemonless container engine. You can run and manage containers using the Podman CLI directly from Visual Studio. You can use Podman to run your single-container apps in the same way as Docker.
+
+To use Podman containers, start podman from the CLI, and open your solution in Visual Studio. By default, Container Tools will automatically detect whether Podman or Docker is running, and use the currently active hosting environment when you start the app. To configure the container runtime manually, go to **Tools > Options > Container Tools > Container Runtime** and select **Podman**, **Docker**, or **Auto** to detect the currently active hosting environment. If this setting doesn't immediately take effect, restart Visual Studio.
+
+:::moniker-end
+
 ## Containers window
 
 The **Containers** window lets you view containers and images on your machine and see what's going on with them. You can view the filesystem, volumes mounted, environment variables, ports used, and examine log files.
