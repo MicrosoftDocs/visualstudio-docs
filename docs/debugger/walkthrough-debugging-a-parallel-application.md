@@ -47,7 +47,7 @@ Here are a few important points to remember when interpreting data in the Tasks 
 
 - Identical sections of the virtual call stack are grouped together to simplify the visualization for complex apps.
 
-  The following conceptual animation shows how grouping is applied to virtual call stacks. Only identical segments of a virtual call stack are grouped.
+  The following conceptual animation shows how grouping is applied to virtual call stacks. Only identical segments of a virtual call stack are grouped. Hover over a grouped call stack to idenitfy the threads that are running the tasks.
 
   ![Illustration of the grouping of virtual call stacks.](../debugger/media/vs-2022/debug-asynchronous-virtual-call-stacks-top-bottom.gif)
 
