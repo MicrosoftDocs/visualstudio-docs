@@ -44,7 +44,7 @@ The following example shows how to collect performance data with the Copilot Pro
 
    On the start window, choose **Create a new project**. Type **console** in the search box, select **C#** as the language, and then choose **Console App** for .NET. Choose **Next**. Type a project name like **ConsoleApp_CopilotProfile** and select **Next**. Choose a target framework (for example, .NET 8) and choose **Create**.
 
-1. In Solution Explorer, right-click the **Dependencies** node in the project, choose **Manage NuGet packages**, and add the following packages to the project:
+1. In Solution Explorer, right-click the **Dependencies** node in the project, choose **Manage NuGet packages**, search for **EntityFramework**, and then add the following packages to the project:
 
    - Microsoft.EntityFramework.Core
    - Microsoft.EntityFramework.Core.InMemory
@@ -134,11 +134,11 @@ The following example shows how to collect performance data with the Copilot Pro
 
    The `@Profiler` command calls the Copilot Profiling Agent. 
 
-   ![Screenshot of start profiling request.](../debugger/media/vs/profiling-agent-start-chat.png)
+   ![Screenshot of invoking the profiling agent.](../profiling/media/vs/profiling-agent-start-chat.png)
 
    Copilot asks if you want to run the profiler.
 
-   ![Screenshot of start profiling request.](../debugger/media/vs/profiling-agent-start-profiling-request.png)
+   ![Screenshot of start profiling request.](../profiling/media/vs/profiling-agent-start-profiling-request.png)
 
 1. Choose **Confirm**.
 
@@ -146,13 +146,13 @@ The following example shows how to collect performance data with the Copilot Pro
 
    Benchmark results show up in the Output window, with the output set to **Diagnostics Hub**.
 
-   ![Screenshot of start profiling request.](../debugger/media/vs/profiling-agent-benchmark-output.png)
+   ![Screenshot of benchmark output.](../profiling/media/vs/profiling-agent-benchmark-output.png)
 
    When finished testing, the agent summarizes its finding and provides a couple of suggestions for next steps.
 
    The agent reports a potential 33% gain in efficiency, mainly by removing full-table materialization and an unnecessary ToList() method call.
 
-   ![Screenshot of start profiling request.](../debugger/media/vs/profiling-agent-results.png)
+   ![Screenshot of test results.](../profiling/media/vs/profiling-agent-results.png)
 
    In this example, you are more interested in optimizing the LINQ query.
 
@@ -162,7 +162,7 @@ The following example shows how to collect performance data with the Copilot Pro
 
 1. Take a look at code changes in **Program.cs**.
 
-   ![Screenshot of start profiling request.](../debugger/media/vs/profiling-agent-suggested-fixes.png) 
+   ![Screenshot of code optimizations.](../profiling/media/vs/profiling-agent-suggested-fixes.png) 
 
 1. In the lower right of the code editor, examine the code changes and select **Keep** to keep them.
 
@@ -178,3 +178,6 @@ The following example shows how to collect performance data with the Copilot Pro
         .Take(10)
         .ToList();
    ```
+
+1. If you want to agent to make additional optimizations, select the suggestions provided by Copilot.
+
