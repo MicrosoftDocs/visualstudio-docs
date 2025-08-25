@@ -20,6 +20,7 @@ For Docker Compose, choose **Manage Docker Compose Launch Settings**, and see [L
 
 In *launchSettings.json*, the settings in the **Docker** section are related to how Visual Studio handles containerized apps.
 
+:::moniker range="<=vs-2022"
 ```json
     "Docker": {
       "commandName": "Docker",
@@ -35,6 +36,25 @@ In *launchSettings.json*, the settings in the **Docker** section are related to 
       "sslPort": 44360
     }
 ```
+:::moniker-end
+
+:::moniker range="visualstudio"
+```json
+    "Docker": {
+      "commandName": "Docker",
+      "launchBrowser": true,
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "containerRunArguments": "-l mylabel=value",
+      "environmentVariables": {
+        "ASPNETCORE_URLS": "https://+:443;http://+:80",
+        "ASPNETCORE_HTTPS_PORT": "44360"
+      },
+      "httpPort": 51803,
+      "useSSL": true,
+      "sslPort": 44360
+    }
+```
+:::moniker-end
 
 The commandName setting identifies that this section applies to Container Tools.
 

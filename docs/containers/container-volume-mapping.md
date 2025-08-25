@@ -74,6 +74,7 @@ For ASP.NET core web apps, there might be two additional folders for the SSL cer
 
 ## Mount a container volume
 
+:::moniker range="<=vs-2022"
 You can mount another volume using `docker run` command-line arguments.
 
 1. Open the project file for the containerized project.
@@ -86,6 +87,22 @@ You can mount another volume using `docker run` command-line arguments.
    ```
 
    Refer to the Docker documentation for the command-line syntax for the [-v or --mount](https://docs.docker.com/engine/storage/volumes/#choose-the--v-or---mount-flag) options.
+:::moniker-end
+
+:::moniker range="visualstudio"
+
+You can mount another volume by specifying command-line arguments for the container runtime, *docker.exe* or *podman.exe*.
+
+1. Open *launchSettings.json* for the containerized project.
+1. To specify a new command-line argument, add the JSON  `containerRunArguments`, and provide the `-v` or `--mount` syntax. For example, the following syntax creates a volume `myvolume` and mounts it in the container in the folder `/scratch`.
+
+   ```json
+   "containerRunArguments": "-v myvolume:/scratch"
+   ```
+
+   Refer to the container hosting environment provider's documentation for the command-line syntax for the [Docker -v or --mount](https://docs.docker.com/engine/storage/volumes/#choose-the--v-or---mount-flag) options, or [Podman -v option](https://docs.podman.io/en/v4.6.1/markdown/options/volume.html) and [Podman --mount option](https://docs.podman.io/en/v4.6.1/markdown/options/mount.html).
+
+:::moniker-end
 
 ## Related content
 
