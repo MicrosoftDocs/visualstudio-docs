@@ -68,13 +68,13 @@ To use Podman as the container platform, download [Podman Desktop](https://podma
    > [!WARNING]
    > If you switch the container type after you create the Visual Studio project, the Docker image files might fail to load.
 
-1. Create a new project using the **ASP.NET Core Web App** template or if you want to use the .NET Framework instead of .NET Core, choose **ASP.NET Web Application (.NET Framework)**.
+1. Create a new project using the **ASP.NET Core Web App** template.
 
 1. On the **Create new web application** screen, make sure the **Enable container Support** checkbox is selected.
 
    ![Screenshot of Enable Docker Support checkbox.](media/container-tools/vs-2022/web-app-additional-information-docker-linux.png)
 
-   The screenshot shows the latest release with .NET 8.0. If you're using .NET Framework, the dialog looks a bit different.
+   The screenshot shows the latest release with .NET 8.0.
 
 1. Select the type of container you want (Windows or Linux) and select **Create**.
 

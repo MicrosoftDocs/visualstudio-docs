@@ -41,11 +41,20 @@ When you start debugging (**F5**), a previously started container is reused, if 
 
 The process of running the debugger depends on the type of project and container operating system:
 
+:::moniker range="visualstudio"
+|Scenario|Debugger process|
+|-|-|
+| **.NET Core apps (Linux containers)**| Visual Studio downloads `vsdbg` and maps it to the container, then it gets called with your program and arguments (that is, `dotnet webapp.dll`), and then debugger attaches to the process. |
+| **.NET Core apps (Windows containers)**| Visual Studio uses `onecoremsvsmon` and maps it to the container, runs it as the entry point and then Visual Studio connects to it and attaches to the program.|
+:::moniker-end
+
+:::moniker range="<=vs-2022"
 |Scenario|Debugger process|
 |-|-|
 | **.NET Core apps (Linux containers)**| Visual Studio downloads `vsdbg` and maps it to the container, then it gets called with your program and arguments (that is, `dotnet webapp.dll`), and then debugger attaches to the process. |
 | **.NET Core apps (Windows containers)**| Visual Studio uses `onecoremsvsmon` and maps it to the container, runs it as the entry point and then Visual Studio connects to it and attaches to the program.|
 | **.NET Framework apps** | Visual Studio uses `msvsmon` and maps it to the container, runs it as part of the entry point where Visual Studio can connect to it, and attaches to the program. This is similar to how you would normally set up remote debugging on another computer or virtual machine.|
+:::moniker-end
 
 For information on `vsdbg.exe`, see [Offroad debugging of .NET Core on Linux and OS X from Visual Studio](https://github.com/Microsoft/MIEngine/wiki/Offroad-Debugging-of-.NET-Core-on-Linux---OSX-from-Visual-Studio).
 

@@ -18,11 +18,14 @@ If you're using the .NET SDK build type, you don't have a Dockerfile, so you can
 
 ## Use Docker build
 
-To build a containerized solution from the command line, you can usually use the command `docker build <context>` for each project in the solution. You provide the *build context* argument. The *build context* for a Dockerfile is the folder on the local machine that's used as the working folder to generate the image. For example, it's the folder that you copy files from when you copy to the container. In .NET Core projects, the default is to use the folder that contains the solution file (.sln). Expressed as a relative path, this argument is typically ".." for a Dockerfile in a project folder, and the solution file in its parent folder. For .NET Framework projects, the default build context is the project folder, not the solution folder.
+To build a containerized solution from the command line, you can usually use the command `docker build <context>` for each project in the solution. You provide the *build context* argument. The *build context* for a Dockerfile is the folder on the local machine that's used as the working folder to generate the image. For example, it's the folder that you copy files from when you copy to the container. In .NET Core projects, the default is to use the folder that contains the solution file (.sln or .slnx). Expressed as a relative path, this argument is typically ".." for a Dockerfile in a project folder, and the solution file in its parent folder.
 
 ```cmd
 docker build -f Dockerfile ..
 ```
+
+:::moniker range="<=vs-2022"
+For .NET Framework projects, the default build context is the project folder, not the solution folder.
 
 You can set the build context in the project file by setting the `DockerfileContext` property. For example,
 
@@ -31,6 +34,20 @@ You can set the build context in the project file by setting the `DockerfileCont
    <DockerfileContext>contextfolder</DockerfileContext>
 </PropertyGroup>
 ```
+
+:::moniker-end
+
+:::moniker range="visualstudio"
+
+You can set the build context in the project file by setting the `ContainerContext` property. For example,
+
+```xml
+<PropertyGroup>
+   <ContainerContext>contextfolder</ContainerContext>
+</PropertyGroup>
+```
+
+:::moniker-end
 
 Relative paths in the Dockerfile are relative to the build context, so if you change the context, be sure to update the relative paths accordingly.
 
@@ -45,7 +62,11 @@ With Visual Studio 17.11 and later, when you add Docker support to a project, yo
 > This section describes how you can customize your Docker containers when you choose the Dockerfile container build type. If you are using the .NET SDK build type, the customization options are different, and the information in this article isn't applicable. Instead, see [Containerize a .NET app with dotnet publish](/dotnet/core/docker/publish-as-container?pivots=dotnet-8-0).
 ::: moniker-end
 
+:::moniker range="vs-2022"
+
 Dockerfiles created by Visual Studio for .NET Framework projects (and for .NET Core projects created with versions of Visual Studio prior to Visual Studio 2017 Update 4) aren't multistage Dockerfiles. The steps in these Dockerfiles don't compile your code. Instead, when Visual Studio builds a .NET Framework Dockerfile, it first compiles your project using MSBuild. When that succeeds, Visual Studio then builds the Dockerfile, which simply copies the build output from MSBuild into the resulting Docker image. Because the steps to compile your code aren't included in the Dockerfile, you can't build .NET Framework Dockerfiles using `docker build` from the command line. You should use MSBuild to build these projects.
+
+:::moniker-end
 
 To build an image for single Docker container project, you can use MSBuild with the `/t:ContainerBuild` command option. This command tells MSBuild to build the target `ContainerBuild` rather than the default target `Build`. For example:
 

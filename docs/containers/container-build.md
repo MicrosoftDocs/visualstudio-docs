@@ -27,7 +27,11 @@ This article explains the Visual Studio build process for containerized apps in 
 
 When Visual Studio builds a project that doesn't use Docker containers, it invokes MSBuild on the local machine and generates the output files in a folder (typically `bin`) under your local solution folder. For a containerized project, however, the build process takes account of the Dockerfile's instructions for building the containerized app. The Dockerfile that Visual Studio uses is divided into multiple stages. This process relies on Docker's *multistage build* feature.
 
-The multistage build feature helps make the process of building containers more efficient, and makes containers smaller by allowing them to contain only the bits that your app needs at run time. Multistage build is used for .NET Core projects, not .NET Framework projects.
+The multistage build feature helps make the process of building containers more efficient, and makes containers smaller by allowing them to contain only the bits that your app needs at run time.
+
+:::moniker range="<=vs-2022"
+Multistage build is used for .NET Core projects, not .NET Framework projects.
+:::moniker-end
 
 The multistage build allows container images to be created in stages that produce intermediate images. As an example, consider a typical Dockerfile. The first stage is called `base` in the Dockerfile that Visual Studio generates, although the tools don't require that name.
 
