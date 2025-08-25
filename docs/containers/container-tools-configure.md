@@ -50,6 +50,21 @@ The following table describes the **General** settings:
 
 :::moniker-end
 
+
+:::moniker range="visualstudio"
+
+The following table describes the **General** settings:
+
+|Setting|Default value|Description|
+|-----|---------------|-----------|
+|Prompt to install container runtime when one is not installed|Enabled|Choose whether you want to be prompted if Docker Desktop or Podman isn't installed.|
+|Prompt to trust ASP.NET Core SSL certificate|Choose whether to prompt if the `localhost` SSL certificate isn't trusted in an ASP.NET Core project.|
+|Start the container runtime if needed|Prompt me|If Docker Desktop or Podman isn't started, choose whether to start it automatically or whether to prompt you.|
+|Container runtime|Auto|Choose the container runtime; Docker and Podman are supported. Choose`Auto` if you want Visual Studio to detect which runtime you're using. |
+
+
+:::moniker-end
+
 > [!IMPORTANT]
 > If you set **Trust ASP.NET Core SSL certificate** to **Never** and the `localhost` SSL certificate isn't trusted, HTTPS web requests might fail at run time. In that case, set **Trust ASP.NET Core SSL certificate** to **Prompt me**, run your project, and indicate trust at the prompt.
 
