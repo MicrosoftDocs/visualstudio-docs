@@ -37,7 +37,7 @@ The multistage build allows container images to be created in stages that produc
 
 ```Dockerfile
 # This stage is used when running from VS in fast mode (Default for Debug configuration)
-FROM mcr.microsoft.com/dotnet/aspnet:3.1-buster-slim AS base
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
 WORKDIR /app
 EXPOSE 80
 EXPOSE 443
@@ -49,7 +49,7 @@ The next stage is `build`, which appears as follows:
 
 ```Dockerfile
 # This stage is used to build the service project
-FROM mcr.microsoft.com/dotnet/sdk:3.1-buster-slim AS build
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 COPY ["WebApplication43/WebApplication43.csproj", "WebApplication43/"]
 RUN dotnet restore "WebApplication43/WebApplication43.csproj"

@@ -77,7 +77,7 @@ To quickly iterate changes in your Razor pages, you can start your application i
     #endif
     ```
 
-    For more information, see [Razor file compilation in ASP.NET Core](/aspnet/core/mvc/views/view-compilation?view=aspnetcore-3.1&preserve-view=true). The exact code might vary, depending on the target framework and the project template you used.
+    For more information, see [Razor file compilation in ASP.NET Core](/aspnet/core/mvc/views/view-compilation). The exact code might vary, depending on the target framework and the project template you used.
 
 1. Set **Solution Configuration** to **Debug**. Then, press **Ctrl**+**F5** to build your Docker image and run it locally.
 
