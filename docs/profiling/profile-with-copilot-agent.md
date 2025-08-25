@@ -124,7 +124,7 @@ The following example shows how to collect performance data with the Copilot Pro
     }
     ```
 
-1. 
+1. Select **Build > Build Solution** to make sure the app builds without errors.
 
 ### Ask Copilot for profiling insights
 
@@ -138,7 +138,7 @@ The following example shows how to collect performance data with the Copilot Pro
 
    Copilot asks if you want to run the profiler.
 
-   ![Screenshot of start profiling request.](../profiling/media/dev18/profiling-agent-start-profiling-request.png)
+   ![Screenshot of start profiling request.](../profiling/media/dev18/profiling-agent-start-profiler-request.png)
 
 1. Choose **Confirm**.
 
