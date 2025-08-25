@@ -49,7 +49,7 @@ The following example shows how to collect performance data with the Copilot Pro
    - Microsoft.EntityFramework.Core
    - Microsoft.EntityFramework.Core.InMemory
 
-1. Replace the code in *Program.cs* with the following CPU- and allocation-heavy example:
+1. Replace the code in *Program.cs* with the following code:
 
     ```csharp
     using System.Diagnostics;
@@ -142,13 +142,15 @@ The following example shows how to collect performance data with the Copilot Pro
 
 1. Choose **Confirm**.
 
-   The agent runs through a series of steps independently. It examines the code, adds support to the project for BenchmarkDotNet, adds benchmarks to a new file, and runs comparison tests.
+   The agent runs through a series of steps independently. It examines the code, adds support to the project for BenchmarkDotNet, including project references and packages, adds benchmarks to a new file, and runs comparison tests.
 
    Benchmark results show up in the Output window, with the output set to **Diagnostics Hub**.
 
    ![Screenshot of start profiling request.](../debugger/media/vs/profiling-agent-benchmark-output.png)
 
    When finished testing, the agent summarizes its finding and provides a couple of suggestions for next steps.
+
+   The agent reports a potential 33% gain in efficiency, mainly by removing full-table materialization and an unnecessary ToList() method call.
 
    ![Screenshot of start profiling request.](../debugger/media/vs/profiling-agent-results.png)
 
@@ -164,4 +166,15 @@ The following example shows how to collect performance data with the Copilot Pro
 
 1. In the lower right of the code editor, examine the code changes and select **Keep** to keep them.
 
+   The optimized query is shown here.
 
+   ```csharp
+    var optimized = db.People
+        .AsNoTracking()
+        .Where(p => p.Age > 50 && p.City.StartsWith("C"))
+        .Select(p => p.Name)
+        .Distinct()
+        .OrderBy(n => n)
+        .Take(10)
+        .ToList();
+   ```
