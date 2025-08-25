@@ -39,11 +39,11 @@ You can set the build context in the project file by setting the `DockerfileCont
 
 :::moniker range="visualstudio"
 
-You can set the build context in the project file by setting the `ContainerContext` property. For example,
+You can set the build context in the project file by setting the `ContainerBuildContext` property. For example,
 
 ```xml
 <PropertyGroup>
-   <ContainerContext>contextfolder</ContainerContext>
+   <ContainerBuildContext>contextfolder</ContainerBuildContext>
 </PropertyGroup>
 ```
 

@@ -114,7 +114,7 @@ The following project file shows examples of some of these settings.
     <!-- In CI/CD scenarios, you might need to change the context. By default, Visual Studio uses the
          folder above the Dockerfile. The path is relative to the Dockerfile, so here the context is
          set to the same folder as the Dockerfile. -->
-    <ContainerContext>.</ContainerContext>
+    <ContainerBuildContext>.</ContainerBuildContext>
     <!-- Set `docker run` arguments to mount a volume -->
     <ContainerRunArguments>-v $(MSBuildProjectDirectory)/host-folder:/container-folder:ro</ContainerRunArguments>
     <!-- Set `docker build` arguments to add a custom tag -->
@@ -129,7 +129,7 @@ The following project file shows examples of some of these settings.
 ```
 
 > [!NOTE]
-> The build context, which you can set by providing a value for `ContainerContext` (or `DockerfileContext`), is usually different in Visual Studio for projects targeting .NET Core (including .NET 5 and later) from what `docker build` uses when you run it from the command line. The departure from the behavior of `docker build` is necessary to ensure that build artifacts at the solution level can be included.
+> The build context, which you can set by providing a value for `ContainerBuildContext` (or `DockerfileContext`), is usually different in Visual Studio for projects targeting .NET Core (including .NET 5 and later) from what `docker build` uses when you run it from the command line. The departure from the behavior of `docker build` is necessary to ensure that build artifacts at the solution level can be included.
 >
 > When you call `docker build`, you always specify a build context, and you can optionally specify a path to the Dockerfile. The default is that the Dockerfile is in the root of the context, but you can use the `-f` flag to specify an alternate location. For example, you can build with `docker build -f Dockerfile ..` from the project directory, or `docker build -f ProjectName/Dockerfile .` from the solution directory.
 :::moniker-end
