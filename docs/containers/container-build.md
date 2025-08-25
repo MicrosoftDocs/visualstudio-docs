@@ -12,7 +12,13 @@ ms.topic: how-to
 
 You can customize your container images by editing the Dockerfile that Visual Studio generates when you add Docker support to your project. Whether you're building a customized container from the Visual Studio IDE, or setting up a command-line build, you need to know how Visual Studio uses the Dockerfile to build your projects. You need to know such details because, for performance reasons, Visual Studio follows a special process for building and running containerized apps that isn't obvious from the Dockerfile.
 
+:::moniker range="<=vs-2022"
+Suppose you want to make a change in the Dockerfile and see the results in both debugging and in production containers. In that case, you can add commands in the Dockerfile to modify the first stage (usually `base`). See [Modify the container image for debugging and production](container-debug-customization.md#modify-container-image-for-debugging-and-production). But, if you want to make a change only when debugging, but not production, then you should create another stage, and use the `ContainerFastModeStage` build setting to tell Visual Studio to use that stage for debug builds. See [Modify the container image only for debugging](container-debug-customization.md#modify-container-image-only-for-debugging).
+:::moniker-end
+
+:::moniker range="<=vs-2022"
 Suppose you want to make a change in the Dockerfile and see the results in both debugging and in production containers. In that case, you can add commands in the Dockerfile to modify the first stage (usually `base`). See [Modify the container image for debugging and production](container-debug-customization.md#modify-container-image-for-debugging-and-production). But, if you want to make a change only when debugging, but not production, then you should create another stage, and use the `DockerfileFastModeStage` build setting to tell Visual Studio to use that stage for debug builds. See [Modify the container image only for debugging](container-debug-customization.md#modify-container-image-only-for-debugging).
+:::moniker-end
 
 This article explains the Visual Studio build process for containerized apps in some detail, then it contains information on how to modify the Dockerfile to affect both debugging and production builds, or just for debugging.
 

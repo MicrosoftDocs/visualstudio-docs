@@ -17,7 +17,13 @@ ms.topic: how-to
 
 When you build in the **Debug** configuration, there are several optimizations that Visual Studio does that help with the performance of the build process for containerized projects. The build process for containerized apps isn't as straightforward as simply following the steps outlined in the Dockerfile. Building in a container is slower than building on the local machine. So, when you build in the **Debug** configuration, Visual Studio actually builds your projects on the local machine, and then shares the output folder to the container using volume mounting. A build with this optimization enabled is called a *Fast* mode build.
 
+:::moniker range="<=vs-2022"
 In **Fast** mode, Visual Studio calls `docker build` with an argument that tells Docker to build only the first stage in the Dockerfile (normally the `base` stage). You can change that by setting the MSBuild property, `DockerfileFastModeStage`, described at [Container Tools MSBuild properties](container-msbuild-properties.md). Visual Studio handles the rest of the process without regard to the contents of the Dockerfile. So, when you modify your Dockerfile, such as to customize the container environment or install additional dependencies, you should put your modifications in the first stage. Any custom steps placed in the Dockerfile's `build`, `publish`, or `final` stages aren't executed.
+:::moniker-end
+
+:::moniker range="visualstudio"
+In **Fast** mode, Visual Studio calls `docker build` with an argument that tells Docker to build only the first stage in the Dockerfile (normally the `base` stage). You can change that by setting the MSBuild property, `ContainerFastModeStage`, which replaces the obsolete `DockerfileFastModeStage`. See [Container Tools MSBuild properties](container-msbuild-properties.md). Visual Studio handles the rest of the process without regard to the contents of the Dockerfile. So, when you modify your Dockerfile, such as to customize the container environment or install additional dependencies, you should put your modifications in the first stage. Any custom steps placed in the Dockerfile's `build`, `publish`, or `final` stages aren't executed.
+:::moniker-end
 
 This performance optimization normally only occurs when you build in the **Debug** configuration. In the **Release** configuration, the build occurs in the container as specified in the Dockerfile. You can enable this behavior for the Release configuration by setting `ContainerDevelopmentMode` to **Fast** in the project file:
 
@@ -94,7 +100,13 @@ ENTRYPOINT ["dotnet", "WebApplication3.dll"]
 
 You can customize your containers in certain ways to help in debugging, such as installing something for diagnostic purposes, without affecting production builds.
 
+:::moniker range="<=vs-2022"
 To modify the container only for debugging, create a stage and then use the MSBuild property `DockerfileFastModeStage` to tell Visual Studio to use your customized stage when debugging. Refer to the [Dockerfile reference](https://docs.docker.com/engine/reference/builder/) in the Docker documentation for information about Dockerfile commands.
+:::moniker-end
+
+:::moniker range="visualstudio"
+To modify the container only for debugging, create a stage and then use the MSBuild property `ContainerFastModeStage` to tell Visual Studio to use your customized stage when debugging. Refer to the [Dockerfile reference](https://docs.docker.com/engine/reference/builder/) in the Docker documentation for information about Dockerfile commands.
+:::moniker-end
 
 > [!NOTE]
 > The instructions here apply to the single-container case. You can also do the same thing for multiple containers with Docker Compose, but the techniques required for Docker Compose are slightly different. For example, the stage is controlled by a setting in the `dockercompose.debug.yml` file.
@@ -135,12 +147,24 @@ ENTRYPOINT ["dotnet", "WebApplication1.dll"]
 
 In the project file, add this setting to tell Visual Studio to use your custom stage `debug` when debugging.
 
+
+:::moniker range="<=vs-2022"
 ```xml
   <PropertyGroup>
      <!-- other property settings -->
      <DockerfileFastModeStage>debug</DockerfileFastModeStage>
   </PropertyGroup>
 ```
+:::moniker-end
+
+:::moniker range="visualstudio"
+```xml
+  <PropertyGroup>
+     <!-- other property settings -->
+     <ContainerFastModeStage>debug</ContainerFastModeStage>
+  </PropertyGroup>
+```
+:::moniker-end
 
 ::: moniker range=">=vs-2022"
 ### Customize debugging images with AOT deployment
