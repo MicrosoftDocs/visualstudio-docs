@@ -4,7 +4,7 @@ description: Use Visual Studio Container Tools to control how Visual Studio work
 author: ghogen
 ms.author: ghogen
 ms.topic: how-to
-ms.date: 04/23/2025
+ms.date: 8/25/2025
 ms.subservice: container-tools
 f1_keywords:
  - VS.ToolsOptionsPages.Container_Tools.General
@@ -37,7 +37,7 @@ The following table describes the **General** settings:
 |Trust ASP.NET Core SSL certificate|Prompt me|Choose whether to prompt if the `localhost` SSL certificate isn't trusted in an ASP.NET Core project.|
 
 :::moniker-end
-:::moniker range=">=vs-2022"
+:::moniker range="vs-2022"
 ![Screenshot of Visual Studio Container Tools options.](./media/configure-container-tools/vs-2022/general.png)
 
 The following table describes the **General** settings:
@@ -50,7 +50,6 @@ The following table describes the **General** settings:
 
 :::moniker-end
 
-
 :::moniker range="visualstudio"
 
 The following table describes the **General** settings:
@@ -61,7 +60,6 @@ The following table describes the **General** settings:
 |Prompt to trust ASP.NET Core SSL certificate|Choose whether to prompt if the `localhost` SSL certificate isn't trusted in an ASP.NET Core project.|
 |Start the container runtime if needed|Prompt me|If Docker Desktop or Podman isn't started, choose whether to start it automatically or whether to prompt you.|
 |Container runtime|Auto|Choose the container runtime; Docker and Podman are supported. Choose`Auto` if you want Visual Studio to detect which runtime you're using. |
-
 
 :::moniker-end
 
@@ -75,7 +73,7 @@ The Container Tools **Single Project** and **Docker Compose** settings are ident
 :::moniker range="<=vs-2019"
 ![Screenshot of Visual Studio 2019 Container Tools options.](./media/configure-container-tools/tools-options-2.png)
 :::moniker-end
-:::moniker range=">=vs-2022"
+:::moniker range="vs-2022"
 ![Screenshot of Visual Studio 2022 Container Tools options.](./media/configure-container-tools/vs-2022/tools-options-2.png)
 :::moniker-end
 
@@ -89,7 +87,7 @@ The following table describes **Single Project** and **Docker Compose** settings
 |Run containers on project open|True|Whether to create a container when loading a container project, so it's ready when you build and run. If you prefer to control when your container is created, set to **False**.|
 |Remove containers on project close|True|Whether to remove containers for your solution after closing the solution or closing Visual Studio.|
 :::moniker-end
-:::moniker range=">=vs-2022"
+:::moniker range="vs-2022"
 |Setting|Default value|Description|
 |-----|:---------------|-----------|
 |Pull required Docker images on project open|True|Whether to start a background Docker pull operation when loading a container project. Required images are downloaded or downloading when you're ready to run your code. If you just want to browse the code, you can set to **False** to avoid downloading container images you don't need.|
@@ -98,6 +96,24 @@ The following table describes **Single Project** and **Docker Compose** settings
 |Remove containers on project close|True|Whether to remove containers for your solution after closing the solution or closing Visual Studio.|
 |Run a service in containers to enable Azure Authentication|True|For Visual Studio version 17.6 or later, whether to install and run a token proxy service in the container to enable Azure Authentication. This service lets your apps use Azure services during development. For more information, see the [Configure Azure authentication](#configure-azure-authentication) section.|
 |Run a service in containers to enable Hot Reload|True|For Visual Studio version 17.7 and later, whether to install and run the Hot Reload service. This service only supports running without debugging, **Ctrl**+**F5**.|
+:::moniker-end
+:::moniker range="visualstudio"
+
+The following settings in the **Container Warmup** section control how Visual Studio optimizes performance by starting services and preparing images ahead of anticipated use.
+
+|Setting|Default value|Description|
+|-----|:---------------|-----------|
+|Pull required images on project open|Enabled|Whether to start a background Docker pull operation when loading a container project. Required images are downloaded or downloading when you're ready to run your code. If you just want to browse the code, you can set to **False** to avoid downloading container images you don't need.|
+|Run containers on project open|True|Whether to create a container when loading a container project, so it's ready when you build and run. If you prefer to control when your container is created, set to **False**.|
+|Remove containers on project close|True|Whether to remove containers for your solution after closing the solution or closing Visual Studio.|
+
+The following settings in the **Debugging** section customize services available on 
+
+|Setting|Default value|Description|
+|-----|:---------------|-----------|
+|Run a service in containers to enable Azure Authentication|Enabled|Whether to install and run a token proxy service in the container to enable Azure Authentication. This service lets your apps use Azure services during development. For more information, see the [Configure Azure authentication](#configure-azure-authentication) section.|
+|Run a service in containers to enable Hot Reload|Enabled|Whether to install and run the Hot Reload service. This service only supports running without debugging, **Ctrl**+**F5**.|
+
 :::moniker-end
 
 :::moniker range="<=vs-2019"
@@ -123,7 +139,9 @@ The following table describes the **Containers Tool Window** settings:
 
 The **Containers Window** settings apply to the **Containers** window in the Visual Studio IDE, which shows information about Docker containers and images. For more information, see [Use the Containers window](view-and-diagnose-containers.md).
 
+:::moniker range="vs-2022"
 ![Screenshot of the Visual Studio Container Tools Options, showing the settings available for the Containers Window.](media/configure-container-tools/vs-2022/containers-window.png)
+:::moniker-end
 
 The following table describes the **Containers Window** settings:
 
