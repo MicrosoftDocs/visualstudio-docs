@@ -31,11 +31,11 @@ To debug apps in a local container, the following tools must be installed:
 ::: moniker range="vs-2019"
 
 - [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the Web Development workload installed
-- 
+
 To run Docker containers locally, you must have a local Docker client. You can use [Docker Desktop](https://www.docker.com/get-docker), which requires Windows 10 or later.
 ::: moniker-end
 
-::: moniker range=">=vs-2022"
+::: moniker range="vs-2022"
 
 - [Visual Studio 2022 or later](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the Web Development workload installed
 
@@ -48,7 +48,7 @@ To run Docker containers locally, you must have a local Docker client. You can u
 
 To run Docker containers locally, you must have a local Docker client. You can use [Docker Desktop](https://www.docker.com/get-docker), which requires Windows 10 or later.
 
-To run containes with Podman, we recommend you install [Podman Desktop](https://podman-desktop.io/downloads).
+To run containers with Podman, install [Podman Desktop](https://podman-desktop.io/downloads).
 
 ::: moniker-end
 
@@ -195,7 +195,7 @@ services:
 For a code sample of authentication with Azure Functions, including both integrated and isolated scenarios, see [VisualStudioCredentialExample](https://github.com/NCarlsonMSFT/VisualStudioCredentialExample).
 :::moniker-end
 
-:::moniker range="vs-2022"
+:::moniker range="visualstudio"
 
 ## Authenticating to Azure services using the token proxy
 
