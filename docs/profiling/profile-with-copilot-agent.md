@@ -51,7 +51,7 @@ To get started, you need:
 
 ## Profile using the Copilot Profiler Agent
 
-The following example shows how to collect performance data with the Copilot Profiler Agent and use it to analyze the results and suggest fixes.
+The following example shows how to collect performance data with the Copilot Profiler Agent, use it to analyze the results, and suggest and make fixes.
 
 ### Start a profiling session
 
@@ -63,6 +63,8 @@ The following example shows how to collect performance data with the Copilot Pro
 
    - Microsoft.EntityFramework.Core
    - Microsoft.EntityFramework.Core.InMemory
+
+   The app uses an in-memory database to simplify the project setup.
 
 1. Replace the code in *Program.cs* with the following code:
 
