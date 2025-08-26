@@ -84,10 +84,10 @@ You can add Docker support to an existing project by selecting **Add** > **Conta
 :::moniker-end
 
 :::moniker range="<=vs-2019"
-![Screenshot showing how to add Docker Support menu option in Visual Studio.](./media/overview/add-docker-support-menu.png)
+![Screenshot showing the Add Docker Support menu option in Visual Studio.](./media/overview/add-docker-support-menu.png)
 :::moniker-end
 :::moniker range=">=vs-2022"
-![Screenshot showing how to add Container Support menu option in Visual Studio.](./media/overview/vs-2022/add-docker-support.png)
+![Screenshot showing the Add Container Support menu option in Visual Studio.](./media/overview/vs-2022/add-docker-support.png)
 :::moniker-end
 
 :::moniker range="<=vs-2019"

@@ -115,7 +115,7 @@ You can mount another volume by specifying command-line arguments for the contai
    "containerRunArguments": "-v myvolume:/scratch"
    ```
 
-   Refer to the container hosting environment provider's documentation for the command-line syntax for the [Docker -v or --mount](https://docs.docker.com/engine/storage/volumes/#choose-the--v-or---mount-flag) options, or the [Podman -v option](https://docs.podman.io/en/v4.6.1/markdown/options/volume.html) and the [Podman --mount option](https://docs.podman.io/en/v4.6.1/markdown/options/mount.html).
+   Refer to the container runtime provider's documentation for the command-line syntax for the [Docker -v or --mount](https://docs.docker.com/engine/storage/volumes/#choose-the--v-or---mount-flag) options, or the [Podman -v option](https://docs.podman.io/en/v4.6.1/markdown/options/volume.html) and the [Podman --mount option](https://docs.podman.io/en/v4.6.1/markdown/options/mount.html).
 
 :::moniker-end
 
