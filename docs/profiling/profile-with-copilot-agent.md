@@ -22,7 +22,22 @@ monikerRange: '>= visualstudio'
 
 # Profile your app with GitHub Copilot in Visual Studio
 
-In this article, you'll learn how to profile applications using the Copilot Profiling Agent. The agent collects CPU samples, allocation and heap information, and tracing data while your app runs, and then Copilot analyzes that data, adds benchmarks and retests using generated comparison code. Then Copilot suggests code changes to improve performance.
+In this article, you'll learn how to profile applications and improve performance using the Copilot Profiling Agent.
+
+The Profiler Agent works alongside GitHub Copilot to:
+
+- Analyze CPU usage, memory allocations, and runtime behavior
+- Surface performance bottlenecks
+- Generate [BenchmarkDotNet Benchmarks](https://benchmarkdotnet.org/articles/features/vsprofiler.html) or optimize existing Benchmarks
+- Apply suggested optimizations
+- Validate improvements in a guided loop
+
+The Profiler Agent is especially helpful when:
+
+- You're unfamiliar with profiling
+- You’re unsure where to start with performance tuning
+- You want to validate optimizations with real benchmarks
+- You’re working on high-performance apps like games, services, or client tools
 
 For general information about Copilot agents and agent mode, see [Use Copilot agent mode](../ide/copilot-agent-mode.md).
 
@@ -136,6 +151,8 @@ The following example shows how to collect performance data with the Copilot Pro
 
    ![Screenshot of invoking the profiling agent.](../profiling/media/dev18/profiling-agent-start-chat.png)
 
+   Alternatively, you could start the profiling agent by manually choosing **Select Tools** and manually enabling the Profiling Agent, and then switching to agent mode. Using this method, you don't need to use the `@Profiler` command.
+
    Copilot asks if you want to run the profiler.
 
    ![Screenshot of start profiling request.](../profiling/media/dev18/profiling-agent-start-profiler-request.png)
@@ -148,13 +165,15 @@ The following example shows how to collect performance data with the Copilot Pro
 
    ![Screenshot of benchmark output.](../profiling/media/dev18/profiling-agent-benchmark-output.png)
 
+   Results from the diagnostics session appear in a *.diagsession* file. If you prefer to manually investigate performance, use the **Open Details** link in the CPU Usage tab of the diagnostics summary page. For more information, see [Analyze performance by using CPU profiling](../profiling/cpu-usage.md).
+
    When finished testing, the agent summarizes its finding and provides a couple of suggestions for next steps.
 
-   The agent reports a potential 33% gain in efficiency, mainly by removing full-table materialization and an unnecessary ToList() method call.
+   The agent reports a potential 33% gain in efficiency, mainly by removing full-table materialization and an unnecessary `ToList()` method call.
 
    ![Screenshot of test results.](../profiling/media/dev18/profiling-agent-results.png)
 
-   In this example, you are more interested in optimizing the LINQ query.
+   In this example, you focus on optimizing the LINQ query.
 
 1. Select the second Copilot suggestion and select **Send** to tell the agent to optimize the LINQ query chain.
 
