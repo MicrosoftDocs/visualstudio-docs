@@ -38,16 +38,16 @@ In Visual Studio, create an **ASP.NET Core Web App** project, named `WebFrontEnd
 
 ![Screenshot showing Create ASP.NET Core Web App project.](./media/tutorial-multicontainer/vs-2019/create-web-project1.png)
 
-Don't select **Enable container support**. You add support for Docker Compose later in the process.
+Don't select **Enable Docker support**. You add support for Docker Compose later in the process.
 
 ![Screenshot of the Additional information screen when creating a web project. The option to Enable Docker Support is not selected.](./media/tutorial-multicontainer/vs-2019/create-web-project-additional-information.png)
 
 ::: moniker-end
 ::: moniker range=">=vs-2022"
 
-Don't select **Enable Docker Support**. You add Docker support later in the process.
+Don't select **Enable container support**. You add container support later in the process.
 
-![Screenshot of the Additional information screen when creating a web project. The option to Enable Docker Support is not selected.](./media/tutorial-multicontainer/vs-2022/create-web-project.png)
+![Screenshot of the Additional information screen when creating a web project. The option to Enable container support is not selected.](./media/tutorial-multicontainer/vs-2022/create-web-project.png)
 ::: moniker-end
 
 ## Create a Web API project

@@ -69,9 +69,9 @@ To use Podman as the container platform, download [Podman Desktop](https://podma
 
 1. Create a new project using the **ASP.NET Core Web App** template.
 
-1. On the **Create new web application** screen, make sure the **Enable Docker Support** checkbox is selected.
+1. On the **Create new web application** screen, make sure the **Enable container support** checkbox is selected.
 
-   ![Screenshot of Enable Docker Support checkbox.](media/container-tools/vs-2022/web-app-additional-information-docker-linux.png)
+   ![Screenshot of Enable container support checkbox.](media/container-tools/vs-2022/web-app-additional-information-docker-linux.png)
 
    The screenshot shows the latest release with .NET 8.0.
 
@@ -127,7 +127,7 @@ EXPOSE 8080
 EXPOSE 8081
 ```
 
-The default templates use the environment variable `APP_UID` for the identity of the normal user.
+The default templates for .NET 8 and later use the environment variable `APP_UID` for the identity of the normal user.
 
 ## Debug
 
@@ -209,7 +209,7 @@ You can now pull the container from the registry to any host capable of running 
 
 1. On the **Create new web application** screen, make sure the **Enable container Support** checkbox is selected.
 
-   ![Screenshot of Enable Docker Support checkbox.](media/container-tools/vs-2022/web-app-additional-information-docker-linux.png)
+   ![Screenshot of Enable container support checkbox.](media/container-tools/vs-2022/web-app-additional-information-docker-linux.png)
 
    The screenshot shows the latest release with .NET 8.0. If you're using .NET Framework, the dialog looks a bit different.
 

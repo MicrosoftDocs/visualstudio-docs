@@ -56,7 +56,7 @@ You can enable support for containers during project creation by selecting **Ena
 ::: moniker range=">=vs-2022"
 You can enable support for containers during project creation by selecting **Enable container support** when you create a new project, as shown in the following screenshot:
 
-![Screenshot showing how to enable Docker Support for new ASP.NET Core web app in Visual Studio.](./media/overview/vs-2022/enable-docker-support-visual-studio.png)
+![Screenshot showing how to enable container support for new ASP.NET Core web app in Visual Studio.](./media/overview/vs-2022/enable-docker-support-visual-studio.png)
 ::: moniker-end
 
 :::moniker range="<=vs-2022"
@@ -132,11 +132,11 @@ ENTRYPOINT ["dotnet", "WebApplication-Docker.dll"]
 
 ## Choose the container build type and other options
 
-When you add or enable Docker support to a .NET 7 or later project, Visual Studio shows the **Container Scaffolding Options** dialog box, which gives you the choice of operating system (Linux or Windows), but also the ability to choose the container build type, either **Dockerfile** or **.NET SDK**.
+When you add or enable container support to a .NET 7 or later project, Visual Studio shows the **Container Scaffolding Options** dialog box, which gives you the choice of operating system (Linux or Windows), but also the ability to choose the container build type, either **Dockerfile** or **.NET SDK**.
 
-You can also specify the **Container Image Distro** and the **Docker Build Context**.
+You can also specify the **Container Image Distro** and the **Container Build Context**.
 
-![Screenshot showing the Container Scaffolding Options dialog for adding Docker support.](./media/overview/vs-2022/container-scaffolding-options.png)
+![Screenshot showing the Container Scaffolding Options dialog for adding container support.](./media/overview/vs-2022/container-scaffolding-options.png)
 
 **Container Image Distro** specifies which OS image your containers use as the base image. This list changes if you switch between Linux and Windows as the container type.
 
@@ -158,7 +158,7 @@ Linux:
 > [!NOTE]
 > Containers based on the Chiseled Ubuntu image and that use [Native Ahead-of-time (AOT) deployment](/dotnet/core/deploying/native-aot/) can only be debugged in Fast Mode. See [Customize Docker containers in Visual Studio](container-build.md).
 
-**Docker Build Context** specifies the folder that is used for the Docker build. See [Docker build context](https://docs.docker.com/build/building/context/). The default is the solution folder, which is recommended. All the files needed for a build need to be under this folder, which is not the case if you choose the project folder or some other folder.
+**Container Build Context** specifies the folder that is used for `docker build` (or `podman build`). See [Docker build context](https://docs.docker.com/build/building/context/) or [Podman build](https://docs.podman.io/en/latest/markdown/podman-build.1.html). The default is the solution folder, which is recommended. All the files needed for a build need to be under this folder, which is not the case if you choose the project folder or some other folder.
 
 ### Dockerfile container build type
 
@@ -171,28 +171,36 @@ If you choose the **Dockerfile** container build type, Visual Studio adds the fo
 The Dockerfile you add will resemble the following code. In this example, the project was named `WebApplication-Docker`, and you chose Linux containers:
 
 ```dockerfile
-#See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images for faster debugging.
+# See https://aka.ms/customizecontainer to learn how to customize your debug container and how Visual Studio uses this Dockerfile to build your images for faster debugging.
 
+# This stage is used when running from VS in fast mode (Default for Debug configuration)
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
+USER $APP_UID
 WORKDIR /app
-EXPOSE 80
-EXPOSE 443
+EXPOSE 8080
+EXPOSE 8081
 
+
+# This stage is used to build the service project
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["WebApplication-Docker/WebApplication-Docker.csproj", "WebApplication-Docker/"]
-RUN dotnet restore "WebApplication-Docker/WebApplication-Docker.csproj"
+COPY ["WebApplication15-AddContainerSupport/WebApplication15-AddContainerSupport.csproj", "WebApplication15-AddContainerSupport/"]
+RUN dotnet restore "./WebApplication15-AddContainerSupport/WebApplication15-AddContainerSupport.csproj"
 COPY . .
-WORKDIR "/src/WebApplication-Docker"
-RUN dotnet build "WebApplication-Docker.csproj" -c Release -o /app/build
+WORKDIR "/src/WebApplication15-AddContainerSupport"
+RUN dotnet build "./WebApplication15-AddContainerSupport.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
+# This stage is used to publish the service project to be copied to the final stage
 FROM build AS publish
-RUN dotnet publish "WebApplication-Docker.csproj" -c Release -o /app/publish
+ARG BUILD_CONFIGURATION=Release
+RUN dotnet publish "./WebApplication15-AddContainerSupport.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
 
+# This stage is used in production or when running from VS in regular mode (Default when not using the Debug configuration)
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "WebApplication-Docker.dll"]
+ENTRYPOINT ["dotnet", "WebApplication15-AddContainerSupport.dll"]
 ```
 
 ### .NET SDK container build type
@@ -275,12 +283,13 @@ The Dockerfile you add will resemble the following code. In this example, the pr
 ```dockerfile
 #See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images for faster debugging.
 
-FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
+USER $APP_UID
 WORKDIR /app
-EXPOSE 80
-EXPOSE 443
+EXPOSE 8080
+EXPOSE 8081
 
-FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 COPY ["WebApplication-Docker/WebApplication-Docker.csproj", "WebApplication-Docker/"]
 RUN dotnet restore "WebApplication-Docker/WebApplication-Docker.csproj"

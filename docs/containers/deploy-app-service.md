@@ -41,6 +41,19 @@ To complete this tutorial:
 
 The following steps guide you through creating a basic ASP.NET Core app that will be used in this tutorial.
 
+:::moniker range=">=vs-2022"
+
+1. From the Visual Studio start window, choose **Create a new project**.
+1. Choose **ASP.NET Core Web App (Razor pages)**, and choose **Next**.
+1. Give your new application a name (or take the default) and choose **Next**.
+1. Choose the .NET version you want to target.
+1. Choose whether or not you want SSL support by using the **Configure for HTTPS** checkbox.
+1. Select the **Enable container support** checkbox.
+1. Select the container type, and click **Create**.
+
+:::moniker-end
+:::moniker range="vs-2019"
+
 1. From the Visual Studio start window, choose **Create a new project**.
 1. Choose **ASP.NET Core Web App**, and choose **Next**.
 1. Give your new application a name (or take the default) and choose **Next**.
@@ -48,6 +61,8 @@ The following steps guide you through creating a basic ASP.NET Core app that wil
 1. Choose whether or not you want SSL support by using the **Configure for HTTPS** checkbox.
 1. Select the **Enable Docker Support** checkbox.
 1. Select the container type, and click **Create**.
+
+:::moniker-end
 
 ## Deploy the container to Azure
 
