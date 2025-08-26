@@ -26,18 +26,18 @@ In this article, you'll learn how to profile applications and improve performanc
 
 The Profiler Agent works alongside GitHub Copilot to:
 
-- Analyze CPU usage, memory allocations, and runtime behavior
-- Surface performance bottlenecks
-- Generate [BenchmarkDotNet Benchmarks](https://benchmarkdotnet.org/articles/features/vsprofiler.html) or optimize existing Benchmarks
-- Apply suggested optimizations
-- Validate improvements in a guided loop
+- Analyze CPU usage, memory allocations, and runtime behavior.
+- Surface performance bottlenecks.
+- Generate [BenchmarkDotNet Benchmarks](https://benchmarkdotnet.org/articles/features/vsprofiler.html) or optimize existing BenchmarkDotNet benchmarks.
+- Apply suggested optimizations.
+- Validate improvements in a guided loop.
 
 The Profiler Agent is especially helpful when:
 
-- You're unfamiliar with profiling
-- You’re unsure where to start with performance tuning
-- You want to validate optimizations with real benchmarks
-- You’re working on high-performance apps like games, services, or client tools
+- You're unfamiliar with profiling.
+- You’re unsure where to start with performance tuning.
+- You want to validate optimizations with real benchmarks.
+- You’re working on high-performance apps like games, services, or client tools.
 
 For general information about Copilot agents and agent mode, see [Use Copilot agent mode](../ide/copilot-agent-mode.md).
 
@@ -51,7 +51,7 @@ To get started, you need:
 
 ## Profile using the Copilot Profiler Agent
 
-The following example shows how to collect performance data with the Copilot Profiler Agent, use it to analyze the results, and suggest and make fixes.
+The following example shows how to collect performance data with the Copilot Profiler Agent, and then use it to analyze the results, and to suggest and make fixes.
 
 ### Start a profiling session
 
@@ -149,6 +149,8 @@ The following example shows how to collect performance data with the Copilot Pro
 
    ```@Profiler Please evaluate the performance of this code```
 
+1. Select **Send**. 
+
    The `@Profiler` command calls the Copilot Profiler Agent. 
 
    ![Screenshot of invoking the profiler agent.](../profiling/media/dev18/profiling-agent-start-chat.png)
@@ -161,13 +163,13 @@ The following example shows how to collect performance data with the Copilot Pro
 
 1. Choose **Confirm**.
 
-   The agent runs through a series of steps independently. It examines the code, adds support to the project for BenchmarkDotNet, including project references and packages, adds benchmarks to a new file, and runs comparison tests.
+   The agent runs through a series of steps independently. It examines the code, adds support to the project for BenchmarkDotNet, including project references and packages, adds benchmarks to a new file, and runs comparison test against new code that it generates.
 
    Benchmark results show up in the Output window, with the output set to **Diagnostics Hub**.
 
    ![Screenshot of benchmark output.](../profiling/media/dev18/profiling-agent-benchmark-output.png)
 
-   Results from the diagnostics session appear in a *.diagsession* file. If you wanted to manually investigate CPU usage, use the **Open Details** link in the CPU Usage tab of the diagnostics summary page. For more information, see [Analyze performance by using CPU profiling](../profiling/cpu-usage.md).
+   Results from the diagnostics session appear in a *.diagsession* file report. If you want to manually investigate CPU usage, see [Analyze performance by using CPU profiling](../profiling/cpu-usage.md). However, in this scenario, we use the Profiler Agent instead.
 
    When finished testing, the agent summarizes its findings.
 
@@ -204,5 +206,5 @@ The following example shows how to collect performance data with the Copilot Pro
         .ToList();
    ```
 
-1. If you want to agent to make additional optimizations, select the suggestions provided by Copilot.
+1. If you want to agent to make additional optimizations, either select the suggestions provided by the agent or ask additional questions.
 
