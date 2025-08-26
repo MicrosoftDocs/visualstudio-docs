@@ -44,7 +44,7 @@ The multistage build allows container images to be created in stages that produc
 :::moniker range="vs-2019"
 ```Dockerfile
 # This stage is used when running from VS in fast mode (Default for Debug configuration)
-FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
+FROM mcr.microsoft.com/dotnet/aspnet:3.1 AS base
 WORKDIR /app
 EXPOSE 80
 EXPOSE 443

@@ -108,15 +108,13 @@ ENTRYPOINT ["dotnet", "WebApplication3.dll"]
 :::moniker range="vs-2019"
 
 ```dockerfile
-# This stage is used when running from VS in fast mode (Default for Debug configuration)
-FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
+FROM mcr.microsoft.com/dotnet/aspnet:3.1 AS base
 WORKDIR /app
 EXPOSE 80
 EXPOSE 443
 # <add your commands here>
 
-# This stage is used to build the service project
-FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+FROM mcr.microsoft.com/dotnet/sdk:3.1 AS build
 WORKDIR /src
 COPY ["WebApplication3/WebApplication3.csproj", "WebApplication3/"]
 RUN dotnet restore "WebApplication3/WebApplication3.csproj"
@@ -196,7 +194,7 @@ ENTRYPOINT ["dotnet", "WebApplication1.dll"]
 #See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images for faster debugging.
 
 # This stage is used when running from VS in fast mode (Default for Debug configuration)
-FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
+FROM mcr.microsoft.com/dotnet/aspnet:3.1 AS base
 WORKDIR /app
 EXPOSE 80
 EXPOSE 443
@@ -205,7 +203,7 @@ FROM base AS debug
 RUN tdnf install procps-ng -y
 
 # This stage is used to build the service project
-FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
+FROM mcr.microsoft.com/dotnet/sdk:3.1 AS build
 WORKDIR /src
 COPY ["WebApplication1/WebApplication1.csproj", "WebApplication1/"]
 RUN dotnet restore "WebApplication1/WebApplication1.csproj"
