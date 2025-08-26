@@ -1,6 +1,6 @@
 ---
 title: Profile with GitHub Copilot
-description: Use the Copilot Profiling Agent in Visual Studio to collect CPU and memory traces and get AI-driven performance insights and fixes.
+description: Use the Copilot Profiler Agent in Visual Studio to collect CPU and memory traces and get AI-driven performance insights and fixes.
 ms.date: 8/22/2025
 ms.update-cycle: 180-days
 ms.topic: how-to
@@ -22,7 +22,7 @@ monikerRange: '>= visualstudio'
 
 # Profile your app with GitHub Copilot
 
-In this article, you'll learn how to profile applications and improve performance using the Copilot Profiling Agent.
+In this article, you'll learn how to profile applications and improve performance using the Copilot Profiler Agent.
 
 The Profiler Agent works alongside GitHub Copilot to:
 
@@ -49,9 +49,9 @@ To get started, you need:
 + [Sign in to Visual Studio using a GitHub account](../ide/work-with-github-accounts.md) with [Copilot access](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot)
 + [GitHub Copilot](../ide/visual-studio-github-copilot-install-and-states.md) and the Copilot Chat experience installed in Visual Studio
 
-## Profile using the Copilot Profiling Agent
+## Profile using the Copilot Profiler Agent
 
-The following example shows how to collect performance data with the Copilot Profiling Agent and use it to analyze the results and suggest fixes.
+The following example shows how to collect performance data with the Copilot Profiler Agent and use it to analyze the results and suggest fixes.
 
 ### Start a profiling session
 
@@ -147,11 +147,11 @@ The following example shows how to collect performance data with the Copilot Pro
 
    ```@Profiler Please evaluate the performance of this code```
 
-   The `@Profiler` command calls the Copilot Profiling Agent. 
+   The `@Profiler` command calls the Copilot Profiler Agent. 
 
-   ![Screenshot of invoking the profiling agent.](../profiling/media/dev18/profiling-agent-start-chat.png)
+   ![Screenshot of invoking the profiler agent.](../profiling/media/dev18/profiling-agent-start-chat.png)
 
-   Alternatively, you could start the profiling agent by manually choosing **Select Tools** and manually enabling the Profiling Agent, and then switching to agent mode. Using this method, you don't need to use the `@Profiler` command.
+   Alternatively, you could start the profiler agent by manually choosing **Select Tools** and manually enabling the Profiler Agent, and then switching to agent mode. Using this method, you don't need to use the `@Profiler` command.
 
    Copilot asks if you want to run the profiler.
 
@@ -165,7 +165,7 @@ The following example shows how to collect performance data with the Copilot Pro
 
    ![Screenshot of benchmark output.](../profiling/media/dev18/profiling-agent-benchmark-output.png)
 
-   Results from the diagnostics session appear in a *.diagsession* file. If you prefer to manually investigate performance, use the **Open Details** link in the CPU Usage tab of the diagnostics summary page. For more information, see [Analyze performance by using CPU profiling](../profiling/cpu-usage.md).
+   Results from the diagnostics session appear in a *.diagsession* file. If you wanted to manually investigate CPU usage, use the **Open Details** link in the CPU Usage tab of the diagnostics summary page. For more information, see [Analyze performance by using CPU profiling](../profiling/cpu-usage.md).
 
    When finished testing, the agent summarizes its findings.
 
