@@ -30,7 +30,7 @@ The tools included in Visual Studio for developing with [Docker](https://docs.do
 ## Prerequisites
 
 - [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
-- [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, ****Azure development**** workload, and/or **.NET Core cross-platform development** workload installed
+- [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET Core cross-platform development** workload installed
 - [.NET Core Development Tools](https://dotnet.microsoft.com/download/dotnet-core/) for development with .NET Core.
 - To publish to Azure Container Registry, an Azure subscription. [Sign up for a free trial](https://azure.microsoft.com/offers/ms-azr-0044p/).
 
@@ -51,14 +51,14 @@ In Visual Studio 2019 version 16.4 and later, the **Containers** window is avail
 ## Prerequisites
 
 - [Docker Desktop](https://www.docker.com/get-docker) or [Podman Desktop](https://podman-desktop.io/downloads)
-- [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, ****Azure development**** workload, and/or **.NET desktop development** workload installed
+- [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET desktop development** workload installed
 - To publish to Azure Container Registry, an Azure subscription. [Sign up for a free trial](https://azure.microsoft.com/offers/ms-azr-0044p/).
 
 ## Container support in Visual Studio
 
-Container support is available for ASP.NET projects, ASP.NET Core projects, and .NET Core (and .NET 5 and later) console projects.
+Container support is available for ASP.NET projects, ASP.NET Core projects, and .NET Core (and .NET 5 and later) console projects. .NET Framework projects are not supported in the current version of Visual Studio.
 
-The support for containers in Visual Studio has changed over a number of releases in response to customer needs. There are several options to add container support to a project, and the supported options vary by the type of project and the version of Visual Studio. With some supported project types, if you just want a container for a single project, without using orchestration, you can do that by adding container support. You can choose Docker or Podman as a container platform, and easily switch between them without changing the project. The next level is container orchestration support, which adds appropriate support files for the particular orchestrator you choose.
+If you just want a container for a single project, without using orchestration, you can do that by adding container support. You can choose Docker or Podman as a container platform, and easily switch between them without changing the project. The next level is container orchestration support, which adds appropriate support files for the particular orchestrator you choose.
 
 When you add container support to a .NET 7 or later project, you have two container build types to choose from for adding container support. You can choose to add a Dockerfile to specify how to build the container images, or you can choose to use the built-in container support provided by the .NET SDK.
 
@@ -73,7 +73,7 @@ The **Containers** window lets you view running containers, browse available ima
 ## Prerequisites
 
 - [Docker Desktop](https://www.docker.com/get-docker)
-- [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, ****Azure development**** workload, and/or **.NET desktop development** workload installed
+- [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET desktop development** workload installed
 - To publish to Azure Container Registry, an Azure subscription. [Sign up for a free trial](https://azure.microsoft.com/offers/ms-azr-0044p/).
 
 ## Docker support in Visual Studio

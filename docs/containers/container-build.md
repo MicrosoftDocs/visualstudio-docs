@@ -41,15 +41,32 @@ Multistage build is used for .NET Core projects, not .NET Framework projects.
 
 The multistage build allows container images to be created in stages that produce intermediate images. As an example, consider a typical Dockerfile. The first stage is called `base` in the Dockerfile that Visual Studio generates, although the tools don't require that name.
 
+:::moniker range="vs-2019"
 ```Dockerfile
 # This stage is used when running from VS in fast mode (Default for Debug configuration)
-FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
+FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
 WORKDIR /app
 EXPOSE 80
 EXPOSE 443
 ```
 
 The lines in the Dockerfile begin with the ASP.NET image from Microsoft Container Registry (mcr.microsoft.com) and create an intermediate image `base` that exposes ports 80 and 443, and sets the working directory to `/app`.
+:::moniker-end
+
+:::moniker range=">=vs-2022"
+```Dockerfile
+# This stage is used when running from VS in fast mode (Default for Debug configuration)
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
+USER $APP_UID
+WORKDIR /app
+EXPOSE 8080
+EXPOSE 8081
+```
+
+The lines in the Dockerfile begin with the ASP.NET image from Microsoft Container Registry (mcr.microsoft.com) and create an intermediate image `base` that exposes ports 8080 and 8081, and sets the working directory to `/app`.
+
+When you're targeting .NET 7 and later, the `USER $APP_UID` line appears, which sets the container to run without elevated privileges with a username obtained from the environment variable `APP_UID`. The ports are 8080 and 8081, rather than 80 and 443, which require elevated privileges.
+:::moniker-end
 
 The next stage is `build`, which appears as follows:
 

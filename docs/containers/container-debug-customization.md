@@ -74,6 +74,7 @@ For information on `vsdbg.exe`, see [Offroad debugging of .NET Core on Linux and
 To modify the container image for both debugging and production, modify the `base` stage. Add your customizations to the Dockerfile in the base stage section, usually the first section in the Dockerfile. Refer to the [Dockerfile reference](https://docs.docker.com/engine/reference/builder/) in the Docker documentation for information about Dockerfile commands.
 
 :::moniker range=">=vs-2022"
+
 ```dockerfile
 # This stage is used when running from VS in fast mode (Default for Debug configuration)
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
@@ -104,7 +105,7 @@ ENTRYPOINT ["dotnet", "WebApplication3.dll"]
 ```
 
 :::moniker-end
-:::moniker range=">=vs-2019"
+:::moniker range="vs-2019"
 
 ```dockerfile
 # This stage is used when running from VS in fast mode (Default for Debug configuration)
@@ -189,13 +190,13 @@ ENTRYPOINT ["dotnet", "WebApplication1.dll"]
 ```
 
 :::moniker-end
-:::moniker range=">=vs-2019"
+:::moniker range="vs-2019"
 
 ```dockerfile
 #See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images for faster debugging.
 
 # This stage is used when running from VS in fast mode (Default for Debug configuration)
-FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
+FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
 WORKDIR /app
 EXPOSE 80
 EXPOSE 443
@@ -204,7 +205,7 @@ FROM base AS debug
 RUN tdnf install procps-ng -y
 
 # This stage is used to build the service project
-FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
 COPY ["WebApplication1/WebApplication1.csproj", "WebApplication1/"]
 RUN dotnet restore "WebApplication1/WebApplication1.csproj"

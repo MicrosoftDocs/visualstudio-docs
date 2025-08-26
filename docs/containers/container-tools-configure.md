@@ -134,7 +134,7 @@ The following table describes the **Containers Tool Window** settings:
 |Confirm before running large number of images|Always|Whether to prompt you before starting containers from more than 10 images at a time.|
 
 :::moniker-end
-:::moniker range=">=vs-2022"
+:::moniker range="vs-2022"
 ### Containers Window settings
 
 The **Containers Window** settings apply to the **Containers** window in the Visual Studio IDE, which shows information about Docker containers and images. For more information, see [Use the Containers window](view-and-diagnose-containers.md).
@@ -158,6 +158,41 @@ The following table describes the **Containers Window** settings:
 If your app uses Azure services, it needs appropriate credentials to authenticate with Azure services when it runs in a container. You can usually use your own Azure credentials during development, but to run in the container environment, the containerized app requires the credentials it uses in production.
 
 Visual Studio 2022 version 17.6 and later deploys and runs a [token](https://www.nuget.org/packages/Azure.Identity#readme-body-tab) proxy service in your single-container and Docker Compose projects to help your apps and services authenticate in Azure. The feature requires [Azure Identity 1.9.0](https://www.nuget.org/packages/Azure.Identity/1.9.0#readme-body-tab) or later.
+
+With this service enabled, you can automatically use most Azure services within the container without any added configuration or setup. Your code can use `DefaultAzureCredential` and `VisualStudioCredential` to authenticate with Azure services the same way as outside of a container. For more information, see the [Azure Identity 1.9.0 README](https://www.nuget.org/packages/Azure.Identity/1.9.0#readme-body-tab).
+
+To disable this feature, set **Run a service in containers to enable Azure Authentication** to **False** in the **Container Tools** [Single Project or Docker Compose settings](#single-project-or-docker-compose-settings).
+
+> [!CAUTION]
+> Using the token proxy and enabling certain diagnostic logs presents a potential security concern. These logs could expose authentication credentials as plain text. The following environment variables enable these logs:
+> 
+> - For single container projects, `MS_VS_CONTAINERS_TOOLS_LOGGING_ENABLED`, which logs in `%tmp%\Microsoft.VisualStudio.Containers.Tools`.
+> - For Docker Compose projects, `MS_VS_DOCKER_TOOLS_LOGGING_ENABLED`, which logs in `%tmp%\Microsoft.VisualStudio.DockerCompose.Tools`.
+
+:::moniker-end
+
+:::moniker range="visualstudio"
+### Containers Window settings
+
+The **Containers Window** settings apply to the **Containers** window in the Visual Studio IDE, which shows information about Docker containers and images. For more information, see [Use the Containers window](view-and-diagnose-containers.md).
+
+The following table describes the **Containers Window** settings:
+
+|Setting|Default value|Description|
+|-----|---------------|-----------|
+|Confirm before pruning containers|Always|Whether to prompt you when pruning unused containers.|
+|Confirm before pruning images|Always|Whether to prompt you when pruning unused images.|
+|Confirm before removing a container|Always|Whether to prompt you when removing a container.|
+|Confirm before removing an image|Always|Whether to prompt you when removing an image.|
+|Confirm before running large number of images|Always|Whether to prompt you before starting containers from more than 10 images at a time.|
+|Display string format to use in the Containers window|Blank|A display string format to use in the Containers window, with support for {ContainerName}, {ImageName}, {ProjectName}, and {ContainerID} tokens.|
+|Group containers by the Docker Compose project|Always|Whether to group containers by the Docker Compose project they're part of.|
+
+## Configure Azure authentication
+
+If your app uses Azure services, it needs appropriate credentials to authenticate with Azure services when it runs in a container. You can usually use your own Azure credentials during development, but to run in the container environment, the containerized app requires the credentials it uses in production.
+
+Visual Studio deploys and runs a [token](https://www.nuget.org/packages/Azure.Identity#readme-body-tab) proxy service in your single-container and Docker Compose projects to help your apps and services authenticate in Azure. The feature requires [Azure Identity 1.9.0](https://www.nuget.org/packages/Azure.Identity/1.9.0#readme-body-tab) or later.
 
 With this service enabled, you can automatically use most Azure services within the container without any added configuration or setup. Your code can use `DefaultAzureCredential` and `VisualStudioCredential` to authenticate with Azure services the same way as outside of a container. For more information, see the [Azure Identity 1.9.0 README](https://www.nuget.org/packages/Azure.Identity/1.9.0#readme-body-tab).
 

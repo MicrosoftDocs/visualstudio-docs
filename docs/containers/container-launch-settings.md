@@ -21,6 +21,7 @@ For Docker Compose, choose **Manage Docker Compose Launch Settings**, and see [L
 In *launchSettings.json*, the settings in the **Docker** section are related to how Visual Studio handles containerized apps.
 
 :::moniker range="<=vs-2022"
+
 ```json
     "Docker": {
       "commandName": "Docker",
@@ -36,30 +37,35 @@ In *launchSettings.json*, the settings in the **Docker** section are related to 
       "sslPort": 44360
     }
 ```
+
 :::moniker-end
 
 :::moniker range="visualstudio"
+
 ```json
-    "Docker": {
+    "Container (Dockerfile)": {
       "commandName": "Docker",
       "launchBrowser": true,
       "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
-      "containerRunArguments": "-l mylabel=value",
       "environmentVariables": {
-        "ASPNETCORE_URLS": "https://+:443;http://+:80",
-        "ASPNETCORE_HTTPS_PORT": "44360"
+        "ASPNETCORE_HTTPS_PORTS": "8081",
+        "ASPNETCORE_HTTP_PORTS": "8080"
       },
-      "httpPort": 51803,
-      "useSSL": true,
-      "sslPort": 44360
+      "publishAllPorts": true,
+      "useSSL": true
     }
 ```
+
 :::moniker-end
 
 The commandName setting identifies that this section applies to Container Tools.
 
 :::moniker range=">=vs-2022"
 Most of the settings in `launchSettings.json` are available and applicable whether you're using a Dockerfile, or using the .NET SDK's built-in container build support (available for .NET 7 and later).
+:::moniker-end
+
+:::moniker range="visualstudio"
+If you need different settings for Docker and Podman configurations, you can create a new launch profile for Podman. Copy the Container launch profile section, rename it `Podman`, and set the properties as needed in both sections. Once saved, both profiles appear in the launch dropdown.
 :::moniker-end
 
 The following table shows the properties that can be set in this section:
