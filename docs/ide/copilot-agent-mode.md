@@ -111,6 +111,13 @@ To stop a build, select **Build** in the top toolbar, and then select **Cancel**
 
 ## Frequently asked questions
 
+#### What visibility does Agent mode have into my files?
+Agent mode can only manipulate local files that are part of the solution, or are located in the open solution directory or its subdirectories.
+
+Files and directories excluded by file exclusion are not visible to agent mode.
+
+When running terminal commands, Agent mode has the same permissions as the running Visual Studio process and is not limited to the restrictions above. Carefully review proposed terminal commands before running them.
+
 #### I don't see Ask and Agent mode in the GitHub Copilot Chat window.
 
 Take the following troubleshooting steps in the order specified:
