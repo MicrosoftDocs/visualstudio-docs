@@ -1,7 +1,7 @@
 ---
 title: Profile with GitHub Copilot
 description: Use the Copilot Profiler Agent in Visual Studio to collect CPU and memory traces and get AI-driven performance insights and fixes.
-ms.date: 8/22/2025
+ms.date: 8/26/2025
 ms.update-cycle: 180-days
 ms.topic: how-to
 dev_langs:
@@ -46,8 +46,8 @@ For general information about Copilot agents and agent mode, see [Use Copilot ag
 To get started, you need:
 
 + Visual Studio version 18.0.0 Preview 1 or later
-+ [Sign in to Visual Studio using a GitHub account](../ide/work-with-github-accounts.md) with [Copilot access](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot)
-+ [GitHub Copilot](../ide/visual-studio-github-copilot-install-and-states.md) and the Copilot Chat experience installed in Visual Studio
++ [Sign in to Visual Studio using a GitHub account](work-with-github-accounts.md) with [Copilot access](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot) <br/>
+  <sup>**</sup> You can use [GitHub Copilot for Free](copilot-free-plan.md). Sign up and leverage AI to code faster and more efficiently.
 
 ## Profile using the Copilot Profiler Agent
 
@@ -177,7 +177,7 @@ The following example shows how to collect performance data with the Copilot Pro
 
    The agent also provides a couple of suggestions for next steps, including an option to optimize the LINQ query.
 
-   ![Screenshot of code optimizations.](../profiling/media/dev18/profiling-agent-suggested-fixes.png) 
+   ![Screenshot of code suggestions.](../profiling/media/dev18/profiling-agent-suggested-fixes.png) 
 
    For this example, you focus on optimizing the LINQ query.
 
@@ -187,7 +187,7 @@ The following example shows how to collect performance data with the Copilot Pro
 
 1. Take a look at code changes in **Program.cs**.
 
-   ![Screenshot of code optimizations.](../profiling/media/dev18/profiling-agent-query-code-changes.png) 
+   ![Screenshot of code changes.](../profiling/media/dev18/profiling-agent-query-code-changes.png) 
 
 1. In the lower right of the code editor, examine the code changes and select **Keep** to keep them.
 
