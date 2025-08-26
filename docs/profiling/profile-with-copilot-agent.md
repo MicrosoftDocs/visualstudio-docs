@@ -1,6 +1,6 @@
 ---
 title: Profile with GitHub Copilot
-description: Use the Copilot Profiling Agent to collect CPU and memory traces and get AI-driven performance insights and fixes.
+description: Use the Copilot Profiling Agent in Visual Studio to collect CPU and memory traces and get AI-driven performance insights and fixes.
 ms.date: 8/22/2025
 ms.update-cycle: 180-days
 ms.topic: how-to
@@ -20,7 +20,7 @@ ms.collection: ce-skilling-ai-copilot
 monikerRange: '>= visualstudio'
 ---
 
-# Profile your app with GitHub Copilot in Visual Studio
+# Profile your app with GitHub Copilot
 
 In this article, you'll learn how to profile applications and improve performance using the Copilot Profiling Agent.
 
@@ -51,7 +51,7 @@ To get started, you need:
 
 ## Profile using the Copilot Profiling Agent
 
-The following example shows how to collect performance data with the Copilot Profiling Agent and use Copilot to analyze the results and suggest fixes.
+The following example shows how to collect performance data with the Copilot Profiling Agent and use it to analyze the results and suggest fixes.
 
 ### Start a profiling session
 
@@ -167,21 +167,25 @@ The following example shows how to collect performance data with the Copilot Pro
 
    Results from the diagnostics session appear in a *.diagsession* file. If you prefer to manually investigate performance, use the **Open Details** link in the CPU Usage tab of the diagnostics summary page. For more information, see [Analyze performance by using CPU profiling](../profiling/cpu-usage.md).
 
-   When finished testing, the agent summarizes its finding and provides a couple of suggestions for next steps.
+   When finished testing, the agent summarizes its findings.
 
    The agent reports a potential 33% gain in efficiency, mainly by removing full-table materialization and an unnecessary `ToList()` method call.
 
    ![Screenshot of test results.](../profiling/media/dev18/profiling-agent-results.png)
 
-   In this example, you focus on optimizing the LINQ query.
+   The agent also provides a couple of suggestions for next steps, including an option to optimize the LINQ query.
+
+   ![Screenshot of code optimizations.](../profiling/media/dev18/profiling-agent-suggested-fixes.png) 
+
+   For this example, you focus on optimizing the LINQ query.
 
 1. Select the second Copilot suggestion and select **Send** to tell the agent to optimize the LINQ query chain.
 
-   The agent updates **Program.cs** and provides additional suggestions to optimize code. We will skip those suggestions to focus on the LINQ query.
+   The agent updates **Program.cs** and provides additional suggestions to optimize code. We will skip those suggestions for now.
 
 1. Take a look at code changes in **Program.cs**.
 
-   ![Screenshot of code optimizations.](../profiling/media/dev18/profiling-agent-suggested-fixes.png) 
+   ![Screenshot of code optimizations.](../profiling/media/dev18/profiling-agent-query-code-changes.png) 
 
 1. In the lower right of the code editor, examine the code changes and select **Keep** to keep them.
 
