@@ -62,8 +62,12 @@ You can set the build context in the project file by setting the `ContainerBuild
 
 Relative paths in the Dockerfile are relative to the build context, so if you change the context, be sure to update the relative paths accordingly.
 
-:::moniker range=">=vs-2022"
+:::moniker range="vs-2022"
 With Visual Studio 17.11 and later, when you add Docker support to a project, you can specify a folder for the build context. If you want to change the build context, you could delete the Dockerfile (if it doesn't have other changes you want to keep), and rerun **Add Docker support**, this time specifying the new build context. The new Dockerfile will have relative paths updated to correspond to the new build context.
+:::moniker-end
+
+:::moniker range="visualstudio"
+When you add Docker support to a project, you can specify a folder for the build context. If you want to change the build context, you could delete the Dockerfile (if it doesn't have other changes you want to keep), and rerun **Add Container Support**, this time specifying the new build context. The new Dockerfile will have relative paths updated to correspond to the new build context.
 :::moniker-end
 
 ## Use MSBuild
@@ -97,7 +101,12 @@ To view the MSBuild logs, see [Obtaining build logs with MSBuild](../msbuild/obt
 
 ## Build from the command line
 
+:::moniker range="<=vs-2022"
 Visual Studio uses Fast Mode (if enabled) to produce a container image configured to work best for development and debugging, so we don't recommend copying the docker build commands from the Output window after a Fast Mode build. To build a standard image without nonstandard optimizations, you can right-click on the Dockerfile and choose the **Build Docker image** option.
+:::moniker-end
+:::moniker range="visualstudio"
+Visual Studio uses Fast Mode (if enabled) to produce a container image configured to work best for development and debugging, so we don't recommend copying the `docker build` or `podman build` commands from the Output window after a Fast Mode build. To build a standard image without nonstandard optimizations, you can right-click on the Dockerfile and choose the **Build Image** option.
+:::moniker-end
 
 Visual Studio uses the `dev` tag to designate images that it has specially prepared to optimize the startup time during debugging. However, these images shouldn't be used outside of the context of Visual Studio. This tag is an indication the images have nonstandard modifications and customizations, for example, to support Fast Mode debugging. See [Customize Docker containers in Visual Studio](container-build.md).
 

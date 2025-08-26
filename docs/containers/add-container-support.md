@@ -4,20 +4,26 @@ description: Learn how to containerize your projects by adding container support
 author: ghogen
 ms.author: ghogen
 ms.topic: overview
-ms.date: 2/21/2025
+ms.date: 8/26/2025
 ms.subservice: container-tools
 ---
 
 # Add support for containers
 
+:::moniker range="<=vs-2022"
 You can add support for Docker containers in supported Visual Studio project types, such as ASP.NET web projects and others. See the [overview](overview.md) for information about supported project types in your version of Visual Studio.
+:::moniker-end
+
+:::moniker range="visualstudio"
+You can add support for Docker or Podman containers in supported Visual Studio project types, such as ASP.NET web projects and others. See the [overview](overview.md) for information about supported project types in your version of Visual Studio.
+:::moniker-end
 
 ::: moniker range="vs-2019"
 
 ## Prerequisites
 
 - [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
-- [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **Web Development**, **Azure Tools** workload, and/or **.NET Core cross-platform development** workload installed
+- [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, ****Azure development**** workload, and/or **.NET Core cross-platform development** workload installed
 - [.NET Core Development Tools](https://dotnet.microsoft.com/download/dotnet-core/) for development with .NET Core.
 - To publish to Azure Container Registry, an Azure subscription. [Sign up for a free trial](https://azure.microsoft.com/offers/ms-azr-0044p/).
 :::moniker-end
@@ -27,7 +33,7 @@ You can add support for Docker containers in supported Visual Studio project typ
 ## Prerequisites
 
 - [Docker Desktop](https://www.docker.com/get-docker)
-- [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **Web Development**, **Azure Tools** workload, and/or **.NET desktop development** workload installed
+- [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, ****Azure development**** workload, and/or **.NET desktop development** workload installed
 - To publish to Azure Container Registry, an Azure subscription. [Sign up for a free trial](https://azure.microsoft.com/offers/ms-azr-0044p/).
 :::moniker-end
 
@@ -36,18 +42,20 @@ You can add support for Docker containers in supported Visual Studio project typ
 ## Prerequisites
 
 - [Docker Desktop](https://www.docker.com/get-docker) or [Podman Desktop](https://podman-desktop.io/downloads).
-- [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **Web Development**, **Azure Tools** workload, and/or **.NET desktop development** workload installed
+- [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, ****Azure development**** workload, and/or **.NET desktop development** workload installed
 - To publish to Azure Container Registry, an Azure subscription. [Sign up for a free trial](https://azure.microsoft.com/offers/ms-azr-0044p/).
 :::moniker-end
 
 ### Add container support when you create a project
 
-You can enable Docker support during project creation by selecting **Enable container support** when you create a new project, as shown in the following screenshot:
+:::moniker range="vs-2019"
+You can enable support for containers during project creation by selecting **Enable Docker support** when you create a new project, as shown in the following screenshot:
 
-::: moniker range="vs-2019"
 ![Screenshot showing how to enable Docker Support for new ASP.NET Core web app in Visual Studio.](./media/overview/vs-2019/enable-docker-support-visual-studio.png)
 ::: moniker-end
 ::: moniker range=">=vs-2022"
+You can enable support for containers during project creation by selecting **Enable container support** when you create a new project, as shown in the following screenshot:
+
 ![Screenshot showing how to enable Docker Support for new ASP.NET Core web app in Visual Studio.](./media/overview/vs-2022/enable-docker-support-visual-studio.png)
 ::: moniker-end
 
@@ -74,7 +82,6 @@ You can add Docker support to an existing project by selecting **Add** > **Docke
 :::moniker range=">=vs-2022"
 You can add Docker support to an existing project by selecting **Add** > **Container Support** in **Solution Explorer**. The **Add > Container Support** and **Add > Container Orchestrator Support** commands are located on the right-click menu (or context menu) of the project node for an ASP.NET Core project in **Solution Explorer**, as shown in the following screenshot:
 :::moniker-end
-
 
 :::moniker range="<=vs-2019"
 ![Screenshot showing how to add Docker Support menu option in Visual Studio.](./media/overview/add-docker-support-menu.png)

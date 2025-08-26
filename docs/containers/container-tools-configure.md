@@ -107,7 +107,7 @@ The following settings in the **Container Warmup** section control how Visual St
 |Run containers on project open|True|Whether to create a container when loading a container project, so it's ready when you build and run. If you prefer to control when your container is created, set to **False**.|
 |Remove containers on project close|True|Whether to remove containers for your solution after closing the solution or closing Visual Studio.|
 
-The following settings in the **Debugging** section customize services available on 
+The following settings appear in the **Debugging** section:
 
 |Setting|Default value|Description|
 |-----|:---------------|-----------|

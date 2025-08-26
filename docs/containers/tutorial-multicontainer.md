@@ -3,7 +3,7 @@ title: Work with multiple containers using Docker Compose
 author: ghogen
 description: Create and manage multi-container applications with Docker Compose and Container Tools in Visual Studio, including custom launch profiles.
 ms.author: ghogen
-ms.date: 2/27/2025
+ms.date: 8/25/2025
 ms.subservice: container-tools
 ms.topic: tutorial
 ---
@@ -21,13 +21,13 @@ The completed sample that you create in this tutorial can be found on GitHub at 
 ::: moniker range="vs-2019"
 
 - [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
-- [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **Web Development**, **Azure Tools** workload, and/or **.NET cross-platform development** workload installed
+- [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, ****Azure development**** workload, and/or **.NET cross-platform development** workload installed
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
 - [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
-- [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **Web Development**, **Azure Tools** workload, and/or **.NET cross-platform development** workload installed. This installation includes the .NET 8 development tools.
+- [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, ****Azure development**** workload, and/or **.NET cross-platform development** workload installed. This installation includes the .NET SDK.
 ::: moniker-end
 
 ## Create a Web Application project

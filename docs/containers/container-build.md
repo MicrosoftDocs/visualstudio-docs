@@ -10,9 +10,9 @@ ms.topic: how-to
 
 # Customize containers in Visual Studio
 
-You can customize your container images by editing the Dockerfile that Visual Studio generates when you add Docker support to your project. Whether you're building a customized container from the Visual Studio IDE, or setting up a command-line build, you need to know how Visual Studio uses the Dockerfile to build your projects. You need to know such details because, for performance reasons, Visual Studio follows a special process for building and running containerized apps that isn't obvious from the Dockerfile.
+You can customize your container images by editing the Dockerfile that Visual Studio generates when you add container support to your project. Whether you're building a customized container from the Visual Studio IDE, or setting up a command-line build, you need to know how Visual Studio uses the Dockerfile to build your projects. You need to know such details because, for performance reasons, Visual Studio follows a special process for building and running containerized apps that isn't obvious from the Dockerfile.
 
-:::moniker range="<=vs-2022"
+:::moniker range="visualstudio"
 Suppose you want to make a change in the Dockerfile and see the results in both debugging and in production containers. In that case, you can add commands in the Dockerfile to modify the first stage (usually `base`). See [Modify the container image for debugging and production](container-debug-customization.md#modify-container-image-for-debugging-and-production). But, if you want to make a change only when debugging, but not production, then you should create another stage, and use the `ContainerFastModeStage` build setting to tell Visual Studio to use that stage for debug builds. See [Modify the container image only for debugging](container-debug-customization.md#modify-container-image-only-for-debugging).
 :::moniker-end
 
@@ -82,6 +82,8 @@ The final stage starts again from `base`, and includes the `COPY --from=publish`
 
 The following table summarizes the stages used in the typical Dockerfile created by Visual Studio:
 
+:::moniker range=">=vs-2022"
+
 | Stage | Description |
 | - | - |
 | base | Creates the base runtime image where the built app is published. Settings that need to be available at runtime go here, such as ports and environment variables. This stage is used when running from VS in fast mode (Default for Debug configuration). |
@@ -92,15 +94,35 @@ The following table summarizes the stages used in the typical Dockerfile created
 
 > [!NOTE]
 > The `aotdebug` stage is only supported for Linux containers. It is used in Visual Studio 2022 17.11 and later if [native Ahead Of Time (AOT) deployment](/dotnet/core/deploying/native-aot) is enabled on the project.
+:::moniker-end
+:::moniker range="vs-2019"
+
+| Stage | Description |
+| - | - |
+| base | Creates the base runtime image where the built app is published. Settings that need to be available at runtime go here, such as ports and environment variables. This stage is used when running from VS in fast mode (Default for Debug configuration). |
+| build | The project is built in this stage. The .NET SDK base image is used, which has the components required to build your project. |
+| publish | This stage derives from the build stage and publishes your project, which will be copied to the final stage. |
+| final | This stage configures how to start the app and is used in production or when running from VS in regular mode (Default when not using the Debug configuration). |
+
+:::moniker-end
 
 ## Project warmup
 
-*Project warmup* refers to a series of steps that happen when the Docker profile is selected for a project (that is, when a project is loaded or Docker support is added) in order to improve the performance of subsequent runs (**F5** or **Ctrl**+**F5**). This behavior is configurable under **Tools** > **Options** > **Container Tools**. Here are the tasks that run in the background:
+*Project warmup* refers to a series of steps that happen when the Container profile is selected for a project (that is, when a project is loaded or container support is added) in order to improve the performance of subsequent runs (**F5** or **Ctrl**+**F5**). This behavior is configurable under **Tools** > **Options** > **Container Tools**. Here are the tasks that run in the background:
 
+:::moniker range="visualstudio"
+- Check that the container runtime (Docker Desktop or Podman) is installed and running.
+- Ensure that Docker Desktop is set to the same operating system as the project. (This check is not applicable to Podman, which only supports Linux containers.)
+- Pull the images in the first stage of the Dockerfile (the `base` stage in most Dockerfiles).
+- Build the Dockerfile and start the container.
+:::moniker-end
+
+:::moniker range="<=vs-2022"
 - Check that Docker Desktop is installed and running.
 - Ensure that Docker Desktop is set to the same operating system as the project.
 - Pull the images in the first stage of the Dockerfile (the `base` stage in most Dockerfiles).
 - Build the Dockerfile and start the container.
+:::moniker-end
 
 Warmup only happens in **Fast** mode, so the running container has the *app* folder volume-mounted. That means that any changes to the app don't invalidate the container. This behavior improves the debugging performance significantly and decreases the wait time for long running tasks such as pulling large images.
 

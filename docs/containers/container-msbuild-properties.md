@@ -12,6 +12,18 @@ ms.topic: reference
 
 You can customize how Visual Studio builds your container projects by setting the properties that MSBuild uses to build your project. For example, you can change the name of the Dockerfile, specify tags and labels for your images, provide additional arguments passed to Docker commands, and control whether Visual Studio does certain performance optimizations such as building outside of the container environment. You can also set debugging properties such as the name of the executable to launch, and the command line arguments to provide.
 
+:::moniker range="<=vs-2022"
+To set the value of a property, edit the project file. For example, suppose your Dockerfile is named *MyDockerfile*. You can set the `ContainerPath` property in the project file as follows.
+
+```xml
+<PropertyGroup>
+   <ContainerPath>MyDockerfile</ContainerPath>
+</PropertyGroup>
+```
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
 To set the value of a property, edit the project file. For example, suppose your Dockerfile is named *MyDockerfile*. You can set the `DockerfileFile` property in the project file as follows.
 
 ```xml
@@ -19,6 +31,8 @@ To set the value of a property, edit the project file. For example, suppose your
    <DockerfileFile>MyDockerfile</DockerfileFile>
 </PropertyGroup>
 ```
+
+:::moniker-end
 
 You can add the property setting to an existing `PropertyGroup` element, or if there isn't one, create a new `PropertyGroup` element.
 
@@ -102,6 +116,7 @@ Some properties listed as obsolete are replaced by equivalent values in *launchs
 The following project file shows examples of some of these settings.
 
 :::moniker range="visualstudio"
+
 ```xml
  <Project Sdk="Microsoft.NET.Sdk.Web">
 
@@ -129,12 +144,13 @@ The following project file shows examples of some of these settings.
 ```
 
 > [!NOTE]
-> The build context, which you can set by providing a value for `ContainerBuildContext` (or `DockerfileContext`), is usually different in Visual Studio for projects targeting .NET Core (including .NET 5 and later) from what `docker build` uses when you run it from the command line. The departure from the behavior of `docker build` is necessary to ensure that build artifacts at the solution level can be included.
+> The build context, which you can set by providing a value for `ContainerBuildContext` (or `DockerfileContext`), is usually different in Visual Studio for projects from what `docker build` (or `podman build`) uses when you run it from the command line. The departure from the behavior of the build command line is necessary to ensure that build artifacts at the solution level can be included.
 >
-> When you call `docker build`, you always specify a build context, and you can optionally specify a path to the Dockerfile. The default is that the Dockerfile is in the root of the context, but you can use the `-f` flag to specify an alternate location. For example, you can build with `docker build -f Dockerfile ..` from the project directory, or `docker build -f ProjectName/Dockerfile .` from the solution directory.
+> When you call `docker build` (or `podman build`), you always specify a build context, and you can optionally specify a path to the Dockerfile. The default is that the Dockerfile is in the root of the context, but you can use the `-f` flag to specify an alternate location. For example, you can build with `docker build -f Dockerfile ..` from the project directory, or `docker build -f ProjectName/Dockerfile .` from the solution directory.
 :::moniker-end
 
 :::moniker range="<=vs-2022"
+
 ```xml
  <Project Sdk="Microsoft.NET.Sdk.Web">
 

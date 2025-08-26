@@ -17,8 +17,23 @@ For debugging to work in containers, Visual Studio uses volume mapping to map th
 
 ## Prerequisites
 
+:::moniker range="visualstudio"
 - [Docker Desktop](https://docs.docker.com/desktop/install/windows-install/) or [Podman Desktop](https://podman-desktop.io/downloads).
-- [Visual Studio 2019 or later](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **Web Development**, **Azure Tools** workload, and/or **.NET desktop development** workload installed
+- [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET desktop development** workload installed
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+- [Docker Desktop](https://docs.docker.com/desktop/install/windows-install/).
+- [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET desktop development** workload installed
+
+:::moniker-end
+
+:::moniker range="vs-2019"
+- [Docker Desktop](https://docs.docker.com/desktop/install/windows-install/).
+- [Visual Studio 2019 or later](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET desktop development** workload installed
+
+:::moniker-end
 
 ## Volume mounts in Visual Studio container images
 
@@ -100,12 +115,12 @@ You can mount another volume by specifying command-line arguments for the contai
    "containerRunArguments": "-v myvolume:/scratch"
    ```
 
-   Refer to the container hosting environment provider's documentation for the command-line syntax for the [Docker -v or --mount](https://docs.docker.com/engine/storage/volumes/#choose-the--v-or---mount-flag) options, or [Podman -v option](https://docs.podman.io/en/v4.6.1/markdown/options/volume.html) and [Podman --mount option](https://docs.podman.io/en/v4.6.1/markdown/options/mount.html).
+   Refer to the container hosting environment provider's documentation for the command-line syntax for the [Docker -v or --mount](https://docs.docker.com/engine/storage/volumes/#choose-the--v-or---mount-flag) options, or the [Podman -v option](https://docs.podman.io/en/v4.6.1/markdown/options/volume.html) and the [Podman --mount option](https://docs.podman.io/en/v4.6.1/markdown/options/mount.html).
 
 :::moniker-end
 
 ## Related content
 
-- [Customize Docker containers in Visual Studio](container-build.md)
+- [Customize containers in Visual Studio](container-build.md)
 - [Dockerfile on Windows](/virtualization/windowscontainers/manage-docker/manage-windows-dockerfile)
 - [Linux containers on Windows](/virtualization/windowscontainers/deploy-containers/linux-containers)

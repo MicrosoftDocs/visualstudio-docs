@@ -26,16 +26,16 @@ If you don't have an Azure subscription, create a [free account](https://azure.m
 
 - Install [Docker Desktop for Windows](https://docs.docker.com/desktop/windows/install/).
 ::: moniker-end
-::: moniker range=">=vs-2022"
+::: moniker range="vs-2022"
 
-- Install the latest version of [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the "ASP.NET and web development" workload.
+- Install [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the "ASP.NET and web development" workload.
 
 - Install [Docker Desktop for Windows](https://docs.docker.com/desktop/windows/install/).
 :::moniker-end
 
 ::: moniker range="visualstudio"
 
-- Install the latest version of [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the "ASP.NET and web development" workload.
+- Install [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the "ASP.NET and web development" workload.
 
 - Install [Docker Desktop for Windows](https://docs.docker.com/desktop/windows/install/) or [Podman Desktop](https://podman-desktop.io/downloads).
 

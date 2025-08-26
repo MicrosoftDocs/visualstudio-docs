@@ -23,13 +23,19 @@ If you don't have an Azure subscription, create a [free account](https://azure.m
 To complete this tutorial:
 
 ::: moniker range="vs-2019"
-- [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the *ASP.NET and web development* workload.
+- [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development** workload.
 ::: moniker-end
 ::: moniker range=">=vs-2022"
-- [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the *ASP.NET and web development* workload.
+- [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development** workload.
 ::: moniker-end
 
+:::moniker range="visualstudio"
 - Install [Docker Desktop](https://docs.docker.com/docker-for-windows/install/) or [Podman Desktop](https://podman-desktop.io/downloads).
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+- Install [Docker Desktop](https://docs.docker.com/docker-for-windows/install/).
+:::moniker-end
 
 ## Create an ASP.NET Core web app
 
@@ -38,7 +44,7 @@ The following steps guide you through creating a basic ASP.NET Core app that wil
 1. From the Visual Studio start window, choose **Create a new project**.
 1. Choose **ASP.NET Core Web App**, and choose **Next**.
 1. Give your new application a name (or take the default) and choose **Next**.
-1. Choose the .NET version you want to target. If you're not sure, choose the .NET 8.0 version.
+1. Choose the .NET version you want to target.
 1. Choose whether or not you want SSL support by using the **Configure for HTTPS** checkbox.
 1. Select the **Enable Docker Support** checkbox.
 1. Select the container type, and click **Create**.
