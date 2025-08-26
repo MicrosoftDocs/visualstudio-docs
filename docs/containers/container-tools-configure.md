@@ -139,9 +139,7 @@ The following table describes the **Containers Tool Window** settings:
 
 The **Containers Window** settings apply to the **Containers** window in the Visual Studio IDE, which shows information about Docker containers and images. For more information, see [Use the Containers window](view-and-diagnose-containers.md).
 
-:::moniker range="vs-2022"
 ![Screenshot of the Visual Studio Container Tools Options, showing the settings available for the Containers Window.](media/configure-container-tools/vs-2022/containers-window.png)
-:::moniker-end
 
 The following table describes the **Containers Window** settings:
 
