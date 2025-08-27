@@ -106,5 +106,5 @@ If, for example, you want to open a file that has a path containing spaces, you 
 
 ## See also
 
-- [Visual Studio Command Aliases](../../ide/reference/visual-studio-command-aliases.md)
-- [Visual Studio Commands](../../ide/reference/visual-studio-commands.md)
+- [Visual Studio Command Aliases](reference/visual-studio-command-aliases.md)
+- [Visual Studio Commands](reference/visual-studio-commands.md)

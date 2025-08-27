@@ -167,4 +167,4 @@ To remove trusted paths, follow these steps:
 
 ## See also
 
-[Build an application in Visual Studio](../walkthrough-building-an-application.md)
+[Build an application in Visual Studio](walkthrough-building-an-application.md)
