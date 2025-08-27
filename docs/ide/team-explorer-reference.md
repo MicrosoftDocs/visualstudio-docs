@@ -33,7 +33,7 @@ The **Home** page has different functions depending on whether you're connected 
 
 | **Home** page with Git | **Home** page with TFVC |
 | - | - |
-| ![Team Explorer Home page with Git in Visual Studio 2019](reference/media/team-explorer-reference/team-explorer-git.png) | ![Team Explorer Home page with TFVC in Visual Studio](reference/media/team-explorer-reference/team-explorer-tfvc.png) |
+| ![Team Explorer Home page with Git in Visual Studio 2019](media/team-explorer-reference/team-explorer-git.png) | ![Team Explorer Home page with TFVC in Visual Studio](media/team-explorer-reference/team-explorer-tfvc.png) |
 
 ## Changes page (Git)
 
