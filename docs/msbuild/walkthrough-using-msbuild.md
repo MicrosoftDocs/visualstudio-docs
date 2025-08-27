@@ -145,12 +145,13 @@ The `Message` task takes the string value of the `Text` attribute as input and d
 
 If you try to build this project from Visual Studio, it doesn't build the target you defined. That's because Visual Studio chooses the default target, which is still the one in the imported `.targets` file. To build your target in Visual Studio, you can chain it to one of the default targets by using certain attributes on the `Target` element, such as `AfterTargets` or `BeforeTargets`. Here's how to get your HelloWorld target to run after the default `Build` target:
 
-    ```xml
-    <Target Name="HelloWorld" AfterTargets="Build">
-      <Message Text="Hello"></Message>
-      <Message Text="World"></Message>
-    </Target>
-    ```
+```xml
+<Target Name="HelloWorld" AfterTargets="Build">
+    <Message Text="Hello"></Message>
+    <Message Text="World"></Message>
+</Target>
+```
+
 Run the build again in Visual Studio, and look in the **Build** tab of the **Output** window to see the Hello World messages.
 
 You can also specify desired targets by running MSBuild from the command line. In this section, you'll run MSBuild from the **Developer Command Prompt** for Visual Studio to build the HelloWorld target. Use the `-target` or `-t` command-line switch to select the target.
