@@ -2,7 +2,7 @@
 title: Command Window
 description: Learn how you can use the Command window to execute commands or aliases directly in the Visual Studio IDE.
 ms.date: 8/27/2025
-ms.topic: conceept-article
+ms.topic: concept-article
 f1_keywords:
 - VS.CommandWindow
 helpviewer_keywords:

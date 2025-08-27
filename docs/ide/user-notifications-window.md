@@ -29,7 +29,7 @@ You can also press **Ctrl**+**Q** to bring up **Feature Search**, and type in `N
 
 The following image shows a typical user notification, showing that a new preview is available for installation:
 
-![Screenshot showing the User Notifications tool window.](reference/media/vs-2022/user-notifications.png)
+![Screenshot showing the User Notifications tool window.](media/vs-2022/user-notifications.png)
 
 If you click on the **View details** link, the Visual Studio installer opens. Close any other instance of the installer before clicking the link. To install later, you can choose the **Update on close** link. Visual Studio will start the update the next time you close the IDE.
 

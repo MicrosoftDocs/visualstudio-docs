@@ -68,7 +68,7 @@ If you use autoscrolling in the **Output** window and then navigate by using the
 
 ## Structured Diagnostics
 
-C++ MSBuild projects might emit structured diagnostics. The level of indentation of a diagnostic in the **Output** window represents the nested structure of the information. Enable or disable indentation with the **Project** > **Properties** > **Advanced** > **Enable MSVC Structured Output** option. You can affect several projects by creating a [Directory.Build.props](../msbuild/customize-by-directory) file with the **UseStructuredOutput** property defined to true or false.
+C++ MSBuild projects might emit structured diagnostics. The level of indentation of a diagnostic in the **Output** window represents the nested structure of the information. Enable or disable indentation with the **Project** > **Properties** > **Advanced** > **Enable MSVC Structured Output** option. You can affect several projects by creating a [Directory.Build.props](../msbuild/customize-by-directory.md) file with the **UseStructuredOutput** property defined to true or false.
 
 ## See also
 
