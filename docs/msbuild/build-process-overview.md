@@ -13,7 +13,7 @@ ms.custom: peer-review-program
 ---
 # How MSBuild builds projects
 
-MSBuild is Microsoft's build engine that is used to build most Visual Studio projects. MSBuild invokes compilers to build your code, but also includes flexible configuration and customization options, and infrastructure for creating not just compiled binaries, but also a wide range of other output artifacts. MSBuild is very configurable and customizable, but to get the most out of this customizability, it's important to understand how MSBuild works. In this article, you'll learn how MSBuild processes your project files, whether invoked from Visual Studio, or from a command line or script. Knowing how MSBuild works can help you better diagnose problems and better customize your build process. This article describes the build process and is largely applicable to all project types.
+MSBuild is Microsoft's build engine that is used to build most Visual Studio projects. MSBuild invokes compilers and other tools to build your code, but also includes flexible configuration and customization options, and infrastructure for creating not just compiled binaries, but also a wide range of other output artifacts. MSBuild is very configurable and customizable, but to get the most out of this customizability, it's important to understand how MSBuild works. In this article, you'll learn how MSBuild processes your project files, whether invoked from Visual Studio, or from a command line or script. Knowing how MSBuild works can help you better diagnose problems and better customize your build process. This article describes the build process and is largely applicable to all project types.
 
 The complete build process consists of
 
