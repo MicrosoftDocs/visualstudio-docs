@@ -777,19 +777,20 @@
       href: ide/error-list-window.md
     - name: Output window
       href: ide/command-window.md
+    - name: Configure warnings in Visual Basic
+      href: ide/configuring-warnings-in-visual-basic.md
+      - name: Specify build events (Visual Basic)
+    href: ide/how-to-specify-build-events-visual-basic.md
+  - name: Specify build events (C#)
+    href: ide/how-to-specify-build-events-csharp.md
+
+  - name: 'Walkthrough: Create a multiple-computer build environment'
+    href: ide/walkthrough-creating-a-multiple-computer-build-environment.md
   - name: MSBuild >>
     href: msbuild/msbuild.md
   - name: Azure Pipelines and Azure DevOps Server >>
     displayName: VSTS Azure DevOps CI/CD Continuous integration delivery
     href: /azure/devops/pipelines/index?view=vsts&preserve-view=true
-  - name: Specify build events (Visual Basic)
-    href: ide/how-to-specify-build-events-visual-basic.md
-  - name: Specify build events (C#)
-    href: ide/how-to-specify-build-events-csharp.md
-  - name: Configure warnings in Visual Basic
-    href: ide/configuring-warnings-in-visual-basic.md
-  - name: 'Walkthrough: Create a multiple-computer build environment'
-    href: ide/walkthrough-creating-a-multiple-computer-build-environment.md
 - name: Debug >>
   href: debugger/index.yml
 - name: Git in Visual Studio
