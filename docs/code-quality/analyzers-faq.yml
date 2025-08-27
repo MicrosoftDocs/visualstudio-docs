@@ -1,7 +1,7 @@
 ### YamlMime:FAQ
 metadata:
   title: EditorConfig versus analyzers
-  ms.date: 10/05/2021
+  ms.date: 08/15/2025
   description: Learn about .NET Compiler Platform-based code analysis in Visual Studio. See answers to questions about EditorConfig files, rule sets, and other topics.
   ms.topic: faq
   helpviewer_keywords:
@@ -30,23 +30,25 @@ sections:
         answer: |
           Rule sets and EditorConfig files can coexist and can both be used to configure analyzers. Both EditorConfig files and rule sets let you enable and disable rules and set their severity.
 
-          However, EditorConfig files offer additional ways to configure rules too:
+          However, in Visual Studio 2019 version 16.5 and later, rule set files are deprecated in favor of EditorConfig files, and .NET Core and .NET 5+ projects don't support all the rule set menu commands. For more information, see [Convert an existing rule set file to an EditorConfig file](../code-quality/use-roslyn-analyzers.md#convert-an-existing-rule-set-file-to-an-editorconfig-file).
+
+          EditorConfig files offer additional ways to configure rules:
 
           - For the .NET code-quality analyzers, EditorConfig files let you [define which types of code to analyze](/dotnet/fundamentals/code-analysis/code-quality-rule-options).
-          - For the .NET code-style analyzers that are built into Visual Studio, EditorConfig files let you [define the preferred code styles](/dotnet/fundamentals/code-analysis/code-style-rule-options) for a codebase.
+          - For the .NET code-style analyzers and .NET code-quality analyzers, EditorConfig files let you [define the preferred code styles](/dotnet/fundamentals/code-analysis/code-style-rule-options) for a codebase.
 
           In addition to rule sets and EditorConfig files, some analyzers are configured through the use of text files marked as [additional files](../ide/build-actions.md#build-action-values) for the C# and VB compilers.
 
           > [!NOTE]
           > - EditorConfig files can only be used to enable rules and set their severity in Visual Studio 2019 version 16.3 and later.
-          > - EditorConfig files cannot be used to configure legacy analysis, whereas rule sets can.
+          > - EditorConfig files can't be used to configure legacy analysis, whereas rule sets can.
 
   - name: Code analysis in continuous integration (CI) builds
     questions:
       - question: |
           Does .NET Compiler Platform-based code analysis work in continuous integration (CI) builds?
         answer: |
-          Yes. For analyzers that are installed from a NuGet package, those rules are [enforced at build time](roslyn-analyzers-overview.md#build-errors), including during a CI build. Analyzers used in CI builds respect rule configuration from both rule sets and EditorConfig files. Currently, the code analyzers that are built into Visual Studio are not available as a NuGet package, and so these rules are not enforceable in a CI build.
+          Yes. For analyzers that are installed with .NET SDK 5.0 or higher, or from a NuGet package, those rules are [enforced at build time](roslyn-analyzers-overview.md#build-errors), including during a CI build. Analyzers used in CI builds respect rule configuration from both rule sets and EditorConfig files. Starting with .NET 5.0, the code style analyzers that are built into Visual Studio are also included in the .NET SDK, and most of them are enforceable in a CI build. For more information, see [Enable on build](/dotnet/fundamentals/code-analysis/overview?tabs=net-9#enable-on-build).
 
   - name: IDE analyzers versus StyleCop
     questions:
@@ -69,7 +71,7 @@ sections:
       - question: |
           What's the difference between FxCop analyzers and .NET analyzers?
         answer: |
-          Both FxCop analyzers and .NET analyzers refers to the .NET Compiler Platform ("Roslyn") analyzer implementations of FxCop CA rules. Prior to Visual Studio 2019 16.8 and .NET 5.0, these analyzers shipped as `Microsoft.CodeAnalysis.FxCopAnalyzers` [NuGet package](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers). Starting in Visual Studio 2019 16.8 and .NET 5.0, these analyzers are [included with the .NET SDK](/dotnet/fundamentals/code-analysis/overview). They are also available as `Microsoft.CodeAnalysis.NetAnalyzers` [NuGet package](https://www.nuget.org/packages/Microsoft.CodeAnalysis.NetAnalyzers). Please consider [migrating from FxCop analyzers to .NET analyzers](migrate-from-fxcop-analyzers-to-net-analyzers.md).
+          Both FxCop analyzers and .NET analyzers refers to the .NET Compiler Platform ("Roslyn") analyzer implementations of FxCop CA rules. Prior to Visual Studio 2019 16.8 and .NET 5.0, these analyzers shipped as `Microsoft.CodeAnalysis.FxCopAnalyzers` [NuGet package](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers). Starting in Visual Studio 2019 16.8 and .NET 5.0, these analyzers are [included with the .NET SDK](/dotnet/fundamentals/code-analysis/overview). They're also available as `Microsoft.CodeAnalysis.NetAnalyzers` [NuGet package](https://www.nuget.org/packages/Microsoft.CodeAnalysis.NetAnalyzers). Please consider [migrating from FxCop analyzers to .NET analyzers](migrate-from-fxcop-analyzers-to-net-analyzers.md).
 
   - name: Treat warnings as errors
     questions:

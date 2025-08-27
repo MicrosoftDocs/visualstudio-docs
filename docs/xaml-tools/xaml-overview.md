@@ -1,7 +1,7 @@
 ---
 title: Use the XAML code editor and XAML Designer tools
 description: Get basic information about the Extensible Application Markup Language (XAML) and how to work with the XAML code editor and XAML Designer tools in Visual Studio.
-ms.date: 06/23/2020
+ms.date: 08/15/2025
 ms.topic: overview
 author: maddymontaquila
 ms.author: maleger
@@ -13,9 +13,10 @@ ms.subservice: xaml-tools
 Extensible Application Markup Language (XAML) is a declarative language that's based on XML. XAML is used extensively in the following types of applications to build user interfaces:
 
 - [Windows Presentation Foundation (WPF) apps](/dotnet/framework/wpf/advanced/xaml-in-wpf)
-- [Universal Windows Platform (UWP) apps](/windows/uwp/xaml-platform/xaml-overview)
-- [Xamarin.Forms apps](/xamarin/xamarin-forms/xaml/)
 - [.NET MAUI apps](/dotnet/maui/xaml)
+- [WinUI](/windows/apps/winui/winui3/)
+- [Universal Windows Platform (UWP) apps](/windows/uwp/xaml-platform/xaml-overview)
+- [Xamarin.Forms apps](/xamarin/xamarin-forms/xaml/) (unsupported)
 
 The following XAML code defines a simple button control.
 

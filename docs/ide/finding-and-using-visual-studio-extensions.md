@@ -1,7 +1,7 @@
 ---
-title: Find & manage extension packages
-description: Learn about extensions in Visual Studio and how to manage them so you have the controls, samples, templates, tools, and other components you need.
-ms.date: 09/05/2024
+title: Find and Manage Extension Packages
+description: Learn about extensions in Visual Studio and how to manage them so you have the controls, samples, templates, tools, and other components that you need.
+ms.date: 08/18/2025
 ms.topic: how-to
 f1_keywords:
 - vs.ExtensionManager
@@ -26,7 +26,7 @@ This article describes how to find, install, and manage extension packages in Vi
 For information about creating Visual Studio extensions, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md). For information about using extensions, see the individual extension page on [Visual Studio Marketplace](https://marketplace.visualstudio.com/vs). For information about finding extensions, see the [Where Are My Favorite Extensions in Visual Studio 2022?](https://devblogs.microsoft.com/visualstudio/where-are-my-favorite-extensions-in-visual-studio-2022/) blog post.
 
 > [!NOTE]
-> To learn more about a new extensibility model that's currently in preview, see the [Build Better Extensions with VisualStudio.Extensibility (Preview 3)](https://devblogs.microsoft.com/visualstudio/visualstudio-extensibility-preview-3/) blog post.
+> To learn more about an extensibility model that's currently in preview, see the [Build Better Extensions with VisualStudio.Extensibility (Preview 3)](https://devblogs.microsoft.com/visualstudio/visualstudio-extensibility-preview-3/) blog post.
 
 ::: moniker-end
 
@@ -40,7 +40,7 @@ For information about creating Visual Studio extensions, see [Visual Studio SDK]
 
 ## Use Extension Manager 
 
-In the Visual Studio IDE, Extension Manager is the tool you use to find, install, and manage Visual Studio extensions. To open Extension Manager, select **Extensions** > **Manage Extensions**. Or type **extensions** in the search box and select **Manage Extensions**.
+In the Visual Studio IDE, Extension Manager is the tool that you use to find, install, and manage Visual Studio extensions. To open Extension Manager, select **Extensions** > **Manage Extensions**. Or enter **extensions** in the search box and select **Manage Extensions**.
 
 ::: moniker range=">=vs-2022"
 
@@ -58,9 +58,9 @@ The left pane categorizes extensions by those that are available on Visual Studi
 
 :::moniker range=">=vs-2022"
 
-Tabs have command buttons to filter and sort extensions, and a gear icon that takes you to the **Tools** > **Options** screen.
+Tabs have buttons to filter and sort extensions, and a gear button that takes you to the **Tools** > **Options** screen.
 
-Use the filter command button to filter extensions by category, which includes **Enabled**, **Disabled**, or **Incompatible** extensions. In 17.14 and later, you can also filter by **Pending**, which means extensions that have updates that will be available the next time you restart Visual Studio.
+You can use the filter button to filter extensions by category. Categories for **Installed** extensions include **Enabled**, **Disabled**, and **Incompatible**. In 17.14 and later, you can also filter by **Pending**, which filters by extensions with updates that will be applied the next time you restart Visual Studio.
 
 Use the sort button to sort by extension name, extension author, or date.
 
@@ -80,27 +80,27 @@ To install extensions from Visual Studio:
 
   After the download completes, you see a notification at the top of Extension Manager: "Your changes are scheduled. The modifications will begin when Microsoft Visual Studio is closed."
 
-  :::image type="content" source="media/finding-and-using-visual-studio-extensions/manage-extensions-install-notification.png" alt-text="Screenshot of a notification in Extension Manager." lightbox="media/finding-and-using-visual-studio-extensions/manage-extensions-install-notification.png":::
+  :::image type="content" source="media/finding-and-using-visual-studio-extensions/manage-extensions-install-notification.png" alt-text="Screenshot that shows the notification in Extension Manager stating that changes are scheduled." lightbox="media/finding-and-using-visual-studio-extensions/manage-extensions-install-notification.png":::
 
 ::: moniker-end
 
 ::: moniker range="<=vs-2019"
 
-After download completes, you'll see a notification at the bottom of the Manage Extensions dialog box: "The extension is scheduled for install. Your extension will be installed after all instances of Visual Studio have been closed."
+After the download completes, you'll see a notification at the bottom of the Manage Extensions dialog: "The extension is scheduled for install. Your extension will be installed after all instances of Visual Studio have been closed."
 
-  :::image type="content" source="media/vs-2019/manage-extensions-install-notification.png" alt-text="Screenshot of a notification in Extension Manager." lightbox="media/vs-2019/manage-extensions-install-notification.png":::
+  :::image type="content" source="media/vs-2019/manage-extensions-install-notification.png" alt-text="Screenshot that shows the notification in Extension Manager stating that changes are scheduled." lightbox="media/vs-2019/manage-extensions-install-notification.png":::
 
 ::: moniker-end
 
 If you try to install an extension that has dependencies, the installer determines whether they're already installed. If they aren't installed, Extension Manager lists the dependencies that must be installed before you can install the extension.
 
-### Install without using Extension Manager
+### Install extensions without using Extension Manager
 
-Extensions that are packaged in *.vsix* files might be available in locations other than Visual Studio Marketplace. The **Extensions** > **Extension Manager** dialog can't detect these files, but you can install a *.vsix* file by double-clicking the file or selecting the file and then selecting **Enter**. If you run into permission issues, ensure you are running Visual Studio as an administrator. After that, just follow the instructions. When the extension is installed, you can use Extension Manager to enable it, disable it, or uninstall it.
+Extensions that are packaged in *.vsix* files might be available in locations other than Visual Studio Marketplace. The **Extensions** > **Extension Manager** dialog can't detect these files, but you can install a *.vsix* file by double-clicking the file or selecting the file and then selecting **Enter**. If you encounter permission issues, ensure that you're running Visual Studio as an administrator. After that, just follow the instructions. When the extension is installed, you can use Extension Manager to enable it, disable it, or uninstall it.
 
 > [!NOTE]
-> - Visual Studio Marketplace contains both .vsix-based and .msi-based extensions. Extension Manager can't enable or disable .msi-based extensions.
-> - If an .msi-based extension includes an *extension.vsixmanifest* file, the extension appears in **Extension Manager**.
+> - Visual Studio Marketplace contains both VSIX-based and MSI-based extensions. Extension Manager can't enable or disable MSI-based extensions.
+> - If an MSI-based extension includes an *extension.vsixmanifest* file, the extension appears in Extension Manager.
 
 ## Uninstall or disable an extension
 
@@ -147,35 +147,35 @@ Extensions are updated automatically when a new version is available on Visual S
 
 If you want to disable automatic updates, you can disable the feature for all extensions or for only specific extensions.
 
-- To disable automatic updates for all extensions, select the **View Settings** button in the **Extensions** > **Manage Extensions** dialog. In the **Options** dialog, under **Environment** > **Extensions**, clear **Automatically update extensions**.
+- To disable automatic updates for all extensions, select the **View Settings** button in the **Extensions** > **Manage Extensions** dialog. In the **Options** dialog, under **Environment** > **Extensions**, clear **Install updates automatically**.
 
 - To disable automatic updates for a specific extension, clear the **Automatically update this extension** option in the extension's details pane on the right side of Extension Manager.
 
-The rest of this section describes changes available in Visual Studio 2022 17.14 and later. The changes make it easier to see what's going on with extension updates, and manage auto-update settings from Extension Manager or in **Tools** > **Options**.
+The rest of this section describes changes available in Visual Studio 2022 17.14 and later. The changes make it easier to see what's going on with extension updates, and manage automatic update settings from Extension Manager or in **Tools** > **Options**.
 
-Whenever you open the Extension Manager window, you automatically trigger updates. This ensures you are consistently working with the latest features and fixes without needing to manually initiate updates.
+Whenever you open the Extension Manager window, you automatically trigger updates. This ensures that you're consistently working with the latest features and don't need to manually initiate updates.
 
-When an update is available for an extension, you see a notification in a yellow infobar:
+When an update is available for an extension, you see a yellow notification infobar:
 
 :::image type="content" source="./media/vs-2022/finding-and-using-visual-studio-extensions/extension-manager-notification-bar.png" alt-text="Screenshot showing how Visual Studio notifies you about extension updates that are available.":::
 
-Also, an infobar appears when updates are applied, reminding you to restart Visual Studio so that the extensions take effect.
+Also, a notification appears when updates are applied, reminding you to restart Visual Studio so that the extensions take effect.
 
 You can change settings for automatic updates on the extension's page in Extension Manager.
 
-:::image type="content" source="./media/vs-2022/finding-and-using-visual-studio-extensions/extension-manager-update-automatically.png" alt-text="Screenshot showing how to toggle whether an extension is updated automatically." lightbox="./media/vs-2022/finding-and-using-visual-studio-extensions/extension-manager-update-automatically.png" :::
+:::image type="content" source="./media/vs-2022/finding-and-using-visual-studio-extensions/extension-manager-update-automatically.png" alt-text="Screenshot showing how to configure whether an extension is updated automatically." lightbox="./media/vs-2022/finding-and-using-visual-studio-extensions/extension-manager-update-automatically.png" :::
 
-The **Pending** category enables you to view only extensions with pending updates.
+The **Pending** category enables you to view only extensions that have pending updates.
 
-:::image type="content" source="./media/vs-2022/finding-and-using-visual-studio-extensions/extension-manager-category-pending.png" alt-text="Screenshot showing how to filter the extension list to view only extensions with pending updates." lightbox="./media/vs-2022/finding-and-using-visual-studio-extensions/extension-manager-category-pending.png" :::
+:::image type="content" source="./media/vs-2022/finding-and-using-visual-studio-extensions/extension-manager-category-pending.png" alt-text="Screenshot showing how to filter the extension list to view only extensions that have pending updates." lightbox="./media/vs-2022/finding-and-using-visual-studio-extensions/extension-manager-category-pending.png" :::
 
-#### Auto update settings
+#### Automatic update settings
 
-You can also configure auto-update settings in **Tools > Options**.
+You can also configure automatic update settings in **Tools > Options**.
 
-:::image type="content" source="./media/vs-2022/finding-and-using-visual-studio-extensions/extension-manager-tools-options.png" alt-text="Screenshot showing how to configure automatic extension updates in Tools > Options." lightbox="./media/vs-2022/finding-and-using-visual-studio-extensions/extension-manager-tools-options.png" :::
+:::image type="content" source="./media/vs-2022/finding-and-using-visual-studio-extensions/extension-manager-tools-options.png" alt-text="Screenshot showing how to configure automatic extension updates in Tools > Options." :::
 
-The list under **Extensions excluded from automatic updates** shows the extensions currently set to not be updated automatically. You might use this to ensure the stability and consistency of the extensions you're using during a critical phase of your development lifecycle.
+The list under **Extensions excluded from automatic updates** shows the extensions that won't be updated automatically. You might use this to ensure the stability and consistency of the extensions you're using during a critical phase of your development lifecycle.
 
 :::moniker-end
 
@@ -183,7 +183,7 @@ The list under **Extensions excluded from automatic updates** shows the extensio
 
 Visual Studio notifies you if it suspects that an extension was involved in a crash during a previous session. When Visual Studio crashes, it stores the exception stack. The next time Visual Studio starts, it examines the stack, starting with the leaf and working towards the base. If Visual Studio determines that a frame belongs to a module that's part of an installed and enabled extension, it shows a notification.
 
-Visual Studio also notifies you if it suspects an extension is causing the UI to be unresponsive.
+Visual Studio also notifies you if it suspects that an extension is causing the UI to be unresponsive.
 
 When you see one of these notifications, you can ignore it or take one of the following actions:
 
@@ -196,10 +196,30 @@ When you see one of these notifications, you can ignore it or take one of the fo
 
 - Select **Learn more**.
 
-- Select the **X** at the end of the notification to dismiss the notification. A new notification will appear if the extension is associated with a crash or with UI unresponsiveness in the future.
+- Select the **X** at the end of the notification to dismiss the notification. A new notification appears if the extension is associated with a crash or with UI unresponsiveness in the future.
 
 > [!NOTE]
 > A UI unresponsiveness notification or crash notification means that one of the extension's modules was on the stack when the UI was unresponsive or when the crash occurred. It doesn't necessarily mean that the extension caused the problem. It's possible that the extension called code that's part of Visual Studio, which in turn resulted in unresponsive UI or a crash. However, the notification might still be useful if the extension that led to the UI unresponsiveness or crash isn't important to you. In this case, disabling the extension avoids the UI unresponsiveness or crash in the future.
+
+### Marketplace protections
+
+The Visual Studio Marketplace for extensions employs several mechanisms to protect you from malicious extensions:
+
+* **Malware scanning**: The Marketplace runs a malware scan on each extension package that's published to ensure its safety. The scan, which uses several antivirus engines, is run for each new extension and for each extension update. Until the scan is all clear, the extension won't be published in the Marketplace for public usage.
+
+* **Verified publishers**: Publishers can verify (blue check mark) their identity by proving domain ownership. It shows that the publisher has proven domain-name ownership to the Marketplace. It also shows that the Marketplace has verified both the existence of the domain and the good standing of the publisher on the Marketplace for at least six months.
+
+* **Unusual usage monitoring**: The Marketplace monitors the downloads and usage patterns of extensions to detect unusual behavior.
+
+* **Name squatting**: The Marketplace stops extension authors from stealing the names of official publishers, such as Microsoft or RedHat, and popular extensions, like GitHub Copilot.
+
+* **Block List**: If a malicious extension is reported and verified, or a vulnerability is found in an extension dependency, the extension is removed from the Marketplace.
+
+* **Extension Signature Verification**: The Visual Studio Marketplace signs all extensions when they're published. Visual Studio checks this signature when you install an extension to verify the integrity and the source of the extension package.
+
+* **Secret Scanning**: The Marketplace automatically scans every newly published extension for secrets such as API keys or credentials (e.g., Azure DevOps PAT tokens). If any secrets are detected, publishing is blocked to prevent potential security risks.
+
+Learn about these measures in the [Security and Trust in Visual Studio Marketplace blog post](https://devblogs.microsoft.com/blog/security-and-trust-in-visual-studio-marketplace).
 
 ### Samples
 
@@ -209,7 +229,7 @@ When you install an online sample, the solution is stored in two locations:
 
 - A separate master copy is stored on your computer.
 
-You can use the **Extensions** > **Manage Extensions** dialog box to perform these samples-related tasks:
+You can use the **Extensions** > **Manage Extensions** dialog to perform these samples-related tasks:
 
 - List the master copies of samples that you have installed.
 

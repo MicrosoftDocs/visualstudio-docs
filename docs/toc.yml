@@ -157,6 +157,8 @@
       href: ide/mcp-servers.md
     - name: Copilot Edits
       href: ide/copilot-edits.md
+    - name: AI models for chat
+      href: ide/copilot-select-add-models.md
   - name: Chat context
     items:
     - name: Customize responses
