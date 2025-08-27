@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+       "source_path": "docs/ide/reference/import-and-export-settings-environment-options-dialog-box.md",
+       "redirect_url": "/visualstudio/ide/personalizing-the-visual-studio-ide",
+       "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/reference/options-text-editor-all-languages-tabs.md",
       "redirect_url": "/visualstudio/ide/options-text-editor-all-languages-tabs",
       "redirect_document_id": false

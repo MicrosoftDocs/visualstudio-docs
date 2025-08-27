@@ -932,8 +932,6 @@
           href: ide/reference/find-and-replace-environment-options-dialog-box.md
         - name: Fonts and Colors
           href: ide/reference/fonts-and-colors-environment-options-dialog-box.md
-        - name: Import and Export Settings
-          href: ide/reference/import-and-export-settings-environment-options-dialog-box.md
         - name: Trust Settings
           href: ide/reference/trust-settings.md
         - name: Notifications window
