@@ -299,9 +299,13 @@
     - name: Customize build and debug tasks
       displayName: makefile tasks.vs.json
       href: ide/customize-build-and-debug-tasks-in-visual-studio.md
-  - name: Connect to projects in Team Explorer
+  - name: Team Explorer
     displayName: Azure DevOps VSTS
-    href: ide/connect-team-project.md
+    items:
+    - name: Connect to a project
+      href: ide/connect-team-project.md
+    - name: Overview
+      href: team-explorer-reference.md
   - name: Editor
     items:
     - name: Use the editor
@@ -767,6 +771,12 @@
       href: ide/how-to-configure-projects-to-target-platforms.md
     - name: Configure projects to target multiple platforms
       href: ide/how-to-configure-projects-to-target-multiple-platforms.md
+  - name: Build output, errors, and warnings
+    items:
+    - name: Error List window
+      href: ide/error-list-window.md
+    - name: Output window
+      href: ide/command-window.md
   - name: MSBuild >>
     href: msbuild/msbuild.md
   - name: Azure Pipelines and Azure DevOps Server >>
@@ -912,10 +922,6 @@
       href: ide/reference/command-prompt-powershell.md
     - name: Preview Changes
       href: ide/preview-changes.md
-    - name: Command window
-      href: ide/reference/command-window.md
-    - name: Error List window
-      href: ide/reference/error-list-window.md
     - name: Options
       items:
       - name: Environment
@@ -932,12 +938,6 @@
           href: ide/reference/find-and-replace-environment-options-dialog-box.md
         - name: Fonts and Colors
           href: ide/reference/fonts-and-colors-environment-options-dialog-box.md
-        - name: Import and Export Settings
-          href: ide/reference/import-and-export-settings-environment-options-dialog-box.md
-        - name: Trust Settings
-          href: ide/reference/trust-settings.md
-        - name: Notifications window
-          href: ide/reference/user-notifications-window.md
       - name: Projects and Solutions
         items:
         - name: General
@@ -1002,12 +1002,8 @@
         href: ide/reference/options-windows-forms-designer.md
       - name: XAML Designer
         href: ide/reference/xaml-designer.md
-    - name: Output window
-      href: ide/reference/output-window.md
     - name: Problem Details window
       href: ide/reference/problem-details-window.md
-    - name: Team Explorer reference
-      href: ide/reference/team-explorer-reference.md
     - name: Toolbox window
       href: ide/reference/toolbox.md
   - name: Devenv command-line switches
@@ -1064,6 +1060,8 @@
     - name: Reference
       displayName: Visual Studio commands
       href: ide/reference/visual-studio-commands.md
+    - name: Command window
+      href: ide/command-window.md
     - name: Command aliases
       href: ide/reference/visual-studio-command-aliases.md
     - name: Add Existing Item command
@@ -1140,6 +1138,8 @@
       href: ide/securing-applications.md
     - name: Run Visual Studio as an administrator
       href: ide/user-permissions-and-visual-studio.md
+    - name: Trust settings
+      href: ide/trust-settings.md
     - name: Windows Information Protection (WIP)
       href: ide/exempt-visual-studio-from-wip.md
     - name: Federal Information Processing Standard (FIPS)
@@ -1166,6 +1166,8 @@
     href: help-viewer/overview.md
   - name: Welcome to Visual Studio docs
     href: ide/not-in-toc/welcome-to-visual-studio-docs.md
+  - name: Notifications
+    href: ide/user-notifications-window.md
 - name: Send feedback
   items:
   - name: Suggest a feature

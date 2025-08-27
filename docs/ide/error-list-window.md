@@ -1,8 +1,8 @@
 ---
 title: Error List Window
 description: Learn about the Error List window and how to use it to perform tasks related to resolving the errors it displays.
-ms.date: 2/5/2025
-ms.topic: reference
+ms.date: 8/27/2025
+ms.topic: concept-article
 helpviewer_keywords:
 - Task List
 - build errors
@@ -17,7 +17,7 @@ ms.subservice: general-ide
 # Error List window
 
 > [!NOTE]
-> The **Error List** displays information about a specific error message. You can copy the error number or error string text from the **Output** window. To display the **Output** window, press **Ctrl**+**Alt**+**O**. See [Output window](../../ide/reference/output-window.md).
+> The **Error List** displays information about a specific error message. You can copy the error number or error string text from the **Output** window. To display the **Output** window, press **Ctrl**+**Alt**+**O**. See [Output window](output-window.md).
 
 The **Error List** window lets you perform the following tasks:
 
@@ -74,7 +74,7 @@ You can copy the error list and save it to a file. Select the errors you want to
 
 **Severity**
 
-Displays the different types of **Error List** entry (**Error**, **Message**, **Warning**, **Warning (active)**, **Warning (inactive)**.
+Displays the different types of **Error List** entry (**Error**, **Message**, **Warning**, **Warning (active)**, **Warning (inactive)**).
 
 **Code**
 
@@ -98,8 +98,8 @@ Displays the line where the problem occurs.
 
 **Details**
 
-Displays a clickable icon to open the [Problem Details window](../../ide/reference/problem-details-window.md) if this entry has additional details.
+Displays a clickable icon to open the [Problem Details window](reference/problem-details-window.md) if this entry has additional details.
 
 ## Disable the Error List window
 
-Like any other tool window, there are a variety of ways to manage the window. You can set it to auto-hide, close it, or create a window layout that does or doesn't contain the Error List window. See [Customize window layouts in Visual Studio - Close and autohide tool windows](../customizing-window-layouts-in-visual-studio.md#close-and-autohide-tool-windows).
+Like any other tool window, there are a variety of ways to manage the window. You can set it to auto-hide, close it, or create a window layout that does or doesn't contain the Error List window. See [Customize window layouts in Visual Studio - Close and autohide tool windows](customizing-window-layouts-in-visual-studio.md#close-and-autohide-tool-windows).

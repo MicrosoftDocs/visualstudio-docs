@@ -1,8 +1,8 @@
 ---
 title: Command Window
 description: Learn how you can use the Command window to execute commands or aliases directly in the Visual Studio IDE.
-ms.date: 11/04/2016
-ms.topic: reference
+ms.date: 8/27/2025
+ms.topic: conceept-article
 f1_keywords:
 - VS.CommandWindow
 helpviewer_keywords:
@@ -22,7 +22,7 @@ ms.subservice: general-ide
 The **Command** window is used to execute commands or aliases directly in the Visual Studio integrated development environment (IDE). You can execute both menu commands and commands that do not appear on any menu. To display the **Command** window, choose **Other Windows** from the **View** menu, and select **Command Window**.
 
 ## Displaying the Values of Variables
-To check the value of a variable `varA`, use the [Print Command](../../ide/reference/print-command.md):
+To check the value of a variable `varA`, use the [Print Command](reference/print-command.md):
 
 ```cmd
 >Debug.Print varA
@@ -86,7 +86,7 @@ In this example,
     > [!NOTE]
     > Any command, parameter, switch, or value that contains spaces must have double quotation marks on either side.
 
-The position of switches and parameters can be interchanged freely on the command line with the exception of the [Shell](../../ide/reference/shell-command.md) command, which requires its switches and parameters in a specific order.
+The position of switches and parameters can be interchanged freely on the command line with the exception of the [Shell](reference/shell-command.md) command, which requires its switches and parameters in a specific order.
 
 Nearly every switch supported by a command has two forms: a short (one character) form and a long form. Multiple short-form switches can be combined into a group. For example, `/p /g /m` can be expressed alternately as `/pgm`.
 

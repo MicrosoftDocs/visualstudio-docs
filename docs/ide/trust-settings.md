@@ -5,8 +5,8 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
-ms.date: 11/12/2024
-ms.topic: reference
+ms.date: 8/27/2025
+ms.topic: concept-article
 f1_keywords:
  - VS.ToolsOptionsPages.Environment.PathTrustOptions
 helpviewer_keywords:
@@ -38,11 +38,11 @@ You can customize the trust policies to configure the security settings for open
 
 Visual Studio 2022 version 17.12 and later now shows a security warning when you try to open content tagged with the Mark of the Web (MotW) identifier. This new trust-related alert informs you of the possible security risks associated with opening files from potentially unsafe sources, such as internet downloads.
 
-:::image type="content" source="media/vs-2022/web-content-alert.png" alt-text="Screenshot showing the mark of the web alert.":::
+:::image type="content" source="reference/media/vs-2022/web-content-alert.png" alt-text="Screenshot showing the mark of the web alert.":::
 
 You can modify the default trust experience from **Tools** > **Options** > **Environment** > **Security**.
 
-:::image type="content" source="media/vs-2022/web-content-trust-settings.png" alt-text="Screenshot showing how to modify the Security options related to opening content from the web.":::
+:::image type="content" source="reference/media/vs-2022/web-content-trust-settings.png" alt-text="Screenshot showing how to modify the Security options related to opening content from the web.":::
 
 The Mark of the Web is a security feature used by Windows to identify files that originate from the internet. When you download a file, Windows adds this identifier to the file's metadata, signaling that the content may be unsafe to execute or open. Visual Studio 2022 uses this identifier to protect your development environment from potential threats.
 
@@ -55,12 +55,12 @@ To enable the **Always require a trust decision** feature, follow these steps:
 
 2. In the **Trust Policies** pane, select **Always require a trust decision** from the **Require a trust decision** dropdown.
 
-:::image type="content" source="media/vs-2022/trusted-settings-options-dialog.png" alt-text="Screenshot showing how to enable trusted locations by using the Trust Settings options.":::
+:::image type="content" source="reference/media/vs-2022/trusted-settings-options-dialog.png" alt-text="Screenshot showing how to enable trusted locations by using the Trust Settings options.":::
 
 > [!NOTE]
 > The **Skip trust checks for temporary locations Visual Studio creates automatically** option is not enabled by default. It has no impact unless the **Always require a trust decision** option is also enabled.
 
-:::image type="content" source="media/vs-2022/trusted-settings-warning-dialog.png" alt-text="Screenshot of the Trust Settings warning dialog.":::
+:::image type="content" source="reference/media/vs-2022/trusted-settings-warning-dialog.png" alt-text="Screenshot of the Trust Settings warning dialog.":::
 
 ## Manage trust settings
 
@@ -72,7 +72,7 @@ After you've enabled the feature, all content that you open with Visual Studio 2
 
 1. Choose the folder you want to trust (the current folder or the parent folder) from the **Trust level** dropdown list.
 
-   :::image type="content" source="media/vs-2022/trust-folder-trust-level.png" alt-text="Screenshot showing how to trust a folder from the warning dialog.":::
+   :::image type="content" source="reference/media/vs-2022/trust-folder-trust-level.png" alt-text="Screenshot showing how to trust a folder from the warning dialog.":::
 
 1. Select the **Trust and continue** button on the dialog.
 
@@ -88,12 +88,12 @@ You can also add folders to **Trusted locations** from the **Trust Settings** di
 
    The folder path appears in the **Trusted locations** list. This folder that you added manually is listed as **Trusted By** the **Local User**.
    
-   :::image type="content" source="media/vs-2022/trusted-locations.png" alt-text="Screenshot showing a folder added to the **Trusted locations**.":::
+   :::image type="content" source="reference/media/vs-2022/trusted-locations.png" alt-text="Screenshot showing a folder added to the **Trusted locations**.":::
 
 > [!NOTE]
 > After you've enabled the **Trusted locations** feature, the folder path for any content you create in Visual Studio will automatically get added to the **Trusted locations** list. This folder path is listed as **Trusted By** the **System**.
 > 
-> :::image type="content" source="media/vs-2022/trusted-by-values.png" alt-text="Screenshot showing the **Trusted By** values of *Local User* and *System* in the **Trusted locations** list.":::
+> :::image type="content" source="reference/media/vs-2022/trusted-by-values.png" alt-text="Screenshot showing the **Trusted By** values of *Local User* and *System* in the **Trusted locations** list.":::
 
 ### Remove trusted locations
 
@@ -134,7 +134,7 @@ To change trust settings, follow these steps:
 
    * **Verify path is trusted**: If the file or folder path isn't part of the **Trusted Paths** list, Visual Studio blocks and asks for permission to open.
 
-   ![Trust verification options](media/trust-settings.png)
+   ![Trust verification options](reference/media/trust-settings.png)
 
 ## Add trusted paths
 
@@ -148,7 +148,7 @@ To add trusted paths, follow these steps:
 
    The file or folder path appears in the **Trusted Paths** list.
 
-   ![Added trusted paths](media/trusted-paths.png)
+   ![Added trusted paths](reference/media/trusted-paths.png)
 
 ## Remove trusted paths
 
