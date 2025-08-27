@@ -19,7 +19,7 @@ ms.subservice: general-ide
 
 When template files are placed in a known location, Visual Studio can locate the files and make them available for creating new projects and new items. Templates provide a convenient way to create applications, access class libraries, implement unit tests, and set up configuration files.
 
-Installed templates and user templates (*.vstemplate* files) are stored in different locations. You can also customize the locations with Visual Studio options.
+Installed templates and user templates (`.vstemplate` files) are stored in different locations. You can also customize the locations with Visual Studio options.
 
 This article describes the template file locations recognized by Visual Studio.
 
@@ -49,10 +49,20 @@ For example, the following directory has the Visual Basic item templates for Eng
 *C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\ItemTemplates\\VisualBasic\\1033*
 
 ::: moniker-end
+::: moniker range="visualstudio"
 
+- *%ProgramFiles%\\Microsoft Visual Studio\\18\\\<edition>\\Common7\IDE\ProjectTemplates\\<Language\>\\<Locale ID\>*
+
+- *%ProgramFiles%\\Microsoft Visual Studio\\18\\\<edition>\Common7\IDE\ItemTemplates\\<Language\>\\<Locale ID\>*
+
+For example, the following directory has the Visual Basic item templates for English (LCID 1033):
+
+*C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\ItemTemplates\\VisualBasic\\1033*
+
+::: moniker-end
 ## Location for user templates
 
-When you add a compressed (*.zip*) file that includes a *.vstemplate* file to the user template directory, Visual Studio makes the template available in the **New project** and **New item** dialogs. By default, user templates are placed in the following locations:
+When you add a compressed (`.zip`) file that includes a `.vstemplate` file to the user template directory, Visual Studio makes the template available in the **New project** and **New item** dialogs. By default, user templates are placed in the following locations:
 
 ::: moniker range="vs-2019"
 
@@ -75,6 +85,17 @@ For example, the following directory has user project templates for C#:
 For example, the following directory has user project templates for C#:
 
 - *C:\Users\UserName\Documents\Visual Studio 2022\Templates\ProjectTemplates\Visual C#*
+
+::: moniker-end
+::: moniker range="visualstudio"
+
+- *%USERPROFILE%\Documents\Visual Studio version\Templates\ProjectTemplates*
+
+- *%USERPROFILE%\Documents\Visual Studio version\Templates\ItemTemplates*
+
+For example, the following directory has user project templates for C#:
+
+- *C:\Users\UserName\Documents\Visual Studio version\Templates\ProjectTemplates\Visual C#*
 
 ::: moniker-end
 
