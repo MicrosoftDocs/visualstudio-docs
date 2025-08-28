@@ -211,7 +211,7 @@ You can now pull the container from the registry to any host capable of running 
 
    ![Screenshot of Enable container support checkbox.](media/container-tools/vs-2022/web-app-additional-information-docker-linux.png)
 
-   The screenshot shows the latest release with .NET 8.0. If you're using .NET Framework, the dialog looks a bit different.
+   The screenshot shows the latest release with .NET 8.0.
 
 1. Select the type of container you want (Windows or Linux) and select **Create**.
 

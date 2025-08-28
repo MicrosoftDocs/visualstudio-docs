@@ -13,7 +13,7 @@ ms.custom: peer-review-program
 
 :::moniker range="visualstudio"
 
-The tools included in Visual Studio for developing with [Docker](https://docs.docker.com/) or [Podman](https://podman.io/) containers greatly simplify building, debugging, and deployment for containerized applications. You can work with a container for a single project, or use container orchestration with [Docker Compose](https://docs.docker.com/compose/) or [Service Fabric](/azure/service-fabric/) to work with multiple services in containers.
+The tools included in Visual Studio for developing with [Docker](https://docs.docker.com/) or [Podman](https://podman.io/) containers greatly simplify building, debugging, and deployment for containerized applications. You can work with a container for a single project, or use container orchestration with [Docker Compose](https://docs.docker.com/compose/).
 
 :::moniker-end
 
@@ -56,13 +56,11 @@ In Visual Studio 2019 version 16.4 and later, the **Containers** window is avail
 
 ## Container support in Visual Studio
 
-Container support is available for ASP.NET projects, ASP.NET Core projects, and .NET Core (and .NET 5 and later) console projects. .NET Framework projects are not supported in the current version of Visual Studio.
+Container support is available for ASP.NET Core projects, and .NET Core (and .NET 5 and later) console projects. .NET Framework projects are not supported in the current version of Visual Studio.
 
-If you just want a container for a single project, without using orchestration, you can do that by adding container support. You can choose Docker or Podman as a container platform, and easily switch between them without changing the project. The next level is container orchestration support, which adds appropriate support files for the particular orchestrator you choose.
+If you just want a container for a single project, without using orchestration, you can do that by adding container support. You can choose Docker or Podman as a container platform, and easily switch between them without changing the project. The next level is **Container Compose support**, which adds appropriate support files for Docker Compose. (Podman Compose is not supported.)
 
 When you add container support to a .NET 7 or later project, you have two container build types to choose from for adding container support. You can choose to add a Dockerfile to specify how to build the container images, or you can choose to use the built-in container support provided by the .NET SDK.
-
-Also, when you choose container orchestration, you can use Docker Compose or Service Fabric as container orchestration services.
 
 The **Containers** window lets you view running containers, browse available images, view environment variables, logs, and port mappings, inspect the filesystem, attach a debugger, or open a terminal window inside the container environment. See [Use the Containers window](view-and-diagnose-containers.md).
 
@@ -73,7 +71,7 @@ The **Containers** window lets you view running containers, browse available ima
 ## Prerequisites
 
 - [Docker Desktop](https://www.docker.com/get-docker)
-- [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET desktop development** workload installed
+- [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET desktop development** workload installed
 - To publish to Azure Container Registry, an Azure subscription. [Sign up for a free trial](https://azure.microsoft.com/offers/ms-azr-0044p/).
 
 ## Docker support in Visual Studio

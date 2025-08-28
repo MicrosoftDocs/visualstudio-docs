@@ -77,7 +77,7 @@ With Visual Studio 17.11 and later, when you add Docker support to a project, yo
 :::moniker-end
 
 :::moniker range="visualstudio"
-When you add Docker support to a project, you can specify a folder for the build context. If you want to change the build context, you could delete the Dockerfile (if it doesn't have other changes you want to keep), and rerun **Add Container Support**, this time specifying the new build context. The new Dockerfile will have relative paths updated to correspond to the new build context.
+When you add container support to a project, you can specify a folder for the build context. If you want to change the build context, you could delete the Dockerfile (if it doesn't have other changes you want to keep), and rerun **Add Container Support**, this time specifying the new build context. The new Dockerfile will have relative paths updated to correspond to the new build context.
 :::moniker-end
 
 ## Use MSBuild

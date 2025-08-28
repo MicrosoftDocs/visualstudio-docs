@@ -180,13 +180,13 @@ The following table describes the **Containers Window** settings:
 
 |Setting|Default value|Description|
 |-----|---------------|-----------|
-|Confirm before pruning containers|Always|Whether to prompt you when pruning unused containers.|
-|Confirm before pruning images|Always|Whether to prompt you when pruning unused images.|
-|Confirm before removing a container|Always|Whether to prompt you when removing a container.|
-|Confirm before removing an image|Always|Whether to prompt you when removing an image.|
-|Confirm before running large number of images|Always|Whether to prompt you before starting containers from more than 10 images at a time.|
+|Confirm before pruning containers|Enabled|Whether to prompt you when pruning unused containers.|
+|Confirm before pruning images|Enabled|Whether to prompt you when pruning unused images.|
+|Confirm before removing a container|Enabled|Whether to prompt you when removing a container.|
+|Confirm before removing an image|Enabled|Whether to prompt you when removing an image.|
+|Confirm before running large number of images|Enabled|Whether to prompt you before starting containers from more than 10 images at a time.|
 |Display string format to use in the Containers window|Blank|A display string format to use in the Containers window, with support for {ContainerName}, {ImageName}, {ProjectName}, and {ContainerID} tokens.|
-|Group containers by the Docker Compose project|Always|Whether to group containers by the Docker Compose project they're part of.|
+|Group containers by the Docker Compose project|Enabled|Whether to group containers by the Docker Compose project they're part of.|
 
 ## Configure Azure authentication
 

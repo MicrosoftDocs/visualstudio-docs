@@ -72,6 +72,10 @@ You can enable support for containers during project creation by selecting **Ena
 > [!NOTE]
 > If you're using the full .NET Framework console project template, the supported option is **Add Container Orchestrator support** after project creation, with options to use Service Fabric or Docker Compose. Adding support at project creation and **Add Docker support** for a single project without orchestration are not available options.
 :::moniker-end
+:::moniker range="visualstudio"
+> [!NOTE]
+> Support for .NET Framework containers is discontinued in the current version of Visual Studio. .NET Framework containers were supported up to Visual Studio 2022 17.14.
+:::moniker-end
 
 ### Add container support to an existing project
 
@@ -149,7 +153,7 @@ Windows:
 
 Linux:
 
-- Default (Debian, but the tag is "8.0")
+- Default (Debian, but the tag matches your target .NET version)
 - Debian
 - Ubuntu
 - Chiseled Ubuntu

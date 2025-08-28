@@ -94,7 +94,7 @@ Some properties listed as obsolete are replaced by equivalent values in *launchs
 | `ContainerImageLabels`<br/><br/>(replaces `DockerImageLabels`) | The default set of labels applied to the Docker image.<br/><br/>`ContainerImageLabel` is an MSBuild item list, not a property. | `com.microsoft.created-by=visual-studio;com.microsoft.visual-studio.project-name=$(MSBuildProjectName)` |1.23.0 for `ContainerImageLabels`<br/><br/>1.5.4 for `DockerImageLabels`|
 | `ContainerFastModeProjectMountDirectory`<br/><br/>(replaces `DockerFastModeProjectMountDirectory`)|In **Fast Mode**, this property controls where the project output directory is volume-mounted into the running container.|C:\app (Windows) or /app (Linux)|1.23.0 for `ContainerFastModeProjectMountDirectory`<br/><br/>1.9.2 for `DockerFastModeProjectMountDirectory`|
 | `ContainerBuildArguments`<br/><br/>(replaces `DockerfileBuildArguments`) | Additional arguments passed to the container build command. See [Docker build](https://docs.docker.com/engine/reference/commandline/build/) or [podman build](https://docs.podman.io/en/latest/markdown/podman-build.1.html). | Not applicable. |1.23.0 for `ContainerBuildArguements`<br/><br/>1.0.1872750 for `DockerfileBuildArguments`|
-| `ContainerBuildContext`<br/><br/>(replaces `DockerfileContext`) | The default context used when building the Docker image, as a path relative to the Dockerfile. | Set by Visual Studio when Docker support is added to a project. In .NET Core and .NET 5 and later projects, it's set to the relative path to the solution folder (usually ".."). |1.23.0 for `ContainerBuildContext`<br/><br/>1.0.1872750 for `DockerfileContext`|
+| `ContainerBuildContext`<br/><br/>(replaces `DockerfileContext`) | The default context used when building the Docker image, as a path relative to the Dockerfile. | Set by Visual Studio when Docker support is added to a project. It's set to the relative path to the solution folder (usually ".."). |1.23.0 for `ContainerBuildContext`<br/><br/>1.0.1872750 for `DockerfileContext`|
 | `ContainerFastModeStage`<br/><br/>(replaces `DockerfileFastModeStage`) | The Dockerfile stage (that is, target) to be used when building the image in debug mode. | First stage found in the Dockerfile (usually base) | - |
 | `ContainerIncludeDefaultImageLabels` (replaces: `DockerIncludeDefaultImageLabels`) | If true, include default image tags `com.microsoft.created-by=visual-studio` and `com.microsoft.visual-studio.project-name=$(MSBuildProjectName)`. | True | 1.23.0 for `ContainerIncludeDefaultImageLabels` |
 | `ContainerLabelBuiltImages` (replaces `DockerLabelBuiltImages`)| Include labels on built images. If false, no labels are added, including user-defined labels. | True | 1.23.0 for `ContainerLabelBuiltImages` |
@@ -126,8 +126,8 @@ The following project file shows examples of some of these settings.
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>8c7ab9a5-d578-4c40-8b6d-54d174002229</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
-    <!-- In CI/CD scenarios, you might need to change the context. By default, Visual Studio uses the
-         folder above the Dockerfile. The path is relative to the Dockerfile, so here the context is
+    <!-- By default, Visual Studio uses the folder above the Dockerfile.
+         The path is relative to the Dockerfile, so here the context is
          set to the same folder as the Dockerfile. -->
     <ContainerBuildContext>.</ContainerBuildContext>
     <!-- Set `docker run` arguments to mount a volume -->

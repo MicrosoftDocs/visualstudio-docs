@@ -55,15 +55,15 @@ The process of running the debugger depends on the type of project and container
 :::moniker range="visualstudio"
 |Scenario|Debugger process|
 |-|-|
-| **.NET Core apps (Linux containers)**| Visual Studio downloads `vsdbg` and maps it to the container, then it gets called with your program and arguments (that is, `dotnet webapp.dll`), and then debugger attaches to the process. |
-| **.NET Core apps (Windows containers)**| Visual Studio uses `onecoremsvsmon` and maps it to the container, runs it as the entry point and then Visual Studio connects to it and attaches to the program.|
+| **.NET Core apps (Linux containers)**| Visual Studio downloads `vsdbg` and maps it to the container, then it gets called with your program and arguments (that is, `dotnet webapp.dll`). |
+| **.NET Core apps (Windows containers)**| Visual Studio uses `onecoremsvsmon` and maps it to the container, runs it as the entry point.|
 :::moniker-end
 
 :::moniker range="<=vs-2022"
 |Scenario|Debugger process|
 |-|-|
 | **.NET Core apps (Linux containers)**| Visual Studio downloads `vsdbg` and maps it to the container, then it gets called with your program and arguments (that is, `dotnet webapp.dll`), and then debugger attaches to the process. |
-| **.NET Core apps (Windows containers)**| Visual Studio uses `onecoremsvsmon` and maps it to the container, runs it as the entry point and then Visual Studio connects to it and attaches to the program.|
+| **.NET Core apps (Windows containers)**| Visual Studio uses `onecoremsvsmon` and maps it to the container, runs it as the entry point.|
 | **.NET Framework apps** | Visual Studio uses `msvsmon` and maps it to the container, runs it as part of the entry point where Visual Studio can connect to it, and attaches to the program. This is similar to how you would normally set up remote debugging on another computer or virtual machine.|
 :::moniker-end
 
@@ -71,7 +71,19 @@ For information on `vsdbg.exe`, see [Offroad debugging of .NET Core on Linux and
 
 ## Modify container image for debugging and production
 
-To modify the container image for both debugging and production, modify the `base` stage. Add your customizations to the Dockerfile in the base stage section, usually the first section in the Dockerfile. Refer to the [Dockerfile reference](https://docs.docker.com/engine/reference/builder/) in the Docker documentation for information about Dockerfile commands.
+:::moniker range="<=vs-2022"
+To modify the container image for both debugging and production, modify the first stage in the Dockerfile, usually called the `base` stage. Refer to the [Dockerfile reference](https://docs.docker.com/engine/reference/builder/) in the Docker documentation for information about Dockerfile commands.
+
+> [!TIP]
+> If your project uses the `DockerfileFastModeStage` MSBuild property, you should select an appropriate stage to add customization that flows to the final stage and the `DockerfileFastModeStage`, if possible. See [Container Tools build properties](container-msbuild-properties.md).
+:::moniker-end
+
+:::moniker range="visualstudio"
+To modify the container image for both debugging and production, modify the first stage in the Dockerfile, usually called the `base` stage. Refer to the [Dockerfile reference](https://docs.docker.com/engine/reference/builder/) in the Docker documentation for information about Dockerfile commands.
+
+> [!TIP]
+> If your project uses the `ContainerFastModeStage` (or the obsolete equivalent `DockerfileFastModeStage`) MSBuild property, you should select an appropriate stage for customization that flows to the final stage and the `ContainerFastModeStage`, if possible. See [Container Tools build properties](container-msbuild-properties.md).
+:::moniker-end
 
 :::moniker range=">=vs-2022"
 
