@@ -776,7 +776,7 @@
     - name: Error List window
       href: ide/error-list-window.md
     - name: Output window
-      href: ide/command-window.md
+      href: ide/output-window.md
     - name: Configure warnings in Visual Basic
       href: ide/configuring-warnings-in-visual-basic.md
   - name: Specify build events (Visual Basic)
