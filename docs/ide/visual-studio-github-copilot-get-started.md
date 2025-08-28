@@ -40,15 +40,15 @@ Copilot is now ready to use in Visual Studio!
 
 Once you're signed in, you can use Copilot in the Chat window and throughout the IDE.
 
-- **[Agent mode](copilot-agent-mode.md) and [MCP](mcp-servers.md)**: In the Chat window, select **Ask** and switch to **Agent** to enable agent mode. Use the tools icon to access MCP, configure servers, and choose which tools Copilot can use. For example, send "Write unit tests for the methods in this file" to get Copilot assistance with generating targeted code.
+- **Use [Agent mode](copilot-agent-mode.md) and [MCP](mcp-servers.md)**: In the Chat window, select **Ask** and switch to **Agent** to enable agent mode. Use the tools icon to access MCP, configure servers, and choose which tools Copilot can use. For example, send "Write unit tests for the methods in this file" to get Copilot assistance with generating targeted code.
 
-- **[Completions](visual-studio-github-copilot-extension.md) and [Next Edit Suggestions](copilot-next-edit-suggestions.md)**: As you code, Copilot provides suggestions directly in the editor. Copilot will suggest both new code(shown as gray text) and edits to existing code.
+- **Use [Completions](visual-studio-github-copilot-extension.md) and [Next Edit Suggestions](copilot-next-edit-suggestions.md)**: As you code, Copilot provides suggestions directly in the editor. Copilot will suggest both new code(shown as gray text) and edits to existing code.
 
-- **Copilot actions across Visual Studio**: Find Copilot-powered actions and suggestions in the editor context menu, Error List, Feature Search, and other areas of the IDE.
+- **Use Copilot actions across Visual Studio**: Find Copilot-powered actions and suggestions in the editor context menu, Error List, Feature Search, and other areas of the IDE.
 
 ## Tailor Copilot Chat to your workflow
 
-Make Copilot work best for you, your project, and whatever you need most in your development workflow.
+Customize Copilot for your project and your development workflow.
 
 - **Manage [context with references](copilot-chat-context-references.md)**: Use the **+** button to attach additional context, such as files, images, or ask Copilot to reference your entire solution.
 
@@ -60,4 +60,4 @@ Make Copilot work best for you, your project, and whatever you need most in your
 
 To review Copilot features at any time, select **GitHub Copilot Walkthrough** from the **GitHub Copilot** badge in the upper right corner of Visual Studio.
 
-For a hands-on experience, try building a complete app with the [Hands-on lab: GitHub Copilot in Visual Studio 2022](https://github.com/dotnet-presentations/build-2025-lab300).
+Try building a complete app with the [Hands-on lab: GitHub Copilot in Visual Studio 2022](https://github.com/dotnet-presentations/build-2025-lab300).
