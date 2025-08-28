@@ -302,10 +302,10 @@
   - name: Team Explorer
     displayName: Azure DevOps VSTS
     items:
+    - name: Team Explorer
+      href: ide/team-explorer-reference.md
     - name: Connect to a project
       href: ide/connect-team-project.md
-    - name: Overview
-      href: ide/team-explorer-reference.md
   - name: Editor
     items:
     - name: Use the editor
