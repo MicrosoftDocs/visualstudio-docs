@@ -1,12 +1,12 @@
 ---
-title: Trust Settings for files and folders
+title: Configure trust settings for files and folders
 description: Learn how to change trust settings for files and folders to keep Visual Studio secure.
 author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
-ms.date: 11/12/2024
-ms.topic: reference
+ms.date: 8/27/2025
+ms.topic: how-to
 f1_keywords:
  - VS.ToolsOptionsPages.Environment.PathTrustOptions
 helpviewer_keywords:
@@ -167,4 +167,4 @@ To remove trusted paths, follow these steps:
 
 ## See also
 
-[Build an application in Visual Studio](../walkthrough-building-an-application.md)
+[Build an application in Visual Studio](walkthrough-building-an-application.md)
