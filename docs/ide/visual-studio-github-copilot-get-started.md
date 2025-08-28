@@ -1,6 +1,6 @@
 ---
-title: Get Started with Copilot
-description: Learn how to get started with Copilot in Visual Studio.
+title: Get Started with GitHub Copilot
+description: Learn how to get started with GitHub Copilot in Visual Studio.
 ms.date: 8/29/2025
 ms.update-cycle: 180-days
 ms.topic: get-started
@@ -13,9 +13,9 @@ monikerRange: '>= vs-2022'
 ms.custom: copilot-learning-hub
 ---
 
-# Getting Started with Copilot
+# Get Started with GitHub Copilot
 
-Welcome to Copilot, your AI companion in Visual Studio!
+Welcome to GitHub Copilot, your AI companion in Visual Studio!
 
 Copilot helps you code faster and with greater accuracy by suggesting entire lines or blocks of code, answering questions, and assisting with routine tasks such as writing unit tests, debugging and profiling — all directly in your Visual Studio environment.
 
