@@ -1,7 +1,7 @@
 ---
 title: "MSBuild Tutorial: Install and create a project"
 description: Explore the various parts of an MSBuild project file, including items, item metadata, properties, targets, and build tasks.
-ms.date: 10/3/2024
+ms.date: 8/14/2025
 ms.topic: tutorial
 helpviewer_keywords:
 - MSBuild, tutorial
@@ -9,10 +9,11 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: msbuild
+ms.custom: peer-review-program
 ---
 # Tutorial: Use MSBuild
 
-MSBuild is the build platform for Microsoft and Visual Studio. This tutorial introduces you to the building blocks of MSBuild and shows you how to write, manipulate, and debug MSBuild projects. You learn about:
+MSBuild is the build platform for Microsoft and Visual Studio that is used to build most Visual Studio projects, including .NET and C++ projects. This tutorial introduces you to the building blocks of MSBuild and shows you how to write, manipulate, and debug MSBuild projects. You learn about:
 
 - Creating and manipulating a project file.
 
@@ -20,7 +21,9 @@ MSBuild is the build platform for Microsoft and Visual Studio. This tutorial int
 
 - How to use build items.
 
-You can run MSBuild from Visual Studio, or from the **Command Window**. In this tutorial, you create an MSBuild project file using Visual Studio. You edit the project file in Visual Studio, and use the **Command Window** to build the project and examine the results.
+You can run MSBuild from Visual Studio, or from the **Command Window** by running *MSBuild.exe*. There are many reasons why you might want to run MSBuild from the command window, such as if you want to build on a machine that doesn't have Visual Studio installed, or you want to use specific command-line arguments that you can't set in the Visual Studio IDE. For example, by running from the command line, you can set certain MSBuild properties, generate a binary log to debug a build problem, or run a subset of the build, such as explicitly running a specific build target rather than the full build. See [MSBuild command-line reference](./msbuild-command-line-reference.md). You can also use *MSBuild.exe* to build on machines that don't have the full Visual Studio installed, such as on a build server or by logging into a container in a pipeline.
+
+In this tutorial, you create an MSBuild project file using Visual Studio. You edit the project file in Visual Studio, and use the **Command Window** to build the project and examine the results.
 
 ## Install MSBuild
 
@@ -46,7 +49,7 @@ To install MSBuild on a system that doesn't have Visual Studio, go to **Build To
 
 ## Create an MSBuild project
 
- The Visual Studio project system is based on MSBuild. It's easy to create a new project file using Visual Studio. In this section, you create a C# project file. You can choose to create a Visual Basic project file instead. In the context of this tutorial, the difference between the two project files is minor.
+ The Visual Studio project system is based on MSBuild. It's easy to create a new project file using Visual Studio. In this section, you create a C# project file. You can choose to create a Visual Basic project file instead. In the context of this tutorial, the difference between the two project files is minor. C++ project types use a different build infrastructure than that described here. For C++ projects, see [Use MSBuild to create a C++ project](/cpp/build/walkthrough-using-msbuild-to-create-a-visual-cpp-project).
 
 **To create a project file**
 
@@ -75,9 +78,13 @@ To install MSBuild on a system that doesn't have Visual Studio, go to **Build To
 >[!NOTE]
 > For some project types, such as C++, you need to unload the project (right-click on the project file and choose **Unload project**) before you can open and edit the project file.
 
-## Targets and tasks
+## Add a target and a task
 
-Project files are XML-formatted files with the root node [Project](../msbuild/project-element-msbuild.md).
+In this section, you add a target to the project file, which writes a message to the build output. The next section provides a brief overview of targets and tasks in MSBuild project files.
+
+### Targets and tasks
+
+Project files are XML files with the root node [Project](../msbuild/project-element-msbuild.md).
 
 Most .NET projects have an `Sdk` attribute. These projects are called SDK-style projects. Referencing an SDK means MSBuild imports a set of files that provide the build infrastructure for that SDK. If you don't reference any SDK, you can still use MSBuild, you just won't automatically have all the SDK-specific properties and targets available to you.
 
@@ -91,7 +98,7 @@ The work of building an application is done with [Target](../msbuild/target-elem
 
 - A task is the smallest unit of work, in other words, the "atom" of a build. Tasks are independent executable components, which can have inputs and outputs. There are no tasks currently referenced or defined in the project file. You add tasks to the project file in the following sections. For more information, see [Tasks](../msbuild/msbuild-tasks.md).
 
-- A target is a named sequence of tasks. It might be a named sequence of tasks, but critically, it represents something to be built or done, so it should be defined in a goal-oriented way. For more information, see [Targets](../msbuild/msbuild-targets.md).
+- A target encapsulates build instructions, typically for some output artifacts, such as a file or set of files, given certain inputs. It's typically composed of a sequence of tasks, but critically, it represents something to be built or done, so it should be defined in a goal-oriented way. For more information, see [Targets](../msbuild/msbuild-targets.md).
 
 The default target is not defined in the project file. Instead, it's specified in imported projects. The [Import](../msbuild/import-element-msbuild.md) element specifies imported projects. For example, in a C# project, the default target is imported from the file *Microsoft.CSharp.targets*.
 
@@ -105,7 +112,6 @@ In SDK-style projects, you don't see this import element, since the SDK attribut
 
 MSBuild keeps track of the targets of a build, and guarantees that each target is built no more than once.
 
-## Add a target and a task
 
  Add a target to the project file. Add a task to the target that prints a message.
 
@@ -137,14 +143,25 @@ The `Message` task takes the string value of the `Text` attribute as input and d
 
 ## Build the target
 
-If you try to build this project from Visual Studio, it doesn't build the target you defined. That's because Visual Studio chooses the default target, which is still the one in the imported `.targets` file.
+If you try to build this project from Visual Studio, it doesn't build the target you defined. That's because Visual Studio chooses the default target, which is still the one in the imported `.targets` file. To build your target in Visual Studio, you can chain it to one of the default targets by using certain attributes on the `Target` element, such as `AfterTargets` or `BeforeTargets`. Here's how to get your HelloWorld target to run after the default `Build` target:
 
-Run MSBuild from the **Developer Command Prompt** for Visual Studio to build the HelloWorld target defined previously. Use the `-target` or `-t` command-line switch to select the target.
+```xml
+<Target Name="HelloWorld" AfterTargets="Build">
+    <Message Text="Hello"></Message>
+    <Message Text="World"></Message>
+</Target>
+```
+
+Run the build again in Visual Studio, and look in the **Build** tab of the **Output** window to see the Hello World messages.
+
+You can also specify desired targets by running MSBuild from the command line. In this section, you'll run MSBuild from the **Developer Command Prompt** for Visual Studio to build the HelloWorld target. Use the `-target` or `-t` command-line switch to select the target.
 
 > [!NOTE]
 > We will refer to the **Developer Command Prompt** as the **Command Window** in the following sections.
 
 **To build the target:**
+
+1. If you added it, delete the `AfterTargets` attribute, and save the project file.
 
 1. Open the **Command Window**.
 
@@ -166,9 +183,6 @@ Run MSBuild from the **Developer Command Prompt** for Visual Studio to build the
     Hello
     World
     ```
-
-> [!NOTE]
-> If instead you see `The target "HelloWorld" does not exist in the project` then you probably forgot to save the project file in the code editor. Save the file and try again.
 
  By alternating between the code editor and the command window, you can change the project file and quickly see the results.
 
@@ -198,10 +212,10 @@ Run MSBuild from the **Developer Command Prompt** for Visual Studio to build the
  Build properties can be redefined at any time. If
 
 ```xml
-<TargetFrameworkVersion>net6.0</TargetFrameworkVersion>
+<TargetFrameworkVersion>net8.0</TargetFrameworkVersion>
 ```
 
- appears later in the project file, or in a file imported later in the project file, then `TargetFrameworkVersion` takes the new value "net6.0"
+ appears later in the project file, or in a file imported later in the project file, then `TargetFrameworkVersion` takes the new value "net8.0"
 
 ## Examine a property value
 
@@ -234,7 +248,17 @@ Use this syntax to examine some of the properties in the project file.
 
 1. Examine the output. You should see these two lines (your output might differ):
 
-    ::: moniker range="=vs-2022"
+
+    ::: moniker range="visualstudio"
+
+    ```output
+    Configuration is Debug
+    MSBuildToolsPath is C:\Program Files\Microsoft Visual Studio\18\MSBuild\Current\Bin\amd64
+    ```
+
+    ::: moniker-end
+
+    ::: moniker range="vs-2022"
 
     ```output
     Configuration is Debug
