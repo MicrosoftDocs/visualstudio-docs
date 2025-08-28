@@ -13,6 +13,7 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
+ai-usage: ai-assisted
 ---
 
 # How to view errors and warnings
