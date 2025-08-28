@@ -773,9 +773,9 @@
       href: ide/how-to-configure-projects-to-target-multiple-platforms.md
   - name: Build output, errors, and warnings
     items:
-    - name: Error List window
+    - name: View errors and warnings
       href: ide/error-list-window.md
-    - name: Output window
+    - name: View build output
       href: ide/output-window.md
     - name: Configure warnings in Visual Basic
       href: ide/configuring-warnings-in-visual-basic.md
