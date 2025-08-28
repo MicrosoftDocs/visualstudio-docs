@@ -1,7 +1,7 @@
 ---
-title: Install and manage GitHub Copilot in Visual Studio
+title: Manage GitHub Copilot installation and state
 description: Learn how to install and manage Copilot in Visual Studio. Use the Copilot badge in the IDE to access options to manage or troubleshoot your Copilot state. 
-ms.date: 3/28/2025
+ms.date: 8/29/2025
 ms.update-cycle: 180-days
 ms.topic: install-set-up-deploy
 author: anandmeg
@@ -10,18 +10,18 @@ ms.manager: mijacobs
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot 
 monikerRange: '>= vs-2022'
-ms.custom: [copilot-learning-hub]
+ms.custom: copilot-learning-hub
 ---
-# Manage your GitHub Copilot installation in Visual Studio
+# Manage GitHub Copilot installation and state
 
-In this article, you will learn how to manage your GitHub Copilot installation in [Visual Studio 2022 version 17.10 or later](/visualstudio/releases/2022/release-notes).
+In this article, you learn how to manage your GitHub Copilot installation and state in [Visual Studio 2022 version 17.10 or later](/visualstudio/releases/2022/release-notes).
  
-## Install using the Visual Studio Installer
+## Install Copilot using the Visual Studio Installer
 
 1. Launch the Visual Studio Installer.
 1. Select the installation of Visual Studio you want to modify, and then select **Modify**.
 1. Select any workload, for example, **.NET desktop development**.
-1. Select **GitHub Copilot** from the list of **Optional** components, and then select **Modify** to install the extension.
+1.n the list of **Optional** components, make sure **GitHub Copilot** is selected, then choose **Modify** to install the extension.
 
    :::image type="content" source="media/vs-2022/visual-studio-github-copilot-extension/github-copilot-installer-component.png" alt-text="Screenshot that shows using the Visual Studio Installer to install the GitHub Copilot component." lightbox="media/vs-2022/visual-studio-github-copilot-extension/github-copilot-installer-component.png":::
 
