@@ -31,7 +31,7 @@ Visual Studio uses a custom container entry point depending on the project type 
 :::moniker range="visualstudio"
 |Container type|Entry point|
 |-|-|
-| **Linux containers** | For .NET 6 and later, the entry point is `dotnet --roll-forward Major /VSTools/DistrolessHelper/DistrolessHelper.dll --wait`. For .NET 5 and earlier, the entry point is `tail -f /dev/null`. These processes use an infinite wait to keep the container running when the app is not running. When the app is launched, with or without debugging, it's the debugger that is responsible to run the app (that is, `dotnet webapp.dll`) and keep the container running.|
+| **Linux containers** | For .NET 6 and later, the entry point is `dotnet --roll-forward Major /VSTools/DistrolessHelper/DistrolessHelper.dll --wait`. For .NET 5 and earlier, the entry point is `tail -f /dev/null`. These processes use an infinite wait to keep the container running when the app is not running. When the app is launched, with or without debugging, it's the debugger that is responsible to run the app (that is, `dotnet webapp.dll`). `DistrolessHelper` monitors the app process, and exits with the app's exit code when the app process ends.|
 | **Windows containers**| The entry point is something like `C:\remote_debugger\x64\msvsmon.exe /noauth /anyuser /silent /nostatus` which runs the debugger, so it's listening for connections.|
 :::moniker-end
 
