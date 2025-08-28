@@ -173,7 +173,7 @@
     items:
     - name: GitHub Copilot Free
       href: ide/copilot-free-plan.md
-    - name: Manage GitHub Copilot installation
+    - name: Manage installation and state
       href: ide/visual-studio-github-copilot-install-and-states.md
     - name: Manage usage and models
       href: ide/copilot-usage-and-models.md
