@@ -1,7 +1,7 @@
 ---
 title: Handle generated files in a build
 description: Customize MSBuild project files in Visual Studio so that files generated during the build process are included in build output.
-ms.date: 02/28/2023
+ms.date: 8/5/2025
 ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, transforms
@@ -22,21 +22,54 @@ Files generated during execution don't exist during the evaluation phase, theref
   
   <!-- Some logic that generates your file goes here -->
   <!-- Generated files should be placed in $(IntermediateOutputPath) -->
+  <WriteLinesToFile
+      File="$(IntermediateOutputPath)GeneratedFile.cs"
+      Lines='enum MyEnum { A, B }'
+      Overwrite="true" />
+    <ItemGroup>
+      <Compile Include="$(IntermediateOutputPath)GeneratedFile.cs" />
+    </ItemGroup>
 
   <ItemGroup>
     <!-- If your generated file was placed in `obj\` -->
-    <None Include="$(IntermediateOutputPath)my-generated-file.xyz" CopyToOutputDirectory="PreserveNewest"/>
+    <None Include="$(IntermediateOutputPath)GeneratedFile.cs" TargetPath="GeneratedFile.cs" CopyToOutputDirectory="PreserveNewest"/>
     <!-- If you know exactly where that file is going to be, you can hard code the path. -->
-    <None Include="some\specific\path\my-generated-file.xyz" CopyToOutputDirectory="PreserveNewest"/>
+    <None Include="some\specific\path\my-generatedfile" CopyToOutputDirectory="PreserveNewest"/>
     
     <!-- If you want to capture "all files of a certain type", you can glob like so. -->
     <None Include="some\specific\path\*.xyz" CopyToOutputDirectory="PreserveNewest"/>
     <None Include="some\specific\path\*.*" CopyToOutputDirectory="PreserveNewest"/>
   </ItemGroup>
 </Target>
+
+<Target Name="CleanGeneratedCode" AfterTargets="CoreClean">
+  <Delete Files="$(IntermediateOutputPath)GeneratedFile.cs" />
+</Target>
 ```
 
 Adding your generated file to `None` or `Content` is sufficient for the build process to see it. You also want to ensure it gets added at the right time. Ideally, your target runs before `BeforeBuild`. `AssignTargetPaths` is another possible target, as it is the final opportunity to modify `None` and `Content` items (among others) before they are transformed into new items. See [Common Item Types](common-msbuild-project-items.md).
+
+Copy the above, paste it into a file, and call it `buildcodegen.targets`. Then, run `dotnet new console`, import the file, and  build it to see how it works.
+
+```xml
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="buildcodegen.targets"/>
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+</Project>
+```
+
+Run *msbuild.exe* and look at the output to verify that your file was generated and copied to the output folder. You can use *ildasm.exe* to confirm that your output binaries include the generated code `MyEnum`:
+
+`ildasm CodeGen.dll`
+
+## Next steps
+
+This example could be improved to support more realistic use cases. For example, to support [incremental builds](./incremental-builds.md) when the generated code depends on an input file, `Inputs` and `Outputs` should be provided to the target. Such a target would only regenerate the file if the date of the input file or files is more recent than the output file. Often when customizing for code generation, it's recommended to create a custom task. See [Create a custom task for code generation](./tutorial-custom-task-code-generation.md).
 
 ## Related content
 
