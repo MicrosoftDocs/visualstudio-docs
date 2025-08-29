@@ -161,6 +161,8 @@
       href: ide/copilot-select-add-models.md
   - name: Chat context
     items:
+    - name: How chat uses context
+      href: ide/copilot-chat-overview.md
     - name: Customize responses
       href: ide/copilot-chat-context.md
     - name: Manage context
