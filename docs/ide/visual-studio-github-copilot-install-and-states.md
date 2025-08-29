@@ -63,7 +63,7 @@ If Copilot is installed but in an inactive state, it may be because:
 
     :::image type="content" source="media/vs-2022/visual-studio-github-copilot-install-and-states/copilot-state-inactive-copilot-free.png" alt-text="Screenshot of Copilot badge when user is signed in but Copilot is inactive.":::
 
-- Your **active** GitHub account doesn't have a Copilot subscrition
+- Your **active** GitHub account doesn't have a Copilot subscription
 
     If you added multiple GitHub accounts in Visual Studio, ensure the [**active** account](work-with-github-accounts.md#switch-the-active-account) is the one with the active Copilot subscription.
 
