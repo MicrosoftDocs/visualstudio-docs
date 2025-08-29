@@ -140,9 +140,7 @@
 - name: GitHub Copilot
   items:
   - name: Get started
-    items:
-    - name: Install and manage
-      href: ide/visual-studio-github-copilot-install-and-states.md
+    href: ide/visual-studio-github-copilot-get-started.md
   - name: Editor
     items:
     - name: Code Completions
@@ -177,6 +175,8 @@
     items:
     - name: GitHub Copilot Free
       href: ide/copilot-free-plan.md
+    - name: Manage installation and state
+      href: ide/visual-studio-github-copilot-install-and-states.md
     - name: Manage usage and models
       href: ide/copilot-usage-and-models.md
     - name: Deploy GitHub Copilot to your enterprise
