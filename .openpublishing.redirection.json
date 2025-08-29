@@ -1,6 +1,36 @@
 {
   "redirections": [
     {
+      "source_path": "docs/ide/reference/command-window.md",
+      "redirect_url": "/visualstudio/ide/command-window",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/ide/reference/error-list-window.md",
+      "redirect_url": "/visualstudio/ide/error-list-window",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/ide/reference/output-window.md",
+      "redirect_url": "/visualstudio/ide/output-window",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/ide/reference/user-notifications-window.md",
+      "redirect_url": "/visualstudio/ide/user-notifications-window",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/ide/reference/trust-settings.md",
+      "redirect_url": "/visualstudio/ide/trust-settings",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/ide/reference/team-explorer-reference.md",
+      "redirect_url": "/visualstudio/ide/team-explorer-reference",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "docs/ide/reference/options-text-editor-all-languages-tabs.md",
       "redirect_url": "/visualstudio/ide/options-text-editor-all-languages-tabs",
       "redirect_document_id": false
