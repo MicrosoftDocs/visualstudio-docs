@@ -29,9 +29,9 @@ jobs:
         uses: dotnet/docs-tools/cleanrepo@main
         with:
           function: "FindOrphanedImages"
-          docfx_directory: "."
+          docfx_directory: "docs"
           target_directory: "docs"
-          url_base_path: "/dotnet"
+          url_base_path: "/visualstudio"
 
       # Create the PR for the work done by the "clean repo" tool
       - name: create-pull-request
