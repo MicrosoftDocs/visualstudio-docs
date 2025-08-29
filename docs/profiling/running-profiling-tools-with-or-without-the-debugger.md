@@ -35,6 +35,9 @@ To collect performance data on release builds, run the Performance Profiler tool
 
 1. On the diagnostic tools launch page, select one or more tools to run. Only the tools that are applicable to the project type, operating system, and programming language are shown. Select **Show all tools** to also see tools that are disabled for this diagnostic session.
 
+   ::: moniker range="visualstudio"
+   ![Screenshot of Performance Profiler.](../profiling/media/vs/prof-tour-performance-profiler.png "Performance Profiler")
+   ::: moniker-end
    ::: moniker range=">=vs-2022"
    ![Screenshot of diagnostic tools.](../profiling/media/vs-2022/performance-profiler-summary-page.png "DIAG_SelectTool")
    ::: moniker-end
