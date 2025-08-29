@@ -1,5 +1,5 @@
 ---
-title: How Copilot Chat works
+title: How Copilot Chat uses context
 description: Learn how GitHub Copilot Chat understands your codebase, builds context, and applies code suggestions in Visual Studio.
 ms.date: 9/3/2025
 ms.update-cycle: 180-days
@@ -49,3 +49,4 @@ Copilot Chat uses speculative decoding to accurately insert suggestions into exi
 - [Customize chat responses and set context](copilot-chat-context.md)
 - [Manage chat context with references](copilot-chat-context-references.md)
 - [[GitHub Copilot Trust Center: Learn about security, privacy, compliance, and transparency]](https://copilot.github.trust.page)
+- [Smarter AI edits in Visual Studio Copilot (DevBlog)](https://devblogs.microsoft.com/visualstudio/smarter-ai-edits-in-visual-studio-copilot/)
