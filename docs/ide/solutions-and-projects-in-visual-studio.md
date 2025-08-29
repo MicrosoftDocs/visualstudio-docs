@@ -1,7 +1,7 @@
 ---
-title: 'What are Visual Studio solutions & projects?'
-description: Learn about Visual Studio projects and solutions, how to create new projects from a template, and how to view & manage projects in Solution Explorer.
-ms.date: 08/19/2024
+title: What Are Visual Studio Solutions and Projects?
+description: Learn about Visual Studio projects and solutions, how to create new projects from a template, and how to view and manage projects in Solution Explorer.
+ms.date: 08/25/2025
 ms.topic: concept-article
 f1_keywords:
 - vs.openproject
@@ -26,7 +26,7 @@ This article describes the difference between a *project* and a *solution* in Vi
 
 ## Projects
 
-When you create an app or website in Visual Studio, you start with a *project*. In a logical sense, a project contains all files that are compiled into an executable project, library, or website. Those files can include source code, icons, images, data files, and more. A project also contains compiler settings and other configuration files that your program might need to communicate with various services or components.
+When you create an app or website in Visual Studio, you start with a *project*. A project contains all files that are compiled into an executable project, library, or website. Those files can include source code, icons, images, data files, and more. A project also contains compiler settings and other configuration files that your program might need to communicate with various services or components.
 
 ### Project file
 
@@ -34,30 +34,30 @@ Visual Studio uses [MSBuild](../msbuild/msbuild.md) to build each project in a s
 
 ::: moniker range=">=vs-2022"
 
-Project files are based on the [MSBuild XML schema](../msbuild/msbuild-project-file-schema-reference.md). To look at the contents of newer, [SDK-style project files](../msbuild/how-to-use-project-sdk.md) in Visual Studio, right-click the [project node](use-solution-explorer.md#solution-explorer-ui) in **Solution Explorer** and select **Edit Project File**. To look at the contents of .NET projects, first unload the project (right-click the project node in **Solution Explorer** and select **Unload Project**). Then, right-click the project and select **Edit Project File**.
+Project files are based on the [MSBuild XML schema](../msbuild/msbuild-project-file-schema-reference.md). To look at the contents of newer, [SDK-style project files](../msbuild/how-to-use-project-sdk.md) in Visual Studio, right-click the [project node](use-solution-explorer.md#solution-explorer-ui) in Solution Explorer and select **Edit Project File**. To look at the contents of .NET projects, first unload the project. (Right-click the project node in Solution Explorer and select **Unload Project**.) Then right-click the project and select **Edit Project File**.
 
 ::: moniker-end
 
 ::: moniker range="=vs-2019"
 
-Project files are based on the [MSBuild XML schema](../msbuild/msbuild-project-file-schema-reference.md). To look at the contents of newer, [SDK-style project files](../msbuild/how-to-use-project-sdk.md) in Visual Studio, right-click the [project node](use-solution-explorer.md#solution-explorer-ui) in **Solution Explorer** and select **Edit \<projectname\>**. To look at the contents of .NET projects, first unload the project (right-click the project node in **Solution Explorer** and select **Unload Project**). Then, right-click the project and choose **Edit \<projectname\>**.
+Project files are based on the [MSBuild XML schema](../msbuild/msbuild-project-file-schema-reference.md). To look at the contents of newer, [SDK-style project files](../msbuild/how-to-use-project-sdk.md) in Visual Studio, right-click the [project node](use-solution-explorer.md#solution-explorer-ui) in Solution Explorer and select **Edit \<projectname\>**. To look at the contents of .NET projects, first unload the project. (Right-click the project node in Solution Explorer and select **Unload Project**.) Then right-click the project and select **Edit \<projectname\>**.
 
 ::: moniker-end
 
 > [!NOTE]
 > You don't have to use solutions or projects in Visual Studio to edit, build, and debug code. You can simply open the folder that contains your source files in Visual Studio and start editing. For more information, see [Develop code in Visual Studio without projects or solutions](develop-code-in-visual-studio-without-projects-or-solutions.md).
 
-### Create new projects
+### Create projects
 
 The easiest way to create a new project is to use a project template for the project type you want. A project template includes a basic set of pregenerated code files, config files, assets, and settings. Use **File** > **New** > **Project** to select a project template. For more information, see [Create a new project in Visual Studio](create-new-project.md).
 
 You can also create a custom project template that you can use to create new projects from. For more information, see [Create project templates](how-to-create-project-templates.md).
 
-When you create a new project, Visual Studio saves it to the default location, *%USERPROFILE%\source\repos*. To change the default location, go to **Tools** > **Options** > **Projects and Solutions** > **Locations**. For more information, see [Options dialog box: Projects and Solutions > Locations](reference/projects-solutions-locations-options.md).
+When you create a project, Visual Studio saves it to the default location, *%USERPROFILE%\source\repos*. To change the default location, go to **Tools** > **Options** > **Projects and Solutions** > **Locations**. For more information, see [Options dialog box: Projects and Solutions > Locations](reference/projects-solutions-locations-options.md).
 
 ## Solutions
 
-A project is contained within a *solution*. Despite its name, a solution isn't an "answer." It's simply a container for one or more related projects, along with build information, Visual Studio window settings, and any miscellaneous files that aren't associated with a particular project.
+A project is contained in a *solution*. Despite its name, a solution isn't an "answer." It's simply a container for one or more related projects, along with build information, Visual Studio window settings, and any miscellaneous files that aren't associated with a particular project.
 
 ### Solution file
 
@@ -68,26 +68,15 @@ Visual Studio uses two file types (*.sln* and *.suo*) to store settings for solu
 |.sln|Visual Studio Solution|Organizes projects, project items, and solution items in the solution.|
 |.suo|Solution User Options|Stores user-level settings and customizations, such as breakpoints.|
 
-::: moniker range=">=vs-2022"
-
 > [!IMPORTANT]
-> A solution is described by a text file (extension *.sln*) that has its own unique format; it's not intended to be edited by hand. Conversely, the *.suo* file is a hidden file that isn't displayed under the default File Explorer settings. To show hidden files, on the **View** menu in File Explorer, select **Show** > **Hidden items**.
-
-::: moniker-end
-
-::: moniker range="=vs-2019"
-
-> [!IMPORTANT]
-> A solution is described by a text file (extension *.sln*) with its own unique format; it's not intended to be edited by hand. Conversely, the *.suo* file is a hidden file that is not displayed under the default File Explorer settings. To show hidden files, on the **View** menu in File Explorer, select the **Hidden Items** checkbox.
-
-::: moniker-end
+> A solution is described by a text file (extension *.sln*) that has its own unique format. It's not intended to be edited manually. Conversely, the *.suo* file is a hidden file that isn't displayed under the default File Explorer settings. To show hidden files, on the **View** menu in File Explorer, select **Show** > **Hidden items**.
 
 ### Solution folder
 
-A *solution folder* is a virtual folder that exists only in Solution Explorer, where you can use it to group projects in a solution. If you want to locate a solution file on a computer, go to **Tools** > **Options** > **Projects and Solutions** > **Locations**. For more information, see [Options dialog box: Projects and Solutions > Locations](reference/projects-solutions-locations-options.md).
+A *solution folder* is a virtual folder that exists only in Solution Explorer, where you can use it to group projects in a solution. If you want to find the location of solution files on a computer, go to **Tools** > **Options** > **Projects and Solutions** > **Locations**. For more information, see [Options dialog box: Projects and Solutions > Locations](reference/projects-solutions-locations-options.md).
 
 > [!TIP]
-> To construct a project and solution as an exercise, see [Introduction to projects and solutions](../get-started/tutorial-projects-solutions.md).
+> If you want to construct a project and solution as an exercise, see [Introduction to projects and solutions](../get-started/tutorial-projects-solutions.md).
 
 ## Solution Explorer
 
@@ -111,14 +100,14 @@ Many menu commands are available from the [right-click context menu](use-solutio
 
 ::: moniker range=">=vs-2022"
 
-Starting with [version 17.7](/visualstudio/releases/2022/release-notes), you can also compare files in Solution Explorer by using the right-click context menu options. For more information, see [The file comparison tool](use-solution-explorer.md#the-file-comparison-tool) in [Learn about Solution Explorer](use-solution-explorer.md).
+Starting with [version 17.7](/visualstudio/releases/2022/release-notes-v17.7), you can also compare files in Solution Explorer by using the right-click context menu options. For more information, see [The file comparison tool](use-solution-explorer.md#the-file-comparison-tool) in [Learn about Solution Explorer](use-solution-explorer.md).
 
 ::: moniker-end
 
 For ASP.NET Core projects, you can customize how files are nested in Solution Explorer. For more information, see [File nesting in Solution Explorer](file-nesting-solution-explorer.md).
 
 > [!TIP]
-> If you close Solution Explorer and want to open it again, select **View** > **Solution Explorer** on the menu bar, or select **Ctrl**+**Alt**+**L**. If you close side tabs and want to restore them to their default locations, select **Window** > **Reset Window Layout** on the menu bar.
+> If you close Solution Explorer and want to open it again, select **View** > **Solution Explorer** in the top menu, or select **Ctrl**+**Alt**+**L**. If you close side tabs and want to restore them to their default locations, select **Window** > **Reset Window Layout** in the top menu.
 
 > [!NOTE]
 > To view the application images and icons that appear in Visual Studio, download the [Visual Studio Image Library](https://www.microsoft.com/download/details.aspx?id=35825).

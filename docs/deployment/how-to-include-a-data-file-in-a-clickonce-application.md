@@ -38,11 +38,11 @@ Each ClickOnce application you install is assigned a data directory on the desti
 
     If you added an XML file named `Data.xml`, the file will look similar to the following code example.
 
-   `<file name="Data.xml" hash="23454C18A2DC1D23E5B391FEE299B1F235067C59" hashalg="SHA1" asmv2:size="39500" />`
+   `<file name="Data.xml" hash="AA11BB22CC33DD44EE55FF66AA77BB88CC99DD00" hashalg="SHA1" asmv2:size="39500" />`
 
 4. Add the attribute `type` to this element, and supply it with a value of `data`.
 
-   `<file name="Data.xml" writeableType="applicationData" hash="23454C18A2DC1D23E5B391FEE299B1F235067C59" hashalg="SHA1" asmv2:size="39500" />`
+   `<file name="Data.xml" writeableType="applicationData" hash="AA11BB22CC33DD44EE55FF66AA77BB88CC99DD00" hashalg="SHA1" asmv2:size="39500" />`
 
 5. Re-sign your application manifest by using your key pair or certificate, and then re-sign your deployment manifest.
 

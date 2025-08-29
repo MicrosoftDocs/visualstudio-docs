@@ -91,10 +91,10 @@ Icon|Description|
 |![Yellow arrow](media/icon-parallel-yellow-arrow.png)|Indicates the current location (active stack frame) of the current thread.|
 |![Threads icon](media/icon-parallelthreads.gif)|Indicates the current location (active stack frame) of a non-current thread.|
 |![Green arrow](media/icon-parallel-green-arrow.png)|Indicates the current stack frame (the current debugger context). The method name is bold wherever it appears.|
-|![Status Error](media/vs-2022/icon-status-error.png)|Indicates that the current stack frame has Critical status warning such as Deadlock.|
-|![Status Excluded](media/vs-2022/icon-status-excluded.png)|Indicates the deadlocked node.|
-|![Status Information](media/vs-2022/icon-status-information.png)|Indicates that the current stack frame has additional information such as Waiting on, Waiting on lock, owned by, etc. |
-|![Status Blocked](media/vs-2022/icon-status-block.png)|Indicates that the current task is in blocked/waiting state, etc. |
+|![Status Error](media/vs-2022/icon-status-error.png)|(.NET) Indicates that the current stack frame has Critical status warning such as Deadlock.|
+|![Status Excluded](media/vs-2022/icon-status-excluded.png)|(.NET) Indicates the deadlocked node.|
+|![Status Information](media/vs-2022/icon-status-information.png)|(.NET) Indicates that the current stack frame has additional information such as Waiting on, Waiting on lock, owned by, etc. |
+|![Status Blocked](media/vs-2022/icon-status-block.png)|(.NET) Indicates that the current task is in blocked/waiting state, etc. |
 |![Status Running](media/vs-2022/icon-status-running.png)|Indicates the currently running task.|
 
 ::: moniker-end
@@ -194,15 +194,13 @@ The following table describes the main features of the **Threads** view:
 ::: moniker-end
 
 ## Tasks view
-If your app uses <xref:System.Threading.Tasks.Task?displayProperty=fullName> objects (managed code) or `task_handle` objects (native code) to express parallelism, you can use **Tasks** view. **Tasks** view shows call stacks of tasks instead of threads.
 
-In **Tasks** view:
+For .NET apps using the async/await pattern, the Tasks view is the most helpful for debugging. For a step-by-step tutorial, see [Debug an async application](../debugger/walkthrough-debugging-a-parallel-application.md).
 
-- Call stacks of threads that aren't running tasks aren't shown.
-- Call stacks of threads that are running tasks are visually trimmed at the top and bottom, to show the most relevant frames for tasks.
-- When several tasks are on one thread, the call stacks of those tasks are shown in separate nodes.
+In **Tasks** view, you can:
 
-To see an entire call stack, switch back to **Threads** view by right-clicking in a stack frame and selecting **Go to Thread**.
+- View call stack visualizations for apps that use the async/await pattern.
+- Identify async code that is scheduled to run but isn't yet running.
 
 The following illustration shows the **Threads** view at the top and the corresponding **Tasks** view at the bottom.
 
@@ -252,8 +250,6 @@ These video tutorials demonstrate how you can use the Threads and Tasks views of
 
 ## Related content
 - [Get started debugging a multithreaded application](../debugger/get-started-debugging-multithreaded-apps.md)
-- [Debug an async application (.NET)](../debugger/walkthrough-debugging-a-parallel-application.md)
-- [Debug a deadlock](../debugger/how-to-use-the-threads-window.md)
 - [Switch to Another Thread While Debugging in Visual Studio](../debugger/how-to-switch-to-another-thread-while-debugging.md)
 - [Debugging managed code](/visualstudio/debugger/)
 - [Parallel programming](/dotnet/standard/parallel-programming/index)
