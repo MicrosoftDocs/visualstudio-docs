@@ -1,8 +1,8 @@
 ---
-title: Team Explorer reference
+title: Team Explorer overview
 description: Learn about the various functions in Team Explorer to manage work and coordinate with other team members to develop a project.
-ms.date: 11/02/2022
-ms.topic: reference
+ms.date: 8/27/2025
+ms.topic: overview
 ms.author: ghogen
 ms.custom: "ide-ref"
 author: ghogen
@@ -16,11 +16,11 @@ This article provides links to Azure DevOps articles about the various functions
 Use the **Team Explorer** tool window to coordinate your code efforts with other team members to develop a project, and to manage work that's assigned to you, your team, or your projects. **Team Explorer** connects Visual Studio to Git and GitHub repositories, Team Foundation version control (TFVC) repositories, and projects hosted on [Azure DevOps Services](/azure/devops/user-guide/what-is-azure-devops-services) or an on-premises [Azure DevOps Server](/azure/devops/index-all) (formerly known as Team Foundation Server, or TFS). You can manage source code, work items, and builds.
 
 > [!IMPORTANT]
-> Starting with the release of Visual Studio 2019 [**version 16.8**](/visualstudio/releases/2019/release-notes-history), the Git version control experience is the default. If you'd like to learn more about how it compares with Team Explorer, see the [**Side-by-side comparison of Git and Team Explorer**](../../version-control/git-team-explorer-feature-comparison.md) page.
+> Starting with the release of Visual Studio 2019 [**version 16.8**](/visualstudio/releases/2019/release-notes-history), the Git version control experience is the default. If you'd like to learn more about how it compares with Team Explorer, see the [**Side-by-side comparison of Git and Team Explorer**](../version-control/git-team-explorer-feature-comparison.md) page.
 
 ## Home page
 
-After you [connect to a project](../connect-team-project.md) in **Team Explorer**, the following links become available in the **Project** section:
+After you [connect to a project](connect-team-project.md) in **Team Explorer**, the following links become available in the **Project** section:
 
 - [Clone repository](/azure/devops/repos/git/clone)
 - [Web Portal](/azure/devops/project/navigation/index)
@@ -109,4 +109,4 @@ The **Settings** page lets you configure administrative features for either a pr
 
 ## See also
 
-- [Connect to projects in Team Explorer](../../ide/connect-team-project.md)
+- [Connect to projects in Team Explorer](connect-team-project.md)
