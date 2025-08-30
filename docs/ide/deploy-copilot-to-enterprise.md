@@ -32,7 +32,7 @@ Options for deploying GitHub Copilot depend on how Visual Studio is currently in
 ## Modify an existing installation to add the GitHub Copilot component
 
 In most cases, users either install Visual Studio themselves, or set it up using a development environment setup script on their machine.
-To add the GitHub Copilot component to an existing Visual Studio installation, use the installer's `modify` command from either a Command Prompt or PowerShell window.
+To add the GitHub Copilot component to an existing Visual Studio installation, use the installer's `modify` command from either a Command Prompt or PowerShell window. Learn more about [using command-line parameters with your Visual Studio installation](../install/use-command-line-parameters-to-install-visual-studio).
 
 ### Sample installation instructions
 
