@@ -180,7 +180,7 @@ To explore Visual Studio's features, let's create a new project.
     
     :::image type="content" source="media/vs-2022/quickstart-ide-error-list.png" alt-text="Screenshot of the Error List in Visual Studio 2022.":::
 
-* The **Search** box (**Ctrl + Q**) at the top is a quick and easy way to find just about anything in Visual Studio. You can enter some text related to what you want to do, and it shows you a list of options that are relevant to the text. For example, to open a **Terminal** window, just search for it and open from the search results. The built-in terminal is opened and is ready for commands.
+* The **Search** box at the top is a quick and easy way to find just about anything in Visual Studio. You can search for features using **Feature Search** (`Ctrl + Q`) or search your code elements, such as files and symbols, using **Code Search**(`Ctrl+T`). For example, to open a **Terminal** window, just search for it and open from the search results. The built-in terminal is opened and is ready for commands.
 
     :::image type="content" source="media/vs-2022/ide-tour-toolbar-search-box.png" alt-text="Screenshot of the Search box in Visual Studio 2022.":::
 
