@@ -3,7 +3,7 @@ title: "Tour the Visual Studio IDE"
 description: Learn about some of the windows, menus, and other UI features of the Visual Studio integrated development environment (IDE).
 ms.custom: vs-acquisition
 titleSuffix: ''
-ms.date: 1/23/2025
+ms.date: 8/30/2025
 ms.update-cycle: 180-days
 ms.topic: conceptual
 author: anandmeg
@@ -168,7 +168,7 @@ To explore Visual Studio's features, let's create a new project.
     :::image type="content" source="media/vs-2022/quickstart-ide-orientation/github-copilot-extension-example.gif" alt-text="Screenshot of the GitHub Copilot extension in Visual Studio 2022." lightbox="media/vs-2022/quickstart-ide-orientation/github-copilot-extension-example.gif":::
 
     > [!div class="button"]
-    > [Get GitHub Copilot](visual-studio-github-copilot-install-and-states.md)
+    > [Get started with GitHub Copilot in Visual Studio](visual-studio-github-copilot-get-started.md)
 
     Learn more about [AI-assisted development in Visual Studio](ai-assisted-development-visual-studio.md). 
 
