@@ -29,6 +29,7 @@ Choose from an expanded set of models in the model picker:
 - OpenAI o3-mini
 - Gemini 2.0 Flash
 - Gemini 2.5 Pro
+- GPT-5 mini
 
 **Model selection improvements**
 
