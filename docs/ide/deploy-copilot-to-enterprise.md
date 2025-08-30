@@ -1,7 +1,7 @@
 ---
 title: Deploy GitHub Copilot within your enterprise
 description: Configure and deploy GitHub Copilot programmatically to existing Visual Studio instances on a client's machine within an enterprise.
-ms.date: 2/25/2025
+ms.date: 8/30/2025
 ms.update-cycle: 180-days
 ms.topic: conceptual
 author: anandmeg
@@ -32,7 +32,7 @@ Options for deploying GitHub Copilot depend on how Visual Studio is currently in
 ## Modify an existing installation to add the GitHub Copilot component
 
 In most cases, users either install Visual Studio themselves, or set it up using a development environment setup script on their machine.
-To add the GitHub Copilot component to an existing Visual Studio installation, use the installer's `modify` command from either a Command Prompt or PowerShell window. Learn more about [using command-line parameters with your Visual Studio installation](../install/use-command-line-parameters-to-install-visual-studio).
+To add the GitHub Copilot component to an existing Visual Studio installation, use the installer's `modify` command from either a Command Prompt or PowerShell window. Learn more about [using command-line parameters with your Visual Studio installation](../install/use-command-line-parameters-to-install-visual-studio.md).
 
 ### Sample installation instructions
 
