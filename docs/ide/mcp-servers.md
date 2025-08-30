@@ -148,7 +148,7 @@ To add an MCP server from chat view:
 
 1. Select the green plus (`+`) button in the tool picker in the chat window.
 
-   :::image type="content" source="media/vs-2022/mcp-servers/plus-button-tool-picker.png" alt-text="Screenshot the plus button in tool picker of Visual Studio chat to add MCP server." lightbox="media/vs-2022/mcp-servers/configure-server-visual-studio.png":::
+   :::image type="content" source="media/vs-2022/mcp-servers/plus-button-add-mcp.png" alt-text="Screenshot the plus button in tool picker of Visual Studio chat to add MCP server." lightbox="media/vs-2022/mcp-servers/configure-server-visual-studio.png":::
 
 1. Specify the server name and connection details, such as the URL for HTTP servers or the command and arguments for stdio servers.
 
