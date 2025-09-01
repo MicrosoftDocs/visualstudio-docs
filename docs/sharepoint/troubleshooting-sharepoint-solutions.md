@@ -193,7 +193,7 @@ ms.subservice: sharepoint-development
 
 - SharePoint 2010 Central Administration. For more information, see [BDC Model Management](/previous-versions/office/sharepoint-server-2010/ee524073(v=office.14)#delete-a-bdc-model) on the Microsoft TechNet Web site.
 
-- Windows PowerShell. You can delete the model by typing this command at the command prompt: **Remove-SPBusinessDataCatalogModel**. For more information, see [General cmdlets (SharePoint Server 2010)](/powershell/module/sharepoint-server) on the Microsoft TechNet Web site.
+- Windows PowerShell. You can delete the model by typing this command at the command prompt: **Remove-SPBusinessDataCatalogModel**. For more information, see [General cmdlets (SharePoint Server 2010)](/archive/technet-wiki/34284.sharepoint-2016-list-of-powershell-cmdlets) on the Microsoft TechNet Web site.
 
 ## Deployment error occurred trying to recycling the IIS Application Pool on the SharePoint Server
 
