@@ -5,6 +5,7 @@ description: Explore Visual Studio, an integrated development environment (IDE) 
 ms.date: 08/25/2025
 ms.subservice: general-ide
 ms.topic: overview
+ms.update-cycle: 90-days
 ms.custom: vs-acquisition
 f1_keywords:
 - vs.startpage
