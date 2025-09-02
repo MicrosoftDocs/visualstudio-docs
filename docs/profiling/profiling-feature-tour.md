@@ -32,7 +32,11 @@ Open the Performance Profiler by choosing **Debug** > **Performance Profiler** (
 ::: moniker range="visualstudio"
 ![Screenshot of Performance Profiler.](../profiling/media/vs/prof-tour-performance-profiler.png "Performance Profiler")
 
-Tools that can be used in combination appear in the **Flexible** tab. Tools that must be used in isolation appear in the **Standalone** tab. If Copilot is enabled, the **Recommended** tab shows the tools that Copilot recommends based on its analysis of your source code.
+Tools that can be used in combination appear in the **Flexible** tab. Tools that must be used in isolation appear in the **Standalone** tab. 
+
+## Get AI recommendations
+
+If Copilot is enabled, the **Recommended** tab shows the tools that Copilot recommends based on its analysis of your source code.
 ::: moniker-end
 ::: moniker range="vs-2022"
 ![Screenshot of Performance Profiler.](../profiling/media/vs-2022/prof-tour-performance-profiler.png "Performance Profiler")
