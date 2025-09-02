@@ -24,7 +24,7 @@ Properties are name-value pairs that can be used to configure builds. Properties
 </PropertyGroup>
 ```
 
-Valid property names begin with an uppercase or lowercase letter or underscore (`_`); valid subsequent characters include alphanumeric characters (letters or digits), underscore, and hyphen (`-`).
+Valid property names begin with an uppercase or lowercase letter or underscore (`_`); valid subsequent characters include alphanumeric characters (ASCII letters or digits), underscore, and hyphen (`-`).
 
  Throughout the project file, properties are referenced by using the syntax `$(<PropertyName>)`. For example, the property in the previous example is referenced by using `$(BuildDir)`.
 
