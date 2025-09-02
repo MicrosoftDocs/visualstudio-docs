@@ -36,7 +36,7 @@ These files supplement the system prompt, instructions, implicit context (such a
 
 Learn how to [add references as context](copilot-chat-context-references.md) in chat.
 
-## How Copilot Chat applies code auggestions
+## How Copilot Chat applies code suggestions
 
 Copilot Chat frequently provides code suggestions in its responses. These suggestions must be accurately mapped to your codebase before they can be applied and tested.
 
@@ -48,5 +48,5 @@ Copilot Chat uses speculative decoding to accurately insert suggestions into exi
 
 - [Customize chat responses and set context](copilot-chat-context.md)
 - [Manage chat context with references](copilot-chat-context-references.md)
-- [[GitHub Copilot Trust Center: Learn about security, privacy, compliance, and transparency]](https://copilot.github.trust.page)
+- [GitHub Copilot Trust Center: Learn about security, privacy, compliance, and transparency](https://copilot.github.trust.page)
 - [Smarter AI edits in Visual Studio Copilot (DevBlog)](https://devblogs.microsoft.com/visualstudio/smarter-ai-edits-in-visual-studio-copilot/)
