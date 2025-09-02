@@ -1,13 +1,13 @@
 ---
 title: How do I renew Visual Studio subscriptions?
 description: Learn how to renew retail, cloud, and Volume License subscriptions
-comment:  As of August 2023 this include file is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Jose Becerra and Larissa Crawford of Red Door Collaborative and Angela Cao-Hong.
+comment:  As of August 2023 this include file is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Jose Becerra and Larissa Crawford of Red Door Collaborative.
 ms.topic: include
 ms.assetid: 00b82d16-6a80-42d1-8b71-e12047c6b50c
 ms.subservice: 
 author: joseb-rdc
 ms.author: amast
-ms.date: 09/24/2024
+ms.date: 09/02/2025
 ms.faqid: q4_1
 ---
 
@@ -28,8 +28,11 @@ If you currently have a retail subscription, there are two ways to renew:
 
     [Visual Studio Test Professional](https://www.microsoft.com/p/visual-studio-test-professional-subscription/dg7gmgf0dst6?activetab=pivot%3aoverviewtab) 
 
+### How to activate subscriptions
+After you purchase a Visual Studio subscription, you can begin the activation process from the payment confirmation page or confirmation email you received after your purchase. For activation steps, visit [How to activate subscriptions](https://learn.microsoft.com/visualstudio/subscriptions/buy-activate-retail#how-to-activate-subscriptions).
+
 ### How to renew cloud subscriptions
-Cloud subscriptions are purchased through the [Visual Studio Marketplace](https://marketplace.visualstudio.com/).  Both monthly and annual cloud subscriptions renew until you cancel them, so there's no action needed to renew them.
+Cloud subscriptions are purchased through the [Visual Studio Marketplace](https://marketplace.visualstudio.com/). Both monthly and annual cloud subscriptions renew until you cancel them, so there's no action needed to renew them.
 
 ### How to renew subscriptions purchased through Volume Licensing
-If your subscription is provided to you by your work, it's probably purchased and renewed through your company's Volume License agreement.  You can reach out to your admin using the **Contact my admin** button at the top right of the [Subscriptions Portal](https://my.visualstudio.com/benefits).
+If your subscription is provided to you by your work, it's probably purchased and renewed through your company's Volume License agreement. You can reach out to your admin using the **Contact my admin** button at the top right of the [Subscriptions Portal](https://my.visualstudio.com/benefits).
