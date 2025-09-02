@@ -106,11 +106,13 @@ You can filter the tabular data to display activity for only a specified time ra
 
 You can also zoom into or out of the graph.
 
-::: moniker range=">=vs-2022"
+::: moniker range="vs-2022"
 ## Insights
 
 If any insights show up in the **Insights** view, use the provided link to get more information about the issue identified. 
+::: moniker-end
 
+::: moniker range=">=visualstudio"
 ### Get AI assistance
 
 If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while you're looking at the top insights. Copilot provides information and insights related to a set of specific performance insights. With Copilot, you can also ask questions about objects using the most memory, which can help you produce more efficient or cost-effective code.
