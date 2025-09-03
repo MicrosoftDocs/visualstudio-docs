@@ -74,7 +74,7 @@ Use this procedure to build the solution in the current configuration (for examp
 
 You can see build progress and output in the **Output** window. You also see an icon at the bottom edge of the Visual Studio window that indicates a build is running.
 
-The underlying build tool that Visual Studio uses is called [MSBuild](../msbuild/msbuild.md). MSBuild uses optimizations such as incremental build to minimize rebuilding the same files if they haven't changed, so the first time you build a solution, it might take a long time, depending on the size of the projects, but subsequent builds are faster.
+The underlying build tool that Visual Studio uses is called [MSBuild](../msbuild/msbuild.md). MSBuild uses optimizations such as incremental build to minimize rebuilding the same files if they haven't changed, so the first time you build a solution, it might take a long time for large solutions, but subsequent builds are usually faster.
 
 ## Batch build
 
