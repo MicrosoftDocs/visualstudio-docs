@@ -21,9 +21,10 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- [FAQ for code analysis in Visual Studio](../code-quality/analyzers-faq.yml) - Clarify recommendations for use of rule set files
-- [Suppress code analysis violations](../code-quality/in-source-suppression-overview.md) - Clarify recommendations for use of rule set files
-- [Code analysis using .NET compiler platform (Roslyn) analyzers](../code-quality/roslyn-analyzers-overview.md) - Clarify recommendations for use of rule set files
+- Clarify recommendations for use of rule set files
+  - [FAQ for code analysis in Visual Studio](../code-quality/analyzers-faq.yml)
+  - [Suppress code analysis violations](../code-quality/in-source-suppression-overview.md)
+  - [Code analysis using .NET compiler platform (Roslyn) analyzers](../code-quality/roslyn-analyzers-overview.md)
 
 ### Debugger
 
@@ -130,13 +131,13 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 - [How MSBuild builds projects](../msbuild/build-process-overview.md) - General improvements
 - [MSBuild project file schema reference](../msbuild/msbuild-project-file-schema-reference.md) - Update MSBuild schema links
 - Clean up old, unsupported .NET version references:
-    - [Configure tasks](../msbuild/configure-tasks.md)
-    - [GenerateBootstrapper task](../msbuild/generatebootstrapper-task.md)
-    - [Target multiple framework versions and platforms](../msbuild/msbuild-multitargeting-overview.md)
-    - [MSBuild](../msbuild/msbuild.md)
-    - [Register extensions of the .NET Framework](../msbuild/registering-extensions-of-the-dotnet-framework.md)
-    - [Target element (MSBuild)](../msbuild/target-element-msbuild.md)
-    - [Tutorial: Generate a REST API client](../msbuild/tutorial-rest-api-client-msbuild.md)
+  - [Configure tasks](../msbuild/configure-tasks.md)
+  - [GenerateBootstrapper task](../msbuild/generatebootstrapper-task.md)
+  - [Target multiple framework versions and platforms](../msbuild/msbuild-multitargeting-overview.md)
+  - [MSBuild](../msbuild/msbuild.md)
+  - [Register extensions of the .NET Framework](../msbuild/registering-extensions-of-the-dotnet-framework.md)
+  - [Target element (MSBuild)](../msbuild/target-element-msbuild.md)
+  - [Tutorial: Generate a REST API client](../msbuild/tutorial-rest-api-client-msbuild.md)
 - [Use environment variables in a build](../msbuild/how-to-use-environment-variables-in-a-build.md)
   - Document that environment variables are considered trusted by MSBuild
   - Review and update
