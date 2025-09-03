@@ -151,6 +151,7 @@
         "ms.update-cycle": {
           "cross-platform/**/*.md": "1095-days",
           "data-tools/**/*.md": "1095-days",
+          "extensibility/**/*.md": "1095-days",
           "help-viewer/**/*.md": "1095-days",
           "modeling/**/*.md": "1095-days",
           "sharepoint/**/*.md": "1095-days",
