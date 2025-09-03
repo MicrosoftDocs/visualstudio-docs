@@ -1,7 +1,7 @@
 ---
 title: Use the right type of breakpoint
 description: Learn about the different types of breakpoints, one of the most important debugging techniques. The article covers breakpoint actions, tracepoints, conditions, and much more.
-ms.date: 07/23/2025
+ms.date: 09/03/2025
 ms.topic: how-to
 f1_keywords: 
   - vs.debug.breakpt.new
@@ -79,6 +79,16 @@ You can control when and where a breakpoint executes by setting conditions. The 
 3. Select **Close** or press **Ctrl**+**Enter** to close the **Breakpoint Settings** window. Or, from the **Breakpoints** window, select **OK** to close the dialog.
 
 Breakpoints with conditions set appear with a **+** symbol in the source code and **Breakpoints** windows.
+
+::: moniker range=">= vs-2022"
+## Get AI assistance
+
+If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while you're creating a conditional breakpoint. Copilot gives you suggestions for [conditional breakpoints](../debugger/using-breakpoints.md#breakpoint-conditions) and [tracepoints](../debugger/using-tracepoints.md) that are specific to your code. 
+
+![Screenshot of Copilot working on conditional breakpoint suggestions.](../debugger/media/vs-2022/debug-with-copilot-breakpoint-ask-copilot.png)
+
+For a step-by-step example, see [Debug with Copilot](../debugger/debug-with-copilot.md#get-suggestions-with-conditional-breakpoints-and-tracepoints).
+::: moniker-end
 
 <a name="BKMK_Specify_a_breakpoint_condition_using_a_code_expression"></a>
 ### Create a conditional expression

@@ -155,25 +155,6 @@ To change the current stack frame, double-click a different method. This might a
 
 When the **Threads** view graph is too large to fit into the window, a **Bird's Eye View** control appears in the window. You can move the frame in the control to navigate to different parts of the graph.
 
-::: moniker range="vs-2019"
-
-The following illustration shows one thread that goes from Main to a Managed to Native code transition. Six threads are in the current method. Two threads continue to Thread.Sleep, and two continue to Console.WriteLine and the current thread continues to SyncTextWriter.WriteLine.
-
- ![Screenshot of Threads view in Parallel Stacks window.](../debugger/media/parallel-stack1.png "Threads view in Parallel Stacks window.")
-
-The following table describes the main features of the **Threads** view:
-
-|Callout|Element name|Description|
-|-|-|-|
-|1|Call stack segment or node|Contains a series of methods for one or more threads. If the frame has no arrow lines connected to it, the frame shows the entire call path for the thread(s).|
-|2|Blue highlight|Indicates the call path of the current thread.|
-|3|Arrow lines|Connect nodes to make up the entire call path for the thread(s).|
-|4|Node header|Shows the number of processes and threads for the node.|
-|5|Method|Represents one or more stack frames in the same method.|
-|6|Tooltip on method|Appears when you hover over a method. In **Threads** view, the tooltip shows all threads, in a table similar to the **Threads** window. |
-
-::: moniker-end
-
 ::: moniker range=">=vs-2022"
 
 The following illustration shows the Main thread in a Managed to Native code transition. Five threads are in the current method. Four threads continue executing in the S.C method context, while one worker thread continues in a Managed to Native code transition, setting the name on a worker thread.
@@ -191,6 +172,31 @@ The following table describes the main features of the **Threads** view:
 |5|Method|Represents one or more stack frames in the same method.|
 |6|Tooltip on method|Appears when you hover over a method. In **Threads** view, the tooltip shows all threads, in a table similar to the **Threads** window. |
 |7|Thread description|AI-generated description of the thread. Starting in Visual Studio 2022 version 17.13 Preview 1, this description is present when [Copilot](../ide/visual-studio-github-copilot-install-and-states.md) is installed and activated. |
+
+### Get AI assistance
+
+If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance in the Threads view with AI-generated thread descriptions and by using the **Generate Insights** button. Use the **Generate Insights** ![Screenshot of Generate Insights button.](../debugger/media/vs/parallel-stacks-generate-insights.png) button to interact with Copilot about the thread data you're seeing. In this scenario, Copilot already knows the context for your question, so you don't need to provide context yourself in chat. For more information, see [Debug with Copilot](../debugger/debug-with-copilot.md).
+
+To enable or disable thread summary descriptions, select **Tools** > **Options** > **GitHub** > **Copilot** > **Debugger and Diagnostics**, and then select or clear **AI summarization in Parallel Stacks window**.
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+The following illustration shows one thread that goes from Main to a Managed to Native code transition. Six threads are in the current method. Two threads continue to Thread.Sleep, and two continue to Console.WriteLine and the current thread continues to SyncTextWriter.WriteLine.
+
+ ![Screenshot of Threads view in Parallel Stacks window.](../debugger/media/parallel-stack1.png "Threads view in Parallel Stacks window.")
+
+The following table describes the main features of the **Threads** view:
+
+|Callout|Element name|Description|
+|-|-|-|
+|1|Call stack segment or node|Contains a series of methods for one or more threads. If the frame has no arrow lines connected to it, the frame shows the entire call path for the thread(s).|
+|2|Blue highlight|Indicates the call path of the current thread.|
+|3|Arrow lines|Connect nodes to make up the entire call path for the thread(s).|
+|4|Node header|Shows the number of processes and threads for the node.|
+|5|Method|Represents one or more stack frames in the same method.|
+|6|Tooltip on method|Appears when you hover over a method. In **Threads** view, the tooltip shows all threads, in a table similar to the **Threads** window. |
+
 ::: moniker-end
 
 ## Tasks view
