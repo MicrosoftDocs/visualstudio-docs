@@ -104,6 +104,8 @@ For more information, see the [Microsoft Community Code of Conduct](https://answ
 
 Any violations to the discussion etiquette can lead to removal of the comment and eventually banning the user.
 
+If you believe your account was banned by mistake, please reach out to vsfeedback@microsoft.com to request an unban.
+
 ## Data privacy
 
 Comments and replies are publicly visible, but any attached files are privately shared with Microsoft only. This visibility is beneficial because it allows the entire community to see the issues and solutions found by other users. If you're concerned about the privacy of your data or identity, you have options. Read more about [Developer Community data privacy](./developer-community-privacy.md).
