@@ -174,7 +174,7 @@ Build started...
    xcopy "$(TargetDir)*.*" "C:\Drop\$(Configuration)\" /E /Y
    ```
 
-   The command references the MSBuild properties `TargetDir` and `Configuration`.
+   The command references the MSBuild properties `TargetDir` and `Configuration`. Note the use of quotes, which are required to handle paths with spaces.
 
 1. Exit the Property Designer and build. The output files should be copied to the destination folder `C:\Drop`, under the  `Configuration` subfolder. 
 
