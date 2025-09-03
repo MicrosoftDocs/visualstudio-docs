@@ -72,6 +72,10 @@ Use this procedure to build the solution in the current configuration (for examp
 
     When this check box is cleared, all projects, their dependencies, and the solution files are built when you run any of the preceding commands.
 
+You can see build progress and output in the **Output** window. You also see an icon in the bottom bar that indicates a build is running.
+
+The underlying build tool that Visual Studio uses is called [MSBuild](../msbuild/msbuild.md). MSBuild uses optimizations such as incremental build to minimize rebuilding the same files if they haven't changed, so the first time you build a solution, it might take a long time, depending on the size of the projects, but subsequent builds are faster.
+
 ## Batch build
 
 When you build using **Build solution** or **Build project** options, Visual Studio builds the current configuration. You can use the batch build command to build multiple configurations in one operation.
