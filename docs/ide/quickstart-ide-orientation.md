@@ -3,7 +3,7 @@ title: "Tour the Visual Studio IDE"
 description: Learn about some of the windows, menus, and other UI features of the Visual Studio integrated development environment (IDE).
 ms.custom: vs-acquisition
 titleSuffix: ''
-ms.date: 1/23/2025
+ms.date: 8/30/2025
 ms.update-cycle: 180-days
 ms.topic: conceptual
 author: anandmeg
@@ -168,7 +168,7 @@ To explore Visual Studio's features, let's create a new project.
     :::image type="content" source="media/vs-2022/quickstart-ide-orientation/github-copilot-extension-example.gif" alt-text="Screenshot of the GitHub Copilot extension in Visual Studio 2022." lightbox="media/vs-2022/quickstart-ide-orientation/github-copilot-extension-example.gif":::
 
     > [!div class="button"]
-    > [Get GitHub Copilot](visual-studio-github-copilot-install-and-states.md)
+    > [Get started with GitHub Copilot in Visual Studio](visual-studio-github-copilot-get-started.md)
 
     Learn more about [AI-assisted development in Visual Studio](ai-assisted-development-visual-studio.md). 
 
@@ -180,7 +180,7 @@ To explore Visual Studio's features, let's create a new project.
     
     :::image type="content" source="media/vs-2022/quickstart-ide-error-list.png" alt-text="Screenshot of the Error List in Visual Studio 2022.":::
 
-* The **Search** box (**Ctrl + Q**) at the top is a quick and easy way to find just about anything in Visual Studio. You can enter some text related to what you want to do, and it shows you a list of options that are relevant to the text. For example, to open a **Terminal** window, just search for it and open from the search results. The built-in terminal is opened and is ready for commands.
+* The **Search** box at the top is a quick and easy way to find just about anything in Visual Studio. You can search for features using **Feature Search** (`Ctrl + Q`) or search your code elements, such as files and symbols, using **Code Search**(`Ctrl+T`). For example, to open a **Terminal** window, just search for it and open from the search results. The built-in terminal is opened and is ready for commands.
 
     :::image type="content" source="media/vs-2022/ide-tour-toolbar-search-box.png" alt-text="Screenshot of the Search box in Visual Studio 2022.":::
 
