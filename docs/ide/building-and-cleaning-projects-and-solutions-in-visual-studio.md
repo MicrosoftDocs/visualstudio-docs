@@ -72,7 +72,7 @@ Use this procedure to build the solution in the current configuration (for examp
 
     When this check box is cleared, all projects, their dependencies, and the solution files are built when you run any of the preceding commands.
 
-You can see build progress and output in the **Output** window. You also see an icon at the bottom edge of the Visual Studio window that indicates a build is running.
+You can see build progress and output in the **Output** window. You also see an icon in the status bar at the bottom of the Visual Studio window that indicates a build is running.
 
 The underlying build tool that Visual Studio uses is called [MSBuild](../msbuild/msbuild.md). MSBuild uses optimizations such as incremental build to minimize rebuilding the same files if they haven't changed, so the first time you build a solution, it might take a long time for large solutions, but subsequent builds are usually faster.
 
