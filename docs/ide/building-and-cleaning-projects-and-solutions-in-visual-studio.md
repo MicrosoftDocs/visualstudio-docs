@@ -1,7 +1,7 @@
 ---
 title: Build and clean projects and solutions
 description: Build, rebuild, or clean some of your projects or project items, or all of your projects, in your Visual Studio project solution.
-ms.date: 10/3/2024
+ms.date: 9/3/2025
 ms.subservice: compile-build
 ms.topic: conceptual
 f1_keywords:
@@ -114,6 +114,8 @@ Perform either of the following steps:
 - On the menu bar, select **Build** > **Cancel**.
 
 - Press **Ctrl**+**Break**.
+
+The **Cancel** menu item only appears unless a build is currently runing.
 
 ## Related content
 
