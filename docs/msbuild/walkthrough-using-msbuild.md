@@ -35,7 +35,7 @@ To install MSBuild on a system that doesn't have Visual Studio, go to [Build Too
 
 ::: moniker-end
 
-::: moniker range=">=vs-2022"
+::: moniker range="vs-2022"
 
 If you have Visual Studio, then you already have MSBuild installed. With Visual Studio 2022, it's installed under the Visual Studio installation folder. For a typical default installation on Windows 10, MSBuild.exe is under the installation folder in *MSBuild\Current\Bin*.
 
