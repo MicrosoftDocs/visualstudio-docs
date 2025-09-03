@@ -40,7 +40,15 @@ If you have Visual Studio, then you already have MSBuild installed. With Visual 
 
 In the Visual Studio installer, navigate to **Individual Components**, and locate the checkbox for **MSBuild**. It's automatically selected when you choose any of the other workloads to install.
 
-To install MSBuild on a system that doesn't have Visual Studio, go to [Build Tools for Visual Studio 2022](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta#build-tools-for-visual-studio-2022) on the downloads page. Another way of getting MSBuild is to install the [.NET SDK](/dotnet/core/sdk#acquiring-the-net-sdk).
+:::moniker range="vs-2019"
+To install MSBuild on a system that doesn't have Visual Studio, go to [Build Tools for Visual Studio 2019](https://visualstudio.microsoft.com/vs/older-downloads/#visual-studio-2019-and-other-products) on the [downloads page](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta). Another way of getting MSBuild is to install the [.NET SDK](/dotnet/core/sdk#acquiring-the-net-sdk).
+:::moniker-end
+:::moniker range="vs-2022"
+To install MSBuild on a system that doesn't have Visual Studio, go to [Build Tools for Visual Studio 2022](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta#build-tools-for-visual-studio-2022) on the [downloads page](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta). Another way of getting MSBuild is to install the [.NET SDK](/dotnet/core/sdk#acquiring-the-net-sdk).
+:::moniker-end
+:::moniker range="visualstudio"
+To install MSBuild on a system that doesn't have Visual Studio, go to **Tools for Visual Studio** > **Build Tools for Visual Studio** on the [downloads page](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta). Another way of getting MSBuild is to install the [.NET SDK](/dotnet/core/sdk#acquiring-the-net-sdk).
+:::moniker-end
 
 ::: moniker-end
 
