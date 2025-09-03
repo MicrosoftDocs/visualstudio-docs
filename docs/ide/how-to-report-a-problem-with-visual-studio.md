@@ -138,7 +138,7 @@ Reporting a problem through Visual Studio allows for diagnostic information to a
 
 When you report through Visual Studio, you can easily share rich diagnostic information with us, such as large log files, crash information, screenshots, repro recording, and other artifacts that help us deliver higher-quality resolutions faster to you.
 
-You may encounter problems reporting an issue on Developer Community if you are using an ad blocker. Please disable your ad blocker and try again. Developer Community also does not currently support the Brave browser, so we recommend using a different browser.
+You might encounter problems reporting an issue on Developer Community if you are using an ad blocker. Please disable your ad blocker and try again. Developer Community also does not currently support the Brave browser, so we recommend using a different browser.
 
 ## Search for solutions or provide feedback
 
