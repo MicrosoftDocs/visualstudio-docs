@@ -1,7 +1,7 @@
 ---
 title: 'Create and edit configurations'
 description: Create and edit several build configurations for your solution in Visual Studio with the Configuration Manager, including Release, Debug, and Test.
-ms.date: 09/13/2024
+ms.date: 09/3/2025
 ms.subservice: compile-build
 ms.topic: how-to
 helpviewer_keywords:
@@ -32,7 +32,7 @@ You can also open the **Configuration Manager** by clicking on the dropdown list
 
 ![Screenshot of Configuration Manager dialog box.](./media/configuration-manager.png)
 
-There are two levels of configuration, the solution configuration and the project configuration. The solution configuration is what you choose when you switch active configurations using the toolbar in Visual Studio. The project configuration is the specific configuration on each project.
+There are two levels of configuration, the solution configuration and the project configuration. The solution configuration is what you choose when you switch active configurations using the toolbar in Visual Studio. The project configuration is the specific configuration on each project. To see why this distinction is helpful, consider a case where you're developing and debugging one project in a large solution. You can select which projects you actually need debug builds for, or which ones you want to skip building because they're not relevant to the work at hand. That way, switching between Debug and Release solution configurations doesn't apply to every other project, whether or not you're actively debugging it or not.
 
 In the **Configuration Manager** dialog box, you can use the **Active solution configuration** drop-down list to select a solution-wide build configuration, modify an existing one, or create a new configuration. You can use the **Active solution platform** drop-down list to select the platform that the configuration targets, modify an existing one, or add a platform. If you add a solution platform, it must be supported by at least one of the projects.
 
