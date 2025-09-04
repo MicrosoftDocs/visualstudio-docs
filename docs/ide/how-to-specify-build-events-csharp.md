@@ -1,7 +1,7 @@
 ---
 title: 'Specify build events (C#)'
 description: Use build events in Visual Studio to specify commands that run before the build starts or after the build finishes for C# programs.
-ms.date: 3/11/2025
+ms.date: 9/3/2025
 ms.subservice: compile-build
 ms.topic: how-to
 helpviewer_keywords:
@@ -165,7 +165,22 @@ Build started...
 > [!NOTE]
 > Some scenarios require more complex build actions than the build events are capable of. For example, for many common code-generation scenarios, you need to handle clean and rebuild operations, and you might want to enable incremental build for code-generation steps, so that the step only runs if the output is out-of-date with respect to the inputs. MSBuild is designed to intelligently handle all of those scenarios. Consider creating a [custom target](../msbuild/target-build-order.md) that specifies `AfterTargets` or `BeforeTargets` to run during a specific point in the build process, and for further control in advanced scenarios, consider creating a [custom task](../msbuild/task-writing.md), or review the different ways you can [Customize your build](../msbuild/customize-your-build.md).
 
-## Example
+
+## Example 1
+
+1. Enter a copy command to copy the build output to another folder.
+
+   ```cmd
+   xcopy "$(TargetDir)*.*" "C:\Drop\$(Configuration)\" /E /Y
+   ```
+
+   The command references the MSBuild properties `TargetDir` and `Configuration`. Note the use of quotes, which are required to handle paths with spaces.
+
+1. Exit the Property Designer and build. The output files should be copied to the destination folder `C:\Drop`, under the  `Configuration` subfolder. 
+
+1. In the **Output** window, use the dropdown to switch to view **Build** output, and see where the `xcopy` command was called. If you see an error, confirm that your user account has write access to the location.
+
+## Example 2
 
 1. Create a batch file named `postbuild.bat` in the project folder, with the following contents:
 
@@ -182,6 +197,8 @@ Build started...
     call postbuild.bat $(TargetPath)
     ```
 
+    If you need to use the value of an MSBuild property (macro) in a batch file, you can pass it as an argument as demonstrated here.
+
 1. Build your project and check the output folder. You should see the copied file next to the built assembly. In the **Output Window**, in the **Build** section, you should see the batch file output:
 
    ```output
@@ -190,6 +207,7 @@ Build started...
    ========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
    ========== Build started at 12:00 PM and took 00.723 seconds ==========
    ```
+
 
 ## Related content
 
