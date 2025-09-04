@@ -34,7 +34,7 @@ For example, you can add text to a TextBlock that usually has data bound to it.
 <TextBlock Text="{Binding Name}" d:Text="Name!" />
 ```
 
-[![Design-time data with text in a TextBlock](media\xaml-design-time-textblock.png "Design-time data with text a Label")](media\xaml-design-time-textblock.png#lightbox)
+:::image type="content" alt-text="Design-time data with text in a TextBlock" source="media\xaml-design-time-textblock.png" lightbox="media\xaml-design-time-textblock.png":::
 
 In this example, without `d:Text`, the XAML Designer would show nothing for the TextBlock. Instead, it shows "Name!" where the TextBlock will have real data at runtime.
 
@@ -44,7 +44,7 @@ You can use `d:` with attributes for any UWP or WPF .NET Core control, like colo
 <d:Button Content="Design Time Button" />
 ```
 
-[![Design-time data with a Button control](media\xaml-design-time-button.png "Design- time data with a Button control")](media\xaml-design-time-button.png#lightbox)
+:::image type="content" alt-text="Design-time data with a Button control" source="media\xaml-design-time-button.png" lightbox="media\xaml-design-time-button.png":::
 
 In this example, the button only appears at design time. Use this method to put a placeholder in for a custom control or to try out different controls. All `d:` attributes and controls will be ignored during runtime.
 
@@ -86,7 +86,7 @@ To use the system:String type, make sure you include
 </StackPanel>
 ```
 
-[![Design-time data with a ListView](media\xaml-design-time-listview-strings.png "Design-time data with a ListView")](media\xaml-design-time-listview-strings.png#lightbox)
+:::image type="content" alt-text="Design-time data with a ListView" source="media\xaml-design-time-listview-strings.png" lightbox="media\xaml-design-time-listview-strings.png":::
 
 This previous example shows a ListView with three TextBlocks in the XAML Designer.
 
@@ -131,7 +131,7 @@ xmlns:models="clr-namespace:Cities.Models"
 </StackPanel>
 ```
 
-[![Actual model in design-time data with a ListView](media\xaml-design-time-listview-models.png "Actual model design-time data with a ListView")](media\xaml-design-time-listview-models.png#lightbox)
+:::image type="content" alt-text="Actual model in design-time data with a ListView" source="media\xaml-design-time-listview-models.png" lightbox="media\xaml-design-time-listview-models.png":::
 
 The benefit here is that you can bind your controls to a design-time static version of your model.
 
