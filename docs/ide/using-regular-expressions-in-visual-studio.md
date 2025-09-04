@@ -1,7 +1,7 @@
 ---
 title: Use regular expressions and review examples
 description: Explore some regular expression characters, operators, constructs, and pattern examples that you can use in Visual Studio.
-ms.date: 5/1/2025
+ms.date: 9/4/2025
 ms.topic: conceptual
 f1_keywords:
 - vsregularexpressionhelp
@@ -49,8 +49,11 @@ The following table contains some regular expression characters, operators, cons
 |[Match a word boundary](/dotnet/standard/base-types/anchors-in-regular-expressions#word-boundary-b)|\b (Outside a character class `\b` specifies a word boundary, and inside a character class `\b` specifies a backspace.)|`\bin` matches "in" in "inside" but finds no matches in "pinto"|
 |Match a line break (that is, a carriage return followed by a new line, or a new line only)|\r?\n|`End\r?\nBegin` matches "End" and "Begin" only when "End" is the last string in a line and "Begin" is the first string in the next line|
 |Match any [word character](/dotnet/standard/base-types/character-classes-in-regular-expressions#word-character-w)|\w|`a\wd` matches "add" and "a1d" but not "a d"|
+|Match any [non-word character](/dotnet/standard/base-types/character-classes-in-regular-expressions#non-word-character-w)|\W|`a\Wd` matches "a d" but not "and"|
 |Match any [whitespace character](/dotnet/standard/base-types/character-classes-in-regular-expressions#whitespace-character-s)|\s|`Public\sInterface` matches the phrase "Public Interface"|
+|Match any [non-whitespace character](/dotnet/standard/base-types/character-classes-in-regular-expressions#non-whitespace-character-s)|\S|`\s\S\s` matches "A" in " A ". |
 |Match any [decimal digit character](/dotnet/standard/base-types/character-classes-in-regular-expressions#decimal-digit-character-d)|\d|`\d` matches "4" and "0" in "wd40"|
+|Match any [non-digit character](/dotnet/standard/base-types/character-classes-in-regular-expressions#non-digit-character-d)|\D|`\D` matches "w" and "d" in "wd40"|
 
 An example regular expression that combines some of the operators and constructs to match a hexadecimal number is `\b0[xX]([0-9a-fA-F]+)\b`. This expression matches "0xc67f" but not "0xc67g".
 
