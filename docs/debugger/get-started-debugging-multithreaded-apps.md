@@ -20,11 +20,13 @@ ms.subservice: debug-diagnostics
 
 Visual Studio provides several tools and user interface elements to help you debug multithreaded applications. This tutorial shows how to use thread markers, the **Parallel Stacks** window, the **Parallel Watch** window, conditional breakpoints, and filter breakpoints. Completing this tutorial familiarizes you with Visual Studio features for debugging multithreaded applications.
 
+::: moniker range=">=vs-2022"
 For tutorials that are more scenario-focused, see the following articles.
 
 - [Debug a deadlock using Threads view](../debugger/how-to-use-the-threads-window.md).
 
 - [Debug an async application (.NET)](../debugger/walkthrough-debugging-a-parallel-application.md).
+::: moniker-end
 
 The first step is to create a multithreaded application project.
 
@@ -268,6 +270,9 @@ In the **Parallel Stacks** window, you can switch between a Threads view and (fo
     - A new thread (on the right) is also starting but is stopped on `ThreadHelper.ThreadStart`.
     ::: moniker-end
 
+    > [!NOTE]
+    > For more information on using the **Threads** view, see [Debug a deadlock using the Threads view](../debugger/how-to-use-the-threads-window.md).
+
 2. To view the threads in a list view, select **Debug** > **Windows** > **Threads**.
 
     ::: moniker range=">= vs-2022"
@@ -275,9 +280,6 @@ In the **Parallel Stacks** window, you can switch between a Threads view and (fo
 
     In this view, you can easily see that thread 20272 is the Main thread and is currently located in external code, specifically *System.Console.dll*.
     ::: moniker-end
-
-    > [!NOTE]
-    > For more information on using the **Threads** window, see [Walkthrough: Debug a Multithreaded Application](../debugger/how-to-use-the-threads-window.md).
 
 3. Right-click entries in the **Parallel Stacks** or **Threads** window to see the available options on the shortcut menu.
 

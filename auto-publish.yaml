@@ -1,5 +1,5 @@
 schedules:
-- cron: "0 18 * * 1-5" # Hour 18 UTC == 10am PST
+- cron: "0 17 * * 1-5" # Hour 18 UTC == 10am PST
   displayName: "Scheduled run at 10 AM PT M-F"
   branches:
     include:

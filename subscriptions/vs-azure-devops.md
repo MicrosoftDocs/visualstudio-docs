@@ -3,7 +3,7 @@ title: Azure DevOps benefits eligibility for subscribers
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 07/23/2025
+ms.date: 08/25/2025
 ms.topic: conceptual
 description: Check if your Visual Studio subscription level makes you eligible for Azure DevOps benefits in each organization in which you're a member.
 ---
@@ -33,7 +33,7 @@ When you sign in to Azure DevOps using either the identity that you used for act
 ||
 
 <sup>1</sup>  *Includes:  Not for Resale (NFR - including Independent Software Vendor (ISV), Alumni, Xbox Basic, and Bug Bounty), Most Valuable Professional (MVP), Regional Director (RD), Visual Studio Industry Partner (VSIP), Microsoft AI Cloud Partner Program (MAICPP, Enterprise), Microsoft Certified Trainer (MCT) Software & Services Developer, Full-Time Employee (FTE).
-  Excludes: Azure DevOps Tools for Teaching (ADTFT).*
+  Excludes: Azure DevOps Tools for Teaching (ADTFT), Student Ambassadors.*
 
 <sup>2</sup> *Basic plan includes defining release pipelines and multi-stage continuous deployment (CD) pipelines, and using approvals and gates to control deployments; when the Free access to Pipelines Preview feature is enabled, Stakeholders gain access to all Azure Pipelines features.*
 
