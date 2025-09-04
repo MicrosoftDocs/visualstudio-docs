@@ -1,7 +1,7 @@
 ---
 title: Debug .NET apps in Linux using WSL
 description: Discover how to run and debug your .NET applications in WSL without leaving the Visual Studio integrated development environment (IDE).
-ms.date: "07/03/2024"
+ms.date: "09/04/2025"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "debugging, linux"
@@ -226,3 +226,7 @@ In the following example, you pass two arguments to a DLL project named ConsoleA
   "commandLineArgs": "\"{OutDir}/ConsoleApp.dll\" arg1 arg2"
 }
 ```
+
+## Console apps
+
+For a console app running in WSL, the standard input stream (stdin) is redirected and there isn't a way to provide input. When debugging a console app, start the app directly from WSL using `dotnet run` and specify the path to the DLL on Windows. This provides access to stdin because the app runs in the Linux console. To debug, use the instructions described in the section [Attach to a running WSL process](#attach-to-a-running-wsl-process).
