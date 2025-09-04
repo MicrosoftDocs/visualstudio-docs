@@ -1,7 +1,7 @@
 ---
 title: Publish tool for ASP.NET, .NET Core, & Python apps
 description: Explore the Publish tool in Visual Studio and deploy ASP.NET, .NET Core, and Python applications with a publishing profile (.pubxml file).
-ms.date: 06/19/2024
+ms.date: 9/3/2025
 ms.topic: overview
 dev_langs:
   - "FSharp"
@@ -56,7 +56,7 @@ When you use the Publish tool to deploy your application to Azure, you get the o
 
 ![dependencies during publish](./media/publish-dependencies.png)
 
-The idea is that you may want to connect to a different SQL database or a different Storage account or a different Key Vault for different environments like testing, QA, pre-prod, and so forth. See [Visual Studio Connected Services](../azure/overview-connected-services.md).
+The idea is that you may want to connect to a different SQL database, a different Storage account, or a different Key Vault for different environments like testing, QA, pre-production, and so on. See [Visual Studio Connected Services](../azure/overview-connected-services.md).
 
 ## Next steps
 
