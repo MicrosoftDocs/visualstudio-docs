@@ -157,7 +157,6 @@
           "sharepoint/**/*.md": "1095-days",
           "vsto/**/*.md": "1095-days",
           "workflow-designer/**/*.md": "1095-days",
-          "xaml-tools/**/*.md": "1095-days",
           "xml-tool/**/*.md": "1095-days"
         }
       },
