@@ -51,7 +51,7 @@ The following table contains some regular expression characters, operators, cons
 |Match any [word character](/dotnet/standard/base-types/character-classes-in-regular-expressions#word-character-w)|\w|`a\wd` matches "add" and "a1d" but not "a d"|
 |Match any [non-word character](/dotnet/standard/base-types/character-classes-in-regular-expressions#non-word-character-w)|\W|`a\Wd` matches "a d" but not "and"|
 |Match any [whitespace character](/dotnet/standard/base-types/character-classes-in-regular-expressions#whitespace-character-s)|\s|`Public\sInterface` matches the phrase "Public Interface"|
-|Match any [non-whitespace character](/dotnet/standard/base-types/character-classes-in-regular-expressions#non-whitespace-character-s)|\S|`\s\S\s` matches "A" in " A ". |
+|Match any [non-whitespace character](/dotnet/standard/base-types/character-classes-in-regular-expressions#non-whitespace-character-s)|\S|`\S+` matches "end", "A11",  or  "end?". |
 |Match any [decimal digit character](/dotnet/standard/base-types/character-classes-in-regular-expressions#decimal-digit-character-d)|\d|`\d` matches "4" and "0" in "wd40"|
 |Match any [non-digit character](/dotnet/standard/base-types/character-classes-in-regular-expressions#non-digit-character-d)|\D|`\D` matches "w" and "d" in "wd40"|
 
