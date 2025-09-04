@@ -1,7 +1,7 @@
 ---
 description: "If the remote machine does not appear in the Remote Connections dialog, check the following common causes."
 title: "Remote machine does not appear in a Remote Connections dialog"
-ms.date: "11/04/2016"
+ms.date: "09/04/2025"
 ms.topic: "error-reference"
 dev_langs:
   - "CSharp"
@@ -27,7 +27,7 @@ If you are using managed compatibility mode, please check the Visual Studio 2010
 
 - The remote debugger is not running on the remote machine. To fix this, start the remote debugger.
 
-- The firewall is blocking communication between Visual Studio and the remote machine. To fix this, configure your firewall to allow Visual Studio and the remote debugger (msvsmon) to communicate.
+- The firewall is blocking communication between Visual Studio and the remote machine. To fix this, configure your firewall to allow Visual Studio and the remote debugger (msvsmon) to communicate. For more information, see [Configure Windows Firewall for remote debugging](../debugger/error-remote-machine-does-not-appear-in-a-remote-connections-dialog.md).
 
 - Antivirus software is blocking communication between Visual Studio and the remote machine. To fix this, configure antivirus software to allow Visual Studio and the remote debugger (msvsmon) to communicate.
 
