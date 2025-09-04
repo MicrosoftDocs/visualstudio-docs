@@ -2,7 +2,7 @@
 title: Install Visual Studio and Choose Your Preferred Features
 titleSuffix: ''
 description: Learn how to install Visual Studio quickly. To reduce the installation footprint, choose your preferred features.
-ms.date: 08/25/2025
+ms.date: 09/09/2025
 ms.custom: vs-acquisition
 ms.topic: install-set-up-deploy
 helpviewer_keywords:
@@ -30,7 +30,7 @@ In Visual Studio 2019, it's easy to choose and install just the features you nee
 
 ::: moniker range=">=vs-2022"
 
-In Visual Studio 2022, it's easy to choose and install just the features you need.
+In Visual Studio, it's easy to choose and install just the features you need.
 
 ::: moniker-end
 
@@ -43,11 +43,19 @@ Want to know more about what else is new in this version? See the [release notes
 
 ::: moniker-end
 
-::: moniker range=">=vs-2022"
+::: moniker range="vs-2022"
 
 Want to know more about what else is new in this version? See the [release notes](/visualstudio/releases/2022/release-notes/).
 
 You can download and install a specific version from the [Visual Studio 2022 Release History](/visualstudio/releases/2022/release-history#release-dates-and-build-numbers) page.
+
+::: moniker-end
+
+::: moniker range=">=visualstudio"
+
+Want to know more about what else is new in this version? See the [release notes](/visualstudio/releases/vs18/release-notes/).
+
+You can download and install a specific version from the [Visual Studio Release History](/visualstudio/releases/vs18/release-history#release-dates-and-build-numbers) page.
 
 ::: moniker-end
 
