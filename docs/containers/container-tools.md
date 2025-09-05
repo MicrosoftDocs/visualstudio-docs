@@ -6,6 +6,7 @@ ms.author: ghogen
 ms.date: 12/3/2024
 ms.subservice: container-tools
 ms.topic: quickstart
+ms.update-cycle: 90-days
 ---
 
 # Quickstart: Docker in Visual Studio
