@@ -8,6 +8,7 @@ monikerRange: ">=vs-2022"
 author: matteo-prosperi
 manager: tinaschrepfer
 ms.subservice: extensibility-integration
+ms.update-cycle: 365-days
 ---
 
 # Extend the Visual Studio editor with a new tagger

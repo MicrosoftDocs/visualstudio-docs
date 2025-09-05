@@ -5,6 +5,7 @@ author: javierdlg
 ms.author: jadelaga
 monikerRange: ">=vs-2022"
 ms.subservice: extensibility-integration
+ms.update-cycle: 365-days
 ms.topic: overview
 ms.date: 10/23/2023
 ---

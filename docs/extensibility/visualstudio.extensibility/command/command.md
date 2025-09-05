@@ -5,6 +5,7 @@ author: ghogen
 ms.author: ghogen
 monikerRange: ">=vs-2022"
 ms.subservice: extensibility-integration
+ms.update-cycle: 365-days
 ms.topic: overview
 ms.date: 02/02/2023
 ---

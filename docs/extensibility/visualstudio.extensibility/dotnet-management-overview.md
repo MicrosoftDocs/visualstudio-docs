@@ -7,6 +7,7 @@ manager: tinali
 ms.date: 02/04/2025
 ms.topic: conceptual
 ms.subservice: extensibility-integration
+ms.update-cycle: 365-days
 ---
 # .NET Compatibility for VisualStudio.Extensibility Extensions
 

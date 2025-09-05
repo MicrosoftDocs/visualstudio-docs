@@ -7,6 +7,7 @@ manager: mijacobs
 ms.date: 10/16/2024
 ms.topic: product-comparison
 ms.subservice: extensibility-integration
+ms.update-cycle: 365-days
 ---
 # Choose the right Visual Studio extensibility model for you
 

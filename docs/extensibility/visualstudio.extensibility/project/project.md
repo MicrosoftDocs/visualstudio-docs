@@ -5,6 +5,7 @@ author: Jxwoon
 ms.author: jasminewoon
 monikerRange: ">=vs-2022"
 ms.subservice: extensibility-integration
+ms.update-cycle: 365-days
 ms.topic: overview
 ms.date: 05/01/2024
 ---
