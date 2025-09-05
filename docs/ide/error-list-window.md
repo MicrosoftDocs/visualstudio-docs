@@ -88,10 +88,10 @@ Use the toolbar dropdowns to limit which entries appear:
 In addition, you can enable the following other columns. Right-click on the column bar to open the context menu, and choose **Show Columns** to enable them.
 
 - **Project Rank** - The numbers enumerate the projects in the solution (1-based).
-- **Path** - Path to the file that contains this code
+- **Path** - Path to the file that contains this issue.
 - **Column** - The column number where the issue was detected.
 - **Category** - IntelliSense only. Category of the issue, for example, "Compiler."
 - **Source** -  Sources include Build and IntelliSense.
-- **Tool** - Build only. The executable tool that generated this code
+- **Tool** - Build only. The executable tool that generated this issue.
 
 For more information and additional conceptual details about the Error List, see the original documentation for the Error List window.
