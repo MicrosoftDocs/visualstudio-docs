@@ -175,7 +175,7 @@ The following table describes the main features of the **Threads** view:
 
 ### Get AI assistance
 
-If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance in the Threads view with AI-generated thread descriptions and by using the **Generate Insights** button. Use the **Generate Insights** ![Screenshot of Generate Insights button.](../debugger/media/vs/parallel-stacks-generate-insights.png) button to interact with Copilot about the thread data you're seeing. In this scenario, Copilot already knows the context for your question, so you don't need to provide context yourself in chat. For more information, see [Debug with Copilot](../debugger/debug-with-copilot.md).
+If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance in the Threads view with AI-generated thread descriptions and by using the **Generate Insights** button. Use the **Generate Insights** ![Screenshot of Generate Insights button.](../debugger/media/visualstudio/parallel-stacks-generate-insights.png) button to interact with Copilot about the thread data you're seeing. In this scenario, Copilot already knows the context for your question, so you don't need to provide context yourself in chat. For more information, see [Debug with Copilot](../debugger/debug-with-copilot.md).
 
 To enable or disable thread summary descriptions, select **Tools** > **Options** > **GitHub** > **Copilot** > **Debugger and Diagnostics**, and then select or clear **AI summarization in Parallel Stacks window**.
 ::: moniker-end
