@@ -90,7 +90,7 @@ In addition, you can enable the following other columns. Right-click on the colu
 - **Project Rank** - The numbers enumerate the projects in the solution (1-based).
 - **Path** - Path to the file that contains this code
 - **Column** - The column number where the issue was detected.
-- **Category** - Category of the issue, if available.
+- **Category** - IntelliSense only. Category of the issue, for example, "Compiler."
 - **Source** -  Sources include Build and IntelliSense.
 - **Tool** - the executable tool that generated this code
 
