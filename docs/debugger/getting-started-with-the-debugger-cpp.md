@@ -1,7 +1,7 @@
 ---
 title: "Tutorial: Debug C++ code"
 description: Follow this tutorial to explore features of the Visual Studio debugger, start the debugger, step through code, and inspect data in a C++ application.
-ms.date: 12/17/2024
+ms.date: 09/04/2025
 ms.subservice: debug-diagnostics
 ms.topic: tutorial
 dev_langs:
@@ -12,12 +12,12 @@ author: mikejo5000
 ms.author: mikejo
 manager: mijacobs
 
-#customer intent: As a developer, I want to use the Visual Studio debugger, so I can access features like stepping through my application code and inspecting data values.
+#customer intent: As a developer, I want to use Visual Studio debugger features like stepping through my application code, viewing the call stack, setting command-line arguments, and inspecting data values.
 ---
 
 # Tutorial: Debug C++ code with Visual Studio
 
-This article introduces features of the Visual Studio debugger in a step-by-step walkthrough. When you debug an application, you usually run your app with the debugger attached. The debugger provides many ways to examine what your code is doing during program execution. You can step through your code and look at values stored in variables and set watches on variables to see when values change. The debugger helps you examine the execution path of your code and confirm a branch of code is running.
+In this tutorial you will debug a C++ application using the Visual Studio debugger. When you debug an application, you usually run your app with the debugger attached. The debugger provides many ways to examine what your code is doing during program execution. You can step through your code and look at values stored in variables and set watches on variables to see when values change. The debugger helps you examine the execution path of your code and confirm a branch of code is running.
 
 In this tutorial, you:
 
@@ -26,6 +26,7 @@ In this tutorial, you:
 > * Learn commands to step through code in the debugger
 > * Inspect variables in data tips and debugger windows
 > * Examine the call stack
+> * Set command-line arguments for your application
 
 If you're new to debugging, you might want to read [Debugging for absolute beginners](./debugging-absolute-beginners.md) before you start this tutorial. If you want a higher-level view of the debugger features, see [First look at the debugger](./debugger-feature-tour.md).
 
@@ -47,17 +48,13 @@ If you're new to debugging, you might want to read [Debugging for absolute begin
    - If you already have Visual Studio, you can install the workload from within the Interactive Development Environment (IDE):
    
       1. Select **Tools** > **Get Tools and Features**.
-
       1. In the Visual Studio Installer, select the **Workloads** tab.
-
       1. Select the **Desktop development with C++** workload, and then select **Modify**.
-
       1. Follow the prompts and complete the installation.
 
 - This tutorial uses a C++ demo application and the screenshots present C++ syntax. Most of the demonstrated features are also applicable to C#, Visual Basic, F#, Python, JavaScript, and other languages supported by Visual Studio. There are a few limitations to keep in mind:
 
    - **F#**: The **Edit-and-continue** feature isn't supported.
-
    - **F#** and **JavaScript**: The **Autos** window isn't supported.
 
 ## Create a project
@@ -69,7 +66,6 @@ Follow these steps to create a C++ console application project in Visual Studio.
    :::image type="content" source="media/vs-2022/create-new-project.png" alt-text="Screenshot that shows how to select the Create a new project option in the Visual Studio Start window.":::
 
 1. Set the **Language** filter to **C++** and set the **Platform** filter to **Windows**. 
-
 1. In the **Search** box, enter _console_, and select the **Console App** template in the list of results:
 
    ::: moniker range=">= vs-2022"
@@ -87,9 +83,7 @@ Follow these steps to create a C++ console application project in Visual Studio.
    > If you don't see the **Console App** template, you can install it from the **Create a new project** window. Locate the **Not finding what you're looking for?** section that follows the search results and select **Install more tools and features**. In the Visual Studio Installer, select the **Desktop development with C++** workload and update your installation. For more information, see the [Prerequisites](#prerequisites) section.
 
 1. Select **Next** to continue to the configuration page.
-
 1. Enter _get-started-debugging_ as the **Project name** and **Solution name** for your new app. Choose the default **Location** or browse to a different path in your environment.
-
 1. Select **Create** to create the new Node.js project.
 
 Visual Studio creates your new project and opens your project hierarchy in **Solution Explorer**. The _get-started-debugging.cpp_ file is open in the code editor.
@@ -152,7 +146,6 @@ Now you're ready to start debugging your updated code:
    Later in the tutorial, you look more closely at this app in the debugger and explore other debugging features.
 
 1. Halt the debugger by selecting **Stop** :::image type="icon" source="./media/dbg-tour-stop-debugging.png"::: (red square icon) in the Debug toolbar. You can also use the **Shift** + **F5** keyboard shortcut.
-
 1. In the console window for the running application, select any key and then select **Enter** to close the window.
 
 ## Set a breakpoint and start the debugger
@@ -199,7 +192,6 @@ A convenient way to browse your code in the debugger is to use **step commands**
 The following procedure highlights how to use keyboard shortcuts with step commands to quickly work through your code. (The equivalent menu actions are shown in parenthesis.)
 
 1. Start your app in the debugger by selecting **F5** or **Start Debugging**.
-
 1. While the debugger is paused in the `for` loop in the `main` function, select **F11** (**Debug > Step Into**) _twice_ to advance to the `SendMessage` method call.
 
    After you select **F11** twice, execution continues to the code statement `SendMessage(name, a[i]);`.
@@ -219,7 +211,6 @@ The following procedure highlights how to use keyboard shortcuts with step comma
    When the command completes, the debugger pauses in the `for` loop of the `main` method at the `SendMessage` method call.
 
 1. Select **F11** several times until you return again to the `SendMessage` method call.
-
 1. While the debugger is paused at the method call, select **F10** (**Debug > Step Over**).
 
    :::image type="content" source="./media/get-started-step-over-cpp.png" border="false" alt-text="Screenshot that shows the debugger stepped over the SendMessage method and the yellow pointer indicating the pause location.":::
@@ -233,7 +224,6 @@ Another way to work through your code in the debugger is with the **Run to Click
 Continue with your debugging session:
 
 1. Select **F5** to advance to the breakpoint in your code.
-
 1. In the code editor, scroll to the `SendMessage` method definition, and hover over the `std::wcout` function.
 
    Hover until the **Run to Click** :::image type="icon" source="./media/dbg-tour-run-to-click.png"::: (green arrow icon) appears to the left of the code statement. If you hover over the icon, you see the tooltip "Run execution to here":
@@ -267,7 +257,6 @@ Continue with your debugging session:
    :::image type="content" source="./media/vs-2022/debugger-inspect-letter-variable.gif" border="false" alt-text="Animation that shows how to inspect the properties and values for a variable in the debugger.":::
 
 1. Next, hover over the `name` variable and notice its current value, an empty string (`""`).
-
 1. Select **F5** (**Debug** > **Continue**) a few times to iterate several times through the `for` loop. Each time the debugger pauses at the breakpoint, hover over the `name` variable and check the current value:
 
    :::image type="content" source="./media/get-started-data-tip-cpp.png" border="false" alt-text="Screenshot that shows how to check the value of a variable by using hover to show the data tip in the debugger.":::
@@ -324,7 +313,6 @@ The **Call Stack** window in Visual Studio shows the order in which methods and 
    If you don't see the window during your debugging session, select **Debug** > **Windows** > **Call Stack** to open the window.
 
 1. Select **F11** (**Debug** > **Step Into**) a few times until you see the debugger pause in the `SendMessage` method.
-
 1. Look at the **Call Stack** window again:
 
    ::: moniker range=">= vs-2022"
@@ -348,12 +336,10 @@ The call stack is a good way to examine and understand the execution flow of an 
 
 ## Change the execution flow
 
-Another feature of the debugger in Visual Studio is the ability to change the execution flow of your app:
+Another powerful debugger feature is the ability to modify the execution flow during debugging:
 
 1. Select **F11** (**Debug** > **Step Into**) twice to run the `std::wcout` function.
-
 1. While the debugger is paused in the `SendMessage` method call, select and drag the yellow arrow (the execution pointer) to the left of the variable and move the arrow to the previous code statement, `std::wcout`.
-
 1. Select **F11** again.
 
    The debugger reruns the `std::wcout` function. You can track the process in the terminal output.
@@ -364,6 +350,100 @@ Another feature of the debugger in Visual Studio is the ability to change the ex
    > Pay careful attention when working with this feature. When you select the yellow arrow, Visual Studio displays a warning in the tooltip indicating that the execution change can have unintended consequences. You might see other warnings as well, depending on your scenario. Keep in mind that moving the pointer can't revert your application to an earlier app state.
 
 1. Select **F5** to complete app execution.
+
+::: moniker range=">=vs-2026"
+
+## Pass command-line arguments when debugging
+
+You can set command-line arguments for your application in the project properties. This is useful when you want to test how your app behaves with different command-line arguments. Passing command-line arguments is even more convenient starting with Visual Studio 2026 because you can set command-line arguments directly in the Debug toolbar.
+
+Modify the application to accept command-line arguments by replacing all the code in the _get-started-debugging.cpp_ file with the following code:
+
+```cpp
+#include <string>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+
+void SendMessage(const std::wstring& name, int msg)
+{
+    std::wcout << L"Hello, " << name << L"! Count to " << msg << std::endl;
+}
+
+int main(int argc, char* argv[])
+{
+    bool uppercase = false;
+    for (int i = 1; i < argc; ++i)
+    {
+        if (std::string(argv[i]) == "/u")
+        {
+            uppercase = true;
+            break;
+        }
+    }
+
+    std::vector<wchar_t> letters = { L'f', L'r', L'e', L'd', L' ', L's', L'm', L'i', L't', L'h' };
+    std::wstring name = L"";
+    std::vector<int> a(10);
+    std::wstring key = L"";
+
+    for (int i = 0; i < letters.size(); i++)
+    {
+        name += letters[i];
+        a[i] = i + 1;
+        std::wstring nameToSend = name;
+        if (uppercase)
+        {
+            std::transform(nameToSend.begin(), nameToSend.end(), nameToSend.begin(), ::towupper);
+        }
+        SendMessage(nameToSend, a[i]);
+    }
+    return 0;
+}
+```
+
+What's changed in this updated version of the application is that it now accepts a command-line argument `/u`. If that argument is passed, the application converts the name to uppercase before sending the message.
+To pass the `/u` command-line arguments to your application when you start debugging it, follow these steps:
+
+1. Select the **Debug** dropdown in the Debug toolbar and type `/u` in the **Command-line arguments** text box:
+
+    :::image type="content" source="./media/vs-2026/command-line-args.png" border="false" alt-text="Screenshot of the command-line arguments dropdown control in the Standard toolbar.":::
+
+1. Place a breakpoint on the line that contains the code statement `uppercase = true;` by selecting it in the left gutter on the line for the statement.
+
+    :::image type="content" source="./media/vs-2026/breakpoint.png" border="false" alt-text="Screenshot of a breakpoint set on line 18, uppercase = true;.":::
+
+1. Start debugging your application by selecting the **Start Debugging** button or pressing **F5**.
+1. The debugger hits the breakpoint because `/u` was passed as a command-line argument:
+
+    :::image type="content" source="./media/vs-2026/breakpoint-hit.png" border="false" alt-text="Screenshot of the debugger stopped on line 18, uppercase = true;.":::
+
+1. Select **F5** to continue running the application. The output in the console window should show the names in uppercase:
+
+```output
+Hello, F! Count to 1
+Hello, FR! Count to 2
+Hello, FRE! Count to 3
+Hello, FRED! Count to 4
+Hello, FRED ! Count to 5
+Hello, FRED S! Count to 6
+Hello, FRED SM! Count to 7
+Hello, FRED SMI! Count to 8
+Hello, FRED SMIT! Count to 9
+Hello, FRED SMITH! Count to 10
+```
+
+To add command-line arguments, type them in the dropdown and press **Enter**. The arguments are saved in the order that you enter them and appear in the dropdown for future use. There's a limit of five command lines that you can add before the oldest one is removed to make room for a new one.
+
+You can select the dropdown arrow to see a list of previously used command-line arguments. You can also select **Edit Command-Line Arguments** to open the project properties and set command-line arguments there.
+
+    :::image type="content" source="./media/vs-2026/command-line-args.dropdown.png" border="false" alt-text="Screenshot of the command-line argument dropdown. It shows /u and /d from a previous run. At the bottom is an option to edit in property pages.":::
+
+If you select **Edit Command-Line Arguments**, the project properties window opens to the **Debugging** page where you can set command-line arguments for your application:
+
+    :::image type="content" source="./media/vs-2026/debugging-property-page.png" border="false" alt-text="Screenshot of the Debugging page in the project properties. The command-line arguments text box contains /u.":::
+
+::: moniker-end
 
 ## Related content
 

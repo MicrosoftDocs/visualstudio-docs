@@ -1,7 +1,7 @@
 ---
 title: "Quickstart: Visual Studio Tools for Unreal Engine"
 description: "Learn about Visual Studio Tools for Unreal Engine, a free Visual Studio extension that helps you develop games with Unreal Engine"
-ms.date: 10/14/2024
+ms.date: 09/04/2025
 ms.topic: quickstart
 ms.service: visual-studio
 ms.subservice: unreal-engine-tools
@@ -103,7 +103,7 @@ There's a limit of five command lines that you can add before the oldest one is 
 
 The first argument when debugging an Unreal Engine project that runs in the Unreal Engine editor must be the path to the project. For example: `C:\UE\LyraStarterGame\LyraStarterGame.uproject`.
 
-For more information about using the command-line arguments dropdown, see [Pass command-line arguments while debugging (C++)](/visualstudio/debugger/specify-command-line-arguments).
+For more information about using the command-line arguments dropdown, see [Pass command line arguments when debugging](../../../docs/debugger/getting-started-with-the-debugger-cpp.md#pass-command-line-arguments-when-debugging).
 
 ## Next steps
 
