@@ -171,13 +171,13 @@ The following example shows how to collect performance data with the Copilot Pro
 
    The `@Profiler` command calls the Copilot Profiler Agent. 
 
-   ![Screenshot of invoking the profiler agent.](../profiling/media/dev18/profiling-agent-start-chat.png)
+   ![Screenshot of invoking the profiler agent.](../profiling/media/visualstudio/profiling-agent-start-chat.png)
 
    Alternatively, you could start the profiler agent by manually choosing **Select Tools** and manually enabling the Profiler Agent, and then switching to agent mode. Using this method, you don't need to use the `@Profiler` command.
 
    Copilot asks if you want to run the profiler.
 
-   ![Screenshot of start profiling request.](../profiling/media/dev18/profiling-agent-start-profiler-request.png)
+   ![Screenshot of start profiling request.](../profiling/media/visualstudio/profiling-agent-start-profiler-request.png)
 
 1. Choose **Confirm**.
 
@@ -185,7 +185,7 @@ The following example shows how to collect performance data with the Copilot Pro
 
    Benchmark results show up in the Output window, with the output set to **Diagnostics Hub**.
 
-   ![Screenshot of benchmark output.](../profiling/media/dev18/profiling-agent-benchmark-output.png)
+   ![Screenshot of benchmark output.](../profiling/media/visualstudio/profiling-agent-benchmark-output.png)
 
    Results from the diagnostics session appear in a *.diagsession* file report. If you want to manually investigate CPU usage, see [Analyze performance by using CPU profiling](../profiling/cpu-usage.md). However, in this scenario, we use the Profiler Agent instead.
 
@@ -193,11 +193,11 @@ The following example shows how to collect performance data with the Copilot Pro
 
    The agent reports a potential 33% gain in efficiency, mainly by removing full-table materialization and an unnecessary `ToList()` method call.
 
-   ![Screenshot of test results.](../profiling/media/dev18/profiling-agent-results.png)
+   ![Screenshot of test results.](../profiling/media/visualstudio/profiling-agent-results.png)
 
    The agent also provides a couple of suggestions for next steps, including an option to optimize the LINQ query.
 
-   ![Screenshot of code suggestions.](../profiling/media/dev18/profiling-agent-suggested-fixes.png) 
+   ![Screenshot of code suggestions.](../profiling/media/visualstudio/profiling-agent-suggested-fixes.png) 
 
    For this example, you focus on optimizing the LINQ query.
 
@@ -207,7 +207,7 @@ The following example shows how to collect performance data with the Copilot Pro
 
 1. Take a look at code changes in **Program.cs**.
 
-   ![Screenshot of code changes.](../profiling/media/dev18/profiling-agent-query-code-changes.png) 
+   ![Screenshot of code changes.](../profiling/media/visualstudio/profiling-agent-query-code-changes.png) 
 
 1. In the lower right of the code editor, examine the code changes and select **Keep** to keep them.
 
