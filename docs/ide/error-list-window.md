@@ -77,6 +77,8 @@ Use the toolbar dropdowns to limit which entries appear:
 
 ## UI reference
 
+The following columns appear in the **Error List** window by default:
+
 - **Severity** — Displays the type of entry (Error, Warning, Message, Warning (active/inactive)).
 - **Code** — The error or warning code.
 - **Description** — The entry text describing the issue.
