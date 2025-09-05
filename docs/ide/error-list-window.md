@@ -92,6 +92,6 @@ In addition, you can enable the following other columns. Right-click on the colu
 - **Column** - The column number where the issue was detected.
 - **Category** - IntelliSense only. Category of the issue, for example, "Compiler."
 - **Source** -  Sources include Build and IntelliSense.
-- **Tool** - the executable tool that generated this code
+- **Tool** - Build only. The executable tool that generated this code
 
 For more information and additional conceptual details about the Error List, see the original documentation for the Error List window.
