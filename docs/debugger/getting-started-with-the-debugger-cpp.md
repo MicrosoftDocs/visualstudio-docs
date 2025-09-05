@@ -17,7 +17,7 @@ manager: mijacobs
 
 # Tutorial: Debug C++ code with Visual Studio
 
-In this tutorial you will debug a C++ application using the Visual Studio debugger. When you debug an application, you usually run your app with the debugger attached. The debugger provides many ways to examine what your code is doing during program execution. You can step through your code and look at values stored in variables and set watches on variables to see when values change. The debugger helps you examine the execution path of your code and confirm a branch of code is running.
+In this tutorial, you debug a C++ application using the Visual Studio debugger. When you debug an application, you usually run your app with the debugger attached. The debugger provides many ways to examine what your code is doing during program execution. You can step through your code and look at values stored in variables and set watches on variables to see when values change. The debugger helps you examine the execution path of your code and confirm a branch of code is running.
 
 In this tutorial, you:
 
@@ -331,7 +331,6 @@ The **Call Stack** window in Visual Studio shows the order in which methods and 
 The call stack is a good way to examine and understand the execution flow of an app:
 
 - Double-click a line of code to browse to the source code. This action also changes the current scope under inspection by the debugger, but it doesn't advance the debugger.
-
 - Access right-click menus for programming elements in the **Call Stack** window. For example, you can insert breakpoints into specified functions, advance the debugger by using **Run to Cursor**, and browse to source code. For more information, see [View the call stack and use the Call Stack window in the debugger](./how-to-use-the-call-stack-window.md).
 
 ## Change the execution flow
@@ -355,7 +354,10 @@ Another powerful debugger feature is the ability to modify the execution flow du
 
 ## Pass command-line arguments when debugging
 
-You can set command-line arguments for your application in the project properties. This is useful when you want to test how your app behaves with different command-line arguments. Passing command-line arguments is even more convenient starting with Visual Studio 2026 because you can set command-line arguments directly in the Debug toolbar.
+## Pass command-line arguments when debugging
+
+You can set command-line arguments for your application in the project properties. This is useful when you want to test how your app behaves with different command-line arguments. Starting with Visual Studio 2026, you can set command-line arguments directly in the Debug toolbar using the new command-line argument dropdown. This feature is available for C++ projects, Unreal Engine .uproject projects, and CMake projects.
+
 
 Modify the application to accept command-line arguments by replacing all the code in the _get-started-debugging.cpp_ file with the following code:
 
@@ -402,7 +404,7 @@ int main(int argc, char* argv[])
 }
 ```
 
-What's changed in this updated version of the application is that it now accepts a command-line argument `/u`. If that argument is passed, the application converts the name to uppercase before sending the message.
+This updated version of the application accepts a command-line argument `/u`. If that argument is passed, the application converts the name to uppercase before sending the message.
 To pass the `/u` command-line arguments to your application when you start debugging it, follow these steps:
 
 1. Select the **Debug** dropdown in the Debug toolbar and type `/u` in the **Command-line arguments** text box:
@@ -411,12 +413,12 @@ To pass the `/u` command-line arguments to your application when you start debug
 
 1. Place a breakpoint on the line that contains the code statement `uppercase = true;` by selecting it in the left gutter on the line for the statement.
 
-    :::image type="content" source="./media/vs-2026/breakpoint.png" border="false" alt-text="Screenshot of a breakpoint set on line 18, uppercase = true;.":::
+    :::image type="content" source="./media/vs-2026/breakpoint.png" border="false" alt-text="Screenshot of a breakpoint set on line 18, uppercase = true.":::
 
 1. Start debugging your application by selecting the **Start Debugging** button or pressing **F5**.
 1. The debugger hits the breakpoint because `/u` was passed as a command-line argument:
 
-    :::image type="content" source="./media/vs-2026/breakpoint-hit.png" border="false" alt-text="Screenshot of the debugger stopped on line 18, uppercase = true;.":::
+    :::image type="content" source="./media/vs-2026/breakpoint-hit.png" border="false" alt-text="Screenshot of the debugger stopped on line 18, uppercase = true.":::
 
 1. Select **F5** to continue running the application. The output in the console window should show the names in uppercase:
 

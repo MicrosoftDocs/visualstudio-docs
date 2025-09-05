@@ -99,7 +99,7 @@ The command-line arguments dropdown is shown following the Solutions Platforms d
 
 To add command-line arguments, type them in the dropdown and press **Enter**. The arguments are saved in the order that you enter them and appear in the dropdown for future use.
 
-There's a limit of five command lines that you can add before the oldest one is removed to make room for a new one.
+There's a limit of five command lines that you can add before the oldest one is removed to make room for a new one. When you first load Unreal Engine, default arguments appear in the dropdown.
 
 The first argument when debugging an Unreal Engine project that runs in the Unreal Engine editor must be the path to the project. For example: `C:\UE\LyraStarterGame\LyraStarterGame.uproject`.
 
