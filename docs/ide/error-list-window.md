@@ -87,7 +87,7 @@ Use the toolbar dropdowns to limit which entries appear:
 
 In addition, you can enable the following other columns. Right-click on the column bar to open the context menu, and choose **Show Columns** to enable them.
 
-- **Project Rank** - The numbers enumerate the projects in the solution.
+- **Project Rank** - The numbers enumerate the projects in the solution (1-based).
 - **Path** - Path to the file that contains this code
 - **Column** - The column number where the issue was detected.
 - **Category** - Category of the issue, if available.
