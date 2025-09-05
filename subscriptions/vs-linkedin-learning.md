@@ -3,7 +3,7 @@ title: Activate LinkedIn Learning benefit in subscriptions
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 07/24/2025
+ms.date: 09/05/2025
 ms.topic: how-to
 description: Activate and explore the LinkedIn Learning benefit available in eligible Visual Studio subscriptions, and find answers to frequently asked questions.
 ---
@@ -77,13 +77,13 @@ To activate your LinkedIn Premium subscription and LinkedIn Learning benefit:
 |--------------------|----------|---------|------------|
 | Visual Studio Enterprise (Standard)   | VL, Azure, Retail\* | Six months |  No.  Available to new subscribers only |
 | Visual Studio Enterprise subscription with GitHub Enterprise   | VL | Six months |  No.  Available to new subscribers only |
-| Visual Studio Professional (Standard) | VL, Azure, Retail | Three months | No.  Available to new subscribers only |
-| Visual Studio Professional subscription with GitHub Enterprise | VL | Three months | No.  Available to new subscribers only |
+| Visual Studio Professional (Standard) | VL, Azure, Retail | Not available | NA |
+| Visual Studio Professional subscription with GitHub Enterprise | VL | Not available | NA |
 | Visual Studio Test Professional (Standard) | VL, Retail | Not available |  NA |
 | MSDN Platforms (Standard) | VL, Retail | Not available | NA |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure | Not available | NA |
 
-\*  *Excludes: NFR, NFR Basic, Visual Studio Industry Partner, Microsoft Cloud Partner Program, FTE, MCT Software & Services Developer, Imagine, Most Valuable Professional (MVP), Regional Director (RD).*
+\*  *Excludes: NFR, NFR Basic, Visual Studio Industry Partner, Microsoft Cloud Partner Program, FTE, MCT Software & Services Developer, Imagine, Azure Dev Tools for Teaching (ADTFT), Most Valuable Professional (MVP), Regional Director (RD), Student Ambassadors, Independent Software Vendor (ISV), Microsoft Startups, Microsoft Bug Bounty Program, We Communications.*
 
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
