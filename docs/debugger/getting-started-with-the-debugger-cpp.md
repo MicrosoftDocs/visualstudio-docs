@@ -437,11 +437,11 @@ To add command-line arguments, type them in the dropdown and press **Enter**. Th
 
 You can select the dropdown arrow to see a list of previously used command-line arguments. You can also select **Edit Command-Line Arguments** to open the project properties and set command-line arguments there.
 
-    :::image type="content" source="./media/vs-2026/command-line-args.dropdown.png" border="false" alt-text="Screenshot of the command-line argument dropdown. It shows /u and /d from a previous run. At the bottom is an option to edit in property pages.":::
+:::image type="content" source="./media/vs-2026/command-line-args.dropdown.png" border="false" alt-text="Screenshot of the command-line argument dropdown. It shows /u and /d from a previous run. At the bottom is an option to edit in property pages.":::
 
 If you select **Edit Command-Line Arguments**, the project properties window opens to the **Debugging** page where you can set command-line arguments for your application:
 
-    :::image type="content" source="./media/vs-2026/debugging-property-page.png" border="false" alt-text="Screenshot of the Debugging page in the project properties. The command-line arguments text box contains /u.":::
+:::image type="content" source="./media/vs-2026/debugging-property-page.png" border="false" alt-text="Screenshot of the Debugging page in the project properties. The command-line arguments text box contains /u.":::
 
 ::: moniker-end
 
