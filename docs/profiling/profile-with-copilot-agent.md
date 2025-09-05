@@ -24,7 +24,9 @@ monikerRange: '>= visualstudio'
 
 In this article, you'll learn how to profile applications and improve performance using Copilot and the Copilot Profiler Agent.
 
-The Profiler Agent works alongside GitHub Copilot to:
+Copilot can help you by recommending profiling tools that match your code, and by analyzing specific issues identified by profiling tools.
+
+The Profiler Agent, which guides you through performance testing and improvement, works alongside GitHub Copilot to:
 
 - Analyze CPU usage, memory allocations, and runtime behavior.
 - Surface performance bottlenecks.
