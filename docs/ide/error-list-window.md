@@ -51,7 +51,7 @@ Use the toolbar dropdowns to limit which entries appear:
 
 ## Open the file and navigate to an error
 
-- Double-click any entry in the Error List to open the file that contains the problem and move the caret to the error location.
+- Double-click any entry in the Error List to open the file that contains the problem and move to the error location.
 
 ## Copy or save errors
 
@@ -69,7 +69,7 @@ Use the toolbar dropdowns to limit which entries appear:
 
 ## View problem details
 
-- The **Details** column displays a clickable icon when an entry has additional diagnostic information. Click the icon to open the [Problem Details window](reference/problem-details-window.md).
+- For C++ projects, you can enable the **Details** column, which displays a clickable icon when an entry has additional diagnostic information. Click the icon to open the [Problem Details window](reference/problem-details-window.md).
 
 ## Manage the Error List window
 
@@ -83,6 +83,15 @@ Use the toolbar dropdowns to limit which entries appear:
 - **Project** — The project where the error was detected.
 - **File** — The file name that contains the issue.
 - **Line** — The line number where the problem occurs.
-- **Details** — Click to open the Problem Details window if extra diagnostic information exists.
+- **Details** — (C++ projects) Click to open the Problem Details window if extra diagnostic information exists.
+
+In addition, you can enable the following other columns. Right-click on the column bar to open the context menu, and choose **Show Columns** to enable them.
+
+- **Project Rank** - The numbers enumerate the projects in the solution.
+- **Path** - Path to the file that contains this code
+- **Column** - The column number where the issue was detected.
+- **Category** - Category of the issue, if available.
+- **Source** -  Sources include Build and IntelliSense.
+- **Tool** - the executable tool that generated this code
 
 For more information and additional conceptual details about the Error List, see the original documentation for the Error List window.
