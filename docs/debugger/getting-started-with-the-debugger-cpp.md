@@ -350,13 +350,11 @@ Another powerful debugger feature is the ability to modify the execution flow du
 
 1. Select **F5** to complete app execution.
 
-::: moniker range=">=vs-2026"
+::: moniker range=">=vs-2022"
 
 ## Pass command-line arguments when debugging
 
-## Pass command-line arguments when debugging
-
-You can set command-line arguments for your application in the project properties. This is useful when you want to test how your app behaves with different command-line arguments. Starting with Visual Studio 2026, you can set command-line arguments directly in the Debug toolbar using the new command-line argument dropdown. This feature is available for C++ projects, Unreal Engine .uproject projects, and CMake projects.
+You can set command-line arguments for your application in the project properties. This is useful when you want to test how your app behaves with different command-line arguments. Passing command-line arguments is more convenient starting with Visual Studio 2026 because you can set command-line arguments directly in the Debug toolbar. The new command-line argument dropdown is available for C++ projects, Unreal Engine .uproject projects, and CMake projects. 
 
 
 Modify the application to accept command-line arguments by replacing all the code in the _get-started-debugging.cpp_ file with the following code:
