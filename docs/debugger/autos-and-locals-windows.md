@@ -1,7 +1,7 @@
 ---
 title: Inspect variables - Visual Studio debugger
 description: Inspect variables in the Autos and Locals windows while debugging in Visual Studio. The Autos and Locals windows show variable values while you are debugging.
-ms.date: 4/10/2025
+ms.date: 9/5/2025
 ms.update-cycle: 180-days
 ms.topic: how-to
 f1_keywords:
@@ -80,6 +80,16 @@ While debugging, right-click an object in the code editor and choose **Add Watch
 In this example, you've a watch set on the object, and you can see its value change as you move through the debugger. Unlike the other variable windows, the **Watch** windows always show the variables that you're watching (they're grayed out when out of scope).
 
 For detailed information, see [Set a Watch using the Watch and QuickWatch Windows](../debugger/watch-and-quickwatch-windows.md).
+
+::: moniker range=">= vs-2022"
+## View return values of LINQ queries
+
+While you're paused in the debugger, you can hover over individual clauses or segments of your LINQ query to evaluate the immediate query return value.
+
+![Screenshot of return value of LINQ query](../debugger/media/vs-2022/view-return-value-linq-query.png)
+
+If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while hovering over the LINQ query. Select the **GitHub Copilot** icon at the end of the DataTip to analyze the query with Copilot. Copilot the explains the syntax of the LINQ query and clarifies why you're getting the specified result.
+::: moniker-end
 
 ::: moniker range=">= vs-2022"
 ## Get AI assistance
