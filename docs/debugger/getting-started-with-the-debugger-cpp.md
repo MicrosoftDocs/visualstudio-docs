@@ -443,27 +443,27 @@ You can select the dropdown arrow to see a list of previously used command-line 
 
 ## Passing command-line arguments in different project types
 
-The dropdown in the command-line arguments combo box contains an option to directly modify the project file that stores the arguments the debugger passes to your program. For `.vcxproj`, this is the project settings property page, for CMake it's the vs.launch.json file, and for Unreal Engine projects it's the `.uproject`.
+The dropdown in the command-line arguments combo box contains an option to directly modify the project file that stores the arguments the debugger passes to your program. For `.vcxproj`, this is the project settings property page, for CMake projects it's the `vs.launch.json` file, and for Unreal Engine projects it's the `.uproject` file.
 
 ### Visual Studio project type (`.vcxproj`)
 
-In a Visual Studio project type (`.vcxproj`), select **Edit Command-Line Arguments** to open the project properties and set command-line arguments in the properties window.
+In a Visual Studio project (`.vcxproj`), an option appears in the command-line arguments dropdown to **Edit Command-Line Arguments**:
 
 :::image type="content" source="./media/vs-2026/command-line-argumentss-dropdown.png" border="false" alt-text="Screenshot of the command-line argument dropdown. It shows /u and /d from a previous run. At the bottom is an option to edit in property pages.":::
 
-If you select **Edit Command-Line Arguments**, the project properties window opens to the **Debugging** page where you can set command-line arguments for your application:
+If you select **Edit Command-Line Arguments**, the project properties window opens to the **Debugging** property page where you can set command-line arguments to pass when debugging your application:
 
 :::image type="content" source="./media/vs-2026/debugging-property-page.png" border="false" alt-text="Screenshot of the Debugging page in the project properties. The command-line arguments text box contains /u.":::
 
-This modifies the project settings as described in [Project settings for a C++ debug configuration](project-settings-for-a-cpp-debug-configuration.md).
+Changes to the **Command Arguments** are reflected in the command-line arguments dropdown for future debugging sessions.
 
 ### CMake project type
 
-For CMake projects, an option appears in the command-line arguments dropdown to edit `launch.vs.json`. This modifies the launch configuration for the CMake project:
+For CMake projects, an option appears in the command-line arguments dropdown to **Edit `launch.vs.json`**:
 
 :::image type="content" source="./media/vs-2026/command-line-arguments-dropdown-cmake.png" border="false" alt-text="Screenshot of the command-line argument dropdown for CMake projects. It shows Edit in launch.vs.json as an option.":::
 
-If you select **Edit in launch.vs.json**, the `launch.vs.json` file opens where you can set command-line arguments for your application there:
+If you select **Edit in launch.vs.json**, the `launch.vs.json` file opens where you can set command-line arguments to pass when debugging your application:
 
 :::image type="content" source="./media/vs-2026/command-line-launch-vs-json.png" border="false" alt-text="Screenshot of the launch.vs.json file with the args element highlighted":::
 
@@ -471,11 +471,11 @@ Changes to the file are reflected in the command-line arguments dropdown for fut
 
 ### Unreal Engine project type (`.uproject`)
 
-For Unreal Engine projects, an option appears in the command-line arguments dropdown to edit `UETargetProperties.json`. This modifies the configuration for the Unreal Engine target:
+For Unreal Engine projects, an option appears in the command-line arguments dropdown to **Edit `UETargetProperties.json`**:
 
 :::image type="content" source="./media/vs-2026/command-line-arguments-dropdown-unreal-engine.png" border="false" alt-text="Screenshot of the command-line argument dropdown for Unreal Engine projects. It shows Edit in UETargetProperties.json as an option.":::
 
-If you select **Edit in UETargetProperties.json**, the `UETargetProperties.json` file opens where you can set command-line arguments for your application:
+If you select **Edit in UETargetProperties.json**, the `UETargetProperties.json` file opens where you can set command-line arguments to pass when debugging your application:
 
 :::image type="content" source="./media/vs-2026/command-line-uproject-json.png" border="false" alt-text="Screenshot of the UETargetProperties.json file with the args element highlighted":::
 
