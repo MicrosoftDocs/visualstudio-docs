@@ -1,7 +1,7 @@
 ---
 title: "Tutorial: Debug C++ code"
 description: Follow this tutorial to explore features of the Visual Studio debugger, start the debugger, step through code, and inspect data in a C++ application.
-ms.date: 09/04/2025
+ms.date: 09/07/2025
 ms.subservice: debug-diagnostics
 ms.topic: tutorial
 dev_langs:
@@ -354,11 +354,11 @@ Another powerful debugger feature is the ability to modify the execution flow du
 
 ## Pass command-line arguments (Preview)
 
-You can set command-line arguments for your application in the project properties. This is useful when you want to test how your app behaves with different command-line arguments. 
+Set command-line arguments for your application in project properties. This is useful when you want to test how your app behaves with different command-line arguments. 
 
-But starting in Visual Studio 2026, you can set command-line arguments for your application directly in the Debug toolbar. This feature is available for C++ projects, Unreal Engine `.uproject` projects, and CMake projects. It's currently in preview and is subject to change in future releases.
+But starting in Visual Studio 2026, you can set command-line arguments for your application in the command-line arguments toolbar drop-down list. This feature is available for Visual Studio C++ projects, Unreal Engine `.uproject` projects, and CMake projects. It's currently in preview and is subject to change before final release.
 
-Modify the application to accept command-line arguments by replacing all the code in the `get-started-debugging.cpp` file with the following code:
+Modify the application to accept command-line arguments by replacing all the code in the `get-started-debugging.cpp` file with the following:
 
 ```cpp
 #include <string>
@@ -405,13 +405,13 @@ int main(int argc, char* argv[])
 }
 ```
 
-This updated version of the application accepts a command-line argument `/u`. If that command-line argument is passed, the application converts the name to uppercase before sending the message.
+This updated version of the application accepts a command-line argument `/u`. When that command-line argument is passed, the application converts the name to uppercase before sending the message.
 
-To pass the `/u` command-line arguments to your application when you start debugging it, follow these steps:
+To pass the `/u` command-line argument to the application when you start debugging it, follow these steps:
 
-1. In the **Standard** toolbar **Command-line arguments** text box, type `/u`:
+1. In the **Standard** toolbar, **Command-line arguments** text box, type `/u`:
 
-    :::image type="content" source="./media/vs-2026/command-line-arguments.png" border="false" alt-text="Screenshot of the command-line arguments dropdown control in the Standard toolbar.":::
+    :::image type="content" source="./media/vs-2026/command-line-arguments.png" border="false" alt-text="Screenshot of the command-line arguments drop-down list in the Standard toolbar.":::
 
 1. Place a breakpoint on the line 19 `uppercase = true;` by clicking the left gutter on that line.
 
@@ -437,49 +437,49 @@ Hello, FRED SMIT! Count to 9
 Hello, FRED SMITH! Count to 10
 ```
 
-Command-line arguments are saved in the dropdown in the order that you enter them and appear in the dropdown for future use. There's a limit of five command lines that you can add before the oldest one is removed to make room for the new one.
+Command-line arguments are saved in the drop-down list in the order that you enter them and appear in the drop-down list for future use. There's a limit of five command lines that you can add before the oldest one is removed to make room for the new one.
 
-You can select the dropdown arrow to see a list of previously used command-line arguments.
+You can select the drop-down list arrow to see a list of previously used command-line arguments.
 
 ## Passing command-line arguments in different project types
 
-The dropdown in the command-line arguments combo box contains an option to directly modify the project file that stores the arguments the debugger passes to your program. For `.vcxproj`, this is the project settings property page, for CMake projects it's the `vs.launch.json` file, and for Unreal Engine projects it's the `.uproject` file.
+The command-line arguments drop-down list contains an option to edit the file that stores the arguments the debugger passes to your program. Changes are always saved in the file that stores the command-line arguments, but this option allows you to do so directly if you wish. For `.vcxproj`, this is the project settings property page, for CMake projects it's the `vs.launch.json` file, and for Unreal Engine projects it's the `.uproject` file.
 
 ### Visual Studio project type (`.vcxproj`)
 
-In a Visual Studio project (`.vcxproj`), an option appears in the command-line arguments dropdown to **Edit Command-Line Arguments**:
+In a Visual Studio project (`.vcxproj`), an option appears in the command-line arguments drop-down list to **Edit in Property Pages**:
 
-:::image type="content" source="./media/vs-2026/command-line-arguments-dropdown.png" border="false" alt-text="Screenshot of the command-line argument dropdown. It shows /u and /d from a previous run. The option to edit in property pages is highlighted.":::
+:::image type="content" source="./media/vs-2026/command-line-arguments-dropdown.png" border="false" alt-text="Screenshot of the command-line argument drop-down list. It shows /u and /d from a previous run. The option to edit in property pages is highlighted.":::
 
-If you select **Edit Command-Line Arguments**, the project properties window opens to the **Debugging** property page where you can set command-line arguments to pass when debugging your application:
+Select **Edit in Property Pages** to open the project properties window to the **Debugging** property page where you can set command-line arguments to pass when debugging your application:
 
 :::image type="content" source="./media/vs-2026/debugging-property-page.png" border="false" alt-text="Screenshot of the Debugging page in the project properties. The command-line arguments text box contains /u.":::
 
-Changes to the **Command Arguments** are reflected in the command-line arguments dropdown for future debugging sessions.
+Changes to the **Command Arguments** are reflected in the command-line arguments drop-down list for future debugging sessions.
 
 ### CMake project type
 
-For CMake projects, an option appears in the command-line arguments dropdown to **Edit `launch.vs.json`**:
+For CMake projects, an option appears in the command-line arguments drop-down list to **Edit in `launch.vs.json`**:
 
-:::image type="content" source="./media/vs-2026/command-line-arguments-dropdown-cmake.png" border="false" alt-text="Screenshot of the command-line argument dropdown for CMake projects. It shows Edit in launch.vs.json as an option.":::
+:::image type="content" source="./media/vs-2026/command-line-arguments-dropdown-cmake.png" border="false" alt-text="Screenshot of the command-line argument drop-down list for CMake projects. It shows Edit in launch.vs.json as an option.":::
 
-If you select **Edit in launch.vs.json**, the `launch.vs.json` file opens where you can set command-line arguments to pass when debugging your application:
+Select **Edit in `launch.vs.json`**, to open the `launch.vs.json` file and set command-line arguments to pass when debugging your application in the `"args"` element:
 
 :::image type="content" source="./media/vs-2026/command-line-launch-vs-json.png" border="false" alt-text="Screenshot of the launch.vs.json file with the args element highlighted":::
 
-Changes to the file are reflected in the command-line arguments dropdown for future debugging sessions.
+Changes to the file are reflected in the command-line arguments drop-down list for future debugging sessions.
 
 ### Unreal Engine project type (`.uproject`)
 
-For Unreal Engine projects, an option appears in the command-line arguments dropdown to **Edit `UETargetProperties.json`**:
+For Unreal Engine projects, an option appears in the command-line arguments drop-down list to **Edit in `UETargetProperties.json`**:
 
-:::image type="content" source="./media/vs-2026/command-line-arguments-dropdown-unreal-engine.png" border="false" alt-text="Screenshot of the command-line argument dropdown for Unreal Engine projects. It shows Edit in UETargetProperties.json as an option.":::
+:::image type="content" source="./media/vs-2026/command-line-arguments-dropdown-unreal-engine.png" border="false" alt-text="Screenshot of the command-line argument drop-down list for Unreal Engine projects. It shows Edit in UETargetProperties.json as an option.":::
 
-If you select **Edit in UETargetProperties.json**, the `UETargetProperties.json` file opens where you can set command-line arguments to pass when debugging your application:
+Select **Edit in `UETargetProperties.json`**, to open the `UETargetProperties.json` file where you can set command-line arguments to pass when debugging your application in the "args" element:
 
 :::image type="content" source="./media/vs-2026/command-line-unreal-engine-json.png" border="false" alt-text="Screenshot of the UETargetProperties.json file with the args element highlighted":::
 
-Changes to the file are reflected in the command-line arguments dropdown for future debugging sessions.
+Changes to the file are reflected in the command-line arguments drop-down list for future debugging sessions.
 
 ::: moniker-end
 
