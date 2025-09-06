@@ -449,7 +449,7 @@ The dropdown in the command-line arguments combo box contains an option to direc
 
 In a Visual Studio project (`.vcxproj`), an option appears in the command-line arguments dropdown to **Edit Command-Line Arguments**:
 
-:::image type="content" source="./media/vs-2026/command-line-argumentss-dropdown.png" border="false" alt-text="Screenshot of the command-line argument dropdown. It shows /u and /d from a previous run. At the bottom is an option to edit in property pages.":::
+:::image type="content" source="./media/vs-2026/command-line-arguments-dropdown.png" border="false" alt-text="Screenshot of the command-line argument dropdown. It shows /u and /d from a previous run. The option to edit in property pages is highlighted.":::
 
 If you select **Edit Command-Line Arguments**, the project properties window opens to the **Debugging** property page where you can set command-line arguments to pass when debugging your application:
 
@@ -477,7 +477,7 @@ For Unreal Engine projects, an option appears in the command-line arguments drop
 
 If you select **Edit in UETargetProperties.json**, the `UETargetProperties.json` file opens where you can set command-line arguments to pass when debugging your application:
 
-:::image type="content" source="./media/vs-2026/command-line-uproject-json.png" border="false" alt-text="Screenshot of the UETargetProperties.json file with the args element highlighted":::
+:::image type="content" source="./media/vs-2026/command-line-unreal-engine-json.png" border="false" alt-text="Screenshot of the UETargetProperties.json file with the args element highlighted":::
 
 Changes to the file are reflected in the command-line arguments dropdown for future debugging sessions.
 
