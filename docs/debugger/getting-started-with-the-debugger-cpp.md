@@ -83,14 +83,14 @@ Follow these steps to create a C++ console application project in Visual Studio.
    > If you don't see the **Console App** template, you can install it from the **Create a new project** window. Locate the **Not finding what you're looking for?** section that follows the search results and select **Install more tools and features**. In the Visual Studio Installer, select the **Desktop development with C++** workload and update your installation. For more information, see the [Prerequisites](#prerequisites) section.
 
 1. Select **Next** to continue to the configuration page.
-1. Enter _get-started-debugging_ as the **Project name** and **Solution name** for your new app. Choose the default **Location** or browse to a different path in your environment.
+1. Enter `get-started-debugging` as the **Project name** and **Solution name** for your new app. Choose the default **Location** or browse to a different path in your environment.
 1. Select **Create** to create the new Node.js project.
 
-Visual Studio creates your new project and opens your project hierarchy in **Solution Explorer**. The _get-started-debugging.cpp_ file is open in the code editor.
+Visual Studio creates your new project and opens your project hierarchy in **Solution Explorer**. The `get-started-debugging.cpp` file is open in the code editor.
 
 ## Create the application
 
-Create a new application for your project by editing the _get-started-debugging.cpp_ file in the code editor.
+Create a new application for your project by editing the `get-started-debugging.cpp` file in the code editor.
 
 Replace the default content provided by the template with the following code:
 
@@ -152,7 +152,7 @@ Now you're ready to start debugging your updated code:
 
 Try setting a breakpoint and pausing at the selected point in the debugger:
 
-1. Return to the _get-started-debugging.cpp_ file in the code editor, and locate the `for` loop of the `main` function:
+1. Return to the `get-started-debugging.cpp` file in the code editor, and locate the `for` loop of the `main` function:
 
    ```cpp
       for (int i = 0; i < letters.size(); i++)
@@ -352,12 +352,13 @@ Another powerful debugger feature is the ability to modify the execution flow du
 
 ::: moniker range=">=vs-2022"
 
-## Pass command-line arguments when debugging
+## Pass command-line arguments (Preview)
 
-You can set command-line arguments for your application in the project properties. This is useful when you want to test how your app behaves with different command-line arguments. Passing command-line arguments is more convenient starting with Visual Studio 2026 because you can set command-line arguments directly in the Debug toolbar. The new command-line argument dropdown is available for C++ projects, Unreal Engine .uproject projects, and CMake projects. 
+You can set command-line arguments for your application in the project properties. This is useful when you want to test how your app behaves with different command-line arguments. 
 
+But starting in Visual Studio 2026, you can set command-line arguments for your application directly in the Debug toolbar. This feature is available for C++ projects, Unreal Engine .uproject projects, and CMake projects. It is currently in preview and is subject to change in future releases.
 
-Modify the application to accept command-line arguments by replacing all the code in the _get-started-debugging.cpp_ file with the following code:
+Modify the application to accept command-line arguments by replacing all the code in the `get-started-debugging.cpp` file with the following code:
 
 ```cpp
 #include <string>
@@ -372,6 +373,7 @@ void SendMessage(const std::wstring& name, int msg)
 
 int main(int argc, char* argv[])
 {
+    // Detect if the /u command-line argument was passed to the application.
     bool uppercase = false;
     for (int i = 1; i < argc; ++i)
     {
@@ -392,7 +394,8 @@ int main(int argc, char* argv[])
         name += letters[i];
         a[i] = i + 1;
         std::wstring nameToSend = name;
-        if (uppercase)
+        
+        if (uppercase) // Convert the name to uppercase if the /u argument was passed.
         {
             std::transform(nameToSend.begin(), nameToSend.end(), nameToSend.begin(), ::towupper);
         }
@@ -402,14 +405,15 @@ int main(int argc, char* argv[])
 }
 ```
 
-This updated version of the application accepts a command-line argument `/u`. If that argument is passed, the application converts the name to uppercase before sending the message.
+This updated version of the application accepts a command-line argument `/u`. If that command-line argument is passed, the application converts the name to uppercase before sending the message.
+
 To pass the `/u` command-line arguments to your application when you start debugging it, follow these steps:
 
-1. Select the **Debug** dropdown in the Debug toolbar and type `/u` in the **Command-line arguments** text box:
+1. In the **Debug** toolbar **Command-line arguments** text box, type `/u`:
 
     :::image type="content" source="./media/vs-2026/command-line-args.png" border="false" alt-text="Screenshot of the command-line arguments dropdown control in the Standard toolbar.":::
 
-1. Place a breakpoint on the line that contains the code statement `uppercase = true;` by selecting it in the left gutter on the line for the statement.
+1. Place a breakpoint on the line 19 `uppercase = true;` by clicking the left gutter on that line.
 
     :::image type="content" source="./media/vs-2026/breakpoint.png" border="false" alt-text="Screenshot of a breakpoint set on line 18, uppercase = true.":::
 
@@ -418,7 +422,7 @@ To pass the `/u` command-line arguments to your application when you start debug
 
     :::image type="content" source="./media/vs-2026/breakpoint-hit.png" border="false" alt-text="Screenshot of the debugger stopped on line 18, uppercase = true.":::
 
-1. Select **F5** to continue running the application. The output in the console window should show the names in uppercase:
+1. Select **F5** to continue running the application. The output in the console window shows the names in uppercase now:
 
 ```output
 Hello, F! Count to 1
@@ -433,11 +437,11 @@ Hello, FRED SMIT! Count to 9
 Hello, FRED SMITH! Count to 10
 ```
 
-To add command-line arguments, type them in the dropdown and press **Enter**. The arguments are saved in the order that you enter them and appear in the dropdown for future use. There's a limit of five command lines that you can add before the oldest one is removed to make room for a new one.
+Command-line arguments are saved in the dropdown in the order that you enter them and appear in the dropdown for future use. There's a limit of five command lines that you can add before the oldest one is removed to make room for the new one.
 
-You can select the dropdown arrow to see a list of previously used command-line arguments. You can also select **Edit Command-Line Arguments** to open the project properties and set command-line arguments there.
+You can select the dropdown arrow to see a list of previously used command-line arguments. You can select **Edit Command-Line Arguments** to open the project properties and set command-line arguments there.
 
-:::image type="content" source="./media/vs-2026/command-line-args.dropdown.png" border="false" alt-text="Screenshot of the command-line argument dropdown. It shows /u and /d from a previous run. At the bottom is an option to edit in property pages.":::
+:::image type="content" source="./media/vs-2026/command-line-args-dropdown.png" border="false" alt-text="Screenshot of the command-line argument dropdown. It shows /u and /d from a previous run. At the bottom is an option to edit in property pages.":::
 
 If you select **Edit Command-Line Arguments**, the project properties window opens to the **Debugging** page where you can set command-line arguments for your application:
 
