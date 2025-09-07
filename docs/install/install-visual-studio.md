@@ -109,7 +109,7 @@ You can install Visual Studio 2022 side-by-side with other versions. For more in
 
 - Free up space. Remove unneeded files and applications from your system drive by, for example, running the Disk Cleanup utility.
 
-You can install Visual Studio latest side-by-side with other versions. For more information, see [Visual Studio platform targeting and compatibility](/visualstudio/releases/vs18/compatibility) and [Install Visual Studio versions side-by-side](install-visual-studio-versions-side-by-side.md).
+You can install Visual Studio latest side-by-side with other versions. For more information, see [Visual Studio platform targeting and compatibility](/visualstudio/releases/2022/compatibility) and [Install Visual Studio versions side-by-side](install-visual-studio-versions-side-by-side.md).
 
 ::: moniker-end
 
@@ -140,7 +140,7 @@ Decide which version and edition of Visual Studio to install. The most common op
 - The latest release of Visual Studio that's hosted on Microsoft servers. To install this version, select the following button and then choose the edition you want. The installer downloads a small *bootstrapper* to your *Downloads* folder.
 
   > [!div class="button"]
-  > [Download Visual Studio](https://aka.ms/vs/insiders/?cid=learn-onpage-download-install-visual-studio-page-cta)
+  > [Download Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-install-visual-studio-page-cta)
 
 ::: moniker-end
 
@@ -160,7 +160,7 @@ Decide which version and edition of Visual Studio to install. The most common op
 
 ::: moniker range=">=visualstudio"
 
-- You can download a bootstrapper for a specific version from the [Visual Studio Release History](/visualstudio/releases/vs18/release-history#release-dates-and-build-numbers) page and use it to install Visual Studio.
+- You can download a bootstrapper for a specific version from the [Visual Studio Release History](https://aka.ms/vs/relnotes/insiders) page and use it to install Visual Studio.
 
 ::: moniker-end
 
@@ -291,13 +291,13 @@ By default, the installer program tries to match the language of the operating s
 
 ::: moniker-end
 
-::: moniker range=">=vs-2022"
+::: moniker range="vs-2022"
 
   :::image type="content" source="media/vs-2022/vs-installer-language-packs.png" alt-text="Screenshot showing the Language packs tab of the Visual Studio Installer." lightbox="media/vs-2022/vs-installer-language-packs.png":::
 
 ::: moniker-end
 
-::: moniker range=">=vs-2022"
+::: moniker range="visualstudio"
 
   :::image type="content" source="media/visualstudio/vs-installer-language-packs.png" alt-text="Screenshot showing the Language packs tab of the Visual Studio Installer." lightbox="media/vs-2022/vs-installer-language-packs.png":::
 
@@ -339,13 +339,13 @@ You can reduce the installation footprint of Visual Studio on your system drive.
 
 ::: moniker-end
 
-::: moniker range=">=vs-2022"
+::: moniker range="vs-2022"
 
   :::image type="content" source="media/vs-2022/vs-installer-installation-locations.png" alt-text="Screenshot showing the Installation locations tab of the Visual Studio Installer." lightbox="media/vs-2022/vs-installer-installation-locations.png":::
 
 ::: moniker-end
 
-::: moniker range=">=vs-2022"
+::: moniker range="visualstudio"
 
   :::image type="content" source="media/visualstudio/vs-installer-installation-locations.png" alt-text="Screenshot showing the Installation locations tab of the Visual Studio Installer." lightbox="media/visualstudio/vs-installer-installation-locations.png":::
 
