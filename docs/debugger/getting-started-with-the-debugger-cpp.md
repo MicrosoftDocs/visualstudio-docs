@@ -443,7 +443,7 @@ You can select the drop-down list arrow to see a list of previously used command
 
 ## Passing command-line arguments in different project types
 
-The command-line arguments drop-down list contains an option to edit the file that stores the arguments the debugger passes to your program. Changes are always saved in the file that stores the command-line arguments, but this option allows you to do so directly if you wish. For `.vcxproj`, this is the project settings property page, for CMake projects it's the `vs.launch.json` file, and for Unreal Engine projects it's the `.uproject` file.
+The command-line arguments drop-down list contains a project type specific option to open the classic way of setting the arguments that the debugger passes to your program. For `.vcxproj` projects, it's via the project settings property page. For CMake projects, it's by editing the `vs.launch.json` file. For Unreal Engine projects it's by editing the `.uproject` file.
 
 ### Visual Studio project type (`.vcxproj`)
 
