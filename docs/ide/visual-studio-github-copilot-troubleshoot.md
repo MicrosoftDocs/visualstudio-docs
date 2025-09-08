@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot GitHub Copilot state
 description: Learn how to use the GitHub Copilot badge in the Visual Studio IDE to troubleshoot Copilot's state and resolve common issues.
-ms.date: 2/27/2025
+ms.date: 8/30/2025
 ms.update-cycle: 180-days
 ms.topic: troubleshooting-problem-resolution
 author: anandmeg

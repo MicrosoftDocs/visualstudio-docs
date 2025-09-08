@@ -1,7 +1,7 @@
 ---
 title: Configure Windows Firewall for remote debugging
 description: Configure Windows Firewall for remote debugging. Configure ports for remote debugging. Troubleshoot the remote debugging connection.
-ms.date: 04/24/2024
+ms.date: 09/04/2025
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
@@ -94,18 +94,20 @@ If you select **Use Managed Compatibility Mode** under **Tools** > **Options** >
 
 ::: moniker-end
 
+## Ports for IPsec and IIS
+
 If your domain policy requires network communication to be performed through Internet Protocol Security (IPsec), you must open additional ports on both the Visual Studio and remote computers. To debug on a remote Internet Information Services (IIS) web server, open port 80 on the remote computer.
 
 |**Ports**|**Incoming/Outgoing**|**Protocol**|**Description**|
 |-|-|-|-|
 |500, 4500|Outgoing|UDP|Required if your domain policy requires network communication to be performed through IPsec.|
-|80|Outgoing|TCP|Required for web server debugging.|
+|80|Outgoing|TCP|Required on the remote computer for web server debugging.|
 
 To allow specific apps through the Windows Firewall, see [Configure remote debugging through Windows Firewall](#allow-the-remote-debugger-through-windows-firewall).
 
 ## Allow the remote debugger through Windows Firewall
 
-When you [configure the remote debugger](../debugger/remote-debugging.md#bkmk_setup), the configuration software should open the correct ports. However, in some scenarios you might need to manually allow the remote debugger through the firewall.
+When you [configure the remote debugger](../debugger/remote-debugging.md#bkmk_setup), the configuration software should open the correct ports on the remote computer. However, in some scenarios you might need to manually allow the remote debugger through the firewall.
 
 To allow the remote debugger through Windows Firewall:
 
@@ -113,9 +115,9 @@ To allow the remote debugger through Windows Firewall:
 
 1. Select **Allow an app through Windows Firewall**.
 
-1. If **Remote Debugger** or **Visual Studio Remote Debugger** doesn't appear under **Allowed apps and features**, select **Change settings**, and then select **Allow another app**.
+1. If **Remote Debugger** or **Visual Studio Remote Debugger** doesn't appear under **Allowed apps and features**, select **Allow another app**, or select **Change settings** and then **Allow another app**.
 
-1. If the remote debugger app still isn't listed in the **Add an app** dialog, select **Browse**, and navigate to *\<Visual Studio installation directory\>\\Common7\\IDE\\Remote Debugger\\\<x86*, *x64*, or *Appx*\>, depending on the appropriate architecture for your app. Select *msvsmon.exe*, and then select **Add**.
+1. If the remote debugger app still isn't listed in the **Add an app** dialog, select **Browse**, and navigate to *\<Visual Studio installation directory\>\\Common7\\IDE\\Remote Debugger\\\<x86*, *x64*, or *Appx*\>, depending on the appropriate architecture for your app. Select *msvsmon.exe*, and then select **Open**.
 
 1. In the **Apps** list, select the **Remote Debugger** that you just added. Select **Network types**, and then select one or more network types, including the network type for the remote connection.
 
