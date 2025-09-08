@@ -2,7 +2,7 @@
 title: What Is Visual Studio?
 titleSuffix: ''
 description: Explore Visual Studio, an integrated development environment (IDE) that enables you to develop, edit, debug, version control, and deploy your app.
-ms.date: 08/25/2025
+ms.date: 09/09/2025
 ms.subservice: general-ide
 ms.topic: overview
 ms.update-cycle: 90-days
