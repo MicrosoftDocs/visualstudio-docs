@@ -34,6 +34,7 @@ Download PerfView from [GitHub](https://github.com/Microsoft/perfview/blob/main/
 1. Right-click on **PerfView.exe** in Windows Explorer and choose **Run as administrator** as admin.
 1. On the Collect menu, choose **Collect**.
 1. Check **Zip**, **Merge**, and **ThreadTime**.
+1. Open the Advanced Options menu and add the value `25c93eda-40a3-596d-950d-998ab963f367` in the Additional Providers text field.
 1. Increase **Circular MB** to 1000.
 1. Change **Current Dir** to save ETL traces to a specified folder and Data File if you are going to collect more than once.
 1. To start recording data, choose the **Start Collection** button.

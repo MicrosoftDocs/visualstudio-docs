@@ -1,7 +1,7 @@
 ---
 title: Debug .NET apps in Linux using WSL
 description: Discover how to run and debug your .NET applications in WSL without leaving the Visual Studio integrated development environment (IDE).
-ms.date: "07/03/2024"
+ms.date: "09/04/2025"
 ms.topic: "conceptual"
 helpviewer_keywords:
   - "debugging, linux"
@@ -22,11 +22,11 @@ For a Windows .NET user targeting Linux, WSL lives in a sweet spot between produ
 You don't have to choose just one method! You can have a launch profile for Docker and WSL in the same project and pick whichever is appropriate for a particular run. And once your app is deployed, you can always use the remote debugger to attach to it if there's an issue. To debug a Linux Docker container running in WSL, see [Attach to a process running on a Docker container](../debugger/attach-to-process-running-in-docker-container.md).
 
 > [!NOTE]
-> Starting in Visual Studio 2019 version 16.11 Preview 3, the WSL 2 debug target was renamed to WSL.
+> Starting in Visual Studio 2019 version 16.11, the WSL 2 debug target was renamed to WSL.
 
 ## Prerequisites
 
-- Visual Studio 2019 v16.9 Preview 1 or later versions with the .NET Debugging with WSL optional component.
+- Visual Studio 2019 v16.9 or later versions with the .NET Debugging with WSL optional component.
 
   To check for the WSL component, choose **Tools** > **Get Tools and Features**. In the Visual Studio Installer, make sure the component is installed by choosing **Individual components** tab, and typing **WSL** as the search term.
 
@@ -226,3 +226,7 @@ In the following example, you pass two arguments to a DLL project named ConsoleA
   "commandLineArgs": "\"{OutDir}/ConsoleApp.dll\" arg1 arg2"
 }
 ```
+
+## Console apps
+
+For a console app running in WSL, the standard input stream (stdin) is redirected and there isn't a way to provide input. When debugging a console app that requires input, start the app directly from WSL using `dotnet run` and specify the path to the DLL on Windows. This provides access to stdin because the app runs in the Linux console. To debug, use the instructions described in the section [Attach to a running WSL process](#attach-to-a-running-wsl-process).
