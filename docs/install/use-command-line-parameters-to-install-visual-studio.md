@@ -160,6 +160,7 @@ All layout management operations, such as creating or updating a layout, are run
 | `--path install=<path>`        | **Optional**: Equivalent to `–-installPath`. Specifically, `--installPath "C:\VS"` and `--path install="C:\VS"` are equivalent. Only one of these commands can be used at a time.     |
 
 ## ModifySettings command and command-line parameters
+
 You can modify the update settings and programmatically configure the source location of updates for a given instance of Visual Studio by using either the installer or the bootstrapper on the client machine, and passing in the modifySettings command and the desired update channel.  
 
 | **Command** | **Description**                                                                                                         |
@@ -186,30 +187,10 @@ Syntax examples:
    C:\>"C:\Program Files\Microsoft\Visual Studio\2022\Enterprise\vs_enterprise.exe" modifySettings --channelUri https://aka.ms/vs/17/release.LTSC.17.0/channel --productID Microsoft.VisualStudio.Product.Enterprise --newChannelUri \\layoutserver\share\path\channelmanifest.json --removeOos true --quiet
   ``` 
 
-::: moniker range=">=visualstudio"
+::: moniker range=">=vs-2022"
 
 ## Rollback command and command-line parameters
-Starting in Visual Studio 2022, you can [roll back an update](/troubleshoot/developer/visualstudio/installation/troubleshoot-installation-issues?toc=%2Fvisualstudio%2Ftoc.json#7-roll-back-to-a-previous-install-for-visual-studio-2022-only) programmatically by using the installer on the client machine and passing in the rollback command alongside the installation path instance. 
 
-| **Command** | **Description**                                                                                                         |
-|-------------|-------------------------------------------------------------------------------------------------------------------------|
-| `rollback`     | Command to rollback a particular instance of Visual Studio to the previously installed update. This command will not work if the [`DisableRollback`](configure-policies-for-enterprise-deployments.md) is enabled.   |
- 
-| **rollback parameters**                   | **Description**                                                                           |
-|-------------------------------------------|-------------------------------------------------------------------------------------------|
-| `--installPath <dir>`                     | **Recommended** to use to specify which instance of Visual Studio to act upon.            |
-
-Syntax examples: 
-
-  ```shell
-  "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" rollback -–installPath "C:\Program Files\Microsoft Visual Studio\18\Insiders"
-  ```
-
-::: moniker-end
-
-::: moniker range="vs-2022"
-
-## Rollback command and command-line parameters
 Starting in Visual Studio 2022, you can [roll back an update](/troubleshoot/developer/visualstudio/installation/troubleshoot-installation-issues?toc=%2Fvisualstudio%2Ftoc.json#7-roll-back-to-a-previous-install-for-visual-studio-2022-only) programmatically by using the installer on the client machine and passing in the rollback command alongside the installation path instance. 
 
 | **Command** | **Description**                                                                                                         |
