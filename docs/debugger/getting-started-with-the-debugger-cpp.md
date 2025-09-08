@@ -1,7 +1,7 @@
 ---
 title: "Tutorial: Debug C++ code"
 description: Follow this tutorial to explore features of the Visual Studio debugger, start the debugger, step through code, and inspect data in a C++ application.
-ms.date: 09/07/2025
+ms.date: 09/08/2025
 ms.subservice: debug-diagnostics
 ms.topic: tutorial
 dev_langs:
@@ -350,15 +350,15 @@ Another powerful debugger feature is the ability to modify the execution flow du
 
 1. Select **F5** to complete app execution.
 
-::: moniker range=">=vs-2022"
+::: moniker range=">=visualstudio"
 
 ## Pass command-line arguments (Preview)
 
 Set command-line arguments for your application in project properties. This is useful when you want to test how your app behaves with different command-line arguments. 
 
-But starting in Visual Studio 2026, you can set command-line arguments for your application in the command-line arguments toolbar drop-down list. This feature is available for Visual Studio C++ projects, Unreal Engine `.uproject` projects, and CMake projects. It's currently in preview and is subject to change before final release.
+Starting in Visual Studio 2026, you can set command-line arguments for your application in the command-line arguments toolbar drop-down list. This feature is available for Visual Studio C++ projects, Unreal Engine `.uproject` projects, and CMake projects. It's currently in preview and is subject to change before final release.
 
-Modify the application to accept command-line arguments by replacing all the code in the `get-started-debugging.cpp` file with the following:
+Modify the application to accept command-line arguments by replacing the code in the `get-started-debugging.cpp` file with the following:
 
 ```cpp
 #include <string>
@@ -405,7 +405,7 @@ int main(int argc, char* argv[])
 }
 ```
 
-This updated version of the application accepts a command-line argument `/u`. When that command-line argument is passed, the application converts the name to uppercase before sending the message.
+This updated version of the application accepts a command-line argument `/u` that converts the name to uppercase before outputting it.
 
 To pass the `/u` command-line argument to the application when you start debugging it, follow these steps:
 
@@ -413,7 +413,7 @@ To pass the `/u` command-line argument to the application when you start debuggi
 
     :::image type="content" source="./media/vs-2026/command-line-arguments.png" border="false" alt-text="Screenshot of the command-line arguments drop-down list in the Standard toolbar.":::
 
-1. Place a breakpoint on the line 19 `uppercase = true;` by clicking the left gutter on that line.
+1. Place a breakpoint on line 19, `uppercase = true;`, by clicking the left gutter on that line.
 
     :::image type="content" source="./media/vs-2026/breakpoint.png" border="false" alt-text="Screenshot of a breakpoint set on line 18, uppercase = true.":::
 
@@ -441,7 +441,7 @@ Command-line arguments are saved in the drop-down list in the order that you ent
 
 You can select the drop-down list arrow to see a list of previously used command-line arguments.
 
-## Passing command-line arguments in different project types
+## Pass command-line arguments in different project types
 
 The command-line arguments drop-down list contains a project type specific option to open the classic way of setting the arguments that the debugger passes to your program. For `.vcxproj` projects, it's via the project settings property page. For CMake projects, it's by editing the `vs.launch.json` file. For Unreal Engine projects it's by editing the `.uproject` file.
 
