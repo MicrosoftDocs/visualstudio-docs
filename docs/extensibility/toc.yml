@@ -13,10 +13,10 @@
     href: extensibility-hello-world.md
   - name: VisualStudio.Extensibility SDK (Preview) >>
     href: ./visualstudio.extensibility/index.yml
-  - name: Update extensions for Visual Studio
-    href: migration/update-visual-studio-extension-latest.md
   - name: Update extensions for Visual Studio 2022
     items:
+    - name: Update extensions for Visual Studio
+      href: migration/update-extension.md
     - name: Update an extension
       href: migration/update-visual-studio-extension.md
     - name: 'Example: ImageOptimizer'

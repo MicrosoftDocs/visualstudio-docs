@@ -22,7 +22,7 @@ To install and test your extension:
 
 1. Navigate to **Extension Manager**.
 
-1. Use the search function to find your extension.
+1. Use the Search function to find your extension.
 
 1. Install it and confirm that it operates as expected. 
 
