@@ -9,6 +9,7 @@ author: ankitvarmait
 ms.author: anva
 manager: tinali
 ms.subservice: extensibility-integration
+monikerRange: "vs-2022"
 ---
 
 # Visual Studio SDK error messages
