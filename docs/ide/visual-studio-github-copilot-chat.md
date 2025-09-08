@@ -1,7 +1,7 @@
 ---
 title: About GitHub Copilot Chat in Visual Studio
 description: Learn about the fully integrated GitHub Copilot Chat in Visual Studio. Use the chat interface to ask coding-related questions from right within the IDE.
-ms.date: 7/31/2025
+ms.date: 09/09/2025
 ms.update-cycle: 180-days
 ms.topic: overview 
 author: anandmeg
@@ -122,6 +122,10 @@ Supported image formats: PNG, JPEG, and GIF (single-frame only). You can attach 
 Example scenarios where adding an image in the prompt provides Copilot additional context:
 - UI development, add an image of your design
 - Debugging, add a screenshot of the error
+
+### Generate Mermaid diagrams
+
+With the latest release, Copilot can generate architectural, flowchart, sequence, class, Gantt diagrams, pie charts or any other kind of [mermaid diagram](https://mermaid.js.org/intro/#diagram-types) to visualize abstract concepts. 
 
 ## Next steps
 
