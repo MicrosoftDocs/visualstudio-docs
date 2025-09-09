@@ -86,9 +86,9 @@ For detailed information, see [Set a Watch using the Watch and QuickWatch Window
 
 While you're paused in the debugger, you can hover over individual clauses or segments of your LINQ query to evaluate the immediate query return value.
 
-![Screenshot of return value of LINQ query](../debugger/media/vs-2022/view-return-value-linq-query.png)
+![Screenshot of return value of LINQ query.](../debugger/media/vs-2022/view-return-value-linq-query.png)
 
-If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while hovering over the LINQ query. Select the **GitHub Copilot** icon at the end of the DataTip to analyze the query with Copilot. Copilot the explains the syntax of the LINQ query and clarifies why you're getting the specified result.
+If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while hovering over the LINQ query. Select the **GitHub Copilot** icon at the end of the DataTip to analyze the query with Copilot. Copilot then explains the syntax of the LINQ query and clarifies why you're getting the specified result.
 ::: moniker-end
 
 ::: moniker range=">= vs-2022"
