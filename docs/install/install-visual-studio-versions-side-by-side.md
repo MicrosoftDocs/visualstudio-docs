@@ -80,9 +80,9 @@ You can manually use another bootstrapper to install a new instance of Visual St
 
 ::: moniker range="visualstudio"
 
-Each installation of Visual Studio must have a unique combination of major version, edition, and [update channel](/visualstudio/install/update-visual-studio?view=vs-2022&preserve-view=true#configure-source-location-of-updates-1). For example, you can install Visual Studio Enterprise Insiders ([Insiders channel](/visualstudio/productinfo/release-rhythm)) alongside Visual Studio Enterprise (Stable channel) alongside Visual Studio 2019 Professional (release channel) alongside Visual Studio 2019 Professional (custom layout channel).
+Each installation of Visual Studio must have a unique combination of major version, edition, and [update channel](/visualstudio/install/update-visual-studio?view=visualstudio&preserve-view=true#configure-source-location-of-updates-1). For example, you can install Visual Studio Enterprise Insiders ([Insiders channel](/visualstudio/productinfo/release-rhythm)) alongside Visual Studio Enterprise (Stable channel) alongside Visual Studio 2019 Professional (release channel) alongside Visual Studio 2019 Professional (custom layout channel).
 
-When you upgrade from one minor version of Visual Studio to the next, by default, the Visual Studio Installer updates your current installation to the latest version in that channel. For example, if Microsoft releases version 17.3.9 to the [Visual Studio 2022 release channel](/visualstudio/productinfo/release-rhythm), the installer tries to replace your current installation of Visual Studio 2022 from the release channel with this latest version on the same channel.
+When you upgrade from one minor version of Visual Studio to the next, by default, the Visual Studio Installer updates your current installation to the latest version in that channel. For example, if Microsoft releases version 18.0.1 to the [Visual Studio Stable channel](/visualstudio/productinfo/release-rhythm), the installer tries to replace your current installation of Visual Studio from the Stable channel with this latest version on the same channel.
 
 ### Manual installation
 
