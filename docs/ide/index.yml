@@ -102,7 +102,7 @@ landingContent:
           - text: Debug with Copilot
             url: ../debugger/debug-with-copilot.md
           - text: Profiling with Copilot
-            url: ../debugger/profile-with-copilot-agent.md
+            url: ../profiling/profile-with-copilot-agent.md
 
   # Card
   - title: Discover what's new
