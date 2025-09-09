@@ -241,7 +241,7 @@ Why send feedback to the Visual Studio team? Because we take customer feedback s
 
 ## Related content
 
-* [What's new in Visual Studio 2022 (Preview)](whats-new-visual-studio-2022.md)
+* [What's new in Visual Studio 2022](whats-new-visual-studio-2022.md)
 * [What's new in the Visual Studio docs](whats-new-visual-studio-docs.md)
 * [Visual Studio 2019 release notes](/visualstudio/releases/2019/release-notes/)
 * [Visual Studio 2019 for Mac release notes](/visualstudio/releasenotes/vs2019-mac-relnotes/)
