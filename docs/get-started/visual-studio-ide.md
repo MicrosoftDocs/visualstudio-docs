@@ -2,7 +2,7 @@
 title: What Is Visual Studio?
 titleSuffix: ''
 description: Explore Visual Studio, an integrated development environment (IDE) that enables you to develop, edit, debug, version control, and deploy your app.
-ms.date: 08/25/2025
+ms.date: 09/09/2025
 ms.subservice: general-ide
 ms.topic: overview
 ms.update-cycle: 90-days
@@ -32,12 +32,21 @@ To install Visual Studio, select the following button, and [choose the edition o
 
 ::: moniker-end
 
-::: moniker range=">=vs-2022"
+::: moniker range="vs-2022"
 
 To install Visual Studio, select the following button, and [choose the edition of Visual Studio](#choose-your-visual-studio-edition) to download.
 
  > [!div class="button"]
  > [Download Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta)
+
+::: moniker-end
+
+::: moniker range="visualstudio"
+
+To install Visual Studio, select the following button, and [choose the edition of Visual Studio](#choose-your-visual-studio-edition) to download.
+
+ > [!div class="button"]
+ > [Download Visual Studio](https://aka.ms/vs/insiders/?cid=learn-onpage-download-install-visual-studio-page-cta)
 
 ::: moniker-end
 
@@ -159,10 +168,17 @@ To install Visual Studio, select the following button, and then choose the editi
 
 ::: moniker-end
 
-::: moniker range=">=vs-2022"
+::: moniker range="vs-2022"
 
  > [!div class="button"]
  > [Download Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta)
+
+::: moniker-end
+
+::: moniker range="visualstudio"
+
+ > [!div class="button"]
+ > [Download Visual Studio](https://aka.ms/vs/insiders/?cid=learn-onpage-download-install-visual-studio-page-cta)
 
 ::: moniker-end
 
