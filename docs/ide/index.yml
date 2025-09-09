@@ -101,6 +101,8 @@ landingContent:
             url: ../ide/visual-studio-github-copilot-chat.md
           - text: Debug with Copilot
             url: ../debugger/debug-with-copilot.md
+          - text: Profiling with Copilot
+            url: ../profiling/profile-with-copilot-agent.md
 
   # Card
   - title: Discover what's new

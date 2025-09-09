@@ -147,7 +147,7 @@ Debugging can take time, but the following tips can help you speed up the proces
 - **Use the Visual Studio debugger tools**. In the Visual Studio context, when you *debug your app*, it usually means that you're running the application in debugger mode. The debugger provides many ways to see what your code is doing while it runs. See [First look at the Visual Studio Debugger](../debugger/debugger-feature-tour.md) for a guide to getting started.
 
 ::: moniker range=">=vs-2022"
-- **AI assistance**. If you're using [Copilot](../ide/visual-studio-github-copilot-install-and-states.md), get AI assistance to [help you debug code](../debugger/debug-with-copilot.md).
+- **AI assistance**. If you're using [Copilot](../ide/visual-studio-github-copilot-install-and-states.md), get AI assistance to [help you debug code](../debugger/debug-with-copilot.md) and [improve app performance](../profiling/profile-with-copilot-agent.md).
 ::: moniker-end
 
 - **Set different types of breakpoints**. You can create a temporary breakpoint in the current line of code and start the debugger simultaneously. When you hit that line of code, the debugger enters break mode. For more information, see [Use the right type of breakpoint](../debugger/using-breakpoints.md).
