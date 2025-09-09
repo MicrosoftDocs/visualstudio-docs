@@ -20,6 +20,8 @@
     href: quickstart-debug-aspnet.md
 - name: Tutorials
   items:
+  - name: Debug with Copilot
+    href: debug-with-copilot.md
   - name: Learn to debug C#
     href: ../get-started/csharp/tutorial-debugger.md?toc=%2fvisualstudio%2fdebugger%2ftoc.json
   - name: Learn to debug C++
