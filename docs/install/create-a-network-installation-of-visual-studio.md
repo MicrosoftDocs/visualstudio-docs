@@ -9,7 +9,6 @@ helpviewer_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
-
 ms.subservice: installation
 ---
 # Create and maintain a network installation of Visual Studio
@@ -58,7 +57,7 @@ Other supported bootstrappers include [vs_teamexplorer.exe](https://aka.ms/vs/16
 
 ::: moniker-end
 
-::: moniker range="=vs-2022"
+::: moniker range="vs-2022"
 
 The following bootstrappers always install the latest most secure version of Visual Studio 2022 on the Current channel, no matter when you run them. If you want to create or update a layout to a specific version or a specific channel of Visual Studio 2022, download the appropriate bootstrapper. Both the evergreen and fixed-version bootstrappers for each servicing release and channel are available on the [Visual Studio 2022 Release History](/visualstudio/releases/2022/release-history#release-dates-and-build-numbers) page. Download the one you want, and copy it into the directory that you want to use as the source location for the layout. 
 
