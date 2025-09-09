@@ -12,6 +12,7 @@ author: ankitvarmait
 ms.author: anva
 manager: tinali
 ms.subservice: extensibility-integration
+monikerRange: "vs-2022"
 ---
 
 # Visual Studio SDK analyzer error VsixCompatibility1001
