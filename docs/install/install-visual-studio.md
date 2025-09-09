@@ -224,7 +224,7 @@ When you install Visual Studio 2026 or later, the installer provides options to 
 
 - **Import my configuration from a .vsconfig file**  
   Use a file that you or your team exported. Importing a `.vsconfig` file helps standardize development environments across multiple machines.
-  Learn more: [Importing and exporting installation configurations](https://learn.microsoft.com/en-us/visualstudio/install/import-export-installation-configurations?view=vs-2022)
+  Learn more: [Importing and exporting installation configurations](import-export-installation-configurations.md)
 
 #### Extensions, Settings, and Out-of-Support Components
 
