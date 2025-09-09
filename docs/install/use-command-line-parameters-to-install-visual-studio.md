@@ -160,6 +160,7 @@ All layout management operations, such as creating or updating a layout, are run
 | `--path install=<path>`        | **Optional**: Equivalent to `–-installPath`. Specifically, `--installPath "C:\VS"` and `--path install="C:\VS"` are equivalent. Only one of these commands can be used at a time.     |
 
 ## ModifySettings command and command-line parameters
+
 You can modify the update settings and programmatically configure the source location of updates for a given instance of Visual Studio by using either the installer or the bootstrapper on the client machine, and passing in the modifySettings command and the desired update channel.  
 
 | **Command** | **Description**                                                                                                         |
@@ -189,6 +190,7 @@ Syntax examples:
 ::: moniker range=">=vs-2022"
 
 ## Rollback command and command-line parameters
+
 Starting in Visual Studio 2022, you can [roll back an update](/troubleshoot/developer/visualstudio/installation/troubleshoot-installation-issues?toc=%2Fvisualstudio%2Ftoc.json#7-roll-back-to-a-previous-install-for-visual-studio-2022-only) programmatically by using the installer on the client machine and passing in the rollback command alongside the installation path instance. 
 
 | **Command** | **Description**                                                                                                         |
