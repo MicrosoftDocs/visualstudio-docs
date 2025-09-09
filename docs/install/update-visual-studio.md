@@ -277,27 +277,27 @@ Here's how to update Visual&nbsp;Studio&nbsp using these various methods.
 
    For example, if you previously installed Visual Studio Community 2022 and there's an update for it, then an **Update available** message appears in the Visual Studio Installer.
 
-     ![Screenshot showing the Update button and message in the Visual Studio Installer when a new update is available.](media/vs-2022/vs-installer-update-visual-studio-community.png "Select the edition of Visual Studio 2022 that you want to update")
+<!--     ![Screenshot showing the Update button and message in the Visual Studio Installer when a new update is available.](media/vs-2022/vs-installer-update-visual-studio-community.png "Select the edition of Visual Studio 2022 that you want to update")-->
 
 1. Choose **Update** to install the update.
 
-    ![Screenshot showing the Update button that you can select to install the new update.](media/vs-2022/vs-installer-choose-update-visual-studio-community.png "Select the Update button to install the update")
+<!--    ![Screenshot showing the Update button that you can select to install the new update.](media/vs-2022/vs-installer-choose-update-visual-studio-community.png "Select the Update button to install the update") -->
 
 1. After the update is complete, the Visual Studio Installer might prompt you to restart your computer. If so, do so, and then start Visual Studio as you typically would.
 
     If you aren't asked to restart your computer, choose **Launch** to start Visual Studio from the Visual Studio Installer.
 
-    ![Screenshot showing the Launch button that you can select to start Visual Studio.](media/vs-2022/vs-installer-choose-launch-visual-studio-community.png "Select the Launch button to start Visual Studio")
+<!--    ![Screenshot showing the Launch button that you can select to start Visual Studio.](media/vs-2022/vs-installer-choose-launch-visual-studio-community.png "Select the Launch button to start Visual Studio")-->
 
 ## Use the message box in the IDE
 
 1. When you open Visual Studio, the IDE checks to see if an update is available.  In certain situations, a **Visual Studio update** message will briefly appear. If you want to update now, then choose **View details**.  If you want to defer the update until when you close Visual Studio, choose **Update on Close**.
 
-    ![Screenshot showing an update message for Visual Studio 2022 in the lower-right corner of the Visual Studio IDE.](media/vs-2022/update-visual-studio-ide-message.png "The 'Visual Studio 2022 update' message in the IDE")
+<!--    ![Screenshot showing an update message for Visual Studio 2022 in the lower-right corner of the Visual Studio IDE.](media/vs-2022/update-visual-studio-ide-message.png "The 'Visual Studio 2022 update' message in the IDE")-->
 
 1. If you chose **View details**, then in the subsequent **Update available** dialog box, choose **Update** to update now. 
 
-     ![Screenshot showing the Update button in the 'Update available' dialog box in Visual Studio 2022.](media/vs-2022/update-ready-install-visual-studio-community-from-ide.png "Choose the Update button in the 'Update available' dialog box")
+<!--     ![Screenshot showing the Update button in the 'Update available' dialog box in Visual Studio 2022.](media/vs-2022/update-ready-install-visual-studio-community-from-ide.png "Choose the Update button in the 'Update available' dialog box")-->
 
 ## Use the Notifications hub in the IDE
 
@@ -307,7 +307,7 @@ Here's how to update Visual&nbsp;Studio&nbsp using these various methods.
 
 1. In the **Notifications hub**, choose the update that you want to install. If you want to update now, then choose **View details**. If you want to defer the update until when you close Visual Studio, choose **Update on Close**.
 
-     ![Screenshot showing the Notifications hub in the Visual Studio IDE.](media/vs-2022/notification-hub-update.png "The Notifications hub in Visual Studio 2022")
+<!--     ![Screenshot showing the Notifications hub in the Visual Studio IDE.](media/vs-2022/notification-hub-update.png "The Notifications hub in Visual Studio 2022")-->
 
 1. If you chose **View details**, then in the subsequent **Update available** dialog box, choose **Update**.
 
@@ -346,15 +346,15 @@ There are two ways to bring up the Update Settings dialog, which allows you to m
 
 1. Open the Visual Studio Installer, select the instance you want to configure, choose the **More button** and then choose the **Update settings** menu option. Refer to previous instructions for how to find the Visual Studio Installer.
 
-  ![Screenshot showing the Updates settings in the Installer.](media/vs-2022/installer-update-settings-menu-option.png)
+<!--  ![Screenshot showing the Updates settings in the Installer.](media/vs-2022/installer-update-settings-menu-option.png)-->
 
 2. An alternative way to invoke the Update Settings dialog is to open the Visual Studio IDE, bring up the Update available dialog (either **View details** on an update notification or **Check for updates** on the Help menu) and click on the Change update settings link.   
 
-  ![Screenshot showing the Updates settings in the Update available dialog in the IDE.](media/vs-2022/invoke-update-settings-in-the-ide.png)
+<!-->  ![Screenshot showing the Updates settings in the Update available dialog in the IDE.](media/vs-2022/invoke-update-settings-in-the-ide.png)-->
     
 The **Update Settings** dialog will look something like this. In this example, the Visual Studio instance is using the LTSC 17.8 channel.
 
-   ![Screenshot showing the Updates settings dialog in the Visual Studio 2022 IDE.](media/vs-2022/update-setting-dialog-one.png)
+   <!--![Screenshot showing the Updates settings dialog in the Visual Studio 2022 IDE.](media/vs-2022/update-setting-dialog-one.png)-->
 
 By choosing the correct value in the **Update channel** dropdown, you can control the source location of future updates for this instance of Visual Studio. Additional things to keep in mind are:
  * The Insiders and Stable channels are available for all editions of Visual Studio, and the LTSC channels are only available for Professional and Enterprise customers. 
