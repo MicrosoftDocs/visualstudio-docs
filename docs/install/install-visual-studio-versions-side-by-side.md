@@ -74,6 +74,8 @@ You can manually use another bootstrapper to install a new instance of Visual St
 
 1. You use the installer's **Available** tab when you already have another version of Visual Studio installed. First, on the Visual Studio **Tools** menu, select **Get Tools and Features** to start the Visual Studio Installer. After the installer updates, select the **Available** tab and install one of the listed products.
 
+   :::image type="content" source="media/available-tab.png" alt-text="Screenshot showing the Visual Studio Installer Available tab.":::
+
 ::: moniker-end
 
 ::: moniker range="visualstudio"
@@ -91,9 +93,6 @@ You can manually use another bootstrapper to install a new instance of Visual St
 1. You use the installer's **Available** tab when you already have another version of Visual Studio installed. First, on the Visual Studio **Tools** menu, select **Get Tools and Features** to start the Visual Studio Installer. After the installer updates, select the **Available** tab and install one of the listed products.
 
 ::: moniker-end
-
-
-   :::image type="content" source="media/available-tab.png" alt-text="Screenshot showing the Visual Studio Installer Available tab.":::
 
 Next, follow the steps to select the components you need for your installation. For more information, see [Install Visual Studio](install-visual-studio.md#step-4---choose-workloads).
 
