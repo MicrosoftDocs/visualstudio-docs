@@ -71,19 +71,6 @@ The following bootstrappers always install the latest most secure version of Vis
 
 ::: moniker-end
 
-::: moniker range="visualstudio"
-
-The following bootstrappers always install the latest most secure version of Visual Studio 2022 on the Current channel, no matter when you run them. If you want to create or update a layout to a specific version or a specific channel of Visual Studio 2026, download the appropriate bootstrapper. Both the evergreen and fixed-version bootstrappers for each servicing release and channel are available on the [Visual Studio Release History](/visualstudio/releases/vs18/release-history) page. Download the one you want, and copy it into the directory that you want to use as the source location for the layout. 
-
-| Edition                         | Bootstrapper                                                            |
-|---------------------------------|-------------------------------------------------------------------------|
-| Visual Studio 2026 Enterprise   | [vs_enterprise.exe](https://aka.ms/vs/18/release/vs_enterprise.exe)     |
-| Visual Studio 2026 Professional | [vs_professional.exe](https://aka.ms/vs/18/release/vs_professional.exe) |
-| Visual Studio 2026 Community    | [vs_community.exe](https://aka.ms/vs/18/release/vs_community.exe)    |
-| Visual Studio 2026 Build Tools  | [vs_buildtools.exe](https://aka.ms/vs/18/release/vs_buildtools.exe)     |
-
-::: moniker-end
-
 ::: moniker range="vs-2019"
 
 >[!TIP]
