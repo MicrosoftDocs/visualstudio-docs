@@ -350,7 +350,7 @@ There are two ways to bring up the Update Settings dialog, which allows you to m
 
 2. An alternative way to invoke the Update Settings dialog is to open the Visual Studio IDE, bring up the Update available dialog (either **View details** on an update notification or **Check for updates** on the Help menu) and click on the Change update settings link.   
 
-<!-->  ![Screenshot showing the Updates settings in the Update available dialog in the IDE.](media/vs-2022/invoke-update-settings-in-the-ide.png)-->
+<!--  ![Screenshot showing the Updates settings in the Update available dialog in the IDE.](media/vs-2022/invoke-update-settings-in-the-ide.png)-->
     
 The **Update Settings** dialog will look something like this. In this example, the Visual Studio instance is using the LTSC 17.8 channel.
 
