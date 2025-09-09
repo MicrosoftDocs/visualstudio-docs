@@ -27,6 +27,8 @@ landingContent:
             url: beginners-guide-to-performance-profiling.md
           - text: Get started measuring memory usage
             url: memory-usage.md
+          - text: Try AI-assisted profiling
+            url: profile-with-copilot-agent.md
       - linkListType: how-to-guide
         links:
           - text: Case study - Beginner's guide to optimizing code
