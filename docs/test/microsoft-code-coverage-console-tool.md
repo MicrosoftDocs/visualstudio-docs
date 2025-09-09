@@ -20,9 +20,9 @@ This tool is an extension to the [dotnet-coverage](/dotnet/core/additional-tools
 
 ::: moniker range=">=visualstudio"
 >[!NOTE]
-> Code coverage is available in all versions of Visual Studio. In Visual Studio 2022 and previous versions, the code coverage feature was limited to Visual Studio Enterprise edition.
+> Code coverage is available in Visual Studio Enterprise, Community, and Professional editions. In Visual Studio 2022 and previous versions, the code coverage feature was limited to Visual Studio Enterprise edition.
 ::: moniker-end
-::: moniker range="vs-2022"
+::: moniker range="<=vs-2022"
 >[!NOTE]
 > Code coverage is available only with Visual Studio Enterprise. For .NET code coverage, you can alternatively use the command-line tool, [dotnet-coverage](/dotnet/core/additional-tools/dotnet-coverage).
 ::: moniker-end

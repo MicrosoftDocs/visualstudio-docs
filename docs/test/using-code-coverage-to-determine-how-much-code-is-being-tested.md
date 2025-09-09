@@ -25,10 +25,12 @@ Code coverage option is available under the Test menu when you run test methods 
 ## Requirements
 
 ::: moniker range=">=visualstudio"
-The code coverage feature is available in all versions of Visual Studio. In Visual Studio 2022 and previous versions, the code coverage feature was limited to Visual Studio Enterprise edition.
+>[!NOTE]
+> Code coverage is available in Visual Studio Enterprise, Community, and Professional editions. In Visual Studio 2022 and previous versions, the code coverage feature was limited to Visual Studio Enterprise edition.
 ::: moniker-end
 ::: moniker range="<=vs-2022"
-The code coverage feature is available only in Visual Studio Enterprise edition.
+>[!NOTE]
+> Code coverage is available only with Visual Studio Enterprise.
 ::: moniker-end
 
 >[!NOTE]

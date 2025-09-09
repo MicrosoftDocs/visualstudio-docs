@@ -18,7 +18,7 @@ To include assemblies that aren't part of your solution, obtain the *.pdb* files
 
 ::: moniker range=">=visualstudio"
 >[!NOTE]
-> Code coverage is available in all versions of Visual Studio. In Visual Studio 2022 and previous versions, the code coverage feature was limited to Visual Studio Enterprise edition.
+> Code coverage is available in Visual Studio Enterprise, Community, and Professional editions. In Visual Studio 2022 and previous versions, the code coverage feature was limited to Visual Studio Enterprise edition.
 ::: moniker-end
 ::: moniker range="<=vs-2022"
 >[!NOTE]
@@ -114,7 +114,7 @@ The following table shows the various ways that assemblies and members can be ma
 ::: moniker range=">=vs-2022"
 ### Code coverage formats
 
-By default code coverage is collected and saved in a `.coverage` file. You can also collect coverage using other formats including XML and Cobertura. Different formats may be useful across different editors and pipelines. You can enable this in runsettings by adding `<Format>Cobertura</Format>` or `<Format>Xml</Format>` in the [DataCollector configuration section in your runsettings file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md#codecoverage-data-collector). This format can be viewed in the code coverage results window in Visual Studio Enterprise.
+By default code coverage is collected and saved in a `.coverage` file. You can also collect coverage using other formats including XML and Cobertura. Different formats may be useful across different editors and pipelines. You can enable this in runsettings by adding `<Format>Cobertura</Format>` or `<Format>Xml</Format>` in the [DataCollector configuration section in your runsettings file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md#codecoverage-data-collector). This format can be viewed in the code coverage results window in Visual Studio.
 
 You can also specify different formats from the command-line by either specifying it in the runsettings file or specifying it in a parameter. For example, the dotnet command-line use `dotnet test --collect:"Code Coverage;Format=Cobertura"`. For vstest use `vstest.console.exe /collect:"Code Coverage;Format=Cobertura"`. The collect parameter will override the format specified in runsettings.
 ::: moniker-end
