@@ -30,16 +30,16 @@ Choose from an expanded set of models in the model picker:
 - Gemini 2.0 Flash
 - Gemini 2.5 Pro
 
-Model selection improvements:
+Model selection improvements include:
 
 - **Persistent selection**: The model that you choose remains selected across chat threads.
-- **Enable models directly**: If a model is available in your plan but not yet enabled, you see a prompt in the model picker to activate it.
+- **Ability to enable models directly**: If a model is available in your plan but not yet enabled, you see a prompt in the model picker to activate it.
 
 Model availability depends on your Copilot subscription and the current status of each model. For Copilot Enterprise and Business, administrators must enable the **Preview** policy in Copilot settings before models are available in Visual Studio.
 
-## BYOM
+## Bring your own model
 
-You can add your own language model to Copilot Chat by providing API keys from providers such as Anthropic, Google, or OpenAI. This concept is called bring your own model (BYOM). It allows you to select and configure custom AI models to match your workflow or to evaluate new model capabilities.
+You can add your own language model to Copilot Chat by providing API keys from providers such as Anthropic, Google, or OpenAI. This concept is called *bring your own model* (BYOM). It allows you to select and configure custom AI models to match your workflow or to evaluate new model capabilities.
 
 ### Benefits
 
@@ -53,26 +53,32 @@ Using your own model enables you to:
 ### Steps for adding an API key
 
 1. In the chat view, go to the **Model picker** dropdown list.
+
 1. Select your provider. These providers are currently supported: **OpenAI**, **Anthropic**, and **Google**.
-1. Enter your **API key**.
+
+1. Enter your **API key** value.
+
 1. Select one of these items:
+
     - Any standard model listed
-    - Any supported model offered by your provider, even if it doesn't appear in the default list
+    - Any supported model that your provider offers, even if it doesn't appear in the default list
+
 1. Confirm that the custom model appears in the model picker.
-1. Start prompting in chat. Chat uses the custom model.
+
+1. Start prompting in a chat. Copilot Chat uses the custom model.
 
 ### Limitations and considerations
 
-- Custom model support is limited to the Chat experience in Visual Studio and does not affect code completions or other AI-assisted features, such as commit message generation.
+- Support for custom models is limited to the Copilot Chat experience in Visual Studio. It doesn't affect code completions or other AI-assisted features, such as the generation of commit messages.
 - Model capabilities depend on the provider. Some models might not support features such as tool use, vision inputs, or advanced reasoning.
 - Services like embeddings, intent detection, and repository indexing might continue to use the Copilot API.
 - When you use a custom model, output is returned directly from the provider and might bypass the filtering for responsible AI in Copilot.
-- Custom model support is *not* available for Copilot Business or Enterprise users.
+- Support for custom models is *not* available for Copilot Business or Enterprise users.
 
 ## Related content
 
-- [Choosing the right AI model for your task](https://docs.github.com/en/copilot/using-github-copilot/ai-models/choosing-the-right-ai-model-for-your-task)
-- [About premium requests](https://docs.github.com/copilot/managing-copilot/monitoring-usage-and-entitlements/about-premium-requests#premium-requests)
-- [About Copilot billing](https://docs.github.com/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/billing-and-payments/about-billing-for-individual-copilot-plans)
+- [AI model comparison](https://docs.github.com/en/copilot/using-github-copilot/ai-models/choosing-the-right-ai-model-for-your-task)
+- [Requests in GitHub Copilot](https://docs.github.com/copilot/managing-copilot/monitoring-usage-and-entitlements/about-premium-requests#premium-requests)
+- [GitHub Copilot billing](https://docs.github.com/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/billing-and-payments/about-billing-for-individual-copilot-plans)
 - [GitHub support](https://support.github.com/)
 - [Manage Copilot usage and models](copilot-usage-and-models.md)
