@@ -32,7 +32,7 @@ You can also use GitHub Copilot to convert comments to code, create unit tests, 
 
 ## Prerequisites
 
-- Install Visual Studio 2022 [version 17.8](/visualstudio/releases/2022/release-history) or later.
+- Install [Visual Studio 2022 version 17.8](/visualstudio/releases/2022/release-history) or later.
 - [Sign in to Visual Studio by using a GitHub account](work-with-github-accounts.md) with [Copilot access](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot).
   
   You can use [GitHub Copilot for free](copilot-free-plan.md). Sign up and use AI to code faster and more efficiently.
@@ -153,6 +153,6 @@ To see GitHub Copilot in action, check out the following video tutorial.
 
 To learn more about the GitHub Copilot extension for Visual Studio, consider exploring the following resources:
 
-- [Quickstart for GitHub Copilot](https://docs.github.com/copilot/getting-started-with-github-copilot?tool=visualstudio)
+- [GitHub Copilot quickstart](https://docs.github.com/copilot/getting-started-with-github-copilot?tool=visualstudio)
 - [GitHub Copilot feature page](https://github.com/features/copilot)
 - [GitHub Trust Center](https://resources.github.com/copilot-trust-center/)

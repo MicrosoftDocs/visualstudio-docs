@@ -53,7 +53,7 @@ The following walkthrough requires version 17.14.9 or later.
 
 4. In Visual Studio, select the **Ask** arrow in the GitHub Copilot Chat window, and then select **Agent**.
 
-    :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-dropdown.png" alt-text="Screenshot that shows Copilot agent mode selector." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-dropdown.png":::
+    :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-dropdown.png" alt-text="Screenshot that shows the Copilot agent mode selector." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-dropdown.png":::
 
 5. Select the tools that you want to use; for example, **List issues**.
 
@@ -76,7 +76,7 @@ Visual Studio supports the following MCP capabilities:
 
 ## Finding MCP servers
 
-MCP's [official server repository](https://github.com/modelcontextprotocol/servers) is a great starting point for reference, official, and community-contributed servers that showcase the versatility of MCP. You can explore servers for various functionalities, such as file system operations, database interactions, and web services.
+The [official MCP server repository](https://github.com/modelcontextprotocol/servers) is a great starting point for reference, official, and community-contributed servers that showcase the versatility of MCP. You can explore servers for various functionalities, such as file system operations, database interactions, and web services.
 
 MCP is a relatively new standard, and the ecosystem is rapidly evolving. As more developers adopt MCP, you can expect to see an increasing number of servers and tools available for integration with your projects.
 
@@ -149,7 +149,7 @@ To add an MCP server in Visual Studio:
 
 1. Specify the server name and connection details, such as the URL for HTTP servers or the command and arguments for stdio servers.
 
-  :::image type="content" source="media/vs-2022/mcp-servers/configure-server-visual-studio.png" alt-text="Screenshot that shows adding an MCP server from chat view." lightbox="media/vs-2022/mcp-servers/configure-server-visual-studio.png":::
+  :::image type="content" source="media/vs-2022/mcp-servers/configure-server-visual-studio.png" alt-text="Screenshot that shows adding an MCP server from the chat view." lightbox="media/vs-2022/mcp-servers/configure-server-visual-studio.png":::
 
 ### Create a file to manage configuration of MCP servers
 
@@ -162,7 +162,7 @@ To add an MCP server, locate the server's JSON configuration online. For example
 Visual Studio also checks for MCP configurations that other development environments set up. MCP server configurations are read from the following directories, in the following order:
 
 1. `%USERPROFILE%\.mcp.json` </br>
-    Serves as a global MCP server configuration for a specific user. Adding an MCP server here would make it load for all Visual Studio solutions.
+    Serves as a global MCP server configuration for a specific user. Adding an MCP server here makes it load for all Visual Studio solutions.
 2. `<SOLUTIONDIR>\.vs\mcp.json` </br>
     Specific to Visual Studio and loads the specified MCP servers only for a specific user, for the specified solution.
 3. `<SOLUTIONDIR>\.mcp.json` </br>
@@ -197,7 +197,7 @@ As soon as a server is discovered or added:
 - Visual Studio initializes the server by performing a handshake and querying the tool list.
 - Visual Studio subscribes to the MCP event `notifications/tools/list_changed`.
 - When that event fires, Visual Studio resets any prior acceptances or permissions on tools (to prevent *rug-pull* attacks), re-fetches the tool list, and updates the count/UI live.
-- When the server is successfully enabled, tools are made available to the agent. The tools are disabled by default and must be manually enabled.
+- When the server is successfully enabled, tools become available to the agent. The tools are disabled by default and must be manually enabled.
 - If a server is removed, Visual Studio immediately stops its process and withdraws all its tools from the UI.
 - If you edit a server definition, Visual Studio terminates and restarts it, and then re-queries.
 
@@ -233,6 +233,6 @@ For more information, see [Managing policies and features for GitHub Copilot in 
 
 ## Related content
 
-- [Use Copilot agent mode](copilot-agent-mode.md)
-- [What is the GitHub Copilot Chat experience for Visual Studio?](visual-studio-github-copilot-chat.md)
+- [GitHub Copilot agent mode](copilot-agent-mode.md)
+- [GitHub Copilot Chat experience for Visual Studio](visual-studio-github-copilot-chat.md)
 - [GitHub Copilot Free](https://aka.ms/ghdocscopilotfreepage#github-copilot-free)

@@ -1,6 +1,6 @@
 ---
 title: Copilot Next Edit Suggestions
-description: Use Copilot Next Edit Suggestions (NES) to predict where you'll want to make your next edit and what that edit should be, based on your recent code edits.
+description: Use GitHub Copilot Next Edit Suggestions (NES) to predict where you'll want to make your next edit and what that edit should be, based on your recent code edits.
 ms.date: 8/20/2025
 ms.update-cycle: 180-days
 ms.topic: get-started
@@ -11,84 +11,84 @@ ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
 monikerRange: '>= vs-2022'
 ---
-# Copilot Next Edit Suggestions
+# Get started with GitHub Copilot Next Edit Suggestions
 
-Next edit suggestions use recent edits you make to anticipate the next edit you might want to make, and the location of that edit. With this new ability, GitHub Copilot suggests revisions to your code, comments, tests, and more.
+The Next Edit Suggestions (NES) feature of GitHub Copilot uses your recent edits to anticipate the next edit that you might want to make, and the location of that edit. With this new ability, Copilot suggests revisions to your code, comments, tests, and more.
 
-Inline completions are great at autocompleting a section of code. Copilot NES helps you stay in the logical edit flow, suggesting changes relevant to your current work, and you can simply `Tab` to quickly navigate and accept Copilot's suggestions. Suggestions may span a single symbol, an entire line, or multiple lines, depending on the scope of the potential change.
+Inline completions are great at autocompleting a section of code. NES helps you stay in the logical edit flow by suggesting changes that are relevant to your current work. You can use the Tab key to quickly move through and accept suggestions. Suggestions might span a single symbol, an entire line, or multiple lines, depending on the scope of the potential change.
 
 ## Prerequisites
 
-To get started, you need:
-+ Visual Studio 2022 [version 17.14](/visualstudio/releases/2022/release-history) or later
-+ [Sign in to Visual Studio using a GitHub account](work-with-github-accounts.md) with [Copilot access](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot) <br/>
-  <sup>**</sup> You can use [GitHub Copilot for Free](copilot-free-plan.md). Sign up and leverage AI to code faster and more efficiently.
+- Install [Visual Studio 2022 version 17.14](/visualstudio/releases/2022/release-history) or later.
+- [Sign in to Visual Studio by using a GitHub account](work-with-github-accounts.md) with [Copilot access](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot).
+  
+  You can use [GitHub Copilot for free](copilot-free-plan.md). Sign up and use AI to code faster and more efficiently.
 
-## Get started with NES
+## Enable NES
 
-To get started with Copilot NES, enable the feature in **Tools > Options > GitHub > Copilot > Copilot Completions > Enable Next Edit Suggestions**.
+To get started with Copilot NES, enable the feature in **Tools** > **Options** > **GitHub** > **Copilot** > **Copilot Completions** > **Enable Next Edit Suggestions**.
 
-## Use next edit suggestions
+## Start using NES
 
-To start getting suggestions from NES, start coding. When Copilot suggests code edits, you can navigate to it with the `Tab` key, and then accept it with the `Tab` key again. You save time by quickly jumping to the next relevant edit, without needing to manually search through files or references yourself. An arrow in the gutter indicates whether an edit suggestion is available.
+To start getting suggestions from NES, start coding. When the feature suggests a code edit, you can move to it by using the Tab key, and then accept it by using the Tab key again. You save time by quickly jumping to the next relevant edit, without needing to manually search through files or references yourself. An arrow in the gutter indicates whether an edit suggestion is available.
 
-:::image type="content" source="media/vs-2022/next-edit-suggestions/next-edit-suggestions-arrows.png" alt-text="Screenshot that shows arrows in gutter indicating next edit suggestions.":::
+:::image type="content" source="media/vs-2022/next-edit-suggestions/next-edit-suggestions-arrows.png" alt-text="Screenshot that shows arrows in the gutter to indicate edit suggestions.":::
 
-An arrow in the gutter indicates if there is an edit suggestion available. Click the arrow to explore the edit suggestion menu, which includes keyboard shortcuts.
+Select the arrow to explore the edit suggestion menu, which includes keyboard shortcuts.
 
-:::image type="content" source="media/vs-2022/next-edit-suggestions/next-edits-menu.png" alt-text="Screenshot that shows the next edits menu." lightbox="media/vs-2022/next-edit-suggestions/next-edits-menu.png":::
+:::image type="content" source="media/vs-2022/next-edit-suggestions/next-edits-menu.png" alt-text="Screenshot that shows the menu for edit suggestions." lightbox="media/vs-2022/next-edit-suggestions/next-edits-menu.png":::
 
-If an edit suggestion is below the current editor view, the arrow points down instead of right. Scroll past an edit suggestion and the arrow hints the location of the next edit suggestion, pointing up or down based on where you're in the file.
+If an edit suggestion is below the current editor view, the arrow points down instead of right. Scroll past an edit suggestion, and the arrow hints the location of the next edit suggestion by pointing up or down, based on where you are in the file.
 
-:::image type="content" source="media/vs-2022/next-edit-suggestions/arrow-upward.png" alt-text="Screenshot that shows arrow pointing upward to indicate next edit suggestion location in file.":::
+:::image type="content" source="media/vs-2022/next-edit-suggestions/arrow-upward.png" alt-text="Screenshot that shows an arrow pointing upward to indicate the location of the next edit suggestion in a file.":::
 
-## Use cases for Next Edit Suggestions
+## Understand use cases
 
-NES is helpful in various scenarios, not only making obvious repetitive changes, but also logical changes. Here are some examples: 
+NES is helpful in various scenarios by suggesting not only obvious repetitive changes, but also logical changes. Here are some examples.
 
 ### Catch and correct mistakes
 
-- NES helps with mistakes like typos, for example, if you wrote `bol` instead of `bool`.
+NES helps with mistakes like typos; for example, if you wrote `bol` instead of `bool`.
 
-  :::image type="content" source="media/vs-2022/next-edit-suggestions/fix-typo.png" alt-text="Screenshot that shows NES suggesting typo correction.":::
+:::image type="content" source="media/vs-2022/next-edit-suggestions/fix-typo.png" alt-text="Screenshot that shows NES suggesting a typo correction.":::
 
-- Copilot can also help with more challenging mistakes in logic, like an inverted ternary expression or a comparison that should use `||` instead of `&&`.
+The feature can also help with more challenging mistakes in logic, like an inverted ternary expression or a comparison that should use `||` instead of `&&`.
 
-  :::image type="content" source="media/vs-2022/next-edit-suggestions/ternary-expression.png" alt-text="Screenshot that shows NES suggesting the correction for an expression.":::
+:::image type="content" source="media/vs-2022/next-edit-suggestions/ternary-expression.png" alt-text="Screenshot that shows NES suggesting a correction for an expression.":::
 
-### Change in intent
+### Match a change in intent
 
-NES suggests changes to the rest of your code that match a change in intent. For example, when refactoring a `Point` class to `Point3D`.
+NES suggests changes to the rest of your code that match a change in intent. The following example shows suggestions after the refactoring of a `Point` class to `Point3D`.
 
-:::image type="content" source="media/vs-2022/next-edit-suggestions/change-in-intent-point-example.gif" alt-text="Animated screenshot that shows NES suggestions for change in intent updates." lightbox="media/vs-2022/next-edit-suggestions/change-in-intent-point-example.gif":::
+:::image type="content" source="media/vs-2022/next-edit-suggestions/change-in-intent-point-example.gif" alt-text="Animated screenshot that shows NES suggestions for changes in intent updates." lightbox="media/vs-2022/next-edit-suggestions/change-in-intent-point-example.gif":::
 
 ### Update code syntax
 
-NES helps with repetitive changes, such as updating code syntax to modern C++ using the Standard Library (STL). For example, when updating all `printf()` to `std::cout`, also update other syntax such as `fgets()`.
+NES helps with repetitive changes, such as updating code syntax to modern C++ by using the Standard Library (STL). For example, when you update all `printf()` instances to `std::cout`, you also need to update syntax such as `fgets()`.
 
-:::image type="content" source="media/vs-2022/next-edit-suggestions/update-code-syntax.gif" alt-text="Animated screenshot that shows NES suggesting code syntax updates" lightbox="media/vs-2022/next-edit-suggestions/update-code-syntax.gif":::
+:::image type="content" source="media/vs-2022/next-edit-suggestions/update-code-syntax.gif" alt-text="Animated screenshot that shows NES suggesting code syntax updates." lightbox="media/vs-2022/next-edit-suggestions/update-code-syntax.gif":::
 
 ### Refactor
 
-- Rename a variable once in a file, and NES will suggest updating it throughout the file. If you introduce a new name or naming pattern, Copilot suggests updates to subsequent code to match.
+If you rename a variable once in a file, NES suggests updating it throughout the file. If you introduce a new name or naming pattern, the feature suggests updates to subsequent code to match.
 
-  :::image type="content" source="media/vs-2022/next-edit-suggestions/rename-variable-edits.png" alt-text="Screenshot that shows NES suggesting edits when a variable is renamed.":::
+:::image type="content" source="media/vs-2022/next-edit-suggestions/rename-variable-edits.png" alt-text="Screenshot that shows NES suggesting edits when a variable is renamed.":::
   
--  Match code style. After you paste some code, NES suggests adjustments to match it with the style of the surrounding code.
+After you paste some code, NES suggests adjustments to match it with the style of the surrounding code.
 
-## Hide Next Edit Suggestions
+## Hide NES
 
-With the August release of Visual Studio 17.14, you can now hide Next Edit Suggestions (NES) in Visual Studio and review them only when you choose. To enable this feature, select **Tools** > **Options** > **GitHub** > **Copilot** > **Copilot Completions** > **Collapse Next Edit Suggestions**.
+With the release of Visual Studio 17.14, you can now hide suggestions from NES in Visual Studio and review them only when you choose. To enable this feature, select **Tools** > **Options** > **GitHub** > **Copilot** > **Copilot Completions** > **Collapse Next Edit Suggestions**.
 
-NES will still be triggered by your edits, but when a suggestion is available, only the margin indicator appears in the gutter, pointing to the relevant line. The suggestion itself remains hidden until you choose to view it.
+Your edits still trigger NES, but when a suggestion is available, only the margin indicator appears in the gutter. This indicator points to the relevant line. The suggestion itself remains hidden until you choose to view it.
 
-:::image type="content" source="media/vs-2022/next-edit-suggestions/next-edit-suggestions-collapse.png" alt-text="Screenshot that shows NES being hidden and only gutter arrow is shown.":::
+:::image type="content" source="media/vs-2022/next-edit-suggestions/next-edit-suggestions-collapse.png" alt-text="Screenshot that shows a gutter arrow when NES is hidden.":::
 
-To view a hidden suggestion, click the margin indicator or press the `Tab` key. The suggestion will then be displayed. You can press `Tab` again to accept it or `Esc` to dismiss it. After accepting a suggestion, any related suggestions will automatically appear. Unrelated new suggestions will remain hidden until you choose to view them.
+To view a hidden suggestion, select the margin indicator or select the Tab key. The suggestion then appears. You can select the Tab key again to accept the suggestion or select the Esc key to dismiss it. After you accept a suggestion, any related suggestions appear automatically. Unrelated new suggestions remain hidden until you choose to view them.
 
-As in the following example, after changing *Point* to *Point3D*, an NES suggestion becomes available but is not shown immediately. The margin indicator and hint bar highlight a suggestion on line 4, which is displayed after clicking the indicator.
+In the following example, after a change from `Point` to `Point3D`, an NES suggestion becomes available but doesn't appear immediately. The margin indicator and hint bar highlight a suggestion on line 4, which appears after selection of the indicator.
 
-:::image type="content" source="media/vs-2022/next-edit-suggestions/next-edit-suggestions-collapse-mode.gif" alt-text="Animated screenshot showing the NES collapse mode flow.":::
+:::image type="content" source="media/vs-2022/next-edit-suggestions/next-edit-suggestions-collapse-mode.gif" alt-text="Animated screenshot that shows the flow of the NES collapse mode.":::
 
 ## Related content
 
