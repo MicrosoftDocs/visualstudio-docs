@@ -31,7 +31,7 @@ Follow these steps to get started:
 
     :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-dropdown.png" alt-text="Screenshot that shows the Copilot agent mode selector." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-dropdown.png":::
 
-1. Enter your prompt, and then select **Send** or select the Enter key to submit it. You can specify a high-level requirement, and you don't have to specify which files to work on.
+1. Enter your prompt, and then select **Send** or select the <kbd>Enter</kbd> key to submit it. You can specify a high-level requirement, and you don't have to specify which files to work on.
 
 1. Agent mode might invoke multiple tools to accomplish different tasks. Optionally, select the **Tools** icon to configure which additional tools the agent can use for responding to your request.
 
@@ -59,7 +59,7 @@ Follow these steps to get started:
 
    - Review the cumulative changes from the last time that changes were kept or undone.
 
-    :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-cumulative-edits.png" alt-text="Screenshot that shows accessing cumulative edit diffs with the Copilot agent." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-cumulative-edits.png":::
+     :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-cumulative-edits.png" alt-text="Screenshot that shows accessing cumulative edit diffs with the Copilot agent." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-cumulative-edits.png":::
 
 1. Continue to iterate on the code changes to refine the edits or implement more features.
 
@@ -112,13 +112,13 @@ Currently, the Visual Studio Copilot agent doesn't support stepwise undo or redo
 
 To interrupt an ongoing request, you can cancel it. Canceling a request stops all running tools and terminal commands.
 
-To stop a build, select **Build** on the top toolbar, and then select **Cancel**. Or use the Ctrl+Break keyboard shortcut.
+To stop a build, select **Build** on the top toolbar, and then select **Cancel**. Or use the <kbd>Ctrl+Break</kbd> keyboard shortcut.
 
 ## Frequently asked questions
 
 ### What visibility does agent mode have into my files?
 
-Agent mode can only manipulate:
+Agent mode can manipulate only:
 
 - Local files that are part of the solution.
 - Local files that are in the open solution directory or its subdirectories.

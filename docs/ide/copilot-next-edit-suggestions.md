@@ -15,7 +15,7 @@ monikerRange: '>= vs-2022'
 
 The Next Edit Suggestions (NES) feature of GitHub Copilot uses your recent edits to anticipate the next edit that you might want to make, and the location of that edit. With this new ability, Copilot suggests revisions to your code, comments, tests, and more.
 
-Inline completions are great at autocompleting a section of code. NES helps you stay in the logical edit flow by suggesting changes that are relevant to your current work. You can use the Tab key to quickly move through and accept suggestions. Suggestions might span a single symbol, an entire line, or multiple lines, depending on the scope of the potential change.
+Inline completions are great at autocompleting a section of code. NES helps you stay in the logical edit flow by suggesting changes that are relevant to your current work. You can use the <kbd>Tab</kbd> key to quickly move through and accept suggestions. Suggestions might span a single symbol, an entire line, or multiple lines, depending on the scope of the potential change.
 
 ## Prerequisites
 
@@ -30,7 +30,7 @@ To get started with Copilot NES, enable the feature in **Tools** > **Options** >
 
 ## Start using NES
 
-To start getting suggestions from NES, start coding. When the feature suggests a code edit, you can move to it by using the Tab key, and then accept it by using the Tab key again. You save time by quickly jumping to the next relevant edit, without needing to manually search through files or references yourself. An arrow in the gutter indicates whether an edit suggestion is available.
+To start getting suggestions from NES, start coding. When the feature suggests a code edit, you can move to it by using the <kbd>Tab</kbd> key, and then accept it by using the <kbd>Tab</kbd> key again. You save time by quickly jumping to the next relevant edit, without needing to manually search through files or references yourself. An arrow in the gutter indicates whether an edit suggestion is available.
 
 :::image type="content" source="media/vs-2022/next-edit-suggestions/next-edit-suggestions-arrows.png" alt-text="Screenshot that shows arrows in the gutter to indicate edit suggestions.":::
 
@@ -84,7 +84,7 @@ Your edits still trigger NES, but when a suggestion is available, only the margi
 
 :::image type="content" source="media/vs-2022/next-edit-suggestions/next-edit-suggestions-collapse.png" alt-text="Screenshot that shows a gutter arrow when NES is hidden.":::
 
-To view a hidden suggestion, select the margin indicator or select the Tab key. The suggestion then appears. You can select the Tab key again to accept the suggestion or select the Esc key to dismiss it. After you accept a suggestion, any related suggestions appear automatically. Unrelated new suggestions remain hidden until you choose to view them.
+To view a hidden suggestion, select the margin indicator or select the <kbd>Tab</kbd> key. The suggestion then appears. You can select the <kbd>Tab</kbd> key again to accept the suggestion or select the <kbd>Esc</kbd> key to dismiss it. After you accept a suggestion, any related suggestions appear automatically. Unrelated new suggestions remain hidden until you choose to view them.
 
 In the following example, after a change from `Point` to `Point3D`, an NES suggestion becomes available but doesn't appear immediately. The margin indicator and hint bar highlight a suggestion on line 4, which appears after selection of the indicator.
 

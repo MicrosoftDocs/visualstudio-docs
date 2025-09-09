@@ -23,6 +23,8 @@ This article guides you through setting up MCP servers and using tools with agen
 
 ## How MCP and Visual Studio extend the GitHub Copilot agent
 
+MCP support in Visual Stuido works as follows:
+
 - MCP clients, such as Visual Studio, connect to MCP servers and request actions on behalf of the AI model.
 - MCP servers provide one or more tools that expose specific functionalities through a well-defined interface.
 - The protocol defines the message format for communication between clients and servers, including tool discovery, invocation, and response handling.
@@ -90,7 +92,7 @@ With the latest servicing release of version 17.14, Visual Studio supports direc
 
 </br>
 <details>
-<summary><strong title="To add a one-click install button for any MCP server in Visual Studio:">Add an Install button for MCP server</strong></summary>
+<summary><strong title="To add a one-click install button for any MCP server in Visual Studio:">Add an Install button for an MCP server</strong></summary>
 
 1. Write your MCP server configuration in JSON.
 
@@ -221,7 +223,7 @@ To manage authentication for an MCP server:
 
 1. In the `.mcp.json` file, select **Manage Authentication** for that server from CodeLens.
 
-1. Provide credentials for the necessary OAuth provider for that server in the browser pop-up.
+1. Provide credentials for the necessary OAuth provider for that server in the browser pop-up dialog.
 
 ## Frequently asked questions
 

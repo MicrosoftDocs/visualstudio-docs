@@ -30,7 +30,7 @@ Choose from an expanded set of models in the model picker:
 - Gemini 2.0 Flash
 - Gemini 2.5 Pro
 
-Model selection improvements include:
+Improvements to model selection include:
 
 - **Persistent selection**: The model that you choose remains selected across chat threads.
 - **Ability to enable models directly**: If a model is available in your plan but not yet enabled, you see a prompt in the model picker to activate it.

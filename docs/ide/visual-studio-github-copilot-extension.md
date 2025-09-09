@@ -24,7 +24,7 @@ For related information about GitHub Copilot Chat, see [What is the GitHub Copil
 
 ## How GitHub Copilot works
 
-GitHub Copilot works by using advanced machine learning models trained on a vast dataset of publicly available code from GitHub repositories. As you type code, AI analyzes the context and provides relevant suggestions in real time. You can also receive suggestions writing a natural language comment that describes what you want the code to do.
+GitHub Copilot works by using advanced machine-learning models trained on a vast dataset of publicly available code from GitHub repositories. As you type code, AI analyzes the context and provides relevant suggestions in real time. You can also receive suggestions by writing a comment in natural language that describes what you want the code to do.
 
 :::image type="content" source="media/vs-2022/github-copilot-extension-example.gif" alt-text="Animated screenshot that shows code completion capabilities of the GitHub Copilot extension.":::
 
@@ -43,15 +43,15 @@ GitHub Copilot supports several programming languages and frameworks, including 
 
 With Visual Studio 2022 version 17.10 or later, the [unified GitHub Copilot extension](visual-studio-github-copilot-install-and-states.md) is available as a recommended component in the Visual Studio Installer. It's installed by default with all workloads, unless you choose to exclude it during installation.
 
-## Using GitHub Copilot code completions and suggestions
+## Using GitHub Copilot for code completions and suggestions
 
-As you type code or comments in the editor, GitHub Copilot provides context-aware code completions and suggestions. GitHub Copilot provides suggestions for numerous languages, but it works especially well for Python, JavaScript, TypeScript, Ruby, Go, C# and C++. The following examples are in C#, but other languages work similarly.
+As you type code or comments in the editor, GitHub Copilot provides context-aware code completions and suggestions. GitHub Copilot provides suggestions for numerous languages, but it works especially well for Python, JavaScript, TypeScript, Ruby, Go, C#, and C++. The following examples are in C#, but other languages work similarly.
 
 1. Open Visual Studio and create a new C# project.
 
-1. Open a C# file (`Program.cs`) in the editor.
+1. Open a C# file (`Program.cs`) in the code editor.
 
-1. In the code editor, enter a comment or a method signature to see inline code suggestions from GitHub Copilot.
+1. In the editor, enter a comment or a method signature to see inline code suggestions from GitHub Copilot.
 
    ```csharp
        // method to add two numbers

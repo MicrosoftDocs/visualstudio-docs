@@ -18,12 +18,12 @@ GitHub Copilot Edits, a feature of GitHub Copilot Chat, is designed to help you 
 Copilot Edits combines the conversational flow of chat and an inline review experience. It offers the following benefits:
 
 - **Preview with clarity**: Know exactly what's being modified with a summary of the affected files and the proposed changes.
-- **Review with flow**: View code diffs inline, directly in your editor. Use the Tab key to accept or Alt+Delete to reject individual changes, or apply/dismiss all at once.
+- **Review with flow**: View code diffs inline, directly in your editor. Use the <kbd>Tab</kbd> key to accept or <kbd>Alt</kbd>+<kbd>Delete</kbd> to reject individual changes, or apply/dismiss all at once.
 - **Iterate with confidence**: Use checkpoints to revisit earlier iterations of a code file, or try an alternative approach anytime for new ideas.
 
 ## Prerequisites
 
-- Install [Visual Studio 2022 version 17.13](/visualstudio/releases/2022/release-history) or later, which offers Copilot Edits.
+- Install [Visual Studio 2022 version 17.13](/visualstudio/releases/2022/release-history) or later.
 - [Sign in to Visual Studio by using a GitHub account](work-with-github-accounts.md) with [Copilot access](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot).
 
   You can use [GitHub Copilot for free](copilot-free-plan.md). Sign up and use AI to code faster and more efficiently.
@@ -62,7 +62,7 @@ After Copilot Edits proposes a code iteration, you can preview these suggestions
 
 1. Select a file name. The file opens, and proposed changes appear as a diff in the code editor.
 
-1. Use the Tab key to accept a proposal, Alt+Delete to reject a proposal, or F8 to go to the next proposal.
+1. Use the <kbd>Tab</kbd> key to accept a proposal, <kbd>Alt</kbd>+<kbd>Delete</kbd> to reject a proposal, or <kbd>F8</kbd> to go to the next proposal.
 
    If you accept or reject a proposal, the cursor automatically moves to the next proposal.
 
@@ -103,4 +103,4 @@ A popup dialog confirms the action before reverting file states.
 - [Install and manage GitHub Copilot in Visual Studio](visual-studio-github-copilot-install-and-states.md)
 - [GitHub Copilot experience for Visual Studio](visual-studio-github-copilot-extension.md)
 - [GitHub Copilot Chat experience for Visual Studio](visual-studio-github-copilot-chat.md)
-- [About GitHub Copilot Free](https://aka.ms/ghdocscopilotfreepage)
+- [GitHub Copilot Free](https://aka.ms/ghdocscopilotfreepage)
