@@ -125,7 +125,20 @@ Example scenarios where adding an image in the prompt provides Copilot additiona
 
 ### Generate Mermaid diagrams
 
-With the latest release, Copilot can generate architectural, flowchart, sequence, class, Gantt diagrams, pie charts or any other kind of [mermaid diagram](https://mermaid.js.org/intro/#diagram-types) to visualize abstract concepts. 
+With the latest release of Visual Studio, Copilot Chat can generate a variety of [Mermaid diagrams](https://mermaid.js.org/intro/#diagram-types), including architectural, flowchart, sequence, class, Gantt, and pie charts, to help you visualize complex data structures and workflows directly in the editor.
+
+Example prompts:
+
+- Create a sequence diagram for the API call flow
+- Visualize relationships between entities in this schema
+- Create a Mermaid state diagram for the lifecycle of a task 
+- I'm new to this project, visualize major components and their relationships to help me onboard 
+
+:::image type="content" source="media/vs-2022/visual-studio-github-copilot-chat/mermaid-syntax-chat.png" alt-text="Screenshot of Mermaid diagram syntax in chat." lightbox="media/vs-2022/visual-studio-github-copilot-chat/mermaid-syntax-chat.png" :::
+
+Copilot uses attached references and related files in your codebase to gather context, then returns the Mermaid syntax in the chat window. Select **Preview** to open a new markdown file and view the diagram. You can save or share the markdown or rendered chart for future use.
+
+:::image type="content" source="media/vs-2022/visual-studio-github-copilot-chat/mermaid-diagram-rendering.png" alt-text="Screenshot of Mermaid diagram rendering." lightbox="media/vs-2022/visual-studio-github-copilot-chat/mermaid-diagram-rendering.png" :::
 
 ## Next steps
 
