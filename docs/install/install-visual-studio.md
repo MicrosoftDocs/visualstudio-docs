@@ -2,7 +2,7 @@
 title: Install Visual Studio and Choose Your Preferred Features
 titleSuffix: ''
 description: Learn how to install Visual Studio quickly. To reduce the installation footprint, choose your preferred features.
-ms.date: 08/25/2025
+ms.date: 09/09/2025
 ms.custom: vs-acquisition
 ms.topic: install-set-up-deploy
 helpviewer_keywords:
@@ -30,7 +30,7 @@ In Visual Studio 2019, it's easy to choose and install just the features you nee
 
 ::: moniker range=">=vs-2022"
 
-In Visual Studio 2022, it's easy to choose and install just the features you need.
+In Visual Studio, it's easy to choose and install just the features you need.
 
 ::: moniker-end
 
@@ -43,11 +43,19 @@ Want to know more about what else is new in this version? See the [release notes
 
 ::: moniker-end
 
-::: moniker range=">=vs-2022"
+::: moniker range="vs-2022"
 
 Want to know more about what else is new in this version? See the [release notes](/visualstudio/releases/2022/release-notes/).
 
 You can download and install a specific version from the [Visual Studio 2022 Release History](/visualstudio/releases/2022/release-history#release-dates-and-build-numbers) page.
+
+::: moniker-end
+
+::: moniker range=">=visualstudio"
+
+Want to know more about what else is new in this version? See the [release notes](https://aka.ms/vs/relnotes/insiders).
+
+You can download and install a specific version from the [Visual Studio Release History](/visualstudio/releases/vs18/release-history) page.
 
 ::: moniker-end
 
@@ -73,7 +81,7 @@ For questions about running other versions of Visual Studio side-by-side with Vi
 
 ::: moniker-end
 
-::: moniker range=">=vs-2022"
+::: moniker range="vs-2022"
 
 - Check the [system requirements](/visualstudio/releases/2022/system-requirements). These requirements help you determine whether your computer supports Visual Studio 2022.
 
@@ -86,6 +94,22 @@ For questions about running other versions of Visual Studio side-by-side with Vi
 - Free up space. Remove unneeded files and applications from your system drive by, for example, running the Disk Cleanup utility.
 
 You can install Visual Studio 2022 side-by-side with other versions. For more information, see [Visual Studio 2022 platform targeting and compatibility](/visualstudio/releases/2022/compatibility) and [Install Visual Studio versions side-by-side](install-visual-studio-versions-side-by-side.md).
+
+::: moniker-end
+
+::: moniker range="visualstudio"
+
+- Check the [system requirements](/visualstudio/releases/vs18/vs-system-requirements). These requirements help you determine whether your computer supports the latest Visual Studio.
+
+- Make sure that the user who performs the initial installation has administrator permissions on the machine. For more information, see [User permissions and Visual Studio](/visualstudio/ide/user-permissions-and-visual-studio).
+
+- Apply the latest Windows updates. These updates ensure that your computer has both the latest security updates and the required system components for Visual Studio.
+
+- Restart. Restarting ensures that any pending installations or updates don't hinder your Visual Studio installation.
+
+- Free up space. Remove unneeded files and applications from your system drive by, for example, running the Disk Cleanup utility.
+
+You can install Visual Studio latest side-by-side with other versions. For more information, see [Visual Studio platform targeting and compatibility](/visualstudio/releases/vs18/compatibility) and [Install Visual Studio versions side-by-side](install-visual-studio-versions-side-by-side.md).
 
 ::: moniker-end
 
@@ -102,12 +126,21 @@ Decide which version and edition of Visual Studio to install. The most common op
 
 ::: moniker-end
 
-::: moniker range=">=vs-2022"
+::: moniker range="vs-2022"
 
 - The latest release of Visual Studio 2022 that's hosted on Microsoft servers. To install this version, select the following button and then choose the edition you want. The installer downloads a small *bootstrapper* to your *Downloads* folder.
 
   > [!div class="button"]
   > [Download Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-install-visual-studio-page-cta)
+
+::: moniker-end
+
+::: moniker range=">=visualstudio"
+
+- The latest release of Visual Studio that's hosted on Microsoft servers. To install this version, select the following button and then choose the edition you want. The installer downloads a small *bootstrapper* to your *Downloads* folder.
+
+  > [!div class="button"]
+  > [Download Visual Studio](https://aka.ms/vs/insiders/?cid=learn-onpage-download-install-visual-studio-page-cta)
 
 ::: moniker-end
 
@@ -119,9 +152,15 @@ Decide which version and edition of Visual Studio to install. The most common op
 
 ::: moniker-end
 
-::: moniker range=">=vs-2022"
+::: moniker range="vs-2022"
 
 - You can download a bootstrapper for a specific version from the [Visual Studio 2022 Release History](/visualstudio/releases/2022/release-history#release-dates-and-build-numbers) page and use it to install Visual Studio.
+
+::: moniker-end
+
+::: moniker range=">=visualstudio"
+
+- You can download a bootstrapper for a specific version from the [Visual Studio Release History](https://aka.ms/vs/relnotes/insiders) page and use it to install Visual Studio.
 
 ::: moniker-end
 
@@ -145,13 +184,27 @@ If you downloaded a bootstrapper file, you can use it to install Visual Studio. 
 
 ::: moniker-end
 
-::: moniker range=">=vs-2022"
+::: moniker range="vs-2022"
 
 1. From your *Downloads* folder, double-click the bootstrapper named *VisualStudioSetup.exe*, or named something like *vs_community.exe*, to start the installation.
 
 1. If you see a User Account Control notice, select **Yes**. The dialog box asks you to acknowledge the Microsoft [License Terms](https://visualstudio.microsoft.com/license-terms/) and the Microsoft [Privacy Statement](https://privacy.microsoft.com/privacystatement). Select **Continue**.
 
    :::image type="content" source="../install/media/vs-2022/privacy-and-license-terms.png" alt-text="Screenshot showing the Microsoft License Terms and Privacy Statement.":::
+
+::: moniker-end
+
+::: moniker range=">=visualstudio"
+
+1. From your *Downloads* folder, double-click the bootstrapper named *VisualStudioSetup.exe*, or named something like *vs_Community.exe*, to start the installation.
+
+1. If you see a User Account Control notice, select **Yes**. The dialog box asks you to acknowledge the Microsoft [License Terms](https://visualstudio.microsoft.com/license-terms/) and the Microsoft [Privacy Statement](https://privacy.microsoft.com/privacystatement). Select **Continue**.
+
+   :::image type="content" source="../install/media/vs-2022/privacy-and-license-terms.png" alt-text="Screenshot showing the Microsoft License Terms and Privacy Statement.":::
+
+1. If you have other versions of Visual Studio installed, the installer gives you flexible options to move forward without losing your previous environment. You can migrate a previous Visual Studio 2022 configuration to copy workloads, SDKs, toolsets, and components, start a new install with the workloads and components you select, or  [import your configuration](import-export-installation-configurations.md) from an exported `.vsconfig` file.
+
+  :::image type="content" source="../install/media/visualstudio/new-installer-experience.png" alt-text="Screenshot showing the options in the new installer.":::
 
 ::: moniker-end
 
@@ -203,11 +256,25 @@ After you install the Visual Studio Installer, you can use it to customize your 
 
 ::: moniker-end
 
-::: moniker range=">=vs-2022"
+::: moniker range="vs-2022"
 
 1. Select the workload that you want in the **Visual Studio Installer**.
 
    :::image type="content" source="media/vs-2022/vs-installer-workloads.png" alt-text="Screenshot showing the Workloads tab of the Visual Studio Installer." lightbox="media/vs-2022/vs-installer-workloads.png":::
+
+   Review the workload summaries to decide which workload supports the features you need. For example, choose the **ASP.NET and web development** workload to edit ASP.NET Web pages with Web Live Preview or build responsive web apps with Blazor. You might choose from the **Desktop & Mobile** workloads to develop cross-platform apps with C#, or C++ projects that target C++20.
+
+1. After you choose the workloads that you want, select **Install**.
+
+   Next, a status screen that shows the progress of your Visual Studio installation appears.
+
+::: moniker-end
+
+::: moniker range=">=visualstudio"
+
+1. Select the workload that you want in the **Visual Studio Installer**.
+
+   :::image type="content" source="media/visualstudio/vs-installer-workloads.png" alt-text="Screenshot showing the Workloads tab of the Visual Studio Installer." lightbox="media/visualstudio/vs-installer-workloads.png":::
 
    Review the workload summaries to decide which workload supports the features you need. For example, choose the **ASP.NET and web development** workload to edit ASP.NET Web pages with Web Live Preview or build responsive web apps with Blazor. You might choose from the **Desktop & Mobile** workloads to develop cross-platform apps with C#, or C++ projects that target C++20.
 
@@ -230,9 +297,15 @@ If you don't want to use the Workloads feature to customize your Visual Studio i
 
 ::: moniker-end
 
-::: moniker range=">=vs-2022"
+::: moniker range="vs-2022"
 
   :::image type="content" source="media/vs-2022/vs-installer-individual-components.png" alt-text="Screenshot showing the Individual components tab of the Visual Studio Installer." lightbox="media/vs-2022/vs-installer-individual-components.png":::
+
+::: moniker-end
+
+::: moniker range=">=visualstudio"
+
+  :::image type="content" source="media/visualstudio/vs-installer-individual-components.png" alt-text="Screenshot showing the Individual components tab of the Visual Studio Installer." lightbox="media/visualstudio/vs-installer-individual-components.png":::
 
 ::: moniker-end
 
@@ -246,9 +319,15 @@ By default, the installer program tries to match the language of the operating s
 
 ::: moniker-end
 
-::: moniker range=">=vs-2022"
+::: moniker range="vs-2022"
 
   :::image type="content" source="media/vs-2022/vs-installer-language-packs.png" alt-text="Screenshot showing the Language packs tab of the Visual Studio Installer." lightbox="media/vs-2022/vs-installer-language-packs.png":::
+
+::: moniker-end
+
+::: moniker range="visualstudio"
+
+  :::image type="content" source="media/visualstudio/vs-installer-language-packs.png" alt-text="Screenshot showing the Language packs tab of the Visual Studio Installer." lightbox="media/vs-2022/vs-installer-language-packs.png":::
 
 ::: moniker-end
 
@@ -274,7 +353,7 @@ You can also change the default language by running the installer at a command p
   vs_installer.exe --locale en-US
   ```
 
-The installer retains this setting when you run it again. The installer supports these [language locales](/visualstudio/install/use-command-line-parameters-to-install-visual-studio?view=vs-2022&preserve-view=true#list-of-language-locales): zh-cn, zh-tw, cs-cz, en-us, es-es, fr-fr, de-de, it-it, ja-jp, ko-kr, pl-pl, pt-br, ru-ru, and tr-tr.
+The installer retains this setting when you run it again. The installer supports these [language locales](use-command-line-parameters-to-install-visual-studio.md#list-of-language-locales): zh-cn, zh-tw, cs-cz, en-us, es-es, fr-fr, de-de, it-it, ja-jp, ko-kr, pl-pl, pt-br, ru-ru, and tr-tr.
 
 ::: moniker-end
 
@@ -288,9 +367,15 @@ You can reduce the installation footprint of Visual Studio on your system drive.
 
 ::: moniker-end
 
-::: moniker range=">=vs-2022"
+::: moniker range="vs-2022"
 
   :::image type="content" source="media/vs-2022/vs-installer-installation-locations.png" alt-text="Screenshot showing the Installation locations tab of the Visual Studio Installer." lightbox="media/vs-2022/vs-installer-installation-locations.png":::
+
+::: moniker-end
+
+::: moniker range="visualstudio"
+
+  :::image type="content" source="media/visualstudio/vs-installer-installation-locations.png" alt-text="Screenshot showing the Installation locations tab of the Visual Studio Installer." lightbox="media/visualstudio/vs-installer-installation-locations.png":::
 
 ::: moniker-end
 

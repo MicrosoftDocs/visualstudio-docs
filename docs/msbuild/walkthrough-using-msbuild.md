@@ -1,7 +1,7 @@
 ---
 title: "MSBuild Tutorial: Install and create a project"
 description: Explore the various parts of an MSBuild project file, including items, item metadata, properties, targets, and build tasks.
-ms.date: 8/14/2025
+ms.date: 9/3/2025
 ms.topic: tutorial
 helpviewer_keywords:
 - MSBuild, tutorial
@@ -34,18 +34,24 @@ In the installer, make sure MSBuild tools for the workloads you use are selected
 
 ![Installing MSBuild](media/walkthrough-using-msbuild/installation-msbuild-tools.png)
 
-To install MSBuild on a system that doesn't have Visual Studio, go to [Build Tools for Visual Studio 2019](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2019), or install the [.NET SDK](/dotnet/core/sdk#acquiring-the-net-sdk).
+To install MSBuild on a system that doesn't have Visual Studio, go to [Build Tools for Visual Studio 2019](https://visualstudio.microsoft.com/vs/older-downloads/#visual-studio-2019-and-other-products) on the [downloads page](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta). Another way of getting MSBuild is to install the [.NET SDK](/dotnet/core/sdk#acquiring-the-net-sdk).
 
 ::: moniker-end
 
-::: moniker range=">=vs-2022"
+::: moniker range="vs-2022"
+
 If you have Visual Studio, then you already have MSBuild installed. With Visual Studio 2022, it's installed under the Visual Studio installation folder. For a typical default installation on Windows 10, MSBuild.exe is under the installation folder in *MSBuild\Current\Bin*.
 
 In the Visual Studio installer, navigate to **Individual Components**, and locate the checkbox for **MSBuild**. It's automatically selected when you choose any of the other workloads to install.
 
-To install MSBuild on a system that doesn't have Visual Studio, go to **Build Tools for Visual Studio 2022** on the [downloads page](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta). Another way of getting MSBuild is to install the [.NET SDK](/dotnet/core/sdk#acquiring-the-net-sdk).
+To install MSBuild on a system that doesn't have Visual Studio, go to [Build Tools for Visual Studio 2022](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta#build-tools-for-visual-studio-2022) on the [downloads page](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta). Another way of getting MSBuild is to install the [.NET SDK](/dotnet/core/sdk#acquiring-the-net-sdk).
+:::moniker-end
+:::moniker range="visualstudio"
+If you have Visual Studio, then you already have MSBuild installed. It's installed under the Visual Studio installation folder. For a typical default installation on Windows, MSBuild.exe is under the installation folder in *MSBuild\Current\Bin*.
 
-::: moniker-end
+To install MSBuild on a system that doesn't have Visual Studio, go to **Tools for Visual Studio** > **Build Tools for Visual Studio** on the [downloads page](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta). Another way of getting MSBuild is to install the [.NET SDK](/dotnet/core/sdk#acquiring-the-net-sdk).
+:::moniker-end
+
 
 ## Create an MSBuild project
 
