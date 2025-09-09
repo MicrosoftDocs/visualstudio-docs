@@ -103,7 +103,7 @@ There's a limit of five command lines that you can add before the oldest one is 
 
 The first argument when debugging an Unreal Engine project that runs in the Unreal Engine editor must be the path to the project. For example: `C:\UE\LyraStarterGame\LyraStarterGame.uproject`.
 
-For more information about using the command-line arguments dropdown, see [Pass command line arguments when debugging](/visualstudio/debugger/getting-started-with-the-debugger-cpp.md#ass-command-line-arguments).
+For more information about using the command-line arguments dropdown, see [Pass command line arguments when debugging](/visualstudio/debugger/getting-started-with-the-debugger-cpp.md#pass-command-line-arguments).
 
 ## Next steps
 
