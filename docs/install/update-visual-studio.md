@@ -376,6 +376,8 @@ You can use either the bootstrapper or the installer to programmatically update 
 
 If you are part of an organization that centralizes management of software installations, then your enterprise administrator might control how Visual Studio updates your machine. For more about how to control or configure the types of updates your machine can accept, see [Using Configuration Manager to deploy Visual Studio updates](../install/applying-administrator-updates.md#configuring-the-client-machine-to-receive-administrator-updates).
 
+:::moniker range="<=vs-2022"
+
 ## Remove out-of-support components
 
 Using the [latest Visual Studio installer](#use-the-latest-and-greatest-installer), you can now bulk remove [components that have transitioned to an out-of-support state](/visualstudio/install/out-of-support-components). You can manually remove them by using the installer as described below, you can remove them [programmatically](./use-command-line-parameters-to-install-visual-studio.md), or you can have them removed via machine wide [policy](/visualstudio/install/set-defaults-for-enterprise-deployments). Learn more about [removing out-of-support components](https://aka.ms/vs/removeoos/blog) and how it can help keep your software environment secure.
@@ -393,7 +395,6 @@ You can also configure a specific Visual Studio instance to *persistently* remov
 
  ![Screenshot showing the Remove out of support checkbox in update setting dialog.](media/vs-2022/update-setting-dialog-two.png)
    
-:::moniker range="<=vs-2022"
 ## Use the latest and greatest installer
 
 The most current release of the installer in the latest version of Visual Studio typically has the most robust and reliable feature set. This functionality will often seamlessly work on lower versioned products. In order to manually acquire the latest version of the installer onto a client machine (like if you wanted the functionality of the latest Visual Studio 2022 installer to govern a Visual Studio 2019 installation), you can do one of the following: 
@@ -411,6 +412,24 @@ The most current release of the installer in the latest version of Visual Studio
 :::moniker-end
 
 :::moniker range="visualstudio"
+
+## Remove out-of-support components
+
+Using the [latest Visual Studio installer](#use-the-latest-and-greatest-installer), you can now bulk remove [components that have transitioned to an out-of-support state](/visualstudio/install/out-of-support-components). You can manually remove them by using the installer as described below, you can remove them [programmatically](./use-command-line-parameters-to-install-visual-studio.md), or you can have them removed via machine wide [policy](/visualstudio/install/set-defaults-for-enterprise-deployments). Learn more about [removing out-of-support components](https://aka.ms/vs/removeoos/blog) and how it can help keep your software environment secure.
+
+To bulk remove out-of-support components manually through the UI you can 
+
+1. Open the Visual Studio Installer, and then select **Modify**.
+1. Select **Remove all out-of-support components**.
+    
+   <!--:::image type="content" source="media/vs-2022/remove-out-of-support-components.png" alt-text="Screenshot of the Remove out-of-support components option.":::-->
+   
+All components with an out-of-support label will be deselected and get uninstalled.
+
+You can also configure a specific Visual Studio instance to *persistently* remove all components that transition to an out-of-support state by selecting the option **More**> **Update Settings**> **Remove all out-of-support components during future updates** in the Visual Studio Installer. Once this setting is configured, any component that transitions to an out-of-support state in the future will be removed during the next Visual Studio update for that instance of Visual Studio.
+
+ <!--![Screenshot showing the Remove out of support checkbox in update setting dialog.](media/vs-2022/update-setting-dialog-two.png)-->
+
 ## Use the latest and greatest installer
 
 The most current release of the installer in the latest version of Visual Studio typically has the most robust and reliable feature set. This functionality will often seamlessly work on lower versioned products. In order to manually acquire the latest version of the installer onto a client machine (like if you wanted the functionality of the latest Visual Studio installer to govern a Visual Studio 2019 installation), you can do one of the following: 
