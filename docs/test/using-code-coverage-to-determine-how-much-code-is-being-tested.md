@@ -1,7 +1,7 @@
 ---
 title: Determine code testing coverage
 description: Learn how to use the code coverage feature of Visual Studio to determine what proportion of your project code is being tested by coded tests.
-ms.date: 12/13/2024
+ms.date: 09/09/2025
 ms.topic: conceptual
 helpviewer_keywords:
 - code coverage
@@ -24,10 +24,16 @@ Code coverage option is available under the Test menu when you run test methods 
 
 ## Requirements
 
+::: moniker range=">=visualstudio"
+The code coverage feature is available in all versions of Visual Studio. In Visual Studio 2022 and previous versions, the code coverage feature was limited to Visual Studio Enterprise edition.
+::: moniker-end
+::: moniker range="<=vs-2022"
 The code coverage feature is available only in Visual Studio Enterprise edition.
+::: moniker-end
 
 >[!NOTE]
 > For .NET code coverage, you can alternatively use the command-line tool, [dotnet-coverage](/dotnet/core/additional-tools/dotnet-coverage).
+::: moniker-end
 
 ## Analyze code coverage
 

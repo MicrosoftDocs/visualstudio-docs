@@ -1,7 +1,7 @@
 ---
 title: Customizing Code Coverage Analysis
 description: Learn how to use the ExcludeFromCodeCoverageAttribute attribute to exclude test code from coverage results. You can include assemblies outside your solution.
-ms.date: 12/13/2024
+ms.date: 09/09/2025
 ms.topic: conceptual
 ms.author: mikejo
 manager: mijacobs
@@ -16,8 +16,14 @@ To exclude test code from the code coverage results and only include application
 
 To include assemblies that aren't part of your solution, obtain the *.pdb* files for these assemblies and copy them into the same folder as the assembly *.dll* files.
 
+::: moniker range=">=visualstudio"
+>[!NOTE]
+> Code coverage is available in all versions of Visual Studio. In Visual Studio 2022 and previous versions, the code coverage feature was limited to Visual Studio Enterprise edition.
+::: moniker-end
+::: moniker range="<=vs-2022"
 >[!NOTE]
 > Code coverage is available only with Visual Studio Enterprise. For .NET code coverage, you can alternatively use the command-line tool, [dotnet-coverage](/dotnet/core/additional-tools/dotnet-coverage).
+::: moniker-end
 
 ## Run settings file
 
