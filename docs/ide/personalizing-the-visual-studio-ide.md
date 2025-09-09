@@ -7,6 +7,8 @@ author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide
+f1_keywords:
+- VS.ToolsOptionsPages.Environment.Profiles
 #customer intent: As a developer, I want to customize my Visual Studio environment and to be able to export or import those custom settings to use across Visual Studio instances.
 ---
 # Customize the Visual Studio IDE

@@ -2,7 +2,7 @@
 title: Uninstall or Remove Visual Studio
 titleSuffix: ''
 description: Uninstall or remove your installation of Visual Studio along with its integrated suite of productivity tools for developers.
-ms.date: 08/18/2025
+ms.date: 09/09/2025
 ms.custom: vs-acquisition
 ms.topic: how-to
 f1_keywords:
@@ -96,11 +96,11 @@ To remove all installations of Visual Studio 2019 and the Visual Studio Installe
 
 ::: moniker range=">=vs-2022"
 
-To remove all installations of Visual Studio 2022 and the Visual Studio Installer from your machine, uninstall Visual Studio from **Installed apps**.
+To remove all installations of Visual Studio and the Visual Studio Installer from your machine, uninstall Visual Studio from **Installed apps**.
 
 1. In Windows 10 or later, enter **Add or remove programs** in the Windows search box.
-1. Find Visual Studio 2022.
-1. In the ellipsis menu (**...**) next to **Microsoft Visual Studio 2022**, select **Uninstall**.
+1. Find Visual Studio.
+1. In the ellipsis menu (**...**) next to the **Visual Studio** version you want to uninstall, select **Uninstall**.
 1. Find Visual Studio Installer.
 1. In the ellipsis menu next to **Microsoft Visual Studio Installer**, select **Uninstall**.
 
@@ -110,7 +110,7 @@ To remove all installations of Visual Studio 2022 and the Visual Studio Installe
 
 ## Remove all by using InstallCleanup.exe
 
-If you experience an error and can't repair or uninstall Visual Studio, you can run the `InstallCleanup.exe` tool to remove installation files and product information for all installed instances of Visual Studio 2017, Visual Studio 2019, or Visual Studio 2022.
+If you experience an error and can't repair or uninstall Visual Studio, you can run the `InstallCleanup.exe` tool to remove installation files and product information for all installed instances of a Visual Studio version.
 
 > [!WARNING]
 > Use the InstallCleanup tool only as a last resort if repair or uninstallation fails. This tool might uninstall features from other Visual Studio installations or other products, which you then might need to repair or reinstall.

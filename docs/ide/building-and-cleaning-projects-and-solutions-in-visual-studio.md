@@ -1,7 +1,7 @@
 ---
 title: Build and clean projects and solutions
 description: Build, rebuild, or clean some of your projects or project items, or all of your projects, in your Visual Studio project solution.
-ms.date: 10/3/2024
+ms.date: 9/3/2025
 ms.subservice: compile-build
 ms.topic: conceptual
 f1_keywords:
@@ -72,6 +72,10 @@ Use this procedure to build the solution in the current configuration (for examp
 
     When this check box is cleared, all projects, their dependencies, and the solution files are built when you run any of the preceding commands.
 
+You can see build progress and output in the **Output** window. You also see an icon in the status bar at the bottom of the Visual Studio window that indicates a build is running.
+
+The underlying build tool that Visual Studio uses is called [MSBuild](../msbuild/msbuild.md). MSBuild uses optimizations such as incremental build to minimize rebuilding the same files if they haven't changed, so the first time you build a solution, it might take a long time for large solutions, but subsequent builds are usually faster.
+
 ## Batch build
 
 When you build using **Build solution** or **Build project** options, Visual Studio builds the current configuration. You can use the batch build command to build multiple configurations in one operation.
@@ -114,6 +118,8 @@ Perform either of the following steps:
 - On the menu bar, select **Build** > **Cancel**.
 
 - Press **Ctrl**+**Break**.
+
+The **Cancel** menu item only appears unless a build is currently runing.
 
 ## Related content
 
