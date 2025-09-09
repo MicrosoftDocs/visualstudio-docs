@@ -322,7 +322,7 @@ Here's how to update Visual&nbsp;Studio&nbsp using these various methods.
 
 ## Run a specific bootstrapper to update the product to a specific version
 
-If you're an Enterprise or Professional customer, you can update your instance of Visual Studio to any specific version that has been released, as long as it's a higher version than what is currently installed. To update your instance of Visual Studio via this method, [navigate to the Visual Studio 2022 release history page](/visualstudio/releases/vs18/release-history), download the bootstrapper that corresponds to the desired update version into your product installation directory, and then double-click on it to initiate the update.
+If you're an Enterprise or Professional customer, you can update your instance of Visual Studio to any specific version that has been released, as long as it's a higher version than what is currently installed. To update your instance of Visual Studio via this method, [navigate to the Visual Studio release history page](/visualstudio/releases/vs18/release-history), download the bootstrapper that corresponds to the desired update version into your product installation directory, and then double-click on it to initiate the update.
 
 ## Customize update settings
 
