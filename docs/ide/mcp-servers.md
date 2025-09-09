@@ -23,7 +23,7 @@ This article guides you through setting up MCP servers and using tools with agen
 
 ## How MCP and Visual Studio extend the GitHub Copilot agent
 
-MCP support in Visual Stuido works as follows:
+MCP support in Visual Studio works as follows:
 
 - MCP clients, such as Visual Studio, connect to MCP servers and request actions on behalf of the AI model.
 - MCP servers provide one or more tools that expose specific functionalities through a well-defined interface.
