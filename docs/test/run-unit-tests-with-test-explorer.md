@@ -15,7 +15,7 @@ ms.subservice: test-tools
 ::: moniker range=">=visualstudio"
 Use Test Explorer to run unit tests from Visual Studio or third-party unit test projects. In Test Explorer, you can group tests into categories, filter the test list, and create, save, and run playlists of tests. You can also use Test Explorer to [debug unit tests](../test/debug-unit-tests-with-test-explorer.md) and to [analyze code coverage](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md).
 ::: moniker-end
-::: moniker range="<>=vs-2022"
+::: moniker range="<=vs-2022"
 Use Test Explorer to run unit tests from Visual Studio or third-party unit test projects. In Test Explorer, you can group tests into categories, filter the test list, and create, save, and run playlists of tests. You can also use Test Explorer to [debug unit tests](../test/debug-unit-tests-with-test-explorer.md) and, in Visual Studio Enterprise, to [analyze code coverage](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md).
 ::: moniker-end
 
