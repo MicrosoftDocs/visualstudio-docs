@@ -43,7 +43,7 @@ GitHub Copilot supports several programming languages and frameworks, including 
 
 With Visual Studio 2022 version 17.10 or later, the [unified GitHub Copilot extension](visual-studio-github-copilot-install-and-states.md) is available as a recommended component in the Visual Studio Installer. It's installed by default with all workloads, unless you choose to exclude it during installation.
 
-## Steps for using GitHub Copilot code completions and suggestions
+## Using GitHub Copilot code completions and suggestions
 
 As you type code or comments in the editor, GitHub Copilot provides context-aware code completions and suggestions. GitHub Copilot provides suggestions for numerous languages, but it works especially well for Python, JavaScript, TypeScript, Ruby, Go, C# and C++. The following examples are in C#, but other languages work similarly.
 
@@ -94,7 +94,7 @@ Here are keyboard shortcuts related to completions:
 
 Customize your completion experience by using settings:
 
-- If you feel that completions appear too quickly and interrupt your typing, go to **Tools** > **Options** > **IntelliCode** > **Advanced** and turn on **Wait for pauses in typing before showing whole line completions**. This setting adds a debounce delay, so completions won't flash and disappear while you're typing quickly.
+- If you feel that completions appear too quickly and interrupt your typing, go to **Tools** > **Options** > **IntelliCode** > **Advanced** and turn on **Wait for pauses in typing before showing whole line completions**. This setting adds a debounce delay, so completions don't flash and disappear while you're typing quickly.
 - By default, each of your keystrokes automatically triggers completions. To disable automatic completions, go to **Tools** > **Options** > **IntelliCode** > **General** and turn off **Automatically generate code completions in the Editor**. Then, use <kbd>Alt</kbd>+<kbd>,</kbd> to manually trigger completions.
 
 ## Content exclusion

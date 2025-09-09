@@ -37,9 +37,9 @@ Model selection improvements include:
 
 Model availability depends on your Copilot subscription and the current status of each model. For Copilot Enterprise and Business, administrators must enable the **Preview** policy in Copilot settings before models are available in Visual Studio.
 
-## Bring your own model
+## Bring your own model (BYOM)
 
-You can add your own language model to Copilot Chat by providing API keys from providers such as Anthropic, Google, or OpenAI. This concept is called *bring your own model* (BYOM). It allows you to select and configure custom AI models to match your workflow or to evaluate new model capabilities.
+You can add your own language model to Copilot Chat by providing API keys from providers such as Anthropic, Google, or OpenAI. This ability allows you to select and configure custom AI models to match your workflow or to evaluate new model capabilities.
 
 ### Benefits
 
