@@ -52,7 +52,7 @@ If you need to run Visual Studio as an administrator, here's how.
 
 1. Next, right-click either **Visual Studio 2019** or **Visual Studio 2022**, and then select **Run as administrator**.
 
-   When Visual Studio starts, **(Administrator)** appears after the product name in the title bar, and **ADMIN** appears near the top right of the Visual Studio window, in the same area where **PREVIEW** appears if you are using a preview build of Visual Studio. You can click on this button to view the **About** dialog.
+   When Visual Studio starts, **(Administrator)** appears after the product name in the title bar, and **ADMIN** appears near the top right of the Visual Studio window, in the same area where **INSIDERS** appears if you are using an insiders build of Visual Studio. You can click on this button to view the **About** dialog.
 
    ![Screenshot showing ADMIN in top right corner of the Visual Studio window.](media/vs-2022/admin-in-upper-right-corner.png)
 
