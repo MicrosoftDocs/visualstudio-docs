@@ -210,6 +210,34 @@ If you downloaded a bootstrapper file, you can use it to install Visual Studio. 
 
 Visual Studio Installer opens. You can also install any product that's listed on the [Visual Studio Installer Available tab](install-visual-studio-versions-side-by-side.md#install-different-editions-of-the-same-major-visual-studio-version-side-by-side).
 
+::: moniker range=">=visualstudio"
+
+### Select how to configure your Visual Studio installation
+
+When you install Visual Studio 2026 or later, the installer provides options to copy your previous VIsual Studio environment. You can configure the installation in a few ways:
+
+- **Manually choose workloads and components**  
+  Start from scratch and manually choose the workloads and components you want to install.
+  
+- **Migrate my configuration from this product version**  
+  Chose an existing Visual Studio instance (2022 or later) to copy workloads, SDKs, toolsets, settings, and extensions into your new Visual Studio enviornment.
+
+- **Import my configuration from a .vsconfig file**  
+  Use a file that you or your team exported. Importing a `.vsconfig` file helps standardize development environments across multiple machines.
+  Learn more: [Importing and exporting installation configurations](https://learn.microsoft.com/en-us/visualstudio/install/import-export-installation-configurations?view=vs-2022)
+
+#### Extensions, Settings, and Out-of-Support Components
+
+- Only **[Marketplace](https://marketplace.visualstudio.com/) extensions** from a previous Visual Studio installation can be copied into Visual Studio. 
+- **Settings** are imported via a `.vssettings` file.
+- **Out-of-support workloads and components** 
+Some workloads or components are no longer supported in Visual Studio, the installer lets you choose whether to include or remove them during setup.
+
+> [!NOTE]  
+> Out-of-support components may not function correctly in the new version. It is recommended to review these carefully before proceeding with installation. 
+
+::: moniker-end
+
 ## Step 4 - Choose workloads
 
 After you install the Visual Studio Installer, you can use it to customize your installation by selecting the feature sets, or *workloads*, that you want. Here's how.
