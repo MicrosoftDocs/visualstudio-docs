@@ -14,8 +14,12 @@ ms.topic: how-to
 This article describes how you can customize your Docker containers for debugging.
 ::: moniker-end
 
-::: moniker range=">=vs-2022"
+::: moniker range="vs-2022"
 This article describes how you can customize your Docker containers when you choose the Dockerfile container build type. If you are using the .NET SDK build type, the customization options are different, and most of the information in this section isn't applicable. Instead, see [Containerize a .NET app with dotnet publish](/dotnet/core/docker/publish-as-container?pivots=dotnet-8-0).
+::: moniker-end
+
+::: moniker range="visualstudio"
+This article describes how you can customize your containers when you choose the Dockerfile container build type. If you are using the .NET SDK build type, the customization options are different, and most of the information in this section isn't applicable. Instead, see [Containerize a .NET app with dotnet publish](/dotnet/core/docker/publish-as-container?pivots=dotnet-8-0).
 ::: moniker-end
 
 :::moniker range="visualstudio"
