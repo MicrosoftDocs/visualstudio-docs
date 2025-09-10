@@ -21,7 +21,7 @@ The completed sample that you create in this tutorial can be found on GitHub at 
 ::: moniker range="vs-2019"
 
 - [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
-- [Visual Studio 2019 or later](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET cross-platform development** workload installed
+- [Visual Studio 2019 or later](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET cross-platform development** workload installed.
 ::: moniker-end
 
 ::: moniker range="vs-2022"
