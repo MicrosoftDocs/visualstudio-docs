@@ -55,10 +55,10 @@ In addition, **Text Visualizer** provides tooling and string manipulation option
 Select the **String manipulation** dropdown list and choose the desired option to decode your data.
 
 ::: moniker range=">=visualstudio"
-![Screenshot of Text string visualizer.](../debugger/media/visualstudio/dbg-string-visualizer-text.png "Text string visualizer")
+![Screenshot of Text string visualizer.](../debugger/media/visualstudio/debug-string-visualizer-text.png "Text string visualizer")
 ::: moniker-end
 ::: moniker range="<= vs-2022"
-![Screenshot of Text string visualizer.](../debugger/media/dbg-string-visualizer-text.png "Text string visualizer")
+![Screenshot of Text string visualizer.](../debugger/media/debug-string-visualizer-text.png "Text string visualizer")
 ::: moniker-end
 
 ::: moniker range=">=visualstudio"
