@@ -8,7 +8,7 @@ author: ghogen
 ms.author: ghogen
 ms.manager: mijacobs
 ms.subservice: general-ide
-monikerRange: >=vs-2022
+monikerRange: ">=vs-2022"
 
 #customer intent: As a developer, I want to use Git features in Visual Studio so I can stage multiple lines of code at the same time or split changes across different commits. 
 ---
