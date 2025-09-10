@@ -67,7 +67,7 @@ The following table lists the different tools Visual Studio offers and the diffe
 |[IntelliTrace](../debugger/intellitrace.md)|.NET with Visual Studio Enterprise only|no|.NET with Visual Studio Enterprise only|.NET with Visual Studio Enterprise only|
 
 ::: moniker range=">=visualstudio"
-Support for CMake projects are the same as C++. For CPU Usage, File I/O, and the Events viewer, you can run profiling tools against the startup project. However, for other C++ profiling tools, you must set the executable as the target in the Performance Profiler (**Alt** + **F2**) by selecting **Executable** as the **Startup Project**.
+Support for CMake projects are the same as C++. For CPU Usage, Memory Usage, File I/O, and the Events viewer, you can run profiling tools against the startup project. However, for Instrumentation and GPU Usage, you must set the executable as the target in the Performance Profiler (**Alt** + **F2**) by selecting **Executable** as the **Startup Project**.
 ::: moniker-end
 ::: moniker range="<=vs-2022"
 Support for CMake projects are the same as C++. However, you must set the executable as the target in the Performance Profiler (**Alt** + **F2**) by selecting **Executable** as the **Startup Project**.
