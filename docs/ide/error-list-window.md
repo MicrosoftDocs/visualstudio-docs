@@ -48,7 +48,7 @@ Use the toolbar dropdowns to limit which entries appear:
 
 ## Open the file and navigate to an error
 
-- Double-click any entry in the Error List to open the file that contains the problem and move the caret to the error location.
+- Double-click any entry in the Error List to open the file that contains the problem and move to the error location.
 
 ## Copy or save errors
 
@@ -66,7 +66,7 @@ Use the toolbar dropdowns to limit which entries appear:
 
 ## View problem details
 
-- The **Details** column displays a clickable icon when an entry has additional diagnostic information. Click the icon to open the [Problem Details window](reference/problem-details-window.md).
+- For C++ projects, you can enable the **Details** column, which displays a clickable icon when an entry has additional diagnostic information. Click the icon to open the [Problem Details window](reference/problem-details-window.md).
 
 ## Manage the Error List window
 
@@ -74,12 +74,23 @@ Use the toolbar dropdowns to limit which entries appear:
 
 ## UI reference
 
+The following columns appear in the **Error List** window by default:
+
 - **Severity** — Displays the type of entry (Error, Warning, Message, Warning (active/inactive)).
 - **Code** — The error or warning code.
 - **Description** — The entry text describing the issue.
 - **Project** — The project where the error was detected.
 - **File** — The file name that contains the issue.
 - **Line** — The line number where the problem occurs.
-- **Details** — Click to open the Problem Details window if extra diagnostic information exists.
+- **Details** — (C++ projects) Click to open the Problem Details window if extra diagnostic information exists.
+
+In addition, you can enable the following other columns. Right-click on the column bar to open the context menu, and choose **Show Columns** to enable them.
+
+- **Project Rank** - The numbers enumerate the projects in the solution (1-based).
+- **Path** - Path to the file that contains this issue.
+- **Column** - The column number where the issue was detected.
+- **Category** - IntelliSense only. Category of the issue, for example, "Compiler."
+- **Source** -  Sources include Build and IntelliSense.
+- **Tool** - Build only. The executable tool that generated this issue.
 
 For more information and additional conceptual details about the Error List, see the original documentation for the Error List window.
