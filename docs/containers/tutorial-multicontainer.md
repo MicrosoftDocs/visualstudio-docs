@@ -24,12 +24,16 @@ The completed sample that you create in this tutorial can be found on GitHub at 
 - [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET cross-platform development** workload installed
 ::: moniker-end
 
-::: moniker range=">=vs-2022"
+::: moniker range="vs-2022"
 
 - [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
 - [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET cross-platform development** workload installed. This installation includes the .NET SDK.
 ::: moniker-end
+::: moniker range="vs-2022"
 
+- [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
+- [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET cross-platform development** workload installed. This installation includes the .NET SDK.
+::: moniker-end
 ## Create a Web Application project
 
 In Visual Studio, create an **ASP.NET Core Web App** project, named `WebFrontEnd`, to create a web application with Razor pages.

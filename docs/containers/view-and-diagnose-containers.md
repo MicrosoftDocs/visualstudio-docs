@@ -35,7 +35,7 @@ You can use the Visual Studio **Containers** window to see what's going on insid
 
 :::moniker range="visualstudio"
 - [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows) or [Podman Desktop](https://podman-desktop.io/downloads).
-- [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta)
+- [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta). For Podman support, [Visual Studio (Insiders)](https://visualstudio.microsoft.com/insiders?cid=learn-onpage-download-cta)
 - For the Docker Compose node:
   - Docker v2, which installs with Docker Desktop and is on by default.
 

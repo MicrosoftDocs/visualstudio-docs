@@ -35,7 +35,7 @@ If you don't have an Azure subscription, create a [free account](https://azure.m
 
 ::: moniker range="visualstudio"
 
-- Install [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the "ASP.NET and web development" workload.
+- Install [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta). For Podman support, [Visual Studio (Insiders)](https://visualstudio.microsoft.com/insiders?cid=learn-onpage-download-cta) with the "ASP.NET and web development" workload.
 
 - Install [Docker Desktop for Windows](https://docs.docker.com/desktop/windows/install/) or [Podman Desktop](https://podman-desktop.io/downloads).
 
