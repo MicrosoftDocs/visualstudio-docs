@@ -28,7 +28,7 @@ For information about Docker Compose profiles, see [Using profiles with Compose]
 - A .NET solution with [Container Orchestration with Docker Compose](tutorial-multicontainer.md)
 :::moniker-end
 :::moniker range="visualstudio"
-- [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta), or for Podman support, [Visual Studio (Insiders)](https://visualstudio.microsoft.com/insiders?cid=learn-onpage-download-cta)
+- [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta)
 - A .NET solution with [Container Orchestration with Docker Compose](tutorial-multicontainer.md)
 :::moniker-end
 
