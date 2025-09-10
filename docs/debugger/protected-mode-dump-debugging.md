@@ -20,13 +20,13 @@ Protected mode isolates the debugger process from the rest of the system via App
 
 ## Limitations
 
-* The “Tasks” view will be empty in the Parallel Tasks window
+* The 'Tasks' view will be empty in the Parallel Stacks window
 * The Debugger Tasks Window (Debug->Windows->Tasks) will be empty
-* Protected mode is not enabled for Diagnostic Analysis and Debug Managed Memory
+* Protected mode isn't enabled for Diagnostic Analysis and Debug Managed Memory
 
 ## Disabling protected mode
 
-Protected mode can be disabled for a dump temporarily by unselecting the 'Protected' toggle on the dump summary page, or permanently for the dump by marking it as trusted using the the 'Trust' button.
+Protected mode can be disabled for a dump temporarily by unselecting the 'Protected' toggle on the dump summary page, or permanently for the dump by marking it as trusted using the 'Trust' button.
 
 ## Related content
 - [Using Dump Files](../debugger/using-dump-files.md)
