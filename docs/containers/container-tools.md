@@ -6,6 +6,7 @@ ms.author: ghogen
 ms.date: 8/19/2025
 ms.subservice: container-tools
 ms.topic: quickstart
+ms.update-cycle: 90-days
 ---
 
 # Quickstart: Container Tools in Visual Studio

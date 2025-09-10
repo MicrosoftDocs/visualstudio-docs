@@ -8,6 +8,7 @@ monikerRange: ">=vs-2022"
 author: BertanAygun
 manager: mijacobs
 ms.subservice: extensibility-integration
+ms.update-cycle: 365-days
 ---
 
 # Dependency injection in VisualStudio.Extensibility extensions

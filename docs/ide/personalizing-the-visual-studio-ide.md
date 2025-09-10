@@ -7,15 +7,42 @@ author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide
+f1_keywords:
+- VS.ToolsOptionsPages.Environment.Profiles
 #customer intent: As a developer, I want to customize my Visual Studio environment and to be able to export or import those custom settings to use across Visual Studio instances.
 ---
 # Customize the Visual Studio IDE
 
 You can customize Visual Studio IDE settings in various ways to best support your own development style and requirements. Many of your settings roam with you across Visual Studio instances. See [Synchronized settings](../ide/synchronized-settings-in-visual-studio.md). This article briefly describes different personalizations and where you can find more information.
 
-## Default environment settings for Visual Studio
+## Export and import Visual Studio environment settings 
 
-In Visual Studio, you can optimize your development environment for the type of development work you do by selecting **Tools** > **Import and Export Settings**. You can use the wizard to import or export specific categories of setting, or to reset the environment to one of the default collections of settings. Each collection of settings optimizes elements such as keyboard shortcuts, window layouts, project and item templates, and command visibility.
+Visual Studio lets you export and import your personal environment settings (such as themes, keyboard shortcuts, window layouts, templates, and other preferences) into a new installation. This makes it easy to recreate your previous customized environment when setting up a new Visual Studio instance. You can use the wizard, by selecting **Tools** > **Import and Export Settings**, to import or export specific categories of setting, or to reset the environment to one of the default collections of settings.
+
+### Export settings
+
+> [!TIP]  
+> Each time you close Visual Studio, a backup of your settings is saved automatically as a `.vssettings` file.  
+> You can find this file at: `C:\Users\<username>\AppData\Local\Microsoft\VisualStudio\<version>\Settings\`  
+> Each version has its own folder. To reuse your settings, copy the file from the version you want and then follow the steps in the [Import settings](#import-settings) section.  
+
+You can manually export your settings from inside Visual Studio using the wizard:  
+1. Open the Visual Studio instance that contains the settings you want to export.  
+1. Select **Tools** > **Import and Export Settings**.  
+1. In the wizard, select **Export selected environment settings**, then choose **Next**.  
+1. Select which settings you want to export, then choose **Next**.  
+1. Enter a filename and location for your `.vssettings` file, then select **Finish**.  
+
+### Import settings  
+
+To manually import your settings:  
+
+1. Open the Visual Studio instance you want to import your settings into.  
+1. Select **Tools** > **Import and Export Settings**.  
+1. In the wizard, select **Import selected environment settings**, then choose **Next**.  
+1. Select **No, just import new settings, overwriting my current settings**, then choose **Next**.  
+1. Select **Browse**, then select your saved `.vssettings` file, then choose **Next**.  
+1. Select which settings you want to import, then select **Finish**.  
 
 ### Reset all settings
 
