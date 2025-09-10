@@ -43,7 +43,7 @@ In *launchSettings.json*, the settings in the **Docker** section are related to 
 :::moniker range="visualstudio"
 
 ```json
-    "Container (Dockerfile)": {
+    "Docker (Dockerfile)": {
       "commandName": "Docker",
       "launchBrowser": true,
       "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
@@ -55,6 +55,8 @@ In *launchSettings.json*, the settings in the **Docker** section are related to 
       "useSSL": true
     }
 ```
+
+You can also use `"Container (Dockerfile)"`, which is more accurate if you want to use Podman, although `"Docker (Dockerfile)"` works for both Docker and Podman container runtimes.
 
 :::moniker-end
 

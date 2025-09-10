@@ -11,19 +11,19 @@ ms.topic: how-to
 # Build a container project from the command line
 
 :::moniker range="visualstudio"
-If you want to build a container project with a Dockerfile outside of Visual Studio, you can use `docker build` (or `podman build`), `MSBuild`, `dotnet build`, or `dotnet publish` to build from the command line.
+If you want to build a container project with a Dockerfile outside of Visual Studio, you can use `docker build` (or `podman build`), or `dotnet publish /t:PublishContainer` to build from the command line.
 
-If you're using the .NET SDK build type, you don't have a Dockerfile, so you can't use `docker build` or `podman build`; instead, use `MSBuild`, `dotnet build` or `dotnet publish` to build on the command line.
+If you're using the .NET SDK build type, you don't have a Dockerfile, so you can't use `docker build` or `podman build`; instead, use `dotnet publish /t:PublishContainer` to build on the command line.
 :::moniker-end
 
 :::moniker range="vs-2022"
-If you want to build a container project with a Dockerfile outside of Visual Studio, you can use `docker build`, `MSBuild`, `dotnet build`, or `dotnet publish` to build from the command line.
+If you want to build a container project with a Dockerfile outside of Visual Studio, you can use `docker build` or `dotnet publish /t:PublishContainer` to build from the command line.
 
-If you're using the .NET SDK build type, you don't have a Dockerfile, so you can't use `docker build`; instead, use `MSBuild`, `dotnet build` or `dotnet publish` to build on the command line.
+If you're using the .NET SDK build type, you don't have a Dockerfile, so you can't use `docker build`; instead, use `dotnet publish /t:PublishContainer` to build on the command line.
 :::moniker-end
 
 :::moniker range="vs-2019"
-If you want to build a container project with a Dockerfile outside of Visual Studio, you can use `docker build`, `MSBuild`, `dotnet build`, or `dotnet publish` to build from the command line.
+If you want to build a container project with a Dockerfile outside of Visual Studio, you can use `docker build` or `dotnet publish /t:PublishContainer` to build from the command line.
 :::moniker-end
 
 :::moniker range="<=vs-2022"

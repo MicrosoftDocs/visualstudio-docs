@@ -13,13 +13,16 @@ ms.topic: reference
 You can customize how Visual Studio builds your container projects by setting the properties that MSBuild uses to build your project. For example, you can change the name of the Dockerfile, specify tags and labels for your images, provide additional arguments passed to Docker commands, and control whether Visual Studio does certain performance optimizations such as building outside of the container environment. You can also set debugging properties such as the name of the executable to launch, and the command line arguments to provide.
 
 :::moniker range="visualstudio"
-To set the value of a property, edit the project file. For example, suppose your Dockerfile is named *MyDockerfile*. You can set the `ContainerPath` property in the project file as follows.
+To set the value of a property, edit the project file. For example, suppose your Dockerfile is named *MyDockerfile*. You can set the `DockerfilePath` property in the project file as follows.
 
 ```xml
 <PropertyGroup>
-   <ContainerPath>MyDockerfile</ContainerPath>
+   <DockerfilePath>MyDockerfile</DockerfilePath>
 </PropertyGroup>
 ```
+
+> [!NOTE]
+> The property `DockerfilePath` replaces the deprecated property `DockerfileFile`, which is still supported in the current version of Visual Studio.
 
 :::moniker-end
 
@@ -91,14 +94,14 @@ Some properties listed as obsolete are replaced by equivalent values in *launchs
 |---------------|-------------|----------------|----------------------|
 | `ContainerDevelopmentMode` | Controls whether "build-on-host" optimization ("Fast Mode" debugging) is enabled. Allowed values are **Fast** and **Regular**. | Fast |1.0.1872750|
 | `ContainerVsDbgPath` | The path for VSDBG debugger. | `%USERPROFILE%\vsdbg\vs2017u5` |1.0.1985401|
-| `ContainerImageLabels`<br/><br/>(replaces `DockerImageLabels`) | The default set of labels applied to the Docker image.<br/><br/>`ContainerImageLabel` is an MSBuild item list, not a property. | `com.microsoft.created-by=visual-studio;com.microsoft.visual-studio.project-name=$(MSBuildProjectName)` |1.23.0 for `ContainerImageLabels`<br/><br/>1.5.4 for `DockerImageLabels`|
+| `ContainerLabel`<br/><br/>(replaces `DockerImageLabels`) | The default set of labels applied to the Docker image.<br/><br/>`ContainerLabel` is an MSBuild item list, not a property. | `com.microsoft.created-by=visual-studio;com.microsoft.visual-studio.project-name=$(MSBuildProjectName)` |1.23.0 for `ContainerLabel`<br/><br/>1.5.4 for `DockerImageLabels`|
 | `ContainerFastModeProjectMountDirectory`<br/><br/>(replaces `DockerFastModeProjectMountDirectory`)|In **Fast Mode**, this property controls where the project output directory is volume-mounted into the running container.|C:\app (Windows) or /app (Linux)|1.23.0 for `ContainerFastModeProjectMountDirectory`<br/><br/>1.9.2 for `DockerFastModeProjectMountDirectory`|
 | `ContainerBuildArguments`<br/><br/>(replaces `DockerfileBuildArguments`) | Additional arguments passed to the container build command. See [Docker build](https://docs.docker.com/engine/reference/commandline/build/) or [podman build](https://docs.podman.io/en/latest/markdown/podman-build.1.html). | Not applicable. |1.23.0 for `ContainerBuildArguements`<br/><br/>1.0.1872750 for `DockerfileBuildArguments`|
 | `ContainerBuildContext`<br/><br/>(replaces `DockerfileContext`) | The default context used when building the Docker image, as a path relative to the Dockerfile. | Set by Visual Studio when Docker support is added to a project. It's set to the relative path to the solution folder (usually ".."). |1.23.0 for `ContainerBuildContext`<br/><br/>1.0.1872750 for `DockerfileContext`|
 | `ContainerFastModeStage`<br/><br/>(replaces `DockerfileFastModeStage`) | The Dockerfile stage (that is, target) to be used when building the image in debug mode. | First stage found in the Dockerfile (usually base) | - |
-| `ContainerIncludeDefaultImageLabels` (replaces: `DockerIncludeDefaultImageLabels`) | If true, include default image tags `com.microsoft.created-by=visual-studio` and `com.microsoft.visual-studio.project-name=$(MSBuildProjectName)`. | True | 1.23.0 for `ContainerIncludeDefaultImageLabels` |
+| `ContainerIncludeDefaultImageLabels` (replaces: `DockerIncludeDefaultImageLabels`) | If set to `false`, doesn't include default image tags `com.microsoft.created-by=visual-studio` and `com.microsoft.visual-studio.project-name=$(MSBuildProjectName)`. | True | 1.23.0 for `ContainerIncludeDefaultImageLabels` |
 | `ContainerLabelBuiltImages` (replaces `DockerLabelBuiltImages`)| Include labels on built images. If false, no labels are added, including user-defined labels. | True | 1.23.0 for `ContainerLabelBuiltImages` |
-| `ContainerPath`<br/><br/>(replaces `DockerfileFile`) | Describes the default Dockerfile to use to build/run the container for the project. | Dockerfile |1.23.0 for `ContainerPath`<br/><br/>1.0.1872750 for `DockerfileFile`|
+| `DockerfilePath`<br/><br/>(replaces `DockerfileFile`) | Describes the default Dockerfile to use to build/run the container for the project. | Dockerfile |1.23.0 for `DockerfilePath`<br/><br/>1.0.1872750 for `DockerfileFile`|
 | `ContainerRepository`<br/><br/>(replaces `DockerRepository`) | The repository to use in the label, for example `webapplication1` in the label `webapplication1:dev`. | The assembly name. | 1.23.0 for `ContainerRepository` |
 | `ContainerImageTag` or `ContainerImageTags`<br/><br/>(replaces `DockerfileTag`) | The tag to use when building the image. In debugging, a ":dev" is appended to the tag. | Assembly name after stripping nonalphanumeric characters with the following rules: <br/> If the resultant tag is all numeric, then "image" is inserted as a prefix (for example, image2314) <br/> If the resultant tag is an empty string, then "image" is used as the tag. |1.23.0 for `ContainerImageTag`, `ContainerImageTags`<br/><br/>1.0.1872750 for `DockerfileTag`.|
 | `DockerDebuggeeArguments`<br/><br/>(obsolete, use `commandLineArgs` in *launchsettings.json*) | When debugging, the debugger is instructed to pass these arguments to the launched executable. | - |1.7.8|
@@ -108,6 +111,10 @@ Some properties listed as obsolete are replaced by equivalent values in *launchs
 | DockerDefaultTargetOS | The default target operating system used when building the Docker image. | Set by Visual Studio. |1.0.1985401|
 | `DockerfileRunArguments`<br/><br/>(obsolete, use `containerRunArguments` in *launchsettings.json*) | Additional arguments passed to the [Docker run](https://docs.docker.com/engine/reference/commandline/run/) command. | Not applicable. |1.0.1872750|
 | `DockerfileRunEnvironmentFiles`<br/><br/>(obsolete, use `containerRunEnvironmentFiles` in *launchsettings.json*) | Semicolon-delimited list of environment files applied during Docker run. | Not applicable. |1.0.1872750|
+
+`ContainerRepository` and `ContainerImageTag` (or `ContainerImageTags`) provide the ability to specify the two parts of an image label, the repository and one or more tags (for example, `webapp1:alpha`). In previous versions of Visual Studio, you could use the `DockerfileTag` property to specify the repository and a single tag, but this had limitations, for example, there was no ability to specify multiple tags. The property `DockerfileTag` is obsolete; projects should now use `ContainerRepository` and `ContainerImageTag`, and the current version also supports `ContainerImageTags` for multiple tags.
+
+In previous Visual Studio versions, the syntax was `<DockerfileTag>webapp1:alpha</DockerfileTag>`. The current equivalent is `<ContainerRepository>webapp1</ContainerRespository>` and `<ContainerImageTag>alpha</ContainerImageTag>`, or `<ContainerImageTags>alpha;latest</ContainerImageTags>` if you want multiple tags.
 
 :::moniker-end
 
@@ -131,7 +138,7 @@ The following project file shows examples of some of these settings.
          set to the same folder as the Dockerfile. -->
     <ContainerBuildContext>.</ContainerBuildContext>
     <!-- Set `docker run` arguments to mount a volume -->
-    <ContainerRunArguments>-v $(MSBuildProjectDirectory)/host-folder:/container-folder:ro</ContainerRunArguments>
+    <DockerfileRunArguments>-v $(MSBuildProjectDirectory)/host-folder:/container-folder:ro</DockerfileRunArguments>
     <!-- Set `docker build` arguments to add a custom tag -->
     <ContainerBuildArguments>-t contoso/front-end:v2.0</ContainerBuildArguments>
   </PropertyGroup>
