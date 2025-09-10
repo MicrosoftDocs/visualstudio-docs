@@ -25,7 +25,7 @@ Line-staging support, also known as [interactive staging](https://git-scm.com/bo
 
 :::image type="content" source="media/vs-2022/git-line-staging.png" border="false" alt-text="Screenshot of an example of Git line-staging support in Visual Studio 2022." lightbox="media/vs-2022/git-line-staging.png":::
 
-:::moniker range="vs-2022"
+:::moniker range="visualstudio"
 You can use the hover option to also *unstage* changes, line by line.
 :::moniker-end
 
@@ -50,7 +50,7 @@ The colors and annotations make it easy to differentiate between saved and unsav
 :::moniker range="vs-2022"
 You can change the colors that Visual Studio displays to help you manage changes. In the **Tools** > **Options** dialog, go to the **Environment** > **Fonts and Colors** section, and configure the following **Display items** options:
 :::moniker-end
-:::moniker range="vs-2022"
+:::moniker range="visualstudio"
 You can change the colors that Visual Studio displays to help you manage changes. In the **Tools** > **Options** page, search for **Fonts and Colors**, and configure the following **Display items** options:
 :::moniker-end
 - **Track additions in documents under source control**
