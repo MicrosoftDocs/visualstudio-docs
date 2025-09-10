@@ -12,6 +12,7 @@ monikerRange: '>= visualstudio'
 # Protected mode for dump debugging
 
 When debugging dump files from untrusted sources, Visual Studio by default enables protected mode to provide a secure debugging environment.
+![Screenshot of protected mode banner](../debugger/media/vs-2026/protected-mode-banner.png)
 
 ## What is protected mode?
 
