@@ -526,6 +526,8 @@
       href: how-to-debug-managed-memory-dump.md
     - name: Dump File Summary Extensibility API
       href: dump-file-summary-extensibility-api.md
+    - name: Protected mode dump debugging
+      href: protected-mode-dump-debugging.md
   - name: IntelliTrace
     items:
     - name: IntelliTrace overview
