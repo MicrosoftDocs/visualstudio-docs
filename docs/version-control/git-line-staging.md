@@ -47,8 +47,12 @@ The colors and annotations make it easy to differentiate between saved and unsav
 
 ### Configure color margin settings
 
+:::moniker range="vs-2022"
 You can change the colors that Visual Studio displays to help you manage changes. In the **Tools** > **Options** dialog, go to the **Environment** > **Fonts and Colors** section, and configure the following **Display items** options:
-
+:::moniker-end
+:::moniker range="vs-2022"
+You can change the colors that Visual Studio displays to help you manage changes. In the **Tools** > **Options** page, search for **Fonts and Colors**, and configure the following **Display items** options:
+:::moniker-end
 - **Track additions in documents under source control**
 - **Track deletions in documents under source control**
 - **Track modifications in documents under source control**
