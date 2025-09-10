@@ -3,7 +3,7 @@ title: Learn how to set the container entry point for Docker containers in Visua
 author: ghogen
 description: Understand and configure the custom container entry point set by Visual Studio based on the project type and the container operating system.
 ms.author: ghogen
-ms.date: 9/17/2024
+ms.date: 9/10/2025
 ms.subservice: container-tools
 ms.topic: conceptual
 ---
