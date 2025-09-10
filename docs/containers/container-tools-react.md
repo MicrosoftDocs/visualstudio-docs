@@ -4,7 +4,7 @@ titleSuffix: ""
 author: ghogen
 description: Learn how to create a containerized React SPA app with Visual Studio Container Tools and Docker
 ms.author: ghogen
-ms.date: 7/24/2025
+ms.date: 9/10/2025
 ms.subservice: container-tools
 ms.topic: quickstart
 ms.custom: sfi-image-nochange

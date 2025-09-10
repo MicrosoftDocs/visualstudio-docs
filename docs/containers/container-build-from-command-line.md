@@ -3,7 +3,7 @@ title: Build a containerized Visual Studio project from the command line
 author: ghogen
 description: Build a container project in Visual Studio using the command line, either with MSBuild.exe or using Docker build, and learn how to enable detailed build logs.
 ms.author: ghogen
-ms.date: 09/17/2024
+ms.date: 9/10/2025
 ms.subservice: container-tools
 ms.topic: how-to
 ---
@@ -24,6 +24,32 @@ If you're using the .NET SDK build type, you don't have a Dockerfile, so you can
 
 :::moniker range="vs-2019"
 If you want to build a container project with a Dockerfile outside of Visual Studio, you can use `docker build` or `dotnet publish /t:PublishContainer` to build from the command line.
+:::moniker-end
+
+:::moniker range="visualstudio"
+
+## Prerequisites
+
+- [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows) or [Podman Desktop](https://podman-desktop.io/downloads).
+- [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta), or for Podman support, [Visual Studio (Insiders)](https://visualstudio.microsoft.com/insiders/?cid=learn-onpage-download-cta), with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET desktop development** workload installed
+
+:::moniker-end
+::: moniker range="vs-2022"
+
+## Prerequisites
+
+- [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows).
+- [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET desktop development** workload installed
+
+:::moniker-end
+
+::: moniker range="vs-2019"
+
+## Prerequisites
+
+- [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
+- [Visual Studio 2019 or later](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, **.NET desktop development**, and/or **.NET Core cross-platform development** workload installed
+
 :::moniker-end
 
 :::moniker range="<=vs-2022"

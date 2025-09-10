@@ -4,7 +4,7 @@ description: Use Visual Studio Container Tools to control how Visual Studio work
 author: ghogen
 ms.author: ghogen
 ms.topic: how-to
-ms.date: 8/25/2025
+ms.date: 9/10/2025
 ms.subservice: container-tools
 f1_keywords:
  - VS.ToolsOptionsPages.Container_Tools.General
@@ -18,6 +18,32 @@ f1_keywords:
 # Configure Visual Studio Container Tools
 
 You can control some aspects of how Visual Studio works with Docker containers by using **Container Tools** settings. This article describes how to configure **Container Tools** settings that can affect Visual Studio performance and resource usage when you work with Docker containers.
+
+:::moniker range="visualstudio"
+
+## Prerequisites
+
+- [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows) or [Podman Desktop](https://podman-desktop.io/downloads).
+- [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta), or for Podman support, [Visual Studio (Insiders)](https://visualstudio.microsoft.com/insiders/?cid=learn-onpage-download-cta), with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET desktop development** workload installed
+
+:::moniker-end
+::: moniker range="vs-2022"
+
+## Prerequisites
+
+- [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows).
+- [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET desktop development** workload installed
+
+:::moniker-end
+
+::: moniker range="vs-2019"
+
+## Prerequisites
+
+- [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
+- [Visual Studio 2019 or later](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, **.NET desktop development**, and/or **.NET Core cross-platform development** workload installed
+
+:::moniker-end
 
 ## Container Tools settings
 

@@ -12,6 +12,34 @@ ms.topic: conceptual
 
 A container entry point is a process that is configured to run when a container is started.
 
+:::moniker range="visualstudio"
+
+## Prerequisites
+
+- [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows) or [Podman Desktop](https://podman-desktop.io/downloads).
+- [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta), or for Podman support, [Visual Studio (Insiders)](https://visualstudio.microsoft.com/insiders/?cid=learn-onpage-download-cta), with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET desktop development** workload installed
+
+:::moniker-end
+::: moniker range="vs-2022"
+
+## Prerequisites
+
+- [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows).
+- [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET desktop development** workload installed
+
+:::moniker-end
+
+::: moniker range="vs-2019"
+
+## Prerequisites
+
+- [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
+- [Visual Studio 2019 or later](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, **.NET desktop development**, and/or **.NET Core cross-platform development** workload installed
+
+:::moniker-end
+
+## Entry point by project type
+
 Visual Studio uses a custom container entry point depending on the project type and the container operating system, here are the different combinations:
 
 :::moniker range="<=vs-2019"

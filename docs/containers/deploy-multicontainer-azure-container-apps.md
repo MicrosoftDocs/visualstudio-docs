@@ -3,7 +3,7 @@ title: Deploy multiple containers to Azure
 author: ghogen
 description: Deploy multi-container applications to Azure.
 ms.author: ghogen
-ms.date: 4/16/2025
+ms.date: 9/10/2025
 ms.subservice: container-tools
 ms.topic: tutorial
 monikerRange: ">=vs-2022"

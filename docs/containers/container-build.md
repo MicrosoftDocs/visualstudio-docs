@@ -22,6 +22,32 @@ Suppose you want to make a change in the Dockerfile and see the results in both 
 
 This article explains the Visual Studio build process for containerized apps in some detail, then it contains information on how to modify the Dockerfile to affect both debugging and production builds, or just for debugging.
 
+:::moniker range="visualstudio"
+
+## Prerequisites
+
+- [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows) or [Podman Desktop](https://podman-desktop.io/downloads).
+- [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta), or for Podman support, [Visual Studio (Insiders)](https://visualstudio.microsoft.com/insiders/?cid=learn-onpage-download-cta), with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET desktop development** workload installed
+
+:::moniker-end
+::: moniker range="vs-2022"
+
+## Prerequisites
+
+- [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows).
+- [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET desktop development** workload installed
+
+:::moniker-end
+
+::: moniker range="vs-2019"
+
+## Prerequisites
+
+- [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
+- [Visual Studio 2019 or later](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, **.NET desktop development**, and/or **.NET Core cross-platform development** workload installed
+
+:::moniker-end
+
 ## Dockerfile builds in Visual Studio
 
 ::: moniker range=">=vs-2022"

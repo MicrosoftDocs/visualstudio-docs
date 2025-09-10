@@ -3,7 +3,7 @@ title: Manage SSL certificates for containerized apps
 author: ghogen
 description: Lear how to use secure communications over HTTPS for a containerized app using SSL, and manage certificates and ports.
 ms.author: ghogen
-ms.date: 09/17/2024
+ms.date: 09/10/2025
 ms.subservice: container-tools
 ms.topic: how-to
 ---
@@ -11,6 +11,34 @@ ms.topic: how-to
 # Use SSL for containerized ASP.NET Core apps
 
 SSL (Secure Sockets Layer) provides secure connections over HTTP (HTTPS). This method of securing connections uses a certificate, and in a containerized app, the port mappings are different for secured and unsecured entry points.
+
+:::moniker range="visualstudio"
+
+## Prerequisites
+
+- [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows) or [Podman Desktop](https://podman-desktop.io/downloads).
+- [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta), or for Podman support, [Visual Studio (Insiders)](https://visualstudio.microsoft.com/insiders/?cid=learn-onpage-download-cta), with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET desktop development** workload installed
+
+:::moniker-end
+::: moniker range="vs-2022"
+
+## Prerequisites
+
+- [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows).
+- [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET desktop development** workload installed
+
+:::moniker-end
+
+::: moniker range="vs-2019"
+
+## Prerequisites
+
+- [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
+- [Visual Studio 2019 or later](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, **.NET desktop development**, and/or **.NET Core cross-platform development** workload installed
+
+:::moniker-end
+
+## Security for multicontainer apps
 
 Multicontainer app architectures vary depending on security requirements. Some app designs use HTTPS for external endpoints, but HTTP for internal communication from one container to another. High-security environments might use HTTPS for all communications, even between containers that are only accessible within a secure outer perimeter.
 

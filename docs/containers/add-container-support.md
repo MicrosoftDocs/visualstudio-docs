@@ -4,7 +4,7 @@ description: Learn how to containerize your projects by adding container support
 author: ghogen
 ms.author: ghogen
 ms.topic: overview
-ms.date: 8/26/2025
+ms.date: 9/10/2025
 ms.subservice: container-tools
 ---
 

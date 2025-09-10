@@ -6,7 +6,7 @@ manager: mijacobs
 ms.subservice: container-tools
 ms.devlang: dotnet
 ms.topic: how-to
-ms.date: 10/18/2023
+ms.date: 9/10/2025
 ms.author: ghogen
 ---
 
