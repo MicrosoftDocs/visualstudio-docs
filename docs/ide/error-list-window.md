@@ -35,9 +35,6 @@ Use the toolbar dropdowns to limit which entries appear:
 - Left dropdown (scope): **Entire Solution**, **Open Documents**, **Current Project**, **Current Document**. This restricts the set of code files considered by the Error List.
 - Right dropdown (source): **Build**, **IntelliSense**, or both. Choose whether to show errors that resulted from a build, from IntelliSense analysis, or both.
 
-> [!NOTE]
-> When a filter is applied, the Error List title bar shows the filtered count (for example, "x of y Errors"). If no filter is applied, the title bar displays "Error List".
-
 ## Sort and customize columns
 
 - Click any column header to sort by that column. Hold **Shift** and click additional headers to apply a secondary sort.
