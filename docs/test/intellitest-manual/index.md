@@ -15,9 +15,11 @@ author: mikejo5000
 IntelliTest enables you to find bugs early, and reduces test maintenance costs. Using an automated and transparent testing approach, IntelliTest can generate a candidate suite of tests for your .NET code. Test suite generation can be further guided by
 *correctness properties* you specify. IntelliTest will even evolve the test suite automatically as the code under test evolves.
 
+:::moniker range="<=vs-2022"
 > [!NOTE]
 > IntelliTest is available in Enterprise edition only. It is supported for C# code that targets the .NET Framework. For .NET 6 support with IntelliTest, install the Preview version of Visual Studio Enterprise and see the [announcement
 ](https://devblogs.microsoft.com/visualstudio/intellitest-simplifies-writing-and-maintaining-unit-tests/).
+:::moniker-end
 
 **Characterization tests**
 IntelliTest enables you to determine the behavior of code in terms of a suite of traditional unit tests. Such a test suite can be used as a regression suite, forming the basis for tackling the complexity associated with refactoring legacy or unfamiliar code.

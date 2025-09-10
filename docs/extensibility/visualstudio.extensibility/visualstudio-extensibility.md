@@ -8,6 +8,7 @@ monikerRange: ">=vs-2022"
 author: tinaschrepfer
 manager: mijacobs
 ms.subservice: extensibility-integration
+ms.update-cycle: 365-days
 ---
 
 # About VisualStudio.Extensibility (Preview)

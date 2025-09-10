@@ -25,9 +25,6 @@ items:
       href: tutorial-test-custom-task.md
   - name: MSBuild concepts
     items:
-    - name: Overview
-      displayName: msbuild concepts
-      href: msbuild-concepts.md
     - name: How MSBuild builds projects
       href: build-process-overview.md
     - name: Properties
