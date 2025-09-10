@@ -1,7 +1,7 @@
 ---
 title: Run Unit Tests with Test Explorer
 description: Run tests by using Test Explorer in Visual Studio, enable automatic tests after build, view results, group and filter the test list, create playlists, and use shortcuts.
-ms.date: 1/21/2025
+ms.date: 09/09/2025
 ms.topic: how-to
 f1_keywords:
 - VS.ToolsOptionsPages.Test.General
@@ -12,7 +12,12 @@ ms.subservice: test-tools
 ---
 # Run unit tests by using Test Explorer
 
+::: moniker range=">=visualstudio"
+Use Test Explorer to run unit tests from Visual Studio or third-party unit test projects. In Test Explorer, you can group tests into categories, filter the test list, and create, save, and run playlists of tests. You can also use Test Explorer to [debug unit tests](../test/debug-unit-tests-with-test-explorer.md) and to [analyze code coverage](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md).
+::: moniker-end
+::: moniker range="<=vs-2022"
 Use Test Explorer to run unit tests from Visual Studio or third-party unit test projects. In Test Explorer, you can group tests into categories, filter the test list, and create, save, and run playlists of tests. You can also use Test Explorer to [debug unit tests](../test/debug-unit-tests-with-test-explorer.md) and, in Visual Studio Enterprise, to [analyze code coverage](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md).
+::: moniker-end
 
 Test Explorer can run tests from multiple test projects in a solution and from test classes that are part of the production code projects. Test projects can use various unit test frameworks. When the code under test is written for .NET, the test project can be written in any language that also targets .NET, regardless of the language of the target code. You must test native C and C++ code projects by using a C++ unit test framework.
 

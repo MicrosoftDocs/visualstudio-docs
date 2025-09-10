@@ -9,7 +9,7 @@ ms.author: meghaanand
 ms.manager: mijacobs
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
-monikerRange: vs-2022
+monikerRange: ">=vs-2022"
 ms.custom: ai-learning-hub
 ---
 

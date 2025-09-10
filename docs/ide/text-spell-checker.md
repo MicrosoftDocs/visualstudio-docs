@@ -7,7 +7,7 @@ author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide
-monikerRange: vs-2022
+monikerRange: ">=vs-2022"
 ---
 # Learn about the Spell Checker
 
