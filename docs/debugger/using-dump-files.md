@@ -117,3 +117,6 @@ If Visual Studio can't find the files it needs to debug a module in the dump, it
 - [Just-In-Time debugging](../debugger/just-in-time-debugging-in-visual-studio.md)
 - [Specify symbol (.pdb) and source files](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)
 - [IntelliTrace](../debugger/intellitrace.md)
+::: moniker range=">=visualstudio"
+- [Protected Mode Dump Debugging](../debugger/protected-mode-dump-debugging.md)
+::: moniker-end
