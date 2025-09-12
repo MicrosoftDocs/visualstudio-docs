@@ -1,7 +1,7 @@
 ---
 title: "View strings in a string visualizer"
 description: Use the string visualizer in Visual Studio debugger to view text strings, XML, HTML, and JSON. You can view other object types, including DataSet and DataTable.
-ms.date: "03/11/2025"
+ms.date: "09/10/2025"
 ms.topic: "conceptual"
 dev_langs:
   - "CSharp"
@@ -54,7 +54,20 @@ In addition, **Text Visualizer** provides tooling and string manipulation option
 
 Select the **String manipulation** dropdown list and choose the desired option to decode your data.
 
+::: moniker range=">=visualstudio"
+![Screenshot of Text string visualizer.](../debugger/media/visualstudio/debug-string-visualizer-text.png "Text string visualizer")
+::: moniker-end
+::: moniker range="<= vs-2022"
 ![Screenshot of Text string visualizer.](../debugger/media/dbg-string-visualizer-text.png "Text string visualizer")
+::: moniker-end
+
+::: moniker range=">=visualstudio"
+To search for a sub-string in the text visualizer, press **Ctrl + F** to open the search box. Your search terms are highlighted throughout the string, making it easier to see important text, errors, or patterns.
+
+![Screenshot of search within the text visualizer.](../debugger/media/visualstudio/debug-string-visualizer-text-search.png "Text string visualizer")
+
+If you need to read content behind the search box, hold down **Ctrl** and the search box becomes transparent.
+::: moniker-end
 
 ### View JSON string data
 
