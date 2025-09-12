@@ -64,6 +64,16 @@ With Copilot enabled, you can also get targeted assistance related to the inline
 [ ![Screenshot showing the return values of method calls with Copilot icon.](../debugger/media/vs-2022/view-return-values-copilot.png) ](../debugger/media/vs-2022/view-return-values-copilot.png#lightbox)
 ::: moniker-end
 
+::: moniker range=">=visualstudio"
+The debugger also displays inline post-return values, showing the actual return values of functions.
+
+![Screenshot showing post-return values](../debugger/media/vs-2022/view-post-return-values.png)
+
+You can right-click an inline return value and select options for the type of return values you want to show inline.
+
+![Screenshot showing selecting options for viewing return values](../debugger/media/vs-2022/view-return-values-select-options.png)
+::: moniker-end
+
 ## Set a watch on variables
 
 You can use a **Watch** window to specify a variable (or an expression) that you want to keep an eye on.
