@@ -67,11 +67,11 @@ With Copilot enabled, you can also get targeted assistance related to the inline
 ::: moniker range=">=visualstudio"
 The debugger also displays inline post-return values, showing the actual return values of functions.
 
-![Screenshot showing post-return values](../debugger/media/vs-2022/view-post-return-values.png)
+![Screenshot showing post-return values](../debugger/media/visualstudio/view-post-return-values.png)
 
 You can right-click an inline return value and select options for the type of return values you want to show inline.
 
-![Screenshot showing selecting options for viewing return values](../debugger/media/vs-2022/view-return-values-select-options.png)
+![Screenshot showing options for viewing return values](../debugger/media/visualstudio/view-return-values-select-options.png)
 ::: moniker-end
 
 ## Set a watch on variables
