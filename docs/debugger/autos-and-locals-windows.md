@@ -65,7 +65,7 @@ With Copilot enabled, you can also get targeted assistance related to the inline
 ::: moniker-end
 
 ::: moniker range=">=visualstudio"
-The debugger also displays inline post-return values, showing the actual return values of functions.
+The debugger also displays inline post-return values, showing the return value at the end of the line of code where it returned.
 
 ![Screenshot showing post-return values](../debugger/media/visualstudio/view-post-return-values.png)
 
