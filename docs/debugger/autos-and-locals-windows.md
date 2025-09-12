@@ -67,11 +67,11 @@ With Copilot enabled, you can also get targeted assistance related to the inline
 ::: moniker range=">=visualstudio"
 The debugger also displays inline post-return values, showing the return value at the end of the line of code where it returned.
 
-![Screenshot showing post-return values](../debugger/media/visualstudio/view-post-return-values.png)
+![Screenshot showing post-return values.](../debugger/media/visualstudio/view-post-return-values.png)
 
 You can right-click an inline return value and select options for the type of return values you want to show inline.
 
-![Screenshot showing options for viewing return values](../debugger/media/visualstudio/view-return-values-select-options.png)
+![Screenshot showing options for viewing return values.](../debugger/media/visualstudio/view-return-values-select-options.png)
 ::: moniker-end
 
 ## Set a watch on variables
@@ -152,10 +152,10 @@ You can search for keywords in the Name, Value, and Type columns of the **Autos*
 Use the left and right arrows (Shift+F3 and F3, respectively) to navigate between found matches.
 
 ::: moniker range=">= vs-2022"
-![Screenshot of Search in Locals Window](../debugger/media/vs-2022/ee-search-locals.png "Search in Locals Window")
+![Screenshot of Search in Locals Window.](../debugger/media/vs-2022/ee-search-locals.png "Search in Locals Window")
 ::: moniker-end
 ::: moniker range="vs-2019"
-![Screenshot of Search in Locals Window](../debugger/media/ee-search-locals.png "Search in Locals Window")
+![Screenshot of Search in Locals Window.](../debugger/media/ee-search-locals.png "Search in Locals Window")
 ::: moniker-end
 
 To make your search more or less thorough, use the **Search Deeper** dropdown list at the top of the **Autos** or **Locals** window to select how many levels deep you want to search into nested objects.
