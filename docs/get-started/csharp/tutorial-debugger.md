@@ -11,6 +11,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: mijacobs
+ms.update-cycle: 90-days
 ---
 # Tutorial: Learn to debug C# code using Visual Studio
 
