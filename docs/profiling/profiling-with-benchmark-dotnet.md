@@ -1,7 +1,7 @@
 ---
 title: "Analyze BenchmarkDotNet data in Visual Studio"
 description: Learn how to profile console apps using BenchmarkDotNet.
-ms.date: 01/27/2025
+ms.date: 09/15/2025
 ms.topic: conceptual
 dev_langs:
   - "CSharp"
@@ -40,11 +40,28 @@ Each diagnoser generates performance data related to that diagnoser. For example
   - [BenchmarkDotNET](https://www.nuget.org/packages/BenchmarkDotNet/)
   - [Microsoft.VisualStudio.DiagnosticsHub.BenchmarkDotNetDiagnosers](https://www.nuget.org/packages/Microsoft.VisualStudio.DiagnosticsHub.BenchmarkDotNetDiagnosers)
 
+  ::: moniker range=">=visualstudio"
+  If you use the Benchmark project template, these NuGet packages are present when you create the project.
+  ::: moniker-end
+
+## Create your project
+
+::: moniker range=">=visualstudio"
+The benchmark functions must be added to a .NET console application. These functions can be wrapper functions that reference other project types.
+
+You can either create a console project and add BenchmarkDotNet support manually, or use the **Benchmark Project** template. Some of the steps described in this article are required only when you manually add BenchmarkDotNet support.
+
+The **Benchmark Project** template generates a fully integrated BenchmarkDotNet project with built-in support for CPU Usage profiling and Copilot insights. To use the template, select **Profiling** from the project types list when you create a new project, and then choose **Benchmark Project**.
+
+![Screenshot of BenchmarkDotNet template in Visual Studio.](../profiling/media/visualstudio/benchmark-dotnet-template.png) 
+::: moniker-end
+::: moniker range="vs-2022"
+Create a console project.
+
+The benchmark functions must be added to a .NET console application. These functions can be wrapper functions that reference other project types. 
+::: moniker-end
+
 ## Collect Benchmark.NET data
-
-1. Create a console project.
-
-   The benchmark functions must be added to a .NET console application. These functions can be wrapper functions that reference other project types. 
 
 1. Set your build to a Release build instead of a Debug build.
 
@@ -53,6 +70,10 @@ Each diagnoser generates performance data related to that diagnoser. For example
    Add the diagnoser name as an attribute to the class that contains the benchmarks for which you want to generate data.
 
    For example, you can use the following code for the CPUUsageDiagnoser.
+
+   ::: moniker range=">=visualstudio"
+   If you're using the **Benchmark Project** template, sample code is already provided in the template. If you're manually adding BenchmarkDotNet support, you can use the following example code.
+   ::: moniker-end
 
     ```csharp
     using System;
