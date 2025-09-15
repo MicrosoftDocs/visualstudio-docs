@@ -49,7 +49,7 @@ Each diagnoser generates performance data related to that diagnoser. For example
 ::: moniker range=">=visualstudio"
 The benchmark functions must be added to a .NET console application. These functions can be wrapper functions that reference other project types.
 
-You can either create a console project and add BenchmarkDotNet support manually, or use the **Benchmark Project** template.
+You can either create a console project and add BenchmarkDotNet support manually, or use the **Benchmark Project** template. Some of the steps described in this article are required only when you manually add BenchmarkDotNet support.
 
 The **Benchmark Project** template generates a fully integrated BenchmarkDotNet project with built-in support for CPU Usage profiling and Copilot insights. To use the template, select **Profiling** from the project types list when you create a new project, and then choose **Benchmark Project**.
 
@@ -69,11 +69,11 @@ The benchmark functions must be added to a .NET console application. These funct
 
    Add the diagnoser name as an attribute to the class that contains the benchmarks for which you want to generate data.
 
-   ::: moniker range=">=visualstudio"
-   If you're using the **Benchmark Project** template, sample code is already provided in the template. If you're manually adding BenchmarkDotNet support, use the example code provided here.
-   ::: moniker-end
-
    For example, you can use the following code for the CPUUsageDiagnoser.
+
+   ::: moniker range=">=visualstudio"
+   If you're using the **Benchmark Project** template, sample code is already provided in the template. If you're manually adding BenchmarkDotNet support, you can use the following example code.
+   ::: moniker-end
 
     ```csharp
     using System;
