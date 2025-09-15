@@ -70,7 +70,7 @@ The benchmark functions must be added to a .NET console application. These funct
    Add the diagnoser name as an attribute to the class that contains the benchmarks for which you want to generate data.
 
    ::: moniker range=">=visualstudio"
-   If you are using the **Benchmark Project** template, sample code is already provided in the template. If you are manually adding BenchmarkDotNet support, use the example code provided here.
+   If you're using the **Benchmark Project** template, sample code is already provided in the template. If you're manually adding BenchmarkDotNet support, use the example code provided here.
    ::: moniker-end
 
    For example, you can use the following code for the CPUUsageDiagnoser.
