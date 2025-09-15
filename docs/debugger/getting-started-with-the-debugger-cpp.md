@@ -11,6 +11,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: mijacobs
+ms.update-cycle: 90-days
 
 #customer intent: As a developer, I want to use Visual Studio debugger features like stepping through my application code, viewing the call stack, setting command-line arguments, and inspecting data values.
 ---
