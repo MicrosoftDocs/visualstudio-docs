@@ -11,6 +11,7 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: mijacobs
+ms.update-cycle: 90-days
 
 #customer intent: As a developer, I want to use Visual Studio debugger features like stepping through my application code, viewing the call stack, setting command-line arguments, and inspecting data values.
 ---
@@ -352,7 +353,7 @@ Another powerful debugger feature is the ability to modify the execution flow du
 
 ::: moniker range=">=visualstudio"
 
-## Pass command-line arguments (Preview)
+## Pass command-line arguments
 
 Set command-line arguments for your application in project properties. This is useful when you want to test how your app behaves with different command-line arguments. 
 

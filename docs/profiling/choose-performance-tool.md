@@ -1,7 +1,7 @@
 ---
 title: "Which performance tool should I use?"
 description: Explore profiling tools in Visual Studio that can help you diagnose different kinds of application performance issues and find the right tool for your scenario.
-ms.date: 05/23/2024
+ms.date: 09/09/2025
 ms.topic: conceptual
 ms.custom: "profiling-seo"
 dev_langs:
@@ -66,7 +66,12 @@ The following table lists the different tools Visual Studio offers and the diffe
 |[Performance Explorer](../profiling/profiling-feature-tour.md#analyze-performance-legacy-tools)|no|no|no|no|
 |[IntelliTrace](../debugger/intellitrace.md)|.NET with Visual Studio Enterprise only|no|.NET with Visual Studio Enterprise only|.NET with Visual Studio Enterprise only|
 
+::: moniker range=">=visualstudio"
+Support for CMake projects are the same as C++. For CPU Usage, Memory Usage, File I/O, and the Events viewer, you can run profiling tools against the startup project. However, for Instrumentation and GPU Usage, you must set the executable as the target in the Performance Profiler (**Alt** + **F2**) by selecting **Executable** as the **Startup Project**.
+::: moniker-end
+::: moniker range="<=vs-2022"
 Support for CMake projects are the same as C++. However, you must set the executable as the target in the Performance Profiler (**Alt** + **F2**) by selecting **Executable** as the **Startup Project**.
+::: moniker-end
 
 ## Which tools are supported on Linux?
 

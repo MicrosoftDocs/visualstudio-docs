@@ -7,7 +7,7 @@ author: anandmeg
 ms.author: meghaanand
 ms.manager: mijacobs
 ms.subservice: general-ide
-monikerRange: vs-2022
+monikerRange: ">=vs-2022"
 #customer intent: As a developer, I want to learn how to use Sticky Scroll to help me understand where I am in unfamiliar code.
 ---
 

@@ -9,7 +9,7 @@ ms.author: meghaanand
 ms.manager: mijacobs
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
-monikerRange: vs-2022
+monikerRange: ">=vs-2022"
 ---
 # AI-assisted development in Visual Studio
 
@@ -106,7 +106,7 @@ The following table compares the capabilities of GitHub Copilot (and GitHub Copi
 | Convert Natural language comments to code| **Yes** <br/>[Learn more](visual-studio-github-copilot-extension.md#how-github-copilot-works) | No |
 | Solve code problems with Natural language driven dev assistance | **Yes**, with Copilot Chat. <br/>[Learn more](visual-studio-github-copilot-chat.md#use-copilot-chat-in-visual-studio)| No |
 | Code debugging | **Yes**, with Copilot Chat. <br/>[Learn more](../debugger/debug-with-copilot.md)| No |
-| Measure app performance through profiling | **Yes**, with Copilot Chat. <br/>[Learn more](https://devblogs.microsoft.com/visualstudio/simplified-code-refinement-and-debugging-with-github-copilot-chat/#cpu-usage-auto-insights-in-the-profiler) | No |
+| Measure app performance through profiling | **Yes** <br/>[Learn more](../profiling/profile-with-copilot-agent.md) | No |
 | API usage examples | No | **Yes** <br/>[Learn more](https://devblogs.microsoft.com/visualstudio/intellicode-api-usage-examples/)|
 | Languages supported | Supports several programming languages and frameworks, including but not limited to: C#, C++, Python, JavaScript, and TypeScript| C#, XAML, C++, JavaScript, TypeScript, Visual Basic |
 
