@@ -3,7 +3,7 @@ title: Sign in with work or school account
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 04/30/2025
+ms.date: 09/12/2025
 ms.topic: how-to
 description: Sign into your Visual Studio subscriptions with your work or school account or use your Microsoft Account (MSA), and get answers to frequently asked questions.
 ---
@@ -44,18 +44,9 @@ You can also see your currently selected subscription in the upper right corner,
    > This address also appears in the subscriber Welcome Letter. Check your junk mail folder if you don’t receive the Welcome Letter.
 
 3. Select **Continue**.
-4. You're redirected to a decision page.
-    + Select **Work or school account** if the subscription is associated with a "Work or School" account associated with a Microsoft Entra tenant.
-    + Select **Personal** if the subscription is associated with a "Corporate" email address but was also converted to a "Personal" Microsoft Account (MSA).
-
-        > [!NOTE]
-        > This is the case for many subscribers who have used Visual Studio subscriptions (formerly MSDN) in the past.
-
-    + If one pathway fails, try the other. Subscription admins might modify your subscription.
-
-5. Enter your password.
-6. Select **Sign in**.
-7. At this point, the "Benefits" page should be displayed.
+4. Enter your password.
+5. Select **Sign in**.
+6. At this point, the "Benefits" page should be displayed.
 
 ## Frequently asked questions
 
