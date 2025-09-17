@@ -67,10 +67,6 @@ As you type code or comments in the editor, GitHub Copilot provides context-awar
 
    :::image type="content" source="media/vs-2022/visual-studio-github-copilot-extension/copilot-accept-code-suggestions.png" alt-text="Screenshot that shows suggestions to accept or modify a GitHub Copilot code suggestion in Visual Studio.":::
 
-   To modify the suggestion, select <kbd>Alt</kbd>+<kbd>/</kbd>. You can modify and curate the GitHub Copilot suggestions by adding context in inline chat or by editing the completion.
-  
-   :::image type="content" source="media/vs-2022/visual-studio-github-copilot-extension/copilot-modify-code-completions.png" alt-text="Screenshot that shows modifying a GitHub Copilot code suggestion in Visual Studio.":::
-  
    If the command palette doesn't appear, you might have reached the default limit for its display. To change this limit, go to **Tools** > **Options** > **IntelliCode** > **Advanced**, and adjust the value for **Minimum commits to suppress hint text**.
 
 1. Add the following code to see completions from GitHub Copilot:
@@ -87,7 +83,7 @@ As you type code or comments in the editor, GitHub Copilot provides context-awar
 
 Here are keyboard shortcuts related to completions:
 
-- Manually trigger a completion: <kbd>Alt</kbd>+<kbd>,</kbd>
+- Manually trigger a completion: <kbd>Alt</kbd>+<kbd>.</kbd> or <kbd>Alt</kbd>+<kbd>,</kbd>
 - Cycle through available completions: <kbd>Alt</kbd>+<kbd>.</kbd> (next) and <kbd>Alt</kbd>+<kbd>,</kbd> (previous)
 - Partially accept a completion word by word: <kbd>Ctrl</kbd>+<kbd>Right arrow</kbd>
 - Partially accept a completion line by line: <kbd>Ctrl</kbd>+<kbd>Down arrow</kbd>
