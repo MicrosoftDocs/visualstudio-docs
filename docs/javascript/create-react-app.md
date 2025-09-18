@@ -47,7 +47,7 @@ Make sure to install the following:
 1. Open the `TodoList` component and replace the default content with the following:
 
      ```jsx
-     function TodoList() {
+     export default function TodoList() {
        return (
          <h2>TODO app contents</h2>
        );
@@ -71,9 +71,11 @@ Make sure to install the following:
      export default App;
      ```
 
-1. To add the TodoList component, place your cursor inside the fragment and then type `<TodoL RETURN`. This adds the component and the import statement.
+1. To add the TodoList component, place your cursor inside the fragment and then type `<TodoL RETURN` or `<TodoL TAB`. This adds the component. It might also automatically add the import statement.
 
    :::image type="content" source="media/vs-2022/react-add-jsx-component-to-app.gif" alt-text="Screenshot showing adding a JSX component to the app.":::
+
+   If the import statement is not added automatically, add it at the beginning of the file by typing `import TodoL` and pressing the **TAB** key.
 
    Next, clear out the CSS files.
 
