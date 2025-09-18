@@ -1,12 +1,12 @@
 ---
-title: Deploy ASP.NET Docker app to Container Registry
+title: Deploy ASP.NET container app to Container Registry
 description: Use Visual Studio Container Tools to deploy a containerized ASP.NET or ASP.NET Core web app to Azure Container Registry.
 author: ghogen
 manager: mijacobs
 ms.devlang: dotnet
 ms.topic: how-to
 ms.subservice: container-tools
-ms.date: 08/22/2024
+ms.date: 8/25/2025
 ms.author: ghogen
 
 #customer intent: As a developer, I want to use Visual Studio Container Tools, so I can deploy a containerized ASP.NET or ASP.NET Core web app to Azure Container Registry.
@@ -14,7 +14,6 @@ ms.author: ghogen
 
 # Deploy an ASP.NET container to a container registry using Visual Studio
 
-Docker is a lightweight container engine, similar in some ways to a virtual machine, which you can use to host applications and services.
 This tutorial walks you through using Visual Studio to publish your containerized application to an [Azure Container Registry](https://azure.microsoft.com/products/container-registry).
 
 If you don't have an Azure subscription, create a [free account](https://azure.microsoft.com/pricing/purchase-options/azure-account?icid=dotnet?utm_source=acr-publish-doc&utm_medium=docs&utm_campaign=docs) before you begin.
@@ -23,16 +22,24 @@ If you don't have an Azure subscription, create a [free account](https://azure.m
 
 ::: moniker range="vs-2019"
 
-- Install the latest version of [Visual Studio 2019](https://visualstudio.microsoft.com/vs/older-downloads/) with the "ASP.NET and web development" workload.
-
-::: moniker-end
-::: moniker range=">=vs-2022"
-
-- Install the latest version of [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the "ASP.NET and web development" workload.
-
-:::moniker-end
+- Install [Visual Studio 2019 or later](https://visualstudio.microsoft.com/vs/older-downloads/) with the **ASP.NET and web development** workload.
 
 - Install [Docker Desktop for Windows](https://docs.docker.com/desktop/windows/install/).
+::: moniker-end
+::: moniker range="vs-2022"
+
+- Install [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development** workload.
+
+- Install [Docker Desktop for Windows](https://docs.docker.com/desktop/windows/install/).
+:::moniker-end
+
+::: moniker range="visualstudio"
+
+- Install [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta), or for Podman support, [Visual Studio (Insiders)](https://visualstudio.microsoft.com/insiders?cid=learn-onpage-download-cta), with the **ASP.NET and web development** workload.
+
+- Install [Docker Desktop for Windows](https://docs.docker.com/desktop/windows/install/) or [Podman Desktop](https://podman-desktop.io/downloads).
+
+:::moniker-end
 
 ## Create an ASP.NET Core web app
 
