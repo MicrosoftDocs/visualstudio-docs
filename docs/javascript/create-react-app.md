@@ -1,7 +1,7 @@
 ---
 title: Create a React app in Visual Studio
 description: Create, build, and run a React to-do list web application project from a Visual Studio template.
-ms.date: 04/09/2025
+ms.date: 9/17/2025
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -38,7 +38,7 @@ Make sure to install the following:
 
    It’s a common convention to place components in a components folder, but this is not required. 
 
-1. Right-click the new folder, select **Add > New Item**, then choose **React JSX Component File** in the dialog box, name it `TodoList`, and click **Add**.
+1. Right-click the new folder, select **Add > New Item**, then choose **React JSX Component File** in the dialog box, name it `TodoList`, and click **Add**. If you don't see a list of item templates, select **Show All Templates**.
 
    :::image type="content" source="media/vs-2022/react-add-jsx-component.png" alt-text="Screenshot showing adding a JSX component.":::
 
@@ -47,7 +47,7 @@ Make sure to install the following:
 1. Open the `TodoList` component and replace the default content with the following:
 
      ```jsx
-     function TodoList() {
+     export default function TodoList() {
        return (
          <h2>TODO app contents</h2>
        );
@@ -71,9 +71,11 @@ Make sure to install the following:
      export default App;
      ```
 
-1. To add the TodoList component, place your cursor inside the fragment and then type `<TodoL RETURN`. This adds the component and the import statement.
+1. To add the TodoList component, place your cursor inside the fragment and then type `<TodoL RETURN` or `<TodoL TAB`. This adds the component. It might also automatically add the import statement.
 
    :::image type="content" source="media/vs-2022/react-add-jsx-component-to-app.gif" alt-text="Screenshot showing adding a JSX component to the app.":::
+
+   If the import statement is not added automatically, add it at the beginning of the file by typing `import TodoL` and pressing the **TAB** key.
 
    Next, clear out the CSS files.
 

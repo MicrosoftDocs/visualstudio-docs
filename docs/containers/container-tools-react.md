@@ -4,7 +4,7 @@ titleSuffix: ""
 author: ghogen
 description: Learn how to create a containerized React SPA app with Visual Studio Container Tools and Docker
 ms.author: ghogen
-ms.date: 7/24/2025
+ms.date: 9/10/2025
 ms.subservice: container-tools
 ms.topic: quickstart
 ms.custom: sfi-image-nochange
@@ -21,8 +21,7 @@ With Visual Studio, you can easily build, debug, and run containerized ASP.NET C
 ## Prerequisites
 
 - [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
-- [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **Web Development**, **Azure Tools** workload, and/or **.NET Core cross-platform development** workload installed
-- [.NET Core 3.1 Development Tools](https://dotnet.microsoft.com/download/dotnet-core/3.1) for development with .NET Core 3.1.
+- [Visual Studio 2019](https://visualstudio.microsoft.com/vs/older-downloads/) with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET Core cross-platform development** workload installed.
 - To publish to Azure Container Registry, an Azure subscription. [Sign up for a free trial](https://azure.microsoft.com/offers/ms-azr-0044p/).
 - [Node.js](https://nodejs.org/en/download/)
 - For Windows containers, Windows 10 version 1809 or later, to use the Docker images referenced in this article.
