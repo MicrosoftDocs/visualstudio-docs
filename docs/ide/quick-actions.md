@@ -78,6 +78,12 @@ If there's an error in your code, and Visual Studio has a recommended fix, you s
 > [!TIP]
 > You can turn off some of the code fix Quick Actions. For more information, see [Disable source code analysis for .NET](../code-quality/disable-code-analysis.md).
 
+::: moniker range=">=visualstudio"
+## Configure Quick Actions
+
+You can configure whether to show Quick Actions when hovering over code by selecting **Tools > Options > Languages > Defaults > General**, and then selecting or deselecting **Show Quick Info on hover**.
+::: moniker-end
+
 ::: moniker range=">=vs-2022"
 ## Get AI assistance
 
