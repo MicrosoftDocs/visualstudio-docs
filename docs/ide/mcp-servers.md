@@ -80,6 +80,20 @@ MCP is still a relatively new standard, and the ecosystem is rapidly evolving. A
 
 You have multiple options to add an MCP server in Visual Studio:
 
+### MCP Registry Browsing Experience
+In the latest versions of VS 17.14 and VS 2026, Visual Studio now provides a UI experience to browse and install MCP servers from a registry. To access this UI, navigate to Extensions > MCP Registries...
+
+<img width="456" height="174" alt="image" src="https://github.com/user-attachments/assets/b9e24c6e-db64-41e3-b066-ad57118d7949" />
+
+From there, you will be able to browse from a list of MCP servers, and install them with one click. The GitHub MCP registry is configured as default.
+
+<img width="959" height="675" alt="image" src="https://github.com/user-attachments/assets/c9ffadf4-199d-48bc-8b62-f3adf3f7c942" />
+
+To configure any additional registries to browse from, you can configure them in your Extensions settings, or select the gear icon next to the search bar in the MCP Registry UI. 
+
+<img width="539" height="373" alt="image" src="https://github.com/user-attachments/assets/bb066c1d-7d89-45ca-8faa-d51d1a0f7ce3" />
+
+
 ### One-click install from the web
 
 With the latest servicing release of 17.14, Visual Studio now supports direct installation of MCP Servers. You can click the **Install** button on an MCP server to automatically add it to your Visual Studio instance.
