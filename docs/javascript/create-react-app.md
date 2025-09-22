@@ -47,11 +47,12 @@ Make sure to install the following:
 1. Open the `TodoList` component and replace the default content with the following:
 
      ```jsx
-     export default function TodoList() {
+     function TodoList() {
        return (
          <h2>TODO app contents</h2>
        );
      }
+     export default TodoList;
      ```
 
    This component displays a header, which you will replace later.
