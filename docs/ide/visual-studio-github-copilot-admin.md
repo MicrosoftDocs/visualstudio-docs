@@ -1,7 +1,7 @@
 ---
 title: Admin controls for GitHub Copilot in Visual Studio
 description: Learn about the new features for administrators in GitHub Copilot for Visual Studio that enable admins to manage Copilot effectively. 
-ms.date: 2/25/2025
+ms.date: 9/23/2025
 ms.update-cycle: 180-days
 ms.topic: how-to 
 author: anandmeg
@@ -21,7 +21,7 @@ In this article, you learn how to:
 - [Disable Copilot](#disabling-copilot-skus)
 - [Configure content exclusion](#configure-content-exclusion)
 
-## Disabling Copilot SKUs
+## Disable Copilot SKUs
 
 With Visual Studio 2022 version 17.10 or later, project administrators can disable Copilot for individual accounts or disable it entirely using the [Visual Studio Administrative Templates (ADMX/ADML)](https://www.microsoft.com/en-us/download/details.aspx?id=104405). This helps ensure that your repository remains protected.
 
@@ -42,6 +42,14 @@ To configure and deploy these policies, you can use [Microsoft Intune](../instal
    :::image type="content" source="media/vs-2022/copilot-inbox/copilot-for-individuals-group-poilcy.png" alt-text="Screenshot of Group Policy to block Copilot for individuals." lightbox="media/vs-2022/copilot-inbox/copilot-for-individuals-group-poilcy.png":::
 
 4. Restart your Visual Studio instance to apply the new policy changes.
+
+### Disable Copilot Agent Mode
+
+With Visual Studio 2022 version 17.14.16 or later, project administrators can fully disable Agent Mode using Visual Studio Administrative Templates (ADMX/ADML).
+With this policty setting administrators can control which AI-assisted features are available in their organization, helping ensure usage aligns with security and compliance requirements.
+
+Policy location in the Local Group Policy Editor:
+**Computer Configuration > Administrative Templates > Visual Studio > Copilot Settings > Disable Agent Mode**.
 
 ## Configure content exclusion
 
