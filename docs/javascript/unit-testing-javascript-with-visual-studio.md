@@ -151,8 +151,6 @@ vstest.console .\MyProj.esproj /TestAdapterPath:"C:\Program Files\Microsoft Visu
 ```
 ::: moniker-end
 
-::: moniker-end
-
 ## Write unit tests for ASP.NET Core
 
 To add support for unit testing of JavaScript and TypeScript in an ASP.NET Core project, you need to add TypeScript, npm, and unit testing support to the project by including required NuGet packages.
