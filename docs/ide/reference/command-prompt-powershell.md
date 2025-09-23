@@ -3,7 +3,7 @@ title: Command-Line Shells & Prompt For Developers
 description: Learn about the two command-line shells for developers in Visual Studio, the Developer Command Prompt and the Developer PowerShell.
 author: Mikejo5000
 ms.author: mikejo
-ms.date: 08/06/2025
+ms.date: 09/23/2025
 ms.topic: conceptual
 helpviewer_keywords:
   - "Visual Studio command prompt"
@@ -148,6 +148,15 @@ Since Visual Studio 2015, the Developer Command Prompt sets the `VSCMD_VER` envi
 ### Developer PowerShell
 
 Search for a PowerShell script file named *Launch-VsDevShell.ps1*, or go to the Tools folder for Visual Studio, such as *%ProgramFiles(x86)%\Microsoft Visual Studio\2019\Community\Common7\Tools*. The path changes according to your Visual Studio version, edition, and installation location. After you locate the PowerShell file, run it by entering the following command at a Windows PowerShell or PowerShell 6 prompt.
+
+::: moniker range="visualstudio"
+For Visual Studio 2022:
+
+```powershell
+& 'C:\Program Files\Microsoft Visual Studio\18\Community\Common7\Tools\Launch-VsDevShell.ps1'
+```
+
+::: moniker-end
 
 ::: moniker range="vs-2022"
 For Visual Studio 2022:
