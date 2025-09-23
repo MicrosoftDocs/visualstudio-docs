@@ -40,7 +40,10 @@ Profiling using the Visual Studio Diagnostics CLI tools works by attaching the p
 
 1. Open a command prompt and change to the directory with the collection agent executable, typically here (for Visual Studio Enterprise).
 
-   ::: moniker range=">= vs-2022"
+   ::: moniker range=">=visualstudio"
+   `<Visual Studio installation folder>\18\Enterprise\Team Tools\DiagnosticsHub\Collector\`
+   ::: moniker-end
+   ::: moniker range="vs-2022"
    `<Visual Studio installation folder>\2022\Enterprise\Team Tools\DiagnosticsHub\Collector\`
    ::: moniker-end
    ::: moniker range="vs-2019"

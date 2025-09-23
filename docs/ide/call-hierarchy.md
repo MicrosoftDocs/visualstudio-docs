@@ -52,7 +52,7 @@ When you select a child member in the **Call Hierarchy** tree view pane:
 
 - The **Call Hierarchy** details pane displays all lines of code in which that child member is called from the parent member.
 
-- The **Code Definition** window, if open, displays the code for the selected member (C++ only). For more information about this window, see [View the structure of code](../../ide/viewing-the-structure-of-code.md).
+- The **Code Definition** window, if open, displays the code for the selected member (C++ only). For more information about this window, see [View the structure of code](../ide/viewing-the-structure-of-code.md).
 
 > [!NOTE]
 > The **Call Hierarchy** feature does not find method group references, which includes places where a method is added as an event handler or is assigned to a delegate. To find all references to a method, you can use the **Find All References** command.
