@@ -592,6 +592,8 @@
       href: ide/adding-visual-studio-editor-support-for-other-languages.md
   - name: View the structure of code
     href: ide/viewing-the-structure-of-code.md
+  - name: Call Hierarchy
+    href: ide/call-hierarchy.md
   - name: Use the Task List
     href: ide/using-the-task-list.md
   - name: Compare files - diff view
@@ -918,8 +920,6 @@
   - name: General user interface elements
     displayName: Windows and dialogs
     items:
-    - name: Call Hierarchy
-      href: ide/reference/call-hierarchy.md
     - name: Developer Command Prompt & Developer PowerShell
       href: ide/reference/command-prompt-powershell.md
     - name: Preview Changes
