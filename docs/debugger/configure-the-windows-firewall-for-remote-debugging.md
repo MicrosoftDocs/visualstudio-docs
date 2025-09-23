@@ -46,6 +46,15 @@ To open a port using PowerShell:
 
 For Windows Firewall, you can use PowerShell commands such as [New-NetFirewallRule](/powershell/module/netsecurity/new-netfirewallrule).
 
+::: moniker range="visualstudio"
+The following example opens port 4026 for the remote debugger on the remote computer. The port and path you need to use might be different.
+
+```ps
+New-NetFirewallRule -DisplayName "msvsmon" -Direction Inbound -Program "Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\Remote Debugger\x64\msvsmon.exe" -LocalPort 4026 -Protocol TCP -Authentication Required -Action Allow
+```
+
+::: moniker-end
+
 ::: moniker range="vs-2022"
 The following example opens port 4026 for the remote debugger on the remote computer. The port and path you need to use might be different.
 
