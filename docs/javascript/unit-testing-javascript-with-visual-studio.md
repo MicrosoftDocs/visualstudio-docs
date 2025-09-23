@@ -139,6 +139,7 @@ You can run unit tests directly from the command line for your unit test framewo
 
 You may also choose to run the tests from the command line using *vstest.console*. For example, you may want to use vstest.console to maintain consistency with C# unit tests, or to run in Azure DevOps. Use the following command, but replace `MyProj` with your project name.
 
+::: moniker-end
 ::: moniker range=">=visualstudio"
 ```
 vstest.console .\MyProj.esproj /TestAdapterPath:"C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\Extensions\Microsoft\JavaScript"
