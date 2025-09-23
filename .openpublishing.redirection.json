@@ -6,6 +6,21 @@
       "redirect_document_id": false
     },
     {
+       "source_path": "docs/ide/reference/options-text-editor-xaml-formatting.md",
+       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-text-editor-xaml-formatting",
+       "redirect_document_id": false
+    },
+    {
+       "source_path": "docs/ide/reference/options-text-editor-xaml-miscellaneous.md",
+       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-text-editor-xaml-miscellaneous",
+       "redirect_document_id": false
+    },
+    {
+       "source_path": "docs/ide/reference/call-hierarchy.md",
+       "redirect_url": "/visualstudio/ide/call-hierarchy",
+       "redirect_document_id": false
+    },
+    {
        "source_path": "docs/ide/reference/import-and-export-settings-environment-options-dialog-box.md",
        "redirect_url": "/visualstudio/ide/personalizing-the-visual-studio-ide",
        "redirect_document_id": false

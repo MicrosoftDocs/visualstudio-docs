@@ -115,7 +115,7 @@ The following example is based on the TypeScript React project template provided
    > For TypeScript, don't use the `outfile` option in *tsconfig.json*, because Test Explorer won't be able to find your unit tests. You can use the `outdir` option, but make sure that configuration files such as `package.json` and `tsconfig.json` are in the project root.
 
    > [!IMPORTANT]
-   > If the output from **Tests** in the Output window shows a `ReadOnlySpan` error during test discovery, use the following workaround for a known [MSBuild issue](https://github.com/dotnet/msbuild/issues/7873). Open the folder, *Program Files\Microsoft Visual Studio\2022\\<version\>\Common7\IDE\Extensions\TestPlatform*, and rename *System.Memory.dll* to a different name. This fix enables test discovery.
+   > If the output from **Tests** in the Output window shows a `ReadOnlySpan` error during test discovery, use the following workaround for a known [MSBuild issue](https://github.com/dotnet/msbuild/issues/7873). For Visual Studio 2022, open the folder, *Program Files\Microsoft Visual Studio\2022\\<version\>\Common7\IDE\Extensions\TestPlatform*, and rename *System.Memory.dll* to a different name. This fix enables test discovery.
 
 ### Run tests (.esproj)
 
@@ -139,10 +139,17 @@ You can run unit tests directly from the command line for your unit test framewo
 
 You may also choose to run the tests from the command line using *vstest.console*. For example, you may want to use vstest.console to maintain consistency with C# unit tests, or to run in Azure DevOps. Use the following command, but replace `MyProj` with your project name.
 
+::: moniker-end
+::: moniker range=">=visualstudio"
+```
+vstest.console .\MyProj.esproj /TestAdapterPath:"C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\Extensions\Microsoft\JavaScript"
+```
+::: moniker-end
+
+::: moniker range="vs-2022"
 ```
 vstest.console .\MyProj.esproj /TestAdapterPath:"C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\Extensions\Microsoft\JavaScript"
 ```
-
 ::: moniker-end
 
 ## Write unit tests for ASP.NET Core
@@ -366,7 +373,7 @@ The following example is based on the ASP.NET Core Model-View-Controller project
 
    ::: moniker range="vs-2022"
    > [!IMPORTANT]
-   > If the output from **Tests** in the Output window shows a `ReadOnlySpan` error during test discovery, use the following workaround for a known [MSBuild issue](https://github.com/dotnet/msbuild/issues/7873). Open the folder, *Program Files\Microsoft Visual Studio\2022\\<version\>\Common7\IDE\Extensions\TestPlatform*, and rename *System.Memory.dll* to a different name. This fix enables test discovery.
+   > If the output from **Tests** in the Output window shows a `ReadOnlySpan` error during test discovery, use the following workaround for a known [MSBuild issue](https://github.com/dotnet/msbuild/issues/7873). In Visual Studio 2022, open the folder, *Program Files\Microsoft Visual Studio\2022\\<version\>\Common7\IDE\Extensions\TestPlatform*, and rename *System.Memory.dll* to a different name. This fix enables test discovery.
    ::: moniker-end
 
 ### Run tests (ASP.NET Core)

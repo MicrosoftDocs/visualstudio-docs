@@ -13,7 +13,10 @@ ms.subservice: test-tools
 # Upgrade from .testsettings to .runsettings
 
 You can upgrade your test configuration file from *.testsettings* to *.runsettings* with the SettingsMigrator tool that installs along with Visual Studio. Depending on your Visual Studio install location, you can find the settings migrator tool in the following path:
-::: moniker range=">=vs-2022"
+::: moniker range=">=visualstudio"
+`C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\Extensions\TestPlatform\SettingsMigrator.exe`
+::: moniker-end
+::: moniker range="vs-2022"
 `C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\Extensions\TestPlatform\SettingsMigrator.exe`
 ::: moniker-end
 ::: moniker range="vs-2019"
