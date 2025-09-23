@@ -12,9 +12,14 @@ title: Remote debugger download
 
 On the remote device or server that you want to debug on, rather than the Visual Studio machine, download and install the correct version of the remote tools from the links in the following table.
 
+::: moniker range=">=visualstudio"
+- Download the most recent update of the remote tools for your version of Visual Studio. Remote tools for Visual Studio 2022 and 2026 can be used with either version of Visual Studio. However, remote tools versions that are earlier than Visual Studio 2022 aren't compatible with later Visual Studio versions. (For example, if you're using Visual Studio 2019, download the latest update of the remote tools for Visual Studio 2019. In this scenario, don't download the remote tools for Visual Studio 2022.)
+::: moniker-end
+::: moniker range="vs-2022"
 - Download the most recent update of the remote tools for your version of Visual Studio. Earlier remote tools versions aren't compatible with later Visual Studio versions. (For example, if you're using Visual Studio 2019, download the latest update of the remote tools for Visual Studio 2019. In this scenario, don't download the remote tools for Visual Studio 2022.)
+::: moniker-end
 - Download the remote tools with the same architecture as the machine you're installing them on. For example, if you want to debug x86 applications on a remote computer running an x64 operating system, install the x64 remote tools. To debug x86, ARM, or x64 applications on an ARM64 operating system, install the ARM64 remote tools.
-   
+
 ::: moniker range=">=vs-2022"
 
 |Version|Link|Notes|
