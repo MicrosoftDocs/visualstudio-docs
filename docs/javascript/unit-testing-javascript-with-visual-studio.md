@@ -374,7 +374,7 @@ The following example is based on the ASP.NET Core Model-View-Controller project
 
    ::: moniker range="vs-2022"
    > [!IMPORTANT]
-   > If the output from **Tests** in the Output window shows a `ReadOnlySpan` error during test discovery, use the following workaround for a known [MSBuild issue](https://github.com/dotnet/msbuild/issues/7873). Open the folder, *Program Files\Microsoft Visual Studio\2022\\<version\>\Common7\IDE\Extensions\TestPlatform*, and rename *System.Memory.dll* to a different name. This fix enables test discovery.
+   > If the output from **Tests** in the Output window shows a `ReadOnlySpan` error during test discovery, use the following workaround for a known [MSBuild issue](https://github.com/dotnet/msbuild/issues/7873). In Visual Studio 2022, open the folder, *Program Files\Microsoft Visual Studio\2022\\<version\>\Common7\IDE\Extensions\TestPlatform*, and rename *System.Memory.dll* to a different name. This fix enables test discovery.
    ::: moniker-end
 
 ### Run tests (ASP.NET Core)
