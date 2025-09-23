@@ -143,7 +143,7 @@
     href: ide/visual-studio-github-copilot-get-started.md
   - name: Code suggestions
     items:
-    - name: Code Completions
+    - name: Code completion
       href: ide/visual-studio-github-copilot-extension.md
     - name: Next Edit Suggestions
       href: ide/copilot-next-edit-suggestions.md
