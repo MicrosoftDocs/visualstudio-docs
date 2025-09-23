@@ -123,7 +123,7 @@ Some popular features in Visual Studio that improve your productivity when devel
    The **Call Hierarchy** window shows the methods that call a selected method. This information can be useful when you're thinking about changing or removing the method, or when you're trying to track down a bug.
 
    ::: moniker range="<=vs-2019"
-   ![Screenshot that shows the Call Hierarchy window.](../../ide/reference/media/call-hierarchy-csharp-expanded.png)
+   ![Screenshot that shows the Call Hierarchy window.](../../ide/media/call-hierarchy-csharp-expanded.png)
    ::: moniker-end
    ::: moniker range=">=vs-2022"
    ![Screenshot that shows the Call Hierarchy window.](../media/vs-2022/call-hierarchy-csharp-expanded.png)
