@@ -154,7 +154,7 @@ Input method| Steps
 
 ## Call Hierarchy
 
-You can view calls to and from a method in the [Call Hierarchy window](../ide/reference/call-hierarchy.md):
+You can view calls to and from a method in the [Call Hierarchy window](../ide/call-hierarchy.md):
 
 Input method| Steps
 ------------ | ---
@@ -184,4 +184,4 @@ You can get info about specific code, like changes and who made the changes, ref
 ## Related content
 
 - [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)
-- [View call hierarchy](../ide/reference/call-hierarchy.md)
+- [View call hierarchy](../ide/call-hierarchy.md)
