@@ -13,6 +13,7 @@ ms.author: mikejo
 manager: mijacobs
 ms.subservice: test-tools
 author: mikejo5000
+ms.update-cycle: 90-days
 ---
 # Create and run unit tests for .NET
 
@@ -131,8 +132,10 @@ You now have a project with methods you can test. In this article, the tests foc
 
 1. Type **test** in the search box, select **C#** as the language, and then select the C# **MSTest Test Project** for .NET template, and then click **Next**.
 
+   ::: moniker range="vs-2019"
    > [!NOTE]
    > In Visual Studio 2019 version 16.9, the MSTest project template is **Unit Test Project**.
+   ::: moniker-end
 
 1. Name the project **BankTests** and click **Next**.
 

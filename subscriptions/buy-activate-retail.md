@@ -3,9 +3,9 @@ title: Subscriptions available in the Microsoft Store
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 08/27/2025
+ms.date: 09/12/2025
 ms.topic: how-to
-description: Purchase Visual Studio subscriptions in the Microsoft Store and activate them in the Visual Studio subscriptions portal.
+description: Purchase Visual Studio subscriptions in the Microsoft Store and activate them in the Visual Studio subscriptions portal, and get answers to frequently asked questions.
 ---
 
 # Visual Studio subscriptions are available through the Microsoft Store
@@ -24,7 +24,10 @@ Visual Studio subscriptions available through the Microsoft Store include:
 Each of these subscriptions offers the option to make an initial purchase or to renew an existing subscription. Renewal pricing, which reflects a significant discount, is only available for existing subscriptions. 
 
 > [!IMPORTANT]
-> To qualify to renew subscriptions at the discounted renewal price, subscriptions should be renewed before they expire. Subscriptions expired for 30 days or more aren't eligible for renewal pricing.    
+> To qualify to renew subscriptions at the discounted renewal price, subscriptions should be renewed before they expire. Subscriptions expired for 30 days or more aren't eligible for renewal pricing.
+
+> [!IMPORTANT]
+> If you don't receive your confirmation email or product key, contact the [Microsoft Store Support](https://support.microsoft.com/account-billing/help-with-microsoft-store-purchases-4f615f2a-6bbd-fd69-6695-ae213d63eef0). They can provide you with the necessary information so you can activate your renewal.   
 
 ## How to activate subscriptions
 
@@ -41,10 +44,36 @@ After you purchase a Visual Studio subscription through the Microsoft Store, you
 7. Enter the product key information available from the payment "Confirmation Page" or "Confirmation Email" and select **Activate**.
 8. The subscription should now be visible on the [Subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) page and you should have access to all your subscription benefits.
  
+## Support for Visual Studio subscriber portal
+
++ If you have issues activating your subscription or renewing in the Visual Studio subscriber portal, contact [Visual Studio subscription support](https://my.visualstudio.com/gethelp).
++ If you don't receive the confirmation email and the product key or have any questions about purchasing through the Microsoft Store, contact [Microsoft Store Support](https://support.microsoft.com/help/28808/microsoft-store-contact-support?ocid=MSCOMStoreFooter-ContactUs).
+
 > [!NOTE]
 > When you buy a Retail Visual Studio Subscription through the Microsoft Store or another retail channel, you manage it differently than subscriptions from Volume Licensing or Enterprise Agreements using the Visual Studio Subscriptions Admin portal (manage.visualstudio.com).
 >
 >These subscriptions are activated using a product key and are intended for individual developers and small teams. As such, they don't include access to subscription management features such as user assignment, or renewal automation. These capabilities are only available for subscriptions provisioned through organizational licensing programs.
+
+## How to renew retail subscriptions
+
+For help, visit [How to renew retail subscriptions](https://learn.microsoft.com/visualstudio/subscriptions/faq/admin/renewal-cancellation/#how-do-i-renew-visual-studio-subscriptions) article.
+
+## Frequently asked questions
+
+### Q: How do I assign retail Visual Studio subscriptions to individual developers?
+
+A: Each retail Visual Studio subscription includes a unique 5x5 product key, which the purchaser receives via email. While there isn't a typical "assignment" process available, this option should help with provisioning the intended user with access:
+
+1. The purchaser shares one Visual Studio 5x5 product key with each developer.
+1. The developer signs in to https://my.visualstudio.com/subscriptions/activate. 
+1. The developer enters their email address that requires access to the Visual Studio subscription and selects **Continue**.
+1. They might be redirected to one of two different sign-in pages depending on the type of account they're using:
+    + Subscribers using their personal "Microsoft Account" (MSA) see the Microsoft Account password page.
+    + Subscribers using their work/school accounts are redirected to their organization's sign-in page.
+1. They enter their password or complete the organization's sign-in requirements.
+1. Upon successful sign-in, an "Activate Your Visual Studio Subscriptions" window appears.
+1. They enter the 5x5 product key supplied to them from the "Confirmation Page" or "Confirmation Email" and select **Activate**.
+1. The subscription should now be visible on their subscriptions page, and they should have access to all their subscription benefits.
 
 ## Support for Microsoft Store
 

@@ -3,9 +3,10 @@ title: Deploy multiple containers to Azure
 author: ghogen
 description: Deploy multi-container applications to Azure.
 ms.author: ghogen
-ms.date: 4/16/2025
+ms.date: 9/10/2025
 ms.subservice: container-tools
 ms.topic: tutorial
+monikerRange: ">=vs-2022"
 
 # Customer intent: deploy a multicontainer app to Azure Container Apps
 ---
@@ -16,11 +17,21 @@ You can deploy a multi-container app to [Azure Container Apps](/azure/container-
 
 The process involves a few steps using Visual Studio and the Azure portal. You can also use the Azure CLI to perform these actions, but that's beyond the scope of this tutorial. First, we use the app you built using the [Create a multi-container app](tutorial-multicontainer.md), and deploy it using the **Publish** process. Visual Studio walks you through the steps to create the first container app, a container app environment, as well as create a container registry to store the container images. You then run through the Publish process again with the other container app. You specifically must choose the same container app environment in the Publish process. Finally, you need to configure the Redis cache to work with the Azure Redis Cache service. You modify the cache configuration code and republish the Web API. Then, you configure the permissions to grant the app's system-assigned managed identity access to the cache.
 
+:::moniker range="visualstudio"
 ## Prerequisites
 
 - An Azure subscription. Sign up for a [free trial](https://azure.microsoft.com/free/search).
-- [Visual Studio 2022](https://visualstudio.microsoft.com/vs/) or later with the Azure development and Web development workloads installed.
+- [Visual Studio](https://visualstudio.microsoft.com/vs/) with the **Azure development** and **ASP.NET and web development** workloads installed.
 - The MulticontainerSample project at [`https://github.com/MicrosoftDocs/vs-tutorial-samples`](https://github.com/MicrosoftDocs/vs-tutorial-samples) in the *docker* folder. The sample solution contains two projects, the Web API backend and the ASP.NET Razor front end, as you created in another [tutorial](tutorial-multicontainer.md). You can also create the two projects from scratch, since they are very simple modifications of the default templates, by following that tutorial. You can skip the Docker Compose steps.
+:::moniker-end
+
+:::moniker range="vs-2022"
+## Prerequisites
+
+- An Azure subscription. Sign up for a [free trial](https://azure.microsoft.com/free/search).
+- [Visual Studio](https://visualstudio.microsoft.com/vs/) or later with the **Azure development** and **ASP.NET and web development** workloads installed.
+- The MulticontainerSample project at [`https://github.com/MicrosoftDocs/vs-tutorial-samples`](https://github.com/MicrosoftDocs/vs-tutorial-samples) in the *docker* folder. The sample solution contains two projects, the Web API backend and the ASP.NET Razor front end, as you created in another [tutorial](tutorial-multicontainer.md). You can also create the two projects from scratch, since they are very simple modifications of the default templates, by following that tutorial. You can skip the Docker Compose steps.
+:::moniker-end
 
 ## Deploy the Web API backend
 

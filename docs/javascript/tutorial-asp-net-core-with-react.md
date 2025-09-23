@@ -11,6 +11,7 @@ ms.subservice: javascript-typescript
 dev_langs:
   - JavaScript
 monikerRange: '>= vs-2022'
+ms.update-cycle: 90-days
 ---
 # Tutorial: Create an ASP.NET Core app with React in Visual Studio
 

@@ -1,7 +1,7 @@
 ---
 title: Inspect variables - Visual Studio debugger
 description: Inspect variables in the Autos and Locals windows while debugging in Visual Studio. The Autos and Locals windows show variable values while you are debugging.
-ms.date: 4/10/2025
+ms.date: 9/5/2025
 ms.update-cycle: 180-days
 ms.topic: how-to
 f1_keywords:
@@ -64,6 +64,16 @@ With Copilot enabled, you can also get targeted assistance related to the inline
 [ ![Screenshot showing the return values of method calls with Copilot icon.](../debugger/media/vs-2022/view-return-values-copilot.png) ](../debugger/media/vs-2022/view-return-values-copilot.png#lightbox)
 ::: moniker-end
 
+::: moniker range=">=visualstudio"
+The debugger also displays inline post-return values, showing the return value at the end of the line of code where it returned.
+
+![Screenshot showing post-return values.](../debugger/media/visualstudio/view-post-return-values.png)
+
+You can right-click an inline return value and select options for the type of return values you want to show inline.
+
+![Screenshot showing options for viewing return values.](../debugger/media/visualstudio/view-return-values-select-options.png)
+::: moniker-end
+
 ## Set a watch on variables
 
 You can use a **Watch** window to specify a variable (or an expression) that you want to keep an eye on.
@@ -80,6 +90,16 @@ While debugging, right-click an object in the code editor and choose **Add Watch
 In this example, you've a watch set on the object, and you can see its value change as you move through the debugger. Unlike the other variable windows, the **Watch** windows always show the variables that you're watching (they're grayed out when out of scope).
 
 For detailed information, see [Set a Watch using the Watch and QuickWatch Windows](../debugger/watch-and-quickwatch-windows.md).
+
+::: moniker range=">= vs-2022"
+## View return values of LINQ queries
+
+While you're paused in the debugger, you can hover over individual clauses or segments of your LINQ query to evaluate the immediate query return value.
+
+![Screenshot of return value of LINQ query.](../debugger/media/vs-2022/view-return-value-linq-query.png)
+
+If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while hovering over the LINQ query. Select the **GitHub Copilot** icon at the end of the DataTip to analyze the query with Copilot. Copilot then explains the syntax of the LINQ query and clarifies why you're getting the specified result.
+::: moniker-end
 
 ::: moniker range=">= vs-2022"
 ## Get AI assistance
@@ -132,10 +152,10 @@ You can search for keywords in the Name, Value, and Type columns of the **Autos*
 Use the left and right arrows (Shift+F3 and F3, respectively) to navigate between found matches.
 
 ::: moniker range=">= vs-2022"
-![Screenshot of Search in Locals Window](../debugger/media/vs-2022/ee-search-locals.png "Search in Locals Window")
+![Screenshot of Search in Locals Window.](../debugger/media/vs-2022/ee-search-locals.png "Search in Locals Window")
 ::: moniker-end
 ::: moniker range="vs-2019"
-![Screenshot of Search in Locals Window](../debugger/media/ee-search-locals.png "Search in Locals Window")
+![Screenshot of Search in Locals Window.](../debugger/media/ee-search-locals.png "Search in Locals Window")
 ::: moniker-end
 
 To make your search more or less thorough, use the **Search Deeper** dropdown list at the top of the **Autos** or **Locals** window to select how many levels deep you want to search into nested objects.

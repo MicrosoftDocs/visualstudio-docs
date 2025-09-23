@@ -20,6 +20,8 @@
     href: quickstart-debug-aspnet.md
 - name: Tutorials
   items:
+  - name: Debug with Copilot
+    href: debug-with-copilot.md
   - name: Learn to debug C#
     href: ../get-started/csharp/tutorial-debugger.md?toc=%2fvisualstudio%2fdebugger%2ftoc.json
   - name: Learn to debug C++
@@ -526,6 +528,8 @@
       href: how-to-debug-managed-memory-dump.md
     - name: Dump File Summary Extensibility API
       href: dump-file-summary-extensibility-api.md
+    - name: Protected mode dump debugging
+      href: protected-mode-dump-debugging.md
   - name: IntelliTrace
     items:
     - name: IntelliTrace overview

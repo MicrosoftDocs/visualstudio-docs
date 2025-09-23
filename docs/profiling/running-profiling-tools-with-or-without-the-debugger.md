@@ -1,7 +1,7 @@
 ---
 title: "Run profiling tools on release or debug builds"
 description: Explore the differences between running profiling tools for your applications in Visual Studio on release or debug builds.
-ms.date: "01/07/2025"
+ms.date: "08/29/2025"
 ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"
@@ -33,13 +33,22 @@ To collect performance data on release builds, run the Performance Profiler tool
 
 1. Select **Debug** > **Performance Profiler**, or press **Alt**+**F2**.
 
-1. On the diagnostic tools launch page, select one or more tools to run. Only the tools that are applicable to the project type, operating system, and programming language are shown. Select **Show all tools** to also see tools that are disabled for this diagnostic session.
+1. On the diagnostic tools launch page, select one or more tools to run. Only the tools that are applicable to the project type, operating system, and programming language are shown.
 
+   ::: moniker range="visualstudio"
+   ![Screenshot of Performance Profiler.](../profiling/media/vs/prof-tour-performance-profiler.png "Performance Profiler")
+
+   Tools that can be used in combination appear in the **Flexible** tab. Tools that must be used in isolation appear in the **Standalone** tab. If Copilot is enabled, the **Recommended** tab shows the tools that Copilot recommends based on its analysis of your source code.
+   ::: moniker-end
    ::: moniker range=">=vs-2022"
    ![Screenshot of diagnostic tools.](../profiling/media/vs-2022/performance-profiler-summary-page.png "DIAG_SelectTool")
+
+   Select **Show all tools** to also see tools that are disabled for this diagnostic session.
    ::: moniker-end
    ::: moniker range="<=vs-2019"
    ![Screenshot of diagnostic tools.](../profiling/media/diaghubsummarypage.png "DIAG_SelectTool")
+
+   Select **Show all tools** to also see tools that are disabled for this diagnostic session.
    ::: moniker-end
 
 1. To start the diagnostic session, select **Start**.

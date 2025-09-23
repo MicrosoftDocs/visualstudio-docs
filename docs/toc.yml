@@ -163,6 +163,8 @@
       href: ide/copilot-chat-context.md
     - name: Manage context
       href: ide/copilot-chat-context-references.md
+    - name: How chat uses context
+      href: ide/copilot-context-overview.md
   - name: Guides
     items:
     - name: Debug with Copilot

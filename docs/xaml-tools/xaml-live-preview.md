@@ -22,7 +22,7 @@ With XAML Live Preview, you can capture a desktop app's user interface (UI) and 
 
 The XAML Live Preview window is available during debugging. To open it, go to **Debug** > **Windows** > **XAML Live Preview**.
 
-Starting in Visual Studio 2022 version 17.14 Preview 2, XAML Live Preview and [XAML Hot Reload](../xaml-tools/xaml-hot-reload.md) are available at design-time and not just during a debugging session.
+Starting in Visual Studio 2022 version 17.14, XAML Live Preview and [XAML Hot Reload](../xaml-tools/xaml-hot-reload.md) are available at design-time in .NET MAUI apps and not just during a debugging session. Android devices and emulators are also supported.
 
 :::image type="content" source="media/vs-2022/xaml-live-preview-menu.png" alt-text="Screenshot of the XAML Live Preview option from the Debug menu bar.":::
 

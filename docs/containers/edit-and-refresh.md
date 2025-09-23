@@ -1,40 +1,56 @@
 ---
 title: Debug apps in a local Docker container
-description: Modify applications running in a local Docker container, refresh with the Edit and Refresh actions, and set debugging breakpoints.
+description: Modify applications running in a local container, refresh with the Edit and Refresh actions, and set debugging breakpoints.
 ms.author: ghogen
 author: ghogen
 manager: mijacobs
 ms.topic: how-to
-ms.date: 4/1/2025
+ms.date: 9/10/2025
 ms.subservice: container-tools
 ---
 
-# Debug apps in a local Docker container
+# Debug apps in a local container
 
-Visual Studio provides a consistent way to develop Docker containers and validate your application locally.
+Visual Studio provides a consistent way to develop containers and validate your application locally.
 You can run and debug your apps in Linux or Windows containers running on your local Windows desktop with Docker installed, and you don't have to restart the container each time you make a code change.
 
-This article illustrates how to use Visual Studio to start an app in a local Docker container, make changes, and then refresh the browser to see the changes. This article also shows you how to set breakpoints for debugging for containerized apps. Supported project types include web app, console app, and Azure function targeting .NET Framework and .NET Core. The examples presented in this article are a project of type ASP.NET Core Web App and a project of type Console App (.NET Framework).
+:::moniker range="visualstudio"
+This article illustrates how to use Visual Studio to start an app in a local container, make changes, and then refresh the browser to see the changes. This article also shows you how to set breakpoints for debugging for containerized apps. Supported project types include web app, console app, and Azure function targeting .NET Core or .NET 5 and higher. The example presented in this article are a project of type ASP.NET Core Web App.
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+This article illustrates how to use Visual Studio to start an app in a local container, make changes, and then refresh the browser to see the changes. This article also shows you how to set breakpoints for debugging for containerized apps. Supported project types include web app, console app, and Azure function targeting .NET Framework and .NET Core. The examples presented in this article are a project of type ASP.NET Core Web App and a project of type Console App (.NET Framework).
+:::moniker-end
 
 If you already have a project of a supported type, Visual Studio can create a Dockerfile and configure your project to run in a container. See [Container Tools in Visual Studio](overview.md).
 
 ## Prerequisites
 
-To debug apps in a local Docker container, the following tools must be installed:
+To debug apps in a local container, the following tools must be installed:
 
 ::: moniker range="vs-2019"
 
-- [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the Web Development workload installed
-
-::: moniker-end
-
-::: moniker range=">=vs-2022"
-
-- [Visual Studio 2022 or later](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the Web Development workload installed
-
-::: moniker-end
+- [Visual Studio 2019 or later](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development** workload installed.
 
 To run Docker containers locally, you must have a local Docker client. You can use [Docker Desktop](https://www.docker.com/get-docker), which requires Windows 10 or later.
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+- [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development** workload installed.
+
+To run Docker containers locally, you must have a local Docker client. You can use [Docker Desktop](https://www.docker.com/get-docker), which requires Windows 10 or later.
+::: moniker-end
+
+::: moniker range="visualstudio"
+
+- [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta), or for Podman support, [Visual Studio (Insiders)](https://visualstudio.microsoft.com/insiders?cid=learn-onpage-download-cta) with the **ASP.NET and web development** workload installed.
+
+To run Docker containers locally, you must have a local Docker client. You can use [Docker Desktop](https://www.docker.com/get-docker), which requires Windows 10 or later.
+
+To run containers with Podman, install [Podman Desktop](https://podman-desktop.io/downloads).
+
+::: moniker-end
 
 ## Create a web app
 
@@ -66,7 +82,7 @@ To quickly iterate changes in your Razor pages, you can start your application i
     #endif
     ```
 
-    For more information, see [Razor file compilation in ASP.NET Core](/aspnet/core/mvc/views/view-compilation?view=aspnetcore-3.1&preserve-view=true). The exact code might vary, depending on the target framework and the project template you used.
+    For more information, see [Razor file compilation in ASP.NET Core](/aspnet/core/mvc/views/view-compilation). The exact code might vary, depending on the target framework and the project template you used.
 
 1. Set **Solution Configuration** to **Debug**. Then, press **Ctrl**+**F5** to build your Docker image and run it locally.
 
@@ -117,6 +133,7 @@ Often, changes require further inspection. You can use the debugging features of
 Also, in Visual Studio 17.10 and later, [Hot Reload](../debugger/hot-reload.md) is supported in containers, although be aware that in a container, you have to refresh the page to see changes. If the change is to a CSS file, you again have to refresh the page to see those changes. Note also that updates to scoped CSS files (`.razor.css` files, see [ASP.NET Core Blazor CSS isolation](/aspnet/core/blazor/components/css-isolation)) are not supported as part of hot reload.
 :::moniker-end
 
+:::moniker range="<=vs-2022"
 ## Create a .NET Framework console app
 
 This section presents how to debug a .NET Framework console app project in a local Docker container by first showing how to add Docker support to the project. It's important to recognize that different project types have different levels of Docker support. There are even different levels of Docker support for .NET Core (including .NET 5 and later) console app projects versus .NET Framework console app projects.
@@ -141,11 +158,11 @@ The following procedure demonstrates how to add orchestration support to a .NET 
 4. Press **F5** to start debugging and hit the breakpoint.
 5. Switch to Visual Studio to view the breakpoint and inspect values.
 
-   :::moniker range="<=vs-2019"
    ![Screenshot of the code window for Program.cs in Visual Studio with a breakpoint set to the left of a code line that is highlighted in yellow.](media/edit-and-refresh/breakpoint-console.png)
-   ::: moniker-end
 
-:::moniker range=">=vs-2022"
+:::moniker-end
+
+:::moniker range="vs-2022"
 
 ## Authenticating to Azure services using the token proxy
 
@@ -166,6 +183,39 @@ RUN ln -s /usr/share/dotnet/dotnet /usr/bin/dotnet
 ```
 
 Also, in the Visual Studio project, you need to make some changes to specify this as the layer to use when debugging in Fast Mode. For an explanation of Fast Mode, see [Customize Docker containers in Visual Studio](container-build.md). For single container scenarios (not Docker Compose), set the MSBuild property `DockerfileFastModeStage` to `debug` in order to use that layer for debugging. For Docker Compose, modify the `docker-compose.vs.debug.yml` as follows:
+
+```yml
+# Set the stage to debug to use an image with the .NET runtime in it
+services:
+  functionappintegrated:
+    build:
+      target: debug
+```
+
+For a code sample of authentication with Azure Functions, including both integrated and isolated scenarios, see [VisualStudioCredentialExample](https://github.com/NCarlsonMSFT/VisualStudioCredentialExample).
+:::moniker-end
+
+:::moniker range="visualstudio"
+
+## Authenticating to Azure services using the token proxy
+
+When you're using Azure services from a container, you can use [DefaultAzureCredential](/dotnet/api/azure.identity.defaultazurecredential) (with the [VisualStudioCredential](/dotnet/api/azure.identity.visualstudiocredential) enabled) to authenticate with Azure services with your Microsoft Entra account without any additional configuration in the container. To enable this, see [How to configure Visual Studio Container Tools](container-tools-configure.md). Also, you need to set up Azure authentication in Visual Studio by following the instructions at [Authenticate Visual Studio with Azure](/dotnet/azure/configure-visual-studio#authenticate-visual-studio-with-azure). The support for VisualStudioCredential in a container is available in Visual Studio version 17.6 and later.
+
+### Azure Functions
+
+If you're debugging an integrated Azure Functions project and using the token proxy in the container to handle authentication to Azure services, you need to copy the .NET runtime onto the container for the token proxy to run. If you're debugging an isolated Azure Functions project, it already has the .NET runtime, so there's no need for this extra step.
+
+To ensure the .NET runtime is available to the token proxy, add, or modify the `debug` layer in the Dockerfile that copies the .NET runtime into the container image. For Linux containers, you can add the following code to the Dockerfile:
+
+```dockerfile
+# This layer is to support debugging, VS's Token Proxy requires the runtime to be installed in the container
+FROM mcr.microsoft.com/dotnet/runtime:8.0 AS runtime
+FROM base as debug
+COPY --from=runtime /usr/share/dotnet /usr/share/dotnet
+RUN ln -s /usr/share/dotnet/dotnet /usr/bin/dotnet
+```
+
+Also, in the Visual Studio project, you need to make some changes to specify this as the layer to use when debugging in Fast Mode. For an explanation of Fast Mode, see [Customize Docker containers in Visual Studio](container-build.md). For single container scenarios (not Docker Compose), set the MSBuild property `ContainerFastModeStage` (or `DockerfileFastModeStage`) to `debug` in order to use that layer for debugging. For Docker Compose, modify the `docker-compose.vs.debug.yml` as follows:
 
 ```yml
 # Set the stage to debug to use an image with the .NET runtime in it
