@@ -45,8 +45,7 @@ To configure and deploy these policies, you can use [Microsoft Intune](../instal
 
 ### Disable Copilot Agent Mode
 
-With Visual Studio 2022 version 17.14.16 or later, project administrators can fully disable Agent Mode using [Visual Studio Administrative Templates (ADMX/ADML)](https://www.microsoft.com/en-us/download/details.aspx?id=104405).
-With this policy setting administrators can control which AI-assisted features are available in their organization, helping ensure usage aligns with security and compliance requirements.
+With Visual Studio 2022 version 17.14.16 or later, project administrators can fully disable Agent Mode using [Visual Studio Administrative Templates (ADMX/ADML)](https://www.microsoft.com/en-us/download/details.aspx?id=104405). With this policy setting administrators can control which AI-assisted features are available in their organization, helping ensure usage aligns with security and compliance requirements.
 
 Policy location in the Local Group Policy Editor:
 **Computer Configuration > Administrative Templates > Visual Studio > Copilot Settings > Disable Agent Mode**.
