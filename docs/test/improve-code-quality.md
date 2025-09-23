@@ -1,7 +1,7 @@
 ---
 title: Overview of testing tools
 description: Explore the features of Visual Studio testing tools that can help you and your team develop and sustain high standards of code excellence.
-ms.date: 03/18/2022
+ms.date: 09/09/2025
 ms.topic: conceptual
 helpviewer_keywords:
 - testing tools [Visual Studio]
@@ -58,8 +58,14 @@ IntelliTest automatically generates unit tests and test data for your managed co
 
 [Code coverage](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md) determines what proportion of your project's code is actually being tested by coded tests such as unit tests. To guard effectively against bugs, your tests should exercise or "cover" a large proportion of your code.
 
-> [!NOTE]
-> Code coverage is available in Enterprise edition only.
+::: moniker range=">=visualstudio"
+>[!NOTE]
+> Code coverage is available in Visual Studio Enterprise, Community, and Professional editions. In Visual Studio 2022 and previous versions, the code coverage feature was limited to Visual Studio Enterprise edition.
+::: moniker-end
+::: moniker range="<=vs-2022"
+>[!NOTE]
+> Code coverage is available only with Visual Studio Enterprise. For .NET code coverage, you can alternatively use the command-line tool, [dotnet-coverage](/dotnet/core/additional-tools/dotnet-coverage).
+::: moniker-end
 
 Code coverage analysis can be applied to both managed and unmanaged (native) code.
 

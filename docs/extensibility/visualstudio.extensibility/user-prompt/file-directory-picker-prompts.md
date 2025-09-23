@@ -8,6 +8,7 @@ monikerRange: ">=vs-2022"
 author: kellyfam
 manager: jekelly
 ms.subservice: extensibility-integration
+ms.update-cycle: 365-days
 ---
 
 # Create file or directory picker prompts

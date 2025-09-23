@@ -1,8 +1,8 @@
 ---
-title: Error List Window
-description: Learn about the Error List window and how to use it to perform tasks related to resolving the errors it displays.
+title: How to view errors and warnings
+description: Step-by-step instructions for using the Error List window to view, filter, search, navigate, and save errors and warnings in Visual Studio.
 ms.date: 8/27/2025
-ms.topic: concept-article
+ms.topic: how-to
 helpviewer_keywords:
 - Task List
 - build errors
@@ -13,93 +13,84 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
+ai-usage: ai-assisted
 ---
-# Error List window
+
+# How to view errors and warnings
 
 > [!NOTE]
 > The **Error List** displays information about a specific error message. You can copy the error number or error string text from the **Output** window. To display the **Output** window, press **Ctrl**+**Alt**+**O**. See [Output window](output-window.md).
 
-The **Error List** window lets you perform the following tasks:
+Use the Error List to find and act on errors, warnings, and informational messages while you write and build code. This how-to shows common tasks: displaying the Error List, filtering its contents, searching and sorting entries, navigating to the source of an error, copying or saving results, and getting help online.
 
-- Display the errors, warnings, and messages produced while you write code.
+## Display the Error List
 
-- Find syntax errors noted by IntelliSense.
+1. Choose **View** > **Error List**, or press **Ctrl**+**\\**+**E**.
+2. Choose one of the tabs to control the level of information shown: **Errors**, **Warnings**, or **Messages**.
 
-- Find deployment errors, certain Static Analysis errors, and errors detected while applying Enterprise Template policies.
+## Filter the list by scope and source
 
-- Double-click any error message entry to open the file where the problem occurs, and move to the error location.
+Use the toolbar dropdowns to limit which entries appear:
 
-- Filter which entries are displayed, and which columns of information appear for each entry.
+- Left dropdown (scope): **Entire Solution**, **Open Documents**, **Current Project**, **Current Document**. This restricts the set of code files considered by the Error List.
+- Right dropdown (source): **Build**, **IntelliSense**, or both. Choose whether to show errors that resulted from a build, from IntelliSense analysis, or both.
 
-- Search for specific terms and scope the search to just the current project or document.
+## Sort and customize columns
 
-To display the **Error List**, choose **View** > **Error List**, or press **Ctrl**+**\\**+**E**.
+- Click any column header to sort by that column. Hold **Shift** and click additional headers to apply a secondary sort.
+- To select which columns are visible, right-click any column header and choose **Show Columns**. To change the display order, drag column headers left or right.
 
-You can choose the **Errors**, **Warnings**, and **Messages** tabs to see different levels of information.
+## Search the Error List
 
-To sort the list, click any column header. To sort again by an additional column, hold down the **Shift** key and click another column header. To select which columns are displayed and which are hidden, choose **Show Columns** from the shortcut menu. To change the order in which columns are displayed, drag any column header to the left or right.
+1. Use the **Search Error List** text box on the right side of the Error List toolbar to find specific entries.
+2. You can search for terms that appear in any visible column. Search results are always sorted based on the column that has sort priority, not by the search query or filter.
+3. To clear the search, press **Esc** while the focus is in the Error List, or click the **X** on the right side of the Search box.
 
-## Error List Filters
+## Open the file and navigate to an error
 
-There are two types of filter in two dropdown boxes, one on the right side of the toolbar and one to the left of the toolbar. The dropdown list on the left side of the toolbar specifies the set of code files to use (**Entire Solution**, **Open Documents**, **Current Project**, **Current Document**).
+- Double-click any entry in the Error List to open the file that contains the problem and move to the error location.
 
-You can restrict the scope of the search to analyze and act on groups of errors. For example, you might want to focus on core errors that are preventing a project from compiling. The scoping options include:
+## Copy or save errors
 
-1. **Open Documents**: Show errors, warnings, and messages for the open documents.
+1. Select the errors you want to copy.
+2. Right-click the selection and choose **Copy**, or press **Ctrl**+**C**.
+3. Paste the copied entries into a text file or an Excel spreadsheet (fields map to columns).
 
-2. **Current Project**: Show errors, warnings, and messages from the project of the currently selected document in the **Editor** or the selected project in **Solution Explorer**.
+- To copy the entire row for a single entry, right-click and choose **Copy Row**, or press **Ctrl**+**Shift**+**C**.
 
-    > [!NOTE]
-    > The filtered list of errors, warnings, and messages will change if the project of the currently selected document is different from the project selected in **Solution Explorer**.
+## Get help online
 
-3. **Current Document**: Show errors, warnings, and messages for the currently selected document in the **Editor** or **Solution Explorer**.
+- Press **F1** to open the documentation page for the selected error code (if available). The page opens in your default browser or Help Viewer.
+- In Visual Studio 17.12 and later, copying an error from the Error List using **Ctrl**+**C** also copies the description to the clipboard so you can paste it into a search.
+- To open the browser and initiate a Bing search with the error description in one keystroke, press **Ctrl**+**F1**.
 
-If a filter is currently applied to the search result, the name of the filter appears in the **Error List** title bar. The **Errors**, **Warnings**, and **Messages** buttons then display the number of filtered items being shown along with the total number of items. For example, the buttons show "x of y Errors". If no filter is applied, the title bar says only "Error List".
+## View problem details
 
-The list on the right side of the toolbar specifies whether to show errors from the build (errors resulting from a build operation) or from IntelliSense (errors detected before running a build), or from both.
+- For C++ projects, you can enable the **Details** column, which displays a clickable icon when an entry has additional diagnostic information. Click the icon to open the [Problem Details window](reference/problem-details-window.md).
 
-## Search
+## Manage the Error List window
 
-Use the **Search Error List** text box on the right side of the **Error List** toolbar to find specific errors in the error list. You can search on any visible column in the error list, and search results are always sorted based on the column that has sort priority instead of on the query or the filter applied. If you choose the **Esc** key while the focus is in the **Error List**, you can clear the search term and filtered search results. You can also click the **X** on the right side of the text box to clear it.
+- Like any other tool window, you can auto-hide, pin, or close the Error List, and include it in saved window layouts. See [Customize window layouts in Visual Studio - Close and autohide tool windows](customizing-window-layouts-in-visual-studio.md#close-and-autohide-tool-windows).
 
-## Search online
+## UI reference
 
-To get information about an error, press **F1** to bring up the error's page in the documentation. If a page exists for this specific error code, it will open in the default browser, or in the Help Viewer, if you installed and enabled offline help. With Visual Studio 17.12 and later, when you copy an error from the Error List using **Ctrl**+**C**, the description is copied to the clipboard. You can paste this into the browser to search for the error online, or share it with others. You can also copy the entire row by right-clicking the error and selecting **Copy Row** from the context menu or hitting **Ctrl**+**Shift**+**C**. To open the browser and initiate a search with Bing on the error description with one keystroke, press **Ctrl**+**F1**.
+The following columns appear in the **Error List** window by default:
 
-## Save
+- **Severity** — Displays the type of entry (Error, Warning, Message, Warning (active/inactive)).
+- **Code** — The error or warning code.
+- **Description** — The entry text describing the issue.
+- **Project** — The project where the error was detected.
+- **File** — The file name that contains the issue.
+- **Line** — The line number where the problem occurs.
+- **Details** — (C++ projects) Click to open the Problem Details window if extra diagnostic information exists.
 
-You can copy the error list and save it to a file. Select the errors you want to copy and right-click the selection, then on the context menu select **Copy**. You can then paste the errors into a file. If you paste the errors to an Excel spreadsheet, the fields appear as different columns.
+In addition, you can enable the following other columns. Right-click on the column bar to open the context menu, and choose **Show Columns** to enable them.
 
-## UI Element List
+- **Project Rank** - The numbers enumerate the projects in the solution (1-based).
+- **Path** - Path to the file that contains this issue.
+- **Column** - The column number where the issue was detected.
+- **Category** - IntelliSense only. Category of the issue, for example, "Compiler."
+- **Source** -  Sources include Build and IntelliSense.
+- **Tool** - Build only. The executable tool that generated this issue.
 
-**Severity**
-
-Displays the different types of **Error List** entry (**Error**, **Message**, **Warning**, **Warning (active)**, **Warning (inactive)**).
-
-**Code**
-
-Displays the error code.
-
-**Description**
-
-Displays the text of the entry.
-
-**Project**
-
-Displays the name of the current project.
-
-**File**
-
-Displays the file name.
-
-**Line**
-
-Displays the line where the problem occurs.
-
-**Details**
-
-Displays a clickable icon to open the [Problem Details window](reference/problem-details-window.md) if this entry has additional details.
-
-## Disable the Error List window
-
-Like any other tool window, there are a variety of ways to manage the window. You can set it to auto-hide, close it, or create a window layout that does or doesn't contain the Error List window. See [Customize window layouts in Visual Studio - Close and autohide tool windows](customizing-window-layouts-in-visual-studio.md#close-and-autohide-tool-windows).
+For more information and additional conceptual details about the Error List, see the original documentation for the Error List window.

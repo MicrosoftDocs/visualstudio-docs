@@ -1,7 +1,7 @@
 ---
 title: "Log info with tracepoints"
 description: Set tracepoints to log info to Output without modifying or stopping your code. Just specify an output string under the Action checkbox in Breakpoint Settings.
-ms.date: 08/26/2022
+ms.date: 09/03/2025
 ms.topic: "how-to"
 helpviewer_keywords:
   - "tracepoints, about tracepoints"
@@ -179,27 +179,6 @@ Conditions allow you to filter your output messages, so they display only under 
 
 ### Conditional expression
 
-::: moniker range="vs-2019"
-
-For a conditional expression, an output message displays only when certain conditions are met.
-
-For conditional expressions, you can either set the tracepoint to output a message when a certain condition is true or when it has changed. For example, if you only want to display the value of counter during even iterations of the `for` loop, you could select the **Is true** option and then type `i%2 == 0` in the message text box.
-
-:::image type="content" source="../debugger/media/conditionalexpressionistrue.png" alt-text="Screenshot showing Conditional Expression Is True.":::
-
-If you want to print the value of counter when the iteration of the `for` loop changes, select the **When changed** option and type `i` in the message text box.
-
-:::image type="content" source="../debugger/media/conditionalexpressionwhenchanged.png" alt-text="Screenshot showing when Conditional Expression is Changed.":::
-
-The behavior of the  **When changed**  option is different for different programming languages.
-
-- For native code, the debugger doesn't consider the first evaluation of the condition to be a change, so doesn't hit the tracepoint on the first evaluation.
-- For managed code, the debugger hits the tracepoint on the first evaluation after **When changed**  is selected.
-
-For a more comprehensive look at valid expressions you can use while setting conditions, see [Expressions in the debugger](expressions-in-the-debugger.md).
-
-::: moniker-end
-
 ::: moniker range=">=vs-2022"
 
 For a conditional expression, an output message displays only when certain conditions are met.
@@ -220,6 +199,37 @@ The behavior of the  **When changed**  option is different for different program
 You can also set the condition when the tracepoint can be enabled by inserting a Breakpoint to any particular section of the code and selecting the checkbox **Only enable when the following breakpoint is hit:** option in the **Breakpoint Settings** menu. You can choose any breakpoint from the list of choices.
 
 :::image type="content" source="../debugger/media/vs-2022/enable-at-breakpoint.png" alt-text="Screenshot showing enable when a breakpoint is hit checked.":::
+
+For a more comprehensive look at valid expressions you can use while setting conditions, see [Expressions in the debugger](expressions-in-the-debugger.md).
+
+::: moniker-end
+
+::: moniker range=">= vs-2022"
+## Get AI assistance
+
+If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while you're creating a tracepoint. Copilot gives you suggestions for [conditional breakpoints](../debugger/using-breakpoints.md#breakpoint-conditions) and [tracepoints](../debugger/using-tracepoints.md) that are specific to your code. 
+
+![Screenshot of Copilot working on conditional breakpoint suggestions.](../debugger/media/vs-2022/debug-with-copilot-breakpoint-ask-copilot.png)
+
+For more information, see [Debug with Copilot](../debugger/debug-with-copilot.md#get-suggestions-with-conditional-breakpoints-and-tracepoints).
+::: moniker-end
+
+::: moniker range="vs-2019"
+
+For a conditional expression, an output message displays only when certain conditions are met.
+
+For conditional expressions, you can either set the tracepoint to output a message when a certain condition is true or when it has changed. For example, if you only want to display the value of counter during even iterations of the `for` loop, you could select the **Is true** option and then type `i%2 == 0` in the message text box.
+
+:::image type="content" source="../debugger/media/conditionalexpressionistrue.png" alt-text="Screenshot showing Conditional Expression Is True.":::
+
+If you want to print the value of counter when the iteration of the `for` loop changes, select the **When changed** option and type `i` in the message text box.
+
+:::image type="content" source="../debugger/media/conditionalexpressionwhenchanged.png" alt-text="Screenshot showing when Conditional Expression is Changed.":::
+
+The behavior of the  **When changed**  option is different for different programming languages.
+
+- For native code, the debugger doesn't consider the first evaluation of the condition to be a change, so doesn't hit the tracepoint on the first evaluation.
+- For managed code, the debugger hits the tracepoint on the first evaluation after **When changed**  is selected.
 
 For a more comprehensive look at valid expressions you can use while setting conditions, see [Expressions in the debugger](expressions-in-the-debugger.md).
 

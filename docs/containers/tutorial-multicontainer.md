@@ -3,7 +3,7 @@ title: Work with multiple containers using Docker Compose
 author: ghogen
 description: Create and manage multi-container applications with Docker Compose and Container Tools in Visual Studio, including custom launch profiles.
 ms.author: ghogen
-ms.date: 2/27/2025
+ms.date: 9/10/2025
 ms.subservice: container-tools
 ms.topic: tutorial
 ---
@@ -21,15 +21,19 @@ The completed sample that you create in this tutorial can be found on GitHub at 
 ::: moniker range="vs-2019"
 
 - [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
-- [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **Web Development**, **Azure Tools** workload, and/or **.NET cross-platform development** workload installed
+- [Visual Studio 2019 or later](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET cross-platform development** workload installed.
 ::: moniker-end
 
-::: moniker range=">=vs-2022"
+::: moniker range="vs-2022"
 
 - [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
-- [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **Web Development**, **Azure Tools** workload, and/or **.NET cross-platform development** workload installed. This installation includes the .NET 8 development tools.
+- [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET cross-platform development** workload installed. This installation includes the .NET SDK.
 ::: moniker-end
+::: moniker range="visualstudio"
 
+- [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
+- [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET cross-platform development** workload installed. This installation includes the .NET SDK.
+::: moniker-end
 ## Create a Web Application project
 
 In Visual Studio, create an **ASP.NET Core Web App** project, named `WebFrontEnd`, to create a web application with Razor pages.
@@ -38,16 +42,16 @@ In Visual Studio, create an **ASP.NET Core Web App** project, named `WebFrontEnd
 
 ![Screenshot showing Create ASP.NET Core Web App project.](./media/tutorial-multicontainer/vs-2019/create-web-project1.png)
 
-Don't select **Enable container support**. You add support for Docker Compose later in the process.
+Don't select **Enable Docker support**. You add support for Docker Compose later in the process.
 
 ![Screenshot of the Additional information screen when creating a web project. The option to Enable Docker Support is not selected.](./media/tutorial-multicontainer/vs-2019/create-web-project-additional-information.png)
 
 ::: moniker-end
 ::: moniker range=">=vs-2022"
 
-Don't select **Enable Docker Support**. You add Docker support later in the process.
+Don't select **Enable container support**. You add container support later in the process.
 
-![Screenshot of the Additional information screen when creating a web project. The option to Enable Docker Support is not selected.](./media/tutorial-multicontainer/vs-2022/create-web-project.png)
+![Screenshot of the Additional information screen when creating a web project. The option to Enable container support is not selected.](./media/tutorial-multicontainer/vs-2022/create-web-project.png)
 ::: moniker-end
 
 ## Create a Web API project
@@ -192,7 +196,7 @@ Add a project to the same solution and call it *MyWebAPI*. Select **API** as the
    ```
 
    > [!NOTE]
-   > In .NET Core 3.1 and later, you can use the provided WeatherForecast API rather than this extra code. However, you need to comment out the call to <xref:Microsoft.AspNetCore.Builder.HttpsPolicyBuilderExtensions.UseHttpsRedirection*> in the Web API project because the code uses HTTP to make the call rather than HTTPS.
+   > You can use the provided WeatherForecast API rather than this extra code. However, you need to comment out the call to <xref:Microsoft.AspNetCore.Builder.HttpsPolicyBuilderExtensions.UseHttpsRedirection*> in the Web API project because the code uses HTTP to make the call rather than HTTPS.
 
    ```csharp
          //app.UseHttpsRedirection();

@@ -166,5 +166,5 @@ Visual Studio recycles the IIS application pool, retracts any existing versions 
 
 - [Walkthrough: Create a site column, content type, and list for SharePoint](../sharepoint/walkthrough-create-a-site-column-content-type-and-list-for-sharepoint.md)
 - [How to: Create an event receiver](../sharepoint/how-to-create-an-event-receiver.md)
-- [Windows PowerShell for SharePoint Server 2010](/powershell/module/sharepoint-server)
+- [Windows PowerShell for SharePoint Server 2010](/archive/technet-wiki/34284.sharepoint-2016-list-of-powershell-cmdlets)
 - [Package and deploy SharePoint solutions](../sharepoint/packaging-and-deploying-sharepoint-solutions.md)

@@ -8,6 +8,7 @@ monikerRange: ">=vs-2022"
 author: murphymcquet
 manager: tinali
 ms.subservice: extensibility-integration
+ms.update-cycle: 365-days
 ---
 
 # Write to the Visual Studio output window
