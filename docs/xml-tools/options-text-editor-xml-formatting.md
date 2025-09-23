@@ -74,5 +74,4 @@ Use the **Miscellaneous** options page to change the autocompletion and schema s
 
 ## Next steps
 
-- [XML options - miscellaneous](options-text-editor-xml-miscellaneous.md)
-- [XML tools in Visual Studio](../../xml-tools/xml-tools-in-visual-studio.md)
+- [XML tools in Visual Studio](../xml-tools/xml-tools-in-visual-studio.md)
