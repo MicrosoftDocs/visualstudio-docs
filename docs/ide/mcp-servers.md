@@ -1,7 +1,7 @@
 ---
 title: Use MCP Servers
 description: Learn how to add MCP servers in Visual Studio to extend GitHub Copilot agent capabilities, set up mcp.json, and manage tool permissions.
-ms.date: 8/19/2025
+ms.date: 8/29/2025
 ms.update-cycle: 180-days
 ms.topic: get-started
 author: anandmeg
@@ -145,13 +145,17 @@ When a user selects the badge, Visual Studio opens (or prompts you to open it). 
 
 ### Add from chat view
 
-To add an MCP server in Visual Studio:
+With Visual Studio version 17.14.13 or later, you can add an MCP Server from the chat view in Visual Studio.
 
-1. In the chat window, select the green plus (**+**) button in the tool picker.
+To add an MCP server from chat view:
+
+1. Select the green plus (`+`) button in the tool picker in the chat window.
+
+   :::image type="content" source="media/vs-2022/mcp-servers/plus-button-add-mcp.png" alt-text="Screenshot the plus button in tool picker of Visual Studio chat to add MCP server." lightbox="media/vs-2022/mcp-servers/configure-server-visual-studio.png":::
 
 1. Specify the server name and connection details, such as the URL for HTTP servers or the command and arguments for stdio servers.
 
-  :::image type="content" source="media/vs-2022/mcp-servers/configure-server-visual-studio.png" alt-text="Screenshot that shows adding an MCP server from the chat view." lightbox="media/vs-2022/mcp-servers/configure-server-visual-studio.png":::
+   :::image type="content" source="media/vs-2022/mcp-servers/configure-server-visual-studio.png" alt-text="Screenshot that shows adding an MCP server from the chat view." lightbox="media/vs-2022/mcp-servers/configure-server-visual-studio.png":::
 
 ### Create a file to manage configuration of MCP servers
 
