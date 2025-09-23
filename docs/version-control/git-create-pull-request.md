@@ -100,9 +100,13 @@ The ability to add comments to a pull request is limited for some Git providers.
 
 :::moniker range="visualstudio"
 
+### View comments in diff view
+
 You can view comments in the diff view as well as the file view. In the diff view, you can see comments alongside the original and updated code. This makes it easier to see exactly what was changed and why. You can also edit the working file directly in this view.
 
 :::image type="content" source="./media/visualstudio/pr-comment-in-diff.png" alt-text="Screenshot a PR comment in the diff view." lightbox="./media/visualstudio/pr-comment-in-diff.png" :::
+
+### Markdown formatting in comments
 
 In file view or diff view, comments render using Markdown formatting.
 
