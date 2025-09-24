@@ -75,7 +75,7 @@ The Windows App SDK 1.1.x templates are available by installing a [Visual Studio
 > [!div class="button"]
 > [Download Windows App SDK C# SDK VS2019 Templates](https://aka.ms/windowsappsdk/1.1/1.1.5/WindowsAppSDK.Cs.Extension.Dev16.vsix)
 
-After the templates extension has been installed, you can create your first project. For more information about Visual Studio 2019 support, see [Install tools for the Windows App SDK](/windows/apps/windows-app-sdk/set-up-your-development-environment). The rest of this tutorial will assume you're using Visual Studio 2022.
+After the templates extension has been installed, you can create your first project. For more information about Visual Studio 2019 support, see [Install tools for the Windows App SDK](/windows/apps/windows-app-sdk/set-up-your-development-environment?tabs=cs-vs-community%2Ccpp-vs-community%2Cvs-2022-17-10%2Cvs-2022-17-1-b). The rest of this tutorial will assume you're using Visual Studio 2022.
 
 ::: moniker-end
 
