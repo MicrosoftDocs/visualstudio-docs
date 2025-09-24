@@ -1,7 +1,7 @@
 ---
 title: Administrative Templates (ADMX)
 description: Configure and deploy group policy settings to the client machines in the Visual Studio ADMX Template and control Visual Studio behavior.
-ms.date: 8/8/2023
+ms.date: 9/23/2025
 ms.topic: conceptual
 ms.custom: vs-acquisition
 helpviewer_keywords:
@@ -18,7 +18,6 @@ manager: mijacobs
 ms.subservice: installation
 ---
 # Administrative Templates (ADMX) 
-
  
 IT Administrators in organizations may want to control certain aspects of Visual Studio behavior to achieve consistency, compliance, or compatibility across their client machines. An easy way to accomplish this level of control is to configure and then deploy group policy settings to the client machines. The Visual Studio policies are consolidated in the [Visual Studio ADMX Template](https://aka.ms/vs/admx/details) into different categories, making them easily understandable and discoverable.   
 
@@ -28,14 +27,16 @@ The Visual Studio group policy settings contained in the ADMX file are machine-w
  
  ## Visual Studio policy categories
  
- There are five main categories of Visual Studio policies that are included in the Visual Studio Administrative Templates (ADMX):
+ The following are the main categories of Visual Studio policies that are included in the Visual Studio Administrative Templates (ADMX):
  
+  - [**Copilot**](../ide/visual-studio-github-copilot-admin.md#disable-copilot-skus) - controls Copilot SKUs and agent mode 
+  - [**Dev Tunnels**](https://aka.ms/devtunnels/vs/admx) - controls test functionality
   - [**Feedback**](./feedback-survey-policies.md) - controls behavior of feedback and survey avenues.
   - [**Install and Update**](./configure-policies-for-enterprise-deployments.md) - controls product acquisition behavior.
   - [**Live Share**](https://aka.ms/vsls-policies) - controls user and hosts settings.
   - **Privacy** - controls [Intellicode](/visualstudio/intellicode/intellicode-privacy) and [Customer Experience Improvement Program](https://aka.ms/vs/admx/telemetry) settings.
-  - [**Dev Tunnels**](https://aka.ms/devtunnels/vs/admx) - controls test functionality
- 
+
+
  ## Acquiring the Visual Studio Administrative Template (ADMX)
  
  The [Visual Studio Administrative Template (ADMX)](https://aka.ms/vs/admx/details) can be downloaded from the Microsoft Download Center. The default installation path is `C:\Windows\PolicyDefinitions`, a location that makes them instantly visible to the Group Policy Editor (gpedit.exe) tool, but you can install them anywhere. The templates are updated periodically, so if you use them we recommend that you check back periodically to get the latest updates. 
@@ -57,3 +58,4 @@ For machines within a corporate network, you can use the [Group Policy editor](/
 * [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
 * [Create a network installation of Visual Studio](create-a-network-installation-of-visual-studio.md)
 * [Visual Studio workload and component IDs](workload-and-component-ids.md)
+* [Admin controls for GitHub Copilot](../ide/visual-studio-github-copilot-admin.md)
