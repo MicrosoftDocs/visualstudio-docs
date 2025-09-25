@@ -988,12 +988,6 @@
             href: ide/reference/options-text-editor-fsharp-code-fixes.md
           - name: IntelliSense
             href: ide/reference/options-text-editor-fsharp-intellisense.md
-        - name: XML
-          items:
-          - name: Formatting
-            href: ide/reference/options-text-editor-xml-formatting.md
-          - name: Miscellaneous
-            href: ide/reference/options-text-editor-xml-miscellaneous.md
       - name: Windows Forms Designer
         href: ide/reference/options-windows-forms-designer.md
     - name: Problem Details window

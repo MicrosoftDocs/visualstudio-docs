@@ -36,6 +36,8 @@
       href: how-to-execute-an-xslt-transformation-from-the-xml-editor.md
     - name: Edit XML files
       href: how-to-edit-xml-files.md
+    - name: Configure XML editor options
+      href: options-text-editor-xml-formatting.md
     - name: XSLT walkthroughs
       items:
       - name: XSLT IntelliSense
