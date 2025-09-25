@@ -98,6 +98,22 @@ You can toggle your like status on a comment by clicking on the icon, or by clic
 
 The ability to add comments to a pull request is limited for some Git providers. For example, with GitHub as the provider, you can only add comments on lines within 3 lines of a change, but with the Azure DevOps provider, you can add comments at any line of a file involved in the pull request. In any case, you can only add comments on files that are included in the pull request.
 
+:::moniker range="visualstudio"
+
+### View comments in diff view
+
+You can view comments in the diff view as well as the file view. In the diff view, you can see comments alongside the original and updated code. This makes it easier to see exactly what was changed and why. You can also edit the working file directly in this view.
+
+:::image type="content" source="./media/visualstudio/pr-comment-in-diff.png" alt-text="Screenshot a PR comment in the diff view." lightbox="./media/visualstudio/pr-comment-in-diff.png" :::
+
+### Markdown formatting in comments
+
+In file view or diff view, comments render using Markdown formatting.
+
+:::image type="content" source="./media/visualstudio/pr-comment-markdown.png" alt-text="Screenshot a PR comment that shows Markdown formatting." :::
+
+:::moniker-end
+
 ### Use the keyboard
 
 You can navigate across files and individual comments using the icons in the toolbar, or use the following keyboard shortcuts:

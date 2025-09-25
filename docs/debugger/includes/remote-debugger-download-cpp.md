@@ -12,7 +12,12 @@
 
 On the remote device or server that you want to debug on, rather than the Visual Studio machine, download and install the correct version of the remote tools from the links in the following table.
 
-- Download the most recent remote tools for your version of Visual Studio. The latest remote tools version is compatible with earlier Visual Studio versions, but earlier remote tools versions aren't compatible with later Visual Studio versions. (For example, if you're using Visual Studio 2019, download the latest update of the remote tools for Visual Studio 2019. In this scenario, don't download the remote tools for Visual Studio 2022.)
+::: moniker range=">=visualstudio"
+- Download the most recent update of the remote tools for your version of Visual Studio. Remote tools for Visual Studio 2022 and 2026 can be used with either version of Visual Studio. However, remote tools versions that are earlier than Visual Studio 2022 aren't compatible with later Visual Studio versions. (For example, if you're using Visual Studio 2019, download the latest update of the remote tools for Visual Studio 2019. In this scenario, don't download the remote tools for Visual Studio 2022.)
+::: moniker-end
+::: moniker range="vs-2022"
+- Download the most recent update of the remote tools for your version of Visual Studio. Earlier remote tools versions aren't compatible with later Visual Studio versions. (For example, if you're using Visual Studio 2019, download the latest update of the remote tools for Visual Studio 2019. In this scenario, don't download the remote tools for Visual Studio 2022.)
+::: moniker-end
 - Download the remote tools with the same architecture as the machine you're installing them on. For example, if you want to debug a 32-bit app on a remote computer running a 64-bit operating system, install the 64-bit remote tools.
 - If you're remote debugging an ARM64EC application on an ARM64 device, install the ARM64 remote tools, and then launch the x64 remote debugger that gets installed with those tools. This can be found under: *Program Files (x86)\Microsoft Visual Studio\<version>\Common7\IDE\Remote Debugger\x64*.
 
