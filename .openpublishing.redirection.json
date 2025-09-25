@@ -6,6 +6,16 @@
       "redirect_document_id": false
     },
     {
+       "source_path": "docs/ide/reference/options-text-editor-xml-formatting.md",
+       "redirect_url": "/visualstudio/xml-tools/options-text-editor-xml-formatting",
+       "redirect_document_id": false
+    },
+    {
+       "source_path": "docs/ide/reference/options-text-editor-xml-miscellaneous.md",
+       "redirect_url": "/visualstudio/xml-tools/options-text-editor-xml-formatting",
+       "redirect_document_id": false
+    },
+    {
        "source_path": "docs/ide/reference/options-text-editor-xaml-formatting.md",
        "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-text-editor-xaml-formatting",
        "redirect_document_id": false
