@@ -52,7 +52,7 @@ Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/vs/)
 
     ---
 
-For details, see [Install tools for the Windows App SDK](/windows/apps/windows-app-sdk/set-up-your-development-environment)
+For details, see [Install tools for the Windows App SDK](/windows/apps/windows-app-sdk/set-up-your-development-environment).
 
 ::: moniker-end
 
