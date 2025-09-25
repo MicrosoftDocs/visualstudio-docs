@@ -1,5 +1,5 @@
 ---
-title: Configure XML formatting in the text editor
+title: Configure formatting in the XML editor
 description: Learn how to configure XML formatting and miscellaneous options in the Visual Studio text editor.
 ms.date: 9/23/2025
 ms.topic: how-to
@@ -13,7 +13,7 @@ ms.author: maleger
 manager: mijacobs
 ms.subservice: general-ide
 ---
-# Configure XML formatting in the Visual Studio text editor
+# Configure formatting in the XML editor
 
 You can control how XML elements, attributes, and other content are formatted and completed in Visual Studio. This article shows you how to configure formatting and miscellaneous options for XML editing, so your documents are readable and follow your standards.
 
