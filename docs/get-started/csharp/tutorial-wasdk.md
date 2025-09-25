@@ -52,7 +52,7 @@ Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/vs/)
 
     ---
 
-For details, see [Install tools for the Windows App SDK](/windows/apps/windows-app-sdk/set-up-your-development-environment.)
+For details, see [Install tools for the Windows App SDK](/windows/apps/windows-app-sdk/set-up-your-development-environment)
 
 ::: moniker-end
 
@@ -64,7 +64,7 @@ First, create a WinUI 3 project. The project type comes with all the template fi
 > [!IMPORTANT]
 > Visual Studio 2019 only supports Windows App SDK 1.1 and earlier. Visual Studio 2022 is recommended for developing apps with all versions of the Windows App SDK.
 
-The Windows App SDK 1.1.x templates are available by installing a [Visual Studio extension (VSIX)](/windows/apps/windows-app-sdk/set-up-your-development-environment?tabs=cs-vs-community%2Ccpp-vs-community%2Cvs-other%2Cvs-2019#visual-studio-project-and-item-templates).
+The Windows App SDK 1.1.x templates are available by installing a [Visual Studio extension (VSIX)](/windows/apps/windows-app-sdk/set-up-your-development-environment).
 
 > [!NOTE]
 > If you have a Windows App SDK Visual Studio extension (VSIX) already installed, then uninstall it before installing another version. For directions, see [Manage extensions for Visual Studio](/visualstudio/ide/finding-and-using-visual-studio-extensions).
@@ -75,7 +75,7 @@ The Windows App SDK 1.1.x templates are available by installing a [Visual Studio
 > [!div class="button"]
 > [Download Windows App SDK C# SDK VS2019 Templates](https://aka.ms/windowsappsdk/1.1/1.1.5/WindowsAppSDK.Cs.Extension.Dev16.vsix)
 
-After the templates extension has been installed, you can create your first project. For more information about Visual Studio 2019 support, see [Install tools for the Windows App SDK](/windows/apps/windows-app-sdk/set-up-your-development-environment?tabs=cs-vs-community%2Ccpp-vs-community%2Cvs-2022-17-10%2Cvs-2022-17-1-b). The rest of this tutorial will assume you're using Visual Studio 2022.
+After the templates extension has been installed, you can create your first project. For more information about Visual Studio 2019 support, see [Install tools for the Windows App SDK](/windows/apps/windows-app-sdk/set-up-your-development-environment). The rest of this tutorial will assume you're using Visual Studio 2022.
 
 ::: moniker-end
 
