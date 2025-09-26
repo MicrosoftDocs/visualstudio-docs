@@ -1,70 +1,82 @@
 ---
-title: XAML Designer options page
-description: Learn how to use the General page in the XAML Designer section to specify how elements and attributes are formatted in your XAML documents.
-ms.date: 03/02/2017
-ms.topic: reference
-f1_keywords:
-- VS.ToolsOptionsPages.XAMLDesigner
-- VS.ToolsOptionsPages.XAML_Designer.General
-ms.custom: "ide-ref"
+title: Configure XAML Designer in Visual Studio
+description: Learn to enable and customize XAML Designer options in Visual Studio to optimize your XAML editing experience.
+ms.date: 03/02/2025
+ms.topic: how-to
 author: maddymontaquila
 ms.author: maleger
 manager: mijacobs
 ms.subservice: general-ide
+#customer intent: As a Visual Studio user, I want to enable and configure XAML Designer options so that I can work more efficiently with XAML documents.
 ---
-# XAML Designer options page
 
-Use the **XAML Designer** options page to specify how elements and attributes are formatted in your XAML documents. To open this page, choose the **Tools** menu and then choose **Options**. To access the **XAML Designer** property page, choose the **XAML Designer** node. Settings for the XAML Designer are applied when you open the document. So, if you make changes to the settings, you need to close and then reopen Visual Studio to see the changes.
+# Configure XAML Designer options in Visual Studio
 
-> [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](../personalizing-the-visual-studio-ide.md#reset-all-settings).
+The XAML Designer in Visual Studio lets you visually edit XAML documents for WPF and UWP projects. By enabling and customizing Designer options, you can streamline your workflow and tailor the editing experience to your needs. This article guides you through enabling the Designer and configuring its key options.
 
-## Enable XAML Designer
+## Prerequisites
 
-When selected, this setting enables the XAML Designer. The XAML Designer provides a visual work area for you to edit XAML documents. Certain functionality in Visual Studio, such as IntelliSense for resources and databinding, require the XAML Designer to be enabled.
+- Visual Studio installed
+- A XAML-based project (such as WPF or UWP)
 
-The following settings apply only when XAML Designer is enabled. If you change this option, you will need to restart Visual Studio for the setting to take effect.
+## Enable the XAML Designer
 
-## Default document view
+Enable the XAML Designer to access visual editing features and advanced IntelliSense for XAML documents.
 
-Use this setting to control whether Design view appears when XAML documents are loaded.
+1. Open Visual Studio.
+2. Go to **Tools > Options**.
+3. Expand **XAML Designer** under the relevant project type (WPF/UWP).
+4. Check **Enable XAML Designer**.
+5. Click **OK** and restart Visual Studio for changes to take effect.
 
-|Name|Description|
-|-|-|
-|**Source View**|Specifies whether only XAML source appears in the XAML view. This is useful when  loading large documents.|
-|**Design View**|Specifies whether only a visual XAML Designer appears in the XAML view.|
-|**Split View**|Specifies whether both the visual XAML Designer and the XAML source appear next to one another in the XAML view (location based on the **Split Orientation** setting).|
+## Set the default document view
 
-## Split Orientation
+Choose how XAML documents appear when opened: Source View, Design View, or Split View.
 
-Use this setting to control when and how the XAML Designer appears when editing a XAML document. These settings apply only when **Default document view** is set to **Split View**.
+1. In Visual Studio, go to **Tools > Options > XAML Designer**.
+2. Find the **Default document view** setting.
+3. Select one:
+	- **Source View**: Shows only XAML source code.
+	- **Design View**: Shows only the visual Designer.
+	- **Split View**: Shows both Designer and source side by side.
+4. Click **OK** to apply.
 
-|Name|Description|
-|-|-|
-|**Vertical**|XAML source appears on the left side of the XAML view, and the XAML Designer appears on the other side.|
-|**Horizontal**|The XAML Designer appears on the top of the XAML view, and the XAML source appears below it.|
-|**Default**|The XAML document uses the split orientation recommended for the platform targeted by the document's project. For most platforms this is equivalent to **Horizontal**.|
+## Change split orientation
 
-## Zoom by using
+Adjust the layout of Split View to suit your workflow.
 
-Use this setting to determine how zoom works when editing a XAML document.
+1. In **Tools > Options > XAML Designer**, locate **Split Orientation**.
+2. Choose one:
+	- **Vertical**: Source on the left, Designer on the right.
+	- **Horizontal**: Designer on top, source below.
+	- **Default**: Uses platform-recommended orientation.
+3. Click **OK** to save changes.
 
-|Name|Description|
-|-|-|
-|**Mouse wheel**|Zoom in the XAML Designer by scrolling the mouse wheel.|
-|**Ctrl + mouse wheel**|Zoom in the XAML Designer by pressing the **Ctrl** key while scrolling the mouse wheel.|
-|**Alt + mouse wheel**|Zoom in the XAML Designer by pressing the **Alt** key while scrolling the mouse wheel.|
+## Configure zoom behavior
 
-These settings determine Designer behavior when editing a XAML document.
+Set how you zoom in the XAML Designer for easier navigation.
 
-## Default Zoom Setting
+1. In **Tools > Options > XAML Designer**, find **Zoom by using**.
+2. Select your preferred method:
+	- **Mouse wheel**
+	- **Ctrl + mouse wheel**
+	- **Alt + mouse wheel**
+3. Click **OK** to confirm.
+
+---
+For more information on resetting Visual Studio settings, see [Reset settings](../ide/personalizing-the-visual-studio-ide.md#reset-all-settings).
+## Default Zoom setting
 
 Use this setting to determine the default zoom value for viewing the XAML document.
+
+Select **Tools > Options > XAML Designer** to access the **Default Zoom Setting** property.
 
 |Name|Description|
 |-|-|
 |**Last Used**|Use the last used zoom value for all the XAML documents by default. When a XAML document is opened for the first time, then it will use "Fit All" setting for the first time only.|
 |**Fit All**|Use this option to set the zoom value to "Fit All" for the XAML designer. When a XAML document is closed and reopened, then the last set value will persist for that session but for different sessions "Fit All" will be used by default.|
+
+## Editor settings
 
 These settings determine Designer behavior when you edit a XAML document.
 
@@ -79,6 +91,8 @@ These settings determine Designer behavior when you edit a XAML document.
 
 Use these options to determine settings when editing XAML files using Blend.
 
+Select **Tools > Options > XAML Designer** in Blend for Visual Studio to access Blend-specific properties.
+
 |Name|Description|
 |-|-|
 |**Zoom by using**|Zoom in the XAML Designer by scrolling the mouse wheel, or by pressing the **Ctrl** or **Alt** key while scrolling the mouse wheel.|
@@ -87,6 +101,8 @@ Use these options to determine settings when editing XAML files using Blend.
 ## Artboard (Blend only)
 
 Use these settings to determine XAML Designer behavior when editing XAML documents in Blend.
+
+Select **Tools > Options > XAML Designer** in Blend to access Artboard properties.
 
 ### Snapping
 
