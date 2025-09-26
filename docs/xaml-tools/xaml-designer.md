@@ -65,7 +65,7 @@ Set how you zoom in the XAML Designer for easier navigation.
 
 ---
 For more information on resetting Visual Studio settings, see [Reset settings](personalizing-the-visual-studio-ide.md#reset-all-settings).
-## Default Zoom Setting
+## Default Zoom setting
 
 Use this setting to determine the default zoom value for viewing the XAML document.
 
@@ -75,6 +75,8 @@ Select **Tools > Options > XAML Designer** to access the **Default Zoom Setting*
 |-|-|
 |**Last Used**|Use the last used zoom value for all the XAML documents by default. When a XAML document is opened for the first time, then it will use "Fit All" setting for the first time only.|
 |**Fit All**|Use this option to set the zoom value to "Fit All" for the XAML designer. When a XAML document is closed and reopened, then the last set value will persist for that session but for different sessions "Fit All" will be used by default.|
+
+## Editor settings
 
 These settings determine Designer behavior when you edit a XAML document.
 
