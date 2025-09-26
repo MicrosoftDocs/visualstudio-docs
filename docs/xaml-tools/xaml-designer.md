@@ -64,7 +64,7 @@ Set how you zoom in the XAML Designer for easier navigation.
 3. Click **OK** to confirm.
 
 ---
-For more information on resetting Visual Studio settings, see [Reset settings](../personalizing-the-visual-studio-ide.md#reset-all-settings).
+For more information on resetting Visual Studio settings, see [Reset settings](personalizing-the-visual-studio-ide.md#reset-all-settings).
 ## Default Zoom Setting
 
 Use this setting to determine the default zoom value for viewing the XAML document.
