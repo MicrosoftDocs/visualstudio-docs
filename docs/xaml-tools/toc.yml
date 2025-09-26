@@ -20,6 +20,8 @@
     href: walkthrough-binding-to-data-in-xaml-designer.md
   - name: Debug or disable project code
     href: debugging-or-disabling-project-code-in-xaml-designer.md
+  - name: Configure XAML Designer settings
+    href: xaml-designer.md
   - name: XAML Design Time Data
     href: xaml-designtime-data.md
   - name: XAML Design Time Sample Data

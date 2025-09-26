@@ -990,8 +990,6 @@
             href: ide/reference/options-text-editor-fsharp-intellisense.md
       - name: Windows Forms Designer
         href: ide/reference/options-windows-forms-designer.md
-      - name: XAML Designer
-        href: ide/reference/xaml-designer.md
     - name: Problem Details window
       href: ide/reference/problem-details-window.md
     - name: Toolbox window
