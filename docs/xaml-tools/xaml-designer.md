@@ -1,3 +1,4 @@
+---
 title: Configure XAML Designer in Visual Studio
 description: Learn to enable and customize XAML Designer options in Visual Studio to optimize your XAML editing experience.
 ms.date: 03/02/2025
@@ -8,6 +9,7 @@ manager: mijacobs
 ms.subservice: general-ide
 #customer intent: As a Visual Studio user, I want to enable and configure XAML Designer options so that I can work more efficiently with XAML documents.
 ---
+
 # Configure XAML Designer options in Visual Studio
 
 The XAML Designer in Visual Studio lets you visually edit XAML documents for WPF and UWP projects. By enabling and customizing Designer options, you can streamline your workflow and tailor the editing experience to your needs. This article guides you through enabling the Designer and configuring its key options.
