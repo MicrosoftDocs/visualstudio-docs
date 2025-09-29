@@ -61,3 +61,9 @@ Customize Copilot for your project and your development workflow.
 To review Copilot features at any time, select **GitHub Copilot Walkthrough** from the **GitHub Copilot** badge in the upper right corner of Visual Studio.
 
 Try building a complete app with the [Hands-on lab: GitHub Copilot in Visual Studio 2022](https://github.com/dotnet-presentations/build-2025-lab300).
+
+## Related links
+
+- [GitHub Copilot Trust Center: Learn about security, privacy, compliance, and transparency](https://copilot.github.trust.page)
+- [Completions](visual-studio-github-copilot-extension.md)
+- [Chat](visual-studio-github-copilot-chat.md)
