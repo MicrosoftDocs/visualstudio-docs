@@ -8,6 +8,7 @@ manager: mijacobs
 ms.subservice: ui-designers
 ms.topic: how-to
 ms.custom: engagement-fy23
+monikerRange: "<=vs-2022"
 ---
 # Fix HDPI/scaling issues with Windows Forms Designer in Visual Studio 
 
