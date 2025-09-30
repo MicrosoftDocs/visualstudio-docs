@@ -149,4 +149,4 @@ To learn more about the GitHub Copilot extension for Visual Studio, consider exp
 
 - [GitHub Copilot quickstart](https://docs.github.com/copilot/getting-started-with-github-copilot?tool=visualstudio)
 - [GitHub Copilot feature page](https://github.com/features/copilot)
-- [GitHub Trust Center](https://resources.github.com/copilot-trust-center/)
+- [GitHub Copilot Trust Center](https://copilot.github.trust.page)
