@@ -93,12 +93,21 @@ Open the **Find and Replace** dialog box by pressing **Ctrl**+**Shift**+**F**, o
 
 :::moniker-end
 
-::: moniker range=">=vs-2022"
+::: moniker range="vs-2022"
 
 1. On the menu bar, select **Edit** > **Find and Replace**.
 1. Choose **Find in Files** from the fly-out menu.
 
 :::image type="content" source="media/vs-2022/find-files.png" alt-text="Screenshot of the Find and Replace dialog box in Visual Studio 2022, with the Find in Files tab open.":::
+
+:::moniker-end
+
+::: moniker range="visualstudio"
+
+1. On the menu bar, select **Edit** > **Find and Replace**.
+1. Choose **Find in Files** from the fly-out menu.
+
+:::image type="content" source="media/visualstudio/find-files.png" alt-text="Screenshot of the Find and Replace dialog box in Visual Studio, with the Find in Files tab open.":::
 
 :::moniker-end
 
@@ -112,8 +121,14 @@ Set the scope of your search and replace operation to:
 - The current project
 - Specified folder sets
 - Specified file extensions
-  
+
 The **Find and Replace** tool does not search directories with the `Hidden` or `System` attribute.
+
+:::moniker range="visualstudio"
+You can permanently exclude some files from search; see [Exclude files from search](#exclude-files-from-search).
+:::moniker-end
+  
+### Cancel a search
 
 To cancel a Find or Replace operation, press **Ctrl**+**Break**.
 
@@ -133,6 +148,22 @@ You can define a search scope by choosing the **Choose Search Folders** button (
 ### Create custom component sets
 
 You can define component sets as your search scope by choosing the **Edit Custom Component Set** button next to the **Look in** box. You can specify installed .NET or COM components, Visual Studio projects that are included in your solution, or any assembly or type library (*.dll*, *.tlb*, *.olb*, *.exe*, or *.ocx*). To search references, select the **Look in references** box.
+
+:::moniker range="visualstudio"
+
+## Exclude files from search
+
+You can exclude specific files such as build artifacts, minified scripts, or generated files, that you don't want to be included in the typical search.
+
+To set up files to exclude, go to **Tools > Options > Environment > Search**, and look for the **Exclude files from search results** section. There, you can add, edit, or remove glob patterns to control exactly which files are left out of your search results.
+
+![Screenshot that shows settings to exclude files from search results.](media/visualstudio/find-file-exclusions.png)
+
+These exclusions are automatically applied in [Quick Find](#control). For [Find in Files](#multifile), these exclusions are applied in addition to any exclusions in the **File types** field. You can toggle the settings level exclusions on or off via the toggle button on the right of the **File types**.
+
+![Screenshot showing toggle button for file exclusions.](media/visualstudio/find-file-exclusions-find-in-files-toggle.png)
+
+:::moniker-end
 
 ## Multi-caret selection
 
