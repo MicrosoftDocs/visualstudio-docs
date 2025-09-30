@@ -1,7 +1,7 @@
 ---
 title: 'Customize chat responses'
 description: Use custom instructions and prompt files to customize responses and use slash commands to set quick context for common tasks.
-ms.date: 7/31/2025
+ms.date: 9/29/2025
 ms.update-cycle: 180-days
 ms.topic: how-to 
 author: anandmeg
@@ -47,9 +47,31 @@ The custom instructions feature enables you to automatically add pre-specified c
 
 To configure custom instructions:
 1. [Create/add](https://docs.github.com/en/enterprise-cloud@latest/copilot/customizing-copilot/adding-custom-instructions-for-github-copilot) a custom instructions file `.github/copilot-instructions.md` in the root of your repository.
-1. Enable the feature in Visual Studio via **Tools** > **Options** > **GitHub** > **Copilot** > select **(Preview) Enable custom instructions to be loaded from .github/copilot-instructions.md files and added to requests.**.
+1. Enable the feature in Visual Studio via **Tools** > **Options** > **GitHub** > **Copilot** > **Copilot Chat** > **Enable custom instructions to be loaded from .github/copilot-instructions.md files and added to requests**.
 
 Custom instructions are not visible in the Chat view or inline chat. However, when used by Copilot, the`.github/copilot-instructions.md` file is listed in the References list of a response.
+
+### Example
+
+Here's an example C# custom instruction:
+
+```markdown
+# Custom Instructions
+
+## C# Instructions
+Applies to: `**/*.cs`
+
+- Write clear and concise comments for each function.
+- Use PascalCase for component names, method names, and public members.
+- Use camelCase for private fields and local variables.
+- Add a newline before the opening curly brace of any code block  
+  (such as after `if`, `for`, `while`, `foreach`, `using`, `try`, etc.).
+- Ensure that the final `return` statement of a method is on its own line.
+```
+
+Copy these instructions into your `.github/copilot-instructions.md` file to use and automatically apply to Copilot behavior.
+
+For more examples of custom instructions, see the list of [instruction samples on GitHub](https://github.com/github/awesome-copilot/blob/main/README.instructions.md).
 
 ## Use prompt files
 

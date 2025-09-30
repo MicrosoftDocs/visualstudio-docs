@@ -112,6 +112,8 @@ You can remove the GitHub Copilot component from your Visual Studio instance by 
 
 Support for GitHub Copilot Chat will be provided by GitHub and can be reached at https://support.github.com.
 
+To learn more about Copilot’s security, privacy, compliance, and transparency, see the [GitHub Copilot Trust Center FAQ](https://copilot.github.trust.page/faq).
+
 ## Next steps
 
 To learn more, consider exploring the following resources:
