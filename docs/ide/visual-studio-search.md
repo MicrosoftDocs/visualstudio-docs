@@ -1,7 +1,7 @@
 ---
 title: Use Visual Studio search to find code & do queries
 description: Explore the Visual Studio search feature and discover how to find settings, menus, code, and work with filters, queries, and more.
-ms.date: 3/11/2025
+ms.date: 9/16/2025
 ms.topic: how-to
 helpviewer_keywords:
 - environments [Visual Studio], navigation
@@ -22,7 +22,88 @@ ms.subservice: general-ide
 
 The Visual Studio integrated development environment (IDE) has many menus, options, and features, which can be difficult to remember. The Visual Studio search feature is a single search box that helps developers find IDE menus and options, while also searching your code. Whether you're new to Visual Studio or an experienced developer, this feature offers a quick way to search across IDE features and your code.
 
-::: moniker range=">=vs-2022"
+:::moniker range="visualstudio"
+
+## Search in Visual Studio
+
+With **All-In-One Search** in Visual Studio, not only can you search for features using **Feature Search**, but you can also search your code elements, such as files and symbols, using **Code Search**.
+
+:::image type="content" source="media/vs-2022/all-in-one-search-member-filter.png" alt-text="Screenshot of the All-In-One Search experience in Visual Studio 2022 version 17.6 or later."::: 
+
+The search button appears next to the menu bar, as shown in the following screenshot:
+
+:::image type="content" source="media/vs-2022/all-one-search-from-menu-bar.png" alt-text="Screenshot of the All-In-One Search experience from the Visual Studio menu bar.":::
+
+GitHub Copilot Chat is integrated with Feature Search. When you're trying to find something in Feature Search, you can use the **Ask Copilot** button to get AI assistance that accounts for your Visual Studio version. To enable GitHub Copilot Chat, see [GitHub Copilot Chat](./visual-studio-github-copilot-chat.md).
+
+For example, suppose you searched for "prettify file" in Feature Search. That doesn't return any results, because the name of the menu item is different ("Format document"). GitHub Copilot Chat is able to interpret your query and return the result.
+
+:::image type="content" source="./media/vs-2022/feature-search-ask-copilot-prettify.png" lightbox="./media/vs-2022/feature-search-ask-copilot-prettify.png" alt-text="Screenshot showing the Ask Copilot button in All-In-One Search.":::
+
+In Code Search, if you mistype a search query, Visual Studio can often detect this and suggest a possible correction. If a variation of the text you entered returns much better results, you'll see a message ("Did you mean ... ?") that suggests the alternate query. Just click on this message to accept the suggested query and refresh the results.
+
+When you open Code Search without a query, you'll see a list of your recently navigated files. These include the files you opened through Code Search, but also any other files you opened in the solution. This makes it easy to jump back to a file you were recently working on without having to remember or type the file name.
+
+:::image type="content" source="./media/vs-2022/code-search-recently-navigated-files.png" alt-text="Screenshot of All-In-One Search showing recently navigated files.":::
+
+### Keyboard shortcuts for search
+
+You can press **Ctrl**+**P**, **Ctrl**+**,** or **Ctrl**+**T** to open code search, or use the **Ctrl**+**Shift**+**P** or **Ctrl**+**Q** keyboard shortcuts for feature search.
+
+### Filters for Code Search queries
+
+To quickly get a filtered experience, you can type the corresponding prefixes before your query or use the corresponding keyboard shortcuts to open the search with the filter you want.
+
+|Filter   |Prefix   |Keyboard shortcut               |
+|---------|---------|--------------------------------|
+|files    |`f:`     | **Ctrl**+**Shift**+**T**       |     
+|types    |`t:`     | **Ctrl**+**1**, **Ctrl**+**T** |
+|members  |`m:`     | **Alt**+**\\**                 |
+|text     |`x:`     | **Shift**+**Alt**+**F**        |
+
+You can set the scope of code search to the current document, current project, the entire solution, or external files that are referenced in your solution, such as header files or files open from locations outside your solution. You can set different scopes for different filters. For example, the default experience can be set to look through *Entire solution* and `members` can be set to look through only the current document. Your selections will be remembered the next time you use code search.
+
+:::image type="content" alt-text="Screenshot of code search scope options." source="./media/vs-2022/search-code-scope.png" :::
+
+You can use the text filter (**Shift**+**Alt**+**F**) in Code Search to search for a text string, with options to match the case, match whole words, or use a regular expression. The regular expression format is described at [Regular expressions](/dotnet/standard/base-types/regular-expression-language-quick-reference).
+
+:::image type="content" alt-text="Screenshot of text search with various options." source="./media/vs-2022/search-text-search-text-options-highlighted.png" :::
+
+### Navigation in Code Search
+
+You can navigate to a specific line in the current document or other specified document.
+
+To go to a line in the *current* document, type colon (`:`) followed by the line number. For example, `:39` navigates to line 39 in the active file.
+
+![Screenshot showing Go to line in current document.](./media/vs-2022/all-in-one-search-go-to-line-same-document.png)
+
+You can also go to a line in a different document by typing the filename, colon, and then the line number. For example, `Order:43` navigates to line 43 in *Order.cs*. If you don't specify the exact file name, then the search will try to find the best match.
+
+![Screenshot showing Go to line in different document.](./media/vs-2022/all-in-one-search-go-to-line-different-document.png)
+
+You can also navigate to a specific line and column in a specified file. Use `file:line` to navigate to a specific line in a specified file, or `file:line,col` to navigate to a specific line and column in a specified file. You can use parentheses instead of the colon, for example, `file(line,col)`. This last syntax makes it easy to paste in a location from an error message.
+
+![Screenshot showing navigation to file, line, and column.](./media/vs-2022/code-search-go-to-line-parentheses.png)
+
+### Dock as a tool window
+
+You can dock the search window instead of having it floating in front. This can be helpful to avoid interrupting your code editing. Use the icon near the top right of the window to enable docking as a tool window.
+
+![Screenshot showing docking icon on the search window.](./media/vs-2022/all-in-one-search-docking-icon.png)
+
+You can use a similar icon on the tool window to revert back to the floating window.
+
+### Toggle preview pane
+
+Use the eye icon to disable or enable the preview pane.
+
+![Screenshot showing the icon to toggle the preview pane in the search window.](./media/vs-2022/all-in-one-search-toggle-preview.png)
+
+The preview pane's position automatically adjusts based on the dimensions of the search window.
+
+::: moniker-end
+
+::: moniker range="vs-2022"
 
 ## Search in Visual Studio 2022 version 17.6 or later
 
@@ -106,7 +187,9 @@ With Visual Studio 17.12 or later, you can toggle the preview pane. Use the eye 
 
 Also new with Visual Studio 17.12, the preview panel's position automatically adjusts based on the dimensions of the search window.
 
-::: moniker-end
+:::moniker-end
+
+::: moniker range="<=vs-2022"
 
 ## Search in Visual Studio 2022 version 17.5 or earlier
 
@@ -153,6 +236,8 @@ The search results include tabs for **All**, **Code**, **Visual Studio**. You ca
 - **Ctrl**+**Q**, **Ctrl**+**T** for files, types, and members
 - **Ctrl**+**Q**, **Ctrl**+**M** for Visual Studio menus, options, components, and templates
 - **Ctrl**+**Q**, **Ctrl**+**E** to go to the **All** tab, for both
+
+::: moniker-end
 
 ## Related content
 

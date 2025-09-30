@@ -1,7 +1,7 @@
 ---
 title: "Search within Specific Files with 'Find in Files'"
 description: Explore the Find in Files feature in Visual Studio and discover how to use the feature to search a specific set of files.
-ms.date: 11/1/2024
+ms.date: 9/12/2025
 ms.topic: conceptual
 f1_keywords:
 - vs.findinfiles
@@ -24,9 +24,15 @@ ms.subservice: general-ide
 
 **Find in Files** allows you to search a specified set of files. The matches Visual Studio finds are listed in the **Find Results** window in the IDE. How the results appear depends on the options you choose on the **Find in Files** tab of the **Find and Replace** dialog box.
 
-::: moniker range=">=vs-2022"
+::: moniker range="visualstudio"
 
-:::image type="content" source="media/vs-2022/find-files.png" alt-text="Screenshot of the Find and Replace dialog box in Visual Studio 20222, with the Find in Files tab open.":::
+:::image type="content" source="media/visualstudio/find-files.png" alt-text="Screenshot of the Find and Replace dialog box in Visual Studio, with the Find in Files tab open.":::
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+:::image type="content" source="media/vs-2022/find-files.png" alt-text="Screenshot of the Find and Replace dialog box in Visual Studio 2022, with the Find in Files tab open.":::
 
 ::: moniker-end
 
@@ -96,6 +102,17 @@ The **File types** option indicates the types of files to search through in the 
 :::image type="content" source="media/vs-2022/find-file-types.png" alt-text="Screenshot of the File Types section of the Find In Files dialog box.":::
 
 You can search for multiple file types by separating them with a semicolon (`;`). You can also exclude folders and files by prefixing any path or file type with an exclamation mark (`!`).
+
+:::moniker-end
+
+:::moniker range="visualstudio"
+You can permanently exclude some files from search; see [Exclude files from search](finding-and-replacing-text.md#exclude-files-from-search). To toggle these exclusions, use the button.
+
+![Screenshot showing toggle button for file exclusions.](media/visualstudio/find-file-exclusions-find-in-files-toggle.png)
+
+:::moniker-end
+  
+:::moniker range=">=vs-2022"
 
 ### Append results
 
