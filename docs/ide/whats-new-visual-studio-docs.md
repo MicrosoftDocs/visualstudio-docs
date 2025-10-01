@@ -113,9 +113,10 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- [Customize chat responses and set context](../ide/copilot-chat-context.md) - Add custom instructions example
-- [Get started with GitHub Copilot](../ide/visual-studio-github-copilot-get-started.md) - Add custom instructions example
-- [Manage GitHub Copilot installation and state](../ide/visual-studio-github-copilot-install-and-states.md) - Add custom instructions example
+- Add custom instructions example
+  - [Customize chat responses and set context](../ide/copilot-chat-context.md)
+  - [Get started with GitHub Copilot](../ide/visual-studio-github-copilot-get-started.md)
+  - [Manage GitHub Copilot installation and state](../ide/visual-studio-github-copilot-install-and-states.md)
 - [Find references in your code](../ide/finding-references.md) - Update date and enhance clarity in finding references
 - [Remove Unused References](../ide/reference/remove-unused-references.md) - Clarify version compatibility for remote tools
 - [Navigate code](../ide/navigating-code.md) - Move or refactor some UI reference articles
