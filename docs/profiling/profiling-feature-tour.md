@@ -38,7 +38,7 @@ Tools that can be used in combination appear in the **Flexible** tab. Tools that
 
 If Copilot is enabled, the **Recommended** tab shows the tools that Copilot recommends based on its analysis of your source code.
 ::: moniker-end
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 ![Screenshot of Performance Profiler.](../profiling/media/vs-2022/prof-tour-performance-profiler.png "Performance Profiler")
 ::: moniker-end
 ::: moniker range="<=vs-2019"
