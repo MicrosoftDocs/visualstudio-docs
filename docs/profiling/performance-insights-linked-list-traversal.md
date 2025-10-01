@@ -1,7 +1,7 @@
 ---
 title: Perf insights for excessive LinkedList traversal
 description: Learn how to improve performance for excessive traversal of LinkedList collections.
-ms.date: 09/18/2025
+ms.date: 10/01/2025
 ms.topic: reference
 author: mikejo5000
 ms.author: mikejo
@@ -9,12 +9,12 @@ manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 
-
 # Inefficient LinkedList traversal
 
 This article describes performance insights when traversing <xref:System.Collections.Generic.LinkedList%601> collections.
 
 ## Cause
+
 Traversing a `LinkedList<T>` to find elements results in slow performance.
 
 ## Performance insight description

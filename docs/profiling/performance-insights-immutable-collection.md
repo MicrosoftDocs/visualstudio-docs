@@ -14,6 +14,7 @@ ms.subservice: debug-diagnostics
 This article describes performance insights when modifying immutable collections such as <xref:System.Collections.Immutable.ImmutableList%601>.
 
 ## Cause
+
 Modifying an immutable collection (such as `Add`, `Remove`, or `Insert`) results in slow performance.
 
 ## Performance insight description

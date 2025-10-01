@@ -1,7 +1,7 @@
 ---
 title: Perf insights for excessive string.Format/interpolation usage
 description: Learn how to improve performance for excessive use of string.Format or string interpolation.
-ms.date: 09/18/2025
+ms.date: 10/01/2025
 ms.topic: reference
 author: mikejo5000
 ms.author: mikejo
@@ -9,12 +9,12 @@ manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 
-
 # Inefficient string.Format or interpolation usage
 
 This article describes performance insights when using <xref:System.String.Format*> or string interpolation ($"...").
 
 ## Cause
+
 Using `string.Format` or string interpolation frequently results in slow performance.
 
 ## Performance insight description
