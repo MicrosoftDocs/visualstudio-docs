@@ -29,4 +29,4 @@ In the CPU Usage tool, click **View source code** to find where `List<T>.Find` i
 
 ## See also
 
-[Dictionaries in .NET](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2)
+[Dictionaries in .NET](/dotnet/api/system.collections.generic.dictionary-2)

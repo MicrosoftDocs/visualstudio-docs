@@ -29,4 +29,4 @@ In the CPU Usage tool, click **View source code** to find where immutable collec
 
 ## See also
 
-[Immutable collections documentation](https://learn.microsoft.com/dotnet/api/system.collections.immutable)
+[Immutable collections documentation](/dotnet/api/system.collections.immutable)

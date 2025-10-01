@@ -29,4 +29,4 @@ In the CPU Usage tool, click **View source code** to find where `string.Format` 
 
 ## See also
 
-[StringBuilder documentation](https://learn.microsoft.com/dotnet/api/system.text.stringbuilder)
+[StringBuilder documentation](/dotnet/api/system.text.stringbuilder)

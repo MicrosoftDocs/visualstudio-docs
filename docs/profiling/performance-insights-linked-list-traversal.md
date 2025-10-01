@@ -29,4 +29,4 @@ In the CPU Usage tool, click **View source code** to find where `LinkedList<T>` 
 
 ## See also
 
-[Collections and data structures](https://learn.microsoft.com/dotnet/standard/collections/)
+[Collections and data structures](/dotnet/standard/collections/)
