@@ -64,10 +64,11 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
   - Update paths for PS, debugger
   - Update instructions for configuring firewall for remote debugging
 - [Using the IntelliTrace stand-alone collector (C#, Visual Basic)](../debugger/using-the-intellitrace-stand-alone-collector.md) - Update paths for PS, debugger
-- [Debug live ASP.NET Azure apps using the Snapshot Debugger](../debugger/debug-live-azure-applications.md) - Document Snappoint debugging deprecation
-- [Debug live ASP.NET Azure Kubernetes Services using the Snapshot Debugger](../debugger/debug-live-azure-kubernetes.md) - Document Snappoint debugging deprecation
-- [Use time travel debugging to record and replay ASP.NET apps on Azure VMs](../debugger/debug-live-azure-virtual-machines-time-travel-debugging.md) - Document Snappoint debugging deprecation
-- [Debug live ASP.NET apps on Azure virtual machines and Azure virtual machine scale sets using the Snapshot Debugger](../debugger/debug-live-azure-virtual-machines.md) - Document Snappoint debugging deprecation
+- Document Snappoint debugging deprecation
+  - [Debug live ASP.NET Azure apps using the Snapshot Debugger](../debugger/debug-live-azure-applications.md)
+  - [Debug live ASP.NET Azure Kubernetes Services using the Snapshot Debugger](../debugger/debug-live-azure-kubernetes.md)
+  - [Use time travel debugging to record and replay ASP.NET apps on Azure VMs](../debugger/debug-live-azure-virtual-machines-time-travel-debugging.md)
+  - [Debug live ASP.NET apps on Azure virtual machines and Azure virtual machine scale sets using the Snapshot Debugger](../debugger/debug-live-azure-virtual-machines.md)
 - [Debug your app with GitHub Copilot in Visual Studio](../debugger/debug-with-copilot.md)
   - Add Copilot feature for breakpoints to the article on debugging with …
   - Add new article on profiling with Copilot, debugger updates for Copilot
@@ -101,7 +102,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- [Tutorial: Create your first Windows App SDK application in Visual Studio with XAML and C&#35;](../get-started/csharp/tutorial-wasdk.md) - Fix UUF issue (update to latest workload for windows app sdk in current VS)
+- [Tutorial: Create your first Windows App SDK application in Visual Studio with XAML and C&#35;](../get-started/csharp/tutorial-wasdk.md) - Update to latest workload for Windows App SDK in current Visual Studio
 - [What is Visual Studio?](../get-started/visual-studio-ide.md) - Publish Visual Studio Insiders prerelease docs
 
 ### IDE
