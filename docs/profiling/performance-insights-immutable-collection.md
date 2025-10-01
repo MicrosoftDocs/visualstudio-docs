@@ -1,14 +1,13 @@
 ---
 title: Perf insights for excessive immutable collection modifications
 description: Learn how to improve performance for excessive modifications to immutable collections.
-ms.date: 09/18/2025
+ms.date: 10/01/2025
 ms.topic: reference
 author: mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
-
 
 # Inefficient immutable collection modifications
 
