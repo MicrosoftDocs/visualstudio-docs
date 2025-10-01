@@ -21,7 +21,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- Container tools updates
+- Container tools updates for Visual Studio Insiders prerelease
   - [Add support for containers](../containers/add-container-support.md)
   - [Build a container project from the command line](../containers/container-build-from-command-line.md)
   - [Customize containers in Visual Studio](../containers/container-build.md)
