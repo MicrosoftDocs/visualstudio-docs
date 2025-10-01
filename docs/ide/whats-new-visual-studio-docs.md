@@ -174,7 +174,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- [MSB3189 diagnostic code](../msbuild/errors/msb3189.md) - Revise MSB3189 documentation date and add description
+- [MSB3189 diagnostic code](../msbuild/errors/msb3189.md) - Add description
 - [Item element (MSBuild)](../msbuild/item-element-msbuild.md) - Clarify child elements on items
 - [Tutorial: Use MSBuild](../msbuild/walkthrough-using-msbuild.md)
   - Publish Visual Studio Insiders prerelease docs
