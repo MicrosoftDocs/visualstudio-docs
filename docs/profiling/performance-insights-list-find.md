@@ -21,7 +21,7 @@ This article describes performance insights when using <xref:System.Collections.
 
 The `List<T>.Find` method performs a linear search through the list, resulting in O(n) time complexity for each lookup. This can be inefficient when searching for items frequently or in large lists.
 
-If possible, consider using <xref:System.Collections.Generic.Dictionary%602> or a <xref:System.Collections.Generic.HashSet%601>. If you can assign a key or unique property to the value, <xref:System.Collections.Generic.Dictionary%602> can be used. If you are storing unique values, <xref:System.Collections.Generic.HashSet%601> can be used. Both of these alternative data structures have an O(1) time complexity for each lookup compared to O(n) in `List<T>.Find`.
+If possible, consider using <xref:System.Collections.Generic.Dictionary%602> or a <xref:System.Collections.Generic.HashSet%601>. If you can assign a key or unique property to the value, <xref:System.Collections.Generic.Dictionary%602> can be used. If you're storing unique values, <xref:System.Collections.Generic.HashSet%601> can be used. Both of these alternative data structures have an O(1) time complexity for each lookup compared to O(n) in `List<T>.Find`.
 
 ## How to investigate a warning
 
