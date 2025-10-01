@@ -1,5 +1,5 @@
 ---
-title: Perf insights for excessive string.Format/interpolation usage
+title: Perf insights for excessive string.Format or interpolation usage
 description: Learn how to improve performance for excessive use of string.Format or string interpolation.
 ms.date: 10/01/2025
 ms.topic: reference
