@@ -139,8 +139,8 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 - [Customize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md) - Key install updates for Visual Studio
 - [What is the GitHub Copilot Chat experience for Visual Studio?](../ide/visual-studio-github-copilot-chat.md) - Publish Visual Studio Insiders prerelease docs
 - [Use regular expressions in Visual Studio](../ide/using-regular-expressions-in-visual-studio.md) - Add more common regular expression elements to table
-- [Create and edit configurations](../ide/how-to-create-and-edit-configurations.md) - Update date and clarify configuration levels in docs
-- [Specify build events (C#)](../ide/how-to-specify-build-events-csharp.md) - Update build events documentation date and examples
+- [Create and edit configurations](../ide/how-to-create-and-edit-configurations.md) - Clarify configuration levels in docs
+- [Specify build events (C#)](../ide/how-to-specify-build-events-csharp.md) - Update build events examples
 - [Build and clean projects and solutions in Visual Studio](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md) - Mention that Build > Cancel only appears during build
 - [AI-assisted development in Visual Studio](../ide/ai-assisted-development-visual-studio.md) - Review and update
 - [Deploy GitHub Copilot to existing Visual Studio instances](../ide/deploy-copilot-to-enterprise.md) - Review and update
