@@ -60,8 +60,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- [Configure Windows Firewall for remote debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md)
-  - Update paths for PS, debugger
+- [Configure Windows Firewall for remote debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md) - Update path for debugger
   - Update instructions for configuring firewall for remote debugging
 - [Using the IntelliTrace stand-alone collector (C#, Visual Basic)](../debugger/using-the-intellitrace-stand-alone-collector.md) - Update paths for PS, debugger
 - Document Snappoint debugging deprecation
@@ -71,7 +70,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
   - [Debug live ASP.NET apps on Azure virtual machines and Azure virtual machine scale sets using the Snapshot Debugger](../debugger/debug-live-azure-virtual-machines.md)
 - [Debug your app with GitHub Copilot in Visual Studio](../debugger/debug-with-copilot.md)
   - Add Copilot feature for breakpoints
-  - Add new article on profiling with Copilot, debugger updates for Copilot
+  - Debugger updates for Copilot
 - [Inspect variables and return values in the Visual Studio debugger](../debugger/autos-and-locals-windows.md)
   - Add content for viewing post-return values inline
   - Add new article on profiling with Copilot, debugger updates for Copilot
