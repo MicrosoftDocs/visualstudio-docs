@@ -1,7 +1,7 @@
 ---
 title: 'Select the Files to Build'
 description: Select the files to build in the MSBuild project file by listing each file separately or by using wildcards with the asterisk (*) character.
-ms.date: 6/12/2024
+ms.date: 10/2/2025
 ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, wildcards
