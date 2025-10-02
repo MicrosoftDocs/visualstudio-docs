@@ -69,9 +69,9 @@ productDirectory:
     - title: Productivity services for developers
       imageSrc: ./media/Microsoft_logo.svg
       links:
-        - url: /azure/deployment-environments/
-          text: Azure Deployment Environments docs
         - url: /azure/developer/dev-tunnels/
           text: Azure Dev Tunnels docs
         - url: https://code.visualstudio.com/docs/remote/codespaces/
-          text: GitHub Codespaces with Visual Studio Code          
+          text: GitHub Codespaces with Visual Studio Code
+        - url: /azure/deployment-environments/
+          text: Azure Deployment Environments docs          
