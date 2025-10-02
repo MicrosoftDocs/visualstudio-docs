@@ -5,7 +5,7 @@ description: Use this tutorial to help you learn how to add Key Vault support to
 author: ghogen
 manager: mijacobs
 ms.topic: how-to
-ms.date: 10/30/2024
+ms.date: 10/2/2025
 ms.author: ghogen
 ms.custom:
   - devx-track-csharp
