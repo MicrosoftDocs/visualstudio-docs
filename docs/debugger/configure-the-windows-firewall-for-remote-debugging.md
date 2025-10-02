@@ -1,7 +1,7 @@
 ---
 title: Configure Windows Firewall for remote debugging
 description: Configure Windows Firewall for remote debugging. Configure ports for remote debugging. Troubleshoot the remote debugging connection.
-ms.date: 09/04/2025
+ms.date: 10/01/2025
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
@@ -76,12 +76,12 @@ New-NetFirewallRule -DisplayName "msvsmon" -Direction Inbound -Program "Program 
 
 For remote debugging, the following ports must be open on the remote computer:
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 |**Ports**|**Incoming/Outgoing**|**Protocol**|**Description**|
 |-|-|-|-|
-|4026|Incoming|TCP|For Visual Studio 2022. For more information, see [Visual Studio remote debugger port assignments](../debugger/remote-debugger-port-assignments.md).|
-|4025|Incoming|TCP|For Visual Studio 2022 and Microsoft Azure App Service. This port is only used to remote debug a 32-bit process from a 64-bit version of the remote debugger. For more information, see [Visual Studio remote debugger port assignments](../debugger/remote-debugger-port-assignments.md).|
+|4026|Incoming|TCP|For Visual Studio 2022 and later versions. For more information, see [Visual Studio remote debugger port assignments](../debugger/remote-debugger-port-assignments.md).|
+|4025|Incoming|TCP|For Visual Studio 2022 and later versions and Microsoft Azure App Service. This port is only used to remote debug a 32-bit process from a 64-bit version of the remote debugger. For more information, see [Visual Studio remote debugger port assignments](../debugger/remote-debugger-port-assignments.md).|
 |4024|Incoming|TCP|For Microsoft Azure App Service. For more information, see [Visual Studio remote debugger port assignments](../debugger/remote-debugger-port-assignments.md).|
 |3702|Outgoing|UDP|(Optional) Required for remote debugger discovery.|
 

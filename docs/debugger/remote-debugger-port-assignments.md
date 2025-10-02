@@ -1,7 +1,7 @@
 ---
 title: "Remote Debugger Port Assignments"
 description: Understand Visual Studio remote debugger port assignments on 32-bit operating systems, 64-bit operating systems, and Azure. Learn about the discovery port.
-ms.date: "04/25/2024"
+ms.date: "10/01/2025"
 ms.topic: "conceptual"
 author: "mikejo5000"
 ms.author: "mikejo"
@@ -12,6 +12,9 @@ ms.subservice: debug-diagnostics
 
 The Visual Studio Remote Debugger can run as an application or as a background service. When it runs as an application, it uses a port that is assigned by default as follows:
 
+::: moniker range=">=visualstudio"
+- Visual Studio 2026 and later: 4026
+::: moniker-end
 - Visual Studio 2022: 4026
 
 - Visual Studio 2019: 4024
@@ -24,12 +27,17 @@ The Visual Studio Remote Debugger can run as an application or as a background s
 
 - Visual Studio 2012: 4016
 
+::: moniker range=">=visualstudio"
+In other words, for older versions of Visual Studio, the number of the port assigned to the remote debugger is incremented by 2 for each release. You can set a different port number if you like. We explain how to set port numbers in a later section.
+::: moniker-end
+::: moniker range="<=vs-2022"
 In other words, the number of the port assigned to the remote debugger is incremented by 2 for each release. You can set a different port number if you like. We explain how to set port numbers in a later section.
+::: moniker-end
 
 ## The Remote Debugger Port on 32-bit Operating Systems
 
 ::: moniker range=">=vs-2022"
-TCP 4026 (in Visual Studio 2022) is the main port, and is required for all scenarios excluding Azure App Service. You can configure this port from either the command line or the remote debugger window.
+TCP 4026 (in Visual Studio 2022 and later versions) is the main port, and is required for all scenarios excluding Azure App Service. You can configure this port from either the command line or the remote debugger window.
 ::: moniker-end
 ::: moniker range="vs-2019"
 TCP 4024 (in Visual Studio 2019) is the main port, and is required for all scenarios. You can configure this port from either the command line or the remote debugger window.
