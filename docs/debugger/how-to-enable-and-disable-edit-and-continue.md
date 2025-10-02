@@ -128,7 +128,7 @@ Hot Reload can automatically restart the app's process when an unsupported chang
 </PropertyGroup>
 ```
 
-You can also set this property in a *Directory.Build.props* file. This streamlined auto-restart works for project types where a quick process restart is feasible (for example, some Aspire or web projects), so you can continue debugging with minimal interruption.
+You can also set this property in a *Directory.Build.props* file. Auto-restart works for project types where a quick process restart is feasible (for example, some Aspire or web projects), so you can continue debugging with minimal interruption.
 
 This is a process-based restart. For example, if you are debugging several projects, only the changed project(s), and any dependent project(s), are rebuilt and restarted.
 
