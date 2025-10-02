@@ -1,7 +1,7 @@
 ---
 title: Configure Edit and Continue
 description: Learn how to enable, disable, and configure Edit and Continue, in Visual Studio Options at design time. Edit and Continue works only in debug builds.
-ms.date: 01/24/2025
+ms.date: 10/2/2025
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -115,6 +115,27 @@ For C++, you can set additional options by opening **Tools** > **Options** > **D
      If selected, gives warnings about stale code.
 
 1. Select **OK**.
+::: moniker-end
+
+::: moniker range=">=visualstudio"
+## Configure Auto-restart
+
+Hot Reload can automatically restart the app's process when an unsupported change (also called a rude edit) is made, instead of ending the entire debug session. To enable this, edit your project file to add the following property declaration.
+
+```xml
+<PropertyGroup>
+  <HotReloadAutoRestart>true</HotReloadAutoRestart>
+</PropertyGroup>
+```
+
+You can also set this property in a *Directory.Build.props* file. Auto-restart works for project types where a quick process restart is feasible (for example, some Aspire or web projects), so you can continue debugging with minimal interruption.
+
+This is a process-based restart. For example, if you are debugging several projects, only the changed project(s), and any dependent project(s), are rebuilt and restarted.
+
+## Configure Hot Reload for Razor
+By co-hosting the Razor compiler inside the Roslyn process, editing a .razor file during Hot Reload is much faster and more efficient. Co-hosting also improves the overall reliability when using Hot Reload.
+
+To enable co-hosting, select **Tools** > **Options**, and then search for `cohost`. Select or deselect the setting **Use Roslyn Cohost server for Razor (requires restart)**. If you enable this, it's recommended to restart Visual Studio. Co-hosting is enabled by default. 
 ::: moniker-end
 
 ## Stop code changes

@@ -5,7 +5,7 @@ description: Use this tutorial to help you learn how to add Key Vault support to
 author: ghogen
 manager: mijacobs
 ms.topic: how-to
-ms.date: 10/30/2024
+ms.date: 10/2/2025
 ms.author: ghogen
 ms.custom:
   - devx-track-csharp
@@ -14,7 +14,7 @@ ms.custom:
 
 # Add Key Vault to your web application by using Visual Studio Connected Services
 
-In this tutorial, you will learn how to easily add everything you need to start using Azure Key Vault to manage your secrets for web projects in Visual Studio, whether you are using ASP.NET Core or any type of ASP.NET project. By using the Connected Services feature in Visual Studio, you can have Visual Studio automatically add all the NuGet packages and configuration settings you need to connect to Key Vault in Azure.
+In this tutorial, you learn how to easily add everything you need to start using Azure Key Vault to manage your secrets for web projects in Visual Studio, whether you're using ASP.NET Core or any type of ASP.NET project. By using the Connected Services feature in Visual Studio, you can have Visual Studio automatically add all the NuGet packages and configuration settings you need to connect to Key Vault in Azure.
 
 ## Prerequisites
 
@@ -37,15 +37,15 @@ Before you begin, make sure that you're signed in to Visual Studio. Sign in with
 
    ![Screenshot showing Connected Services screen, with option to choose Azure Key Vault.](./media/vs-key-vault-add-connected-service/key-vault-connected-service.png)
 
-1. Select the subscription you want to use, and then if you already have a key vault you want to use, select it and click **Next**.
+1. Select the subscription you want to use, and then if you already have a key vault you want to use, select it, and click **Next**.
 
    ![Screenshot showing Select your subscription.](./media/vs-key-vault-add-connected-service/key-vault-connected-service-select-vault.png)
 
-1. If you don't have an existing Key Vault, or if you need a key vault that you can set with different permissions than an existing one, click on **Create new Key Vault**. You'll be asked to provide the resource group, location, and SKU.
+1. If you don't have an existing Key Vault, or if you need a key vault that you can set with different permissions than an existing one, click on **Create new Key Vault**. You are asked to provide the resource group, location, and SKU.
 
    ![Screenshot of "Create Azure Key Vault" screen.](./media/vs-key-vault-add-connected-service/create-new-key-vault.png)
 
-1. In the **Configure Key Vault** screen, you can change the name of the environment variable that references the Key Vault URI. The connection string is not stored here; it's stored in the key vault.
+1. In the **Configure Key Vault** screen, you can change the name of the environment variable that references the Key Vault URI. The connection string isn't stored here; it's stored in the key vault.
 
    ![Screenshot of Connect to Azure Key Vault screen.](./media/vs-2022//connect-to-azure-key-vault-connection-setting.png)
 
@@ -70,11 +70,11 @@ Before you begin, make sure that you're signed in to Visual Studio. Sign in with
 
    ![Screenshot showing Connected Services screen and option to choose Azure Key Vault.](./media/vs-key-vault-add-connected-service/key-vault-connected-service.png)
 
-1. Select the subscription you want to use, and then if you already have a key vault you want to use, select it and click **Next**.
+1. Select the subscription you want to use, and then if you already have a key vault you want to use, select it, and click **Next**.
 
    ![Screenshot showing Select your subscription.](./media/vs-key-vault-add-connected-service/key-vault-connected-service-select-vault.png)
 
-1. If you don't have an existing Key Vault, click on **Create new Key Vault**. You'll be asked to provide the resource group, location, and SKU.
+1. If you don't have an existing Key Vault, click on **Create new Key Vault**. You are asked to provide the resource group, location, and SKU.
 
    ![Screenshot of "Create Azure Key Vault" screen.](./media/vs-key-vault-add-connected-service/create-new-key-vault.png)
 
@@ -97,7 +97,7 @@ If you followed this tutorial with Visual Studio 2022 version 17.11 or earlier, 
 If your key vault is running on a different Microsoft account than the one you're signed in to Visual Studio (for example, the key vault is running on your work account, but Visual Studio is using your private account) you get an error in your Program.cs file, that Visual Studio can't get access to the key vault. To fix this issue, go to the [Azure portal](https://portal.azure.com), open your key vault, and choose **Access control (IAM)** to set permissions. See [Provide access to Key Vault keys, certificates, and secrets with an Azure role-based access control (RBAC)](/azure/key-vault/general/rbac-guide?tabs=azure-cli).
 
 > [!NOTE]
-> Older key vaults might use a legacy access policy model. It is recommended to migrate older key vaults to use Azure RBAC. See [Azure role-based access control (RBAC) vs. access policies](/azure/key-vault/general/rbac-access-policy).
+> Older key vaults might use a legacy access policy model. It's recommended to migrate older key vaults to use Azure RBAC. See [Azure role-based access control (RBAC) vs. access policies](/azure/key-vault/general/rbac-access-policy).
 
 ## Next steps
 

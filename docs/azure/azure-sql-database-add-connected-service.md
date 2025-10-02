@@ -5,7 +5,7 @@ author: ghogen
 manager: mijacobs
 ms.subservice: azure-development
 ms.topic: conceptual
-ms.date: 10/30/2024
+ms.date: 10/2/2025
 ms.author: ghogen
 monikerRange: ">= vs-2019"
 ms.custom: sfi-image-nochange
