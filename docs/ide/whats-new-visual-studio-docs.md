@@ -80,7 +80,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 - [Tutorial: Debug C++ code with Visual Studio](../debugger/getting-started-with-the-debugger-cpp.md) - New topic about the command-line args dropdown
 - [Debug .NET Apps in WSL with Visual Studio](../debugger/debug-dotnet-core-in-wsl-2.md) - Add instructions for debugging WSL console app
 - [Error: Remote machine doesn't appear in a Remote Connections dialog](../debugger/error-remote-machine-does-not-appear-in-a-remote-connections-dialog.md) - Update instructions for configuring firewall for remote debugging
-- Add new article on profiling with Copilot, debugger updates for Copilot
+- Debugger updates for Copilot
   - [Use the right type of breakpoint](../debugger/using-breakpoints.md)
   - [View threads and tasks in the Parallel Stacks window (C#, Visual Basic, C++)](../debugger/using-the-parallel-stacks-window.md)
   - [Log info to the Output window using tracepoints in Visual Studio](../debugger/using-tracepoints.md)
