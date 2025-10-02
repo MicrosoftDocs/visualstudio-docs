@@ -1,7 +1,7 @@
 ---
 title: "Write and debug code by using Hot Reload"
 description: Explore the Hot Reload feature, also known as Edit and Continue, and make changes to your code while running applications.
-ms.date: 02/28/2025
+ms.date: 10/02/2025
 ms.topic: conceptual
 helpviewer_keywords:
   - "Hot reload"
