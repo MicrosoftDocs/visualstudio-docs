@@ -23,7 +23,7 @@ monikerRange: '>= vs-2022'
 ---
 # Project settings for C# debug configurations (.NET Core, .NET 5+, and ASP.NET Core)
 
-You can change C# project debug settings in the [Debug tab](#debug-tab) and [Build tab](#build-tab) of the project property pages.
+You can change C# project debug settings in the [Debug tab](#access-launch-profile-debug-settings) and [Build tab](#build-settings) of the project property pages.
 
 To open the property pages, select the project in **Solution Explorer** and then select the **Properties** icon, or right-click the project and select **Properties**.
 
@@ -32,7 +32,7 @@ For more information, see [Debug and release configurations](how-to-set-debug-an
 >[!IMPORTANT]
 >These settings don't apply to .NET Framework or UWP apps. To configure debug settings for .NET Framework, see [Project settings for C# debug configurations](../debugger/project-settings-for-csharp-debug-configurations.md).
 
-## Access launch profile settings
+## Access launch profile debug settings
 
 Select the project in **Solution Explorer** and then select the **Properties** icon, or right-click the project and select **Properties**. Then select **Open debug launch profiles UI** in the Debug tab to open the launch profiles UI and change debug settings.
 
@@ -69,7 +69,7 @@ Visual Studio provides an IIS Express profile by default, and you can create add
 |**Hosting model**|Specify In Process (default) or Out of Process. For more information, see [Hosting models](/aspnet/core/host-and-deploy/aspnet-core-module#hosting-models) in the ASP.NET Core docs.|
 |**App SSL URL**|For IIS Express, the **App SSL URL** is typically `http://localhost:44334.`|
 
-## Build tab
+## Build settings
 
 The following table shows build settings that are useful for debugging. For a complete explanation of build settings, see [Build Page, Project Designer](../ide/reference/build-page-project-designer-csharp.md).
 
