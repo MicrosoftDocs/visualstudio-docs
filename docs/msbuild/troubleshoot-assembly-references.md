@@ -1,7 +1,7 @@
 ---
 title: Troubleshoot assembly reference build errors
 description: Learn how to understand and troubleshoot assembly reference problems in .NET builds with MSBuild.
-ms.date: 06/21/2024
+ms.date: 10/2/2025
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
