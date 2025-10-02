@@ -60,7 +60,8 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- [Configure Windows Firewall for remote debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md) - Update path for debugger
+- [Configure Windows Firewall for remote debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md)
+  - Update path for debugger
   - Update instructions for configuring firewall for remote debugging
 - [Using the IntelliTrace stand-alone collector (C#, Visual Basic)](../debugger/using-the-intellitrace-stand-alone-collector.md) - Update paths for debugger
 - Document Snappoint debugging deprecation
