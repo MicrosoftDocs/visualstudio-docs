@@ -1,7 +1,7 @@
 ---
 title: "Remote Debug a C# or VB project"
 description: Learn how to debug a Visual Studio C# or Visual Basic application from a remote computer by following these step-by-step instructions.
-ms.date: "12/18/2024"
+ms.date: "10/01/2025"
 ms.topic: "conceptual"
 dev_langs:
   - "C++"
@@ -78,14 +78,16 @@ The debugger can't deploy Visual C# or Visual Basic desktop applications to a re
 
 5. Make sure the **Working directory** text box is empty.
 
-6. Choose **Use remote machine**, and type **yourmachinename:port** in the text box. (The port number is shown in the remote debugger window. The port number increments 2 in each version of Visual Studio).
+6. Choose **Use remote machine**, and type **yourmachinename:port** in the text box. The port number is shown in the remote debugger window.
 
     In this example, use:
-    ::: moniker range="vs-2022"
+    ::: moniker range=">=vs-2022"
     **MJO-DL:4026** on Visual Studio 2022
     ::: moniker-end
     ::: moniker range="vs-2019"
     **MJO-DL:4024** on Visual Studio 2019
+
+    The port number increments by 2 in each version of Visual Studio.
     ::: moniker-end
 
 7. Make sure that **Enable native code debugging** isn't selected.
