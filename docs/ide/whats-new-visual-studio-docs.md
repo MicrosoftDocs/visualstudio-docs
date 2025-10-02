@@ -62,7 +62,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 - [Configure Windows Firewall for remote debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md) - Update path for debugger
   - Update instructions for configuring firewall for remote debugging
-- [Using the IntelliTrace stand-alone collector (C#, Visual Basic)](../debugger/using-the-intellitrace-stand-alone-collector.md) - Update paths for PS, debugger
+- [Using the IntelliTrace stand-alone collector (C#, Visual Basic)](../debugger/using-the-intellitrace-stand-alone-collector.md) - Update paths for debugger
 - Document Snappoint debugging deprecation
   - [Debug live ASP.NET Azure apps using the Snapshot Debugger](../debugger/debug-live-azure-applications.md)
   - [Debug live ASP.NET Azure Kubernetes Services using the Snapshot Debugger](../debugger/debug-live-azure-kubernetes.md)
@@ -119,7 +119,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 - [Find references in your code](../ide/finding-references.md) - Update date and enhance clarity in finding references
 - [Remove Unused References](../ide/reference/remove-unused-references.md) - Clarify version compatibility for remote tools
 - [Navigate code](../ide/navigating-code.md) - Move or refactor some UI reference articles
-- [Visual Studio Developer Command Prompt and Developer PowerShell](../ide/reference/command-prompt-powershell.md) - Update paths for PS, debugger
+- [Visual Studio Developer Command Prompt and Developer PowerShell](../ide/reference/command-prompt-powershell.md) - Update paths for PowerShell
 - [Admin controls for GitHub Copilot](../ide/visual-studio-github-copilot-admin.md) - Updates for disabling agent mode
 - [Quick Actions](../ide/quick-actions.md) - Add configuration info for Quick Actions
 - Find file exclusions (new Visual Studio feature)
@@ -165,7 +165,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- [Unit testing JavaScript and TypeScript in Visual Studio](../javascript/unit-testing-javascript-with-visual-studio.md) - Update paths for PS, debugger
+- [Unit testing JavaScript and TypeScript in Visual Studio](../javascript/unit-testing-javascript-with-visual-studio.md) - Update paths
 - [Create a React app in Visual Studio](../javascript/create-react-app.md)
   - Update code snippet in React app
   - Update React tutorial
@@ -188,7 +188,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- [Measure application performance from the command line](../profiling/profile-apps-from-command-line.md) - Update paths for PS, debugger
+- [Measure application performance from the command line](../profiling/profile-apps-from-command-line.md) - Update paths
 - [Analyze BenchmarkDotNet data in Visual Studio](../profiling/profiling-with-benchmark-dotnet.md) - Add content for Benchmark project template
 - [Which performance tool should I use? (C#, Visual Basic, C++, F#)](../profiling/choose-performance-tool.md) - Describe support for CMake projects in profiling
 - [Zero-length array allocations](../profiling/performance-insights-zero-length-array-allocations.md) - Add Copilot content for Perf Profiler start screen
@@ -203,7 +203,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- Update paths for PS, debugger
+- Update paths
   - [Upgrade from .testsettings to .runsettings](../test/migrate-testsettings-to-runsettings.md)
   - [Use code coverage to determine how much code is being tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md)
 - Update code coverage information for VS Community, Professional
