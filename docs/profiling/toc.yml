@@ -72,6 +72,14 @@
           href: performance-insights-string-startswith.md
         - name: String concatenation
           href: perf-insights-string-concatenation.md
+        - name: String.Format or interpolation
+          href: performance-insights-string-format.md
+        - name: LinkedList traversal
+          href: performance-insights-linked-list-traversal.md
+        - name: Immutable collection modifications
+          href: performance-insights-immutable-collection.md
+        - name: Inefficient List<T>.Find usage
+          href: performance-insights-list-find.md
   - name: Memory usage
     items:
     - name: Choose a memory analysis tool

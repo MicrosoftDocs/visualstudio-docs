@@ -1,7 +1,7 @@
 ---
 title: View type definitions with Go To and Peek features
 description: Explore the Go To Definition and Peek Definition features that enable you to easily view the definition of a type or member in Visual Studio.
-ms.date: 08/21/2024
+ms.date: 10/2/2025
 ms.topic: concept-article
 helpviewer_keywords:
 - code editor, view definition
@@ -63,7 +63,13 @@ There are several ways you can access **Peek Definition**:
 
 You can configure the **Ctrl**+**Click** keyboard/mouse shortcut for **Go To Definition** to open the source code file in **Peek** view. Use the **Open definition in peek view** option under **Tools** > **Options** > **Text Editor** > **General**.
 
+:::moniker range="visualstudio"
+:::image type="content" source="./media/visualstudio/editor-options-peek-view.png" border="false" alt-text="Screenshot of the Text Editor options for the Peek Definition feature.":::
+:::moniker-end
+
+:::moniker range="<=vs-2022"
 :::image type="content" source="./media/editor-options-peek-view.png" border="false" alt-text="Screenshot of the Text Editor options for the Peek Definition feature.":::
+:::moniker-end
 
 ### Use breadcrumb path for multiple files
 
