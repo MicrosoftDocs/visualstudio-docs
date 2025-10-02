@@ -106,7 +106,7 @@ You can filter the tabular data to display activity for only a specified time ra
 
 You can also zoom into or out of the graph.
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 ## Insights
 
 If any insights show up in the **Insights** view, use the provided link to get more information about the issue identified. 
