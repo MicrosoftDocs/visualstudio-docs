@@ -61,7 +61,7 @@ Multiple files can be added to item lists by either including the files individu
     `<Compile Include="Form1.vb"/>`
 
     > [!NOTE]
-    > If items in an item collection are not in the same directory as the project file, you must specify the full or relative path to the item. For example: `Include="..\..\Form2.cs"`.
+    > If items in an item collection aren't in the same directory as the project file, you must specify the full or relative path to the item. For example: `Include="..\..\Form2.cs"`.
 
 The same item list can be repeatedly modified by multiple `Include` attributes. Each `Include` adds to what was there previously.
 
@@ -145,7 +145,7 @@ In most project files, you don't need to explicitly pass the `Compile` item to a
     `<VBC Sources="@(VBFile)">...</VBC>`
 
 > [!NOTE]
-> You must use wildcards with items to specify the inputs for a build; you cannot specify the inputs using the `Sources` attribute in MSBuild tasks such as [Csc](../msbuild/csc-task.md) or [Vbc](../msbuild/vbc-task.md). The following example is not valid in a project file:
+> You must use wildcards with items to specify the inputs for a build; you can't specify the inputs using the `Sources` attribute in MSBuild tasks such as [Csc](../msbuild/csc-task.md) or [Vbc](../msbuild/vbc-task.md). The following example isn't valid in a project file:
 >
 > `<CSC Sources="*.cs">...</CSC>`
 
