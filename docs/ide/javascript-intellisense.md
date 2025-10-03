@@ -1,7 +1,7 @@
 ---
 title: Display JavaScript parameters & member lists with IntelliSense
 description: Learn how Visual Studio delivers richer IntelliSense, support for modern JavaScript features, and improved productivity features.
-ms.date: 02/21/2023
+ms.date: 10/03/2025
 ms.topic: conceptual
 ms.subservice: javascript-typescript
 f1_keywords:
@@ -92,6 +92,9 @@ var x = {a: true};
 x.b = false;
 x. // <- "x" is shown as having properties a, b, and c of the types specified
 ```
+
+> [!NOTE]
+> Unlike JavaScript, TypeScript does not support type information in JSDoc comments. For TypeScript, use `x: type` syntax in the variable declaration, such as `let x: { a: number, b: number}`.
 
 As mentioned, function parameters are never inferred. However, using the JSDoc `@param` tag you can add types to function parameters as well.
 
