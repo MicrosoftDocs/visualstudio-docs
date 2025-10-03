@@ -231,6 +231,6 @@ In the following example, you pass two arguments to a DLL project named ConsoleA
 
 For a console app running in WSL, the standard input stream (stdin) is redirected and there isn't a way to provide input. When debugging a console app that requires input, start the app directly from WSL using `dotnet run` and specify the path to the DLL on Windows. This provides access to stdin because the app runs in the Linux console. To debug, use the instructions described in the section [Attach to a running WSL process](#attach-to-a-running-wsl-process).
 
-## Debug unit tests
+## Remote debug unit tests
 
-To debug unit tests in WSL, you must specify the test environment in *testEnvironments.json*. For more information, see [Local WSL 2 connections](../test/remote-testing.md#local-wsl2-connections).
+To remotely debug unit tests in WSL, you must specify the test environment in *testEnvironments.json*. For more information, see [Local WSL 2 connections](../test/remote-testing.md#local-wsl2-connections).
