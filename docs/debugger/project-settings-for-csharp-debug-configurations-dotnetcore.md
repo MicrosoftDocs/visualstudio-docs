@@ -1,7 +1,7 @@
 ---
 title: "Project Settings for a .NET C# debug config"
 description: Understand how to change the project settings for a C# .NET 5+ or .NET Core debug configuration in Visual Studio, using the Debug tab and Build tab of the project property pages.
-ms.date: "07/15/2022"
+ms.date: "10/2/2025"
 ms.topic: "ui-reference"
 dev_langs:
   - "CSharp"
@@ -23,7 +23,7 @@ monikerRange: '>= vs-2022'
 ---
 # Project settings for C# debug configurations (.NET Core, .NET 5+, and ASP.NET Core)
 
-You can change C# project debug settings in the [Debug tab](#debug-tab) and [Build tab](#build-tab) of the project property pages.
+You can change C# project debug settings in the [Debug tab](#access-launch-profile-debug-settings) and [Build tab](#build-settings) of the project property pages.
 
 To open the property pages, select the project in **Solution Explorer** and then select the **Properties** icon, or right-click the project and select **Properties**.
 
@@ -32,9 +32,11 @@ For more information, see [Debug and release configurations](how-to-set-debug-an
 >[!IMPORTANT]
 >These settings don't apply to .NET Framework or UWP apps. To configure debug settings for .NET Framework, see [Project settings for C# debug configurations](../debugger/project-settings-for-csharp-debug-configurations.md).
 
-## Debug tab
+## Access launch profile debug settings
 
-Starting in Visual Studio 2022, choose **Open debug launch profiles UI** in the Debug tab to open the launch profiles UI and change debug settings.
+Select the project in **Solution Explorer** and then select the **Properties** icon, or right-click the project and select **Properties**. Then select **Open debug launch profiles UI** in the Debug tab to open the launch profiles UI and change debug settings.
+
+Alternatively, you can access the launch profile from the **Debug** menu by selecting *\<projectname\>* **Debug Properties**.
 
 ## Launch profile (.NET Core, .NET 5+)
 
@@ -67,7 +69,7 @@ Visual Studio provides an IIS Express profile by default, and you can create add
 |**Hosting model**|Specify In Process (default) or Out of Process. For more information, see [Hosting models](/aspnet/core/host-and-deploy/aspnet-core-module#hosting-models) in the ASP.NET Core docs.|
 |**App SSL URL**|For IIS Express, the **App SSL URL** is typically `http://localhost:44334.`|
 
-## Build tab
+## Build settings
 
 The following table shows build settings that are useful for debugging. For a complete explanation of build settings, see [Build Page, Project Designer](../ide/reference/build-page-project-designer-csharp.md).
 
