@@ -62,7 +62,7 @@ If you are scripting the deployment of Visual Studio in an offline environment t
 
 ## Maintaining an offline machine
 
-For users maintaining offline machines, we recommend manually deploying required certifications. You can obtain required certifications here: http://www.microsoft.com/pkiops/certs/Microsoft%20Windows%20Code%20Signing%20PCA%202024.crt
+For users maintaining offline machines, we recommend manually deploying required certifications. You can obtain required certifications here: https://www.microsoft.com/pkiops/certs/Microsoft%20Windows%20Code%20Signing%20PCA%202024.crt
 
 ## What are the certificates files in the Certificates folder?
 
