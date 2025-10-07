@@ -94,7 +94,7 @@ x. // <- "x" is shown as having properties a, b, and c of the types specified
 ```
 
 > [!NOTE]
-> Unlike JavaScript, TypeScript does not support type information in JSDoc comments. For TypeScript, use `x: type` syntax in the variable declaration, such as `let x: { a: number, b: number}`.
+> Unlike JavaScript, TypeScript does not support type information in JSDoc comments. For TypeScript, use `x: type` syntax in the variable declaration, such as `let x: { a: number, b: number}`. For more information, see [Type Checking JavaScript Files](https://www.typescriptlang.org/docs/handbook/type-checking-javascript-files.html).
 
 As mentioned, function parameters are never inferred. However, using the JSDoc `@param` tag you can add types to function parameters as well.
 
