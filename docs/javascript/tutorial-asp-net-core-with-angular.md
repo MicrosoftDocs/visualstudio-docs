@@ -48,7 +48,8 @@ Make sure to install the following:
    :::image type="content" source="media/vs-2022/angular-choose-template.png" alt-text="Screenshot showing choosing a template.":::
 
    ::: moniker range="vs-2022"
-   There is an compatibility issue with Angular 20.x.x and the **Angular and ASP.NET Core** template in Visual Studio 2022. To use Angular 20.x.x in Visual Studio 2022, it's recommended that you create an ASP.NET Core project first and then add an Angular project to the solution instead of using the combined template described in this article.
+   > [!NOTE]
+   > There is a compatibility issue with Angular 20.x.x and the **Angular and ASP.NET Core** template in Visual Studio 2022. To use Angular 20.x.x in Visual Studio 2022, it's recommended that you create an ASP.NET Core project first, add an Angular project to the solution, and then add a project reference to the Angular project from the ASP.NET Core project. You can use this method instead of using the combined template described in this article. For more information about the issue, see [Creating a new Solution with Angular](https://developercommunity.visualstudio.com/t/Creating-a-new-Solution-with-Angular-is/10918866?q=Angular).
    ::: moniker-end
 
 1. Name the project **AngularWithASP** and then select **Next**.
