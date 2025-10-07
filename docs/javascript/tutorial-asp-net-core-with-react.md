@@ -17,7 +17,7 @@ ms.update-cycle: 90-days
 
 In this article, you learn how to build an ASP.NET Core project to act as an API backend and a React project to act as the UI.
 
-Currently, Visual Studio includes ASP.NET Core Single Page Application (SPA) templates that support Angular and React. The templates provide a built-in client app folder in your ASP.NET Core projects that contains the base files and folders of each framework.
+Currently, Visual Studio includes ASP.NET Core Single Page Application (SPA) templates that support Angular and React. The templates provide a built-in client app folder in your ASP.NET Core solution that contains the base files and folders of each framework.
 
 You can use the method described in this article to create ASP.NET Core Single Page Applications that:
 
