@@ -10,7 +10,7 @@ author: maddymontaquila
 ms.author: maleger
 manager: mijacobs
 ms.subservice: xaml-tools
-monikerRange: vs-2022
+monikerRange: ">=vs-2022"
 ---
 # XAML Live Preview: Capture and edit desktop app UI
 
