@@ -225,19 +225,14 @@ In Visual Studio, select the **Development Editor** configuration and modify `Bu
     - Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" LyraEditor Win64 Development -Project="C:\LyraStarterGame\LyraStarterGame.uproject" ...
      14% -   Log file: C:\Users\<user>\AppData\Local\UnrealBuildTool\Log.txt
     ```
-1. Search that `Log.txt` for `BuildConfiguration.xml`. It should contain a line like this:
-
-    ```
-    ...
-    Reading configuration file from: C:\LyraStarterGame\Saved\UnrealBuildTool\BuildConfiguration.xml
-    ```
+1. Search that `Log.txt` for `BuildConfiguration.xml`. It should contain a line like `Reading configuration file from: C:\LyraStarterGame\Saved\UnrealBuildTool\BuildConfiguration.xml`
 1. Modify that `BuildConfiguration.xml` file to contain `<bDynamicDebugging>true</bDynamicDebugging>`:
 
     ```xml
     <?xml version="1.0" encoding="utf-8" ?>
     <Configuration xmlns="https://www.unrealengine.com/BuildConfiguration">
         <WindowsPlatform>
-            <bDynamicDebugging>true</bDynamicDebugging> <!-- add this line ->
+            <bDynamicDebugging>true</bDynamicDebugging> <!-- add this line -->
         </WindowsPlatform>
     </Configuration>
     ```
@@ -249,8 +244,8 @@ The other way to enable C++ Dynamic Debugging for both Unreal Build Tool and Unr
 Unreal Engine projects have `Target.cs` files associated with several target types, including:
 
 ```
-{ProjectName}.Target.cs` for the game executable.
-{ProjectName}Editor.Target.cs` for the editor build.
+{ProjectName}.Target.cs for the game executable.
+{ProjectName}Editor.Target.cs for the editor build.
 ```
 
 For an editor build, in the `{ProjectName}Editor.Target.cs` file, add `WindowsPlatform.bDynamicDebugging = true;` to the constructor:
