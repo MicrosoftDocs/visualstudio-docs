@@ -214,26 +214,23 @@ You might need to debug optimized code without it being deoptimized, or put a br
 
 ## Enable C++ Dynamic Debugging in Unreal Engine
 
-Unreal Engine 5.6 supports C++ Dynamic Debugging for both Unreal Build Tool and Unreal Build Accelerator. There are two ways to enable it: [Modify the `BuildConfiguration.xml`]([Modify the `BuildConfiguration.xml` file](#modify-the-buildconfigurationxml-file) or [Modify the project's `Target.cs` file](#modify-the-targetcs-file).
+Unreal Engine 5.6 supports C++ Dynamic Debugging for both Unreal Build Tool and Unreal Build Accelerator. There are two ways to enable it: [Modify the `BuildConfiguration.xml` file](#modify-the-buildconfigurationxml-file) or [Modify the `Targets.cs` file](#modify-the-targetscs-file).
 
 ### Modify the `BuildConfiguration.xml` file
 
-In Visual Studio, use the **Development Editor** configuration, and modify `BuildConfiguration.xml` to include `<bDynamicDebugging>true</bDynamicDebugging>`. For more information about `BuildConfiguration.xml` and its location, see [Build Configuration](https://dev.epicgames.com/documentation/en-us/unreal-engine/build-configuration-for-unreal-engine).
+In Visual Studio, select the **Development Editor** configuration and modify `BuildConfiguration.xml` to include `<bDynamicDebugging>true</bDynamicDebugging>`. For more information about `BuildConfiguration.xml` and its location, see [Build Configuration](https://dev.epicgames.com/documentation/en-us/unreal-engine/build-configuration-for-unreal-engine).
 
 1. One way to locate your `BuildConfiguration.xml` file is to run a build and check the build log output. For example, when building the Lyra Starter Game, you see output like this:
-
-```cmd
-- Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" LyraEditor Win64 Development -Project="C:\LyraStarterGame\LyraStarterGame.uproject" ...
- 14% -   Log file: C:\Users\<user>\AppData\Local\UnrealBuildTool\Log.txt
-```
-
+    ```cmd
+    - Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" LyraEditor Win64 Development -Project="C:\LyraStarterGame\LyraStarterGame.uproject" ...
+     14% -   Log file: C:\Users\<user>\AppData\Local\UnrealBuildTool\Log.txt
+    ```
 1. Search that `Log.txt` for `BuildConfiguration.xml`. It should contain a line like this:
 
-```cmd
-...
-Reading configuration file from: C:\LyraStarterGame\Saved\UnrealBuildTool\BuildConfiguration.xml
-```
-
+    ```cmd
+    ...
+    Reading configuration file from: C:\LyraStarterGame\Saved\UnrealBuildTool\BuildConfiguration.xml
+    ```
 1. Modify that `BuildConfiguration.xml` file to contain `<bDynamicDebugging>true</bDynamicDebugging>`, like so:
 
     ```xml
@@ -247,40 +244,41 @@ Reading configuration file from: C:\LyraStarterGame\Saved\UnrealBuildTool\BuildC
 
 ### Modify the `Targets.cs` file
 
-The other way to enable C++ Dynamic Debugging for both Unreal Build Tool and Unreal Build Accelerator is to modify your project's `Target.cs` file to contain `WindowsPlatform.bDynamicDebugging = true`.
+The other way to enable C++ Dynamic Debugging for both Unreal Build Tool and Unreal Build Accelerator, is to modify your project's `Target.cs` file to contain `WindowsPlatform.bDynamicDebugging = true`.
 
-Unreal Engine projects typically have:
+Unreal Engine projects have multiple target files, including:
 
-    `<ProjectName>.Target.cs` for the game executable.
-    `<ProjectName>Editor.Target.cs` for the editor build.
+    `{ProjectName}.Target.cs` for the game executable.
+    `{ProjectName}Editor.Target.cs` for the editor build.
+    
 
-    For example, in the `<ProjectName>Editor.Target.cs` file for the editor, add the following line to the constructor:
+For the editor, in the `{ProjectName}Editor.Target.cs` file for the editor, add `WindowsPlatform.bDynamicDebugging = true;` to the constructor:
 
     ```cs
     public class LyraEditorTarget : TargetRules
     {
-    	public LyraEditorTarget(TargetInfo Target) : base(Target)
-    	{
-    		Type = TargetType.Editor;
-
+        public LyraEditorTarget(TargetInfo Target) : base(Target)
+        {
+            Type = TargetType.Editor;
+    
             WindowsPlatform.bDynamicDebugging = true; // add this line
             // Other settings...
         }
     }
     
-    Or, in the `<ProjectName>.Target.cs` file for the game, add the following line to `ApplyShared<Project name>TargetSettings()`:
+Or for the game, in the `{ProjectName}.Target.cs` file, add `WindowsPlatform.bDynamicDebugging = true;` to `ApplyShared{Project name}TargetSettings()`:
 
-    ```cs
-    internal static void ApplySharedLyraTargetSettings(TargetRules Target)
-    {
-    	ILogger Logger = Target.Logger;
-        
-        WindowsPlatform.bDynamicDebugging = true; // add this line
-        // Other settings...
-    }
-    ```
+```cs
+internal static void ApplySharedLyraTargetSettings(TargetRules Target)
+{
+    ILogger Logger = Target.Logger;
+    
+    WindowsPlatform.bDynamicDebugging = true; // add this line
+    // Other settings...
+}
+```
 
-    For more information about Unreal Engine target files, see [Targets](https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-build-tool-target-reference).
+For more information about Unreal Engine target files, see [Targets](https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-build-tool-target-reference).
 
 ### Unreal Engine 5.5 or earlier
 
