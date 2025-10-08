@@ -214,23 +214,27 @@ You might need to debug optimized code without it being deoptimized, or put a br
 
 ## Enable C++ Dynamic Debugging in Unreal Engine
 
-Unreal Engine 5.6 supports C++ Dynamic Debugging for both Unreal Build Tool and Unreal Build Accelerator. There are two ways to enable it:
+Unreal Engine 5.6 supports C++ Dynamic Debugging for both Unreal Build Tool and Unreal Build Accelerator. There are two ways to enable it: [Modify the `BuildConfiguration.xml`]([Modify the `BuildConfiguration.xml` file](#modify-the-buildconfigurationxml-file) or [Modify the project's `Target.cs` file](#modify-the-targetcs-file).
 
-- Use the **Development Editor** configuration, and modify `BuildConfiguration.xml` to include `<bDynamicDebugging>true</bDynamicDebugging>`. For more information about `BuildConfiguration.xml` and its location, see [Build Configuration](https://dev.epicgames.com/documentation/en-us/unreal-engine/build-configuration-for-unreal-engine). One way to locate your `BuildConfiguration.xml` file is to run a build and check the log output. For example, when building the Lyra Starter Game, you might see output like this:
+### Modify the `BuildConfiguration.xml` file
+
+In Visual Studio, use the **Development Editor** configuration, and modify `BuildConfiguration.xml` to include `<bDynamicDebugging>true</bDynamicDebugging>`. For more information about `BuildConfiguration.xml` and its location, see [Build Configuration](https://dev.epicgames.com/documentation/en-us/unreal-engine/build-configuration-for-unreal-engine).
+
+1. One way to locate your `BuildConfiguration.xml` file is to run a build and check the build log output. For example, when building the Lyra Starter Game, you see output like this:
 
 ```cmd
-- Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" LyraEditor Win64 Development -Project="C:\LyraStarterGame\LyraStarterGame.uproject" -WaitMutex -architecture=x64 -Progress -FromMsBuild
+- Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" LyraEditor Win64 Development -Project="C:\LyraStarterGame\LyraStarterGame.uproject" ...
  14% -   Log file: C:\Users\<user>\AppData\Local\UnrealBuildTool\Log.txt
 ```
 
-Search `Log.txt` for `BuildConfiguration.xml` in the log file. The log file might contain a line like this:
+1. Search that `Log.txt` for `BuildConfiguration.xml`. It should contain a line like this:
 
 ```cmd
 ...
 Reading configuration file from: C:\LyraStarterGame\Saved\UnrealBuildTool\BuildConfiguration.xml
 ```
 
-Modify the `BuildConfiguration.xml` file to contain `<bDynamicDebugging>true</bDynamicDebugging>`, like so:
+1. Modify that `BuildConfiguration.xml` file to contain `<bDynamicDebugging>true</bDynamicDebugging>`, like so:
 
     ```xml
     <?xml version="1.0" encoding="utf-8" ?>
@@ -241,7 +245,9 @@ Modify the `BuildConfiguration.xml` file to contain `<bDynamicDebugging>true</bD
     </Configuration>
     ```
 
-- Modify your project's `Target.cs` file to contain `WindowsPlatform.bDynamicDebugging = true`.
+### Modify the `Targets.cs` file
+
+The other way to enable C++ Dynamic Debugging for both Unreal Build Tool and Unreal Build Accelerator is to modify your project's `Target.cs` file to contain `WindowsPlatform.bDynamicDebugging = true`.
 
 Unreal Engine projects typically have:
 
@@ -275,6 +281,8 @@ Unreal Engine projects typically have:
     ```
 
     For more information about Unreal Engine target files, see [Targets](https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-build-tool-target-reference).
+
+### Unreal Engine 5.5 or earlier
 
 For Unreal Engine 5.5 or earlier, cherry-pick the Unreal Build Tool changes from [GitHub](https://aka.ms/vcdd_ue) into your repo. Then enable `bDynamicDebugging` as indicated above. You also need to use Unreal Build Accelerator from Unreal Engine 5.6. Either use the latest bits from ue5-main, or disable UBA by adding the following to `BuildConfiguration.xml`:
 
