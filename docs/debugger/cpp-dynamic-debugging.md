@@ -212,9 +212,9 @@ You might need to debug optimized code without it being deoptimized, or put a br
 - To quickly disable Dynamic Debugging for a single binary (for example, `test.dll`), rename or delete the `alt` binary (for example, `test.alt.dll`).
 - To disable Dynamic Debugging for one or more `.cpp` files, don't pass `/dynamicdeopt` when you build them. The remainder of your project is built with Dynamic Debugging.
 
-## Enable C++ Dynamic Debugging in Unreal Engine
+## Enable C++ Dynamic Debugging for Unreal Engine 5.6 or later
 
-Unreal Engine 5.6 supports C++ Dynamic Debugging for both Unreal Build Tool and Unreal Build Accelerator. There are two ways to enable it: [Modify the `BuildConfiguration.xml` file](#modify-the-buildconfigurationxml-file) or [Modify the `Targets.cs` file](#modify-the-targetscs-file).
+Unreal Engine 5.6 supports C++ Dynamic Debugging for both Unreal Build Tool and Unreal Build Accelerator. There are two ways to enable it. Either [Modify the `BuildConfiguration.xml` file](#modify-the-buildconfigurationxml-file) or [Modify the `Targets.cs` file](#modify-the-targetscs-file).
 
 ### Modify the `BuildConfiguration.xml` file
 
@@ -277,7 +277,7 @@ internal static void ApplySharedLyraTargetSettings(TargetRules Target)
 
 For more information about Unreal Engine target files, see [Targets](https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-build-tool-target-reference).
 
-### Unreal Engine 5.5 or earlier
+## Enable C++ Dynamic Debugging for Unreal Engine 5.5 or earlier
 
 For Unreal Engine 5.5 or earlier, cherry-pick the Unreal Build Tool changes from [GitHub](https://aka.ms/vcdd_ue) into your repo. Then enable `bDynamicDebugging` as indicated above. You also need to use Unreal Build Accelerator from Unreal Engine 5.6. Either use the latest bits from ue5-main, or disable UBA by adding the following to `BuildConfiguration.xml`:
 
