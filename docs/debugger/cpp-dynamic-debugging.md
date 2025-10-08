@@ -227,46 +227,48 @@ In Visual Studio, select the **Development Editor** configuration and modify `Bu
     ```
 1. Search that `Log.txt` for `BuildConfiguration.xml`. It should contain a line like this:
 
-    ```cmd
+    ```
     ...
     Reading configuration file from: C:\LyraStarterGame\Saved\UnrealBuildTool\BuildConfiguration.xml
     ```
-1. Modify that `BuildConfiguration.xml` file to contain `<bDynamicDebugging>true</bDynamicDebugging>`, like so:
+1. Modify that `BuildConfiguration.xml` file to contain `<bDynamicDebugging>true</bDynamicDebugging>`:
 
     ```xml
     <?xml version="1.0" encoding="utf-8" ?>
     <Configuration xmlns="https://www.unrealengine.com/BuildConfiguration">
         <WindowsPlatform>
-            <bDynamicDebugging>true</bDynamicDebugging>
+            <bDynamicDebugging>true</bDynamicDebugging> <!-- add this line ->
         </WindowsPlatform>
     </Configuration>
     ```
 
 ### Modify the `Targets.cs` file
 
-The other way to enable C++ Dynamic Debugging for both Unreal Build Tool and Unreal Build Accelerator, is to modify your project's `Target.cs` file to contain `WindowsPlatform.bDynamicDebugging = true`.
+The other way to enable C++ Dynamic Debugging for both Unreal Build Tool and Unreal Build Accelerator is to modify your `Target.cs` file to contain `WindowsPlatform.bDynamicDebugging = true`.
 
-Unreal Engine projects have multiple target files, including:
+Unreal Engine projects have `Target.cs` files associated with several target types, including:
 
-    `{ProjectName}.Target.cs` for the game executable.
-    `{ProjectName}Editor.Target.cs` for the editor build.
-    
+```
+{ProjectName}.Target.cs` for the game executable.
+{ProjectName}Editor.Target.cs` for the editor build.
+```
 
-For the editor, in the `{ProjectName}Editor.Target.cs` file for the editor, add `WindowsPlatform.bDynamicDebugging = true;` to the constructor:
+For an editor build, in the `{ProjectName}Editor.Target.cs` file, add `WindowsPlatform.bDynamicDebugging = true;` to the constructor:
 
-    ```cs
-    public class LyraEditorTarget : TargetRules
+```cs
+public class LyraEditorTarget : TargetRules
+{
+    public LyraEditorTarget(TargetInfo Target) : base(Target)
     {
-        public LyraEditorTarget(TargetInfo Target) : base(Target)
-        {
-            Type = TargetType.Editor;
-    
-            WindowsPlatform.bDynamicDebugging = true; // add this line
-            // Other settings...
-        }
+        Type = TargetType.Editor;
+
+        WindowsPlatform.bDynamicDebugging = true; // add this line
+        // Other settings...
     }
+}
+```
     
-Or for the game, in the `{ProjectName}.Target.cs` file, add `WindowsPlatform.bDynamicDebugging = true;` to `ApplyShared{Project name}TargetSettings()`:
+Or for a game build, in the `{ProjectName}.Target.cs` file, add `WindowsPlatform.bDynamicDebugging = true;` to `ApplyShared{Project name}TargetSettings()`:
 
 ```cs
 internal static void ApplySharedLyraTargetSettings(TargetRules Target)
