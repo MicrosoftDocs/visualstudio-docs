@@ -60,6 +60,10 @@ If you are scripting the deployment of Visual Studio in an offline environment t
 
 3. Deploy the batch file to the client. This command should be run from an elevated process.
 
+## Maintaining an offline machine
+
+For users maintaining offline machines, we recommend manually deploying the required certifications. You can obtain the required certifications [here](https://www.microsoft.com/pkiops/certs/Microsoft%20Windows%20Code%20Signing%20PCA%202024.crt).
+
 ## What are the certificates files in the Certificates folder?
 
 * **manifestRootCertificate.cer** contains:
