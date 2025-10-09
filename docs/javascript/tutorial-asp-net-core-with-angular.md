@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with Angular"
 description: Create an ASP.NET Core project to serve as an API backend and an Angular project to provide the user interface in Visual Studio.
-ms.date: 04/09/2025
+ms.date: 10/7/2025
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -18,11 +18,11 @@ ms.update-cycle: 90-days
 
 In this article, you learn how to build an ASP.NET Core project to act as an API backend and an Angular project to act as the UI.
 
-Visual Studio includes ASP.NET Core Single Page Application (SPA) templates that support Angular and React. The templates provide a built-in Client App folder in your ASP.NET Core projects that contains the base files and folders of each framework.
+Visual Studio includes ASP.NET Core Single Page Application (SPA) templates that support Angular and React. The templates provide a built-in client app folder in your ASP.NET Core solution that contains the base files and folders of each framework.
 
 You can use the method described in this article to create ASP.NET Core Single Page Applications that:
 
-- Put the client app in a separate project, outside from the ASP.NET Core project
+- Put the client app in a separate project, outside of the ASP.NET Core project
 - Create the client project based on the framework CLI installed on your computer
 
 > [!NOTE]
@@ -46,6 +46,11 @@ Make sure to install the following:
 1. Search for Angular in the search bar at the top and then select **Angular and ASP.NET Core**.
 
    :::image type="content" source="media/vs-2022/angular-choose-template.png" alt-text="Screenshot showing choosing a template.":::
+
+   ::: moniker range="vs-2022"
+   > [!NOTE]
+   > There is a compatibility issue with Angular 20.x.x and the **Angular and ASP.NET Core** template in Visual Studio 2022. To use Angular 20.x.x in Visual Studio 2022, it's recommended that you create an ASP.NET Core project first, add an Angular project to the solution, and then add a project reference to the Angular project from the ASP.NET Core project. You can use this method instead of using the combined template described in this article. For more information about the issue, see [Creating a new Solution with Angular](https://developercommunity.visualstudio.com/t/Creating-a-new-Solution-with-Angular-is/10918866?q=Angular).
+   ::: moniker-end
 
 1. Name the project **AngularWithASP** and then select **Next**.
 
