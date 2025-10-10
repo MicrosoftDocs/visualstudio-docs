@@ -19,7 +19,7 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
 
  The root element of the manifest XML file is `<PackageManifest>`. It has a single attribute `Version`, which is the version of the manifest format. If major changes are made to the format, the version format is changed. This article describes manifest format version 2.0, which is specified in the manifest by setting the `Version` attribute to the value of Version="2.0".
 
-### PackageManifest element
+## PackageManifest element
 
  Within the `<PackageManifest>` root element, you can use the following elements:
 
@@ -33,7 +33,7 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
 
 - `<AnyElement>*` - The manifest schema is flexible enough to allow any other elements. Any child elements not recognized by the manifest loader are exposed in the Extension Manager API as extra XmlElement objects. Using these child elements, VSIX extensions can define additional data in the manifest file that code running in Visual Studio can access at run time. See [Microsoft.VisualStudio.ExtensionManager.IExtension.AdditionalElements](/previous-versions/visualstudio/visual-studio-2013/hh265266(v=vs.120)).
 
-### Metadata element
+## Metadata element
 
  This section is the metadata about the package, its identity, and advertising information. `<Metadata>` contains the following elements:
 
@@ -67,7 +67,7 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
 
 - `<AnyElement>*` - The manifest schema is flexible enough to allow any other elements. Any child elements that aren't recognized by the manifest loader are exposed as a list of XmlElement objects. Using these child elements, VSIX extensions can define additional data in the manifest file and enumerate them at run time.
 
-### Installation element
+## Installation element
 
  This section defines the way this package can be installed and the application SKUs that it can install into. This section contains the following attributes:
 
@@ -91,23 +91,13 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
 
   - `Id` - This attribute identifies the package.  The attribute follows the namespace convention: Company.Product.Feature.Name. The `Id` attribute can contain only alphanumeric characters and is limited to 100 characters. Expected values:
 
-    - Microsoft.VisualStudio.IntegratedShell
+    - Microsoft.VisualStudio.Community
 
     - Microsoft.VisualStudio.Pro
 
-    - Microsoft.VisualStudio.Premium
-
-    - Microsoft.VisualStudio.Ultimate
-
-    - Microsoft.VisualStudio.VWDExpress
-
-    - Microsoft.VisualStudio.VPDExpress
-
-    - Microsoft.VisualStudio.VSWinExpress
-
-    - Microsoft.VisualStudio.VSLS
-
-    - My.Shell.App
+    - Microsoft.VisualStudio.Enterprise
+  
+    Extensions that target lower SKUs work with all higher SKUs. For example, extensions that target Community work with all Visual Studio SKUs, and extensions that target Pro also work with Enterprise.
 
   - `Version` - This attribute specifies a version range with the minimum and maximum supported versions of this SKU. A package can detail the versions of the SKUs that it supports. The version range notation is [10.0 - 11.0], where
 
@@ -130,7 +120,7 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
 
   - `AnyAttribute*` - The `<InstallationTarget>` element allows an open-ended set of attributes that is exposed at run time as a name-value pair dictionary.
 
-### Dependencies element
+## Dependencies element
 
  This element contains a list of dependencies that this package declares. If any dependencies are specified, those packages (identified by their `Id`) must have been installed before.
 
@@ -156,7 +146,7 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
 
   - `AnyAttribute*` - The `Dependency` element accepts an open-ended set of attributes that will be exposed at run time as a name-value pair dictionary.
 
-### Assets element
+## Assets element
 
  This element contains a list of `<Asset>` tags for each extension or content element surfaced by this package.
 

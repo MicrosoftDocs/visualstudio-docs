@@ -10,7 +10,7 @@ ms.subservice: extensibility-integration
 monikerRange: "visualstudio"
 
 ---
-# Update extensions for Visual Studio
+# Update extensions for Visual Studio Insiders prerelease
 
 With the latest Insiders prerelease version of Visual Studio, you can easily install Visual Studio 2022 extensions.
 
@@ -31,6 +31,10 @@ If your extension is an MSI, you might need to modify the installer to allow the
 :::image type="content" alt-text="Screenshot of Visual Studio Extension Manager." source="media/visualstudio/visual-studio-extension.png" lightbox="media/visualstudio/visual-studio-extension.png" :::
 
 For now, there are no instructions for creating extensions specifically for the prerelease Insiders version of Visual Studio. However, you can test and use Visual Studio 2022 extensions with the Insiders prerelease of Visual Studio.
+
+## Breaking changes
+
+The `IntegratedShell` install target has been removed. If your extension targets `IntegratedShell`, the `InstallationTarget` in the VSIX manifest should be updated to target `Microsoft.VisualStudio.Community`. To check or change the `InstallationTarget`, open the VSIX Manifest in the designer, select **Install Targets**. You can open the `.vsixmanifest` file in the XML text editor to inspect the `InstallationTarget` settings.
 
 To learn more about Breaking Changes, see [Breaking changes for Visual Studio Extensibility](https://github.com/microsoft/VSExtensibility/blob/main/docs/breaking_changes.md).
 

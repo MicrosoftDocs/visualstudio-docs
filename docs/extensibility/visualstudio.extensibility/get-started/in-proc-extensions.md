@@ -48,6 +48,9 @@ While the VisualStudio.Extensibility model was created primarily to host extensi
 
   ![Screenshot showing sample extension command.](./media/extension-command-2.png)
 
+> [!NOTE]
+> When starting the debugger (**F5**), if you see the error **This extension is not supported on the current product**, open the `.vsixmanifest` file, and check the `InstallationTarget` element. The installation target `Microsoft.VisualStudio.IntegratedShell` is not supported; please use `Microsoft.VisualStudio.Community` instead. See [VSIX Extension Schema 2.0 Reference](../../vsix-extension-schema-2-0-reference.md#installation-element).
+
 ## Consuming Visual Studio SDK services from a VisualStudio.Extensibility extension
 
 A VS-SDK-compatible extension project references the [Microsoft.VisualStudio.Sdk](https://www.nuget.org/packages/Microsoft.VisualStudio.Sdk) package, which allows access to all Visual Studio SDK's services.

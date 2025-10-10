@@ -48,6 +48,10 @@ There is some internal code in the ServiceHub host process that handles the RPC 
 
 Please see [VisualStudio.Extensibility Diagnostics Explorer](../diagnostics/visualstudio-extensibility-diagnostics-extension.md) for more information.
 
+## Troubleshooting
+
+When starting the debugger, if you see the error **This extension is not supported on the current product**, open the `.vsixmanifest` file, and check the `InstallationTarget` element. The installation target `Microsoft.VisualStudio.IntegratedShell` is not supported; please use `Microsoft.VisualStudio.Community` instead. See [VSIX Extension Schema 2.0 Reference](../../vsix-extension-schema-2-0-reference.md#installation-element).
+
 ## Related content
 
 - [Learn more about debugging](/visualstudio/debugger/)
