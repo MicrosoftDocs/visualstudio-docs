@@ -67,6 +67,8 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
 
 - `<AnyElement>*` - The manifest schema is flexible enough to allow any other elements. Any child elements that aren't recognized by the manifest loader are exposed as a list of XmlElement objects. Using these child elements, VSIX extensions can define additional data in the manifest file and enumerate them at run time.
 
+- `<ExtensionType>` - This element represents the type of extension. Valid values are `VSSDK`, `VisualStudio.Extensibility`, or `VSSDK+VisualStudio.Extensibility` for extensions that use both models.
+ 
 ## Installation element
 
  This section defines the way this package can be installed and the application SKUs that it can install into. This section contains the following attributes:
