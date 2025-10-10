@@ -16,7 +16,7 @@ This tutorial walks you through using Visual Studio to publish your containerize
 
 You can also deploy to [Azure Container Apps](/azure/container-apps/overview). For a tutorial, see [Deploy to Azure Container Apps using Visual Studio](/azure/container-apps/deploy-visual-studio).
 
-If you don't have an Azure subscription, create a [free account](https://azure.microsoft.com/free/dotnet/?utm_source=acr-publish-doc&utm_medium=docs&utm_campaign=docs) before you begin.
+If you don't have an Azure subscription, create a [free account](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn) before you begin.
 
 ## Prerequisites
 
