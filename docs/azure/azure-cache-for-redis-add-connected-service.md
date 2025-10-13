@@ -49,7 +49,7 @@ The connected service functionality adds all the needed references and connectio
 
     ![Screenshot of the Add Dependency page. Azure Cache for Redis is selected.](./media/azure-redis-cache-add-connected-service/azure-redis-cache.png)
 
-    If you aren't signed in already, sign in to your Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/).
+    If you aren't signed in already, sign in to your Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn).
 
 1. In the **Configure Azure Cache for Redis** screen, select an existing Azure Cache for Redis, and select **Next**.
 
@@ -103,13 +103,13 @@ The connected service functionality adds all the needed references and connectio
 
    Specify **Container name**, **Container image**, and port mappings or accept the defaults, and click **Next** to see the **Summary of changes** screen, which shows what changes would be made to your project. A NuGet package reference is added to your project and the connection code for the local emulator is added to your project.
 
-   If you want to connect to the Azure service, continue to the next step, or if you aren't signed in already, sign in to your Azure account before continuing. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/).
+   If you want to connect to the Azure service, continue to the next step, or if you aren't signed in already, sign in to your Azure account before continuing. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn).
 
 1. To go with the live service, select **Azure Cache for Redis**.
 
     ![Screenshot of the Add Dependency page. Azure Cache for Redis is selected.](./media/azure-redis-cache-add-connected-service/azure-redis-cache.png)
 
-    If you aren't signed in already, sign in to your Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/).
+    If you aren't signed in already, sign in to your Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn).
 
 1. In the **Configure Azure Cache for Redis** screen, select an existing Azure Cache for Redis, and select **Next**.
 
