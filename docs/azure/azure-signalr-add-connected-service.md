@@ -50,7 +50,7 @@ The connected service functionality adds all the needed references and connectio
 
     ![Add Azure SignalR Service](./media/azure-signalr-add-connected-service/add-signalr-service.png)
 
-    If you aren't signed in already, sign in to your Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/).
+    If you aren't signed in already, sign in to your Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn).
 
 1. In the **Configure Azure SignalR** screen, select an existing Azure SignalR component, and select **Next**.
 
@@ -100,7 +100,7 @@ The connected service functionality adds all the needed references and connectio
 
    ![Screenshot showing Connect to dependency for Azure SignalR.](./media/azure-signalr-add-connected-service/vs-2022/connect-to-dependency-signalr.png)
 
-    If you aren't signed in already, sign in to your Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/).
+    If you aren't signed in already, sign in to your Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn).
 
 1. Select an existing Azure SignalR component, and select **Next**.
 

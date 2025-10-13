@@ -60,7 +60,7 @@ Add Application Insights as a connected service to your application by following
 
    1. For this exercise, select **Azure Application Insights** to access the live service in Azure.
 
-   1. As needed, sign in to your Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/).
+   1. As needed, sign in to your Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn).
 
 1. In the **Configure Azure Application Insights** - **Select a service dependency** screen, choose whether to use an existing or new component for the connection:
 
@@ -129,7 +129,7 @@ Add Application Insights as a connected service to your application by following
    | Connection type | Description | Connection procedure |
    |-----------------|-------------|----------------------|
    | **Application Insights SDK (Local)** | Use a local emulator rather than connecting to an instance running in Azure. | <ol><li> Select the option, and then select **Next**. </li><li> Continue to [Step 6](#summary-of-changes) and review the summary of planned changes. </li></ol> |
-   | **Azure Application Insights** | Connect to the live Application Insights service running in Azure. | <ol><li> As needed, sign in to your Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/). </li><li> Continue to the next step in this procedure. </li></ol> |
+   | **Azure Application Insights** | Connect to the live Application Insights service running in Azure. | <ol><li> As needed, sign in to your Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn). </li><li> Continue to the next step in this procedure. </li></ol> |
 
    :::image type="content" source="./media/azure-app-insights-add-connected-service/vs-2022/application-insights-choices-2.png" border="false" alt-text="Screenshot showing the two choices for connecting your application to Application Insights.":::
 
