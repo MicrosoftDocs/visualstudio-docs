@@ -7,7 +7,7 @@ metadata:
    titleSuffix: ""
    description: Learn how to use Visual Studio to develop applications, services, and tools in the language of your choice, for any platform or device.
    ms.topic: hub-page
-   ms.date: 6/4/2025
+   ms.date: 10/13/2025
    author: ghogen
    ms.author: ghogen
    manager: mijacobs
@@ -21,9 +21,9 @@ highlightedContent:
    - title: What is Visual Studio
      itemType: overview
      url: ../get-started/visual-studio-ide.md
-   - title: Visual Studio 2022
+   - title: Visual Studio Insiders Release Notes
      itemType: whats-new
-     url: ../ide/whats-new-visual-studio-2022.md
+     url: /visualstudio/releases/vs18/release-notes-insiders
    - title: GitHub Copilot
      itemType: get-started
      url: ../ide/visual-studio-github-copilot-install-and-states.md
