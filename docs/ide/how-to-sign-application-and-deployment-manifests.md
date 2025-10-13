@@ -1,7 +1,7 @@
 ---
 title: 'Sign application and deployment manifests'
 description: Explore the signing requirements to publish ClickOnce application and deployment manifests, and optional signing for .exe-based applications.
-ms.date: 6/13/2024
+ms.date: 10/10/2025
 ms.subservice: deployment
 ms.topic: conceptual
 f1_keywords:
@@ -57,7 +57,7 @@ To use this method, you must have a certificate signed by a certificate authorit
 
 ## Sign using an existing key file
 
-1. On the **Signing** page, select the **Sign the ClickOnce manifests** check box.
+1. Go to the project properties window (right-click the project node in **Solution Explorer** and select **Properties**). On the **Signing** tab, select the **Sign the ClickOnce manifests** check box.
 
 1. Click the **Select from File** button.
 
@@ -83,7 +83,7 @@ To use this method, you must have a certificate signed by a certificate authorit
 
 Test certificates are not signed by a Certificate Authority (CA) and should only be used for testing purposes. For details on test certificates, see [How using certificates authorities helps users](../deployment/clickonce-and-authenticode.md#how-using-certificate-authorities-helps-users).
 
-1. On the **Signing** page, select the **Sign the ClickOnce manifests** check box.
+1. Go to the project properties window (right-click the project node in **Solution Explorer** and select **Properties**). On the **Signing** tab, select the **Sign the ClickOnce manifests** check box.
 
 1. To create a new certificate for testing, click the **Create Test Certificate** button.
 
