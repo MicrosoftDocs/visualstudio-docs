@@ -57,7 +57,7 @@ Deployment to a local folder is typically used for testing or to begin a staged 
   ![Screenshot that shows selecting Azure App Service.](../deployment/media/quickstart-publish-azure-new.png "Choose Azure App Service")
 
   > [!NOTE]
-  > If you don't already have an Azure account, you can [sign up here](https://azure.microsoft.com/free/?ref=microsoft.com&utm_source=microsoft.com&utm_medium=doc&utm_campaign=visualstudio).
+  > If you don't already have an Azure account, you can [sign up here](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn).
 
 ## Publish to the web or deploy to a network share
 
