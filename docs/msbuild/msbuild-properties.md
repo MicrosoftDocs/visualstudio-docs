@@ -195,7 +195,7 @@ The following code example shows the effect of `TreatAsLocalProperty` on an impo
 ```
 
 ```xml
-<!-- import.proj -->
+<!-- import.props -->
 <Project TreatAsLocalProperty="TreatedAsLocalProp">
     <PropertyGroup>
         <TreatedAsLocalProp>ImportOverrideValue</TreatedAsLocalProp>
@@ -214,7 +214,7 @@ dotnet msbuild .\importer.proj -p:TreatedAsLocalProp=GlobalOverrideValue
 The output is:
 
 ```output
-importer.proj(9,9): warning : TreatedAsLocalProp(importer.proj): GlobalOverrideValue
+importer.proj(9,9): warning : TreatedAsLocalProp(importer.proj): ImportOverrideValue
 ```
 
 Now suppose you build with the property `TrySecondOverride` to `true`:
