@@ -19,7 +19,7 @@ IntelliTest enables you to find bugs early, and reduces test maintenance costs. 
 [!INCLUDE [intellitest-deprecation](../includes/intellitest-deprecation.md)]
 ::: moniker-end
 ::: moniker range="vs-2022"
-[!INCLUDE [intellitest-vs2022](../includes/intellitest-vs2022.md)]
+[!INCLUDE [intellitest-visual-studio-2022](../includes/intellitest-visual-studio-2022.md)]
 ::: moniker-end
 
 **Characterization tests**
