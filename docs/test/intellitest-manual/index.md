@@ -16,10 +16,10 @@ IntelliTest enables you to find bugs early, and reduces test maintenance costs. 
 *correctness properties* you specify. IntelliTest will even evolve the test suite automatically as the code under test evolves.
 
 ::: moniker range="visualstudio"
-[!INCLUDE [intellitest-deprecation](includes/intellitest-deprecation.md)]
+[!INCLUDE [intellitest-deprecation](../includes/intellitest-deprecation.md)]
 ::: moniker-end
 ::: moniker range="vs-2022"
-[!INCLUDE [intellitest-vs2022](includes/intellitest-vs2022.md)]
+[!INCLUDE [intellitest-vs2022](../includes/intellitest-vs2022.md)]
 ::: moniker-end
 
 **Characterization tests**
