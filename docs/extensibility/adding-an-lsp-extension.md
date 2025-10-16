@@ -225,7 +225,7 @@ Once your language client class is implemented, you'll need to define two attrib
 
 ### MEF
 
-Visual Studio uses [MEF](https://github.com/Microsoft/vs-mef/blob/main/doc/index.md) (Managed Extensibility Framework) to manage its extensibility points. The [Export](/dotnet/api/system.componentmodel.composition.exportattribute) attribute indicates to Visual Studio that this class should be picked up as an extension point and loaded at the appropriate time.
+Visual Studio uses [MEF](https://github.com/microsoft/vs-mef/blob/main/docfx/index.md) (Managed Extensibility Framework) to manage its extensibility points. The [Export](/dotnet/api/system.componentmodel.composition.exportattribute) attribute indicates to Visual Studio that this class should be picked up as an extension point and loaded at the appropriate time.
 
 To use MEF, you must also define MEF as an Asset in the VSIX manifest.
 
