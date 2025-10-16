@@ -17,10 +17,10 @@ IntelliTest explores your .NET code to generate test data and a suite of unit te
 When you run IntelliTest, you can easily see which tests are failing and add any necessary code to fix them. You can select which of the generated tests to save into a test project to provide a regression suite. As you change your code, rerun IntelliTest to keep the generated tests in sync with your code changes.
 
 ::: moniker range="visualstudio"
-[!INCLUDE [intellitest-deprecation](../includes/intellitest-deprecation.md)]
+[!INCLUDE [intellitest-deprecation](includes/intellitest-deprecation.md)]
 ::: moniker-end
 ::: moniker range="vs-2022"
-[!INCLUDE [intellitest-visual-studio-2022](../includes/intellitest-visual-studio-2022.md)]
+[!INCLUDE [intellitest-visual-studio-2022](includes/intellitest-visual-studio-2022.md)]
 ::: moniker-end
 
 ## Availability and extensions
