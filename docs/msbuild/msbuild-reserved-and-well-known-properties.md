@@ -150,7 +150,7 @@ The table in this section shows the MSBuild predefined properties. The example c
 
 ## Properties specific to C++ projects
 
-The following properties represent the path to the C++ MSBuild import files, such as `.props` and `.targets` files, for various C++ toolset versions and target operating systems. The files in these folders represent the C++ build infrastructure and are essential for building any C++ project with MSBuild.
+The following properties represent the path to the C++ MSBuild import files, such as `.props` and `.targets` files, for various MSVC Build Tools (toolset) versions and target operating systems. The files in these folders represent the C++ build infrastructure and are essential for building any C++ project with MSBuild.
 
 | Property | Reserved or well-known | Description | Example |
 |----------------------------------|------------------------| - | - |

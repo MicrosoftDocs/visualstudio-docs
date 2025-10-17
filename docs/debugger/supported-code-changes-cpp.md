@@ -76,7 +76,7 @@ Edit and Continue for C++ projects handles most types of code changes. However, 
 
 - Debugging native apps compiled with [/Zo (Enhance Optimized Debugging)](/cpp/build/reference/zo-enhance-optimized-debugging)
 
-- Projects that use the VC 120 toolset and the C/C++ `/bigobj` switch. Edit and Continue with `/bigobj` is only supported in the VC 140 toolset.
+- Projects that use the MSVC v120 toolset and the C/C++ `/bigobj` switch. Edit and Continue with `/bigobj` is only supported in the MSVC v140 and later build tools.
 
 - Mixed-mode (native/managed) debugging.
 
@@ -96,7 +96,7 @@ Edit and Continue for C++ projects handles most types of code changes. However, 
 
 - Using a custom compiler (*cl.exe*) path. For security reasons, for recompilation of a file during Edit and Continue, Visual Studio always uses the installed compiler. If you are using a custom compiler path (for example, through a custom `$(ExecutablePath)` variable in your `*.props` file), a warning is displayed and Visual Studio falls back to using the installed compiler of the same version/architecture.
 
-- Legacy Architectures/VC Toolsets. With the VC 140 toolset, the default debugger supports Edit and Continue with both X86 and X64 applications. Legacy toolsets support only X86 applications. Toolsets older than VC 120 should use the legacy debugger by checking “_Debug > Options > General >_ Use Native Compatibility Mode” in order to use Edit and Continue.
+- Legacy Architectures/MSVC toolsets. With the MSVC v140 toolset, the default debugger supports Edit and Continue with both X86 and X64 applications. Legacy toolsets support only X86 applications. Toolsets older than MSVC v120 should use the legacy debugger by checking "_Debug > Options > General >_ Use Native Compatibility Mode" in order to use Edit and Continue.
 
 ## <a name="BKMK_Linking_limitations"></a> Linking limitations
 

@@ -143,7 +143,7 @@ The Visual Studio Extension Color Compiler tool is a console application that ta
 
 ## Notes
 
-- This tool requires that the latest version of the VC++ runtime be installed.
+- This tool requires that the latest version of the Microsoft Visual C++ Runtime be installed.
 
 - Only single files are supported. Bulk conversion via folder paths is not supported.
 
