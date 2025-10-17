@@ -123,7 +123,7 @@ Notice that the name of the *Program Files* folder depends on the operating syst
 
     - %ProgramFiles%\Microsoft Visual Studio\\\<version>\\\<edition>\Common7\Tools\vsvars32.bat
 
-4. The following Visual C++ runtime libraries are required only if you run build outputs on the build computer—for example, as part of automated testing. The files are typically located in subfolders under the *%ProgramFiles%\Microsoft Visual Studio\\\<version>\\\<edition>\VC\redist\x86* or *%ProgramFiles%\Microsoft Visual Studio\\\<version>\\\<edition>\VC\redist\x64* folder, depending on the system architecture. On x86 systems, copy the x86 binaries to the *Windows\System32* folder. On x64 systems, copy the x86 binaries to the *Windows\SysWOW64* folder, and the x64 binaries to the *Windows\System32* folder.
+4. The following Microsoft Visual C++ Runtime libraries are required only if you run build outputs on the build computer—for example, as part of automated testing. The files are typically located in subfolders under the *%ProgramFiles%\Microsoft Visual Studio\\\<version>\\\<edition>\VC\redist\x86* or *%ProgramFiles%\Microsoft Visual Studio\\\<version>\\\<edition>\VC\redist\x64* folder, depending on the system architecture. On x86 systems, copy the x86 binaries to the *Windows\System32* folder. On x64 systems, copy the x86 binaries to the *Windows\SysWOW64* folder, and the x64 binaries to the *Windows\System32* folder.
 
     - \Microsoft.VC110.ATL\atl110.dll
 
