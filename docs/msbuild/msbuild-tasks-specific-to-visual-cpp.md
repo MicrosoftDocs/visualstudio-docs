@@ -30,7 +30,7 @@ Tasks provide the code that runs during the build process. When C++ is installed
 |Title|Description|
 |-----------|-----------------|
 |[BscMake task](../msbuild/bscmake-task.md)|Wraps the Microsoft Browse Information Maintenance Utility tool (*bscmake.exe*).|
-|[CL task](../msbuild/cl-task.md)|Wraps the C++ compiler tool (*cl.exe*).|
+|[CL task](../msbuild/cl-task.md)|Wraps the Microsoft C++ Compiler tool (*cl.exe*).|
 |[CPPClean task](../msbuild/cppclean-task.md)|Deletes the temporary files that MSBuild creates when a C++ project is built.|
 |[ClangCompile task](../msbuild/clangcompile-task.md)|Wraps the C++ compiler tool (*clang.exe*).|
 |[CustomBuild task](../msbuild/custombuild-task.md)|Wraps the C++ compiler tool (*cmd.exe*).|
@@ -38,7 +38,7 @@ Tasks provide the code that runs during the build process. When C++ is installed
 |[GetOutOfDateItems](../msbuild/getoutofdateitems-task.md)|Reads old tlogs, writes new tlogs and returns set of items which are not up-to-date. (helper task)|
 |[GetOutputFileName](../msbuild/getoutputfilename-task.md)|Gets output file name for cl and other tools, which allow specifying only output directory or full file name or nothing. (helper task)|
 |[LIB task](../msbuild/lib-task.md)|Wraps the Microsoft 32-Bit Library Manager tool (*lib.exe*).|
-|[Link task](../msbuild/link-task.md)|Wraps the C++ linker tool (*link.exe*).|
+|[Link task](../msbuild/link-task.md)|Wraps the Microsoft C++ Linker tool (*link.exe*).|
 |[MIDL task](../msbuild/midl-task.md)|Wraps the Microsoft Interface Definition Language (MIDL) compiler tool (*midl.exe*).|
 |[MT task](../msbuild/mt-task.md)|Wraps the Microsoft Manifest Tool (*mt.exe*).|
 |[MultiToolTask task](../msbuild/multitooltask-task.md)|No description.|

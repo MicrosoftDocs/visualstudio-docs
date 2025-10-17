@@ -30,7 +30,7 @@ The completed sample for this walkthrough is available on GitHub at [python-samp
 
 ## Prerequisites
 
-- Visual Studio 2017 or later, with the Python development workload installed. The workload includes the Python native development tools, which add the C++ workload and toolsets necessary for native extensions. 
+- Visual Studio 2017 or later, with the Python development workload installed. The workload includes the Python native development tools, which add the C++ workload and build tools necessary for native extensions. 
 
    :::image type="content" source="media/cpp-install-native.png" alt-text="Screenshot of a list of Python development options, highlighting the Python native development tools option." border="false" lightbox="media/cpp-install-native.png":::
 
@@ -179,7 +179,7 @@ You need to set the project properties for both the _debug_ and _release_ build 
    1. For the **Platform**, select **Active (x64)** or **Active (Win32)**, depending on your selection in the preceding step.
 
       > [!NOTE]
-      > When you create your own projects, you'll want to configure the _debug_ and _release_ configurations separately, according to your specific scenario requirements. In this exercise, you set the configurations to use a release build of CPython. This configuration disables some debugging features of the C++ runtime, including assertions. Using CPython debug binaries (_python_d.exe_) requires different settings.
+      > When you create your own projects, you'll want to configure the _debug_ and _release_ configurations separately, according to your specific scenario requirements. In this exercise, you set the configurations to use a release build of CPython. This configuration disables some debugging features of the Microsoft Visual C++ Runtime, including assertions. Using CPython debug binaries (_python_d.exe_) requires different settings.
 
    1. Set other project properties as described in the following table.
 
