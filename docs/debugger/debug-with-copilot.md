@@ -1,7 +1,7 @@
 ---
 title: Debug with GitHub Copilot
 description: Use Copilot to help debug your apps and provide performance insights.
-ms.date: 9/12/2025
+ms.date: 10/17/2025
 ms.update-cycle: 90-days
 ms.topic: how-to
 dev_langs: 
@@ -55,7 +55,8 @@ In addition, Copilot provides more precise help for some targeted scenarios, suc
 |IEnumerable tabular visualizer|See [Get AI assistance](../debugger/view-data-in-tabular-visualizer.md#get-ai-assistance).|
 |Inline return values|See [View return values of method calls](../debugger/autos-and-locals-windows.md#view-inline-return-values-of-method-calls-in-the-code-editor).|
 |Multithreaded debugging|See [Get AI assistance with Threads view](../debugger/using-the-parallel-stacks-window.md#get-ai-assistance).|
-|Troubleshooting breakpoints|Select the **Ask Copilot** button if you get a source code mismatch associated with the message **This breakpoint will not currently be hit.**|
+|Unit testing|See [Get AI assistance to debug tests](../test/debug-unit-tests-with-test-explorer.md#get-ai-assistance-to-debug-tests)|
+|Troubleshooting breakpoints|See [Get AI assistance](/troubleshoot/developer/visualstudio/debuggers/troubleshooting-breakpoints#get-ai-assistance).|
 
 In most of these scenarios, you get targeted assistance by using the **Ask Copilot** ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png) or **Analyze with Copilot** button. Copilot already knows the context for your questions. For example, it knows the current call stack, the code line you're asking about, and the name of the exception (if one occurred), so you don't need to provide context yourself in chat. Copilot also provides suggestions for the use of conditional breakpoints and tracepoints.
 
