@@ -1,7 +1,7 @@
 ---
 title: Inspect variables - Visual Studio debugger
 description: Inspect variables in the Autos and Locals windows while debugging in Visual Studio. The Autos and Locals windows show variable values while you are debugging.
-ms.date: 9/5/2025
+ms.date: 10/21/2025
 ms.update-cycle: 180-days
 ms.topic: how-to
 f1_keywords:
@@ -90,6 +90,16 @@ While debugging, right-click an object in the code editor and choose **Add Watch
 In this example, you've a watch set on the object, and you can see its value change as you move through the debugger. Unlike the other variable windows, the **Watch** windows always show the variables that you're watching (they're grayed out when out of scope).
 
 For detailed information, see [Set a Watch using the Watch and QuickWatch Windows](../debugger/watch-and-quickwatch-windows.md).
+
+::: moniker range="visualstudio"
+## View inline values
+
+In .NET and C++ code, Visual Studio displays the evaluation result of `if` statements inline, right next to the condition itself.
+
+![View inline values for if statements](../debugger/media/view-inline-values-if-statements.png)
+
+If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance for the evaluation. Hover over the condition and select **Analyze with Copilot**. Copilot doesn't just show the final outcome, it breaks down the condition into its sub-expressions, and then explains how each part contributed to the overall result.
+::: moniker-end
 
 ::: moniker range=">= vs-2022"
 ## View return values of LINQ queries
