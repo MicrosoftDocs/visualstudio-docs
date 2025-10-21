@@ -114,7 +114,7 @@ To interrupt an ongoing request, you can cancel it. Canceling a request stops al
 
 To stop a build, select **Build** on the top toolbar, and then select **Cancel**. Or use the <kbd>Ctrl+Break</kbd> keyboard shortcut.
 
-## Planning in agent mode (preview)
+## Planning in agent mode (Preview)
 
 > [!NOTE] 
 > Planning is available in public preview with Visual Studio 2022 version 17.14. This feature is under active development and might evolve based on user feedback.
@@ -147,7 +147,7 @@ Copilot executes each step in the plan, updating both files as it proceeds.
 
 **Storage**
 
-Both files are stored in **Planning Tools in Agent Mode**.
+Both files are stored `C:\Users\username\AppData\Local\Temp\VisualStudio\copilot-vs`.
 
 ### Tools used in Planning
 
