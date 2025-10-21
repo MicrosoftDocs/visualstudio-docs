@@ -130,27 +130,22 @@ This structure helps Copilot stay consistent, update its plan dynamically, and p
 ### How it works
 
 **Request analysis**
-
 When a task requires multiple steps, Copilot enters planning mode.
 
 **Plan creation**
-
 - **Markdown plan**: Describes the task, steps, and progress in a readable format.
 - **JSON plan**: A structured, LLM-readable format that captures the same plan in machine parsable form. This JSON file allows Copilot to update and interpret the plan consistently across turns.
 
 **Execution and iteration**
-
 Copilot executes each step in the plan, updating both files as it proceeds.
 
 - The markdown plan updates visibly in the editor.
 - The JSON plan evolves behind the scenes as Copilot refines, reorders, or adapts steps.
 
 **Storage**
-
-Both files are stored `C:\Users\username\AppData\Local\Temp\VisualStudio\copilot-vs`.
+Both files are stored in `C:\Users\username\AppData\Local\Temp\VisualStudio\copilot-vs`.
 
 ### Tools used in Planning
-
 When you enable Planning, a dedicated set of internal tools becomes active. These tools coordinate how Copilot creates, updates, and finalizes plans during execution.
 
 | Tool | Description |
@@ -173,8 +168,7 @@ To enable **Planning** in Visual Studio 2022 17.14 or later:
 
 :::image type="content" source="media/vs-2022/copilot-agent-mode/planning-tools-list.png" alt-text="Screenshot that shows Planning tools group with all subtools enabled in agent mode." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-checkpoint.png":::
 
-Selectively disable the planning tool set directly in the Tools list in the chat window. If you need to disable planning tools, we recommend disabling all, not just one. 
-Changes apply immediately to your current chat session.
+You can selectively disable the planning tool set directly in the Tools list in the chat window. If you need to disable planning tools, we recommend disabling all, not just one. Changes apply immediately to your current chat session.
 
 > [!TIP]  
 > Disabling individual tools allows you to experiment with different planning behaviors or debug specific steps during development.
@@ -187,8 +181,7 @@ Changes apply immediately to your current chat session.
 
 ### Give feedback
 
-We’re actively improving Planning in agent mode.  
-Share your feedback, report issues, or suggest improvements here: [Planning in Copilot Chat – Visual Studio Developer Community](https://developercommunity.visualstudio.com/)
+We’re actively improving Planning in agent mode. Share your feedback, report issues, or suggest improvements here: [Planning in Copilot Chat – Visual Studio Developer Community](https://developercommunity.visualstudio.com/)
 
 ## Frequently asked questions
 
