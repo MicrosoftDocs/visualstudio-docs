@@ -104,7 +104,7 @@ The inline value for a loop statement appears as follows.
 
 ![View inline values for loop statements](../debugger/media/visualstudio/view-inline-values-loop-statements.png)
 
-If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance for the evaluation. Hover over the condition and select **Analyze with Copilot**. Copilot doesn't just show the final outcome, it breaks down the condition into its sub-expressions, and then explains how each part contributed to the overall result.
+If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance for the evaluation. Hover over the condition and select **Analyze with Copilot**. Copilot not only breaks down the condition into its sub-expressions, but also helps you analyze unexpected or incorrect values, offering insight into why the result may differ from what you expected.
 ::: moniker-end
 
 ::: moniker range=">= vs-2022"
