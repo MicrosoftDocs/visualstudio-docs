@@ -96,13 +96,15 @@ For detailed information, see [Set a Watch using the Watch and QuickWatch Window
 
 In .NET and C++ code, Visual Studio displays the evaluation result inline for the following: `if` statements, loops, and function parameter values.
 
-For `if` statements inline, Visual Studio displays the value right next to the condition itself.
+For an `if` statements, Visual Studio displays the inline value to the right of the condition itself.
 
 ![View inline values for if statements](../debugger/media/visualstudio/view-inline-values-if-statements.png)
 
-The inline value for a loop statement appears as follows.
+For a loop statement, the inline value appears as follows.
 
 ![View inline values for loop statements](../debugger/media/visualstudio/view-inline-values-loop-statements.png)
+
+For function parameters, the inline value also appears to the right.
 
 If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance for the evaluation. Hover over the condition and select **Analyze with Copilot**. Copilot not only breaks down the condition into its sub-expressions, but also helps you analyze unexpected or incorrect values, offering insight into why the result may differ from what you expected.
 ::: moniker-end
