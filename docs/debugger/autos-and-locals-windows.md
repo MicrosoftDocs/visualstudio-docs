@@ -96,7 +96,7 @@ For detailed information, see [Set a Watch using the Watch and QuickWatch Window
 
 In .NET and C++ code, Visual Studio displays the evaluation result inline for the following: `if` statements, loops, and function parameter values.
 
-For an `if` statements, Visual Studio displays the inline value to the right of the condition itself.
+For an `if` statement, Visual Studio displays the inline value to the right of the condition itself.
 
 ![View inline values for if statements](../debugger/media/visualstudio/view-inline-values-if-statements.png)
 
