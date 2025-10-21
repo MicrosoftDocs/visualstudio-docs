@@ -117,11 +117,11 @@ To stop a build, select **Build** on the top toolbar, and then select **Cancel**
 ## Planning in agent mode (preview)
 
 > [!NOTE] 
-> Planning is available in public preview with Visual Studio 2022 version 17.14. This feature is under active development and may evolve based on user feedback.
+> Planning is available in public preview with Visual Studio 2022 version 17.14. This feature is under active development and might evolve based on user feedback.
 
-**Planning** in agent mode allows Copilot to break down complex or multi-step requests into structured, trackable tasks before execution.
+**Planning** in agent mode allows Copilot to break down complex or multistep requests into structured, trackable tasks before execution.
 
-When planning is active, Copilot:
+When Planning is active, Copilot:
 - Creates a **user-facing markdown plan** that outlines goals and progress.  
 - Maintains an internal **JSON plan** (`plan-{sessionId}.json`) that serves as an LLM-readable scratchpad for step tracking, reasoning, and coordination.  
 
@@ -130,25 +130,28 @@ This structure helps Copilot stay consistent, update its plan dynamically, and p
 ### How it works
 
 **Request analysis**
+
 When a task requires multiple steps, Copilot enters planning mode.
 
 **Plan creation**
 
 - **Markdown plan**: Describes the task, steps, and progress in a readable format.
-- **JSON plan**: A structured, LLM-readable format that captures the same plan in machine-parsable form. This JSON file allows Copilot to update and interpret the plan consistently across turns.
+- **JSON plan**: A structured, LLM-readable format that captures the same plan in machine parsable form. This JSON file allows Copilot to update and interpret the plan consistently across turns.
 
 **Execution and iteration**
+
 Copilot executes each step in the plan, updating both files as it proceeds.
 
 - The markdown plan updates visibly in the editor.
 - The JSON plan evolves behind the scenes as Copilot refines, reorders, or adapts steps.
 
-**Storage** 
+**Storage**
+
 Both files are stored in **Planning Tools in Agent Mode**.
 
-When you enable Planning, a dedicated set of internal tools become active. These tools coordinate how Copilot creates, updates, and finalizes plans during execution.
+### Tools used in Planning
 
-### Tools Used in Planning
+When you enable Planning, a dedicated set of internal tools becomes active. These tools coordinate how Copilot creates, updates, and finalizes plans during execution.
 
 | Tool | Description |
 |------|--------------|
@@ -160,16 +163,15 @@ When you enable Planning, a dedicated set of internal tools become active. These
 
 > These tools allow Copilot to manage multi-step workflows incrementally, maintain execution state, and stay aligned with user intent.
 
-### Enabling and managing planning tools
+### Enabling and managing Planning tools
 
-To enable **Planning** in Visual Studio 2022 17.14 or later.
-1. Navigate to **Tools > Options > Copilot**.
-1. Check **Enable Planning (Preview)**.
-1. Once enabled, Planning tools appear in the **Copilot Tools Window** in Chat.
+To enable **Planning** in Visual Studio 2022 17.14 or later:
 
+1. Go to to **Tools** > **Options** > **GitHub** > **Copilot**.
+1. Select **Enable Planning**.
+1. Once enabled, **Planning** tools appear in the **Tools** list in the chat window.
 
-Planning tools list in Agent Mode
-Example: the Planning tool group with all subtools enabled.
+:::image type="content" source="media/vs-2022/copilot-agent-mode/planning-tools-list.png" alt-text="Screenshot that shows Planning tools group with all subtools enabled in agent mode." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-checkpoint.png":::
 
 You can selectively disable individual tools (such as `adapt_plan` or `record_observation`) directly in this window.  
 Changes apply immediately to your current chat session.
@@ -179,13 +181,13 @@ Changes apply immediately to your current chat session.
 
 ### Limitations
 
-- Plans are stored temporarily and deleted when the session ends unless saved manually.  
-- Slight latency overhead due to structured state tracking.  
-- Some specialized agents may not yet support planning.  
+- Plans are stored temporarily and deleted when the session ends unless saved manually.
+- Slight latency overhead exists due to structured state tracking.
+- Some specialized agents might not yet support planning.
 
 ### Feedback
 
-We’re actively improving Planning in Agent Mode.  
+We’re actively improving Planning in agent mode.  
 Share your feedback, report issues, or suggest improvements here: [Planning in Copilot Chat – Visual Studio Developer Community](https://developercommunity.visualstudio.com/)
 
 ## Frequently asked questions
