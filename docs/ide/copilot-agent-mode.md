@@ -114,6 +114,80 @@ To interrupt an ongoing request, you can cancel it. Canceling a request stops al
 
 To stop a build, select **Build** on the top toolbar, and then select **Cancel**. Or use the <kbd>Ctrl+Break</kbd> keyboard shortcut.
 
+## Planning in agent mode (preview)
+
+> [!NOTE] 
+> Planning is available in public preview with Visual Studio 2022 version 17.14. This feature is under active development and may evolve based on user feedback.
+
+**Planning** in agent mode allows Copilot to break down complex or multi-step requests into structured, trackable tasks before execution.
+
+When planning is active, Copilot:
+- Creates a **user-facing markdown plan** that outlines goals and progress.  
+- Maintains an internal **JSON plan** (`plan-{sessionId}.json`) that serves as an LLM-readable scratchpad for step tracking, reasoning, and coordination.  
+
+This structure helps Copilot stay consistent, update its plan dynamically, and provide developers with visibility into what it’s doing.
+
+### How it works
+
+**Request analysis**
+When a task requires multiple steps, Copilot enters planning mode.
+
+**Plan creation**
+
+- **Markdown plan**: Describes the task, steps, and progress in a readable format.
+- **JSON plan**: A structured, LLM-readable format that captures the same plan in machine-parsable form. This JSON file allows Copilot to update and interpret the plan consistently across turns.
+
+**Execution and iteration**
+Copilot executes each step in the plan, updating both files as it proceeds.
+
+- The markdown plan updates visibly in the editor.
+- The JSON plan evolves behind the scenes as Copilot refines, reorders, or adapts steps.
+
+**Storage** 
+Both files are stored in **Planning Tools in Agent Mode**.
+
+When you enable Planning, a dedicated set of internal tools become active. These tools coordinate how Copilot creates, updates, and finalizes plans during execution.
+
+### Tools Used in Planning
+
+| Tool | Description |
+|------|--------------|
+| **plan** | Generates the initial structured plan from the user request. |
+| **adapt_plan** | Refines or adjusts the plan based on new context or feedback. |
+| **update_plan_progress** | Updates step completion status and synchronizes plan state. |
+| **record_observation** | Captures runtime results or insights that influence next actions. |
+| **finish_plan** | Finalizes the plan once all steps are complete. |
+
+> These tools allow Copilot to manage multi-step workflows incrementally, maintain execution state, and stay aligned with user intent.
+
+### Enabling and managing planning tools
+
+To enable **Planning** in Visual Studio 2022 17.14 or later.
+1. Navigate to **Tools > Options > Copilot**.
+1. Check **Enable Planning (Preview)**.
+1. Once enabled, Planning tools appear in the **Copilot Tools Window** in Chat.
+
+
+Planning tools list in Agent Mode
+Example: the Planning tool group with all subtools enabled.
+
+You can selectively disable individual tools (such as `adapt_plan` or `record_observation`) directly in this window.  
+Changes apply immediately to your current chat session.
+
+> [!TIP]  
+> Disabling individual tools allows you to experiment with different planning behaviors or debug specific steps during development.
+
+### Limitations
+
+- Plans are stored temporarily and deleted when the session ends unless saved manually.  
+- Slight latency overhead due to structured state tracking.  
+- Some specialized agents may not yet support planning.  
+
+### Feedback
+
+We’re actively improving Planning in Agent Mode.  
+Share your feedback, report issues, or suggest improvements here: [Planning in Copilot Chat – Visual Studio Developer Community](https://developercommunity.visualstudio.com/)
+
 ## Frequently asked questions
 
 ### What visibility does agent mode have into my files?
