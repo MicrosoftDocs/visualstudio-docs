@@ -173,7 +173,7 @@ To enable **Planning** in Visual Studio 2022 17.14 or later:
 
 :::image type="content" source="media/vs-2022/copilot-agent-mode/planning-tools-list.png" alt-text="Screenshot that shows Planning tools group with all subtools enabled in agent mode." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-checkpoint.png":::
 
-You can selectively disable individual tools (such as `adapt_plan` or `record_observation`) directly in this window.  
+Selectively disable the planning tool set directly in the Tools list in the chat window. If you need to disable planning tools, we recommend disabling all, not just one. 
 Changes apply immediately to your current chat session.
 
 > [!TIP]  
@@ -185,7 +185,7 @@ Changes apply immediately to your current chat session.
 - Slight latency overhead exists due to structured state tracking.
 - Some specialized agents might not yet support planning.
 
-### Feedback
+### Give feedback
 
 We’re actively improving Planning in agent mode.  
 Share your feedback, report issues, or suggest improvements here: [Planning in Copilot Chat – Visual Studio Developer Community](https://developercommunity.visualstudio.com/)
