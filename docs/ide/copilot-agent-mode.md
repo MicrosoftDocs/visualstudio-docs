@@ -130,19 +130,23 @@ This structure helps Copilot stay consistent, update its plan dynamically, and p
 ### How it works
 
 **Request analysis**
+
 When a task requires multiple steps, Copilot enters planning mode.
 
 **Plan creation**
+
 - **Markdown plan**: Describes the task, steps, and progress in a readable format.
 - **JSON plan**: A structured, LLM-readable format that captures the same plan in machine parsable form. This JSON file allows Copilot to update and interpret the plan consistently across turns.
 
 **Execution and iteration**
+
 Copilot executes each step in the plan, updating both files as it proceeds.
 
 - The markdown plan updates visibly in the editor.
 - The JSON plan evolves behind the scenes as Copilot refines, reorders, or adapts steps.
 
 **Storage**
+
 Both files are stored in `C:\Users\username\AppData\Local\Temp\VisualStudio\copilot-vs`.
 
 ### Tools used in Planning
