@@ -40,17 +40,15 @@ To get started, you need:
 
 ## Generate and run unit tests
 
-1. Open an existing project that needs unit tests, or create a new project.
+1. Open an existing project that needs new unit tests, or create a new project.
 
-   If you create a new project, you can use the following sample code to test the feature.
-
-   **TBD**
+   If you create a new project, you can use the unit testing Bank sample code to test the feature. Copy the starting sample code from [Create and run unit tests for .NET](../test/walkthrough-creating-and-running-unit-tests-for-managed-code?view=vs-2022#create-a-project-to-test).
 
 1. Build the project.
 
    Make sure the project builds without errors to simplify the process.
 
-1. Open Copilot Chat.
+1. Open Copilot Chat by selecting the GitHub Copilot Chat button.
 
 1. Use the following syntax in the Chat window to start the agent and generate unit tests:
 
@@ -60,20 +58,16 @@ To get started, you need:
 
    where `#target` can be a solution, project, file, or member.
 
-1. For the `Bank` example, you can type the following.
+   For the `Bank` example, you can type `@test #Program.cs`.
 
-   ```cmd
-   @test #BankAccount
-   ```
+   ![Using the Create unit tests command](../media/visualstudio/test-agent-start-agent.png)
 
 1. In the Chat window, select **Send**.
 
-   The agent starts and initiates an interative process of analyzing your code, creating a new project for the unit tests, generating unit tests, and running the tests.
+   The agent starts and initiates an iterative process of analyzing your code, creating a new project for the unit tests, generating unit tests, and running the tests.
 
-   Test Explorer shows the results.
-
-   If Test Explorer is not opened by the agent, select **Test** > **Test Explorer**.
+   Test Explorer shows the results. If Test Explorer is not automatically opened by the agent, select **Test** > **Test Explorer**.
 
    ![Using the Create unit tests command](../media/visualstudio/test-agent-test-explorer-results.png)
 
-   At this point, you can manually use Test Explorer to continue running tests. You can also use Copilot to debug unit tests. For more information, see [Debug unit tests](../test/debug-unit-tests-with-test-explorer.md).
+   At this point, you can manually use Test Explorer to continue running tests. You can also use Copilot to debug failed unit tests. For more information, see [Debug unit tests](../test/debug-unit-tests-with-test-explorer.md).
