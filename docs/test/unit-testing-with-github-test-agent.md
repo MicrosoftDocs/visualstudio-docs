@@ -60,7 +60,7 @@ To get started, you need:
 
    For the `Bank` example, you can type `@test #Program.cs`.
 
-   ![Using the Create unit tests command](../media/visualstudio/test-agent-start-agent.png)
+   ![Using the Create unit tests command](media/visualstudio/test-agent-start-agent.png)
 
 1. In the Chat window, select **Send**.
 
@@ -68,6 +68,6 @@ To get started, you need:
 
    Test Explorer shows the results. If Test Explorer is not automatically opened by the agent, select **Test** > **Test Explorer**.
 
-   ![Using the Create unit tests command](../media/visualstudio/test-agent-test-explorer-results.png)
+   ![Using the Create unit tests command](media/visualstudio/test-agent-test-explorer-results.png)
 
    At this point, you can manually use Test Explorer to continue running tests. You can also use Copilot to debug failed unit tests. For more information, see [Debug unit tests](../test/debug-unit-tests-with-test-explorer.md).
