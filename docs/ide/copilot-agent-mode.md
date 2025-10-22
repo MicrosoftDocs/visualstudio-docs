@@ -166,7 +166,7 @@ When you enable Planning, a dedicated set of internal tools becomes active. Thes
 
 To enable **Planning** in Visual Studio 2022 17.14 or later:
 
-1. Go to to **Tools** > **Options** > **GitHub** > **Copilot**.
+1. Go to **Tools** > **Options** > **GitHub** > **Copilot**.
 1. Select **Enable Planning**.
 1. Once enabled, **Planning** tools appear in the **Tools** list in the chat window.
 
