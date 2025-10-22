@@ -9,6 +9,7 @@ author: tinaschrepfer
 ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
+monikerRange: "vs-2019"
 ---
 # Manage project loading in a solution
 
