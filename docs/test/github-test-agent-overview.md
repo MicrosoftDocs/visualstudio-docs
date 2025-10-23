@@ -19,7 +19,7 @@ monikerRange: '>= visualstudio'
 
 # Overview of GitHub Test Agent in Visual Studio
 
-The GitHub Test Agent is a new GitHub Copilot Chat Agent Mode feature integrated into Visual Studio. It automates the creation, running, and testing of C# unit tests for entire projects, solutions, files, classes, or members. This tool is designed for C# developers who want to quickly bootstrap comprehensive test coverage without manually writing every test case.
+The GitHub Test Agent is a new Agent Mode feature in GitHub Copilot Chat that is integrated into Visual Studio. The agent automates the creation, running, and testing of C# unit tests for entire projects, solutions, files, classes, or members. This tool is designed for C# developers who want to quickly bootstrap comprehensive test coverage without manually writing every test case.
 
 Unlike short-lived Copilot suggestions, GitHub Test Agent provides a long-running experience that guides you through generating and managing tests across your codebase.
 
