@@ -1,7 +1,7 @@
 ---
 title: Profile with GitHub Copilot
 description: Use the Copilot Profiler Agent in Visual Studio to collect CPU and memory traces and get AI-driven performance insights and fixes.
-ms.date: 9/2/2025
+ms.date: 10/20/2025
 ms.update-cycle: 90-days
 ms.topic: how-to
 dev_langs:
@@ -225,4 +225,14 @@ The following example shows how to collect performance data with the Copilot Pro
    ```
 
 1. If you want to agent to make additional optimizations, either select the suggestions provided by the agent or ask additional questions.
+
+### Continue chat after reaching token limit
+
+The Profiler Agent provides smart summarization along with chat thread continuation, designed to keep your work flowing without getting blocked by hitting token limits.
+
+If a chat with Copilot approaches its token cap, you are prompted with the option to summarize and continue in a new thread.
+
+![Screenshot of thread summarization.](../profiling/media/visualstudio/profiling-agent-thread-summarization.png) 
+
+If you select this option, the agent automatically generates a concise, context-rich summary of the current chat thread and carries it forward into a fresh conversation. This allows you to avoid retracing any steps.
 
