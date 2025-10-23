@@ -1,7 +1,6 @@
-
 ---
 title: "Modernize Visual Studio theme colors"
-description: Learn how to migrate Visual Studio themes from the legacy token-based system to the new streamlined color system introduced in Visual Studio 2026.
+description: "Learn how to migrate Visual Studio themes from the legacy token-based system to the new streamlined color system introduced in Visual Studio 2026."
 ms.date: 10/23/2025
 ms.topic: how-to
 helpviewer_keywords:
