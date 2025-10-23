@@ -96,15 +96,15 @@ You can make a previous theme compatible with Visual Studio 2026 by merging its 
 
 1. Install the [Color Theme Designer (2022)](https://marketplace.visualstudio.com/items?itemName=idex.colorthemedesigner2022) extension.
 
-2. Create a blank new theme or open your previous theme project.
+1. Create a blank new theme or open your previous theme project.
 
-3. Open the .vstheme file in an XML editor, or paste your previous .vstheme XML content into the blank theme.
+1. Open the .vstheme file in an XML editor, or paste your previous .vstheme XML content into the blank theme.
 
-4. Append semantic categories: Add the minimal Shell and ShellInternal token set at the end of the file as the last two categories (see below). Keep exact category names + GUIDs.
+1. Append semantic categories: Add the minimal Shell and ShellInternal token set at the end of the file as the last two categories (see below). Keep exact category names + GUIDs.
 
-5. In the appended tokens, adjust the color values: start from either Light / Dark base sample from below; match your theme's accent hue and relative background contrast.
+1. In the appended tokens, adjust the color values: start from either Light / Dark base sample from below; match your theme's accent hue and relative background contrast.
 
-6. Compile and test the merged theme.
+1. Compile and test the merged theme.
 
 ### Minimal token set starter for a light based theme
 
