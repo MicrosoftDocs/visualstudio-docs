@@ -13,9 +13,9 @@
   - name: Get started
     href: getting-started-with-unit-testing.md
   - name: Create and run unit tests for .NET
-    href: walkthrough-creating-and-running-unit-tests-for-managed-code.methods.md
+    href: walkthrough-creating-and-running-unit-tests-for-managed-code.md
   - name: Generate unit tests using AI
-    href: generate-and-run-unit-tests-using-github-copilot-test-agent.md
+    href: unit-testing-with-github-test-agent.md
   - name: Create unit tests from code
     href: create-unit-tests-menu.md
 - name: Unit testing

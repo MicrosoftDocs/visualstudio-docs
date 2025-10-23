@@ -35,14 +35,14 @@ The Test Agent offer a comprehensive experience compared to the more basic Copil
 
 - Automated unit test generation: Create tests for single files, multiple files, or entire solutions.
 - Command-based interaction: Use supported commands and parameters (listed in the `/help` message within the agent).
-- Structured prompts: Free-form prompts are not supported at this time, ensuring predictable and reliable output.
+- Structured prompts: Free-form prompts aren't supported at this time, ensuring predictable and reliable output.
 
 ## Security warning
 
-When you first run the GitHub Test Agent, it requests your consent to execute LLM-generated code on your machine. This may include actions such as installing or restoring NuGet packages and running unit tests. If you do not grant general consent, the agent will prompt you for explicit approval before performing any such operation.
+When you first run the GitHub Test Agent, it requests your consent to execute LLM-generated code on your machine. This may include actions such as installing or restoring NuGet packages and running unit tests. If you don't grant general consent, the agent will prompt you for explicit approval before performing any such operation.
 
 > [!CAUTION]
-> Your consent grants Copilot the ability to silently invoke arbitrary commands within your Visual Studio session. Microsoft cannot guarantee the safety of these commands. You should only enable this switch inside a sandboxed environment, and you should take steps to limit the privileges available to that environment. For example, the sandboxed environment should not use a cloud-connected account to log into Windows, and the sandboxed environment should not be logged into Visual Studio using a privileged GitHub account that has read access to non-public repositories or write access to production repositories.
+> Your consent grants Copilot the ability to silently invoke arbitrary commands within your Visual Studio session. Microsoft can't guarantee the safety of these commands. You should only enable this switch inside a sandboxed environment, and you should take steps to limit the privileges available to that environment. For example, the sandboxed environment shouldn't use a cloud-connected account to log into Windows, and the sandboxed environment shouldn't be logged into Visual Studio using a privileged GitHub account that has read access to non-public repositories or write access to production repositories.
 
 ## Next steps
 
