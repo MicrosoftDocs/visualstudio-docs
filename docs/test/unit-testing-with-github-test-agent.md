@@ -41,7 +41,7 @@ To get started, you need:
 
 1. Open an existing C# project that needs new unit tests, or create a new C# project.
 
-   If you create a new project, you can use the unit testing Bank sample code to test the feature. Copy the starting sample code from [Create and run unit tests for .NET](../test/walkthrough-creating-and-running-unit-tests-for-managed-code?view=vs-2022#create-a-project-to-test).
+   If you create a new project, you can use the unit testing Bank sample code to test the feature. Copy the starting sample code from [Create and run unit tests for .NET](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md#create-a-project-to-test).
 
 1. Build the project.
 
