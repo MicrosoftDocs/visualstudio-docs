@@ -79,14 +79,37 @@ If you are developing multiple extensions, or just exploring outcomes with diffe
 
 You can get to this script in one of two ways:
 
+:::moniker range="vs-2019"
 1. From the desktop, find **Reset the Visual Studio Experimental Instance**.
 
-2. From the command line, run the following:
+2. From the command line, run the *CreateExpInstance.exe* command. It's located in the Visual Studio installation folder under *VSSDK\Common\Tools\Bin*. You can construct it's full path and enclose the full path in quotes to invoke it. For example, if Visual Studio is installed to *C:\Program Files\Microsoft Visual Studio\2019\Community*, then the command is:
 
     ```cmd
-    <VSSDK installation>\VisualStudioIntegration\Tools\Bin\CreateExpInstance.exe /Reset /VSInstance=<version> /RootSuffix=Exp && PAUSE
+    "C:\Program Files\Microsoft Visual Studio\2019\Community\CreateExpInstance.exe" /Reset /VSInstance=<version> /RootSuffix=Exp && PAUSE
 
     ```
+:::moniker-end
+
+:::moniker range="vs-2022"
+1. From the desktop, find **Reset the Visual Studio Experimental Instance**.
+
+2. From the command line, run the *CreateExpInstance.exe* command. It's located in the Visual Studio installation folder under *VSSDK\Common\Tools\Bin*. You can construct it's full path and enclose the full path in quotes to invoke it. For example, if Visual Studio is installed to *C:\Program Files\Microsoft Visual Studio\2022\Community*, then the command is:
+
+    ```cmd
+    "C:\Program Files\Microsoft Visual Studio\2022\Community\CreateExpInstance.exe" /Reset /VSInstance=<version> /RootSuffix=Exp && PAUSE
+
+    ```
+:::moniker-end
+:::moniker range="visualstudio"
+1. From the desktop, find **Reset the Visual Studio Experimental Instance**.
+
+2. From the command line, run the *CreateExpInstance.exe* command. It's located in the Visual Studio installation folder under *VSSDK\Common\Tools\Bin*. You can construct it's full path and enclose the full path in quotes to invoke it. For example, if Visual Studio is installed to *C:\Program Files\Microsoft Visual Studio\18\Community*, then the command is:
+
+    ```cmd
+    "C:\Program Files\Microsoft Visual Studio\18\Community\CreateExpInstance.exe" /Reset /VSInstance=<version> /RootSuffix=Exp && PAUSE
+
+    ```
+:::moniker-end
 
 ## Deploy your extension
 
