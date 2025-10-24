@@ -203,10 +203,11 @@ The confirmation dialogs for various tasks, such as removing containers and imag
 You can also enable or disable these options by using the settings at **Tools** > **Options** > **Container Tools** > **Containers Tool Window**. For more information, see [Configure Container Tools](container-tools-configure.md).
 
 :::moniker-end
-:::moniker range="vs-2022"
+:::moniker range=">=vs-2022"
 
 You can also enable or disable these options by using the settings at **Tools** > **Options** > **Container Tools** > **Containers Window**. For more information, see [Configure Container Tools](container-tools-configure.md).
 
+:::moniker-end
 :::moniker range="visualstudio"
 
 You can also enable or disable these options by using the settings at **Tools** > **Options** pane under **All Settings** > **Container Tools** > **Containers Window**. For more information, see [Configure Container Tools](container-tools-configure.md).
