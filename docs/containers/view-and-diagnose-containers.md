@@ -210,7 +210,7 @@ You can also enable or disable these options by using the settings at **Tools** 
 :::moniker-end
 :::moniker range="visualstudio"
 
-You can also enable or disable these options by using the settings at **Tools** > **Options** pane under **All Settings** > **Container Tools** > **Containers Window**. For more information, see [Configure Container Tools](container-tools-configure.md).
+You can also enable or disable these options by using the settings in the **Tools** > **Options** pane under **All Settings** > **Container Tools** > **Containers Window**. For more information, see [Configure Container Tools](container-tools-configure.md).
 
 :::moniker-end
 
