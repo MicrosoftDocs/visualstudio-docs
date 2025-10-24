@@ -23,7 +23,7 @@ In this article, you'll learn how to create, run, and test C# unit tests using t
 
 Although Copilot can generate unit tests, you get extra unit testing feature support by using the GitHub Copilot Test Agent, including the following:
 
-- Unit tests are generated in their own project.
+- Unit tests are generated in their own project within the solution.
 - The Test Agent builds and runs the tests using Test Explorer.
 - If there are errors, the Agent tries to identify and fix errors, and then re-runs the tests.
 

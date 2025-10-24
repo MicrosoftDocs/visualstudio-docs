@@ -25,15 +25,15 @@ Unlike short-lived Copilot suggestions, GitHub Test Agent provides a long-runnin
 
 ## Why Use GitHub Test Agent?
 
-The Test Agent offer a comprehensive experience compared to the more basic Copilot capabilities related to the generation of unit tests (such as the `/tests` command). The Test Agent provides the following:
+The Test Agent offers a comprehensive experience compared to the more basic Copilot capabilities related to the generation of unit tests (such as the `/tests` command). The Test Agent provides the following:
 
-- Efficiency: Leverage the Test Agent to automatically generate, run, and test C# unit tests for large or small projects or solutions. 
-- Consistency: Ensures tests follow best practices and project standards. Tests are generated using MSTest framework. Unit tests are created in a separate unit test project in the solution, following best practices.
+- Efficiency: Leverage the Test Agent to automatically generate, build, run, and test C# unit tests for large or small projects or solutions. 
+- Consistency: Ensures tests follow best practices and project standards. Unit tests are created in a separate unit test project in the solution. Tests are generated using MSTest framework. 
 - Integration: Works seamlessly within Visual Studio, leveraging Copilot’s AI capabilities.
 
 ## Key features
 
-- Automated unit test generation: Create tests for single files, multiple files, or entire solutions.
+- Automated unit test generation: Create tests for single files, multiple files in a single project, or an entire solutions.
 - Command-based interaction: Use supported commands and parameters (listed in the `/help` message within the agent).
 - Structured prompts: Free-form prompts aren't supported at this time, ensuring predictable and reliable output.
 
