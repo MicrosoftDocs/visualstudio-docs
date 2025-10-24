@@ -24,8 +24,8 @@ In this article, you'll learn how to create, run, and test C# unit tests using t
 Although Copilot can generate unit tests, you get extra unit testing feature support by using the GitHub Copilot Test Agent, including the following:
 
 - Unit tests are generated in their own project within the solution.
-- The Test Agent builds and runs the tests using Test Explorer.
-- If there are errors, the Agent tries to identify and fix errors, and then re-runs the tests.
+- The Test Agent builds the tests following test generation. If there are errors, the Agent tries to identify and fix errors, and then re-runs the tests.
+- Test Agent runs the tests using Test Explorer.
 
 The Test Agent generates tests for C# projects only using the MSTest framework.
 
@@ -41,7 +41,7 @@ To get started, you need:
 
 1. Open an existing C# project that needs new unit tests, or create a new C# project.
 
-   If you create a new project, you can use the unit testing Bank sample code to test the feature. Copy the starting sample code from [Create and run unit tests for .NET](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md#create-a-project-to-test).
+   If you create a new project, you can use the unit testing Bank sample code to test the feature. Copy the starting sample code from [Create and run unit tests for .NET](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md#create-a-project-to-test) into `Program.cs`.
 
 1. Build the project.
 
@@ -57,13 +57,13 @@ To get started, you need:
 
    where `#target` can be the name of a solution, project, file, class, or member.
 
-   For the `Bank` example, you can type `@test #Program.cs`.
+   For the `Bank` example, you can type `@test #BankAccount`, specifying the class name.
 
    ![Screenshot of command to generate tests](media/visualstudio/test-agent-start-agent.png)
 
 1. In the Chat window, select **Send**.
 
-   The agent starts and initiates an iterative process of analyzing your code, creating a new project for the unit tests, generating unit tests, and running the tests.
+   The agent starts and initiates an iterative process of analyzing your code, creating a new project for the unit tests, generating unit tests, building, and running the tests.
 
    ![Screenshot of generated sample test](media/visualstudio/test-agent-sample-output.png)
 
