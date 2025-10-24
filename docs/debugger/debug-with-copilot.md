@@ -1,7 +1,7 @@
 ---
 title: Debug with GitHub Copilot
 description: Use Copilot to help debug your apps and provide performance insights.
-ms.date: 10/17/2025
+ms.date: 10/21/2025
 ms.update-cycle: 90-days
 ms.topic: how-to
 dev_langs: 
@@ -54,6 +54,7 @@ In addition, Copilot provides more precise help for some targeted scenarios, suc
 |Quick Actions (light bulb)|See [Get AI assistance with Quick Actions](../ide/quick-actions.md#get-ai-assistance).|
 |IEnumerable tabular visualizer|See [Get AI assistance](../debugger/view-data-in-tabular-visualizer.md#get-ai-assistance).|
 |Inline return values|See [View return values of method calls](../debugger/autos-and-locals-windows.md#view-inline-return-values-of-method-calls-in-the-code-editor).|
+|Inline values|See [View inline values](../debugger/autos-and-locals-windows.md#view-inline-values).|
 |Multithreaded debugging|See [Get AI assistance with Threads view](../debugger/using-the-parallel-stacks-window.md#get-ai-assistance).|
 |Unit testing|See [Get AI assistance to debug tests](../test/debug-unit-tests-with-test-explorer.md#get-ai-assistance-to-debug-tests)|
 |Troubleshooting breakpoints|See [Get AI assistance](/troubleshoot/developer/visualstudio/debuggers/troubleshooting-breakpoints#get-ai-assistance).|
