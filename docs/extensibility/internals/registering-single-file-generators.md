@@ -1,7 +1,7 @@
 ---
 title: Registering Single File Generators
 description: Learn how to register a custom tool in Visual Studio to instantiate it and associate it with a particular project type.
-ms.date: 08/15/2024
+ms.date: 10/23/2025
 ms.topic: conceptual
 helpviewer_keywords:
 - registration, custom tools
@@ -19,7 +19,7 @@ The registry for Visual Studio is in a private hive, *privateregistry.bin*. Open
 
 ### To register a custom tool
 
-1. Register the custom tool DLL either in the Visual Studio local registry or in the system registry, under HKEY_CLASSES_ROOT.
+1. Register the custom tool DLL either in the Visual Studio local registry (which loads under HKEY_LOCAL_MACHINE) or in the system registry, under HKEY_CLASSES_ROOT.
 
     For example, here's the registration information for the managed MSDataSetGenerator custom tool, which comes with Visual Studio:
 
