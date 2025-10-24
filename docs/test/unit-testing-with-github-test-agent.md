@@ -75,4 +75,4 @@ To get started, you need:
 
    ![Screenshot of Test Explorer output](media/visualstudio/test-agent-test-explorer-results.png)
 
-   At this point, you can manually use Test Explorer to continue running tests. You can also use Copilot to debug failed unit tests. For more information, see [Debug unit tests](../test/debug-unit-tests-with-test-explorer.md).
+   At this point, you can manually use Test Explorer to continue running tests, or chat with Copilot about the test results. You can also use Copilot to debug failed unit tests. For more information, see [Debug unit tests](../test/debug-unit-tests-with-test-explorer.md).
