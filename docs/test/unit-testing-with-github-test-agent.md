@@ -65,6 +65,10 @@ To get started, you need:
 
    The agent starts and initiates an iterative process of analyzing your code, creating a new project for the unit tests, generating unit tests, building, and running the tests.
 
+   ![Screenshot of Copilot starting test generation](media/visualstudio/test-agent-start-agent.png)
+
+   When tests are generated, the tests appear in a separate unit test project in the solution.
+
    ![Screenshot of generated sample test](media/visualstudio/test-agent-sample-output.png)
 
    Test Explorer shows the results. If Test Explorer is not automatically opened by the agent, select **Test** > **Test Explorer**.
