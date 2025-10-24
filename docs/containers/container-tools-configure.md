@@ -4,7 +4,7 @@ description: Use Visual Studio Container Tools to control how Visual Studio work
 author: ghogen
 ms.author: ghogen
 ms.topic: how-to
-ms.date: 10/242025
+ms.date: 10/24/2025
 ms.subservice: container-tools
 f1_keywords:
  - VS.ToolsOptionsPages.Container_Tools.General
