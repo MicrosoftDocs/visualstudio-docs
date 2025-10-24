@@ -5,7 +5,7 @@
   - name: Overview of testing tools
     href: improve-code-quality.md
   - name: GitHub Test Agent Overview
-    href: github-test-agent-overview.md
+    href: github-copilot-test-dotnet-overview.md
   - name: Unit test tools and tasks
     href: unit-test-your-code.md
 - name: Tutorials
@@ -15,7 +15,7 @@
   - name: Create and run unit tests for .NET
     href: walkthrough-creating-and-running-unit-tests-for-managed-code.md
   - name: Generate unit tests using AI
-    href: unit-testing-with-github-test-agent.md
+    href: unit-testing-with-github-copilot-test-dotnet.md
   - name: Create unit tests from code
     href: create-unit-tests-menu.md
 - name: Unit testing
