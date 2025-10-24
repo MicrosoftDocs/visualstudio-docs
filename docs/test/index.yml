@@ -44,7 +44,7 @@ landingContent:
           - text: Run unit tests with Test Explorer
             url: run-unit-tests-with-test-explorer.md
           - text: Generate unit tests using AI (.NET)
-            url: generate-unit-tests-with-github-copilot-test-dotnet.md
+            url: unit-testing-with-github-copilot-test-dotnet.md
       - linkListType: how-to-guide
         links:
           - text: Code coverage - Determine how much code is being tested
