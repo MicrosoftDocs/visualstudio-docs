@@ -4,7 +4,7 @@ description: Use the Visual Studio Containers window to view, debug, and interac
 author: ghogen
 ms.author: ghogen
 ms.topic: how-to
-ms.date: 04/17/2025
+ms.date: 10/24/2025
 ms.subservice: container-tools
 monikerRange: ">=vs-2019"
 ms.custom: sfi-image-nochange
@@ -203,9 +203,14 @@ The confirmation dialogs for various tasks, such as removing containers and imag
 You can also enable or disable these options by using the settings at **Tools** > **Options** > **Container Tools** > **Containers Tool Window**. For more information, see [Configure Container Tools](container-tools-configure.md).
 
 :::moniker-end
-:::moniker range=">=vs-2022"
+:::moniker range="vs-2022"
 
 You can also enable or disable these options by using the settings at **Tools** > **Options** > **Container Tools** > **Containers Window**. For more information, see [Configure Container Tools](container-tools-configure.md).
+
+:::moniker range="visualstudio"
+
+You can also enable or disable these options by using the settings at **Tools** > **Options** pane under **All Settings** > **Container Tools** > **Containers Window**. For more information, see [Configure Container Tools](container-tools-configure.md).
+
 :::moniker-end
 
 ### Start, stop, and remove containers
