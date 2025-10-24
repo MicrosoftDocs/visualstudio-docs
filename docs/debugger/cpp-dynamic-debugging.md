@@ -289,7 +289,12 @@ For more information about Unreal Engine target files, see [Targets](https://dev
 
 ## Enable C++ Dynamic Debugging for Unreal Engine 5.5 or earlier
 
-For Unreal Engine 5.5 or earlier, cherry-pick the Unreal Build Tool changes from [GitHub](https://aka.ms/vcdd_ue) into your repo. Then enable `bDynamicDebugging` as indicated above. You also need to use Unreal Build Accelerator from Unreal Engine 5.6. Either use the latest bits from ue5-main, or disable UBA by adding the following to `BuildConfiguration.xml`:
+For Unreal Engine 5.5 or earlier, cherry-pick the Unreal Build Tool changes from [GitHub](https://aka.ms/vcdd_ue) into your repository.
+
+> [!NOTE]
+> To access the Epic repositories on GitHub, you need an [Epic account](https://www.unrealengine.com/) and [registered GitHub account](https://www.unrealengine.com/ue-on-github).
+
+After you select the changes to apply to your repository, enable `bDynamicDebugging` as described earlier. You also need to use Unreal Build Accelerator from Unreal Engine 5.6. Either use the latest bits from ue5-main, or disable UBA by adding the following to `BuildConfiguration.xml`:
 
 ```xml
 <BuildConfiguration>
