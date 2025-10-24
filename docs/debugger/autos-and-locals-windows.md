@@ -98,11 +98,11 @@ In .NET and C++ code, Visual Studio displays the evaluation result inline for th
 
 For an `if` statement, Visual Studio displays the inline value to the right of the condition itself.
 
-![View inline values for if statements](../debugger/media/visualstudio/view-inline-values-if-statements.png)
+![Screenshot that shows inline values for if statements.](../debugger/media/visualstudio/view-inline-values-if-statements.png)
 
 For a loop statement, the inline value appears as follows.
 
-![View inline values for loop statements](../debugger/media/visualstudio/view-inline-values-loop-statements.png)
+![Screenshot that shows inline values for loop statements.](../debugger/media/visualstudio/view-inline-values-loop-statements.png)
 
 For function parameters, the inline value also appears to the right.
 
