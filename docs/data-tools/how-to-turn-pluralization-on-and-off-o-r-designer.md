@@ -34,7 +34,10 @@ Follow these steps to turn the pluralization setting on and off:
 
 1. In the right pane, select **O/R Designer**. The **Options** dialog opens.
 
-1. In the **Options** dialog, apply pluralization rules to the class names of objects added to the **O/R Designer**. Set the **Pluralization of names** setting value **Enabled** = **True**.
+1. In the **Options** dialog, configure pluralization for the **O/R Designer**:
+
+   - To apply pluralization rules so class names are changed, set the **Pluralization of names** setting value **Enabled** = **True**.
+   - If you don't want to apply pluralization rules, set the **Pluralization of names** setting value **Enabled** = **False**.
 
 1. Select **OK**.
 
