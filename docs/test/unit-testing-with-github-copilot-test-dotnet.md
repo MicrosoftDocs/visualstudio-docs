@@ -65,7 +65,7 @@ To get started, you need:
 
    GitHub Copilot testing for .NET initiates an iterative process of analyzing your code, creating a new project for the unit tests, generating tests, building, and running the tests.
 
-   ![Screenshot of Copilot starting test generation](media/visualstudio/test-agent-start-agent.png)
+   ![Screenshot of Copilot starting test generation](media/visualstudio/test-agent-generate-tests.png)
 
    When unit tests are generated, the tests appear in a separate test project in the solution.
 
