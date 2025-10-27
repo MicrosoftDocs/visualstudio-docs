@@ -71,14 +71,14 @@ To disable the automatic decompilation of external code:
 
 1. Open the **Tools** > **Options** pane and expand the **All Settings** > **Debugging** > **General** section.
 
-1. In the right pane, clear the **Automatically decompile to source when needed (managed only)** checkbox.
+1. In the right pane, clear the **Automatically decompile to source when needed (Managed only)** checkbox.
 
 :::moniker-end
 :::moniker range="<=vs-2022"
 
 1. Open the **Tools** > **Options** dialog and expand the **Debugging** > **General** section.
 
-1. In the right pane, clear the **Automatically decompile to source when needed (managed only)** checkbox.
+1. In the right pane, clear the **Automatically decompile to source when needed (Managed only)** checkbox.
 
 1. Select **OK**.
 
@@ -122,6 +122,8 @@ You can enable the feature from the **Tools** > **Options** menu.
    If you select the option, you can specify the number of **Items saved in the Miscellaneous files project**.
 
    ![Screenshot of tools option page with miscellaneous files option enabled.](media/decompilation-tools-options-misc-files.png)
+
+1. Select **OK**.
 
 :::moniker-end
 
