@@ -42,14 +42,14 @@ To enable or disable Hot Reload:
 
 2. Open the **Tools** > **Options** pane, and expand the **All Settings** > **Debugging** > **.NET/C++ Hot Reload** section.
 
-3. To enable Hot Reload when starting with the debugger attached (**F5**), select or clear the **Enable Hot Reload** checkbox in the right pane.
+3. Select or clear the desired **Enable Hot Reload** options for the feature.
 
 ::: moniker-end
 :::moniker range="vs-2022"
 
-2. Under **Tools** > **Options** > **Debugging** > **.NET/C++ Hot Reload** section.
+2. Open the **Tools** > **Options** dialog, and expand the **Debugging** > **.NET/C++ Hot Reload** section.
 
-3. Select or clear the desired **Enable Hot Reload** options to enable the feature, and then select **OK**.
+3. Select or clear the desired **Enable Hot Reload** options for the feature, and select **OK**.
 
 ::: moniker-end
 ::: moniker range=">=vs-2022"
