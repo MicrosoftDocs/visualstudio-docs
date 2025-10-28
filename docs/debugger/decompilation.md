@@ -1,7 +1,7 @@
 ---
 title: Decompile .NET code while debugging
 description: Generate and embed source code from .NET assemblies while debugging in Visual Studio. Extract and view the embedded source code.
-ms.date: 03/06/2024
+ms.date: 10/28/2025
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -40,6 +40,7 @@ The following illustration shows the **Source Not Found** message.
 ![Screenshot of source not found document](media/decompilation-no-source-found.png)
 
 ::: moniker range=">= vs-2022"
+
 ## Autodecompile code
 
 Starting in Visual Studio 2022 version 17.7, the Visual Studio Debugger supports autodecompilation of external .NET code. You can autodecompile when stepping into external code or when using the Call Stack window.
@@ -62,8 +63,26 @@ To autodecompile from the Call Stack window:
 
    You can debug the decompiled code and set breakpoints.
 
-To disable the automatic decompilation of external code, go to **Tools > Options > Debugging > General** and deselect **Automatically decompile to source when needed (managed only)**.
 ::: moniker-end
+
+To disable the automatic decompilation of external code:
+
+:::moniker range="visualstudio"
+
+1. Open the **Tools** > **Options** pane and expand the **All Settings** > **Debugging** > **General** section.
+
+1. In the right pane, clear the **Automatically decompile to source when needed (Managed only)** checkbox.
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+1. Open the **Tools** > **Options** dialog and expand the **Debugging** > **General** section.
+
+1. In the right pane, clear the **Automatically decompile to source when needed (Managed only)** checkbox.
+
+1. Select **OK**.
+
+:::moniker-end
 
 ## Generate and embed sources for an assembly
 
@@ -77,9 +96,36 @@ You can extract source files that are embedded in a symbol file using the **Extr
 
 ![Screenshot of assembly context menu in modules window with extract sources command.](media/decompilation-extract-source-code.png)
 
-The extracted source files are added to the solution as [miscellaneous files](../ide/reference/miscellaneous-files.md). The miscellaneous files feature is off by default in Visual Studio. You can enable this feature from the **Tools** > **Options** > **Environment** > **Documents** > **Show Miscellaneous files in Solution Explorer** checkbox. If this feature isn't enabled, you can't open the extracted source code.
+The extracted source files are added to the solution as [miscellaneous files](../ide/reference/miscellaneous-files.md). The miscellaneous files feature is off by default in Visual Studio. If the feature isn't enabled, you can't open the extracted source code.
 
-![Screenshot of tools option page with miscellaneous files option enabled.](media/decompilation-tools-options-misc-files.png)
+:::moniker range="visualstudio"
+
+You can enable the feature from the **Tools** > **Options** menu. 
+
+1. Open the **Tools** > **Options** pane and expand the **All Settings** > **Environment** > **Documents** section. 
+
+1. In the right pane, select or clear the **Show Miscellaneous files in Solution Explorer** checkbox. 
+
+   If you select the option, you can specify the number of **Items saved in the Miscellaneous files project**.
+
+   :::image type="content" source="media/visualstudio/decompilation-tools-options-misc-files.png" border="false" alt-text="Screenshot that shows how to configure the Show Miscellaneous files in Solution Explorer option in Visual Studio.":::
+
+1. To apply your changes, restart Visual Studio.
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+1. Open the **Tools** > **Options** dialog and expand the **Environment** > **Documents** section.
+
+1. In the right pane, select or clear the **Show Miscellaneous files in Solution Explorer** checkbox. 
+
+   If you select the option, you can specify the number of **Items saved in the Miscellaneous files project**.
+
+   ![Screenshot of tools option page with miscellaneous files option enabled.](media/decompilation-tools-options-misc-files.png)
+
+1. Select **OK**.
+
+:::moniker-end
 
 Extracted source files appear in the miscellaneous files in **Solution Explorer**.
 
@@ -127,7 +173,18 @@ More details can be found in the GitHub issue: [PDB Generator Status](https://gi
 
 The [Just My Code (JMC)](./just-my-code.md) setting allows Visual Studio to step over system, framework, library, and other nonuser calls. During a debugging session, the **Modules** window shows which code modules the debugger is treating as My Code (user code).
 
-Decompilation of optimized or release modules produces nonuser code. If the debugger breaks in your decompiled nonuser code, for example, the **No Source** window appears. To disable Just My Code, navigate to **Tools** > **Options** (or **Debug** > **Options**) > **Debugging** > **General**, and then deselect **Enable Just My Code**.
+Decompilation of optimized or release modules produces nonuser code. If the debugger breaks in your decompiled nonuser code, for example, the **No Source** window appears. You can disable the **Just My Code** feature from the **Tools** > **Options** or **Debug** > **Options** menu.
+
+:::moniker range="visualstudio"
+
+Open the **Tools** > **Options** pane and expand the **All Settings** > **Debugging** > **General** section. Clear the **Enable Just My Code** checkbox.
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+      
+Open the **Tools** > **Options** dialog and expand the **Debugging** > **General** section. Clear the **Enable Just My Code** checkbox.
+      
+:::moniker-end
 
 ### Extracted sources
 
