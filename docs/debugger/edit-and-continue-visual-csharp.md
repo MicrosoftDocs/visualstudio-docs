@@ -20,6 +20,7 @@ ms.subservice: debug-diagnostics
 # Edit and Continue (Visual C#)
 
 ::: moniker range=">=vs-2022"
+
 With Hot Reload, or Edit and Continue for C#, you can make changes to your code in break or run mode while debugging. The changes can be applied without having to stop and restart the debugging session.
 
 The basic Hot Reload experience works with most types of .NET apps and framework versions. This includes .NET Framework, .NET Core and .NET 5+ (for both C# and Visual Basic as applicable). The expectation in this scenario is that if you’re using the debugger, assume Hot Reload is available to you and give it a try!
@@ -34,9 +35,24 @@ Hot Reload for C# happens automatically when you make code changes in break mode
 
 To enable or disable Hot Reload:
 
-1. If you're in a debugging session, stop debugging (**Debug** > **Stop Debugging** or **Shift**+**F5**).
+1. If you're in a debugging session, stop debugging (**Debug** > **Stop Debugging** or **Shift** + **F5**).
 
-1. Open **Tools** > **Options** > **Debugging** > **.NET/C++ Hot Reload**, select or clear the **Enable Hot Reload and Edit and Continue when debugging** check box.
+::: moniker-end
+:::moniker range="visualstudio"
+
+2. Open the **Tools** > **Options** pane, and expand the **All Settings** > **Debugging** > **.NET/C++ Hot Reload** section.
+
+3. Select or clear the desired **Enable Hot Reload** options for the feature.
+
+::: moniker-end
+:::moniker range="vs-2022"
+
+2. Open the **Tools** > **Options** dialog, and expand the **Debugging** > **.NET/C++ Hot Reload** section.
+
+3. Select or clear the desired **Enable Hot Reload** options for the feature, and select **OK**.
+
+::: moniker-end
+::: moniker range=">=vs-2022"
 
 The setting takes effect when you start or restart the debugging session.
 
@@ -44,12 +60,13 @@ To use the classic Edit and Continue experience:
 
 1. While debugging, in break mode, make a change to your source code.
 
-1. From the **Debug** menu, click **Continue**, **Step**, or **Set Next Statement**. Debugging continues with the new, compiled code.
+1. From the **Debug** menu, select **Continue**, **Step**, or **Set Next Statement**. Debugging continues with the new, compiled code.
 
 Some types of code changes aren't supported by Edit and Continue. For more information, see [Supported code changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md).
-::: moniker-end
 
+::: moniker-end
 ::: moniker range="vs-2019"
+
 With Edit and Continue for C#, you can make changes to your code in break or run mode while debugging. The changes can be applied without having to stop and restart the debugging session. In run mode, the source editor is read-only.
 
 Edit and Continue is supported in UWP in Windows 10 or later, and x86 and x64 apps that target the .NET Framework 4.6 desktop or later versions (the .NET Framework is a desktop version only).
@@ -74,11 +91,12 @@ To use the Edit and Continue:
 
 1. While debugging, in break mode, make a change to your source code.
 
-1. From the **Debug** menu, click **Continue**, **Step**, or **Set Next Statement**, or evaluate a function in a debugger window.
+1. From the **Debug** menu, select **Continue**, **Step**, or **Set Next Statement**, or evaluate a function in a debugger window.
 
    Debugging continues with the new, compiled code.
 
 Some types of code changes aren't supported by Edit and Continue. For more information, see [Supported code changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md).
+
 ::: moniker-end
 
 ## Related content
