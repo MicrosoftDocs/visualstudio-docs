@@ -23,7 +23,7 @@ In this article, you'll learn how to create, run, and test C# code using GitHub 
 
 Although Copilot can generate unit tests, you get extra testing capability by using GitHub Copilot testing for .NET in Visual Studio, including the following:
 
-- Unit tests are generated in their own project within the solution.
+- Unit tests are generated in a separate project within the solution.
 - GitHub Copilot testing builds the unit tests following test generation. If there are errors, the unit testing capability in GitHub Copilot for .NET tries to identify and fix errors, and then re-runs the tests.
 - GitHub Copilot testing runs the tests using Test Explorer.
 
