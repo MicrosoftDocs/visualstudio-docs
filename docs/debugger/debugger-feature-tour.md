@@ -24,7 +24,7 @@ To debug, you need to start your app with the debugger attached to the app proce
 
 - Press **F5** (**Debug > Start Debugging**), which is the most common method.
 
-You might not any breakpoints set yet to use for examining your app code. After you set breakspotints, you're ready to start debugging. Breakpoints are the most basic and essential feature of reliable debugging. A breakpoint indicates where Visual Studio should suspend your running code so you can take a look at the values of variables, or the behavior of memory, or whether or not a branch of code is getting run.
+You might not have any breakpoints set yet to use for examining your app code. After you set breakspotints, you're ready to start debugging. Breakpoints are the most basic and essential feature of reliable debugging. A breakpoint indicates where Visual Studio should suspend your running code so you can take a look at the values of variables, or the behavior of memory, or whether or not a branch of code is getting run.
 
 If you have a file open in the code editor, you can set a breakpoint by clicking in the margin to the left of a line of code.
 
