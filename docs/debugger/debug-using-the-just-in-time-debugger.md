@@ -1,7 +1,7 @@
 ---
 title: Debug using the Just-In-Time Debugger
 description: Debug using the Just-In-Time Debugger in Visual Studio. Just-In-Time debugging can launch Visual Studio automatically when an app returns errors or crashes.
-ms.date: 01/29/2025
+ms.date: 10/27/2025
 ms.topic: how-to
 helpviewer_keywords: 
   - debugging [Visual Studio], Just-In-Time
@@ -18,27 +18,41 @@ Just-In-Time debugging can launch Visual Studio automatically when an app runnin
 Just-In-Time debugging works for Windows desktop apps. It doesn't work for Universal Windows Apps, or for managed code that is hosted in a native application, such as Visualizers.
 
 > [!TIP]
-> If you just want to stop the Just-In-Time Debugger dialog box from appearing, but don't have Visual Studio installed, see [Disable the Just-In-Time Debugger](../debugger/just-in-time-debugging-in-visual-studio.md). If you once had Visual Studio installed, you may need to [disable Just-In-Time debugging from the Windows registry](#disable-just-in-time-debugging-from-the-windows-registry).
+> If you just want to stop the Just-In-Time Debugger dialog box from appearing, but don't have Visual Studio installed, see [Disable the Just-In-Time Debugger](../debugger/just-in-time-debugging-in-visual-studio.md). If you once had Visual Studio installed, you might need to [disable Just-In-Time debugging from the Windows registry](#disable-just-in-time-debugging-from-the-windows-registry).
 
 ## <a name="BKMK_Enabling"></a> Enable or disable Just-In-Time debugging in Visual Studio
 
-You can configure Just-In-Time debugging from the Visual Studio **Tools** > **Options** (or **Debug** > **Options**) dialog box.
+When you work with the Just-In-Time debugger in Visual Studio, configuration options for the debugger are accessible from the **Tools** > **Options** or **Debug** > **Options** menus. The Just-In-Time debugger is available in the **Individual components** > **Debugging and testing** section of the installer.
 
 > [!NOTE]
-> To enable or disable Just-In-Time debugging, you must be running Visual Studio as an administrator. Enabling or disabling Just-In-Time debugging sets a registry key, and administrator privileges may be required to change that key. To open Visual Studio as an administrator, right-click the Visual Studio app and choose **Run as administrator**.
+> To enable or disable Just-In-Time debugging, you must be running Visual Studio as an administrator. Enabling or disabling Just-In-Time debugging sets a registry key, and administrator privileges might be required to change the key. To open Visual Studio as an administrator, right-click the Visual Studio app and choose **Run as administrator**.
 
 **To enable or disable Just-In-Time debugging:**
 
-1. On the **Tools** or **Debug** menu, select **Options** > **Debugging** > **Just-In-Time**.
+:::moniker range="visualstudio"
 
-   ![Enable or disable JIT debugging](../debugger/media/dbg-jit-enable-or-disable.png "Enable or disable JIT debugging")
+1. In the **Tools** > **Options** pane, expand the **All Settings** > **Debugging** > **General** section.
 
-   > [!NOTE]
-   > If the Just-In-Time menu option is not shown, make sure the Just-In-Time debugger is installed using the Visual Studio Installer.
+1. In the right pane, select the **Configure Just-In-Time debugging** link.
+
+   :::image type="content" source="../debugger/media/visualstudio/dbg-jit-enable-or-disable.png" border="false" alt-text="Screenshot that shows how to configure Just-In-Time debugging in Visual Studio.":::
+
+1. In the **Visual Studio Debugger Options** dialog, configure the **Enable Just-In-Time debugging for these types of code** option. Select the types of code you want Just-In-Time debugging to debug: **Managed** (.NET Framework) or **Native**.
+
+1. Select **OK**.
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+1. In the **Tools** > **Options** dialog, expand the **Debugging** > **Just-In-Time** section.
 
 1. In the **Enable Just-In-Time debugging for these types of code** box, select the types of code you want Just-In-Time debugging to debug: **Managed**, **Native**, and/or **Script**.
 
+   ![Enable or disable JIT debugging](../debugger/media/dbg-jit-enable-or-disable.png "Enable or disable JIT debugging")
+
 1. Select **OK**.
+
+:::moniker-end
 
 If you enable the Just-In-Time debugger, but it doesn't open when an app crashes or errors, see [Troubleshoot Just-In-Time debugging](#jit_errors).
 
@@ -98,7 +112,7 @@ This example walks you through Just-In-Time debugging when an app throws an erro
 
 - You must have Visual Studio installed to follow these steps. If you don't have Visual Studio, you can download the free [Visual Studio Community Edition](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=15).
 
-- Make sure Just-In-Time debugging is [enabled](#BKMK_Enabling) in **Tools** > **Options** > **Debugging** > **Just-In-Time**.
+- Make sure Just-In-Time debugging is [enabled](#BKMK_Enabling) by configuring the **Enable Just-In-Time debugging for these types of code** option under **Tools** > **Options**.
 
 For this example, you make a C# console app in Visual Studio that throws a [NullReferenceException](/dotnet/api/system.nullreferenceexception).
 
@@ -116,9 +130,22 @@ For this example, you make a C# console app in Visual Studio that throws a [Null
 
 1. To build the solution, choose either the **Debug** (default) or **Release** configuration, and then select **Build** > **Rebuild Solution**.
 
-   > [!NOTE]
-   > - Choose **Debug** configuration for the full debugging experience.
-   > - If you select [Release](../debugger/how-to-set-debug-and-release-configurations.md) configuration, you must turn off [Just My Code](../debugger/just-my-code.md) for this procedure to work. Under **Tools** > **Options** > **Debugging**, deselect **Enable Just My Code**.
+   - For the full debugging experience, select the **Debug** configuration.
+   
+   - If you select the [Release](../debugger/how-to-set-debug-and-release-configurations.md) configuration, you must turn off [Just My Code](../debugger/just-my-code.md) for this procedure to work.
+
+      :::moniker range="visualstudio"
+
+      In the **Tools** > **Options** pane, expand the **All Settings** > **Debugging** > **General** section, and clear the **Enable Just My Code** checkbox.
+
+      :::moniker-end
+      :::moniker range="<=vs-2022"
+      
+      In the **Tools** > **Options** dialog, expand the **Debugging** > **General** section, and clear the **Enable Just My Code** checkbox.
+      
+      :::moniker-end
+
+      When you deselect this option, the **Warn if no user code on start debugging (Managed only)** option is automatically disabled.
 
    For more information about build configurations, see [Understanding build configurations](../ide/understanding-build-configurations.md).
 
