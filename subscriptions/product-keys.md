@@ -3,7 +3,7 @@ title: Understanding the product keys offered in your Visual Studio subscription
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 08/01/2025
+ms.date: 10/29/2025
 ms.topic: conceptual
 description: Obtain and manage your product keys in Visual Studio subscriptions for products that require keys for installation or activation.
 ---
@@ -30,7 +30,7 @@ If you claimed all the available product keys under your subscription and used u
 
 Visual Studio subscriptions offer a selection of retail and Volume Licensing versions of Microsoft products. Certain products are available from Downloads only in their retail version or only in their Volume Licensing version; some are available in both versions. Generally, products requiring activation, such as Windows, Windows Server, and Office client products, are only offered in their retail version through Downloads.
 
-Volume Licensing customers can also download software from the Volume Licensing Service Center (VLSC) to get Volume Licensing versions of products (and the corresponding product keys). Designated admins within your organization control access to the VLSC.
+Volume Licensing customers can also download software from the Microsoft 365 admin center to get Volume Licensing versions of products (and the corresponding product keys). Designated admins within your organization control access to the Microsoft 365 admin center.
 
 ## Product key claim limits
 
