@@ -1,7 +1,7 @@
 ---
 title: "General, Debugging, Options Dialog Box"
 description: Set Visual Studio debugger options to meet your debugging needs. You can configure break behavior, debugging levels, display behavior, and much else.
-ms.date: "10/29/2025"
+ms.date: "10/30/2025"
 ms.topic: "ui-reference"
 f1_keywords:
   - "vs.debug.options.General"
@@ -41,8 +41,8 @@ In managed or mixed-mode debugging, the common language runtime can catch except
    - **Condition 2**: When managed code running in application domain 1 calls managed code in application domain 2, and the code in application domain 2 throws an exception. See [Programming with application domains](/dotnet/articles/framework/app-domains/index).
 
    - **Condition 3**: When code calls a function by using reflection, and that function throws an exception. See [Reflection](/dotnet/framework/reflection-and-codedom/reflection).
-
-   In conditions 2 and 3, the exception is sometimes caught by managed code in `mscorlib` rather than by the common language runtime. This option doesn't affect breaking on exceptions caught by `mscorlib`.
+   
+   - For conditions 2 and 3, the exception is sometimes caught by managed code in `mscorlib` rather than by the common language runtime. This option doesn't affect breaking on exceptions caught by `mscorlib`.
 
 **Enable address-level debugging**:
 Enables advanced features for debugging at the address level (the **Disassembly** window, the **Registers** window, and address breakpoints).
@@ -180,10 +180,7 @@ Visual Studio warns you when you're using a custom debugger visualizer that's ru
 **Enable Windows debug heap allocator (Native only)**:
 Enables the windows debug heap to improve heap diagnostics. Enabling this option impacts debugging performance.
 
-<!-- Next option, article varies greatly from current UI in VS 2022 
-
----- Article (compare this text with content in the following commented section) -->
-
+::: moniker range="vs-2019"
 **Enable UI Debugging Tools for XAML**:
 The Live Visual Tree and the Live Property Explore windows appear when you start debugging (**F5**) a supported project type. For more information, see [Inspect XAML properties while debugging](../xaml-tools/inspect-xaml-properties-while-debugging.md).
 
@@ -196,7 +193,6 @@ The Live Visual Tree and the Live Property Explore windows appear when you start
 - **Enable XAML Hot Reload**:
     Allows you to use the XAML Hot Reload feature with XAML code when your app is running. (This feature was previously called "XAML Edit and Continue")
 
-::: moniker range="vs-2019" 
 - **Enable Just My XAML**:
     Starting in Visual Studio 2019 version 16.4, the **Live Visual Tree** by default shows only XAML that is classified as user code. If you disable this option, all generated XAML code is shown in the tool.
 
@@ -207,10 +203,7 @@ The Live Visual Tree and the Live Property Explore windows appear when you start
     Starting in Visual Studio 2019 version 16.6, applies XAML Hot Reload when you save your document.
 ::: moniker-end
 
-<!-- Current UI in VS 2022
-
 ::: moniker range="vs-2022" 
-
 ## Options for XAML Hot Reload
 
 The following options are available in the **Debugging** > **General** > **XAML Hot Reload** section.
@@ -244,14 +237,9 @@ In the **Xamarin.Forms** group, select from the following options to use the Hot
 - **Full page**: TBD - Add description.
 
 For more information, select the [Help me choose which Hot Reload mode to use](/previous-versions/xamarin/xamarin-forms/xaml/hot-reload) link.
-
 ::: moniker-end
 
-
---- Current UI in VS 2026
-
-::: moniker range="visualstudio" 
-
+::: moniker range="visualstudio"
 ## Options for XAML Hot Reload
 
 The following options are available in the **Debugging** > **General** > **XAML Hot Reload** section.
@@ -281,40 +269,13 @@ The following options are available in the **Debugging** > **General** > **XAML 
 
 - **Enable in-app toolbar**:
     Shows the **Live Visual Tree** commands in a toolbar on the main window of the XAML application that's being debugged.
-
 ::: moniker-end
-
--->
 
 **Enable Diagnostic Tools while debugging**:
 The **Diagnostic Tools** window appears while you're debugging.
 
 **Show elapsed time PerfTip while debugging**:
 The code window displays the elapsed time of a given method call when you're debugging.
-
-::: moniker range="visualstudio"
-## Options for .NET/C++ Hot Reload
-
-The following options are available in the **Debugging** > **General** > **.NET/C++ Hot Reload** section.
-
-- **Enable Hot Reload**:
-    Use the Hot Reload feature with .NET and C++ code when your app is running with the debugger attached (**F5**). This feature was previously called "Edit and Continue."
-
-- **Automatically apply changes on continue (Native only)**:
-    Visual Studio automatically compiles and applies any outstanding code changes you have made when continuing the process from a break state. If not selected, you can choose to apply changes using the **Apply Code Changes** item under the **Debug** menu.
-
-- **Warn about stale code (Native only)**:
-    Get warnings about stale code.
-
-- **Enable when not debugging**:
-    Enables Hot Reload when your app runs without the debugger attached (**Ctrl** + **F5**).
-
-- **Apply on file save**:
-    Applies changes when the file is saved.
-
-- **Logging verbosity**:
-    Set the level of logging when Hot Reload is enabled: **Minimal**, **Detailed**, or **Diagnostic**.
-::: moniker-end
 
 ::: moniker range="vs-2022" 
 **Enable Hot Reload**:
@@ -391,6 +352,29 @@ Display the values for function arguments in the highlighted statement in the de
 Display the values for expressions within the current line in the debugger.
 ::: moniker-end
 
+::: moniker range="visualstudio"
+## Options for .NET/C++ Hot Reload
+
+The following options are available in the **Debugging** > **General** > **.NET/C++ Hot Reload** section.
+
+- **Enable Hot Reload**:
+    Use the Hot Reload feature with .NET and C++ code when your app is running with the debugger attached (**F5**). This feature was previously called "Edit and Continue."
+
+- **Automatically apply changes on continue (Native only)**:
+    Visual Studio automatically compiles and applies any outstanding code changes you have made when continuing the process from a break state. If not selected, you can choose to apply changes using the **Apply Code Changes** item under the **Debug** menu.
+
+- **Warn about stale code (Native only)**:
+    Get warnings about stale code.
+
+- **Enable when not debugging**:
+    Enables Hot Reload when your app runs without the debugger attached (**Ctrl** + **F5**).
+
+- **Apply on file save**:
+    Applies changes when the file is saved.
+
+- **Logging verbosity**:
+    Set the level of logging when Hot Reload is enabled: **Minimal**, **Detailed**, or **Diagnostic**.
+::: moniker-end
 
 ## Options available in older versions of Visual Studio
 
