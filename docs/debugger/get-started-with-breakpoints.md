@@ -53,7 +53,7 @@ Open the **Tools** > **Options** pane, expand the **All Settings** > **Debugging
 :::moniker-end
 :::moniker range="vs-2022"
       
-Open the **Tools** > **Options** dialog, expand the **Debugging** > **General** section, and select the **Highlight entire source line for breakpoints and current statement (C++ only)** checkbox and the select **OK**.
+Open the **Tools** > **Options** dialog, expand the **Debugging** > **General** section, and select the **Highlight entire source line for breakpoints and current statement (C++ only)** checkbox. Select **OK** to apply the change.
 
 ![Set a breakpoint](../debugger/media/vs-2022/basic-breakpoint.png "Basic breakpoint")
 
