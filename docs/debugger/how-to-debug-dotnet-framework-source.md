@@ -81,13 +81,13 @@ To debug .NET Framework source, you must:
 
 :::moniker-end
 
-3. Add other symbol locations by selecting **Add** or update existing locations with **Edit**. Change the loading order of the locations with **Move up** and **Move down**.
+3. To add other symbol locations, select **Add** and update existing locations by selecting **Edit**. Change the loading order of the locations with **Move up** and **Move down**.
 
 4. To change your local symbols cache, edit or browse to a different location by selecting **More actions** (**...**) for the **Cache symbols in this directory** option.
 
 5. To download symbols immediately, select **Load all symbols**. This button is available only while debugging.
 
-   If you don't download symbols now, they're downloaded the next time you start debugging.
+   If you don't download symbols now, the download happens the next time you start debugging.
 
 :::moniker range="<=vs-2022"
 
@@ -105,16 +105,16 @@ To debug .NET Framework source, you must:
 
    - Select **Symbol Load Information** to show the locations the debugger searched for symbols.
 
-:::moniker range="visualstudio"
+   :::moniker range="visualstudio"
 
-   - Select **Symbol Settings**, which opens the **Tools** (or **Debug**) > **Options** pane to the **All Settings** > **Debugging** > **Symbols** > **Search Locations** section. Select the **Download symbols from the Microsoft Symbol Servers** checkbox. This option accesses symbols from the public Microsoft Symbol Server. Add other symbol locations by selecting **Add** or update existing locations with **Edit**. Change the loading order of the locations with **Move up** and **Move down**.
+   - Select **Symbol Settings**, which opens the **Tools** (or **Debug**) > **Options** pane to the **All Settings** > **Debugging** > **Symbols** > **Search Locations** section. Select the **Download symbols from the Microsoft Symbol Servers** checkbox. This option accesses symbols from the public Microsoft Symbol Server. You can add other symbol locations by selecting **Add** and update existing locations with **Edit**. You can change the loading order of the locations by using **Move up** and **Move down**.
 
-:::moniker-end
-:::moniker range="<=vs-2022"
+   :::moniker-end
+   :::moniker range="<=vs-2022"
 
-   - Select **Symbol Settings**, which opens the **Tools** (or **Debug**) > **Options** dialog to the **Debugging** > **Symbols** section. In the **Symbol file (.pdb) search locations** group, select **Microsoft Symbol Servers**. This option accesses symbols from the public Microsoft Symbol Server. Add other symbol locations by selecting **Add** or update existing locations with **Edit**. Change the loading order of the locations with **Move up** and **Move down**. Select **OK** to apply your changes.
+   - Select **Symbol Settings**, which opens the **Tools** (or **Debug**) > **Options** dialog to the **Debugging** > **Symbols** section. In the **Symbol file (.pdb) search locations** group, select **Microsoft Symbol Servers**. This option accesses symbols from the public Microsoft Symbol Server. You can add other symbol locations by selecting **Add** and update existing locations with **Edit**. You can change the loading order of the locations by using **Move up** and **Move down**. Select **OK** to apply your changes.
 
-:::moniker-end
+   :::moniker-end
 
 ## Related content
 
