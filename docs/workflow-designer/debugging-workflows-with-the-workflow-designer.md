@@ -2,7 +2,7 @@
 title: Debugging Workflows with the Workflow Designer
 description: Learn how the Workflow Designer provides the ability to debug workflows and custom activities with a process similar to that of the default Visual Studio debugger.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - Visual Studio Workflow Designer [WFD], debugging workflows
 - Workflow Designer [WFD], debugging workflows

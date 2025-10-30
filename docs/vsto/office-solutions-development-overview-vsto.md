@@ -2,7 +2,7 @@
 title: "Office solutions development overview (VSTO)"
 description: Customize familiar Microsoft Office user interface items and tools, such as the word processing features in Word and the data analysis features of Excel.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: concept-article
 dev_langs:
   - "VB"
   - "CSharp"

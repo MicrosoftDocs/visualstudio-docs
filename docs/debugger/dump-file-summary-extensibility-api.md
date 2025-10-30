@@ -2,7 +2,7 @@
 title: "Dump File Summary Extensibility API"
 description: Use the dump file summary extensibility API to extend the .exe project system and Dump Summary page to work with your own custom debug engine in Visual Studio.
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "CSharp"
   - "VB"

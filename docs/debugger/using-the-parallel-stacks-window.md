@@ -2,7 +2,7 @@
 title: "View threads in the Parallel Stacks window"
 description: Use Parallel Stacks to help debug multithreaded applications. You can view stack information for all threads, and task-centered call stack information.
 ms.date: "8/5/2025"
-ms.topic: "conceptual"
+ms.topic: article
 f1_keywords:
   - "vs.debug.parallelstacks"
 dev_langs:

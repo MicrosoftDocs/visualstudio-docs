@@ -2,7 +2,7 @@
 title: Configuring Warnings in Visual Basic
 description: Configure warnings like 'warn as error' and 'no warn' in Visual Basic to help you write cleaner, faster, better code with fewer bugs.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - errors [Visual Basic], warnings
 - run-time errors, warnings

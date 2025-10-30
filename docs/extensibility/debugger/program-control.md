@@ -2,7 +2,7 @@
 title: Program Control
 description: Learn about routines in Visual Studio debugging that occur at the program level, such as executing, stepping, continuing, and suspending/resuming threads.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - debugging [Debugging SDK], control of execution
 author: tinaschrepfer

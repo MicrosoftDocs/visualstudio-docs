@@ -4,7 +4,7 @@ description: View the change log for Visual Studio Tools for Unity, Windows. See
 ms.date: "9/17/2025"
 ms.subservice: unity-tools
 ms.service: visual-studio
-ms.topic: "conceptual"
+ms.topic: article
 author: jbevain
 ms.author: jbevain
 manager: crdun

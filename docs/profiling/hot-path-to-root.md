@@ -2,7 +2,7 @@
 title: "Hot paths to root in the Memory Usage tool"
 description: Learn what a hot path to root means in the Memory Usage tool.
 ms.date: "01/07/2024"
-ms.topic: "conceptual"
+ms.topic: article
 author: "asundheim"
 ms.author: "asundheim"
 ms.subservice: debug-diagnostics

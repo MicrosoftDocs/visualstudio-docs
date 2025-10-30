@@ -2,7 +2,7 @@
 title: Custom data visualizers for .NET debugging
 description: Visual Studio debugger visualizers are components that display data. Learn about the six standard visualizers, and about how you can write or download others.
 ms.date: "08/08/2023"
-ms.topic: "conceptual"
+ms.topic: article
 f1_keywords:
   - "vs.debug.visualizer.troubleshoot"
 dev_langs:

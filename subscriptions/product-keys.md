@@ -3,8 +3,8 @@ title: Understanding the product keys offered in your Visual Studio subscription
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 10/29/2025
-ms.topic: conceptual
+ms.date: 08/01/2025
+ms.topic: how-to
 description: Obtain and manage your product keys in Visual Studio subscriptions for products that require keys for installation or activation.
 ---
 

@@ -4,7 +4,7 @@ author: joseb-rdc
 ms.author: amast
 manager: shve
 ms.date: 09/12/2024
-ms.topic: conceptual
+ms.topic: article
 description: Learn what happens for admins when an agreement expires.
 ---
 

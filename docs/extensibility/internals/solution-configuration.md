@@ -2,7 +2,7 @@
 title: Use solution configurations for Start (F5) & Build
 description: Implement the solution configurations supported by your project type, which direct the behavior of the Start (F5) key and Build commands.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - solution configurations
 author: tinaschrepfer

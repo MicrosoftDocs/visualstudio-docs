@@ -2,7 +2,7 @@
 title: "ClickOnce and Application Settings"
 description: Learn how application settings files work in a ClickOnce application and how ClickOnce migrates settings when the user upgrades to the next version.
 ms.date: "08/03/2022"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"

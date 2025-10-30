@@ -3,7 +3,7 @@ description: "The document element of the vstov4 namespace stores customization-
 title: "&lt;document&gt; element (Office development in Visual Studio)"
 titleSuffix: ""
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"

@@ -2,7 +2,7 @@
 title: "Verifying and Debugging SharePoint Code"
 description: Verify and debug SharePoint code. Use IntelliTrace to examine past events and current state in your solution. Use unit testing to ensure your methods work correctly.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: concept-article
 dev_langs:
   - "VB"
   - "CSharp"

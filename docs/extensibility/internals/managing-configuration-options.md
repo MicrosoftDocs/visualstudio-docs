@@ -2,7 +2,7 @@
 title: Managing Configuration Options
 description: Learn how to manage project and solution configuration settings in Visual Studio to control how your project will be built, packaged, deployed, and run. 
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - configuration options
 author: tinaschrepfer

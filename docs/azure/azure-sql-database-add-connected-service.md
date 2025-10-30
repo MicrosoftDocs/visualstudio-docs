@@ -4,7 +4,7 @@ description: Connect Azure SQL Database to your application by using Connected S
 author: ghogen
 manager: mijacobs
 ms.subservice: azure-development
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 10/2/2025
 ms.author: ghogen
 monikerRange: ">= vs-2019"

@@ -2,7 +2,7 @@
 title: How VSPackages Add User Interface Elements
 description: Learn how VSPackages add user interface (UI) elements, such as menus, toolbars, and tool windows, to Visual Studio.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - user interfaces, adding elements
 - UI element design [Visual Studio SDK], VSPackages

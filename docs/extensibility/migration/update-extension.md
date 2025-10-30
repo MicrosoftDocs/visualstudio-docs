@@ -2,7 +2,7 @@
 title: Update a Visual Studio extension for the Insiders prerelease
 description: Update your Visual Studio extension for .NET or C++ to work with the latest Insiders version of Visual Studio, including running code in extensions and shared projects for multi-targeting.
 ms.date: 9/08/2025
-ms.topic: conceptual
+ms.topic: how-to
 author: kalaskarsanket
 ms.author: skalaskar
 manager: mijacobs

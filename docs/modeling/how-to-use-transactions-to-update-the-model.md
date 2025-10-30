@@ -2,7 +2,7 @@
 title: 'Use Transactions to Update the Model'
 description: Learn that transactions make sure that changes that were made to the store are treated as a group and how to use transactions to update the model.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 author: mgoertz-msft
 ms.author: mgoertz
 manager: mijacobs

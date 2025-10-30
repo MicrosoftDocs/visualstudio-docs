@@ -2,7 +2,7 @@
 title: COM Server and Container Debugging
 description: Learn about COM server and container debugging. Debug a COM server and container in the same solution, a server app without container information, or an SDI app.
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "CSharp"
   - "VB"

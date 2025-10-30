@@ -2,7 +2,7 @@
 title: Evaluating Locals
 description: Learn how Visual Studio accesses the location in memory that contains a local value, which is dependent on the current state of the program.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - debugging [Debugging SDK], evaluating locals
 - expression evaluation, evaluating locals

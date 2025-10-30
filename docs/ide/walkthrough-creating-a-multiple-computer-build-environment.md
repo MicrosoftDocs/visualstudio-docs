@@ -3,7 +3,7 @@ title: Create a multiple-computer build environment
 description: Create a build environment in your organization by installing Visual Studio on a host computer and then copying various files and settings to another computer.
 ms.date: 11/04/2016
 ms.subservice: compile-build
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
   - "MSBuild, building on multiple computers"
   - "build environment, MSBuild"

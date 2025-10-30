@@ -2,7 +2,7 @@
 title: "Concurrency Visualizer SDK"
 description: Learn how to use Concurrency Visualizer SDK to instrument your code to display markers. Markers are icons that display in Concurrency Visualizer to mark events.
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: article
 f1_keywords:
   - "vs.cv.sdk.about"
 author: "mikejo5000"

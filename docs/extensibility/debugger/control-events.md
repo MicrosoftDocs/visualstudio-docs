@@ -2,7 +2,7 @@
 title: Control Events
 description: Learn about sending events during the controlled execution of your program by using the IDebugEvent2 interface.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - debugging [Debugging SDK], events
 author: tinaschrepfer

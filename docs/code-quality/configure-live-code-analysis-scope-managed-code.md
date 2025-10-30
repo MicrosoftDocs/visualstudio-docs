@@ -5,7 +5,7 @@ author: mikadumont
 ms.author: midumont
 manager: mijacobs
 ms.subservice: code-analysis
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
   - "live code analysis"
   - "background analysis"

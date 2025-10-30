@@ -2,7 +2,7 @@
 title: Key Expression Evaluator Interfaces
 description: Learn about the interfaces you should be familiar with when you write an expression evaluator, along with the evaluation context.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - debugging [Debugging SDK], expression evaluation
 - expression evaluation, interfaces

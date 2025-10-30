@@ -2,7 +2,7 @@
 title: "Grant trust to documents"
 description: Learn how a document-level project has the same security requirements as application-level projects, like signing the manifests with a certificate or clicking the trust prompt.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"

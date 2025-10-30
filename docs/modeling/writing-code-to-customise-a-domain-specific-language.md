@@ -2,7 +2,7 @@
 title: Customize a domain-specific language
 description: Learn how to use custom code to access, modify, or create a model in a domain-specific language (DSL).
 ms.date: 06/22/2022
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
   - "Domain-Specific Language, programming"
 author: mgoertz-msft

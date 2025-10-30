@@ -2,7 +2,7 @@
 title: "Office primary interop assemblies"
 description: Use the primary interop assembly (PIA) to gain access the features of a Microsoft Office application from an Office project.
 ms.date: "12/23/2021"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"

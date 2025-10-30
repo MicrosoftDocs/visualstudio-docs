@@ -3,7 +3,7 @@ title: "Walkthrough: Bind data to controls on an Excel actions pane"
 description: Bind data to controls on an actions pane in Microsoft Excel. The controls demonstrate a master/detail relation between tables in a SQL Server database.
 titleSuffix: ""
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"

@@ -3,7 +3,7 @@ title: Overview for Visual Basic developers
 description: Explore how to work with Visual Studio to edit, debug, and build code, and then publish an app as a Visual Basic developer.
 ms.date: 11/17/2023
 ms.subservice: general-ide
-ms.topic: conceptual
+ms.topic: how-to
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs

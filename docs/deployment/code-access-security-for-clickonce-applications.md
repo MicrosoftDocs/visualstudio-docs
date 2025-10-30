@@ -2,7 +2,7 @@
 title: "Code Access Security for ClickOnce Applications"
 description: Explore code access security for ClickOnce applications and how to configure the code access security permissions in Visual Studio.
 ms.date: "04/25/2025"
-ms.topic: "conceptual"
+ms.topic: article
 f1_keywords:
   - "vb.XBAPProjectPropertiesSecurity.HowTo"
   - "vb.XBAProjectPropertiesSecurity.HowTo"

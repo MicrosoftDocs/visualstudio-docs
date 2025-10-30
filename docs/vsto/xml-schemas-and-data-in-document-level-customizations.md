@@ -2,7 +2,7 @@
 title: "XML schemas and data in document-level customizations"
 description: Microsoft Excel and Word provide the capability to map schemas to your documents and can simplify importing and exporting XML data in and out of the document.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"

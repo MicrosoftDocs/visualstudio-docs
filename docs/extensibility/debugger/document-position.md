@@ -2,7 +2,7 @@
 title: Document Position
 description: Learn how a document position in Visual Studio debugging provides an abstraction of a position in a source file as known to the IDE.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - debugging [Debugging SDK], contexts
 author: tinaschrepfer

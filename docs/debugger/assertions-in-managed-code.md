@@ -2,7 +2,7 @@
 title: Assertions in Managed Code
 description: Explore how to work with assertions as a debugging tool for C#, Visual Basic, or F# managed code applications in Visual Studio.
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "CSharp"
   - "VB"

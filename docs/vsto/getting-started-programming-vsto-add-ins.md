@@ -2,7 +2,7 @@
 title: "Get started programming VSTO Add-ins"
 description: Use VSTO add-ins to automate Microsoft Office applications, extend features of the application, and customize the application's user interface.
 ms.date: "04/28/2021"
-ms.topic: "conceptual"
+ms.topic: get-started
 f1_keywords:
   - "VST.ProjectItem.Outlook"
 dev_langs:

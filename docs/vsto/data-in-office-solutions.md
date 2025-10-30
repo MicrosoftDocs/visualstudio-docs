@@ -2,7 +2,7 @@
 title: "Data in Office solutions"
 description: Learn the various ways to work with data when you create Microsoft Office solutions by using Visual Studio.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"

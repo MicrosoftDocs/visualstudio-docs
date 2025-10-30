@@ -2,7 +2,7 @@
 title: Getting Started with Source Control VSPackages
 description: Learn about source-control VSPackages in Visual Studio and how they are a more advanced alternative to source control plug-ins.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: get-started
 helpviewer_keywords:
 - source control packages, getting started
 - getting started, source control packages

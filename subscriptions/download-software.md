@@ -4,7 +4,7 @@ author: joseb-rdc
 ms.author: amast
 manager: shve
 ms.date: 07/25/2025
-ms.topic: conceptual
+ms.topic: concept-article
 description: Find and download Microsoft software titles in Visual Studio subscriptions and locate the software you need to get the most out of your subscription. 
 ---
 

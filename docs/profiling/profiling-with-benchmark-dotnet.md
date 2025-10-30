@@ -2,7 +2,7 @@
 title: "Analyze BenchmarkDotNet data in Visual Studio"
 description: Learn how to profile console apps using BenchmarkDotNet.
 ms.date: 09/15/2025
-ms.topic: conceptual
+ms.topic: how-to
 dev_langs:
   - "CSharp"
 helpviewer_keywords:

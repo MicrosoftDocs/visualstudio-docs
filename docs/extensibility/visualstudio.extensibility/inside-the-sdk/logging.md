@@ -1,7 +1,7 @@
 ---
 title: Logging extension diagnostics
 description: Learn how to use logging to store information about the execution of an extension at runtime in VisualStudio.Extensibility
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 3/31/2023
 ms.author: tinali
 monikerRange: ">=vs-2022"

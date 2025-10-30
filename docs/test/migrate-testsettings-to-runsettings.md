@@ -2,7 +2,7 @@
 title: Migrate testsettings to runsettings
 description: Learn how to migrate testsettings to runsettings
 ms.date: 03/18/2021
-ms.topic: conceptual
+ms.topic: upgrade-and-migration-article
 f1_keywords:
 - vs.UnitTest.Migrate
 author: mikejo5000

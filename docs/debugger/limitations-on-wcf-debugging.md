@@ -2,7 +2,7 @@
 title: "Limitations on WCF Debugging"
 description: Learn the ways to begin debugging a WCF service, the required conditions, and the debugging limitations.
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "CSharp"
   - "VB"

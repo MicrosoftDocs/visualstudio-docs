@@ -4,7 +4,7 @@ description: Learn about how to publish Azure Cloud Services (extended support) 
 author: ghogen
 manager: mijacobs
 ms.subservice: azure-development
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/06/2024
 ms.author: ghogen
 ---

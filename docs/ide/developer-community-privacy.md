@@ -2,7 +2,7 @@
 title: Developer Community data privacy
 description: Learn how to manage your private data when you create problem reports for the Developer Community to review.
 ms.date: 11/07/2022
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - developer community privacy
 - privacy, developer community

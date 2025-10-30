@@ -2,7 +2,7 @@
 title: Create UIs with Visual Studio XAML Designer
 description: Explore XAML Designer workspace UI and features in Blend for Visual Studio that provides a visual interface to help you design XAML-based apps.
 ms.date: 08/30/2024
-ms.topic: conceptual
+ms.topic: article
 f1_keywords:
 - VS.XamlDesigner
 - VS.DevicePanel

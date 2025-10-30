@@ -4,7 +4,7 @@ author: joseb-rdc
 ms.author: amast
 manager: shve
 ms.date: 08/25/2025
-ms.topic: conceptual
+ms.topic: article
 description: Check if your Visual Studio subscription level makes you eligible for Azure DevOps benefits in each organization in which you're a member.
 ---
 # Azure DevOps for Visual Studio subscribers

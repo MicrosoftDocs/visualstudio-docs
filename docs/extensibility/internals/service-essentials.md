@@ -2,7 +2,7 @@
 title: Service Essentials
 description: Learn about services, which are interfaces for another VSPackage to consume. Services in a VSPackage can override built-in or other services.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - services, essentials
 author: tinaschrepfer

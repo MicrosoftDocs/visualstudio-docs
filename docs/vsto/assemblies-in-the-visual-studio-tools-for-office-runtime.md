@@ -3,7 +3,7 @@ title: Review assemblies in the Visual Studio Tools for Office runtime
 description: Explore assemblies in the Visual Studio Tools for Office runtime and how Visual Studio automatically adds references the assemblies.
 titleSuffix: ""
 ms.date: 02/02/2017
-ms.topic: conceptual
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"

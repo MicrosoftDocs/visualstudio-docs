@@ -2,7 +2,7 @@
 title: "Search within Specific Files with 'Find in Files'"
 description: Explore the Find in Files feature in Visual Studio and discover how to use the feature to search a specific set of files.
 ms.date: 9/12/2025
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
 - vs.findinfiles
 - vs.findreplace.findinfiles
