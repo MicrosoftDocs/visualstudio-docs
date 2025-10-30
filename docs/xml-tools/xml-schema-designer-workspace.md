@@ -2,7 +2,7 @@
 title: XML Schema Designer Workspace
 description: Learn about the Start, Graph, and Content model views in the XML Schema Designer (XSD Designer) workspace in Visual Studio.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 author: dzsquared
 ms.author: drskwier
 manager: mijacobs

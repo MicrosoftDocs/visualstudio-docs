@@ -4,7 +4,7 @@ author: joseb-rdc
 ms.author: amast
 manager: shve
 ms.date: 07/24/2025
-ms.topic: conceptual
+ms.topic: troubleshooting-general
 description: Review potential sign-in troubleshooting steps for Visual Studio subscriptions, including Microsoft Accounts (MSA) limitations, failures due to aliases or deleted addresses.
 ms.custom: sfi-image-nochange
 ---

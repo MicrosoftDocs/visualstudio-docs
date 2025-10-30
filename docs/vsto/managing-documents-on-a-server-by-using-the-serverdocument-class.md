@@ -3,7 +3,7 @@ title: "Manage documents on a server by using the ServerDocument class"
 description: Learn how you can use the ServerDocument class in the Visual Studio Tools for Office runtime to manage several aspects of document-level customizations.
 titleSuffix: ""
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"

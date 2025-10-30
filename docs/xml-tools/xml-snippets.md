@@ -2,7 +2,7 @@
 title: XML snippets
 description: Learn about the XML snippets feature in the XML editor that allows you to build XML files more quickly by reusing XML snippets and inserting them into your files.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 author: dzsquared
 ms.author: drskwier
 manager: mijacobs

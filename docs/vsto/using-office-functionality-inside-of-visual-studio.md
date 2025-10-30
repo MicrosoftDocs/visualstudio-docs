@@ -2,7 +2,7 @@
 title: "Use Office functionality inside of Visual Studio"
 description: Learn how the document and the associated application from a document-level project are hosted inside Visual Studio so you can work directly with the document.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"

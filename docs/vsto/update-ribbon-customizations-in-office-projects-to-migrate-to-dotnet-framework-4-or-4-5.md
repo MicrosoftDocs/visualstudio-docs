@@ -3,7 +3,7 @@ title: "Update Ribbon customizations migrated to .NET Framework 4.5"
 description: Learn that you must make changes to your project code if the target framework is changed to the .NET Framework 4 or later.
 titleSuffix: ""
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: upgrade-and-migration-article
 dev_langs:
   - "VB"
   - "CSharp"

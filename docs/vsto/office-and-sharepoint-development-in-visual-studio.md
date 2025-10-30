@@ -2,7 +2,7 @@
 title: Extend Office and SharePoint with an app or add-in 
 description: Extend Microsoft Office and SharePoint by creating a lightweight app or add-in that users download from the Office Store.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"

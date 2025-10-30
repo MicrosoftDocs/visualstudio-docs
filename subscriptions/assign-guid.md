@@ -4,7 +4,7 @@ author: joseb-rdc
 ms.author: amast
 manager: shve
 ms.date: 01/28/2025
-ms.topic: conceptual
+ms.topic: how-to
 description:  Learn how admins can  assign specific subscription GUID to subscribers.
 ms.custom: sfi-image-nochange
 ---

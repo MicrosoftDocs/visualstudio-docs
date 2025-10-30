@@ -4,7 +4,7 @@ author: joseb-rdc
 ms.author: amast
 manager: shve
 ms.date: 09/13/2024
-ms.topic: conceptual
+ms.topic: how-to
 description: Learn how to set preferences for language, contacts, subscription level, and others in the admin portal.
 ms.custom: sfi-image-nochange
 ---

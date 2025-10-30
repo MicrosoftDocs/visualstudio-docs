@@ -2,7 +2,7 @@
 title: "Work with ranges"
 description: Learn that the NamedRange and Range classes contain the methods and properties you use to perform tasks with ranges.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"
