@@ -2,7 +2,7 @@
 title: Domain Property Value Change Handlers
 description: Learn about domain property value change handlers that can be used in a Visual Studio domain-specific language.
 ms.date: 03/22/2018
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - Domain-Specific Language, overriding event handlers
 author: mgoertz-msft

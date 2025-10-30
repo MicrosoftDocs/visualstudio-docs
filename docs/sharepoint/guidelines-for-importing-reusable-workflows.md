@@ -2,7 +2,7 @@
 title: "Guidelines for Importing Reusable Workflows"
 description: Review guidelines for importing reusable workflows that were created in SharePoint Designer into Visual Studio.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"

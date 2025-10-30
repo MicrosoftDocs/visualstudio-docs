@@ -2,7 +2,7 @@
 title: "Bind data to controls in Office solutions"
 description: Learn how you can bind Windows Forms controls and host controls on a Microsoft Office Word document or Excel worksheet to a data source.
 ms.date: 02/02/2017
-ms.topic: conceptual
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"

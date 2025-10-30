@@ -2,7 +2,7 @@
 title: "Common patterns for poorly-behaved multithreaded apps"
 description: The Concurrency Visualizer provides graphs for multi-threaded applications, and a gallery of common patterns of poorly behaved ones. 
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: article
 f1_keywords:
   - "vs.cv.threads.tools.gallery"
 helpviewer_keywords:

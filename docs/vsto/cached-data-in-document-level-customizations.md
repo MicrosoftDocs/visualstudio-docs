@@ -2,7 +2,7 @@
 title: "Cached data in document-level customizations"
 description: Learn how Visual Studio separates the data from the view in document-level customizations by enabling data to be embedded as a data cache.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"

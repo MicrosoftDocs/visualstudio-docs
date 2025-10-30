@@ -2,7 +2,7 @@
 title: Create coded UI tests with manual tests
 description: Learn how to create a Coded UI test in Visual Studio by performing the test manually while Coded UI Test Builder runs in the background.
 ms.date: 12/10/2024
-ms.topic: conceptual
+ms.topic: article
 f1_keywords:
 - vs.codedUITest
 - vs.codedUITest.recorder

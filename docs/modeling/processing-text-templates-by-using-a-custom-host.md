@@ -2,7 +2,7 @@
 title: Processing Text Templates by using a Custom Host
 description: Learn that the text template transformation process takes a text template file as the input and produces a text file as the output.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - text templates, in application or VS extension
 - text templates, custom directive hosts

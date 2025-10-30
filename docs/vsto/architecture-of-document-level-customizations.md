@@ -2,7 +2,7 @@
 title: "Architecture of document-Level customizations"
 description: Learn about aspects of document-level customizations, including customization components and how customizations work with Microsoft Office applications.
 ms.date: 02/02/2017
-ms.topic: conceptual
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"
