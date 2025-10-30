@@ -4,7 +4,7 @@ description: Browse and manage your Azure Storage resources, including blob, que
 author: ghogen
 manager: mijacobs
 ms.subservice: azure-development
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/06/2024
 ms.author: ghogen
 monikerRange: "<=vs-2019"

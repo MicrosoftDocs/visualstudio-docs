@@ -4,7 +4,7 @@ description: Connect Azure Cosmos DB support to your application by using Connec
 author: ghogen
 manager: mijacobs
 ms.subservice: azure-development
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/20/2025
 ms.author: ghogen
 monikerRange: ">= vs-2019"

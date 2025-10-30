@@ -2,7 +2,7 @@
 title: Context operator in the debugger (C++)
 description: You might need to provide context for a C++ name that is in an outer scope and is hidden by a local name. Learn how to use the context operator to do this.
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: article
 f1_keywords:
   - "vs.debug.operators"
 dev_langs:

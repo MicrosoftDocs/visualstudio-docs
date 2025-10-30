@@ -2,7 +2,7 @@
 title: Use C++ assertion statements for debugging
 description: Read about how C/C++ assertions work in Visual Studio debugging. An assertion specifies a condition that you expect to be true at a point in your program.
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "CSharp"
   - "VB"

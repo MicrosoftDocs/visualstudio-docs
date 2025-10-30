@@ -2,7 +2,7 @@
 title: "ClickOnce Cache Overview"
 description: Learn about the ClickOnce application cache, which includes hidden directories on a client computer where ClickOnce applications are stored. 
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: concept-article
 dev_langs:
   - "VB"
   - "CSharp"

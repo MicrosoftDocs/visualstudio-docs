@@ -2,7 +2,7 @@
 title: "IntelliTrace Features"
 description: Learn about IntelliTrace features in Visual Studio. Use IntelliTrace to record events and method calls in your application.
 ms.date: "09/19/2018"
-ms.topic: "conceptual"
+ms.topic: article
 helpviewer_keywords:
   - "IntelliTrace, debugging with events"
   - "IntelliTrace, recording execution history"
