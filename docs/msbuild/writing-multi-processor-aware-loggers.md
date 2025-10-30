@@ -2,7 +2,7 @@
 title: "Writing Multi-Processor-Aware Loggers"
 description: Learn how MSBuild provides a multi-processor-aware logger and logging model, and lets you create custom "forwarding loggers."
 ms.date: 04/03/2024
-ms.topic: "conceptual"
+ms.topic: how-to
 helpviewer_keywords:
   - "msbuild, multi-proc aware loggers"
   - "multi-proc loggers"

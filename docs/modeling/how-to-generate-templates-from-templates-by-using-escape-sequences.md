@@ -2,7 +2,7 @@
 title: Generate a text template from a text template
 description: Provides information about how to generate a text template from another text template using escape sequences.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - text templates, generating templates from templates
 author: mgoertz-msft

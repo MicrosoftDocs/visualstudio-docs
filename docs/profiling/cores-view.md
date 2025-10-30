@@ -2,7 +2,7 @@
 title: "Cores View"
 description: Learn about the information provided by Cores View. It can help you use thread affinity or thread pool management to optimize cache performance.
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: article
 f1_keywords:
   - "vs.performance.view.cores"
   - "vs.cv.cores.legend"

@@ -2,7 +2,7 @@
 title: T4 Text Template Directives
 description: Learn about T4 test template directives and how they provide instructions to the text template transformation engine.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - text templates, import directive
 - text templates, include directive

@@ -2,7 +2,7 @@
 title: Extend dependency diagrams
 description: Learn how you can write code to create and update dependency diagrams, and how to validate the structure of your program code against dependency diagrams in Visual Studio.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - dependency diagrams, creating extensions
 - layer models

@@ -2,7 +2,7 @@
 title: Choosing a Domain-Specific Language Solution Template
 description: Learn how to create a domain-specific language solution by choosing one of the solution templates that are available in the Domain-Specific Language Designer Wizard.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - Domain-Specific Language Tools, solution templates
 author: mgoertz-msft

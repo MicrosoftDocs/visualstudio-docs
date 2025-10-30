@@ -2,7 +2,7 @@
 title: "Measure performance from the command line"
 description: Measure your application performance from the command line, and gather performance data for CPU usage, .NET memory allocation, instrumentation, and database queries.
 ms.date: 02/06/2025
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords: 
   - "Profiling Tools, command-line"
   - "Diagnostics Tools, command-line"

@@ -3,7 +3,7 @@ title: "Development best practices: COM, VSTO, & VBA add-ins in Office"
 description: Learn about the recommended best practices when developing COM, VSTO, and VBA add-ins for Microsoft Office.
 titleSuffix: ""
 ms.date: "07/25/2017"
-ms.topic: "conceptual"
+ms.topic: best-practice
 dev_langs:
   - ""
 helpviewer_keywords:
