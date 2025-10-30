@@ -3,7 +3,7 @@ title: "Visual Studio Installer Projects and .NET"
 description: Explore how to use the Visual Studio Installer Projects Extension to package .NET Core 3.1 or .NET 5 and later version applications for Microsoft Installer (MSI).
 titleSuffix: ""
 ms.date: "11/13/2024"
-ms.topic: "conceptual"
+ms.topic: article
 helpviewer_keywords:
   - "installer projects"
   - "installer projects, .NET Core"

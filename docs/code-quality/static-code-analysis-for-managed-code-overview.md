@@ -2,7 +2,7 @@
 title: Legacy analysis for managed code
 ms.date: 06/12/2019
 description: Learn about legacy analysis in Visual Studio. See how to suppress warnings and how to run analyses manually, automatically, and during check-ins and builds.
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
   - "code analysis, managed code"
   - "managed code, code analysis"

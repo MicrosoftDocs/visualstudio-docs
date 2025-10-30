@@ -2,7 +2,7 @@
 title: "Write a visualizer in Visual Basic"
 description: Follow a walkthrough to create a simple visualizer in Visual Basic. You also create a test harness to test your visualizer.
 ms.date: "06/26/2025"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "CSharp"
   - "VB"

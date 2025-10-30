@@ -2,7 +2,7 @@
 title: "ASP.NET Debugging: System Requirements"
 description: Review the software and security requirements for ASP.NET local debugging, in which Visual Studio and the web app run on the same computer, and remote debugging.
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "CSharp"
   - "VB"

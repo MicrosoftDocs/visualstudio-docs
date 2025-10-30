@@ -2,7 +2,7 @@
 title: Create custom views of .NET objects
 description: Visual Studio debugger displays data in its variable windows. Learn to customize how data types—including custom types—are displayed.
 ms.date: "08/08/2023"
-ms.topic: "conceptual"
+ms.topic: article
 f1_keywords:
   - "vs.debug.data.elements"
 dev_langs:

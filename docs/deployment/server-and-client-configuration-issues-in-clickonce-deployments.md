@@ -2,7 +2,7 @@
 title: "Server/client configuration issues (ClickOnce)"
 description: Review possible issues with the server and client configuration that can affect the deployment of your ClickOnce application.
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"

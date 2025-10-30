@@ -2,7 +2,7 @@
 title: "Edit and Continue (Visual C#)"
 description: Edit and Continue is available for Visual C# projects. Learn what edits are supported, and how to can control whether, and when, your edits are applied.
 ms.date: "02/22/2022"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "CSharp"
   - "VB"

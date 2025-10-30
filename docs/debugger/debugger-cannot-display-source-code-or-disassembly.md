@@ -2,7 +2,7 @@
 title: "Debugger can't display source code or disassembly"
 description: See the reasons for the message "Debugger cannot display source code or disassembly for the current location where execution has stopped". 
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "CSharp"
   - "VB"

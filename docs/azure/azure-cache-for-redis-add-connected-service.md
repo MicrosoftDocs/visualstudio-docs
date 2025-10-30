@@ -4,7 +4,7 @@ description: Learn how to add Azure Cache for Redis support to your app with the
 author: ghogen
 manager: mijacobs
 ms.subservice: azure-development
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/15/2023
 ms.author: ghogen
 monikerRange: ">= vs-2019"

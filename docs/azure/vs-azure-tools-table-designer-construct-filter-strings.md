@@ -4,7 +4,7 @@ description: Construct filter strings for Azure tables displayed in the Visual S
 author: ghogen
 manager: mijacobs
 ms.subservice: azure-development
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 11/18/2016
 ms.author: ghogen
 monikerRange: <=vs-2019

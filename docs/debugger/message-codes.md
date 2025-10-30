@@ -2,7 +2,7 @@
 title: "Message Codes"
 description: Learn the meanings of the message codes shown on each message line of Messages View.
 ms.date: 02/05/2024
-ms.topic: "conceptual"
+ms.topic: article
 helpviewer_keywords:
   - "message codes"
 author: "mikejo5000"

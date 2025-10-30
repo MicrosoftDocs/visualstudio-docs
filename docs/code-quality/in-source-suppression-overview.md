@@ -5,7 +5,7 @@ author: mikadumont
 ms.author: midumont
 manager: mijacobs
 ms.subservice: code-analysis
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - source suppression, code analysis
 - code analysis, source suppression

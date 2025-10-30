@@ -2,7 +2,7 @@
 title: "Debugging Mixed-Mode Applications"
 description: Debug a mixed-mode application, which is an app that combines native code with managed code that runs on the common language runtime, in Visual Studio.
 ms.date: "04/15/2022"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "CSharp"
   - "VB"

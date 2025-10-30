@@ -2,7 +2,7 @@
 title: About File Name Extensions
 description: Learn how to register file name extensions for VSPackages and associate them with a specific version of Visual Studio.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - file extensions
 - file name extensions

@@ -2,7 +2,7 @@
 title: Introducing the Spy++ debugging tool
 description: Read about the Spy++ debugging tool. Display a graphical tree of system object relationships. Get properties for selected windows, threads, processes, or messages.
 ms.date: 02/28/2025
-ms.topic: "conceptual"
+ms.topic: concept-article
 helpviewer_keywords:
   - "Spy++"
 author: "mikejo5000"

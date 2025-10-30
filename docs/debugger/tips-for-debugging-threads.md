@@ -2,7 +2,7 @@
 title: "Tips for debugging threads"
 description: Read a list of tips for debugging threads in native code if you're debugging multithreaded apps in Visual Studio.
 ms.date: "05/06/2024"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "CSharp"
   - "VB"

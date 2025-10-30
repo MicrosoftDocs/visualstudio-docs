@@ -2,7 +2,7 @@
 title: "Use dump files in the debugger"
 description: A dump file is a snapshot of an executing app and loaded modules. Consider creating a dump file for situations where you don't have debug access to the app.
 ms.date: "06/09/2025"
-ms.topic: "conceptual"
+ms.topic: how-to
 f1_keywords:
   - "vs.debug.crashdump"
 dev_langs:

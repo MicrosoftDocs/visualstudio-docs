@@ -2,7 +2,7 @@
 title: "Securing ClickOnce Applications"
 description: Learn about the implications of code access security constraints in the .NET Framework that can limit access to code for your ClickOnce applications.
 ms.date: "02/17/2017"
-ms.topic: "conceptual"
+ms.topic: concept-article
 dev_langs:
   - "VB"
   - "CSharp"
