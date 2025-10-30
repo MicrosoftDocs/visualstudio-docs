@@ -5,7 +5,7 @@ ms.custom: vs-acquisition
 titleSuffix: ''
 ms.date: 8/30/2025
 ms.update-cycle: 180-days
-ms.topic: conceptual
+ms.topic: how-to
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs

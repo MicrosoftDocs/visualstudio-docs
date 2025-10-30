@@ -2,7 +2,7 @@
 title: Using and Providing Services
 description: Learn about the services that the Visual Studio IDE offers for VSPackages to provide and use. These articles describe how to get and provide services.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - examples [Visual Studio SDK], services
 - Visual Studio, services

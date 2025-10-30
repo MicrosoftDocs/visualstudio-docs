@@ -2,7 +2,7 @@
 title: Theming
 description: Learn how to use WPF controls to theme windows and other XAML controls to match Visual Studio's color themes.
 ms.date: 12/01/2021
-ms.topic: conceptual
+ms.topic: concept-article
 author: madskristensen
 ms.author: madsk
 manager: pchapman

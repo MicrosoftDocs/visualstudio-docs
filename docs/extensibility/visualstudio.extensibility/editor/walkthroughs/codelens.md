@@ -2,7 +2,7 @@
 title: Customize CodeLens in the Editor
 description: This walkthrough shows you how to provide your own CodeLens in the Visual Studio editor by using extensions.
 ms.date: 1/13/2025
-ms.topic: conceptual
+ms.topic: article
 ms.author: tinali
 monikerRange: ">=vs-2022"
 author: tinaschrepfer

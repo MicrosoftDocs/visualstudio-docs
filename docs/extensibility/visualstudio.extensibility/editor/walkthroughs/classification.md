@@ -2,7 +2,7 @@
 title: Customizing classification in the editor
 description: A walkthrough of how to provide your own classification in the Visual Studio editor using extensions
 ms.date: 4/23/2025
-ms.topic: conceptual
+ms.topic: concept-article
 ms.author: maprospe
 monikerRange: ">=vs-2022"
 author: tinaschrepfer

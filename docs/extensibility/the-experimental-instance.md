@@ -2,7 +2,7 @@
 title: Explore experimental space in Visual Studio SDK
 description: Explore how the Visual Studio SDK provides an experimental space to run untested applications in debug mode and safeguard your development environment.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - experimental builds
 - VSPackages, experimental builds

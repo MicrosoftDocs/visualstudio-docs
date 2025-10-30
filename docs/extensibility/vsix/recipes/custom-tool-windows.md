@@ -2,7 +2,7 @@
 title: Build custom tool windows
 description: A recipe for how to add custom tool windows to Visual Studio.
 ms.date: 12/01/2021
-ms.topic: conceptual
+ms.topic: how-to
 author: madskristensen
 ms.author: madsk
 manager: pchapman

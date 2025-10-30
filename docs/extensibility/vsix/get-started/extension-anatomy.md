@@ -2,7 +2,7 @@
 title: Anatomy of an extension
 description: Explains the structure of a Visual Studio extension
 ms.date: 12/01/2021
-ms.topic: conceptual
+ms.topic: article
 author: madskristensen
 ms.author: madsk
 manager: pchapman

@@ -2,7 +2,7 @@
 title: Source Control Plug-ins
 description: The articles in this section describe the complete interface specification that enables source control systems to be integrated with Visual Studio.
 ms.date: 10/23/2025
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - source control plug-ins, reference
 author: tinaschrepfer

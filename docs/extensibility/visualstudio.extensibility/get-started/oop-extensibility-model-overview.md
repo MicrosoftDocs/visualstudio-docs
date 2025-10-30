@@ -1,7 +1,7 @@
 ---
 title: OOP Extensibility Model reference
 description: A reference for OOP Extensibility Model
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 3/31/2023
 ms.author: tinali
 monikerRange: ">=vs-2022"

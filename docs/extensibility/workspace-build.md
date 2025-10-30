@@ -2,7 +2,7 @@
 title: "Workspace build in Visual Studio"
 description: Learn about the extender that supplies indexed and file context data for a workspace to support an Open Folder scenario.
 ms.date: "02/21/2018"
-ms.topic: "conceptual"
+ms.topic: article
 author: "vukelich"
 ms.author: "svukel"
 manager: "viveis"

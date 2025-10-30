@@ -5,7 +5,7 @@ author: mikadumont
 ms.author: midumont
 manager: mijacobs
 ms.subservice: general-ide
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - C#, IntelliSense
 - IntelliSense [C#]

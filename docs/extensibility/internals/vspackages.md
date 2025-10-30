@@ -2,7 +2,7 @@
 title: VSPackages
 description: Learn about VSPackages, which are software modules that extend the Visual Studio IDE by providing UI elements, services, projects, editors, and designers.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - VSPackages
 author: tinaschrepfer
