@@ -2,7 +2,7 @@
 title: Displaying Locals
 description: Learn about the list of local variables and arguments, collectively called the locals of the method, which are displayed when execution pauses.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - debugging [Debugging SDK], expression evaluation
 - expression evaluation, displaying locals

@@ -2,7 +2,7 @@
 title: Port Suppliers
 description: This article describes the definition and role of a port supplier in the debugger architecture in Visual Studio.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - port suppliers
 - debugging [Debugging SDK], port suppliers

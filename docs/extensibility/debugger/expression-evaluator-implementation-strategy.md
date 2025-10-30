@@ -2,7 +2,7 @@
 title: Expression Evaluator Implementation Strategy
 description: Learn about a strategy for creating an expression evaluator by first implementing code to display local variables in the Locals window.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - expression evaluation, implementation strategy
 - debug engines, implementation strategies

@@ -2,7 +2,7 @@
 title: Inside the Editor
 description: Learn about the subsystems and features of the editor. You can extend features of the Visual Studio editor.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - architecture
 author: tinaschrepfer

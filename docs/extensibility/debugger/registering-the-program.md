@@ -2,7 +2,7 @@
 title: Registering the Program
 description: Learn how a program to be debugged is registered with a port after the debug engine acquires a port.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - programs, registration
 - debugging [Debugging SDK], program registration

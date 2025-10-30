@@ -2,7 +2,7 @@
 title: Component Management
 description: Learn how to manage Windows Installer components when creating a VSPackage installer in Visual Studio.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - installation [Visual Studio SDK], components
 - installation [Visual Studio SDK], file management

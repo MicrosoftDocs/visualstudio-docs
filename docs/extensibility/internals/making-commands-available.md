@@ -2,7 +2,7 @@
 title: Making Commands Available
 description: Learn how to control the availability of commands that are added to the Visual Studio IDE in VSPackages, by using delayed loading, context, and visibility.
 ms.date: 03/22/2018
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - menus [Visual Studio SDK], commands
 - best practices, menu and toolbar commands

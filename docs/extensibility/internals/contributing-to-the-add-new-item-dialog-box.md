@@ -2,7 +2,7 @@
 title: Contributing to the Add New Item Dialog Box
 description: Learn how to contribute to the Add New Item dialog box in Visual Studio by registering Add Item templates under the Projects registry subkey.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - Add New Item dialog box, contributing to
 author: tinaschrepfer

@@ -2,7 +2,7 @@
 title: Miscellaneous Files Project
 description: Learn about the two types of editors that can be used to open files in a Visual Studio project and the role of the project in determining which editor to use.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - files, adding existing files to solutions
 - Miscellaneous Files project

@@ -2,7 +2,7 @@
 title: 'Test Area 3: Check Out-Undo Checkout'
 description: This source-control plug-in test area covers editing and reverting items from the version store by using the Check Out and Undo Checkout commands.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - source control plug-ins, checkout
 - source control plug-ins, undo checkout

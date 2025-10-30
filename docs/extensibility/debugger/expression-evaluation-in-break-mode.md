@@ -2,7 +2,7 @@
 title: Expression Evaluation in Break Mode
 description: Learn about the process that occurs when the debugger is in break mode and must conduct expression evaluation.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - break mode, expression evaluation
 - debugging [Debugging SDK], expression evaluation

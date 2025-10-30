@@ -3,7 +3,7 @@ title: Brokered service essentials
 description: Learn about brokered services, which provide RPC-compatible interfaces to VS functionality.
 monikerRange: '>= vs-2019'
 ms.date: 01/06/2022
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - brokered services, essentials
 author: aarnott

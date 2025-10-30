@@ -2,7 +2,7 @@
 title: Code Context
 description: Learn about code context in Visual Studio debugging, which describes a position in code which exists when a program has stopped at a breakpoint.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - debugging [Debugging SDK], contexts
 author: tinaschrepfer

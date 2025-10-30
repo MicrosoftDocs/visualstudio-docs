@@ -2,7 +2,7 @@
 title: Support for User Settings
 description: Learn how to enable persistence of settings categories by using the settings APIs in the Visual Studio SDK.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - Custom Settings Points
 - user settings [Visual Studio SDK], registering persistence support

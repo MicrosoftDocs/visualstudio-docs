@@ -2,7 +2,7 @@
 title: Image Service and Catalog
 description: This article contains guidance and best practices for adopting the Visual Studio Image Service and Image Catalog.
 ms.date: 08/21/2024
-ms.topic: conceptual
+ms.topic: how-to
 author: tinaschrepfer
 ms.author: tinali
 manager: mijacobs

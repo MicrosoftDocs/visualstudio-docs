@@ -2,7 +2,7 @@
 title: Sending Events
 description: Learn how the debugger and the debug engine use an event model based on DCOM. Events are sent as COM objects.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - debugging [Debugging SDK], sending events
 author: tinaschrepfer

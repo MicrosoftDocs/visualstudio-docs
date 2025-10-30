@@ -2,7 +2,7 @@
 title: Symbol Provider
 description: Learn about the symbol providers that Visual Studio supplies to enable an expression evaluator to evaluate variables and expressions.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - symbol handler
 - debugging [Debugging SDK], symbol handler

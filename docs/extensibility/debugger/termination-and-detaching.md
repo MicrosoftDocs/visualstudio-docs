@@ -2,7 +2,7 @@
 title: Termination and Detaching
 description: Normal termination means that a program being debugged runs to completion with no breakpoints, exceptions, run-time errors, or infinite loops.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - programs, termination events
 - debug engines, detaching from programs
