@@ -3,7 +3,7 @@ title: Manage application resources
 description: Manage application resources files that aren't part of the compilation process in Visual Studio, such as icon files or audio files.
 ms.custom: engagement-fy23
 ms.date: 8/26/2024
-ms.topic: conceptual
+ms.topic: article
 f1_keywords:
 - msvse_resedit.dlg.SetCustomTool
 helpviewer_keywords:

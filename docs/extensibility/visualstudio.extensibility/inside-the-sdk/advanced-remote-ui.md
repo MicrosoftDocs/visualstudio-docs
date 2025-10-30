@@ -2,7 +2,7 @@
 title: Advanced Remote UI concepts
 description: A tutorial demonstrating more advanced Remote UI concepts
 ms.date: 3/31/2023
-ms.topic: conceptual
+ms.topic: tutorial
 ms.author: tinali
 monikerRange: ">=vs-2022"
 author: tinaschrepfer

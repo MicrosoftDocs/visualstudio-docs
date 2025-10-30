@@ -2,7 +2,7 @@
 title: Configure installation defaults with a response file
 description: Create a response JSON file to help automate your Visual Studio installation with default settings for workloads, components, and other installation options.
 ms.date: 10/28/2024
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - response file
 - automate

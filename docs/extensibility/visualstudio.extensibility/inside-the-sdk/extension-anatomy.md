@@ -1,7 +1,7 @@
 ---
 title: Components of a VisualStudio.Extensibility extension
 description: Learn the components of a Visual Studio extension created with the VisualStudio.Extensibility model, and how they interact with each other.
-ms.topic: conceptual
+ms.topic: article
 ms.date: 3/31/2023
 ms.author: tinali
 monikerRange: ">=vs-2022"

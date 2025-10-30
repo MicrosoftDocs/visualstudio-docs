@@ -1,7 +1,7 @@
 ---
 title: Rule-based activation constraints
 description: Learn about activation constraints, which extension authors can use to control the conditions under which extensions surface in the IDE.
-ms.topic: conceptual
+ms.topic: article
 ms.date: 6/30/2023
 ms.author: tinali
 monikerRange: ">=vs-2022"

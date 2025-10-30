@@ -2,7 +2,7 @@
 title: Deploy a layout onto a client machine
 description: Deploy a network layout of Visual Studio onto a client machine within an enterprise programmatically as part of an installation script.
 ms.date: 3/11/2024
-ms.topic: conceptual
+ms.topic: install-set-up-deploy
 helpviewer_keywords:
 - 'deploy layout'
 - 'install layout'

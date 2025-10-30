@@ -2,7 +2,7 @@
 title: Security
 description: Learn about some security concepts and the security features that can help you effectively develop secure applications.
 ms.date: 10/26/2018
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - security [Visual Studio], applications
 - application design, securability

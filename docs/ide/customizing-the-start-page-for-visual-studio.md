@@ -2,7 +2,7 @@
 title: Change the startup experience
 description: Customize your startup experience so Visual Studio opens with the tools that are most useful to you, such as opening the most recently opened solution. 
 ms.date: 10/25/2024
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
 - vs.ToolsOptionsPages.Startup
 helpviewer_keywords:

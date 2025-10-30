@@ -3,7 +3,7 @@ title: 'Sign application and deployment manifests'
 description: Explore the signing requirements to publish ClickOnce application and deployment manifests, and optional signing for .exe-based applications.
 ms.date: 10/10/2025
 ms.subservice: deployment
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
 - vb.ProjectPropertiesSigning
 - vb.ProjectPropertiesSigning.PfxPasswordDialog

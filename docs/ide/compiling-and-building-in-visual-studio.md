@@ -3,7 +3,7 @@ title: Use different build methods to build apps
 description: Use the Visual Studio IDE build method, the MSBuild command-line tools build method, or Azure Pipelines build method to build an application.
 ms.date: 2/3/2025
 ms.subservice: compile-build
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - builds [Visual Studio], about building in Visual Studio
 - custom build steps, types of builds

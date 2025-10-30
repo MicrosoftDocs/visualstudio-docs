@@ -3,7 +3,7 @@ title: Visual Studio support for FIPS
 titleSuffix: ''
 description: Learn about how Visual Studio supports the Federal Information Processing Standard Publication 140-2 approved mode of operation for Windows, Azure, and .NET.
 ms.date: 10/01/2021
-ms.topic: conceptual
+ms.topic: article
 author: ghogen
 ms.author: ghogen
 manager: mijacobs
