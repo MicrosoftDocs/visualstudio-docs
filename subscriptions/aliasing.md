@@ -4,7 +4,7 @@ author: joseb-rdc
 ms.author: amast
 manager: shve
 ms.date: 09/16/2024
-ms.topic: conceptual
+ms.topic: how-to
 description: Sign-in might fail if aliases or friendly names are used.
 ---
 

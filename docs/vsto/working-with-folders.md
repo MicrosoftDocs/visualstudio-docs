@@ -2,7 +2,7 @@
 title: "Work with folders"
 description: Learn that the MAPIFolder class contains the methods and properties you use to access, create, and customize folders.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"

@@ -2,7 +2,7 @@
 title: XML Document Validation in XML editor
 description: Understand how XML document validation works in the XML editor and how it checks XML 1.0 syntax and performs data validation as you enter input.
 ms.date: 09/16/2021
-ms.topic: conceptual
+ms.topic: article
 author: dzsquared
 ms.author: drskwier
 manager: mijacobs

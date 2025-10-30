@@ -2,7 +2,7 @@
 title: "Registry entries for VSTO Add-ins"
 description: Develop a set of registry entries when you deploy VSTO add-ins created with Visual Studio, such as the LoadBehavior entry that specifies add-in run-time behavior.
 ms.date: "01/27/2022"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"

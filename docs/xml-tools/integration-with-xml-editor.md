@@ -2,7 +2,7 @@
 title: XML Schema Designer integration with XML editor
 description: Learn about the integration between the XML Schema Designer and the XML editor, and how changes made in one are reflected in the other.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 author: dzsquared
 ms.author: drskwier
 manager: mijacobs

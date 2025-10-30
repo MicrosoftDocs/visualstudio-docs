@@ -3,7 +3,7 @@ title: "Information rights management & managed code extensions"
 description: Learn about Information Rights Management (IRM), a feature that can help you prevent unauthorized people from viewing or altering sensitive information.
 titleSuffix: ""
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: concept-article
 dev_langs:
   - "VB"
   - "CSharp"

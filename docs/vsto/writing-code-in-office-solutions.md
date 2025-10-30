@@ -2,7 +2,7 @@
 title: "Write code in Office solutions"
 description: Learn how to write code in Microsoft Office solutions and learn about the way the Office object models are exposed to managed code.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: article
 f1_keywords:
   - "VST.Project.RefactoringCancelled"
 dev_langs:

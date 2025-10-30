@@ -2,7 +2,7 @@
 title: Create a document-level customization for Excel
 description: Create a document-level customization for Microsoft Office Excel with features that are available only when a specific Excel workbook is open.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"

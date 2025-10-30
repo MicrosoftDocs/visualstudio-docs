@@ -2,7 +2,7 @@
 title: Sorting, filtering, and grouping
 description: Learn about the options that are available through the Sorting, Filtering, and Grouping Options menu on the XML Schema Explorer toolbar.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 author: dzsquared
 ms.author: drskwier
 manager: mijacobs

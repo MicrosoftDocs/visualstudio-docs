@@ -4,7 +4,7 @@ author: joseb-rdc
 ms.author: amast
 manager: shve
 ms.date: 09/11/2024
-ms.topic: conceptual
+ms.topic: concept-article
 description: Access the Visual Studio subscriptions Admin Portal as an admin on a Volume License agreement and manage subscriptions and other admins as the super admin.
 ---
 
