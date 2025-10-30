@@ -2,7 +2,7 @@
 title: Target Visual Studio 2022 (ARM64) when creating or updating an extension in Visual Studio 2022
 description: Learn how to make your Visual Studio extension work with Visual Studio 2022 (ARM64) if you create or update the project with Visual Studio 2022.
 ms.date: 09/12/2022
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - VSIX ARM64, Visual Studio ARM64
 author: ankitvarmait

@@ -2,7 +2,7 @@
 title: Debugger visualizers overview
 description: An overview of VisualStudio.Extensibility debugger visualizers
 ms.date: 3/31/2023
-ms.topic: conceptual
+ms.topic: concept-article
 ms.author: ghogen
 monikerRange: ">=vs-2022"
 author: ghogen

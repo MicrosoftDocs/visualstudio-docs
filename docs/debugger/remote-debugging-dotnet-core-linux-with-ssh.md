@@ -2,7 +2,7 @@
 title: "Debug .NET Core on Linux"
 description: Debug .NET Core and .NET 5 and later applications on Linux with Secure Shell (SSH), attach to a process, build and deploy the app, and attach the debugger.
 ms.date: "07/09/2024"
-ms.topic: "conceptual"
+ms.topic: how-to
 helpviewer_keywords:
   - "remote debugging, linux"
 author: "mikejo5000"

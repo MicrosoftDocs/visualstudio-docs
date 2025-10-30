@@ -4,7 +4,7 @@ description: Add Azure SignalR to your app by using the Visual Studio to add a c
 author: ghogen
 manager: mijacobs
 ms.subservice: azure-development
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 05/15/2023
 ms.author: ghogen
 monikerRange: ">= vs-2019"

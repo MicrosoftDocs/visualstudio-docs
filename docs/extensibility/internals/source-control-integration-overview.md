@@ -2,7 +2,7 @@
 title: Source Control Integration Overview
 description: "Learn about the differences between the two ways to integrate source control into Visual Studio: a source control plug-in and a VSPackage."
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - source control [Visual Studio SDK], about source control
 author: tinaschrepfer

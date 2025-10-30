@@ -2,7 +2,7 @@
 title: "Custom document properties overview"
 description: Learn that when you build a document-level project, Visual Studio adds two custom properties to the document in the project.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: concept-article
 dev_langs:
   - "VB"
   - "CSharp"

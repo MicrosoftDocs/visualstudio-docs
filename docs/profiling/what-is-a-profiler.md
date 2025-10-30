@@ -2,7 +2,7 @@
 title: "What is a profiler?"
 description: Learn what a profiler is and what it can do for you. Find out how to use the Visual Studio profiler.
 ms.date: 4/18/2024
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: "profiling-seo"
 dev_langs:
   - "CSharp"

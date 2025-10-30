@@ -4,7 +4,7 @@ author: joseb-rdc
 ms.author: amast
 manager: shve
 ms.date: 02/28/2025
-ms.topic: conceptual
+ms.topic: article
 description: Explore available subscriptions, what rules apply, and how many subscriptions are offered in the Microsoft Cloud Partner Program.
 ---
 # Visual Studio subscriptions offered to partners in the Microsoft Cloud Partner Program

@@ -2,7 +2,7 @@
 title: Create models for your app
 description: Learn how modeling diagrams help you understand, clarify, and communicate ideas about your code and the user requirements that your software system must support.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 f1_keywords:
 - vs.teamarch.common.commentlink.properties
 - vs.teamarch.UMLModelExplorer.dependency

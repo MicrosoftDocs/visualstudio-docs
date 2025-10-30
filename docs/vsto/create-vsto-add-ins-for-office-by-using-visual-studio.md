@@ -3,7 +3,7 @@ title: Create VSTO Add-ins for Office by using Visual Studio
 description: Explore how to use the Microsoft Office developer tools in Visual Studio to create .NET Framework applications that extend Office.
 titleSuffix: ""
 ms.date: "04/28/2021"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"

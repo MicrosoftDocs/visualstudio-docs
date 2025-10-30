@@ -2,7 +2,7 @@
 title: Automate, extend, and customize Microsoft Word
 description: Use Visual Studio solutions to automate Microsoft Office Word, extend Word features, and customize the Word user interface (UI).
 ms.date: "08/14/2019"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"

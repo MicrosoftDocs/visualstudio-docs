@@ -2,7 +2,7 @@
 title: "Excel Object model overview"
 description: Interact with the objects provided by the Excel object model and develop projects and solutions that use Microsoft Office Excel.
 ms.date: "08/14/2019"
-ms.topic: "conceptual"
+ms.topic: concept-article
 dev_langs:
   - "VB"
   - "CSharp"

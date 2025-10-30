@@ -2,7 +2,7 @@
 title: Creating Project Types
 description: Learn how to extend Visual Studio by designing, creating, and registering a new project type that supports programming tasks.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - project types, new
 - projects [Visual Studio SDK], new project types

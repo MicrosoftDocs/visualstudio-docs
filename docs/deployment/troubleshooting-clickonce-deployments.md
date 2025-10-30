@@ -2,7 +2,7 @@
 title: Troubleshooting ClickOnce Deployments
 description: Review troubleshooting suggestions and considerations to help you diagnose and resolve the most common issues with ClickOnce deployments.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: troubleshooting-general
 dev_langs: 
   - VB
   - CSharp

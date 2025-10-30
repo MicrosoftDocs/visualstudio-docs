@@ -5,7 +5,7 @@ description: Understand and configure the custom container entry point set by Vi
 ms.author: ghogen
 ms.date: 9/10/2025
 ms.subservice: container-tools
-ms.topic: conceptual
+ms.topic: how-to
 ---
 
 # Set the container entry point

@@ -2,7 +2,7 @@
 title: Add editor support for other languages
 description: Learn about how the Visual Studio editor supports reading and navigating through different computer languages and how you can add support for other languages.
 ms.date: 5/02/2025
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - syntax colorization
 - IntelliSense

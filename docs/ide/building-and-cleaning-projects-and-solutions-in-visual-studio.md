@@ -3,7 +3,7 @@ title: Build and clean projects and solutions
 description: Build, rebuild, or clean some of your projects or project items, or all of your projects, in your Visual Studio project solution.
 ms.date: 9/3/2025
 ms.subservice: compile-build
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
 - VS.BuildProjectPicker
 - vs.batchbuild

@@ -2,7 +2,7 @@
 title: "Deploying Prerequisites for 64-bit Applications"
 description: Learn about the redistributables that you can use as prerequisites for ClickOnce deployment of applications on 64-bit platforms.
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: install-set-up-deploy
 dev_langs:
   - "FSharp"
   - "VB"

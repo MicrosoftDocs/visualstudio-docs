@@ -2,7 +2,7 @@
 title: Implementing Type Visualizers and Custom Viewers
 description: Learn about implementing type visualizers and custom viewers, which let a user view data in a way that is more meaningful than a dump of numbers.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - debugging [Debugging SDK], custom viewer
 - debugging [Debugging SDK], type visualizer

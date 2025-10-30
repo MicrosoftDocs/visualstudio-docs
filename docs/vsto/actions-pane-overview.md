@@ -2,7 +2,7 @@
 title: Attach an actions pane to documents or workbooks
 description: Attach an actions pane to specific Microsoft Office Word documents or Excel workbooks and access a customizable Document Actions task pane.
 ms.date: 02/02/2017
-ms.topic: conceptual
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"

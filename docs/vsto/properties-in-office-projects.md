@@ -2,7 +2,7 @@
 title: "Properties in Office projects"
 description: Learn about the properties that are available to Office projects in Visual Studio through the Properties window.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"

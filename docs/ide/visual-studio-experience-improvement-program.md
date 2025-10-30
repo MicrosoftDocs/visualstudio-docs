@@ -2,7 +2,7 @@
 title: Customer Experience Improvement Program
 description: Manage privacy settings in Visual Studio, and explore system-generated logs, types of collected data, and how to fix problems and improve product quality.
 ms.date: 10/28/2021
-ms.topic: conceptual
+ms.topic: article
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs

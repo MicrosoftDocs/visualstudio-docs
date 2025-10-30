@@ -3,7 +3,7 @@ title: Tools for detecting and managing Visual Studio instances
 titleSuffix: ''
 description: Explore tools to detect and manage Visual Studio installations on client machines, including vswhere, PowerShell scripts, C# and C++ samples, and more.
 ms.date: 10/13/2023
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - vswhere
 - vswhere.exe

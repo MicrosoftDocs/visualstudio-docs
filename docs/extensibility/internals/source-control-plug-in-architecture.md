@@ -2,7 +2,7 @@
 title: Source Control Plug-in Architecture
 description: Learn how to add source control support to the Visual Studio IDE by implementing and attaching a source control plug-in.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - source control plug-ins, architecture
 author: tinaschrepfer

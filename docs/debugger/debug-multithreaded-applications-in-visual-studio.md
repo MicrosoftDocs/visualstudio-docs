@@ -2,7 +2,7 @@
 title: "Debug multithreaded applications"
 description: Debug multithreaded applications in Visual Studio and review tools and other articles about debugging multithreaded apps.
 ms.date: "8/5/2025"
-ms.topic: "conceptual"
+ms.topic: article
 f1_keywords:
   - "vs.debug.gputthreads"
 dev_langs:

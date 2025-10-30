@@ -2,7 +2,7 @@
 title: Migrate from FxCop to source analysis (.NET)
 description: Analyze code for the first time or migrate your process from binary analysis (FxCop code analysis) to .NET analyzers for source analysis.
 ms.date: 04/30/2025
-ms.topic: conceptual
+ms.topic: upgrade-and-migration-article
 f1_keywords:
  - "vs.projectpropertypages.codeanalysis"
 helpviewer_keywords:

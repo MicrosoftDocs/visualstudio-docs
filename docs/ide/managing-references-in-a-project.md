@@ -2,7 +2,7 @@
 title: Manage references in a project
 description: Manage references to external components and connected services in your project so Visual Studio can locate the component or the service.
 ms.date: 8/5/2025
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
 - vs.ProjectPropertiesReferencePaths
 - cs.ProjectPropertiesReferencePaths

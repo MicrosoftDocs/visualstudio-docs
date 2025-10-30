@@ -2,7 +2,7 @@
 title: "Access local & remote data (ClickOnce apps)"
 description: Discover the variety of options supported by ClickOnce for reading and writing data, both locally and remotely, including a ClickOnce data directory.
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"

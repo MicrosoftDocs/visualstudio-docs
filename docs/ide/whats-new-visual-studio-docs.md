@@ -9,7 +9,7 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
-ms.topic: conceptual
+ms.topic: whats-new
 ---
 # What's new in Visual Studio docs
 

@@ -2,7 +2,7 @@
 title: "Architecture of VSTO Add-ins"
 description: Explore VSTO add-ins in Visual Studio and the architectural features that emphasize stability and security, and enable them to work closely with Microsoft Office.
 ms.date: 02/02/2017
-ms.topic: conceptual
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"

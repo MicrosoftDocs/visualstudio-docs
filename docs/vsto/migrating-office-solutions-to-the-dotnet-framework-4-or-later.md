@@ -3,7 +3,7 @@ title: "Migrate Office solutions to the .NET Framework 4 or later"
 description: Learn how you can migrate Office solutions to the .NET Framework 4 or later so your project will continue to work.
 titleSuffix: ""
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: upgrade-and-migration-article
 f1_keywords:
   - "VST.Project.TargetFrameworkWarning"
 dev_langs:

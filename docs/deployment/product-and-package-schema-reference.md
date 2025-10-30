@@ -2,7 +2,7 @@
 title: "Product and Package Schema Reference"
 description: Learn about the product file, an XML manifest that describes the external dependencies required by a ClickOnce application.
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: article
 f1_keywords:
   - "MSBuild.GenerateBootstrapper.CircularIncludes"
   - "MSBuild.ResolveManifestFiles.PublishFileNotFound"

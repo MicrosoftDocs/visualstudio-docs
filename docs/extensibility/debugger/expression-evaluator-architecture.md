@@ -2,7 +2,7 @@
 title: Expression Evaluator Architecture
 description: Learn about integrating a proprietary language into the Visual Studio debug package, including expression evaluator and symbol provider/binder interfaces.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - architecture, expression evaluators
 - expression evaluators, architecture

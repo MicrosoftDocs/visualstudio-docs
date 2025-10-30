@@ -4,7 +4,7 @@ author: joseb-rdc
 ms.author: amast
 manager: shve
 ms.date: 01/28/2025
-ms.topic: conceptual
+ms.topic: article
 description:  Learn how partners manage Visual Studio subscriptions for their customers.
 ---
 

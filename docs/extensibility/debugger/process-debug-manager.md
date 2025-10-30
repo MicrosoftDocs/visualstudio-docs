@@ -2,7 +2,7 @@
 title: Process Debug Manager
 description: Learn about the process debug manager, which is a component of Visual Studio that makes programs available to the session debug manager and the debug engines.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - machine debug manager
 - debugging [Debugging SDK], Machine Debug Manager

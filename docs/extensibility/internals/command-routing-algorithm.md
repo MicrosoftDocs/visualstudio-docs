@@ -2,7 +2,7 @@
 title: Command Routing Algorithm
 description: Learn about the order of command resolution in Visual Studio as commands are handled by different components and routed from the innermost to the outermost context.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - commands, routing
 - command routing

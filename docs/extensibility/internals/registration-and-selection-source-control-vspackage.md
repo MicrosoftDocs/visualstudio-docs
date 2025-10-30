@@ -2,7 +2,7 @@
 title: Registration and Selection (Source Control VSPackage)
 description: Learn how to register a source control VSPackage with Visual Studio and how to select which package to load from multiple registered source control packages.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - registration, source control packages
 - source control packages, registration

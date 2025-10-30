@@ -2,7 +2,7 @@
 title: Add chart controls to your worksheet
 description: Add chart controls to your worksheet to use a chart object created by Visual Studio that you can program against directly.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: article
 f1_keywords:
   - "VST.ProjectItem.ExcelChart"
 dev_langs:

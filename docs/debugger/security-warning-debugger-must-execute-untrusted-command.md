@@ -2,7 +2,7 @@
 description: "This warning dialog box appears when you are using Source Server."
 title: "Security Warning: Debugger Must Execute Untrusted Command"
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: article
 f1_keywords:
   - "vs.debug.sourceserver.securityalert"
 dev_langs:

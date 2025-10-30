@@ -3,7 +3,7 @@ title: "Office Word Keyboard, Settings, Options dialog box"
 description: Learn how you can make Microsoft Word receive shortcut key commands when the document has focus by selecting Dynamic keyboard scheme.
 titleSuffix: ""
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: article
 f1_keywords:
   - "VS.ToolsOptionsPages.Microsoft_Office_Tools.Microsoft_Office_Word.Keyboard"
   - "VS.ToolsOptionsPages.Microsoft_Office_Keyboard_Settings.Microsoft_Office_Word_Keyboard"

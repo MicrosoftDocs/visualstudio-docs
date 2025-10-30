@@ -2,7 +2,7 @@
 title: "Analyze database usage for .NET Core projects"
 description: Use the Database tool to record your application's database queries and analyze the queries to find ways to improve application performance.
 ms.date: "5/5/2020"
-ms.topic: "conceptual"
+ms.topic: how-to
 helpviewer_keywords:
   - "database, profiling"
 author: mikejo5000

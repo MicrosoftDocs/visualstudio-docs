@@ -2,7 +2,7 @@
 title: Call code from VBA in a Visual C# project in Visual Studio
 description: Call a Visual C# method in a document-level customization for Microsoft Office Excel from Visual Basic for Applications (VBA) code in the Excel workbook.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"

@@ -2,7 +2,7 @@
 title: "Program document-level customizations"
 description: Learn how to extend Microsoft Word or Excel by using a document-level customization so you can perform various tasks.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 f1_keywords:
   - "Sheet3"
   - "thisWorkbook"

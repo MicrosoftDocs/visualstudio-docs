@@ -2,7 +2,7 @@
 title: "Source Server Security Alert"
 description: Read about the Source Server security alert warning in the Visual Studio debugger. Be aware of potential security threats when using Source Server.
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: article
 f1_keywords:
   - "vs.debug.sourceserver.enablewarning"
 dev_langs:

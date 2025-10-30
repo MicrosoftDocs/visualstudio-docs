@@ -4,7 +4,7 @@ author: joseb-rdc
 ms.author: amast
 manager: shve
 ms.date: 10/10/2025
-ms.topic: conceptual
+ms.topic: how-to
 description: Assign multiple subscriptions to one or more users at the same time with the bulk operation features in the Subscriptions Admin Portal.
 ms.custom: sfi-image-nochange
 ---

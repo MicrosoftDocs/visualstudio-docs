@@ -4,7 +4,7 @@ author: joseb-rdc
 ms.author: amast
 manager: shve
 ms.date: 01/28/2025
-ms.topic: conceptual
+ms.topic: how-to
 description: Learn how to view the maximum number of assigned subscriptions in the admin portal.
 ---
 # Use the maximum usage feature to track the number of assigned subscriptions

@@ -2,7 +2,7 @@
 title: Create a .NET Framework Windows Forms user control with data binding
 description: Understand how to create a Windows Forms user control that supports complex data binding in ADO.NET applications with Visual Studio.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 dev_langs:
 - VB
 - CSharp

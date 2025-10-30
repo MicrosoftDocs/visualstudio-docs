@@ -2,7 +2,7 @@
 title: Windows Installer Basics
 description: Learn about Windows Installer for use in installing a VSPackage, including organizing your VSPackage features into Windows Installer components.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - Windows Installer, VSPackages
 - VSPackages, Windows Installer basics

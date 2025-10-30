@@ -2,7 +2,7 @@
 title: "Mixed code & missing info in Call Stack window"
 description: In mixed-mode programs (native and managed) the debugger can't always show the complete call stack. Learn the possible discrepancies when native code calls managed code.
 ms.date: "11/04/2016"
-ms.topic: conceptual
+ms.topic: article
 dev_langs:
   - "CSharp"
   - "VB"

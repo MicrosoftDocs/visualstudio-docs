@@ -3,7 +3,7 @@ title: Get started with Microsoft Office developer tools (Visual Studio)
 description: Get started with the Microsoft Office developer tools in Visual Studio to build Office solutions for Microsoft Word, Excel, Outlook, and PowerPoint.
 titleSuffix: ""
 ms.date: "08/14/2019"
-ms.topic: "conceptual"
+ms.topic: get-started
 dev_langs:
   - "VB"
   - "CSharp"

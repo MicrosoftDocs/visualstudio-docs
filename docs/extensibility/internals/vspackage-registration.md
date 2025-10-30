@@ -2,7 +2,7 @@
 title: VSPackage Registration
 description: Learn about VSPackage registration, where packages advise Visual Studio that they are installed and should be loaded by writing information in the registry.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - registration, VSPackages
 - VSPackages, registering

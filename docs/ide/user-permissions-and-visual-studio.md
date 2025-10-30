@@ -2,7 +2,7 @@
 title: Run as administrator to install, debug, and more
 description: Explore how to run Visual Studio as an administrator and the use cases for installation, debugging, profiling, and configuring specific settings.
 ms.date: 9/11/2025
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - Visual Studio, user permissions
 - user permissions

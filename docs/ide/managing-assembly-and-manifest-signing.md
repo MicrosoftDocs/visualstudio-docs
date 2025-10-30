@@ -3,7 +3,7 @@ title: Manage assembly and manifest signing
 description: Explore how to manage an assembly and the advantages of strong-name signing, which gives a software component a globally unique identity. 
 ms.date: 07/18/2024
 ms.subservice: deployment
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
 - vs.AddNewStrongNameKey
 - ResolveKeySource.KeyFileForSignAssemblyNotImported

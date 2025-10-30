@@ -4,7 +4,7 @@ description: Learn how to work with service configurations and profiles configur
 author: ghogen
 manager: mijacobs
 ms.subservice: azure-development
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 8/11/2017
 ms.author: ghogen
 ---

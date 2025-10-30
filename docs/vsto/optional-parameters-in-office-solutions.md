@@ -2,7 +2,7 @@
 title: "Optional parameters in Office solutions"
 description: Learn how you don't have to pass a value for optional parameters because the default values are automatically used for each missing parameter.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"

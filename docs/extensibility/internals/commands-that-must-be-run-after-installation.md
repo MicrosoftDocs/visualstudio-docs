@@ -2,7 +2,7 @@
 title: Commands That Must Be Run After Installation
 description: Learn about the commands that must be run as part of your installation of an extension deployed through a .msi file in Visual Studio. 
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - post-install commands
 author: tinaschrepfer

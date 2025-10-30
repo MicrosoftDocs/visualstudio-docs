@@ -2,7 +2,7 @@
 title: "Trust Office solutions by using inclusion lists"
 description: Learn how inclusion lists enable users to grant trust to Office solutions that are signed with a certificate that identifies the publisher.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"

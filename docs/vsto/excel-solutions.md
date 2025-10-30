@@ -2,7 +2,7 @@
 title: Automate and extend your Office Excel solutions
 description: Use project templates to automate Microsoft Office Excel, extend Excel features, and customize the Excel user interface.
 ms.date: "08/14/2019"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"

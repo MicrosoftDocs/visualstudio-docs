@@ -2,7 +2,7 @@
 title: Target Visual Studio 2019 when creating an extension in Visual Studio 2022
 description: Learn how to make your Visual Studio extension work with Visual Studio 2019 if you create the project with Visual Studio 2022.
 ms.date: 06/08/2021
-ms.topic: conceptual
+ms.topic: how-to
 author: tinaschrepfer
 ms.author: tinali
 manager: mijacobs

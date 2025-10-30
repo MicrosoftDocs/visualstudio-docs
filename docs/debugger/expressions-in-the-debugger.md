@@ -2,7 +2,7 @@
 title: "Expressions in the debugger"
 description: Explore language expressions supported by the expression evaluators in the Visual Studio debugger, and review limitations of expression evaluation.
 ms.date: "02/22/2024"
-ms.topic: "conceptual"
+ms.topic: article
 f1_keywords:
   - "vs.debug.expressions"
 helpviewer_keywords:

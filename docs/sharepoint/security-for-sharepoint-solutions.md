@@ -2,7 +2,7 @@
 title: "Security for SharePoint Solutions"
 description: Discover what features Visual Studio incorporates to help enhance the security of SharePoint applications.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"

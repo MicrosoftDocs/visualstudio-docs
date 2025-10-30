@@ -6,7 +6,7 @@ ms.author: jasminewoon
 monikerRange: ">=vs-2022"
 ms.subservice: extensibility-integration
 ms.update-cycle: 365-days
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 05/01/2024
 ---
 

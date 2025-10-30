@@ -2,7 +2,7 @@
 title: "Security Considerations when Working with XML Data"
 description: Learn about security considerations when working with XML data in the XML editor or the XSLT debugger.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 author: dzsquared
 ms.author: drskwier
 manager: mijacobs
