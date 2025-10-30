@@ -34,7 +34,7 @@ Requires confirmation before completing the **Delete All Breakpoints** command.
 Simultaneously breaks all processes to which the debugger is attached, when a break occurs.
 
 **Break when exceptions cross AppDomain or managed/native boundaries**:
-In managed or mixed-mode debugging, the common language runtime can catch exceptions that cross application domain boundaries or managed/native boundaries when the following conditions are true:
+In managed or mixed-mode debugging, the common language runtime can catch exceptions that cross application domain boundaries or managed/native boundaries when three conditions are true:
 
    - **Condition 1**: When native code calls managed code by using COM Interop and the managed code throws an exception. See [Introduction to COM Interop](/dotnet/articles/visual-basic/programming-guide/com-interop/introduction-to-com-interop).
 
@@ -152,7 +152,7 @@ Enables connection to the browser and back-end simultaneously, allowing you to d
 **Load dll exports (Native only)**:
 Loads dll export tables. Symbol information from dll export tables can be useful if you're working with Windows messages, Windows procedures (WindowProcs), COM objects, or marshaling, or any dll for which you don't have symbols. Reading dll export information involves some overhead. Therefore, this capability is turned off by default.
 
-To see what symbols are available in the export table of a dll, use `dumpbin /exports`. Symbols are available for any 32-bit system dll. By reading the `dumpbin /exports` output, you can see the exact function name, including nonalphanumeric characters. This is useful for setting a breakpoint on a function. Function names from dll export tables might appear truncated elsewhere in the debugger. The calls are listed in the calling order, with the current function (the most deeply nested) at the top. For more information, see [dumpbin /exports](/cpp/build/reference/dash-exports).
+   - To see what symbols are available in the export table of a dll, use `dumpbin /exports`. Symbols are available for any 32-bit system dll. By reading the `dumpbin /exports` output, you can see the exact function name, including nonalphanumeric characters. This is useful for setting a breakpoint on a function. Function names from dll export tables might appear truncated elsewhere in the debugger. The calls are listed in the calling order, with the current function (the most deeply nested) at the top. For more information, see [dumpbin /exports](/cpp/build/reference/dash-exports).
 
 ::: moniker range="<=vs-2019"
 **Show parallel stacks diagram bottom-up**:
