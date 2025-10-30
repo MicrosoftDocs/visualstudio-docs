@@ -60,11 +60,11 @@ You can enable WPF tracing in your App.Config file or programmatically by using 
    
    - **ActivityTracing**: Trace Stop, Start, Suspend, Transfer, and Resume events.
 
-:::moniker range="visualstudio"
+   :::moniker range="visualstudio"
 
    - **All**: Trace all available trace information.
 
-:::moniker-end
+   :::moniker-end
 
 For more information about the trace levels, see <xref:System.Diagnostics.SourceLevels>.
 
