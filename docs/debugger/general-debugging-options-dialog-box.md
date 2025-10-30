@@ -65,8 +65,15 @@ The debugger displays and steps into user code ("My Code") only, ignoring system
 - **Warn if no user code on launch (Managed only)**:
    When debugging starts with Just My Code enabled, this option warns you if there's no user code ("My Code").
 
+::: moniker range="visualstudio"
 **Enable .NET Framework source stepping**:
-Allows the debugger to step into .NET Framework source. Enabling this option automatically disables Just My Code. .NET Framework symbols are downloaded to a cache location. Change the cache location with the **Options** dialog box, **Debugging** category, **Symbols** page.
+Allows the debugger to step into .NET Framework source. Enabling this option automatically disables Just My Code. .NET Framework symbols are downloaded to a cache location. You can change the cache location in the **Debugging** > **Symbols** > **Search Locations** section with the **Cache symbols in this directory** option.
+::: moniker-end
+
+::: moniker range="<=vs-2022"
+**Enable .NET Framework source stepping**:
+Allows the debugger to step into .NET Framework source. Enabling this option automatically disables Just My Code. .NET Framework symbols are downloaded to a cache location. You can change the cache location in the **Debugging** > **Symbols** section with the **Cache symbols in this directory** option.
+::: moniker-end
 
 ::: moniker range=">=vs-2022"
 **Automatically deoptimize debugged functions when possible (.Net 8+, C++ Dynamic Debugging)**: TBD - Add description.
