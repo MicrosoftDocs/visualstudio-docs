@@ -2,7 +2,7 @@
 title: Source Control
 description: These articles discuss options for implementing source control as an integrated feature of Visual Studio, either through a plug-in or a VSPackage.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - source control [Visual Studio SDK]
 author: tinaschrepfer

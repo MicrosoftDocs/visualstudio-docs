@@ -2,7 +2,7 @@
 title: Services Provided (Source Control VSPackage)
 description: Learn how VSPackages share functionality through services, including interacting with the Visual Studio IDE and its VSPackages.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - services, source control packages
 - source control packages, services

@@ -2,7 +2,7 @@
 title: Visual Studio Debugger Extensibility
 description: This article describes Visual Studio debugger extensibility and provides links to articles about Visual Studio debugging.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - debugging [Visual Studio], Debugging SDK
 - Debugging SDK

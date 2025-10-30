@@ -2,7 +2,7 @@
 title: Supporting Symbol-Browsing Tools
 description: Visual Studio provides symbol browsing capabilities in Visual Studio. Learn how to extend these capabilities with libraries for the symbols in your components.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - symbols, symbol-browsing tools
 - browsers, symbol browsers
