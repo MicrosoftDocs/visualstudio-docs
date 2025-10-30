@@ -42,30 +42,33 @@ You can enable WPF tracing in your App.Config file or programmatically by using 
 
 1. Under **WPF Trace Settings**, select **Data Binding**. A dropdown list appears in the **Settings** column.
 
-1. In the dropdown list for the **Data Binding** option, and select the level of trace information for Data Binding in WPF, and then select **OK**.
+1. In the dropdown list for the **Data Binding** option, select the level of trace information for Data Binding in WPF, and then select **OK**.
 
 :::moniker-end
 
-   - **Critical**: Trace Critical events only.
+### Trace levels for Data Binding in WPF
+
+The following trace levels are supported:
+
+- **Critical**: Trace Critical events only.
    
-   - **Error**: Trace Critical and Error events.
+- **Error**: Trace Critical and Error events.
    
-   - **Warning**: Trace Critical, Error, and Warning events
+- **Warning**: Trace Critical, Error, and Warning events
    
-   - **Information**: Trace Critical, Error, Warning, and Information events.
+- **Information**: Trace Critical, Error, Warning, and Information events.
    
-   - **Verbose**: Trace Critical, Error, Warning, Information, and Verbose events.
+- **Verbose**: Trace Critical, Error, Warning, Information, and Verbose events.
    
-   - **ActivityTracing**: Trace Stop, Start, Suspend, Transfer, and Resume events.
+- **ActivityTracing**: Trace Stop, Start, Suspend, Transfer, and Resume events.
 
 :::moniker range="visualstudio"
 
-   - **All**: Trace all available trace information.
+- **All**: Trace all available trace information.
 
 :::moniker-end
 
 For more information about the trace levels, see <xref:System.Diagnostics.SourceLevels>.
-
 
 ## Related content
 
