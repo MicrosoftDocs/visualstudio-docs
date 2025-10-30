@@ -2,7 +2,7 @@
 title: Creating a Source Control Plug-in
 description: Learn how to create a source control plug-in that adds a source control capability to the Visual Studio integrated development environment (IDE).
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - plug-ins, source control
 - source control plug-ins

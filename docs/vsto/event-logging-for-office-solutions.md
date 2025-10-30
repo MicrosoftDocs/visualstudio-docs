@@ -2,7 +2,7 @@
 title: "Event logging for Office solutions"
 description: Use the event viewer in Windows to see exception messages that are captured by the Visual Studio Tools for Office runtime.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"

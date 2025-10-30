@@ -3,7 +3,7 @@ title: Visualize sample data in a XAML UI
 titleSuffix: Blend for Visual Studio
 description: Learn how to generate sample data from scratch or from an existing class in Blend for Visual Studio.
 ms.date: 03/06/2018
-ms.topic: conceptual
+ms.topic: article
 author: maddymontaquila
 ms.author: maleger
 manager: mijacobs

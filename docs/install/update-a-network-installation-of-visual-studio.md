@@ -2,7 +2,7 @@
 title: Update a network-based installation
 description: Update a Visual Studio client installed from a network layout and make sure the client is receiving the latest security and functionality fixes. 
 ms.date: 9/26/2024
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - '{{PLACEHOLDER}}'
 - '{{PLACEHOLDER}}'

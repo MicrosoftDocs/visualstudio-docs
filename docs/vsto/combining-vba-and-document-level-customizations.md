@@ -2,7 +2,7 @@
 title: "Combine VBA and document-level customizations"
 description: Learn how you can use Visual Basic for Applications (VBA) code in a document that is part of a document-level customization for Microsoft Office Word or Excel.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 f1_keywords:
   - "VST.VBAInterop.InvalidAssemblyVersion"
   - "VST.VBAInterop.ProjectLoadFailure"

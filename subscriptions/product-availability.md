@@ -4,7 +4,7 @@ author: joseb-rdc
 ms.author: amast
 manager: shve
 ms.date: 12/13/2024
-ms.topic: conceptual
+ms.topic: article
 description:  Learn what products are available as software downloads in Visual Studio subscriptions
 ---
 

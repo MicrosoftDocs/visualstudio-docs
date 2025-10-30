@@ -2,7 +2,7 @@
 title: "Localizing ClickOnce Applications"
 description: Learn about three ways to localize your ClickOnce application to a version appropriate for a specific culture.
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: concept-article
 dev_langs:
   - "VB"
   - "CSharp"

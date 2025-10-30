@@ -2,7 +2,7 @@
 title: Threads
 description: This article describes the definition and role of a thread in the debugger architecture in Visual Studio.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - debugging [Debugging SDK], threads
 - threading [Debugging SDK]

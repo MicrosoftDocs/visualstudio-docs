@@ -2,7 +2,7 @@
 title: "Application Deployment Prerequisites"
 description: Learn about the deployment prerequisites for your applications, including using the Prerequisites Dialog Box and bootstrapper packages.
 ms.date: "02/10/2025"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "FSharp"
   - "VB"

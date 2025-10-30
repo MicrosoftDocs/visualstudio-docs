@@ -2,7 +2,7 @@
 title: Document Data and Document View in Custom Editors
 description: Learn about the components of a custom editor, which are the document data object and the document view object.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - editors [Visual Studio SDK], custom - document data and document view
 author: tinaschrepfer

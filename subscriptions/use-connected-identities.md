@@ -4,7 +4,7 @@ author: joseb-rdc
 ms.author: amast
 manager: shve
 ms.date: 04/11/2025
-ms.topic: conceptual
+ms.topic: how-to
 robots: "noindex, nofollow"
 description: Work with connected identities such as Microsoft accounts and Microsoft Entra ID identities in Visual Studio subscriptions.
 ---

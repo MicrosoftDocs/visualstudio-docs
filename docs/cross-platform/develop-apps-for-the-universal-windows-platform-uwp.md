@@ -3,7 +3,7 @@ title: Develop apps for the Universal Windows Platform (UWP)
 description: Learn about creating apps using Visual Studio and the Universal Windows Platform development tools.
 ms.date: 10/24/2017
 ms.subservice: general-ide
-ms.topic: conceptual
+ms.topic: article
 author: ghogen
 ms.author: ghogen
 manager: mijacobs

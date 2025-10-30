@@ -2,7 +2,7 @@
 title: Migrate from FxCop analyzers to .NET analyzers
 description: Migrate your analysis process from binary analysis with FxCop code analysis to .NET analyzers (Roslyn analyzers) for source analysis.
 ms.date: 03/06/2020
-ms.topic: conceptual
+ms.topic: upgrade-and-migration-article
 f1_keywords:
  - "vs.projectpropertypages.codeanalysis"
 helpviewer_keywords:

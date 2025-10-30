@@ -2,7 +2,7 @@
 title: Code style options and code cleanup
 description: Learn how to configure Visual Studio to apply code style preferences using the Code Cleanup command.
 ms.date: 05/08/2025
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: peer-review-program
 author: mikejo5000
 ms.author: mikejo

@@ -4,7 +4,7 @@ author: joseb-rdc
 ms.author: amast
 manager: shve
 ms.date: 04/29/2025
-ms.topic: conceptual
+ms.topic: article
 description: Learn about the effects of upgrading or downloading your Visual Studio subscription level.
 ---
 

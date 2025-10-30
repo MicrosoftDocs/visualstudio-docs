@@ -2,7 +2,7 @@
 title: Enabling a Program to Be Debugged
 description: Learn about how to launch your debug engine or attach the debug engine to an existing program to debug a program.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - debugging [Debugging SDK], enabling for programs
 author: tinaschrepfer

@@ -2,7 +2,7 @@
 title: Registering Single File Generators
 description: Learn how to register a custom tool in Visual Studio to instantiate it and associate it with a particular project type.
 ms.date: 10/23/2025
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - registration, custom tools
 - custom tools, defining registry settings

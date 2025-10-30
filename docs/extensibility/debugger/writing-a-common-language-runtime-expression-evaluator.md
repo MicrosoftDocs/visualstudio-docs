@@ -2,7 +2,7 @@
 title: Writing a Common Language Runtime Expression Evaluator
 description: Learn about writing an expression evaluator for the common language runtime, which evaluates expressions in the code language being debugged.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - expression evaluators, tutorial
 - expression evaluation, samples

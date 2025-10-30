@@ -2,7 +2,7 @@
 title: Use Replace in Files to Search Code and Make Changes
 description: Use the Replace in Files feature to search the code of a specified set of files for a string or expression and change some or all of the matches found.
 ms.date: 04/07/2025
-ms.topic: conceptual
+ms.topic: article
 f1_keywords:
 - vs.findreplace.replaceinfiles
 - vs.replaceinfiles

@@ -2,7 +2,7 @@
 title: Efficient coding, debugging, & keyboard shortcuts
 description: Learn about the keyboard shortcuts and productivity features in Visual Studio that can help you efficiently write code, debug code, and handle errors.
 ms.date: 04/08/2025
-ms.topic: conceptual
+ms.topic: article
 ms.custom: peer-review-program
 author: Mikejo5000
 ms.author: mikejo

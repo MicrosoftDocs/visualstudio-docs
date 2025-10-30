@@ -3,7 +3,7 @@ title: Use command-line parameters to install Visual Studio
 titleSuffix: ''
 description: Use command-line parameters with your Visual Studio installation and start the installation with preselected options or automate the installation and update process.
 ms.date: 10/28/2024
-ms.topic: conceptual
+ms.topic: install-set-up-deploy
 f1_keywords:
 - command-line parameters
 - switches

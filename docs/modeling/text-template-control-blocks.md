@@ -2,7 +2,7 @@
 title: Text Template Control Blocks
 description: Learn about text template control blocks and how control blocks let you write code in your text template in order to vary the output.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - text templates, template code
 author: mgoertz-msft

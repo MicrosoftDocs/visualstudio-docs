@@ -3,7 +3,7 @@ title: Visual Studio IDE in Visual Studio subscriptions
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 07/23/2025
+ms.date: 10/29/2025
 ms.topic: how-to
 description: In this article, you learn how to download and install the Visual Studio IDE included in your Visual Studio subscription.
 ---
@@ -22,7 +22,7 @@ Here's how to download and install the IDE for your version of Visual Studio. We
 
    ![Screenshot of the Visual Studio Enterprise tile and accompanying 'Download' button.](_img/vs-ide-experience/vs-ide-tile.png "Screenshot of the Visual Studio Enterprise tile and accompanying Download button.")
 
-   You’re redirected to the **Downloads** page for Visual Studio, where you can download the IDE and obtain a product key to activate it. Alternatively, you can claim a product key by selecting **Get Key**, or you can claim a key later on the [Your Product Keys](https://my.visualstudio.com/productkeys) page.
+   Note that Product Key isn't available for all levels of subscriptions as the primary channel for authentication to the IDE should be your sign in.
 
 1. On the **Downloads** page, select the **Details** tab, and then do the following:
 
@@ -72,7 +72,7 @@ Here's how to download and install the IDE for your version of Visual Studio. We
 \* Includes the following subscriptions: *Not for Resale (NFR), NFR Basic, Visual Studio Industry Partner (VSIP), Microsoft Cloud Partner Program, FTE, MCT Software & Services Developer, Imagine, Most Valuable Professional (MVP), Regional Director (RD)*.
 
 > [!NOTE]
-> Microsoft no longer offers Visual Studio Professional annual subscriptions and Visual Studio Enterprise annual subscriptions in cloud subscriptions. If you're a current customer, there is no change to your ability to renew, increase, decrease, or cancel your subscription. If you're a new customer, we encourage you to go to the [Buy Visual Studio](https://visualstudio.microsoft.com/vs/pricing/) page to explore the various purchase options.
+> Microsoft no longer offers Visual Studio Professional annual subscriptions and Visual Studio Enterprise annual subscriptions in cloud subscriptions. If you're a current customer, there's no change to your ability to renew, increase, decrease, or cancel your subscription. If you're a new customer, we encourage you to go to the [Buy Visual Studio](https://visualstudio.microsoft.com/vs/pricing/) page to explore the various purchase options.
 
 Not sure which subscription you're using? Go to the [Your Subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) page to see all the subscriptions that are assigned to your email address. If you don't see all your subscriptions, one or more might be assigned to a different email address. You need to sign in with that other email address to view those subscriptions.
 
@@ -108,7 +108,7 @@ For Visual Studio IDE technical issues or questions, contact [Visual Studio tech
 If you exhaust the preceding options and still don’t have an answer, open a Visual Studio technical support ticket. To do so, go to the Benefits page on the [Visual Studio Subscriptions portal](https://my.visualstudio.com/Benefits), select the **Support** tab, and then select the **Technical Support** benefit tile. For more information, see [Technical Support benefit](vs-tech-support.md). 
 
 > [!NOTE]
-> Technical support is not available with all subscriptions. To learn what's included with your subscription, see [Compare Visual Studio subscription benefits](https://visualstudio.microsoft.com/vs/benefits/#azure?cat=visual-studio-enterprise-subscription).
+> Technical support isn't available with all subscriptions. To learn what's included with your subscription, see [Compare Visual Studio subscription benefits](https://visualstudio.microsoft.com/vs/benefits/#azure?cat=visual-studio-enterprise-subscription).
 
 ### Visual Studio subscription support
 For assistance with sales, subscriptions, accounts, and billing, contact [Visual Studio subscription support](https://my.visualstudio.com/gethelp).

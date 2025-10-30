@@ -4,7 +4,7 @@ author: joseb-rdc
 ms.author: amast
 manager: shve
 ms.date: 09/16/2024
-ms.topic: conceptual
+ms.topic: article
 description: Learn how to use product keys to support internet demonstrations via Terminal Services and enable RDS access.
 ---
 

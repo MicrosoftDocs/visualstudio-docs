@@ -2,7 +2,7 @@
 title: "Specific security considerations for Office solutions"
 description: Learn how the security features provided by the Microsoft .NET Framework and Microsoft Office can help to protect your Office solutions against security threats.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"

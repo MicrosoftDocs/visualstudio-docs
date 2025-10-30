@@ -2,7 +2,7 @@
 title: Customize Text View Margins
 description: This walkthrough shows you how to use text view margins in the Visual Studio editor by using extensions.
 ms.date: 1/13/2025
-ms.topic: conceptual
+ms.topic: article
 ms.author: tinali
 monikerRange: ">=vs-2022"
 author: tinaschrepfer

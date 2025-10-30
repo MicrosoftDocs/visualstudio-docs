@@ -4,7 +4,7 @@ description: Learn how to set up diagnostics for debugging Azure Cloud Services 
 author: ghogen
 manager: mijacobs
 ms.subservice: azure-development
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/06/2024
 ms.author: mikejo
 ms.custom: sfi-image-nochange

@@ -5,7 +5,7 @@ description: Read an overview of IntelliCode for Visual Studio. Understand previ
 ms.date: 7/2/2025
 ms.service: visual-studio-family
 ms.subservice: intellicode
-ms.topic: conceptual
+ms.topic: article
 author: ghogen
 ms.author: ghogen
 manager: mijacobs

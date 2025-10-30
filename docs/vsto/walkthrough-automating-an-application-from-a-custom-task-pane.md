@@ -3,7 +3,7 @@ title: "Walkthrough: Automate an application from a custom task pane"
 description: Create a custom task pane that automates Microsoft PowerPoint by inserting dates into a slide when the user clicks a MonthCalendar control on the custom task pane.
 titleSuffix: ""
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"

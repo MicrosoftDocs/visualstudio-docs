@@ -2,7 +2,7 @@
 title: Customize Taggers in the Editor
 description: This walkthrough shows you how to provide your own taggers in the Visual Studio editor by using extensions.
 ms.date: 2/5/2025
-ms.topic: conceptual
+ms.topic: how-to
 ms.author: maprospe
 monikerRange: ">=vs-2022"
 author: matteo-prosperi

@@ -2,7 +2,7 @@
 title: "Create Visual Studio Tools for Office Add-ins: Microsoft Excel"
 description: Create a VSTO add-in for the Microsoft Office Excel with features that are available to the application itself, regardless of which Excel workbooks are open.
 ms.date: "08/14/2019"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"

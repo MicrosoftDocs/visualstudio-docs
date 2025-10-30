@@ -2,7 +2,7 @@
 title: Working with C++ Code (Class Designer)
 description: Work with class diagrams to design and visualize C++ code element, classes, and other types in your Visual Studio project.
 ms.date: 06/21/2017
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
 - vs.classdesigner.cpplimitation
 - vs.classdesigner.inheritancelinelabel

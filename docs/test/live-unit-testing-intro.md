@@ -2,7 +2,7 @@
 title: Introduction Live Unit Testing
 description: Explore the advantages of Live Unit Testing, which executes unit tests automatically and in real time as you make code changes.
 ms.date: 09/11/2017
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - Live Unit Testing
 author: mikejo5000

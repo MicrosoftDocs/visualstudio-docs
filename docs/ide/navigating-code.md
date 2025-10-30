@@ -2,7 +2,7 @@
 title: Options for Browsing Code in the Editor
 description: Explore the options for using the Visual Studio editor for browsing your code, including the Navigation bar and Navigate Backward and Forward commands.
 ms.date: 04/04/2025
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - code editor, navigation
 - code editor, go to

@@ -2,7 +2,7 @@
 title: "Historical Debugging"
 description: Troubleshoot an app by inspecting its state as you move backward and forward through its execution. Intellitrace collects the information for this capability.
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: article
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: mijacobs

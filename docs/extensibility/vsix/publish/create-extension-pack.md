@@ -2,7 +2,7 @@
 title: Create an extension pack
 description: Follow the video or use the instructions to create an extension pack that contains your favorite extensions or group a set of extensions together.
 ms.date: 12/01/2021
-ms.topic: conceptual
+ms.topic: article
 author: madskristensen
 ms.author: madsk
 manager: pchapman

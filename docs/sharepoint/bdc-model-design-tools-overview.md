@@ -2,7 +2,7 @@
 title: "BDC Model Design Tools Overview"
 description: Read an overview of design tools to use with a Business Data Connectivity (BDC) model. Learn about the BDC Designer, BDC Method Details window, and BDC Explorer.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: concept-article
 f1_keywords:
   - "VS.SharePointTools.BDC.Method_Details"
   - "VS.SharePointTools.BDC.Explorer"

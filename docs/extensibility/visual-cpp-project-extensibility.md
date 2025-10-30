@@ -2,7 +2,7 @@
 title: Visual C++ project extensibility
 description: Explore how the Visual C++ project system is used for .vcxproj files to provide extra C++ specific extensibility points.
 ms.date: "04/23/2019"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "C++"
 author: "tylermsft"

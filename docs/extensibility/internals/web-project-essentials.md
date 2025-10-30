@@ -2,7 +2,7 @@
 title: Web Project Essentials
 description: Learn the internal details about how web projects work in Visual Studio.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - web projects, essentials
 author: tinaschrepfer

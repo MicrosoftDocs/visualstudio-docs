@@ -1,7 +1,7 @@
 ---
 title: FAQs for Azure for Visual Studio subscribers
 description: Review frequently asked questions (FAQs) for Azure subscribers about Visual Studio subscriptions, billing, service restrictions, account sign-in, and Azure credits.
-ms.topic: conceptual
+ms.topic: faq
 author: joseb-rdc
 ms.author: amast
 ms.date: 09/27/2024

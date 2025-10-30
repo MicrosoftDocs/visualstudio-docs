@@ -2,7 +2,7 @@
 title: "Create Visual Studio Tools for Office Add-ins: Microsoft Word"
 description: Create a VSTO add-in for Microsoft Office Word with features that are available to the application itself, regardless of which Word documents are open.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"

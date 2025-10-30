@@ -2,7 +2,7 @@
 title: "Debug at design time"
 description: Use the Immediate window to debug code at design time, without running the app. You can execute a function and examine the state when a breakpoint is hit.
 ms.date: "06/06/2023"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
 helpviewer_keywords:

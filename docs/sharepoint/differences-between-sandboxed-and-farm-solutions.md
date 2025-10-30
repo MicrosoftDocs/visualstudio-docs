@@ -2,7 +2,7 @@
 title: "Differences Between Sandboxed and Farm Solutions"
 description: Understand the differences between sandboxed and farm solutions. Know how Visual Studio approaches debugging with either type of solution.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"

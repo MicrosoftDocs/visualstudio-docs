@@ -2,7 +2,7 @@
 title: "Mixed mode debugging for x64 processes is only supported when using Microsoft.NET Framework 4 or greater"
 description: .NET Framework versions earlier than 4 do not provide support for mixed-mode debugging of x64 processes. See this article for workarounds.
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: article
 f1_keywords:
   - "vs.debug.error.interop_unsupported_x64"
 dev_langs:

@@ -2,7 +2,7 @@
 title: Microsoft IntelliTest Developer Test Tool
 description: Learn how IntelliTest uses an automated and transparent testing approach, IntelliTest can generate a candidate suite of tests for your .NET code.
 ms.date: 12/04/2023
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - IntelliTest, Visual Studio IntelliTest developer testing tool
 ms.author: mikejo

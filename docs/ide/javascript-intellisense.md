@@ -2,7 +2,7 @@
 title: Display JavaScript parameters & member lists with IntelliSense
 description: Learn how Visual Studio delivers richer IntelliSense, support for modern JavaScript features, and improved productivity features.
 ms.date: 10/03/2025
-ms.topic: conceptual
+ms.topic: how-to
 ms.subservice: javascript-typescript
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.JavaScript.Intellisense.References"

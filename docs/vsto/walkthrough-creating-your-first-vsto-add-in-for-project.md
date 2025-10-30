@@ -2,7 +2,7 @@
 title: "Walkthrough: Create your first VSTO Add-in for Project"
 description: Create an application-level Add-in for Microsoft Project. This feature is available to the application itself, regardless of which projects are open.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"

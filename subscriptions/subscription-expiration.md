@@ -4,7 +4,7 @@ author: joseb-rdc
 ms.author: amast
 manager: shve
 ms.date: 04/30/2025
-ms.topic: conceptual
+ms.topic: article
 description: Understand what happens when a Visual Studio subscription expires, including changes to available downloads, product keys, Azure credits, and other benefits.
 ---
 

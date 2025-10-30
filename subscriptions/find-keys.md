@@ -4,7 +4,7 @@ author: joseb-rdc
 ms.author: amast
 manager: shve
 ms.date: 07/16/2024
-ms.topic: conceptual
+ms.topic: how-to
 description: Find, claim, and export product keys in Visual Studio subscriptions, and review types of product keys such as OEM Key, Retail, and Static Activation Key.
 ---
 

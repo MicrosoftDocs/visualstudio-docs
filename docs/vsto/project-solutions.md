@@ -2,7 +2,7 @@
 title: "Project solutions"
 description: Learn how you can use VSTO Add-ins to automate Project, extend Project features, or customize the Project user interface (UI).
 ms.date: "08/14/2019"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"

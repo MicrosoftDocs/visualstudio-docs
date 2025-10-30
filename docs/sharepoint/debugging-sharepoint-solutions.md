@@ -2,7 +2,7 @@
 title: "Debugging SharePoint Solutions"
 description: Debug SharePoint solutions using the Visual Studio debugger. Explore the F5 debug and deployment process, debug workflows, and debug feature event receivers.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 f1_keywords:
   - "VS.SharePointTools.Project.WebConfigModificationDialog"
   - "VS.SharePointTools.Project.DebuggingNotEnabled"

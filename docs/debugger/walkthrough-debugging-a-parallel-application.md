@@ -2,7 +2,7 @@
 title: "Debug an async application"
 description: Debug an async application by using the Parallel Stacks windows in the Visual Studio integrated development environment (IDE).
 ms.date: "08/19/2025"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "CSharp"
 helpviewer_keywords:

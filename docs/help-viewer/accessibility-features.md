@@ -2,7 +2,7 @@
 title: Accessibility of Help Viewer
 description: Review accessibility features of Microsoft Help Viewer. Examples include keyboard access, font size, window size, and Help Viewer position.
 ms.date: 05/26/2022
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
   - "accessibility features [Help Viewer]"
   - "Help Viewer, accessibility features"

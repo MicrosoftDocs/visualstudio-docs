@@ -2,7 +2,7 @@
 title: Manage project and solution properties
 description: Manage both the project properties and the solution properties in Visual Studio for C#, Visual Basic, F#, C++, and JavaScript projects.
 ms.date: 02/25/2025
-ms.topic: conceptual
+ms.topic: article
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs

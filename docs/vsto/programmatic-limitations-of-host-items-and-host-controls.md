@@ -3,7 +3,7 @@ title: "Programmatic limitations of host items and host controls"
 description: Learn about the fundamental differences between the behavior of host items and host controls and native Office objects at run time.
 titleSuffix: ""
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"
