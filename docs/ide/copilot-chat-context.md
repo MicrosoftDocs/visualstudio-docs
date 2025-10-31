@@ -107,6 +107,40 @@ You can use slash commands in a [chat window](visual-studio-github-copilot-chat.
 
 With Visual Studio 2022 version 17.13, as the user types a slash command, the command expands out the prompt in natural language to display the context the command will use.
 
+::: moniker range=">=visualstudio"
+
+## Use Copilot actions
+
+You can use Copilot actions from the context menu to quickly access pre-configured prompts and slash commands for common development tasks.
+
+:::image type="content" source="media/vs-2022/copilot-chat-context/copilot-actions.png" alt-text="Screenshot of Copilot actions in the context menu.":::
+
+The behavior of each action depends on whether you have code selected when you open the context menu: 
+
+| **Action** | **With code selected** | **Without code selected** |
+|---------------------------|--------------------|:----------:|:----------:|
+| Explain| Explains the selected code | Explains the code near the cursor position |
+| Optimize Selection | Optimizes the selected code for performance, maintainability, reliability, and architecture | Not applicable |
+| Generate Comments | Generates comments for the selected code | Generate comments for code near the cursor position |
+| Generate Tests | Generates tests for the selected code | Generate tests for code near the cursor position |
+| Add to Chat | Adds the selected code to Chat as a reference | Add the entire file to Chat as reference |
+
+When you select any action except *Optimize Selection*, the chat window opens automatically and sends a [slash command](#use-slash-commands-to-set-context-for-common-tasks) to Copilot with the appropriate scoped context. You can then review and interact with Copilot's response in the chat window.
+
+### Use Optimize Selection option for better code 
+
+Select a specific section of code and choose **Optimize Selection** to have Copilot analyze and improve just that section, rather than an entire file.
+
+Copilot examines the selected code and its surrounding context to provide meaningful, context-aware suggestions. The optimization preserves your existing code style, structure, and functionality, keeping your codebase organized and consistent. Unlike other actions that use the chat panel, **Optimize Selection** presents suggestions as an inline diff that you can directly review, accept, or reject.
+
+Copilot provides optimization suggestions across these areas: 
+- **Performance:** Faster algorithms, reduced memory usage, async patterns
+- **Maintainability:** Simplified logic, clearer structure, better naming 
+- **Reliability:** Error handling, resource cleanup, thread safety 
+- **Architecture:** Dependency injection, better interfaces, modular design 
+
+::: moniker-end
+
 ## Next steps
 
 - [GitHub Copilot experience for Visual Studio](visual-studio-github-copilot-extension.md)
