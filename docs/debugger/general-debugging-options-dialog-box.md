@@ -1,7 +1,7 @@
 ---
 title: "General, Debugging, Options Dialog Box"
 description: Set Visual Studio debugger options to meet your debugging needs. You can configure break behavior, debugging levels, display behavior, and much else.
-ms.date: "10/30/2025"
+ms.date: "10/31/2025"
 ms.topic: "ui-reference"
 f1_keywords:
   - "vs.debug.options.General"
@@ -76,7 +76,7 @@ Allows the debugger to step into .NET Framework source. Enabling this option aut
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
-**Automatically deoptimize debugged functions when possible (.Net 8+, C++ Dynamic Debugging)**: TBD - Add description.
+**Automatically deoptimize debugged functions when possible (.Net 8+, C++ Dynamic Debugging)**: When selected, deoptimizes debugged functions for a more comprehensive debugging experience.
 ::: moniker-end
 
 **Suppress JIT optimization on module load (Managed only)**:
@@ -84,16 +84,16 @@ Disables the JIT optimization of managed code when a module is loaded and JIT is
 
 ::: moniker range="visualstudio"
 **Configure the use of precompiled images (Managed only)**:
-When you select this link, the **Visual Studio Debugger Options** dialog opens. To enable the option, select the **Prevent using precompiled images on module load** checkbox, and select **OK**. TBD - Add description.
+When you select this link, the **Visual Studio Debugger Options** dialog opens. To enable the option, select the **Prevent using precompiled images on module load** checkbox, and select **OK**. When selected, disables the loading of NGEN or ready to load (RDR) precompiled images.
 ::: moniker-end
 
 ::: moniker range="vs-2022"
-**Prevent using precompiled images on module load (Managed only, resets on restart)**: TBD - Add description.
+**Prevent using precompiled images on module load (Managed only, resets on restart)**: When selected, disables the loading of NGEN or ready to load (RDR) precompiled images.
 ::: moniker-end
 
 ::: moniker range="visualstudio"
 **Configure Just-in-Time debugging**:
-When you select this link, the **Visual Studio Debugger Options** dialog opens. To enable the option, select the **Enable Just-in-Time debugging for these types of code** checkbox. Select or more code types: **Native** and **Managed (.NET Framework)**, and select **OK**. TBD - Add description.
+When you select this link, the **Visual Studio Debugger Options** dialog opens. To enable the option, select the **Enable Just-in-Time debugging for these types of code** checkbox. Select one or more code types: **Native** and **Managed (.NET Framework)**, and then select **OK**. This option enables Just-in-Time debugging for the selected code type(s).
 ::: moniker-end
 
 **Step over properties and operators (Managed only)**:
@@ -210,74 +210,6 @@ The Live Visual Tree and the Live Property Explore windows appear when you start
     Starting in Visual Studio 2019 version 16.6, applies XAML Hot Reload when you save your document.
 ::: moniker-end
 
-::: moniker range="vs-2022" 
-## Options for XAML Hot Reload
-
-The following options are available in the **Debugging** > **General** > **XAML Hot Reload** section.
-
-- **Enable XAML Hot Reload**:
-    Use the XAML Hot Reload feature with XAML code when your app is running with the debugger attached (**F5**). This feature was previously called "XAML Edit and Continue." 
-    
-    Select the checkbox for each environment to support: **WPF**, **UWP (including Xamarin.Forms)**, **WinUI (including .NET MAUI)**, **Andriod and iOS (Xamarin.Forms)**, and **Andriod and iOS (.NET MAUI)**.
-
-In the **Common** group, select from the following options:
-
-- **Apply XAML Hot Reload on document save or via Hot Reload button**:
-    Applies XAML Hot Reload when you save your document.
-
-- **Enable Just My XAML in Live Visual Tree**:
-    The **Live Visual Tree** by default shows only XAML that's classified as user code. If you disable this option, all generated XAML code is shown in the tool.
-
-- **Preview selected elements in Live Visual Tree while debugging**:
-    The XAML element whose context is selected is also selected in the **Live Visual Tree** window.
-
-- **Turn off selection mode once an element is selected**:
-    The in-app toolbar element selector button (**Enable selection**) switches off when an element is selected. If you disable this option, element selection stays on until you click the in-app toolbar button again.
-
-- **Enable in-app toolbar**:
-    Shows the **Live Visual Tree** commands in a toolbar on the main window of the XAML application that's being debugged.
-
-In the **Xamarin.Forms** group, select from the following options to use the Hot Reload mode with Xamarin.Forms:
-
-- **Changes only (Xamarin.Forms 5.x and newer**: TBD - Add description.
-
-- **Full page**: TBD - Add description.
-
-For more information, select the [Help me choose which Hot Reload mode to use](/previous-versions/xamarin/xamarin-forms/xaml/hot-reload) link.
-::: moniker-end
-
-::: moniker range="visualstudio"
-## Options for XAML Hot Reload
-
-The following options are available in the **Debugging** > **General** > **XAML Hot Reload** section.
-
-- **Enable XAML Hot Reload**:
-    Use the XAML Hot Reload feature with XAML code when your app is running with the debugger attached (**F5**). This feature was previously called "XAML Edit and Continue."
-
-- **Enable for WPF**: TBD - Add description.
-
-- **Enable for UWP**: TBD - Add description.
-
-- **Enable for WinUI (including .NET MAUI)**: TBD - Add description.
-
-- **Enable for Andriod and iOS (.NET MAUI)**: TBD - Add description.
-
-- **Apply XAML Hot Reload on document save or via Hot Reload button**:
-    Applies XAML Hot Reload when you save your document.
-
-- **Enable Just My XAML in Live Visual Tree**:
-    The **Live Visual Tree** by default shows only XAML that's classified as user code. If you disable this option, all generated XAML code is shown in the tool.
-
-- **Preview selected elements in Live Visual Tree while debugging**:
-    The XAML element whose context is selected is also selected in the **Live Visual Tree** window.
-
-- **Turn off selection mode once an element is selected**:
-    The in-app toolbar element selector button (**Enable selection**) switches off when an element is selected. If you disable this option, element selection stays on until you click the in-app toolbar button again.
-
-- **Enable in-app toolbar**:
-    Shows the **Live Visual Tree** commands in a toolbar on the main window of the XAML application that's being debugged.
-::: moniker-end
-
 **Enable Diagnostic Tools while debugging**:
 The **Diagnostic Tools** window appears while you're debugging.
 
@@ -337,9 +269,9 @@ Switches Visual Studio to the foreground when you pause in the debugger.
 **Keep expanded data tips open until clicked away**:
 When this option is selected, an expanded data tip stays expanded until you click away from it.
 
-**Enable the External Sources node in Solution Explorer**: TBD - Add description.
+**Enable the External Sources node in Solution Explorer**: When selected, shows decompiled code under the External Sources node.
 
-**Automatically decompile to source when needed (Managed only)**: TBD - Add description.
+**Automatically decompile to source when needed (Managed only)**: When selected, automatically decompiles external .NET code when stepping into external code.
 
 **Highlight current statement and statements with breakpoints**:
 When the debugger highlights a breakpoint or current statement, it highlights the entire line.
@@ -357,30 +289,6 @@ Display the values for function arguments in the highlighted statement in the de
 
 - **Show current line expression values inline**:
 Display the values for expressions within the current line in the debugger.
-::: moniker-end
-
-::: moniker range="visualstudio"
-## Options for .NET/C++ Hot Reload
-
-The following options are available in the **Debugging** > **General** > **.NET/C++ Hot Reload** section.
-
-- **Enable Hot Reload**:
-    Use the Hot Reload feature with .NET and C++ code when your app is running with the debugger attached (**F5**). This feature was previously called "Edit and Continue."
-
-- **Automatically apply changes on continue (Native only)**:
-    Visual Studio automatically compiles and applies any outstanding code changes you have made when continuing the process from a break state. If not selected, you can choose to apply changes using the **Apply Code Changes** item under the **Debug** menu.
-
-- **Warn about stale code (Native only)**:
-    Get warnings about stale code.
-
-- **Enable when not debugging**:
-    Enables Hot Reload when your app runs without the debugger attached (**Ctrl** + **F5**).
-
-- **Apply on file save**:
-    Applies changes when the file is saved.
-
-- **Logging verbosity**:
-    Set the level of logging when Hot Reload is enabled: **Minimal**, **Detailed**, or **Diagnostic**.
 ::: moniker-end
 
 ## Options available in older versions of Visual Studio
