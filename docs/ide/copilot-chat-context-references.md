@@ -7,7 +7,8 @@ author: anandmeg
 ms.author: meghaanand
 ms.manager: mijacobs
 ms.subservice: ai-tools
-ms.collection: ce-skilling-ai-copilot 
+ms.collection: ce-skilling-ai-copilot
+ms.update-cycle: 180-days
 helpviewer_keywords: 
   - copilot chat context
   - context, copilot chat

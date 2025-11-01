@@ -1,7 +1,7 @@
 ---
 title: How Copilot Chat uses context
 description: Learn how GitHub Copilot Chat understands your codebase, builds context, and applies code suggestions in Visual Studio.
-ms.date: 9/3/2025
+ms.date: 10/31/2025
 ms.update-cycle: 180-days
 ms.topic: overview
 author: anandmeg
@@ -28,7 +28,7 @@ If your code is hosted elsewhere, Copilot builds a local index.
 
 ### Semantic search
 
-Based on your prompt, Copilot may determine that it needs more project context to respond accurately. In such cases, it performs a semantic search on the remote or local index.
+Based on your prompt, Copilot might determine that it needs more project context to respond accurately. In such cases, it performs a semantic search on the remote or local index.
 
 Unlike traditional search, which matches exact words, semantic search focuses on meaning. Using advanced vector embeddings, Copilot identifies files with the highest semantic similarity to your request and adds them to its context.
 
@@ -43,6 +43,26 @@ Copilot Chat frequently provides code suggestions in its responses. These sugges
 ### Model based code mapping
 
 Copilot Chat uses speculative decoding to accurately insert suggestions into existing files, reducing the risk of errors. In Agent mode, this enables Copilot to make reliable edits that support building, debugging, and testing your code independently.
+
+## Copilot memories
+
+Copilot memories enable Copilot to learn your project's specific coding standards and best practices, making it project-aware and consistent across sessions.
+
+### How Copilot memories work
+
+Memories use intelligent detection to understand your team's preferences as you prompt in the chat. As you prompt, Copilot identifies instances where you correct its behavior, indicate a standard, or ask it to remember something. 
+
+When such instances are detected, you see a confirmation nudge to save the preference.
+
+:::image type="content" source="media/vs-2022/copilot-chat-context/copilot-memories.png" alt-text="Screenshot of when Copilot detects a perference to add to memories.":::
+
+Copilot then categorizes the preference into one of three files:
+
+- `.editorconfig` for coding standards
+- `CONTRIBUTING.md` for best practices, guidelines, and architectural standards.
+- `README.md` for high-level project information
+
+As you continue to prompt Copilot, you teach it to respond more effectively to your needs and help your team by documenting development best practices that enhance their future Copilot interactions.
 
 ## Related content
 
