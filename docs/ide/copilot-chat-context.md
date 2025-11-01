@@ -125,7 +125,7 @@ The behavior of each action depends on whether you have code selected when you o
 | Generate Tests | Generates tests for the selected code | Generate tests for code near the cursor position |
 | Add to Chat | Adds the selected code to Chat as a reference | Add the entire file to Chat as reference |
 
-When you select any action except *Optimize Selection*, the chat window opens automatically and sends a [slash command](#use-slash-commands-to-set-context-for-common-tasks) to Copilot with the appropriate scoped context. You can then review and interact with Copilot's response in the chat window.
+When you select any action except *Optimize Selection*, the chat window opens automatically and sends a [slash command](#slash-commands) to Copilot with the appropriate scoped context. You can then review and interact with Copilot's response in the chat window.
 
 ### Use Optimize Selection option for better code 
 
