@@ -54,7 +54,7 @@ Memories use intelligent detection to understand your team's preferences as you 
 
 When such instances are detected, you see a confirmation nudge to save the preference.
 
-:::image type="content" source="media/vs-2022/copilot-chat-context/copilot-memories.png" alt-text="Screenshot of when Copilot detects a perference to add to memories.":::
+:::image type="content" source="media/vs-2022/copilot-chat-context/copilot-memories.png" alt-text="Screenshot of when Copilot detects a preference to add to memories.":::
 
 Copilot then categorizes the preference into one of three files:
 
