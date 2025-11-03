@@ -2,7 +2,7 @@
 title: Use command-line parameters to install Visual Studio
 titleSuffix: ''
 description: Use command-line parameters with your Visual Studio installation and start the installation with preselected options or automate the installation and update process.
-ms.date: 10/28/2024
+ms.date: 11/03/2025
 ms.topic: install-set-up-deploy
 f1_keywords:
 - command-line parameters
@@ -42,7 +42,7 @@ You can get the Visual Studio 2019 bootstrappers from the following table. Alter
 
 ::: moniker-end
 
-::: moniker range=">=vs-2022"
+::: moniker range="vs-2022"
 
 To get the latest bootstrappers for Visual Studio 2022 that always install the latest version of the Current channel, download one of the files in the following table. Alternatively, to install a specific version or a specific channel of Visual Studio 2022, see the [Visual Studio 2022 Release History](/visualstudio/releases/2022/release-history#release-dates-and-build-numbers) page. This page has links to the fixed version bootstrappers for each servicing release.
 
@@ -55,6 +55,21 @@ To get the latest bootstrappers for Visual Studio 2022 that always install the l
 
 ::: moniker-end
 
+::: moniker range=">=visualstudio"
+
+<!-- tbd No release history page yet -->
+To get the latest bootstrappers for Visual Studio 2026 that always install the latest version of the Current channel, download one of the files in the following table. Alternatively, to install a specific version or a specific channel of Visual Studio 2026, see the [Visual Studio 2026 Release History](/visualstudio/releases/2026/release-history#release-dates-and-build-numbers) page. This page has links to the fixed version bootstrappers for each servicing release.
+
+<!-- tbd Release build links not active yet -->
+| **Edition**                      | **Bootstrapper**                                                                                   |
+|----------------------------|-------------------------------------------------------------------------------------------|
+| Visual Studio 2026 Enterprise   | [vs_enterprise.exe](https://aka.ms/vs/18/release/vs_enterprise.exe)     |
+| Visual Studio 2026 Professional | [vs_professional.exe](https://aka.ms/vs/18/release/vs_professional.exe) |
+| Visual Studio 2026 Community    | [vs_community.exe](https://aka.ms/vs/18/release/vs_community.exe)       |
+| Visual Studio 2026 Build Tools   | [vs_buildtools.exe](https://aka.ms/vs/18/release/vs_buildtools.exe)         |
+
+::: moniker-end
+
 ::: moniker range="vs-2019"
 
 >[!TIP]
@@ -63,6 +78,13 @@ To get the latest bootstrappers for Visual Studio 2022 that always install the l
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
+
+>[!TIP]
+>If you previously downloaded a bootstrapper file and want to verify what version it will install, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties** and then choose the **Details** tab. The **Product version** field will describe the [channel and version](/visualstudio/releases/2022/release-rhythm-vs2022) that the bootstrapper will install. The version number should always be read as "latest servicing version of what is specified", and the channel is Current unless explicitly specified. So, a bootstrapper with a Product version of LTSC 17.0 will install the latest 17.0.x servicing release that is available on the 17.0 LTSC channel. A bootstrapper with a Product version that simply says Visual Studio 2022 will install the latest version of Visual Studio 2022 on the Current channel.
+
+::: moniker-end
+
+::: moniker range=">=visualstudio"
 
 >[!TIP]
 >If you previously downloaded a bootstrapper file and want to verify what version it will install, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties** and then choose the **Details** tab. The **Product version** field will describe the [channel and version](/visualstudio/releases/2022/release-rhythm-vs2022) that the bootstrapper will install. The version number should always be read as "latest servicing version of what is specified", and the channel is Current unless explicitly specified. So, a bootstrapper with a Product version of LTSC 17.0 will install the latest 17.0.x servicing release that is available on the 17.0 LTSC channel. A bootstrapper with a Product version that simply says Visual Studio 2022 will install the latest version of Visual Studio 2022 on the Current channel.
@@ -179,6 +201,18 @@ You can modify the update settings and programmatically configure the source loc
 
 Syntax examples: 
 
+::: moniker range=">=visualstudio"
+<!-- tbd Confirm updates, such as LTSC.18.0-->
+  ```shell
+  C:\>"C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" modifySettings --installPath "C:\Program Files\Microsoft Visual Studio\18\Enterprise" --newChannelUri https://aka.ms/vs/18/release.LTSC.18.0/channel --removeOos true
+  ```
+
+  ```shell 
+   C:\>"C:\Program Files\Microsoft\Visual Studio\2022\Enterprise\vs_enterprise.exe" modifySettings --channelUri https://aka.ms/vs/18/release.LTSC.18.0/channel --productID Microsoft.VisualStudio.Product.Enterprise --newChannelUri \\layoutserver\share\path\channelmanifest.json --removeOos true --quiet
+  ``` 
+::: moniker-end
+
+::: moniker range="=vs-2022"
   ```shell
   C:\>"C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" modifySettings --installPath "C:\Program Files\Microsoft\Visual Studio\2022\Enterprise" --newChannelUri https://aka.ms/vs/17/release.LTSC.17.0/channel --removeOos true
   ```
@@ -186,6 +220,7 @@ Syntax examples:
   ```shell 
    C:\>"C:\Program Files\Microsoft\Visual Studio\2022\Enterprise\vs_enterprise.exe" modifySettings --channelUri https://aka.ms/vs/17/release.LTSC.17.0/channel --productID Microsoft.VisualStudio.Product.Enterprise --newChannelUri \\layoutserver\share\path\channelmanifest.json --removeOos true --quiet
   ``` 
+::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
@@ -200,13 +235,22 @@ Starting in Visual Studio 2022, you can [roll back an update](/troubleshoot/deve
 | **rollback parameters**                   | **Description**                                                                           |
 |-------------------------------------------|-------------------------------------------------------------------------------------------|
 | `--installPath <dir>`                     | **Recommended** to use to specify which instance of Visual Studio to act upon.            |
+::: moniker-end
 
+::: moniker range=">=visualstudio"
+Syntax examples: 
+
+  ```shell
+  "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" rollback -–installPath "C:\Program Files\Microsoft Visual Studio\18\Enterprise"
+  ```
+::: moniker-end
+
+::: moniker range="=vs-2022"
 Syntax examples: 
 
   ```shell
   "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" rollback -–installPath "C:\Program Files\Microsoft Visual Studio\2022\Enterprise"
   ```
-
 ::: moniker-end
   
 ## Administrator Update command and command-line parameters
@@ -265,6 +309,28 @@ Syntax example:
 
 You can use the [Windows Package Manager](/windows/package-manager/winget/) "winget" tool to programmatically install, modify, or update Visual Studio on your machine along with other packages managed by winget. 
 
+::: moniker range=">=visualstudio"
+<!-- tbd Is 2026 the new value? -->
+By default, winget just installs the Visual Studio core workload. 
+
+  ```shell
+  winget install --id Microsoft.VisualStudio.2026.Community
+  ```
+  
+However, if you want to customize the installation and specify additional workloads and components to acquire during initial installation, you can use winget's `--override` switch alongside winget's `install` command, and pass in an [exported vsconfig file](import-export-installation-configurations.md) that contains the workloads and components to add:
+
+  ```shell
+  winget install --id Microsoft.VisualStudio.2026.Community --override "--passive --config c:\my.vsconfig"
+  ```
+
+Of course, you can also just include components directly during the initial installation, like this:
+
+ ```shell
+  winget install --id Microsoft.VisualStudio.2026.Community --override "--quiet --add Microsoft.Visualstudio.Workload.Azure"
+  ```
+::: moniker-end
+
+::: moniker range="=vs-2022"
 By default, winget just installs the Visual Studio core workload. 
 
   ```shell
@@ -282,6 +348,7 @@ Of course, you can also just include components directly during the initial inst
  ```shell
   winget install --id Microsoft.VisualStudio.2022.Community --override "--quiet --add Microsoft.Visualstudio.Workload.Azure"
   ```
+::: moniker-end
 
 If you already have Visual Studio installed on your machine, then it's possible to use [winget's `configure` command](/windows/package-manager/winget/configure) along with the [Visual Studio PowerShell DSC provider](https://www.powershellgallery.com/packages/Microsoft.VisualStudio.DSC), a yaml file, and a .vsconfig file to **add** components to an existing Visual Studio installation. Winget's `configure` command essentially acts as a Visual Studio "modify" operation. See [how to author a WinGet Configuration file](/windows/package-manager/configuration/create) to learn how to create a winget configuration.
 
