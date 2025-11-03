@@ -197,7 +197,7 @@
 - name: Resources
   items:
   - name: Visual Studio licensing white paper
-    href: https://visualstudio.microsoft.com/wp-content/uploads/2019/06/Visual-Studio-Licensing-Whitepaper-May-2019.pdf
+    href: https://aka.ms/vslicensing
   - name: Compare subscription options and pricing
     href: https://visualstudio.microsoft.com/vs/pricing
   - name: Compare Visual Studio IDE features
