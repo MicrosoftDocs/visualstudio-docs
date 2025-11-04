@@ -2,7 +2,7 @@
 title: Apply admin updates to Visual Studio with Microsoft Endpoint Manager
 titleSuffix: ''
 description: Apply administrator updates to Visual Studio with Microsoft Endpoint Configuration Manager, view configurations, explore update distribution, view reports, and more.
-ms.date: 9/28/2023
+ms.date: 11/04/2025
 ms.topic: overview
 author: anandmeg
 ms.author: meghaanand
@@ -61,12 +61,22 @@ The title of each administrator update the resultant version of the update. For 
 
 ::: moniker-end
 
-::: moniker range=">=vs-2022"
+::: moniker range="=vs-2022"
 
 * **Visual Studio 2022 version 17.0.3 update** classified as "Security Update" will apply to any Visual Studio 2022 edition on the client that is on either the [Current channel or the 17.0 LTSC channel](/visualstudio/install/update-visual-studio?view=vs-2022&preserve-view=true#configure-source-location-of-updates-1), and bring it **up** to the 17.0.3 version.  
 * **Visual Studio 2022 version 17.1.0 update** classified as a "Feature Pack" will apply to Visual Studio 2022 editions licensed for enterprise use on the client that is on the Current channel, and it will update it to the 17.1.0 version. 
 * **Visual Studio 2022 version 17.2.7 update** classified as "Security Update" will apply to any Visual Studio 2022 edition on the client that is on either the Current channel or the 17.2 LTSC channel, and bring it **up** to the 17.2.7 version. 
 * **Visual Studio 2022 version 17.3.7 security update** will apply to any Visual Studio 2022 edition on the client that is on the Current channel and bring it **up** to the 17.3.7 version. 
+
+If the client instance is greater than the version of the administrator update that's being applied, then the administrator update will have no effect.
+::: moniker-end
+
+::: moniker range="=visualstudio"
+<!-- tbd Needs review-->
+* **Visual Studio 2026 version 18.0.3 update** classified as "Security Update" will apply to any Visual Studio 2026 edition on the client that is on the [18.0 Stable channel](/visualstudio/install/update-visual-studio?view=visualstudio&preserve-view=true#configure-source-location-of-updates-1), and bring it **up** to the 18.0.3 version.  
+* **Visual Studio 2026 version 18.1.0 update** classified as a "Feature Pack" will apply to Visual Studio 2026 editions licensed for enterprise use on the client that is on the Stable channel, and it will update it to the 18.1.0 version. 
+* **Visual Studio 2026 version 18.2.7 update** classified as "Security Update" will apply to any Visual Studio 2026 edition on the client that is on the Stable channel, and bring it **up** to the 18.2.7 version. 
+* **Visual Studio 2026 version 18.3.7 security update** will apply to any Visual Studio 2026 edition on the client that is on the Stable channel and bring it **up** to the 18.3.7 version. 
 
 If the client instance is greater than the version of the administrator update that's being applied, then the administrator update will have no effect.
 ::: moniker-end
