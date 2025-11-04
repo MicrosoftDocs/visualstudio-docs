@@ -58,7 +58,7 @@
   href: access-github.md
 - name: Visual Studio IDE
   href: vs-ide-benefit.md
-- name: Sign in to use Visual Studio
+- name: Authenticating Visual Studio IDE
   href: use-visual-studio-without-key.md
 - name: Azure benefits
   items:
