@@ -103,19 +103,6 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
   
     Extensions that target lower SKUs work with all higher SKUs. For example, extensions that target Community work with all Visual Studio SKUs, and extensions that target Pro also work with Enterprise.
 
-  - `ProductArchitecture` - This attribute specifies the platform architecture versions of Visual Studio that the extension supports. For example, if your extension supports AMD64 and ARM64, use the following XML code:
-  
-    ```xml
-    <Installation AllUsers="true">
-       <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,)">
-          <ProductArchitecture>amd64</ProductArchitecture>
-       </InstallationTarget>
-       <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,)">
-          <ProductArchitecture>arm64</ProductArchitecture>
-       </InstallationTarget>
-    </Installation>
-    ```
-
   - `Version` - This attribute specifies a version range with the minimum and maximum supported versions of this SKU. A package can detail the versions of the SKUs that it supports. The version range notation is [10.0 - 11.0], where
 
     - [ - minimum version inclusive.
@@ -136,6 +123,20 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
     When expressing the version for Visual Studio releases, the minor version should always be **0**. For example, Visual Studio 2017 version 15.3.26730.0 should be expressed as [15.0.26730.0,16.0). This is only required for Visual Studio 2017 and later version numbers.
 
   - `AnyAttribute*` - The `<InstallationTarget>` element allows an open-ended set of attributes that is exposed at run time as a name-value pair dictionary.
+
+  The `ProductArchitecture` can be used as a child element of `InstallationTarget`. It specifies the platform architecture versions of Visual Studio that the extension supports. For example, if your extension supports AMD64 and ARM64, use the following XML code:
+  
+    ```xml
+    <Installation AllUsers="true">
+       <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,)">
+          <ProductArchitecture>amd64</ProductArchitecture>
+       </InstallationTarget>
+       <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,)">
+          <ProductArchitecture>arm64</ProductArchitecture>
+       </InstallationTarget>
+    </Installation>
+    ```
+
 
 ## Dependencies element
 
