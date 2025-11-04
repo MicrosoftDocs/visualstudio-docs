@@ -58,7 +58,7 @@ To get the latest bootstrappers for Visual Studio 2022 that always install the l
 ::: moniker range=">=visualstudio"
 
 <!-- tbd No release history page yet -->
-To get the latest bootstrappers for Visual Studio 2026 that always install the latest version of the Current channel, download one of the files in the following table. Alternatively, to install a specific version or a specific channel of Visual Studio 2026, see the [Visual Studio 2026 Release History](/visualstudio/releases/2026/release-history#release-dates-and-build-numbers) page. This page has links to the fixed version bootstrappers for each servicing release.
+To get the latest bootstrappers for Visual Studio 2026 that always install the latest version of the Current channel, download one of the files in the following table. Alternatively, to install a specific version or a specific channel of Visual Studio 2026, see the [Visual Studio 2026 Release History](/visualstudio/releases/vs18/release-history#release-dates-and-build-numbers) page. This page has links to the fixed version bootstrappers for each servicing release.
 
 <!-- tbd Release build links not active yet -->
 | **Edition**                      | **Bootstrapper**                                                                                   |

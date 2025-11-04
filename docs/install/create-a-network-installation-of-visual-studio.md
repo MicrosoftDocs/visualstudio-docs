@@ -73,7 +73,7 @@ The following bootstrappers always install the latest most secure version of Vis
 ::: moniker range="visualstudio"
 
 <!-- tbd release history link not available-->
-The following bootstrappers always install the latest most secure version of Visual Studio 2026 on the Current channel, no matter when you run them. If you want to create or update a layout to a specific version or a specific channel of Visual Studio 2026, download the appropriate bootstrapper. Both the evergreen and fixed-version bootstrappers for each servicing release and channel are available on the [Visual Studio 2026 Release History](/visualstudio/releases/2026/release-history#release-dates-and-build-numbers) page. Download the one you want, and copy it into the directory that you want to use as the source location for the layout. 
+The following bootstrappers always install the latest most secure version of Visual Studio 2026 on the Current channel, no matter when you run them. If you want to create or update a layout to a specific version or a specific channel of Visual Studio 2026, download the appropriate bootstrapper. Both the evergreen and fixed-version bootstrappers for each servicing release and channel are available on the [Visual Studio 2026 Release History](/visualstudio/releases/vs18/release-history#release-dates-and-build-numbers) page. Download the one you want, and copy it into the directory that you want to use as the source location for the layout. 
 
 | Edition                         | Bootstrapper                                                            |
 |---------------------------------|-------------------------------------------------------------------------|
