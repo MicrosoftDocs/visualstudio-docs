@@ -1,7 +1,7 @@
 ---
 title: Create a network-based installation
 description: Create a private network install point to deploy Visual Studio to support enterprise users with limited permissions or client machines with limited internet access.
-ms.date: 4/24/2025
+ms.date: 11/3/2025
 ms.topic: how-to
 helpviewer_keywords:
 - '{{PLACEHOLDER}}'
@@ -70,6 +70,20 @@ The following bootstrappers always install the latest most secure version of Vis
 
 ::: moniker-end
 
+::: moniker range="visualstudio"
+
+<!-- tbd release history link not available-->
+The following bootstrappers always install the latest most secure version of Visual Studio 2026 on the Current channel, no matter when you run them. If you want to create or update a layout to a specific version or a specific channel of Visual Studio 2026, download the appropriate bootstrapper. Both the evergreen and fixed-version bootstrappers for each servicing release and channel are available on the [Visual Studio 2026 Release History](/visualstudio/releases/2026/release-history#release-dates-and-build-numbers) page. Download the one you want, and copy it into the directory that you want to use as the source location for the layout. 
+
+| Edition                         | Bootstrapper                                                            |
+|---------------------------------|-------------------------------------------------------------------------|
+| Visual Studio 2026 Enterprise   | [vs_enterprise.exe](https://aka.ms/vs/18/release/vs_enterprise.exe)     |
+| Visual Studio 2026 Professional | [vs_professional.exe](https://aka.ms/vs/18/release/vs_professional.exe) |
+| Visual Studio 2026 Community    | [vs_community.exe](https://aka.ms/vs/18/release/vs_community.exe)    |
+| Visual Studio 2026 Build Tools  | [vs_buildtools.exe](https://aka.ms/vs/18/release/vs_buildtools.exe)     |
+
+::: moniker-end
+
 ::: moniker range="vs-2019"
 
 >[!TIP]
@@ -77,10 +91,17 @@ The following bootstrappers always install the latest most secure version of Vis
 
 ::: moniker-end
 
-::: moniker range=">=vs-2022"
+::: moniker range="=vs-2022"
 
 >[!TIP]
 >If you previously downloaded a bootstrapper file and want to verify the version it installs, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties** and then choose the **Details** tab. The **Product version** field describes the [channel and version](/visualstudio/releases/2022/release-rhythm-vs2022) that the bootstrapper installs. The version number should always be read as "latest servicing version of what is specified", and the channel is assumed to be Current unless explicitly specified. So, a bootstrapper with a Product version of LTSC 17.0 installs the latest 17.0.x servicing release that's available on the 17.0 LTSC channel. A bootstrapper with a Product version that says Visual Studio 2022 installs the latest servicing version of Visual Studio 2022 on the Current channel.
+
+::: moniker-end
+
+::: moniker range=">=visualstudio"
+
+>[!TIP]
+>If you previously downloaded a bootstrapper file and want to verify the version it installs, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties** and then choose the **Details** tab. The **Product version** field describes the [channel and version](/visualstudio/releases/vs18/release-rhythm) that the bootstrapper installs. The version number should always be read as "latest servicing version of what is specified", and the channel is assumed to be Current unless explicitly specified. So, a bootstrapper with a Product version of LTSC 18.0 installs the latest 18.0.x servicing release that's available on the 18.0 LTSC channel. A bootstrapper with a Product version that says Visual Studio 2026 installs the latest servicing version of Visual Studio 2026 on the Current channel.
 
 ::: moniker-end
 
@@ -97,7 +118,7 @@ The recommended approach is to create an initial layout of Visual Studio with al
   ```vs_enterprise.exe --layout c:\VSLayout```
   
 ::: moniker range=">=vs-2022"
-
+<!-- paused -->
 ### Ensure your layout is based off of the correct channel
 
 It's important to ensure that the network layout is based on the correct [channel](/visualstudio/releases/2022/release-rhythm-vs2022). This is because the channel is one of the criteria that [administrator updates](applying-administrator-updates.md) use, when deployed throughout the organization, to identify which client instances should be updated. For example, if your layout is based on the VisualStudio.17.Release.LTSC.17.0 channel and if your clients are configured to receive updates from Microsoft-hosted servers, then any security updates released on the 17.0 LTSC channel will be available to the clients that installed or updated from that layout. 
