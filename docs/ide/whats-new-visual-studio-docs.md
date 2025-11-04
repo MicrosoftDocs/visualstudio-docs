@@ -62,9 +62,9 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 - [Project settings for C# debug configurations (.NET Core, .NET 5+, and ASP.NET Core)](../debugger/project-settings-for-csharp-debug-configurations-dotnetcore.md) - Update information on accessing launch profile
 - [Configure Edit and Continue (C#, VB, C++)](../debugger/how-to-enable-and-disable-edit-and-continue.md) - Update for Hot Reload auto-restart and Razor
 - Update port information for remote debugging
-  - [Configure Windows Firewall for remote debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md) 
-  - [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md) - Update port information for remote debugging
-  - [Remote Debugging a C# or Visual Basic project in Visual Studio](../debugger/remote-debugging-csharp.md) - Update port information for remote debugging
+  - [Configure Windows Firewall for remote debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md)
+  - [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md)
+  - [Remote Debugging a C# or Visual Basic project in Visual Studio](../debugger/remote-debugging-csharp.md)
 Update **Tools** > **Options** settings
   - [Display WPF trace information for data binding](../debugger/how-to-display-wpf-trace-information.md)
   - [Debug .NET Framework source](../debugger/how-to-debug-dotnet-framework-source.md)
