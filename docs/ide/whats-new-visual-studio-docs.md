@@ -151,7 +151,7 @@ Update **Tools** > **Options** settings
 
 - [Inefficient immutable collection modifications](../profiling/performance-insights-immutable-collection.md)
 - [Inefficient LinkedList traversal](../profiling/performance-insights-linked-list-traversal.md)
-- [Inefficient List<T>.Find usage](../profiling/performance-insights-list-find.md)
+- [Inefficient List\<T>.Find usage](../profiling/performance-insights-list-find.md)
 - [Inefficient string.Format or interpolation usage](../profiling/performance-insights-string-format.md)
 
 **Updated articles**
