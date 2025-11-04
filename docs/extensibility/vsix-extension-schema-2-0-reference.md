@@ -105,16 +105,16 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
 
   - `ProductArchitecture` - This attribute specifies the platform architecture versions of Visual Studio that the extension supports. For example, if your extension supports AMD64 and ARM64, use the following XML code:
   
-     ```xml
-     <Installation AllUsers="true">
-        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,)">
-           <ProductArchitecture>amd64</ProductArchitecture>
-        </InstallationTarget>
-        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,)">
-           <ProductArchitecture>arm64</ProductArchitecture>
-        </InstallationTarget>
-     </Installation>
-     ```
+    ```xml
+    <Installation AllUsers="true">
+       <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,)">
+          <ProductArchitecture>amd64</ProductArchitecture>
+       </InstallationTarget>
+       <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,)">
+          <ProductArchitecture>arm64</ProductArchitecture>
+       </InstallationTarget>
+    </Installation>
+    ```
 
   - `Version` - This attribute specifies a version range with the minimum and maximum supported versions of this SKU. A package can detail the versions of the SKUs that it supports. The version range notation is [10.0 - 11.0], where
 
