@@ -26,7 +26,7 @@ You can specify which types of debugging information appear in the **Output** wi
 :::moniker-end
 :::moniker range="<=vs-2022"
       
-You can specify which types of debugging information appear in the **Output** window. These options are available in the **Tools** (or **Debug**) > **Options** dialog under the **Debugging** > **Output window** section. 
+You can specify which types of debugging information appear in the **Output** window. These options are available in the **Tools** (or **Debug**) > **Options** dialog under the **Debugging** > **Output Window** section. 
 
 :::moniker-end
 
