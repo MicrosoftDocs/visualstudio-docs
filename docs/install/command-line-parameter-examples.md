@@ -122,8 +122,7 @@ Using the [latest installer](update-visual-studio.md#use-the-latest-and-greatest
 
 | **Channel Name** | **--channelUri** | [**--channelId**](create-a-network-installation-of-visual-studio.md#ensure-your-layout-is-based-off-of-the-correct-channel) |
 |------------------|------------------|-----------------|
-| Visual Studio 2026 Current channel | `https://aka.ms/vs/18/release/channel` | `VisualStudio.17.Release` |
-| Visual Studio 2026 18.0 LTSC channel | `https://aka.ms/vs/18/release.LTSC.18.0/channel` | `VisualStudio.18.Release.LTSC.18.0` |
+| Visual Studio 2026 Stable channel | `https://aka.ms/vs/18/stable/channel` | `VisualStudio.18.Stable` |
 | Visual Studio 2026 Insiders channel | `https://aka.ms/vs/18/insiders/channel` | `VisualStudio.18.Insiders` |
 | Visual Studio 2022 Current channel | `https://aka.ms/vs/17/release/channel` | `VisualStudio.17.Release` |
 | Visual Studio 2022 17.0 LTSC channel | `https://aka.ms/vs/17/release.LTSC.17.0/channel` | `VisualStudio.17.Release.LTSC.17.0` |
@@ -165,7 +164,7 @@ Using the [latest installer](update-visual-studio.md#use-the-latest-and-greatest
 
   ```shell
   "C:\Program Files (x86)\Microsoft Visual studio\Installer\setup.exe" modify ^
-  --channelURI https://aka.ms/vs/18/release.LTSC.18.0/channel ^
+  --channelURI https://aka.ms/vs/18/stable.18.0/channel ^
   --productID Microsoft.VisualStudio.Product.Enterprise ^
   --newChannelURI \\layoutserver\share\path\channelmanifest.json ^
   --removeOos true ^

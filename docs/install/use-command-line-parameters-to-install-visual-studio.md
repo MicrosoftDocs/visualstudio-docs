@@ -63,10 +63,10 @@ To get the latest bootstrappers for Visual Studio 2026 that always install the l
 <!-- tbd Release build links not active yet -->
 | **Edition**                      | **Bootstrapper**                                                                                   |
 |----------------------------|-------------------------------------------------------------------------------------------|
-| Visual Studio 2026 Enterprise   | [vs_enterprise.exe](https://aka.ms/vs/18/release/vs_enterprise.exe)     |
-| Visual Studio 2026 Professional | [vs_professional.exe](https://aka.ms/vs/18/release/vs_professional.exe) |
-| Visual Studio 2026 Community    | [vs_community.exe](https://aka.ms/vs/18/release/vs_community.exe)       |
-| Visual Studio 2026 Build Tools   | [vs_buildtools.exe](https://aka.ms/vs/18/release/vs_buildtools.exe)         |
+| Visual Studio 2026 Enterprise   | [vs_enterprise.exe](https://aka.ms/vs/18/stable/vs_enterprise.exe)     |
+| Visual Studio 2026 Professional | [vs_professional.exe](https://aka.ms/vs/18/stable/vs_professional.exe) |
+| Visual Studio 2026 Community    | [vs_community.exe](https://aka.ms/vs/18/stable/vs_community.exe)       |
+| Visual Studio 2026 Build Tools   | [vs_buildtools.exe](https://aka.ms/vs/18/stable/vs_buildtools.exe)         |
 
 ::: moniker-end
 
@@ -87,7 +87,7 @@ To get the latest bootstrappers for Visual Studio 2026 that always install the l
 ::: moniker range=">=visualstudio"
 
 >[!TIP]
->If you previously downloaded a bootstrapper file and want to verify what version it will install, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties** and then choose the **Details** tab. The **Product version** field will describe the [channel and version](/visualstudio/releases/vs18/release-rhythm) that the bootstrapper will install. The version number should always be read as "latest servicing version of what is specified", and the channel is Current unless explicitly specified. So, a bootstrapper with a Product version of LTSC 18.0 will install the latest 18.0.x servicing release that is available on the 18.0 LTSC channel. A bootstrapper with a Product version that simply says Visual Studio 2026 will install the latest version of Visual Studio 2026 on the Current channel.
+>If you previously downloaded a bootstrapper file and want to verify what version it will install, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties** and then choose the **Details** tab. The **Product version** field will describe the [channel and version](/visualstudio/releases/vs18/release-rhythm) that the bootstrapper will install. The version number should always be read as "latest servicing version of what is specified", and the channel is Current unless explicitly specified. So, a bootstrapper with a Product version of Stable 18.0 will install the latest 18.0.x servicing release that is available on the 18.0 Stable channel. A bootstrapper with a Product version that simply says Visual Studio 2026 will install the latest version of Visual Studio 2026 on the Stable channel.
 
 ::: moniker-end
 
@@ -202,13 +202,12 @@ You can modify the update settings and programmatically configure the source loc
 Syntax examples: 
 
 ::: moniker range=">=visualstudio"
-<!-- tbd Confirm updates, such as LTSC.18.0-->
   ```shell
-  C:\>"C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" modifySettings --installPath "C:\Program Files\Microsoft Visual Studio\18\Enterprise" --newChannelUri https://aka.ms/vs/18/release.LTSC.18.0/channel --removeOos true
+  C:\>"C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" modifySettings --installPath "C:\Program Files\Microsoft Visual Studio\18\Enterprise" --newChannelUri https://aka.ms/vs/18/stable.18.0/channel --removeOos true
   ```
 
   ```shell 
-   C:\>"C:\Program Files\Microsoft\Visual Studio\2022\Enterprise\vs_enterprise.exe" modifySettings --channelUri https://aka.ms/vs/18/release.LTSC.18.0/channel --productID Microsoft.VisualStudio.Product.Enterprise --newChannelUri \\layoutserver\share\path\channelmanifest.json --removeOos true --quiet
+   C:\>"C:\Program Files\Microsoft\Visual Studio\2022\Enterprise\vs_enterprise.exe" modifySettings --channelUri https://aka.ms/vs/18/stable.18.0/channel --productID Microsoft.VisualStudio.Product.Enterprise --newChannelUri \\layoutserver\share\path\channelmanifest.json --removeOos true --quiet
   ``` 
 ::: moniker-end
 

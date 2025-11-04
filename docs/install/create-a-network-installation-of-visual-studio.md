@@ -77,10 +77,10 @@ The following bootstrappers always install the latest most secure version of Vis
 
 | Edition                         | Bootstrapper                                                            |
 |---------------------------------|-------------------------------------------------------------------------|
-| Visual Studio 2026 Enterprise   | [vs_enterprise.exe](https://aka.ms/vs/18/release/vs_enterprise.exe)     |
-| Visual Studio 2026 Professional | [vs_professional.exe](https://aka.ms/vs/18/release/vs_professional.exe) |
-| Visual Studio 2026 Community    | [vs_community.exe](https://aka.ms/vs/18/release/vs_community.exe)    |
-| Visual Studio 2026 Build Tools  | [vs_buildtools.exe](https://aka.ms/vs/18/release/vs_buildtools.exe)     |
+| Visual Studio 2026 Enterprise   | [vs_enterprise.exe](https://aka.ms/vs/18/stable/vs_enterprise.exe)     |
+| Visual Studio 2026 Professional | [vs_professional.exe](https://aka.ms/vs/18/stable/vs_professional.exe) |
+| Visual Studio 2026 Community    | [vs_community.exe](https://aka.ms/vs/18/stable/vs_community.exe)    |
+| Visual Studio 2026 Build Tools  | [vs_buildtools.exe](https://aka.ms/vs/18/stable/vs_buildtools.exe)     |
 
 ::: moniker-end
 
@@ -101,7 +101,7 @@ The following bootstrappers always install the latest most secure version of Vis
 ::: moniker range=">=visualstudio"
 
 >[!TIP]
->If you previously downloaded a bootstrapper file and want to verify the version it installs, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties** and then choose the **Details** tab. The **Product version** field describes the [channel and version](/visualstudio/releases/vs18/release-rhythm) that the bootstrapper installs. The version number should always be read as "latest servicing version of what is specified", and the channel is assumed to be Current unless explicitly specified. So, a bootstrapper with a Product version of LTSC 18.0 installs the latest 18.0.x servicing release that's available on the 18.0 LTSC channel. A bootstrapper with a Product version that says Visual Studio 2026 installs the latest servicing version of Visual Studio 2026 on the Current channel.
+>If you previously downloaded a bootstrapper file and want to verify the version it installs, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties** and then choose the **Details** tab. The **Product version** field describes the [channel and version](/visualstudio/releases/vs18/release-rhythm) that the bootstrapper installs. The version number should always be read as "latest servicing version of what is specified", and the channel is assumed to be Current unless explicitly specified. So, a bootstrapper with a Product version of Stable 18.0 installs the latest 18.0.x servicing release that's available on the 18.0 Stable channel. A bootstrapper with a Product version that says Visual Studio 2026 installs the latest servicing version of Visual Studio 2026 on the Stable channel.
 
 ::: moniker-end
 
