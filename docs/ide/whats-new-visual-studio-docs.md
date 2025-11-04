@@ -65,7 +65,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
   - [Configure Windows Firewall for remote debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md)
   - [Remote Debugger Port Assignments](../debugger/remote-debugger-port-assignments.md)
   - [Remote Debugging a C# or Visual Basic project in Visual Studio](../debugger/remote-debugging-csharp.md)
-Update **Tools** > **Options** settings
+- Update **Tools** > **Options** settings
   - [Display WPF trace information for data binding](../debugger/how-to-display-wpf-trace-information.md)
   - [Debug .NET Framework source](../debugger/how-to-debug-dotnet-framework-source.md)
   - [General debugging options](../debugger/general-debugging-options-dialog-box.md)
