@@ -50,6 +50,7 @@ Make a plan for how you deploy Visual Studio across your organization. It's best
 
 ::: moniker range=">=visualstudio"
 <!-- tbd No new servicing article yet. -->
+<!-- tbd Search Admin guide for DEV18 links to articles under the VS 2022 TOC node, since these would need to update to corresponding NEW 2026 articles. -->
 - If your company needs to stay on a feature set longer but still wants to get regular servicing security updates, you should plan to use a long-term servicing channel (LTSC). For more information, see the **Support options for Enterprise and Professional customers** section of the [Visual Studio product lifecycle and servicing](/visualstudio/releases/vs18/servicing-vs2026#enterprise-professional-and-build-tools-editions-support) page.  
 ::: moniker-end
 

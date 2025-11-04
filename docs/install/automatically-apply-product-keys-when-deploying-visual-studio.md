@@ -1,7 +1,7 @@
 ---
 title: Automatically apply product keys
 description: Apply your product key programmatically during or after installation as part of a script to automate deployment of Visual Studio.
-ms.date: 7/7/2023
+ms.date: 11/04/2025
 ms.topic: article
 author: anandmeg
 ms.author: meghaanand
@@ -64,6 +64,37 @@ The following example shows a command line for applying the license for Visual S
 
 ::: moniker-end
 
+:::moniker range="visualstudio"
+
+## Apply the license after installation
+
+You can activate an installed version of Visual Studio with a product key by using the `StorePID.exe` utility on the target machines, in silent mode. `StorePID.exe` is a utility program that installs with Visual Studio 2026 at the following default location:
+
+```shell
+C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE
+```
+
+ Run `StorePID.exe` with elevated privileges, either by using a System Center agent or an elevated command prompt. Follow it with the product key and the Microsoft Product Code (MPC).
+
+>[!IMPORTANT]
+> Make sure to include the dashes in the product key.
+
+ ```shell
+ StorePID.exe [product key including the dashes] [MPC]
+ ```
+
+::: moniker-end
+
+::: moniker range="visualstudio"
+
+The following example shows a command line for applying the license for Visual Studio 2026 Enterprise, which has an MPC of 09660, a product key of `AAAAA-BBBBB-CCCCC-DDDDD-EEEEE`, and assumes a default installation location:
+
+```shell
+"C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\StorePID.exe" AAAAA-BBBBB-CCCCC-DDDDD-EEEEE 09660
+```
+
+::: moniker-end
+
 ::: moniker range="vs-2019"
 
 The following example shows a command line for applying the license for Visual Studio 2019 Enterprise, which has an MPC of 09260, a product key of `AAAAA-BBBBB-CCCCC-DDDDD-EEEEE`, and assumes a default installation location:
@@ -80,6 +111,15 @@ The following example shows a command line for applying the license for Visual S
 |--------------------------------------|-------|
 | Visual Studio Enterprise 2022        | 09660 |
 | Visual Studio Professional 2022      | 09662 |
+
+::: moniker-end
+
+::: moniker range="visualstudio"
+
+| Visual Studio Edition                | MPC   |
+|--------------------------------------|-------|
+| Visual Studio Enterprise 2026        | 09660 |
+| Visual Studio Professional 2026      | 09662 |
 
 ::: moniker-end
 
@@ -111,7 +151,7 @@ If `StorePID.exe` successfully applies the product key, it returns an `%ERRORLEV
 
 ::: moniker-end
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 If `StorePID.exe` successfully applies the product key, it returns an `%ERRORLEVEL%` of 0. If it encounters errors, it returns one of the following codes, depending on the error condition:
 
