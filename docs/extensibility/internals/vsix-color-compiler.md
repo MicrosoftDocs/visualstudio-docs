@@ -62,7 +62,7 @@ The Visual Studio Extension Color Compiler tool is a console application that ta
 
 :::moniker-end
 
-:::moniker range>="vs-2026"
+:::moniker range="visualstudio"
 
 |**Theme name**|**Theme GUID**|
 |-|-|
