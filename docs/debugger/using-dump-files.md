@@ -1,7 +1,7 @@
 ---
 title: "Use dump files in the debugger"
 description: A dump file is a snapshot of an executing app and loaded modules. Consider creating a dump file for situations where you don't have debug access to the app.
-ms.date: "06/09/2025"
+ms.date: "11/06/2025"
 ms.topic: how-to
 f1_keywords:
   - "vs.debug.crashdump"
@@ -101,11 +101,24 @@ If the dump has heap data, Visual Studio can cope with missing binaries for some
 
 ### Search paths for .exe files
 
-Visual Studio automatically searches these locations for *.exe* files that aren't included in the dump file:
+Visual Studio automatically searches the following locations for *.exe* files that aren't included in the dump file:
 
-1. The folder that contains the dump file.
-2. The module path the dump file specifies, which is the module path on the machine that collected the dump.
-3. The symbol paths specified in **Tools** (or **Debug**) > **Options** > **Debugging** > **Symbols**. You can also open the **Symbols** page from the **Actions** panel of the **Dump File Summary** window. On this page, you can add more locations to search.
+- The folder that contains the dump file.
+
+- The module path the dump file specifies, which is the module path on the machine that collected the dump.
+
+:::moniker range="visualstudio"
+
+- The symbol paths specified in the **Tools** (or **Debug**) > **Options** pane, under the **All Settings** > **Debugging** > **Symbols** section.
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+- The symbol paths specified in **Tools** (or **Debug**) > **Options** dialog, under the **Debugging** > **Symbols** section.
+
+:::moniker-end
+
+   You can also open the **Symbols** page from the **Actions** panel of the **Dump File Summary** window. On this page, you can add more locations to search.
 
 ### Use the No Binary, No Symbols, or No Source Found pages
 
