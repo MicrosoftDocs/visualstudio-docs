@@ -10,8 +10,9 @@ ms.subservice: extensibility-integration
 monikerRange: ">=vs-2022"
 
 ---
+# Upgrade a Visual Studio extension
+
 :::moniker range="visualstudio"
-# Upgrade extensions for Visual Studio 2026
 
 With the latest Insiders prerelease version of Visual Studio, you can easily install Visual Studio 2022 extensions.
 
@@ -46,7 +47,6 @@ If you encounter issues with your extensions in the Insiders prerelease version 
 :::moniker-end
 
 :::moniker range="vs-2022"
-# Upgrade a Visual Studio extension for Visual Studio 2022
 
 > [!IMPORTANT]
 > The advice in this article can guide developers in upgrading extensions that require major changes to work in both Visual Studio 2019 and Visual Studio 2022 or later. In those cases, we recommend that you have two VSIX projects and conditional compilation.
