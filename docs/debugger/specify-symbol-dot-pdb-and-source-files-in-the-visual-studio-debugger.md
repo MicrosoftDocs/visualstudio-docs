@@ -137,23 +137,32 @@ From the **Tools** (or **Debug**) > **Options** menu, you can access the **Debug
 
 2. In the **Symbol file (.pdb) search locations** group box, select the checkbox for each desired server: **Microsoft Symbol Servers**, **NuGet.org Symbol Server**, and so on.
 
+:::moniker-end
+:::moniker range="vs-2022"
+
 3. Add a new symbol server location by selecting **New Location** (**+**) in the toolbar for the **Symbol file (.pdb) search locations** group box.
 
    Enter the URL (http), network share, or local path of the symbol server or symbol location in the text field. Statement completion helps you find the correct format.
 
-   :::moniker range="vs-2022"
-
    :::image type="content" source="media/vs-2022/dbg-options-symbols.png" border="false" alt-text="Screenshot that shows how to add a new symbol server location.":::
-
-   :::moniker-end
-   :::moniker range="<=vs-2019"
-
-   :::image type="content" source="media/dbg-options-symbols.gif" border="false" alt-text="Animation that shows how to add a new symbol server location.":::
-
-   :::moniker-end
 
    > [!NOTE]
    > Only the specified folder is searched. You must add entries for any subfolders that you want to search.
+
+:::moniker-end
+:::moniker range="<=vs-2019"
+
+3. Add a new symbol server location by selecting **New Location** (**+**) in the toolbar for the **Symbol file (.pdb) search locations** group box.
+
+   Enter the URL (http), network share, or local path of the symbol server or symbol location in the text field. Statement completion helps you find the correct format.
+
+   :::image type="content" source="media/dbg-options-symbols.gif" border="false" alt-text="Animation that shows how to add a new symbol server location.":::
+
+   > [!NOTE]
+   > Only the specified folder is searched. You must add entries for any subfolders that you want to search.
+
+:::moniker-end
+:::moniker range="<=vs-2022"
 
 4. Add a new Azure DevOps Symbol Server location by selecting :::image type="icon" source="media/dbg_tools_options_foldersicon.png"::: **New Azure DevOps Symbol Server Location** in the group box toolbar.
 
@@ -198,7 +207,7 @@ From the **Tools** (or **Debug**) > **Options** menu, you can access the **Debug
 
    In the **Debugging** > **Symbols** section, use the dropdown list to set the value of the **Symbol search preferences** option:
 
-   :::image type="content" source="media/visualstudio/dbg-options-symbol-search-preferences.png" border="false" alt-text="Screenshot that shows how to select and configure the Symbol search preferences option.":::
+   :::image type="content" source="media/vs-2022/dbg-options-symbol-search-preferences.png" border="false" alt-text="Screenshot that shows how to select and configure the Symbol search preferences option.":::
 
    - **Automatically choose what module symbols to search for** (recommended): Allow Visual Studio to decide what symbols to search for and load. By default, Visual Studio automatically loads symbols built by your opened solution, and loads any other symbols required to perform common debugging operations. This option reduces the number of files that must be searched for and loaded by Visual Studio, which improves debugger performance. You can force other symbols to load by creating the list of [Included modules](#included-modules-list).
 
