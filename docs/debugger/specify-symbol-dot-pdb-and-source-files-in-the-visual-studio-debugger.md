@@ -103,7 +103,7 @@ From the **Tools** (or **Debug**) > **Options** menu, you can access the **Debug
 
 :::moniker range="visualstudio"
 
-1. Open the **Tools** (or **Debug**) > **Options** pane, expand the **All Settings** > **Debugging** > **General** > **Symbols** > **Search Locations** section.
+1. Open the **Tools** (or **Debug**) > **Options** pane, and expand the **All Settings** > **Debugging** > **General** > **Symbols** > **Search Locations** section.
 
 2. In the right pane, select the checkbox for each desired server: **Microsoft Symbol Servers**, **NuGet.org Symbol Server**, and so on.
 
@@ -145,12 +145,12 @@ From the **Tools** (or **Debug**) > **Options** menu, you can access the **Debug
 
    :::image type="content" source="media/vs-2022/dbg-options-symbols.png" border="false" alt-text="Screenshot that shows how to add a new symbol server location.":::
 
-   ::: moniker-end
-   ::: moniker range="<=vs-2019"
+   :::moniker-end
+   :::moniker range="<=vs-2019"
 
    :::image type="content" source="media/dbg-options-symbols.gif" border="false" alt-text="Animation that shows how to add a new symbol server location.":::
 
-   ::: moniker-end
+   :::moniker-end
 
    > [!NOTE]
    > Only the specified folder is searched. You must add entries for any subfolders that you want to search.
@@ -179,33 +179,33 @@ From the **Tools** (or **Debug**) > **Options** menu, you can access the **Debug
 
 6. Specify the modules for the debugger to load from the symbol file (_.pdb_) locations when it starts.
 
-   ::: moniker range="visualstudio"
+   :::moniker range="visualstudio"
 
    1. Change to the **All Settings** > **Debugging** > **General** > **Symbols** > **Search and Load** section.
 
    1. Use the dropdown list to set the value of the **Automatic symbol searching** option:
    
-      - **Automatically choose what module symbols to search for** (recommended): Allow Visual Studio to decide what symbols to search for and load. By default, Visual Studio automatically loads symbols built by your opened solution, and loads any other symbols required to perform common debugging operations. This option reduces the number of files that must be searched for and loaded by Visual Studio, which improves debugger performance. You can force other symbols to load by creating the list of [Included modules](LINK).
+      - **Automatically choose what module symbols to search for** (recommended): Allow Visual Studio to decide what symbols to search for and load. By default, Visual Studio automatically loads symbols built by your opened solution, and loads any other symbols required to perform common debugging operations. This option reduces the number of files that must be searched for and loaded by Visual Studio, which improves debugger performance. You can force other symbols to load by creating the list of [Included modules](#included-modules-list).
 
         :::image type="content" source="media/visualstudio/dbg-options-choose-modules-for-search.png" border="false" alt-text="Screenshot that shows how to select and configure the Automatically choose what module symbols to search for option.":::
 
-      - **Search for all module symbols unless excluded**: Force Visual Studio to load all symbols in your debugged process. This option isn't recommended because it can slow down your debugging experience. You can force Visual Studio to ignore certain symbols by creating the list of [Excluded modules](LINK).
+      - **Search for all module symbols unless excluded**: Force Visual Studio to load all symbols in your debugged process. This option isn't recommended because it can slow down your debugging experience. You can force Visual Studio to ignore certain symbols by creating the list of [Excluded modules](#excluded-modules-list).
 
         :::image type="content" source="media/visualstudio/dbg-options-search-all-modules.png" border="false" alt-text="Screenshot that shows how to select and configure the Search for all module symbols unless excluded option.":::
 
-   ::: moniker-end
-   ::: moniker range="vs-2022"
+   :::moniker-end
+   :::moniker range="vs-2022"
 
    In the **Debugging** > **Symbols** section, use the dropdown list to set the value of the **Symbol search preferences** option:
 
    :::image type="content" source="media/visualstudio/dbg-options-symbol-search-preferences.png" border="false" alt-text="Screenshot that shows how to select and configure the Symbol search preferences option.":::
 
-   - **Automatically choose what module symbols to search for** (recommended): Allow Visual Studio to decide what symbols to search for and load. By default, Visual Studio automatically loads symbols built by your opened solution, and loads any other symbols required to perform common debugging operations. This option reduces the number of files that must be searched for and loaded by Visual Studio, which improves debugger performance. You can force other symbols to load by creating the list of [Included modules](LINK).
+   - **Automatically choose what module symbols to search for** (recommended): Allow Visual Studio to decide what symbols to search for and load. By default, Visual Studio automatically loads symbols built by your opened solution, and loads any other symbols required to perform common debugging operations. This option reduces the number of files that must be searched for and loaded by Visual Studio, which improves debugger performance. You can force other symbols to load by creating the list of [Included modules](#included-modules-list).
 
-   - **Search for all module symbols unless excluded**: Force Visual Studio to load all symbols in your debugged process. This option isn't recommended because it can slow down your debugging experience. You can force Visual Studio to ignore certain symbols by creating the list of [Excluded modules](LINK).
+   - **Search for all module symbols unless excluded**: Force Visual Studio to load all symbols in your debugged process. This option isn't recommended because it can slow down your debugging experience. You can force Visual Studio to ignore certain symbols by creating the list of [Excluded modules](#excluded-modules-list).
 
-   ::: moniker-end
-   ::: moniker range="<= vs-2019"
+   :::moniker-end
+   :::moniker range="<= vs-2019"
 
    - **Load all modules, unless excluded** (default): Load all symbols for all modules in the symbol file location, except modules you specifically exclude.
    
@@ -215,24 +215,25 @@ From the **Tools** (or **Debug**) > **Options** menu, you can access the **Debug
    
       To identify the modules, select **Specify included modules**. Select **Add** (**+**), enter the names of the modules to include, and then select **OK**. The symbol files for other modules aren't loaded.
 
-   ::: moniker-end
+   :::moniker-end
 
-::: moniker range="<= vs-2022"
+:::moniker range="<= vs-2022"
 
 7. To apply your settings, select **OK**.
 
-::: moniker-end
+:::moniker-end
 
-
-
-
-::: moniker range=">= vs-2022"
+:::moniker range=">= vs-2022"
 
 ### Specify module filters
 
 Both the **Automatically choose ...** and **Search for all ...** options allow you to control what symbols are searched for during debugging.
 
-::: moniker range="visualstudio"
+<a name="included-modules-list"></a>
+
+:::moniker-end
+
+:::moniker range="visualstudio"
 
 For the **Automatically choose what module symbols to search for** option, specify the search list by creating the **Included modules** list. 
 
@@ -244,8 +245,8 @@ For the **Automatically choose what module symbols to search for** option, speci
 
 1. Add more items to the list, as needed.
 
-::: moniker-end
-::: moniker range="vs-2022"
+:::moniker-end
+:::moniker range="vs-2022"
 
 Specify the search list by selecting the **Specify module filters** link:
 
@@ -257,8 +258,9 @@ For the **Automatically choose what module symbols to search for** option, the *
 
 To create the **Modules filter** list, select **New Module** (**+**), enter the new modules, and then select **OK**.
 
-::: moniker-end
+:::moniker-end
 
+:::moniker range=">= vs-2022"
 Module filters support simple wild-card matching. The asterisk _\*_ matches any group of characters. For example, _\*myproduct\*_ matches files such as _myproduct.utilities.dll_ and _entrypoint.myproduct.exe_, among others.
 
 You can configure other options to customize your experience:
@@ -267,7 +269,11 @@ You can configure other options to customize your experience:
 
 - **Automatically load additional symbols when needed**: Visual Studio searches for symbols to perform common debug actions, such as stepping, even if the module you're stepping to isn't in your project or in the modules filter. The way searching is determined can be affected by your [Just My Code](just-my-code.md) settings.
 
-::: moniker range="visualstudio"
+<a name="excluded-modules-list"></a>
+
+:::moniker-end
+
+:::moniker range="visualstudio"
 
 For the **Search for all module symbols, unless excluded** option, specify the search list by creating the **Excluded modules** list. 
 
@@ -279,8 +285,8 @@ For the **Search for all module symbols, unless excluded** option, specify the s
 
 1. Add more items to the list, as needed.
 
-::: moniker-end
-::: moniker range="vs-2022"
+:::moniker-end
+:::moniker range="vs-2022"
 
 For the **Search for all module symbols unless excluded** option, the **Symbol exclusion preferences** dialog opens:
 
@@ -290,22 +296,22 @@ To create the **Modules filter** list, select **New Module** (**+**), enter the 
 
 In this dialog, you can choose what modules you *don't* want Visual Studio to load symbols for. In this scenario, Visual Studio attempts to load symbols for every module in your debugged process (including modules by non-Microsoft parties), unless you add a matching filter to exclude them. The only other way this behavior can be modified is by your [Just My Code](just-my-code.md) settings.
 
-::: moniker-end
+:::moniker-end
 
 ## Other symbol options for debugging
 
 You can select more debugging symbol options from the **Tools** (or **Debug**) > **Options** menu.
 
-::: moniker range="visualstudio"
+:::moniker range="visualstudio"
 
 The following settings are available in the **All Settings** > **Debugging** > **General** section.
 
-::: moniker-end
-::: moniker range="<= vs-2022"
+:::moniker-end
+:::moniker range="<= vs-2022"
 
 The following settings are available in the **Debugging** > **General** section.
 
-::: moniker-end
+:::moniker-end
 
 - **Load dll exports (Native only)**: Loads DLL export tables for C/C++. For details, see [DLL export tables](#use-dumpbin-exports). Reading DLL export information involves some overhead, so loading export tables is turned off by default. You can also use `dumpbin /exports` in a C/C++ build command line.
 
@@ -374,7 +380,7 @@ During debugging, the **Modules** window shows the code modules the debugger is 
 1. In the **Modules** window, right-click the **Symbol Status** or **Symbol File** headers, or any module.
 1. In the context menu, select one of the following options:
 
-   ::: moniker range="visualstudio"
+   :::moniker range="visualstudio"
 
    | Option | Description |
    | --- | --- |
@@ -384,8 +390,8 @@ During debugging, the **Modules** window shows the code modules the debugger is 
    | **Always Load Automatically**       | Adds the selected symbol file to the list of files that are automatically loaded by the debugger. |
    | **Decompile Source to Symbol File** | For .NET code, you can choose this option and then follow instructions in [Generate and embed sources for an assembly](../debugger/decompilation.md#generate-and-embed-sources-for-an-assembly). |
 
-   ::: moniker-end 
-   ::: moniker range="<= vs-2022"
+   :::moniker-end 
+   :::moniker range="<= vs-2022"
 
    | Option | Description |
    | --- | --- |
@@ -395,7 +401,7 @@ During debugging, the **Modules** window shows the code modules the debugger is 
    | **Always Load Automatically**       | Adds the selected symbol file to the list of files that are automatically loaded by the debugger. |
    | **Decompile Source to Symbol File** | For .NET code, you can choose this option and then follow instructions in [Generate and embed sources for an assembly](../debugger/decompilation.md#generate-and-embed-sources-for-an-assembly). |
 
-   ::: moniker-end
+   :::moniker-end
 
 ### Use the No Symbols Loaded/No Source Loaded pages
 
@@ -415,16 +421,16 @@ When this happens, the debugger displays the **No Symbols Loaded** or **No Sourc
 - To change the search path, select an unselected path, or select **New Path** or **New VSTS Path** and enter or select a new path. Select **Load** to search the paths again and load the symbol file if it's found.
 - To override any symbol options and retry the search paths, select **Browse and find \<executable-name>**. The symbol file is loaded if it's found, or **File Explorer** opens so you can manually select the symbol file.
 
-::: moniker range="visualstudio"
+:::moniker range="visualstudio"
 
 - To open the symbol settings page to configure behavior, select **Change Symbol Settings** (or open the **Tools** > **Options** pane and go to the **All Settings** > **Debugging** > **Symbols** > **Search and Load** or **Search Locations** section).
 
-::: moniker-end 
-::: moniker range="<= vs-2022"
+:::moniker-end 
+:::moniker range="<= vs-2022"
 
 - To open the symbol settings page to configure behavior, select **Change Symbol Settings** (or open the **Tools** > **Options** dialog and go to the **Debugging** > **Symbols** section).
 
-::: moniker-end 
+:::moniker-end 
 
 - (Advanced) To show the disassembly in a new window one time, select **view disassembly**, or select **Options dialog** to set the option to always show the disassembly when source or symbol files aren't found. For more information, see [View disassembly code](../debugger/how-to-use-the-disassembly-window.md).
 - To show the locations searched and the outcome, expand **Symbol load information**.
