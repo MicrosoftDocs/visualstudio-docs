@@ -109,16 +109,14 @@ Visual Studio automatically searches the following locations for *.exe* files th
 
 :::moniker range="visualstudio"
 
-- The symbol paths specified in the **Tools** (or **Debug**) > **Options** pane, under the **All Settings** > **Debugging** > **Symbols** section.
+- The symbol paths specified in the **Tools** (or **Debug**) > **Options** pane, under the **All Settings** > **Debugging** > **Symbols** section. You can also open the **Symbols** page from the **Actions** panel of the **Dump File Summary** window. On this page, you can add more locations to search.
 
 :::moniker-end
 :::moniker range="<=vs-2022"
 
-- The symbol paths specified in **Tools** (or **Debug**) > **Options** dialog, under the **Debugging** > **Symbols** section.
+- The symbol paths specified in **Tools** (or **Debug**) > **Options** dialog, under the **Debugging** > **Symbols** section. You can also open the **Symbols** page from the **Actions** panel of the **Dump File Summary** window. On this page, you can add more locations to search.
 
 :::moniker-end
-
-   You can also open the **Symbols** page from the **Actions** panel of the **Dump File Summary** window. On this page, you can add more locations to search.
 
 ### Use the No Binary, No Symbols, or No Source Found pages
 
