@@ -65,7 +65,7 @@ Altering these settings affects all projects you work on. You don't need to rebu
 :::moniker-end
 :::moniker range="<=vs-2019"
 
-In the **Debug** (or **Tools**) > **Options** dialog, expand the **Debugging** > **General** section, and select the ***Enable Native Edit and Continue** checkbox.
+In the **Debug** (or **Tools**) > **Options** dialog, expand the **Debugging** > **General** section, and select the **Enable Native Edit and Continue** checkbox.
 
 Any incompatible compiler or linker settings cause an error during Edit and Continue.  
 Example: `Edit and Continue : error  : ‘file.cpp’ in ‘MyApp.exe’ was not compiled with Edit and Continue enabled. Ensure that the file is compiled with the Program Database for Edit and Continue (/ZI) option.`
