@@ -8,7 +8,7 @@ ms.topic: how-to
 description: Learn how to install and use Visual Studio if you don't have access to downloads.
 ---
 
-# Accessing and authenticating the Visual Studio IDE
+# Accessing and authenticating Visual Studio IDE
 
 If your subscription is provided by your work or school, you might not be able to download software or get product keys from the subscription portal. If you're part of a special program with limited subscriptions, you might also face the same issue. 
 
@@ -22,7 +22,7 @@ The first step is to download the Visual Studio installer package from the Visua
 - The installer package is downloaded to the default downloads folder on your computer. 
 - Start the installer. 
 
-## Sign into Visual Studio
+## Sign in to Visual Studio
 After Visual Studio is installed, you'll need to launch it to sign in.
 - Launch Visual Studio. 
 - You're prompted to sign in to your account. Use the email address to which the subscription was assigned. (This address is normally the one where you received a notification that a subscription was assigned to you.)
