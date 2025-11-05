@@ -38,16 +38,16 @@ The Visual Studio debugger can save dump files for managed or native code. It ca
 - Visual Studio can debug dump files of managed apps from Linux OS.
 - Visual Studio can debug dump files of native apps from ARM devices. It can also debug dumps of managed apps from ARM devices, but only in the native debugger.
 - To debug [kernel-mode](/windows-hardware/drivers/debugger/kernel-mode-dump-files) dump files or use the [SOS.dll](/dotnet/framework/tools/sos-dll-sos-debugging-extension) debugging extension in Visual Studio, download the debugging tools for Windows in the [Windows Driver Kit (WDK)](/windows-hardware/drivers/download-the-wdk).
-- Visual Studio can't debug dump files saved in the older, [full user-mode dump](/windows/desktop/wer/collecting-user-mode-dumps) format. A full user-mode dump is not the same as a dump with heap.
+- Visual Studio can't debug dump files saved in the older, [full user-mode dump](/windows/desktop/wer/collecting-user-mode-dumps) format. A full user-mode dump isn't the same as a dump with heap.
 - Debugging dump files of optimized code can be confusing. For example, compiler inlining of functions can result in unexpected call stacks, and other optimizations might change the lifetime of variables.
 
 ## <a name="BKMK_Dump_files__with_or_without_heaps"></a> Dump files with or without heaps
 
-Dump files may or may not have heap information.
+Dump files might have heap information.
 
-- **Dump files with heaps** contain a snapshot of the app's memory, including the values of variables, at the time of the dump. Visual Studio also saves the binaries of loaded native modules in a dump file with a heap, which can make debugging much easier. Visual Studio can load symbols from a dump file with a heap, even if it can't find an app binary.
+- **Dump files with heaps** contain a snapshot of the app's memory, including the values of variables, at the time of the dump. Visual Studio also saves the binaries of loaded native modules in a dump file with a heap, which can make debugging easier. Visual Studio can load symbols from a dump file with a heap, even if it can't find an app binary.
 
-- **Dump files without heaps** are much smaller than dumps with heaps, but the debugger must load the app binaries to find symbol information. The loaded binaries must exactly match the ones running during dump creation. Dump files without heaps save the values of stack variables only.
+- **Dump files without heaps** are smaller than dumps with heaps, but the debugger must load the app binaries to find symbol information. The loaded binaries must exactly match the ones running during dump creation. Dump files without heaps save the values of stack variables only.
 
 ## <a name="BKMK_Create_a_dump_file"></a> Create a dump file
 
