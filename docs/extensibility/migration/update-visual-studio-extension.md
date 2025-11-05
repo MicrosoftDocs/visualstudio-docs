@@ -10,11 +10,11 @@ ms.subservice: extensibility-integration
 monikerRange: ">=vs-2022"
 
 ---
-# Upgrade a Visual Studio extension
+# Upgrade your Visual Studio extension
 
 :::moniker range="visualstudio"
-
-With the latest Insiders prerelease version of Visual Studio, you can easily install Visual Studio 2022 extensions.
+If you're an extension developer, this article can help you understand how your extensions work in Visual Studio 2026.
+With the latest Insiders prerelease version of Visual Studio, users can easily install your Visual Studio 2022 extensions.
 
 Since there are minimal breaking changes, upgrading your extension should be straightforward. With the prerelease version of Visual Studio, you can test your existing extension and provide us with your feedback.
 
