@@ -18,6 +18,11 @@ With the latest Insiders prerelease version of Visual Studio, you can easily ins
 
 Since there are minimal breaking changes, upgrading your extension should be straightforward. With the prerelease version of Visual Studio, you can test your existing extension and provide us with your feedback.
 
+> [!NOTE]
+> The information in this article pertain to upgrading an extension from Visual Studio 2022 to work with Visual Studio 2026.
+>
+> For information about upgrading a Visual Studio 2019 extension to work with Visual Studio 2022 or Visual Studio 2026, switch to the Visual Studio 2022 version of this page by using the version dropdown, just above the table of contents.
+
 To install and test your extension:
 
 1. Install the latest [Visual Studio (Insiders)](https://aka.ms/vs/insiders?cid=learn-onpage-download-install-visual-studio-page-cta).
@@ -52,8 +57,8 @@ If you encounter issues with your extensions in the Insiders prerelease version 
 > The advice in this article can guide developers in upgrading extensions that require major changes to work in both Visual Studio 2019 and Visual Studio 2022 or later. In those cases, we recommend that you have two VSIX projects and conditional compilation.
 >
 > Many extensions will work in both Visual Studio 2019 and Visual Studio 2022 (or later) with minor changes that won't require following the advice on modernizing your extension in this article. Try your extension in Visual Studio 2022 and evaluate what option is best for your extension.
-> 
-> For updating a Visual Studio 2022 extension to work with Visual Studio 2026, see [Update an extension to Visual Studio 2026](update-extension.md).
+>
+> For information about upgrading a Visual Studio 2022 extension to work with Visual Studio 2026, switch to the latest version of this page by using the version dropdown, just above the table of contents.
 
 Visual Studio 2022 is a 64-bit application and introduces some breaking changes in the Visual Studio SDK. This article walks you through the steps required to get your extension working with the current preview of Visual Studio 2022. Your extension can then be ready for users to install before Visual Studio 2022 reaches general availability.
 
