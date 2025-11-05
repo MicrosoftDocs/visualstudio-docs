@@ -1,7 +1,7 @@
 ---
 title: Update a Visual Studio extension
 description: Update your Visual Studio extension for .NET or C++ to work with Visual Studio 2022, including running code in extensions and shared projects for multi-targeting.
-ms.date: 06/08/2021
+ms.date: 11/5/2025
 ms.topic: how-to
 author: tinaschrepfer
 ms.author: tinali
@@ -13,9 +13,11 @@ monikerRange: "vs-2022"
 # Update a Visual Studio extension for Visual Studio 2022
 
 > [!IMPORTANT]
-> The advice in this article can guide developers in migrating extensions that require major changes to work in both Visual Studio 2019 and Visual Studio 2022. In those cases, we recommend that you have two VSIX projects and conditional compilation.
+> The advice in this article can guide developers in migrating extensions that require major changes to work in both Visual Studio 2019 and Visual Studio 2022 or later. In those cases, we recommend that you have two VSIX projects and conditional compilation.
 >
-> Many extensions will work in both Visual Studio 2019 and Visual Studio 2022 with minor changes that won't require following the advice on modernizing your extension in this article. Try your extension in Visual Studio 2022 and evaluate what option is best for your extension.
+> Many extensions will work in both Visual Studio 2019 and Visual Studio 2022 (or later) with minor changes that won't require following the advice on modernizing your extension in this article. Try your extension in Visual Studio 2022 and evaluate what option is best for your extension.
+> 
+> For updating a Visual Studio 2022 extension to work with Visual Studio 2026, see [Update an extension to Visual Studio 2026](update-extension.md).
 
 Visual Studio 2022 is a 64-bit application and introduces some breaking changes in the Visual Studio SDK. This article walks you through the steps required to get your extension working with the current preview of Visual Studio 2022. Your extension can then be ready for users to install before Visual Studio 2022 reaches general availability.
 

@@ -1,16 +1,16 @@
 ---
 title: Update a Visual Studio extension for the Insiders prerelease
-description: Update your Visual Studio extension for .NET or C++ to work with the latest Insiders version of Visual Studio, including running code in extensions and shared projects for multi-targeting.
-ms.date: 9/08/2025
+description: Update your Visual Studio extension for .NET or C++ to work with Visual Studio 2026, including running code in extensions and shared projects for multi-targeting.
+ms.date: 11/5/2025
 ms.topic: how-to
-author: kalaskarsanket
-ms.author: skalaskar
+author: ghogen
+ms.author: ghogen
 manager: mijacobs
 ms.subservice: extensibility-integration
 monikerRange: "visualstudio"
 
 ---
-# Update extensions for Visual Studio Insiders prerelease
+# Update extensions for Visual Studio 2026
 
 With the latest Insiders prerelease version of Visual Studio, you can easily install Visual Studio 2022 extensions.
 
