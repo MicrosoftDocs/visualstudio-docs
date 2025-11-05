@@ -51,7 +51,7 @@ The Visual Studio Extension Color Compiler tool is a console application that ta
 
  When creating custom colors for Visual Studio, those colors need to be defined for the following themes. If no colors exist for a particular theme, Visual Studio attempts to load the missing colors from the Light theme.
 
-:::moniker range<="vs-2022"
+:::moniker range="<=vs-2022"
 
 |**Theme name**|**Theme GUID**|
 |-|-|
