@@ -124,6 +124,8 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
 
   - `AnyAttribute*` - The `<InstallationTarget>` element allows an open-ended set of attributes that is exposed at run time as a name-value pair dictionary.
 
+:::moniker range=">=vs-2022"
+
   The `<ProductArchitecture>` element can be used as a child element of `InstallationTarget`. It specifies the platform architecture versions of Visual Studio that the extension supports. For example, if your extension supports AMD64 and ARM64, use the following XML code:
   
     ```xml
@@ -136,6 +138,10 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
        </InstallationTarget>
     </Installation>
     ```
+
+    Valid values include `x86`, `amd64`, and `arm64`.
+
+:::moniker-end
 
 ## Dependencies element
 
