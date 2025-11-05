@@ -174,12 +174,6 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
   - [Generate unit tests for fuzz testing by using IntelliTest](../test/generate-unit-tests-for-your-code-with-intellitest.md)
   - [Overview of Microsoft IntelliTest](../test/intellitest-manual/index.md)
 
-### Windows
-
-**Updated articles**
-
-- [Visual Studio documentation](../windows/index.yml) - Replace What's New link
-
 ## Community contributors
 
 The following people contributed to the Visual Studio docs during this period. Thank you! Learn how to contribute by following the links under "Get involved" in the [what's new landing page](index.yml).
