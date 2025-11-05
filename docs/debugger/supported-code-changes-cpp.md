@@ -1,7 +1,7 @@
 ---
 title: "Supported Code Changes (C++)"
 description: Understand what code changes are supported when you're using the Edit and Continue feature while debugging a C++ project in Visual Studio.
-ms.date: "11/12/2025"
+ms.date: "11/05/2025"
 ms.topic: article
 dev_langs:
   - "C++"
