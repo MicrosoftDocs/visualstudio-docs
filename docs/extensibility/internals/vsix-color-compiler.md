@@ -87,7 +87,7 @@ The \<Category> element defines a collection of colors in a theme. A category mu
 |Name|[Required] The name of the category|
 |GUID|[Required] The category's GUID (must match GUID formatting)|
 
-:::moniker range<="vs-2022"
+:::moniker range="<=vs-2022"
 Category names provide logical groupings, and should be defined as narrowly as possible.
 :::moniker-end
 
@@ -99,11 +99,11 @@ Category names provide logical groupings for colors that can be used for similar
 
  **Color**
 
-:::moniker range<="vs-2022"
+:::moniker range="<=vs-2022"
   The \<Color> element defines a color for a component or state of UI. The preferred naming scheme for a color is [UI type][State]. Do not use the word "color," as it is redundant. A color should clearly indicate the element type and the situations, or "state," for which the color will be applied. A color must not be empty, and must contain either one or both of a \<Background> and \<Foreground> element. Color elements are defined like this:
 :::moniker-end
 
-:::moniker range>="vs-2026"
+:::moniker range="visualstudio"
   The \<Color> element defines a color for a type of UI element. The preferred naming scheme for a color is [Type][Part][Level]:
       - `Type` is the top level role the color plays in the UI, such as a `Accent`, `Background`, `Control`, `Text`, etc.
       - `Part` is more granular application, such as `Fill`, `Stroke`.
@@ -196,7 +196,7 @@ Category names provide logical groupings for colors that can be used for similar
 "Data"=hex:38,00,00,00,0b,00,00,00,01,00,00,00,8e,f0,ec,92,13,8b,f4,4c,99,e9,ae,26,92,38,21,85,01,00,00,00,0a,00,00,00,42,61,63,6b,67,72,6f,75,6e,64,01,f5,f5,f5,ff,01,1e,1e,1e,ff
 ```
 
-:::moniker range>="vs-2026"
+:::moniker range="visualstudio"
 
 ## Migrating themes to Visual Studio 2026
 
