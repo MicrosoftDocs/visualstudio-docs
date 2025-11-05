@@ -141,6 +141,8 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
 
     Valid values include `x86`, `amd64`, and `arm64`.
 
+    The `ProductArchitecture` element was introduced in Visual Studio 2022, so to build a manifest, you must use Visual Studio 2022 or later.
+
 :::moniker-end
 
 ## Dependencies element
