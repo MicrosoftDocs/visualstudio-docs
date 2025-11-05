@@ -91,6 +91,8 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
 
 - `AnyAttribute*` - The `Installation` element accepts an open-ended set of attributes that will be exposed at run time as a name-value pair dictionary.
 
+:::moniker range=">=vs-2022"
+
 - `<InstallationTarget>` -This element controls the location where the VSIX installer installs the package. If the value of the `Scope` attribute is "ProductExtension" the package must target a SKU, which has installed a manifest file as part of its contents to advertise its availability to extensions. The `<InstallationTarget>` element has the following attributes when the `Scope` attribute has the explicit or default value "ProductExtension":
 
   - `Id` - This attribute identifies the package.  The attribute follows the namespace convention: Company.Product.Feature.Name. The `Id` attribute can contain only alphanumeric characters and is limited to 100 characters. Expected values:
@@ -124,8 +126,6 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
 
   - `AnyAttribute*` - The `<InstallationTarget>` element allows an open-ended set of attributes that is exposed at run time as a name-value pair dictionary.
 
-:::moniker range=">=vs-2022"
-
   The `<ProductArchitecture>` element can be used as a child element of `InstallationTarget`. It specifies the platform architecture versions of Visual Studio that the extension supports. For example, if your extension supports AMD64 and ARM64, use the following XML code:
   
     ```xml
@@ -141,7 +141,7 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
 
     Valid values include `x86`, `amd64`, and `arm64`.
 
-    The `ProductArchitecture` element was introduced in Visual Studio 2022, so to build a manifest, you must use Visual Studio 2022 or later.
+  The `InstallationTarget` and `ProductArchitecture` elements were introduced in Visual Studio 2022, so to use it in a manifest file, you must use Visual Studio 2022 or later.
 
 :::moniker-end
 
