@@ -67,7 +67,7 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
 
 - `<AnyElement>*` - The manifest schema is flexible enough to allow any other elements. Any child elements that aren't recognized by the manifest loader are exposed as a list of XmlElement objects. Using these child elements, VSIX extensions can define additional data in the manifest file and enumerate them at run time.
 
-:::moniker range="visualstudio"
+:::moniker range=">=vs-2022"
 - `<ExtensionType>` - This element represents the extensibility model used in the extension. Valid values are `VSSDK`, `VisualStudio.Extensibility`, or `VSSDK+VisualStudio.Extensibility` for extensions that use both models. For more information, see [Compare extensibility models](visualstudio.extensibility/extensibility-models.md).
 :::moniker-end
 
