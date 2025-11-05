@@ -133,7 +133,7 @@ From the **Tools** (or **Debug**) > **Options** menu, you can access the **Debug
 :::moniker-end
 :::moniker range="<=vs-2022"
 
-1. Open the **Tools** (or **Debug**) > **Options** dialog, expand the **Debugging** > **Symbols** section.
+1. Open the **Tools** (or **Debug**) > **Options** dialog, and expand the **Debugging** > **Symbols** section.
 
 2. In the **Symbol file (.pdb) search locations** group box, select the checkbox for each desired server: **Microsoft Symbol Servers**, **NuGet.org Symbol Server**, and so on.
 
@@ -205,7 +205,7 @@ From the **Tools** (or **Debug**) > **Options** menu, you can access the **Debug
    :::moniker-end
    :::moniker range="vs-2022"
 
-   In the **Debugging** > **Symbols** section, use the dropdown list to set the value of the **Symbol search preferences** option:
+   In the **Debugging** > **Symbols** section, select the value of the **Symbol search preferences** option:
 
    :::image type="content" source="media/vs-2022/dbg-options-symbol-search-preferences.png" border="false" alt-text="Screenshot that shows how to select and configure the Symbol search preferences option.":::
 
@@ -428,6 +428,7 @@ When this happens, the debugger displays the **No Symbols Loaded** or **No Sourc
 **To use the No Symbols Loaded document page to help find and load missing symbols:**
 
 - To change the search path, select an unselected path, or select **New Path** or **New VSTS Path** and enter or select a new path. Select **Load** to search the paths again and load the symbol file if it's found.
+
 - To override any symbol options and retry the search paths, select **Browse and find \<executable-name>**. The symbol file is loaded if it's found, or **File Explorer** opens so you can manually select the symbol file.
 
 :::moniker range="visualstudio"
@@ -442,7 +443,9 @@ When this happens, the debugger displays the **No Symbols Loaded** or **No Sourc
 :::moniker-end 
 
 - (Advanced) To show the disassembly in a new window one time, select **view disassembly**, or select **Options dialog** to set the option to always show the disassembly when source or symbol files aren't found. For more information, see [View disassembly code](../debugger/how-to-use-the-disassembly-window.md).
+
 - To show the locations searched and the outcome, expand **Symbol load information**.
+
 - For C# code, you can also choose to [decompile the source code](../debugger/decompilation.md) from the **No Symbols Loaded** or **No Source Loaded** pages.
 
 If the debugger finds the *.pdb* file after you execute one of the options, and can retrieve the source file using the information in the *.pdb* file, it displays the source. Otherwise, it displays a **No Source Loaded** page that describes the issue, with links to actions that might resolve the issue.
