@@ -129,14 +129,13 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
     ```xml
     <Installation AllUsers="true">
        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,)">
-          <ProductArchitecture>amd64</ProductArchitecture>
+         <ProductArchitecture>amd64</ProductArchitecture>
        </InstallationTarget>
        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,)">
-          <ProductArchitecture>arm64</ProductArchitecture>
+        <ProductArchitecture>arm64</ProductArchitecture>
        </InstallationTarget>
     </Installation>
     ```
-
 
 ## Dependencies element
 
