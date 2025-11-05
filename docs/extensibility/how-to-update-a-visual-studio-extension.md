@@ -1,7 +1,7 @@
 ---
 title: 'Update a Visual Studio Extension'
 description: Update a Visual Studio extension on your system by using the Extensions and Updates options to install the updated version.
-ms.date: 02/02/2024
+ms.date: 11/5/2025
 ms.topic: how-to
 helpviewer_keywords:
 - update package
@@ -19,6 +19,9 @@ You can update a Visual Studio extension on your system by using **Extensions an
  Updates are installed when the VSIX manifest of the incoming extension has the same `ID` as the installed one and a higher `Version` number. If the `Version` number is the same or lower, the package can't be installed. If the `ID` values don't match, the package that is not yet installed is recognized as a separate extension.
 
  To help prevent conflicts during development, we recommend that you uninstall earlier versions of extensions in progress, and also uninstall or disable any other potentially conflicting extensions.
+
+> [!NOTE]
+> If you're an extension developer, you can find information about how to upgrade your extensions to work with the latest version of Visual Studio [here](./migration/update-visual-studio-extension.md).
 
 ## To update an extension on your system
 
