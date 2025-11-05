@@ -1,7 +1,7 @@
 ---
 title: Create a visual map of the call stack
 description: Create a code map to visually trace the call stack as you debug. Make notes on the map to track what the code is doing, so you can focus on finding bugs.
-ms.date: 11/26/2018
+ms.date: 11/04/2025
 ms.topic: how-to
 f1_keywords: 
   - vs.progression.debugwithcodemaps
@@ -67,10 +67,24 @@ By default, only your own code appears on the map. To see external code on the m
 
 - Right-click in the **Call Stack** window and select **Show External Code**:
 
-  ![Display external code using the Call Stack window](../debugger/media/debuggermap_callstackmenu.png "DebuggerMap_CallStackMenu")
-- Or, deselect **Enable Just My Code** in Visual Studio **Tools** (or **Debug**) > **Options** > **Debugging**:
+   ![Display external code using the Call Stack window](../debugger/media/debuggermap_callstackmenu.png "DebuggerMap_CallStackMenu")
 
-  ![Show external code using Options dialog](../debugger/media/debuggermap_debugoptions.png "DebuggerMap_DebugOptions")
+- Or, clear the **Enable Just My Code** checkbox in Visual Studio:
+
+   ::: moniker range="visualstudio"
+
+   This option is available in the **Tools** (or **Debug**) > **Options** pane under the **All Settings** > **Debugging** > **General** section:
+
+   :::image type="content" source="../debugger/media/visualstudio/dbg-just-my-code-options.png" border="false" alt-text="Screenshot that shows how to select the Enable Just My Code option in Visual Studio.":::
+
+   ::: moniker-end
+   ::: moniker range="<=vs-2022"
+
+   This option is available in the **Tools** (or **Debug**) > **Options** dialog under the **Debugging** > **General** section:
+
+   ![Show external code using Options dialog](../debugger/media/debuggermap_debugoptions.png "DebuggerMap_DebugOptions")
+   
+   ::: moniker-end
 
 ## Control the map's layout
 
