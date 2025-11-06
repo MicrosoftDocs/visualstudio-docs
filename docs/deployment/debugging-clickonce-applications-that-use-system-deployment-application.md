@@ -1,7 +1,7 @@
 ---
 title: Debug ClickOnce apps that use System.Deployment.Application
 description: Learn how to use and customize advanced ClickOnce deployment features by accessing the deployment object model provided by System.Deployment.Application.
-ms.date: 11/04/2016
+ms.date: 11/06/2025
 ms.topic: how-to
 dev_langs: 
   - VB
@@ -19,7 +19,7 @@ ms.subservice: deployment
 ---
 # Debug ClickOnce applications that use System.Deployment.Application
 
-In Visual Studio, ClickOnce deployment allows you to configure how an application is updated. However, if you need to use and customize advanced ClickOnce deployment features, you'll need to access the deployment object model provided by <xref:System.Deployment.Application>. You can use the <xref:System.Deployment.Application> APIs for advanced tasks such as:
+In Visual Studio, ClickOnce deployment allows you to configure how an application is updated. However, if you want to use and customize advanced ClickOnce deployment features, you need access to the deployment object model provided by <xref:System.Deployment.Application>. You can use the <xref:System.Deployment.Application> APIs for advanced tasks such as:
 
 - Creating an "Update Now" option in your application
 
@@ -39,11 +39,22 @@ In Visual Studio, ClickOnce deployment allows you to configure how an applicatio
 
 2. Deploy version 1 of the application.
 
-3. Create a new blank solution. From the **File** menu, click **New**, then **Project**. In the **New Project** dialog box, open the **Other Project Types** node, then select the **Visual Studio Solutions** folder. In the **Templates** pane, select **Blank Solution**.
+3. Create a new blank solution. From the **File** menu, select **New**, then **Project**. In the **New Project** dialog box, open the **Other Project Types** node, then select the **Visual Studio Solutions** folder. In the **Templates** pane, select **Blank Solution**.
 
-4. Add the archived source location to the properties for this new solution. In **Solution Explorer**, right-click the solution node, then click **Properties**. In the **Property Pages** dialog box, select **Debug Source Files**, then add the directory of the archived source code. Otherwise, the debugger will find the out-of-date source files, since the source file paths are recorded in the .pdb file. If the debugger uses out-of-date source files, you see a message telling you that the source doesn't match.
+4. Add the archived source location to the properties for this new solution. In **Solution Explorer**, right-click the solution node, then select **Properties**. In the **Property Pages** dialog box, select **Debug Source Files**, then add the directory of the archived source code. Otherwise, the debugger finds the out-of-date source files, because the source file paths are recorded in the *.pdb* file. If the debugger uses out-of-date source files, you see a message telling you that the source doesn't match.
 
-5. Make sure the debugger can find the *.pdb* files. If you've deployed them with your application, the debugger finds them automatically. It always looks next to the assembly in question first. Otherwise, you'll need to add the archive path to the **Symbol file (.pdb) locations** (to access this option, from the **Tools** menu, click **Options**, then open the **Debugging** node, and click **Symbols**).
+5. Make sure the debugger can find the *.pdb* files. If you deployed the files with your application, the debugger finds them automatically. It always looks next to the assembly in question first. Otherwise, you need to add the archive path to your list of symbol file locations.
+   
+   ::: moniker range="visualstudio"
+
+   Open the **Tools** (or **Debug**) > **Options** pane, and expand the **All Settings** > **Debugging** > **Symbols** > **Search Locations** section. Add, change order, or remove items from the **Symbol file (.pdb) locations** list.
+
+   ::: moniker-end
+   ::: moniker range="<=vs-2022"
+
+   Open the **Tools** (or **Debug**) > **Options** dialog, and expand the **Debugging** > **Symbols** section. Add, change order, or remove items from the **Symbol file (.pdb) search locations** list.
+
+   ::: moniker-end
 
 6. Debug what happens between the `CheckForUpdate` and `Download`/`Update` method calls.
 
@@ -66,9 +77,9 @@ In Visual Studio, ClickOnce deployment allows you to configure how an applicatio
 
 7. Deploy version 2.
 
-8. Attempt to attach the debugger to the version 1 application while it downloads an update for version 2. Alternatively, you can use the `System.Diagnostics.Debugger.Break` method or simply `Stop` in Visual Basic. Of course, you should not leave these method calls in production code.
+8. Attempt to attach the debugger to the version 1 application while it downloads an update for version 2. Alternatively, you can use the `System.Diagnostics.Debugger.Break` method or simply `Stop` in Visual Basic. Of course, you shouldn't leave these method calls in production code.
 
-    For example, assume you are developing a Windows Forms application, and you have an event handler for this method with the update logic in it. To debug this, simply attach before the button is pressed, then set a breakpoint (make sure that you open the appropriate archived file and set the breakpoint there).
+    For example, assume you're developing a Windows Forms application, and you have an event handler for this method with the update logic in it. To debug this, simply attach before the button is pressed, then set a breakpoint (make sure that you open the appropriate archived file and set the breakpoint there).
 
    Use the <xref:System.Deployment.Application.ApplicationDeployment.IsNetworkDeployed%2A> property to invoke the <xref:System.Deployment.Application> APIs only when the application is deployed; the APIs shouldn't be invoked during debugging in Visual Studio.
 
