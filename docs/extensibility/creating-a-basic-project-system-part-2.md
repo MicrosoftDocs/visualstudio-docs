@@ -16,7 +16,7 @@ ms.subservice: extensibility-integration
 
 The first walkthrough in this series, [Create a basic project system, part 1](../extensibility/creating-a-basic-project-system-part-1.md), shows how to create a basic project system. This walkthrough builds on the basic project system by adding a Visual Studio template, a property page, and other features. You must complete the first walkthrough before you start this one.
 
-This walkthrough teaches how to create a project type that has the project file name extension *.myproj*. To complete the walkthrough, you don't have to create your own language because the walkthrough borrows from the existing Visual C# project system.
+This walkthrough shows how to create a project type that has the project file name extension *.myproj*. To complete the walkthrough, you don't have to create your own language because the walkthrough borrows from the existing Visual C# project system.
 
 This walkthrough teaches how to accomplish these tasks:
 
