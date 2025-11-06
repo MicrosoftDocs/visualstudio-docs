@@ -67,7 +67,7 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
 
 - `<AnyElement>*` - The manifest schema is flexible enough to allow any other elements. Any child elements that aren't recognized by the manifest loader are exposed as a list of XmlElement objects. Using these child elements, VSIX extensions can define additional data in the manifest file and enumerate them at run time.
 
-:::moniker range="visualstudio"
+:::moniker range=">=vs-2022"
 - `<ExtensionType>` - This element represents the extensibility model used in the extension. Valid values are `VSSDK`, `VisualStudio.Extensibility`, or `VSSDK+VisualStudio.Extensibility` for extensions that use both models. For more information, see [Compare extensibility models](visualstudio.extensibility/extensibility-models.md).
 :::moniker-end
 
@@ -123,6 +123,27 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
     When expressing the version for Visual Studio releases, the minor version should always be **0**. For example, Visual Studio 2017 version 15.3.26730.0 should be expressed as [15.0.26730.0,16.0). This is only required for Visual Studio 2017 and later version numbers.
 
   - `AnyAttribute*` - The `<InstallationTarget>` element allows an open-ended set of attributes that is exposed at run time as a name-value pair dictionary.
+
+:::moniker range=">=vs-2022"
+
+The `<ProductArchitecture>` element can be used as a child element of `InstallationTarget`. It specifies the platform architecture versions of Visual Studio that the extension supports. For example, if your extension supports AMD64 and ARM64, use the following XML code:
+  
+```xml
+<Installation AllUsers="true">
+   <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,)">
+      <ProductArchitecture>amd64</ProductArchitecture>
+    </InstallationTarget>
+   <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,)">
+     <ProductArchitecture>arm64</ProductArchitecture>
+   </InstallationTarget>
+</Installation>
+ ```
+
+  Valid values include `amd64` and `arm64`. For more information about ARM64 support in the `.vsixmanifest` file, see [Add a Visual Studio target: ARM64](./arm64/target-arm64-visual-studio-extension.md#add-a-visual-studio-2022-target-arm64).
+
+  The `InstallationTarget` and `ProductArchitecture` elements were introduced in Visual Studio 2022, so to use it in a manifest file, you must build with Visual Studio 2022 or later.
+
+:::moniker-end
 
 ## Dependencies element
 
