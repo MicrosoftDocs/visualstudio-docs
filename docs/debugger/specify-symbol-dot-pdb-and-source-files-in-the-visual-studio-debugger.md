@@ -423,7 +423,7 @@ There are several ways for the debugger to break into code that doesn't have sym
 
 When this happens, the debugger displays the **No Symbols Loaded** or **No Source Loaded** pages to help you find and load the necessary symbols or source.
 
-![No Symbols Loaded page](../debugger/media/dbg-nosymbolsloaded.png "DBG_NoSymbolsLoaded")
+![Screenshot of the No Symbols Loaded page.](../debugger/media/dbg-nosymbolsloaded.png "DBG_NoSymbolsLoaded")
 
 **To use the No Symbols Loaded document page to help find and load missing symbols:**
 
