@@ -7,7 +7,7 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: ui-designers
-monikerRange: "visualstudio,<=vs-2022"
+monikerRange: "<=visualstudio"
 ---
 # Scaling on your main display is set to X%
 
