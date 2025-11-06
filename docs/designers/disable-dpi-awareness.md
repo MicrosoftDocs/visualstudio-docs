@@ -63,7 +63,7 @@ When Visual Studio runs as DPI-unaware, the designer layout issues are resolved,
 
 > [!NOTE]
 > - If you have undocked [tool windows](../ide/customizing-window-layouts-in-visual-studio.md#tool-and-document-windows) after you select the option to restart Visual Studio as a DPI-unaware process, the position of the tool windows might change.
-> - If you use the default Visual Basic profile, or if you have the **Save new projects when created** option deselected in **Tools** > **Options** > **Projects and Solutions**, Visual Studio cannot reopen your project when it restarts as a DPI-unaware process. However, you can open the project by selecting it under **File** > **Recent Projects and Solutions**.
+> - If you use the default Visual Basic profile, or if you have the **Save new projects when created** option deselected in **Tools** > **Options** > **Projects and Solutions**, Visual Studio can't reopen your project when it restarts as a DPI-unaware process. However, you can open the project by selecting it under **File** > **Recent Projects and Solutions**.
 
 ::: moniker-end
 
@@ -71,7 +71,7 @@ When Visual Studio runs as DPI-unaware, the designer layout issues are resolved,
 
 > [!NOTE]
 > - If you undock [tool windows](../ide/customizing-window-layouts-in-visual-studio.md#tool-and-document-windows) after you select the option to restart Visual Studio as a DPI-unaware process, the position of the tool windows might change.
-> - The default Visual Basic profile won't reopen projects when Visual Studio restarts as a DPI-unaware process. Instead, access your project through **File** > **Recent Projects and Solutions**.
+> - The default Visual Basic profile doesn't reopen projects when Visual Studio restarts as a DPI-unaware process. Instead, access your project through **File** > **Recent Projects and Solutions**.
 
 ::: moniker-end
 
@@ -115,4 +115,4 @@ In addition to the aforementioned options, you can also try the following option
 
 ## Troubleshoot
 
-If the DPI-awareness transition doesn't work in Visual Studio, ensure the `dpiAwareness` value is NOT present in the **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\devenv.exe** subkey in Registry Editor. Delete the value if it is present.
+If the DPI-awareness transition doesn't work in Visual Studio, ensure the `dpiAwareness` value is NOT present in the **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\devenv.exe** subkey in Registry Editor. Delete the value if it's present.
