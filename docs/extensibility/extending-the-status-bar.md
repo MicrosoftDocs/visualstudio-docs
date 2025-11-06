@@ -1,7 +1,7 @@
 ---
 title: Extending the Status Bar
 description: Learn how to extend the Visual Studio status bar at the bottom of the IDE, which displays information.
-ms.date: 11/04/2016
+ms.date: 11/06/2025
 ms.topic: how-to
 helpviewer_keywords:
 - status bars, about status bars
@@ -106,9 +106,28 @@ You can use the Visual Studio status bar at the bottom of the IDE to display inf
 
 1. The status bar displays a looping animation that indicates either a long-running operation (for example, building multiple projects in a solution). If you do not see this animation, make sure you have the correct **Tools** > **Options** settings:
 
-     Go to the **Tools** > **Options** > **General** tab and uncheck **Automatically adjust visual experience based on client performance**. Then check the sub-option **Enable rich client visual experience**. You should now be able to see the animation when you build the project in your experimental instance of Visual Studio.
+   :::moniker range="visualstudio"
 
-     In this procedure we display the standard Visual Studio animation which represents building a project or solution.
+   1. Open the **Tools** > **Options** pane and expand the **All Settings** > **Environment** > **Visual Experience** > **Effects** section.
+
+   1. Under **Enable rich client visual experience**, select **Automatic (Enable only when recommended)**. 
+
+   :::moniker-end
+   :::moniker range="<=vs-2022"
+
+   1. Open the **Tools** > **Options** dialog and expand the **Environment** > **General** section.
+
+   1. Clear the **Automatically adjust visual experience based on client performance** checkbox.
+
+   1. Select the **Enable rich client visual experience** suboption checkbox.
+
+   1. Select **OK**.
+
+   :::moniker-end
+
+   You should now see the animation when you build the project in your experimental instance of Visual Studio.
+
+   This procedure shows how to display the standard Visual Studio animation, which represents building a project or solution.
 
 2. Open the *TestStatusBarCommand.cs* file and replace the `MenuItemCallback` method with the following code:
 
