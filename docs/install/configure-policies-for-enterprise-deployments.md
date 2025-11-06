@@ -77,6 +77,53 @@ The registry settings in this section control if and how administrator updates a
 ## Configuring source location for updates 
 
 <!-- tbs Section needs dev review. Much of info in this section is specific to reg key, not currently monikered. Does it apply at all in Dev18? -->
+::: moniker range="=visualstudio"
+The settings in this section allow an administrator to customize and control what update channels are available and how they appear to clients in an enterprise organization. For information about what the update settings even are and how they work, refer to the [configure source location of updates](update-visual-studio.md#configure-source-location-of-updates-1) documentation. 
+This functionality requires the client to be using the Visual Studio 2022 Installer and the layout to be using a version of the 2019 bootstrapper that shipped on or after November 10, 2021. For guidance, see [how to get the Visual Studio 2022 installer on your client machines via a Visual Studio 2019 layout](create-a-network-installation-of-visual-studio.md#configure-the-layout-to-always-include-and-provide-the-latest-installer) documentation.
+
+The keys in this section only apply to the Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\Setup registry path
+
+| **Name**                         | **Type**                    | **Description**                                                |
+|----------------------------------|-----------------------------|-----------------------------------------------------|
+| `Channels` | `Key` |  Subkey path for storing custom layout channel information. The name of this key is considered the Channel name, and is what shows up in the [Update channel dropdown](/visualstudio/install/update-visual-studio?#configure-source-location-of-updates-1). The `ChannelURI` value is required to be present under the `Channels` subkey. |
+| `DisabledChannels` | `Key` | Subkey path for suppressing channels and preventing them from showing up in the Update Channel dialog. If the channel is defined here (along with the `ChannelURI` value), it is filtered out of the dialog. |
+| `ChannelURI` | `REG_SZ` |  The channelURI to either add to list of update channel values by adding to the `Channels` hive, or suppress from the list of update channels by adding to the `DisabledChannels` registry hive. For Microsoft hosted channels, the channelURI is `https://aka.ms/vs/18/stable/channel` or `https://aka.ms/vs/18/insiders/channel`.  For layouts, this value needs to point to the layout's ChannelManifest.json. Refer to examples. |
+| `Description` | `REG_SZ` |  A two-line custom description of the channel. If you already installed from a layout, then the Update Settings UI defaults to "Private Channel" and you can change it using the Description. |
+
+Some registry file examples that illustrate how an IT Admin may want to customize the [Update Settings UI](/visualstudio/install/update-visual-studio?#configure-source-location-of-updates-1): 
+
+The first registry example can be used in a situation where the client previously installed from a network layout located at `\\vslayoutserver3\vs\18_Enterprise`. As mentioned previously, Visual Studio defaults the channel name for this layout to "Private Channel". Here's how you would customize the channel name and description for this layout.
+
+```example registry file
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\Setup\Channels]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\Setup\Channels\More meaningful name of my existing layout]
+"channelUri"="\\\\vslayoutserver3\\vs\\18_Enterprise\\ChannelManifest.json"
+"Description"="Dev Tools based on VS 2026 18.x.Spring.2026 servicing baseline"
+```
+
+Here's how to add a few more layout entries for other custom update channels that are available as a source for updates, and also how to suppress the Preview channel from showing up.
+
+```example registry file
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\Setup\Channels]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\Setup\Channels] [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\Setup\Channels\Spring 2026 dev toolset] "channelUri"="\\\\newVS18layoutserver\\share\\newVS18layout\\ChannelManifest.json"
+"Description"="Dev Tools based on VS 2026 18.x.Spring.2026 servicing baseline" 
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\Setup\Channels\Next gen dev tools using VS 2026 toolset]
+"channelUri"="\\\\vs18Layoutserver\\share\\2026Enterprise\\ChannelManifest.json"
+"Description"="Developer Tools based on the VS 2026 18.0.Winter.2026 LSTC servicing baseline"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\Setup\DisabledChannels\Preview]
+"channelUri"="[https://aka.ms/vs/18/insiders/channel"](https://aka.ms/vs/18/insiders/channel%22)
+```
+::: moniker-end
+
+::: moniker range="<=vs-2022"
 The settings in this section allow an administrator to customize and control what update channels are available and how they appear to clients in an enterprise organization. For information about what the update settings even are and how they work, refer to the [configure source location of updates](update-visual-studio.md#configure-source-location-of-updates-1) documentation. 
 This functionality requires the client to be using the Visual Studio 2022 Installer and the layout to be using a version of the 2019 bootstrapper that shipped on or after November 10, 2021. For guidance, see [how to get the Visual Studio 2022 installer on your client machines via a Visual Studio 2019 layout](create-a-network-installation-of-visual-studio.md#configure-the-layout-to-always-include-and-provide-the-latest-installer) documentation.
 
@@ -121,6 +168,7 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\Setup\DisabledChannels\Preview]
 "channelUri"="https://aka.ms/vs/16/pre/channel"
 ```
+::: moniker-end
 
 ## Controlling notifications in the Visual Studio IDE
 
