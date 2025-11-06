@@ -68,7 +68,7 @@ The following example shows a command line for applying the license for Visual S
 
 ## Apply the license after installation
 
-You can activate an installed version of Visual Studio with a product key by using the `StorePID.exe` utility on the target machines, in silent mode. `StorePID.exe` is a utility program that installs with Visual Studio 2026 at the following default location:
+You can activate an installed version of Visual Studio with a product key by using the `StorePID.exe` utility on the target machines, in silent mode. `StorePID.exe` is a utility program that installs with Visual Studio at the following default location:
 
 ```shell
 C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE
@@ -87,7 +87,7 @@ C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE
 
 ::: moniker range="visualstudio"
 
-The following example shows a command line for applying the license for Visual Studio 2026 Enterprise, which has an MPC of 09660, a product key of `AAAAA-BBBBB-CCCCC-DDDDD-EEEEE`, and assumes a default installation location:
+The following example shows a command line for applying the license for Visual Studio Enterprise, which has an MPC of 09660, a product key of `AAAAA-BBBBB-CCCCC-DDDDD-EEEEE`, and assumes a default installation location:
 
 ```shell
 "C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\StorePID.exe" AAAAA-BBBBB-CCCCC-DDDDD-EEEEE 09660

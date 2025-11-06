@@ -241,7 +241,7 @@ The following `response.json` file example initializes a Visual Studio Enterpris
   "channelId": "VisualStudio.18.Stable",
   "productId": "Microsoft.VisualStudio.Product.Enterprise",
 
-  "installPath": "C:\\VS2026",
+  "installPath": "C:\\/2026/",
   "quiet": false,
   "passive": false,
   "includeRecommended": true,
@@ -282,7 +282,7 @@ In the following example, the `response.json` file initializes a Visual Studio E
   "productId": "Microsoft.VisualStudio.Product.Enterprise",
   "arch": "x64",
   "config": ".\\Layout.vsconfig"
-  "installPath": "C:\\VS2026",
+  "installPath": "C:\\/2026/",
   "quiet": false,
   "passive": false,
   "includeRecommended": true,

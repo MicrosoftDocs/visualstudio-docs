@@ -73,7 +73,7 @@ The following bootstrappers always install the latest most secure version of Vis
 ::: moniker range="visualstudio"
 
 <!-- tbd release history link not available-->
-The following bootstrappers always install the latest most secure version of Visual Studio 2026 on the Current channel, no matter when you run them. If you want to create or update a layout to a specific version or a specific channel of Visual Studio 2026, download the appropriate bootstrapper. Both the evergreen and fixed-version bootstrappers for each servicing release and channel are available on the [Visual Studio 2026 Release History](/visualstudio/releases/vs18/release-history#release-dates-and-build-numbers) page. Download the one you want, and copy it into the directory that you want to use as the source location for the layout. 
+The following bootstrappers always install the latest most secure version of Visual Studio 2026 on the Current channel, no matter when you run them. If you want to create or update a layout to a specific version or a specific channel of Visual Studio 2026, download the appropriate bootstrapper. Both the evergreen and fixed-version bootstrappers for each servicing release and channel are available on the [Visual Studio 2026 Release History](/visualstudio/releases/2026/release-history#release-dates-and-build-numbers) page. Download the one you want, and copy it into the directory that you want to use as the source location for the layout. 
 
 | Edition                         | Bootstrapper                                                            |
 |---------------------------------|-------------------------------------------------------------------------|
@@ -101,7 +101,7 @@ The following bootstrappers always install the latest most secure version of Vis
 ::: moniker range=">=visualstudio"
 
 >[!TIP]
->If you previously downloaded a bootstrapper file and want to verify the version it installs, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties** and then choose the **Details** tab. The **Product version** field describes the [channel and version](/visualstudio/releases/vs18/release-rhythm) that the bootstrapper installs. The version number should always be read as "latest servicing version of what is specified", and the channel is assumed to be Current unless explicitly specified. So, a bootstrapper with a Product version of Stable 18.0 installs the latest 18.0.x servicing release that's available on the 18.0 Stable channel. A bootstrapper with a Product version that says Visual Studio 2026 installs the latest servicing version of Visual Studio 2026 on the Stable channel.
+>If you previously downloaded a bootstrapper file and want to verify the version it installs, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties** and then choose the **Details** tab. The **Product version** field describes the [channel and version](/visualstudio/releases/2026/release-rhythm) that the bootstrapper installs. The version number should always be read as "latest servicing version of what is specified", and the channel is assumed to be Current unless explicitly specified. So, a bootstrapper with a Product version of Stable 18.0 installs the latest 18.0.x servicing release that's available on the 18.0 Stable channel. A bootstrapper with a Product version that says Visual Studio 2026 installs the latest servicing version of Visual Studio 2026 on the Stable channel.
 
 ::: moniker-end
 
@@ -219,7 +219,7 @@ Starting in June 2023, you're able to make your layouts available on an internal
 ### Ensure your layout is using the latest installer
 
 > [!NOTE]
-> As of June 2023, the latest installer ships by default with every update to all supported versions of Visual Studio 2017, Visual Studio 2019, and Visual Studio 2022. So if you're using one of these product versions, you don't need to do anything explicitly to get the latest version of the installer with the latest functionality and bug fixes. 
+> As of June 2023, the latest installer ships by default with every update to all supported versions of Visual Studio 2017 and later. So if you're using one of these product versions, you don't need to do anything explicitly to get the latest version of the installer with the latest functionality and bug fixes. 
 
 If you're using a version of Visual Studio shipped before June 2023, we recommend that you always use the latest Visual Studio Installer in your layout and distribute it to your clients. For example, if you distribute the Visual Studio 2022 installer in your Visual Studio 2019 layout, then your Visual Studio 2019 clients based off of that layout have the ability to change the source location for updates or to easily remove out-of-support components. Further details are [described in the following section](#configure-the-layout-to-always-include-and-provide-the-latest-installer).
 
@@ -286,6 +286,19 @@ You can use an **[administrator update](applying-administrator-updates.md)** to 
 
 ```shell
 visualstudioupdate-17.0.0to17.4.4.exe layout --layoutPath c:\VSLayout
+```
+An administrator update doesn't initiate the creation of a new layout; it only updates an existing layout. You need to use a bootstrapper to create the initial layout.
+
+::: moniker-end
+
+::: moniker range="=visualstudio"
+
+You can go to the [Visual Studio 2022 Release History](/visualstudio/releases/2026/release-history#release-dates-and-build-numbers) page and download a particular fixed version bootstrapper, copy it into your layout, and use it to update the layout to that exact version specified in the bootstrapper. You would use the exact same syntax as above.
+
+You can use an **[administrator update](applying-administrator-updates.md)** to update your layout to a specific version of the product. To get the **administrator update**, go to the [Microsoft Update Catalog](https://catalog.update.microsoft.com), and search for the update you want to update your layout to.  Download the `update.exe` to the computer that's hosting the layout, open up an elevated command prompt on that computer and run a command like this:
+
+```shell
+visualstudioupdate-18.0.0to18.4.4.exe layout --layoutPath c:\VSLayout
 ```
 An administrator update doesn't initiate the creation of a new layout; it only updates an existing layout. You need to use a bootstrapper to create the initial layout.
 
@@ -374,7 +387,7 @@ When you execute this command, Setup analyzes your network layout folder to find
 ### Configure the layout to always include and provide the latest installer
 
 > [!NOTE]
-> As of June 2023, the latest installer is shipping by default with every update to supported versions of Visual Studio 2017, Visual Studio 2019, and Visual Studio 2022. So you won't need to do anything explicitly to get the latest version of the installer with the latest functionality and bug fixes into your layout and onto your clients. 
+> As of June 2023, the latest installer ships by default with every update to all supported versions of Visual Studio 2017 and later. So if you're using one of these product versions, you don't need to do anything explicitly to get the latest version of the installer with the latest functionality and bug fixes. 
 
 However, if you're using a layout that was created before June 2023, then you can also explicitly configure your layout to *always* include and provide the latest installer to your clients, even if the installer is considered a part of a more recent version of Visual Studio. Thus, when your client updates from this layout, the client will acquire the latest installer that's included and provided by this layout. The benefit is that once the latest installer is on your client, your client installations will be able to take advantage of the bug fixes and new functionality that we continue to add to the installer. 
 
