@@ -1,7 +1,7 @@
 ---
 title: Fix DPI display issues in Windows Form Designer
 description: Fix DPI display problems in Windows Forms Designer in Visual Studio to correct scaling and rendering on HDPI (high dots per inch) monitors.
-ms.date: 02/03/2025
+ms.date: 11/06/2025
 author: ghogen
 ms.author: ghogen
 manager: mijacobs
@@ -98,8 +98,20 @@ In addition to the aforementioned options, you can also try the following option
 
 - <a name="disable-notifications"></a>**Disable scaling notifications** in Visual Studio, for example,  if you aren't working in a designer. Here's how to disable notifications:
 
-  1. Choose **Tools** > **Options** to open the **Options** dialog.
-  1. In the **Options** dialog, choose **Windows Forms Designer** > **General**, and set **DPI Scaling Notifications** to **False**.
+   :::moniker range="visualstudio"
+
+   1. Open the **Tools** > **Options** pane and expand the **All Settings** > **Windows Forms Designer** > **General** section.
+
+   1. Under **High DPI Support**, clear the **DPI scaling notifications** checkbox.
+
+   :::moniker-end
+   :::moniker range="<=vs-2022"
+
+   1. Open the **Tools** > **Options** dialog and expand the **Windows Forms Designer** > **General** section.
+
+   1. Under **High DPI Support**, set the **DPI scaling notifications** option to **False**.
+
+   :::moniker-end
 
 ## Troubleshoot
 
