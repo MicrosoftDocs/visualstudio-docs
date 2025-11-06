@@ -126,20 +126,20 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
 
 :::moniker range=">=vs-2022"
 
-  The `<ProductArchitecture>` element can be used as a child element of `InstallationTarget`. It specifies the platform architecture versions of Visual Studio that the extension supports. For example, if your extension supports AMD64 and ARM64, use the following XML code:
+The `<ProductArchitecture>` element can be used as a child element of `InstallationTarget`. It specifies the platform architecture versions of Visual Studio that the extension supports. For example, if your extension supports AMD64 and ARM64, use the following XML code:
   
-    ```xml
-    <Installation AllUsers="true">
-       <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,)">
-         <ProductArchitecture>amd64</ProductArchitecture>
-       </InstallationTarget>
-       <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,)">
-        <ProductArchitecture>arm64</ProductArchitecture>
-       </InstallationTarget>
-    </Installation>
-    ```
+```xml
+<Installation AllUsers="true">
+   <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,)">
+      <ProductArchitecture>amd64</ProductArchitecture>
+    </InstallationTarget>
+   <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,)">
+     <ProductArchitecture>arm64</ProductArchitecture>
+   </InstallationTarget>
+</Installation>
+ ```
 
-    Valid values include `amd64` and `arm64`. For more information about ARM64 support in the `.vsixmanifest` file, see [Add a Visual Studio target: ARM64](./arm64/target-arm64-visual-studio-extension.md#add-a-visual-studio-2022-target-arm64).
+  Valid values include `amd64` and `arm64`. For more information about ARM64 support in the `.vsixmanifest` file, see [Add a Visual Studio target: ARM64](./arm64/target-arm64-visual-studio-extension.md#add-a-visual-studio-2022-target-arm64).
 
   The `InstallationTarget` and `ProductArchitecture` elements were introduced in Visual Studio 2022, so to use it in a manifest file, you must build with Visual Studio 2022 or later.
 
