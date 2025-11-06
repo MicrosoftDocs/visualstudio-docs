@@ -10,7 +10,7 @@ ms.date: 11/11/2025
 ms.subservice: installation
 ms.topic: include
 ---
-## Visual Studio core editor (included with Visual Studio Team Explorer 2022)
+## Visual Studio core editor (included with Visual Studio Team Explorer 2026)
 
 **ID:** Microsoft.VisualStudio.Workload.CoreEditor
 
@@ -20,6 +20,7 @@ ms.topic: include
 
 Component ID | Name | Version | Dependency type
 --- | --- | --- | ---
+Microsoft.VisualStudio.Component.CoreEditor | Visual Studio core editor | 18.0.11101.78 | Required
 
 ## Unaffiliated components
 
@@ -27,3 +28,4 @@ These are components that are not included with any workload, but may be selecte
 
 Component ID | Name | Version
 --- | --- | ---
+Microsoft.VisualStudio.Component.TeamExplorer.MinGit | Version Control - Git | 18.0.11101.84

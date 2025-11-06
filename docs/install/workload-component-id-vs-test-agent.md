@@ -42,12 +42,6 @@ To install these components by using the manual installer, download and run the 
 
 ::: moniker range=">= visualstudio"
 
-[!INCLUDE[workloads-components-header-2026_md](includes/workloads-components-header-2026.md)]
-
-To install these components by using the manual installer, download and run the [Test Agent for Visual Studio](https://visualstudio.microsoft.com/downloads/#agents-for-visual-studio-2026).
-
-[!include[Visual Studio Test Agent 2026](includes/vs-2026/workload-component-id-vs-test-agent.md)]
-
 ::: moniker-end
 
 

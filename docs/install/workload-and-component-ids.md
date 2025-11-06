@@ -71,8 +71,6 @@ For more information about how to use these lists, see the [Use command-line par
 | [Visual&nbsp;Studio Community&nbsp;2026](workload-component-id-vs-community.md?view=vs-2026&preserve-view=true) | Microsoft.VisualStudio.Product.Community | Free, fully featured IDE for students, open-source, and individual developers |
 | [Visual&nbsp;Studio Team&nbsp;Explorer&nbsp;2026](workload-component-id-vs-team-explorer.md?view=vs-2026&preserve-view=true) | Microsoft.VisualStudio.Product.TeamExplorer | Interact with Team Foundation Server and Azure DevOps Services without a Visual Studio developer toolset |
 | [Visual&nbsp;Studio Build&nbsp;Tools&nbsp;2026](workload-component-id-vs-build-tools.md?view=vs-2026&preserve-view=true) | Microsoft.VisualStudio.Product.BuildTools | The Visual Studio Build Tools allows you to build native and managed MSBuild-based applications without requiring the Visual Studio IDE. There are options to install the Visual C++ compilers and libraries, MFC, ATL, and C++/CLI support. |
-| [Visual&nbsp;Studio Test&nbsp;Agent&nbsp;2026](workload-component-id-vs-test-agent.md?view=vs-2026&preserve-view=true)  | Microsoft.VisualStudio.Product.TestAgent | Supports running automated tests and load tests remotely |
-| [Visual&nbsp;Studio Load&nbsp;Test&nbsp;Controller 2026](workload-component-id-vs-test-controller.md?view=vs-2026&preserve-view=true) | Microsoft.VisualStudio.Product.TestController | Distribute automated tests to multiple machines |
 
 For more information about how to use these lists, see the [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md) page and the [Update a Visual Studio extension for Visual Studio](../extensibility/migration/update-extension.md) page.
 
