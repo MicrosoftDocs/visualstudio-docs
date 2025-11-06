@@ -1,7 +1,7 @@
 ---
 title: Creating a Basic Project System, Part 2
 description: Learn how to add a Visual Studio template, a property page, and other features to a project created in a previous article.
-ms.date: 11/04/2016
+ms.date: 11/06/2025
 ms.topic: how-to
 helpviewer_keywords:
 - writing a project system
@@ -16,7 +16,7 @@ ms.subservice: extensibility-integration
 
 The first walkthrough in this series, [Create a basic project system, part 1](../extensibility/creating-a-basic-project-system-part-1.md), shows how to create a basic project system. This walkthrough builds on the basic project system by adding a Visual Studio template, a property page, and other features. You must complete the first walkthrough before you start this one.
 
-This walkthrough teaches how to create a project type that has the project file name extension *.myproj*. To complete the walkthrough, you do not have to create your own language because the walkthrough borrows from the existing Visual C# project system.
+This walkthrough teaches how to create a project type that has the project file name extension *.myproj*. To complete the walkthrough, you don't have to create your own language because the walkthrough borrows from the existing Visual C# project system.
 
 This walkthrough teaches how to accomplish these tasks:
 
@@ -125,7 +125,7 @@ By using a Visual Studio template (*.vstemplate* file) instead of a basic projec
 
 3. Set the **Build Action** of this file to **VSCTCompile**. You can do this only in the *.csproj* file, not in the **Properties** window. Make sure that the **Build Action** of this file is set to **None** at this point.
 
-    1. Right-click the SimpleProject node and then click **Edit SimpleProject.csproj**.
+    1. Right-click the SimpleProject node and then select **Edit SimpleProject.csproj**.
 
     2. In the *.csproj* file, locate the *SimpleProject.vsct* item.
 
@@ -141,20 +141,29 @@ By using a Visual Studio template (*.vstemplate* file) instead of a basic projec
 
     4. the project file and close the editor.
 
-    5. Save the SimpleProject node, and then in the **Solution Explorer** click **Reload Project**.
+    5. Save the SimpleProject node, and then in the **Solution Explorer** select **Reload Project**.
 
 ## Examine the Visual Studio template build steps
  The VSPackage project build system typically runs Visual Studio in setup mode when the *.vstemplate* file is changed or the project that contains the *.vstemplate* file is rebuilt. You can follow along by setting the verbosity level of MSBuild to Normal or higher.
 
-1. On the **Tools** menu, click **Options**.
+:::moniker range="visualstudio"
 
-2. Expand the **Projects and Solutions** node, and then select **Build and Run**.
+1. In the **Tools** > **Options** pane, expand the **All Settings** > **Projects and Solutions** > **Build and Run** section.
 
-3. Set **MSBuild project build output verbosity** to **Normal**. Click **OK**.
+2. Set the **MSBuild project build output verbosity** option to **Normal**.
 
-4. Rebuild the SimpleProject project.
+:::moniker-end
+:::moniker range="<=vs-2022"
 
-    The build step to create the *.zip* project file should resemble the following example.
+1. In the **Tools** > **Options** dialog, expand the **Projects and Solutions** > **Build and Run** section.
+
+2. Set the **MSBuild project build output verbosity** option to **Normal**, and select **OK**.
+
+:::moniker-end
+
+3. Rebuild the SimpleProject project.
+
+The build step to create the *.zip* project file should resemble the following example.
 
 ```
 ZipProjects:
@@ -169,7 +178,7 @@ ZipProjects:
 ```
 
 ## Deploy a Visual Studio template
-Visual Studio templates do not contain path information. Therefore, the template *.zip* file must be deployed to a location that is known to Visual Studio. The location of the ProjectTemplates folder is typically *<%LOCALAPPDATA%>\Microsoft\VisualStudio\14.0Exp\ProjectTemplates*.
+Visual Studio templates don't contain path information. Therefore, the template *.zip* file must be deployed to a location that is known to Visual Studio. The location of the ProjectTemplates folder is typically *<%LOCALAPPDATA%>\Microsoft\VisualStudio\14.0Exp\ProjectTemplates*.
 
 To deploy your project factory, the installation program must have administrator privileges. It deploys templates under the Visual Studio installation node: *...\Microsoft Visual Studio 14.0\Common7\IDE\ProjectTemplates*.
 
@@ -182,7 +191,7 @@ Test your project factory to see whether it creates a project hierarchy by using
 
     On later versions of Windows: On the **Start** screen, type **Reset the Microsoft Visual Studio \<version> Experimental Instance**.
 
-2. A command prompt window appears. When you see the words **Press any key to continue**, click **ENTER**. After the window closes, open Visual Studio.
+2. A command prompt window appears. When you see the words **Press any key to continue**, select **ENTER**. After the window closes, open Visual Studio.
 
 3. Rebuild the SimpleProject project and start debugging. The experimental instance appears.
 
@@ -254,11 +263,11 @@ Test the modified project file to see whether the **Console** child node appears
 
 2. Rebuild the SimpleProject project and start debugging. The experimental instance should appear
 
-3. In the **New Project** dialog, click the **SimpleProject** node. The **Console Application** template should appear in the **Templates** pane.
+3. In the **New Project** dialog, select the **SimpleProject** node. The **Console Application** template should appear in the **Templates** pane.
 
 4. Expand the **SimpleProject** node. The **Console** child node should appear. The **SimpleProject Application** template continues to appear in the **Templates** pane.
 
-5. Click **Cancel** and stop debugging.
+5. Select **Cancel** and stop debugging.
 
     ![Simple Project Rollup](../extensibility/media/simpproj2_rollup.png "SimpProj2_Rollup")
 
@@ -311,7 +320,7 @@ When you create a project by using a Visual Studio template in the **New Project
 
 5. Create a new SimpleProject Console application. (In the **Project types** pane, select **SimpleProject**. Under **Visual Studio installed templates**, select **Console Application**.)
 
-6. In the newly-created project, open *Program.cs*. It should look something like the following (GUID values in your file will differ.):
+6. In the newly-created project, open *Program.cs*. It should look something like the following (GUID values in your file differ.):
 
     ```csharp
     using System;
@@ -372,7 +381,7 @@ The property page you create in this section lets you alter and save these proje
     }
     ```
 
-    Both of these methods return an array of property page GUIDs. The GeneralPropertyPage GUID is the only element in the array, so the **Property Pages** dialog box will show only one page.
+    Both of these methods return an array of property page GUIDs. The GeneralPropertyPage GUID is the only element in the array, so the **Property Pages** dialog box shows only one page.
 
 3. Add a class file named *GeneralPropertyPage.cs* to the SimpleProject project.
 
@@ -446,7 +455,7 @@ The property page you create in this section lets you alter and save these proje
     }
     ```
 
-    The `GeneralPropertyPage` class exposes the three public properties AssemblyName, OutputType, and RootNamespace. Because AssemblyName has no set method, it is displayed as a read-only property. OutputType is an enumerated constant, so it appears as dropdown list.
+    The `GeneralPropertyPage` class exposes the three public properties AssemblyName, OutputType, and RootNamespace. Because AssemblyName has no set method, it's displayed as a read-only property. OutputType is an enumerated constant, so it appears as dropdown list.
 
     The `SettingsPage` base class provides `ProjectMgr` to persist the properties. The `BindProperties` method uses `ProjectMgr` to retrieve the persisted property values and set the corresponding properties. The `ApplyChanges` method uses `ProjectMgr` to get the values of the properties and persist them to the project file. The property set method sets `IsDirty` to true to indicate that the properties have to be persisted. Persistence occurs when you save the project or solution.
 
@@ -456,7 +465,7 @@ The property page you create in this section lets you alter and save these proje
 
 7. Visual Studio calls your project factory to create a project by using the Visual Studio template. The new *Program.cs* file is opened in the code editor.
 
-8. Right-click the project node in **Solution Explorer**, and then click **Properties**. The **Property Pages** dialog box is displayed.
+8. Right-click the project node in **Solution Explorer**, and then select **Properties**. The **Property Pages** dialog box is displayed.
 
     ![Simple Project Property Page](../extensibility/media/simpproj2_proppage.png "SimpProj2_PropPage")
 
@@ -467,7 +476,7 @@ Now you can test whether you can modify and change property values.
 
 2. Select the **OutputType** property, and then select **Class Library**.
 
-3. Click **Apply**, and then click **OK**.
+3. Select **Apply**, and then select **OK**.
 
 4. Reopen the **Property Pages** dialog box and verify that your changes have been persisted.
 
