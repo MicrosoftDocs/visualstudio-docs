@@ -64,15 +64,15 @@ You can use the Visual Studio status bar at the bottom of the IDE to display inf
 
 3. Compile the code and start debugging.
 
-4. Open the **Tools** menu in the experimental instance of Visual Studio. Click the **Invoke TestStatusBarCommand** button.
+4. Open the **Tools** menu in the experimental instance of Visual Studio. Select the **Invoke TestStatusBarCommand** button.
 
-     You should see that the text in the status bar now reads **We just wrote to the status bar.** and the message box that appears has the same text.
+   The text in the status bar now shows **We just wrote to the status bar.** and the message box that appears uses the same text.
 
 ### Update the progress bar
 
-1. In this procedure we will show how to initialize and update the progress bar.
+The following procedure shows how to initialize and update the progress bar.
 
-2. Open the *TestStatusBarCommand.cs* file and replace the `MenuItemCallback` method with the following code:
+1. Open the *TestStatusBarCommand.cs* file and replace the `MenuItemCallback` method with the following code:
 
     ```csharp
     private void MenuItemCallback(object sender, EventArgs e)
@@ -96,15 +96,15 @@ You can use the Visual Studio status bar at the bottom of the IDE to display inf
     }
     ```
 
-3. Compile the code and start debugging.
+1. Compile the code and start debugging.
 
-4. Open the **Tools** menu in the experimental instance of Visual Studio. Click **Invoke TestStatusBarCommand** button.
+1. Open the **Tools** menu in the experimental instance of Visual Studio. Select the **Invoke TestStatusBarCommand** button.
 
-     You should see that the text in the status bar now reads **Writing to the progress bar.** You should also see the progress bar get updated every second for 20 seconds. After that the status bar and the progress bar are cleared.
+   The text in the status bar now shows **Writing to the progress bar.** The progress bar updates every second for 20 seconds, and the status and progress bars are cleared.
 
 ### Display an animation
 
-1. The status bar displays a looping animation that indicates either a long-running operation (for example, building multiple projects in a solution). If you do not see this animation, make sure you have the correct **Tools** > **Options** settings:
+1. The status bar displays a looping animation that indicates either a long-running operation (for example, building multiple projects in a solution). If you don't see this animation, make sure you have the correct **Tools** > **Options** settings:
 
    :::moniker range="visualstudio"
 
@@ -125,11 +125,11 @@ You can use the Visual Studio status bar at the bottom of the IDE to display inf
 
    :::moniker-end
 
-   You should now see the animation when you build the project in your experimental instance of Visual Studio.
+   The animation now displays when you build the project in your experimental instance of Visual Studio.
 
    This procedure shows how to display the standard Visual Studio animation, which represents building a project or solution.
 
-2. Open the *TestStatusBarCommand.cs* file and replace the `MenuItemCallback` method with the following code:
+1. Open the *TestStatusBarCommand.cs* file and replace the `MenuItemCallback` method with the following code:
 
     ```csharp
     private void MenuItemCallback(object sender, EventArgs e)
@@ -150,8 +150,8 @@ You can use the Visual Studio status bar at the bottom of the IDE to display inf
     }
     ```
 
-3. Compile the code and start debugging.
+1. Compile the code and start debugging.
 
-4. Open the **Tools** menu in the experimental instance of Visual Studio and click **Invoke TestStatusBarCommand**.
+1. Open the **Tools** menu in the experimental instance of Visual Studio and select the **Invoke TestStatusBarCommand** button.
 
-     When you see the message box, you should also see the animation in the status bar on the far right. When you dismiss the message box, the animation disappears.
+   When you see the message box, you should also see the animation in the status bar on the far right. When you dismiss the message box, the animation disappears.
