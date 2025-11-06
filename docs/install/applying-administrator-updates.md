@@ -22,7 +22,7 @@ Remember that administrator updates are updates, not initial installs. They pres
 
 ## Understanding Visual Studio administrator updates
 
-The Visual Studio administrator update package that is published to the Microsoft Update system is available through three distribution channels:
+The Visual Studio administrator update package that's published to the Microsoft Update system is available through three distribution channels:
 
    1. The [Windows Server Update Servers (WSUS)](/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus) channel, which is typically controlled by the [SCCM Configuration Manager](/configmgr/core/understand/introduction) part of the [Microsoft Endpoint Manager](/mem/configmgr/core/understand/microsoft-endpoint-manager-faq) device management solution.
    2. The [Windows Update for Business Microsoft Update](/windows/deployment/update/waas-manage-updates-wufb#types-of-updates-managed-by-windows-update-for-business) channel, which is typically controlled by the [Intune](/mem/intune/) part of the [Microsoft Endpoint Manager](https://endpoint.microsoft.com) device management solution. Currently, only security updates are published to this channel.
@@ -43,11 +43,11 @@ Visual Studio administrator updates only apply to Visual Studio servicing versio
 
 There are three types of administrator updates to Visual Studio:
 
-- **Security updates** are applicable to all Visual Studio editions (for example, Enterprise, Professional, Community, etc.), and they contain limited, highly targeted and compatible servicing level changes. Security updates won't advance a client to a later minor version; they're designed to deliver fixes to security vulnerabilities to a client that is already at a particular minor version level. Security updates will have at least one security fix in them, but the security fix may or may not be in a component or workload that’s installed on the client machine. For example, we could fix a security vulnerability in the .NET components, and we would label the update as a security update, but it wouldn’t really have any meaningful effect on a client machine that had only C++ components installed. Security updates may also contain other reliability fixes or other necessary component updates. Security updates are published to all three distribution channels listed previously.
+- **Security updates** are applicable to all Visual Studio editions (for example, Enterprise, Professional, Community, etc.), and they contain limited, highly targeted and compatible servicing level changes. Security updates won't advance a client to a later minor version; they're designed to deliver fixes to security vulnerabilities to a client that's already at a particular minor version level. Security updates will have at least one security fix in them, but the security fix may or may not be in a component or workload that’s installed on the client machine. For example, we could fix a security vulnerability in the .NET components, and we would label the update as a security update, but it wouldn’t really have any meaningful effect on a client machine that had only C++ components installed. Security updates may also contain other reliability fixes or other necessary component updates. Security updates are published to all three distribution channels listed previously.
 
 - **Feature updates** enable IT admins to advance computers in their organization to a more recent minor version of Visual Studio. Feature updates only apply to Visual Studio editions that are commonly found in enterprises, such as Enterprise, Professional, and Build Tools SKUs. All feature updates will be published only to the [Microsoft Update Catalog](https://www.catalog.update.microsoft.com) as “Feature Packs” where they're available to optionally be manually [imported into SCCM Configuration Manager](/mem/configmgr/sum/get-started/synchronize-software-updates#import-updates-from-the-microsoft-update-catalog). Feature updates are cumulative and will contain additional quality and prior security fixes.
 
-- **Quality updates** are also only applicable to those Visual Studio editions that are commonly found in enterprises, and they contain limited, highly targeted and compatible servicing level changes. Quality updates won't advance a client to a later minor version; they're designed to deliver performance and reliability fixes or other necessary component updates to a client that is already at a particular minor version level. Quality updates accumulate along with security updates, and thus will contain security fixes only if the security fix has already been independently released. Quality updates are also published only to the [Microsoft Update Catalog](https://www.catalog.update.microsoft.com) as “Updates” where they're available to optionally be manually [imported into SCCM Configuration Manager](/mem/configmgr/sum/get-started/synchronize-software-updates#import-updates-from-the-microsoft-update-catalog).
+- **Quality updates** are also only applicable to those Visual Studio editions that are commonly found in enterprises, and they contain limited, highly targeted and compatible servicing level changes. Quality updates won't advance a client to a later minor version; they're designed to deliver performance and reliability fixes or other necessary component updates to a client that's already at a particular minor version level. Quality updates accumulate along with security updates, and thus will contain security fixes only if the security fix has already been independently released. Quality updates are also published only to the [Microsoft Update Catalog](https://www.catalog.update.microsoft.com) as “Updates” where they're available to optionally be manually [imported into SCCM Configuration Manager](/mem/configmgr/sum/get-started/synchronize-software-updates#import-updates-from-the-microsoft-update-catalog).
 
 ### Decoding the titles of administrator updates
 
@@ -63,20 +63,20 @@ The title of each administrator update the resultant version of the update. For 
 
 ::: moniker range="=vs-2022"
 
-* **Visual Studio 2022 version 17.0.3 update** classified as "Security Update" will apply to any Visual Studio 2022 edition on the client that is on either the [Current channel or the 17.0 LTSC channel](/visualstudio/install/update-visual-studio?view=vs-2022&preserve-view=true#configure-source-location-of-updates-1), and bring it **up** to the 17.0.3 version.  
-* **Visual Studio 2022 version 17.1.0 update** classified as a "Feature Pack" will apply to Visual Studio 2022 editions licensed for enterprise use on the client that is on the Current channel, and it will update it to the 17.1.0 version. 
-* **Visual Studio 2022 version 17.2.7 update** classified as "Security Update" will apply to any Visual Studio 2022 edition on the client that is on either the Current channel or the 17.2 LTSC channel, and bring it **up** to the 17.2.7 version. 
-* **Visual Studio 2022 version 17.3.7 security update** will apply to any Visual Studio 2022 edition on the client that is on the Current channel and bring it **up** to the 17.3.7 version. 
+* **Visual Studio 2022 version 17.0.3 update** classified as "Security Update" will apply to any Visual Studio 2022 edition on the client that's on either the [Current channel or the 17.0 LTSC channel](/visualstudio/install/update-visual-studio?view=vs-2022&preserve-view=true#configure-source-location-of-updates-1), and bring it **up** to the 17.0.3 version.  
+* **Visual Studio 2022 version 17.1.0 update** classified as a "Feature Pack" will apply to Visual Studio 2022 editions licensed for enterprise use on the client that's on the Current channel, and it will update it to the 17.1.0 version. 
+* **Visual Studio 2022 version 17.2.7 update** classified as "Security Update" will apply to any Visual Studio 2022 edition on the client that's on either the Current channel or the 17.2 LTSC channel, and bring it **up** to the 17.2.7 version. 
+* **Visual Studio 2022 version 17.3.7 security update** will apply to any Visual Studio 2022 edition on the client that's on the Current channel and bring it **up** to the 17.3.7 version. 
 
 If the client instance is greater than the version of the administrator update that's being applied, then the administrator update will have no effect.
 ::: moniker-end
 
 ::: moniker range="=visualstudio"
 <!-- tbd Needs review-->
-* **Visual Studio 2026 version 18.0.3 update** classified as "Security Update" will apply to any Visual Studio 2026 edition on the client that is on the [18.0 Stable channel](/visualstudio/install/update-visual-studio?view=visualstudio&preserve-view=true#configure-source-location-of-updates-1), and bring it **up** to the 18.0.3 version.  
-* **Visual Studio 2026 version 18.1.0 update** classified as a "Feature Pack" will apply to Visual Studio 2026 editions licensed for enterprise use on the client that is on the Stable channel, and it will update it to the 18.1.0 version. 
-* **Visual Studio 2026 version 18.2.7 update** classified as "Security Update" will apply to any Visual Studio 2026 edition on the client that is on the Stable channel, and bring it **up** to the 18.2.7 version. 
-* **Visual Studio 2026 version 18.3.7 security update** will apply to any Visual Studio 2026 edition on the client that is on the Stable channel and bring it **up** to the 18.3.7 version. 
+* **Visual Studio 2026 version 18.0.3 update** classified as "Security Update" will apply to any Visual Studio 2026 edition on the client that's on the [18.0 Stable channel](/visualstudio/install/update-visual-studio?view=visualstudio&preserve-view=true#configure-source-location-of-updates-1), and bring it **up** to the 18.0.3 version.  
+* **Visual Studio 2026 version 18.1.0 update** classified as a "Feature Pack" will apply to Visual Studio 2026 editions licensed for enterprise use on the client that's on the Stable channel, and it will update it to the 18.1.0 version. 
+* **Visual Studio 2026 version 18.2.7 update** classified as "Security Update" will apply to any Visual Studio 2026 edition on the client that's on the Stable channel, and bring it **up** to the 18.2.7 version. 
+* **Visual Studio 2026 version 18.3.7 security update** will apply to any Visual Studio 2026 edition on the client that's on the Stable channel and bring it **up** to the 18.3.7 version. 
 
 If the client instance is greater than the version of the administrator update that's being applied, then the administrator update will have no effect.
 ::: moniker-end
@@ -99,7 +99,7 @@ The most common configuration options are as follows:
 
 - **Source location of the updated product bits**
 
-    When executing the update, the client machines will download the updated product bits from either the internet via the Microsoft CDN or from a network layout share that the admin has prepared and maintained. In both of these cases, the account on the client machine that is executing the update (typically SYSTEM, but [can be customized to USER](/mem/configmgr/apps/deploy-use/create-applications#bkmk_dt-ux)) must have both administrative privileges on the machine and access to the source location of product bits. 
+    When executing the update, the client machines will download the updated product bits from either the internet via the Microsoft CDN or from a network layout share that the admin has prepared and maintained. In both of these cases, the account on the client machine that's executing the update (typically SYSTEM, but [can be customized to USER](/mem/configmgr/apps/deploy-use/create-applications#bkmk_dt-ux)) must have both administrative privileges on the machine and access to the source location of product bits. 
     * If the product is being sourced from the internet, then the SYSTEM account executing the update must have access to at least the [Visual Studio endpoints](/visualstudio/install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server). 
     * If the product is being sourced from a network layout location then the following conditions must be true before the administrator update can be successfully deployed:
     * The account executing the update must have permissions to the network share. For example, if SYSTEM accounts are executing the administrator updates, then you'll need to give the "Domain Computers" group permissions to the network layout share.  
@@ -153,19 +153,19 @@ Administrator updates may return the following return codes:
 | Error code | Definition                                                                                                    |
 |------------|---------------------------------------------------------------------------------------------------------------|
 | 0          | The administrative update was successfully installed.                                                         |
-| 1001       | Visual Studio Installer or a related setup process is running. The update is not applied.                     |
-| 1002       | Visual Studio Installer is paused. The update is not applied.                                                 |
+| 1001       | Visual Studio Installer or a related setup process is running. The update isn't applied.                     |
+| 1002       | Visual Studio Installer is paused. The update isn't applied.                                                 |
 | 1003       | Visual Studio is in use, so the update was canceled. This condition can be overruled using the `--force` flag. |
-| 1004       | No internet detected. The update was unable to contact the internet location holding the updated files. The update is not applied. |
-| 1005       | The **AdministratorUpdatesEnabled** registry value is set to **0** or not set at all. The update is not applied. |
-| 1006       | The **AdministratorUpdatesOptOut** registry value is set to **1**. The update is not applied. The key is intended for client computers that should not be updated by the administrator. |
-| 1007       | The Visual Studio Installer is not installed.                                                                 |
+| 1004       | No internet detected. The update was unable to contact the internet location holding the updated files. The update isn't applied. |
+| 1005       | The **AdministratorUpdatesEnabled** registry value is set to **0** or not set at all. The update isn't applied. |
+| 1006       | The **AdministratorUpdatesOptOut** registry value is set to **1**. The update isn't applied. The key is intended for client computers that should not be updated by the administrator. |
+| 1007       | The Visual Studio Installer isn't installed.                                                                 |
 | 1009       | The Visual Studio instance is configured to use a layout, but the layout is missing packages to perform the update. |
 | 3010       | The system requires a reboot. The update may or may not have been applied. Reboot the computer and attempt the update again. |
 | 8006       | Update was canceled because VS related process is running                                                    |
 | 862968     | The update was successful, and a restart is recommended but not required.                                     |
 | 8007070    | Update was canceled because there's not enough room on disk.                                     |
-| Other      | Error occurred attempting to apply the update. The update is not applied.                                     |
+| Other      | Error occurred attempting to apply the update. The update isn't applied.                                     |
 
 For an exhaustive list of client error codes, see [Use command-line parameters to install Visual Studio](./use-command-line-parameters-to-install-visual-studio.md#error-codes).
 
