@@ -254,7 +254,7 @@ There are several ways to update an installation of Visual Studio:
  - By using the Visual Studio Installer
  - By checking for updates or using the Notification hub in the IDE
  - By configuring update on close
- - By running a [specific version of the bootstrapper](/visualstudio/releases//2026//release-history)
+ - By running a [specific version of the bootstrapper](/visualstudio/releases/2026/release-history)
  - Programmatically
  - Or by being part of an organization that uses Administrator updates. 
 
@@ -322,7 +322,7 @@ Here's how to update Visual&nbsp;Studio&nbsp using these various methods.
 
 ## Run a specific bootstrapper to update the product to a specific version
 
-If you're an Enterprise or Professional customer, you can update your instance of Visual Studio to any specific version that has been released, as long as it's a higher version than what is currently installed. To update your instance of Visual Studio via this method, [navigate to the Visual Studio release history page](/visualstudio/releases//2026//release-history), download the bootstrapper that corresponds to the desired update version into your product installation directory, and then double-click on it to initiate the update.
+If you're an Enterprise or Professional customer, you can update your instance of Visual Studio to any specific version that has been released, as long as it's a higher version than what is currently installed. To update your instance of Visual Studio via this method, [navigate to the Visual Studio release history page](/visualstudio/releases/2026/release-history), download the bootstrapper that corresponds to the desired update version into your product installation directory, and then double-click on it to initiate the update.
 
 ## Customize update settings
 
@@ -340,10 +340,10 @@ There are several different settings that can be customized to control the updat
 
 ### Configure source location of updates
 
-With Visual Studio, you can configure where your clients will get their updates from. These update source locations are called *channels*, and you can find more information about channel purpose and availability in the [Visual Studio Release Rhythm](/visualstudio/releases//2026//release-rhythm) documentation.
+With Visual Studio, you can configure where your clients will get their updates from. These update source locations are called *channels*, and you can find more information about channel purpose and availability in the [Visual Studio Release Rhythm](/visualstudio/releases/2026/release-rhythm) documentation.
 
 > [!IMPORTANT]
-> Channels have been restructured for the latest prerelease of Visual Studio. The Insiders Channel replaces the "Preview Channel" that was available with Visual Studio 2022. The Stable Channel replaces the "Current Channel" that was available with Visual Studio 2022. The Stable Channel will not be available until Visual Studio 2026 is generally available. See [Visual Studio Release Rhythm](/visualstudio/releases//2026//release-rhythm).
+> Channels have been restructured for the latest prerelease of Visual Studio. The Insiders Channel replaces the "Preview Channel" that was available with Visual Studio 2022. The Stable Channel replaces the "Current Channel" that was available with Visual Studio 2022. The Stable Channel will not be available until Visual Studio 2026 is generally available. See [Visual Studio Release Rhythm](/visualstudio/releases/2026/release-rhythm).
 
 Microsoft makes both the Stable and the Insiders channels available to everyone, and the [long term servicing channels (LTSCs) are available to Enterprise and Professional customers for about 18 months](/visualstudio/productinfo/vs-servicing#long-term-servicing-channel-ltsc-support). IT Administrators can also configure the update source locations, such as network layouts, that the clients should have access to. Refer to the [Visual Studio Administrators Guide](https://aka.ms/vs/admin/guide) for additional approach recommendations, and to the [modifySettings command documentation](/visualstudio/install/use-command-line-parameters-to-install-visual-studio#modifysettings-command-and-command-line-parameters) for how to access this functionality programmatically.  
 
@@ -439,7 +439,7 @@ You can also configure a specific Visual Studio instance to *persistently* remov
 
 The most current release of the installer in the latest version of Visual Studio typically has the most robust and reliable feature set. This functionality will often seamlessly work on lower versioned products. In order to manually acquire the latest version of the installer onto a client machine (like if you wanted the functionality of the latest Visual Studio installer to govern a Visual Studio 2019 installation), you can do one of the following: 
 
-1. [Download any recent bootstrapper for the latest version of Visual Studio](/visualstudio/releases//2026//release-history) and then either
+1. [Download any recent bootstrapper for the latest version of Visual Studio](/visualstudio/releases/2026/release-history) and then either
 
     - Double click on the bootstrapper to initiate the installation. The latest installer will get installed onto the machine first. Once the "Choose Workloads" screen pops up, simply cancel the installation.  
 

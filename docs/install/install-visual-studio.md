@@ -55,7 +55,7 @@ You can download and install a specific version from the [Visual Studio 2022 Rel
 
 Want to know more about what else is new in this version? See the [release notes](https://aka.ms/vs/relnotes/insiders).
 
-You can download and install a specific version from the [Visual Studio Release History](/visualstudio/releases//2026//release-history) page.
+You can download and install a specific version from the [Visual Studio Release History](/visualstudio/releases/2026/release-history) page.
 
 ::: moniker-end
 
@@ -99,7 +99,7 @@ You can install Visual Studio 2022 side-by-side with other versions. For more in
 
 ::: moniker range="visualstudio"
 
-- Check the [system requirements](/visualstudio/releases//2026//vs-system-requirements). These requirements help you determine whether your computer supports the latest Visual Studio.
+- Check the [system requirements](/visualstudio/releases/2026/vs-system-requirements). These requirements help you determine whether your computer supports the latest Visual Studio.
 
 - Make sure that the user who performs the initial installation has administrator permissions on the machine. For more information, see [User permissions and Visual Studio](/visualstudio/ide/user-permissions-and-visual-studio).
 
