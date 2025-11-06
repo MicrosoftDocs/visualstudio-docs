@@ -91,8 +91,6 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
 
 - `AnyAttribute*` - The `Installation` element accepts an open-ended set of attributes that will be exposed at run time as a name-value pair dictionary.
 
-:::moniker range=">=vs-2022"
-
 - `<InstallationTarget>` -This element controls the location where the VSIX installer installs the package. If the value of the `Scope` attribute is "ProductExtension" the package must target a SKU, which has installed a manifest file as part of its contents to advertise its availability to extensions. The `<InstallationTarget>` element has the following attributes when the `Scope` attribute has the explicit or default value "ProductExtension":
 
   - `Id` - This attribute identifies the package.  The attribute follows the namespace convention: Company.Product.Feature.Name. The `Id` attribute can contain only alphanumeric characters and is limited to 100 characters. Expected values:
@@ -125,6 +123,8 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
     When expressing the version for Visual Studio releases, the minor version should always be **0**. For example, Visual Studio 2017 version 15.3.26730.0 should be expressed as [15.0.26730.0,16.0). This is only required for Visual Studio 2017 and later version numbers.
 
   - `AnyAttribute*` - The `<InstallationTarget>` element allows an open-ended set of attributes that is exposed at run time as a name-value pair dictionary.
+
+:::moniker range=">=vs-2022"
 
   The `<ProductArchitecture>` element can be used as a child element of `InstallationTarget`. It specifies the platform architecture versions of Visual Studio that the extension supports. For example, if your extension supports AMD64 and ARM64, use the following XML code:
   
