@@ -1,7 +1,7 @@
 ---
 title: 'Walkthrough: Creating a Margin Glyph'
 description: Learn how to customize the appearance of editor margins by using custom editor extensions by using this walkthrough.
-ms.date: 11/04/2016
+ms.date: 11/06/2025
 ms.topic: how-to
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - margin glyph
@@ -189,7 +189,18 @@ You can customize the appearance of editor margins by using custom editor extens
 
 2. Run the project by pressing **F5**. A second instance of Visual Studio starts.
 
-3. Make sure that the indicator margin is showing. (On the **Tools** menu, click **Options**. On the **Text Editor** page, make sure that **Indicator margin** is selected.)
+3. Make sure that the indicator margin is showing.
+
+   :::moniker range="visualstudio"
+
+   In the **Tools** > **Options** pane, under the **All Settings** > **Text Editor** > **General** > **Display** section, confirm the **Show indicator margin** checkbox is selected.
+
+   :::moniker-end
+   :::moniker range="<=vs-2022"
+
+   In the **Tools** > **Options** dialog, under the **Text Editor** > **General** > **Display** section, confirm the **Indicator margin** checkbox is selected.
+
+   :::moniker-end
 
 4. Open a code file that has comments. Add the word "todo" to one of the comment sections.
 
