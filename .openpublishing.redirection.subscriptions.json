@@ -33,6 +33,10 @@
         {   "source_path": "subscriptions/vs-visual-studio-app-center.md",
             "redirect_url": "/visualstudio/subscriptions",
             "redirect_document_id": false
+        },
+        {   "source_path": "subscriptions/vs-linkedin-learning.md",
+            "redirect_url": "/visualstudio/subscriptions",
+            "redirect_document_id": false
         }
     ]
 }
