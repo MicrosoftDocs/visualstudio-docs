@@ -867,6 +867,8 @@
   - name: Customize the IDE
     displayName: Personalize
     href: ide/personalizing-the-visual-studio-ide.md
+  - name: Visual Studio settings
+    href: ide/visual-studio-settings.md
   - name: Synchronized settings
     href: ide/synchronized-settings-in-visual-studio.md
   - name: Fonts and colors
