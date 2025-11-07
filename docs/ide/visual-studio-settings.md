@@ -25,6 +25,8 @@ Settings associated with specific workloads, optional components, or extensions 
 
 > [!NOTE]
 > Some settings that haven't been migrated to the Visual Studio 2026 experience don't show up in their usual places where you might be used to finding them. For example, Fonts and Colors and Accounts have not been migrated in Visual Studio 2026 in the first public release. To find these settings, use the **Search feature**, or look under **More settings** to see a list of links to settings that haven't been migrated. When you click on the links, the **Options** dialog box appears with the relevant setting page.
+>
+> :::image type="content" alt-text="Screenshot of the Visual Studio settings experience, with More Settings highlighted." source="./media/visualstudio/visual-studio-settings-more-settings.png" lightbox="./media/visualstudio/visual-studio-settings-more-settings.png":::
 
 ## Search settings by keywords
 
