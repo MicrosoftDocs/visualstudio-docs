@@ -15,7 +15,7 @@ manager: mijacobs
 
 # Get to build with Setup Assistant
 
-Visual Studio supports multiple toolsets and SDKs, when a project is loaded, Setup Assistant automatically detects dependencies your project targets and makes it easy to **install** any specific missing dependencies and/or **retarget** your project to the latest dependencies. If you don't want to retarget or install targeted dependencies you can simply hit **ignore** and **Apply**
+Visual Studio supports multiple toolsets and SDKs. When a project is loaded, Setup Assistant automatically detects dependencies your project targets and makes it easy to install any specific missing dependencies and/or retarget your project to the latest dependencies. If you don't want to retarget or install targeted dependencies, you can simply select **Ignore** and **Apply**.
 
 ## C++ developers
 
