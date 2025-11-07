@@ -244,7 +244,7 @@ If the value doesn’t exist (default condition), the previous command indicates
 
 ::: moniker range="=visualstudio"
 
-Because Visual Studio 2026 [stores registry entries in a private registry](tools-for-managing-visual-studio-instances.md#editing-the-registry-for-a-visual-studio-instance), you can't directly edit the registry in the typical way. However, Visual Studio includes a `vsregedit.exe` utility that you can use to change Visual Studio settings. You can turn off notifications with the following command:
+Because Visual Studio [stores registry entries in a private registry](tools-for-managing-visual-studio-instances.md#editing-the-registry-for-a-visual-studio-instance), you can't directly edit the registry in the typical way. However, Visual Studio includes a `vsregedit.exe` utility that you can use to change Visual Studio settings. You can turn off notifications with the following command:
 
 ```shell
 vsregedit.exe set "C:\Program Files\Microsoft Visual Studio\18\Enterprise" HKCU ExtensionManager AutomaticallyCheckForUpdates2Override dword 0
