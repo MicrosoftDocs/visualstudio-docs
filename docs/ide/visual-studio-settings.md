@@ -13,7 +13,7 @@ ms.subservice: general-ide
 ---
 # Visual Studio settings
 
-Settings for the Visual Studio IDE, also called options, let you control many aspects of the behavior of the IDE and all of its components and extensions. To access Visual Studio settings, select **Tools** > **Options** from the main menu.
+Settings for the Visual Studio IDE, also called options, let you control many aspects of the behavior of the IDE and all of its tools, components, and extensions. To access Visual Studio settings, select **Tools** > **Options** from the main menu.
 
 :::image type="content" alt-text="Screenshot of the Visual Studio settings experience." source="./media/visualstudio/visual-studio-settings.png" lightbox="./media/visualstudio/visual-studio-settings.png":::
 
