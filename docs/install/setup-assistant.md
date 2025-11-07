@@ -1,6 +1,6 @@
 ---
 title: Setup Assistant
-description: When a project is loaed, Setup Assistant helps get what you need to build with ease.
+description: When a project is loaded, Setup Assistant helps get what you need to build with ease.
 ms.custom: vs-acquisition
 ms.date: 11/7/2025
 ms.subservice: installation
