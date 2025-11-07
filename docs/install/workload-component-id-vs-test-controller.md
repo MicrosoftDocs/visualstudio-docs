@@ -38,7 +38,7 @@ To install these components by using the manual installer, download and run the 
 
 [!include[Visual Studio Test Controller 2022](includes/vs-2022/workload-component-id-vs-test-controller.md)]
 
-> *Visual Studio 2022 is the last release to include Test Agent and Test Controller. For details, see [Cloud-based load testing service end of life](https://devblogs.microsoft.com/devops/cloud-based-load-testing-service-end-of-life/)*
+> *Visual Studio 2022 is the last release to include Test Agent and Test Controller. For details, see [Cloud-based load testing service end of life](https://devblogs.microsoft.com/devops/cloud-based-load-testing-service-eol/)*
 
 ::: moniker-end
 
