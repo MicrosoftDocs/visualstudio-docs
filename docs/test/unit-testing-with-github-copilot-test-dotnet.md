@@ -1,7 +1,7 @@
 ---
 title: Generate and run unit tests using GitHub Copilot testing
 description: Use GitHub Copilot testing for .NET in Visual Studio to create, test, and run your tests.
-ms.date: 10/22/2025
+ms.date: 11/7/2025
 ms.update-cycle: 90-days
 ms.topic: how-to
 dev_langs:
