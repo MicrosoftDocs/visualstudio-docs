@@ -21,7 +21,7 @@ Settings for the Visual Studio IDE, also called options, let you control many as
 
 Settings are organized into categories, shown in a hierarchy tree on the left side. For example, **Environment** refers to the main IDE window. Find any setting in the tree, or search for a setting by name, category, or keyword if you know something about the setting you're looking for.
 
-Settings associated with specific workloads, optional components, or extensions don't appear in the tree unless you install the workload, component, or extension. See [Modify Visual Studio](../install/modify-visual-studio.md) to check the installed workloads and components. For extensions, see [Manage extensions](finding-and-using-visual-studio-extensions.md).
+Settings associated with specific workloads, optional components, or extensions don't appear in the tree unless they're installed. See [Modify Visual Studio](../install/modify-visual-studio.md) to install workloads and components. For extensions, see [Manage extensions](finding-and-using-visual-studio-extensions.md).
 
 > [!NOTE]
 > Some settings that haven't been migrated to the Visual Studio 2026 experience don't show up in their usual places where you might be used to finding them. For example, **Fonts and Colors** and **Accounts** have not been migrated in Visual Studio 2026 in the first public release. To find these settings, use the **Search feature**, or look under **More settings** (the last item under each top-level node) to see a list of links to settings that haven't been migrated. When you click on the links, the **Options** dialog box appears with the relevant setting page.
