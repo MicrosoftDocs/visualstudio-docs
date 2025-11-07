@@ -27,8 +27,8 @@ Unlike short-lived Copilot suggestions, GitHub Copilot testing for .NET provides
 
 + Visual Studio 2026 Insiders build
 + C# project
-+ [Sign in to Visual Studio using a GitHub account](../ide/work-with-github-accounts.md) with [Copilot access](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot) <br/>
-  <sup>**</sup> You can use [GitHub Copilot for Free](../ide/copilot-free-plan.md). Sign up and leverage AI to code faster and more efficiently. <br/>
++ [Sign in to Visual Studio using a GitHub account](../ide/work-with-github-accounts.md) with [Copilot access](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot)
+
   GitHub Copilot testing works with any active GitHub Copilot subscription, including individual and enterprise plans. While some features may be available with a free Copilot license, usage limits and token throttling may apply, especially for larger solutions or extended sessions. These limits are enforced by GitHub and may impact performance or availability.
 
 >[!TIP]

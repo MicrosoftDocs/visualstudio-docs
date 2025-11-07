@@ -24,18 +24,21 @@ In this article, you'll learn how to create, run, and test C# code using GitHub 
 Although Copilot can generate unit tests, you get extra testing capability by using GitHub Copilot testing for .NET in Visual Studio, including the following:
 
 - Unit tests are generated in a separate project within the solution.
+- Copilot generates tests deterministically, grounded in the C# compiler and language semantics, so assertions and edge cases are predictable and type-safe.
 - GitHub Copilot testing builds the unit tests following test generation. If there are errors, the unit testing capability in GitHub Copilot for .NET tries to identify and fix errors, and then re-runs the tests.
 - GitHub Copilot testing runs the tests using Test Explorer.
 
-GitHub Copilot testing for .NET generates tests for C# projects only using the MSTest framework.
+GitHub Copilot testing for .NET generates tests for C# projects only using the MSTest, NUnit, and xUnit frameworks.
 
 ## Prerequisites
 
 To get started, you need:
 
-+ Visual Studio 2026 or later.
-+ [Sign in to Visual Studio using a GitHub account](../ide/work-with-github-accounts.md) with [Copilot access](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot) <br/>
-  <sup>**</sup> You can use [GitHub Copilot for Free](../ide/copilot-free-plan.md). Sign up and leverage AI to code faster and more efficiently.
++ Visual Studio 2026 Insiders build
++ [Sign in to Visual Studio using a GitHub account](../ide/work-with-github-accounts.md) with [Copilot access](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot)
+
+>[!TIP]
+> For the best experience, we suggest using a paid Copilot subscription to avoid potential throttling and ensure consistent access.
 
 ## Generate and run tests
 
@@ -64,6 +67,8 @@ To get started, you need:
 1. In the Chat window, select **Send**.
 
    GitHub Copilot testing for .NET initiates an iterative process of analyzing your code, creating a new project for the unit tests, generating tests, building, and running the tests.
+
+   Test generation is a long-running process. Depending on the scope of your target (file, project, solution, etc.) it may take a while.
 
    ![Screenshot of Copilot starting test generation](media/visualstudio/test-agent-generate-tests.png)
 
