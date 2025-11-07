@@ -40,6 +40,10 @@ You can also filter settings in certain ways, for example, you can filter to see
 
 The **Applies to** box lets you scope the settings by the solution you're working on. For example, you might choose different theme colors for each solution you work on. The visual difference can make it easier to find the right IDE window if you have multiple windows open.
 
+## When do changes take effect?
+
+Setting changes take effect immediately without requiring a save or apply action, or restarting the IDE.
+
 ## Synchronize settings
 
 Settings are normally associated with your user profile, and synchronize with other sessions of Visual Studio, if you sign in with the same profile. You must be signed in to synchronize settings. When you first sign in to Visual Studio 2026, settings from your Visual Studio 2022 profile synchronize to your Visual Studio 2026 profile, and to other Visual Studio 2026 sessions where you sign in with the same profile, but those settings do not synchronize back to Visual Studio 2022. For more information, see [Synchronized settings in Visual Studio](synchronized-settings-in-visual-studio.md).
