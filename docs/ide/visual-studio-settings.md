@@ -24,9 +24,9 @@ Settings are organized into categories, shown in a hierarchy tree on the left si
 Settings associated with specific workloads, optional components, or extensions don't appear in the tree unless you install the workload, component, or extension. See [Modify Visual Studio](../install/modify-visual-studio.md) to check the installed workloads and components. For extensions, see [Manage extensions](finding-and-using-visual-studio-extensions.md).
 
 > [!NOTE]
-> Some settings that haven't been migrated to the Visual Studio 2026 experience don't show up in their usual places where you might be used to finding them. For example, **Fonts and Colors** and **Accounts** have not been migrated in Visual Studio 2026 in the first public release. To find these settings, use the **Search feature**, or look under **More settings** to see a list of links to settings that haven't been migrated. When you click on the links, the **Options** dialog box appears with the relevant setting page.
+> Some settings that haven't been migrated to the Visual Studio 2026 experience don't show up in their usual places where you might be used to finding them. For example, **Fonts and Colors** and **Accounts** have not been migrated in Visual Studio 2026 in the first public release. To find these settings, use the **Search feature**, or look under **More settings** (the last item under each parent node) to see a list of links to settings that haven't been migrated. When you click on the links, the **Options** dialog box appears with the relevant setting page.
 >
-> :::image type="content" alt-text="Screenshot of the Visual Studio settings experience, with More Settings highlighted." source="./media/visualstudio/visual-studio-settings-more-settings.png" lightbox="./media/visualstudio/visual-studio-settings-more-settings.png":::
+> :::image type="content" alt-text="Screenshot of the Visual Studio settings experience, with More Settings highlighted, and showing the Options dialog." source="./media/visualstudio/visual-studio-settings-more-settings.png" lightbox="./media/visualstudio/visual-studio-settings-more-settings.png":::
 
 ## Search settings by keywords
 
