@@ -42,10 +42,6 @@ To install these components by using the manual installer, download and run the 
 
 ::: moniker-end
 
-::: moniker range=">= visualstudio"
-
-::: moniker-end
-
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## See also
