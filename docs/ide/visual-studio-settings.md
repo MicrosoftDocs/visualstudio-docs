@@ -54,7 +54,7 @@ Settings are normally associated with your user profile, and synchronize with ot
 
 ## View or edit the JSON configuration file
 
-You can view or edit the settings you've modified from the defaults by opening the JSON configuration file. To open the file, select **Edit user settings as JSON** from the control bar. The JSON configuration open, showing you what settings you've customized. You can edit these in JSON, copy them and paste them into messaging apps to share customizations with others.
+You can view or edit the settings you've modified from the defaults by opening the JSON configuration file. To open the file, select **Edit user settings as JSON** from the control bar. The JSON configuration opens, showing you what settings you've customized. You can edit these in JSON, copy them and paste them into messaging apps to share customizations with others.
 
 ## Sync
 
