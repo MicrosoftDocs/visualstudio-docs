@@ -36,7 +36,7 @@ Your most recent searches are remembered and offered as suggestions as you type,
 
 ## Filter settings
 
-You can also filter settings in certain ways, for example, you can filter to see only settings related to accessibility, performance, or settings you've modified from the defaults.
+You can also filter settings in certain ways. For example, you can filter to see only settings related to accessibility, performance, or settings you've modified from the defaults.
 
 :::image type="content" alt-text="Screenshot of Filter options on Settings pane." source="media/visualstudio/visual-studio-settings-filter-options.png" :::
 
@@ -46,7 +46,7 @@ The **Applies to** box lets you scope the settings by the solution you're workin
 
 ## When do changes take effect?
 
-Most setting changes take effect immediately without requiring a save or apply action, or restarting the IDE. Some settings require an IDE restart.
+Most setting changes take effect immediately without requiring a save or apply action, or restarting the IDE. Settings that require you to restart the IDE for them to take effect will display a message when you change them.
 
 ## Synchronize settings
 
