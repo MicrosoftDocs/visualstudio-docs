@@ -38,13 +38,15 @@ Your most recent searches are remembered and offered as suggestions as you type,
 
 You can also filter settings in certain ways, for example, you can filter to see only settings related to accessibility, performance, or settings you've modified from the defaults.
 
+:::image type="content" alt-text="Screenshot of Filter options on Settings pane." source="media/visualstudio/visual-studio-settings-filter-options.png" :::
+
 ## Scope settings by user or solution
 
 The **Applies to** box lets you scope the settings by the solution you're working on. For example, you might choose different theme colors for each solution you work on. The visual difference can make it easier to find the right IDE window if you have multiple windows open.
 
 ## When do changes take effect?
 
-Setting changes take effect immediately without requiring a save or apply action, or restarting the IDE.
+Most setting changes take effect immediately without requiring a save or apply action, or restarting the IDE. Some settings require an IDE restart.
 
 ## Synchronize settings
 
