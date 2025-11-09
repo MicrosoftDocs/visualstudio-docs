@@ -36,7 +36,9 @@ Your most recent searches are remembered and offered as suggestions as you type,
 
 ## Filter settings
 
-You can also filter settings in certain ways, for example, you can filter to see only settings related to accessibility, performance, or settings you've modified from the defaults.
+You can also filter settings in certain ways. For example, you can filter to see only settings related to accessibility, performance, or settings you've modified from the defaults.
+
+:::image type="content" alt-text="Screenshot of Filter options on Settings pane." source="media/visualstudio/visual-studio-settings-filter-options.png" :::
 
 ## Scope settings by user or solution
 
@@ -44,7 +46,7 @@ The **Applies to** box lets you scope the settings by the solution you're workin
 
 ## When do changes take effect?
 
-Setting changes take effect immediately without requiring a save or apply action, or restarting the IDE.
+Most setting changes take effect immediately without requiring a save or apply action, or restarting the IDE. Settings that require you to restart the IDE for them to take effect will display a message when you change them.
 
 ## Synchronize settings
 
@@ -52,7 +54,62 @@ Settings are normally associated with your user profile, and synchronize with ot
 
 ## View or edit the JSON configuration file
 
-You can view or edit the settings you've modified from the defaults by opening the JSON configuration file. To open the file, select **Edit user settings as JSON** from the control bar. The JSON configuration opens, showing you what settings you've customized. You can edit these in JSON, copy them and paste them into messaging apps to share customizations with others.
+You can view or edit the settings you've modified from the defaults by opening the JSON configuration file. To open the file, select **Edit user settings as JSON** from the control bar. The JSON configuration opens, showing you what settings you've customized. You can edit these in JSON, or copy any setting to the clipboard to share customizations with others.
+
+Here's an example of the settings file:
+
+```json
+/* Visual Studio Settings File */
+{
+  "languages.dockerfile.general.wordWrapVisualGlyphs": false,
+  "languages.fSharpInteractive.general.wordWrapVisualGlyphs": false,
+  "languages.memory.general.wordWrapVisualGlyphs": false,
+  "languages.register.general.wordWrapVisualGlyphs": false,
+  "languages.typeScript.general.wordWrapVisualGlyphs": false,
+  "languages.vbScript.general.wordWrapVisualGlyphs": false,
+  "languages.cpp.intelliSense.errors.enableErrorFixSuggestions": false,
+  "languages.defaults.general.wordWrapVisualGlyphs": true,
+  "textEditor.advanced.diffOverviewMargin": true,
+  "textEditor.general.stickyScroll.maxLines": 100,
+  "copilot.general.debugger.enableDiagnosticsHubProfilerAgent": false,
+  "copilot.general.editor.enableAdaptivePaste": false,
+  "copilot.general.editor.enableMermaidPreview": false,
+  "languages.basic.general.showCompletionOnTyping.hideAdvancedMembers": false,
+  "languages.cpp.codeCleanup.includeCleanup.addMissingSuggestionLevel": "suggestion",
+  "languages.cpp.codeCleanup.includeCleanup.removeUnusedSuggestionLevel": "dimmed",
+  "languages.csharp.general.wordWrapVisualGlyphs": false,
+  "languages.json.general.navigationBar": true,
+  "languages.rest.tabs.indenting": "smart",
+  "languages.rest.general.navigationBar": true,
+  "languages.cpp.textEditor.preprocessor.showPreprocessorInactiveColor": false,
+  "languages.cpp.intelliSense.quickInfo.enableQuickInfoHelpLink": false,
+  "languages.cpp.intelliSense.singleFile.enableSingleFileISense": false,
+  "languages.cpp.intelliSense.enableTemplateIntelliSense": false,
+  "languages.cpp.textEditor.outlining.enableOutliningOnFileOpen": false,
+  "languages.cpp.intelliSense.inactivePlatformIntelliSenseLimit": 1,
+  "languages.cpp.codeCleanup.sortIncludes.priorityCaseSensitive": false,
+  "languages.cpp.codeStyle.formatting.spacing.spaceAfterSemicolon": true,
+  "languages.cpp.intelliSense.quickInfo.useWebSearchOnQuickInfoHelpLink": false,
+  "languages.cpp.intelliSense.browsingNavigation.wholeCodebaseSemanticIndex.maximumWorkerThreads": 4,
+  "languages.cpp.intelliSense.browsingNavigation.databaseFallback.location": "0",
+  "languages.cpp.intelliSense.maximumCachedTranslationUnits": 15,
+  "languages.dockerfile.scrollbars.verticalScrollBarMode": "map",
+  "languages.cpp.intelliSense.errors.maximumErrorFixErrors": 2,
+  "languages.fSharpInteractive.scrollbars.verticalScrollBarMode": "map",
+  "textEditor.general.display.autoBraceSurround": true,
+  "textEditor.general.imageHoverPreview": true,
+  "textEditor.general.display.zeroWidthCharacters": false,
+  "languages.cpp.intelliSense.references.maxFindReferencesThreads": 7,
+  "languages.cpp.intelliSense.references.autoTuneMaximumFindReferencesThreads": true,
+  "languages.memory.scrollbars.verticalScrollBarMode": "map",
+  "languages.plainText.scrollbars.verticalScrollBarMode": "bar",
+  "copilot.general.chat.preferredChatMode": "Ask",
+  "languages.razor.tabs.character": "space",
+  "environment.general.showStatusBar": false,
+  "languages.register.scrollbars.verticalScrollBarMode": "map",
+  "languages.vbScript.scrollbars.verticalScrollBarMode": "map"
+}
+```
 
 ## Sync
 
