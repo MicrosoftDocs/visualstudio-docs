@@ -243,14 +243,13 @@ To manage authentication for an MCP server:
 
 1. Provide credentials for the necessary OAuth provider for that server in the browser pop-up dialog.
 
-
 ## MCP prompts and prompt templates
 
-MCP prompts allow servers to provide structured messages and instructions for interacting with language models. These prompts cater to the use case and content of the server, so you get the best responses for a certain task.
+MCP prompts enable servers to send structured messages and instructions for interacting with language models. Each prompt is tailored to the server’s use case and content. You can browse available prompts and customize them with arguments.
 
 ### Use MCP prompts
 
-Visual Studio allows you to discover available prompts, retrieve their contents, and provide arguments to customize them. To reference any prompts that may come from an MCP server:
+To reference prompts from an MCP server:
 
 1. Select the **+ Add Reference** button in chat.
 1. Select the **Prompts** option.
@@ -259,17 +258,17 @@ Visual Studio allows you to discover available prompts, retrieve their contents,
 
 ### Prompt templates with custom arguments
 
-Some MCP prompts have arguments that you can fill in to customize the prompt for your specific needs. These prompts are known as prompt templates. If you select a prompt in the dialog that contains arguments, you can specify those values before inserting the prompt into chat.
+Some MCP prompts include arguments you can fill in to customize them for your specific needs. These are called prompt templates. When you select a prompt that contains arguments, you’ll have the option to specify those values before inserting it into the chat.
 
 ### Example: GitHub integration
 
-Imagine you're working on code reviews and want to leverage GitHub's specialized prompts. With the GitHub MCP server, you can access prompts specifically designed for analyzing pull requests, generating commit messages, or reviewing code changes. These prompts understand GitHub's context and can provide more targeted assistance than generic prompts.
+Suppose you're reviewing code and want to use GitHub's specialized prompts. With the GitHub MCP server, you can access prompts specifically designed for tasks like analyzing pull requests, generating commit messages, or reviewing code changes. These prompts are context-aware and provide more targeted assistance than generic one.
 
 [![Install in Visual Studio](https://img.shields.io/badge/Install%20in%20Visual%20Studio-blue?logo=visualstudio)](vsweb+mcp:/install?%7B%22name%22%3A%22github%22%2C%22url%22%3A%22https%3A%2F%2Fapi.githubcopilot.com%2Fmcp%2F%22%7D)
 
 ## MCP resources and resource templates
 
-Model Context Protocol provides a standardized way for servers to expose resources to clients. Resources allow servers to share data that provides context to language models, such as files, database schemas, or application-specific information. Each resource is uniquely identified by a URI, enabling you to pull in context directly in the IDE.
+The Model Context Protocol (MCP) provides a standardized way for servers to expose resources to clients. These resources supply context to language models, such as files, database schemas, or application-specific data. Each resource is uniquely identified by a URI, allowing you to pull context directly into your IDE.
 
 ### Use MCP resources
 
@@ -286,27 +285,27 @@ MCP resources can have arguments that you fill in to customize the resource for 
 
 ### Example: Azure DevOps work items
 
-When working with Azure DevOps, you can now reference work items, user stories, and project data directly in your chat conversations. The Azure DevOps MCP server exposes resources like work item templates, sprint information, and team capacity data that Copilot can use to provide more contextual suggestions about your project planning and development tasks.
+When working with Azure DevOps, you can reference work items, user stories, and project data directly in your chat conversations. The Azure DevOps MCP server exposes resources such as work item templates, sprint information, and team capacity data enabling Copilot to provide more contextual suggestions for project planning and development tasks.
 
 [![Install in Visual Studio](https://img.shields.io/badge/Install%20in%20Visual%20Studio-blue?logo=visualstudio)](vsweb+mcp:/install?%7B%22name%22%3A%22Azure%20DevOps%22%2C%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fapi.githubcopilot.com%2Fmcp%2Fazure-devops%22%7D)
 
 ### Example: Figma design context
 
-For teams working closely with design systems, the Figma MCP server lets you reference design components, style guides, and design specifications directly in your development conversations. This feature bridges the gap between design and development by making design context readily available to Copilot.
+For teams working with design systems, the Figma MCP server lets you reference design components, style guides, and design specifications directly in development conversations. This bridges the gap between design and development by making design context readily available to Copilot.
 
 [![Install in Visual Studio](https://img.shields.io/badge/Install%20in%20Visual%20Studio-blue?logo=visualstudio)](vsweb+mcp:/install?%7B%22name%22%3A%22figma%22%2C%22gallery%22%3Atrue%2C%22url%22%3A%22http%3A%2F%2F127.0.0.1%3A3845%2Fmcp%22%7D)
 
 ## MCP sampling
 
-Sampling in MCP lets servers implement agentic behaviors by enabling LLM calls to occur nested inside other MCP server features. This powerful feature allows an MCP server to make requests of an LLM, rather than the typical workflow of an LLM requesting content from an MCP server. Visual Studio now supports this advanced capability, allowing your MCP servers to perform more complex, multistep tasks on your behalf.
+Sampling in MCP enables servers to implement agentic behaviors by allowing LLM calls to occur within other MCP server features. This advanced capability lets an MCP server request an LLM, reversing the typical workflow where the LLM requests content from the server. Visual Studio now supports this feature, enabling MCP servers to perform more complex, multi-step tasks on your behalf.
 
 ### How sampling works
 
-You don't need to configure anything to take advantage of sampling. As long as your MCP server supports it, Visual Studio supports it too. When Copilot determines that a request would benefit from a sampling call, you see a dialog containing all details of the request. You confirm the sampling call before anything happens behind the scenes. This process ensures you maintain full control over any automated actions.
+You don't need to configure anything to use sampling. If your MCP server supports it, Visual Studio does too. When Copilot determines a request would benefit from a sampling call, you’ll see a dialog with all the details. You confirm the call before anything happens behind the scenes, ensuring you maintain full control over automated actions.
 
 ### Example: Playwright testing scenarios
 
-The Playwright MCP server can use sampling to automatically generate comprehensive test scenarios based on your application's current state. When you ask for help with testing, it might sample your application's DOM structure, analyze user flows, and then generate targeted test scripts that cover critical user paths - all through intelligent sampling calls that you approve.
+The Playwright MCP server can use sampling to automatically generate comprehensive test scenarios based on your application’s current state. When you request testing assistance, it may sample your DOM structure, analyze user flows, and generate targeted test scripts that cover critical paths, all through intelligent sampling calls that you approve.
 
 [![Install in Visual Studio](https://img.shields.io/badge/Install%20in%20Visual%20Studio-blue?logo=visualstudio)](vsweb+mcp:/install?%7B%22name%22%3A%22playwright%22%2C%22gallery%22%3Atrue%7D)
 
