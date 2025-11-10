@@ -151,6 +151,17 @@ The benchmark functions must be added to a .NET console application. These funct
 
    To analyze data related to other tabs such as **CPU Usage**, see the corresponding articles in the profiling documentation.
 
+::: moniker range=">=visualstudio"
+## Optimize with Copilot
+
+You can trigger CPU and memory allocation optimizations for your Benchmark .NET benchmarks directly from the editor using CodeLens. This makes performance tuning more accessible and seamless, helping you find and fix CPU and memory allocation issues right where you code.
+
+Select the CodeLens above your benchmark and then select the option **Optimize Allocations with Copilot**.
+
+![Screenshot of BenchmarkDotNet data in Visual Studio.](../profiling/media/visualstudio/benchmark-dotnet-codelens-optimize-memory-allocations.png)
+
+::: moniker-end
+
 ## Related content
 
 - [First look at profiling](../profiling/choose-performance-tool.md)
