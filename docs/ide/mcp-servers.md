@@ -90,11 +90,11 @@ MCP is a relatively new standard, and the ecosystem is rapidly evolving. As more
 
 Try out some other popular MCP servers in Visual Studio with one-click:
 
-- [![Install in Visual Studio](https://img.shields.io/badge/Visual_Studio-Install_Awesome_MCP-purple?style=flat-square&logo=visualstudio&logoColor=white)](vsweb+mcp:/install?%7B%22name%22%3A%22Awesome%20Copilot%22%2C%22type%22%3A%22stdio%22%2C%22command%22%3A%22docker%22%2C%22args%22%3A%5B%22run%22%2C%22-i%22%2C%22--rm%22%2C%22ghcr.io%2Fmicrosoft%2Fmcp-dotnet-samples%2Fawesome-copilot%3Alatest%22%5D%7D) – Discover and install custom prompts and instructions for GitHub Copilot.
-- [![Install in Visual Studio](https://img.shields.io/badge/Visual_Studio-Install_MarkItDown_MCP-purple?style=flat-square&logo=visualstudio&logoColor=white)](vsweb+mcp:/install?%7B%22name%22%3A%22markitdown%22%2C%22gallery%22%3Atrue%2C%22command%22%3A%22uvx%22%2C%22args%22%3A%5B%22markitdown-mcp%22%5D%7D) – Convert various file formats (PDF, Word, Excel, images, audio) to Markdown.
-- [![Install in Visual Studio](https://img.shields.io/badge/Visual_Studio-Install_DuckDB_Server-purple?style=flat-square&logo=visualstudio&logoColor=white)](vsweb+mcp:/install?%7B%22name%22%3A%22duckdb%22%2C%22gallery%22%3Atrue%2C%22inputs%22%3A%5B%7B%22id%22%3A%22duckdb_db_path%22%2C%22type%22%3A%22promptString%22%2C%22description%22%3A%22Path%20to%20the%20DuckDB%20database%20file%20(e.g.%2C%20%2Fpath%2Fto%2Fdatabase.duckdb)%22%2C%22password%22%3Afalse%7D%5D%2C%22command%22%3A%22uvx%22%2C%22args%22%3A%5B%22mcp-server-duckdb%22%2C%22--db-path%22%2C%22%24%7Binput%3Aduckdb_db_path%7D%22%5D%7D) – Query and analyze data in DuckDB databases locally and in the cloud.
-- [![Install in Visual Studio](https://img.shields.io/badge/Visual_Studio-Install_MongoDB_MCP-purple?style=flat-square&logo=visualstudio&logoColor=white)](vsweb+mcp:/install?%7B%22name%22%3A%22mongodb%22%2C%22gallery%22%3Atrue%2C%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22mongodb-mcp-server%22%5D%7D) – Database operations and management. Execute queries, manage collections, aggregation pipelines, and document operations.
-- [![Install in Visual Studio](https://img.shields.io/badge/Visual_Studio-Install_HuggingFace_MCP-purple?style=flat-square&logo=visualstudio&logoColor=white)](vsweb+mcp:/install?%7B%22name%22%3A%22huggingface%22%2C%22gallery%22%3Atrue%2C%22url%22%3A%22https%3A%2F%2Fhf.co%2Fmcp%22%7D) – Access models, datasets, and Spaces on the Hugging Face Hub.
+- [![Install in Visual Studio](https://img.shields.io/badge/Visual_Studio-Install_Awesome_MCP-purple?style=flat-square&logo=visualstudio&logoColor=white)](https://vs-open.link/mcp-install?%7B%22name%22%3A%22Awesome%20Copilot%22%2C%22type%22%3A%22stdio%22%2C%22command%22%3A%22docker%22%2C%22args%22%3A%5B%22run%22%2C%22-i%22%2C%22--rm%22%2C%22ghcr.io%2Fmicrosoft%2Fmcp-dotnet-samples%2Fawesome-copilot%3Alatest%22%5D%7D) – Discover and install custom prompts and instructions for GitHub Copilot.
+- [![Install in Visual Studio](https://img.shields.io/badge/Visual_Studio-Install_MarkItDown_MCP-purple?style=flat-square&logo=visualstudio&logoColor=white)](https://vs-open.link/mcp-install?%7B%22name%22%3A%22markitdown%22%2C%22gallery%22%3Atrue%2C%22command%22%3A%22uvx%22%2C%22args%22%3A%5B%22markitdown-mcp%22%5D%7D) – Convert various file formats (PDF, Word, Excel, images, audio) to Markdown.
+- [![Install in Visual Studio](https://img.shields.io/badge/Visual_Studio-Install_DuckDB_Server-purple?style=flat-square&logo=visualstudio&logoColor=white)](https://vs-open.link/mcp-install?%7B%22name%22%3A%22duckdb%22%2C%22gallery%22%3Atrue%2C%22inputs%22%3A%5B%7B%22id%22%3A%22duckdb_db_path%22%2C%22type%22%3A%22promptString%22%2C%22description%22%3A%22Path%20to%20the%20DuckDB%20database%20file%20(e.g.%2C%20%2Fpath%2Fto%2Fdatabase.duckdb)%22%2C%22password%22%3Afalse%7D%5D%2C%22command%22%3A%22uvx%22%2C%22args%22%3A%5B%22mcp-server-duckdb%22%2C%22--db-path%22%2C%22%24%7Binput%3Aduckdb_db_path%7D%22%5D%7D) – Query and analyze data in DuckDB databases locally and in the cloud.
+- [![Install in Visual Studio](https://img.shields.io/badge/Visual_Studio-Install_MongoDB_MCP-purple?style=flat-square&logo=visualstudio&logoColor=white)](https://vs-open.link/mcp-install?%7B%22name%22%3A%22mongodb%22%2C%22gallery%22%3Atrue%2C%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22mongodb-mcp-server%22%5D%7D) – Database operations and management. Execute queries, manage collections, aggregation pipelines, and document operations.
+- [![Install in Visual Studio](https://img.shields.io/badge/Visual_Studio-Install_HuggingFace_MCP-purple?style=flat-square&logo=visualstudio&logoColor=white)](https://vs-open.link/mcp-install?%7B%22name%22%3A%22huggingface%22%2C%22gallery%22%3Atrue%2C%22url%22%3A%22https%3A%2F%2Fhf.co%2Fmcp%22%7D) – Access models, datasets, and Spaces on the Hugging Face Hub.
 
 ## Options for adding an MCP server
 
@@ -276,11 +276,11 @@ For resources with arguments (resource templates):
 
 **Example:** The Azure DevOps MCP server exposes work items resources, sprint information, and team capacity data for project planning tasks.
 
-[![Install in Visual Studio](ttps://img.shields.io/badge/Visual_Studio-Install_Azure_DevOps_MCP-purple?style=flat-square&logo=visualstudio&logoColor=white)](vsweb+mcp:/install?%7B%22name%22%3A%22Azure%20DevOps%22%2C%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fapi.githubcopilot.com%2Fmcp%2Fazure-devops%22%7D)
+[![Install in Visual Studio](ttps://img.shields.io/badge/Visual_Studio-Install_Azure_DevOps_MCP-purple?style=flat-square&logo=visualstudio&logoColor=white)](https://vs-open.link/mcp-install?%7B%22name%22%3A%22Azure%20DevOps%22%2C%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fapi.githubcopilot.com%2Fmcp%2Fazure-devops%22%7D)
 
 **Example:** The Figma MCP server provides access to design component resources, style guides, and design specifications.
 
-[![Install in Visual Studio](ttps://img.shields.io/badge/Visual_Studio-Install_Figma_MCP-purple?style=flat-square&logo=visualstudio&logoColor=white)](vsweb+mcp:/install?%7B%22name%22%3A%22figma%22%2C%22gallery%22%3Atrue%2C%22url%22%3A%22http%3A%2F%2F127.0.0.1%3A3845%2Fmcp%22%7D)
+[![Install in Visual Studio](ttps://img.shields.io/badge/Visual_Studio-Install_Figma_MCP-purple?style=flat-square&logo=visualstudio&logoColor=white)](https://vs-open.link/mcp-install?%7B%22name%22%3A%22figma%22%2C%22gallery%22%3Atrue%2C%22url%22%3A%22http%3A%2F%2F127.0.0.1%3A3845%2Fmcp%22%7D)
 
 ## MCP sampling
 
@@ -290,7 +290,7 @@ When Copilot needs to make a sampling call, you'll see a confirmation dialog. Re
 
 **Example:** The Playwright MCP server uses sampling to generate test scenarios based on your application's DOM structure and user flows.
 
-[![Install in Visual Studio](ttps://img.shields.io/badge/Visual_Studio-Install_Playwright_MCP-purple?style=flat-square&logo=visualstudio&logoColor=white)](vsweb+mcp:/install?%7B%22name%22%3A%22playwright%22%2C%22gallery%22%3Atrue%7D)
+[![Install in Visual Studio](ttps://img.shields.io/badge/Visual_Studio-Install_Playwright_MCP-purple?style=flat-square&logo=visualstudio&logoColor=white)](https://vs-open.link/mcp-install?%7B%22name%22%3A%22playwright%22%2C%22gallery%22%3Atrue%7D)
 
 ## Frequently asked questions
 
