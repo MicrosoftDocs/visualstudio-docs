@@ -214,13 +214,13 @@ Visual Studio Installer opens. You can also install any product that's listed on
 
 ### Select how to configure your Visual Studio installation
 
-When you install Visual Studio 2026 or later, the installer provides options to copy your previous VIsual Studio environment. You can configure the installation in a few ways:
+When you install Visual Studio 2026 or later, the installer provides options to copy your previous Visual Studio environment. You can configure the installation in a few ways:
 
 - **Manually choose workloads and components**  
   Start from scratch and manually choose the workloads and components you want to install.
   
 - **Migrate my configuration from this product version**  
-  Chose an existing Visual Studio instance (2022 or later) to copy workloads, SDKs, toolsets, settings, and extensions into your new Visual Studio enviornment.
+  Chose an existing Visual Studio instance (2022 or later) to copy workloads, SDKs, toolsets, settings, and extensions into your new Visual Studio environment.
 
 - **Import my configuration from a .vsconfig file**  
   Use a file that you or your team exported. Importing a `.vsconfig` file helps standardize development environments across multiple machines.
