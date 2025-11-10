@@ -12,9 +12,9 @@ monikerRange: ">= visualstudio"
 ---
 # Configure certificate revocation check
 
-Starting with Visual Studio 2026, an optional certificate revocation check feature is available. When enabled, Visual Studio blocks connections if any issue is detected in the X.509 certificate chain. 
+Starting with Visual Studio 2026, you can enable an optional certificate revocation check feature. When you enable it, Visual Studio blocks connections if it detects any issue in the X.509 certificate chain.
 
-If a connection is blocked due to a certificate error, a dialog will appear providing additional information about why the certificate validation failed.  
+If a connection is blocked because of a certificate error, a dialog appears with more information about why the certificate validation failed. 
 
 :::image type="content" source="media/visualstudio/certificate-status-security-dialog.png" alt-text="Screenshot of the certificate status security dialog.":::
 
