@@ -25,7 +25,7 @@ landingContent:
         links:
           - text: Overview of testing tools
             url: improve-code-quality.md
-          - text: GitHub Copilot Test for .NET
+          - text: GitHub Copilot testing for .NET
             url: github-copilot-test-dotnet-overview.md
           - text: Unit test tools & tasks
             url: unit-test-your-code.md

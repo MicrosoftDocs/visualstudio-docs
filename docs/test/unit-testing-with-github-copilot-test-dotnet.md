@@ -62,7 +62,7 @@ To get started, you need:
 
    For the `Bank` example, you can type `@test #BankAccount`, specifying the class name.
 
-   ![Screenshot of command to generate tests](media/visualstudio/test-agent-start-agent.png)
+   ![Screenshot of command to generate tests.](media/visualstudio/test-agent-start-agent.png)
 
 1. In the Chat window, select **Send**.
 
@@ -70,14 +70,14 @@ To get started, you need:
 
    Test generation is a long-running process. Depending on the scope of your target (file, project, solution, etc.) it may take a while.
 
-   ![Screenshot of Copilot starting test generation](media/visualstudio/test-agent-generate-tests.png)
+   ![Screenshot of Copilot starting test generation.](media/visualstudio/test-agent-generate-tests.png)
 
    When unit tests are generated, the tests appear in a separate test project in the solution.
 
-   ![Screenshot of generated sample test](media/visualstudio/test-agent-sample-output.png)
+   ![Screenshot of generated sample test.](media/visualstudio/test-agent-sample-output.png)
 
    Test Explorer shows the results. If Test Explorer is not automatically opened by GitHub Copilot testing, select **Test** > **Test Explorer**.
 
-   ![Screenshot of Test Explorer output](media/visualstudio/test-agent-test-explorer-results.png)
+   ![Screenshot of Test Explorer output.](media/visualstudio/test-agent-test-explorer-results.png)
 
    At this point, you can manually use Test Explorer to continue running tests, or chat with Copilot about the test results. You can also use Copilot to debug failed tests. For more information, see [Debug unit tests](../test/debug-unit-tests-with-test-explorer.md).

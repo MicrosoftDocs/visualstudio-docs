@@ -1,7 +1,7 @@
 ---
 title: Overview of GitHub Copilot testing for .NET
 description: Learn about GitHub Copilot testing for .NET in Visual Studio.
-ms.date: 11/7/2025
+ms.date: 11/10/2025
 ms.update-cycle: 90-days
 ms.topic: how-to
 dev_langs:
@@ -34,9 +34,9 @@ Unlike short-lived Copilot suggestions, GitHub Copilot testing for .NET provides
 >[!TIP]
 > For the best experience, we suggest using a paid Copilot subscription to avoid potential throttling and ensure consistent access.
 
-## What GitHub Copilot Testing Can Do
+## What GitHub Copilot testing can do
 
-When you enable this capability, GitHub Copilot Testing interacts with your solution in several ways to generate and validate tests:
+When you enable this capability, GitHub Copilot testing interacts with your solution in several ways to generate and validate tests:
 
 - **Read:** Copilot analyzes your source code and project structure to understand context and dependencies.
 - **Write:** It creates or updates test files within your solution based on its suggestions.
@@ -44,7 +44,7 @@ When you enable this capability, GitHub Copilot Testing interacts with your solu
 - **Execute:** It runs tests to confirm they pass and to provide feedback on coverage and quality.
 
 >[!IMPORTANT]
-> Copilot Testing does not modify production code outside of the test generation process. All changes occur within your local development environment, and you retain full control to review, accept, or discard suggestions.
+> Copilot testing does not modify production code outside of the test generation process. All changes occur within your local development environment, and you retain full control to review, accept, or discard suggestions.
 
 ## Why use GitHub Copilot testing for .NET?
 
@@ -75,7 +75,7 @@ If you don’t see the @test command in Copilot Chat, try the following steps:
 1. Verify your Visual Studio build. Make sure you are running the latest Visual Studio Insiders build, because this capability is currently available only in Insiders.
 1. Toggle the setting in **Tools > Options > GitHub Copilot**. When you disable and then re-enable the GitHub Copilot testing setting, this refreshes the integration.
 
-   ![Screenshot of testing setting in Options](media/visualstudio/test-agent-settings.png)
+   ![Screenshot of testing setting in Options.](media/visualstudio/test-agent-settings.png)
 
 If the @test command does not appear in Chat, and the issue persists after toggling, please report the issue using **Help > Send Feedback** in Visual Studio.
 

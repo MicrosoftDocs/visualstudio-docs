@@ -4,7 +4,7 @@
   items:
   - name: Overview of testing tools
     href: improve-code-quality.md
-  - name: GitHub Test Agent Overview
+  - name: Overview of GitHub Copilot testing
     href: github-copilot-test-dotnet-overview.md
   - name: Unit test tools and tasks
     href: unit-test-your-code.md
