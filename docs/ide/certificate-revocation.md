@@ -6,7 +6,6 @@ author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide
-ms.date: 11/11/2025
 ms.topic: how-to
 monikerRange: ">= visualstudio"
 ---
@@ -26,7 +25,6 @@ This feature is disabled by default. To enable it:
 :::image type="content" source="media/visualstudio/certificate-revocation-setting.png" alt-text="Screenshot of the certificate revocation setting in the Options dialog.":::
 
 For more information about certificate validation, see [X.509 certificates](/dotnet/api/system.security.cryptography.x509certificates.x509certificate).
- 
 
  
 
