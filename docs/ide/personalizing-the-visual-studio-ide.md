@@ -1,7 +1,7 @@
 ---
 title: Customize & save your personal Visual Studio IDE settings
 description: Customize the Visual Studio integrated development environment (IDE) in ways that best support your own development style and requirements.
-ms.date: 10/04/2024
+ms.date: 11/6/2025
 ms.topic: how-to
 author: anandmeg
 ms.author: meghaanand
@@ -61,6 +61,14 @@ You can also use the wizard to reset the environment to one of the default colle
     :::image type="content" source="media/vs-2022/personalizing-the-visual-studio-ide/import-export-settings-collections.png" alt-text="Screenshot of the default collection of settings in Visual Studio.":::
 
 1. On the **Reset Complete** page, select **Close**.
+
+:::moniker range="visualstudio"
+## Settings in Visual Studio
+
+To access Visual Studio settings (options), select **Tools** > **Options** from the main menu. The settings are organized into categories, shown in a tree on the left side. Find the setting in the tree, or use the search box to search for a setting by name, category, or keyword. You can also filter settings in certain ways, for example, you can filter to see only settings for Accessibility or settings you've modified from the defaults.
+
+For more information, see [Visual Studio settings](visual-studio-settings.md).
+:::moniker-end
 
 ## General environment options
 
