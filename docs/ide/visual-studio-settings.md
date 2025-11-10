@@ -50,7 +50,7 @@ Most setting changes take effect immediately without requiring a save or apply a
 
 ## Synchronize settings
 
-Settings are normally associated with your user profile, and synchronize with other sessions of Visual Studio, if you sign in with the same profile. You must be signed in to synchronize settings. When you first install Visual Studio 2026, you have the option to import settings from a previous installation. This action imports all settings. Settings that were previously synchronized are automatically applied to the new installation. The settings synchronize to other Visual Studio 2026 sessions where you sign in with the same profile, but those settings don't synchronize back to Visual Studio 2022. For more information, see [Synchronized settings in Visual Studio](synchronized-settings-in-visual-studio.md).
+Settings are normally associated with your user profile, and synchronize with other sessions of Visual Studio, if you sign in with the same profile. You must be signed in to synchronize settings. When you first install Visual Studio 2026, you have the option to import settings from a previous installation. This action imports all settings. Settings that were previously synchronized are automatically applied to the new installation. Any subsequent setting changes will synchronize to other Visual Studio 2026 sessions where you sign in with the same profile, but those settings don't synchronize back to Visual Studio 2022. For more information, see [Synchronized settings in Visual Studio](synchronized-settings-in-visual-studio.md).
 
 ## View or edit the JSON configuration file
 
