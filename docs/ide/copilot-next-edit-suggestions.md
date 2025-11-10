@@ -1,7 +1,7 @@
 ---
 title: Copilot Next Edit Suggestions
 description: Use GitHub Copilot Next Edit Suggestions (NES) to predict where you'll want to make your next edit and what that edit should be, based on your recent code edits.
-ms.date: 8/20/2025
+ms.date: 11/10/2025
 ms.update-cycle: 180-days
 ms.topic: get-started
 author: anandmeg
@@ -26,7 +26,16 @@ Inline completions are great at autocompleting a section of code. NES helps you 
 
 ## Enable NES
 
-To get started with Copilot NES, enable the feature in **Tools** > **Options** > **GitHub** > **Copilot** > **Copilot Completions** > **Enable Next Edit Suggestions**.
+:::moniker range="visualstudio"
+
+To get started with Copilot NES, enable the feature in the **Tools** > **Options** pane. Expand the **All Settings** > **Text Editor** > **Code Completions** section, and select the **Copilot Next Edit Suggestions (Next-edit predictions from Copilot)** checkbox in the **Code Completions Providers** group.
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+To get started with Copilot NES, enable the feature in the **Tools** > **Options** dialog. Expand the **GitHub** > **Copilot** > **Copilot Completions** section and select the **Enable Next Edit Suggestions** checkbox.
+
+:::moniker-end
 
 ## Start using NES
 
@@ -78,7 +87,18 @@ After you paste some code, NES suggests adjustments to match it with the style o
 
 ## Hide NES
 
-With the release of Visual Studio 17.14, you can now hide suggestions from NES in Visual Studio and review them only when you choose. To enable this feature, select **Tools** > **Options** > **GitHub** > **Copilot** > **Copilot Completions** > **Collapse Next Edit Suggestions**.
+You can hide suggestions from NES in Visual Studio and review them only when you choose.
+
+:::moniker range="visualstudio"
+
+In the **Tools** > **Options** pane, expand the **All Settings** > **Text Editor** > **Code Completions** section, and select the **Collapse Next Edit Suggestions** checkbox.
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+In the **Tools** > **Options** dialog, expand the **GitHub** > **Copilot** > **Copilot Completions** section, and select the **Collapse Next Edit Suggestions** checkbox.
+
+:::moniker-end
 
 Your edits still trigger NES, but when a suggestion is available, only the margin indicator appears in the gutter. This indicator points to the relevant line. The suggestion itself remains hidden until you choose to view it.
 
