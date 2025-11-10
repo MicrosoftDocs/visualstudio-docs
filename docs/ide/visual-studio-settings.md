@@ -50,11 +50,11 @@ Most setting changes take effect immediately without requiring a save or apply a
 
 ## Synchronize settings
 
-Settings are normally associated with your user profile, and synchronize with other sessions of Visual Studio, if you sign in with the same profile. You must be signed in to synchronize settings. When you first sign in to Visual Studio 2026, you have the option to import settings from your Visual Studio 2022 profile. The settings synchronize to other Visual Studio 2026 sessions where you sign in with the same profile, but those settings don't synchronize back to Visual Studio 2022. For more information, see [Synchronized settings in Visual Studio](synchronized-settings-in-visual-studio.md).
+Settings are normally associated with your user profile, and synchronize with other sessions of Visual Studio, if you sign in with the same profile. You must be signed in to synchronize settings. When you first install Visual Studio 2026, you have the option to import all settings from your Visual Studio `.vsconfig` file or a previous installation. This action imports all settings. Settings that were previously synchronized, which might be a subset of all the settings, are automatically applied to the new installation. The settings synchronize to other Visual Studio 2026 sessions where you sign in with the same profile, but those settings don't synchronize back to Visual Studio 2022. For more information, see [Synchronized settings in Visual Studio](synchronized-settings-in-visual-studio.md).
 
 ## View or edit the JSON configuration file
 
-You can view or edit the settings you've modified from the defaults by opening the JSON configuration file. To open the file, select **Edit user settings as JSON** from the control bar. The JSON configuration opens, showing you what settings you've customized. You can edit these in JSON, or copy any setting to the clipboard to share customizations with others.
+You can view or edit the settings you've modified from the defaults by opening the JSON configuration file. To open the file, select **Edit user settings as JSON** from the toolbar. The JSON configuration opens, showing you what settings you've customized. You can edit these in JSON, or copy any setting to the clipboard to share customizations with others.
 
 Here's an example of the settings file:
 
@@ -113,7 +113,7 @@ Here's an example of the settings file:
 
 ## Sync
 
-Use the **Sync** to refresh the settings view to reflect the current state.
+Use the **Sync** button to synchronize local settings and online synchronized settings.
 
 ## Related content
 
