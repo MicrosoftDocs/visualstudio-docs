@@ -8,6 +8,7 @@ manager: mijacobs
 ms.subservice: general-ide
 ms.date: 11/11/2025
 ms.topic: how-to
+monikerRange: ">= visualstudio"
 ---
 # Configure certificate revocation check
 
