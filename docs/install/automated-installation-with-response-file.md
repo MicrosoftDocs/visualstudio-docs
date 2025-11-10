@@ -16,7 +16,7 @@ ms.subservice: installation
 ---
 # Configure installation default settings using a response file
 
-In this article, you learn how to create a response file that helps you automate your Visual Studio installation. It's most common use is when you install Visual Studio from a [layout](create-a-network-installation-of-visual-studio.md). 
+In this article, you learn how to create a response file that helps you automate your Visual Studio installation. Its most common use is when you install Visual Studio from a [layout](create-a-network-installation-of-visual-studio.md). 
 
 The Visual Studio response file is a [JSON](http://json-schema.org/) file whose contents contain customizations used during the initial installation of Visual Studio onto the client. Its contents mirror the [command line arguments and parameters](use-command-line-parameters-to-install-visual-studio.md). Use the response file for the following configuration options:
 
@@ -301,7 +301,7 @@ In the following example, the `response.json` file initializes a Visual Studio E
 ::: moniker-end
 
 > [!WARNING]
-> If you're using intranet webhosted layouts, you can’t set “noWeb”: true in the response.json and expect it to work. This will disable the http protocol and prevent the client from accessing the website. 
+> If you're using intranet web hosted layouts, you can’t set “noWeb”: true in the response.json and expect it to work. This will disable the http protocol and prevent the client from accessing the website. 
 
 ## Troubleshooting
 

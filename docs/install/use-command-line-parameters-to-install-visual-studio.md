@@ -127,8 +127,7 @@ Syntax example: `vs_enterprise.exe [command] <optional parameters>...`
 | `--includeOptional`                                | **Optional**: During an install or modify command, this parameter includes the optional components for any workloads that are installed. It doesn't include the recommended components. The workloads are specified either with `--allWorkloads` or `--add`. |
 | `--addProductLang <language-locale>`               | **Optional**: During an install or modify command, this repeatable parameter specifies the UI language packs that should be installed with the product. If not present, the installation uses the language pack that corresponds to the machine locale. For more information, see the [List of language locales]
 | `--remove <one or more workload or component IDs>` | **Optional**: During a modify command, this repeatable parameter specifies one or more workload or component IDs to remove. It complements and behaves similarly to the `--add` parameter.   |
-(#list-of-language-locales) section on this page.  |
-| `--removeProductLang <language-locale>`            | **Optional**: During an install or modify command, this repeatable parameter determines the UI language packs that should be removed from the product.  It complements and behaves similarly to the `--addProductLang` parameter. |
+| `--removeProductLang <language-locale>`            | **Optional**: During an install or modify command, this repeatable parameter determines the UI language packs that should be removed from the product.  It complements and behaves similarly to the `--addProductLang` parameter. For more information, see the [List of language locales](#list-of-language-locales) section on this page.|
 | `--in <path>`                                      | **Optional**: The URI or path to a [response file](automated-installation-with-response-file.md), which can contain configuration settings.  |
 | `--quiet`                                      | **Optional**: Used with any command, this parameter prevents any user interface from being displayed while the command is being executed. Not available to use programmatically by standard users regardless of how the [AllowStandardUserControl policy](https://aka.ms/vs/setup/policies) is set.  |
 | `--passive, -p`                                    | **Optional**: This parameter causes the user interface to be displayed in a non-interactive manner. This parameter is mutually exclusive from (and in fact overrides) the `--quiet` parameter. Also not available to use programmatically by standard users regardless of how the [AllowStandardUserControl policy](https://aka.ms/vs/setup/policies) is set.  |
@@ -199,9 +198,9 @@ You can modify the update settings and programmatically configure the source loc
 | `--quiet`                                   | **Optional**: This parameter prevents any user interface from being displayed while the command is being executed. Not available to use programmatically by [standard users](https://aka.ms/vs/setup/policies). |
 | `--removeOos true`                              | **Optional**: During a modifySettings command, this parameter (which must have the word true or false immediately after it) tells the Visual Studio installer to *persistently* remove (or not remove) all installed components that have transitioned to an out-of-support state. Useful for helping to keep the machine secure. | 
 
+::: moniker range=">=visualstudio"
 Syntax examples: 
 
-::: moniker range=">=visualstudio"
   ```shell
   C:\>"C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" modifySettings --installPath "C:\Program Files\Microsoft Visual Studio\18\Enterprise" --newChannelUri https://aka.ms/vs/18/stable.18.0/channel --removeOos true
   ```
@@ -212,6 +211,8 @@ Syntax examples:
 ::: moniker-end
 
 ::: moniker range="=vs-2022"
+Syntax examples: 
+
   ```shell
   C:\>"C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" modifySettings --installPath "C:\Program Files\Microsoft\Visual Studio\2022\Enterprise" --newChannelUri https://aka.ms/vs/17/release.LTSC.17.0/channel --removeOos true
   ```

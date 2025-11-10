@@ -341,7 +341,7 @@ Lastly, you can directly edit the `layout.json` configuration file in the layout
 > [!NOTE]
 > The easiest way to install the newly added layout components onto a client machine is to run the bootstrapper in the layout from the client machine. The 'add' section of the `response.json` file in the layout will determine which components are selected by default in the client's installer UI. If you've modified the layout using one of the previous methods, you may want to manually double check and possibly adjust the 'add' section in the `response.json` file so that it more appropriately matches the contents in the 'add' section of the newly modified `layout.json` file. 
 
-### Configure the layout to remove out-of-support components on the client machine.
+### Configure the layout to remove out-of-support components on the client machine
 
 Some enterprises will want to take advantage of the feature introduced in Visual Studio 2022 version 17.4 that removes components that have transitioned to an out-of-support state. This is relatively easy to set up if you're managing a layout and if your clients are receiving administrator updates. First, you'll need to configure your layout to have the [latest version of the installer as described below](#configure-the-layout-to-always-include-and-provide-the-latest-installer). Secondly, you'll need to add the line `"removeOos": true` to the `response.json` file. If your layout has these two details set properly, then subsequent administrator updates will respect this setting and will remove out-of-support components from the client machines.
 

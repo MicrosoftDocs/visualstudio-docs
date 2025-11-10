@@ -50,7 +50,7 @@ A user on the client machine with sufficient permissions can [manually initiate 
 ::: moniker-end
 
 Users can [manually update](update-visual-studio.md) a Visual Studio instance by: 
-  * launching the Visual Studio Installer. If an update is available, they can click **Update**.
+  * launching the Visual Studio Installer. If an update is available, they can select **Update**.
   * launching the Visual Studio IDE and responding to the notification flag or message, or choosing **Help > Check for Updates** for updates.  
 
 If any files are in use when the update starts, for example, if Visual Studio is open, then the update will be blocked until Visual Studio is closed. Occasionally, an update will require a reboot.

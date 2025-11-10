@@ -24,9 +24,11 @@ Remember that administrator updates are updates, not initial installs. They pres
 
 The Visual Studio administrator update package that's published to the Microsoft Update system is available through three distribution channels:
 
-   1. The [Windows Server Update Servers (WSUS)](/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus) channel, which is typically controlled by the [SCCM Configuration Manager](/configmgr/core/understand/introduction) part of the [Microsoft Endpoint Manager](/mem/configmgr/core/understand/microsoft-endpoint-manager-faq) device management solution.
-   2. The [Windows Update for Business Microsoft Update](/windows/deployment/update/waas-manage-updates-wufb#types-of-updates-managed-by-windows-update-for-business) channel, which is typically controlled by the [Intune](/mem/intune/) part of the [Microsoft Endpoint Manager](https://endpoint.microsoft.com) device management solution. Currently, only security updates are published to this channel.
-   3. The [Microsoft Update Catalog](https://www.catalog.update.microsoft.com) channel, where you can download the package and use it to either [update a layout](./create-a-network-installation-of-visual-studio.md#update-the-layout-to-a-specific-version-of-the-product) or update a [client instance](./update-visual-studio.md#update-from-the-microsoft-catalog).
+- The [Windows Server Update Servers (WSUS)](/windows-server/administration/windows-server-update-services/get-started/windows-server-update-services-wsus) channel, which is typically controlled by the [SCCM Configuration Manager](/configmgr/core/understand/introduction) part of the [Microsoft Endpoint Manager](/mem/configmgr/core/understand/microsoft-endpoint-manager-faq) device management solution.
+
+- The [Windows Update for Business Microsoft Update](/windows/deployment/update/waas-manage-updates-wufb#types-of-updates-managed-by-windows-update-for-business) channel, which is typically controlled by the [Intune](/mem/intune/) part of the [Microsoft Endpoint Manager](https://endpoint.microsoft.com) device management solution. Currently, only security updates are published to this channel.
+
+- The [Microsoft Update Catalog](https://www.catalog.update.microsoft.com) channel, where you can download the package and use it to either [update a layout](./create-a-network-installation-of-visual-studio.md#update-the-layout-to-a-specific-version-of-the-product) or update a [client instance](./update-visual-studio.md#update-from-the-microsoft-catalog).
 
 The vast majority of client machines are updated using the WSUS/SCCM or Windows Update for Business/Microsoft Update/Intune channels. In both of these scenarios, the Visual Studio administrator update is published to the Microsoft Update servers, where it is then detected as available and applicable by the native Windows Update client agent. 
 
@@ -89,7 +91,7 @@ There are a few configuration options that are can be used to tailor the Visual 
 
 The most common configuration options are as follows:
 
-- [**Windows Update for Business Microsoft Update opt-in**](/windows/deployment/update/waas-manage-updates-wufb)**
+- [**Windows Update for Business Microsoft Update opt-in**](/windows/deployment/update/waas-manage-updates-wufb)
 
     Cloud connected client machines that are managed by Intune must be configured for Windows Update for Business and opted into the [AllowMUUpdateServicePolicy](/windows/client-management/mdm/policy-csp-update#update-allowmuupdateservice) in order to receive Visual Studio administrator updates through the Windows Update for Business Microsoft Update channel. 
 
@@ -110,7 +112,7 @@ For an exhaustive list of all the supported administrator update behaviors, refe
 
 ### Methods for configuring an administrator update
 
-There are three main methods of configuring administrator updates: via [policies](#policies)) via a [configuration file](#configuration-file) on the client machine, or via a [modification of the Administrator Update deployment package within SCCM Configuration Manager or Microsoft Endpoint Manager](#manually-updating-the-administrator-updates-package-in-sccm-or-intune).   
+There are three main methods of configuring administrator updates: via [policies](#policies) via a [configuration file](#configuration-file) on the client machine, or via a [modification of the Administrator Update deployment package within SCCM Configuration Manager or Microsoft Endpoint Manager](#manually-updating-the-administrator-updates-package-in-sccm-or-intune).   
 
 #### Policies
 
