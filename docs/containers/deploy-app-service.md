@@ -30,7 +30,7 @@ To complete this tutorial:
 ::: moniker-end
 
 :::moniker range="visualstudio"
-- [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta), or for Podman support, [Visual Studio (Insiders)](https://visualstudio.microsoft.com/insiders?cid=learn-onpage-download-cta),  with the **ASP.NET and web development** workload.
+- [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta), or for Podman support, [Visual Studio 2026](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta),  with the **ASP.NET and web development** workload.
 - Install [Docker Desktop](https://docs.docker.com/docker-for-windows/install/) or [Podman Desktop](https://podman-desktop.io/downloads).
 :::moniker-end
 
