@@ -65,7 +65,7 @@ To follow this article, you'll need:
 
     :::image type="content" source="media/vs-2022/git-menu-clone-repo-dialog-open-from-github-location-sml.png" alt-text="Screenshot of the Open from GitHub window where you can select a repo or add one." lightbox="media/vs-2022/git-menu-clone-repo-dialog-open-from-github-location-lrg.png":::
 
-1. Next, Visual Studio presents a list of solution(s) in the repository. Choose the solution you would like to load or open the **Folder View** in [**Solution Explorer**](../ide/use-solution-explorer.md?view=vs-2022&preserve-view=true).
+1. Next, Visual Studio presents a list of solution(s) in the repository. Choose the solution you would like to load or open the **Folder View** in [**Solution Explorer**](../ide/use-solution-explorer.md).
 
     :::image type="content" source="../ide/media/vs-2022/git-solution-explorer-folder-view.png" alt-text="Screenshot of the Folder View in Solution Explorer in Visual Studio 2022.":::
 
