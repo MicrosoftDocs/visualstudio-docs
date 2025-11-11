@@ -31,7 +31,7 @@ Make sure to close Visual Studio and save your work before updating.
 
 ::: moniker range="vs-2019"
 
-We encourage you to update to the most [recent release](/visualstudio/releases/2019/release-notes/) of Visual Studio 2019 so that you always get the latest features, security fixes, and improvements. And if you'd like to try out our newest version, consider downloading and installing [Visual Studio 2022](https://aka.ms/vs/download/?cid=learn-onpage-download-cta).
+We encourage you to update to the most [recent release](/visualstudio/releases/2019/release-notes/) of Visual Studio 2019 so that you always get the latest features, security fixes, and improvements. And if you'd like to try out our newest version, consider downloading and installing [Visual Studio 2026](https://aka.ms/vs/download/?cid=learn-onpage-download-cta).
 
 There are several ways to update an installation of Visual Studio:
  - By using the Visual Studio Installer

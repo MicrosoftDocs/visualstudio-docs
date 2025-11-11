@@ -27,7 +27,7 @@ When you want to run a command-line tool as part of a build, there are two appro
 
 You should have an understanding of MSBuild concepts such as tasks, targets, and properties. See [MSBuild concepts](msbuild-concepts.md).
 
-The examples require MSBuild, which is installed with Visual Studio, but can also be installed separately. See [Download MSBuild without Visual Studio](https://aka.ms/vs/download/?q=build+tools).
+The examples require MSBuild, which is installed with Visual Studio, but can also be installed separately. See [Download MSBuild without Visual Studio](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2022).
 
 ## Option 1: Exec task
 

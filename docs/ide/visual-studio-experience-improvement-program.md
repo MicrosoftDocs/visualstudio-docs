@@ -33,7 +33,7 @@ The VSCEIP is turned on by default. You can turn it off, or back on again, by fo
 
 #### Registry settings
 
-If you install the [Build Tools for Visual Studio](https://aka.ms/vs/download/#build-tools-for-visual-studio-2017), you must update the registry to configure the VSCEIP. Enterprise customers can construct a group policy to opt in or out of the VSCEIP by setting a registry-based policy.
+If you install the [Build Tools for Visual Studio](https://visualstudio.microsoft.com/vs/older-downloads/#visual-studio-2017-and-other-products), you must update the registry to configure the VSCEIP. Enterprise customers can construct a group policy to opt in or out of the VSCEIP by setting a registry-based policy.
 
 The relevant registry key and settings are as follows:
 
