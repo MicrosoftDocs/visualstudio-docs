@@ -3,7 +3,7 @@ title: Understanding the product keys offered in your Visual Studio subscription
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 08/01/2025
+ms.date: 11/11/2025
 ms.topic: how-to
 description: Obtain and manage your product keys in Visual Studio subscriptions for products that require keys for installation or activation.
 ---
@@ -48,7 +48,7 @@ Our research shows that most subscribers are covered by the number of product ke
 Some products bundle multiple editions of the product into a single download. In these cases, the product key entered determines which edition of the product is installed.
 Some keys are provided automatically, such as "static" keys, which you can use as many times as needed because activation isn't required. Other keys must be claimed by selecting the **Blue Key** icon for the product.
 > [!div class="mx-imgBorder"]
-> ![Get Key from Downloads Page](_img/product-keys/download-get-key-rev.png "Screenshot of the download page for Visual Studio Enterprise 2022. The blue key icon is highlighted.")
+> ![Get Key from Downloads Page](_img/product-keys/download-get-key-rev2.png "Screenshot of the download page for Visual Studio Enterprise 2026. The blue key icon is highlighted.")
 
 > [!div class="mx-imgBorder"]
 > ![Product Keys Page](_img/product-keys/product-keys-page-rev.png "Screenshot of the Product keys page on the subscription portal.")
