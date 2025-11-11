@@ -77,10 +77,10 @@ The following bootstrappers always install the latest most secure version of Vis
 
 | Edition                         | Bootstrapper                                                            |
 |---------------------------------|-------------------------------------------------------------------------|
-| Visual Studio 2026 Enterprise   | [vs_enterprise.exe](https://aka.ms/vs/18/stable/vs_enterprise.exe)     |
-| Visual Studio 2026 Professional | [vs_professional.exe](https://aka.ms/vs/18/stable/vs_professional.exe) |
-| Visual Studio 2026 Community    | [vs_community.exe](https://aka.ms/vs/18/stable/vs_community.exe)    |
-| Visual Studio 2026 Build Tools  | [vs_buildtools.exe](https://aka.ms/vs/18/stable/vs_buildtools.exe)     |
+| Visual Studio 2026 Enterprise   | [vs_enterprise.exe](https://aka.ms/vs/stable/vs_enterprise.exe)     |
+| Visual Studio 2026 Professional | [vs_professional.exe](https://aka.ms/vs/stable/vs_professional.exe) |
+| Visual Studio 2026 Community    | [vs_community.exe](https://aka.ms/vs/stable/vs_community.exe)    |
+| Visual Studio 2026 Build Tools  | [vs_buildtools.exe](https://aka.ms/vs/stable/vs_buildtools.exe)     |
 
 ::: moniker-end
 

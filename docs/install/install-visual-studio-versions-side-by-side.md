@@ -70,7 +70,7 @@ When you upgrade from one minor version of Visual Studio to the next, by default
 
 You can manually use another bootstrapper to install a new instance of Visual Studio, or you can select one of the options from the **Available** tab of the Visual Studio Installer.
 
-1. To use another bootstrapper, you can download and run one of the bootstrapper files for Visual Studio 2022 from either the [Visual Studio downloads page](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) or the [Visual Studio 2022 releases](/visualstudio/releases/2022/release-history#release-dates-and-build-numbers) page for the minor version that you want to install side-by-side with your existing version of Visual Studio.
+1. To use another bootstrapper, you can download and run one of the bootstrapper files for Visual Studio 2022 from either the [Visual Studio downloads page](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) or the [Visual Studio 2022 releases](/visualstudio/releases/2022/release-history#release-dates-and-build-numbers) page for the minor version that you want to install side-by-side with your existing version of Visual Studio.
 
 1. You use the installer's **Available** tab when you already have another version of Visual Studio installed. First, on the Visual Studio **Tools** menu, select **Get Tools and Features** to start the Visual Studio Installer. After the installer updates, select the **Available** tab and install one of the listed products.
 
@@ -88,7 +88,7 @@ When you upgrade from one minor version of Visual Studio to the next, by default
 
 You can manually use another bootstrapper to install a new instance of Visual Studio, or you can select one of the options from the **Available** tab of the Visual Studio Installer.
 
-1. To use another bootstrapper, you can download and run one of the bootstrapper files for Visual Studio from either the [Visual Studio downloads page](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) or the [Visual Studio releases](/visualstudio/releases/2026/release-history) page for the minor version that you want to install side-by-side with your existing version of Visual Studio.
+1. To use another bootstrapper, you can download and run one of the bootstrapper files for Visual Studio from either the [Visual Studio downloads page](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) or the [Visual Studio releases](/visualstudio/releases/2026/release-history) page for the minor version that you want to install side-by-side with your existing version of Visual Studio.
 
 1. You use the installer's **Available** tab when you already have another version of Visual Studio installed. First, on the Visual Studio **Tools** menu, select **Get Tools and Features** to start the Visual Studio Installer. After the installer updates, select the **Available** tab and install one of the listed products.
 

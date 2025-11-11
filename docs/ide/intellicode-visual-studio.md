@@ -40,7 +40,7 @@ C# developers in Visual Studio 2022 and higher also benefit from [whole-line aut
 
 ## Install IntelliCode for Visual Studio
 
-1. [Download Visual Studio](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=learn.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) version 16.4 or later.
+1. [Download Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) version 16.4 or later.
 2. Install a [supported workload](#supported-languages--workloads), such as .NET desktop development. 
    Visual Studio IntelliCode is installed by default.
 

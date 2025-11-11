@@ -28,7 +28,7 @@ This walkthrough demonstrates how to create a Windows Communication Foundation (
 
 ## Prerequisites
 
-[Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **Windows Communication Foundation** component installed. To install it:
+[Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) with the **Windows Communication Foundation** component installed. To install it:
 
 1. Open the **Visual Studio Installer** app, or select **Tools** > **Get Tools and Features** from the Visual Studio menu.
 1. In **Visual Studio Installer**, choose **Modify** next to the version of Visual Studio you want to modify.

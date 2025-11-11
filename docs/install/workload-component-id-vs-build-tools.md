@@ -23,7 +23,7 @@ open_to_public_contributors: false
 
 [!INCLUDE[workloads-components-header-2019_md](includes/workloads-components-header-2019_md.md)]
 
-To install these components by using the manual installer, download and run the [Build Tools for Visual Studio](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2019).
+To install these components by using the manual installer, download and run the [Build Tools for Visual Studio](https://visualstudio.microsoft.com/vs/older-downloads/#visual-studio-2019-and-other-products).
 
 [!INCLUDE[Visual Studio Build Tools 2019](includes/vs-2019/workload-component-id-vs-build-tools.md)]
 
@@ -33,7 +33,7 @@ To install these components by using the manual installer, download and run the 
 
 [!INCLUDE[workloads-components-header-2022_md](includes/workloads-components-header-2022.md)]
 
-To install these components by using the manual installer, download and run the [Build Tools for Visual Studio](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2022).
+To install these components by using the manual installer, download and run the [Build Tools for Visual Studio](https://aka.ms/vs/download/#build-tools-for-visual-studio-2022).
 
 [!INCLUDE[Visual Studio Build Tools 2022](includes/vs-2022/workload-component-id-vs-build-tools.md)]
 

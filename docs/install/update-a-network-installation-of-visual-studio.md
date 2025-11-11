@@ -102,7 +102,7 @@ or like this, which sets the source of updates to a Microsoft hosted location:
 
 ::: moniker range="=visualstudio"
 ```shell
-"C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" update --installPath "C:\Program Files\Microsoft Visual Studio\18\Enterprise" --channelUri "https://aka.ms/vs/18/stable/channel"
+"C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" update --installPath "C:\Program Files\Microsoft Visual Studio\18\Enterprise" --channelUri "https://aka.ms/vs/stable/channel"
 ```
 ::: moniker-end
 

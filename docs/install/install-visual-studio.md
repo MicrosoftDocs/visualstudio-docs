@@ -53,7 +53,7 @@ You can download and install a specific version from the [Visual Studio 2022 Rel
 
 ::: moniker range=">=visualstudio"
 
-Want to know more about what else is new in this version? See the [release notes](https://aka.ms/vs/relnotes/insiders).
+Want to know more about what else is new in this version? See the [release notes](https://aka.ms/vs/relnotes).
 
 You can download and install a specific version from the [Visual Studio Release History](/visualstudio/releases/2026/release-history) page.
 
@@ -131,7 +131,7 @@ Decide which version and edition of Visual Studio to install. The most common op
 - The latest release of Visual Studio 2022 that's hosted on Microsoft servers. To install this version, select the following button and then choose the edition you want. The installer downloads a small *bootstrapper* to your *Downloads* folder.
 
   > [!div class="button"]
-  > [Download Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-install-visual-studio-page-cta)
+  > [Download Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-install-visual-studio-page-cta)
 
 ::: moniker-end
 
@@ -140,7 +140,7 @@ Decide which version and edition of Visual Studio to install. The most common op
 - The latest release of Visual Studio that's hosted on Microsoft servers. To install this version, select the following button and then choose the edition you want. The installer downloads a small *bootstrapper* to your *Downloads* folder.
 
   > [!div class="button"]
-  > [Download Visual Studio](https://aka.ms/vs/insiders/?cid=learn-onpage-download-install-visual-studio-page-cta)
+  > [Download Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-install-visual-studio-page-cta)
 
 ::: moniker-end
 
@@ -160,7 +160,7 @@ Decide which version and edition of Visual Studio to install. The most common op
 
 ::: moniker range=">=visualstudio"
 
-- You can download a bootstrapper for a specific version from the [Visual Studio Release History](https://aka.ms/vs/relnotes/insiders) page and use it to install Visual Studio.
+- You can download a bootstrapper for a specific version from the [Visual Studio Release History](/visualstudio/releases/2026/release-history#release-dates-and-build-numbers) page and use it to install Visual Studio.
 
 ::: moniker-end
 

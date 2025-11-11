@@ -34,7 +34,7 @@ To install these components by using the manual installer, download and run the 
 
 [!INCLUDE[workloads-components-header-2022_md](includes/workloads-components-header-2022.md)]
 
-To install these components by using the manual installer, download and run the [Test Controller for Visual Studio](https://visualstudio.microsoft.com/downloads/#agents-for-visual-studio-2022).
+To install these components by using the manual installer, download and run the [Test Controller for Visual Studio](https://aka.ms/vs/download/#agents-for-visual-studio-2022).
 
 [!include[Visual Studio Test Controller 2022](includes/vs-2022/workload-component-id-vs-test-controller.md)]
 

@@ -63,10 +63,10 @@ To get the latest bootstrappers for Visual Studio 2026 that always install the l
 <!-- tbd Release build links not active yet -->
 | **Edition**                      | **Bootstrapper**                                                                                   |
 |----------------------------|-------------------------------------------------------------------------------------------|
-| Visual Studio 2026 Enterprise   | [vs_enterprise.exe](https://aka.ms/vs/18/stable/vs_enterprise.exe)     |
-| Visual Studio 2026 Professional | [vs_professional.exe](https://aka.ms/vs/18/stable/vs_professional.exe) |
-| Visual Studio 2026 Community    | [vs_community.exe](https://aka.ms/vs/18/stable/vs_community.exe)       |
-| Visual Studio 2026 Build Tools   | [vs_buildtools.exe](https://aka.ms/vs/18/stable/vs_buildtools.exe)         |
+| Visual Studio 2026 Enterprise   | [vs_enterprise.exe](https://aka.ms/vs/stable/vs_enterprise.exe)     |
+| Visual Studio 2026 Professional | [vs_professional.exe](https://aka.ms/vs/stable/vs_professional.exe) |
+| Visual Studio 2026 Community    | [vs_community.exe](https://aka.ms/vs/stable/vs_community.exe)       |
+| Visual Studio 2026 Build Tools   | [vs_buildtools.exe](https://aka.ms/vs/stable/vs_buildtools.exe)         |
 
 ::: moniker-end
 
@@ -202,11 +202,11 @@ You can modify the update settings and programmatically configure the source loc
 Syntax examples: 
 
   ```shell
-  C:\>"C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" modifySettings --installPath "C:\Program Files\Microsoft Visual Studio\18\Enterprise" --newChannelUri https://aka.ms/vs/18/stable.18.0/channel --removeOos true
+  C:\>"C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" modifySettings --installPath "C:\Program Files\Microsoft Visual Studio\18\Enterprise" --newChannelUri https://aka.ms/vs/stable.18.0/channel --removeOos true
   ```
 
   ```shell 
-   C:\>"C:\Program Files\Microsoft\Visual Studio\2022\Enterprise\vs_enterprise.exe" modifySettings --channelUri https://aka.ms/vs/18/stable.18.0/channel --productID Microsoft.VisualStudio.Product.Enterprise --newChannelUri \\layoutserver\share\path\channelmanifest.json --removeOos true --quiet
+   C:\>"C:\Program Files\Microsoft\Visual Studio\2022\Enterprise\vs_enterprise.exe" modifySettings --channelUri https://aka.ms/vs/stable.18.0/channel --productID Microsoft.VisualStudio.Product.Enterprise --newChannelUri \\layoutserver\share\path\channelmanifest.json --removeOos true --quiet
   ``` 
 ::: moniker-end
 

@@ -207,7 +207,7 @@ In this section, you create a simple project to try out some of the things you c
 
 ::: moniker range="vs-2019"
 
-To get started, [download Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) and install it on your system. The modular installer enables you to select and install *workloads*, which are groups of features needed for the programming language or platform you prefer. To follow the steps for [creating a program](#create-a-program), be sure to select the **.NET Core cross-platform development** workload during installation.
+To get started, [download Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) and install it on your system. The modular installer enables you to select and install *workloads*, which are groups of features needed for the programming language or platform you prefer. To follow the steps for [creating a program](#create-a-program), be sure to select the **.NET Core cross-platform development** workload during installation.
 
 ![Screenshot of the dot NET Core cross-platform development workload in the Visual Studio Installer.](../media/dotnet-core-cross-platform-workload.png)
 
@@ -215,7 +215,7 @@ To get started, [download Visual Studio](https://visualstudio.microsoft.com/down
 
 ::: moniker range=">=vs-2022"
 
-To get started, [download Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) and install it on your system. In the modular installer, you choose and install *workloads*, which are groups of features you need for the programming languages or platforms you want. To use the following steps to [create a program](#create-a-program), be sure to select the **.NET desktop development** workload during installation.
+To get started, [download Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) and install it on your system. In the modular installer, you choose and install *workloads*, which are groups of features you need for the programming languages or platforms you want. To use the following steps to [create a program](#create-a-program), be sure to select the **.NET desktop development** workload during installation.
 
 :::image type="content" source="media/vs-2022/dot-net-development-workload.png" alt-text="Screenshot of the dot NET desktop development workload selected in the Visual Studio Installer." border="false":::
 
