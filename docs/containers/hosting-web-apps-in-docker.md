@@ -28,14 +28,14 @@ If you don't have an Azure subscription, create a [free account](https://azure.m
 ::: moniker-end
 ::: moniker range="vs-2022"
 
-- Install [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development** workload.
+- Install [Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) with the **ASP.NET and web development** workload.
 
 - Install [Docker Desktop for Windows](https://docs.docker.com/desktop/windows/install/).
 :::moniker-end
 
 ::: moniker range="visualstudio"
 
-- Install [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta), or for Podman support, [Visual Studio (Insiders)](https://visualstudio.microsoft.com/insiders?cid=learn-onpage-download-cta), with the **ASP.NET and web development** workload.
+- Install [Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-cta), or for Podman support, [Visual Studio 2026](https://aka.ms/vs/download/?cid=learn-onpage-download-cta), with the **ASP.NET and web development** workload.
 
 - Install [Docker Desktop for Windows](https://docs.docker.com/desktop/windows/install/) or [Podman Desktop](https://podman-desktop.io/downloads).
 
