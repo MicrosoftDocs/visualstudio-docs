@@ -20,7 +20,7 @@ productDirectory:
     - title: Visual Studio
       imageSrc: ./media/vs-ide-2022.svg
       links:
-        - url: ./windows/index.yml?view=vs-2022&preserve-view=true
+        - url: ./windows/index.yml?view=visualstudio&preserve-view=true
           text: Visual Studio IDE docs
         - url: /visualstudio/subscriptions
           text: Visual Studio subscription docs

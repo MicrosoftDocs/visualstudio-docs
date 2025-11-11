@@ -1,5 +1,5 @@
 ---
-ms.date: 11/17/2023
+ms.date: 11/07/2025
 ms.subservice: general-ide
 author: anandmeg
 ms.author: meghaanand
@@ -474,7 +474,7 @@ You can personalize the Visual Studio user interface, including changing the def
    ![Screenshot that shows Visual Studio in Dark theme.](../media/vs-2019/dark-theme.png)
 ::: moniker-end
 
-::: moniker range=">=vs-2022"
+::: moniker range="vs-2022"
 
 1. On the menu bar, choose **Tools** > **Options** to open the **Options** dialog.
 
@@ -483,6 +483,18 @@ You can personalize the Visual Studio user interface, including changing the def
    The color theme for the entire IDE changes accordingly. The following screenshot shows the Blue theme:
 
    ![Screenshot that shows Visual Studio in Blue theme.](../media/vs-2022/blue-theme.png)
+
+::: moniker-end
+
+::: moniker range="visualstudio"
+
+1. On the menu bar, select **Tools** > **Options** to open the **Options** pane.
+
+1. On the **All Settings** > **Environment** > **Visual Experience** options page, change the **Color Theme** selection to **Cool Breeze** or **Light**.
+
+   The color theme for the entire IDE changes accordingly. The following screenshot shows the Cool Breeze theme:
+
+   :::image type="content" source="../media/visualstudio/cool-breeze-theme.png" border="false" alt-text="Screenshot that shows Visual Studio in Cool Breeze theme.":::
 
 ::: moniker-end
 
