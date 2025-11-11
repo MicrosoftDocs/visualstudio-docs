@@ -19,7 +19,7 @@ Visual Studio supports multiple toolsets and SDKs. When a project is loaded, Set
 
 ## C++ developers
 
-Setup Assistant identifies MSVC toolsets and Windows SDKs your project targets. You can **retarget** your project to the latest version or **install** any missing components with a single click directly in the Visual Studio Installer. 
+Setup Assistant identifies MSVC toolsets and Windows SDKs your project targets. You can retarget your project to the latest version or install any missing components with a single click directly in the Visual Studio Installer. 
 
 <img width="1733" height="999" alt="image" src="https://github.com/user-attachments/assets/9565d5ac-d27f-4185-a2f6-18197e294007" />
 
