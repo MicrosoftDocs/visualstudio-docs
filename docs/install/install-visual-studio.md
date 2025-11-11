@@ -53,9 +53,9 @@ You can download and install a specific version from the [Visual Studio 2022 Rel
 
 ::: moniker range=">=visualstudio"
 
-Want to know more about what else is new in this version? See the [release notes](https://aka.ms/vs/relnotes/insiders).
+Want to know more about what else is new in this version? See the [release notes](https://aka.ms/vs/relnotes).
 
-You can download and install a specific version from the [Visual Studio Release History](/visualstudio/releases/vs18/release-history) page.
+You can download and install a specific version from the [Visual Studio Release History](/visualstudio/releases/2026/release-history) page.
 
 ::: moniker-end
 
@@ -99,7 +99,7 @@ You can install Visual Studio 2022 side-by-side with other versions. For more in
 
 ::: moniker range="visualstudio"
 
-- Check the [system requirements](/visualstudio/releases/vs18/vs-system-requirements). These requirements help you determine whether your computer supports the latest Visual Studio.
+- Check the [system requirements](/visualstudio/releases/2026/vs-system-requirements). These requirements help you determine whether your computer supports the latest Visual Studio.
 
 - Make sure that the user who performs the initial installation has administrator permissions on the machine. For more information, see [User permissions and Visual Studio](/visualstudio/ide/user-permissions-and-visual-studio).
 
@@ -109,7 +109,7 @@ You can install Visual Studio 2022 side-by-side with other versions. For more in
 
 - Free up space. Remove unneeded files and applications from your system drive by, for example, running the Disk Cleanup utility.
 
-You can install Visual Studio latest side-by-side with other versions. For more information, see [Visual Studio platform targeting and compatibility](/visualstudio/releases/vs18/compatibility) and [Install Visual Studio versions side-by-side](install-visual-studio-versions-side-by-side.md).
+You can install Visual Studio latest side-by-side with other versions. For more information, see [Visual Studio platform targeting and compatibility](/visualstudio/releases/2026/compatibility) and [Install Visual Studio versions side-by-side](install-visual-studio-versions-side-by-side.md).
 
 ::: moniker-end
 
@@ -140,7 +140,7 @@ Decide which version and edition of Visual Studio to install. The most common op
 - The latest release of Visual Studio that's hosted on Microsoft servers. To install this version, select the following button and then choose the edition you want. The installer downloads a small *bootstrapper* to your *Downloads* folder.
 
   > [!div class="button"]
-  > [Download Visual Studio](https://aka.ms/vs/insiders/?cid=learn-onpage-download-install-visual-studio-page-cta)
+  > [Download Visual Studio](https://aka.ms/vs/downloads/?cid=learn-onpage-download-install-visual-studio-page-cta)
 
 ::: moniker-end
 
@@ -160,7 +160,7 @@ Decide which version and edition of Visual Studio to install. The most common op
 
 ::: moniker range=">=visualstudio"
 
-- You can download a bootstrapper for a specific version from the [Visual Studio Release History](https://aka.ms/vs/relnotes/insiders) page and use it to install Visual Studio.
+- You can download a bootstrapper for a specific version from the [Visual Studio Release History](/visualstudio/releases/2026/release-history#release-dates-and-build-numbers) page and use it to install Visual Studio.
 
 ::: moniker-end
 
