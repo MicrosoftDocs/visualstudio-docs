@@ -28,12 +28,12 @@ Inline completions are great at autocompleting a section of code. NES helps you 
 
 :::moniker range="visualstudio"
 
-To get started with Copilot NES, enable the feature in the **Tools** > **Options** pane. Expand the **All Settings** > **Text Editor** > **Code Completions** section, and select the **Copilot Next Edit Suggestions (Next-edit predictions from Copilot)** checkbox in the **Code Completions Providers** group.
+To get started with Copilot NES, enable the feature in the **Tools** > **Options** pane. Expand the **All Settings** > **Text Editor** > **Code Completions** > **General** section, and select the **Copilot Next Edit Suggestions (Next-edit predictions from Copilot)** checkbox in the **Code Completions Providers** group.
 
 :::moniker-end
 :::moniker range="<=vs-2022"
 
-To get started with Copilot NES, enable the feature in the **Tools** > **Options** dialog. Expand the **GitHub** > **Copilot** > **Copilot Completions** section and select the **Enable Next Edit Suggestions** checkbox.
+To get started with Copilot NES, enable the feature in the **Tools** > **Options** dialog. Expand the **GitHub** > **Copilot** section and select the **Enable Next Edit Suggestions** checkbox in the **Copilot Completions** group.
 
 :::moniker-end
 
