@@ -32,7 +32,7 @@ landingContent:
       - linkListType: download
         links:
           - text: Download Visual Studio
-            url: https://aka.ms/vs/download/?cid=learn-onpage-download-cta/?utm_medium=microsoft&utm_source=learn.microsoft.com&utm_campaign=navigation+cta&utm_content=download+vs2019
+            url: https://aka.ms/vs/download/?cid=learn-onpage-download-cta
       - linkListType: get-started
         links:
           - text: Install Visual Studio
