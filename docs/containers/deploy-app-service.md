@@ -23,14 +23,14 @@ If you don't have an Azure subscription, create a [free account](https://azure.m
 To complete this tutorial:
 
 ::: moniker range="vs-2019"
-- [Visual Studio 2019 or later](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development** workload.
+- [Visual Studio 2019 or later](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) with the **ASP.NET and web development** workload.
 ::: moniker-end
 ::: moniker range="vs-2022"
-- [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development** workload.
+- [Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) with the **ASP.NET and web development** workload.
 ::: moniker-end
 
 :::moniker range="visualstudio"
-- [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta), or for Podman support, [Visual Studio (Insiders)](https://visualstudio.microsoft.com/insiders?cid=learn-onpage-download-cta),  with the **ASP.NET and web development** workload.
+- [Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-cta), or for Podman support, [Visual Studio 2026](https://aka.ms/vs/download/?cid=learn-onpage-download-cta),  with the **ASP.NET and web development** workload.
 - Install [Docker Desktop](https://docs.docker.com/docker-for-windows/install/) or [Podman Desktop](https://podman-desktop.io/downloads).
 :::moniker-end
 

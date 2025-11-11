@@ -81,8 +81,6 @@ landingContent:
             url: ~/vs-office-dev.md
           - text: Windows Developer Account
             url: ~/vs-windows-dev.md
-          - text: LinkedIn Premium
-            url: ~/vs-linkedin-learning.md
           - text: Pluralsight
             url: ~/vs-pluralsight.md
           - text: Data Camp

@@ -1,7 +1,7 @@
 ---
 title: Inspect and break exceptions when debugging
 description: Learn about the information that Visual Studio provides to help you debug exceptions, and how to selectively disable breaking on exceptions.
-ms.date: 09/04/2024
+ms.date: 11/10/2025
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -79,6 +79,20 @@ Starting in Visual Studio 2022 version 17.3, you can view exception stack frames
 ## Get AI assistance
 
 If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while you're debugging exceptions. Just look for the **Ask Copilot** ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png) button. In these scenarios, Copilot already knows the context for your questions, so you don't need to provide context yourself in chat. For more information, see [Debug with Copilot](../debugger/debug-with-copilot.md).
+::: moniker-end
+
+::: moniker range=">=visualstudio"
+## Get AI assistance with repo context
+
+When you are working in Visual Studio with an Azure DevOps repo, exception analysis with Copilot incorporates the repository context for smarter, faster, and more precise exception resolution. Copilot cross-references your open repository including past bugs, issues, pull requests, and historical fixes to provide actionable insights directly relevant to your codebase.
+
+When you encounter an exception:
+
+- Copilot identifies the most likely root causes, impacted components, and potential fixes.
+- Copilot leverages repository knowledge to highlight similar past issues and their resolutions, helping you to learn from existing fixes.
+- Complex exceptions are analyzed with full context, connecting runtime behavior to historical patterns, so you can understand unexpected or incorrect values quickly.
+- By surfacing relevant fixes and insights automatically, Copilot saves time and reduces the trial-and-error often required to debug challenging issues.
+
 ::: moniker-end
 
 ## Share a debug session with Live Share

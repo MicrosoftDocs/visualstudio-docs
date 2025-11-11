@@ -3,7 +3,7 @@ title: Azure DevOps benefits eligibility for subscribers
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 08/25/2025
+ms.date: 11/05/2025
 ms.topic: article
 description: Check if your Visual Studio subscription level makes you eligible for Azure DevOps benefits in each organization in which you're a member.
 ---
@@ -38,7 +38,7 @@ When you sign in to Azure DevOps using either the identity that you used for act
 <sup>2</sup> *Basic plan includes defining release pipelines and multi-stage continuous deployment (CD) pipelines, and using approvals and gates to control deployments; when the Free access to Pipelines Preview feature is enabled, Stakeholders gain access to all Azure Pipelines features.*
 
 > [!NOTE]
-> Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
+> Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There's no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
 
 Not sure which subscription you're using? Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to you.
 If you don't see all your subscriptions, you might have one or more assigned to a different email address. You need to sign in with that email address to see those subscriptions.
@@ -51,7 +51,7 @@ A:  Yes. Visual Studio Enterprise subscribers get one parallel job in Team Found
 
 ### Q: Can I also use Azure DevOps Server with my subscription?  
 
-A: Yes. Page 24 of the Licensing Whitepaper for the [Microsoft Visual Studio Product Family and Visual Studio Subscriptions](https://visualstudio.microsoft.com/wp-content/uploads/2023/07/Visual-Studio-Licensing-Whitepaper-July2023.pdf) provides guidance on the use of Azure DevOps Server in subscriptions:
+A: Yes. Page 24 of the Licensing Whitepaper for the [Microsoft Visual Studio Product Family and Visual Studio Subscriptions](https://aka.ms/vslicensing) provides guidance on the use of Azure DevOps Server in subscriptions:
 
 "Visual Studio Enterprise Subscription, Visual Studio Professional Subscription, Visual Studio Test Professional Subscription, MSDN Platforms, and all Visual Studio 
 cloud subscribers can download and deploy one instance of Azure DevOps Server. These same Visual Studio subscribers are granted an Azure DevOps Server User CAL to be used within their organization (it isn't valid for use of Azure DevOps Server acquired by a different organization)."
