@@ -55,7 +55,7 @@ You can download and install a specific version from the [Visual Studio 2022 Rel
 
 Want to know more about what else is new in this version? See the [release notes](https://aka.ms/vs/relnotes/insiders).
 
-You can download and install a specific version from the [Visual Studio Release History](/visualstudio/releases/vs18/release-history) page.
+You can download and install a specific version from the [Visual Studio Release History](/visualstudio/releases/2026/release-history) page.
 
 ::: moniker-end
 
@@ -99,7 +99,7 @@ You can install Visual Studio 2022 side-by-side with other versions. For more in
 
 ::: moniker range="visualstudio"
 
-- Check the [system requirements](/visualstudio/releases/vs18/vs-system-requirements). These requirements help you determine whether your computer supports the latest Visual Studio.
+- Check the [system requirements](/visualstudio/releases/2026/vs-system-requirements). These requirements help you determine whether your computer supports the latest Visual Studio.
 
 - Make sure that the user who performs the initial installation has administrator permissions on the machine. For more information, see [User permissions and Visual Studio](/visualstudio/ide/user-permissions-and-visual-studio).
 
@@ -109,7 +109,7 @@ You can install Visual Studio 2022 side-by-side with other versions. For more in
 
 - Free up space. Remove unneeded files and applications from your system drive by, for example, running the Disk Cleanup utility.
 
-You can install Visual Studio latest side-by-side with other versions. For more information, see [Visual Studio platform targeting and compatibility](/visualstudio/releases/vs18/compatibility) and [Install Visual Studio versions side-by-side](install-visual-studio-versions-side-by-side.md).
+You can install Visual Studio latest side-by-side with other versions. For more information, see [Visual Studio platform targeting and compatibility](/visualstudio/releases/2026/compatibility) and [Install Visual Studio versions side-by-side](install-visual-studio-versions-side-by-side.md).
 
 ::: moniker-end
 
@@ -214,13 +214,13 @@ Visual Studio Installer opens. You can also install any product that's listed on
 
 ### Select how to configure your Visual Studio installation
 
-When you install Visual Studio 2026 or later, the installer provides options to copy your previous VIsual Studio environment. You can configure the installation in a few ways:
+When you install Visual Studio 2026 or later, the installer provides options to copy your previous Visual Studio environment. You can configure the installation in a few ways:
 
 - **Manually choose workloads and components**  
   Start from scratch and manually choose the workloads and components you want to install.
   
 - **Migrate my configuration from this product version**  
-  Chose an existing Visual Studio instance (2022 or later) to copy workloads, SDKs, toolsets, settings, and extensions into your new Visual Studio enviornment.
+  Chose an existing Visual Studio instance (2022 or later) to copy workloads, SDKs, toolsets, settings, and extensions into your new Visual Studio environment.
 
 - **Import my configuration from a .vsconfig file**  
   Use a file that you or your team exported. Importing a `.vsconfig` file helps standardize development environments across multiple machines.
