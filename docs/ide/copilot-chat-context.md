@@ -58,7 +58,7 @@ To use a `.github/copilot-instructions.md` file:
 2. Enable the feature in Visual Studio from the **Tools** > **Options** pane. Expand the **All Settings** > **GitHub** > **Copilot** > **Copilot Chat** section and select the **Enable custom instructions to be loaded from .github/copilot-instructions.md files and added to requests** checkbox.
 
 :::moniker-end
-:::moniker range="<=vs-2022"
+:::moniker range="vs-2022"
 
 2. Enable the feature in Visual Studio from the **Tools** > **Options** dialog. Expand the **GitHub** > **Copilot** section and select the **Enable custom instructions to be loaded from .github/copilot-instructions.md files and added to requests** checkbox in the **Copilot Chat** group.
 
@@ -85,11 +85,11 @@ To use a `.github/instructions/*.instructions.md` file:
    In the **Tools** > **Options** pane, expand the **All Settings** > **GitHub** > **Copilot** > **Copilot Chat** section and select the **Enable custom instructions to be loaded from .github/copilot-instructions.md files and added to requests** checkbox.
 
    :::moniker-end
-   :::moniker range="<=vs-2022"
+   :::moniker range="vs-2022"
 
    In the **Tools** > **Options** dialog, expand the **GitHub** > **Copilot** section. In the **Copilot Chat** group, select the **Enable custom instructions to be loaded from .github/copilot-instructions.md files and added to requests** checkbox.
 
-:::moniker-end
+   :::moniker-end
 
 #### Instructions file format
 
@@ -162,7 +162,7 @@ You can use slash commands in a [chat window](visual-studio-github-copilot-chat.
 
 With Visual Studio 2022 version 17.13, as the user types a slash command, the command expands out the prompt in natural language to display the context for the command.
 
-::: moniker range=">=visualstudio"
+::: moniker range="visualstudio"
 
 ## Use Copilot actions
 
