@@ -1,5 +1,5 @@
 ---
-title: Profile with GitHub Copilot
+title: Profile with GitHub Copilot Profiler Agent
 description: Use the Copilot Profiler Agent in Visual Studio to collect CPU and memory traces and get AI-driven performance insights and fixes.
 ms.date: 11/10/2025
 ms.update-cycle: 90-days
@@ -17,14 +17,12 @@ ms.author: mikejo
 manager: mijacobs
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
-monikerRange: '>= visualstudio'
+monikerRange: '>= vs-2022'
 ---
 
-# Profile your app with GitHub Copilot
+# Profile your app with GitHub Copilot Profiler Agent
 
-In this article, you'll learn how to profile applications and improve performance using Copilot and the Copilot Profiler Agent.
-
-Copilot can help you by recommending profiling tools that match your code, and by analyzing specific issues identified by profiling tools.
+In this article, you'll learn how to profile applications and improve performance using the Copilot Profiler Agent.
 
 The Profiler Agent, which guides you through performance testing and improvement, works alongside GitHub Copilot to:
 
@@ -50,23 +48,6 @@ To get started, you need:
 + Visual Studio version 18.0.0 Preview 1 or later
 + [Sign in to Visual Studio using a GitHub account](../ide/work-with-github-accounts.md) with [Copilot access](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot) <br/>
   <sup>**</sup> You can use [GitHub Copilot for Free](../ide/copilot-free-plan.md). Sign up and leverage AI to code faster and more efficiently.
-
-## AI-enhanced scenarios
-
-Copilot understands your code and the Visual Studio profiling tools. As a result, you can interact with the profiler-aware AI to ask detailed questions related to your code and to performance issues in general.
-
-Copilot provides more precise help for some targeted scenarios, such as those described in the following table.
-
-|Feature or scenario|Link|
-|-|-|
-|Agent-directed profiling for CPU usage|See [Profile using the Profiler Agent](#profile-using-the-copilot-profiler-agent) in this article.|
-|Auto insights for profiling|See [Get AI assistance with Auto insights](../profiling/cpu-insights.md#get-ai-assistance).|
-|Auto insights for instrumentation|See [Get AI assistance](../profiling/instrumentation.md#get-ai-assistance).|
-|Auto insights for .NET Object Allocation|See [Get AI assistance](../profiling/dotnet-alloc-tool.md#get-ai-assistance).|
-|Optimize with CodeLens and BenchmarkDotNet|See [Optimize with Copilot](../profiling/profiling-with-benchmark-dotnet.md#optimize-with-copilot).|
-|Copilot tool suggestions|See the **Get AI recommendations** section in [Overview of the profiling tools](../profiling/profiling-feature-tour.md)|
-
-In some of these scenarios, you get targeted assistance by using the **Ask Copilot** ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png) or **Analyze with Copilot** button. Copilot already knows the context for your questions. For example, it knows about insights discovered by the profiling tools and can make relevant suggestions how to fix them.
 
 ## Profile using the Copilot Profiler Agent
 
