@@ -14,9 +14,9 @@ monikerRange: ">=vs-2022"
 
 :::moniker range="visualstudio"
 If you're an extension developer, this article can help you understand how your extensions work in Visual Studio 2026.
-With the latest Insiders prerelease version of Visual Studio, users can easily install your Visual Studio 2022 extensions.
+With Visual Studio 2026, users can easily install your Visual Studio 2022 extensions.
 
-Since there are minimal breaking changes, upgrading your extension should be straightforward. With the prerelease version of Visual Studio, you can test your existing extension and provide us with your feedback.
+Since there are minimal breaking changes, upgrading your extension should be straightforward. With Visual Studio 2026, you can test your existing extension and provide us with your feedback.
 
 > [!NOTE]
 > The information in this article pertain to upgrading an extension from Visual Studio 2022 to work with Visual Studio 2026.
@@ -25,7 +25,7 @@ Since there are minimal breaking changes, upgrading your extension should be str
 
 To install and test your extension:
 
-1. Install the latest [Visual Studio (Insiders)](https://aka.ms/vs/insiders?cid=learn-onpage-download-install-visual-studio-page-cta).
+1. Install the latest [Visual Studio 2026](https://visualstudio.microsoft.com/downloads?cid=learn-onpage-download-install-visual-studio-page-cta).
 
 1. Navigate to **Extension Manager**.
 
@@ -33,11 +33,11 @@ To install and test your extension:
 
 1. Install it and confirm that it operates as expected. 
 
-If your extension is an MSI, you might need to modify the installer to allow the installation of Visual Studio 2022 extensions on the latest prerelease version of Visual Studio. 
+If your extension is an MSI, you might need to modify the installer to allow the installation of Visual Studio 2022 extensions on Visual Studio 2026.
 
 :::image type="content" alt-text="Screenshot of Visual Studio Extension Manager." source="media/visualstudio/visual-studio-extension.png" lightbox="media/visualstudio/visual-studio-extension.png" :::
 
-For now, there are no instructions for creating extensions specifically for the prerelease Insiders version of Visual Studio. However, you can test and use Visual Studio 2022 extensions with the Insiders prerelease of Visual Studio.
+For now, there are no instructions for creating extensions specifically for Visual Studio 2026. However, you can test and use Visual Studio 2022 extensions with Visual Studio 2026
 
 ## Breaking changes
 
@@ -47,7 +47,7 @@ To learn more about Breaking Changes, see [Breaking changes for Visual Studio Ex
 
 ## Feedback and Issue Reporting
 
-If you encounter issues with your extensions in the Insiders prerelease version of Visual Studio, report the problem [here](https://aka.ms/ExtensionFeedback) and include a reference to the ticket.
+If you encounter issues with your extensions in Visual Studio 2026, report the problem [here](https://aka.ms/ExtensionFeedback) and include a reference to the ticket.
 
 :::moniker-end
 
