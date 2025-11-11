@@ -25,7 +25,7 @@ Since there are minimal breaking changes, upgrading your extension should be str
 
 To install and test your extension:
 
-1. Install the latest [Visual Studio 2026](https://visualstudio.microsoft.com/downloads?cid=learn-onpage-download-install-visual-studio-page-cta).
+1. Install the latest [Visual Studio 2026](https://aka.ms/vs/download/?cid=learn-onpage-vs).
 
 1. Navigate to **Extension Manager**.
 
