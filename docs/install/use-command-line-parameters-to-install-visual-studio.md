@@ -2,7 +2,7 @@
 title: Use command-line parameters to install Visual Studio
 titleSuffix: ''
 description: Use command-line parameters with your Visual Studio installation and start the installation with preselected options or automate the installation and update process.
-ms.date: 10/28/2024
+ms.date: 11/03/2025
 ms.topic: install-set-up-deploy
 f1_keywords:
 - command-line parameters
@@ -42,7 +42,7 @@ You can get the Visual Studio 2019 bootstrappers from the following table. Alter
 
 ::: moniker-end
 
-::: moniker range=">=vs-2022"
+::: moniker range="vs-2022"
 
 To get the latest bootstrappers for Visual Studio 2022 that always install the latest version of the Current channel, download one of the files in the following table. Alternatively, to install a specific version or a specific channel of Visual Studio 2022, see the [Visual Studio 2022 Release History](/visualstudio/releases/2022/release-history#release-dates-and-build-numbers) page. This page has links to the fixed version bootstrappers for each servicing release.
 
@@ -55,6 +55,21 @@ To get the latest bootstrappers for Visual Studio 2022 that always install the l
 
 ::: moniker-end
 
+::: moniker range=">=visualstudio"
+
+<!-- tbd No release history page yet -->
+To get the latest bootstrappers for Visual Studio 2026 that always install the latest version of the Current channel, download one of the files in the following table. Alternatively, to install a specific version or a specific channel of Visual Studio 2026, see the [Visual Studio 2026 Release History](/visualstudio/releases/2026/release-history#release-dates-and-build-numbers) page. This page has links to the fixed version bootstrappers for each servicing release.
+
+<!-- tbd Release build links not active yet -->
+| **Edition**                      | **Bootstrapper**                                                                                   |
+|----------------------------|-------------------------------------------------------------------------------------------|
+| Visual Studio 2026 Enterprise   | [vs_enterprise.exe](https://aka.ms/vs/stable/vs_enterprise.exe)     |
+| Visual Studio 2026 Professional | [vs_professional.exe](https://aka.ms/vs/stable/vs_professional.exe) |
+| Visual Studio 2026 Community    | [vs_community.exe](https://aka.ms/vs/stable/vs_community.exe)       |
+| Visual Studio 2026 Build Tools   | [vs_buildtools.exe](https://aka.ms/vs/stable/vs_buildtools.exe)         |
+
+::: moniker-end
+
 ::: moniker range="vs-2019"
 
 >[!TIP]
@@ -62,10 +77,17 @@ To get the latest bootstrappers for Visual Studio 2022 that always install the l
 
 ::: moniker-end
 
-::: moniker range=">=vs-2022"
+::: moniker range="=vs-2022"
 
 >[!TIP]
 >If you previously downloaded a bootstrapper file and want to verify what version it will install, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties** and then choose the **Details** tab. The **Product version** field will describe the [channel and version](/visualstudio/releases/2022/release-rhythm-vs2022) that the bootstrapper will install. The version number should always be read as "latest servicing version of what is specified", and the channel is Current unless explicitly specified. So, a bootstrapper with a Product version of LTSC 17.0 will install the latest 17.0.x servicing release that is available on the 17.0 LTSC channel. A bootstrapper with a Product version that simply says Visual Studio 2022 will install the latest version of Visual Studio 2022 on the Current channel.
+
+::: moniker-end
+
+::: moniker range=">=visualstudio"
+
+>[!TIP]
+>If you previously downloaded a bootstrapper file and want to verify what version it will install, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties** and then choose the **Details** tab. The **Product version** field will describe the [channel and version](/visualstudio/releases/2026/release-rhythm) that the bootstrapper will install. The version number should always be read as "latest servicing version of what is specified", and the channel is Current unless explicitly specified. So, a bootstrapper with a Product version of Stable 18.0 will install the latest 18.0.x servicing release that is available on the 18.0 Stable channel. A bootstrapper with a Product version that simply says Visual Studio 2026 will install the latest version of Visual Studio 2026 on the Stable channel.
 
 ::: moniker-end
 
@@ -105,8 +127,7 @@ Syntax example: `vs_enterprise.exe [command] <optional parameters>...`
 | `--includeOptional`                                | **Optional**: During an install or modify command, this parameter includes the optional components for any workloads that are installed. It doesn't include the recommended components. The workloads are specified either with `--allWorkloads` or `--add`. |
 | `--addProductLang <language-locale>`               | **Optional**: During an install or modify command, this repeatable parameter specifies the UI language packs that should be installed with the product. If not present, the installation uses the language pack that corresponds to the machine locale. For more information, see the [List of language locales]
 | `--remove <one or more workload or component IDs>` | **Optional**: During a modify command, this repeatable parameter specifies one or more workload or component IDs to remove. It complements and behaves similarly to the `--add` parameter.   |
-(#list-of-language-locales) section on this page.  |
-| `--removeProductLang <language-locale>`            | **Optional**: During an install or modify command, this repeatable parameter determines the UI language packs that should be removed from the product.  It complements and behaves similarly to the `--addProductLang` parameter. |
+| `--removeProductLang <language-locale>`            | **Optional**: During an install or modify command, this repeatable parameter determines the UI language packs that should be removed from the product.  It complements and behaves similarly to the `--addProductLang` parameter. For more information, see the [List of language locales](#list-of-language-locales) section on this page.|
 | `--in <path>`                                      | **Optional**: The URI or path to a [response file](automated-installation-with-response-file.md), which can contain configuration settings.  |
 | `--quiet`                                      | **Optional**: Used with any command, this parameter prevents any user interface from being displayed while the command is being executed. Not available to use programmatically by standard users regardless of how the [AllowStandardUserControl policy](https://aka.ms/vs/setup/policies) is set.  |
 | `--passive, -p`                                    | **Optional**: This parameter causes the user interface to be displayed in a non-interactive manner. This parameter is mutually exclusive from (and in fact overrides) the `--quiet` parameter. Also not available to use programmatically by standard users regardless of how the [AllowStandardUserControl policy](https://aka.ms/vs/setup/policies) is set.  |
@@ -177,6 +198,19 @@ You can modify the update settings and programmatically configure the source loc
 | `--quiet`                                   | **Optional**: This parameter prevents any user interface from being displayed while the command is being executed. Not available to use programmatically by [standard users](https://aka.ms/vs/setup/policies). |
 | `--removeOos true`                              | **Optional**: During a modifySettings command, this parameter (which must have the word true or false immediately after it) tells the Visual Studio installer to *persistently* remove (or not remove) all installed components that have transitioned to an out-of-support state. Useful for helping to keep the machine secure. | 
 
+::: moniker range=">=visualstudio"
+Syntax examples: 
+
+  ```shell
+  C:\>"C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" modifySettings --installPath "C:\Program Files\Microsoft Visual Studio\18\Enterprise" --newChannelUri https://aka.ms/vs/stable.18.0/channel --removeOos true
+  ```
+
+  ```shell 
+   C:\>"C:\Program Files\Microsoft\Visual Studio\2022\Enterprise\vs_enterprise.exe" modifySettings --channelUri https://aka.ms/vs/stable.18.0/channel --productID Microsoft.VisualStudio.Product.Enterprise --newChannelUri \\layoutserver\share\path\channelmanifest.json --removeOos true --quiet
+  ``` 
+::: moniker-end
+
+::: moniker range="=vs-2022"
 Syntax examples: 
 
   ```shell
@@ -186,6 +220,7 @@ Syntax examples:
   ```shell 
    C:\>"C:\Program Files\Microsoft\Visual Studio\2022\Enterprise\vs_enterprise.exe" modifySettings --channelUri https://aka.ms/vs/17/release.LTSC.17.0/channel --productID Microsoft.VisualStudio.Product.Enterprise --newChannelUri \\layoutserver\share\path\channelmanifest.json --removeOos true --quiet
   ``` 
+::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
@@ -200,13 +235,22 @@ Starting in Visual Studio 2022, you can [roll back an update](/troubleshoot/deve
 | **rollback parameters**                   | **Description**                                                                           |
 |-------------------------------------------|-------------------------------------------------------------------------------------------|
 | `--installPath <dir>`                     | **Recommended** to use to specify which instance of Visual Studio to act upon.            |
+::: moniker-end
 
+::: moniker range=">=visualstudio"
+Syntax examples: 
+
+  ```shell
+  "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" rollback -–installPath "C:\Program Files\Microsoft Visual Studio\18\Enterprise"
+  ```
+::: moniker-end
+
+::: moniker range="=vs-2022"
 Syntax examples: 
 
   ```shell
   "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" rollback -–installPath "C:\Program Files\Microsoft Visual Studio\2022\Enterprise"
   ```
-
 ::: moniker-end
   
 ## Administrator Update command and command-line parameters
@@ -265,6 +309,27 @@ Syntax example:
 
 You can use the [Windows Package Manager](/windows/package-manager/winget/) "winget" tool to programmatically install, modify, or update Visual Studio on your machine along with other packages managed by winget. 
 
+::: moniker range=">=visualstudio"
+By default, winget just installs the Visual Studio core workload. 
+
+  ```shell
+  winget install --id Microsoft.VisualStudio.Community
+  ```
+  
+However, if you want to customize the installation and specify additional workloads and components to acquire during initial installation, you can use winget's `--override` switch alongside winget's `install` command, and pass in an [exported vsconfig file](import-export-installation-configurations.md) that contains the workloads and components to add:
+
+  ```shell
+  winget install --id Microsoft.VisualStudio.Community --override "--passive --config c:\my.vsconfig"
+  ```
+
+Of course, you can also just include components directly during the initial installation, like this:
+
+ ```shell
+  winget install --id Microsoft.VisualStudio.Community --override "--quiet --add Microsoft.Visualstudio.Workload.Azure"
+  ```
+::: moniker-end
+
+::: moniker range="=vs-2022"
 By default, winget just installs the Visual Studio core workload. 
 
   ```shell
@@ -282,6 +347,7 @@ Of course, you can also just include components directly during the initial inst
  ```shell
   winget install --id Microsoft.VisualStudio.2022.Community --override "--quiet --add Microsoft.Visualstudio.Workload.Azure"
   ```
+::: moniker-end
 
 If you already have Visual Studio installed on your machine, then it's possible to use [winget's `configure` command](/windows/package-manager/winget/configure) along with the [Visual Studio PowerShell DSC provider](https://www.powershellgallery.com/packages/Microsoft.VisualStudio.DSC), a yaml file, and a .vsconfig file to **add** components to an existing Visual Studio installation. Winget's `configure` command essentially acts as a Visual Studio "modify" operation. See [how to author a WinGet Configuration file](/windows/package-manager/configuration/create) to learn how to create a winget configuration.
 

@@ -19,12 +19,12 @@ In this quickstart, you create a Python web application based on the Flask frame
 
 ::: moniker range="vs-2019"
 
-If you need to install Visual Studio, go to [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) to install it for free. In the installer, select the **Python development** workload.
+If you need to install Visual Studio, go to [Visual Studio downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) to install it for free. In the installer, select the **Python development** workload.
 
 ::: moniker-end
 ::: moniker range=">=vs-2022"
 
-If you need to install Visual Studio, go to [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) to install it for free. In the Visual Studio Installer, select the **Python development** workload. In the installation details pane, select **Python web support**.
+If you need to install Visual Studio, go to [Visual Studio downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) to install it for free. In the Visual Studio Installer, select the **Python development** workload. In the installation details pane, select **Python web support**.
 
 :::image type="content" source="media/vs-2022/python-web.png" alt-text="Screenshot of the Visual Studio Installer with the Python development workload and Python web support selected." lightbox="media/vs-2022/python-web.png":::
 
