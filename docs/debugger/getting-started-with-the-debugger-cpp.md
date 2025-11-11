@@ -37,7 +37,7 @@ If you're new to debugging, you might want to read [Debugging for absolute begin
 
    ::: moniker range=">=vs-2022"
 
-   - To install Visual Studio for free, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page.
+   - To install Visual Studio for free, go to the [Visual Studio downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) page.
 
    ::: moniker-end
    ::: moniker range="<=vs-2019"

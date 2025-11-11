@@ -28,7 +28,7 @@ In the example described in this article, you collect performance information fo
 
 * Familiarity with command-line tools
 
-* To collect performance information on a remote machine without Visual Studio installed, install the [Remote Tools for Visual Studio](https://visualstudio.microsoft.com/downloads/#remote-tools-for-visual-studio-2019) on the remote machine. The version of the tools must match your version of Visual Studio.
+* To collect performance information on a remote machine without Visual Studio installed, install the [Remote Tools for Visual Studio](https://aka.ms/vs/download/#remote-tools-for-visual-studio-2019) on the remote machine. The version of the tools must match your version of Visual Studio.
 
 Most of the collection agents support .NET Core, .NET 5+, .NET Framework, and C++. However, support is limited to the support provided by the corresponding performance tool. For example, the [Database](../profiling/analyze-database.md) collection agent is limited to .NET Core and .NET 5+.
 

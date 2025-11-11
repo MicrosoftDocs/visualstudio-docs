@@ -19,7 +19,7 @@ In this tutorial, you'll create a custom task in MSBuild in C# that handles code
 
 You should have an understanding of MSBuild concepts such as tasks, targets, and properties. See [MSBuild concepts](msbuild-concepts.md).
 
-The examples require MSBuild, which is installed with Visual Studio, but can also be installed separately. See [Download MSBuild without Visual Studio](https://visualstudio.microsoft.com/downloads/?q=build+tools).
+The examples require MSBuild, which is installed with Visual Studio, but can also be installed separately. See [Download MSBuild without Visual Studio](https://aka.ms/vs/download/?q=build+tools).
 
 ## Introduction to the code example
 

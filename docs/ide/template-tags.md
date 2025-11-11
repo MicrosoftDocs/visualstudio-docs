@@ -17,7 +17,7 @@ helpviewer_keywords:
 ---
 # Add tags to project templates
 
-Starting in [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) version 16.1 Preview 2, you can add language, platform, and project type tags to your project templates. 
+Starting in [Visual Studio 2019](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) version 16.1 Preview 2, you can add language, platform, and project type tags to your project templates. 
 
 Tags are used in two places in the **New Project** dialog box:
 

@@ -131,7 +131,7 @@ Decide which version and edition of Visual Studio to install. The most common op
 - The latest release of Visual Studio 2022 that's hosted on Microsoft servers. To install this version, select the following button and then choose the edition you want. The installer downloads a small *bootstrapper* to your *Downloads* folder.
 
   > [!div class="button"]
-  > [Download Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-install-visual-studio-page-cta)
+  > [Download Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-install-visual-studio-page-cta)
 
 ::: moniker-end
 
@@ -140,7 +140,7 @@ Decide which version and edition of Visual Studio to install. The most common op
 - The latest release of Visual Studio that's hosted on Microsoft servers. To install this version, select the following button and then choose the edition you want. The installer downloads a small *bootstrapper* to your *Downloads* folder.
 
   > [!div class="button"]
-  > [Download Visual Studio](https://aka.ms/vs/downloads/?cid=learn-onpage-download-install-visual-studio-page-cta)
+  > [Download Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-install-visual-studio-page-cta)
 
 ::: moniker-end
 
