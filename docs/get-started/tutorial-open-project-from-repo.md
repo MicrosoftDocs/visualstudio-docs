@@ -26,7 +26,7 @@ In this tutorial, you learn how to:
 
 ## Prerequisites
 
-- If you don't have Visual Studio yet, go to [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) to install it for free.
+- If you don't have Visual Studio yet, go to [Visual Studio downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) to install it for free.
 
 ::: moniker range=">=vs-2022"
 

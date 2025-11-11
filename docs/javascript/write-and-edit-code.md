@@ -22,7 +22,7 @@ dev_langs:
 In this short introduction to the code editor in Visual Studio, we'll look at some of the ways that Visual Studio makes writing, navigating, and understanding code easier.
 
 > [!TIP]
-> If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free. For more information in getting the language service for TypeScript, see [TypeScript support](../javascript/javascript-in-visual-studio.md#typescript-support).
+> If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) page to install it for free. For more information in getting the language service for TypeScript, see [TypeScript support](../javascript/javascript-in-visual-studio.md#typescript-support).
 
 This article assumes you're already familiar with JavaScript development. If you aren't, we suggest you look at a tutorial such as [Create a Node.js and Express app](../javascript/tutorial-nodejs.md) first.
 
