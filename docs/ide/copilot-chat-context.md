@@ -33,7 +33,7 @@ To get started using GitHub Copilot Chat in Visual Studio, you need:
 + [Sign in to Visual Studio using a GitHub account](work-with-github-accounts.md) with [Copilot access](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot) <br/>
   <sup>**</sup> You can sign up for [GitHub Copilot for Free](copilot-free-plan.md).
 
-Support for GitHub Copilot Chat i provided by GitHub and can be reached at https://support.github.com.
+Support for GitHub Copilot Chat is provided by GitHub and can be reached at https://support.github.com.
 
 ## Prompting guidance
 
@@ -60,7 +60,7 @@ To use a `.github/copilot-instructions.md` file:
 :::moniker-end
 :::moniker range="<=vs-2022"
 
-2. Enable the feature in Visual Studio from the **Tools** > **Options** dialog.  Expand the **GitHub** > **Copilot** section and select the **Enable custom instructions to be loaded from .github/copilot-instructions.md files and added to requests** checkbox in the **Copilot Chat** group.
+2. Enable the feature in Visual Studio from the **Tools** > **Options** dialog. Expand the **GitHub** > **Copilot** section and select the **Enable custom instructions to be loaded from .github/copilot-instructions.md files and added to requests** checkbox in the **Copilot Chat** group.
 
 :::moniker-end
 
