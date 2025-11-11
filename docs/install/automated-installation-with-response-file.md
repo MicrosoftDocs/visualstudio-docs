@@ -108,7 +108,7 @@ The base `response.json` file in a layout should look similar to the following e
 ```Default response.json for Stable channel layout
 {
   "installChannelUri": ".\\ChannelManifest.json",
-  "channelUri": "https://aka.ms/vs/18/stable/channel",
+  "channelUri": "https://aka.ms/vs/stable/channel",
   "installCatalogUri": ".\\Catalog.json",
   "channelId": "VisualStudio.18.Stable",
   "productId": "Microsoft.VisualStudio.Product.Enterprise"
