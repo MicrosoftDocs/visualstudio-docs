@@ -1,7 +1,7 @@
 ---
 title: Update a network-based installation
 description: Update a Visual Studio client installed from a network layout and make sure the client is receiving the latest security and functionality fixes. 
-ms.date: 9/26/2024
+ms.date: 11/04/2025
 ms.topic: how-to
 helpviewer_keywords:
 - '{{PLACEHOLDER}}'
@@ -26,7 +26,14 @@ If Visual Studio is installed on a machine in an organization and was originally
 
 ## Prepare the update source
 
+::: moniker range="<=vs-2022"
 If your clients are [configured to acquire updates](update-visual-studio.md?view=vs-2022&preserve-view=true#configure-source-location-of-updates-1) from Microsoft hosted servers, then they must have access to the internet. During the update, the clients will download and install the latest version available from Microsoft on the [update channel](/visualstudio/releases/2022/release-rhythm-vs2022) that the client is subscribed to. 
+::: moniker-end
+
+::: moniker range="=visualstudio"
+<!-- tbd verify links-->
+If your clients are [configured to acquire updates](update-visual-studio.md?view=visualstudio&preserve-view=true#configure-source-location-of-updates-1) from Microsoft hosted servers, then they must have access to the internet. During the update, the clients will download and install the latest version available from Microsoft on the [update channel](/visualstudio/releases/2026/release-rhythm) that the client is subscribed to. 
+::: moniker-end
 
 If your clients are [configured to acquire updates](update-visual-studio.md#configure-source-location-of-updates-1) from a layout, then the first step before updating the client is to make sure that the layout itself contains the updated version of Visual Studio. The IT administrator should either [update the existing layout with the latest product updates](create-a-network-installation-of-visual-studio.md#maintaining-your-layout) so that both new client installations or client updates can receive the updated version, or they can [create a whole new layout](create-a-network-installation-of-visual-studio.md) in a different layout directory that you can use to update the client machines. Best practice is to update the layouts on the second Tuesday of the month right after the security updates are released.
 
@@ -34,10 +41,16 @@ Make sure that either the user or system account that's running the update has p
 
 ## Manually initiate the update on the client machine
 
+::: moniker range="<=vs-2022"
 A user on the client machine with sufficient permissions can [manually initiate the Visual Studio update themselves](update-visual-studio.md). The Visual Studio client will look in its [source location for updates](update-visual-studio.md?view=vs-2022&preserve-view=true#configure-source-location-of-updates-1) to determine if any update packages are available. That's why it's important to keep the source layout updated. 
+::: moniker-end
+
+::: moniker range="=visualstudio"
+A user on the client machine with sufficient permissions can [manually initiate the Visual Studio update themselves](update-visual-studio.md). The Visual Studio client will look in its [source location for updates](update-visual-studio.md?view=visualstudio&preserve-view=true#configure-source-location-of-updates-1) to determine if any update packages are available. That's why it's important to keep the source layout updated. 
+::: moniker-end
 
 Users can [manually update](update-visual-studio.md) a Visual Studio instance by: 
-  * launching the Visual Studio Installer. If an update is available, they can click **Update**.
+  * launching the Visual Studio Installer. If an update is available, they can select **Update**.
   * launching the Visual Studio IDE and responding to the notification flag or message, or choosing **Help > Check for Updates** for updates.  
 
 If any files are in use when the update starts, for example, if Visual Studio is open, then the update will be blocked until Visual Studio is closed. Occasionally, an update will require a reboot.
@@ -81,9 +94,17 @@ You can change the channel to a network layout *and* execute an update command o
 
 or like this, which sets the source of updates to a Microsoft hosted location:
 
+::: moniker range="=visualstudio"
 ```shell
 "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" update --installPath "C:\Program Files\Microsoft Visual Studio\2022\Enterprise" --channelUri "https://aka.ms/vs/17/release/channel"
 ```
+::: moniker-end
+
+::: moniker range="=visualstudio"
+```shell
+"C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" update --installPath "C:\Program Files\Microsoft Visual Studio\18\Enterprise" --channelUri "https://aka.ms/vs/18/stable/channel"
+```
+::: moniker-end
 
 Note that in the previous two examples, you can't initiate execution of the installer programmatically from the same directory that the installer resides in.
 

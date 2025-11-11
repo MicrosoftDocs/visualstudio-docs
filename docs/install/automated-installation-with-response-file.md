@@ -1,7 +1,7 @@
 ---
 title: Configure installation defaults with a response file
 description: Create a response JSON file to help automate your Visual Studio installation with default settings for workloads, components, and other installation options.
-ms.date: 10/28/2024
+ms.date: 11/11/2025
 ms.topic: how-to
 helpviewer_keywords:
 - response file
@@ -16,7 +16,7 @@ ms.subservice: installation
 ---
 # Configure installation default settings using a response file
 
-In this article, you learn how to create a response file that helps you automate your Visual Studio installation. It's most common use is when you install Visual Studio from a [layout](create-a-network-installation-of-visual-studio.md). 
+In this article, you learn how to create a response file that helps you automate your Visual Studio installation. Its most common use is when you install Visual Studio from a [layout](create-a-network-installation-of-visual-studio.md). 
 
 The Visual Studio response file is a [JSON](http://json-schema.org/) file whose contents contain customizations used during the initial installation of Visual Studio onto the client. Its contents mirror the [command line arguments and parameters](use-command-line-parameters-to-install-visual-studio.md). Use the response file for the following configuration options:
 
@@ -101,6 +101,19 @@ The base `response.json` file in a layout should look similar to the following e
 }
 ```
 
+::: moniker-end
+
+::: moniker range="=visualstudio"
+
+```Default response.json for Stable channel layout
+{
+  "installChannelUri": ".\\ChannelManifest.json",
+  "channelUri": "https://aka.ms/vs/18/stable/channel",
+  "installCatalogUri": ".\\Catalog.json",
+  "channelId": "VisualStudio.18.Stable",
+  "productId": "Microsoft.VisualStudio.Product.Enterprise"
+}
+```
 ::: moniker-end
 
 When you create or update a layout, a response.template.json file is also created.  This file contains all of the workload, component, and language IDs that can be used.  This file is provided as a template for what all could be included in a custom install. Administrators can use this file as a starting point for a custom response file. Just remove the IDs for the things you do not want to install and save it in the `response.json` file or your own response file. Do not customize the response.template.json file or your changes are lost whenever the layout is updated.
@@ -216,8 +229,79 @@ In the following example, the `response.json` file initializes a Visual Studio E
 ```
 ::: moniker-end
 
+::: moniker range="=visualstudio"
+
+The following `response.json` file example initializes a Visual Studio Enterprise client install to select several common workloads and components, to select both the English and French UI languages, and to have the update location configured to look for sources in a network hosted layout. Refer to the [Configure policies for enterprise deployments of Visual Studio](configure-policies-for-enterprise-deployments.md#configuring-source-location-for-updates) and the [Configure your layout to always include and provide the latest installer](create-a-network-installation-of-visual-studio.md#configure-the-layout-to-always-include-and-provide-the-latest-installer) for information on how to configure this.
+
+```Example response.json
+{
+  "installChannelUri": ".\\ChannelManifest.json",
+  "channelUri": "\\\\server\\share\\layoutdirectory\\ChannelManifest.json",
+  "installCatalogUri": ".\\Catalog.json",
+  "channelId": "VisualStudio.18.Stable",
+  "productId": "Microsoft.VisualStudio.Product.Enterprise",
+
+  "installPath": "C:\\/2026/",
+  "quiet": false,
+  "passive": false,
+  "includeRecommended": true,
+  "norestart": false,
+  "useLatestInstaller": true,
+  "removeOos": true,
+  
+  "addProductLang": [
+    "en-US",
+    "fr-FR"
+    ],
+
+    "add": [
+        "Microsoft.VisualStudio.Workload.ManagedDesktop",
+        "Microsoft.VisualStudio.Workload.Data",
+        "Microsoft.VisualStudio.Workload.NativeDesktop",
+        "Microsoft.VisualStudio.Workload.NetWeb",
+        "Microsoft.VisualStudio.Workload.Office",
+        "Microsoft.VisualStudio.Workload.Universal",
+        "Component.GitHub.VisualStudio"
+    ]
+}
+```
+
+In the following example, the `response.json` file initializes a Visual Studio Enterprise client install that:
+- [Uses a configuration *.vsconfig file that defines what workloads, components, and extensions to install](import-export-installation-configurations.md#use-a-configuration-file-to-initialize-the-contents-of-a-layout)
+- Selects both the English and French UI languages
+- Configures the [update location to look for sources in an http hosted layout](create-a-network-installation-of-visual-studio.md#making-your-layout-accessible-via-an-intranet-site)
+- Allows [programmatic loading of unsigned extensions](import-export-installation-configurations.md#extensions)
+- [Removes components transitioned to an out-of-support state at the time of updating the client](update-visual-studio.md#remove-out-of-support-components). See the list of out-of-support components [here](out-of-support-components.md).
+
+```Example response.json
+{
+  "installChannelUri": ".\\ChannelManifest.json",
+  "channelUri": "http://MyCompanyIntranetSite/VS2026Enterprise/ChannelManifest.json",
+  "installCatalogUri": ".\\Catalog.json",
+  "channelId": "VisualStudio.18.Stable",
+  "productId": "Microsoft.VisualStudio.Product.Enterprise",
+  "arch": "x64",
+  "config": ".\\Layout.vsconfig"
+  "installPath": "C:\\/2026/",
+  "quiet": false,
+  "passive": false,
+  "includeRecommended": true,
+  "norestart": false,
+  "useLatestInstaller": true,
+  "removeOos": true,
+  "allowUnsignedExtensions": true,
+
+  "addProductLang": [
+    "en-US",
+    "fr-FR"
+    ]
+
+}
+```
+::: moniker-end
+
 > [!WARNING]
-> If you're using intranet webhosted layouts, you can’t set “noWeb”: true in the response.json and expect it to work. This will disable the http protocol and prevent the client from accessing the website. 
+> If you're using intranet web hosted layouts, you can’t set “noWeb”: true in the response.json and expect it to work. This will disable the http protocol and prevent the client from accessing the website. 
 
 ## Troubleshooting
 
