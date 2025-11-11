@@ -35,7 +35,7 @@ In this tutorial, you:
 
 - Visual Studio 2022 **version 17.12** or later with the **ASP.NET and web development** workload installed.
 
-   - To install Visual Studio for free, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page.
+   - To install Visual Studio for free, go to the [Visual Studio downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) page.
 
    - If you already have Visual Studio, you can install the workload from within the Interactive Development Environment (IDE):
    

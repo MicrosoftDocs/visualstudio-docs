@@ -33,7 +33,7 @@ Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/vs/)
 ::: moniker-end
 ::: moniker range=">=vs-2022"
 You need Visual Studio to complete this tutorial.
-Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) for a free version.
+Visit the [Visual Studio downloads page](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) for a free version.
 ::: moniker-end
 
 Be sure you have the necessary components installed:

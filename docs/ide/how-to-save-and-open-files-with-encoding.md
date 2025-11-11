@@ -22,7 +22,7 @@ You can save files with specific character encoding in Visual Studio to support 
 
 ## Prerequisites
 
-- Visual Studio. If you don't have Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
+- Visual Studio. If you don't have Visual Studio, go to the [Visual Studio downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) page to install it for free.
 
 ## Save file with encoding
 
