@@ -27,4 +27,4 @@ Setup Assistant identifies MSVC toolsets and Windows SDKs your project targets. 
 
 If your project uses a pinned *global.json* file, Setup Assistant provides a link matching the pinned .NET SDK, for quick installation in your browser. 
 
-<img width="1404" height="434" alt="image" src="https://github.com/user-attachments/assets/082f6b9b-547f-419b-ac5b-b39eaa99411b" />
+:::image type="content" source="./media/visualstudio/setup-assistant-csharp.png" alt-text="Screenshot of the C# Setup Assistant.":::
