@@ -204,12 +204,12 @@ To keep several search results, select the **Keep Results** button after each se
 
 :::moniker range="visualstudio"
 
-You can set Visual Studio to always keep results. In the **Tools** > **Options** pane, expand the **All Settings** > ***Environment** > **Search** > **Find and Replace** section. In the **Find in Files** group, select the **Keep search results by default** checkbox.
+You can set Visual Studio to always keep results. In the **Tools** > **Options** pane, expand the **All Settings** > **Environment** > **Search** > **Find and Replace** section. In the **Find in Files** group, select the **Keep search results by default** checkbox.
 
 :::moniker-end
 :::moniker range="vs-2022"
 
-In Visual Studio 2022 and later, you can set Visual Studio to always keep results. In the **Tools** > **Options** dialog, expand the ***Environment** > **Find and Replace** section, and select the **Keep search results by default** checkbox.
+In Visual Studio 2022 and later, you can set Visual Studio to always keep results. In the **Tools** > **Options** dialog, expand the **Environment** > **Find and Replace** section, and select the **Keep search results by default** checkbox.
 
 :::moniker-end
 
