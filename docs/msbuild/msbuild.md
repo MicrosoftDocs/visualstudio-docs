@@ -19,7 +19,7 @@ Visual Studio uses MSBuild to load and build managed projects. The project files
 
 ## Install MSBuild
 
-To install MSBuild on a Windows system that doesn't have Visual Studio, go to **Build Tools for Visual Studio** on the [downloads page](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta). Installing MSBuild by this method gives you *MSBuild.exe*.
+To install MSBuild on a Windows system that doesn't have Visual Studio, go to **Build Tools for Visual Studio** on the [downloads page](https://aka.ms/vs/download/?cid=learn-onpage-download-cta). Installing MSBuild by this method gives you *MSBuild.exe*.
 
 For .NET Core and .NET 5 or later, another way of getting the equivalent to MSBuild is to install the [.NET SDK](/dotnet/core/sdk#acquiring-the-net-sdk). The .NET build command `dotnet build` is available with the .NET SDK on macOS, Windows, or Linux. The .NET build command `dotnet build` is a thin wrapper over the .NET Core version of *MSBuild.exe*. You can use the [.NET Core command-line interface (CLI)](/dotnet/core/tools/), which uses MSBuild, to build projects that target .NET Core and .NET 5 and later. 
 

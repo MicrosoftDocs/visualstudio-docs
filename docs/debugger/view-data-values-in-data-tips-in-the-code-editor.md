@@ -31,7 +31,7 @@ This article explores how to work with the data tips feature in Visual Studio. D
 
 ## Prerequisites
 
-- Visual Studio. If you don't have Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
+- Visual Studio. If you don't have Visual Studio, go to the [Visual Studio downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) page to install it for free.
 
 - Some program code to run in the Visual Studio debugger.
 

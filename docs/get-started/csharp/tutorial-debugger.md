@@ -41,7 +41,7 @@ You must have Visual Studio 2019 installed and the **.NET Core cross-platform de
 
 ::: moniker-end
 
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) page to install it for free.
 
 ::: moniker range="<=vs-2019"
 

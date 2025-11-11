@@ -19,11 +19,11 @@ You can debug JavaScript and TypeScript code using Visual Studio. You can hit br
 
 ::: moniker range=">=vs-2022"
 > [!TIP]
-> If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
+> If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) page to install it for free.
 ::: moniker-end
 ::: moniker range="vs-2019"
 > [!TIP]
-> If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free. If you are developing Node.js applications, you need to install the **Node.js development workload** with Visual Studio.
+> If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) page to install it for free. If you are developing Node.js applications, you need to install the **Node.js development workload** with Visual Studio.
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"

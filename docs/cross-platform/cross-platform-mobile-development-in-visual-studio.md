@@ -87,7 +87,7 @@ As you write code in these libraries, you can use IntelliSense to explore the na
 
 |**Learn more**|
 |--------------------|
-|[Download Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) (VisualStudio.com)|
+|[Download Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) (VisualStudio.com)|
 |[Install cross-platform mobile development with C++](/cpp/cross-platform/install-visual-cpp-for-cross-platform-mobile-development)|
 |Learn more about [using C++ to target multiple platforms](https://visualstudio.microsoft.com/vs/cplusplus-mdd/) (VisualStudio.com)|
 |[Install what you need, and then create a C++ native activity application for Android](/cpp/cross-platform/create-an-android-native-activity-app)|

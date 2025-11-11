@@ -26,8 +26,8 @@ productDirectory:
           text: Visual Studio subscription docs
         - url: /visualstudio/releases/2022/release-notes
           text: Visual Studio 2022 release notes
-        - url: /visualstudio/releases/vs18/release-notes-insiders
-          text: Visual Studio Insiders release notes
+        - url: /visualstudio/releases/2026/release-notes
+          text: Visual Studio 2026 release notes
     - title: Visual Studio Code
       imageSrc: ./media/vs-code-logo.svg
       links:
