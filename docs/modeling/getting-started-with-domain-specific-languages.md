@@ -15,7 +15,7 @@ This topic explains the basic concepts in defining and using a domain-specific l
 > [!NOTE]
 > The Text Template Transformation SDK and the Visual Studio Modeling SDK are installed automatically when you install specific features of Visual Studio. For more details, see [this blog post](https://devblogs.microsoft.com/devops/the-visual-studio-modeling-sdk-is-now-available-with-visual-studio-2017/).
 
-If you are new to DSLs, we recommend that you work through the **DSL Tools Lab**, which you can find in this repository: https://github.com/lumon-Ind/MoSDK-Lab
+If you are new to DSLs, we recommend that you work through the **DSL Tools Lab**, which you can find in this [repository](https://github.com/lumon-Ind/VMSDK)
 
 ## What can you do with a Domain-Specific Language?
 
@@ -23,7 +23,7 @@ A domain-specific language is a notation, usually graphical, that is designed to
 
 When you have designed a DSL, you can distribute it as part of a Visual Studio Integration Extension (VSIX) package. Users work with the DSL in Visual Studio:
 
-![Family tree diagram, toolbox, and explorer](../modeling/media/familyt_instance.png)
+![Family tree diagram, toolbox, and explorer](../modeling/media/familyt_tudors.png)
 
 The notation is only part of a DSL. Together with the notation, your VSIX package includes tools that users can apply to help them edit and generate material from their models.
 
@@ -37,9 +37,10 @@ To define a DSL, you must have installed the following components:
 
 | Component | Link |
 |-|-|
-| Visual Studio | [http://go.microsoft.com/fwlink/?LinkId=185579](https://visualstudio.microsoft.com) |
-| Visual Studio SDK | [https://go.microsoft.com/fwlink/?linkid=2166172](../extensibility/visual-studio-sdk.md) |
-| Modeling SDK for Visual Studio | |
+| Visual Studio (any edition)| [http://go.microsoft.com/fwlink/?LinkId=185579](https://visualstudio.microsoft.com) |
+| Select the  **Visual Studio extension development** workload (includes **Visual Studio SDK**) | [https://go.microsoft.com/fwlink/?linkid=2166172](../extensibility/visual-studio-sdk.md) |
+| **Modeling SDK** (not installed by default)|  |
+| **Class Designer** (not installed by default)| "Code tools" section in the installer's tab **Individual Components** |
 
 [!INCLUDE[modeling_sdk_info](includes/modeling_sdk_info.md)]
 
@@ -110,10 +111,10 @@ You can run the DSL solution as soon as you have created it. Later, you can modi
 
 ### To experiment with the DSL
 
-1. Click **Transform All Templates** in the **Solution Explorer** toolbar. This regenerates most of the source code from DslDefinition.dsl.
+1. Click **Transform All T4 Templates** on the **Build** menu. This regenerates most of the source code from DslDefinition.dsl.
 
     > [!NOTE]
-    > Whenever you change *DslDefinition.dsl*, you must click **Transform All Templates** before you rebuild the solution. You can automate this step. For more information, see [How to Automate Transform All Templates](/previous-versions/visualstudio/visual-studio-2012/ff521399\(v\=vs.110\)).
+    > Whenever you change *DslDefinition.dsl*, you must click **Transform All T4 Templates** before you rebuild the solution. You can automate this step. For more information, see [How to Automate Transform All Templates](/previous-versions/visualstudio/visual-studio-2012/ff521399\(v\=vs.110\)).
 
 2. Press **F5**, or on the **Debug** menu, click **Start Debugging**.
 
@@ -121,15 +122,15 @@ You can run the DSL solution as soon as you have created it. Later, you can modi
 
      An experimental instance of Visual Studio starts. The experimental instance takes its settings from a separate subtree of the registry, where Visual Studio extensions are registered for debugging purposes. Normal instances of Visual Studio do not have access to extensions registered there.
 
-3. In the experimental instance of Visual Studio, open the model file named **Test** from **Solution Explorer**.
+3. In the experimental instance of Visual Studio, open the model file named **Sample.ftree** from **Solution Explorer**.
 
      \- or -
 
-     Right-click the Debugging project, point to **Add**, and then click **Item**. In the **Add Item** dialog box, select the file type of your DSL.
+     Right-click the Debugging project, point to **Add**, and then click **New Item...**. In the **Add New Item** dialog box, select the file type of your DSL (**FamilyTree** in our example). 
 
      The model file opens as a blank diagram.
 
-     The toolbox opens and displays tools appropriate to the diagram type.
+     The toolbox opens and displays tools appropriate to the diagram type. Or you can show up the toolbox by clicking the menu **View / Toolbox**.
 
 4. Use the tools to create shapes and connectors on the diagram.
 
@@ -141,7 +142,7 @@ You can run the DSL solution as soon as you have created it. Later, you can modi
 
 Your experimental Visual Studio will resemble the following example:
 
-![Domain specific language sample tree in Visual Studio](../modeling/media/dsl_min.png)
+![Domain specific language sample tree in Visual Studio](../modeling/media/dsl_min_2.png)
 
 ### The Content of a Model
 
@@ -173,7 +174,7 @@ When you change a model file, you will see corresponding changes in generated fi
 
 2. Make sure that the file name parameter in each .tt file refers to the model file that you are using for experiments. Save the .tt file.
 
-3. Click **Transform All Templates** in the toolbar of **Solution Explorer**.
+3. Click **Transform All T4 Templates** on the **Build** menu.
 
      \- or -
 
@@ -195,7 +196,7 @@ When you want to modify the DSL definition, close the experimental instance and 
 
 You can make a wide variety of extensions to your DSL. The following examples will give you an impression of the possibilities.
 
-After each change, save the DSL definition, click **Transform All Templates** in **Solution Explorer**, and then press **F5** to experiment with the changed DSL.
+After each change, save the DSL definition, Click **Transform All T4 Templates** on the **Build** menu, and then press **F5** to experiment with the changed DSL.
 
 ### Rename the Types and Tools
 
@@ -203,9 +204,9 @@ Rename the existing domain classes and relationships. For example, starting from
 
 #### To rename domain classes, relationships and tools
 
-1. In the DslDefinition diagram, rename **ExampleModel** to **FamilyTreeModel**, **ExampleElement** to **Person**, **Targets** to **Parents**, and **Sources** to **Children**. You can click each label to change it.
+1. In the DslDefinition diagram, rename **ExampleModel** to **FamilyTreeModel**, **ExampleElement** to **Person**, **Targets** to **Children** (and Name to **Parent** ), **Sources** to **Parents** (and Name to **Child**), **Elements** to **People**, and the DomainRelationship **PersonReferencesChildren** to **ParentsHaveChildren**. Also rename the diagram element **ExampleConnector** to **ChildConnector**. You can click each label to change it. 
 
-     ![DSL Definition diagram &#45; family tree model](../modeling/media/familyt_person.png)
+     ![DSL Definition diagram &#45; family tree model](../modeling/media/familyt_diagr.png)
 
 2. Rename the element and connector tools.
 
@@ -221,48 +222,68 @@ Rename the existing domain classes and relationships. For example, starting from
 
          Notice that the **Caption** property also changes.
 
-    6. In the same manner, change the name of the **ExampleConnector** tool to **ParentLink**. Alter the **Caption** property so that it is not a copy of the Name property. For example, enter **Parent Link**.
+    6. In the same manner, change the name of the **ExampleRelationship** tool to **ChildLink**. Alter the **Caption** property so that it is not a copy of the Name property. For example, enter **Child Link**.
 
 3. Rebuild the DSL.
 
     1. Save the DSL Definition file.
 
-    2. Click **Transform All Templates** in the toolbar of Solution Explorer
+    2. Click **Transform All T4 Templates** on the **Build** menu.
 
     3. Press F5. Wait until the experimental instance of Visual Studio appears.
 
-4. In the Debugging solution in the experimental instance of Visual Studio, open a test model file. Drag elements onto it from the toolbox. Notice that the tool captions and the type names in DSL Explorer have changed.
+4. In the Debugging solution in the experimental instance of Visual Studio, open a **Test.ftree** model file. Drag elements onto it from the toolbox. Notice that the tool captions and the type names in Toobox have changed.
 
 5. Save the model file.
 
-6. Open a .tt file and replace occurrences of the old type and property names with the new names.
+6. In Solution Explorer open a .tt file (FamilyTreeReport.tt) and replace occurrences of the old type and property names with the new names.
 
 7. Make sure that the file name that is specified in the .tt file specifies your test model.
 
-8. Save the .tt file. Open the generated file to see the result of running the code in the .tt file. Verify that it is correct.
+```T4
+<#@ template inherits="Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation" #>
+<#@ output extension=".txt" #>
+<#@ FamilyTree processor="FamilyTreeDirectiveProcessor" requires="fileName='Test.ftree'" #>
+
+Generated material. Generating code in C#.
+
+<#
+  // When you change the DSL Definition, some of the code below may not work.
+
+  foreach (Person person in this.FamilyTreeModel.People)
+  {
+#>
+	<#= person.Name #>
+<#    
+  }
+#>
+```
+
+8. Save the .tt file. Click **OK** in Security Warning dialog box. Open the generated file to see the result of running the code in the .tt file. Verify that it is correct.
+
+Close the experimental instance of Visual Studio.
 
 ### Add Domain Properties to Classes
  Add properties to a domain class, for example to represent the years of birth and death of a Person.
 
  To make the new properties visible on the diagram, you must add *decorators* to the shape that displays the model element. You must also map the properties to the decorators.
-
 ##### To add properties and display them
 
 1. Add the properties.
 
    1. In the DSL Definition diagram, right-click the **Person** domain class, point to **Add**, and then click **Domain Property**.
 
-   2. Type a list of new property names, such as **Birth** and **Death**. Press **Enter** after each one.
+   2. Type a list of new property names, such as **BirthYear** and **DeathYear**. Press **Enter** after each one. Select each new domain property, and in the Properties window, set the Type field to **Int32**.
 
 2. Add decorators that will display the properties in the shape.
 
-   1. Follow the gray line that extends from the Person domain class to the other side of the diagram. This is a diagram element map. It links the domain class to a shape class.
+   1. Follow the gray line that extends from the Person domain class to the other side of the diagram. This is a diagram element map. It links the domain class to a shape class. Rename the **ExampleShape** to **PersonShape** and change the field **Geometry** to **RoundedRectangle** in the Properties. 
 
    2. Right-click this shape class, point to **Add**, and then click **Text Decorator**.
 
-   3. Add two decorators with names such as **BirthDecorator** and **DeathDecorator**.
+   3. Add two decorators with names such as **BirthDecorator** and **DeathDecorator**. Add one more text decorator with name **Dash** and set the **Default Text** property to **--** value (two dashes).
 
-   4. Select each new decorator, and in the Properties window, set the **Position** field. This determines where the domain property value will be displayed on the shape. For example, set **InnerBottomLeft** and **InnerBottomRight**.
+   4. Select each new decorator, and in the Properties window, set the **Position** field. This determines where the domain property value will be displayed on the shape. For example, set **InnerBottomLeft** and **InnerBottomRight** for BirthDecorator and DeathDecorator respectively. For **Dash** set the Position property to **InnerBottomCenter**.
 
         ![Compartment shape definition](../modeling/media/familyt_compartment.png)
 
@@ -272,15 +293,46 @@ Rename the existing domain classes and relationships. For example, starting from
 
    2. On the DSL definition diagram, click the line that connects the **Person** domain class to the shape class.
 
-   3. In **DSL Details**, on the **Decorator Maps** tab, click the check box on an unmapped decorator. In **Display Property**, select the domain property to which you want it mapped. For example, map **BirthDecorator** to **Birth**.
+   3. In **DSL Details**, on the **Decorator Maps** tab, click the check box on an unmapped decorator. In **Display property**, select the domain property to which you want it mapped. For example, map **BirthDecorator** to **BirthYear**. Map the **DeathYear** domain properity to their text decorator too.
 
-4. Save the DSL, click Transform All Templates, and press F5.
+![Mapping domain property to text decorator](../modeling/media/familyt_map_prop_decor.png)
 
-5. In a sample model diagram, verify that you can now click the positions you chose and type values into them. In addition, when you select a **Person** shape, the Properties window displays the new properties Birth and Death.
+4. Save the DSL, click **Transform All T4 Templates** on the **Build** menu, and press F5.
+
+5. Add new **FamilyTree** item with name **Tudors.ftree** in the **Debugging** project. In **Tudors.ftree** model diagram, add new **Persons**, **Child Links** and verify that you can now click the positions you chose and type values into them. In addition, when you select a **Person** shape, the Properties window displays the new properties **Birth Year** and **Death Year**.
+
+![Tudors](../modeling/media/familyt_tudors.png)
 
 6. In a .tt file, you can add code that obtains the properties of each person.
+**FamilyTreeReport.tt**:
+```T4
+<#@ template inherits="Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation" #>
+<#@ output extension=".txt" #>
+<#@ FamilyTree processor="FamilyTreeDirectiveProcessor" requires="fileName='Tudors.ftree'" #>
 
-   ![Family tree diagram, toolbox, and explorer](../modeling/media/familyt_instance.png)
+Generated material.
+
+<#
+  // When you change the DSL Definition, some of the code below may not work.
+
+  foreach (Person person in this.FamilyTreeModel.People)
+  {
+#>
+	<#= person.Name #> (<#= person.BirthYear #> - <#= person.DeathYear #>)
+<#    
+  }
+#>
+```
+Generated **FamilyTreeReport.txt**:
+```Text
+
+Generated material.
+
+	Henry VIII (1491 - 1547)
+	Mary I (1516 - 1558)
+	Elizabeth I (1533 - 1603)
+
+```
 
 ### Define New Classes
  You can add domain classes and relationships to a model. For example, you could create a new class to represent towns, and a new relationship to represent that a person lived in a town.
@@ -291,7 +343,7 @@ Rename the existing domain classes and relationships. For example, starting from
 
 1. Add a domain class and make it a child of the model root.
 
-    1. In the DSL Definition diagram, click the **Embedding Relationship** tool, click the root class **FamilyTreeModel**, and then click in an empty part of the diagram.
+    1. Open the DSL Definition diagram (DslDefinition.dsl). In the Toolbox, click the **Embedding Relationship** tool, click the root class **FamilyTreeModel** in the DSL Definition diagram, and then click in an empty part of the diagram.
 
          A new domain class appears, that is connected to the FamilyTreeModel with an embedding relationship.
 
@@ -304,20 +356,22 @@ Rename the existing domain classes and relationships. For example, starting from
 
 2. Add a reference relationship between Person and Town.
 
-    1. Click the **Reference Relationship** tool, click Person and then click Town.
+    1. Click the **Reference Relationship** tool, click Town and then click Person.
+    2. Rename **TownReferencesPersons** relationship to **Residence**.
+    3. Rename **Persons** on the left of Residence to **Residents**, and **Towns** to **Residences** on the ritght.
 
-         ![DSL definition fragment: family tree root](../modeling/media/familyt_root.png)
+         ![DSL definition fragment: family tree root](../modeling/media/familyt_towns.png)
 
         > [!NOTE]
         > Reference relationships represent cross-references from one part of the model tree to another.
 
 3. Add a shape to represent towns on the model diagrams.
 
-    1. Drag a **Geometry Shape** from the toolbox to the diagram and rename it, for example **TownShape**.
+    1. Drag a **Geometry Shape** from the Toolbox to the diagram and rename it, for example **TownShape**.
 
     2. In the Properties window, set the Appearance fields of the new shape, such as Fill Color and Geometry.
 
-    3. Add a Decorator to display the name of the town, and rename it NameDecorator. Set its Position property.
+    3. Add a Text Decorator to display the name of the town, and rename it NameDecorator. Set its Position property.
 
 4. Map the Town domain class to the TownShape.
 
@@ -331,7 +385,7 @@ Rename the existing domain classes and relationships. For example, starting from
 
     2. Use the **Diagram Element Map** tool to link the new connector to the relationship between Person and Town.
 
-         ![Family Tree definition with added shape map](../modeling/media/familyt_shapemap.png)
+         ![Family Tree definition with added shape map](../modeling/media/familyt_town_shape_map.png)    
 
 6. Create an element tool for making a new Town.
 
@@ -341,48 +395,64 @@ Rename the existing domain classes and relationships. For example, starting from
 
     3. Set the **Name** property of the new tool, and set its **Class** property to Town.
 
-    4. Set the **Toolbox Icon** property. Click **[...]** and in the **File name** field, select an icon file.
+    4. Set the **Toolbox Icon** property. Click **[...]** and in the **File name** field, select an icon file "Resources\ExampleShapeToolBitmap.bmp".
 
 7. Create a connector tool for making a link between towns and people.
 
-    1. Right-click *\<your DSL>* and then click **Add New Connector Tool**.
+    1. Right-click *\<your DSL>* and then click **Add New Connection Tool**.
 
     2. Set the Name property of the new tool.
 
-    3. In the **ConnectionBuilder** property, select the builder that contains the name of the Person-Town relationship.
+    3. In the **ConnectionBuilder** property, select the ResidenceBuilder.
 
-    4. Set the **Toolbox Icon**.
+    4. Set the **Toolbox Icon** (file "Resources\ExampleConnectorToolBitmap.bmp").
 
-8. Save the DSL Definition, click **Transform All Templates**, and then press **F5**.
+8. Save the DSL Definition, click **Transform All T4 Templates**, and then press **F5**.
 
-9. In the experimental instance of Visual Studio, open a test model file. Use the new tools to create towns and links between towns and persons. Notice that you can only create links between the correct types of element.
+9. In the experimental instance of Visual Studio, open a Tudors.ftree model file. Use the new tools to create towns and links between towns and persons. Notice that you can only create links between the correct types of element.
 
-10. Create code that lists the town in which each person lives. Text templates are one of the places where you can run such code. For example, you could modify the existing Sample.tt file in the Debugging solution so that it contains the following code:
+10. Create code that lists the town in which each person lives. Text templates are one of the places where you can run such code. For example, you could modify the existing FamilyTreeReport.tt file in the Debugging solution so that it contains the following code:
 
-    ```
-    <#@ template inherits="Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation" debug="true" #>
-    <#@ output extension=".txt" #>
-    <#@ FamilyTree processor="FamilyTreeDirectiveProcessor" requires="fileName='Sample.ftree'" #>
+```
+<#@ template inherits="Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation" #>
+<#@ output extension=".txt" #>
+<#@ FamilyTree processor="FamilyTreeDirectiveProcessor" requires="fileName='Tudors.ftree'" #>
 
-    <#
-      foreach (Person person in this.FamilyTreeModel.People)
-      {
-    #>
-        <#= person.Name #><#if (person.Town != null) {#> of <#= person.Town.Name #> <#}#>
 
-    <#
-          foreach (Person child in person.Children)
-      {
-    #>
-                <#= child.Name #>
-    <#
-      }
-      }
-    #>
+<#
+foreach (Person person in this.FamilyTreeModel.People)
+{
+#>
+<#= person.Name #> (<#= person.BirthYear #> - <#= person.DeathYear #>) 
+<#if (person.Residences != null) #> Residences:<#
+foreach(Town town in person.Residences) {#><#= town.Name #>,<#}
+#>
+<#if (person.Children.Count > 0)
+{#>
 
-    ```
+ Children:
+<#
+foreach(Person child in person.Children)
+{
+#>
+	<#= child.Name #>
+<#
+}
+}
+#>
 
-     When you save the *.tt file, it will create a subsidiary file that contains the list of people and their residences. For more information, see [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md).
+<#
+}
+#>
+  
+```
+
+You can get Class Diagram to understand class structure and use it in the *.tt files. Right click the **DomainClasses.cs** (the subsidiary file of **DomainClasses.tt**) and then click the **View Class Diagram** command.
+
+![Domain Class Diagram](../modeling/media/familyt_class_diagr.png)
+
+
+When you save the *.tt file, it will create a subsidiary file that contains the list of people and their residences. For more information, see [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md).
 
 ## Validation and Commands
  You could develop this DSL further by adding validation constraints. These constraints are methods that you can define, that make sure that the model is in a correct state. For example, you could define a constraint to make sure that the birth date of a child is later than that of its parents. The validation feature displays a warning if the DSL user tries to save a model that breaks any of the constraints. For more information, see [Validation in a Domain-Specific Language](../modeling/validation-in-a-domain-specific-language.md).

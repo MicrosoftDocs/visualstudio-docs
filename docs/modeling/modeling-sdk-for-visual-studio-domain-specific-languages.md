@@ -14,11 +14,11 @@ ms.subservice: modeling
 ---
 # Modeling SDK for Visual Studio - Domain-Specific Languages
 
-By using the Modeling SDK for Visual Studio, you can create powerful model-based development tools that you can integrate into Visual Studio. In the same manner, you can create one or more model definitions and integrate them into a set of tools.
+By using the Modeling SDK for Visual Studio (VMSDK), you can create powerful model-based development tools that you can integrate into Visual Studio. In the same manner, you can create one or more model definitions and integrate them into a set of tools.
 
-At the heart of MSDK is the definition of a model that you create to represent concepts in your business area. You can surround the model with a variety of tools, such as a diagrammatic view, the ability to generate code and other artifacts, commands for transforming the model, and the ability to interact with code and other objects in Visual Studio. As you develop the model, you can combine it with other models and tools to form a powerful toolset that is centered on your development.
+At the heart of VMSDK is the definition of a model that you create to represent concepts in your business area. You can surround the model with a variety of tools, such as a diagrammatic view, the ability to generate code and other artifacts, commands for transforming the model, and the ability to interact with code and other objects in Visual Studio. As you develop the model, you can combine it with other models and tools to form a powerful toolset that is centered on your development.
 
-MSDK lets you develop a model quickly in the form of a domain-specific language (DSL). You begin by using a specialized editor to define a schema or abstract syntax together with a graphical notation. From this definition, VMSDK generates:
+VMSDK lets you develop a model quickly in the form of a domain-specific language (DSL). You begin by using a specialized editor to define a schema or abstract syntax together with a graphical notation. From this definition, VMSDK generates:
 
 - A model implementation with a strongly-typed API that runs in a transaction-based store.
 
