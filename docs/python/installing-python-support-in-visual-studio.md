@@ -5,7 +5,7 @@ author: cwebster-99
 ms.author: cowebster
 ms.subservice: python
 ms.topic: how-to
-ms.date: 07/28/2025
+ms.date: 11/12/2025
 manager: mijacobs
 
 # CustomerIntent: As a developer, I want to install Python support in Visual Studio so that I can access Python features in the product.
@@ -81,7 +81,7 @@ Quickly check your installation of Python support:
 
    ::: moniker-end
 
-   ::: moniker range=">=vs-2022"
+   ::: moniker range="vs-2022"
 
    :::image type="content" source="media/vs-2022/python-interactive.png" alt-text="Screenshot that shows a test of Python support through the Visual Studio 2022 interactive window." lightbox="media/vs-2022/python-interactive.png":::
 
