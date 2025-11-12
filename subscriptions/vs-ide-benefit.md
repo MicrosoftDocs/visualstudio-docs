@@ -79,7 +79,7 @@ Visual Studio Installer Opens. You can also install any product that's listed on
 
 14. Select the installation location (optional). You can reduce the installation footprint of Visual Studio on your system drive. For more information, see [Select installation locations](https://learn.microsoft.com/visualstudio/install/change-installation-locations?view=visualstudio).
 
-    [![Screenshot showing the "Installaiton locations" tab for Visual Studio Enterprise 2026.](_img/vs-ide-experience/visual-studio-ide-installation-location.png "Screenshot showing the installation locations for Visual Studio Enteprise 2026.")](_img/vs-ide-experience/visual-studio-ide-installation-location.png#lightbox)
+    [![Screenshot showing the "Installation locations" tab for Visual Studio Enterprise 2026.](_img/vs-ide-experience/visual-studio-ide-installation-location.png "Screenshot showing the installation locations for Visual Studio Enterprise 2026.")](_img/vs-ide-experience/visual-studio-ide-installation-location.png#lightbox)
 
 > [!IMPORTANT]
 > A different drive for the **Visual Studio IDE** or the **Download cache** can be chosen only when initially installing Visual Studio. If changing drives are necessary, Visual Studio must be uninstalled and reinstalled.
