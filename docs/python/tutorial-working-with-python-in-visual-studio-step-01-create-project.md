@@ -45,7 +45,7 @@ This tutorial begins by creating a simple project that contains a single, empty 
 
 1. To view Python templates, search for *python*. Search is a great way to find a template when you can't remember its location in the languages tree.
 
-   :::image type="content" source="media/visualstudio/tutor-python-1-create-project.png" alt-text="Screenshot showing the Create a new project dialog in Visual Studio. Python project templates are visible." lightbox=media/visualstudio/tutor-python-1-create-project.png:::
+   :::image type="content" source="media/visualstudio/tutor-python-1-create-project.png" alt-text="Screenshot showing the Create a new project dialog in Visual Studio. Python project templates are visible." lightbox="media/visualstudio/tutor-python-1-create-project.png":::
 
    Python web support in Visual Studio includes several project templates, such as web applications in the Bottle, Flask, and Django frameworks. When you install Python with the Visual Studio Installer, select **Python Web Support** under **Optional** to install these templates. For this tutorial, start with an empty project.
 
