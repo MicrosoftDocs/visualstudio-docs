@@ -77,7 +77,7 @@ Quickly check your installation of Python support:
 
    The statement output `4` displays in the window. If you don't see the correct output, recheck your steps.
 
-   :::image type="content" source="media/installation-interactive-test.png" alt-text="Screenshot that shows how to test Python support by using the interactive window." lightbox="media/installation-interactive-test.png"::: 
+   :::image type="content" source="media/visualstudio/installation-interactive-test.png" alt-text="Screenshot that shows how to test Python support by using the interactive window." lightbox="media/visualstudio/installation-interactive-test.png"::: 
      
 :::moniker-end
 
