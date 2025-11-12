@@ -67,6 +67,22 @@ Complete the following steps to download and install the Python workload.
 
 Quickly check your installation of Python support:
 
+:::moniker range="visualstudio"
+
+1. Start Visual Studio.
+
+1. Select **Tools** > **Python** > **Python Interactive Window**. 
+
+1. In the window, enter the statement `2+2`.
+
+   The statement output `4` displays in the window. If you don't see the correct output, recheck your steps.
+
+   :::image type="content" source="media/installation-interactive-test.png" alt-text="Screenshot that shows how to test Python support by using the interactive window." lightbox="media/installation-interactive-test.png"::: 
+     
+:::moniker-end
+
+ ::: moniker range="<=vs-2019"
+
 1. Launch Visual Studio.
 
 1. Select Alt + I to open the **Python Interactive** window.
@@ -75,17 +91,23 @@ Quickly check your installation of Python support:
 
    The statement output `4` displays in the window. If you don't see the correct output, recheck your steps.
 
-   ::: moniker range="<=vs-2019"
+   :::image type="content" source="media/vs-2019/installation-interactive-test.png" alt-text="Screenshot that shows a test of Python support through the interactive window." lightbox="media/vs-2019/installation-interactive-test.png":::
 
-   :::image type="content" source="media/installation-interactive-test.png" alt-text="Screenshot that shows a test of Python support through the interactive window." lightbox="media/installation-interactive-test.png":::
+::: moniker-end
 
-   ::: moniker-end
+::: moniker range="vs-2022"
 
-   ::: moniker range="vs-2022"
+ Launch Visual Studio.
+
+1. Select Alt + I to open the **Python Interactive** window.
+
+1. In the window, enter the statement `2+2`.
+
+   The statement output `4` displays in the window. If you don't see the correct output, recheck your steps.
 
    :::image type="content" source="media/vs-2022/python-interactive.png" alt-text="Screenshot that shows a test of Python support through the Visual Studio 2022 interactive window." lightbox="media/vs-2022/python-interactive.png":::
 
-   ::: moniker-end
+::: moniker-end
 
 ## Related content
 
