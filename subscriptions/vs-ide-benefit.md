@@ -3,7 +3,7 @@ title: Visual Studio IDE in Visual Studio subscriptions
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 11/11/2025
+ms.date: 11/12/2025
 ms.topic: how-to
 description: In this article, you learn how to download and install the Visual Studio IDE included in your Visual Studio subscription.
 ---
@@ -56,7 +56,7 @@ Visual Studio Installer Opens. You can also install any product that's listed on
 
 9. When the installer starts, select the **Workloads** tabs to choose your customization options.
 
-   [![Screenshot showing the available customization options on the "Workloads" tab for Visual Studio Enterprise.](_img/vs-ide-experience/visual-studio-ide-customize-install-cropped-revised.png "Screenshot showing the available customization options on the Workloads tab for Visual Studio Enterprise.")](_img/vs-ide-experience/visual-studio-ide-customize-install-cropped-revised.png)
+   [![Screenshot showing the available customization options on the "Workloads" tab for Visual Studio Enterprise.](_img/vs-ide-experience/visual-studio-ide-customize-install-cropped-revised.png "Screenshot showing the available customization options on the Workloads tab for Visual Studio Enterprise.")](_img/vs-ide-experience/visual-studio-ide-customize-install-cropped-revised.png#lightbox)
 
 1. Select **Install**. 
 
@@ -67,11 +67,11 @@ Visual Studio Installer Opens. You can also install any product that's listed on
 
 12. Choose individual components (optional). If you don't want to use the Workloads feature to customize the Visual Studio installation, or to add more components than a workload install, individual components from the **Individual components** tab can be installed by following the prompts.
  
-    [![Screenshot showing the "Individual components" tab for Visual Studio Enterprise 2026.](_img/vs-ide-experience/visual-studio-ide-individual-components.png "Screenshot showing individual components available for Visual Studio Enterprise 2026.")](_img/vs-ide-experience/visual-studio-ide-individual-components.png)
+    [![Screenshot showing the "Individual components" tab for Visual Studio Enterprise 2026.](_img/vs-ide-experience/visual-studio-ide-individual-components.png "Screenshot showing individual components available for Visual Studio Enterprise 2026.")](_img/vs-ide-experience/visual-studio-ide-individual-components.png#lightbox)
 
 1. By default, the installer program tries to match the language of the operating system when it runs for the first time. To install Visual Studio in a chosen language, go to the **Language packs** tab from the Visual Studio Installer, and then follow the prompts. This step is optional. 
  
-    [![Screenshot showing the "Language packs" tab for Visual Studio Enterprise 2026.](_img/vs-ide-experience/visual-studio-ide-language-pack.png "Screenshot showing the languages avaiable in Visual Studio Enterprise 2026 installer.")](_img/vs-ide-experience/visual-studio-ide-language-pack.png)
+    [![Screenshot showing the "Language packs" tab for Visual Studio Enterprise 2026.](_img/vs-ide-experience/visual-studio-ide-language-pack.png "Screenshot showing the languages available in Visual Studio Enterprise 2026 installer.")](_img/vs-ide-experience/visual-studio-ide-language-pack.png#lightbox)
 
     The default language can be changed by running the installer at a command prompt. For example, you can force the installer to run in English by using the following command:
 
@@ -79,7 +79,7 @@ Visual Studio Installer Opens. You can also install any product that's listed on
 
 14. Select the installation location (optional). You can reduce the installation footprint of Visual Studio on your system drive. For more information, see [Select installation locations](https://learn.microsoft.com/visualstudio/install/change-installation-locations?view=visualstudio).
 
-    [![Screenshot showing the "Installaiton locations" tab for Visual Studio Enterprise 2026.](_img/vs-ide-experience/visual-studio-ide-installation-location.png "Screenshot showing the installation locations for Visual Studio Enteprise 2026.")](_img/vs-ide-experience/visual-studio-ide-installation-location.png)
+    [![Screenshot showing the "Installaiton locations" tab for Visual Studio Enterprise 2026.](_img/vs-ide-experience/visual-studio-ide-installation-location.png "Screenshot showing the installation locations for Visual Studio Enteprise 2026.")](_img/vs-ide-experience/visual-studio-ide-installation-location.png#lightbox)
 
 > [!IMPORTANT]
 > A different drive for the **Visual Studio IDE** or the **Download cache** can be chosen only when initially installing Visual Studio. If changing drives are necessary, Visual Studio must be uninstalled and reinstalled.
