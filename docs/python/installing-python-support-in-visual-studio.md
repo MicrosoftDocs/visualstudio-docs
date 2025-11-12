@@ -8,7 +8,7 @@ ms.topic: how-to
 ms.date: 11/12/2025
 manager: mijacobs
 
-# CustomerIntent: As a developer, I want to install Python support in Visual St udio so that I can access Python features in the product.
+# CustomerIntent: As a developer, I want to install Python support in Visual Studio so that I can access Python features in the product.
 
 ---
 
