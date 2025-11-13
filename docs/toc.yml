@@ -36,6 +36,8 @@
     href: install/import-export-installation-configurations.md
   - name: Troubleshoot installation issues
     href: /troubleshoot/developer/visualstudio/installation/troubleshoot-installation-issues?toc=%2Fvisualstudio%2Ftoc.json
+  - name: Setup Assistant
+    href: install/setup-assistant.md
   - name: Update Visual Studio
     href: install/update-visual-studio.md
   - name: Modify Visual Studio

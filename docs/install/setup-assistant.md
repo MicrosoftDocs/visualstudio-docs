@@ -21,10 +21,10 @@ Visual Studio supports multiple toolsets and SDKs. When a project is loaded, Set
 
 Setup Assistant identifies MSVC toolsets and Windows SDKs your project targets. You can retarget your project to the latest version or install any missing components with a single click directly in the Visual Studio Installer. 
 
-:::image type="content" source="./media/visualstudio/cpp-setup-assistant.png" alt-text="Screenshot of the C++ Setup Assistant.":::
+:::image type="content" source="./media/visualstudio/cpp-setup-assistant.png" alt-text="Screenshot of the C++ Setup Assistant." lightbox="./media/visualstudio/cpp-setup-assistant.png":::
 
 ## .NET developers
 
 If your project uses a pinned *global.json* file, Setup Assistant provides a link matching the pinned .NET SDK, for quick installation in your browser. 
 
-:::image type="content" source="./media/visualstudio/net-setup-assistant.png" alt-text="Screenshot of the C# Setup Assistant.":::
+:::image type="content" source="./media/visualstudio/net-setup-assistant.png" alt-text="Screenshot of the C# Setup Assistant." lightbox=""./media/visualstudio/net-setup-assistant.png":::
