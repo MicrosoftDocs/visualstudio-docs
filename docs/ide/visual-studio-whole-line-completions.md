@@ -22,7 +22,7 @@ To turn text predictions off, disable the IntelliCode extension. Select **Extens
 
 :::moniker range=">=vs-2022"
 
-For the most advanced code completion functionality, try GitHub Copilot's code completion functionality. See [GitHub Copilot completions](visual-studio-github-copilot-extension.md).
+For the most advanced code completion functionality, try [GitHub Copilot completions](visual-studio-github-copilot-extension.md).
 
 :::moniker-end
 
