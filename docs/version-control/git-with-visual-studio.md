@@ -91,7 +91,7 @@ To personalize your Git settings at a repository level as well as at a global le
     
 :::moniker-end
 
-:::moniker range="<=vs-2022"
+:::moniker range="vs-2022"
 
 To personalize your Git settings at a repository level as well as at a global level:
 1. Go to either **Git** > **Settings** on the menu bar or **Tools** > **Options** > **Source Control** > **Git Global Settings**.
