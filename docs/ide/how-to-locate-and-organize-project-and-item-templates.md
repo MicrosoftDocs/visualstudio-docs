@@ -1,7 +1,7 @@
 ---
 title: Locate and organize project templates
 description: Locate and organize project and item templates in Visual Studio, including installed templates and user templates (.vstemplate files).
-ms.date: 08/21/2024
+ms.date: 11/13/2025
 ms.topic: concept-article
 helpviewer_keywords:
 - project templates [Visual Studio], locations
@@ -80,7 +80,16 @@ For example, the following directory has user project templates for C#:
 
 ### Change location for user templates
 
-You can change the location for user templates in Visual Studio with the **Tools** > **Options** dialog. The location settings are on the **Projects and Solutions** > **Locations** page.
+:::moniker range="visualstudio"
+
+You can change the location for user templates in Visual Studio from the **Tools** > **Options** pane. The location settings are under the **All Settings** > **Projects and Solutions** > **Locations** section.
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+You can change the location for user templates in Visual Studio from the **Tools** > **Options** dialog. The location settings are under the **Projects and Solutions** > **Locations** section.
+
+:::moniker-end
 
 ## Related content
 
