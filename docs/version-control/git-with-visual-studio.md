@@ -58,7 +58,7 @@ To help you focus on your Git repository, Visual Studio has a **Git Repository**
 
 ::: moniker range="visualstudio"
 
-:::image type="content" source="media/visualstudio/git-source-control-repository-management.png" alt-text="The Visual Studio IDE. The Create a new branch window and the Git Changes tab in Solution Explorer are shown.":::
+:::image type="content" source="media/visualstudio/git-source-control-repository-management.png" alt-text="The Visual Studio IDE. The Create a new branch window and the Git Changes tab in Solution Explorer are shown." lighbox="media/visualstudio/git-source-control-repository-management.png":::
  
 ::: moniker-end
 
