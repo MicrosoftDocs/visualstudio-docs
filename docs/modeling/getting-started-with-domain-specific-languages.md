@@ -23,7 +23,7 @@ A domain-specific language is a notation, usually graphical, that is designed to
 
 When you have designed a DSL, you can distribute it as part of a Visual Studio Integration Extension (VSIX) package. Users work with the DSL in Visual Studio:
 
-![Family tree diagram, toolbox, and explorer](../modeling/media/ )
+![Family tree diagram, toolbox, and explorer](../modeling/media/tudors-family-tree.png)
 
 The notation is only part of a DSL. Together with the notation, your VSIX package includes tools that users can apply to help them edit and generate material from their models.
 
@@ -55,16 +55,16 @@ To create a new domain-specific language, you create a new Visual Studio solutio
 
      - Click **Domain-Specific Language Designer**, and then click **Next**.
 
-   ![Create a new DSL project](../modeling/media/create_new_dsl_project.png)
+   ![Create a new DSL project](../modeling/media/create-new-dsl-project.png)
 
 3. **Configure your new project**.
 
-     ![Configure your new project](../modeling/media/create_your_new_project.png)
+     ![Configure your new project](../modeling/media/create-your-new-project.png)
 
      - In the **Project name** box, type **FamilyTree**. Click **Create**.
 5. The **Domain-Specific Language Designer Wizard** opens, and displays a list of template DSL solutions.
 
-     ![Minimal Language template](../modeling/media/minimal_language_project_template.png)
+     ![Minimal Language template](../modeling/media/minimal-language-project-template.png)
 
      - Click each template to see a description,
 
@@ -73,7 +73,7 @@ To create a new domain-specific language, you create a new Visual Studio solutio
      - For this walkthrough, choose the **Minimal Language** template. Click **Next**.
 6. **Define New Model File Type**
 
-     ![Define new model file type](../modeling/media/define_new_model_file_type.png)
+     ![Define new model file type](../modeling/media/define-new-model-file-type.png)
 
      - Enter a file name extension **ftree** for your DSL in the field **What extension should model files use?**. This is the extension that files containing instances of your DSL will use.
      > [!IMPORTANT]
@@ -82,7 +82,7 @@ To create a new domain-specific language, you create a new Visual Studio solutio
 
 7. Inspect the other pages (click **Next**) and then click **Finish**.
 
-   ![DSL Solution Summary](../modeling/media/dsl_solution_summary.png)
+   ![DSL Solution Summary](../modeling/media/dsl-solution-summary.png)
 
     A solution is generated that contains two projects. They are named **Dsl** and **DslPackage**. A diagram file opens that is named **DslDefinition.dsl**.
 
@@ -142,7 +142,7 @@ You can run the DSL solution as soon as you have created it. Later, you can modi
 
 Your experimental Visual Studio will resemble the following example:
 
-![Domain specific language sample tree in Visual Studio](../modeling/media/family_tree_model_sample.png)
+![Domain specific language sample tree in Visual Studio](../modeling/media/family-tree-model-sample.png)
 
 ### The Content of a Model
 
@@ -206,7 +206,7 @@ Rename the existing domain classes and relationships. For example, starting from
 
 1. In the DslDefinition diagram, rename **ExampleModel** to **FamilyTreeModel**, **ExampleElement** to **Person**, **Targets** to **Children** (and Name to **Parent** ), **Sources** to **Parents** (and Name to **Child**), **Elements** to **People**, and the DomainRelationship **PersonReferencesChildren** to **ParentsHaveChildren**. Also rename the diagram element **ExampleConnector** to **ChildConnector**. You can click each label to change it. 
 
-     ![DSL Definition diagram &#45; family tree model](../modeling/media/family_definition_diagram.png)
+     ![DSL Definition diagram &#45; family tree model](../modeling/media/family-definition-diagram.png)
 
 2. Rename the element and connector tools.
 
@@ -295,7 +295,7 @@ Close the experimental instance of Visual Studio.
 
    3. In **DSL Details**, on the **Decorator Maps** tab, click the check box on an unmapped decorator. In **Display property**, select the domain property to which you want it mapped. For example, map **BirthDecorator** to **BirthYear**. Map the **DeathYear** domain properity to their text decorator too.
 
-![Mapping domain property to text decorator](../modeling/media/family_map_property_decorator.png)
+![Mapping domain property to text decorator](../modeling/media/family-map-property-decorator.png)
 
 4. Save the DSL, click **Transform All T4 Templates** on the **Build** menu, and press F5.
 
@@ -360,7 +360,7 @@ Generated material.
     2. Rename **TownReferencesPersons** relationship to **Residence**.
     3. Rename **Persons** on the left of Residence to **Residents**, and **Towns** to **Residences** on the ritght.
 
-         ![DSL definition fragment: family tree root](../modeling/media/family_tree_towns.png)
+         ![DSL definition fragment: family tree root](../modeling/media/family-tree-towns.png)
 
         > [!NOTE]
         > Reference relationships represent cross-references from one part of the model tree to another.
@@ -385,7 +385,7 @@ Generated material.
 
     2. Use the **Diagram Element Map** tool to link the new connector to the relationship between Person and Town.
 
-         ![Family Tree definition with added shape map](../modeling/media/family_town_shape_map.png)    
+         ![Family Tree definition with added shape map](../modeling/media/family-town-shape-map.png)
 
 6. Create an element tool for making a new Town.
 
@@ -449,7 +449,7 @@ foreach(Person child in person.Children)
 
 You can get Class Diagram to understand class structure and use it in the *.tt files. Right click the **DomainClasses.cs** (the subsidiary file of **DomainClasses.tt**) and then click the **View Class Diagram** command.
 
-![Domain Class Diagram](../modeling/media/family_class_diagram.png)
+![Domain Class Diagram](../modeling/media/family-class-diagram.png)
 
 
 When you save the *.tt file, it will create a subsidiary file that contains the list of people and their residences. For more information, see [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md).
