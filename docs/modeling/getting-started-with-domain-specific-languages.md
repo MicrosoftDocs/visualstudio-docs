@@ -55,7 +55,7 @@ To create a new domain-specific language, you create a new Visual Studio solutio
 
      - Click **Domain-Specific Language Designer**, and then click **Next**.
 
-   ![Create a new DSL project](../modeling/media/create-new-dsl-project.png)
+   ![Create a new DSL project](../modeling/media/create-new-domain-specific-language-project.png)
 
 3. **Configure your new project**.
 
@@ -82,7 +82,7 @@ To create a new domain-specific language, you create a new Visual Studio solutio
 
 7. Inspect the other pages (click **Next**) and then click **Finish**.
 
-   ![DSL Solution Summary](../modeling/media/dsl-solution-summary.png)
+   ![DSL Solution Summary](../modeling/media/domain-specific-language-solution-summary.png)
 
     A solution is generated that contains two projects. They are named **Dsl** and **DslPackage**. A diagram file opens that is named **DslDefinition.dsl**.
 
