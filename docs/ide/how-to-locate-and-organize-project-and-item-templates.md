@@ -33,7 +33,7 @@ By default, templates installed with Visual Studio are placed in the following l
 
 - *%ProgramFiles(x86)%\\Microsoft Visual Studio\\2019\\\<edition>\Common7\IDE\ItemTemplates\\<Language\>\\<Locale ID\>*
 
-For example, the following directory has the Visual Basic item templates for English (LCID 1033):
+For example, the following directory in a default installation of Visual Studio Community 2019 has the Visual Basic item templates for English (LCID 1033):
 
 *C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\ItemTemplates\\VisualBasic\\1033*
 
@@ -44,12 +44,22 @@ For example, the following directory has the Visual Basic item templates for Eng
 
 - *%ProgramFiles%\\Microsoft Visual Studio\\2022\\\<edition>\Common7\IDE\ItemTemplates\\<Language\>\\<Locale ID\>*
 
-For example, the following directory has the Visual Basic item templates for English (LCID 1033):
+For example, the following directory in a default installation of Visual Studio Community 2022 has the Visual Basic item templates for English (LCID 1033):
 
 *C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\ItemTemplates\\VisualBasic\\1033*
 
 ::: moniker-end
+::: moniker range="visualstudio"
 
+- *%ProgramFiles%\\Microsoft Visual Studio\\18\\\<edition>\\Common7\IDE\ProjectTemplates\\<Language\>\\<Locale ID\>*
+
+- *%ProgramFiles%\\Microsoft Visual Studio\\18\\\<edition>\Common7\IDE\ItemTemplates\\<Language\>\\<Locale ID\>*
+
+For example, the following directory in a default installation of Visual Studio Community has the Visual Basic item templates for English (LCID 1033):
+
+*C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\ItemTemplates\\VisualBasic\\1033*
+
+::: moniker-end
 ## Location for user templates
 
 When you add a compressed (`.zip`) file that includes a `.vstemplate` file to the user template directory, Visual Studio makes the template available in the **New project** and **New item** dialogs. By default, user templates are placed in the following locations:
@@ -75,6 +85,17 @@ For example, the following directory has user project templates for C#:
 For example, the following directory has user project templates for C#:
 
 - *C:\Users\UserName\Documents\Visual Studio 2022\Templates\ProjectTemplates\Visual C#*
+
+::: moniker-end
+::: moniker range="visualstudio"
+
+- *%USERPROFILE%\Documents\Visual Studio 18\Templates\ProjectTemplates*
+
+- *%USERPROFILE%\Documents\Visual Studio 18\Templates\ItemTemplates*
+
+For example, the following directory has user project templates for C#:
+
+- *C:\Users\UserName\Documents\Visual Studio 18\Templates\ProjectTemplates\Visual C#*
 
 ::: moniker-end
 
