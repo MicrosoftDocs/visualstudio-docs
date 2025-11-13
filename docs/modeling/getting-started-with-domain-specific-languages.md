@@ -15,7 +15,7 @@ This topic explains the basic concepts in defining and using a domain-specific l
 > [!NOTE]
 > The Text Template Transformation SDK and the Visual Studio Modeling SDK are installed automatically when you install specific features of Visual Studio. For more details, see [this blog post](https://devblogs.microsoft.com/devops/the-visual-studio-modeling-sdk-is-now-available-with-visual-studio-2017/).
 
-If you are new to DSLs, we recommend that you work through the **DSL Tools Lab**, which you can find in this [repository](https://github.com/lumon-Ind/VMSDK)
+If you are new to DSLs, we recommend that you work through the **VMSDK Lab**, which you can find in this [repository](https://github.com/lumon-Ind/VMSDK)
 
 ## What can you do with a Domain-Specific Language?
 
