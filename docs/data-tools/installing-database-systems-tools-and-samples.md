@@ -1,7 +1,7 @@
 ---
 title: Explore compatible database systems
 description: Explore compatible database systems for Visual Studio, including Microsoft SQL Server, Oracle, MySQL, PostgreSQL, SQLite, and Firebird.
-ms.date: 11/01/2023
+ms.date: 11/13/2025
 ms.topic: article
 helpviewer_keywords:
 - database systems
@@ -18,8 +18,6 @@ ms.subservice: data-tools
 To develop a data-connected application in Visual Studio, you typically install the database system on your local development machine, and then deploy the application and database to a production environment when they are ready. Visual Studio installs SQL Server Express LocalDB on your machine as part of the **Data storage and processing** workload. This LocalDB instance is useful for developing data-connected applications quickly and easily.
 
 For a database system to be accessible from .NET applications and to be visible in Visual Studio data tools windows, it must have an ADO.NET data provider. A provider must specifically support Entity Framework if you plan to use Entity data models in your .NET application. Many providers are offered through the NuGet Package Manager or through the Visual Studio Marketplace.
-
-If you are using Azure Storage APIs, install the Azure Storage emulators on your local machine during development in order to avoid charges until you are ready to deploy to production. For more information, see [Use the Azure Storage Emulator for development and testing](/azure/storage/common/storage-use-emulator).
 
 The following list includes some of the more popular database systems that can be used in Visual Studio projects. The list is not exhaustive. For a list of third-party vendors that offer ADO.NET data providers that enable deep integration with Visual Studio tooling, see [ADO.NET Data Providers](/dotnet/framework/data/adonet/data-providers).
 
