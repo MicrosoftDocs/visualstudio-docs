@@ -2,12 +2,12 @@
 title: Implementing a Port Supplier
 description: Learn about implementing a port supplier, which is necessary when debugging to a non-DCOM machine or when a new device requires support.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - debugging [Debugging SDK], implementing port suppliers
 - port suppliers, implementing
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---

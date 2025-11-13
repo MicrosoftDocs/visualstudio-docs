@@ -2,12 +2,13 @@
 title: Advanced Remote UI concepts
 description: A tutorial demonstrating more advanced Remote UI concepts
 ms.date: 3/31/2023
-ms.topic: conceptual
-ms.author: maiak
+ms.topic: tutorial
+ms.author: tinali
 monikerRange: ">=vs-2022"
-author: maiak
+author: tinaschrepfer
 manager: mijacobs
 ms.subservice: extensibility-integration
+ms.update-cycle: 365-days
 ---
 
 # Tutorial: Advanced remote UI
@@ -365,7 +366,7 @@ With the code above, the `Color` property value is converted to a `LinearGradien
 
 ## Remote UI and threads
 
-*Async command* callbacks (and `INotifyPropertyChanged` callbacks for values updated by the UI through data biding) are raised on random thread pool threads. Callbacks are raised one at a time and won't overlap until the code yields control (using an `await` expression).
+*Async command* callbacks (and `INotifyPropertyChanged` callbacks for values updated by the UI through data binding) are raised on random thread pool threads. Callbacks are raised one at a time and won't overlap until the code yields control (using an `await` expression).
 
 This behavior can be changed by passing a [NonConcurrentSynchronizationContext](/dotnet/api/microsoft.visualstudio.threading.nonconcurrentsynchronizationcontext) to the [`RemoteUserControl`](/dotnet/api/microsoft.visualstudio.extensibility.ui.remoteusercontrol) constructor. In that case, you can use the provided synchronization context for all *async command* and `INotifyPropertyChanged` callbacks related to that control.
 

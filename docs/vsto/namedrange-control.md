@@ -2,7 +2,7 @@
 title: "NamedRange control"
 description: Learn how the NamedRange control is a range that has a unique name, exposes events, and can be bound to data.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: article
 f1_keywords:
   - "VST.Toolbox.Range"
 dev_langs:

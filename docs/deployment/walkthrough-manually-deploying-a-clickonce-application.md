@@ -2,7 +2,7 @@
 title: "Manually deploy a ClickOnce app"
 description: Learn how to create a ClickOnce deployment by using either the command-line version or the graphical version of the Manifest Generation and Editing Tool.
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: install-set-up-deploy
 dev_langs:
   - "VB"
   - "CSharp"
@@ -31,7 +31,7 @@ If you cannot use Visual Studio to deploy your ClickOnce application, or you nee
 
 - Install `Mage.exe` and *MageUI.exe*.
 
-   `Mage.exe` and `MageUI.exe` are part of the Windows Software Development Kit (SDK). You must either have the Windows SDK installed or the version of the Windows SDK included with Visual Studio. For more information, see [Windows SDK](https://www.microsoft.com/download/details.aspx?id=8279) on MSDN.
+   `Mage.exe` and `MageUI.exe` are part of the Windows Software Development Kit (SDK). You must either have the Windows SDK installed or the version of the Windows SDK included with Visual Studio.
 
 - Provide an application to deploy.
 

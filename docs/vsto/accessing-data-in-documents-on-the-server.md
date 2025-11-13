@@ -2,7 +2,7 @@
 title: "Access data in documents on the server"
 description: Learn how you can program against the data in a document-level customization without having to use the object model of Microsoft Office Word or Microsoft Office Excel.
 ms.date: 02/02/2017
-ms.topic: conceptual
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"

@@ -1,7 +1,7 @@
 ---
 title: Install a Visualizer for use in debugging
 description: Install a newly created visualizer to make it available to use for debugging your projects and solution in Visual Studio.
-ms.date: 07/02/2021
+ms.date: 06/26/2025
 ms.topic: how-to
 dev_langs:
   - CSharp
@@ -20,7 +20,7 @@ ms.subservice: debug-diagnostics
 # Install a Visualizer
 
 > [!IMPORTANT]
-> Starting with Visual Studio 2022 version 17.9, visualizers can now be written in .NET 6.0+ that run out-of-process using the new VisualStudio.Extensibility model. We encourage visualizer authors to reference the new documentation at [Create Visual Studio debugger visualizers](../extensibility/visualstudio.extensibility/debugger-visualizer/debugger-visualizers.md) unless they want to support older versions of Visual Studio or want to ship their custom visualizers as part of a library DLL.
+> Starting with Visual Studio 2022 version 17.9, visualizers can now be written in .NET 6.0+ that run out-of-process using the new VisualStudio.Extensibility model. For extensions created using the new model, see the documentation at [Create Visual Studio debugger visualizers](../extensibility/visualstudio.extensibility/debugger-visualizer/debugger-visualizers.md) instead. If you need to support older versions of Visual Studio or want to ship your custom visualizers as part of a library DLL, then use the information in this article, which applies only to the older model of extension development (VSSDK).
 
 After you have created a visualizer, you must install the visualizer so that it will be available in Visual Studio. Installing a visualizer is a simple process.
 

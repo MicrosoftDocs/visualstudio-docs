@@ -2,7 +2,7 @@
 title: "Supported Code Changes (C# and Visual Basic)"
 description: Understand what code changes are supported when you're using the Edit and Continue feature while debugging a C# or Visual Basic project in Visual Studio.
 ms.date: "3/21/2025"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "CSharp"
   - "VB"
@@ -193,5 +193,5 @@ Edit and Continue isn't available in the following debugging scenarios:
 ## Related content
 
 - [Edit and Continue (Visual C#)](../debugger/edit-and-continue-visual-csharp.md)
-- [How to: Use Edit and Continue (C#)](../debugger/how-to-use-edit-and-continue-csharp.md)
+- [How to: Use Edit and Continue (C#)](/visualstudio/debugger/edit-and-continue-visual-csharp)
 - [Configure Edit and Continue](../debugger/how-to-enable-and-disable-edit-and-continue.md)

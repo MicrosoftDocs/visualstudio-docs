@@ -2,7 +2,7 @@
 title: Settings & options
 description: A recipe for how to handle custom settings and options.
 ms.date: 12/01/2021
-ms.topic: conceptual
+ms.topic: article
 author: madskristensen
 ms.author: madsk
 manager: pchapman

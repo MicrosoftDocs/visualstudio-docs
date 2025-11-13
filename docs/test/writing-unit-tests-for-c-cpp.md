@@ -2,9 +2,9 @@
 title: Write unit tests for C/C++
 description: Write and run C++ unit tests with the Test Explorer in Visual Studio by using CTest, Boost.Test, Google Test, and other testing frameworks.
 ms.date: 12/12/2024
-ms.topic: conceptual
+ms.topic: how-to
 ms.author: twhitney
-manager: markl
+manager: coxford
 author: tylermsft
 #customer intent: As a C/C++ developer, I want to learn how Visual Studio supports unit tests so that I can include them in my solutions.
 ---

@@ -7,8 +7,8 @@ helpviewer_keywords:
 - properties [Visual Studio SDK], exposing in Property Browser
 - properties [Visual Studio SDK]
 - Property Browser, exposing properties
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---
@@ -263,4 +263,4 @@ Visual Studio tool windows persist between Visual Studio sessions. For more info
 
 ## Related content
 
-- [Extend properties and the Property window](../extensibility/extending-properties-and-the-property-window.md)
+- [Extend properties and the Property window](/previous-versions/visualstudio/visual-studio-2017/extensibility/extending-properties-and-the-property-window)

@@ -3,14 +3,20 @@ title: Manage assembly and manifest signing
 description: Explore how to manage an assembly and the advantages of strong-name signing, which gives a software component a globally unique identity. 
 ms.date: 07/18/2024
 ms.subservice: deployment
-ms.topic: conceptual
+ms.topic: how-to
+f1_keywords:
+- vs.AddNewStrongNameKey
+- ResolveKeySource.KeyFileForSignAssemblyNotImported
+- vb.ProjectPropertiesSigning.ChangePasswordDialog
+- ResolveKeySource.KeyFileForManifestNotImported
+- vb.ProjectPropertiesSigning.PasswordNeededDialog
 helpviewer_keywords:
 - manifests [Visual Studio]
 - signing manifests [Visual Studio]
 - application manifests [Visual Studio]
 - assemblies [Visual Studio], signing
-author: ghogen
-ms.author: ghogen
+author: mikejo5000
+ms.author: mikejo
 manager: mijacobs
 ---
 # Manage assembly and manifest signing
@@ -73,9 +79,8 @@ You can also point to a key you have already created. For more information about
 
 If you only have access to a public key, you can use delay-signing to defer assigning the key. You enable delay signing by selecting the **Delay sign only** check box. A delay-signed project doesn't run, and you can't debug it. However, you can skip verification during development by using the [Sn.exe strong name tool](/dotnet/framework/tools/sn-exe-strong-name-tool) with the `-Vr` option.
 
-For information about signing manifests, see [How to: Sign application and deployment manifests](../ide/how-to-sign-application-and-deployment-manifests.md).
-
 ## Related content
 
 - [Strong-named assemblies](/dotnet/framework/app-domains/strong-named-assemblies)
 - [Strong-named assemblies (C++/CLI)](/cpp/dotnet/strong-name-assemblies-assembly-signing-cpp-cli)
+- [How to: Sign application and deployment manifests](../ide/how-to-sign-application-and-deployment-manifests.md)

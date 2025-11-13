@@ -1,8 +1,8 @@
 ---
 title: Debug dynamic-link library (DLL) files and projects
 description: Debug dynamic-link library (DLL) files in Visual Studio, and use Visual Studio to create, build, configure, and debug DLLs.
-ms.date: "04/18/2022"
-ms.topic: "conceptual"
+ms.date: "04/15/2025"
+ms.topic: how-to
 dev_langs:
   - "CSharp"
   - "VB"
@@ -26,13 +26,11 @@ A DLL (dynamic-link library) is a library that contains code and data that can b
 
 The following Visual Studio project templates can create DLLs:
 
-- C#, Visual Basic, or F# Class Library
-- C# or Visual Basic Windows Forms Control (WCF) Library
-- C++ Dynamic-Link Library (DLL)
+- Class Library (.NET, .NET Framework, and other app platforms)
+- Windows Forms Control Library (.NET and .NET Framework)
+- Dynamic-Link Library (DLL) (C++)
 
-For more information, see [MFC debugging techniques](../debugger/mfc-debugging-techniques.md).
-
-Debugging a WCF Library is similar to debugging a Class Library. For details, see [Windows Forms Controls](/dotnet/framework/winforms/controls/index).
+Debugging a Windows Forms Control Library is similar to debugging a Class Library. For more information, see [Windows Forms Controls](/dotnet/framework/winforms/controls/index).
 
 You usually call a DLL from another project. When you debug the calling project, depending on the DLL configuration, you can step into and debug the DLL code.
 
@@ -40,11 +38,11 @@ You usually call a DLL from another project. When you debug the calling project,
 
 When you use a Visual Studio project template to create an app, Visual Studio automatically creates required settings for Debug and Release build configurations. You can change these settings if necessary. For more information, see the following articles:
 
+- [How to: Set Debug and Release configurations](../debugger/how-to-set-debug-and-release-configurations.md)
 - [Project settings for a C++ debug configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md)
 - [Project settings for .NET C# debug configurations](../debugger/project-settings-for-csharp-debug-configurations-dotnetcore.md)
 - [Project settings for C# debug configurations](../debugger/project-settings-for-csharp-debug-configurations.md)
 - [Project settings for a Visual Basic debug configuration](../debugger/project-settings-for-a-visual-basic-debug-configuration.md)
-- [How to: Set Debug and Release configurations](../debugger/how-to-set-debug-and-release-configurations.md)
 
 ### Set C++ DebuggableAttribute
 
@@ -82,7 +80,7 @@ For more information on C++ project settings, see [Windows C++ property page ref
 
 ## <a name="vxtskdebuggingdllprojectsbuildingadebugversion"></a> Build a Debug version
 
-Make sure to build a Debug version of the DLL before you start debugging. To debug a DLL, a calling app must be able to find its [.pdb file](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md) and any other files the DLL requires.
+Make sure to build a Debug version of the DLL before you start debugging. To debug a DLL, a calling app must be able to find its [.pdb file](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md) and any other files the DLL requires. For more information, see [How to: Set Debug and Release configurations](../debugger/how-to-set-debug-and-release-configurations.md).
 
 You can create a custom build task to copy the DLL files to your *\<calling project folder>\Debug* output folder, or you can copy the files there manually.
 
@@ -90,11 +88,9 @@ Make sure to call the DLL in its correct location. This may seem obvious, but if
 
 ## <a name="vxtskdebuggingdllprojectswaystodebugthedll"></a> Debug a DLL
 
-You can't run a DLL directly. It must be called by an app, usually an *.exe* file. For more information, see [Visual Studio projects - C++](/cpp/ide/creating-and-managing-visual-cpp-projects).
+You can't run a DLL directly. It must be called by an app, usually an *.exe* file. 
 
 To debug a DLL, you can [start debugging from the calling app](#vxtskdebuggingdllprojectsthecallingapplication), or [debug from the DLL project](how-to-debug-from-a-dll-project.md) by specifying its calling app. You can also use the debugger [Immediate window](#vxtskdebuggingdllprojectstheimmediatewindow) to evaluate DLL functions or methods at design time, without using a calling app.
-
-For more information, see [First look at the debugger](../debugger/debugger-feature-tour.md).
 
 ### <a name="vxtskdebuggingdllprojectsthecallingapplication"></a> Start debugging from the calling app
 
@@ -105,6 +101,8 @@ The app that calls a DLL can be:
 - Located on the web and accessed through a URL.
 - A web app with a web page that embeds the DLL.
 
+Before you start debugging the calling app, set a breakpoint in the DLL. See [Get started with breakpoints](../debugger/get-started-with-breakpoints.md). When the DLL breakpoint is hit, you can step through the code, observing the action at each line. For more information, see [Navigate code in the debugger](../debugger/navigating-through-code-with-the-debugger.md).
+
 To debug a DLL from a calling app, you can:
 
 - Open the project for the calling app, and start debugging by selecting **Debug** > **Start Debugging** or pressing **F5**.
@@ -112,8 +110,6 @@ To debug a DLL from a calling app, you can:
   or
 
 - Attach to an app that is already deployed and running on a test or production computer. Use this method for DLLs on websites or in web apps. For more information, see [How to: Attach to a running process](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md).
-
-Before you start debugging the calling app, set a breakpoint in the DLL. See [Using breakpoints](../debugger/using-breakpoints.md). When the DLL breakpoint is hit, you can step through the code, observing the action at each line. For more information, see [Navigate code in the debugger](../debugger/navigating-through-code-with-the-debugger.md).
 
 During debugging, you can use the **Modules** window to verify the DLLs and *.exe* files the app loads. To open the **Modules** window, while debugging, select **Debug** > **Windows** > **Modules**. For more information, see [How to: Use the Modules window](../debugger/how-to-use-the-modules-window.md).
 
@@ -155,7 +151,7 @@ You can write a calling app for a DLL in managed or native code. If your native 
 You can also debug a native DLL from a managed calling project. For more information, see [How to debug managed and native code](how-to-debug-managed-and-native-code.md).
 
 ## Related content
-- [Debug managed code](../debugger/debugging-managed-code.md)
+- [Debug managed code](/visualstudio/debugger/)
 - [Prepare to debug C++ projects](../debugger/debugging-preparation-visual-cpp-project-types.md)
 - [C#, F#, and Visual Basic project types](../debugger/managed-debugging-recommended-property-settings.md)
 - [Project settings for a C++ Debug configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md)

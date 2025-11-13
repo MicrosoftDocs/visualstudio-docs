@@ -1,7 +1,7 @@
 ---
-title: Reference the name or location of the project file
+title: Reference the project file name or location
 description: Use MSBuild reserved properties to reference project file name or location without having to create your own properties.
-ms.date: 11/04/2016
+ms.date: 04/29/2025
 ms.topic: how-to
 helpviewer_keywords:
 - locations, referencing
@@ -15,44 +15,47 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: msbuild
+
+#customer intent: As a builder, I want to reference reserved properties like the project file name in builds so I don't have to create the properties.
 ---
-# Reference the name or location of the project file
+# Use reserved properties to reference project file name or location
 
-You can use the name or location of the project in the project file itself without having to create your own property. MSBuild provides reserved properties that reference the project file name and other properties related to the project. For more information on reserved properties, see [MSBuild reserved and well-known properties](../msbuild/msbuild-reserved-and-well-known-properties.md).
+MSBuild provides reserved properties that reference the project file name and other properties related to the project. You can use the name or location of the project in the project file itself without having to create your own property. For more information on reserved properties, see [MSBuild reserved and well-known properties](msbuild-reserved-and-well-known-properties.md).
 
-## Use the project properties
+## Prerequisites
 
- MSBuild provides some reserved properties that you can use in your project files without defining them each time. For example, the reserved property `MSBuildProjectName` provides a reference to the project file name. The reserved property `MSBuildProjectDirectory` provides a reference to the project file location.
+A Visual Studio project that builds with MSBuild.
 
-#### To use the project properties
+## Use reserved project properties
 
-- Reference the property in the project file with the $() notation, just as you would with any property. For example:
+MSBuild provides some reserved properties that you can use in your project files without defining them each time. For example, the reserved property `MSBuildProjectName` provides a reference to the project file name. The reserved property `MSBuildProjectDirectory` provides a reference to the project file location.
 
-  ```xml
-  <CSC Sources = "@(CSFile)"
-      OutputAssembly = "$(MSBuildProjectName).exe"/>
-  </CSC>
-  ```
+An advantage of using the reserved property is that any changes to the project file name are incorporated automatically. The next time you build the project, the output file and other file names that use the property automatically update to the new name.
 
-  An advantage of using a reserved property is that any changes to the project file name are incorporated automatically. The next time that you build the project, the output file will have the new name with no further action required on your part.
+To use the project properties, reference the property in the project file with the `$()` notation, just as you would any property. For example:
 
-  For more info on the use of special characters in file or project references, see [MSBuild special characters](../msbuild/msbuild-special-characters.md).
+```xml
+<CSC Sources = "@(CSFile)"
+    OutputAssembly = "$(MSBuildProjectName).exe"/>
+</CSC>
+```
+
+For information about using special characters in file or project references, see [MSBuild special characters](msbuild-special-characters.md).
 
 > [!NOTE]
-> Reserved properties cannot be redefined in the project file.
+> You can't redefine reserved properties in the project file.
 
-## Example 1
+## Use MSBuildProjectName to specify output file name
 
  The following example project file references the project name as a reserved property to specify the name for the output.
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003"
-    DefaultTargets = "Compile">
+<Project DefaultTargets = "Compile">
 
     <!-- Specify the inputs -->
     <ItemGroup>
         <CSFile Include = "consolehwcs1.cs"/>
-     </ItemGroup>
+    </ItemGroup>
     <Target Name = "Compile">
         <!-- Run the Visual C# compilation using
         input files of type CSFile -->
@@ -70,12 +73,12 @@ You can use the name or location of the project in the project file itself witho
 </Project>
 ```
 
-## Example 2
+## Use MSBuildProjectDirectory to create the full path to a file
 
- The following example project file uses the `MSBuildProjectDirectory` reserved property to create the full path to a file in the project file location.
+The following example project file uses the `MSBuildProjectDirectory` reserved property to create the full path to a file in the project file location. The example uses the [property function syntax](property-functions.md#property-function-syntax) to call the static .NET Framework method <xref:System.IO.Path.Combine*?displayProperty=fullName>.
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
 
     <!-- Build the path to a file in the root of the project -->
     <PropertyGroup>
@@ -84,9 +87,7 @@ You can use the name or location of the project in the project file itself witho
 </Project>
 ```
 
-The example uses the [Property function](property-functions.md) syntax to call the static .NET Framework method <xref:System.IO.Path.Combine*?displayProperty=fullName>.
-
 ## Related content
 
-- [MSBuild](../msbuild/msbuild.md)
-- [MSBuild reserved and well-known properties](../msbuild/msbuild-reserved-and-well-known-properties.md)
+- [MSBuild](msbuild.md)
+- [MSBuild reserved and well-known properties](msbuild-reserved-and-well-known-properties.md)

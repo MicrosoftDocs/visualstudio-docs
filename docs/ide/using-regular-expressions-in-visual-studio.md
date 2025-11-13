@@ -1,8 +1,8 @@
 ---
 title: Use regular expressions and review examples
 description: Explore some regular expression characters, operators, constructs, and pattern examples that you can use in Visual Studio.
-ms.date: 01/11/2024
-ms.topic: conceptual
+ms.date: 9/4/2025
+ms.topic: article
 f1_keywords:
 - vsregularexpressionhelp
 - vs.regularexpressionhelp
@@ -49,8 +49,11 @@ The following table contains some regular expression characters, operators, cons
 |[Match a word boundary](/dotnet/standard/base-types/anchors-in-regular-expressions#word-boundary-b)|\b (Outside a character class `\b` specifies a word boundary, and inside a character class `\b` specifies a backspace.)|`\bin` matches "in" in "inside" but finds no matches in "pinto"|
 |Match a line break (that is, a carriage return followed by a new line, or a new line only)|\r?\n|`End\r?\nBegin` matches "End" and "Begin" only when "End" is the last string in a line and "Begin" is the first string in the next line|
 |Match any [word character](/dotnet/standard/base-types/character-classes-in-regular-expressions#word-character-w)|\w|`a\wd` matches "add" and "a1d" but not "a d"|
+|Match any [non-word character](/dotnet/standard/base-types/character-classes-in-regular-expressions#non-word-character-w)|\W|`a\Wd` matches "a d" but not "and"|
 |Match any [whitespace character](/dotnet/standard/base-types/character-classes-in-regular-expressions#whitespace-character-s)|\s|`Public\sInterface` matches the phrase "Public Interface"|
+|Match any [non-whitespace character](/dotnet/standard/base-types/character-classes-in-regular-expressions#non-whitespace-character-s)|\S|`\S+` matches "end", "A11",  or  "end?". |
 |Match any [decimal digit character](/dotnet/standard/base-types/character-classes-in-regular-expressions#decimal-digit-character-d)|\d|`\d` matches "4" and "0" in "wd40"|
+|Match any [non-digit character](/dotnet/standard/base-types/character-classes-in-regular-expressions#non-digit-character-d)|\D|`\D` matches "w" and "d" in "wd40"|
 
 An example regular expression that combines some of the operators and constructs to match a hexadecimal number is `\b0[xX]([0-9a-fA-F]+)\b`. This expression matches "0xc67f" but not "0xc67g".
 
@@ -98,7 +101,7 @@ For more information about named capture groups, see [Named matched subexpressio
 | Pattern | Description |
 | - | - |
 | `int ([_A-Za-z][_A-Za-z0-9]*)` | Match single integer definitions. Identifiers begin with one uppercase or lowercase letter, followed by zero or more (indicated by `*`) letters or numbers. The identifier is captured as `$1` by the outer parentheses. |
-| `(private|internal|public)*\s*([\w]+\s+)int\s+([_A-Za-z][_A-Za-z0-9]*)\s+=\s+[+-]+(\d)+` | Match C# integer declarations that are initialized to integer literals, capturing the various parts, including the access level, modifiers like `const` or `static`, the identifier, and the defined value. Note the use of `\s+` for at least one whitespace character, or `\s*` if whitespace might or might not occur. |
+| `(private\|internal\|public)*\s*([\w]+\s+)int\s+([_A-Za-z][_A-Za-z0-9]*)\s+=\s+[+-]+(\d)+` | Match C# integer declarations that are initialized to integer literals, capturing the various parts, including the access level, modifiers like `const` or `static`, the identifier, and the defined value. Note the use of `\s+` for at least one whitespace character, or `\s*` if whitespace might or might not occur. |
 | `foreach\s*\(([\w\d]*)\s+([\w\d]*)\s+in\s+(.*)\)` | Match the opening line of a `foreach` loop. The literal parentheses  are escaped with backslash (`\`). The various groups are captured as `$1`, `$2`, and `$3` by the unescaped parentheses. |
 | `#define\s+([_A-Za-z][_A-Za-z0-9]*)` | Matches `#define` definitions (without the value, if any). The defined token is stored in `$1`. |
 | `#include\s+["<](.*)[">]` | Match includes in a C++ source file. |

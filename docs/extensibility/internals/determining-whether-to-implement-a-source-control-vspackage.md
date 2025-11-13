@@ -2,11 +2,11 @@
 title: When to implement a source control VSPackage
 description: Learn about the choices of source control plug-ins and source control VSPackages that are available for extending Visual Studio source control solutions.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - source control packages, about source control packages
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

@@ -3,10 +3,11 @@ title: Notifications and Progress for Visual Studio
 description: Learn about several ways to inform users what is happening in Visual Studio regarding their software development tasks.
 ms.date: 11/04/2016
 ms.topic: reference
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
+ms.custom: sfi-image-nochange
 ---
 # Notifications and Progress for Visual Studio
 

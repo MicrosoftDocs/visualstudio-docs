@@ -2,7 +2,7 @@
 title: "Global access to objects in Office projects"
 description: Learn how you can use the Globals class to access several different project items at run time from any code in the project.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"

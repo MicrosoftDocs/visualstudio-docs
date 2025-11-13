@@ -7,8 +7,8 @@ f1_keywords:
 - BP_REQUEST_INFO2
 helpviewer_keywords:
 - BP_REQUEST_INFO2 structure
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

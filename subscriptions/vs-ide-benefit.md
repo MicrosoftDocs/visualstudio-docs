@@ -3,7 +3,7 @@ title: Visual Studio IDE in Visual Studio subscriptions
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 09/11/2024
+ms.date: 11/12/2025
 ms.topic: how-to
 description: In this article, you learn how to download and install the Visual Studio IDE included in your Visual Studio subscription.
 ---
@@ -20,43 +20,77 @@ Here's how to download and install the IDE for your version of Visual Studio. We
 
 1. Select the **Tools** tab, look for the Visual Studio IDE tile, and then select the **Download** button below it. You can also download the IDE from the [Downloads](https://my.visualstudio.com/downloads?wt.mc_id=o~msft~docs) page.
 
-   ![Screenshot of the Visual Studio Enterprise tile and accompanying 'Download' button.](_img/vs-ide-experience/vs-ide-tile.png "Screenshot of the Visual Studio Enterprise tile and accompanying Download button.")
+   ![Screenshot of the Visual Studio Enterprise tile and accompanying 'Download' button.](_img/vs-ide-experience/visual-studio-ide-tile-revised.png "Screenshot of the Visual Studio Enterprise tile and accompanying Download button.")
 
-   You’re redirected to the **Downloads** page for Visual Studio, where you can download the IDE and obtain a product key to activate it. Alternatively, you can claim a product key by selecting **Get Key**, or you can claim a key later on the [Your Product Keys](https://my.visualstudio.com/productkeys) page.
+   Product Key isn't available for all levels of subscriptions as the primary channel for authentication to the IDE should be your sign in.
 
-1. On the **Downloads** page, select the **Details** tab, and then do the following:
+1. On the **Downloads** page, select your architecture: **x86** or **x64** and language preference if applicable then select **Download**.
 
-   a. Select your architecture: **x86** or **x64**. 
-   b. Select your language preference. 
-   c. Select **Download**.
-
-   ![Screenshot of the download details pane for Visual Studio Enterprise.](_img/vs-ide-experience/vs-ide-download-details.png "Screenshot of the download details pane for Visual Studio Enterprise.")
+   ![Screenshot of the download details pane for Visual Studio Enterprise.](_img/vs-ide-experience/visual-studio-ide-download-details-revised.png "Screenshot of the download details pane for Visual Studio Enterprise 2026.")
 
 1. Select the downloaded installer package and then, at the prompt, select **Run**.
 
-1. On the **User Account Control** pane, select **Yes**.
+1. If you see a **User Account Control** pane, select **Yes**.
 
 1. Select **Continue** to accept the license terms.
 
-1. When the installer starts, select the **Workloads**, **Individual components**, and **Language packs** tabs to choose your customization options.
+1. If you have other versions of Visual Studio installed, the installer gives you flexible options to move forward without losing your previous environment. You can migrate a previous Visual Studio 2022 configuration to copy workloads, SDKs, toolsets, and components, start a new install with the workloads and components you select, or [import your configuration](https://learn.microsoft.com/visualstudio/install/import-export-installation-configurations?view=visualstudio) from an exported `.vsconfig` file. 
 
-   ![Screenshot showing the available customization options on the "Workloads" tab for Visual Studio Enterprise.](_img/vs-ide-experience/vs-ide-customize-install-cropped.png "Screenshot showing the available customization options on the Workloads tab for Visual Studio Enterprise.")
+   ![Screenshot of the Visual Studio Enterprise 2026 intall configuration.](_img/vs-ide-experience/install-visual-studio-enterprise-2026.png "Screenshot of the Install Visual Studio Enterprise 2026 window.")
 
-1. Select **Install**.
+Visual Studio Installer Opens. You can also install any product that's listed on the [Visual Studio Installer Available tab](https://learn.microsoft.com/visualstudio/install/install-visual-studio-versions-side-by-side?view=visualstudio#install-different-editions-of-the-same-major-visual-studio-version-side-by-side).
 
-   When the installation is complete, you can either modify the installation or start Visual Studio. 
+8. Select how to configure your Visual Studio installation. When you install Visual Studio 2026 or later, the installer provides options to copy previous Visual Studio environments. There are a few ways to configure the installation:
 
-1. To start Visual Studio, select **Launch**. If multiple versions are installed, they're listed on the **Visual Studio Installer** pane.
+   + **Manually chose workloads and components**
+        Start from scratch and manually choose the workloads and components you want to install.
+   + **Migrate my configuration from this product version**
+        Chose an existing Visual Studio instance (2022 or later) to copy workload, SDKs, toolsets, settings, and extensions into the new Visual Studio environment.
+   + **Import my configuration from a `.vsconfig` file**
+        Use a previously exported file. Importing a `.vsconfig` file helps standardize development environments across multiple machines. Learn more: [Importing and exporting installation configurations](https://learn.microsoft.com/visualstudio/install/import-export-installation-configurations?view=visualstudio).
 
-   ![Screenshot of the Visual Studio Installer pane, listing the installed version or versions.](_img/vs-ide-experience/vs-ide-versions.png "Screenshot of the Visual Studio Installer pane, listing the installed version or versions.")
+> [!NOTE]
+> Only [Marketplace](https://marketplace.visualstudio.com/items?itemName=ms.feed) **extensions** from a previous Visual Studio installation can be copied into Visual Studio. **Settings** are imported via a `.vssettings` file. Some **out-of-support workloads and components** are no longer supported in Visual Studio. The installer allows you to include or remove workloads and components during setup. 
+>
+> Out-of-support components might not function correctly in the new version. It's recommended to review these carefully before proceeding with installation.
+
+9. When the installer starts, select the **Workloads** tabs to choose your customization options.
+
+   [![Screenshot showing the available customization options on the "Workloads" tab for Visual Studio Enterprise.](_img/vs-ide-experience/visual-studio-ide-customize-install-cropped-revised.png "Screenshot showing the available customization options on the Workloads tab for Visual Studio Enterprise.")](_img/vs-ide-experience/visual-studio-ide-customize-install-cropped-revised.png#lightbox)
+
+1. Select **Install**. 
+
+1. Next, a status screen that shows the progress of your Visual Studio installation appears.  
+
+> [!TIP]
+> At any time after installation, you can install workloads or components that didn't get installed previously. If Visual Studio opens, go to **Tools > Get Tools and Features**, which opens the Visual Studio Installer. Or open the **Visual Studio Installer** from the **Start** menu. From there, choose the workloads or components to install. Then choose **Modify**.
+
+12. Choose individual components (optional). If you don't want to use the Workloads feature to customize the Visual Studio installation, or to add more components than a workload install, individual components from the **Individual components** tab can be installed by following the prompts.
+ 
+    [![Screenshot showing the "Individual components" tab for Visual Studio Enterprise 2026.](_img/vs-ide-experience/visual-studio-ide-individual-components.png "Screenshot showing individual components available for Visual Studio Enterprise 2026.")](_img/vs-ide-experience/visual-studio-ide-individual-components.png#lightbox)
+
+1. By default, the installer program tries to match the language of the operating system when it runs for the first time. To install Visual Studio in a chosen language, go to the **Language packs** tab from the Visual Studio Installer, and then follow the prompts. This step is optional. 
+ 
+    [![Screenshot showing the "Language packs" tab for Visual Studio Enterprise 2026.](_img/vs-ide-experience/visual-studio-ide-language-pack.png "Screenshot showing the languages available in Visual Studio Enterprise 2026 installer.")](_img/vs-ide-experience/visual-studio-ide-language-pack.png#lightbox)
+
+    The default language can be changed by running the installer at a command prompt. For example, you can force the installer to run in English by using the following command:
+
+    ![Screenshot showing Windows Command Propmt.](_img/vs-ide-experience/visual-studio-ide-language-command-prompt.png "Screenshot showing Windows Command Prompt and languages available.")
+
+14. Select the installation location (optional). You can reduce the installation footprint of Visual Studio on your system drive. For more information, see [Select installation locations](https://learn.microsoft.com/visualstudio/install/change-installation-locations?view=visualstudio).
+
+    [![Screenshot showing the "Installation locations" tab for Visual Studio Enterprise 2026.](_img/vs-ide-experience/visual-studio-ide-installation-location.png "Screenshot showing the installation locations for Visual Studio Enterprise 2026.")](_img/vs-ide-experience/visual-studio-ide-installation-location.png#lightbox)
+
+> [!IMPORTANT]
+> A different drive for the **Visual Studio IDE** or the **Download cache** can be chosen only when initially installing Visual Studio. If changing drives are necessary, Visual Studio must be uninstalled and reinstalled.
+>
+> If Visual Studio was installed on the computer before, the user won't be able to change the **Shared components, tools, and SDKs** path. It appears dimmed. This location is shared by all installations of Visual Studio. 
+
+15. To start Visual Studio, select **Launch**. If multiple versions are installed, they're listed on the **Visual Studio Installer** pane.
 
 1. Sign in with the account associated with your Visual Studio subscription.
 
-1. Choose your preferred theme, and then select **Start Visual Studio**.
-
    Visual Studio opens. You're ready to start using it right away!
-
-   ![Screenshot of the options for getting started with using the newly installed Visual Studio.](_img/vs-ide-experience/vs-ide-start-cropped.png "Screenshot of the options for getting started with using the newly installed Visual Studio.")
 
 ## Eligibility
 
@@ -69,10 +103,10 @@ Here's how to download and install the IDE for your version of Visual Studio. We
 | Visual Studio Test Professional (Standard) | All | Not available | N/A |
 | MSDN Platforms (Standard) | All | Not available | N/A |
 
-\* Includes the following subscriptions: *Not for Resale (NFR), NFR Basic, Visual Studio Industry Partner (VSIP), Microsoft Cloud Partner Program, FTE, MCT Software & Services Developer, BizSpark, Imagine, Most Valuable Professional (MVP), Regional Director (RD)*. Excludes the following subscriptions: *MCT Software & Services*.
+\* Includes the following subscriptions: *Not for Resale (NFR), NFR Basic, Visual Studio Industry Partner (VSIP), Microsoft Cloud Partner Program, FTE, MCT Software & Services Developer, Imagine, Most Valuable Professional (MVP), Regional Director (RD)*.
 
 > [!NOTE]
-> Microsoft no longer offers Visual Studio Professional annual subscriptions and Visual Studio Enterprise annual subscriptions in cloud subscriptions. If you're a current customer, there is no change to your ability to renew, increase, decrease, or cancel your subscription. If you're a new customer, we encourage you to go to the [Buy Visual Studio](https://visualstudio.microsoft.com/vs/pricing/) page to explore the various purchase options.
+> Microsoft no longer offers Visual Studio Professional annual subscriptions and Visual Studio Enterprise annual subscriptions in cloud subscriptions. If you're a current customer, there's no change to your ability to renew, increase, decrease, or cancel your subscription. If you're a new customer, we encourage you to go to the [Buy Visual Studio](https://visualstudio.microsoft.com/vs/pricing/) page to explore the various purchase options.
 
 Not sure which subscription you're using? Go to the [Your Subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) page to see all the subscriptions that are assigned to your email address. If you don't see all your subscriptions, one or more might be assigned to a different email address. You need to sign in with that other email address to view those subscriptions.
 
@@ -108,7 +142,7 @@ For Visual Studio IDE technical issues or questions, contact [Visual Studio tech
 If you exhaust the preceding options and still don’t have an answer, open a Visual Studio technical support ticket. To do so, go to the Benefits page on the [Visual Studio Subscriptions portal](https://my.visualstudio.com/Benefits), select the **Support** tab, and then select the **Technical Support** benefit tile. For more information, see [Technical Support benefit](vs-tech-support.md). 
 
 > [!NOTE]
-> Technical support is not available with all subscriptions. To learn what's included with your subscription, see [Compare Visual Studio subscription benefits](https://visualstudio.microsoft.com/vs/benefits/#azure?cat=visual-studio-enterprise-subscription).
+> Technical support isn't available with all subscriptions. To learn what's included with your subscription, see [Compare Visual Studio subscription benefits](https://visualstudio.microsoft.com/vs/benefits/#azure?cat=visual-studio-enterprise-subscription).
 
 ### Visual Studio subscription support
 For assistance with sales, subscriptions, accounts, and billing, contact [Visual Studio subscription support](https://my.visualstudio.com/gethelp).

@@ -4,10 +4,11 @@ description: Connect Azure SQL Database to your application by using Connected S
 author: ghogen
 manager: mijacobs
 ms.subservice: azure-development
-ms.topic: conceptual
-ms.date: 10/30/2024
+ms.topic: how-to
+ms.date: 10/2/2025
 ms.author: ghogen
 monikerRange: ">= vs-2019"
+ms.custom: sfi-image-nochange
 ---
 
 # Add a connection to an Azure SQL Database
@@ -55,7 +56,7 @@ The connected service functionality adds all the needed references and connectio
 
    ![Screenshot showing SQL Database choices.](./media/vs-2022/sql-database-choices-2.png)
 
-   If you want to connect to the Azure service, continue to the next step, or if you aren't signed in already, sign in to your Azure account before continuing. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/).
+   If you want to connect to the Azure service, continue to the next step, or if you aren't signed in already, sign in to your Azure account before continuing. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn).
 
 1. In the **Configure Azure SQL Database** screen, select an existing Azure SQL Database, and select **Next**.
 
@@ -144,7 +145,7 @@ If your code references `System.Data.SqlClient`, you'll need to upgrade to `Micr
 
    ![Screenshot showing SQL Database choices.](./media/vs-2022/sql-database-choices-2.png)
 
-   If you want to connect to the Azure service, continue to the next step, or if you aren't signed in already, sign in to your Azure account before continuing. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/).
+   If you want to connect to the Azure service, continue to the next step, or if you aren't signed in already, sign in to your Azure account before continuing. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn).
 
 1. In the **Configure Azure SQL Database** screen, select an existing Azure SQL Database, and select **Next**.
 

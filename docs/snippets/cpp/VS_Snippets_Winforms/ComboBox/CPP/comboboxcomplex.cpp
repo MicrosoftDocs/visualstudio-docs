@@ -73,7 +73,7 @@ private:
       this->label2->Location = System::Drawing::Point( 0, 40 );
       this->label2->Size = System::Drawing::Size( 48, 24 );
       this->label2->TabIndex = 7;
-      this->label2->Text = "Sring 1";
+      this->label2->Text = "String 1";
       this->label2->TextAlign = System::Drawing::ContentAlignment::MiddleRight;
       this->label3->Location = System::Drawing::Point( 0, 72 );
       this->label3->Size = System::Drawing::Size( 48, 23 );

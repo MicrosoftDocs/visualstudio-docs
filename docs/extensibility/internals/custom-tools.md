@@ -2,13 +2,13 @@
 title: Build custom tools & join them with project items
 description: Create custom tools in Visual Studio that associate a tool with an item in a project and run that tool whenever the file is saved.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - VSPackages, custom tools
 - tools [Visual Studio], custom
 - custom tools
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

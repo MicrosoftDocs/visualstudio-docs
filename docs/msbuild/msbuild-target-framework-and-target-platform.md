@@ -19,7 +19,7 @@ A project can be built to run on a *target framework*, which is a particular ver
 
  A target framework is the particular version of the .NET Framework that your project is built to run on. Specification of a target framework is required because it enables compiler features and assembly references that are exclusive to that version of the framework.
 
- Currently, the following versions of the .NET Framework are available for use:
+ Currently, the following versions of the .NET Framework are available for use, although some are no longer supported by Microsoft, and some have planned future dates beyond which they will no longer be supported. For the latest support information, see [.NET Framework](/lifecycle/products/microsoft-net-framework):
 
 - The .NET Framework 2.0 (included in Visual Studio 2005)
 

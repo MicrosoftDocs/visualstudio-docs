@@ -9,9 +9,10 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.C/C++.Advanced"
 helpviewer_keywords:
   - "Text Editor Options dialog box, advanced"
+ms.custom: "ide-ref"
 author: tylermsft
 ms.author: twhitney
-manager: markl
+manager: coxford
 ---
 # Options, Text Editor, C/C++, Advanced
 

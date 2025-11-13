@@ -2,14 +2,14 @@
 title: Program Nodes
 description: This article describes the definition and role of a program node in the debugger architecture in Visual Studio.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - program nodes, debugging context
 - debugging [Debugging SDK], program nodes
 - program nodes, adding
-- program nodes, superceding
-author: maiak
-ms.author: maiak
+- program nodes, superseding
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---

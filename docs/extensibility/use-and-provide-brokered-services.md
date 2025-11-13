@@ -3,7 +3,7 @@ title: Using and providing brokered services
 description: Learn about the brokered services that the Visual Studio IDE and extensions provide and use. These articles describe how to get and provide brokered services.
 monikerRange: '>= vs-2019'
 ms.date: 01/06/2022
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - examples [Visual Studio SDK], brokered services
 - Visual Studio, brokered services
@@ -37,7 +37,7 @@ Visual Studio offers important brokered services, such as the following:
 
 - [How to: Provide a Brokered Service](how-to-provide-brokered-service.md) discusses how to provide a brokered service.
 
-- [How to: Troubleshoot Brokered Services](how-to-troubleshoot-brokered-services.md) discusses common problems and presents solutions to them.
+- [How to: Troubleshoot Brokered Services](/troubleshoot/developer/visualstudio/extensibility/how-to-troubleshoot-brokered-services) discusses common problems and presents solutions to them.
 
 ## Related sections
 

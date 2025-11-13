@@ -3,8 +3,8 @@ title: Creating a Software Development Kit
 description: Explore the general infrastructure of software development kits (SDKs) and how to create a platform SDK and an extension SDK in Visual Studio.
 ms.date: 08/31/2021
 ms.topic: how-to
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

@@ -46,7 +46,7 @@ Populates item collections with the input items. This allows items to be copied 
  After the task is executed, the `MySourceItemsWithMetadata` item collection contains the items *file1.resx* and *file2.resx*, both with metadata entries for `MyMetadata`. The `MySourceItems` item collection is unchanged.
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
 
     <ItemGroup>
         <MySourceItems Include="file1.resx;file2.resx" />

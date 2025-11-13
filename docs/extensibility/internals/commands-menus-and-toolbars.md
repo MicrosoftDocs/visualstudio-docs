@@ -2,13 +2,13 @@
 title: Commands, Menus, and Toolbars
 description: Explore the specific commands, menus, and toolbars in Visual Studio, including the available options and how the features work in VSPackages. 
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - menus [Visual Studio SDK], commands
 - commands [Visual Studio]
 - toolbars [Visual Studio], commands
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---
@@ -62,6 +62,6 @@ Menus and toolbars are the way users access commands in your VSPackage. Commands
  Explains how to implement commands that use interop assemblies.
 
 ## Related sections
-- [Command routing in VSPackages](../../extensibility/internals/command-routing-in-vspackages.md)
+- [Command routing in VSPackages](/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/command-routing-in-vspackages)
 
  Explains command routing in VSPackages.

@@ -1,8 +1,8 @@
 ---
-title: Python in Visual Studio tutorial Step 2, write and run code
+title: "Tutorial Step 2: Write and Run Python Code"
 titleSuffix: ""
-description: Step 2 of a core walkthrough of Python capabilities in Visual Studio that demonstrates how to edit code and run a project.
-ms.date: 04/18/2024
+description: Explore step 2 of a tutorial about Python capabilities in Visual Studio that demonstrates how to edit code and run a project.
+ms.date: 07/29/2025
 ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster
@@ -16,7 +16,9 @@ ms.subservice: python
 
 This article presents Step 2 in the tutorial series _Work with Python in Visual Studio_.
 
-The Visual Studio interactive development environment (IDE) provides various windows that support different development tasks. [Step 1 in the tutorial](tutorial-working-with-python-in-visual-studio-step-01-create-project.md) describes how to manage project files in the **Solution Explorer** window. In Step 2, you use the _editor_ window to work with the _contents_ of files, like source code. The editor is contextually aware of the type of file you're editing. The editor also recognizes the programming language (based on the file extension), and offers features appropriate to that language such as syntax coloring and auto-completion by using IntelliSense.
+The Visual Studio integrated development environment (IDE) provides various windows that support different development tasks. [Step 1 in the tutorial](tutorial-working-with-python-in-visual-studio-step-01-create-project.md) describes how to manage project files in the **Solution Explorer** window. In Step 2, you use the _editor_ window to work with the _contents_ of files, like source code.
+
+The editor is contextually aware of the type of file you're editing. The editor also recognizes the programming language (based on the file extension), and offers features appropriate to that language such as syntax coloring and autocompletion by using IntelliSense.
 
 In Step 2 of the tutorial, you learn how to:
 
@@ -39,19 +41,19 @@ Follow these steps to start writing Python code:
 
 1. In the editor, start to enter the Python function name `print`.
 
-   As you enter the function name, Visual Studio IntelliSense displays auto-completion options for your code. The default completion option is highlighted:
+   As you enter the function name, Visual Studio IntelliSense displays autocompletion options for your code. The default completion option is highlighted:
 
-   :::image type="content" source="media/tutor-python-2-intellisense-print-completion.png" alt-text="Screenshot that shows IntelliSense auto-completion options in the editor in Visual Studio. The default completion option is highlighted." border="false" lightbox="media/tutor-python-2-intellisense-print-completion.png":::
+   :::image type="content" source="media/tutor-python-2-intellisense-print-completion.png" alt-text="Screenshot that shows IntelliSense autocompletion options in the editor in Visual Studio. The default completion option is highlighted." lightbox="media/tutor-python-2-intellisense-print-completion.png":::
 
    To apply the default completion to your code, select the **Tab** keyboard shortcut.
-   
+
    Completions are most helpful when you need to add longer statements or identifiers in your code. IntelliSense shows different completion options based on the statement you're using. For example, when you use parenthesis `()` with a function name, Intellisense recognizes the code as a function call.
 
 1. In the editor, start to enter code to call the `print()` function.
 
    When you enter the open parenthesis `(`, Intellisense shows full usage information for the function. The current argument is in boldface. In this example, the argument is **values: object**:
 
-   :::image type="content" source="media/tutor-python-2-intellisense-argument-completion.png" alt-text="Screenshot that shows IntelliSense auto-completion options for the print function in the editor in Visual Studio." border="false" lightbox="media/tutor-python-2-intellisense-argument-completion.png":::
+   :::image type="content" source="media/tutor-python-2-intellisense-argument-completion.png" alt-text="Screenshot that shows IntelliSense autocompletion options for the print function in the editor in Visual Studio." lightbox="media/tutor-python-2-intellisense-argument-completion.png":::
 
 1. In the editor, complete the code statement so it matches the following example:
 
@@ -65,7 +67,7 @@ Follow these steps to start writing Python code:
 
    Notice how Visual Studio shows a red underline for code that contains syntax errors.
 
-   :::image type="content" source="media/tutor-python-2-intellisense-colors-highlights.png" alt-text="Screenshot that shows IntelliSense syntax coloring and error highlighting in the editor in Visual Studio." border="false" lightbox="media/tutor-python-2-intellisense-colors-highlights.png":::
+   :::image type="content" source="media/tutor-python-2-intellisense-colors-highlights.png" alt-text="Screenshot that shows IntelliSense syntax coloring and error highlighting in the editor in Visual Studio." lightbox="media/tutor-python-2-intellisense-colors-highlights.png":::
 
 1. Replace the closing quote mark `"` in your code.
 
@@ -98,7 +100,7 @@ After you have some code in place, you're ready to try running your program. You
 
 1. When you run the program, a console window opens to show the results. This window is similar to what you see when you run a Python interpreter with the Python file (_PythonApplication1.py_) from the command line.
 
-   :::image type="content" source="media/tutor-python-2-first-run-program-output.png" alt-text="Screenshot that shows the console window with output for the running program in Visual Studio." border="false" lightbox="media/tutor-python-2-first-run-program-output.png":::
+   :::image type="content" source="media/tutor-python-2-first-run-program-output.png" alt-text="Screenshot that shows the console window with output for the running program in Visual Studio." lightbox="media/tutor-python-2-first-run-program-output.png":::
 
 1. To close the console window, select any key. You return to the Visual Studio editor.
 
@@ -112,7 +114,7 @@ Follow these steps to explore more Intellisense completion features:
 
 1. Start to enter the `import sys` statement. When you start to enter `sys`, Visual Studio shows a list of possible modules for the `import` function:
 
-   :::image type="content" source="media/tutor-python-2-intellisense-import-sys-completion.png" alt-text="Screenshot that shows how IntelliSense displays the available modules for an import statement in the editor in Visual Studio." border="false" lightbox="media/tutor-python-2-intellisense-import-sys-completion.png":::
+   :::image type="content" source="media/tutor-python-2-intellisense-import-sys-completion.png" alt-text="Screenshot that shows how IntelliSense displays the available modules for an import statement in the editor in Visual Studio." lightbox="media/tutor-python-2-intellisense-import-sys-completion.png":::
 
    You can scroll through the list to see the full set of available modules.
 
@@ -126,7 +128,7 @@ Follow these steps to explore more Intellisense completion features:
 
 1. Continue the statement by adding a space followed by the `import` function name. Visual Studio shows the list of possible module members for this use of the `import` function:
 
-   :::image type="content" source="media/tutor-python-2-intellisense-import-members-completion.png" alt-text="Screenshot that shows how IntelliSense displays the available module members for the `import` function in the editor in Visual Studio" border="false" lightbox="media/tutor-python-2-intellisense-import-members-completion.png":::
+   :::image type="content" source="media/tutor-python-2-intellisense-import-members-completion.png" alt-text="Screenshot that shows how IntelliSense displays the available module members for the import function in the editor in Visual Studio." lightbox="media/tutor-python-2-intellisense-import-members-completion.png":::
 
 1. Finish the statement by using the Intellisense completion options to add the `cos` and `radians` members.
 

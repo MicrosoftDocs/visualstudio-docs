@@ -9,8 +9,8 @@ helpviewer_keywords:
 - Add New Item dialog box
 - Add New Project dialog box
 - registry, Add New Project dialog box
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

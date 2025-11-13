@@ -2,11 +2,11 @@
 title: Event Descriptions
 description: Learn about the types of events and the reasons for their use. Each type of event has a specific purpose.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - debugging [Debugging SDK], events
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---

@@ -3,12 +3,20 @@ title: Visual Studio subscriptions with GitHub Enterprise
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 09/12/2024
-ms.topic: conceptual
+ms.date: 09/29/2025
+ms.topic: article
 description: Discover how to access GitHub Enterprise as part of Visual Studio subscriptions, get started using GitHub, and find support options.
 ---
 
 # Visual Studio subscriptions with GitHub Enterprise 
+
+## What's on this page
+
++ ***Eligibility:*** *Learn which Visual Studio subscriptions include GitHub Enterprise.*
++ ***Setup Access:*** *Follow steps for admins and users to link accounts and accept invites.*
++ ***Get Help:*** *Find links to GitHub resources, FAQs, and troubleshooting guides.*
+
+## Overview
 
 Customers who have Enterprise Agreements (EA) with Microsoft are eligible to purchase a new subscription offer that brings together Visual Studio standard subscriptions and GitHub Enterprise. It's an easy and economical way for Visual Studio subscribers to acquire GitHub Enterprise. 
 
@@ -33,7 +41,7 @@ Visual Studio subscriptions with GitHub Enterprise are managed in two parts:
 1. The Visual Studio subscription (Enterprise or Professional)
 2. GitHub Enterprise 
 
-When you're assigned a Visual Studio subscription with GitHub Enterprise, you receive an email letting you know that your Visual Studio subscriptions admin has assigned a subscription to you. At that point, you can view available subscription benefits at <https://my.visualstudio.com/benefits>. The GitHub Enterprise benefit looks like this:
+When you're assigned to a Visual Studio subscription with GitHub Enterprise, you receive an email letting you know that your Visual Studio subscriptions admin has assigned a subscription to you. At that point, you can view available subscription benefits at <https://my.visualstudio.com/benefits>. The GitHub Enterprise benefit looks like this:
 
    > [!div class="mx-imgBorder"]
    > ![GitHub Enterprise pending Enterprise account setup](_img/access-github/pending-account-setup.png "Screenshot of the pending enterprise account setup dialog.")  

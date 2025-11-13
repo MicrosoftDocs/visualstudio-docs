@@ -2,7 +2,7 @@
 title: Debugging techniques and tools
 description: Write better code with fewer bugs by using Visual Studio to fix exceptions and resolve errors, and make improvements to your code.
 ms.date: "10/24/2023"
-ms.topic: "conceptual"
+ms.topic: how-to
 helpviewer_keywords:
   - "debugger"
 author: "mikejo5000"
@@ -32,7 +32,7 @@ The following code has some bugs that you can fix using the Visual Studio IDE. T
 
 To create the app, you must have Visual Studio installed and the **.NET desktop development** workload installed.
 
-- If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
+- If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) page to install it for free.
 
 - If you need to install the workload but already have Visual Studio, select **Tools** > **Get Tools and Features**. The Visual Studio Installer launches. Choose the **.NET desktop development** workload, then choose **Modify**.
 

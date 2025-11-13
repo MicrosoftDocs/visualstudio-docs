@@ -2,7 +2,7 @@
 title: VBA and Office solutions in Visual Studio compared
 description: Explore the differences between Microsoft Visual Basic for Applications (VBA) and Microsoft Office solutions in Visual Studio.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"

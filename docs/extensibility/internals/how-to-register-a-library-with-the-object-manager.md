@@ -9,8 +9,8 @@ helpviewer_keywords:
 - IVsSimpleLibrary2 interface, registering library with object manager
 - IVsObjectManager2 interface, registering library with object manager
 - libraries, symbol-browsing tools
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---
@@ -168,6 +168,6 @@ Symbols-browsing tools, such as **Class View**, **Object Browser**, **Call Brows
     ---
 
 ## Related content
-- [Legacy language service extensibility](../../extensibility/internals/legacy-language-service-extensibility.md)
+- [Legacy language service extensibility](/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/legacy-language-service-extensibility)
 - [Support symbol-browsing tools](../../extensibility/internals/supporting-symbol-browsing-tools.md)
 - [How to: Expose lists of symbols provided by the library to the object manager](../../extensibility/internals/how-to-expose-lists-of-symbols-provided-by-the-library-to-the-object-manager.md)

@@ -2,12 +2,12 @@
 title: 'Test Area 2: Get From Source Control'
 description: This test area covers test cases for retrieving items from the version store with Get. These test cases can be applied to both local and to web projects.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - source control plug-ins, getting items from source control
 - source control [Visual Studio SDK], getting items from
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

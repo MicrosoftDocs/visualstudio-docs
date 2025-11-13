@@ -163,7 +163,7 @@ To get your game to work this way, add a <xref:System.Windows.Forms.Control.Clic
 1. Then, hold the **Ctrl** key while you select each of the other labels.
    Be sure that every label is selected.
 
-1. In the **Properties** window, select the **Events** button, which is a lightening bolt.
+1. In the **Properties** window, select the **Events** button, which is a lightning bolt.
    For the **Click** event, select **label1_Click** in the box.
 
      ![Screenshot shows the Properties window showing Click event.](../media/tutorial-windows-forms-match-game-icons/click-event.png)

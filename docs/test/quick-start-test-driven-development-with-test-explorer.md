@@ -1,24 +1,24 @@
 ---
-title: Test-driven development walkthrough
+title: Test-driven development
 description: Learn how to develop a tested method in C# using Microsoft Test Framework, which you can easily adapt for other languages or test frameworks, such as NUnit.
-ms.date: 12/04/2023
-ms.topic: conceptual
+ms.date: 5/16/2025
+ms.topic: how-to
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: test-tools
 author: mikejo5000
 ---
-# Walkthrough: Test-driven development using Test Explorer
+# Get started with test-driven development using Test Explorer
 
 Create unit tests to help keep your code working correctly through incremental code changes. There are several frameworks that you can use to write unit tests, including some developed by third parties. Some test frameworks are specialized for testing in different languages or platforms. Test Explorer provides a single interface for unit tests in any of these frameworks. For more information about **Test Explorer**, see [Run unit tests with Test Explorer](run-unit-tests-with-test-explorer.md) and [Test Explorer FAQ](test-explorer-faq.md).
 
-This walkthrough demonstrates how to develop a tested method in C# using Microsoft Test Framework (MSTest). You can easily adapt it for other languages or other test frameworks, such as NUnit. For more information, see [Install third-party unit test frameworks](install-third-party-unit-test-frameworks.md).
+This article demonstrates how to develop a tested method in C# using Microsoft Test Framework (MSTest). You can easily adapt it for other languages or other test frameworks, such as NUnit. For more information, see [Install third-party unit test frameworks](install-third-party-unit-test-frameworks.md).
 
 ## Create a test and generate code
 
 1. Create a C# **Class Library** project for .NET or .NET Standard. This project will contain the code that we want to test. Name the project **MyMath**.
 
-2. In the same solution, add a new MSTest test project for .NET.
+2. In the same solution, add a new **MSTest** test project for .NET.
 
    In Visual Studio 2019 version 16.9, the MSTest project template name is **Unit Test Project**.
 
@@ -31,7 +31,7 @@ This walkthrough demonstrates how to develop a tested method in C# using Microso
    ![New code and test projects](../test/media/test-driven-development-ide.png)
    ::: moniker-end
 
-3. Write a simple test method that verifies the result obtained for a specific input. Add the following code to the `UnitTest1` class:
+3. In the test project, write a simple test method that verifies the result obtained for a specific input. Add the following code to the `Test1` or `UnitTest1` class:
 
    ```csharp
    [TestMethod]
@@ -51,12 +51,16 @@ This walkthrough demonstrates how to develop a tested method in C# using Microso
 
 4. Generate a type from the test code.
 
-   1. Place the cursor on `Rooter`, and then from the light bulb menu, choose **Generate type 'Rooter'** > **Generate new type**.
+   1. Place the cursor on `Rooter`, and then open the light bulb menu.
 
       ::: moniker range=">=vs-2022"
+      Choose **Generate new type**.
+
       ![Generate new type quick action](media/vs-2022/test-driven-development-generate-new-type.png)
       ::: moniker-end
       ::: moniker range="vs-2019"
+      Choose **Generate type 'Rooter'** > **Generate new type**.
+
       ![Generate new type quick action](media/test-driven-development-generate-new-type.png)
       ::: moniker-end
 
@@ -69,7 +73,7 @@ This walkthrough demonstrates how to develop a tested method in C# using Microso
       ![Generate Type dialog box in Visual Studio 2019](media/test-driven-development-generate-type-dialog.png)
       ::: moniker-end
 
-5. Generate a method from the test code. Place the cursor on `SquareRoot`, and then from the light bulb menu, choose **Generate method 'Rooter.SquareRoot'**.
+5. Generate a method from the test code. Place the cursor on `SquareRoot`, and then from the light bulb menu, choose **Generate method 'SquareRoot'** or **Generate method 'Rooter.SquareRoot'**.
 
 6. Run the unit test.
 
@@ -78,7 +82,7 @@ This walkthrough demonstrates how to develop a tested method in C# using Microso
       ::: moniker range=">=vs-2022"
       To open Test Explorer from the **Test** menu, choose **Test Explorer**.
       ::: moniker-end
-      ::: moniker range=">=vs-2022"
+      ::: moniker range="vs-2019"
       To open Test Explorer from the **Test** menu, choose **Windows** > **Test Explorer**.
       ::: moniker-end
 
@@ -193,11 +197,9 @@ To improve our confidence that the code works in all cases, add tests that try a
 
 2. In **Test Explorer**, choose **Run All**.
 
-   The method under test loops and must be canceled manually.
+   The new test fails.
 
-3. Choose **Cancel** on the toolbar of **Test Explorer**.
-
-   The test stops executing.
+   If the method under test loops, choose **Cancel** on the toolbar of **Test Explorer**. The test stops executing and fails.
 
 4. Fix the `SquareRoot` code by adding the following `if` statement at the beginning of the method:
 

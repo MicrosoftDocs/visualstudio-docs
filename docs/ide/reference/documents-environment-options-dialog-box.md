@@ -26,6 +26,7 @@ helpviewer_keywords:
 - Options dialog box, Documents page
 - warnings, files changed
 - Solution Explorer, displaying files in
+ms.custom: "ide-ref"
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
@@ -80,7 +81,7 @@ For example, if you set this option to 5 and have 10 miscellaneous files open, w
 
 Select this option to cause files containing information incompatible with the selected codepage to be saved as Unicode by default.
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 **Automatically save files when Visual Studio is in the background**
 

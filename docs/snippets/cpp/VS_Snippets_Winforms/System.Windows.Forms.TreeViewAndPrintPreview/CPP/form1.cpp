@@ -179,7 +179,7 @@ private:
    // Declare a PrintDocument object named document.
    System::Drawing::Printing::PrintDocument^ document;
 
-   // Initalize the dialog.
+   // Initialize the dialog.
    void InitializePrintPreviewDialog()
    {
       

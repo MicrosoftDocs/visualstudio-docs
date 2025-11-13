@@ -2,7 +2,7 @@
 title: Developer Community guidelines
 description: Learn how to properly submit issues and suggestions, what to expect after submitting issues, and how best to interact with the Visual Studio Developer Community.
 ms.date: 6/30/2020
-ms.topic: conceptual
+ms.topic: article
 author: madskristensen
 ms.author: madsk
 manager: mijacobs
@@ -94,7 +94,7 @@ When we can't answer "yes" to any of these questions, we'll close it. But often 
 
 If a suggestion doesn’t match our overall product direction, we will close it as *Out of Scope*. For example, we may have similar investments in other members of the Visual Studio family of products. Or the feature suggested might only be relevant to a few people, making an extension better suited to provide it.
 
-Track the progress of your feature suggestion by referencing the [Suggestion states and FAQ](./report-a-problem.yml).
+Track the progress of your feature suggestion by referencing the [Suggestion states and FAQ](/visualstudio/ide/how-to-report-a-problem-with-visual-studio).
 
 ## Discussion etiquette
 
@@ -103,6 +103,8 @@ To keep the conversation clear and transparent, limit discussion to English and 
 For more information, see the [Microsoft Community Code of Conduct](https://answers.microsoft.com/en-us/page/codeofconduct).
 
 Any violations to the discussion etiquette can lead to removal of the comment and eventually banning the user.
+
+If you believe your account was banned by mistake, please reach out to vsfeedback@microsoft.com to request an unban.
 
 ## Data privacy
 

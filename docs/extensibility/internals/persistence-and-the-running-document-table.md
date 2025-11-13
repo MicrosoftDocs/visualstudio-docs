@@ -2,14 +2,14 @@
 title: Persistence and the Running Document Table
 description: Learn how projects coordinate document opening, saving, and renaming in the running document table, which tracks document state in the Visual Studio IDE.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - persistence, managing
 - IVsPersistHierarchyItem interface, implementing
 - architecture, persistence
 - running document table (RDT), architecture
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

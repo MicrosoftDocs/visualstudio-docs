@@ -2,7 +2,7 @@
 title: Visual C++ project extensibility
 description: Explore how the Visual C++ project system is used for .vcxproj files to provide extra C++ specific extensibility points.
 ms.date: "04/23/2019"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "C++"
 author: "tylermsft"
@@ -10,9 +10,9 @@ ms.author: "twhitney"
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---
-# Visual Studio C++ Project system extensibility and toolset integration
+# Visual Studio C++ Project system extensibility and build tools integration
 
-The Visual C++ project system is used for .vcxproj files. It's based on the [Visual Studio Common Project System (CPS)](https://github.com/Microsoft/VSProjectSystem/blob/master/doc/Index.md) and provides additional, C++ specific extensibility points for easy integration of new toolsets, build architectures, and target platforms.
+The Visual C++ project system is used for .vcxproj files. It's based on the [Visual Studio Common Project System (CPS)](https://github.com/Microsoft/VSProjectSystem/blob/master/doc/Index.md) and provides additional, C++ specific extensibility points for easy integration of new MSBuild C++ project system, build architectures, and target platforms.
 
 ## C++ MSBuild targets structure
 
@@ -648,7 +648,7 @@ If none of these conditions are detected, a project cache is created. The cache 
 
 ## Shipping your extension
 
-For information on how to create VSIX files, see [Shipping Visual Studio Extensions](../extensibility/shipping-visual-studio-extensions.md). For information on how to add files to special install locations, for example, to add files under `$(VCTargetsPath)`, see [Installing outside the extensions folder](../extensibility/set-install-root.md).
+For information on how to create VSIX files, see [Shipping Visual Studio Extensions](../extensibility/shipping-visual-studio-extensions.md). For information on how to add files to special install locations, for example, to add files under `$(VCTargetsPath)`, see [Installing outside the extensions folder](/previous-versions/visualstudio/visual-studio-2017/extensibility/set-install-root).
 
 ## Additional resources
 

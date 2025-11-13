@@ -2,7 +2,7 @@
 title: "MSBuild Properties Supported by SharePoint"
 description: Read a list of MSBuild property names and descriptions that are supported by and are specific to SharePoint.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"

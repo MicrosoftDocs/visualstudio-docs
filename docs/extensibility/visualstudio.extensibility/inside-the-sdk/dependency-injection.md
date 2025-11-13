@@ -1,13 +1,14 @@
 ---
 title: Using dependency injection in a VisualStudio.Extensibility extension
 description: Learn how to utilize dependency injection to build parts of your extension and share data between different parts of a VisualStudio.Extensibility extension.
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 2/11/2025
 ms.author: bertaygu
 monikerRange: ">=vs-2022"
 author: BertanAygun
 manager: mijacobs
 ms.subservice: extensibility-integration
+ms.update-cycle: 365-days
 ---
 
 # Dependency injection in VisualStudio.Extensibility extensions

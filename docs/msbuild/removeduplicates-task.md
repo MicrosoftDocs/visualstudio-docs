@@ -42,7 +42,7 @@ Removes duplicate items from the specified item collection.
  The following example uses the `RemoveDuplicates` task to remove duplicate items from the `MyItems` item collection. When the task is complete, the `FilteredItems` item collection contains one item.
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
 
     <ItemGroup>
         <MyItems Include="MyFile.cs"/>
@@ -66,7 +66,7 @@ Removes duplicate items from the specified item collection.
  The following example shows that the `RemoveDuplicates` task preserves its input order. When the task is complete, the `FilteredItems` item collection contains the items *MyFile2.cs*, *MyFile1.cs*, and *MyFile3.cs* in that order.
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
 
     <ItemGroup>
         <MyItems Include="MyFile2.cs"/>

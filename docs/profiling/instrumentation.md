@@ -1,8 +1,8 @@
 ---
 title: "Instrument your .NET application"
 description: Explore how to use the dynamic Instrumentation tool for your .NET applications (C#, C++, Visual Basic, F#) in Visual Studio and analyze the report.
-ms.date: "02/05/2025"
-ms.topic: "conceptual"
+ms.date: "9/2/2025"
+ms.topic: how-to
 ms.custom: "profiling-seo"
 author: "mikejo5000"
 ms.author: "mikejo"
@@ -69,7 +69,11 @@ The available data is similar to the CPU Usage tool, except that it's based on w
 
 If any insights show up in the **Top Insights** section, use the provided link to get more information about the issue identified. For more information, see [CPU insights](../profiling/cpu-insights.md), but be aware that information for the Instrumentation tool is specific to wall clock time and not CPU utilization. 
 
-In addition, if you're using Copilot, use the **Ask Copilot** button to open the Copilot chat window, and Copilot will provide suggestions based on an examination of your code and any identified issues.
+### Get AI assistance
+
+If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while you're looking at the top insights. Copilot provides information and insights related to a set of specific performance insights. With Copilot, you can also ask questions about functions on the identified hot paths in your code, which can help you produce more efficient or cost-effective code.
+
+The **Ask Copilot** button [Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png) appears even if no specific performance insights are identified. Select **Ask Copilot** to learn from Copilot and start asking questions. 
 
 ## Analyze instrumentation detailed reports
 

@@ -27,7 +27,7 @@ When you want to run a command-line tool as part of a build, there are two appro
 
 You should have an understanding of MSBuild concepts such as tasks, targets, and properties. See [MSBuild concepts](msbuild-concepts.md).
 
-The examples require MSBuild, which is installed with Visual Studio, but can also be installed separately. See [Download MSBuild without Visual Studio](https://visualstudio.microsoft.com/downloads/?q=build+tools).
+The examples require MSBuild, which is installed with Visual Studio, but can also be installed separately. See [Download MSBuild without Visual Studio](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2022).
 
 ## Option 1: Exec task
 
@@ -222,9 +222,9 @@ The complete code is in this `PetReaderToolTaskExample` folder; you can download
 
 The next step is to create an app that uses the task.
 
-1. Create a **Console App** project, and call it `PetReaderToolTaskConsoleApp`. Choose .NET 6.0. Mark it as startup project.
+1. Create a **Console App** project, and call it `PetReaderToolTaskConsoleApp`. Choose the desired .NET version. Mark it as startup project.
 
-1. Create a **Class Library** project to generate the code, called `PetRestApiClient`.  Use .NET Standard 2.1.
+1. Create a **Class Library** project to generate the code, called `PetRestApiClient`.  Use .NET Standard.
 
 1. In the `PetReaderToolTaskConsoleApp` project, create a project dependency to `PetRestApiClient`.
 

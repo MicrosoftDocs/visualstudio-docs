@@ -2,24 +2,36 @@
 title: Stage lines of code in Visual Studio
 titleSuffix: ""
 description: Stage multiple lines of code at the same time or split changes across different commits by using Git from directly within Visual Studio.
-ms.date: 08/22/2024
+ms.date: 9/10/2025
 ms.topic: concept-article
 author: ghogen
 ms.author: ghogen
 ms.manager: mijacobs
 ms.subservice: general-ide
-monikerRange: vs-2022
+monikerRange: ">=vs-2022"
 
 #customer intent: As a developer, I want to use Git features in Visual Studio so I can stage multiple lines of code at the same time or split changes across different commits. 
 ---
 
 # Stage lines of code in Visual Studio
 
+:::moniker range="visualstudio"
+Line-staging support, also known as [interactive staging](https://git-scm.com/book/en/v2/Git-Tools-Interactive-Staging) lets you stage chunks of changes in your files right from the code editor. Line staging can also be helpful when you want to split changes across different commits.
+:::moniker-end
+
+:::moniker range="vs-2022"
 Line-staging support, also known as [interactive staging](https://git-scm.com/book/en/v2/Git-Tools-Interactive-Staging), is available in Visual Studio 2022 [version 17.3](/visualstudio/releases/2022/release-notes-v17.3) and later. Line-staging lets you stage chunks of changes in your files right from the code editor. Line staging can also be helpful when you want to split changes across different commits.
+:::moniker-end
 
 :::image type="content" source="media/vs-2022/git-line-staging.png" border="false" alt-text="Screenshot of an example of Git line-staging support in Visual Studio 2022." lightbox="media/vs-2022/git-line-staging.png":::
 
+:::moniker range="visualstudio"
+You can use the hover option to also *unstage* changes, line by line.
+:::moniker-end
+
+:::moniker range="vs-2022"
 Starting with Visual Studio 2022 [version 17.6](/visualstudio/releases/2022/release-notes-v17.6), you can use the hover option to also *unstage* changes, line by line.
+:::moniker-end
 
 :::image type="content" source="media/vs-2022/git-line-unstaging.png" border="false" alt-text="Screenshot of an example of how to unstage changes for Git in Visual Studio 2022.":::
 
@@ -35,8 +47,12 @@ The colors and annotations make it easy to differentiate between saved and unsav
 
 ### Configure color margin settings
 
+:::moniker range="vs-2022"
 You can change the colors that Visual Studio displays to help you manage changes. In the **Tools** > **Options** dialog, go to the **Environment** > **Fonts and Colors** section, and configure the following **Display items** options:
-
+:::moniker-end
+:::moniker range="visualstudio"
+You can change the colors that Visual Studio displays to help you manage changes. In the **Tools** > **Options** page, search for **Fonts and Colors**, and configure the following **Display items** options:
+:::moniker-end
 - **Track additions in documents under source control**
 - **Track deletions in documents under source control**
 - **Track modifications in documents under source control**

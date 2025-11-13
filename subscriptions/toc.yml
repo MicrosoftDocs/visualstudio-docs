@@ -58,7 +58,7 @@
   href: access-github.md
 - name: Visual Studio IDE
   href: vs-ide-benefit.md
-- name: Sign in to use Visual Studio
+- name: Authenticate Visual Studio IDE
   href: use-visual-studio-without-key.md
 - name: Azure benefits
   items:
@@ -82,14 +82,8 @@
       href: microsoft-365-apps-for-enterprise.md
     - name: Microsoft 365 developer
       href: vs-m365.md
-    - name: Parasoft
-      href: vs-parasoft.md
     - name: Power BI Pro
       href: vs-pbi.md
-    - name: Visual Studio App Center
-      href: vs-visual-studio-app-center.md
-    - name: WhiteSource Bolt
-      href: vs-whitesource.md
     - name: Windows Developer Account
       href: vs-windows-dev.md
     - name: Windows Virtual Desktop
@@ -102,8 +96,6 @@
       href: vs-cloud-academy.md
     - name: DataCamp
       href: vs-datacamp.md
-    - name: LinkedIn Learning
-      href: vs-linkedin-learning.md
     - name: Pluralsight
       href: vs-pluralsight.md
   - name: Support
@@ -196,8 +188,6 @@
       href: assign-github.md
   - name: Troubleshoot
     items:
-    - name: Expired subscriptions
-      href: handle-expired-license.md
     - name: Subscriber sign-in scenarios 
       href: aliasing.md
     - name: Subscribers with personal email sign-ins
@@ -205,7 +195,7 @@
 - name: Resources
   items:
   - name: Visual Studio licensing white paper
-    href: https://visualstudio.microsoft.com/wp-content/uploads/2019/06/Visual-Studio-Licensing-Whitepaper-May-2019.pdf
+    href: https://aka.ms/vslicensing
   - name: Compare subscription options and pricing
     href: https://visualstudio.microsoft.com/vs/pricing
   - name: Compare Visual Studio IDE features
@@ -213,6 +203,6 @@
   - name: Visual Studio Administration and Subscriptions Support
     href: https://visualstudio.microsoft.com/support/support-overview-vs
   - name: Volume licensing terms
-    href: https://www.microsoft.com/licensing/product-licensing/products.aspx
+    href: https://www.microsoft.com/licensing/docs/view/Product-Terms
   - name: Microsoft Products and Services Agreement (MPSA)
     href: https://www.microsoft.com/licensing/mpsa/default.aspx

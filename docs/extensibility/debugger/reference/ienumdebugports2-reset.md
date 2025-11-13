@@ -7,8 +7,8 @@ f1_keywords:
 - IEnumDebugPorts2::Reset
 helpviewer_keywords:
 - IEnumDebugPorts2::Reset
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

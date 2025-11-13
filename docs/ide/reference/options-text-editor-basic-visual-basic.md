@@ -13,6 +13,7 @@ f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.Basic.VB_Specific
 helpviewer_keywords:
 - Basic Text Editor Options dialog box
+ms.custom: "ide-ref"
 author: akhera99
 ms.author: midumont
 manager: mijacobs
@@ -139,4 +140,4 @@ The text editor can suggest solutions to common errors and allow you to select t
 ## See also
 
 - [General, Environment, Options Dialog Box](../../ide/reference/general-environment-options-dialog-box.md)
-- [Options, Text Editor, All Languages, Tabs](../../ide/reference/options-text-editor-all-languages-tabs.md)
+- [Options, Text Editor, All Languages, Tabs](../../ide/options-text-editor-all-languages-tabs.md)

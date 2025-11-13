@@ -2,11 +2,11 @@
 title: VSPackage Setup Scenarios
 description: Learn about best practices for supporting side-by-side installations of Visual Studio with either shared or side-by-side installations of your VSPackage.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: install-set-up-deploy
 helpviewer_keywords:
 - VSPackages, deployment considerations
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

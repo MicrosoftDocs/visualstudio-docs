@@ -1,7 +1,7 @@
 ---
 title: Diagnose MSBuild task failures
 description: Diagnose MSBuild task failures by identifying the failing task, the tool name, and other information for troubleshooting.
-ms.date: 02/14/2024
+ms.date: 7/1/2025
 ms.topic: how-to
 f1_keywords:
 - MSBuild.ToolTask.ToolCommandFailed
@@ -16,7 +16,7 @@ ms.subservice: msbuild
 ---
 # Diagnose MSBuild task failures
 
-`MSB6006` is emitted when a <xref:Microsoft.Build.Utilities.ToolTask>–derived class runs a tool process that returns a nonzero exit code if the task didn't log a more specific error.
+[MSB6006](errors/msb6006.md) is emitted when an MSBuild task, a <xref:Microsoft.Build.Utilities.ToolTask>–derived class, runs a tool process that returns a nonzero exit code if the task didn't log a more specific error.
 
 ## Identify the failing task
 

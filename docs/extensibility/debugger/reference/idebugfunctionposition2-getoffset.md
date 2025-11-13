@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugFunctionPosition2::GetOffset
 helpviewer_keywords:
 - IDebugFunctionPosition2::GetOffset
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

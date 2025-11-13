@@ -2,7 +2,7 @@
 title: Visual Studio 2015 documentation
 description: How to find documentation for Visual Studio 2015 after it was archived to the previous-versions site.
 ms.date: 10/13/2020
-ms.topic: conceptual
+ms.topic: article
 author: ghogen
 ms.author: ghogen
 manager: mijacobs
@@ -18,7 +18,7 @@ As of October 13, 2020, the Visual Studio 2015 documentation has been moved to t
 
 1. To search titles only, enter keywords into the **Filter by title** box near the table of contents.
 
-We recommend upgrading to the latest version, Visual Studio 2019. To download, see [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/).
+We recommend upgrading to the latest version of Visual Studio. To download, see [Visual Studio downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-cta).
 
 In the Visual Studio 2015 IDE, F1 Help functionality should continue to work. If you encounter any issues, use the Docs Feedback link at the bottom of this page to create an issue our GitHub repo.
 

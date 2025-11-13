@@ -2,7 +2,7 @@
 title: "Customize a Ribbon for Outlook"
 description: Customize the ribbon in Microsoft Office Outlook and review consideration for your application, such as the location of the ribbon.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"

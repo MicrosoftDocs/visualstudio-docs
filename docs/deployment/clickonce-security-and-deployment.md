@@ -1,8 +1,8 @@
 ---
 title: "ClickOnce Deployment and Security"
 description: Learn about Visual Studio support for ClickOnce, a deployment technology that enables you to create self-updating Windows-based applications.
-ms.date: "09/23/2024"
-ms.topic: "conceptual"
+ms.date: "04/25/2025"
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"
@@ -47,7 +47,7 @@ ClickOnce is a deployment technology that enables you to create self-updating Wi
 ### Code access security
  Code access security helps limit the access that code has to protected resources. In most cases, you can choose the Internet or Local Intranet zones to limit the permissions. Use the **Security** page in the **Project Designer** to request the zone appropriate for the application. You can also debug applications with restricted permissions to emulate the end-user experience. For more information, see [Code access security for ClickOnce applications](../deployment/code-access-security-for-clickonce-applications.md).
 
- [!INCLUDE[ndptecclick](../deployment/includes/dotnet-feature-unsupported.md)]
+ [!INCLUDE[ndptecclick](../deployment/includes/code-access-security.md)]
 
 ### ClickOnce trust prompt
  If the application requests more permissions than the zone allows, the end user can be prompted to make a trust decision. The end user can decide if ClickOnce applications such as Windows Forms applications, Windows Presentation Foundation applications, console applications, XAML browser applications, and Office solutions are trusted to run. For more information, see [How to: Configure the ClickOnce trust prompt behavior](../deployment/how-to-configure-the-clickonce-trust-prompt-behavior.md).
@@ -96,7 +96,7 @@ ClickOnce is a deployment technology that enables you to create self-updating Wi
 |Tool|Description|
 |----------|-----------------|
 |[Security Page, Project Designer](../ide/reference/security-page-project-designer.md)|Signs the application and deployment manifests. For .NET Core and .NET 5+, these settings are in the Publish profile.|
-|[Publish Page, Project Designer](../ide/reference/publish-page-project-designer.md)|Generates and edits the application and deployment manifests for Visual Basic and Visual C# applications. For .NET Core and .NET 5+, these settings are in the Publish profile.|
+|[Specify ClickOnce Publish properties](../deployment/how-to-specify-where-visual-studio-copies-the-files.md)|Generates and edits the application and deployment manifests for Visual Basic and Visual C# applications. For .NET Core and .NET 5+, these settings are in the Publish profile.|
 |[*Mage.exe* (Manifest Generation and Editing Tool)](/dotnet/framework/tools/mage-exe-manifest-generation-and-editing-tool)|Generates the application and deployment manifests for Visual Basic, Visual C#, and Visual C++ applications.<br /><br /> Signs and re-signs the application and deployment manifests.<br /><br /> Can be run from batch scripts and the command prompt.|
 |[*dotnetmage.exe* (Manifest Generation and Editing Tool)](https://github.com/dotnet/deployment-tools/blob/main/docs/dotnet-mage/README.md)|Generates the application and deployment manifests for .NET 5+ C# and Visual Basic applications. The usage is equivalent to *Mage.exe*.<br /><br /> Signs and re-signs the application and deployment manifests.<br /><br /> Can be run from batch scripts and the command prompt.|
 |[*MageUI.exe* (Manifest Generation and Editing Tool, Graphical Client)](/dotnet/framework/tools/mageui-exe-manifest-generation-and-editing-tool-graphical-client)|Generates and edits the application and deployment manifests.<br /><br /> Signs and re-signs the application and deployment manifests.|

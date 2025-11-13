@@ -3,7 +3,7 @@ title: IntelliCode suggestions
 ms.date: 09/13/2024
 ms.service: visual-studio-family
 ms.subservice: intellicode
-ms.topic: conceptual
+ms.topic: article
 description: IntelliCode suggestions
 author: ghogen
 ms.author: ghogen

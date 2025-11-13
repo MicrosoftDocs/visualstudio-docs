@@ -1,8 +1,8 @@
 ---
 title: Deploy a layout onto a client machine
 description: Deploy a network layout of Visual Studio onto a client machine within an enterprise programmatically as part of an installation script.
-ms.date: 3/11/2024
-ms.topic: conceptual
+ms.date: 11/4/2025
+ms.topic: install-set-up-deploy
 helpviewer_keywords:
 - 'deploy layout'
 - 'install layout'
@@ -57,7 +57,7 @@ Some enterprises want to host the layout on an intranet location to better manag
 
     #ADMIN CONFIGURATION
     #Enter layout URI here
-    $LayoutUri = "http://MyCompanyIntranetSite/VS2022Enterprise/"
+    $LayoutUri = "http://MyCompanyIntranetSite/VS2026Enterprise/"
 
     #Enter bootstrapper name which is present in layout.
     $BootstrapperName = "vs_Enterprise.exe"
@@ -104,7 +104,7 @@ Some enterprises want to host the layout on an intranet location to better manag
 ## Prepare the client machines
 
 ### Permissions
-Make sure that either the user or system account that's running the installation has proper access to the network share that contains the layout. For more information, refer to the [troubleshoot network-related errors when you install or use Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md) page.
+Make sure that either the user or system account that's running the installation has proper access to the network share that contains the layout. For more information, refer to the [troubleshoot network-related errors when you install or use Visual Studio](/troubleshoot/developer/visualstudio/installation/troubleshoot-network-related-errors) page.
 
 ### Install on a client that doesn't have internet access
 
@@ -138,7 +138,7 @@ We have other support options available, too. See our [Visual Studio Developer C
 
 - [Visual Studio administrator guide](visual-studio-administrator-guide.md)
 - [Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
-- [Troubleshoot network-related errors when you install or use Visual Studio](troubleshooting-network-related-errors-in-visual-studio.md)
+- [Troubleshoot network-related errors when you install or use Visual Studio](/troubleshoot/developer/visualstudio/installation/troubleshoot-network-related-errors)
 - [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md)
 - [Configure policies for enterprise deployments of Visual Studio](configure-policies-for-enterprise-deployments.md) 
 - [Visual Studio product lifecycle and servicing](/visualstudio/productinfo/vs-servicing/)

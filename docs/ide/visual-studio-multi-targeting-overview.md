@@ -78,7 +78,7 @@ In an existing Visual Basic, C#, or F# project, you change the target .NET versi
 
 ::: moniker-end
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 1. In **Solution Explorer**, open the right-click context menu for the project that you want to change, and then choose **Properties**.
 
@@ -118,7 +118,7 @@ You must reload the project after making this change. After that, if you open th
 ::: moniker-end
 
 > [!NOTE]
-> If your code contains references to a different version of the .NET than the one that you targeted, error messages may appear when you compile or run the code. To resolve these errors, modify the references. See [Troubleshoot .NET targeting errors](../msbuild/troubleshooting-dotnet-framework-targeting-errors.md).
+> If your code contains references to a different version of the .NET than the one that you targeted, error messages may appear when you compile or run the code. To resolve these errors, modify the references. See [Troubleshoot .NET targeting errors](/troubleshoot/developer/visualstudio/project-build/troubleshooting-dotnet-framework-targeting-errors).
 
 > [!TIP]
 > Depending on the target framework, it can be represented in the following ways in the project file:
@@ -137,7 +137,7 @@ When you create a .NET Framework project, you can select the target .NET Framewo
 
 ::: moniker-end
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 If you choose to **create a .NET Framework project**, you'll see an interface that's similar to the following screenshot:
 

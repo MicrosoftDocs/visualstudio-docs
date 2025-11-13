@@ -7,8 +7,8 @@ f1_keywords:
 - BP_RESOLUTION_DATA
 helpviewer_keywords:
 - BP_RESOLUTION_DATA structure
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

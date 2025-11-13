@@ -1,7 +1,7 @@
 ---
 title: Specify custom build events
 description: Explore how you can you can automatically run commands in Visual Studio before you start a build of your project or solution or after a build completes.
-ms.date: 08/21/2024
+ms.date: 10/2/2025
 ms.subservice: compile-build
 ms.topic: concept-article
 helpviewer_keywords:
@@ -24,7 +24,7 @@ This article gives an overview of the recommended syntax for custom build comman
 
 ## Syntax for custom build commands
 
-Build commands follow the same syntax as Windows command prompt commands and you can use macros to easily create the events. For a list of available macros, see [Prebuild event and post-build event command-line dialog](./reference/pre-build-event-post-build-event-command-line-dialog-box.md).
+Build commands follow the same syntax as Windows command prompt commands and you can use [MSBuild properties](../msbuild/msbuild-properties.md) (also known as macros) to easily create the events. For a list of available MSBuild properties, see [Common MSBuild project properties](../msbuild/common-msbuild-project-properties.md). You can also define your own MSBuild properties in the project file.
 
 For best results, follow these formatting tips:
 

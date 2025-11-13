@@ -2,11 +2,11 @@
 title: Extending the Editor and Language Services
 description: You can add language service features to an editor and extend features of the Visual Studio code editor. Learn about the Managed Extensibility Framework.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - editors [Visual Studio SDK], new -
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---
@@ -31,7 +31,7 @@ You can add language service features (such as IntelliSense) to your own editor,
 |[Walkthrough: Create a view adornment, commands, and settings (column guides)](../extensibility/walkthrough-creating-a-view-adornment-commands-and-settings-column-guides.md)|Walks through and explains building a view adornment that draws column guide lines to help you keep code to a certain display width.  Also shows reading and writing settings as well as declaring and implementing commands that you can invoke from the Command Window.|
 |[Editor imports](../extensibility/editor-imports.md)|Lists the services that an extension can import.|
 |[Adapt legacy code to the editor](/previous-versions/visualstudio/visual-studio-2015/extensibility/adapting-legacy-code-to-the-editor?preserve-view=true&view=vs-2015)|Explains different ways to adapt legacy code (pre-Visual Studio 2010) to extend the editor.|
-|[Migrate a legacy language service](../extensibility/internals/migrating-a-legacy-language-service.md)|Explains how to migrate a VSPackage based language service.|
+|[Migrate a legacy language service](/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/migrating-a-legacy-language-service)|Explains how to migrate a VSPackage based language service.|
 |[Walkthrough: Link a content type to a file name extension](../extensibility/walkthrough-linking-a-content-type-to-a-file-name-extension.md)|Shows how to link a content type to a file name extension.|
 |[Walkthrough: Create a margin glyph](../extensibility/walkthrough-creating-a-margin-glyph.md)|Shows how to add an icon to a margin.|
 |[Walkthrough: Highlight text](../extensibility/walkthrough-highlighting-text.md)|Shows how to use *tags* to highlight text.|

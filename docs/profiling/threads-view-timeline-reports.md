@@ -2,7 +2,7 @@
 title: "Threads view timeline reports in the Concurrency Visualizer"
 description: "Learn that in the Threads view, you can use timeline reports to identify which threads are executing code during an execution segment."
 ms.date: "05/06/2022"
-ms.topic: "conceptual"
+ms.topic: article
 f1_keywords:
   - "vs.cv.threads.timeline.execution"
   - "vs.cv.threads.timeline.io"

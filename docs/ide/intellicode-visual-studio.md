@@ -2,10 +2,10 @@
 title: IntelliCode for Visual Studio
 titleSuffix: ""
 description: Read an overview of IntelliCode for Visual Studio. Understand preview features, supported languages, prerequisites, troubleshooting issues, and telemetry.
-ms.date: 4/1/2025
+ms.date: 7/2/2025
 ms.service: visual-studio-family
 ms.subservice: intellicode
-ms.topic: conceptual
+ms.topic: article
 author: ghogen
 ms.author: ghogen
 manager: mijacobs
@@ -40,7 +40,7 @@ C# developers in Visual Studio 2022 and higher also benefit from [whole-line aut
 
 ## Install IntelliCode for Visual Studio
 
-1. [Download Visual Studio](https://visualstudio.microsoft.com/downloads/?utm_medium=microsoft&utm_source=learn.microsoft.com&utm_campaign=inline+link&utm_content=download+vs2019) version 16.4 or later.
+1. [Download Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) version 16.4 or later.
 2. Install a [supported workload](#supported-languages--workloads), such as .NET desktop development. 
    Visual Studio IntelliCode is installed by default.
 
@@ -88,7 +88,7 @@ If disabling extensions that override IntelliSense UI doesn't solve the problem 
 
 IntelliCode captures some anonymized usage and error-reporting data to help improve the product. No user-defined code is sent to Microsoft, but we do collect information about your use of the IntelliCode results.  For base model suggestions, which are open source or .NET types and members, we capture whether you selected an IntelliCode suggestion and log the name of the suggestion. Microsoft uses the data to monitor the quality of the base model. For custom models, we capture whether you selected an IntelliCode suggestion but *don't* log the names of your user-defined types or methods.
 
-To turn off data collection for IntelliCode, opt out of the [Visual Studio Experience Improvement Program](visual-studio-experience-improvement-program.md). From the menu bar, select **Help** > **Send Feedback** > **Settings**. In the **Visual Studio Experience Improvement Program** dialog, select **No, I would not like to participate** and then select **OK**.
+To turn off data collection for IntelliCode, opt out of the [Visual Studio Experience Improvement Program](visual-studio-experience-improvement-program.md). From the menu bar, select **Help** > **Privacy** > **Privacy Settings**. In the **Visual Studio Experience Improvement Program** dialog, select **No, I would not like to participate** and then select **OK**.
 
 ## See also
 

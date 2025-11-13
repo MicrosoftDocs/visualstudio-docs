@@ -3,8 +3,8 @@ title: Use connected identities in subscriptions
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 09/11/2024
-ms.topic: conceptual
+ms.date: 04/11/2025
+ms.topic: how-to
 robots: "noindex, nofollow"
 description: Work with connected identities such as Microsoft accounts and Microsoft Entra ID identities in Visual Studio subscriptions.
 ---
@@ -49,7 +49,7 @@ Adding an alternate account to your Visual Studio subscription allows you to acc
 2. Select the **Subscriptions** tab.
 3. Choose **Add alternate account**.
 4. Add your work or school account.
-5. Use your work or school account to sign in to Azure DevOps (https://{your account}.visualstudio.com).
+5. Use your work or school account to sign in to Azure DevOps.
 
 Your alternate account is added to the Visual Studio subscription, allowing both identities to utilize the benefits of the subscription that require you to sign in with the alternate account (IDE, Azure DevOps, and Azure).
 

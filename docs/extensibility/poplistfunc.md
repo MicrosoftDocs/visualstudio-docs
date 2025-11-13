@@ -7,8 +7,8 @@ f1_keywords:
 - POPDIRLISTFUNC
 helpviewer_keywords:
 - POPLISTFUNC callback function
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

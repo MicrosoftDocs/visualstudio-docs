@@ -2,11 +2,11 @@
 title: Simplified Embedding
 description: Learn about simplified embedding, which can be enabled in an editor when its document view object is a child of Visual Studio.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - editors [Visual Studio SDK], custom - simple view embedding
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

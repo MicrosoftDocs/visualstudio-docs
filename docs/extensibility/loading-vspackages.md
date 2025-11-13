@@ -2,12 +2,12 @@
 title: Loading VSPackages
 description: Learn about loading VSPackages in Visual Studio, including delayed loading, which is used whenever possible to improve performance.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - VSPackages, autoloading
 - VSPackages, loading
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

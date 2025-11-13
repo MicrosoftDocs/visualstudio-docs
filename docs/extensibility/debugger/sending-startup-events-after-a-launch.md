@@ -2,11 +2,11 @@
 title: Sending Startup Events After a Launch
 description: Learn about the series of startup events that the debug engine sends to the debug session after the debug engine is attached to a program.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - debugging [Debugging SDK], startup events
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---

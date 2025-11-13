@@ -2,14 +2,14 @@
 title: Feedback to the User
 description: Learn how to provide visual feedback to the user about available functionality in the Visual Studio integrated development environment (IDE).
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - user model feedback
 - environment, context
 - IDE, context
 - IDE, user feedback
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

@@ -2,11 +2,11 @@
 title: Source control guidelines for projects and editors
 description: Learn about the guidelines that projects and editors should adhere to in order to support source control.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - source control [Visual Studio SDK], guidelines for projects and editors
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

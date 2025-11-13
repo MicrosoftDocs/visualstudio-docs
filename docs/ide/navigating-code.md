@@ -2,7 +2,7 @@
 title: Options for Browsing Code in the Editor
 description: Explore the options for using the Visual Studio editor for browsing your code, including the Navigation bar and Navigate Backward and Forward commands.
 ms.date: 04/04/2025
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - code editor, navigation
 - code editor, go to
@@ -154,7 +154,7 @@ Input method| Steps
 
 ## Call Hierarchy
 
-You can view calls to and from a method in the [Call Hierarchy window](../ide/reference/call-hierarchy.md):
+You can view calls to and from a method in the [Call Hierarchy window](../ide/call-hierarchy.md):
 
 Input method| Steps
 ------------ | ---
@@ -184,4 +184,4 @@ You can get info about specific code, like changes and who made the changes, ref
 ## Related content
 
 - [Features of the code editor](../ide/writing-code-in-the-code-and-text-editor.md)
-- [View call hierarchy](../ide/reference/call-hierarchy.md)
+- [View call hierarchy](../ide/call-hierarchy.md)

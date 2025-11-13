@@ -1,11 +1,12 @@
 ---
-title: Customize & save layouts of windows and tabs
+title: Customize and Save Layouts of Windows and Tabs
 description: Learn how to customize tabs and windows in Visual Studio to create layouts that work best for your development workflows.
-ms.date: 08/23/2024
+ms.date: 11/11/2025
 ms.topic: how-to
 f1_keywords:
 - vs.windows
 - vs.environment
+- "VS.ToolsOptionsPages.Environment.TabsAndWindows"
 helpviewer_keywords:
 - windows [Visual Studio], managing
 - custom window configurations
@@ -29,24 +30,24 @@ ms.subservice: general-ide
 
 # Customize window layouts and personalize tabs
 
-In Visual Studio, you can customize the position, size, and behavior of windows to create window layouts that work best for various development workflows. You can also personalize how you use [tabs](#personalize-tabs) to interact with your code.
+In Visual Studio, you can customize the position, size, and behavior of windows to create window layouts that work best for various development workflows. You can also personalize how you use [tabs](#personalize-tabs) to interact with your code. This article describes various ways to customize the Visual Studio UI. 
 
 ## Customize window layouts
 
-When you customize a window layout, the Visual Studio [integrated development environment](../get-started/visual-studio-ide.md) (IDE) remembers it. For example, if you change the docking location of [Solution Explorer](use-solution-explorer.md) and then close Visual Studio, the next time that you open Visual Studio, Solution Explorer will be docked in the same location. The Visual Studio IDE remembers the docking location even if you're working on another computer.
+When you customize a window layout, the Visual Studio [integrated development environment](../get-started/visual-studio-ide.md) (IDE) retains it. For example, if you change the docking location of [Solution Explorer](use-solution-explorer.md) and then close Visual Studio, the next time that you open Visual Studio, Solution Explorer will be docked in the same location. The Visual Studio IDE retains the docking location even if you're working on another computer.
 
 You can also name and save a custom layout and then switch between layouts with a single command. For example, you could create a layout for editing and a layout for debugging, and switch between them by selecting **Window** > **Apply Window Layout**.
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 > [!TIP]
-> Starting with Visual Studio 17.9, the list of open documents was moved from a binary format in the .suo file to a plain text format in a JSON file. The JSON file is saved in the hidden .vs folder in the same location as the .suo file (**solutionFolder**.vs\\**solutionName**\v17). This JSON file contains the list of open documents and their properties, the layout of document groups and containers, and vertical tab column width. Storing in plain text as JSON enables easier backup and the ability to check in different sets of open documents that can be restored as needed.
+> Starting with Visual Studio 17.9, the list of open documents was moved from a binary format in the .suo file to a plain text format in a JSON file. The JSON file is saved in the hidden .vs folder in the same location as the .suo file (<solutionFolder\>\\.vs\\<solutionName\>\v17). This JSON file contains the list of open documents and their properties, the layout of document groups and containers, and vertical tab column width. Storing this information in plain text as JSON enables easier backup and the ability to check in different sets of open documents that can be restored as needed.
 
 ::: moniker-end
 
 ### Tool and document windows
 
-The IDE has two basic window types: *tool windows* and *document windows*. Tool windows include Solution Explorer, Server Explorer, the Output window, Error List, the designers, and the debugger windows. Document windows contain source code files, arbitrary text files, config files, and so on. You can resize tool windows and drag them by their title bar. You can drag document windows by their tab.
+The IDE has two basic window types: *tool windows* and *document windows*. Tool windows include Solution Explorer, Server Explorer, the Output window, the Error List, the designers, and the debugger windows. Document windows contain source code files, arbitrary text files, config files, and so on. You can resize tool windows and drag them by their title bar. You can drag document windows by their tab.
 
 The **Window** menu contains options for docking, floating, and hiding windows in the IDE. Right-click a window's tab or title bar to see more options for that specific window. You can display more than one instance of certain tool windows at a time. For example, you can display more than one web browser window, and you can create extra instances of some tool windows by selecting **New Window** on the **Window** menu.
 
@@ -56,7 +57,7 @@ When you need to view or edit two locations simultaneously in a document, you ca
 
 #### Toolbars
 
-You can arrange toolbars by dragging them to where you want them, or by using the **Customize** dialog. For more information about how to position and customize toolbars, see [Customize menus and toolbars](how-to-customize-menus-and-toolbars-in-visual-studio.md).
+You can arrange toolbars by dragging them to where you want them, or by using the **Tools** > **Customize** dialog. For more information about how to position and customize toolbars, see [Customize menus and toolbars](how-to-customize-menus-and-toolbars-in-visual-studio.md).
 
 ### Arrange and dock windows
 
@@ -66,7 +67,6 @@ You can dock a tool window anywhere inside the IDE frame. You can also dock some
 
 You can also arrange windows in the following ways:
 
-- Dock multiple windows to float together in a *raft* over or outside of the IDE.
 - Hide tool windows along the edge of the IDE.
 - Minimize tool windows.
 - Display windows on different monitors.
@@ -84,7 +84,7 @@ To return a tool window or document window to its most recent docked location, s
 
 The following screenshot shows the guide diamond for document windows, which can be docked only within the editing frame:
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 :::image type="content" source="media/document-window-guide-diamond.png" alt-text="Screenshot of the document window guide diamond.":::
 
@@ -96,7 +96,7 @@ The following screenshot shows the guide diamond for document windows, which can
 
 ::: moniker-end
 
-You can fasten tool windows to one side of a frame in the IDE or within the editing frame. To help you to easily redock the window, a guide diamond appears when you drag the window to another location.
+You can fasten tool windows to one side of a frame in the IDE or within the editing frame. To help you easily redock the window, a guide diamond appears when you drag the window to another location.
 
 :::image type="content" source="media/tool-window-guide-diamond-sml.png" alt-text="Screenshot of the Tool window guide diamond.":::
 
@@ -112,22 +112,32 @@ If you right-click the title bar of a tool window and then select **Auto Hide**,
 
 :::image type="content" source="media/auto-hide-sml.png" alt-text="Set of two screenshots that show the Auto Hide menu item and the associated set of tabbed tool windows that appear when Auto Hide is selected." lightbox="media/auto-hide-lrg.png":::
 
+:::moniker range="visualstudio"
+
 > [!TIP]
-> To specify whether auto hide operates on tool windows individually or as docked groups, select or clear **Auto Hide button affects active tool window only** in the **Options** dialog. For more information, see [Options dialog box: Environment > General](reference/general-environment-options-dialog-box.md).
+> To specify whether auto hide operates on tool windows individually or as docked groups, select or clear the **Auto Hide button affects active tool window only** option in the **Tools** > **Options** pane, under the **All Settings** > **Environment** > **General** section. For more information, see [Tools > Options: Environment > General](reference/general-environment-options-dialog-box.md).
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+> [!TIP]
+> To specify whether auto hide operates on tool windows individually or as docked groups, select or clear the **Auto Hide button affects active tool window only** option in the **Tools** > **Options** dialog, under the **Environment** > **General** section. For more information, see [Options dialog box: Environment > General](reference/general-environment-options-dialog-box.md).
+
+:::moniker-end
 
 > [!NOTE]
 > When auto hide is enabled on a tool window, the window might temporarily slide into view when it has focus. To hide the window again, select an item outside of the current window. When the window loses focus, it slides back out of view.
 
 #### Use a second monitor
 
-If you have a second monitor and your operating system supports the use of dual monitors, you can select which monitor displays a window. You can even group multiple windows together in *rafts* on other monitors.
+If you have a second monitor and your operating system supports the use of dual monitors, you can select which monitor displays a window. 
 
 > [!TIP]
 > You can create multiple instances of Solution Explorer and move them to another monitor. Right-click the [Solution node](use-solution-explorer.md#solution-explorer-ui) and select **[New Solution Explorer View](use-solution-explorer.md#solution-node-menu-options)**. To close an extra instance, double-click the title bar while selecting the **Ctrl** key.
 
 #### Reset window layouts
 
-You can return the IDE to the original window layout for your settings collection by selecting **Windows** > **Reset Window Layout** from the menu bar. When you run this command, the following actions occur:
+You can return the IDE to the original window layout for your settings collection by selecting **Windows** > **Reset Window Layout** in the main menu. When you run this command, the following actions occur:
 
 - All windows are moved to their default positions.
 
@@ -137,7 +147,7 @@ You can return the IDE to the original window layout for your settings collectio
 
 #### Create and save custom layouts
 
-Visual Studio enables you to save up to 10 custom window layouts and quickly switch among them. The following steps show how to create, save, invoke, and manage two custom layouts that take advantage of multiple monitors and have both docked and floating tool windows.
+Visual Studio enables you to save as many as 10 custom window layouts and quickly switch among them. The following steps show how to create, save, invoke, and manage two custom layouts that take advantage of multiple monitors and have both docked and floating tool windows.
 
 ##### Create a project and customize the layout
 
@@ -153,15 +163,15 @@ First, create a user interface (UI) project. The idea is to maximize the space f
 
 1. When your layout is how you want it, select **Window** > **Save Window Layout**. Name the layout **Designer**.
 
-     Notice that your new layout is assigned the next keyboard shortcut from the reserved list of **Ctrl**+**Alt**+**1...0** shortcuts.
+     Your new layout is assigned the next keyboard shortcut from the reserved list of **Ctrl**+**Alt**+**1...0** shortcuts.
 
 ##### Create a database project and layout
 
-Next, add a new SQL Server database project to the solution.
+Next, add a new SQL Server database project to the solution:
 
 1. Right-click the **Solution** node in **Solution Explorer** to open its [context menu](use-solution-explorer.md#solution-explorer-context-menu), select **Add**, and then select **New Project**.
 
-1. In the **Add a new project** dialog, select **SQL** from the **All project types** list, and then select **SQL Server Database Project**. (You might need to clear the other filters.)
+1. In the **Add a new project** dialog, select **SQL** from the **All project types** list, and then select **SQL Server Database Project**. (You might need to clear the other filters.) Select **Next** and then select **Create**.
 
    (You can also use the search box to find the template. To do so, enter **SQL** in the box that contains the text **Search for templates (Alt+S)**.)
 
@@ -173,7 +183,7 @@ Next, add a new SQL Server database project to the solution.
 
 ##### Switch between the layouts
 
-To switch between layouts, use the keyboard shortcuts from the reserved list of **Ctrl**+**Alt**+**1...0** shortcuts. Or, from the main menu, select **Window** > **Apply Window Layout**.
+To switch between layouts, use the keyboard shortcuts from the reserved list of **Ctrl**+**Alt**+**1...0** shortcuts. Or, in the main menu, select **Window** > **Apply Window Layout**.
 
 :::image type="content" source="media/apply-window-layout-sml.png" alt-text="Screenshot of the Apply Window Layout menu.":::
 
@@ -184,7 +194,7 @@ If you have a multi-monitor setup at work and a single monitor laptop at home, y
 
 #### Manage and roam your layouts
 
-You can remove, rename, or reorder your custom layout by selecting **Window** > **Manage Window Layouts**. If you move a layout, the key binding is automatically adjusted to reflect the new position in the list. The key bindings themselves can't be modified, but you can store up to 10 layouts at a time.
+You can remove, rename, or reorder your custom layout by selecting **Window** > **Manage Window Layouts**. If you move a layout, the key binding is automatically adjusted to reflect the new position in the list. The key bindings themselves can't be modified, but you can store as many as 10 layouts at a time.
 
 :::image type="content" source="media/manage-window-layouts-sml.png" alt-text="Screenshot of the Manage Window Layouts dialog.":::
 
@@ -194,7 +204,7 @@ These layouts automatically roam between Visual Studio [editions](https://visual
 
 ## Personalize tabs
 
-You can personalize tabs to interact with document windows in several different ways. For example, you can view a preview of a file in the editor without opening the file, you can group your tabs, arrange them in multiple rows, and more.
+You can personalize tabs to interact with document windows in several ways. For example, you can view a preview of a file in the editor without opening the file, you can group your tabs, arrange them in multiple rows, and more.
 
 > [!TIP]
 > To learn more about how to manage tabs in Visual Studio 2022 and later, see the following blog post: [Too many tabs open? No problem!](https://devblogs.microsoft.com/visualstudio/too-many-tabs-open-no-problem/).
@@ -205,11 +215,11 @@ On the **Preview** tab, you can view files in the editor without opening them. Y
 
 ### Tab groups
 
-Tab groups extend your ability to manage limited workspace while you're working with two or more open documents in the IDE. You can organize multiple document windows and tool windows into either vertical or horizontal tab groups and shuffle documents from one tab group to another.
+Tab groups extend your ability to manage limited workspace while you're working with two or more open documents in the IDE. You can organize multiple document windows and tool windows into either vertical or horizontal tab groups and move documents from one tab group to another.
 
 #### Vertical document tabs
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 You can manage your document tabs in a vertical list on either the left or right side of the editor.
 
@@ -217,7 +227,7 @@ You can manage your document tabs in a vertical list on either the left or right
 
 ::: moniker range="vs-2019"
 
-[New in Visual Studio 2019 version 16.4 and later](/visualstudio/releases/2019/release-notes-v16.4/). These versions support one of the top feature requests: [vertical document tabs](https://developercommunity.visualstudio.com/idea/467369/vertical-group-tab.html). You can now manage your document tabs in a vertical list on either the left or right side of the editor.
+[New in Visual Studio 2019 version 16.4 and later](/visualstudio/releases/2019/release-notes-v16.4/). These versions support one of the top feature requests: [vertical document tabs](https://developercommunity.visualstudio.com/idea/467369/vertical-group-tab.html). You can manage your document tabs in a vertical list on either the left or right side of the editor.
 
 :::image type="content" source="./media/vs-2019/vertical-tabs.gif" alt-text="Animation that shows vertical document tabs.":::
 
@@ -225,71 +235,115 @@ You can manage your document tabs in a vertical list on either the left or right
 
 You can apply vertical document tabs in the following ways:
 
-- Select **Tools** > **Options** > **Environment** > **Tabs and Windows**. Then, in the **Set tab layout** list, select **Top**, **Left**, or **Right**.
+::: moniker range="visualstudio"
 
+- Open the **Tools** > **Options** pane and expand the **All Settings** > **Environment** > **Tabs** > **Document Tabs** section. In the **Tab layout** list, select **Top**, **Left**, or **Right**.
+
+- Right-click a tab, select **Set Tab Layout**, and then select **Place Tabs on the Left**, **Place Tabs on the Top**, or **Place Tabs on the Right**. (To return the tabs to their default position, select **Place Tabs on the Top**.)
+
+::: moniker-end
+::: moniker range="vs-2022"
+
+- Open the **Tools** > **Options** dialog and expand the **Environment** > **Tabs and Windows** section. In the **Set tab layout** list, select **Top**, **Left**, or **Right**.
+
+- Right-click a tab, select **Set Tab Layout**, and then select **Place Tabs on the Left**, **Place Tabs on the Top**, or **Place Tabs on the Right**. (To return the tabs to their default position, select **Place Tabs on the Top**.)
+
+::: moniker-end
 ::: moniker range="vs-2019"
+
+- Select **Tools** > **Options** > **Environment** > **Tabs and Windows**. Then, in the **Set tab layout** list, select **Top**, **Left**, or **Right**.
 
 - Right-click a tab, select **Set Tab Layout**, and then select either **Left** or **Right**. (To return the tabs to their default position, select **Top**.)
 
 ::: moniker-end
 
-::: moniker range="vs-2022"
-
-- Right-click a tab, select **Set Tab Layout**, and then select **Place Tabs on the Left**, **Place Tabs on the Top**, or **Place Tabs on the Right**. (To return the tabs to their default position, select **Place Tabs on the Top**.)
-
-::: moniker-end
-
-::: moniker range="vs-2022"
-
 ### Color-code document tabs
 
-Visual Studio 2022 includes new personalization options that can help you work more efficiently. You can now color-code file tabs by project so that you don't need to hunt for your open files.
+In Visual Studio 2022 and later, you can color-code file tabs by project so that you don't need to hunt for your open files.
 
-To color-code tabs, go to **Tools** > **Options** > **Environment** > **Tabs and Windows**. Then select the **Colorize document tabs by** checkbox and select either **Project**, **File extension**, or **Regular Expression** in the dropdown list.
+::: moniker range="visualstudio"
+
+To color-code tabs, open the **Tools** > **Options** pane and expand the **All Settings** > **Environment** > **Tabs** > **Document Tabs** section. For the **Tab colorization method** option, select **Project**, **File extension**, **Regular Expression**, or **None**.
+
+::: moniker-end
+::: moniker range="vs-2022"
+
+To color-code tabs, open the **Tools** > **Options** dialog and expand the **Environment** > **Tabs and Windows** section. Select the **Colorize document tabs by** checkbox, and set the dropdown selector to **Project**, **File extension**, or **Regular Expression**.
+
+::: moniker-end
 
 #### Colorize tabs in different views
 
 You can colorize tabs in both vertical and horizontal views in the editor.
 
-The following screenshot shows an example of color tabs in the vertical view:
+The following screenshot shows an example of colorized tabs in the vertical view:
 
-:::image type="content" source="media/vs-2022/color-tabs-vertical.png" alt-text="Screenshot of color tabs in the vertical view.":::
+:::image type="content" source="media/vs-2022/color-tabs-vertical.png" alt-text="Screenshot of colorized tabs in the vertical view.":::
 
-The following screenshot shows an example of color tabs in the horizontal view:
+The following screenshot shows an example of colorized tabs in the horizontal view:
 
-:::image type="content" source="media/vs-2022/color-tabs-horizontal.png" alt-text="Screenshot of color tabs in the horizontal view.":::
+:::image type="content" source="media/vs-2022/color-tabs-horizontal.png" alt-text="Screenshot of colorized tabs in the horizontal view.":::
 
 #### Select your own colors
 
 You can also select your own tab colors. To do so, right-click a tab, select **Set Tab Color**, and then select a color.
 
-The following screenshot shows an example of how to personalize the color scheme of tabs:
+The following screenshot shows how to personalize the color scheme of tabs:
 
-:::image type="content" source="media/vs-2022/color-tabs-personalize-schemes.png" alt-text="Screenshot of the Set Tab Option that you can use to personalize the colors of tabs.":::
+:::image type="content" source="media/vs-2022/color-tabs-personalize-schemes.png" alt-text="Screenshot of the Set Tab Color option that you can use to personalize the colors of tabs.":::
 
 ### Multiple rows of tabs
 
-You can now wrap tabs into multiple rows. This enables you to have more horizontal tabs open at once. Pinned tabs show up in a separate row from unpinned tabs.
+You can wrap tabs into multiple rows. This enables you to have more horizontal tabs open at once. Pinned tabs show up in a separate row from unpinned tabs.
 
-:::image type="content" source="media/vs-2022/tabs-multiple-rows-sml.png" alt-text="Screenshot of an example of tabs arranged in multiple rows.":::
+:::image type="content" source="media/vs-2022/tabs-multiple-rows-sml.png" alt-text="Screenshot of tabs arranged in multiple rows.":::
 
-To change these options, go to **Tools** > **Options** > **Environment** > **Tabs and Windows** > **Show tabs in multiple rows**.
+::: moniker range="visualstudio"
 
-### Custom organization system
+Open the **Tools** > **Options** pane and expand the **All Settings** > **Environment** > **Tabs** > **Document Tabs** section. Under **Tab sorting**, select the **Show tabs in multiple rows** checkbox.
 
-You can now apply bold formatting to your current active tab, change your tab width, and add an extra close button at the top of a document.
+::: moniker-end
+::: moniker range="vs-2022"
 
-:::image type="content" source="media/vs-2022/custom-tab-organization-sml.png" alt-text="Screenshot of the new custom organization options for tabs in Visual Studio.":::
+Open the **Tools** > **Options** dialog and expand the **Environment** > **Tabs and Windows** section. Select the **Show tabs in multiple rows** checkbox.
 
-To change these options, navigate to **Tools** > **Options** > **Environment** > **Tabs and Windows**.
+::: moniker-end
 
-### Improved accessibility
+### Other tab options
+
+You can apply bold formatting to your current active tab, change your tab width, and add an extra close button at the top of a document.
+
+::: moniker range="visualstudio"
+
+To change these options, go to the **Tools** > **Options** pane, and explore the **All Settings** > **Environment** > **Tabs** > **Document Tabs** section.
+
+:::image type="content" source="media/visualstudio/custom-tab-organization.png" alt-text="Screenshot that shows other tab options in Visual Studio.":::
+
+::: moniker-end
+::: moniker range="vs-2022"
+
+To change these options, go to the **Tools** > **Options** dialog, and explore the **Environment** > **Tabs and Windows** section.
+
+:::image type="content" source="media/vs-2022/custom-tab-organization-sml.png" alt-text="Screenshot of options for tabs in Visual Studio.":::
+
+::: moniker-end
+
+### Unsaved changes indicator
 
 You can change the indicator for documents that have unsaved changes to a larger, more visible dot.
 
 :::image type="content" source="media/vs-2022/tabs-modify-asterisk.png" alt-text="Screenshot of large dot that indicates unsaved changes.":::
 
-To change this setting, select your preference in **Tools** > **Options** > **Environment** > **Tabs and Windows** > **Dirty Indicator**.
+::: moniker range="visualstudio"
+
+To change this setting, go to the **Tools** > **Options** pane, and expand the **All Settings** > **Environment** > **Tabs** > **Document Tabs** section. Select your preference in the **Dirty Indicator** option.
+
+::: moniker-end
+::: moniker range="vs-2022"
+
+To change this setting, go to the **Tools** > **Options** dialog, and expand the **Environment** > **Tabs and Windows** section. Select your preference in the **Dirty Indicator** option.
+
+::: moniker-end
 
 ### Show names in italics
 
@@ -297,15 +351,22 @@ You can show the names of documents that aren't visible in italics.
 
 :::image type="content" source="media/vs-2022/tabs-italics-invisible.png" alt-text="Screenshot of invisible tabs listed in italics.":::
 
-To enable this option, go to **Tools** > **Options** > **Environment** > **Tabs and Windows** and select **Show invisible tabs in italic in tab dropdown menu**.
+::: moniker range="visualstudio"
+
+To enable this option, go to the **Tools** > **Options** pane, and expand the **All Settings** > **Environment** > **Tabs** > **Document Tabs** section. Under **Tab sorting**, select the **Show invisible tabs in italic in tab dropdown menu** checkbox.
+
+::: moniker-end
+::: moniker range="vs-2022"
+
+To change this setting, go to the **Tools** > **Options** dialog, and expand the **Environment** > **Tabs and Windows** section. Select the **Show invisible tabs in italic in tab dropdown menu** checkbox.
+
+::: moniker-end
 
 ### Restore closed tabs
 
-You can reopen the last tab you closed by right-clicking a tab, by using the **Ctrl**+**K**, **Ctrl**+**Z** keyboard shortcut, or by selecting **Window** > **Restore Closed Tab**.
+You can reopen the last tab you closed by right-clicking a tab and selecting **Restore Closed Tab**, by using the **Ctrl**+**K**, **Ctrl**+**Z** keyboard shortcut, or by selecting **Window** > **Restore Closed Tab**.
 
 :::image type="content" source="media/vs-2022/tabs-restore-recent-documents.png" alt-text="Screenshot of the Restore Closed Tab menu item.":::
-
-::: moniker-end
 
 ## Related content
 

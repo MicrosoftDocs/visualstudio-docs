@@ -2,7 +2,7 @@
 title: "Spy++ Toolbar"
 description: Learn about the user interface elements in the Spy++ toolbar, which appears under the menu bar.
 ms.date: 02/05/2024
-ms.topic: "conceptual"
+ms.topic: article
 helpviewer_keywords:
   - "Spy++ toolbar"
 author: "mikejo5000"

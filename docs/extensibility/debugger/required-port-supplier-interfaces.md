@@ -2,12 +2,12 @@
 title: Required Port Supplier Interfaces
 description: Learn about the interfaces that a port supplier must run. A port supplier supplies ports and implements them.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - port suppliers, required interfaces
 - debugging [Debugging SDK], port suppliers
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---

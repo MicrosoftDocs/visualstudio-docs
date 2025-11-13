@@ -3,8 +3,8 @@ title: Menus and Commands for Visual Studio
 description: Learn how command bars allow for flexibility in the user interface when you create new features for Visual Studio.
 ms.date: 11/04/2016
 ms.topic: reference
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

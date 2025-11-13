@@ -2,7 +2,7 @@
 title: "Debug Office projects"
 description: Learn how you can debug Office projects by using the same Microsoft Visual Studio tools you use for other Visual Studio projects. 
 ms.date: "08/14/2019"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"

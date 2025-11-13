@@ -7,6 +7,7 @@ ms.topic: how-to
 ms.date: 05/15/2023
 ms.author: ghogen
 monikerRange: ">=vs-2019"
+ms.custom: sfi-image-nochange
 ---
 
 # Adding Azure App Configuration by using Visual Studio Connected Services
@@ -21,7 +22,7 @@ You can use the App Configuration Connected Services feature in the following pr
 
 ## Prerequisites
 
-- Visual Studio (see [Visual Studio downloads] (https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta)) with the **Azure development** workload installed.
+- Visual Studio (see [Visual Studio downloads] (https://aka.ms/vs/download/?cid=learn-onpage-download-cta)) with the **Azure development** workload installed.
 - A project of one of the supported types
 - [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
 
@@ -43,7 +44,7 @@ You can use the App Configuration Connected Services feature in the following pr
 
     ![Screenshot showing "Add App Configuration" screen.](./media/vs-azure-tools-connected-services-app-configuration/add-azure-app-configuration.png)
 
-    If you aren't signed in already, sign in to your Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/dotnet).
+    If you aren't signed in already, sign in to your Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn).
 
 1. In the **Configure Azure App Configuration** screen, select your subscription and an existing configuration store. Then select **Next**.
 
@@ -85,7 +86,7 @@ You can use the App Configuration Connected Services feature in the following pr
 
    ![Screenshot showing Connect to dependency for Azure App Configuration.](./media/vs-2022/connect-to-dependency-app-configuration.png)
 
-    If you aren't signed in already, sign in to your Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/).
+    If you aren't signed in already, sign in to your Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn).
 
 1. In the **Configure Azure App Configuration** screen, select your subscription and an existing configuration store. Then select **Next**.
 

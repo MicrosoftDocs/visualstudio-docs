@@ -7,10 +7,11 @@ f1_keywords:
 - DISASSEMBLY_STREAM_FIELDS
 helpviewer_keywords:
 - DISASSEMBLY_STREAM_FIELDS enumeration
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
+ms.custom: sfi-ropc-nochange
 dev_langs:
 - CPP
 - CSharp

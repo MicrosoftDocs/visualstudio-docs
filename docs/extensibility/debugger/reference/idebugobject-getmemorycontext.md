@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugObject::GetMemoryContext
 helpviewer_keywords:
 - IDebugObject::GetMemoryContext method
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

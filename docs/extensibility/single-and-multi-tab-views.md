@@ -2,11 +2,11 @@
 title: Single and Multi-tab Views
 description: Learn how to implement multi-tab views in editors, such as a code editor windows and a forms designer.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - editors [Visual Studio SDK], custom - single and multi-tab views
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

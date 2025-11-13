@@ -2,7 +2,7 @@
 title: "Access local & remote data (ClickOnce apps)"
 description: Discover the variety of options supported by ClickOnce for reading and writing data, both locally and remotely, including a ClickOnce data directory.
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"
@@ -73,6 +73,8 @@ Most applications consume or produce data. ClickOnce gives you a variety of opti
  Isolated Storage provides an API for creating and accessing files by using a simple API. The actual location of the stored files is hidden from both the developer and the user.
 
  Isolated Storage works in all versions of the .NET Framework. Isolated Storage also works in partially trusted applications without the need for additional permission grants. You should use Isolated Storage if your application must run in partial trust, but must maintain application-specific data.
+
+ [!INCLUDE[ndptecclick](../deployment/includes/code-access-security-partial-trust.md)]
 
  For more information, see [Isolated Storage](/dotnet/standard/io/isolated-storage).
 

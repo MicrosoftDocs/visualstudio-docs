@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugPortSupplier2::AddPort
 helpviewer_keywords:
 - IDebugPortSupplier2::AddPort
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

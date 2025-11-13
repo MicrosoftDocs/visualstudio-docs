@@ -2,12 +2,12 @@
 title: Adding Project and Project Item Templates
 description: Learn about adding project and project item templates to the dialog boxes in the Visual Studio integrated development environment (IDE).
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - projects [Visual Studio SDK], adding
 - project items [Visual Studio], adding
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

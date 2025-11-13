@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugDisassemblyStream2::GetDocument
 helpviewer_keywords:
 - IDebugDisassemblyStream2::GetDocument
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

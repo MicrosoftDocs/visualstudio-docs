@@ -30,7 +30,7 @@ The completed sample for this walkthrough is available on GitHub at [python-samp
 
 ## Prerequisites
 
-- Visual Studio 2017 or later, with the Python development workload installed. The workload includes the Python native development tools, which add the C++ workload and toolsets necessary for native extensions. 
+- Visual Studio 2017 or later, with the Python development workload installed. The workload includes the Python native development tools, which add the C++ workload and build tools necessary for native extensions. 
 
    :::image type="content" source="media/cpp-install-native.png" alt-text="Screenshot of a list of Python development options, highlighting the Python native development tools option." border="false" lightbox="media/cpp-install-native.png":::
 
@@ -179,7 +179,7 @@ You need to set the project properties for both the _debug_ and _release_ build 
    1. For the **Platform**, select **Active (x64)** or **Active (Win32)**, depending on your selection in the preceding step.
 
       > [!NOTE]
-      > When you create your own projects, you'll want to configure the _debug_ and _release_ configurations separately, according to your specific scenario requirements. In this exercise, you set the configurations to use a release build of CPython. This configuration disables some debugging features of the C++ runtime, including assertions. Using CPython debug binaries (_python_d.exe_) requires different settings.
+      > When you create your own projects, you'll want to configure the _debug_ and _release_ configurations separately, according to your specific scenario requirements. In this exercise, you set the configurations to use a release build of CPython. This configuration disables some debugging features of the Microsoft Visual C++ Runtime, including assertions. Using CPython debug binaries (_python_d.exe_) requires different settings.
 
    1. Set other project properties as described in the following table.
 
@@ -421,7 +421,7 @@ Review the following sections for possible issues that can cause the C++ module 
 
 Visual Studio returns an error message like **E1696: Cannot open source file "Python.h"** or **C1083: Cannot open include file: "Python.h": No such file or directory**.
 
-This error indicates that the complier can't locate a required header (_.h_) file for your project.
+This error indicates that the compiler can't locate a required header (_.h_) file for your project.
 
 - For the _superfastcode_ project, verify that the **C/C++** > **General** > **Additional Include Directories** project property contains the path to the _include_ folder for your Python installation. Review the steps in [Configure project properties](#configure-project-properties).
 
@@ -431,7 +431,7 @@ For more information on accessing your Python installation configuration informa
 
 #### Error: Unable to locate Python libraries
 
-Visual Studio returns an error indicating that the complier can't locate the required library (DLL) files for your project.
+Visual Studio returns an error indicating that the compiler can't locate the required library (DLL) files for your project.
 
 - For the C++ project (_superfastcode_ or _superfastcode2_), verify that the **Linker** > **General** > **Additional Library Directories** property contains the path to the _libs_ folder for your Python installation. Review the steps in [Configure project properties](#configure-project-properties).
 

@@ -1,6 +1,276 @@
 {
   "redirections": [
     {
+      "source_path": "docs/extensibility/migration/update-extension.md",
+      "redirect_url": "/visualstudio/extensibility/migration/update-visual-studio-extension",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/msbuild/msbuild-concepts.md",
+      "redirect_url": "/visualstudio/msbuild/msbuild",
+      "redirect_document_id": false
+    },
+    {
+       "source_path": "docs/ide/reference/xaml-designer.md",
+       "redirect_url": "/visualstudio/xaml-tools/xaml-designer",
+       "redirect_document_id": false
+    },
+    {
+       "source_path": "docs/ide/reference/options-text-editor-xml-formatting.md",
+       "redirect_url": "/visualstudio/xml-tools/options-text-editor-xml-formatting",
+       "redirect_document_id": false
+    },
+    {
+       "source_path": "docs/ide/reference/options-text-editor-xml-miscellaneous.md",
+       "redirect_url": "/visualstudio/xml-tools/options-text-editor-xml-formatting",
+       "redirect_document_id": false
+    },
+    {
+       "source_path": "docs/ide/reference/options-text-editor-xaml-formatting.md",
+       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-text-editor-xaml-formatting",
+       "redirect_document_id": false
+    },
+    {
+       "source_path": "docs/ide/reference/options-text-editor-xaml-miscellaneous.md",
+       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-text-editor-xaml-miscellaneous",
+       "redirect_document_id": false
+    },
+    {
+       "source_path": "docs/ide/reference/call-hierarchy.md",
+       "redirect_url": "/visualstudio/ide/call-hierarchy",
+       "redirect_document_id": false
+    },
+    {
+       "source_path": "docs/ide/reference/import-and-export-settings-environment-options-dialog-box.md",
+       "redirect_url": "/visualstudio/ide/personalizing-the-visual-studio-ide",
+       "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/command-window.md",
+      "redirect_url": "/visualstudio/ide/command-window",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/ide/reference/error-list-window.md",
+      "redirect_url": "/visualstudio/ide/error-list-window",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/ide/reference/output-window.md",
+      "redirect_url": "/visualstudio/ide/output-window",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/ide/reference/user-notifications-window.md",
+      "redirect_url": "/visualstudio/ide/user-notifications-window",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/ide/reference/trust-settings.md",
+      "redirect_url": "/visualstudio/ide/trust-settings",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/ide/reference/team-explorer-reference.md",
+      "redirect_url": "/visualstudio/ide/team-explorer-reference",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/ide/reference/options-text-editor-all-languages-tabs.md",
+      "redirect_url": "/visualstudio/ide/options-text-editor-all-languages-tabs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/paste-json-xml.md",
+      "redirect_url": "/visualstudio/ide/paste-json-xml",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/immediate-window.md",
+      "redirect_url": "/visualstudio/ide/immediate-window",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/miscellaneous-files.md",
+      "redirect_url": "/visualstudio/ide/miscellaneous-files",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/autorecover-environment-options-dialog-box.md",
+      "redirect_url": "/visualstudio/ide/autorecover-environment-options-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/environment-preview-features-options.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/environment-preview-features-options",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/options-text-editor-file-extension.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-text-editor-file-extension",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/international-settings-environment-options-dialog-box.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/international-settings-environment-options-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/go-to-line.md",
+      "redirect_url": "/visualstudio/ide/go-to",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/toolbox-data-tab.md",
+      "redirect_url": "/visualstudio/ide/reference/toolbox",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/toolbox-html-tab.md",
+      "redirect_url": "/visualstudio/ide/reference/toolbox",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/toolbox-components-tab.md",
+      "redirect_url": "/visualstudio/ide/reference/toolbox",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/msbuild/walkthrough-creating-an-inline-task.md",
+      "redirect_url": "/visualstudio/msbuild/msbuild-roslyncodetaskfactory",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/pre-build-event-post-build-event-command-line-dialog-box.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/pre-build-event-post-build-event-command-line-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/my-extensions-page-project-designer-visual-basic.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/my-extensions-page-project-designer-visual-basic",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/assembly-information-dialog-box.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/assembly-information-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/application-page-project-designer-visual-basic.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/application-page-project-designer-visual-basic",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/build-page-project-designer-csharp.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/build-page-project-designer-csharp",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/build-events-page-project-designer-csharp.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/how-to-specify-build-events-csharp",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/application-page-project-designer-csharp.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/application-page-project-designer-csharp",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/advanced-build-settings-dialog-box-csharp.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/advanced-build-settings-dialog-box-csharp",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/advanced-compiler-settings-dialog-box-visual-basic.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/advanced-compiler-settings-dialog-box-visual-basic",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/services-page-project-designer.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/services-page-project-designer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/compile-page-project-designer-visual-basic.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/compile-page-project-designer-visual-basic",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/build-events-dialog-box-visual-basic.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/how-to-specify-build-events-visual-basic",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/references-page-project-designer-visual-basic.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/references-page-project-designer-visual-basic",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/advanced-settings-for-services-dialog-box.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/advanced-settings-for-services-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/application-page-project-designer-uwp.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/application-page-project-designer-uwp",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/options-windows-forms-designer-data-ui-customization.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-windows-forms-designer-data-ui-customization",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "bridge/articles/bridge-to-kubernetes-aks.md",
+      "redirect_url": "/previous-versions/visualstudio/bridge/bridge-to-kubernetes-aks",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "bridge/articles/bridge-to-kubernetes-sample.md",
+      "redirect_url": "/previous-versions/visualstudio/bridge/bridge-to-kubernetes-sample",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "bridge/articles/bridge-to-kubernetes-vs-code.md",
+      "redirect_url": "/previous-versions/visualstudio/bridge/bridge-to-kubernetes-vs-code",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "bridge/articles/bridge-to-kubernetes-vs.md",
+      "redirect_url": "/previous-versions/visualstudio/bridge/bridge-to-kubernetes-vs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "bridge/articles/configure-bridge-to-kubernetes.md",
+      "redirect_url": "/previous-versions/visualstudio/bridge/configure-bridge-to-kubernetes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "bridge/articles/index.yml",
+      "redirect_url": "/previous-versions/visualstudio/bridge/",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "bridge/articles/kubernetes-environment-variables.md",
+      "redirect_url": "/previous-versions/visualstudio/bridge/kubernetes-environment-variables",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "bridge/articles/managed-identity.md",
+      "redirect_url": "/previous-versions/visualstudio/bridge/managed-identity",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "bridge/articles/overview-bridge-to-kubernetes.md",
+      "redirect_url": "/previous-versions/visualstudio/bridge/overview-bridge-to-kubernetes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "bridge/articles/parallel-services.md",
+      "redirect_url": "/previous-versions/visualstudio/bridge/parallel-services",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/azure/vs-azure-tools-migrate-publish-web-app-to-cloud-service.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/azure/vs-azure-tools-migrate-publish-web-app-to-cloud-service",
       "redirect_document_id": false
@@ -996,6 +1266,56 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/ide/reference/projects-solutions-locations-options",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/projects-solutions-locations-options",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/choose-toolbox-items-wpf-components.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/choose-toolbox-items-wpf-components",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/options-dialog-box-visual-studio.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-dialog-box-visual-studio",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/web-browser-environment-options-dialog-box.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/web-browser-environment-options-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/project-properties-reference.md",
+      "redirect_url": "/visualstudio/ide/project-properties-reference",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/properties-window.md",
+      "redirect_url": "/visualstudio/ide/properties-window",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/settings-page-project-designer.md",
+      "redirect_url": "/visualstudio/ide/settings-page-project-designer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/project-designer-dotnet-csharp.md",
+      "redirect_url": "/visualstudio/ide/project-designer-dotnet-csharp",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/options-text-editor-csharp-formatting.md",
+      "redirect_url": "/visualstudio/ide/code-styles-and-code-cleanup",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/csharp-developer-productivity.md",
+      "redirect_url": "/visualstudio/ide/productivity-features",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/how-to-manage-build-configurations-with-visual-basic-developer-settings-applied.md",
       "redirect_url": "/visualstudio/ide/understanding-build-configurations",
       "redirect_document_id": false
@@ -1586,6 +1906,41 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/ide/reference/property-pages-javascript-esproj.md",
+      "redirect_url": "/visualstudio/javascript/property-pages-javascript-esproj",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/debug-page-project-designer.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/debug-page-project-designer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/code-snippet-picker.md",
+      "redirect_url": "/visualstudio/ide/code-snippets",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/signing-page-project-designer.md",
+      "redirect_url": "/visualstudio/ide/how-to-sign-application-and-deployment-manifests",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/advanced-security-settings-dialog-box.md",
+      "redirect_url": "/visualstudio/deployment/how-to-enable-clickonce-security-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/publish-page-project-designer.md",
+      "redirect_url": "/visualstudio/deployment/how-to-specify-where-visual-studio-copies-the-files",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/prerequisites-dialog-box.md",
+      "redirect_url": "/visualstudio/deployment/how-to-install-prerequisites-with-a-clickonce-application",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/deployment/how-to-enable-autostart-for-cd-installations.md",
       "redirect_url": "/visualstudio/deployment/how-to-specify-where-visual-studio-copies-the-files",
       "redirect_document_id": false
@@ -2101,6 +2456,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/debugger/debug-parallel-application.md",
+      "redirect_url": "/visualstudio/debugger/get-started-debugging-multithreaded-apps",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "docs/debugger/walkthrough-debugging-a-windows-form.md",
       "redirect_url": "/visualstudio/debugger/debugger-feature-tour",
       "redirect_document_id": true
@@ -2523,6 +2883,11 @@
     {
       "source_path": "docs/containers/troubleshooting-docker-errors.md",
       "redirect_url": "/troubleshoot/developer/visualstudio/ide/troubleshooting-docker-errors",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/test/create-a-unit-test-project.md",
+      "redirect_url": "/visualstudio/test/getting-started-with-unit-testing",
       "redirect_document_id": false
     },
     {
@@ -8101,6 +8466,46 @@
     {
       "source_path": "docs/ide/step-8-customize-the-quiz.md",
       "redirect_url": "/visualstudio/get-started/csharp/tutorial-windows-forms-math-quiz-customize-ui",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/code-analysis-project-designer.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/code-analysis-project-designer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/property-pages-javascript.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/property-pages-javascript",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/file-properties-javascript.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/file-properties-javascript",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/options-text-editor-javascript-formatting.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-text-editor-javascript-formatting",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/options-text-editor-javascript-code-validation.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-text-editor-javascript-code-validation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/options-text-editor-javascript-intellisense.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-text-editor-javascript-intellisense",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/options-text-editor-javascript-project.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-text-editor-javascript-project",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/options-text-editor-javascript-linting.md",
+      "redirect_url": "/visualstudio/javascript/linting-javascript",
       "redirect_document_id": false
     },
     {
@@ -20598,6 +21003,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "subscriptions/vs-parasoft.md",
+      "redirect_url": "/visualstudio/subscriptions",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "subscriptions/anonymization.md",
       "redirect_url": "/visualstudio/subscriptions/subscription-removed",
       "redirect_document_id": false
@@ -20619,7 +21029,72 @@
     },
     {
       "source_path": "docs/debugger/specify-command-line-arguments.md",
-      "redirect_url": "../../visualstudio/debugger/project-settings-for-a-cpp-debug-configuration",
+      "redirect_url": "/visualstudio/debugger/project-settings-for-a-cpp-debug-configuration",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/options-text-editor-html-miscellaneous.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-text-editor-html-miscellaneous",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/options-text-editor-usql-intellisense.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-text-editor-usql-intellisense",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/visual-basic-defaults-projects-options-dialog-box.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/visual-basic-defaults-projects-options-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/startup-environment-options-dialog-box.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/startup-environment-options-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/options-text-editor-html-validation.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-text-editor-html-validation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/options-dialog-box-projects-and-solutions-web-projects.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-dialog-box-projects-and-solutions-web-projects",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/options-text-editor-fsharp-codelens.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-text-editor-fsharp-codelens",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/tabs-and-windows-environment-options-dialog-box.md",
+      "redirect_url": "/visualstudio/ide/customizing-window-layouts-in-visual-studio",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/options-text-editor-all-languages-scroll-bars.md",
+      "redirect_url": "/visualstudio/ide/customizing-window-layouts-in-visual-studio",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/task-list-environment-options-dialog-box.md",
+      "redirect_url": "/visualstudio/ide/using-the-task-list",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/setting-language-specific-editor-options.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/setting-language-specific-editor-options",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/options-text-editor-usql-formatting.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-text-editor-usql-formatting",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/options-text-editor-html-formatting.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-text-editor-html-formatting",
       "redirect_document_id": false
     }
   ]

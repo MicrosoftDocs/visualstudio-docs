@@ -2,13 +2,13 @@
 title: Support for User Settings
 description: Learn how to enable persistence of settings categories by using the settings APIs in the Visual Studio SDK.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - Custom Settings Points
 - user settings [Visual Studio SDK], registering persistence support
 - persistence, registering settings
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---
@@ -28,7 +28,7 @@ A VSPackage may define one or more settings categories, which are groups of stat
  Custom Settings Points are created in a registry entry in the following location: HKLM\Software\Microsoft\VisualStudio\\*\<Version>*\UserSettings\\`<CSPName>`, where `<CSPName>` is the name of the Custom Settings Point the VSPackage supports and *\<Version>* is the version of Visual Studio, for example 8.0.
 
 > [!NOTE]
-> The root path of HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*\<Version>* can be overridden with an alternate root when the Visual Studio integrated development environment (IDE) is initialized. For more information, see [Command-Line Switches](../../extensibility/command-line-switches-visual-studio-sdk.md).
+> The root path of HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\\*\<Version>* can be overridden with an alternate root when the Visual Studio integrated development environment (IDE) is initialized. For more information, see [Command-Line Switches](/previous-versions/visualstudio/visual-studio-2017/extensibility/command-line-switches-visual-studio-sdk).
 
  The structure of the registry entry is illustrated below:
 

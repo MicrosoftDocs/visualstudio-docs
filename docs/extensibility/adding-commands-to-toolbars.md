@@ -2,9 +2,9 @@
 title: Adding Commands to Toolbars
 description: Learn about adding your own commands to toolbars on windows in Visual Studio, including the main window, the Solution Explorer, and custom tool windows. 
 ms.date: 11/04/2016
-ms.topic: conceptual
-author: maiak
-ms.author: maiak
+ms.topic: concept-article
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

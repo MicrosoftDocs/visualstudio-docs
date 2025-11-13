@@ -11,6 +11,7 @@ ms.subservice: javascript-typescript
 monikerRange: 'vs-2019'
 dev_langs:
   - JavaScript
+ms.custom: sfi-image-nochange
 ---
 # Publish a Node.js application to Azure (Linux App Service)
 
@@ -37,7 +38,7 @@ In this tutorial, you learn how to:
 
 * You must have Visual Studio installed and the Node.js development workload.
 
-    If you haven't already installed Visual Studio 2019, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta/) page to install it for free.
+    If you haven't already installed Visual Studio 2019, go to the [Visual Studio downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-cta/) page to install it for free.
 
     If you need to install the workload but already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **Node.js development** workload, then choose **Modify**.
 

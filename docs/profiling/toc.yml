@@ -2,10 +2,10 @@
   href: index.yml
 - name: Overview
   items:
-  - name: First look at profiling tools
-    href: profiling-feature-tour.md
   - name: What is a profiler?
     href: what-is-a-profiler.md
+  - name: Overview of the profiling tools
+    href: profiling-feature-tour.md
   - name: Which tool should I use?
     href: choose-performance-tool.md
   - name: Run profiling tools on release or debug builds
@@ -20,6 +20,8 @@
     href: beginners-guide-to-performance-profiling.md
   - name: Measure memory usage in Visual Studio
     href: memory-usage.md
+  - name: Profile your app with GitHub Copilot
+    href: profile-with-copilot-agent.md
 - name: Concepts
   items:
   - name: Understanding performance collection methods
@@ -70,6 +72,14 @@
           href: performance-insights-string-startswith.md
         - name: String concatenation
           href: perf-insights-string-concatenation.md
+        - name: String.Format or interpolation
+          href: performance-insights-string-format.md
+        - name: LinkedList traversal
+          href: performance-insights-linked-list-traversal.md
+        - name: Immutable collection modifications
+          href: performance-insights-immutable-collection.md
+        - name: Inefficient List<T>.Find usage
+          href: performance-insights-list-find.md
   - name: Memory usage
     items:
     - name: Choose a memory analysis tool
@@ -102,6 +112,8 @@
       href: instrumentation.md
   - name: .NET Counters
     href: dotnet-counters-tool.md
+  - name: BenchmarkDotNet
+    href: profiling-with-benchmark-dotnet.md
   - name: File IO
     href: use-file-io.md
   - name: PerfTips
@@ -116,8 +128,6 @@
     href: application-timeline.md
   - name: Add user marks to timeline
     href: add-timeline-graph-user-marks.md
-  - name: BenchmarkDotNet
-    href: profiling-with-benchmark-dotnet.md
   - name: Analyze GPU usage
     href: gpu-usage.md
   - name: Measure performance from the command-line

@@ -74,7 +74,7 @@ Public NotInheritable Class FirstToolWinPackage
 
 
     ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-    ' Overriden Package Implementation
+    ' Overridden Package Implementation
 #Region "Package Members"
 
     ''' <summary>

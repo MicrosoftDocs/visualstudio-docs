@@ -2,7 +2,7 @@
 title: Settings waterfall | Microsoft IntelliTest Developer Test Tool
 description: Learn about the settings waterfall, which organizes settings at the Assembly, Fixture, and Exploration level.
 ms.date: 05/02/2017
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - IntelliTest, Settings waterfall
 ms.author: mikejo

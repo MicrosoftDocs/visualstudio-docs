@@ -3,8 +3,8 @@ title: ImageOptimizer sample for updating Visual Studio extensions
 description: Follow an example to learn how to update a Visual Studio extension to work with Visual Studio 2022.
 ms.date: 06/08/2021
 ms.topic: sample
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 monikerRange: "vs-2022"

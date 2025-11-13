@@ -2,12 +2,12 @@
 title: Private Galleries
 description: Learn how to share the controls, templates, and tools that you develop in the Visual Studio SDK by posting them to a private gallery.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - VSIX galleries, private
 - private galleries, VSIX
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

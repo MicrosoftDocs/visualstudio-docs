@@ -2,7 +2,7 @@
 title: Fix program errors and improve code
 description: Explore how Visual Studio can help you find and fix problems in your code, including build errors, code analysis, debugging tools, and unit tests.
 ms.date: 04/25/2023
-ms.topic: conceptual
+ms.topic: article
 author: Mikejo5000
 ms.author: mikejo
 manager: mijacobs
@@ -98,7 +98,7 @@ Visual Studio provides [on-demand formatting of your C# code file](code-styles-a
 
 ![Screenshot of Code Cleanup button.](media/vs-2019/execute-code-cleanup.png)
 
-In addition to formatting your file for spaces, indents, and so on, **Code Cleanup** also applies a set of code style conventions that you define. Your preferences for each code style are read from the [EditorConfig file](code-styles-and-code-cleanup.md#code-styles-in-editorconfig-files), if you have one for the project, or from the [code style settings](code-styles-and-code-cleanup.md#code-styles-in-the-options-dialog-box) in the **Options** dialog box.
+In addition to formatting your file for spaces, indents, and so on, **Code Cleanup** also applies a set of code style conventions that you define. Your preferences for each code style are read from the [EditorConfig file](code-styles-and-code-cleanup.md#code-styles-in-editorconfig-files), if you have one for the project, or from the [code style settings](code-styles-and-code-cleanup.md#net-code-styles-in-the-options-dialog-box) in the **Options** dialog box.
 
 ## Debug your running code
 
@@ -157,5 +157,5 @@ To learn more about unit tests in Visual Studio and how they can help you create
 ## Related content
 
 - [First look at the debugger](../debugger/debugger-feature-tour.md)
-- [Generate, fix, and refactor code](../ide/code-generation-in-visual-studio.md)
+- [Generate, fix, and refactor code](/visualstudio/ide/writing-code-in-the-code-and-text-editor#generate-fix-or-refactor-code)
 - [Explore the debugger documentation](../debugger/index.yml)

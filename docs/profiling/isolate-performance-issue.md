@@ -1,8 +1,9 @@
 ---
 title: "Isolate a performance issue"
 description: "Learn how to use .NET Counters and the Instrumentation tools to identify, isolate, and resolve performance issues."
-ms.date: 3/26/2025
-ms.topic: conceptual
+ms.date: 7/3/2025
+ms.update-cycle: 180-days
+ms.topic: how-to
 dev_langs:
   - "CSharp"
 helpviewer_keywords:
@@ -18,52 +19,49 @@ monikerRange: '>= vs-2022'
 
 # Case study: Isolate a performance issue (C#, Visual Basic, F#)
 
-Use the profiling tools to investigate performance issues and isolate problem areas. This case study uses a sample application with performance issues to demonstrate how to use profiling tools to improve efficiency. If you want to compare profiling tools, see [Which tool should I choose?](../profiling/choose-performance-tool.md)
+This case study demonstrates how to use Visual Studio profiling tools to identify and resolve performance issues in a sample ASP.NET application. For a comparison of profiling tools, see [Which tool should I choose?](../profiling/choose-performance-tool.md)
 
-This case study covers these topics:
+You'll learn:
 
 - How to use Visual Studio profiling tools to analyze application performance.
-- How to interpret the data provided by these tools to identify performance bottlenecks.
-- How to apply practical strategies to optimize code, focusing on .NET Counters, call counts, and timing data.
+- How to interpret profiling data to find bottlenecks.
+- Practical strategies for optimizing code using .NET Counters, call counts, and timing data.
 
-Follow along and then apply these techniques to your own applications to make them more efficient and cost-effective.
+Apply these techniques to improve your own applications.
 
 ## Isolate a performance issue case study
 
-The sample application in this case study is an ASP.NET app that runs queries against a simulated database. The example is based on the [Diagnostics Sample](/dotnet/core/diagnostics/debug-threadpool-starvation).
+The sample ASP.NET app runs queries against a simulated database and is based on the [Diagnostics Sample](/dotnet/core/diagnostics/debug-threadpool-starvation).
 
-The primary performance issue with the sample application lies in inefficient coding patterns. The application has a performance bottleneck that significantly impacts its efficiency. The problem includes the following symptoms:
+Key performance symptoms:
 
-- **Low CPU Usage**: The application shows low CPU usage, indicating that the CPU is not the bottleneck.
+- **Low CPU Usage**: The CPU is not the bottleneck.
+- **High ThreadPool Thread Count**: Thread count rises steadily, indicating thread pool starvation.
+- **Slow Application Response**: The app responds slowly due to a lack of available threads.
 
-- **High ThreadPool Thread Count**: The thread count is relatively high and steadily rising, suggesting thread pool starvation.
-
-- **Slow Application Response**: The application responds slowly due to the lack of available threads to process new work items.
-
-The case study aims to address these issues by employing Visual Studio's profiling tools to analyze the application's performance. By understanding where and how the application's performance can be improved, developers can implement optimizations to make code faster and more efficient. The ultimate goal is to enhance the application's overall performance, making it more efficient and cost-effective to run.
+This case study uses Visual Studio profiling tools to pinpoint and address these issues, helping you make your code faster and more efficient.
 
 ## Challenge
 
-Addressing the performance issues in the sample .NET application presents several challenges. These challenges stem from the complexity of diagnosing performance bottlenecks. The key challenges in fixing the problems described are as follows:
+Fixing these issues involves several challenges:
 
-- **Diagnosing Performance Bottlenecks**: One of the primary challenges is accurately identifying the root causes of the performance issues. Low CPU usage combined with slow performance can have multiple contributing factors. Developers must use profiling tools effectively to diagnose these issues, which requires some understanding of how these tools work and how to interpret their output.
+- **Diagnosing Bottlenecks**: Low CPU usage with slow performance can have multiple causes. Effective use of profiling tools and interpreting their output is essential.
+- **Knowledge and Resource Constraints**: Profiling and optimization require specific skills and experience, which may not always be available.
 
-- **Knowledge and Resource Constraints**: Teams may face constraints related to knowledge, expertise, and resources. Profiling and optimizing an application requires specific skills and experience, and not all teams may have immediate access to these resources.
-
-Addressing these challenges requires a strategic approach that combines effective use of profiling tools, technical knowledge, and careful planning and testing. The case study aims to guide developers through this process, providing strategies and insights to overcome these challenges and improve the application's performance.
+A strategic approach combining profiling tools, technical knowledge, and careful testing is key to overcoming these challenges.
 
 ## Strategy
 
 Here is a high-level view of the approach in this case study:
 
-- We start the investigation by watching .NET counter metrics while collecting performance data. Like the CPU Usage tool, Visual Studio's [.NET Counters](../profiling/dotnet-counters-tool.md) tool is also a good starting point for a performance investigation.
-- Next, for additional insights to help isolate issues or improve the performance, consider collecting a trace using one of the other profiling tools. For example, take a look at call counts and timing data using the [Instrumentation](../profiling/instrumentation.md) tool.
+- Start by monitoring .NET counter metrics while collecting performance data. Visual Studio's [.NET Counters](../profiling/dotnet-counters-tool.md) tool is a good starting point.
+- For deeper insights, collect traces with additional profiling tools, such as the [Instrumentation](../profiling/instrumentation.md) tool for call counts and timing data.
 
 Data collection requires the following tasks:
 
-- Setting the app to a Release build.
-- Select the .NET Counters tool from the Performance Profiler (**Alt+F2**). (Later steps involve the Instrumentation tool.)
-- From the Performance Profiler, start the app and collect a trace.
+- Set the app to Release build.
+- Select the .NET Counters tool in Performance Profiler (**Alt+F2**).
+- Start the app and collect a trace.
 
 ## Check performance counters
 

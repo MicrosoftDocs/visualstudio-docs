@@ -1,7 +1,8 @@
 ---
 title: About GitHub Copilot Chat in Visual Studio
 description: Learn about the fully integrated GitHub Copilot Chat in Visual Studio. Use the chat interface to ask coding-related questions from right within the IDE.
-ms.date: 2/26/2025
+ms.date: 09/09/2025
+ms.update-cycle: 180-days
 ms.topic: overview 
 author: anandmeg
 ms.author: meghaanand
@@ -26,7 +27,7 @@ Copilot Chat provides AI assistance to help you make informed decisions and writ
 - **Code help**: get answers to programming-related questions in natural language or code snippet format
 - **Code refinement**: get context-specific code suggestions & recommendations
 - **Unit testing**: generate unit tests
-- **[Profiling](../profiling/cpu-insights.md#get-ai-assistance)**: optimize code performance
+- **[Profiling](../profiling/profile-with-copilot-agent.md)**: optimize code performance
 - **[Debugging](../debugger/debug-with-copilot.md)**: find issues and get proposed fixes to bugs and [exceptions](../debugger/debug-with-copilot.md#debug-an-exception-with-copilot)
 - **[Review and commit code](../version-control/git-make-commit.md)**: [generate commit messages](../version-control/git-make-commit.md#generate-commit-messages-with-github-copilot-chat) and [review local changes](../version-control/git-make-commit.md#review-local-changes-with-copilot-chat)
 
@@ -53,7 +54,7 @@ You can ask your coding related questions in natural language and GitHub Copilot
 
 There are two places you can ask Copilot these questions; in a [chat window](#ask-questions-in-the-chat-window), or directly inline in the code that you're looking to modify, using [inline chat](#ask-questions-in-the-inline-chat-view). For questions where your goal is to modify or add to the code file you have open in the editor, the inline chat view will usually work best, whereas more general coding questions are best answered in the chat pane.
 
-See [tips to improve Copilot chat](copilot-chat-context.md) results to learn how to use [slash commands](copilot-chat-context.md#slash-commands), [references](copilot-chat-context.md#reference), [sources used](copilot-chat-context.md#find-context), and [threads](copilot-chat-context.md#threads) to get better answers with scoped context in Copilot Chat.
+See [tips to improve Copilot chat](copilot-chat-context.md) results to learn how to use [slash commands](copilot-chat-context.md#slash-commands), [references](copilot-chat-context-references.md#reference-context), [sources used](copilot-chat-context-references.md#find-context), and [threads](copilot-chat-context-references.md#threads) to get better answers with scoped context in Copilot Chat.
 
 >[!NOTE]
 >With Visual Studio 2022 version 17.11, [content exclusion is available for GitHub Copilot Chat](visual-studio-github-copilot-admin.md#github-copilot-chat-in-visual-studio-and-content-exclusions) in Visual Studio. Content excluded by your admin will now be ignored in chat's responses. See [configuring content exclusions for GitHub Copilot](https://docs.github.com/copilot/managing-github-copilot-in-your-organization/configuring-content-exclusions-for-github-copilot?tool=visualstudio) to learn more.
@@ -111,8 +112,8 @@ The inline chat view of Copilot Chat in Visual Studio enables you to ask your qu
 
 ### Attach images to chat prompts
 
-With Visual Studio 17.14 Preview 1, you can attach images in chat to add contextual input and generate better responses.
-To attach an image to a prompt, paste an image from the clipboard or select the paperclip icon in the chat window to upload an image from File Explorer. Copilot analyzes the image and uses it as additional context to generate a better response.
+With Visual Studio 17.14 and later, you can attach images in chat to add contextual input and generate better responses.
+To attach an image to a prompt, paste an image from the clipboard or select the ➕ icon ton in the chat input and then select **Upload Image** to upload an image from File Explorer. Copilot analyzes the image and uses it as additional context to generate a better response.
 
 :::image type="content" source="media/vs-2022/visual-studio-github-copilot-chat/attach-image-copilot-chat.png" alt-text="Screenshot of how to attach images in Copilot Chat." lightbox="media/vs-2022/visual-studio-github-copilot-chat/attach-image-copilot-chat.png" :::
 
@@ -122,11 +123,28 @@ Example scenarios where adding an image in the prompt provides Copilot additiona
 - UI development, add an image of your design
 - Debugging, add a screenshot of the error
 
+### Generate Mermaid diagrams
+
+With the latest release of Visual Studio, Copilot Chat can generate a variety of [Mermaid diagrams](https://mermaid.js.org/intro/#diagram-types), including architectural, flowchart, sequence, class, Gantt, and pie charts, to help you visualize complex data structures and workflows directly in the editor.
+
+Example prompts:
+
+- Create a sequence diagram for the API call flow
+- Visualize relationships between entities in this schema
+- Create a Mermaid state diagram for the lifecycle of a task 
+- I'm new to this project, visualize major components and their relationships to help me onboard 
+
+:::image type="content" source="media/vs-2022/visual-studio-github-copilot-chat/mermaid-syntax-chat.png" alt-text="Screenshot of Mermaid diagram syntax in chat." lightbox="media/vs-2022/visual-studio-github-copilot-chat/mermaid-syntax-chat.png" :::
+
+Copilot uses attached references and related files in your codebase to gather context, then returns the Mermaid syntax in the chat window. Select **Preview** to open a new markdown file and view the diagram. You can save or share the markdown or rendered chart for future use.
+
+:::image type="content" source="media/vs-2022/visual-studio-github-copilot-chat/mermaid-diagram-rendering.png" alt-text="Screenshot of Mermaid diagram rendering." lightbox="media/vs-2022/visual-studio-github-copilot-chat/mermaid-diagram-rendering.png" :::
+
 ## Next steps
 
 To learn more, consider exploring the following resources:
 
 - [GitHub Copilot: Getting started](https://docs.github.com/copilot/getting-started-with-github-copilot?tool=visualstudio)
 - [GitHub Copilot: Your AI pair programmer](https://github.com/features/copilot)
-- [GitHub Copilot Trust Center](https://resources.github.com/copilot-trust-center/)
+- [GitHub Copilot Trust Center](https://copilot.github.trust.page)
 - [Support for GitHub Copilot Chat](https://support.github.com)

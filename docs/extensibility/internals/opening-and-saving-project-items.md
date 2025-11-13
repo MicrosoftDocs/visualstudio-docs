@@ -2,13 +2,13 @@
 title: Opening and Saving Project Items
 description: Learn about different approaches to opening and saving files for your new project type in the Visual Studio IDE.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - projects [Visual Studio SDK], file persistence
 - files [Visual Studio], opening and saving
 - editors [Visual Studio SDK], file persistence
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

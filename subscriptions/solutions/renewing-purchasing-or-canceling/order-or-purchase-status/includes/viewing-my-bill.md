@@ -5,7 +5,7 @@ comment:  As of August 2023 this include is used to render marketing FAQ content
 ms.assetid: feecb0a9-e03d-4747-aba3-efc66ade4421
 author: joseb-rdc
 ms.author: amast 
-ms.topic: article
+ms.topic: how-to
 ms.date: 08/17/2023
 user.type: subscriber
 tags: invoice, billing

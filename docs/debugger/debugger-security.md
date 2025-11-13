@@ -2,7 +2,7 @@
 title: "Debugger Security"
 description: Learn the security risks posed by debugging, risks both to the debugging machine and to the machine being debugged. Follow the recommendations to minimize risk. 
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "CSharp"
   - "VB"
@@ -35,7 +35,7 @@ The ability to debug another process gives you extremely broad powers that you w
 
 - Be careful when downloading a project off the Internet and loading it into Visual Studio. This is very risky to do even without debugging. When you do this, you are assuming that the project and the code that it contains are trustworthy.
 
-  For more information, see [Debugging Managed Code](../debugger/debugging-managed-code.md).
+  For more information, see [Debugging Managed Code](/visualstudio/debugger/).
 
 ### Remote Debugging Security
  Local debugging is generally safer than remote debugging. Remote debugging increases the total surface area that can be probed.

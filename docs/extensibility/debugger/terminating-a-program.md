@@ -2,12 +2,12 @@
 title: Terminating a Program
 description: This article describes how the IDE uses the debug engine to terminate a single program with a single thread.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - programs, termination events
 - debugging [Debugging SDK], terminating a program
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---

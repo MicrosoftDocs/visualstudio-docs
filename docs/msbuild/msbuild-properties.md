@@ -24,7 +24,7 @@ Properties are name-value pairs that can be used to configure builds. Properties
 </PropertyGroup>
 ```
 
-Valid property names begin with an uppercase or lowercase letter or underscore (`_`); valid subsequent characters include alphanumeric characters (letters or digits), underscore, and hyphen (`-`).
+Valid property names begin with an uppercase or lowercase ASCII letter or underscore (`_`); valid subsequent characters include alphanumeric characters (ASCII letters or digits), underscore, and hyphen (`-`).
 
  Throughout the project file, properties are referenced by using the syntax `$(<PropertyName>)`. For example, the property in the previous example is referenced by using `$(BuildDir)`.
 
@@ -195,7 +195,7 @@ The following code example shows the effect of `TreatAsLocalProperty` on an impo
 ```
 
 ```xml
-<!-- import.proj -->
+<!-- import.props -->
 <Project TreatAsLocalProperty="TreatedAsLocalProp">
     <PropertyGroup>
         <TreatedAsLocalProp>ImportOverrideValue</TreatedAsLocalProp>
@@ -214,7 +214,7 @@ dotnet msbuild .\importer.proj -p:TreatedAsLocalProp=GlobalOverrideValue
 The output is:
 
 ```output
-importer.proj(9,9): warning : TreatedAsLocalProp(importer.proj): GlobalOverrideValue
+importer.proj(9,9): warning : TreatedAsLocalProp(importer.proj): ImportOverrideValue
 ```
 
 Now suppose you build with the property `TrySecondOverride` to `true`:

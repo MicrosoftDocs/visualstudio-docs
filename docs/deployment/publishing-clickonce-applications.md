@@ -2,10 +2,11 @@
 title: "Publishing ClickOnce Applications"
 description: Learn how to use the Publish Wizard to publish a ClickOnce application for the first time. Make later changes on the Publish page in the Project Designer.
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: concept-article
 f1_keywords:
   - "Microsoft.VisualStudio.Publish.ClickOnceProvider.Dialog.Options"
   - "Microsoft.VisualStudio.Publish.ClickOnceProvider.PublishWizard.Help"
+  - "Microsoft.VisualStudio.Publish.ClickOnceProvider.Dialog.PropertyPage"
 dev_langs:
   - "VB"
   - "CSharp"
@@ -52,7 +53,7 @@ When publishing a ClickOnce application for the first time, publish properties c
 |[Set the ClickOnce publish version](../deployment/how-to-specify-where-visual-studio-copies-the-files.md#set-the-clickonce-publish-version)|Describes how to set the ClickOnce **Publish Version** property, which determines whether or not the application that you are publishing will be treated as an update.|
 |[Automatically increment the ClickOnce publish version](../deployment/how-to-specify-where-visual-studio-copies-the-files.md#automatically-increment-the-clickonce-publish-version)|Describes how to automatically increment the Revision number of the **PublishVersion** each time you publish the application.|
 
- For more information, see [Publish Page, Project Designer](../ide/reference/publish-page-project-designer.md)
+ For more information, see [Publish Page, Project Designer](/visualstudio/deployment/how-to-specify-where-visual-studio-copies-the-files)
 
 ### Application Files dialog box
  This dialog box allows you to specify how the files in your project are categorized for publishing, dynamic downloading, and updating. It contains a grid that lists the project files that are not excluded by default, or that have a download group.
@@ -60,7 +61,7 @@ When publishing a ClickOnce application for the first time, publish properties c
  To include files, exclude files, mark files as data files or prerequisites, and create groups of files for conditional installation in the Visual Studio UI, see [How to: Specify which files are published by ClickOnce](../deployment/how-to-specify-which-files-are-published-by-clickonce.md). You can also mark data files by using the Mage.exe. For more information, see [How to: Include a data file in a ClickOnce application](../deployment/how-to-include-a-data-file-in-a-clickonce-application.md).
 
 ### Prerequisites dialog box
- This dialog box specifies which prerequisite components are installed, as well as how they are installed. For more information, see [How to: Install prerequisites with a ClickOnce application](../deployment/how-to-install-prerequisites-with-a-clickonce-application.md) and [Prerequisites dialog box](../ide/reference/prerequisites-dialog-box.md).
+ This dialog box specifies which prerequisite components are installed, as well as how they are installed. For more information, see [How to: Install prerequisites with a ClickOnce application](../deployment/how-to-install-prerequisites-with-a-clickonce-application.md).
 
 ### Application Updates dialog box
  This dialog box specifies how the application installation should check for updates. For more information, see [How to: Manage updates for a ClickOnce application](../deployment/how-to-manage-updates-for-a-clickonce-application.md).

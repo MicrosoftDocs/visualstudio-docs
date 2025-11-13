@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugExpressionContext2::ParseText
 helpviewer_keywords:
 - IDebugExpressionContext2::ParseText
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:
@@ -110,7 +110,7 @@ HRESULT CEnvBlock::ParseText(
             hr = S_OK;
         // If the program cannot successfully get the environment variable.
         } else {
-            // Set the errror message and return E_FAIL.
+            // Set the error message and return E_FAIL.
             *pbstrError = SysAllocString(L"No such environment variable.");
             hr = E_FAIL;
         }

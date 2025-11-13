@@ -1,16 +1,17 @@
 ---
-title: "Tutorial: Share Docker apps in Visual Studio Code"
+title: "Tutorial: Share container apps in Visual Studio Code"
 titleSuffix: ""
-description: 'Share Docker applications with the Docker Visual Studio Code Extension: create the container, build the container image, and start the container.'
+description: 'Share container applications with the Container Tools Visual Studio Code Extension: create the container, build the container image, and start the container.'
 author: ghogen
 ms.author: ghogen
 ms.service: vs-code
 ms.topic: tutorial 
 ms.date: 03/24/2023
+ms.custom: sfi-image-nochange
 # Under contractual obligation with Docker Inc. to provide this content. Contact is: nebuk89. Mike Morton has context on MSFT side, but has moved on to another role. 
 ---
 
-# Tutorial: Share a Docker app with Visual Studio Code
+# Tutorial: Share a container app with Visual Studio Code
 
 This tutorial is part two of a four-part series introducing [Docker](https://www.docker.com) for use with Visual Studio Code (VS Code).  
 
@@ -23,7 +24,7 @@ In this tutorial, you learn how to:
 
 ## Prerequisites
 
-This tutorial continues the previous tutorial, [Create a Docker app with Visual Studio Code](docker-tutorial.md). To continue here, you'll need the running todo list manager from part 1.
+This tutorial continues the previous tutorial, [Create a container app with Visual Studio Code](docker-tutorial.md). To continue here, you'll need the running todo list manager from part 1.
 
 ## Update the code and replace the container
 
@@ -43,7 +44,7 @@ Let's make a few changes and learn about managing your containers.
 
    Right-click the **getting-started** container and select **Remove**.
 
-   ![Screenshot shows the Docker extension with a container selected and a context menu with Remove selected.](media/vs-remove-container.png)
+   ![Screenshot shows the Container Tools extension with a container selected and a context menu with Remove selected.](media/vs-remove-container.png)
 
    Or, from the command line, use the following command to get the container ID.
 
@@ -80,7 +81,7 @@ Let's make a few changes and learn about managing your containers.
 ## Share your image
 
 Now that you've built an image, you can share it.
-To share Docker images, use a Docker registry.
+To share container images, use a container registry.
 The default registry is Docker Hub, which is where all of the images we've used have come from.
 
 To push an image, first, you need to create a repo on Docker Hub.
@@ -99,11 +100,11 @@ To push an image, first, you need to create a repo on Docker Hub.
 
    ![Screenshot shows the Docker Hub page with a suggested Docker command.](media/push-command.png)
 
-1. In VS Code, in the Docker view, under **REGISTRIES**, click the plug icon, to connect to a registry, and choose **Docker Hub**.
+1. In VS Code, in the Container Explorer, under **REGISTRIES**, click the plug icon, to connect to a registry, and choose **Docker Hub**.
 
    Enter your Docker Hub account name and password.
 
-1. In the Docker view of VS Code, under **IMAGES**, right-click the image tag, and select **Push**. Enter the namespace and the tag, or accept the defaults.
+1. In the Container Explorer of VS Code, under **IMAGES**, right-click the image tag, and select **Push**. Enter the namespace and the tag, or accept the defaults.
 
 1. To push to Docker Hub by using the command line, use this procedure.
 

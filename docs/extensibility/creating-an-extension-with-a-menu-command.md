@@ -8,8 +8,8 @@ helpviewer_keywords:
 - vspackage
 - tutorials
 - visual studio package
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---
@@ -79,14 +79,37 @@ If you are developing multiple extensions, or just exploring outcomes with diffe
 
 You can get to this script in one of two ways:
 
+:::moniker range="vs-2019"
 1. From the desktop, find **Reset the Visual Studio Experimental Instance**.
 
-2. From the command line, run the following:
+2. From the command line, run the *CreateExpInstance.exe* command. It's located in the Visual Studio installation folder under *VSSDK\Common\Tools\Bin*. You can construct it's full path and enclose the full path in quotes to invoke it. For example, if Visual Studio is installed to *C:\Program Files\Microsoft Visual Studio\2019\Community*, then the command is:
 
     ```cmd
-    <VSSDK installation>\VisualStudioIntegration\Tools\Bin\CreateExpInstance.exe /Reset /VSInstance=<version> /RootSuffix=Exp && PAUSE
+    "C:\Program Files\Microsoft Visual Studio\2019\Community\CreateExpInstance.exe" /Reset /VSInstance=<version> /RootSuffix=Exp && PAUSE
 
     ```
+:::moniker-end
+
+:::moniker range="vs-2022"
+1. From the desktop, find **Reset the Visual Studio Experimental Instance**.
+
+2. From the command line, run the *CreateExpInstance.exe* command. It's located in the Visual Studio installation folder under *VSSDK\Common\Tools\Bin*. You can construct it's full path and enclose the full path in quotes to invoke it. For example, if Visual Studio is installed to *C:\Program Files\Microsoft Visual Studio\2022\Community*, then the command is:
+
+    ```cmd
+    "C:\Program Files\Microsoft Visual Studio\2022\Community\CreateExpInstance.exe" /Reset /VSInstance=<version> /RootSuffix=Exp && PAUSE
+
+    ```
+:::moniker-end
+:::moniker range="visualstudio"
+1. From the desktop, find **Reset the Visual Studio Experimental Instance**.
+
+2. From the command line, run the *CreateExpInstance.exe* command. It's located in the Visual Studio installation folder under *VSSDK\Common\Tools\Bin*. You can construct it's full path and enclose the full path in quotes to invoke it. For example, if Visual Studio is installed to *C:\Program Files\Microsoft Visual Studio\18\Community*, then the command is:
+
+    ```cmd
+    "C:\Program Files\Microsoft Visual Studio\18\Community\CreateExpInstance.exe" /Reset /VSInstance=<version> /RootSuffix=Exp && PAUSE
+
+    ```
+:::moniker-end
 
 ## Deploy your extension
 
@@ -118,6 +141,6 @@ This walkthrough has shown you only a small part of what you can do with a Visua
 
 4. Add IntelliSense, code suggestions, and other features to existing code editors: [Extend the editor and language services](../extensibility/extending-the-editor-and-language-services.md)
 
-5. Add Options and Property pages and user settings to your extension: [Extend properties and the Property window](../extensibility/extending-properties-and-the-property-window.md) and [Extend user settings and options](../extensibility/extending-user-settings-and-options.md)
+5. Add Options and Property pages and user settings to your extension: [Extend properties and the Property window](/previous-versions/visualstudio/visual-studio-2017/extensibility/extending-properties-and-the-property-window) and [Extend user settings and options](../extensibility/extending-user-settings-and-options.md)
 
    Other kinds of extensions require a little more work, such as creating a new type of project ([Extend projects](../extensibility/extending-projects.md)), or creating a new type of editor ([Create custom editors and designers](../extensibility/creating-custom-editors-and-designers.md)).

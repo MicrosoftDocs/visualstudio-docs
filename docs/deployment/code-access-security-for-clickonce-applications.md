@@ -1,8 +1,8 @@
 ---
 title: "Code Access Security for ClickOnce Applications"
 description: Explore code access security for ClickOnce applications and how to configure the code access security permissions in Visual Studio.
-ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.date: "04/25/2025"
+ms.topic: article
 f1_keywords:
   - "vb.XBAPProjectPropertiesSecurity.HowTo"
   - "vb.XBAProjectPropertiesSecurity.HowTo"
@@ -29,7 +29,7 @@ ClickOnce applications are based on the .NET Framework and are subject to code a
 
  Code access security is a mechanism in the .NET Framework that helps limit the access that code has to protected resources and operations. You should configure the code access security permissions for your ClickOnce application to use the zone appropriate for the location of the application installer. In most cases, you can choose the **Internet** zone for a limited set of permissions or the **Local Intranet** zone for a greater set of permissions.
 
-[!INCLUDE[ndptecclick](../deployment/includes/dotnet-feature-unsupported.md)]
+ [!INCLUDE[ndptecclick](../deployment/includes/code-access-security.md)]
 
 ## Default ClickOnce code access security
  By default, a ClickOnce application receives Full Trust permissions when it is installed or run on a client computer.
@@ -50,9 +50,9 @@ ClickOnce applications are based on the .NET Framework and are subject to code a
 
  Applications deployed from different locations are granted different levels of permissions without prompting. For example, when an application is deployed from the Internet, it receives a highly restrictive set of permissions. When installed from a local Intranet, it receives more permissions, and when installed from a CD-ROM, it receives Full Trust permissions.
 
- As a starting point for configuring permissions, you can select a security zone from the **Zone** list on the **Security** page. If your application will potentially be deployed from more than one zone, select the zone with the least permissions. For more information, see [How to: Set a security zone for a ClickOnce application](../deployment/how-to-set-a-security-zone-for-a-clickonce-application.md).
+ As a starting point for configuring permissions, you can select a security zone from the **Zone** list on the **Security** page. If your application will potentially be deployed from more than one zone, select the zone with the least permissions. For more information, see [How to: Set a security zone for a ClickOnce application](/visualstudio/deployment/how-to-enable-clickonce-security-settings).
 
- The properties that can be set vary by permission set; not all permission sets have configurable properties. For more information about the full list of permissions that your application can request, see <xref:System.Security.Permissions>. For more information about how to set permissions for a custom zone, see [How to: Set custom permissions for a ClickOnce application](../deployment/how-to-set-custom-permissions-for-a-clickonce-application.md).
+ The properties that can be set vary by permission set; not all permission sets have configurable properties. For more information about the full list of permissions that your application can request, see <xref:System.Security.Permissions>. For more information about how to set permissions for a custom zone, see [How to: Set custom permissions for a ClickOnce application](/visualstudio/deployment/how-to-enable-clickonce-security-settings).
 
 ## Debug an application that has restricted permissions
  As a developer, you most likely run your development computer with Full Trust permissions. Therefore, you do not see the same security exceptions when you debug the application that users may see when they run it with restricted permissions.

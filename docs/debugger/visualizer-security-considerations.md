@@ -2,7 +2,7 @@
 title: "Visualizer Security Considerations"
 description: A visualizer for Visual Studio debugger must run with full trust. As you write yours, be aware of possible security threats and take appropriate precautions.
 ms.date: "12/21/2022"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "CSharp"
   - "VB"

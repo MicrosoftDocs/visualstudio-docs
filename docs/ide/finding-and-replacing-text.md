@@ -2,7 +2,7 @@
 title: Find and replace text, and multi-caret selection
 description: Explore the Find and Replace feature in Visual Studio and discover how to use the feature to find and replace instances of a pattern.
 ms.date: 01/07/2025
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
 - vs.find
 - vs.findreplacecontrol
@@ -53,9 +53,9 @@ You can scope searches to the current document, the current solution, or a custo
 
 The **Find and Replace** control appears in the upper right corner of the code editor window. It immediately highlights every occurrence of the given search string in the current document. You can navigate from one occurrence to another by choosing the **Find Next** button or the **Find Previous** button on the search control.
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
-:::image type="content" source="media/vs-2022/find-and-replace-box.png" alt-text="Screenshot of the Find and Replace dialog in the Editor in Visual Studio 2022.":::
+:::image type="content" source="media/vs-2022/find-and-replace-box.png" alt-text="Screenshot of the Find and Replace dialog in the Editor in Visual Studio.":::
 
 ::: moniker-end
 
@@ -93,12 +93,21 @@ Open the **Find and Replace** dialog box by pressing **Ctrl**+**Shift**+**F**, o
 
 :::moniker-end
 
-::: moniker range=">=vs-2022"
+::: moniker range="vs-2022"
 
 1. On the menu bar, select **Edit** > **Find and Replace**.
 1. Choose **Find in Files** from the fly-out menu.
 
 :::image type="content" source="media/vs-2022/find-files.png" alt-text="Screenshot of the Find and Replace dialog box in Visual Studio 2022, with the Find in Files tab open.":::
+
+:::moniker-end
+
+::: moniker range="visualstudio"
+
+1. On the menu bar, select **Edit** > **Find and Replace**.
+1. Choose **Find in Files** from the fly-out menu.
+
+:::image type="content" source="media/visualstudio/find-files.png" alt-text="Screenshot of the Find and Replace dialog box in Visual Studio, with the Find in Files tab open.":::
 
 :::moniker-end
 
@@ -112,8 +121,14 @@ Set the scope of your search and replace operation to:
 - The current project
 - Specified folder sets
 - Specified file extensions
-  
+
 The **Find and Replace** tool does not search directories with the `Hidden` or `System` attribute.
+
+:::moniker range="visualstudio"
+You can permanently exclude some files from search; see [Exclude files from search](#exclude-files-from-search).
+:::moniker-end
+  
+### Cancel a search
 
 To cancel a Find or Replace operation, press **Ctrl**+**Break**.
 
@@ -134,13 +149,29 @@ You can define a search scope by choosing the **Choose Search Folders** button (
 
 You can define component sets as your search scope by choosing the **Edit Custom Component Set** button next to the **Look in** box. You can specify installed .NET or COM components, Visual Studio projects that are included in your solution, or any assembly or type library (*.dll*, *.tlb*, *.olb*, *.exe*, or *.ocx*). To search references, select the **Look in references** box.
 
+:::moniker range="visualstudio"
+
+## Exclude files from search
+
+You can exclude specific files such as build artifacts, minified scripts, or generated files, that you don't want to be included in the typical search.
+
+To set up files to exclude, go to **Tools > Options > Environment > Search**, and look for the **Exclude files from search results** section. There, you can add, edit, or remove glob patterns to control exactly which files are left out of your search results.
+
+![Screenshot that shows settings to exclude files from search results.](media/visualstudio/find-file-exclusions.png)
+
+These exclusions are automatically applied in [Quick Find](#control). For [Find in Files](#multifile), these exclusions are applied in addition to any exclusions in the **File types** field. You can toggle the settings level exclusions on or off via the toggle button on the right of the **File types**.
+
+![Screenshot showing toggle button for file exclusions.](media/visualstudio/find-file-exclusions-find-in-files-toggle.png)
+
+:::moniker-end
+
 ## Multi-caret selection
 
 Use *multi-caret selection* to make the same edit in two or more places at the same time. For example, you can insert the same text or modify existing text in multiple locations at the same time.
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
-In Visual Studio 2022, we improved the multi-caret copy and paste experience. Previously, pasting multiple lines into multiple carets resulted in the entire clipboard being duplicated at each caret. Now, pasting multiple lines into the same number of carets will insert each line to a respective caret.
+In Visual Studio 2022 and later, pasting multiple lines into the same number of carets will insert each line to a respective caret. In earlier versions, pasting multiple lines into multiple carets results in the entire clipboard being duplicated at each caret.
 
 To use multi-caret, press **Ctrl**+**Alt**+**mouse click** or **Alt**+**Shift**+**.** and then use **Ctrl**+**Shift**+**arrow key** to expand selections. Next, press **Ctrl**+**C** to copy the text in multiple selections. Use **Alt**+**Shift**+**mouse click** to create multiple carets for each line to paste in where you want them. Finally, press **Ctrl**+**V** to paste each line at its own caret.
 

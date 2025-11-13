@@ -1,8 +1,8 @@
 ---
 title: Configure feedback Group Policies
 description: Configure Group Policies that control submission of feedback and survey responses for enterprise deployments of Visual Studio.
-ms.date: 3/27/2025
-ms.topic: conceptual
+ms.date: 11/04/2025
+ms.topic: article
 f1_keywords:
 - gpo
 - policy
@@ -22,7 +22,9 @@ One of the main categories included in the Visual Studio ADMX templates is feedb
 ## Supported policies
 
 > [!IMPORTANT]
-> These policies require Visual Studio 2022 version 17.13 or later
+> These policies require Visual Studio 2022 version 17.13 or later.
+
+In addition to configuring policies through Intune or the Group Policy editor, you can find and adjust policies in the registry at `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\VisualStudio\Feedback`.
 
 Feedback Group Policies for Visual Studio include the following:
 

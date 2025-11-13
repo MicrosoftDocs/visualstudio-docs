@@ -48,7 +48,7 @@ Unzips a *.zip* archive to the specified location.
  The following example unzips an archive and overwrites any read-only files.
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
 
     <Target Name="UnzipArchive" BeforeTargets="Build">
         <Unzip

@@ -2,13 +2,13 @@
 title: Using and Providing Services
 description: Learn about the services that the Visual Studio IDE offers for VSPackages to provide and use. These articles describe how to get and provide services.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - examples [Visual Studio SDK], services
 - Visual Studio, services
 - services
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---
@@ -36,7 +36,7 @@ A service is a contract between two VSPackages. One VSPackage offers a specific 
 
 - [How to: Provide an Asynchronous Visual Studio Service](../extensibility/how-to-provide-an-asynchronous-visual-studio-service.md) discusses how to provide an asynchronous service.
 
-- [How to: Troubleshoot Services](../extensibility/how-to-troubleshoot-services.md) discusses common problems and presents solutions to them.
+- [How to: Troubleshoot Services](/troubleshoot/developer/visualstudio/extensibility/how-to-troubleshoot-services) discusses common problems and presents solutions to them.
 
 ## Related sections
 

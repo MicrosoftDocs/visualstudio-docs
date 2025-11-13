@@ -12,6 +12,7 @@ author: mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: debug-diagnostics
+ms.update-cycle: 90-days
 ---
 
 # Measure application performance by analyzing CPU utilization (C#, Visual Basic, C++, F#)

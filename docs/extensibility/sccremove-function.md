@@ -7,8 +7,8 @@ f1_keywords:
 - SccRemove
 helpviewer_keywords:
 - SccRemove function
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

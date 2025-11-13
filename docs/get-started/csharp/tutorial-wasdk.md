@@ -3,7 +3,7 @@ title: "Tutorial: Create Windows App SDK Apps with Visual Studio & C#"
 description: Create a Windows App SDK application in Visual Studio by using the Extensible Application Markup Language (XAML) and C#.
 titleSuffix: ""
 ms.custom: vs-acquisition
-ms.date: 5/21/2024
+ms.date: 9/24/2025
 ms.subservice: general-ide
 ms.topic: tutorial
 ms.devlang: csharp
@@ -21,7 +21,7 @@ In this introduction to the Visual Studio integrated development environment (ID
 > [!NOTE]
 > WinUI 3 is the native UI platform component that ships with the [Windows App SDK](/windows/apps/windows-app-sdk/) (completely decoupled from [Windows SDKs](/windows/apps/windows-app-sdk/)). For more information, see [WinUI 3](/windows/apps/winui/winui3/).
 
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) page to install it for free.
 
 ::: moniker range=">=vs-2022"
 ## Prerequisites
@@ -30,18 +30,29 @@ If you haven't already installed Visual Studio, go to the [Visual Studio downloa
 Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/vs/) for a free version.
 - Workloads and components required for developing with WinUI and the Windows App SDK. To verify or install a workload in Visual Studio, select **Tools** > **Get Tools and Features**. For more information, see [Change workloads or individual components](../../install/modify-visual-studio.md#change-workloads-or-individual-components).
     
-    On the **Workloads** tab of the Visual Studio Installer, select the following workloads and components:
+    On the **Workloads** tab of the Visual Studio Installer, select the following:
 
     ### [Visual Studio 2022 version 17.10 and later](#tab/vs-2022-17-10)
     
-    * For **C#** app development using the Windows App SDK, select **Windows application development**.
+    * For **C#** app development using the Windows App SDK, select **WinUI application development**.
     
+    > [!NOTE]
+    > _In Visual Studio 17.10 - 17.12, this workload is called **Windows application development**._
+
     ### [Visual Studio 2022 version 17.1 - 17.9](#tab/vs-2022-17-1)
     
     * For **C#** app development using the Windows App SDK, select **.NET Desktop Development**.
     * Then in the **Installation details** pane of the installation dialog box, select **Windows App SDK C# Templates** (near the bottom of the list).
+    * On the **Individual components** tab, in the **SDKs, libraries, and frameworks** section, make sure **Windows 10 SDK (10.0.19041.0)** is selected.
     
+    ### [Other Visual Studio versions](#tab/vs-other)
+
+    * For C# app development using the Windows App SDK, select **.NET Desktop Development**.
+    * On the **Individual components** tab, in the **SDKs, libraries, and frameworks** section, make sure **Windows 10 SDK (10.0.19041.0)** is selected.
+
     ---
+
+For details, see [Install tools for the Windows App SDK](/windows/apps/windows-app-sdk/set-up-your-development-environment).
 
 ::: moniker-end
 
@@ -53,7 +64,7 @@ First, create a WinUI 3 project. The project type comes with all the template fi
 > [!IMPORTANT]
 > Visual Studio 2019 only supports Windows App SDK 1.1 and earlier. Visual Studio 2022 is recommended for developing apps with all versions of the Windows App SDK.
 
-The Windows App SDK 1.1.x templates are available by installing a [Visual Studio extension (VSIX)](/windows/apps/windows-app-sdk/set-up-your-development-environment?tabs=cs-vs-community%2Ccpp-vs-community%2Cvs-other%2Cvs-2019#visual-studio-project-and-item-templates).
+The Windows App SDK 1.1.x templates are available by installing a [Visual Studio extension (VSIX)](/windows/apps/windows-app-sdk/set-up-your-development-environment).
 
 > [!NOTE]
 > If you have a Windows App SDK Visual Studio extension (VSIX) already installed, then uninstall it before installing another version. For directions, see [Manage extensions for Visual Studio](/visualstudio/ide/finding-and-using-visual-studio-extensions).

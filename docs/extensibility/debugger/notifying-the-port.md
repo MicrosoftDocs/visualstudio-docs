@@ -2,11 +2,11 @@
 title: Notifying the Port
 description: Learn how the port is notified after launching a program. This article contains a detailed description.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - ports, notification
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---

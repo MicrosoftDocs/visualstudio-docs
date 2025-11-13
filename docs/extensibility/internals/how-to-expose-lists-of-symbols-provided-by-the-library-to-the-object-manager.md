@@ -9,8 +9,8 @@ helpviewer_keywords:
 - symbols, call browser
 - lists, symbols for the object manager
 - symbols, exposing lists to the object manager
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---
@@ -480,4 +480,4 @@ The symbol-browsing tools, **Class View**, **Object Browser**, **Call Browser** 
 - [Support symbol-browsing tools](../../extensibility/internals/supporting-symbol-browsing-tools.md)
 - [How to: Register a library with the object manager](../../extensibility/internals/how-to-register-a-library-with-the-object-manager.md)
 - [How to: Identify symbols in a library](../../extensibility/internals/how-to-identify-symbols-in-a-library.md)
-- [Legacy language service extensibility](../../extensibility/internals/legacy-language-service-extensibility.md)
+- [Legacy language service extensibility](/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/legacy-language-service-extensibility)

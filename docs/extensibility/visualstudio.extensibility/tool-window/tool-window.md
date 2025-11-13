@@ -3,11 +3,12 @@ title: Tool Windows overview
 description: An overview of extensibility tool windows
 ms.topic: overview
 ms.date: 3/31/2023
-ms.author: maiak
+ms.author: tinali
 monikerRange: ">=vs-2022"
-author: maiak
+author: tinaschrepfer
 manager: mijacobs
 ms.subservice: extensibility-integration
+ms.update-cycle: 365-days
 ---
 
 # Create Visual Studio tool windows
@@ -46,7 +47,7 @@ The [`ToolWindow`](/dotnet/api/microsoft.visualstudio.extensibility.toolwindows.
 | --------- |----- | -------- | ----------- | ------------- |
 | [Placement](/dotnet/api/microsoft.visualstudio.extensibility.toolwindows.toolwindowconfiguration.placement#microsoft-visualstudio-extensibility-toolwindows-toolwindowconfiguration-placement) | ToolWindowPlacement | No | The location in Visual Studio where the tool window should be opened the first time. [`ToolWindowPlacement.DockedTo`](/dotnet/api/microsoft.visualstudio.extensibility.toolwindows.toolwindowplacement.dockedto) allows docking the tool window to a GUID matching an old VSIX-style tool window ID. See more about [ToolWindowPlacement](/dotnet/api/microsoft.visualstudio.extensibility.toolwindows.toolwindowplacement). | ToolWindowPlacement.Floating |
 | [DockDirection](/dotnet/api/microsoft.visualstudio.extensibility.toolwindows.toolwindowconfiguration.dockdirection#microsoft-visualstudio-extensibility-toolwindows-toolwindowconfiguration-dockdirection) | Dock | No | The direction relative to the placement where the tool window should be docked when opened the first time. See [Dock](/dotnet/api/microsoft.visualstudio.extensibility.toolwindows.dock). | Dock.None |
-| [AllowAutoCreation](/dotnet/api/microsoft.visualstudio.extensibility.toolwindows.toolwindowconfiguration.allowautocreation#microsoft-visualstudio-extensibility-toolwindows-toolwindowconfiguration-allowautocreation) | Bool | No | Specifies whether or not the tool window can be created automatically. Setting this paramater to false means that tool windows that are open when Visual Studio closes don't automatically restore when Visual Studio is opened again. | `true` |
+| [AllowAutoCreation](/dotnet/api/microsoft.visualstudio.extensibility.toolwindows.toolwindowconfiguration.allowautocreation#microsoft-visualstudio-extensibility-toolwindows-toolwindowconfiguration-allowautocreation) | Bool | No | Specifies whether or not the tool window can be created automatically. Setting this parameter to false means that tool windows that are open when Visual Studio closes don't automatically restore when Visual Studio is opened again. | `true` |
 
 ### Example
 

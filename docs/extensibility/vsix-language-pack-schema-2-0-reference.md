@@ -2,14 +2,14 @@
 title: "VSIX Language Pack Schema 2.0 Reference"
 description: The VSIX Language Pack schema provides localized installation information for VSIX packages. Version 2.0 supports additional localization elements.
 ms.date: "10/26/2017"
-ms.topic: "conceptual"
+ms.topic: article
 helpviewer_keywords:
   - "language pack"
   - "localize vsix"
   - "localize package"
   - "localize extension"
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

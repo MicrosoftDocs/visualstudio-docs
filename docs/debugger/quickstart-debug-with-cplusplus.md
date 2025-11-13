@@ -1,7 +1,7 @@
 ---
 title: Debug C++ code, set breakpoints, inspect variables
 description: Debug native C++ code by using the Visual Studio debugger, create a project, set breakpoints, inspect variables, and edit code while debugging.
-ms.date: 08/06/2018
+ms.date: 04/07/2025
 ms.topic: quickstart
 helpviewer_keywords:
   - "debugger"
@@ -18,7 +18,7 @@ The Visual Studio debugger provides many powerful features to help you debug you
 
 1. Open Visual Studio and create a project.
 
-    On the Welcome Page, select **Create a new project**. Select **Empty Project**. Make sure you are selecting the Project Template for C++.
+    If the Start window isn't already open, select **File > Start Window**. In the Start window, select **Create a new project**. In the search box, type "Empty project", and then select the C++ **Empty Project** template.
 
    If you don't see the project template, open the **Visual Studio Installer**. Choose the **Desktop development with C++ workload**, then choose **Modify**.
 
@@ -35,7 +35,7 @@ The Visual Studio debugger provides many powerful features to help you debug you
     }
     ```
 
-    with this code (do not remove `#include "stdafx.h"`):
+    with this code (don't remove `#include "stdafx.h"`):
 
     ```cpp
     #include <list>
@@ -66,7 +66,7 @@ The Visual Studio debugger provides many powerful features to help you debug you
 
 ## Set a breakpoint
 
-A *breakpoint* is a marker that indicates where Visual Studio should suspend your running code so you can take a look at the values of variables, or the behavior of memory, or whether or not a branch of code is getting run. It is the most basic feature in debugging.
+A *breakpoint* is a marker that indicates where Visual Studio should suspend your running code so you can take a look at the values of variables, or the behavior of memory, or whether or not a branch of code is getting run. It's the most basic feature in debugging.
 
 1. To set the breakpoint, click in the gutter to the left of the `doWork` function call (or select the line of code and press **F9**).
 
@@ -76,7 +76,7 @@ A *breakpoint* is a marker that indicates where Visual Studio should suspend you
 
     ![Hit a breakpoint](../debugger/media/dbg-qs-hit-breakpoint.png "Hit a breakpoint")
 
-    The debugger pauses where you set the breakpoint. The statement where the debugger and app execution is paused is indicated by the yellow arrow. The line with the `doWork` function call has not yet executed.
+    The debugger pauses where you set the breakpoint. The statement where the debugger and app execution is paused is indicated by the yellow arrow. The line with the `doWork` function call hasn't yet executed.
 
     > [!TIP]
     > If you have a breakpoint in a loop or recursion, or if you have many breakpoints that you frequently step through, use a [conditional breakpoint](../debugger/using-breakpoints.md#BKMK_Specify_a_breakpoint_condition_using_a_code_expression) to make sure that your code is suspended ONLY when specific conditions are met. A conditional breakpoint saves time and can also make it easier to debug issues that are hard to reproduce.
@@ -119,7 +119,7 @@ If you identify a change that you want to test in your code while in the middle 
 
     **F10** advances the debugger one statement at a time, but steps over functions instead of stepping into them (the code that you skip still executes).
 
-For more information on using edit-and-continue and on feature limitations, see [Edit and Continue](../debugger/edit-and-continue.md).
+For more information on using edit-and-continue and on feature limitations, see [Edit and Continue](/visualstudio/debugger/how-to-enable-and-disable-edit-and-continue).
 
 ## Next steps
 

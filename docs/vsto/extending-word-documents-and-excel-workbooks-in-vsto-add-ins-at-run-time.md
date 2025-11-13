@@ -3,7 +3,7 @@ title: "Extend Word docs & Excel workbooks in VSTO Add-ins at run time"
 description: Learn you can use a VSTO Add-in to customize Word documents and Excel workbooks in a variety of ways.
 titleSuffix: ""
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"

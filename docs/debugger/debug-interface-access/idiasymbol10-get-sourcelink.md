@@ -1,5 +1,5 @@
 ---
-description: "Retreives the Source Link blob associated with this SymTagCompiland symbol."
+description: "Retrieves the Source Link blob associated with this SymTagCompiland symbol."
 title: "IDiaSymbol10::get_sourceLink"
 ms.date: "07/15/2024"
 ms.topic: "reference"
@@ -14,7 +14,7 @@ ms.subservice: debug-diagnostics
 ---
 # IDiaSymbol10::get_sourceLink
 
-Retreives the [Source Link](https://github.com/dotnet/designs/blob/main/accepted/2020/diagnostics/source-link.md) blob associated with this `SymTagCompiland` symbol.
+Retrieves the [Source Link](https://github.com/dotnet/designs/blob/main/accepted/2020/diagnostics/source-link.md) blob associated with this `SymTagCompiland` symbol.
 
 ## Syntax
 

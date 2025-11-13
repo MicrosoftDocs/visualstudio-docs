@@ -2,9 +2,9 @@
 title: "Diagnosing extension UI delays in Visual Studio| Microsoft Docs"
 description: Visual Studio notifies you if UI delays could be caused by an extension. Learn how to diagnose what in your extension code is causing UI delays.
 ms.date: "01/26/2018"
-ms.topic: "conceptual"
-author: maiak
-ms.author: maiak
+ms.topic: how-to
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---
@@ -145,7 +145,7 @@ You can also further filter this view by only including stacks that contain modu
 
 PerfView has detailed guidance under the **Help** menu that you can use to identify performance bottlenecks in your code. Additionally, the following links provide more information on how to utilize Visual Studio threading APIs to optimize your code:
 
-* [`https://github.com/Microsoft/vs-threading/blob/main/doc/index.md`](https://github.com/Microsoft/vs-threading/blob/main/doc/index.md)
+* [`https://github.com/microsoft/vs-threading/blob/main/docfx/index.md`](https://github.com/microsoft/vs-threading/blob/main/docfx/index.md)
 * [`https://github.com/microsoft/vs-threading/blob/main/docfx/docs/cookbook_vs.md`](https://github.com/microsoft/vs-threading/blob/main/docfx/docs/cookbook_vs.md)
 
 You can also use the new Visual Studio static analyzers for extensions (NuGet package [here](https://www.nuget.org/packages/microsoft.visualstudio.sdk.analyzers)), that provide guidance on best practices for writing efficient extensions. See a list of [VSSDK analyzers](https://github.com/Microsoft/VSSDK-Analyzers/blob/main/doc/index.md) and [threading analyzers](https://github.com/microsoft/vs-threading/blob/main/docfx/analyzers/index.md).

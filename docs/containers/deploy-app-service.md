@@ -6,7 +6,7 @@ manager: mijacobs
 ms.subservice: container-tools
 ms.devlang: dotnet
 ms.topic: how-to
-ms.date: 10/18/2023
+ms.date: 9/10/2025
 ms.author: ghogen
 ---
 
@@ -16,32 +16,54 @@ This tutorial walks you through using Visual Studio to publish your containerize
 
 You can also deploy to [Azure Container Apps](/azure/container-apps/overview). For a tutorial, see [Deploy to Azure Container Apps using Visual Studio](/azure/container-apps/deploy-visual-studio).
 
-If you don't have an Azure subscription, create a [free account](https://azure.microsoft.com/free/dotnet/?utm_source=acr-publish-doc&utm_medium=docs&utm_campaign=docs) before you begin.
+If you don't have an Azure subscription, create a [free account](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn) before you begin.
 
 ## Prerequisites
 
 To complete this tutorial:
 
 ::: moniker range="vs-2019"
-- [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the *ASP.NET and web development* workload.
+- [Visual Studio 2019 or later](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) with the **ASP.NET and web development** workload.
 ::: moniker-end
-::: moniker range=">=vs-2022"
-- [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the *ASP.NET and web development* workload.
+::: moniker range="vs-2022"
+- [Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) with the **ASP.NET and web development** workload.
 ::: moniker-end
 
-- Install [Docker Desktop](https://docs.docker.com/docker-for-windows/install/)
+:::moniker range="visualstudio"
+- [Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-cta), or for Podman support, [Visual Studio 2026](https://aka.ms/vs/download/?cid=learn-onpage-download-cta),  with the **ASP.NET and web development** workload.
+- Install [Docker Desktop](https://docs.docker.com/docker-for-windows/install/) or [Podman Desktop](https://podman-desktop.io/downloads).
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+- Install [Docker Desktop](https://docs.docker.com/docker-for-windows/install/).
+:::moniker-end
 
 ## Create an ASP.NET Core web app
 
 The following steps guide you through creating a basic ASP.NET Core app that will be used in this tutorial.
 
+:::moniker range=">=vs-2022"
+
+1. From the Visual Studio start window, choose **Create a new project**.
+1. Choose **ASP.NET Core Web App (Razor pages)**, and choose **Next**.
+1. Give your new application a name (or take the default) and choose **Next**.
+1. Choose the .NET version you want to target.
+1. Choose whether or not you want SSL support by using the **Configure for HTTPS** checkbox.
+1. Select the **Enable container support** checkbox.
+1. Select the container type, and click **Create**.
+
+:::moniker-end
+:::moniker range="vs-2019"
+
 1. From the Visual Studio start window, choose **Create a new project**.
 1. Choose **ASP.NET Core Web App**, and choose **Next**.
 1. Give your new application a name (or take the default) and choose **Next**.
-1. Choose the .NET version you want to target. If you're not sure, choose the .NET 8.0 version.
+1. Choose the .NET version you want to target.
 1. Choose whether or not you want SSL support by using the **Configure for HTTPS** checkbox.
 1. Select the **Enable Docker Support** checkbox.
 1. Select the container type, and click **Create**.
+
+:::moniker-end
 
 ## Deploy the container to Azure
 
@@ -104,7 +126,7 @@ The following steps guide you through creating a basic ASP.NET Core app that wil
    ![Screenshot showing choosing an App Service.](media/deploy-app-service/vs-2022/publish-app-service-linux-1.png)
 
    > [!NOTE]
-   > In Visual Studio 2022 version 17.11, the default authentication method used for publishing to Azure changed from basic authentication to using an access token for authentication. To use basic authentication with Visual Studio 17.11 or later, clear the checkbox **Enable secure publishing** (not recommended).
+   > In Visual Studio 2022 version 17.11 and later, the default authentication method used for publishing to Azure changed from basic authentication to using an access token for authentication. To use basic authentication with Visual Studio 17.11 or later, clear the checkbox **Enable secure publishing** (not recommended).
 
 1. If you create a new one, a resource group and app service will be generated in Azure. You can change the names if desired, as long as they are unique.
 

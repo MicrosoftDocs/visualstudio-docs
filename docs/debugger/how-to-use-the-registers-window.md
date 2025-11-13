@@ -1,7 +1,7 @@
 ---
 title: View register values in the debugger
 description: View register values in the Registers window in Visual Studio. During debugging, register values change as code executes in your app.
-ms.date: 08/13/2024
+ms.date: 11/03/2025
 ms.topic: how-to
 f1_keywords: 
   - vs.debug.registers
@@ -30,10 +30,10 @@ ms.subservice: debug-diagnostics
 
 The **Registers** window displays register contents during Visual Studio debugging. For a high-level introduction to concepts behind registers and the **Registers** window, see [About the Registers Window](../debugger/debugging-basics-registers-window.md).
 
-During debugging, register values change as code executes in your app. Values that have changed recently appear in red in the **Registers** window. For info on the flags you see in the **Registers** window, see [About the Registers window](../debugger/debugging-basics-registers-window.md).
+During debugging, register values change as code executes in your app. Recently changed values appear in red in the **Registers** window. For info on the flags you see in the **Registers** window, see [About the Registers window](../debugger/debugging-basics-registers-window.md).
 
 > [!NOTE]
-> Register information is not available for script or SQL apps.
+> Register information isn't available for script or SQL apps.
 
 In C++ code, you can also edit register values. For more information, see [Edit a register value](#edit-a-register-value-c).
 
@@ -42,9 +42,18 @@ In C++ code, you can also edit register values. For more information, see [Edit 
 
 ## View register values
 
-1. Enable address-level debugging, by selecting **Enable address-level debugging** in **Tools** (or **Debug**) > **Options** > **Debugging**.
+:::moniker range="visualstudio"
 
-1. While debugging or while paused at a breakpoint, select **Debug** > **Windows** > **Registers**, or press **Alt**+**5**.
+1. Open the **Tools** > **Options** pane and expand the **All Settings** > **Debugging** > **General** section. Select the **Enable address-level debugging** checkbox.
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+      
+1. Open the **Tools** > **Options** dialog and expand the **Debugging** > **General** section. Select the **Enable address-level debugging** checkbox.
+
+:::moniker-end
+
+2. While debugging or while paused at a breakpoint, select **Debug** > **Windows** > **Registers**, or press **Alt**+**5**.
 
    ::: moniker range=">=vs-2022"
    ![Screenshot of Registers Window.](../debugger/media/vs-2022/debug-registers-window.png)
@@ -52,10 +61,10 @@ In C++ code, you can also edit register values. For more information, see [Edit 
 
 ## Display and hide Register Groups (C#, C++, Visual Basic, F#)
 
-To reduce clutter, the **Registers** window organizes registers into groups. If you right-click the **Registers** window, you will see a shortcut menu containing these groups, which you can display or hide as you see fit following the procedure below.
+To reduce clutter, the **Registers** window organizes registers into groups. If you right-click the **Registers** window, you see a shortcut menu containing these groups. In the following procedure, you can show or hide this menu.
 
 > [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset all settings](../ide/personalizing-the-visual-studio-ide.md#reset-all-settings).
+> The dialogs and menu commands you see might differ from the UI described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset all settings](../ide/personalizing-the-visual-studio-ide.md#reset-all-settings).
 
 To display or hide register groups:
 
@@ -63,7 +72,7 @@ To display or hide register groups:
 
 2. On the shortcut menu, select the register groups you want to show or hide.
 
-     Register groups that are not supported by the hardware you are debugging on are disabled on the shortcut menu, so they cannot be selected.
+     Register groups not supported by the hardware you're debugging on are disabled on the shortcut menu, so they can't be selected.
 
 ## Edit a register value (C++)
 

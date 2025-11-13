@@ -2,7 +2,7 @@
 title: Default Command, Group, and Toolbar Placement
 description: Learn about the IDE commands, product commands, and editor commands, that the Visual Studio user interface displays by default.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - commands [Visual Studio], default groups
 - toolbars [Visual Studio], default
@@ -10,8 +10,8 @@ helpviewer_keywords:
 - command groups
 - commands [Visual Studio], default IDE
 - commands [Visual Studio], default product
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

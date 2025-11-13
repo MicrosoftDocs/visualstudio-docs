@@ -3,11 +3,12 @@ title: VisualStudio.Extensibility overview
 description: Learn about the Visual Studio Extensibility model for adding custom functionality to Visual Studio.
 ms.topic: overview
 ms.date: 3/31/2023
-ms.author: maiak
+ms.author: tinali
 monikerRange: ">=vs-2022"
-author: maiak
+author: tinaschrepfer
 manager: mijacobs
 ms.subservice: extensibility-integration
+ms.update-cycle: 365-days
 ---
 
 # About VisualStudio.Extensibility (Preview)
@@ -107,6 +108,7 @@ You can find a Visual Studio solution that contains all samples at [Samples.sln]
 | [RegexMatchDebugVisualizer](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/RegexMatchDebugVisualizer) | Shows how to use [Remote UI](./inside-the-sdk/remote-ui.md) to create a [Debugger Visualizer](./debugger-visualizer/debugger-visualizers.md) to visualize regular expression matches that will launch in a modal dialog window. |
 | [MemoryStreamDebugVisualizer](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/MemoryStreamDebugVisualizer) | Shows how to create a [Debugger Visualizer](./debugger-visualizer/debugger-visualizers.md) to visualize MemoryStream objects that launches in a non-modal tool window. |
 | [RustLanguageServiceProvider](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/RustLanguageServerProvider) | Shows how to create a Rust language server provider extension that adds Intellisense and tooltips when a rust file is opened. |
+| [CompositeExtension](https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/CompositeExtension) | Shows how to create an extension with in-proc and out-of-proc components that communicate using brokered services. |
 
 ## Experimental APIs and Breaking Changes
 Starting with our 17.9 release, we're ready to label most of our APIs as stable. That is, we don't plan to make any breaking changes to these APIs. Any breaking changes, such as those prompted by user feedback on usability, will be formally communicated in advance on our [breaking changes](https://github.com/microsoft/VSExtensibility/blob/main/docs/breaking_changes.md) page with ample notice.

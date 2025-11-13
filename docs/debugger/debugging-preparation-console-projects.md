@@ -2,7 +2,7 @@
 title: "Prepare to debug console projects"
 description: Get information about preparing to debug console projects (C#, C++, Visual Basic, F#) in Visual Studio.
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: concept-article
 dev_langs:
   - "CSharp"
   - "VB"
@@ -51,7 +51,7 @@ Like all project properties, these arguments persist between debug sessions and 
 
 ## See also
 - [Debugging Native Code](../debugger/debugging-native-code.md)
-- [Debugging Managed Code](../debugger/debugging-managed-code.md)
+- [Debugging Managed Code](/visualstudio/debugger/)
 - [Prepare to debug C++ projects](../debugger/debugging-preparation-visual-cpp-project-types.md)
 - [Managed debugging: Recommended project settings](../debugger/managed-debugging-recommended-property-settings.md)
 - [Project Settings for a C++ Debug Configuration](../debugger/project-settings-for-a-cpp-debug-configuration.md)

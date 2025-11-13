@@ -1,7 +1,7 @@
 ---
 description: "Describes the properties of a symbol instance."
 title: "IDiaSymbol"
-ms.date: "07/08/2024"
+ms.date: "04/22/2025"
 ms.topic: "reference"
 dev_langs:
   - "C++"
@@ -27,7 +27,7 @@ IDiaSymbol : IUnknown
 The following table shows the methods of `IDiaSymbol`.
 
 > [!NOTE]
-> Symbols will return meaningful data for only some of these methods, depending on the type of symbol. If a method returns `S_OK`, then that method has returned meaningful data.
+> Symbols will return meaningful data for only some of these methods, depending on the type of symbol. If a method returns `S_OK`, then that method has returned meaningful data. For a list of symbol types, see [Lexical Hierarchy of Symbol Types](../debug-interface-access/lexical-hierarchy-of-symbol-types.md).
 
 |Method|Description|
 |------------|-----------------|
@@ -151,7 +151,7 @@ The following table shows the methods of `IDiaSymbol`.
 |[`IDiaSymbol::get_isPointerToMemberFunction`](../../debugger/debug-interface-access/idiasymbol-get-ispointertomemberfunction.md)|Specifies whether this symbol is a pointer to a member function.|
 |[`IDiaSymbol::get_isRefUdt`](../../debugger/debug-interface-access/idiasymbol-get-isrefudt.md)|Retrieves a flag indicating whether this is a WinRT reference user-defined type (UDT).|
 |[`IDiaSymbol::get_isReturnValue`](../../debugger/debug-interface-access/idiasymbol-get-isreturnvalue.md)|Specifies whether the variable carries a return value.|
-|[`IDiaSymbol::get_isSafeBuffers`](../../debugger/debug-interface-access/idiasymbol-get-issafebuffers.md)|Retrieves a flag that specifies whether the preprocesser directive for a safe buffer is used.|
+|[`IDiaSymbol::get_isSafeBuffers`](../../debugger/debug-interface-access/idiasymbol-get-issafebuffers.md)|Retrieves a flag that specifies whether the preprocessor directive for a safe buffer is used.|
 |[`IDiaSymbol::get_isSdl`](../../debugger/debug-interface-access/idiasymbol-get-issdl.md)|Specifies whether the module is compiled with the /SDL option.|
 |[`IDiaSymbol::get_isSingleInheritance`](../../debugger/debug-interface-access/idiasymbol-get-issingleinheritance.md)|Specifies whether the `this` pointer points to a data member with single inheritance.|
 |[`IDiaSymbol::get_isSplitted`](../../debugger/debug-interface-access/idiasymbol-get-issplitted.md)|Retrieves a flag indicating whether the data has been split into an aggregate of separate symbols.|
@@ -176,7 +176,7 @@ The following table shows the methods of `IDiaSymbol`.
 |[`IDiaSymbol::get_machineType`](../../debugger/debug-interface-access/idiasymbol-get-machinetype.md)|Retrieves the type of the target CPU.|
 |[`IDiaSymbol::get_managed`](../../debugger/debug-interface-access/idiasymbol-get-managed.md)|Retrieves a flag that indicating whether the symbol refers to managed code.|
 |[`IDiaSymbol::get_memorySpaceKind`](../../debugger/debug-interface-access/idiasymbol-get-memoryspacekind.md)|Retrieves the memory space kind.|
-|[`IDiaSymbol::get_modifierValues`](../../debugger/debug-interface-access/idiasymbol-get-modifiervalues.md)|Retrieves the set of modifers for this symbol.|
+|[`IDiaSymbol::get_modifierValues`](../../debugger/debug-interface-access/idiasymbol-get-modifiervalues.md)|Retrieves the set of modifiers for this symbol.|
 |[`IDiaSymbol::get_msil`](../../debugger/debug-interface-access/idiasymbol-get-msil.md)|Retrieves a flag indicating whether the symbol refers to Microsoft Intermediate Language (MSIL) code.|
 |[`IDiaSymbol::get_name`](../../debugger/debug-interface-access/idiasymbol-get-name.md)|Retrieves the name of the symbol.|
 |[`IDiaSymbol::get_nested`](../../debugger/debug-interface-access/idiasymbol-get-nested.md)|Retrieves a flag indicating whether the user-defined data type is nested.|
@@ -249,7 +249,7 @@ The following table shows the methods of `IDiaSymbol`.
 |[`IDiaSymbol::get_unalignedType`](../../debugger/debug-interface-access/idiasymbol-get-unalignedtype.md)|Retrieves a flag indicating whether the user-defined data type is unaligned.|
 |[`IDiaSymbol::get_undecoratedName`](../../debugger/debug-interface-access/idiasymbol-get-undecoratedname.md)|Retrieves the undecorated name for a C++ decorated, or linkage, name.|
 |[`IDiaSymbol::get_undecoratedNameEx`](../../debugger/debug-interface-access/idiasymbol-get-undecoratednameex.md)|Extension of the `get_undecoratedName` method that retrieves the undecorated name based on the value of an extension field.|
-|[`IDiaSymbol::get_unmodifiedType`](../../debugger/debug-interface-access/idiasymbol-get-unmodifiedtype.md)|Retrieves the original (unmodifed) type of this symbol.|
+|[`IDiaSymbol::get_unmodifiedType`](../../debugger/debug-interface-access/idiasymbol-get-unmodifiedtype.md)|Retrieves the original (unmodified) type of this symbol.|
 |[`IDiaSymbol::get_unmodifiedTypeId`](../../debugger/debug-interface-access/idiasymbol-get-unmodifiedtypeid.md)|Retrieves the ID of the original (unmodified) type.|
 |[`IDiaSymbol::get_unused`](../../debugger/debug-interface-access/idiasymbol-get-unused.md)|Deprecated function.|
 |[`IDiaSymbol::get_upperBound`](../../debugger/debug-interface-access/idiasymbol-get-upperbound.md)|Retrieves the upper bound of a FORTRAN array dimension.|

@@ -2,7 +2,7 @@
 title: "Recommended debugger property settings for C#, VB"
 description: See the build and compile property settings that should be the same for all managed debugging. Other settings can vary depending on project type.
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "CSharp"
   - "VB"
@@ -44,5 +44,5 @@ Certain properties should be set the same way for all managed debugging scenario
 |**Define TRACE constant**|Select this check box to define the `TRACE` constant, which enables your application to use the <xref:System.Diagnostics.Trace> class.|
 
 ## Related content
-- [Debugging Managed Code](../debugger/debugging-managed-code.md)
+- [Debugging Managed Code](/visualstudio/debugger/)
 - [Managed debugging: Recommended project settings](../debugger/managed-debugging-recommended-property-settings.md)

@@ -1,7 +1,7 @@
 ---
-title: Publish ClickOnce application using Publish wizard
-description: Learn about using the Publish Wizard to make your ClickOnce application available to users, including which publishing properties to use.
-ms.date: 01/27/2023
+title: Publish ClickOnce Application with Publish Wizard
+description: Learn how to use the Publish Wizard to make your ClickOnce application available to users, including which publishing properties to use.
+ms.date: 04/17/2025
 ms.topic: how-to
 dev_langs: 
   - VB
@@ -16,82 +16,107 @@ author: mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: deployment
+#customer intent: As a developer, I want to use the Publish Wizard in Visual Studio so I can make my ClickOnce application available to users.
 ---
-# Deploy a .NET Framework desktop application using the ClickOnce Publish wizard
+# Deploy a .NET Framework desktop application with the ClickOnce Publish Wizard
 
-To make a ClickOnce application available to users, you must publish it to a file share or path, FTP server, or removable media. You can publish the application by using the Publish Wizard; additional properties related to publishing are available on the **Publish** page of the **Project Designer**. For more information, see [Publishing ClickOnce applications](../deployment/publishing-clickonce-applications.md).
+To make a ClickOnce application available to users, you need to publish the app to a file share or path, FTP server, or removable media. You can publish the application by using the **Publish Wizard**. Extra publishing properties are available in the **Publish** page of the **Project Designer**. For more information, see [Publishing ClickOnce applications](../deployment/publishing-clickonce-applications.md).
 
-Before you run the Publish Wizard, you should set the publishing properties appropriately. For example, if you want to designate a key to sign your ClickOnce application, you can do so on the **Signing** page of the **Project Designer**. For more information, see [Secure ClickOnce applications](../deployment/securing-clickonce-applications.md).
+Before you run the **Publish Wizard**, you should set the publishing properties appropriately. For example, you can designate a key to sign your ClickOnce application in the **Signing** page of the **Project Designer**. For more information, see [Secure ClickOnce applications](../deployment/securing-clickonce-applications.md).
+
+When you install multiple versions of an application by using ClickOnce, the installation moves earlier versions of the application into a folder named *Archive*, in the publishing location that you specify. Archiving earlier versions in this manner keeps the installation directory clear of folders from the earlier version.
 
 > [!NOTE]
-> When you install more than one version of an application by using ClickOnce, the installation moves earlier versions of the application into a folder named *Archive*, in the publish location that you specify. Archiving earlier versions in this manner keeps the installation directory clear of folders from the earlier version.
+> The dialogs and menus you see might differ from the UI described in this article, depending on your active settings or edition. To change your settings, select **Import and Export Settings** on the **Tools** menu. For more information, see [Reset all settings](../ide/personalizing-the-visual-studio-ide.md#reset-all-settings).
 
-> [!NOTE]
-> The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or edition. To change your settings, click **Import and Export Settings** on the **Tools** menu. For more information, see [Reset settings](../ide/personalizing-the-visual-studio-ide.md#reset-all-settings).
-
-## To publish to a file share or path
+## Publish to file share or path
 
 1. In **Solution Explorer**, select the application project.
 
-2. On the **Build** menu, choose either **Publish** *Projectname* or **Publish Selection**.
+1. On the **Build** menu, select either **Publish** *Projectname* or **Publish Selection**, which opens the **Publish Wizard**.
 
-    The Publish Wizard appears.
+   [!INCLUDE[ndptecclick](../deployment/includes/dotnet-publish-tool.md)]
 
-    [!INCLUDE[ndptecclick](../deployment/includes/dotnet-publish-tool.md)]
+1. In the **Where do you want to publish the application?** page of the **Publish Wizard**, enter a valid FTP server address or a valid file path by using one of the formats shown, and then select **Next**.
 
-3. In the **Where do you want to publish the application?** page, enter a valid FTP server address or a valid file path using one of the formats shown, and then click **Next**.
+1. In the **How will users install the application?** page, select the location for user installation of the application:
 
-4. In the **How will users install the application?** page, select the location where users will go to install the application:
+   - To enable user installation from a web site, select **From a Web site**. Enter a URL that corresponds to the file path entered in the previous step. This option is typically used to specify an FTP address as the publishing location. Direct download from FTP isn't supported, so you have to enter a URL for this option.
 
-   - If users will install from a Web site, click **From a Web site** and enter a URL that corresponds to the file path entered in the previous step. Click **Next**. (This option is typically used when you specify an FTP address as the publishing location. Direct download from FTP is not supported. Therefore, you have to enter a URL here.)
+   - To enable user installation directly from the file share, select **From a UNC path or file share**. Enter a UNC path or file share that corresponds to the file path entered in the previous step. This option is for publishing locations of the form *c:\deploy\myapp* or *\\\server\myapp*.
 
-   - If users will install the application directly from the file share, click **From a UNC path or file share**, and then click **Next**. (This is for publishing locations of the form *c:\deploy\myapp* or *\\\server\myapp*.)
+   - To enable user installation **From a CD-ROM or DVD-ROM**, follow the steps in the [next section](#publish-to-cd-rom-or-dvd-rom).
 
-   - If users will install from removable media, click **From a CD-ROM or DVD-ROM**, and then click **Next**.
+   Select **Next** to continue.
 
-5. On the **Will the application be available offline?** page, click the appropriate option:
+1. In the **Will the application be available offline?** page, select the appropriate option:
 
-   - If you want to enable the application to be run when the user is disconnected from the network, click **Yes, this application will be available online or offline**. A shortcut on the **Start** menu will be created for the application.
+   - To allow the application to run when the user is disconnected from the network, select **Yes, this application is available online or offline**. Visual Studio adds an application shortcut on the **Start** menu.
 
-   - If you want to run the application directly from the publish location, click **No, this application is only available online**. A shortcut on the **Start** menu will not be created.
+   - To run the application directly from the publish location, select **No, this application is only available online**.
 
-     Click **Next** to continue.
+   Select **Next** to continue.
 
-6. Click **Finish** to publish the application.
+1. To publish the application with your settings, select **Finish**.
 
-    Publishing status is displayed in the status notification area.
+   Visual Studio displays the publishing progress in the status notification area.
 
-## To publish to a CD-ROM or DVD-ROM
+## Publish to CD-ROM or DVD-ROM
 
-1. In **Solution Explorer**, right-click the application project and click **Properties**.
+1. In **Solution Explorer**, right-click the project and select **Properties**, which opens the **Project Designer**.
 
-    The **Project Designer** appears.
+1. In the **Project Designer**, select the **Publish** tab, and then select **Publish Wizard**.
 
-2. Click the **Publish** tab to open the **Publish** page in the **Project Designer**, and click the **Publish Wizard** button.
+1. In the **Where do you want to publish the application?** page of the **Publish Wizard**, enter a valid FTP server address or a valid file path by using one of the formats shown, and then select **Next**.
 
-    The Publish Wizard appears.
-
-3. In the **Where do you want to publish the application?** page, enter the file path or FTP location where the application will be published, for example *d:\deploy*. Then click **Next** to continue.
-
-4. On the **How will users install the application?** page, click From a **CD-ROM or DVD-ROM**, and then click **Next**.
+1. In the **How will users install the application?** page, select **From a CD-ROM or DVD-ROM**, and then select **Next**.
 
    > [!NOTE]
-   > If you want the installation to run automatically when the CD-ROM is inserted into the drive, open the **Publish** page in the **Project Designer** and click the **Options** button, and then, in the **Publish Options** wizard, select **For CD installations, automatically start Setup when CD is inserted**.
+   > You can [configure the installation to run automatically](#configure-automatic-installation) when the user inserts the CD-ROM into the drive.
 
-5. If you distribute your application on CD-ROM, you might want to provide updates from a Web site. In the **Where will the application check for updates?** page, choose an update option:
+1. If you distribute your application on CD-ROM, you can provide updates from a web site. In the **Where will the application check for updates?** page, select an update option:
 
-   - If the application will check for updates, click **The application will check for updates from the following location** and enter the location where updates will be posted. This can be a file location, Web site, or FTP server.
+   - To enable the application check for updates, select **The application will check for updates from the following location**. Enter the post location for the updates, such as a file location, web site, or FTP server.
 
-   - If the application will not check for updates, click **The application will not check for updates**.
+   - For no application check for updates, select **The application will not check for updates**.
 
-     Click **Next** to continue.
+   Select **Next** to continue.
 
-6. Click **Finish** to publish the application.
+1. To publish the application with your settings, select **Finish**.
 
-    Publishing status is displayed in the status notification area.
+   Visual Studio displays the publishing progress in the status notification area.
 
    > [!NOTE]
-   > After publishing is complete, you will have to use a CD-Rewriter or DVD-Rewriter to copy the files from the location specified in step 3 to the CD-ROM or DVD-ROM media.
+   > After publishing completes, use a CD/DVD rewriter to copy the files from the **Where do you want to publish the application?** location to the CD-ROM or DVD-ROM media.
+
+### Configure automatic installation
+
+When you enable user installation from a CD-ROM or DVD-ROM, you can configure the process to run automatically when the user inserts the CD-ROM into the drive. 
+
+::: moniker range=">=vs-2022"
+
+1. In the **Project Designer**, select the **Publish** tab.
+
+1. Select **Options**, which opens the **Publish Options** wizard.
+
+1. In the **Publish Options** wizard, select the **Deployment** tab.
+
+1. Select the **For CD installations, automatically start Setup when CD is inserted** option.
+
+1. To apply the change, select **OK**.
+
+::: moniker-end
+::: moniker range="vs-2019"
+
+1. In the **Project Designer**, select the **Publish** tab.
+
+1. Select **Options**, which opens the **Publish Options** wizard.
+
+1. Select the **For CD installations, automatically start Setup when CD is inserted** option.
+
+1. To apply the change, select **OK**.
+
+::: moniker-end
 
 ## Related content
 

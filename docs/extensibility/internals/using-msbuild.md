@@ -2,13 +2,13 @@
 title: Using MSBuild
 description: MSBuild supplies an extensible XML format for creating project files that fully describe project items to be built, build tasks, and build configurations.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - VSPackages, compiling with MSBuild
 - MSBuild, extensibility
 - packages, compiling with MSBuild
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

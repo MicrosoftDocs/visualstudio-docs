@@ -2,12 +2,12 @@
 title: VSIX Project Template
 description: Learn how to use the VSIX Project template to wrap Visual Studio extensions in a VSIX project, and then publish the package on the Visual Studio Marketplace.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - deploy packages
 - publish extension
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

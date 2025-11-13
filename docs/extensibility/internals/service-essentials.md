@@ -2,11 +2,11 @@
 title: Service Essentials
 description: Learn about services, which are interfaces for another VSPackage to consume. Services in a VSPackage can override built-in or other services.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - services, essentials
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---
@@ -57,7 +57,7 @@ A service is a contract between two VSPackages. One VSPackage provides a specifi
 
 ## Use GetGlobalService
 
-Sometimes you may need to get a service from a tool window or control container that has not been sited, or else has been sited with a service provider that does not know about the service you want. For example, you might want to write to the activity log from within a control. For more information about these and other scenarios, see [How to: Troubleshoot Services](../../extensibility/how-to-troubleshoot-services.md).
+Sometimes you may need to get a service from a tool window or control container that has not been sited, or else has been sited with a service provider that does not know about the service you want. For example, you might want to write to the activity log from within a control. For more information about these and other scenarios, see [How to: Troubleshoot Services](/troubleshoot/developer/visualstudio/extensibility/how-to-troubleshoot-services).
 
 You can get most Visual Studio services by calling the static <xref:Microsoft.VisualStudio.Shell.Package.GetGlobalService%2A> method.
 

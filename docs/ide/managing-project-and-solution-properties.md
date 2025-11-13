@@ -2,7 +2,7 @@
 title: Manage project and solution properties
 description: Manage both the project properties and the solution properties in Visual Studio for C#, Visual Basic, F#, C++, and JavaScript projects.
 ms.date: 02/25/2025
-ms.topic: conceptual
+ms.topic: article
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
@@ -17,7 +17,7 @@ You access project properties by right-clicking the [project node](use-solution-
 
 Most project properties are not dependent on the configuration or the platform, but some are. Learn more about [setting properties based on configurations](how-to-create-and-edit-configurations.md#set-properties-based-on-configurations).
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 :::image type="content" source="media/vs-2022/properties-from-solution-explorer-context-menu.png" alt-text="Screenshot of the Solution Explorer context menu with the Properties option highlighted.":::
 
@@ -43,7 +43,7 @@ In C#, Visual Basic, and F# projects, properties are exposed in the [.NET Projec
 
 The following screenshot shows the **Build** property page in the .NET **Project Designer** for a console project in C#:
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 :::image type="content" source="reference/media/vs-2022/project-properties-designer-build-csharp.png" alt-text="Screenshot of the Project Designer, with the Build tab selected.":::
 
@@ -57,7 +57,7 @@ The following screenshot shows the **Build** property page in the .NET **Project
 
 The following screenshot shows the **Compile** property page in the .NET **Project Designer** for a console project in Visual Basic:
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 :::image type="content" source="reference/media/vs-2022/project-properties-designer-compile-visual-basic.png" alt-text="Screenshot of the Project Designer, with the Compile tab selected.":::
 
@@ -80,7 +80,7 @@ C++ and JavaScript projects have a different user interface for managing project
 
 :::image type="content" source="media/vs-2022/properties-page-cpp-console.png" alt-text="Screenshot of the C++ project properties page.":::
 
-For information about C++ project properties, see [Work with project properties (C++)](/cpp/build/working-with-project-properties). For more information about JavaScript properties, see [Property pages, JavaScript](../ide/reference/property-pages-javascript.md).
+For information about C++ project properties, see [Work with project properties (C++)](/cpp/build/working-with-project-properties). For more information about JavaScript properties, see [Property pages, JavaScript](/previous-versions/visualstudio/visual-studio-2017/ide/reference/property-pages-javascript).
 
 ## Solution properties
 

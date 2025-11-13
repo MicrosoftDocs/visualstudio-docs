@@ -2,7 +2,7 @@
 title: "Events in Office projects"
 description: Learn how each Office project template generates several event handlers and how those event handlers are slightly different from event handlers for VSTO Add-ins.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"

@@ -48,7 +48,7 @@ SignFile requires either Visual Studio or a Windows 8.1 SDK to be installed, in 
  The following example uses the `SignFile` task to sign the files specified in the `FilesToSign` item collection with the certificate specified by the `CertificateThumbprint` property.
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
     <ItemGroup>
         <FileToSign Include="File.exe" />
     </ItemGroup>

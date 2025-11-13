@@ -2,7 +2,7 @@
 title: "Debug XAML in Blend"
 description: Learn how to use the tools in Blend for Visual Studio to detect, debug, and resolve XAML errors in your app.
 ms.date: "11/04/2016"
-ms.topic: conceptual
+ms.topic: how-to
 author: maddymontaquila
 ms.author: maleger
 manager: mijacobs
@@ -111,7 +111,7 @@ When XAML errors are detected, the design surface displays an alert that your pr
 
 You can open Blend projects in Visual Studio to more easily debug the code in your app. To open a Blend project in Visual Studio, right-click the project in the **Projects** panel, and then click **Edit in Visual Studio**. After you have finished your debugging session in Visual Studio, press Ctrl+Shift+S to save all your changes, and then switch back to Blend. You will be prompted to reload the project. Click **Yes to All** to continue working in Blend.
 
-For more information about debugging your app, see [Debug UWP apps in Visual Studio](../debugger/debugging-windows-store-and-windows-universal-apps.md).
+For more information about debugging your app, see [Debug UWP apps in Visual Studio](/windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps).
 
 ## Get help
 

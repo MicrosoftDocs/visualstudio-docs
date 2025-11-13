@@ -11,7 +11,7 @@ metadata:
   author: mikejo5000
   ms.author: mikejo
   manager: mijacobs
-  ms.date: 09/20/2024
+  ms.date: 07/23/2025
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
 
@@ -27,6 +27,8 @@ landingContent:
             url: beginners-guide-to-performance-profiling.md
           - text: Get started measuring memory usage
             url: memory-usage.md
+          - text: Try AI-assisted profiling
+            url: profile-with-copilot-agent.md
       - linkListType: how-to-guide
         links:
           - text: Case study - Beginner's guide to optimizing code
@@ -67,12 +69,12 @@ landingContent:
             url: instrumentation-overview.md
           - text: .NET Counters
             url: dotnet-counters-tool.md  
+          - text: Benchmark.NET
+            url: profiling-with-benchmark-dotnet.md
           - text: File I/O
             url: use-file-io.md
           - text: Database
             url: analyze-database.md
-          - text: Benchmark.NET
-            url: profiling-with-benchmark-dotnet.md
           - text: Events Viewer
             url: events-viewer.md
           - text: .NET Async

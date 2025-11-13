@@ -1,7 +1,7 @@
 ---
 title: Publish an ASP.NET web app
 description: Use the Publish tool in Visual Studio to deploy ASP.NET and ASP.NET Core apps to local web servers like IIS or remote cloud environments like Azure App Service.
-ms.date: 07/15/2024
+ms.date: 6/27/2025
 ms.topic: quickstart
 helpviewer_keywords:
   - "deployment, web app"
@@ -9,7 +9,7 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: deployment
-monikerRange: '>= vs-2019'
+ms.custom: sfi-image-nochange
 ---
 # Quickstart: Publish an ASP.NET web app
 
@@ -42,15 +42,13 @@ If you're publishing this web app for the first time, next you see the Publish w
 > [!NOTE]
 > Visual Studio filters the list of destinations depending on the type of web app.
 
-## [Azure](#tab/azure)
-## Publish your web app to Azure
+## Azure
 
 For detailed steps on publishing your web app, see [Quickstart: Deploy an ASP.NET web app](/azure/app-service/quickstart-dotnetcore?tabs=netcore31&pivots=development-environment-vs#publish-your-web-app).
 
-## [Docker](#tab/docker)
-## Publish your web app to Docker Container Registry
+## Container registry
 
-You can publish your web app as a Docker container to any compatible Docker Container Registry.
+This sections describes publishing to a container registry. You can publish your web app as a Docker container to any compatible Docker Container Registry.
 
 ![Screenshot showing the Publish wizard, with Publish to Docker Container Registry highlighted.](./media/publish-docker-container-registry-highlighted.png)
 
@@ -76,7 +74,7 @@ Next, for other Docker container registries, provide the URI and publish credent
 
 ![Screenshot showing the option to publish to another Docker Container Registry.](./media/publish-custom-docker-registry-details.png)
 
-### Finish the Publish wizard
+### Publish container image
 
 Next, you see the summary page for the new [publish profile](./publish-overview.md) that you just created using the Publish wizard. Click **Publish** and Visual Studio deploys your web app to the specified Docker Container Registry.
 
@@ -85,8 +83,7 @@ Next, you see the summary page for the new [publish profile](./publish-overview.
 > [!NOTE]
 > The above screenshot is showing a publish profile targeting Azure Docker Registry, but the same Publish button is available for all three Docker Container Registry options.
 
-## [Folder](#tab/folder)
-## Publish your web app to a folder
+## Filesystem folder
 
 You can publish your web app to both local and network folders.
 
@@ -102,8 +99,7 @@ Next, you see the summary page for the new [publish profile](./publish-overview.
 
 You can come back to this summary page after you close it. Next time you right-click and choose **Publish**, Visual Studio opens this summary page. (To get back to the Publish wizard just click **New** in the summary page.)
 
-## [FTP/FTPS](#tab/ftp-ftps)
-## Publish your web app to an FTP/FTPS server
+## FTP/FTPS server
 
 You can publish your web app using FTP or FTPS.
 
@@ -119,8 +115,7 @@ Next, you see the summary page for the new [publish profile](./publish-overview.
 
 You can come back to this summary page after you close it. The next time you right-click and publish, Visual Studio opens this summary page. (To get back to the Publish wizard just click **New** in the summary page.)
 
-## [Web Server](#tab/web-server)
-## Publish your web app to Web Server (IIS)
+## Web Server (IIS)
 
 You can publish your web app to IIS if IIS is configured. By default, IIS Express is installed, but you should install the IIS Management tools if you're deploying to IIS from Visual Studio. Note that you don't need to run Visual Studio as Administrator to deploy to IIS Express, only to full IIS.
 
@@ -172,12 +167,9 @@ Next, you see the summary page for the new [publish profile](./publish-overview.
 
 ![Screenshot showing the Publish wizard, publish to IIS summary page.](./media/publish-iis-web-deploy-package-summary-page.png)
 
-## [Import profile](#tab/import-profile)
-## Import Profile
+## Import publish profile
 
 You can import publish settings [from IIS](./tutorial-import-publish-settings-iis.md) and [Azure App Service](./tutorial-import-publish-settings-azure.md#create-the-publish-settings-file-in-azure-app-service)
-
----
 
 ## Next steps
 

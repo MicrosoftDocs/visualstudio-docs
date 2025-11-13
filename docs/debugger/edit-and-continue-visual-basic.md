@@ -2,7 +2,7 @@
 title: "Edit and Continue (Visual Basic)"
 description: Edit and Continue is available for Visual Basic projects. Learn what edits are supported, and how to can control whether, and when, your edits are applied.
 ms.date: "08/15/2023"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "CSharp"
   - "VB"
@@ -69,5 +69,5 @@ To edit code in Break mode:
 ## Related content
 
 - [Supported Code Changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md)
-- [Edit and Continue](../debugger/edit-and-continue.md)
+- [Edit and Continue](/visualstudio/debugger/how-to-enable-and-disable-edit-and-continue)
 - [Configure Edit and Continue](../debugger/how-to-enable-and-disable-edit-and-continue.md)

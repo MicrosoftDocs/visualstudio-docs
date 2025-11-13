@@ -2,11 +2,11 @@
 title: Managing Side-by-Side File Associations
 description: If your VSPackage provides file associations, decide how to handle side-by-side installations in which a particular version of Visual Studio opens a file.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - verbs, setting default
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

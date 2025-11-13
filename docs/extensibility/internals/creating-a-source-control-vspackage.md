@@ -2,12 +2,12 @@
 title: Creating a Source Control VSPackage
 description: Learn how to create a source control VSPackage that creates a deep integration path for source control to integrate with Visual Studio.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - source control [Visual Studio SDK], creating source control packages
 - source control packages
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

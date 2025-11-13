@@ -11,8 +11,8 @@ helpviewer_keywords:
 - SccMsgDataIsCancelled structure
 - LPTEXTOUTPROC callback function
 - SccMsgDataOnAfterGetFile structure
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

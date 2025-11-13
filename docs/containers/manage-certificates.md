@@ -3,13 +3,43 @@ title: Manage certificates when deploying containerized apps
 author: ghogen
 description: Learn how to set up TLS (SSL) certificates for secure traffic over HTTPS in containerized applications when you deploy to Azure from Visual Studio.
 ms.author: ghogen
-ms.date: 2/19/2025
+ms.date: 9/10/2025
 ms.subservice: container-tools
 ms.topic: how-to
 ---
 # Configure HTTPS when deploying containerized applications to Azure
 
-When you deploy a containerized application, you typically use the HTTPS protocol for encrypted, secure communication. The secure communication is implemented by Transport Layer Security (TLS), which replaces the earlier method using Secure Sockets Layer (SSL). During development, Visual Studio uses a self-signed certificate, sometimes called a *devtest* certificate.  You get a prompt asking you to trust the certificate when you launch the application on your local machine for the first time. This is acceptable for development and testing, but when you deploy to Azure and expose your application on a custom domain, you need to switch to a certificate issued by a Certificate Authority (CA), either Azure or a third-party CA.
+When you deploy a containerized application, you typically use the HTTPS protocol for encrypted, secure communication. The secure communication is implemented by Transport Layer Security (TLS), which replaces the earlier method using Secure Sockets Layer (SSL).
+
+:::moniker range="visualstudio"
+
+## Prerequisites
+
+- [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows) or [Podman Desktop](https://podman-desktop.io/downloads).
+- [Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-cta), or for Podman support, [Visual Studio 2026](https://aka.ms/vs/download/?cid=learn-onpage-download-cta), with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET desktop development** workload installed.
+
+:::moniker-end
+::: moniker range="vs-2022"
+
+## Prerequisites
+
+- [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows).
+- [Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET desktop development** workload installed.
+
+:::moniker-end
+
+::: moniker range="vs-2019"
+
+## Prerequisites
+
+- [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
+- [Visual Studio 2019 or later](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, **.NET desktop development**, and/or **.NET Core cross-platform development** workload installed.
+
+:::moniker-end
+
+## Devtest certificates
+
+During development, Visual Studio uses a self-signed certificate, sometimes called a *devtest* certificate. You get a prompt asking you to trust the certificate when you launch the application on your local machine for the first time. This is acceptable for development and testing, but when you deploy to Azure and expose your application on a custom domain, you need to switch to a certificate issued by a Certificate Authority (CA), either Azure or a third-party CA.
 
 ## Security for deployment options in Azure
 

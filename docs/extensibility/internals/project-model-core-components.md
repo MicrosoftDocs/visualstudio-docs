@@ -6,8 +6,8 @@ ms.topic: reference
 helpviewer_keywords:
 - project models, objects and interfaces
 - project models, services
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

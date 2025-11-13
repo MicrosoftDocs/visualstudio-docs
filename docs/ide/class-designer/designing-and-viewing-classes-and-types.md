@@ -2,7 +2,7 @@
 title: Design, visualize, & refactor with Class Designer
 description: Design, visualize, and refactor classes, other types, and their relationships in your code with Class Designer in Visual Studio.
 ms.date: 02/03/2025
-ms.topic: conceptual
+ms.topic: article
 f1_keywords:
 - vs.classdesigner.diagram
 - vs.classdesigner.enum
@@ -84,7 +84,7 @@ If you haven't installed the **Class Designer** component, follow these steps to
    ::: moniker range="vs-2019"
    :::image type="content" source="media/vs-2019/class-designer-component.png" alt-text="Screenshot of the Class Designer component in the Visual Studio Installer." lightbox="media/vs-2019/class-designer-component.png":::
    ::: moniker-end
-   ::: moniker range="vs-2022"
+   ::: moniker range=">=vs-2022"
    :::image type="content" source="media/vs-2022/class-designer-component.png" alt-text="Screenshot of the Class Designer component in the Visual Studio Installer." lightbox="media/vs-2022/class-designer-component.png":::
    ::: moniker-end
 

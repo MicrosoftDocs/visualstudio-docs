@@ -47,7 +47,7 @@ Creates a *.zip* archive from the contents of a directory.
  The following example (if used as an imported *.targets* file) creates a *.zip* archive from the output directory after building a project. The `$(OutputPath)` property would normally be defined in an MSBuild project file, so a project file that imports the following file would produce a zip archive `output.zip`:
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
 
     <Target Name="ZipOutputPath" AfterTargets="Build">
         <ZipDirectory

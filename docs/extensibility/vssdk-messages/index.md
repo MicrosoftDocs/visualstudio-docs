@@ -2,13 +2,14 @@
 title: Visual Studio SDK error messages
 description: Some VSSDK analyzer errors have articles that explain why the error is generated. Learn how to see whether help is available for a particular error message.
 ms.date: 05/19/2022
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - VSIX error codes, compatibility analyzer
 author: ankitvarmait
 ms.author: anva
 manager: tinali
 ms.subservice: extensibility-integration
+monikerRange: "vs-2022"
 ---
 
 # Visual Studio SDK error messages

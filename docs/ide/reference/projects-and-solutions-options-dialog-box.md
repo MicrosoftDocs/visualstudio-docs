@@ -8,6 +8,7 @@ f1_keywords:
 helpviewer_keywords:
 - Projects and Solutions Options dialog box
 - Options dialog box, Projects and Solutions
+ms.custom: "ide-ref"
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
@@ -76,7 +77,7 @@ When selected, you can rename all the references in a project to that of the cod
 
 When selected, Visual Studio displays a message box asking whether or not it should also rename all references in the project to that of the code element.
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 ## Enable namespace update when moving files
 
@@ -92,4 +93,4 @@ When selected, Visual Studio displays a message box asking whether or not it sho
 
 - [Options dialog box: Projects and Solutions \> Locations](projects-solutions-locations-options.md)
 - [Options Dialog Box, Projects and Solutions, Build and Run](options-dialog-box-projects-and-solutions-build-and-run.md)
-- [Options Dialog Box, Projects and Solutions, Web Projects](options-dialog-box-projects-and-solutions-web-projects.md)
+- [Options Dialog Box, Projects and Solutions, Web Projects](/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-dialog-box-projects-and-solutions-web-projects)

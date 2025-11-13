@@ -3,7 +3,7 @@ title: Manage application resources
 description: Manage application resources files that aren't part of the compilation process in Visual Studio, such as icon files or audio files.
 ms.custom: engagement-fy23
 ms.date: 8/26/2024
-ms.topic: conceptual
+ms.topic: article
 f1_keywords:
 - msvse_resedit.dlg.SetCustomTool
 helpviewer_keywords:
@@ -109,7 +109,7 @@ Resources are managed differently in .NET projects than in other project types. 
 
 ## Support options
 
-If you run into a problem with managing application resources, see [Troubleshoot errors in the Resource Editor](troubleshoot-resource-editor-errors.md).
+If you run into a problem with managing application resources, see [Troubleshoot errors in the Resource Editor](/troubleshoot/developer/visualstudio/project-build/troubleshoot-resource-editor-errors).
 
 ## Related content
 

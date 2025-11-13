@@ -2,17 +2,17 @@
 title: "About Association Between Entities"
 description: Create an association between entities in your Business Data Connectivity (BDC) model. Learn about association methods and types of associations.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: concept-article
 f1_keywords:
   - "VS.SharePointTools.BDC.Association_Dialog"
 dev_langs:
   - "VB"
   - "CSharp"
 helpviewer_keywords:
-  - "BDC [SharePoint development in Visual Studio], create an assocation"
+  - "BDC [SharePoint development in Visual Studio], create an association"
   - "Business Data Connectivity service [SharePoint development in Visual Studio], associations between entities"
   - "BDC [SharePoint development in Visual Studio], associations between entities"
-  - "Business Data Connectivity service [SharePoint development in Visual Studio], create an assocation"
+  - "Business Data Connectivity service [SharePoint development in Visual Studio], create an association"
   - "Business Data Connectivity service [SharePoint development in Visual Studio], associate external content types"
   - "Business Data Connectivity service [SharePoint development in Visual Studio], relate entities"
   - "BDC [SharePoint development in Visual Studio], relate entities"

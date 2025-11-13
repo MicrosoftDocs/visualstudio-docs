@@ -1,8 +1,9 @@
 ---
 title: "View  data with the Tabular visualizer "
 description: View large collection objects with built-in tabular visualizers in the Visual Studio debugger and examine data by row and column for fields and properties.
-ms.date: "02/04/2025"
-ms.topic: "conceptual"
+ms.date: "09/03/2025"
+ms.update-cycle: 180-days
+ms.topic: article
 dev_langs:
   - "CSharp"
   - "VB"
@@ -60,7 +61,9 @@ Starting in Visual Studio 2022 version 17.11, you can directly change the **Expr
 
 Starting in Visual Studio 2022 version 17.12 Preview 3, you get IntelliSense support to help you edit the expression.
 
-Starting in Visual Studio 2022 version 17.13 Preview 2, you can get inline AI assistance to edit the LINQ expression. If you have Copilot activated, click the GitHub [Copilot](../ide/visual-studio-github-copilot-install-and-states.md) sparkle icon ![GitHub Copilot sparkle icon](../debugger/media/vs-2022/copilot-sparkle-icon.png) to open the inline Copilot Chat.
+### Get AI assistance
+
+Starting in Visual Studio 2022 version 17.13, you can get inline AI assistance to edit the LINQ expression. If you have Copilot activated, click the GitHub [Copilot](../ide/visual-studio-github-copilot-install-and-states.md) sparkle icon ![GitHub Copilot sparkle icon](../debugger/media/vs-2022/copilot-sparkle-icon.png) to open the inline Copilot Chat.
 
 :::image type="content" source="../debugger/media/vs-2022/debug-ienumerable-visualizer-edit-expression-copilot.gif" alt-text="Screenshot of Copilot button to get help to edit the expression.":::
 

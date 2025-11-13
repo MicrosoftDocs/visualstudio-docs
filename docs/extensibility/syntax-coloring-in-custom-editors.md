@@ -2,11 +2,11 @@
 title: Syntax Coloring in Custom Editors
 description: Learn about syntax coloring in Visual Studio Environment SDK custom editors, which displays specified colors for a given document view.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - editors [Visual Studio SDK], custom - syntax coloring
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---
@@ -50,7 +50,7 @@ Visual Studio Environment SDK editors, including the core editor, use language s
 
 ## Related content
 
-- [Syntax Coloring in a Legacy Language Service](../extensibility/internals/syntax-coloring-in-a-legacy-language-service.md)
-- [Implementing Syntax Coloring](../extensibility/internals/implementing-syntax-coloring.md)
-- [How to: Use Built-In Colorable Items](../extensibility/internals/how-to-use-built-in-colorable-items.md)
-- [Custom Colorable Items](../extensibility/internals/custom-colorable-items.md)
+- [Syntax Coloring in a Legacy Language Service](/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/syntax-coloring-in-a-legacy-language-service)
+- [Implementing Syntax Coloring](/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/implementing-syntax-coloring)
+- [How to: Use Built-In Colorable Items](/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/how-to-use-built-in-colorable-items)
+- [Custom Colorable Items](/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/custom-colorable-items)

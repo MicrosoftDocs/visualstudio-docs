@@ -4,7 +4,7 @@
   items:
   - name: What is debugging?
     href: what-is-debugging.md
-  - name: First look at the debugger
+  - name: Overview of the debugger
     href: debugger-feature-tour.md
   - name: Debugging techniques and tools
     href: write-better-code-with-visual-studio.md
@@ -20,6 +20,8 @@
     href: quickstart-debug-aspnet.md
 - name: Tutorials
   items:
+  - name: Debug with Copilot
+    href: debug-with-copilot.md
   - name: Learn to debug C#
     href: ../get-started/csharp/tutorial-debugger.md?toc=%2fvisualstudio%2fdebugger%2ftoc.json
   - name: Learn to debug C++
@@ -308,10 +310,10 @@
       items:
       - name: Get started debugging multithreaded applications
         href: get-started-debugging-multithreaded-apps.md
-      - name: Debug using the Threads window
-        href: how-to-use-the-threads-window.md
-      - name: Debug a parallel application
+      - name: Debug an async application
         href: walkthrough-debugging-a-parallel-application.md
+      - name: Debug a deadlock
+        href: how-to-use-the-threads-window.md
     - name: Tools to debug threads and processes
       items:
       - name: Use the Parallel Stacks window
@@ -362,30 +364,10 @@
       href: /visualstudio/bridge/bridge-to-kubernetes-vs
     - name: Debug with Container Tools >>
       href: ../containers/edit-and-refresh.md
+  - name: Use the Immediate window
+    href: ../ide/immediate-window.md
   - name: Work with...
     items:
-    - name: 64-Bit applications
-      href: debug-64-bit-applications.md
-    - name: UWP apps
-      items:
-      - name: Debug UWP apps >>
-        href: /windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps
-      - name: Debug UWP apps on a remote machine
-        href: run-windows-store-apps-on-a-remote-machine.md
-      - name: Run UWP apps in the simulator
-        href: run-windows-store-apps-in-the-simulator.md
-      - name: Deploy UWP apps from Visual Studio
-        href: deploy-windows-store-apps-from-visual-studio.md
-      - name: Debug an installed app package
-        href: debug-installed-app-package.md
-      - name: Inspect XAML properties while debugging >>
-        href: ../xaml-tools/inspect-xaml-properties-while-debugging.md
-      - name: Write and debug running XAML code >>
-        href: ../xaml-tools/xaml-hot-reload.md
-      - name: Debug XAML in Blend >>
-        href: ../xaml-tools/debug-xaml-in-blend.md
-      - name: How to trigger suspend, resume, and background events
-        href: how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md
     - name: .NET
       items:
       - name: Recommended property settings
@@ -424,6 +406,26 @@
           href: how-to-debug-the-onstart-method.md
       - name: F#
         href: debugging-f-hash.md
+    - name: UWP apps
+      items:
+      - name: Debug UWP apps >>
+        href: /windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps
+      - name: Debug UWP apps on a remote machine
+        href: run-windows-store-apps-on-a-remote-machine.md
+      - name: Run UWP apps in the simulator
+        href: run-windows-store-apps-in-the-simulator.md
+      - name: Deploy UWP apps from Visual Studio
+        href: deploy-windows-store-apps-from-visual-studio.md
+      - name: Debug an installed app package
+        href: debug-installed-app-package.md
+      - name: Inspect XAML properties while debugging >>
+        href: ../xaml-tools/inspect-xaml-properties-while-debugging.md
+      - name: Write and debug running XAML code >>
+        href: ../xaml-tools/xaml-hot-reload.md
+      - name: Debug XAML in Blend >>
+        href: ../xaml-tools/debug-xaml-in-blend.md
+      - name: How to trigger suspend, resume, and background events
+        href: how-to-trigger-suspend-resume-and-background-events-for-windows-store-apps-in-visual-studio.md
     - name: C/C++ code
       items:
       - name: Debug native code
@@ -526,6 +528,8 @@
       href: how-to-debug-managed-memory-dump.md
     - name: Dump File Summary Extensibility API
       href: dump-file-summary-extensibility-api.md
+    - name: Protected mode dump debugging
+      href: protected-mode-dump-debugging.md
   - name: IntelliTrace
     items:
     - name: IntelliTrace overview
@@ -618,6 +622,8 @@
         href: assertion-failed-dialog-box.md
       - name: Debugger Cannot Display Source Code or Disassembly
         href: debugger-cannot-display-source-code-or-disassembly.md
+      - name: 64-bit debugger operation is taking longer than expected
+        href: debug-64-bit-applications.md
       - name: Debugger Services Running Out of Memory
         href: error-debugger-services-no-memory.md
       - name: Executable for Debugging Session dialog box

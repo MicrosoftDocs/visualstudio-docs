@@ -4,10 +4,10 @@
   items:
   - name: JavaScript in Visual Studio
     href: javascript-in-visual-studio.md
+  - name: Overview of the Visual Studio IDE
+    href: quickstart-ide-orientation-js.md
 - name: Quickstarts
   items:
-  - name: First look at the Visual Studio IDE
-    href: quickstart-ide-orientation-js.md
   - name: Create a React project
     href: tutorial-create-react-app.md
   - name: Create an Angular project
@@ -67,7 +67,7 @@
 - name: Reference
   items:
   - name: Properties, React, Angular, Vue
-    href: ../ide/reference/property-pages-javascript-esproj.md?toc=%252fvisualstudio%252fjavascript%252ftoc.json
+    href: property-pages-javascript-esproj.md
   - name: MSBuild properties for JSPS
     href: javascript-project-system-msbuild-reference.md
 - name: Resources

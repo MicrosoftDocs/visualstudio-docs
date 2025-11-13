@@ -39,7 +39,7 @@ In addition to the parameters listed above, this task inherits parameters from t
 The following example uses the `CreateProperty` task to create the `NewFile` property using the combination of the values of the `SourceFilename` and `SourceFileExtension` property.
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
 
     <PropertyGroup>
         <SourceFilename>Module1</SourceFilename>

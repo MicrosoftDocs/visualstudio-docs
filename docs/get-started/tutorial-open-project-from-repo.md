@@ -1,7 +1,6 @@
 ---
 title: "Tutorial: Open project from repo in Visual Studio"
 description: In this tutorial, learn how to open a cloned project in a Git or Azure DevOps repository by using Visual Studio and view files in Solution Explorer.
-ms.custom: vs-acquisition
 ms.date: 12/19/2024
 ms.subservice: general-ide
 ms.topic: tutorial
@@ -10,6 +9,9 @@ ms.author: meghaanand
 manager: mijacobs
 dev_langs:
   - CSharp
+ms.custom:
+  - vs-acquisition
+  - sfi-image-nochange
 #customer intent: As a developer who works on projects in remote repositories, I want to learn how to integrate Visual Studio seamlessly with Git and Azure DevOps repositories.
 ---
 # Tutorial: Open a project from a repo
@@ -24,13 +26,13 @@ In this tutorial, you learn how to:
 
 ## Prerequisites
 
-- If you don't have Visual Studio yet, go to [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) to install it for free.
+- If you don't have Visual Studio yet, go to [Visual Studio downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) to install it for free.
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 ## Open a project from a GitHub repo
 
-Visual Studio makes it easy to open a project from a repo. You can do so when you start Visual Studio, or you can do so directly from within the [Visual Studio IDE](visual-studio-ide.md?view=vs-2022&preserve-view=true).
+Visual Studio makes it easy to open a project from a repo. You can do so when you start Visual Studio, or you can do so directly from within the [Visual Studio IDE](visual-studio-ide.md).
 
 Here's how.
 
@@ -311,7 +313,7 @@ For more information, see:
 
 ::: moniker-end
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 - [About Git in Visual Studio](../version-control/git-with-visual-studio.md)
 - [Brpwse a repo](../version-control/git-browse-repository.md)

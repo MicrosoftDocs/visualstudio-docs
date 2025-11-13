@@ -3,10 +3,11 @@ title: Colors and Styling for Visual Studio
 description: Learn how the Visual Studio User Experience uses color as a communication tool, instead of for purely aesthetic reasons.
 ms.date: 07/31/2017
 ms.topic: reference
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
+ms.custom: sfi-ropc-nochange
 ---
 # Colors and Styling for Visual Studio
 

@@ -78,7 +78,7 @@ Public NotInheritable Class DynamicToolboxMembersPackage
 
 
     ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-    ' Overriden Package Implementation
+    ' Overridden Package Implementation
 
     ''' <summary>
     ''' Initialization of the package; this method is called right after the package is sited, so this is the place

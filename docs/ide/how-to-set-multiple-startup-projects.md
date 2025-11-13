@@ -1,7 +1,7 @@
 ---
 title: 'Set multiple startup projects'
 description: Discover the Visual Studio process that allows you to specify how more than one project is run when you start the debugger, and create launch profiles you can share with others.
-ms.date: 10/21/2024
+ms.date: 9/3/2025
 ms.topic: how-to
 helpviewer_keywords:
 - startup projects, setting multiple startup projects

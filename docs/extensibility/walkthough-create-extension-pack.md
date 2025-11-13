@@ -5,8 +5,8 @@ ms.date: 07/27/2018
 ms.topic: tutorial
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - extensions
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: Meng
 ---
 # Walkthrough: Create an Extension Pack

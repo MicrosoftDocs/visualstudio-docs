@@ -7,6 +7,7 @@ manager: mijacobs
 ms.subservice: data-tools
 ms.topic: how-to
 ms.date: 03/04/2025
+ms.custom: sfi-image-nochange
 helpviewer_keywords:
 - typed datasets, creating
 - datasets, creating
@@ -25,7 +26,7 @@ You can create a typed <xref:System.Data.DataSet> class in Visual Studio at desi
 
 ## Prerequisites
 
-- [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **.NET desktop development** and **Data storage and processing** workloads installed. To install them, open **Visual Studio Installer** and choose **Modify** next to the version of Visual Studio you want to modify.
+- [Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) with the **.NET desktop development** and **Data storage and processing** workloads installed. To install them, open **Visual Studio Installer** and choose **Modify** next to the version of Visual Studio you want to modify.
 
 - A .NET Framework project. Don't use .NET Core or .NET 5 or later.
 

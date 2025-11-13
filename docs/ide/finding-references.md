@@ -1,8 +1,8 @@
 ---
 title: Finding References in Your Code
 description: Use the Find All References command in Visual Studio to find references to particular code elements in your code. Search by reference type.
-ms.date: 04/05/2025
-ms.topic: conceptual
+ms.date: 11/11/2025
+ms.topic: concept-article
 helpviewer_keywords:
 - code editor, find all references
 - find all references
@@ -15,7 +15,7 @@ ms.subservice: general-ide
 
 # Find references in your code
 
-You can use the **Find All References** command to determine where particular code elements are referenced throughout your codebase. The **Find All References** command is available on the context (right-click) menu of the element you want to find references to. You can also select the element and then select **Shift**+**F12**.
+You can use the **Find All References** command to determine where particular code elements are referenced throughout your codebase. In the code editor, the **Find All References** command is available on the context (right-click) menu of the element you want to find references to. You can also select the element and then select **Shift**+**F12**.
 
 The results appear in a tool window named **\<element> references**, where *element* is the name of the item you're searching for. A toolbar in the **references** window enables you to:
 
@@ -33,7 +33,7 @@ You can also hover the mouse pointer over any search result to see the reference
 :::moniker range="vs-2019"
 :::image type="content" source="../ide/media/vside_findallreferences.png" alt-text="Screenshot of the Find All References window." lightbox="../ide/media/vside_findallreferences.png":::
 :::moniker-end
-:::moniker range="vs-2022"
+:::moniker range=">=vs-2022"
 :::image type="content" source="media/vs-2022/find-all-references.png" alt-text="Screenshot of the Find All References window." lightbox="media/vs-2022/find-all-references.png":::
 :::moniker-end
 
@@ -69,7 +69,20 @@ After you apply a filter or a filter set, you can easily remove it by using the 
 
 ## Customize preview behavior
 
-You can set whether a file is opened in the editor at the location where the reference occurs. In the top menu bar, select **Tools** > **Options** > **Environment** > **Tabs and Windows**. Then, in the **Preview Tab** section, if you select the **Allow new files to be opened in the preview tab** checkbox, you can select or clear the **Preview selected files in Find Results** checkbox. When this checkbox is selected, the file is opened in the editor at the place where the reference occurs. When this checkbox is cleared, the file is only opened if you explicitly press **Enter** or double-click the row.
+You can set whether a file is opened in the editor at the location where the reference occurs.
+
+:::moniker range="visualstudio"
+
+Open the **Tools** > **Options** pane, and expand the **All Settings** > **Environment** > **Tabs** > **Preview Tab** section. If you select the **Allow new files to be opened in the preview tab** checkbox, select or clear the **Preview selected files in Find Results** checkbox.
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+Open the **Tools** > **Options** dialog, and expand the **Environment** > **Tabs and Windows** section. In the **Preview Tab** group, if you select the **Allow new files to be opened in the preview tab** checkbox, select or clear the **Preview selected files in Find Results** checkbox. Select **OK**.
+
+:::moniker-end
+
+When you select this option, the file is opened in the editor at the place where the reference occurs. When the option isn't selected, the file is opened only if you explicitly select **Enter** or double-click the row.
 
 ## Related content
 

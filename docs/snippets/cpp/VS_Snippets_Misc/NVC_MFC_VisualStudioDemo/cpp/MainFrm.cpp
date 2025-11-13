@@ -280,7 +280,7 @@ void CMainFrame::Dump(CDumpContext& dc) const
 void CMainFrame::OnViewCustomize()
 {
 	// Create a customize toolbars dialog:
-	CMFCToolBarsCustomizeDialog* pDlgCust = new CMFCToolBarsCustomizeDialog(this, TRUE /* Automatic menus scaning */, AFX_CUSTOMIZE_MENU_SHADOWS | AFX_CUSTOMIZE_TEXT_LABELS | AFX_CUSTOMIZE_MENU_ANIMATIONS);
+	CMFCToolBarsCustomizeDialog* pDlgCust = new CMFCToolBarsCustomizeDialog(this, TRUE /* Automatic menus scanning */, AFX_CUSTOMIZE_MENU_SHADOWS | AFX_CUSTOMIZE_TEXT_LABELS | AFX_CUSTOMIZE_MENU_ANIMATIONS);
 
 	pDlgCust->EnableUserDefinedToolbars();
 
@@ -336,7 +336,7 @@ LRESULT CMainFrame::OnToolbarReset(WPARAM wp,LPARAM)
 
 	case IDR_BUILD:
 		{
-			// Replace "Confoguration..." button by combobox:
+			// Replace "Configuration..." button by combobox:
 			CMFCToolBarComboBoxButton comboButton(ID_DUMMY_SELECT_ACTIVE_CONFIGURATION, GetCmdMgr()->GetCmdImage(ID_DUMMY_SELECT_ACTIVE_CONFIGURATION, FALSE), CBS_DROPDOWNLIST);
 			comboButton.AddItem(_T("Win32 Debug"));
 			comboButton.AddItem(_T("Win32 Release"));

@@ -3,8 +3,8 @@ title: Add language-specific syntax support in a Visual Studio extension by usin
 description: Explore the functionality and benefits of Language Configuration, which is a useful framework for providing language-specific syntax support for programming languages in the Visual Studio editor.
 ms.date: 2/1/2024
 ms.topic: how-to
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

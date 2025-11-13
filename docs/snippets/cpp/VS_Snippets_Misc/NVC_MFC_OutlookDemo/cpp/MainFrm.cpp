@@ -309,7 +309,7 @@ void CMainFrame::Dump(CDumpContext& dc) const
 void CMainFrame::OnViewCustomize()
 {
 	// Create a customize toolbars dialog:
-	CMFCToolBarsCustomizeDialog* pDlgCust = new CMFCToolBarsCustomizeDialog(this, TRUE /* Automatic menus scaning */);
+	CMFCToolBarsCustomizeDialog* pDlgCust = new CMFCToolBarsCustomizeDialog(this, TRUE /* Automatic menus scanning */);
 
 	pDlgCust->EnableUserDefinedToolbars();
 	pDlgCust->Create();
@@ -592,7 +592,7 @@ void CMainFrame::SetWorkSpace(CWorkspaceObj* pWorkSpace)
 
 void CMainFrame::OnViewFoldersPopup()
 {
-	// First, calulate popup window rectangle.
+	// First, calculate popup window rectangle.
 	// Top left corner need to be under the caption's button:
 	CRect rectButton = m_wndCaption.GetButtonRect();
 	m_wndCaption.ClientToScreen(&rectButton);

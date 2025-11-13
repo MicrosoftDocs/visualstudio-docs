@@ -46,7 +46,7 @@ Instead, **MarkupCompilePass1** defers the conversion of XAML files that contain
 The following example generates a temporary assembly because *Page1.xaml* contains a reference to a type that is in the same project.
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
   <UsingTask
     TaskName="Microsoft.Build.Tasks.Windows.GenerateTemporaryTargetAssembly"
     AssemblyFile="C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0\PresentationBuildTasks.dll" />

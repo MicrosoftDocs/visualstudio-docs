@@ -2,7 +2,7 @@
 title: Debug native code and check for optimizations
 description: Explore common debugging problems and high-level techniques for native applications in Visual Studio, including optimizations, assertions, and assembly code.
 ms.date: "02/07/2023"
-ms.topic: "conceptual"
+ms.topic: concept-article
 dev_langs:
   - "CSharp"
   - "VB"
@@ -38,11 +38,9 @@ The section covers some common debugging problems and techniques for native appl
 
 [Debugging Native Code FAQs](../debugger/debugging-native-code-faqs.md) provides answers to frequently asked questions about debugging C++ programs
 
-[COM and ActiveX Debugging](../debugger/com-and-activex-debugging.md) provides information on debugging COM and ActiveX applications, including tools you can use for COM and ActiveX debugging.
+[COM and ActiveX Debugging](/previous-versions/visualstudio/visual-studio-2017/debugger/com-and-activex-debugging) provides information on debugging COM and ActiveX applications, including tools you can use for COM and ActiveX debugging.
 
 [How to: Debug Injected Code](/cpp/windows/attributes/cpp-attributes-com-net#debug-injected-code.md) provides guidance on debugging code that uses attributes. Instructions include how to turn on Source Annotation, how to view injected code, and how to view the disassembly code at the current execution point.
-
-[Walkthrough: Debugging a Parallel Application](../debugger/walkthrough-debugging-a-parallel-application.md) describes how to use the **Parallel Tasks** and **Parallel Stacks** tool windows to debug a parallel application.
 
 ## Related sections
 

@@ -2,11 +2,11 @@
 title: Source Control Configuration Details
 description: Learn about implementing source control for a project type in Visual Studio, which involves configuring your project system or editor to request permissions.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - source control [Visual Studio SDK], configuration details
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

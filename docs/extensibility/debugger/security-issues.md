@@ -2,12 +2,12 @@
 title: Security Issues
 description: Learn about the permissions needed to debug a program using Visual Studio, including remote debugging and situations that involve other services.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - security [Debugging SDK]
 - debugging [Debugging SDK], security
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---

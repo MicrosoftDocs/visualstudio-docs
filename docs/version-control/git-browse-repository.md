@@ -1,7 +1,7 @@
 ---
 title: "Browse repos, compare branches & commits"
 description: Browse any Git repository in Visual Studio by using the Git Repository window to view local and remote branches and multiple branches at the same time.
-ms.date: 08/13/2024
+ms.date: 5/6/2025
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
@@ -23,12 +23,15 @@ To get started, open the **Git Repository** window by selecting **Git Repository
 
 The **Git Repository** window contains three main sections, as numbered in the preceding screenshot:
 
-1. **Branches**: Git empowers users to multitask and experiment with their code through branches. If you're working on multiple features at the same time or if you want to explore ideas without affecting your working code, branching can be helpful.
+1. **Branches / Tags**: Git empowers users to multitask and experiment with their code through branches. Branching in Git is helpful in several scenarios, especially when working on complex projects with multiple features or when collaborating with a team. With Visual Studio 17.13 and later, you can see tags in the repo, and navigate to any tag. Your team can use git tags (for example, `v1.0`), to mark points in the history of your repo and view the state of the repo at that point in history. See [Git - Tagging](https://git-scm.com/book/en/v2/Git-Basics-Tagging).
+
+   :::image type="content" alt-text="Screenshot that shows git tags in the Git Repository window." source="./media/vs-2022/git-tags.png" lightbox="./media/vs-2022/git-tags.png" :::
+
 1. **Graph**: This section visualizes the state of your branch. It has three subsections:
 
    - **Incoming** shows incoming commits that your team has been contributing.
    - **Outgoing** shows your local commits that you still haven't pushed.
-   - **Local History** shows the rest of commits tracked by your local repository. 
+   - **Local History** shows the rest of commits tracked by your local repository.
 
 1. **Commit**: To open this section, select any commit in the **Graph** section. You can check the changes that a commit has introduced by selecting them, which shows a difference. For example, the previous screenshot shows the changes that one commit introduced to the *Resize.cs* file.
 
@@ -45,13 +48,32 @@ You can browse through any local or remote branch without having to switch your 
 >
 > :::image type="content" source="media/vs-2022/git-repository-commit-details-full-screen.png" alt-text="Screenshot of full-screen commit details with diff configurations." lightbox="media/vs-2022/git-repository-commit-details-full-screen.png":::
 
-### Multi-branch graph view
+### Multi-branch history view
 
-**[New with version 17.7](/visualstudio/releases/2022/release-notes)**: When you open the Git Repo window, you start in the single branch view. You can then select any branch to add both the branch and its commits to a multi-branch graph view, which adds visual cues that make it more efficient to interact with multiple branches. 
+**[New with version 17.7](/visualstudio/releases/2022/release-notes)**: When you open the Git Repo window, you start in the single branch view. You can then select any branch to add both the branch and its commits to a multi-branch history view, which adds visual cues that make it more efficient to interact with multiple branches. 
 
-:::image type="content" source="media/vs-2022/git-repository-multigraph-branch-view.png" alt-text="Screenshot of the multi-graph branch view in Visual Studio." lightbox="media/vs-2022/git-repository-multigraph-branch-view.png":::
+:::image type="content" source="media/vs-2022/git-repository-multigraph-branch-view.png" alt-text="Screenshot of the multi-branch history view in Visual Studio." lightbox="media/vs-2022/git-repository-multigraph-branch-view.png":::
 
 There's both line coloring and branch labels on the left side of the **Local History** view that help make it easier to trace which commits belong to each branch. You can use the list of branches at the top of the table to scroll between branches more easily and know immediately which branches appear in the graph.
+
+In the Branches / Tags section, hover over a branch to show the **Toggle Branch in History** hover button (the icon looks like an eye). By using the hover button, you can select which branches to show in the commit history view.
+
+You can use the toolbar buttons at the top of the commit history view to customize the view and filter on branches.
+
+- **Show First Parent Only**: Limit the history to only show the commit history as a single line, rather than side branches with their own sequence of commits.
+- **Show Local Branches**: Toggle whether or not to show labels for local branch in the history view.
+- **Show Remote Branches**: Toggle whether or not to show labels for remote branches that contribute to the commit history you're viewing.
+- **Show Tags**: Toggle whether or not to show labels for tags.
+
+  **Show Local Branches**, **Show Remote Branches**, and **Show Tags** all refer the label indicators on commits shown to the left side in the history view.
+
+  :::image type="content" alt-text="Screenshot showing indicator labels for branches and tags in the history view." source="./media/vs-2022/git-repository-branch-labels.png" :::
+
+**[New with version 17.14](/visualstudio/releases/2022/release-notes)**: To focus on unsynced commits, you can use the **Show Outgoing/Incoming Only** toolbar button to change the history view to only show outgoing commits (not yet pushed from your current branch) and incoming commits (new on the remote).
+
+:::image type="content" source="media/vs-2022/filter-incoming-outgoing-commits.png" alt-text="Screenshot showing the Git Repository window with the Show Outgoing/Incoming Only toolbar button." :::
+
+You can also select **Show Outgoing/Incoming Only** on the context menu by right-clicking anywhere in the history view.
 
 ## Compare commits
 

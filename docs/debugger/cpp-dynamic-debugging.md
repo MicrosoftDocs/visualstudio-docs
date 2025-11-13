@@ -1,7 +1,7 @@
 ---
 title: C++ Dynamic Debugging (Preview)
 description: Learn how to use C++ Dynamic Debugging to easily debug optimized code.
-ms.date: 04/01/2025
+ms.date: 10/27/2025
 ms.topic: how-to
 f1_keywords: 
   - vs.debug
@@ -205,27 +205,96 @@ First, let's review what it's like to debug optimized code. Then you can see how
 
 You might need to debug optimized code without it being deoptimized, or put a breakpoint in optimized code and have the code stay optimized when the breakpoint hits. There are several ways to turn off Dynamic Debugging or keep it from deoptimizing code when you hit a breakpoint:
 
-- On the Visual Studio main menu, select **Tools** > **Options** > **Debugging** > **General**. Clear the **Automatically deoptimize debugged functions when possible (.NET 8+, C++ Dynamic Debugging)** checkbox. The next time the debugger starts, code remains optimized.
+:::moniker range="visualstudio"
+
+- On the Visual Studio main menu, select **Tools** > **Options**. In the **Options** pane, expand the **All Settings** > **Debugging** > **General** section. Clear the **Automatically deoptimize debugged functions when possible (.NET 8+, C++ Dynamic Debugging)** checkbox. The next time the debugger starts, code remains optimized.
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+- On the Visual Studio main menu, select **Tools** > **Options**. In the **Options** dialog, expand the **Debugging** > **General** section. Clear the **Automatically deoptimize debugged functions when possible (.NET 8+, C++ Dynamic Debugging)** checkbox. The next time the debugger starts, code remains optimized.
+
+:::moniker-end
+
 - Many dynamic debugging breakpoints are two breakpoints: one in the optimized binary and one in the unoptimized binary. In the **Breakpoints** window, select **Show Columns** > **Function**. Clear the breakpoint associated with the `alt` binary. The other breakpoint in the pair breaks in the optimized code.
-- When you're debugging, on the Visual Studio main menu, select **Debug** > **Windows** > **Disassembly**. Ensure that it has focus. When you step into a function via the **Dissassembly** window, the function won't be deoptimized.
+- When you're debugging, on the Visual Studio main menu, select **Debug** > **Windows** > **Disassembly**. Ensure that it has focus. When you step into a function via the **Disassembly** window, the function won't be deoptimized.
 - Disable dynamic debugging entirely by not passing `/dynamicdeopt` to `cl.exe`, `lib.exe`, and `link.exe`. If you're consuming third-party libraries and can't rebuild them, don't pass `/dynamicdeopt` during the final `link.exe` to disable Dynamic Debugging for that binary.
 - To quickly disable Dynamic Debugging for a single binary (for example, `test.dll`), rename or delete the `alt` binary (for example, `test.alt.dll`).
 - To disable Dynamic Debugging for one or more `.cpp` files, don't pass `/dynamicdeopt` when you build them. The remainder of your project is built with Dynamic Debugging.
 
-## Enable C++ Dynamic Debugging in Unreal Engine
+## Enable C++ Dynamic Debugging for Unreal Engine 5.6 or later
 
-Unreal Engine 5.6 supports C++ Dynamic Debugging for both Unreal Build Tool and Unreal Build Accelerator. There are two ways to enable it:
+Unreal Engine 5.6 supports C++ Dynamic Debugging for both Unreal Build Tool and Unreal Build Accelerator. There are two ways to enable it. Either [Modify the `BuildConfiguration.xml` file](#modify-the-buildconfigurationxml-file) or [Modify the `Targets.cs` file](#modify-the-targetscs-file).
 
-- Modify your project's `Target.cs` file to contain `WindowsPlatform.bDynamicDebugging = true`.
-- Use the **Development Editor** configuration, and modify  `BuildConfiguration.xml` to include:
+### Modify the `BuildConfiguration.xml` file
+
+In Visual Studio, select the **Development Editor** configuration and modify `BuildConfiguration.xml` to include `<bDynamicDebugging>true</bDynamicDebugging>`. For more information about `BuildConfiguration.xml` and its location, see [Build Configuration](https://dev.epicgames.com/documentation/en-us/unreal-engine/build-configuration-for-unreal-engine).
+
+1. One way to locate your `BuildConfiguration.xml` file is to run a build and check the build log output. For example, when building the Lyra Starter Game, you see output like this:
+    ```cmd
+    - Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" LyraEditor Win64 Development -Project="C:\LyraStarterGame\LyraStarterGame.uproject" ...
+     14% -   Log file: C:\Users\<user>\AppData\Local\UnrealBuildTool\Log.txt
+    ```
+1. Search that `Log.txt` for `BuildConfiguration.xml`. It should contain a line like `Reading configuration file from: C:\LyraStarterGame\Saved\UnrealBuildTool\BuildConfiguration.xml`
+1. Modify that `BuildConfiguration.xml` file to contain `<bDynamicDebugging>true</bDynamicDebugging>`:
 
     ```xml
-    <WindowsPlatform>
-        <bDynamicDebugging>true</bDynamicDebugging>
-    </WindowsPlatform>
+    <?xml version="1.0" encoding="utf-8" ?>
+    <Configuration xmlns="https://www.unrealengine.com/BuildConfiguration">
+        <WindowsPlatform>
+            <bDynamicDebugging>true</bDynamicDebugging> <!-- add this line -->
+        </WindowsPlatform>
+    </Configuration>
     ```
 
-For Unreal Engine 5.5 or earlier, cherry-pick the Unreal Build Tool changes from [GitHub](https://aka.ms/vcdd_ue) into your repo. Then enable `bDynamicDebugging` as indicated above. You also need to use Unreal Build Accelerator from Unreal Engine 5.6. Either use the latest bits from ue5-main, or disable UBA by adding the following to `BuildConfiguration.xml`:
+### Modify the `Targets.cs` file
+
+The other way to enable C++ Dynamic Debugging for both Unreal Build Tool and Unreal Build Accelerator is to modify your `Target.cs` file to contain `WindowsPlatform.bDynamicDebugging = true`.
+
+Unreal Engine projects have `Target.cs` files associated with several target types, including:
+
+```
+{ProjectName}.Target.cs for the game executable.
+{ProjectName}Editor.Target.cs for the editor build.
+```
+
+For an editor build, in the `{ProjectName}Editor.Target.cs` file, add `WindowsPlatform.bDynamicDebugging = true;` to the constructor:
+
+```cs
+public class LyraEditorTarget : TargetRules
+{
+    public LyraEditorTarget(TargetInfo Target) : base(Target)
+    {
+        Type = TargetType.Editor;
+
+        WindowsPlatform.bDynamicDebugging = true; // add this line
+        // Other settings...
+    }
+}
+```
+    
+Or for a game build, in the `{ProjectName}.Target.cs` file, add `WindowsPlatform.bDynamicDebugging = true;` to `ApplyShared{Project name}TargetSettings()`:
+
+```cs
+internal static void ApplySharedLyraTargetSettings(TargetRules Target)
+{
+    ILogger Logger = Target.Logger;
+    
+    WindowsPlatform.bDynamicDebugging = true; // add this line
+    // Other settings...
+}
+```
+
+For more information about Unreal Engine target files, see [Targets](https://dev.epicgames.com/documentation/en-us/unreal-engine/unreal-engine-build-tool-target-reference).
+
+## Enable C++ Dynamic Debugging for Unreal Engine 5.5 or earlier
+
+For Unreal Engine 5.5 or earlier, cherry-pick the Unreal Build Tool changes from [GitHub](https://aka.ms/vcdd_ue) into your repository.
+
+> [!NOTE]
+> To access the Epic repositories on GitHub, you need an [Epic account](https://www.unrealengine.com/) and [registered GitHub account](https://www.unrealengine.com/ue-on-github).
+
+After you select the changes to apply to your repository, enable `bDynamicDebugging` as described earlier. You also need to use Unreal Build Accelerator from Unreal Engine 5.6. Either use the latest bits from ue5-main, or disable UBA by adding the following to `BuildConfiguration.xml`:
 
 ```xml
 <BuildConfiguration>

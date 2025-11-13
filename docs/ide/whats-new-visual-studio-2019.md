@@ -12,15 +12,17 @@ manager: mijacobs
 ms.subservice: general-ide
 
 ms.topic: whats-new
-ms.custom: vs-acquisition
 monikerRange: vs-2019
+ms.custom:
+  - vs-acquisition
+  - sfi-image-nochange
 ---
 # What's new in Visual Studio 2019
 
 **Updated for the 16.11 release.** See [full release notes](/visualstudio/releases/2019/release-notes/) | View [product roadmap](/visualstudio/productinfo/vs2019-roadmap)
 
 >[!div class="button"]
->[Download Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta)
+>[Download Visual Studio 2019](https://aka.ms/vs/download/?cid=learn-onpage-download-cta)
 
 With Visual Studio 2019, you'll get best-in-class tools and services for any developer, any app, and any platform. Whether you're using Visual Studio for the first time or you've been using it for years, there's a lot to like in our current version!
 
@@ -239,7 +241,7 @@ Why send feedback to the Visual Studio team? Because we take customer feedback s
 
 ## Related content
 
-* [What's new in Visual Studio 2022 (Preview)](whats-new-visual-studio-2022.md)
+* [What's new in Visual Studio 2022](whats-new-visual-studio-2022.md)
 * [What's new in the Visual Studio docs](whats-new-visual-studio-docs.md)
 * [Visual Studio 2019 release notes](/visualstudio/releases/2019/release-notes/)
 * [Visual Studio 2019 for Mac release notes](/visualstudio/releasenotes/vs2019-mac-relnotes/)

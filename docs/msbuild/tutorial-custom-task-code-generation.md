@@ -19,7 +19,7 @@ In this tutorial, you'll create a custom task in MSBuild in C# that handles code
 
 You should have an understanding of MSBuild concepts such as tasks, targets, and properties. See [MSBuild concepts](msbuild-concepts.md).
 
-The examples require MSBuild, which is installed with Visual Studio, but can also be installed separately. See [Download MSBuild without Visual Studio](https://visualstudio.microsoft.com/downloads/?q=build+tools).
+The examples require MSBuild, which is installed with Visual Studio, but can also be installed separately. See [Download MSBuild without Visual Studio](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2022).
 
 ## Introduction to the code example
 
@@ -483,7 +483,7 @@ In this section, you'll wire up the task implementation in `.props` and `.target
 
     ```xml
     <?xml version="1.0" encoding="utf-8" ?>
-    <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <Project>
     <!--defining properties interesting for my task-->
     <PropertyGroup>
         <!--The folder where the custom task will be present. It points to inside the nuget package. -->
@@ -509,7 +509,7 @@ In this section, you'll wire up the task implementation in `.props` and `.target
 
     ```xml
     <?xml version="1.0" encoding="utf-8" ?>
-    <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <Project>
 
     <!--Defining all the text files input parameters-->
     <ItemGroup>

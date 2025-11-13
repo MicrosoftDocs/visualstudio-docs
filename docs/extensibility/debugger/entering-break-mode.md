@@ -2,12 +2,12 @@
 title: Entering Break Mode
 description: Learn about the process that occurs for a breakpoint encountered in a function, running to the line of source code at the cursor, or running to a breakpoint.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - break mode
 - debugging [Debugging SDK], entering break mode
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---

@@ -11,6 +11,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: deployment
 monikerRange: '>= vs-2019'
+ms.custom: sfi-image-nochange
 ---
 
 # Deploy your application to Azure using GitHub Actions workflows created by Visual Studio
@@ -98,11 +99,11 @@ These steps are appropriate if you have more than one project that uses Docker c
 
    If you choose to create a new one, you see this screen. Provide the resource group, SKU, and choose the same region, if possible, as before. For information about the SKUs for Azure Container Registry, see [Azure Container Registry service tiers](/azure/container-registry/container-registry-skus).
 
-   ![Screenshot showing a new Azure container registry that was just created.](./media/azure-deployment-using-github-actions/github-actions-create-azure-container-registry.png)
+   ![Screenshot showing a new Azure Container Registry that was just created.](./media/azure-deployment-using-github-actions/github-actions-create-azure-container-registry.png)
 
    Once created, the new registry shows on the screen.
 
-   ![Screenshot showing creating a new Azure container registry.](./media/azure-deployment-using-github-actions/github-actions-created-azure-container-registry.png)
+   ![Screenshot showing creating a new Azure Container Registry.](./media/azure-deployment-using-github-actions/github-actions-created-azure-container-registry.png)
 
 1. The deployable projects in your solution are displayed; choose the projects you want to deploy together in the same Azure Container Apps instance.
 
@@ -140,7 +141,7 @@ WebApi_buildImageAndDeploy:
       registry: ${{ env.CONTAINER_REGISTRY_LOGIN_SERVER }}
       username: ${{ secrets.registry20230810121555_USERNAME_6891 }}
       password: ${{ secrets.registry20230810121555_PASSWORD_6891 }}
-  - name: Build and push Docker image to Azure container registry
+  - name: Build and push Docker image to Azure Container Registry
     uses: docker/build-push-action@v4
     with:
       push: true
@@ -173,7 +174,7 @@ WebFrontEnd_buildImageAndDeploy:
       registry: ${{ env.CONTAINER_REGISTRY_LOGIN_SERVER }}
       username: ${{ secrets.registry20230810121555_USERNAME_2047 }}
       password: ${{ secrets.registry20230810121555_PASSWORD_2047 }}
-  - name: Build and push Docker image to Azure container registry
+  - name: Build and push Docker image to Azure Container Registry
     uses: docker/build-push-action@v4
     with:
       push: true
@@ -210,7 +211,7 @@ DOCKER_FILEPATH_WEBFRONTEND: docker/ComposeSample/WebFrontend/Dockerfile
 Use the values of these environment variables for the `file` parameter as follows:
 
   ```yml
-  - name: Build and push Docker image to Azure container registry
+  - name: Build and push Docker image to Azure Container Registry
     uses: docker/build-push-action@v4
     with:
       push: true

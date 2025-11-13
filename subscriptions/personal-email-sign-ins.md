@@ -4,8 +4,9 @@ author: joseb-rdc
 ms.author: amast
 manager: shve
 ms.date: 10/16/2024
-ms.topic: conceptual
+ms.topic: article
 description:  Visual Studio Subscriptions – Why do I see personal accounts for my subscribers?
+ms.custom: sfi-image-nochange
 ---
 
 # Why do I see personal accounts for my subscribers?

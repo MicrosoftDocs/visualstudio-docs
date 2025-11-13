@@ -6,8 +6,8 @@ ms.topic: reference
 helpviewer_keywords:
 - vsix
 - extension schema
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---
@@ -19,7 +19,7 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
 
  The root element of the manifest XML file is `<PackageManifest>`. It has a single attribute `Version`, which is the version of the manifest format. If major changes are made to the format, the version format is changed. This article describes manifest format version 2.0, which is specified in the manifest by setting the `Version` attribute to the value of Version="2.0".
 
-### PackageManifest element
+## PackageManifest element
 
  Within the `<PackageManifest>` root element, you can use the following elements:
 
@@ -33,7 +33,7 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
 
 - `<AnyElement>*` - The manifest schema is flexible enough to allow any other elements. Any child elements not recognized by the manifest loader are exposed in the Extension Manager API as extra XmlElement objects. Using these child elements, VSIX extensions can define additional data in the manifest file that code running in Visual Studio can access at run time. See [Microsoft.VisualStudio.ExtensionManager.IExtension.AdditionalElements](/previous-versions/visualstudio/visual-studio-2013/hh265266(v=vs.120)).
 
-### Metadata element
+## Metadata element
 
  This section is the metadata about the package, its identity, and advertising information. `<Metadata>` contains the following elements:
 
@@ -43,7 +43,7 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
 
   - `Version` - Defines the version of this package and its contents. This attribute follows the CLR assembly versioning format: Major.Minor.Build.Revision (1.2.40308.00). A package with a higher version number is considered updates to the package, and can be installed over the existing installed version.
 
-  - `Language` - This attribute is the default language for the package and corresponds to the textual data in this manifest. This attribute follows the CLR locale code convention for resource assemblies, for example: en-us, en, fr-fr. You can specify `neutral` to declare a language-neutral extension that will run on any version of Visual Studio. The default value is `neutral`.
+  - `Language` - This attribute is the default language for the package and corresponds to the textual data in this manifest. This attribute follows the CLR locale code convention for resource assemblies, for example: en-us, en, fr-fr. You can specify `neutral` to declare a language-neutral extension that runs on any version of Visual Studio. The default value is `neutral`.
 
   - `Publisher` - This attribute identifies the publisher of this package, either a company or individual name. The `Publisher` attribute is limited to 100 characters.
 
@@ -57,7 +57,7 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
 
 - `<ReleaseNotes>` - This optional element is either a relative path to a release notes file contained in the package (.txt, .rtf) or else a URL to a website that displays the release notes.
 
-- `<Icon>` - This optional element is a relative path to an image file (png, bmp, jpeg, ico) contained in the package. The icon image should be 32x32 pixels (or will be shrunk to that size) and appears in the listview UI. If no `Icon` element is specified, the UI uses a default.
+- `<Icon>` - This optional element is a relative path to an image file (png, bmp, jpeg, ico) contained in the package. The icon image should be 32x32 pixels (or is shrunk to that size) and appears in the listview UI. If no `Icon` element is specified, the UI uses a default.
 
 - `<PreviewImage>` - This optional element is a relative path to an image file (png, bmp, jpeg) contained in the package. The preview image should be 200x200 pixels, and displayed in the details UI. If no `PreviewImage` element is specified, the UI uses a default.
 
@@ -67,21 +67,25 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
 
 - `<AnyElement>*` - The manifest schema is flexible enough to allow any other elements. Any child elements that aren't recognized by the manifest loader are exposed as a list of XmlElement objects. Using these child elements, VSIX extensions can define additional data in the manifest file and enumerate them at run time.
 
-### Installation element
+:::moniker range=">=vs-2022"
+- `<ExtensionType>` - This element represents the extensibility model used in the extension. Valid values are `VSSDK`, `VisualStudio.Extensibility`, or `VSSDK+VisualStudio.Extensibility` for extensions that use both models. For more information, see [Compare extensibility models](visualstudio.extensibility/extensibility-models.md).
+:::moniker-end
+
+## Installation element
 
  This section defines the way this package can be installed and the application SKUs that it can install into. This section contains the following attributes:
 
-- `Experimental` - Set this attribute to true if you have an extension that is currently installed for all users, but you are developing an updated version on the same computer. For example, if you have installed MyExtension 1.0 for all users, but you want to debug MyExtension 2.0 on the same computer, set Experimental="true". This attribute is available in Visual Studio 2015 Update 1 and later.
+- `Experimental` - Set this attribute to true if you have an extension that is currently installed for all users, but you're developing an updated version on the same computer. For example, if you have installed MyExtension 1.0 for all users, but you want to debug MyExtension 2.0 on the same computer, set Experimental="true". This attribute is available in Visual Studio 2015 Update 1 and later.
 
 - `Scope` - This attribute can take the value "Global" or "ProductExtension":
 
-  - "Global" specifies that the installation is not scoped to a specific SKU. For example, this value is used when an Extension SDK is installed.
+  - "Global" specifies that the installation isn't scoped to a specific SKU. For example, this value is used when an Extension SDK is installed.
 
   - "ProductExtension" specifies that a traditional VSIX Extension (version 1.0) scoped to individual Visual Studio SKUs is installed. This is the default value.
 
 - `AllUsers` - This optional attribute specifies whether this package will be installed for all users. By default, this attribute is false, which specifies that the package is per user. (When you set this value to true, the installing user must elevate to administrative privilege level to install the resulting VSIX.
 
-- `InstalledByMsi` - This optional attribute specifies whether this package is installed by an MSI. Packages installed by an MSI are installed and managed by MSI (Programs and Features) and not by the Visual Studio Extension Manager.  By default, this attribute is false, which specifies that the package is not installed by an MSI.
+- `InstalledByMsi` - This optional attribute specifies whether this package is installed by an MSI. Packages installed by an MSI are installed and managed by MSI (Programs and Features) and not by the Visual Studio Extension Manager.  By default, this attribute is false, which specifies that the package isn't installed by an MSI.
 
 - `SystemComponent` - This optional attribute specifies whether this package should be considered a system component. System components don't show in the Extension Manager UI and cannot be updated. By default, this attribute is false, which specifies that the package isn't a system component.
 
@@ -91,23 +95,13 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
 
   - `Id` - This attribute identifies the package.  The attribute follows the namespace convention: Company.Product.Feature.Name. The `Id` attribute can contain only alphanumeric characters and is limited to 100 characters. Expected values:
 
-    - Microsoft.VisualStudio.IntegratedShell
+    - Microsoft.VisualStudio.Community
 
     - Microsoft.VisualStudio.Pro
 
-    - Microsoft.VisualStudio.Premium
-
-    - Microsoft.VisualStudio.Ultimate
-
-    - Microsoft.VisualStudio.VWDExpress
-
-    - Microsoft.VisualStudio.VPDExpress
-
-    - Microsoft.VisualStudio.VSWinExpress
-
-    - Microsoft.VisualStudio.VSLS
-
-    - My.Shell.App
+    - Microsoft.VisualStudio.Enterprise
+  
+    Extensions that target lower SKUs work with all higher SKUs. For example, extensions that target Community work with all Visual Studio SKUs, and extensions that target Pro also work with Enterprise.
 
   - `Version` - This attribute specifies a version range with the minimum and maximum supported versions of this SKU. A package can detail the versions of the SKUs that it supports. The version range notation is [10.0 - 11.0], where
 
@@ -122,15 +116,36 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
     - Single version # - only the specified version.
 
     > [!IMPORTANT]
-    > Version 2.0 of the VSIX Schema was introduced in Visual Studio 2012. To use this schema you must have Visual Studio 2012 or later installed on the machine and use the VSIXInstaller.exe that is part of that product. You can target earlier versions of Visual Studio with a Visual Studio 2012 or later VSIXInstaller, but only by using the later versions of the installer.
+    > Version 2.0 of the VSIX Schema was introduced in Visual Studio 2012. To use this schema, you must have Visual Studio 2012 or later installed on the machine and use the VSIXInstaller.exe that is part of that product. You can target earlier versions of Visual Studio with a Visual Studio 2012 or later VSIXInstaller, but only by using the later versions of the installer.
 
-    Visual Studio 2017 version numbers can be found at [Visual Studio build numbers and release dates](../install/visual-studio-build-numbers-and-release-dates.md).
+    Visual Studio version numbers can be found at [Visual Studio build numbers and release dates](/visualstudio/releases/2022/release-history#release-dates-and-build-numbers).
 
-    When expressing the version for Visual Studio 2017 releases, the minor version should always be **0**. For example, Visual Studio 2017 version 15.3.26730.0 should be expressed as [15.0.26730.0,16.0). This is only required for Visual Studio 2017 and later version numbers.
+    When expressing the version for Visual Studio releases, the minor version should always be **0**. For example, Visual Studio 2017 version 15.3.26730.0 should be expressed as [15.0.26730.0,16.0). This is only required for Visual Studio 2017 and later version numbers.
 
   - `AnyAttribute*` - The `<InstallationTarget>` element allows an open-ended set of attributes that is exposed at run time as a name-value pair dictionary.
 
-### Dependencies element
+:::moniker range=">=vs-2022"
+
+The `<ProductArchitecture>` element can be used as a child element of `InstallationTarget`. It specifies the platform architecture versions of Visual Studio that the extension supports. For example, if your extension supports AMD64 and ARM64, use the following XML code:
+  
+```xml
+<Installation AllUsers="true">
+   <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,)">
+      <ProductArchitecture>amd64</ProductArchitecture>
+    </InstallationTarget>
+   <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0,)">
+     <ProductArchitecture>arm64</ProductArchitecture>
+   </InstallationTarget>
+</Installation>
+ ```
+
+Valid values include `amd64` and `arm64`. For more information about ARM64 support in the `.vsixmanifest` file, see [Add a Visual Studio target: ARM64](./arm64/target-arm64-visual-studio-extension.md#add-a-visual-studio-2022-target-arm64).
+
+The `ProductArchitecture` elements were introduced in Visual Studio 2022, so to use it in a manifest file, you must build with Visual Studio 2022 or later.
+
+:::moniker-end
+
+## Dependencies element
 
  This element contains a list of dependencies that this package declares. If any dependencies are specified, those packages (identified by their `Id`) must have been installed before.
 
@@ -156,7 +171,7 @@ A VSIX deployment manifest file describes the contents of a VSIX package. The fi
 
   - `AnyAttribute*` - The `Dependency` element accepts an open-ended set of attributes that will be exposed at run time as a name-value pair dictionary.
 
-### Assets element
+## Assets element
 
  This element contains a list of `<Asset>` tags for each extension or content element surfaced by this package.
 
@@ -196,7 +211,7 @@ To reference a property that's defined in the VSIX project, use the same syntax 
 
 The special token `%CurrentProject%` references the VSIX project. You can reference other projects referenced in your VSIX project by using `Name` of the `ProjectReference` element in a VSIX project file, surrounded by pipe symbols (`|`). For example, `|ProjectTemplate1|`.
 
-You can reference an MSBuild target by the name of the project (the `Name` property of the project reference in the VSIX project) and then the target name. For example, to reference the `Version` target in one of the projects referenced in a VSIX package, use the syntax `|ProjectName;Version|`. The target should have an `Outputs` value that matches the context in which it is used; the VSIX manifest contains places where substitution of string values and item collections are appropriate. For example, the Version string in the manifest might be replaced as follows:
+You can reference an MSBuild target by the name of the project (the `Name` property of the project reference in the VSIX project) and then the target name. For example, to reference the `Version` target in one of the projects referenced in a VSIX package, use the syntax `|ProjectName;Version|`. The target should have an `Outputs` value that matches the context in which it's used; the VSIX manifest contains places where substitution of string values and item collections is appropriate. For example, the Version string in the manifest might be replaced as follows:
 
 ```xml
 <Identity Id="0000000-0000-0000-0000-000000000000" Version="|%CurrentProject%;GetVsixVersion|" Language="en-US" Publisher="Company" />
@@ -248,7 +263,7 @@ This functionality is also used in the VSIX manifest files that Visual Studio ge
 | ProjectOutputGroup | Description |
 | - | - |
 | BuiltProjectOutputGroup | The files that represent the build output. |
-| ContentFilesProjectOutputGroup | Non-binary files associated with the project, such as HTML and CSS files. |
+| ContentFilesProjectOutputGroup | Nonbinary files associated with the project, such as HTML and CSS files. |
 | DebugSymbolsProjectOutputGroup | Symbols files (`.pdb`) for debugging an extension in the experimental instance of Visual Studio. |
 | DocumentationFilesProjectOutputGroup | XML documentation files. |
 | PkgDefProjectOutputGroup | Package definition (`.pkgdef`) file(s). |
@@ -259,9 +274,9 @@ This functionality is also used in the VSIX manifest files that Visual Studio ge
 | SourceFilesProjectOutputGroup | Source code files. |
 | TemplateProjectOutputGroup | Project templates. |
 
-The build system populates these output groups with the appropriate files according to the default build logic. In a custom build, you can add items to the project output groups either by setting the `BeforeTargets` attribute on your target to one of the above targets, and in the target, follow the code for the targets listed above as examples for how to use the `BuiltProjectOutputGroupKeyOutput` task to set the outputs.
+The build system populates these output groups with the appropriate files according to the default build logic. In a custom build, you can add items to the project output groups either by setting the `BeforeTargets` attribute on your target to one of the previous targets, and in the target, follow the code for the targets listed previously as examples for how to use the `BuiltProjectOutputGroupKeyOutput` task to set the outputs.
 
-In advanced scenarios, you can reference a build target or define a custom target that you want to be invoked and use the syntax described here to insert values for any element in the VSIX manifest. A target must have the appropriate output parameter that matches the expectation of the context in which it is used. If a collection of files such as the built output of a project is expected, then a target that outputs the required [MSBuild items](../msbuild/msbuild-items.md) is needed. The project output group built targets mentioned previously can be used as examples when building your own targets.
+In advanced scenarios, you can reference a build target or define a custom target that you want to be invoked and use the syntax described here to insert values for any element in the VSIX manifest. A target must have the appropriate output parameter that matches the expectation of the context in which it's used. If a collection of files such as the built output of a project is expected, then a target that outputs the required [MSBuild items](../msbuild/msbuild-items.md) is needed. The project output group built targets mentioned previously can be used as examples when building your own targets.
 
 ## Sample manifest
 

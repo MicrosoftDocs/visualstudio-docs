@@ -101,7 +101,7 @@ private:
    }
 
 
-   //Even though the date internaly stores the year as YYYY, using formatting, the
+   //Even though the date internally stores the year as YYYY, using formatting, the
    //UI can have the format in YY.  
    void ShortFormDateFormat( DataGridViewCellFormattingEventArgs^ formatting )
    {

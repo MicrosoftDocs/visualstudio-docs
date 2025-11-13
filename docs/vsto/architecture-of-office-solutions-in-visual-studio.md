@@ -3,7 +3,7 @@ title: "Architecture of Office solutions in Visual Studio"
 description: Learn about solutions created by using the Microsoft Office developer tools in Visual Studio and how they work.
 titleSuffix: ""
 ms.date: 08/14/2019
-ms.topic: conceptual
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"

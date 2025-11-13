@@ -7,6 +7,7 @@ manager: mijacobs
 ms.subservice: data-tools
 ms.topic: how-to
 ms.date: 02/24/2025
+ms.custom: sfi-image-nochange
 dev_langs:
 - VB
 - CSharp

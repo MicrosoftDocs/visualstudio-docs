@@ -2,7 +2,7 @@
 title: "Using the IntelliTrace stand-alone collector"
 description: Use the IntelliTrace stand-alone collector to collect data without installing Visual Studio and without changing the target system's environment.
 ms.date: "10/14/2023"
-ms.topic: "conceptual"
+ms.topic: how-to
 f1_keywords:
   - "vs.historicaldebug.collectdataoutsideVS"
 helpviewer_keywords:
@@ -71,8 +71,12 @@ The **IntelliTrace stand-alone collector** lets you collect IntelliTrace diagnos
 2. Get the collector from the Visual Studio installation folder.
 
    1. Copy IntelliTraceCollection.cab from the folder where the collector is installed, for example:
-
+        ::: moniker range=">=visualstudio"
+        **..\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\IntelliTrace**
+        ::: moniker-end
+        ::: moniker range="<=vs-2022"
         **..\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\IntelliTrace**
+        ::: moniker-end
 
         or, for previous versions of Visual Studio:
 

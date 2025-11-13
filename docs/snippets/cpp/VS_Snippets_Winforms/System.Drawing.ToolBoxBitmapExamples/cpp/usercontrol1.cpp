@@ -37,7 +37,7 @@ private:
 };
 
 // The following code example demonstrates how to use the
-// ToolBoxBitmapAttribute#ctor(string) costructor to set stop.bmp
+// ToolBoxBitmapAttribute#ctor(string) constructor to set stop.bmp
 // as the toolbox icon for the StopSignControl. This example assumes
 // the existence of a 16-by-16-pixel bitmap named stop.bmp at c:\.
 //<snippet1>

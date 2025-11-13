@@ -3,9 +3,9 @@ title: Set breakpoints in workflows
 description: Learn how to use the Workflow Designer to set breakpoints on your graphical workflows as you would in Visual Basic or C# code.
 ms.date: 11/04/2016
 ms.topic: how-to
-author: jodavis
-ms.author: jodavis
-manager: mijacobs
+author: sayedihashimi
+ms.author: sayedha
+manager: timheuer
 ms.subservice: workflow-designer
 ---
 # Set breakpoints in workflows
@@ -18,7 +18,7 @@ A breakpoint has three states: *Pending*, *Bound*, and *Error*. When you set a b
 > Setting breakpoints on invoked workflows is not supported.
 
 > [!NOTE]
-> Ensure that you select the option **Enable Just My Code (Managed Only)** from the **Tools** > **Options** > **Debugging** menu before you debug. If the option isn't selected and you have two sequences nested within another sequence, and you set a break point on the first inner sequence, pressing **F11** does not debug into the second inner sequence.
+> Ensure that you select the options **Enable Just My Code (Managed Only)** and **Suppress JIT optimization on module load** from the **Tools** > **Options** > **Debugging** menu before you debug. If these options aren't selected and you have two sequences nested within another sequence, and you set a break point on the first inner sequence, pressing **F11** does not debug into the second inner sequence.
 
 > [!NOTE]
 > Breakpoints in a workflow are not hit if the full path to XAML file property is not accurate. The full path to XAML file is not accurate after moving the project or solution to another folder or to another machine. Select **Ctrl**+**S** to save and update the full path property.

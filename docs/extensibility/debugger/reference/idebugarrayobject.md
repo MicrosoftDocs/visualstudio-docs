@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugArrayObject
 helpviewer_keywords:
 - IDebugArrayObject method
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---

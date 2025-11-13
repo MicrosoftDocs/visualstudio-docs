@@ -36,6 +36,7 @@ helpviewer_keywords:
 - General dialog box
 - line numbers
 - virtual space
+ms.custom: "ide-ref"
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
@@ -124,6 +125,6 @@ This setting has no effect on Copy or Cut when a line isn't blank. If nothing is
 
 ## See also
 
-- [Options, Text Editor, All Languages, Tabs](../../ide/reference/options-text-editor-all-languages-tabs.md)
+- [Options, Text Editor, All Languages, Tabs](../../ide/options-text-editor-all-languages-tabs.md)
 - [General, Environment, Options Dialog Box](../../ide/reference/general-environment-options-dialog-box.md)
 - [Using IntelliSense](../../ide/using-intellisense.md)

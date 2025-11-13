@@ -1,7 +1,6 @@
 ---
 title: "Tutorial: Create simple Visual Basic console apps"
 description: Create a Visual Basic console application in Visual Studio that asks the user for input and displays the value along with the current time.
-ms.custom: vs-acquisition
 ms.date: 12/06/2024
 ms.subservice: general-ide
 ms.topic: tutorial
@@ -11,6 +10,9 @@ ms.author: meghaanand
 manager: mijacobs
 dev_langs:
   - vb
+ms.custom:
+  - vs-acquisition
+  - sfi-image-nochange
 # Customer intent: As a novice, I want to create my first app so that I see how Visual Basic works in Visual Studio.
 ---
 # Tutorial: Create a simple Visual Basic console app
@@ -31,7 +33,7 @@ In this tutorial, you learn how to:
 
 ## Prerequisites
 
-- If you don't have Visual Studio, go to [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) to install it for free.
+- If you don't have Visual Studio, go to [Visual Studio downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) to install it for free.
 
 ## Create a project
 
@@ -170,7 +172,7 @@ To see the output outside of Visual Studio, in a system console window, build an
 
 ::: moniker-end
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 1. In the **Build** menu, choose **Build Solution**.
 

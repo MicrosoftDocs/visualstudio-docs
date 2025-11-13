@@ -1,12 +1,12 @@
 ---
 title: Creating an Extension with an Editor Item Template
 description: Learn how to use item templates in the Visual Studio SDK to create basic editor extensions that add classifiers, adornments, and margins to the editor.
-ms.date: 11/04/2016
+ms.date: 10/22/2025
 ms.topic: how-to
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - extensions
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---
@@ -14,12 +14,16 @@ ms.subservice: extensibility-integration
 
 You can use item templates that are included in the Visual Studio SDK to create basic editor extensions that add classifiers, adornments, and margins to the editor. The editor item templates are available for Visual C# or Visual Basic VSIX projects.
 
+## Prerequisites
+
+- [Visual Studio](https://visualstudio.microsoft.com/vs) with the **Visual Studio extension development** workload installed.
+
 ## Create a classifier extension
  The Editor Classifier item template creates an editor classifier that colors the appropriate text (in this case, everything) in any text file.
 
-1. In the **New Project** dialog box, expand **Visual C#** or **Visual Basic** and then click **Extensibility**. In the **Templates** pane, select **VSIX Project**. In the **Name** box, type `TestClassifier`. Click **OK**.
+1. Create a new project using the **VSIX Project** template. Name it `TestClassifier`.
 
-2. In the **Solution Explorer**, right-click the project node and select **Add** > **New Item**. Go to the Visual C# **Extensibility** node and select **Editor Classifier**. Leave the default file name (*EditorClassifier1.cs*).
+2. In the **Solution Explorer**, right-click the project node and select **Add** > **New Item**. If a compact window appears, click **Show All Templates**. Go to the Visual C# **Extensibility** node and select **Editor Classifier**. Leave the default file name (*EditorClassifier1.cs*).
 
 3. There are four code files, as follows:
 
@@ -38,7 +42,7 @@ You can use item templates that are included in the Visual Studio SDK to create 
 ## Create a text-relative adornment extension
  The Editor Text Adornment template creates a text-relative adornment that decorates all instances of the text character 'a' by using a box that has a red outline and a blue background. It is text-relative because the box always overlays the 'a' characters, even when they are moved or reformatted.
 
-1. In the **New Project** dialog box, expand **Visual C#** or **Visual Basic** and then click **Extensibility**. In the **Templates** pane, select **VSIX Project**. In the **Name** box, type `TestAdornment`. Click **OK**.
+1. Create a new project using the **VSIX Project** template. Name it `TestAdornment`.
 
 2. In the **Solution Explorer**, right-click the project node and select **Add** > **New Item**. Go to the Visual C# **Extensibility** node and select **Editor Text Adornment**. Leave the default file name (*TextAdornment1.cs/vb*).
 
@@ -58,7 +62,7 @@ You can use item templates that are included in the Visual Studio SDK to create 
 
 ### To create a viewport adornment extension by using the Editor Viewport Adornment template
 
-1. In the **New Project** dialog box, expand **Visual C#** or **Visual Basic** and then click **Extensibility**. In the **Templates** pane, select **VSIX Project**. In the **Name** box, type `ViewportAdornment`. Click **OK**.
+1. Create a new project using the **VSIX Project** template. Name it `ViewportAdornment`.
 
 2. In the **Solution Explorer**, right-click the project node and select **Add** > **New Item**. Go to the Visual C# **Extensibility** node and select **Editor Viewport Adornment**. Leave the default file name (*ViewportAdornment1.cs/vb*).
 
@@ -75,7 +79,7 @@ You can use item templates that are included in the Visual Studio SDK to create 
 
 ### To create a margin extension by using the Editor Margin template
 
-1. In the **New Project** dialog box, expand **Visual C#** or **Visual Basic** and then click **Extensibility**. In the **Templates** pane, select **VSIX Project**. In the **Name** box, type `MarginExtension`. Click **OK**.
+1. Create a new project using the **VSIX Project** template. Name it `MarginExtension`.
 
 2. In the **Solution Explorer**, right-click the project node and select **Add** > **New Item**. Go to the Visual C# **Extensibility** node and select **Editor Margin**. Leave the default file name (EditorMargin1.cs/vb).
 

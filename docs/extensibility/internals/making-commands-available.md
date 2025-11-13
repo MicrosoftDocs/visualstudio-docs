@@ -2,14 +2,14 @@
 title: Making Commands Available
 description: Learn how to control the availability of commands that are added to the Visual Studio IDE in VSPackages, by using delayed loading, context, and visibility.
 ms.date: 03/22/2018
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - menus [Visual Studio SDK], commands
 - best practices, menu and toolbar commands
 - toolbars [Visual Studio], best practices
 - menu commands, best practices
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---
@@ -144,5 +144,5 @@ Also notice that every UI context must be given in a separate `VisibilityItem` e
 
 - [Add a command to the Solution Explorer toolbar](../../extensibility/adding-a-command-to-the-solution-explorer-toolbar.md)
 - [How VSPackages Add User Interface Elements](../../extensibility/internals/how-vspackages-add-user-interface-elements.md)
-- [Command Routing in VSPackages](../../extensibility/internals/command-routing-in-vspackages.md)
+- [Command Routing in VSPackages](/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/command-routing-in-vspackages)
 - [Dynamically Adding Menu Items](../../extensibility/dynamically-adding-menu-items.md)

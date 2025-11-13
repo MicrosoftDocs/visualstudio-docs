@@ -2,7 +2,7 @@
 title: Working with a Conceptual Model (WCF Data Services)
 description: Work with a conceptual model in WCF Data Services. Query data through objects instead of translating back and forth between database schemas and object models.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - data [Visual Studio], querying a service
 - data [Visual Studio], LINQ to Entities

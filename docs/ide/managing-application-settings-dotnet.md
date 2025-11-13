@@ -2,7 +2,7 @@
 title: Manage application settings (.NET)
 description: Manage application settings that aren't included in the application code but are needed at runtime with the Visual Studio IDE.
 ms.date: 10/02/2024
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
 - msvse_settingsdesigner.err.nameblank
 helpviewer_keywords:
@@ -11,6 +11,7 @@ author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide
+ms.custom: sfi-ropc-nochange
 #customer intent: As a developer, I want to use application settings to store information that isn't included in the application code at runtime.
 ---
 # Manage application settings (.NET)

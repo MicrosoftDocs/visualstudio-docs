@@ -2,7 +2,7 @@
 title: "Threads view in the Concurrency Visualizer"
 description: Explore the Threads view in the Concurrency Visualizer, where you can identify which threads are executing code during an execution segment.
 ms.date: "05/06/2022"
-ms.topic: "conceptual"
+ms.topic: article
 f1_keywords:
   - "vs.performance.view.threadblocking"
   - "vs.cv.threads.timeline.channelnames"

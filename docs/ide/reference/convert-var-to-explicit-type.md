@@ -3,6 +3,7 @@ title: Refactor code to replace var with an explicit type
 description: Learn how to use Quick Actions to replace var in a local variable expression with an explicit type.
 ms.date: 05/15/2018
 ms.topic: reference
+ms.custom: "ide-ref"
 author: Mikejo5000
 ms.author: mikejo
 manager: mijacobs

@@ -2,6 +2,7 @@
 title: Quick Actions, light bulbs, and screwdrivers
 description: Use a single Quick Action in Visual Studio to refactor, generate, or modify your C#, C++, or Visual Basic code files to apply updates and fixes or generate code.
 ms.date: 03/26/2025
+ms.update-cycle: 180-days
 ms.topic: concept-article
 author: Mikejo5000
 ms.author: mikejo
@@ -75,7 +76,13 @@ If there's an error in your code, and Visual Studio has a recommended fix, you s
 - To apply the recommended change to your code, select the icon. You can also select Ctrl + period (.) when your cursor is on a line of code that shows an available action.
 
 > [!TIP]
-> You can turn off some of the code fix Quick Actions. For more informatio, see [Disable source code analysis for .NET](../code-quality/disable-code-analysis.md).
+> You can turn off some of the code fix Quick Actions. For more information, see [Disable source code analysis for .NET](../code-quality/disable-code-analysis.md).
+
+::: moniker range=">=visualstudio"
+## Configure Quick Actions
+
+You can configure whether to show Quick Actions when hovering over code by selecting **Tools > Options > Languages > Defaults > General**, and then selecting or deselecting **Show Quick Info on hover**.
+::: moniker-end
 
 ::: moniker range=">=vs-2022"
 ## Get AI assistance

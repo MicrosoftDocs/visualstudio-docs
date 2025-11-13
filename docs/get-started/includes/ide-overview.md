@@ -1,11 +1,13 @@
 ---
-ms.date: 11/17/2023
+ms.date: 11/07/2025
 ms.subservice: general-ide
-ms.custom: vs-get-started
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.topic: include
+ms.custom:
+  - vs-get-started
+  - sfi-image-nochange
 ---
 An *integrated development environment* (IDE) is a feature-rich program that supports many aspects of software development. The Visual Studio IDE is a creative launching pad that you can use to edit, debug, and build code, and then publish an app. Over and above the standard editor and debugger that most IDEs provide, Visual Studio includes compilers, code completion tools, graphical designers, and many more features to enhance the software development process.
 
@@ -121,7 +123,7 @@ Some popular features in Visual Studio that improve your productivity when devel
    The **Call Hierarchy** window shows the methods that call a selected method. This information can be useful when you're thinking about changing or removing the method, or when you're trying to track down a bug.
 
    ::: moniker range="<=vs-2019"
-   ![Screenshot that shows the Call Hierarchy window.](../../ide/reference/media/call-hierarchy-csharp-expanded.png)
+   ![Screenshot that shows the Call Hierarchy window.](../../ide/media/call-hierarchy-csharp-expanded.png)
    ::: moniker-end
    ::: moniker range=">=vs-2022"
    ![Screenshot that shows the Call Hierarchy window.](../media/vs-2022/call-hierarchy-csharp-expanded.png)
@@ -176,7 +178,7 @@ In this section, you create a simple project to try out some of the things you c
 
 ::: moniker range="vs-2019"
 
-To get started, [download Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) and install it on your system. The modular installer enables you to choose and install *workloads*, which are groups of features needed for the programming languages or platforms you want. To follow the steps to [create a program](#create-a-program), be sure to select the **.NET Core cross-platform development** workload during installation.
+To get started, [download Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) and install it on your system. The modular installer enables you to choose and install *workloads*, which are groups of features needed for the programming languages or platforms you want. To follow the steps to [create a program](#create-a-program), be sure to select the **.NET Core cross-platform development** workload during installation.
 
 ![Screenshot of the .NET Core cross-platform development workload in the Visual Studio Installer.](../media/dotnet-core-cross-platform-workload.png)
 
@@ -184,7 +186,7 @@ To get started, [download Visual Studio](https://visualstudio.microsoft.com/down
 
 ::: moniker range=">=vs-2022"
 
-To get started, [download Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) and install it on your system. In the modular installer, you choose and install *workloads*, which are groups of features you need for the programming languages or platforms you want. To use the following steps to [create a program](#create-a-program), be sure to select the **.NET desktop development** workload during installation.
+To get started, [download Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) and install it on your system. In the modular installer, you choose and install *workloads*, which are groups of features you need for the programming languages or platforms you want. To use the following steps to [create a program](#create-a-program), be sure to select the **.NET desktop development** workload during installation.
 
 :::image type="content" source="../../ide/media/vs-2022/dot-net-development-workload.png" alt-text="Screenshot of the .NET desktop development workload selected in the Visual Studio Installer.":::
 
@@ -472,7 +474,7 @@ You can personalize the Visual Studio user interface, including changing the def
    ![Screenshot that shows Visual Studio in Dark theme.](../media/vs-2019/dark-theme.png)
 ::: moniker-end
 
-::: moniker range=">=vs-2022"
+::: moniker range="vs-2022"
 
 1. On the menu bar, choose **Tools** > **Options** to open the **Options** dialog.
 
@@ -481,6 +483,18 @@ You can personalize the Visual Studio user interface, including changing the def
    The color theme for the entire IDE changes accordingly. The following screenshot shows the Blue theme:
 
    ![Screenshot that shows Visual Studio in Blue theme.](../media/vs-2022/blue-theme.png)
+
+::: moniker-end
+
+::: moniker range="visualstudio"
+
+1. On the menu bar, select **Tools** > **Options** to open the **Options** pane.
+
+1. On the **All Settings** > **Environment** > **Visual Experience** options page, change the **Color Theme** selection to **Cool Breeze** or **Light**.
+
+   The color theme for the entire IDE changes accordingly. The following screenshot shows the Cool Breeze theme:
+
+   :::image type="content" source="../media/visualstudio/cool-breeze-theme.png" border="false" alt-text="Screenshot that shows Visual Studio in Cool Breeze theme.":::
 
 ::: moniker-end
 

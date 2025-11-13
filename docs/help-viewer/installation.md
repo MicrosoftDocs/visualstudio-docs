@@ -1,7 +1,7 @@
 ---
 title: Install Microsoft Help Viewer to read offline help
 description: Install Microsoft Help Viewer to read offline help documentation for various products including Visual Studio and SQL Server.
-ms.date: 09/12/2024
+ms.date: 10/2/2025
 ms.topic: how-to
 helpviewer_keywords:
   - "installing Help Viewer"
@@ -14,6 +14,11 @@ ms.subservice: help-viewer
 # Microsoft Help Viewer installation
 
 Several products can display Help content in Microsoft Help Viewer, including Visual Studio and SQL Server.
+
+>[!WARNING]
+>Compatibility issues may arise if multiple versions of Visual Studio with Help Viewer are installed side by side, especially when Visual Studio 2022 or a newer version is installed first, followed by an older version. These issues may include crashes while using Help Viewer and difficulties uninstalling it through Add/Remove Programs in Windows.
+>
+> To address these issues, it is recommended to reinstall the Help Viewer component for the newest version of Visual Studio that you need to use. To do this, open the Visual Studio Installer for the impacted version, uninstall the Help Viewer component, and then reinstall it.
 
 Help Viewer is an optional installation component of Visual Studio. To install it through Visual Studio Installer, follow these steps:
 

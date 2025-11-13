@@ -2,11 +2,11 @@
 title: Persisting Data in the MSBuild Project File
 description: Learn how to persist data in a project file and use IPersistXMLFragment to maintain the data in the project file across project subtype aggregation levels.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - project files, persisting data in
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

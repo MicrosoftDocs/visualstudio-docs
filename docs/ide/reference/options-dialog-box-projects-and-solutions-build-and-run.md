@@ -10,6 +10,7 @@ helpviewer_keywords:
   - "builds [Visual Studio], setting up"
   - "run actions"
   - "debugger, run options"
+ms.custom: "ide-ref"
 author: ghogen
 ms.author: ghogen
 manager: mijacobs
@@ -62,4 +63,4 @@ Instructs Visual Studio to run all compile and link processes at "Below normal" 
 
 - [Compiling and Building](../../ide/compiling-and-building-in-visual-studio.md)
 - [Options Dialog Box, Projects and Solutions](projects-and-solutions-options-dialog-box.md)
-- [Options Dialog Box, Projects and Solutions, Web Projects](options-dialog-box-projects-and-solutions-web-projects.md)
+- [Options Dialog Box, Projects and Solutions, Web Projects](/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-dialog-box-projects-and-solutions-web-projects)

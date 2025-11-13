@@ -2,13 +2,13 @@
 title: Extending Menus and Commands
 description: Explore commands, which add actions and processes to Visual Studio, and use the VSPackage project template to implement a basic command.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - menus, common tasks
 - VSPackages, menu tasks
 - .vsct files, common menu tasks
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

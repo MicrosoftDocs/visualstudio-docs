@@ -1,9 +1,12 @@
 ---
 title: 'Sign application and deployment manifests'
 description: Explore the signing requirements to publish ClickOnce application and deployment manifests, and optional signing for .exe-based applications.
-ms.date: 6/13/2024
+ms.date: 10/10/2025
 ms.subservice: deployment
-ms.topic: conceptual
+ms.topic: how-to
+f1_keywords:
+- vb.ProjectPropertiesSigning
+- vb.ProjectPropertiesSigning.PfxPasswordDialog
 helpviewer_keywords:
 - manifests [Visual Studio]
 - code signing [Visual Studio], Authenticode
@@ -13,8 +16,8 @@ helpviewer_keywords:
 - ClickOnce deployment [Visual Studio], signing assemblies
 - key files [Visual Studio]
 - assemblies [Visual Studio], signing
-author: ghogen
-ms.author: ghogen
+author: mikejo5000
+ms.author: mikejo
 manager: mijacobs
 ---
 # Sign application and deployment manifests
@@ -23,11 +26,11 @@ If you want to publish an application by using ClickOnce deployment, the applica
 
 The information in this article applies only if you're using the .NET Framework 4.8.1 or earlier. If you're using .NET 5 or later, follow the steps in [Deploy a .NET Windows desktop application using ClickOnce](../deployment/quickstart-deploy-using-clickonce-folder.md).
 
-For more information about ClickOnce deployment, see [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md).
-
 Signing the ClickOnce manifests is optional for *.exe*-based applications. For more information, see the "Generate unsigned manifests" section of this document.
 
 For information about creating key files, see [How to: Create a public-private key pair](/dotnet/framework/app-domains/how-to-create-a-public-private-key-pair).
+
+For information about signing assemblies and application manifests, see [Manage assembly and manifest signing](../ide/managing-assembly-and-manifest-signing.md).
 
 > [!NOTE]
 > Visual Studio supports only Personal Information Exchange (PFX) key files that have the *.pfx* extension. However, you can select other types of certificates from the current user's Windows certificate store by clicking **Select from Store** on the **Signing** page of project properties.
@@ -54,7 +57,7 @@ To use this method, you must have a certificate signed by a certificate authorit
 
 ## Sign using an existing key file
 
-1. On the **Signing** page, select the **Sign the ClickOnce manifests** check box.
+1. Go to the project properties window (right-click the project node in **Solution Explorer** and select **Properties**). On the **Signing** tab, select the **Sign the ClickOnce manifests** check box.
 
 1. Click the **Select from File** button.
 
@@ -80,7 +83,7 @@ To use this method, you must have a certificate signed by a certificate authorit
 
 Test certificates are not signed by a Certificate Authority (CA) and should only be used for testing purposes. For details on test certificates, see [How using certificates authorities helps users](../deployment/clickonce-and-authenticode.md#how-using-certificate-authorities-helps-users).
 
-1. On the **Signing** page, select the **Sign the ClickOnce manifests** check box.
+1. Go to the project properties window (right-click the project node in **Solution Explorer** and select **Properties**). On the **Signing** tab, select the **Sign the ClickOnce manifests** check box.
 
 1. To create a new certificate for testing, click the **Create Test Certificate** button.
 
@@ -104,7 +107,7 @@ To generate unsigned manifests that include all files in the hash, you must firs
 
 1. On the **Signing** tab, clear the **Sign the ClickOnce manifests** check box.
 
-1. On the **Publish** tab, reset the publish version so that only one version of your application is available. Clear the checkbox for **Automatically increment the version with each publish**. By default, Visual Studio automatically increments the revision number of the publish version every time that you publish an application. For more information, see [How to: Set the ClickOnce publish version](../deployment/how-to-set-the-clickonce-publish-version.md).
+1. On the **Publish** tab, reset the publish version so that only one version of your application is available. Clear the checkbox for **Automatically increment the version with each publish**. By default, Visual Studio automatically increments the revision number of the publish version every time that you publish an application. For more information, see [How to: Set the ClickOnce publish version](/visualstudio/deployment/how-to-specify-where-visual-studio-copies-the-files).
 
 1. Publish the application. Visual Studio tells you that the application was signed with a different key than the existing application on the server, and asks if you want to overwrite it. Choose **Yes**.
 
@@ -123,5 +126,5 @@ To generate unsigned manifests that include all files in the hash, you must firs
 
 - [Strong-named assemblies](/dotnet/framework/app-domains/strong-named-assemblies)
 - [How to: Create a public-private key pair](/dotnet/framework/app-domains/how-to-create-a-public-private-key-pair)
-- [Signing page, Project Designer](../ide/reference/signing-page-project-designer.md)
+- [Signing page, Project Designer](/visualstudio/ide/how-to-sign-application-and-deployment-manifests)
 - [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)

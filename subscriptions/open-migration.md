@@ -4,7 +4,7 @@ author: joseb-rdc
 ms.author: amast
 manager: shve
 ms.date: 01/28/2025
-ms.topic: conceptual
+ms.topic: article
 description:  Learn how partners manage Visual Studio subscriptions for their customers.
 ---
 
@@ -58,7 +58,7 @@ Steps for partners to add a new license:
 
 + [Visual Studio Licensing Whitepaper](https://aka.ms/vslicensing)
 + [Visual Studio Administration and Subscriptions Support](https://aka.ms/vsadminhelp)
-+ [Volume Licensing Terms](https://www.microsoft.com/licensing/product-licensing/products.aspx)
++ [Volume Licensing Terms](https://www.microsoft.com/licensing/docs/view/Product-Terms)
 
 ## See also
 

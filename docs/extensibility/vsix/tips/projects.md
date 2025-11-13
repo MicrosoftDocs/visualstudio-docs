@@ -2,7 +2,7 @@
 title: Working with projects
 description: Tips for working with projects.
 ms.date: 12/01/2021
-ms.topic: conceptual
+ms.topic: concept-article
 author: madskristensen
 ms.author: madsk
 manager: pchapman
@@ -14,7 +14,7 @@ ms.subservice: extensibility-integration
 Here's a collection of small code samples on different ways to work with projects.
 
 ## Get project from contained file
-This is how to get the project from one if its files.
+This is how to get the project from one of its files.
 
 ```csharp
  string fileName = "c:\\file\\in\\project.txt";

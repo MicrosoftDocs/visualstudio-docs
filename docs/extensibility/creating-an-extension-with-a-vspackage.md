@@ -3,8 +3,8 @@ title: Creating an Extension with a VSPackage
 description: Learn how to create a VSIX project and add a VSPackage project item using the VSPackage to get the UI Shell service in order to show a message box.
 ms.date: 3/16/2019
 ms.topic: how-to
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

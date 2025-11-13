@@ -1,11 +1,11 @@
 ---
 title: 'Workflow Designer - Use Breadcrumb Navigation'
-description: Learn how use breadcrumb navigation to access a child activity, navigate to an ancestor activity, or expand or collapse activites in place.
+description: Learn how use breadcrumb navigation to access a child activity, navigate to an ancestor activity, or expand or collapse activities in place.
 ms.date: 11/04/2016
 ms.topic: how-to
-author: jodavis
-ms.author: jodavis
-manager: mijacobs
+author: sayedihashimi
+ms.author: sayedha
+manager: timheuer
 ms.subservice: workflow-designer
 ---
 # Use Breadcrumb Navigation

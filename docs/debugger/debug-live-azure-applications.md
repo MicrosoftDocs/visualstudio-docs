@@ -10,8 +10,11 @@ author: mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: debug-diagnostics
+ms.custom: sfi-image-nochange
 ---
 # Debug live ASP.NET Azure apps using the Snapshot Debugger
+
+[!INCLUDE [debug-live-deprecation](includes/debug-live-deprecation.md)]
 
 The Snapshot Debugger takes a snapshot of your in-production apps when code that you're interested in executes. To instruct the debugger to take a snapshot, you set snappoints and logpoints in your code. The debugger lets you see exactly what went wrong, without impacting traffic of your production application. The Snapshot Debugger can help you dramatically reduce the time it takes to resolve issues that occur in production environments.
 
@@ -28,7 +31,7 @@ In this tutorial, you will:
 
 * Snapshot Debugger is only available starting in Visual Studio 2017 Enterprise version 15.5 or higher with the **Azure development workload**. (Under the **Individual components** tab, you find it under **Debugging and testing** > **Snapshot debugger**.)
 
-   If it's not already installed, install [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta). If you're updating from a previous Visual Studio installation, run the Visual Studio Installer and check the Snapshot Debugger component in the **ASP.NET and web development workload**.
+   If it's not already installed, install [Visual Studio 2019](https://aka.ms/vs/download/?cid=learn-onpage-download-cta). If you're updating from a previous Visual Studio installation, run the Visual Studio Installer and check the Snapshot Debugger component in the **ASP.NET and web development workload**.
 
 * Basic or higher Azure App Service plan.
 
@@ -95,7 +98,7 @@ Once a snappoint is set, you can either manually generate a snapshot by going to
 
 You can also add more snappoints to your app and turn them on with the **Update Collection** button.
 
-**Need help?** See the [Troubleshooting and known issues](../debugger/debug-live-azure-apps-troubleshooting.md) and [FAQ for snapshot debugging](../debugger/debug-live-azure-apps-faq.yml) pages.
+**Need help?** See the [Troubleshooting and known issues](/troubleshoot/developer/visualstudio/debuggers/debug-live-azure-apps-troubleshooting) and [FAQ for snapshot debugging](../debugger/debug-live-azure-apps-faq.yml) pages.
 
 ## Set a conditional snappoint
 

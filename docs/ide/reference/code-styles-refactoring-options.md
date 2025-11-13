@@ -6,6 +6,7 @@ ms.topic: reference
 dev_langs:
 - CSharp
 - VB
+ms.custom: "ide-ref"
 author: mikejo5000
 ms.author: mikejo
 manager: mijacobs

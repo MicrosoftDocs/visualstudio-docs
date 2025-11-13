@@ -3,9 +3,9 @@ title: 'Workflow Designer: Add a new item to workflow project'
 description: Learn how you can add workflow activities, designers, and other familiar Visual Studio items to your project after you've created a workflow project.
 ms.date: 06/25/2018
 ms.topic: how-to
-author: jodavis
-ms.author: jodavis
-manager: mijacobs
+author: sayedihashimi
+ms.author: sayedha
+manager: timheuer
 ms.subservice: workflow-designer
 ---
 # Add a new item to a workflow project

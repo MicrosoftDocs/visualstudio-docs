@@ -2,7 +2,7 @@
 title: Create an offline installation
 description: Create an offline installation package to install Visual Studio offline when you have an unreliable internet connection or low bandwidth.
 ms.date: 10/28/2024
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
 - offline installation [Visual Studio]
 - offline install [Visual Studio]
@@ -65,7 +65,7 @@ Here are some common local layout creation examples. More examples can be found 
 
 ::: moniker-end
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
    > [!NOTE]
    > Make sure that your full installation path is less than 80 characters and that your machine has ample storage. A complete local layout of Visual Studio requires a minimum of 45 GB of disk space. For more information, see [System requirements](/visualstudio/releases/2022/system-requirements/).
@@ -106,7 +106,7 @@ c:\localVSlayout\vs_enterprise.exe --noWeb --add Microsoft.VisualStudio.Workload
 
 ::: moniker-end
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 ```shell
 vs_enterprise.exe --layout c:\localVSlayout --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetWeb --includeOptional --lang en-US

@@ -2,12 +2,12 @@
 title: Creating Project Instances By Using Project Factories
 description: Learn how to create project class instances by using project factories in the Visual Studio integrated development environment (IDE).
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - project factories
 - projects [Visual Studio SDK], project factories
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

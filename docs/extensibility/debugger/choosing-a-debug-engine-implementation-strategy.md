@@ -2,11 +2,11 @@
 title: Choosing a Debug Engine Implementation Strategy
 description: Learn how the run-time architecture helps you to choose from several strategies for debug engine implementation.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - debug engines, implementation strategies
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---

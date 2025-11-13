@@ -2,11 +2,11 @@
 title: Web Projects
 description: Learn the internal details about how the web project system work in Visual Studio, for developers who want to extend Visual Studio.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - web projects
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

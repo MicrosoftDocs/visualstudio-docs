@@ -2,12 +2,12 @@
 title: Configuration Options Overview
 description: Learn about the options for project configurations in Visual Studio. A configuration is a build type described with a named set of properties and file locations. 
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - project configurations
 - configuration options, about configuration options
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

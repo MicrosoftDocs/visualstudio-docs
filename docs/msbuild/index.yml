@@ -7,7 +7,7 @@ metadata:
    titleSuffix: ""
    description: Learn how to use MSBuild to build projects.
    ms.topic: hub-page
-   ms.date: 05/13/2023
+   ms.date: 7/1/2025
    author: ghogen
    ms.author: ghogen
    manager: mijacobs
@@ -18,7 +18,7 @@ highlightedContent:
    items:
    - title: Visual Studio
      itemType: download
-     url: https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta
+     url: https://aka.ms/vs/download/?cid=learn-onpage-download-cta
    - title: .NET SDK
      itemType: download
      url: https://dotnet.microsoft.com/download

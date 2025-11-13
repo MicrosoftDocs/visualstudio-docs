@@ -7,8 +7,8 @@ helpviewer_keywords:
 - winforms
 - toolbox
 - windows forms
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---
@@ -206,7 +206,7 @@ When you build a **Toolbox** control, Visual Studio creates a file named *Projec
 
 ## Related content
 
-- [Extend other parts of Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)
+- [Extend other parts of Visual Studio](/previous-versions/visualstudio/visual-studio-2017/extensibility/extending-other-parts-of-visual-studio)
 - [Create a WPF Toolbox Control](../extensibility/creating-a-wpf-toolbox-control.md)
-- [Extend other parts of Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)
+- [Extend other parts of Visual Studio](/previous-versions/visualstudio/visual-studio-2017/extensibility/extending-other-parts-of-visual-studio)
 - [Windows Forms control development basics](/dotnet/framework/winforms/controls/windows-forms-control-development-basics)

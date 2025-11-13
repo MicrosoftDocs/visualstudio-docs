@@ -1,10 +1,10 @@
 ---
 title: Create, run, and customize C# unit tests
 description: Learn how to create, run, and customize a series of unit tests using the Microsoft unit test framework for managed code and Visual Studio Test Explorer.
-ms.date: 12/3/2024
-ms.topic: conceptual
+ms.date: 8/11/2025
+ms.topic: how-to
 helpviewer_keywords:
-- unit tests, walkthrough
+- unit tests, tutorial
 - unit tests, creating
 - unit tests, generating
 - unit tests, running
@@ -13,10 +13,20 @@ ms.author: mikejo
 manager: mijacobs
 ms.subservice: test-tools
 author: mikejo5000
+ms.update-cycle: 90-days
 ---
-# Walkthrough: Create and run unit tests for managed code
+# Create and run unit tests for .NET
 
-This article steps you through creating, running, and customizing a series of unit tests using the Microsoft unit test framework for managed code and Visual Studio **Test Explorer**. You start with a C# project that is under development, create tests that exercise its code, run the tests, and examine the results. Then you change the project code and rerun the tests. If you would like a conceptual overview of these tasks before going through these steps, see [Unit test basics](../test/unit-test-basics.md). If you would like to generate tests automatically from existing code, see [Create unit test method stubs from code](../test/create-unit-tests-menu.md).
+This article steps you through creating, running, and customizing a series of unit tests using the Microsoft unit test framework for managed code and Visual Studio **Test Explorer**. You start with a C# project that is under development, create tests that exercise its code, run the tests, and examine the results. Then you change the project code and rerun the tests. If you would like a conceptual overview of these tasks before going through these steps, see [Unit test basics](../test/unit-test-basics.md).
+
+This article describes how to manually create unit tests. If you would like to generate tests automatically from existing code, see the following articles:
+
+- [Create unit test method stubs from code](../test/create-unit-tests-menu.md)
+- [Use slash commands in GitHub Copilot](../ide/copilot-chat-context.md#slash-commands)
+
+## Prerequisites
+
+Visual Studio must be installed along with the **.NET desktop development** workload.
 
 ## Create a project to test
 
@@ -26,12 +36,11 @@ This article steps you through creating, running, and customizing a series of un
 
 1. Search for and select the C# **Console App** project template for .NET, and then click **Next**.
 
-   > [!NOTE]
-   > If you do not see the **Console App** template, you can install it from the **Create a new project** window. In the **Not finding what you're looking for?** message, choose the **Install more tools and features** link. Then, in the Visual Studio Installer, choose the **.NET desktop development** workload.
+   If you do not see the **Console App** template, use the Visual Studio Installer to install the **.NET desktop development** workload.
 
 1. Name the project **Bank**, and then click **Next**.
 
-   Choose either the recommended target framework or .NET 8, and then choose **Create**.
+1. Choose either the recommended target framework or .NET 8, and then choose **Create**.
 
    The Bank project is created and displayed in **Solution Explorer** with the *Program.cs* file open in the code editor.
 
@@ -123,8 +132,10 @@ You now have a project with methods you can test. In this article, the tests foc
 
 1. Type **test** in the search box, select **C#** as the language, and then select the C# **MSTest Test Project** for .NET template, and then click **Next**.
 
+   ::: moniker range="vs-2019"
    > [!NOTE]
    > In Visual Studio 2019 version 16.9, the MSTest project template is **Unit Test Project**.
+   ::: moniker-end
 
 1. Name the project **BankTests** and click **Next**.
 
@@ -204,7 +215,7 @@ There are at least three behaviors that need to be checked:
 - If the debit amount is valid, the method subtracts the debit amount from the account balance.
 
 > [!TIP]
-> You can delete the default `TestMethod1` method, because you won't use it in this walkthrough.
+> You can delete the default `TestMethod1` method, because you won't use it in this article.
 
 ### To create a test method
 
@@ -428,7 +439,7 @@ public void Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange()
 The improvements to the test code led to more robust and informative test methods. But more importantly, they also improved the code under test.
 
 > [!TIP]
-> This walkthrough uses the Microsoft unit test framework for managed code. **Test Explorer** can also run tests from third-party unit test frameworks that have adapters for **Test Explorer**. For more information, see [Install third-party unit test frameworks](../test/install-third-party-unit-test-frameworks.md).
+> This article uses the Microsoft unit test framework for managed code. **Test Explorer** can also run tests from third-party unit test frameworks that have adapters for **Test Explorer**. For more information, see [Install third-party unit test frameworks](../test/install-third-party-unit-test-frameworks.md).
 
 ## Related content
 

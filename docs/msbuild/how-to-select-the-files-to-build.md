@@ -1,7 +1,7 @@
 ---
 title: 'Select the Files to Build'
 description: Select the files to build in the MSBuild project file by listing each file separately or by using wildcards with the asterisk (*) character.
-ms.date: 6/12/2024
+ms.date: 10/2/2025
 ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, wildcards
@@ -20,9 +20,9 @@ In most projects, you don't have to specifically select the files to build. For 
 
 The default behavior that determines what files MSBuild includes in the build differs by project type.
 
-For .NET SDK projects, the standard .NET SDK defines a default `Compile` item list that contains files in the project folder tree that match the appropriate language-specific file extension. For example, for a C# project, the `Compile` item is populated with the glob pattern `**/*.cs`, which matches all source files in the project folder and all its subfolders recursively. You don't see the `Compile` element in the project file, because it is defined in the SDK `.props` file that's imported implicitly. See [.NET project SDK overview - default includes and excludes](/dotnet/core/project-sdk/overview#default-includes-and-excludes).
+For .NET SDK projects, the standard .NET SDK defines a default `Compile` item list that contains files in the project folder tree that match the appropriate language-specific file extension. For example, for a C# project, the `Compile` item is populated with the glob pattern `**/*.cs`, which matches all source files in the project folder and all its subfolders recursively. You don't see the `Compile` element in the project file, because it's defined in the SDK `.props` file that's imported implicitly. See [.NET project SDK overview - default includes and excludes](/dotnet/core/project-sdk/overview#default-includes-and-excludes).
 
-If you're using Visual Studio, you can modify the set of source files to build by changing the **Build Action** on a file. Set it to `None` to exclude a file from the build. Doing this in Visual Studio affects the project file. You'll see that lines were added to remove the source file from the `Compile` item list and add it to the `None` item list.
+If you're using Visual Studio, you can modify the set of source files to build by changing the **Build Action** on a file. Set it to `None` to exclude a file from the build. Making this change in Visual Studio affects the project file. Visual Studio adds lines to remove the source file from the `Compile` item list and add it to the `None` item list.
 
 ```xml
   <ItemGroup>
@@ -46,7 +46,7 @@ Items represent the inputs (such as source files) for a build. For more informat
 
 To include files for a build, they must be included in an item list. As discussed previously, in .NET SDK and .NET Framework projects, the item list for the source files is `Compile`. You don't see the `Compile` item list in .NET SDK projects, because it's defined in the implicit imports. See [Use project SDKs](./how-to-use-project-sdk.md).
 
-Project files that don't rely on the standard imports can use an arbitrary item list name, such as `VBFile` or `CSFile`. See the [Example 1](#example-1) and [Example 2](#example-2) later in this article. To set up a build based on the item list, you pass this by name to a build task, as discussed [later in this article](#pass-items-to-a-task-or-target).
+Project files that don't rely on the standard imports can use an arbitrary item list name, such as `VBFile` or `CSFile`. See the [Example 1](#example-1) and [Example 2](#example-2) later in this article. To set up a build based on the item list, you pass the item list by name to a build task, as discussed [later in this article](#pass-items-to-a-task-or-target).
 
 Multiple files can be added to item lists by either including the files individually or using wildcards to include many files at once.
 
@@ -61,7 +61,7 @@ Multiple files can be added to item lists by either including the files individu
     `<Compile Include="Form1.vb"/>`
 
     > [!NOTE]
-    > If items in an item collection are not in the same directory as the project file, you must specify the full or relative path to the item. For example: `Include="..\..\Form2.cs"`.
+    > If items in an item collection aren't in the same directory as the project file, you must specify the full or relative path to the item. For example: `Include="..\..\Form2.cs"`.
 
 The same item list can be repeatedly modified by multiple `Include` attributes. Each `Include` adds to what was there previously.
 
@@ -145,7 +145,7 @@ In most project files, you don't need to explicitly pass the `Compile` item to a
     `<VBC Sources="@(VBFile)">...</VBC>`
 
 > [!NOTE]
-> You must use wildcards with items to specify the inputs for a build; you cannot specify the inputs using the `Sources` attribute in MSBuild tasks such as [Csc](../msbuild/csc-task.md) or [Vbc](../msbuild/vbc-task.md). The following example is not valid in a project file:
+> You must use wildcards with items to specify the inputs for a build; you can't specify the inputs using the `Sources` attribute in MSBuild tasks such as [Csc](../msbuild/csc-task.md) or [Vbc](../msbuild/vbc-task.md). The following example isn't valid in a project file:
 >
 > `<CSC Sources="*.cs">...</CSC>`
 
@@ -154,8 +154,7 @@ In most project files, you don't need to explicitly pass the `Compile` item to a
 The following code example shows a project that includes all of the input files separately.
 
 ```xml
-<Project DefaultTargets="Compile"
-    xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >
+<Project DefaultTargets="Compile">
     <PropertyGroup>
         <Builtdir>built</Builtdir>
     </PropertyGroup>
@@ -189,8 +188,7 @@ The following code example shows a project that includes all of the input files 
 The following code example uses a wildcard to include all the *.cs* files.
 
 ```xml
-<Project DefaultTargets="Compile"
-    xmlns="http://schemas.microsoft.com/developer/msbuild/2003" >
+<Project DefaultTargets="Compile">
 
     <PropertyGroup>
         <builtdir>built</builtdir>

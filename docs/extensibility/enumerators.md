@@ -2,11 +2,11 @@
 title: Enumerators
 description: Learn about the enumerator data types in the Source Control Plug-in API including Command code, Message, File status code, and Directory status code.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - source control plug-ins, enumerators
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

@@ -4,8 +4,9 @@ author: joseb-rdc
 ms.author: amast
 manager: shve
 ms.date: 09/16/2024
-ms.topic: conceptual
+ms.topic: article
 description: Manage Visual Studio subscriptions in a Microsoft Products and Services Agreement (MPSA), and review configuration differences between managed and unmanaged tenants.
+ms.custom: sfi-ga-nochange
 ---
 
 # Visual Studio subscriptions in a Microsoft Products and Services Agreement (MPSA)

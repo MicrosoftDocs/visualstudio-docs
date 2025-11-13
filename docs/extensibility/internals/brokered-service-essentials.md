@@ -3,7 +3,7 @@ title: Brokered service essentials
 description: Learn about brokered services, which provide RPC-compatible interfaces to VS functionality.
 monikerRange: '>= vs-2019'
 ms.date: 01/06/2022
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - brokered services, essentials
 author: aarnott
@@ -73,7 +73,7 @@ Because the moniker is included in the service's descriptor, a client can typica
 A descriptor adds the behavior necessary to set up an RPC connection between the brokered service and its client or when required to serialize RPC calls to/from a <xref:System.IO.Stream>.
 
 Visual Studio recommends using the <xref:Microsoft.ServiceHub.Framework.ServiceJsonRpcDescriptor> derived type for brokered services which utilizes the StreamJsonRpc library when the client and service require RPC to communicate.
-StreamJsonRpc applies certain restrictions on the service interface as [described here](https://github.com/microsoft/vs-streamjsonrpc/blob/main/doc/dynamicproxy.md).
+StreamJsonRpc applies certain restrictions on the service interface as [described here](https://microsoft.github.io/vs-streamjsonrpc/docs/proxies.html).
 
 A descriptor rarely needs to be used directly.
 Instead, it's typically acquired from <xref:Microsoft.VisualStudio.VisualStudioServices> or a library that offers the service, then used as an argument to <xref:Microsoft.ServiceHub.Framework.IServiceBroker.GetProxyAsync%2A>.

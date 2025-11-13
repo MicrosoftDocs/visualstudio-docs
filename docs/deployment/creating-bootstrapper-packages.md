@@ -2,7 +2,7 @@
 title: "Create bootstrapper packages"
 description: Learn about the Setup program and how to use XML manifests that specify the metadata to manage the installation of ClickOnce components.
 ms.date: "05/02/2018"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "FSharp"
   - "VB"
@@ -81,7 +81,7 @@ On 64-bit systems, use the following registry key:
 
 Each redistributable component appears in its own subfolder under the packages directory. The product manifest and redistributable files must be put into this subfolder. Localized versions of the component and package manifests must be put in subfolders named according to Culture Name.
 
-After these files are copied into the bootstrapper folder, the bootstrapper package automatically appears in the Visual Studio **Prerequisites** dialog box. If your custom bootstrapper package does not appear, close and then reopen the **Prerequisites** dialog box. For more information, see [Prerequisites dialog box](../ide/reference/prerequisites-dialog-box.md).
+After these files are copied into the bootstrapper folder, the bootstrapper package automatically appears in the Visual Studio **Prerequisites** dialog box. If your custom bootstrapper package does not appear, close and then reopen the **Prerequisites** dialog box. For more information, see [Prerequisites dialog box](/visualstudio/deployment/how-to-install-prerequisites-with-a-clickonce-application).
 
 The following table shows the properties that are automatically populated by the bootstrapper.
 
@@ -110,6 +110,6 @@ The redistributable list is an XML file that you should name using the following
 
 ## Related content
 - [How to: Install prerequisites with a ClickOnce application](../deployment/how-to-install-prerequisites-with-a-clickonce-application.md)
-- [Prerequisites dialog box](../ide/reference/prerequisites-dialog-box.md)
+- [Prerequisites dialog box](/visualstudio/deployment/how-to-install-prerequisites-with-a-clickonce-application)
 - [Product and package schema reference](../deployment/product-and-package-schema-reference.md)
 - [Use the Visual Studio 2005 bootstrapper to kick-start your installation](/archive/msdn-magazine/2004/october/visual-studio-2005-bootstrapper-start-kick-your-installation)

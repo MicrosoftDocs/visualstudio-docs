@@ -7,8 +7,8 @@ f1_keywords:
 - CONST_GUID_ARRAY
 helpviewer_keywords:
 - CONST_GUID_ARRAY structure
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

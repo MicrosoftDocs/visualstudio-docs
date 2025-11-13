@@ -9,7 +9,7 @@ ms.topic: how-to
 ms.date: 02/28/2025
 helpviewer_keywords:
 - DefaultTargets attribute [MSBuild]
-- MSBuild, specifying the defalut target
+- MSBuild, specifying the default target
 - MSBuild, DefaultTargets attribute
 
 # Customer intent: As a developer, I want to understand how to specify which MSBuild targets to build first so I can control how my project is built.

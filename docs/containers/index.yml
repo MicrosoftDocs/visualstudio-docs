@@ -41,8 +41,6 @@ landingContent:
         links:
           - text: Multicontainer app with Docker Compose
             url: tutorial-multicontainer.md
-          - text: React.js app in a container
-            url: container-tools-react.md
           - text: Debugging Docker apps
             url: edit-and-refresh.md
 
@@ -56,6 +54,8 @@ landingContent:
             url: deploy-app-service.md
           - text: Deploy to Azure Container apps
             url: /azure/container-apps/deploy-visual-studio
+          - text: Deploy multicontainer app to Azure
+            url: deploy-multicontainer-azure-container-apps.md
           - text: Deploy to Docker Hub
             url: deploy-docker-hub.md
           - text: Deploy without a Dockerfile
@@ -70,6 +70,8 @@ landingContent:
           - text: Launch a subset of your Compose services
             url: launch-profiles.md
           - text: Configure the build and debug environment
+            url: container-build.md
+          - text: Customize containers
             url: container-build.md
           - text: Troubleshoot container development tools
             url: troubleshooting-docker-errors.md
@@ -87,13 +89,3 @@ landingContent:
           - text: Configure container tools
             url: container-tools-configure.md
 
-  - title: Kubernetes development
-    linkLists:
-      - linkListType: quickstart
-        links:
-          - text: Use Bridge to Kubernetes with Visual Studio
-            url: /visualstudio/bridge/overview-bridge-to-kubernetes
-      - linkListType: overview
-        links:
-          - text: How Bridge to Kubernetes works
-            url: /visualstudio/bridge/overview-bridge-to-kubernetes

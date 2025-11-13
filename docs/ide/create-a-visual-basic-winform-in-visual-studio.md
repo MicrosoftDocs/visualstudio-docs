@@ -32,7 +32,7 @@ In this tutorial, you learn how to:
 - The **.NET desktop development** workload. To verify or install this workload in Visual Studio, select **Tools** > **Get Tools and Features**. For more information, see [Change workloads or individual components](../install/modify-visual-studio.md#change-workloads-or-individual-components).
 ::: moniker-end
 ::: moniker range=">=vs-2022"
-- You need Visual Studio to complete this tutorial. Visit [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) for a free version.
+- You need Visual Studio to complete this tutorial. Visit [Visual Studio downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) for a free version.
 - The **.NET desktop development** workload. To verify or install this workload in Visual Studio, select **Tools** > **Get Tools and Features**. For more information, see [Change workloads or individual components](../install/modify-visual-studio.md#change-workloads-or-individual-components).
 ::: moniker-end
 
@@ -156,7 +156,7 @@ Your application is ready to build and run.
 To learn more about Windows Forms, continue with the following tutorial:
 
 > [!div class="nextstepaction"]
-> [Tutorial: Create a picture viewer](tutorial-windows-forms-picture-viewer-layout.md)
+> [Tutorial: Create a picture viewer](/visualstudio/get-started/csharp/tutorial-windows-forms-picture-viewer-layout)
 
 Or try these other tutorials:
 

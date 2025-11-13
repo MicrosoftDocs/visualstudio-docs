@@ -7,6 +7,7 @@ ms.subservice: azure-development
 ms.topic: how-to
 ms.date: 10/17/2024
 ms.author: ghogen
+ms.custom: sfi-image-nochange
 ---
 
 # Adding Azure Storage by using Visual Studio Connected Services
@@ -26,7 +27,7 @@ The connected service functionality adds all the needed references and connectio
 
 ## Prerequisites
 
-- Visual Studio (see [Visual Studio downloads] (https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta)) with the **Azure development** workload installed.
+- Visual Studio (see [Visual Studio downloads] (https://aka.ms/vs/download/?cid=learn-onpage-download-cta)) with the **Azure development** workload installed.
 - A project of one of the supported types
 - [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
 
@@ -48,7 +49,7 @@ The connected service functionality adds all the needed references and connectio
 
     ![Screenshot showing "Add Azure Storage" screen.](./media/vs-azure-tools-connected-services-storage/vs-2019/add-azure-storage.png)
 
-    If you aren't signed in already, sign in to your Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/).
+    If you aren't signed in already, sign in to your Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn).
 
 1. In the **Configure Azure Storage** screen, select an existing storage account, and select **Next**.
 
@@ -91,7 +92,7 @@ The connected service functionality adds all the needed references and connectio
 
     ![Screenshot showing connecting to dependency - Azure Storage.](./media/vs-2022/connect-to-dependency-azure-storage.png)
 
-    If you aren't signed in already, sign in to your Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/).
+    If you aren't signed in already, sign in to your Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn).
 
 1. In the **Connect to Azure Storage** screen, select an existing storage account, and select **Next**.
 

@@ -2,9 +2,9 @@
 title: Getting Started with Roslyn Analyzers
 description: Get started with Roslyn analyzers in Visual Studio with tutorials and examples about writing analyzers, adding code fixes, and developing real-world analyzers.
 ms.date: 04/02/2018
-ms.topic: conceptual
-author: maiak
-ms.author: maiak
+ms.topic: get-started
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---
@@ -28,4 +28,4 @@ With live, project-based code analyzers in Visual Studio, API authors can ship d
 
 - [.NET compiler platform package version reference](roslyn-version-support.md)
 - [More docs on the GitHub OSS site](https://github.com/dotnet/roslyn/tree/main/docs/analyzers)
-- [FxCop rules implemented with Roslyn analyzers](../code-quality/fxcop-rule-port-status.md)
+- [FxCop rules implemented with Roslyn analyzers](/previous-versions/visualstudio/visual-studio-2019/code-quality/fxcop-rule-port-status)

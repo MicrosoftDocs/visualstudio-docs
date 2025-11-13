@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugBreakpointUnboundEvent2::GetBreakpoint
 helpviewer_keywords:
 - IDebugBreakpointUnboundEvent2::GetBreakpoint
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

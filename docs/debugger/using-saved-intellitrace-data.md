@@ -2,7 +2,7 @@
 title: "Using saved IntelliTrace data"
 description: Use an Intellitrace file (.iTrace) to start debugging at a specific point of execution. The file contains info that Intellitrace recorded from a run of your app.
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: how-to
 f1_keywords:
   - "vs.historicaldebug.norepro"
 helpviewer_keywords:
@@ -14,6 +14,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
+ms.custom: sfi-image-nochange
 ---
 # Using saved IntelliTrace data (C#, Visual Basic, C++)
 

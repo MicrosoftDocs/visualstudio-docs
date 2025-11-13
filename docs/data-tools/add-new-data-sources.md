@@ -1,7 +1,7 @@
 ---
 title: Add data sources in ADO.NET apps (.NET Framework)
 description: Explore how to add .NET Framework data sources by using ADO.NET in Visual Studio and connect your application to information in a data store.
-ms.date: 08/29/2024
+ms.date: 10/2/2025
 ms.topic: how-to
 f1_keywords:
 - vs.datasource.datasourcefieldspicker

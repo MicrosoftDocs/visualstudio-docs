@@ -1,7 +1,7 @@
 ---
 title: "Unit testing JavaScript and TypeScript"
 description: Explore unit testing support in Visual Studio for JavaScript and TypeScript code by using the Node.js Tools for Visual Studio.
-ms.date: "12/06/2024"
+ms.date: "8/6/2025"
 ms.topic: "how-to"
 ms.devlang: javascript
 author: "mikejo5000"
@@ -33,13 +33,13 @@ The supported frameworks are:
 ::: moniker-end
 
 ::: moniker range="<=vs-2019"
-If your favorite framework is not supported, see [Add support for a unit test framework](#addingFramework) for information on adding support.
+If your favorite framework isn't supported, see [Add support for a unit test framework](#addingFramework) for information on adding support.
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
 ## Write unit tests for a CLI-based project (.esproj)
 
-The [CLI-based projects](../javascript/javascript-in-vs-2022.md#project-templates) supported in Visual Studio 2022 work with Test Explorer. Vitest is the built-in test framework for React and Vue projects (previously Jest), and Karma and Jasmine is used for Angular projects. By default, you will be able to run the default tests provided by each framework, as well as any additional tests you write.  Just hit the **Run** button in Test Explorer. If you don’t already have Test Explorer open, you can find it by selecting **Test** > **Test Explorer** in the menu bar.
+The [CLI-based projects](../javascript/javascript-in-vs-2022.md#project-templates) supported in Visual Studio 2022 work with Test Explorer. Vitest is the built-in test framework for React and Vue projects (previously Jest), and Karma and Jasmine is used for Angular projects. By default, you'll be able to run the default tests provided by each framework, as well as any additional tests you write.  Just hit the **Run** button in Test Explorer. If you don’t already have Test Explorer open, you can find it by selecting **Test** > **Test Explorer** in the menu bar.
 
 To run unit tests from the command-line, right-click the project in Solution Explorer, choose **Open in Terminal**, and run the command specific to the test type.
 
@@ -77,7 +77,7 @@ The following example is based on the TypeScript React project template provided
 
    - vitest
 
-   This package are added to the *package.json* file under dependencies.
+   This package is added to the *package.json* file under dependencies.
 
    > [!NOTE]
    > If you're using jest, the jest-editor-support npm package is required as well as the jest package.
@@ -107,12 +107,15 @@ The following example is based on the TypeScript React project template provided
    });
    ```
 
-1. Open Test Explorer (choose **Test** > **Test Explorer**) and Visual Studio discovers and displays tests. If tests are not showing initially, then rebuild the project to refresh the list.
+1. Open Test Explorer (choose **Test** > **Test Explorer**) and Visual Studio discovers and displays tests. If tests aren't showing initially, then rebuild the project to refresh the list.
 
    ![Screenshot of Test Explorer test discovery (.esproj).](../javascript/media/vs-2022/unit-tests-esproj-discovery.png)
 
    > [!NOTE]
-   > For TypeScript, do not use the `outfile` option in *tsconfig.json*, because Test Explorer won't be able to find your unit tests. You can use the `outdir` option, but make sure that configuration files such as `package.json` and `tsconfig.json` are in the project root.
+   > For TypeScript, don't use the `outfile` option in *tsconfig.json*, because Test Explorer won't be able to find your unit tests. You can use the `outdir` option, but make sure that configuration files such as `package.json` and `tsconfig.json` are in the project root.
+
+   > [!IMPORTANT]
+   > If the output from **Tests** in the Output window shows a `ReadOnlySpan` error during test discovery, use the following workaround for a known [MSBuild issue](https://github.com/dotnet/msbuild/issues/7873). For Visual Studio 2022, open the folder, *Program Files\Microsoft Visual Studio\2022\\<version\>\Common7\IDE\Extensions\TestPlatform*, and rename *System.Memory.dll* to a different name. This fix enables test discovery.
 
 ### Run tests (.esproj)
 
@@ -128,13 +131,30 @@ For some unit test frameworks, unit tests are typically run against the generate
 > In most TypeScript scenarios, you can debug a unit test by setting a breakpoint in TypeScript code, right-clicking a test in Test Explorer, and choosing **Debug**. In more complex scenarios, such as some scenarios that use source maps, you may have difficulty hitting breakpoints in TypeScript code. As a workaround, try using the `debugger` keyword.
 
 > [!NOTE]
-> Profiling tests and code coverage are not currently supported.
+> Profiling tests and code coverage aren't currently supported.
 
+## Run unit tests from the command line for a CLI-based project (.esproj)
+
+You can run unit tests directly from the command line for your unit test framework the same way you would if you weren't using Visual Studio.
+
+You may also choose to run the tests from the command line using *vstest.console*. For example, you may want to use vstest.console to maintain consistency with C# unit tests, or to run in Azure DevOps. Use the following command, but replace `MyProj` with your project name.
+
+::: moniker-end
+::: moniker range=">=visualstudio"
+```
+vstest.console .\MyProj.esproj /TestAdapterPath:"C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\Extensions\Microsoft\JavaScript"
+```
+::: moniker-end
+
+::: moniker range="vs-2022"
+```
+vstest.console .\MyProj.esproj /TestAdapterPath:"C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\Extensions\Microsoft\JavaScript"
+```
 ::: moniker-end
 
 ## Write unit tests for ASP.NET Core
 
-To add support for unit testing of JavaScript and TypeScript in an ASP.NET Core project, you need to add TypeScript, Npm, and unit testing support to the project by including required NuGet packages.
+To add support for unit testing of JavaScript and TypeScript in an ASP.NET Core project, you need to add TypeScript, npm, and unit testing support to the project by including required NuGet packages.
 
 ### Add a unit test (ASP.NET Core)
 
@@ -148,9 +168,16 @@ The following example is based on the ASP.NET Core Model-View-Controller project
 
 1. In the **Browse** tab, search for the following packages and install each one:
 
+   ::: moniker range=">=vs-2022"
+   - [Microsoft.TypeScript.MSBuild](https://www.nuget.org/packages/Microsoft.TypeScript.MSBuild)
+   - [Npm](https://www.nuget.org/packages/Npm)
+   ::: moniker-end
+
+   ::: moniker range="vs-2019"
    - [Microsoft.TypeScript.MSBuild](https://www.nuget.org/packages/Microsoft.TypeScript.MSBuild)
    - [Npm](https://www.nuget.org/packages/Npm)
    - [Microsoft.JavaScript.UnitTest](https://www.nuget.org/packages/Microsoft.JavaScript.UnitTest/)
+   ::: moniker-end
 
    Use the NuGet package to add TypeScript support instead of the npm TypeScript package.
 
@@ -177,7 +204,7 @@ The following example is based on the ASP.NET Core Model-View-Controller project
 
    # [Mocha](#tab/mocha)
 
-   The `JavaScriptTestRoot` element specifies the location for your unit tests. To simplify the configuration for Mocha, in this example we point the test root to the output folder, *wwwroot\js\tests\*.
+   The `JavaScriptTestRoot` element specifies the location for your unit tests. To simplify the configuration for Mocha, in this example we point the test root to the output folder, *wwwroot\js\tests\\*.
 
    ```xml
    <PropertyGroup>
@@ -337,12 +364,17 @@ The following example is based on the ASP.NET Core Model-View-Controller project
    })
    ```
 
-1. Open Test Explorer (choose **Test** > **Windows** > **Test Explorer**) and Visual Studio discovers and displays tests. If tests are not showing initially, then rebuild the project to refresh the list. The following illustration shows the Jest example, with two different unit test files.
+1. Open Test Explorer (choose **Test** > **Windows** > **Test Explorer**) and Visual Studio discovers and displays tests. If tests aren't showing initially, then rebuild the project to refresh the list. The following illustration shows the Jest example, with two different unit test files.
 
    ![Screenshot of Test Explorer test discovery (ASP.NET Core).](../javascript/media/vs-2022/unit-tests-asp-dotnet-discovery.png)
 
    > [!NOTE]
-   > For TypeScript, do not use the `outfile` option in *tsconfig.json*, because Test Explorer won't be able to find your unit tests. You can use the `outdir` option, but make sure that configuration files such as `package.json` and `tsconfig.json` are in the project root.
+   > For TypeScript, don't use the `outfile` option in *tsconfig.json*, because Test Explorer won't be able to find your unit tests. You can use the `outdir` option, but make sure that configuration files such as `package.json` and `tsconfig.json` are in the project root.
+
+   ::: moniker range="vs-2022"
+   > [!IMPORTANT]
+   > If the output from **Tests** in the Output window shows a `ReadOnlySpan` error during test discovery, use the following workaround for a known [MSBuild issue](https://github.com/dotnet/msbuild/issues/7873). In Visual Studio 2022, open the folder, *Program Files\Microsoft Visual Studio\2022\\<version\>\Common7\IDE\Extensions\TestPlatform*, and rename *System.Memory.dll* to a different name. This fix enables test discovery.
+   ::: moniker-end
 
 ### Run tests (ASP.NET Core)
 
@@ -358,7 +390,7 @@ For some unit test frameworks, unit tests are typically run against the generate
 > In most TypeScript scenarios, you can debug a unit test by setting a breakpoint in TypeScript code, right-clicking a test in Test Explorer, and choosing **Debug**. In more complex scenarios, such as some scenarios that use source maps, you may have difficulty hitting breakpoints in TypeScript code. As a workaround, try using the `debugger` keyword.
 
 > [!NOTE]
-> Profiling tests and code coverage are not currently supported.
+> Profiling tests and code coverage aren't currently supported.
 
 ::: moniker range="<=vs-2019"
 ## <a name="addingFramework"></a>Add support for a unit test framework
@@ -387,7 +419,7 @@ Discovery of available test frameworks occurs at Visual Studio start. If a frame
 
 ## Unit tests in .NET Framework
 
-You are not limited to writing unit tests in just your Node.js and ASP.NET Core projects. When you add the TestFramework and TestRoot properties to any C# or Visual Basic project, those tests will be enumerated and you can run them using the Test Explorer window.
+You aren't limited to writing unit tests in just your Node.js and ASP.NET Core projects. When you add the TestFramework and TestRoot properties to any C# or Visual Basic project, those tests will be enumerated and you can run them using the Test Explorer window.
 
 To enable this, right-click the project node in the Solution Explorer, choose **Unload Project**, and then choose **Edit Project**. Then in the project file, add the following two elements to a property group.
 
@@ -455,12 +487,12 @@ property in the **Properties** window is set to the correct test framework for y
 > [!NOTE]
 > The unit test options will take preference over the settings for individual files.
 
-After opening Test Explorer (choose **Test** > **Windows** > **Test Explorer**), Visual Studio discovers and displays tests. If tests are not showing initially, then rebuild the project to refresh the list.
+After opening Test Explorer (choose **Test** > **Windows** > **Test Explorer**), Visual Studio discovers and displays tests. If tests aren't showing initially, then rebuild the project to refresh the list.
 
 ![Screenshot of Test Explorer.](../javascript/media/UnitTestsDiscoveryMocha.png)
 
 > [!NOTE]
-> For TypeScript, do not use the `outdir` or `outfile` option in *tsconfig.json*, because Test Explorer won't be able to find your unit tests.
+> For TypeScript, don't use the `outdir` or `outfile` option in *tsconfig.json*, because Test Explorer won't be able to find your unit tests.
 
 ## Run tests (Node.js)
 

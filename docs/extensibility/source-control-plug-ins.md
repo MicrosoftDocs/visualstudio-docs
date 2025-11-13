@@ -1,12 +1,12 @@
 ---
 title: Source Control Plug-ins
 description: The articles in this section describe the complete interface specification that enables source control systems to be integrated with Visual Studio.
-ms.date: 11/04/2016
-ms.topic: conceptual
+ms.date: 10/23/2025
+ms.topic: article
 helpviewer_keywords:
 - source control plug-ins, reference
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---
@@ -41,8 +41,6 @@ The Source Control Plug-in SDK reference section contains the complete interface
 - [How to: Turn Off Compatibility Warnings for Source Control Plug-ins](../extensibility/how-to-turn-off-compatibility-warnings-for-source-control-plug-ins.md) describes how to disable warnings.
 
 ## Related sections
-
-- [Source Control Plug-in Sample](https://www.microsoft.com/download/details.aspx?id=55984) Provides a sample of source control plug-in functionality.
 
 - [Test Guide for Source Control Plug-ins](../extensibility/internals/test-guide-for-source-control-plug-ins.md) describes testing procedures related to a source control plug-in.
 

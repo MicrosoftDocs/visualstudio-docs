@@ -1,5 +1,5 @@
 ---
-description: "Retrieves the set of modifers for this symbol."
+description: "Retrieves the set of modifiers for this symbol."
 title: "IDiaSymbol::get_modifierValues"
 ms.date: "07/09/2024"
 ms.topic: "reference"

@@ -5,8 +5,8 @@ ms.date: 04/29/2019
 ms.topic: reference
 helpviewer_keywords:
 - roslyn package versions
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---
@@ -18,6 +18,7 @@ As an example, to ensure that your custom analyzer works on all versions of Visu
 
 | Roslyn package version | Minimum supported Visual Studio version |
 | - | - |
+| 4.14.0 | Visual Studio 2022 version 17.14 |
 | 4.13.0 | Visual Studio 2022 version 17.13 |
 | 4.12.0 | Visual Studio 2022 version 17.12 |
 | 4.11.0 | Visual Studio 2022 version 17.11 |

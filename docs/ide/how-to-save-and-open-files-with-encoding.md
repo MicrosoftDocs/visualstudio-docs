@@ -22,7 +22,7 @@ You can save files with specific character encoding in Visual Studio to support 
 
 ## Prerequisites
 
-- Visual Studio. If you don't have Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
+- Visual Studio. If you don't have Visual Studio, go to the [Visual Studio downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) page to install it for free.
 
 ## Save file with encoding
 
@@ -52,7 +52,7 @@ Follow these steps to save your file with encoding:
 
 Starting in Visual Studio 2022 version 17.13 Preview 1, you can set the default encoding for saving files.
 
-To set the default, choose **Tools** > **Options** > **Environment**, **Documents**. Next, select **Save files with the following encoding**, and then select the encoding you want as the default.
+To set the default, choose **Tools** > **Options** > **Environment**, **Documents**. Next, select **Save files with a specific encoding**, and then select the encoding you want as the default.
 ::: moniker-end
 
 ## Open encoded file with project

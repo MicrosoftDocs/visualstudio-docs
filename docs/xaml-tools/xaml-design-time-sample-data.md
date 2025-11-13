@@ -2,7 +2,7 @@
 title: Use design-time sample data with the XAML Designer
 description: Develop Windows Presentation Foundation (WPF) .NET projects with the XAML Designer in Visual Studio to enable sample data in data-reliant controls.
 ms.date: 06/01/2021
-ms.topic: conceptual
+ms.topic: how-to
 author: maddymontaquila
 ms.author: maleger
 manager: mijacobs
@@ -44,7 +44,7 @@ After you add the namespaces, you can use `d:ItemsSource="{d:SampleData}"` to en
 <DataGrid d:ItemsSource="{d:SampleData}"/>
 ```
 
-[![Screenshot that shows sample data on a data grid.](media\xaml-sample-data-empty-datagrid.png "Sample data enabled on a data grid")](media\xaml-sample-data-empty-datagrid.png#lightbox)
+:::image type="content" alt-text="Screenshot that shows sample data on a data grid." source="media\xaml-sample-data-empty-datagrid.png" lightbox="media\xaml-sample-data-empty-datagrid.png":::
 
 In this example, without `d:ItemsSource="{d:SampleData}"`, the XAML Designer would show an empty data grid. Instead, with `d:SampleData`, it now shows generated default sample data.
 
@@ -72,13 +72,13 @@ Sample data will be generated only for elements in data templates that use bindi
 </ListView>
 ```
 
-[![Screenshot that shows sample data in a list view with a data template.](media\xaml-sample-data-templated-listview.png "Sample data used in a list view with a data template")](media\xaml-sample-data-templated-listview.png#lightbox)
+:::image type="content" alt-text="Screenshot that shows sample data in a list view with a data template." source="media\xaml-sample-data-templated-listview.png" lightbox="media\xaml-sample-data-templated-listview.png":::
 
 ## Sample data with Suggested Actions
 
 To easily enable or disable sample data for a control from the designer, you can use the Suggested Actions feature. Suggested Actions is a lightbulb on the designer that appears on the upper right when you select a control. You can enable sample data by selecting your control, selecting the lightbulb, and then selecting **Show Sample Data**. For example:
 
-[![Screenshot that shows sample data with Suggested Actions.](media\xaml-sample-data-suggested-actions.png "Enable sample data with Suggested Actions")](media\xaml-sample-data-suggested-actions.png#lightbox)
+:::image type="content" alt-text="Screenshot that shows sample data with Suggested Actions." source="media\xaml-sample-data-suggested-actions.png" lightbox="media\xaml-sample-data-suggested-actions.png":::
 
 ## Sample data with the IValueConverter interface
 

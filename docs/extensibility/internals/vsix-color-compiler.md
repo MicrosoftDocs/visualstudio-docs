@@ -3,8 +3,8 @@ title: VSIX Color Compiler
 description: Learn about the Visual Studio Extension Color Compiler tool, which is a console application that coverts colors in Visual Studio themes to a .pkgdef file.
 ms.date: 11/04/2016
 ms.topic: reference
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---
@@ -143,7 +143,7 @@ The Visual Studio Extension Color Compiler tool is a console application that ta
 
 ## Notes
 
-- This tool requires that the latest version of the VC++ runtime be installed.
+- This tool requires that the latest version of the Microsoft Visual C++ Runtime be installed.
 
 - Only single files are supported. Bulk conversion via folder paths is not supported.
 

@@ -12,6 +12,7 @@ author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide
+ms.custom: sfi-image-nochange
 
 #customer intent: As a developer, I want to learn how to create Visual Studio projects and solutions to store artifacts so that I can effectively manage my solutions.
 ---
@@ -91,7 +92,7 @@ To specify a .NET Framework version, select an item in the **Framework** list on
 
 ::: moniker-end
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 :::image type="content" source="media/vs-2022/configure-new-project-framework.png" alt-text="Screenshot of the Framework dropdown list in the Configure new project dialog.":::
 

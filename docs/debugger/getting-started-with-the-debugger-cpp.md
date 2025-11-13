@@ -1,7 +1,7 @@
 ---
 title: "Tutorial: Debug C++ code"
 description: Follow this tutorial to explore features of the Visual Studio debugger, start the debugger, step through code, and inspect data in a C++ application.
-ms.date: 12/17/2024
+ms.date: 09/08/2025
 ms.subservice: debug-diagnostics
 ms.topic: tutorial
 dev_langs:
@@ -11,13 +11,14 @@ helpviewer_keywords:
 author: mikejo5000
 ms.author: mikejo
 manager: mijacobs
+ms.update-cycle: 90-days
 
-#customer intent: As a developer, I want to use the Visual Studio debugger, so I can access features like stepping through my application code and inspecting data values.
+#customer intent: As a developer, I want to use Visual Studio debugger features like stepping through my application code, viewing the call stack, setting command-line arguments, and inspecting data values.
 ---
 
 # Tutorial: Debug C++ code with Visual Studio
 
-This article introduces features of the Visual Studio debugger in a step-by-step walkthrough. When you debug an application, you usually run your app with the debugger attached. The debugger provides many ways to examine what your code is doing during program execution. You can step through your code and look at values stored in variables and set watches on variables to see when values change. The debugger helps you examine the execution path of your code and confirm a branch of code is running.
+In this tutorial, you debug a C++ application using the Visual Studio debugger. When you debug an application, you usually run your app with the debugger attached. The debugger provides many ways to examine what your code is doing during program execution. You can step through your code and look at values stored in variables and set watches on variables to see when values change. The debugger helps you examine the execution path of your code and confirm a branch of code is running.
 
 In this tutorial, you:
 
@@ -26,6 +27,7 @@ In this tutorial, you:
 > * Learn commands to step through code in the debugger
 > * Inspect variables in data tips and debugger windows
 > * Examine the call stack
+> * Set command-line arguments for your application
 
 If you're new to debugging, you might want to read [Debugging for absolute beginners](./debugging-absolute-beginners.md) before you start this tutorial. If you want a higher-level view of the debugger features, see [First look at the debugger](./debugger-feature-tour.md).
 
@@ -33,9 +35,9 @@ If you're new to debugging, you might want to read [Debugging for absolute begin
 
 - Visual Studio 2022 **version 17.12** or later with the **Desktop development with C++** workload installed.
 
-   ::: moniker range="vs-2022"
+   ::: moniker range=">=vs-2022"
 
-   - To install Visual Studio 2022 for free, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page.
+   - To install Visual Studio for free, go to the [Visual Studio downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) page.
 
    ::: moniker-end
    ::: moniker range="<=vs-2019"
@@ -47,17 +49,13 @@ If you're new to debugging, you might want to read [Debugging for absolute begin
    - If you already have Visual Studio, you can install the workload from within the Interactive Development Environment (IDE):
    
       1. Select **Tools** > **Get Tools and Features**.
-
       1. In the Visual Studio Installer, select the **Workloads** tab.
-
       1. Select the **Desktop development with C++** workload, and then select **Modify**.
-
       1. Follow the prompts and complete the installation.
 
 - This tutorial uses a C++ demo application and the screenshots present C++ syntax. Most of the demonstrated features are also applicable to C#, Visual Basic, F#, Python, JavaScript, and other languages supported by Visual Studio. There are a few limitations to keep in mind:
 
    - **F#**: The **Edit-and-continue** feature isn't supported.
-
    - **F#** and **JavaScript**: The **Autos** window isn't supported.
 
 ## Create a project
@@ -69,7 +67,6 @@ Follow these steps to create a C++ console application project in Visual Studio.
    :::image type="content" source="media/vs-2022/create-new-project.png" alt-text="Screenshot that shows how to select the Create a new project option in the Visual Studio Start window.":::
 
 1. Set the **Language** filter to **C++** and set the **Platform** filter to **Windows**. 
-
 1. In the **Search** box, enter _console_, and select the **Console App** template in the list of results:
 
    ::: moniker range=">= vs-2022"
@@ -87,16 +84,14 @@ Follow these steps to create a C++ console application project in Visual Studio.
    > If you don't see the **Console App** template, you can install it from the **Create a new project** window. Locate the **Not finding what you're looking for?** section that follows the search results and select **Install more tools and features**. In the Visual Studio Installer, select the **Desktop development with C++** workload and update your installation. For more information, see the [Prerequisites](#prerequisites) section.
 
 1. Select **Next** to continue to the configuration page.
-
-1. Enter _get-started-debugging_ as the **Project name** and **Solution name** for your new app. Choose the default **Location** or browse to a different path in your environment.
-
+1. Enter `get-started-debugging` as the **Project name** and **Solution name** for your new app. Choose the default **Location** or browse to a different path in your environment.
 1. Select **Create** to create the new Node.js project.
 
-Visual Studio creates your new project and opens your project hierarchy in **Solution Explorer**. The _get-started-debugging.cpp_ file is open in the code editor.
+Visual Studio creates your new project and opens your project hierarchy in **Solution Explorer**. The `get-started-debugging.cpp` file is open in the code editor.
 
 ## Create the application
 
-Create a new application for your project by editing the _get-started-debugging.cpp_ file in the code editor.
+Create a new application for your project by editing the `get-started-debugging.cpp` file in the code editor.
 
 Replace the default content provided by the template with the following code:
 
@@ -152,14 +147,13 @@ Now you're ready to start debugging your updated code:
    Later in the tutorial, you look more closely at this app in the debugger and explore other debugging features.
 
 1. Halt the debugger by selecting **Stop** :::image type="icon" source="./media/dbg-tour-stop-debugging.png"::: (red square icon) in the Debug toolbar. You can also use the **Shift** + **F5** keyboard shortcut.
-
 1. In the console window for the running application, select any key and then select **Enter** to close the window.
 
 ## Set a breakpoint and start the debugger
 
 Try setting a breakpoint and pausing at the selected point in the debugger:
 
-1. Return to the _get-started-debugging.cpp_ file in the code editor, and locate the `for` loop of the `main` function:
+1. Return to the `get-started-debugging.cpp` file in the code editor, and locate the `for` loop of the `main` function:
 
    ```cpp
       for (int i = 0; i < letters.size(); i++)
@@ -199,7 +193,6 @@ A convenient way to browse your code in the debugger is to use **step commands**
 The following procedure highlights how to use keyboard shortcuts with step commands to quickly work through your code. (The equivalent menu actions are shown in parenthesis.)
 
 1. Start your app in the debugger by selecting **F5** or **Start Debugging**.
-
 1. While the debugger is paused in the `for` loop in the `main` function, select **F11** (**Debug > Step Into**) _twice_ to advance to the `SendMessage` method call.
 
    After you select **F11** twice, execution continues to the code statement `SendMessage(name, a[i]);`.
@@ -219,7 +212,6 @@ The following procedure highlights how to use keyboard shortcuts with step comma
    When the command completes, the debugger pauses in the `for` loop of the `main` method at the `SendMessage` method call.
 
 1. Select **F11** several times until you return again to the `SendMessage` method call.
-
 1. While the debugger is paused at the method call, select **F10** (**Debug > Step Over**).
 
    :::image type="content" source="./media/get-started-step-over-cpp.png" border="false" alt-text="Screenshot that shows the debugger stepped over the SendMessage method and the yellow pointer indicating the pause location.":::
@@ -233,7 +225,6 @@ Another way to work through your code in the debugger is with the **Run to Click
 Continue with your debugging session:
 
 1. Select **F5** to advance to the breakpoint in your code.
-
 1. In the code editor, scroll to the `SendMessage` method definition, and hover over the `std::wcout` function.
 
    Hover until the **Run to Click** :::image type="icon" source="./media/dbg-tour-run-to-click.png"::: (green arrow icon) appears to the left of the code statement. If you hover over the icon, you see the tooltip "Run execution to here":
@@ -267,7 +258,6 @@ Continue with your debugging session:
    :::image type="content" source="./media/vs-2022/debugger-inspect-letter-variable.gif" border="false" alt-text="Animation that shows how to inspect the properties and values for a variable in the debugger.":::
 
 1. Next, hover over the `name` variable and notice its current value, an empty string (`""`).
-
 1. Select **F5** (**Debug** > **Continue**) a few times to iterate several times through the `for` loop. Each time the debugger pauses at the breakpoint, hover over the `name` variable and check the current value:
 
    :::image type="content" source="./media/get-started-data-tip-cpp.png" border="false" alt-text="Screenshot that shows how to check the value of a variable by using hover to show the data tip in the debugger.":::
@@ -324,7 +314,6 @@ The **Call Stack** window in Visual Studio shows the order in which methods and 
    If you don't see the window during your debugging session, select **Debug** > **Windows** > **Call Stack** to open the window.
 
 1. Select **F11** (**Debug** > **Step Into**) a few times until you see the debugger pause in the `SendMessage` method.
-
 1. Look at the **Call Stack** window again:
 
    ::: moniker range=">= vs-2022"
@@ -343,17 +332,14 @@ The **Call Stack** window in Visual Studio shows the order in which methods and 
 The call stack is a good way to examine and understand the execution flow of an app:
 
 - Double-click a line of code to browse to the source code. This action also changes the current scope under inspection by the debugger, but it doesn't advance the debugger.
-
 - Access right-click menus for programming elements in the **Call Stack** window. For example, you can insert breakpoints into specified functions, advance the debugger by using **Run to Cursor**, and browse to source code. For more information, see [View the call stack and use the Call Stack window in the debugger](./how-to-use-the-call-stack-window.md).
 
 ## Change the execution flow
 
-Another feature of the debugger in Visual Studio is the ability to change the execution flow of your app:
+Another powerful debugger feature is the ability to modify the execution flow during debugging:
 
 1. Select **F11** (**Debug** > **Step Into**) twice to run the `std::wcout` function.
-
 1. While the debugger is paused in the `SendMessage` method call, select and drag the yellow arrow (the execution pointer) to the left of the variable and move the arrow to the previous code statement, `std::wcout`.
-
 1. Select **F11** again.
 
    The debugger reruns the `std::wcout` function. You can track the process in the terminal output.
@@ -364,6 +350,139 @@ Another feature of the debugger in Visual Studio is the ability to change the ex
    > Pay careful attention when working with this feature. When you select the yellow arrow, Visual Studio displays a warning in the tooltip indicating that the execution change can have unintended consequences. You might see other warnings as well, depending on your scenario. Keep in mind that moving the pointer can't revert your application to an earlier app state.
 
 1. Select **F5** to complete app execution.
+
+::: moniker range=">=visualstudio"
+
+## Pass command-line arguments
+
+Set command-line arguments for your application in project properties. This is useful when you want to test how your app behaves with different command-line arguments. 
+
+Starting in Visual Studio 2026, you can set command-line arguments for your application in the command-line arguments toolbar drop-down list. This feature is available for Visual Studio C++ projects, Unreal Engine `.uproject` projects, and CMake projects. It's currently in preview and is subject to change before final release.
+
+Modify the application to accept command-line arguments by replacing the code in the `get-started-debugging.cpp` file with the following:
+
+```cpp
+#include <string>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+
+void SendMessage(const std::wstring& name, int msg)
+{
+    std::wcout << L"Hello, " << name << L"! Count to " << msg << std::endl;
+}
+
+int main(int argc, char* argv[])
+{
+    // Detect if the /u command-line argument was passed to the application.
+    bool uppercase = false;
+    for (int i = 1; i < argc; ++i)
+    {
+        if (std::string(argv[i]) == "/u")
+        {
+            uppercase = true;
+            break;
+        }
+    }
+
+    std::vector<wchar_t> letters = { L'f', L'r', L'e', L'd', L' ', L's', L'm', L'i', L't', L'h' };
+    std::wstring name = L"";
+    std::vector<int> a(10);
+    std::wstring key = L"";
+
+    for (int i = 0; i < letters.size(); i++)
+    {
+        name += letters[i];
+        a[i] = i + 1;
+        std::wstring nameToSend = name;
+        
+        if (uppercase) // Convert the name to uppercase if the /u argument was passed.
+        {
+            std::transform(nameToSend.begin(), nameToSend.end(), nameToSend.begin(), ::towupper);
+        }
+        SendMessage(nameToSend, a[i]);
+    }
+    return 0;
+}
+```
+
+This updated version of the application accepts a command-line argument `/u` that converts the name to uppercase before outputting it.
+
+To pass the `/u` command-line argument to the application when you start debugging it, follow these steps:
+
+1. In the **Standard** toolbar, **Command-line arguments** text box, type `/u`:
+
+    :::image type="content" source="./media/vs-2026/command-line-arguments.png" border="false" alt-text="Screenshot of the command-line arguments drop-down list in the Standard toolbar.":::
+
+1. Place a breakpoint on line 19, `uppercase = true;`, by clicking the left gutter on that line.
+
+    :::image type="content" source="./media/vs-2026/breakpoint.png" border="false" alt-text="Screenshot of a breakpoint set on line 18, uppercase = true.":::
+
+1. Start debugging your application by selecting the **Start Debugging** button or pressing **F5**.
+1. The debugger hits the breakpoint because `/u` was passed as a command-line argument:
+
+    :::image type="content" source="./media/vs-2026/breakpoint-hit.png" border="false" alt-text="Screenshot of the debugger stopped on line 18, uppercase = true.":::
+
+1. Select **F5** to continue running the application. The output in the console window shows the names in uppercase now:
+
+```output
+Hello, F! Count to 1
+Hello, FR! Count to 2
+Hello, FRE! Count to 3
+Hello, FRED! Count to 4
+Hello, FRED ! Count to 5
+Hello, FRED S! Count to 6
+Hello, FRED SM! Count to 7
+Hello, FRED SMI! Count to 8
+Hello, FRED SMIT! Count to 9
+Hello, FRED SMITH! Count to 10
+```
+
+Command-line arguments are saved in the drop-down list in the order that you enter them and appear in the drop-down list for future use. There's a limit of five command lines that you can add before the oldest one is removed to make room for the new one.
+
+You can select the drop-down list arrow to see a list of previously used command-line arguments.
+
+## Pass command-line arguments in different project types
+
+The command-line arguments drop-down list contains a project type specific option to open the classic way of setting the arguments that the debugger passes to your program. For `.vcxproj` projects, it's via the project settings property page. For CMake projects, it's by editing the `vs.launch.json` file. For Unreal Engine projects it's by editing the `.uproject` file.
+
+### Visual Studio project type (`.vcxproj`)
+
+In a Visual Studio project (`.vcxproj`), an option appears in the command-line arguments drop-down list to **Edit in Property Pages**:
+
+:::image type="content" source="./media/vs-2026/command-line-arguments-dropdown.png" border="false" alt-text="Screenshot of the command-line argument drop-down list. It shows /u and /d from a previous run. The option to edit in property pages is highlighted.":::
+
+Select **Edit in Property Pages** to open the project properties window to the **Debugging** property page where you set command-line arguments to pass when debugging your application:
+
+:::image type="content" source="./media/vs-2026/debugging-property-page.png" border="false" alt-text="Screenshot of the Debugging page in the project properties. The command-line arguments text box contains /u.":::
+
+Changes to the **Command Arguments** are reflected in the command-line arguments drop-down list for future debugging sessions.
+
+### CMake project type
+
+For CMake projects, an option appears in the command-line arguments drop-down list to **Edit in `launch.vs.json`**:
+
+:::image type="content" source="./media/vs-2026/command-line-arguments-dropdown-cmake.png" border="false" alt-text="Screenshot of the command-line argument drop-down list for CMake projects. It shows Edit in launch.vs.json as an option.":::
+
+Select **Edit in `launch.vs.json`**, to open the `launch.vs.json` file and set command-line arguments to pass when debugging your application in the `"args"` element:
+
+:::image type="content" source="./media/vs-2026/command-line-launch-vs-json.png" border="false" alt-text="Screenshot of the launch.vs.json file with the args element highlighted":::
+
+Changes to the file are reflected in the command-line arguments drop-down list for future debugging sessions.
+
+### Unreal Engine project type (`.uproject`)
+
+For Unreal Engine projects, an option appears in the command-line arguments drop-down list to **Edit in `UETargetProperties.json`**:
+
+:::image type="content" source="./media/vs-2026/command-line-arguments-dropdown-unreal-engine.png" border="false" alt-text="Screenshot of the command-line argument drop-down list for Unreal Engine projects. It shows Edit in UETargetProperties.json as an option.":::
+
+Select **Edit in `UETargetProperties.json`**, to open the `UETargetProperties.json` file where you set command-line arguments to pass when debugging your application in the "args" element:
+
+:::image type="content" source="./media/vs-2026/command-line-unreal-engine-json.png" border="false" alt-text="Screenshot of the UETargetProperties.json file with the args element highlighted":::
+
+Changes to the file are reflected in the command-line arguments drop-down list for future debugging sessions.
+
+::: moniker-end
 
 ## Related content
 

@@ -1,16 +1,16 @@
 ---
-title: Using product keys in Visual Studio subscriptions
+title: Understanding the product keys offered in your Visual Studio subscription
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 12/13/2024
-ms.topic: conceptual
+ms.date: 11/11/2025
+ms.topic: how-to
 description: Obtain and manage your product keys in Visual Studio subscriptions for products that require keys for installation or activation.
 ---
 
-# Using product keys in Visual Studio subscriptions
+# Understanding the product keys offered in your Visual Studio subscription
 
-Visual Studio subscriptions provide access to a wide range of Microsoft products for designing, developing, testing, and demonstrating applications. Some of these products require product keys during installation, and some of those require activation.
+Visual Studio subscriptions provide access to a wide range of Microsoft products for designing, developing, testing, and demonstrating applications. Some of these products require product keys during installation, and some of those products require activation.
 
 Visual Studio subscriptions typically include five product keys for current versions of Windows and Office products, and three keys for older versions.
 Keys often have multiple activations, and many products allow 30-day use without activation. For most subscribers, that's more than enough. 
@@ -30,7 +30,7 @@ If you claimed all the available product keys under your subscription and used u
 
 Visual Studio subscriptions offer a selection of retail and Volume Licensing versions of Microsoft products. Certain products are available from Downloads only in their retail version or only in their Volume Licensing version; some are available in both versions. Generally, products requiring activation, such as Windows, Windows Server, and Office client products, are only offered in their retail version through Downloads.
 
-Volume Licensing customers can also download software from the Volume Licensing Service Center (VLSC) to get Volume Licensing versions of products (and the corresponding product keys). Designated admins within your organization control access to the VLSC.
+Volume Licensing customers can also download software from the Microsoft 365 admin center to get Volume Licensing versions of products (and the corresponding product keys). Designated admins within your organization control access to the Microsoft 365 admin center.
 
 ## Product key claim limits
 
@@ -42,16 +42,16 @@ Our research shows that most subscribers are covered by the number of product ke
 
 1. Sign in to your Visual Studio subscription. 
 2. Go to the [Product Keys](https://my.visualstudio.com/productkeys?wt.mc_id=o~msft~docs) page. On this page you can find static keys that work for all users of a product, get custom keys just for your use, see the status of your key claim limits, and export all of your product keys. 
-3. For a specific key, select the blue **Get Key** link for a particular product on the [Downloads](https://my.visualstudio.com/downloads) page as shown in the following image. 
+3. For a specific key, select the **Blue Key** icon for a particular product on the [Downloads](https://my.visualstudio.com/downloads) page as shown in the following image. 
  When multiple keys exist for a single product, notes are displayed on the Notes column for the download to assist you in identifying which key should be used.
 
 Some products bundle multiple editions of the product into a single download. In these cases, the product key entered determines which edition of the product is installed.
-Some keys are provided automatically, such as "static" keys, which you can use as many times as needed because activation isn't required. Other keys must be claimed by selecting the **Get Key** link for the product.
+Some keys are provided automatically, such as "static" keys, which you can use as many times as needed because activation isn't required. Other keys must be claimed by selecting the **Blue Key** icon for the product.
 > [!div class="mx-imgBorder"]
-> ![Get Key from Downloads Page](_img/product-keys/download-get-key.png "Screenshot of the download page for Visual Studio Professional 2019. The Get key link is highlighted.")
+> ![Get Key from Downloads Page](_img/product-keys/download-get-key-revision-2.png "Screenshot of the download page for Visual Studio Enterprise 2026. The blue key icon is highlighted.")
 
 > [!div class="mx-imgBorder"]
-> ![Product Keys Page](_img/product-keys/product-keys-page.png "Screenshot of the Product keys page on the subscription portal.")
+> ![Product Keys Page](_img/product-keys/product-keys-page-rev.png "Screenshot of the Product keys page on the subscription portal.")
 
 Various key types are available, depending on the product.
 

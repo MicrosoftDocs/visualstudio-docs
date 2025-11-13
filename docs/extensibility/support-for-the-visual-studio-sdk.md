@@ -2,15 +2,15 @@
 title: Support for the Visual Studio SDK
 description: Learn about the support options that are available for customers about how to extend the Visual Studio IDE.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - Visual Studio SDK, support options
 - support, Visual Studio SDK
 - Help, Visual Studio SDK
 - newsgroups, Visual Studio SDK support
 - Web sites, Visual Studio SDK support
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

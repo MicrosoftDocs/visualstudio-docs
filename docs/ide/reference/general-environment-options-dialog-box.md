@@ -16,6 +16,7 @@ helpviewer_keywords:
 - Options dialog box, General Environment
 - General Environment Options dialog box
 - Environment Options dialog box
+ms.custom: "ide-ref"
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
@@ -31,7 +32,7 @@ Use this page to change color themes, status bar settings, and file extension as
 
 Choose the **Blue**, **Blue (Extra Contrast)**, **Dark**, or **Light** color theme for the IDE.
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 You can also choose to use the theme that Windows uses by selecting **Use system setting**.
 
@@ -45,7 +46,7 @@ You can install additional predefined themes and create custom themes by downloa
 
 After you install this tool, additional color themes appear in the **Color Theme** list box.
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 > [!NOTE]
 > Want even more themes to choose from? Check out the wide range of custom themes on the [**Visual Studio Marketplace**](https://marketplace.visualstudio.com/search?target=VS&category=Tools&vsVersion=&subCategory=Themes&sortBy=Installs). And to see examples of new Visual Studio 2022 custom themes based on VS Code, take a look at the [**Introducing a collection of new Visual Studio themes**](https://devblogs.microsoft.com/visualstudio/custom-themes/) blog post.

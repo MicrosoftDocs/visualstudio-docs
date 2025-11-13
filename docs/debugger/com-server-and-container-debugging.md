@@ -2,7 +2,7 @@
 title: COM Server and Container Debugging
 description: Learn about COM server and container debugging. Debug a COM server and container in the same solution, a server app without container information, or an SDI app.
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "CSharp"
   - "VB"
@@ -52,4 +52,4 @@ To access the *Project* Property Pages dialog box, right-click your project in S
 
 ## Related content
 
-- [COM and ActiveX Debugging](../debugger/com-and-activex-debugging.md)
+- [COM and ActiveX Debugging](/previous-versions/visualstudio/visual-studio-2017/debugger/com-and-activex-debugging)

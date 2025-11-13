@@ -3,8 +3,8 @@ title: Creating a View Adornment, Commands and Settings
 description: Learn how to extend the Visual Studio code editor with column guides by using this walkthrough.
 ms.date: 11/04/2016
 ms.topic: how-to
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---
@@ -75,7 +75,7 @@ namespace ColumnGuides
 {
     internal static class GuidesSettingsManager
     {
-        // Because my code is always called from the UI thred, this succeeds.
+        // Because my code is always called from the UI thread, this succeeds.
         internal static SettingsManager VsManagedSettingsManager =
             new ShellSettingsManager(ServiceProvider.GlobalProvider);
 

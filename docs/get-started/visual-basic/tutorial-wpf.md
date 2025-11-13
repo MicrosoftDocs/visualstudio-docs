@@ -42,7 +42,7 @@ Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/vs/)
 ::: moniker-end
 ::: moniker range=">=vs-2022"
 You need Visual Studio to complete this tutorial.
-Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) for a free version.
+Visit the [Visual Studio downloads page](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) for a free version.
 ::: moniker-end
 
 ## Create the project
@@ -323,7 +323,6 @@ For more information about Visual Studio, see these resources:
 - [What's new in Visual Studio 2019](../../ide/whats-new-visual-studio-2019.md)
 - [Productivity tips](../../ide/productivity-features.md)
 ::: moniker-end
-::: moniker range="vs-2022"
-- [What's new in Visual Studio 2022](../../ide/whats-new-visual-studio-2022.md)
+::: moniker range=">=vs-2022"
 - [Productivity tips](../../ide/productivity-features.md)
 ::: moniker-end

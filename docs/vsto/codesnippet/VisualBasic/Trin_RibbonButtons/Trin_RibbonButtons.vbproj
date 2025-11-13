@@ -58,7 +58,7 @@
   </PropertyGroup>
   <PropertyGroup>
     <!--
-        properites needed to register addins
+        properties needed to register addins
         AddinRegistryHive - Root registry hive for the addin
         AddinRegistryKey  - Registry key where this addin is registered
     -->

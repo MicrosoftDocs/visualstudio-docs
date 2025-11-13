@@ -1,8 +1,8 @@
 ---
-title: "First look at profiling tools"
+title: "Overview of the profiling tools"
 description: Review the different diagnostic tools available in Visual Studio for profiling your C#, Visual Basic, C++, and F# applications.
-ms.date: 1/17/2025
-ms.topic: conceptual
+ms.date: 11/10/2025
+ms.topic: concept-article
 f1_keywords:
   - vs.diagnosticshub.overview
 dev_langs:
@@ -15,7 +15,7 @@ manager: mijacobs
 ms.subservice: debug-diagnostics
 zone_pivot_groups: programming-languages-set-two
 ---
-# First look at profiling tools (C#, Visual Basic, C++, F#)
+# Overview of the profiling tools (C#, Visual Basic, C++, F#)
 
 Application performance measuring tools are essential for developers who want to optimize their code and improve application performance. Visual Studio offers a range of profiling and diagnostics tools that can help you diagnose memory and CPU usage and other application-level issues. With these tools, you can accumulate performance data while you run your application. A profiler can help you make informed decisions quickly by providing a visual depiction of execution times and CPU usage for your application. In this article, we give a quick look at the most common profiling tools.
 
@@ -29,11 +29,22 @@ Tools in the Performance Profiler are intended to provide analysis for **Release
 
 Open the Performance Profiler by choosing **Debug** > **Performance Profiler** (or **Alt + F2**).
 
-::: moniker range=">=vs-2022"
+::: moniker range="visualstudio"
+![Screenshot of Performance Profiler.](../profiling/media/vs/prof-tour-performance-profiler.png "Performance Profiler")
+
+Tools that can be used in combination appear in the **Flexible** tab. Tools that must be used in isolation appear in the **Standalone** tab. 
+::: moniker-end
+::: moniker range="vs-2022"
 ![Screenshot of Performance Profiler.](../profiling/media/vs-2022/prof-tour-performance-profiler.png "Performance Profiler")
 ::: moniker-end
 ::: moniker range="<=vs-2019"
 ![Screenshot of Performance Profiler.](../profiling/media/prof-tour-performance-profiler.png "Performance Profiler")
+::: moniker-end
+
+::: moniker range="visualstudio"
+## Get AI recommendations
+
+If Copilot is enabled, the **Recommended** tab shows the tools that Copilot recommends based on its analysis of your source code.
 ::: moniker-end
 
 For more information on using the CPU Usage or Memory usage tool in the Performance Profiler vs. the debugger-integrated tools, see [Run profiling tools on release or debug builds](../profiling/running-profiling-tools-with-or-without-the-debugger.md). 
@@ -196,8 +207,41 @@ The Instrumentation tool is similar to the CPU Usage tool, except that it provid
 ![Screenshot showing .NET Instrumentation data.](./media/vs-2022/instrumentation-data.png "Instrumentation data")
 ::: moniker-end
 
-::: moniker range=">= vs-2022"
+::: moniker range=">= visualstudio"
+## AI-enhanced scenarios
 
+When Copilot is enabled, it can help you by recommending profiling tools that match your code, and by analyzing specific issues identified by profiling tools. Copilot understands your code and the Visual Studio profiling tools. As a result, you can interact with the profiler-aware AI to ask detailed questions related to your code and to performance issues in general.
+
+Copilot provides more precise help for some targeted scenarios, such as those described in the following table.
+
+|Feature or scenario|Link|
+|-|-|
+|Agent-directed profiling for CPU usage|See [Profile using the Profiler Agent](../profiling/profile-with-copilot-agent.md).|
+|Auto insights for profiling|See [Get AI assistance with Auto insights](../profiling/cpu-insights.md#get-ai-assistance).|
+|Auto insights for instrumentation|See [Get AI assistance](../profiling/instrumentation.md#get-ai-assistance).|
+|Auto insights for .NET Object Allocation|See [Get AI assistance](../profiling/dotnet-alloc-tool.md#get-ai-assistance).|
+|Copilot tool suggestions|See [Get AI recommendations](#get-ai-recommendations).|
+
+In some of these scenarios, you get targeted assistance by using the **Ask Copilot** ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png) or **Analyze with Copilot** button. Copilot already knows the context for your questions. For example, it knows about insights discovered by the profiling tools and can make relevant suggestions how to fix them.
+::: moniker-end
+::: moniker range="vs-2022"
+## AI-enhanced scenarios
+
+When Copilot is enabled, it can help you by recommending profiling tools that match your code, and by analyzing specific issues identified by profiling tools. Copilot understands your code and the Visual Studio profiling tools. As a result, you can interact with the profiler-aware AI to ask detailed questions related to your code and to performance issues in general.
+
+Copilot provides more precise help for some targeted scenarios, such as those described in the following table.
+
+|Feature or scenario|Link|
+|-|-|
+|Agent-directed profiling for CPU usage|See [Profile using the Profiler Agent](../profiling/profile-with-copilot-agent.md).|
+|Auto insights for profiling|See [Get AI assistance with Auto insights](../profiling/cpu-insights.md#get-ai-assistance).|
+|Auto insights for instrumentation|See [Get AI assistance](../profiling/instrumentation.md#get-ai-assistance).|
+|Auto insights for .NET Object Allocation|See [Get AI assistance](../profiling/dotnet-alloc-tool.md#get-ai-assistance).|
+
+In some of these scenarios, you get targeted assistance by using the **Ask Copilot** ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png) or **Analyze with Copilot** button. Copilot already knows the context for your questions. For example, it knows about insights discovered by the profiling tools and can make relevant suggestions how to fix them.
+::: moniker-end
+
+::: moniker range=">= vs-2022"
 ## Examine File I/O
 
 The [File I/O tool](../profiling/use-file-io.md) helps you understand how you can optimize your File I/O operations to improve performance in your apps. If you’re trying to investigate and diagnose slow loading times, the new File IO tool can help you understand how the I/O operations impact your spent time. This tool is available in the Performance Profiler. Open the Performance Profiler by choosing Debug > Performance Profiler (or Alt + F2).
@@ -274,6 +318,14 @@ The tool shows live values for each counter in a list view.
 :::image type="content" source="../profiling/media/dotnet-counters-tool-collecting.png" alt-text=".NET Counter tool collecting.":::
 
 This tool is supported for For .NET Core and .NET 5+ apps.
+
+## Visualize BenchmarkDotNet data
+
+Starting in Visual Studio 2022 version 17.9, you can view data collected using BenchmarkDotNet in the Visual Studio profiling tools. By adding benchmark attributes to your code, you can use specific diagnosers to analyze memory allocations, CPU usage, counters, and other performance data.
+
+For more information, see [Analyze BenchmarkDotNet data in Visual Studio](../profiling/profiling-with-benchmark-dotnet.md).
+
+:::image type="content" source="../profiling/media/vs-2022/benchmark-dotnet-diagsession.png" alt-text="BenchmarkDotNet data in the profiler.":::
 ::: zone-end
 
 ## Examine application events
@@ -287,7 +339,7 @@ The tool shows each event in a list view. Columns provide information about each
 ::: moniker range=">=vs-2022"
 ## View custom events in the timeline graphs
 
-You can programatically create custom events that appear as icons in the timeline graphs such as the CPU utilization and memory usage timeline graphs. For more information, see [Add user marks to timeline](../profiling/add-timeline-graph-user-marks.md).
+You can programmatically create custom events that appear as icons in the timeline graphs such as the CPU utilization and memory usage timeline graphs. For more information, see [Add user marks to timeline](../profiling/add-timeline-graph-user-marks.md).
 ::: moniker-end
 
 ::: zone pivot="programming-language-dotnet,programming-language-dotnetf"
@@ -318,6 +370,22 @@ In your UWP apps, you can enable **UI Analysis** in the **Diagnostic Tools** win
 ![View UI analysis events in the diagnostic tools](../profiling/media/prof-tour-ui-analysis.png "Diagnostic Tools View UI Analysis Events")
 ::: moniker-end
 ::: zone-end
+
+::: moniker range=">=vs-2022"
+## Profile on WSL, Docker, and Linux
+
+The profiling tools support profiling scenarios for WSL, Docker, and Linux. The tools supported on Linux and WSL are listed in [Which tools are supported on Linux?](../profiling/choose-performance-tool.md#which-tools-are-supported-on-linux)
+
+- For WSL, make sure you've installed the prerequisites described in [Debug .NET Apps in WSL with Visual Studio](../debugger/debug-dotnet-core-in-wsl-2.md). Open the Performance Profiler (**Alt + F2**) and select WSL as the target.
+
+  ![Screenshot of selecting WSL.](../profiling/media/vs-2022/prof-tour-selecting-windows-subsystem-linux.png)
+
+- For Docker and Linux, make sure you're enabled for debugging and can run the app from Visual Studio before starting the profiler. For more information, see the article that best matches your scenario: [Debug apps in a local Docker container](../containers/edit-and-refresh.md), [Debug .NET Core on Linux using SSH by attaching to a process](../debugger/remote-debugging-dotnet-core-linux-with-ssh.md#prerequisites), or [Attach to a process running on a Docker container](../debugger/attach-to-process-running-in-docker-container.md).
+
+  Next, you can attach to a running process in the Performance Profiler (**Alt + F2**) to collect profiling data.
+
+  ![Screenshot of selecting a running process.](../profiling/media/vs-2022/prof-tour-attach-to-running-process.png)
+::: moniker-end
 
 ::: zone pivot="programming-language-cpp"
 ## Analyze GPU Usage (Direct3D)

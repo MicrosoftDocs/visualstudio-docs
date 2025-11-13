@@ -1,114 +1,120 @@
 ---
-title: Use the Microsoft Identity platform connected service to use Microsoft Entra ID for authentication
-description: Connect Microsoft Entra ID (formerly Azure Active Directory) to your application by using Connected Services in Visual Studio on Windows.
+title: Entra ID Authentication With Connected Services
+description: Connect Microsoft Entra ID (formerly Azure Active Directory) to your application with Connected Services in Visual Studio on Windows.
 author: ghogen
 manager: mijacobs
 ms.subservice: azure-development
 ms.custom: devx-track-csharp
 ms.topic: how-to
-ms.date: 12/19/2023
+ms.date: 06/27/2025
 ms.author: ghogen
+#customer intent: As a developer, I want to use Connected Services in Visual Studio on Windows, so I can connect Microsoft Entra ID with my application for authentication.
 ---
 
-# Add Microsoft Entra ID authentication by using Connected Services in Visual Studio
+# Add Microsoft Entra ID authentication with Connected Services in Visual Studio
 
-You can add support for Microsoft Entra ID to an ASP.NET web app by using the Microsoft Identity platform connected service.
+You can add support for Microsoft Entra ID to an ASP.NET web application with the Microsoft identity platform connected service. Microsoft Entra ID enables support for user authentication to ASP.NET Model-View-Controller (MVC) web apps or Active Directory Authentication in web API services.
 
-By using Microsoft Entra ID, you can support user authentication for ASP.NET Model-View-Controller (MVC) web applications, or Active Directory Authentication in web API services. With Microsoft Entra authentication, your users can use their accounts from Microsoft Entra ID to connect to your web applications. The advantages of Microsoft Entra authentication with web API include enhanced data security when exposing an API from a web application. With Microsoft Entra ID, you do not have to manage a separate authentication system with its own account and user management.
+Microsoft Entra ID authentication offers many advantages:
 
-This article and its companion articles provide details of using the Visual Studio Connected Service feature for Active Directory.
+- Users can authenticate with their accounts from Microsoft Entra ID to connect to your web apps.
+- You gain enhanced data security when you expose an API from a web app. 
+- You don't have to manage a separate authentication system with its own account and user management.
+
+This article and its [companion articles](#related-content) describe how to use the Visual Studio Connected Service feature for Active Directory.
 
 ## Prerequisites
 
+To complete the procedures in this article, the following prerequisites must be satisfied:
+
 - [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
-- **Visual Studio 2015** or later. [Download Visual Studio now](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs).
 
-<a name='connect-to-azure-active-directory-using-the-connected-services-dialog'></a>
+- **Visual Studio**. [Download Visual Studio now](https://aka.ms/vsdownload?utm_source=mscom&utm_campaign=msdocs).
 
-### Connect to Microsoft Identity platform
+## Connect to Microsoft identity platform
 
-:::moniker range=">=vs-2022"
+Add Microsoft identity platform as a connected service to your application by following these steps:
 
 1. In Visual Studio, create or open an ASP.NET MVC project, or an ASP.NET Web API project.
 
-1. Select the **Project**, **Connected Services**, **Add** menu command, or right-click the **Connected Services** node found under the project in Solution Explorer, and choose **Add**, **Microsoft Identity platform**.
+1. Use one of the following methods to add the Microsoft identity platform connected service:
 
-   If you are missing the .NET MSIdentity tool, the screen prompts you to install it.
+   :::moniker range=">=vs-2022"
 
-   ![Screenshot of required components window.](./media/vs-azure-active-directory/required-components.png)
+   - Select **Project** > **Connected Services** > **Add** > **Microsoft identity platform**.
+   
+   - In **Solution Explorer**, right-click the **Connected Services** node for the project, and select **Add** > **Microsoft identity platform**.
 
-1. The **Configure Microsoft identity platform** screen appears. If you haven't signed in to Azure, you're asked to sign in. Once you're signed in, you see a list of your applications.
+   :::moniker-end
+   :::moniker range="<=vs-2019"
 
-   ![Screenshot showing list of owned applications.](./media/vs-azure-active-directory/owned-applications.png)
+   - Select **Project** > **Manage Connected Services** > **Add a service dependency** > **Microsoft identity platform**.
+   
+   - In **Solution Explorer**, right-click the **Connected Services** node for the project, and select **Manage Connected Services > Add a service dependency** > **Microsoft identity platform**.
 
-1. If you don't have an application, choose **Create new**, and enter the application name. For Microsoft Entra ID, choose Microsoft as the tenant.
+      :::image type="content" source="./media/vs-azure-active-directory/vs-2019/add-dependency-microsoft-identity-platform.png" border="false" alt-text="Screenshot showing the Microsoft identity platform option in Visual Studio.":::
 
-   ![Screenshot showing how to register a new application.](./media/vs-azure-active-directory/register-an-application.png)
+   :::moniker-end
 
-   The application you entered now shows in the list. Select it and choose **Next**.
+   If your installation is missing the .NET MSIdentity tool, the **Required components** window opens with a message to complete the install:
 
-1. On the next screen, you can choose to enable Microsoft.Graph or allow another API project to have access. You can configure this later if you don't have the information yet.
+   :::image type="content" source="./media/vs-azure-active-directory/required-components.png" border="false" alt-text="Screenshot of the Required Components window with a message to install the .NET MSIdentity tool.":::
 
-   ![Screenshot of additional options for adding APIs.](./media/vs-azure-active-directory/additional-settings.png)
+   As needed, follow the steps to install the .NET MSIdentity tool, and then continue with this procedure.
 
-1. Choose **Next**. The **Summary of changes** screen appears showing what is being changed in the project.
+1. The **Microsoft identity platform** configuration screen opens.
 
-   ![Screenshot showing Summary of changes screen.](./media/vs-azure-active-directory/summary-of-changes.png)
+   As needed, sign in to Azure. After you sign in, you see a list of your applications for the selected **Tenant**:
 
-1. The **Dependency configuration process** screen shows the specific changes that are being made to your project.
+   :::image type="content" source="./media/vs-azure-active-directory/owned-applications.png" border="false" alt-text="Screenshot showing the list of owned applications.":::
 
-Now the new service dependency shows on the Connected Services screen.
+   If you don't have an application, select **Create new**:
+   
+   1. For Microsoft Entra ID, select **Microsoft** as the tenant.
+   
+   1. Enter the display name for the new application.
+   
+   1. Select **Register**:
 
-![Screenshot showing the Microsoft Identity platform service dependency has been created.](./media/vs-azure-active-directory/identity-platform-service-dependency.png)
+      :::image type="content" source="./media/vs-azure-active-directory/register-an-application.png" border="false" alt-text="Screenshot showing how to register a new application.":::
 
-If you want to modify it, such as to add support for an API such as Microsoft.Graph, click on the three dots, and then choose **Edit dependency**. You can repeat the steps and choose the APIs that you want to grant access to.
+   After the new application registers, it appears in the application list.
+   
+1. In the application list, select the application to use, and select **Next**.
 
-You can also see the Active Directory domain on the [Azure portal](https://go.microsoft.com/fwlink/p/?LinkID=525040).
+   <a name="update-service-settings"> </a>
+   
+1. On the **Additional settings** screen, choose your preferred settings. You can enable Microsoft Graph or allow another API project to have access. You can also configure these settings later.
 
-:::moniker-end
-:::moniker range="<=vs-2019"
-1. In Visual Studio, create or open an ASP.NET MVC project, or an ASP.NET Web API project.
+   :::image type="content" source="./media/vs-azure-active-directory/additional-settings.png" border="false" alt-text="Screenshot of additional options for the application, including enable Microsoft Graph and allow API access.":::
 
-1. Select the **Project**, **Manage Connected Services** menu command, or right-click the **Connected Services** node found under the project in Solution Explorer, and choose **Manage Connected Services**, and then select the link **Add a service dependency** and choose **Microsoft Identity platform**.
+1. Select **Next**. The **Summary of changes** screen appears for the project, including updates to dependencies to support Microsoft identity platform:
 
-   ![Screenshot showing the Microsoft Identity platform option.](./media/vs-azure-active-directory/vs-2019/add-dependency-microsoft-identity-platform.png)
+   :::image type="content" source="./media/vs-azure-active-directory/summary-of-changes.png" border="false" alt-text="Screenshot showing Summary of changes screen for the project.":::
 
-   If you are missing the .NET MSIdentity tool, the screen prompts you to install it.
+1. Select **Finish**. The **Dependency configuration progress** screen shows the process status. When the process finishes successfully, the status shows the statement "Complete. Microsoft identity platform \<application> is configured."
 
-   ![Screenshot of required components window.](./media/vs-azure-active-directory/required-components.png)
+1. Select **Close** to close the window.
 
-   If you had to install the tool, you might need to restart the process again from step 1.
+The new connection is listed under **Service Dependencies** in the **Connected Services** screen for the project:
 
-1. The **Configure Microsoft identity platform** screen appears. If you haven't signed in to Azure, you're asked to sign in. Once you're signed in, you see a list of your applications.
+:::image type="content" source="./media/vs-azure-active-directory/identity-platform-service-dependency.png" border="false" alt-text="Screenshot showing the Microsoft identity platform service dependency listed as a connected service for the project.":::
 
-   ![Screenshot showing list of owned applications.](./media/vs-azure-active-directory/owned-applications.png)
+You can also see the Microsoft Entra ID domain for the application connection in the [Azure portal](https://go.microsoft.com/fwlink/p/?LinkID=525040).
 
-1. If you don't have an application, choose **Create new**, and enter the application name. For Microsoft Entra ID, choose Microsoft as the tenant.
+## Modify connected service settings
 
-   ![Screenshot showing how to register a new application.](./media/vs-azure-active-directory/register-an-application.png)
+After you add Microsoft identity platform as a connected service, you can modify the settings as needed:
 
-   The application you entered now shows in the list. Select it and choose **Next**.
+1. In the **Connected Services** > **Service Dependencies** screen, locate the **Microsoft identity platform** service.
 
-1. On the next screen, you can choose to enable Microsoft.Graph or allow another API project to have access. You can configure this later if you don't have the information yet.
+1. Select **More options** (**...**) for the service, and then select **Edit dependency**.
 
-   ![Screenshot of additional options for adding APIs.](./media/vs-azure-active-directory/additional-settings.png)
+1. Select the tenant that contains the application, select the application, and then select **Next**.
 
-1. Choose **Next**. The **Summary of changes** screen appears showing what is being changed in the project.
-
-   ![Screenshot showing Summary of changes screen.](./media/vs-azure-active-directory/summary-of-changes.png)
-
-1. The **Dependency configuration process** screen shows the specific changes that are being made to your project.
-
-Now the new service dependency shows on the Connected Services screen.
-
-![Screenshot showing the Microsoft Identity platform service dependency has been created.](./media/vs-azure-active-directory/identity-platform-service-dependency.png)
-
-If you want to modify it, such as to add support for an API such as Microsoft.Graph, click on the three dots, and then choose **Edit dependency**. You can repeat the steps and choose the APIs that you want to grant access to.
-
-You can also see the Active Directory domain on the [Azure portal](https://go.microsoft.com/fwlink/p/?LinkID=525040).
-:::moniker-end
+Follow the process described earlier to [modify and apply your preferred settings](#update-service-settings). Repeat the process as needed to grant project access for necessary APIs.
 
 ## Related content
 
-- [Authentication scenarios for Microsoft Entra ID](/azure/active-directory/develop/authentication-vs-authorization)
-- [Add sign-in with Microsoft to an ASP.NET web app](/azure/active-directory/develop/quickstart-v2-aspnet-webapp)
+- [Authentication scenarios for Microsoft Entra ID](/entra/identity-platform/authentication-vs-authorization)
+- [Add sign-in with Microsoft to an ASP.NET web app](/entra/identity-platform/quickstart-web-app-sign-in)

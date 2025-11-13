@@ -5,8 +5,8 @@ ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - IDebugBreakpointChecksumRequest2::GetChecksum
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:
@@ -85,7 +85,7 @@ bool CDebugProgram::DoChecksumsMatch(CDebugPendingBreakpoint *pPending, CDebugCo
                 CoTaskMemFree(data.pBytes);
             }
             else
-                fRet = true; // checksums not available - user disabed checksums
+                fRet = true; // checksums not available - user disabled checksums
         }
         else
             fRet = true; // we couldn't get checksum from UI - default to past behavior

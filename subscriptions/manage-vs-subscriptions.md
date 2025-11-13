@@ -3,16 +3,17 @@ title: Manage Visual Studio Subscriptions
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 09/16/2024
-ms.topic: conceptual
+ms.date: 08/04/2025
+ms.topic: how-to
 description: Explore management tasks for your Visual Studio subscriptions, including renewal, transfer, profile changes, and setting preferences.
+ms.custom: sfi-image-nochange
 ---
 # Managing subscriptions
 
 The Visual Studio [subscription portal](https://my.visualstudio.com) gives you the ability to manage all your subscriptions and program memberships in a single place. You can make changes to your profile, use all of the benefits included with your subscriptions, and switch between subscriptions quickly and easily.
 
 > [!NOTE]
-> Visual Studio Subscriptions [subscription portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs) and [admin portal](https://manage.visualstudio.com) do not support [GCC High tenants](https://learn.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod), also known as private or government domains. This also applies to subscribers attempting to sign into the Visual Studio IDE. To access Visual Studio subscriptions, your organization will need to have a public tenant. For further assistance creating a public tenant, contact [Azure support](https://azure.microsoft.com/support/create-ticket/). 
+> Visual Studio Subscriptions [subscription portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs) and [admin portal](https://manage.visualstudio.com) don't support [GCC High tenants](https://learn.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod), also known as private or government domains. This also applies to subscribers attempting to sign into the Visual Studio IDE. To access Visual Studio subscriptions, your organization will need to have a public tenant. For further assistance creating a public tenant, contact [Azure support](https://azure.microsoft.com/support/create-ticket/). 
 
 ## Managing multiple subscriptions
 
@@ -47,8 +48,8 @@ On the Benefits page, the subscription in use is displayed in the drop-down list
 
 **Subscriptions acquired through programs:** If you get your subscription through a program, your subscription is tied to your participation in the program. Reach out to your program contacts for additional information.
 
-+ [Imagine](https://imagine.microsoft.com/about)
-+ [Microsoft Partner Network](https://partner.microsoft.com)
++ [Azure Dev Tools for Teaching](https://azureforeducation.microsoft.com/Institutions)
++ [Microsoft AI Cloud Partner Program](https://partner.microsoft.com)
 + [Microsoft Certified Trainer](https://www.microsoft.com/learning/mct-certification.aspx)
 
 ## Transferring subscriptions
@@ -66,7 +67,7 @@ You can easily change the contact information and preferences in your profile.
 
 1. Select your name in the upper right corner of the subscription portal.
 2. Select the **Edit profile** button.
-3. On the **About** tab, you can change your name, email, country/region, profile picture and contact preferences. On the **Preferences** tab, you can select your preferred language, date and time patterns, time zone, and user interface theme.
+3. On the **About** tab, you can change your name, email, country/region, profile picture, and contact preferences. On the **Preferences** tab, you can select your preferred language, date and time patterns, time zone, and user interface theme.
 4. When your changes are done, select **Save**.
 5. Select your browser's **back** button to return to the Benefits page.
 
@@ -109,8 +110,8 @@ A: Depending on the purchasing channel, Microsoft maintains customer data for di
 | DevEssentials | 30 |
 
 > [!NOTE]
-> + If you choose to close your Microsoft Account or Microsoft Entra ID, your personal data will be anonymized immediately.
-> + We will not fully remove all your personal data if you have active subscriptions.
+> + If you choose to close your Microsoft Account or Microsoft Entra ID, your personal data is anonymized immediately.
+> + We won't fully remove all your personal data if you have active subscriptions.
 
 ### Q: How do I leave the Visual Studios Dev Essentials program?
 

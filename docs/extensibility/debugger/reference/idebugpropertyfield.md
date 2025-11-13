@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugPropertyField
 helpviewer_keywords:
 - IDebugPropertyField interface
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---

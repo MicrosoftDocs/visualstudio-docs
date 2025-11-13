@@ -2,7 +2,7 @@
 title: Publishing
 description: This section helps you getting your extension ready to share with your team or the whole world.
 ms.date: 12/01/2021
-ms.topic: conceptual
+ms.topic: concept-article
 author: madskristensen
 ms.author: madsk
 manager: pchapman

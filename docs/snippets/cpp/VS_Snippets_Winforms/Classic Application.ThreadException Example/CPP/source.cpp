@@ -75,7 +75,7 @@ internal:
    private:
       System::Windows::Forms::DialogResult ShowThreadExceptionDialog( Exception^ e )
       {
-         String^ errorMsg = "An error occurred please contact the adminstrator with the following information:\n\n";
+         String^ errorMsg = "An error occurred please contact the administrator with the following information:\n\n";
          errorMsg = String::Concat( errorMsg, e->Message, "\n\nStack Trace:\n", e->StackTrace );
          return MessageBox::Show( errorMsg, "Application Error", MessageBoxButtons::AbortRetryIgnore, MessageBoxIcon::Stop );
       }

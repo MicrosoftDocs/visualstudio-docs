@@ -2,11 +2,11 @@
 title: Event Sources (Visual Studio SDK)
 description: "Learn about the two sources of events in Visual Studio debugging: the debug engine and the Session Debug Manager."
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - debugging [Debugging SDK], event sources
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---

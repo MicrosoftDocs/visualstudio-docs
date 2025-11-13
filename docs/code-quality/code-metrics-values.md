@@ -1,8 +1,8 @@
 ---
 title: How code metrics help identify risks
-ms.date: 11/29/2023
+ms.date: 04/14/2025
 description: Learn about cyclomatic complexity, class coupling, and other Visual Studio code metrics. See how metrics can track development progress and identify risks.
-ms.topic: conceptual
+ms.topic: article
 f1_keywords:
   - vs.codeanalysis.codemetrics.toolwindow
 dev_langs:

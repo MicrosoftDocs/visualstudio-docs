@@ -2,13 +2,14 @@
 title: Managing Project Loading in a Solution
 description: Learn how developers can reduce solution load times and manage project loading behavior by creating a solution load manager.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - solutions, managing project loading
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
+monikerRange: "vs-2019"
 ---
 # Manage project loading in a solution
 

@@ -2,12 +2,12 @@
 title: What&apos;s new in the source control plug-in API 1.3
 description: Learn about what's new in the Source Control Plug-in API version 1.3, which introduces the new functions to provide more advanced control.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - source control plug-ins, what's new in API v1.3
 - what's new [Visual Studio SDK], source control plug-ins
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---
@@ -30,4 +30,4 @@ The Source Control Plug-in API version 1.3 introduces the following new function
 
 ## Related content
 - [Getting Started](../../extensibility/internals/getting-started-with-source-control-plug-ins.md)
-- [What's New in the Source Control Plug-in API Version 1.2](../../extensibility/internals/what-s-new-in-the-source-control-plug-in-api-version-1-2.md)
+- [What's New in the Source Control Plug-in API Version 1.2](/previous-versions/visualstudio/visual-studio-2017/extensibility/internals/what-s-new-in-the-source-control-plug-in-api-version-1-2)

@@ -9,6 +9,9 @@ author: alexwolfmsft
 ms.author: alexwolf
 ms.subservice: deployment
 monikerRange: '>= vs-2022'
+ms.custom:
+  - sfi-ropc-nochange
+  - sfi-image-nochange
 ---
 
 # Tutorial: Deploy an ASP.NET Core app and Database to Azure Container Apps using GitHub Actions
@@ -23,6 +26,9 @@ If you've already installed Visual Studio:
 
 - Install the latest updates in Visual Studio by selecting **Help** > **Check for Updates**.
 - Verify the **ASP.NET and web development** and **Azure development** workloads are installed by selecting **Tools** > **Get Tools and Features**.
+
+> [!WARNING]
+> This article makes use of connection strings. Use caution when managing connections using usernames, passwords, or access keys. These secrets shouldn't be committed to source control or placed in unsecure locations where they might be accessed by unintended users. During local development, you'll generally connect to a local database that doesn't require storing secrets or connecting directly to Azure. During production, [connect to your Azure SQL database using a secretless approach](/azure/azure-sql/database/azure-sql-dotnet-entity-framework-core-quickstart) such as [Microsoft Entra ID](/entra/fundamentals/whatis) when possible.
 
 ## Set up the sample app locally
 
@@ -115,7 +121,7 @@ The publishing features of Visual Studio can handle creating these resources for
         - Select **Ok** to close the container apps environment dialog.
     - Select **Create** to close the original container apps dialog. Visual Studio creates the container app resource in Azure.
 1. Once the resource is created, make sure it's selected in the list of container apps, and then select **Next**.
-1. You'll need to create an Azure container registry to store the published image artifact for your app. Select the green **+** icon on the **Container Registry** screen.
+1. You'll need to create an Azure Container Registry to store the published image artifact for your app. Select the green **+** icon on the **Container Registry** screen.
 
     :::image type="content" source="./media/end-to-end-deployment-entity-framework-core-github-actions/visual-studio-container-registry.png" lightbox="./media/end-to-end-deployment-entity-framework-core-github-actions/visual-studio-container-registry-large.png" alt-text="A screenshot showing how to create a new container registry.":::
 

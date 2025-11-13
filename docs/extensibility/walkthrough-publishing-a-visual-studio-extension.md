@@ -6,10 +6,11 @@ ms.topic: how-to
 helpviewer_keywords:
 - publishing web controls
 - web controls, publishing
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
+ms.custom: sfi-image-nochange
 ---
 # Walkthrough: Publish a Visual Studio extension
 
@@ -227,7 +228,7 @@ You can remove the extension from Visual Studio Marketplace and from your comput
 
 2. In the upper-right hand corner, click **Publish** extensions. Pick the publisher that you used to publish (eg: **TestPublish**). The listing for extensions will appear.
 
-3. Click on extenion menu button → click **Remove**. You are asked to confirm if you want to remove the extension.
+3. Click on extension menu button → click **Remove**. You are asked to confirm if you want to remove the extension.
 
 ![Screenshot that shows Remove menu item.](media/remove-extension.png)
 

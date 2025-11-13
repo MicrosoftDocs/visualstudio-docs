@@ -8,6 +8,7 @@ ms.topic: overview
 ms.date: 12/3/2024
 ms.author: ghogen
 monikerRange: ">=vs-2019"
+ms.custom: sfi-image-nochange
 ---
 
 # Connect to Azure services, gRPC, OpenAPI, and more
@@ -27,7 +28,7 @@ Connected Services includes a collection of tools in Visual Studio that help you
 Get started by right-clicking on the **Connected Services** node in **Solution Explorer** and select **Manage Connected Services**.
 :::moniker-end
 
-:::moniker range="vs-2022"
+:::moniker range=">=vs-2022"
 Get started by right-clicking on the project node, and choosing **Add > Connected Service**. You can also right-click on the **Connected Services** node in **Solution Explorer** and choose a specific service to add.
 :::moniker-end
 

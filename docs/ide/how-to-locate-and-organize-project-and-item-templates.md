@@ -19,7 +19,7 @@ ms.subservice: general-ide
 
 When template files are placed in a known location, Visual Studio can locate the files and make them available for creating new projects and new items. Templates provide a convenient way to create applications, access class libraries, implement unit tests, and set up configuration files.
 
-Installed templates and user templates (*.vstemplate* files) are stored in different locations. You can also customize the locations with Visual Studio options.
+Installed templates and user templates (`.vstemplate` files) are stored in different locations. You can also customize the locations with Visual Studio options.
 
 This article describes the template file locations recognized by Visual Studio.
 
@@ -52,7 +52,7 @@ For example, the following directory has the Visual Basic item templates for Eng
 
 ## Location for user templates
 
-When you add a compressed (*.zip*) file that includes a *.vstemplate* file to the user template directory, Visual Studio makes the template available in the **New project** and **New item** dialogs. By default, user templates are placed in the following locations:
+When you add a compressed (`.zip`) file that includes a `.vstemplate` file to the user template directory, Visual Studio makes the template available in the **New project** and **New item** dialogs. By default, user templates are placed in the following locations:
 
 ::: moniker range="vs-2019"
 

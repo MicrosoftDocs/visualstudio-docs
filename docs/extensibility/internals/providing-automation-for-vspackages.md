@@ -2,12 +2,12 @@
 title: Providing Automation for VSPackages
 description: Learn about how to provide automation for your VSPackages by implementing VSPackage-specific objects and by implementing standard automation objects.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - VSPackages, automation [Visual Studio SDK]
 - automation [Visual Studio SDK], VSPackages
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

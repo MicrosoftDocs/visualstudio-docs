@@ -1,12 +1,13 @@
 ---
 title: Scaling on your main display is set to X%
 description: Learn about the scaling percentage settings message you see with Windows Forms Designer on HDPI monitors, and what to do next.
-ms.date: 07/10/2024
+ms.date: 11/06/2025
 ms.topic: ui-reference
 author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: ui-designers
+monikerRange: "<=visualstudio"
 ---
 # Scaling on your main display is set to X%
 
@@ -39,9 +40,20 @@ Here's what to do about it:
 
 You can stop the notification from appearing by changing a setting.
 
-1. From the main menu, select **Tools** > **Options**.
+:::moniker range="visualstudio"
 
-1. In the **Options** dialog, choose **Windows Forms Designer** > **General**, and set **DPI Scaling Notifications** to **False**.
+1. Open the **Tools** > **Options** pane and expand the **All Settings** > **Windows Forms Designer** > **General** section.
+
+1. Under **High DPI Support**, clear the **DPI scaling notifications** checkbox.
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+1. Open the **Tools** > **Options** dialog and expand the **Windows Forms Designer** > **General** section.
+
+1. Under **High DPI Support**, set the **DPI scaling notifications** option to **False**.
+
+:::moniker-end
 
 ## Next steps
 

@@ -7,6 +7,7 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: data-tools
+ms.custom: sfi-image-nochange
 ---
 
 # Connect to a database in Visual Studio

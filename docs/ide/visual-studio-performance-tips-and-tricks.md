@@ -1,8 +1,8 @@
 ---
 title: Tips to improve performance
 description: Explore tips to improve and optimize certain Visual Studio features that you might not be using to help improve performance.
-ms.date: 05/23/2024
-ms.topic: conceptual
+ms.date: 05/16/2025
+ms.topic: article
 author: Mikejo5000
 ms.author: mikejo
 manager: mijacobs
@@ -32,7 +32,7 @@ Visual Studio notifies you in a yellow bar when automatic document restore is ca
 
 1. Select **Tools** > **Options** to open the **Options** dialog box.
 
-1. On the **Projects and Solution** > **General** page, deselect **Reopen documents on solution load**.
+1. On the **Projects and Solutions** > **General** page, deselect **Reopen documents on solution load**.
 
 If you disable automatic file restore, a quick way to navigate to files you want to open is by using one of the [Go To](../ide/go-to.md) commands:
 
@@ -66,7 +66,7 @@ If you're typically running low on memory during debugging sessions, you can opt
 
     It's recommended that you disable CPU profiling after use. This feature can consume large amounts of resources. Once CPU profiling is enabled, this state is persisted across subsequent debug sessions, so it’s worth explicitly turning it off when done. You may save some resources by disabling the diagnostic tools while debugging if you don't need the provided features.
 
-    To disable the **Diagnostic Tools**, start a debugging session, select **Tools** > **Options** > **Debugging** > **General**, and then deselect the **Enable Diagnostic Tools while debugging** option.
+    To disable the **Diagnostic Tools**, select **Tools** > **Options** > **Debugging** > **General**, and then deselect the **Enable Diagnostic Tools while debugging** option.
 
     For more information, see [Profiling tools](../profiling/profiling-feature-tour.md).
 
@@ -127,7 +127,7 @@ For information about .NET Compiler Platform ("Roslyn") performance consideratio
 
 - **Enable commit graph in Git tooling**
 
-    [New in Visual Studio 2022 version 17.2](https://aka.ms/vs-2022-17-2-release): If you're experiencing delays when you view your Git repository or branch history in Visual Studio, we've integrated a "commit graph" feature that can help. To use commit graph, make sure you [download and install Visual Studio 2022](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta). To learn more about commit graph, see the [Supercharge your Git experience in Visual Studio](https://devblogs.microsoft.com/visualstudio/supercharge-your-git-experience-in-vs/) blog post.
+    [New in Visual Studio 2022 version 17.2](https://aka.ms/vs-2022-17-2-release): If you're experiencing delays when you view your Git repository or branch history in Visual Studio, we've integrated a "commit graph" feature that can help. To use commit graph, make sure you [download and install Visual Studio 2022](https://aka.ms/vs/download/?cid=learn-onpage-download-cta). To learn more about commit graph, see the [Supercharge your Git experience in Visual Studio](https://devblogs.microsoft.com/visualstudio/supercharge-your-git-experience-in-vs/) blog post.
 
 ## Force a garbage collection
 

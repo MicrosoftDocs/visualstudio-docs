@@ -1,14 +1,15 @@
 ---
 title: AI-assistance for developers in Visual Studio
 description: Learn about the AI-assisted development tools in Visual Studio, such as GitHub Copilot Completions and Chat, and IntelliCode, and how they can help you write code more efficiently.
-ms.date: 2/5/2025
+ms.date: 8/30/2025
+ms.update-cycle: 180-days
 ms.topic: overview 
 author: anandmeg
 ms.author: meghaanand
 ms.manager: mijacobs
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
-monikerRange: vs-2022
+monikerRange: ">=vs-2022"
 ---
 # AI-assisted development in Visual Studio
 
@@ -56,9 +57,9 @@ GitHub Copilot and IntelliCode assist you in writing code faster and with greate
 
 ### GitHub Copilot in Visual Studio
 
-[GitHub Copilot in the Visual Studio IDE](visual-studio-github-copilot-install-and-states.md) acts as an AI pair programmer helping you be more productive and efficient when writing code.
+[GitHub Copilot in the Visual Studio IDE](visual-studio-github-copilot-get-started.md) acts as an AI pair programmer helping you be more productive and efficient when writing code. You need Visual Studio 2022 version 17.8 or later to use Copilot in Visual Studio. 
 
-- **[GitHub Copilot Completions in Visual Studio](visual-studio-github-copilot-extension.md)**, adds enhanced AI-assistance to the development process by generating whole lines or blocks of code based on the context provided by you. It leverages AI models trained on billions of lines of open-source code to provide autocomplete-style code suggestions as you code, in real-time, right in the editor. It helps you write code faster and with less work. 
+- **[Completions](visual-studio-github-copilot-extension.md)** adds enhanced AI-assistance to the development process by generating whole lines or blocks of code based on the context provided by you. It leverages AI models trained on billions of lines of open-source code to provide autocomplete-style code suggestions as you code, in real-time, right in the editor. It helps you write code faster and with less work. 
 
     You can get suggestions from GitHub Copilot in the IDE either by starting to write the code you want to use, or by writing a function signature or a natural language comment in your code file describing what you want the code to do. You can choose to use the suggested code by accepting it.
 
@@ -66,7 +67,7 @@ GitHub Copilot and IntelliCode assist you in writing code faster and with greate
 
     :::image type="content" source="media/vs-2022/github-copilot-completions-visual-studio.gif" alt-text="Animated screenshot that shows the code completion capabilities of the GitHub Copilot extension." lightbox="media/vs-2022/github-copilot-completions-visual-studio.gif":::
 
-    Get started with [GitHub Copilot Completions in Visual Studio](visual-studio-github-copilot-extension.md#using-github-copilot-for-code-completions-and-suggestions). Note that it requires Visual Studio 2022 17.8 or later. 
+    Get started with [GitHub Copilot Completions in Visual Studio](visual-studio-github-copilot-extension.md#using-github-copilot-for-code-completions-and-suggestions).
 
 - **[GitHub Copilot Chat in Visual Studio](visual-studio-github-copilot-chat.md)** is a fully integrated AI-powered chat experience from GitHub Copilot right within the Visual Studio IDE. It enables you to interact with GitHub Copilot using a chat interface within the IDE. By asking coding-related questions in natural language, you can receive context-specific code suggestions, get an in-depth analysis and explanation of how a code block works, generate unit tests, find issues and get proposed fixes. It enables you to get coding information and support without leaving the IDE, helping you make informed decisions and write better code.  
   
@@ -74,8 +75,8 @@ GitHub Copilot and IntelliCode assist you in writing code faster and with greate
 
   :::image type="content" source="media/vs-2022/copilot-chat-visual-studio.gif" alt-text="Animated screenshot that shows the capabilities of the GitHub Copilot Chat extension." lightbox="media/vs-2022/copilot-chat-visual-studio.gif":::
 
-  Get started with [GitHub Copilot Chat in Visual Studio](visual-studio-github-copilot-chat.md#use-copilot-chat-in-visual-studio). Note that it requires Visual Studio 2022 17.8 or later.
-
+  Get started with [Copilot Chat in Visual Studio](visual-studio-github-copilot-chat.md#use-copilot-chat-in-visual-studio).
+  
 ### IntelliCode in Visual Studio
 
 IntelliCode uses the context of your code combined with patterns it has learned from thousands of public open-source code to provide AI-driven enhancements to [Intellisense](using-intellisense.md) with [suggestions](/visualstudio/intellicode/intellicode-suggestions), [context-aware code completions](/visualstudio/intellicode/intellicode-visual-studio#context-aware-code-completions), [whole line completions](/visualstudio/intellicode/visual-studio-whole-line-completions), and [API usage examples](https://devblogs.microsoft.com/visualstudio/intellicode-api-usage-examples). By using artificial intelligence, IntelliCode uses your current code context and patterns to dynamically rank suggestions at the top of the completion list with a star icon next to them, helping you write accurate code faster.
@@ -95,7 +96,7 @@ The following table compares the capabilities of GitHub Copilot (and GitHub Copi
 
 | **AI-assistance feature** | **GitHub Copilot** | **IntelliCode** |
 |---------------------------|:--------------------:|:-----------------:|
-| Available as |[Built-in by default in all workloads](visual-studio-github-copilot-install-and-states.md#install-using-the-visual-studio-installer) & available through the Visual Studio Installer in Visual Studio version 17.10 and later <br/>| Built-in by default in most [workloads](../install/modify-visual-studio.md#change-workloads-or-individual-components) & available through the Visual Studio Installer |
+| Available as |[Built-in by default in all workloads](visual-studio-github-copilot-install-and-states.md#install-copilot-using-the-visual-studio-installer) & available through the Visual Studio Installer in Visual Studio version 17.10 and later <br/>| Built-in by default in most [workloads](../install/modify-visual-studio.md#change-workloads-or-individual-components) & available through the Visual Studio Installer |
 | Subscription-based | **Yes** <br/>[Learn more](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot)| No |
 | User interface   | Inline <br/>Chat window | Inline |
 | Context-aware AI-assisted [IntelliSense](using-intellisense.md) | **Yes** <br/>[Learn more](visual-studio-github-copilot-extension.md#exploring-github-copilot) | **Yes** <br/>[Learn more](#intellicode-in-visual-studio) |
@@ -105,7 +106,7 @@ The following table compares the capabilities of GitHub Copilot (and GitHub Copi
 | Convert Natural language comments to code| **Yes** <br/>[Learn more](visual-studio-github-copilot-extension.md#how-github-copilot-works) | No |
 | Solve code problems with Natural language driven dev assistance | **Yes**, with Copilot Chat. <br/>[Learn more](visual-studio-github-copilot-chat.md#use-copilot-chat-in-visual-studio)| No |
 | Code debugging | **Yes**, with Copilot Chat. <br/>[Learn more](../debugger/debug-with-copilot.md)| No |
-| Measure app performance through profiling | **Yes**, with Copilot Chat. <br/>[Learn more](https://devblogs.microsoft.com/visualstudio/simplified-code-refinement-and-debugging-with-github-copilot-chat/#cpu-usage-auto-insights-in-the-profiler) | No |
+| Measure app performance through profiling | **Yes** <br/>[Learn more](../profiling/profile-with-copilot-agent.md) | No |
 | API usage examples | No | **Yes** <br/>[Learn more](https://devblogs.microsoft.com/visualstudio/intellicode-api-usage-examples/)|
 | Languages supported | Supports several programming languages and frameworks, including but not limited to: C#, C++, Python, JavaScript, and TypeScript| C#, XAML, C++, JavaScript, TypeScript, Visual Basic |
 

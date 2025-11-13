@@ -81,7 +81,7 @@ private:
       none->Location = Point(10,170);
       both->Location = Point(10,110);
       
-      // For horizonal scroll bars, the Multiline property must
+      // For horizontal scroll bars, the Multiline property must
       // be true and the WordWrap property must be false.
       // Increase the size of the Height property to ensure the 
       // scroll bar is visible.

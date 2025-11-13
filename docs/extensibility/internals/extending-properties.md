@@ -2,11 +2,11 @@
 title: Extending Properties
 description: Learn about the interfaces that you must implement and call to extend the list of properties in the Visual Studio Properties window.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - Properties window, providing support
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---
@@ -48,4 +48,4 @@ The Visual Studio **Properties** window is a universal property browser for COM 
 
 - [Solutions and projects](../../ide/solutions-and-projects-in-visual-studio.md) explains how Visual Studio efficiently manages the items such as references, data connections, folders, and files that are required by your development effort through solutions and projects.
 
-- [Extend other parts of Visual Studio](../../extensibility/extending-other-parts-of-visual-studio.md) explains how to use Visual Studio services to create UI elements that match the rest of Visual Studio.
+- [Extend other parts of Visual Studio](/previous-versions/visualstudio/visual-studio-2017/extensibility/extending-other-parts-of-visual-studio) explains how to use Visual Studio services to create UI elements that match the rest of Visual Studio.

@@ -39,7 +39,7 @@ Removes the specified directories and all of its files and subdirectories.
  The following example removes the directories specified by the `OutputDirectory` and `DebugDirectory` properties. These paths are treated as relative to the project directory.
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2005">
+<Project>
 
     <PropertyGroup>
         <OutputDirectory>\Output\</OutputDirectory>

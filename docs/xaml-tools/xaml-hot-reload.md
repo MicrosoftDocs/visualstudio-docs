@@ -1,8 +1,8 @@
 ---
 title: "XAML Hot Reload for WPF and UWP apps"
 description: Modify XAML code in running .NET MAUI, WinUI 3, Windows Presentation Foundation (WPF), or Universal Windows Platform (UWP) apps with edit and continue features in XAML Hot Reload.
-ms.date: 08/27/2024
-ms.topic: conceptual
+ms.date: 04/24/2025
+ms.topic: concept-article
 helpviewer_keywords:
   - "xaml edit and continue"
   - "xaml hot reload"
@@ -19,19 +19,21 @@ With XAML Hot Reload, you can incrementally build and test XAML code for your .N
 > [!TIP]
 > If you've arrived here by way of the XAML Hot Reload user interface (UI), welcome! You're in the right place to learn more about XAML Hot Reload.
 >
-> But, if you're here for help troubleshooting XAML Hot Reload, see [Troubleshooting XAML Hot Reload](xaml-hot-reload-troubleshooting.md) instead.
+> But, if you're here for help troubleshooting XAML Hot Reload, see [Troubleshooting XAML Hot Reload](/troubleshoot/developer/visualstudio/tools-utilities/xaml-hot-reload-troubleshooting) instead.
 
 ## Where to get XAML Hot Reload
 
-Visual Studio XAML Hot Reload is currently supported only when you're running an application in **Visual Studio** -or- **Blend for Visual Studio** (if supported by the framework) with the debugger attached (**F5** or **Start debugging**).
+Visual Studio XAML Hot Reload is supported when you're running an application in **Visual Studio** -or- **Blend for Visual Studio** (if supported by the framework) with the debugger attached (**F5** or **Start debugging**).
 
-You can't enable this experience by using [Attach to process](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md) unless you [manually set an environment variable](xaml-hot-reload-troubleshooting.md#verify-that-you-use-start-debugging-rather-than-attach-to-process).
+Starting in Visual Studio 2022 version 17.14 Preview 2, XAML Hot Reload and [XAML Live Preview](../xaml-tools/xaml-live-preview.md) are available at design-time and not just during a debugging session.
 
-## Applications for XAML Hot Reload
+You can't enable this experience by using [Attach to process](../debugger/attach-to-running-processes-with-the-visual-studio-debugger.md) unless you [manually set an environment variable](/troubleshoot/developer/visualstudio/tools-utilities/xaml-hot-reload-troubleshooting#verify-that-you-use-start-debugging-rather-than-attach-to-process).
+
+## Scenarios for XAML Hot Reload
 
 XAML Hot Reload is especially helpful in these scenarios:
 
-* Fixing UI problems found in your XAML code after the app was started in debug mode.
+* Fixing UI problems found in your XAML code.
 
 * Building a new UI component for an app that is under development, while taking advantage of your app's runtime context.
 
@@ -54,7 +56,7 @@ The following animation shows an instance of using Live Visual Tree to open some
 
 ## Related content
 
-* [Troubleshooting XAML Hot Reload](xaml-hot-reload-troubleshooting.md)
+* [Troubleshooting XAML Hot Reload](/troubleshoot/developer/visualstudio/tools-utilities/xaml-hot-reload-troubleshooting)
 * [XAML Hot Reload for .NET MAUI](/dotnet/maui/xaml/hot-reload)
 * [Edit and Continue (Visual C#)](../debugger/edit-and-continue-visual-csharp.md)
 * [XAML data binding diagnostics](xaml-data-binding-diagnostics.md)

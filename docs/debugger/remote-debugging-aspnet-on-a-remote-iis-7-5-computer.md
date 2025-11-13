@@ -2,11 +2,12 @@
 title: "Remote debug ASP.NET on an IIS computer"
 description: Learn how to set up and configure a Visual Studio ASP.NET MVC 4.8 application, deploy it to IIS, and attach the remote debugger from Visual Studio. 
 ms.date: 04/23/2024
-ms.topic: "conceptual"
+ms.topic: article
 author: "mikejo5000"
 ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
+ms.custom: sfi-image-nochange
 ---
 # Remote Debug ASP.NET on a Remote IIS Computer
 
@@ -278,7 +279,7 @@ Starting in Visual Studio 2022 version 17.10 Preview 2, the Attach to Process di
 
    The breakpoint should be hit in Visual Studio.
 
-   If you're unable to attach or hit the breakpoint, see [Troubleshoot remote debugging](../debugger/troubleshooting-remote-debugging.md).
+   If you're unable to attach or hit the breakpoint, see [Troubleshoot remote debugging](/troubleshoot/developer/visualstudio/debuggers/troubleshooting-remote-debugging).
 
 ## Troubleshooting IIS deployment
 

@@ -1,11 +1,11 @@
 ---
 title: Subscriptions admin support solutions 
 description: List of INCLUDEs files for Visual Studio subscriptions admin support widget content
-ms.topic: conceptual
+ms.topic: article
 robots: noindex, nofollow
 author: joseb-rdc 
 ms.author: amast 
-ms.date: 08/13/2021
+ms.date: 07/22/2025
 ---
 
 # Visual Studio subscriptions admin support widget content INCLUDES files
@@ -45,6 +45,8 @@ ms.date: 08/13/2021
 [!INCLUDE [admin-update-subscriber-sign-in-email](managing-subscribers/includes/admin-update-subscriber-sign-in-email.md)]
 
 [!INCLUDE [admin-help-transferring-subscribers-after-renewal](managing-subscribers/includes/admin-help-transferring-subscribers-after-renewal.md)]
+
+[!INCLUDE [admin-remove-overallocation-cap](managing-subscribers/includes/admin-remove-overallocation-cap.md)]
 
 ## Signing in
 

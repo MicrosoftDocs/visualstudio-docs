@@ -2,11 +2,11 @@
 title: Debugger Contexts
 description: "Learn how the Visual Studio debug engine operates within distinct contexts: code context, documentation context or position, and expression evaluation context."
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - debugging [Debugging SDK], contexts
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---

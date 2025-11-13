@@ -2,7 +2,7 @@
 title: Microsoft IntelliTest Developer Test Tool
 description: Learn how IntelliTest uses an automated and transparent testing approach, IntelliTest can generate a candidate suite of tests for your .NET code.
 ms.date: 12/04/2023
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - IntelliTest, Visual Studio IntelliTest developer testing tool
 ms.author: mikejo
@@ -15,9 +15,12 @@ author: mikejo5000
 IntelliTest enables you to find bugs early, and reduces test maintenance costs. Using an automated and transparent testing approach, IntelliTest can generate a candidate suite of tests for your .NET code. Test suite generation can be further guided by
 *correctness properties* you specify. IntelliTest will even evolve the test suite automatically as the code under test evolves.
 
-> [!NOTE]
-> IntelliTest is available in Enterprise edition only. It is supported for C# code that targets the .NET Framework. For .NET 6 support with IntelliTest, install the Preview version of Visual Studio Enterprise and see the [announcement
-](https://devblogs.microsoft.com/visualstudio/intellitest-simplifies-writing-and-maintaining-unit-tests/).
+::: moniker range="visualstudio"
+[!INCLUDE [intellitest-deprecation](../includes/intellitest-deprecation.md)]
+::: moniker-end
+::: moniker range="vs-2022"
+[!INCLUDE [intellitest-visual-studio-2022](../includes/intellitest-visual-studio-2022.md)]
+::: moniker-end
 
 **Characterization tests**
 IntelliTest enables you to determine the behavior of code in terms of a suite of traditional unit tests. Such a test suite can be used as a regression suite, forming the basis for tackling the complexity associated with refactoring legacy or unfamiliar code.

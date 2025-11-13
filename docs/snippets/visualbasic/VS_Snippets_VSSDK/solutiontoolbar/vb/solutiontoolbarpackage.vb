@@ -23,7 +23,7 @@ Namespace Microsoft.SolutionToolbar
 	''' </summary>
 	' This attribute tells the PkgDef creation utility (CreatePkgDef.exe) that this class is
 	' a package.
-	' This attribute is used to register the informations needed to show the this package
+	' This attribute is used to register the information needed to show the this package
 	' in the Help/About dialog of Visual Studio.
 	' This attribute is needed to let the shell know that this package exposes some menus.
 	<PackageRegistration(UseManagedResourcesOnly := True), InstalledProductRegistration("#110", "#112", "1.0", IconResourceID := 400), ProvideMenuResource("Menus.ctmenu", 1), Guid(GuidList.guidSolutionToolbarPkgString)> _
@@ -43,7 +43,7 @@ Namespace Microsoft.SolutionToolbar
 
 
 		'///////////////////////////////////////////////////////////////////////////
-		' Overriden Package Implementation
+		' Overridden Package Implementation
 		#Region "Package Members"
 
 		''' <summary>

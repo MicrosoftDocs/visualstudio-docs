@@ -4,7 +4,7 @@ description: Learn about the several ways to test DLL code, depending on whether
 ms.date: 02/16/2021
 ms.topic: how-to
 ms.author: twhitney
-manager: markl
+manager: coxford
 author: tylermsft
 ---
 # Write unit tests for C++ DLLs in Visual Studio

@@ -2,7 +2,7 @@
 title: "How ClickOnce Performs Application Updates"
 description: Learn how ClickOnce uses file version information to decide whether to update the application. ClickOnce uses file patching to avoid redundancy in downloading.
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"

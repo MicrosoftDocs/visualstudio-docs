@@ -2,7 +2,7 @@
 title: Security of Text Templates
 description: Learn about security and text templates, including topics like arbitrary code and malicious directive processors.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - text templates, security
 author: mgoertz-msft

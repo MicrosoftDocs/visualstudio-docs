@@ -1,9 +1,9 @@
 ---
 title: Understand build configurations
 description: Discover how to work with build configurations when you need to build your projects with different settings in Visual Studio.
-ms.date: 11/14/2024
+ms.date: 8/7/2025
 ms.subservice: compile-build
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
 - SolutionProperties.ActiveConfig
 - vs.build.newprojectconfiguration
@@ -45,7 +45,7 @@ To create, select, modify, or delete a configuration, you can use the **Configur
 ![Screenshot of Configuration Manager dialog.](media/understanding-build-configurations/config-manager.png)
 
 > [!NOTE]
-> If you can't find solution configuration settings on the toolbar and can't access the **Configuration Manager**, it might be because you're using Visual Basic development settings. For more information, see [How to: Manage configurations with Visual Basic developer settings applied](../ide/how-to-manage-build-configurations-with-visual-basic-developer-settings-applied.md).
+> If you can't find solution configuration settings on the toolbar and can't access the **Configuration Manager**, it might be because you're using Visual Basic development settings. For more information, see [How to: Manage configurations with Visual Basic developer settings applied](/visualstudio/ide/understanding-build-configurations).
 
 By default, **Debug** and **Release** configurations are included in projects that are created by using Visual Studio templates. A **Debug** configuration supports the debugging of an app, and a **Release** configuration builds a version of the app that can be deployed. For more information, see [How to: Set debug and release configurations](../debugger/how-to-set-debug-and-release-configurations.md). You can also create custom solution configurations and project configurations. For more information, see [How to: Create and edit configurations](../ide/how-to-create-and-edit-configurations.md).
 
@@ -67,8 +67,10 @@ The configuration and platform that a project targets are used together to speci
 ![Screenshot of project designer configurations.](media/understanding-build-configurations/project-designer-configuration.png)
 :::moniker-end
 :::moniker range=">=vs-2022"
-![Screenshot of project designer configurations.](media/vs-2022/build-configuration-project-designer-configuration.png)
+![Screenshot of project designer configurations.](media/vs-2022/understanding-build-configurations/project-designer-build-configurations.png)
 :::moniker-end
+
+The predefined constants for each configuration are shown underneath the textbox where you can enter your own. These predefined constants are defined by the SDK your project uses. To see where these properties are defined, you can look for how the MSBuild property `DefineConstants` is defined and modified in the .NET SDK installation folder where `.props` and `.targets` files are located. The SDKs provide MSBuild properties that you can set in the project file to disable the predefined definitions; for example, see [DisableImplicitFrameworkDefines](/dotnet/core/project-sdk/msbuild-props#disableimplicitframeworkdefines).
 
 ## How Visual Studio associates project configurations with solution configurations
 

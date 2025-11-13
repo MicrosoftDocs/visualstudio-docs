@@ -1,3 +1,12 @@
+---
+title: Install Web Deploy with hosting server
+author: ghogen
+description: Learn how to install Web Deploy on IIS
+ms.author: ghogen
+ms.date: 10/3/2025
+ms.subservice: deployment
+ms.topic: include
+---
 Web Deploy provides additional configuration features that enable the creation of the publish settings file from the UI.
 
 > [!NOTE]
@@ -21,7 +30,7 @@ Web Deploy provides additional configuration features that enable the creation o
 
     ![Screenshot showing Web Deploy 4.0 components](../../deployment/media/tutorial-iis-web-deploy-40-setup.png)
 
-1. (Optional) Verify that Web Deploy is running correctly by opening  **Control Panel > System and Security > Administrative Tools > Services**, and then make sure that:
+1. (Optional) Verify that Web Deploy is running correctly by opening  **Control Panel > System and Security > Windows Tools > Services**, and then make sure that:
 
     * **Web Deployment Agent Service** is running (the service name is different in older versions).
 

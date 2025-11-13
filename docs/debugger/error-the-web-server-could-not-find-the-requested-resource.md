@@ -28,4 +28,4 @@ There are numerous additional possible causes of this error. A few of the most c
  For more information on troubleshooting IIS, see [IIS Management and Administration](/iis/manage/provisioning-and-managing-iis/iis-management-and-administration).
 
 ## See also
-- [Error: The Web Server Has Been Locked Down and Is Blocking the DEBUG Verb](../debugger/error-the-web-server-has-been-locked-down-and-is-blocking-the-debug-verb.md)
+- [Error: The Web Server Has Been Locked Down and Is Blocking the DEBUG Verb](/previous-versions/visualstudio/visual-studio-2017/debugger/error-the-web-server-has-been-locked-down-and-is-blocking-the-debug-verb)

@@ -2,12 +2,12 @@
 title: 'Test Area 7: Share'
 description: This source control test area covers sharing items between locations by using the Share command for your Visual Studio source control plug-in.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - source control [Visual Studio SDK], sharing items
 - source control plug-ins, sharing items
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

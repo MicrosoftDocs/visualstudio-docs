@@ -29,7 +29,7 @@ HRESULT isFastLinkPDB(
 
  `pfFastLinkPDB`
 
-[out] Returns a Boolean indcating if the debug information was build with `/DEBUG:fastlink` or not.
+[out] Returns a Boolean indicating if the debug information was build with `/DEBUG:fastlink` or not.
 
 ## Return Value
 
@@ -37,7 +37,7 @@ HRESULT isFastLinkPDB(
 
 ## Remarks
 
-If debug information was compiled with `/DEBUG:fastlink` then not all of the inforation is contained within the `.PDB` and in order fo the debugger to fully work, it must access the debug inforation contained within oms of the intermediate build files (like `.OBJ`, `.LIB`, and `.PCH` files). Fastlink PDBs are no longer recommended.
+If debug information was compiled with `/DEBUG:fastlink` then not all of the information is contained within the `.PDB` and in order fo the debugger to fully work, it must access the debug information contained within oms of the intermediate build files (like `.OBJ`, `.LIB`, and `.PCH` files). Fastlink PDBs are no longer recommended.
 
 ## See also
 

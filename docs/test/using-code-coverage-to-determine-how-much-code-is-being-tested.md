@@ -1,8 +1,8 @@
 ---
 title: Determine code testing coverage
 description: Learn how to use the code coverage feature of Visual Studio to determine what proportion of your project code is being tested by coded tests.
-ms.date: 12/13/2024
-ms.topic: conceptual
+ms.date: 09/09/2025
+ms.topic: how-to
 helpviewer_keywords:
 - code coverage
 dev_langs:
@@ -24,10 +24,14 @@ Code coverage option is available under the Test menu when you run test methods 
 
 ## Requirements
 
-The code coverage feature is available only in Visual Studio Enterprise edition.
-
+::: moniker range=">=visualstudio"
 >[!NOTE]
-> For .NET code coverage, you can alternatively use the command-line tool, [dotnet-coverage](/dotnet/core/additional-tools/dotnet-coverage).
+> Code coverage is available in Visual Studio Enterprise, Community, and Professional editions. In Visual Studio 2022 and previous versions, the code coverage feature was limited to Visual Studio Enterprise edition.
+::: moniker-end
+::: moniker range="<=vs-2022"
+>[!NOTE]
+> Code coverage is available only with Visual Studio Enterprise. For .NET code coverage, you can alternatively use the command-line tool, [dotnet-coverage](/dotnet/core/additional-tools/dotnet-coverage).
+::: moniker-end
 
 ## Analyze code coverage
 
@@ -72,7 +76,7 @@ The code coverage feature is available only in Visual Studio Enterprise edition.
   > - If you're working with unmanaged (native) code, use a debug build.
   > - Generate *.pdb* (symbol) files for each assembly.
 
-If you don't get the results you expect, see [Troubleshoot code coverage](../test/troubleshooting-code-coverage.md).
+If you don't get the results you expect, see [Troubleshoot code coverage](/troubleshoot/developer/visualstudio/ide/troubleshooting-code-coverage).
 
 Don't forget to run code coverage again after updating your code. Coverage results and code coloring aren't automatically updated after you modify your code or when you run tests.
 
@@ -330,10 +334,10 @@ To run tests from the command line, use *vstest.console.exe* utility. Code cover
 
 ## Troubleshoot
 
-If you don't see code coverage results, the [Troubleshoot code coverage](../test/troubleshooting-code-coverage.md) article might help you.
+If you don't see code coverage results, the [Troubleshoot code coverage](/troubleshoot/developer/visualstudio/ide/troubleshooting-code-coverage) article might help you.
 
 ## Related content
 
 - [Customize code coverage analysis](../test/customizing-code-coverage-analysis.md)
-- [Troubleshoot code coverage](../test/troubleshooting-code-coverage.md)
+- [Troubleshoot code coverage](/troubleshoot/developer/visualstudio/ide/troubleshooting-code-coverage)
 - [Unit test your code](../test/unit-test-your-code.md)

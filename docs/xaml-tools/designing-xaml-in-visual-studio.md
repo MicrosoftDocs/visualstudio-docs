@@ -3,7 +3,7 @@ title: Design XAML in Visual Studio and design with Blend for Visual Studio
 titleSuffix: ''
 description: Explore the capabilities of the visual design tools in Visual Studio and Blend for Visual Studio for building UI and experiences in XAML.
 ms.date: 02/28/2020
-ms.topic: conceptual
+ms.topic: article
 author: maddymontaquila
 ms.author: maleger
 manager: mijacobs

@@ -12,7 +12,7 @@
 // each rectangle is negative, so the bar progresses upward. The size adjustments
 // ensure that the chunks don't paint over the frame.
 
-// For simplicity, this sampel does not handle run-time switching of visual styles.
+// For simplicity, this sample does not handle run-time switching of visual styles.
 
 //<Snippet0>
 #using <System.Drawing.dll>

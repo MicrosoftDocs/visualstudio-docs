@@ -2,15 +2,15 @@
 title: What is the Visual Studio SDK?
 description: Explore the Visual Studio SDK to add features and extend options in the Visual Studio IDE, including menus, commands, and IntelliSense.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 f1_keywords:
 - VSSDK.v90.StartPage
 helpviewer_keywords:
 - Visual Studio SDK
 - VSSDK (see Visual Studio SDK)
 - Visual Studio, SDK
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---
@@ -38,7 +38,7 @@ The Visual Studio SDK helps you extend Visual Studio features or integrate new f
  The Visual Studio SDK is an optional feature in Visual Studio setup. You can also install the VSSDK later on. For more information, see [Install the Visual Studio SDK](../extensibility/installing-the-visual-studio-sdk.md).
 
 ## What's new in the Visual Studio SDK
- The Visual Studio SDK has some new features such as the synchronously autoloaded extensions warning and VSIX v3 format as well as breaking changes, which may require you to update your extension. For more information, see [What's new in the Visual Studio 2019 SDK](../extensibility/whats-new-visual-studio-2019-sdk.md) and [What's new in the Visual Studio 2017 SDK](../extensibility/what-s-new-in-the-visual-studio-2017-sdk.md).
+ The Visual Studio SDK has some new features such as the synchronously autoloaded extensions warning and VSIX v3 format as well as breaking changes, which may require you to update your extension. For more information, see [What's new in the Visual Studio 2019 SDK](../extensibility/whats-new-visual-studio-2019-sdk.md) and [What's new in the Visual Studio 2017 SDK](/previous-versions/visualstudio/visual-studio-2017/extensibility/what-s-new-in-the-visual-studio-2017-sdk).
 
 ## Visual Studio user experience guidelines
  Get great tips for designing the UI for your extension in [Visual Studio user experience guidelines](../extensibility/ux-guidelines/visual-studio-user-experience-guidelines.md).

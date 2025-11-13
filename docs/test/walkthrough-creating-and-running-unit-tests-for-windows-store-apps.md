@@ -2,7 +2,7 @@
 title: Create and run unit tests for Universal Windows Platform (UWP) apps
 description: Learn about unit testing UWP apps in Visual Studio, and use test-driven development to create and unit test a C# UWP app.
 ms.date: 01/17/2023
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - unit tests, creating
 - unit tests
@@ -31,7 +31,9 @@ The following procedures describe how to create and run unit test projects for U
 
 1. On the **Create a new project** page, enter *unit test* in the Search box. The template list filters to unit testing projects.
 
-1. Select the **Unit Test App (Universal Windows)** template for either C# or Visual Basic, and then select **Next**.
+1. Select the correct UWP unit testing template for either C# or Visual Basic, and then select **Next**.
+
+   Starting in Visual Studio 2022 version 17.14, the recommended unit testing template for C# and .NET 9 is **UWP Unit Test App** and targets Native AOT. The older UWP templates are named **UWP Unit Test App (.NET Native)** and **Unit Test App (Universal Windows)**.
 
    :::image type="content" source="media/vs-2022/new-uwp-unit-test-app.png" alt-text="Screenshot that shows creating a new UWP unit test app in Visual Studio.":::
 

@@ -74,7 +74,7 @@ Properties are passed to tasks as attributes. Within the task, an MSBuild proper
 
 Items are passed to tasks as <xref:Microsoft.Build.Framework.ITaskItem> objects. Within the task, <xref:Microsoft.Build.Framework.ITaskItem.ItemSpec%2A> represents the value of the item and <xref:Microsoft.Build.Framework.ITaskItem.GetMetadata%2A> retrieves its metadata.
 
-The item list of an item type can be passed as an array of `ITaskItem` objects. Beginning with the .NET Framework 3.5, items can be removed from an item list in a target by using the `Remove` attribute. Because items can be removed from an item list, it is possible for an item type to have zero items. If an item list is passed to a task, the code in the task should check for this possibility.
+The item list of an item type can be passed as an array of `ITaskItem` objects. Items can be removed from an item list in a target by using the `Remove` attribute. Because items can be removed from an item list, it is possible for an item type to have zero items. If an item list is passed to a task, the code in the task should check for this possibility.
 
 ## Property and item evaluation order
 

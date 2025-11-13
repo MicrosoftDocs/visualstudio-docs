@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with React"
 description: Create an ASP.NET Core project to serve as an API backend and a React project to provide the user interface in Visual Studio.
-ms.date: 11/06/2024
+ms.date: 04/09/2025
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -11,16 +11,17 @@ ms.subservice: javascript-typescript
 dev_langs:
   - JavaScript
 monikerRange: '>= vs-2022'
+ms.update-cycle: 90-days
 ---
 # Tutorial: Create an ASP.NET Core app with React in Visual Studio
 
 In this article, you learn how to build an ASP.NET Core project to act as an API backend and a React project to act as the UI.
 
-Currently, Visual Studio includes ASP.NET Core Single Page Application (SPA) templates that support Angular and React. The templates provide a built-in Client App folder in your ASP.NET Core projects that contains the base files and folders of each framework.
+Currently, Visual Studio includes ASP.NET Core Single Page Application (SPA) templates that support Angular and React. The templates provide a built-in client app folder in your ASP.NET Core solution that contains the base files and folders of each framework.
 
 You can use the method described in this article to create ASP.NET Core Single Page Applications that:
 
-- Put the client app in a separate project, outside from the ASP.NET Core project
+- Put the client app in a separate project, outside of the ASP.NET Core project
 - Create the client project based on the framework CLI installed on your computer
 
 > [!NOTE]
@@ -28,11 +29,11 @@ You can use the method described in this article to create ASP.NET Core Single P
 
 ## Prerequisites
 
-- Visual Studio 2022 version 17.11 or later with the **ASP.NET and web development** workload installed. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
+- Visual Studio 2022 version 17.11 or later with the **ASP.NET and web development** workload installed. Go to the [Visual Studio downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) page to install it for free.
   If you need to install the workload and already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **ASP.NET and web development** workload, then choose **Modify**.
 - npm ([`https://www.npmjs.com/`](https://www.npmjs.com/package/npm)), which is included with Node.js
 
-## Create the frontend app
+## Create the app
 
 1. In the Start window, select **Create a new project**. <!-- Avoid parenthetical clauses. https://review.learn.microsoft.com/en-us/help/contribute/localization-mt-guidance?branch=main-->
 
@@ -55,8 +56,7 @@ You can use the method described in this article to create ASP.NET Core Single P
    Compared to the [standalone React template](../javascript/tutorial-create-react-app.md), you see some new and modified files for integration with ASP.NET Core:
 
    - vite.config.js
-   - App.js (modified)
-   - App.test.js (modified)
+   - App.jsx (modified)
 
 1. Select an installed browser from the Debug toolbar, such as Chrome or Microsoft Edge.
 
@@ -87,13 +87,13 @@ Press **F5** or select the **Start** button at the top of the window to start th
 - The Vite CLI showing a message such as `VITE v4.4.9 ready in 780 ms`
 
    >[!NOTE]
-   > Check console output for messages. For example there might be a message to update Node.js.
+   > Check console output for messages. For example, there might be a message to update Node.js.
 
 The React app appears and is populated via the API (the localhost port may vary from the screenshot).
 
 :::image type="content" source="media/vs-2022/asp-net-core-weather-forecast-app.png" alt-text="Screenshot showing the weather forecast app.":::
 
-If you don't see the app, see [Troubleshooting](#troubleshooting).
+If you don't see the weather forecast data in the browser, see [Troubleshooting](#troubleshooting).
 
 ## Publish the project
 

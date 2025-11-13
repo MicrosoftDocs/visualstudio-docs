@@ -2,22 +2,26 @@
   href: index.yml
 - name: Overview
   items:
-  - name: First look at testing tools
+  - name: Overview of testing tools
     href: improve-code-quality.md
+  - name: Overview of GitHub Copilot testing
+    href: github-copilot-test-dotnet-overview.md
   - name: Unit test tools and tasks
     href: unit-test-your-code.md
 - name: Tutorials
   items:
   - name: Get started
     href: getting-started-with-unit-testing.md
+  - name: Create and run unit tests for .NET
+    href: walkthrough-creating-and-running-unit-tests-for-managed-code.md
+  - name: Generate unit tests using AI
+    href: unit-testing-with-github-copilot-test-dotnet.md
+  - name: Create unit tests from code
+    href: create-unit-tests-menu.md
 - name: Unit testing
   items:
   - name: Unit test basics
     href: unit-test-basics.md
-  - name: Create a unit test project
-    href: create-a-unit-test-project.md
-  - name: Create unit tests from code
-    href: create-unit-tests-menu.md
   - name: IntelliTest
     items:
     - name: Overview
@@ -56,11 +60,9 @@
     href: configure-unit-tests-by-using-a-dot-runsettings-file.md
   - name: Test Execution with Hot Reload
     href: test-execution-with-hot-reload.md
-  - name: Write unit tests for managed code
+  - name: Write unit tests for .NET
     items:
-    - name: 'Walkthrough: Create and run unit tests for managed code'
-      href: walkthrough-creating-and-running-unit-tests-for-managed-code.md
-    - name: 'Walkthrough: Test-driven development'
+    - name: Get started with test-driven development
       href: quick-start-test-driven-development-with-test-explorer.md
     - name: Microsoft Fakes
       items:

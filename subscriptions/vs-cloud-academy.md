@@ -3,14 +3,14 @@ title: Cloud Academy benefit in Visual Studio subscriptions
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 03/19/2025
+ms.date: 08/04/2025
 ms.topic: how-to
 description: Activate and explore the Cloud Academy (a QA Company) training benefit available in eligible Visual Studio subscriptions, and find answers to frequently asked questions.
 ---
 
 # Cloud Academy (a QA company) Learning Benefit in Visual Studio subscriptions
 
-This exclusive benefit is included with select Visual Studio Professional and Enterprise subscriptions and provides 12 months of free access to Cloud Academy. Act fast—this is a limited-time offer. Get started by signing in to the [Visual Studio subscriptions portal](https://my.visualstudio.com/benefits) and activate.
+This exclusive benefit is included with select Visual Studio Professional and Enterprise subscriptions and provides 12 months of free access to Cloud Academy. Get started by signing in to the [Visual Studio subscriptions portal](https://my.visualstudio.com/benefits) and activate.
 
 The [eligibility table](#eligibility) details the Cloud Academy training benefit that's available with select Visual Studio subscriptions. 
 
@@ -42,7 +42,7 @@ The following table describes the Cloud Academy training benefits that are inclu
 |  Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure | Not available | NA |
 |  Visual Studio Enterprise (NFR<sup>1</sup>) | Program | Not available | NA |
 
-<sup>1</sup> *Includes: Not for Resale (NFR), Visual Studio Industry Partner (VSIP), BizSpark, MCT Software & Services Developer, MCT Software & Services, Most Valuable Professional (MVP), Regional Director (RD), Microsoft Cloud Partner Program, FTE, Imagine, NFR Basic.*
+<sup>1</sup> *Includes: Not for Resale (NFR), Visual Studio Industry Partner (VSIP), MCT Software & Services Developer, Most Valuable Professional (MVP), Regional Director (RD), Microsoft AI Cloud Partner Program (MAICPP) formerly known as Microsoft Cloud Partner Program (MCPP) or Microsoft Partner Network (MPN), FTE, Imagine, NFR Basic.*
 
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional annual subscriptions and Visual Studio Enterprise annual subscriptions in cloud subscriptions. Current customers continue to have the same experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [Visual Studio pricing](https://visualstudio.microsoft.com/vs/pricing/?tab=paid-subscriptions) to explore different options to purchase Visual Studio.

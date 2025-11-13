@@ -3,7 +3,7 @@ title: Visual Studio Container Tools for Docker with ASP.NET on Windows
 author: ghogen
 description: Learn how to use Visual Studio 2019 tooling and Docker for Windows
 ms.author: ghogen
-ms.date: 03/08/2021
+ms.date: 9/10/2025
 ms.subservice: container-tools
 ms.topic: include
 ---
@@ -13,9 +13,9 @@ With Visual Studio, you can easily build, debug, and run containerized .NET, ASP
 ## Prerequisites
 
 - [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
-- [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **Web Development**, **Azure Tools** workload, and/or **.NET Core cross-platform development** workload installed
+- [Visual Studio 2019 or later](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET Core cross-platform development** workload installed.
 - [.NET Core Development Tools](https://dotnet.microsoft.com/download/dotnet-core/) for development with .NET Core
-- To publish to Azure Container Registry, an Azure subscription. [Sign up for a free trial](https://azure.microsoft.com/free/dotnet/).
+- To publish to Azure Container Registry, an Azure subscription. [Sign up for a free trial](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn).
 
 ## Installation and setup
 
@@ -98,7 +98,7 @@ Once the develop and debug cycle of the app is completed, you can create a produ
 
 1. Choose **Create New Azure Container Registry**.
 
-   ![Screenshot of Publish dialog - choose Create a new Azure container registry.](../../media/container-tools/vs-2019/select-existing-or-create-new-azure-container-registry.png)
+   ![Screenshot of Publish dialog - choose Create a new Azure Container Registry.](../../media/container-tools/vs-2019/select-existing-or-create-new-azure-container-registry.png)
 
 1. Fill in your desired values in the **Create a new Azure Container Registry**.
 

@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugDefaultPort2::GetServer
 helpviewer_keywords:
 - IDebugDefaultPort2::GetServer
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

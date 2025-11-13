@@ -2,12 +2,12 @@
 title: Start developing Visual Studio extensions
 description: Get answers to common questions about writing Visual Studio extensions, including prerequisites, extending features, and project templates.
 ms.date: 02/02/2024
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - getting started, Visual Studio integration
 - Visual Studio, integration
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---
@@ -50,9 +50,9 @@ In practice, we have found that the features most people want to extend are comm
 
 - [Extending User Settings and Options](../extensibility/extending-user-settings-and-options.md)
 
-- [Extending Properties and the Property Window](../extensibility/extending-properties-and-the-property-window.md)
+- [Extending Properties and the Property Window](/previous-versions/visualstudio/visual-studio-2017/extensibility/extending-properties-and-the-property-window)
 
-- [Extending Other Parts of Visual Studio](../extensibility/extending-other-parts-of-visual-studio.md)
+- [Extending Other Parts of Visual Studio](/previous-versions/visualstudio/visual-studio-2017/extensibility/extending-other-parts-of-visual-studio)
 
 ## What project templates are provided by the VSSDK?
 

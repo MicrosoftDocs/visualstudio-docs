@@ -5,7 +5,7 @@ author: mikadumont
 ms.author: midumont
 manager: mijacobs
 ms.subservice: code-analysis
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - source suppression, code analysis
 - code analysis, source suppression
@@ -194,7 +194,7 @@ The properties of the attribute include:
 
   - [`module`](#module-suppression-scope): This scope suppresses warnings against an assembly. It's a global suppression that applies to the entire project.
 
-  - `resource`: ([Legacy FxCop](../code-quality/static-code-analysis-for-managed-code-overview.md) only) This scope suppresses warnings in diagnostic info written to resource files that are part of the module (assembly). This scope isn't read or respected in C#/VB compilers for Roslyn analyzer diagnostics, which only analyze source files.
+  - `resource`: ([legacy analysis](../code-quality/static-code-analysis-for-managed-code-overview.md) only) This scope suppresses warnings in diagnostic info written to resource files that are part of the module (assembly). This scope isn't read or respected in C#/VB compilers for Roslyn analyzer diagnostics, which only analyze source files.
 
   - `type`: This scope suppresses warnings against a type.
 
@@ -222,13 +222,13 @@ If there are strict performance reasons for minimizing in-source suppression met
 
 For maintainability reasons, omitting the rule name isn't recommended.
 
-### Suppress selective violations within a method body
+### Suppress selective violations within a method body (legacy analysis only)
 
 Suppression attributes can be applied to a method, but can't be embedded within a method body. All violations of a particular rule are suppressed if you add the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute to the method.
 
-In some cases, you might want to suppress a particular instance of the violation. Consider the example where future code isn't automatically exempt from the code analysis rule. Certain code analysis rules allow you to suppress a particular instance of the violation by using the `MessageId` property of the `SuppressMessageAttribute` attribute. In general, legacy rules for violations on a particular symbol (a local variable or parameter) respect the `MessageId` property. [CA1500:VariableNamesShouldNotMatchFieldNames](../code-quality/ca1500.md) is an example of such a rule. However, legacy rules for violations on executable code (non-symbol) don't respect the `MessageId` property. Also, .NET Compiler Platform ("Roslyn") analyzers don't respect the `MessageId` property.
+In some cases, you might want to suppress a particular instance of the violation. Consider the example where future code isn't automatically exempt from the code analysis rule. Certain code analysis rules allow you to suppress a particular instance of the violation by using the `MessageId` property of the `SuppressMessageAttribute` attribute. In general, legacy rules for violations on a particular symbol (a local variable or parameter) respect the `MessageId` property. [CA1500:VariableNamesShouldNotMatchFieldNames](/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1500) is an example of such a rule. However, legacy rules for violations on executable code (non-symbol) don't respect the `MessageId` property. Also, .NET Compiler Platform ("Roslyn") analyzers don't respect the `MessageId` property.
 
-To suppress a particular symbol violation of a rule, specify the symbol name for the `MessageId` property of the `SuppressMessageAttribute` attribute. The following example shows code with two violations of [CA1500:VariableNamesShouldNotMatchFieldNames](../code-quality/ca1500.md): one violation for the `name` variable and another violation for the `age` variable. Only the violation for the `age` symbol is suppressed.
+To suppress a particular symbol violation of a rule, specify the symbol name for the `MessageId` property of the `SuppressMessageAttribute` attribute. The following example shows code with two violations of [CA1500:VariableNamesShouldNotMatchFieldNames](/previous-versions/visualstudio/visual-studio-2019/code-quality/ca1500): one violation for the `name` variable and another violation for the `age` variable. Only the violation for the `age` symbol is suppressed.
 
 ### [C#](#tab/csharp)
 
@@ -305,7 +305,7 @@ Managed code compilers and some external tools generate code to help rapid code 
 
 For source code analysis, you can suppress messages in generated code in an *.editorconfig* file. For more information, see [Exclude generated code](/dotnet/fundamentals/code-analysis/configuration-options#exclude-generated-code).
 
-For legacy code analysis, you can choose whether to suppress code analysis warnings and errors for generated code. For information about how to suppress such warnings and errors, see [Suppress code analysis warnings for generated code](../code-quality/how-to-suppress-code-analysis-warnings-for-generated-code.md).
+For legacy code analysis, you can choose whether to suppress code analysis warnings and errors for generated code. For information about how to suppress such warnings and errors, see [Suppress code analysis warnings for generated code](/previous-versions/visualstudio/visual-studio-2019/code-quality/how-to-suppress-code-analysis-warnings-for-generated-code).
 
 > [!NOTE]
 > Code analysis ignores `GeneratedCodeAttribute` when it is applied to either an entire assembly or a single parameter.

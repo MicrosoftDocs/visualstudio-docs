@@ -1,13 +1,14 @@
 ---
 title: Other Remote UI concepts
 description: Additional topics related to working with the remote UI model.
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 8/9/2024
-ms.author: maiak
+ms.author: tinali
 monikerRange: ">=vs-2022"
-author: maiak
+author: tinaschrepfer
 manager: mijacobs
 ms.subservice: extensibility-integration
+ms.update-cycle: 365-days
 ---
 
 # Other Remote UI concepts

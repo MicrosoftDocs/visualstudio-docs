@@ -2,9 +2,9 @@
 title: Addressing DPI Issues2
 description: Learn about the issues involved in programming for high-resolution screens, such as scaling up content, layout issues, and using DPI-scaling APIs.
 ms.date: 11/04/2016
-ms.topic: conceptual
-author: maiak
-ms.author: maiak
+ms.topic: how-to
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

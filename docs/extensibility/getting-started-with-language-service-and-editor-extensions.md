@@ -2,11 +2,11 @@
 title: Get started with language service and editor extensions
 description: Learn how to add language service features to any content type and customize the appearance and behavior of the Visual Studio editor.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: get-started
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - extensions
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

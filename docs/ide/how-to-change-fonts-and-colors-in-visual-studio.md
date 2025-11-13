@@ -169,11 +169,11 @@ For more information about how to change fonts and colors for accessibility, see
 
 ## Set language-specific editor options
 
-You can make various changes to the code editor to suit your programming language of choice. For example, you can change [brace formatting](reference/options-text-editor-csharp-formatting.md#new-lines-page) in C# to appear inline or on a new line, and more. To learn how to customize the code editor, see [Set language-specific editor options](reference/setting-language-specific-editor-options.md).
+You can make various changes to the code editor to suit your programming language of choice. For example, you can change brace formatting in C# to appear inline or on a new line, and more. To learn how to customize the code editor, see [Set language-specific editor options](reference/setting-language-specific-editor-options.md).
 
 ## Set accessibility options
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 In a neurodiverse world, we want to support our different learners and low-vision users by offering the following font options and color themes:
 

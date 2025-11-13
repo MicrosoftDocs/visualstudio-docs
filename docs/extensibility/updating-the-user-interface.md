@@ -2,12 +2,12 @@
 title: Updating the User Interface
 description: Learn how to add code to update the user interface after you implement a new command in your VSPackage.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - user interfaces, updating
 - commands, updating UI
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

@@ -4,7 +4,7 @@ description: Get an overview of how to view create and manage Azure Virtual Mach
 author: ghogen
 manager: mijacobs
 ms.subservice: azure-development
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/06/2024
 ms.author: ghogen
 monikerRange: "<=vs-2019"
@@ -21,7 +21,7 @@ monikerRange: "<=vs-2019"
 
 If you have virtual machines hosted by Azure, you can access them in Server Explorer. You must first sign in to your Azure subscription to view your mobile services. To sign in, open the shortcut menu for the Azure node in Server Explorer, and choose **Connect to Microsoft Azure**.
 
-If you don't have an Azure account, activate your [Azure benefits for Visual Studio subscribers](/visualstudio/subscriptions/vs-azure-eligibility) or [sign up for a free trial](https://azure.microsoft.com/free/?WT.mc_id=A261C142F).
+If you don't have an Azure account, activate your [Azure benefits for Visual Studio subscribers](/visualstudio/subscriptions/vs-azure-eligibility) or [sign up for a free trial](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn).
 
 1. In Cloud Explorer, choose a virtual machine, and then choose the F4 key to show its properties window.
 

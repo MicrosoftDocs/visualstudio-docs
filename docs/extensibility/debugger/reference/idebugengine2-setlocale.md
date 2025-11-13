@@ -7,8 +7,8 @@ f1_keywords:
 - IDebugEngine2::SetLocale
 helpviewer_keywords:
 - IDebugEngine2::SetLocale
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 dev_langs:

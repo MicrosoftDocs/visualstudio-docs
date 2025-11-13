@@ -2,12 +2,12 @@
 title: Launch-based Attachment
 description: Learn about launch-based attachment to a program, which is automatic and follows a path like that of the manual attachment.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - debug engines, launching
 - debug engines, attaching to programs
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---

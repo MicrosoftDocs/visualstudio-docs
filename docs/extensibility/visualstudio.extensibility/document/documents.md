@@ -1,10 +1,11 @@
 ---
 title: Documents overview
 description: An overview of extensibility documents
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 monikerRange: ">=vs-2022"
 ms.subservice: extensibility-integration
+ms.update-cycle: 365-days
 ms.topic: overview
 ms.date: 02/10/2023
 ---

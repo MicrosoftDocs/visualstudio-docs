@@ -2,13 +2,13 @@
 title: Stepping in Break Mode
 description: Learn about the process that occurs when the debugger is in break mode. The debugger must then step through code.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - break mode, stepping
 - stepping, in break mode
 - debugging [Debugging SDK], stepping in break mode
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---

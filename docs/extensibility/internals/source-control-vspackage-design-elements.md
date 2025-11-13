@@ -2,11 +2,11 @@
 title: Source Control VSPackage Design Elements
 description: Learn about the structure the source control VSPackage must implement and the interfaces and services that the source control VSPackage can implement.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - source control packages, design elements
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

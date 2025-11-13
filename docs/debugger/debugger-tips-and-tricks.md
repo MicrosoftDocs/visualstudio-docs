@@ -2,7 +2,7 @@
 title: "Tips and tricks in the debugger"
 description: Explore some of the lesser-known features supported by the Visual Studio debugger, such as keyboard shortcuts, data tips, and code editing during debugging.
 ms.date: "06/16/2023"
-ms.topic: "conceptual"
+ms.topic: how-to
 helpviewer_keywords:
   - "stepping"
   - "debugging [Visual Studio], execution control"
@@ -11,6 +11,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
+ms.custom: sfi-image-nochange
 ---
 # Learn productivity tips and tricks for the debugger in Visual Studio
 
@@ -36,7 +37,7 @@ In most languages supported by Visual Studio, you can edit your code in the midd
 
 ![Edit and continue debugging](../debugger/media/dbg-tips-edit-and-continue.gif "EditAndContinue")
 
-For more information on using the feature and on feature limitations, see [Edit and Continue](../debugger/edit-and-continue.md).
+For more information on using the feature and on feature limitations, see [Edit and Continue](/visualstudio/debugger/how-to-enable-and-disable-edit-and-continue).
 
 ## Edit XAML code and continue debugging
 

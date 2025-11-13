@@ -28,6 +28,7 @@ helpviewer_keywords:
 - Code Editor
 - Text Editor [Visual Studio]
 - editors, global settings
+ms.custom: "ide-ref"
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
@@ -37,7 +38,7 @@ ms.subservice: general-ide
 
 This dialog box lets you change global settings for the Visual Studio code and text editor. To display this dialog box, select **Options** on the **Tools** menu, expand the **Text Editor** folder, and then select **General**.
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 :::image type="content" source="media/vs-2022/tools-options-text-editor-general.png" alt-text="Screenshot of the text editor's general settings in the Options dialog box.":::
 
@@ -57,7 +58,7 @@ The Settings section of **Tools** > **Options** > **Text Editor** > **General** 
 
 When selected, this setting enables you to move text by selecting and then dragging it with the mouse to another location within the current document or any other open document.
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 ### Select subword on double click
 
@@ -88,7 +89,7 @@ When selected, any project specific [code style settings specified in an *Editor
 > [!TIP]
 > To learn more about coding conventions and how they are applied, see the [Create portable, custom editor settings with EditorConfig](../create-portable-custom-editor-options.md) page.
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 ### Enable audio cues
 
@@ -107,7 +108,7 @@ When selected, you can press **Ctrl** and hover over an element while clicking t
 
 Select this checkbox to display the element's definition in a window without navigating away from your current location in the code editor. For more information, see [How to: View and edit code by using Peek Definition](../how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md).
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 ## Sticky scroll
 
@@ -135,7 +136,7 @@ The Display section of **Tools** > **Options** > **Text Editor** > **General** i
 
 When selected, you can visualize spaces and tabs.
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 ### View bidirectional text control characters
 
@@ -178,7 +179,7 @@ internal readonly ImmutableArray<char> BiDiControlCharacters = ImmutableArray.Cr
 });
 ```
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 ### View zero-width characters
 
@@ -236,7 +237,7 @@ When selected, vertical lines appear in the editor that line up with structured 
 
 When selected, different-colored wavy underlines, known as squiggles, appear in your code. (Red squiggles denote syntax errors, blue denotes compiler errors, green denotes warnings, and purple denotes other types of errors.)
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 ### Show selection matches
 
@@ -265,8 +266,8 @@ Use this control to toggle the editing context settings altogether, or personali
 ## See also
 
 - [Options, Text Editor, All Languages](../../ide/reference/options-text-editor-all-languages.md)
-- [Options, Text Editor, All Languages, Tabs](../../ide/reference/options-text-editor-all-languages-tabs.md)
-- [Options, Text Editor, File Extension](../../ide/reference/options-text-editor-file-extension.md)
+- [Options, Text Editor, All Languages, Tabs](../../ide/options-text-editor-all-languages-tabs.md)
+- [Options, Text Editor, File Extension](/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-text-editor-file-extension)
 - [Identifying and Customizing Keyboard Shortcuts](../../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md)
 - [Customizing the Editor](../how-to-change-text-case-in-the-editor.md)
 - [Using IntelliSense](../../ide/using-intellisense.md)

@@ -2,12 +2,12 @@
 title: Command Design
 description: Learn how to design a command for a VSPackage in Visual Studio. Including, how to specify where it appears, when it is available, and how it is to be handled.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - commands
 - commands, implementation
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

@@ -2,7 +2,7 @@
 title: Use Replace in Files to Search Code and Make Changes
 description: Use the Replace in Files feature to search the code of a specified set of files for a string or expression and change some or all of the matches found.
 ms.date: 04/07/2025
-ms.topic: conceptual
+ms.topic: article
 f1_keywords:
 - vs.findreplace.replaceinfiles
 - vs.replaceinfiles
@@ -22,9 +22,9 @@ ms.subservice: general-ide
 
 **Replace in Files** enables you to search the code of a specified set of files for a string or expression, and change some or all of the matches found.
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
-:::image type="content" source="media/vs-2022/find-replace-files.png" alt-text="Screenshot of the Find and Replace dialog in Visual Studio 2022. The Replace in Files tab is open.":::
+:::image type="content" source="media/vs-2022/find-replace-files.png" alt-text="Screenshot of the Find and Replace dialog in Visual Studio. The Replace in Files tab is open.":::
 
 ::: moniker-end
 
@@ -83,7 +83,7 @@ When you select **Keep modified files open after Replace All**, all files in whi
 
 ::: moniker-end
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 > [!NOTE]
 > Starting with Visual Studio 2022, to optimize search performance, partial results, such as results from pre-indexed files, are shown before final results are available. However, when you perform replace operations, this performance benefit doesn't apply because replace operations are started only after full search results are returned.

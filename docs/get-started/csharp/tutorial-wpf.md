@@ -1,7 +1,6 @@
 ---
 title: "Hello World app with WPF in C#"
 description: In this tutorial, create a Windows Desktop .NET application in C# with Visual Studio by using the Windows Presentation Foundation (WPF) UI framework.
-ms.custom: vs-acquisition
 ms.date: 12/03/2024
 ms.subservice: general-ide
 ms.topic: tutorial
@@ -10,6 +9,9 @@ dev_langs:
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
+ms.custom:
+  - vs-acquisition
+  - sfi-image-nochange
 #customer intent: As a developer, I want to create a straight-forward project using Visual Studio to learn how the product works and practice essential elements of the design process.
 ---
 
@@ -25,7 +27,7 @@ In this tutorial, you become familiar with many of the tools, dialog boxes, and 
 
 ## Prerequisites
 
-- If you don't have Visual Studio, go to [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) to install it for free.
+- If you don't have Visual Studio, go to [Visual Studio downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) to install it for free.
 - Make sure the **.NET desktop development** workload is installed. You can verify this configuration in Visual Studio Installer.
 - You can use either .NET Framework or .NET Core for this tutorial. .NET Core is the newer, more modern framework. .NET Core requires Visual Studio 2019 version 16.3 or later.
 

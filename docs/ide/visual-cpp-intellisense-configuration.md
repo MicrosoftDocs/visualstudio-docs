@@ -5,7 +5,7 @@ ms.date: 03/26/2025
 ms.topic: concept-article
 author: tylermsft
 ms.author: twhitney
-manager: markl
+manager: coxford
 ---
 # Configure a C++ project for IntelliSense
 

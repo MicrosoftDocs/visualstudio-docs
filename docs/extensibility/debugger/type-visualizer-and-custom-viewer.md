@@ -2,12 +2,12 @@
 title: Type Visualizer and Custom Viewer
 description: Learn about type visualizer components and the custom viewers, which display data in a specific format, and the differences between them.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - debugging [Debugging SDK], custom viewer
 - debugging [Debugging SDK], type visualizer
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---

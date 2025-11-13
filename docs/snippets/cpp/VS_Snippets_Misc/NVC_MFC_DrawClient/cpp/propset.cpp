@@ -461,7 +461,7 @@ BOOL CProperty::WriteToStream( IStream* pIStream )
 	if (m_dwType & VT_VECTOR)
 	{
 		// Value is a DWORD count of elements followed by
-		// that many repititions of the value.
+		// that many repetitions of the value.
 		//
 		nReps = *(LPDWORD)pCur;
 		cbTotal = sizeof(DWORD);

@@ -4,10 +4,11 @@ description: Connect Azure Cosmos DB support to your application by using Connec
 author: ghogen
 manager: mijacobs
 ms.subservice: azure-development
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 03/20/2025
 ms.author: ghogen
 monikerRange: ">= vs-2019"
+ms.custom: sfi-image-nochange
 ---
 
 # Add Azure Cosmos DB to your app by using Visual Studio Connected Services
@@ -48,7 +49,7 @@ The connected service functionality adds all the needed references and connectio
 
     ![Screenshot showing "Add Dependency" screen, selecting the "Add Azure Cosmos DB" option.](./media/azure-cosmosdb-add-connected-service/azure-cosmos-db.png)
 
-    If you aren't signed in already, sign in to your Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/).
+    If you aren't signed in already, sign in to your Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn).
 
 1. In the **Azure Cosmos DB** screen, select an existing Azure Cosmos DB, and select **Next**.
 
@@ -98,7 +99,7 @@ The connected service functionality adds all the needed references and connectio
 
    If you choose to use the Azure Cosmos DB Emulator, click **Next** to see the **Summary of changes** screen, which shows how your project is being modified. A NuGet package reference is added to your project and the connection code for the local emulator is added to your project. Once you click **Finish** on the last screen, the container for the emulator is created; you'll see the image download status in the output window.
 
-   If you want to connect to the Azure service, continue to the next step, or if you aren't signed in already, sign in to your Azure account before continuing. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/free/).
+   If you want to connect to the Azure service, continue to the next step, or if you aren't signed in already, sign in to your Azure account before continuing. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn).
 
 1. In the **Azure Cosmos DB** screen, select an existing Azure Cosmos DB, and select **Next**.
 

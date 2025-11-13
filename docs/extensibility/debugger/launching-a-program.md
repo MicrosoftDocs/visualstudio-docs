@@ -2,12 +2,12 @@
 title: Launching a Program
 description: Learn about the series of events that take place when you debug a program using F5 to run the debugger from the IDE.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - debug engines, launching
 - programs, launching
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---

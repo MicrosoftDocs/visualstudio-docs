@@ -1,8 +1,8 @@
 ---
 title: Unit test basics with Test Explorer
 description: Learn how Visual Studio Test Explorer provides a flexible and efficient way to run your unit tests and view their results. 
-ms.date: 2/28/2025
-ms.topic: conceptual
+ms.date: 09/09/2025
+ms.topic: article
 f1_keywords:
 - vs.UnitTest.CreateUnitTest
 author: mikejo5000
@@ -304,7 +304,13 @@ Learn more about [data-driven unit tests](../test/how-to-create-a-data-driven-un
 
 **Q: Can I view how much of my code is tested by my unit tests?**
 
+::: moniker range=">=visualstudio"
+**A:** Yes. You can determine the amount of your code that is actually being tested by your unit tests by using the Visual Studio Code coverage tool in Visual Studio. Native and managed languages and all unit test frameworks that can be run by the Unit Test Framework are supported.
+::: moniker-end
+
+::: moniker range="<=vs-2022"
 **A:** Yes. You can determine the amount of your code that is actually being tested by your unit tests by using the Visual Studio Code coverage tool in Visual Studio Enterprise. Native and managed languages and all unit test frameworks that can be run by the Unit Test Framework are supported.
+::: moniker-end
 
 You can run code coverage on selected tests or on all tests in a solution. The **Code Coverage Results** window displays the percentage of the blocks of product code that were exercised by line, function, class, namespace and module.
 

@@ -10,6 +10,7 @@ helpviewer_keywords:
 - Code Editor
 - Text Editor [Visual Studio]
 - editors, global settings
+ms.custom: "ide-ref"
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
@@ -20,7 +21,7 @@ monikerRange: ">=vs-2019"
 
 You can use the Advanced dialog box to change global settings for the Visual Studio code and text editor. To display the dialog box, select **Tools** from the menu bar, and then select **Options** > **Text Editor** > **Advanced**.
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 :::image type="content" source="media/vs-2022/tools-options-text-editor-advanced.png" alt-text="Screenshot of the Advanced settings for the text editor in the Options dialog box.":::
 
@@ -49,7 +50,7 @@ Selected by default, this option adds a margin view next to the scrollbar that s
 
 Selected by default, this option enables the editor to suggest possible completions for your code based on its context and language semantics. Toggle to turn off auto-complete mode. 
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 ## Click to peek in margin
 
@@ -76,11 +77,11 @@ Choose from one of the following completion mode settings:
 
 By default, [CodeLens](../find-code-changes-and-other-history-with-codelens.md) information appears over a code line. Toggle to show CodeLens information directly in your code line at your current caret position, instead.
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 ## Use box selection
 
-Select this option to disable the new [multi-caret selection](../finding-and-replacing-text.md?view=vs-2022&preserve-view=true#multi-caret-selection) behavior in Visual Studio 2022, which includes the following:
+Select this option to disable the new [multi-caret selection](../finding-and-replacing-text.md?view=vs-2022&preserve-view=true#multi-caret-selection) behavior in Visual Studio 2022 or later, which includes the following:
 
 - Adapts "block selection" similarly as does the multi-caret functionality in [VS Code](https://code.visualstudio.com/docs/editor/codebasics#_multiple-selections-multicursor).
 - Supports copying and pasting a different section of text with each caret, instead of just a single block-shaped section of text.
@@ -91,7 +92,7 @@ Select this option to disable the new [multi-caret selection](../finding-and-rep
 
 ## Use adaptive formatting
 
-Based on your most recently updated file, Visual Studio recognizes whether you prefer to use tabs or spaces to indent code. The adaptive formatting option is selected by default. When unselected, Visual Studio uses the settings in **Tools** > **Options** > **Text Editor** > **All Languages** > **[Tabs](options-text-editor-all-languages-tabs.md)** instead.
+Based on your most recently updated file, Visual Studio recognizes whether you prefer to use tabs or spaces to indent code. The adaptive formatting option is selected by default. When unselected, Visual Studio uses the settings in **Tools** > **Options** > **Text Editor** > **All Languages** > **[Tabs](../options-text-editor-all-languages-tabs.md)** instead.
 
 > [!TIP]
 > You can also change how Visual Studio manages your preferred indent style by using an .*editorconfig* file. For more information, see [Create portable, custom editor settings with EditorConfig](../create-portable-custom-editor-options.md).
@@ -133,7 +134,7 @@ Select this option if you prefer to set the maximum latency that Visual Studio a
 
 ## Use adaptive formatting
 
-Based on your most recently updated file, Visual Studio recognizes whether you prefer to use tabs or spaces for code indentation. The adaptive formatting option is selected by default. When unselected, Visual Studio uses the settings in **Tools** > **Options** > **Text Editor** > **All Languages** > **[Tabs](options-text-editor-all-languages-tabs.md)** instead.
+Based on your most recently updated file, Visual Studio recognizes whether you prefer to use tabs or spaces for code indentation. The adaptive formatting option is selected by default. When unselected, Visual Studio uses the settings in **Tools** > **Options** > **Text Editor** > **All Languages** > **[Tabs](../options-text-editor-all-languages-tabs.md)** instead.
 
 ::: moniker-end
 

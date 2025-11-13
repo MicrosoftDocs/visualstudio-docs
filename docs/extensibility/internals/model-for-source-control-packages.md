@@ -2,11 +2,11 @@
 title: Model for Source Control Packages
 description: This model represents a source control implementation. The article shows the names of the classes to make it easier to see how source control is carried out.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - source control [Visual Studio SDK], model
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

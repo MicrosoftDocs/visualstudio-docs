@@ -2,11 +2,11 @@
 title: Managed Extensibility Framework in the Editor
 description: Learn about the Managed Extensibility Framework, which allows you to build your own components to extend the editor in the Visual Studio SDK.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - using MEF for extensions
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

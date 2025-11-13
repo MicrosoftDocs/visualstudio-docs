@@ -1,7 +1,7 @@
 ---
 title: Debug user code with Just My Code
-description: Just My Code is a debugging feature that automatically steps over calls to non-user code. Learn how to enable, disable, and use this feature.
-ms.date: 10/14/2024
+description: Just My Code is a debugging feature that automatically steps over calls to nonuser code. Learn how to enable, disable, and use this feature.
+ms.date: 11/04/2025
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
@@ -18,17 +18,25 @@ Just My Code works differently in .NET and C++ projects.
 
 For most programming languages, Just My Code is enabled by default.
 
-- To enable or disable Just My Code in Visual Studio, under **Tools** > **Options** (or **Debug** > **Options**) > **Debugging** > **General**, select or deselect **Enable Just My Code**.
+::: moniker range="visualstudio"
 
-::: moniker range="<=vs-2019"
+Open the **Tools** (or **Debug**) > **Options** pane, expand the **All Settings** > **Debugging** > **General** section, and select or clear the **Enable Just My Code** checkbox:
 
-![Screenshot of Enable Just My Code in the Options dialog box.](../debugger/media/vs-2019/dbg-just-my-code-options.png "Enable Just My Code")
+:::image type="content" source="../debugger/media/visualstudio/dbg-just-my-code-options.png" border="false" alt-text="Screenshot that shows how to select the Enable Just My Code option in Visual Studio.":::
 
 ::: moniker-end
+::: moniker range="vs-2022"
 
-::: moniker range=">=vs-2022"
+Open the **Tools** (or **Debug**) > **Options** dialog, expand the **Debugging** > **General** section, and select or clear the **Enable Just My Code** checkbox:
 
 ![Screenshot of Enable Just My Code in the Options dialog box.](../debugger/media/vs-2022/dbg-just-my-code-options.png "Enable Just My Code")
+
+::: moniker-end
+::: moniker range="<=vs-2019"
+
+Open the **Tools** (or **Debug**) > **Options** dialog, expand the **Debugging** > **General** section, and select or clear the **Enable Just My Code** checkbox:
+
+![Screenshot of Enable Just My Code in the Options dialog box.](../debugger/media/vs-2019/dbg-just-my-code-options.png "Enable Just My Code")
 
 ::: moniker-end
 
@@ -86,7 +94,7 @@ To view the code in a collapsed **[External Code]** frame, right-click in the **
 > [!NOTE]
 > **Show External Code** is a current user profiler setting that applies to all projects in all languages that are opened by the user.
 
-Double-clicking an expanded external code line in the **Call Stack** window highlights the calling code line in green in the source code. For DLLs or other modules not found or loaded, a symbol or source not found page may open.
+Double-clicking an expanded external code line in the **Call Stack** window highlights the calling code line in green in the source code. For DLLs or other modules not found or loaded, a symbol or source not found page might open.
 
 ::: moniker range=">=vs-2022"
 Starting in Visual Studio 2022 version 17.7, you can autodecompile .NET code by double-clicking external code in the Call Stack window. For more information, see [Generate source code from .NET assemblies while debugging](../debugger/decompilation.md).
@@ -94,13 +102,13 @@ Starting in Visual Studio 2022 version 17.7, you can autodecompile .NET code by 
 
 ## <a name="BKMK__NET_Framework_Just_My_Code"></a>.NET Just My Code
 
-In .NET projects, Just My Code uses symbol (*.pdb*) files and program optimizations to classify user and non-user code. The .NET debugger considers optimized binaries and non-loaded *.pdb* files to be non-user code.
+In .NET projects, Just My Code uses symbol (*.pdb*) files and program optimizations to classify user and non-user code. The .NET debugger considers optimized binaries and nonloaded *.pdb* files to be non-user code.
 
 Three compiler attributes also affect what the .NET debugger considers to be user code:
 
-- <xref:System.Diagnostics.DebuggerNonUserCodeAttribute> tells the debugger that the code it's applied to isn't user code.
+- <xref:System.Diagnostics.DebuggerNonUserCodeAttribute> tells the debugger that the applied code isn't user code.
 - <xref:System.Diagnostics.DebuggerHiddenAttribute> hides the code from the debugger, even if Just My Code is turned off.
-- <xref:System.Diagnostics.DebuggerStepThroughAttribute> tells the debugger to step through the code it's applied to, rather than step into the code.
+- <xref:System.Diagnostics.DebuggerStepThroughAttribute> tells the debugger to step through the applied code, rather than step into the code.
 
 The .NET debugger considers all other code to be user code.
 
@@ -133,11 +141,11 @@ For call stack behavior, such as in the **Call Stack** window, Just My Code in C
 
 For code stepping behavior, Just My Code in C++ considers only these functions to be *non-user code*:
 
-- Functions for which the corresponding PDB file hasn't been loaded in the debugger.
+- Functions for which the corresponding PDB file isn't loaded in the debugger.
 - Functions specified in *\*.natjmc* files in the *%VsInstallDirectory%\Common7\Packages\Debugger\Visualizers* folder.
 
 > [!NOTE]
-> For code stepping support in Just My Code, C++ code must be compiled using the MSVC compilers in Visual Studio 15.8 Preview 3 or later, and the /JMC compiler switch must be enabled (it is enabled by default). For additional details, see [Customize C++ call stack and code stepping behavior](#BKMK_CPP_Customize_call_stack_behavior) and this [blog post](https://devblogs.microsoft.com/cppblog/announcing-jmc-stepping-in-visual-studio/). For code compiled using an older compiler, *.natstepfilter* files are the only way to customize code stepping, which is independent of Just My Code. See [Customize C++ stepping behavior](#BKMK_CPP_Customize_stepping_behavior).
+> For code stepping support in Just My Code, C++ code must be compiled using the MSVC compilers in Visual Studio 15.8 Preview 3 or later, and the /JMC compiler switch must be enabled (it's enabled by default). For more details, see [Customize C++ call stack and code stepping behavior](#BKMK_CPP_Customize_call_stack_behavior) and this [blog post](https://devblogs.microsoft.com/cppblog/announcing-jmc-stepping-in-visual-studio/). For code compiled using an older compiler, *.natstepfilter* files are the only way to customize code stepping, which is independent of Just My Code. See [Customize C++ stepping behavior](#BKMK_CPP_Customize_stepping_behavior).
 
 <a name="BKMK_CPP_Stepping_behavior"></a>
 During C++ debugging, non-user code is skipped by default. During C++ debugging:
@@ -203,13 +211,13 @@ A *.natjmc* file is an XML file with this syntax:
 
 ### <a name="BKMK_CPP_Customize_stepping_behavior"></a> Customize C++ stepping behavior independent of Just My Code settings
 
-In C++ projects, you can specify functions to step over by listing them as *NoStepInto* functions in *\*.natstepfilter* files. Functions listed in *\*.natstepfilter* files aren't dependent on Just My Code settings. A NoStepInto function tells the debugger to step over the function, even if it calls some StepInto functions or other user code. Unlike functions listed in *.natjmc*, the debugger will step into the first line of user code inside the NoStepInto function.
+In C++ projects, you can specify functions to step over by listing them as *NoStepInto* functions in *\*.natstepfilter* files. Functions listed in *\*.natstepfilter* files aren't dependent on Just My Code settings. A NoStepInto function tells the debugger to step over the function, even if it calls some StepInto functions or other user code. Unlike functions listed in *.natjmc*, the debugger steps into the first line of user code inside the NoStepInto function.
 
 - To specify non-user code for all local Visual Studio users, add the *.natstepfilter* file to the *%VsInstallDirectory%\Common7\Packages\Debugger\Visualizers* folder.
 - To specify non-user code for an individual user, add the *.natstepfilter* file to the *%USERPROFILE%\My Documents\\<Visual Studio version\>\Visualizers* folder.
 
 > [!NOTE]
-> Some third-party extensions may disable *.natstepfilter* functionality.
+> Some non-Microsoft extensions might disable *.natstepfilter* functionality.
 
 A *.natstepfilter* file is an XML file with this syntax:
 
@@ -244,7 +252,7 @@ A *.natstepfilter* file is an XML file with this syntax:
 
 - Unlike *.natvis* files, *.natstepfilter* and *.natjmc* files aren't hot-reloaded. Instead, these files are reloaded near the beginning of the debug session.
 
-- For template functions, the use of `&lt;.*&gt;` or `&lt;.*` in the name may be helpful.
+- For template functions, the use of `&lt;.*&gt;` or `&lt;.*` in the name can be helpful.
 
 ## <a name="BKMK_JavaScript_Just_My_Code"></a> JavaScript Just My Code
 

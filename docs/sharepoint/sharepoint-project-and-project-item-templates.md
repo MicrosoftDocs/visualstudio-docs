@@ -2,7 +2,7 @@
 title: "SharePoint Project and Project Item Templates"
 description: Explore SharePoint project templates and project item templates available in Visual and add items like event receivers, site columns, and lists.
 ms.date: "02/22/2017"
-ms.topic: "conceptual"
+ms.topic: article
 f1_keywords:
   - "VS.SharePointTools.SPE.FirstWizardPage"
   - "VS.SharePointTools.SPE.ListInstance"

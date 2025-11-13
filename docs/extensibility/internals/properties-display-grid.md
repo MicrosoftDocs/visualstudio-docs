@@ -5,8 +5,8 @@ ms.date: 11/04/2016
 ms.topic: reference
 helpviewer_keywords:
 - properties [Visual Studio SDK], grid
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---
@@ -22,7 +22,7 @@ The two-column list shows configuration-independent properties that can be chang
 
 2. Set the `pfHide` parameter in <xref:Microsoft.VisualStudio.Shell.Interop.IVsPerPropertyBrowsing.HideProperty%2A> to `TRUE`.
 
-To push information to the **Properties** window, the IDE uses <xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer>. <xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer> is called by VSPackages for each window that contains selectable objects with related properties to be displayed in the **Properties** window. **Solution Explorer**'s implementation of <xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer> calls `GetProperty` using [__VSHPROPID.VSHPROPID_BrowseObject](<xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID.VSHPROPID_BrowseObject>) in your project hierarchy to acquire the browseable objects in the hierarchy.
+To push information to the **Properties** window, the IDE uses <xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer>. <xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer> is called by VSPackages for each window that contains selectable objects with related properties to be displayed in the **Properties** window. **Solution Explorer**'s implementation of <xref:Microsoft.VisualStudio.Shell.Interop.ISelectionContainer> calls `GetProperty` using [__VSHPROPID.VSHPROPID_BrowseObject](<xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID.VSHPROPID_BrowseObject>) in your project hierarchy to acquire the browsable objects in the hierarchy.
 
 If your VSPackage does not support [__VSHPROPID.VSHPROPID_BrowseObject](<xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID.VSHPROPID_BrowseObject>), the IDE attempts to use <xref:Microsoft.VisualStudio.Shell.Interop.IVsHierarchy.GetProperty%2A> using the value for [__VSHPROPID.VSHPROPID_SelContainer](<xref:Microsoft.VisualStudio.Shell.Interop.__VSHPROPID.VSHPROPID_SelContainer>) that the hierarchy item or items supply.
 

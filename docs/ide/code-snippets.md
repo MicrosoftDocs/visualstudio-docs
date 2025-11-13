@@ -1,11 +1,12 @@
 ---
 title: Understand and use code snippets
 description: Explore code snippets, which are small blocks of reusable code you can insert into a code file, and learn how to find and use them.
-ms.date: 04/05/2024
-ms.topic: conceptual
+ms.date: 04/25/2025
+ms.topic: how-to
 f1_keywords:
 - vs.ExpansionManagerImport
 - vs.codesnippetmanager
+- vs.expansionpicker
 helpviewer_keywords:
 - surround with
 - code snippets

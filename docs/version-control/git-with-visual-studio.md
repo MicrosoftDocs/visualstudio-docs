@@ -2,12 +2,13 @@
 title: About Git in Visual Studio
 titleSuffix: ""
 description: Explore Git options for source control in Visual Studio and track the code changes you make over time or revert to specific versions.
-ms.date: 03/14/2025
+ms.date: 4/1/2025
 ms.topic: overview
 author: ghogen
 ms.author: ghogen
 ms.manager: mijacobs
 ms.subservice: general-ide
+ms.custom: sfi-image-nochange
 ---
 # About Git in Visual Studio
 
@@ -45,7 +46,7 @@ Git is a distributed version control system, meaning that all the changes made s
 
 If you are working in a team, or if you are using different machines, you might often need to fetch and pull new changes on the remote repository. To learn more about managing Git network operations in Visual Studio, refer to the [Fetch, pull, push, and sync](git-fetch-pull-sync.md) page.
 
-:::image type="content" source="media/git-source-control-inner-loop.png" alt-text="The Visual Studio IDE with the Git menu and the Git Changes tab in Solution Explorer showing.":::
+:::image type="content" source="media/vs-2022/git-source-control-inner-loop.png" alt-text="Screenshot of Visual Studio IDE with the Git menu and the Git Changes tab in Solution Explorer showing." lightbox="media/vs-2022/git-source-control-inner-loop.png":::
 
 ## Repository management and collaboration
 

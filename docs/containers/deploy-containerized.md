@@ -3,23 +3,39 @@ title: Deploy an app into a container in the cloud
 author: ghogen
 description: Deploy an application into a container in Azure or Docker Hub in Visual Studio rather than using Docker Desktop or a Dockerfile.
 ms.author: ghogen
-ms.date: 10/23/2023
+ms.date: 8/19/2025
 ms.subservice: container-tools
 ms.topic: how-to
+ms.custom: sfi-image-nochange
+monikerRange: ">=vs-2022"
 ---
 
 # Deploy an app into a container in Azure or Docker Hub
 
 You can deploy a .NET 7 or later app without Docker Desktop or a Dockerfile. Visual Studio provides a deployment option that handles this conveniently for you.
 
+:::moniker range="visualstudio"
+## Prerequisites
+
+- Install [Visual Studio](https://visualstudio.microsoft.com/vs/).
+- A .NET 7 or later project
+- For Azure targets, an Azure subscription. Sign up for a [free trial](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn).
+- For Docker Hub, a Docker account. If you don't have one, you can [sign up](https://hub.docker.com/signup/).
+
+You don't need Docker Desktop or Podman Desktop.
+
+:::moniker-end
+:::moniker range="vs-2022"
 ## Prerequisites
 
 - Install [Visual Studio 2022 version 17.5](https://visualstudio.microsoft.com/vs/) or later.
 - A .NET 7 or later project
-- For Azure targets, an Azure subscription. Sign up for a [free trial](https://azure.microsoft.com/free/search).
+- For Azure targets, an Azure subscription. Sign up for a [free trial](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn).
 - For Docker Hub, a Docker account. If you don't have one, you can [sign up](https://hub.docker.com/signup/).
 
 You don't need Docker Desktop.
+
+:::moniker-end
 
 ## Deploy to Docker Hub
 

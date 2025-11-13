@@ -6,8 +6,8 @@ ms.topic: how-to
 helpviewer_keywords:
 - debug engines, attaching to programs
 - debug engines, detaching from programs
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---

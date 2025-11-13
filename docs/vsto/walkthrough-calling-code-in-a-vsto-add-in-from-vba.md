@@ -2,7 +2,7 @@
 title: "Walkthrough: Call code in a VSTO Add-in from VBA"
 description: Learn how to expose an object in a VSTO Add-in to other Microsoft Office solutions, including Visual Basic for Applications (VBA) and COM VSTO Add-ins.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"

@@ -2,7 +2,7 @@
 title: "Office development samples and walkthroughs"
 description: Learn about sample applications, example code, and step-by-step walkthroughs that show the syntax, structure, and techniques used to build Office solutions.
 ms.date: "08/14/2019"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"

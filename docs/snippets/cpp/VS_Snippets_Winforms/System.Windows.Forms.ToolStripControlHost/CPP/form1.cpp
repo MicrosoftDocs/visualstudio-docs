@@ -253,7 +253,7 @@ private:
    System::Windows::Forms::RaftingContainer^ raftingContainer4;
 
    // The following snippet demonstrates the ToolStripControlHost(Control)
-   // consturctor, the ToolStripControlHost.Font, Width, DisplayStyle,
+   // constructor, the ToolStripControlHost.Font, Width, DisplayStyle,
    // Text properties.
    //<snippet1>
    ToolStripControlHost^ dateTimePickerHost;

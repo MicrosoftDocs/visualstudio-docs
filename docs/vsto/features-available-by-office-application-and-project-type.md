@@ -3,7 +3,7 @@ title: Find features for Office apps and project types (Visual Studio)
 description: Explore the project templates and features available in Visual Studio that support different business scenarios for Microsoft Office applications.
 titleSuffix: ""
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"

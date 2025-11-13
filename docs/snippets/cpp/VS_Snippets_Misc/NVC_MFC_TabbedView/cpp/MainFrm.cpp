@@ -159,7 +159,7 @@ void CMainFrame::OnViewCustomize()
 	// Create a customize toolbars dialog:
 	//------------------------------------
 	CMFCToolBarsCustomizeDialog* pDlgCust = new CMFCToolBarsCustomizeDialog (this,
-		TRUE /* Automatic menus scaning */);
+		TRUE /* Automatic menus scanning */);
 
 	pDlgCust->Create ();
 }
@@ -209,7 +209,7 @@ BOOL CMainFrame::OnShowPopupMenu (CMFCPopupMenu* pMenuPopup)
 		if (CMFCToolBar::IsCustomizeMode ())
 		{
 			//----------------------------------------------------
-			// Don't show toolbars list in the cuztomization mode!
+			// Don't show toolbars list in the customization mode!
 			//----------------------------------------------------
 			return FALSE;
 		}

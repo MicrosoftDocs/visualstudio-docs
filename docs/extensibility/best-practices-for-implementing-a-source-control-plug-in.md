@@ -2,13 +2,13 @@
 title: Implementing a source control plug-in - best practices
 description: Review these technical details to help you reliably implement a source control plug-in in Visual Studio.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: best-practice
 helpviewer_keywords:
 - source control plug-ins, best practices
 - best practices, source control plug-ins
 - source control [Visual Studio SDK], plug-ins
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

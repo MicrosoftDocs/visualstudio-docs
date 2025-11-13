@@ -2,7 +2,7 @@
 title: "Build Office solutions"
 description: Learn the differences between building and debugging Office projects and building and debugging other types of projects in Visual Studio, such as Windows Forms.
 ms.date: 08/14/2019
-ms.topic: conceptual
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"

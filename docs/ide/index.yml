@@ -1,7 +1,7 @@
 ### YamlMime:Landing
 
 title: Visual Studio IDE documentation
-summary: An integrated development environment (IDE) is a feature-rich application that can be used for many aspects of software development. The Visual Studio IDE makes it easy to edit, debug, build, and publish your app.
+summary: An integrated development environment (IDE) is a feature-rich application that can be used for many aspects of software development. The Visual Studio IDE makes it easy to edit, debug, build, and publish all your development projects.
 
 metadata:
   title: Visual Studio IDE documentation
@@ -13,7 +13,7 @@ metadata:
   author: ghogen
   ms.author: ghogen
   ms.manager: mijacobs
-  ms.date: 06/20/2024
+  ms.date: 06/4/2025
   ms.custom: vs-acquisition
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
@@ -32,7 +32,7 @@ landingContent:
       - linkListType: download
         links:
           - text: Download Visual Studio
-            url: https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta/?utm_medium=microsoft&utm_source=learn.microsoft.com&utm_campaign=navigation+cta&utm_content=download+vs2019
+            url: https://aka.ms/vs/download/?cid=learn-onpage-download-cta
       - linkListType: get-started
         links:
           - text: Install Visual Studio
@@ -101,6 +101,8 @@ landingContent:
             url: ../ide/visual-studio-github-copilot-chat.md
           - text: Debug with Copilot
             url: ../debugger/debug-with-copilot.md
+          - text: Profiling with Copilot
+            url: ../profiling/profile-with-copilot-agent.md
 
   # Card
   - title: Discover what's new

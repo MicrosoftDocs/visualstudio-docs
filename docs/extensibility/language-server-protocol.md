@@ -2,9 +2,9 @@
 title: Language Server Protocol Overview
 description: Explore the functionality and benefits of the Language Server Protocol, which is a useful framework for exposing language features to various tools.
 ms.date: 11/14/2017
-ms.topic: conceptual
-author: maiak
-ms.author: maiak
+ms.topic: concept-article
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

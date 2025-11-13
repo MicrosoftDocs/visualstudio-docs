@@ -2,14 +2,14 @@
 title: Managing VSPackages
 description: Learn about managing VSPackages, so that you know when you can simply use the default VSPackage management provided by Visual Studio, and how and when to customize it.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - VSPackages, autoloading
 - VSPackages, delayed loading
 - delay loading
 - VSPackages, loading
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---
@@ -36,7 +36,7 @@ In most cases you don't need to worry about managing VSPackages, since the proje
 Extensions can impact startup and solution load performance. Learn how Visual Studio extension impact is calculated and how it can be analyzed locally to test if an extension may be shown as a performance impacting extension. For more information, see [How to: Diagnose extension performance](how-to-diagnose-extension-performance.md).
 
 ## Troubleshoot VSPackages
- Find out the techniques for troubleshooting VSPackages that don't load or are experiencing errors: [Troubleshoot VSPackages](../extensibility/troubleshooting-vspackages.md)
+ Find out the techniques for troubleshooting VSPackages that don't load or are experiencing errors: [Troubleshoot VSPackages](/troubleshoot/developer/visualstudio/extensibility/troubleshooting-vspackages)
 
 ## Related content
 - [VSPackages](../extensibility/internals/vspackages.md)

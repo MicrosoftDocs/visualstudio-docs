@@ -2,7 +2,7 @@
 title: Go to File, Go to Symbol, Go to Line
 description: Explore how you can use Go To commands in Visual Studio to perform focused and filtered searches of your code.
 ms.date: 04/03/2025
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - code editor, go to
 - code editor, go to line
@@ -12,6 +12,7 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
+ms.custom: sfi-image-nochange
 
 #customer intent: As a developer, I want to explore Go To commands in Visual Studio so that I can quickly find specific items. 
 ---
@@ -92,5 +93,4 @@ Center window | Move the window to the center of the top of the code editor, ins
 ## Related content
 
 - [Navigate code](../ide/navigating-code.md)
-- [Go To Line dialog box](../ide/reference/go-to-line.md)
 - [Go To Definition and Peek Definition](../ide/go-to-and-peek-definition.md)

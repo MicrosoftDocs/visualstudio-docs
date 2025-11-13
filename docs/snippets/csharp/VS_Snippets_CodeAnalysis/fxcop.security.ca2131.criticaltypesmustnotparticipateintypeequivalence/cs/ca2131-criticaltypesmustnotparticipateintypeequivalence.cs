@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 namespace TransparencyWarningsDemo
 {
 
-    // CA2131 error - critical type participating in equivilance
+    // CA2131 error - critical type participating in equivalence
     [SecurityCritical]
     [TypeIdentifier("3a5b6203-2bf1-4f83-b5b4-1bdc334ad3ea", "ICriticalEquivilentInterface")]
     public interface ICriticalEquivilentInterface
@@ -20,7 +20,7 @@ namespace TransparencyWarningsDemo
     [TypeIdentifier("3a5b6203-2bf1-4f83-b5b4-1bdc334ad3ea", "ITransparentEquivilentInterface")]
     public interface ITransparentEquivilentInterface
     {
-        // CA2131 error - critical method in a type participating in equivilance
+        // CA2131 error - critical method in a type participating in equivalence
         [SecurityCritical]
         void CriticalMethod();
     }

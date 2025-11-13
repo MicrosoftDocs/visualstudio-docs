@@ -25,8 +25,7 @@ You specify that you want MSBuild to perform batching with a task by using the `
 > If you do not reference the item list elsewhere in the task attributes, or the metadata name may be ambiguous, you can use the %(<ItemCollection.ItemMetaDataName>) notation to fully qualify the item metadata value to use for batching.
 
 ```xml
-<Project
-    xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
 
     <ItemGroup>
         <Example Include="Item1">
@@ -55,8 +54,7 @@ MSBuild checks if the inputs and outputs of a target are up to date before it ru
 The following example shows a `Target` element that contains an `Outputs` attribute with the `%(ItemMetadataName)` notation. MSBuild will divide the `Example` item list into batches based on the `Color` item metadata, and analyze the timestamps of the output files for each batch. If the outputs from a batch aren't up to date, the target is run. Otherwise, the target is skipped.
 
 ```xml
-<Project
-    xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
 
     <ItemGroup>
         <Example Include="Item1">
@@ -229,7 +227,7 @@ It's important to note that the behavior differs when defined outside of any tar
 ### Item self-referencing metadata outside of any target
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
   <ItemGroup>
     <i Include='a/b.txt' MyPath='%(Filename)%(Extension)' />
     <i Include='c/d.txt' MyPath='%(Filename)%(Extension)' />
@@ -252,7 +250,7 @@ Metadata referencing is resolved per item instance (not affected by any previous
 ### Item self-referencing metadata inside of a target
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
   <Target Name='ItemInside'>  
     <ItemGroup>
       <i Include='a/b.txt' MyPath='%(Filename)%(Extension)' />
@@ -298,7 +296,7 @@ If the self-reference is intentional, you have few options depending on the actu
 If you want to prevent the batching behavior induced by the metadata reference, you can achieve that by defining a separate item and then leveraging the [transform](../msbuild/msbuild-transforms.md) operation to create item instances with the desired metadata:
 
 ```xml
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project>
   <Target Name='ItemOutside'>  
     <ItemGroup>
       <j Include='a/b.txt' />

@@ -5,12 +5,12 @@ author: mikadumont
 ms.author: midumont
 manager: mijacobs
 ms.subservice: code-analysis
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - code analysis, managed code
 - analyzers
 - Roslyn analyzers
-ms.date: 04/04/2024
+ms.date: 04/30/2025
 ---
 
 # Customize Roslyn analyzer rules
@@ -265,7 +265,7 @@ When you convert your existing rule set file to an EditorConfig file, save it at
 You can convert an existing rule set file to an EditorConfig file by using either the rule set editor or the command line.
 
 > [!NOTE]
-> .NET Core and .NET Standard projects don't support the menu commands for rule sets in Solution Explorer, for example, **Open Active Rule Set**. To specify a non-default rule set for a .NET Core or .NET Standard project, manually [add the **CodeAnalysisRuleSet** property](using-rule-sets-to-group-code-analysis-rules.md#specify-a-rule-set-for-a-project) to the project file. You can still configure the rules within the rule set in the rule set editor.
+> .NET Core and .NET 5+ projects don't support the menu commands for rule sets in Solution Explorer, for example, **Open Active Rule Set**. To specify a non-default rule set for a .NET Core or a .NET 5+ project, manually [add the **CodeAnalysisRuleSet** property](using-rule-sets-to-group-code-analysis-rules.md#specify-a-rule-set-for-a-project) to the project file. You can still configure the rules within the rule set in the rule set editor.
 
 To use the rule set editor, follow these steps. If your project already uses a specific rule set file for its `CodeAnalysisRuleSet` property value, you can convert it to an equivalent EditorConfig file from the rule set editor:
 
@@ -280,6 +280,11 @@ To use the rule set editor, follow these steps. If your project already uses a s
 1. From the **Save As** dialog, select the directory where you want to generate the EditorConfig file, and then select **Save**.
 
    The generated EditorConfig opens in the editor. Additionally, the MSBuild property `CodeAnalysisRuleSet` is updated in the project file so that it no longer references the original rule set file.
+
+   The original rule set file can be removed from the project.
+
+   > [!NOTE]
+   > In a .NET Framework project, the default rule set file can't be migrated or removed from the project.
 
 To use the command line, follow these steps:
 
@@ -385,6 +390,6 @@ In a .NET Core project, if you add a reference to a project that has NuGet analy
 
 - [Overview of code analyzers in Visual Studio](../code-quality/roslyn-analyzers-overview.md)
 - [Submit a code analyzer bug](https://github.com/dotnet/roslyn-analyzers/issues)
-- [Use rule sets](../code-quality/using-rule-sets-to-group-code-analysis-rules.md)
+- [Use rule sets](/previous-versions/visualstudio/visual-studio-2019/code-quality/using-rule-sets-to-group-code-analysis-rules)
 - [Suppress code analysis violations](../code-quality/in-source-suppression-overview.md)
 - [Configuration options for code analysis](/dotnet/fundamentals/code-analysis/configuration-options)

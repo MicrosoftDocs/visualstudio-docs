@@ -3,8 +3,8 @@ title: 'Walkthrough: Implementing Code Snippets'
 description: You can create code snippets and include them in an editor extension. Learn how to create/register code snippets by using this walkthrough.
 ms.date: 11/04/2016
 ms.topic: how-to
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 dev_langs:

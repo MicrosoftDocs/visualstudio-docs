@@ -6,6 +6,7 @@ manager: shve
 ms.date: 09/16/2024
 ms.topic: how-to
 description: Configure admins who can assign subscriptions, edit assignments, add or delete subscriptions, and perform other subscription management tasks.
+ms.custom: sfi-image-nochange
 ---
 # Set up admins for Visual Studio monthly subscriptions
 

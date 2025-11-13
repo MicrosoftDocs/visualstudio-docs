@@ -7,8 +7,8 @@ helpviewer_keywords:
 - property pages, adding
 - property pages, project subtypes
 - property pages, removing
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 dev_langs:

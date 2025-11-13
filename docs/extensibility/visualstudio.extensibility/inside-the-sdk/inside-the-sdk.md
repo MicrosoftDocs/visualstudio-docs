@@ -1,13 +1,14 @@
 ---
 title: Inside Visual Studio Extensibility SDK
 description: Learn about the components that make up the VisualStudio.Extensibility SDK.
-ms.topic: conceptual
+ms.topic: article
 ms.date: 3/31/2023
-ms.author: maiak
+ms.author: tinali
 monikerRange: ">=vs-2022"
-author: maiak
+author: tinaschrepfer
 manager: mijacobs
 ms.subservice: extensibility-integration
+ms.update-cycle: 365-days
 ---
 
 # Inside Visual Studio Extensibility SDK

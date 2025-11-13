@@ -3,9 +3,10 @@ title: Assign subscriptions to multiple users
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 01/28/2025
-ms.topic: conceptual
+ms.date: 10/10/2025
+ms.topic: how-to
 description: Assign multiple subscriptions to one or more users at the same time with the bulk operation features in the Subscriptions Admin Portal.
+ms.custom: sfi-image-nochange
 ---
 
 # Assign subscriptions to multiple users
@@ -50,11 +51,11 @@ To add large groups of users, you can use the bulk add feature, or if your organ
 
 1. Navigate to the Excel file that you saved, and then select **OK**.
    > [!div class="mx-imgBorder"]
-   > ![Upload the Excel template to upload multiple subscribers](media/bulk-upload-subscribers.png "Screenshot of the Upload multiple subscribers dialog. The name of the completed upload template is highlighed.")
+   > ![Upload the Excel template to upload multiple subscribers](media/bulk-upload-subscribers.png "Screenshot of the Upload multiple subscribers dialog. The name of the completed upload template is highlighted.")
 
     An upload progress dialog appears.
 
-    If the template contains errors, the upload fails. You're shown the errors so that you can correct the template and attempt the bulk upload again.
+    If the template contains errors, the upload fails. You're presented with the errors so that you can correct the template and attempt the bulk upload again.
    > [!div class="mx-imgBorder"]
    > ![Error message if the upload of multiple subscribers fails](_img/assign-license-bulk/bulk-add-upload-failure.png "Screenshot of the Manage subscribers page showing an error message indicating the bulk upload has failed.")
 
@@ -74,18 +75,18 @@ To add large groups of users, you can use the bulk add feature, or if your organ
 
 ## Use Microsoft Entra groups to assign subscriptions 
 
-Using this feature makes it easy to stay on top of your subscription assignments. Add Microsoft Entra groups in the Subscriptions Admin Portal to ensure that everyone in the group is assigned a subscription. When members leave your organization and are removed from Microsoft Entra ID, their access to subscriptions is also removed automatically for you. 
+Using this feature makes it easy to stay on top of your subscription assignments. Add Microsoft Entra groups in the Subscriptions Admin Portal to ensure that everyone in the group is assigned to a subscription. When members leave your organization and are removed from Microsoft Entra ID, their access to subscriptions is also removed automatically for you. 
 
 > [!IMPORTANT]
 >
 > The following limitations apply to the use of Microsoft Entra groups for adding subscribers:
-> + **Only TRUSTED agreements are can use Microsoft Entra groups.**
-> + **MPSA agreements can overallocate subscriptions but can't use Entra groups.**
-> + The admin must be a member of the Microsoft Entra tenant when initially adding a group to the admin portal. After the group has been added, changes to the membership of the groups does not require admin involvement. 
-> + Groups must contain at least one member. Empty groups are not supported.
-> + All users must be in the top level of the group. Nested groups are not supported.
+> + **Only TRUSTED agreements can use Microsoft Entra groups.**
+> + **MPSA agreements can't use Entra groups.**
+> + The admin must be a member of the Microsoft Entra tenant when initially adding a group to the admin portal. After the group is added, changes to the membership of the groups doesn't require admin involvement. 
+> + Groups must contain at least one member. Empty groups aren't supported.
+> + All users must be in the top level of the group. Nested groups aren't supported.
 > + All members of the group must have an email address associated with their Microsoft Entra account.
-> + Separate email addresses for notifications are not supported for subscriptions added using Microsoft Entra groups. 
+> + Separate email addresses for notifications aren't supported for subscriptions added using Microsoft Entra groups. 
 
 <a name='watch-this-video-or-read-on-to-learn-more-about-adding-subscribers-using-the-entra-id-group-feature'></a>
 
@@ -116,9 +117,9 @@ Using this feature makes it easy to stay on top of your subscription assignments
 8. Select **View subscribers** to display the members of the group. You can view details about the subscribers in the group. However, you can't make any edits to the subscribers or the subscriptions assigned to them. 
 
 > [!NOTE]
-> If you've already assigned subscriptions individually to users who are subsequently added as part of a Microsoft Entra group, they will be added as part of the group and will no longer be listed individually. If the individual subscription is for a different subscription level, however, they will have two subscriptions. Example:  If a user has an individual Visual Studio Professional subscription, and they are a member of a group to which you assign Visual Studio Enterprise subscriptions, they will have both. 
+> If you already assigned subscriptions individually to users who are later added as part of a Microsoft Entra group, they're added as part of the group and no longer be listed individually. If the individual subscription is for a different subscription level, however, they have two subscriptions. Example: If a user has an individual Visual Studio Professional subscription, and they're a member of a group to which you assign Visual Studio Enterprise subscriptions, they have both. 
 >
-> If you remove a subscriber from a Microsoft Entra group that has had subscriptions assigned to it, it can take up to 24 hours for the update to be reflected in the admin portal. 
+> If you remove a subscriber from a Microsoft Entra group that has subscriptions assigned to it, it can take up to 24 hours for the update to be reflected in the admin portal. 
 
 ## Frequently asked questions
 

@@ -3,9 +3,9 @@ title: 'Workflow Designer: Debug XAML'
 description: Learn how workflows are defined in terms of XAML and how to debug XAML with the Workflow Designer.
 ms.date: 11/04/2016
 ms.topic: how-to
-author: jodavis
-ms.author: jodavis
-manager: mijacobs
+author: sayedihashimi
+ms.author: sayedha
+manager: timheuer
 ms.subservice: workflow-designer
 ---
 # Debug XAML with the Workflow Designer

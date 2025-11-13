@@ -2,7 +2,7 @@
 title: "Securing ClickOnce Applications"
 description: Learn about the implications of code access security constraints in the .NET Framework that can limit access to code for your ClickOnce applications.
 ms.date: "02/17/2017"
-ms.topic: "conceptual"
+ms.topic: concept-article
 dev_langs:
   - "VB"
   - "CSharp"
@@ -39,7 +39,7 @@ ClickOnce applications are subject to code access security constraints in the .N
 ## Code access security policies
  Permissions for an application are determined by the settings in the [\<trustInfo> Element](../deployment/trustinfo-element-clickonce-application.md) element of the application manifest. Visual Studio automatically generates this information based on the settings on the project's **Security** property page. A ClickOnce application is granted only the specific permissions that it requests. For example, where file access requires full-trust permissions, if the application requests file-access permission, it will only be granted file-access permission, not full-trust permissions. When developing your ClickOnce application, you should make sure that you request only the specific permissions that the application needs. In most cases, you can use the Internet or Local Intranet zones to limit your application to partial trust. For more information, see [How to: Set a security zone for a ClickOnce application](../deployment/how-to-enable-clickonce-security-settings.md#set-a-security-zone-for-a-clickonce-application). If your application requires custom permissions, you can create a custom zone. For more information, see [How to: Set custom permissions for a ClickOnce application](../deployment/how-to-enable-clickonce-security-settings.md#set-custom-permissions-for-a-clickonce-application).
 
- [!INCLUDE[ndptecclick](../deployment/includes/dotnet-feature-unsupported.md)]
+ [!INCLUDE[ndptecclick](../deployment/includes/code-access-security.md)]
 
  Including a permission that isn't part of the default permission set for the zone from which the application is deployed will cause the end user to be prompted to grant permission at install or update time. To prevent users from being prompted, a system administrator can specify a ClickOnce deployment policy that defines a specific application publisher as a trusted source. On computers where this policy is deployed, permissions will automatically be granted and the user won't be prompted.
 
@@ -48,7 +48,7 @@ ClickOnce applications are subject to code access security constraints in the .N
  For more information about code access security and ClickOnce, see [Code access security for ClickOnce applications](../deployment/code-access-security-for-clickonce-applications.md).
 
 ## Code-signing certificates
- To publish an application by using ClickOnce deployment, you can sign the application and deployment manifests for the application by using a public/private key pair. The tools for signing a manifest are available on the **Signing** page of the **Project Designer**. For more information, see [Signing Page, Project Designer](../ide/reference/signing-page-project-designer.md).
+ To publish an application by using ClickOnce deployment, you can sign the application and deployment manifests for the application by using a public/private key pair. The tools for signing a manifest are available on the **Signing** page of the **Project Designer**. For more information, see [Signing Page, Project Designer](/visualstudio/ide/how-to-sign-application-and-deployment-manifests).
 
  After the manifests are signed, the publisher information based on the Authenticode signature will be displayed to the user in the permissions dialog box during installation, to show the user that the application originated from a trusted source.
 

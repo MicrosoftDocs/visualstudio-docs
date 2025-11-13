@@ -10,8 +10,8 @@ helpviewer_keywords:
 - properties window
 - tutorials
 - tool windows
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

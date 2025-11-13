@@ -170,7 +170,7 @@ void DoWork(CancellationToken cancellationToken = default) { ... }
 
 ### Add usings/imports for types in reference assemblies, NuGet packages, or other types in your solution
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 Using types located in other projects in your solution will display the Quick Action automatically, however the others need to be enabled from the **Tools > Options > Text Editor > C#** or **Visual Basic > Advanced** tab:
 

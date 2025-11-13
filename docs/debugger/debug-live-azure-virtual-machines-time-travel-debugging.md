@@ -12,6 +12,8 @@ monikerRange: '>= vs-2019'
 ---
 # Use time travel debugging to record and replay ASP.NET apps on Azure VMs
 
+[!INCLUDE [debug-live-deprecation](includes/debug-live-deprecation.md)]
+
 Time travel debugging in Visual Studio Enterprise can record a web app running on an Azure virtual machine (VM), and then accurately reconstruct and replay the execution path. Time Travel Debugging (TTD) was added to Visual Studio 2019 Enterprise as a preview feature, and is now integrated into the Visual Studio Snapshot Debugger.
 
 Time travel debugging lets you rewind and replay each line of code as many times as you want. This procedure can help you isolate and identify problems that might occur only in production environments.
@@ -52,7 +54,7 @@ In this tutorial, you:
    ![Screenshot that shows snapshot debugging mode.](../debugger/media/snapshot-message.png)
 
    > [!NOTE]
-   > The Application Insights site extension also supports Snapshot Debugging. If you get a **site extension out of date** error message, see [Site Extension Upgrade](../debugger/debug-live-azure-apps-troubleshooting.md#site-extension-upgrade) for upgrading details.
+   > The Application Insights site extension also supports Snapshot Debugging. If you get a **site extension out of date** error message, see [Site Extension Upgrade](/troubleshoot/developer/visualstudio/debuggers/debug-live-azure-apps-troubleshooting#site-extension-upgrade) for upgrading details.
 
 1. The metadata for the modules isn't initially activated. Navigate to the web app to load the modules.
 
@@ -100,7 +102,7 @@ By default, the snappoint captures only one snapshot. After the snappoint captur
 
 The website is still live, and end users aren't impacted by time travel debugging activity.
 
-For more information and help, see [Troubleshooting and known issues for snapshot debugging in Visual Studio](../debugger/debug-live-azure-apps-troubleshooting.md).
+For more information and help, see [Troubleshooting and known issues for snapshot debugging in Visual Studio](/troubleshoot/developer/visualstudio/debuggers/debug-live-azure-apps-troubleshooting).
 
 ## Set a conditional snappoint
 

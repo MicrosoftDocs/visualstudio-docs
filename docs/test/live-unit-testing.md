@@ -71,23 +71,23 @@ For more complex repositories, you might need to specify your own ignore file. S
 The *lutignore* file uses the same format as a *gitignore* file. It should contain rules that match the folders or files generated during the build so that they're not copied into the workspace. For most of the default project templates, the following ignore file is sufficient:
 
 ```
-[BB]IN
-[OO]BJ
+[Bb]in
+[Oo]bj
 # WILL NOT COPY ANY BIN AND OBJ FOLDERS TO THE LIVE UNIT TESTING WORKSPACE
 ```
 
 If your repository has a single build folder, the ignore file should list that folder instead:
 
 ```
-[AA]RTIFACTS/
+[Aa]rtifacts/
 # WILL NOT COPY THE ARTIFACTS FOLDER TO THE LIVE UNIT TESTING WORKSPACE
 ```
 
 If your repository includes some other tools in the build folder, these tools should be excluded in the set of matching patterns:
 
 ```
-[AA]RTIFACTS/
-![AA]RTIFACTS/TOOLS/
+[Aa]rtifacts/
+![Aa]rtifacts/tools/
 # WILL NOT COPY THE ARTIFACTS FOLDER TO THE LIVE UNIT TESTING WORKSPACE
 # HOWEVER IT WILL COPY THE TOOLS SUBFOLDER THAT MIGHT CONTAIN TOOLS AND UTILITIES
 ```

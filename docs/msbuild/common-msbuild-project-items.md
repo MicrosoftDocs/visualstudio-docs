@@ -1,6 +1,6 @@
 ---
 title: Common MSBuild Project Items
-description: Learn about common MSBuild project items. Items are named references to one or more files, and have metadata like file names, paths, and version numbers.
+description: Learn about common MSBuild project items. Items are named references to one or more strings (for example, filenames), and have metadata like file names, paths, and version numbers.
 ms.date: 4/2/2025
 ms.topic: reference
 dev_langs:
@@ -16,13 +16,15 @@ ms.subservice: msbuild
 ---
 # Common MSBuild project items
 
-In MSBuild, an item is a named reference to one or more files. Items contain metadata such as file names, paths, and version numbers. All project types in Visual Studio have several items in common. These items are defined in the file *Microsoft.Build.CommonTypes.xsd*.
+In MSBuild, an item is a named reference to one or more strings, such as filenames. Items contain metadata such as file names, paths, and version numbers. All project types in Visual Studio have several items in common. These items are defined in the file *Microsoft.Build.CommonTypes.xsd*.
 
 This article lists all the common project items defined in MSBuild itself. Items and properties provided by the .NET SDK are documented at [MSBuild reference for Microsoft.Net.Sdk](/dotnet/core/project-sdk/msbuild-props).
 
+MSBuild itself doesn't set any value for optional metadata, and unset metadata is equivalent to an empty string. Therefore, the default value for optional metadata is the empty string. However, metadata values are sometimes set in SDK files that are implicitly imported. The values depend on the SDK being referenced.
+
 ## `Reference`
 
-Represents an assembly (managed) reference in the project.
+Represents a .NET assembly (managed) reference in the project.
 
 |Item metadata name|Description|
 |---------------|-----------------|
@@ -31,11 +33,16 @@ Represents an assembly (managed) reference in the project.
 |FusionName|Optional string. Specifies the simple or strong fusion name for the item.<br /><br /> When this attribute is present, it can save time because the assembly file doesn't have to be opened to obtain the fusion name.|
 |SpecificVersion|Optional boolean. Specifies whether only the version in the fusion name should be referenced.|
 |Aliases|Optional string. Any aliases for the reference.|
-|Private|Optional boolean. Specifies whether the reference should be copied to the output folder. This attribute matches the **Copy Local** property of the reference that's in the Visual Studio IDE.|
+|Private|Optional boolean. Specifies whether the reference should be copied to the output folder. This attribute matches the **Copy Local** property of the reference that's in the Visual Studio IDE. Defaults to `false`.|
+
+> [!NOTE]
+> The `Reference` item type can also be use to reference pregenerated wrapper assemblies for native COM objects, for example, if you used [`tlbimp.exe`](/dotnet/framework/tools/tlbimp-exe-type-library-importer) to generate a PIA (Primary Interop Assembly). This type of reference is an appropriate choice when you want to pregenerate the COM wrapper assemblies yourself with known inputs, instead of relying on MSBuild's algorithm to generate COM wrappers at build time, which introduces a dependency on the state of the system registry on the build machine where MSBuild is run. 
 
 ## COMReference
 
-Represents a COM (unmanaged) component reference in the project. This item applies only to .NET projects.
+Represents a COM (unmanaged) component reference in the project. This item is used by the [ResolveComReference task](./resolvecomreference-task.md), which generates the wrapper assemblies, or, if `EmbedInteropTypes` is used, embeds the interop types in your assembly. Using this type of reference introduces a dependency on the system registry on the build machine, which is used to look up the referenced COM object. COM artifacts and COM entries in the registry can change when products are installed, updated, or uninstalled on the machine (or when you run the same build on a different machine), potentially producing a different wrapper assembly even if the build logic hasn't changed.
+
+This item doesn't apply to non-.NET projects.
 
 |Item metadata name|Description|
 |---------------|-----------------|
@@ -46,16 +53,22 @@ Represents a COM (unmanaged) component reference in the project. This item appli
 |EmbedInteropTypes|Optional boolean. If true, embed the interop types from this reference directly into your assembly rather than generating an interop DLL.|
 |Lcid|Optional string. The LocaleID for the component.|
 |WrapperTool|Optional string. The name of the wrapper tool that is used on the component. Values are:<br /><br />1. primary<br />2. tlbimp<br />3. primaryortlbimp<br />4. `aximp`|
-|Isolated|Optional boolean. Specifies whether the component is a reg-free component.|
+|Isolated|Optional boolean. Specifies whether the component is a reg-free component. Defaults to `false`.|
+
+See [Troubleshoot COM references](troubleshoot-com-references.md).
 
 ## COMFileReference
 
-Represents a list of type libraries that are passed to the `TypeLibFiles` parameter of the [ResolveComReference](resolvecomreference-task.md) target. This item applies only to .NET projects.
+Represents a list of type libraries to reference by file path, instead of using the system registry. This type of reference can be a good alternative to COMReference in cases where you want to avoid a dependency on the build machine's registry, either because the account that runs the build doesn't have elevated privileges to edit the registry on the build server, or you don't want the build to have a dependency on the state of the registry. If you use `COMFileReference` to reference an artifact on a system path, then your build has a dependency on the system state. If the system artifact changes due to a change in the state of the system, such as when products are installed, updated, or uninstalled (or if you run the same build on a different machine), then the wrapper assembly can change, even if the build logic hasn't changed. To ensure a consistent build result, you can cache a known copy of the COM artifact in a place you control, such as under your project or solution folder, and reference that instead of the system artifact.
+
+This item doesn't apply to non-.NET projects.
 
 |Item metadata name|Description|
 |---------------|-----------------|
-|EmbedInteropTypes|Optional boolean. If true, embed the interop types from this reference directly into your assembly rather than generating an interop DLL.|
+|EmbedInteropTypes|Optional boolean. If true, embed the interop types from this reference directly into your assembly rather than generating an interop DLL. Default is false.|
 |WrapperTool|Optional string. The name of the wrapper tool that is used on the component. Values are:<br /><br />1.  primary<br />2. tlbimp<br />3. primaryortlbimp<br />4. `aximp`|
+
+See [Troubleshoot COM references](troubleshoot-com-references.md).
 
 ## NativeReference
 
@@ -77,6 +90,7 @@ Represents a reference to another project. `ProjectReference` items are transfor
 |Project|Optional string. A GUID for the reference, in the form {12345678-1234-1234-1234-123456781234}.|
 |OutputItemType|Optional string. Item type to emit target outputs into. Default is blank. If the Reference metadata is set to "true" (default), then target outputs become references for the compiler.|
 |ReferenceOutputAssembly|Optional boolean. If set to `false`, doesn't include the output of the referenced project as a [Reference](#reference) of this project, but still ensures that the other project builds before this one. Defaults to `true`.|
+|BuildReference| Optional boolean. Defaults to `true`. If set to `false`, this ProjectReference will not be built by MSBuild. Its default targets (see 'Targets' below) will not be called at all.
 |Private|Optional boolean. Specifies whether the reference should be copied to the output folder. This attribute matches the **Copy Local** property of the reference that's in the Visual Studio IDE.|
 |SetConfiguration|Optional string. Sets the global property `Configuration` for the referenced project, for example `Configuration=Release`.|
 |SetPlatform|Optional string. Sets the global property `Platform` for the referenced project, for example `Platform=AnyCPU`.|
@@ -94,10 +108,10 @@ Represents the source files for the compiler.
 | Item metadata name | Description |
 |-----------------------| - |
 | DependentUpon | Optional string. Specifies the file this file depends on to compile correctly. |
-| AutoGen | Optional boolean. Indicates whether the file was generated for the project by the Visual Studio integrated development environment (IDE). |
+| AutoGen | Optional boolean. Indicates whether the file was generated for the project by the Visual Studio integrated development environment (IDE). Defaults to `false`. |
 | Link | Optional string. The notational path to be displayed when the file is physically located outside the influence of the project file. |
-| Visible | Optional boolean. Indicates whether to display the file in **Solution Explorer** in Visual Studio. |
-| CopyToOutputDirectory | Optional string. Determines whether to copy the file to the output directory. Values are:<br /><br /> 1. Never<br />2. Always<br />3. PreserveNewest<br />4. IfDifferent |
+| Visible | Optional boolean. Indicates whether to display the file in **Solution Explorer** in Visual Studio. Defaults to `true`. |
+| CopyToOutputDirectory | Optional string. Determines whether to copy the file to the output directory. Values are:<br /><br /> 1. Never<br />2. Always<br />3. PreserveNewest<br />4. IfDifferent<br/><br/>Defaults to `Never` if `DefineExplicitDefaults` is set to `true`; otherwise, defaults to the empty string. |
 
 ## EmbeddedResource
 
@@ -113,7 +127,7 @@ Represents resources to be embedded in the generated assembly.
 | CustomToolNamespace | Optional string. The namespace in which any file generator that runs on this item should create code. |
 | Link | Optional string. The notational path is displayed if the file is physically located outside the influence of the project. |
 | Visible | Optional boolean. Indicates whether to display the file in **Solution Explorer** in Visual Studio. |
-| CopyToOutputDirectory | Optional string. Determines whether to copy the file to the output directory. Values are:<br /><br /> 1. Never<br />2. Always<br />3. PreserveNewest<br />4. IfDifferent |
+| CopyToOutputDirectory | Optional string. Determines whether to copy the file to the output directory. Values are:<br /><br /> 1. Never<br />2. Always<br />3. PreserveNewest<br />4. IfDifferent<br/><br/>Defaults to `Never` if `DefineExplicitDefaults` is set to `true`; otherwise, defaults to the empty string. |
 | LogicalName | Required string. The logical name of the embedded resource. |
 
 ## Content
@@ -130,7 +144,7 @@ Represents files that aren't compiled into the project, but may be embedded or p
 | PublishState | Required string. The publish state of the content, either:<br /><br /> - Default<br />-   Included<br />-  Excluded<br />- DataFile<br />- Prerequisite |
 | IsAssembly | Optional boolean. Specifies whether the file is an assembly. |
 | Visible | Optional boolean. Indicates whether to display the file in **Solution Explorer** in Visual Studio. |
-| CopyToOutputDirectory | Optional string. Determines whether to copy the file to the output directory. Values are:<br /><br /> 1. Never<br />2. Always<br />3. PreserveNewest<br />4. IfDifferent |
+| CopyToOutputDirectory | Optional string. Determines whether to copy the file to the output directory. Values are:<br /><br /> 1. Never<br />2. Always<br />3. PreserveNewest<br />4. IfDifferent<br/><br/>Defaults to `Never` if `DefineExplicitDefaults` is set to `true`; otherwise, defaults to the empty string. |
 | TargetPath | Optional string. The output path (relative to the configuration- and/or platform-specific output directory) of an item, including the filename. This respects the `Link` metadata, if provided. If TargetPath isn't provided, it's computed during the build process. See [AssignTargetPath](assigntargetpath-task.md). |
 
 ## None
@@ -145,7 +159,7 @@ Represents files that should have no role in the build process.
 | CustomToolNamespace | Optional string. The namespace in which any file generator that runs on this item should create code. |
 | Link | Optional string. The notational path to be displayed if the file is physically located outside the influence of the project. |
 | Visible | Optional boolean. Indicates whether to display the file in **Solution Explorer** in Visual Studio. |
-| CopyToOutputDirectory | Optional string. Determines whether to copy the file to the output directory. Values are:<br /><br /> 1. Never<br />2. Always<br />3. PreserveNewest<br />4. IfDifferent |
+| CopyToOutputDirectory | Optional string. Determines whether to copy the file to the output directory. Values are:<br /><br /> 1. Never<br />2. Always<br />3. PreserveNewest<br />4. IfDifferent<br/><br/>Defaults to `Never` if `DefineExplicitDefaults` is set to `true`; otherwise, defaults to the empty string. |
 
 ## AssemblyMetadata
 

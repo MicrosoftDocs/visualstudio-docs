@@ -2,7 +2,7 @@
 title: Migrate from FxCop analyzers to .NET analyzers
 description: Migrate your analysis process from binary analysis with FxCop code analysis to .NET analyzers (Roslyn analyzers) for source analysis.
 ms.date: 03/06/2020
-ms.topic: conceptual
+ms.topic: upgrade-and-migration-article
 f1_keywords:
  - "vs.projectpropertypages.codeanalysis"
 helpviewer_keywords:
@@ -17,7 +17,7 @@ ms.subservice: code-analysis
 
 # Migrate from NuGet FxCop analyzers to .NET analyzers
 
-Source analysis by .NET Compiler Platform ("Roslyn") analyzers replaces [legacy analysis](code-analysis-for-managed-code-overview.md) for managed code. Many of the legacy analysis (FxCop) rules have already been rewritten as source analyzers.
+Source analysis by .NET Compiler Platform ("Roslyn") analyzers replaces [legacy analysis](/previous-versions/visualstudio/visual-studio-2019/code-quality/code-analysis-for-managed-code-overview) for managed code. Many of the legacy analysis (FxCop) rules have already been rewritten as source analyzers.
 
 Prior to Visual Studio 2019 16.8 and .NET 5.0, these analyzers shipped as `Microsoft.CodeAnalysis.FxCopAnalyzers` [NuGet package](https://www.nuget.org/packages/Microsoft.CodeAnalysis.FxCopAnalyzers).
 

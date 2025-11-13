@@ -2,11 +2,11 @@
 title: Initialization Sequence of Project Subtypes
 description: Learn about the initialization sequence in the Visual Studio environment for a project system aggregated by multiple project subtypes.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - project subtypes, initialization sequence
-author: maiak
-ms.author: maiak
+author: tinaschrepfer
+ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
 ---

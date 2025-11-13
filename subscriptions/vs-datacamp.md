@@ -3,7 +3,7 @@ title: Activate DataCamp and grow your data science skills
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 09/11/2024
+ms.date: 11/07/2025
 ms.topic: how-to
 description: Activate and explore the Datacamp training benefit available in eligible Visual Studio subscriptions, and find answers to frequently asked questions.
 ---
@@ -68,7 +68,7 @@ You can stop at any point, and resume your training in your next session. Just v
 \*  *Includes:  Not for Resale (NFR), FTE, Most Valuable Professional (MVP), Regional Director (RD), Microsoft Cloud Partner Program, Visual Studio Industry Partner (VSIP), Microsoft Certified Trainer, BizSpark, Imagine. Excludes: NFR Basic*
 
 > [!NOTE]
-> Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
+> Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There are no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
 
 Not sure which subscription you're using? Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you might have one or more assigned to a different email address. You need to sign in with that email address to see those subscriptions.
 
@@ -92,6 +92,5 @@ Not sure which subscription you're using? Connect to [https://my.visualstudio.co
 
 Check out more professional development opportunities in your subscription:
 + [Pluralsight](vs-pluralsight.md)
-+ [LinkedIn Learning](vs-linkedin-learning.md)
 
 If you haven't already activated the Azure DevTest individual credit benefit that comes with your subscription, visit [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits?wt.mc_id=o~msft~docs). Select the Azure tile in the Tools category to set up your Azure subscription and redeem your Azure DevTest individual credit.

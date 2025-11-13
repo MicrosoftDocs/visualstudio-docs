@@ -1,10 +1,10 @@
 ---
 title: "Change Log (Visual Studio Tools for Unity, Windows)"
 description: View the change log for Visual Studio Tools for Unity, Windows. See changes from version 1.0.0.0 through 4.7.0.0 and beyond.
-ms.date: "6/21/2024"
+ms.date: "9/17/2025"
 ms.subservice: unity-tools
 ms.service: visual-studio
-ms.topic: "conceptual"
+ms.topic: article
 author: jbevain
 ms.author: jbevain
 manager: crdun
@@ -12,6 +12,99 @@ manager: crdun
 # Change log (Visual Studio Tools for Unity, Windows)
 
 Visual Studio Tools for Unity change log.
+
+## 18.0.2.0
+Released September 9, 2025
+
+### New Features
+
+- **Integration:**
+
+  - Added `Odin` support for serialization attributes in [`USP0004`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0004.md), [`USP0006`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0006.md), [`USP0007`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0007.md) and [`USP0013`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0013.md) suppressors.
+
+  - Added `UniTask` support for all message-based diagnostics and suppressors.
+
+  - Added [`USP0023`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0023.md) suppressor, Don't flag incorrect naming styles for Unity messages.
+
+  - Added [`UNT0039`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0039.md) diagnostic, Use `RequireComponent` attribute when self-invoking `GetComponent`.
+
+  - Added ignored members to [`UNT0031`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0031.md) diagnostic, Asset operations in `LoadAttribute` method.
+
+### Bug fixes
+
+- **Integration:**
+
+  - Stability fixes when decoding messages coming from the debuggee.
+
+  - Fixed intellisense: Do not commit on '(' or ')' characters.
+
+## 18.0.1.0
+Released August 11, 2025
+
+### Bug fixes
+
+- **Integration:**
+
+  - Stability fixes with [`UNT0035`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0035.md) and [`UNT0034`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0034.md) analyzers regarding `Vector` conversions.
+
+  - Stability fixes with [`USP0009`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/USP0009.md) suppressor regarding `ContextMenu` attribute usage.
+
+  - Stability fixes with thread enumeration.
+
+## 18.0.0.0
+Released July 7, 2025
+
+### New Features
+
+- **Integration:**
+
+  - Added support for Visual Studio 2026.
+
+  - Added protected scope for the unity message settings.
+
+### Bug fixes
+
+- **Integration:**
+
+  - Minor UI fixes.
+
+## 17.14.1.0
+Released May 13, 2025
+
+### New Features
+
+- **Integration:**
+
+  - Added a result view for `IEnumerable` types.
+
+### Bug fixes
+
+- **Integration:**
+
+  - Improved messaging between Unity and Visual Studio.
+
+  - Optimized UPE in the context of large projects. 
+
+## 17.14.0.0
+Released March 11, 2025
+
+### New Features
+
+- **Integration:**
+
+  - Added support for `Unity.Properties.CreateProperty` in [`UNT0004`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0004.md), [`UNT0006`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0006.md), [`UNT0007`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0007.md) and [`UNT0013`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0013.md) suppressors.
+  
+### Bug fixes
+
+- **Debugging:**
+
+  - Improved thread management.
+
+- **Integration:**
+ 
+  - Fixed stability issues with debug targets when using SDK-Style projects.
+
+  - Fixed [`UNT0006`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0014.md) diagnostic when a Unity message is wrongly referenced.
 
 ## 17.13.1.0
 Released February 11, 2025

@@ -7,6 +7,7 @@ ms.topic: how-to
 ms.date: 03/06/2024
 ms.author: mikejo
 ms.subservice: debug-diagnostics
+ms.custom: sfi-image-nochange
 ---
 
 # Debug an Azure Cloud Services (extended support) service in Visual Studio
@@ -15,7 +16,7 @@ Visual Studio gives you different options for debugging Azure Cloud Services (ex
 
 ## Prerequisites
 
-- Visual Studio (see [Visual Studio downloads] (https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta)) with the **Azure development** workload installed, and the Individual Component **.NET Framework project and item templates** installed. See [Modify Visual Studio](../install/modify-visual-studio.md).
+- Visual Studio (see [Visual Studio downloads] (https://aka.ms/vs/download/?cid=learn-onpage-download-cta)) with the **Azure development** workload installed, and the Individual Component **.NET Framework project and item templates** installed. See [Modify Visual Studio](../install/modify-visual-studio.md).
 - [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
 
 ## Debug your cloud service on your local computer
@@ -240,7 +241,7 @@ You can debug programs that run in Azure App Service by using the Attach to Proc
 You can debug programs that run on Azure Virtual Machines by using Server Explorer in Visual Studio. When you enable remote debugging on an Azure virtual machine, Azure installs the remote debugging extension on the virtual machine. Then, you can attach to processes on the virtual machine and debug as you normally would.
 
 > [!NOTE]
-> Virtual Machines created through the Azure Resource Manager stack can be remotely debugged by using Cloud Explorer in Visual Studio 2019. For more information, see [Managing Azure Resources with Cloud Explorer](vs-azure-tools-resources-managing-with-cloud-explorer.md).
+> Virtual Machines created through the Azure Resource Manager stack can be remotely debugged by using Cloud Explorer in Visual Studio 2019. For more information, see [Managing Azure Resources with Cloud Explorer](/previous-versions/visualstudio/visual-studio-2017/azure/vs-azure-tools-resources-managing-with-cloud-explorer).
 
 ### To debug an Azure virtual machine
 

@@ -64,7 +64,7 @@ private:
       this->Button1->Name = "Button1";
       this->Button1->Size = System::Drawing::Size( 96, 56 );
       this->Button1->TabIndex = 0;
-      this->Button1->Text = "Click me for an new inactivated form.";
+      this->Button1->Text = "Click me for an new deactivated form.";
       this->Button1->Click += gcnew System::EventHandler( this, &Form1::Button1_Click );
       
       //

@@ -2,7 +2,7 @@
 title: Preview code changes
 description: Learn how to use the Preview Changes window to go over the modifications that are going to be made to your project before you accept them.
 ms.date: 12/16/2016
-ms.topic: conceptual
+ms.topic: article
 author: Mikejo5000
 ms.author: mikejo
 manager: mijacobs
