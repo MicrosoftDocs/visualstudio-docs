@@ -1,7 +1,7 @@
 ---
 title: Validation in a Domain-Specific Language
 description: Learn how you can define validation constraints to verify that the model created by the user is meaningful.
-ms.date: 11/04/2016
+ms.date: 11/13/2025
 ms.topic: conceptual
 helpviewer_keywords:
 - Domain-Specific Language, constraints

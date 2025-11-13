@@ -1,7 +1,7 @@
 ---
 title: Getting Started with Domain-Specific Languages
 description: Explore the basic concepts to define and use a domain-specific language (DSL) created with the Modeling SDK for Visual Studio.
-ms.date: 11/04/2016
+ms.date: 11/13/2025
 ms.topic: conceptual
 author: mgoertz-msft
 ms.author: mgoertz
@@ -15,7 +15,7 @@ This topic explains the basic concepts in defining and using a domain-specific l
 > [!NOTE]
 > The Text Template Transformation SDK and the Visual Studio Modeling SDK are installed automatically when you install specific features of Visual Studio. For more details, see [this blog post](https://devblogs.microsoft.com/devops/the-visual-studio-modeling-sdk-is-now-available-with-visual-studio-2017/).
 
-If you are new to DSLs, we recommend that you work through the **VMSDK Lab**, which you can find in this [repository](https://github.com/lumon-Ind/VMSDK)
+If you are new to DSLs, we recommend that you work through the **VMSDK Lab**, which you can find in this [repository](https://github.com/lumon-Ind/VMSDK-Labs.git)
 
 ## What can you do with a Domain-Specific Language?
 
@@ -23,7 +23,7 @@ A domain-specific language is a notation, usually graphical, that is designed to
 
 When you have designed a DSL, you can distribute it as part of a Visual Studio Integration Extension (VSIX) package. Users work with the DSL in Visual Studio:
 
-![Family tree diagram, toolbox, and explorer](../modeling/media/familyt_tudors.png)
+![Family tree diagram, toolbox, and explorer](../modeling/media/ )
 
 The notation is only part of a DSL. Together with the notation, your VSIX package includes tools that users can apply to help them edit and generate material from their models.
 
@@ -55,16 +55,16 @@ To create a new domain-specific language, you create a new Visual Studio solutio
 
      - Click **Domain-Specific Language Designer**, and then click **Next**.
 
-   ![image](https://github.com/user-attachments/assets/4a344a53-6a6d-4aef-b469-085889b64b4e)
+   ![Create a new DSL project](../modeling/media/create_new_dsl_project.png)
 
 3. **Configure your new project**.
 
-     ![image](https://github.com/user-attachments/assets/67b233e8-7c74-42a8-9c70-91d0154e17f1)
+     ![Configure your new project](../modeling/media/create_your_new_project.png)
 
      - In the **Project name** box, type **FamilyTree**. Click **Create**.
 5. The **Domain-Specific Language Designer Wizard** opens, and displays a list of template DSL solutions.
 
-     ![image](https://github.com/user-attachments/assets/056bd69f-0c99-4b44-ab00-84b703f9947b)
+     ![Minimal Language template](../modeling/media/minimal_language_project_template.png)
 
      - Click each template to see a description,
 
@@ -73,7 +73,7 @@ To create a new domain-specific language, you create a new Visual Studio solutio
      - For this walkthrough, choose the **Minimal Language** template. Click **Next**.
 6. **Define New Model File Type**
 
-     ![image](https://github.com/user-attachments/assets/dc9ea978-f66a-480a-8998-9ac70ab67639)
+     ![Define new model file type](../modeling/media/define_new_model_file_type.png)
 
      - Enter a file name extension **ftree** for your DSL in the field **What extension should model files use?**. This is the extension that files containing instances of your DSL will use.
      > [!IMPORTANT]
@@ -82,7 +82,7 @@ To create a new domain-specific language, you create a new Visual Studio solutio
 
 7. Inspect the other pages (click **Next**) and then click **Finish**.
 
-   ![image](https://github.com/user-attachments/assets/0f00c29f-3954-4faa-add6-8075ed531242)
+   ![DSL Solution Summary](../modeling/media/dsl_solution_summary.png)
 
     A solution is generated that contains two projects. They are named **Dsl** and **DslPackage**. A diagram file opens that is named **DslDefinition.dsl**.
 
@@ -142,7 +142,7 @@ You can run the DSL solution as soon as you have created it. Later, you can modi
 
 Your experimental Visual Studio will resemble the following example:
 
-![Domain specific language sample tree in Visual Studio](../modeling/media/dsl_min_2.png)
+![Domain specific language sample tree in Visual Studio](../modeling/media/family_tree_model_sample.png)
 
 ### The Content of a Model
 
@@ -206,7 +206,7 @@ Rename the existing domain classes and relationships. For example, starting from
 
 1. In the DslDefinition diagram, rename **ExampleModel** to **FamilyTreeModel**, **ExampleElement** to **Person**, **Targets** to **Children** (and Name to **Parent** ), **Sources** to **Parents** (and Name to **Child**), **Elements** to **People**, and the DomainRelationship **PersonReferencesChildren** to **ParentsHaveChildren**. Also rename the diagram element **ExampleConnector** to **ChildConnector**. You can click each label to change it. 
 
-     ![DSL Definition diagram &#45; family tree model](../modeling/media/familyt_diagr.png)
+     ![DSL Definition diagram &#45; family tree model](../modeling/media/family_definition_diagram.png)
 
 2. Rename the element and connector tools.
 
@@ -295,7 +295,7 @@ Close the experimental instance of Visual Studio.
 
    3. In **DSL Details**, on the **Decorator Maps** tab, click the check box on an unmapped decorator. In **Display property**, select the domain property to which you want it mapped. For example, map **BirthDecorator** to **BirthYear**. Map the **DeathYear** domain properity to their text decorator too.
 
-![Mapping domain property to text decorator](../modeling/media/familyt_map_prop_decor.png)
+![Mapping domain property to text decorator](../modeling/media/family_map_property_decorator.png)
 
 4. Save the DSL, click **Transform All T4 Templates** on the **Build** menu, and press F5.
 
@@ -360,7 +360,7 @@ Generated material.
     2. Rename **TownReferencesPersons** relationship to **Residence**.
     3. Rename **Persons** on the left of Residence to **Residents**, and **Towns** to **Residences** on the ritght.
 
-         ![DSL definition fragment: family tree root](../modeling/media/familyt_towns.png)
+         ![DSL definition fragment: family tree root](../modeling/media/family_tree_towns.png)
 
         > [!NOTE]
         > Reference relationships represent cross-references from one part of the model tree to another.
@@ -385,7 +385,7 @@ Generated material.
 
     2. Use the **Diagram Element Map** tool to link the new connector to the relationship between Person and Town.
 
-         ![Family Tree definition with added shape map](../modeling/media/familyt_town_shape_map.png)    
+         ![Family Tree definition with added shape map](../modeling/media/family_town_shape_map.png)    
 
 6. Create an element tool for making a new Town.
 
@@ -449,7 +449,7 @@ foreach(Person child in person.Children)
 
 You can get Class Diagram to understand class structure and use it in the *.tt files. Right click the **DomainClasses.cs** (the subsidiary file of **DomainClasses.tt**) and then click the **View Class Diagram** command.
 
-![Domain Class Diagram](../modeling/media/familyt_class_diagr.png)
+![Domain Class Diagram](../modeling/media/family_class_diagram.png)
 
 
 When you save the *.tt file, it will create a subsidiary file that contains the list of people and their residences. For more information, see [Generating Code from a Domain-Specific Language](../modeling/generating-code-from-a-domain-specific-language.md).
