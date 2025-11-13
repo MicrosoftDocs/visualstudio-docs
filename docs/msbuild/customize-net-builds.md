@@ -1,7 +1,7 @@
 ---
 title: Customize .NET builds for computer, VM, container
 description: Customize all .NET builds in Visual Studio on a system governed by an installation of MSBuild for a specific computer, virtual machine, or container.
-ms.date: 02/28/2023
+ms.date: 11/13/2025
 ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, transforms
