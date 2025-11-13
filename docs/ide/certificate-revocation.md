@@ -19,8 +19,8 @@ If a connection is blocked because of a certificate error, a dialog appears with
 
 This feature is disabled by default. To enable it:
 
-1. Go to **Tools** > **Options** > **Environment** > **Security** > **Certificates**.
-1. Select the **Warn me about invalid or missing certificates** checkbox.
+1. Go to **Tools** > **Options** > **All Settings**> **Environment** > **Security** > **Certificates**.
+1. Select the **Warn me about missing or invalid certificates** checkbox.
 
 :::image type="content" source="media/visualstudio/certificate-revocation-setting.png" alt-text="Screenshot of the certificate revocation setting in the Options dialog.":::
 
