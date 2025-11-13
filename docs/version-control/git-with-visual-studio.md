@@ -54,7 +54,17 @@ However, there are times when it makes more sense to focus on your Git repositor
 
 To help you focus on your Git repository, Visual Studio has a **Git Repository** window, which is a consolidated view of all the details in your repository, including local and remote branches and commit history. You can access this window directly from either **Git** or **View** on the menu bar, or from the status bar.
 
-:::image type="content" source="media/git-source-control-repository-management.png" alt-text="The Visual Studio IDE that highlights the Git menu and the Git Changes tab in Solution Explorer.":::
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/git-source-control-repository-management.png" alt-text="The Visual Studio IDE. The Create a new branch window and the Git Changes tab in Solution Explorer are shown.":::
+ 
+:::moniker-end
+
+::: moniker range="<=vs-2019"
+
+:::image type="content" source="media/git-source-control-repository-management.png" alt-text="The Create a new branch window and the Git Changes tab in Solution Explorer.":::
+
+:::moniker-end
 
 ### Browse and manage Git repositories
 
