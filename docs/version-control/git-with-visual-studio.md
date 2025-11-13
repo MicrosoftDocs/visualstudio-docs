@@ -62,7 +62,7 @@ To help you focus on your Git repository, Visual Studio has a **Git Repository**
  
 ::: moniker-end
 
-::: moniker range="<=vs-2022"
+::: moniker range="vs-2022"
 
 :::image type="content" source="media/git-source-control-repository-management.png" alt-text="The Create a new branch window and the Git Changes tab in Solution Explorer.":::
 
