@@ -68,6 +68,8 @@ To help you focus on your Git repository, Visual Studio has a **Git Repository**
 
 ::: moniker-end
 
+:::moniker range=">=vs-2022"
+
 ### Browse and manage Git repositories
 
 To learn more about how you can use the Git Repository window in Visual Studio to browse and manage your Git repository, refer to the following pages:
@@ -80,6 +82,8 @@ To learn more about how you can use the Git Repository window in Visual Studio t
 Conflicts can occur during a merge if two developers modify the same lines in a file and Git doesn’t automatically know which one is correct. Git halts the merge and informs you that you are in a conflicted state.  Learn more in the [Resolve merge conflicts](git-resolve-conflicts.md) page.
 
 ### Personalize your Git settings
+
+:::moniker-end
 
 :::moniker range="visualstudio"
 
@@ -101,11 +105,15 @@ To personalize your Git settings at a repository level as well as at a global le
 
 :::moniker-end
 
+:::moniker range=">=vs-2022"
+
 ## Productivity enhancements
 
 In Visual Studio 2022 **version 17.12**, you can select any section of code, and then right-click, expand the Git submenu, and choose **Copy GitHub Permalink** (or **Copy AzureDevOps Permalink**) to generate a [GitHub Permalink](https://docs.github.com/repositories/working-with-files/using-files/getting-permanent-links-to-files) or Azure DevOps Permalink and copy it to the clipboard. From there, you can paste it anywhere a link might be used, in the browser, or share it over email, chat sessions, and documents. You can also do the same within the embedded commit details view in the **Git Repository** window. This feature allows you to reference specific code from previous commits without switching branches. You must be [signed in to Visual Studio](../ide/signing-in-to-visual-studio.md) with an account with the Git hosting provider, GitHub or Azure DevOps.
 
 In Visual Studio 2022 [**version 17.6**](/visualstudio/releases/2022/release-notes-v17.6), you can [search](https://devblogs.microsoft.com/visualstudio/git-tooling-preview-features-to-enhance-productivity/#improved-search-for-related-github-issues-and-azure-devops-work-items) for and [link](https://devblogs.microsoft.com/visualstudio/reference-github-issues-and-pull-requests-in-visual-studio/) to GitHub Issues and Azure DevOps work items. See the [**Git Features to Enhance Productivity**](https://devblogs.microsoft.com/visualstudio/git-tooling-preview-features-to-enhance-productivity/) blog post.
+
+:::moniker-end
 
 ::: moniker range="<=vs-2019"
 
