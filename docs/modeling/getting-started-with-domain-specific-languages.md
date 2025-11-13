@@ -301,7 +301,7 @@ Close the experimental instance of Visual Studio.
 
 5. Add new **FamilyTree** item with name **Tudors.ftree** in the **Debugging** project. In **Tudors.ftree** model diagram, add new **Persons**, **Child Links** and verify that you can now click the positions you chose and type values into them. In addition, when you select a **Person** shape, the Properties window displays the new properties **Birth Year** and **Death Year**.
 
-![Tudors](../modeling/media/familyt_tudors.png)
+![Tudors](../modeling/media/tudors-family-tree.png)
 
 6. In a .tt file, you can add code that obtains the properties of each person.
 **FamilyTreeReport.tt**:
