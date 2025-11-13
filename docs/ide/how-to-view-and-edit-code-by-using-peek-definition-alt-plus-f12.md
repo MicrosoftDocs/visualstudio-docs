@@ -65,7 +65,7 @@ When you start to edit inside a **Peek Definition** window, the file that you're
 :::moniker-end
 :::moniker range="<=vs-2022"
 
-1. Go to **Tools** > **Options** dialog, and expand the **Text Editor** > **General** section.
+1. Open the **Tools** > **Options** dialog and expand the **Text Editor** > **General** section.
 
 1. Select the **Enable mouse click to perform Go To Definition** checkbox.
 
