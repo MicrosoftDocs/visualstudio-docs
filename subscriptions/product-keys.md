@@ -48,10 +48,10 @@ Our research shows that most subscribers are covered by the number of product ke
 Some products bundle multiple editions of the product into a single download. In these cases, the product key entered determines which edition of the product is installed.
 Some keys are provided automatically, such as "static" keys, which you can use as many times as needed because activation isn't required. Other keys must be claimed by selecting the **Blue Key** icon for the product.
 > [!div class="mx-imgBorder"]
-> ![Get Key from Downloads Page](_img/product-keys/download-get-key-revision-2.png "Screenshot of the download page for Visual Studio Enterprise 2026. The blue key icon is highlighted.")
+> [![Get Key from Downloads Page](_img/product-keys/download-get-key-revision-2.png "Screenshot of the download page for Visual Studio Enterprise 2026. The blue key icon is highlighted.")](_img/product-keys/download-get-key-revision-2.png#lightbox)
 
 > [!div class="mx-imgBorder"]
-> ![Product Keys Page](_img/product-keys/product-keys-page-rev.png "Screenshot of the Product keys page on the subscription portal.")
+> [![Product Keys Page](_img/product-keys/product-keys-page-rev.png "Screenshot of the Product keys page on the subscription portal.")](_img/product-keys/product-keys-page-rev.png#lightbox)
 
 Various key types are available, depending on the product.
 
