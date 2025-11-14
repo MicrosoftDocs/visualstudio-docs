@@ -23,8 +23,6 @@ The tools included in Visual Studio for developing with [Docker](https://docs.do
 
 :::moniker-end
 
-
-
 ::: moniker range="vs-2019"
 
 ## Prerequisites
@@ -117,10 +115,16 @@ Open the **Containers** window by using the quick launch (**Ctrl**+**Q**) and ty
 
 Select a container, and use the tabs to view the information that's available. To check it out, run your Docker-enabled app, open the **Files** tab, and expand the **app** folder to see your deployed app on the container.
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media\overview\visualstudio\containers-files.png" alt-text="Screenshot that shows the Containers window.":::  
+
+:::moniker-end
+
 :::moniker range="<=vs-2019"
 ![Screenshot of Containers window.](media/overview/vs-2019/container-tools-window-2.png)
 :::moniker-end
-:::moniker range=">=vs-2022"
+:::moniker range="vs-2022"
 ![Screenshot of Containers window.](media/overview/vs-2022/containers-files.png)
 :::moniker-end
 
