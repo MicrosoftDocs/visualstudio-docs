@@ -87,10 +87,10 @@ C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE
 
 ::: moniker range="visualstudio"
 
-The following example shows a command line for applying the license for Visual Studio Enterprise, which has an MPC of 09660, a product key of `AAAAA-BBBBB-CCCCC-DDDDD-EEEEE`, and assumes a default installation location:
+The following example shows a command line for applying the license for Visual Studio Enterprise, which has an MPC of 09860, a product key of `AAAAA-BBBBB-CCCCC-DDDDD-EEEEE`, and assumes a default installation location:
 
 ```shell
-"C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\StorePID.exe" AAAAA-BBBBB-CCCCC-DDDDD-EEEEE 09660
+"C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\StorePID.exe" AAAAA-BBBBB-CCCCC-DDDDD-EEEEE 09860
 ```
 
 ::: moniker-end
@@ -118,8 +118,8 @@ The following example shows a command line for applying the license for Visual S
 
 | Visual Studio Edition                | MPC   |
 |--------------------------------------|-------|
-| Visual Studio Enterprise 2026        | 09660 |
-| Visual Studio Professional 2026      | 09662 |
+| Visual Studio Enterprise 2026        | 09860 |
+| Visual Studio Professional 2026      | 09862 |
 
 ::: moniker-end
 
