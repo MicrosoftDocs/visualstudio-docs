@@ -2,7 +2,7 @@
 title: Compare files in Visual Studio
 titleSuffix: ""
 description: Compare or diff two files in Visual Studio to see where changes are by viewing the files side-by-side in a split screen, and to see line-by-line what is different.
-ms.date: 01/27/2025
+ms.date: 11/14/2025
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
