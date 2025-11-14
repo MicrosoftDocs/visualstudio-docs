@@ -148,7 +148,7 @@ After you add container orchestrator support to your project, you see a *Dockerf
 
 :::moniker range="visualstudio"
 
-:::image type="content" source="media/overview/visualstudio/docker-support-solution-explorer.png" alt-text="Screenshot that shows Docker files in Solution Explorer.":::
+:::image type="content" source="media/overview/visualstudio/docker-compose-solution-explorer.png" alt-text="Screenshot that shows Docker files in Solution Explorer.":::
 
 :::moniker-end
 
