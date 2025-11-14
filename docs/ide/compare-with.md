@@ -8,7 +8,7 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
-monikerRange: ">=vs-2022"
+
 ---
 # Compare files in Visual Studio
 
@@ -18,7 +18,17 @@ You can visually compare two files in Visual Studio to examine the differences b
 
 In Solution Explorer, select two files (use Ctrl-click to select), you can right-click and choose **Compare Selected** to open the diff view with just those two files.
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="./media/visualstudio/compare-selected.png" alt-text="Screenshot that shows the Compare Selected command.":::
+    
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 ![Screenshot of Compare Selected context menu item.](./media/vs-2022/compare-selected.png)
+
+:::moniker-end
 
 Or, right-click on one of the files you want to compare and choose **Compare With...**. The Open File dialog appears. Choose the second file, and then choose **Open**. The second file doesn't have to be in the solution.
 
