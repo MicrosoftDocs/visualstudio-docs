@@ -130,9 +130,27 @@ For more information, see [Use the Containers window](view-and-diagnose-containe
 
 When you want to compose a multi-container solution using Docker Compose, add container orchestrator support to your projects. This lets you run and debug a group of containers (a whole solution or group of projects) at the same time if they're defined in the same *docker-compose.yml* file.
 
+:::moniker range="visualstudio"
+
+To add container orchestrator support using Docker Compose, right-click the application in **Solution Explorer**, and then select **Add** > **Container Compose Support**.
+    
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+
 To add container orchestrator support using Docker Compose, right-click on the project node in **Solution Explorer**, and choose **Add > Container Orchestrator Support**. Then choose **Docker Compose** to manage the containers.
 
+:::moniker-end
+
 After you add container orchestrator support to your project, you see a *Dockerfile* added to the project (if there wasn't one there already) and a **docker-compose** folder added to the solution in **Solution Explorer**, as shown here:
+
+
+
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/overview/visualstudio/docker-support-solution-explorer.png" alt-text="Screenshot that shows Docker files in Solution Explorer.":::
+
+:::moniker-end
 
 :::moniker range="<=vs-2019"
 ![Screenshot of Docker files in Solution Explorer in Visual Studio.](media/overview/docker-support-solution-explorer.png)
