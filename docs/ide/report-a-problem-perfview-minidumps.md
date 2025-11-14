@@ -84,12 +84,12 @@ In some cases, Microsoft might ask for a minidump of a running Visual Studio pro
 
 :::moniker range="visualstudio"
 
-2. Open the **Tools** > **Options** pane and expand the **All Settings** > **Debugging** > **Symbols** > **Search Locations** section. Under **Symbol file (.pdb) locations**, confirm the **Microsoft Symbol Servers** checked is selected.
+2. Open the **Tools** > **Options** pane and expand the **All Settings** > **Debugging** > **Symbols** > **Search Locations** section. Under **Symbol file (.pdb) locations**, confirm the **Microsoft Symbol Servers** checkbox is selected.
 
 :::moniker-end
 :::moniker range="<=vs-2022"
 
-2. Open the **Tools** > **Options** dialog and expand the **Debugging** > **Symbols** section. Under **Symbol file (.pdb) search locations**, confirm the **Microsoft Symbol Servers** checked is selected.
+2. Open the **Tools** > **Options** dialog and expand the **Debugging** > **Symbols** section. Under **Symbol file (.pdb) search locations**, confirm the **Microsoft Symbol Servers** checkbox is selected.
 
 :::moniker-end
 
