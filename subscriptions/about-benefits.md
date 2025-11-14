@@ -3,7 +3,7 @@ title: Understand benefits in Visual Studio subscriptions
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 09/12/2024
+ms.date: 11/13/2025
 ms.topic: how-to
 description: Explore benefits included in Visual Studio subscriptions, including benefits provided by partners, and how to activate the benefits.
 ---
@@ -11,6 +11,8 @@ description: Explore benefits included in Visual Studio subscriptions, including
 # About your subscription benefits
 
 As a Visual Studio subscriber, you have access to various benefits depending on your subscription level. There are several important things to note about benefits.
+
++ Visual Studio Subscription benefits might change over time, including during the lifetime of an active subscription. We regularly review and update benefits to ensure they remain current and aligned with program goals and partner offerings. As a result, benefits might be added, updated, or discontinued. 
 
 ## Benefits vary based on your subscription 
 
@@ -37,7 +39,7 @@ Some of the benefits included with Visual Studio subscriptions, including some p
 + Any support available for those benefits or offers is also provided by the partners.
 + Some benefits renew when your Visual Studio subscription is renewed. In other cases, the partner offer is "once in a lifetime" and doesn't renew. 
 For more information about individual benefits, check out the corresponding article in the table of contents.
-+ Partners can choose to discontinue offers. 
++ Partner-provided benefits are offered and fulfilled at the discretion of the partner. A claim or attempted redemption by a subscriber doesn't guarantee fulfillment; if the partner discontinues or can't provide the benefit, it might not be delivered. 
 
 ## Benefits that become temporarily unavailable
 
