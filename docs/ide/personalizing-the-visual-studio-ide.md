@@ -62,7 +62,7 @@ You can also use the wizard to reset the environment to one of the default colle
 
 1. On the **Reset Complete** page, select **Close**.
 
-:::moniker range=">=vs-2022"
+:::moniker range="visualstudio"
 
 ## Settings in Visual Studio
 
