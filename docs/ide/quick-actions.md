@@ -82,7 +82,7 @@ If there's an error in your code, and Visual Studio has a recommended fix, you s
 
 ## Configure Quick Actions
 
-You can configure whether to show Quick Actions when hovering over code by configuring the **Show Quick Info on hover** option. 
+You can configure whether to show Quick Actions when hovering over code by setting the **Show Quick Info on hover** option. 
 
 ::: moniker-end
 ::: moniker range="visualstudio"
