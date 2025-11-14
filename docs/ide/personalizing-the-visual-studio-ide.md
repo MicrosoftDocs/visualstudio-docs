@@ -1,7 +1,7 @@
 ---
 title: Customize & save your personal Visual Studio IDE settings
 description: Customize the Visual Studio integrated development environment (IDE) in ways that best support your own development style and requirements.
-ms.date: 11/6/2025
+ms.date: 11/14/2025
 ms.topic: how-to
 author: anandmeg
 ms.author: meghaanand
@@ -62,32 +62,58 @@ You can also use the wizard to reset the environment to one of the default colle
 
 1. On the **Reset Complete** page, select **Close**.
 
-:::moniker range="visualstudio"
+:::moniker range=">=vs-2022"
+
 ## Settings in Visual Studio
 
 To access Visual Studio settings (options), select **Tools** > **Options** from the main menu. The settings are organized into categories, shown in a tree on the left side. Find the setting in the tree, or use the search box to search for a setting by name, category, or keyword. You can also filter settings in certain ways, for example, you can filter to see only settings for Accessibility or settings you've modified from the defaults.
 
 For more information, see [Visual Studio settings](visual-studio-settings.md).
+
 :::moniker-end
 
 ## General environment options
 
-Many personalization options are exposed through the [Environment Options](../ide/reference/general-environment-options-dialog-box.md) dialog box. There are two ways to access this dialog box:
+Many personalization options are exposed through the [Environment Options](../ide/reference/general-environment-options-dialog-box.md) UI. There are two ways to access these options:
 
-- On the menu bar, choose **Tools** > **Options**, and if necessary, expand the **Environment** node.
+:::moniker range="visualstudio"
 
-- Press **Ctrl**+**Q**, enter *environment* in the search box, and then select **Environment** > **General** from the results.
+- On the menu bar, select **Tools** > **Options**. In the **Options** pane, expand the **All Settings** > **Environment** section.
+
+- Press **Ctrl**+**Q** and enter *environment* in the search box. Double-click the **All Settings** > **Environment** > **General** entry in the results list.
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+- On the menu bar, select **Tools** > **Options**. In the **Options** dialog, expand the **Environment** section.
+
+- Press **Ctrl**+**Q** and enter *environment* in the search box. Double-click the **Environment** > **General** entry in the results list.
+
+:::moniker-end
 
 > [!TIP]
-> When the Options dialog box appears, you can select **F1** for help on the various settings on that page.
+> When the **Environment** options open, you can select **F1** for help on the various settings on that page.
 
 ## Environment color themes
 
-To change the color theme between Dark, Light, Blue, and Blue (Extra Contrast), enter *theme* in the search box, and then choose **Environment** > **General**. In the **Options** dialog box, change the **Color theme** option.
+:::moniker range="visualstudio"
 
-To change colorization options in the editor, enter *environment* in the search box, and then choose **Environment** > **Fonts and Colors**. See [Change fonts, colors, and themes](how-to-change-fonts-and-colors-in-visual-studio.md).
+You can change the color theme between Dark, Light, and other colors. Visual Studio 2026 introduces new color themes, including Cool Breeze, Spicy Red, Bubblegum, and more. If you enter *theme* in the search box, you can quickly set the theme to your preferred color. To apply the Dark theme, double-click **Tools** > **Theme** > **Dark** in the results list. In the **Tools** > **Options** pane, the **Color theme** option is located in the **All Settings** > **Environment** > **Visual Experience** > **General** section.
 
-You can also use the **Tools** > **Options** > **Environment** > **Fonts and Colors** to establish a custom font and color scheme for various user interface elements in the integrated development environment (IDE). See the reference page on [Fonts and Colors, Environment, Options dialog box](./reference/fonts-and-colors-environment-options-dialog-box.md).
+To change colorization options in the editor, enter *fonts* in the search box. Double-click the **All Settings** > **Environment** > **Fonts and Colors** entry in the results list to open the **Options** pane. For more information, see [Change fonts, colors, and themes](how-to-change-fonts-and-colors-in-visual-studio.md).
+
+You can also use the **Tools** > **Options** pane, **All Settings** > **Environment** > **Fonts and Colors** options to establish a custom font and color scheme for various user interface elements in the integrated development environment (IDE). For more information, see the reference page on [Fonts and Colors, Environment, Options dialog box](./reference/fonts-and-colors-environment-options-dialog-box.md).
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+You can change the color theme between Dark, Light, Blue, and Blue (Extra Contrast). Enter *theme* in the search box, and double-click **Environment** > **General** in the results list. In the **Options** dialog, change the **Color theme** option.
+
+To change colorization options in the editor, enter *fonts* in the search box. Double-click the **Environment** > **Fonts and Colors** entry in the results list to open the **Options** dialog. For more information, see [Change fonts, colors, and themes](how-to-change-fonts-and-colors-in-visual-studio.md).
+
+You can also use the **Tools** > **Options** dialog, **Environment** > **Fonts and Colors** options to establish a custom font and color scheme for various user interface elements in the integrated development environment (IDE). For more information, see the reference page on [Fonts and Colors, Environment, Options dialog box](./reference/fonts-and-colors-environment-options-dialog-box.md).
+
+:::moniker-end
 
 ## Customize menus and toolbars
 
@@ -95,7 +121,18 @@ To add or remove menu or toolbar items, see [Customize menus and toolbars](../id
 
 ### Main menu casing
 
-You can change the main menu casing between **Title Case** ("File") and **All Caps** ("FILE"). Enter *environment* in the search box, select **Environment** > **General**, and then change the **Apply title case styling to menu bar** option.
+You can change the main menu casing between **Title Case** ("File") and **All Caps** ("FILE").
+
+:::moniker range="visualstudio"
+
+Enter *title case* in the search box and double-click the **Apply title case styling to menu bar** entry in the results. In the **Options** pane, select or clear the **Apply title case styling to menu bar** option.
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+Enter *title case* in the search box and double-click the **Environment** > **General** entry in the results. In the **Options** dialog, select or clear the **Apply title case styling to menu bar** option.
+
+:::moniker-end
 
 ## Window layouts
 
