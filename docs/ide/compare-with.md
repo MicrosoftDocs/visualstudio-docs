@@ -32,7 +32,17 @@ In Solution Explorer, select two files (use Ctrl-click to select), you can right
 
 Or, right-click on one of the files you want to compare and choose **Compare With...**. The Open File dialog appears. Choose the second file, and then choose **Open**. The second file doesn't have to be in the solution.
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="./media/visualstudio/compare-with-menu-item.png" alt-text="Screenshot that shows the Compare With command.":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 ![Screenshot of Compare With on the context menu.](./media/vs-2022/compare-with-menu-item.png)
+
+:::moniker-end
 
 The file you right-clicked on appears on the right and is editable. The other file is shown in a read-only view. That means that from the perspective of the diff view, the file you right-clicked is the new version and the other file is considered the old version.
 
