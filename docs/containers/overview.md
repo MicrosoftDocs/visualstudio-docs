@@ -159,7 +159,7 @@ After you add container orchestrator support to your project, you see a *Dockerf
 :::moniker range="<=vs-2019"
 ![Screenshot of Docker files in Solution Explorer in Visual Studio.](media/overview/docker-support-solution-explorer.png)
 :::moniker-end
-:::moniker range=">=vs-2022"
+:::moniker range="vs-2022"
 ![Screenshot of Docker files in Solution Explorer in Visual Studio.](media/overview/vs-2022/docker-compose-solution-explorer.png)
 :::moniker-end
 
