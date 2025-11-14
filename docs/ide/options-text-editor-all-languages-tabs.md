@@ -50,17 +50,20 @@ Learn how to change the default tab and indentation behavior for the Code Editor
 
 :::moniker range="visualstudio"
 
-In Visual Studio, open the **Tools** > **Options** pane, and expand the **All Settings** > **Languages** > **Defaults** > **Tabs** section.
+In Visual Studio, open the **Tools** > **Options** pane, and expand the **All Settings** > **Languages** > **Defaults** > **Tabs** section
+
+> [!CAUTION]
+> Changes made here apply to all development languages. Resetting options in this dialog overrides individual language settings. To configure options for a specific language, select its subfolder under **All Settings** > **Languages** > _Language (such as C# or Visual Basic)_ > **Tabs**.
 
 :::moniker-end
 :::moniker range="<=vs-2022"
 
 In Visual Studio, open the **Tools** > **Options** dialog, and expand the **Text Editor** > **All Languages** > **Tabs** section.
 
-:::moniker-end
-
 > [!CAUTION]
 > Changes made here apply to all development languages. Resetting options in this dialog overrides individual language settings. To configure options for a specific language, select its subfolder under **Text Editor**.
+
+:::moniker-end
 
 ## Resolve conflicting settings
 
@@ -106,8 +109,18 @@ Configure the following tab options:
 
 ## Troubleshooting
 
+:::moniker range="visualstudio"
+
 > [!TIP]
-> Adaptive formatting might override your custom tab settings. To disable adaptive formatting, go to **Text Editor** > **Advanced** and toggle **Use adaptive formatting**. You can also use an [.editorconfig](../ide/create-portable-custom-editor-options.md) file to manage indent styles.
+> Adaptive formatting might override your custom tab settings. To disable adaptive formatting, go to the **All Settings** > **Text Editor** > **Advanced** section in the **Tools** > **Options** pane. Toggle the **Adaptive formatting** option. You can also use an [.editorconfig](../ide/create-portable-custom-editor-options.md) file to manage indent styles.
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+> [!TIP]
+> Adaptive formatting might override your custom tab settings. To disable adaptive formatting, go to the **Text Editor** > **Advanced** section in the **Tools** > **Options** dialog. Toggle the **Use adaptive formatting** option. You can also use an [.editorconfig](../ide/create-portable-custom-editor-options.md) file to manage indent styles.
+
+:::moniker-end
 
 ## Next steps
 
