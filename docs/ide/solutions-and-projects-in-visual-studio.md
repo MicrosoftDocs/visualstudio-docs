@@ -1,7 +1,7 @@
 ---
 title: What Are Visual Studio Solutions and Projects?
 description: Learn about Visual Studio projects and solutions, how to create new projects from a template, and how to view and manage projects in Solution Explorer.
-ms.date: 08/25/2025
+ms.date: 11/17/2025
 ms.topic: concept-article
 f1_keywords:
 - vs.openproject
@@ -53,7 +53,16 @@ The easiest way to create a new project is to use a project template for the pro
 
 You can also create a custom project template that you can use to create new projects from. For more information, see [Create project templates](how-to-create-project-templates.md).
 
-When you create a project, Visual Studio saves it to the default location, *%USERPROFILE%\source\repos*. To change the default location, go to **Tools** > **Options** > **Projects and Solutions** > **Locations**. For more information, see [Options dialog box: Projects and Solutions > Locations](reference/projects-solutions-locations-options.md).
+:::moniker range="visualstudio"
+
+When you create a project, Visual Studio saves it to the default location, *%USERPROFILE%\source\repos*. To change the default location, select **Tools** > **Options** and go to **All Settings** > **Projects and Solutions** > **Locations**. For more information, see [Options dialog box: Projects and Solutions > Locations](reference/projects-solutions-locations-options.md).
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+When you create a project, Visual Studio saves it to the default location, *%USERPROFILE%\source\repos*. To change the default location, select **Tools** > **Options** and go to **Projects and Solutions** > **Locations**. For more information, see [Options dialog box: Projects and Solutions > Locations](reference/projects-solutions-locations-options.md).
+
+:::moniker-end
 
 ## Solutions
 
@@ -73,7 +82,18 @@ Visual Studio uses two file types (*.sln* and *.suo*) to store settings for solu
 
 ### Solution folder
 
-A *solution folder* is a virtual folder that exists only in Solution Explorer, where you can use it to group projects in a solution. If you want to find the location of solution files on a computer, go to **Tools** > **Options** > **Projects and Solutions** > **Locations**. For more information, see [Options dialog box: Projects and Solutions > Locations](reference/projects-solutions-locations-options.md).
+:::moniker range="visualstudio"
+
+A *solution folder* is a virtual folder that exists only in Solution Explorer, where you can use it to group projects in a solution. If you want to find the location of solution files on a computer, select **Tools** > **Options** and go to **All Settings** > **Projects and Solutions** > **Locations**. For more information, see [Options dialog box: Projects and Solutions > Locations](reference/projects-solutions-locations-options.md).
+
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+A *solution folder* is a virtual folder that exists only in Solution Explorer, where you can use it to group projects in a solution. If you want to find the location of solution files on a computer, select **Tools** > **Options** and go to **Projects and Solutions** > **Locations**. For more information, see [Options dialog box: Projects and Solutions > Locations](reference/projects-solutions-locations-options.md).
+
+:::moniker-end
+
 
 > [!TIP]
 > If you want to construct a project and solution as an exercise, see [Introduction to projects and solutions](../get-started/tutorial-projects-solutions.md).
