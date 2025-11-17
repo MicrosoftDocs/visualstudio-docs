@@ -22,7 +22,17 @@ Git is good at automatically merging file changes in most circumstances, as long
 
 - If you're collaborating with others in the same branch, you might see merge conflicts when you push your changes.
 
+:::moniker range="visualstudio"
+
+    :::image type="content" source="media/visualstudio/git-conflicts-push-link.png" alt-text="Screenshot that shows a merge conflict after a push.":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
     :::image type="content" source="media/vs-2022/git-conflicts-push-link.png" alt-text="Screenshot of merge conflict after a push.":::
+
+:::moniker-end
 
 - Visual Studio detects if the local branch you've been working on is behind its remote tracking branch and then gives you options to choose from.
 
@@ -37,7 +47,17 @@ Git is good at automatically merging file changes in most circumstances, as long
 
 - The **Git Changes** window shows a list of files with conflicts under **Unmerged Changes**. To start resolving conflicts, double-click a file. Or if you have a file with conflicts opened in the editor, you can select **Open Merge Editor**.
 
+:::moniker range="visualstudio"
+
+    :::image type="content" source="media/visualstudio/git-conflicts-status-ui.png" alt-text="Screenshot that shows merge conflict status in the Git Changes window." lightbox="media/vs-2022/git-conflicts-status-ui.png":::
+    
+:::moniker-end
+
+:::moniker range="vs-2022"
+
     :::image type="content" source="media/vs-2022/git-conflicts-status-ui.png" alt-text="Screenshot of merge conflict status in the Git Changes window." lightbox="media/vs-2022/git-conflicts-status-ui.png":::
+
+:::moniker-end
 
 - In Merge Editor, start resolving your conflict by using any of the following methods (as depicted in the numbered screenshot):
 
@@ -50,8 +70,35 @@ Git is good at automatically merging file changes in most circumstances, as long
        \- or -
 
     1. Manually edit your code in the **Result** window.
+    
+    :::moniker range="visualstudio"
+    
+    :::image type="content" source="media/visualstudio/
+    git-conflicts-resolve-conflict.png" alt-text="Screenshot that shows how to resolve a merge conflict in Visual Studio." lightbox="media/visualstudio/git-conflicts-resolve-conflict.png":::
 
-    :::image type="content" source="media/vs-2022/git-conflicts-resolve-conflict.png" alt-text="Screenshot that shows how to resolve a merge conflict in Visual Studio 2022." lightbox="media/vs-2022/git-conflicts-resolve-conflict.png":::
+    :::moniker-end
+
+    :::moniker range="vs-2022"
+
+    :::image type="content" source="media/vs-2022/
+    git-conflicts-resolve-conflict.png" alt-text="Screenshot that shows how to resolve a merge conflict in Visual Studio 2022." lightbox="media/vs-2022/git-conflicts-resolve-conflict.png":::
+
+    :::moniker-end
+
+    :::moniker range="visualstudio"
+
+    > [!TIP]
+    > If you don't like the default layout in Merge Editor, you can change it by using the gear menu.
+    >
+    > :::image type="content" source="media/visualstudio/git-conflicts-layout-options.png" alt-text="Screenshot that shows the Merge Editor layout options.":::
+    >
+    >For example, the following screenshot shows what the vertical view looks like:
+    >
+    > :::image type="content" source="media/visualstudio/git-conflicts-vertical-view.png" alt-text="Screenshot that shows the vertical view of the Merge Editor." lightbox="media/visualstudio/git-conflicts-vertical-view.png":::
+
+    :::moniker-end
+
+    :::moniker range="vs-2022"
 
     > [!TIP]
     > If you don't like the default layout in Merge Editor, feel free to change it by using the gear dropdown menu.
@@ -62,18 +109,47 @@ Git is good at automatically merging file changes in most circumstances, as long
     >
     > :::image type="content" source="media/vs-2022/git-conflicts-vertical-view.png" alt-text="Screenshot of vertical view in the Merge Editor user interface." lightbox="media/vs-2022/git-conflicts-vertical-view.png":::
 
+    :::moniker-end
+
 - When you're done resolving the merge conflicts, select **Accept Merge**. Repeat this process for all conflicting files.
 
     :::image type="content" source="media/vs-2022/git-conflicts-accept-merge.png" alt-text="Screenshot of the Accept Merge action in Visual Studio 2022.":::
 
 - Use the **Git Changes** window to create a merge commit and resolve the conflict.
 
+    :::moniker range="visualstudio"
+
+    :::image type="content" source="media/visualstudio/git-conflicts-merge-commit.png" alt-text="Screenshot that shows how to create a merge commit by using the Git Changes window.":::
+  
+    :::moniker-end
+
+     :::moniker range="vs-2022"
+
     :::image type="content" source="media/vs-2022/git-conflicts-merge-commit.png" alt-text="Screenshot of how to create a merge commit by using the Git Changes window.":::
+  
+    :::moniker-end
+
+    :::image type="content" source="media/vs-2022/git-conflicts-merge-commit.png" alt-text="Screenshot of how to create a merge commit by using the Git Changes window.":::
+  
+    :::moniker-end
+
+    :::moniker range="visualstudio"
+
+    > [!NOTE]
+    > If you want to keep all of your changes to a file, you can right-click it in the **Unmerged Changes** section and select **Keep Current (Local)** without having to open Merge Editor.
+    >
+    > :::image type="content" source="media/visualstudio/git-conflicts-keep-changes.png" alt-text="Screenshot that shows the Keep Current menu option.":::
+
+    :::moniker-end
+
+    :::moniker range="vs-2022"
 
     > [!NOTE]
     > If you want to keep all of your changes to a file, you can right-click it in the **Unmerged Changes** section and select **Keep Current (Local)** without having to open Merge Editor.
     >
     > :::image type="content" source="media/vs-2022/git-conflicts-keep-changes.png" alt-text="Screenshot of the Keep Current menu option.":::
+
+    :::moniker-end
 
 > [!TIP]
 > To learn more about the accessibility options available to you, see the [Git keyboard shortcuts](../ide/reference/accessibility-tips-and-tricks.md#git-keyboard-shortcuts) section of the [Accessibility tips and tricks for Visual Studio](../ide/reference/accessibility-tips-and-tricks.md) page.
