@@ -1,7 +1,7 @@
 ---
 title: Use Task List to track and use code comments
 description: Explore the Task List tool in Visual Studio and discover how to efficiently use code comments, including tracking code tokens and managing code shortcuts.
-ms.date: 08/01/2025
+ms.date: 11/17/2025
 ms.topic: how-to
 f1_keywords:
 - TaskListWindow
@@ -53,19 +53,40 @@ When Visual Studio recognizes a predefined token, it displays the comment text a
 
 You can create custom tokens for any programming language by following these steps:
 
-1. On the Visual Studio **Tools** menu, select **Options**.
+:::moniker range="visualstudio"
 
-1. Expand the **Environment** section, and select the **Task List** tab. The [Task List options page](reference/task-list-environment-options-dialog-box.md) opens:
+1. Open the **Tools** > **Options** pane and expand the **All Settings** > **Environment** > **Task List** section.
+
+   The [Task List options page](reference/task-list-environment-options-dialog-box.md) opens:
+
+   :::image type="content" source="media/visualstudio/tools-options-environment-task-list.png" border="false" alt-text="Screenshot that shows how to add tokens for the Task List in Visual Studio.":::
+
+1. Select **Add**. 
+
+1. In the **Add item** dialog, enter the name for the custom token, such as _Optimize_.
+
+1. Expand the **Priority** dropdown list and select a default priority for the custom token.
+
+1. To add the custom token to the list of tokens, select **Save**.
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+1. Open the **Tools** > **Options** dialog and expand the **Environment** > **Task List** section.
+
+   The [Task List options page](reference/task-list-environment-options-dialog-box.md) opens:
 
    :::image type="content" source="media/tools-options-environment-task-list.png" border="false" alt-text="Screenshot that shows how to add tokens for the Task List in Visual Studio, including predefined and custom tokens.":::
 
-1. In the **Name** text box, enter the name for the custom token, such as **Optimize**.
+1. In the **Name** text box, enter the name for the custom token, such as _Optimize_.
 
-1. Expand the **Priority** dropdown list and select a default priority for the custom token.
+1. In the **Priority** dropdown list, select a default priority for the custom token.
 
 1. To add the custom token to the list of tokens, select **Add**.
 
 1. To apply your changes, select **OK**.
+
+:::moniker-end
 
 When Visual Studio recognizes a custom token, it displays the comment text as a task in **Task List**.
 
