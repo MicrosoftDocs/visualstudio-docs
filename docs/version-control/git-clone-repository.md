@@ -43,7 +43,7 @@ To follow this article, you'll need:
 >
 > And, if **Git** isn't on the menu bar, go to **Tools** > **Options** > **Source Control** > **Plug-in Selection**, and then select **Git** from the **Current source control plug-in** dropdown list.
 
-1. In the **Clone a repository** window, under the **Enter a Git repository URL** section, add your repo info in the **Repository location** box.
+3. In the **Clone a repository** window, under the **Enter a Git repository URL** section, add your repo info in the **Repository location** box.
 
     Next, in the **Path** section, you can choose to accept the default path to your local source files, or you can browse to a different location.
 
@@ -51,7 +51,7 @@ To follow this article, you'll need:
 
     :::image type="content" source="media/vs-2022/git-menu-clone-repo-dialog.png" alt-text="Screenshot of the Clone a Repository dialog box with GitHub highlighted.":::
 
-1. In the **Open from GitHub** window, you can either verify your GitHub account information or you can add it. To do so, select **Sign in** from the drop-down menu.
+4. In the **Open from GitHub** window, you can either verify your GitHub account information or you can add it. To do so, select **Sign in** from the drop-down menu.
 
     :::image type="content" source="media/vs-2022/git-menu-clone-repo-dialog-github-account.png" alt-text="Screenshot of the Sign in drop-down section of the Open from GitHub window.":::
 
@@ -69,13 +69,13 @@ To follow this article, you'll need:
 
     If you have more than one GitHub account, you can sign in with any of your accounts. If you're already signed in with one account, you can use the account dropdown to switch to a different account.
 
-1. After you sign in, Visual Studio returns to the **Clone a repository** dialog, where the **Open from GitHub** window lists all the repositories that you have access to. Select the one you want, and then select **Clone**.
+5. After you sign in, Visual Studio returns to the **Clone a repository** dialog, where the **Open from GitHub** window lists all the repositories that you have access to. Select the one you want, and then select **Clone**.
 
     If a list of repositories doesn't appear, enter the location of your repo, and then select **Clone**.
 
     :::image type="content" source="media/vs-2022/git-menu-clone-repo-dialog-open-from-github-location-sml.png" alt-text="Screenshot of the Open from GitHub window where you can select a repo or add one." lightbox="media/vs-2022/git-menu-clone-repo-dialog-open-from-github-location-lrg.png":::
 
-1. Next, Visual Studio presents a list of solution(s) in the repository. Choose the solution you would like to load or open the **Folder View** in [**Solution Explorer**](../ide/use-solution-explorer.md).
+6. Next, Visual Studio presents a list of solution(s) in the repository. Choose the solution you would like to load or open the **Folder View** in [**Solution Explorer**](../ide/use-solution-explorer.md).
 
 :::moniker range="visualstudio"
 
@@ -114,11 +114,11 @@ After you’ve cloned a repo or [created one](git-create-repository.md), Visual 
 
 :::moniker-end
 
-1. In the **Browse a repository** section of the **Clone a repository** dialog box, select **Azure DevOps**.
+3. In the **Browse a repository** section of the **Clone a repository** dialog box, select **Azure DevOps**.
 
     :::image type="content" source="../ide/media/vs-2022/browse-repository-azure-devops.png" alt-text="Screenshot of the 'Browse a repository' section of the 'Clone a repository' dialog box in Visual Studio, Azure DevOps highlighted.":::
 
-1. A **Connect to a Project** dialog box appears. Follow the prompts to sign in to your Azure account, and then browse to Azure DevOps Server that hosts the files you're looking for.
+4. A **Connect to a Project** dialog box appears. Follow the prompts to sign in to your Azure account, and then browse to Azure DevOps Server that hosts the files you're looking for.
 
 ## Related content
 
