@@ -26,7 +26,17 @@ To follow this article, you'll need:
 
 1. From the **Git** menu, select **Clone Repository**.
 
+:::moniker range="visualstudio"
+
+    :::image type="content" source="media/visualstudio/git-menu-clone-repository.png" alt-text="Screenshot that shows the Clone Repository option from the Git menu in Visual Studio.":::
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+
     :::image type="content" source="../ide/media/vs-2022/git-menu-clone-repository.png" alt-text="Screenshot of the Clone Repository option from the Git menu in Visual Studio.":::
+
+:::moniker-end
 
     > [!NOTE]
     > If you haven't interacted with the **Git** menu before, you might see **Clone** instead of **Clone Repository**. If so, select **Clone**.
@@ -67,7 +77,17 @@ To follow this article, you'll need:
 
 1. Next, Visual Studio presents a list of solution(s) in the repository. Choose the solution you would like to load or open the **Folder View** in [**Solution Explorer**](../ide/use-solution-explorer.md).
 
+:::moniker range="visualstudio"
+
+    :::image type="content" source="media/visualstudio/git-solution-explorer-folder-view.png" alt-text="Screenshot of the Folder View in Solution Explorer in Visual Studio.":::
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+
     :::image type="content" source="../ide/media/vs-2022/git-solution-explorer-folder-view.png" alt-text="Screenshot of the Folder View in Solution Explorer in Visual Studio 2022.":::
+
+:::moniker-end
 
     > [!TIP]
     > You can change the default Folder View to Solution View from the **Git** menu. Select **Settings** > **Source Control** > **Git Global Settings** > **Automatically load the solution when opening a Git repository** to do so.
@@ -82,7 +102,17 @@ After you’ve cloned a repo or [created one](git-create-repository.md), Visual 
 
 1. From the **Git** menu, select **Clone Repository**.
 
+:::moniker range="visualstudio"
+
+    :::image type="content" source="media/visualstudio/git-menu-clone-repository.png" alt-text="Screenshot that shows the full Clone Repository option from the Git menu in Visual Studio.":::
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+
     :::image type="content" source="media/vs-2022/git-menu-clone-repository.png" alt-text="Screenshot of the full Clone Repository option from the Git menu in Visual Studio.":::
+
+:::moniker-end
 
 1. In the **Browse a repository** section of the **Clone a repository** dialog box, select **Azure DevOps**.
 
