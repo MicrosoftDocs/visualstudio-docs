@@ -4,7 +4,7 @@ description: Explore tools available for working with Docker or Podman container
 author: ghogen
 ms.author: ghogen
 ms.topic: overview
-ms.date: 8/19/2025
+ms.date: 11/14/2025
 ms.subservice: container-tools
 ms.custom: peer-review-program
 ---
@@ -22,8 +22,6 @@ The tools included in Visual Studio for developing with [Docker](https://docs.do
 The tools included in Visual Studio for developing with [Docker](https://docs.docker.com/) containers greatly simplify building, debugging, and deployment for containerized applications. You can work with a container for a single project, or use container orchestration with [Docker Compose](https://docs.docker.com/compose/) or [Service Fabric](/azure/service-fabric/) to work with multiple services in containers.
 
 :::moniker-end
-
-
 
 ::: moniker range="vs-2019"
 
@@ -117,10 +115,16 @@ Open the **Containers** window by using the quick launch (**Ctrl**+**Q**) and ty
 
 Select a container, and use the tabs to view the information that's available. To check it out, run your Docker-enabled app, open the **Files** tab, and expand the **app** folder to see your deployed app on the container.
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media\overview\visualstudio\containers-files.png" alt-text="Screenshot that shows the Containers window.":::  
+
+:::moniker-end
+
 :::moniker range="<=vs-2019"
 ![Screenshot of Containers window.](media/overview/vs-2019/container-tools-window-2.png)
 :::moniker-end
-:::moniker range=">=vs-2022"
+:::moniker range="vs-2022"
 ![Screenshot of Containers window.](media/overview/vs-2022/containers-files.png)
 :::moniker-end
 
@@ -130,14 +134,32 @@ For more information, see [Use the Containers window](view-and-diagnose-containe
 
 When you want to compose a multi-container solution using Docker Compose, add container orchestrator support to your projects. This lets you run and debug a group of containers (a whole solution or group of projects) at the same time if they're defined in the same *docker-compose.yml* file.
 
+:::moniker range="visualstudio"
+
+To add container orchestrator support using Docker Compose, right-click the application in **Solution Explorer**, and then select **Add** > **Container Compose Support**.
+    
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+
 To add container orchestrator support using Docker Compose, right-click on the project node in **Solution Explorer**, and choose **Add > Container Orchestrator Support**. Then choose **Docker Compose** to manage the containers.
 
+:::moniker-end
+
 After you add container orchestrator support to your project, you see a *Dockerfile* added to the project (if there wasn't one there already) and a **docker-compose** folder added to the solution in **Solution Explorer**, as shown here:
+
+
+
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/overview/visualstudio/docker-compose-solution-explorer.png" alt-text="Screenshot that shows Docker files in Solution Explorer.":::
+
+:::moniker-end
 
 :::moniker range="<=vs-2019"
 ![Screenshot of Docker files in Solution Explorer in Visual Studio.](media/overview/docker-support-solution-explorer.png)
 :::moniker-end
-:::moniker range=">=vs-2022"
+:::moniker range="vs-2022"
 ![Screenshot of Docker files in Solution Explorer in Visual Studio.](media/overview/vs-2022/docker-compose-solution-explorer.png)
 :::moniker-end
 
