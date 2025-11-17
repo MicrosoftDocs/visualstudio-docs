@@ -53,13 +53,13 @@ The Reference Manager dialog box shows different categories on the left side, de
 
 :::moniker range="visualstudio"
 
-      :::image type="content" source="media/visualstudio/add-reference-options.png" alt-text="Screenshot that shows the Add Reference dialog from the context menu in Solution Explorer.":::
+  :::image type="content" source="media/visualstudio/add-reference-options.png" alt-text="Screenshot that shows the Add Reference dialog from the context menu in Solution Explorer.":::
 
 :::moniker-end
 
 :::moniker range="<=vs-2022"
 
-      :::image type="content" source="media/add-reference-options.png" alt-text="Screenshot of the Add Reference dialog from the context menu in Solution Explorer.":::
+  :::image type="content" source="media/add-reference-options.png" alt-text="Screenshot of the Add Reference dialog from the context menu in Solution Explorer.":::
 
 :::moniker-end
 
@@ -231,13 +231,13 @@ You can remove unused references for [SDK style projects](/dotnet/core/project-s
 
 :::moniker range="visualstudio"
 
-    :::image type="content" source="media/visualstudio/remove-unused-reference.png" alt-text="Screenshot that shows the Remove Unused Reference dialog from the context menu in Solution Explorer.":::
+  :::image type="content" source="media/visualstudio/remove-unused-reference.png" alt-text="Screenshot that shows the Remove Unused Reference dialog from the context menu in Solution Explorer.":::
 
 :::moniker-end
 
 :::moniker range="<=vs-2022"
 
-    :::image type="content" source="media/remove-unused-reference.png" alt-text="Screenshot of the Remove Unused Reference dialog from the context menu in Solution Explorer.":::
+  :::image type="content" source="media/remove-unused-reference.png" alt-text="Screenshot of the Remove Unused Reference dialog from the context menu in Solution Explorer.":::
 
 :::moniker-end
 
