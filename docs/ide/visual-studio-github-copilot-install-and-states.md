@@ -1,7 +1,7 @@
 ---
 title: Manage GitHub Copilot installation and state
 description: Learn how to install and manage Copilot in Visual Studio. Use the Copilot badge in the IDE to access options to manage or troubleshoot your Copilot state. 
-ms.date: 8/29/2025
+ms.date: 11/17/2025
 ms.update-cycle: 180-days
 ms.topic: install-set-up-deploy
 author: anandmeg
@@ -30,7 +30,7 @@ In this article, you learn how to manage your GitHub Copilot installation and st
 
 ## Manage your Copilot state 
 
-With Visual Studio 2022 version 17.10 or later, there's a Copilot status icon in the upper-right corner of the Visual Studio environment that indicates if Copilot is active, inactive, unavailable, or not installed. Using the dropdown menu from the status icon, you can easily access options that help manage or [troubleshoot](visual-studio-github-copilot-troubleshoot.md) your Copilot state. Some options are available or greyed out depending on your Copilot state.
+With Visual Studio 2022 version 17.10 or later, there's a Copilot status icon in the upper-right corner of the Visual Studio environment that indicates if Copilot is active, inactive, unavailable, or not installed. Using the dropdown menu from the status icon, you can easily access options that help manage or [troubleshoot](visual-studio-github-copilot-troubleshoot.md) your Copilot state. Some options are available or greyed depending on your Copilot state.
 
 > [!NOTE]
 > Note that the status icon is moving from the bottom panel of the Visual Studio editor. 
@@ -44,7 +44,7 @@ Using the dropdown menu, you can easily open the Chat window, access Copilot set
 
 ### Copilot is inactive
 
-If Copilot is installed but in an inactive state, it may be because:
+If Copilot is installed but in an inactive state, it might be because:
 - You're not yet signed into Visual Studio with a GitHub account
     
     Select **Sign in to use Copilot** in the dropdown from the status icon and [sign in with a GitHub account](work-with-github-accounts.md) that has an active subscription to use Copilot.
@@ -75,7 +75,7 @@ If [Copilot is disabled by your administrator](visual-studio-github-copilot-trou
 
 ### Copilot is unavailable
 
-If Copilot is installed but unavailable for use, it may be due to [network connectivity issues](visual-studio-github-copilot-troubleshoot.md#network-issues), [server-side technical problems](visual-studio-github-copilot-troubleshoot.md#copilot-service-is-unavailable), or an expired service plan. In this state, Copilot doesn't provide its usual services until the external issues are resolved.
+If Copilot is installed but unavailable for use, it might be due to [network connectivity issues](visual-studio-github-copilot-troubleshoot.md#network-issues), [server-side technical problems](visual-studio-github-copilot-troubleshoot.md#copilot-service-is-unavailable), or an expired service plan. In this state, Copilot doesn't provide its usual services until the external issues are resolved.
 
 Select **Copilot is unreachable** in the dropdown menu to open the **Troubleshooting** page on diagnosing and resolving common network errors with GitHub Copilot. When the issue is resolved and you're signed in with an active subscription, the Copilot status icon updates to [active](#copilot-is-active).
 
@@ -94,9 +94,28 @@ If you choose to not install Copilot, you can select **Hide Copilot** from the d
 
 ### Hide Copilot badge
 
-You can hide the GitHub Copilot badge in the Visual Studio IDE by unselecting **Tools** > **Options** > **Environment** > **Hide Copilot menu badge**.
+You can hide the GitHub Copilot badge in the Visual Studio IDE.
 
-:::image type="content" source="media/vs-2022/visual-studio-github-copilot-install-and-states/hide-copilot-badge.png" alt-text="Screenshot of option to hide copilot badge in Tools > Options.":::
+:::moniker range="visualstudio"
+
+1. Open the **Tools** > **Options** pane and expand the **All Settings** > **Environment** > **Visual Experience** section.
+
+1. Clear the **Hide Copilot Badge** checkbox.
+
+   :::image type="content" source="media/visualstudio/hide-copilot-badge.png" border="false" alt-text="Screenshot that shows how to clear the Hide Copilot menu badge option in Visual Studio.":::
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+1. Open the **Tools** > **Options** dialog and expand the **Environment** > **General** section.
+
+1. In the **Visual Experience** group, clear the **Hide Copilot menu badge** checkbox.
+
+   :::image type="content" source="media/vs-2022/visual-studio-github-copilot-install-and-states/hide-copilot-badge.png" border="false" alt-text="Screenshot shows how to clear the Hide Copilot menu badge option.":::
+
+1. Select **OK**.
+
+:::moniker-end
 
 ### Uninstall Copilot
 
