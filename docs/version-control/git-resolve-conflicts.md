@@ -49,7 +49,7 @@ Git is good at automatically merging file changes in most circumstances, as long
 
 :::moniker range="visualstudio"
 
-:::image type="content" source="media/visualstudio/git-conflicts-status-ui.png" alt-text="Screenshot that shows merge conflict status in the Git Changes window." lightbox="media/vs-2022/git-conflicts-status-ui.png":::
+:::image type="content" source="media/visualstudio/git-conflicts-status-ui.png" alt-text="Screenshot that shows merge conflict status in the Git Changes window." lightbox="media/visualstudio/git-conflicts-status-ui.png":::
     
 :::moniker-end
 
@@ -122,10 +122,6 @@ Git is good at automatically merging file changes in most circumstances, as long
     :::moniker-end
 
     :::moniker range="vs-2022"
-
-    :::image type="content" source="media/vs-2022/git-conflicts-merge-commit.png" alt-text="Screenshot of how to create a merge commit by using the Git Changes window.":::
-  
-    :::moniker-end
 
     :::image type="content" source="media/vs-2022/git-conflicts-merge-commit.png" alt-text="Screenshot of how to create a merge commit by using the Git Changes window.":::
   
