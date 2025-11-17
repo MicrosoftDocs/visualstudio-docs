@@ -28,20 +28,20 @@ To follow this article, you'll need:
 
 :::moniker range="visualstudio"
 
-    :::image type="content" source="media/visualstudio/git-menu-clone-repository.png" alt-text="Screenshot that shows the Clone Repository option from the Git menu in Visual Studio.":::
+:::image type="content" source="media/visualstudio/git-menu-clone-repository.png" alt-text="Screenshot that shows the Clone Repository option from the Git menu in Visual Studio.":::
 
 :::moniker-end
 
 :::moniker range="<=vs-2022"
 
-    :::image type="content" source="../ide/media/vs-2022/git-menu-clone-repository.png" alt-text="Screenshot of the Clone Repository option from the Git menu in Visual Studio.":::
+:::image type="content" source="../ide/media/vs-2022/git-menu-clone-repository.png" alt-text="Screenshot of the Clone Repository option from the Git menu in Visual Studio.":::
 
 :::moniker-end
 
-    > [!NOTE]
-    > If you haven't interacted with the **Git** menu before, you might see **Clone** instead of **Clone Repository**. If so, select **Clone**.
-    >
-    > And, if **Git** isn't on the menu bar, go to **Tools** > **Options** > **Source Control** > **Plug-in Selection**, and then select **Git** from the **Current source control plug-in** dropdown list.
+> [!NOTE]
+> If you haven't interacted with the **Git** menu before, you might see **Clone** instead of **Clone Repository**. If so, select **Clone**.
+>
+> And, if **Git** isn't on the menu bar, go to **Tools** > **Options** > **Source Control** > **Plug-in Selection**, and then select **Git** from the **Current source control plug-in** dropdown list.
 
 1. In the **Clone a repository** window, under the **Enter a Git repository URL** section, add your repo info in the **Repository location** box.
 
@@ -79,18 +79,18 @@ To follow this article, you'll need:
 
 :::moniker range="visualstudio"
 
-    :::image type="content" source="media/visualstudio/git-solution-explorer-folder-view.png" alt-text="Screenshot of the Folder View in Solution Explorer in Visual Studio.":::
+:::image type="content" source="media/visualstudio/git-solution-explorer-folder-view.png" alt-text="Screenshot of the Folder View in Solution Explorer in Visual Studio.":::
 
 :::moniker-end
 
 :::moniker range="<=vs-2022"
 
-    :::image type="content" source="../ide/media/vs-2022/git-solution-explorer-folder-view.png" alt-text="Screenshot of the Folder View in Solution Explorer in Visual Studio 2022.":::
+:::image type="content" source="../ide/media/vs-2022/git-solution-explorer-folder-view.png" alt-text="Screenshot of the Folder View in Solution Explorer in Visual Studio 2022.":::
 
 :::moniker-end
 
-    > [!TIP]
-    > You can change the default Folder View to Solution View from the **Git** menu. Select **Settings** > **Source Control** > **Git Global Settings** > **Automatically load the solution when opening a Git repository** to do so.
+> [!TIP]
+> You can change the default Folder View to Solution View from the **Git** menu. Select **Settings** > **Source Control** > **Git Global Settings** > **Automatically load the solution when opening a Git repository** to do so.
 
 ### Open an existing local repository
 
@@ -104,13 +104,13 @@ After you’ve cloned a repo or [created one](git-create-repository.md), Visual 
 
 :::moniker range="visualstudio"
 
-    :::image type="content" source="media/visualstudio/git-menu-clone-repository-2.png" alt-text="Screenshot that shows the full Clone Repository option from the Git menu in Visual Studio.":::
+:::image type="content" source="media/visualstudio/git-menu-clone-repository-2.png" alt-text="Screenshot that shows the full Clone Repository option from the Git menu in Visual Studio.":::
 
 :::moniker-end
 
 :::moniker range="<=vs-2022"
 
-    :::image type="content" source="media/vs-2022/git-menu-clone-repository.png" alt-text="Screenshot of the full Clone Repository option from the Git menu in Visual Studio.":::
+:::image type="content" source="media/vs-2022/git-menu-clone-repository.png" alt-text="Screenshot of the full Clone Repository option from the Git menu in Visual Studio.":::
 
 :::moniker-end
 
