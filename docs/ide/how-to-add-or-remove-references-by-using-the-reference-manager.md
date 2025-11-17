@@ -51,7 +51,17 @@ The Reference Manager dialog box shows different categories on the left side, de
 
 1. In **Solution Explorer**, right-click the **References** or **Dependencies** node, and then choose either **Add Project Reference**, **Add Shared Project Reference**, or **Add COM Reference** from the context menu. (You can right-click the project node and select **Add** from the fly-out menu to choose from these options, too.)
 
-    :::image type="content" source="media/add-reference-options.png" alt-text="Screenshot of the Add Reference dialog from the context menu in Solution Explorer.":::
+:::moniker range="visualstudio"
+
+      :::image type="content" source="media/visualstudio/add-reference-options.png" alt-text="Screenshot that shows the Add Reference dialog from the context menu in Solution Explorer.":::
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+
+      :::image type="content" source="media/add-reference-options.png" alt-text="Screenshot of the Add Reference dialog from the context menu in Solution Explorer.":::
+
+:::moniker-end
 
    **Reference Manager** opens and lists the available references by group.
 
@@ -219,7 +229,19 @@ The search bar in the Reference Manager dialog box operates over the tab that's 
 
 You can remove unused references for [SDK style projects](/dotnet/core/project-sdk/overview) in Visual Studio by using the **Remove Unused Reference** menu item.
 
-:::image type="content" source="media/remove-unused-reference.png" alt-text="Screenshot of the Remove Unused Reference dialog from the context menu in Solution Explorer.":::
+:::moniker range="visualstudio"
+
+    :::image type="content" source="media/visualstudio/remove-unused-reference.png" alt-text="Screenshot that shows the Remove Unused Reference dialog from the context menu in Solution Explorer.":::
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+
+    :::image type="content" source="media/remove-unused-reference.png" alt-text="Screenshot of the Remove Unused Reference dialog from the context menu in Solution Explorer.":::
+
+:::moniker-end
+
+
 
 For more information, see [Remove unused references](reference/remove-unused-references.md).
 
