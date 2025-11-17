@@ -180,14 +180,16 @@ For information about .NET Compiler Platform ("Roslyn") performance consideratio
 
     To disable the XAML Designer, open the **Tools** > **Options** pane, expand the **All Settings** > **XAML Designer** > **General** section, and clear the **Enable XAML designer** checkbox.
 
+    After you update the **Enable XAML designer** option, you need to restart Visual Studio for the changes to take effect.
+
     :::moniker-end
     :::moniker range="<=vs-2022"
 
     To disable the XAML Designer, open the **Tools** > **Options** dialog and expand the **XAML Designer** > **General** section. Clear the **Enable XAML Designer** checkbox, and then select **OK**.
 
-    :::moniker-end
-
     After you update the **Enable XAML Designer** option, you need to restart Visual Studio for the changes to take effect.
+
+    :::moniker-end
 
 - **Remove workloads**
 
