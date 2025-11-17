@@ -25,6 +25,8 @@ When an application declares itself to be DPI-aware, it's a statement specifying
 > [!NOTE]
 > In Visual Studio 2022 version 17.8 or later, you can avoid the issues described in this article. Visual Studio 2022 version 17.8 provides support for DPI-unaware tabs within a DPI-aware application. See [Visual Studio DPI improvements](/dotnet/desktop/winforms/whats-new/net80#visual-studio-dpi-improvements). This lets you design Windows Forms for DPI-unaware contexts, without requiring you to run Visual Studio in DPI-unaware mode. To use this setting in a Windows Forms project, set the property `ForceDesignerDPIUnaware` to `true` in your project file:
 >
+>The `ForceDesignerDpiUnaware` project property is supported only for Windows Forms projects targeting **.NET 6 or later**. Projects targeting **.NET Framework (including .NET Framework 4.8)** do not use this setting; the designer will continue to run with the default DPI behavior.
+> 
 >```xml
 ><PropertyGroup>
 >   ...
