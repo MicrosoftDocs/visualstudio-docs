@@ -1,7 +1,7 @@
 ---
 title: About GitHub Copilot Completions in Visual Studio
 description: Use GitHub Copilot Completions in Visual Studio to use AI assistance to generate information about your code, including suggested edits and new code snippets.
-ms.date: 5/30/2025
+ms.date: 11/17/2025
 ms.update-cycle: 180-days
 ms.topic: overview
 author: anandmeg
@@ -88,8 +88,20 @@ Here are keyboard shortcuts related to completions:
 
 Customize your completion experience by using settings:
 
-- If you feel that completions appear too quickly and interrupt your typing, go to **Tools** > **Options** > **IntelliCode** > **Advanced** and turn on **Wait for pauses in typing before showing whole line completions**. This setting adds a debounce delay, so completions don't flash and disappear while you're typing quickly.
-- By default, each of your keystrokes automatically triggers completions. To disable automatic completions, go to **Tools** > **Options** > **IntelliCode** > **General** and turn off **Automatically generate code completions in the Editor**. Then, use <kbd>Alt</kbd>+<kbd>,</kbd> to manually trigger completions.
+:::moniker range="visualstudio"
+
+- If completions appear too quickly and interrupt your typing, you can adjust the display timing in the **Tools** > **Options** pane. Expand the **All Settings** > **Text Editor** > **Code Completions** > **Preferences** section, and select the **Show code completions only after a pause in typing** checkbox. This setting adds a debounce delay, so completions don't flash and disappear while you're typing quickly.
+
+- By default, each of your keystrokes automatically triggers completions. You can disable automatic completions in the **Tools** > **Options** pane. Expand the **All Settings** > **Text Editor** > **Code Completions** > **General** section, and set the **Code Completion Invocation** option to **Manual**. After you make this adjustment, you can manually trigger completions by using the **Alt**+**,** keyboard shortcut.
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+- If you feel that completions appear too quickly and interrupt your typing, you can adjust the display timing in the **Tools** > **Options** dialog. Expand the **IntelliCode** > **Advanced** section and select the **Wait for pauses in typing before showing whole line completions** checkbox. This setting adds a debounce delay, so completions don't flash and disappear while you're typing quickly.
+
+- By default, each of your keystrokes automatically triggers completions. You can disable automatic completions in the **Tools** > **Options** dialog. Expand the **IntelliCode** > **General** section and clear the **Automatically generate code completions in the Editor** checkbox.  After you make this adjustment, you can manually trigger completions by using the **Alt**+**,** keyboard shortcut.
+
+:::moniker-end
 
 ## Content exclusion
 
@@ -113,15 +125,32 @@ The GPT-4o Copilot model for code completions is available for GitHub Copilot in
 
 To try the new model for better suggestions and performance:
 
-1. Go to **Tools** > **Options** > **GitHub** > **Copilot** > **Copilot Completions**.
+:::moniker range="visualstudio"
 
-1. In the **Copilot Completions Model** dropdown list, select **GPT-4o Copilot**.
+1. In the **Tools** > **Options** pane, expand the **All Settings** > **Text Editor** > **Code Completions** > **General** section.
 
-   :::image type="content" source="media/vs-2022/visual-studio-github-copilot-extension/completions-model-picker.png" alt-text="Screenshot that shows the dropdown list for selecting a completions model.":::
+1. Set the **Copilot Completions Model** option to **GPT-4o Copilot**.
 
-If you don't see the new GPT-4o model in the dropdown list, try restarting Visual Studio to retrieve the latest model list.
+   If the GPT-4o model isn't listed, try restarting Visual Studio to retrieve the latest model list.
 
-You can also access **Settings** > **Options** from the Copilot badge in the upper-right corner of the editor.
+   :::image type="content" source="media/visualstudio/completions-model-picker.png" border="false" alt-text="Screenshot that shows how to select the Copilot completions model.":::
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+1. In the **Tools** > **Options** dialog, expand the **GitHub** > **Copilot** section.
+
+1. In the **Copilot Completions** group, set the **Copilot Completions Model** option to **GPT-4o Copilot**.
+
+   If you don't see the GPT-4o model in the dropdown list, try restarting Visual Studio to retrieve the latest model list.
+
+   :::image type="content" source="media/vs-2022/visual-studio-github-copilot-extension/completions-model-picker.png" border="false" alt-text="Screenshot that shows the dropdown list for selecting a completions model.":::
+
+1. Select **OK**.
+
+You can also access **Settings** > **Options** from the Copilot badge at the top right in the editor.
+
+:::moniker-end
 
 ### Access
 
