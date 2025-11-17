@@ -104,7 +104,7 @@ After you’ve cloned a repo or [created one](git-create-repository.md), Visual 
 
 :::moniker range="visualstudio"
 
-    :::image type="content" source="media/visualstudio/git-menu-clone-repository.png" alt-text="Screenshot that shows the full Clone Repository option from the Git menu in Visual Studio.":::
+    :::image type="content" source="media/visualstudio/git-menu-clone-repository-2.png" alt-text="Screenshot that shows the full Clone Repository option from the Git menu in Visual Studio.":::
 
 :::moniker-end
 
