@@ -10,7 +10,7 @@ ms.subservice: general-ide
 ---
 # Visual Studio performance tips and tricks
 
-Visual Studio performance recommendations are intended for low memory situations, which may occur in rare cases. In these situations, you can optimize certain Visual Studio features that you may not be using. The following tips aren't intended as general recommendations.
+Visual Studio performance recommendations are intended for low memory situations, which might occur in rare cases. In these situations, you can optimize certain Visual Studio features that you might not be using. The following tips aren't intended as general recommendations.
 
 > [!NOTE]
 > If you’re having difficulty using the product because of memory issues, let us know through the [feedback tool](../ide/how-to-report-a-problem-with-visual-studio.md).
@@ -28,16 +28,16 @@ For more information, see [Memory Limits for Windows and Windows Server releases
 
 Visual Studio automatically reopens documents that were left open in the previous session. This automatic file restore action can prolong the times it takes to load a solution by up to 30% or more, depending on the project type and the documents being opened. Designers like Windows Forms and XAML, and some JavaScript and TypeScript files, can be slow to open.
 
-Visual Studio notifies you in a yellow bar when automatic document restore is causing a solution to load slower. You can disable automatic file reopening by following these steps:
+Visual Studio notifies you in a yellow bar when automatic document restore is causing a solution to load slower.
 
 :::moniker range="visualstudio"
 
-Open the **Tools** > **Options** pane, expand the **All Settings** > **Projects and Solutions** > **General** section, and clear the **Reopen documents on solution load** checkbox.
+To disable automatic file reopening, open the **Tools** > **Options** pane, expand the **All Settings** > **Projects and Solutions** > **General** section, and clear the **Reopen documents on solution load** checkbox.
 
 :::moniker-end
 :::moniker range="<=vs-2022"
 
-Open the **Tools** > **Options** dialog, and expand the **Projects and Solutions** > **General** section. Clear the **Reopen documents on solution load** checkbox, and then select **OK**.
+To disable automatic file reopening, open the **Tools** > **Options** dialog, and expand the **Projects and Solutions** > **General** section. Clear the **Reopen documents on solution load** checkbox, and then select **OK**.
 
 :::moniker-end
 
@@ -64,7 +64,7 @@ If you're typically running low on memory during debugging sessions, you can opt
     :::moniker-end
     :::moniker range="<=vs-2022"
 
-    To enable the Just My Code feature, open the **Tools** > **Options** dialog, and expand the **Debugging** > **General** section. Select the **Enable Just My Code** checkbox.
+    To enable the Just My Code feature, open the **Tools** > **Options** dialog, and expand the **Debugging** > **General** section. Select the **Enable Just My Code** checkbox, and then select **OK**.
 
     :::moniker-end
 
@@ -89,16 +89,16 @@ If you're typically running low on memory during debugging sessions, you can opt
 
 - **Disable Diagnostic Tools**
 
-    It's recommended that you disable CPU profiling after use. This feature can consume large amounts of resources. Once CPU profiling is enabled, this state is persisted across subsequent debug sessions, so it’s worth explicitly turning it off when done. You may save some resources by disabling the diagnostic tools while debugging if you don't need the provided features.
+    It's recommended that you disable CPU profiling after use. This feature can consume large amounts of resources. Once CPU profiling is enabled, this state is persisted across subsequent debug sessions, so it’s worth explicitly turning it off when done. You might save some resources by disabling the diagnostic tools while debugging if you don't need the provided features.
 
     :::moniker range="visualstudio"
 
-    To disable the **Diagnostic Tools**, open the **Tools** > **Options** pane, and expand the **All Settings** > **Debugging** > **General** section. Clear the **Enable Diagnostic Tools while debugging** checkbox.
+    To disable the diagnostic tools, open the **Tools** > **Options** pane, and expand the **All Settings** > **Debugging** > **General** section. Clear the **Enable Diagnostic Tools while debugging** checkbox.
 
     :::moniker-end
     :::moniker range="<=vs-2022"
 
-    To disable the **Diagnostic Tools**, open the **Tools** > **Options** dialog, and expand the **Debugging** > **General** section. Clear the **Enable Diagnostic Tools while debugging** checkbox, and then select **OK**.
+    To disable the diagnostic tools, open the **Tools** > **Options** dialog, and expand the **Debugging** > **General** section. Clear the **Enable Diagnostic Tools while debugging** checkbox, and then select **OK**.
 
     :::moniker-end
 
@@ -146,7 +146,7 @@ For information about .NET Compiler Platform ("Roslyn") performance consideratio
 
     :::moniker range="visualstudio"
 
-    To disable map mode, open the **Tools** > **Options** pane, and expand the **All Settings** > **Languages** > **Defaults** > **General** > **Scroll Bars** section. Use the dropdown list and set the **Vertical scroll bar mode** option to **Bar mode***.
+    To disable map mode, open the **Tools** > **Options** pane, and expand the **All Settings** > **Languages** > **Defaults** > **General** > **Scroll Bars** section. Use the dropdown list and set the **Vertical scroll bar mode** option to **Bar mode**.
 
     :::moniker-end
     :::moniker range="<=vs-2022"
@@ -163,7 +163,7 @@ For information about .NET Compiler Platform ("Roslyn") performance consideratio
     
     :::moniker range="visualstudio"
 
-    You can also disable the feature for all projects. Open the **Tools** > **Options** pane and expand the **All Settings** > **Languages** > **Defaults** > **General** section, and clear the **Word wrap** checkbox.
+    You can also disable the feature for all projects. Open the **Tools** > **Options** pane, expand the **All Settings** > **Languages** > **Defaults** > **General** section, and clear the **Word wrap** checkbox.
 
     :::moniker-end
     :::moniker range="<=vs-2022"
@@ -178,12 +178,12 @@ For information about .NET Compiler Platform ("Roslyn") performance consideratio
 
     :::moniker range="visualstudio"
 
-    Open the **Tools** > **Options** pane and expand the **All Settings** > **XAML Designer** > **General** section, and clear the **Enable XAML designer** checkbox.
+    To disable the XAML Designer, open the **Tools** > **Options** pane, expand the **All Settings** > **XAML Designer** > **General** section, and clear the **Enable XAML designer** checkbox.
 
     :::moniker-end
     :::moniker range="<=vs-2022"
 
-    Open the **Tools** > **Options** dialog and expand the **XAML Designer** > **General** section. Clear the **Enable XAML Designer** checkbox, and then select **OK**.
+    To disable the XAML Designer, open the **Tools** > **Options** dialog and expand the **XAML Designer** > **General** section. Clear the **Enable XAML Designer** checkbox, and then select **OK**.
 
     :::moniker-end
 
@@ -203,7 +203,7 @@ For information about .NET Compiler Platform ("Roslyn") performance consideratio
 
 ## Force a garbage collection
 
-The CLR uses a garbage collection memory management system. In this system, sometimes memory is used by objects that are no longer needed. This state is temporary; the garbage collector releases this memory based on its performance and resource usage heuristics. You can force the CLR to collect any unused memory by using a hotkey in Visual Studio. If there's a significant amount of garbage waiting for collection and you force a garbage collection, you should see the memory usage of the *devenv.exe* process drop in **Task Manager**. It’s rarely necessary to use this method. However, after an expensive operation has completed (such as a full build, debug session, or a solution open event), it can help you determine how much memory is really being used by the process. Because Visual Studio is mixed (managed & native), it’s occasionally possible for the native allocator and the garbage collector to compete for limited memory resources. Under conditions of high memory usage, it may help to force the garbage collector to run.
+The CLR uses a garbage collection memory management system. In this system, sometimes memory is used by objects that are no longer needed. This state is temporary; the garbage collector releases this memory based on its performance and resource usage heuristics. You can force the CLR to collect any unused memory by using a hotkey in Visual Studio. If there's a significant amount of garbage waiting for collection and you force a garbage collection, you should see the memory usage of the *devenv.exe* process drop in **Task Manager**. It’s rarely necessary to use this method. However, after an expensive operation has completed (such as a full build, debug session, or a solution open event), it can help you determine how much memory is really being used by the process. Because Visual Studio is mixed (managed & native), it’s occasionally possible for the native allocator and the garbage collector to compete for limited memory resources. Under conditions of high memory usage, it might help to force the garbage collector to run.
 
 To force a garbage collection, use this keyboard shortcut: **Ctrl**+**Alt**+**Shift**+**F12**, **Ctrl**+**Alt**+**Shift**+**F12** (press it twice).
 
