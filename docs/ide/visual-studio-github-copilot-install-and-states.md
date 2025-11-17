@@ -30,7 +30,7 @@ In this article, you learn how to manage your GitHub Copilot installation and st
 
 ## Manage your Copilot state 
 
-With Visual Studio 2022 version 17.10 or later, there's a Copilot status icon in the upper-right corner of the Visual Studio environment that indicates if Copilot is active, inactive, unavailable, or not installed. Using the dropdown menu from the status icon, you can easily access options that help manage or [troubleshoot](visual-studio-github-copilot-troubleshoot.md) your Copilot state. Some options are available or greyed depending on your Copilot state.
+With Visual Studio 2022 version 17.10 or later, there's a Copilot status icon in the upper-right corner of the Visual Studio environment that indicates if Copilot is active, inactive, unavailable, or not installed. Using the dropdown menu from the status icon, you can easily access options that help manage or [troubleshoot](visual-studio-github-copilot-troubleshoot.md) your Copilot state. The availability of some options depends on your Copilot state.
 
 > [!NOTE]
 > Note that the status icon is moving from the bottom panel of the Visual Studio editor. 
