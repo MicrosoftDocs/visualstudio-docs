@@ -28,7 +28,7 @@ Git is good at automatically merging file changes in most circumstances, as long
 
 :::moniker-end
 
-:::moniker range="vs-2022"
+:::moniker range="<=vs-2022"
 
 :::image type="content" source="media/vs-2022/git-conflicts-push-link.png" alt-text="Screenshot of merge conflict after a push.":::
 
@@ -77,7 +77,7 @@ Git is good at automatically merging file changes in most circumstances, as long
 
     :::moniker-end
 
-    :::moniker range="vs-2022"
+    :::moniker range="<=vs-2022"
 
     :::image type="content" source="media/vs-2022/git-conflicts-resolve-conflict.png" alt-text="Screenshot that shows how to resolve a merge conflict in Visual Studio 2022." lightbox="media/vs-2022/git-conflicts-resolve-conflict.png":::
 
