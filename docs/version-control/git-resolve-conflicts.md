@@ -96,7 +96,7 @@ Git is good at automatically merging file changes in most circumstances, as long
 
     :::moniker-end
 
-    :::moniker range="vs-2022"
+    :::moniker range="<=vs-2022"
 
     > [!TIP]
     > If you don't like the default layout in Merge Editor, feel free to change it by using the gear dropdown menu.
@@ -121,7 +121,7 @@ Git is good at automatically merging file changes in most circumstances, as long
   
     :::moniker-end
 
-    :::moniker range="vs-2022"
+    :::moniker range="<=vs-2022"
 
     :::image type="content" source="media/vs-2022/git-conflicts-merge-commit.png" alt-text="Screenshot of how to create a merge commit by using the Git Changes window.":::
   
@@ -136,7 +136,7 @@ Git is good at automatically merging file changes in most circumstances, as long
 
     :::moniker-end
 
-    :::moniker range="vs-2022"
+    :::moniker range="<=vs-2022"
 
     > [!NOTE]
     > If you want to keep all of your changes to a file, you can right-click it in the **Unmerged Changes** section and select **Keep Current (Local)** without having to open Merge Editor.
