@@ -65,7 +65,7 @@ The Reference Manager dialog box shows different categories on the left side, de
 
    **Reference Manager** opens and lists the available references by group.
 
-    :::image type="content" source="media/reference-manager.png" alt-text="Screenshot of the Reference Manager dialog box in Visual Studio.":::
+  :::image type="content" source="media/reference-manager.png" alt-text="Screenshot of the Reference Manager dialog box in Visual Studio.":::
 
 2. Select a reference to add, and then select **OK**.
 
@@ -240,8 +240,6 @@ You can remove unused references for [SDK style projects](/dotnet/core/project-s
   :::image type="content" source="media/remove-unused-reference.png" alt-text="Screenshot of the Remove Unused Reference dialog from the context menu in Solution Explorer.":::
 
 :::moniker-end
-
-
 
 For more information, see [Remove unused references](reference/remove-unused-references.md).
 
