@@ -2,7 +2,7 @@
 title: "Prepare to debug console projects"
 description: Get information about preparing to debug console projects (C#, C++, Visual Basic, F#) in Visual Studio.
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: concept-article
 dev_langs:
   - "CSharp"
   - "VB"

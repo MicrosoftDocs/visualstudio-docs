@@ -2,7 +2,7 @@
 title: Invoking Text Transformation in a VS Extension
 description: Learn how you can use the text templating service to transform text templates. Also learn how to get the STextTemplating service and cast it to ITextTemplating.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 author: mgoertz-msft
 ms.author: mgoertz
 manager: mijacobs

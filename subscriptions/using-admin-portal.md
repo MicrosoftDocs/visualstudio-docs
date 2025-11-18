@@ -3,7 +3,7 @@ title: Get started in the Admin Portal
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 01/28/2025
+ms.date: 11/3/2025
 ms.topic: overview
 description: Manage an organization's Visual Studio subscriptions with the Subscriptions Admin Portal, access subscriber information and agreement details, and get notifications.
 ---
@@ -25,7 +25,7 @@ Keep these points in mind when you use the Visual Studio Subscriptions Admin Por
 + **Do not share subscriptions between subscribers.** Subscriptions must be assigned to named individuals. Assignment of subscriptions to teams isn't permitted. You must assign a subscription to anyone who uses all or part of the subscription benefits (software for development and testing, Microsoft Azure, e-learning, etc.).
 
 > [!NOTE]
-> Visual Studio Subscriptions [subscription portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs) and [admin portal](https://manage.visualstudio.com) do not support [GCC High tenants](https://learn.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod), also known as private or government domains. This also applies to subscribers attempting to sign into the Visual Studio IDE. To access Visual Studio subscriptions, your organization will need to have a public tenant. For further assistance creating a public tenant, contact [Azure support](https://azure.microsoft.com/support/create-ticket/). 
+> Visual Studio Subscriptions [subscription portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs) and [admin portal](https://manage.visualstudio.com) don't support [GCC High tenants](https://learn.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod), also known as private or government domains. This also applies to subscribers attempting to sign into the Visual Studio IDE. To access Visual Studio subscriptions, your organization needs to have a public tenant. For further assistance creating a public tenant, contact [Azure support](https://azure.microsoft.com/support/create-ticket/). 
 
 ## The Subscribers page
 
@@ -63,7 +63,7 @@ Navigate to the **Settings** wheel to set your preferences on the notifications 
 
 ## Resources
 
-+ [Visual Studio licensing white paper](https://visualstudio.microsoft.com/wp-content/uploads/2019/06/Visual-Studio-Licensing-Whitepaper-May-2019.pdf)
++ [Visual Studio licensing white paper](https://aka.ms/vslicensing)
 + [Compare subscription options and pricing](https://visualstudio.microsoft.com/vs/pricing)
 + [Compare Visual Studio IDE features](https://visualstudio.microsoft.com/vs/compare)
 + [Subscriptions support for admins](https://aka.ms/VSSAdminSupport)

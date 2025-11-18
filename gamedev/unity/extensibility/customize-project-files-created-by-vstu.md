@@ -4,7 +4,7 @@ description: Learn to customize project files created by Visual Studio Tools for
 ms.date: "04/19/2021"
 ms.subservice: unity-tools
 ms.service: visual-studio
-ms.topic: "conceptual"
+ms.topic: article
 author: "conceptdev"
 ms.author: "crdun"
 manager: crdun

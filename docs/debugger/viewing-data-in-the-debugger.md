@@ -2,7 +2,7 @@
 title: "Create custom views of data in the debugger"
 description: Learn the various ways  to inspect and modify program state in Visual Studio debugger. These include the Autos and Watch windows, DataTips, and Visualizers.  
 ms.date: "08/08/2023"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "CSharp"
   - "VB"

@@ -2,7 +2,7 @@
 title: Command Placement Guidelines
 description: Learn the guidelines and best practices for positioning commands in the Visual Studio integrated development environment (IDE). 
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - commands, small command sets
 - small command sets

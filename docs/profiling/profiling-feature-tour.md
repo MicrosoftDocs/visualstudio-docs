@@ -1,8 +1,8 @@
 ---
 title: "Overview of the profiling tools"
 description: Review the different diagnostic tools available in Visual Studio for profiling your C#, Visual Basic, C++, and F# applications.
-ms.date: 5/12/2025
-ms.topic: conceptual
+ms.date: 11/10/2025
+ms.topic: concept-article
 f1_keywords:
   - vs.diagnosticshub.overview
 dev_langs:
@@ -207,8 +207,41 @@ The Instrumentation tool is similar to the CPU Usage tool, except that it provid
 ![Screenshot showing .NET Instrumentation data.](./media/vs-2022/instrumentation-data.png "Instrumentation data")
 ::: moniker-end
 
-::: moniker range=">= vs-2022"
+::: moniker range=">= visualstudio"
+## AI-enhanced scenarios
 
+When Copilot is enabled, it can help you by recommending profiling tools that match your code, and by analyzing specific issues identified by profiling tools. Copilot understands your code and the Visual Studio profiling tools. As a result, you can interact with the profiler-aware AI to ask detailed questions related to your code and to performance issues in general.
+
+Copilot provides more precise help for some targeted scenarios, such as those described in the following table.
+
+|Feature or scenario|Link|
+|-|-|
+|Agent-directed profiling for CPU usage|See [Profile using the Profiler Agent](../profiling/profile-with-copilot-agent.md).|
+|Auto insights for profiling|See [Get AI assistance with Auto insights](../profiling/cpu-insights.md#get-ai-assistance).|
+|Auto insights for instrumentation|See [Get AI assistance](../profiling/instrumentation.md#get-ai-assistance).|
+|Auto insights for .NET Object Allocation|See [Get AI assistance](../profiling/dotnet-alloc-tool.md#get-ai-assistance).|
+|Copilot tool suggestions|See [Get AI recommendations](#get-ai-recommendations).|
+
+In some of these scenarios, you get targeted assistance by using the **Ask Copilot** ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png) or **Analyze with Copilot** button. Copilot already knows the context for your questions. For example, it knows about insights discovered by the profiling tools and can make relevant suggestions how to fix them.
+::: moniker-end
+::: moniker range="vs-2022"
+## AI-enhanced scenarios
+
+When Copilot is enabled, it can help you by recommending profiling tools that match your code, and by analyzing specific issues identified by profiling tools. Copilot understands your code and the Visual Studio profiling tools. As a result, you can interact with the profiler-aware AI to ask detailed questions related to your code and to performance issues in general.
+
+Copilot provides more precise help for some targeted scenarios, such as those described in the following table.
+
+|Feature or scenario|Link|
+|-|-|
+|Agent-directed profiling for CPU usage|See [Profile using the Profiler Agent](../profiling/profile-with-copilot-agent.md).|
+|Auto insights for profiling|See [Get AI assistance with Auto insights](../profiling/cpu-insights.md#get-ai-assistance).|
+|Auto insights for instrumentation|See [Get AI assistance](../profiling/instrumentation.md#get-ai-assistance).|
+|Auto insights for .NET Object Allocation|See [Get AI assistance](../profiling/dotnet-alloc-tool.md#get-ai-assistance).|
+
+In some of these scenarios, you get targeted assistance by using the **Ask Copilot** ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png) or **Analyze with Copilot** button. Copilot already knows the context for your questions. For example, it knows about insights discovered by the profiling tools and can make relevant suggestions how to fix them.
+::: moniker-end
+
+::: moniker range=">= vs-2022"
 ## Examine File I/O
 
 The [File I/O tool](../profiling/use-file-io.md) helps you understand how you can optimize your File I/O operations to improve performance in your apps. If you’re trying to investigate and diagnose slow loading times, the new File IO tool can help you understand how the I/O operations impact your spent time. This tool is available in the Performance Profiler. Open the Performance Profiler by choosing Debug > Performance Profiler (or Alt + F2).

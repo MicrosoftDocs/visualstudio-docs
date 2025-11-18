@@ -4,7 +4,7 @@ author: joseb-rdc
 ms.author: amast
 manager: shve
 ms.date: 09/16/2023
-ms.topic: conceptual
+ms.topic: article
 description:  Learn what admins should see when Visual Studio subscriptions agreements are renewed.
 ---
 

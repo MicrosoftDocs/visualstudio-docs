@@ -37,7 +37,7 @@ To install Visual Studio, select the following button, and [choose the edition o
 To install Visual Studio, select the following button, and [choose the edition of Visual Studio](#choose-your-visual-studio-edition) to download.
 
  > [!div class="button"]
- > [Download Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta)
+ > [Download Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-cta)
 
 ::: moniker-end
 
@@ -46,7 +46,7 @@ To install Visual Studio, select the following button, and [choose the edition o
 To install Visual Studio, select the following button, and [choose the edition of Visual Studio](#choose-your-visual-studio-edition) to download.
 
  > [!div class="button"]
- > [Download Visual Studio](https://aka.ms/vs/insiders/?cid=learn-onpage-download-install-visual-studio-page-cta)
+ > [Download Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-install-visual-studio-page-cta)
 
 ::: moniker-end
 
@@ -171,14 +171,14 @@ To install Visual Studio, select the following button, and then choose the editi
 ::: moniker range="vs-2022"
 
  > [!div class="button"]
- > [Download Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta)
+ > [Download Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-cta)
 
 ::: moniker-end
 
 ::: moniker range="visualstudio"
 
  > [!div class="button"]
- > [Download Visual Studio](https://aka.ms/vs/insiders/?cid=learn-onpage-download-install-visual-studio-page-cta)
+ > [Download Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-install-visual-studio-page-cta)
 
 ::: moniker-end
 

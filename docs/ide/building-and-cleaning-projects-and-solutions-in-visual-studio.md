@@ -1,9 +1,9 @@
 ---
 title: Build and clean projects and solutions
 description: Build, rebuild, or clean some of your projects or project items, or all of your projects, in your Visual Studio project solution.
-ms.date: 9/3/2025
+ms.date: 11/07/2025
 ms.subservice: compile-build
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
 - VS.BuildProjectPicker
 - vs.batchbuild
@@ -24,10 +24,10 @@ manager: mijacobs
 ---
 # Build and clean projects and solutions in Visual Studio
 
-By using the procedures in this topic, you can build, rebuild, or clean all or some of the projects or project items in a solution. For a step-by-step tutorial, see [Walkthrough: Building an application](../ide/walkthrough-building-an-application.md).
+By using the procedures in this article, you can build, rebuild, or clean all or some of the projects or project items in a solution. For a step-by-step tutorial, see [Walkthrough: Building an application](../ide/walkthrough-building-an-application.md).
 
 > [!NOTE]
-> The UI in your edition of Visual Studio might differ from what this topic describes, depending on your active settings. To change your settings, for example to **General** or **Visual C++** settings, choose **Tools** > **Import and Export Settings**, and then choose **Reset all settings**.
+> The UI in your edition of Visual Studio might differ from what this article describes, depending on your active settings. To change your settings, for example to **General** or **Visual C++** settings, choose **Tools** > **Import and Export Settings**, and then choose **Reset all settings**.
 
 ## To build, rebuild, or clean a solution
 
@@ -58,19 +58,24 @@ Use this procedure to build the solution in the current configuration (for examp
 
 ## To build only the startup project and its dependencies
 
-1. On the menu bar, choose **Tools** > **Options**.
+:::moniker range="visualstudio"
 
-2. In the **Options** dialog box, expand the **Projects and Solutions** node, and then choose the **Build and Run** page.
+1. Open the **Tools** > **Options** pane and expand the **All Settings** > **Projects and Solutions** > **Build And Run** section.
 
-     The **Build and Run** > **Projects and Solutions** > **Options** dialog box opens.
+1. Select the **Only build startup projects and dependencies on Run** checkbox.
 
-3. Select the  **Only build startup projects and dependencies on Run** check box.
+:::moniker-end
+:::moniker range="<=vs-2022"
 
-     When this check box is selected, only the current startup project and its dependencies are built when you choose **Debug** > **Start** (**F5**) or **Debug** > **Start Without Debugging** (**Ctrl**+**F5**).
+1. Open the **Tools** > **Options** dialog and expand the **Projects and Solutions** > **Build And Run** section.
 
-    When you choose **Build** > **Build Solution** (**Ctrl**+**Shift**+**B**), the entire solution is built.
+1. Select the **Only build startup projects and dependencies on Run** checkbox, and then select **OK**.
 
-    When this check box is cleared, all projects, their dependencies, and the solution files are built when you run any of the preceding commands.
+:::moniker-end
+
+When you select the **Only build startup projects and dependencies on Run** option, only the current startup project and its dependencies are built when you select **Debug** > **Start** (**F5**) or **Debug** > **Start Without Debugging** (**Ctrl**+**F5**). When you select **Build** > **Build Solution** (**Ctrl**+**Shift**+**B**), the entire solution builds.
+
+When you clear the option, all projects, their dependencies, and the solution files are built when you run any of the preceding commands.
 
 You can see build progress and output in the **Output** window. You also see an icon in the status bar at the bottom of the Visual Studio window that indicates a build is running.
 
@@ -89,7 +94,7 @@ Select the desired projects and configurations and use the buttons to build, reb
 The selections you made are remembered the next time you open the **Batch build** dialog box.
 
 > [!NOTE]
-> Batch build is not available for all project types. See [Build multiple configurations simultaneously](how-to-build-multiple-configurations-simultaneously.md).
+> Batch build isn't available for all project types. See [Build multiple configurations simultaneously](how-to-build-multiple-configurations-simultaneously.md).
 
 ## To build only the selected Visual C++ project
 
@@ -109,7 +114,7 @@ These commands apply only to the C++ project that you chose, without building, r
 
 In **Solution Explorer**, choose multiple files that can be compiled, open the shortcut menu for one of those files, and then choose **Compile**, or press **Ctrl**+**F7**.
 
-If the files have dependencies, the files will be compiled in dependency order. The compile operation will fail if the files require a precompiled header that isn't available when you compile. The compile operation uses the current active solution configuration.
+If the files have dependencies, the files will be compiled in dependency order. The compile operation fails if the files require a precompiled header that isn't available when you compile. The compile operation uses the current active solution configuration.
 
 ## To stop a build
 
@@ -119,7 +124,7 @@ Perform either of the following steps:
 
 - Press **Ctrl**+**Break**.
 
-The **Cancel** menu item only appears unless a build is currently runing.
+The **Cancel** menu item only appears unless a build is currently running.
 
 ## Related content
 

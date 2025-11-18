@@ -2,7 +2,7 @@
 title: Use IntelliSense for quick information & completion
 description: Explore how to work with IntelliSense features in Visual Studio, including List Members, Parameter Info, Quick Info, and Complete Word.
 ms.date: 1/24/2025
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - Quick info
 - Parameter info

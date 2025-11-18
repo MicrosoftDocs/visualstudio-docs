@@ -2,7 +2,7 @@
 title: Customizing T4 Text Transformation
 description: Learn how you can extend the default template transformation process by customizing the text template directive processor or the text template host.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - text templates, API
 - text templates, custom hosts

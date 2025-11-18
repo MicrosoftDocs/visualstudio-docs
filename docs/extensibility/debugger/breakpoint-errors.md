@@ -2,7 +2,7 @@
 title: Breakpoint Errors
 description: Learn about the process when a breakpoint attempts to bind to code but fails and how to troubleshoot breakpoint errors.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - breakpoints, errors
 - debugging [Debugging SDK], breakpoint errors

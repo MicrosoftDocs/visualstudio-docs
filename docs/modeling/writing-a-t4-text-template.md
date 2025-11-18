@@ -2,7 +2,7 @@
 title: Writing a T4 Text Template
 description: Work with T4 text templates in Visual Studio and how to write a text template that includes directives, text blocks, and control blocks.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - text templates, syntax
 - text templates, guide

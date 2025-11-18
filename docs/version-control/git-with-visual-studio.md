@@ -2,7 +2,7 @@
 title: About Git in Visual Studio
 titleSuffix: ""
 description: Explore Git options for source control in Visual Studio and track the code changes you make over time or revert to specific versions.
-ms.date: 4/1/2025
+ms.date: 11/13/2025
 ms.topic: overview
 author: ghogen
 ms.author: ghogen
@@ -54,7 +54,21 @@ However, there are times when it makes more sense to focus on your Git repositor
 
 To help you focus on your Git repository, Visual Studio has a **Git Repository** window, which is a consolidated view of all the details in your repository, including local and remote branches and commit history. You can access this window directly from either **Git** or **View** on the menu bar, or from the status bar.
 
-:::image type="content" source="media/git-source-control-repository-management.png" alt-text="The Visual Studio IDE that highlights the Git menu and the Git Changes tab in Solution Explorer.":::
+:::moniker-end
+
+::: moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/git-source-control-repository-management.png" alt-text="Screenshot showing the Visual Studio IDE. The Create a new branch window and the Git Changes tab in Solution Explorer are shown." lightbox="media/visualstudio/git-source-control-repository-management.png":::
+ 
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+:::image type="content" source="media/git-source-control-repository-management.png" alt-text="The Create a new branch window and the Git Changes tab in Solution Explorer.":::
+
+::: moniker-end
+
+:::moniker range=">=vs-2022"
 
 ### Browse and manage Git repositories
 
@@ -69,11 +83,29 @@ Conflicts can occur during a merge if two developers modify the same lines in a 
 
 ### Personalize your Git settings
 
+:::moniker-end
+
+:::moniker range="visualstudio"
+
 To personalize your Git settings at a repository level as well as at a global level:
-1. Go to either **Git** > **Settings** on the menu bar or **Tools** > **Options** > **Source Control** > **Git Global Settings**
+1. Go to either **Git** > **Settings** on the menu bar or **Tools** > **Options** > **Source Control** > **Git Global Config**.
+1. Choose the [options](git-settings.md) you want.
+
+    :::image type="content" source="media/visualstudio/git-options-settings.png" alt-text="Screenshot of the Options dialog box where you can choose personalization and customization settings in the Visual Studio IDE." lightbox="media/visualstudio/git-options-settings.png":::
+    
+:::moniker-end
+
+:::moniker range="vs-2022"
+
+To personalize your Git settings at a repository level as well as at a global level:
+1. Go to either **Git** > **Settings** on the menu bar or **Tools** > **Options** > **Source Control** > **Git Global Settings**.
 2. Choose the [options](git-settings.md) you want.
 
     :::image type="content" source="media/vs-2022/git-options-settings.png" alt-text="Screenshot of the Options dialog box where you can choose personalization and customization settings in Visual Studio IDE." lightbox="media/vs-2022/git-options-settings.png":::
+
+:::moniker-end
+
+:::moniker range=">=vs-2022"
 
 ## Productivity enhancements
 
@@ -81,7 +113,7 @@ In Visual Studio 2022 **version 17.12**, you can select any section of code, and
 
 In Visual Studio 2022 [**version 17.6**](/visualstudio/releases/2022/release-notes-v17.6), you can [search](https://devblogs.microsoft.com/visualstudio/git-tooling-preview-features-to-enhance-productivity/#improved-search-for-related-github-issues-and-azure-devops-work-items) for and [link](https://devblogs.microsoft.com/visualstudio/reference-github-issues-and-pull-requests-in-visual-studio/) to GitHub Issues and Azure DevOps work items. See the [**Git Features to Enhance Productivity**](https://devblogs.microsoft.com/visualstudio/git-tooling-preview-features-to-enhance-productivity/) blog post.
 
-::: moniker-end
+:::moniker-end
 
 ::: moniker range="<=vs-2019"
 

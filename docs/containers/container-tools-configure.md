@@ -4,7 +4,7 @@ description: Use Visual Studio Container Tools to control how Visual Studio work
 author: ghogen
 ms.author: ghogen
 ms.topic: how-to
-ms.date: 9/10/2025
+ms.date: 10/24/2025
 ms.subservice: container-tools
 f1_keywords:
  - VS.ToolsOptionsPages.Container_Tools.General
@@ -24,7 +24,7 @@ You can control some aspects of how Visual Studio works with Docker containers b
 ## Prerequisites
 
 - [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows) or [Podman Desktop](https://podman-desktop.io/downloads).
-- [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta), or for Podman support, [Visual Studio (Insiders)](https://visualstudio.microsoft.com/insiders/?cid=learn-onpage-download-cta), with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET desktop development** workload installed.
+- [Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-cta), or for Podman support, [Visual Studio 2026](https://aka.ms/vs/download/?cid=learn-onpage-download-cta), with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET desktop development** workload installed.
 
 :::moniker-end
 ::: moniker range="vs-2022"
@@ -32,7 +32,7 @@ You can control some aspects of how Visual Studio works with Docker containers b
 ## Prerequisites
 
 - [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows).
-- [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET desktop development** workload installed.
+- [Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET desktop development** workload installed.
 
 :::moniker-end
 
@@ -41,7 +41,7 @@ You can control some aspects of how Visual Studio works with Docker containers b
 ## Prerequisites
 
 - [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
-- [Visual Studio 2019 or later](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, **.NET desktop development**, and/or **.NET Core cross-platform development** workload installed.
+- [Visual Studio 2019 or later](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, **.NET desktop development**, and/or **.NET Core cross-platform development** workload installed.
 
 :::moniker-end
 
@@ -52,6 +52,7 @@ To access the settings, select **Tools > Options** from the main Visual Studio m
 ### General settings
 
 :::moniker range="<=vs-2019"
+
 ![Screenshot of Visual Studio Container Tools options.](./media/configure-container-tools/tools-options-1.png)
 
 The following table describes the **General** settings:
@@ -64,6 +65,7 @@ The following table describes the **General** settings:
 
 :::moniker-end
 :::moniker range="vs-2022"
+
 ![Screenshot of Visual Studio Container Tools options.](./media/configure-container-tools/vs-2022/general.png)
 
 The following table describes the **General** settings:
@@ -75,8 +77,9 @@ The following table describes the **General** settings:
 |Trust ASP.NET Core SSL certificate|Prompt me|Choose whether to prompt if the `localhost` SSL certificate isn't trusted in an ASP.NET Core project.|
 
 :::moniker-end
-
 :::moniker range="visualstudio"
+
+:::image type="content" source="./media/configure-container-tools/visualstudio/general.png" border="false" alt-text="Screenshot of Visual Studio Container Tools options." lightbox="./media/configure-container-tools/visualstudio/general.png":::
 
 The following table describes the **General** settings:
 

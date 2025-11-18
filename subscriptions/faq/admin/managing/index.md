@@ -2,7 +2,7 @@
 title: Managing Visual Studio subscriptions
 description: FAQs list for Managing Visual Studio Subscriptions.
 ms.faqid: Section1
-ms.topic: conceptual
+ms.topic: concept-article
 author: joseb-rdc
 ms.author: amast
 ms.date: 05/12/2025

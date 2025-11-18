@@ -1,9 +1,9 @@
 ---
 title: Overview for Visual Basic developers
 description: Explore how to work with Visual Studio to edit, debug, and build code, and then publish an app as a Visual Basic developer.
-ms.date: 11/17/2023
+ms.date: 11/07/2025
 ms.subservice: general-ide
-ms.topic: conceptual
+ms.topic: how-to
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
@@ -207,7 +207,7 @@ In this section, you create a simple project to try out some of the things you c
 
 ::: moniker range="vs-2019"
 
-To get started, [download Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) and install it on your system. The modular installer enables you to select and install *workloads*, which are groups of features needed for the programming language or platform you prefer. To follow the steps for [creating a program](#create-a-program), be sure to select the **.NET Core cross-platform development** workload during installation.
+To get started, [download Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) and install it on your system. The modular installer enables you to select and install *workloads*, which are groups of features needed for the programming language or platform you prefer. To follow the steps for [creating a program](#create-a-program), be sure to select the **.NET Core cross-platform development** workload during installation.
 
 ![Screenshot of the dot NET Core cross-platform development workload in the Visual Studio Installer.](../media/dotnet-core-cross-platform-workload.png)
 
@@ -215,7 +215,7 @@ To get started, [download Visual Studio](https://visualstudio.microsoft.com/down
 
 ::: moniker range=">=vs-2022"
 
-To get started, [download Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) and install it on your system. In the modular installer, you choose and install *workloads*, which are groups of features you need for the programming languages or platforms you want. To use the following steps to [create a program](#create-a-program), be sure to select the **.NET desktop development** workload during installation.
+To get started, [download Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) and install it on your system. In the modular installer, you choose and install *workloads*, which are groups of features you need for the programming languages or platforms you want. To use the following steps to [create a program](#create-a-program), be sure to select the **.NET desktop development** workload during installation.
 
 :::image type="content" source="media/vs-2022/dot-net-development-workload.png" alt-text="Screenshot of the dot NET desktop development workload selected in the Visual Studio Installer." border="false":::
 
@@ -251,7 +251,7 @@ To change the color theme:
 
 ::: moniker-end
 
-::: moniker range=">=vs-2022"
+::: moniker range="vs-2022"
 1. Open Visual Studio. On the start window, select **Continue without code**.
 
    :::image type="content" source="media/vs-2022/continue-without-code.png" alt-text="Screenshot of the Visual Studio Start screen, with the Continue without code link highlighted." border="false":::
@@ -265,6 +265,20 @@ To change the color theme:
    The color theme for the entire IDE changes accordingly. The following screenshot shows the Blue theme:
 
    :::image type="content" source="media/vs-2022/blue-theme.png" alt-text="Screenshot that shows Visual Studio in Blue theme.":::
+::: moniker-end
+
+::: moniker range="visualstudio"
+
+1. Open Visual Studio. On the menu bar, select **Tools** > **Options** to open the **Options** pane.
+
+1. On the **All Settings** > **Environment** > **Visual Experience** options page, change the **Color Theme** selection to **Cool Breeze** or **Light**.
+
+   :::image type="content" source="media/visualstudio/change-color-theme.png" alt-text="Screenshot that shows changing the color theme to Cool Breeze in Visual Studio.":::
+
+   The color theme for the entire IDE changes accordingly. The following screenshot shows the Cool Breeze theme:
+
+   :::image type="content" source="media/visualstudio/cool-breeze-theme.png" border="false" alt-text="Screenshot that shows Visual Studio in Cool Breeze theme.":::
+
 ::: moniker-end
 
 ### Select environment settings

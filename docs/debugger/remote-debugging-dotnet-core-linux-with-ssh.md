@@ -1,8 +1,8 @@
 ---
 title: "Debug .NET Core on Linux"
 description: Debug .NET Core and .NET 5 and later applications on Linux with Secure Shell (SSH), attach to a process, build and deploy the app, and attach the debugger.
-ms.date: "07/09/2024"
-ms.topic: "conceptual"
+ms.date: "11/04/2025"
+ms.topic: how-to
 helpviewer_keywords:
   - "remote debugging, linux"
 author: "mikejo5000"
@@ -24,21 +24,28 @@ Starting in Visual Studio 2017, you can attach to .NET Core and .NET 5+ processe
 
 ## Prepare your application for debugging
 
-To prepare your application for debugging:
+:::moniker range="visualstudio"
 
-- Consider using a Debug configuration when you build the application. It is much harder to debug retail-compiled code (a Release configuration) than debug-compiled code. If you need to use a Release configuration, first disable Just My Code. To disable this setting, choose **Tools** > **Options** > **Debugging**, and then deselect **Enable Just My Code**.
+Consider using a Debug configuration when you build the application. It's harder to debug retail-compiled code (a Release configuration) than debug-compiled code. If you need to use a Release configuration, first disable the Just My Code feature. Open the **Tools** > **Options** pane and expand the **All Settings** > **Debugging** > **General** section. Clear the **Enable Just My Code** checkbox.
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+      
+Consider using a Debug configuration when you build the application. It's harder to debug retail-compiled code (a Release configuration) than debug-compiled code. If you need to use a Release configuration, first disable the Just My Code feature. Open the **Tools** > **Options** dialog and expand the **Debugging** > **General** section. Clear the **Enable Just My Code** checkbox.
+      
+:::moniker-end
 
 ::: moniker range=">=vs-2022"
-- Make sure your project is configured to produce [portable PDBs](https://github.com/OmniSharp/omnisharp-vscode/wiki/Portable-PDBs) (which is the default setting), and make sure the PDBs are in the same location as the DLL. To configure this in Visual Studio, right-click the project, then choose **Properties** > **General** > **Debug symbols**.
+Make sure your project is configured to produce [portable PDBs](https://github.com/OmniSharp/omnisharp-vscode/wiki/Portable-PDBs) (which is the default setting), and make sure the PDBs are in the same location as the DLL. To configure this in Visual Studio, right-click the project, then choose **Properties** > **General** > **Debug symbols**.
 ::: moniker-end
 
 ::: moniker range="vs-2019"
-- Make sure your project is configured to produce [portable PDBs](https://github.com/OmniSharp/omnisharp-vscode/wiki/Portable-PDBs) (which is the default setting), and make sure the PDBs are in the same location as the DLL. To configure this in Visual Studio, right-click the project, then choose **Properties** > **Build** > **Advanced** > **Debugging Information**.
+Make sure your project is configured to produce [portable PDBs](https://github.com/OmniSharp/omnisharp-vscode/wiki/Portable-PDBs) (which is the default setting), and make sure the PDBs are in the same location as the DLL. To configure this in Visual Studio, right-click the project, then choose **Properties** > **Build** > **Advanced** > **Debugging Information**.
 ::: moniker-end
 
 ## Build and deploy the application
 
-You can use several methods to deploy the app prior to debugging. For example, you can:
+You can use several methods to deploy the app before you start debugging. For example, you can:
 
 - Copy sources to the target computer and build with `dotnet build` on the Linux machine.
 
@@ -48,7 +55,7 @@ When the app is deployed, start the application.
 
 ## Attach the debugger
 
-When the application is running on the Linux machine, you are ready to attach the debugger.
+When the application is running on the Linux machine, you're ready to attach the debugger.
 
 1. In Visual Studio, choose **Debug** > **Attach to Process…**.
 
@@ -56,7 +63,7 @@ When the application is running on the Linux machine, you are ready to attach th
 
 1. Change the **Connection Target** to the IP address or host name of the target computer.
 
-   If you haven't already provided credentials, you'll be prompted to enter a password and/or private key file. For more information on using a private key file, see [Set up a remote connection](/cpp/linux/connect-to-your-remote-linux-computer#set-up-the-remote-connection).
+   If you haven't provided credentials, you're prompted to enter a password and/or private key file. For more information on using a private key file, see [Set up a remote connection](/cpp/linux/connect-to-your-remote-linux-computer#set-up-the-remote-connection).
 
    There are no port requirements to configure, except the port that the SSH server is running on.
 

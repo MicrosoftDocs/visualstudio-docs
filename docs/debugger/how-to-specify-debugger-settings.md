@@ -1,7 +1,7 @@
 ---
 title: Use Debugger Settings for variables and warnings
 description: Specify various settings for debugger behavior in Visual Studio, such as how to display variables, what warnings are presented, and how to set breakpoints.
-ms.date: 11/04/2016
+ms.date: 10/31/2025
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -21,22 +21,32 @@ ms.subservice: debug-diagnostics
 ---
 # Specify Debugger Settings
 
-In Visual Studio, you can specify various settings for debugger behavior, including how variables are displayed, whether certain warnings are presented, how breakpoints are set, and how breaking affects running programs. You specify debugger settings in the **Options** dialog box.
+In Visual Studio, you can specify various settings for debugger behavior, including how variables are displayed, whether certain warnings are presented, how breakpoints are set, and how breaking affects running programs. You specify the debugger settings from the **Tools** > **Options** menu.
 
-### To set debugger options
+## Set debugging options
 
-1. On the **Tools** menu, click **Options**.
+:::moniker range="visualstudio"
 
-2. In the **Options** dialog box, open the **Debugging** folder.
+1. Open the **Tools** > **Options** pane and expand the **All Settings** > **Debugging** section.
 
-3. In the **Debugging** folder, choose the category of options you want.
+:::moniker-end
+:::moniker range="<=vs-2022"
+      
+1. Open the **Tools** > **Options** dialog and expand the **Debugging** section.
+      
+:::moniker-end
 
-     The most common options are located in the **General** category. For more information, see [General, Debugging, Options Dialog Box](../debugger/general-debugging-options-dialog-box.md).
+2. Select the category of debugging options you want to configure, such as **General**, **Output Window**, **Symbols**, and so on.
 
-4. Select or clear the desired option or options. Press F1 to get Help about the options.
+   The most common options are located in the **General** category. For more information, see [General, Debugging, Options](../debugger/general-debugging-options-dialog-box.md).
+
+3. Select or clear the desired option or options. As needed, select **OK** to apply your changes.
+
+You can press **F1** to get Help about the options.
 
 ## Related content
-- [General, Debugging, Options Dialog Box](../debugger/general-debugging-options-dialog-box.md)
-- [Edit and Continue, Debugging, Options Dialog Box](/visualstudio/debugger/how-to-enable-and-disable-edit-and-continue)
+
+- [General, Debugging, Options](../debugger/general-debugging-options-dialog-box.md)
+- [Edit and Continue, Debugging, Options](/visualstudio/debugger/how-to-enable-and-disable-edit-and-continue)
 - [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)
 - [Common Macros for Build Commands and Properties](/cpp/build/reference/common-macros-for-build-commands-and-properties)

@@ -2,7 +2,7 @@
 description: "This warning dialog box appears when you attach to a process that contains partially trusted code or is owned by an untrusted user immediately before the attach occurs."
 title: "Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process"
 ms.date: "1/26/2024"
-ms.topic: "conceptual"
+ms.topic: article
 f1_keywords:
   - "vs.debug.attachsecuritywarning"
 dev_langs:

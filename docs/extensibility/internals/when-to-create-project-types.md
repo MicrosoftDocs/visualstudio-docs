@@ -2,7 +2,7 @@
 title: When to Create Project Types
 description: Learn how to determine whether a new project type is required for customizing Visual Studio for your users.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - project types, conditions for creating
 author: tinaschrepfer

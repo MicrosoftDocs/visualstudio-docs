@@ -4,7 +4,7 @@ description: Use the Visual Studio Containers window to view, debug, and interac
 author: ghogen
 ms.author: ghogen
 ms.topic: how-to
-ms.date: 04/17/2025
+ms.date: 10/24/2025
 ms.subservice: container-tools
 monikerRange: ">=vs-2019"
 ms.custom: sfi-image-nochange
@@ -22,20 +22,22 @@ You can use the Visual Studio **Containers** window to see what's going on insid
 :::moniker range="vs-2019"
 
 - [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
-- [Visual Studio 2019 version 16.4](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) or later.
+- [Visual Studio 2019 version 16.4](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) or later.
+
 :::moniker-end
 :::moniker range="vs-2022"
+
 - [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
-- [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta)
+- [Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-cta)
 - For the Docker Compose node:
-  - [Visual Studio 2022 version 17.7 or later](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta)
+  - [Visual Studio 2022 version 17.7 or later](https://aka.ms/vs/download/?cid=learn-onpage-download-cta)
   - Docker v2, which installs with Docker Desktop and is on by default.
 
 :::moniker-end
-
 :::moniker range="visualstudio"
+
 - [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows) or [Podman Desktop](https://podman-desktop.io/downloads).
-- [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta). For Podman support, [Visual Studio (Insiders)](https://visualstudio.microsoft.com/insiders?cid=learn-onpage-download-cta).
+- [Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-cta). For Podman support, [Visual Studio 2026](https://aka.ms/vs/download/?cid=learn-onpage-download-cta).
 - For the Docker Compose node:
   - Docker v2, which installs with Docker Desktop and is on by default.
 
@@ -52,7 +54,7 @@ The **Containers** window opens automatically when you start a containerized .NE
 The left side of the window shows the list of containers on your local machine. The containers associated with your current solution are under **Solution Containers**. On the right is a pane with tabs for **Environment**, **Labels**, **Ports**, **Volumes**, **Files**, and **Logs**.
 
 :::moniker-end
-:::moniker range=">=vs-2022"
+:::moniker range="vs-2022"
 
 The **Containers** window opens automatically when you start a containerized .NET project. To open the **Containers** window any time, select **View** > **Other Windows** > **Containers** from the Visual Studio menu, or press **Ctrl**+**K**, **Ctrl**+**O**. You can also use **Ctrl**+**Q** to open the Visual Studio Search box, type *Containers*, and select the **Containers** item.
 
@@ -203,9 +205,15 @@ The confirmation dialogs for various tasks, such as removing containers and imag
 You can also enable or disable these options by using the settings at **Tools** > **Options** > **Container Tools** > **Containers Tool Window**. For more information, see [Configure Container Tools](container-tools-configure.md).
 
 :::moniker-end
-:::moniker range=">=vs-2022"
+:::moniker range="vs-2022"
 
 You can also enable or disable these options by using the settings at **Tools** > **Options** > **Container Tools** > **Containers Window**. For more information, see [Configure Container Tools](container-tools-configure.md).
+
+:::moniker-end
+:::moniker range="visualstudio"
+
+You can also enable or disable these options by using the settings in the **Tools** > **Options** pane under **All Settings** > **Container Tools** > **Containers Window**. For more information, see [Configure Container Tools](container-tools-configure.md).
+
 :::moniker-end
 
 ### Start, stop, and remove containers

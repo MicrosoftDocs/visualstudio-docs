@@ -2,7 +2,7 @@
 title: "Work with calendar items"
 description: Learn that the AppointmentItem class contains the methods and properties you use to perform tasks with calendar items.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"

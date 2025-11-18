@@ -5,7 +5,7 @@ ms.custom: vs-acquisition
 titleSuffix: ''
 ms.date: 8/30/2025
 ms.update-cycle: 180-days
-ms.topic: conceptual
+ms.topic: how-to
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
@@ -20,7 +20,7 @@ To develop any type of app or learn a language, you work in the Visual Studio In
 
 ## Download and install
 
-To get started, [download Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) and install it on your system.
+To get started, [download Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) and install it on your system.
 
 In the Visual Studio Installer, you choose and install *workloads*, which are groups of features you need for the programming languages or platforms you want. To follow along this article, be sure to select the **.NET desktop development** workload during installation. 
 

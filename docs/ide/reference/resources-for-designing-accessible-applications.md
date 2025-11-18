@@ -2,7 +2,7 @@
 title: "Resources for designing accessible applications"
 description: "Learn how to create accessible applications to make them easier for people with disabilities to use."
 ms.date: 08/27/2019
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
   - "accessibility, Windows applications"
   - "Windows applications, accessibility"

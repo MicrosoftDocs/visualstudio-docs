@@ -4,7 +4,7 @@ description: Learn how Visual Studio provides rich support for JavaScript develo
 titleSuffix: ""
 ms.date: "06/09/2025"
 ms.subservice: javascript-typescript
-ms.topic: conceptual
+ms.topic: article
 dev_langs:
   - "JavaScript"
   - "TypeScript"

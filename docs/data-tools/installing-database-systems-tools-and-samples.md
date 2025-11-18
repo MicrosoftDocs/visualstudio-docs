@@ -1,8 +1,8 @@
 ---
 title: Explore compatible database systems
 description: Explore compatible database systems for Visual Studio, including Microsoft SQL Server, Oracle, MySQL, PostgreSQL, SQLite, and Firebird.
-ms.date: 11/01/2023
-ms.topic: conceptual
+ms.date: 11/13/2025
+ms.topic: article
 helpviewer_keywords:
 - database systems
 - database compatibility
@@ -19,13 +19,11 @@ To develop a data-connected application in Visual Studio, you typically install 
 
 For a database system to be accessible from .NET applications and to be visible in Visual Studio data tools windows, it must have an ADO.NET data provider. A provider must specifically support Entity Framework if you plan to use Entity data models in your .NET application. Many providers are offered through the NuGet Package Manager or through the Visual Studio Marketplace.
 
-If you are using Azure Storage APIs, install the Azure Storage emulators on your local machine during development in order to avoid charges until you are ready to deploy to production. For more information, see [Use the Azure Storage Emulator for development and testing](/azure/storage/common/storage-use-emulator).
-
 The following list includes some of the more popular database systems that can be used in Visual Studio projects. The list is not exhaustive. For a list of third-party vendors that offer ADO.NET data providers that enable deep integration with Visual Studio tooling, see [ADO.NET Data Providers](/dotnet/framework/data/adonet/data-providers).
 
 ## Microsoft SQL Server
 
-SQL Server is the Microsoft flagship database offering. SQL Server 2016 delivers breakthrough performance, advanced security, and rich, integrated reporting and analytics. It ships in various editions that are designed for different uses: from highly scalable, high-performance business analytics, to use on a single computer. SQL Server Express is a full-featured edition of SQL Server that is tailored for redistribution and embedding. LocalDB is a simplified edition of SQL Server Express that requires no configuration and runs in your application's process. You can download either or both products from the [SQL Server Express download page](https://www.microsoft.com/sql-server/sql-server-editions-express). Many of the SQL examples in this section use SQL Server LocalDB. SQL Server Management Studio (SSMS) is a stand-alone database management application that has more functionality than what is provided in Visual Studio SQL Server Object Explorer. You can get SSMS from the previous link.
+SQL Server is the Microsoft flagship database offering. SQL Server 2016 delivers breakthrough performance, advanced security, and rich, integrated reporting and analytics. It ships in various editions that are designed for different uses: from highly scalable, high-performance business analytics, to use on a single computer. SQL Server Express is a full-featured edition of SQL Server that is tailored for redistribution and embedding. LocalDB is a simplified edition of SQL Server Express that requires no configuration and runs in your application's process. You can download either or both products from the [SQL Server download page](https://www.microsoft.com/sql-server/sql-server-downloads). Many of the SQL examples in this section use SQL Server LocalDB. SQL Server Management Studio (SSMS) is a stand-alone database management application that has more functionality than what is provided in Visual Studio SQL Server Object Explorer. You can get SSMS from the previous link.
 
 ## Oracle
 

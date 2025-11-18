@@ -1,8 +1,8 @@
 ---
 title: "Analyze BenchmarkDotNet data in Visual Studio"
 description: Learn how to profile console apps using BenchmarkDotNet.
-ms.date: 09/15/2025
-ms.topic: conceptual
+ms.date: 11/10/2025
+ms.topic: how-to
 dev_langs:
   - "CSharp"
 helpviewer_keywords:
@@ -150,6 +150,17 @@ The benchmark functions must be added to a .NET console application. These funct
    For an example of using the profiler to analyze memory allocations, see the blog post [Benchmarking with Visual Studio Profiler](https://devblogs.microsoft.com/visualstudio/benchmarking-with-visual-studio-profiler/).
 
    To analyze data related to other tabs such as **CPU Usage**, see the corresponding articles in the profiling documentation.
+
+::: moniker range=">=visualstudio"
+## Optimize with Copilot
+
+You can trigger CPU and memory allocation optimizations for your BenchmarkDotNet benchmarks directly from the editor using CodeLens. This makes performance tuning more accessible and seamless, helping you find and fix CPU and memory allocation issues right where you code.
+
+Select the CodeLens indicator above your benchmark and then select the option **Optimize Allocations with Copilot**.
+
+![Screenshot of optimizing with Copilot.](../profiling/media/visualstudio/benchmark-dotnet-codelens-optimize-memory-allocations.png)
+
+::: moniker-end
 
 ## Related content
 

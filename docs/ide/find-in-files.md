@@ -1,8 +1,8 @@
 ---
 title: "Search within Specific Files with 'Find in Files'"
 description: Explore the Find in Files feature in Visual Studio and discover how to use the feature to search a specific set of files.
-ms.date: 9/12/2025
-ms.topic: conceptual
+ms.date: 11/11/2025
+ms.topic: how-to
 f1_keywords:
 - vs.findinfiles
 - vs.findreplace.findinfiles
@@ -22,7 +22,7 @@ ms.subservice: general-ide
 ---
 # Find in Files
 
-**Find in Files** allows you to search a specified set of files. The matches Visual Studio finds are listed in the **Find Results** window in the IDE. How the results appear depends on the options you choose on the **Find in Files** tab of the **Find and Replace** dialog box.
+**Find in Files** allows you to search a specified set of files. Visual Studio lists the matching results in the **Find Results** window in the IDE. How the results appear depends on the options you choose on the **Find in Files** tab of the **Find and Replace** dialog box.
 
 ::: moniker range="visualstudio"
 
@@ -41,7 +41,7 @@ ms.subservice: general-ide
 :::image type="content" source="media/find-files-vs2019.png" alt-text="Screenshot of the Find and Replace dialog box in Visual Studio 2019, with the Find in Files tab open.":::
 
 > [!IMPORTANT]
-> If you are using **Visual Studio 2019** [**version 16.6**](/visualstudio/releases/2019/release-notes-v16.6/) or earlier, the **Find and Replace** dialog box might not look like it appears here. Switch to the [Visual Studio 2017](find-in-files.md?view=vs-2017&preserve-view=true) version of this page for descriptions that'll match what you see on your screen.
+> If you're using **Visual Studio 2019** [**version 16.6**](/visualstudio/releases/2019/release-notes-v16.6/) or earlier, the **Find and Replace** dialog box might not look like it appears here. Switch to the [Visual Studio 2017](find-in-files.md?view=vs-2017&preserve-view=true) version of this page for descriptions that'll match what you see on your screen.
 
 ::: moniker-end
 
@@ -65,7 +65,7 @@ or
 To cancel a Find operation, press **Ctrl**+**Break**.
 
 > [!NOTE]
-> The **Find and Replace** tool does not search directories with the `Hidden` or `System` attribute.
+> The **Find and Replace** tool doesn't search directories with the `Hidden` or `System` attribute.
 
 ::: moniker range=">=vs-2022"
 
@@ -88,7 +88,7 @@ You can select or clear the following option(s):
 
 The option you choose from the **Look in** drop-down list determines whether **Find in Files** searches the entire workspace, the entire solution, the current project, the current directory, all open documents, or the current document.
 
-You can also use the adjacent **Browse (...)** button to locate where you want to search. Even better, if you've already specified a directory, this button will append the new directory instead of replacing it. For instance, if your "Look in" value was ".\Code", you could click the **Browse (...)** button and navigate to a folder named "Shared Code". The **Browse (...)** box would now show ".\Code;.\Shared Code" and when the Find command is executed, it will search both of those folders.
+You can also use the adjacent **Browse (...)** button to locate where you want to search. Even better, if you've already specified a directory, this button will append the new directory instead of replacing it. For instance, if your "Look in" value was ".\Code", you could select the **Browse (...)** button and navigate to a folder named "Shared Code". The **Browse (...)** box would now show ".\Code;.\Shared Code" and when the Find command is executed, it searches both of those folders.
 
 To refine your search, you can select or clear the following option(s):
 
@@ -141,7 +141,7 @@ You can select or clear the following option(s):
 
 The option you choose from the **Look in** drop-down list determines whether **Find in Files** searches the entire workspace, the entire solution, the current project, the current directory, all open documents, or the current document.
 
-You can also use the adjacent **Browse (...)** button to locate where you want to search. Even better, if you've already specified a directory, this button will append the new directory instead of replacing it. For instance, if your "Look in" value was ".\Code", you could click the **Browse (...)** button and navigate to a folder named "Shared Code". The **Browse (...)** box would now show ".\Code;.\Shared Code" and when the Find command is executed, it will search both of those folders.
+You can also use the adjacent **Browse (...)** button to locate where you want to search. Even better, if you've already specified a directory, this button appends the new directory instead of replacing it. For instance, if your "Look in" value was ".\Code", you could select the **Browse (...)** button and navigate to a folder named "Shared Code". The **Browse (...)** box would now show ".\Code;.\Shared Code" and when the Find command is executed, it searches both of those folders.
 
 To refine your search, you can select or clear the following option(s):
 
@@ -172,7 +172,7 @@ When you perform a search for all results, results appear as they become availab
 > [!NOTE]
 > Visual Studio begins building an index after your code context is loaded, such as when opening a new project, changing branches, or otherwise changing the file list. If you search while Visual Studio is still indexing your source files, you might see a warning that results are incomplete.
 
-With Visual Studio 17.12 and later, if you want to repeat the same search after doing further work, you can click the clockwise arrow icon to refresh the results. This ensures all changes you've made since the last Find are reflected without having to reopen the Find window.
+With Visual Studio 17.12 and later, if you want to repeat the same search after doing further work, you can select the clockwise arrow icon to refresh the results. This ensures all changes you've made since the last Find are reflected without having to reopen the Find window.
 
 ![Screenshot showing the refresh button.](./media/vs-2022/find-in-files-refresh.png)
 
@@ -202,9 +202,14 @@ You can keep the results from one search while you're performing other searches.
 
 To keep several search results, select the **Keep Results** button after each search. Then, when you search for something else, the results are shown in a new tab. You can keep the results of up to five searches. If you've already got five search results showing, the next search will reuse the oldest search result tab.
 
-:::moniker range=">=vs-2022"
+:::moniker range="visualstudio"
 
-In Visual Studio 2022 and later, you can set Visual Studio to always keep results. Go to **Tools** > **Options** > **General** > **Find and Replace**, and select the checkbox for **Keep search results by default**.
+You can set Visual Studio to always keep results. In the **Tools** > **Options** pane, expand the **All Settings** > **Environment** > **Search** > **Find and Replace** section. In the **Find in Files** group, select the **Keep search results by default** checkbox.
+
+:::moniker-end
+:::moniker range="vs-2022"
+
+In Visual Studio 2022 and later, you can set Visual Studio to always keep results. In the **Tools** > **Options** dialog, expand the **Environment** > **Find and Replace** section, and select the **Keep search results by default** checkbox.
 
 :::moniker-end
 

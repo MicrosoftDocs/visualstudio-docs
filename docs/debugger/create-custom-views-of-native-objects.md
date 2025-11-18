@@ -1,7 +1,7 @@
 ---
 title: Create custom views of C++ objects
 description: Use the Natvis framework to customize the way Visual Studio displays native types in the debugger for your applications.
-ms.date: 01/10/2025
+ms.date: 10/27/2025
 ms.topic: how-to
 f1_keywords:
   - natvis
@@ -84,14 +84,14 @@ The Visual Studio debugger loads *.natvis* files in C++ projects automatically, 
 1. Dropdown list the arrow next to **Excluded From Build** and select **Yes**, and then select **OK**.
 
 > [!NOTE]
-> For debugging executable projects, use the solution items to add any *.natvis* files that are not in the *.pdb*, since there is no C++ project available.
+> For debugging executable projects, use the solution items to add any *.natvis* files that aren't in the *.pdb*, because there's no C++ project available.
 
 > [!NOTE]
-> Natvis rules loaded from a *.pdb* apply only to the types in the modules that the *.pdb* refers to. For example, if *Module1.pdb* has a Natvis entry for a type named `Test`, it only applies to the `Test` class in *Module1.dll*. If another module also defines a class named `Test`, the *Module1.pdb* Natvis entry does not apply to it.
+> Natvis rules loaded from a *.pdb* apply only to the types in the modules that the *.pdb* refers to. For example, if *Module1.pdb* has a Natvis entry for a type named `Test`, it only applies to the `Test` class in *Module1.dll*. If another module also defines a class named `Test`, the *Module1.pdb* Natvis entry doesn't apply to it.
 
 **To install and register a *.natvis* file via a VSIX package:**
 
-A VSIX package can install and register *.natvis* files. No matter where they are installed, all registered *.natvis* files are automatically picked up during debugging.
+A VSIX package can install and register *.natvis* files. No matter where they're installed, all registered *.natvis* files are automatically picked up during debugging.
 
 1. Include the *.natvis* file in the VSIX package. For example, for the following project file:
 
@@ -149,7 +149,7 @@ You can also add or delete *.natvis* files in a solution that you're debugging, 
 
 You can't update *.natvis* files that are embedded in *.pdb* files while you're debugging.
 
-If you modify the *.natvis* file outside of Visual Studio, the changes don't take effect automatically. To update the debugger windows, you can reevaluate the **.natvisreload** command in the **Immediate** window. Then the changes take effect without restarting the debugging session.
+If you modify the *.natvis* file outside of Visual Studio, the changes don't take effect automatically. To update the debugger windows, you can reevaluate the **.natvisreload** command in the **Immediate** window. The changes take effect without restarting the debugging session.
 
 Also use the **.natvisreload** command to upgrade the *.natvis* file to a newer version. For example, the *.natvis* file might be checked into source control, and you want to pick up recent changes that somebody else made.
 
@@ -164,14 +164,14 @@ Natvis visualizations use C++ expressions to specify the data items to display. 
 - To control how an expression displays, you can use any of the format specifiers described in [Format specifiers in C++](format-specifiers-in-cpp.md#BKMK_Visual_Studio_2012_format_specifiers). Format specifiers are ignored when the entry is used internally by Natvis, such as the `Size` expression in an [ArrayItems expansion](../debugger/create-custom-views-of-native-objects.md#BKMK_ArrayItems_expansion).
 
 > [!NOTE]
-> Because the Natvis document is XML, your expressions cannot directly use the ampersand, greater than, less than, or shift operators. You must escape these characters in both the item body and the condition statements. For example:<br>
+> Because the Natvis document is XML, your expressions can't directly use the ampersand, greater than, less than, or shift operators. You must escape these characters in both the item body and the condition statements. For example:<br>
 > `\<Item Name="HiByte"\>(byte)(_flags \&gt;\&gt; 24),x\</Item\>`<br>
 > `\<Item Name="HiByteStatus" Condition="(_flags \&amp; 0xFF000000) == 0"\>"None"\</Item\>`<br>
 > `\<Item Name="HiByteStatus" Condition="(_flags \&amp; 0xFF000000) != 0"\>"Some"\</Item\>`
 
 ## Natvis views
 
-You can define different Natvis views to display types in different ways. For example, here is a visualization of `std::vector` that defines a simplified view named `simple`. The `DisplayString` and the `ArrayItems` elements show in the default view and the `simple` view, while the `[size]` and `[capacity]` items don't show in the `simple` view.
+You can define different Natvis views to display types in different ways. For example, the following snippet shows a visualization of `std::vector` that defines a simplified view named `simple`. The `DisplayString` and the `ArrayItems` elements show in the default view and the `simple` view, while the `[size]` and `[capacity]` items don't show in the `simple` view.
 
 ```xml
 <Type Name="std::vector&lt;*&gt;">
@@ -197,7 +197,22 @@ When the debugger encounters errors in a visualization entry, it ignores them. I
 
 **To turn on Natvis diagnostics:**
 
-- Under **Tools** > **Options** (or **Debug** > **Options**) > **Debugging** > **Output Window**, set **Natvis diagnostic messages (C++ only)** to **Error**, **Warning**, or **Verbose**, and then select **OK**.
+:::moniker range="visualstudio"
+
+1. Open the **Tools** > **Options** pane and expand the **All Settings** > **Debugging** > **General** section. The **Debug** > **Options** action opens the pane to the same section.
+
+1. Under **Output Window** > **General Output Settings**, set the **Natvis diagnostic messages (C++ only)** option to **Error**, **Warning**, or **Verbose**.
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+1. Open the **Tools** > **Options** dialog and expand the **Debugging** > **General** section. The **Debug** > **Options** action opens the dialog to the same section.
+
+1. Under **Output Window** > **General Output Settings**, set the **Natvis diagnostic messages (C++ only)** option to **Error**, **Warning**, or **Verbose**.
+
+1. Select **OK**.
+
+:::moniker-end
 
 The errors appear in the **Output** window.
 
@@ -309,9 +324,9 @@ You can put an `Optional` attribute on any node. If a subexpression inside an op
 
 ### <a name="BKMK_Condition_attribute"></a> Condition attribute
 
-The optional `Condition` attribute is available for many visualization elements, and specifies when to use a visualization rule. If the expression inside the condition attribute resolves to `false`, the visualization rule doesn't apply. If it evaluates to `true`, or there is no `Condition` attribute, the visualization applies. You can use this attribute for if-else logic in the visualization entries.
+The optional `Condition` attribute is available for many visualization elements, and specifies when to use a visualization rule. If the expression inside the condition attribute resolves to `false`, the visualization rule doesn't apply. If it evaluates to `true`, or there's no `Condition` attribute, the visualization applies. You can use this attribute for if-else logic in the visualization entries.
 
-For example, the following visualization has two `DisplayString` elements for a smart pointer type. When the `_Myptr` member is empty, the condition of the first `DisplayString` element resolves to `true`, so that form displays. When the `_Myptr` member is not empty, the condition evaluates to `false`, and the second `DisplayString` element displays.
+For example, the following visualization has two `DisplayString` elements for a smart pointer type. When the `_Myptr` member is empty, the condition of the first `DisplayString` element resolves to `true`, so that form displays. When the `_Myptr` member isn't empty, the condition evaluates to `false`, and the second `DisplayString` element displays.
 
 ```xml
 <Type Name="std::auto_ptr&lt;*&gt;">
@@ -361,7 +376,7 @@ In the following example, the visualization is applicable only for the `DirectUI
 </Type>
 ```
 
-You don't need both `Min` and `Max`. They are optional attributes. No wildcard characters are supported.
+You don't need both `Min` and `Max`. They're optional attributes. No wildcard characters are supported.
 
 The `Name` attribute is in the format *filename.ext*, such as *hello.exe* or *some.dll*. No path names are allowed.
 
@@ -471,12 +486,12 @@ A `std::vector` shows its individual elements when expanded in the variable wind
 The `ArrayItems` node must have:
 
 - A `Size` expression (which must evaluate to an integer) for the debugger to understand the length of the array.
-- A `ValuePointer` expression that points to the first element (which must be a pointer of an element type that is not `void*`).
+- A `ValuePointer` expression that points to the first element (which must be a pointer of an element type that isn't `void*`).
 
 The default value of the array lower bound is 0. To override the value, use a `LowerBound` element. The *.natvis* files shipped with Visual Studio have examples.
 
 > [!NOTE]
-> You can use the `[]` operator, for example `vector[i]`, with any single-dimensional array visualization that uses `ArrayItems`, even if the type itself (for example `CATLArray`) does not allow this operator.
+> You can use the `[]` operator, for example `vector[i]`, with any single-dimensional array visualization that uses `ArrayItems`, even if the type itself (for example `CATLArray`) doesn't allow this operator.
 
 You can also specify multi-dimensional arrays. In that case, the debugger needs slightly more information to properly display child elements:
 
@@ -500,8 +515,8 @@ You can also specify multi-dimensional arrays. In that case, the debugger needs 
 - `Rank` specifies the rank of the array.
 - The `Size` element accepts the implicit `$i` parameter, which it substitutes with the dimension index to find the length of the array in that dimension.
   - In the previous example, the expression `_M_extent.M_base[0]` should give the length of the 0th dimension, `_M_extent._M_base[1]` the first, and so on.
-- The `LowerBound` specifies the lower bound of each dimension of the array. For multi-dimensional arrays, you can specify an expression that uses the implicit `$i` parameter. The `$i` parameter will be substituted with the dimension index to find the lower bound of the array in that dimension.
-  - In the previous example, all dimensions will start at 0. However, if you had `($i == 1) ? 1000 : 100` as the lower bound, the 0th dimension will start at 100, and the first dimension will start at 1000.
+- The `LowerBound` specifies the lower bound of each dimension of the array. For multi-dimensional arrays, you can specify an expression that uses the implicit `$i` parameter. The `$i` parameter is substituted with the dimension index to find the lower bound of the array in that dimension.
+  - In the previous example, all dimensions start at 0. However, if you had `($i == 1) ? 1000 : 100` as the lower bound, the 0th dimension starts at 100, and the first dimension starts at 1000.
     - , such as  `[100, 1000], [100, 1001], [100, 1002], ... [101, 1000], [101, 1001],...`
 
 Here's how a two-dimensional `Concurrency::array` object looks in the debugger window:
@@ -528,7 +543,7 @@ You can use `ArrayItems` expansion only if the array elements are laid out conti
 The only difference between `ArrayItems` and `IndexListItems` is the `ValueNode`, which expects the full expression to the i<sup>th</sup> element with the implicit `$i` parameter.
 
 > [!NOTE]
-> You can use the `[]` operator, for example `vector[i]`, with any single-dimensional array visualization that uses `IndexListItems`, even if the type itself (for example `CATLArray`) does not allow this operator.
+> You can use the `[]` operator, for example `vector[i]`, with any single-dimensional array visualization that uses `IndexListItems`, even if the type itself (for example `CATLArray`) doesn't allow this operator.
 
 #### <a name="BKMK_LinkedListItems_expansion"></a> LinkedListItems expansion
 
@@ -751,4 +766,4 @@ You can use the `Condition`, `IncludeView`, and `ExcludeView` attributes on `Cus
 
 Natvis customizations work with classes and structs, but not typedefs.
 
-Natvis does not support visualizers for primitive types (for example, `int`, `bool`) or for pointers to primitive types. In this scenario, one option is to use the [format specifier](../debugger/format-specifiers-in-cpp.md) appropriate to your use case. For example, if you use `double* mydoublearray` in your code, then you can use an array format specifier in the debugger's **Watch** window, such as the expression `mydoublearray, [100]`, which shows the first 100 elements.
+Natvis doesn't support visualizers for primitive types (for example, `int`, `bool`) or for pointers to primitive types. In this scenario, one option is to use the [format specifier](../debugger/format-specifiers-in-cpp.md) appropriate to your use case. For example, if you use `double* mydoublearray` in your code, then you can use an array format specifier in the debugger's **Watch** window, such as the expression `mydoublearray, [100]`, which shows the first 100 elements.

@@ -4,7 +4,7 @@ author: joseb-rdc
 ms.author: amast
 manager: shve
 ms.date: 05/02/2025
-ms.topic: conceptual
+ms.topic: article
 description:  Learn about Visual Studio subscriptions and how to acquire them
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: C++ Dynamic Debugging (Preview)
 description: Learn how to use C++ Dynamic Debugging to easily debug optimized code.
-ms.date: 10/07/2025
+ms.date: 10/27/2025
 ms.topic: how-to
 f1_keywords: 
   - vs.debug
@@ -205,7 +205,17 @@ First, let's review what it's like to debug optimized code. Then you can see how
 
 You might need to debug optimized code without it being deoptimized, or put a breakpoint in optimized code and have the code stay optimized when the breakpoint hits. There are several ways to turn off Dynamic Debugging or keep it from deoptimizing code when you hit a breakpoint:
 
-- On the Visual Studio main menu, select **Tools** > **Options** > **Debugging** > **General**. Clear the **Automatically deoptimize debugged functions when possible (.NET 8+, C++ Dynamic Debugging)** checkbox. The next time the debugger starts, code remains optimized.
+:::moniker range="visualstudio"
+
+- On the Visual Studio main menu, select **Tools** > **Options**. In the **Options** pane, expand the **All Settings** > **Debugging** > **General** section. Clear the **Automatically deoptimize debugged functions when possible (.NET 8+, C++ Dynamic Debugging)** checkbox. The next time the debugger starts, code remains optimized.
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+- On the Visual Studio main menu, select **Tools** > **Options**. In the **Options** dialog, expand the **Debugging** > **General** section. Clear the **Automatically deoptimize debugged functions when possible (.NET 8+, C++ Dynamic Debugging)** checkbox. The next time the debugger starts, code remains optimized.
+
+:::moniker-end
+
 - Many dynamic debugging breakpoints are two breakpoints: one in the optimized binary and one in the unoptimized binary. In the **Breakpoints** window, select **Show Columns** > **Function**. Clear the breakpoint associated with the `alt` binary. The other breakpoint in the pair breaks in the optimized code.
 - When you're debugging, on the Visual Studio main menu, select **Debug** > **Windows** > **Disassembly**. Ensure that it has focus. When you step into a function via the **Disassembly** window, the function won't be deoptimized.
 - Disable dynamic debugging entirely by not passing `/dynamicdeopt` to `cl.exe`, `lib.exe`, and `link.exe`. If you're consuming third-party libraries and can't rebuild them, don't pass `/dynamicdeopt` during the final `link.exe` to disable Dynamic Debugging for that binary.
@@ -279,7 +289,12 @@ For more information about Unreal Engine target files, see [Targets](https://dev
 
 ## Enable C++ Dynamic Debugging for Unreal Engine 5.5 or earlier
 
-For Unreal Engine 5.5 or earlier, cherry-pick the Unreal Build Tool changes from [GitHub](https://aka.ms/vcdd_ue) into your repo. Then enable `bDynamicDebugging` as indicated above. You also need to use Unreal Build Accelerator from Unreal Engine 5.6. Either use the latest bits from ue5-main, or disable UBA by adding the following to `BuildConfiguration.xml`:
+For Unreal Engine 5.5 or earlier, cherry-pick the Unreal Build Tool changes from [GitHub](https://aka.ms/vcdd_ue) into your repository.
+
+> [!NOTE]
+> To access the Epic repositories on GitHub, you need an [Epic account](https://www.unrealengine.com/) and [registered GitHub account](https://www.unrealengine.com/ue-on-github).
+
+After you select the changes to apply to your repository, enable `bDynamicDebugging` as described earlier. You also need to use Unreal Build Accelerator from Unreal Engine 5.6. Either use the latest bits from ue5-main, or disable UBA by adding the following to `BuildConfiguration.xml`:
 
 ```xml
 <BuildConfiguration>

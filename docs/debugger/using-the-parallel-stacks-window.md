@@ -1,8 +1,8 @@
 ---
 title: "View threads in the Parallel Stacks window"
 description: Use Parallel Stacks to help debug multithreaded applications. You can view stack information for all threads, and task-centered call stack information.
-ms.date: "8/5/2025"
-ms.topic: "conceptual"
+ms.date: "11/06/2025"
+ms.topic: article
 f1_keywords:
   - "vs.debug.parallelstacks"
 dev_langs:
@@ -80,7 +80,7 @@ The following icons provide information about the active and current stack frame
 |Icon|Description|
 |-|-|
 |![Yellow arrow](media/icon-parallel-yellow-arrow.png)|Indicates the current location (active stack frame) of the current thread.|
-|![Threads icon](media/icon-parallelthreads.gif)|Indicates the current location (active stack frame) of a non-current thread.|
+|![Threads icon](media/icon-parallelthreads.gif)|Indicates the current location (active stack frame) of a noncurrent thread.|
 |![Green arrow](media/icon-parallel-green-arrow.png)|Indicates the current stack frame (the current debugger context). The method name is bold wherever it appears.|
 
 ::: moniker-end
@@ -89,7 +89,7 @@ The following icons provide information about the active and current stack frame
 Icon|Description|
 |-|-|
 |![Yellow arrow](media/icon-parallel-yellow-arrow.png)|Indicates the current location (active stack frame) of the current thread.|
-|![Threads icon](media/icon-parallelthreads.gif)|Indicates the current location (active stack frame) of a non-current thread.|
+|![Threads icon](media/icon-parallelthreads.gif)|Indicates the current location (active stack frame) of a noncurrent thread.|
 |![Green arrow](media/icon-parallel-green-arrow.png)|Indicates the current stack frame (the current debugger context). The method name is bold wherever it appears.|
 |![Status Error](media/vs-2022/icon-status-error.png)|(.NET) Indicates that the current stack frame has Critical status warning such as Deadlock.|
 |![Status Excluded](media/vs-2022/icon-status-excluded.png)|(.NET) Indicates the deadlocked node.|
@@ -112,7 +112,7 @@ The following shortcut menu items are available when you right-click a method in
 |**Unflag**|Unflags the selected item.|
 |**Freeze**|Freezes the selected item.|
 |**Thaw**|Thaws the selected item.|
-|**Switch To Frame**|Same as the corresponding menu command in the **Call Stack** window. However, in the **Parallel Stacks** window, one method may be in several frames. You can select the frame you want in the submenu for this item. If one of the stack frames is on the current thread, that frame is selected by default in the submenu.|
+|**Switch To Frame**|Same as the corresponding menu command in the **Call Stack** window. However, in the **Parallel Stacks** window, one method might be in several frames. You can select the frame you want in the submenu for this item. If one of the stack frames is on the current thread, that frame is selected by default in the submenu.|
 |**Go to Task** or **Go to Thread**|Switches to the **Task** or **Threads** view, and keeps the same stack frame highlighted.|
 |**Go To Source Code**|Goes to the corresponding location in the source code window. |
 |**Go To Disassembly**|Goes to the corresponding location in the **Disassembly** window.|
@@ -136,7 +136,7 @@ The following shortcut menu items are available when you right-click a method in
 |**Unflag**|Unflags the selected item.|
 |**Freeze**|Freezes the selected item.|
 |**Thaw**|Thaws the selected item.|
-|**Switch To Frame**|Same as the corresponding menu command in the **Call Stack** window. However, in the **Parallel Stacks** window, one method may be in several frames. You can select the frame you want in the submenu for this item. If one of the stack frames is on the current thread, that frame is selected by default in the submenu.|
+|**Switch To Frame**|Same as the corresponding menu command in the **Call Stack** window. However, in the **Parallel Stacks** window, one method might be in several frames. You can select the frame you want in the submenu for this item. If one of the stack frames is on the current thread, that frame is selected by default in the submenu.|
 |**Go to Task** or **Go to Thread**|Switches to the **Task** or **Threads** view, and keeps the same stack frame highlighted.|
 |**Go To Source Code**|Goes to the corresponding location in the source code window. |
 |**Go To Disassembly**|Goes to the corresponding location in the **Disassembly** window.|
@@ -177,7 +177,17 @@ The following table describes the main features of the **Threads** view:
 
 If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance in the Threads view with AI-generated thread descriptions and by using the **Generate Insights** button. Use the **Generate Insights** ![Screenshot of Generate Insights button.](../debugger/media/visualstudio/parallel-stacks-generate-insights.png) button to interact with Copilot about the thread data you're seeing. In this scenario, Copilot already knows the context for your question, so you don't need to provide context yourself in chat. For more information, see [Debug with Copilot](../debugger/debug-with-copilot.md).
 
-To enable or disable thread summary descriptions, select **Tools** > **Options** > **GitHub** > **Copilot** > **Debugger and Diagnostics**, and then select or clear **AI summarization in Parallel Stacks window**.
+::: moniker-end
+
+::: moniker range="visualstudio"
+
+To enable or disable thread summary descriptions, open the **Tools** > **Options** pane, and expand the **All Settings** > **GitHub** > **Copilot** > **Debugger and Diagnostics** section. Select or clear the **Enable AI summarization in Parallel Stacks window** checkbox.
+
+::: moniker-end
+::: moniker range="vs-2022"
+      
+To enable or disable thread summary descriptions, open the **Tools** > **Options** dialog, and expand the **GitHub** > **Copilot** section. In the **Debugger and Diagnostics** category, select or clear the **Enable AI summarization in Parallel Stacks window** checkbox.
+
 ::: moniker-end
 
 ::: moniker range="vs-2019"
@@ -245,7 +255,7 @@ From either **Threads** view or **Tasks** view, you can pivot the graph on the c
 [![Screenshot of Methods view in Parallel Stacks window 2022.](../debugger/media/vs-2022/parallel-stacks-methods-view.png "Methods view in Parallel Stacks window.")](../debugger/media/vs-2022/parallel-stacks-methods-view.png#lightbox)
 ::: moniker-end
 
-If you switch to a new stack frame, you make that method the current method, and **Method View** shows all callers and callees for the new method. This may cause some threads to appear or disappear from the view, depending on whether that method appears on their call stacks. To return to the call stack view, select the **Method View** toolbar icon again.
+If you switch to a new stack frame, you make that method the current method, and **Method View** shows all callers and callees for the new method. This scenario might cause some threads to appear or disappear from the view, depending on whether that method appears on their call stacks. To return to the call stack view, select the **Method View** toolbar icon again.
 
 ## Debug threads and tasks with parallel stacks video tutorial
 These video tutorials demonstrate how you can use the Threads and Tasks views of the Parallel Stacks window in Visual Studio 2022 to debug your multithreaded applications.

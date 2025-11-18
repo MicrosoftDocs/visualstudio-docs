@@ -1,7 +1,7 @@
 ---
 title: VSIX Color Compiler
 description: Learn about the Visual Studio Extension Color Compiler tool, which is a console application that coverts colors in Visual Studio themes to a .pkgdef file.
-ms.date: 11/04/2016
+ms.date: 11/03/2025
 ms.topic: reference
 author: tinaschrepfer
 ms.author: tinali
@@ -51,6 +51,8 @@ The Visual Studio Extension Color Compiler tool is a console application that ta
 
  When creating custom colors for Visual Studio, those colors need to be defined for the following themes. If no colors exist for a particular theme, Visual Studio attempts to load the missing colors from the Light theme.
 
+:::moniker range="<=vs-2022"
+
 |**Theme name**|**Theme GUID**|
 |-|-|
 |Light|{de3dbbcd-f642-433c-8353-8f1df4370aba}|
@@ -58,14 +60,26 @@ The Visual Studio Extension Color Compiler tool is a console application that ta
 |Blue|{a4d6a176-b948-4b29-8c66-53c97a1ed7d0}|
 |High Contrast|{a4d6a176-b948-4b29-8c66-53c97a1ed7d0}|
 
+:::moniker-end
+
+:::moniker range="visualstudio"
+
+|**Theme name**|**Theme GUID**|
+|-|-|
+|Light|{de3dbbcd-f642-433c-8353-8f1df4370aba}|
+|Dark|{1ded0138-47ce-435e-84ef-9ec1f439b749}|
+|High Contrast|{a4d6a176-b948-4b29-8c66-53c97a1ed7d0}|
+
+:::moniker-end
+
  **Category**
 
- The \<Category> element defines a collection of colors in a theme. Category names provide logical groupings, and should be defined as narrowly as possible. A category must contain at least one \<Color> element. Category elements are defined like this:
+The \<Category> element defines a collection of colors in a theme. A category must contain at least one \<Color> element. Category elements are defined like this:
 
 ```xml
 <Category Name="name" GUID="guid">
-      <!-- one or more Color elements -->
- </Category>
+  <!-- one or more Color elements -->
+</Category>
 ```
 
 |**Attribute**|**Definition**|
@@ -73,15 +87,35 @@ The Visual Studio Extension Color Compiler tool is a console application that ta
 |Name|[Required] The name of the category|
 |GUID|[Required] The category's GUID (must match GUID formatting)|
 
+:::moniker range="<=vs-2022"
+Category names provide logical groupings, and should be defined as narrowly as possible.
+:::moniker-end
+
+:::moniker range>="vs-2026"
+Category names provide logical groupings for colors that can be used for similar scope at high level. In Visual Studio 2026, the design system, including the color categorization, has been simplified to facilitate consistent application and centralized updates. For example, a Visual Studio 2026 theme has these categories:
+    - `Decorative` colors can be used to differentiate objects such as charts and colorized tabs.
+    - `Shell` colors are used for common controls and surfaces similar to [Windows](/windows/apps/design/signature-experiences/color)
+:::moniker-end
+
  **Color**
 
- The \<Color> element defines a color for a component or state of UI. The preferred naming scheme for a color is [UI type] [State]. Do not use the word "color," as it is redundant. A color should clearly indicate the element type and the situations, or "state," for which the color will be applied. A color must not be empty, and must contain either one or both of a \<Background> and \<Foreground> element. Color elements are defined like this:
+:::moniker range="<=vs-2022"
+  The \<Color> element defines a color for a component or state of UI. The preferred naming scheme for a color is [UI type][State]. Do not use the word "color," as it is redundant. A color should clearly indicate the element type and the situations, or "state," for which the color will be applied. A color must not be empty, and must contain either one or both of a \<Background> and \<Foreground> element. Color elements are defined like this:
+:::moniker-end
+
+:::moniker range="visualstudio"
+  The \<Color> element defines a color for a type of UI element. The preferred naming scheme for a color is [Type][Part][Level]:
+      - `Type` is the top level role the color plays in the UI, such as a `Accent`, `Background`, `Control`, `Text`, etc.
+      - `Part` is more granular application, such as `Fill`, `Stroke`.
+      - `Level` describes the color's state or step in a ramp, such as `Default`, `Disabled`, `Primary`, `Secondary`, etc.
+  Do not use the word "color," as it is redundant. Focus on the high level intended usage instead of a specific feature, so that the color token can be reusable for similar controls and states for better consistency. A color should clearly indicate the element type and the situations, for which the color will be applied. A color must not be empty, and must contain either one or both of a \<Background> and \<Foreground> element. Color elements are defined like this:
+:::moniker-end
 
 ```xml
 <Color Name="name">
-        <Background /> <!-- zero or one Background element -->
-        <Foreground /> <!-- zero or one Foreground element -->
- </Color>
+  <Background /> <!-- zero or one Background element -->
+  <Foreground /> <!-- zero or one Foreground element -->
+</Color>
 ```
 
 |**Attribute**|**Definition**|
@@ -121,6 +155,7 @@ The Visual Studio Extension Color Compiler tool is a console application that ta
 ```
 
 ## How to use the tool
+
  **Syntax**
 
  VsixColorCompiler \<XML file> \<PkgDef file> \<Optional Args>
@@ -150,6 +185,7 @@ The Visual Studio Extension Color Compiler tool is a console application that ta
 - The tool can be found in `<VS Install Path>\VSSDK\VisualStudioIntegration\Tools\Bin\`
 
 ## Sample output
+
  The .pkgdef file generated by the tool will be similar to the below keys:
 
 ```
@@ -159,3 +195,112 @@ The Visual Studio Extension Color Compiler tool is a console application that ta
 [$RootKey$\Themes\{de3dbbcd-f642-433c-8353-8f1df4370aba}\TreeView]
 "Data"=hex:38,00,00,00,0b,00,00,00,01,00,00,00,8e,f0,ec,92,13,8b,f4,4c,99,e9,ae,26,92,38,21,85,01,00,00,00,0a,00,00,00,42,61,63,6b,67,72,6f,75,6e,64,01,f5,f5,f5,ff,01,1e,1e,1e,ff
 ```
+
+:::moniker range="visualstudio"
+
+## Migrating themes to Visual Studio 2026
+
+You can make a previous theme compatible with Visual Studio 2026 by merging its existing tokens with a small set of new semantic tokens. You do not need to recreate every previous token. Visual Studio 2026 reads the new tokens first and then falls back to previous tokens. Here is how:
+
+1. Add `FallbackId="{Light or Dark theme GUID}"` object at the `<Theme />` object.
+
+  |**Theme to base on**|**FallbackId**|
+  |-|-|
+  |Light|{de3dbbcd-f642-433c-8353-8f1df4370aba}|
+  |Dark|{1ded0138-47ce-435e-84ef-9ec1f439b749}|
+
+2. Append the below set of tokens as the last two categories after the previous theme tokens. Make sure the category name and GUID are copied exactly as below.
+
+Minimal migration token overrides for a Light based theme:
+
+```xml
+  <Category Name="Shell" GUID="{73708ded-2d56-4aad-b8eb-73b20d3f4bff}">
+    <Color Name="AccentFillDefault">
+      <Background Type="CT_RAW" Source="FF5649B0" />
+    </Color>
+    <Color Name="AccentFillSecondary">
+      <Background Type="CT_RAW" Source="E55649B0" />
+    </Color>
+    <Color Name="AccentFillTertiary">
+      <Background Type="CT_RAW" Source="CC5649B0" />
+    </Color>
+    <Color Name="SolidBackgroundFillTertiary">
+      <Background Type="CT_RAW" Source="FFF9F9F9" />
+    </Color>
+    <Color Name="SolidBackgroundFillQuaternary">
+      <Background Type="CT_RAW" Source="FFFFFFFF" />
+    </Color>
+    <Color Name="SurfaceBackgroundFillDefault">
+      <Background Type="CT_RAW" Source="FFF9F9F9" />
+    </Color>
+    <Color Name="TextFillSecondary">
+      <Background Type="CT_RAW" Source="9E000000" />
+    </Color>
+  </Category>
+  <Category Name="ShellInternal" GUID="{5af241b7-5627-4d12-bfb1-2b67d11127d7}">
+    <Color Name="EnvironmentBackground">
+      <Background Type="CT_RAW" Source="FFEEEEEE" />
+    </Color>
+    <Color Name="EnvironmentBorder">
+      <Background Type="CT_RAW" Source="FF5649B0" />
+    </Color>
+    <Color Name="EnvironmentIndicator">
+      <Background Type="CT_RAW" Source="66757575" />
+    </Color>
+    <Color Name="EnvironmentLogo">
+      <Background Type="CT_RAW" Source="FF5649B0" />
+    </Color>
+    <Color Name="EnvironmentLayeredBackground">
+      <Background Type="CT_RAW" Source="80FFFFFF" />
+    </Color>
+  </Category>
+```
+
+Minimal migration token overrides for a Dark based theme:
+
+```xml
+<Category Name="Shell" GUID="{73708ded-2d56-4aad-b8eb-73b20d3f4bff}">
+    <Color Name="AccentFillDefault">
+      <Background Type="CT_RAW" Source="FF9184EE" />
+    </Color>
+    <Color Name="AccentFillSecondary">
+      <Background Type="CT_RAW" Source="80000000" />
+    </Color>
+    <Color Name="AccentFillTertiary">
+      <Background Type="CT_RAW" Source="CC9184EE" />
+    </Color>
+    <Color Name="SolidBackgroundFillTertiary">
+      <Background Type="CT_RAW" Source="FF282828" />
+    </Color>
+    <Color Name="SolidBackgroundFillQuaternary">
+      <Background Type="CT_RAW" Source="FF2C2C2C" />
+    </Color>
+    <Color Name="SurfaceBackgroundFillDefault">
+      <Background Type="CT_RAW" Source="FF2C2C2C" />
+    </Color>
+    <Color Name="TextFillSecondary">
+      <Background Type="CT_RAW" Source="C8FFFFFF" />
+    </Color>
+  </Category>
+  <Category Name="ShellInternal" GUID="{5af241b7-5627-4d12-bfb1-2b67d11127d7}">
+    <Color Name="EnvironmentBackground">
+      <Background Type="CT_RAW" Source="FF1C1C1C" />
+    </Color>
+    <Color Name="EnvironmentBorder">
+      <Background Type="CT_RAW" Source="FF9184EE" />
+    </Color>
+    <Color Name="EnvironmentIndicator">
+      <Background Type="CT_RAW" Source="66757575" />
+    </Color>
+    <Color Name="EnvironmentLogo">
+      <Background Type="CT_RAW" Source="FF9184EE" />
+    </Color>
+    <Color Name="EnvironmentLayeredBackground">
+      <Background Type="CT_RAW" Source="4D3A3A3A" />
+    </Color>
+  </Category>
+```
+
+3. Adjust the color values to fit the previous theme as needed.
+
+:::moniker-end

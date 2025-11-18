@@ -2,7 +2,7 @@
 title: Web Site Support
 description: Learn about web site project systems, which are created by adding templates and registration attributes to an existing project system.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - web site projects
 author: tinaschrepfer

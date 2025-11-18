@@ -2,7 +2,7 @@
 title: Explore instrumentation tools for your apps
 description: Explore the tools you can use to instrument your applications in Visual Studio, including dynamic and static instrumentation.
 ms.date: "05/01/2024"
-ms.topic: "conceptual"
+ms.topic: article
 ms.custom: "profiling-seo"
 author: "mikejo5000"
 ms.author: "mikejo"

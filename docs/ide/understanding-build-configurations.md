@@ -3,7 +3,7 @@ title: Understand build configurations
 description: Discover how to work with build configurations when you need to build your projects with different settings in Visual Studio.
 ms.date: 8/7/2025
 ms.subservice: compile-build
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
 - SolutionProperties.ActiveConfig
 - vs.build.newprojectconfiguration

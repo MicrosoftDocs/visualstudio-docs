@@ -2,7 +2,7 @@
 title: "Visual Studio Tools for Office runtime overview"
 description: Explore the Visual Studio 2010 Tools for Microsoft Office runtime, including supported versions, Office extensions for the .NET Framework, and the solution loader. 
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: concept-article
 dev_langs:
   - "VB"
   - "CSharp"

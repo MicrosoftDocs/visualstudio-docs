@@ -3,14 +3,14 @@ title: Managing large teams and contractors in Visual Studio subscriptions | Vis
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 09/16/2024
-ms.topic: conceptual
+ms.date: 11/3/2025
+ms.topic: concept-article
 description:  Learn about admins' responsibility to manage subscriptions for large teams and external contractors.
 ---
 
 # Large teams and external contractors
 
-Visual Studio subscriptions admins are responsible for ensuring that each user who interacts with Visual Studio-licensed software is appropriately licensed with their own Visual Studio subscription.  Subscriptions may not be assigned to teams, groups, or labs.  
+Visual Studio subscriptions admins are responsible for ensuring that each user who interacts with Visual Studio-licensed software is appropriately licensed with their own Visual Studio subscription. Subscriptions might not be assigned to teams, groups, or labs.  
 
 ## Internal teams
 
@@ -25,11 +25,11 @@ Every organization is different, but a typical list of teams involved in develop
 
 ## External contractors and partners
 
-External contractors may bring licenses to engage with your Visual Studio-licensed environment. Microsoft Certified Partners may receive a few free Visual Studio subscriptions for their internal use. However, these subscriptions don't cover revenue-generating activities such as developing custom software for a customer. Ask partners to send you a certified letter that explains the licenses they're providing and ones they need you to procure.
+External contractors might bring licenses to engage with your Visual Studio-licensed environment. Microsoft Certified Partners might receive a few free Visual Studio subscriptions for their internal use. However, these subscriptions don't cover revenue-generating activities such as developing custom software for a customer. Ask partners to send you a certified letter that explains the licenses they're providing and ones they need you to procure.
 
 ## Resources
 
-+ [Visual Studio licensing white paper](https://visualstudio.microsoft.com/wp-content/uploads/2019/06/Visual-Studio-Licensing-Whitepaper-May-2019.pdf)
++ [Visual Studio licensing white paper](https://aka.ms/vslicensing)
 + [Visual Studio Administration and Subscriptions Support](https://aka.ms/vsadminhelp)
 + [Volume Licensing terms](https://www.microsoft.com/licensing/docs/view/Product-Terms)
 

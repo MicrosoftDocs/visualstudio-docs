@@ -2,7 +2,7 @@
 title: Creating Options Pages
 description: Learn how to create an Options page under the Tools menu in Visual Studio by implementing a DialogPage class from the managed package framework.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - managed package framework, creating Tools Options pages
 - Tools Options pages [Visual Studio SDK], creating using managed package framework

@@ -2,7 +2,7 @@
 title: "Work with text in documents"
 description: Learn about step-by-step procedures and code examples for using the object model of Microsoft Word to work with text in Office projects.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"

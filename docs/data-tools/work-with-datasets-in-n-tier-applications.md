@@ -2,7 +2,7 @@
 title: Work with datasets in n-tier .NET Framework applications
 description: Learn to work with datasets in n-tier .NET Framework applications in Visual Studio. N-tier data applications are data-centric apps that are separated into multiple logical layers (or tiers).
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - datasets [Visual Basic], n-tier applications
 - multi-tier database applications

@@ -2,7 +2,7 @@
 title: Using the Automation Model
 description: Learn how to obtain properties and methods of your VSPackage after it is connected to the automation model.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - automation [Visual Studio SDK], automation model
 author: tinaschrepfer

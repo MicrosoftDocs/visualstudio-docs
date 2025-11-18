@@ -2,7 +2,7 @@
 title: Hierarchical update in .NET Framework development
 description: Review hierarchical updates, which involve saving updated data (from a dataset with 2+ related tables) back to a DB while keeping referential integrity rules.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 dev_langs:
 - VB
 - CSharp

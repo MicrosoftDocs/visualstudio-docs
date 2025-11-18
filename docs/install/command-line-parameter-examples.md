@@ -1,8 +1,8 @@
 ---
 title: Command-line parameter examples for installation
 description: Customize command-line parameter examples to create your own installation of Visual Studio by setting parameters, such as installPath, wait, all, remove, and more.
-ms.date: 1/31/2025
-ms.topic: conceptual
+ms.date: 11/3/2025
+ms.topic: article
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
@@ -122,6 +122,8 @@ Using the [latest installer](update-visual-studio.md#use-the-latest-and-greatest
 
 | **Channel Name** | **--channelUri** | [**--channelId**](create-a-network-installation-of-visual-studio.md#ensure-your-layout-is-based-off-of-the-correct-channel) |
 |------------------|------------------|-----------------|
+| Visual Studio 2026 Stable channel | `https://aka.ms/vs/stable/channel` | `VisualStudio.18.Stable` |
+| Visual Studio 2026 Insiders channel | `https://aka.ms/vs/insiders/channel` | `VisualStudio.18.Insiders` |
 | Visual Studio 2022 Current channel | `https://aka.ms/vs/17/release/channel` | `VisualStudio.17.Release` |
 | Visual Studio 2022 17.0 LTSC channel | `https://aka.ms/vs/17/release.LTSC.17.0/channel` | `VisualStudio.17.Release.LTSC.17.0` |
 | Visual Studio 2022 Preview channel | `https://aka.ms/vs/17/pre/channel` | `VisualStudio.17.Preview` |
@@ -137,12 +139,23 @@ If you choose to use a custom layout as the update channel, then be aware of the
 
 * Remove the Profiling Tools component from the default installed Visual Studio instance. This example uses the installer already installed on the client machine. [Standard users with appropriate permissions](https://aka.ms/vs/setup/policies) can programmatically execute the modify command using the installer, but they aren't allowed to use the `--passive` or `--quiet` switch. Note that you can't initiate the installer programmatically from the same directory that the installer resides in.
 
+::: moniker range="=visualstudio"
+  ```shell
+  "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" modify ^
+   --installPath "C:\Program Files\Microsoft Visual Studio\18\Enterprise" ^
+   --remove Microsoft.VisualStudio.Component.DiagnosticTools ^
+   --passive
+  ```
+::: moniker-end
+
+::: moniker range="<=vs-2022"
   ```shell
   "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" modify ^
    --installPath "C:\Program Files\Microsoft Visual Studio\2022\Enterprise" ^
    --remove Microsoft.VisualStudio.Component.DiagnosticTools ^
    --passive
   ```
+::: moniker-end
   
 You can't use `--remove` in the same command as `--layout`. In other words, it's not possible to remove components from a layout.
 
@@ -150,6 +163,27 @@ You can't use `--remove` in the same command as `--layout`. In other words, it's
 
 Using the [latest installer](update-visual-studio.md#use-the-latest-and-greatest-installer), you can modify an installation and remove all [components that have transitioned to an out-of-support state](out-of-support-components.md) from the default installed Visual Studio instance. This example uses the installer already installed on the client machine to configure the removeOos setting. [Standard users, if they've been granted appropriate permissions](https://aka.ms/vs/setup/policies), can programmatically execute the modify command using the installer, but they aren't allowed to use the `--passive` or `--quiet` switch. You can't initiate the installer programmatically from the same directory that the installer resides in.
 
+::: moniker range=">=visualstudio"
+  ```shell
+   "C:\Program Files (x86)\Microsoft Visual studio\Installer\setup.exe" modify ^
+   --installPath "C:\Program Files\Microsoft Visual Studio\18\Enterprise" ^
+   --removeOos true ^
+   --passive
+  ```
+
+* Adjust the update settings to persistently remove all components transitioned to an out-of-support state every time the product updates:
+
+  ```shell
+  "C:\Program Files (x86)\Microsoft Visual studio\Installer\setup.exe" modify ^
+  --channelURI https://aka.ms/vs/stable.18.0/channel ^
+  --productID Microsoft.VisualStudio.Product.Enterprise ^
+  --newChannelURI \\layoutserver\share\path\channelmanifest.json ^
+  --removeOos true ^
+  --quiet  
+  ```
+::: moniker-end
+
+::: moniker range="=vs-2022"
   ```shell
    "C:\Program Files (x86)\Microsoft Visual studio\Installer\setup.exe" modify ^
    --installPath "C:\Program Files\Microsoft Visual Studio\2022\Enterprise" ^
@@ -167,6 +201,7 @@ Using the [latest installer](update-visual-studio.md#use-the-latest-and-greatest
   --removeOos true ^
   --quiet  
   ```
+::: moniker-end
 
 ## Using --path
 
@@ -198,9 +233,17 @@ All of these examples assume you're installing a new product using a bootstrappe
 
 * Use export to save custom selection from scratch. This example uses the installer already installed on the client machine.
 
+::: moniker range="=visualstudio"
+  ```shell
+  "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" export --channelId VisualStudio.18.Stable --productId Microsoft.VisualStudio.Product.Enterprise --add Microsoft.VisualStudio.Workload.ManagedDesktop --includeRecommended --config "C:\my.vsconfig"
+  ```
+::: moniker-end
+
+::: moniker range="=vs-2022"
   ```shell
   "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" export --channelId VisualStudio.17.Release --productId Microsoft.VisualStudio.Product.Enterprise --add Microsoft.VisualStudio.Workload.ManagedDesktop --includeRecommended --config "C:\my.vsconfig"
   ```
+::: moniker-end
 
 ## Using --config
 
@@ -226,9 +269,16 @@ All of these examples assume you're installing a new product using a bootstrappe
 
 Use the [Windows Package Manager](/windows/package-manager/winget/) "winget" tool to programmatically install or update Visual Studio on your machines along with other packages managed by winget. To customize the installation and specify other workloads and components, you can use winget's `--override` switch alongside winget's `install` command, and pass in an [exported vsconfig file](import-export-installation-configurations.md) like this:
 
+::: moniker range=">=visualstudio"
+  ```shell
+  winget install --id Microsoft.VisualStudio.Community --override "--passive --config C:\my.vsconfig"
+  ```
+::: moniker-end
+::: moniker range="=vs-2022"
   ```shell
   winget install --id Microsoft.VisualStudio.2022.Community --override "--passive --config C:\my.vsconfig"
   ```
+::: moniker-end
 
 You can also use [`winget configure`](/windows/package-manager/configuration/) and pass in a `.yaml` file to modify an existing Visual Studio installation. This approach uses the [Visual Studio PowerShell DSC provider](https://www.powershellgallery.com/packages/Microsoft.VisualStudio.DSC) that is [documented here](https://github.com/microsoft/VisualStudioDSC). 
   

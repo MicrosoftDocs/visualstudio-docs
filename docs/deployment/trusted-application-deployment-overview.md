@@ -2,7 +2,7 @@
 title: "Trusted Application Deployment Overview"
 description: Learn how to deploy ClickOnce applications that have elevated permissions by using the Trusted Application Deployment technology.
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"

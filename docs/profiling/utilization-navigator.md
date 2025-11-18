@@ -2,7 +2,7 @@
 title: "Utilization Navigator"
 description: Learn how you can use the Utilization Navigator in the Concurrency Visualizer to select an interval of time in a trace.
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: article
 f1_keywords:
   - "vs.cv.performance.utilizationnavigator"
 author: "mikejo5000"

@@ -2,7 +2,7 @@
 title: Unit tests for Generic Methods
 description: Learn how to generate unit tests for generic methods by using this information about and examples of creating unit tests for generic methods.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - generics, and unit tests
 - unit tests, and generics

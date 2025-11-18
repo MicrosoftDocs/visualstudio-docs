@@ -2,7 +2,7 @@
 title: Work with data in Visual Studio
 description: Work with data in Visual Studio and create apps that connect to data in other database products or services over local machines, LANs, and public or private clouds.
 ms.date: 12/3/2024
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - data [Visual Studio]
 - data access [Visual Studio]
@@ -21,7 +21,7 @@ In Visual Studio, you can create applications that connect to data in virtually 
 For applications in JavaScript, Python, PHP, Ruby, or C++, you connect to data like you do anything else, by obtaining libraries and writing code. For .NET applications, Visual Studio provides tools that you can use to explore data sources, create object models to store and manipulate data in memory, and bind data to the user interface. Microsoft Azure provides SDKs for .NET, Java, Node.js, PHP, Python, Ruby, and mobile apps, and tools in Visual Studio for connecting to Azure Storage.
 
 ::: moniker range="vs-2019"
-The following lists show just a few of the many database and storage systems that can be used from Visual Studio. The [Microsoft Azure](https://azure.microsoft.com/) offerings are data services that include all provisioning and administration of the underlying data store. The **Azure development** workload in [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) enables you to work with Azure data stores directly from Visual Studio.
+The following lists show just a few of the many database and storage systems that can be used from Visual Studio. The [Microsoft Azure](https://azure.microsoft.com/) offerings are data services that include all provisioning and administration of the underlying data store. The **Azure development** workload in [Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) enables you to work with Azure data stores directly from Visual Studio.
 
 ![Azure development workload](media/azure-development-workload.png)
 
@@ -83,7 +83,7 @@ For other data-related technologies, Visual Studio 2022 supports the following:
 - PostgreSQL on container (local-only option)
 - MongoDB on container (local-only option)
 
-Apart from Connected Services, the following lists show just a few of the many database and storage systems that can be used from Visual Studio. The [Microsoft Azure](https://azure.microsoft.com/) offerings are data services that include all provisioning and administration of the underlying data store. The **Azure development** workload in [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) enables you to work with Azure data stores directly from Visual Studio.
+Apart from Connected Services, the following lists show just a few of the many database and storage systems that can be used from Visual Studio. The [Microsoft Azure](https://azure.microsoft.com/) offerings are data services that include all provisioning and administration of the underlying data store. The **Azure development** workload in [Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) enables you to work with Azure data stores directly from Visual Studio.
 
 ![Azure development workload](media/azure-development-workload.png)
 

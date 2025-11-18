@@ -2,7 +2,7 @@
 title: "XAML data binding diagnostics"
 description: Perform XAML data binding diagnostics while debugging code in Visual Studio to detect and resolve data binding errors in XAML projects.
 ms.date: 03/28/2022
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
   - "xaml data binding"
   - "xaml diagnostics"

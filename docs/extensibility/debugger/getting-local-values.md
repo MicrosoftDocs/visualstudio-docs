@@ -2,7 +2,7 @@
 title: Getting Local Values
 description: Learn how Visual Studio gets the value of a local variable by using GetPropertyInfo for managed and unmanaged code.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - expression evaluation, local values
 - debugging [Debugging SDK], local values

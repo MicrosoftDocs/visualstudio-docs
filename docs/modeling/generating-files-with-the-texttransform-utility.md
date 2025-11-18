@@ -2,7 +2,7 @@
 title: Generating Files with the TextTransform Utility
 description: Transform a text template with the TextTransform utility command-line tool, and use optional parameters to identify the assembly, directive processor, and namespace.
 ms.date: 07/26/2019
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - text templates, TextTransform utility
 - TextTransform.exe

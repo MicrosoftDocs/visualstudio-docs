@@ -2,7 +2,7 @@
 title: Use code maps to debug your applications
 description: Use code maps to debug your applications, to help you avoid getting lost in large code bases, unfamiliar code, or legacy code.
 ms.date: 09/28/2018
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - Visual Studio Ultimate, visualizing code
 - Visual Studio Ultimate, navigating code visually

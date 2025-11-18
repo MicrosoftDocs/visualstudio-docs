@@ -3,7 +3,7 @@ title: "Walkthrough: Create a template by using content controls"
 description: Learn how to create a document-level customization that uses content controls to create structured and reusable content in a Microsoft Word template.
 titleSuffix: ""
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"

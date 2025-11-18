@@ -2,7 +2,7 @@
 title: "Document host item"
 description: Learn that the Document host item is a type that extends the Document type from the primary interop assembly for Word.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "VB"
   - "CSharp"

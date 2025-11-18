@@ -2,7 +2,7 @@
 title: Optimizing Menu and Toolbar Commands
 description: Learn how Visual Studio can minimize command confusion caused by adding VSPackages and their corresponding commands.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - commands [Visual Studio], menus
 - commands [Visual Studio], toolbars

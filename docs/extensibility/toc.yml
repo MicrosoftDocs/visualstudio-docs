@@ -13,16 +13,14 @@
     href: extensibility-hello-world.md
   - name: VisualStudio.Extensibility SDK (Preview) >>
     href: ./visualstudio.extensibility/index.yml
-  - name: Update extensions for Visual Studio 2026
+  - name: Upgrade extensions
     expanded: true
     items:
-    - name: Update an extension
-      href: migration/update-extension.md
+    - name: Upgrade an extension
+      href: migration/update-visual-studio-extension.md
     - name: Modernize theme colors
       href: migration/modernize-theme-colors.md
-  - name: Update extensions for Visual Studio 2022
-    items:
-    - name: Update an extension
+    - name: Upgrade an extension
       href: migration/update-visual-studio-extension.md
     - name: 'Example: ImageOptimizer'
       href: migration/samples.md

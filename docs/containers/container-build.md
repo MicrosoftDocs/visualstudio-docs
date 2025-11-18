@@ -3,7 +3,7 @@ title: Customize Docker containers in Visual Studio
 author: ghogen
 description: Explore Visual Studio fast mode, and modify the Dockerfile to customize your container images for both debug and production builds.
 ms.author: ghogen
-ms.date: 09/17/2024
+ms.date: 10/24/2025
 ms.subservice: container-tools
 ms.topic: how-to
 ---
@@ -27,7 +27,7 @@ This article explains the Visual Studio build process for containerized apps in 
 ## Prerequisites
 
 - [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows) or [Podman Desktop](https://podman-desktop.io/downloads).
-- [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta), or for Podman support, [Visual Studio (Insiders)](https://visualstudio.microsoft.com/insiders/?cid=learn-onpage-download-cta), with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET desktop development** workload installed.
+- [Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-cta), or for Podman support, [Visual Studio 2026](https://aka.ms/vs/download/?cid=learn-onpage-download-cta), with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET desktop development** workload installed.
 
 :::moniker-end
 ::: moniker range="vs-2022"
@@ -35,7 +35,7 @@ This article explains the Visual Studio build process for containerized apps in 
 ## Prerequisites
 
 - [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows).
-- [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET desktop development** workload installed.
+- [Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET desktop development** workload installed.
 
 :::moniker-end
 
@@ -44,7 +44,7 @@ This article explains the Visual Studio build process for containerized apps in 
 ## Prerequisites
 
 - [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
-- [Visual Studio 2019 or later](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, **.NET desktop development**, and/or **.NET Core cross-platform development** workload installed.
+- [Visual Studio 2019 or later](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, **.NET desktop development**, and/or **.NET Core cross-platform development** workload installed.
 
 :::moniker-end
 
@@ -52,7 +52,7 @@ This article explains the Visual Studio build process for containerized apps in 
 
 ::: moniker range=">=vs-2022"
 > [!NOTE]
-> This section describes the container build process that Visual Studio uses when you choose the Dockerfile container build type. If you are using the .NET SDK build type, the customization options are different, and the information in this section isn't applicable. Instead, see [Containerize a .NET app with dotnet publish](/dotnet/core/docker/publish-as-container?pivots=dotnet-8-0) and use the properties described at [Customize your container](https://github.com/dotnet/sdk-container-builds/blob/main/docs/ContainerCustomization.md) to configure the container build process.
+> This section describes the container build process that Visual Studio uses when you choose the Dockerfile container build type. If you're using the .NET SDK build type, the customization options are different, and the information in this section isn't applicable. Instead, see [Containerize a .NET app with dotnet publish](/dotnet/core/docker/publish-as-container?pivots=dotnet-8-0) and use the properties described at [Customize your container](https://github.com/dotnet/sdk-container-builds/blob/main/docs/ContainerCustomization.md) to configure the container build process.
 ::: moniker-end
 
 ### Multistage build
@@ -136,7 +136,7 @@ The following table summarizes the stages used in the typical Dockerfile created
 | aotdebug | This stage is used as the base for the final stage when launching from VS to support debugging in regular mode (Default when not using the Debug configuration). |
 
 > [!NOTE]
-> The `aotdebug` stage is only supported for Linux containers. It is used in Visual Studio 2022 17.11 and later if [native Ahead Of Time (AOT) deployment](/dotnet/core/deploying/native-aot) is enabled on the project.
+> The `aotdebug` stage is only supported for Linux containers. It's used in Visual Studio 2022 17.11 and later if [native Ahead Of Time (AOT) deployment](/dotnet/core/deploying/native-aot) is enabled on the project.
 :::moniker-end
 :::moniker range="vs-2019"
 
@@ -144,34 +144,41 @@ The following table summarizes the stages used in the typical Dockerfile created
 | - | - |
 | base | Creates the base runtime image where the built app is published. Settings that need to be available at runtime go here, such as ports and environment variables. This stage is used when running from VS in fast mode (Default for Debug configuration). |
 | build | The project is built in this stage. The .NET SDK base image is used, which has the components required to build your project. |
-| publish | This stage derives from the build stage and publishes your project, which will be copied to the final stage. |
+| publish | This stage derives from the build stage and publishes your project, which is copied to the final stage. |
 | final | This stage configures how to start the app and is used in production or when running from VS in regular mode (Default when not using the Debug configuration). |
 
 :::moniker-end
 
 ## Project warmup
 
-*Project warmup* refers to a series of steps that happen when the Container profile is selected for a project (that is, when a project is loaded or container support is added) in order to improve the performance of subsequent runs (**F5** or **Ctrl**+**F5**). This behavior is configurable under **Tools** > **Options** > **Container Tools**. Here are the tasks that run in the background:
+*Project warmup* refers to a series of steps that happen when the Container profile is selected for a project (that is, when a project is loaded or container support is added) in order to improve the performance of subsequent runs (**F5** or **Ctrl**+**F5**). 
 
 :::moniker range="visualstudio"
+
+This behavior is configurable in the **Tools** > **Options** pane under **All Settings** > **Container Tools**. Here are the tasks that run in the background:
+
 - Check that the container runtime (Docker Desktop or Podman) is installed and running.
-- Ensure that Docker Desktop is set to the same operating system as the project. (This check is not applicable to Podman, which only supports Linux containers.)
+- Ensure that Docker Desktop is set to the same operating system as the project. (This check isn't applicable to Podman, which only supports Linux containers.)
 - Pull the images in the first stage of the Dockerfile (the `base` stage in most Dockerfiles).
 - Build the Dockerfile and start the container.
-:::moniker-end
 
+:::moniker-end
 :::moniker range="<=vs-2022"
+
+This behavior is configurable under **Tools** > **Options** > **Container Tools**. Here are the tasks that run in the background:
+
 - Check that Docker Desktop is installed and running.
 - Ensure that Docker Desktop is set to the same operating system as the project.
 - Pull the images in the first stage of the Dockerfile (the `base` stage in most Dockerfiles).
 - Build the Dockerfile and start the container.
+
 :::moniker-end
 
 Warmup only happens in **Fast** mode, so the running container has the *app* folder volume-mounted. That means that any changes to the app don't invalidate the container. This behavior improves the debugging performance significantly and decreases the wait time for long running tasks such as pulling large images.
 
 ## Enable detailed container tools logs
 
-For diagnostic purposes, you can enable certain Container Tools logs. You can enable these logs by setting certain environment variables. For single container projects, the environment variable is `MS_VS_CONTAINERS_TOOLS_LOGGING_ENABLED`, which then logs in `%tmp%\Microsoft.VisualStudio.Containers.Tools`. For Docker Compose projects, it's `MS_VS_DOCKER_TOOLS_LOGGING_ENABLED`, which then logs in `%tmp%\Microsoft.VisualStudio.DockerCompose.Tools`.
+For diagnostic purposes, you can enable certain Container Tools logs. You can enable these logs by setting certain environment variables. For single container projects, the environment variable is `MS_VS_CONTAINERS_TOOLS_LOGGING_ENABLED`, which then logs in `%tmp%\Microsoft.VisualStudio.Containers.Tools`. For Docker Compose projects, the variable is `MS_VS_DOCKER_TOOLS_LOGGING_ENABLED`, which then logs in `%tmp%\Microsoft.VisualStudio.DockerCompose.Tools`.
 
 :::moniker range=">=vs-2022"
 > [!WARNING]

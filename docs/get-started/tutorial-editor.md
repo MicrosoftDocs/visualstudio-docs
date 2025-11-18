@@ -20,13 +20,13 @@ In this introduction to the Visual Studio code editor, you’ll add code to a fi
 ::: moniker range="vs-2019"
 
 > [!TIP]
-> If you don't have Visual Studio, go to [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) to install it for free.
+> If you don't have Visual Studio, go to [Visual Studio downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) to install it for free.
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) page to install it for free.
 
 ::: moniker-end
 

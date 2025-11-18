@@ -2,7 +2,7 @@
 title: Shipping Visual Studio Extensions
 description: Learn how to publish and maintain your Visual Studio SDK extension, including working with .vsix files, publishing, localizing, and updating.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - VSIX deployment
 - deployment, VSIX

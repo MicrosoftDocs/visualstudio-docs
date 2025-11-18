@@ -2,7 +2,7 @@
 title: "Create Outlook form regions"
 description: Learn how you can use form regions to customize Microsoft Outlook forms for easier to design, develop, and debug form regions.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: article
 f1_keywords:
   - "MICROSOFT.OFFICE.TOOLS.OUTLOOK.FORMREGION"
 dev_langs:

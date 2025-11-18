@@ -2,7 +2,7 @@
 title: Connect to projects in Team Explorer
 description: Explore Team Explorer in Visual Studio to work with team members to develop and manage projects, source code, work items, and repositories.
 ms.date: 3/10/2025
-ms.topic: conceptual
+ms.topic: how-to
 ms.author: ghogen
 author: ghogen
 ms.manager: mijacobs

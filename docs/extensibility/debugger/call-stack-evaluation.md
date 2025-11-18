@@ -2,7 +2,7 @@
 title: Call Stack Evaluation
 description: Learn about the EnumFrameInfo method and how to implement it to view the stack frames of the call stack during break mode.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - debugging [Debugging SDK], call stack evaluation
 - call stacks, evaluation

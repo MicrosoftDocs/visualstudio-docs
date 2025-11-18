@@ -4,7 +4,7 @@ description: Learn how to work with service configurations and profiles configur
 author: ghogen
 manager: mijacobs
 ms.subservice: azure-development
-ms.topic: conceptual
+ms.topic: how-to
 ms.date: 8/11/2017
 ms.author: ghogen
 ---
@@ -17,7 +17,7 @@ When you publish a cloud service, Visual Studio stores configuration information
 
 ## Prerequisites
 
-- Visual Studio (see [Visual Studio downloads] (https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta)) with the **Azure development** workload installed, and the Individual Component **.NET Framework project and item templates** installed. See [Modify Visual Studio](../install/modify-visual-studio.md).
+- Visual Studio (see [Visual Studio downloads] (https://aka.ms/vs/download/?cid=learn-onpage-download-cta)) with the **Azure development** workload installed, and the Individual Component **.NET Framework project and item templates** installed. See [Modify Visual Studio](../install/modify-visual-studio.md).
 - [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
 
 ## Service Configurations

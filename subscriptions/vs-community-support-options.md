@@ -4,7 +4,7 @@ author: joseb-rdc
 ms.author: amast
 manager: shve
 ms.date: 07/24/2025
-ms.topic: conceptual
+ms.topic: article
 description:  Learn about the various community-based support offerings in Visual Studio subscriptions
 ---
 

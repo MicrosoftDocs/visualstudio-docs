@@ -36,6 +36,8 @@
     href: install/import-export-installation-configurations.md
   - name: Troubleshoot installation issues
     href: /troubleshoot/developer/visualstudio/installation/troubleshoot-installation-issues?toc=%2Fvisualstudio%2Ftoc.json
+  - name: Setup Assistant
+    href: install/setup-assistant.md
   - name: Update Visual Studio
     href: install/update-visual-studio.md
   - name: Modify Visual Studio
@@ -867,6 +869,8 @@
   - name: Customize the IDE
     displayName: Personalize
     href: ide/personalizing-the-visual-studio-ide.md
+  - name: Visual Studio settings
+    href: ide/visual-studio-settings.md
   - name: Synchronized settings
     href: ide/synchronized-settings-in-visual-studio.md
   - name: Fonts and colors
@@ -1126,6 +1130,8 @@
       href: ide/securing-applications.md
     - name: Run Visual Studio as an administrator
       href: ide/user-permissions-and-visual-studio.md
+    - name: Certificate revocation check
+      href: ide/certificate-revocation.md 
     - name: Configure trust settings
       href: ide/trust-settings.md
     - name: Windows Information Protection (WIP)

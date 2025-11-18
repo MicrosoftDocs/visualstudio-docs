@@ -2,7 +2,7 @@
 title: Registering a Custom Debug Engine
 description: Learn how the debug engine registers itself as a class factory, following COM conventions, as well as registering with Visual Studio through the registry.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - debug engines, registering
 author: tinaschrepfer

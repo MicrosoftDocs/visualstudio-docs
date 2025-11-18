@@ -3,7 +3,7 @@ title: What's New in Source Control in the Visual Studio 2015 SDK
 description: Learn about the features of source control VSPackages and review an overview of the implementation steps.
 titleSuffix: ''
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: whats-new
 helpviewer_keywords:
 - what's new [Visual Studio SDK], source control
 - source control [Visual Studio SDK], what's new

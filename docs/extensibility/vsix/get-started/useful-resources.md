@@ -2,7 +2,7 @@
 title: Useful resources
 description: A list of handy resources that help you better navigate the world of VS extensibility.
 ms.date: 12/01/2021
-ms.topic: conceptual
+ms.topic: article
 author: madskristensen
 ms.author: madsk
 manager: pchapman

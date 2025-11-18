@@ -2,7 +2,7 @@
 title: Operational Modes
 description: Learn about the three modes in which the IDE can operate, which are design mode, run mode, and break mode.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: article
 helpviewer_keywords:
 - debug engines, modes
 author: tinaschrepfer

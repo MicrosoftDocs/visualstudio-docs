@@ -1,8 +1,8 @@
 ---
 title: Run as administrator to install, debug, and more
 description: Explore how to run Visual Studio as an administrator and the use cases for installation, debugging, profiling, and configuring specific settings.
-ms.date: 9/11/2025
-ms.topic: conceptual
+ms.date: 11/14/2025
+ms.topic: how-to
 helpviewer_keywords:
 - Visual Studio, user permissions
 - user permissions
@@ -50,7 +50,7 @@ If you need to run Visual Studio as an administrator, here's how.
    - In **Windows 10**, open the **Start** menu, and then scroll to Visual Studio.
    - In **Windows 11**, select the Start button, and then in the **Search** box, type **Visual Studio**.
 
-1. Next, right-click either **Visual Studio 2019** or **Visual Studio 2022**, and then select **Run as administrator**.
+1. Next, right-click Visual Studio in the list, and then select **Run as administrator**.
 
    :::moniker range="<=vs-2022"
    When Visual Studio starts, **(Administrator)** appears after the product name in the title bar, and **ADMIN** appears near the top right of the Visual Studio window, in the same area where **PREVIEW** appears if you are using a preview build of Visual Studio. You can click on this button to view the **About** dialog.
@@ -59,9 +59,9 @@ If you need to run Visual Studio as an administrator, here's how.
    :::moniker-end
 
    :::moniker range="visualstudio"
-   When Visual Studio starts, **(Administrator)** appears after the product name in the title bar, and **ADMIN** appears near the top right of the Visual Studio window, in the same area where **INSIDERS** appears if you are using an Insiders build of Visual Studio. You can click on this button to view the **About** dialog.
+   When Visual Studio starts, **(Administrator)** appears after the product name in the title bar, and **ADMIN** appears near the top right of the Visual Studio window, in the same area where **INSIDERS** appears if you are using an Insiders build of Visual Studio. You can select this button to view the **About** dialog.
 
-   ![Screenshot showing ADMIN in top right corner of the Visual Studio window.](media/vs-2022/admin-in-upper-right-corner.png)
+   ![Screenshot showing ADMIN in top-right corner of Visual Studio.](media/visualstudio/admin-in-upper-right-corner.png)
    :::moniker-end
 
 ### Modify the shortcut

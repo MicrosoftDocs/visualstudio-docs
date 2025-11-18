@@ -2,7 +2,7 @@
 title: "Write a visualizer in C#"
 description: Follow a walkthrough to create a simple visualizer in C#. It shows the steps required both with and without using the Visualizer item template.
 ms.date: "6/26/2025"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "CSharp"
 helpviewer_keywords:
