@@ -172,16 +172,27 @@ If you work with a large number of services, you can save time and computing res
 > [!NOTE]
 > Remote Docker hosts are not supported in Visual Studio tooling.
 
+
 ## Service Fabric support
+
+:::moniker range="visualstudio"
+
+The Service Fabric Application Projects have been removed in Visual Studio 2026, and will become a Visual Studio Extension. For status on availability, see this [GitHub issue](https://github.com/microsoft/service-fabric/issues/1541).
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
 
 With Service Fabric tools in Visual Studio, you can develop and debug for Azure Service Fabric, run and debug locally, and deploy to Azure.
 
-Visual Studio 2019 and later support developing containerized microservices using Windows containers and Service Fabric orchestration.
+Visual Studio 2019 and Visual Studio 2022 support developing containerized microservices using Windows containers and Service Fabric orchestration.
 
 For a detailed tutorial, see
 [Tutorial: Deploy a .NET application in a Windows container to Azure Service Fabric](/azure/service-fabric/service-fabric-host-app-in-a-container).
 
 For more information on Azure Service Fabric, see [Service Fabric](/azure/service-fabric).
+
+:::moniker-end
 
 ## Continuous delivery and continuous integration (CI/CD)
 
