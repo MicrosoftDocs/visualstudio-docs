@@ -14,8 +14,9 @@ You can report a problem from either Visual Studio or its installer. The built-i
 
 Here are the steps to report a problem.
 
-1. **In Visual Studio**, select the feedback icon in the upper-right corner and select Report a Problem. You can also access the feedback tool  from the menu **Help** > **Send Feedback** > **Report a Problem**.
-    ![Screenshot showing the feedback icon selected in the upper right corner of the Visual Studio window and Report a Problem selected on the context menu.](media/feedback-button.png)
+1. **In Visual Studio**, select the feedback icon in the upper-right corner and select Report a Problem. You can also access the feedback tool from the menu **Help** > **Send Feedback** > **Report a Problem**.
+
+    ![Screenshot showing the feedback icon selected in the upper right corner of the Visual Studio window and Report a Problem selected on the context menu.](media/visualstudio/feedback-button.png)
 
     Alternatively, if you can't install Visual Studio or are unable to access the feedback tool within Visual Studio you can report a problem in the **Visual Studio Installer**.  If you have Visual Studio open, go to **Tools > Get Tools > Features...** to launch the installer, or launch it from the Start menu. In the installer, select the feedback icon in the upper-right corner and select **Report a Problem**.
 
@@ -25,33 +26,37 @@ Here are the steps to report a problem.
 
    Note: If you are using an ad-blocker you may experience issues during sign-in. Disable the ad-blocker and try to sign in again.
 
-   ![Sign in to report a problem](../ide/media/feedback-browser-top.png)
+   ![Sign in to report a problem](../ide/media/visualstudio/feedback-browser-top.png)
 
 1. Start by entering the descriptive title of your bug report. It must be at least 25 characters long.
 
-    ![Report a problem](../ide/media/feedback-report.png)
+    ![Report a problem](../ide/media/visualstudio/feedback-report.png)
 
-1. Once you start typing, possible duplicates are shown under the title field
+1. Select a category for the bug.
 
-    ![Search for duplicates](../ide/media/feedback-search.png)
+1. Start entering a description of the problem.
 
-1. Select the possible duplicate bug reports to see if there is one matching your own problem. If there is, vote for it instead of creating your own ticket.
+1. After you enter enough information, the **Search** button at the bottom of the page is enabled. Select this button to see a list of similar problems and solutions. 
 
-    ![Vote for duplicates](../ide/media/feedback-duplicate.png)
+    ![Screenshot that shows the Search button.](../ide/media/visualstudio/search-button.png)
 
-1. If no duplicates were found, continue by entering a description of the problem. It's important to be as clear as possible to increase the chances of us being able to reproduce the bug. Make sure to include clear reproduction steps.
+1. Select the possible bug reports to see if there is one matching your own problem. If there is, vote for it instead of creating your own ticket.
 
-1. If relevant to the bug report, take a screenshot by checking the *Include Visual Studio screenshot* checkbox.  You can even crop the screenshot directly in the browser to remove any sensitive or unrelated parts.
+    ![Screenshot that shows the voting buttons.](../ide/media/visualstudio/feedback-duplicate.png)
 
-    ![Take a screenshot](../ide/media/feedback-screenshot.png)
+1. If no duplicates were found, continue by selecting **Can't find the solution**. When you select this button, you see the **Submit a ticket** tab. The information that you've already entered is still in the form. Complete the description if you haven't already done so. It's important to be as clear as possible to increase the chances of the engineering team being able to reproduce the bug. Make sure to include clear reproduction steps.
+
+1. If relevant to the bug report, take a screenshot by selecting the **Include Visual Studio screenshot**. You can even crop the screenshot directly in the browser to remove any sensitive or unrelated parts.
+
+    ![Screenshot that shows how to include a screenshot in a ticket.](../ide/media/visualstudio/feedback-screenshot.png)
     *Only Microsoft engineers can see the screenshot*
 
 1. <a name="trace"></a> Record your actions to reproduce the issue.
 
    One of the best ways to help the Visual Studio engineering team solve the problem is to provide a trace and heap dump files for them to look through. You can do that by recording the steps that resulted in the bug. A screenshot will be captured every time the mouse is clicked, but keyboard entry will not record screenshots.
-   1. Click **Start recording**. Wait a moment for the permissions prompt.
+   1. Select **Start recording**. Wait a moment for the permissions prompt.
    2. Go through your steps to record the issue. 
-   3. When finished, find the small pop-up window and click **Stop recording**. 
+   3. When finished, find the small pop-up window and select **Stop sharing**. 
 
    ![Record your actions](../ide/media/feedback-recording.png)
    *Only Microsoft engineers can see the recording*
@@ -61,7 +66,7 @@ Here are the steps to report a problem.
 
 1. Review the attached files and upload additional files if you believe it would help diagnose the issue.
 
-    ![Attached files](../ide/media/feedback-attachments.png)
+    ![Screenshot that shows the attached files.](../ide/media/visualstudio/feedback-attachments.png)
     *Only Microsoft engineers can see the attached files*
 
 1. The last step is to hit the **Submit** button. Submitting the report will send it directly into the internal Visual Studio bug reporting system awaiting triage.
