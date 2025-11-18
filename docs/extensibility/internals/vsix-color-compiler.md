@@ -198,4 +198,4 @@ Category names provide logical groupings for colors that can be used for similar
 
 ## Related content
 
-[Migrate themes to Visual Studio 2026](../migration/modernize-theme-colors.md#migrating-themes-to-visual-studio-2026)
+[Migrate themes to Visual Studio 2026](../migration/modernize-theme-colors.md#migrate-themes-to-visual-studio-2026)
