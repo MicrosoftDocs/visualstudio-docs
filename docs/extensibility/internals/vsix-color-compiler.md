@@ -196,6 +196,6 @@ Category names provide logical groupings for colors that can be used for similar
 "Data"=hex:38,00,00,00,0b,00,00,00,01,00,00,00,8e,f0,ec,92,13,8b,f4,4c,99,e9,ae,26,92,38,21,85,01,00,00,00,0a,00,00,00,42,61,63,6b,67,72,6f,75,6e,64,01,f5,f5,f5,ff,01,1e,1e,1e,ff
 ```
 
-## Related content
+## Update themes to work with Visual Studio 2026
 
-[Migrate themes to Visual Studio 2026](../migration/modernize-theme-colors.md#migrate-themes-to-visual-studio-2026)
+You can update existing themes that work with Visual Studio 2022 or earlier to work with Visual Studio 2026. See [Migrate themes to Visual Studio 2026](../migration/modernize-theme-colors.md#migrate-themes-to-visual-studio-2026).
