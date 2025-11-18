@@ -195,7 +195,7 @@ Minimal migration token overrides for a Dark based theme:
 
 3. Adjust the color values to fit the previous theme as needed.
 
-### Minimal token set starter for a light based theme
+### Minimal token set starter for a light-based theme
 
 <!-- Minimal compatibility section to append to an existing light based .vstheme -->
 
@@ -245,7 +245,7 @@ Minimal migration token overrides for a Dark based theme:
 </Theme>
 ```
 
-### Minimal token set starter for a dark based theme
+### Minimal token set starter for a dark-based theme
 
 <!-- Minimal compatibility section to append to an existing dark based .vstheme -->
 
