@@ -94,7 +94,7 @@ Category names provide logical groupings, and should be defined as narrowly as p
 :::moniker range>="vs-2026"
 Category names provide logical groupings for colors that can be used for similar scope at high level. In Visual Studio 2026, the design system, including the color categorization, has been simplified to facilitate consistent application and centralized updates. For example, a Visual Studio 2026 theme has these categories:
     - `Decorative` colors can be used to differentiate objects such as charts and colorized tabs.
-    - `Shell` colors are used for common controls and surfaces similar to [Windows](https://learn.microsoft.com/en-us/windows/apps/design/signature-experiences/color)
+    - `Shell` colors are used for common controls and surfaces similar to [Windows](/windows/apps/design/signature-experiences/color)
 :::moniker-end
 
  **Color**
