@@ -49,6 +49,19 @@ In general, Azure services can support multiple ways of obtaining and storing ce
 
 The following table shows the services and includes links that explain how HTTPS security works when you deploy to these services and how-to guides for managing the certificates.
 
+:::moniker range="visualstudio"
+
+| Azure Service | Notes |
+| - | - |
+| [Azure App Service](/azure/app-service/overview) | Azure App Service is a suitable deployment service for a single container that provides a default experience that means you get a secure endpoint with a trusted certificate provided by Azure without any additional overhead. For greater control, you can choose from multiple options for obtaining and storing the certificate. You may use your own trusted certificate obtained from a third-party CA instead of the default trusted certificate provided by Azure. Optionally, you can store certificates in Azure Key Vault. See [App Service TLS overview](/azure/app-service/overview-tls). |
+| [Azure Container Apps](/azure/container-apps/overview) | Azure Container Apps is a suitable hosting service for containerized apps using one or more containers. Like Azure App Service, it provides a default experience that uses trusted Azure-provided certificates automatically, but also provides a range of networking architecture options to support different scenarios. See [Networking in Azure Container Apps](/azure/container-apps/networking?tabs=workload-profiles-env%2Cazure-cli).  |
+| [Azure Container Instances](/azure/container-instances/container-instances-overview) | To configure HTTPS public endpoint for a container hosted in Azure Container Instances, see [Enable a TLS endpoint in a sidecar container](/azure/container-instances/container-instances-container-group-ssl). This option minimizes the impact to the container itself. |
+| [Azure Kubernetes Service (AKS)](/azure/aks/what-is-aks) | See the [guidance](/azure/aks/app-routing-dns-ssl) in the AKS documentation for setting up TLS for an ingress to your cluster. AKS provides the most advanced management capabilities, handling rotation and renewal of certificates with maximum flexibility. |
+
+:::moniker-end
+
+::: moniker range="<=vs-2022"
+
 | Azure Service | Notes |
 | - | - |
 | [Azure App Service](/azure/app-service/overview) | Azure App Service is a suitable deployment service for a single container that provides a default experience that means you get a secure endpoint with a trusted certificate provided by Azure without any additional overhead. For greater control, you can choose from multiple options for obtaining and storing the certificate. You may use your own trusted certificate obtained from a third-party CA instead of the default trusted certificate provided by Azure. Optionally, you can store certificates in Azure Key Vault. See [App Service TLS overview](/azure/app-service/overview-tls). |
@@ -56,6 +69,8 @@ The following table shows the services and includes links that explain how HTTPS
 | [Azure Container Instances](/azure/container-instances/container-instances-overview) | To configure HTTPS public endpoint for a container hosted in Azure Container Instances, see [Enable a TLS endpoint in a sidecar container](/azure/container-instances/container-instances-container-group-ssl). This option minimizes the impact to the container itself. |
 | [Service Fabric](/azure/service-fabric/overview-managed-cluster) | See [Service Fabric application and service security](/azure/service-fabric/service-fabric-application-and-service-security). You typically set up a reverse proxy to handle security for incoming requests. See [Reverse proxy in Azure Service Fabric](/azure/service-fabric/service-fabric-reverseproxy). |
 | [Azure Kubernetes Service (AKS)](/azure/aks/what-is-aks) | See the [guidance](/azure/aks/app-routing-dns-ssl) in the AKS documentation for setting up TLS for an ingress to your cluster. AKS provides the most advanced management capabilities, handling rotation and renewal of certificates with maximum flexibility. |
+
+:::moniker-end
 
 ### Network security options for multiple containers
 
