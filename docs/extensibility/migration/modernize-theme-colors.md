@@ -11,6 +11,7 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: extensibility-integration
+monikerRange: visualstudio
 ---
 # Modernize Visual Studio theme colors
 
@@ -88,8 +89,6 @@ Here is an example of semantic, intent-first tokens from a Visual Studio 2026 th
 - **Improved accessibility:** Centralized color ramps and semantic states (Success, Caution, Critical, Attention) make contrast validation easier and more reliable.
 
 - **Better performance and maintainability:** Semantic layers replace   granular color setters, reducing maintenance overhead and improving UI quality.
-
-:::moniker range="visualstudio"
 
 ## Migrate themes to Visual Studio 2026
 
@@ -195,9 +194,6 @@ Minimal migration token overrides for a Dark based theme:
 ```
 
 3. Adjust the color values to fit the previous theme as needed.
-
-:::moniker-end
-
 
 ### Minimal token set starter for a light based theme
 

@@ -20,8 +20,6 @@
       href: migration/update-visual-studio-extension.md
     - name: Modernize theme colors
       href: migration/modernize-theme-colors.md
-    - name: Upgrade an extension
-      href: migration/update-visual-studio-extension.md
     - name: 'Example: ImageOptimizer'
       href: migration/samples.md
     - name: Targeting previous versions
