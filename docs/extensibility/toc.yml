@@ -13,7 +13,7 @@
     href: extensibility-hello-world.md
   - name: VisualStudio.Extensibility SDK (Preview) >>
     href: ./visualstudio.extensibility/index.yml
-  - name: Upgrade extensions
+  - name: Upgrade extensions for Visual Studio
     expanded: true
     items:
     - name: Upgrade an extension
