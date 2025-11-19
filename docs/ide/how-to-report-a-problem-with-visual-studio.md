@@ -71,6 +71,8 @@ Here are the steps to report a problem.
 
 1. The last step is to hit the **Submit** button. Submitting the report will send it directly into the internal Visual Studio bug reporting system awaiting triage.
 
+You will recieve email updates about your ticket. After submitting the ticket, you can go to the [Home page](https://developercommunity.visualstudio.com/home) of the Developer Community site to view your feedback.
+
 Each one of your problem reports becomes a work item in our core engineering system, empowering you to engage directly with our product teams to help us identify and resolve impactful issues. Your feedback submitted with rich diagnostic information is critical to improving the Visual Studio product family. We really appreciate you taking the time to report problems.
 
 In addition, you can vote on feedback from other community members to bring more attention to a problem and help fix it faster.
