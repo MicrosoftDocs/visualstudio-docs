@@ -3,12 +3,18 @@ title: Understanding the product keys offered in your Visual Studio subscription
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 11/11/2025
+ms.date: 11/19/2025
 ms.topic: how-to
 description: Obtain and manage your product keys in Visual Studio subscriptions for products that require keys for installation or activation.
 ---
 
 # Understanding the product keys offered in your Visual Studio subscription
+
+## What's on this page
+
++ ***Where to Get Keys:*** *Steps to locate and claim product keys in the Visual Studio Subscriptions portal.*
++ ***Types of Keys Explained:*** *Overview of Retail, MAK, Static, OEM, and other key types with their intended uses.*
++ ***Managing Keys:*** *Guidance on activation limits, exporting keys before subscription ends, and best practices for* reimaging scenarios.
 
 Visual Studio subscriptions provide access to a wide range of Microsoft products for designing, developing, testing, and demonstrating applications. Some of these products require product keys during installation, and some of those products require activation.
 
