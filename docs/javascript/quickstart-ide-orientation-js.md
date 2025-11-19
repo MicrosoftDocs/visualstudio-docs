@@ -129,7 +129,7 @@ The Search box is a quick and easy way to do pretty much anything in Visual Stud
 
    The **Options** pane opens to the **All Settings** > **Projects and Solutions** > **Build and Run** section.
 
-3. Use the dropdown and set **MSBuild project build output verbosity** option to **Normal**, and then click **OK**.
+3. Use the dropdown and set the **MSBuild project build output verbosity** option to **Normal**.
 
 ::: moniker-end
 ::: moniker range="vs-2022"
@@ -153,7 +153,7 @@ The Search box is a quick and easy way to do pretty much anything in Visual Stud
 
 ::: moniker range="<=vs-2022"
 
-3. Use the dropdown and set **MSBuild project build output verbosity** option to **Normal**, and then select **OK**.
+3. Use the dropdown and set the **MSBuild project build output verbosity** option to **Normal**, and then select **OK**.
 
 ::: moniker-end
 
