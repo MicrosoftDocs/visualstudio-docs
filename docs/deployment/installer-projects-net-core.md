@@ -58,7 +58,13 @@ To learn more about these deployment strategies, see [.NET application publishin
 
 - To create a self-contained installer, set the **PublishProfilePath** property on the **Publish Items** node in the Setup project, using the relative path of a publish profile with the correct properties set.
 
-  ::: moniker range=">= vs-2022"
+  :::moniker range="visualstudio"
+
+    :::image type="content" source="../deployment/media/visualstudio/installer-projects-net-core-publish-profile.png" border="false" alt-text="Screenshot that shows how to set the publish profile on the Publish Items project output item." lightbox="../deployment/media/visualstudio/installer-projects-net-core-publish-profile.png":::    
+  
+  :::moniker-end
+
+  ::: moniker range="vs-2022"
   :::image type="content" source="../deployment/media/vs-2022/installer-projects-net-core-publish-profile.png" border="false" alt-text="Screenshot that shows setting the publish profile on the Publish Items project output item." lightbox="../deployment/media/vs-2022/installer-projects-net-core-publish-profile.png":::
   ::: moniker-end
   ::: moniker range="vs-2019"
@@ -74,7 +80,17 @@ To learn more about these deployment strategies, see [.NET application publishin
 
 If you would like your installer to be able to install the necessary runtime for a framework-dependent .NET Core 3.1 or .NET 5.0+ app, you can do this using [prerequisites](../deployment/application-deployment-prerequisites.md).  From the properties dialog of your installer project, open the **Prerequisites...** dialog and you'll see the following entries:
 
+ :::moniker range="visualstudio"
+
+ :::image type="content" source="../deployment/media/visualstudio/installer-projects-net-core-prerequisites.png" border="false" alt-text="Screenshot that shows the Prerequisites dialog." lightbox="../deployment/media/visualstudio/installer-projects-net-core-prerequisites.png":::    
+  
+ :::moniker-end
+
+::: moniker range="vs-2022"
+
 ![.NET Core items in the Prerequisites dialog](../deployment/media/installer-projects-net-core-prerequisites.png ".NET Core Prerequisites")
+
+:::moniker-end
 
 The **.NET Core Runtime...** option should be selected for console applications, **.NET Desktop Runtime...** should be selected for WPF and WinForms applications.
 
