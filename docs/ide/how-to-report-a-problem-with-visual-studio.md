@@ -32,7 +32,7 @@ Here are the steps to report a problem.
 
     ![Report a problem](../ide/media/visualstudio/feedback-report.png)
 
-1. Select a category for the bug.
+1. Select a category for the problem.
 
 1. Start entering a description of the problem.
 
