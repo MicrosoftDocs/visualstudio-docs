@@ -34,7 +34,17 @@ This article describes how to show or hide line numbers in your code.
 
    :::image type="content" source="./media/visualstudio/line-numbers-option.png" alt-text="Screenshot that shows how to enable line numbering for a specific language.":::
 
-You can also configure line numbering for all supported programming languages. Expand the **All Settings** > **Languages** > **Defaults** > **General** section and select or clear the **Line numbers** option.
+You can also configure line numbering for all supported programming languages. There are several methods to access the default global setting:
+
+- In the **Tools** > **Options** pane, expand the **All Settings** > **Languages** > **Defaults** > **General** section. The **Line numbers** setting on this page is the global option for all supported languages.
+
+- Use the Visual Studio [Search box](../visual-studio-search.md). Select **Ctrl**+**Q** to open the Search box, and enter _line numbers_. In the results list, double-click the **Line numbers** (languages.defaults.general.lineNumbers) entry. 
+
+   :::image type="content" source="media/visualstudio/line-numbers-search-box.png" alt-text="Screenshot that shows how to use the Search feature to configure the default line numbers setting.":::
+
+   The **Options** pane opens to the section that contains the global **Line numbers** option.
+
+- In the **Options** pane, enter _line numbers_ in the Search box above the navigation tree. The tree refreshes to show the section that contains the global option. Select the section to go to the **Options** page that contains the global **Line numbers** option.
 
 :::moniker-end
 :::moniker range="<=vs-2022"
@@ -51,26 +61,20 @@ You can also configure line numbering for all supported programming languages. E
 
 1. Select **OK**.
 
-You can also configure line numbering for all supported programming languages. Expand the **Text Editor** > **All Languages** > **General** section and select or clear the **Line numbers** option.
+You can also configure line numbering for all supported programming languages. There are several methods to access the default global setting:
 
-:::moniker-end
+- In the **Tools** > **Options** dialog, expand the **Text Editor** > **All Languages** > **General** section. The **Line numbers** setting on this page is the global option for all supported languages.
 
-Another way to access the **Line numbers** option for all supported programming languages is to use the Visual Studio [Search](../visual-studio-search.md) feature.
-
-1. Select **Ctrl**+**Q** to open the Search box, and enter _line numbers_.
-
-:::moniker range="visualstudio"
-
-2. In the results list, double-click the **Line numbers** (languages.defaults.general.lineNumbers) entry.
-
-   :::image type="content" source="media/visualstudio/line-numbers-search-box.png" alt-text="Screenshot that shows how to use the Search feature to configure the default line numbers setting.":::
-
-:::moniker-end
-:::moniker range="<=vs-2022"
-
-2. In the results list, double-click the **Turn line numbers on or off** entry.
+- Use the Visual Studio [Search box](../visual-studio-search.md). Select **Ctrl**+**Q** to open the Search box, and enter _line numbers_. In the results list, double-click the **Turn line numbers on or off** entry.
 
    :::image type="content" source="media/line-numbers-search-box.png" alt-text="Screenshot that shows how to use the Search feature to configure line numbers for all programming languages.":::
+
+   The **Options** pane opens to the section that contains the global **Line numbers** option.
+
+:::moniker-end
+:::moniker range="vs-2022"
+
+- In the **Options** dialog, enter _line numbers_ in the Search box above the navigation tree. The tree refreshes to show the section that contains the global option. Select the section to go to the **Options** page that contains the global **Line numbers** option.
 
 :::moniker-end
 
