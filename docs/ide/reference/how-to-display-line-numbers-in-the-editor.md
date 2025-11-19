@@ -28,7 +28,7 @@ This article describes how to show or hide line numbers in your code.
 
 1. Open the **Tools** > **Options** pane, and expand the **All Settings** > **Languages** section.
 
-1. Expand the language section you're using (such as **C#** or **Visual Basic**) and then expand the **General** section.
+1. Expand the language section you're using (such as **C#** or **Visual Basic**), and then expand the **General** section.
 
 1. Select the **Line numbers** checkbox to show line numbers, or clear the checkbox to hide line numbers.
 
@@ -43,7 +43,7 @@ You can also configure line numbering for all supported programming languages. E
 
 1. In the **Options** dialog, expand the **Text Editor** section.
 
-1. Expand the language section you're using (such as **C#** or **Visual Basic**) and then expand the **General** section.
+1. Expand the language section you're using (such as **C#** or **Visual Basic**), and then expand the **General** section.
 
 1. Select the **Line numbers** checkbox to show line numbers, or clear the checkbox to hide line numbers.
 
@@ -57,7 +57,7 @@ You can also configure line numbering for all supported programming languages. E
 
 Another way to access the **Line numbers** option for all supported programming languages is to use the Visual Studio [Search](../visual-studio-search.md) feature.
 
-1. Select **Ctrl**+**q** to open the Search box, and enter _line numbers_.
+1. Select **Ctrl**+**Q** to open the Search box, and enter _line numbers_.
 
 :::moniker range="visualstudio"
 
