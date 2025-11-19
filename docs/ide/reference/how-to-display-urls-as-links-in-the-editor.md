@@ -1,7 +1,7 @@
 ---
 title: 'Display URLs as Links in the Editor'
 description: Display URLs in your code as active links in the Visual Studio Code Editor and enable link underlining, tooltips, and keyboard quick access functions.
-ms.date: 11/18/2024
+ms.date: 11/19/2025
 ms.topic: how-to
 helpviewer_keywords:
 - URLs, opening
@@ -25,17 +25,30 @@ You can choose to have the Code Editor treat Uniform Resource Locators (URLs) in
 
 ## Display URLs as links
 
-1. On the **Tools** menu, click **Options**.
+:::moniker range="visualstudio"
 
-2. Click **Text Editor**.
+1. Open the **Tools** > **Options** pane, and expand the **All Settings** > **Languages** section.
 
-3. To change the option for only one language, expand the folder for that language and choose **General**.
+1. Expand the language section you're using (such as **C#** or **Visual Basic**) and then expand the **General** section.
 
-     —or—
+1. Select the **Enable single-click URL navigation** checkbox.
 
-     To change the option for all languages, expand the **All Languages** folder and choose **General**.
+You can also configure URLs as links for all supported programming languages. Expand the **All Settings** > **Languages** > **Defaults** > **General** section and select or clear the **Enable single-click URL navigation** option.
 
-4. Under **Settings**, select **Enable single-click URL navigation**.
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+1. On the Visual Studio menu bar, select **Tools** > **Options**.
+
+1. In the **Options** dialog, expand the **Text Editor** section.
+
+1. Expand the language section you're using (such as **C#** or **Visual Basic**) and then expand the **General** section.
+
+1. Select the **Enable single-click URL navigation** checkbox, and then select **OK**.
+
+You can also configure URLs as links for all supported programming languages. Expand the **Text Editor** > **All Languages** > **General** section and select the **Enable single-click URL navigation** option.
+
+:::moniker-end
 
 ## Related content
 
