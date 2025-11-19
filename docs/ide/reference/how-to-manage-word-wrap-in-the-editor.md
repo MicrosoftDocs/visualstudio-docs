@@ -30,7 +30,7 @@ You can turn the **Word wrap** option on or off. When enabled, long lines that e
 
    :::image type="content" source="media/visualstudio/word-wrap-setting.png" border="false" alt-text="Screenshot that shows how to set the Word wrap option for a specific language.":::
 
-You can also configure word wrap for all supported programming languages. Expand the **All Settings** > **Languages** > **Defaults** > **General** section and select or clear the **Word wrap** option.
+   You can also configure word wrap for all supported programming languages. Expand the **All Settings** > **Languages** > **Defaults** > **General** section and select or clear the **Word wrap** option.
 
 :::moniker-end
 :::moniker range="<=vs-2022"
@@ -45,23 +45,12 @@ You can also configure word wrap for all supported programming languages. Expand
 
    :::image type="content" source="media/vs-2022/word-wrap-setting.png" border="false" alt-text="Screenshot of the word wrap option in Text Editor Settings.":::
 
-:::moniker-end
-
-   When you select the **Word wrap** option, the **Show visual glyphs for word wrap** option is automatically enabled.
-
-   > [!NOTE]
-   > The **Show visual glyphs for Word Wrap** option displays a return-arrow indicator where a long line wraps onto a second line. These reminder arrows aren't added to your code. They're for display purposes only.
-
-:::moniker range="visualstudio"
-
-You can also configure word wrap for all supported programming languages. Expand the **All Settings** > **Languages** > **Defaults** > **General** section and select or clear the **Word wrap** option.
+   You can also configure word wrap for all supported programming languages. Expand the **Text Editor** > **All Languages** > **General** section and select the **Word wrap** option.
 
 :::moniker-end
-:::moniker range="<=vs-2022"
 
-You can also configure word wrap for all supported programming languages. Expand the **Text Editor** > **All Languages** > **General** section and select the **Word wrap** option.
-
-:::moniker-end
+> [!NOTE]
+> When you select the **Word wrap** option, the **Show visual glyphs for word wrap** option is automatically enabled. You can clear the option, as needed. The **Show visual glyphs for Word Wrap** option displays a return-arrow indicator where a long line wraps onto a second line. These reminder arrows aren't added to your code. They're for display purposes only.
 
 ## To indent word wrap
 
@@ -71,16 +60,16 @@ To change word wrap indentation:
 
 :::moniker range="visualstudio"
 
-1. In the **Tools** > **Options** pane, expand the **All Settings** > **Text Editor** > **General** section.
+1. In the **Tools** > **Options** pane, expand the **All Settings** > **Text Editor** > **General** > **Display** section.
 
-1. In the **Display** group, select or clear the **Automatically indent when word wrap is enabled** checkbox.
+1. Select or clear the **Automatically indent when word wrap is enabled** checkbox.
 
 :::moniker-end
 :::moniker range="<=vs-2022"
 
 1. In the **Tools** > **Options** dialog, expand the **Text Editor** > **General** section.
 
-1. In the **Display** group, select or clear the **Automatically indent when word wrap is enabled** checkbox, and then select *OK**.
+1. In the **Display** group, select or clear the **Automatically indent when word wrap is enabled** checkbox, and then select **OK**.
 
 :::moniker-end
 
