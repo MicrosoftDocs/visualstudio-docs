@@ -21,9 +21,9 @@ This refactoring applies to:
 
 **What:** IntelliSense gives completion for unimported types and extension methods.
 
-**When:** You want to use a type or extension method with a dependency in your project, but the `using` statement isn't added to your file.
+**When:** You want to use a type or extension method with a dependency in your project, but the `using` directive isn't added to your file.
 
-**Why:** You don't have to manually add the `using` statement to your file.
+**Why:** You don't have to manually add the `using` directive to your file.
 
 ## How-to
 
@@ -48,7 +48,7 @@ This refactoring applies to:
 
 1. Select a suggestion and commit an unimported item.
 
-   The `using` statement is automatically added to your file.
+   The `using` directive is automatically added to your file.
 
    ![IntelliSense completion for unimported types](media/intellisense-completion-unimported-types.png)
 
