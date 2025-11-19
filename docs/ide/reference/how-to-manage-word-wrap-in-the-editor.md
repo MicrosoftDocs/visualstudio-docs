@@ -50,7 +50,7 @@ You can turn the **Word wrap** option on or off. When enabled, long lines that e
 :::moniker-end
 
 > [!NOTE]
-> When you select the **Word wrap** option, the **Show visual glyphs for word wrap** option is automatically enabled. You can clear the option, as needed. The **Show visual glyphs for Word Wrap** option displays a return-arrow indicator where a long line wraps onto a second line. These reminder arrows aren't added to your code. They're for display purposes only.
+> When you select the **Word wrap** option, the **Show visual glyphs for word wrap** option is automatically enabled. You can clear the option, as needed. The option displays a return-arrow indicator where a long line wraps onto a second line. These reminder arrows aren't added to your code. They're for display purposes only.
 
 ## To indent word wrap
 
