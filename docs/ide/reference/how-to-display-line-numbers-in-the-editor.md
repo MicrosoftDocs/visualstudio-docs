@@ -57,7 +57,7 @@ You can also configure line numbering for all supported programming languages. E
 
 Another way to access the **Line numbers** option for all supported programming languages is to use the Visual Studio [Search](../visual-studio-search.md) feature.
 
-1. Select **Ctrl**+**q** to open the Search box, and enter _line number_.
+1. Select **Ctrl**+**q** to open the Search box, and enter _line numbers_.
 
 :::moniker range="visualstudio"
 
