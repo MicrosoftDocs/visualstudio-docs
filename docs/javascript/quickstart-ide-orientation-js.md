@@ -2,7 +2,7 @@
 title: Overview of the Visual Studio IDE for JavaScript
 description: Learn about the Visual Studio integrated development environment (IDE), including the windows, menus, and other UI features most commonly used.
 titleSuffix: ""
-ms.date: 6/5/2025
+ms.date: 11/19/2025
 ms.topic: quickstart
 author: mikejo5000
 ms.author: mikejo
@@ -17,7 +17,7 @@ If you haven't installed Visual Studio, go to the [Visual Studio downloads](http
 
 ## Start window
 
-The first thing you see after you launch Visual Studio is the start window. The start window is designed to help you "get to code" faster. It has options to close or check out code, open an existing project or solution, create a new project, or simply open a folder that contains some code files. If the start window is not open, choose **File > Start Window** to open it.
+The first thing you see after you launch Visual Studio is the start window. The start window is designed to help you "get to code" faster. It has options to close or check out code, open an existing project or solution, create a new project, or simply open a folder that contains some code files. If the start window isn't open, choose **File > Start Window** to open it.
 
 ::: moniker range=">=vs-2022"
 ![Screenshot of the start window in Visual Studio 2022.](media/vs-2022/start-window.png)
@@ -117,24 +117,47 @@ Let's build the project to see some build output. From the **Build** menu, choos
 
 ## Search box
 
-The search box is a quick and easy way to do pretty much anything in Visual Studio. You can enter some text related to what you want to do, and it'll show you a list of options that pertain to the text. For example, imagine you want to increase the build output's verbosity to display additional details about what exactly build is doing. Here's how you might do that:
+The Search box is a quick and easy way to do pretty much anything in Visual Studio. You can enter some text related to what you want to do, and it'll show you a list of options that pertain to the text. For example, imagine you want to increase the build output's verbosity to display additional details about what exactly build is doing. Here's how you might do that:
 
-1. If you don't see the search box, press **Ctrl + Q** to open it.
+1. If you don't see the Search box, press **Ctrl**+**Q** to open it, and then type _verbosity_ into the box.
 
-1. Type **verbosity** into the search box. From the displayed results, choose **Projects and Solutions --> Build and Run**.
+::: moniker range="visualstudio"
 
-   ::: moniker range=">=vs-2022"
+2. From the displayed results, double-click the **MSBuild project build output verbosity** (projectsAndSolutions.buildAndRun.outputVerbosity) entry.
+
+   :::image type="content" source="media/visualstudio/quickstart-ide-quick-launch.png" border="false" alt-text="Screenshot that shows how to use the Search box in Visual Studio.":::
+
+   The **Options** pane opens to the **All Settings** > **Projects and Solutions** > **Build and Run** section.
+
+3. Use the dropdown and set **MSBuild project build output verbosity** option to **Normal**, and then click **OK**.
+
+::: moniker-end
+::: moniker range="vs-2022"
+
+2. From the displayed results, double-click the **Change MSBuild verbosity** (Projects and Solutions > Build and Run) entry.
+
    ![Screenshot of the Search box in Visual Studio.](media/vs-2022/quickstart-ide-quick-launch.png)
-   ::: moniker-end
-   ::: moniker range="<=vs-2019"
+
+   The **Options** dialog opens to the **Projects and Solutions** > **Build and Run** section.
+
+::: moniker-end
+::: moniker range="<=vs-2019"
+
+2. From the displayed results, double-click the **Change MSBuild verbosity** (Projects and Solutions > Build and Run) entry.
+
    ![Screenshot of the Search box in Visual Studio.](media/quickstart-IDE-quick-launch.png)
-   ::: moniker-end
 
-   The **Options** dialog box opens to the **Build and Run** options page.
+   The **Options** dialog opens to the **Projects and Solutions** > **Build and Run** options page.
 
-1. Under **MSBuild project build output verbosity**, choose **Normal**, and then click **OK**.
+::: moniker-end
 
-1. Build the project again by right-clicking the project in **Solution Explorer** and choosing **Rebuild** from the context menu.
+::: moniker range="<=vs-2022"
+
+3. Use the dropdown and set **MSBuild project build output verbosity** option to **Normal**, and then select **OK**.
+
+::: moniker-end
+
+4. Build the project again by right-clicking the project in **Solution Explorer** and choosing **Rebuild** from the context menu.
 
    This time the **Output** window shows more verbose logging from the build process.
 
