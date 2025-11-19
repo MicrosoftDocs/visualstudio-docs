@@ -17,7 +17,7 @@ monikerRange: '>= vs-2019'
 
 Packaging applications as an MSI is often accomplished using the Visual Studio Installer Projects Extension.
 
-This article applies to apps targeting .NET Core 3.1 and .NET 5 or later versions.
+This article applies to apps targeting .NET, that is .NET Core 3.1 and .NET 5 or later versions, not .NET Framework.
 
 You can download the extension here:
 
@@ -28,9 +28,9 @@ You can download the extension here:
 [Visual Studio Installer Projects](https://marketplace.visualstudio.com/items?itemName=VisualStudioClient.MicrosoftVisualStudio2017InstallerProjects)
 ::: moniker-end
 
-## Update for .NET Core and .NET
+## Update for .NET
 
-.NET Core and .NET 5+ have two different models for publishing.
+.NET projects have two different models for publishing.
 
 - Framework-dependent deployments
 
@@ -50,9 +50,9 @@ To learn more about these deployment strategies, see [.NET application publishin
 
    For information on deployment properties, see [Deployment properties](/previous-versions/visualstudio/visual-studio-2010/seykw6dt(v=vs.100)).
 
-### Workflow changes for .NET Core 3.1 and .NET 5 or later
+### Workflow changes for .NET
 
-- To get the correct output for .NET Core 3.1 and .NET 5.0 or later projects, select **Publish Items** instead of **Primary Output** in the **Add Project Output Group** dialog box.  To open this dialog, select **Add** > **Project Output...** from the Setup project's context menu.
+- To get the correct output for .NET projects, select **Publish Items** instead of **Primary Output** in the **Add Project Output Group** dialog box.  To open this dialog, select **Add** > **Project Output...** from the Setup project's context menu.
 
   ![The Publish Items output group in the Add Project Output Group dialog](../deployment/media/installer-projects-net-core-publish-items-output.png "Pick Publish Items")
 
@@ -78,7 +78,7 @@ To learn more about these deployment strategies, see [.NET application publishin
 
 ### Prerequisites
 
-If you would like your installer to be able to install the necessary runtime for a framework-dependent .NET Core 3.1 or .NET 5.0+ app, you can do this using [prerequisites](../deployment/application-deployment-prerequisites.md).  From the properties dialog of your installer project, open the **Prerequisites...** dialog and you'll see the following entries:
+If you would like your installer to be able to install the necessary runtime for a framework-dependent .NET app, you can do this using [prerequisites](../deployment/application-deployment-prerequisites.md).  From the properties dialog of your installer project, open the **Prerequisites...** dialog and you'll see the following entries:
 
  :::moniker range="visualstudio"
 
