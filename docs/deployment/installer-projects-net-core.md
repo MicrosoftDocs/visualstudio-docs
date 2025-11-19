@@ -82,11 +82,11 @@ If you would like your installer to be able to install the necessary runtime for
 
  :::moniker range="visualstudio"
 
- :::image type="content" source="../deployment/media/visualstudio/installer-projects-net-core-prerequisites.png" border="false" alt-text="Screenshot that shows the Prerequisites dialog." lightbox="../deployment/media/visualstudio/installer-projects-net-core-prerequisites.png":::    
+ :::image type="content" source="../deployment/media/visualstudio/installer-projects-net-core-prerequisites.png" border="false" alt-text="Screenshot that shows the Prerequisites dialog.":::    
   
  :::moniker-end
 
-::: moniker range="vs-2022"
+::: moniker range="<=vs-2022"
 
 ![.NET Core items in the Prerequisites dialog](../deployment/media/installer-projects-net-core-prerequisites.png ".NET Core Prerequisites")
 
