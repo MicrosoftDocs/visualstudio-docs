@@ -23,7 +23,7 @@ Many organizations are large and complex, so you might not be aware of who your 
 1. Sign in to the subscription portal at <https://my.visualstudio.com>.
 2. Select the **Contact my Admin** button. 
    > [!div class="mx-imgBorder"]
-   > ![Screenshot of the benefits page in the subscription portal. The Contact my admin button is highlighted.](_img/contact-my-admin/contact-my-admin-button.png "The Contact My Admin button allows you to contact your company's subscription admins.")
+   > [![Screenshot of the benefits page in the subscription portal. The Contact my admin button is highlighted.](_img/contact-my-admin/contact-my-admin-button-revised.png "The Contact My Admin button allows you to contact your company's subscription admins.")](_img/contact-my-admin/contact-my-admin-button-revised.png#lightbox)
 0. Enter the message for your admin.
 0. If you'd like to receive a copy of the message sent to your admin, choose the **Send me a copy** checkbox. 
 0. Finally, select **Send**.
