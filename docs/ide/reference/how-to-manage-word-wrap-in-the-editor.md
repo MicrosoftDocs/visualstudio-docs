@@ -1,7 +1,7 @@
 ---
 title: Toggle word wrap to see long code or line numbers
 description: Enable word wrapping to display code on multiple lines, or turn the feature off to see line numbers.
-ms.date: 07/28/2025
+ms.date: 11/19/2025
 ms.topic: how-to
 helpviewer_keywords:
 - word wrap
@@ -20,31 +20,71 @@ You can turn the **Word wrap** option on or off. When enabled, long lines that e
 
 ## To set word wrap preferences
 
-1. Select **Tools** > **Options**.
-1. Select **Text Editor** > **All Languages** > **General** to set this option globally.
+:::moniker range="visualstudio"
 
-   — or —
+1. Open the **Tools** > **Options** pane, and expand the **All Settings** > **Languages** section.
 
-   Select **Text Editor** > Programming language that you're using, for example, **C#** > **General**.
-1. Under **Settings**, select or clear the **Word wrap** option.
+1. Expand the language section you're using (such as **C#** or **Visual Basic**) and then expand the **General** section.
 
-   When you select the **Word wrap** option, the **Show visual glyphs for word wrap** option is enabled.
+1. Select or clear the **Word wrap** checkbox.
 
-   :::image type="content" source="media/vs-2022/word-wrap-setting.png" alt-text="Screenshot of the word wrap option in Text Editor Settings." lightbox="media/vs-2022/word-wrap-setting.png":::
+   :::image type="content" source="media/visualstudio/word-wrap-setting.png" border="false" alt-text="Screenshot that shows how to set the Word wrap option for a specific language.":::
+
+You can also configure word wrap for all supported programming languages. Expand the **All Settings** > **Languages** > **Defaults** > **General** section and select or clear the **Word wrap** option.
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+1. On the Visual Studio menu bar, select **Tools** > **Options**.
+
+1. In the **Options** dialog, expand the **Text Editor** section.
+
+1. Expand the language section you're using (such as **C#** or **Visual Basic**) and then expand the **General** section.
+
+1. Select or clear the **Word wrap** checkbox, and then select **OK**.
+
+   :::image type="content" source="media/vs-2022/word-wrap-setting.png" border="false" alt-text="Screenshot of the word wrap option in Text Editor Settings.":::
+
+:::moniker-end
+
+   When you select the **Word wrap** option, the **Show visual glyphs for word wrap** option is automatically enabled.
 
    > [!NOTE]
-   > The **Show visual glyphs for Word Wrap** option displays a return-arrow indicator where a long line wraps onto a second line. These reminder arrows are not added to your code. They are for display purposes only.
+   > The **Show visual glyphs for Word Wrap** option displays a return-arrow indicator where a long line wraps onto a second line. These reminder arrows aren't added to your code. They're for display purposes only.
+
+:::moniker range="visualstudio"
+
+You can also configure word wrap for all supported programming languages. Expand the **All Settings** > **Languages** > **Defaults** > **General** section and select or clear the **Word wrap** option.
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+You can also configure word wrap for all supported programming languages. Expand the **Text Editor** > **All Languages** > **General** section and select the **Word wrap** option.
+
+:::moniker-end
 
 ## To indent word wrap
 
-Starting with Visual Studio 17.13, you can choose whether wrapped lines in the editor should be indented.
+Starting with Visual Studio 17.13, you can choose whether to indent wrapped lines in the editor.
 
 To change word wrap indentation:
 
-1. Go to **Tools > Options > Text Editor > General**.
-1. Under **Display**, select or clear the **Automatically indent when word wrap is enabled** option.
+:::moniker range="visualstudio"
 
-By default, word wrap indentation is enabled. If you prefer your wrapped lines not be indented, simply uncheck this option.
+1. In the **Tools** > **Options** pane, expand the **All Settings** > **Text Editor** > **General** section.
+
+1. In the **Display** group, select or clear the **Automatically indent when word wrap is enabled** checkbox.
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+1. In the **Tools** > **Options** dialog, expand the **Text Editor** > **General** section.
+
+1. In the **Display** group, select or clear the **Automatically indent when word wrap is enabled** checkbox, and then select *OK**.
+
+:::moniker-end
+
+By default, word wrap indentation is enabled. If you prefer no indentation for wrapped lines, clear this option.
 Use this setting to help improve readability and maintain the desired formatting of your code.
 
 ## Known issues
