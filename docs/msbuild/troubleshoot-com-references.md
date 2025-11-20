@@ -111,22 +111,16 @@ To diagnose the specific build error, you need to see the detailed input to the 
 
 ### Verbose diagnostics
 
-Set verbose diagnostics by using the `-v:diag` switch on the MSBuild command line or in the Visual Studio IDE.
+You can set verbose diagnostics by using the `-v:diag` switch on the MSBuild command line or in the Visual Studio IDE.
 
 :::moniker range="visualstudio"
 
-1. Open the **Tools** > **Options** pane, and expand the **All Settings** > **Projects and Solutions** > **Build and Run** section.
-
-1. Use the dropdown lists and set the **MSBuild project build output verbosity** and **MSBuild project build log file verbosity** options to **Diagnostic**.
+In the **Tools** > **Options** pane, expand the **All Settings** > **Projects and Solutions** > **Build and Run** section, and set the **MSBuild project build output verbosity** and **MSBuild project build log file verbosity** options to **Diagnostic**.
 
 :::moniker-end
 :::moniker range="<=vs-2022"
       
-1. Open the **Tools** > **Options** dialog, and expand the **Projects and Solutions** > **Build and Run** section.
-
-1. Use the dropdown lists and set the **MSBuild project build output verbosity** and **MSBuild project build log file verbosity** options to **Diagnostic**.
-
-1. Select **OK**.
+In the **Tools** > **Options** dialog, expand the **Projects and Solutions** > **Build and Run** section, and set the **MSBuild project build output verbosity** and **MSBuild project build log file verbosity** options to **Diagnostic**.
 
 :::moniker-end
 
