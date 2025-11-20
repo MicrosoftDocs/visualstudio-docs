@@ -103,98 +103,6 @@ You can make a previous theme compatible with Visual Studio 2026 by merging its 
 
 2. Append the below set of tokens as the last two categories after the previous theme tokens. Make sure the category name and GUID are copied exactly as below.
 
-Minimal migration token overrides for a Light based theme:
-
-```xml
-  <Category Name="Shell" GUID="{73708ded-2d56-4aad-b8eb-73b20d3f4bff}">
-    <Color Name="AccentFillDefault">
-      <Background Type="CT_RAW" Source="FF5649B0" />
-    </Color>
-    <Color Name="AccentFillSecondary">
-      <Background Type="CT_RAW" Source="E55649B0" />
-    </Color>
-    <Color Name="AccentFillTertiary">
-      <Background Type="CT_RAW" Source="CC5649B0" />
-    </Color>
-    <Color Name="SolidBackgroundFillTertiary">
-      <Background Type="CT_RAW" Source="FFF9F9F9" />
-    </Color>
-    <Color Name="SolidBackgroundFillQuaternary">
-      <Background Type="CT_RAW" Source="FFFFFFFF" />
-    </Color>
-    <Color Name="SurfaceBackgroundFillDefault">
-      <Background Type="CT_RAW" Source="FFF9F9F9" />
-    </Color>
-    <Color Name="TextFillSecondary">
-      <Background Type="CT_RAW" Source="9E000000" />
-    </Color>
-  </Category>
-  <Category Name="ShellInternal" GUID="{5af241b7-5627-4d12-bfb1-2b67d11127d7}">
-    <Color Name="EnvironmentBackground">
-      <Background Type="CT_RAW" Source="FFEEEEEE" />
-    </Color>
-    <Color Name="EnvironmentBorder">
-      <Background Type="CT_RAW" Source="FF5649B0" />
-    </Color>
-    <Color Name="EnvironmentIndicator">
-      <Background Type="CT_RAW" Source="66757575" />
-    </Color>
-    <Color Name="EnvironmentLogo">
-      <Background Type="CT_RAW" Source="FF5649B0" />
-    </Color>
-    <Color Name="EnvironmentLayeredBackground">
-      <Background Type="CT_RAW" Source="80FFFFFF" />
-    </Color>
-  </Category>
-```
-
-Minimal migration token overrides for a Dark based theme:
-
-```xml
-<Category Name="Shell" GUID="{73708ded-2d56-4aad-b8eb-73b20d3f4bff}">
-    <Color Name="AccentFillDefault">
-      <Background Type="CT_RAW" Source="FF9184EE" />
-    </Color>
-    <Color Name="AccentFillSecondary">
-      <Background Type="CT_RAW" Source="80000000" />
-    </Color>
-    <Color Name="AccentFillTertiary">
-      <Background Type="CT_RAW" Source="CC9184EE" />
-    </Color>
-    <Color Name="SolidBackgroundFillTertiary">
-      <Background Type="CT_RAW" Source="FF282828" />
-    </Color>
-    <Color Name="SolidBackgroundFillQuaternary">
-      <Background Type="CT_RAW" Source="FF2C2C2C" />
-    </Color>
-    <Color Name="SurfaceBackgroundFillDefault">
-      <Background Type="CT_RAW" Source="FF2C2C2C" />
-    </Color>
-    <Color Name="TextFillSecondary">
-      <Background Type="CT_RAW" Source="C8FFFFFF" />
-    </Color>
-  </Category>
-  <Category Name="ShellInternal" GUID="{5af241b7-5627-4d12-bfb1-2b67d11127d7}">
-    <Color Name="EnvironmentBackground">
-      <Background Type="CT_RAW" Source="FF1C1C1C" />
-    </Color>
-    <Color Name="EnvironmentBorder">
-      <Background Type="CT_RAW" Source="FF9184EE" />
-    </Color>
-    <Color Name="EnvironmentIndicator">
-      <Background Type="CT_RAW" Source="66757575" />
-    </Color>
-    <Color Name="EnvironmentLogo">
-      <Background Type="CT_RAW" Source="FF9184EE" />
-    </Color>
-    <Color Name="EnvironmentLayeredBackground">
-      <Background Type="CT_RAW" Source="4D3A3A3A" />
-    </Color>
-  </Category>
-```
-
-3. Adjust the color values to fit the previous theme as needed.
-
 ### Minimal token set starter for a light-based theme
 
 <!-- Minimal compatibility section to append to an existing light based .vstheme -->
@@ -294,6 +202,8 @@ Minimal migration token overrides for a Dark based theme:
 </Category>
 </Theme>
 ```
+
+3. Adjust the color values to fit the previous theme as needed.
 
 ## FAQ
 
