@@ -24,7 +24,7 @@ If the GitHub Copilot badge in the upper-right corner of the Visual Studio envir
 
 :::moniker-end
 
-:::moniker range="vs-2022"
+:::moniker range="<=vs-2022"
 
 :::image type="content" source="media/vs-2022/copilot-inbox/copilot-error.png" alt-text="Screenshot of copilot unreachable error." lightbox="media/vs-2022/copilot-inbox/copilot-error.png":::
 
@@ -62,7 +62,7 @@ Occasionally, you may need to refresh your credentials due to expected timeouts.
 
 :::moniker-end
 
-:::moniker range="vs-2022"
+:::moniker range="<=vs-2022"
 
 **Action:** Select **"Refresh your credentials"** from the Copilot badge in the upper-right corner of your Visual Studio environment to reauthenticate your GitHub account and sign in again.
 
@@ -79,7 +79,7 @@ Your administrator may have disabled GitHub Copilot for individual or any Copilo
 
 **Action:** Contact your IT department to confirm whether your admin has disabled Copilot.
 
-:::moniker range="vs-2022"
+:::moniker range="<=vs-2022"
 
 :::image type="content" source="media/vs-2022/copilot-inbox/copilot-disable-badge.png "alt-text="Screenshot of code suggestions in new file in the editor." lightbox="media/vs-2022/copilot-inbox/copilot-disable-badge.png":::
 
