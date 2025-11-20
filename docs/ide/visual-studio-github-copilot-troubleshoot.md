@@ -58,7 +58,7 @@ Occasionally, you may need to refresh your credentials due to expected timeouts.
 
 :::moniker range="visualstudio"
 
-**Action:** Select **"Refresh credentials"** in the **Git Copilot Chat** pane to reauthenticate your GitHub account and sign in again.
+**Action:** Select **Refresh credentials** in the **Git Copilot Chat** pane to reauthenticate your GitHub account and sign in again.
 
 :::image type="content" source="media/visualstudio/copilot-refresh-credentials.png "alt-text="Screenshot that shows the Refresh credentials button.":::
 
