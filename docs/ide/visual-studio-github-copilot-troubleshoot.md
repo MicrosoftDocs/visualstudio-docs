@@ -18,7 +18,17 @@ This troubleshooting guide includes steps for resolving GitHub Copilot issues in
 
 If the GitHub Copilot badge in the upper-right corner of the Visual Studio environment displays the message **Copilot is temporarily unreachable**, it means GitHub Copilot is currently offline.
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/copilot-error.png" alt-text="Screenshot that shows the Copilot unreachable error." lightbox="media/visualstudio/copilot-error.png":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 :::image type="content" source="media/vs-2022/copilot-inbox/copilot-error.png" alt-text="Screenshot of copilot unreachable error." lightbox="media/vs-2022/copilot-inbox/copilot-error.png":::
+
+:::moniker-end
 
 GitHub Copilot may be offline due to one of the following reasons:
 - Network issues
@@ -44,9 +54,21 @@ The GitHub Copilot service may be temporarily down.
 
 Occasionally, you may need to refresh your credentials due to expected timeouts.
 
+:::moniker range="visualstudio"
+
+**Action:** Select **"Refresh credentials"** in the **Git Copilot Chat** pane to reauthenticate your GitHub account and sign in again.
+
+:::image type="content" source="media/visualstudio/copilot-refresh-credentials.png "alt-text="Screenshot that shows the Refresh credentials button." lightbox="media/visualstudio/copilot-refresh-credentials.png":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 **Action:** Select **"Refresh your credentials"** from the Copilot badge in the upper-right corner of your Visual Studio environment to reauthenticate your GitHub account and sign in again.
 
 :::image type="content" source="media/vs-2022/copilot-inbox/copilot-refresh-credentials.png "alt-text="Screenshot of Refresh your credentials option." lightbox="media/vs-2022/copilot-inbox/copilot-refresh-credentials.png":::
+
+:::moniker-end
 
 > [!NOTE]
 > **Known issue:** If you don’t see the option to refresh your credentials for the GitHub account in the  **All Accounts** window, you can resolve this by removing and re-adding your GitHub account. For more information, refer to the  [Dev Community ticket](https://developercommunity.visualstudio.com/t/Copilot-badge-refresh-credentials-not-wo/10667230?q=refresh+credentials) related to this issue.
@@ -57,7 +79,17 @@ Your administrator may have disabled GitHub Copilot for individual or any Copilo
 
 **Action:** Contact your IT department to confirm whether your admin has disabled Copilot.
 
+:::moniker range="vs-2022"
+
 :::image type="content" source="media/vs-2022/copilot-inbox/copilot-disable-badge.png "alt-text="Screenshot of code suggestions in new file in the editor." lightbox="media/vs-2022/copilot-inbox/copilot-disable-badge.png":::
+
+:::moniker-end
+
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/copilot-disable-badge.png "alt-text="Screenshot that shows the Copilot is disabled message." lightbox="media/visualstudio/copilot-disable-badge.png":::
+
+:::moniker-end
 
 ## Send feedback
 
