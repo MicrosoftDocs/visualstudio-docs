@@ -18,7 +18,7 @@ The Performance Profiler and Diagnostic Tools window in Visual Studio have many 
 
 :::moniker range="visualstudio"
 
-The symbols settings for the debugger significantly affect on how long it takes to generate results in the tools. You can configure the options in the **Tools** > **Options** pane, under the **All Settings** > **Debugging** > **Symbols** section. 
+The symbols settings for the debugger significantly affect on how long it takes to generate results in the tools. You can configure the options in the **Tools** > **Options** pane, under the **All Settings** > **Debugging** > **Symbols** > **Search Locations** section. 
 
 :::moniker-end
 :::moniker range="<=vs-2022"
@@ -27,9 +27,18 @@ The symbols settings for the debugger significantly affect on how long it takes 
 
 :::moniker-end
 
-Enabling symbol servers or using the **_NT_SYMBOL_PATH** causes the profiler to request symbols for each loaded module in a report. Currently, the profiler always automatically loads all symbols regardless of the automatic symbol loading preference.
+Enabling symbol servers or using the **_NT_SYMBOL_PATH** variable causes the profiler to request symbols for each loaded module in a report. Currently, the profiler always automatically loads all symbols regardless of the automatic symbol loading preference.
 
-![Symbol loading page](../profiling/media/symbolloading.png "Symbol Loading")
+:::moniker range="visualstudio"
+
+:::image type="content" source="./media/visualstudio/symbol-loading-search-locations.png" border="false" alt-text="Screenshot that shows the Tools, Options, All Settings, Debugging, Symbols, Search Locations options.":::
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+:::image type="content" source="./media/symbolloading.png" border="false" alt-text="Screenshot that shows the Tools, Options, Debugging, Symbol loading options.":::
+
+:::moniker-end
 
 Progress on symbol loading can be seen in the **Output** window under the **Diagnostic Tools** heading.
 
