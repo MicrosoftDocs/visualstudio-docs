@@ -22,7 +22,17 @@ In this article, you learn how to manage your GitHub Copilot installation and st
 1. Select any workload, for example, **.NET desktop development**.
 1. In the list of **Optional** components, make sure **GitHub Copilot** is selected, then choose **Modify** to install the extension.
 
-   :::image type="content" source="media/vs-2022/visual-studio-github-copilot-extension/github-copilot-installer-component.png" alt-text="Screenshot that shows using the Visual Studio Installer to install the GitHub Copilot component." lightbox="media/vs-2022/visual-studio-github-copilot-extension/github-copilot-installer-component.png":::
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/github-copilot-installer-component.png" alt-text="Screenshot that shows how to use the Visual Studio Installer to install the GitHub Copilot component." lightbox="media/visualstudio/github-copilot-installer-component.png":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
+:::image type="content" source="media/vs-2022/visual-studio-github-copilot-extension/github-copilot-installer-component.png" alt-text="Screenshot that shows using the Visual Studio Installer to install the GitHub Copilot component." lightbox="media/vs-2022/visual-studio-github-copilot-extension/github-copilot-installer-component.png":::
+
+:::moniker-end
 
     > [!NOTE]
     > In versions 17.9 or earlier, you'll use the **Manage Extensions** dialog to manage updates to the GitHub Copilot extension.
