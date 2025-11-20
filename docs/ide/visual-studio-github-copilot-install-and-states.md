@@ -34,8 +34,8 @@ In this article, you learn how to manage your GitHub Copilot installation and st
 
 :::moniker-end
 
-    > [!NOTE]
-    > In versions 17.9 or earlier, you'll use the **Manage Extensions** dialog to manage updates to the GitHub Copilot extension.
+> [!NOTE]
+> In versions 17.9 or earlier, you'll use the **Manage Extensions** dialog to manage updates to the GitHub Copilot extension.
 
 ## Manage your Copilot state 
 
@@ -49,7 +49,17 @@ With Visual Studio 2022 version 17.10 or later, there's a Copilot status icon in
 Copilot is in an active state and fully functional if you [signed into Visual Studio using a GitHub account](work-with-github-accounts.md) with [Copilot access](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot).
 Using the dropdown menu, you can easily open the Chat window, access Copilot settings, and manage Copilot subscription.
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/copilot-state-active.png" alt-text="Screenshot that shows the Copilot badge when Copilot is in active state.":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 :::image type="content" source="media/vs-2022/visual-studio-github-copilot-install-and-states/copilot-state-active.png" alt-text="Screenshot of Copilot badge when Copilot is in active state.":::
+
+:::moniker-end
 
 ### Copilot is inactive
 
