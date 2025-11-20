@@ -1,7 +1,7 @@
 ---
 title: Manage GitHub Copilot installation and state
 description: Learn how to install and manage Copilot in Visual Studio. Use the Copilot badge in the IDE to access options to manage or troubleshoot your Copilot state. 
-ms.date: 8/29/2025
+ms.date: 11/20/2025
 ms.update-cycle: 180-days
 ms.topic: install-set-up-deploy
 author: anandmeg
@@ -9,7 +9,6 @@ ms.author: meghaanand
 ms.manager: mijacobs
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot 
-monikerRange: '>= vs-2022'
 ms.custom: copilot-learning-hub
 ---
 # Manage GitHub Copilot installation and state
