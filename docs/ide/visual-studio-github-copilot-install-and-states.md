@@ -76,9 +76,21 @@ If [Copilot is disabled by your administrator](visual-studio-github-copilot-trou
 
 If Copilot is installed but unavailable for use, it may be due to [network connectivity issues](visual-studio-github-copilot-troubleshoot.md#network-issues), [server-side technical problems](visual-studio-github-copilot-troubleshoot.md#copilot-service-is-unavailable), or an expired service plan. In this state, Copilot doesn't provide its usual services until the external issues are resolved.
 
+:::moniker range="visualstudio"
+
+Select **Copilot is unreachable** in the dropdown menu to open the **Troubleshooting** page on diagnosing and resolving common network errors with GitHub Copilot. When the issue is resolved and you're signed in with an active subscription, the Copilot status icon updates to [active](#copilot-is-active).
+
+:::image type="content" source="media/visualstudio/copilot-state-unavailable.png" alt-text="Screenshot that shows the Check Troubleshooting Page menu item.":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 Select **Copilot is unreachable** in the dropdown menu to open the **Troubleshooting** page on diagnosing and resolving common network errors with GitHub Copilot. When the issue is resolved and you're signed in with an active subscription, the Copilot status icon updates to [active](#copilot-is-active).
 
 :::image type="content" source="media/vs-2022/visual-studio-github-copilot-install-and-states/copilot-state-unavailable.png" alt-text="Screenshot of Copilot badge when Copilot is unavailable.":::
+
+:::moniker-end
 
 ### Copilot not installed
 
