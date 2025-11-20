@@ -327,7 +327,7 @@ By default, the installer program tries to match the language of the operating s
 
 ::: moniker range="visualstudio"
 
-  :::image type="content" source="media/visualstudio/vs-installer-language-packs.png" alt-text="Screenshot showing the Language packs tab of the Visual Studio Installer." lightbox="media/vs-2022/vs-installer-language-packs.png":::
+  :::image type="content" source="media/visualstudio/vs-installer-language-packs.png" alt-text="Screenshot showing the Language packs tab of the Visual Studio Installer." lightbox="media/visualstudio/vs-installer-language-packs.png":::
 
 ::: moniker-end
 
