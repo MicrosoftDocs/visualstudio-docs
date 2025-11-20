@@ -20,7 +20,7 @@ If you see message **Copilot is temporarily unreachable** when you hover the mou
 
 :::moniker range="visualstudio"
 
-:::image type="content" source="media/visualstudio/copilot-error.png" alt-text="Screenshot that shows the Copilot unreachable error." lightbox="media/visualstudio/copilot-error.png":::
+:::image type="content" source="media/visualstudio/copilot-error.png" alt-text="Screenshot that shows the Copilot unreachable error.":::
 
 :::moniker-end
 
@@ -60,7 +60,7 @@ Occasionally, you may need to refresh your credentials due to expected timeouts.
 
 **Action:** Select **"Refresh credentials"** in the **Git Copilot Chat** pane to reauthenticate your GitHub account and sign in again.
 
-:::image type="content" source="media/visualstudio/copilot-refresh-credentials.png "alt-text="Screenshot that shows the Refresh credentials button." lightbox="media/visualstudio/copilot-refresh-credentials.png":::
+:::image type="content" source="media/visualstudio/copilot-refresh-credentials.png "alt-text="Screenshot that shows the Refresh credentials button.":::
 
 :::moniker-end
 
@@ -89,7 +89,7 @@ Your administrator may have disabled GitHub Copilot for individual or any Copilo
 
 :::moniker range="visualstudio"
 
-:::image type="content" source="media/visualstudio/copilot-disable-badge.png "alt-text="Screenshot that shows the Copilot is disabled message." lightbox="media/visualstudio/copilot-disable-badge.png":::
+:::image type="content" source="media/visualstudio/copilot-disable-badge.png "alt-text="Screenshot that shows the Copilot is disabled message.":::
 
 :::moniker-end
 
