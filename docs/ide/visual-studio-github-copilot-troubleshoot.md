@@ -19,6 +19,7 @@ This troubleshooting guide includes steps for resolving GitHub Copilot issues in
 :::moniker range="visualstudio"
 
 If you see the message **Copilot is temporarily unreachable** when you hover the mouse pointer over the GitHub Copilot badge in the upper-right corner of Visual Studio, GitHub Copilot is currently offline.
+
 :::image type="content" source="media/visualstudio/copilot-error.png" alt-text="Screenshot that shows the Copilot unreachable error.":::
 
 :::moniker-end
