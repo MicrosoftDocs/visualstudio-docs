@@ -3,7 +3,7 @@ title: Troubleshooting suggestions for signing in to Visual Studio subscriptions
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 07/24/2025
+ms.date: 11/19/2025
 ms.topic: troubleshooting-general
 description: Review potential sign-in troubleshooting steps for Visual Studio subscriptions, including Microsoft Accounts (MSA) limitations, failures due to aliases or deleted addresses.
 ms.custom: sfi-image-nochange
@@ -86,7 +86,7 @@ If your admin changes the sign-in email address on your subscription, you should
 | Benefit Name | Use updated email address? | If subscriber hasn't activated the benefit yet | If subscriber activated with the previous sign-in email address | If the subscriber is using an alternate email address | 
 | ------------------------ | -------------------------- |--------------------------------- | --------------------------- |------------------------------------ |
 | Power BI Pro <br>Microsoft 365 apps for Enterprise <br>DataCamp - 3-month subscription <br>CODE Magazine | No | Use new sign-in email address to | Continue using the old email address for access. | N/A |
-| Pluralsight <br>LinkedIn Learning <br>Dometrain <br>DevForge | No | Access can be created using any email address. Once it's created, it will not change even if an admin updates the subscriber's sign in email. | Access can be created using any email address. Once it's created, it will not change even if an admin updates the subscriber's sign in email. | Access can be created using any email address. Once it's created, it will not change even if an admin updates the subscriber's sign in email. |
+| Pluralsight <br>Cloud Academy <br>Dometrain <br>DevForge | No | Access can be created using any email address. Once it's created, it will not change even if an admin updates the subscriber's sign in email. | Access can be created using any email address. Once it's created, it will not change even if an admin updates the subscriber's sign in email. | Access can be created using any email address. Once it's created, it will not change even if an admin updates the subscriber's sign in email. |
 | Visual Studio LIVE! Events discount  | No | No email address is needed. | No email address is needed. | No email address is needed. |
 | GitHub Enterprise  | No\* | This benefit is set up by the GitHub admin in your org. Subscribers should use the email address where their invitation was sent. | This benefit is set up by the GitHub admin in your org. Subscribers should use the email address where their invitation was sent. | This benefit is set up by the GitHub admin in your org. Subscribers should use the email address where their invitation was sent.             |
 | Visual Studio IDE <br>Azure DevOps <br>Azure dev/test monthly credit <br>Azure Dev/Test PAYG subscription (Unlimited) | Yes | Use new sign-in email address to activate. | Use the new sign-in email address to continue accessing. | Continue using alternate email address. |
@@ -95,7 +95,7 @@ If your admin changes the sign-in email address on your subscription, you should
 ## Resources
 
 + For assistance with subscriptions, accounts, sales, and billing for Visual Studio Subscriptions, see Visual Studio [Subscriptions support](https://aka.ms/vssubscriberhelp). This link takes you to the Visual Studio Subscriptions portal, Get Help where you can scroll down and submit a support case. You might still access the Get Help tab of the Visual Studio Subscriptions portal even if you're having trouble seeing your subscription.
-+ You might also seek additional support via the Live Chat feature by visiting [Visual Studio website](https://visualstudio.microsoft.com/subscriptions/support/#talktous).
++ You might also seek extra support via the Live Chat feature by visiting [Visual Studio website](https://visualstudio.microsoft.com/subscriptions/support/#talktous).
     1. Scroll down towards the bottom of the page, expand the tab called “Visual Studio Sales, Account, Subscription, and Billing Support.”
     1. Next, choose your country/region and select “Live Chat.”
 
