@@ -1,7 +1,7 @@
 ---
 title: Use MCP Servers
 description: Learn how to add MCP servers in Visual Studio to extend GitHub Copilot agent capabilities, set up mcp.json, and manage tool permissions.
-ms.date: 11/10/2025
+ms.date: 11/21/2025
 ms.update-cycle: 180-days
 ms.topic: get-started
 author: anandmeg
@@ -9,8 +9,9 @@ ms.author: meghaanand
 ms.manager: mijacobs
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
-monikerRange: '>= vs-2022'
+
 ---
+
 # Use MCP servers
 
 Model Context Protocol (MCP) is an open standard that enables AI models to interact with external tools and services through a unified interface. In Visual Studio, MCP support enhances GitHub Copilot agent mode by allowing you to connect any MCP-compatible server to your agentic coding workflow.
