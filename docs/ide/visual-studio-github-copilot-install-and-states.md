@@ -92,7 +92,7 @@ If Copilot is installed but in an inactive state, it may be because:
 
 :::moniker range="visualstudio"
 
-:::image type="content" source="media/visualstudio/copilot-state-inactive-copilot-free.png" alt-text="Screenshot of Copilot badge when user is signed in but Copilot is inactive.":::
+:::image type="content" source="media/visualstudio/copilot-state-inactive-copilot-free.png" alt-text="Screenshot that shows the Copilot badge when the user is signed in but Copilot is inactive.":::
 
 :::moniker-end
 
@@ -106,7 +106,17 @@ If Copilot is installed but in an inactive state, it may be because:
 
     If you added multiple GitHub accounts in Visual Studio, ensure the [**active** account](work-with-github-accounts.md#switch-the-active-account) is the one with the active Copilot subscription.
 
-    :::image type="content" source="media/vs-2022/visual-studio-github-copilot-install-and-states/set-active-github-account.png" alt-text="Screenshot of active GitHub account in Account Settings.":::
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/set-active-github-account.png" alt-text="Screenshot that shows an active GitHub account in account settings.":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
+:::image type="content" source="media/vs-2022/visual-studio-github-copilot-install-and-states/set-active-github-account.png" alt-text="Screenshot of active GitHub account in Account Settings.":::
+
+:::moniker-end
 
 If Copilot is inactive as the signed in GitHub account credentials need to be refreshed, select [**Refresh your GitHub credentials**](visual-studio-github-copilot-troubleshoot.md#refresh-your-credentials) from the dropdown to refresh your GitHub account and sign in again.
 
