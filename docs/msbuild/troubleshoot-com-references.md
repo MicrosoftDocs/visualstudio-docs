@@ -14,7 +14,7 @@ COM is a Windows technology for defining and operating with objects and types th
 
 You might reference a COM component in a .NET project, in which case it must be projected in a managed assembly, referred to as a primary interop assembly, or PIA. The interop assembly contains managed types that correspond to COM object types (as represented by interfaces described in type libraries) and forwards API calls to COM. For general information about COM Interop, see [COM Interop](/dotnet/standard/native-interop/cominterop).
 
-COM components might be referenced in .NET Framework projects, or in .NET Core (including .NET 5 or later) projects. Visual Studio provides ways to add references to COM objects. For example, a COM component that is a Windows UI control (an ActiveX control) might be presented in the Toolbox, and when you drag it and drop it on to your Windows form or a Windows Presentation Foundation (WPF) form, it's added as a `COMReference` in the project file.
+You can reference COM components in .NET Framework projects, or in .NET Core (including .NET 5 or later) projects. Visual Studio provides ways to add references to COM objects. For example, a COM component that is a Windows UI control (an ActiveX control) might be presented in the Toolbox, and when you drag it and drop it on to your Windows form or a Windows Presentation Foundation (WPF) form, it's added as a `COMReference` in the project file.
 
 You can also add COM references directly in Solution Explorer. Right-click on **Dependencies**, and select **Add COM Reference**.
 
