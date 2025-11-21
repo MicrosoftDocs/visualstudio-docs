@@ -3,14 +3,14 @@ title: Microsoft Certified Trainer (MCT) and Learning questions
 description: Solution shown when 'issue not listed' category is selected or no solution is found.
 comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time. SMEs are Jose Becerra and Larissa Crawford of Red Door Collaborative and Aaron Mast.
 ms.topic: include
-ms.assetid: 
+ms.assetid: 555fa929-483d-447d-9936-1fa702c83d32
 author: joseb-rdc
 ms.author: amast
 ms.date: 11/20/2025
 user.type: subscriber, admin
 tags: no-solution
 subscription.type: vl, cloud, retail, partner
-sap.id: 
+sap.id: 34fccc61-0a31-cc35-22dd-016a1ebf1134
 ---
 
 ## I need help with the activation or creation of MCT subscriptions. How can I get Support? 
