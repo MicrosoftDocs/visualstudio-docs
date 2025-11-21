@@ -194,6 +194,7 @@ You can hide the GitHub Copilot badge in the Visual Studio IDE by selecting **To
    :::image type="content" source="media/visualstudio/hide-copilot-badge.png" border="false" alt-text="Screenshot that shows how to clear the Hide Copilot menu badge option in Visual Studio.":::
 
 :::moniker-end
+
 :::moniker range="<=vs-2022"
 
 1. Open the **Tools** > **Options** dialog and expand the **Environment** > **General** section.
@@ -203,8 +204,6 @@ You can hide the GitHub Copilot badge in the Visual Studio IDE by selecting **To
    :::image type="content" source="media/vs-2022/visual-studio-github-copilot-install-and-states/hide-copilot-badge.png" border="false" alt-text="Screenshot shows how to clear the Hide Copilot menu badge option.":::
 
 1. Select **OK**.
-
-:::moniker-end
 
 :::moniker-end
 
