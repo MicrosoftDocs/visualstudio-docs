@@ -1,7 +1,7 @@
 ---
 title: Mixed-mode debugging for Python
 description: Simultaneously debug C++ and Python in Visual Studio including stepping between environments, viewing values, and evaluating expressions.
-ms.date: 04/18/2024
+ms.date: 11/21/2025
 ms.topic: how-to
 author: cwebster-99
 ms.author: cowebster
@@ -161,7 +161,16 @@ The **Call Stack** window shows both native and Python stack frames interleaved,
 
 :::image type="content" source="media/mixed-mode-debugging-call-stack.png" alt-text="Screenshot of the combined call stack window with mixed-mode debugging in Visual Studio." border="false" lightbox="media/mixed-mode-debugging-call-stack.png":::
 
-- To make transitions appear as **[External Code]** without specifying the direction of transition, set the **Tools** > **Options** > **Debugging** > **General** > **Enable Just My Code** option.
+:::moniker range="visualstudio"
+
+- To make transitions appear as **[External Code]** without specifying the direction of transition, use the **Tools** > **Options** pane. Expand the **All Settings** > ***Debugging** > **General** section, select the **Enable Just My Code** checkbox.
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+- To make transitions appear as **[External Code]** without specifying the direction of transition, use the **Tools** > **Options** dialog. Expand the **Debugging** > **General** section, select the **Enable Just My Code** checkbox, and then select **OK**.
+
+:::moniker-end
 
 - To make any call frame active, double-click the frame. This action also opens the corresponding source code, if possible. If source code isn't available, the frame is still made active and local variables can be inspected.
 
