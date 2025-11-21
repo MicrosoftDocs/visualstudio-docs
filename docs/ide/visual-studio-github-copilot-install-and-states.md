@@ -90,7 +90,17 @@ If Copilot is installed but in an inactive state, it may be because:
     
     Sign in with a GitHub account with an active Copilot subscription, or select **Get Copilot for Free** from the status icon dropdown to sign up for Copilot Free.
 
-    :::image type="content" source="media/vs-2022/visual-studio-github-copilot-install-and-states/copilot-state-inactive-copilot-free.png" alt-text="Screenshot of Copilot badge when user is signed in but Copilot is inactive.":::
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/copilot-state-inactive-copilot-free.png" alt-text="Screenshot of Copilot badge when user is signed in but Copilot is inactive.":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
+:::image type="content" source="media/vs-2022/visual-studio-github-copilot-install-and-states/copilot-state-inactive-copilot-free.png" alt-text="Screenshot of Copilot badge when user is signed in but Copilot is inactive.":::
+
+:::moniker-end
 
 - Your **active** GitHub account doesn't have a Copilot subscription
 
