@@ -5,7 +5,7 @@ ms.topic: article
 robots: noindex, nofollow
 author: joseb-rdc
 ms.author: amast 
-ms.date: 02/14/2023
+ms.date: 11/20/2025
 ---
 
 # Visual Studio subscriptions support widget content INCLUDES files
@@ -77,6 +77,8 @@ ms.date: 02/14/2023
 [!INCLUDE [No solution](other-or-no-solution/includes/no-solution.md)]
 
 [!INCLUDE [Questions about managing subscriptions](other-or-no-solution/includes/questions-about-managing-subscriptions.md)]
+
+[!INCLUDE [MIcrosoft Certified Trainer (MCT) and Learning questions](other-or-no-solution/includes/microsoft-certified-trainer-learning-questions.md)]
 
 ## Portal issues
 
