@@ -65,7 +65,7 @@ Now you're ready to start checking your updated Python code in the **Debugger**.
    The **Debugger** doesn't detect any issues, so the program runs successfully. An output window opens and you see a few iterations of the cosine wave pattern. Select any key to close the output window.
 
    > [!TIP]
-   > In earlier versions of Visual Studio, you can close the output window automatically when the program completes. Select **Tools** > **Options**, expand the **Python**> **Debugging** tab, and clear the **Wait for input when process exits normally** option.
+   > In earlier versions of Visual Studio, you can close the output window automatically when the program completes. Select **Tools** > **Options**, expand the **Python**> **Debugging** node, and clear the **Wait for input when process exits normally** option.
 
 1. Set a breakpoint on the `for` loop statement by using one of the following methods:
 
