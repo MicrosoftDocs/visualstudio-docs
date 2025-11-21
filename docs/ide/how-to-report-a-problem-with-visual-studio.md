@@ -26,11 +26,11 @@ Here are the steps to report a problem.
 
    Note: If you are using an ad-blocker you may experience issues during sign-in. Disable the ad-blocker and try to sign in again.
 
-   ![Sign in to report a problem](../ide/media/visualstudio/feedback-browser-top.png)
+   ![Screenshot that shows how to sign in to report a problem.](../ide/media/visualstudio/feedback-browser-top.png)
 
 1. Start by entering the descriptive title of your bug report. It must be at least 25 characters long.
 
-    ![Report a problem](../ide/media/visualstudio/feedback-report.png)
+    ![Screenshot that shows how to report a problem.](../ide/media/visualstudio/feedback-report.png)
 
 1. Select a category for the problem.
 
