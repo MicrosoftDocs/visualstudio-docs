@@ -33,7 +33,7 @@ To get help, go to the Visual Studio support scroll down and select the option t
 
 | Scenario | Support engagement process |
 |---------|-------------------|
-| Microsoft Certified Trainer (MCT) Access and Subscription Issues for example:<br> - Access-related issues for MCT subscriptions<br> - Activation or creation of MCT subscriptions | [MCT Support](https://aka.ms.mctportal) |
+| Microsoft Certified Trainer (MCT) Access and Subscription Issues for example:<br> - Access-related issues for MCT subscriptions<br> - Activation or creation of MCT subscriptions | [MCT Support](https://aka.ms/mctportal) |
 | Microsoft Credential-related Issues for example:<br> - Exam details and examp paths<br> - Certification details and certification paths<br> - Transcript<br> - Microsoft Learn profile | [Learning Support](https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=de16815f-2fa5-576e-4946-70cae21a4eeb.) |
 | VSS Access and Benefit Activations<br> - Activation of benefits under Visual Studio Subscriptions (Azure Credit, Microsoft 365 Developer, etc.)<br> - Access errors on https://my.visualstudio.com, such as error 715<br> - Software availability under Visual Studio Subscriptions | Follow guidance in the **"Still need help with Visual Studio Subscriptions?"** section of this article |
 | | |
