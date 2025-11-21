@@ -70,7 +70,19 @@ The following walkthrough requires version 17.14.9 or later.
 
 5. Select the tools that you want to use; for example, **List issues**.
 
-    :::image type="content" source="media/vs-2022/mcp-servers/model-context-protocol-github-tools-list.png" alt-text="Screenshot that shows MCP GitHub tools." lightbox="media/vs-2022/mcp-servers/model-context-protocol-github-tools-list.png":::
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/model-context-protocol-github-tools-list.png" alt-text="Screenshot that shows the MCP GitHub tools." lightbox="media/visualstudio/model-context-protocol-github-tools-list.png":::
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+
+:::image type="content" source="media/vs-2022/mcp-servers/model-context-protocol-github-tools-list.png" alt-text="Screenshot that shows MCP GitHub tools." lightbox="media/vs-2022/mcp-servers/model-context-protocol-github-tools-list.png":::
+
+:::moniker-end
+
+    
 
 6. Try a sample prompt: **List issues assigned to me on GitHub**.
 
@@ -229,7 +241,19 @@ With an existing `mcp.json` file, add the file location to **Solution Items** in
 
 When the file is saved with valid syntax, the GitHub Copilot agent restarts and reloads the configured servers.
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/model-context-protocol-add-solution-item.png" alt-text="Screenshot that shows how to add the MCP configuration file location to Solution Items." lightbox="media/visualstudio/model-context-protocol-add-solution-item.png":::
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+
 :::image type="content" source="media/vs-2022/mcp-servers/model-context-protocol-add-solution-item.png" alt-text="Screenshot that shows adding the MCP configuration file location to Solution Items." lightbox="media/vs-2022/mcp-servers/model-context-protocol-add-solution-item.png":::
+
+:::moniker-end
+
+
 
 ### Tool lifecycle
 
@@ -252,7 +276,17 @@ After a tool invocation, on the chat pane, use the **Allow** dropdown options. Y
 
 You can reset tool confirmation selections in **Tools** > **Options** > **GitHub** > **Copilot** > **Tools**.
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/copilot-agent-tool-config.png" alt-text="Screenshot that shows Copilot tool configuration settings." lightbox="media/visualstudio/copilot-agent-tool-config.png":::
+
+:::moniker-end
+
+:::moniker range="<=vs-2022>"
+
 :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-tool-config.png" alt-text="Screenshot that shows tool configuration settings." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-tool-config.png":::
+
+:::moniker-end
 
 ## Manage authorization
 
