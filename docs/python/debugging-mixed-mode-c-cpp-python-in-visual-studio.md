@@ -163,7 +163,7 @@ The **Call Stack** window shows both native and Python stack frames interleaved,
 
 :::moniker range="visualstudio"
 
-- To make transitions appear as **[External Code]** without specifying the direction of transition, use the **Tools** > **Options** pane. Expand the **All Settings** > ***Debugging** > **General** section, select the **Enable Just My Code** checkbox.
+- To make transitions appear as **[External Code]** without specifying the direction of transition, use the **Tools** > **Options** pane. Expand the **All Settings** > **Debugging** > **General** section, select the **Enable Just My Code** checkbox.
 
 :::moniker-end
 :::moniker range="<=vs-2022"
