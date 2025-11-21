@@ -74,11 +74,11 @@ If Copilot is installed but in an inactive state, it may be because:
 
 Or
     
-    Select **Open Chat Window to Sign In** and then select **Sign up for Copilot Free** to sign up for [Copilot Free](copilot-free-plan.md) or **Sign in** if you already have a Copilot enabled account.
+Select **Open Chat Window to Sign In** and then select **Sign up for Copilot Free** to sign up for [Copilot Free](copilot-free-plan.md) or **Sign in** if you already have a Copilot enabled account.
 
-    When you're signed in, the Copilot status icon updates to active.
+When you're signed in, the Copilot status icon updates to active.
     
-   :::image type="content" source="media/visualstudio/copilot-state-inactive-sign-in-copilot-free.png" alt-text="Screenshot of the Copilot badge when Copilot is in an inactive state.":::
+:::image type="content" source="media/visualstudio/copilot-state-inactive-sign-in-copilot-free.png" alt-text="Screenshot of the Copilot badge when Copilot is in an inactive state.":::
 
 :::moniker-end  
 
@@ -86,11 +86,11 @@ Or
 
 Or
     
-    Select **Open Chat Window** and then select **Sign up for Copilot Free** to sign up for [Copilot Free](copilot-free-plan.md) or **Sign in** if you already have a Copilot enabled account.
+Select **Open Chat Window** and then select **Sign up for Copilot Free** to sign up for [Copilot Free](copilot-free-plan.md) or **Sign in** if you already have a Copilot enabled account.
 
-    When you're signed in, the Copilot status icon updates to active.
+When you're signed in, the Copilot status icon updates to active.
     
-   :::image type="content" source="media/vs-2022/visual-studio-github-copilot-install-and-states/copilot-state-inactive-sign-in-copilot-free.png" alt-text="Screenshot of Copilot badge when Copilot is in an inactive state.":::
+:::image type="content" source="media/vs-2022/visual-studio-github-copilot-install-and-states/copilot-state-inactive-sign-in-copilot-free.png" alt-text="Screenshot of Copilot badge when Copilot is in an inactive state.":::
 
 :::moniker-end   
 
