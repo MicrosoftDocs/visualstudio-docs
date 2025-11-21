@@ -50,7 +50,7 @@ Learn how to change the default tab and indentation behavior for the Code Editor
 
 :::moniker range="visualstudio"
 
-In Visual Studio, open the **Tools** > **Options** pane, and expand the **All Settings** > **Languages** > **Defaults** > **Tabs** section
+In Visual Studio, open the **Tools** > **Options** pane, and expand the **All Settings** > **Languages** > **Defaults** > **Tabs** section.
 
 > [!CAUTION]
 > Changes made here apply to all development languages. Resetting options in this dialog overrides individual language settings. To configure options for a specific language, select its subfolder under **All Settings** > **Languages** > _Language (such as C# or Visual Basic)_ > **Tabs**.
