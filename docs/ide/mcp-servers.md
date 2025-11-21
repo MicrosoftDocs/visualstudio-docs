@@ -56,13 +56,17 @@ The following walkthrough requires version 17.14.9 or later.
 
 4. In Visual Studio, select the **Ask** arrow in the GitHub Copilot Chat window, and then select **Agent**.
 
-:::moniker range="vs-2022"
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/copilot-agent-dropdown.png" alt-text="Screenshot that shows the Agent button in Copilot." lightbox="media/visualstudio/copilot-agent-dropdown.png":::
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
 
 :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-dropdown.png" alt-text="Screenshot that shows the Copilot agent mode selector." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-dropdown.png":::
 
 :::moniker-end
-
-    
 
 5. Select the tools that you want to use; for example, **List issues**.
 
