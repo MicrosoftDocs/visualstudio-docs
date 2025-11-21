@@ -28,7 +28,7 @@ In this article, you learn how to manage your GitHub Copilot installation and st
 
 :::moniker-end
 
-:::moniker range="vs-2022"
+:::moniker range="<=vs-2022"
 
 :::image type="content" source="media/vs-2022/visual-studio-github-copilot-extension/github-copilot-installer-component.png" alt-text="Screenshot that shows using the Visual Studio Installer to install the GitHub Copilot component." lightbox="media/vs-2022/visual-studio-github-copilot-extension/github-copilot-installer-component.png":::
 
@@ -55,7 +55,7 @@ Using the dropdown menu, you can easily open the Chat window, access Copilot set
 
 :::moniker-end
 
-:::moniker range="vs-2022"
+:::moniker range="<=vs-2022"
 
 :::image type="content" source="media/vs-2022/visual-studio-github-copilot-install-and-states/copilot-state-active.png" alt-text="Screenshot of Copilot badge when Copilot is in active state.":::
 
@@ -80,7 +80,7 @@ If Copilot is installed but in an inactive state, it may be because:
 
 :::moniker-end  
 
-:::moniker range="vs-2022"
+:::moniker range="<=vs-2022"
     
    :::image type="content" source="media/vs-2022/visual-studio-github-copilot-install-and-states/copilot-state-inactive-sign-in-copilot-free.png" alt-text="Screenshot of Copilot badge when Copilot is in an inactive state.":::
 
@@ -96,7 +96,7 @@ If Copilot is installed but in an inactive state, it may be because:
 
 :::moniker-end
 
-:::moniker range="vs-2022"
+:::moniker range="<=vs-2022"
 
 :::image type="content" source="media/vs-2022/visual-studio-github-copilot-install-and-states/copilot-state-inactive-copilot-free.png" alt-text="Screenshot of Copilot badge when user is signed in but Copilot is inactive.":::
 
@@ -112,7 +112,7 @@ If Copilot is installed but in an inactive state, it may be because:
 
 :::moniker-end
 
-:::moniker range="vs-2022"
+:::moniker range="<=vs-2022"
 
 :::image type="content" source="media/vs-2022/visual-studio-github-copilot-install-and-states/set-active-github-account.png" alt-text="Screenshot of active GitHub account in Account Settings.":::
 
@@ -134,7 +134,7 @@ Select **Check Troubleshooting Page** in the dropdown menu to open the troublesh
 
 :::moniker-end
 
-:::moniker range="vs-2022"
+:::moniker range="<=vs-2022"
 
 Select **Copilot is unreachable** in the dropdown menu to open the **Troubleshooting** page on diagnosing and resolving common network errors with GitHub Copilot. When the issue is resolved and you're signed in with an active subscription, the Copilot status icon updates to [active](#copilot-is-active).
 
@@ -155,7 +155,7 @@ If you choose to not install Copilot, you can select **Hide Copilot** from the d
 
 :::moniker-end
 
-:::moniker range="vs-2022"
+:::moniker range="<=vs-2022"
 
 :::image type="content" source="media/vs-2022/visual-studio-github-copilot-install-and-states/copilot-state-not-installed.png" alt-text="Screenshot of Copilot badge when Copilot isn't installed.":::
 
@@ -173,7 +173,7 @@ You can hide the GitHub Copilot badge in the Visual Studio IDE by unselecting **
 
 :::moniker-end
 
-:::moniker range="vs-2022"
+:::moniker range="<=vs-2022"
 
 :::image type="content" source="media/vs-2022/visual-studio-github-copilot-install-and-states/hide-copilot-badge.png" alt-text="Screenshot of option to hide copilot badge in Tools > Options.":::
 
