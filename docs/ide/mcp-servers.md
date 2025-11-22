@@ -274,7 +274,7 @@ After a tool invocation, on the chat pane, use the **Allow** dropdown options. Y
 
 :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-tool-approval.png" alt-text="Screenshot that shows managing agent tool approvals." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-tool-approval.png":::
 
-You can reset tool confirmation selections in **Tools** > **Options** > **GitHub** > **Copilot** > **Tools**.
+:::moniker range="visualstudio"
 
 :::moniker range="visualstudio"
 
