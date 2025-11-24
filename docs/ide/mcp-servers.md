@@ -282,7 +282,7 @@ After a tool invocation, on the chat pane, use the **Allow** dropdown options. Y
 
 :::moniker-end
 
-:::moniker range="<=vs-2022" 
+:::moniker range="<=vs-2022"
 
 :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-tool-config.png" alt-text="Screenshot that shows tool configuration settings." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-tool-config.png":::
 
