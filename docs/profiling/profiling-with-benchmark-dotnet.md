@@ -1,7 +1,7 @@
 ---
 title: "Analyze BenchmarkDotNet data in Visual Studio"
 description: Learn how to profile console apps using BenchmarkDotNet.
-ms.date: 11/10/2025
+ms.date: 11/24/2025
 ms.topic: how-to
 dev_langs:
   - "CSharp"
@@ -17,19 +17,9 @@ monikerRange: '>= vs-2022'
 
 # Analyze BenchmarkDotNet data in Visual Studio
 
-You can use the profiling tools to collect and view [BenchmarkDotNet](https://benchmarkdotnet.org/articles/overview.html) data in Visual Studio.
+You can use the profiling tools to collect and view [BenchmarkDotNet](https://benchmarkdotnet.org/articles/overview.html) data in Visual Studio. BenchmarkDotNet is an open-source .NET library designed for performance benchmarking. It automates the process of measuring and comparing the execution time, memory usage, and other performance metrics of your .NET code in a reliable and repeatable way.
 
-When you add a BenchmarkDotNet diagnoser to your benchmark classes as an attribute, a *.diagsession* file is generated after the benchmark runs. You can then open the *.diagsession* in Visual Studio and view profiling data for the benchmarks. 
-
-The following diagnosers are supported:
-
-- CPUUsageDiagnoser
-- DatabaseDiagnoser
-- DotNetCountersDiagnoser
-- EventsDiagnoser
-- FileIODiagnoser
-
-Each diagnoser generates performance data related to that diagnoser. For example, the CPUUsageDiagnoser generates a *.diagsession* file with CPU data in it, and the DatabaseDiagnoser generates a *.diagsession* file with data on database operations. Limitations correspond to the associated profiling tool. For example, the profiler's Database tool works on [ADO.NET](/dotnet/framework/data/adonet/ado-net-overview) or [Entity Framework Core](/ef/core/).
+You use BenchmarkDotNet by installing required NuGet packages in your project and then adding attributes to your code that match the type of performance information you are interested in.
 
 ## Prerequisites
 
@@ -61,11 +51,21 @@ Create a console project.
 The benchmark functions must be added to a .NET console application. These functions can be wrapper functions that reference other project types. 
 ::: moniker-end
 
-## Collect Benchmark.NET data
+## Attribute your code
 
-1. Set your build to a Release build instead of a Debug build.
+When you add a BenchmarkDotNet diagnoser to your benchmark classes as an attribute, you configure the app to generate a *.diagsession* file after the benchmarks runs. You can then open the *.diagsession* file in Visual Studio and view profiling data for the benchmarks. 
 
-1. Attribute your code for diagnosers and benchmarks, and include code to run the benchmarks (`BenchmarkRunner.Run`).
+The following diagnosers are supported:
+
+- CPUUsageDiagnoser
+- DatabaseDiagnoser
+- DotNetCountersDiagnoser
+- EventsDiagnoser
+- FileIODiagnoser
+
+Each diagnoser generates performance data related to that diagnoser. For example, the CPUUsageDiagnoser generates a *.diagsession* file with CPU data in it, and the DatabaseDiagnoser generates a *.diagsession* file with data on database operations. Limitations correspond to the associated profiling tool. For example, the profiler's Database tool works on [ADO.NET](/dotnet/framework/data/adonet/ado-net-overview) or [Entity Framework Core](/ef/core/).
+
+1. Attribute your code for diagnosers and benchmarks.
 
    Add the diagnoser name as an attribute to the class that contains the benchmarks for which you want to generate data.
 
@@ -105,7 +105,13 @@ The benchmark functions must be added to a .NET console application. These funct
             [Benchmark]
             public byte[] Md5() => md5.ComputeHash(data);
         }
-    
+        // Placeholder for the benchmark runner.
+    }
+    ```
+
+1. In the same namespace (`MyBenchmarks`, in this example), include code to run the benchmarks (`BenchmarkRunner.Run`).
+
+    ```csharp
         public class Program
         {
             public static void Main(string[] args)
@@ -113,9 +119,12 @@ The benchmark functions must be added to a .NET console application. These funct
                 var summary = BenchmarkRunner.Run(typeof(Program).Assembly);
             }
         }
-    }
     ```
-   
+
+## Collect and view Benchmark.NET data
+
+1. Set your build to a **Release** build instead of a Debug build.
+
 1. Run the application to generate the *.diagsession* file.
 
    Check the console output to get the location of the file. For example:  
@@ -127,8 +136,6 @@ The benchmark functions must be added to a .NET console application. These funct
      Stopped
    Exported diagsession file: *.diagsession
    ```
-   
-## View BenchmarkDotNet data
 
 1. In Visual Studio, select **File > Open > File** and navigate to the location of the *.diagsession* file, and then select and open the file.
 
