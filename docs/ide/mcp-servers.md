@@ -276,11 +276,15 @@ After a tool invocation, on the chat pane, use the **Allow** dropdown options. Y
 
 :::moniker range="visualstudio"
 
+You can reset tool confirmation selections in the Tools > Options dialog, in the All Settings > GitHub > Copilot > Tools section.
+
 :::image type="content" source="media/visualstudio/copilot-agent-tool-config.png" alt-text="Screenshot that shows Copilot tool configuration settings." lightbox="media/visualstudio/copilot-agent-tool-config.png":::
 
 :::moniker-end
 
 :::moniker range="<=vs-2022"
+
+You can reset tool confirmation selections in the Tools > Options dialog, in the All Settings > GitHub > Copilot > Tools section.
 
 :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-tool-config.png" alt-text="Screenshot that shows tool configuration settings." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-tool-config.png":::
 
