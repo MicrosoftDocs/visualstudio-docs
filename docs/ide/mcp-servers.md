@@ -274,7 +274,7 @@ After a tool invocation, on the chat pane, use the **Allow** dropdown options. Y
 
 :::moniker range="visualstudio"
 
-:::image type="content" source="media/copilot-agent-tool-approval.png" alt-text="Screenshot that shows how to manage agent tool approvals." lightbox="media/copilot-agent-tool-approval.png":::
+:::image type="content" source="media/visualstudio/copilot-agent-tool-approval.png" alt-text="Screenshot that shows how to manage agent tool approvals." lightbox="media/visualstudio/copilot-agent-tool-approval.png":::
 
 :::moniker-end
 
