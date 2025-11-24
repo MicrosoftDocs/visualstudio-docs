@@ -272,7 +272,17 @@ When a tool is invoked, Copilot requests confirmation to run the tool. The reaso
 
 After a tool invocation, on the chat pane, use the **Allow** dropdown options. You can automatically confirm the specific tool for the current session, the current solution, or all future invocations.
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/copilot-agent-tool-approval.png" alt-text="Screenshot that shows how to manage agent tool approvals." lightbox="media/copilot-agent-tool-approval.png":::
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+
 :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-tool-approval.png" alt-text="Screenshot that shows managing agent tool approvals." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-tool-approval.png":::
+
+:::moniker-end
 
 :::moniker range="visualstudio"
 
