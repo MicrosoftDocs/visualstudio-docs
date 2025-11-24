@@ -34,26 +34,29 @@ You use BenchmarkDotNet by installing required NuGet packages in your project an
   If you use the Benchmark project template, these NuGet packages are present when you create the project.
   ::: moniker-end
 
-## Create your project
+## Set upyour project
 
 ::: moniker range=">=visualstudio"
-The benchmark functions must be added to a .NET console application. These functions can be wrapper functions that reference other project types.
+The benchmark attributes must be added to a .NET console application. The attributes can be added to wrapper functions that reference other project types.
 
-You can either create a console project and add BenchmarkDotNet support manually, or use the **Benchmark Project** template. Some of the steps described in this article are required only when you manually add BenchmarkDotNet support.
+To prepare your project for BenchmarkDotNet support, use one of the following methods:
 
-The **Benchmark Project** template generates a fully integrated BenchmarkDotNet project with built-in support for CPU Usage profiling and Copilot insights. To use the template, select **Profiling** from the project types list when you create a new project, and then choose **Benchmark Project**.
+- Open an existing console project or create a new console project. In this scenario, you will manually add add BenchmarkDotNet support.
+- Use the **Benchmark Project** template. Some of the steps described in this article are required only when you manually add BenchmarkDotNet support.
+
+  The **Benchmark Project** template generates a fully integrated BenchmarkDotNet project with built-in support for CPU Usage profiling and Copilot insights. To use the template, select **Profiling** from the project types list when you create a new project, and then choose **Benchmark Project**. For information about attributes, see [Attribute your code](#attribute-your-code).
 
 ![Screenshot of BenchmarkDotNet template in Visual Studio.](../profiling/media/visualstudio/benchmark-dotnet-template.png) 
 ::: moniker-end
 ::: moniker range="vs-2022"
-Create a console project.
+Create a console project or use an existing console project.
 
-The benchmark functions must be added to a .NET console application. These functions can be wrapper functions that reference other project types. 
+The benchmark attributes must be added to a .NET console application. The attributes can be added to wrapper functions that reference other project types.
 ::: moniker-end
 
 ## Attribute your code
 
-When you add a BenchmarkDotNet diagnoser to your benchmark classes as an attribute, you configure the app to generate a *.diagsession* file after the benchmarks runs. You can then open the *.diagsession* file in Visual Studio and view profiling data for the benchmarks. 
+When you add a BenchmarkDotNet diagnoser to your benchmark classes as an attribute, you configure the app to generate a *.diagsession* file after the benchmarks run. You can then open the *.diagsession* file in Visual Studio and view profiling data for the benchmarks. 
 
 The following diagnosers are supported:
 
@@ -109,7 +112,7 @@ Each diagnoser generates performance data related to that diagnoser. For example
     }
     ```
 
-1. In the same namespace (`MyBenchmarks`, in this example), include code to run the benchmarks (`BenchmarkRunner.Run`).
+1. Replace the placeholder code in the previous sample with the following code to run the benchmarks (`BenchmarkRunner.Run`).
 
     ```csharp
         public class Program
