@@ -86,15 +86,18 @@ The following walkthrough requires version 17.14.9 or later.
 
 6. Try a sample prompt: **List issues assigned to me on GitHub**.
 
-7. Copilot asks for permission to use a tool that the MCP server made available to it. Select **Allow** with the scope that you want to proceed with.
 
 :::moniker range="visualstudio"
+
+7. Copilot asks for permission to use a tool that the MCP server made available to it. Select **Confirm** with the scope that you want to proceed with.
 
 :::image type="content" source="media/visualstudio/copilot-agent-tool-approval.png" alt-text="Screenshot that shows the confirmation options for agent tools." lightbox="media/visualstudio/copilot-agent-tool-approval.png":::
 
 :::moniker-end
 
 :::moniker range="<=vs-2022"
+
+7. Copilot asks for permission to use a tool that the MCP server made available to it. Select **Allow** with the scope that you want to proceed with.
 
 :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-tool-approval.png" alt-text="Screenshot that shows confirmation options for agent tools." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-tool-approval.png":::
 
