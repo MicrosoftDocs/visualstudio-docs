@@ -51,7 +51,19 @@ Follow these steps to get started:
 
 1. Copilot requests confirmation before running a terminal command or using a tool that isn't built in.
 
-    :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-command-approval.png" alt-text="Screenshot that shows agent command approval." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-command-approval.png":::
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/copilot-agent-mode/copilot-agent-command-approval.png" alt-text="Screenshot that shows the commands for agent approval." lightbox="media/visualstudio/copilot-agent-mode/copilot-agent-command-approval.png":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
+:::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-command-approval.png" alt-text="Screenshot that shows agent command approval." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-command-approval.png":::
+
+:::moniker-end
+
+    
 
 1. Copilot automatically detects issues in code edits or terminal commands, and then takes action. The process repeats until the issues are resolved.
 
