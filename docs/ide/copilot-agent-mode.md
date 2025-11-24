@@ -29,7 +29,19 @@ Follow these steps to get started:
 
 1. Open the Copilot Chat window, select **Ask** to expand the mode dropdown, and then select **Agent**.
 
-    :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-dropdown.png" alt-text="Screenshot that shows the Copilot agent mode selector." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-dropdown.png":::
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/copilot-agent-mode/copilot-agent-dropdown.png" alt-text="Screenshot of the Copilot agent mode selector." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-dropdown.png":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
+:::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-dropdown.png" alt-text="Screenshot that shows the Copilot agent mode selector." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-dropdown.png":::
+
+:::moniker-end
+
+    
 
 1. Enter your prompt, and then select **Send** or select the <kbd>Enter</kbd> key to submit it. You can specify a high-level requirement, and you don't have to specify which files to work on.
 
