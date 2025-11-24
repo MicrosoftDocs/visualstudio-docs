@@ -276,8 +276,6 @@ After a tool invocation, on the chat pane, use the **Allow** dropdown options. Y
 
 :::moniker range="visualstudio"
 
-:::moniker range="visualstudio"
-
 :::image type="content" source="media/visualstudio/copilot-agent-tool-config.png" alt-text="Screenshot that shows Copilot tool configuration settings." lightbox="media/visualstudio/copilot-agent-tool-config.png":::
 
 :::moniker-end
