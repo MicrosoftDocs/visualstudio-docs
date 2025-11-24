@@ -1,7 +1,7 @@
 ---
 title: Extending the Status Bar
 description: Learn how to extend the Visual Studio status bar at the bottom of the IDE, which displays information.
-ms.date: 11/04/2016
+ms.date: 11/06/2025
 ms.topic: how-to
 helpviewer_keywords:
 - status bars, about status bars
@@ -64,15 +64,15 @@ You can use the Visual Studio status bar at the bottom of the IDE to display inf
 
 3. Compile the code and start debugging.
 
-4. Open the **Tools** menu in the experimental instance of Visual Studio. Click the **Invoke TestStatusBarCommand** button.
+4. Open the **Tools** menu in the experimental instance of Visual Studio. Select the **Invoke TestStatusBarCommand** button.
 
-     You should see that the text in the status bar now reads **We just wrote to the status bar.** and the message box that appears has the same text.
+   The text in the status bar now shows **We just wrote to the status bar.** and the message box that appears uses the same text.
 
 ### Update the progress bar
 
-1. In this procedure we will show how to initialize and update the progress bar.
+The following procedure shows how to initialize and update the progress bar.
 
-2. Open the *TestStatusBarCommand.cs* file and replace the `MenuItemCallback` method with the following code:
+1. Open the *TestStatusBarCommand.cs* file and replace the `MenuItemCallback` method with the following code:
 
     ```csharp
     private void MenuItemCallback(object sender, EventArgs e)
@@ -96,21 +96,40 @@ You can use the Visual Studio status bar at the bottom of the IDE to display inf
     }
     ```
 
-3. Compile the code and start debugging.
+1. Compile the code and start debugging.
 
-4. Open the **Tools** menu in the experimental instance of Visual Studio. Click **Invoke TestStatusBarCommand** button.
+1. Open the **Tools** menu in the experimental instance of Visual Studio. Select the **Invoke TestStatusBarCommand** button.
 
-     You should see that the text in the status bar now reads **Writing to the progress bar.** You should also see the progress bar get updated every second for 20 seconds. After that the status bar and the progress bar are cleared.
+   The text in the status bar now shows **Writing to the progress bar.** The progress bar updates every second for 20 seconds, and the status and progress bars are cleared.
 
 ### Display an animation
 
-1. The status bar displays a looping animation that indicates either a long-running operation (for example, building multiple projects in a solution). If you do not see this animation, make sure you have the correct **Tools** > **Options** settings:
+1. The status bar displays a looping animation that indicates either a long-running operation (for example, building multiple projects in a solution). If you don't see this animation, make sure you have the correct **Tools** > **Options** settings:
 
-     Go to the **Tools** > **Options** > **General** tab and uncheck **Automatically adjust visual experience based on client performance**. Then check the sub-option **Enable rich client visual experience**. You should now be able to see the animation when you build the project in your experimental instance of Visual Studio.
+   :::moniker range="visualstudio"
 
-     In this procedure we display the standard Visual Studio animation which represents building a project or solution.
+   1. Open the **Tools** > **Options** pane and expand the **All Settings** > **Environment** > **Visual Experience** > **Effects** section.
 
-2. Open the *TestStatusBarCommand.cs* file and replace the `MenuItemCallback` method with the following code:
+   1. Under **Enable rich client visual experience**, select **Automatic (Enable only when recommended)**. 
+
+   :::moniker-end
+   :::moniker range="<=vs-2022"
+
+   1. Open the **Tools** > **Options** dialog and expand the **Environment** > **General** section.
+
+   1. Clear the **Automatically adjust visual experience based on client performance** checkbox.
+
+   1. Select the **Enable rich client visual experience** suboption checkbox.
+
+   1. Select **OK**.
+
+   :::moniker-end
+
+   The animation now displays when you build the project in your experimental instance of Visual Studio.
+
+   This procedure shows how to display the standard Visual Studio animation, which represents building a project or solution.
+
+1. Open the *TestStatusBarCommand.cs* file and replace the `MenuItemCallback` method with the following code:
 
     ```csharp
     private void MenuItemCallback(object sender, EventArgs e)
@@ -131,8 +150,8 @@ You can use the Visual Studio status bar at the bottom of the IDE to display inf
     }
     ```
 
-3. Compile the code and start debugging.
+1. Compile the code and start debugging.
 
-4. Open the **Tools** menu in the experimental instance of Visual Studio and click **Invoke TestStatusBarCommand**.
+1. Open the **Tools** menu in the experimental instance of Visual Studio and select the **Invoke TestStatusBarCommand** button.
 
-     When you see the message box, you should also see the animation in the status bar on the far right. When you dismiss the message box, the animation disappears.
+   When you see the message box, you should also see the animation in the status bar on the far right. When you dismiss the message box, the animation disappears.
