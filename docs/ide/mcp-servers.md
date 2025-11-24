@@ -270,9 +270,9 @@ As soon as a server is discovered or added:
 
 When a tool is invoked, Copilot requests confirmation to run the tool. The reason is that tools might run locally on your machine and perform actions that modify files or data.
 
-After a tool invocation, on the chat pane, use the **Allow** dropdown options. You can automatically confirm the specific tool for the current session, the current solution, or all future invocations.
-
 :::moniker range="visualstudio"
+
+After a tool invocation, on the chat pane, use the **Confirm** dropdown options. You can automatically confirm the specific tool for the current session, the current solution, or all future invocations.
 
 :::image type="content" source="media/visualstudio/copilot-agent-tool-approval.png" alt-text="Screenshot that shows how to manage agent tool approvals." lightbox="media/visualstudio/copilot-agent-tool-approval.png":::
 
@@ -280,13 +280,15 @@ After a tool invocation, on the chat pane, use the **Allow** dropdown options. Y
 
 :::moniker range="<=vs-2022"
 
+After a tool invocation, on the chat pane, use the **Allow** dropdown options. You can automatically confirm the specific tool for the current session, the current solution, or all future invocations.
+
 :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-tool-approval.png" alt-text="Screenshot that shows managing agent tool approvals." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-tool-approval.png":::
 
 :::moniker-end
 
 :::moniker range="visualstudio"
 
-You can reset tool confirmation selections in the Tools > Options dialog, in the All Settings > GitHub > Copilot > Tools section.
+You can reset tool confirmation selections in the **Tools** > **Options** dialog, in the **All Settings** > **GitHub** > **Copilot** > **Tools** section.
 
 :::image type="content" source="media/visualstudio/copilot-agent-tool-config.png" alt-text="Screenshot that shows Copilot tool configuration settings." lightbox="media/visualstudio/copilot-agent-tool-config.png":::
 
@@ -294,7 +296,7 @@ You can reset tool confirmation selections in the Tools > Options dialog, in the
 
 :::moniker range="<=vs-2022"
 
-You can reset tool confirmation selections in the Tools > Options dialog, in the All Settings > GitHub > Copilot > Tools section.
+You can reset tool confirmation selections in the **Tools** > **Options** dialog, under the **GitHub** > **Copilot** section in the **Tools** group.
 
 :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-tool-config.png" alt-text="Screenshot that shows tool configuration settings." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-tool-config.png":::
 
