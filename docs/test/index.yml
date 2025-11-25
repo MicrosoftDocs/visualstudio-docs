@@ -43,8 +43,6 @@ landingContent:
             url: getting-started-with-unit-testing.md
           - text: Run unit tests with Test Explorer
             url: run-unit-tests-with-test-explorer.md
-          - text: Generate unit tests using AI (.NET)
-            url: unit-testing-with-github-copilot-test-dotnet.md
       - linkListType: how-to-guide
         links:
           - text: Code coverage - Determine how much code is being tested
@@ -55,12 +53,12 @@ landingContent:
     linkLists:
       - linkListType: tutorial
         links:
+          - text: Generate unit tests using AI (.NET)
+            url: unit-testing-with-github-copilot-test-dotnet.md
           - text: Create and run unit tests for managed code
             url: walkthrough-creating-and-running-unit-tests-for-managed-code.md
           - text: Get started with Live Unit Testing
             url: live-unit-testing-start.md
-          - text: Generate unit tests (IntelliTest)
-            url: generate-unit-tests-for-your-code-with-intellitest.md
           - text: Test execution with Hot Reload
             url: test-execution-with-hot-reload.md
       - linkListType: how-to-guide
