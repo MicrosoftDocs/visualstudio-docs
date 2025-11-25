@@ -35,7 +35,7 @@ Follow these steps to get started:
 
 :::moniker-end
 
-:::moniker range="vs-2022"
+:::moniker range="<=vs-2022"
 
 :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-dropdown.png" alt-text="Screenshot that shows the Copilot agent mode selector." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-dropdown.png":::
 
@@ -51,7 +51,7 @@ Follow these steps to get started:
 
 :::moniker-end
 
-:::moniker range="vs-2022"
+:::moniker range="<=vs-2022"
     
 :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-tools-list.png" alt-text="Screenshot that shows additional tools that agent mode uses." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-tools-list.png":::
 
@@ -65,7 +65,7 @@ Follow these steps to get started:
 
 :::moniker-end
 
-:::moniker range="vs-2022"
+:::moniker range="<=vs-2022"
 
 :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-command-approval.png" alt-text="Screenshot that shows agent command approval." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-command-approval.png":::
 
@@ -83,7 +83,7 @@ Follow these steps to get started:
 
 :::moniker-end
 
-:::moniker range="vs-2022"
+:::moniker range="<=vs-2022"
 
 :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-keep-undo.png" alt-text="Screenshot that shows a list of suggested edits." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-keep-undo.png":::
 
@@ -101,13 +101,13 @@ Follow these steps to get started:
 
 :::moniker-end
 
-:::moniker range="vs-2022"
+:::moniker range="<=vs-2022"
 
 :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-stepwise-edits.png" alt-text="Screenshot that shows accessing individual edit diffs with the Copilot agent." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-stepwise-edits.png":::
 
 :::moniker-end
 
-:::moniker range="vs-2022"
+:::moniker range="<=vs-2022"
 
    - Review the cumulative changes from the last time that changes were kept or undone.
 
@@ -132,7 +132,7 @@ To view and manage the tools that are available in agent mode, select the **Tool
 
 :::moniker-end
 
-:::moniker range="vs-2022"
+:::moniker range="<=vs-2022"
 
 :::image type="content" source="media/vs-2022/mcp-servers/copilot-agent-partial-tools.png" alt-text="Screenshot that shows the tool selector for the Copilot agent." lightbox="media/vs-2022/mcp-servers/copilot-agent-partial-tools.png":::
 
@@ -152,7 +152,7 @@ When Copilot invokes a tool, it requests confirmation to run the tool. The reaso
 
 :::moniker-end
 
-:::moniker range="vs-2002"
+:::moniker range="<=vs-2002"
 
 :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-command-approval.png" alt-text="Screenshot that shows a tool confirmation request." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-command-approval.png":::
 
@@ -167,6 +167,7 @@ You can reset tool confirmation selections in the **Tools** > **Options** pane. 
 :::image type="content" source="media/visualstudio/copilot-agent-mode/copilot-agent-tool-config-options.png" alt-text="Screenshot that shows GitHub Copilot tool call settings in Visual Studio.":::
 
 :::moniker-end
+
 :::moniker range="<=vs-2022"
 
 You can reset tool confirmation selections in the **Tools** > **Options** dialog. Expand the **GitHub** > **Copilot** > **Tools** section.
@@ -179,7 +180,17 @@ You can reset tool confirmation selections in the **Tools** > **Options** dialog
 
 Copilot lists the edited files in the **Total changes** list in the chat window.
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/copilot-agent-mode/copilot-agent-keep-undo.png" alt-text="Screenshot that shows a list of edited files." lightbox="media/visualstudio/copilot-agent-mode/copilot-agent-keep-undo.png":::
+
+:::moniker-end
+
+:::moniker range="<=vs-2002"
+
 :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-keep-undo.png" alt-text="Screenshot that shows a list of edited files." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-keep-undo.png":::
+
+:::moniker-end
 
 Select each file to review changes individually. You can keep or undo edits made to each chunk of code.
 
