@@ -1,7 +1,7 @@
 ---
 title: Explore unit test tools and tasks
 description: Learn about the unit test tools you can use to give developers and testers a quick way to look for logic errors in your code. 
-ms.date: 12/05/2023
+ms.date: 11/25/2025
 ms.topic: article
 helpviewer_keywords:
 - Visual Studio, unit tests
@@ -28,7 +28,14 @@ The unit test tools include:
 
 * **Microsoft Fakes isolation framework**&mdash;The Microsoft Fakes isolation framework can create substitute classes and methods for production and system .NET code that create dependencies in the code under test. By implementing the fake delegates for a function, you control the behavior and output of the dependency object.
 
+::: moniker range="visualstudio"
+Starting in Visual Studio 2026 Insiders build, you can use GitHub Copilot testing for .NET to automatically generate unit tests. GitHub Copilot testing for .NET not only generates the tests, but debugs the tests, and runs them in Test Explorer.  For more information, see [Overview of GitHub Copilot testing for .NET](../test/github-copilot-test-dotnet-overview.md). This is the recommended method to generate tests.
+
+Alternatively, you can use Copilot `/tests` slash command to generate unit tests from code. For example, you can type `/tests using NUnit Framework` to generate NUnit tests. For more information, see [Use slash commands in Copilot Chat](../ide/copilot-chat-context.md#slash-commands).
+::: moniker-end
+::: moniker range="<= vs-2022"
 For .NET, you can also use [IntelliTest](../test/generate-unit-tests-for-your-code-with-intellitest.md) to explore your code and generate test data and a suite of unit tests. For every statement in the code, a test input is generated that will execute that statement. A case analysis is performed for every conditional branch in the code.
+::: moniker-end
 
 ## Key tasks
 
