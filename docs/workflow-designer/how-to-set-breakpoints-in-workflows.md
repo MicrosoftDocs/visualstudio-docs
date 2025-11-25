@@ -18,23 +18,24 @@ A breakpoint has three states: *Pending*, *Bound*, and *Error*. When you set a b
 
 Before you start debugging your code, prepare your environment and be aware of known limitations.
 
-- Configure debugging options from the **Tools** > **Options** menu.
+:::moniker range="visualstudio"
 
-   :::moniker range="visualstudio"
-
-   Enable the following options in the **All Settings** > **Debugging** > **General** section: 
-
-   :::moniker-end
-   :::moniker range="<=vs-2022"
-
-   Enable the following options under **Debugging** > **General**: 
-
-   :::moniker-end
+- Enable debugging options in the **Tools** > **Options** pane, in the **All Settings** > **Debugging** > **General** section:
 
    - **Enable Just My Code**
    - **Suppress JIT optimization on module load (Managed Only)**
 
-   If you don't enable the options, and you have two sequences nested within another sequence and a break point set on the first inner sequence, pressing **F11** doesn't debug into the second inner sequence.
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+- Enable debugging options in the **Tools** > **Options** dialog, in the **Debugging** > **General** section:
+
+   - **Enable Just My Code**
+   - **Suppress JIT optimization on module load (Managed Only)**
+
+:::moniker-end
+
+- If you don't enable the specified debugging options, and you have two sequences nested within another sequence and a break point set on the first inner sequence, pressing **F11** doesn't debug into the second inner sequence.
 
 - Setting breakpoints on invoked workflows isn't supported.
 
