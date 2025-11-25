@@ -146,7 +146,17 @@ Additional tools that you add by running MCP servers aren't automatically enable
 
 When Copilot invokes a tool, it requests confirmation to run the tool. The reason is that tools might run locally on your machine and perform actions that modify files or data.
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/copilot-agent-mode/copilot-agent-command-approval.png" alt-text="Screenshot that shows a tool confirmation request." lightbox="media/visualstudio/copilot-agent-mode/copilot-agent-command-approval.png":::
+
+:::moniker-end
+
+:::moniker range="vs-2002"
+
 :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-command-approval.png" alt-text="Screenshot that shows a tool confirmation request." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-command-approval.png":::
+
+:::moniker-end
 
 In the chat window, after a tool invocation, use the **Allow** dropdown options to automatically confirm the specific tool for the current session or solution, or all future invocations.
 
