@@ -51,6 +51,8 @@ New in [**version 17.12**](/visualstudio/releases/2022/release-notes-v17.12): Wh
 
 New in **version 17.13**: With [GitHub Copilot](../ide/visual-studio-github-copilot-install-and-states.md) installed, you can have GitHub Copilot review your code changes before you commit them.
 
+:::moniker-end
+
 :::moniker range="visualstudio"
 
 To enable this feature, open the **Tools** > **Options** pane, expand the **All Settings** > **Preview Features** section, and select the **Pull Request Comments** checkbox. Expand the **All Settings** > **GitHub** > **Copilot** > **Source Control Integration** section and select the **Enable Git preview features** checkbox.
@@ -61,6 +63,8 @@ To enable this feature, open the **Tools** > **Options** pane, expand the **All 
 To enable this feature, open the **Tools** > **Options** dialog, expand the **Environment** > **Preview Features** section, and select the **Pull Request Comments** checkbox. Expand the **GitHub** > **Copilot** > **Source Control Integration** section and select the **Enable Git preview features** checkbox. Select **OK**. 
 
 :::moniker-end
+
+:::moniker range=">=vs-2022"
 
 In the **Git Changes** window, click on the **Review changes with Copilot** button, which looks like a comment icon with a sparkle.
 
@@ -73,6 +77,7 @@ The code review feedback shows up as comments, which show brief summary of the p
 ![Screenshot showing GitHub code review comment.](./media/vs-2022/git-code-review-comment.png)
 
 To remove all comments, use the **X** in the Git Changes window to close the Copilot code review link.
+
 :::moniker-end
 
 ## Revert, reset, or amend a commit
@@ -82,16 +87,19 @@ When you double-click a **Commit**, Visual Studio opens its details in a separat
 :::image type="content" source="media/vs-2022/git-branch-commit-details.png" alt-text="The Commit Details dialog in Visual Studio 2022.":::
 
 :::moniker range=">=vs-2022"
+
 ## Generate commit messages with GitHub Copilot Chat
 
 With Visual Studio version 17.9 and later and the GitHub Copilot extensions, you can use AI to generate detailed commit messages that describe your changes.
 
 > [!NOTE]
->To enable AI-generated commit messages, you need GitHub Copilot and GitHub Copilot Chat. To get started, see [Get GitHub Copilot for Visual Studio 2022](../ide/visual-studio-github-copilot-install-and-states.md).
+> To enable AI-generated commit messages, you need GitHub Copilot and GitHub Copilot Chat. To get started, see [Get GitHub Copilot for Visual Studio 2022](../ide/visual-studio-github-copilot-install-and-states.md).
 
 ![Screenshot showing AI-generated commit message.](./media/vs-2022/git-commit-message-ai.png)
 
 When you're ready to make a commit, use the sparkly pen icon (tooltip: **Add AI generated commit message**) at the lower right of the commit message text box to request an AI-generated commit message. The AI-generated text is generated and added to anything you already had. Read it carefully to see if it's accurate. You have the option of accepting the insertion or discarding it. If you accept the insertion, you can then edit the text before submitting it. When you're ready, choose the **Commit Staged** button, or one of the other commit options available in the dropdown below the commit message editbox.
+
+:::moniker-end
 
 :::moniker range="visualstudio"
 
@@ -109,6 +117,8 @@ To add custom prompt instructions, open the **Tools** > **Options** dialog, and 
 ![Screenshot showing Tools Options GitHub Copilot settings page with custom prompt for commit messages.](./media/vs-2022/git-customize-commit-message-with-ai.png)
 
 :::moniker-end
+
+:::moniker range=">=vs-2022"
 
 GitHub Copilot understands terms like "subject" (the first line of the commit message), "body" (the section describing the changes in more detail), and "footer" (the final section). Some examples include "Use all lowercase," "Limit subject to 50 characters," "Limit body to 2 sentences," "Add a footer with three hash marks," or "Follow Conventional Commits standard," which references the widely used [Conventional Commits](https://www.conventionalcommits.org/) standard.
 
