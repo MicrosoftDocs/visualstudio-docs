@@ -91,17 +91,19 @@ Follow these steps to get started:
 
    - Review individual file diffs and apply them selectively.
 
-7. If you want to review individual code changes that the agent made, you can either:
-
-   - Review the specific change at each step.
-
 :::moniker range="visualstudio"
+
+7. If you want to review individual code changes that the agent made, you can review the specific change at each step.
 
 :::image type="content" source="media/visualstudio/copilot-agent-mode/copilot-agent-stepwise-edits.png" alt-text="Screenshot that shows accessing individual edit diffs with the Copilot agent." lightbox="media/visualstudio/copilot-agent-mode/copilot-agent-stepwise-edits.png":::
 
 :::moniker-end
 
 :::moniker range="<=vs-2022"
+
+7. If you want to review individual code changes that the agent made, you can either:
+
+   - Review the specific change at each step.
 
 :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-stepwise-edits.png" alt-text="Screenshot that shows accessing individual edit diffs with the Copilot agent." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-stepwise-edits.png":::
 
