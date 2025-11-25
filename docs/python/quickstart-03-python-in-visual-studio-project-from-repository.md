@@ -1,7 +1,7 @@
 ---
 title: "Quickstart: Clone a repository of Python code"
 description: Follow guided steps to create a Python project in Visual Studio by cloning the Python koans repository with Git or Team Explorer.
-ms.date: 04/18/2024
+ms.date: 11/21/2025
 ms.topic: quickstart
 author: cwebster-99
 ms.author: cowebster
@@ -171,7 +171,14 @@ Now you're ready to try running the application for the new project:
 
    :::image type="content" source="media/quickstart-python-open-about-asserts.png" alt-text="Screenshot that shows how to open the about_asserts file in Visual Studio." border="false" lightbox="media/quickstart-python-open-about-asserts.png":::
 
-   ::: moniker range=">=vs-2022"
+   ::: moniker range="visualstudio"
+
+   By default, line numbers don't appear in the editor. To see the line numbers, select **Tools** > **Options**, expand the **All Settings** > **Language** > **Python** > **General** section, and select the **Line numbers** option:
+
+   :::image type="content" source="media/visualstudio/quickstart-python-enable-line-numbers.png" alt-text="Screenshot that shows how to enable line numbering in the editor with the Languages Python General Line numbers option." border="false":::
+
+   ::: moniker-end
+   ::: moniker range="vs-2022"
 
    By default, line numbers don't appear in the editor. To see the line numbers, select **Tools** > **Options**, expand the **Text Editor** > **Python** > **General** section, and select the **Line numbers** option:
 

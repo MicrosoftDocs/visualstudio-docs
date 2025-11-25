@@ -21,8 +21,14 @@ This article steps you through creating, running, and customizing a series of un
 
 This article describes how to manually create unit tests. If you would like to generate tests automatically from existing code, see the following articles:
 
+::: moniker range="visualstudio"
+- [Generate and run unit tests using GitHub Copilot testing for .NET](../test/unit-testing-with-github-copilot-test-dotnet.md)
+- [Use slash commands in GitHub Copilot](../ide/copilot-chat-context.md#slash-commands)
+::: moniker-end
+::: moniker range="<= vs-2022"
 - [Create unit test method stubs from code](../test/create-unit-tests-menu.md)
 - [Use slash commands in GitHub Copilot](../ide/copilot-chat-context.md#slash-commands)
+::: moniker-end
 
 ## Prerequisites
 
