@@ -157,7 +157,7 @@ After you add a button control to create an action, add a label control to recei
 
 ::: moniker-end
 
-::: moniker range=">=vs-2022"
+::: moniker range="vs-2022"
 
 After you select your C# project template and name your project, Visual Studio opens a form for you. A form is a Windows user interface. Create a *Hello World* application by adding controls to the form. Then [run the app](#run-the-application).
 
