@@ -41,8 +41,6 @@ Follow these steps to get started:
 
 :::moniker-end
 
-    
-
 1. Enter your prompt, and then select **Send** or select the <kbd>Enter</kbd> key to submit it. You can specify a high-level requirement, and you don't have to specify which files to work on.
 
 1. Agent mode might invoke multiple tools to accomplish different tasks. Optionally, select the **Tools** icon to configure which additional tools the agent can use for responding to your request.
@@ -59,8 +57,6 @@ Follow these steps to get started:
 
 :::moniker-end
 
-    
-
 1. Copilot requests confirmation before running a terminal command or using a tool that isn't built in.
 
 :::moniker range="visualstudio"
@@ -75,15 +71,23 @@ Follow these steps to get started:
 
 :::moniker-end
 
-    
-
 1. Copilot automatically detects issues in code edits or terminal commands, and then takes action. The process repeats until the issues are resolved.
 
 1. As Copilot processes your request, it streams the suggested code edits directly in the editor. Review the suggested edits and either:
 
    - Keep or discard the suggested edits as a whole in **Total changes** in the chat window.
 
-     :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-keep-undo.png" alt-text="Screenshot that shows a list of suggested edits." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-keep-undo.png":::
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/copilot-agent-mode/copilot-agent-keep-undo.png" alt-text="Screenshot that shows a list of suggested edits." lightbox="media/visualstudio/copilot-agent-mode/copilot-agent-keep-undo.png":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
+:::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-keep-undo.png" alt-text="Screenshot that shows a list of suggested edits." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-keep-undo.png":::
+
+:::moniker-end
 
    - Review individual file diffs and apply them selectively.
 
@@ -91,11 +95,25 @@ Follow these steps to get started:
 
    - Review the specific change at each step.
 
-     :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-stepwise-edits.png" alt-text="Screenshot that shows accessing individual edit diffs with the Copilot agent." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-stepwise-edits.png":::
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/copilot-agent-mode/copilot-agent-stepwise-edits.png" alt-text="Screenshot that shows accessing individual edit diffs with the Copilot agent." lightbox="media/visualstudio/copilot-agent-mode/copilot-agent-stepwise-edits.png":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
+:::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-stepwise-edits.png" alt-text="Screenshot that shows accessing individual edit diffs with the Copilot agent." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-stepwise-edits.png":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
 
    - Review the cumulative changes from the last time that changes were kept or undone.
 
      :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-cumulative-edits.png" alt-text="Screenshot that shows accessing cumulative edit diffs with the Copilot agent." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-cumulative-edits.png":::
+
+:::moniker-end
 
 1. Continue to iterate on the code changes to refine the edits or implement more features.
 
