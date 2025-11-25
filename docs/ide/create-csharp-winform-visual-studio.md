@@ -33,7 +33,7 @@ In this tutorial, you create a simple C# application that has a Windows-based us
 
 ::: moniker range=">=vs-2022"
 
-- If you don't have Visual Studio, go to [Visual Studio 2022 downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-create-csharp-winform-app-page-cta) to install it for free.
+- If you don't have Visual Studio, go to [Visual Studio downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-create-csharp-winform-app-page-cta) to install it for free.
 - The **.NET desktop development** workload. To verify or install this workload in Visual Studio, select **Tools** > **Get Tools and Features**. For more information, see [Change workloads or individual components](../install/modify-visual-studio.md#change-workloads-or-individual-components).
 
 ::: moniker-end
@@ -62,7 +62,7 @@ First, create a C# application project. The project type comes with all the temp
 
 ::: moniker-end
 
-::: moniker range=">=vs-2022"
+::: moniker range="vs-2022"
 
 1. Open Visual Studio, and select **Create a new project** in the start window.
 
@@ -77,6 +77,26 @@ First, create a C# application project. The project type comes with all the temp
 1. In the **Configure your new project** window, in **Project name**, enter *HelloWorld*, and select **Create**.
 
     :::image type="content" source="media/vs-2022/csharp-winform-configure-new-project.png" alt-text="Screenshot that shows the Configure your new project window for your project named HelloWorld.":::
+
+   Visual Studio opens your new project.
+
+::: moniker-end
+
+::: moniker range="visualstudio"
+
+1. Open Visual Studio, and select **Create a new project** in the start window.
+
+    :::image type="content" source="media/visualstudio/create-new-project-dark-theme.png" alt-text="Screenshot that shows the Create a new project option.":::
+
+1. In **Create a new project**, select the **Windows Forms App (.NET Framework)** template for C#.
+
+   You can refine your search to quickly get to the template you want. For example, type *Windows Forms App* in the search box. Next, select **C#** from the language list, and then select **Windows** from the platform list.
+
+    :::image type="content" source="media/visualstudio/csharp-winform-create-a-new-project.png" alt-text="Screenshot that shows the C# template for the Windows Forms App (.NET Framework)." lightbox="media/visualstudio/csharp-winform-create-a-new-project.png":::
+
+1. In the **Configure your new project** window, in **Project name**, enter *HelloWorld*, and select **Create**.
+
+    :::image type="content" source="media/visualstudio/csharp-winform-configure-new-project.png" alt-text="Screenshot that shows the Configure your new project window for your project named HelloWorld.":::
 
    Visual Studio opens your new project.
 
