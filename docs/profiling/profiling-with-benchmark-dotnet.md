@@ -41,7 +41,7 @@ The benchmark attributes must be added to a .NET console application. The attrib
 
 To prepare your project for BenchmarkDotNet support, use one of the following methods:
 
-- Open an existing console project or create a new console project. In this scenario, you will manually add add BenchmarkDotNet support.
+- Open an existing console project or create a new console project. In this scenario, you manually add BenchmarkDotNet support.
 - Use the **Benchmark Project** template. Some of the steps described in this article are required only when you manually add BenchmarkDotNet support.
 
   The **Benchmark Project** template generates a fully integrated BenchmarkDotNet project with built-in support for CPU Usage profiling and Copilot insights. To use the template, select **Profiling** from the project types list when you create a new project, and then choose **Benchmark Project**. For information about attributes, see [Attribute your code](#attribute-your-code).
@@ -68,9 +68,11 @@ The following diagnosers are supported:
 
 Each diagnoser generates performance data related to that diagnoser. For example, the CPUUsageDiagnoser generates a *.diagsession* file with CPU data in it, and the DatabaseDiagnoser generates a *.diagsession* file with data on database operations. Limitations correspond to the associated profiling tool. For example, the profiler's Database tool works on [ADO.NET](/dotnet/framework/data/adonet/ado-net-overview) or [Entity Framework Core](/ef/core/).
 
-1. Attribute your code for diagnosers and benchmarks.
+To attribute your code for diagnosers and benchmarks:
 
-   Add the diagnoser name as an attribute to the class that contains the benchmarks for which you want to generate data.
+1. Add the diagnoser name as an attribute to the class that contains the benchmarks for which you want to generate data.
+
+1. Add the `Benchmark` attribute to the methods that you want to test for performance.
 
    For example, you can use the following code for the CPUUsageDiagnoser.
 
@@ -108,13 +110,7 @@ Each diagnoser generates performance data related to that diagnoser. For example
             [Benchmark]
             public byte[] Md5() => md5.ComputeHash(data);
         }
-        // Placeholder for the benchmark runner.
-    }
-    ```
-
-1. Replace the placeholder code in the previous sample with the following code to run the benchmarks (`BenchmarkRunner.Run`).
-
-    ```csharp
+        
         public class Program
         {
             public static void Main(string[] args)
@@ -122,6 +118,7 @@ Each diagnoser generates performance data related to that diagnoser. For example
                 var summary = BenchmarkRunner.Run(typeof(Program).Assembly);
             }
         }
+    }
     ```
 
 ## Collect and view Benchmark.NET data
