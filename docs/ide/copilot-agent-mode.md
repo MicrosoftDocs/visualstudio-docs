@@ -293,7 +293,7 @@ To enable **Planning** in Visual Studio 2022 version 17.14 or later:
 
 After you enable planning, the **Planning** tools appear in the **Tools** list in the chat window:
 
-:::image type="content" source="media/vs-2022/copilot-agent-mode/planning-tools-list.png" alt-text="Screenshot that shows Planning tools group with all subtools enabled in agent mode." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-checkpoint.png":::
+:::image type="content" source="media/vs-2022/copilot-agent-mode/planning-tools-list.png" alt-text="Screenshot that shows Planning tools group with all subtools enabled in agent mode." lightbox="media/vs-2022/copilot-agent-mode/planning-tools-list.png":::
 
 You can selectively disable the planning tool set directly in the Tools list in the chat window. If you need to disable planning tools, we recommend disabling all, not just one. Changes apply immediately to your current chat session.
 
