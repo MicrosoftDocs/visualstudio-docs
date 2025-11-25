@@ -41,9 +41,9 @@ Follow these steps to get started:
 
 :::moniker-end
 
-1. Enter your prompt, and then select **Send** or select the <kbd>Enter</kbd> key to submit it. You can specify a high-level requirement, and you don't have to specify which files to work on.
+2. Enter your prompt, and then select **Send** or select the <kbd>Enter</kbd> key to submit it. You can specify a high-level requirement, and you don't have to specify which files to work on.
 
-1. Agent mode might invoke multiple tools to accomplish different tasks. Optionally, select the **Tools** icon to configure which additional tools the agent can use for responding to your request.
+3. Agent mode might invoke multiple tools to accomplish different tasks. Optionally, select the **Tools** icon to configure which additional tools the agent can use for responding to your request.
 
 :::moniker range="visualstudio"
     
@@ -57,7 +57,7 @@ Follow these steps to get started:
 
 :::moniker-end
 
-1. Copilot requests confirmation before running a terminal command or using a tool that isn't built in.
+4. Copilot requests confirmation before running a terminal command or using a tool that isn't built in.
 
 :::moniker range="visualstudio"
 
@@ -71,9 +71,9 @@ Follow these steps to get started:
 
 :::moniker-end
 
-1. Copilot automatically detects issues in code edits or terminal commands, and then takes action. The process repeats until the issues are resolved.
+5. Copilot automatically detects issues in code edits or terminal commands, and then takes action. The process repeats until the issues are resolved.
 
-1. As Copilot processes your request, it streams the suggested code edits directly in the editor. Review the suggested edits and either:
+6. As Copilot processes your request, it streams the suggested code edits directly in the editor. Review the suggested edits and either:
 
    - Keep or discard the suggested edits as a whole in **Total changes** in the chat window.
 
@@ -91,7 +91,7 @@ Follow these steps to get started:
 
    - Review individual file diffs and apply them selectively.
 
-1. If you want to review individual code changes that the agent made, you can either:
+7. If you want to review individual code changes that the agent made, you can either:
 
    - Review the specific change at each step.
 
@@ -115,7 +115,7 @@ Follow these steps to get started:
 
 :::moniker-end
 
-1. Continue to iterate on the code changes to refine the edits or implement more features.
+8. Continue to iterate on the code changes to refine the edits or implement more features.
 
 ## Understand agent mode tools
 
