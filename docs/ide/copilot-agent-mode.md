@@ -186,7 +186,7 @@ Copilot lists the edited files in the **Total changes** list in the chat window.
 
 :::moniker-end
 
-:::moniker range="<=vs-2002"
+:::moniker range="<=vs-2022"
 
 :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-keep-undo.png" alt-text="Screenshot that shows a list of edited files." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-keep-undo.png":::
 
@@ -200,7 +200,17 @@ Alternatively, in the **Total changes** list, select **Keep** or **Undo** for al
 
 As you request code edits, you might want to revert some changes. To revert, select **Restore** next to the checkpoint before the prompt that includes changes you don't want.
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/copilot-agent-mode/copilot-agent-checkpoint.png" alt-text="Screenshot that shows reverting edits." lightbox="media/visualstudio/copilot-agent-mode/copilot-agent-checkpoint.png":::
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+
 :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-checkpoint.png" alt-text="Screenshot that shows reverting edits." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-checkpoint.png":::
+
+:::moniker-end
 
 Currently, the Visual Studio Copilot agent doesn't support stepwise undo or redo.
 
