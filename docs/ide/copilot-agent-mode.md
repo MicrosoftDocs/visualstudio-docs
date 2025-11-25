@@ -152,7 +152,7 @@ When Copilot invokes a tool, it requests confirmation to run the tool. The reaso
 
 :::moniker-end
 
-:::moniker range="<=vs-2002"
+:::moniker range="<=vs-2022"
 
 :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-command-approval.png" alt-text="Screenshot that shows a tool confirmation request." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-command-approval.png":::
 
