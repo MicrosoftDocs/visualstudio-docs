@@ -31,7 +31,7 @@ Follow these steps to get started:
 
 :::moniker range="visualstudio"
 
-:::image type="content" source="media/visualstudio/copilot-agent-mode/copilot-agent-dropdown.png" alt-text="Screenshot of the Copilot agent mode selector." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-dropdown.png":::
+:::image type="content" source="media/visualstudio/copilot-agent-mode/copilot-agent-dropdown.png" alt-text="Screenshot of the Copilot agent mode selector." lightbox="media/visualstudio/copilot-agent-mode/copilot-agent-dropdown.png":::
 
 :::moniker-end
 
@@ -47,7 +47,19 @@ Follow these steps to get started:
 
 1. Agent mode might invoke multiple tools to accomplish different tasks. Optionally, select the **Tools** icon to configure which additional tools the agent can use for responding to your request.
 
-    :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-tools-list.png" alt-text="Screenshot that shows additional tools that agent mode uses." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-tools-list.png":::
+:::moniker range="visualstudio"
+    
+:::image type="content" source="media/visualstudio/copilot-agent-mode/copilot-agent-tools-list.png" alt-text="Screenshot that shows additional tools that agent mode uses." lightbox="media/visualstudio/copilot-agent-mode/copilot-agent-tools-list.png":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+    
+:::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-tools-list.png" alt-text="Screenshot that shows additional tools that agent mode uses." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-tools-list.png":::
+
+:::moniker-end
+
+    
 
 1. Copilot requests confirmation before running a terminal command or using a tool that isn't built in.
 
