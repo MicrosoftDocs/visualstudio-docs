@@ -1,7 +1,7 @@
 ---
 title: Set breakpoints in workflows
 description: Learn how to use the Workflow Designer to set breakpoints on your graphical workflows as you would in Visual Basic or C# code.
-ms.date: 11/04/2016
+ms.date: 11/26/2025
 ms.topic: how-to
 author: sayedihashimi
 ms.author: sayedha
@@ -12,22 +12,40 @@ ms.subservice: workflow-designer
 
 When you use Workflow Designer, you can set breakpoints on your graphical workflows as you would do in Visual Basic or C# code. As expected, workflow execution stops at each breakpoint that you set.
 
-A breakpoint has three states: *Pending*, *Bound*, and *Error*. When you set a breakpoint, it is Pending, and it is represented by a solid red icon. When the runtime has loaded the workflow type, it becomes Bound. If you specify an incorrect format for the breakpoint, such as an activity name that is not valid, an error window appears. The breakpoint is still added to the breakpoint window, but it is marked with a small "x".
+A breakpoint has three states: *Pending*, *Bound*, and *Error*. When you set a breakpoint, it's Pending, and it's represented by a solid red icon. When the runtime has loaded the workflow type, it becomes Bound. If you specify an incorrect format for the breakpoint, such as an activity name that isn't valid, an error window appears. The breakpoint is still added to the breakpoint window, but it's marked with a small "x".
 
-> [!NOTE]
-> Setting breakpoints on invoked workflows is not supported.
+## Prerequisites
 
-> [!NOTE]
-> Ensure that you select the options **Enable Just My Code (Managed Only)** and **Suppress JIT optimization on module load** from the **Tools** > **Options** > **Debugging** menu before you debug. If these options aren't selected and you have two sequences nested within another sequence, and you set a break point on the first inner sequence, pressing **F11** does not debug into the second inner sequence.
+Before you start debugging your code, prepare your environment and be aware of known limitations.
 
-> [!NOTE]
-> Breakpoints in a workflow are not hit if the full path to XAML file property is not accurate. The full path to XAML file is not accurate after moving the project or solution to another folder or to another machine. Select **Ctrl**+**S** to save and update the full path property.
+- Configure debugging options from the **Tools** > **Options** menu.
+
+   :::moniker range="visualstudio"
+
+   Enable the following options in the **All Settings** > **Debugging** > **General** section: 
+
+   :::moniker range="<=vs-2022"
+   :::moniker-end
+
+   Enable the following options under **Debugging** > **General**: 
+
+   :::moniker-end
+
+   - **Enable Just My Code**
+   - **Suppress JIT optimization on module load (Managed Only)**
+
+   If you don't enable the options, and you have two sequences nested within another sequence and a break point set on the first inner sequence, pressing **F11** doesn't debug into the second inner sequence.
+
+- Setting breakpoints on invoked workflows isn't supported.
+
+- Breakpoints in a workflow aren't hit if the full path to an XAML file property isn't accurate. The full path to the XAML file isn't accurate after you move the project or solution to another folder or to another machine. Select **Ctrl**+**S** to save and update the full path property.
+
 
 ## To set a breakpoint on an activity in the Design View
 
 1. Select the activity you want the debugger to break on.
 
-2. On the **Debug** menu, select **Toggle Breakpoint**. A red icon will appear at the top left edge of the activity.
+1. On the **Debug** menu, select **Toggle Breakpoint**. A red icon appears at the top left edge of the activity.
 
    Alternatively, you can press **F9** after selecting the activity, or you can right-click the activity and select **Breakpoint** > **Insert Breakpoint** from the right-click menu.
 
