@@ -128,7 +128,7 @@ To view and manage the tools that are available in agent mode, select the **Tool
 
 :::moniker range="visualstudio"
 
-:::image type="content" source="media/visualstudio/copilot-agent-mode/copilot-agent-partial-tools.png" alt-text="Screenshot that shows the tool selector for the Copilot agent." lightbox="media/visualstudio/copilot-agent-mode/copilot-agent-partial-tools.png":::
+:::image type="content" source="media/visualstudio/copilot-agent-mode/copilot-agent-partial-tools-list.png" alt-text="Screenshot that shows the tool selector for the Copilot agent." lightbox="media/visualstudio/copilot-agent-mode/copilot-agent-partial-tools-list.png":::
 
 :::moniker-end
 
