@@ -154,7 +154,7 @@ After you add a button control to create an action, add a label control to recei
 1. In the **Form1.cs** window, after the **private void** line, type or enter `lblHelloWorld.Text = "Hello World!";` as shown in the following screenshot.
 
    :::image type="content" source="../get-started/csharp/media/csharp-winforms-add-code.png" alt-text="Screenshot showing the code window where you add code to the form.":::
-
+git
 ::: moniker-end
 
 ::: moniker range="vs-2022"
@@ -210,6 +210,59 @@ After you add a button control to create an action, add a label control to recei
 
 ::: moniker-end
 
+::: moniker range="visualstudio"
+
+After you select your C# project template and name your project, Visual Studio opens a form for you. A form is a Windows user interface. Create a *Hello World* application by adding controls to the form. Then [run the app](#run-the-application).
+
+### Add a button to the form
+
+1. Select **Toolbox** to open the **Toolbox** flyout window.
+
+     :::image type="content" source="media/visualstudio/csharp-winform-hello-world-project-toolbox.png" alt-text="Screenshot that shows how to select the Toolbox to open the Toolbox window.":::
+
+     If you don't see the **Toolbox** option, you can open it from the menu bar. Select **View** > **Toolbox** or **Ctrl**+**Alt**+**X**.
+
+1. Expand **Common Controls** and select the **Pin** icon to dock the **Toolbox** window.
+
+     :::image type="content" source="media/visualstudio/csharp-winform-toolbox-flyout-pin.png" alt-text="Screenshot that shows the Pin icon to pin the Toolbox window to the IDE.":::
+
+1. Select the **Button** control and then drag it onto the form.
+
+     :::image type="content" source="media/visualstudio/csharp-winform-add-button-on-form.png" alt-text="Screenshot that shows the form with a button just added.":::
+
+1. In the **Properties** window, locate **Text**. Change the name from **button1** to `Click this`, and then select **Enter**.
+
+     :::image type="content" source="media/visualstudio/csharp-winform-button-properties-text.png" alt-text="Screenshot that shows the Text field in the Properties window.":::
+
+     If you don't see the **Properties** window, you can open it from the menu bar. Select **View** > **Properties Window** or **F4**.
+
+1. In the **Design** section of the **Properties** window, change the name from **button1** to `btnClickThis`, and then select **Enter**.
+
+     :::image type="content" source="media/visualstudio/csharp-winform-button-properties-design-name.png" alt-text="Screenshot that shows the new name for the button.":::
+
+   If you alphabetized the list in the **Properties** window, **Button1** appears in the **(DataBindings)** section, instead.
+   You can [dock or anchor](/dotnet/desktop/winforms/controls/how-to-dock-and-anchor) the controls on your form to help with automatic placement and sizing, when the form changes size.
+
+### Add a label to the form
+
+After you add a button control to create an action, add a label control to receive the text.
+
+1. Select the **Label** control from the **Toolbox**. Then drag it onto the form and drop it beneath the **Click this** button.
+
+1. In either the **Design** section or the **(DataBindings)** section of the **Properties** window, change the name of **label1** to `lblHelloWorld`. Then select **Enter**.
+
+### Add code to the form
+
+1. In the **Form1.cs &#91;Design&#93;** window, double-click the **Click this** button to open the **Form1.cs** window.
+
+   Alternatively, you can expand **Form1.cs** in **Solution Explorer**, and then choose **Form1**.
+
+1. In the **Form1.cs** window, after the **private void** line, type or enter `lblHelloWorld.Text = "Hello World!";` as shown in the following screenshot.
+
+   :::image type="content" source="media/visualstudio/csharp-winform-button-click-code.png" alt-text="Screenshot that shows where to add code to the form.":::
+
+::: moniker-end
+
 ## Run the application
 
 ::: moniker range="=vs-2019"
@@ -226,7 +279,7 @@ After you add a button control to create an action, add a label control to recei
 1. Close the **Form1** dialog box to stop running the app.
 ::: moniker-end
 
-::: moniker range=">=vs-2022"
+::: moniker range="vs-2022"
 1. Select the **Start** button to run the application.
 
    :::image type="content" source="media/vs-2022/csharp-winform-visual-studio-start-run-program.png" alt-text="Screenshot that shows the Start button to debug and run the app.":::
@@ -236,6 +289,21 @@ After you add a button control to create an action, add a label control to recei
 1. Select the **Click this** button in the **Form1** dialog box. Notice that the **label1** text changes to **Hello World!**.
 
    :::image type="content" source="media/vs-2022/csharp-winform-form.png" alt-text="Screenshot that shows the Form1 dialog box that includes the button and a label.":::
+
+1. Close the **Form1** dialog box to stop running the app.
+
+::: moniker-end
+
+::: moniker range="visualstudio"
+1. Select the **Start** button to run the application.
+
+   :::image type="content" source="media/visualstudio/csharp-winform-visual-studio-start-run-program.png" alt-text="Screenshot that shows the Start button to debug and run the app.":::
+
+   Several things happen. In the Visual Studio IDE, the **Diagnostics Tools** window opens, and an **Output** window opens, too. But outside of the IDE, a **Form1** dialog box appears. It includes your **Click this** button and text that says **label1**.
+
+1. Select the **Click this** button in the **Form1** dialog box. Notice that the **label1** text changes to **Hello World!**.
+
+   :::image type="content" source="media/visualstudio/csharp-winform-form.png" alt-text="Screenshot that shows the Form1 dialog box that includes the button and a label.":::
 
 1. Close the **Form1** dialog box to stop running the app.
 
