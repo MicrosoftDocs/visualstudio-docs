@@ -24,8 +24,8 @@ Before you start debugging your code, prepare your environment and be aware of k
 
    Enable the following options in the **All Settings** > **Debugging** > **General** section: 
 
-   :::moniker range="<=vs-2022"
    :::moniker-end
+   :::moniker range="<=vs-2022"
 
    Enable the following options under **Debugging** > **General**: 
 
