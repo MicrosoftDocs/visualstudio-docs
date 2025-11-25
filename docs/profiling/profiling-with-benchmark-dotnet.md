@@ -34,7 +34,7 @@ You use BenchmarkDotNet by installing required NuGet packages in your project an
   If you use the Benchmark project template, these NuGet packages are present when you create the project.
   ::: moniker-end
 
-## Set upyour project
+## Set up your project
 
 ::: moniker range=">=visualstudio"
 The benchmark attributes must be added to a .NET console application. The attributes can be added to wrapper functions that reference other project types.
