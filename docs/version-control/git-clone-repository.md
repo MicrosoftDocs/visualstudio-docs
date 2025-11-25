@@ -24,28 +24,28 @@ To follow this article, you'll need:
 
 1. Open Visual Studio.
 
-1. From the **Git** menu, select **Clone Repository**.
+2. From the **Git** menu, select **Clone Repository**.
 
-:::moniker range="visualstudio"
+   :::moniker range="visualstudio"
 
-:::image type="content" source="media/visualstudio/git-menu-clone-repository.png" alt-text="Screenshot that shows the Clone Repository option from the Git menu in Visual Studio.":::
+   :::image type="content" source="media/visualstudio/git-menu-clone-repository.png" alt-text="Screenshot that shows the Clone Repository option from the Git menu in Visual Studio.":::
 
-> [!NOTE]
-> If you haven't interacted with the **Git** menu before, you might see **Clone** instead of **Clone Repository**. If so, select **Clone**.
->
-> If the **Git** option isn't available on the menu bar, open the **Tools** > **Options** pane, and expand the **All Settings** > **Source Control** > **Plug-in Selection** section. Use the dropdown list and set the **Change source control plug-in** value to **Git**.
+   > [!NOTE]
+   > If you haven't interacted with the **Git** menu before, you might see **Clone** instead of **Clone Repository**. If so, select **Clone**.
+   >
+   > If the **Git** option isn't available on the menu bar, open the **Tools** > **Options** pane, and expand the **All Settings** > **Source Control** > **Plug-in Selection** section. Use the dropdown list and set the **Change source control plug-in** value to **Git**.
 
-:::moniker-end
-:::moniker range="<=vs-2022"
+   :::moniker-end
+   :::moniker range="<=vs-2022"
 
-:::image type="content" source="../ide/media/vs-2022/git-menu-clone-repository.png" alt-text="Screenshot of the Clone Repository option from the Git menu in Visual Studio.":::
+   :::image type="content" source="../ide/media/vs-2022/git-menu-clone-repository.png" alt-text="Screenshot of the Clone Repository option from the Git menu in Visual Studio.":::
 
-> [!NOTE]
-> If you haven't interacted with the **Git** menu before, you might see **Clone** instead of **Clone Repository**. If so, select **Clone**.
->
-> If the **Git** option isn't available on the menu bar, open the **Tools** > **Options** dialog, and expand the **Source Control** > **Plug-in Selection** section. Use the dropdown list and set the **Current source control plug-in** value to **Git**.
+   > [!NOTE]
+   > If you haven't interacted with the **Git** menu before, you might see **Clone** instead of **Clone Repository**. If so, select **Clone**.
+   >
+   > If the **Git** option isn't available on the menu bar, open the **Tools** > **Options** dialog, and expand the **Source Control** > **Plug-in Selection** section. Use the dropdown list and set the **Current source control plug-in** value to **Git**.
 
-:::moniker-end
+   :::moniker-end
 
 3. In the **Clone a repository** window, under the **Enter a Git repository URL** section, add your repo info in the **Repository location** box.
 
