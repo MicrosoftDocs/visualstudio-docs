@@ -28,7 +28,7 @@ You can also [set up from the Copilot Chat window](work-with-github-accounts.md#
 
 1. Use **Ctrl+\\+C** to open the chat window in Visual Studio. You can also select the **GitHub Copilot** badge in the upper-right corner of the IDE, and then select **Open Chat Window to Sign In** from the dropdown to open chat.
 
-:::moniker range="vs-2022"
+:::moniker range="<=vs-2022"
 
 2. Select **Sign up for Copilot Free** or **Sign up with Google**
 
@@ -59,7 +59,7 @@ You can check your free tier status anytime by selecting **Copilot Usage** from 
 
 :::moniker-end
 
-:::moniker range="vs-2022"
+:::moniker range="<=vs-2022"
 
 You can check your free tier status anytime by selecting **Copilot Free Status** from the Copilot badge dropdown in the top-right corner of the IDE.
 
