@@ -2,7 +2,7 @@
 title: "Tutorial: Create a simple C# console app"
 description: Create a C# console application in Visual Studio and explore some features of the Visual Studio integrated development environment (IDE).
 ms.custom: vs-acquisition
-ms.date: 01/24/2025
+ms.date: 12/01/2025
 ms.subservice: general-ide
 ms.topic: tutorial
 ms.devlang: csharp
