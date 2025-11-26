@@ -154,7 +154,7 @@ After you add a button control to create an action, add a label control to recei
 1. In the **Form1.cs** window, after the **private void** line, type or enter `lblHelloWorld.Text = "Hello World!";` as shown in the following screenshot.
 
    :::image type="content" source="../get-started/csharp/media/csharp-winforms-add-code.png" alt-text="Screenshot showing the code window where you add code to the form.":::
-git
+
 ::: moniker-end
 
 ::: moniker range="vs-2022"
