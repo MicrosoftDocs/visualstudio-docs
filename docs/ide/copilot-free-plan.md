@@ -51,9 +51,23 @@ You can also [set up from the Copilot Chat window](work-with-github-accounts.md#
 
 Copilot Free provides a limited number of code completions and chat responses for free per month. When you reach your monthly usage limit for chat or code completions or both, you'll get a notification and notice a change in Copilot functionality.
 
+:::moniker range="visualstudio"
+
+You can check your free tier status anytime by selecting **Copilot Usage** from the Copilot badge dropdown in the top-right corner of the IDE.
+
+:::image type="content" source="media/visualstudio/copilot-free/copilot-free-status.png" alt-text="Screenshot of Copilot Free Status menu option.":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 You can check your free tier status anytime by selecting **Copilot Free Status** from the Copilot badge dropdown in the top-right corner of the IDE.
 
 :::image type="content" source="media/vs-2022/copilot-free/copilot-free-status.png" alt-text="Screenshot of Copilot Free Status menu option.":::
+
+:::moniker-end
+
+
 
 You can also check the current status of your Copilot Free account on the [GitHub account settings page](https://github.com/settings/copilot).
 
