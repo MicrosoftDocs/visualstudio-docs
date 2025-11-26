@@ -121,7 +121,7 @@ To remove all installations of Visual Studio 2019 and the Visual Studio Installe
 
 ::: moniker-end
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 To remove all installations of Visual Studio and the Visual Studio Installer from your machine, uninstall Visual Studio from **Installed apps**.
 
