@@ -97,19 +97,18 @@ IntelliTest automatically generates unit tests and test data for your managed co
 
 ![IntelliTest in action](media/devtest-intellitest.png)
 
-> [!NOTE]
-> IntelliTest is available in Enterprise edition only. It is supported for C# code that targets the .NET Framework. .NET Core and .NET Standard are not supported.
-
-* [Generate unit tests for your code with IntelliTest](generate-unit-tests-for-your-code-with-intellitest.md)
-* [IntelliTest – One test to rule them all](https://devblogs.microsoft.com/devops/intellitest-one-test-to-rule-them-all/)
-* [IntelliTest reference manual](intellitest-manual/index.md)
-
 ::: moniker range="visualstudio"
 [!INCLUDE [intellitest-deprecation](includes/intellitest-deprecation.md)]
 ::: moniker-end
 ::: moniker range="vs-2022"
 [!INCLUDE [intellitest-visual-studio-2022](includes/intellitest-visual-studio-2022.md)]
 ::: moniker-end
+
+For more information, see the following:
+
+* [Generate unit tests for your code with IntelliTest](generate-unit-tests-for-your-code-with-intellitest.md)
+* [IntelliTest – One test to rule them all](https://devblogs.microsoft.com/devops/intellitest-one-test-to-rule-them-all/)
+* [IntelliTest reference manual](intellitest-manual/index.md)
 
 ::: moniker range="<=vs-2019"
 ## User interface testing with Coded UI and Selenium
