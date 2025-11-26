@@ -86,7 +86,7 @@ If you change your mind later and want to reinstall Visual Studio, start the Vis
 
    On the Windows Start menu, you can search for *installer*.
 
-   :::image type="content" source="media/visualstudio/visual-studio-installer.png" alt-text="Screenshot that shows the Visual Studio Installer on the Start menu.":::
+   :::image type="content" source="media/vs-2019/visual-studio-installer.png" alt-text="Screenshot that shows the Visual Studio Installer on the Start menu.":::
 
    > [!NOTE]
    > You can also find the Visual Studio Installer in the following location:
