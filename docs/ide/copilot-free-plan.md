@@ -55,7 +55,7 @@ Copilot Free provides a limited number of code completions and chat responses fo
 
 You can check your free tier status anytime by selecting **Copilot Usage** from the Copilot badge dropdown in the top-right corner of the IDE.
 
-:::image type="content" source="media/visualstudio/copilot-free/copilot-free-status.png" alt-text="Screenshot of Copilot Free Status menu option.":::
+:::image type="content" source="media/visualstudio/copilot-free-status.png" alt-text="Screenshot of Copilot Free Status menu option.":::
 
 :::moniker-end
 
