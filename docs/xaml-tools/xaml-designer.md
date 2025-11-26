@@ -173,10 +173,8 @@ Use this setting to determine the default zoom value for viewing the XAML docume
 
 2. Use the dropdown list and set the value of the **Default zoom setting** option:
 
-|Name|Description|
-|-|-|
-|**Last Used**|Use the last used zoom value for all the XAML documents by default. When a XAML document is opened for the first time, the "Fit All" setting is used for the first time only.|
-|**Fit All**|Use this option to set the zoom value to "Fit All" for the XAML designer. When a XAML document is closed and reopened, the last set value persists for that session but for different sessions, "Fit All" is used by default.|
+   - **Last Used**: Use the last used zoom value for all the XAML documents by default. When a XAML document is opened for the first time, the "Fit All" setting is used for the first time only.
+   - **Fit All**: Use this option to set the zoom value to "Fit All" for the XAML designer. When a XAML document is closed and reopened, the last set value persists for that session but for different sessions, "Fit All" is used by default.
 
 :::moniker range="<=vs-2022"
 
@@ -203,17 +201,17 @@ Use these options to access unique settings when you edit XAML files by using Bl
 
 :::moniker range="visualstudio"
 
-1. In Blend, open the **Tools** > **Options** pane and expand the **All Settings** > **XAML Designer** > **General** section.
+In Blend, open the **Tools** > **Options** pane and expand the **All Settings** > **XAML Designer** > **General** section.
 
 :::moniker-end
 :::moniker range="vs-2022"
 
-1. In Blend, open the **Tools** > **Options** dialog and expand the **XAML Designer** > **General** section.
+In Blend, open the **Tools** > **Options** dialog and expand the **XAML Designer** > **General** section.
 
 :::moniker-end
 :::moniker range="<=vs-2019"
 
-1. In Blend, open the **Tools** > **Options** dialog, expand your project type (WPF or UWP), and expand the **XAML Designer** > **General** section.
+In Blend, open the **Tools** > **Options** dialog, expand your project type (WPF or UWP), and expand the **XAML Designer** > **General** section.
 
 :::moniker-end
 
@@ -227,17 +225,17 @@ Use these settings to determine XAML Designer behavior when you edit XAML docume
 
 :::moniker range="visualstudio"
 
-1. In Blend, open the **Tools** > **Options** pane and expand the **All Settings** > **XAML Designer** > **Artboard** section.
+In Blend, open the **Tools** > **Options** pane and expand the **All Settings** > **XAML Designer** > **Artboard** section.
 
 :::moniker-end
 :::moniker range="vs-2022"
 
-1. In Blend, open the **Tools** > **Options** dialog and expand the **XAML Designer** > **Artboard** section.
+In Blend, open the **Tools** > **Options** dialog and expand the **XAML Designer** > **Artboard** section.
 
 :::moniker-end
 :::moniker range="<=vs-2019"
 
-1. In Blend, open the **Tools** > **Options** dialog, expand your project type (WPF or UWP), and expand the **XAML Designer** > **Artboard** section.
+In Blend, open the **Tools** > **Options** dialog, expand your project type (WPF or UWP), and expand the **XAML Designer** > **Artboard** section.
 
 :::moniker-end
 
