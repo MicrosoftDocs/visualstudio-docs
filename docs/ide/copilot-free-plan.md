@@ -40,7 +40,7 @@ You can also [set up from the Copilot Chat window](work-with-github-accounts.md#
 
 1. Select **Sign up for Copilot Free** or **Sign up with Google**
 
-   :::image type="content" source="../ide/media/visualstudio/copilot-free/sign-up-for-copilot-free.png" alt-text="Screenshot of Sign up for Copilot Free in the Chat window.":::
+   :::image type="content" source="../ide/media/visualstudio/sign-up-for-copilot-free.png" alt-text="Screenshot of Sign up for Copilot Free in the Chat window.":::
 
 :::moniker-end
 
