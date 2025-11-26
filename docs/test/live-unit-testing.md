@@ -1,7 +1,7 @@
 ---
 title: Configure and use Live Unit Testing
 description: Learn about Live Unit Testing during application development, including supported frameworks and how to configure Live Unit Testing.
-ms.date: 08/01/2023
+ms.date: 11/21/2025
 ms.topic: how-to
 helpviewer_keywords:
 - Live Unit Testing
@@ -108,13 +108,24 @@ The last part of the wizard configuration page is where you set up the test run 
 
 ### More configuration
 
-Configure Live Unit Testing by selecting **Tools** > **Options** on the top-level Visual Studio menu bar. On the left pane of the **Options** dialog, select **Live Unit Testing**.
+Configure Live Unit Testing by selecting **Tools** > **Options** on the top-level Visual Studio menu bar.
 
-After Live Unit Testing is enabled (see [Start, pause, and stop Live Unit Testing](#start-pause-and-stop)), you can also open the **Options** dialog by selecting **Test** > **Live Unit Testing** > **Options**.
+:::moniker range="visualstudio"
 
-The following image shows the Live Unit Testing configuration options available in the dialog.
+In the **Options** pane, expand the **All Settings** > **Test** > **Live Unit Testing** section.
+
+:::image type="content" source="./media/visualstudio/tools-options-live-unit-testing.png" border="false" alt-text="Screenshot that shows Live Unit Testing configuration options.":::
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+In the **Options** dialog, expand the **Live Unit Testing** > **General** section.
 
 ![Screenshot that shows Live Unit Testing configuration options.](./media/lut-v2/tools-options-live-unit-testing.png)
+
+:::moniker-end
+
+After Live Unit Testing is enabled (see [Start, pause, and stop Live Unit Testing](#start-pause-and-stop)), you can open the options again by selecting **Test** > **Live Unit Testing** > **Options**.
 
 The configurable options include:
 
@@ -129,6 +140,10 @@ The configurable options include:
    You can also display verbose output in the Live Unit Testing **Output** window by assigning a value of **1** to a user-level environment variable named `VS_UTE_DIAGNOSTICS`. Then restart Visual Studio.
 
    To capture detailed MSBuild log messages from Live Unit Testing in a file, set the `LiveUnitTesting_BuildLog` user-level environment variable to the name of the file to contain the log.
+
+
+
+
 
 ## Customize your build for Live Unit Testing
 
