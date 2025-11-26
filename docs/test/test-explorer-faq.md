@@ -1,7 +1,7 @@
 ---
 title: Review Test Explorer FAQ Issues and Answers
 description: Review frequently asked questions (FAQs) about Visual Studio Test Explorer, which include some common troubleshooting scenarios.
-ms.date: 06/25/2020
+ms.date: 11/25/2025
 ms.topic: faq
 helpviewer_keywords:
   - "Test Explorer"
@@ -53,7 +53,16 @@ This feature is called [real-time test discovery](https://devblogs.microsoft.com
 
 **How can I turn on logs for Test Explorer?**
 
-Go to **Tools** > **Options** > **Test** and find the **Logging** section there.
+:::moniker range="visualstudio"
+
+Open the **Tools** > **Options** pane, expand the **All Settings** > **Test** section, and configure the **Logging level** settings.
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+Open the **Tools** > **Options** dialog, expand the **Test** > **General** section, and configure the **Logging** settings.
+
+:::moniker-end
 
 ## UWP test discovery
 
