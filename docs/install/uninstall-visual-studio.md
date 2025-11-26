@@ -101,7 +101,7 @@ If you change your mind later and want to reinstall Visual Studio, start the Vis
 
 1. Select **OK** to confirm your choice.
 
-   :::image type="content" source="media/vs-2022/uninstall-visualstudio-confirm.png" alt-text="Screenshot that shows the dialog to confirm that you want to uninstall Visual Studio 2022.":::
+   :::image type="content" source="media/visualstudio/uninstall-visualstudio-confirm.png" alt-text="Screenshot that shows the dialog to confirm that you want to uninstall Visual Studio.":::
 
 If you change your mind later and want to reinstall Visual Studio, start the Visual Studio Installer again, select the **Available** tab,  choose the edition of Visual Studio that you want to install, and then select **Install**.
 
