@@ -30,7 +30,7 @@ You can also [set up from the Copilot Chat window](work-with-github-accounts.md#
 
 :::moniker range="vs-2022"
 
-1. Select **Sign up for Copilot Free** or **Sign up with Google**
+2. Select **Sign up for Copilot Free** or **Sign up with Google**
 
    :::image type="content" source="../ide/media/vs-2022/copilot-free/sign-up-for-copilot-free.png" alt-text="Screenshot of Sign up for Copilot Free in the Chat window.":::
 
@@ -38,14 +38,14 @@ You can also [set up from the Copilot Chat window](work-with-github-accounts.md#
 
 :::moniker range="visualstudio"
 
-1. Select **Sign up for Copilot Free** or **Sign up with Google**
+2. Select **Sign up for Copilot Free** or **Sign up with Google**
 
    :::image type="content" source="../ide/media/visualstudio/sign-up-for-copilot-free.png" alt-text="Screenshot of Sign up for Copilot Free in the Chat window.":::
 
 :::moniker-end
 
-1. If you have an existing GitHub account, sign in when prompted. If not, follow the steps to create a new GitHub account. 
-1. Once finished, you’re redirected back to Visual Studio. 
+3. If you have an existing GitHub account, sign in when prompted. If not, follow the steps to create a new GitHub account. 
+4. Once finished, you’re redirected back to Visual Studio. 
 
 ## Copilot Free usage limits in Visual Studio
 
