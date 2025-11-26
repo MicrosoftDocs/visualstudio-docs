@@ -1,7 +1,7 @@
 ---
 title: "Remote Debug ASP.NET Core on Azure App Service"
 description: Configure Azure App Service for remote debugging and attach the remote debugger from Visual Studio to debug the app as though it's running locally.
-ms.date: 04/23/2024
+ms.date: 11/21/2025
 ms.topic: article
 author: "mikejo5000"
 ms.author: "mikejo"
@@ -19,8 +19,6 @@ This article describes how to attach the Visual Studio debugger to an ASP.NET Co
 - Visual Studio 2022 with the **ASP.NET and web development** and the **Azure development** workload installed.
 
 - You must first deploy an ASP.NET Core app to Azure App Service (Windows) from Visual Studio, and the app must be running.
-
-  For hands-on training that includes App Service deployment, see [Remote debug ASP.NET Core on Azure](/training/modules/dotnet-debug-visual-studio-azure-web-apps/).
 
 - Your publish profile in Visual Studio must be set to Debug instead of Release before publishing.
 
@@ -51,11 +49,17 @@ Your app service instance now supports remote debugging through Visual Studio.
    > [!NOTE]
    > Make sure the state of your local code matches what was deployed to Azure. This ensures that the local symbol files and source code line up with the deployed app.
 
-1. Select **Debug > Options** from the top Visual Studio menu. Ensure that **Enable Just My code** is *unchecked* (as shown below), and then select **OK**.
+1. Select **Debug > Options** from the top Visual Studio menu. Ensure that **Enable Just My code** is *unchecked* (as shown in the following illustration), and then select **OK**.
 
     Changing this setting allows Visual Studio to debug the optimized code that was deployed to Azure using the necessary symbol files from your local bin folder. Symbol files are used by the debugger as a bridge between compiled, executing code and the source code in Visual Studio. Matching symbol files are required for remote debugging.
 
+    ::: moniker range="visualstudio"
+    :::image type="content" source="../debugger/media/visualstudio/visual-studio-remote-debug-settings.png" alt-text="A screenshot of the Visual Studio debugging settings.":::
+    ::: moniker-end
+
+   ::: moniker range="vs-2022"
     :::image type="content" source="../debugger/media/vs-2022/visual-studio-remote-debug-settings.png" alt-text="A screenshot of the Visual Studio debugging settings.":::
+    ::: moniker-end
 
 ## Attach the debugger to the App Service
 
