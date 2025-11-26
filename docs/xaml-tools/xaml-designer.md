@@ -239,7 +239,7 @@ In Blend, open the **Tools** > **Options** dialog, expand your project type (WPF
 
 :::moniker-end
 
-The following Artboard properties are available:
+The following sections describe the available Artboard properties.
 
 ### Snapping
 
