@@ -241,6 +241,8 @@ Copy this code and edit it to suit your needs.
       <DataCollector friendlyName="Code Coverage" uri="datacollector://Microsoft/CodeCoverage/2.0" assemblyQualifiedName="Microsoft.VisualStudio.Coverage.DynamicCoverageDataCollector, Microsoft.VisualStudio.TraceCollector, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
         <Configuration>
           <Format>coverage</Format>
+          <!-- When set to False, test assemblies will not be added to the coverage report. -->
+          <IncludeTestAssembly>True</IncludeTestAssembly>
           <CodeCoverage>
 <!--
 Additional paths to search for .pdb (symbol) files. Symbols must be found for modules to be instrumented.
@@ -349,8 +351,6 @@ Included items must then not match any entries in the exclude list to remain inc
             <EnableDynamicNativeInstrumentation>True</EnableDynamicNativeInstrumentation>
             <!-- When set to True, instrumented binaries on disk are removed and original files are restored. -->
             <EnableStaticNativeInstrumentationRestore>True</EnableStaticNativeInstrumentationRestore>
-            <!-- When set to False, test assemblies will not be added to the coverage report. -->
-            <IncludeTestAssembly>True</IncludeTestAssembly>
           </CodeCoverage>
         </Configuration>
       </DataCollector>
