@@ -1,7 +1,7 @@
 ---
 title: "XAML data binding diagnostics"
 description: Perform XAML data binding diagnostics while debugging code in Visual Studio to detect and resolve data binding errors in XAML projects.
-ms.date: 03/28/2022
+ms.date: 11/26/2025
 ms.topic: article
 helpviewer_keywords:
   - "xaml data binding"
@@ -52,7 +52,7 @@ Or, select the **Binding failures** button in the application toolbar. The numbe
 
 :::image type="content" source="media/xaml-binding-failures-in-app.png" alt-text="Screenshot of the in-app toolbar showing the binding failures button.":::
 
-When there are no binding failures in the tool window, the icon shows as gray without a number next to it. This is helpful while running your application. If you see the icon turn red with a number, click it to quickly jump to the tool window to see what binding failures occurred. There's no need to keep an eye on the Visual Studio tool windows. When a binding fails the icon will tell you right away.
+When there are no binding failures in the tool window, the icon shows as gray without a number next to it. This is helpful while running your application. If you see the icon turn red with a number, click it to quickly jump to the tool window to see what binding failures occurred. There's no need to keep an eye on the Visual Studio tool windows. When a binding fails, the icon status shows you the immediate status.
 
 :::image type="content" source="media/xaml-binding-failures-in-app-2.png" alt-text="Screenshot of the in-app toolbar showing the binding failures button with no failures.":::
 
@@ -66,9 +66,9 @@ The following is a description of all components of the XAML Binding Failures to
 
 * The toolbar at the top contains buttons as follows:
   * **Clear the list of failures**: This is useful if you're about to show a new page in your app and want to see if any binding failures show up. When you start a new debugging session, the list is automatically cleared.
-  * **Delete selected rows**: If a failure has been fixed or isn't relevant, you can delete it from the list. Deleted rows will show up again if the binding fails again.
-  * **Clear all filters**: If there are any filters on the list, such as searching for text, then this button will clear them and show the full list.
-  * **Combine Duplicates**: Often the same binding will fail many times in a row when it is within an item template. When the **Combine Duplicates** button is selected (with an outline around it) then all duplicate failures are shown as a single row. The **Count** column will show how many times the failure occurred.
+  * **Delete selected rows**: If a failure has been fixed or isn't relevant, you can delete it from the list. Deleted rows show up again if the binding fails again.
+  * **Clear all filters**: If there are any filters on the list, such as searching for text, then this button clears them and show the full list.
+  * **Combine Duplicates**: Often the same binding fails many times in a row when it is within an item template. When the **Combine Duplicates** button is selected (with an outline around it) then all duplicate failures are shown as a single row. The **Count** column shows how many times the failure occurred.
 * The **Search Binding Failures** box in the top corner lets you filter the failures to only those that contain specific text.
 * The table columns, in order, show:
   * An icon that shows if the row is for an error or warning.
@@ -77,17 +77,17 @@ The following is a description of all components of the XAML Binding Failures to
     * See [Binding.Source](/dotnet/api/system.windows.data.binding.source)
   * **Binding Path**: This is the property path for the binding
     * See [Binding.Path](/dotnet/api/system.windows.data.binding.path)
-  * **Target**: This is the type and property name where the binding’s value will be set.
+  * **Target**: This option is the type and property name where the binding's value is set.
     * See [BindingExpressionBase.Target](/dotnet/api/system.windows.data.bindingexpressionbase.target) and [BindingExpressionBase.TargetProperty](/dotnet/api/system.windows.data.bindingexpressionbase.targetproperty)
   * **Target Type**: This is the expected type of the binding’s target property.
     * See [BindingExpressionBase.TargetProperty](/dotnet/api/system.windows.data.bindingexpressionbase.targetproperty)
   * **Description**: This column contains more information about what exactly failed for the binding.
   * **File**, **Line**, and **Project**: If known, this is the location in XAML where the binding is defined.
-* Right-clicking a row or multiple selected rows will show a context menu, with standard options for showing/hiding columns or grouping them. Other options are as follows:
+* Right-clicking a row or multiple selected rows show a context menu, with standard options for showing/hiding columns or grouping them. Other options are as follows:
   * Copy all the text from a row or just a single column to the clipboard.
-  * Copy Original Error will copy the text that appeared in the debug output window.
-  * View Source will go to the binding source in XAML for one selected row.
-  * Reset Columns will undo all changes to column visibility and sorting, getting you back quickly to what was originally shown.
+  * Copy Original Error copies the text that appeared in the debug output window.
+  * View Source goes to the binding source in XAML for one selected row.
+  * Reset Columns undoes all changes to column visibility and sorting, getting you back quickly to what was originally shown.
 
 To sort the list, click any column header. To sort again by an extra column, hold down the **Shift** key and click another column header. To select which columns are displayed and which are hidden, choose **Show Columns** from the shortcut menu. To change the order in which columns are displayed, drag any column header to the left or right.
 
@@ -107,17 +107,41 @@ Most XAML platforms are supported if binding failures are written to debug outpu
 |**Xamarin 4.5.0.266-pre3+**|Yes|Yes|
 |**Xamarin before 4.5.0.266-pre3**|No|No|
 
-The XAML Hot Reload option must be enabled in Visual Studio for navigating to source to work. This option is in the **Tools** > **Options** > **Debugging dialog**:
+:::moniker range="visualstudio"
 
-:::image type="content" source="media/xaml-binding-failures-hot-reload-option.png" alt-text="Screenshot of the XAML Hot Reload options dialog.":::
+To support navigating to the source, the XAML Hot Reload feature must be enabled in Visual Studio. In the **Tools** > **Options** pane, expand the **All Settings** > **Debugging** > **XAML Hot Reload** section, and select the **Enable XAML Hot Reload** checkbox.
+
+:::image type="content" source="media/visualstudio/xaml-binding-failures-hot-reload-option.png" border="false" alt-text="Screenshot of the XAML Hot Reload options in the Tools Options pane.":::
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+To support navigating to the source, the XAML Hot Reload feature must be enabled in Visual Studio. In the **Tools** > **Options** dialog, expand the **Debugging** > **XAML Hot Reload** section, select the **Enable XAML Hot Reload** checkbox, and then select **OK**.
+
+:::image type="content" source="media/xaml-binding-failures-hot-reload-option.png" border="false" alt-text="Screenshot of the XAML Hot Reload options in the Tools Options dialog.":::
+
+:::moniker-end
 
 Navigating to source only works for bindings defined in XAML source files, not if they're created through code. You can clearly see which rows support navigating to the source. If there's no angle bracket icon in the second column, then navigating to source isn't supported, such as with the highlighted row in the following screenshot:
 
 :::image type="content" source="media/xaml-binding-failures-no-go-to-code.png" alt-text="Screenshot showing a XAML binding failure without a source location.":::
 
-For WPF in .NET Framework, data binding failures must be shown in the debug output for the XAML Binding Failures pane to detect and show them. The option for this is in the **Tools** > **Options** > **Debugging** > **Output Window** > **WPF Trace Settings** dialog. If the setting is either **Off** or **Critical**, then data binding errors aren't written to debug output and can't be detected. With WPF in .NET 5, .NET 6, and later the data binding output setting doesn't affect the failure list.
+:::moniker range="visualstudio"
 
-:::image type="content" source="media/xaml-binding-failures-wpf-output-options.png" alt-text="Screenshot of WPF output options.":::
+For WPF in .NET Framework, data binding failures must be shown in the debug output for the XAML Binding Failures pane to detect and show them. Configure the **Data Binding** setting in the **Tools** > **Options** pane, under the **All Settings** > **Debugging** > **Output Window** > **WPF Trace Settings** section.
+
+:::image type="content" source="media/visualstudio/xaml-binding-failures-wpf-output-options.png" border="false" alt-text="Screenshot that shows how to set the Data Binding option.":::
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+For WPF in .NET Framework, data binding failures must be shown in the debug output for the XAML Binding Failures pane to detect and show them. Configure the **Data Binding** setting in the **Tools** > **Options** dialog, under the **Debugging** > **Output Window** section, **WPF Trace Settings** group.
+
+:::image type="content" source="media/xaml-binding-failures-wpf-output-options.png" border="false" alt-text="Screenshot of the Data Binding option in the WPF Trace Settings group.":::
+
+:::moniker-end
+
+If the setting value is either **Off** or **Critical**, then data binding errors aren't written to debug output and can't be detected. With WPF in .NET 5, .NET 6, and later the data binding output setting doesn't affect the failure list.
 
 ## Related content
 
