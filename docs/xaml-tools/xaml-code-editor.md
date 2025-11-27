@@ -1,7 +1,7 @@
 ---
 title: What is the XAML code editor?
 description: Explore the XAML code editor in Visual Studio for tools to create Windows Presentation Foundation (WPF) or Universal Windows Platform (UWP) apps and Xamarin.Forms.
-ms.date: 06/16/2020
+ms.date: 11/30/2025
 ms.topic: overview
 f1_keywords:
 - VS.XamlEditor
@@ -15,7 +15,7 @@ ms.subservice: xaml-tools
 
 The XAML code editor in the [Visual Studio IDE](../get-started/visual-studio-ide.md) includes all the tools you need to create WPF and UWP apps for the Windows platform, and for  [Xamarin.Forms](/xamarin/xamarin-forms/) or [.NET MAUI](/dotnet/maui). This article outlines both the role the code editor plays when you develop XAML-based apps, and the features that are unique to the XAML code editor in Visual Studio 2019.
 
-To start, let's take a look at the IDE (integrated development environment) with an open WPF project. The following image shows several of the key IDE tools you'll use along with the XAML code editor.
+To start, let's take a look at the IDE (integrated development environment) with an open WPF project. The following image shows several of the key IDE tools you use along with the XAML code editor.
 
 :::image type="content" source="media/xaml-code-editor-overview-sml.png" alt-text="The Visual Studio 2019 IDE with an open WPF project in XAML" lightbox="media/xaml-code-editor-overview-lrg.png":::
 
@@ -78,19 +78,19 @@ The Window dropdown lists have different functions, as follows:
 
 - The **Element: Window** on the left helps you view and navigate to sibling or parent elements.
 
-  Specifically, it shows you an outline-like view that reveals the tag structure of your code. When you select from the list, your focus in the code editor will snap to the line of code that includes the element you selected.
+  Specifically, it shows you an outline-like view that reveals the tag structure of your code. When you select from the list, your focus in the code editor snaps to the line of code that includes the element you selected.
 
     ![The Element: Window dropdown list in Visual Studio](media/xaml-element-window-dropdown.png "Screenshot of the Element: Window dropdown list in Visual Studio 2019")
 
 - The **Member: Window** on the right helps you view and navigate to attribute or child elements.
 
-    Specifically, it shows you a list of the properties in your code. When you select from the list, your focus in the code editor will snap to the line of code that includes the property you selected.
+    Specifically, it shows you a list of the properties in your code. When you select from the list, your focus in the code editor snaps to the line of code that includes the property you selected.
 
     ![The Member: Window dropdown list in Visual Studio](media/xaml-member-window-dropdown.png "Screenshot of the Member: Window dropdown list in Visual Studio 2019")
 
 ### Middle pane, code editor
 
-The middle pane is the "code" part of the XAML code editor. It includes most of the features that you'll find in the [IDE code editor](../get-started/tutorial-editor.md). We'll touch on several of the universal IDE features that can help you develop your XAML code. We'll also highlight the unique-to-XAML features in the IDE, too.
+The middle pane is the "code" part of the XAML code editor. It includes most of the features that you find in the [IDE code editor](../get-started/tutorial-editor.md). We'll touch on several of the universal IDE features that can help you develop your XAML code. We'll also highlight the unique-to-XAML features in the IDE, too.
 
 ![The XAML code editor, middle pane only, in Visual Studio](media/xaml-code-editor-middle.png "Screenshot of the XAML code editor, middle pane only, in Visual Studio 2019")
 
@@ -102,7 +102,7 @@ For example, one useful task that you can perform by using Quick Actions is to *
 
 Here's how:
 
-1. Hover over a using statement, choose the lightbulb icon, and then choose **Remove Unnecessary Usings** from the drop-down list.
+1. Hover over a using statement, choose the light bulb icon, and then choose **Remove Unnecessary Usings** from the drop-down list.
 
     ![The IDE editor's "Remove Unnecessary Usings" option from the Quick Actions menu](media/xaml-code-editor-remove-usings.png "Screenshot of the IDE editor's Remove Unnecessary Usings option from the Quick Actions menu")
 
@@ -125,7 +125,16 @@ The color of the left margin allows you to keep track of the changes you have ma
 
     ![Code editor edit with green bar](media/code-editor-edit-green.png "Screenshot of the code editor with a change marked with a green bar in the selection margin.")
 
-To turn this feature off and on, change the **Track changes** option in the **Text Editor** settings (**Tools** > **Options** > **Text Editor**).
+:::moniker range="visualstudio"
+
+You can turn this feature off and on in the **Tools** > **Options** pane. Expand the **All Settings** > **Text Editor** > **General** section and select or clear the **Track changes** checkbox. 
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+You can turn this feature off and on in the **Tools** > **Options** dialog. Expand the **Text Editor** > **General** section and select or clear the **Track changes** checkbox. 
+
+:::moniker-end
 
 For more information about change tracking&mdash;to include the wavy lines (also known as "squiggles") that appear under code strings&mdash;see the **[Editor features](../ide/writing-code-in-the-code-and-text-editor.md#editor-features)** section of the [Features of the Visual Studio code editor](../ide/writing-code-in-the-code-and-text-editor.md) page.
 
@@ -138,9 +147,9 @@ When you're editing your code in the XAML code editor, there are several feature
 Here's what each feature does and how it's useful:
 
 - **View Code** - Opens the programming language code window, which is typically tabbed next to the default view that includes the Design window and the XAML code editor.
-- **View Designer** - Opens the default view that includes the Design window and the XAML code editor. (If you are already in the default view, it does nothing.)
-- **Quick Actions and Refactorings** - Refactors, generates, or otherwise modifies code with a single action. When you hover over code, you'll see a lightbulb icon when a quick action or refactoring is available. <br>See also: [Quick Actions](../ide/quick-actions.md) and [Refactor code](../ide/refactoring-in-visual-studio.md).
-- **Rename...** - Renames namespaces only. If you don't have a namespace to rename, you'll receive an error message that says "Only namespace prefixes can be renamed."
+- **View Designer** - Opens the default view that includes the Design window and the XAML code editor. (If you're already in the default view, it does nothing.)
+- **Quick Actions and Refactorings** - Refactors, generates, or otherwise modifies code with a single action. When you hover over code, you'll see a light bulb icon when a quick action or refactoring is available. <br>See also: [Quick Actions](../ide/quick-actions.md) and [Refactor code](../ide/refactoring-in-visual-studio.md).
+- **Rename...** - Renames namespaces only. If you don't have a namespace to rename, you receive an error message that says "Only namespace prefixes can be renamed."
 - **Remove and Sort Namespaces** - Removes unused namespaces and then sorts those namespaces that remain.
 - **Peek Definition** - Previews the definition of a type without leaving your current location in the editor. <br>See also: [Peek Definition](../ide/go-to-and-peek-definition.md#peek-at-a-definition) and [View and edit code by using Peek Definition](../ide/how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md).
 - **Go To Definition** - Navigates to the source of a type or member, and opens the result in a new tab. <br>See also: [Go To Definition](../ide/go-to-and-peek-definition.md#go-to-a-definition).
@@ -166,9 +175,9 @@ For more information about how to split an editor window, see the [Manage editor
 
 #### Use annotations or map mode
 
-You can also change how the scroll bar looks and what additional features it contains. For example, many people like to include *annotations* in the scroll bar, which provide visual cues such as code changes, breakpoints, bookmarks, errors, and caret position.
+You can also change how the scroll bar looks and the other features it contains. For example, many people like to include *annotations* in the scroll bar, which provide visual cues such as code changes, breakpoints, bookmarks, errors, and caret position.
 
-Others appreciate using *map mode*, which displays lines of code in miniature on the scroll bar. Developers who have a lot of code in a file might find that map mode tracks to lines of code more effectively than does the default scroll bar.
+Others appreciate using *map mode*, which displays lines of code in miniature on the scroll bar. Developers who work with large code files might find that map mode tracks to lines of code more effectively than the default scroll bar.
 
 For more information about how to change the default settings of the scroll bar, see the  [Customize the scroll bar](../ide/how-to-track-your-code-by-customizing-the-scrollbar.md) page.
 
@@ -178,7 +187,7 @@ Most of the following features are universally available in the Visual Studio ID
 
 ### XAML code snippets
 
-Code snippets are small blocks of reusable code that you can insert into in a code file by using the right-click context menu command **Insert snippet** or a combination of keyboard shortcuts (**Ctrl**+**K**, **Ctrl**+**X**). We've enhanced [IntelliSense](../ide/using-intellisense.md) so that it supports showing XAML snippets, which work for both built-in snippets and any custom snippets that you add manually. Some out-of-the-box XAML snippets include `#region`, `Column definition`, `Row definition`, `Setter`, and `Tag`.
+Code snippets are small blocks of reusable code that you can insert into in a code file by using the right-click context menu command **Insert snippet** or a combination of keyboard shortcuts (**Ctrl**+**K**, **Ctrl**+**X**). [IntelliSense](../ide/using-intellisense.md) now supports showing XAML snippets, which work for both built-in snippets and any custom snippets that you add manually. Some out-of-the-box XAML snippets include `#region`, `Column definition`, `Row definition`, `Setter`, and `Tag`.
 
 ![The XAML code editor with XAML code snippet options showing in IntelliSense](media/xaml-code-snippets.png "Screenshot of the XAML code editor with XAML code snippet options showing in IntelliSense")
 
@@ -217,13 +226,13 @@ Developers often prefer to document their code by using comments. You can add co
 
 For more information about how to use comments in the C# code that's in the **MainWindow.xaml.cs** tab, see the [Documentation comments](/dotnet/csharp/language-reference/language-specification/documentation-comments/) page.
 
-### XAML lightbulbs
+### XAML light bulbs
 
-Lightbulb icons that appear in your XAML code are part of the [Quick Actions](../ide/quick-actions.md) that you can use to refactor, generate, or otherwise modify code.
+Light bulb icons that appear in your XAML code are part of the [Quick Actions](../ide/quick-actions.md) that you can use to refactor, generate, or otherwise modify code.
 
 Here are a few examples of how they can benefit your XAML coding experience:
 
-- **Remove unnecessary namespaces**. In the XAML code editor, unnecessary namespaces appear in dimmed text. If you hover your cursor over an unnecessary using, a lightbulb will appear. When you choose the **Remove Unnecessary Namespaces** option from the drop-down list, you'll see a preview of that which you can remove.
+- **Remove unnecessary namespaces**. In the XAML code editor, unnecessary namespaces appear in dimmed text. If you hover your cursor over an unnecessary using, a light bulb appears. When you choose the **Remove Unnecessary Namespaces** option from the drop-down list, you see a preview of that which you can remove.
 
   ![The XAML code editor's Remove Unnecessary Namespaces option from the Quick Actions lightbulb](media/xaml-code-editor-dimmed-namespaces-preview.png "Screenshot of the XAML code editor's Remove Unnecessary Namespaces option that appears by using the Quick Actions lightbulb")
 
@@ -261,33 +270,74 @@ For more information about *all* the settings in the Visual Studio IDE, see the 
 
 ## XAML optional settings
 
-You can use the [Options](../ide/reference/options-dialog-box-visual-studio.md) dialog box to change the default settings for the XAML code editor. To view the settings, choose **Tools** > **Options** > **Text Editor** > **XAML**.
+:::moniker range="visualstudio"
+
+You can use the [Options](../ide/reference/options-dialog-box-visual-studio.md) pane to change the default settings for the XAML code editor. To view the settings, open the **Tools** > **Options** pane and expand the **All Settings** > **Languages** > **XAML** section.
+
+:::image type="content" source="media/visualstudio/xaml-tools-options.png" border="false" alt-text="Screenshot of the Options list for the XAML language.":::
+
+> [!NOTE]
+> You can also use keyboard shortcuts to access sections and settings in the **Options** pane. Select **Ctrl**+**Q** to search the IDE, type _options_, and then press **Enter**. To search the list of options, press **Ctrl**+**E**, type _languages_, press **Enter**, type _xaml_, and then press **Enter**.
+>
+> For more information about keyboard shortcuts, see the [Shortcut tips for Visual Studio](../ide/productivity-shortcuts.md#code-editor) page.
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+You can use the [Options](../ide/reference/options-dialog-box-visual-studio.md) dialog to change the default settings for the XAML code editor. To view the settings, open the **Tools** > **Options** dialog and expand the **Text Editor** > **XAML** section.
 
 ![The Options list for the XAML text editor](media/xaml-tools-options.png "Screenshot of the Options list for the XAML text editor")
 
 > [!NOTE]
-> You can also use keyboard shortcuts to access the Options dialog box. Here's how: Press **Ctrl**+**Q** to search the IDE, type **Options**, and then press **Enter**. Next, press **Ctrl**+**E** to search the Options dialog box, type **Text Editor**, press **Enter**, type **XAML**, and then press **Enter**.
+> You can also use keyboard shortcuts to access sections and settings in the **Options** dialog. Press **Ctrl**+**Q** to search the IDE, type _options_, and then press **Enter**. Next, press **Ctrl**+**E** to search the Options, type _text editor_, press **Enter**, type _xaml_, and then press **Enter**.
 >
 > For more information about keyboard shortcuts, see the [Shortcut tips for Visual Studio](../ide/productivity-shortcuts.md#code-editor) page.
 
+:::moniker-end
+
 ### Universal text editor options
 
-In the [Options](../ide/reference/options-text-editor-xaml-formatting.md) dialog box for XAML, the following first three items are universal to all programming languages that the Visual Studio IDE supports. Visit the linked information in the following table to learn more about these options and how to use them.
+The first three sections of XAML [Options](../ide/reference/options-text-editor-xaml-formatting.md) provide settings that are universal to all programming languages that the Visual Studio IDE supports. To learn more about these options and how to use them, see the linked information in the following table.
 
-|Name  |More info  |
-|---------|---------|
-|General  | [Options dialog box: Text Editor > All Languages](../ide/reference/options-text-editor-all-languages.md) |
-|Scroll bars | [Options, Text Editor, All Languages, Scroll Bars](../ide/reference/options-text-editor-all-languages-scroll-bars.md) |
-|Tabs  |  [Options, Text Editor, All Languages, Tabs](../ide/reference/options-text-editor-all-languages-tabs.md) |
+:::moniker range="visualstudio"
+
+| Section     | Location |
+|-------------|----------|
+| General     | [Options pane: All Settings, Languages, Defaults, General](../ide/reference/options-text-editor-all-languages.md) |
+| Scroll bars | [Options, All Settings, Languages, Scroll Bars](../ide/reference/options-text-editor-all-languages-scroll-bars.md) |
+| Tabs        | [Options, All Settings, Languages, Tabs](../ide/reference/options-text-editor-all-languages-tabs.md) |
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+| Section     | Location |
+|-------------|----------|
+| General     | [Options dialog: Text Editor, All Languages, General](../ide/reference/options-text-editor-all-languages.md) |
+| Scroll bars | [Options, Text Editor, All Languages, Scroll Bars](../ide/reference/options-text-editor-all-languages-scroll-bars.md) |
+| Tabs        | [Options, Text Editor, All Languages, Tabs](../ide/reference/options-text-editor-all-languages-tabs.md) |
+
+:::moniker-end
 
 ### XAML-specific text editor options
 
-The following table lists the settings in the [Options](../ide/reference/options-text-editor-xaml-formatting.md) dialog box that can enhance your editing experience when you develop XAML-based apps. Visit the linked information to learn more about these options and how to use them.
+The following sections of XAML [Options](../ide/reference/options-text-editor-xaml-formatting.md) are specific to XAML. These settings can enhance your editing experience when you develop XAML-based apps. To learn more about these options and how to use them, see the linked information in the following table.
 
-|Name  |More info  |
-|---------|---------|
-|Formatting | [Options, Text Editor, XAML, Formatting](../ide/reference/options-text-editor-xaml-formatting.md) |
-|Miscellaneous |  [Options, Text Editor, XAML, Miscellaneous](../ide/reference/options-text-editor-xaml-miscellaneous.md) |
+:::moniker range="visualstudio"
+
+| Section       | Location |
+|---------------|----------|
+| Formatting    | [Options pane: All Settings, Languages, XAML, Formatting](../ide/reference/options-text-editor-xaml-formatting.md) |
+| Miscellaneous | [Options, All Settings, Languages, XAML, Miscellaneous](../ide/reference/options-text-editor-xaml-miscellaneous.md) |
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+| Section       | Location |
+|---------------|----------|
+| Formatting    | [Options pane: Text Editor, XAML, Formatting](../ide/reference/options-text-editor-xaml-formatting.md) |
+| Miscellaneous | [Options, Text Editor, XAML, Miscellaneous](../ide/reference/options-text-editor-xaml-miscellaneous.md) |
+
+:::moniker-end
 
 > [!TIP]
 > The **Capitalize event handler method name** setting in the **Miscellaneous** section is especially useful to XAML developers. This setting is *off* by default because it's new, but we suggest that you set it to *on* to support proper casing in your code.
