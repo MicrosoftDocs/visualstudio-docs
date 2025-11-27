@@ -304,8 +304,8 @@ The first three sections of XAML [Options](../ide/reference/options-text-editor-
 | Section     | Location |
 |-------------|----------|
 | General     | [Options pane: All Settings, Languages, Defaults, General](../ide/reference/options-text-editor-all-languages.md) |
-| Scroll bars | [Options, All Settings, Languages, Scroll Bars](../ide/reference/options-text-editor-all-languages-scroll-bars.md) |
-| Tabs        | [Options, All Settings, Languages, Tabs](../ide/reference/options-text-editor-all-languages-tabs.md) |
+| Scroll bars | [Options, All Settings, Languages, Defaults, Scroll Bars](../ide/reference/options-text-editor-all-languages-scroll-bars.md) |
+| Tabs        | [Options, All Settings, Languages, Defaults, Tabs](../ide/reference/options-text-editor-all-languages-tabs.md) |
 
 :::moniker-end
 :::moniker range="<=vs-2022"
@@ -334,7 +334,7 @@ The following sections of XAML [Options](../ide/reference/options-text-editor-xa
 
 | Section       | Location |
 |---------------|----------|
-| Formatting    | [Options pane: Text Editor, XAML, Formatting](../ide/reference/options-text-editor-xaml-formatting.md) |
+| Formatting    | [Options dialog: Text Editor, XAML, Formatting](../ide/reference/options-text-editor-xaml-formatting.md) |
 | Miscellaneous | [Options, Text Editor, XAML, Miscellaneous](../ide/reference/options-text-editor-xaml-miscellaneous.md) |
 
 :::moniker-end
