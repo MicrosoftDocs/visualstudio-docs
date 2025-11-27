@@ -103,7 +103,7 @@ When you're ready to make a commit, use the sparkly pen icon (tooltip: **Add AI 
 
 :::moniker range="visualstudio"
 
-With Visual Studio 2022 version 17.12 and later, you can customize the commit message format globally by giving additional guidance in the prompt for GitHub Copilot. To add custom prompt instructions, open the **Tools** > **Options** pane, and expand the **All Settings** > **GitHub** > **Copilot** > **Source Control Integration** section. In the **Commit message custom instructions** box, enter your additions to the prompt text. The changes affect every commit message. With this prompt guidance in place, teams can standardize commit message formats.
+You can customize the commit message format globally by giving additional guidance in the prompt for GitHub Copilot. To add custom prompt instructions, open the **Tools** > **Options** pane, and expand the **All Settings** > **GitHub** > **Copilot** > **Source Control Integration** section. In the **Commit message custom instructions** box, enter your additions to the prompt text. The changes affect every commit message. With this prompt guidance in place, teams can standardize commit message formats.
 
 :::image type="content" source="./media/visualstudio/git-customize-commit-message-with-ai.png" border="false" alt-text="Screenshot that shows how to to add a custom prompt for commit message with Tools Options.":::
 
