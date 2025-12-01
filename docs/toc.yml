@@ -561,6 +561,8 @@
         href: ide/options-text-editor-all-languages-tabs.md
       - name: Customize language options in the editor
         href: ide/options-text-editor-all-languages.md
+      - name: Customize advanced text editor options
+        href: ../ide/options-text-editor-advanced.md
     - name: Code style
       items:
       - name: Code style preferences
@@ -960,8 +962,6 @@
         items:
         - name: General
           href: ide/reference/options-text-editor-general.md
-        - name: Advanced
-          href: ide/reference/options-text-editor-advanced.md
         - name: All Languages
           items:
         - name: Visual Basic
