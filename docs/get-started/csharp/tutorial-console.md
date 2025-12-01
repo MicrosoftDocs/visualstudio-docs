@@ -504,7 +504,7 @@ To fix the code to improve precision by handling decimals:
 
 :::moniker range="<=vs-2022"
 
-    The app now returns a decimal number instead of zero.
+   The app now returns a decimal number instead of zero.
 
    :::image type="content" source="media/csharp-console-calculator-decimal.png" alt-text="Screenshot of a Console window showing the Calculator app that now returns a decimal numeral as a result.":::
 
@@ -1038,7 +1038,7 @@ Let's get started.
 
 1. Close the **Output** pane in Visual Studio.
 
-:::image type="content" source="media/csharp-calculator-close-output-pane.png" alt-text="Screenshot that shows closing the Output pane in Visual Studio.":::
+:::image type="content" source="media/csharp-calculator-close-output-pane.png" alt-text="Screenshot that shows closing the Output pane.":::
 
 :::moniker-end
 
@@ -1046,7 +1046,7 @@ Let's get started.
 
 1. Close the **Output** pane in Visual Studio.
 
-:::image type="content" source="media/visualstudio/csharp-calculator-close-output-pane.png" alt-text="Screenshot that shows closing the Output pane in Visual Studio.":::
+:::image type="content" source="media/visualstudio/csharp-calculator-close-output-pane.png" alt-text="Screenshot that shows how to close the Output pane in Visual Studio.":::
 
 :::moniker-end
 
