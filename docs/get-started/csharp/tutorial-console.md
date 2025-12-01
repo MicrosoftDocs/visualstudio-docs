@@ -1046,7 +1046,7 @@ Let's get started.
 
 :::moniker range="<=vs-2022"
 
-1. Close the **Output** pane in Visual Studio.
+2. Close the **Output** pane in Visual Studio.
 
 :::image type="content" source="media/csharp-calculator-close-output-pane.png" alt-text="Screenshot that shows closing the Output pane.":::
 
@@ -1054,17 +1054,13 @@ Let's get started.
 
 :::moniker range="visualstudio"
 
-1. Close the **Output** pane in Visual Studio.
+2. Close the **Output** pane in Visual Studio.
 
 :::image type="content" source="media/visualstudio/csharp-calculator-close-output-pane.png" alt-text="Screenshot that shows how to close the Output pane in Visual Studio.":::
 
 :::moniker-end
 
-1. Close the **Output** pane in Visual Studio.
-
-   :::image type="content" source="media/csharp-calculator-close-output-pane.png" alt-text="Screenshot that shows closing the Output pane in Visual Studio.":::
-
-1. In Visual Studio, press **Ctrl**+**S** to save your app.
+3. In Visual Studio, press **Ctrl**+**S** to save your app.
 
 [!INCLUDE[../includes/git-source-control.md](../includes/git-source-control.md)]
 
