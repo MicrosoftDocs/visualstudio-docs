@@ -577,7 +577,17 @@ After you replace the code, the section with the `switch` statement should look 
 
 Now, when you divide any number by zero, the app asks for another number, and keeps asking until you provide a nonzero number.
 
+:::moniker range="<=vs-2022"
+
 :::image type="content" source="media/csharp-console-calculator-dividebyzero.png" alt-text="Screenshot of a Console window with a repeated prompt to provide a nonzero number.":::
+
+:::moniker-end
+
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/csharp-console-calculator-dividebyzero.png" alt-text="Screenshot that shows a Console window with a repeated prompt to provide a nonzero number.":::
+
+:::moniker-end
 
 ### Fix the *format* error
 
