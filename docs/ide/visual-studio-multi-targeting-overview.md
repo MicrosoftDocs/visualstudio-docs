@@ -1,7 +1,7 @@
 ---
 title: Specify the targeted .NET Frameworks
 description: Specify the .NET Framework version that you want your project to target so the application can only use functionality that's available in the specified version.
-ms.date: 12/13/2024
+ms.date: 12/01/2025
 ms.topic: overview
 helpviewer_keywords:
 - targeting .NET Framework [Visual Studio]
