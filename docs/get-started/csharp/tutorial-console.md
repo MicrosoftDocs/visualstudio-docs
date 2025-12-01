@@ -1052,7 +1052,7 @@ Let's get started.
 
 :::moniker-end
 
-:::moniker range="<=vs-2022"
+:::moniker range="visualstudio"
 
 1. Close the **Output** pane in Visual Studio.
 
