@@ -559,6 +559,8 @@
         href: ide/reference/how-to-display-urls-as-links-in-the-editor.md
       - name: Change indents and tabs
         href: ide/options-text-editor-all-languages-tabs.md
+      - name: Customize language options in the editor
+        href: ide/options-text-editor-all-languages.md
     - name: Code style
       items:
       - name: Code style preferences
@@ -962,8 +964,6 @@
           href: ide/reference/options-text-editor-advanced.md
         - name: All Languages
           items:
-          - name: General
-            href: ide/reference/options-text-editor-all-languages.md
         - name: Visual Basic
           items:
           - name: Advanced
