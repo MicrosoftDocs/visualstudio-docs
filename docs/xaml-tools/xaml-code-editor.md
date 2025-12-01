@@ -136,7 +136,7 @@ You can turn this feature off and on in the **Tools** > **Options** dialog. Expa
 
 :::moniker-end
 
-For more information about change tracking&mdash;to include the wavy lines (also known as "squiggles") that appear under code strings&mdash;see the **[Editor features](../ide/writing-code-in-the-code-and-text-editor.md#editor-features)** section of the [Features of the Visual Studio code editor](../ide/writing-code-in-the-code-and-text-editor.md) page.
+For more information about change tracking&mdash;to include the wavy lines (also known as "squiggles") that appear under code strings&mdash;see the **[Editor features](../ide/writing-code-in-the-code-and-text-editor.md#editor-features)** section of the [Features of the Visual Studio Code editor](../ide/writing-code-in-the-code-and-text-editor.md) page.
 
 #### Right-click context menu
 
@@ -348,7 +348,7 @@ To learn more about how to edit your code in real time while you're running your
 
 ## See also
 
-- [Visual Studio code editor features](../ide/writing-code-in-the-code-and-text-editor.md)
+- [Visual Studio Code editor features](../ide/writing-code-in-the-code-and-text-editor.md)
 - [XAML in UWP apps](/windows/uwp/xaml-platform/xaml-overview/)
 - [XAML in Xamarin.Forms apps](/xamarin/xamarin-forms/xaml/)
 - [XAML in .NET MAUI apps](/dotnet/maui/xaml/)
