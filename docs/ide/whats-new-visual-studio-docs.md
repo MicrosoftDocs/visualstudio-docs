@@ -24,7 +24,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 - [Configure HTTPS when deploying containerized applications to Azure](../containers/manage-certificates.md) - Service Fabric support note
 - [Visual Studio Container Tools](../containers/overview.md)
   - Service Fabric support note
-  - Rebrand: Visual Studio - Dev18/Visual Studio 2026
+  - Update images for Visual Studio 2026
 
 ### Data tools
 
@@ -102,7 +102,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- [Tutorial: Get started with C# and ASP.NET Core in Visual Studio](../get-started/csharp/tutorial-aspnet-core.md) - Update screenshots for Visual Studio 2026
+- [Tutorial: Get started with C# and ASP.NET Core in Visual Studio](../get-started/csharp/tutorial-aspnet-core.md) - Update images for Visual Studio 2026
 - [Welcome to the Visual Studio IDE | Visual Basic](../get-started/visual-basic/visual-studio-ide.md) - Updates for settings (**Tools** > **Options**)
 
 ### IDE
@@ -144,10 +144,10 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
   - [Customize window layouts and personalize tabs](../ide/customizing-window-layouts-in-visual-studio.md)
   - [Customize startup](../ide/customizing-the-start-page-for-visual-studio.md)
   - [Get started with GitHub Copilot Next Edit Suggestions](../ide/copilot-next-edit-suggestions.md)
-- Update screenshots
+- Update images for Visual Studio 2026
   - [Report a problem with the Visual Studio product or installer](../ide/how-to-report-a-problem-with-visual-studio.md)
   - [Add or remove references by using the Reference Manager](../ide/how-to-add-or-remove-references-by-using-the-reference-manager.md)
-  - [Compare files in Visual Studio](../ide/compare-with.md) - Rebrand: Visual Studio - Dev18/Visual Studio 2026
+  - [Compare files in Visual Studio](../ide/compare-with.md)
 - Editor margin feature
   - [Encodings and line endings](../ide/encodings-and-line-breaks.md)
   - [Save and open files with encoding](../ide/how-to-save-and-open-files-with-encoding.md)
@@ -155,11 +155,9 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
   - [Get started with GitHub Copilot agent mode](../ide/copilot-agent-mode.md)
   - [Build and clean projects and solutions in Visual Studio](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md)
   - [Set AutoRecover options](../ide/autorecover-environment-options-dialog-box.md)
-
 - [Customize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md) - Update for new settings experience
 - [Use MCP servers](../ide/mcp-servers.md) - MCP Server content updates
-- [Locate and organize project and item templates](../ide/how-to-locate-and-organize-project-and-item-templates.md)
-  - Review and update
+- [Locate and organize project and item templates](../ide/how-to-locate-and-organize-project-and-item-templates.md) - Review and update
 - [Productivity guide for Visual Studio](../ide/productivity-features.md) - Add adaptive paste to productivity guide
 - [Customize chat responses and set context](../ide/copilot-chat-context.md)
   - Add custom instructions, targeted instruction files
@@ -167,9 +165,9 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 - [Synchronize Visual Studio settings across multiple computers](../ide/synchronized-settings-in-visual-studio.md) - Update for new Visual Studio settings experience
 - [Manage chat context with references](../ide/copilot-chat-context-references.md)
   - Add custom instructions, targeted instruction files
-  - Add copilot memories
+  - Add Copilot memories
 - [Get started with GitHub Copilot](../ide/visual-studio-github-copilot-get-started.md) - Add custom instructions, targeted instruction files
-- [How Copilot Chat understands and uses context](../ide/copilot-context-overview.md) - Add copilot memories
+- [How Copilot Chat understands and uses context](../ide/copilot-context-overview.md) - Add Copilot memories
 
 ### Install
 
@@ -214,7 +212,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 - [Tutorial: Create an ASP.NET Core app with React in Visual Studio](../javascript/tutorial-asp-net-core-with-react.md) - Update publishing steps for ASP.NET Core and Vue
 - [Tutorial: Create an ASP.NET Core app with Vue in Visual Studio](../javascript/tutorial-asp-net-core-with-vue.md) - Update publishing steps for ASP.NET Core and Vue
-Update for new settings (**Tools** > **Options**) experience
+- Update for new settings (**Tools** > **Options**) experience
   - [Overview of the Visual Studio IDE for JavaScript](../javascript/quickstart-ide-orientation-js.md)
   - [Debug a JavaScript or TypeScript app in Visual Studio](../javascript/debug-nodejs.md)
 
@@ -222,7 +220,7 @@ Update for new settings (**Tools** > **Options**) experience
 
 **Updated articles**
 
-Update for new settings (**Tools** > **Options**) experience
+- Update for new settings (**Tools** > **Options**) experience
   - [MSB3821 diagnostic code](../msbuild/errors/msb3821.md)
   - [MSB3023 diagnostic code](../msbuild/errors/msb3023.md)
   - [MSB3501 diagnostic code](../msbuild/errors/msb3501.md)
@@ -259,7 +257,7 @@ Update for new settings (**Tools** > **Options**) experience
   - [Tutorial: Work with the Flask web framework in Visual Studio](../python/learn-flask-visual-studio-step-01-project-solution.md)
   - [Install debugging symbols for Python interpreters in Visual Studio](../python/debugging-symbols-for-mixed-mode-c-cpp-python.md)
   - [Debug Python and C++ together in Visual Studio](../python/debugging-mixed-mode-c-cpp-python-in-visual-studio.md)
-- Update screenshots for Visual Studio 2026
+- Update images for Visual Studio 2026
   - [Create and manage Python environments in Visual Studio](../python/managing-python-environments-in-visual-studio.md)
   - [Install Python support in Visual Studio](../python/installing-python-support-in-visual-studio.md)
 
@@ -311,10 +309,10 @@ Update for new settings (**Tools** > **Options**) experience
 - [About Git in Visual Studio](../version-control/git-with-visual-studio.md)
 - [Make a Git commit in Visual Studio](../version-control/git-make-commit.md)
 - [Create a pull request in Visual Studio](../version-control/git-create-pull-request.md)
-[About Git in Visual Studio](../version-control/git-with-visual-studio.md) - Update screenshots for Visual Studio 2026
-- [Clone a Git repository in Visual Studio](../version-control/git-clone-repository.md) - Update screenshots for Visual Studio 2026
+[About Git in Visual Studio](../version-control/git-with-visual-studio.md) - Update images for Visual Studio 2026
+- [Clone a Git repository in Visual Studio](../version-control/git-clone-repository.md) - Update images for Visual Studio 2026
 - [Manage Git repositories in Visual Studio](../version-control/git-manage-repository.md) - Add a tip for restoring the Git Repository window on restart
-- [Resolve merge conflicts in Visual Studio](../version-control/git-resolve-conflicts.md) - Update screenshots for Visual Studio 2026
+- [Resolve merge conflicts in Visual Studio](../version-control/git-resolve-conflicts.md) - Update images for Visual Studio 2026
 
 ### Community contributors
 
