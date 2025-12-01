@@ -481,7 +481,7 @@ The following people contributed to the Visual Studio docs during this period. T
 - [Find, install, and manage extensions for Visual Studio](../ide/finding-and-using-visual-studio-extensions.md)
   - Add a section on security measures in place to protect extension users
   - Review and update
-- [Options dialog box: Text Editor \> Advanced](../ide/reference/options-text-editor-advanced.md) - Update UI reference articles
+- [Options dialog box: Text Editor \> Advanced](../ide/options-text-editor-advanced.md) - Update UI reference articles
 - [Use the Immediate window](../ide/immediate-window.md) - Update UI reference articles
 - [Paste JSON or XML as classes](../ide/paste-json-xml.md) - Update UI reference articles
 - [Productivity guide for Visual Studio](../ide/productivity-features.md) - Update UI reference articles

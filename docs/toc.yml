@@ -562,7 +562,7 @@
       - name: Customize language options in the editor
         href: ide/options-text-editor-all-languages.md
       - name: Customize advanced text editor options
-        href: ../ide/options-text-editor-advanced.md
+        href: ide/options-text-editor-advanced.md
     - name: Code style
       items:
       - name: Code style preferences
