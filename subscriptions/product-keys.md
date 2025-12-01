@@ -3,12 +3,18 @@ title: Understanding the product keys offered in your Visual Studio subscription
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 08/01/2025
+ms.date: 11/19/2025
 ms.topic: how-to
 description: Obtain and manage your product keys in Visual Studio subscriptions for products that require keys for installation or activation.
 ---
 
 # Understanding the product keys offered in your Visual Studio subscription
+
+## What's on this page
+
++ ***Where to Get Keys:*** *Steps to locate and claim product keys in the Visual Studio Subscriptions portal.*
++ ***Types of Keys Explained:*** *Overview of Retail, MAK, Static, OEM, and other key types with their intended uses.*
++ ***Managing Keys:*** *Guidance on activation limits, exporting keys before subscription ends, and best practices for* reimaging scenarios.
 
 Visual Studio subscriptions provide access to a wide range of Microsoft products for designing, developing, testing, and demonstrating applications. Some of these products require product keys during installation, and some of those products require activation.
 
@@ -48,10 +54,10 @@ Our research shows that most subscribers are covered by the number of product ke
 Some products bundle multiple editions of the product into a single download. In these cases, the product key entered determines which edition of the product is installed.
 Some keys are provided automatically, such as "static" keys, which you can use as many times as needed because activation isn't required. Other keys must be claimed by selecting the **Blue Key** icon for the product.
 > [!div class="mx-imgBorder"]
-> ![Get Key from Downloads Page](_img/product-keys/download-get-key-rev.png "Screenshot of the download page for Visual Studio Enterprise 2022. The blue key icon is highlighted.")
+> [![Get Key from Downloads Page](_img/product-keys/download-get-key-revision-2.png "Screenshot of the download page for Visual Studio Enterprise 2026. The blue key icon is highlighted.")](_img/product-keys/download-get-key-revision-2.png#lightbox)
 
 > [!div class="mx-imgBorder"]
-> ![Product Keys Page](_img/product-keys/product-keys-page-rev.png "Screenshot of the Product keys page on the subscription portal.")
+> [![Product Keys Page](_img/product-keys/product-keys-page-rev.png "Screenshot of the Product keys page on the subscription portal.")](_img/product-keys/product-keys-page-rev.png#lightbox)
 
 Various key types are available, depending on the product.
 

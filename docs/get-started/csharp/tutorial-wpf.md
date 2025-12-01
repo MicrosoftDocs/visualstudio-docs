@@ -27,7 +27,7 @@ In this tutorial, you become familiar with many of the tools, dialog boxes, and 
 
 ## Prerequisites
 
-- If you don't have Visual Studio, go to [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) to install it for free.
+- If you don't have Visual Studio, go to [Visual Studio downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) to install it for free.
 - Make sure the **.NET desktop development** workload is installed. You can verify this configuration in Visual Studio Installer.
 - You can use either .NET Framework or .NET Core for this tutorial. .NET Core is the newer, more modern framework. .NET Core requires Visual Studio 2019 version 16.3 or later.
 

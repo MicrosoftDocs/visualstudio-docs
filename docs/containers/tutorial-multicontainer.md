@@ -10,7 +10,7 @@ ms.topic: tutorial
 
 # Tutorial: Create a multi-container app with Docker Compose
 
-In this tutorial, you learn how to manage more than one container and communicate between them when using Container Tools in Visual Studio. Managing multiple containers requires *container orchestration* and requires an orchestrator such as Docker Compose or Service Fabric. For these procedures, you use Docker Compose. Docker Compose is great for local debugging and testing in the course of the development cycle.
+In this tutorial, you learn how to manage more than one container and communicate between them when using Container Tools in Visual Studio. Managing multiple containers requires *container orchestration* and requires an orchestrator such as Docker Compose. For these procedures, you use Docker Compose. Docker Compose is great for local debugging and testing in the course of the development cycle.
 
 :::moniker range=">=vs-2022"
 The completed sample that you create in this tutorial can be found on GitHub at [`https://github.com/MicrosoftDocs/vs-tutorial-samples`](https://github.com/MicrosoftDocs/vs-tutorial-samples) in the folder *docker/ComposeSample*.
@@ -21,18 +21,18 @@ The completed sample that you create in this tutorial can be found on GitHub at 
 ::: moniker range="vs-2019"
 
 - [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
-- [Visual Studio 2019 or later](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET cross-platform development** workload installed.
+- [Visual Studio 2019 or later](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET cross-platform development** workload installed.
 ::: moniker-end
 
 ::: moniker range="vs-2022"
 
 - [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
-- [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET cross-platform development** workload installed. This installation includes the .NET SDK.
+- [Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET cross-platform development** workload installed. This installation includes the .NET SDK.
 ::: moniker-end
 ::: moniker range="visualstudio"
 
 - [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
-- [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET cross-platform development** workload installed. This installation includes the .NET SDK.
+- [Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET cross-platform development** workload installed. This installation includes the .NET SDK.
 ::: moniker-end
 ## Create a Web Application project
 

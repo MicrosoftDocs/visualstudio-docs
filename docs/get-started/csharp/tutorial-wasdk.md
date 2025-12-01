@@ -21,7 +21,7 @@ In this introduction to the Visual Studio integrated development environment (ID
 > [!NOTE]
 > WinUI 3 is the native UI platform component that ships with the [Windows App SDK](/windows/apps/windows-app-sdk/) (completely decoupled from [Windows SDKs](/windows/apps/windows-app-sdk/)). For more information, see [WinUI 3](/windows/apps/winui/winui3/).
 
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
+If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) page to install it for free.
 
 ::: moniker range=">=vs-2022"
 ## Prerequisites

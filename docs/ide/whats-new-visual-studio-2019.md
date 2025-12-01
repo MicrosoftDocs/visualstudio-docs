@@ -22,7 +22,7 @@ ms.custom:
 **Updated for the 16.11 release.** See [full release notes](/visualstudio/releases/2019/release-notes/) | View [product roadmap](/visualstudio/productinfo/vs2019-roadmap)
 
 >[!div class="button"]
->[Download Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta)
+>[Download Visual Studio 2019](https://aka.ms/vs/download/?cid=learn-onpage-download-cta)
 
 With Visual Studio 2019, you'll get best-in-class tools and services for any developer, any app, and any platform. Whether you're using Visual Studio for the first time or you've been using it for years, there's a lot to like in our current version!
 

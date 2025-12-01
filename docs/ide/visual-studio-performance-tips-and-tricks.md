@@ -1,7 +1,7 @@
 ---
 title: Tips to improve performance
 description: Explore tips to improve and optimize certain Visual Studio features that you might not be using to help improve performance.
-ms.date: 05/16/2025
+ms.date: 11/17/2025
 ms.topic: article
 author: Mikejo5000
 ms.author: mikejo
@@ -10,7 +10,7 @@ ms.subservice: general-ide
 ---
 # Visual Studio performance tips and tricks
 
-Visual Studio performance recommendations are intended for low memory situations, which may occur in rare cases. In these situations, you can optimize certain Visual Studio features that you may not be using. The following tips aren't intended as general recommendations.
+Visual Studio performance recommendations are intended for low memory situations, which might occur in rare cases. In these situations, you can optimize certain Visual Studio features that you might not be using. The following tips aren't intended as general recommendations.
 
 > [!NOTE]
 > If you’re having difficulty using the product because of memory issues, let us know through the [feedback tool](../ide/how-to-report-a-problem-with-visual-studio.md).
@@ -28,11 +28,18 @@ For more information, see [Memory Limits for Windows and Windows Server releases
 
 Visual Studio automatically reopens documents that were left open in the previous session. This automatic file restore action can prolong the times it takes to load a solution by up to 30% or more, depending on the project type and the documents being opened. Designers like Windows Forms and XAML, and some JavaScript and TypeScript files, can be slow to open.
 
-Visual Studio notifies you in a yellow bar when automatic document restore is causing a solution to load slower. You can disable automatic file reopening by following these steps:
+Visual Studio notifies you in a yellow bar when automatic document restore is causing a solution to load slower.
 
-1. Select **Tools** > **Options** to open the **Options** dialog box.
+:::moniker range="visualstudio"
 
-1. On the **Projects and Solutions** > **General** page, deselect **Reopen documents on solution load**.
+To disable automatic file reopening, open the **Tools** > **Options** pane, expand the **All Settings** > **Projects and Solutions** > **General** section, and clear the **Reopen documents on solution load** checkbox.
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+To disable automatic file reopening, open the **Tools** > **Options** dialog, and expand the **Projects and Solutions** > **General** section. Clear the **Reopen documents on solution load** checkbox, and then select **OK**.
+
+:::moniker-end
 
 If you disable automatic file restore, a quick way to navigate to files you want to open is by using one of the [Go To](../ide/go-to.md) commands:
 
@@ -50,23 +57,50 @@ If you're typically running low on memory during debugging sessions, you can opt
 
     The simplest optimization is to enable the **Just My Code** feature, which only loads symbols for your project. Enabling this feature can result in a significant memory saving for debugging managed applications (.NET). This option is already enabled by default in some project types.
 
-    To enable **Just My Code**, choose **Tools** > **Options** > **Debugging** > **General**, and then select **Enable Just My Code**.
+    :::moniker range="visualstudio"
+
+    To enable the Just My Code feature, open the **Tools** > **Options** pane, and expand the **All Settings** > **Debugging** > **General** section. Select the **Enable Just My Code** checkbox.
+
+    :::moniker-end
+    :::moniker range="<=vs-2022"
+
+    To enable the Just My Code feature, open the **Tools** > **Options** dialog, and expand the **Debugging** > **General** section. Select the **Enable Just My Code** checkbox, and then select **OK**.
+
+    :::moniker-end
 
 - **Specify symbols to load**
 
     For native debugging, loading symbol files (*.pdb*) is expensive in terms of memory resources. You can configure your debugger symbol settings to conserve memory. Typically, you configure the solution to only load modules from your project.
 
-    To specify symbol loading, choose **Tools** > **Options** > **Debugging** > **Symbols**.
+    :::moniker range="visualstudio"
 
-    Set the options to **Load only specified modules** instead of **Load all modules**, and then specify which modules you care to load. While debugging, you can also right-click specific modules in the **Modules** window to explicitly include a module in the symbol load. (To open the window while debugging, choose **Debug** > **Windows** > **Modules**.)
+    To specify symbol loading, open the **Tools** > **Options** pane, and expand the **All Settings** > **Debugging** > **Symbols** > **Search and Load** section. To populate the **Included modules** list, select **+ Add**. In the **Add item** dialog, specify the name of the module to include (load), and select **Save**. Repeat the process to add more modules to the list.
+
+    :::moniker-end
+    :::moniker range="<=vs-2022"
+
+    To specify symbol loading, open the **Tools** > **Options** dialog, and expand the **Debugging** > **Symbols** section. Select the **Specify module filters** link. In the **Automatic symbol search preferences** dialog, specify which modules to load. After you add the modules, select **OK**.
+
+    :::moniker-end
+
+    While debugging, you can also right-click specific modules in the **Modules** window to explicitly include a module in the symbol load. (To open the window while debugging, choose **Debug** > **Windows** > **Modules**.)
 
     For more information, see [Specify symbol and source files in the debugger](../debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).
 
 - **Disable Diagnostic Tools**
 
-    It's recommended that you disable CPU profiling after use. This feature can consume large amounts of resources. Once CPU profiling is enabled, this state is persisted across subsequent debug sessions, so it’s worth explicitly turning it off when done. You may save some resources by disabling the diagnostic tools while debugging if you don't need the provided features.
+    It's recommended that you disable CPU profiling after use. This feature can consume large amounts of resources. Once CPU profiling is enabled, this state is persisted across subsequent debug sessions, so it’s worth explicitly turning it off when done. You might save some resources by disabling the diagnostic tools while debugging if you don't need the provided features.
 
-    To disable the **Diagnostic Tools**, select **Tools** > **Options** > **Debugging** > **General**, and then deselect the **Enable Diagnostic Tools while debugging** option.
+    :::moniker range="visualstudio"
+
+    To disable the diagnostic tools, open the **Tools** > **Options** pane, and expand the **All Settings** > **Debugging** > **General** section. Clear the **Enable Diagnostic Tools while debugging** checkbox.
+
+    :::moniker-end
+    :::moniker range="<=vs-2022"
+
+    To disable the diagnostic tools, open the **Tools** > **Options** dialog, and expand the **Debugging** > **General** section. Clear the **Enable Diagnostic Tools while debugging** checkbox, and then select **OK**.
+
+    :::moniker-end
 
     For more information, see [Profiling tools](../profiling/profiling-feature-tour.md).
 
@@ -83,9 +117,18 @@ For information about .NET Compiler Platform ("Roslyn") performance consideratio
 
 - **Disable CodeLens**
 
-    Visual Studio performs a **Find All References** task on each method as it is displayed. CodeLens provides features such as the inline display of the number of references. The work is performed in a separate process such as *ServiceHub.RoslynCodeAnalysisService32*. In large solutions, or on resource-constrained systems, this feature can have a significant impact on performance. If you’re experiencing memory issues, for example, when loading a large solution on a 4-GB machine, or high CPU usage for this process, you can disable CodeLens to free up resources.
+    Visual Studio performs a **Find All References** task on each method as it is displayed. CodeLens provides features such as the inline display of the number of references. The work is performed in a separate process such as *ServiceHub.RoslynCodeAnalysisService32*. In large solutions, or on resource-constrained systems, this feature can have a significant impact on performance. If you're experiencing memory issues, for example, when loading a large solution on a 4-GB machine, or high CPU usage for this process, you can disable CodeLens to free up resources.
 
-    To disable **CodeLens**, choose **Tools** > **Options** > **Text Editor** > **All Languages** > **CodeLens**, and deselect the feature.
+    :::moniker range="visualstudio"
+
+    To disable the CodeLens feature, open the **Tools** > **Options** pane, and expand the **All Settings** > **Text Editor** > **CodeLens** section. Clear the **Enable CodeLens** checkbox.
+
+    :::moniker-end
+    :::moniker range="<=vs-2022"
+
+    To disable the CodeLens feature, open the **Tools** > **Options** dialog, and expand the **Text Editor** > **CodeLens** section. Clear the **Enable CodeLens** checkbox, and then select **OK**.
+
+    :::moniker-end
 
     For more information, see [Find code changes and other history with CodeLens](find-code-changes-and-other-history-with-codelens.md).
 
@@ -101,21 +144,52 @@ For information about .NET Compiler Platform ("Roslyn") performance consideratio
 
     [**Map mode**](how-to-track-your-code-by-customizing-the-scrollbar.md#display-modes) displays lines of code, in miniature, on the scroll bar. Map mode is enabled by default.
 
-    To disable map mode, go to **Tools** > **Options** > **Text Editor** > **All Languages** > **Scroll Bars**, and in the **Behavior** section, deselect the **Use map mode for vertical scroll bar** option.
+    :::moniker range="visualstudio"
+
+    To disable map mode, open the **Tools** > **Options** pane, and expand the **All Settings** > **Languages** > **Defaults** > **General** > **Scroll Bars** section. Use the dropdown list and set the **Vertical scroll bar mode** option to **Bar mode**.
+
+    :::moniker-end
+    :::moniker range="<=vs-2022"
+
+    To disable map mode, open the **Tools** > **Options** dialog, and expand the **Text Editor** > **All Languages** > **Scroll Bars** section. In the **Behavior** group, clear the **Use map mode for vertical scroll bar** option, and then select **OK**.
+
+    :::moniker-end
 
 - **Disable word wrap**
 
     [**Word wrap**](./reference/how-to-manage-word-wrap-in-the-editor.md) displays the portion of a long line of code that extends beyond the current width of the code editor window. Word wrap is on by default.
 
-    To disable word wrap for a project that you're currently working on, go to **Edit** > **Advanced** > **Word Wrap**. (You can toggle this setting by using the same menu commands.)
+    To disable word wrap for your current project, select **Edit** > **Advanced** > **Word Wrap**. (You can toggle this setting by using the same menu commands.)
+    
+    :::moniker range="visualstudio"
 
-    To disable word wrap for all projects, go to **Tools** > **Options** > **General** > **Text Editor** > **All Languages** > **General**, and in the **Settings** section, deselect the **Word wrap** option.
+    You can also disable the feature for all projects. Open the **Tools** > **Options** pane, expand the **All Settings** > **Languages** > **Defaults** > **General** section, and clear the **Word wrap** checkbox.
+
+    :::moniker-end
+    :::moniker range="<=vs-2022"
+
+    You can also disable the feature for all projects. Open the **Tools** > **Options** dialog and expand the **Text Editor** > **All Languages** > **General** section. Clear the **Word wrap** checkbox in the **Settings** group, and then select **OK**.
+
+    :::moniker-end
 
 - **Disable XAML Designer**
 
-    The XAML designer is enabled by default, but only consumes resources if you open a *.xaml* file. If you work with XAML files but don't wish to use the designer functionality, disable this feature to free up some memory.
+    The XAML designer is enabled by default, but only consumes resources if you open a *.xaml* file. If you work with XAML files but don't wish to use the designer functionality, you can disable the feature to free up some memory.
 
-    To disable XAML Designer, go to **Tools** > **Options** > **XAML Designer** > **Enable XAML Designer**, and deselect the option.
+    :::moniker range="visualstudio"
+
+    To disable the XAML Designer, open the **Tools** > **Options** pane, expand the **All Settings** > **XAML Designer** > **General** section, and clear the **Enable XAML designer** checkbox.
+
+    After you update the **Enable XAML designer** option, you need to restart Visual Studio for the changes to take effect.
+
+    :::moniker-end
+    :::moniker range="<=vs-2022"
+
+    To disable the XAML Designer, open the **Tools** > **Options** dialog and expand the **XAML Designer** > **General** section. Clear the **Enable XAML Designer** checkbox, and then select **OK**.
+
+    After you update the **Enable XAML Designer** option, you need to restart Visual Studio for the changes to take effect.
+
+    :::moniker-end
 
 - **Remove workloads**
 
@@ -127,11 +201,11 @@ For information about .NET Compiler Platform ("Roslyn") performance consideratio
 
 - **Enable commit graph in Git tooling**
 
-    [New in Visual Studio 2022 version 17.2](https://aka.ms/vs-2022-17-2-release): If you're experiencing delays when you view your Git repository or branch history in Visual Studio, we've integrated a "commit graph" feature that can help. To use commit graph, make sure you [download and install Visual Studio 2022](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta). To learn more about commit graph, see the [Supercharge your Git experience in Visual Studio](https://devblogs.microsoft.com/visualstudio/supercharge-your-git-experience-in-vs/) blog post.
+    [New in Visual Studio 2022 version 17.2](https://aka.ms/vs-2022-17-2-release): If you're experiencing delays when you view your Git repository or branch history in Visual Studio, we've integrated a "commit graph" feature that can help. To use commit graph, make sure you [download and install Visual Studio 2022](https://aka.ms/vs/download/?cid=learn-onpage-download-cta). To learn more about commit graph, see the [Supercharge your Git experience in Visual Studio](https://devblogs.microsoft.com/visualstudio/supercharge-your-git-experience-in-vs/) blog post.
 
 ## Force a garbage collection
 
-The CLR uses a garbage collection memory management system. In this system, sometimes memory is used by objects that are no longer needed. This state is temporary; the garbage collector releases this memory based on its performance and resource usage heuristics. You can force the CLR to collect any unused memory by using a hotkey in Visual Studio. If there's a significant amount of garbage waiting for collection and you force a garbage collection, you should see the memory usage of the *devenv.exe* process drop in **Task Manager**. It’s rarely necessary to use this method. However, after an expensive operation has completed (such as a full build, debug session, or a solution open event), it can help you determine how much memory is really being used by the process. Because Visual Studio is mixed (managed & native), it’s occasionally possible for the native allocator and the garbage collector to compete for limited memory resources. Under conditions of high memory usage, it may help to force the garbage collector to run.
+The CLR uses a garbage collection memory management system. In this system, sometimes memory is used by objects that are no longer needed. This state is temporary; the garbage collector releases this memory based on its performance and resource usage heuristics. You can force the CLR to collect any unused memory by using a hotkey in Visual Studio. If there's a significant amount of garbage waiting for collection and you force a garbage collection, you should see the memory usage of the *devenv.exe* process drop in **Task Manager**. It’s rarely necessary to use this method. However, after an expensive operation has completed (such as a full build, debug session, or a solution open event), it can help you determine how much memory is really being used by the process. Because Visual Studio is mixed (managed & native), it’s occasionally possible for the native allocator and the garbage collector to compete for limited memory resources. Under conditions of high memory usage, it might help to force the garbage collector to run.
 
 To force a garbage collection, use this keyboard shortcut: **Ctrl**+**Alt**+**Shift**+**F12**, **Ctrl**+**Alt**+**Shift**+**F12** (press it twice).
 

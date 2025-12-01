@@ -58,7 +58,7 @@ This tutorial requires the following prerequisites:
   
   If you haven't yet installed Visual Studio:
   
-  1. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install Visual Studio for free.
+  1. Go to the [Visual Studio downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) page to install Visual Studio for free.
      
   1. In the Visual Studio Installer, select the **Node.js development** workload, and select **Install**.
      

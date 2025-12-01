@@ -31,13 +31,13 @@ In this tutorial, you learn how to:
 
 ::: moniker range="vs-2019"
 
-- If you don't have Visual Studio 2019, go to [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) to install it for free.
+- If you don't have Visual Studio 2019, go to [Visual Studio downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) to install it for free.
 
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
-- If you don't have Visual Studio, go to [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) to install it for free.
+- If you don't have Visual Studio, go to [Visual Studio downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) to install it for free.
 
 ::: moniker-end
 

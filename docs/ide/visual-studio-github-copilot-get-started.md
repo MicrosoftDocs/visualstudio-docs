@@ -28,7 +28,7 @@ In this article you learn how to use Copilot and make the most of its features i
 1. Create a new project, open an existing project, or continue without code to launch the IDE.
 1. Select the **GitHub Copilot** badge in the upper right corner of Visual Studio, and select **Open Chat Window to Sign In**
 
-   :::image type="content" source="media/vs-2022/visual-studio-github-copilot-install-and-states/copilot-state-inactive-sign-in.png" alt-text="Screenshot shwoing the GitHub Copilot badge in Visual Studio.":::
+   :::image type="content" source="media/vs-2022/visual-studio-github-copilot-install-and-states/copilot-state-inactive-sign-in.png" alt-text="Screenshot showing the GitHub Copilot badge in Visual Studio.":::
 
    If Copilot isn't installed, select **Install Copilot** from the dropdown and follow the installer prompts. For more information, see [Manage Copilot installation and state](visual-studio-github-copilot-install-and-states.md).
 
@@ -54,7 +54,7 @@ Customize Copilot for your project and your development workflow.
 
 - **Access different [models](copilot-usage-and-models.md#understand-model-selection)**: Use the model picker in the prompt window to select AI models, or [bring your own model](copilot-select-add-models.md#bring-your-own-model-byom) to Copilot! Explore different models for different scenarios, whether it's answering quick questions, writing documentation, or generating multi-file code edits.
 
-- **Add custom instructions**: Add reusable [custom instructions](copilot-chat-context.md#enable-custom-instructions) in `.github/copilot-instructions.md` and [prompt files](copilot-chat-context.md#use-prompt-files) in `.github/prompts` to customize Copilot’s responses for your coding style or project needs.
+- **Add custom instructions**: Add reusable [custom instructions](copilot-chat-context.md#use-custom-instructions) in `.github/copilot-instructions.md` and [prompt files](copilot-chat-context.md#use-prompt-files) in `.github/prompts` to customize Copilot’s responses for your coding style or project needs.
 
 ## Next steps
 

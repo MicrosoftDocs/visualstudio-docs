@@ -33,7 +33,7 @@ In this tutorial, you create a simple C# application that has a Windows-based us
 
 ::: moniker range=">=vs-2022"
 
-- If you don't have Visual Studio, go to [Visual Studio 2022 downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-create-csharp-winform-app-page-cta) to install it for free.
+- If you don't have Visual Studio, go to [Visual Studio 2022 downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-create-csharp-winform-app-page-cta) to install it for free.
 - The **.NET desktop development** workload. To verify or install this workload in Visual Studio, select **Tools** > **Get Tools and Features**. For more information, see [Change workloads or individual components](../install/modify-visual-studio.md#change-workloads-or-individual-components).
 
 ::: moniker-end

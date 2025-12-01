@@ -1,7 +1,7 @@
 ---
 title: Customize C++ builds for MSBuild
 description: Customize C++ builds done with MSBuild, including how to customize all builds created on a given system, such as a build server.
-ms.date: 05/23/2024
+ms.date: 11/13/2025
 ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, transforms

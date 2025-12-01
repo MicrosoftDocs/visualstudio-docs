@@ -1,7 +1,7 @@
 ---
 title: Use Agent Mode
 description: Use the GitHub Copilot agent to iterate on code in Visual Studio by making code edits, running commands, and reading error/build context.
-ms.date: 7/28/2025
+ms.date: 11/07/2025
 ms.update-cycle: 180-days
 ms.topic: get-started
 author: anandmeg
@@ -9,7 +9,7 @@ ms.author: meghaanand
 ms.manager: mijacobs
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
-monikerRange: '>= vs-2022'
+monikerRange: '>=vs-2022'
 ---
 # Get started with GitHub Copilot agent mode
 
@@ -76,7 +76,7 @@ To view and manage the tools that are available in agent mode, select the **Tool
 
 Based on the outcome of a tool, Copilot might invoke other tools to accomplish the overall request. For example, if a code edit results in syntax errors in the file, Copilot might explore another approach and suggest different code changes.
 
-Additional tools that you add by running MCP servers are not automatically enabled. Their checkboxes are cleared by default, and you must select them to activate the tools.
+Additional tools that you add by running MCP servers aren't automatically enabled. Their checkboxes are cleared by default, and you must select them to activate the tools.
 
 ## Manage tool approvals
 
@@ -86,9 +86,20 @@ When Copilot invokes a tool, it requests confirmation to run the tool. The reaso
 
 In the chat window, after a tool invocation, use the **Allow** dropdown options to automatically confirm the specific tool for the current session or solution, or all future invocations.
 
-You can reset tool confirmation selections in **Tools** > **Options** > **GitHub** > **Copilot** > **Tools**.
+:::moniker range="visualstudio"
 
-:::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-tool-config-options.png" alt-text="Screenshot that shows tool confirmation options." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-tool-config-options.png":::
+You can reset tool confirmation selections in the **Tools** > **Options** pane. Expand the **All Settings** > **GitHub** > **Copilot** > **Tools** section.
+
+:::image type="content" source="media/visualstudio/copilot-agent-mode/copilot-agent-tool-config-options.png" alt-text="Screenshot that shows GitHub Copilot tool call settings in Visual Studio.":::
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+You can reset tool confirmation selections in the **Tools** > **Options** dialog. Expand the **GitHub** > **Copilot** > **Tools** section.
+
+:::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-tool-config-options.png" alt-text="Screenshot of GitHub Copilot tool call settings.":::
+
+:::moniker-end
 
 ## Accept or discard edits
 
@@ -164,11 +175,26 @@ When you enable Planning, a dedicated set of internal tools becomes active. Thes
 
 ### Enabling and managing Planning tools
 
-To enable **Planning** in Visual Studio 2022 17.14 or later:
+:::moniker range=">=visualstudio"
 
-1. Go to **Tools** > **Options** > **GitHub** > **Copilot**.
-1. Select **Enable Planning**.
-1. Once enabled, **Planning** tools appear in the **Tools** list in the chat window.
+To enable **Planning**:
+
+1. Open the **Tools** > **Options** pane, and expand the **All Settings** > **GitHub** > **Copilot** > **Copilot Chat** section.
+
+1. Select the **Enable Planning** checkbox.
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+To enable **Planning** in Visual Studio 2022 version 17.14 or later:
+
+1. Open the **Tools** > **Options** dialog and expand the **GitHub** > **Copilot** section.
+
+1. Select the **Enable Planning** checkbox, and then select **OK**.
+
+:::moniker-end
+
+After you enable planning, the **Planning** tools appear in the **Tools** list in the chat window:
 
 :::image type="content" source="media/vs-2022/copilot-agent-mode/planning-tools-list.png" alt-text="Screenshot that shows Planning tools group with all subtools enabled in agent mode." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-checkpoint.png":::
 
@@ -204,9 +230,24 @@ For terminal commands, agent mode has the same permissions as the running Visual
 
 Take the following troubleshooting steps in the specified order:
 
-1. Make sure you're using Visual Studio 17.14 or later. Check the version at **Help** > **About Visual Studio**. If you're not using version 17.14 or later, open the Visual Studio Installer and update your build.
+1. Make sure you're using Visual Studio 17.14 or later.
 
-1. Make sure that you selected the **Enable agent mode in the chat pane** setting in **Tools** > **Options** > **GitHub** > **Copilot Chat**.
+   - Check the version at **Help** > **About Visual Studio**.
+   
+   - If you're not using version 17.14 or later, open the Visual Studio Installer and update your build.
+
+1. Confirm the **Enable Agent mode in the chat pane** option is selected.
+
+   :::moniker range="visualstudio"
+
+   In the **Tools** > **Options** pane, expand the **All Settings** > **GitHub** > **Copilot** > **Copilot Chat** section, and verify the option is selected.
+
+   :::moniker-end
+   :::moniker range="<=vs-2022"
+
+   In the **Tools** > **Options** dialog, expand the **GitHub** > **Copilot** section, and verify the option is selected under **Copilot Chat**.
+
+   :::moniker-end
 
 1. Try restarting Visual Studio.
 
@@ -220,7 +261,11 @@ Take the following troubleshooting steps in the specified order:
 
 Agent mode is an evolution of Copilot Edits, with a greater ability to iterate on errors, use tools, and automatically apply code changes.
 
-For the initial release of Visual Studio 2022 version 17.14, Copilot Edits is still available if you clear the **Enable agent mode in the chat pane** setting in **Tools** > **Options** > **GitHub** > **Copilot** > **Copilot Chat**.
+:::moniker range="<=vs-2022"
+
+For the initial release of Visual Studio 2022 version 17.14, Copilot Edits is still available if the **Enable Agent mode in the chat pane** option isn't selected. Check the option setting in the **Tools** > **Options** dialog, under the **GitHub** > **Copilot** > **Copilot Chat** section.
+
+:::moniker-end
 
 ### As an administrator, how do I control the use of agent mode for Visual Studio users?
 

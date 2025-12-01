@@ -18,7 +18,7 @@ ms.topic: whats-new
 **Updated for the 17.14 release.** See [full release notes](/visualstudio/releases/2022/release-notes) | View [product roadmap](/visualstudio/productinfo/vs-roadmap/)
 
 >[!div class="button"]
->[Download Visual Studio 2022](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta)
+>[Download Visual Studio 2022](https://aka.ms/vs/download/?cid=learn-onpage-download-cta)
 
 With [Visual Studio 2022](https://visualstudio.microsoft.com/vs/), you'll always get the best-in-class tools and services available for any developer, any app, and any platform. Whether you're using Visual Studio for the first time or you've been using it for years, there's a lot to like in our newest version.
 

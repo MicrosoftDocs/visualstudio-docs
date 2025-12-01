@@ -1,7 +1,7 @@
 ---
 title: Deploy a layout onto a client machine
 description: Deploy a network layout of Visual Studio onto a client machine within an enterprise programmatically as part of an installation script.
-ms.date: 3/11/2024
+ms.date: 11/4/2025
 ms.topic: install-set-up-deploy
 helpviewer_keywords:
 - 'deploy layout'
@@ -57,7 +57,7 @@ Some enterprises want to host the layout on an intranet location to better manag
 
     #ADMIN CONFIGURATION
     #Enter layout URI here
-    $LayoutUri = "http://MyCompanyIntranetSite/VS2022Enterprise/"
+    $LayoutUri = "http://MyCompanyIntranetSite/VS2026Enterprise/"
 
     #Enter bootstrapper name which is present in layout.
     $BootstrapperName = "vs_Enterprise.exe"

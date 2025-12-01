@@ -31,7 +31,7 @@ In [part 2 of this tutorial](tutorial-console-part-2.md), you extend this app to
 
 You must have Visual Studio installed.
 
-If you don't have Visual Studio, go to [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-tutorial-create-simple-csharp-console-app-page-cta) to install it for free.
+If you don't have Visual Studio, go to [Visual Studio downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-tutorial-create-simple-csharp-console-app-page-cta) to install it for free.
 
 ## Create a project
 

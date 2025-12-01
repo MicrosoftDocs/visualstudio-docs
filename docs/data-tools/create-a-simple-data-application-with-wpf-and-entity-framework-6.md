@@ -41,7 +41,7 @@ In this tutorial, you:
 
 ## Prerequisites
 
-* [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with **.NET Desktop Development** workload installed, and the **Windows Communication Foundation** component installed. To install it:
+* [Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) with **.NET Desktop Development** workload installed, and the **Windows Communication Foundation** component installed. To install it:
 
    1. Open the **Visual Studio Installer** app, or select **Tools** > **Get Tools and Features** from the Visual Studio menu.
    1. In **Visual Studio Installer**, choose **Modify** next to the version of Visual Studio you want to modify.

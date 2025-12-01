@@ -29,7 +29,7 @@ The following new features support Vue.js application development in Visual Stud
     > [!IMPORTANT]
     > This article requires features that are only available starting in Visual Studio 2017 version 15.8.
 
-    If a required version isn't already installed, install [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta).
+    If a required version isn't already installed, install [Visual Studio 2019](https://aka.ms/vs/download/?cid=learn-onpage-download-cta).
 
     If you need to install the workload but already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **Node.js development** workload, then choose **Modify**.
 

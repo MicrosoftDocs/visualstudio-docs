@@ -22,7 +22,7 @@ Follow these steps on the VSIX project that should target Visual Studio 2022 (AR
 
 ## Install Visual Studio and compile extensions
 
-Install Visual Studio 2022 from [Visual Studio 2022 downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta).
+Install Visual Studio 2022 from [Visual Studio 2022 downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-cta).
 
 ### Extensions written in a .NET language
 

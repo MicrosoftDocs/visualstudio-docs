@@ -19,19 +19,19 @@ For debugging to work in containers, Visual Studio uses volume mapping to map th
 
 :::moniker range="visualstudio"
 - [Docker Desktop](https://docs.docker.com/desktop/install/windows-install/) or [Podman Desktop](https://podman-desktop.io/downloads).
-- [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta), or for Podman support, [Visual Studio (Insiders)](https://visualstudio.microsoft.com/insiders/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET desktop development** workload installed.
+- [Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-cta), or for Podman support, [Visual Studio 2026](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET desktop development** workload installed.
 
 :::moniker-end
 
 :::moniker range="vs-2022"
 - [Docker Desktop](https://docs.docker.com/desktop/install/windows-install/).
-- [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET desktop development** workload installed.
+- [Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET desktop development** workload installed.
 
 :::moniker-end
 
 :::moniker range="vs-2019"
 - [Docker Desktop](https://docs.docker.com/desktop/install/windows-install/).
-- [Visual Studio 2019 or later](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET desktop development** workload installed.
+- [Visual Studio 2019 or later](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET desktop development** workload installed.
 
 :::moniker-end
 

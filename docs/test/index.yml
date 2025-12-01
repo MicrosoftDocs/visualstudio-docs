@@ -25,6 +25,8 @@ landingContent:
         links:
           - text: Overview of testing tools
             url: improve-code-quality.md
+          - text: GitHub Copilot testing for .NET
+            url: github-copilot-test-dotnet-overview.md
           - text: Unit test tools & tasks
             url: unit-test-your-code.md
           - text: Unit test basics
@@ -51,12 +53,12 @@ landingContent:
     linkLists:
       - linkListType: tutorial
         links:
+          - text: Generate unit tests using AI (.NET)
+            url: unit-testing-with-github-copilot-test-dotnet.md
           - text: Create and run unit tests for managed code
             url: walkthrough-creating-and-running-unit-tests-for-managed-code.md
           - text: Get started with Live Unit Testing
             url: live-unit-testing-start.md
-          - text: Generate unit tests (IntelliTest)
-            url: generate-unit-tests-for-your-code-with-intellitest.md
           - text: Test execution with Hot Reload
             url: test-execution-with-hot-reload.md
       - linkListType: how-to-guide

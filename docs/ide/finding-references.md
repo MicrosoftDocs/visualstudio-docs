@@ -1,7 +1,7 @@
 ---
 title: Finding References in Your Code
 description: Use the Find All References command in Visual Studio to find references to particular code elements in your code. Search by reference type.
-ms.date: 9/29/2025
+ms.date: 11/11/2025
 ms.topic: concept-article
 helpviewer_keywords:
 - code editor, find all references
@@ -69,7 +69,20 @@ After you apply a filter or a filter set, you can easily remove it by using the 
 
 ## Customize preview behavior
 
-You can set whether a file is opened in the editor at the location where the reference occurs. In the top menu bar, select **Tools** > **Options** > **Environment** > **Tabs and Windows**. Then, in the **Preview Tab** section, if you select the **Allow new files to be opened in the preview tab** checkbox, you can select or clear the **Preview selected files in Find Results** checkbox. When this checkbox is selected, the file is opened in the editor at the place where the reference occurs. When this checkbox is cleared, the file is only opened if you explicitly press **Enter** or double-click the row.
+You can set whether a file is opened in the editor at the location where the reference occurs.
+
+:::moniker range="visualstudio"
+
+Open the **Tools** > **Options** pane, and expand the **All Settings** > **Environment** > **Tabs** > **Preview Tab** section. If you select the **Allow new files to be opened in the preview tab** checkbox, select or clear the **Preview selected files in Find Results** checkbox.
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+Open the **Tools** > **Options** dialog, and expand the **Environment** > **Tabs and Windows** section. In the **Preview Tab** group, if you select the **Allow new files to be opened in the preview tab** checkbox, select or clear the **Preview selected files in Find Results** checkbox. Select **OK**.
+
+:::moniker-end
+
+When you select this option, the file is opened in the editor at the place where the reference occurs. When the option isn't selected, the file is opened only if you explicitly select **Enter** or double-click the row.
 
 ## Related content
 

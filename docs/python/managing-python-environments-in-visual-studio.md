@@ -1,7 +1,7 @@
 ---
 title: Manage Python Environments and Interpreters
 description: Use the Python Environments window to manage global, virtual, and conda environments, install Python interpreters and packages, and assign environments to projects.
-ms.date: 07/28/2025
+ms.date: 11/12/2025
 ms.customL: devdivchpfy22
 ms.topic: how-to
 author: cwebster-99
@@ -47,25 +47,37 @@ The environments that Visual Studio knows about are displayed in the **Python En
 - Select **View** > **Other Windows** > **Python Environments**.
 - Right-click the **Python Environments** node for a project in **Solution Explorer** and select **View All Python Environments**.
 
+:::moniker range="visualstudio"
+
+   :::image type="content" source="media/visualstudio/environments-view-all.png" alt-text="Screenshot of the View All Python Environments command in Solution Explorer." lightbox="media/visualstudio/environments-view-all.png":::
+   
+:::moniker-end
+
 ::: moniker range="vs-2019"
 
-:::image type="content" source="media/environments/environments-view-all-2019.png" alt-text="Screenshot of the View All Python Environments command in Solution Explorer for Visual Studio 2019." lightbox="media/environments/environments-view-all-2019.png":::
+   :::image type="content" source="media/environments/environments-view-all-2019.png" alt-text="Screenshot of the View All Python Environments command in Solution Explorer for Visual Studio 2019." lightbox="media/environments/environments-view-all-2019.png":::
 
 ::: moniker-end
-::: moniker range=">=vs-2022"
+::: moniker range="vs-2022"
 
-:::image type="content" source="media/environments/environments-view-all-2022.png" alt-text="Screenshot of the View All Python Environments command in Solution Explorer for Visual Studio." lightbox="media/environments/environments-view-all-2022.png":::
+   :::image type="content" source="media/environments/environments-view-all-2022.png" alt-text="Screenshot of the View All Python Environments command in Solution Explorer for Visual Studio." lightbox="media/environments/environments-view-all-2022.png":::
 
 ::: moniker-end
 
 The **Python Environments** window appears alongside **Solution Explorer** in Visual Studio:
+
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/environments-default-view.png" alt-text="Screenshot of the Python Environments window." lightbox="media/visualstudio/environments-default-view.png":::
+    
+:::moniker-end
 
 ::: moniker range="vs-2019"
 
 :::image type="content" source="media/environments/environments-default-view-2019.png" alt-text="Screenshot of the Python Environments window in Visual Studio 2019." lightbox="media/environments/environments-default-view-2019.png":::
 
 ::: moniker-end
-::: moniker range=">=vs-2022"
+::: moniker range="vs-2022"
 
 :::image type="content" source="media/environments/environments-default-view-2022.png" alt-text="Screenshot of the Python Environments window in Visual Studio." lightbox="media/environments/environments-default-view-2022.png":::
 
@@ -84,6 +96,15 @@ To the right of each listed environment, is a control that opens an **Interactiv
 > [!NOTE]
 > In Visual Studio 2017 15.5 and earlier, another control appears that refreshes the IntelliSense database for that environment. For details about the database, see [Python Environments window tab reference](python-environments-window-tab-reference.md).
 
+:::moniker range="visualstudio"
+    
+> [!TIP]
+> When you expand the **Python Environments** window wide enough, you see a fuller view of your environments that can be more convenient to work with.
+>
+> :::image type="content" source="media/visualstudio/environments-expanded-view.png" alt-text="Screenshot of the expanded Python Environments window." lightbox="media/visualstudio/environments-expanded-view.png":::
+
+:::moniker-end
+
 ::: moniker range="vs-2019"
 
 > [!TIP]
@@ -93,7 +114,7 @@ To the right of each listed environment, is a control that opens an **Interactiv
 
 ::: moniker-end
 
-::: moniker range=">=vs-2022"
+::: moniker range="vs-2022"
 
 > [!TIP]
 > When you expand the **Python Environments** window wide enough, you see a fuller view of your environments that can be more convenient to work with.
@@ -163,10 +184,22 @@ You can create a conda environment by using the `conda` tool, or with integrated
 
 1. Select **Create**.
 
+:::moniker range="visualstudio"
+  
+   You can monitor creation of the conda environment in the **Output** window. After creation completes, the output displays some command-line interface (CLI) instructions, such as `conda activate env`:
+
+   :::image type="content" source="media/visualstudio/environments-conda-2.png" alt-text="Screenshot that shows the successful creation of a conda environment." lightbox="media/visualstudio/environments-conda-2.png":::
+    
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+
    You can monitor creation of the conda environment in the **Output** window. After creation completes, the output displays some command-line interface (CLI) instructions, such as `activate env`:
 
    :::image type="content" source="media/environments/environments-conda-2.png" alt-text="Screenshot that shows the successful creation of a conda environment in Visual Studio." lightbox="media/environments/environments-conda-2.png":::
 
+:::moniker-end
+ 
 1. In Visual Studio, you can activate a conda environment for your project in the same way that you would any other environment. For more information, see [Select an environment for a project](selecting-a-python-environment-for-a-project.md).
 
 1. To install more packages in the environment, use the [Packages tab](python-environments-window-tab-reference.md#packages-tab) on the **Python Environments** window.
@@ -202,15 +235,35 @@ Use the following steps to identify an environment installed in a nonstandard lo
 
 1. In the **Add environment** dialog, on the **Existing environment** tab, set the **Environment** field to **\<Custom>**:
 
+:::moniker range="visualstudio"
+
+   :::image type="content" source="media/visualstudio/environments-custom-1.png" alt-text="Screenshot that shows how to set the Environment field to Custom in the Add Environment dialog." lightbox="media/visualstudio/environments-custom-1.png":::
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+
    :::image type="content" source="media/environments/environments-custom-1.png" alt-text="Screenshot of the Add environment dialog Existing environment tab in Visual Studio, showing how to set the Environment field to Custom." lightbox="media/environments/environments-custom-1.png":::
+
+:::moniker-end
 
    After you select the **\<Custom>** value, more fields are added to the dialog.
 
-1. Set the **Prefix path** field to the path of the interpreter. You can set the field by browsing (**...**) to the path location.
+3. Set the **Prefix path** field to the path of the interpreter. You can set the field by browsing (**...**) to the path location.
+
+:::moniker range="visualstudio"
+
+   :::image type="content" source="media/visualstudio/environments-custom-2.png" alt-text="Screenshot that shows how to specify details for a custom environment in the Add environment dialog." lightbox="media/visualstudio/environments-custom-2.png":::
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
 
    :::image type="content" source="media/environments/environments-custom-2.png" alt-text="Screenshot that shows how to specify details for a custom environment in the Add environment dialog in Visual Studio." lightbox="media/environments/environments-custom-2.png":::
 
-1. After you select the path, the remaining fields are populated. Review the values and modify as needed. When you're ready, select **Add**.
+:::moniker-end
+
+4. After you select the path, the remaining fields are populated. Review the values and modify as needed. When you're ready, select **Add**.
 
 You can also review and modify details of the environment at any time in the **Python Environments** window.
 
@@ -224,7 +277,17 @@ You can also remove the environment by using the **Remove** command. For more in
 
 If Visual Studio finds registry entries for an environment, but the path to the interpreter is invalid, then the **Python Environments** window shows the environment name in a strikeout font format as shown in the following image:
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/environments-invalid-entry.png" alt-text="Screenshot of an invalid environment in the Python Environments window." lightbox="media/visualstudio/environments-invalid-entry.png":::
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+
 :::image type="content" source="media/environments/environments-invalid-entry.png" alt-text="Screenshot of the Python Environments window showing an invalid environment in Visual Studio." lightbox="media/environments/environments-invalid-entry.png":::
+
+:::moniker-end
 
 To correct an environment that you want to keep, first try using the environment installer's **Repair** process. Most installers include a repair option.
 
@@ -264,11 +327,31 @@ If the Python environment doesn't have a repair option, or you want to remove an
 
 To remove a Python project, browse to the Python environment in **Solution Explorer**. Right-click the Python environment that you want to remove, and select **Remove**.
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/remove-environment.png" alt-text="Screenshot that shows how to remove a Python environment." lightbox="media/visualstudio/remove-environment.png":::
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+
 :::image type="content" source="media/remove-environment.png" alt-text="Screenshot that shows how to remove a Python environment in Visual Studio." lightbox="media/remove-environment.png":::
+
+:::moniker-end
 
 If you want to keep the Python environment but remove it from your project, select **Remove**. If you want to delete the environment permanently, select **Delete**.
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/delete-or-remove-environment.png" alt-text="Screenshot that shows how to delete or remove a Python environment." lightbox="media/visualstudio/delete-or-remove-environment.png":::
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+
 :::image type="content" source="media/delete-or-remove-environment.png" alt-text="Screenshot that shows how to delete or remove a Python environment in Visual Studio." lightbox="media/delete-or-remove-environment.png":::
+
+:::moniker-end
 
 ## Related content
 

@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "docs/extensibility/migration/update-extension.md",
+      "redirect_url": "/visualstudio/extensibility/migration/update-visual-studio-extension",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/msbuild/msbuild-concepts.md",
       "redirect_url": "/visualstudio/msbuild/msbuild",
       "redirect_document_id": false

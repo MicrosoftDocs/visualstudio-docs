@@ -21,12 +21,12 @@ highlightedContent:
    - title: What is Visual Studio
      itemType: overview
      url: ../get-started/visual-studio-ide.md
-   - title: Visual Studio Insiders Release Notes
+   - title: Visual Studio 2026 Release Notes
      itemType: whats-new
-     url: /visualstudio/releases/vs18/release-notes-insiders
+     url: /visualstudio/releases/2026/release-notes
    - title: GitHub Copilot
      itemType: get-started
-     url: ../ide/visual-studio-github-copilot-install-and-states.md
+     url: ../ide/visual-studio-github-copilot-get-started.md
    - title: Previous versions
      itemType: overview
      url: /previous-versions/visualstudio/

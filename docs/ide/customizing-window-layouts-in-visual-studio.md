@@ -1,7 +1,7 @@
 ---
 title: Customize and Save Layouts of Windows and Tabs
 description: Learn how to customize tabs and windows in Visual Studio to create layouts that work best for your development workflows.
-ms.date: 08/08/2025
+ms.date: 11/11/2025
 ms.topic: how-to
 f1_keywords:
 - vs.windows
@@ -112,8 +112,18 @@ If you right-click the title bar of a tool window and then select **Auto Hide**,
 
 :::image type="content" source="media/auto-hide-sml.png" alt-text="Set of two screenshots that show the Auto Hide menu item and the associated set of tabbed tool windows that appear when Auto Hide is selected." lightbox="media/auto-hide-lrg.png":::
 
+:::moniker range="visualstudio"
+
 > [!TIP]
-> To specify whether auto hide operates on tool windows individually or as docked groups, select or clear **Auto Hide button affects active tool window only** in the **Tools** > **Options** dialog. For more information, see [Options dialog box: Environment > General](reference/general-environment-options-dialog-box.md).
+> To specify whether auto hide operates on tool windows individually or as docked groups, select or clear the **Auto Hide button affects active tool window only** option in the **Tools** > **Options** pane, under the **All Settings** > **Environment** > **General** section. For more information, see [Tools > Options: Environment > General](reference/general-environment-options-dialog-box.md).
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+> [!TIP]
+> To specify whether auto hide operates on tool windows individually or as docked groups, select or clear the **Auto Hide button affects active tool window only** option in the **Tools** > **Options** dialog, under the **Environment** > **General** section. For more information, see [Options dialog box: Environment > General](reference/general-environment-options-dialog-box.md).
+
+:::moniker-end
 
 > [!NOTE]
 > When auto hide is enabled on a tool window, the window might temporarily slide into view when it has focus. To hide the window again, select an item outside of the current window. When the window loses focus, it slides back out of view.
@@ -225,27 +235,42 @@ You can manage your document tabs in a vertical list on either the left or right
 
 You can apply vertical document tabs in the following ways:
 
-- Select **Tools** > **Options** > **Environment** > **Tabs and Windows**. Then, in the **Set tab layout** list, select **Top**, **Left**, or **Right**.
+::: moniker range="visualstudio"
 
+- Open the **Tools** > **Options** pane and expand the **All Settings** > **Environment** > **Tabs** > **Document Tabs** section. In the **Tab layout** list, select **Top**, **Left**, or **Right**.
+
+- Right-click a tab, select **Set Tab Layout**, and then select **Place Tabs on the Left**, **Place Tabs on the Top**, or **Place Tabs on the Right**. (To return the tabs to their default position, select **Place Tabs on the Top**.)
+
+::: moniker-end
+::: moniker range="vs-2022"
+
+- Open the **Tools** > **Options** dialog and expand the **Environment** > **Tabs and Windows** section. In the **Set tab layout** list, select **Top**, **Left**, or **Right**.
+
+- Right-click a tab, select **Set Tab Layout**, and then select **Place Tabs on the Left**, **Place Tabs on the Top**, or **Place Tabs on the Right**. (To return the tabs to their default position, select **Place Tabs on the Top**.)
+
+::: moniker-end
 ::: moniker range="vs-2019"
+
+- Select **Tools** > **Options** > **Environment** > **Tabs and Windows**. Then, in the **Set tab layout** list, select **Top**, **Left**, or **Right**.
 
 - Right-click a tab, select **Set Tab Layout**, and then select either **Left** or **Right**. (To return the tabs to their default position, select **Top**.)
 
 ::: moniker-end
 
-::: moniker range=">=vs-2022"
-
-- Right-click a tab, select **Set Tab Layout**, and then select **Place Tabs on the Left**, **Place Tabs on the Top**, or **Place Tabs on the Right**. (To return the tabs to their default position, select **Place Tabs on the Top**.)
-
-::: moniker-end
-
-::: moniker range=">=vs-2022"
-
 ### Color-code document tabs
 
 In Visual Studio 2022 and later, you can color-code file tabs by project so that you don't need to hunt for your open files.
 
-To color-code tabs, go to **Tools** > **Options** > **Environment** > **Tabs and Windows**. Then select the **Colorize document tabs by** checkbox and select either **Project**, **File extension**, or **Regular Expression** in the dropdown list.
+::: moniker range="visualstudio"
+
+To color-code tabs, open the **Tools** > **Options** pane and expand the **All Settings** > **Environment** > **Tabs** > **Document Tabs** section. For the **Tab colorization method** option, select **Project**, **File extension**, **Regular Expression**, or **None**.
+
+::: moniker-end
+::: moniker range="vs-2022"
+
+To color-code tabs, open the **Tools** > **Options** dialog and expand the **Environment** > **Tabs and Windows** section. Select the **Colorize document tabs by** checkbox, and set the dropdown selector to **Project**, **File extension**, or **Regular Expression**.
+
+::: moniker-end
 
 #### Colorize tabs in different views
 
@@ -273,15 +298,35 @@ You can wrap tabs into multiple rows. This enables you to have more horizontal t
 
 :::image type="content" source="media/vs-2022/tabs-multiple-rows-sml.png" alt-text="Screenshot of tabs arranged in multiple rows.":::
 
-To change this behavior, go to **Tools** > **Options** > **Environment** > **Tabs and Windows** > **Show tabs in multiple rows**.
+::: moniker range="visualstudio"
+
+Open the **Tools** > **Options** pane and expand the **All Settings** > **Environment** > **Tabs** > **Document Tabs** section. Under **Tab sorting**, select the **Show tabs in multiple rows** checkbox.
+
+::: moniker-end
+::: moniker range="vs-2022"
+
+Open the **Tools** > **Options** dialog and expand the **Environment** > **Tabs and Windows** section. Select the **Show tabs in multiple rows** checkbox.
+
+::: moniker-end
 
 ### Other tab options
 
 You can apply bold formatting to your current active tab, change your tab width, and add an extra close button at the top of a document.
 
-To change these options, go to **Tools** > **Options** > **Environment** > **Tabs and Windows**.
+::: moniker range="visualstudio"
 
-:::image type="content" source="media/vs-2022/custom-tab-organization-sml.png" alt-text="Screenshot options for tabs in Visual Studio.":::
+To change these options, go to the **Tools** > **Options** pane, and explore the **All Settings** > **Environment** > **Tabs** > **Document Tabs** section.
+
+:::image type="content" source="media/visualstudio/custom-tab-organization.png" alt-text="Screenshot that shows other tab options in Visual Studio.":::
+
+::: moniker-end
+::: moniker range="vs-2022"
+
+To change these options, go to the **Tools** > **Options** dialog, and explore the **Environment** > **Tabs and Windows** section.
+
+:::image type="content" source="media/vs-2022/custom-tab-organization-sml.png" alt-text="Screenshot of options for tabs in Visual Studio.":::
+
+::: moniker-end
 
 ### Unsaved changes indicator
 
@@ -289,7 +334,16 @@ You can change the indicator for documents that have unsaved changes to a larger
 
 :::image type="content" source="media/vs-2022/tabs-modify-asterisk.png" alt-text="Screenshot of large dot that indicates unsaved changes.":::
 
-To change this setting, select your preference in **Tools** > **Options** > **Environment** > **Tabs and Windows** > **Dirty Indicator**.
+::: moniker range="visualstudio"
+
+To change this setting, go to the **Tools** > **Options** pane, and expand the **All Settings** > **Environment** > **Tabs** > **Document Tabs** section. Select your preference in the **Dirty Indicator** option.
+
+::: moniker-end
+::: moniker range="vs-2022"
+
+To change this setting, go to the **Tools** > **Options** dialog, and expand the **Environment** > **Tabs and Windows** section. Select your preference in the **Dirty Indicator** option.
+
+::: moniker-end
 
 ### Show names in italics
 
@@ -297,15 +351,22 @@ You can show the names of documents that aren't visible in italics.
 
 :::image type="content" source="media/vs-2022/tabs-italics-invisible.png" alt-text="Screenshot of invisible tabs listed in italics.":::
 
-To enable this option, go to **Tools** > **Options** > **Environment** > **Tabs and Windows** and select **Show invisible tabs in italic in tab dropdown menu**.
+::: moniker range="visualstudio"
+
+To enable this option, go to the **Tools** > **Options** pane, and expand the **All Settings** > **Environment** > **Tabs** > **Document Tabs** section. Under **Tab sorting**, select the **Show invisible tabs in italic in tab dropdown menu** checkbox.
+
+::: moniker-end
+::: moniker range="vs-2022"
+
+To change this setting, go to the **Tools** > **Options** dialog, and expand the **Environment** > **Tabs and Windows** section. Select the **Show invisible tabs in italic in tab dropdown menu** checkbox.
+
+::: moniker-end
 
 ### Restore closed tabs
 
 You can reopen the last tab you closed by right-clicking a tab and selecting **Restore Closed Tab**, by using the **Ctrl**+**K**, **Ctrl**+**Z** keyboard shortcut, or by selecting **Window** > **Restore Closed Tab**.
 
 :::image type="content" source="media/vs-2022/tabs-restore-recent-documents.png" alt-text="Screenshot of the Restore Closed Tab menu item.":::
-
-::: moniker-end
 
 ## Related content
 

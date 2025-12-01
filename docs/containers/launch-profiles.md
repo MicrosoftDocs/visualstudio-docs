@@ -24,7 +24,7 @@ For information about Docker Compose profiles, see [Using profiles with Compose]
 - A .NET solution with [Container Orchestration with Docker Compose](tutorial-multicontainer.md)
 :::moniker-end
 :::moniker range=">=vs-2022"
-- [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta)
+- [Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-cta)
 - A .NET solution with [Container Orchestration with Docker Compose](tutorial-multicontainer.md)
 :::moniker-end
 

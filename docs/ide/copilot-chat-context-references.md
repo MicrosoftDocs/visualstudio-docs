@@ -1,7 +1,7 @@
 ---
 title: 'Manage chat context with references'
 description: Use references to form better questions and get better answers with scoped context in GitHub Copilot Chat.
-ms.date: 7/31/2025
+ms.date: 11/2/2025
 ms.topic: how-to 
 author: anandmeg
 ms.author: meghaanand
@@ -97,6 +97,16 @@ Reference output logs in chat in one of the following ways:
 - Right-click in the **Output Window** and select **Explain with Copilot** to attach it.
 
 :::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-context-output-window.png" alt-text="Screenshot of output window as context in Copilot Chat.":::
+
+### Reference URLs
+
+Paste a URL in the prompt box and Copilot will pull information from the web to fill in the blanks when Copilot's training data doesn't cover a topic or when you want to reference a specific resource.
+
+For example, you can ask Copilot to help you write a readme.md file based on best practices on GitHub.
+
+:::image type="content" source="media/vs-2022/copilot-chat-context/reference-links-in-chat.png" alt-text="Screenshot of referencing a URL in chat for context.":::
+
+Note that Copilot can only reference static HTML content from the public URL you provide and won't access other links on that page, pages behind authentication, or content from dynamic pages.
 
 ### Usage examples
 Here are some examples of using references for context control:

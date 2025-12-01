@@ -3,12 +3,18 @@ title: Available software downloads
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 12/13/2024
+ms.date: 11/19/2025
 ms.topic: how-to
 description: Find software downloads that are available with your Visual Studio subscription, including searching by software title by subscription type.
 ---
 
 # What software is available for download?
+
+## What's in this page
+
++ ***How to access downloads:*** *Guidance on signing in to my.visualstudio.com/downloads portal, filtering/searching downloads, and viewing software available based on subscription level.*
++ ***Download options & formats:*** *Details on sorting popular downloads, using filters/CTRL+F, downloading a comprehensive Excel list, and understanding differences across subscription types.*
++ ***Additional notes & support:*** *Information on updates to the downloads list, access to Office 2024 setup, and links to support for subscriptions, billing, and related documentation*
 
 The [list of software downloads](https://aka.ms/vss_products_list) available to you depends on the subscription you're using. If you have more than one subscription associated with the same sign-in address, you see the downloads included with the highest level subscription, regardless of which subscription you're viewing. For example, if you have a Visual Studio Enterprise standard subscription and a Visual Studio Professional subscription, you see the complete list of downloads available with your Enterprise subscription. To see the list of your subscriptions, visit [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs).
 
@@ -27,7 +33,7 @@ To quickly find products, use the **Search** functions at the top of the page or
 You can also download an Excel spreadsheet containing an extensive list of [available software titles](https://aka.ms/vss_products_list) for each subscription type.
 
 > [!NOTE]
-> The list of available products is updated frequently but may not immediately reflect the most recent releases. Older versions of products may not be listed separately if they were available as part of a suite. For example, older versions of Microsoft Excel may be provided as part of a Microsoft Office suite only.
+> The list of available products is updated frequently but might not immediately reflect the most recent releases. Older versions of products might not be listed separately if they're available as part of a suite. For example, older versions of Microsoft Excel might be provided as part of a Microsoft Office suite only.
 
 ### Products available without downloads
 
