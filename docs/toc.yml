@@ -279,6 +279,8 @@
         href: /troubleshoot/developer/visualstudio/project-build/how-to-troubleshoot-templates?toc=%2Fvisualstudio%2Ftoc.json
     - name: Locate project and item templates
       href: ide/how-to-locate-and-organize-project-and-item-templates.md
+    - name: Customize IDE behavior for projects and solutions
+      href: ide/projects-and-solutions-options-dialog-box.md
     - name: Customize templates
       items:
       - name: Customize project and item templates
@@ -946,8 +948,6 @@
           href: ide/reference/fonts-and-colors-environment-options-dialog-box.md
       - name: Projects and Solutions
         items:
-        - name: General
-          href: ide/reference/projects-and-solutions-options-dialog-box.md
         - name: Build and Run
           href: ide/reference/options-dialog-box-projects-and-solutions-build-and-run.md
         - name: VC++ Project Settings
