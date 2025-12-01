@@ -523,6 +523,8 @@
         href: ide/javascript-intellisense.md
       - name: Visual C++ IntelliSense
         href: ide/visual-cpp-intellisense.md
+      - name: Configure a C# project for IntelliSense
+        href: ide/options-text-editor-csharp-intellisense.md
       - name: Configure a C++ project for IntelliSense
         href: ide/visual-cpp-intellisense-configuration.md
     - name: Move around in code
@@ -972,8 +974,6 @@
           items:
           - name: Advanced
             href: ide/reference/options-text-editor-csharp-advanced.md
-          - name: IntelliSense
-            href: ide/reference/options-text-editor-csharp-intellisense.md
         - name: C/C++
           items:
           - name: Advanced
