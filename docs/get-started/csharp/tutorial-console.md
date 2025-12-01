@@ -520,9 +520,9 @@ To fix the code to improve precision by handling decimals:
 
    Now the app can produce decimal results. Make a few more tweaks to the code so the app can calculate decimals too.
 
-1. Use the **Find and Replace** control to change each instance of the `float` variable to `double`, and to change each instance of the `Convert.ToInt32` method to `Convert.ToDouble`.
+6. Use the **Find and Replace** control to change each instance of the `float` variable to `double`, and to change each instance of the `Convert.ToInt32` method to `Convert.ToDouble`.
 
-1. Run your calculator app, and divide the number **42.5** by the number **119.75**.
+7. Run your calculator app, and divide the number **42.5** by the number **119.75**.
 
 :::moniker range="<=vs-2022"
    The app now accepts decimal values, and returns a longer decimal numeral as its result.
