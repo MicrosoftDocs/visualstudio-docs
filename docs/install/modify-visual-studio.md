@@ -164,11 +164,11 @@ Workloads contain the components you need for the programming language or platfo
 
 1. In Visual Studio Installer, on the **Workloads** tab, select the workloads that you want.
 
-     :::image type="content" source="media/visualstudio/vs-installer-modify-workloads.png" alt-text="Screenshot of the Workloads tab of Visual Studio Installer." lightbox="media/vs-2022/vs-installer-modify-workloads.png":::
+     :::image type="content" source="media/visualstudio/vs-installer-modify-workloads.png" alt-text="Screenshot of the Workloads tab of Visual Studio Installer." lightbox="media/visualstudio/vs-installer-modify-workloads.png":::
 
 1. To add more components than a workload installs, on the **Individual components** tab, select the individual components that you want.
 
-     :::image type="content" source="media/vs-2022/vs-installer-individual-components.png" alt-text="Screenshot of the Individual components tab of Visual Studio Installer." lightbox="media/vs-2022/vs-installer-individual-components.png":::
+     :::image type="content" source="media/visualstudio/vs-installer-individual-components.png" alt-text="Screenshot of the Individual components tab of Visual Studio Installer." lightbox="media/visualstudio/vs-installer-individual-components.png":::
 
 1. You can select the default **Install while downloading** or **Download all, then install**. 
 
