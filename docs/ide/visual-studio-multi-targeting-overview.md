@@ -188,7 +188,7 @@ The first screen you'll see is the **Configure your new project** dialog.
 
 :::image type="content" source="media/vs-2022/configure-your-new-project.png" alt-text="Screenshot of the 'Configure your new project' dialog box in Visual Studio 2022.":::
 
-The second screen you'll see is the **Additional options** dialog.
+The second screen you'll see is the **Additional information** dialog.
 
 :::image type="content" source="media/vs-2022/visual-studio-multi-targeting-overview/configure-new-project-additional-info.png" alt-text="Screenshot of the 'Additional options' dialog box in Visual Studio 2022.":::
 
@@ -206,9 +206,9 @@ The first screen you'll see is the **Configure your new project** dialog.
 
 :::image type="content" source="media/visualstudio/configure-your-new-project.png" alt-text="Screenshot of the 'Configure your new project' dialog box in Visual Studio.":::
 
-The second screen you'll see is the **Additional options** dialog.
+The second screen you'll see is the **Additional information** dialog.
 
-:::image type="content" source="media/visualstudio/visual-studio-multi-targeting-overview/configure-new-project-additional-info.png" alt-text="Screenshot of the 'Additional options' dialog box in Visual Studio.":::
+:::image type="content" source="media/visualstudio/configure-new-project-additional-info.png" alt-text="Screenshot of the 'Additional options' dialog box in Visual Studio.":::
 
 ::: moniker-end
 
