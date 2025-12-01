@@ -68,7 +68,7 @@ The **Single click** setting is selected by default. You can customize how Peek 
 
 - **Single click** (default): Opens Peek Difference with a single click.
 - **Double click**: Requires a double-click to open Peek Difference.
-- **None**: Turns off the [Peek Difference UI](../../version-control/git-line-staging.md#view-staged-changes-with-peek-difference).
+- **None**: Turns off the [Peek Difference UI](../version-control/git-line-staging.md#view-staged-changes-with-peek-difference).
 
 ::: moniker-end
 
@@ -93,7 +93,7 @@ Choose from one of the following completion mode settings:
 When enabled, Visual Studio provides auto-complete functionality based on words typed rather than code for files using [TextMate grammars](https://macromates.com/manual/en/language_grammars). Clear this option to turn off word-based suggestions.
 
 > [!TIP]
-> For more information about TextMate grammars, see [Add Visual Studio editor support for other languages](../adding-visual-studio-editor-support-for-other-languages.md).
+> For more information about TextMate grammars, see [Add Visual Studio editor support for other languages](adding-visual-studio-editor-support-for-other-languages.md).
 
 ## Configure editor display and behavior options
 
@@ -101,13 +101,13 @@ Use these options to customize how the editor displays and interacts with your c
 
 ### Allow CodeLens to displace the caret line
 
-By default, [CodeLens](../find-code-changes-and-other-history-with-codelens.md) information appears over a code line. Select this option to show CodeLens information directly in your code line at your current caret position.
+By default, [CodeLens](find-code-changes-and-other-history-with-codelens.md) information appears over a code line. Select this option to show CodeLens information directly in your code line at your current caret position.
 
 ::: moniker range=">=vs-2022"
 
 ### Use box selection
 
-Select this option to disable the new [multi-caret selection](../finding-and-replacing-text.md?view=vs-2022&preserve-view=true#multi-caret-selection) behavior in Visual Studio 2022 or later, which includes the following:
+Select this option to disable the new [multi-caret selection](finding-and-replacing-text.md?view=vs-2022&preserve-view=true#multi-caret-selection) behavior in Visual Studio 2022 or later, which includes the following:
 
 - Adapts "block selection" similarly as does the multi-caret functionality in [VS Code](https://code.visualstudio.com/docs/editor/codebasics#_multiple-selections-multicursor).
 - Supports copying and pasting a different section of text with each caret, instead of just a single block-shaped section of text.
@@ -120,10 +120,10 @@ Select this option to disable the new [multi-caret selection](../finding-and-rep
 
 ### Use adaptive formatting
 
-When selected (default), Visual Studio recognizes whether you prefer to use tabs or spaces to indent code based on your most recently updated file. When cleared, Visual Studio uses the settings in **Tools** > **Options** > **Text Editor** > **All Languages** > **[Tabs](../options-text-editor-all-languages-tabs.md)** instead.
+When selected (default), Visual Studio recognizes whether you prefer to use tabs or spaces to indent code based on your most recently updated file. When cleared, Visual Studio uses the settings in **Tools** > **Options** > **Text Editor** > **All Languages** > **[Tabs](options-text-editor-all-languages-tabs.md)** instead.
 
 > [!TIP]
-> You can also change how Visual Studio manages your preferred indent style by using an .*editorconfig* file. For more information, see [Create portable, custom editor settings with EditorConfig](../create-portable-custom-editor-options.md).
+> You can also change how Visual Studio manages your preferred indent style by using an .*editorconfig* file. For more information, see [Create portable, custom editor settings with EditorConfig](create-portable-custom-editor-options.md).
 
 ::: moniker range=">=vs-2022"
 
@@ -209,4 +209,4 @@ For more information, see [TextRenderingMode](/dotnet/api/system.windows.media.t
 
 ## Related content
 
-- [Configure general Text Editor options](options-text-editor-general.md)
+- [Configure general Text Editor options](reference/options-text-editor-general.md)
