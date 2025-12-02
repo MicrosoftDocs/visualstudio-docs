@@ -100,7 +100,7 @@ When selected, any portion of a line that extends horizontally beyond the viewab
 
 When selected, a return-arrow indicator is displayed where a long line wraps onto a second line.
 
-![LineBreakSymbol screenshot](../../ide/media/linebreak.gif)
+![LineBreakSymbol screenshot](../ide/media/linebreak.gif)
 
 Clear this option if you prefer not to display these indicators.
 
