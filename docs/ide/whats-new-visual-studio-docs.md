@@ -39,7 +39,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 - [Remote Debug ASP.NET Core on Azure App Service (Windows)](../debugger/remote-debugging-azure-app-service.md) - Update articles on Benchmark DotNet and remote debugging Azure App Service
 - [Debug your app with GitHub Copilot in Visual Studio](../debugger/debug-with-copilot.md) - Add Copilot content for CodeLens and inspecting exceptions with repo context
 - [Inspect an exception using the Exception Helper](../debugger/exception-helper.md) - Add Copilot content for CodeLens and inspecting exceptions with repo context
-- Updates for settings (**Tools** > **Options**)
+- Update for new settings (**Tools** > **Options**) experience
   - [Watch variables with Watch windows and QuickWatch](../debugger/watch-and-quickwatch-windows.md)
   - [Visual C/C++ Custom Visualizer Compatibility](../debugger/visual-cpp-custom-visualizer-compatibility.md)
   - [View threads and tasks in the Parallel Stacks window (C#, Visual Basic, C++)](../debugger/using-the-parallel-stacks-window.md)
@@ -66,13 +66,13 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- [Debug ClickOnce applications that use System.Deployment.Application](../deployment/debugging-clickonce-applications-that-use-system-deployment-application.md) - Updates for settings (**Tools** > **Options**)
+- [Debug ClickOnce applications that use System.Deployment.Application](../deployment/debugging-clickonce-applications-that-use-system-deployment-application.md) - Update for new settings (**Tools** > **Options**) experience
 
 ### Designers
 
 **Updated articles**
 
-- Updates for settings (**Tools** > **Options**)
+- Update for new settings (**Tools** > **Options**) experience
   - [Fix HDPI/scaling issues with Windows Forms Designer in Visual Studio](../designers/disable-dpi-awareness.md)
   - [Scaling on your main display is set to X%](../designers/scaling-percentage-display-setting-message.md)
 
@@ -87,23 +87,22 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 - [VSIX extension schema 2.0 reference](../extensibility/vsix-extension-schema-2-0-reference.md)
   - Update ProductArchitecture info with corrections
   - Add ProductArchitecture element to VSIX schema reference
-- Updates for settings (**Tools** > **Options**)
+- [Update a Visual Studio extension](../extensibility/how-to-update-a-visual-studio-extension.md) - Restructure "upgrade extension" instructions for better version switching
+- [Upgrade your Visual Studio extension](../extensibility/migration/update-visual-studio-extension.md) - Restructure "upgrade extension" instructions for better version switching
+- [VSIX Color Compiler](../extensibility/internals/vsix-color-compiler.md) - Added instructions for migrating theme to Visual Studio 2026
+- Update for new settings (**Tools** > **Options**) experience
   - [Options and Options Pages](../extensibility/internals/options-and-options-pages.md)
   - [Walkthrough: Create a margin glyph](../extensibility/walkthrough-creating-a-margin-glyph.md)
   - [Customizing editor behavior by using Language Configuration](../extensibility/language-configuration.md)
   - [Extend the status bar](../extensibility/extending-the-status-bar.md)
   - [Create a basic project system, part 2](../extensibility/creating-a-basic-project-system-part-2.md)
-- [Update a Visual Studio extension](../extensibility/how-to-update-a-visual-studio-extension.md) - Restructure "upgrade extension" instructions for better version switching
-- [Upgrade your Visual Studio extension](../extensibility/migration/update-visual-studio-extension.md) - Restructure "upgrade extension" instructions for better version switching
-- [VSIX Color Compiler](../extensibility/internals/vsix-color-compiler.md)
-  - Added instructions for migrating theme to Visual Studio 2026
 
 ### Get started
 
 **Updated articles**
 
 - [Tutorial: Get started with C# and ASP.NET Core in Visual Studio](../get-started/csharp/tutorial-aspnet-core.md) - Update images for Visual Studio 2026
-- [Welcome to the Visual Studio IDE | Visual Basic](../get-started/visual-basic/visual-studio-ide.md) - Updates for settings (**Tools** > **Options**)
+- [Welcome to the Visual Studio IDE | Visual Basic](../get-started/visual-basic/visual-studio-ide.md) - Update for new settings (**Tools** > **Options**) experience
 
 ### IDE
 
@@ -114,7 +113,20 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- Updates for settings (**Tools** > **Options**)
+- [Use MCP servers](../ide/mcp-servers.md) - MCP Server content updates
+- [Locate and organize project and item templates](../ide/how-to-locate-and-organize-project-and-item-templates.md) - Review and update
+- [Productivity guide for Visual Studio](../ide/productivity-features.md) - Add adaptive paste to productivity guide
+- [Customize chat responses and set context](../ide/copilot-chat-context.md)
+  - Add custom instructions, targeted instruction files
+  - Add Visual Studio 2026 Copilot actions section
+- [Manage chat context with references](../ide/copilot-chat-context-references.md)
+  - Add custom instructions, targeted instruction files
+  - Add Copilot memories
+- [Get started with GitHub Copilot](../ide/visual-studio-github-copilot-get-started.md) - Add custom instructions, targeted instruction files
+- [How Copilot Chat understands and uses context](../ide/copilot-context-overview.md) - Add Copilot memories
+- Update for new settings (**Tools** > **Options**) experience
+  - [Synchronize Visual Studio settings across multiple computers](../ide/synchronized-settings-in-visual-studio.md) - Update for new Visual Studio settings experience
+  - [Customize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md) - Update for new Visual Studio settings experience
   - [/LCID (devenv.exe)](../ide/reference/lcid-devenv-exe.md)
   - [IntelliSense completion for unimported types and extension methods](../ide/reference/intellisense-completion-unimported-types-extension-methods.md)
   - [Manage word wrap in the editor](../ide/reference/how-to-manage-word-wrap-in-the-editor.md)
@@ -155,19 +167,6 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
   - [Get started with GitHub Copilot agent mode](../ide/copilot-agent-mode.md)
   - [Build and clean projects and solutions in Visual Studio](../ide/building-and-cleaning-projects-and-solutions-in-visual-studio.md)
   - [Set AutoRecover options](../ide/autorecover-environment-options-dialog-box.md)
-- [Customize the Visual Studio IDE](../ide/personalizing-the-visual-studio-ide.md) - Update for new settings experience
-- [Use MCP servers](../ide/mcp-servers.md) - MCP Server content updates
-- [Locate and organize project and item templates](../ide/how-to-locate-and-organize-project-and-item-templates.md) - Review and update
-- [Productivity guide for Visual Studio](../ide/productivity-features.md) - Add adaptive paste to productivity guide
-- [Customize chat responses and set context](../ide/copilot-chat-context.md)
-  - Add custom instructions, targeted instruction files
-  - Add Visual Studio 2026 Copilot actions section
-- [Synchronize Visual Studio settings across multiple computers](../ide/synchronized-settings-in-visual-studio.md) - Update for new Visual Studio settings experience
-- [Manage chat context with references](../ide/copilot-chat-context-references.md)
-  - Add custom instructions, targeted instruction files
-  - Add Copilot memories
-- [Get started with GitHub Copilot](../ide/visual-studio-github-copilot-get-started.md) - Add custom instructions, targeted instruction files
-- [How Copilot Chat understands and uses context](../ide/copilot-context-overview.md) - Add Copilot memories
 
 ### Install
 
@@ -220,6 +219,9 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
+- Review and update
+  - [Run tasks or targets in batches based on item metadata](../msbuild/msbuild-batching.md)
+  - [Customize all .NET builds](../msbuild/customize-net-builds.md)
 - Update for new settings (**Tools** > **Options**) experience
   - [MSB3821 diagnostic code](../msbuild/errors/msb3821.md)
   - [MSB3023 diagnostic code](../msbuild/errors/msb3023.md)
@@ -228,9 +230,6 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
   - [MSB3941 diagnostic code](../msbuild/errors/msb3941.md)
   - [MSB4232 diagnostic code](../msbuild/errors/msb4232.md)
   - [Troubleshoot COM references](../msbuild/troubleshoot-com-references.md)
-- Review and update
-  - [Run tasks or targets in batches based on item metadata](../msbuild/msbuild-batching.md)
-  - [Customize all .NET builds](../msbuild/customize-net-builds.md)
 
 ### Profiling
 
@@ -287,8 +286,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- Updates for new settings (**Tools** > **Options**) experience
-- [Set breakpoints in workflows](../workflow-designer/how-to-set-breakpoints-in-workflows.md)
+- [Set breakpoints in workflows](../workflow-designer/how-to-set-breakpoints-in-workflows.md) - Updates for new settings (**Tools** > **Options**) experience
 
 ### XAML tools
 
@@ -305,14 +303,15 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- Updates for new settings (**Tools** > **Options**) experience
-- [About Git in Visual Studio](../version-control/git-with-visual-studio.md)
-- [Make a Git commit in Visual Studio](../version-control/git-make-commit.md)
-- [Create a pull request in Visual Studio](../version-control/git-create-pull-request.md)
-[About Git in Visual Studio](../version-control/git-with-visual-studio.md) - Update images for Visual Studio 2026
-- [Clone a Git repository in Visual Studio](../version-control/git-clone-repository.md) - Update images for Visual Studio 2026
 - [Manage Git repositories in Visual Studio](../version-control/git-manage-repository.md) - Add a tip for restoring the Git Repository window on restart
-- [Resolve merge conflicts in Visual Studio](../version-control/git-resolve-conflicts.md) - Update images for Visual Studio 2026
+- Update images for Visual Studio 2026
+  - [About Git in Visual Studio](../version-control/git-with-visual-studio.md) 
+  - [Clone a Git repository in Visual Studio](../version-control/git-clone-repository.md)
+  - [Resolve merge conflicts in Visual Studio](../version-control/git-resolve-conflicts.md)
+- Updates for new settings (**Tools** > **Options**) experience
+  - [About Git in Visual Studio](../version-control/git-with-visual-studio.md)
+  - [Make a Git commit in Visual Studio](../version-control/git-make-commit.md)
+  - [Create a pull request in Visual Studio](../version-control/git-create-pull-request.md)
 
 ### Community contributors
 
