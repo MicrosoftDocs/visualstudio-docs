@@ -28,7 +28,7 @@ In this article you learn how to use Copilot and make the most of its features i
 
 :::moniker range="visualstudio"
 
-3. Select the **GitHub Copilot** badge in the upper right corner of Visual Studio, and select **Open Chat Window to Sign In**
+3. Select the **GitHub Copilot** badge in the upper right corner of Visual Studio, and select **Open Chat Window to Sign In**.
 
    :::image type="content" source="media/visualstudio/copilot-state-inactive-sign-in.png" alt-text="Screenshot showing the GitHub Copilot badge in Visual Studio.":::
 
@@ -36,7 +36,7 @@ In this article you learn how to use Copilot and make the most of its features i
 
 :::moniker range="<=vs-2022"
 
-3. Select the **GitHub Copilot** badge in the upper right corner of Visual Studio, and select **Open Chat Window to Sign In**
+3. Select the **GitHub Copilot** badge in the upper right corner of Visual Studio, and select **Open Chat Window to Sign In**.
 
    :::image type="content" source="media/vs-2022/visual-studio-github-copilot-install-and-states/copilot-state-inactive-sign-in.png" alt-text="Screenshot showing the GitHub Copilot badge in Visual Studio.":::
 
