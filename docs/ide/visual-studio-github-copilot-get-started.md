@@ -1,7 +1,7 @@
 ---
 title: Get Started with GitHub Copilot
 description: Learn how to get started with GitHub Copilot in Visual Studio.
-ms.date: 8/29/2025
+ms.date: 12/02/2025
 ms.update-cycle: 180-days
 ms.topic: get-started
 author: anandmeg
@@ -9,7 +9,6 @@ ms.author: meghaanand
 ms.manager: mijacobs
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot 
-monikerRange: '>= vs-2022'
 ms.custom: copilot-learning-hub
 ---
 
