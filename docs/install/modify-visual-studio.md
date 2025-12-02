@@ -95,7 +95,7 @@ To modify your Visual Studio installation, you need to open Visual Studio Instal
 
    - If you have Visual Studio open, select **Tools** > **Get Tools and Features**.
    
-     :::image type="content" source="media/visualstudio/vs-tools-menu.png" alt-text="Screenshot of the Visual Studio 2022 tools menu. Get Tools and Features is highlighted.":::
+     :::image type="content" source="media/visualstudio/vs-tools-menu.png" alt-text="Screenshot of the Visual Studio tools menu. Get Tools and Features is highlighted.":::
 
    You might be prompted to update the Visual Studio Installer before continuing. If you are, follow the prompts.
 
@@ -176,7 +176,7 @@ Workloads contain the components you need for the programming language or platfo
 
 1. Select **Modify**.
 
-1. After the modified workloads or components are installed, select **Launch** in Visual Studio Installer to open Visual Studio 2022.
+1. After the modified workloads or components are installed, select **Launch** in Visual Studio Installer to open Visual Studio.
 
 You can also use a [configuration file to modify an existing installation to add or remove components](import-export-installation-configurations.md#programmatically-use-a-configuration-file-to-add-components-to-an-existing-installation). For more information, see [Import or export installation configurations](import-export-installation-configurations.md).
 
