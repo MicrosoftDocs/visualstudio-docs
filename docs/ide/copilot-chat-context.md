@@ -180,7 +180,17 @@ You can use slash commands in a [chat window](visual-studio-github-copilot-chat.
 | /optimize | Analyze and improve running time of the selected code. <br> Examples:<br> - `/optimize the AddItemToBasket method in BasketService.cs`</br>- select desired code and enter `/optimize`| Yes | Yes |
 | /tests| Create unit tests for the selected code.<br>  Example: select desired code and enter `/tests using XUnit Framework`| Yes | Yes |
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/copilot-chat-context/copilot-chat-context-slash-commands.png" alt-text="Screenshot of slash commands in inline chat view and chat windows.":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 :::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-context-slash-commands.png" alt-text="Screenshot of slash commands in inline chat view and chat windows.":::
+
+:::moniker-end
 
 With Visual Studio 2022 version 17.13, as the user types a slash command, the command expands out the prompt in natural language to display the context for the command.
 
@@ -190,7 +200,7 @@ With Visual Studio 2022 version 17.13, as the user types a slash command, the co
 
 You can use Copilot actions from the context menu to quickly access preconfigured prompts and slash commands for common development tasks.
 
-:::image type="content" source="media/vs-2022/copilot-chat-context/copilot-actions.png" alt-text="Screenshot of Copilot actions in the context menu.":::
+:::image type="content" source="media/visualstudio/copilot-chat-context/copilot-actions.png" alt-text="Screenshot of Copilot actions in the context menu.":::
 
 The behavior of each action depends on whether you have code selected when you open the context menu: 
 
