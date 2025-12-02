@@ -32,6 +32,8 @@ In this article you learn how to use Copilot and make the most of its features i
 
    :::image type="content" source="media/visualstudio/copilot-state-inactive-sign-in.png" alt-text="Screenshot showing the GitHub Copilot badge in Visual Studio.":::
 
+   If Copilot isn't installed, select **Install Copilot** from the dropdown and follow the installer prompts. For more information, see [Manage Copilot installation and state](visual-studio-github-copilot-install-and-states.md).
+
 :::moniker-end
 
 :::moniker range="<=vs-2022"
@@ -40,9 +42,9 @@ In this article you learn how to use Copilot and make the most of its features i
 
    :::image type="content" source="media/vs-2022/visual-studio-github-copilot-install-and-states/copilot-state-inactive-sign-in.png" alt-text="Screenshot showing the GitHub Copilot badge in Visual Studio.":::
 
-:::moniker-end
-
    If Copilot isn't installed, select **Install Copilot** from the dropdown and follow the installer prompts. For more information, see [Manage Copilot installation and state](visual-studio-github-copilot-install-and-states.md).
+
+:::moniker-end
 
 4. In the Chat window, choose to sign in with your existing GitHub account or [**Sign up for Copilot Free**](copilot-free-plan.md). Follow the prompts in your browser to complete the sign-in or sign-up process. After you finish, return to Visual Studio to continue using Copilot.
 
