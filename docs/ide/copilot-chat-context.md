@@ -45,7 +45,7 @@ The guided chat experience in Visual Studio 17.12 and later helps refine your pr
 
 :::moniker-end
 
-:::moniker range="vs-2022"
+:::moniker range="<=vs-2022"
 
 :::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-guided-chat.png" alt-text="Screenshot of guided chat experience with GitHub Copilot Chat.":::
 
@@ -63,7 +63,7 @@ The custom instructions feature enables you to automatically add prespecified co
 
 :::moniker-end
 
-:::moniker range="vs-2022"
+:::moniker range="<=vs-2022"
 
 :::image type="content" source="media/vs-2022/copilot-chat-context/custom-instruction-files.png" alt-text="Screenshot of custom instruction files used by Copilot in the References list.":::
 
@@ -186,7 +186,7 @@ You can use slash commands in a [chat window](visual-studio-github-copilot-chat.
 
 :::moniker-end
 
-:::moniker range="vs-2022"
+:::moniker range="<=vs-2022"
 
 :::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-context-slash-commands.png" alt-text="Screenshot of slash commands in inline chat view and chat windows.":::
 
@@ -228,7 +228,7 @@ Copilot provides optimization suggestions across these areas:
 
 ::: moniker-end
 
-::: moniker range="vs-2022"
+::: moniker range="<=vs-2022"
 
 ## Use Copilot actions
 
