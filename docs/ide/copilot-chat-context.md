@@ -39,13 +39,35 @@ Support for GitHub Copilot Chat is provided by GitHub and can be reached at http
 
 The guided chat experience in Visual Studio 17.12 and later helps refine your prompts to clarify context for better answers. GitHub Copilot Chat now guides you with clarifying questions when context is unclear.
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/copilot-chat-context/copilot-chat-guided-chat.png" alt-text="Screenshot of guided chat experience with GitHub Copilot Chat.":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 :::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-guided-chat.png" alt-text="Screenshot of guided chat experience with GitHub Copilot Chat.":::
+
+:::moniker-end
+
+
 
 ## Use custom instructions
 
 The custom instructions feature enables you to automatically add prespecified contextual details to your chat questions. Copilot Chat uses these instructions tailored to your specific context, such as, the way your team works, the tools you use, or the specifics of your project, when generating responses. 
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/copilot-chat-context/custom-instruction-files.png" alt-text="Screenshot of custom instruction files used by Copilot in the References list.":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 :::image type="content" source="media/vs-2022/copilot-chat-context/custom-instruction-files.png" alt-text="Screenshot of custom instruction files used by Copilot in the References list.":::
+
+:::moniker-end
 
 ### Use a .github/copilot-instructions.md file
 
