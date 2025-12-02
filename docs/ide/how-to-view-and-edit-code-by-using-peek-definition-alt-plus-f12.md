@@ -1,7 +1,7 @@
 ---
 title: Use Peek Definition to view and edit code
 description: Use the Peek Definition command to view and edit your code without having to switch context from the code you're currently writing.
-ms.date: 01/10/2018
+ms.date: 11/13/2025
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
@@ -52,13 +52,28 @@ When you start to edit inside a **Peek Definition** window, the file that you're
 
 ### To change options for Peek Definition
 
-1. Go to **Tools** > **Options** > **Text Editor** > **General**.
+:::moniker range="visualstudio"
 
-1. Select the option **Open definition in peek view**.
+1. Open the **Tools** > **Options** pane, and expand the **All Settings** > **Text Editor** > **General** section.
 
-1. Click **OK** to close the **Options** dialog box.
+1. Select the **Enable mouse click to perform Go To Definition** checkbox.
 
-   ![Setting the mouse-click peek definition option](../ide/media/editor_options_peek_view.png)
+1. Select the **Open definition in peek view** checkbox.
+
+   :::image type="content" source="../ide/media/visualstudio/editor-options-peek-view.png" border="false" alt-text="Screenshot that shows how to set the mouse-click peek definition option in Visual Studio.":::
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+1. Open the **Tools** > **Options** dialog and expand the **Text Editor** > **General** section.
+
+1. Select the **Enable mouse click to perform Go To Definition** checkbox.
+
+1. Select the **Open definition in peek view** checkbox, and then select **OK**.
+
+   ![Screenshot that shows how to set the mouse-click peek definition option.](../ide/media/editor_options_peek_view.png)
+
+:::moniker-end
 
 ### Keyboard shortcuts for Peek Definition
 

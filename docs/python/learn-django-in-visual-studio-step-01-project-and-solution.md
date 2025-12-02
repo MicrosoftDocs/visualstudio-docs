@@ -2,7 +2,7 @@
 title: Django in Visual Studio tutorial Step 1, Django basics
 titleSuffix: ""
 description: Overview and Step 1 of a core walkthrough of Django capabilities in Visual Studio, including prerequisites, Git, virtual environments, and creating a Django project.
-ms.date: 04/18/2024
+ms.date: 11/21/2025
 ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster
@@ -213,9 +213,16 @@ For more information on source control as automation, see [The Source of Truth: 
 
 Follow these steps to prevent Visual Studio from auto-committing a new project:
 
-::: moniker range=">=vs-2022"
+::: moniker range="visualstudio"
 
-1. Select **Tools** > **Options** > **Source Control** > **Git Global Settings**.
+1. Open the **Tools** > **Options** pane and expand the **All Settings** > **Source Control** > **Git Settings** section.
+
+1. Clear the **Commit changes after merge by default** option.
+
+::: moniker-end
+::: moniker range="vs-2022"
+
+1. Open the **Tools** > **Options** dialog and expand the **Source Control** > **Git Global Settings** section.
 
 1. Clear the **Commit changes after merge by default** option and select **OK**.
 

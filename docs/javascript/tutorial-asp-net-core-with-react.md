@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with React"
 description: Create an ASP.NET Core project to serve as an API backend and a React project to provide the user interface in Visual Studio.
-ms.date: 04/09/2025
+ms.date: 11/26/2025
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -133,7 +133,9 @@ If you don't see the weather forecast data in the browser, see [Troubleshooting]
    }
    ```
 
-1. To publish, right click the ASP.NET Core project, choose **Publish**, and select options to match your desired publish scenario, such as Azure, publish to a folder, etc.
+1. Right-click the ASP.NET Core project, choose **Publish**, and select options to match your desired publish scenario, such as Azure, publish to a folder, etc.
+
+1. After the publish profile is created, choose **Publish** in the Publish tab to publish the project.
 
    The publish process takes more time than it does for just an ASP.NET Core project, since the `npm run build` command gets invoked when publishing. The [BuildCommand](../javascript/javascript-project-system-msbuild-reference.md#buildcommand) runs `npm run build` by default.
 

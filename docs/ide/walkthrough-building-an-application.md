@@ -1,7 +1,7 @@
 ---
 title: 'Tutorial: Build an application'
 description: Become more familiar with several options that you can configure when you build applications with Visual Studio, such as hiding compiler warnings.
-ms.date: 11/14/2024
+ms.date: 11/18/2025
 ms.subservice: compile-build
 ms.topic: tutorial
 author: ghogen
@@ -199,41 +199,59 @@ You can temporarily hide certain warning messages during a build rather than hav
 
 ## Display additional build details in the Output window
 
-You can change how much information about the build process appears in the **Output** window. Build verbosity is usually set to **Minimal**, which means that the **Output** window displays only a summary of the build process along with any high priority warnings or errors. You can display more information about the build by using the [Options dialog box, Projects and Solutions, Build and Run](../ide/reference/options-dialog-box-projects-and-solutions-build-and-run.md).
+You can change how much information about the build process appears in the **Output** window. Build verbosity is usually set to **Minimal**, which means that the **Output** window displays only a summary of the build process along with any high priority warnings or errors. You can display more information about the build by using the [Tools, Options, Projects and Solutions, Build and Run](../ide/reference/options-dialog-box-projects-and-solutions-build-and-run.md).
 
 > [!IMPORTANT]
-> If you display more information, the build will take longer to complete.
+> If you display more information, the build takes longer to complete.
 
 ### Change the amount of information in the Output window
 
-1. Open the **Options** dialog box.
+:::moniker range="visualstudio"
 
-     :::moniker range="<=vs-2019"
-     ![Screenshot of Options command on the Tools menu.](../ide/media/exploreide-toolsoptionsmenu.png)
-     :::moniker-end
+1. Open the **Options** pane from the **Tools** menu:
 
-     :::moniker range=">=vs-2022"
+   :::image type="content" source="media/visualstudio/build-tutorial-tools-options-menu-item.png" border="false" alt-text="Screenshot of the Tools menu showing the Options item highlighted.":::
 
-     ![Screenshot of Tools, Options menu item.](media/vs-2022/build-tutorial-tools-options-menu-item.png)
+2. Expand the **All Settings** > **Projects and Solutions** > **Build and Run** section.
 
-     :::moniker-end
+3. Use the dropdown list and set the **MSBuild project build output verbosity** option to **Normal**.
 
-1. Choose the **Projects and Solutions** category, and then choose the **Build and Run** page.
+:::moniker-end
+:::moniker range="vs-2022"
+     
+1. Open the **Options** dialog from the **Tools** menu:
 
-1. In the **MSBuild project build output verbosity** list, choose **Normal**, and then choose the **OK** button.
+   ![Screenshot of Tools, Options menu item.](media/vs-2022/build-tutorial-tools-options-menu-item.png)
 
-1. On the menu bar, choose **Build** > **Clean Solution**.
+2. Expand the **Projects and Solutions** > **Build and Run** section.
 
-1. Build the solution, and then review the information in the **Output** window.
+3. Use the dropdown list and set the **MSBuild project build output verbosity** option to **Normal**, and then select **OK**.
 
-     The build information includes the time that the build started (located at the beginning) and the order in which files were processed. This information also includes the actual compiler syntax that Visual Studio runs during the build.
+:::moniker-end
+:::moniker range="<=vs-2019"
 
-     For example, in the C# build, the [/nowarn](/dotnet/visual-basic/reference/command-line-compiler/nowarn) option lists the warning code, **0168**, that you specified earlier in this topic, along with three other warnings.
+1. Open the **Options** dialog from the **Tools** menu:
 
-     In the Visual Basic build, [/nowarn](/dotnet/visual-basic/reference/command-line-compiler/nowarn) doesn't include specific warnings to exclude, so no warnings appear.
+   ![Screenshot of Options command on the Tools menu.](../ide/media/exploreide-toolsoptionsmenu.png)
 
-    > [!TIP]
-    > You can search the contents of the **Output** window if you display the **Find** dialog box by choosing the **Ctrl**+**F** keys.
+2. Expand the **Projects and Solutions** > **Build and Run** section.
+
+3. Use the dropdown list and set the **MSBuild project build output verbosity** option to **Normal**, and then select **OK**.
+
+:::moniker-end
+
+4. On the main toolbar, select **Build** > **Clean Solution**.
+
+5. Build the solution, and then review the information in the **Output** window.
+
+   The build information includes the time that the build started (located at the beginning) and the order in which files were processed. This information also includes the actual compiler syntax that Visual Studio runs during the build.
+
+   For example, in the C# build, the [/nowarn](/dotnet/visual-basic/reference/command-line-compiler/nowarn) option lists the warning code, **0168**, that you specified earlier in this article, along with three other warnings.
+
+   In the Visual Basic build, [/nowarn](/dotnet/visual-basic/reference/command-line-compiler/nowarn) doesn't include specific warnings to exclude, so no warnings appear.
+
+   > [!TIP]
+   > You can search the contents of the **Output** window if you display the **Find** dialog box by choosing the **Ctrl**+**F** keys.
 
 For more information, see [How to: View, save, and configure build log files](../ide/how-to-view-save-and-configure-build-log-files.md).
 

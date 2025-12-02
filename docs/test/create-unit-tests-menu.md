@@ -1,7 +1,7 @@
 ---
 title: Create unit test method stubs
 description: Learn how to use the Create Unit Tests command, which allows easy configuration of a test project, the test class, and the test method stub within it.
-ms.date: 12/04/2023
+ms.date: 11/25/2025
 ms.topic: how-to
 helpviewer_keywords: 
   - unit testing, create unit tests
@@ -9,6 +9,7 @@ author: mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: test-tools
+monikerRange: '<= vs-2022'
 ---
 # Create unit test method stubs from code
 

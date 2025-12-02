@@ -65,7 +65,11 @@ You can find many advanced features on the **Edit** > **Advanced** menu on the t
 
 ## Navigate and find code
 
-You can move around the code editor in several different ways, including navigating backward and forward to previous insertion points, viewing the definition of a type or member, and jumping to a specific method using the navigation bar. For more information, see [Navigate code](navigating-code.md).
+You can move around the code editor in several different ways, including jumping to a specific line number, navigating backward and forward to previous insertion points, viewing the definition of a type or member, and jumping to a specific method using the navigation bar. For more information, see [Navigate code](navigating-code.md).
+
+:::moniker range="visualstudio"
+To jump to a line number, press **Ctrl**+**G** or click the line and column numbers in the editor's bottom margin.
+:::moniker-end
 
 You can also set bookmarks to mark lines in your code so that you can quickly return to a specific location, or jump back and forth between locations. To learn more, see [Bookmark code](setting-bookmarks-in-code.md).
 
@@ -102,6 +106,24 @@ Visual Studio offers a few time-savers when it comes to copying and pasting code
 You can share your Visual Studio settings with another developer, have your settings conform to a standard, or return to Visual Studio default settings by using the **Import and Export Settings Wizard** command on the **Tools** menu. In the **Import and Export Settings Wizard**, you can change selected general settings or language and project-specific settings.
 
 To define new hotkeys or redefine existing hotkeys, go to **Tools** > **Options** > **Environment** > **Keyboard**. For more information about hotkeys, see [Keyboard shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md).
+
+:::moniker range="visualstudio"
+
+The bottom margin of the editor contains some customization controls.
+
+You can easily change the default indentation style from tabs to spaces to vice versa by clicking on SPC or TAB. The actual number of spaces is configurable in **Tools** > **Options**, under **All Settings** > **Text Editor** > **All languages** > **Tabs**.
+
+You can also change the default end-of-line codes from CR LF, the standard on Windows, to a different setting for better compatibility with other operating systems.
+
+The bottom margin of the editor can also be customized. Right-click on an unused area of the margin to open the context menu, which lets you select or unselect each  control element.
+
+:::image type="content" alt-text="Screenshot of the bottom margin context menu, showing optional control elements." source="./media/visualstudio/editor-bottom-margin-context-menu.png":::
+
+You can also change these settings in the **Tools** > **Options** pane, under **All Settings** > **Text Editor** > **General**. To control the bottom margin elements, make your selections under **Show editing context in the editor**.
+
+:::image type="content" alt-text="Screenshot of Tools > Options experience under Text Editor > General, with the setting Show editing context in the editor highlighted." source="./media/visualstudio/tools-options-show-editing-context-in-the-editor.png":::
+
+:::moniker-end
 
 For JavaScript-specific editor options, see [JavaScript editor options](/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-text-editor-javascript-formatting).
 

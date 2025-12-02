@@ -118,8 +118,8 @@ The following example shows a command line for applying the license for Visual S
 
 | Visual Studio Edition                | MPC   |
 |--------------------------------------|-------|
-| Visual Studio Enterprise 2026        | 09660 |
-| Visual Studio Professional 2026      | 09662 |
+| Visual Studio Enterprise 2026        | 09860 |
+| Visual Studio Professional 2026      | 09862 |
 
 ::: moniker-end
 
