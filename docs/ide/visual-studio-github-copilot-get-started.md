@@ -25,13 +25,26 @@ In this article you learn how to use Copilot and make the most of its features i
 1. Launch Visual Studio (version 17.8 or later). </br>
    *It's recommended to update to the latest version of Visual Studio to get the most out of Copilot.*
 1. Create a new project, open an existing project, or continue without code to launch the IDE.
-1. Select the **GitHub Copilot** badge in the upper right corner of Visual Studio, and select **Open Chat Window to Sign In**
+
+:::moniker range="visualstudio"
+
+3. Select the **GitHub Copilot** badge in the upper right corner of Visual Studio, and select **Open Chat Window to Sign In**
+
+   :::image type="content" source="media/visualstudio/copilot-state-inactive-sign-in.png" alt-text="Screenshot showing the GitHub Copilot badge in Visual Studio.":::
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+
+3. Select the **GitHub Copilot** badge in the upper right corner of Visual Studio, and select **Open Chat Window to Sign In**
 
    :::image type="content" source="media/vs-2022/visual-studio-github-copilot-install-and-states/copilot-state-inactive-sign-in.png" alt-text="Screenshot showing the GitHub Copilot badge in Visual Studio.":::
 
+:::moniker-end
+
    If Copilot isn't installed, select **Install Copilot** from the dropdown and follow the installer prompts. For more information, see [Manage Copilot installation and state](visual-studio-github-copilot-install-and-states.md).
 
-1. In the Chat window, choose to sign in with your existing GitHub account or [**Sign up for Copilot Free**](copilot-free-plan.md). Follow the prompts in your browser to complete the sign-in or sign-up process. After you finish, return to Visual Studio to continue using Copilot.
+4. In the Chat window, choose to sign in with your existing GitHub account or [**Sign up for Copilot Free**](copilot-free-plan.md). Follow the prompts in your browser to complete the sign-in or sign-up process. After you finish, return to Visual Studio to continue using Copilot.
 
 Copilot is now ready to use in Visual Studio!
 
