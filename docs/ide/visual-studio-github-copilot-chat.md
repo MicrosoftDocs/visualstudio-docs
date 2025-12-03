@@ -70,9 +70,9 @@ The chat window of Copilot Chat in Visual Studio enables you to ask your questio
     
     :::image type="content" source="media/visualstudio/visual-studio-github-copilot-chat/copilot-chat-window-ask-copilot-textbox.png" alt-text="Screenshot of Copilot Chat window.":::
 
-1. If Copilot Chat offers a code suggestion you want to use, select **Copy code block** to copy the code suggestion, **Apply** to insert the code suggestion in a new file, or select **Preview** to insert the code suggestion in your current code file. Using the **Preview** button lets you preview the code in the target location so you can easily see what's being updated.
+1. If Copilot Chat offers a code suggestion you want to use, select **Copy code block** to copy the code suggestion or **Apply** to insert the code suggestion in a new file. You can also insert the code suggestion in your current code file. You'll see a link similar to the one shown in at the bottom of the following screenshot. If you select it and then select the **Send** button in the chat window, you'll see another set of **Apply** and **Copy code block** buttons. Select **Apply** to insert the code in the current file.
     
-    :::image type="content" source="media/vs-2022/visual-studio-github-copilot-chat/copilot-chat-copy-code-insert-in-new-file-preview-options.png" alt-text="Screenshot of the options to copy code block, insert code in new file, or preview code for the code suggestions from Copilot Chat.":::
+    :::image type="content" source="media/visualstudio/visual-studio-github-copilot-chat/copilot-chat-copy-code-insert-in-new-file-preview-options.png" alt-text="Screenshot of the options to copy code block, insert code in new file, or insert code in the current file.":::
 
    If you ask a question for help with understanding your code, **Copy code block** and **Insert in new file** options won't be available.
 
