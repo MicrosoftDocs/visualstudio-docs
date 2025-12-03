@@ -219,7 +219,7 @@ When selected, displays a vertical margin along the left edge of the editor's te
 
 |Selection Margin on|Selection Margin off|
 | - | - |
-|![HTMLpageSelectionMarginOn screenshot](../../ide/reference/media/vxselmaron.gif)|![HTMLpageSelectionMarginOff screenshot](../../ide/reference/media/vxselmaroff.gif)|
+|![HTMLpageSelectionMarginOn screenshot](../../ide/media/vxselmaron.gif)|![HTMLpageSelectionMarginOff screenshot](../../ide/media/vxselmaroff.gif)|
 
 ### Indicator margin
 
