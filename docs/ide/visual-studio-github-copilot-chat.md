@@ -9,7 +9,7 @@ ms.author: meghaanand
 ms.manager: mijacobs
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
-
+monikerRange: '>= vs-2022'
 ---
 # What is the GitHub Copilot Chat experience for Visual Studio?
 
@@ -59,6 +59,39 @@ See [tips to improve Copilot chat](copilot-chat-context.md) results to learn how
 >[!NOTE]
 >With Visual Studio 2022 version 17.11, [content exclusion is available for GitHub Copilot Chat](visual-studio-github-copilot-admin.md#github-copilot-chat-in-visual-studio-and-content-exclusions) in Visual Studio. Content excluded by your admin will now be ignored in chat's responses. See [configuring content exclusions for GitHub Copilot](https://docs.github.com/copilot/managing-github-copilot-in-your-organization/configuring-content-exclusions-for-github-copilot?tool=visualstudio) to learn more.
 
+:::moniker range="visualstudio"
+
+### Ask questions in the chat window
+
+The chat window of Copilot Chat in Visual Studio enables you to ask your questions and see answers in the chat pane. It is usually the best way to work with Copilot on programming help and general coding questions.
+
+1. In Visual Studio, select **View** > **GitHub Copilot Chat**.
+1. In the Copilot Chat window, type a coding related question in the **Ask Copilot** text box. Press **Enter** or select **Send** to ask your question.
+    
+    :::image type="content" source="media/visualstudio/visual-studio-github-copilot-chat/copilot-chat-window-ask-copilot-textbox.png" alt-text="Screenshot of Copilot Chat window.":::
+
+1. If Copilot Chat offers a code suggestion you want to use, select **Copy code block** to copy the code suggestion, **Apply** to insert the code suggestion in a new file, or select **Preview** to insert the code suggestion in your current code file. Using the **Preview** button lets you preview the code in the target location so you can easily see what's being updated.
+    
+    :::image type="content" source="media/vs-2022/visual-studio-github-copilot-chat/copilot-chat-copy-code-insert-in-new-file-preview-options.png" alt-text="Screenshot of the options to copy code block, insert code in new file, or preview code for the code suggestions from Copilot Chat.":::
+
+   If you ask a question for help with understanding your code, **Copy code block** and **Insert in new file** options won't be available.
+
+    1. If you select **Preview**, you'll see the code suggestions in normal Visual Studio diff view pattern. You can review and refine what is being proposed and apply to your code by selecting **Accept** or discard by selecting **Cancel**.
+
+        :::image type="content" source="media/vs-2022/visual-studio-github-copilot-chat/copilot-chat-window-preview-code-diff-view-editor.png" alt-text="Screenshot of code suggestions in diff view in the editor window." lightbox="media/vs-2022/visual-studio-github-copilot-chat/copilot-chat-window-preview-code-diff-view-editor.png":::
+
+    1. If you select **Insert in new file**, you'll see the code suggestions in a new file. The file is not saved by default.
+    
+        :::image type="content" source="media/vs-2022/visual-studio-github-copilot-chat/copilot-chat-window-insert-in-new-file.png" alt-text="Screenshot of code suggestions in new file in the editor." lightbox="media/vs-2022/visual-studio-github-copilot-chat/copilot-chat-window-insert-in-new-file.png":::
+    
+    Visual Studio 2022 version 17.12 now includes [code referencing in GitHub Copilot](https://github.blog/news-insights/product-news/introducing-code-referencing-for-github-copilot/). This feature in GitHub Copilot notifies you when suggestions match public code. You can view the matching code, its source file, and any associated licensing information directly within Visual Studio. This enables you to make more informed decisions about whether to use the suggested code. 
+
+    :::image type="content" source="media/vs-2022/visual-studio-github-copilot-chat/code-referencing.png" alt-text="Screenshot of code referencing for public code.":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 ### Ask questions in the chat window
 
 The chat window of Copilot Chat in Visual Studio enables you to ask your questions and see answers in the chat pane. It is usually the best way to work with Copilot on programming help and general coding questions.
@@ -87,6 +120,8 @@ The chat window of Copilot Chat in Visual Studio enables you to ask your questio
     Visual Studio 2022 version 17.12 now includes [code referencing in GitHub Copilot](https://github.blog/news-insights/product-news/introducing-code-referencing-for-github-copilot/). This feature in GitHub Copilot notifies you when suggestions match public code. You can view the matching code, its source file, and any associated licensing information directly within Visual Studio. This enables you to make more informed decisions about whether to use the suggested code. 
 
     :::image type="content" source="media/vs-2022/visual-studio-github-copilot-chat/code-referencing.png" alt-text="Screenshot of code referencing for public code.":::
+
+:::moniker-end
 
 ### Ask questions in the inline chat view
 
