@@ -21099,12 +21099,17 @@
     },
     {
       "source_path": "docs/ide/reference/projects-and-solutions-options-dialog-box.md",
-      "redirect_url": "../projects-and-solutions-options-dialog-box",
+      "redirect_url": "/visualstudio/ide/projects-and-solutions-options-dialog-box",
       "redirect_document_id": false
     },
     {
       "source_path": "docs/ide/reference/options-text-editor-advanced.md",
-      "redirect_url": "../options-text-editor-advanced",
+      "redirect_url": "/visualstudio/ide/options-text-editor-advanced",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/toolbox.md",
+      "redirect_url": "/visualstudio/ide/toolbox",
       "redirect_document_id": false
     }
   ]
