@@ -76,11 +76,11 @@ The chat window of Copilot Chat in Visual Studio enables you to ask your questio
 
    If you ask a question for help with understanding your code, **Copy code block** and **Insert in new file** options won't be available.
 
-    1. If you select **Preview**, you'll see the code suggestions in normal Visual Studio diff view pattern. You can review and refine what is being proposed and apply to your code by selecting **Accept** or discard by selecting **Cancel**.
+    1. If you choose to add the changes to the current file, you'll see the code suggestions in normal Visual Studio diff view pattern. You can review and refine what is being proposed and apply to your code by selecting **Tab** or discard by selecting **Esc**.
 
         :::image type="content" source="media/vs-2022/visual-studio-github-copilot-chat/copilot-chat-window-preview-code-diff-view-editor.png" alt-text="Screenshot of code suggestions in diff view in the editor window." lightbox="media/vs-2022/visual-studio-github-copilot-chat/copilot-chat-window-preview-code-diff-view-editor.png":::
 
-    1. If you select **Insert in new file**, you'll see the code suggestions in a new file. The file is not saved by default.
+    1. If you select **Apply**, you'll see the code suggestions in a new file. The changes are not saved by default.
     
         :::image type="content" source="media/vs-2022/visual-studio-github-copilot-chat/copilot-chat-window-insert-in-new-file.png" alt-text="Screenshot of code suggestions in new file in the editor." lightbox="media/vs-2022/visual-studio-github-copilot-chat/copilot-chat-window-insert-in-new-file.png":::
     
