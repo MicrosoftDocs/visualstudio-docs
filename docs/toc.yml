@@ -634,6 +634,8 @@
     href: ide/find-and-fix-code-errors.md
   - name: Use the Immediate window
     href: ide/immediate-window.md
+  - name: Use the Toolbox
+    href: ide/toolbox.md
   - name: Tips and tricks
     items:
     - name: Productivity features
@@ -994,10 +996,6 @@
             href: ide/reference/options-text-editor-fsharp-intellisense.md
       - name: Windows Forms Designer
         href: ide/reference/options-windows-forms-designer.md
-    - name: Problem Details window
-      href: ide/reference/problem-details-window.md
-    - name: Toolbox window
-      href: ide/reference/toolbox.md
   - name: Devenv command-line switches
     items:
     - name: Reference
