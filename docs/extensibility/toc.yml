@@ -14,7 +14,6 @@
   - name: VisualStudio.Extensibility SDK (Preview) >>
     href: ./visualstudio.extensibility/index.yml
   - name: Upgrade extensions for Visual Studio
-    expanded: true
     items:
     - name: Upgrade an extension
       href: migration/update-visual-studio-extension.md
@@ -34,6 +33,7 @@
       href: arm64/target-arm64-visual-studio-extension.md
     - name: VSSDK messages
       href: vssdk-messages/index.md
+    expanded: true
   - name: What's New Visual Studio 2019 SDK
     items:
     - name: What's New Visual Studio 2019 SDK
@@ -48,7 +48,7 @@
       href: language-server-protocol.md
     - name: Add a Language Server Protocol extension
       href: adding-an-lsp-extension.md
-    - name: Language Configuration 
+    - name: Language Configuration
       href: language-configuration.md
   - name: Open Folder
     items:
@@ -438,8 +438,6 @@
       href: ux-guidelines/animations-for-visual-studio.md
     - name: Evaluation Tools
       href: ux-guidelines/evaluation-tools-for-visual-studio.md
-    - name: Per-monitor-awareness support
-      href: ux-guidelines/per-monitor-awareness-extenders.md
   - name: Address DPI Issues
     href: addressing-dpi-issues2.md
   - name: Image Service and Catalog

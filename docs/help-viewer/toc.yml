@@ -1,6 +1,6 @@
 - name: What is Help Viewer?
   href: overview.md
-- name: Install and customize Help Viewer 
+- name: Install and customize Help Viewer
   items:
   - name: Install Help Viewer during set up
     href: installation.md
