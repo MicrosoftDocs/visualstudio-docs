@@ -9,7 +9,7 @@ manager: mijacobs
 ms.subservice: general-ide
 dev_langs:
   - CSharp
-monikerRange: vs-2019
+monikerRange: '>= vs-2019'
 ---
 # Move type to namespace
 
