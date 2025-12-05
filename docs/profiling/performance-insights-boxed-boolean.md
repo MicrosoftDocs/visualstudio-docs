@@ -7,7 +7,7 @@ author: mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: debug-diagnostics
-monikerRange: '>= vs-2022'
+monikerRange: '>= visualstudio'
 ---
 
 # Boxed boolean allocations
@@ -26,9 +26,7 @@ When a boolean value is boxed, the runtime allocates a new object on the heap to
 
 Click the **Investigate** link to go to the [Allocation](../profiling/dotnet-alloc-tool.md#allocation) view showing the allocated boxed boolean objects. Double clicking on the allocation shows you the code paths where the allocations are occurring. Consider reducing these allocations by caching the boxed boolean values and returning the cached instances instead of allowing repeated boxing operations.
 
-::: moniker range="visualstudio"
-Starting in Visual Studio version 18.0.0 Preview 1 or later, if Copilot is enabled, you see the **Ask Copilot** ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png) button. Select the button, and Copilot provides a detailed analysis of the allocation patterns and suggests code fixes to optimize your memory usage.
-::: moniker-end
+If Copilot is enabled, you see the **Ask Copilot** ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png) button. Select the button, and Copilot provides a detailed analysis of the allocation patterns and suggests code fixes to optimize your memory usage.
 
 Here is an example of a boxed boolean allocation and its resolution:
 
