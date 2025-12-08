@@ -1,38 +1,40 @@
 ---
-title: IDiaSymbol12
-description: DIA interface providing version 12 extensions to IDiaSymbol.
+title: IDiaSymbol13
+description: DIA interface providing version 13 extensions to IDiaSymbol.
+  - "IDiaSymbol13"
 ms.date: 12/08/2025
-ms.topic: reference
 dev_langs:
-- C++
-helpviewer_keywords:
-- IDiaSymbol12
+  - "C++"
 author: mikejonesdocs
 manager: mrojacobs
 ---
 
-# IDiaSymbol12
+# IDiaSymbol13
 
-Provides version 12 extensions to [IDiaSymbol](idiasymbol.md). This interface adds support for scalable vector register types (for example, Arm SVE).
+Provides version 13 extensions to [IDiaSymbol](idiasymbol.md). This interface adds support for detecting C11 `_Atomic` types.
 
 ## Syntax
 
 ```
-IDiaSymbol12 : IDiaSymbol11
+IDiaSymbol13 : IDiaSymbol12
 ```
 
 ## Methods
 
-The following table shows the methods of `IDiaSymbol12`.
+The following table shows the methods of `IDiaSymbol13`.
 
 > [!NOTE]
 > Symbols will return meaningful data for only some of these methods, depending on the type of symbol. If a method returns `S_OK`, then that method has returned meaningful data.
 
 |Method|Description|
 |------------|-----------------|
-|[IDiaSymbol12:get_scalableRegisterType](./idiasymbol12-get-scalableRegisterType.md)|Retrieves scalable vector register type for the symbol.|
+|[IDiaSymbol13:idiasymbol-get-atomic-type](./idiasymbol13-get-atomicType.md)|Indicates whether the symbol represents a C11 `_Atomic` type.|
 
 ## Remarks
+
+This interface is available in DIA SDK version 13 and later.
+
+If the compiler or linker does not emit `_Atomic` type information into the PDB, `QueryInterface` will fail with E_NOINTERFACE.
 
 ## Notes for Callers
 
@@ -59,6 +61,7 @@ DLL: msdia140.dll
 - [`IDiaSymbol9`](../../debugger/debug-interface-access/idiasymbol9.md)
 - [`IDiaSymbol10`](../../debugger/debug-interface-access/idiasymbol10.md)
 - [`IDiaSymbol11`](../../debugger/debug-interface-access/idiasymbol11.md)
+- [`IDiaSymbol12`](../../debugger/debug-interface-access/idiasymbol12.md)
 - [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
 - [Symbols and Symbol Tags](../../debugger/debug-interface-access/symbols-and-symbol-tags.md)
 - [`DiaTagValue`](../../debugger/debug-interface-access/diatagvalue.md)
