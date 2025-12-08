@@ -37,15 +37,15 @@ Possible values correspond to scalable vector register kinds, such as `SVE_Z` or
  If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
 
 > [!NOTE]
-> A return value of `S_FALSE` means that the property is not available for the symbol.
+> A return value of `S_FALSE` means that the property isn't available for the symbol.
 
 ## Remarks
 
-This property is relevant for architectures that support scalable vector extensions (for example, Arm SVE).
+This property is relevant for architectures that support scalable vector extensions (for example, ARM SVE).
 
-If the symbol does not represent a scalable vector register, the method returns S_FALSE and `pRegisterType` is not modified.
+If the symbol doesn't represent a scalable vector register, the method returns S_FALSE and `pRegisterType` isn't modified.
 
-To access this property, obtain an IDiaSymbol12 interface by calling QueryInterface on an existing IDiaSymbol or IDiaSymbol11 instance.
+To access this property, obtain an `IDiaSymbol12` interface by calling `QueryInterface` on an existing `IDiaSymbol` or `IDiaSymbol12` instance.
 
 ## See also
 

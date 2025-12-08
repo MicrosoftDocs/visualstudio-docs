@@ -32,7 +32,7 @@ HRESULT get_atomicType(
 
 ## Return Value
 
- If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
+If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
 
 > [!NOTE]
 > A return value of `S_FALSE` means that the property is not available for the symbol.
@@ -41,9 +41,9 @@ HRESULT get_atomicType(
 
 This property is relevant for compilers and toolchains that emit `_Atomic` type information into PDBs.
 
-If the symbol does not represent a C11 `_Atomic` type, the method returns `S_FALSE` and does not modify `pIsAtomic`.
+If the symbol doesn't represent a C11 `_Atomic` type, the method returns `S_FALSE` and doesn't modify `pIsAtomic`.
 
-To access this property, obtain the `IDiaSymbol13` interface by calling `QueryInterface` on an existing `IDiaSymbol12` instance.
+To access this property, obtain the `IDiaSymbol13` interface by calling `QueryInterface` on an existing `IDiaSymbol13` instance.
 
 ## See also
 

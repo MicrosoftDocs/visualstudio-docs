@@ -15,7 +15,7 @@ ms.subservice: debug-diagnostics
 
 # IDiaSymbol12
 
-Provides version 12 extensions to [IDiaSymbol](idiasymbol.md). This interface adds support for scalable vector register types (for example, Arm SVE).
+Provides version 12 extensions to [IDiaSymbol](idiasymbol.md). This interface adds support for scalable vector register types (for example, ARM SVE).
 
 ## Syntax
 
@@ -28,7 +28,7 @@ IDiaSymbol12 : IDiaSymbol11
 The following table shows the methods of `IDiaSymbol12`.
 
 > [!NOTE]
-> Symbols will return meaningful data for only some of these methods, depending on the type of symbol. If a method returns `S_OK`, then that method has returned meaningful data.
+> Symbols return meaningful data for only some of these methods, depending on the type of symbol. If a method returns `S_OK`, then that method has returned meaningful data.
 
 |Method|Description|
 |------------|-----------------|

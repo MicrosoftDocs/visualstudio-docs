@@ -27,7 +27,7 @@ IDiaSymbol13 : IDiaSymbol12
 The following table shows the methods of `IDiaSymbol13`.
 
 > [!NOTE]
-> Symbols will return meaningful data for only some of these methods, depending on the type of symbol. If a method returns `S_OK`, then that method has returned meaningful data.
+> Symbols return meaningful data for only some of these methods, depending on the type of symbol. If a method returns `S_OK`, then that method has returned meaningful data.
 
 |Method|Description|
 |------------|-----------------|
@@ -37,7 +37,7 @@ The following table shows the methods of `IDiaSymbol13`.
 
 This interface is available in DIA SDK version 13 and later.
 
-If the compiler or linker does not emit `_Atomic` type information into the PDB, `QueryInterface` will fail with E_NOINTERFACE.
+If the compiler or linker doesn't emit `_Atomic` type information into the PDB, `QueryInterface` fail with E_NOINTERFACE.
 
 ## Notes for Callers
 
