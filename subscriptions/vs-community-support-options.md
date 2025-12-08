@@ -38,7 +38,6 @@ Within each area, there are updates, problem reports, discussion of new features
 > [!IMPORTANT]
 > Visual Studio for Mac was retired on August 31, 2024 in accordance with [Microsoft’s Modern Lifecycle Policy](https://learn.microsoft.com/lifecycle/policies/modern).
 >
-> [Learn more about support timelines and alternatives](/visualstudio/mac/what-happened-to-vs-for-mac).
 
 ## Microsoft Q&A
 

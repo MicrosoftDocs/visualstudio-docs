@@ -5,7 +5,7 @@
  author: mikejo5000
  ms.service: ""
  ms.topic: include
- ms.date: 11/11/2021
+ ms.date: 12/5/2025
  ms.author: mikejo
  ms.custom: include file
 ---
@@ -21,7 +21,20 @@ On the remote device or server that you want to debug on, rather than the Visual
 - Download the remote tools with the same architecture as the machine you're installing them on. For example, if you want to debug a 32-bit app on a remote computer running a 64-bit operating system, install the 64-bit remote tools.
 - If you're remote debugging an ARM64EC application on an ARM64 device, install the ARM64 remote tools, and then launch the x64 remote debugger that gets installed with those tools. This can be found under: *Program Files (x86)\Microsoft Visual Studio\<version>\Common7\IDE\Remote Debugger\x64*.
 
-::: moniker range=">=vs-2022"
+::: moniker range=">=visualstudio"
+
+|Version|Link|Notes|
+|-|-|-|
+|Visual Studio 2026|[Remote tools](https://aka.ms/vs/download/?cid=learn-onpage-download-cta#remote-tools-for-visual-studio-2026)|Compatible with Visual Studio 2022 and later versions. Download the version matching your device operating system (x86, x64 (AMD64), or ARM64). On older versions of Windows Server, see [Unblock the file download](/previous-versions/visualstudio/visual-studio-2017/debugger/remote-debugging-unblock-file-download) for help with downloading the remote tools.|
+|Visual Studio 2022|[Remote tools](https://my.visualstudio.com/Downloads?q=remote%20tools%20visual%20studio%202022)|Remote tools for Visual Studio 2022 are available from My.VisualStudio.com. If prompted, join the free [Visual Studio Dev Essentials](https://visualstudio.microsoft.com/dev-essentials/) program, or sign in with your Visual Studio subscription ID. Download the version matching your device operating system (x86, x64 (AMD64), or ARM64). On older versions of Windows Server, see [Unblock the file download](/previous-versions/visualstudio/visual-studio-2017/debugger/remote-debugging-unblock-file-download) for help with downloading the remote tools.|
+|Visual Studio 2019|[Remote tools](https://my.visualstudio.com/Downloads?q=remote%20tools%20visual%20studio%202019)|Remote tools for Visual Studio 2019 are available from My.VisualStudio.com. If prompted, join the free [Visual Studio Dev Essentials](https://visualstudio.microsoft.com/dev-essentials/) program, or sign in with your Visual Studio subscription ID. Download the version matching your device operating system (x86, x64 (AMD64), or ARM64). On older versions of Windows Server, see [Unblock the file download](/previous-versions/visualstudio/visual-studio-2017/debugger/remote-debugging-unblock-file-download) for help with downloading the remote tools.|
+|Visual Studio 2017|[Remote tools](https://my.visualstudio.com/Downloads?q=remote%20tools%20visual%20studio%202017)|Remote tools for Visual Studio 2017 are available from My.VisualStudio.com. If prompted, join the free [Visual Studio Dev Essentials](https://visualstudio.microsoft.com/dev-essentials/) program, or sign in with your Visual Studio subscription ID. Download the version matching your device operating system (x86, x64 (AMD64), or ARM64). On Windows Server, see [Unblock the file download](/previous-versions/visualstudio/visual-studio-2017/debugger/remote-debugging-unblock-file-download) for help with downloading the remote tools.|
+|Visual Studio 2015|[Remote tools](https://my.visualstudio.com/Downloads?q=remote%20tools%20visual%20studio%202015)|Remote tools for Visual Studio 2015 are available from My.VisualStudio.com. If prompted, join the free [Visual Studio Dev Essentials](https://visualstudio.microsoft.com/dev-essentials/) program, or sign in with your Visual Studio subscription ID. On Windows Server, see [Unblock the file download](/previous-versions/visualstudio/visual-studio-2017/debugger/remote-debugging-unblock-file-download) for help with downloading the remote tools.|
+|Visual Studio 2013|[Remote tools](/previous-versions/visualstudio/visual-studio-2013/bt727f1t(v=vs.120)#installing-the-remote-tools)|Download page in Visual Studio 2013 documentation|
+|Visual Studio 2012|[Remote tools](/previous-versions/visualstudio/visual-studio-2012/bt727f1t(v=vs.110)#installing-the-remote-tools)|Download page in Visual Studio 2012 documentation|
+
+::: moniker-end
+::: moniker range="=vs-2022"
 
 |Version|Link|Notes|
 |-|-|-|
