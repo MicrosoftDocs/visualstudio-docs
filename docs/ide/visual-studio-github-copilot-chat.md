@@ -86,7 +86,7 @@ The chat window of Copilot Chat in Visual Studio enables you to ask your questio
     
     Visual Studio 2022 version 17.12 now includes [code referencing in GitHub Copilot](https://github.blog/news-insights/product-news/introducing-code-referencing-for-github-copilot/). This feature in GitHub Copilot notifies you when suggestions match public code. You can view the matching code, its source file, and any associated licensing information directly within Visual Studio. This enables you to make more informed decisions about whether to use the suggested code. 
 
-    :::image type="content" source="media/vs-2022/visual-studio-github-copilot-chat/code-referencing.png" alt-text="Screenshot of code referencing for public code.":::
+    :::image type="content" source="media/visualstudio/visual-studio-github-copilot-chat/code-referencing.png" alt-text="Screenshot of code referencing for public code.":::
 
 :::moniker-end
 
