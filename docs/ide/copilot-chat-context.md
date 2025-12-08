@@ -1,7 +1,7 @@
 ---
 title: 'Customize chat responses'
 description: Use custom instructions and prompt files to customize responses and use slash commands to set quick context for common tasks.
-ms.date: 11/11/2025
+ms.date: 12/11/2025
 ms.update-cycle: 180-days
 ms.topic: how-to 
 author: anandmeg
