@@ -1,7 +1,7 @@
 ---
 title: "Remote Debug a C++ Project"
 description: Debug a Visual Studio C++ application from a remote computer, install and run remote tools, configure your project to connect, and deploy and run your app.
-ms.date: "11/04/2025"
+ms.date: "12/5/2025"
 ms.topic: article
 dev_langs:
   - "C++"
