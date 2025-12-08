@@ -3,10 +3,13 @@ title: IDiaSymbol13
 description: DIA interface providing version 13 extensions to IDiaSymbol.
   - "IDiaSymbol13"
 ms.date: 12/08/2025
+ms.topic: reference
 dev_langs:
   - "C++"
-author: mikejonesdocs
-manager: mrojacobs
+author: "mikejo5000"
+ms.author: "mikejo"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 
 # IDiaSymbol13

@@ -7,8 +7,10 @@ dev_langs:
 - C++
 helpviewer_keywords:
 - IDiaSymbol12
-author: mikejonesdocs
-manager: mrojacobs
+author: "mikejo5000"
+ms.author: "mikejo"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 
 # IDiaSymbol12

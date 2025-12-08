@@ -7,8 +7,10 @@ helpviewer_keywords:
   - "IDiaSymbol13::get_atomicType"
 dev_langs:
   - "C++"
-author: mikejonesdocs
-manager: mrojacobs
+author: "mikejo5000"
+ms.author: "mikejo"
+manager: mijacobs
+ms.subservice: debug-diagnostics
 ---
 
 # IDiaSymbol13::get_atomicType
