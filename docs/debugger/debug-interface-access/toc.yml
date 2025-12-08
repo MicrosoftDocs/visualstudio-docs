@@ -1490,6 +1490,18 @@
           href: idiasymbol11-get-discriminateduniontag.md
         - name: IDiaSymbol11::get_tagRanges
           href: idiasymbol11-get-tagranges.md
+      - name: IDiaSymbol12
+        items:
+        - name: IDiaSymbol12
+          href: idiasymbol12.md
+        - name: IDiaSymbol12::get_scalableRegisterType
+          href: idiasymbol12-get-scalableregistertype.md
+      - name: IDiaSymbol13
+        items:
+        - name: IDiaSymbol13
+          href: idiasymbol13.md
+        - name: IDiaSymbol12::get_atomicType
+          href: idiasymbol12-get-atomicType.md
       - name: IDiaTable
         items:
         - name: IDiaTable
