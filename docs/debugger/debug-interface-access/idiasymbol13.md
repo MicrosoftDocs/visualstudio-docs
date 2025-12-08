@@ -31,7 +31,7 @@ The following table shows the methods of `IDiaSymbol13`.
 
 |Method|Description|
 |------------|-----------------|
-|[IDiaSymbol13:idiasymbol-get-atomic-type](./idiasymbol13-get-atomicType.md)|Indicates whether the symbol represents a C11 `_Atomic` type.|
+|[IDiaSymbol13::idiasymbol-get-atomic-type](./idiasymbol13-get-atomicType.md)|Indicates whether the symbol represents a C11 `_Atomic` type.|
 
 ## Remarks
 

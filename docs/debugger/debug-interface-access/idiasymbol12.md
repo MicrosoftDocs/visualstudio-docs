@@ -32,7 +32,7 @@ The following table shows the methods of `IDiaSymbol12`.
 
 |Method|Description|
 |------------|-----------------|
-|[IDiaSymbol12:get_scalableRegisterType](./idiasymbol12-get-scalableRegisterType.md)|Retrieves scalable vector register type for the symbol.|
+|[IDiaSymbol12::get_scalableRegisterType](./idiasymbol12-get-scalableRegisterType.md)|Retrieves scalable vector register type for the symbol.|
 
 ## Remarks
 
