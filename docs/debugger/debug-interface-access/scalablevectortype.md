@@ -36,9 +36,9 @@ enum ScalableVectorType
 
 | Name      | Value | Description                                            |
 |-----------|-------|--------------------------------------------------------|
-| SVE_NONE  | 2     | Not a scalable vector type.                            |
-| SVE_Z     | 0     | Represents scalable vector Z data register (SVE_Z).    |
-| SVE_P     | 1     | Represents scalable vector predicate register (SVE_P). |
+| SVE_NONE  | 0     | Not a scalable vector type.                            |
+| SVE_Z     | 1     | Represents scalable vector Z data register (SVE_Z).    |
+| SVE_P     | 2     | Represents scalable vector predicate register (SVE_P). |
 
 ## Remarks
 

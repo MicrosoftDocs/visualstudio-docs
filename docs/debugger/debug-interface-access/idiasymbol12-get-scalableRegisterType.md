@@ -43,7 +43,9 @@ Possible values correspond to scalable vector register kinds, such as `SVE_Z` or
 
 This property is relevant for architectures that support scalable vector extensions (for example, ARM SVE).
 
-If the symbol doesn't represent a scalable vector register, the method returns S_FALSE and `pRegisterType` isn't modified. The register type is a `btVector` enumeration value. For more information, see [BasicType](../../debugger/debug-interface-access/basictype.md).
+If the symbol doesn't represent a scalable vector register, the method returns S_FALSE and `pRegisterType` isn't modified.
+
+This property or method only returns a valid value for symbols where `IDiaSymbol::get_baseType` returns a [BasicType](../../debugger/debug-interface-access/basictype.md) of `btVector`.
 
 To access this property, obtain an `IDiaSymbol12` interface by calling `QueryInterface` on an existing `IDiaSymbol` or `IDiaSymbol12` instance.
 
