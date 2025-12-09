@@ -23,7 +23,7 @@ Use this section of the **Options** pane to control message boxes and other aspe
 
 ## Find and Replace options
 
-The following options are available to control the visibility of informational messages when you use Find and Replace.
+The **Find and Replace** section provides the following options for Find and Replace, including controlling the visibility of informational messages.
 
 **Display No Results Found message**
 
@@ -72,11 +72,11 @@ Select this option when you want the **Find All References** tool window to use 
 :::moniker-end
 :::moniker range="<=vs-2022"
 
-Use this page of the **Options** dialog box to control message boxes and other aspects of a find and replace operation. You can access this dialog box from the **Tools** menu by selecting **Options**, expanding **Environment**, and then selecting **Find and Replace**.
+Use this page of the **Options** dialog box to control message boxes and other aspects of a find and replace operation. You can access these options by selecting **Tools** > **Options** and expanding the **Environment** > **Find and Replace** section.
 
-## Options
+## Find and Replace options
 
-The following options are available.
+The **Find and Replace** section provides the following options for Find and Replace.
 
 **Display informational messages**
 
