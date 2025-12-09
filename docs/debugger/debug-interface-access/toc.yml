@@ -1568,6 +1568,8 @@
         href: thunk-ordinal.md
       - name: UdtKind
         href: udtkind.md
+      - name: ScalableVectorType
+        href: scalablevectortype.md
     - name: Constants (Debug Interface Access SDK)
       href: constants-debug-interface-access-sdk.md
   - name: Dia2dump Sample
