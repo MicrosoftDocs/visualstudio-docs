@@ -23,7 +23,7 @@ Use this section of the **Options** pane to control message boxes and other aspe
 
 ## Find and Replace options
 
-The **Find and Replace** section provides the following options for Find and Replace, including controlling the visibility of informational messages.
+The **Find and Replace** section provides the following options, including controlling the visibility of informational messages.
 
 **Display No Results Found message**
 
@@ -76,7 +76,7 @@ Use this page of the **Options** dialog box to control message boxes and other a
 
 ## Find and Replace options
 
-The **Find and Replace** section provides the following options for Find and Replace.
+The **Find and Replace** section provides the following options.
 
 **Display informational messages**
 
