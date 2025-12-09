@@ -19,7 +19,7 @@ Selected MSBuild tasks can be set to run in the environment they target, when th
 
 The following `UsingTask` attributes affect all operations of a task in a particular build process:
 
-- The `Runtime` attribute, if present, sets the common language runtime (CLR) version, and can take any one of these values: `CLR2`, `CLR4`, `CurrentRuntime`, or `*` (any runtime).
+- The `Runtime` attribute, if present, sets the common language runtime (CLR) version, and can take any one of these values: `CLR2`, `CLR4`, `CurrentRuntime`, `NET` (starting in .NET SDK 10/Visual Studio 2026/MSBuild 18.0) or `*` (any runtime).
 
 - The `Architecture` attribute, if present, sets the platform and bitness, and can take any one of these values: `x86`, `x64`, `CurrentArchitecture`, or `*` (any architecture).
 
@@ -115,6 +115,39 @@ The `RoslynCodeTaskFactory` provides a mechanism by which you can write C# or Vi
 ### CodeTaskFactory
 
 `CodeTaskFactory` is an older version of `RoslynCodeTaskFactory` that is limited to the .NET Framework version of MSBuild. See [MSBuild inline tasks](msbuild-inline-tasks.md). This task factory is supported, but newer code should use `RoslynCodeTaskFactory` for wider applicability.
+
+## TaskHosts in MSBuild
+
+MSBuild executes tasks as part of the build process, and sometimes those tasks require running in a different runtime or architecture context than the default build process. To support this, MSBuild can use a "TaskHost"—a separate MSBuild process responsible for running tasks under the requested environment. TaskHosts ensure isolation, compatibility, and support for targeting different frameworks or platforms.
+
+Historically, TaskHosts enabled tasks to run in separate .NET Framework processes of specific versions (for example, CLR2 or CLR4). This support was governed by the `Runtime` and `Architecture` attributes of the `<UsingTask>` element in the project file or targets file:
+- `Architecture` can specify values like `x86`, `x64`, `CurrentArchitecture`, or `*` for “any architecture”.
+- `Runtime` can specify values like `CLR2`, `CLR4`, and (recently) `NET` or `CurrentRuntime`.
+
+For most MSBuild tasks, the default process is sufficient. But for custom or more advanced tasks—especially those with platform-specific dependencies—TaskHosts unlock compatibility and flexibility by launching a suitable runtime automatically.
+
+## Using the .NET TaskHost
+
+With the release of the .NET 10 SDK and Visual Studio 2026, MSBuild introduced support for a `.NET TaskHost`. This feature allows MSBuild to run Tasks that must use a .NET runtime on a separate .NET process. This is enabled via the `Runtime="NET"` attribute in the `<UsingTask>` element:
+
+```xml
+<UsingTask TaskName="MyNetTask"
+           Runtime="NET"
+           AssemblyFile="path\to\task.dll" />
+```
+
+When this attribute is set:
+- MSBuild automatically manages a pool of .NET TaskHost process and executes the specified task on a node in that pool.
+- Tasks can take advantage of APIs or libraries exclusive to modern .NET runtimes.
+- Isolation protects the build process from dependency or version conflicts.
+
+> [!WARNING]
+> This `.NET TaskHost` capability using `Runtime="NET"` is only available in projects that use the Microsoft.NET.Sdk **version 10 or higher** and/or Visual Studio **version 18 or higher**. It is **not** supported in earlier SDKs, earlier Visual Studio versions, or in projects based on other SDKs. Attempting to use `Runtime="NET"` in these contexts may result in build failures or ignored settings. 
+### Why Use the .NET TaskHost?
+
+- **Access to modern .NET APIs:** .NET TaskHost enables tasks to use features and libraries only available in recent .NET releases.
+- **Improved compatibility:** Separating task execution can avoid versioning and dependency conflicts.
+- **Future proofing:** We intend to further expand TaskHost support and unify SDK/resolver logic (see [dotnet/msbuild#12895](https://github.com/dotnet/msbuild/issues/12895) for ongoing work).
 
 ## Phantom task parameters
 
