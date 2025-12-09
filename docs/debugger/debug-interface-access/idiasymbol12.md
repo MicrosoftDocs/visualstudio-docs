@@ -15,7 +15,7 @@ ms.subservice: debug-diagnostics
 
 # IDiaSymbol12
 
-Provides version 12 extensions to [IDiaSymbol](idiasymbol.md). This interface adds support for scalable vector register types (for example, ARM SVE).
+Provides extensions to [IDiaSymbol](idiasymbol.md). This interface adds support for scalable vector register types (for example, ARM SVE).
 
 ## Syntax
 

@@ -14,7 +14,7 @@ ms.subservice: debug-diagnostics
 
 # IDiaSymbol13
 
-Provides version 13 extensions to [IDiaSymbol](idiasymbol.md). This interface adds support for detecting C11 `_Atomic` types.
+Provides extensions to [IDiaSymbol](idiasymbol.md). This interface adds support for detecting C11 `_Atomic` types.
 
 ## Syntax
 
@@ -34,8 +34,6 @@ The following table shows the methods of `IDiaSymbol13`.
 |[IDiaSymbol13::idiasymbol-get-atomic-type](./idiasymbol13-get-atomicType.md)|Indicates whether the symbol represents a C11 `_Atomic` type.|
 
 ## Remarks
-
-This interface is available in DIA SDK version 13 and later.
 
 If the compiler or linker doesn't emit `_Atomic` type information into the PDB, `QueryInterface` fail with E_NOINTERFACE.
 

@@ -15,7 +15,7 @@ ms.subservice: debug-diagnostics
 
 # IDiaSymbol13::get_atomicType
 
-Determines if the symbol represents a C11 `_Atomic` type. This property is part of the **IDiaSymbol13** interface introduced in DIA SDK version 13.
+Determines if the symbol represents a C11 `_Atomic` type. This property is part of the **IDiaSymbol13** interface.
 
 ## Syntax
 

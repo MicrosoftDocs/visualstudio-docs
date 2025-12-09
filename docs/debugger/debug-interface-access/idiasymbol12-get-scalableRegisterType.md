@@ -15,7 +15,7 @@ ms.subservice: debug-diagnostics
 
 # IDiaSymbol12::get_scalableRegisterType
 
-Retrieves the scalable vector register type for the symbol. This property is part of the **IDiaSymbol12** interface, introduced in DIA SDK version 12.
+Retrieves the scalable vector register type for the symbol. This property is part of the **IDiaSymbol12** interface.
 
 ## Syntax
 
