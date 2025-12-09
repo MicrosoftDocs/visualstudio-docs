@@ -1500,8 +1500,8 @@
         items:
         - name: IDiaSymbol13
           href: idiasymbol13.md
-        - name: IDiaSymbol12::get_atomicType
-          href: idiasymbol12-get-atomicType.md
+        - name: IDiaSymbol13::get_atomicType
+          href: idiasymbol13-get-atomicType.md
       - name: IDiaTable
         items:
         - name: IDiaTable
