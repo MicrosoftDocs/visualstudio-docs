@@ -68,7 +68,7 @@ enum BasicType {
 | btBit      | Basic type is a bit.                                 |
 | btBSTR     | Basic type is a basic or binary string (`BSTR`).     |
 | btHresult  | Basic type is an `HRESULT`.                          |
-| btHresult  | Basic type is a scalable vector.                    |
+| btVector   | Basic type is a scalable vector.                     |
 
 ## Remarks
 
