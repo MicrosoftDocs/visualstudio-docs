@@ -3,7 +3,7 @@ title: What are Visual Studio subscriptions?
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 11/19/2025
+ms.date: 12/10/2025
 ms.topic: article
 description:  Learn about Visual Studio subscriptions and how to acquire them
 ---
@@ -38,7 +38,6 @@ The tools and services that might be included in a subscription include:
 Build your development skill set with training and content from providers like:
 + [Cloud Academy](https://learn.microsoft.com/visualstudio/subscriptions/vs-cloud-academy)
 + [Pluralsight](https://learn.microsoft.com/visualstudio/subscriptions/vs-pluralsight)
-+ [DataCamp](https://www.datacamp.com/)
 + [CODE Magazine](https://www.codemag.com/Magazine)
 
 Access to training partners with exclusive subscriber discounts
