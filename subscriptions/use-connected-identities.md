@@ -3,7 +3,7 @@ title: Use connected identities in subscriptions
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 04/11/2025
+ms.date: 11/19/2025
 ms.topic: how-to
 robots: "noindex, nofollow"
 description: Work with connected identities such as Microsoft accounts and Microsoft Entra ID identities in Visual Studio subscriptions.
@@ -30,7 +30,7 @@ After your admin connects your MSA to your Microsoft Entra identity, sign in to 
 
 ## How to access benefits using your MSA
 
-For many of the benefits offered in Visual Studio subscriptions such as Pluralsight, LinkedIn, CloudPilot, and others, you actually create user accounts on the partners' web sites. For those accounts, you should continue to use the identity you used when you created the account. For example, if you activated your Pluralsight benefit using your MSA, you should continue to use your MSA when taking Pluralsight training. 
+For many of the benefits offered in Visual Studio subscriptions such as Pluralsight, Cloud Academy, CloudPilot, and others, you actually create user accounts on the partners' web sites. For those accounts, you should continue to use the identity you used when you created the account. For example, if you activated your Pluralsight benefit using your MSA, you should continue to use your MSA when taking Pluralsight training. 
 
 ## Use an alternate identity to access your subscription
 

@@ -279,6 +279,8 @@
         href: /troubleshoot/developer/visualstudio/project-build/how-to-troubleshoot-templates?toc=%2Fvisualstudio%2Ftoc.json
     - name: Locate project and item templates
       href: ide/how-to-locate-and-organize-project-and-item-templates.md
+    - name: Customize IDE behavior for projects and solutions
+      href: ide/projects-and-solutions-options-dialog-box.md
     - name: Customize templates
       items:
       - name: Customize project and item templates
@@ -521,6 +523,8 @@
         href: ide/javascript-intellisense.md
       - name: Visual C++ IntelliSense
         href: ide/visual-cpp-intellisense.md
+      - name: Configure a C# project for IntelliSense
+        href: ide/options-text-editor-csharp-intellisense.md
       - name: Configure a C++ project for IntelliSense
         href: ide/visual-cpp-intellisense-configuration.md
     - name: Move around in code
@@ -555,6 +559,10 @@
         href: ide/reference/how-to-display-urls-as-links-in-the-editor.md
       - name: Change indents and tabs
         href: ide/options-text-editor-all-languages-tabs.md
+      - name: Customize language options in the editor
+        href: ide/options-text-editor-all-languages.md
+      - name: Customize advanced text editor options
+        href: ide/options-text-editor-advanced.md
     - name: Code style
       items:
       - name: Code style preferences
@@ -626,6 +634,8 @@
     href: ide/find-and-fix-code-errors.md
   - name: Use the Immediate window
     href: ide/immediate-window.md
+  - name: Use the Toolbox
+    href: ide/toolbox.md
   - name: Tips and tricks
     items:
     - name: Productivity features
@@ -946,8 +956,6 @@
           href: ide/reference/fonts-and-colors-environment-options-dialog-box.md
       - name: Projects and Solutions
         items:
-        - name: General
-          href: ide/reference/projects-and-solutions-options-dialog-box.md
         - name: Build and Run
           href: ide/reference/options-dialog-box-projects-and-solutions-build-and-run.md
         - name: VC++ Project Settings
@@ -956,12 +964,8 @@
         items:
         - name: General
           href: ide/reference/options-text-editor-general.md
-        - name: Advanced
-          href: ide/reference/options-text-editor-advanced.md
         - name: All Languages
           items:
-          - name: General
-            href: ide/reference/options-text-editor-all-languages.md
         - name: Visual Basic
           items:
           - name: Advanced
@@ -972,8 +976,6 @@
           items:
           - name: Advanced
             href: ide/reference/options-text-editor-csharp-advanced.md
-          - name: IntelliSense
-            href: ide/reference/options-text-editor-csharp-intellisense.md
         - name: C/C++
           items:
           - name: Advanced
@@ -994,10 +996,6 @@
             href: ide/reference/options-text-editor-fsharp-intellisense.md
       - name: Windows Forms Designer
         href: ide/reference/options-windows-forms-designer.md
-    - name: Problem Details window
-      href: ide/reference/problem-details-window.md
-    - name: Toolbox window
-      href: ide/reference/toolbox.md
   - name: Devenv command-line switches
     items:
     - name: Reference
@@ -1130,6 +1128,8 @@
       href: ide/securing-applications.md
     - name: Run Visual Studio as an administrator
       href: ide/user-permissions-and-visual-studio.md
+    - name: Certificate revocation check
+      href: ide/certificate-revocation.md 
     - name: Configure trust settings
       href: ide/trust-settings.md
     - name: Windows Information Protection (WIP)

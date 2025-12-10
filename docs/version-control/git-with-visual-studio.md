@@ -2,7 +2,7 @@
 title: About Git in Visual Studio
 titleSuffix: ""
 description: Explore Git options for source control in Visual Studio and track the code changes you make over time or revert to specific versions.
-ms.date: 4/1/2025
+ms.date: 11/25/2025
 ms.topic: overview
 author: ghogen
 ms.author: ghogen
@@ -26,7 +26,7 @@ To get started using Git with Visual Studio:
 
 - Otherwise, easily [create a new Git repository and add your code](git-create-repository.md).  If you don't have a Git provider yet, we recommend you start with GitHub since the Git experience in Visual Studio is optimized for this provider. GitHub offers free and secured cloud code storage where you can store your code and access it from any device, anywhere.
 
-Not only can you add both [GitHub and GitHub Enterprise accounts to your keychain](../ide/work-with-github-accounts.md), but you can also leverage them just as you do with Microsoft accounts.  If you don’t have a GitHub account, follow these steps to [create a GitHub account to use with Visual Studio](git-create-github-account.md) now. Also, with Visual Studio 17.12 and later, you can add multiple GitHub accounts, and switch between them as needed. See [Add GitHub accounts to your Visual Studio keychain](../ide/work-with-github-accounts.md).
+Not only can you add both [GitHub and GitHub Enterprise accounts to your keychain](../ide/work-with-github-accounts.md), but you can also apply them just as you do with Microsoft accounts.  If you don’t have a GitHub account, follow these steps to [create a GitHub account to use with Visual Studio](git-create-github-account.md) now. Also, with Visual Studio 17.12 and later, you can add multiple GitHub accounts, and switch between them as needed. See [Add GitHub accounts to your Visual Studio keychain](../ide/work-with-github-accounts.md).
 
 :::image type="content" source="media/vs-2022/git-source-control-create-repository.png" alt-text="Screenshot of the Create a Git Repository dialog box in Visual Studio." lightbox="media/vs-2022/git-source-control-create-repository.png":::
 
@@ -44,7 +44,7 @@ Once you create a new branch and switch to it, you can start working by changing
 
 Git is a distributed version control system, meaning that all the changes made so far are local-only changes. To contribute these changes to a remote repository, you must [push those local commit(s) to a remote](git-push-remote.md).
 
-If you are working in a team, or if you are using different machines, you might often need to fetch and pull new changes on the remote repository. To learn more about managing Git network operations in Visual Studio, refer to the [Fetch, pull, push, and sync](git-fetch-pull-sync.md) page.
+If you're working in a team, or if you're using different machines, you might often need to fetch and pull new changes on the remote repository. To learn more about managing Git network operations in Visual Studio, refer to the [Fetch, pull, push, and sync](git-fetch-pull-sync.md) page.
 
 :::image type="content" source="media/vs-2022/git-source-control-inner-loop.png" alt-text="Screenshot of Visual Studio IDE with the Git menu and the Git Changes tab in Solution Explorer showing." lightbox="media/vs-2022/git-source-control-inner-loop.png":::
 
@@ -54,7 +54,21 @@ However, there are times when it makes more sense to focus on your Git repositor
 
 To help you focus on your Git repository, Visual Studio has a **Git Repository** window, which is a consolidated view of all the details in your repository, including local and remote branches and commit history. You can access this window directly from either **Git** or **View** on the menu bar, or from the status bar.
 
-:::image type="content" source="media/git-source-control-repository-management.png" alt-text="The Visual Studio IDE that highlights the Git menu and the Git Changes tab in Solution Explorer.":::
+:::moniker-end
+
+::: moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/git-source-control-repository-management.png" alt-text="Screenshot showing the Visual Studio IDE. The Create a new branch window and the Git Changes tab in Solution Explorer are shown." lightbox="media/visualstudio/git-source-control-repository-management.png":::
+ 
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+:::image type="content" source="media/git-source-control-repository-management.png" alt-text="The Create a new branch window and the Git Changes tab in Solution Explorer.":::
+
+::: moniker-end
+
+:::moniker range=">=vs-2022"
 
 ### Browse and manage Git repositories
 
@@ -69,11 +83,30 @@ Conflicts can occur during a merge if two developers modify the same lines in a 
 
 ### Personalize your Git settings
 
-To personalize your Git settings at a repository level as well as at a global level:
-1. Go to either **Git** > **Settings** on the menu bar or **Tools** > **Options** > **Source Control** > **Git Global Settings**
-2. Choose the [options](git-settings.md) you want.
+:::moniker-end
+
+To personalize your Git settings at a repository level as well as at a global level, follow these steps:
+
+:::moniker range="visualstudio"
+
+1. On the menu bar, select **Git** > **Settings**, or open the **Tools** > **Options** pane and expand the **All Settings** > **Source Control** > **Git Settings** > **Git Global Config** section.
+
+1. Choose the [options](git-settings.md) you want.
+
+    :::image type="content" source="media/visualstudio/git-options-settings.png" alt-text="Screenshot of the Options pane where you can choose personalization and customization settings in the Visual Studio IDE." lightbox="media/visualstudio/git-options-settings.png":::
+    
+:::moniker-end
+:::moniker range="vs-2022"
+
+1. On the menu bar, select **Git** > **Settings**, or open the **Tools** > **Options** dialog and expand the **Source Control** > **Git Global Settings** section.
+
+1. Choose the [options](git-settings.md) you want.
 
     :::image type="content" source="media/vs-2022/git-options-settings.png" alt-text="Screenshot of the Options dialog box where you can choose personalization and customization settings in Visual Studio IDE." lightbox="media/vs-2022/git-options-settings.png":::
+
+:::moniker-end
+
+:::moniker range=">=vs-2022"
 
 ## Productivity enhancements
 
@@ -81,7 +114,7 @@ In Visual Studio 2022 **version 17.12**, you can select any section of code, and
 
 In Visual Studio 2022 [**version 17.6**](/visualstudio/releases/2022/release-notes-v17.6), you can [search](https://devblogs.microsoft.com/visualstudio/git-tooling-preview-features-to-enhance-productivity/#improved-search-for-related-github-issues-and-azure-devops-work-items) for and [link](https://devblogs.microsoft.com/visualstudio/reference-github-issues-and-pull-requests-in-visual-studio/) to GitHub Issues and Azure DevOps work items. See the [**Git Features to Enhance Productivity**](https://devblogs.microsoft.com/visualstudio/git-tooling-preview-features-to-enhance-productivity/) blog post.
 
-::: moniker-end
+:::moniker-end
 
 ::: moniker range="<=vs-2019"
 
@@ -107,21 +140,21 @@ There are three ways to start using Git with Visual Studio to be more productive
 - [Open an existing Git repository](#open-an-existing-local-repository-in-visual-studio-2019). If your code is already on your machine, you can open it by using **File** > **Open** > **Project/Solution** (or **Folder**) and Visual Studio automatically detects if it has an initialized Git repository.
 
 > [!NOTE]
-> Starting with Visual Studio 2019 [version 16.8](/visualstudio/releases/2019/release-notes-v16.8), we include a fully integrated GitHub account experience. You can now add both GitHub and GitHub Enterprise accounts to your keychain. You can add and leverage them just as you do with Microsoft accounts, which means that you'll have an easier time accessing your GitHub resources across Visual Studio. For more information, see the [Work with GitHub accounts in Visual Studio](../ide/work-with-github-accounts.md) page.
+> Starting with Visual Studio 2019 [version 16.8](/visualstudio/releases/2019/release-notes-v16.8), we include a fully integrated GitHub account experience. You can now add both GitHub and GitHub Enterprise accounts to your keychain. You can add and apply them just as you do with Microsoft accounts, which means that you'll have an easier time accessing your GitHub resources across Visual Studio. For more information, see the [Work with GitHub accounts in Visual Studio](../ide/work-with-github-accounts.md) page.
 
 > [!TIP]
 > If you don’t have a GitHub account, you can start by following the steps outlined in the [Create a GitHub account to use with Visual Studio](git-create-github-account.md) page.
 
 ## Create a new Git repository in Visual Studio 2019
 
-If your code is not associated with Git, you can start by creating a new Git repository. To do so, select **Git** > **Create Git Repository** from the menu bar. Then, in the **Create a Git repository** dialog box, enter your information.
+If your code isn't associated with Git, you can start by creating a new Git repository. To do so, select **Git** > **Create Git Repository** from the menu bar. Then, in the **Create a Git repository** dialog box, enter your information.
 
 :::image type="content" source="media/git-create-repository.png" alt-text="The Create a Git Repository dialog box in Visual Studio.":::
 
-The **Create a Git repository** dialog box makes it easy to push your new repository to GitHub. By default, your new repository is private, which means that you are the only one who can access it. If you uncheck the box, your repository will be public, which means that anyone on GitHub can view it.
+The **Create a Git repository** dialog box makes it easy to push your new repository to GitHub. By default, your new repository is private, which means that you're the only one who can access it. If you uncheck the box, your repository is public, which means that anyone on GitHub can view it.
 
 > [!TIP]
-> Whether your repository is public or private, it's best to have a remote backup of your code stored securely on GitHub even if you are not working with a team. This also makes your code available to you no matter what computer you're using.
+> Whether your repository is public or private, it's best to have a remote backup of your code stored securely on GitHub even if you aren't working with a team. This also makes your code available to you no matter what computer you're using.
 
 You can choose to create a local-only Git repository by using the **Local only** option. Or, you can link your local project with an existing empty remote repository on Azure DevOps or any other Git provider by using the **Existing Remote** option.
 
@@ -169,7 +202,7 @@ As you do your work, Visual Studio keeps track of the file changes to your proje
 
 :::image type="content" source="media/git-changes-window.png" alt-text="The Git Changes window in Visual Studio.":::
 
-When you are ready to stage changes, click the **+** (plus) button on each file you want to stage, or right-click a file and then select **Stage**. You can also stage all your modified files with one click by using the stage all **+** (plus) button at the top of the **Changes** section.
+When you're ready to stage changes, click the **+** (plus) button on each file you want to stage, or right-click a file and then select **Stage**. You can also stage all your modified files with one click by using the stage all **+** (plus) button at the top of the **Changes** section.
 
 When you stage a change, Visual Studio creates a **Staged Changes** section. Only changes in the **Staged Changes** section are added to the next commit, which you can do by selecting **Commit Staged**. The equivalent command for this action is `git commit -m "Your commit message"`. Changes can also be unstaged by clicking the **–** (minus) button. The equivalent command for this action is `git reset <file_path>` to unstage a single file or `git reset <directory_path>` to unstage all the files in a directory.
 
@@ -180,7 +213,7 @@ Visual Studio also makes it easy to commit and sync with one click by using the 
 :::image type="content" source="media/git-file-version-compare.png" alt-text="The line-by-line comparison of file versions in Visual Studio ":::
 
 > [!TIP]
-> You can associate an Azure DevOps work item with a commit by using the "#" character if you are connected to the Azure DevOps repository. You can connect your Azure DevOps repository through **Team Explorer** > **Manage Connections**.
+> You can associate an Azure DevOps work item with a commit by using the "#" character if you're connected to the Azure DevOps repository. You can connect your Azure DevOps repository through **Team Explorer** > **Manage Connections**.
 
 ### Select an existing branch in Visual Studio 2019
 
@@ -268,7 +301,7 @@ To personalize and customize your Git settings at a repository level as well as 
 
 ## How to use the full Team Explorer experience in Visual Studio 2019
 
-The new Git experience is the default version control system in Visual Studio 2019 from [version 16.8](/visualstudio/releases/2019/release-notes/) onwards. However, if you want to turn it off, you can. Go to **Tools** > **Options** > **Environment** > **Preview Features** and then toggle the **New Git user experience** checkbox, which will switch you back to Team Explorer for Git.
+The new Git experience is the default version control system in Visual Studio 2019 from [version 16.8](/visualstudio/releases/2019/release-notes/) onwards. However, if you want to turn it off, you can. Go to **Tools** > **Options** > **Environment** > **Preview Features** and then toggle the **New Git user experience** checkbox, which switches you back to Team Explorer for Git.
 
 :::image type="content" source="media/git-opt-new-user-experience.png" alt-text="The Preview Features section of the Options dialog box in Visual Studio ":::
 

@@ -18,12 +18,13 @@ Unit testing has the greatest effect on the quality of your code when it's an in
 
 Test Explorer can also run third-party and open source unit test frameworks that have implemented Test Explorer add-on interfaces. You can add many of these frameworks through the Visual Studio Extension Manager and the Visual Studio gallery. For more information, see [Install third-party unit test frameworks](../test/install-third-party-unit-test-frameworks.md).
 
-You can quickly generate test projects and test methods from your code, or manually create the tests as you need them. When you use IntelliTest to explore .NET code, you can generate test data and a suite of unit tests. For every statement in the code, a test input is generated that will execute that statement. Find out how to [generate unit tests for .NET code](generate-unit-tests-for-your-code-with-intellitest.md).
-
 ## Get started
 
 For an introduction to unit testing that takes you directly into coding, see one of these articles:
 
+::: moniker range="visualstudio"
+- [GitHub Copilot testing for .NET](../test/unit-testing-with-github-copilot-test-dotnet.md)
+::: moniker-end
 - [Walkthrough: Create and run unit tests for .NET code](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md)
 
 - [Walkthrough: Test driven development with Test Explorer](../test/quick-start-test-driven-development-with-test-explorer.md)
@@ -75,9 +76,24 @@ public void Withdraw(double amount)
 
 Now that we have some code, it's time for testing.
 
+::: moniker range="visualstudio"
 ## Create unit tests with Copilot
 
-You can also use Copilot `/tests` slash command to generate unit tests from code. For example, you can type `/tests using NUnit Framework` to generate NUnit tests. For more information, see [Use slash commands in Copilot Chat](../ide/copilot-chat-context.md#slash-commands).
+Starting in Visual Studio 2026 Insiders build, you can use GitHub Copilot testing for .NET to automatically generate unit tests. GitHub Copilot testing for .NET not only generates the tests, but debugs the tests, and runs them in Test Explorer.  For more information, see [Overview of GitHub Copilot testing for .NET](../test/github-copilot-test-dotnet-overview.md). This is the recommended method to generate tests.
+
+Alternatively, you can use Copilot `/tests` slash command to generate unit tests from code. For example, you can type `/tests using NUnit Framework` to generate NUnit tests. For more information, see [Use slash commands in Copilot Chat](../ide/copilot-chat-context.md#slash-commands).
+
+### Generate and run unit tests
+
+Using the Visual Studio 2026 Insiders build, you can use [GitHub Copilot testing for .NET](../test/unit-testing-with-github-copilot-test-dotnet.md) to automatically generate unit tests.
+
+Most of the procedures described in this article apply to manually generated tests. If you want to learn more in-depth information about unit testing, you can read through the rest of this article or skip to the section [Run tests in Test Explorer](#run-tests-in-test-explorer).
+::: moniker-end
+
+::: moniker range="vs-2022"
+## Create unit tests with Copilot
+
+You can use Copilot `/tests` slash command to generate unit tests from code. For example, you can type `/tests using NUnit Framework` to generate NUnit tests. For more information, see [Use slash commands in Copilot Chat](../ide/copilot-chat-context.md#slash-commands).
 
 ## Create unit test projects and test methods (C#)
 
@@ -87,39 +103,46 @@ For C#, it is often quicker to generate the unit test project and unit test stub
 
 1. From the code editor window, right-click and choose [**Create Unit Tests**](create-unit-tests-menu.md) from the right-click menu.
 
-   ::: moniker range="vs-2019"
-   ![From the editor window, view the context menu](../test/media/vs-2019/basics-create-unit-tests.png)
-
-   > [!NOTE]
-   > The **Create Unit Tests** menu command is only available for C# code. To use this method with .NET Core or .NET Standard, Visual Studio 2019 or later is required.
-   ::: moniker-end
-
-   ::: moniker range=">=vs-2022"
    ![From the editor window, view the context menu](../test/media/vs-2022/basics-create-unit-tests.png)
 
    > [!NOTE]
    > The **Create Unit Tests** menu command is only available for C# code. To use this method with .NET Core or .NET Standard, Visual Studio 2019 or later is required.
-   ::: moniker-end
 
 2. Select **OK** to accept the defaults to create your unit tests, or change the values used to create and name the unit test project and the unit tests. You can select the code that is added by default to the unit test methods.
 
-   ::: moniker range="<=vs-2019"
-   ![Create Unit Tests dialog box in Visual Studio](../test/media/create-unit-tests.png)
-   ::: moniker-end
-   ::: moniker range=">=vs-2022"
    ![Create Unit Tests dialog box in Visual Studio](../test/media/vs-2022/create-unit-tests.png)
-   ::: moniker-end
 
 3. The unit test stubs are created in a new unit test project for all the methods in the class.
 
-   ::: moniker range="vs-2019"
-   ![The unit tests are created](../test/media/vs-2019/basics-test-stub.png)
-   ::: moniker-end
-   ::: moniker range=">=vs-2022"
    ![The unit tests are created](../test/media/vs-2022/basics-test-stub.png)
-   ::: moniker-end
 
 4. Now jump ahead to learn how to [Write your tests](#write-your-tests) to make your unit test meaningful, and any extra unit tests that you might want to add to thoroughly test your code.
+::: moniker-end
+
+::: moniker range="<= vs-2019"
+## Create unit test projects and test methods (C#)
+
+For C#, it is often quicker to generate the unit test project and unit test stubs from your code. Or you can choose to create the unit test project and tests manually depending on your requirements. If you want to create unit tests from code with a 3rd party framework you will need one of these extensions installed: [NUnit](https://marketplace.visualstudio.com/items?itemName=NUnitDevelopers.TestGeneratorNUnitextension-18371) or [xUnit](https://marketplace.visualstudio.com/items?itemName=YowkoTsai.xUnitnetTestGenerator). If you are not using C#, skip this section and go to [Create the unit test project and unit tests manually](#create-the-unit-test-project-and-unit-tests-manually).
+
+### Generate unit test project and unit test stubs
+
+1. From the code editor window, right-click and choose [**Create Unit Tests**](create-unit-tests-menu.md) from the right-click menu.
+
+   ![From the editor window, view the context menu](../test/media/vs-2019/basics-create-unit-tests.png)
+
+   > [!NOTE]
+   > The **Create Unit Tests** menu command is only available for C# code. To use this method with .NET Core or .NET Standard, Visual Studio 2019 or later is required.
+
+2. Select **OK** to accept the defaults to create your unit tests, or change the values used to create and name the unit test project and the unit tests. You can select the code that is added by default to the unit test methods.
+
+   ![Create Unit Tests dialog box in Visual Studio](../test/media/create-unit-tests.png)
+
+3. The unit test stubs are created in a new unit test project for all the methods in the class.
+
+   ![The unit tests are created](../test/media/vs-2019/basics-test-stub.png)
+
+4. Now jump ahead to learn how to [Write your tests](#write-your-tests) to make your unit test meaningful, and any extra unit tests that you might want to add to thoroughly test your code.
+::: moniker-end
 
 ### Create the unit test project and unit tests manually
 

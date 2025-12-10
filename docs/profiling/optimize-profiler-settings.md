@@ -1,7 +1,7 @@
 ---
 title: Optimizing Profiler settings
 description: Learn how the Performance Profiler and Diagnostic Tools window in Visual Studio have many different settings that affect the overall performance of the tools.
-ms.date: 07/22/2024
+ms.date: 11/20/2025
 ms.topic: how-to
 helpviewer_keywords: 
   - Profiler, improve performance
@@ -12,13 +12,33 @@ ms.subservice: debug-diagnostics
 ---
 # Optimizing Profiler settings
 
-The Performance Profiler and Diagnostic Tools window in Visual Studio have many different settings that affect the overall performance of the tools. Changing some settings can cause analysis to run quickly or cause additional wait times while processing results in tools. Below is a summary of certain settings and their impact on performance.
+The Performance Profiler and Diagnostic Tools window in Visual Studio have many different settings that affect the overall performance of the tools. Changing some settings can cause analysis to run quickly or cause more wait times while processing results in tools. Below is a summary of certain settings and their effect on performance.
 
 ## Symbol Settings
 
-The symbols settings found in the debugger options (**Debug > Options > Symbols** or **Tools > Options > Debugging > Symbols**) have a significant impact on how long it takes to generate results in the tools. Enabling symbol servers or using the **_NT_SYMBOL_PATH** causes the profiler to request symbols for each loaded module in a report. Currently, the profiler always automatically loads all symbols regardless of the automatic symbol loading preference.
+:::moniker range="visualstudio"
 
-![Symbol loading page](../profiling/media/symbolloading.png "Symbol Loading")
+The symbols settings for the debugger significantly affect on how long it takes to generate results in the tools. You can configure the options in the **Tools** > **Options** pane, under the **All Settings** > **Debugging** > **Symbols** > **Search Locations** section. 
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+The symbols settings for the debugger significantly affect on how long it takes to generate results in the tools. You can configure the options in the **Tools** > **Options** dialog, under the **Debugging** > **Symbols** section. 
+
+:::moniker-end
+
+Enabling symbol servers or using the **_NT_SYMBOL_PATH** variable causes the profiler to request symbols for each loaded module in a report. Currently, the profiler always automatically loads all symbols regardless of the automatic symbol loading preference.
+
+:::moniker range="visualstudio"
+
+:::image type="content" source="./media/visualstudio/symbol-loading-search-locations.png" border="false" alt-text="Screenshot that shows the Tools, Options, All Settings, Debugging, Symbols, Search Locations options.":::
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+:::image type="content" source="./media/symbolloading.png" border="false" alt-text="Screenshot that shows the Tools, Options, Debugging, Symbol loading options.":::
+
+:::moniker-end
 
 Progress on symbol loading can be seen in the **Output** window under the **Diagnostic Tools** heading.
 
@@ -28,7 +48,7 @@ Once downloaded, symbols are cached, which will speed up future analysis but sti
 
 ## Show External Code
 
-Many of the tools within the **Performance Profiler** and **Diagnostic Tools** window have a concept of user code versus external code. User code is any code built by the open solution or open workspace. External code is anything else. By keeping the **Show just my code** setting enabled, or the **Show external code** setting disabled, you allow the tools to aggregate external code to a single first level frame, greatly reducing the amount of processing required to show results. This allows users to see what was called in external code that created the slow down while keeping the data to be processed to a minimum. When possible, enable **Show external code** and make sure that you have the solution or workspace open for the *.diagsession* file that you're analyzing.
+Many of the tools within the **Performance Profiler** and **Diagnostic Tools** window have a concept of user code versus external code. User code is any code built by the open solution or open workspace. External code is anything else. By keeping the **Show just my code** setting enabled, or the **Show external code** setting disabled, you allow the tools to aggregate external code to a single first level frame, greatly reducing the amount of processing required to show results. This allows users to see what was called in external code that created the slowdown while keeping the data to be processed to a minimum. When possible, enable **Show external code** and make sure that you have the solution or workspace open for the *.diagsession* file that you're analyzing.
 
 For most profiling tools, the user code option is present in the settings for the summary page of the report.
 

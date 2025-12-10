@@ -21096,6 +21096,21 @@
       "source_path": "docs/ide/reference/options-text-editor-html-formatting.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-text-editor-html-formatting",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/projects-and-solutions-options-dialog-box.md",
+      "redirect_url": "/visualstudio/ide/projects-and-solutions-options-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/options-text-editor-advanced.md",
+      "redirect_url": "/visualstudio/ide/options-text-editor-advanced",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/toolbox.md",
+      "redirect_url": "/visualstudio/ide/toolbox",
+      "redirect_document_id": false
     }
   ]
 }
