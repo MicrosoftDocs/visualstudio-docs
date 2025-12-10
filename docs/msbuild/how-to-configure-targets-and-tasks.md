@@ -142,7 +142,7 @@ When this attribute is set:
 - Isolation protects the build process from dependency or version conflicts.
 
 > [!WARNING]
-> This `.NET TaskHost` capability using `Runtime="NET"` is only available in projects that use the Microsoft.NET.Sdk **version 10 or higher** and/or Visual Studio **version 18 or higher**. It is **not** supported in earlier SDKs, earlier Visual Studio versions, or in projects based on other SDKs. Attempting to use `Runtime="NET"` in these contexts may result in build failures or ignored settings. 
+> This `.NET TaskHost` capability using `Runtime="NET"` is only available in projects that use the Microsoft.NET.Sdk **version 10 or higher** and/or **Visual Studio 2026 and later** (version 18 or higher). It is **not** supported in earlier SDKs, earlier Visual Studio versions, or in projects based on other SDKs. Attempting to use `Runtime="NET"` in these contexts may result in build failures or ignored settings. 
 ### Why Use the .NET TaskHost?
 
 - **Access to modern .NET APIs:** .NET TaskHost enables tasks to use features and libraries only available in recent .NET releases.
