@@ -1,7 +1,7 @@
 ---
 title: Use the MSBuild XML schema to control builds
 description: Explore how the Microsoft Build Engine (MSBuild) platform provides a project file with an XML schema to control builds with properties, items, tasks, and targets.
-ms.date: 11/14/2024
+ms.date: 12/5/2025
 ms.topic: overview
 helpviewer_keywords:
 - MSBuild, about MSBuild
