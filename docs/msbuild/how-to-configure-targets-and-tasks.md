@@ -142,7 +142,15 @@ When this attribute is set:
 - Isolation protects the build process from dependency or version conflicts.
 
 > [!WARNING]
-> This `.NET TaskHost` capability using `Runtime="NET"` is only available in projects that use the Microsoft.NET.Sdk **version 10 or higher** and/or **Visual Studio 2026 and later** (version 18 or higher). It is **not** supported in earlier SDKs, earlier Visual Studio versions, or in projects based on other SDKs. Attempting to use `Runtime="NET"` in these contexts may result in build failures or ignored settings. 
+> This `.NET TaskHost` capability using `Runtime="NET"` is only available in projects that use the Microsoft.NET.Sdk **version 10 or higher** and/or **Visual Studio 2026 and later** (version 18 or higher). It is **not** supported in earlier SDKs, earlier Visual Studio versions, or in projects based on other SDKs. Attempting to use `Runtime="NET"` in these contexts may result in build failures or ignored settings.
+
+Attempting to use the .NET TaskHost feature with a .NET SDK before 10.0.100 will result in errors for your users when they build - to prevent this, you can do a version check to determine if the feature is safe to use. Here's, we'll use a version-comparison MSBuild Property Function to see if the current build is happening in a version greater than or equal to 10.0.100, and if so use the `NET` Runtime. Otherwise, if we're below SDK version 10.0.100 and running on the .NET Framework version of MSBuild, then we'll use a .NET Framework Task implementation instead.
+
+```xml
+<UsingTask .... AssemblyFile="my/netcore/tasks.dll" Runtime="NET" Condition="$([MSBuild]::VersionGreaterThanOrEquals('$(SdkAnalysisLevel)', '10.0.100'))" />
+<UsingTask .... AssemblyFile="my/netframework/tasks.dll" Condition="!$([MSBuild]::VersionGreaterThanOrEquals('$(SdkAnalysisLevel)', '10.0.100')) and $(MSBuildRuntimeType) == 'Full' " />
+```
+
 ### Why Use the .NET TaskHost?
 
 - **Access to modern .NET APIs:** .NET TaskHost enables tasks to use features and libraries only available in recent .NET releases.
