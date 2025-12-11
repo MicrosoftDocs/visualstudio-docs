@@ -1,6 +1,31 @@
 {
   "redirections": [
     {
+      "source_path": "docs/extensibility/ux-guidelines/per-monitor-awareness-extenders.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/extensibility/ux-guidelines/per-monitor-awareness-extenders",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/team-explorer-reference.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/ide/team-explorer-reference",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/test/live-unit-testing-2019.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/test/live-unit-testing-2019",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/test/live-unit-testing-faq-2019.yml",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/test/live-unit-testing-faq-2019",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/version-control/git-team-explorer-feature-comparison.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/version-control/git-team-explorer-feature-comparison",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/extensibility/migration/update-extension.md",
       "redirect_url": "/visualstudio/extensibility/migration/update-visual-studio-extension",
       "redirect_document_id": false
