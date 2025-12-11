@@ -15,7 +15,7 @@ ms.subservice: debug-diagnostics
 
 # IDiaSymbol12
 
-Provides extensions to [IDiaSymbol](idiasymbol.md). This interface adds support for scalable vector register types (for example, ARM SVE).
+Provides extensions to [IDiaSymbol](idiasymbol.md). This interface adds support for scalable vector register types (for example, ARM SVE) and for detecting C11 `_Atomic` types.
 
 ## Syntax
 
@@ -33,6 +33,7 @@ The following table shows the methods of `IDiaSymbol12`.
 |Method|Description|
 |------------|-----------------|
 |[IDiaSymbol12::get_scalableRegisterType](./idiasymbol12-get-scalableRegisterType.md)|Retrieves scalable vector register type for the symbol.|
+|[IDiaSymbol13::idiasymbol-get-atomic-type](./idiasymbol13-get-atomicType.md)|Indicates whether the symbol represents a C11 `_Atomic` type.|
 
 ## Remarks
 
