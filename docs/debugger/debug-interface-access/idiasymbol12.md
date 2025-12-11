@@ -33,7 +33,7 @@ The following table shows the methods of `IDiaSymbol12`.
 |Method|Description|
 |------------|-----------------|
 |[IDiaSymbol12::get_scalableRegisterType](./idiasymbol12-get-scalableRegisterType.md)|Retrieves scalable vector register type for the symbol.|
-|[IDiaSymbol12::idiasymbol-get-atomic-type](./idiasymbol13-get-atomicType.md)|Indicates whether the symbol represents a C11 `_Atomic` type.|
+|[IDiaSymbol12::idiasymbol-get-atomic-type](./idiasymbol12-get-atomicType.md)|Indicates whether the symbol represents a C11 `_Atomic` type.|
 
 ## Remarks
 
