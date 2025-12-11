@@ -52,7 +52,7 @@ For an introduction to unit testing, see [Unit test basics](../test/unit-test-ba
 
    Make sure the project builds without errors to simplify the process.
 
-1. Open Copilot Chat by selecting the GitHub Copilot Chat button.
+1. In Visual Studio, select **View > GitHub Copilot Chat**.
 
 1. Use the following syntax in the Chat window to start GitHub Copilot testing and generate tests:
 
