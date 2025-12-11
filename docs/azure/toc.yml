@@ -3,7 +3,6 @@ items:
   href: index.yml
   expanded: true
 - name: Overview
-  expanded: true
   items:
   - name: About Azure development in Visual Studio
     href: overview.md
@@ -11,8 +10,8 @@ items:
     href: overview-aspnet-azure-development.md
   - name: What are Connected Services?
     href: overview-connected-services.md
-- name: Connect to Azure services
   expanded: true
+- name: Connect to Azure services
   items:
   - name: Find and provision Azure resources
     href: overview-azure-integration.md
@@ -34,8 +33,8 @@ items:
     href: vs-azure-tools-connected-services-storage.md
   - name: App Configuration
     href: vs-azure-tools-connected-services-app-configuration.md
+  expanded: true
 - name: Deploy to Azure
-  expanded: false
   items:
   - name: ASP.NET web app
     href: deploy-aspnet-web-app-to-azure.md
@@ -49,10 +48,10 @@ items:
       href: azure-deployment-using-github-actions.md
     - name: Deploy an ASP.NET Core app with Entity Framework to Azure with GitHub Actions
       href: end-to-end-deployment-entity-framework-core-github-actions.md
+  expanded: false
 - name: Sign in with your Azure subscription
   href: how-to-sign-in-with-azure-subscription.md
 - name: Extended support for Azure Cloud Services
-  expanded: false
   items:
   - name: Use Azure Cloud Services (extended support)
     href: cloud-services-extended-support.md
@@ -84,5 +83,4 @@ items:
     href: vs-azure-tools-table-designer-construct-filter-strings.md
   - name: Access Azure virtual machines from Server Explorer
     href: vs-azure-tools-virtual-machines-access-from-server-explorer.md
-
-
+  expanded: false
