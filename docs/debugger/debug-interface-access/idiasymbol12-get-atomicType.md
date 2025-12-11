@@ -47,5 +47,5 @@ To access this property, obtain the `IDiaSymbol13` interface by calling `QueryIn
 
 ## See also
 
-- [`IDiaSymbol13`](../../debugger/debug-interface-access/idiasymbol13.md)
+- [`IDiaSymbol13`](../../debugger/debug-interface-access/idiasymbol12.md)
 - [`DiaTagValue`](../../debugger/debug-interface-access/diatagvalue.md)

@@ -1496,8 +1496,8 @@
           href: idiasymbol12.md
         - name: IDiaSymbol12::get_scalableRegisterType
           href: idiasymbol12-get-scalableregistertype.md
-        - name: IDiaSymbol13::get_atomicType
-          href: idiasymbol13-get-atomicType.md
+        - name: IDiaSymbol12::get_atomicType
+          href: idiasymbol12-get-atomicType.md
       - name: IDiaTable
         items:
         - name: IDiaTable
