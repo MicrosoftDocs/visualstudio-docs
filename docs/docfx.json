@@ -38,7 +38,7 @@
           "vs-2015/**"
         ],
         "src": "./",
-        "group": "vs-2019-"
+        "group": "vs-2022-"
       }
     ],
     "resource": [
@@ -167,7 +167,8 @@
           "vs-2017"
         ],
         "**/*.md": [
-          "vs-2017"
+          "vs-2017",
+          "vs-2019"
         ]
       }
     },
@@ -183,9 +184,9 @@
         "dest": "vs-2017-dest",
         "moniker_range": "vs-2017"
       },
-      "vs-2019-": {
-        "dest": "vs-2019-dest",
-        "moniker_range": ">= vs-2019"
+      "vs-2022-": {
+        "dest": "vs-2022-dest",
+        "moniker_range": ">= vs-2022"
       }
     },
     "dest": "vsdocsdocs"
