@@ -1,7 +1,7 @@
 ---
 title: Options dialog, Projects and Solutions, Build and Run
 description: Specify the maximum number of C++ or C# projects that can build at the same time, certain default build behaviors, and some build log settings in Visual Studio.
-ms.date: 12/10/2025
+ms.date: 12/11/2025
 ms.subservice: compile-build
 ms.topic: reference
 f1_keywords:
