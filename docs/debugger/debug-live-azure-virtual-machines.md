@@ -8,7 +8,7 @@ helpviewer_keywords:
 author: poppastring
 ms.author: madownie
 manager: andster
-monikerRange: '>= vs-2019'
+monikerRange: '>= vs-2022'
 ---
 # Debug live ASP.NET apps on Azure virtual machines and Azure virtual machine scale sets using the Snapshot Debugger
 

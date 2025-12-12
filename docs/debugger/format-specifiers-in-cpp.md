@@ -47,7 +47,7 @@ Add the `my_var1` variable to the **Watch** window while debugging, **Debug** > 
 
 ![Screenshot of the Visual Studio Watch window with one selected line that shows my_var1.c with a value of 101 'e' and a type of int.](../debugger/media/watchformatcplus1.png)
 
-::: moniker range=">= vs-2019" 
+::: moniker range=">= vs-2022" 
 You can view and select from a list of available format specifiers by appending a comma (,) to the value in the **Watch** window. 
 
 ![WatchFormatSpecDropdown](../debugger/media/vs-2019/format-specs-cpp.png "FormatSpecCpp")
@@ -58,7 +58,7 @@ You can view and select from a list of available format specifiers by appending 
 
 The following tables describe the format specifiers that you can use in Visual Studio. Specifiers in bold are only supported for the new debugger, and not for interop debugging with C++/CLI.
 
-::: moniker range=">= vs-2019" 
+::: moniker range=">= vs-2022" 
 
 |Specifier|Format|Original Watch Value|Value Displayed|
 |---------------|------------|--------------------------|---------------------|

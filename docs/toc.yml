@@ -63,10 +63,10 @@
       - name: Create a network-based installation
         href: install/create-a-network-installation-of-visual-studio.md
       - name: Deploy from layouts to client machines
-        href: install/deploy-a-layout-onto-a-client-machine.md        
+        href: install/deploy-a-layout-onto-a-client-machine.md
       - name: Automate installation with a response file
         href: install/automated-installation-with-response-file.md
-      - name: Apply product keys when deploying 
+      - name: Apply product keys when deploying
         href: install/automatically-apply-product-keys-when-deploying-visual-studio.md
       - name: Set up Visual Studio behind a firewall or proxy server
         href: install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md
@@ -90,7 +90,7 @@
         - name: Visual Studio Test Agent
           href: install/workload-component-id-vs-test-agent.md
         - name: Visual Studio Test Controller
-          href: install/workload-component-id-vs-test-controller.md        
+          href: install/workload-component-id-vs-test-controller.md
     - name: Manage global policies
       items:
       - name: Administrative Templates (ADMX)
@@ -120,7 +120,7 @@
     - name: Use on Arm-powered devices
       href: install/visual-studio-on-arm-devices.md
     - name: Install Build Tools into containers
-      items:  
+      items:
       - name: Install into Docker containers
         href: install/build-tools-container.md
       - name: Advanced container example
@@ -189,13 +189,13 @@
       href: ide/visual-studio-github-copilot-admin.md
 - name: IntelliCode
   items:
-  - name: 'What is IntelliCode?'
+  - name: What is IntelliCode?
     href: ide/intellicode-visual-studio.md
   - name: 'IntelliCode: Whole-line autocompletions'
     href: ide/visual-studio-whole-line-completions.md
   - name: 'IntelliCode: Suggestions'
     href: ide/intellicode-suggestions.md
-  - name: 'Privacy & IntelliCode'
+  - name: Privacy & IntelliCode
     href: ide/intellicode-privacy.md
 - name: Develop
   items:
@@ -305,13 +305,6 @@
     - name: Customize build and debug tasks
       displayName: makefile tasks.vs.json
       href: ide/customize-build-and-debug-tasks-in-visual-studio.md
-  - name: Team Explorer
-    displayName: Azure DevOps VSTS
-    items:
-    - name: Team Explorer
-      href: ide/team-explorer-reference.md
-    - name: Connect to a project
-      href: ide/connect-team-project.md
   - name: Editor
     items:
     - name: Use the editor
@@ -319,7 +312,7 @@
     - name: Use the Spell Checker
       href: ide/text-spell-checker.md
     - name: Use Sticky Scroll
-      href: ide/editor-sticky-scroll.md  
+      href: ide/editor-sticky-scroll.md
     - name: Find and replace
       items:
       - name: Find and replace text
@@ -469,8 +462,6 @@
           href: ide/reference/move-declaration-near-reference.md
         - name: Move type to matching file
           href: ide/reference/move-type-to-matching-file.md
-        - name: Move type to namespace
-          href: ide/reference/move-type-to-namespace.md
         - name: Pull member up
           href: ide/reference/pull-members-up.md
         - name: Regex completion through IntelliSense
@@ -814,7 +805,6 @@
   - name: About Git in Visual Studio
     href: version-control/git-with-visual-studio.md
   - name: Get started
-    expanded: true
     items:
     - name: Clone a repo
       href: version-control/git-clone-repository.md
@@ -822,8 +812,8 @@
       href: version-control/git-create-repository.md
     - name: Git settings and preferences
       href: version-control/git-settings.md
-  - name: Innerloop workflow
     expanded: true
+  - name: Innerloop workflow
     items:
     - name: Create a branch
       href: version-control/git-create-branch.md
@@ -837,8 +827,8 @@
       href: version-control/git-create-pull-request.md
     - name: Fetch, pull, and sync
       href: version-control/git-fetch-pull-sync.md
-  - name: Repo management
     expanded: true
+  - name: Repo management
     items:
     - name: Browse a repo
       href: version-control/git-browse-repository.md
@@ -848,6 +838,7 @@
       href: version-control/git-multi-repository-support.md
     - name: Resolve merge conflicts
       href: version-control/git-resolve-conflicts.md
+    expanded: true
   - name: Reference
     items:
     - name: Git Changes with no active repo set
@@ -856,8 +847,6 @@
     items:
     - name: Create a GitHub account
       href: version-control/git-create-github-account.md
-    - name: Compare Git and Team Explorer side-by-side
-      href: version-control/git-team-explorer-feature-comparison.md
 - name: Test >>
   displayName: Unit testing
   href: test/index.yml
@@ -890,7 +879,7 @@
   - name: Window layouts & tabs
     href: ide/customizing-window-layouts-in-visual-studio.md
   - name: Accessibility tips & tricks
-    href: ide/reference/accessibility-tips-and-tricks.md  
+    href: ide/reference/accessibility-tips-and-tricks.md
   - name: File nesting in Solution Explorer
     href: ide/file-nesting-solution-explorer.md
   - name: Startup behavior
@@ -908,7 +897,7 @@
     - name: Sign in or switch accounts
       displayName: personalization accounts
       href: ide/signing-in-to-visual-studio.md
-    - name: 'Access multiple accounts (Azure, Entra)'
+    - name: Access multiple accounts (Azure, Entra)
       href: ide/sign-in-access-multiple-accounts.md
     - name: Multifactor authentication (MFA)
       href: ide/work-with-multi-factor-authentication.md
@@ -965,7 +954,6 @@
         - name: General
           href: ide/reference/options-text-editor-general.md
         - name: All Languages
-          items:
         - name: Visual Basic
           items:
           - name: Advanced
@@ -1129,7 +1117,7 @@
     - name: Run Visual Studio as an administrator
       href: ide/user-permissions-and-visual-studio.md
     - name: Certificate revocation check
-      href: ide/certificate-revocation.md 
+      href: ide/certificate-revocation.md
     - name: Configure trust settings
       href: ide/trust-settings.md
     - name: Windows Information Protection (WIP)
@@ -1140,7 +1128,7 @@
       href: ide/dotfuscator/index.md
 - name: Resources
   items:
-  - name: "What's new in Docs"
+  - name: What's new in Docs
     href: ide/whats-new-visual-studio-docs.md
   - name: Release notes >>
     href: /visualstudio/releases/
@@ -1167,7 +1155,7 @@
   - name: Report a problem
     href: ide/how-to-report-a-problem-with-visual-studio.md
   - name: Customer Experience Improvement
-    href: ide/visual-studio-experience-improvement-program.md    
+    href: ide/visual-studio-experience-improvement-program.md
   - name: Get performance issues fixed quicker
     href: ide/how-to-increase-chances-of-performance-issue-being-fixed.md
   - name: Create logs for MSBuild problems

@@ -15,7 +15,7 @@ author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide
-monikerRange: ">=vs-2019"
+monikerRange: ">=vs-2022"
 
 #customer intent: As a Visual Studio user, I want to configure advanced Text Editor options so that I can customize editor behavior, performance, and display settings to match my preferences.
 ---

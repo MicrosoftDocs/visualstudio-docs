@@ -13,7 +13,7 @@ ms.subservice: python
 
 # Remotely debug Python code on Linux in Visual Studio
 
-::: moniker range=">= vs-2019"
+::: moniker range=">= vs-2022"
 
 [!include[Debugging Python code](includes/vs-2019/remote-debugging-python-code.md)]
 

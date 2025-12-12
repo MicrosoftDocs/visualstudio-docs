@@ -9,7 +9,7 @@ ms.devlang: csharp
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
-monikerRange: ">=vs-2019"
+monikerRange: ">=vs-2022"
 dev_langs:
   - CSharp
 ---

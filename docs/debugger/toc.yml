@@ -412,8 +412,6 @@
         href: /windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps
       - name: Debug UWP apps on a remote machine
         href: run-windows-store-apps-on-a-remote-machine.md
-      - name: Run UWP apps in the simulator
-        href: run-windows-store-apps-in-the-simulator.md
       - name: Deploy UWP apps from Visual Studio
         href: deploy-windows-store-apps-from-visual-studio.md
       - name: Debug an installed app package
