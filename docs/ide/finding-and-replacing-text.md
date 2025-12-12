@@ -59,11 +59,6 @@ The **Find and Replace** control appears in the upper right corner of the code e
 
 ::: moniker-end
 
-::: moniker range="<=vs-2019"
-
-:::image type="content" source="media/find-and-replace-box.png" alt-text="Screenshot of the Find and Replace dialog in the Editor in Visual Studio 2019 and earlier versions.":::
-
-::: moniker-end
 
 You can access replacement options by choosing the button next to the **Find** text box. To make one replacement at a time, choose the **Replace Next** button next to the **Replace** text box. To replace all matches, choose the **Replace All** button.
 
@@ -81,17 +76,6 @@ A version of the **Find** control is also available in some tool windows. For ex
 
 Open the **Find and Replace** dialog box by pressing **Ctrl**+**Shift**+**F**, or:
 
-:::moniker range="<=vs-2019"
-
-1. Press **Ctrl**+**Q** and enter "find" in the search box at the top of the screen.
-1. Choose **Find in files** from the list of results.
-
-:::image type="content" source="media/find-files-vs2019.png" alt-text="Screenshot of the Find and Replace dialog box in Visual Studio 2019, with the Find in Files tab open.":::
-
-> [!IMPORTANT]
-> If you are using **Visual Studio 2019** [**version 16.6**](/visualstudio/releases/2019/release-notes-v16.6/) or earlier, the **Find and Replace** dialog box might not look like it appears here. Switch to the [Visual Studio 2017](find-in-files.md?view=vs-2017&preserve-view=true) version of this page for descriptions that'll match what you see on your screen.
-
-:::moniker-end
 
 ::: moniker range="vs-2022"
 
@@ -189,38 +173,6 @@ To select multiple carets:
 
 ::: moniker-end
 
-::: moniker range="<=vs-2019"
-
-In the following screenshot, `-0000` is selected in three locations; if the user presses **Delete**, all three selections are deleted:
-
-![Multi-caret selection in an XML file in Visual Studio](media/multi-caret-selection.png)
-
-To select multiple carets, click or make first text selection as usual, and then press **Ctrl**+**Alt** while you click or select text in each additional location. You can also automatically add matching text as additional selections, or select a box of text to edit identically on each line.
-
-> [!TIP]
-> If you've selected **Alt** as the modifier key for mouse-click in "Go to Definition" from **Tools** > **Options** > **Text Editor** > **General**, multi-caret select is disabled. For more information, see [Options dialog box: Text Editor /> General](reference/options-text-editor-general.md).
-
-### Commands
-
-Use the following keys and actions for multi-caret selection behaviors:
-
-|Shortcut|Action|
-|-|-|
-|**Ctrl**+**Alt** + click|Add a secondary caret|
-|**Ctrl**+**Alt** + double-click|Add a secondary word selection|
-|**Ctrl**+**Alt** + click + drag|Add a secondary selection|
-|**Shift**+**Alt**+**.**|Add the next matching text as a selection|
-|**Shift**+**Alt**+**;**|Add all matching text as selections|
-|**Shift**+**Alt**+**,**|Remove last selected occurrence|
-|**Shift**+**Alt**+**/**|Skip next matching occurrence|
-|**Alt** + click|Add a box selection|
-|**Esc** or click|Clear all selections|
-
-Some of the commands are also available on the **Edit** menu, under **Multiple Carets**:
-
-:::image type="content" source="media/edit-menu-multiple-carets-find-replace.png" alt-text="Screenshot of the Multiple Carets fly-out menu in Visual Studio":::
-
-::: moniker-end
 
 ## Related content
 

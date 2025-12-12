@@ -62,11 +62,6 @@ int main()
 
 1. In the **Watch** window, select an empty row, and type variable `a`. Do the same for `b` and `c`.
 
-   ::: moniker range="<=vs-2019"
-
-   ![Screenshot of Watch variables.](../debugger/media/vs-2019/watch-variable.png)
-
-   ::: moniker-end
 
    ::: moniker range=">=vs-2022"
 
@@ -88,11 +83,6 @@ You can observe any valid expression recognized by the debugger in a **Watch** w
 
 For example, for the code in the preceding section, you can get the average of the three values by entering `(a + b + c) / 3` in the **Watch** window:
 
-::: moniker range="<=vs-2019"
-
-![Screenshot of Watch expression.](../debugger/media/vs-2019/watch-expression.png "Watch expression")
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
@@ -102,11 +92,6 @@ For example, for the code in the preceding section, you can get the average of t
 
 The rules for evaluating expressions in the **Watch** window are generally the same as the rules for evaluating expressions in the code language. If an expression has a syntax error, expect the same compiler error as in the code editor. For example, a typo in the preceding expression produces this error in the **Watch** window:
 
-::: moniker range="<=vs-2019"
-
-![Screenshot of Watch expression error.](../debugger/media/vs-2019/watch-expression-error.png "Watch expression error")
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
@@ -183,11 +168,6 @@ To demonstrate how to use the refresh icon:
 
 3. Start debugging. The **Watch** window shows something like the following message:
 
-   ::: moniker range="<=vs-2019"
-
-   ![Screenshot of Refresh Watch.](../debugger/media/vs-2019/refresh-watch.png "Refresh Watch")
-
-   ::: moniker-end
 
    ::: moniker range=">=vs-2022"
 
@@ -353,11 +333,6 @@ To observe the `a` variable,
 
    The **QuickWatch** dialog appears. The `a` variable is in the **Expression** box with a **Value** of **1**.
 
-   ::: moniker range="<=vs-2019"
-
-   ![Screenshot of QuickWatch variable.](../debugger/media/vs-2019/quickwatch-variable.png "QuickWatch variable")
-
-   ::: moniker-end
 
    ::: moniker range=">=vs-2022"
 
@@ -367,11 +342,6 @@ To observe the `a` variable,
 
 1. To evaluate an expression using the variable, type an expression such as `a + b` in the **Expression** box, and select **Reevaluate**.
 
-   ::: moniker range="<=vs-2019"
-
-   ![Screenshot of QuickWatch expression.](../debugger/media/vs-2019/quickwatch-expression.png "QuickWatch expression")
-
-   ::: moniker-end
 
    ::: moniker range=">=vs-2022"
 

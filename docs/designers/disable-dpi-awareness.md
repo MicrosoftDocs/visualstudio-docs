@@ -59,13 +59,6 @@ It's important to restart Visual Studio to return it to its default as a DPI-awa
 
 When Visual Studio runs as DPI-unaware, the designer layout issues are resolved, however fonts might appear blurry and issues can appear in other designers such as the XAML Designer. Visual Studio displays a different informational message when DPI-unaware that says "Visual Studio is running as a DPI-unaware process. WPF and XAML designers might not display correctly." 
 
-::: moniker range="<=vs-2019"
-
-> [!NOTE]
-> - If you have undocked [tool windows](../ide/customizing-window-layouts-in-visual-studio.md#tool-and-document-windows) after you select the option to restart Visual Studio as a DPI-unaware process, the position of the tool windows might change.
-> - If you use the default Visual Basic profile, or if you have the **Save new projects when created** option deselected in **Tools** > **Options** > **Projects and Solutions**, Visual Studio can't reopen your project when it restarts as a DPI-unaware process. However, you can open the project by selecting it under **File** > **Recent Projects and Solutions**.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 

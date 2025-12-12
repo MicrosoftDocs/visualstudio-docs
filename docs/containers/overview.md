@@ -23,26 +23,6 @@ The tools included in Visual Studio for developing with [Docker](https://docs.do
 
 :::moniker-end
 
-::: moniker range="vs-2019"
-
-## Prerequisites
-
-- [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
-- [Visual Studio 2019 or later](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET Core cross-platform development** workload installed.
-- [.NET Core Development Tools](https://dotnet.microsoft.com/download/dotnet-core/) for development with .NET Core.
-- To publish to Azure Container Registry, an Azure subscription. [Sign up for a free trial](https://azure.microsoft.com/offers/ms-azr-0044p/).
-
-## Docker support in Visual Studio
-
-Docker support is available for ASP.NET projects, ASP.NET Core projects, and .NET Core and .NET Framework console projects.
-
-The support for Docker in Visual Studio has changed over a number of releases in response to customer needs. There are two levels of Docker support you can add to a project, and the supported options vary by the type of project and the version of Visual Studio. With some supported project types, if you just want a container for a single project, without using orchestration, you can do that by adding Docker support. The next level is container orchestration support, which adds appropriate support files for the particular orchestrator you choose.
-
-With Visual Studio 2019, you can use Docker Compose, Kubernetes, and Service Fabric as container orchestration services.
-
-In Visual Studio 2019 version 16.4 and later, the **Containers** window is available, which lets you view running containers, browse available images, view environment variables, logs, and port mappings, inspect the filesystem, attach a debugger, or open a terminal window inside the container environment. See [Use the Containers window](view-and-diagnose-containers.md).
-
-::: moniker-end
 
 ::: moniker range="visualstudio"
 
@@ -121,9 +101,6 @@ Select a container, and use the tabs to view the information that's available. T
 
 :::moniker-end
 
-:::moniker range="<=vs-2019"
-![Screenshot of Containers window.](media/overview/vs-2019/container-tools-window-2.png)
-:::moniker-end
 :::moniker range="vs-2022"
 ![Screenshot of Containers window.](media/overview/vs-2022/containers-files.png)
 :::moniker-end
@@ -156,9 +133,6 @@ After you add container orchestrator support to your project, you see a *Dockerf
 
 :::moniker-end
 
-:::moniker range="<=vs-2019"
-![Screenshot of Docker files in Solution Explorer in Visual Studio.](media/overview/docker-support-solution-explorer.png)
-:::moniker-end
 :::moniker range="vs-2022"
 ![Screenshot of Docker files in Solution Explorer in Visual Studio.](media/overview/vs-2022/docker-compose-solution-explorer.png)
 :::moniker-end

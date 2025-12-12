@@ -44,11 +44,6 @@ This dialog box lets you change global settings for the Visual Studio code and t
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
-
-:::image type="content" source="media/vs-2019/tools-options-text-editor-general.png" alt-text="Screenshot of the text editor's general settings in the Options dialog box.":::
-
-::: moniker-end
 
 ## Settings
 
@@ -142,11 +137,6 @@ When selected, you can visualize spaces and tabs.
 
 ::: moniker-end
 
-::: moniker range="=vs-2019"
-
-### Show bidirectional text control characters
-
-::: moniker-end
 
 When selected, all bidirectional text control characters are rendered as placeholders in the code editor.
 

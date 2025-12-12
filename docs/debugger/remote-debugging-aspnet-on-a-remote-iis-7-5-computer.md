@@ -131,11 +131,6 @@ When you're ready, switch to a debug configuration.
 1. Select **Save** and then republish the app.
 ::: moniker-end
 
-::: moniker range="vs-2019"
-1. Select **Edit** to edit the profile, and then select **Settings**.
-1. Select a **Debug** configuration, and then select **Remove additional files at destination** under the **File Publish** options.
-1. Select **Save** and then republish the app.
-::: moniker-end
 
 > [!WARNING]
 > Using username and password credentials (basic authentication) is not the most secure method of authentication. Whenever possible, use alternative methods. For example, consider publishing to a package from Visual Studio, and then use *WebDeploy.exe* from a command line to deploy the package. With that method, you can use IIS Manager to configure authorized Windows users who can publish to the web server, and run *WebDeploy.exe* under that Windows user account. See [Installing and Configuring Web Deploy on IIS 8.0 or Later](/iis/install/installing-publishing-technologies/installing-and-configuring-web-deploy-on-iis-80-or-later). If you do use password credentials, be sure to use a strong password, and secure the password from being leaked or shared.
@@ -232,22 +227,6 @@ Starting in Visual Studio 2022 version 17.10 Preview 2, the Attach to Process di
    The port is required. If you don't see the port number, add it manually.
 ::: moniker-end
 
-::: moniker range="vs-2019"
-1. On the Visual Studio computer, open the solution that you're trying to debug (**MyASPApp** if you're following all the steps in this article).
-
-2. In Visual Studio, select **Debug > Attach to Process** (Ctrl + Alt + P).
-
-   > [!TIP]
-   > In Visual Studio 2017 and later versions, you can reattach to the same process you previously attached to by using **Debug > Reattach to Process...** (Shift + Alt + P).
-
-3. Set the Qualifier field to **\<remote computer name>** and press **Enter**.
-
-   Verify that Visual Studio adds the required port to the computer name, which appears in the format: **\<remote computer name>:port**
-
-   On Visual Studio 2019, you should see **\<remote computer name>:4024**
-
-   The port is required. If you don't see the port number, add it manually.
-::: moniker-end
 4. Select **Refresh**.
 
    You should see some processes appear in the **Available Processes** window.
@@ -265,9 +244,7 @@ Starting in Visual Studio 2022 version 17.10 Preview 2, the Attach to Process di
    ::: moniker range=">=vs-2022"
    ![Screenshot of Attach to Process dialog.](../debugger/media/vs-2022/remote-debug-attach-to-process-aspnet-core.png "RemoteDBG_AttachToProcess")
    ::: moniker-end
-   ::: moniker range="vs-2019"
-   ![Screenshot of Attach to Process dialog.](../debugger/media/vs-2019/remotedbg-attachtoprocess-aspnetcore.png "RemoteDBG_AttachToProcess")
-   ::: moniker-end
+
 
 7. Select **Attach**.
 

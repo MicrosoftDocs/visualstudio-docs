@@ -46,11 +46,6 @@ If **Memory Usage** does not give you the data that you need, other profiling to
 
 4. Choose **Memory Usage** with the **Select Tools** setting on the toolbar.
 
-     ::: moniker range="<=vs-2019"
-
-     ![Screenshot of Diagnostics Tools.](../profiling/media/vs-2019/diag-tools-select-tool-2.png)
-
-     ::: moniker-end
 
      ::: moniker range=">=vs-2022"
 
@@ -62,18 +57,6 @@ If **Memory Usage** does not give you the data that you need, other profiling to
 
      When the app finishes loading, the Summary view of the Diagnostics Tools appears.
 
-     ::: moniker range="<=vs-2019"
-
-     ![Screenshot of Diagnostics Tools Summary Tab.](../profiling/media/vs-2019/diag-tools-summary-tab-2.png)
-
-     > [!NOTE]
-     > Because collecting memory data can affect the debugging performance of your native or mixed-mode apps, memory snapshots are disabled by default. To enable snapshots in native or mixed-mode apps, start a debugging session (Shortcut key: **F5**). When the **Diagnostic Tools** window appears, choose the **Memory Usage** tab, and then choose **Heap Profiling**.
-     >
-     >  ![Screenshot of Enable snapshots.](../profiling/media/vs-2019/dbgdiag-mem-mixed-toolbar-enable-snapshot.png)
-     >
-     >  Stop (Shortcut key: **Shift**+**F5**) and restart debugging.
-
-     ::: moniker-end
 
      ::: moniker range=">=vs-2022"
 
@@ -90,11 +73,6 @@ If **Memory Usage** does not give you the data that you need, other profiling to
 
 6. To take a snapshot at the start of your debugging session, choose **Take snapshot** on the **Memory Usage** summary toolbar. (It may help to set a breakpoint here as well.)
 
-     ::: moniker range="<=vs-2019"
-     
-     ![Screenshot of Take Snapshot button.](../profiling/media/vs-2019/dbgdiag-mem-mixed-toolbar-take-snapshot.png)
-
-     ::: moniker-end
 
      ::: moniker range=">=vs-2022"
 
@@ -121,11 +99,6 @@ If **Memory Usage** does not give you the data that you need, other profiling to
 
 The rows of the Memory Usage summary table list the snapshots that you have taken during the debugging session and provides links to more detailed views.
 
-::: moniker range="<=vs-2019"
-     
-![Screenshot of Memory Usage table.](../profiling/media/vs-2019/dbgdiag-mem-summary-table.png)
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
@@ -166,13 +139,6 @@ The **Instances** view displays the instances of the selected object in the snap
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
-
-![Screenshot of the Instances view in the Memory Usage tool.](../profiling/media/vs-2019/dbgdiag-mem-managed-types-report-instances.png)
-
-The **Instances** view displays the instances of the selected object in the snapshot in the upper pane. The **Paths to Root** and **Referenced Objects** pane displays the objects that reference the selected instance and the types that the selected instance references. When the debugger is stopped at the point where the snapshot was taken, you can hover over the **Value** cell to display the values of the object in a tool tip.
-
-::: moniker-end
 
 ### Native types reports
 
@@ -188,11 +154,6 @@ The **Instances** view displays the instances of the selected object in the snap
 
 - Choose the change link in a cell of the summary table of the **Memory Usage** tab on the **Diagnostic Tools** window.
 
-   ::: moniker range="<=vs-2019"
-
-   ![Screenshot of Choose a change link in a cell.](../profiling/media/vs-2019/dbgdiag-mem-choose-diff-report.png)
-
-   ::: moniker-end
 
    ::: moniker range=">=vs-2022"
 
@@ -202,11 +163,6 @@ The **Instances** view displays the instances of the selected object in the snap
 
 - Choose a snapshot in the **Compare To** list of a managed or native report.
 
-   ::: moniker range="<=vs-2019"
-
-   ![Screenshot of Choose a snapshot from the Compare To list.](../profiling/media/vs-2019/dbgdiag-mem-choose-compare-to.png)
-
-   ::: moniker-end
 
    ::: moniker range=">=vs-2022"
 

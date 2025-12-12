@@ -30,9 +30,6 @@ The results appear in a tool window named **\<element> references**, where *elem
 
 You can also hover the mouse pointer over any search result to see the reference in the context of the surrounding code:
 
-:::moniker range="vs-2019"
-:::image type="content" source="../ide/media/vside_findallreferences.png" alt-text="Screenshot of the Find All References window." lightbox="../ide/media/vside_findallreferences.png":::
-:::moniker-end
 :::moniker range=">=vs-2022"
 :::image type="content" source="media/vs-2022/find-all-references.png" alt-text="Screenshot of the Find All References window." lightbox="media/vs-2022/find-all-references.png":::
 :::moniker-end
@@ -57,10 +54,6 @@ Grouping isn't available in a plain text list.
 
 In C# or Visual Basic, the **Find References** window has a **Kind** column that lists the type of reference that was found. You can use this column to filter by reference type. Select the filter icon that appears when you hover over the column header. You can filter references by Read, Write, Reference, Name, Namespace, and Type, but only the filters that are relevant in the current set of results are shown.
 
-:::moniker range="vs-2019"
-:::image type="content" source="../ide/media/vside_findallreferencesKind.png" alt-text="Screenshot of the Find References window. The Kind column is highlighted." lightbox="../ide/media/vside_findallreferencesKind.png":::
-
-:::moniker-end
 :::moniker range=">=vs-2022"
 :::image type="content" source="media/vs-2022/find-all-references-kind-filter.png" alt-text="Screenshot of the Find References window. The Kind column is highlighted.":::
 :::moniker-end

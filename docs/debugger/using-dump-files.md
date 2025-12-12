@@ -77,9 +77,7 @@ With [Just-In-Time Debugging](../debugger/just-in-time-debugging-in-visual-studi
    ::: moniker range=">=vs-2022"
    :::image type="content" source="../debugger/media/vs-2022/dbg-dump-summary-page.png" alt-text="Screenshot showing Minidump summary page.":::
    ::: moniker-end
-   ::: moniker range="vs-2019"
-   :::image type="content" source="../debugger/media/dbg_dump_summarypage.png" alt-text="Screenshot showing Minidump summary page.":::
-   ::: moniker-end
+
 
 1. Under **Actions**:
   

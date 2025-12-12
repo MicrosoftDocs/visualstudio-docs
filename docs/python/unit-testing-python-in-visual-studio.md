@@ -62,11 +62,7 @@ Visual Studio allows you to run and test existing Python code without a project,
    :::image type="content" source="media/quickstart-open-folder/vs-2022/open-local-folder.png" alt-text="Screenshot that shows how to select the Open a local folder option when Visual Studio 2022 starts." border="false" lightbox="media/quickstart-open-folder/vs-2022/open-local-folder.png":::
 
    ::: moniker-end
-   ::: moniker range="<=vs-2019"
 
-   :::image type="content" source="media/quickstart-open-folder/open-local-folder.png" alt-text="Screenshot that shows how to select the Open a local folder option when Visual Studio starts." border="false" lightbox="media/quickstart-open-folder/open-local-folder.png":::
-
-   ::: moniker-end
 
 1. When you open a Python folder, Visual Studio creates several hidden folders to manage settings related to the program. To see these folders (and any other hidden files and folders, such as the _.git_ folder) in **Solution Explorer**, select the **Show All Files** option:
 
@@ -75,11 +71,7 @@ Visual Studio allows you to run and test existing Python code without a project,
    :::image type="content" source="media/vs-2022/view-hidden-folders-solution-explorer.png" alt-text="Screenshot that shows how to view hidden folders and files in Solution Explorer in Visual Studio 2022." border="false" lightbox="media/vs-2022/view-hidden-folders-solution-explorer.png":::
 
    ::: moniker-end
-   ::: moniker range="<=vs-2019"
 
-   :::image type="content" source="media/view-hidden-folders-solution-explorer.png" alt-text="Screenshot that shows how to view hidden folders and files in Solution Explorer in Visual Studio." border="false" lightbox="media/view-hidden-folders-solution-explorer.png" :::
-
-   ::: moniker-end
 
 1. In **Solution Explorer**, expand the _Local Settings_ folder, and double-click the _PythonSettings.json_ file to open the file in the editor. 
 
@@ -170,11 +162,7 @@ Here are some of the ways you can work with **Test Explorer**:
    :::image type="content" source="media/vs-2022/test-explorer-open-test-file.png" alt-text="Screenshot that shows the default view for a test in Test Explorer in Visual Studio 2022." border="false" lightbox="media/vs-2022/test-explorer-open-test-file.png":::
 
    ::: moniker-end
-   ::: moniker range="<=vs-2019"
 
-   :::image type="content" source="media/unit-test-a-2.png" alt-text="Screenshot that shows the default view for a test in Test Explorer." lightbox="media/unit-test-a-2.png":::
-
-   ::: moniker-end
 
 - Organize the view of your tests by using the **Group By** option on the toolbar:
 
@@ -183,11 +171,7 @@ Here are some of the ways you can work with **Test Explorer**:
    :::image type="content" source="media/vs-2022/test-explorer-group-by.png" alt-text="Screenshot that shows how to organize the view of tests in Test Explorer with the Group By option in Visual Studio 2022." border="false" lightbox="media/vs-2022/test-explorer-group-by.png":::
 
    ::: moniker-end
-   ::: moniker range="<=vs-2019"
 
-   :::image type="content" source="media/unit-test-group-menu-2.png" alt-text="Screenshot that shows how to organize the view of tests in Test Explorer with the Group By option." lightbox="media/unit-test-group-menu-2.png":::
-
-   ::: moniker-end
 
 - Filter tests by name by entering text in the **Search** field:
 
@@ -196,11 +180,7 @@ Here are some of the ways you can work with **Test Explorer**:
    :::image type="content" source="media/vs-2022/test-explorer-filter-view.png" alt-text="Screenshot that shows how to filter the view of tests in Test Explorer by  using the Search field." border="false" lightbox="media/vs-2022/test-explorer-filter-view.png":::
 
    ::: moniker-end
-   ::: moniker range="<=vs-2019"
 
-   :::image type="content" source="media/unit-test-filter.png" alt-text="Screenshot that shows how to filter the view of tests in Test Explorer by using the Search field." lightbox="media/unit-test-filter.png":::
-
-   ::: moniker-end
 
 - [Run tests](#run-tests-with-test-explorer) and view the status for the test run, as described in the next section.
 
@@ -223,11 +203,7 @@ Visual Studio runs your tests in the background. **Test Explorer** updates the s
    :::image type="content" source="media/vs-2022/test-explorer-passed.png" alt-text="Screenshot that shows the status for a passed test in Test Explorer in Visual Studio 2022." border="false" lightbox="media/vs-2022/test-explorer-passed.png":::
 
    ::: moniker-end
-   ::: moniker range="<=vs-2019"
 
-   :::image type="content" source="media/unit-test-A-pass.png" alt-text="Screenshot that shows the status for a passed test in Test Explorer." border="false" lightbox="media/unit-test-A-pass.png":::
-
-   ::: moniker-end
 
 - **Failed** tests show a red X with an **Output** link that shows console output and `unittest` output from the test run:
 
@@ -236,13 +212,7 @@ Visual Studio runs your tests in the background. **Test Explorer** updates the s
    :::image type="content" source="media/vs-2022/test-explorer-failed.png" alt-text="Screenshot that shows the status and reason details for a failed test in Test Explorer in Visual Studio 2022." border="false" lightbox="media/vs-2022/test-explorer-failed.png":::
 
    ::: moniker-end
-   ::: moniker range="<=vs-2019"
 
-   :::image type="content" source="media/unit-test-A-fail.png" alt-text="Screenshot that shows the status for a failed test in Test Explorer." border="false" lightbox="media/unit-test-A-fail.png":::
-
-   :::image type="content" source="media/unit-test-A-fail-reason.png" alt-text="Screenshot that shows the reason for a failed test in Test Explorer." border="false" lightbox="media/unit-test-A-fail-reason.png":::
-   
-   ::: moniker-end
 
 ## Check tests with the Debugger
 
@@ -259,11 +229,7 @@ Review these points about checking your tests with the Visual Studio **Debugger*
    :::image type="content" source="media/vs-2022/test-explorer-debug-test.png" alt-text="Screenshot that shows how to debug a unit test with the Visual Studio 2022 Debugger." border="false" lightbox="media/vs-2022/test-explorer-debug-test.png":::
 
    ::: moniker-end
-   ::: moniker range="<=vs-2019"
 
-   :::image type="content" source="media/unit-test-debugging.png" alt-text="Screenshot that shows how to debug a unit test with the Visual Studio Debugger." border="false" lightbox="media/unit-test-debugging.png":::
-
-   ::: moniker-end
 
 - If you prefer, you can use the **Analyze Code Coverage for Selected Tests**. For more information, see [Use code coverage to determine how much code is tested](../test/using-code-coverage-to-determine-how-much-code-is-being-tested.md).
 

@@ -39,18 +39,7 @@ For native C++, Hot Reload requires using the `/INCREMENTAL` option. For more in
 > If IntelliTrace is enabled and you collect both IntelliTrace events and call information, Hot Reload is disabled. For more information, see [IntelliTrace](../debugger/intellitrace.md).
 
 ::: moniker-end
-::: moniker range="vs-2019"
 
-Edit and Continue is a time-saving feature that enables you to make changes to your source code while your program is in break mode. When you resume execution of the program by choosing an execution command like **Continue** or **Step**, Edit and Continue automatically applies the code changes with some limitations. This allows you to make changes to your code during a debugging session, instead of having to stop, recompile your entire program, and restart the debugging session.
-
-You can disable or enable Edit and Continue in the Visual Studio **Options** dialog box at design time. **Edit and Continue** works only in debug builds. For more information, see [Edit and Continue](/visualstudio/debugger/how-to-enable-and-disable-edit-and-continue).
-
-For native C++, **Edit and Continue** requires using the `/INCREMENTAL` option. For more information about feature requirements in C++, see this [blog post](https://devblogs.microsoft.com/cppblog/c-edit-and-continue-in-visual-studio-2015-update-3/) and [Edit and Continue (C++)](../debugger/edit-and-continue-visual-cpp.md).
-
-> [!NOTE]
-> If IntelliTrace is enabled and you collect both IntelliTrace events and call information, Edit and Continue is disabled. For more information, see [IntelliTrace](../debugger/intellitrace.md).
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
@@ -122,26 +111,6 @@ Example:
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
-
-## Enable or disable Edit and Continue
-
-1. If you're in a debugging session, stop debugging (**Debug** > **Stop Debugging** or **Shift**+**F5**).
-
-1. In **Tools** > **Options** > (or **Debug** > **Options**) > **Debugging** > **General**, select **Edit and Continue** in the right pane.
-
-    > [!NOTE]
-    > If IntelliTrace is enabled and you collect both IntelliTrace events and call information, Edit and Continue is disabled. For more information, see [IntelliTrace](../debugger/intellitrace.md).
-
-1. For C++ code, make sure **Enable Native Edit and Continue** is selected, and set the other options:
-
-   - **Apply changes on continue (Native only)**: Visual Studio automatically compiles and applies any outstanding code changes you made when continuing the process from a break state. If not selected, you can choose to apply changes by using the **Apply Code Changes** item under the **Debug** menu.
-
-   - **Warn about stale code (Native only)**: Get warnings about stale code.
-
-1. Select **OK**.
-
-::: moniker-end
 
 ::: moniker range="visualstudio"
 
@@ -174,11 +143,7 @@ To enable cohosting, select **Tools** > **Options**, and then search for `cohost
 While Hot Reload is in the process of applying code changes, you can stop the operation.
 
 ::: moniker-end
-::: moniker range="vs-2019"
 
-While Edit and Continue is in the process of applying code changes, you can stop the operation.
-
-::: moniker-end
 
 > [!CAUTION]
 > Stopping code changes in managed code can produce unexpected results. Applying changes to managed code is normally a quick process, so there's seldom a need to stop code changes in managed code.

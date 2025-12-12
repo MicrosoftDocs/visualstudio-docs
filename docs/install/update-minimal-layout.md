@@ -155,27 +155,6 @@ Navigate to the folder and identify the bootstrapper application name. The name 
 
 The update is applied to a Visual Studio instance in two steps. Start by updating the Visual Studio Installer, then update Visual Studio.
 
-::: moniker range="vs-2019"
-
-1. **Update the Visual Studio Installer**
-
-    Run the following command, substituting `vs_enterprise.exe`  with the correct bootstrapper application name if necessary.
-
-    ```shell
-    vs_enterprise.exe --quiet --update --offline C:\VSLayout\vs_installer.opc
-    ```
-
-2. **Update the Visual Studio application**
-
-    To update Visual Studio, you need to specify the installPath of the Visual Studio instance you wish to update. If multiple instances of Visual Studio are installed, each one needs to be updated separately. We strongly recommend you specify the `–noWeb` option with the update command to prevent the installation of components that aren't in the minimal layout. This prevents you from leaving Visual Studio in an unusable state.
-
-    Run the following command, substituting the installPath command-line parameter appropriately. Be sure to use the correct bootstrapper application name as well.
-
-    ```shell
-    vs_enterprise.exe update --noWeb --quiet --installpath "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise"
-    ```
-
-::: moniker-end
 
 ::: moniker range="=vs-2022"
 

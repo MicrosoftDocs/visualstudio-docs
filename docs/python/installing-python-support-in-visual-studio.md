@@ -55,13 +55,7 @@ Complete the following steps to download and install the Python workload.
    The _\<VS_version>_ is 2022, and _\<VS_edition>_ is Community, Professional, or Enterprise.
 
    :::moniker-end
-   :::moniker range="<=vs-2019"
 
-   _%ProgramFiles(x86)%\Microsoft Visual Studio\\<VS_version>\\<VS_edition>Common7\IDE\Extensions\Microsoft\Python_
-
-   The _\<VS_version>_ is 2019 or 2017, and _\<VS_edition>_ is Community, Professional, or Enterprise.
-
-   :::moniker-end
 
 ## Test your install
 
@@ -81,19 +75,6 @@ Quickly check your installation of Python support:
      
 :::moniker-end
 
- ::: moniker range="<=vs-2019"
-
-1. Launch Visual Studio.
-
-1. Select Alt + I to open the **Python Interactive** window.
-
-1. In the window, enter the statement `2+2`.
-
-   The statement output `4` displays in the window. If you don't see the correct output, recheck your steps.
-
-   :::image type="content" source="media/vs-2019/installation-interactive-test.png" alt-text="Screenshot that shows a test of Python support through the interactive window." lightbox="media/vs-2019/installation-interactive-test.png":::
-
-::: moniker-end
 
 ::: moniker range="vs-2022"
 

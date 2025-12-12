@@ -40,11 +40,7 @@ If you're new to debugging, you might want to read [Debugging for absolute begin
    - To install Visual Studio for free, go to the [Visual Studio downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) page.
 
    ::: moniker-end
-   ::: moniker range="<=vs-2019"
 
-   - To install Visual Studio for free, go to the [Release and Build History](/visualstudio/releases/2019/history) page to learn more.
-
-   ::: moniker-end
 
    - If you already have Visual Studio, you can install the workload from within the Interactive Development Environment (IDE):
    
@@ -74,11 +70,7 @@ Follow these steps to create a C++ console application project in Visual Studio.
    :::image type="content" source="media/vs-2022/get-started-create-console-project-cpp.png" alt-text="Screenshot that shows how to search for and select the Console App template in the Visual Studio 2022 Start window.":::
 
    ::: moniker-end
-   ::: moniker range="vs-2019"
 
-   :::image type="content" source="media/vs-2019/get-started-create-console-project-cpp.png" alt-text="Screenshot that shows how to search for and select the Console App template in the Visual Studio Start window.":::
-
-   ::: moniker-end
 
    > [!NOTE]
    > If you don't see the **Console App** template, you can install it from the **Create a new project** window. Locate the **Not finding what you're looking for?** section that follows the search results and select **Install more tools and features**. In the Visual Studio Installer, select the **Desktop development with C++** workload and update your installation. For more information, see the [Prerequisites](#prerequisites) section.
@@ -287,11 +279,7 @@ Another approach for inspecting variables and values is by using the **Autos** a
    :::image type="content" source="./media/vs-2022/get-started-locals-window-cpp.png" border="false" alt-text="Screenshot that shows how to inspect variables and values in the Locals window in Visual Studio 2022.":::
 
    ::: moniker-end
-   ::: moniker range="vs-2019"
 
-   :::image type="content" source="./media/get-started-locals-window-cpp.png" border="false" alt-text="Screenshot that shows how to inspect variables and values in the Locals window in Visual Studio.":::
-
-   ::: moniker-end
 
    The **Locals** window shows you the variables that are in the current [scope](https://en.cppreference.com/w/cpp/language/scope), that is, the current execution context.
 
@@ -321,11 +309,7 @@ The **Call Stack** window in Visual Studio shows the order in which methods and 
    :::image type="content" source="./media/vs-2022/get-started-call-stack-cpp.png" border="false" alt-text="Screenshot that shows how to examine the call stack in Visual Studio 2022.":::
 
    ::: moniker-end
-   ::: moniker range="vs-2019"
 
-   :::image type="content" source="./media/get-started-call-stack-cpp.png" border="false" alt-text="Screenshot that shows how to examine the call stack in Visual Studio.":::
-
-   ::: moniker-end
 
    In the **Call Stack** window, the top line shows the current function (the `SendMessage` method in this app). The second line shows that the `SendMessage` method was called from the `main` method, and so on.
 

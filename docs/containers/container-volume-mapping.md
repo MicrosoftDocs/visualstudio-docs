@@ -29,25 +29,9 @@ For debugging to work in containers, Visual Studio uses volume mapping to map th
 
 :::moniker-end
 
-:::moniker range="vs-2019"
-- [Docker Desktop](https://docs.docker.com/desktop/install/windows-install/).
-- [Visual Studio 2019 or later](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET desktop development** workload installed.
-
-:::moniker-end
 
 ## Volume mounts in Visual Studio container images
 
-:::moniker range="<=vs-2019"
-Here are the volumes that are mounted in your container:
-
-|Volume|Description|
-|-|-|
-| **App folder** | Contains the project folder where the Dockerfile is located.|
-| **NuGet packages folders** | Contains the NuGet packages and fallback folders that are read from the *obj\{project}.csproj.nuget.g.props* file in the project. |
-| **Remote debugger** | Contains the bits required to run the debugger in the container depending on the project type. See [Customize container images for debugging](container-debug-customization.md).|
-| **Source folder** | Contains the build context that is passed to Docker commands.|
-
-:::moniker-end
 
 ::: moniker range="visualstudio"
 Here are the volumes that are mounted in your container. What you see in your containers might differ depending on the minor version of Visual Studio you are using.

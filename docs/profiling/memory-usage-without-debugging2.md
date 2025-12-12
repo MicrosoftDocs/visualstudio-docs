@@ -37,9 +37,6 @@ For the best experience with this documentation, choose your preferred developme
    The deployment target typically matches the project name, indicating a local deployment.
    ::: moniker-end
 
-   ::: moniker range="vs-2019"
-   The deployment target is typically **Local Windows Debugger** (or **Local Machine**).
-   ::: moniker-end
 
 1. On the menu bar, select  **Debug** > **Performance Profiler**.
 
@@ -49,9 +46,6 @@ For the best experience with this documentation, choose your preferred developme
    [ ![Start a Memory Usage diagnostic session.](../profiling/media/vs-2022/memory-usage-start-performance-profiler.png)](../profiling/media/vs-2022/memory-usage-start-performance-profiler.png#lightbox)
    ::: moniker-end
 
-   ::: moniker range="vs-2019"
-   ![Start a Memory Usage diagnostic session.](../profiling/media/memory-usage-start-diagnostics-session.png "Start a Memory Usage diagnostic session")
-   ::: moniker-end
 
    > ![NOTE]
    > For some project types, such as CMake, you must set the startup target to **Executable**. For more information, see [Which tools are supported for my project?](../profiling/choose-performance-tool.md#which-tools-are-supported-for-my-project).
@@ -65,9 +59,6 @@ When you start a diagnostic session, your app starts, and the **Diagnostic Tools
 [ ![Screenshot of the Diagnostic Tools window in the Visual Studio Performance Profiler showing a timeline graph of the app's memory use.](../profiling/media/vs-2022/memory-usage-report-overview-vs-2022.png)](../profiling/media/vs-2022/memory-usage-report-overview-vs-2022.png#lightbox)
 ::: moniker-end
 
-::: moniker range="vs-2019"
-![Screenshot of the Diagnostic Tools window in the Visual Studio Performance Profiler showing a timeline graph of the app's memory use.](../profiling/media/memory-usage-report-overview.png "Memory Report Overview")
-::: moniker-end
 
 The timeline graph shows memory fluctuations as the app runs. Spikes in the graph usually indicate that some code is collecting or creating data, and then discarding it when the processing is done. Large spikes indicate areas that you can optimize. Main concern is a rise in memory consumption that's not returned. This may indicate inefficient memory use or even a memory leak.
 
@@ -89,9 +80,6 @@ To stop a monitoring session without creating a report, just close the diagnosti
 ![Screenshot of stopping the collection.](../profiling/media/vs-2022/memory-usage-stop-collection.png)
 ::: moniker-end
 
-::: moniker range="vs-2019"
-![Screenshot of stopping the collection.](../profiling/media/memory-usage-stop-collection.png)
-::: moniker-end
 
 If you have trouble collecting or displaying data, see [Troubleshoot profiling errors and fix issues](../profiling/troubleshoot-profiler-errors.md).
 
@@ -103,9 +91,6 @@ After you stop data collection, the **Memory Usage** tool stops the app and disp
 ![Screenshot of the overview page in the Memory Usage tool in the Visual Studio Performance Profiler, showing a memory usage graph and two snapshot panes.](../profiling/media/vs-2022/memory-usage-report-overview-1-vs-2022.png "Memory Usage overview page")
 ::: moniker-end
 
-::: moniker range="vs-2019"
-![Screenshot of the overview page in the Memory Usage tool in the Visual Studio Performance Profiler, showing a memory usage graph and two snapshot panes.](../profiling/media/memory-usage-report-overview-1.png "Memory Usage overview page")
-::: moniker-end
 
 ### <a name="BKMK_Memory_Usage_snapshot_views"></a> Memory Usage snapshots
 
@@ -126,16 +111,6 @@ For C++, the **Objects (Diff)** column is named **Allocations (Diff)**.
 |![Step 4](../profiling/media/process-guide-4.png "Process Guide-4")|The difference between the total size of memory objects in this snapshot and the previous snapshot. A positive number means the memory size of this snapshot is larger than the previous one, and a negative number means the size is smaller. **Baseline** means a snapshot is the first in a diagnostic session. **No Difference** means the difference is zero. Select this link to display a snapshot diff report sorted by the difference in the total size of instances of the types.|
 ::: moniker-end
 
-::: moniker range="vs-2019"
-  ![Snapshot view links](../profiling/media/memory-usage-snapshot-view-numbered.png "Snapshot view links")
-
-|Image|Description|
-|-|-|
-|![Step 1](../profiling/media/process-guide-1.png "Process Guide-1")|The total number of bytes in memory when the snapshot was taken. Select this link to display a snapshot details report sorted by the total size of the type instances.|
-|![Step 2](../profiling/media/process-guide-2.png "Process Guide-2")|The total number of objects in memory when the snapshot was taken. Select this link to display a snapshot details report sorted by the count of instances of the types.|
-|![Step 3](../profiling/media/process-guide-3.png "Process Guide-3")|The difference between the total size of memory objects in this snapshot and the previous snapshot. A positive number means the memory size of this snapshot is larger than the previous one, and a negative number means the size is smaller. **Baseline** means a snapshot is the first in a diagnostic session. **No Difference** means the difference is zero. Select this link to display a snapshot diff report sorted by the difference in the total size of instances of the types.|
-|![Step 4](../profiling/media/process-guide-4.png "Process Guide-4")|The difference between the total number of memory objects in this snapshot and the previous snapshot. Select this link to display a snapshot diff report. It’s sorted by the difference in the total count of instances of the types.|
-::: moniker-end
 
 ::: zone pivot="programming-language-dotnet,programming-language-dotnetf"
 ## Managed types reports
@@ -150,9 +125,6 @@ Many types in apps aren't required for app developers to investigate memory issu
 ![Sort and filter options](../profiling/media/vs-2022/memory-usage-sort-and-filter-vs-2022.png "Memory usage sort and filter")
 ::: moniker-end
 
-::: moniker range="vs-2019"
-![Sort and filter options](../profiling/media/memory-usage-sort-and-filter.png "Memory Usage Sort and Filter")
-::: moniker-end
 
 - <a name="BKMK_Filter"></a> To filter a tree by type name, enter the name in the **Filter** box. The filter isn't case-sensitive, and it recognizes the specified string in any part of the type name.
 
@@ -183,11 +155,6 @@ Many types in apps aren't required for app developers to investigate memory issu
 
    ::: moniker-end
 
-   ::: moniker range="vs-2019"
-
-   ![Screenshot of Choose a change link in a cell.](../profiling/media/vs-2019/dbgdiag-mem-choose-diff-report.png)
-
-   ::: moniker-end
 
 - Choose a snapshot in the **Compare To** list of a managed or native report.
 
@@ -197,11 +164,6 @@ Many types in apps aren't required for app developers to investigate memory issu
 
    ::: moniker-end
 
-   ::: moniker range="<=vs-2019"
-
-   ![Screenshot of Choose a snapshot from the Compare To list.](../profiling/media/vs-2019/dbgdiag-mem-choose-compare-to.png)
-
-   ::: moniker-end
 
 [!INCLUDE [change-diff-report](../profiling/includes/change-diff-report.md)]
 
