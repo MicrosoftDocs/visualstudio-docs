@@ -242,8 +242,6 @@
     items:
     - name: Extend the Solution Explorer Filter
       href: extending-the-solution-explorer-filter.md
-    - name: Managing Project Loading in a Solution
-      href: managing-project-loading-in-a-solution.md
   - name: Create Custom Project and Item Templates
     items:
     - name: Create Custom Project and Item Templates

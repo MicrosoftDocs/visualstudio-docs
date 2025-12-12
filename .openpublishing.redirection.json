@@ -1,6 +1,51 @@
 {
   "redirections": [
     {
+      "source_path": "docs/ide/connect-team-project.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/ide/connect-team-project",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/javascript/quickstart-vuejs-with-nodejs.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/javascript/quickstart-vuejs-with-nodejs",
+      "redirect_document_id": false
+    },
+    {
+       "source_path": "docs/javascript/publish-nodejs-app-azure.md",
+       "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/javascript/publish-nodejs-app-azure",
+       "redirect_document_id": false
+    },
+    {
+       "source_path": "docs/javascript/create-application-with-vuejs.md",
+       "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/javascript/create-application-with-vuejs",
+       "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/javascript/tutorial-nodejs-with-react-and-jsx.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/javascript/tutorial-nodejs-with-react-and-jsx",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/run-windows-store-apps-in-the-simulator.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/debugger/run-windows-store-apps-in-the-simulator",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/azure/vs-azure-tools-virtual-machines-access-from-server-explorer.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/azure/vs-azure-tools-virtual-machines-access-from-server-explorer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/azure/vs-azure-tools-table-designer-construct-filter-strings.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/azure/vs-azure-tools-table-designer-construct-filter-strings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/azure/vs-azure-tools-storage-resources-server-explorer-browse-manage.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/azure/vs-azure-tools-storage-resources-server-explorer-browse-manage",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/extensibility/managing-project-loading-in-a-solution.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/extensibility/managing-project-loading-in-a-solution",
       "redirect_document_id": false

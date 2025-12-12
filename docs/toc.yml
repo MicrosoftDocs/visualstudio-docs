@@ -305,11 +305,6 @@
     - name: Customize build and debug tasks
       displayName: makefile tasks.vs.json
       href: ide/customize-build-and-debug-tasks-in-visual-studio.md
-  - name: Team Explorer
-    displayName: Azure DevOps VSTS
-    items:
-    - name: Connect to a project
-      href: ide/connect-team-project.md
   - name: Editor
     items:
     - name: Use the editor

@@ -77,10 +77,4 @@ items:
     href: vs-azure-tools-publishing-a-cloud-service.md
   - name: Manage service configurations and profiles
     href: vs-azure-tools-service-configurations-and-profiles-how-to-manage.md
-  - name: Browse and manage storage resources using Server Explorer
-    href: vs-azure-tools-storage-resources-server-explorer-browse-manage.md
-  - name: Construct filter strings in the table designer
-    href: vs-azure-tools-table-designer-construct-filter-strings.md
-  - name: Access Azure virtual machines from Server Explorer
-    href: vs-azure-tools-virtual-machines-access-from-server-explorer.md
   expanded: false
