@@ -76,7 +76,7 @@ To begin using Dotfuscator Community from Visual Studio, type `dotfuscator` into
 
 You can also get the **latest version** of Dotfuscator Community from [the Dotfuscator Downloads page on preemptive.com][download].
 
-:::moniker range=">=vs-2019"
+:::moniker range=">=vs-2022"
 
 ## Upgrade from Dotfuscator Community 5
 

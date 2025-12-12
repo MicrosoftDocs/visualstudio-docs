@@ -7,7 +7,7 @@ ms.subservice: azure-development
 ms.topic: overview
 ms.date: 08/17/2023
 ms.author: ghogen
-monikerRange: ">=vs-2019"
+monikerRange: ">=vs-2022"
 ms.custom: sfi-image-nochange
 ---
 

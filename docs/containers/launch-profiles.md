@@ -8,7 +8,7 @@ ms.devlang: dotnet
 ms.topic: how-to
 ms.date: 9/10/2025
 ms.author: ghogen
-monikerRange: ">=vs-2019"
+monikerRange: ">=vs-2022"
 ---
 
 # Launch a subset of Compose services

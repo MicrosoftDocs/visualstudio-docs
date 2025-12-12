@@ -3,7 +3,7 @@ title: What happens when a subscription expires?
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 11/19/2025
+ms.date: 12/10/2025
 ms.topic: article
 description: Understand what happens when a Visual Studio subscription expires, including changes to available downloads, product keys, Azure credits, and other benefits.
 ---
@@ -48,7 +48,7 @@ Monthly Azure credit allotments continue for a limited time following expiration
 
 ### Other benefits
 
-Many of the benefits included in Visual Studio subscriptions have specific durations. Benefits provided by Microsoft's partners such as Pluralsight, DataCamp, or Cloud Academy have time limits after they're activated. Benefits activated previously are available to you for the remainder of the term. For example, if you've activated a six-month Pluralsight subscription and it still has four months remaining when your Visual Studio subscription expires, you can access it for those four months.  
+Many of the benefits included in Visual Studio subscriptions have specific durations. Benefits provided by Microsoft's partners such as Pluralsight or Cloud Academy have time limits after they're activated. Benefits activated previously are available to you for the remainder of the term. For example, if you've activated a six-month Pluralsight subscription and it still has four months remaining when your Visual Studio subscription expires, you can access it for those four months.  
 
 ## Resources
 

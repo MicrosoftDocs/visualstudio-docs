@@ -16,9 +16,9 @@ ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide
 monikerRange: '<=vs-2019 || >=vs-2022'
-
 #customer intent: As a Visual Studio user, I want to configure advanced Text Editor options so that I can customize editor behavior, performance, and display settings to match my preferences.
 ---
+
 # Configure advanced Text Editor options
 
 This article shows you how to configure advanced settings for the Visual Studio editor. You can customize difference display modes, code completion behavior, scrolling sensitivity, and text formatting. The advanced editor features allow you to improve your editing experience and performance.

@@ -9,7 +9,7 @@ author: mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: deployment
-monikerRange: '>= vs-2019'
+monikerRange: '>= vs-2022'
 ---
 # ClickOnce for .NET on Windows
 
