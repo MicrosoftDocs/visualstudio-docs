@@ -1,10 +1,15 @@
 {
   "redirections": [
     {
+      "source_path": "docs/extensibility/managing-project-loading-in-a-solution.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/extensibility/managing-project-loading-in-a-solution",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/whats-new-in-visual-studio-2019.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/ide/whats-new-in-visual-studio-2019",
       "redirect_document_id": false
-    }
+    },
     {
        "source_path": "docs/containers/container-tools-react.md",
        "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/containers/container-tools-react",
