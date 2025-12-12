@@ -8,7 +8,7 @@ author: ghogen
 ms.author: ghogen
 ms.manager: mijacobs
 ms.subservice: general-ide
-monikerRange: ">=vs-2019"
+monikerRange: ">=vs-2022"
 ms.custom: sfi-image-nochange
 ---
 # Git settings and preferences in Visual Studio
