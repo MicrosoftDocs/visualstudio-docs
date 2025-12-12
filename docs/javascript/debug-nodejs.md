@@ -76,15 +76,12 @@ Visual Studio provides client-side debugging support only for Chrome and Microso
 - For *.esproj* projects in Visual Studio 2022, you can debug client-side script using standard debugging methods to hit breakpoints. To configure debugging, you can modify *launch.json* settings, which work the same as in VS Code. For more information about debugger configuration options, see [Launch configuration attributes](https://code.visualstudio.com/docs/nodejs/nodejs-debugging#_launch-configuration-attributes).
 ::: moniker-end
 
-
 >[!NOTE]
 > For ASP.NET and ASP.NET Core, debugging embedded scripts in *.CSHTML* files isn't supported. JavaScript code must be in separate files to enable debugging.
 
 ### Prepare your app for debugging
 
 If your source is minified or created by a transpiler like TypeScript or Babel, use source maps for the best debugging experience. You can even attach the debugger to a running client-side script without the source maps. However, you might only be able to set and hit breakpoints in the minified or transpiled file, not in the source file. For example, in a Vue.js app, the minified script gets passed as a string to an `eval` statement, and there's no way to step through this code effectively using the Visual Studio debugger unless you use source maps. For complex debugging scenarios, you might want to use Chrome Developer Tools or F12 Tools for Microsoft Edge instead.
-
-For help with generating source maps, see [Generate source maps for debugging](#generate_source_maps).
 
 ### <a name="prepare_the_browser_for_debugging"></a> Manually configure the browser for debugging
 
