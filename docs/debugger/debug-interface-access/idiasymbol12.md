@@ -1,40 +1,39 @@
 ---
-description: "Describes additional properties of a SymTagTaggedUnionCase symbol instance relating to tag ranges."
-title: "IDiaSymbol11"
-ms.date: "07/15/2024"
-ms.topic: "reference"
+title: IDiaSymbol12
+description: DIA interface providing version 12 extensions to IDiaSymbol.
+ms.date: 12/08/2025
+ms.topic: reference
 dev_langs:
-  - "C++"
+- C++
 helpviewer_keywords:
-  - "IDiaSymbol11 interface"
-author: "grantri"
-ms.author: "grantri"
-manager: twhitney
+- IDiaSymbol12
+author: "mikejo5000"
+ms.author: "mikejo"
+manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 
-# IDiaSymbol11
+# IDiaSymbol12
 
-Describes additional properties of a `SymTagTaggedUnionCase` symbol instance.
+Provides extensions to [IDiaSymbol](idiasymbol.md). This interface adds support for scalable vector register types (for example, ARM SVE) and for detecting C11 `_Atomic` types.
 
 ## Syntax
 
 ```
-IDiaSymbol11 : IDiaSymbol10
+IDiaSymbol12 : IDiaSymbol11
 ```
 
 ## Methods
 
-The following table shows the methods of `IDiaSymbol11`.
+The following table shows the methods of `IDiaSymbol12`.
 
 > [!NOTE]
-> Symbols will return meaningful data for only some of these methods, depending on the type of symbol. If a method returns `S_OK`, then that method has returned meaningful data.
+> Symbols return meaningful data for only some of these methods, depending on the type of symbol. If a method returns `S_OK`, then that method has returned meaningful data.
 
 |Method|Description|
 |------------|-----------------|
-|[`IDiaSymbol11::get_discriminatedUnionTag`](../../debugger/debug-interface-access/idiasymbol11-get-discriminateduniontag.md)|Retrieves information about the tag of a discriminated union symbol instance.|
-|[`IDiaSymbol11::get_tagRanges`](../../debugger/debug-interface-access/idiasymbol11-get-tagranges.md)|Retrieves the ranges of tags within a discriminated union symbol instance.|
-
+|[IDiaSymbol12::get_scalableRegisterType](./idiasymbol12-get-scalableRegisterType.md)|Retrieves scalable vector register type for the symbol.|
+|[IDiaSymbol12::idiasymbol-get-atomic-type](./idiasymbol12-get-atomicType.md)|Indicates whether the symbol represents a C11 `_Atomic` type.|
 
 ## Remarks
 
@@ -62,6 +61,7 @@ DLL: msdia140.dll
 - [`IDiaSymbol8`](../../debugger/debug-interface-access/idiasymbol7.md)
 - [`IDiaSymbol9`](../../debugger/debug-interface-access/idiasymbol9.md)
 - [`IDiaSymbol10`](../../debugger/debug-interface-access/idiasymbol10.md)
+- [`IDiaSymbol11`](../../debugger/debug-interface-access/idiasymbol11.md)
 - [Interfaces (Debug Interface Access SDK)](../../debugger/debug-interface-access/interfaces-debug-interface-access-sdk.md)
 - [Symbols and Symbol Tags](../../debugger/debug-interface-access/symbols-and-symbol-tags.md)
 - [`DiaTagValue`](../../debugger/debug-interface-access/diatagvalue.md)

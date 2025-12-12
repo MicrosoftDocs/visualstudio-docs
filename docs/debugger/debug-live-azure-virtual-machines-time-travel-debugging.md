@@ -8,7 +8,7 @@ helpviewer_keywords:
 author: poppastring
 ms.author: madownie
 manager: andster
-monikerRange: '>= vs-2019'
+monikerRange: '>= vs-2022'
 ---
 # Use time travel debugging to record and replay ASP.NET apps on Azure VMs
 

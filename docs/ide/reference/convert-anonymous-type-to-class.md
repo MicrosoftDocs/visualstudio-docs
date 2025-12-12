@@ -10,7 +10,7 @@ ms.subservice: general-ide
 dev_langs:
   - CSharp
   - VB
-monikerRange: '>= vs-2019'
+monikerRange: '>= vs-2022'
 ---
 # Convert anonymous type to class
 

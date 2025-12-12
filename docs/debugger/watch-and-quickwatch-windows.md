@@ -116,7 +116,7 @@ The rules for evaluating expressions in the **Watch** window are generally the s
 
 A circle with two wavy lines icon might appear in the **Watch** window. This icon means the debugger doesn't evaluate the expression because of a potential cross-thread dependency. Evaluating the code requires other threads in your app to run temporarily, but since you are in break mode, all threads in your app are usually stopped. Allowing other threads to run temporarily can have unexpected effects on the state of your app, and the debugger might ignore events such as breakpoints and exceptions on those threads.
 
-::: moniker range=">= vs-2019" 
+::: moniker range=">= vs-2022" 
 
 ## Search in the Watch window
 

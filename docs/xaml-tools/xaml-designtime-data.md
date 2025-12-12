@@ -7,7 +7,7 @@ author: maddymontaquila
 ms.author: maleger
 manager: mijacobs
 ms.subservice: xaml-tools
-monikerRange: ">=vs-2019"
+monikerRange: ">=vs-2022"
 ---
 # Use Design Time Data with the XAML Designer in Visual Studio
 
