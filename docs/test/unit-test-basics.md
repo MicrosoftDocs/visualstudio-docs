@@ -35,9 +35,6 @@ For an introduction to unit testing that takes you directly into coding, see one
 
 In this article, we use the development of a fictional application called `MyBank` as an example. You don't need the actual code to follow the explanations in this article. Test methods are written in C# and presented by using the Microsoft Unit Testing Framework for Managed Code. However, the concepts are easily transferred to other languages and frameworks.
 
-::: moniker range="vs-2019"
-![MyBank Solution 2019](../test/media/vs-2019/basics-mybank-solution.png)
-::: moniker-end
 ::: moniker range=">=vs-2022"
 ![MyBank Solution 2022](../test/media/vs-2022/basics-mybank-solution.png)
 ::: moniker-end
@@ -244,9 +241,6 @@ public void My_Test ()
 
 When you build the test project, the tests appear in **Test Explorer**. If **Test Explorer** is not visible, choose **Test** on the Visual Studio menu, choose **Windows**, and then choose **Test Explorer** (or press **Ctrl** + **E**, **T**).
 
-::: moniker range="vs-2019"
-![Unit Test Explorer](../test/media/vs-2019/basics-test-explorer.png)
-::: moniker-end
 ::: moniker range=">=vs-2022"
 ![Unit Test Explorer](../test/media/vs-2022/basics-test-explorer.png)
 ::: moniker-end
@@ -259,9 +253,6 @@ You can also filter the tests in any view by matching text in the search box at 
 
 The **Test Explorer** toolbar helps you discover, organize, and run the tests that you are interested in.
 
-::: moniker range="vs-2019"
-![Run tests from the Test Explorer toolbar](../test/media/vs-2019/test-explorer-toolbar-diagram-16-2.png)
-::: moniker-end
 ::: moniker range=">=vs-2022"
 ![Run tests from the Test Explorer toolbar](../test/media/vs-2022/test-explorer-toolbar-diagram-17-0.png)
 ::: moniker-end
@@ -278,9 +269,6 @@ To run your unit tests after each local build, open the settings icon in the Tes
 
 When you have a large number of tests, you can type in the **Test Explorer** search box to filter the list by the specified string. You can restrict your filter event more by choosing from the filter list.
 
-::: moniker range="vs-2019"
-![Search filter categories](../test/media/vs-2019/test-explorer-search-filter-16-2.png)
-::: moniker-end
 ::: moniker range=">=vs-2022"
 ![Search filter categories](../test/media/vs-2022/test-explorer-search-filter-17-0.png)
 ::: moniker-end
@@ -310,9 +298,6 @@ Learn more details about [debugging unit tests](../debugger/debugger-feature-tou
 
 **A:** Use Quick Actions to generate classes and methods in your project code. Write a statement in a test method that calls the class or method that you want to generate, then open the light bulb that appears under the error. If the call is to a constructor of the new class, choose **Generate type** from the menu and follow the wizard to insert the class in your code project. If the call is to a method, choose **Generate method** from the IntelliSense menu.
 
-::: moniker range="vs-2019"
-![Generate Method Stub Quick Action Menu](../test/media/vs-2019/basics-generate-method-tdd.png)
-::: moniker-end
 ::: moniker range=">=vs-2022"
 ![Generate Method Stub Quick Action Menu](../test/media/vs-2022/basics-generate-method-tdd.png)
 ::: moniker-end
@@ -341,9 +326,6 @@ To run code coverage for test methods in a solution, choose **Test** > **Analyze
 
 Coverage results appear in the **Code Coverage Results** window.
 
-::: moniker range="<=vs-2019"
-![Code coverage results](../test/media/ute_codecoverageresults.png)
-::: moniker-end
 ::: moniker range=">=vs-2022"
 ![Code coverage results](../test/media/vs-2022/ute-code-coverage-results.png)
 ::: moniker-end

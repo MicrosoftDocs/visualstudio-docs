@@ -140,9 +140,7 @@ Expandable arrays and objects show up in the **Autos** and **Locals** windows. S
 ::: moniker range=">= vs-2022"
 ![Screenshot of the Locals window, with file set to a System.IO.FileStream value.](../debugger/media/vs-2022/locals-filestream.png)
 ::: moniker-end
-::: moniker range="vs-2019"
-![Screenshot of the Locals window, with file set to a System.IO.FileStream value.](../debugger/media/locals-filestream.png)
-::: moniker-end
+
 
 A red value in the **Locals** or **Autos** window means the value has changed since the last evaluation. The change could be from a previous debugging session, or because you have changed the value in the window.
 
@@ -172,9 +170,7 @@ Use the left and right arrows (Shift+F3 and F3, respectively) to navigate betwee
 ::: moniker range=">= vs-2022"
 ![Screenshot of Search in Locals Window.](../debugger/media/vs-2022/ee-search-locals.png "Search in Locals Window")
 ::: moniker-end
-::: moniker range="vs-2019"
-![Screenshot of Search in Locals Window.](../debugger/media/ee-search-locals.png "Search in Locals Window")
-::: moniker-end
+
 
 To make your search more or less thorough, use the **Search Deeper** dropdown list at the top of the **Autos** or **Locals** window to select how many levels deep you want to search into nested objects.
 
@@ -204,9 +200,7 @@ Set a breakpoint and start debugging. When the breakpoint is hit, execution paus
 ::: moniker range=">= vs-2022"
 ![Screenshot of Debug Location toolbar.](../debugger/media/vs-2022/debug-location-toolbar.png "Debug Location toolbar")
 ::: moniker-end
-::: moniker range="vs-2019"
-![Screenshot of Debug Location toolbar.](../debugger/media/debuglocationtoolbar.png "Debug Location toolbar")
-::: moniker-end
+
 
 ## <a name="bkmk_whatvariables"></a> Language differences in the Autos window (C#, C++, Visual Basic, Python)
 
@@ -230,9 +224,7 @@ Different code languages display different variables in the **Autos** window.
    ::: moniker range=">= vs-2022"
    ![Screenshot of the Autos window, with the value of c set to 0.](../debugger/media/vs-2022/autos-csharp.png)
    ::: moniker-end
-   ::: moniker range="vs-2019"
-   ![Screenshot of the Autos window, with the value of c set to 0.](../debugger/media/autos-csharp.png)
-   ::: moniker-end
+
 
    The value of `c` is 0, because the line `c = 3` has not yet been executed.
 
@@ -255,9 +247,7 @@ Different code languages display different variables in the **Autos** window.
     ::: moniker range=">= vs-2022"
     ![Screenshot of the Autos window, with the line highlighted that shows the int c with a value of 3.](../debugger/media/vs-2022/autos-cplus.png)
     ::: moniker-end
-    ::: moniker range="vs-2019"
-    ![Screenshot of the Autos window, with the line highlighted that shows the int c with a value of 3.](../debugger/media/autos-cplus.png)
-    ::: moniker-end
+
 
     The variable `e` is uninitialized, because the line `e = 5` has not yet been executed.
 
@@ -296,9 +286,7 @@ To see the return values of the `sumVars()` and `subtractVars()` method calls in
    ::: moniker range=">= vs-2022"
    [ ![Screenshot of Autos return value C#.](../debugger/media/vs-2022/autos-return-value-csharp-2.png "Autos return value C#")](../debugger/media/vs-2022/autos-return-value-csharp-2.png#lightbox)
    ::: moniker-end
-   ::: moniker range="vs-2019"
-   ![Screenshot of Autos return value C#.](../debugger/media/autosreturnvaluecsharp2.png "Autos return value C#")
-   ::: moniker-end
+
 
 ## Open a visualizer to inspect variables
 
@@ -317,9 +305,7 @@ To open a visualizer, you must be paused during debugging. Hover over a variable
 ::: moniker range=">= vs-2022"
 ![Open a string visualizer](../debugger/media/vs-2022/debug-tips-string-visualizers.png "Open string visualizer")
 ::: moniker-end
-::: moniker range="vs-2019"
-![Open a string visualizer](../debugger/media/dbg-tips-string-visualizers.png "Open string visualizer")
-::: moniker-end
+
 
 ## Related content
 

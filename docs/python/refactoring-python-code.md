@@ -32,21 +32,6 @@ You can use the Rename command to change the name for a specific identifier, inc
 
 The following steps show how to use the **Rename** command in your code.
 
-::: moniker range="<=vs-2019"
-
-1. In your code, right-click the identifier that you want to rename and select **Rename**. You can also place the caret on an identifier and select **Edit** > **Refactor** > **Rename** from the menu, or use the keyboard shortcut is **F2**.
-
-1. In the **Rename** dialog, enter the new name for the identifier and select **OK**:
-
-   :::image type="content" source="media/code-refactor-rename-1.png" alt-text="Screenshot that shows how to specify a different name for an identifier in Visual Studio 2019." :::
-
-1. In the next dialog, select the files and instances in your code that should use the new name. You can select an individual instance to preview the specific change:
-
-   :::image type="content" source="media/code-refactor-rename-2.png" alt-text="Screenshot that shows how to apply the new name to specific instances of an identifier and preview the changes in Visual Studio 2019." border="false" lightbox="media/code-refactor-rename-2.png" :::
-
-1. Select **Apply** to make the changes to your source code files.
-
-::: moniker-end
 ::: moniker range=">=vs-2022"
 
 1. In your code, right-click the identifier that you want to rename and select **Rename**. You can also place the caret on an identifier and select **Edit** > **Refactor** > **Rename** from the menu, or use the keyboard shortcut **Ctrl**+**R**.
@@ -65,11 +50,6 @@ The following steps show how to work with the smart tag to add imports in your c
 
 1. In your code, place the caret on an identifier for which Visual Studio displays the smart tag (light bulb). In this example, the smart tag displays for the call to the math module:
 
-   ::: moniker range="=vs-2019"
-
-   :::image type="content" source="media/code-refactor-add-import-1.png" alt-text="Screenshot that shows the smart tag for an identifier that needs an import statement added in Visual Studio 2019.":::
-
-   ::: moniker-end
    ::: moniker range=">=vs-2022"
 
    :::image type="content" source="media/vs-2022/code-refactor-add-import-1.png" alt-text="Screenshot that shows the smart tag for an identifier that needs an import statement added in Visual Studio 2022." border="false":::
@@ -84,11 +64,6 @@ The following steps show how to work with the smart tag to add imports in your c
 
    Visual Studio adds the `import` statement at the top of your code file after other imports, or into an existing `from ... import` statement if the same module is already imported. In this example, the `import math` statement is added at the top of the file after the other imports:
 
-   ::: moniker range="=vs-2019"
-
-   :::image type="content" source="media/code-refactor-add-import-2.png" alt-text="Screenshot that shows the import statement added after running the command from the smart tag in Visual Studio 2019.":::
-
-   ::: moniker-end
    ::: moniker range=">=vs-2022"
 
    :::image type="content" source="media/vs-2022/code-refactor-add-import-2.png" alt-text="Screenshot that shows the import statement added after running the command from the smart tag in Visual Studio 2022." border="false":::
@@ -107,19 +82,6 @@ When you write code, it's easy to end up with `import` statements for modules th
 
 The following steps show how to remove unused imports in your code.
 
-::: moniker range="<=vs-2019"
-
-1. Use right-click anywhere in the editor and select **Remove Imports**. You can remove the import from **All Scopes** or just the **Current Scope**.
-
-   :::image type="content" source="media/code-refactor-remove-imports-1.png" alt-text="Screenshot that shows how to access the Remove Imports menu in Visual Studio 2019." border="false":::
-
-   Visual Studio determines if there are unused modules in your code and removes the corresponding `import` statements.
-   
-1. After you select an option, confirm the expected changes are made to your file. In this example, Visual Studio removes the three unused modules: binascii, array, and glob.
-
-   :::image type="content" source="media/code-refactor-remove-imports-2.png" alt-text="Screenshot that shows the results of using the Remove Imports command to remove unused modules from the code in Visual Studio 2019." border="false":::
-
-::: moniker-end
 ::: moniker range=">=vs-2022"
 
 1. In your code, place the caret on an `import` statement for which Visual Studio displays the smart tag (light bulb). In this example, the smart tag displays for the unused modules binascii, array, and glob:

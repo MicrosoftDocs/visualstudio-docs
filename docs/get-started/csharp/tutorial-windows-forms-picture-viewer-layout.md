@@ -33,24 +33,6 @@ Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/vs/)
 
 When you create a picture viewer, the first step is to create a Windows Forms App project.
 
-::: moniker range="vs-2019"
-1. Open Visual Studio.
-
-1. On the start window, select **Create a new project**.
-
-   :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-layout/create-new-project-dark-theme-2019.png" alt-text="Screenshot shows the Create a new project option in the Visual Studio 2019 start window.":::
-
-1. On the **Create a new project** window, search for *Windows Forms*. Then select **Desktop** from the **Project type** list.
-
-1. Select the **Windows Forms App (.NET Framework)** template for either C# or Visual Basic, and then select **Next**.
-
-   :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-layout/create-project-windows-forms-2019.png" alt-text="Screenshot shows the Create a new project dialog box with Windows Forms entered and options for Windows Forms App in Visual Studio 2019." lightbox="../media/tutorial-windows-forms-picture-viewer-layout/create-project-windows-forms-2019.png":::
-
-1. In the **Configure your new project** window, name your project *PictureViewer*, then select **Create**.
-
-   :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-layout/configure-new-project-2019.png" alt-text="Screenshot shows the Configure your new project dialog box in Visual Studio 2019.":::
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 1. Open Visual Studio.

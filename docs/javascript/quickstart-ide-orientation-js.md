@@ -22,9 +22,7 @@ The first thing you see after you launch Visual Studio is the start window. The 
 ::: moniker range=">=vs-2022"
 ![Screenshot of the start window in Visual Studio 2022.](media/vs-2022/start-window.png)
 ::: moniker-end
-::: moniker range="<=vs-2019"
-![Screenshot of the start window in Visual Studio 2019.](media/vs-2019/start-window.png)
-::: moniker-end
+
 
 If this is the first time you're using Visual Studio, your recent projects list will be empty.
 
@@ -43,16 +41,12 @@ To continue exploring Visual Studio's features, let's create a new project.
    ::: moniker range=">=vs-2022"
    ![Screenshot of search for project templates on Visual Studio start window.](media/vs-2022/create-new-project-ide.png)
    ::: moniker-end
-   ::: moniker range="<=vs-2019"
-   ![Screenshot of search for project templates on Visual Studio start window.](media/vs-2019/create-new-project.png)
-   ::: moniker-end
+
 
 ::: moniker range=">=vs-2022"
 2. Choose a **JavaScript Express Application** project template and click **Next**.
 ::: moniker-end
-::: moniker range="<=vs-2019"
-2. Choose a **Blank Node.js Web Application** project template and click **Next**.
-::: moniker-end
+
 
 3. In the **Configure your new project** dialog box that appears, accept the default project name and choose **Create**.
 
@@ -61,11 +55,7 @@ To continue exploring Visual Studio's features, let's create a new project.
 
    ![Screenshot of editor in Visual Studio.](media/vs-2022/editor.png)
    ::: moniker-end
-   ::: moniker range="<=vs-2019"
-   The project is created and a file named *server.js* opens in the **Editor** window. The **Editor** shows the contents of files, and is where you do most of your coding work in Visual Studio.
 
-   ![Screenshot of editor in Visual Studio.](media/editor.png)
-   ::: moniker-end
 
 ## Solution Explorer
 
@@ -74,9 +64,7 @@ To continue exploring Visual Studio's features, let's create a new project.
 ::: moniker range=">=vs-2022"
 ![Screenshot of Solution Explorer in Visual Studio.](media/vs-2022/quickstart-ide-solution-explorer.png)
 ::: moniker-end
-::: moniker range="<=vs-2019"
-![Screenshot of Solution Explorer in Visual Studio.](media/quickstart-IDE-solution-explorer.png)
-::: moniker-end
+
 
 ## Menus
 
@@ -85,9 +73,7 @@ The menu bar along the top of Visual Studio groups commands into categories. For
 ::: moniker range=">=vs-2022"
 ![Screenshot of menu bar in Visual Studio.](media/vs-2022/quickstart-ide-menu-bar.png)
 ::: moniker-end
-::: moniker range="<=vs-2019"
-![Screenshot of menu bar in Visual Studio.](media/quickstart-IDE-menu-bar.png)
-::: moniker-end
+
 
 Let's open the **Error List** window by choosing the **View** menu, and then **Error List**.
 
@@ -98,9 +84,7 @@ The **Error List** shows you errors, warning, and messages regarding the current
 ::: moniker range=">=vs-2022"
 ![Screenshot of Error List in Visual Studio.](media/vs-2022/quickstart-ide-error-list.png)
 ::: moniker-end
-::: moniker range="<=vs-2019"
-![Screenshot of Error List in Visual Studio.](media/quickstart-IDE-error-list.png)
-::: moniker-end
+
 
 ## Output window
 
@@ -111,9 +95,7 @@ Let's build the project to see some build output. From the **Build** menu, choos
 ::: moniker range=">=vs-2022"
 ![Screenshot of Output window in Visual Studio.](media/vs-2022/build-output-minimal.png)
 ::: moniker-end
-::: moniker range="<=vs-2019"
-![Screenshot of Output window in Visual Studio.](media/build-output-minimal.png)
-::: moniker-end
+
 
 ## Search box
 
@@ -141,15 +123,7 @@ The Search box is a quick and easy way to do pretty much anything in Visual Stud
    The **Options** dialog opens to the **Projects and Solutions** > **Build and Run** section.
 
 ::: moniker-end
-::: moniker range="<=vs-2019"
 
-2. From the displayed results, double-click the **Change MSBuild verbosity** (Projects and Solutions > Build and Run) entry.
-
-   ![Screenshot of the Search box in Visual Studio.](media/quickstart-IDE-quick-launch.png)
-
-   The **Options** dialog opens to the **Projects and Solutions** > **Build and Run** options page.
-
-::: moniker-end
 
 ::: moniker range="<=vs-2022"
 
@@ -164,9 +138,7 @@ The Search box is a quick and easy way to do pretty much anything in Visual Stud
    ::: moniker range=">=vs-2022"
    ![Screenshot of verbose build output in Visual Studio.](media/vs-2022/build-output-verbose.png)
    ::: moniker-end
-   ::: moniker range="<=vs-2019"
-   ![Screenshot of verbose build output in Visual Studio.](media/build-output-verbose.png)
-   ::: moniker-end
+
 
 ## Send Feedback menu
 
@@ -175,9 +147,7 @@ Should you encounter any problems while you're using Visual Studio, or if you ha
 ::: moniker range=">=vs-2022"
 ![Screenshot of Send Feedback menu in Visual Studio.](media/vs-2022/quickstart-ide-send-feedback.png)
 ::: moniker-end
-::: moniker range="<=vs-2019"
-![Screenshot of Send Feedback menu in Visual Studio.](../ide/media/quickstart-ide-send-feedback.png)
-::: moniker-end
+
 
 ## Next steps
 

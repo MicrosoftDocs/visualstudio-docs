@@ -32,12 +32,6 @@ When you're finished, you'll have a custom control that's been assembled by usin
 
 ## Prerequisites
 
-::: moniker range="=vs-2019"
-
-- If you don't have Visual Studio, go to [Visual Studio downloads](https://visualstudio.microsoft.com/vs/) to install it for free.
-- The **.NET desktop development** workload. To verify or install this workload in Visual Studio, select **Tools** > **Get Tools and Features**. For more information, see [Change workloads or individual components](../install/modify-visual-studio.md#change-workloads-or-individual-components).
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 

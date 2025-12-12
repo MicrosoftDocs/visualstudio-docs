@@ -30,17 +30,6 @@ The following command-line verbs and parameters can be used with the following e
 
 Not all commands or parameters work in each of these situations, and any special caveats or exceptions are documented. Furthermore, in some scenarios you may not have access to all of these executables described previously. For example, client machines may only have the installer available for programmatic execution if Visual Studio was installed via a layout.  
 
-::: moniker range="vs-2019"
-
-You can get the Visual Studio 2019 bootstrappers from the following table. Alternatively, if you want a specific version of Visual Studio 2019, see the [Visual Studio 2019 Releases](/visualstudio/releases/2019/history#installing-an-earlier-release) page. This page has links to the fixed version bootstrappers for your chosen version and edition of Visual Studio.
-
-| **Edition**                     | **Bootstrapper**                                                             |
-|---------------------------------|------------------------------------------------------------------------------|
-| Visual Studio 2019 Enterprise version 16.11   | [vs_enterprise.exe](https://aka.ms/vs/16/release/vs_enterprise.exe)     |
-| Visual Studio 2019 Professional version 16.11| [vs_professional.exe](https://aka.ms/vs/16/release/vs_professional.exe) |
-| Visual Studio 2019 Build Tools version 16.11 | [vs_buildtools.exe](https://aka.ms/vs/16/release/vs_buildtools.exe)     |
-
-::: moniker-end
 
 ::: moniker range="vs-2022"
 
@@ -70,12 +59,6 @@ To get the latest bootstrappers for Visual Studio 2026 that always install the l
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
-
->[!TIP]
->If you previously downloaded a bootstrapper file and want to verify its version, here's how. In Windows, open File Explorer, right-click the bootstrapper file, choose **Properties**, choose the **Details** tab, and then view the **Product version** number. To match that number to a release of Visual Studio, refer to the table at the bottom of the [Visual Studio 2019 Releases](/visualstudio/releases/2019/history) page.
-
-::: moniker-end
 
 ::: moniker range="=vs-2022"
 

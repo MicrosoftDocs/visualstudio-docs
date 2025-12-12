@@ -72,9 +72,7 @@ The debugger can't deploy Visual C# or Visual Basic desktop applications to a re
 
     ![Screenshot of the Debug tab in the Visual Studio Project Properties. The Use remote machine property is set to 'MJO-DL:4026'.](../debugger/media/vs-2022/remote-debugger-csharp.png)
     ::: moniker-end
-    ::: moniker range="vs-2019"
-    ![Screenshot of the Debug tab in the Visual Studio Project Properties. The Use remote machine property is set to 'MJO-DL:4022'.](../debugger/media/remotedebuggercsharp.png)
-    ::: moniker-end
+
 
 5. Make sure the **Working directory** text box is empty.
 
@@ -84,11 +82,7 @@ The debugger can't deploy Visual C# or Visual Basic desktop applications to a re
     ::: moniker range=">=vs-2022"
     **MJO-DL:4026** on Visual Studio 2022
     ::: moniker-end
-    ::: moniker range="vs-2019"
-    **MJO-DL:4024** on Visual Studio 2019
 
-    The port number increments by 2 in each version of Visual Studio.
-    ::: moniker-end
 
 7. Make sure that **Enable native code debugging** isn't selected.
 

@@ -55,13 +55,6 @@ There are three types of administrator updates to Visual Studio:
 
 The title of each administrator update the resultant version of the update. For example,
 
-::: moniker range="vs-2019"
-
-* **Visual Studio 2019 version 16.0.0 to 16.9.0 update** classified as a “Feature Pack” will apply to Visual Studio 2019 editions licensed for enterprise use on the client between the entire product version range of 16.0.0 through 16.9.0, and it will update client edition to 16.9.0. 
-* **Visual Studio 2019 version 16.0.0 to 16.11.21 update** classified as "Security Updates” will apply to Visual Studio 2019 editions licensed for enterprise use on the client between versions 16.0.0 through 16.11.20, and it will update those client editions to 16.11.21.
-* **Visual Studio 2019 version 16.11.21 security update** will apply to Visual Studio 2019 editions licensed for enterprise use on the client between versions 16.0.0 through 16.11.20, and it will update those client editions to 16.11.21.
-
-::: moniker-end
 
 ::: moniker range="=vs-2022"
 

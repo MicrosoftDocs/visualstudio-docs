@@ -26,9 +26,7 @@ For additional information on learning to use the .NET Counters tool effectively
    ::: moniker range=">=vs-2022"
    The deployment target typically matches the project name, indicating a local deployment.
    ::: moniker-end
-   ::: moniker range="vs-2019"
-   The deployment target is typically **Local Windows Debugger** (or **Local Machine**).
-   ::: moniker-end
+
 
 1. Open the Performance Profiler (**Alt + F2** or **Debug -> Performance Profiler**) in Visual Studio.
 

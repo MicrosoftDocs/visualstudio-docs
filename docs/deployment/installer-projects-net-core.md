@@ -24,9 +24,7 @@ You can download the extension here:
 ::: moniker range=">= vs-2022"
 [Visual Studio Installer Projects](https://marketplace.visualstudio.com/items?itemName=VisualStudioClient.MicrosoftVisualStudio2022InstallerProjects)
 ::: moniker-end
-::: moniker range="vs-2019"
-[Visual Studio Installer Projects](https://marketplace.visualstudio.com/items?itemName=VisualStudioClient.MicrosoftVisualStudio2017InstallerProjects)
-::: moniker-end
+
 
 ## Update for .NET Core and .NET
 
@@ -61,9 +59,7 @@ To learn more about these deployment strategies, see [.NET application publishin
   ::: moniker range=">= vs-2022"
   :::image type="content" source="../deployment/media/vs-2022/installer-projects-net-core-publish-profile.png" border="false" alt-text="Screenshot that shows setting the publish profile on the Publish Items project output item." lightbox="../deployment/media/vs-2022/installer-projects-net-core-publish-profile.png":::
   ::: moniker-end
-  ::: moniker range="vs-2019"
-  ![Screenshot of setting the publish profile on the Publish Items project output item.](../deployment/media/installer-projects-net-core-publish-profile.png "Set Publish Profile")
-  ::: moniker-end
+
 
   Before you can set this property, create a publish profile from the application project by choosing **Publish** from the application project's context menu in Solution Explorer, and deploy the application to a folder.
 

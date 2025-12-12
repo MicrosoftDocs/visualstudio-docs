@@ -71,28 +71,6 @@ When you select a symbol in source code, all instances of that symbol are highli
 
 The following commands are available on the **Edit** menu under **Go To**:
 
-:::moniker range="<=vs-2019"
-- **Go To Line** (**Ctrl**+**G**): Move to the specified line number in the active document.
-
-- **Go To All** (**Ctrl**+**T** or **Ctrl**+**,**): Move to the specified line, type, file, member, or symbol. Selecting this option opens a search window. For more information, see [Visual Studio search](./visual-studio-search.md).
-
-- **Go To File** (**Ctrl**+**Shift**, **T**): Move to the specified file in the solution.
-
-- **Go To Recent File** (**Ctrl**+**1**, **Ctrl**+**R**): Move to the specified recently visited file in the solution.
-
-- **Go To Type** (**Ctrl**+**1**, **Ctrl**+**T**): Move to the specified type in the solution.
-
-- **Go To Member** (**Alt**+**\\**): Move to the specified member in the solution.
-
-- **Go To Symbol** (**Ctrl**+**1**, **Ctrl**+**S**): Move to the specified symbol in the solution.
-
-- **Go To Next Issue in File** (**Alt**+**PgDn**) and **Go To Previous Issue in File** (**Alt**+**PgUp**)
-
-- **Go To Last Edit Location** (**Ctrl**+**Shift**+**Backspace**)
-
-For more information about these commands, see [Find code using Go To commands](../ide/go-to.md).
-
-:::moniker-end
 
 :::moniker range=">=vs-2022"
 

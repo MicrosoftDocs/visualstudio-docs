@@ -150,18 +150,7 @@ From the **Tools** (or **Debug**) > **Options** menu, you can access the **Debug
    > Only the specified folder is searched. You must add entries for any subfolders that you want to search.
 
 :::moniker-end
-:::moniker range="<=vs-2019"
 
-3. Add a new symbol server location by selecting **New Location** (**+**) in the toolbar for the **Symbol file (.pdb) search locations** group box.
-
-   Enter the URL (http), network share, or local path of the symbol server or symbol location in the text field. Statement completion helps you find the correct format.
-
-   :::image type="content" source="media/dbg-options-symbols.gif" border="false" alt-text="Animation that shows how to add a new symbol server location.":::
-
-   > [!NOTE]
-   > Only the specified folder is searched. You must add entries for any subfolders that you want to search.
-
-:::moniker-end
 :::moniker range="<=vs-2022"
 
 4. Add a new Azure DevOps Symbol Server location by selecting :::image type="icon" source="media/dbg_tools_options_foldersicon.png"::: **New Azure DevOps Symbol Server Location** in the group box toolbar.
