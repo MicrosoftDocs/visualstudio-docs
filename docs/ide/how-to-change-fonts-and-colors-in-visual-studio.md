@@ -40,7 +40,7 @@ Here's how to change the color theme of the IDE frame and the tool windows in Vi
 
    :::image type="content" source="media/vs-2022/fonts-colors-theme.png" alt-text="Screenshot of the Options dialog box where you can change the color theme.":::
 
-Visual Studio remembers the color theme and other UI settings, and synchronizes them across all Visual Studio environments depending on your [account setup](signing-in-to-visual-studio.md#sign-in-to-your-account-1).
+Visual Studio remembers the color theme and other UI settings, and synchronizes them across all Visual Studio environments depending on your [account setup](signing-in-to-visual-studio.md#sign-in-to-your-account).
 With Visual Studio 2022 version 17.12, your [font settings are preserved across theme changes](#preserve-font-settings-across-theme-changes).
 
    > [!TIP]
