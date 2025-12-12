@@ -161,17 +161,6 @@ Loads dll export tables. Symbol information from dll export tables can be useful
 **Ignore GPU memory access exceptions if the data written didn't change the value**:
 Ignores race conditions that were detected during debugging if the data didn't change. For more information, see [Debugging GPU Code](../debugger/debugging-gpu-code.md).
 
-::: moniker range="<= vs-2019"
-**Use Managed Compatibility Mode**:
-Replaces the default debugging engine with a legacy version to enable these scenarios:
-
-- You're using a .NET language other than C#, Visual Basic, or F# that provides its own Expression Evaluator (this includes C++/CLI).
-
-- You want to enable Edit and Continue for C++ projects during mixed mode debugging.
-
-> [!NOTE]
-> Choosing Managed Compatibility mode disables some features that are implemented only in the default debugging engine. The legacy debugging engine was replaced in Visual Studio 2012.
-::: moniker-end
 
 **Warn when using custom debugger visualizers against potentially unsafe processes (Managed only)**:
 Visual Studio warns you when you're using a custom debugger visualizer that's running code in the debugged process, because it could be running unsafe code.

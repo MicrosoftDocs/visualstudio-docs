@@ -41,9 +41,7 @@ translation.priority.ht:
     ::: moniker range=">= vs-2022"
     ![Screenshot of remote debugger window](../media/vs-2022/remote-debugger-window.png "Remote Debugger window")
     ::: moniker-end
-    ::: moniker range="<= vs-2019"
-    ![Screenshot of remote debugger window](../media/remotedebuggerwindow.png "Remote Debugger window")
-    ::: moniker-end
+
   
     The remote debugger is now waiting for a connection. Use the server name and port number shown to set the remote connection configuration in Visual Studio.  
   

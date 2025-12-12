@@ -116,30 +116,6 @@ For C#, it is often quicker to generate the unit test project and unit test stub
 4. Now jump ahead to learn how to [Write your tests](#write-your-tests) to make your unit test meaningful, and any extra unit tests that you might want to add to thoroughly test your code.
 ::: moniker-end
 
-::: moniker range="<= vs-2019"
-## Create unit test projects and test methods (C#)
-
-For C#, it is often quicker to generate the unit test project and unit test stubs from your code. Or you can choose to create the unit test project and tests manually depending on your requirements. If you want to create unit tests from code with a 3rd party framework you will need one of these extensions installed: [NUnit](https://marketplace.visualstudio.com/items?itemName=NUnitDevelopers.TestGeneratorNUnitextension-18371) or [xUnit](https://marketplace.visualstudio.com/items?itemName=YowkoTsai.xUnitnetTestGenerator). If you are not using C#, skip this section and go to [Create the unit test project and unit tests manually](#create-the-unit-test-project-and-unit-tests-manually).
-
-### Generate unit test project and unit test stubs
-
-1. From the code editor window, right-click and choose [**Create Unit Tests**](create-unit-tests-menu.md) from the right-click menu.
-
-   ![From the editor window, view the context menu](../test/media/vs-2019/basics-create-unit-tests.png)
-
-   > [!NOTE]
-   > The **Create Unit Tests** menu command is only available for C# code. To use this method with .NET Core or .NET Standard, Visual Studio 2019 or later is required.
-
-2. Select **OK** to accept the defaults to create your unit tests, or change the values used to create and name the unit test project and the unit tests. You can select the code that is added by default to the unit test methods.
-
-   ![Create Unit Tests dialog box in Visual Studio](../test/media/create-unit-tests.png)
-
-3. The unit test stubs are created in a new unit test project for all the methods in the class.
-
-   ![The unit tests are created](../test/media/vs-2019/basics-test-stub.png)
-
-4. Now jump ahead to learn how to [Write your tests](#write-your-tests) to make your unit test meaningful, and any extra unit tests that you might want to add to thoroughly test your code.
-::: moniker-end
 
 ### Create the unit test project and unit tests manually
 

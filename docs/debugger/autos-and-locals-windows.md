@@ -42,9 +42,7 @@ While paused in the debugger, hover over an object with the mouse and you see it
 ::: moniker range=">= vs-2022"
 ![View a Data Tip](../debugger/media/vs-2022/dbg-tour-data-tips.png "View a data tip")
 ::: moniker-end
-::: moniker range="<= vs-2019"
-![View a Data Tip](../debugger/media/dbg-tour-data-tips.gif "View a data tip")
-::: moniker-end
+
 
 If the variable has properties, you can expand the object to see all its properties.
 
@@ -83,9 +81,7 @@ While debugging, right-click an object in the code editor and choose **Add Watch
 ::: moniker range=">= vs-2022"
 ![Watch Window](../debugger/media/vs-2022/dbg-tour-watch-window.png "Watch window")
 ::: moniker-end
-::: moniker range="<= vs-2019"
-![Watch Window](../debugger/media/dbg-tour-watch-window.png "Watch window")
-::: moniker-end
+
 
 In this example, you've a watch set on the object, and you can see its value change as you move through the debugger. Unlike the other variable windows, the **Watch** windows always show the variables that you're watching (they're grayed out when out of scope).
 

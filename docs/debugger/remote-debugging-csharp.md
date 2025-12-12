@@ -102,9 +102,7 @@ The debugger can't deploy Visual C# or Visual Basic desktop applications to a re
     ::: moniker range=">= vs-2022"
     ![Screenshot of remote debugger window for VS 2022.](../debugger/media/vs-2022/remote-debugger-window.png "Remote Debugger window")
     ::: moniker-end
-    ::: moniker range="<= vs-2019"
-    ![Screenshot of remote debugger window for VS 2019.](../debugger/media/remotedebuggerwindow.png "Remote Debugger window")
-    ::: moniker-end
+
 
 12. In Visual Studio, start debugging (**Debug > Start Debugging**, or **F5**).
 

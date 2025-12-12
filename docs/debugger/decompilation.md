@@ -137,11 +137,6 @@ For .NET libraries or for NuGet packages enabled for SourceLink, you can also st
 
 ## Known limitations
 
-::: moniker range="<= vs-2019"
-### Requires break mode
-
-Generating source code using decompilation is only possible when the debugger is in break mode and the application is paused. For example, Visual Studio enters break mode when it hits a breakpoint or an exception. You can easily trigger Visual Studio to break the next time your code runs by using the **Break All** command (![Break all icon](media/decompilation-break-all.png)).
-::: moniker-end
 
 ### Decompilation limitations
 

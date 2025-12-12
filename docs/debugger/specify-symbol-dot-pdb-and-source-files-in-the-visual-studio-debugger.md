@@ -203,17 +203,7 @@ From the **Tools** (or **Debug**) > **Options** menu, you can access the **Debug
    - **Search for all module symbols unless excluded**: Force Visual Studio to load all symbols in your debugged process. This option isn't recommended because it can slow down your debugging experience. You can force Visual Studio to ignore certain symbols by creating the list of [Excluded modules](#excluded-modules-list).
 
    :::moniker-end
-   :::moniker range="<= vs-2019"
 
-   - **Load all modules, unless excluded** (default): Load all symbols for all modules in the symbol file location, except modules you specifically exclude.
-   
-      To exclude certain modules, select **Specify excluded modules**. Select **Add** (**+**), enter the names of the modules to exclude, and select **OK**.
-
-   - **Load only specified modules**: Load only modules you specify from the symbol file locations.
-   
-      To identify the modules, select **Specify included modules**. Select **Add** (**+**), enter the names of the modules to include, and then select **OK**. The symbol files for other modules aren't loaded.
-
-   :::moniker-end
 
 :::moniker range="<= vs-2022"
 
