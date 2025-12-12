@@ -15,7 +15,7 @@ author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide
-monikerRange: ">=vs-2019"
+monikerRange: '<=vs-2019 || >=vs-2022'
 
 #customer intent: As a Visual Studio user, I want to configure advanced Text Editor options so that I can customize editor behavior, performance, and display settings to match my preferences.
 ---
@@ -33,7 +33,7 @@ This article shows you how to configure advanced settings for the Visual Studio 
 :::image type="content" source="media/vs-2022/tools-options-text-editor-advanced.png" alt-text="Screenshot of the Advanced settings for the text editor in the Options dialog box.":::
 
 ::: moniker-end
-::: moniker range="vs-2019"
+::: moniker range="<=vs-2019"
 
 :::image type="content" source="media/vs-2019/tools-options-text-editor-advanced.png" alt-text="Screenshot of the text editor's advanced settings in the Options dialog box.":::
 
