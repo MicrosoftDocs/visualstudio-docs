@@ -35,7 +35,7 @@ Visual Studio attaches the debugger only to user code. For *.esproj* projects, y
 
 1. With your project open in Visual Studio, open a server-side JavaScript file (such as *server.js*), click in the gutter to set a breakpoint:
 
-    :::image type="content" source="media/tutorial-nodejs-react-set-breakpoint.png" alt-text="Screenshot of the Visual Studio code window showing JavaScript code. A red dot in the left gutter indicates that a breakpoint is set.":::
+    :::image type="content" source="media/tutorial-nodejs-react-set-breakpoint.png" alt-text="Screenshot of the Visual Studio Code window showing JavaScript code. A red dot in the left gutter indicates that a breakpoint is set.":::
 
     Breakpoints are the most basic and essential feature of reliable debugging. A breakpoint indicates where Visual Studio should suspend your running code, so you can look at the values of variables or the behavior of memory, or whether or not a branch of code is getting run.
 
@@ -43,7 +43,7 @@ Visual Studio attaches the debugger only to user code. For *.esproj* projects, y
 
     The debugger pauses at the breakpoint you set (IDE highlights the statement in the yellow background). Now, you can inspect your app state by hovering over variables currently in scope, using debugger windows like the **Locals** and **Watch** windows.
 
-    :::image type="content" source="media/tutorial-nodejs-react-set-breakpoint-debug-pause.png" alt-text="Screenshot of the Visual Studio code window showing JavaScript code. A red dot in the left gutter with yellow arrow indicates pause of execution of code.":::
+    :::image type="content" source="media/tutorial-nodejs-react-set-breakpoint-debug-pause.png" alt-text="Screenshot of the Visual Studio Code window showing JavaScript code. A red dot in the left gutter with yellow arrow indicates pause of execution of code.":::
 
 1. Press **F5** to continue the app.
 
@@ -76,15 +76,12 @@ Visual Studio provides client-side debugging support only for Chrome and Microso
 - For *.esproj* projects in Visual Studio 2022, you can debug client-side script using standard debugging methods to hit breakpoints. To configure debugging, you can modify *launch.json* settings, which work the same as in VS Code. For more information about debugger configuration options, see [Launch configuration attributes](https://code.visualstudio.com/docs/nodejs/nodejs-debugging#_launch-configuration-attributes).
 ::: moniker-end
 
-
 >[!NOTE]
 > For ASP.NET and ASP.NET Core, debugging embedded scripts in *.CSHTML* files isn't supported. JavaScript code must be in separate files to enable debugging.
 
 ### Prepare your app for debugging
 
-If your source is minified or created by a transpiler like TypeScript or Babel, use [source maps](#generate_source_maps) for the best debugging experience. You can even attach the debugger to a running client-side script without the source maps. However, you might only be able to set and hit breakpoints in the minified or transpiled file, not in the source file. For example, in a Vue.js app, the minified script gets passed as a string to an `eval` statement, and there's no way to step through this code effectively using the Visual Studio debugger unless you use source maps. For complex debugging scenarios, you might want to use Chrome Developer Tools or F12 Tools for Microsoft Edge instead.
-
-For help with generating source maps, see [Generate source maps for debugging](#generate_source_maps).
+If your source is minified or created by a transpiler like TypeScript or Babel, use source maps for the best debugging experience. You can even attach the debugger to a running client-side script without the source maps. However, you might only be able to set and hit breakpoints in the minified or transpiled file, not in the source file. For example, in a Vue.js app, the minified script gets passed as a string to an `eval` statement, and there's no way to step through this code effectively using the Visual Studio debugger unless you use source maps. For complex debugging scenarios, you might want to use Chrome Developer Tools or F12 Tools for Microsoft Edge instead.
 
 ### <a name="prepare_the_browser_for_debugging"></a> Manually configure the browser for debugging
 
@@ -141,7 +138,7 @@ To attach the debugger from Visual Studio and hit breakpoints in the client-side
 
 1. Switch to Visual Studio and then set a breakpoint in your source code, which might be a JavaScript file, TypeScript file, or a JSX file. (Set the breakpoint in a line of code that allows breakpoints, such as a return statement or a var declaration.)
 
-    :::image type="content" source="media/tutorial-nodejs-react-set-breakpoint-client-code.png" alt-text="Screenshot of the Visual Studio code window. A return statement is selected and a red dot in the left gutter indicates that a breakpoint is set.":::
+    :::image type="content" source="media/tutorial-nodejs-react-set-breakpoint-client-code.png" alt-text="Screenshot of the Visual Studio Code window. A return statement is selected and a red dot in the left gutter indicates that a breakpoint is set.":::
 
     To find the specific code in a transpiled file, use **Ctrl**+**F** (**Edit** > **Find and Replace** > **Quick Find**).
 
