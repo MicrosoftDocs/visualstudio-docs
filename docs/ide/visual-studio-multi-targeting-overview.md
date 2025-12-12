@@ -1,7 +1,7 @@
 ---
 title: Specify the targeted .NET Frameworks
 description: Specify the .NET Framework version that you want your project to target so the application can only use functionality that's available in the specified version.
-ms.date: 12/13/2024
+ms.date: 12/01/2025
 ms.topic: overview
 helpviewer_keywords:
 - targeting .NET Framework [Visual Studio]
@@ -60,7 +60,7 @@ When you work on a project that targets an earlier framework version, Visual Stu
 In an existing Visual Basic, C#, or F# project, you change the target .NET version in the project properties dialog box. For information about how to change the target version for C++ projects, see [How to modify the target framework and platform toolset](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset) instead.
 
 
-::: moniker range=">=vs-2022"
+::: moniker range="vs-2022"
 
 1. In **Solution Explorer**, open the right-click context menu for the project that you want to change, and then choose **Properties**.
 
@@ -99,6 +99,45 @@ You must reload the project after making this change. After that, if you open th
 
 ::: moniker-end
 
+::: moniker range="visualstudio"
+
+1. In **Solution Explorer**, open the right-click context menu for the project that you want to change, and then choose **Properties**.
+
+1. In the left column of the **Properties** window, choose the **Application** tab.
+
+   > [!NOTE]
+   > After you create a UWP app, you can't change the targeted version of either Windows or .NET.
+
+1. In the **Target Framework** list, choose the version that you want.
+
+    For a **.NET Framework project**, the dialog you see might look similar to the following screenshot:
+
+   :::image type="content" source="media/visualstudio/project-properties-application-tab-framework.png" alt-text="Screenshot of the Project Properties dialog with .NET Framework options highlighted.":::
+
+   For a **.NET project**, the dialog might look similar to the following screenshot:
+
+   :::image type="content" source="media/visualstudio/project-properties-target-framework.png" alt-text="Screenshot of the General tab in the Project Properties dialog box, with the 'Target framework' selections showing.":::
+
+1. If a verification dialog box appears, choose the **Yes** button.
+
+   The project unloads. When it reloads, it targets the .NET version that you just chose.
+
+### Target multiple frameworks
+
+With .NET 5 and later, you can build a project for multiple frameworks in a single build by manually editing the project file. Open the project file and replace the `TargetFramework` property with `TargetFrameworks`, and specify your list of Target Framework Monikers (TFMs), separated by semicolons, as in the following code:
+
+```xml
+   <TargetFrameworks>net7.0;net8.0</TargetFrameworks>
+```
+
+See the list of TFMs at [Target frameworks in SDK-style projects](/dotnet/standard/frameworks).
+
+You must reload the project after making this change. After that, if you open the **Properties** window, in the **Application** tab, you can edit the list of target frameworks.
+
+:::image type="content" source="media/visualstudio/project-properties-target-frameworks.png" alt-text="Screenshot of the General tab in the Project Properties dialog box, with the 'Target frameworks' list showing.":::
+
+::: moniker-end
+
 > [!NOTE]
 > If your code contains references to a different version of the .NET than the one that you targeted, error messages may appear when you compile or run the code. To resolve these errors, modify the references. See [Troubleshoot .NET targeting errors](/troubleshoot/developer/visualstudio/project-build/troubleshooting-dotnet-framework-targeting-errors).
 
@@ -114,7 +153,7 @@ You must reload the project after making this change. After that, if you open th
 When you create a .NET Framework project, you can select the target .NET Framework version after you select a project template. The list of available frameworks includes the installed framework versions that are applicable to the selected template type. For non-.NET Framework project templates, for example .NET Core templates, the **Framework** drop-down list doesn't appear.
 
 
-::: moniker range=">=vs-2022"
+::: moniker range="vs-2022"
 
 If you choose to **create a .NET Framework project**, you'll see an interface that's similar to the following screenshot:
 
@@ -126,9 +165,27 @@ The first screen you'll see is the **Configure your new project** dialog.
 
 :::image type="content" source="media/vs-2022/configure-your-new-project.png" alt-text="Screenshot of the 'Configure your new project' dialog box in Visual Studio 2022.":::
 
-The second screen you'll see is the **Additional options** dialog.
+The second screen you'll see is the **Additional information** dialog.
 
 :::image type="content" source="media/vs-2022/visual-studio-multi-targeting-overview/configure-new-project-additional-info.png" alt-text="Screenshot of the 'Additional options' dialog box in Visual Studio 2022.":::
+
+::: moniker-end
+
+::: moniker range="visualstudio"
+
+If you choose to **create a .NET Framework project**, you'll see an interface that's similar to the following screenshot:
+
+:::image type="content" source="media/visualstudio/configure-new-project-framework.png" alt-text="Screenshot of the Framework drop-down list in Visual Studio.":::
+
+If you choose to **create a .NET project**, you'll see user interface (UI) that's similar to the following two screenshots.
+
+The first screen you'll see is the **Configure your new project** dialog.
+
+:::image type="content" source="media/visualstudio/configure-your-new-project.png" alt-text="Screenshot of the 'Configure your new project' dialog box in Visual Studio.":::
+
+The second screen you'll see is the **Additional information** dialog.
+
+:::image type="content" source="media/visualstudio/configure-new-project-additional-info.png" alt-text="Screenshot of the 'Additional options' dialog box in Visual Studio.":::
 
 ::: moniker-end
 
