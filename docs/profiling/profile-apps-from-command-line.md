@@ -11,7 +11,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
-monikerRange: '>= vs-2019'
+monikerRange: '>= vs-2022'
 ---
 # Measure application performance from the command line
 

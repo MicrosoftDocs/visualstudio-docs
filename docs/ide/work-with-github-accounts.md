@@ -7,7 +7,7 @@ author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide
-monikerRange: ">=vs-2019"
+monikerRange: ">=vs-2022"
 ms.custom: sfi-image-nochange
 ---
 # Add your GitHub accounts to your Visual Studio keychain

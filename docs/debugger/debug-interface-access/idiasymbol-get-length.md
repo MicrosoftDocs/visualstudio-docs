@@ -1,7 +1,7 @@
 ---
 description: "Retrieves the number of bits or bytes of memory used by the object represented by this symbol."
 title: "IDiaSymbol::get_length"
-ms.date: "11/04/2016"
+ms.date: "12/10/2025"
 ms.topic: "reference"
 dev_langs:
   - "C++"
@@ -15,7 +15,7 @@ ms.subservice: debug-diagnostics
 
 # IDiaSymbol::get_length
 
-Retrieves the number of bits or bytes of memory used by the object represented by this symbol.
+Retrieves the number of bits or bytes or number of scalable registers of memory used by the object represented by this symbol.
 
 ## Syntax
 
@@ -28,16 +28,20 @@ HRESULT get_length (
 #### Parameters
  `pRetVal`
 
-[out] Returns the number of bytes or bits of memory used by the object represented by this symbol.
+[out] Returns the number of bytes or bits or number of scalable registers of memory used by the object represented by this symbol.
 
 ## Return Value
- If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
+
+If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
 
 > [!NOTE]
 > A return value of `S_FALSE` means the property is not available for the symbol.
 
 ## Remarks
- If the [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md) of the symbol is `LocIsBitField`, the length returned by this method is in bits; otherwise, the length is in bytes for all other location types.
+
+If the [LocationType Enumeration](../../debugger/debug-interface-access/locationtype.md) of the symbol is `LocIsBitField`, the length returned by this method is in bits; otherwise, the length is in bytes for all other location types.
+
+If the `basicType` of the symbol is `btVector`, the length returned by this method is number of scalable registers.
 
 ## Example
 

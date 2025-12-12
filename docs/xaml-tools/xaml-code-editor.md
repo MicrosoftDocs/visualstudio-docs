@@ -5,7 +5,7 @@ ms.date: 11/30/2025
 ms.topic: overview
 f1_keywords:
 - VS.XamlEditor
-monikerRange: ">=vs-2019"
+monikerRange: ">=vs-2022"
 author: maddymontaquila
 ms.author: maleger
 manager: mijacobs
