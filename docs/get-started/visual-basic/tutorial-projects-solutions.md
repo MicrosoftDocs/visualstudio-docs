@@ -31,21 +31,6 @@ Despite its name, a solution is not an "answer". A solution is simply a containe
 
 We'll start our exploration by creating an empty solution. After you get to know Visual Studio, you probably won't find yourself creating empty solutions often. When you create a new project, Visual Studio automatically creates a solution to house the project if there's not a solution already open.
 
-::: moniker range="vs-2019"
-
-1. Open Visual Studio.
-
-2. On the start window, choose **Create a new project**.
-
-3. On the **Create a new project** page, enter **blank solution** into the search box, select the **Blank Solution** template, and then choose **Next**.
-
-   ![Screenshot showing the Create a new project window with 'blank solution' in the search box and the Blank Solution project template selected.](../media/vs-2019/tutorial-projects-blank-solution-template.png)
-
-4. Name the solution **QuickSolution**, and then choose **Create**.
-
-   A solution appears in **Solution Explorer** on the right-hand side of the Visual Studio window. You'll probably use **Solution Explorer** often, to browse the contents of your projects.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
@@ -67,26 +52,6 @@ We'll start our exploration by creating an empty solution. After you get to know
 
 Now let's add our first project to the solution. We'll start with an empty project and add the items we need to the project.
 
-::: moniker range="vs-2019"
-
-1. From the right-click or context menu of **Solution 'QuickSolution'** in **Solution Explorer**, choose **Add** > **New Project**.
-
-   A dialog box opens that says **Add a new project**.
-
-1. Enter the text **empty** into the search box at the top, and then select **Visual Basic** under **Language**.
-
-1. Select the **Empty Project (.NET Framework)** template, and then choose **Next**.
-
-1. Name the project **QuickDate**, then choose **Create**.
-
-   A project named QuickDate appears beneath the solution in **Solution Explorer**. Currently it contains a single file called *App.config*.
-
-   > [!NOTE]
-   > If you don't see the **Empty Project (.NET Framework)** template, you need to install the **.NET desktop development** Visual Studio *workload*. Visual Studio uses workload-based installation to only install the components you need for the type of development you do. An easy way to install a new workload when you're creating a new project is to choose the **Install more tools and features** link under the text that says **Not finding what you're looking for?**. After Visual Studio Installer launches, choose the **.NET desktop development** workload and then the **Modify** button.
-   >
-   > ![Screenshot showing the Create a new project window with the 'Install more tools and features' link highlighted.](../media/vs-2019/tutorial-projects-open-installer.png)
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
@@ -147,17 +112,6 @@ Let's add a unit test project to our solution. This time we'll start from a proj
 
 1. From the right-click or context menu of **Solution 'QuickSolution'** in **Solution Explorer**, choose **Add** > **New Project**.
 
-::: moniker range="vs-2019"
-
-2. In the **Add a new project** dialog box, enter the text **unit test** into the search box at the top, and then select **Visual Basic** under **Language**.
-
-3. Choose the **Unit Test Project (.NET Framework)** project template, and then choose **Next**.
-
-4. Name the project **QuickTest**, and then choose **Create**.
-
-   A second project is added to **Solution Explorer**, and a file named *UnitTest1.vb* opens in the editor.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
@@ -175,19 +129,6 @@ Let's add a unit test project to our solution. This time we'll start from a proj
 
 We're going to use the new unit test project to test our method in the **QuickDate** project, so we need to add a reference to that project. The reference creates a *build dependency* between the two projects, meaning that when you build the solution, **QuickDate** is built before **QuickTest**.
 
-::: moniker range="vs-2019"
-
-1. Choose the **References** node in the **QuickTest** project, and from the right-click or context menu, choose **Add Reference**.
-
-   ![Screenshot showing the context menu for the References node in the QuickTest project, with the 'Add Reference' option selected.](media/tutorial-projects-add-reference-vb.png)
-
-   The **Reference Manager** dialog box opens.
-
-1. In the left pane, expand **Projects** and choose **Solution**. In the middle pane, choose the checkbox next to **QuickDate**, and then choose the **OK** button.
-
-   A reference to the **QuickDate** project is added.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
@@ -205,35 +146,6 @@ We're going to use the new unit test project to test our method in the **QuickDa
 
 ## Add test code
 
-::: moniker range="vs-2019"
-
-1. Now we'll add test code to the Visual Basic code file. Replace the contents of *UnitTest1.vb* with the following code.
-
-   ```vb
-   <TestClass()> Public Class UnitTest1
-
-       <TestMethod()> Public Sub TestGetCurrentDate()
-           Assert.AreEqual(Date.Now.Date, QuickDate.Calendar.GetCurrentDate())
-       End Sub
-
-   End Class
-   ```
-
-   You'll see a red squiggle under some of the code. We'll fix this error by making the test project a [friend assembly](/dotnet/visual-basic/programming-guide/concepts/assemblies-gac/friend-assemblies) to the **QuickDate** project.
-
-1. Back in the **QuickDate** project, open the *Calendar.vb* file if it's not already open, and add the following [Imports statement](/dotnet/visual-basic/language-reference/statements/imports-statement-net-namespace-and-type) and <xref:System.Runtime.CompilerServices.InternalsVisibleToAttribute> attribute, to resolve the error in the test project.
-
-   ```vb
-   Imports System.Runtime.CompilerServices
-
-   <Assembly: InternalsVisibleTo("QuickTest")>
-   ```
-
-   The code file should look like this:
-
-   ![Screenshot showing the code for Calendar.vb in the Visual Basic code editor window, after the Imports statement and Assembly attribute lines have been added.](media/tutorial-projects-code-vb.png)
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
@@ -267,19 +179,6 @@ We're going to use the new unit test project to test our method in the **QuickDa
 
 ## Project properties
 
-::: moniker range="vs-2019"
-
-The line in the *Calendar.vb* file that contains the <xref:System.Runtime.CompilerServices.InternalsVisibleToAttribute> attribute references the assembly name (file name) of the **QuickTest** project. The assembly name might not always be the same as the project name. To find the assembly name of a project, open the project properties.
-
-1. In **Solution Explorer**, select the **QuickTest** project. From the right-click or context menu, select **Properties**, or just press **Alt**+**Enter**. (You can also double-click **My Project** in **Solution Explorer**.)
-
-   The *property pages* for the project open on the **Application** tab. The property pages contain various settings for the project. Notice that the assembly name of the **QuickTest** project is indeed "QuickTest". If you wanted to change the assembly name, this is where you'd do that. Then, when you build the test project, the name of the resulting binary file would change from *QuickTest.dll* to whatever you chose.
-
-   ![Screenshot showing the Application tab of the property pages for the QuickTest project. The Assembly name field is highlighted and the value is 'QuickTest'.](../media/tutorial-projects-properties.png)
-
-1. Explore some of the other tabs of the project's property pages, such as **Compile** and **Settings**. These tabs are different for different types of projects.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
@@ -296,16 +195,6 @@ The line in the *Calendar.vb* file that contains the <xref:System.Runtime.Compil
 ::: moniker-end
 ## (Optional) Run the test
 
-::: moniker range="vs-2019"
-
-If you want to check that your unit test is working, choose **Test** > **Run** > **All Tests** from the menu bar. A window called **Test Explorer** opens, and you should see that the **TestGetCurrentDate** test passes.
-
-![Screenshot of the Test Explorer in Visual Studio showing that the TestGetCurrentDate test passed.](../media/tutorial-projects-test-explorer.png)
-
-> [!TIP]
-> If **Test Explorer** doesn't open automatically, open it by choosing **Test** > **Windows** > **Test Explorer** from the menu bar.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 

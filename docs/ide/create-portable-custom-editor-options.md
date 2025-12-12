@@ -41,10 +41,6 @@ EditorConfig files are useful when coding conventions you use on your personal p
 
 Because an `.editorconfig` file in the codebase contains the EditorConfig settings, they travel along with that codebase. As long as you open the code file in an EditorConfig-compliant editor, the text editor settings are activated.
 
-::: moniker range="<=vs-2019"
-> [!NOTE]
-> Conventions that you set in an EditorConfig file can't be enforced in a CI/CD pipeline as build errors or warnings. Any style deviations appear only in the Visual Studio editor and **Error List**.
-::: moniker-end
 
 ## Supported settings
 
@@ -89,13 +85,6 @@ You can manually populate your EditorConfig file, or you can automatically gener
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
-
-You can manually populate your EditorConfig file, or you can automatically generate the file based on the code style settings you've chosen in the Visual Studio **Options** dialog box. This options page is available at **Tools** > **Options** > **Text Editor** > [**C#** or  **Basic**] > **Code Style** > **General**. Click **Generate .editorconfig file from settings** to automatically generate a coding style *.editorconfig* file based on the settings on this **Options** page.
-
-![Screenshot of Generate editorconfig file from settings.](media/vs-2019/generate-editorconfig-file-small.png)
-
-::: moniker-end
 
 ### Add an EditorConfig file to a project
 
@@ -156,15 +145,6 @@ Visual Studio 2022 provides a visual editor for EditorConfig files.
 After you edit your EditorConfig file, you must reload your code files for the new settings to take effect.
 ::: moniker-end
 
-::: moniker range="vs-2019"
-Visual Studio helps you edit EditorConfig files by providing IntelliSense completion lists. For example:
-
-:::image type="content" source="media/vs-2022/editorconfig-intellisense-no-extension-new.png" alt-text="Screenshot that shows the IntelliSense in an EditorConfig file.":::
-
-If you edit many EditorConfig files, you might find the [EditorConfig Language Service extension](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.EditorConfig) helpful. Some of the features of this extension include syntax highlighting, improved IntelliSense, validation, and code formatting.
-
-:::image type="content" source="media/editorconfig-intellisense.png" alt-text="Screenshot that shows the IntelliSense with EditorConfig Language Service extension.":::
-::: moniker-end
 
 ### Example
 
@@ -179,9 +159,7 @@ The following example shows the indent state of a C# code snippet before and aft
    ::: moniker range=">= vs-2022"
    :::image type="content" source="../ide/media/vs-2022/ide-editorconfig-before-new.png" alt-text="Screenshot that shows the Tab key adding spaces in code.":::
    ::: moniker-end
-   ::: moniker range="vs-2019"
-   :::image type="content" source="../ide/media/vs-2022/vside_editorconfig_before-new.png" alt-text="Screenshot that shows the Tab key adding spaces in code.":::
-   ::: moniker-end
+
 
 1. Use EditorConfig to switch the tabs setting to use tabs.
 
@@ -191,18 +169,6 @@ The following example shows the indent state of a C# code snippet before and aft
    :::image type="content" source="../ide/media/vs-2022/ide-editorconfig-use-tabs.png" alt-text="Screenshot that shows configuring use of tabs for Tab key.":::
    ::: moniker-end
 
-   ::: moniker range="vs-2019"
-   Add a new file named `.editorconfig` to the project, with the following contents. The `[*.cs]` indicator means that this change applies only to C# code files in the project.
-
-   ```ini
-   # Top-most EditorConfig file
-   root = true
-
-   # Tab indentation
-   [*.cs]
-   indent_style = tab
-   ```
-   ::: moniker-end
 
 1. When you press the **Tab** key, tab characters now appear instead of spaces.
 
@@ -210,9 +176,6 @@ The following example shows the indent state of a C# code snippet before and aft
    :::image type="content" source="../ide/media/vs-2022/ide-editorconfig-tab.png" alt-text="Screenshot that shows the Tab key adding tab characters in code.":::
    ::: moniker-end
 
-   ::: moniker range="vs-2019"
-   :::image type="content" source="../ide/media/vside_editorconfig_tab.png" alt-text="Screenshot that shows the Tab key adding tab characters in code.":::
-   ::: moniker-end
 
 ## Troubleshoot EditorConfig settings
 

@@ -70,11 +70,7 @@ The profiler runs and opens a performance report in Visual Studio. You can revie
 :::image type="content" source="media/vs-2022/profiling-results.png" alt-text="Screenshot of the Profiling performance report in Visual Studio 2022." border="false" lightbox="media/vs-2022/profiling-results.png":::
 
 ::: moniker-end
-::: moniker range="<=vs-2019"
 
-:::image type="content" source="media/profiling-results.png" alt-text="Screenshot of the Profiling performance report in Visual Studio." border="false" lightbox="media/profiling-results.png":::
-
-::: moniker-end
 
 ## Use profiler with IronPython
 

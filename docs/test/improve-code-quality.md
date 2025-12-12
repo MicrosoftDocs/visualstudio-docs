@@ -110,21 +110,6 @@ For more information, see the following:
 * [IntelliTest – One test to rule them all](https://devblogs.microsoft.com/devops/intellitest-one-test-to-rule-them-all/)
 * [IntelliTest reference manual](intellitest-manual/index.md)
 
-::: moniker range="<=vs-2019"
-## User interface testing with Coded UI and Selenium
-
-Coded UI tests provide a way to create fully automated tests to validate the functionality and behavior of your application’s user interface. They can automate UI testing across a variety of technologies, including XAML-based UWP apps, browser apps, and SharePoint apps.
-
-> [!NOTE]
-> Coded UI is a deprecated feature.
-
-Whether you choose best-of-breed Coded UI Tests or generic browser-based UI testing with [Playwright](https://playwright.dev/), Visual Studio provides all the tools you need.
-
-* [Use UI automation to test your code](use-ui-automation-to-test-your-code.md)
-* [Get started creating, editing, and maintaining a coded UI test](/previous-versions/visualstudio/visual-studio-2017/test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test)
-* [Test UWP apps with coded UI tests](/previous-versions/visualstudio/visual-studio-2017/test/test-uwp-app-with-coded-ui-test)
-* [Introduction to coded UI tests with Visual Studio Enterprise (Lab)](https://azuredevopslabs.com/labs/tfs/codedui)
-::: moniker-end
 
 ## Related content
 

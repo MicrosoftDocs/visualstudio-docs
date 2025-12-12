@@ -45,14 +45,6 @@ The **Project contexts** pane lists the projects in the solution. For each proje
 
 To set properties based on configurations, in **Solution Explorer**, open the shortcut menu for a project and then choose **Properties**.
 
-:::moniker range="<=vs-2019"
-
-Most project properties are not dependent on the configuration or the platform, but some are. For a **Release** configuration, you can specify that code is optimized when the solution is built, and for a **Debug** configuration, you can specify that the `DEBUG` conditional compilation symbol is defined. You can also choose which warnings you want to suppress, or elevate to errors, differently based on the configuration or platform, as well as control certain settings that affect some compiler options, **Arithmetic overflow**, **File alignment**, and the `/deterministic` compiler option.
-
-In the project property pages, the pages that have settings that depend on the configuration and the platform have dropdown boxes that let you choose the configuration and platform that the current values of the settings apply to.
-
-![Screenshot showing project properties that are dependent on the configuration and platform.](./media/vs-2019/project-properties-configuration-and-platform.png)
-:::moniker-end
 
 :::moniker range=">=vs-2022"
 Most project properties are not dependent on the configuration or the platform, but some are. For a **Release** configuration, you can specify that code is optimized when the solution is built, and for a **Debug** configuration, you can specify that the `DEBUG` conditional compilation symbol is defined. You can also choose which warnings you want to suppress, or elevate to errors, differently based on the configuration or platform, as well as control certain settings that affect some compiler options, **Arithmetic overflow**, **File alignment**, and the `/deterministic` compiler option.

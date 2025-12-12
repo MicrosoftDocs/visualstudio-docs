@@ -25,12 +25,6 @@
    Click **Finish** to save the publish profile.
    ::: moniker-end
 
-   ::: moniker range="vs-2019"
-
-   :::image type="content" source="../media/vs-2019/remotedbg-publish-local.png" alt-text="Screenshot of the Pick a publish target dialog in Visual Studio with the Folder `C:\Publish' selected as the publish target.":::
-
-   Click **Finish** to save the publish profile.
-   ::: moniker-end
 
 1. Switch to a debug configuration.
 

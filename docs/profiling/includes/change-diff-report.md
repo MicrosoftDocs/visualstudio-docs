@@ -18,10 +18,5 @@ The change report adds columns (marked with **(Diff)**) to the base report that 
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
-
-![Screenshot of Native Types Diff View.](../media/vs-2019/dbgdiag-mem-native-types-view-diff.png)
-
-::: moniker-end
 
 The top pane shows the count and size of the types in the snapshot, including the size of all objects that are referenced by the type (**Inclusive Size**).

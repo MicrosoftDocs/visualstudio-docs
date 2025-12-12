@@ -56,35 +56,6 @@ Before you begin, make sure that you're signed in to Visual Studio. Sign in with
 
 :::moniker-end
 
-:::moniker range="<=vs-2019"
-
-Before you begin, make sure that you're signed in to Visual Studio. Sign in with the same account that you use for your Azure subscription. Then open an ASP.NET 4.7.1 or later, or ASP.NET Core web project, and do the following steps.
-
-1. In **Solution Explorer**, right-click the project that you want to add the Key Vault support to, and choose **Add** > **Connected Service**, or right-click on the **Connected Services** node, and select **Add**.
-
-   If you don't see the **Connected Services** node, choose **Project** > **Connected Services** > **Add**.
-
-1. Under **Service Dependencies**, choose the **+** icon.
-   The Connected Service page appears with services you can add to your project.
-1. In the menu of available services, choose **Azure Key Vault** and click **Next**.
-
-   ![Screenshot showing Connected Services screen and option to choose Azure Key Vault.](./media/vs-key-vault-add-connected-service/key-vault-connected-service.png)
-
-1. Select the subscription you want to use, and then if you already have a key vault you want to use, select it, and click **Next**.
-
-   ![Screenshot showing Select your subscription.](./media/vs-key-vault-add-connected-service/key-vault-connected-service-select-vault.png)
-
-1. If you don't have an existing Key Vault, click on **Create new Key Vault**. You are asked to provide the resource group, location, and SKU.
-
-   ![Screenshot of "Create Azure Key Vault" screen.](./media/vs-key-vault-add-connected-service/create-new-key-vault.png)
-
-1. In the **Configure Key Vault** screen, you can change the name of the environment variable that references the Key Vault URI. The connection string is not stored here; it's stored in the key vault.
-
-   ![Screenshot of Connect to Azure Key Vault screen.](./media/vs-key-vault-add-connected-service/connect-to-azure-key-vault.png)
-
-1. Click **Next** to review a summary of the changes and then **Finish**.
-
-:::moniker-end
 
 Now, connection to Key Vault is established and you can access your secrets in code. If you just created a new key vault, test it by creating a secret that you can reference in code. You can create a secret by using the [Azure portal](/azure/key-vault/secrets/quick-create-portal), [PowerShell](/azure/key-vault/secrets/quick-create-powershell), or the [Azure CLI](/azure/key-vault/secrets/quick-create-cli).
 

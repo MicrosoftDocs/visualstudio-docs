@@ -27,10 +27,6 @@ In this tutorial, you learn how to:
 
 ## Prerequisites
 
-::: moniker range="vs-2019"
-- You need Visual Studio to complete this tutorial. Visit [Visual Studio downloads](https://visualstudio.microsoft.com/vs/) for a free version.
-- The **.NET desktop development** workload. To verify or install this workload in Visual Studio, select **Tools** > **Get Tools and Features**. For more information, see [Change workloads or individual components](../install/modify-visual-studio.md#change-workloads-or-individual-components).
-::: moniker-end
 ::: moniker range=">=vs-2022"
 - You need Visual Studio to complete this tutorial. Visit [Visual Studio downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) for a free version.
 - The **.NET desktop development** workload. To verify or install this workload in Visual Studio, select **Tools** > **Get Tools and Features**. For more information, see [Change workloads or individual components](../install/modify-visual-studio.md#change-workloads-or-individual-components).
@@ -41,26 +37,6 @@ In this tutorial, you learn how to:
 Create a Visual Basic application project.
 The project type comes with all the template files that you need.
 
-::: moniker range="vs-2019"
-1. Open Visual Studio, then select **Create a new project** on the start window.
-
-   :::image type="content" source="../get-started/media/vs-2019/create-new-project-dark-theme.png" alt-text="Screenshot showing the Visual Studio 2019 start window with Create a new project selected.":::
-
-1. On the **Create a new project** window, select the **Windows Forms App (.NET Framework)** template for Visual Basic.
-
-   You can refine your search to quickly get to the template you want.
-   For example, enter *Windows Forms App* in the search box.
-   Next, select **Visual Basic** from the languages list, and then **Windows** from the platform list.  
-
-   :::image type="content" source="../get-started/visual-basic/media/vs-2019/vb-create-new-project-search-winforms-filtered.png" alt-text="Screenshot showing the Create a new project window with Windows Forms App (.NET Framework) selected." lightbox="../get-started/visual-basic/media/vs-2019/vb-create-new-project-search-winforms-filtered.png":::
-
-1. In the **Configure your new project** window, enter *HelloWorld* as the **Project name**. Then, select **Create**.
-
-   :::image type="content" source="../get-started/visual-basic/media/vs-2019/vb-name-your-winform-project-helloworld.png" alt-text="Screenshot shows the Configure your new project window with the name HelloWorld entered.":::
-
-   Visual Studio opens your new project.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 1. Open Visual Studio, then select **Create a new project** on the start window.
