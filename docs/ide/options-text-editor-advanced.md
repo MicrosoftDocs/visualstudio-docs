@@ -1,7 +1,7 @@
 ---
 title: Configure advanced Text Editor options
 description: Learn how to configure the Advanced page to customize global settings for the Visual Studio text editor, including completion mode, scrolling, and text rendering.
-ms.date: 12/11/2025
+ms.date: 12/12/2025
 ms.topic: how-to
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.Advanced
@@ -15,7 +15,7 @@ author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide
-monikerRange: '<=vs-2019 || >=vs-2022'
+monikerRange: '>=vs-2022'
 #customer intent: As a Visual Studio user, I want to configure advanced Text Editor options so that I can customize editor behavior, performance, and display settings to match my preferences.
 ---
 
@@ -31,11 +31,6 @@ This article shows you how to configure advanced settings for the Visual Studio 
 ::: moniker range="vs-2022"
 
 :::image type="content" source="media/vs-2022/tools-options-text-editor-advanced.png" alt-text="Screenshot of the Advanced settings for the text editor in the Options dialog box.":::
-
-::: moniker-end
-::: moniker range="<=vs-2019"
-
-:::image type="content" source="media/vs-2019/tools-options-text-editor-advanced.png" alt-text="Screenshot of the text editor's advanced settings in the Options dialog box.":::
 
 ::: moniker-end
 
@@ -56,7 +51,7 @@ Use this setting to configure the behavior of the horizontal scroll bar in the V
 The following sections describe the other available settings.
 
 ::: moniker-end
-::: moniker range="<=vs-2022"
+::: moniker range="vs-2022"
 
 In Visual Studio, select **Tools** > **Options**. In the **Options** dialog, expand the **Text Editor** > **Advanced** section, and configure the desired settings.
 
@@ -80,13 +75,11 @@ The **Whole line** option is enabled by default. You can choose from the followi
 ### Difference overview margin
 
 ::: moniker-end
-::: moniker range="<=vs-2022"
+::: moniker range="vs-2022"
 
 ### Show the difference overview margin
 
 ::: moniker-end
-
-::: moniker range=">=vs-2022"
 
 When this setting is enabled (default), Visual Studio adds a margin next to the scrollbar so you can view the difference between Git commits. Red text in the margin indicates a deletion and green indicates an addition. 
 
@@ -97,8 +90,6 @@ The **Single click** setting is selected by default. You can customize how Peek 
 - **Single click** (default): Opens Peek Difference with a single click.
 - **Double click**: Requires a double click to open Peek Difference.
 - **None** (or **Off**): Turns off the [Peek Difference UI](../version-control/git-line-staging.md#view-staged-changes-with-peek-difference).
-
-::: moniker-end
 
 ## Configure code completion options
 
@@ -150,8 +141,6 @@ When this setting is enabled, Visual Studio shows the CodeLens indicator at the 
 
 ::: moniker-end
 
-::: moniker range=">=vs-2022"
-
 Enable this setting to disable the new [multi-caret selection](finding-and-replacing-text.md?view=vs-2022&preserve-view=true#multi-caret-selection) behavior in Visual Studio 2022 or later, which provides the following functionality:
 
 - Adapts "block selection" similarly as does the multi-caret functionality in [Visual Studio Code](https://code.visualstudio.com/docs/editor/codebasics#_multiple-selections-multicursor).
@@ -160,8 +149,6 @@ Enable this setting to disable the new [multi-caret selection](finding-and-repla
 
 > [!NOTE]
 > When this setting is enabled, the option applies the box selection behavior available in Visual Studio 2019 and earlier versions. Specifically, the option enables you to select a rectangular section of items when you select **Alt** and then drag your mouse to highlight text (or select **Shift**+**Alt**+**Left**/**Up**/**Right**/**Down** to highlight text). This option is limited when you press an arrow key. Visual Studio dismisses the box selection and returns to a single caret.
-
-::: moniker-end
 
 ::: moniker range="visualstudio"
 
@@ -244,7 +231,7 @@ When this setting is enabled (default), Visual Studio stops background tasks whe
 When this setting is enabled, Visual Studio loads the editor components asynchronously as they're available, rather than loading all components at the same time. This approach might result in a slight visual delay as the components are prepared. This setting was previously available as the Preview feature **Initialize editor parts asynchronously during solution load**. (Some extensions might not support this option.)
 
 ::: moniker-end
-::: moniker range="<=vs-2022"
+::: moniker range="vs-2022"
 
 ### Automatically adjust maximum allowed typing latency
 
@@ -298,7 +285,7 @@ For more information, see [TextRenderingMode](/dotnet/api/system.windows.media.t
 Use these options to improve scrolling performance in Visual Studio.
 
 ::: moniker-end
-::: moniker range="<=vs-2022"
+::: moniker range="vs-2022"
 
 ## Configure scrolling options
 
