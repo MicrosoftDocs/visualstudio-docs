@@ -18,13 +18,13 @@ ms.subservice: general-ide
 ---
 # Customize Visual Studio for working with projects and solutions
 
-This article shows you how to configure Visual Studio's behavior for projects and solutions by using the **Projects and Solutions > General** options page. These settings help you customize how Visual Studio handles solution loading, file management, error display, and other project-related behaviors.
+This article shows you how to configure Visual Studio's behavior for projects and solutions by using the **Projects and Solutions** > **General** options page. These settings help you customize how Visual Studio handles solution loading, file management, error display, and other project-related behaviors.
 
 ## Access the Projects and Solutions options
 
 :::moniker range="visualstudio"
 
-To configure these options in Visual Studio, select **Tools** > **Options**, and expand the **All Settings** > **Projects and Solutions** > **General**** section.
+To configure these options in Visual Studio, select **Tools** > **Options**, and expand the **All Settings** > **Projects and Solutions** > **General** section.
 
 ### Default Solution File Format
 
@@ -36,7 +36,7 @@ In Visual Studio 2026, you can specify the default file format to use when creat
 :::moniker-end
 :::moniker range="<=vs-2022"
 
-To configure these options in Visual Studio, select **Tools** > **Options**, and expand the **Projects and Solutions** > **General**** section.
+To configure these options in Visual Studio, select **Tools** > **Options**, and expand the **Projects and Solutions** > **General** section.
 
 :::moniker-end
 
@@ -114,7 +114,7 @@ When selected, Visual Studio displays a confirmation message box before the loca
 
 ### Open project files with double-click or the Enter key when supported
 
-When this option is selected and you double-click a project node in Solution Explorer or select it and then press **Enter**, the project file (for example, \*.csproj file) opens in the editor. When deselected, double-clicking a project node in Solution Explorer or selecting it and pressing **Enter** expands or collapses the node only.
+When this option is selected and you double-click a project node in Solution Explorer or select it and then press **Enter**, the project file (for example, _*.csproj_ file) opens in the editor. When deselected, double-clicking a project node in Solution Explorer or selecting it and pressing **Enter** expands or collapses the node only.
 
 If you don't have this option selected and you want to edit a project file, right-click the project node in Solution Explorer and select **Edit Project File**. 
 
