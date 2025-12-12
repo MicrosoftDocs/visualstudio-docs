@@ -35,7 +35,7 @@ Visual Studio attaches the debugger only to user code. For *.esproj* projects, y
 
 1. With your project open in Visual Studio, open a server-side JavaScript file (such as *server.js*), click in the gutter to set a breakpoint:
 
-    :::image type="content" source="media/tutorial-nodejs-react-set-breakpoint.png" alt-text="Screenshot of the Visual Studio code window showing JavaScript code. A red dot in the left gutter indicates that a breakpoint is set.":::
+    :::image type="content" source="media/tutorial-nodejs-react-set-breakpoint.png" alt-text="Screenshot of the Visual Studio Code window showing JavaScript code. A red dot in the left gutter indicates that a breakpoint is set.":::
 
     Breakpoints are the most basic and essential feature of reliable debugging. A breakpoint indicates where Visual Studio should suspend your running code, so you can look at the values of variables or the behavior of memory, or whether or not a branch of code is getting run.
 
@@ -43,7 +43,7 @@ Visual Studio attaches the debugger only to user code. For *.esproj* projects, y
 
     The debugger pauses at the breakpoint you set (IDE highlights the statement in the yellow background). Now, you can inspect your app state by hovering over variables currently in scope, using debugger windows like the **Locals** and **Watch** windows.
 
-    :::image type="content" source="media/tutorial-nodejs-react-set-breakpoint-debug-pause.png" alt-text="Screenshot of the Visual Studio code window showing JavaScript code. A red dot in the left gutter with yellow arrow indicates pause of execution of code.":::
+    :::image type="content" source="media/tutorial-nodejs-react-set-breakpoint-debug-pause.png" alt-text="Screenshot of the Visual Studio Code window showing JavaScript code. A red dot in the left gutter with yellow arrow indicates pause of execution of code.":::
 
 1. Press **F5** to continue the app.
 
@@ -138,7 +138,7 @@ To attach the debugger from Visual Studio and hit breakpoints in the client-side
 
 1. Switch to Visual Studio and then set a breakpoint in your source code, which might be a JavaScript file, TypeScript file, or a JSX file. (Set the breakpoint in a line of code that allows breakpoints, such as a return statement or a var declaration.)
 
-    :::image type="content" source="media/tutorial-nodejs-react-set-breakpoint-client-code.png" alt-text="Screenshot of the Visual Studio code window. A return statement is selected and a red dot in the left gutter indicates that a breakpoint is set.":::
+    :::image type="content" source="media/tutorial-nodejs-react-set-breakpoint-client-code.png" alt-text="Screenshot of the Visual Studio Code window. A return statement is selected and a red dot in the left gutter indicates that a breakpoint is set.":::
 
     To find the specific code in a transpiled file, use **Ctrl**+**F** (**Edit** > **Find and Replace** > **Quick Find**).
 
