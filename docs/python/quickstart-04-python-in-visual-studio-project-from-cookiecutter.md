@@ -34,11 +34,7 @@ In this quickstart, you follow guided steps to create a new project from a Cooki
    :::image type="content" source="media/vs-2022/quickstart-python-project-from-cookiecutter.png" alt-text="Screenshot that shows how to create a new project from a Cookiecutter template in Visual Studio 2022." border="false" lightbox="media/vs-2022/quickstart-python-project-from-cookiecutter.png":::
 
    ::: moniker-end
-   ::: moniker range="<=vs-2019"
 
-   :::image type="content" source="media/quickstart-python-project-from-cookiecutter.png" alt-text="Screenshot that shows how to create a new project from a Cookiecutter template." lightbox="media/quickstart-python-project-from-cookiecutter.png":::
-
-   ::: moniker-end
 
 1. In the **Cookiecutter** window, select the **Microsoft/python-sklearn-classifier-cookiecutter** template under the **Recommended** section.
 
@@ -53,11 +49,7 @@ In this quickstart, you follow guided steps to create a new project from a Cooki
    :::image type="content" source="media/vs-2022/quickstart-python-cookiecutter-project-options.png" alt-text="Screenshot that shows how to set options for the new project in Visual Studio 2022." border="false" lightbox="media/vs-2022/quickstart-python-cookiecutter-project-options.png":::
 
    ::: moniker-end
-   ::: moniker range="<=vs-2019"
 
-   :::image type="content" source="media/quickstart-python-cookiecutter-project-options.png" alt-text="Screenshot that shows how to set options for the new project." lightbox="media/quickstart-python-cookiecutter-project-options.png":::
-
-   ::: moniker-end
 
    1. Set the **Create To** field to the location where you want Visual Studio to store the new project files, such as `C:\repos\python-sklearn-classifier-cookiecutter\`.
 

@@ -40,9 +40,7 @@ Code coverage option is available under the Test menu when you run test methods 
     ::: moniker range=">=vs-2022"
     :::image type="content" source="media/vs-2022/analyze-code-coverage.png" alt-text="Screenshot of Test menu with Analyze code coverage highlighted.":::
     ::: moniker-end
-    ::: moniker range="vs-2019"
-    :::image type="content" source="media/vs-2019/analyze-code-coverage.png" alt-text="Screenshot of Test menu with Analyze code coverage highlighted.":::
-    ::: moniker-end
+
 
     > [!TIP]
     > You can also run code coverage from the **Test Explorer** tool window.
@@ -52,9 +50,7 @@ Code coverage option is available under the Test menu when you run test methods 
     ::: moniker range=">=vs-2022"
     :::image type="content" source="media/vs-2022/code-coverage-highlight.png" alt-text="Screenshot showing code coverage highlighted.":::
     ::: moniker-end
-    ::: moniker range="vs-2019"
-    :::image type="content" source="media/vs-2019/code-coverage-highlight.png" alt-text="Screenshot showing code coverage highlighted.":::
-    ::: moniker-end
+
 
    In the drop-down list for the **Show Code Coverage Coloring** option, you can select whether the coloring applies to lines of code, glyphs in the left margin, or both.
 
@@ -63,9 +59,7 @@ Code coverage option is available under the Test menu when you run test methods 
     ::: moniker range=">=vs-2022"
     :::image type="content" source="media/vs-2022/coverage-fonts-and-colors.png" alt-text="Screenshot showing code coverage fonts and colors":::
     ::: moniker-end
-    ::: moniker range="vs-2019"
-    :::image type="content" source="media/vs-2019/coverage-fonts-and-colors.png" alt-text="Screenshot showing code coverage fonts and colors.":::
-    ::: moniker-end
+
 
 1. If the results show low coverage, investigate which parts of the code aren't being exercised, and write more tests to cover them. Development teams typically aim for about 80% code coverage. In some situations, lower coverage is acceptable. For example, lower coverage is acceptable where some code is generated from a standard template.
 

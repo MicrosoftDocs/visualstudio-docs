@@ -59,20 +59,6 @@ If you have multiple installations of Visual Studio, the following table describ
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
-
-Synchronized settings for Visual Studio are turned on by default. You can turn off synchronized settings on a computer by going to the **Tools** > **Options** > **Environment** > **Accounts** page and unselecting the **Synchronize Visual Studio settings across devices** option.
-
-::: moniker-end
-
-::: moniker range="<=vs-2019"
-
-As an example, if you decide not to synchronize the settings in Visual Studio on computer "A", any setting changes made on computer "A" do not appear on computer "B" or computer "C". Computers "B" and "C" will continue to synchronize with each other, but not with computer "A".
-
-> [!NOTE]
-> If you choose not to synchronize settings by deselecting the option on the **Tools** > **Options** > **Environment** > **Accounts** page, other versions or editions of Visual Studio that you have on the same computer aren't affected. Those side-by-side installations of Visual Studio will continue to synchronize their settings (unless you uncheck the option there, too).
-
-::: moniker-end
 
 ## Synchronize settings across Visual Studio IDE products and editions
 

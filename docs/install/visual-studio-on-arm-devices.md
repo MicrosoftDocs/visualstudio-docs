@@ -12,15 +12,6 @@ ms.subservice: installation
 ---
 # Visual Studio on Arm-powered devices
 
-::: moniker range="vs-2019"
-
-Visual Studio is built to target processors based on the x86 architecture, and there are no versions of Visual Studio for ARM-based processors. This article provides information about running Visual Studio via x86 emulation and remotely targeting Arm devices. 
-
-Visual Studio can run on ARM-powered devices via x86 emulation, though some features aren't currently supported on Azure Resource Manager. Therefore, we don't recommend running Visual Studio 2019 on devices that use ARM-based processors. Instead, we recommend remotely targeting ARM devices.
-
-See [Visual Studio 2019 System Requirements](/visualstudio/releases/2019/system-requirements) for supported operating systems, hardware, supported languages, and other requirements and guidance.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
@@ -84,31 +75,6 @@ See [Visual Studio 2022 System Requirements](/visualstudio/releases/2022/system-
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
-
-## Remotely targeting ARM devices
-
-For the best experience, we recommend that you use Visual Studio on a separate x86-powered computer, and use the remote deployment and debugging features in Visual Studio to target the ARM-based device. For information about debugging Universal Windows Applications already installed on the device, see [Debug an installed UWP app package in Visual Studio](../debugger/debug-installed-app-package.md). For information about debugging a new app, see [Debug UWP apps on remote machines from Visual Studio](../debugger/run-windows-store-apps-on-a-remote-machine.md). For all other application types, see the [remote debugging](../debugger/remote-debugging.md) documentation.
-
-## Tips for running Visual Studio on ARM devices
-
-### Use only when needed
-
-You can run Visual Studio on an ARM processor by using x86 emulation. Some features might not be supported in this emulation, and performance might be slower when you use emulation for ARM-based processors. You might consider remotely targeting ARM devices.
-
-### Install time
-
-Plan for Visual Studio to take longer to install, and expect it to pause for periods of time or require a restart.
- 
-### Remote tools
-
-To debug an app running on a remote device, you need to [download and install the remote tools](../debugger/remote-debugging.md#download-and-install-the-remote-tools) for ARM.
-
-### Start debugging
-
-Not all Visual Studio projects are configured to launch projects locally when you start debugging (F5) from an ARM device. You need to configure Visual Studio for remote debugging, even though your app is running locally. For more information, see [remote debugging](../debugger/remote-debugging.md).
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 

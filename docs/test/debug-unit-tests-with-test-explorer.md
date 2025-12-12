@@ -27,9 +27,6 @@ To start debugging:
    ![Screenshot that shows test execution details.](../test/media/vs-2022/test-explorer-debug.png)
    ::: moniker-end
 
-   ::: moniker range="vs-2019"
-   ![Screenshot that shows test execution details.](../test/media/vs-2019/test-explorer-debug.png)
-   ::: moniker-end
 
 For more information about the debugger, see [Debug in Visual Studio](../debugger/debugger-feature-tour.md).
 
@@ -46,16 +43,6 @@ To diagnose why a test method is taking more time than you'd like, or using more
 For more information, see [this blog post](https://devblogs.microsoft.com/visualstudio/a-unit-of-profiling-makes-the-allocations-go-away/) or see [Collect profiling data on release builds](../profiling/running-profiling-tools-with-or-without-the-debugger.md#collect-profiling-data-on-release-builds).
 ::: moniker-end
 
-::: moniker range="vs-2019"
-To diagnose why a test method is taking too much time:
-
-- Right-click the method in Test Explorer, and then select **Profile**.
-
-For more information, see [Instrumentation profiling report](../profiling/understanding-instrumentation-data-values.md?view=vs-2017&preserve-view=true).
-
-> [!NOTE]
-> This feature is not currently supported for .NET Core.
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 

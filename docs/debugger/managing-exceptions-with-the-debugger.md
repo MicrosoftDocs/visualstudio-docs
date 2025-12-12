@@ -58,11 +58,6 @@ The debugger can break execution at the point where an exception is thrown, so y
 
 In the **Exception Settings** window (**Debug > Windows > Exception Settings**), expand the node for a category of exceptions, such as **Common Language Runtime Exceptions**. Then select the check box for a specific exception within that category, such as **System.AccessViolationException**. You can also select an entire category of exceptions.
 
-::: moniker range="<=vs-2019"
-
-![Screenshot of Exception Settings check box.](../debugger/media/vs-2019/exception-settings-check-access.png "Exception-Settings-Check-Access")
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
@@ -141,11 +136,6 @@ If you select an exception in the **Exception Settings** window, debugger execut
 
 To restore the exception settings to the defaults, choose the **Restore the list to the default settings** button:
 
-::: moniker range="<=vs-2019"
-
-![Screenshot of Restore Defaults in Exception Settings.](../debugger/media/vs-2019/restore-default-exceptions.png "Restore-Default-Exceptions")
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
@@ -159,11 +149,6 @@ If you are debugging .NET or JavaScript code with [Just My Code](../debugger/jus
 
 1. In the **Exception Settings** window, open the shortcut menu by right-clicking a column label, and then select **Show Columns > Additional Actions**. (If you've turned off **Just My Code**, you won't see this command.) A third column named **Additional Actions** appears.
 
-   ::: moniker range="<=vs-2019"
-   
-   ![Screenshot of Additional Actions column.](../debugger/media/vs-2019/additional-actions-column.png "Additional-Actions-Column")
-
-   ::: moniker-end
    
    ::: moniker range=">=vs-2022"
    
@@ -175,11 +160,6 @@ If you are debugging .NET or JavaScript code with [Just My Code](../debugger/jus
 
 2. To change this setting for a particular exception, select the exception, right-click to show the shortcut menu, and select **Continue When Unhandled in User Code**. You may also change the setting for an entire category of exceptions, such as the entire Common Language Runtime exceptions).
 
-   ::: moniker range="<=vs-2019"
-
-   ![Screenshot of **Continue when unhandled in user code** setting.](../debugger/media/vs-2019/continue-when-unhandled-in-user-code-setting.png "Continue-When-Unhandled-In-User-Code-Setting")
-
-   ::: moniker-end
    
    ::: moniker range=">=vs-2022"
 
@@ -201,11 +181,6 @@ To add an exception:
 
 2. Choose the **Add an exception to the selected category** button (the plus sign).
 
-   ::: moniker range="<=vs-2019"
-
-   ![Screenshot of **Add an exception to the selected category** button.](../debugger/media/vs-2019/add-exception-to-selected-category-button.png "Add-Exception-To-Selected-Category-Button")
-
-   ::: moniker-end
 
    ::: moniker range=">=vs-2022"
 
@@ -215,11 +190,6 @@ To add an exception:
 
 3. Type the name of the exception (for example, **System.UriTemplateMatchException**).
 
-   ::: moniker range="<=vs-2019"
-
-   ![Screenshot of **Type exception name**.](../debugger/media/vs-2019/type-the-exception-name.png "Type-The-Exception-Name")
-
-   ::: moniker-end
 
    ::: moniker range=">=vs-2022"
 
@@ -249,11 +219,6 @@ public class GenericException<T> : Exception
 
 You can add the exception to **Exception Settings** using the previous procedure:
 
-::: moniker range="<=vs-2019"
-
-![Screenshot of **Add generic exception**.](../debugger/media/vs-2019/add-generic-exception.png "Add-Generic-Exception")
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 

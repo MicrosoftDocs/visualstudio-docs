@@ -19,10 +19,6 @@ For information about Docker Compose profiles, see [Using profiles with Compose]
 
 ## Prerequisites
 
-:::moniker range="vs-2019"
-- [Visual Studio 2019 version 16.10](https://visualstudio.microsoft.com/vs/) or later
-- A .NET solution with [Container Orchestration with Docker Compose](tutorial-multicontainer.md)
-:::moniker-end
 :::moniker range=">=vs-2022"
 - [Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-cta)
 - A .NET solution with [Container Orchestration with Docker Compose](tutorial-multicontainer.md)
@@ -68,18 +64,12 @@ services:
 There are a few options to open the Docker Compose launch settings dialog:
 - In Visual Studio, choose **Debug** > **Manage Docker Compose Launch Settings**:
 
-    :::moniker range="<=vs-2019"
-    ![Screenshot of Debug Manage Compose Settings menu item](media/launch-settings/debug-dropdown-manage-compose.png)
-    :::moniker-end
     :::moniker range=">=vs-2022"
     ![Screenshot of Debug Manage Compose Settings menu item](media/tutorial-multicontainer/vs-2022/debug-dropdown-manage-compose.png)
     :::moniker-end
 
 - Right-click on the Visual Studio `docker-compose` project and select **Manage Docker Compose Launch Settings**
 
-    :::moniker range="<=vs-2019"
-    ![Screenshot of the context menu item](media/launch-settings/launch-settings-context-menu.png)
-    :::moniker-end
     :::moniker range=">=vs-2022"
     ![Screenshot of the context menu item](media/launch-settings/vs-2022/launch-settings-context-menu.png)
     :::moniker-end

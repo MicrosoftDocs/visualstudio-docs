@@ -49,11 +49,7 @@ Follow these steps to create the app from a template:
    :::image type="content" source="media/django/vs-2022/step-02-add-new-item.png" alt-text="Screenshot that shows how to add a new item to a project in Visual Studio." border="false" lightbox="media/django/vs-2022/step-02-add-new-item.png"::: 
 
    ::: moniker-end
-   ::: moniker range="<=vs-2019"
 
-   :::image type="content" source="media/django/step02-new-item.png" alt-text="Screenshot that shows how to add a new item to a project in Solution Explorer in Visual Studio." lightbox="media/django/step02-new-item.png":::
-
-   ::: moniker-end
 
 1. In the **Add New Item** dialog, select the **Django 1.9 App** template: 
 
@@ -66,11 +62,7 @@ Follow these steps to create the app from a template:
    :::image type="content" source="media/django/vs-2022/step-02-add-django-1-9-app.png" alt-text="Screenshot that shows how to configure the Django 1.9 App template in Visual Studio." border="false" lightbox="media/django/vs-2022/step-02-add-django-1-9-app.png"::: 
 
    ::: moniker-end
-   ::: moniker range="<=vs-2019"
 
-   :::image type="content" source="media/django/step02-add-new-item.png" alt-text="Screenshot that shows how to configure the Django 1.9 App template in Visual Studio." lightbox="media/django/step02-add-new-item.png":::
-
-   ::: moniker-end
 
 ### Use integrated menu command to create app
 
@@ -83,11 +75,7 @@ Follow these steps to create the app by using the integrated Django menu command
    :::image type="content" source="media/django/vs-2022/step-02-add-new-django-app.png" alt-text="Screenshot that shows how to add a new Django app from the context menu in Visual Studio." border="false" lightbox="media/django/vs-2022/step-02-add-new-django-app.png"::: 
 
    ::: moniker-end
-   ::: moniker range="<=vs-2019"
 
-   :::image type="content" source="media/django/step02-add-django-app-command.png" alt-text="Screenshot that shows how to add a new Django app from the context menu in Solution Explorer in Visual Studio." lightbox="media/django/step02-add-django-app-command.png":::
-
-   ::: moniker-end
 
 1. In the **Add Django App** dialog, enter the app name _HelloDjangoApp_:
 
@@ -96,11 +84,7 @@ Follow these steps to create the app by using the integrated Django menu command
    :::image type="content" source="media/django/vs-2022/step-02-name-django-app.png" alt-text="Screenshot that shows how to enter a name for the new Django app in Visual Studio." border="false"::: 
 
    ::: moniker-end
-   ::: moniker range="<=vs-2019"
 
-   :::image type="content" source="media/django/step-02-django-app-name.png" alt-text="Screenshot that shows how to enter a name for the new Django app in the popup dialog in Visual Studio.":::
-
-   ::: moniker-end
 
 1. Select **OK**.
 
@@ -113,11 +97,7 @@ When you create the **HelloDjangoApp** app, Visual Studio creates a folder with 
 :::image type="content" source="media/django/vs-2022/step-02-django-subfolder-app-files.png" alt-text="Screenshot that shows the Django subfolder with app files in Visual Studio." border="false" lightbox="media/django/vs-2022/step-02-django-subfolder-app-files.png"::: 
 
 ::: moniker-end
-::: moniker range="<=vs-2019"
 
-:::image type="content" source="media/django/step02-django-app-in-solution-explorer.png" alt-text="Screenshot that shows the Django subfolder with app files in Solution Explorer in Visual Studio." lightbox="media/django/step02-django-app-in-solution-explorer.png":::
-
-::: moniker-end
 
 The folder contains the following items:
 
@@ -236,29 +216,7 @@ After you update the Django app code and test the updates, you can review and co
    You can also accumulate multiple local commits before you push them to the remote repository.
 
 ::: moniker-end
-::: moniker range="<=vs-2019"
 
-1. Save the changes to your project files, such as with the **Ctrl**+**S** keyboard shortcut.
-
-1. Select the uncommitted changes (pencil 11) at the bottom right in Visual Studio, which opens **Team Explorer**:
-
-   :::image type="content" source="media/django/step02-source-control-changes-button.png" alt-text="Screenshot that shows the source control changes option on the Visual Studio status bar." lightbox="media/django/step02-source-control-changes-button.png":::
-
-1. In **Team Explorer**, enter a commit message like "Create Django app-specific page" and select **Commit All**.
-
-   When the commit completes, Visual Studio displays the message **Commit \<hash> created locally. Sync to share your changes with the server.**
-
-1. (Optional) Push the committed changes to your remote repository:
-
-   1. In **Team Explorer**, select **Sync**.
-   
-   1. Expand the **Outgoing Commits** and select **Push**.
-
-   :::image type="content" source="media/django/step02-source-control-push-to-remote.png" alt-text="Screenshot that shows how to sync and push commits to a remote repository in Team Explorer." lightbox="media/django/step02-source-control-push-to-remote.png":::
-
-   You can also accumulate multiple local commits before you push them to the remote repository.
-
-::: moniker-end
 
 For subsequent procedures in this tutorial series, you can refer to this section for the steps to commit changes to source control.
 

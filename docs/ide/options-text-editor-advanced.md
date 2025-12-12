@@ -29,11 +29,6 @@ This article shows you how to configure advanced settings for the Visual Studio 
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
-
-:::image type="content" source="media/vs-2019/tools-options-text-editor-advanced.png" alt-text="Screenshot of the text editor's advanced settings in the Options dialog box.":::
-
-::: moniker-end
 
 ## Access the advanced Text Editor options
 

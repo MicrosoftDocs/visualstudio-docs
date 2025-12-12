@@ -36,11 +36,7 @@ Remote debugging uses Distributed Component Object Model (DCOM) to communicate b
 - Debugger compatibility options labeled as **Native only** or **Managed only** are checked under **Tools** > **Options** in the **Debugging** > **General** section.
 
 :::moniker-end
-:::moniker range="<=vs-2019"
 
-- The debugger **Native Compatibility Mode** or **Managed Compatibility Mode** option is checked. These options are located under **Tools** > **Options** > **Debugging** > **General**.
-
-:::moniker-end
 
 - You're debugging managed C++ (C++/CLI) code.
 

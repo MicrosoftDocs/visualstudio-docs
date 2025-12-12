@@ -67,9 +67,7 @@ Certain tools, such as the [CPU Usage](../profiling/cpu-usage.md) tool and [NET 
 ::: moniker range=">=vs-2022"
 ![Diag Hub Properties Page](../profiling/media/vs-2022/diag-hub-properties-page.png "Diag Hub Properties Page")
 ::: moniker-end
-::: moniker range="vs-2019"
-![Diag Hub Properties Page](../profiling/media/diaghubpropertiespage.png "Diag Hub Properties Page")
-::: moniker-end
+
 
 ::: moniker range=">=vs-2022"
 ## Set the collection folder

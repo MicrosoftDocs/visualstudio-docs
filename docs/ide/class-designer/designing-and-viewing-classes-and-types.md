@@ -61,11 +61,6 @@ After you have fine-tuned one or more class diagrams, you can copy them into Mic
 
 To design, edit, and refactor classes and other types, add a class diagram to your C#, Visual Basic, or C++ project. To visualize different parts of the code in a project, add multiple class diagrams to the project.
 
-::: moniker range="<=vs-2019"
-
-You can't create class diagrams from projects that share code across multiple apps. To create UML class diagrams, see [Create UML modeling projects and diagrams](https://devblogs.microsoft.com/devops/uml-designers-have-been-removed-layer-designer-now-supports-live-architectural-analysis/).
-
-::: moniker-end
 
 ### Install the Class Designer component
 
@@ -81,9 +76,6 @@ If you haven't installed the **Class Designer** component, follow these steps to
 
 1. Select **Class Designer** and then select **Modify**.
 
-   ::: moniker range="vs-2019"
-   :::image type="content" source="media/vs-2019/class-designer-component.png" alt-text="Screenshot of the Class Designer component in the Visual Studio Installer." lightbox="media/vs-2019/class-designer-component.png":::
-   ::: moniker-end
    ::: moniker range=">=vs-2022"
    :::image type="content" source="media/vs-2022/class-designer-component.png" alt-text="Screenshot of the Class Designer component in the Visual Studio Installer." lightbox="media/vs-2022/class-designer-component.png":::
    ::: moniker-end

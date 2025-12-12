@@ -59,24 +59,6 @@ When you work on a project that targets an earlier framework version, Visual Stu
 
 In an existing Visual Basic, C#, or F# project, you change the target .NET version in the project properties dialog box. For information about how to change the target version for C++ projects, see [How to modify the target framework and platform toolset](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset) instead.
 
-::: moniker range="<=vs-2019"
-
-1. In **Solution Explorer**, open the right-click context menu for the project that you want to change, and then choose **Properties**.
-
-1. In the left column of the **Properties** window, choose the **Application** tab.
-
-   ![Project properties Application tab](../ide/media/vs_slnexplorer_properties_applicationtab.png)
-
-   > [!NOTE]
-   > After you create a UWP app, you can't change the targeted version of either Windows or .NET.
-
-1. In the **Target Framework** list, choose the version that you want.
-
-1. In the verification dialog box that appears, choose the **Yes** button.
-
-   The project unloads. When it reloads, it targets the .NET version that you just chose.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
@@ -131,11 +113,6 @@ You must reload the project after making this change. After that, if you open th
 
 When you create a .NET Framework project, you can select the target .NET Framework version after you select a project template. The list of available frameworks includes the installed framework versions that are applicable to the selected template type. For non-.NET Framework project templates, for example .NET Core templates, the **Framework** drop-down list doesn't appear.
 
-::: moniker range="vs-2019"
-
-![Screenshot of Framework dropdown in Visual Studio 2019.](media/vs-2019/configure-new-project-framework.png)
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 

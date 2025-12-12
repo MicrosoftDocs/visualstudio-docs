@@ -65,39 +65,7 @@ To use the classic Edit and Continue experience:
 Some types of code changes aren't supported by Edit and Continue. For more information, see [Supported code changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md).
 
 ::: moniker-end
-::: moniker range="vs-2019"
 
-With Edit and Continue for C#, you can make changes to your code in break or run mode while debugging. The changes can be applied without having to stop and restart the debugging session. In run mode, the source editor is read-only.
-
-Edit and Continue is supported in UWP in Windows 10 or later, and x86 and x64 apps that target the .NET Framework 4.6 desktop or later versions (the .NET Framework is a desktop version only).
-
-Edit and Continue supports most changes you might want to make during a debugging session, but there are some exceptions. Edit and Continue isn't supported for optimized, mixed, or SQL Server common language runtime (CLR) integration code. For information on other unsupported scenarios, see [Supported code changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md). If you try to Edit and Continue with one of these scenarios, a message box appears stating that Edit and Continue isn't supported.
-
-For information on other unsupported scenarios, see [Supported code changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md). If you try to apply code changes with one of these scenarios, a message box appears stating that Hot Reload isn't supported.
-
-## Use Edit and Continue
-
-Edit and Continue for C# happens automatically when you make code changes in break mode, then continue debugging by using **Continue**, **Step**, or **Set Next Statement**, or evaluate a function in a debugger window.
-
-To enable or disable Edit and Continue:
-
-1. If you're in a debugging session, stop debugging (**Debug** > **Stop Debugging** or **Shift**+**F5**).
-
-1. In **Tools** > **Options** (or **Debug** > **Options**) > **Debugging** > **General**, select or clear the **Enable Edit and Continue** check box.
-
-The setting takes effect when you start or restart the debugging session.
-
-To use the Edit and Continue:
-
-1. While debugging, in break mode, make a change to your source code.
-
-1. From the **Debug** menu, select **Continue**, **Step**, or **Set Next Statement**, or evaluate a function in a debugger window.
-
-   Debugging continues with the new, compiled code.
-
-Some types of code changes aren't supported by Edit and Continue. For more information, see [Supported code changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md).
-
-::: moniker-end
 
 ## Related content
 

@@ -16,9 +16,6 @@ dev_langs:
 Use the TypeScript npm package to add TypeScript support to projects based on the [JavaScript Project System (JSPS)](../javascript/javascript-in-visual-studio.md#project-templates), or *.esproj*. Starting in Visual Studio 2019, it's recommended that you use the npm package instead of the TypeScript SDK. The TypeScript npm package provides greater portability across different platforms and environments.
 ::: moniker-end
 
-::: moniker range="vs-2019"
-Use the TypeScript npm package to add TypeScript support to Node.js projects (.njsproj). Starting in Visual Studio 2019, it's recommended that you use the npm package instead of the TypeScript SDK. The TypeScript npm package provides greater portability across different platforms and environments.
-::: moniker-end
 
 > [!IMPORTANT]
 > For ASP.NET Core projects, use the [NuGet package](../javascript/compile-typescript-code-nuget.md) instead of npm to add TypeScript support.
@@ -33,21 +30,11 @@ The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds Type
    For projects created using the JavaScript Project System (JSPS), or *.esproj*, no additional workloads are needed. You just need to install npm (https://www.npmjs.com/), which is included with Node.js.
    ::: moniker-end
 
-   ::: moniker range="vs-2019"
-   For the Node.js project type (.njsproj), you need to install the Node.js development workload and the Node.js runtime.
-
-   [Follow instructions](./tutorial-nodejs.md?toc=%252fvisualstudio%252fjavascript%252ftoc.json) to install the Node.js development workload and npm (https://www.npmjs.com/), which is included with Node.js.
-
-   For a simple Visual Studio integration, create your project using one of the Node.js TypeScript templates, such as the Blank Node.js Web Application template. Else, use either a Node.js JavaScript template included with Visual Studio and follow instructions here. Or, use an [Open Folder](../javascript/develop-javascript-code-without-solutions-projects.md) project.
-   ::: moniker-end
 
 1. If your project doesn't already include it, install the [TypeScript npm package](https://www.npmjs.com/package/typescript).
 
    From Solution Explorer (right pane), open the *package.json* in the project root. The packages listed correspond to packages under the npm node in Solution Explorer. For more information, see [Manage npm packages](../javascript/npm-package-management.md).
 
-   ::: moniker range="vs-2019"
-   For the older Node.js project type, you can install the TypeScript npm package using the command line or the IDE. To install using the IDE, right-click the npm node in Solution Explorer, choose **Install New npm package**, search for **TypeScript**, and install the package.
-   ::: moniker-end
 
    Check the **npm** option in the **Output** window to see package installation progress. The installed package shows up under the **npm** node in Solution Explorer.
 
@@ -110,11 +97,6 @@ The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds Type
    }
    ```
 
-   ::: moniker range="vs-2019"
-   For an example of using webpack with React and a webpack configuration file, see [Create a web app with Node.js and React](../javascript/tutorial-nodejs-with-react-and-jsx.md).
-
-   For an example of using Vue.js with TypeScript, see [Create a Vue.js application](create-application-with-vuejs.md).
-   ::: moniker-end
 
 1. If you need to configure build and deployment options such as the app URL or runtime commands, right-click the project node in Solution Explorer, and choose **Properties**.
 
@@ -123,10 +105,6 @@ The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds Type
    > When configuring third-party tools, projects using the JavaScript Project System (JSPS), or *.esproj*, don't use the paths that are configured under **Tools** > **Options** > **Projects and solutions** > **Web Package Management** > **External Web Tools**. These settings are used for other project types.
    ::: moniker-end
 
-   ::: moniker range="vs-2019"
-   >[!NOTE]
-   > When configuring third-party tools, Node.js projects don't use the paths that are configured under **Tools** > **Options** > **Projects and solutions** > **Web Package Management** > **External Web Tools**. These settings are used for other project types.
-   ::: moniker-end
 
 1. Choose **Build > Build Solution**.
 
@@ -142,9 +120,6 @@ The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds Type
 For instructions to run the app after you compile it, see [Create a Node.js and Express app](../javascript/tutorial-nodejs.md#start-your-app).
 ::: moniker-end
 
-::: moniker range="vs-2019"
-Press **Ctrl+F5** (or **Debug > Start Without Debugging**) to run the application.
-::: moniker-end
 
 ## Automate build tasks
 
@@ -155,10 +130,6 @@ You can use Task Runner Explorer in Visual Studio to help automate tasks for thi
 - [Webpack Task Runner](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebPackTaskRunner) - Adds support for webpack.
 ::: moniker-end
 
-::: moniker range="vs-2019"
-- [NPM Task Runner](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.NPMTaskRunner) - Adds support for npm scripts defined in *package.json*. Supports yarn.
-- [Webpack Task Runner](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebPackTaskRunner) - Adds support for webpack.
-::: moniker-end
 
 ## Related content
 

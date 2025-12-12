@@ -35,9 +35,6 @@ For an introduction to unit testing that takes you directly into coding, see one
 
 In this article, we use the development of a fictional application called `MyBank` as an example. You don't need the actual code to follow the explanations in this article. Test methods are written in C# and presented by using the Microsoft Unit Testing Framework for Managed Code. However, the concepts are easily transferred to other languages and frameworks.
 
-::: moniker range="vs-2019"
-![MyBank Solution 2019](../test/media/vs-2019/basics-mybank-solution.png)
-::: moniker-end
 ::: moniker range=">=vs-2022"
 ![MyBank Solution 2022](../test/media/vs-2022/basics-mybank-solution.png)
 ::: moniker-end
@@ -119,30 +116,6 @@ For C#, it is often quicker to generate the unit test project and unit test stub
 4. Now jump ahead to learn how to [Write your tests](#write-your-tests) to make your unit test meaningful, and any extra unit tests that you might want to add to thoroughly test your code.
 ::: moniker-end
 
-::: moniker range="<= vs-2019"
-## Create unit test projects and test methods (C#)
-
-For C#, it is often quicker to generate the unit test project and unit test stubs from your code. Or you can choose to create the unit test project and tests manually depending on your requirements. If you want to create unit tests from code with a 3rd party framework you will need one of these extensions installed: [NUnit](https://marketplace.visualstudio.com/items?itemName=NUnitDevelopers.TestGeneratorNUnitextension-18371) or [xUnit](https://marketplace.visualstudio.com/items?itemName=YowkoTsai.xUnitnetTestGenerator). If you are not using C#, skip this section and go to [Create the unit test project and unit tests manually](#create-the-unit-test-project-and-unit-tests-manually).
-
-### Generate unit test project and unit test stubs
-
-1. From the code editor window, right-click and choose [**Create Unit Tests**](create-unit-tests-menu.md) from the right-click menu.
-
-   ![From the editor window, view the context menu](../test/media/vs-2019/basics-create-unit-tests.png)
-
-   > [!NOTE]
-   > The **Create Unit Tests** menu command is only available for C# code. To use this method with .NET Core or .NET Standard, Visual Studio 2019 or later is required.
-
-2. Select **OK** to accept the defaults to create your unit tests, or change the values used to create and name the unit test project and the unit tests. You can select the code that is added by default to the unit test methods.
-
-   ![Create Unit Tests dialog box in Visual Studio](../test/media/create-unit-tests.png)
-
-3. The unit test stubs are created in a new unit test project for all the methods in the class.
-
-   ![The unit tests are created](../test/media/vs-2019/basics-test-stub.png)
-
-4. Now jump ahead to learn how to [Write your tests](#write-your-tests) to make your unit test meaningful, and any extra unit tests that you might want to add to thoroughly test your code.
-::: moniker-end
 
 ### Create the unit test project and unit tests manually
 
@@ -244,9 +217,6 @@ public void My_Test ()
 
 When you build the test project, the tests appear in **Test Explorer**. If **Test Explorer** is not visible, choose **Test** on the Visual Studio menu, choose **Windows**, and then choose **Test Explorer** (or press **Ctrl** + **E**, **T**).
 
-::: moniker range="vs-2019"
-![Unit Test Explorer](../test/media/vs-2019/basics-test-explorer.png)
-::: moniker-end
 ::: moniker range=">=vs-2022"
 ![Unit Test Explorer](../test/media/vs-2022/basics-test-explorer.png)
 ::: moniker-end
@@ -259,9 +229,6 @@ You can also filter the tests in any view by matching text in the search box at 
 
 The **Test Explorer** toolbar helps you discover, organize, and run the tests that you are interested in.
 
-::: moniker range="vs-2019"
-![Run tests from the Test Explorer toolbar](../test/media/vs-2019/test-explorer-toolbar-diagram-16-2.png)
-::: moniker-end
 ::: moniker range=">=vs-2022"
 ![Run tests from the Test Explorer toolbar](../test/media/vs-2022/test-explorer-toolbar-diagram-17-0.png)
 ::: moniker-end
@@ -278,9 +245,6 @@ To run your unit tests after each local build, open the settings icon in the Tes
 
 When you have a large number of tests, you can type in the **Test Explorer** search box to filter the list by the specified string. You can restrict your filter event more by choosing from the filter list.
 
-::: moniker range="vs-2019"
-![Search filter categories](../test/media/vs-2019/test-explorer-search-filter-16-2.png)
-::: moniker-end
 ::: moniker range=">=vs-2022"
 ![Search filter categories](../test/media/vs-2022/test-explorer-search-filter-17-0.png)
 ::: moniker-end
@@ -310,9 +274,6 @@ Learn more details about [debugging unit tests](../debugger/debugger-feature-tou
 
 **A:** Use Quick Actions to generate classes and methods in your project code. Write a statement in a test method that calls the class or method that you want to generate, then open the light bulb that appears under the error. If the call is to a constructor of the new class, choose **Generate type** from the menu and follow the wizard to insert the class in your code project. If the call is to a method, choose **Generate method** from the IntelliSense menu.
 
-::: moniker range="vs-2019"
-![Generate Method Stub Quick Action Menu](../test/media/vs-2019/basics-generate-method-tdd.png)
-::: moniker-end
 ::: moniker range=">=vs-2022"
 ![Generate Method Stub Quick Action Menu](../test/media/vs-2022/basics-generate-method-tdd.png)
 ::: moniker-end
@@ -341,9 +302,6 @@ To run code coverage for test methods in a solution, choose **Test** > **Analyze
 
 Coverage results appear in the **Code Coverage Results** window.
 
-::: moniker range="<=vs-2019"
-![Code coverage results](../test/media/ute_codecoverageresults.png)
-::: moniker-end
 ::: moniker range=">=vs-2022"
 ![Code coverage results](../test/media/vs-2022/ute-code-coverage-results.png)
 ::: moniker-end

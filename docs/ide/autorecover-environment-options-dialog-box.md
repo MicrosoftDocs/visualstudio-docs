@@ -48,20 +48,7 @@ You can configure Visual Studio to automatically back up files or not. You can a
    Use this option to customize how often a file is automatically saved in the editor. For previously saved files, Visual Studio saves a copy of the file in *%LocalAppData%\Microsoft\VisualStudio\BackupFiles\\[projectname]*. If the file is new and unsaved, Visual Studio autosaves it by using a randomly generated file name.
 
 :::moniker-end
-:::moniker range="<=vs-2019"
 
-1. Open the **Tools** > **Options** dialog, and expand the **Environment** > **AutoRecover** section.
-
-   :::image type="content" source="media/autorecover-options.png" alt-text="Screenshot of the AutoRecover section in the Options dialog.":::
-
-2. Select the **Save AutoRecover information every [n] minutes** checkbox and specify the number of minutes.
-
-   Use this option to customize how often a file is automatically saved in the editor. For previously saved files, Visual Studio 2019 version 16.2 and later saves a copy of the file in *%LocalAppData%\Microsoft\VisualStudio\BackupFiles\\[projectname]*. If the file is new and unsaved, Visual Studio autosaves it by using a randomly generated file name.
-
-   > [!NOTE]
-   > If you're using Visual Studio 2019 version 16.1 or earlier, the file location is *%USERPROFILE%\Documents\Visual Studio [version]\Backup Files\\[projectname]*. For more information, see the [Visual Studio 2019 Release Notes History](/visualstudio/releases/2019/release-notes-history/) page.
-
-:::moniker-end
 :::moniker range="<=vs-2022"
 
 3. Select the **Keep AutoRecover information for [n] days** checkbox and specify the number of days.

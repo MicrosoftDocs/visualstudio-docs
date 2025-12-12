@@ -45,38 +45,6 @@ When you launch Visual Studio, the start window opens. Select **Continue without
 
 When you create an application in Visual Studio, you first create a project and a solution. For this example, you create a Windows Presentation Foundation (WPF) project.
 
-::: moniker range="vs-2019"
-
-1. Open Visual Studio.
-
-1. On the start window, choose **Create a new project**.
-
-   :::image type="content" source="../../get-started/media/vs-2019/start-window-create-new-project.png" alt-text="Screenshot of the start window in Visual Studio 2019 with the 'Create a new project' option highlighted." lightbox="../../get-started/media/vs-2019/start-window-create-new-project.png":::
-
-1. On the **Create a new project** screen, search for *WPF*. Choose **WPF Application**, and then choose **Next**.
-
-   :::image type="content" source="media/vs-2019/explore-ide-new-project-csharp-vs-2019.png" alt-text="Screenshot of the 'Create a new project' dialog with 'WPF' entered in the search box, and the 'WPF Application' project template highlighted." lightbox="media/vs-2019/explore-ide-new-project-csharp-vs-2019.png":::
-
-1. At the next screen, give the project a name, *HelloWPFApp*, and choose **Next**.
-
-   :::image type="content" source="./media/vs-2019/explore-ide-name-project.png" alt-text="Screenshot of the 'Configure your new project' dialog in Visual Studio with 'HelloWPFApp' entered in the Project name field." lightbox="./media/vs-2019/explore-ide-name-project.png":::
-
-1. In the **Additional information** window, **.NET Core 3.1** should already be selected for your target framework. If not, select **.NET Core 3.1**. Then, choose **Create**.
-
-   :::image type="content" source="./media/vs-2019/wpf-target-framework.png" alt-text="Screenshot that shows the Additional information window in Visual Studio with .NET Core 3.1 selected for the new project." lightbox="./media/vs-2019/wpf-target-framework.png":::
-
-Visual Studio creates the HelloWPFApp project and solution. **Solution Explorer** shows the various files. The **WPF Designer** shows a design view and a XAML view of `MainWindow.xaml` in a split view. You can slide the splitter to show more or less of either view. You can choose to see only the visual view or only the XAML view.
-
-:::image type="content" source="media/exploreide-wpfproject-cs.png " alt-text="Screenshot of the project and solution showing Solution Explorer and the XAML and designer views of MainWindow.xaml.":::
-
-> [!NOTE]
-> For more information about XAML, see the [XAML overview for WPF](/dotnet/framework/wpf/advanced/xaml-overview-wpf) page.
-
-After you create the project, you can customize it. To do so, choose **Properties Window** from the **View** menu, or press **F4**. You can display and change options for project items, controls, and other items in an application.
-
-:::image type="content" source="../media/exploreide-hellowpfappfiles.png" alt-text="Screenshot of the Solution Explorer window showing the Properties, References, and files in the HelloWPF app.":::
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
@@ -121,29 +89,6 @@ In this tutorial, you add three types of controls to this application: a <xref:S
 
 Follow these steps to add a TextBlock.
 
-::: moniker range="<=vs-2019"
-
-1. Select **Ctrl**+**Q** to activate the search box and type **Toolbox**. Choose **View > Toolbox** from the results list.
-
-1. In the **Toolbox**, expand the **Common WPF Controls** node to see the TextBlock control.
-
-   :::image type="content" source="../media/exploreide-textblocktoolbox.png" alt-text="Screenshot of the Toolbox window with the TextBlock control selected in the list of Common WPF Controls.":::
-
-1. Add a TextBlock control to the design surface. Choose the **TextBlock** item and drag it to the window on the design surface. Center the control near the top of the window. In Visual Studio 2019 and later, you can use the guidelines to center the control.
-
-   Your window should resemble this illustration:
-
-   :::image type="content" source="media/explore-ide-window-with-textblock-only.png" alt-text="Screenshot of the TextBlock control on the design surface of the MainWindow form.":::
-
-   The XAML markup should look like this example:
-
-   ```xaml
-   <Grid>
-       <TextBlock HorizontalAlignment="Left" Margin="387,60,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
-   </Grid>
-   ```
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
@@ -189,25 +134,6 @@ You can change what text the TextBlock displays.
 
 Next, add two [RadioButton](/dotnet/framework/wpf/controls/radiobutton) controls to the form.
 
-::: moniker range="<=vs-2019"
-
-1. In the **Toolbox**, find the **RadioButton** control.
-
-   :::image type="content" source="../media/exploreide-radiobuttontoolbox.png" alt-text="Screenshot of the Toolbox window with the RadioButton control selected in the list of Common WPF Controls.":::
-
-1. Add two RadioButton controls to the design surface. Choose the **RadioButton** item and drag it to the window on the design surface. Move the buttons by selecting them and using the arrow keys. Arrange them so that the buttons appear side by side under the TextBlock control. Use the guidelines to align the controls.
-
-   Your window should look like this:
-
-   :::image type="content" source="media/explore-ide-window-with-radio-buttons.png" alt-text="Screenshot of the Design window for MainWindow.xaml, showing a TextBlock and two RadioButton controls on the design surface.":::
-
-1. In the **Properties** window for the left RadioButton control, at the top, change the **Name** property to `HelloButton`.
-
-   :::image type="content" source="../media/exploreide-buttonproperties.png" alt-text="Screenshot of the Properties window for a RadioButton control with the value of the Name property changed to HelloButton.":::
-
-1. In the **Properties** window for the right RadioButton control, change the **Name** property to `GoodbyeButton`, and then save your changes.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
@@ -265,28 +191,6 @@ In this step, set HelloButton to be checked by default so that one of the two ra
 
 The final UI element that you add is a [Button](/dotnet/framework/wpf/controls/button) control.
 
-::: moniker range="<=vs-2019"
-
-1. In the **Toolbox**, find the **Button** control. Add it to the design surface under the RadioButton controls by dragging it to the form in the design view. A guideline helps you center the control.
-
-1. In the XAML view, change the value of **Content** for the Button control from `Content="Button"` to `Content="Display"`, and then save the changes.
-
-   Your window should resemble this illustration.
-
-   :::image type="content" source="media/explore-ide-window-with-control-labels-cs.png" alt-text="Screenshot of the Design window with a TextBlock, Hello and Goodbye RadioButton controls, and a Display button.":::
-
-   The XAML markup should now look similar to this example:
-
-   ```xaml
-   <Grid>
-        <TextBlock HorizontalAlignment="Left" Margin="252,47,0,0" TextWrapping="Wrap" Text="Select a message option and then choose the Display button." VerticalAlignment="Top"/>
-        <RadioButton x:Name="HelloButton" Content="Hello" IsChecked="True" HorizontalAlignment="Left" Margin="297,161,0,0" VerticalAlignment="Top"/>
-        <RadioButton x:Name="GoodbyeButton" Content="Goodbye" HorizontalAlignment="Left" Margin="488,161,0,0" VerticalAlignment="Top"/>
-        <Button Content="Display" HorizontalAlignment="Left" Margin="377,270,0,0" VerticalAlignment="Top" Width="75"/>
-   </Grid>
-   ```
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
@@ -313,37 +217,6 @@ The final UI element that you add is a [Button](/dotnet/framework/wpf/controls/b
 
 ### Add code to the display button
 
-::: moniker range="<=vs-2019"
-
-When this application runs, a message box appears after a user chooses a radio button and then chooses the **Display** button. One message box appears for Hello, and another appears for Goodbye. To create this behavior, you add code to the `Button_Click` event in *MainWindow.xaml.cs*.
-
-1. On the design surface, double-click the **Display** button.
-
-   *MainWindow.xaml.cs* opens, with the cursor in the `Button_Click` event.
-
-   ```csharp
-   private void Button_Click(object sender, RoutedEventArgs e)
-   {
-
-   }
-   ```
-
-1. Inside the braces, add the following code:
-
-   ```csharp
-   if (HelloButton.IsChecked == true)
-   {
-        MessageBox.Show("Hello.");
-   }
-   else if (GoodbyeButton.IsChecked == true)
-   {
-       MessageBox.Show("Goodbye.");
-   }
-   ```
-
-1. Save the application.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
@@ -404,19 +277,6 @@ In this step, you find the error that was caused earlier by changing the name of
 
 #### Start debugging and find the error
 
-::: moniker range="<=vs-2019"
-
-1. Start the debugger by selecting **F5** or selecting **Debug**, then **Start Debugging**.
-
-   A **Break Mode** window appears. The **Output** window indicates that an IOException occurred: *Cannot locate resource mainwindow.xaml*.
-
-   :::image type="content" source="../media/exploreide-ioexception.png" alt-text="Screenshot of the Output window showing a System.IO.IOException with the message, Cannot locate resource mainwindow.xaml.":::
-
-1. Stop the debugger by choosing **Debug** > **Stop Debugging**.
-
-You renamed `MainWindow.xaml` to *Greetings.xaml*, but the code still refers to `MainWindow.xaml` as the startup URI for the application, so the project can't start.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
@@ -446,9 +306,6 @@ As an optional step, it avoids confusion to change the title of your application
 
 Start the debugger again (press **F5**). You should now see the **Greetings** window of your application.
 
-::: moniker range="vs-2019"
-:::image type="content" source="media/vs-2019/exploreide-wpf-running-app.png" alt-text="Screenshot of the Greetings window with the TextBlock, RadioButtons, and Button controls visible and 'Hello' selected." lightbox="media/vs-2019/exploreide-wpf-running-app.png":::
-::: moniker-end
 ::: moniker range=">=vs-2022"
 
 :::image type="content" source="media/vs-2022/explore-ide-wpf-running-app.png" alt-text="Screenshot of the Greetings window with the TextBlock, RadioButtons, and Button controls visible and 'Hello' selected.":::
@@ -463,41 +320,6 @@ You can test the code during debugging by adding some breakpoints. You can add b
 
 #### Add breakpoints
 
-::: moniker range="vs-2019"
-
-1. Open *Greetings.xaml.cs*, and select this line: `MessageBox.Show("Hello.")`
-
-1. Add a breakpoint from the menu by selecting **Debug**, then **Toggle Breakpoint**.
-
-   A red circle appears next to the line of code in the far left margin of the editor window.
-
-1. Select this line: `MessageBox.Show("Goodbye.")`.
-
-1. Press the **F9** key to add a breakpoint, and then select **F5** to start debugging.
-
-1. In the **Greetings** window, choose the **Hello** radio button, and then choose the **Display** button.
-
-   The line `MessageBox.Show("Hello.")` is highlighted in yellow. At the bottom of the IDE, the Autos, Locals, and Watch windows are docked together on the left side. The **Call Stack**, **Breakpoints**, **Exception Settings**, **Command**, **Immediate**, and **Output** windows are docked together on the right side.
-
-   :::image type="content" source="media/exploreide-debugbreakpoint.png" alt-text="Screenshot of a debug session, with the code window showing execution stopped at a breakpoint highlighted in yellow." lightbox="media/exploreide-debugbreakpoint.png":::
-
-1. On the menu bar, choose **Debug** > **Step Out**.
-
-   The application resumes execution, and a message box with the word "Hello" appears.
-
-1. Choose **OK** on the message box to close it.
-
-1. In the **Greetings** window, choose the **Goodbye** radio button, and then choose the **Display** button.
-
-   The line `MessageBox.Show("Goodbye.")` is highlighted in yellow.
-
-1. Choose the **F5** key to continue debugging. When the message box appears, choose **OK** on the message box to close it.
-
-1. To stop debugging, close the application window.
-
-1. On the menu bar, choose **Debug** > **Disable All Breakpoints**.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
@@ -539,9 +361,6 @@ You can test the code during debugging by adding some breakpoints. You can add b
 
 In the running app, you should see a widget that appears at the top of your window. The widget is a runtime helper that provides quick access to some helpful debugging features. Select the first button, **Go to Live Visual Tree**. You should see a window with a tree that contains all the visual elements of your page. Expand the nodes to find the buttons you added.
 
-::: moniker range="vs-2019"
-:::image type="content" source="media/vs-2019/exploreide-live-visual-tree.png" alt-text="Screenshot of the Live Visual Tree window, showing the tree of visual elements in the page while it's running.":::
-::: moniker-end
 ::: moniker range=">=vs-2022"
 
 :::image type="content" source="media/vs-2022/explore-ide-live-visual-tree.png" alt-text="Screenshot of the Live Visual Tree window, showing the tree of visual elements in HelloWPFApp.exe while it's running.":::

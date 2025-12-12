@@ -356,12 +356,6 @@ Maffei 1, 11,  ConsoleApp_FirstApp.GType
    :::image type="content" source="../debugger/media/vs-2022/beginners-edit.png" alt-text="Screenshot of the Visual Studio Debugger with a line of code highlighted in red and a message box with the Edit option selected.":::
    ::: moniker-end
 
-   ::: moniker range="<= vs-2019"
-
-   The Edit and Continue dialog box appears, indicating that edits can't be compiled.
-
-   :::image type="content" source="../debugger/media/beginners-edit.png" alt-text="Screenshot of the Visual Studio Debugger with a line of code highlighted in red and a message box with the Edit option selected.":::
-   ::: moniker-end
 
    > [!NOTE]
    > For debugging the Visual Basic example code, skip the next few steps until you're instructed to click the **Restart** :::image type="content" source="../debugger/media/dbg-tour-restart.png" alt-text="Icon showing Restart app button in Debug toolbar."::: button.

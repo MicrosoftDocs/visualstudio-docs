@@ -37,13 +37,6 @@ If you install the [Build Tools for Visual Studio](https://visualstudio.microsof
 
 The relevant registry key and settings are as follows:
 
-::: moniker range="vs-2019"
-
-- On a 64-bit OS, Key = **HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VSCommon\16.0\SQM**
-- On a 32-bit OS, Key = **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VSCommon\16.0\SQM**
-- When Group Policy is enabled, Key = **HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\VisualStudio\SQM**
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 

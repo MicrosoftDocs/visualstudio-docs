@@ -18,11 +18,6 @@ While debugging, you can manually move the execution pointer to change the next 
 
 When the debugger is paused, a yellow arrow in the margin of the source code or **Disassembly** window marks the location of the statement that will run next. You can change the next statement that will run by moving this arrow. You can skip over code or return to a previous line.
 
- ::: moniker range="<=vs-2019"
-
- ![Animation that shows how to move the pointer.](../debugger/media/vs-2019/dbg-basics-example3.gif)
-
- ::: moniker-end
 
  ::: moniker range=">=vs-2022"
 

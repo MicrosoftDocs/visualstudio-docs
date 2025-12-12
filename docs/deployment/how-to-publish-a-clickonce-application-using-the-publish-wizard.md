@@ -106,17 +106,7 @@ When you enable user installation from a CD-ROM or DVD-ROM, you can configure th
 1. To apply the change, select **OK**.
 
 ::: moniker-end
-::: moniker range="vs-2019"
 
-1. In the **Project Designer**, select the **Publish** tab.
-
-1. Select **Options**, which opens the **Publish Options** wizard.
-
-1. Select the **For CD installations, automatically start Setup when CD is inserted** option.
-
-1. To apply the change, select **OK**.
-
-::: moniker-end
 
 ## Related content
 

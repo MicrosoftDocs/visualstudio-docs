@@ -36,10 +36,6 @@ WPF is part of .NET, so if you have previously built applications with .NET usin
 
 ## Prerequisites
 
-::: moniker range="vs-2019"
-You need Visual Studio to complete this tutorial.
-Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/vs/) for a free version.
-::: moniker-end
 ::: moniker range=">=vs-2022"
 You need Visual Studio to complete this tutorial.
 Visit the [Visual Studio downloads page](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) for a free version.
@@ -50,22 +46,6 @@ Visit the [Visual Studio downloads page](https://aka.ms/vs/download/?cid=learn-o
 When you create an application in Visual Studio, you first create a project.
 In this tutorial, create a Windows Presentation Foundation project.
 
-::: moniker range="vs-2019"
-1. Open Visual Studio.
-
-1. On the **Create a new project** screen, search for "WPF", and select **WPF App (.NET Framework)**. Select **Next**.
-
-   ![Screenshot of the Create a new project dialog with W P F entered in the search box and the W P F App (.NET Framework) project template selected.](media/tutorial-wpf/visual-studio-create-wpf-project.png)
-
-1. Give the project a name, *HelloWPFApp*, and select **Create**.
-
-   Visual Studio creates the HelloWPFApp project and solution.
-   **Solution Explorer** shows the various files.
-
-   ![Screenshot shows Solution Explorer with Hello W P F App files.](media/tutorial-wpf/solution-explorer.png)
-
-The **WPF Designer** shows a design view and a XAML view of *MainWindow.xaml* in a split view.
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 1. Open Visual Studio.
@@ -215,12 +195,7 @@ To see how this process works, the first step deliberately introduces an error i
 1. Start the debugger by pressing **F5** or selecting **Debug**, then **Start Debugging**.
 
    A **Break Mode** window appears, and the **Output** window indicates that an exception has occurred.
-    
-   ::: moniker range="vs-2019"
 
-      :::image type="content" source="media/tutorial-wpf/exception-unhandled.png" alt-text="Screenshot showing the 'Exception Unhandled' window with a System.IO.Exception message that reads 'Cannot locate resource mainwindow.xaml'.":::
-
-   ::: moniker-end
 
    ::: moniker range=">=vs-2022"
 
@@ -239,11 +214,6 @@ To see how this process works, the first step deliberately introduces an error i
 
 1. Start the debugger again (press **F5**). You should now see the **Greetings** window of your application.
 
-   ::: moniker range="vs-2019"
-
-   ![Screenshot of the Greetings window with the TextBlock, RadioButtons, and Button controls visible. The 'Hello' radio button is selected.](media/vs-2019/exploreide-wpf-running-app.png)
-
-   ::: moniker-end
 
    ::: moniker range=">=vs-2022"
 
@@ -319,10 +289,6 @@ Advance to the next article to learn how to create a Windows Forms app in Visual
 
 For more information about Visual Studio, see these resources:
 
-::: moniker range="vs-2019"
-- [What's new in Visual Studio 2019](../../ide/whats-new-visual-studio-2019.md)
-- [Productivity tips](../../ide/productivity-features.md)
-::: moniker-end
 ::: moniker range=">=vs-2022"
 - [Productivity tips](../../ide/productivity-features.md)
 ::: moniker-end
