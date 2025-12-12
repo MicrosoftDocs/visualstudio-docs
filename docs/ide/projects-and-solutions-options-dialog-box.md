@@ -81,9 +81,9 @@ When selected, Solution Explorer displays the symbols under files.
 
 Use these options to control how Visual Studio loads solutions and related documents.
 
-### Allow parallel project initialization
-
 :::moniker range="<=vs-2022"
+
+### Allow parallel project initialization
 
 When selected, Visual Studio loads large .NET solutions faster when you reload the same solution. For more information, see the "*Parallel project load*" section of the [Load solutions faster](https://devblogs.microsoft.com/visualstudio/load-solutions-faster-with-visual-studio-2017-version-15-6/) blog post.
 
