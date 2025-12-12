@@ -11,7 +11,7 @@ helpviewer_keywords:
 author: MSLukeWest
 ms.author: lukewest
 manager: MSLukeWest
-monikerRange: '>= vs-2019'
+monikerRange: '>= vs-2022'
 ---
 # Visual Studio Installer Projects Extension and .NET
 

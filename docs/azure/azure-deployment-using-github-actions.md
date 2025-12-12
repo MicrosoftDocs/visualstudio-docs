@@ -10,7 +10,7 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: deployment
-monikerRange: '>= vs-2019'
+monikerRange: '>= vs-2022'
 ms.custom: sfi-image-nochange
 ---
 
