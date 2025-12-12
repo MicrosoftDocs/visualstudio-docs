@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "Developer PowerShell"
   - "Visual Studio terminal"
 no-loc: cmdlet
-monikerRange: ">=vs-2019"
+monikerRange: ">=vs-2022"
 ms.subservice: general-ide
 ---
 # Visual Studio Developer Command Prompt and Developer PowerShell

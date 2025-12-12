@@ -15,8 +15,7 @@
         "group": "vs-2015"
       },
       {
-        "files": [
-        ],
+        "files": [],
         "exclude": [
           "**/*.md",
           "**/*.yml",
@@ -39,7 +38,7 @@
           "vs-2015/**"
         ],
         "src": "./",
-        "group": "vs-2019-"
+        "group": "vs-2022-"
       }
     ],
     "resource": [
@@ -87,7 +86,7 @@
           "vs-2015/**"
         ],
         "src": "./",
-        "group": "vs-2019-"
+        "group": "vs-2022-"
       }
     ],
     "overwrite": [],
@@ -95,7 +94,7 @@
     "globalMetadata": {
       "feedback_system": "Standard",
       "feedback_help_link_url": "https://developercommunity.microsoft.com/VisualStudio",
-      "feedback_help_link_type": "ask-the-community",      
+      "feedback_help_link_type": "ask-the-community",
       "feedback_product_url": "https://developercommunity.visualstudio.com/VisualStudio/suggest",
       "breadcrumb_path": "/visualstudio/_breadcrumb/toc.json",
       "zone_pivot_group_filename": "zone-pivot-groups.json",
@@ -168,12 +167,12 @@
           "vs-2017"
         ],
         "**/*.md": [
-          "vs-2017"
+          "vs-2017",
+          "vs-2019"
         ]
       }
     },
     "template": [],
-    "dest": "vsdocsdocs",
     "markdownEngineName": "markdig",
     "xref": [],
     "groups": {
@@ -185,10 +184,11 @@
         "dest": "vs-2017-dest",
         "moniker_range": "vs-2017"
       },
-      "vs-2019-": {
-        "dest": "vs-2019-dest",
-        "moniker_range": ">= vs-2019"
+      "vs-2022-": {
+        "dest": "vs-2022-dest",
+        "moniker_range": ">= vs-2022"
       }
-    }
+    },
+    "dest": "vsdocsdocs"
   }
 }

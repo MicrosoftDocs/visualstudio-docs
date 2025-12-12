@@ -37,7 +37,7 @@
       "locale": "en-us",
       "monikers": [],
       "moniker_ranges": [
-        ">= vs-2019"
+        ">= vs-2022"
       ],
       "xref_query_tags": [
         "/dotnet",

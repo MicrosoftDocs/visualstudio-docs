@@ -225,7 +225,7 @@ You can break execution when a function is called. This is useful, for example, 
    ((my_class *) 0xcccccccc)->my_method
    ```
 ::: zone-end
-::: moniker range=">= vs-2019"
+::: moniker range=">= vs-2022"
 
 ::: zone pivot="programming-language-dotnet"
 ## <a name="BKMK_set_a_data_breakpoint_managed"></a>Set data breakpoints (.NET Core 3.x or .NET 5+)

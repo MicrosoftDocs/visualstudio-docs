@@ -7,7 +7,7 @@ author: cwebster-99
 ms.author: cowebster
 manager: mijacobs
 ms.subservice: python
-monikerRange: ">= vs-2019"
+monikerRange: ">= vs-2022"
 
 # CustomerIntent: As a developer, I want to open and run Python code from a folder in Visual Studio without having to use a project for the code.
 ---

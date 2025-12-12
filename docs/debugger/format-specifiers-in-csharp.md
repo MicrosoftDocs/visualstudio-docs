@@ -46,7 +46,7 @@ Add the `my_var1` variable to the **Watch** window while debugging, **Debug** > 
 
 ![Screenshot of the Visual Studio Watch window with one line that shows my_var1, d with a value of 101 and a type of int.](../debugger/media/watchformatcsharp.png)
 
-::: moniker range=">= vs-2019" 
+::: moniker range=">= vs-2022" 
 
 You can view and select from a list of available format specifiers by appending a comma (,) to the value in the **Watch** window. 
 
