@@ -21,7 +21,7 @@ monikerRange: ">=vs-2019"
 ---
 # Configure advanced Text Editor options
 
-This article shows you how to configure advanced settings for the Visual Studio Code and text editor. You can customize difference display modes, code completion behavior, scrolling sensitivity, and text formatting. The advanced editor features allow you to improve your editing experience and performance.
+This article shows you how to configure advanced settings for the Visual Studio editor. You can customize difference display modes, code completion behavior, scrolling sensitivity, and text formatting. The advanced editor features allow you to improve your editing experience and performance.
 
 ::: moniker range="visualstudio"
 
