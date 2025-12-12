@@ -2,7 +2,7 @@
 title: Uninstall or Remove Visual Studio
 titleSuffix: ''
 description: Uninstall or remove your installation of Visual Studio along with its integrated suite of productivity tools for developers.
-ms.date: 09/09/2025
+ms.date: 11/26/2025
 ms.custom: vs-acquisition
 ms.topic: how-to
 f1_keywords:
@@ -29,7 +29,7 @@ This article walks you through uninstalling Visual Studio, the integrated suite 
 You can use Visual Studio Installer to uninstall versions of Visual Studio.
 
 
-::: moniker range=">=vs-2022"
+::: moniker range="vs-2022"
 
 1. Find the Visual Studio Installer on your computer.
 
@@ -51,6 +51,33 @@ You can use Visual Studio Installer to uninstall versions of Visual Studio.
 1. Select **OK** to confirm your choice.
 
    :::image type="content" source="media/vs-2022/uninstall-visualstudio-confirm.png" alt-text="Screenshot that shows the dialog to confirm that you want to uninstall Visual Studio 2022.":::
+
+If you change your mind later and want to reinstall Visual Studio, start the Visual Studio Installer again, select the **Available** tab,  choose the edition of Visual Studio that you want to install, and then select **Install**.
+
+::: moniker-end
+
+::: moniker range="visualstudio"
+
+1. Find the Visual Studio Installer on your computer.
+
+   On the Windows Start menu, you can search for *installer*.
+
+   :::image type="content" source="media/vs-2019/visual-studio-installer.png" alt-text="Screenshot that shows the Visual Studio Installer on the Start menu.":::
+
+   > [!NOTE]
+   > You can also find the Visual Studio Installer in the following location:
+   >
+   > *C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe*
+
+   You might have to update the installer before you continue. If you do, follow the prompts.
+
+1. In the installer, look for the edition of Visual Studio that you installed. Next, select **More**, and then select **Uninstall**.
+
+   :::image type="content" source="media/visualstudio/vs-installer-uninstall.png" alt-text="Screenshot that shows how to uninstall Visual Studio by using the Visual Studio Installer.":::
+
+1. Select **OK** to confirm your choice.
+
+   :::image type="content" source="media/visualstudio/uninstall-visualstudio-confirm.png" alt-text="Screenshot that shows the dialog to confirm that you want to uninstall Visual Studio.":::
 
 If you change your mind later and want to reinstall Visual Studio, start the Visual Studio Installer again, select the **Available** tab,  choose the edition of Visual Studio that you want to install, and then select **Install**.
 
