@@ -24,12 +24,7 @@ ms.subservice: debug-diagnostics
 You can use Hot Reload, previously called Edit and Continue, in C++ projects. For information about the limitations of the feature, see [Supported Code Changes (C++)](../debugger/supported-code-changes-cpp.md).
 
 ::: moniker-end
-::: moniker range="vs-2019"
 
-You can use Edit and Continue in C++ projects. For more information about the limitations of Edit and Continue, see [Supported Code Changes (C++)](../debugger/supported-code-changes-cpp.md).
-
-
-::: moniker-end
 
 The [/Zo (Enhance Optimized Debugging)](/cpp/build/reference/zo-enhance-optimized-debugging) compiler option adds additional information to .pdb (symbol) files for binaries compiled without the [/Od (Disable (Debug))](/cpp/build/reference/od-disable-debug) option.
 
@@ -83,26 +78,7 @@ You might want to disable the automatic invocation of Hot Reload if you're makin
 4. Select **OK**.
 
 ::: moniker-end
-::: moniker range="<=vs-2019"
 
-## <a name="BKMK_Enable_or_disable_automatic_invocation_of_Edit_and_Continue"></a> Enable or disable Edit and Continue
-
-You might want to disable the automatic invocation of Edit and Continue if you're making edits to the code that you don't want applied during the current debugging session. You can re-enable automatic Edit and Continue as needed.
-
-> [!IMPORTANT]
-> For required build settings and other information about feature compatibility, see [C++ Edit and Continue in Visual Studio 2015 Update 3](https://devblogs.microsoft.com/cppblog/c-edit-and-continue-in-visual-studio-2015-update-3/).
-
-1. If you're currently in a debugging session, stop debugging (**Shift** + **F5**).
-
-1. Open the **Tools** > **Options** dialog, and expand the **Debugging** > **General** section.
-
-1. To enable Edit and Continue, select the **Enable Edit and Continue** checkbox. To disable the option, clear the checkbox.
-
-1. In the **Edit and Continue** group, select or clear the **Enable Native Edit and Continue** checkbox.
-
-   Altering this setting affects all projects you work on. You don't need to rebuild your application after changing this setting. If you build your application from the command line or from a makefile, but you debug in the Visual Studio environment, you can still use Edit and Continue if you set the `/ZI` option.
-
-::: moniker-end
 
 ## <a name="BKMK_How_to_apply_code_changes_explicitly"></a> Apply code changes explicitly
 

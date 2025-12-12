@@ -59,9 +59,3 @@ In the **Tools** > **Options** dialog, expand the **Debugging** > **General** se
 
 If you're using Resharper, see this [issue](https://youtrack.jetbrains.com/issue/RSRP-476824) for suggestions.
 
-::: moniker range="vs-2019"
-
-## Solution #5: Enable managed compatibility mode
-
-If you switch to the legacy debugging engine, you might be able to eliminate this error. Go to **Tools** > **Options**, and select the setting **Debugging** > **General** > **Use managed compatibility mode**. For more information, see [General debugging options](../debugger/general-debugging-options-dialog-box.md).
-::: moniker-end

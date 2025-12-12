@@ -69,11 +69,7 @@ These actions trigger Visual Studio to generate boilerplate code that displays t
 :::image type="content" source="./media/vs-2022/data-sources-drag-operation.png" border="false" alt-text="Screenshot that shows how to drag a dataset onto a Windows form in Visual Studio 2022.":::
 
 :::moniker-end
-:::moniker range="<=vs-2019"
 
-:::image type="content" source="./media/raddata-data-source-drag-operation.png" alt-text="Screenshot that shows how to drag a dataset onto a Windows form in Visual Studio 2019 and earlier.":::
-
-:::moniker-end
 
 ## Create data source from database or database file
 

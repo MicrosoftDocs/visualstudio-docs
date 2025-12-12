@@ -10,9 +10,6 @@ ms.topic: how-to
 
 # Customize container images for debugging
 
-::: moniker range="vs-2019"
-This article describes how you can customize your Docker containers for debugging.
-::: moniker-end
 
 ::: moniker range="vs-2022"
 This article describes how you can customize your Docker containers when you choose the Dockerfile container build type. If you are using the .NET SDK build type, the customization options are different, and most of the information in this section isn't applicable. Instead, see [Containerize a .NET app with dotnet publish](/dotnet/core/docker/publish-as-container?pivots=dotnet-8-0).
@@ -39,14 +36,6 @@ This article describes how you can customize your containers when you choose the
 
 :::moniker-end
 
-::: moniker range="vs-2019"
-
-## Prerequisites
-
-- [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
-- [Visual Studio 2019 or later](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, **.NET desktop development**, and/or **.NET Core cross-platform development** workload installed.
-
-:::moniker-end
 
 ## Fast Mode optimizations
 
@@ -147,35 +136,7 @@ ENTRYPOINT ["dotnet", "WebApplication3.dll"]
 ```
 
 :::moniker-end
-:::moniker range="vs-2019"
 
-```dockerfile
-FROM mcr.microsoft.com/dotnet/aspnet:3.1 AS base
-WORKDIR /app
-EXPOSE 80
-EXPOSE 443
-# <add your commands here>
-
-FROM mcr.microsoft.com/dotnet/sdk:3.1 AS build
-WORKDIR /src
-COPY ["WebApplication3/WebApplication3.csproj", "WebApplication3/"]
-RUN dotnet restore "WebApplication3/WebApplication3.csproj"
-COPY . .
-WORKDIR "/src/WebApplication3"
-RUN dotnet build "WebApplication3.csproj" -c Release -o /app/build
-
-# This stage is used to publish the service project to be copied to the final stage
-FROM build AS publish
-RUN dotnet publish "WebApplication3.csproj" -c Release -o /app/publish
-
-# This stage is used in production or when running from VS in regular mode (Default when not using the Debug configuration)
-FROM base AS final
-WORKDIR /app
-COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "WebApplication3.dll"]
-```
-
-:::moniker-end
 
 ## Modify container image only for debugging
 
@@ -230,37 +191,7 @@ ENTRYPOINT ["dotnet", "WebApplication1.dll"]
 ```
 
 :::moniker-end
-:::moniker range="vs-2019"
 
-```dockerfile
-#See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images for faster debugging.
-
-FROM mcr.microsoft.com/dotnet/aspnet:3.1 AS base
-WORKDIR /app
-EXPOSE 80
-EXPOSE 443
-
-FROM base AS debug
-RUN tdnf install procps-ng -y
-
-FROM mcr.microsoft.com/dotnet/sdk:3.1 AS build
-WORKDIR /src
-COPY ["WebApplication1/WebApplication1.csproj", "WebApplication1/"]
-RUN dotnet restore "WebApplication1/WebApplication1.csproj"
-COPY . .
-WORKDIR "/src/WebApplication1"
-RUN dotnet build "WebApplication1.csproj" -c Release -o /app/build
-
-FROM build AS publish
-RUN dotnet publish "WebApplication1.csproj" -c Release -o /app/publish
-
-FROM base AS final
-WORKDIR /app
-COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "WebApplication1.dll"]
-```
-
-:::moniker-end
 
 In the project file, add this setting to tell Visual Studio to use your custom stage `debug` when debugging.
 

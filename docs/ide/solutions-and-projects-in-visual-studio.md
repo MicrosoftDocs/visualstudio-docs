@@ -38,11 +38,6 @@ Project files are based on the [MSBuild XML schema](../msbuild/msbuild-project-f
 
 ::: moniker-end
 
-::: moniker range="=vs-2019"
-
-Project files are based on the [MSBuild XML schema](../msbuild/msbuild-project-file-schema-reference.md). To look at the contents of newer, [SDK-style project files](../msbuild/how-to-use-project-sdk.md) in Visual Studio, right-click the [project node](use-solution-explorer.md#solution-explorer-ui) in Solution Explorer and select **Edit \<projectname\>**. To look at the contents of .NET projects, first unload the project. (Right-click the project node in Solution Explorer and select **Unload Project**.) Then right-click the project and select **Edit \<projectname\>**.
-
-::: moniker-end
 
 > [!NOTE]
 > You don't have to use solutions or projects in Visual Studio to edit, build, and debug code. You can simply open the folder that contains your source files in Visual Studio and start editing. For more information, see [Develop code in Visual Studio without projects or solutions](develop-code-in-visual-studio-without-projects-or-solutions.md).
@@ -108,11 +103,6 @@ After you create a new project, you can use [Solution Explorer](use-solution-exp
 
 ::: moniker-end
 
-::: moniker range="=vs-2019"
-
-:::image type="content" source="../ide/media/vs-2019/solution-explorer-2019.png" alt-text="Screenshot of two projects in Solution Explorer.":::
-
-::: moniker-end
 
 The [toolbar](use-solution-explorer.md#solution-explorer-toolbar) across the top of Solution Explorer contains buttons to switch from a solution view to a folder view, filter pending changes, show all files, collapse all nodes, view [properties](managing-project-and-solution-properties.md) pages, preview code in the [code editor](writing-code-in-the-code-and-text-editor.md), and more.
 

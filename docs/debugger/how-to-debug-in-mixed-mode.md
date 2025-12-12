@@ -78,20 +78,7 @@ To enable mixed-mode debugging for a .NET calling app in C# or Visual Basic, fol
    1. To apply the property change, close the **Launch Profiles** dialog and the **Properties** pane.
 
    ::: moniker-end
-   ::: moniker range="<=vs-2019"
 
-   1. On the left menu, select **Debug**.
-   
-   1. In the **Debugger engines** section, select the **Enable native code debugging** property: 
-   
-      :::image type="content" source="../debugger/media/mixed-mode-enable-native-code-debugging.png" border="false" alt-text="Screenshot that shows how to enable mixed mode debugging for a C# or Visual Basic project in Visual Studio 2019.":::
-
-   1. To apply the property change, close the **Properties** pane.
-
-   > [!NOTE]
-   > For a .NET Core app in Visual Studio 2017 and Visual Studio 2019, you must use the *launchSettings.json* file instead of the project properties to enable mixed-mode debugging.
-
-   ::: moniker-end
 ::: zone-end
 
 ::: zone pivot="programming-language-dotnetf"

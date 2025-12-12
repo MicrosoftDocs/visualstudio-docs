@@ -39,9 +39,6 @@ Consider using a Debug configuration when you build the application. It's harder
 Make sure your project is configured to produce [portable PDBs](https://github.com/OmniSharp/omnisharp-vscode/wiki/Portable-PDBs) (which is the default setting), and make sure the PDBs are in the same location as the DLL. To configure this in Visual Studio, right-click the project, then choose **Properties** > **General** > **Debug symbols**.
 ::: moniker-end
 
-::: moniker range="vs-2019"
-Make sure your project is configured to produce [portable PDBs](https://github.com/OmniSharp/omnisharp-vscode/wiki/Portable-PDBs) (which is the default setting), and make sure the PDBs are in the same location as the DLL. To configure this in Visual Studio, right-click the project, then choose **Properties** > **Build** > **Advanced** > **Debugging Information**.
-::: moniker-end
 
 ## Build and deploy the application
 
@@ -76,9 +73,7 @@ When the application is running on the Linux machine, you're ready to attach the
    ::: moniker range=">=vs-2022"
    ![Screenshot of Attach to Linux process.](media/vs-2022/remote-debug-linux-over-ssh-attach.png)
    ::: moniker-end
-   ::: moniker range="vs-2019"
-   ![Screenshot of Attach to Linux process.](media/remote-debug-linux-over-ssh-attach.png)
-   ::: moniker-end
+
 
 1. Choose **Attach**.
 
@@ -91,9 +86,7 @@ When the application is running on the Linux machine, you're ready to attach the
    ::: moniker range=">=vs-2022"
    ![Screenshot of Hit a breakpoint.](media/vs-2022/remote-debug-linux-over-ssh-hit-breakpoint.png)
    ::: moniker-end
-   ::: moniker range="vs-2019"
-   ![Screenshot of Hit a breakpoint.](media/remote-debug-linux-over-ssh-hit-breakpoint.png)
-   ::: moniker-end
+
 
 ## Related content
 

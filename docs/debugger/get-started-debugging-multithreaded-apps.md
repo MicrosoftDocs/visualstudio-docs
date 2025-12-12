@@ -260,15 +260,7 @@ In the **Parallel Stacks** window, you can switch between a Threads view and (fo
     - Thread 31724 is waiting on a lock owned by Thread 20272.
     - The Main thread (left side) has stopped on [External Code], which you can view in detail if you choose **Show External Code**.
     ::: moniker-end
-    ::: moniker range="vs-2019"
-    ![Parallel Stacks Window](../debugger/media/dbg-multithreaded-parallel-stacks.png "ParallelStacksWindow")
 
-    In this example, from left to right we see this information for managed code:
-
-    - The Main thread (left side) has stopped on `Thread.Start`, where the stop point is identified by the thread marker icon ![Thread Marker](../debugger/media/dbg-thread-marker.png "ThreadMarker").
-    - Two threads have entered the `ServerClass.InstanceMethod`, one of which is the current thread (yellow arrow), while the other thread has stopped in `Thread.Sleep`.
-    - A new thread (on the right) is also starting but is stopped on `ThreadHelper.ThreadStart`.
-    ::: moniker-end
 
     > [!NOTE]
     > For more information on using the **Threads** view, see [Debug a deadlock using the Threads view](../debugger/how-to-use-the-threads-window.md).

@@ -127,11 +127,6 @@ The Entity Data Model for a WCF Data Services sometimes changes. When this happe
 
 ### To update a service reference
 
-:::moniker range="<=vs-2019"
-- In **Solution Explorer**, right-click the service reference, and then select **Update Service Reference**.
-
-     A progress dialog box displays while the reference is updated from its original location, and the service client is regenerated to reflect any changes in the metadata.
-:::moniker-end
 :::moniker range=">=vs-2022"
 
 For .NET Core projects, use the `dotnet-svcutil` tool. See [dotnet-svcutil](/dotnet/core/additional-tools/dotnet-svcutil-guide?tabs=dotnetsvcutil2x) for installation and instructions.

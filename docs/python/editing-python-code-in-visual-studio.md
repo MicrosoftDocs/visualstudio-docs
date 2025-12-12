@@ -128,11 +128,6 @@ Code coloring uses information from code analysis to color variables, statements
 
 :::image type="content" source="media/code-editing-code-coloring.png" alt-text="Screenshot that shows code and syntax coloring in the Visual Studio editor." border="false":::
 
-::: moniker range="<=vs-2019"
-To customize the colors, go to **Tools** > **Options** > **Environment** > **Fonts and Colors**. In the **Display items** list, modify the desired **Python** entries:
-
-:::image type="content" source="media/code-editing-customize-colors.png" alt-text="Screenshot that shows the Fonts and Colors options in Visual Studio." border="false":::
-::: moniker-end
 ## Insert code snippets
 
 Code snippets are fragments of code that can be inserted into your files by using a keyboard shortcut and selecting **Tab**. You can also use the **Edit** > **IntelliSense** > **Insert Snippet** and **Surround With** commands, select **Python**, and then select the desired snippet.

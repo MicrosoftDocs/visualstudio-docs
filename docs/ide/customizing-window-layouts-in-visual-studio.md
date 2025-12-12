@@ -90,11 +90,6 @@ The following screenshot shows the guide diamond for document windows, which can
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
-
-:::image type="content" source="media/vs-2019/document-window-guide-diamond.png" alt-text="Screenshot of the document window guide diamond.":::
-
-::: moniker-end
 
 You can fasten tool windows to one side of a frame in the IDE or within the editing frame. To help you easily redock the window, a guide diamond appears when you drag the window to another location.
 
@@ -225,13 +220,6 @@ You can manage your document tabs in a vertical list on either the left or right
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
-
-[New in Visual Studio 2019 version 16.4 and later](/visualstudio/releases/2019/release-notes-v16.4/). These versions support one of the top feature requests: [vertical document tabs](https://developercommunity.visualstudio.com/idea/467369/vertical-group-tab.html). You can manage your document tabs in a vertical list on either the left or right side of the editor.
-
-:::image type="content" source="./media/vs-2019/vertical-tabs.gif" alt-text="Animation that shows vertical document tabs.":::
-
-::: moniker-end
 
 You can apply vertical document tabs in the following ways:
 
@@ -249,13 +237,7 @@ You can apply vertical document tabs in the following ways:
 - Right-click a tab, select **Set Tab Layout**, and then select **Place Tabs on the Left**, **Place Tabs on the Top**, or **Place Tabs on the Right**. (To return the tabs to their default position, select **Place Tabs on the Top**.)
 
 ::: moniker-end
-::: moniker range="vs-2019"
 
-- Select **Tools** > **Options** > **Environment** > **Tabs and Windows**. Then, in the **Set tab layout** list, select **Top**, **Left**, or **Right**.
-
-- Right-click a tab, select **Set Tab Layout**, and then select either **Left** or **Right**. (To return the tabs to their default position, select **Top**.)
-
-::: moniker-end
 
 ### Color-code document tabs
 

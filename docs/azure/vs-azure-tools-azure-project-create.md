@@ -28,18 +28,12 @@ This section walks you through creating an Azure Cloud Services (extended suppor
 
 1. In the search box, type in *Cloud*, and then choose **Azure Cloud Services (extended support)**.
 
-   :::moniker range="<=vs-2019"
-   ![Screenshot showing how to create a new Azure Cloud Services (extended support) project.](./media/vs-azure-tools-azure-project-create/vs-2019/new-project-cloud-service.png)
-   :::moniker-end
    :::moniker range=">=vs-2022"
    ![Screenshot showing how to create a new Azure Cloud Services (extended support) project.](./media/vs-azure-tools-azure-project-create/vs-2022/new-project-cloud-service.png)
    :::moniker-end
 
 1. Give the project a name and choose **Create**.
 
-   :::moniker range="<=vs-2019"
-   ![Screenshot showing creating an Azure Cloud Services (extended support) project, and giving the project a name.](./media/vs-azure-tools-azure-project-create/vs-2019/new-project-cloud-service-2.png)
-   :::moniker-end
    :::moniker range=">=vs-2022"
    ![Screenshot showing creating an Azure Cloud Services (extended support) project, and giving the project a name.](./media/vs-azure-tools-azure-project-create/vs-2022/new-project-cloud-service-2.png)
    :::moniker-end

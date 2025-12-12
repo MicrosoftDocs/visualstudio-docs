@@ -43,11 +43,7 @@ As you develop a Flask application, you typically add many more Python, HTML, CS
    :::image type="content" source="media/flask/vs-2022/step-03-add-item-from-template.png" alt-text="Screenshot that shows the available templates on the Add New Item dialog in Visual Studio." border="false" lightbox="media/flask/vs-2022/step-03-add-item-from-template.png"::: 
 
    ::: moniker-end
-   ::: moniker range="<=vs-2019"
 
-   :::image type="content" source="media/flask/step-03-add-new-item-dialog.png" alt-text="Screenshot that shows the available templates on the Add New Item dialog in Visual Studio." lightbox="media/flask/step-03-add-new-item-dialog.png" border="false":::
-
-   ::: moniker-end
 
 1. To use a template, select the desired template, enter a name for the file, and select **Add**.
 

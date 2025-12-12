@@ -39,14 +39,6 @@ This article explains the Visual Studio build process for containerized apps in 
 
 :::moniker-end
 
-::: moniker range="vs-2019"
-
-## Prerequisites
-
-- [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
-- [Visual Studio 2019 or later](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, **.NET desktop development**, and/or **.NET Core cross-platform development** workload installed.
-
-:::moniker-end
 
 ## Dockerfile builds in Visual Studio
 
@@ -67,17 +59,6 @@ Multistage build is used for .NET Core projects, not .NET Framework projects.
 
 The multistage build allows container images to be created in stages that produce intermediate images. As an example, consider a typical Dockerfile. The first stage is called `base` in the Dockerfile that Visual Studio generates, although the tools don't require that name.
 
-:::moniker range="vs-2019"
-```Dockerfile
-# This stage is used when running from VS in fast mode (Default for Debug configuration)
-FROM mcr.microsoft.com/dotnet/aspnet:3.1 AS base
-WORKDIR /app
-EXPOSE 80
-EXPOSE 443
-```
-
-The lines in the Dockerfile begin with the ASP.NET image from Microsoft Container Registry (mcr.microsoft.com) and create an intermediate image `base` that exposes ports 80 and 443, and sets the working directory to `/app`.
-:::moniker-end
 
 :::moniker range=">=vs-2022"
 ```Dockerfile
@@ -138,16 +119,7 @@ The following table summarizes the stages used in the typical Dockerfile created
 > [!NOTE]
 > The `aotdebug` stage is only supported for Linux containers. It's used in Visual Studio 2022 17.11 and later if [native Ahead Of Time (AOT) deployment](/dotnet/core/deploying/native-aot) is enabled on the project.
 :::moniker-end
-:::moniker range="vs-2019"
 
-| Stage | Description |
-| - | - |
-| base | Creates the base runtime image where the built app is published. Settings that need to be available at runtime go here, such as ports and environment variables. This stage is used when running from VS in fast mode (Default for Debug configuration). |
-| build | The project is built in this stage. The .NET SDK base image is used, which has the components required to build your project. |
-| publish | This stage derives from the build stage and publishes your project, which is copied to the final stage. |
-| final | This stage configures how to start the app and is used in production or when running from VS in regular mode (Default when not using the Debug configuration). |
-
-:::moniker-end
 
 ## Project warmup
 

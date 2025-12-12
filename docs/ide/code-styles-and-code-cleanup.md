@@ -32,9 +32,6 @@ You can also configure Visual Studio to apply code style preferences using the *
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
-You can define code style settings per-project by using an [EditorConfig file](#code-styles-in-editorconfig-files), or for all code you edit in Visual Studio on the text editor [.NET Options page](#net-code-styles-in-the-options-dialog-box) or [C/C++ Options page](#cc-code-styles-in-the-options-dialog-box). For C# code, you can also configure Visual Studio to apply these code style preferences using the **Code Cleanup** (Visual Studio 2019) and **Format Document** (Visual Studio 2017) commands.
-::: moniker-end
 
 ::: zone pivot="programming-language-dotnet,programming-language-dotnetf"
 For .NET, the code style preferences are based on .NET compiler platform (Roslyn) analyzers. For more information, see [Code analysis using .NET compiler platform (Roslyn) analyzers](../code-quality/roslyn-analyzers-overview.md).
@@ -64,9 +61,6 @@ You can specify many individual code formatting options, such as indentation and
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
-You can specify many individual code formatting options, such as indentation and brace positions. To do so, go to **Tools** > **Options** > **Text Editor** > **C/C++** > **Formatting** (or type **Ctrl + Q** and search for "Formatting"). Alternatively, you can specify one of the [ClangFormat](https://clang.llvm.org/docs/ClangFormat.html) styles (or your own custom ClangFormat style).
-::: moniker-end
 
 For more information about all the formatting options, see [Options, Text Editor, C/C++, Formatting](/visualstudio/ide/reference/options-text-editor-c-cpp-formatting).
 ::: zone-end
@@ -83,19 +77,9 @@ Code style preferences can be set for all of your C# and Visual Basic projects b
 
 ::: moniker-end
 
-::: moniker range="<=vs-2019"
-
-Code style preferences can be set for all of your C# and Visual Basic projects by opening the **Options** dialog box from the **Tools** menu. In the **Options** dialog box, select **Text Editor** > [**C#** or  **Basic**] > **Code Style** > **General**.
-
-::: moniker-end
 
 Each item in the list shows a preview of the preference when you select the option:
 
-::: moniker range="vs-2019"
-
-![Screenshot of code style options.](media/vs-2019/code-style-quick-actions-dialog.png)
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
@@ -171,31 +155,6 @@ To apply code styles:
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
-
-For C# code files, Visual Studio has a **Code Cleanup** button at the bottom of the editor (keyboard: **Ctrl**+**K**, **Ctrl**+**E**) to apply code styles from an EditorConfig file or from the **Code Style** options page. If an EditorConfig file exists for the project, those are the settings that take precedence.
-
-> [!TIP]
-> Rules configured with a severity of **None** don't participate in code cleanup but can be individually applied via the **Quick Actions and Refactorings** menu.
-
-To apply code styles:
-
-1. First, configure which code styles you want to apply (in one of two profiles) in the **Configure Code Cleanup** dialog box. To open this dialog box, click the expander arrow next to the code cleanup broom icon and then choose **Configure Code Cleanup**.
-
-   ![Screenshot of Configure Code Cleanup.](media/vs-2019/configure-code-cleanup.png)
-
-1. After you've configured code cleanup, use one of the following methods to run code cleanup:
-
-   - Click on the broom icon or press **Ctrl**+**K**, **Ctrl**+**E** to run code cleanup.
-
-     ![Screenshot of Execute code cleanup.](media/vs-2019/execute-code-cleanup.png)
-
-   - To run code cleanup across your entire project or solution, right-click on the project or solution name in **Solution Explorer**, select **Analyze and Code Cleanup**, and then select **Run Code Cleanup**.
-
-     ![Screenshot of Run Code Cleanup across entire project or solution.](media/vs-2019/run-code-cleanup-project-solution.png)
-
-   If you want your code style settings to be applied every time you save a file, you may like the [Code Cleanup on Save](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.CodeCleanupOnSave) extension.
-::: moniker-end
 
 ::: zone pivot="programming-language-dotnet,programming-language-dotnetf"
 ## .NET code cleanup settings

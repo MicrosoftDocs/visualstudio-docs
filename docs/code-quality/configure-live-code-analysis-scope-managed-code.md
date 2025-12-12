@@ -64,13 +64,6 @@ Starting in Visual Studio 2019, you can explicitly customize the scope of all li
 
 ::: moniker-end
 
-::: moniker range="<=vs-2019"
-
-- **Current document:** Minimizes the live code analysis scope to execute only for the current or visible file in the editor.
-- **Open documents:** The live code analysis scope includes all open documents. This setting is the default.
-- **Entire solution:** Maximizes the live code analysis scope to execute for all files and projects in the entire solution.
-
-::: moniker-end
 
 You can choose one of the custom analysis scopes in **Options** by following these steps:
 
@@ -86,13 +79,6 @@ You can choose one of the custom analysis scopes in **Options** by following the
 
 ::: moniker-end
 
-::: moniker range="<=vs-2019"
-
-1. Select the background analysis scope under **Background analysis scope:**. Choose **OK** when you're done.
-
-   :::image type="content" source="media/vs-2019/background-analysis-scope.png" alt-text="Screenshot that shows the background code analysis scope options in Visual Studio.":::
-
-::: moniker-end
 
 > [!NOTE]
 > Prior to Visual Studio 2019, you customize the analysis scope for diagnostics computation to the entire solution by using the **Enable full solution analysis** checkbox from **Tools** > **Options** > **Text Editor** > **C#** (or **Visual Basic**) > **Advanced** tab. There is no support to minimize the background analysis scope in prior Visual Studio versions.

@@ -19,9 +19,7 @@ You can upgrade your test configuration file from *.testsettings* to *.runsettin
 ::: moniker range="vs-2022"
 `C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\Extensions\TestPlatform\SettingsMigrator.exe`
 ::: moniker-end
-::: moniker range="vs-2019"
-`C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\Extensions\TestPlatform\SettingsMigrator.exe`
-::: moniker-end
+
 
 In the correct directory location, you can run the tool with the format below:
 

@@ -25,14 +25,6 @@ Docker Hub provides a convenient hosting service for your image repositories. Yo
 
 :::moniker-end
 
-::: moniker range="vs-2019"
-
-## Prerequisites
-
-- [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
-- [Visual Studio 2019 or later](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, **.NET desktop development**, and/or **.NET Core cross-platform development** workload installed.
-
-:::moniker-end
 
 ## Create a Docker account and Docker Hub repository
 
@@ -44,27 +36,18 @@ If you don't have a Docker Hub repository, create one at [Docker Hub](https://hu
 
 1. Right-click on the project node and choose **Publish...**. A screen showing deployment options appears.
 
-   :::moniker range="vs-2019"
-   ![Screenshot of deployment options.](media/container-tools/vs-2019/docker-container-registry.png)
-   :::moniker-end
    :::moniker range=">=vs-2022"
    ![Screenshot of deployment options.](media/container-tools/vs-2022/docker-container-registry.png)
    :::moniker-end
 
 1. Choose **Docker Container Registry**, and then choose **Docker Hub**.
 
-   :::moniker range="vs-2019"
-   ![Screenshot of Publish dialog - choose Docker Hub.](media/deploy-docker-hub/container-tools-docker-hub-deploy.png)
-   :::moniker-end
    :::moniker range=">=vs-2022"
    ![Screenshot of Publish dialog - choose Docker Hub.](media/deploy-docker-hub/vs-2022/container-tools-docker-hub-deploy.png)
    :::moniker-end
 
 1. Enter your Docker credentials.
 
-   :::moniker range="vs-2019"
-   ![Screenshot of Docker Hub dialog.](media/deploy-docker-hub/container-tools-docker-hub-credentials.png)
-   :::moniker-end
    :::moniker range=">=vs-2022"
    ![Screenshot of Docker Hub dialog.](media/deploy-docker-hub/vs-2022/container-tools-docker-hub-credentials.png)
    :::moniker-end
@@ -73,9 +56,6 @@ If you don't have a Docker Hub repository, create one at [Docker Hub](https://hu
 
    Visual Studio attempts to deploy your image to the Docker Hub. If successful, the **Publish** screen appears with the URL for the repository image, the image tag, repository, and the build configuration (for example, **Release**).
 
-   :::moniker range="vs-2019"
-   ![Screenshot of Publish screen.](media/deploy-docker-hub/container-tools-docker-hub-finished.png)
-   :::moniker-end
    :::moniker range=">=vs-2022"
    :::image type="content" source="media/deploy-docker-hub/vs-2022/container-tools-docker-hub-finished.png" alt-text="Screenshot of Publish screen." lightbox="media/deploy-docker-hub/vs-2022/container-tools-docker-hub-finished.png":::
    :::moniker-end

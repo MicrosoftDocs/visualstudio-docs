@@ -23,11 +23,6 @@ You can change the fonts and the colors in Visual Studio in several ways. For ex
 
 ::: moniker-end
 
-::: moniker range="<=vs-2019"
-
-You can change the fonts and the colors in Visual Studio in many ways. For example, you can change the default blue color theme to the dark theme (also referred to as "dark mode"). You can also select an extra-contrast theme if that best suits your needs. And, you can change the default font and text size in both the IDE and the code editor.
-
-::: moniker-end
 
 ## Change the color theme
 
@@ -45,7 +40,7 @@ Here's how to change the color theme of the IDE frame and the tool windows in Vi
 
    :::image type="content" source="media/vs-2022/fonts-colors-theme.png" alt-text="Screenshot of the Options dialog box where you can change the color theme.":::
 
-Visual Studio remembers the color theme and other UI settings, and synchronizes them across all Visual Studio environments depending on your [account setup](signing-in-to-visual-studio.md#sign-in-to-your-account-1).
+Visual Studio remembers the color theme and other UI settings, and synchronizes them across all Visual Studio environments depending on your [account setup](signing-in-to-visual-studio.md#sign-in-to-your-account).
 With Visual Studio 2022 version 17.12, your [font settings are preserved across theme changes](#preserve-font-settings-across-theme-changes).
 
    > [!TIP]
@@ -55,25 +50,6 @@ If you download themes from the [Visual Studio Marketplace](https://marketplace.
 
 ::: moniker-end
 
-::: moniker range="<=vs-2019"
-
-1. On the menu bar, select **Tools** > **Options**.
-
-1. In the options list, select **Environment** > **General**.
-
-1. In the **Color theme** list, select either the default **Blue** theme, the **Light** theme, the **Dark** theme, or the **Blue (Extra Contrast)** theme.
-
-   ![Screenshot of the Options dialog box to change the color theme](media/fonts-colors-theme.png "Screenshot of the Options dialog box that you can use to change the color theme.")
-
-   > [!NOTE]
-   > When you change a color theme, text in the IDE reverts to the default or previously customized fonts and sizes for that theme.
-
-    > [!TIP]
-    > You can create and edit your own Visual Studio themes by using an extension. Choose from either of the following two options, depending on the version of Visual Studio you're using:
-    > - [Color Theme Designer for Visual Studio 2019](https://marketplace.visualstudio.com/items?itemName=ms-madsk.ColorThemeDesigner).
-    > - [Color Theme Editor for Visual Studio 2017](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.VisualStudio2017ColorThemeEditor)
-
-::: moniker-end
 
 ## Change fonts and text size
 
@@ -102,24 +78,6 @@ To learn more about setting default font settings for the user interface (UI) in
 
 ::: moniker-end
 
-::: moniker range="<=vs-2019"
-
-1. On the menu bar, select **Tools** > **Options**.
-
-1. In the options list, select **Environment** > **Fonts and Colors**.
-
-1. In the **Show settings for** list, select **Environment**.
-
-   ![Screenshot of the Options dialog box to change fonts and colors in the IDE](media/fonts-colors-environment.png "Screenshot of the Options dialog box to change fonts and colors in the IDE.")
-
-    > [!NOTE]
-    > If you want to change the font for tool windows only, in the **Show settings for** list, select **All Text Tool Windows**.
-
-1. Modify the **Font** and **Size** options to change the font and text size for the IDE.
-
-1. Select the appropriate item in **Display items**, and then modify the **Item foreground** and **Item background** options.
-
-::: moniker-end
 
 ### To change the font and text size in the editor
 
@@ -147,21 +105,6 @@ If you prefer to have font selections change with the theme, select **Tools** > 
 
 ::: moniker-end
 
-::: moniker range="<=vs-2019"
-
-1. On the menu bar, select **Tools** > **Options**.
-
-1. In the options list, select **Environment** > **Fonts and Colors**.
-
-1. In **Show settings for** list, select **Text Editor**.
-
-   ![Screenshot of the Options dialog box to change fonts and colors in the editor](media/fonts-colors-text-editor.png "Screenshot of the Options dialog box to change the fonts and colors in the editor.")
-
-1. Modify the **Font** and **Size** options to change the font and text size for the editor.
-
-1. Select the appropriate item in **Display items**, and then modify the **Item foreground** and **Item background** options.
-
-::: moniker-end
 
 Changes to font settings for Printer affect the appearance of text in printed documents. To modify the font for printing, in the **Show settings for** list, select **Printer and Cut/Copy**. If you're getting garbage characters when printing, please refer to the [Dev Community ticket ](https://developercommunity.visualstudio.com/t/Printing-problem-for-listings-Visual-Stu/10314328) on the issue.
 
@@ -204,11 +147,6 @@ Here's how to toggle between the Cascadia fonts:
 
 ::: moniker-end
 
-::: moniker range="<=vs-2019"
-
-There are color theme options for you if you experience low vision. You can use a high-contrast option for *all* the apps and UI on a computer, or an extra contrast option for Visual Studio only.
-
-::: moniker-end
 
 ### Use Windows high contrast
 

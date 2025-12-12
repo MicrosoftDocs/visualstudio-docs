@@ -27,17 +27,6 @@ This article describes the template file locations recognized by Visual Studio.
 
 By default, templates installed with Visual Studio are placed in the following locations:
 
-::: moniker range="vs-2019"
-
-- *%ProgramFiles(x86)%\\Microsoft Visual Studio\\2019\\\<edition>\\Common7\IDE\ProjectTemplates\\<Language\>\\<Locale ID\>*
-
-- *%ProgramFiles(x86)%\\Microsoft Visual Studio\\2019\\\<edition>\Common7\IDE\ItemTemplates\\<Language\>\\<Locale ID\>*
-
-For example, the following directory in a default installation of Visual Studio Community 2019 has the Visual Basic item templates for English (LCID 1033):
-
-*C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\ItemTemplates\\VisualBasic\\1033*
-
-::: moniker-end
 ::: moniker range="vs-2022"
 
 - *%ProgramFiles%\\Microsoft Visual Studio\\2022\\\<edition>\\Common7\IDE\ProjectTemplates\\<Language\>\\<Locale ID\>*
@@ -64,17 +53,6 @@ For example, the following directory in a default installation of Visual Studio 
 
 When you add a compressed (`.zip`) file that includes a `.vstemplate` file to the user template directory, Visual Studio makes the template available in the **New project** and **New item** dialogs. By default, user templates are placed in the following locations:
 
-::: moniker range="vs-2019"
-
-- *%USERPROFILE%\Documents\Visual Studio 2019\Templates\ProjectTemplates*
-
-- *%USERPROFILE%\Documents\Visual Studio 2019\Templates\ItemTemplates*
-
-For example, the following directory has user project templates for C#:
-
-- *C:\Users\UserName\Documents\Visual Studio 2019\Templates\ProjectTemplates\Visual C#*
-
-::: moniker-end
 
 ::: moniker range="vs-2022"
 
