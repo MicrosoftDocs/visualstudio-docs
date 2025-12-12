@@ -88,15 +88,6 @@ Use these options to control how Visual Studio loads solutions and related docum
 When selected, Visual Studio loads large .NET solutions faster when you reload the same solution. For more information, see the "*Parallel project load*" section of the [Load solutions faster](https://devblogs.microsoft.com/visualstudio/load-solutions-faster-with-visual-studio-2017-version-15-6/) blog post.
 
 :::moniker-end
-:::moniker range="visualstudio"
-
-In Visual Studio 2026, the **Allow parallel project initialization** option isn't available. However, you can allow parallel project builds by configuring the following options:
-
-- Under **All Settings** > **Preview features**, select the **Allow parallel project builds during batch build** checkbox.
-
-- Under **All Settings** > **Projects and Solution** > **Build and Run**, set the **Maximum number of parallel project builds** option to **2** or higher.
-
-:::moniker-end
 
 ### Reopen documents on solution load
 
