@@ -23,9 +23,6 @@ Each Roslyn analyzer rule, or *diagnostic*, has a default severity and suppressi
 You can configure the severity of analyzer rules in an [EditorConfig file](#set-rule-severity-in-an-editorconfig-file) and from the [light bulb menu](#set-rule-severity-from-the-light-bulb-menu).
 ::: moniker-end
 
-::: moniker range="vs-2019"
-In Visual Studio 2019 version 16.3 and later, you can configure the severity of analyzer rules in an [EditorConfig file](#set-rule-severity-in-an-editorconfig-file), from the [light bulb menu](#set-rule-severity-from-the-light-bulb-menu), and from the **Error List** window.
-::: moniker-end
 
 The following table shows the different severity options that you can configure for a diagnostic:
 
@@ -62,13 +59,6 @@ You can set the rule severity using any of the following methods:
 - [Solution Explorer](#set-rule-severity-from-solution-explorer)
 ::: moniker-end
 
-::: moniker range="vs-2019"
-- [EditorConfig](#set-rule-severity-in-an-editorconfig-file)
-- [Light bulb menu](#set-rule-severity-from-the-light-bulb-menu)
-- [Error List window](#set-rule-severity-from-the-error-list-window)
-- [Solution Explorer](#set-rule-severity-from-solution-explorer)
-- [Rule set file](#set-rule-severity-in-a-rule-set-file)
-::: moniker-end
 
 ### Silent vs. None severity
 
@@ -156,40 +146,18 @@ Visual Studio provides a convenient way to configure a rule's severity from the 
       ![Screenshot that shows how to configure rule severity from the light bulb menu in Visual Studio 2022.](media/vs-2022/configure-rule-severity.png)
       ::: moniker-end
 
-      ::: moniker range="vs-2019"
-      In the following example, select **Configure or Suppress issues** > **Configure \<rule ID> severity**.
-
-      ![Screenshot that shows how to configure rule severity from the light bulb menu in Visual Studio 2019.](media/configure-rule-severity.png)
-      ::: moniker-end
 
 1. Choose one of the severity options.
 
    ::: moniker range=">=vs-2022"
    ![Screenshot that shows rule severity selected from the menu in Visual Studio 2022.](media/vs-2022/configure-rule-severity-suggestion.png)
    ::: moniker-end
-   ::: moniker range="vs-2019"
-   ![Screenshot that shows rule severity selected from the menu in Visual Studio 2019.](media/configure-rule-severity-suggestion.png)
-   ::: moniker-end
+
 
    Visual Studio adds an entry to the EditorConfig file to configure the rule to the requested severity level, as shown in the preview box.
 
    If you don't already have an EditorConfig file in the project, Visual Studio creates one for you.
 
-::: moniker range="vs-2019"
-### Set rule severity from the Error List window
-
-Visual Studio also provides a convenient way to configure a rule's severity from the error list context menu. Follow these steps:
-
-1. After a violation occurs, right-click the diagnostic entry in the error list.
-
-1. From the context menu, select **Set severity**, and then select one of the severity options.
-
-   ![Screenshot that shows how to configure rule severity from the Error List window in Visual Studio.](media/configure-rule-severity-error-list.png)
-
-   Visual Studio adds an entry to the EditorConfig file to configure the rule to the requested level.
-
-   If you don't already have an EditorConfig file in the project, Visual Studio creates one for you.
-::: moniker-end
 
 ### Set rule severity from Solution Explorer
 
@@ -205,30 +173,6 @@ To set rule severity from Solution Explorer, follow these steps:
 
    If you don't already have an EditorConfig file or rule set file in the project, Visual Studio creates a new EditorConfig file for you.
 
-::: moniker range="vs-2019"
-
-### Set rule severity in a rule set file
-
-To set rule severity from a rule set file, follow these steps:
-
-1. Open the active rule set file in one of the following ways:
-
-    - In Solution Explorer, expand the file, and then expand **References**. Right-click **Analyzers**, and then select **Open Active Rule Set**.
-
-    - On the **Code Analysis** property page for the project, select **Open**.
-
-    If you're editing the rule set for the first time, Visual Studio makes a copy of the default rule set file, names it *\<projectname>.ruleset*, and then adds it to your project. This custom rule set also becomes the active rule set for your project.
-
-    > [!NOTE]
-    > .NET Core and .NET Standard projects don't support the menu commands for rule sets in Solution Explorer, for example, **Open Active Rule Set**. To specify a non-default rule set for a .NET Core or .NET Standard project, manually [add the **CodeAnalysisRuleSet** property](using-rule-sets-to-group-code-analysis-rules.md#specify-a-rule-set-for-a-project) to the project file. You can still configure the rules within the rule set in the rule set editor.
-
-1. Browse to the rule by expanding its containing assembly and select it.
-
-1. In the **Action** column of the selected rule, select the value to open a dropdown list, and then choose a severity level from the list.
-
-   ![Screenshot that shows a rule set file open in the rule set editor with severity levels listed.](media/ruleset-file-in-editor.png)
-
-::: moniker-end
 
 ## View analyzers and diagnostics from Solution Explorer
 

@@ -47,25 +47,6 @@ Visual Studio creates the test project and opens it in Visual Studio **Solution 
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
-
-1. On the Visual Studio **Start** window, choose **Create a new project**.
-
-1. On the **Create a new project** page, enter *unit test* in the Search box. The template list filters to unit testing projects.
-
-1. Select the **Unit Test App (Universal Windows)** template for either C# or Visual Basic, and then select **Next**.
-
-   :::image type="content" source="media/vs-2019/new-uwp-unit-test-app.png" alt-text="Screenshot that shows creating a new UWP unit test app in Visual Studio.":::
-
-1. Optionally change the project or solution name and location, and then select **Create**.
-
-1. Optionally change the target and minimum platform versions, and then select **OK**.
-
-Visual Studio creates the test project and opens it in Visual Studio **Solution Explorer**.
-
-:::image type="content" source="media/vs-2019/uwp-unit-test-project-solution-explorer.png"  alt-text="Screenshot that shows the UWP unit test project in Solution Explorer.":::
-
-::: moniker-end
 
 ### Edit the project's application manifest
 
@@ -83,11 +64,6 @@ Select only the capabilities you need for the unit test to function correctly.
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
-
-:::image type="content" source="media/vs-2019/unit-test.png" alt-text="Screenshot that shows a unit test manifest.":::
-
-::: moniker-end
 
 ### Add code to unit test the UWP app
 
@@ -115,25 +91,6 @@ Also in **Test Explorer**, you can select individual tests and right-click to **
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
-
-Build the solution and run the unit test by using **Test Explorer**. 
-
-1. On the Visual Studio **Test** menu, select **Test Explorer**. The **Test Explorer** window opens.
-
-1. In **Test Explorer**, select the **Run all** icon. You must use **Run all** to discover tests in UWP projects.
-
-   :::image type="content" source="media/vs-2019/test-explorer.png" alt-text="Screenshot that shows Test Explorer Run all icon.":::
-
-The solution builds and the unit test runs. After the test runs, the test appears in the **Test Explorer** test list, with information about outcome and duration.
-
-:::image type="content" source="media/vs-2019/test-explorer-run.png" alt-text="Screenshot that shows the Test Explorer with completed test information.":::
-
-Also in **Test Explorer**, you can select individual tests and right-click to **Run** or **Debug** the tests, or **Go To Test** to open the test code. From the top menu, you can group tests, add tests to playlists, or open test **Options**.
-
-:::image type="content" source="media/vs-2019/test-explorer-done.png" alt-text="Screenshot that shows a Test Explorer context menu.":::
-
-::: moniker-end
 
 ## Unit test a C# class
 
@@ -208,34 +165,6 @@ The <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert> class provides se
    ```
 ::: moniker-end
 
-::: moniker range="<=vs-2019"
-
-1. In **Solution Explorer**, right-click the **Maths** project and select **Add** > **Class**.
-
-1. Name the class file *Rooter.cs*, and then select **Add**.
-
-1. In the code editor, add the following code to the `Rooter` class in the *Rooter.cs* file:
-
-   ```csharp
-   public Rooter()
-   {
-   }
-   
-   // estimate the square root of a number
-   public double SquareRoot(double x)
-   {
-       return 0.0;
-   }
-   ```
-
-   The `Rooter` class declares a constructor and the `SquareRoot` estimator method. The `SquareRoot` method is a minimal implementation to test the basic testing setup.
-
-1. Add the `public` keyword to the `Rooter` class declaration, so the test code can access it.
-
-   ```csharp
-   public class Rooter
-   ```
-::: moniker-end
 
 ### Add a reference from the test project to the app project
 
@@ -257,23 +186,6 @@ The <xref:Microsoft.VisualStudio.TestTools.UnitTesting.Assert> class provides se
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
-
-1. In **Solution Explorer**, right-click the **RooterTests** project, and select **Add** > **Reference**.
-
-1. In the **Reference Manager - RooterTests** dialog box, expand **Projects**, and select the **Maths** project.
-
-   :::image type="content" source="media/ute_cs_windows_addreference.png" alt-text="Screenshot that shows adding a reference to the Maths project.":::
-
-1. Select **OK**.
-
-1. Add the following `using` statement to *UnitTest.cs*, after the `using Microsoft.VisualStudio.TestTools.UnitTesting;` line:
-
-   ```csharp
-   using Maths;
-   ```
-
-::: moniker-end
 
 ### Add a test that uses the app function
 
@@ -307,13 +219,6 @@ In **Test Explorer**, select the **Run All Tests** icon. The solution builds, an
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
-
-In **Test Explorer**, select the **Run All Tests** icon. The solution builds, and the tests run and pass.
-
-:::image type="content" source="media/vs-2019/test-explorer-uwp-app.png" alt-text="Screenshot that shows Basic Test passed in Test Explorer":::
-
-::: moniker-end
 
 If you get a Duplicate Entity error when you run the test, delete the runtime directives file, `Properties\Default.rd.xml` from the test project and re-try.
 
@@ -370,52 +275,6 @@ It's best not to change tests that have passed. Add new tests instead. Develop c
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
-
-1. Add a new test called `RangeTest` to *UnitTest.cs*:
-
-   ```csharp
-   [TestMethod]
-   public void RangeTest()
-   {
-       Rooter rooter = new Rooter();
-       for (double v = 1e-6; v < 1e6; v = v * 3.2)
-       {
-           double expected = v;
-           double actual = rooter.SquareRoot(v*v);
-           double tolerance = expected/1000;
-           Assert.AreEqual(expected, actual, tolerance);
-       }
-   }
-   ```
-
-1. Run the **RangeTest** test and verify that it fails.
-
-   :::image type="content" source="media/vs-2019/test-explorer-rangetest-fail.png" alt-text="Screenshot that shows the RangeTest fails in Test Explorer.":::
-
-   > [!TIP]
-   > In test driven development, you run a test immediately after you write it. This practice helps you avoid the easy mistake of writing a test that never fails.
-
-1. Fix your app code so that the new test passes. In *Rooter.cs*, change the `SquareRoot` function as follows:
-
-   ```csharp
-   public double SquareRoot(double x)
-   {
-       double estimate = x;
-       double diff = x;
-       while (diff > estimate / 1000)
-       {
-           double previousEstimate = estimate;
-           estimate = estimate - (estimate * estimate - x) / (2 * estimate);
-           diff = Math.Abs(previousEstimate - estimate);
-       }
-       return estimate;
-   }
-   ```
-
-1. In **Test Explorer**, select the **Run all tests** icon. All three tests now pass.
-
-::: moniker-end
 
 ### Refactor the code
 

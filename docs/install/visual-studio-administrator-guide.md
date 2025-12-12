@@ -34,19 +34,9 @@ Make a plan for how you deploy Visual Studio across your organization. It's best
 
 ::: moniker-end
 
-::: moniker range="=vs-2019"
-
-- Make sure that each target computer meets the [minimum installation requirements](/visualstudio/releases/2019/system-requirements). Visual Studio doesn't support application virtualization solutions such as Microsoft App-V or MSIX for Windows or non-Microsoft app virtualization technologies.
-
-::: moniker-end
 
 - Clarify your security and compatibility needs. Microsoft recommends that your organization always uses the latest and most secure software.
 
-::: moniker range="=vs-2019"
-
-- Make sure you understand the support options for Enterprise and Professional customers. For more information, see [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing-vs2019#support-options-for-enterprise-and-professional-customers).  
-  
-::: moniker-end
 
 ::: moniker range=">=visualstudio"
 <!-- tbd No new servicing article yet. -->

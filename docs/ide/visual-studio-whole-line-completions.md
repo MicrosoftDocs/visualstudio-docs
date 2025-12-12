@@ -68,13 +68,7 @@ Open the **Tools** > **Options** dialog, and expand the **IntelliCode** > **Adva
 ![Screenshot of Settings menu to change right arrow to accept whole-line autocompletion.](media/vs-2022/intellicode-tools-options-right-arrow.png)
 
 :::moniker-end
-:::moniker range="<=vs-2019"
 
-Open the **Tools** > **Options** dialog, and expand the **IntelliCode** > **Advanced** section. Select the **Apply completions for whole lines on right arrow** checkbox, and then select **OK**.
-
-![Screenshot of Settings menu to change right arrow to accept whole-line autocompletion.](media/intellicode/intellicode-visual-studio-whole-line-completions-right-arrow.png)
-
-:::moniker-end
 
 To dismiss whole-line autocompletions, use the Escape (**Esc**) or Delete (**Del**) keyboard shortcuts. 
 
@@ -125,17 +119,7 @@ The **IntelliCode** > **Advanced** section provides more options in the **Whole-
 - **Wait for pauses in typing before showing whole line completions**: Display whole-line autocompletions only when you pause typing. You might prefer this option if you find the whole-line autocompletions distracting in the default mode.
 
 :::moniker-end
-:::moniker range="<=vs-2019"
 
-![Screenshot of setting for turning IntelliCode whole-Line autocompletions on or off.](media/intellicode/intellicode-visual-studio-whole-line-completions-quiet-mode-small.png)
-
-The first setting, **Show completions for lines of code** allows you to turn whole-line autocompletions on or off. 
-
-The second setting, **Wait for pauses in typing before showing line completions**, when enabled, makes whole-line autocompletions only show up if the user has paused typing. You might prefer this option if you find the whole-line autocompletions distracting in the default mode.
-
-The third setting, **Show completions on new lines** can be turned on or off depending on whether you want to see whole-line autocompletions when you enter a new line, that is, by pressing **Return** or **Enter**. 
-
-:::moniker-end
 
 ## Provide feedback
 

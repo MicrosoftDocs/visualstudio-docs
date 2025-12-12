@@ -36,29 +36,6 @@ The most common causes for this error are:
 - If you're using a version of Visual Studio prior to Visual Studio 2022, you may be trying to debug a 64-bit application while running in the 32-bit Visual Studio process. To resolve, follow instructions to [debug a 64-bit application](/previous-versions/visualstudio/visual-studio-2017/debugger/debug-64-bit-applications?view=vs-2017&preserve-view=true).
 ::: moniker-end
 
-::: moniker range="<= vs-2019"
-- In Visual Studio 2019 and earlier versions, you may be trying to debug a 64-bit application while running in the 32-bit Visual Studio process. To resolve, follow instructions in this article to debug a 64-bit application.
-
-## Debug a 64-bit Application
-
-You can debug a 64-bit application that is running on the local computer or on a remote computer.
-
-- To debug a 64-bit application that is running on a remote computer, see [Remote Debugging](../debugger/remote-debugging.md).
-
-- To debug 64-bit applications locally, Visual Studio uses a 64-bit worker process (msvsmon.exe) to perform the low-level operations that can't be done inside of the 32-bit Visual Studio process.
-
-Mixed-mode debugging isn't supported for 64-bit processes that use .NET Framework version 3.5 or earlier.
-
-To try debugging a 64-bit application locally:
-
-1. Create a Visual Studio solution, for example a C# console application.
-
-2. Set the configuration to 64-bit using the Configuration Manager. For more information, see [How to: Configure Projects to Target Platforms](../ide/how-to-configure-projects-to-target-platforms.md).
-
-3. At this point the 64-bit version of the remote debugger (msvsmon.exe) starts. It runs as long as the solution with the 64-bit configuration is open.
-
-4. Start debugging. You should have the same experience as with a 32-bit configuration. If you still get the same error, see the beginning of this article for other suggestions.
-::: moniker-end
 
 ## Related content
 

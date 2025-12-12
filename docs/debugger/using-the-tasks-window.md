@@ -24,9 +24,6 @@ The **Tasks** window resembles the **Threads** window, except that it shows info
 In .NET code, you can use the **Tasks** window when you work with apps using the async/await pattern (**Await** and **Async** in VisualBasic). However, the **Tasks** view in the **Parallel Stacks** window is often more helpful for debugging async applications. For more information, see [Debug an async application](../debugger/walkthrough-debugging-a-parallel-application.md).
 ::: moniker-end
 
-::: moniker range="vs-2019"
-In .NET code, you can use the **Tasks** window when you work with apps using the async/await pattern (**Await** and **Async** in VisualBasic). However, the **Tasks** view in the **Parallel Stacks** window is often more helpful for debugging async applications. For more information, see [View threads and tasks in the Parallel Stacks window](../debugger/using-the-parallel-stacks-window.md).
-::: moniker-end
 
 > [!TIP]
 > For C/C++ code, use the **Threads** view in the **Parallel Stacks** window when you need to debug [task groups](/cpp/parallel/concrt/task-parallelism-concurrency-runtime), [parallel algorithms](/cpp/parallel/concrt/parallel-algorithms), [asynchronous agents](/cpp/parallel/concrt/asynchronous-agents), and [lightweight tasks](/cpp/parallel/concrt/task-scheduler-concurrency-runtime). For more information, see [View threads and tasks in the Parallel Stacks window](../debugger/using-the-parallel-stacks-window.md).
@@ -36,9 +33,7 @@ You can use the **Tasks** window whenever you break into the debugger. You can a
 ::: moniker range=">=vs-2022"
 ![Tasks window](../debugger/media/vs-2022/parallel-tasks-window.png "Parallel_Tasks_Window")
 ::: moniker-end
-::: moniker range="vs-2019"
-![Tasks window](../debugger/media/parallel_tasks_window.png "Parallel_Tasks_Window")
-::: moniker-end
+
 
 > [!NOTE]
 > In managed code, a <xref:System.Threading.Tasks.Task> that has a status of [TaskStatus.Created](<xref:System.Threading.Tasks.TaskStatus.Created>), [TaskStatus.WaitingForActivation](<xref:System.Threading.Tasks.TaskStatus.WaitingForActivation>), or [TaskStatus.WaitingToRun](<xref:System.Threading.Tasks.TaskStatus.WaitingToRun>) might not be displayed in the **Tasks** window when managed threads are in a sleep or join state.
@@ -70,9 +65,7 @@ The columns in the **Tasks** window show the following information.
  ::: moniker range=">=vs-2022"
  ![Shortcut view menu in Tasks window](../debugger/media/vs-2022/parallel-tasks-context-menu.png "Parallel_Tasks_ContextMenu")
  ::: moniker-end
- ::: moniker range="vs-2019"
- ![Shortcut view menu in Tasks window](../debugger/media/parallel_tasks_contextmenu.png "Parallel_Tasks_ContextMenu")
- ::: moniker-end
+
 
 ## Sorting Tasks
 
@@ -85,9 +78,7 @@ The columns in the **Tasks** window show the following information.
  ::: moniker range=">=vs-2022"
  ![Grouped mode in Tasks window](../debugger/media/vs-2022/parallel-tasks-grouped-mode.png "Parallel_Tasks_GroupedMode")
  ::: moniker-end
- ::: moniker range="vs-2019"
- ![Grouped mode in Tasks window](../debugger/media/parallel_tasks_groupedmode.png "Parallel_Tasks_GroupedMode")
- ::: moniker-end
+
 
 ## Parent Child View
 
@@ -106,9 +97,7 @@ The columns in the **Tasks** window show the following information.
  ::: moniker range=">=vs-2022"
  ![Shortcut thread menu in Tasks window](../debugger/media/vs-2022/parallel-tasks-context-menu-2.png "Parallel_Tasks_ContextMenu2")
  ::: moniker-end
- ::: moniker range="vs-2019"
- ![Shortcut thread menu in Tasks window](../debugger/media/parallel_tasks_contextmenu2.png "Parallel_Tasks_ContextMenu2")
- ::: moniker-end
+
 
 ## Switching the Active Task or Frame
 

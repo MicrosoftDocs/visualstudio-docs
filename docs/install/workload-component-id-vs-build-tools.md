@@ -19,15 +19,6 @@ open_to_public_contributors: false
 
 [!INCLUDE[workloads-components-universal-header_md](includes/workloads-components-universal-header_md.md)]
 
-::: moniker range="vs-2019"
-
-[!INCLUDE[workloads-components-header-2019_md](includes/workloads-components-header-2019_md.md)]
-
-To install these components by using the manual installer, download and run the [Build Tools for Visual Studio](https://visualstudio.microsoft.com/vs/older-downloads/#visual-studio-2019-and-other-products).
-
-[!INCLUDE[Visual Studio Build Tools 2019](includes/vs-2019/workload-component-id-vs-build-tools.md)]
-
-::: moniker-end
 
 ::: moniker range="vs-2022"
 

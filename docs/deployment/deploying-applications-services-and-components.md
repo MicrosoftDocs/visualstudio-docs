@@ -77,22 +77,6 @@ Deployment to a local folder is typically used for testing or to begin a staged 
   - [Deploy a .NET Windows desktop app using ClickOnce](quickstart-deploy-using-clickonce-folder.md)
   - [Deploy a C++/CLR app using ClickOnce](/cpp/windows/clickonce-deployment-for-visual-cpp-applications)
 
-:::moniker range="<=vs-2019"
-## Create an installer package (Windows desktop)
-
-If you require a more complex installation of a desktop application than ClickOnce can provide, you can create a Windows Installer package (MSI or EXE installation file) or a custom bootstrapper.
-
-- An MSI-based installer package can be created by using the [WiX Toolset Visual Studio 2019 Extension](https://marketplace.visualstudio.com/items?itemName=WixToolset.WixToolsetVisualStudio2019Extension). This is a command-line toolset.
-
-- An MSI or EXE installer package can be created by using a Setup project (vdproj). To use this option, see [Visual Studio Installer Projects Extension and .NET 6.0](../deployment/installer-projects-net-core.md) or, go directly to the [Visual Studio Installer Projects extension](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.MicrosoftVisualStudio2017InstallerProjects#overview).
-
-- An MSI or EXE installer package can be created by using [InstallShield](https://www.revenera.com/install/products/installshield/installshield-requirements) from Revenera Software. InstallShield may be used with Visual Studio 2017 and later versions. Community Edition isn't supported.
-
-  > [!NOTE]
-  > InstallShield Limited Edition is no longer included with Visual Studio and isn't supported in Visual Studio 2017 and later versions. Check with Revenera Software about future availability.
-
-- You can also install prerequisite components for desktop applications by configuring a generic installer package, which is known as a bootstrapper. For more information, see [Application deployment prerequisites](../deployment/application-deployment-prerequisites.md).
-:::moniker-end
 :::moniker range=">=vs-2022"
 ## Create an installer package (Windows desktop)
 

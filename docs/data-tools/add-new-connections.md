@@ -18,21 +18,6 @@ If you're working with an Access database (`.accdb` file), see [Connect to an Ac
 
 ## Server Explorer and SQL Server Object Explorer
 
-:::moniker range="<=vs-2019"
-You can open a connection to a database or service, a LocalDB database opened from an `.mdf` file, and view and edit tables and data rows, by using **Server Explorer** or **SQL Server Object Explorer**. The functionality of these windows overlaps to some extent. The basic differences are:
-
-- Server Explorer
-
-   Installed by default in Visual Studio. Can be used to test connections and view SQL Server databases, any other databases that have an ADO.NET provider installed, and some Azure services. Also shows low-level objects such as system performance counters, event logs, and message queues. If a data source has no ADO.NET provider, it won't show up here, but you can still use it from Visual Studio by connecting programmatically.
-
-- Cloud Explorer
-
-   Install this window manually as a Visual Studio extension from [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.CloudExplorerForVS). Provides specialized functionality for exploring and connecting to Azure services.
-
-- SQL Server Object Explorer
-
-   Installed with SQL Server Data Tools and visible under the **View** menu. If you don't see it there, go to **Programs and Features** in Control Panel, find Visual Studio, and then select **Change** to rerun the installer after selecting the checkbox for SQL Server Data Tools. Use **SQL Server Object Explorer** to view SQL databases (if they have an ADO.NET provider), create new databases, modify schemas, create stored procedures, retrieve connection strings, view the data, and more. SQL databases that have no ADO.NET provider installed won't show up here, but you can still connect to them programmatically.
-::: moniker-end
 :::moniker range=">=vs-2022"
 You can open a connection to a database or service, or a LocalDB database opened from an `.mdf` file, and view and edit tables and data rows, by using **Server Explorer** or **SQL Server Object Explorer**. The functionality of these windows overlaps to some extent. The basic differences are:
 
@@ -49,9 +34,6 @@ You can open a connection to a database or service, or a LocalDB database opened
 
 To create a connection to the database, click the **Connect to database** icon in **Server Explorer**, or right-click in **Server Explorer** on the **Data Connections** node and select **Add Connection**. From here, you can open a connection to a LocalDB database opened from an `.mdf` file, connect to a database on another server, a SharePoint service, or an Azure service.
 
-:::moniker range="<=vs-2019"
-![Screenshot showing Server Explorer New Connection icon.](../data-tools/media/server-explorer-new-connection-icon.png)
-:::moniker-end
 :::moniker range=">=vs-2022"
 ![Screenshot showing Server Explorer Connect to Database icon.](./media/vs-2022/connect-to-database-server-explorer.png)
 :::moniker-end
@@ -60,9 +42,6 @@ This brings up the **Add Connection** dialog box. Here, we have entered the name
 
 If you don't have access to another database, and you don't see LocalDB installed, you can install LocalDB through the Visual Studio Installer, as part of the **Data storage and processing** workload, the **ASP.NET and web development** workload, or as an individual component. See [Modify Visual Studio](../install/modify-visual-studio.md).
 
-:::moniker range="<=vs-2019"
-![Screenshot of Add New Connection dialog box.](../data-tools/media/add-new-connection-dialog.png)
-:::moniker-end
 :::moniker range=">=vs-2022"
 ![Screenshot of Add New Connection dialog box.](./media/vs-2022/add-new-connection-with-trust-selected.png)
 
@@ -130,9 +109,6 @@ If the data source is not what you want, click the **Change** button to choose a
 
 ::: moniker-end
 
-:::moniker range="<=vs-2019"
-![Screenshot showing how to change the ADO.NET data provider.](../data-tools/media/change-ado-net-data-provider.png)
-:::moniker-end
 :::moniker range=">=vs-2022"
 ![Screenshot showing how to change the ADO.NET data provider.](../data-tools/media/vs-2022/change-data-source-2.png)
 :::moniker-end
@@ -141,9 +117,6 @@ If the data source is not what you want, click the **Change** button to choose a
 
 After you have chosen the data source, click **Test Connection**. If it doesn't succeed, you will need to troubleshoot based on the vendor's documentation.
 
-:::moniker range="<=vs-2019"
-![Screenshot showing Test Connection succeeded message box.](../data-tools/media/test-connection.png)
-:::moniker-end
 :::moniker range=">=vs-2022"
 ![Screenshot showing Test Connection succeeded message box.](./media/vs-2022/test-connection-succeeded.png)
 :::moniker-end

@@ -58,33 +58,7 @@ Follow this procedure to create a Visual Studio solution and a new Flask web pro
    :::image type="content" source="media/vs-2022/quickstart-python-add-virtual-environment.png" alt-text="Screenshot that shows how to add a virtual environment for the Flask project in Visual Studio 2022." border="false" lightbox="media/vs-2022/quickstart-python-add-virtual-environment.png":::
 
 ::: moniker-end
-::: moniker range="<=vs-2019"
 
-1. In Visual Studio, select **File** > **New** > **Project**.
-
-1. In the **New Project** dialog, search for "blank flask". Select the **Blank Flask Web Project** template in the middle list, enter a project **Name**, and select **OK**:
-
-   :::image type="content" source="media/quickstart-python-blank-flask-template.png" alt-text="Screenshot that shows how to select the Blank Flask Web Project template to create a new Flask app in Visual Studio." border="false" lightbox="media/quickstart-python-blank-flask-template.png" :::
-
-1. After a moment, Visual Studio displays a prompt:
-
-   The dialog **This project requires external packages.** indicates that the selected template includes a _requirements.txt_ file that specifies dependencies on the Flask package. Visual Studio can install the packages automatically, which gives you the option to install the packages into a _virtual environment_. Using a virtual environment is recommended over installing into a global environment.
-   
-   If you receive this dialog, select the **Install into a virtual environment** option:
-
-   :::image type="content" source="media/quickstart-python-install-packages-prompt.png" alt-text="Screenshot of the prompt to install required package dependencies into a virtual environment in Visual Studio." lightbox="media/quickstart-python-install-packages-prompt.png":::
-
-   Alternatively, you might see the **Python package specification file "requirements.txt" was detected in project \<Project name>".** prompt at the top of the Visual Studio window. This prompt indicates that the package dependencies are already available in your configuration. Visual Studio can create a virtual environment for you from the existing configuration.
-   
-   If you see this prompt, select the **Create virtual environment** option:
-
-   :::image type="content" source="media/vs-2022/quickstart-python-requirements-prompt.png" alt-text="Screenshot of the prompt that indicates a requirements file for the project is detected in Visual Studio." border="false" lightbox="media/vs-2022/quickstart-python-requirements-prompt.png":::
-
-1. Visual Studio displays the **Add environment** dialog. Accept the default values and select **Create**, then consent to any elevation requests.
-
-   :::image type="content" source="media/quickstart-python-add-virtual-environment.png" alt-text="Screenshot that shows how to add a virtual environment for the Flask project in Visual Studio." border="false" lightbox="media/quickstart-python-add-virtual-environment.png":::
-
-::: moniker-end
 
 > [!TIP]
 > When you begin a project, it's highly recommended to create a virtual environment right away, as most Visual Studio templates invite you to do. Virtual environments maintain your project's exact requirements over time as you add and remove libraries. You can then easily generate a _requirements.txt_ file, which you use to reinstall those dependencies on other development computers (as when using source control) and when deploying the project to a production server. For more information on virtual environments and their benefits, see [Use virtual environments](../python/selecting-a-python-environment-for-a-project.md#use-virtual-environments) and [Manage required packages with requirements.txt](../python/managing-required-packages-with-requirements-txt.md).

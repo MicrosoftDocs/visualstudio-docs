@@ -84,9 +84,6 @@ To configure the WPF app project, follow these steps:
 
    The **Output** window displays the progress and notifies you when the install is complete.
 
-    :::moniker range="<=vs-2019"
-     ![Screenshot that shows the Entity Framework NuGet Package.](../data-tools/media/nuget-entity-framework.png)
-    :::moniker-end
     :::moniker range=">=vs-2022"
      ![Screenshot that shows the Entity Framework NuGet Package.](../data-tools/media/vs-2022/nuget-entity-framework-6.png)
     :::moniker-end
@@ -99,9 +96,6 @@ To create the ADO.NET entity data model, follow these steps:
 
 1. Right-click the WPF App project node in **Solution Explorer** and choose **Add** > **New Item**. In the left pane, under the C# node, choose **Data** and in the middle pane, choose **ADO.NET Entity Data Model**.
 
-   :::moniker range="<=vs-2019"
-   ![Screenshot that shows the Add New Item window with ADO.NET Entity Data Model selected.](../data-tools/media/entity-framework-new-project-item.png)
-   :::moniker-end
    :::moniker range=">=vs-2022"
    ![Screenshot that shows the Add New Item window with ADO.NET Entity Data Model selected.](media/vs-2022/entity-framework-new-project-item.png)
    :::moniker-end
@@ -140,9 +134,6 @@ To create the ADO.NET entity data model, follow these steps:
 
    These files are visible in **Solution Explorer** under the **Northwind_model** node:
 
-      :::moniker range="<=vs-2019"
-      ![Screenshot that shows Solution Explorer Entity Framework model files.](../data-tools/media/solution-explorer-entity-framework-model-files.png)
-      :::moniker-end
       :::moniker range=">=vs-2022"
       ![Screenshot that shows Solution Explorer Entity Framework model files.](media/vs-2022/solution-explorer-entity-framework-model-files.png)
       :::moniker-end
@@ -173,9 +164,6 @@ Although it's possible to write your own data-binding code, it's easier to let V
 
 1. Expand the node for your project, select the **Customer** object, and then select **Finish**. The sources for **Order** objects are automatically generated from the **Orders** navigation property in **Customer**.
 
-    :::moniker range="<=vs-2019"
-     ![Screenshot that shows the Customer object selected as a data source.](../data-tools/media/raddata-add-entity-classes-as-data-sources.png)
-     :::moniker-end
      :::moniker range=">=vs-2022"
      ![Screenshot that shows the Customer object selected as a data source.](media/vs-2022/add-entity-classes-as-data-sources.png)
      :::moniker-end
@@ -206,9 +194,6 @@ Next, you display each property in the `Customers` class in its own individual t
 
    By default, the controls are placed vertically in a grid element, but you can arrange them however you like on the form. For example, you could place the **Name** text box above the address. The sample application for this tutorial reorders the fields and rearranges them into two columns.
 
-     :::moniker range="<=vs-2019"
-     ![Screenshot that shows Customers data source binding to individual controls.](../data-tools/media/raddata-customers-data-source-binding-to-individual-controls.png)
-     ::: moniker-end
      :::moniker range=">=vs-2022"
      ![Screenshot that shows Customers data source binding to individual controls.](media/vs-2022/customers-data-source-binding-to-individual-controls.png)
      :::moniker-end
@@ -223,9 +208,6 @@ Next, you display each property in the `Customers` class in its own individual t
 
    When a customer is visible in the top half of the form, you want to see their orders in the bottom half. You show the orders in a single grid view control. For master-detail data binding to work as expected, it's important that you bind to the `Orders` property in the `Customers` class, not to the separate `Orders` node.
 
-     :::moniker range="vs-2019"
-     ![Screenshot that shows the Orders classes dragged and dropped as a grid.](../data-tools/media/drag-orders-classes-as-grid.png)
-     :::moniker-end
      :::moniker range=">=vs-2022"
      ![Screenshot that shows the Orders classes dragged and dropped as a grid.](media/vs-2022/drag-orders-classes-as-grid.png)
      :::moniker-end

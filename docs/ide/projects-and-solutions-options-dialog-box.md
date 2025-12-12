@@ -85,13 +85,6 @@ When this option is selected and you double-click a project node in Solution Exp
 
 If you don't have this option selected and you want to edit a project file, right-click the project node in Solution Explorer and select **Edit Project File**. 
 
-::: moniker range="vs-2019"
-
-### Warn user when the project location is not trusted
-
-If you attempt to create a new project or open an existing project in a location that is not fully trusted (for example, on a UNC path or an HTTP path), a message is displayed. Use this option to specify whether the message is displayed each time that you attempt to create or open a project in a location that is not fully trusted.
-
-::: moniker-end
 
 ## Configure symbolic renaming
 

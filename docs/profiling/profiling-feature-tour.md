@@ -37,9 +37,7 @@ Tools that can be used in combination appear in the **Flexible** tab. Tools that
 ::: moniker range="vs-2022"
 ![Screenshot of Performance Profiler.](../profiling/media/vs-2022/prof-tour-performance-profiler.png "Performance Profiler")
 ::: moniker-end
-::: moniker range="<=vs-2019"
-![Screenshot of Performance Profiler.](../profiling/media/prof-tour-performance-profiler.png "Performance Profiler")
-::: moniker-end
+
 
 ::: moniker range="visualstudio"
 ## Get AI recommendations
@@ -91,18 +89,12 @@ The profiling tools that you can access during a debugging session are available
 
 While you are debugging, you can use the **Diagnostic Tools** window to analyze CPU, memory usage, .NET counters, and you can view events that show performance-related information.
 ::: moniker-end
-::: moniker range="<=vs-2019"
-![Diagnostic Tools window](../profiling/media/prof-tour-diagnostic-tools.png "Diagnostic Tools")
 
-While you are debugging, you can use the **Diagnostic Tools** window to analyze CPU and memory usage, and you can view events that show performance-related information.
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 ![Diagnostic Tools Summary view](../profiling/media/vs-2022/prof-tour-cpu-and-memory-graph.png "Diagnostic Tools Summary")
 ::: moniker-end
-::: moniker range="<=vs-2019"
-![Diagnostic Tools Summary view](../profiling/media/prof-tour-cpu-and-memory-graph.gif "Diagnostic Tools Summary")
-::: moniker-end
+
 
 The **Diagnostic Tools** window is a common way to profile apps, but for Release builds you can also do a post-mortem analysis of your app instead. For more information on different approaches, see [Run profiling tools on release or debug builds](../profiling/running-profiling-tools-with-or-without-the-debugger.md). To see profiling tool support for different app types, see [Which tool should I use?](../profiling/choose-performance-tool.md).
 
@@ -116,11 +108,7 @@ Tools available in the Diagnostic Tools window or during a debugging session inc
 ::: zone-end
 - [PerfTips](../profiling/perftips.md)
 ::: moniker-end
-::: moniker range="<=vs-2019"
-- [CPU usage](../profiling/beginners-guide-to-performance-profiling.md)
-- [Memory usage](../profiling/memory-usage.md)
-- [PerfTips](../profiling/perftips.md)
-::: moniker-end
+
 
 > [!TIP]
 > Use relaunch to skip the launch page and automatically run with your previous settings by pressing **Alt+F2** or by clicking **Debug > Performance Profiler**.
@@ -137,9 +125,7 @@ When using the debugger-integrated CPU Usage tool, open the Diagnostics Tool win
 ::: moniker range=">=vs-2022"
 ![Enable CPU usage in the Diagnostic Tools](../profiling/media/vs-2022/prof-tour-enable-cpu-profiling.png "Diagnostic Tools Enable CPU Usage")
 ::: moniker-end
-::: moniker range="<=vs-2019"
-![Enable CPU usage in the Diagnostic Tools](../profiling/media/prof-tour-enable-cpu-profiling.png "Diagnostic Tools Enable CPU Usage")
-::: moniker-end
+
 
 One way to use the tool is to set two breakpoints in your code, one at the beginning and one at the end of the function or the region of code you want to analyze. Examine the profiling data when you are paused at the second breakpoint.
 
@@ -148,12 +134,7 @@ The **CPU Usage** view shows you a list of functions ordered by longest running,
 
 ![Diagnostic Tools CPU Usage view](../profiling/media/vs-2022/prof-tour-cpu-usage.png "Diagnostic Tools CPU Usage")
 ::: moniker-end
-::: moniker range="<=vs-2019"
 
-The **CPU Usage** view shows you a list of functions ordered by longest running, with the longest running function at the top. This can help guide you to functions where performance bottlenecks are happening.
-
-![Diagnostic Tools CPU Usage view](../profiling/media/prof-tour-cpu-usage.png "Diagnostic Tools CPU Usage")
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 Click on a function that you are interested in, and you will see a more detailed **Call tree** view, with the selected function highlighted. The table shows columns with data such as the time spent in the function, including called functions (**Total CPU**), and a second column that shows the time spent in a function, excluding called functions (**Self CPU**). This data can help you evaluate whether the function itself is a performance bottleneck.
@@ -163,11 +144,7 @@ Click on a function that you are interested in, and you will see a more detailed
 
 ![Diagnostic Tools caller callee "butterfly" view](../profiling/media/vs-2022/prof-tour-call-tree-view.png "Diagnostic Tools Caller Callee View")
 ::: moniker-end
-::: moniker range="<=vs-2019"
-Click on a function that you are interested in, and you will see a more detailed three-pane "butterfly" view, with the selected function in the middle of the window, the calling function on the left, and called functions on the right. The **Function Body** section shows the total amount of time (and the percentage of time) spent in the function body excluding time spent in calling and called functions. This data can help you evaluate whether the function itself is a performance bottleneck.
 
-![Diagnostic Tools caller callee "butterfly" view](../profiling/media/prof-tour-cpu-usage-caller-callee.png "Diagnostic Tools Caller Callee View")
-::: moniker-end
 
 ## Analyze memory usage
 
@@ -183,18 +160,14 @@ To analyze memory usage with the **Memory Usage** tool, you need to take at leas
 ::: moniker range=">=vs-2022"
 ![Take a snapshot in the Diagnostic Tools](../profiling/media/vs-2022/prof-tour-take-snapshot.png "Diagnostic Tools Take Snapshots")
 ::: moniker-end
-::: moniker range="<=vs-2019"
-![Take a snapshot in the Diagnostic Tools](../profiling/media/prof-tour-take-snapshots.gif "Diagnostic Tools Take Snapshots")
-::: moniker-end
+
 
 When you select one of the arrow links, you are given a differential view of the heap (a red up arrow ![Memory Usage Increase](../profiling/media/prof-tour-mem-usage-up-arrow.png "Memory Usage Increase") shows an increasing object count (left) or an increasing heap size (right)). If you click the right link, you get a differential heap view ordered by objects that increased the most in heap size. This can help you pinpoint memory problems. For example, in the illustration below, the bytes used by `ClassHandlersStore` objects increased by 3,492 bytes in the second snapshot.
 
 ::: moniker range=">=vs-2022"
 ![Diagnostic Tools heap diff view](../profiling/media/vs-2022/prof-tour-mem-usage-diff-heap.png "Diagnostic Tools Heap Diff view")
 ::: moniker-end
-::: moniker range="<=vs-2019"
-![Diagnostic Tools heap diff view](../profiling/media/prof-tour-mem-usage-diff-heap.png "Diagnostic Tools Heap Diff view")
-::: moniker-end
+
 
 If you click the link on the left instead in the **Memory Usage** view, the heap view is organized by object count; the objects of a particular type that increased the most in number are shown at the top (sorted by **Count Diff** column).
 
@@ -259,9 +232,7 @@ Often, the easiest way to view performance information is to use [PerfTips](../p
 ::: moniker range=">=vs-2022"
 ![Screenshot of PerfTips.](../profiling/media/vs-2022/prof-tour-perf-tips.png "Profiling Tour PerfTips")
 ::: moniker-end
-::: moniker range="<=vs-2019"
-![Screenshot of PerfTips.](../profiling/media/prof-tour-perf-tips.png "Profiling Tour PerfTips")
-::: moniker-end
+
 
 You can use PerfTips to examine how long it takes for a code block to execute, or how long it takes for a single function to complete.
 
@@ -270,9 +241,7 @@ PerfTips show the same events that also show up in the **Events** view of the Di
 ::: moniker range=">=vs-2022"
 ![Screenshot of Diagnostic Tools Events view.](../profiling/media/vs-2022/prof-tour-events.png "Diagnostic Tools View Events")
 ::: moniker-end
-::: moniker range="<=vs-2019"
-![Screenshot of Diagnostic Tools Events view.](../profiling/media/prof-tour-events.png "Diagnostic Tools View Events")
-::: moniker-end
+
 
  > [!NOTE]
  > If you have Visual Studio Enterprise, you can also see [IntelliTrace events](../debugger/intellitrace.md) in this tab.
@@ -289,17 +258,7 @@ The tool shows each async operation in a list view. You can see information such
 
 This tool is supported for For .NET Core and .NET 5+ apps.
 ::: moniker-end
-::: moniker range="vs-2019"
-## Analyze asynchronous code (.NET)
 
-The [.NET Async tool](../profiling/analyze-async.md) allows you to analyze the performance of asynchronous code in your application. This tool is available in the Performance Profiler. Open the Performance Profiler by choosing **Debug** > **Performance Profiler** (or **Alt + F2**).
-
-The tool shows each async operation in a list view. You can see information such as the start time, end time, and total time for an async operation.
-
-![.NET Async Tool Stopped](../profiling/media/async-tool-opened.png ".NET Async Tool Stopped")
-
-This tool is supported for For .NET Core and .NET 5+ apps.
-::: moniker-end
 
 ## Analyze database performance (.NET)
 
@@ -352,9 +311,7 @@ Low framerates in the **Visual throughput** graph may correspond to visual probl
 ::: moniker range=">=vs-2022"
 ![Application Timeline profiling tool](../profiling/media/vs-2022/prof-tour-application-timeline.png "Profiling Tour Application Timeline")
 ::: moniker-end
-::: moniker range="vs-2019"
-![Application Timeline profiling tool](../profiling/media/prof-tour-application-timeline.gif "Profiling Tour Application Timeline")
-::: moniker-end
+
 
 In the Timeline details view, you can find information such as the type of activity (or the UI element involved) along with the duration of the activity. For example, in the illustration, a **Layout** event for a Grid control takes 57.53 ms.
 
@@ -366,9 +323,7 @@ In your UWP apps, you can enable **UI Analysis** in the **Diagnostic Tools** win
 ::: moniker range=">=vs-2022"
 ![View UI analysis events in the diagnostic tools](../profiling/media/vs-2022/prof-tour-ui-analysis.png "Diagnostic Tools View UI Analysis Events")
 ::: moniker-end
-::: moniker range="<=vs-2019"
-![View UI analysis events in the diagnostic tools](../profiling/media/prof-tour-ui-analysis.png "Diagnostic Tools View UI Analysis Events")
-::: moniker-end
+
 ::: zone-end
 
 ::: moniker range=">=vs-2022"
@@ -397,9 +352,7 @@ When you select a time period in the graphs and choose **view details**, a detai
 ::: moniker range=">=vs-2022"
 ![GPU Usage profiling tool](../profiling/media/vs-2022/prof-tour-gpu-usage.png "Diag GPU Usage")
 ::: moniker-end
-::: moniker range="<=vs-2019"
-![GPU Usage profiling tool](../profiling/media/prof-tour-gpu-usage.png "Diag GPU Usage")
-::: moniker-end
+
 
 You can also use the graphs to determine whether there are CPU bound or GPU bound performance bottlenecks.
 ::: zone-end

@@ -39,11 +39,7 @@ Enable the XAML Designer to access visual editing features and advanced IntelliS
 2. In the **Options** dialog, expand the **XAML Designer** > **General** section.
 
 :::moniker-end
-:::moniker range="<=vs-2019"
 
-2. In the **Options** dialog, expand your project type (WPF or UWP), and expand the **XAML Designer** > **General** section.
-
-:::moniker-end
 
 :::moniker range="<=vs-2022"
 
@@ -67,11 +63,7 @@ Choose how XAML documents appear when opened, including the XAML source code, th
 1. Open the **Tools** > **Options** dialog and expand the **XAML Designer** > **General** section.
 
 :::moniker-end
-:::moniker range="<=vs-2019"
 
-1. Open the **Tools** > **Options** dialog, expand your project type (WPF or UWP), and expand the **XAML Designer** > **General** section.
-
-:::moniker-end
 
 2. Use the dropdown list and set the value of the **Default document view** setting:
 
@@ -99,11 +91,7 @@ Adjust the layout of Split View to suit your workflow.
 1. Open the **Tools** > **Options** dialog and expand the **XAML Designer** > **General** section.
 
 :::moniker-end
-:::moniker range="<=vs-2019"
 
-1. Open the **Tools** > **Options** dialog, expand your project type (WPF or UWP), and expand the **XAML Designer** > **General** section.
-
-:::moniker-end
 
 2. Use the dropdown list and set the value of the **Split orientation** setting:
 
@@ -131,11 +119,7 @@ Set how you zoom in the XAML Designer for easier navigation.
 1. Open the **Tools** > **Options** dialog and expand the **XAML Designer** > **General** section.
 
 :::moniker-end
-:::moniker range="<=vs-2019"
 
-1. Open the **Tools** > **Options** dialog, expand your project type (WPF or UWP), and expand the **XAML Designer** > **General** section.
-
-:::moniker-end
 
 2. Use the dropdown list and set the value of the **Zoom by using** setting:
 
@@ -165,11 +149,7 @@ Use this setting to determine the default zoom value for viewing the XAML docume
 1. Open the **Tools** > **Options** dialog and expand the **XAML Designer** > **General** section.
 
 :::moniker-end
-:::moniker range="<=vs-2019"
 
-1. Open the **Tools** > **Options** dialog, expand your project type (WPF or UWP), and expand the **XAML Designer** > **General** section.
-
-:::moniker-end
 
 2. Use the dropdown list and set the value of the **Default zoom setting** option:
 
@@ -209,11 +189,7 @@ In Blend, open the **Tools** > **Options** pane and expand the **All Settings** 
 In Blend, open the **Tools** > **Options** dialog and expand the **XAML Designer** > **General** section.
 
 :::moniker-end
-:::moniker range="<=vs-2019"
 
-In Blend, open the **Tools** > **Options** dialog, expand your project type (WPF or UWP), and expand the **XAML Designer** > **General** section.
-
-:::moniker-end
 
 There's one Blend-specific property:
 
@@ -233,11 +209,7 @@ In Blend, open the **Tools** > **Options** pane and expand the **All Settings** 
 In Blend, open the **Tools** > **Options** dialog and expand the **XAML Designer** > **Artboard** section.
 
 :::moniker-end
-:::moniker range="<=vs-2019"
 
-In Blend, open the **Tools** > **Options** dialog, expand your project type (WPF or UWP), and expand the **XAML Designer** > **Artboard** section.
-
-:::moniker-end
 
 The following sections describe the available Artboard properties.
 

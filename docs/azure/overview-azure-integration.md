@@ -22,9 +22,6 @@ You can work with Azure in Visual Studio using many capabilities designed to mak
 
 This is a typical Visual Studio dialog where you can browse and search existing Azure resources. Above the list of existing resources, there is a button that lets you provision new ones:
 
-:::moniker range="vs-2019"
-![Screenshot showing how to select an Azure resource.](./media/select-azure-resource.png)
-:::moniker-end
 :::moniker range=">=vs-2022"
 ![Screenshot showing how to select an Azure resource.](./media/vs-2022/select-azure-resource.png)
 :::moniker-end
@@ -44,9 +41,6 @@ The following screenshot shows a typical Visual Studio dialog where you can brow
 2. You can group the found instances either by Resource Group or by Resource Type (which effectively gives you a flat list)
 3. You can search by the resource name
 
-:::moniker range="vs-2019"
-![Screenshot showing how to browse and search for Azure resources](./media/browse-search-azure-resource.png)
-:::moniker-end
 :::moniker range=">=vs-2022"
 ![Screenshot showing how to browse and search for Azure resources](./media/vs-2022/browse-search-azure-resource.png)
 :::moniker-end
@@ -66,9 +60,6 @@ Visual Studio has special support for GitHub Actions that deploy your project. Y
 
 Use Connected Services to connect your application to local emulators and other local alternatives to Azure services. Get started by right-clicking on the **Connected Services** node in Solution Explorer and select **Manage Connected Services**.
 
-:::moniker range="vs-2019"
-![Screenshot showing local Azure emulators.](./media/local-azure-emulators.png)
-:::moniker-end
 :::moniker range=">=vs-2022"
 ![Screenshot showing local Azure emulators.](./media/vs-2022/local-azure-emulators.png)
 :::moniker-end

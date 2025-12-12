@@ -84,11 +84,7 @@ Native and managed DLL projects have different settings to specify calling apps.
    - For .NET Core DLLs in Visual Basic, the **Debug** Properties page is different. Expand the **Launch** dropdown and select **Executable**, and then add the fully qualified path and name of the calling app in the **Executable** field.
 
    ::: moniker-end
-   ::: moniker range="<= vs-2019"
 
-   - For .NET Core DLLs, the **Debug** Properties page is different. Expand the **Launch** dropdown and select **Executable**, and then add the fully qualified path and name of the calling app in the **Executable** field.
-
-   ::: moniker-end
 
 1. Add any necessary command-line arguments in the **Command line arguments** or **Application arguments** field.
 

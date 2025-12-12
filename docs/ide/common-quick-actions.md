@@ -176,11 +176,6 @@ Using types located in other projects in your solution will display the Quick Ac
 
 ::: moniker-end
 
-::: moniker range="<=vs-2019"
-
-Using types located in other projects in your solution will display the Quick Action automatically, however the others need to be enabled from the **Tools > Options > Text Editor > C#** or **Basic > Advanced** tab:
-
-::: moniker-end
 
 - Suggest usings/imports for types in reference assemblies
 - Suggest usings/imports for types in NuGet packages

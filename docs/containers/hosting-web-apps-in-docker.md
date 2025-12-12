@@ -20,12 +20,6 @@ If you don't have an Azure subscription, create a [free account](https://azure.m
 
 ## Prerequisites
 
-::: moniker range="vs-2019"
-
-- Install [Visual Studio 2019 or later](https://visualstudio.microsoft.com/vs/older-downloads/) with the **ASP.NET and web development** workload.
-
-- Install [Docker Desktop for Windows](https://docs.docker.com/desktop/windows/install/).
-::: moniker-end
 ::: moniker range="vs-2022"
 
 - Install [Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) with the **ASP.NET and web development** workload.
@@ -45,11 +39,6 @@ If you don't have an Azure subscription, create a [free account](https://azure.m
 
 The following steps guide you through creating a basic ASP.NET Core app that you use in this tutorial. If you already have a project, you can skip this section.
 
-::: moniker range="vs-2019"
-
-[!INCLUDE [create-aspnet5-app](../azure/includes/vs-2019/create-aspnet5-app-2019.md)]
-
-::: moniker-end
 :::moniker range=">=vs-2022"
 
 [!INCLUDE [create-aspnet5-app](../azure/includes/vs-2022/create-aspnet5-app-2022.md)]
@@ -58,40 +47,6 @@ The following steps guide you through creating a basic ASP.NET Core app that you
 
 ## Publish your container to Azure Container Registry
 
-::: moniker range="vs-2019"
-
-1. Right-click your project in **Solution Explorer** and choose **Publish**. The **Publish** dialog opens.
-
-1. On the **Target** tab, select **Docker Container Registry**, and then select **Next**.
-
-   :::image type="content" source="media/container-tools/vs-2019/docker-container-registry.png" border="false" alt-text="Screenshot that shows the Publish dialog and how to choose Docker Container Registry.":::
-
-1. On the **Specific target** tab, select **Azure Container Registry**, and then select **Next**.
-
-1. On the **Container Registry** tab, select the **Create a new Azure Container Registry** option at the bottom:
-
-   :::image type="content" source="media/container-tools/vs-2019/select-existing-or-create-new-azure-container-registry.png" border="false" alt-text="Screenshot of the Publish dialog that shows how to choose Create New Azure Container Registry.":::
-
-1. On the **Azure Container Registry** page, enter your values for the new resource:
-
-   | Setting      | Suggested value  | Description                                |
-   | ------------ |  ------- | -------------------------------------------------- |
-   | **DNS Prefix** | Globally unique name | Name that uniquely identifies your container registry. |
-   | **Subscription** | Your subscription | The Azure subscription to use. |
-   | **[Resource Group](/azure/azure-resource-manager/management/overview)**| Your resource group | Name of the resource group in which to create your container registry. Select **New** to create a new resource group. |
-   | **[SKU](/azure/container-registry/container-registry-skus)** | "Standard" | Select the service tier of the container registry. |
-   | **Registry Location** | A nearby location | Choose a location in a [region](https://azure.microsoft.com/explore/global-infrastructure/geographies/) close to you or close to other services that you expect to use the container registry. |
-
-   :::image type="content" source="media/hosting-web-apps-in-docker/vs-azure-container-registry-provisioning-dialog-2019.png" border="false" alt-text="Screenshot that shows how to enter values in the dialog to create a new Azure Container Registry.":::
-
-1. After you enter the resource values, select **Create**.
-
-   Visual Studio validates the property values and creates the new container resource.
-   When the process completes, Visual Studio returns to the **Publish** dialog and selects the new container in the list.
-
-1. Select **Finish** to publish the new container.
-
-::: moniker-end
 ::: moniker range=">=vs-2022"
 
 1. Right-click your project in **Solution Explorer** and choose **Publish**. The **Publish** dialog opens.
