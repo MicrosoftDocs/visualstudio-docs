@@ -4,8 +4,8 @@ titleSuffix: ""
 description: Step 4 of a core walkthrough of Django capabilities in Visual Studio, including the Django Web Project template that helps you create an app with three pages that use static JavaScript libraries.
 ms.date: 04/18/2024
 ms.topic: tutorial
-author: cwebster-99
-ms.author: cowebster
+author: gramster
+ms.author: grwheele
 manager: mijacobs
 ms.subservice: python
 

@@ -3,8 +3,8 @@ title: Symbols for mixed-mode Python/C++ debugging
 description: Explore how you can use Visual Studio to load symbols from program database (PDB) files to support complete mixed-mode debugging for C++ and Python.
 ms.date: 11/21/2025
 ms.topic: how-to
-author: cwebster-99
-ms.author: cowebster
+author: gramster
+ms.author: grwheele
 manager: mijacobs
 ms.subservice: python
 

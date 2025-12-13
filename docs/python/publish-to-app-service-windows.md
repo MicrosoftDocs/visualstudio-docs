@@ -3,8 +3,8 @@ title: Publish Python web app to Azure App Service on Linux
 description: Publish a Python web application directly to Azure App Service on Linux from Visual Studio, including the necessary content for the web.config file.
 ms.date: 04/18/2024
 ms.topic: how-to
-author: cwebster-99
-ms.author: cowebster
+author: gramster
+ms.author: grwheele
 manager: mijacobs
 ms.subservice: python
 ms.custom: sfi-image-nochange

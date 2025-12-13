@@ -2,8 +2,8 @@
 title: "Tutorial: Create a Project Python in Visual Studio"
 titleSuffix: ""
 description: Explore step 1 of a tutorial about Python capabilities in Visual Studio, including prerequisites and creating a new Python project.
-author: cwebster-99
-ms.author: cowebster
+author: gramster
+ms.author: grwheele
 ms.subservice: python
 ms.topic: tutorial
 ms.date: 07/29/2025

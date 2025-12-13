@@ -4,8 +4,8 @@ titleSuffix: ""
 description: Overview and Step 1 of a core walkthrough of Flask capabilities in Visual Studio, including prerequisites, Git, virtual environments, and creating a new Flask project and web project.
 ms.date: 11/21/2025
 ms.topic: tutorial
-author: cwebster-99
-ms.author: cowebster
+author: gramster
+ms.author: grwheele
 manager: mijacobs
 ms.subservice: python
 

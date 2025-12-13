@@ -4,8 +4,8 @@ titleSuffix: ""
 description: Step 5 of a core walkthrough of Django capabilities in Visual Studio, specifically the authentication features provided in the Django Web Project template.
 ms.date: 04/18/2024
 ms.topic: tutorial
-author: cwebster-99
-ms.author: cowebster
+author: gramster
+ms.author: grwheele
 manager: mijacobs
 ms.subservice: python
 ms.custom: sfi-image-nochange

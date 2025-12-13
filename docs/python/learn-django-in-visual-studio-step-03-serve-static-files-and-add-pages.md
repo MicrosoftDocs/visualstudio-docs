@@ -4,8 +4,8 @@ titleSuffix: ""
 description: Step 3 of a core walkthrough of Django capabilities in Visual Studio, including serving static files, adding pages to the Django app, and using template inheritance.
 ms.date: 04/18/2024
 ms.topic: tutorial
-author: cwebster-99
-ms.author: cowebster
+author: gramster
+ms.author: grwheele
 manager: mijacobs
 ms.subservice: python
 
