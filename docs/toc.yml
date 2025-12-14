@@ -933,6 +933,8 @@
         items:
         - name: General
           href: ide/reference/general-environment-options-dialog-box.md
+        - name: Visual Experience
+          href: ide/reference/configure-visual-experience-options.md
         - name: Accounts
           href: ide/reference/accounts-environment-options-dialog-box.md
         - name: Documents
