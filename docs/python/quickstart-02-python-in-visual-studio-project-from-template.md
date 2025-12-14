@@ -23,7 +23,7 @@ In this quickstart, you follow guided steps to quickly create a Flask applicatio
 
    :::image type="content" source="media/quickstart-python-install-web-support.png" alt-text="Screenshot that shows how to select Python web support in the Visual Studio Installer for the Python development workload." lightbox="media/quickstart-python-install-web-support.png" border="false":::
 
-Visual Studio for Mac isn't supported. For more information, see [What's happening to Visual Studio for Mac?](/visualstudio/mac/what-happened-to-vs-for-mac) Visual Studio Code on Windows, Mac, and Linux [works well with Python through available extensions](https://code.visualstudio.com/docs/languages/python).
+Visual Studio for Mac isn't supported. Visual Studio Code on Windows, Mac, and Linux [works well with Python through available extensions](https://code.visualstudio.com/docs/languages/python).
 
 ## Create the project
 
