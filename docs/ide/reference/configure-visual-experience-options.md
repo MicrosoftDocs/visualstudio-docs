@@ -49,7 +49,7 @@ After you install more colors or themes, the extra colors appear in the **Color 
 
 **Editor Appearance**
 
-Specify which theme to use in the Visual Studio code and text editor. 
+Specify which theme to use in the Visual Studio Code editor. 
 
 If you want to use the same theme as the **Color theme** option, select **Match Theme**. You can also choose between **Light**, **Dark**, and high contrast versions of those settings.
 
@@ -84,7 +84,7 @@ This option enables or disables per-monitor dots per inch (DPI) awareness (or *P
 
 **Hide Copilot Badge**
 
-By default, Visual Studio includes a badge icon for Microsoft Copliot on the main menu bar. When you select the icon, the Copilot pane opens. If you prefer not to include Copilot on the menu bar, select this option. If you change this option, you must restart your computer.
+By default, Visual Studio includes a badge icon for Microsoft Copilot on the main menu bar. When you select the icon, the Copilot pane opens. If you prefer not to include Copilot on the menu bar, select this option. If you change this option, you must restart your computer.
 
 ## Effects settings
 
