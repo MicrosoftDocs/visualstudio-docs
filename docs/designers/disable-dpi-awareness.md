@@ -87,7 +87,7 @@ In addition to the aforementioned options, you can also try the following option
 
 - [Automatically scale in Windows Forms](/dotnet/framework/winforms/automatic-scaling-in-windows-forms)
 
-- Select the option to [Optimize rendering for screens with different pixel densities (requires restart)](../ide/reference/general-environment-options-dialog-box.md#visual-experience)
+- Select the option to [Optimize rendering for screens with different pixel densities (requires restart)](../ide/reference/general-environment-options-dialog-box.md#visual-experience-settings)
 
 - <a name="disable-notifications"></a>**Disable scaling notifications** in Visual Studio, for example,  if you aren't working in a designer. Here's how to disable notifications:
 
