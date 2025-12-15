@@ -1,7 +1,7 @@
 ---
 title: Options, Text Editor, General
 description: Learn how to use the General page to change global settings for the Visual Studio Code editor.
-ms.date: 12/15/2025
+ms.date: 12/16/2025
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor
