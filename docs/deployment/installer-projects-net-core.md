@@ -2,7 +2,7 @@
 title: "Visual Studio Installer Projects and .NET"
 description: Explore how to use the Visual Studio Installer Projects Extension to package .NET Core 3.1 or .NET 5 and later version applications for Microsoft Installer (MSI).
 titleSuffix: ""
-ms.date: "11/13/2024"
+ms.date: "11/19/2025"
 ms.topic: article
 helpviewer_keywords:
   - "installer projects"
@@ -17,7 +17,7 @@ monikerRange: '>= vs-2022'
 
 Packaging applications as an MSI is often accomplished using the Visual Studio Installer Projects Extension.
 
-This article applies to apps targeting .NET Core 3.1 and .NET 5 or later versions.
+This article applies to apps targeting .NET, that is .NET Core 3.1 and .NET 5 or later versions, not .NET Framework.
 
 You can download the extension here:
 
@@ -26,9 +26,9 @@ You can download the extension here:
 ::: moniker-end
 
 
-## Update for .NET Core and .NET
+## Update for .NET
 
-.NET Core and .NET 5+ have two different models for publishing.
+.NET projects have two different models for publishing.
 
 - Framework-dependent deployments
 
@@ -48,15 +48,21 @@ To learn more about these deployment strategies, see [.NET application publishin
 
    For information on deployment properties, see [Deployment properties](/previous-versions/visualstudio/visual-studio-2010/seykw6dt(v=vs.100)).
 
-### Workflow changes for .NET Core 3.1 and .NET 5 or later
+### Workflow changes for .NET
 
-- To get the correct output for .NET Core 3.1 and .NET 5.0 or later projects, select **Publish Items** instead of **Primary Output** in the **Add Project Output Group** dialog box.  To open this dialog, select **Add** > **Project Output...** from the Setup project's context menu.
+- To get the correct output for .NET projects, select **Publish Items** instead of **Primary Output** in the **Add Project Output Group** dialog box.  To open this dialog, select **Add** > **Project Output...** from the Setup project's context menu.
 
   ![The Publish Items output group in the Add Project Output Group dialog](../deployment/media/installer-projects-net-core-publish-items-output.png "Pick Publish Items")
 
 - To create a self-contained installer, set the **PublishProfilePath** property on the **Publish Items** node in the Setup project, using the relative path of a publish profile with the correct properties set.
 
-  ::: moniker range=">= vs-2022"
+  :::moniker range="visualstudio"
+
+    :::image type="content" source="../deployment/media/visualstudio/installer-projects-net-core-publish-profile.png" border="false" alt-text="Screenshot that shows how to set the publish profile on the Publish Items project output item." lightbox="../deployment/media/visualstudio/installer-projects-net-core-publish-profile.png":::    
+  
+  :::moniker-end
+
+  ::: moniker range="vs-2022"
   :::image type="content" source="../deployment/media/vs-2022/installer-projects-net-core-publish-profile.png" border="false" alt-text="Screenshot that shows setting the publish profile on the Publish Items project output item." lightbox="../deployment/media/vs-2022/installer-projects-net-core-publish-profile.png":::
   ::: moniker-end
 
@@ -68,9 +74,19 @@ To learn more about these deployment strategies, see [.NET application publishin
 
 ### Prerequisites
 
-If you would like your installer to be able to install the necessary runtime for a framework-dependent .NET Core 3.1 or .NET 5.0+ app, you can do this using [prerequisites](../deployment/application-deployment-prerequisites.md).  From the properties dialog of your installer project, open the **Prerequisites...** dialog and you'll see the following entries:
+If you would like your installer to be able to install the necessary runtime for a framework-dependent .NET app, you can do this using [prerequisites](../deployment/application-deployment-prerequisites.md).  From the properties dialog of your installer project, open the **Prerequisites...** dialog and you'll see the following entries:
+
+ :::moniker range="visualstudio"
+
+ :::image type="content" source="../deployment/media/visualstudio/installer-projects-net-core-prerequisites.png" border="false" alt-text="Screenshot that shows the Prerequisites dialog.":::    
+  
+ :::moniker-end
+
+::: moniker range="<=vs-2022"
 
 ![.NET Core items in the Prerequisites dialog](../deployment/media/installer-projects-net-core-prerequisites.png ".NET Core Prerequisites")
+
+:::moniker-end
 
 The **.NET Core Runtime...** option should be selected for console applications, **.NET Desktop Runtime...** should be selected for WPF and WinForms applications.
 
