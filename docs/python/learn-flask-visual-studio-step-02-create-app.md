@@ -114,11 +114,7 @@ Follow these steps to adjust your Flask project to allow for further development
    :::image type="content" source="media/flask/vs-2022/step-02-project-structure.png" alt-text="Screenshot that shows the updated Flask project structure in Solution Explorer in Visual Studio." border="false" lightbox="media/flask/vs-2022/step-02-project-structure.png"::: 
 
    ::: moniker-end
-   ::: moniker range="<=vs-2019"
 
-   :::image type="content" source="media/flask/step-02-project-structure.png" alt-text="Screenshot that shows the updated Flask project structure in Solution Explorer in earlier versions of Visual Studio." border="false" lightbox="media/flask/step-02-project-structure.png":::
-
-   ::: moniker-end
 
 ### Run refactored program and check routes
 
@@ -177,29 +173,7 @@ After you refactor the code and test the updates, you can review and commit your
    You can also accumulate multiple local commits before you push them to the remote repository.
 
 ::: moniker-end
-::: moniker range="<=vs-2019"
 
-1. Save the changes to your project files, such as with the **Ctrl**+**S** keyboard shortcut.
-
-1. Select the uncommitted changes (pencil 5) at the bottom right in Visual Studio, which opens **Team Explorer**:
-
-   :::image type="content" source="media/flask/step-02-source-control-changes-button.png" alt-text="Screenshot that shows the source control changes option on the Visual Studio status bar." border="false" lightbox="media/flask/step-02-source-control-changes-button.png":::
-
-1. In **Team Explorer**, enter a commit message like "Refactor code" and select **Commit All**.
-
-   When the commit completes, Visual Studio displays the message **Commit \<hash> created locally. Sync to share your changes with the server.**
-
-1. (Optional) Push the committed changes to your remote repository:
-
-   1. In **Team Explorer**, select **Sync**.
-   
-   1. Expand the **Outgoing Commits** and select **Push**.
-
-   :::image type="content" source="media/flask/step-02-source-control-push-to-remote.png" alt-text="Screenshot that shows how to sync and push commits to a remote repository in Team Explorer." border="false" lightbox="media/flask/step-02-source-control-push-to-remote.png":::
-
-   You can also accumulate multiple local commits before you push them to the remote repository.
-
-::: moniker-end
 
 For subsequent procedures in this tutorial series, you can refer to this section for the steps to commit changes to source control.
 

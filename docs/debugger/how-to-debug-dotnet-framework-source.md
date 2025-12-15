@@ -52,17 +52,7 @@ To debug .NET Framework source, you must:
 1. Select **OK**.
 
 ::: moniker-end
-::: moniker range="vs-2019"
 
-1. Under **Tools** (or **Debug**) > **Options** > **Debugging** > **General**, select **Enable .NET Framework source stepping**.
-
-   - If you had Just My Code enabled, a warning dialog box tells you that Just My Code is now disabled. Select **OK**.
-
-   - If you didn't have a local symbol cache set, a warning dialog tells you a default symbol cache is set. Select **OK**.
-
-1. Select **OK** to close the **Options** dialog.
-
-::: moniker-end
 
 ## Set or change symbol source locations and loading behavior
 

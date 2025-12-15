@@ -45,10 +45,6 @@ To use this tool from the command-line, see the following article:
 - [Profiling apps from the command-line](../profiling/profile-apps-from-command-line.md).
 ::: moniker-end
 
-::: moniker range="vs-2019"
-
-**Instrumentation** - Starting in Visual Studio 2019 version 16.9, the Instrumentation tool provides dynamic instrumentation for .NET Core, .NET 5+, and .NET Framework (not C/C++). This tool uses a version of VSInstr.exe that supports dynamic instrumentation. Access this tool using the Performance Profiler (Alt + F2). For DLLs, you need to use the command-line tool (VSInstr) instead.
-::: moniker-end
 
 ## Static instrumentation tool
 

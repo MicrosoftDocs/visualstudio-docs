@@ -28,14 +28,6 @@ When you deploy a containerized application, you typically use the HTTPS protoco
 
 :::moniker-end
 
-::: moniker range="vs-2019"
-
-## Prerequisites
-
-- [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
-- [Visual Studio 2019 or later](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, **.NET desktop development**, and/or **.NET Core cross-platform development** workload installed.
-
-:::moniker-end
 
 ## Devtest certificates
 

@@ -3,7 +3,7 @@ title: Personal emails for Visual Studio subscriptions in VLSC
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 11/19/2025
+ms.date: 12/10/2025
 ms.topic: article
 description:  Visual Studio Subscriptions – Why do I see personal accounts for my subscribers?
 ms.custom: sfi-image-nochange
@@ -53,7 +53,7 @@ If you, the admin, changed the sign-in email address on a subscription, subscrib
 
 | Benefit Name | Use updated email address? | If subscriber hasn't activated the benefit yet | If subscriber activated with the previous sign-in email address | If the subscriber is using an alternate email address |
 |--------------|----------------------------|-------------------------------------------------|-----------------------------------------------------------------|------------------------------------------------------|
-| **Power BI Pro**<br>**Microsoft 365 apps for Enterprise**<br>**DataCamp - 3-month subscription**<br>**CODE Magazine** | No  | Use new sign-in email address to activate. | Continue using the old email address for access. | N/A |
+| **Power BI Pro**<br>**Microsoft 365 apps for Enterprise**<br>**CODE Magazine** | No  | Use new sign-in email address to activate. | Continue using the old email address for access. | N/A |
 | **Pluralsight**<br>**Cloud Academy**<br>**Dometrain**<br>**DevForge** | No | Access can be created using any email address. Once it's created, it will not change even if an admin updates the subscriber's sign in email. | Access can be created using any email address. Once it's created, it will not change even if an admin updates the subscriber's sign in email. | Access can be created using any email address. Once it's created, it will not change even if an admin updates the subscriber's sign in email. |
 | **Visual Studio LIVE! Events discount** | No | No email address is needed. | No email address is needed. | No email address is needed. |
 | **GitHub Enterprise** | No\* | This benefit is set up by the GitHub admin in your org. Subscribers should use the email address where their invitation was sent. | This benefit is set up by the GitHub admin in your org. Subscribers should use the email address where their invitation was sent. | This benefit is set up by the GitHub admin in your org. Subscribers should use the email address where their invitation was sent. |

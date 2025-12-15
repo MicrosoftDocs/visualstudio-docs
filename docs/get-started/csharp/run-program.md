@@ -19,9 +19,6 @@ How to run a program or start an app depends on what you start from, the type of
 - Press **F5**, choose **Debug** > **Start with debugging** from the Visual Studio menu, or select the green **Start** arrow and project name on the Visual Studio toolbar.
 - Or, to run without debugging, press **Ctrl**+**F5** or choose **Debug** > **Start without debugging** from the Visual Studio menu.
 
-::: moniker range="<=vs-2019"
-![Screenshot that shows the Start button.](media/vs-start-button.png)
-::: moniker-end
 ::: moniker range=">=vs-2022"
 :::image type="content" source="media/vs-2022/start-button.png" alt-text="Screenshot that shows the Start button." border="false":::
 ::: moniker-end
@@ -36,9 +33,6 @@ If you're not sure if the project you have is an executable file, select the pro
 
 1. After the project loads in Visual Studio, if your Visual Studio solution has more than one project, make sure to set the project with the `Main` method as the startup project. To set the startup project, right-click on the project name or node in **Solution Explorer** and choose **Set as Startup Project** from the context menu.
 
-   ::: moniker range="<=vs-2019"
-   ![Screenshot that shows setting the startup project.](media/set-as-startup-project.png)
-   ::: moniker-end
    ::: moniker range=">=vs-2022"
    :::image type="content" source="media/vs-2022/set-startup-project.png" alt-text="Screenshot that shows setting the startup project." border="false":::
    ::: moniker-end
@@ -104,9 +98,6 @@ Visual Studio tries to help you identify missing references. When a name is unre
 
 Here's an example of a missing `using` directive. You can add `using System;` to the start of the code file to resolve the unresolved name `Console`:
 
-::: moniker range="<=vs-2019"
-![Screenshot of light bulb to add a using directive.](media/name-does-not-exist2.png)
-::: moniker-end
 ::: moniker range=">=vs-2022"
 :::image type="content" source="media/vs-2022/missing-using-directive.png" alt-text="Screenshot of light bulb to add a using directive." border="false":::
 ::: moniker-end
@@ -117,9 +108,6 @@ More recent of C# support implicit using directives for some commonly used names
 
 .NET references can be assemblies or NuGet packages. In source code, the publisher or author usually explains what assemblies the code requires and what packages it depends on. To add a reference to a project manually, right-click the **References** node in **Solution Explorer** and choose **Add Reference**. In the **Reference Manager**, locate and add the required assembly.
 
-::: moniker range="<=vs-2019"
-![Screenshot of the Add Reference menu.](media/add-reference.png)
-::: moniker-end
 ::: moniker range=">=vs-2022"
 :::image type="content" source="media/vs-2022/add-reference.png" alt-text="Screenshot of the Add Reference menu." border="false":::
 ::: moniker-end
@@ -130,9 +118,6 @@ You can find assemblies and add references by following the instructions in [Add
 
 If Visual Studio detects a missing NuGet package, a light bulb appears and gives you the option to install the package:
 
-::: moniker range="<=vs-2019"
-![Screenshot of a light bulb to install a NuGet package.](media/lightbulb-add-package.png)
-::: moniker-end
 ::: moniker range=">=vs-2022"
 :::image type="content" source="media/vs-2022/lightbulb-add-package.png" alt-text="Screenshot of a light bulb to install a NuGet package." border="false":::
 ::: moniker-end

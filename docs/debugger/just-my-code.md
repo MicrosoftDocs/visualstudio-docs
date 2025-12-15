@@ -32,13 +32,7 @@ Open the **Tools** (or **Debug**) > **Options** dialog, expand the **Debugging**
 ![Screenshot of Enable Just My Code in the Options dialog box.](../debugger/media/vs-2022/dbg-just-my-code-options.png "Enable Just My Code")
 
 ::: moniker-end
-::: moniker range="<=vs-2019"
 
-Open the **Tools** (or **Debug**) > **Options** dialog, expand the **Debugging** > **General** section, and select or clear the **Enable Just My Code** checkbox:
-
-![Screenshot of Enable Just My Code in the Options dialog box.](../debugger/media/vs-2019/dbg-just-my-code-options.png "Enable Just My Code")
-
-::: moniker-end
 
 > [!NOTE]
 > **Enable Just My Code** is a global setting that applies to all Visual Studio projects in all languages.
@@ -47,11 +41,6 @@ Open the **Tools** (or **Debug**) > **Options** dialog, expand the **Debugging**
 
 During a debugging session, the **Modules** window shows which code modules the debugger is treating as My Code (user code), along with their symbol loading status. For more information, see [Get more familiar with how the debugger attaches to your app](../debugger/debugger-tips-and-tricks.md#modules_window).
 
-::: moniker range="<=vs-2019"
-
-![Screenshot of user code in the Modules window.](../debugger/media/vs-2019/dbg-just-my-code-module.png "User code in the Modules window")
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
@@ -61,11 +50,6 @@ During a debugging session, the **Modules** window shows which code modules the 
 
 In the **Call Stack** or **Tasks** window, Just My Code collapses non-user code into a grayed-out annotated code frame labeled `[External Code]`.
 
-::: moniker range="<=vs-2019"
-
-![Screenshot of External Code in the Call Stack window.](../debugger/media/vs-2019/dbg-just-my-code-external-code.png "External Code frame")
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
@@ -79,11 +63,6 @@ In the **Call Stack** or **Tasks** window, Just My Code collapses non-user code 
 <a name="BKMK_Override_call_stack_filtering"></a>
 To view the code in a collapsed **[External Code]** frame, right-click in the **Call Stack** or **Task** window, and select **Show External Code** from the context menu. The expanded external code lines replace the **[External Code**] frame.
 
-::: moniker range="<=vs-2019"
-
-![Screenshot of Show External Code in the Call Stack window.](../debugger/media/vs-2019/dbg-just-my-code-show-external-code.png "Show External Code")
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 

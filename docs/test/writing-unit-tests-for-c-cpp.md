@@ -63,21 +63,6 @@ To add a new test project to an existing solution:
 
 ::: moniker-end
 
-::: moniker range="=vs-2019"
-
-### Create a test project in Visual Studio 2019
-
-Define and run tests inside one or more test projects. Create the projects in the same solution as the code you want to test.
-
-To add a new test project to an existing solution:
-
-1. Right-click on the Solution node in **Solution Explorer**.
-1. In the context menu, choose **Add** > **New Project**.
-1. Set **Language** to **C++** and type *test* in the search box. The following screenshot shows the test projects that are available when the **Desktop Development with C++** and the **UWP Development** workload are installed:
-
-:::image type="content" source="media/vs-2019/cpp-new-test-project-vs2019.png" alt-text="Screenshot shows the Add a new project window with C++ selected in Visual Studio 2019.":::
-
-::: moniker-end
 
 ### Create references to other projects in the solution
 
@@ -87,9 +72,6 @@ To enable access to the functions in the project under test, add a reference to 
 :::image type="content" source="media/vs-2022/cpp-add-ref-test-project-2022.png" alt-text="Screenshot shows the Add Reference dialog box in Visual Studio 2022.":::
 ::: moniker-end
 
-::: moniker range="=vs-2019"
-:::image type="content" source="media/vs-2019/cpp-add-ref-test-project-2019.png" alt-text="Screenshot shows the Add Reference dialog box in Visual Studio 2019." lightbox="media/vs-2019/cpp-add-ref-test-project-2019.png":::
-::: moniker-end
 
 ### Link to object or library files
 
@@ -103,9 +85,6 @@ In your unit test `.cpp` file, add an `#include` directive for any header files 
 :::image type="content" source="media/vs-2022/cpp-add-includes-test-project-2022.png" alt-text="Screenshot shows Solution Explorer with an #include statement with IntelliSense highlighting a header file in Visual Studio 2022.":::
 ::: moniker-end
 
-::: moniker range="=vs-2019"
-:::image type="content" source="media/vs-2019/cpp-add-includes-test-project-2019.png" alt-text="Screenshot shows Solution Explorer with an #include statement with IntelliSense highlighting a header file in Visual Studio 2019." lightbox="media/vs-2019/cpp-add-includes-test-project-2019.png":::
-::: moniker-end
 
 > [!TIP]
 > To avoid having to type the full path in each include statement in the source file, add the required folders in **Project** > **Properties** > **C/C++** > **General** > **Additional Include Directories**.
@@ -123,9 +102,6 @@ The `.cpp` file in your test project has a stub class and method defined for you
 :::image type="content" source="media/vs-2022/cpp-write-test-methods-2022.png" alt-text="Screenshot shows a stub class and method using the TEST_CLASS and TEST_METHOD macros in Visual Studio 2022.":::
 ::: moniker-end
 
-::: moniker range="=vs-2019"
-:::image type="content" source="media/cpp-write-test-methods.png" alt-text="Screenshot shows a stub class and method using the TEST_CLASS and TEST_METHOD macros in Visual Studio 2019.":::
-::: moniker-end
 
 TEST_CLASS and TEST_METHOD are part of the [Microsoft Native Test Framework](microsoft-visualstudio-testtools-cppunittestframework-api-reference.md). **Test Explorer** discovers test methods in other supported frameworks in a similar way.
 
@@ -152,9 +128,6 @@ You can add *traits* to test methods to specify test owners, priority, and other
    :::image type="content" source="media/vs-2022/cpp-test-explorer-2022.png" alt-text="Screenshot shows Test Explorer before running tests in Visual Studio 2022.":::
    ::: moniker-end
 
-   ::: moniker range="=vs-2019"
-   :::image type="content" source="media/vs-2019/cpp-test-explorer-2019.png" alt-text="Screenshot shows Test Explorer before running tests in Visual Studio 2019.":::
-   ::: moniker-end
 
    > [!NOTE]
    > CTest integration with **Test Explorer** is not yet available. Run CTest tests from the CMake main menu.
@@ -167,9 +140,6 @@ You can add *traits* to test methods to specify test owners, priority, and other
    :::image type="content" source="media/vs-2022/cpp-test-explorer-passed-2022.png" alt-text="Screenshot shows Test Explorer after tests are run in Visual Studio 2022.":::
    ::: moniker-end
 
-   ::: moniker range="=vs-2019"
-   :::image type="content" source="media/vs-2019/cpp-test-explorer-passed-2019.png" alt-text="Screenshot shows Test Explorer after tests are run in Visual Studio 2019.":::
-   ::: moniker-end
 
 For failed tests, the message displays details that help to diagnose the cause. Right-click on the failing test for a pop-up menu. Choose **Debug** to step through the function where the failure occurred.
 
@@ -195,9 +165,6 @@ After you initialize CodeLens, you can see the test status icons above each unit
 :::image type="content" source="media/vs-2022/cpp-test-codelens-icons-2022.png" alt-text="Screenshot shows the C++ CodeLens icons in Visual Studio 2022." lightbox="media/vs-2022/cpp-test-codelens-icons-2022.png":::
 ::: moniker-end
 
-::: moniker range="=vs-2019"
-:::image type="content" source="media/vs-2019/cpp-test-codelens-icons-2019.png" alt-text="Screenshot shows the C++ CodeLens icons in Visual Studio 2019.":::
-::: moniker-end
 
 Choose the icon for more information, or to run or debug the unit test:
 
@@ -205,9 +172,6 @@ Choose the icon for more information, or to run or debug the unit test:
 :::image type="content" source="media/vs-2022/cpp-test-codelens-run-debug-2022.png" alt-text="Screenshot shows C++ CodeLens icon after you select it for details in Visual Studio 2022.":::
 ::: moniker-end
 
-::: moniker range="=vs-2019"
-:::image type="content" source="media/vs-2019/cpp-test-codelens-run-debug-2019.png" alt-text="Screenshot shows C++ CodeLens icon after you select it for details in Visual Studio 2019." lightbox="media/vs-2019/cpp-test-codelens-run-debug-2019.png":::
-::: moniker-end
 
 ## Related content
 

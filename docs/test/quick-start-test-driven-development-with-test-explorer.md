@@ -27,9 +27,7 @@ This article demonstrates how to develop a tested method in C# using Microsoft T
    ::: moniker range=">=vs-2022"
    ![New code and test projects](../test/media/vs-2022/test-driven-development-ide.png)
    ::: moniker-end
-   ::: moniker range="vs-2019"
-   ![New code and test projects](../test/media/test-driven-development-ide.png)
-   ::: moniker-end
+
 
 3. In the test project, write a simple test method that verifies the result obtained for a specific input. Add the following code to the `Test1` or `UnitTest1` class:
 
@@ -58,20 +56,14 @@ This article demonstrates how to develop a tested method in C# using Microsoft T
 
       ![Generate new type quick action](media/vs-2022/test-driven-development-generate-new-type.png)
       ::: moniker-end
-      ::: moniker range="vs-2019"
-      Choose **Generate type 'Rooter'** > **Generate new type**.
 
-      ![Generate new type quick action](media/test-driven-development-generate-new-type.png)
-      ::: moniker-end
 
    2. In the **Generate Type** dialog box, set **Project** to **MyMath**, the class library project, and then choose **OK**.
 
       ::: moniker range=">=vs-2022"
       ![Generate Type dialog box in Visual Studio 2019](media/vs-2022/test-driven-development-generate-type-dialog.png)
       ::: moniker-end
-      ::: moniker range="vs-2019"
-      ![Generate Type dialog box in Visual Studio 2019](media/test-driven-development-generate-type-dialog.png)
-      ::: moniker-end
+
 
 5. Generate a method from the test code. Place the cursor on `SquareRoot`, and then from the light bulb menu, choose **Generate method 'SquareRoot'** or **Generate method 'Rooter.SquareRoot'**.
 
@@ -82,9 +74,7 @@ This article demonstrates how to develop a tested method in C# using Microsoft T
       ::: moniker range=">=vs-2022"
       To open Test Explorer from the **Test** menu, choose **Test Explorer**.
       ::: moniker-end
-      ::: moniker range="vs-2019"
-      To open Test Explorer from the **Test** menu, choose **Windows** > **Test Explorer**.
-      ::: moniker-end
+
 
    2. In **Test Explorer**, choose the **Run All** button to run the test.
 
@@ -97,9 +87,7 @@ This article demonstrates how to develop a tested method in C# using Microsoft T
    ::: moniker range=">=vs-2022"
    ![Test Detail Summary in Test Explorer](media/vs-2022/test-driven-development-test-detail-summary.png)
    ::: moniker-end
-   ::: moniker range="vs-2019"
-   ![Test Detail Summary in Test Explorer](media/test-driven-development-test-detail-summary.png)
-   ::: moniker-end
+
 
 8. Select the top link under **Stack Trace** to jump to the location where the test failed.
 
@@ -123,9 +111,7 @@ At this point, you've created a test and a stub that you can modify so that the 
    ::: moniker range=">=vs-2022"
    ![Test Explorer showing a passing test](../test/media/vs-2022/test-driven-development-passed-test.png)
    ::: moniker-end
-   ::: moniker range="vs-2019"
-   ![Test Explorer showing a passing test](../test/media/test-driven-development-passed-test.png)
-   ::: moniker-end
+
 
 ## Extend the range of inputs
 
@@ -253,6 +239,4 @@ Refactor the code, but do not change the tests.
    ::: moniker range=">=vs-2022"
    ![Test Explorer showing 3 passed tests](../test/media/vs-2022/test-driven-development-three-passed-tests.png)
    ::: moniker-end
-   ::: moniker range="vs-2019"
-   ![Test Explorer showing 3 passed tests](../test/media/test-driven-development-three-passed-tests.png)
-   ::: moniker-end
+

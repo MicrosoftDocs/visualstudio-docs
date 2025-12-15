@@ -18,15 +18,6 @@ You can add support for Docker containers in supported Visual Studio project typ
 You can add support for Docker or Podman containers in supported Visual Studio project types, such as ASP.NET web projects and others. See the [overview](overview.md) for information about supported project types in your version of Visual Studio.
 :::moniker-end
 
-::: moniker range="vs-2019"
-
-## Prerequisites
-
-- [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
-- [Visual Studio 2019 or later](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET Core cross-platform development** workload installed.
-- [.NET Core Development Tools](https://dotnet.microsoft.com/download/dotnet-core/) for development with .NET Core.
-- To publish to Azure Container Registry, an Azure subscription. [Sign up for a free trial](https://azure.microsoft.com/offers/ms-azr-0044p/).
-:::moniker-end
 
 ::: moniker range="vs-2022"
 
@@ -48,11 +39,6 @@ You can add support for Docker or Podman containers in supported Visual Studio p
 
 ### Add container support when you create a project
 
-:::moniker range="vs-2019"
-You can enable support for containers during project creation by selecting **Enable Docker support** when you create a new project, as shown in the following screenshot:
-
-![Screenshot showing how to enable Docker Support for new ASP.NET Core web app in Visual Studio.](./media/overview/vs-2019/enable-docker-support-visual-studio.png)
-::: moniker-end
 ::: moniker range=">=vs-2022"
 You can enable support for containers during project creation by selecting **Enable container support** when you create a new project, as shown in the following screenshot:
 
@@ -64,10 +50,6 @@ You can enable support for containers during project creation by selecting **Ena
 > For .NET Framework projects (not .NET Core), only Windows containers are available.
 :::moniker-end
 
-:::moniker range="<=vs-2019"
-> [!NOTE]
-> When creating a .NET Framework or .NET Core console project, there's no option to **Add Docker support**. After a .NET Core console application project is created, the **Add Docker support** option is available. .NET Framework console application projects don't support the **Add Docker support** option after the project is created. After creation, both .NET Framework or .NET Core console projects support the **Add Container Orchestrator Support** option using Service Fabric or Docker Compose.
-:::moniker-end
 :::moniker range="vs-2022"
 > [!NOTE]
 > If you're using the full .NET Framework console project template, the supported option is **Add Container Orchestrator support** after project creation, with options to use Service Fabric or Docker Compose. Adding support at project creation and **Add Docker support** for a single project without orchestration are not available options.
@@ -79,59 +61,15 @@ You can enable support for containers during project creation by selecting **Ena
 
 ### Add container support to an existing project
 
-:::moniker range="<=vs-2019"
-You can add Docker support to an existing project by selecting **Add** > **Docker Support** in **Solution Explorer**. The **Add > Docker Support** and **Add > Container Orchestrator Support** commands are located on the right-click menu (or context menu) of the project node for an ASP.NET Core project in **Solution Explorer**, as shown in the following screenshot:
-:::moniker-end
 
 :::moniker range=">=vs-2022"
 You can add Docker support to an existing project by selecting **Add** > **Container Support** in **Solution Explorer**. The **Add > Container Support** and **Add > Container Orchestrator Support** commands are located on the right-click menu (or context menu) of the project node for an ASP.NET Core project in **Solution Explorer**, as shown in the following screenshot:
 :::moniker-end
 
-:::moniker range="<=vs-2019"
-![Screenshot showing the Add Docker Support menu option in Visual Studio.](./media/overview/add-docker-support-menu.png)
-:::moniker-end
 :::moniker range=">=vs-2022"
 ![Screenshot showing the Add Container Support menu option in Visual Studio.](./media/overview/vs-2022/add-docker-support.png)
 :::moniker-end
 
-:::moniker range="<=vs-2019"
-
-## Add Docker support
-
-When you add or enable Docker support, Visual Studio adds the following to the project:
-
-- a *Dockerfile* file
-- a `.dockerignore` file
-- a NuGet package reference to the Microsoft.VisualStudio.Azure.Containers.Tools.Targets
-
-The Dockerfile you add resembles the following code. In this example, the project was named `WebApplication-Docker`, and you chose Linux containers:
-
-```dockerfile
-#See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images for faster debugging.
-
-FROM mcr.microsoft.com/dotnet/aspnet:3.1 AS base
-WORKDIR /app
-EXPOSE 80
-EXPOSE 443
-
-FROM mcr.microsoft.com/dotnet/sdk:3.1 AS build
-WORKDIR /src
-COPY ["WebApplication-Docker/WebApplication-Docker.csproj", "WebApplication-Docker/"]
-RUN dotnet restore "WebApplication-Docker/WebApplication-Docker.csproj"
-COPY . .
-WORKDIR "/src/WebApplication-Docker"
-RUN dotnet build "WebApplication-Docker.csproj" -c Release -o /app/build
-
-FROM build AS publish
-RUN dotnet publish "WebApplication-Docker.csproj" -c Release -o /app/publish
-
-FROM base AS final
-WORKDIR /app
-COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "WebApplication-Docker.dll"]
-```
-
-:::moniker-end
 :::moniker range="visualstudio"
 
 ## Choose the container build type and other options

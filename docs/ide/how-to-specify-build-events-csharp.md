@@ -23,30 +23,6 @@ Use build events to specify commands that run before the build starts or after t
 
 ## Specify a build event
 
-:::moniker range="<=vs-2019"
-
-1. In **Solution Explorer**, select the project for which you want to specify the build event.
-
-2. On the **Project** menu, click **Properties**.
-
-3. Select the **Build Events** tab.
-
-4. In the **Pre-build event command line** box, specify the syntax of the build event.
-
-   > [!NOTE]
-   > Pre-build events do not run if the project is up to date and no build is triggered.
-
-5. In the **Post-build event command line** box, specify the syntax of the build event.
-
-   > [!NOTE]
-   > Add a `call` statement before all post-build commands that run *.bat* files. For example, `call MyFile.bat` or `call MyFile.bat call MyFile2.bat`. Paths can be absolute, or relative to the output folder.
-
-6. In the **Run the post-build event** box, specify under what conditions to run the post-build event.
-
-   > [!NOTE]
-   > To add lengthy syntax, or to select any build macros from the [Pre-build event/post-build event command line dialog box](../ide/reference/pre-build-event-post-build-event-command-line-dialog-box.md), click the ellipsis button (**...**) to display an edit box.
-
-:::moniker-end
 :::moniker range=">=vs-2022"
 
 1. In **Solution Explorer**, select the project for which you want to specify the build event.

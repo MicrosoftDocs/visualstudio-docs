@@ -65,19 +65,6 @@ If the client installation is **not** done using `--quiet` or `--passive` mode, 
 
 The base `response.json` file in a layout should look similar to the following example, except that the productID would reflect the edition in your layout.   
 
-::: moniker range="=vs-2019"
-
-```Default response.json
-{
-  "installChannelUri": ".\\ChannelManifest.json",
-  "channelUri": "https://aka.ms/vs/16/release/channel",
-  "installCatalogUri": ".\\Catalog.json",
-  "channelId": "VisualStudio.16.Release",
-  "productId": "Microsoft.VisualStudio.Product.Enterprise"
-}
-```
-
-::: moniker-end
 
 ::: moniker range="=vs-2022"
 
@@ -120,43 +107,6 @@ When you create or update a layout, a response.template.json file is also create
 
 ## Example customized layout response file content
 
-::: moniker range="=vs-2019"
-
-The following `response.json` file example initializes a Visual Studio Enterprise client install to select several common workloads and components, to select both the English and French UI languages, and to have the update location configured to look for sources in a network hosted layout. For Visual Studio 2019, the update location (channelUri) can only be configured during initial installation and cannot be changed after the fact *unless* you use the functionality in the latest installer. Refer to the [Configure policies for enterprise deployments of Visual Studio](configure-policies-for-enterprise-deployments.md#configuring-source-location-for-updates) and the [Configure your layout to always include and provide the latest installer](create-a-network-installation-of-visual-studio.md#configure-the-layout-to-always-include-and-provide-the-latest-installer) for information on how to configure this.
-
-```Example response.json
-{
-  "installChannelUri": ".\\ChannelManifest.json",
-  "channelUri": "\\\\server\\share\\layoutdirectory\\ChannelManifest.json",
-  "installCatalogUri": ".\\Catalog.json",
-  "channelId": "VisualStudio.16.Release",
-  "productId": "Microsoft.VisualStudio.Product.Enterprise",
-
-  "installPath": "C:\\VS2019",
-  "quiet": false,
-  "passive": false,
-  "includeRecommended": true,
-  "norestart": false,
-  "useLatestInstaller": true,
-  "removeOos": true,
-  
-  "addProductLang": [
-    "en-US",
-    "fr-FR"
-    ],
-
-    "add": [
-        "Microsoft.VisualStudio.Workload.ManagedDesktop",
-        "Microsoft.VisualStudio.Workload.Data",
-        "Microsoft.VisualStudio.Workload.NativeDesktop",
-        "Microsoft.VisualStudio.Workload.NetWeb",
-        "Microsoft.VisualStudio.Workload.Office",
-        "Microsoft.VisualStudio.Workload.Universal",
-        "Component.GitHub.VisualStudio"
-    ]
-}
-```
-::: moniker-end
 
 ::: moniker range="=vs-2022"
 

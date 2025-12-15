@@ -99,11 +99,6 @@ For more information, see [Options dialog box, Projects and Solutions, Build and
 
 ## Use binary logs for large log files
 
-:::moniker range="<=vs-2019"
-
-Binary logs are an optional feature for .NET projects that lets you have a richer log browsing experience that might make it easier to find information in large logs. To use binary logs, install the [Project System Tools](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.ProjectSystemTools). For more information, see [`https://msbuildlog.com`](https://msbuildlog.com) and [Binary Log](https://github.com/microsoft/msbuild/blob/main/documentation/wiki/Binary-Log.md).
-
-:::moniker-end
 :::moniker range=">=vs-2022"
 
 Binary logs are an optional feature for .NET projects that lets you have a richer log browsing experience that might make it easier to find information in large logs. To use binary logs, install the [Project System Tools 2022](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.ProjectSystemTools2022). For more information, see [`https://msbuildlog.com`](https://msbuildlog.com) and [Binary Log](https://github.com/microsoft/msbuild/blob/main/documentation/wiki/Binary-Log.md).

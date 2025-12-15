@@ -1,13 +1,13 @@
 ---
 title: Use design-time sample data with the XAML Designer
 description: Develop Windows Presentation Foundation (WPF) .NET projects with the XAML Designer in Visual Studio to enable sample data in data-reliant controls.
-ms.date: 06/01/2021
+ms.date: 11/26/2025
 ms.topic: how-to
 author: maddymontaquila
 ms.author: maleger
 manager: mijacobs
 ms.subservice: xaml-tools
-monikerRange: ">=vs-2019"
+monikerRange: ">=vs-2022"
 ---
 # Use design-time sample data with the XAML Designer in Visual Studio
 
@@ -15,12 +15,8 @@ Some data-reliant controls, such as `ListView`, `ListBox`, and `DataGrid`, are h
 
 ## Requirements
 
-The Sample Data feature requires Visual Studio 2019 version [16.10](/visualstudio/releases/2019/release-notes-v16.10) or later.
+The Sample Data feature requires Visual Studio 2019 version [16.10](/visualstudio/releases/2019/release-notes-v16.10) or later. The feature supports Windows desktop projects that target WPF for .NET Core or .NET Framework when you're using the new designer.
 
-The feature supports Windows desktop projects that target WPF for .NET Core or .NET Framework when you're using the new designer. To enable the new designer for .NET Framework:
-
-1. Go to **Tools** > **Options** > **Environment** > **Preview Features**.
-2. Select **New WPF XAML Designer for .NET Framework**, and then restart Visual Studio.
 
 ## Basics of the Sample Data feature
 

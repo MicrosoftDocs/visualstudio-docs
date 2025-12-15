@@ -34,11 +34,6 @@ After selecting an item, you can insert it into your code by pressing **Tab** or
 
 In the member list, the icon to the left represents the member type, such as namespace, class, function, or variable. The list might be long, so you can press **PgUp** and **PgDn** to move up or down in the list.
 
-::: moniker range="vs-2019"
-
-:::image type="content" source="../ide/media/vs-2015-intellisense.png" alt-text="Screenshot of IntelliSense list members feature.":::
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
@@ -50,11 +45,6 @@ You can invoke the List Members feature manually by typing **Ctrl**+**J**, choos
 
 To turn List Members off by default so that it doesn't appear unless specifically invoked, go to **Tools** > **Options** > **Text Editor** > **All Languages** and deselect **Auto list members**. If you want to turn off List Members only for a specific language, go to the **General** settings for that language.
 
-::: moniker range="vs-2019"
-
-You can also change to suggestion mode, in which only the text you type is inserted into the code. For example, if you enter an identifier that isn't in the list and press **Tab**, the entry replaces the typed identifier in completion mode. To toggle between completion mode and suggestion mode, press **Ctrl**+**Alt**+**Space**, or choose **Edit** > **IntelliSense** > **Toggle Completion Mode**.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
@@ -68,11 +58,6 @@ You can also change to suggestion mode, in which only the text you type is inser
 
 The parameter in bold indicates the next parameter that is required as you type the function. For overloaded functions, you can use the **Up** and **Down** arrow keys to view alternative parameter information for the function overloads.
 
-::: moniker range="vs-2019"
-
-:::image type="content" source="../ide/media/vs-2015-param-info.png" alt-text="Screenshot showing the IntelliSense Parameter Info feature.":::
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
@@ -88,11 +73,6 @@ You can manually invoke Parameter Info by choosing **Edit** > **IntelliSense** >
 
 *Quick Info* displays the complete declaration for any identifier in your code.
 
-::: moniker range="vs-2019"
-
-:::image type="content" source="../ide/media/vs-2015-quick-info.png" alt-text="Screenshot showing the IntelliSense Quick Info feature.":::
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
@@ -102,11 +82,6 @@ You can manually invoke Parameter Info by choosing **Edit** > **IntelliSense** >
 
 When you select a member from the List Members box, Quick Info also appears.
 
-::: moniker range="vs-2019"
-
-:::image type="content" source="../ide/media/vs-2015-param-quick-info.png" alt-text="Screenshot of the IntelliSense Quick Info and parameter info feature.":::
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 

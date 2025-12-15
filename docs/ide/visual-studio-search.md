@@ -12,7 +12,7 @@ helpviewer_keywords:
 - windows [Visual Studio], navigating
 - Window.QuickLaunch
 - IDE navigator
-monikerRange: ">=vs-2019"
+monikerRange: ">=vs-2022"
 author: ghogen
 ms.author: ghogen
 manager: mijacobs

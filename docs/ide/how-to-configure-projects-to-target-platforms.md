@@ -27,12 +27,7 @@ Visual Studio enables you to set up your application builds to target different 
 > [!NOTE]
 > Visual Studio 2022 runs as a 64-bit application. This is totally separate from the platforms you can target for your projects in Visual Studio. You can use any version of Visual Studio to target both 32-bit and 64-bit platforms.
 ::: moniker-end
-::: moniker range="<=vs-2019"
-Visual Studio enables you to set up your application builds to target different platforms (processor architectures), such as x86 and x64. For 64-bit platform support for .NET development, see [64-bit applications](/dotnet/framework/64-bit-apps).
 
-> [!NOTE]
-> Visual Studio runs as a 32-bit application. This is totally separate from the platforms you can target for your projects in Visual Studio. You can use any version of Visual Studio to target both 32-bit and 64-bit platforms.
-::: moniker-end
 
 ## Target platforms with the Configuration Manager
 
@@ -66,25 +61,7 @@ For .NET development, .NET 6 or later is required to target the Arm64 platform. 
 
 ![Screenshot showing the new solution platform and project platform](./media/vs-2022/created-arm64-platform-configuration.png)
 :::moniker-end
-:::moniker range="<=vs-2019"
-### To configure a project to target a different platform
 
-1. On the menu bar, choose **Build** > **Configuration Manager**.
-
-1. In the **Active solution platform** list, choose a  platform for the solution to target, and then choose the **Close** button.
-
-    1. If the platform that you want doesn't appear in the **Active solution platform** list, choose **New**. After you install the tools for a particular platform, you'll be able to add the new solution and project configurations targeting that platform.
-
-         The **New Solution Platform** dialog box appears.
-
-    1. In the **Type or select the new platform** list, choose the desired platform (processor architecture); for example, `x64`.
-
-        > [!NOTE]
-        > If you give your configuration a new name, you may have to modify the settings in the **Project Designer** to target the correct platform.
-
-    1. If you want to copy the settings from a current platform configuration, choose it, and then choose the **OK** button.
-
-:::moniker-end
 
 > [!NOTE]
 > The **Win32** platform name is used for C++ projects, and it means **x86**. Visual Studio considers both project-level platforms and solution-level platforms, and the project platforms come from the language-specific project systems. C++ projects use **Win32** and **x64**, but the solution platforms use **x86** and **x64**. When you choose **x86** as the solution configuration, Visual Studio selects the **Win32** platform for C++ projects. To see both project-level platform and solution-level platform settings, open **Configuration Manager** and note the two platform settings. The solution-level platform is shown in the **Active solution platform** dropdown, and the table shows the project-level platform for each project.

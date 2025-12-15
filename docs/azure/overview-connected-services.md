@@ -7,7 +7,7 @@ ms.subservice: azure-development
 ms.topic: overview
 ms.date: 12/3/2024
 ms.author: ghogen
-monikerRange: ">=vs-2019"
+monikerRange: ">=vs-2022"
 ms.custom: sfi-image-nochange
 ---
 
@@ -24,9 +24,6 @@ Connected Services includes a collection of tools in Visual Studio that help you
 - Windows Communication Foundation (WCF) endpoints
 - Databases and data providers
 
-:::moniker range="vs-2019"
-Get started by right-clicking on the **Connected Services** node in **Solution Explorer** and select **Manage Connected Services**.
-:::moniker-end
 
 :::moniker range=">=vs-2022"
 Get started by right-clicking on the project node, and choosing **Add > Connected Service**. You can also right-click on the **Connected Services** node in **Solution Explorer** and choose a specific service to add.

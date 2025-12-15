@@ -33,50 +33,6 @@ The connected service functionality adds all the needed references and connectio
 
 ## Connect to Azure Storage using Connected Services
 
-:::moniker range="vs-2019"
-
-1. Open your project in Visual Studio.
-
-1. In **Solution Explorer**, right-click the **Connected Services** node, and, from the context menu, select **Add Connected Service**.
-
-    ![Screenshot showing "Add Azure connected service" screen.](./media/vs-azure-tools-connected-services-storage/vs-2019/add-connected-service.png)
-
-1. In the **Connected Services** tab, select the + icon for **Service Dependencies**.
-
-    ![Screenshot showing "Add Service Dependency" screen.](./media/vs-azure-tools-connected-services-storage/vs-2019/connected-services-tab.png)
-
-1. In the **Add Dependency** page, select **Azure Storage**.
-
-    ![Screenshot showing "Add Azure Storage" screen.](./media/vs-azure-tools-connected-services-storage/vs-2019/add-azure-storage.png)
-
-    If you aren't signed in already, sign in to your Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn).
-
-1. In the **Configure Azure Storage** screen, select an existing storage account, and select **Next**.
-
-    If you need to create a storage account, go to the next step. Otherwise, skip to step 6.
-
-    ![Screenshot showing "Add existing storage account to project" screen.](./media/vs-azure-tools-connected-services-storage/vs-2019/select-azure-storage-account.png)
-
-1. To create a storage account:
-
-   1. Select **Create a storage account** at the bottom of the dialog.
-
-   1. Fill out the **Azure Storage: Create new** dialog, and select **Create**.
-
-       ![Screenshot showing "New Azure Storage account" screen.](./media/vs-azure-tools-connected-services-storage/vs-2019/create-storage-account.png)
-
-   1. When the **Azure Storage** dialog is displayed, the new storage account appears in the list. Select the new storage account in the list, and select **Next**.
-
-1. Enter a connection string name, and choose whether you want the connection string stored in a local secrets file, or in [Azure Key Vault](/azure/key-vault).
-
-   ![Screenshot showing "Specify connection string" screen.](./media/vs-azure-tools-connected-services-storage/vs-2019/connection-string.png)
-
-1. The **Summary of changes** screen shows all the modifications that will be made to your project if you complete the process. If the changes look OK, choose **Finish**.
-
-   ![Screenshot showing "Summary of changes" screen.](./media/vs-azure-tools-connected-services-storage/vs-2019/summary-of-changes.png)
-
-1. The storage connected service appears under the **Connected Services** node of your project.
-:::moniker-end
 
 :::moniker range=">=vs-2022"
 

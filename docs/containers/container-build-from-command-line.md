@@ -22,9 +22,6 @@ If you want to build a container project with a Dockerfile outside of Visual Stu
 If you're using the .NET SDK build type, you don't have a Dockerfile, so you can't use `docker build`; instead, use `dotnet publish /t:PublishContainer` to build on the command line.
 :::moniker-end
 
-:::moniker range="vs-2019"
-If you want to build a container project with a Dockerfile outside of Visual Studio, you can use `docker build` or `dotnet publish /t:PublishContainer` to build from the command line.
-:::moniker-end
 
 :::moniker range="visualstudio"
 
@@ -43,14 +40,6 @@ If you want to build a container project with a Dockerfile outside of Visual Stu
 
 :::moniker-end
 
-::: moniker range="vs-2019"
-
-## Prerequisites
-
-- [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
-- [Visual Studio 2019 or later](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, **.NET desktop development**, and/or **.NET Core cross-platform development** workload installed.
-
-:::moniker-end
 
 :::moniker range="<=vs-2022"
 ## Use Docker build

@@ -156,7 +156,7 @@ You can use slash commands in a [chat window](visual-studio-github-copilot-chat.
 | /generate | Generate code to answer specified question. <br> Example: `/generate code to add two numbers in Calculator.cs`| Yes | Yes | 
 | /help | Get help on using Copilot Chat. <br> Example: `/help`| Yes | Yes | 
 | /optimize | Analyze and improve running time of the selected code. <br> Examples:<br> - `/optimize the AddItemToBasket method in BasketService.cs`</br>- select desired code and enter `/optimize`| Yes | Yes |
-| /tests| Create unit tests for the selected code.<br>  Example: select desired code and enter `/tests using XUnit Framework`| Yes | Yes |
+| /tests| Create unit tests for the selected code.<br>  Example: select desired code and enter `/tests using XUnit Framework`<br>For .NET, we recommend [GitHub Copilot Testing for .NET](../test/github-copilot-test-dotnet-overview.md)| Yes | Yes |
 
 :::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-context-slash-commands.png" alt-text="Screenshot of slash commands in inline chat view and chat windows.":::
 

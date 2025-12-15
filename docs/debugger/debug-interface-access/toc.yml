@@ -1490,6 +1490,14 @@
           href: idiasymbol11-get-discriminateduniontag.md
         - name: IDiaSymbol11::get_tagRanges
           href: idiasymbol11-get-tagranges.md
+      - name: IDiaSymbol12
+        items:
+        - name: IDiaSymbol12
+          href: idiasymbol12.md
+        - name: IDiaSymbol12::get_scalableRegisterType
+          href: idiasymbol12-get-scalableregistertype.md
+        - name: IDiaSymbol12::get_atomicType
+          href: idiasymbol12-get-atomicType.md
       - name: IDiaTable
         items:
         - name: IDiaTable
@@ -1556,6 +1564,8 @@
         href: thunk-ordinal.md
       - name: UdtKind
         href: udtkind.md
+      - name: ScalableVectorType
+        href: scalablevectortype.md
     - name: Constants (Debug Interface Access SDK)
       href: constants-debug-interface-access-sdk.md
   - name: Dia2dump Sample

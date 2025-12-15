@@ -49,16 +49,7 @@ To customize code coverage, follow these steps:
 
    To turn the custom settings off and on, deselect or select the file on the **Test** menu.
    :::moniker-end
-   ::: moniker range="vs-2019"
-   To select the run settings file, on the **Test** menu, choose **Select Settings File**. To specify a run settings file for running tests from the command line, see [Configure unit tests](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md#specify-a-run-settings-file-from-the-command-line).
 
-   When you select **Analyze Code Coverage**, the configuration information is read from the run settings file.
-
-   > [!TIP]
-   > Any previous code coverage results and code coloring aren't automatically hidden when you run tests or update your code.
-
-   To turn the custom settings off and on, choose **Test**, **Configure Run Settings**, and deselect or select the file name.
-   :::moniker-end
 
 ## Symbol search paths
 
@@ -241,6 +232,8 @@ Copy this code and edit it to suit your needs.
       <DataCollector friendlyName="Code Coverage" uri="datacollector://Microsoft/CodeCoverage/2.0" assemblyQualifiedName="Microsoft.VisualStudio.Coverage.DynamicCoverageDataCollector, Microsoft.VisualStudio.TraceCollector, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
         <Configuration>
           <Format>coverage</Format>
+          <!-- When set to False, test assemblies will not be added to the coverage report. -->
+          <IncludeTestAssembly>True</IncludeTestAssembly>
           <CodeCoverage>
 <!--
 Additional paths to search for .pdb (symbol) files. Symbols must be found for modules to be instrumented.
@@ -349,8 +342,6 @@ Included items must then not match any entries in the exclude list to remain inc
             <EnableDynamicNativeInstrumentation>True</EnableDynamicNativeInstrumentation>
             <!-- When set to True, instrumented binaries on disk are removed and original files are restored. -->
             <EnableStaticNativeInstrumentationRestore>True</EnableStaticNativeInstrumentationRestore>
-            <!-- When set to False, test assemblies will not be added to the coverage report. -->
-            <IncludeTestAssembly>True</IncludeTestAssembly>
           </CodeCoverage>
         </Configuration>
       </DataCollector>
@@ -361,128 +352,6 @@ Included items must then not match any entries in the exclude list to remain inc
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
-
-```xml
-<?xml version="1.0" encoding="utf-8"?>
-<!-- File name extension must be .runsettings -->
-<RunSettings>
-  <DataCollectionRunSettings>
-    <DataCollectors>
-      <DataCollector friendlyName="Code Coverage" uri="datacollector://Microsoft/CodeCoverage/2.0" assemblyQualifiedName="Microsoft.VisualStudio.Coverage.DynamicCoverageDataCollector, Microsoft.VisualStudio.TraceCollector, Version=11.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-        <Configuration>
-          <CodeCoverage>
-<!--
-Additional paths to search for .pdb (symbol) files. Symbols must be found for modules to be instrumented.
-If .pdb files are in the same folder as the .dll or .exe files, they are automatically found. Otherwise, specify them here.
-Note that searching for symbols increases code coverage runtime. So keep this small and local.
--->
-<!--
-            <SymbolSearchPaths>
-                   <Path>C:\Users\username\source\repos\ProjectX</Path>
-                   <Path>\\mybuildshare\builds\ProjectX</Path>
-            </SymbolSearchPaths>
--->
-
-<!--
-About include/exclude lists:
-Empty "Include" clauses imply all; empty "Exclude" clauses imply none.
-Each element in the list is a regular expression (ECMAScript syntax). See /visualstudio/ide/using-regular-expressions-in-visual-studio.
-An item must first match at least one entry in the include list to be included.
-Included items must then not match any entries in the exclude list to remain included.
--->
-
-            <!-- Match assembly file paths: -->
-            <ModulePaths>
-              <Include>
-                <ModulePath>.*\.dll$</ModulePath>
-                <ModulePath>.*\.exe$</ModulePath>
-              </Include>
-              <Exclude>
-                <ModulePath>.*CPPUnitTestFramework.*</ModulePath>
-              </Exclude>
-              <!-- Specifies additional list of directories where binaries static native instrumentation should be searched. -->
-              <IncludeDirectories>
-                <Directory Recursive="true">C:\b59fb11c-1611-4562-9a2b-c35719da65d3</Directory>
-              </IncludeDirectories>
-            </ModulePaths>
-
-            <!-- Match fully qualified names of functions: -->
-            <!-- (Use "\." to delimit namespaces in C# or Visual Basic, "::" in C++.)  -->
-            <Functions>
-              <Exclude>
-                <Function>^Fabrikam\.UnitTest\..*</Function>
-                <Function>^std::.*</Function>
-                <Function>^ATL::.*</Function>
-                <Function>.*::__GetTestMethodInfo.*</Function>
-                <Function>^Microsoft::VisualStudio::CppCodeCoverageFramework::.*</Function>
-                <Function>^Microsoft::VisualStudio::CppUnitTestFramework::.*</Function>
-              </Exclude>
-            </Functions>
-
-            <!-- Match attributes on any code element: -->
-            <Attributes>
-              <Exclude>
-                <!-- Don't forget "Attribute" at the end of the name -->
-                <Attribute>^System\.Diagnostics\.DebuggerHiddenAttribute$</Attribute>
-                <Attribute>^System\.Diagnostics\.DebuggerNonUserCodeAttribute$</Attribute>
-                <Attribute>^System\.CodeDom\.Compiler\.GeneratedCodeAttribute$</Attribute>
-                <Attribute>^System\.Diagnostics\.CodeAnalysis\.ExcludeFromCodeCoverageAttribute$</Attribute>
-              </Exclude>
-            </Attributes>
-
-            <!-- Match the path of the source files in which each method is defined: -->
-            <Sources>
-              <Exclude>
-                <Source>.*\\atlmfc\\.*</Source>
-                <Source>.*\\vctools\\.*</Source>
-                <Source>.*\\public\\sdk\\.*</Source>
-                <Source>.*\\microsoft sdks\\.*</Source>
-                <Source>.*\\vc\\include\\.*</Source>
-              </Exclude>
-            </Sources>
-
-            <!-- Match the company name property in the assembly: -->
-            <CompanyNames>
-              <Exclude>
-                <CompanyName>.*microsoft.*</CompanyName>
-              </Exclude>
-            </CompanyNames>
-
-            <!-- Match the public key token of a signed assembly: -->
-            <PublicKeyTokens>
-              <!-- Exclude Visual Studio extensions: -->
-              <Exclude>
-                <PublicKeyToken>^B77A5C561934E089$</PublicKeyToken>
-                <PublicKeyToken>^B03F5F7F11D50A3A$</PublicKeyToken>
-                <PublicKeyToken>^31BF3856AD364E35$</PublicKeyToken>
-                <PublicKeyToken>^89845DCD8080CC91$</PublicKeyToken>
-                <PublicKeyToken>^71E9BCE111E9429C$</PublicKeyToken>
-                <PublicKeyToken>^8F50407C4E9E73B6$</PublicKeyToken>
-                <PublicKeyToken>^E361AF139669C375$</PublicKeyToken>
-              </Exclude>
-            </PublicKeyTokens>
-
-            <!-- We recommend you do not change the following values: -->
-
-            <!-- Set this to True to collect coverage information for functions marked with the "SecuritySafeCritical" attribute. Instead of writing directly into a memory location from such functions, code coverage inserts a probe that redirects to another function, which in turns writes into memory. -->
-            <UseVerifiableInstrumentation>True</UseVerifiableInstrumentation>
-            <!-- When set to True, collects coverage information from child processes that are launched with low-level ACLs, for example, UWP apps. -->
-            <AllowLowIntegrityProcesses>True</AllowLowIntegrityProcesses>
-            <!-- When set to True, collects coverage information from child processes that are launched by test or production code. -->
-            <CollectFromChildProcesses>True</CollectFromChildProcesses>
-            <!-- When set to True, restarts the IIS process and collects coverage information from it. -->
-            <CollectAspDotNet>False</CollectAspDotNet>
-
-          </CodeCoverage>
-        </Configuration>
-      </DataCollector>
-    </DataCollectors>
-  </DataCollectionRunSettings>
-</RunSettings>
-```
-
-::: moniker-end
 
 ## Related content
 

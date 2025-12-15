@@ -34,31 +34,6 @@ Use repair if you're having issues with:
 
 To repair your installation, follow these steps.
 
-::: moniker range="vs-2019"
-
-1. Find the **Visual Studio Installer** on your computer.
-
-   In the Windows Start menu, you can search for *installer*.
-
-   :::image type="content" source="media/vs-2019/visual-studio-installer.png" alt-text="Screenshot showing the result of a Start menu search for the Visual Studio Installer.":::
-
-   > [!NOTE]
-   > You can also find the Visual Studio Installer in the following location:
-   >
-   > *C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe*
-
-   You might have to update the installer before you continue. If so, follow the prompts.
-
-1. In the installer, look for the edition of Visual Studio that you want to repair. Next, choose **More**, and then choose **Repair**.
-
-     :::image type="content" source="media/vs-2019/vs-installer-repair.png" alt-text="Screenshot showing the Repair option in the More dropdown menu of the Visual Studio Installer.":::
-
-   > [!NOTE]
-   > Repairing Visual Studio resets its environment. Repairing removes local customizations like per-user extensions installed without elevation, user settings, and profiles. It restores your synchronized settings such as themes, colors, and key bindings.
-
-   The **Repair** option appears only for installed instances of Visual Studio. If you don't see the **Repair** option, check whether you selected **More** in a version that appears in the Visual Studio Installer as **Available** rather than **Installed**.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 

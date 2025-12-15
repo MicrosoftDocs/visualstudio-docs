@@ -45,22 +45,6 @@ Complete these steps to specify an application icon.
 
 ::: moniker-end
 
-::: moniker range="<=vs-2019" 
-
-1. In Solution Explorer, select a [project node](use-solution-explorer.md#solution-explorer-ui) (not the Solution node).
-
-1. On the menu bar, select **Project** > **Properties**.
-
-    > [!TIP]
-    > You might see your project's file name when you view **Project** > **Properties**. For example, if you're working on a project that's named "Calculator", Visual Studio displays **Project** > **Calculator Properties**.
-
-1. When the Project Designer appears, select the **Application** tab.
-
-1. In the **Icon** section, choose an icon (*.ico*) file by using either of the following methods:
-    - For Visual Basic, in the **Icon** list, choose an icon file.
-    - For C#, near the **Icon** list, select the **Browse** button to browse to the location of the icon file that you want to use.
-
-::: moniker-end
 
 ## Related content
 
