@@ -370,7 +370,7 @@ Now, tweak the code to add more functionality.
 
 The current calculator app only accepts and returns whole numbers. For example, if you run the app and divide the number 42 by the number 119, your result is zero, which isn't exact.
 
-:::moniker range="<=vs-2022"
+:::moniker range="vs-2022"
    
 :::image type="content" source="media/csharp-console-calculator-nodecimal.png" alt-text="Screenshot of a Console window that shows the Calculator app returning an inexact whole number as a result.":::
 
@@ -418,7 +418,7 @@ To fix the code to improve precision by handling decimals:
 
 7. Run your calculator app, and divide the number **42.5** by the number **119.75**.
 
-:::moniker range="<=vs-2022"
+:::moniker range="vs-2022"
    The app now accepts decimal values, and returns a longer decimal numeral as its result.
 
    :::image type="content" source="media/csharp-console-calculator-usedecimals.png" alt-text="Screenshot of a Console window showing the Calculator app that now accepts decimal numbers and returns a longer decimal result.":::
@@ -799,7 +799,7 @@ Let's get started.
 
 1. If you haven't already done so, close the Calculator app.
 
-:::moniker range="<=vs-2022"
+:::moniker range="vs-2022"
 
 2. Close the **Output** pane in Visual Studio.
 
