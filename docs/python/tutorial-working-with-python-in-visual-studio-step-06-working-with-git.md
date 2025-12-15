@@ -4,8 +4,8 @@ titleSuffix: ""
 description: Explore step 6 of a tutorial about Python capabilities in Visual Studio that shows features for working with Git in Visual Studio.
 ms.date: 07/30/2025
 ms.topic: tutorial
-author: gramster
-ms.author: grwheele
+author: Devdiv-VR
+ms.author: vedhar
 manager: mijacobs
 ms.subservice: python
 

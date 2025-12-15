@@ -3,8 +3,8 @@ title: Edit Python code and use Intellisense
 description: Develop Python applications in Visual Studio and access rich IntelliSense, code snippets, and navigation features. Apply formatting, linting, and refactoring to clean and maintain your code.
 ms.date: 04/18/2024
 ms.topic: how-to
-author: gramster
-ms.author: grwheele
+author: Devdiv-VR
+ms.author: vedhar
 manager: mijacobs
 ms.subservice: python
 

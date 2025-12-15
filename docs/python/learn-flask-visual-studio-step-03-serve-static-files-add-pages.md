@@ -4,8 +4,8 @@ titleSuffix: ""
 description: Step 3 of a core walkthrough of Flask capabilities in Visual Studio, including serving static files, adding pages to the Flask app, and using template inheritance.
 ms.date: 04/18/2024
 ms.topic: tutorial
-author: gramster
-ms.author: grwheele
+author: Devdiv-VR
+ms.author: vedhar
 manager: mijacobs
 ms.subservice: python
 

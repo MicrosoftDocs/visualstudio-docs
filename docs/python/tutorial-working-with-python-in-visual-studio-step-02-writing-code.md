@@ -4,8 +4,8 @@ titleSuffix: ""
 description: Explore step 2 of a tutorial about Python capabilities in Visual Studio that demonstrates how to edit code and run a project.
 ms.date: 07/29/2025
 ms.topic: tutorial
-author: gramster
-ms.author: grwheele
+author: Devdiv-VR
+ms.author: vedhar
 manager: mijacobs
 ms.subservice: python
 

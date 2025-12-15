@@ -1,8 +1,8 @@
 ---
 title: Reformat your python code in Visual Studio
 description: Automatically format your Python code in Visual Studio, including the code spacing, statements, long line wrapping, and code comments.
-author: gramster
-ms.author: grwheele
+author: Devdiv-VR
+ms.author: vedhar
 ms.subservice: python
 ms.topic: article
 ms.date: 04/18/2024

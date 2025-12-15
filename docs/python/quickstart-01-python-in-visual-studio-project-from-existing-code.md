@@ -3,8 +3,8 @@ title: "Quickstart: Create Python project from code"
 description: Follow guided steps to create a Visual Studio project for Python from existing code for a quick start to develop a Python application.
 ms.date: 04/18/2024
 ms.topic: quickstart
-author: gramster
-ms.author: grwheele
+author: Devdiv-VR
+ms.author: vedhar
 manager: mijacobs
 ms.subservice: python
 

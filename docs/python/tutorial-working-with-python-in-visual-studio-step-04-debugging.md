@@ -4,8 +4,8 @@ titleSuffix: ""
 description: Explore step 4 of a tutorial about Python capabilities in Visual Studio that demonstrates how to run Python code in the debugger.
 ms.date: 11/21/2025
 ms.topic: tutorial
-author: gramster
-ms.author: grwheele
+author: Devdiv-VR
+ms.author: vedhar
 manager: mijacobs
 ms.subservice: python
 

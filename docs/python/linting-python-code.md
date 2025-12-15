@@ -3,8 +3,8 @@ title: Lint Python code and check for issues
 description: Run the pylint or mypy linter in Visual Studio to check for issues in your Python code, and explore command-line options to customize the linting process.
 ms.date: 04/18/2024
 ms.topic: how-to
-author: gramster
-ms.author: grwheele
+author: Devdiv-VR
+ms.author: vedhar
 manager: mijacobs
 ms.subservice: python
 

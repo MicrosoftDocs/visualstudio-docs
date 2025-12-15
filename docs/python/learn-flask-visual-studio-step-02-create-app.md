@@ -4,8 +4,8 @@ titleSuffix: ""
 description: Step 2 of a core walkthrough of Flask capabilities in Visual Studio, including procedures to create an application with multiple views by using inline HTML templates.
 ms.date: 04/18/2024
 ms.topic: tutorial
-author: gramster
-ms.author: grwheele
+author: Devdiv-VR
+ms.author: vedhar
 manager: mijacobs
 ms.subservice: python
 

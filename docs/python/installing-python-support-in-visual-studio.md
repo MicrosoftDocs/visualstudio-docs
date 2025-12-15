@@ -1,8 +1,8 @@
 ---
 title: Install Python Tools for Visual Studio (PTVS)
 description: Install the Python Tools for Visual Studio (PTVS) in Visual Studio on Windows and check your installation in the Python Interactive window.
-author: gramster
-ms.author: grwheele
+author: Devdiv-VR
+ms.author: vedhar
 ms.subservice: python
 ms.topic: how-to
 ms.date: 11/12/2025

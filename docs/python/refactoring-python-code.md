@@ -3,8 +3,8 @@ title: Refactor to transform and clean your Python code
 description: Visual Studio makes it easy to refactor and clean your Python code. Rename identifiers, extract methods, add imports, and remove unused imports.
 ms.date: 04/18/2024
 ms.topic: how-to
-author: gramster
-ms.author: grwheele
+author: Devdiv-VR
+ms.author: vedhar
 manager: mijacobs
 ms.subservice: python
 

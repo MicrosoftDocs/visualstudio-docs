@@ -3,8 +3,8 @@ title: Use IPython REPL in the Interactive Window
 description: Use the Visual Studio Interactive Window in IPython mode for a user-friendly interactive development environment with Interactive Parallel Computing features.
 ms.date: 04/18/2024
 ms.topic: how-to
-author: gramster
-ms.author: grwheele
+author: Devdiv-VR
+ms.author: vedhar
 manager: mijacobs
 ms.subservice: python
 

@@ -3,8 +3,8 @@ title: Django Web Project templates for Python
 description: Explore comprehensive Django web project templates in Visual Studio for rapid creation of Django web applications with Python.
 ms.date: 04/18/2024
 ms.topic: concept-article
-author: gramster
-ms.author: grwheele
+author: Devdiv-VR
+ms.author: vedhar
 manager: mijacobs
 ms.subservice: python
 
