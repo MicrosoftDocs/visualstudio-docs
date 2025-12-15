@@ -28,7 +28,7 @@ Although Copilot can generate unit tests, you get extra testing capability by us
 - GitHub Copilot testing builds the unit tests following test generation. If there are errors, the unit testing capability in GitHub Copilot for .NET tries to identify and fix errors, and then re-runs the tests.
 - GitHub Copilot testing runs the tests using Test Explorer.
 
-GitHub Copilot testing for .NET generates tests for C# projects only using the MSTest, NUnit, and xUnit frameworks.
+GitHub Copilot testing for .NET generates tests for C# projects only using the MSTest, NUnit, and xUnit frameworks. If the solution already has unit tests in NUnit or xUnit, GitHub Copilot testing for .NET generates new tests in the same unit testing framework. If there are no unit tests in the solution, new tests are generated using MSTest.
 
 ## Prerequisites
 
@@ -61,6 +61,9 @@ For an introduction to unit testing, see [Unit test basics](../test/unit-test-ba
    ```
 
    where `#target` can be the name of a solution, project, file, class, or member.
+
+   > [!NOTE]
+   > You can be either in Ask mode or Agent mode when you enter the `@test` command. The results do not differ.
 
    For the Bank sample code, you can specify the class name: `@test #BankAccount`. The Test command appears in the chat as follows, indicating that the command is recognized.
 
