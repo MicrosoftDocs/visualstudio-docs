@@ -54,19 +54,7 @@ This tutorial begins by creating a simple project that contains a single, empty 
 1. On the **Configure your new project** screen, specify a name and file location for the project, and then select **Create**.
 
 :::moniker-end
-::: moniker range="vs-2019"
 
-1. In Visual Studio, select **File** > **New** > **Project** to open the **New Project** dialog. You can also use the keyboard shortcut **Ctrl**+**Shift**+**N**. In the dialog box, you can browse templates across different languages, select a template for your project, and specify where Visual Studio places files.
-
-1. To view Python templates, select **Installed** > **Python** on the left menu, or search for *Python*. The search option is a great way to find a template when you can't remember its location in the languages tree.
-
-   :::image type="content" source="media/tutor-python-1-create-project.png" alt-text="Screenshot showing the Create a new project dialog box with Python project templates." lightbox="media/tutor-python-1-create-project.png":::
-
-   Python support in Visual Studio includes several project templates, including web applications using the Bottle, Flask, and Django frameworks. For the purposes of this walkthrough, however, let's start with an empty project.
-
-1. Select the **Python Application** template, specify a name for the project, and select **OK**.
-
-::: moniker-end
 ::: moniker range="vs-2022"
 
 1. In Visual Studio, select **File** > **New** > **Project** or use the keyboard shortcut **Ctrl**+**Shift**+**N**. The **Create a new project** screen opens, where you can search and browse templates across different languages.
@@ -91,11 +79,7 @@ After a few moments, your new project opens in Visual Studio:
 
 :::moniker-end
 
-::: moniker range="vs-2019"
 
-:::image type="content" source="media/tutor-python-1-environment-windows.png" alt-text="Screenshot showing the new project open in Visual Studio." lightbox="media/tutor-python-1-environment-windows.png":::
-
-::: moniker-end
 ::: moniker range="vs-2022"
 
 :::image type="content" source="media/vs-2022/tutor-python-1-environment-windows-2022.png" alt-text="Screenshot showing the new project open in Visual Studio 2022." lightbox="media/vs-2022/tutor-python-1-environment-windows-2022.png":::
@@ -118,11 +102,7 @@ Take some time to familiarize yourself with **Solution Explorer**. This window i
      
 :::moniker-end
 
-::: moniker range="vs-2019"
 
-:::image type="content" source="media/tutor-python-1-solution-explorer.png" alt-text="Screenshot of Solution Explorer expanded to show features." lightbox="media/tutor-python-1-solution-explorer.png":::
-
-::: moniker-end
 ::: moniker range="vs-2022"
 
 :::image type="content" source="media/vs-2022/tutor-python-1-solution-explorer-2022.png" alt-text="Screenshot of Solution Explorer expanded to show features for Visual Studio 2022." lightbox="media/vs-2022/tutor-python-1-solution-explorer-2022.png":::
