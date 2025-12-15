@@ -1,7 +1,7 @@
 ---
 title: Debug ASP.NET Exceptions
 description: Learn to configure so that the debugger stops for unhandled exceptions in your ASP.NET application. You can assure that the break occurs in non-system code.
-ms.date: 07/21/2023
+ms.date: 12/15/2025
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -37,7 +37,9 @@ Debugging exceptions is an important part of developing a robust ASP.NET applica
 
 1. If you want to disable **Continue When Unhandled in User Code**, right-click the row and deselect the option, if it's already selected.
 
-     To use the **User-unhandled** setting, **Just My Code** must be enabled.
+   To use the **Continue When Unhandled in User Code** setting, **Just My Code** must be enabled.
+
+   If you want to enable **Continue When Unhandled in User Code**, right-click the row and select the option to continue, and then deselect the row for the exception.
 
 ### To use best practices for ASP.NET exception handling
 
@@ -45,3 +47,5 @@ Debugging exceptions is an important part of developing a robust ASP.NET applica
 
 ## Related content
 - [Debug ASP.NET Applications](../debugger/how-to-enable-debugging-for-aspnet-applications.md)
+- [Managing Exceptions with the Debugger](../debugger/managing-exceptions-with-the-debugger.md)
+- [Just My Code](../debugger/just-my-code.md)
