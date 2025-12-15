@@ -129,7 +129,7 @@ The inline chat view of Copilot Chat in Visual Studio enables you to ask your qu
 
 :::moniker range="visualstudio"
 
-1. In Visual Studio, right click in your editor window and select **Ask Copilot** to bring up the inline chat view of Copilot Chat in the editor itself.
+1. In Visual Studio, right-click in your editor window and select **Chat** to bring up the inline chat view of Copilot Chat in the editor itself.
     
     :::image type="content" source="media/visualstudio/visual-studio-github-copilot-chat/copilot-chat-inline-ask-copilot.png" alt-text="Screenshot of how to enable inline chat in the editor from right-click context menu.":::
 
@@ -137,11 +137,11 @@ The inline chat view of Copilot Chat in Visual Studio enables you to ask your qu
 
     :::image type="content" source="media/visualstudio/visual-studio-github-copilot-chat/copilot-chat-inline-chat.png" alt-text="Screenshot of inline chat interface in the editor window." lightbox="media/visualstudio/visual-studio-github-copilot-chat/copilot-chat-inline-chat.png" :::
 
-1. You'll see code suggestions from Copilot Chat in Visual Studio diff view. You can review and refine what is being proposed and apply to your code by selecting **Accept** or discard by selecting **Cancel**.
+1. You'll see code suggestions from Copilot Chat in Visual Studio diff view. You can review and refine what is being proposed and apply to your code selecting **Tab** or discard by selecting **Esc**.
     
     :::image type="content" source="media/visualstudio/visual-studio-github-copilot-chat/copilot-chat-inline-diff-view.png" alt-text="Screenshot of code suggestions in Visual Studio diff view." lightbox="media/visualstudio/visual-studio-github-copilot-chat/copilot-chat-inline-diff-view.png" :::
 
-1. You can promote your inline chat thread to the chat window by selecting **Continue in chat window**. This'll preserve the record and context of your conversation, and you can continue in the chat window.
+1. You can promote your inline chat thread to the chat window by selecting **Copilot Actions** > **Add to Chat**. This will preserve the record and context of your conversation, and you can continue in the chat window.
     
     :::image type="content" source="media/visualstudio/visual-studio-github-copilot-chat/promote-inline-chat-to-chat-window.png" alt-text="Screenshot of how to continue the inline chat thread in the chat window." :::
 
