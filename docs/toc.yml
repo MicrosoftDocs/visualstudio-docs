@@ -933,7 +933,6 @@
         items:
         - name: Environment > Visual Experience
           href: ide/reference/configure-visual-experience-options.md
-      items:
       - name: Environment
         items:
         - name: General
