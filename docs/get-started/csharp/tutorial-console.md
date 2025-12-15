@@ -37,42 +37,6 @@ If you don't have Visual Studio, go to [Visual Studio downloads](https://aka.ms/
 
 To start, create a C# application project. The project type comes with all the template files you need.
 
-::: moniker range="vs-2019"
-
-1. Open Visual Studio, and select **Create a new project** in the start window.
-
-   :::image type="content" source="../../get-started/media/vs-2019/create-new-project-dark-theme.png" alt-text="Screenshot showing the Create a new project window.":::
-
-1. In the **Create a new project** window, select **C#** from the language dropdown list. Choose **Windows** from the platform list and **Console** from the project types list.
-
-   After you apply the language, platform, and project type filters, choose the **Console Application** template, and then select **Next**.
-
-   > [!NOTE]
-   > If you don't see the **Console Application** template, select **Install more tools and features**.
-   >
-   > :::image type="content" source="../../get-started/media/vs-2019/not-finding-what-looking-for.png" alt-text="Screenshot that shows the Install more tools and features link.":::
-   >
-   > In the Visual Studio Installer, select the **.NET Core cross-platform development** workload.
-   >
-   > :::image type="content" source="media/dot-net-core-xplat-dev-workload.png" alt-text="Screenshot showing the .NET Core cross-platform development workload in the Visual Studio Installer.":::
-   >
-   > Select **Modify** in the Visual Studio Installer. You might be prompted to save your work. Select **Continue** to install the workload.
-   >
-   > Return to step 2 in the [Create a project](#create-a-project) procedure.
-
-1. In the **Configure your new project** window, type or enter *Calculator* in the **Project name** box. Then, select **Next**.
-
-   :::image type="content" source="./media/vs-2019/csharp-name-your-calculator-project.png" alt-text="Screenshot showing how to name your project 'Calculator' in the 'Configure your new project' window in Visual Studio." lightbox="./media/vs-2019/csharp-name-your-calculator-project.png":::
-
-1. In the **Additional information** window, verify that **.NET Core 3.1** appears in the **Target Framework** field. Then, select **Create**.
-
-   :::image type="content" source="./media/vs-2019/csharp-target-framework.png" alt-text="Screenshot of the Additional information window in Visual Studio showing .NET Core 3.1 as the target framework for the new project." lightbox="./media/vs-2019/csharp-target-framework.png":::
-
-Visual Studio opens your new project, which includes default *Hello World* code. To view it in the editor, select the code file *Program.cs* in the Solution Explorer window, which is typically on the right-hand side of Visual Studio.
-
-The default *Hello World* code calls the <xref:System.Console.WriteLine%2A> method to display the literal string **Hello, World!** in the console window. If you press F5, you can run the default program in Debug mode. After the application runs in the debugger, the console window stays open. Press any key to close the console window.
-
-::: moniker-end
 ::: moniker range="vs-2022"
 
 1. Open Visual Studio, and select **Create a new project** in the start window.
