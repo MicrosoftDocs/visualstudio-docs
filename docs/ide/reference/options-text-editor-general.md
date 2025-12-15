@@ -1,7 +1,7 @@
 ---
 title: Options, Text Editor, General
-description: Learn how to use the General page to change global settings for the Visual Studio code and text editor.
-ms.date: 12/14/2023
+description: Learn how to use the General page to change global settings for the Visual Studio Code editor.
+ms.date: 12/16/2025
 ms.topic: reference
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor
@@ -34,44 +34,59 @@ ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide
 ---
-# Options dialog box: Text Editor \> General
+# Options dialog: Text Editor \> General
 
-This dialog box lets you change global settings for the Visual Studio code and text editor. To display this dialog box, select **Options** on the **Tools** menu, expand the **Text Editor** folder, and then select **General**.
+::: moniker range="visualstudio"
 
-::: moniker range=">=vs-2022"
+This section of the **Options** pane lets you change global settings for the Visual Studio Code editor. You can access the settings by selecting **Tools** > **Options** from the Visual Studio menu bar and expanding the **All Settings** > **Text Editor** > **General** section. The settings are distributed across three categories: **General**, **Display**, and **Sticky scroll**. The following image shows the settings in the **General** section:
 
-:::image type="content" source="media/vs-2022/tools-options-text-editor-general.png" alt-text="Screenshot of the text editor's general settings in the Options dialog box.":::
+:::image type="content" source="media/visualstudio/tools-options-text-editor-general.png" alt-text="Screenshot of the General settings for the Text Editor in the Tools Options pane.":::
+
+::: moniker-end
+::: moniker range="vs-2022"
+
+This section of the **Options** dialog lets you change global settings for the Visual Studio Code editor. You can access the settings by selecting **Tools** > **Options** from the Visual Studio menu bar and expanding the **Text Editor** > **General** section. The settings are presented in two categories: General options (which includes Sticky scroll) and Display options. The following image shows the settings in the General category:
+
+:::image type="content" source="media/vs-2022/tools-options-text-editor-general.png" alt-text="Screenshot of the Text Editor General settings in the Tools Options dialog.":::
 
 ::: moniker-end
 
+## General settings
 
-## Settings
+::: moniker range="visualstudio"
 
-The Settings section of **Tools** > **Options** > **Text Editor** > **General** includes the following options.
+The following **General** options are available for the **Text Editor**.
+
+::: moniker-end
+::: moniker range="vs-2022"
+
+The following **General** options are available for the **Text Editor**, including settings for **Sticky Scroll**.
+
+::: moniker-end
 
 ### Drag and drop text editing
 
-When selected, this setting enables you to move text by selecting and then dragging it with the mouse to another location within the current document or any other open document.
-
-::: moniker range=">=vs-2022"
+When this setting is selected, you can move text by selecting and then dragging it with the mouse to another location within the current document or any other open document.
 
 ### Select subword on double click
 
-When you select this setting, a double-click selects only a subword instead of a whole word. (This can be helpful when you're using medial capitals, as an example.)
+When you enable this setting, double-click selects a term as a _subword_ within a word and not the complete word. This action can be helpful for API names with medial capital styling, such as `MainCallbackRoutine`. Depending on the cursor location when you double-click the word, you can select the term `Main`, `Callback`, or `Routine`, rather than the complete API name.
 
 ### Cut or Copy the current line without selection
 
 When you select this setting, you can cut or copy the current line where your cursor is positioned without having to first select the text or code on that line.
 
-::: moniker-end
-
 ### Automatic delimiter highlighting
 
-When selected, delimiter characters that separate parameters or item-value pairs, as well as matching braces, are highlighted.
+When this setting is selected, delimiter characters that separate parameters or item-value pairs, as well as matching braces, are highlighted.
 
 ### Track changes
 
-When the code editor is selected, a vertical yellow line appears in the selection margin to mark code that has changed since the file was most recently saved. When you save the changes, the vertical lines become green.
+When the code editor is selected, a vertical yellow line appears in the selection margin to mark code changed since the file was most recently saved. When you save the changes, the vertical lines become green.
+
+#### Tracking mode
+
+When you enable **Track changes**, you can set the **Tracking mode** option to the type of changes to track: **Git changes** or **File changes**.
 
 ### Auto-detect UTF-8 encoding without signature
 
@@ -79,39 +94,61 @@ By default, the editor detects encoding by searching for byte order marks or cha
 
 ### Follow project coding conventions
 
-When selected, any project specific [code style settings specified in an *EditorConfig* file added to the project](../create-portable-custom-editor-options.md#code-consistency) override any local code style settings specified in the **Options** dialog box by selecting **Text Editor** > **Language, for example, C#** > **Code Style** > **General**.
+::: moniker range="visualstudio"
+
+When this setting is selected, any project-specific [code style settings specified in an *EditorConfig* file added to the project](../create-portable-custom-editor-options.md#code-consistency) override any local code style settings. The local settings are specified in the **Options** pane under **All Settings** > **Languages** > _\<Language, such as C#>_ > **Code Style** > **General**.
+
+::: moniker-end
+::: moniker range="vs-2022"
+
+When this setting is selected, any project-specific [code style settings specified in an *EditorConfig* file added to the project](../create-portable-custom-editor-options.md#code-consistency) override any local code style settings. The local settings are specified in the **Options** dialog under **Text Editor** > _\<Language, such as C#>_ > **Code Style** > **General**.
+
+::: moniker-end
 
 > [!TIP]
-> To learn more about coding conventions and how they are applied, see the [Create portable, custom editor settings with EditorConfig](../create-portable-custom-editor-options.md) page.
+> To learn more about coding conventions and how they're applied, see the [Create portable, custom editor settings with EditorConfig](../create-portable-custom-editor-options.md) page.
 
-::: moniker range=">=vs-2022"
+### Enable image hover preview
+
+When this setting is selected, if you hover on an image in the editor, a popup displays showing a preview of the image.
 
 ### Enable audio cues
 
-When selected, Visual Studio plays an audio cue when the caret in the editor arrives on a line with an error, breakpoint, or warning. When you view a file in the Diff view, Visual Studio also plays a cue when the caret arrives on a line that's been added or removed.
+When you select this setting, Visual Studio plays an audio cue when the caret in the editor arrives on a line with an error, breakpoint, or warning. When you view a file in the Diff view, Visual Studio also plays a cue when the caret arrives on an added or removed line.
 
 > [!NOTE]
 > You can also individually enable or modify these audio cues by using the Sound Control Panel in Windows.
 
-::: moniker-end
-
 ### Enable mouse click to perform Go to Definition
 
-When selected, you can press **Ctrl** and hover over an element while clicking the mouse. Doing so takes you to the definition of the selected element. You can also choose either **Alt** or **Ctrl** + **Alt** from the **Use modifier key** drop-down.
+When this setting is selected, you can press **Ctrl** and hover over an element while clicking the mouse. This action moves you to the location of the definition of the selected element.
+
+#### Modifier key
+
+You can set the **Modifier key** for the Go to Definition action to **Alt**, **Ctrl**, or **Ctrl** + **Alt**.
 
 #### Open definition in peek view
 
-Select this checkbox to display the element's definition in a window without navigating away from your current location in the code editor. For more information, see [How to: View and edit code by using Peek Definition](../how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md).
+Select this checkbox to display the element definition in a window without navigating away from your current location in the code editor. For more information, see [How to: View and edit code by using Peek Definition](../how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md).
 
-::: moniker range=">=vs-2022"
+## Sticky scroll settings
 
-## Sticky scroll
+::: moniker range="visualstudio"
 
-The Sticky scroll section of **Tools** > **Options** > **Text Editor** > **General** includes the following options.
+The **Text Editor** > **General** > **Sticky scroll** section includes the following options for configuring scrolling behavior.
+
+:::image type="content" source="media/visualstudio/tools-options-text-editor-scroll.png" alt-text="Screenshot of the Sticky Scroll settings for the Text Editor in the Tools Options pane.":::
+
+::: moniker-end
+::: moniker range="vs-2022"
+
+The **Text Editor** > **General** section includes the following options for configuring **Sticky scroll** behavior.
+
+::: moniker-end
 
 ### Group the current scopes within a scrollable region of the editor window
 
-Select this checkbox to enable [Sticky Scroll](../editor-sticky-scroll.md) to *stick* scopes to the top of the editor so that they're always in view while you *scroll* through your code. Scopes include namespaces, classes, methods, loop initialization statements, and conditionals. First introduced in Visual Studio 2022 [version 17.5](/visualstudio/releases/2022/release-notes-v17.5), supported programming languages and code formats for Sticky Scroll include C#, C++, XAML, and JSON. 
+Select this checkbox to enable [Sticky scroll](../editor-sticky-scroll.md) to *stick* scopes to the top of the editor so they're always in view while you *scroll* through your code. Scopes include namespaces, classes, methods, loop initialization statements, and conditionals. This setting is available in Visual Studio 2022 [version 17.5](/visualstudio/releases/2022/release-notes-v17.5) and later. The supported programming languages and code formats for Sticky scroll include C#, C++, XAML, and JSON. 
 
 ### Maximum sticky lines
 
@@ -121,29 +158,50 @@ Set to a default of **5**, you can increase or decrease the number of lines that
 
 The default is **Prefer outer scopes**, which shows higher-level scopes. You can change it to **Prefer inner scopes**, which pushes out higher-level scopes as you scroll through deeply nested code. For more information, see the "[Inner and outer scopes](../editor-sticky-scroll.md#inner-and-outer-scopes)" section of the [What is Sticky Scroll for Visual Studio](../editor-sticky-scroll.md) page.
 
+## Display settings
+
+::: moniker range="visualstudio"
+
+The **Text Editor** > **General** > **Display** section includes the following options for configuring display behavior.
+
+:::image type="content" source="media/visualstudio/tools-options-text-editor-display.png" alt-text="Screenshot of the Display setting for the Text Editor in the Tools Options pane.":::
+
+### Show whitespace
+
 ::: moniker-end
+::: moniker range="vs-2022"
 
-## Display
+The **Text Editor** > **General** section includes the following options for configuring **Display** behavior.
 
-The Display section of **Tools** > **Options** > **Text Editor** > **General** includes the following options.
+:::image type="content" source="media/vs-2022/tools-options-text-editor-display.png" alt-text="Screenshot of the Text Editor Display settings in the Tools Options dialog.":::
 
 ### View whitespace
 
-When selected, you can visualize spaces and tabs.
+::: moniker-end
 
-::: moniker range=">=vs-2022"
+When this setting is selected, you can see spaces and tabs that make up whitespace within the content.
+
+### Automatically indent when Word Wrap is enabled
+
+Select this option if you want to automatically apply indentation when the Word Wrap feature is enabled.
+
+::: moniker range="visualstudio"
+
+### Show bidirectional text control characters
+
+::: moniker-end
+::: moniker range="vs-2022"
 
 ### View bidirectional text control characters
 
 ::: moniker-end
 
-
-When selected, all bidirectional text control characters are rendered as placeholders in the code editor.
+When this setting is selected, all bidirectional text control characters are rendered as placeholders in the code editor.
 
 > [!CAUTION]
 > This option is selected by default to prevent a potentially malicious exploit that allows code to be misrepresented.
 
-See the following code snippet for an example of bidirectional control characters:
+The following code snippet shows an example of bidirectional control characters:
 
 ```csharp
 /// <summary>
@@ -169,13 +227,20 @@ internal readonly ImmutableArray<char> BiDiControlCharacters = ImmutableArray.Cr
 });
 ```
 
-::: moniker range=">=vs-2022"
+::: moniker range="visualstudio"
+
+### Show zero-width characters
+
+::: moniker-end
+::: moniker range="vs-2022"
 
 ### View zero-width characters
 
-When selected, zero-width characters are rendered in the code editor.
+::: moniker-end
 
-See the following code snippet for an example of zero-width characters:
+When you select this setting, zero-width characters are rendered in the code editor.
+
+The following code snippet shows an example of zero-width characters:
 
 ```csharp
 /// <summary>
@@ -195,65 +260,108 @@ internal readonly ImmutableArray<char> ZeroWidthCharacters = ImmutableArray.Crea
 });
 ```
 
-### Enable brace pair colorization
+::: moniker range="visualstudio"
 
-When selected, braces are color-matched so that you can visually distinguish each set of opening and closing braces in your code. Brace colorization makes it easier to see your code's scope or find any missing braces. Released in Visual Studio 2022 [version 17.6](/visualstudio/releases/2022/release-notes-v17.6), brace pair colorization is supported for C#, C++, TypeScript, JavaScript, Visual Basic, and Razor.
-
-:::image type="content" source="media/vs-2022/brace-pair-colorization.png" alt-text="Screenshot of an example of brace pair colorization in Visual Studio.":::
+### Show selection margin
 
 ::: moniker-end
+::: moniker range="vs-2022"
 
 ### Selection margin
 
-When selected, displays a vertical margin along the left edge of the editor's text area. You can click this margin to select an entire line of text, or click and drag to select consecutive lines of text.
+::: moniker-end
+
+When this setting is selected, a vertical margin displays along the left edge of the editor's text area. You can click in this margin to select an entire line of text, or click and drag to select consecutive lines of text.
 
 |Selection Margin on|Selection Margin off|
 | - | - |
 |![HTMLpageSelectionMarginOn screenshot](../../ide/media/vxselmaron.gif)|![HTMLpageSelectionMarginOff screenshot](../../ide/media/vxselmaroff.gif)|
 
+### Enable brace pair colorization
+
+When you use this setting, braces are color-matched so you can visually distinguish each set of opening and closing braces in your code. Brace colorization makes it easier to see your code's scope and find any missing braces. The setting is available in Visual Studio 2022 [version 17.6](/visualstudio/releases/2022/release-notes-v17.6) and later. Brace pair colorization is supported for C#, C++, TypeScript, JavaScript, Visual Basic, and Razor.
+
+:::image type="content" source="media/vs-2022/brace-pair-colorization.png" alt-text="Screenshot of an example of brace pair colorization in Visual Studio.":::
+
+### Automatically surround selections when typing quotes or brackets
+
+This option makes it easy to enclose text in quotes or brackets. When you enter a quote or bracket, Visual Studio automatically adds an ending quote or bracket. As you continue to type, the text within the enclosing character is highlighted.
+
+::: moniker range="visualstudio"
+
+### Show indicator margin
+
+::: moniker-end
+::: moniker range="vs-2022"
+
 ### Indicator margin
-
-When selected, displays a vertical margin outside the left edge of the editor's text area. When you click in this margin, an icon and ToolTip that are related to the text appear. For example, breakpoint or task list shortcuts appear in the indicator margin. Indicator Margin information doesn't print.
-
-### Highlight current line
-
-When selected, displays a gray box around the line of code in which the cursor is located.
-
-### Show structure guide lines
-
-When selected, vertical lines appear in the editor that line up with structured code blocks, which lets you easily identify the individual blocks of code.
-
-### Show error squiggles
-
-When selected, different-colored wavy underlines, known as squiggles, appear in your code. (Red squiggles denote syntax errors, blue denotes compiler errors, green denotes warnings, and purple denotes other types of errors.)
-
-::: moniker range=">=vs-2022"
-
-### Show selection matches
-
-When selected, Visual Studio automatically highlights matching strings after you select text in the editor. Specifically, anytime a single line of text of 100 characters or less is selected, any matches are highlighted.
 
 ::: moniker-end
 
+When you select this setting, a vertical margin displays outside the left edge of the editor's text area. When you click in this margin, you see an icon and ToolTip related to the text. For example, breakpoint or task list shortcuts appear in the indicator margin. Indicator Margin information doesn't print.
+
+### Highlight current line
+
+When this setting is selected, a gray box displays around the line of code in which the cursor is located.
+
+### Show structure guide lines
+
+When you select this setting, vertical lines appear in the editor that line up with structured code blocks. The lines help you easily identify the individual blocks of code.
+
+### Show error squiggles
+
+When this option is selected, different-colored wavy underlines (_squiggles_) appear in your code. Red squiggles indicate syntax errors, blue denotes represent compiler errors, green denotes show warnings, and purple denotes indicate other types of errors.
+
+### Show selection matches
+
+When you select this setting, Visual Studio automatically highlights matching strings after you select text in the editor. Specifically, anytime a single line of text of 100 characters or less is selected, any matches are highlighted.
+
 ### Show file health indicator
 
-When selected, a file health indicator status (errors, warnings) bar, with code cleanup options, is displayed in the lower-left corner of the editor.
+When this option is selected, a file health status indicator (errors, warnings) bar displays in the lower-left corner of the editor. The bar status includes code cleanup options.
 
 ### Line spacing
 
-Use this control to change the default line spacing of 1.0 to the increment you want, to include 1.15, 1.5, 2.0, 2.5, and 3.0.
+Use this control to change the default line spacing of 1.0 to the increment you want. You can choose from 1.0, 1.15, 1.5, 2.0, 2.5, and 3.0.
+
+::: moniker range="visualstudio"
+
+### Outlining margin style
+
+Use this control to change the visibility of margin expanders in the IDE. The following options are available:
+
+- **Show expanders on hover**
+- **Show expanders and vertical line on hover**
+- **Always show expanders and vertical line**
+
+::: moniker-end
 
 ### Show editing context in the editor
 
 Use this control to toggle the editing context settings altogether, or personalize to your preference by selecting from the following settings:
 
-- Line/Col
-- Selections
-- Insert/Overwrite
-- Tab/Space
-- Line endings
+::: moniker range="visualstudio"
 
-## See also
+- **Line/Col**
+- **Selection**
+- **Selection State**
+- **Insert/Overwrite**
+- **Tab/Space**
+- **Line endings**
+- **Encoding**
+
+::: moniker-end
+::: moniker range="vs-2022"
+
+- **Line/Col**
+- **Selections**
+- **Insert/Overwrite**
+- **Tab/Space**
+- **Line endings**
+
+::: moniker-end
+
+## Related content
 
 - [Options, Text Editor, All Languages](../../ide/reference/options-text-editor-all-languages.md)
 - [Options, Text Editor, All Languages, Tabs](../../ide/options-text-editor-all-languages-tabs.md)
