@@ -178,7 +178,7 @@ You can change the behavior with the **Paste removes REPL prompts** option for t
 ::: moniker-end
 
 
-When you clear the option, the prompt characters are retained in code pasted from the window. For more information, see [Options - Miscellaneous options](python-support-options-and-settings-in-visual-studio.md?view=vs-2019&preserve-view=true#miscellaneous-options).
+When you clear the option, the prompt characters are retained in code pasted from the window. For more information, see [Options](python-support-options-and-settings-in-visual-studio.md).
 
 ## Review IntelliSense behavior
 

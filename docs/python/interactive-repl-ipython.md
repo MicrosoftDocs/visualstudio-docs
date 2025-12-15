@@ -102,7 +102,7 @@ The following steps show you how to use IPython commands in the Interactive Wind
 
 1. To view the graphs outside of the **Interactive Window**, run the code with the **Debug** > **Start without Debugging** command on the main Visual Studio toolbar.
 
-IPython has many other useful features, such as escaping to the system shell, variable substitution, capturing output, and so on. For more information, see the [IPython documentation](https://ipython.org/documentation.html).
+IPython has many other useful features, such as escaping to the system shell, variable substitution, capturing output, and so on. For more information, see the [IPython documentation](https://ipython.org/).
 
 ## Related content
 

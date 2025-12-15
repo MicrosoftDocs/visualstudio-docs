@@ -65,7 +65,7 @@ Selecting **@** symbol (at) starts a decorator and shows potential decorators. M
 
 :::image type="content" source="media/code-editing-completion-decorator.png" alt-text="Screenshot that shows decorator completion in the Visual Studio editor." border="false":::
 
-For more information, see [Options - completion results](python-support-options-and-settings-in-visual-studio.md#completion-results).
+For more information, see [Options](python-support-options-and-settings-in-visual-studio.md).
 
 ### Type hints
 
