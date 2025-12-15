@@ -54,7 +54,7 @@ This tutorial begins by creating a simple project that contains a single, empty 
 1. On the **Configure your new project** screen, specify a name and file location for the project, and then select **Create**.
 
 :::moniker-end
-::: moniker range="<=vs-2019"
+::: moniker range="vs-2019"
 
 1. In Visual Studio, select **File** > **New** > **Project** to open the **New Project** dialog. You can also use the keyboard shortcut **Ctrl**+**Shift**+**N**. In the dialog box, you can browse templates across different languages, select a template for your project, and specify where Visual Studio places files.
 
@@ -91,7 +91,7 @@ After a few moments, your new project opens in Visual Studio:
 
 :::moniker-end
 
-::: moniker range="<=vs-2019"
+::: moniker range="vs-2019"
 
 :::image type="content" source="media/tutor-python-1-environment-windows.png" alt-text="Screenshot showing the new project open in Visual Studio." lightbox="media/tutor-python-1-environment-windows.png":::
 
@@ -118,7 +118,7 @@ Take some time to familiarize yourself with **Solution Explorer**. This window i
      
 :::moniker-end
 
-::: moniker range="<=vs-2019"
+::: moniker range="vs-2019"
 
 :::image type="content" source="media/tutor-python-1-solution-explorer.png" alt-text="Screenshot of Solution Explorer expanded to show features." lightbox="media/tutor-python-1-solution-explorer.png":::
 
