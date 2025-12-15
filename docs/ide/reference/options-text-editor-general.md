@@ -70,7 +70,7 @@ When this setting is selected, you can move text by selecting and then dragging 
 
 ### Select subword on double click
 
-When you enable this setting, double-click selects a term as a _subword_ within a word and not the complete word. This action can be helpful for API names with medial capitals, such as `MainCallbackRoutine`. Depending on where your cursor is when you double-click the word, you can select the term `Main`, `Callback`, or `Routine`, rather than the complete API name.
+When you enable this setting, double-click selects a term as a _subword_ within a word and not the complete word. This action can be helpful for API names with medial capital styling, such as `MainCallbackRoutine`. Depending on the cursor location when you double-click the word, you can select the term `Main`, `Callback`, or `Routine`, rather than the complete API name.
 
 ### Cut or Copy the current line without selection
 
@@ -96,12 +96,12 @@ By default, the editor detects encoding by searching for byte order marks or cha
 
 ::: moniker range="visualstudio"
 
-When this setting is selected, any project-specific [code style settings specified in an *EditorConfig* file added to the project](../create-portable-custom-editor-options.md#code-consistency) override any local code style settings. The local settings are specified in the **Options** pane under **All Settings** > **Languages** > **\<Language, such as C#>** > **Code Style** > **General**.
+When this setting is selected, any project-specific [code style settings specified in an *EditorConfig* file added to the project](../create-portable-custom-editor-options.md#code-consistency) override any local code style settings. The local settings are specified in the **Options** pane under **All Settings** > **Languages** > _\<Language, such as C#>_ > **Code Style** > **General**.
 
 ::: moniker-end
 ::: moniker range="vs-2022"
 
-When this setting is selected, any project-specific [code style settings specified in an *EditorConfig* file added to the project](../create-portable-custom-editor-options.md#code-consistency) override any local code style settings. The local settings are specified in the **Options** dialog under **Text Editor** > **\<Language, such as C#>** > **Code Style** > **General**.
+When this setting is selected, any project-specific [code style settings specified in an *EditorConfig* file added to the project](../create-portable-custom-editor-options.md#code-consistency) override any local code style settings. The local settings are specified in the **Options** dialog under **Text Editor** > _\<Language, such as C#>_ > **Code Style** > **General**.
 
 ::: moniker-end
 
