@@ -33,9 +33,7 @@ To open the string visualizer, you must be paused during debugging. Hover over a
 ::: moniker range=">= vs-2022"
 ![Screenshot of Open a string visualizer.](../debugger/media/vs-2022/debug-tips-string-visualizers.png "Open string visualizer")
 ::: moniker-end
-::: moniker range="vs-2019"
-![Screenshot of Open a string visualizer.](../debugger/media/dbg-tips-string-visualizers.png "Open string visualizer")
-::: moniker-end
+
 
 In the string visualizer window, the **Expression** field shows the variable or expression you're hovering over, and the **Value** field shows the string value.
 

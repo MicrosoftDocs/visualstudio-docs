@@ -7,7 +7,7 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: msbuild
-monikerRange: '>=vs-2019'
+monikerRange: '>=vs-2022'
 ---
 # What's new in MSBuild 16.0
 

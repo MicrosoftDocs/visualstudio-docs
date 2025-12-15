@@ -58,13 +58,7 @@ Open the **Tools** > **Options** dialog, expand the **Debugging** > **General** 
 ![Set a breakpoint](../debugger/media/vs-2022/basic-breakpoint.png "Basic breakpoint")
 
 ::: moniker-end
-::: moniker range="<= vs-2019"
 
-Select **Tools** (or **Debug**) > **Options** > **Debugging** >  **Highlight entire source line for breakpoints and current statement (C++ only)**.
-
-![Set a breakpoint](../debugger/media/basicbreakpoint.png "Basic breakpoint")
-
-::: moniker-end
 
 To debug, press **F5** or select **Debug** > **Start Debugging**.
 
@@ -76,11 +70,6 @@ At the breakpoint in the following example, the value of `testInt` is still 3. S
 ![Breakpoint execution stopped](../debugger/media/vs-2022/breakpoint-execution.png "Breakpoint execution")
 ::: moniker-end
 
-::: moniker range="<= vs-2019"
-At the breakpoint in the following example, the value of `testInt` is still 1. So, the value hasn't changed since the variable was initialized (set to a value of 1) because the statement in yellow hasn't yet executed.
-
-![Breakpoint execution stopped](../debugger/media/breakpointexecution.png "Breakpoint execution")
-::: moniker-end
 
 When the debugger stops at the breakpoint, you can look at the current state of the app, including [variable values](../debugger/debugger-feature-tour.md#inspect-variables-with-data-tips) and the [call stack](../debugger/how-to-use-the-call-stack-window.md).
 
@@ -113,9 +102,7 @@ To open the **Breakpoints** window, select **Debug** > **Windows** > **Breakpoin
 ::: moniker range=">= vs-2022"
 ![Breakpoints window](../debugger/media/vs-2022/breakpoints-window.png "Breakpoints window")
 ::: moniker-end
-::: moniker range="<= vs-2019"
-![Breakpoints window](../debugger/media/breakpointswindow.png "Breakpoints window")
-::: moniker-end
+
 
 To select the columns to display in the **Breakpoints** window, select **Show Columns**. Select a column header to sort the breakpoints list by that column.
 

@@ -107,11 +107,7 @@ Now you're ready to run the Django web application and see the features provided
    :::image type="content" source="media/django/vs-2022/step-04-startup-project-bold.png" alt-text="Screenshot that shows the Django Web project name is bold in Solution Explorer to indicate it's the startup project in Visual Studio." border="false" lightbox="media/django/vs-2022/step-04-startup-project-bold.png":::
 
    ::: moniker-end
-   ::: moniker range="<=vs-2019"
 
-   :::image type="content" source="media/django/step-04-startup-project-bold.png" alt-text="Screenshot that shows the Django Web project name is bold in Solution Explorer to indicate it's the startup project in Visual Studio." border="false" lightbox="media/django/step-04-startup-project-bold.png":::
-
-   ::: moniker-end
 
 1. Select **Debug** > **Start Debugging** (**F5**) or use the **Web Server** button on the toolbar to run the server:
 

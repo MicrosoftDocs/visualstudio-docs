@@ -19,7 +19,7 @@ As you develop your Python projects, you might find yourself switching to a comm
 
 - Visual Studio on Windows installed with support for Python workloads. For more information, see [Install Python support in Visual Studio](installing-python-support-in-visual-studio.md).
 
-Visual Studio for Mac isn't supported. For more information, see [What's happening to Visual Studio for Mac?](/visualstudio/mac/what-happened-to-vs-for-mac) Visual Studio Code on Windows, Mac, and Linux [works well with Python through available extensions](https://code.visualstudio.com/docs/languages/python).
+Visual Studio for Mac isn't supported. Visual Studio Code on Windows, Mac, and Linux [works well with Python through available extensions](https://code.visualstudio.com/docs/languages/python).
 
 ## Explore custom commands
 
@@ -30,11 +30,7 @@ By default, the **Python** project menu contains two commands, **Run PyLint** an
 :::image type="content" source="media/vs-2022/custom-commands-default-menu.png" alt-text="Screenshot that shows the default commands on the Python project menu in Visual Studio 2022." border="false" lightbox="media/vs-2022/custom-commands-default-menu.png":::
 
 ::: moniker-end
-::: moniker range="<=vs-2019"
 
-:::image type="content" source="media/custom-commands-default-menu.png" alt-text="Screenshot that shows the default commands on the Python project menu in Visual Studio." border="false" lightbox="media/custom-commands-default-menu.png":::
-
-::: moniker-end
 
 Any custom Python commands that you define appear in this same menu. A custom command can refer to a Python file, a Python module, inline Python code, an arbitrary executable, or a pip command. You can also specify how and where the command runs.
 
@@ -51,11 +47,7 @@ You can add custom commands in several ways:
    :::image type="content" source="media/vs-2022/custom-commands-django-menu.png" alt-text="Screenshot that shows the custom commands added for a Django project to the Python project menu in Visual Studio 2022." border="false" lightbox="media/vs-2022/custom-commands-django-menu.png":::
 
    ::: moniker-end
-   ::: moniker range="<=vs-2019"
 
-   :::image type="content" source="media/custom-commands-django-menu.png" alt-text="Screenshot that shows the custom commands added for a Django project to the Python project menu in Visual Studio." border="false" lightbox="media/custom-commands-django-menu.png":::
-
-   ::: moniker-end
 
 ### Reload project to access custom commands
 
@@ -171,11 +163,7 @@ The following procedure shows how to create a custom command by adding the defin
    :::image type="content" source="media/vs-2022/custom-commands-run-startup-file.png" alt-text="Screenshot that shows the Run startup file custom command on the Python context menu in Visual Studio 2022." border="false" lightbox="media/vs-2022/custom-commands-run-startup-file.png":::
 
    ::: moniker-end
-   ::: moniker range="<=vs-2019"
 
-   :::image type="content" source="media/custom-commands-walkthrough-menu-item.png" alt-text="Screenshot that shows the Run startup file custom command on the Python context menu in Visual Studio." border="false" lightbox="media/custom-commands-walkthrough-menu-item.png":::
-
-   ::: moniker-end
 
 1. Select the **Run startup file** command. A console window opens and displays the text **Hello custom commands** followed by **Press any key to continue**. Confirm the output and close the console window.
 
@@ -207,11 +195,7 @@ The following procedure shows how to create a custom command by adding the defin
    :::image type="content" source="media/vs-2022/custom-commands-output-window.png" alt-text="Screenshot that shows the custom command output displayed in the Visual Studio 2022 Output window." border="false" lightbox="media/vs-2022/custom-commands-output-window.png":::
 
    ::: moniker-end
-   ::: moniker range="<=vs-2019"
 
-   :::image type="content" source="media/custom-commands-walkthrough-output-window.png" alt-text="Screenshot that shows the custom command output displayed in the Visual Studio Output window." border="false" lightbox="media/custom-commands-walkthrough-output-window.png":::
-
-   ::: moniker-end
 
 1. To add more custom commands, follow this same process:
 

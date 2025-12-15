@@ -151,35 +151,16 @@ Enables the script debugger for ASP.NET apps. On first use in Chrome, you might 
 Enables the script debugger for ASP.NET apps. On first use in Chrome, you might need to sign into the browser to enable Chrome extensions that you have installed. Disable this option to revert to legacy behavior.
 ::: moniker-end
 
-::: moniker range="<=vs-2019"
-**Enable using the multi-target JavaScript debugger for debugging JavaScript in applicable targets (requires debugging restart)**
-Enables connection to the browser and back-end simultaneously, allowing you to debug your code running in the client and server right from the editor.
-::: moniker-end
 
 **Load dll exports (Native only)**:
 Loads dll export tables. Symbol information from dll export tables can be useful if you're working with Windows messages, Windows procedures (WindowProcs), COM objects, or marshaling, or any dll for which you don't have symbols. Reading dll export information involves some overhead. Therefore, this capability is turned off by default.
 
    - To see what symbols are available in the export table of a dll, use `dumpbin /exports`. Symbols are available for any 32-bit system dll. By reading the `dumpbin /exports` output, you can see the exact function name, including nonalphanumeric characters. This is useful for setting a breakpoint on a function. Function names from dll export tables might appear truncated elsewhere in the debugger. The calls are listed in the calling order, with the current function (the most deeply nested) at the top. For more information, see [dumpbin /exports](/cpp/build/reference/dash-exports).
 
-::: moniker range="<=vs-2019"
-**Show parallel stacks diagram bottom-up**:
-Controls the direction in which stacks are displayed in the **Parallel Stacks** window.
-::: moniker-end
 
 **Ignore GPU memory access exceptions if the data written didn't change the value**:
 Ignores race conditions that were detected during debugging if the data didn't change. For more information, see [Debugging GPU Code](../debugger/debugging-gpu-code.md).
 
-::: moniker range="<= vs-2019"
-**Use Managed Compatibility Mode**:
-Replaces the default debugging engine with a legacy version to enable these scenarios:
-
-- You're using a .NET language other than C#, Visual Basic, or F# that provides its own Expression Evaluator (this includes C++/CLI).
-
-- You want to enable Edit and Continue for C++ projects during mixed mode debugging.
-
-> [!NOTE]
-> Choosing Managed Compatibility mode disables some features that are implemented only in the default debugging engine. The legacy debugging engine was replaced in Visual Studio 2012.
-::: moniker-end
 
 **Warn when using custom debugger visualizers against potentially unsafe processes (Managed only)**:
 Visual Studio warns you when you're using a custom debugger visualizer that's running code in the debugged process, because it could be running unsafe code.
@@ -187,28 +168,6 @@ Visual Studio warns you when you're using a custom debugger visualizer that's ru
 **Enable Windows debug heap allocator (Native only)**:
 Enables the windows debug heap to improve heap diagnostics. Enabling this option impacts debugging performance.
 
-::: moniker range="vs-2019"
-**Enable UI Debugging Tools for XAML**:
-The Live Visual Tree and the Live Property Explore windows appear when you start debugging (**F5**) a supported project type. For more information, see [Inspect XAML properties while debugging](../xaml-tools/inspect-xaml-properties-while-debugging.md).
-
-- **Preview selected elements in Live Visual Tree**:
-    The XAML element whose context is selected is also selected in the **Live Visual Tree** window.
-
-- **Show runtime tools in application**:
-    Shows the **Live Visual Tree** commands in a toolbar on the main window of the XAML application that's being debugged.
-
-- **Enable XAML Hot Reload**:
-    Allows you to use the XAML Hot Reload feature with XAML code when your app is running. (This feature was previously called "XAML Edit and Continue")
-
-- **Enable Just My XAML**:
-    Starting in Visual Studio 2019 version 16.4, the **Live Visual Tree** by default shows only XAML that is classified as user code. If you disable this option, all generated XAML code is shown in the tool.
-
-- **Turn off selection mode when an element is selected**:
-    Starting in Visual Studio 2019 version 16.4, the in-app toolbar element selector button (**Enable selection**) switches off when an element is selected. If you disable this option, element selection stays on until you click the in-app toolbar button again.
-
-- **Apply XAML Hot Reload on document save**:
-    Starting in Visual Studio 2019 version 16.6, applies XAML Hot Reload when you save your document.
-::: moniker-end
 
 **Enable Diagnostic Tools while debugging**:
 The **Diagnostic Tools** window appears while you're debugging.
@@ -227,34 +186,17 @@ Enables the Hot Reload functionality while debugging.
     Get warnings about stale code.
 ::: moniker-end
 
-::: moniker range="vs-2019" 
-**Enable Edit and Continue**:
-Enables the Edit and Continue functionality while debugging.
-
-- **Enable Native Edit and Continue**:
-    You can use the Edit and Continue functionality while debugging native C++ code. For more information, see [Edit and Continue (C++)](../debugger/edit-and-continue-visual-cpp.md).
-
-- **Apply changes on continue (Native only)**:
-    Visual Studio automatically compiles and applies any outstanding code changes you have made when continuing the process from a break state. If not selected, you can choose to apply changes using the **Apply Code Changes** item under the **Debug** menu.
-
-- **Warn about stale code (Native only)**:
-    Get warnings about stale code.
-::: moniker-end
 
 ::: moniker range=">=vs-2022" 
 **Show Run To Click button while debugging**:
 When this option is selected, the [Run to Click](../debugger/debugger-feature-tour.md#run-to-a-point-in-your-code-quickly-using-the-mouse) button is shown while debugging.
 ::: moniker-end
 
-::: moniker range="vs-2019" 
-**Show Run to Click button in editor while debugging**:
-When this option is selected, the [Run to Click](../debugger/debugger-feature-tour.md#run-to-a-point-in-your-code-quickly-using-the-mouse) button is shown while debugging.
-::: moniker-end
 
 **Automatically close the console when debugging stops**:
 Tells Visual Studio to close the console at the end of a debugging session.
 
-::: moniker range=">= vs-2019"
+::: moniker range=">= vs-2022"
 **Enable fast expression evaluation (Managed only)**:
 Allows the debugger to attempt faster evaluation by simulating execution of simple properties and methods.
 
@@ -316,15 +258,6 @@ Displays a warning dialog box when you debug a program for which the debugger ha
 **Warn if script debugging is disabled on launch**:
 Displays a warning dialog box when the debugger is launched with script debugging disabled.
 
-::: moniker range="vs-2019"
-**Use Managed Compatibility Mode**:
-When this option is selected, the debugger uses the Visual Studio 2010 managed debugger, which was required when you debug C++/CLI code.
-
-**Use Native Compatibility Mode**:
-When this option is selected, the debugger uses the Visual Studio 2010 native debugger instead of the new native debugger.
-
-- Use this option when you're debugging .NET C++ code, because the new debugging engine doesn't support evaluating .NET C++ expressions. However, enabling Native Compatibility Mode disables many features that depend on the current debugger implementation to operate. For example, the legacy engine lacks many visualizers for built-in types like `std::string` in Visual Studio 2015 projects. Use Visual Studio 2013 projects for the optimal debugging experience in these cases.
-::: moniker-end
 
 ## See also
 

@@ -20,4 +20,6 @@
 
 - On the Linux server, [install the .NET runtime on Linux](/dotnet/core/install/linux), and find the page matching your Linux distribution (such as Ubuntu). The .NET SDK is not required.
 
+  To make sure required .NET debugging services are available for debugging, avoid publishing the application as a single-file executable.
+
 - For comprehensive ASP.NET Core instructions, see [Host ASP.NET Core on Linux with Nginx](/aspnet/core/host-and-deploy/linux-nginx) and [Host ASP.NET Core on Linux with Apache](/aspnet/core/host-and-deploy/linux-apache).

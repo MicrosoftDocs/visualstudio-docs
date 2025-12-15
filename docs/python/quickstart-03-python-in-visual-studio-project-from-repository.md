@@ -1,7 +1,7 @@
 ---
 title: "Quickstart: Clone a repository of Python code"
 description: Follow guided steps to create a Python project in Visual Studio by cloning the Python koans repository with Git or Team Explorer.
-ms.date: 04/18/2024
+ms.date: 11/21/2025
 ms.topic: quickstart
 author: cwebster-99
 ms.author: cowebster
@@ -22,15 +22,9 @@ In this quickstart, you follow guided steps to clone a GitHub repository of Pyth
 - Visual Studio 2022 installed with support for Python workloads. Visual Studio 2022 provides seamless integration with GitHub with support for Git commands. For more information, see [Install Python support in Visual Studio](installing-python-support-in-visual-studio.md).
 
 ::: moniker-end
-::: moniker range="<=vs-2019"
 
-- Visual Studio installed with support for Python workloads, along with the **GitHub extension for Visual Studio**. This extension enables you to work with GitHub repositories and Git commands. The GitHub extension is available in the Visual Studio Installer on the **Individual components** tab in the **Code tools** section:
 
-   :::image type="content" source="media/installation-github-extension.png" alt-text="Screenshot that shows how to select the GitHub extension in the Visual Studio Installer." border="false" lightbox="media/installation-github-extension.png":::
-
-::: moniker-end
-
-Visual Studio for Mac isn't supported. For more information, see [What's happening to Visual Studio for Mac?](/visualstudio/mac/what-happened-to-vs-for-mac) Visual Studio Code on Windows, Mac, and Linux [works well with Python through available extensions](https://code.visualstudio.com/docs/languages/python).
+Visual Studio for Mac isn't supported. Visual Studio Code on Windows, Mac, and Linux [works well with Python through available extensions](https://code.visualstudio.com/docs/languages/python).
 
 ## Clone existing repository files
 
@@ -61,31 +55,7 @@ Use the following steps to clone an existing repository by using the Visual Stud
    :::image type="content" source="media/vs-2022/quickstart-python-local-repos.png" alt-text="Screenshot that shows how to see the list of local GitHub repositories available in Visual Studio 2022." border="false" lightbox="media/vs-2022/quickstart-python-local-repos.png":::
 
 ::: moniker-end
-::: moniker range="<=vs-2019"
 
-Use the following steps to clone an existing repository by using Visual Studio **Team Explorer**:
-
-1. In Visual Studio, select **View** > **Team Explorer** to open the **Team Explorer** window. On the **Connect** page, you can access GitHub or Azure DevOps repositories or clone a repository. 
-
-   :::image type="content" source="media/quickstart-python-team-explorer.png" alt-text="Screenshot of the Team Explorer Connect page showing hosted service providers, including Azure DevOps and GitHub, and Local Git Repositories." border="false" lightbox="media/quickstart-python-team-explorer.png":::
-
-   If **Team Explorer** doesn't open on the **Connect** page, select the plug icon on the Visual Studio toolbar to open the page.
-
-1. In the **Team Explorer - Connect** page, expand the **Local Git Repositories** section, and select the **Clone** option.
-
-   1. For the **Repository location**, enter the URL of the repository to clone. For this exercise, enter `https://github.com/gregmalcolm/python_koans`.
-
-   1. For the **Path**, enter the folder on your system where you want Visual Studio to store the cloned files.
-
-      The folder you specify should be the exact folder that you want Visual Studio to use. Unlike the `git clone` command, when you create a clone in **Team Explorer**, Visual Studio doesn't automatically create a new subfolder with the name of the repository.
-   
-   1. Select the **Recursively Clone Submodules** option.
-
-   1. At the bottom of the page, select **Clone**.
-
-After cloning completes, the repository name appears in the **Local Git Repositories** list.
-
-::: moniker-end
 
 > [!IMPORTANT]
 > In this quickstart, you create a direct clone of the _python\_koans_ repository on GitHub. Such a repository is protected by its author from direct changes, so attempting to commit changes to the repository fails. In practice, developers instead fork such a repository to their own GitHub account, make changes there, and then create pull requests to submit those changes to the original repository. When you have your own fork, use its URL instead of the original repository URL used earlier.
@@ -99,21 +69,7 @@ After you clone the repository, you can create a new project from the cloned fil
 [!INCLUDE[project-from-existing](includes/project-from-existing.md)]
 
 ::: moniker-end
-::: moniker range="<=vs-2019"
 
-1. In the **Local Git Repositories** list, double-click the repository name. The repository dashboard opens in the **Team Explorer - Home** page with **GitHub**, **Project**, and **Solutions** options.
-
-1. Expand the **Solutions** section and select **New** to create a new project.
-
-   :::image type="content" source="media/quickstart-python-team-explorer-new-project.png" alt-text="Screenshot of the Team Explorer Home page showing how to create a new project from a cloned repository." border="false" lightbox="media/quickstart-python-team-explorer-new-project.png":::
-
-1. In the **Create a new project** dialog, set the **Language** filter to **Python** (or search for _python_), select the **From Existing Python Code** template, and select **Next**.
-
-1. In the **Configure your new project** dialog, enter a project **Name**, set the **Location** to the same folder as the repository, and select **OK**. The **Create New Project from Existing Python Code** wizard opens.
-
-1. In the wizard, select **Finish**.
-
-::: moniker-end
 
 ## Configure project properties 
 
@@ -143,11 +99,7 @@ Follow these steps to configure your project properties:
    :::image type="content" source="media/vs-2022/quickstart-python-full-path-property.png" alt-text="Screenshot that shows how to set the Working Directory for the project with the Full Path property value for a cloned file." border="false" lightbox="media/vs-2022/quickstart-python-full-path-property.png":::
 
    ::: moniker-end
-   ::: moniker range="<=vs-2019"
 
-   :::image type="content" source="media/quickstart-python-projects-set-working-directory.png" alt-text="Screenshot that shows how to set the working directory for a Python project." border="false" lightbox="media/quickstart-python-projects-set-working-directory.png":::
-
-   ::: moniker-end
 
 1. Save your changes and close the project **Properties** pane.
 
@@ -171,20 +123,21 @@ Now you're ready to try running the application for the new project:
 
    :::image type="content" source="media/quickstart-python-open-about-asserts.png" alt-text="Screenshot that shows how to open the about_asserts file in Visual Studio." border="false" lightbox="media/quickstart-python-open-about-asserts.png":::
 
-   ::: moniker range=">=vs-2022"
+   ::: moniker range="visualstudio"
+
+   By default, line numbers don't appear in the editor. To see the line numbers, select **Tools** > **Options**, expand the **All Settings** > **Language** > **Python** > **General** section, and select the **Line numbers** option:
+
+   :::image type="content" source="media/visualstudio/quickstart-python-enable-line-numbers.png" alt-text="Screenshot that shows how to enable line numbering in the editor with the Languages Python General Line numbers option." border="false":::
+
+   ::: moniker-end
+   ::: moniker range="vs-2022"
 
    By default, line numbers don't appear in the editor. To see the line numbers, select **Tools** > **Options**, expand the **Text Editor** > **Python** > **General** section, and select the **Line numbers** option:
 
    :::image type="content" source="media/vs-2022/quickstart-python-enable-line-numbers.png" alt-text="Screenshot that shows how to enable line numbering in the editor with the Text Editor Python General Line numbers option." border="false" lightbox="media/vs-2022/quickstart-python-enable-line-numbers.png":::
 
    ::: moniker-end
-   ::: moniker range="<=vs-2019"
 
-   By default, line numbers don't appear in the editor. To see the line numbers, select **Tools** > **Options**, and select **Show all settings** at the bottom of the dialog. Expand the **Text Editor** > **Python** > **General** section and select the **Line numbers** option:
-
-   :::image type="content" source="media/options-general-line-numbers.png" alt-text="Screenshot that shows how to turn on line numbers for Python code files." border="false" lightbox="media/options-general-line-numbers.png":::
-
-   ::: moniker-end
 
 1. Correct the error in the _/koans/about\_asserts.py_ file by changing the `False` argument on line 17 to `True`. Here's what the updated code should look like:
 

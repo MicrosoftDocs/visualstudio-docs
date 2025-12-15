@@ -56,18 +56,6 @@ This walkthrough uses SQL Server Express LocalDB and the Northwind sample databa
 
 2. Install the Northwind sample database by following these steps:
 
-    :::moniker range="<=vs-2019"
-
-    1. In Visual Studio, open the **SQL Server Object Explorer** window. (**SQL Server Object Explorer** is installed as part of the **Data storage and processing** workload in the Visual Studio Installer.) Expand the **SQL Server** node. Right-click on your LocalDB instance and select **New Query**.
-
-       A query editor window opens.
-
-    2. Copy the [Northwind Transact-SQL script](https://github.com/MicrosoftDocs/visualstudio-docs/blob/main/docs/data-tools/samples/northwind.sql?raw=true) to your clipboard. This T-SQL script creates the Northwind database from scratch and populates it with data.
-
-    3. Paste the T-SQL script into the query editor, and then choose the **Execute** button.
-
-       After a short time, the query finishes running and the Northwind database is created.
-    ::: moniker-end
     ::: moniker range=">=vs-2022"
     1. In Visual Studio, open the **SQL Server Object Explorer** window. (**SQL Server Object Explorer** is installed as part of the **Data storage and processing** workload in the Visual Studio Installer.) Expand the **SQL Server** node. Right-click on your LocalDB instance and select **New Query**.
 

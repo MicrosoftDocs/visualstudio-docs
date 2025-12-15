@@ -59,13 +59,6 @@ If any files are in use when the update starts, for example, if Visual Studio is
 
 When Visual Studio is initially installed on the client machine, it records the location where it should check for updates. If Visual Studio was installed from Microsoft hosted servers, then it will by default look for updates from Microsoft hosted servers. If Visual Studio was [installed or updated by invoking a bootstrapper on a network layout](deploy-a-layout-onto-a-client-machine.md#install-from-a-network-layout) or by [running the script to install from a webhosted layout](deploy-a-layout-onto-a-client-machine.md#install-from-an-internal-intranet-location), then it will look for updates in the [location specified by the layout](automated-installation-with-response-file.md#configure-the-response-file-used-when-installing-from-a-layout).  
 
-::: moniker range="vs-2019"
-
-With default Visual Studio 2019 functionality, once the client has installed the product, the client's update location configuration is locked and unchangeable. The only way to *reliably* change the source location for updates is to uninstall and reinstall the product using the correct configuration.
- 
-However, if the Visual Studio client uses the latest Visual Studio 2022 Installer, then the client's source location for updates can be changed. This is useful if you want to install from one layout but have updates come from another layout. There are several ways to get the Visual Studio 2022 Installer onto a client machine. The easiest way is to use any version of Visual Studio that was shipped after June 2023, because these versions automatically contain the latest installer. Another way is to install and use the Visual Studio 2022 product. Lastly, you can [distribute the Visual Studio 2022 Installer via your Visual Studio 2019 layouts](create-a-network-installation-of-visual-studio.md#configure-the-layout-to-always-include-and-provide-the-latest-installer).
-
-::: moniker-end
 
 To manually view and configure the update location that the client will look for updates from, bring up the [Update Settings](update-visual-studio.md#configure-source-location-of-updates-1) and make sure it's configured correctly. You can then initiate the update from the client.  
 
@@ -120,11 +113,6 @@ The following example updates the client using the existing bootstrapper in the 
 \\server\share\originalinstallVSdirectory\vs_enterprise.exe update --installPath "C:\clientmachine\installpath" --quiet 
 ```
 
-::: moniker range="vs-2019"
-
-You can also initiate an update to your Visual Studio 2019 client by programmatically calling a bootstrapper from a *different* network layout location that contains the version of the product that you want to update the client to. To do this, you need to get the Visual Studio 2022 Installer on the client. The easiest way to enable this is to [ensure your new Visual Studio 2019 layout is using the latest installer](create-a-network-installation-of-visual-studio.md#ensure-your-layout-is-using-the-latest-installer). If you run the bootstrapper from a new network hosted layout, then the update channel on the client will be set to the [update location specified in the layout](automated-installation-with-response-file.md). For example, you can run this command on the client machine using a new bootstrapper in a new network hosted layout:
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 

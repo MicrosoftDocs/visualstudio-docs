@@ -36,6 +36,8 @@
     href: install/import-export-installation-configurations.md
   - name: Troubleshoot installation issues
     href: /troubleshoot/developer/visualstudio/installation/troubleshoot-installation-issues?toc=%2Fvisualstudio%2Ftoc.json
+  - name: Setup Assistant
+    href: install/setup-assistant.md
   - name: Update Visual Studio
     href: install/update-visual-studio.md
   - name: Modify Visual Studio
@@ -61,10 +63,10 @@
       - name: Create a network-based installation
         href: install/create-a-network-installation-of-visual-studio.md
       - name: Deploy from layouts to client machines
-        href: install/deploy-a-layout-onto-a-client-machine.md        
+        href: install/deploy-a-layout-onto-a-client-machine.md
       - name: Automate installation with a response file
         href: install/automated-installation-with-response-file.md
-      - name: Apply product keys when deploying 
+      - name: Apply product keys when deploying
         href: install/automatically-apply-product-keys-when-deploying-visual-studio.md
       - name: Set up Visual Studio behind a firewall or proxy server
         href: install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md
@@ -88,7 +90,7 @@
         - name: Visual Studio Test Agent
           href: install/workload-component-id-vs-test-agent.md
         - name: Visual Studio Test Controller
-          href: install/workload-component-id-vs-test-controller.md        
+          href: install/workload-component-id-vs-test-controller.md
     - name: Manage global policies
       items:
       - name: Administrative Templates (ADMX)
@@ -118,7 +120,7 @@
     - name: Use on Arm-powered devices
       href: install/visual-studio-on-arm-devices.md
     - name: Install Build Tools into containers
-      items:  
+      items:
       - name: Install into Docker containers
         href: install/build-tools-container.md
       - name: Advanced container example
@@ -187,13 +189,13 @@
       href: ide/visual-studio-github-copilot-admin.md
 - name: IntelliCode
   items:
-  - name: 'What is IntelliCode?'
+  - name: What is IntelliCode?
     href: ide/intellicode-visual-studio.md
   - name: 'IntelliCode: Whole-line autocompletions'
     href: ide/visual-studio-whole-line-completions.md
   - name: 'IntelliCode: Suggestions'
     href: ide/intellicode-suggestions.md
-  - name: 'Privacy & IntelliCode'
+  - name: Privacy & IntelliCode
     href: ide/intellicode-privacy.md
 - name: Develop
   items:
@@ -277,6 +279,8 @@
         href: /troubleshoot/developer/visualstudio/project-build/how-to-troubleshoot-templates?toc=%2Fvisualstudio%2Ftoc.json
     - name: Locate project and item templates
       href: ide/how-to-locate-and-organize-project-and-item-templates.md
+    - name: Customize IDE behavior for projects and solutions
+      href: ide/projects-and-solutions-options-dialog-box.md
     - name: Customize templates
       items:
       - name: Customize project and item templates
@@ -301,13 +305,6 @@
     - name: Customize build and debug tasks
       displayName: makefile tasks.vs.json
       href: ide/customize-build-and-debug-tasks-in-visual-studio.md
-  - name: Team Explorer
-    displayName: Azure DevOps VSTS
-    items:
-    - name: Team Explorer
-      href: ide/team-explorer-reference.md
-    - name: Connect to a project
-      href: ide/connect-team-project.md
   - name: Editor
     items:
     - name: Use the editor
@@ -315,7 +312,7 @@
     - name: Use the Spell Checker
       href: ide/text-spell-checker.md
     - name: Use Sticky Scroll
-      href: ide/editor-sticky-scroll.md  
+      href: ide/editor-sticky-scroll.md
     - name: Find and replace
       items:
       - name: Find and replace text
@@ -465,8 +462,6 @@
           href: ide/reference/move-declaration-near-reference.md
         - name: Move type to matching file
           href: ide/reference/move-type-to-matching-file.md
-        - name: Move type to namespace
-          href: ide/reference/move-type-to-namespace.md
         - name: Pull member up
           href: ide/reference/pull-members-up.md
         - name: Regex completion through IntelliSense
@@ -519,6 +514,8 @@
         href: ide/javascript-intellisense.md
       - name: Visual C++ IntelliSense
         href: ide/visual-cpp-intellisense.md
+      - name: Configure a C# project for IntelliSense
+        href: ide/options-text-editor-csharp-intellisense.md
       - name: Configure a C++ project for IntelliSense
         href: ide/visual-cpp-intellisense-configuration.md
     - name: Move around in code
@@ -553,6 +550,10 @@
         href: ide/reference/how-to-display-urls-as-links-in-the-editor.md
       - name: Change indents and tabs
         href: ide/options-text-editor-all-languages-tabs.md
+      - name: Customize language options in the editor
+        href: ide/options-text-editor-all-languages.md
+      - name: Customize advanced text editor options
+        href: ide/options-text-editor-advanced.md
     - name: Code style
       items:
       - name: Code style preferences
@@ -624,6 +625,8 @@
     href: ide/find-and-fix-code-errors.md
   - name: Use the Immediate window
     href: ide/immediate-window.md
+  - name: Use the Toolbox
+    href: ide/toolbox.md
   - name: Tips and tricks
     items:
     - name: Productivity features
@@ -802,7 +805,6 @@
   - name: About Git in Visual Studio
     href: version-control/git-with-visual-studio.md
   - name: Get started
-    expanded: true
     items:
     - name: Clone a repo
       href: version-control/git-clone-repository.md
@@ -810,8 +812,8 @@
       href: version-control/git-create-repository.md
     - name: Git settings and preferences
       href: version-control/git-settings.md
-  - name: Innerloop workflow
     expanded: true
+  - name: Innerloop workflow
     items:
     - name: Create a branch
       href: version-control/git-create-branch.md
@@ -825,8 +827,8 @@
       href: version-control/git-create-pull-request.md
     - name: Fetch, pull, and sync
       href: version-control/git-fetch-pull-sync.md
-  - name: Repo management
     expanded: true
+  - name: Repo management
     items:
     - name: Browse a repo
       href: version-control/git-browse-repository.md
@@ -836,6 +838,7 @@
       href: version-control/git-multi-repository-support.md
     - name: Resolve merge conflicts
       href: version-control/git-resolve-conflicts.md
+    expanded: true
   - name: Reference
     items:
     - name: Git Changes with no active repo set
@@ -844,8 +847,6 @@
     items:
     - name: Create a GitHub account
       href: version-control/git-create-github-account.md
-    - name: Compare Git and Team Explorer side-by-side
-      href: version-control/git-team-explorer-feature-comparison.md
 - name: Test >>
   displayName: Unit testing
   href: test/index.yml
@@ -878,7 +879,7 @@
   - name: Window layouts & tabs
     href: ide/customizing-window-layouts-in-visual-studio.md
   - name: Accessibility tips & tricks
-    href: ide/reference/accessibility-tips-and-tricks.md  
+    href: ide/reference/accessibility-tips-and-tricks.md
   - name: File nesting in Solution Explorer
     href: ide/file-nesting-solution-explorer.md
   - name: Startup behavior
@@ -896,7 +897,7 @@
     - name: Sign in or switch accounts
       displayName: personalization accounts
       href: ide/signing-in-to-visual-studio.md
-    - name: 'Access multiple accounts (Azure, Entra)'
+    - name: Access multiple accounts (Azure, Entra)
       href: ide/sign-in-access-multiple-accounts.md
     - name: Multifactor authentication (MFA)
       href: ide/work-with-multi-factor-authentication.md
@@ -944,8 +945,6 @@
           href: ide/reference/fonts-and-colors-environment-options-dialog-box.md
       - name: Projects and Solutions
         items:
-        - name: General
-          href: ide/reference/projects-and-solutions-options-dialog-box.md
         - name: Build and Run
           href: ide/reference/options-dialog-box-projects-and-solutions-build-and-run.md
         - name: VC++ Project Settings
@@ -954,12 +953,7 @@
         items:
         - name: General
           href: ide/reference/options-text-editor-general.md
-        - name: Advanced
-          href: ide/reference/options-text-editor-advanced.md
         - name: All Languages
-          items:
-          - name: General
-            href: ide/reference/options-text-editor-all-languages.md
         - name: Visual Basic
           items:
           - name: Advanced
@@ -970,8 +964,6 @@
           items:
           - name: Advanced
             href: ide/reference/options-text-editor-csharp-advanced.md
-          - name: IntelliSense
-            href: ide/reference/options-text-editor-csharp-intellisense.md
         - name: C/C++
           items:
           - name: Advanced
@@ -992,10 +984,6 @@
             href: ide/reference/options-text-editor-fsharp-intellisense.md
       - name: Windows Forms Designer
         href: ide/reference/options-windows-forms-designer.md
-    - name: Problem Details window
-      href: ide/reference/problem-details-window.md
-    - name: Toolbox window
-      href: ide/reference/toolbox.md
   - name: Devenv command-line switches
     items:
     - name: Reference
@@ -1128,6 +1116,8 @@
       href: ide/securing-applications.md
     - name: Run Visual Studio as an administrator
       href: ide/user-permissions-and-visual-studio.md
+    - name: Certificate revocation check
+      href: ide/certificate-revocation.md
     - name: Configure trust settings
       href: ide/trust-settings.md
     - name: Windows Information Protection (WIP)
@@ -1138,7 +1128,7 @@
       href: ide/dotfuscator/index.md
 - name: Resources
   items:
-  - name: "What's new in Docs"
+  - name: What's new in Docs
     href: ide/whats-new-visual-studio-docs.md
   - name: Release notes >>
     href: /visualstudio/releases/
@@ -1165,7 +1155,7 @@
   - name: Report a problem
     href: ide/how-to-report-a-problem-with-visual-studio.md
   - name: Customer Experience Improvement
-    href: ide/visual-studio-experience-improvement-program.md    
+    href: ide/visual-studio-experience-improvement-program.md
   - name: Get performance issues fixed quicker
     href: ide/how-to-increase-chances-of-performance-issue-being-fixed.md
   - name: Create logs for MSBuild problems

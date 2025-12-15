@@ -1,7 +1,7 @@
 ---
 title: 'Consume a brokered service'
 description: Learn how to acquire and use a brokered service to access different features.
-monikerRange: '>= vs-2019'
+monikerRange: '>= vs-2022'
 ms.date: 01/11/2022
 ms.topic: how-to
 helpviewer_keywords:

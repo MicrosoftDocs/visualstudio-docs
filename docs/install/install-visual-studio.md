@@ -22,11 +22,6 @@ ms.subservice: installation
 ---
 # Install Visual Studio
 
-::: moniker range="vs-2019"
-
-In Visual Studio 2019, it's easy to choose and install just the features you need. And because of its reduced minimum footprint, it installs quickly and with less system impact.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
@@ -37,11 +32,6 @@ In Visual Studio, it's easy to choose and install just the features you need.
 > [!NOTE]
 > If you need to programmatically install Visual Studio, see [Use command-line parameters](use-command-line-parameters-to-install-visual-studio.md).
 
-::: moniker range="vs-2019"
-
-Want to know more about what else is new in this version? See the [release notes](/visualstudio/releases/2019/release-notes/).
-
-::: moniker-end
 
 ::: moniker range="vs-2022"
 
@@ -65,21 +55,6 @@ Ready to install? This article walks you through the process, step-by-step.
 
 Before you begin installing Visual Studio:
 
-::: moniker range="vs-2019"
-
-- Check the [system requirements](/visualstudio/releases/2019/system-requirements). These requirements help you determine whether your computer supports Visual Studio 2019.
-
-- Make sure that the user who performs the initial installation has administrator permissions on the machine. For more information, see [User permissions and Visual Studio](/visualstudio/ide/user-permissions-and-visual-studio).
-
-- Apply the latest Windows updates. These updates ensure that your computer has both the latest security updates and the required system components for Visual Studio.
-
-- Restart. Restarting ensures that any pending installations or updates don't hinder your Visual Studio installation.
-
-- Free up space. Remove unneeded files and applications from your system drive by, for example, running the Disk Cleanup utility.
-
-For questions about running other versions of Visual Studio side-by-side with Visual Studio 2019, see [Visual Studio 2019 Platform Targeting and Compatibility](/visualstudio/releases/2019/compatibility/).
-
-::: moniker-end
 
 ::: moniker range="vs-2022"
 
@@ -117,14 +92,6 @@ You can install Visual Studio latest side-by-side with other versions. For more 
 
 Decide which version and edition of Visual Studio to install. The most common options are:
 
-::: moniker range="vs-2019"
-
-- The latest release of Visual Studio 2019 that's hosted on Microsoft servers. To install this version, select the following button and then choose the edition you want. The installer downloads a small *bootstrapper* to your *Downloads* folder.
-
-  > [!div class="button"]
-  > [Download Visual Studio](https://visualstudio.microsoft.com/vs/older-downloads/)
-
-::: moniker-end
 
 ::: moniker range="vs-2022"
 
@@ -146,11 +113,6 @@ Decide which version and edition of Visual Studio to install. The most common op
 
 - If you already have Visual Studio installed, you can [install another version alongside it](/visualstudio/install/install-visual-studio-versions-side-by-side#install-different-editions-within-the-same-major-visual-studio-version-side-by-side) by choosing one that's listed on the **Available** tab of the Visual Studio Installer.
 
-::: moniker range="vs-2019"
-
-- You can download a bootstrapper for a specific version from the [Visual Studio 2019 Release History](/visualstudio/releases/2019/history#installing-an-earlier-release) page and use it to install Visual Studio.
-
-::: moniker-end
 
 ::: moniker range="vs-2022"
 
@@ -170,19 +132,6 @@ Decide which version and edition of Visual Studio to install. The most common op
 
 If you downloaded a bootstrapper file, you can use it to install Visual Studio. You need administrator permissions. The bootstrapper installs the latest version of the Visual Studio Installer. The installer is a separate program that provides everything you need to both install and customize Visual Studio.
 
-::: moniker range="vs-2019"
-
-1. From your *Downloads* folder, double-click the bootstrapper that matches or is similar to one of the following files:
-
-   - *vs_community.exe* for Visual Studio Community
-   - *vs_professional.exe* for Visual Studio Professional
-   - *vs_enterprise.exe* for Visual Studio Enterprise
-
-1. If you see a User Account Control notice, select **Yes**. The dialog box asks you to acknowledge the Microsoft [License Terms](https://visualstudio.microsoft.com/license-terms/) and the Microsoft [Privacy Statement](https://privacy.microsoft.com/privacystatement). Select **Continue**.
-
-   :::image type="content" source="media/privacy-and-license-terms.png" alt-text="Screenshot showing the Microsoft License Terms and Privacy Statement.":::
-
-::: moniker-end
 
 ::: moniker range="vs-2022"
 
@@ -242,19 +191,6 @@ Some workloads or components are no longer supported in Visual Studio, the insta
 
 After you install the Visual Studio Installer, you can use it to customize your installation by selecting the feature sets, or *workloads*, that you want. Here's how.
 
-::: moniker range="vs-2019"
-
-1. Find the workload that you want in the **Visual Studio Installer**.
-
-   :::image type="content" source="../install/media/vs-2019/vs-installer-workloads.png" alt-text="Screenshot showing the Workloads tab of the Visual Studio Installer." lightbox="../install/media/vs-2019/vs-installer-workloads.png":::
-
-   For example, select the **ASP.NET and web development** workload. It comes with the default core editor. That editor includes basic code editing support for more than 20 languages, the ability to open and edit code from any folder without requiring a project, and integrated source code control.
-
-1. After you choose the workloads that you want, select **Install**.
-
-   Next, a status screen that shows the progress of your Visual Studio installation appears.
-
-::: moniker-end
 
 ::: moniker range="vs-2022"
 
@@ -291,11 +227,6 @@ After you install the Visual Studio Installer, you can use it to customize your 
 
 If you don't want to use the Workloads feature to customize your Visual Studio installation, or if you want to add more components than a workload installs, you can install or add individual components from the **Individual components** tab. Choose what you want, and then follow the prompts.
 
-::: moniker range="vs-2019"
-
-  :::image type="content" source="media/vs-2019/vs-installer-individual-components.png" alt-text="Screenshot showing the Individual components tab of the Visual Studio Installer." lightbox="media/vs-2019/vs-installer-individual-components.png":::
-
-::: moniker-end
 
 ::: moniker range="vs-2022"
 
@@ -313,11 +244,6 @@ If you don't want to use the Workloads feature to customize your Visual Studio i
 
 By default, the installer program tries to match the language of the operating system when it runs for the first time. To install Visual Studio in a language that you choose, go to the **Language packs** tab from the Visual Studio Installer, and then follow the prompts.
 
-::: moniker range="vs-2019"
-
-  :::image type="content" source="media/vs-2019/vs-installer-language-packs.png" alt-text="Screenshot showing the Language packs tab of the Visual Studio Installer." lightbox="media/vs-2019/vs-installer-language-packs.png":::
-
-::: moniker-end
 
 ::: moniker range="vs-2022"
 
@@ -327,23 +253,12 @@ By default, the installer program tries to match the language of the operating s
 
 ::: moniker range="visualstudio"
 
-  :::image type="content" source="media/visualstudio/vs-installer-language-packs.png" alt-text="Screenshot showing the Language packs tab of the Visual Studio Installer." lightbox="media/vs-2022/vs-installer-language-packs.png":::
+  :::image type="content" source="media/visualstudio/vs-installer-language-packs.png" alt-text="Screenshot showing the Language packs tab of the Visual Studio Installer." lightbox="media/visualstudio/vs-installer-language-packs.png":::
 
 ::: moniker-end
 
 ### Change the installer language at a command prompt
 
-::: moniker range="<=vs-2019"
-
-You can also change the default language by running the installer at a command prompt. For example, you can force the installer to run in English by using the following command:
-
-  ```cmd
-  vs_installer.exe --locale en-US
-  ```
-
-The installer retains this setting when you run it again. The installer supports the following language tokens: zh-cn, zh-tw, cs-cz, en-us, es-es, fr-fr, de-de, it-it, ja-jp, ko-kr, pl-pl, pt-br, ru-ru, and tr-tr.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
@@ -361,11 +276,6 @@ The installer retains this setting when you run it again. The installer supports
 
 You can reduce the installation footprint of Visual Studio on your system drive. For more information, see [Select installation locations](change-installation-locations.md).
 
-::: moniker range="vs-2019"
-
-:::image type="content" source="media/vs-2019/vs-installer-installation-locations.png" alt-text="Screenshot showing the Installation locations tab of the Visual Studio Installer." lightbox="media/vs-2019/vs-installer-installation-locations.png":::
-
-::: moniker-end
 
 ::: moniker range="vs-2022"
 
@@ -396,21 +306,6 @@ Visual Studio Community doesn't require you to sign in. However, if the installa
 
 After your installation is complete, you can get started developing with Visual Studio.
 
-::: moniker range="vs-2019"
-
-1. Select the **Launch** button.
-
-1. In the start window, select **Create a new project**.
-
-1. In the search box, enter the type of app you want to create to see a list of available templates. The list of templates depends on the workloads that you chose during installation. To see different templates, choose different workloads.
-
-   You can also filter your search for a specific programming language by using the language dropdown list. The platform list and the project type list also provide filters.
-
-1. Select **Next**. Provide information in the following dialogs, and then select **Create**.
-
-Visual Studio opens your new project, and you're ready to code!
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 

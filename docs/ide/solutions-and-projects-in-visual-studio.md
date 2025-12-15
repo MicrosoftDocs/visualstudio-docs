@@ -1,7 +1,7 @@
 ---
 title: What Are Visual Studio Solutions and Projects?
 description: Learn about Visual Studio projects and solutions, how to create new projects from a template, and how to view and manage projects in Solution Explorer.
-ms.date: 08/25/2025
+ms.date: 11/17/2025
 ms.topic: concept-article
 f1_keywords:
 - vs.openproject
@@ -38,11 +38,6 @@ Project files are based on the [MSBuild XML schema](../msbuild/msbuild-project-f
 
 ::: moniker-end
 
-::: moniker range="=vs-2019"
-
-Project files are based on the [MSBuild XML schema](../msbuild/msbuild-project-file-schema-reference.md). To look at the contents of newer, [SDK-style project files](../msbuild/how-to-use-project-sdk.md) in Visual Studio, right-click the [project node](use-solution-explorer.md#solution-explorer-ui) in Solution Explorer and select **Edit \<projectname\>**. To look at the contents of .NET projects, first unload the project. (Right-click the project node in Solution Explorer and select **Unload Project**.) Then right-click the project and select **Edit \<projectname\>**.
-
-::: moniker-end
 
 > [!NOTE]
 > You don't have to use solutions or projects in Visual Studio to edit, build, and debug code. You can simply open the folder that contains your source files in Visual Studio and start editing. For more information, see [Develop code in Visual Studio without projects or solutions](develop-code-in-visual-studio-without-projects-or-solutions.md).
@@ -53,7 +48,16 @@ The easiest way to create a new project is to use a project template for the pro
 
 You can also create a custom project template that you can use to create new projects from. For more information, see [Create project templates](how-to-create-project-templates.md).
 
-When you create a project, Visual Studio saves it to the default location, *%USERPROFILE%\source\repos*. To change the default location, go to **Tools** > **Options** > **Projects and Solutions** > **Locations**. For more information, see [Options dialog box: Projects and Solutions > Locations](reference/projects-solutions-locations-options.md).
+:::moniker range="visualstudio"
+
+When you create a project, Visual Studio saves it to the default location, *%USERPROFILE%\source\repos*. To change the default location, select **Tools** > **Options** and go to **All Settings** > **Projects and Solutions** > **Locations**. For more information, see [Options dialog box: Projects and Solutions > Locations](reference/projects-solutions-locations-options.md).
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+When you create a project, Visual Studio saves it to the default location, *%USERPROFILE%\source\repos*. To change the default location, select **Tools** > **Options** and go to **Projects and Solutions** > **Locations**. For more information, see [Options dialog box: Projects and Solutions > Locations](reference/projects-solutions-locations-options.md).
+
+:::moniker-end
 
 ## Solutions
 
@@ -73,7 +77,18 @@ Visual Studio uses two file types (*.sln* and *.suo*) to store settings for solu
 
 ### Solution folder
 
-A *solution folder* is a virtual folder that exists only in Solution Explorer, where you can use it to group projects in a solution. If you want to find the location of solution files on a computer, go to **Tools** > **Options** > **Projects and Solutions** > **Locations**. For more information, see [Options dialog box: Projects and Solutions > Locations](reference/projects-solutions-locations-options.md).
+:::moniker range="visualstudio"
+
+A *solution folder* is a virtual folder that exists only in Solution Explorer, where you can use it to group projects in a solution. If you want to find the location of solution files on a computer, select **Tools** > **Options** and go to **All Settings** > **Projects and Solutions** > **Locations**. For more information, see [Options dialog box: Projects and Solutions > Locations](reference/projects-solutions-locations-options.md).
+
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+A *solution folder* is a virtual folder that exists only in Solution Explorer, where you can use it to group projects in a solution. If you want to find the location of solution files on a computer, select **Tools** > **Options** and go to **Projects and Solutions** > **Locations**. For more information, see [Options dialog box: Projects and Solutions > Locations](reference/projects-solutions-locations-options.md).
+
+:::moniker-end
+
 
 > [!TIP]
 > If you want to construct a project and solution as an exercise, see [Introduction to projects and solutions](../get-started/tutorial-projects-solutions.md).
@@ -88,11 +103,6 @@ After you create a new project, you can use [Solution Explorer](use-solution-exp
 
 ::: moniker-end
 
-::: moniker range="=vs-2019"
-
-:::image type="content" source="../ide/media/vs-2019/solution-explorer-2019.png" alt-text="Screenshot of two projects in Solution Explorer.":::
-
-::: moniker-end
 
 The [toolbar](use-solution-explorer.md#solution-explorer-toolbar) across the top of Solution Explorer contains buttons to switch from a solution view to a folder view, filter pending changes, show all files, collapse all nodes, view [properties](managing-project-and-solution-properties.md) pages, preview code in the [code editor](writing-code-in-the-code-and-text-editor.md), and more.
 

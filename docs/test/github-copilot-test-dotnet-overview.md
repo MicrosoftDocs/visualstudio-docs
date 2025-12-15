@@ -51,7 +51,7 @@ When you enable this capability, GitHub Copilot testing interacts with your solu
 GitHub Copilot testing for .NET offers a comprehensive experience compared to the more basic Copilot capabilities related to the generation of tests (such as the `/tests` command). The unit testing capability in GitHub Copilot for .NET provides the following:
 
 - **Efficiency:** Automatically generate, build, and run C# unit tests for large or small projects or solutions.
-- **Consistency:** Ensure tests follow best practices and project standards. Tests are created in a separate test project in the solution and are generated using the xUnit, NUnit, and MSTest frameworks.
+- **Consistency:** Ensure tests follow best practices and project standards. Tests are created in a separate test project in the solution and are generated using the xUnit, NUnit, and MSTest frameworks. If the solution already has unit tests in NUnit or xUnit, GitHub Copilot testing for .NET generates new tests in the same unit testing framework. If there are no unit tests in the solution, new tests are generated using MSTest.
 - **Integration:** Works seamlessly within Visual Studio, leveraging Copilot’s AI capabilities.
 - **Predictability:** Copilot is generating tests deterministically, grounded in the C# compiler and language semantics, so assertions and edge cases are predictable and type-safe.
 

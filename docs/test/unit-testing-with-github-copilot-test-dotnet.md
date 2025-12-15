@@ -1,7 +1,7 @@
 ---
 title: Generate and run unit tests using GitHub Copilot testing
 description: Use GitHub Copilot testing for .NET in Visual Studio to create, test, and run your tests.
-ms.date: 11/7/2025
+ms.date: 12/10/2025
 ms.update-cycle: 90-days
 ms.topic: how-to
 dev_langs:
@@ -19,7 +19,7 @@ monikerRange: '>= visualstudio'
 
 # Generate and run unit tests using GitHub Copilot testing for .NET
 
-In this article, you'll learn how to create, run, and test C# code using GitHub Copilot testing for .NET.
+Make sure that your code is working as expected by creating and running unit tests using GitHub Copilot testing for .NET.
 
 Although Copilot can generate unit tests, you get extra testing capability by using GitHub Copilot testing for .NET in Visual Studio, including the following:
 
@@ -28,7 +28,7 @@ Although Copilot can generate unit tests, you get extra testing capability by us
 - GitHub Copilot testing builds the unit tests following test generation. If there are errors, the unit testing capability in GitHub Copilot for .NET tries to identify and fix errors, and then re-runs the tests.
 - GitHub Copilot testing runs the tests using Test Explorer.
 
-GitHub Copilot testing for .NET generates tests for C# projects only using the MSTest, NUnit, and xUnit frameworks.
+GitHub Copilot testing for .NET generates tests for C# projects only using the MSTest, NUnit, and xUnit frameworks. If the solution already has unit tests in NUnit or xUnit, GitHub Copilot testing for .NET generates new tests in the same unit testing framework. If there are no unit tests in the solution, new tests are generated using MSTest.
 
 ## Prerequisites
 
@@ -40,17 +40,19 @@ To get started, you need:
 >[!TIP]
 > For the best experience, we suggest using a paid Copilot subscription to avoid potential throttling and ensure consistent access.
 
+For an introduction to unit testing, see [Unit test basics](../test/unit-test-basics.md).
+
 ## Generate and run tests
 
-1. Open an existing C# project that needs new tests, or create a new C# project.
+1. Open an existing C# project that needs new tests.
 
-   If you create a new project, you can use the Bank sample code to test the feature. Copy the starting sample code from [Create and run unit tests for .NET](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md#create-a-project-to-test) into `Program.cs`.
+   If you don't have an existing project, you can create a new project and then use the Bank sample application code to experiment with unit testing. Copy the starting sample code from [Create and run unit tests for .NET](../test/walkthrough-creating-and-running-unit-tests-for-managed-code.md#create-a-project-to-test) into `Program.cs`.
 
 1. Build the project.
 
    Make sure the project builds without errors to simplify the process.
 
-1. Open Copilot Chat by selecting the GitHub Copilot Chat button.
+1. In Visual Studio, select **View > GitHub Copilot Chat**.
 
 1. Use the following syntax in the Chat window to start GitHub Copilot testing and generate tests:
 
@@ -60,7 +62,10 @@ To get started, you need:
 
    where `#target` can be the name of a solution, project, file, class, or member.
 
-   For the `Bank` example, you can type `@test #BankAccount`, specifying the class name.
+   > [!NOTE]
+   > You can be either in Ask mode or Agent mode when you enter the `@test` command. The results do not differ.
+
+   For the Bank sample code, you can specify the class name: `@test #BankAccount`. The Test command appears in the chat as follows, indicating that the command is recognized.
 
    ![Screenshot of command to generate tests.](media/visualstudio/test-agent-start-agent.png)
 

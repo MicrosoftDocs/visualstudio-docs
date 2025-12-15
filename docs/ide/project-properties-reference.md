@@ -18,9 +18,6 @@ ms.subservice: general-ide
 The Project Designer in Visual Studio is a dialog box that you can use to specify applications settings and properties for a .NET or .NET Framework project. The Project Designer includes several different project properties tabs or pages to interact with. What you see depends on your .NET version, since the project designer for .NET Framework projects is different from the project designer for projects that target .NET Core and .NET 5 and later. For detailed information on properties in the .NET Project Designer, see [.NET Project Designer](../ide/project-designer-dotnet-csharp.md). For detailed information on the .NET Framework Project Designer, see [Project properties in the .NET Framework Project Designer](#project-properties-in-the-net-framework-project-designer).
 ::: moniker-end
 
-::: moniker range="vs-2019"
-The Project Designer in Visual Studio is a dialog box that you can use to specify applications settings and properties for a .NET or .NET Framework project. The Project Designer includes several different project properties tabs or pages to interact with. What you see depends on your .NET project type, platform, and programming language.
-::: moniker-end
 
 The Project Designer appears after you select a [project node](../ide/use-solution-explorer.md#solution-explorer-ui) in **Solution Explorer** and then use the right-click context menu to select **Properties**.
 
@@ -39,17 +36,6 @@ The following screenshot shows an example of the .NET Framework project properti
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
-
-The following Visual Studio 2019 screenshot shows an example of the .NET project properties for a C# console project in the Project Designer. Notice that .NET 5.0 appears as the target framework.
-
-:::image type="content" source="media/vs-2019/project-properties-designer-csharp-console.png" alt-text="Screenshot of the Project Designer in Visual Studio 2019 with .NET as the target framework.":::
-
-The following Visual Studio 2019 screenshot shows an example of the .NET project properties for a Visual Basic console project in the Project Designer. Notice that .NET Framework 4.7.2 appears as the target framework.
-
-:::image type="content" source="media/vs-2019/project-properties-designer-visual-basic-console.png" alt-text="Screenshot of the Project Designer in Visual Studio 2019 with .NET Framework as the target framework.":::
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
@@ -77,27 +63,6 @@ For .NET Framework projects, use links in the following table to get information
 
 ::: moniker-end
 
-::: moniker range="<=vs-2019"
-
-## Project properties in the .NET Project Designer
-
-Use links in the following table to get information about properties.
-
-| Title | Description |
-| - | - |
-| [Application Page, Project Designer (Visual Basic)](/previous-versions/visualstudio/visual-studio-2017/ide/reference/application-page-project-designer-visual-basic) | Specify application settings and properties for a Visual Basic project. |
-| [Application Page, Project Designer (C#)](/previous-versions/visualstudio/visual-studio-2017/ide/reference/application-page-project-designer-csharp) | Specify application settings and properties for a Visual C# project. |
-| [Build Events Page, Project Designer (C#)](/previous-versions/visualstudio/visual-studio-2017/ide/reference/build-events-page-project-designer-csharp) | Specify build configuration instructions. |
-| [Build Page, Project Designer (C#)](/previous-versions/visualstudio/visual-studio-2017/ide/reference/build-page-project-designer-csharp) | Specify build configuration properties for a Visual C# project. |
-| [Compile Page, Project Designer (Visual Basic)](/previous-versions/visualstudio/visual-studio-2017/ide/reference/compile-page-project-designer-visual-basic) | Specify compilation properties for Visual Basic projects. |
-| [Debug Page, Project Designer](/previous-versions/visualstudio/visual-studio-2017/ide/reference/debug-page-project-designer) | Specify debugging properties for a project. |
-| [Code Analysis, Project Designer](/previous-versions/visualstudio/visual-studio-2017/ide/reference/code-analysis-project-designer) | Configure the code analysis tool. |
-| [Publish Page, Project Designer](/previous-versions/visualstudio/visual-studio-2017/ide/reference/publish-page-project-designer) | Configure properties for ClickOnce. |
-| [References Page, Project Designer (Visual Basic)](/previous-versions/visualstudio/visual-studio-2017/ide/reference/references-page-project-designer-visual-basic) | Manage references used by a project. |
-| [Security Page, Project Designer](/previous-versions/visualstudio/visual-studio-2017/ide/reference/security-page-project-designer) | Configure code access security settings for applications that are deployed by using ClickOnce deployment. |
-| [Signing Page, Project Designer](/previous-versions/visualstudio/visual-studio-2017/ide/reference/signing-page-project-designer) | Sign application and deployment manifests, and sign the assembly. |
-
-::: moniker-end
 
 ## See also
 

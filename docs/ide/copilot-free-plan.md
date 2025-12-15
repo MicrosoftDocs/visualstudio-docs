@@ -1,7 +1,7 @@
 ---
 title: 'GitHub Copilot Free in Visual Studio'
 description: Use GitHub Copilot Completions, Chat, and Edits for free in Visual Studio.
-ms.date: 7/29/2025
+ms.date: 11/26/2025
 ms.update-cycle: 180-days
 ms.topic: overview 
 author: anandmeg
@@ -10,6 +10,7 @@ ms.manager: mijacobs
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
 monikerRange: '>= vs-2022'
+
 ---
 # Use GitHub Copilot for free in Visual Studio
 
@@ -27,20 +28,47 @@ With Visual Studio version 17.14, you can [activate Copilot Free at first launch
 You can also [set up from the Copilot Chat window](work-with-github-accounts.md#add-a-github-account-from-the-copilot-chat-window) later as follows:
 
 1. Use **Ctrl+\\+C** to open the chat window in Visual Studio. You can also select the **GitHub Copilot** badge in the upper-right corner of the IDE, and then select **Open Chat Window to Sign In** from the dropdown to open chat.
-1. Select **Sign up for Copilot Free** or **Sign up with Google**
+
+:::moniker range="<=vs-2022"
+
+2. Select **Sign up for Copilot Free** or **Sign up with Google**
 
    :::image type="content" source="../ide/media/vs-2022/copilot-free/sign-up-for-copilot-free.png" alt-text="Screenshot of Sign up for Copilot Free in the Chat window.":::
 
-1. If you have an existing GitHub account, sign in when prompted. If not, follow the steps to create a new GitHub account. 
-1. Once finished, you’re redirected back to Visual Studio. 
+:::moniker-end
+
+:::moniker range="visualstudio"
+
+2. Select **Sign up for Copilot Free** or **Sign up with Google**
+
+   :::image type="content" source="../ide/media/visualstudio/sign-up-for-copilot-free.png" alt-text="Screenshot of Sign up for Copilot Free in the Chat window.":::
+
+:::moniker-end
+
+3. If you have an existing GitHub account, sign in when prompted. If not, follow the steps to create a new GitHub account. 
+4. Once finished, you’re redirected back to Visual Studio. 
 
 ## Copilot Free usage limits in Visual Studio
 
 Copilot Free provides a limited number of code completions and chat responses for free per month. When you reach your monthly usage limit for chat or code completions or both, you'll get a notification and notice a change in Copilot functionality.
 
+:::moniker range="visualstudio"
+
+You can check your free tier status anytime by selecting **Copilot Usage** from the Copilot badge dropdown in the top-right corner of the IDE.
+
+:::image type="content" source="media/visualstudio/copilot-free-status.png" alt-text="Screenshot of Copilot Free Status menu option.":::
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+
 You can check your free tier status anytime by selecting **Copilot Free Status** from the Copilot badge dropdown in the top-right corner of the IDE.
 
 :::image type="content" source="media/vs-2022/copilot-free/copilot-free-status.png" alt-text="Screenshot of Copilot Free Status menu option.":::
+
+:::moniker-end
+
+
 
 You can also check the current status of your Copilot Free account on the [GitHub account settings page](https://github.com/settings/copilot).
 

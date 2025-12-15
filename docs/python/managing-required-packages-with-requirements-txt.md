@@ -35,11 +35,6 @@ If you load a project that has a `requirements.txt` file, you can install all th
 
 1. Locate the environment node that you want to install the packages for. Right-click the node, and select **Install from requirements.txt**.
 
-   :::moniker range="<=vs-2019"
-
-   :::image type="content" source="media/environments/environments-requirements-txt-install-2019.png" alt-text="Screenshot that shows how to install Python packages from a requirements text file in Visual Studio 2019." border="false" lightbox="media/environments/environments-requirements-txt-install-2019.png":::
-
-   :::moniker-end
    :::moniker range=">=vs-2022"
 
    :::image type="content" source="media/environments/environments-requirements-txt-install-2022.png" alt-text="Screenshot that shows how to install Python packages from a requirements text file in Visual Studio 2022." border="false" lightbox="media/environments/environments-requirements-txt-install-2022.png":::
@@ -70,11 +65,6 @@ If all the necessary Python packages for your project are already installed in a
 
 1. Locate the environment node for which you want to generate the requirements file. Right-click the node, and select **Generate requirements.txt**.
 
-   :::moniker range="<=vs-2019"
-
-   :::image type="content" source="media/environments/environments-requirements-txt-generate-2019.png" alt-text="Screenshot that shows how to generate a requirements text file for Python package dependencies in Visual Studio 2019." border="false" lightbox="media/environments/environments-requirements-txt-generate-2019.png":::
-
-   :::moniker-end
    :::moniker range=">=vs-2022"
 
    :::image type="content" source="media/environments/environments-requirements-txt-generate-2022.png" alt-text="Screenshot that shows how to generate a requirements text file for Python package dependencies in Visual Studio 2022." border="false" lightbox="media/environments/environments-requirements-txt-generate-2022.png":::

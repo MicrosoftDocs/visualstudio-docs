@@ -5,7 +5,7 @@ author: cwebster-99
 ms.author: cowebster
 ms.subservice: python
 ms.topic: how-to
-ms.date: 07/28/2025
+ms.date: 11/12/2025
 manager: mijacobs
 
 # CustomerIntent: As a developer, I want to install Python support in Visual Studio so that I can access Python features in the product.
@@ -55,19 +55,30 @@ Complete the following steps to download and install the Python workload.
    The _\<VS_version>_ is 2022, and _\<VS_edition>_ is Community, Professional, or Enterprise.
 
    :::moniker-end
-   :::moniker range="<=vs-2019"
 
-   _%ProgramFiles(x86)%\Microsoft Visual Studio\\<VS_version>\\<VS_edition>Common7\IDE\Extensions\Microsoft\Python_
-
-   The _\<VS_version>_ is 2019 or 2017, and _\<VS_edition>_ is Community, Professional, or Enterprise.
-
-   :::moniker-end
 
 ## Test your install
 
 Quickly check your installation of Python support:
 
-1. Launch Visual Studio.
+:::moniker range="visualstudio"
+
+1. Start Visual Studio.
+
+1. Select **Tools** > **Python** > **Python Interactive Window**. 
+
+1. In the window, enter the statement `2+2`.
+
+   The statement output `4` displays in the window. If you don't see the correct output, recheck your steps.
+
+   :::image type="content" source="media/visualstudio/installation-interactive-test.png" alt-text="Screenshot that shows how to test Python support by using the interactive window." lightbox="media/visualstudio/installation-interactive-test.png"::: 
+     
+:::moniker-end
+
+
+::: moniker range="vs-2022"
+
+ Launch Visual Studio.
 
 1. Select Alt + I to open the **Python Interactive** window.
 
@@ -75,17 +86,9 @@ Quickly check your installation of Python support:
 
    The statement output `4` displays in the window. If you don't see the correct output, recheck your steps.
 
-   ::: moniker range="<=vs-2019"
-
-   :::image type="content" source="media/installation-interactive-test.png" alt-text="Screenshot that shows a test of Python support through the interactive window." lightbox="media/installation-interactive-test.png":::
-
-   ::: moniker-end
-
-   ::: moniker range=">=vs-2022"
-
    :::image type="content" source="media/vs-2022/python-interactive.png" alt-text="Screenshot that shows a test of Python support through the Visual Studio 2022 interactive window." lightbox="media/vs-2022/python-interactive.png":::
 
-   ::: moniker-end
+::: moniker-end
 
 ## Related content
 

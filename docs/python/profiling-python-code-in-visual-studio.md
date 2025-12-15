@@ -25,7 +25,7 @@ Profiling is available for Python 3.9 and earlier when you use a CPython-based i
 
 - A [Python project](quickstart-02-python-in-visual-studio-project-from-template.md) with code or a [folder with Python code](quickstart-05-python-visual-studio-open-folder.md).
 
-Visual Studio for Mac isn't supported. For more information, see [What's happening to Visual Studio for Mac?](/visualstudio/mac/what-happened-to-vs-for-mac) Visual Studio Code on Windows, Mac, and Linux [works well with Python through available extensions](https://code.visualstudio.com/docs/languages/python).
+Visual Studio for Mac isn't supported. Visual Studio Code on Windows, Mac, and Linux [works well with Python through available extensions](https://code.visualstudio.com/docs/languages/python).
 
 ## Use profiler with CPython-based interpreter
 
@@ -70,11 +70,7 @@ The profiler runs and opens a performance report in Visual Studio. You can revie
 :::image type="content" source="media/vs-2022/profiling-results.png" alt-text="Screenshot of the Profiling performance report in Visual Studio 2022." border="false" lightbox="media/vs-2022/profiling-results.png":::
 
 ::: moniker-end
-::: moniker range="<=vs-2019"
 
-:::image type="content" source="media/profiling-results.png" alt-text="Screenshot of the Profiling performance report in Visual Studio." border="false" lightbox="media/profiling-results.png":::
-
-::: moniker-end
 
 ## Use profiler with IronPython
 

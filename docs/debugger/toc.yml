@@ -412,8 +412,6 @@
         href: /windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps
       - name: Debug UWP apps on a remote machine
         href: run-windows-store-apps-on-a-remote-machine.md
-      - name: Run UWP apps in the simulator
-        href: run-windows-store-apps-in-the-simulator.md
       - name: Deploy UWP apps from Visual Studio
         href: deploy-windows-store-apps-from-visual-studio.md
       - name: Debug an installed app package
@@ -604,6 +602,8 @@
       href: debug-source-files-common-properties-solution-property-pages-dialog-box.md
     - name: Edit and Continue dialog box
       href: edit-and-continue-dialog-box.md
+    - name: Problem Details window
+      href: ../ide/reference/problem-details-window.md
     - name: Select Code Type dialog box
       href: select-code-type-dialog-box.md
     - name: Stop Debugging In Progress dialog box

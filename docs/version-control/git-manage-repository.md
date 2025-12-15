@@ -21,6 +21,9 @@ Version control with Visual Studio is easy with Git.  And, you can work remotely
 
 To open the **Git Repository** window, choose **View** > **Git repository** (or press **Ctrl**+**0**, **Ctrl**+**R**), or press **Ctrl**+**Q** and under **Features**, search for **Git repo**.
 
+   > [!TIP]
+   > To keep this window open on restart, choose **Git** > **Settings** and check the ["Restore the Git Repository window on restart"](./git-settings.md#restore-the-git-repository-window-on-restart) box.
+
 ## Explain a commit with GitHub Copilot Chat
 
 With Visual Studio 2022 version 17.10 and later and [GitHub Copilot](../ide/visual-studio-github-copilot-install-and-states.md), you can use AI to generate a detailed commit description that describes the changes in that commit. Press the **Explain** button to request that GitHub Copilot create a commit description. To install GitHub Copilot, see [Install and manage GitHub Copilot in Visual Studio](../ide/visual-studio-github-copilot-install-and-states.md).

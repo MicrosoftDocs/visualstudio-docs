@@ -28,12 +28,6 @@ If you already have a project of a supported type, Visual Studio can create a Do
 
 To debug apps in a local container, the following tools must be installed:
 
-::: moniker range="vs-2019"
-
-- [Visual Studio 2019 or later](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) with the **ASP.NET and web development** workload installed.
-
-To run Docker containers locally, you must have a local Docker client. You can use [Docker Desktop](https://www.docker.com/get-docker), which requires Windows 10 or later.
-::: moniker-end
 
 ::: moniker range="vs-2022"
 
@@ -56,9 +50,6 @@ To run containers with Podman, install [Podman Desktop](https://podman-desktop.i
 
 If you have a project and you've added Docker support as described in the [overview](overview.md), skip this section.
 
-::: moniker range="vs-2019"
-[!INCLUDE [create-aspnet5-app-2019](../azure/includes/vs-2019/create-aspnet5-app-2019.md)]
-::: moniker-end
 ::: moniker range=">=vs-2022"
 [!INCLUDE [create-aspnet5-app-2022](../azure/includes/vs-2022/create-aspnet5-app-2022.md)]
 ::: moniker-end
@@ -120,9 +111,6 @@ Often, changes require further inspection. You can use the debugging features of
 4. To start debugging and hit the breakpoint, press F5.
 5. Switch to Visual Studio to view the breakpoint. Inspect values.
 
-   :::moniker range="vs-2019"
-   ![Screenshot showing part of the code for Index.cshtml.cs in Visual Studio with a breakpoint set to the left of a code line that is highlighted in yellow.](media/edit-and-refresh/breakpoint.png)
-   :::moniker-end
    :::moniker range=">=vs-2022"
    ![Screenshot showing part of the code for Index.cshtml.cs in Visual Studio with a breakpoint set to the left of a code line that is highlighted in yellow.](media/edit-and-refresh/vs-2022/breakpoint.png)
    :::moniker-end

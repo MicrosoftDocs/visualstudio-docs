@@ -70,9 +70,7 @@ You can control when and where a breakpoint executes by setting conditions. The 
    ::: moniker range=">= vs-2022"
    ![Breakpoint settings](../debugger/media/vs-2022/breakpoint-settings.png "BreakpointSettings")
    ::: moniker-end
-   ::: moniker range="<= vs-2019"
-   ![Breakpoint settings](../debugger/media/breakpointsettings.png "BreakpointSettings")
-   ::: moniker-end
+
 
 2. In the dropdown, select **Conditional Expression**, **Hit Count**, or **Filter**, and set the value accordingly.
 
@@ -100,18 +98,14 @@ In the following example, the breakpoint is hit only when the value of `testInt`
 ::: moniker range=">= vs-2022"
 ![Breakpoint condition is true](../debugger/media/vs-2022/breakpoint-condition-is-true.png "Breakpoint Is true")
 ::: moniker-end
-::: moniker range="<= vs-2019"
-![Breakpoint condition is true](../debugger/media/breakpointconditionistrue.png "Breakpoint Is true")
-::: moniker-end
+
 
 In the following example, the breakpoint is hit only when the value of `testInt` changes:
 
 ::: moniker range=">= vs-2022"
 ![Breakpoint When changed](../debugger/media/vs-2022/breakpoint-when-changed.png "Breakpoint When changed")
 ::: moniker-end
-::: moniker range="<= vs-2019"
-![Breakpoint When changed](../debugger/media/breakpointwhenchanged.png "Breakpoint When changed")
-::: moniker-end
+
 
 If you set a breakpoint condition with invalid syntax, a warning message appears. If you specify a breakpoint condition with valid syntax but invalid semantics, a warning message appears the first time the breakpoint is hit. In either case, the debugger breaks when it hits the invalid breakpoint. The breakpoint is skipped only if the condition is valid and evaluates to `false`.
 
@@ -154,9 +148,7 @@ Under **Conditions** in the **Breakpoint Settings** window, select **Hit Count**
 ::: moniker range=">= vs-2022"
 ![Breakpoint hit count](../debugger/media/vs-2022/breakpoint-hit-count.png "BreakpointHitCount")
 ::: moniker-end
-::: moniker range="<= vs-2019"
-![Breakpoint hit count](../debugger/media/breakpointhitcount.png "BreakpointHitCount")
-::: moniker-end
+
 
 ### Set a filter condition
 
@@ -225,7 +217,7 @@ You can break execution when a function is called. This is useful, for example, 
    ((my_class *) 0xcccccccc)->my_method
    ```
 ::: zone-end
-::: moniker range=">= vs-2019"
+::: moniker range=">= vs-2022"
 
 ::: zone pivot="programming-language-dotnet"
 ## <a name="BKMK_set_a_data_breakpoint_managed"></a>Set data breakpoints (.NET Core 3.x or .NET 5+)

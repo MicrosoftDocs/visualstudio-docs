@@ -2,7 +2,7 @@
 title: Flask in Visual Studio tutorial Step 1, Flask basics
 titleSuffix: ""
 description: Overview and Step 1 of a core walkthrough of Flask capabilities in Visual Studio, including prerequisites, Git, virtual environments, and creating a new Flask project and web project.
-ms.date: 04/18/2024
+ms.date: 11/21/2025
 ms.topic: tutorial
 author: cwebster-99
 ms.author: cowebster
@@ -38,19 +38,11 @@ This tutorial differs from the [Flask Quickstart](../ide/quickstart-python.md?to
    - On the **Individual components** tab under **Code tools**, select the **Git for Windows** option.
 
 ::: moniker-end
-::: moniker range="<=vs-2019"
 
-- Visual Studio 2017 or Visual Studio 2019 on Windows with the following options selected in the Visual Studio Installer:
-
-   - On the **Workloads** tab, select the **Python development** option. For more information, see [Install Python support in Visual Studio](installing-python-support-in-visual-studio.md).
-
-   - On the **Individual components** tab under **Code tools**, select the **Git for Windows** and **GitHub Extension for Visual Studio** options.
-
-::: moniker-end
 
 Flask project templates are included with all earlier versions of Python Tools for Visual Studio. The template details might differ from the descriptions in this tutorial.
 
-Visual Studio for Mac isn't supported. For more information, see [What's happening to Visual Studio for Mac?](/visualstudio/mac/what-happened-to-vs-for-mac) Visual Studio Code on Windows, Mac, and Linux [works well with Python through available extensions](https://code.visualstudio.com/docs/languages/python).
+Visual Studio for Mac isn't supported. Visual Studio Code on Windows, Mac, and Linux [works well with Python through available extensions](https://code.visualstudio.com/docs/languages/python).
 
 ## Create Visual Studio solution and Flask project
 
@@ -85,37 +77,7 @@ Follow this procedure to create the solution and a Flask web project:
 1. Select the **X** at the right to close the prompt. Later in this tutorial, you create the virtual environment and ensure source control excludes the environment. (The environment can always be created later from the _requirements.txt_ file.)
 
 ::: moniker-end
-::: moniker range="<=vs-2019"
 
-1. In Visual Studio, select **File** > **New** > **Project** and search for "Flask." Then, select the **Blank Flask Web Project** template. (The template is also found in the dialog under **Python** > **Web** in the list on the left.)
-
-   :::image type="content" source="media/flask/step01-new-blank-project.png" alt-text="Screenshot that shows how to select the Blank Flask Web Project template in Visual Studio 2019." border="false" lightbox="media/flask/step01-new-blank-project.png":::
-
-1. At the bottom of the dialog, configure your new project and solution:
-
-   1. Set the **Name** of the Visual Studio project to **BasicProject**. This name is also used for the Flask project.
-   
-   1. Specify the **Location** for Visual Studio to save the solution and project.
-
-   1. Set the **Solution name** to **LearningFlask**. The solution serves as the container for multiple projects in this tutorial series.
-
-   1. Select the **Create directory for solution** option (default).
-
-   1. Select the **Create new Git repository** option. Visual Studio creates a local Git repository when it creates the solution.
-   
-      If you don't see this option, run the Visual Studio Installer. On the **Individual components** tab under **Code tools**, add the **Git for Windows** and **GitHub Extension for Visual Studio** options.
-
-1. Select **OK**.
-
-1. After a moment, Visual Studio displays the prompt **This project requires external packages**:
-
-   :::image type="content" source="media/tutorials-common/step01-requirements-prompt-install-myself.png" alt-text="Screenshot of the prompt that indicates the project requires external Flask packages in Visual Studio." border="false" lightbox="media/tutorials-common/step01-requirements-prompt-install-myself.png":::
-
-   The dialog indicates that the selected template includes a _requirements.txt_ file that references the latest Flask 1.x package. You can select **Show required packages** to see the exact dependencies.
-
-1. Select the option **I will install them myself** to close the dialog. Later in this tutorial, you create the virtual environment and ensure source control excludes the environment. (The environment can always be created later from the _requirements.txt_ file.)
-
-::: moniker-end
 
 ## Examine Git controls
 
@@ -154,39 +116,7 @@ In the next procedure, you familiarize yourself with Visual Studio support for G
    To see the differences view for the file, select a commit in the middle pane. The previous version displays on the left side and the revised version shows on the right side. The details also contain the change author, the change committer, and commit message.
 
 ::: moniker-end
-::: moniker range="<=vs-2019"
 
-Because you selected the **Create new Git repository** option in the **New Project** dialog, the project is already committed to local source control as soon as the creation process is complete. In this procedure, you familiarize yourself with Visual Studio's Git controls and the **Team Explorer** window in which you work with source control.
-
-1. Examine the Git controls on the bottom corner of the Visual Studio main window. From left to right, these controls show unpushed commits (arrow #), uncommitted changes (pencil #), the name of the repository, and the current branch:
-
-   :::image type="content" source="media/flask/step01-git-controls.png" alt-text="Screenshot of the Git controls toolbar in the Visual Studio window." border="false" lightbox="media/flask/step01-git-controls.png":::
-
-   > [!NOTE]
-   > If you don't select the **Create new Git repository** in the **New Project** dialog, the Git controls show only an **Add to source control** command that creates a local repository.
-   >
-   > :::image type="content" source="media/tutorials-common/step01-git-add-to-source-control.png" alt-text="Screenshot that shows how the Add to Source Control command appears in Visual Studio if you haven't created a repository." border="false" lightbox="media/tutorials-common/step01-git-add-to-source-control.png":::
-
-1. Select the changes (pencil #), and Visual Studio opens the **Team Explorer** window on the **Changes** page. Because the newly created project is already committed to source control automatically, you don't see any pending changes.
-
-   :::image type="content" source="media/flask/step01-team-explorer-changes.png" alt-text="Screenshot of the Team Explorer window on the Changes page." border="false" lightbox="media/flask/step01-team-explorer-changes.png":::
-
-1. On the Visual Studio status bar, select the commits (arrow #) to open the **Synchronization** page in **Team Explorer**. Because you have only a local repository, the page provides easy options to publish the repository to different remote repositories.
-
-   :::image type="content" source="media/flask/step01-team-explorer.png" alt-text="Screenshot of the Team Explorer window showing available Git repository options for source control." border="false" lightbox="media/flask/step01-team-explorer.png":::
-
-   You can select whichever service you want for your own projects. This tutorial shows the use of GitHub, where the completed sample code for the tutorial is maintained in the [Microsoft/python-sample-vs-learning-flask](https://github.com/Microsoft/python-sample-vs-learning-flask) repository.
-
-1. When you select any of the **Publish** controls, **Team Explorer** prompts you for more information. For example, when you publish the sample for this tutorial, the repository itself is created first, where the **Push to Remote Repository** option is used with the repository's URL.
-
-   :::image type="content" source="media/flask/step01-push-to-github.png" alt-text="Screenshot that shows the Team Explorer window for pushing to an existing remote repository." border="false" lightbox="media/flask/step01-push-to-github.png"::: 
-
-   If you don't have an existing repository, the **Publish to GitHub** and **Push to Azure DevOps** options let you create one directly from within Visual Studio.
-
-> [!TIP]
-> To quickly navigate within **Team Explorer**, select the **Changes** or **Push** header to see a popup menu of available pages.
-
-::: moniker-end
 
 As you work through this tutorial, get into the habit of periodically using the Git controls in Visual Studio to commit and push changes. This tutorial reminds you at the appropriate points.
 
@@ -202,20 +132,21 @@ For more information on source control as automation, see [The Source of Truth: 
 
 Follow these steps to prevent Visual Studio from auto-committing a new project:
 
-::: moniker range=">=vs-2022"
+::: moniker range="visualstudio"
 
-1. Select **Tools** > **Options** > **Source Control** > **Git Global Settings**.
+1. Open the **Tools** > **Options** pane and expand the **All Settings** > **Source Control** > **Git Settings** section.
+
+1. Clear the **Commit changes after merge by default** option.
+
+::: moniker-end
+::: moniker range="vs-2022"
+
+1. Open the **Tools** > **Options** dialog and expand the **Source Control** > **Git Global Settings** section.
 
 1. Clear the **Commit changes after merge by default** option and select **OK**.
 
 ::: moniker-end
-::: moniker range="<=vs-2019"
 
-1. Open the **Settings** page in **Team Explorer**, and select **Git** > **Global settings**.
-
-1. Clear the **Commit changes after merge by default** option and select **Update**.
-
-::: moniker-end
 
 ## Create virtual environment and exclude source control
 
@@ -256,37 +187,7 @@ After you configure source control for your project, you can create the virtual 
 You can open the **Git Repository** window and confirm the staged commits show in the **Local History** for the current branch.
 
 ::: moniker-end
-::: moniker range="<=vs-2019"
 
-After you configure source control for your project, you can create the virtual environment with the necessary Flask packages that the project requires. You can then use **Team Explorer** to exclude the environment's folder from source control.
-
-1. In **Solution Explorer**, right-click the **Python Environments** node and select **Add Virtual Environment**:
-
-   :::image type="content" source="media/flask/step01-add-virtual-environment-command.png" alt-text="Screenshot that shows how to use the Add Virtual environment command in Solution Explorer." border="false" lightbox="media/flask/step01-add-virtual-environment-command.png":::
-
-1. The **Add Virtual Environment** dialog opens and shows the message, **We found a requirements.txt file.** The message indicates that Visual Studio uses the file to configure the virtual environment:
-
-   :::image type="content" source="media/tutorials-common/step01-add-virtual-environment-found-requirements.png" alt-text="Screenshot of the Add Virtual Environment dialog with the discovered requirements text file message in Visual Studio." border="false" lightbox="media/tutorials-common/step01-add-virtual-environment-found-requirements.png"::: 
-
-1. Select **Create** to accept the defaults. (You can change the name of the virtual environment if you want, which changes the name of its subfolder, but _env_ is a standard convention.)
-
-1. If Visual Studio prompts for administrator privileges, provide your consent. Wait several minutes while Visual Studio downloads and installs packages. For Flask and its dependencies, the process can require expanding close to 1,000 files in over 100 subfolders. You can view the progress in the Visual Studio **Output** window.
-
-1. On the Git controls bar, select the uncommitted changes (which now shows **99+**) to open the Git **Changes** page in **Team Explorer**:
-
-   Creation of the virtual environment brings in thousands of changes, but you don't need to include them in source control. You or anyone else who clones the project can always recreate the environment by using the _requirements.txt_ file.
-
-1. To exclude the virtual environment from source control, in the **Changes** page, right-click the **env** folder and select **Ignore these local items**:
-
-   :::image type="content" source="media/flask/step01-ignore-local-items.png" alt-text="Screenshot that shows how to ignore a virtual environment in source control changes in Visual Studio." border="false" lightbox="media/flask/step01-ignore-local-items.png"::: 
-
-   After you exclude the virtual environment, the only remaining changes are to the project file (_.py_) and the _.gitignore_ file, which contains an added entry for the virtual environment folder.
-
-   To see the differences view for the _.gitignore_ file, double-click the file.
-
-1. Enter a commit message, select **Commit All**, then push the commits to your remote repository if you like.
-
-::: moniker-end
 
 ### Understand purpose of virtual environments
 
@@ -433,11 +334,7 @@ In addition to the **Debug** menu commands and toolbar buttons, you can also lau
 :::image type="content" source="media/flask/vs-2022/step-01-project-python-commands.png" alt-text="Screenshot that shows the Python commands for the selected project in Solution Explorer in Visual Studio." border="false" lightbox="media/flask/vs-2022/step-01-project-python-commands.png"::: 
 
 ::: moniker-end
-::: moniker range="<=vs-2019"
 
-In addition to the **Debug** menu commands and toolbar buttons, you can also launch the server by using the **Python** > **Run server** or **Python** > **Run debug server** commands on the project's context menu.
-
-::: moniker-end
 
 Both commands open a console window in which you see the local URL (`localhost:port`) for the running server. However, you must manually open a browser with that URL, and running the debug server doesn't automatically start the Visual Studio debugger. You can attach a debugger to the running process later, if you want by using the **Debug** > **Attach to Process** command.
 

@@ -32,9 +32,6 @@ Select the **Create or open application settings** link to open a Settings page 
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
-:::image type="content" source="media/vs-2019/project-properties-designer-settings.png" alt-text="Screenshot of the Settings tab in the Project Designer for a WPF project in Visual Studio 2019.":::
-::: moniker-end
 
 ## Header bar
 
