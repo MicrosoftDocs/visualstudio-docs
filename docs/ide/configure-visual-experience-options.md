@@ -28,7 +28,7 @@ monikerRange: 'visualstudio'
 
 This article describes how to set the color theme, menu appearance, acceleration options, and more for the integrated development environment (IDE). You can access the settings by selecting **Tools** > **Options** from the Visual Studio menu bar and expanding the **All Settings** > **Environment** > **Visual Experience** section. 
 
-To configure general **Environment** settings, see [Options dialog box: Environment > General](./general-environment-options-dialog-box.md).
+To configure general **Environment** settings, see [Options dialog box: Environment > General](./reference/general-environment-options-dialog-box.md)
 
 ## Visual Experience settings
 
@@ -108,5 +108,5 @@ Enables the full visual experience of Visual Studio, including gradients and ani
 
 ## Related content
 
-- [Configure related settings for earlier versions of Visual Studio](./general-environment-options-dialog-box.md)
-- [Customize window layouts and personalize tabs](../../ide/customizing-window-layouts-in-visual-studio.md)
+- [Configure related settings for earlier versions of Visual Studio](./reference/general-environment-options-dialog-box.md)
+- [Customize window layouts and personalize tabs](customizing-window-layouts-in-visual-studio.md)

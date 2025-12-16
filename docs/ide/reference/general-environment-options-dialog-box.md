@@ -28,7 +28,7 @@ ms.subservice: general-ide
 
 Use this section to configure the integrated development environment (IDE), including the status bar, **Close** and **Auto Hide** actions, and Visual Studio start up behavior. You can access these settings by selecting **Tools** > **Options** from the main menu bar and expanding the **All Settings** > **Environment** > **General** section.
 
-To configure related **Environment** settings, see [Configure Environment > Visual Experience options](./configure-visual-experience-options.md).
+To configure related **Environment** settings, see [Configure Environment > Visual Experience options](../configure-visual-experience-options.md).
 
 ::: moniker-end
 ::: moniker range="<=vs-2022"
@@ -144,5 +144,5 @@ Customizes a different default action when Visual Studio launches. In the **On s
 
 ## Related content
 
-- [Configure related settings for Visual Studio 2026](./configure-visual-experience-options.md)
-- [Customize window layouts and personalize tabs](../../ide/customizing-window-layouts-in-visual-studio.md)
+- [Configure related settings for Visual Studio 2026](../configure-visual-experience-options.md)
+- [Customize window layouts and personalize tabs](../customizing-window-layouts-in-visual-studio.md)
