@@ -61,7 +61,7 @@ As you type code or comments in the editor, GitHub Copilot provides context-awar
 
 :::moniker range="visualstudio"
 
-1. Press enter to see the GitHub Copilot command palette.
+4. Press enter to see the GitHub Copilot command palette.
 
    To accept the suggestion, select the <kbd>Tab</kbd> key. To reject the suggestion, select the <kbd>Esc</kbd> key or continue typing.
 
@@ -73,7 +73,7 @@ As you type code or comments in the editor, GitHub Copilot provides context-awar
 
 :::moniker range="vs-2022"
 
-1. Hover over the suggestion to see the GitHub Copilot command palette.
+4. Hover over the suggestion to see the GitHub Copilot command palette.
 
    To accept the suggestion, select the <kbd>Tab</kbd> key. To reject the suggestion, continue typing.
 
@@ -83,7 +83,7 @@ As you type code or comments in the editor, GitHub Copilot provides context-awar
 
 :::moniker-end
 
-1. Add the following code to see completions from GitHub Copilot:
+5. Add the following code to see completions from GitHub Copilot:
 
    ```csharp
        int a = 5;
