@@ -2,7 +2,7 @@
 title: Repair your Visual Studio installation
 titleSuffix: ''
 description: Repair or update your Visual Studio installation with the Visual Studio Installer, resolve issues with available fixes, and reacquire necessary files.
-ms.date: 04/23/2025
+ms.date: 12/17/2025
 ms.custom: vs-acquisition
 ms.topic: how-to
 author: anandmeg
@@ -34,9 +34,6 @@ Use repair if you're having issues with:
 
 To repair your installation, follow these steps.
 
-
-::: moniker range=">=vs-2022"
-
 1. Find the **Visual Studio Installer** on your computer.
 
    In the Windows Start menu, you can search for *installer*, and then select **Visual Studio Installer** from the results.
@@ -49,6 +46,23 @@ To repair your installation, follow these steps.
    > *C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe*
 
    You might be prompted to update the Visual Studio Installer before you continue. If so, follow the prompts.
+
+::: moniker range="visualstudio"
+
+1. In the Visual Studio Installer, look for the installation of Visual Studio that you want to repair. Then choose **Repair** from the **More** dropdown menu.
+
+   :::image type="content" source="media/visualstudio/visual-studio-installer-repair.png" alt-text="Screenshot showing the Repair option in the More dropdown menu of the Visual Studio Installer.":::
+
+   > [!NOTE]
+   > Repairing Visual Studio resets its environment. Repairing removes local customizations like per-user extensions installed without elevation, user settings, and profiles. It restores your synchronized settings such as themes, colors, and key bindings.
+
+   The **Repair** option appears only for installed instances of Visual Studio. If you don't see the **Repair** option, check whether you selected **More** in a version that appears in the Visual Studio Installer as **Available** rather than **Installed**.
+
+   You can monitor the progress bar in the Visual Studio Installer, but it doesn't provide an estimated time for repairs.
+
+::: moniker-end
+
+::: moniker range="vs-2022"
 
 1. In the Visual Studio Installer, look for the installation of Visual Studio that you want to repair. Then choose **Repair** from the **More** dropdown menu.
 
