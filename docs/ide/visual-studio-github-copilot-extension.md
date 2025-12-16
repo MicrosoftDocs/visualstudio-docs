@@ -180,11 +180,13 @@ To try the new model for better suggestions and performance:
 
    :::image type="content" source="media/vs-2022/visual-studio-github-copilot-extension/completions-model-picker.png" border="false" alt-text="Screenshot that shows the dropdown list for selecting a completions model.":::
 
+:::moniker-end
+
 1. Select **OK**.
 
 You can also access **Settings** > **Options** from the Copilot badge at the top right in the editor.
 
-:::moniker-end
+
 
 ### Access
 
