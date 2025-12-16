@@ -932,7 +932,7 @@
       - name: How To
         items:
         - name: Environment > Visual Experience
-          href: ide/reference/configure-visual-experience-options.md
+          href: ide/configure-visual-experience-options.md
       - name: Environment
         items:
         - name: General

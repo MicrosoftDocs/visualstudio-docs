@@ -1,7 +1,7 @@
 ---
 title: General, Environment, Options Dialog Box
 description: Learn how to use the General page in the Environment section to change color themes, status bar settings, file extension associations, and more for the IDE.
-ms.date: 12/15/2025
+ms.date: 12/16/2025
 ms.topic: reference
 f1_keywords:
 - VS.Environment.General
@@ -9,7 +9,7 @@ f1_keywords:
 - VS.OptionsDialog.Environment
 - VS.ToolsOptionsPages.Environment
 - VS.ToolsOptionsPages.Environment.General
-helpviewer_keywords:
+helpviewer_keywords:f
 - recently used file lists
 - Windows menu, customizing
 - status bar, displaying

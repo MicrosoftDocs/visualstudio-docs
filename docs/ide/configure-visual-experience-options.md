@@ -1,7 +1,7 @@
 ---
 title: Configure Visual Experience Options
 description: Configure Visual Experience settings in the Environment section of the Tools Options pane. Change color themes, configure menu appearance, and acceleration options for the Visual Studio IDE.
-ms.date: 12/15/2025
+ms.date: 12/16/2025
 ms.topic: how-to
 f1_keywords:
 - VS.Environment.VisualExperience
