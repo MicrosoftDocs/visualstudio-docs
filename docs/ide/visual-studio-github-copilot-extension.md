@@ -63,7 +63,7 @@ As you type code or comments in the editor, GitHub Copilot provides context-awar
 
 1. Press enter to see the GitHub Copilot command palette.
 
-   To accept the suggestion, select the <kbd>Tab</kbd> key. To reject the suggestion, select the <kbd>Esc<kbd> key or continue typing.
+   To accept the suggestion, select the <kbd>Tab</kbd> key. To reject the suggestion, select the <kbd>Esc</kbd> key or continue typing.
 
    :::image type="content" source="media/visualstudio/visual-studio-github-copilot-extension/copilot-accept-code-suggestions.png" alt-text="Screenshot that shows suggestions to accept or modify a GitHub Copilot code suggestion in Visual Studio.":::
 
