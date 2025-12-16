@@ -3,8 +3,8 @@ title: Unit test Python code with Test Explorer
 description: Write unit tests for Python code in Visual Studio and access Test Explorer features to discover, run, and debug tests.
 ms.date: 04/18/2024
 ms.topic: how-to
-author: cwebster-99
-ms.author: cowebster
+author: Devdiv-VR
+ms.author: vedhar
 manager: mijacobs
 ms.subservice: python
 ms.workload:

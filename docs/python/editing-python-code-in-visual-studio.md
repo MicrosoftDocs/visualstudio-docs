@@ -3,8 +3,8 @@ title: Edit Python code and use Intellisense
 description: Develop Python applications in Visual Studio and access rich IntelliSense, code snippets, and navigation features. Apply formatting, linting, and refactoring to clean and maintain your code.
 ms.date: 04/18/2024
 ms.topic: how-to
-author: cwebster-99
-ms.author: cowebster
+author: Devdiv-VR
+ms.author: vedhar
 manager: mijacobs
 ms.subservice: python
 
@@ -65,7 +65,7 @@ Selecting **@** symbol (at) starts a decorator and shows potential decorators. M
 
 :::image type="content" source="media/code-editing-completion-decorator.png" alt-text="Screenshot that shows decorator completion in the Visual Studio editor." border="false":::
 
-For more information, see [Options - completion results](python-support-options-and-settings-in-visual-studio.md#completion-results).
+For more information, see [Options](python-support-options-and-settings-in-visual-studio.md).
 
 ### Type hints
 
