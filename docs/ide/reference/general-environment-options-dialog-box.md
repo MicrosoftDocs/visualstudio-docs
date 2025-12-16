@@ -9,7 +9,7 @@ f1_keywords:
 - VS.OptionsDialog.Environment
 - VS.ToolsOptionsPages.Environment
 - VS.ToolsOptionsPages.Environment.General
-helpviewer_keywords:f
+helpviewer_keywords:
 - recently used file lists
 - Windows menu, customizing
 - status bar, displaying
