@@ -61,7 +61,7 @@ As you type code or comments in the editor, GitHub Copilot provides context-awar
 
 :::moniker range="visualstudio"
 
-1. Press enterto see the GitHub Copilot command palette.
+1. Press enter to see the GitHub Copilot command palette.
 
    To accept the suggestion, select the <kbd>Tab</kbd> key. To reject the suggestion, select the <kbd>Esc<kbd> key or continue typing.
 
