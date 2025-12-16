@@ -411,7 +411,7 @@ Let's walk through a few common user input errors, locate them in the debugger i
 
 If you try to divide a number by zero, the console app might freeze, and then shows you what's wrong in the code editor.
 
-:::image type="content" source="media/csharp-console-calculator-dividebyzero-error.png" alt-text="Screenshot of the Visual Studio code editor showing a line highlighted in yellow and an Exception Unhandled error for 'Attempted to divide by zero'.":::
+:::image type="content" source="media/csharp-console-calculator-dividebyzero-error.png" alt-text="Screenshot of the Visual Studio Code editor showing a line highlighted in yellow and an Exception Unhandled error for 'Attempted to divide by zero'.":::
 
 > [!NOTE]
 > Sometimes the app doesn't freeze, and the debugger doesn't show a divide-by-zero error. Instead, the app might return an unexpected non-numeric result, such as an infinity symbol. The following code fix still applies.
@@ -431,7 +431,7 @@ Let's change the code to handle this error. In *Program.cs*, replace the code fo
 
 After you replace the code, the section with the `switch` statement should look similar to the following screenshot:
 
-:::image type="content" source="media/csharp-console-calculator-switch-code.png" alt-text="Screenshot showing the revised switch section in the Visual Studio code editor.":::
+:::image type="content" source="media/csharp-console-calculator-switch-code.png" alt-text="Screenshot showing the revised switch section in the Visual Studio Code editor.":::
 
 Now, when you divide any number by zero, the app asks for another number, and keeps asking until you provide a nonzero number.
 
@@ -454,13 +454,13 @@ If you enter an alphabetic character when the app expects a numeric character, t
 
 ::: moniker range="vs-2022"
 
-:::image type="content" source="media/vs-2022/csharp-console-calculator-format-error.png" alt-text="Screenshot that shows an unhandled format error in the Visual Studio code editor.":::
+:::image type="content" source="media/vs-2022/csharp-console-calculator-format-error.png" alt-text="Screenshot that shows an unhandled format error in the Visual Studio Code editor.":::
 
 ::: moniker-end
 
 ::: moniker range="visualstudio"
 
-:::image type="content" source="media/visualstudio/csharp-console-calculator-format-error.png" alt-text="Screenshot that shows an unhandled format error in the Visual Studio code editor.":::
+:::image type="content" source="media/visualstudio/csharp-console-calculator-format-error.png" alt-text="Screenshot that shows an unhandled format error in the Visual Studio Code editor.":::
 
 ::: moniker-end
 
