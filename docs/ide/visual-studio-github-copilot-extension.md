@@ -59,6 +59,20 @@ As you type code or comments in the editor, GitHub Copilot provides context-awar
        int subtractNumbers(
    ```
 
+:::moniker range="visualstudio"
+
+1. Press enterto see the GitHub Copilot command palette.
+
+   To accept the suggestion, select the <kbd>Tab</kbd> key. To reject the suggestion, select the <kbd>Esc<kbd> key or continue typing.
+
+   :::image type="content" source="media/visualstudio/visual-studio-github-copilot-extension/copilot-accept-code-suggestions.png" alt-text="Screenshot that shows suggestions to accept or modify a GitHub Copilot code suggestion in Visual Studio.":::
+
+   If the command palette doesn't appear, you might have reached the default limit for its display. To change this limit, go to **Tools** > **Options** > **IntelliCode** > **Advanced**, and adjust the value for **Minimum commits to suppress hint text**.
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 1. Hover over the suggestion to see the GitHub Copilot command palette.
 
    To accept the suggestion, select the <kbd>Tab</kbd> key. To reject the suggestion, continue typing.
@@ -66,6 +80,8 @@ As you type code or comments in the editor, GitHub Copilot provides context-awar
    :::image type="content" source="media/vs-2022/visual-studio-github-copilot-extension/copilot-accept-code-suggestions.png" alt-text="Screenshot that shows suggestions to accept or modify a GitHub Copilot code suggestion in Visual Studio.":::
 
    If the command palette doesn't appear, you might have reached the default limit for its display. To change this limit, go to **Tools** > **Options** > **IntelliCode** > **Advanced**, and adjust the value for **Minimum commits to suppress hint text**.
+
+:::moniker-end
 
 1. Add the following code to see completions from GitHub Copilot:
 
@@ -111,32 +127,50 @@ With Visual Studio 2022 version 17.11, [content exclusion is available for GitHu
 
 With Visual Studio 2022 version 17.13, code referencing is available for GitHub Copilot Completions. If you or your organization [enabled suggestions that match public code](https://docs.github.com/en/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-copilot-policies-as-an-individual-subscriber#enabling-or-disabling-suggestions-matching-public-code), Copilot notifies you when you accept a completion that matches code from a public GitHub repository.
 
-:::image type="content" source="media/vs-2022/visual-studio-github-copilot-extension/github-copilot-completions-code-referencing.png" alt-text="Screenshot that shows GitHub Copilot Completions code referencing in Visual Studio." lightbox="media/vs-2022/visual-studio-github-copilot-extension/github-copilot-completions-code-referencing.png"::::::
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/visual-studio-github-copilot-extension/github-copilot-completions-code-referencing.png" alt-text="Screenshot that shows GitHub Copilot Completions code referencing in Visual Studio." lightbox="media/visualstudio/visual-studio-github-copilot-extension/github-copilot-completions-code-referencing.png":::
+
+To see detailed information in GitHub Copilot logs in the **Output** window, select **View code matches**. The log entry includes a link to a GitHub.com page where you can view details on license type. It also includes references to similar code in public GitHub repositories.
+
+:::image type="content" source="media/visualstudio/visual-studio-github-copilot-extension/code-referencing-copilot-logs.png" alt-text="Screenshot that shows the log entry for a code reference in an output window." lightbox="media/visualstudio/visual-studio-github-copilot-extension/code-referencing-copilot-logs.png":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
+:::image type="content" source="media/vs-2022/visual-studio-github-copilot-extension/github-copilot-completions-code-referencing.png" alt-text="Screenshot that shows GitHub Copilot Completions code referencing in Visual Studio." lightbox="media/vs-2022/visual-studio-github-copilot-extension/github-copilot-completions-code-referencing.png":::
 
 To see detailed information in GitHub Copilot logs in the **Output** window, select **View code matches**. The log entry includes a link to a GitHub.com page where you can view details on license type. It also includes references to similar code in public GitHub repositories.
 
 :::image type="content" source="media/vs-2022/visual-studio-github-copilot-extension/code-referencing-copilot-logs.png" alt-text="Screenshot that shows the log entry for a code reference in an output window." lightbox="media/vs-2022/visual-studio-github-copilot-extension/code-referencing-copilot-logs.png":::
 
+:::moniker-end
+
 Code referencing enables you to make an informed decision on using code attribution or removing the code from your project.
 
 ## Completions model
 
-The GPT-4o Copilot model for code completions is available for GitHub Copilot in Visual Studio version 17.14 Preview 2 or later.
+:::moniker range="visualstudio"
+
+The GPT-4.1 Copilot model for code completions is available for GitHub Copilot in Visual Studio version 17.14 or later.
 
 To try the new model for better suggestions and performance:
 
-:::moniker range="visualstudio"
-
 1. In the **Tools** > **Options** pane, expand the **All Settings** > **Text Editor** > **Code Completions** > **General** section.
 
-1. Set the **Copilot Completions Model** option to **GPT-4o Copilot**.
+1. Set the **Copilot Completions Model** option to **GPT-4.1 Copilot**.
 
-   If the GPT-4o model isn't listed, try restarting Visual Studio to retrieve the latest model list.
+   If the GPT-4.1 model isn't listed, try restarting Visual Studio to retrieve the latest model list.
 
-   :::image type="content" source="media/visualstudio/completions-model-picker.png" border="false" alt-text="Screenshot that shows how to select the Copilot completions model.":::
+   :::image type="content" source="media/visualstudio/visual-studio-github-copilot-extension/completions-model-picker.png" border="false" alt-text="Screenshot that shows how to select the Copilot completions model.":::
 
 :::moniker-end
 :::moniker range="<=vs-2022"
+
+The GPT-4o Copilot model for code completions is available for GitHub Copilot in Visual Studio version 17.14 Preview 2 or later.
+
+To try the new model for better suggestions and performance:
 
 1. In the **Tools** > **Options** dialog, expand the **GitHub** > **Copilot** section.
 
