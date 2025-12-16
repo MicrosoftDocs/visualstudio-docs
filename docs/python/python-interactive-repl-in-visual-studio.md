@@ -3,8 +3,8 @@ title: Use the Python Interactive Window (REPL)
 description: Use the Interactive Window (REPL) for rapid Python code development in Visual Studio and review how to work with the Standard or Debug REPL mode.
 ms.date: 04/18/2024
 ms.topic: how-to
-author: cwebster-99
-ms.author: cowebster
+author: Devdiv-VR
+ms.author: vedhar
 manager: mijacobs
 ms.subservice: python
 
@@ -178,7 +178,7 @@ You can change the behavior with the **Paste removes REPL prompts** option for t
 ::: moniker-end
 
 
-When you clear the option, the prompt characters are retained in code pasted from the window. For more information, see [Options - Miscellaneous options](python-support-options-and-settings-in-visual-studio.md?view=vs-2019&preserve-view=true#miscellaneous-options).
+When you clear the option, the prompt characters are retained in code pasted from the window. For more information, see [Options](python-support-options-and-settings-in-visual-studio.md).
 
 ## Review IntelliSense behavior
 
