@@ -1,7 +1,7 @@
 ---
 title: 'Configure Targets and Tasks'
 description: Learn how to set selected MSBuild tasks to run in the environment they target, regardless of the environment of the development computer.
-ms.date: 01/11/2022
+ms.date: 12/16/2025
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
@@ -13,7 +13,7 @@ ms.subservice: msbuild
 Selected MSBuild tasks can be set to run in the environment they target, when the development computer supports the target environment. For example, when you use a 64-bit Windows computer to build an application that targets a 32-bit Windows architecture, then selected tasks are run in a 32-bit process.
 
 > [!NOTE]
-> If a build task is written in a .NET language, such as Visual C# or Visual Basic, and does not use native resources or tools, then it will run in any target context without adaptation.
+> If a build task is written in a .NET language, such as Visual C# or Visual Basic, and does not use native resources or tools, then it can run in any target context without adaptation.
 
 ## UsingTask attributes and task parameters
 
@@ -69,7 +69,7 @@ Before MSBuild runs a task, it looks for a matching `UsingTask` that has the sam
 ```
 
 ## Overriding default UsingTasks
-By default, MSBuild handles UsingTask's as "first one wins." Starting in 17.2, MSBuild supports overriding this behavior via the `Override` parameter. A UsingTask with the parameter `Override` set to `true` will take priority over any other UsingTask of the same TaskName.
+By default, MSBuild handles UsingTask's as "first one wins." Starting in 17.2, MSBuild supports overriding this behavior via the `Override` parameter. A UsingTask with the parameter `Override` set to `true` takes priority over any other UsingTask of the same TaskName.
 
 ```xml
 <UsingTask TaskName="MyTool"
@@ -80,7 +80,7 @@ By default, MSBuild handles UsingTask's as "first one wins." Starting in 17.2, M
 ```
 
 > [!WARNING]
-> This can only be done **once per task**. Builds that attempt to add multiple overrides for the same task will receive MSBuild error `MSB4275`.
+> This can only be done **once per task**. Builds that attempt to add multiple overrides for the same task receives MSBuild error `MSB4275`.
 
 ## Task factories
 
@@ -144,7 +144,7 @@ When this attribute is set:
 > [!WARNING]
 > This `.NET TaskHost` capability using `Runtime="NET"` is only available in projects that use the Microsoft.NET.Sdk **version 10 or higher** and/or **Visual Studio 2026 and later** (version 18 or higher). It is **not** supported in earlier SDKs, earlier Visual Studio versions, or in projects based on other SDKs. Attempting to use `Runtime="NET"` in these contexts may result in build failures or ignored settings.
 
-Attempting to use the .NET TaskHost feature with a .NET SDK before 10.0.100 will result in errors for your users when they build - to prevent this, you can do a version check to determine if the feature is safe to use. Here's, we'll use a version-comparison MSBuild Property Function to see if the current build is happening in a version greater than or equal to 10.0.100, and if so use the `NET` Runtime. Otherwise, if we're below SDK version 10.0.100 and running on the .NET Framework version of MSBuild, then we'll use a .NET Framework Task implementation instead.
+Attempting to use the .NET TaskHost feature with a .NET SDK before 10.0.100 results in errors for your users when they build. To prevent this, you can do a version check to determine if the feature is safe to use. Here's, we'll use a version-comparison MSBuild Property Function to see if the current build is happening in a version greater than or equal to 10.0.100, and if so use the `NET` Runtime. Otherwise, if we're below SDK version 10.0.100 and running on the .NET Framework version of MSBuild, then we'll use a .NET Framework Task implementation instead.
 
 ```xml
 <UsingTask .... AssemblyFile="my/netcore/tasks.dll" Runtime="NET" Condition="$([MSBuild]::VersionGreaterThanOrEquals('$(SdkAnalysisLevel)', '10.0.100'))" />
@@ -180,7 +180,7 @@ Unlike other task parameters, `MSBuildRuntime` and `MSBuildArchitecture` are not
 The `MSBuildRuntime` and `MSBuildArchitecture` parameters provide the most flexible way to set the target context, but also the most limited in scope. On the one hand, because they are set on the task instance itself and are not evaluated until the task is about to run, they can derive their value from the full scope of properties available at both evaluation-time and build-time. On the other hand, these parameters only apply to a particular instance of a task in a particular target.
 
 > [!NOTE]
-> Task parameters are evaluated in the context of the parent node, not in the context of the task host. Environment variables that are runtime- or architecture- dependent (such as the *Program Files* location) will evaluate to the value that matches the parent node. However, if the same environment variable is read directly by the task, it will correctly be evaluated in the context of the task host.
+> Task parameters are evaluated in the context of the parent node, not in the context of the task host. Environment variables that are runtime- or architecture- dependent (such as the *Program Files* location) evaluates to the value that matches the parent node. However, if the same environment variable is read directly by the task, it's correctly evaluated in the context of the task host.
 
 ## Related content
 
