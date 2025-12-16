@@ -182,11 +182,9 @@ To try the new model for better suggestions and performance:
 
 1. Select **OK**.
 
-:::moniker-end
-
 You can also access **Settings** > **Options** from the Copilot badge at the top right in the editor.
 
-
+:::moniker-end
 
 ### Access
 
