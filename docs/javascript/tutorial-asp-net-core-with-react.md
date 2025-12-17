@@ -50,7 +50,6 @@ You can use the method described in this article to create ASP.NET Core Single P
 :::moniker range="vs-2022"
     
 
-
 1. In the Start window, select **Create a new project**. <!-- Avoid parenthetical clauses. https://review.learn.microsoft.com/en-us/help/contribute/localization-mt-guidance?branch=main-->
 
    :::image type="content" source="media/vs-2022/create-new-project.png" alt-text="Screenshot showing Create a new project.":::
@@ -61,11 +60,11 @@ You can use the method described in this article to create ASP.NET Core Single P
 
 :::moniker-end
 
-1. Name the project **ReactWithASP** and then select **Next**.
+3. Name the project **ReactWithASP** and then select **Next**.
 
    In the Additional Information dialog, make sure that **Configure for HTTPS** is enabled. In most scenarios, leave the other settings at the default values.
 
-1. Select **Create**.
+4. Select **Create**.
 
    Solution Explorer shows the following project information:
 
@@ -76,7 +75,7 @@ You can use the method described in this article to create ASP.NET Core Single P
    - vite.config.js
    - App.jsx (modified)
 
-1. Select an installed browser from the Debug toolbar, such as Chrome or Microsoft Edge.
+5. Select an installed browser from the Debug toolbar, such as Chrome or Microsoft Edge.
 
    If the browser you want is not yet installed, install the browser first, and then select it.
 
