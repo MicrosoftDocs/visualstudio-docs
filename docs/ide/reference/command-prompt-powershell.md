@@ -3,7 +3,7 @@ title: Command-Line Shells & Prompt For Developers
 description: Learn about the two command-line shells for developers in Visual Studio, the Developer Command Prompt and the Developer PowerShell.
 author: Mikejo5000
 ms.author: mikejo
-ms.date: 11/18/2025
+ms.date: 12/17/2025
 ms.topic: article
 helpviewer_keywords:
   - "Visual Studio command prompt"
