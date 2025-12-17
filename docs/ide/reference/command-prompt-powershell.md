@@ -118,7 +118,7 @@ Search for the name of the command prompt file, which is *VsDevCmd.bat*, or go t
 
 After you locate the command prompt file, open it by entering the following command in a regular command prompt window:
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 ```cmd
 "%ProgramFiles%\Microsoft Visual Studio\2022\Community\Common7\Tools\VsDevCmd.bat"
