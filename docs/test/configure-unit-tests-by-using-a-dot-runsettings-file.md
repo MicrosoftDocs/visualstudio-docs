@@ -91,7 +91,17 @@ In the IDE, select **Test** > **Configure Run Settings** > **Select Solution Wid
 - This file overrides the *.runsettings* file at the root of the solution, if one is present, and is applied across all tests run.
 - This file selection only persists locally.
 
+:::moniker range="<=vs-2022"
+
 ![Select test solution-wide runsettings file menu in Visual Studio](media/select-solution-settings-file.png)
+
+:::moniker-end
+
+:::moniker range="visualstudio"
+
+![Select test solution-wide runsettings file menu in Visual Studio](media/visualstudio/select-solution-settings-file.png)
+
+:::moniker-end
 
 #### Set a build property
 
