@@ -72,7 +72,7 @@ If auto detection of run settings files is enabled, the settings in this file ar
    ![Auto detect runsettings file menu in Visual Studio](media/visualstudio/auto-detect-runsettings-menu.png)
 
 :::moniker-end
-:::moniker range="<=vs-2022"
+:::moniker range="vs-2022"
 
 - Open the **Tools** > **Options** dialog, expand the **Test** > **General** section, and select the **Auto Detect runsettings Files** option:
 
