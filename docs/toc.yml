@@ -929,6 +929,12 @@
       href: ide/preview-changes.md
     - name: Options
       items:
+      - name: How To
+        items:     
+        - name: Environment > Visual Experience
+          href: ide/configure-visual-experience-options.md
+        - name: Languages > C/C++ > Advanced
+          href: ide/configure-c-cpp-advanced-options.md          
       - name: Environment
         items:
         - name: General
