@@ -53,9 +53,6 @@ By default, the primary location for the SDF and IntelliSense support files (for
 
 You can use the following settings to identify a custom secondary location, or specify a custom location to always use as the primary location. For the secondary location, the IDE creates a subdirectory under the custom location (or the temporary directory) that includes the name of the solution along with a hash of the full path to the solution, which avoids issues with solution names being identical.
 
-> [!NOTE]
-> Earlier versions of Visual Studio provide similar options under the **Text Editor** > **C/C++** > **Advanced** section in the **Browsing Database Fallback** category.
-
 **Always use the specified custom location for the browsing database**
 
 When selected, Visual Studio always uses the secondary location specified in the **Custom location for browsing database files** option as the primary location for the browsing database. When this option isn't selected (default), it uses the default primary location, the solution directory folder.
@@ -267,13 +264,13 @@ When selected (default), you can apply IntelliSense, browsing, and other feature
 
 When selected, IntelliSense displays squiggles for errors in standalone nonproject files. By default, this option is cleared. When the **Enable IntelliSense for standalone files that aren't part of an existing project** option is cleared, this option is ignored and unavailable for manual selection.
 
-<a name="#show-intellisense-errors-in-the-error-list"></a>
+<a name="show-intellisense-errors-in-the-error-list"></a>
 
 **Show IntelliSense errors in the error list**
 
 When selected, IntelliSense errors from standalone nonproject files display in the Error List. By default, this option is cleared. When the **Enable IntelliSense for standalone files that aren't part of an existing project** option is cleared, this option is ignored and unavailable for manual selection.
 
-<a name="#suspend-enabing-intellisense-for-newly-opened-files-while-debugging"></a>
+<a name="suspend-enabing-intellisense-for-newly-opened-files-while-debugging"></a>
 
 **Suspend enabling IntelliSense for newly opened files while debugging**
 

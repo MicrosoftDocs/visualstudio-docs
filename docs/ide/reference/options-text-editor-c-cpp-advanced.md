@@ -210,13 +210,13 @@ When enabled (default), you can apply IntelliSense, browsing, and other features
 
 When enabled, IntelliSense squiggles display for standalone nonproject files. By default, this option is set to False. When the **Enable Enhanced Single File** option is disabled (False), this option is ignored and unavailable for manual selection.
 
-<a name="#show-intellisense-errors-in-error-list"></a>
+<a name="show-intellisense-errors-in-error-list"></a>
 
 **Show IntelliSense Errors In Error List**
 
 When enabled, IntelliSense errors from standalone nonproject files display in the Error List. By default, this option is set to False. When the **Enable Enhanced Single File** option is disabled (False), this option is ignored and unavailable for manual selection.
 
-<a name="#suspend-new-files-during-debugging"></a>
+<a name="suspend-new-files-during-debugging"></a>
 
 **Suspend New Files During Debugging**
 
