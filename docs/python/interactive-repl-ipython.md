@@ -3,8 +3,8 @@ title: Use IPython REPL in the Interactive Window
 description: Use the Visual Studio Interactive Window in IPython mode for a user-friendly interactive development environment with Interactive Parallel Computing features.
 ms.date: 04/18/2024
 ms.topic: how-to
-author: cwebster-99
-ms.author: cowebster
+author: Devdiv-VR
+ms.author: vedhar
 manager: mijacobs
 ms.subservice: python
 
@@ -102,7 +102,7 @@ The following steps show you how to use IPython commands in the Interactive Wind
 
 1. To view the graphs outside of the **Interactive Window**, run the code with the **Debug** > **Start without Debugging** command on the main Visual Studio toolbar.
 
-IPython has many other useful features, such as escaping to the system shell, variable substitution, capturing output, and so on. For more information, see the [IPython documentation](https://ipython.org/documentation.html).
+IPython has many other useful features, such as escaping to the system shell, variable substitution, capturing output, and so on. For more information, see the [IPython documentation](https://ipython.org/).
 
 ## Related content
 
