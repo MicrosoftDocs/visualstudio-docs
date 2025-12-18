@@ -37,8 +37,13 @@ translation.priority.ht:
 
   
 1. When configuration is complete, the **Remote Debugger** window appears.
+
+
+    ::: moniker range="visualstudio"
+    ![Screenshot of remote debugger window](../media/visualstudio/remote-debugger-window.png "Remote Debugger window")
+    ::: moniker-end
   
-    ::: moniker range=">= vs-2022"
+    ::: moniker range="vs-2022"
     ![Screenshot of remote debugger window](../media/vs-2022/remote-debugger-window.png "Remote Debugger window")
     ::: moniker-end
 
