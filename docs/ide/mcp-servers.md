@@ -90,7 +90,7 @@ You can install an MCP server directly from the GitHub MCP server registry via E
 
 1. From the Visual Studio menu, select **Extensions > MCP Regsitries...** to open the **MCP Server Manager**.
 
-    :::image type="content" source="media/vs-2022/mcp-servers/model-context-protocol-registry.png" alt-text="Screenshot that shows adding an MCP server from the MCP Server Manager." lightbox="media/vs-2022/mcp-servers/model-context-protocol-registry.png":::
+    :::image type="content" source="media/vs-2022/mcp-servers/model-context-protocol-registry.png" alt-text="Screenshot that shows the Extensions menu for MCP Registries." lightbox="media/vs-2022/mcp-servers/model-context-protocol-registry.png":::
        
 1. Select the desired server, and then select install for your Visual Studio instance.
 
@@ -117,10 +117,12 @@ The following steps walk you through a configuration example with the GitHub MCP
 
 1. Save the file.
 
-1. In the file, select **Authentication Required** from the CodeLens that appears above the new server to authenticate to the server through a GitHub account.
+1. In the file, select **Authentication Required** from the CodeLens that appears to authenticate to the server through a GitHub account.
    Select **Authenticate** on the pop-up dialog to authenticate with your GitHub account.
 
     :::image type="content" source="media/vs-2022/mcp-servers/codelens-authentication.png" alt-text="Screenshot that shows CodeLens authentication." lightbox="media/vs-2022/mcp-servers/codelens-authentication.png":::
+
+    If you don't see the CodeLens, ensure it's enabled in **Tools** > **Options** > **Text Editor** > **CodeLens**.
 
 1. At the bottom of the chat panel, select **Agent** from the mode dropdown.
 
