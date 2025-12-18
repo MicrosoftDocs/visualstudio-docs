@@ -1,7 +1,7 @@
 ---
 title: Configure unit tests with a .runsettings file
 description: Learn how to use the .runsettings file in Visual Studio to configure unit tests that are run from the command line, from the IDE, or in a build workflow.
-ms.date: 11/21/2025
+ms.date: 12/17/2025
 ms.topic: how-to
 ms.author: mikejo
 manager: mijacobs
@@ -67,18 +67,22 @@ If auto detection of run settings files is enabled, the settings in this file ar
 
    :::image type="content" source="media/visualstudio/auto-detect-runsettings-tools-window.png" border="false" alt-text="Screenshot shows the Auto detect runsettings file option in Visual Studio.":::
 
+- Select **Test** > **Configure Run Settings** > **Auto Detect runsettings Files**.
+
+   ![Screenshot of Auto detect runsettings file menu in Visual Studio.](media/visualstudio/auto-detect-runsettings-menu.png)
+
 :::moniker-end
 :::moniker range="<=vs-2022"
 
 - Open the **Tools** > **Options** dialog, expand the **Test** > **General** section, and select the **Auto Detect runsettings Files** option:
 
-   ![Auto detect runsettings file option in Visual Studio](media/auto-detect-runsettings-tools-window.png)
+   ![Auto detect runsettings file option in Visual Studio](media/visualstudio/auto-detect-runsettings-tools-window.png)
+
+- Select **Test** > **Configure Run Settings** > **Auto Detect runsettings Files**.
+
+   ![Screenshot of Auto detect runsettings file menu in Visual Studio.](media/auto-detect-runsettings-menu.png)
 
 :::moniker-end
-
-- Select **Test** > **Configure Run Settings** > **Auto Detect runsettings Files**
-
-   ![Auto detect runsettings file menu in Visual Studio](media/auto-detect-runsettings-menu.png)
 
 #### Manually select the run settings file
 
@@ -87,7 +91,17 @@ In the IDE, select **Test** > **Configure Run Settings** > **Select Solution Wid
 - This file overrides the *.runsettings* file at the root of the solution, if one is present, and is applied across all tests run.
 - This file selection only persists locally.
 
+:::moniker range="<=vs-2022"
+
 ![Select test solution-wide runsettings file menu in Visual Studio](media/select-solution-settings-file.png)
+
+:::moniker-end
+
+:::moniker range="visualstudio"
+
+![Screenshot of Select test solution-wide runsettings file menu in Visual Studio.](media/visualstudio/select-solution-settings-file.png)
+
+:::moniker-end
 
 #### Set a build property
 
