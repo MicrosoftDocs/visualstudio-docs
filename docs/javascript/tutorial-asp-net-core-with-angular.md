@@ -66,11 +66,11 @@ Make sure to install the following:
    > There is a compatibility issue with Angular 20.x.x and the **Angular and ASP.NET Core** template in Visual Studio 2022. To use Angular 20.x.x in Visual Studio 2022, it's recommended that you create an ASP.NET Core project first, add an Angular project to the solution, and then add a project reference to the Angular project from the ASP.NET Core project. You can use this method instead of using the combined template described in this article. For more information about the issue, see [Creating a new Solution with Angular](https://developercommunity.visualstudio.com/t/Creating-a-new-Solution-with-Angular-is/10918866?q=Angular).
    ::: moniker-end
 
-1. Name the project **AngularWithASP** and then select **Next**.
+3. Name the project **AngularWithASP** and then select **Next**.
 
    In the Additional Information dialog, make sure that **Configure for HTTPS** is enabled. In most scenarios, leave the other settings at the default values.
 
-1. Select **Create**.
+4. Select **Create**.
 
    Solution Explorer shows the following:
 
