@@ -1,7 +1,7 @@
 ---
 title: "Hello World app with WPF in C#"
 description: In this tutorial, create a Windows Desktop .NET application in C# with Visual Studio by using the Windows Presentation Foundation (WPF) UI framework.
-ms.date: 12/03/2024
+ms.date: 12/17/2025
 ms.subservice: general-ide
 ms.topic: tutorial
 dev_langs:
@@ -45,8 +45,40 @@ When you launch Visual Studio, the start window opens. Select **Continue without
 
 When you create an application in Visual Studio, you first create a project and a solution. For this example, you create a Windows Presentation Foundation (WPF) project.
 
+::: moniker range="visualstudio"
 
-::: moniker range=">=vs-2022"
+1. Open Visual Studio.
+
+1. On the start window, choose **Create a new project**.
+
+   :::image type="content" source="media/visualstudio/start-window-create-new-project.png" alt-text="Screenshot of the start window in Visual Studio with the 'Create a new project' option highlighted." lightbox="media/visualstudio/start-window-create-new-project.png":::
+
+1. On the **Create a new project** screen, search for *WPF*. Choose **WPF Application**, and then choose **Next**.
+
+   :::image type="content" source="media/visualstudio/explore-ide-new-project-csharp-wpf.png" alt-text="Screenshot of the 'Create a new project' dialog with 'WPF' in the search box, and the 'WPF Application' template highlighted." lightbox="media/visualstudio/explore-ide-new-project-csharp-wpf.png":::
+
+1. At the next screen, give the project a name, *HelloWPFApp*, and choose **Next**.
+
+   :::image type="content" source="media/visualstudio/explore-ide-name-project.png" alt-text="Screenshot that shows the 'Configure your new project' dialog with 'HelloWPFApp' entered in the Project name field." lightbox="media/visualstudio/explore-ide-name-project.png":::
+
+1. In the **Additional information** window, verify that **.NET 10.0** is selected for your target framework. Then, choose **Create**.
+
+   :::image type="content" source="media/visualstudio/wpf-target-framework.png" alt-text="Screenshot that shows the Additional information window with .NET 10.0 selected as the target framework for the new project." lightbox="media/visualstudio/wpf-target-framework.png":::
+
+Visual Studio creates the HelloWPFApp project and solution. **Solution Explorer** shows the various files. The **WPF Designer** shows a design view and a XAML view of `MainWindow.xaml` in a split view. You can slide the splitter to show more or less of either view. You can choose to see only the visual view or only the XAML view.
+
+:::image type="content" source="media/visualstudio/explore-ide-wpf-project-cs.png" alt-text="Screenshot of the project and solution in Solution Explorer, and the XAML and designer views of 'MainWindow.xaml' open." lightbox="media/visualstudio/explore-ide-wpf-project-cs.png":::
+
+> [!NOTE]
+> For more information about the Extensible Application Markup Language (XAML), see [XAML overview for WPF](/dotnet/framework/wpf/advanced/xaml-overview-wpf).
+
+After you create the project, you can customize it. To do so, choose **Properties Window** from the **View** menu, or press **F4**. Then, you can display and change options for project items, controls, and other items in an application.
+
+:::image type="content" source="media/visualstudio/explore-ide-hello-wpf-properties.png" alt-text="Screenshot of the Properties window showing the Misc section of the Solution Properties for the HelloWPFApp project.":::
+
+::: moniker-end
+
+::: moniker range="vs-2022"
 
 1. Open Visual Studio.
 
@@ -89,8 +121,31 @@ In this tutorial, you add three types of controls to this application: a <xref:S
 
 Follow these steps to add a TextBlock.
 
+::: moniker range="visualstudio"
 
-::: moniker range=">=vs-2022"
+1. Select **Ctrl**+**Q** to activate the search box and type **Toolbox**. Choose **View > Toolbox** from the results list.
+
+1. In the **Toolbox**, expand the **Common WPF Controls** node to see the TextBlock control.
+
+   :::image type="content" source="media/visualstudio/explore-ide-textblock-toolbox.png" alt-text="Screenshot of the Toolbox window with the TextBlock control selected in the list of Common WPF Controls.":::
+
+1. Add a TextBlock control to the design surface. Choose the **TextBlock** item and drag it to the window on the design surface. Center the control near the top of the window. You can use the guidelines to center the control.
+
+   Your window should resemble this image:
+
+   :::image type="content" source="media/vs-2022/explore-ide-greetings-with-textblock-only.png" alt-text="Screenshot of the TextBlock control on the design surface. Guidelines are shown for positioning and resizing the control.":::
+
+   The XAML markup should look like this example:
+
+   ```xaml
+   <Grid>
+       <TextBlock HorizontalAlignment="Left" Margin="387,60,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top"/>
+   </Grid>
+   ```
+
+::: moniker-end
+
+::: moniker range="vs-2022"
 
 1. Select **Ctrl**+**Q** to activate the search box and type **Toolbox**. Choose **View > Toolbox** from the results list.
 
@@ -134,8 +189,27 @@ You can change what text the TextBlock displays.
 
 Next, add two [RadioButton](/dotnet/framework/wpf/controls/radiobutton) controls to the form.
 
+::: moniker range="visualstudio"
 
-::: moniker range=">=vs-2022"
+1. In the **Toolbox**, find the **RadioButton** control.
+
+   :::image type="content" source="media/visualstudio/explore-ide-radiobutton-toolbox.png" alt-text="Screenshot of the Toolbox window with the RadioButton control selected in the list of Common WPF Controls.":::
+
+1. Add two RadioButton controls to the design surface. Choose the **RadioButton** item and drag it to the window on the design surface. Move the buttons by selecting them and using the arrow keys. Arrange them so that the buttons appear side by side under the TextBlock control. You can use the guidelines to align the controls.
+
+   Your window should look like this:
+
+   :::image type="content" source="media/vs-2022/explore-ide-greetings-with-radiobuttons.png" alt-text="Screenshot of the Design window for Greetings.xaml with a TextBlock and two RadioButton controls on the design surface.":::
+
+1. In the **Properties** window for the left RadioButton control, at the top, change the **Name** property to `HelloButton`.
+
+   :::image type="content" source="media/visualstudio/explore-ide-button-properties.png" alt-text="Screenshot of the Properties window for a RadioButton control with the value of the Name property changed to HelloButton.":::
+
+1. In the **Properties** window for the right RadioButton control, change the **Name** property to `GoodbyeButton`, and then save your changes.
+
+::: moniker-end
+
+::: moniker range="vs-2022"
 
 1. In the **Toolbox**, find the **RadioButton** control.
 
@@ -277,8 +351,21 @@ In this step, you find the error that was caused earlier by changing the name of
 
 #### Start debugging and find the error
 
+::: moniker range="visualstudio"
 
-::: moniker range=">=vs-2022"
+1. Start the debugger by selecting **F5** or selecting **Debug**, then **Start Debugging**.
+
+   A **Break Mode** window appears, and the **Output** window indicates that an IOException occurred: *Cannot locate resource mainwindow.xaml*.
+
+   :::image type="content" source="media/visualstudio/explore-ide-ioexception.png" alt-text="Screenshot of the Output window showing a System.IO.IOException with the message, Cannot locate resource mainwindow.xaml." lightbox="media/visualstudio/explore-ide-ioexception.png":::
+
+1. Stop the debugger by choosing **Debug** > **Stop Debugging**.
+
+You renamed `MainWindow.xaml` to `Greetings.xaml`, but the code still refers to `MainWindow.xaml` as the startup URI for the application, so the project can't start.
+
+::: moniker-end
+
+::: moniker range="vs-2022"
 
 1. Start the debugger by selecting **F5** or selecting **Debug**, then **Start Debugging**.
 
@@ -320,8 +407,43 @@ You can test the code during debugging by adding some breakpoints. You can add b
 
 #### Add breakpoints
 
+::: moniker range="visualstudio"
 
-::: moniker range=">=vs-2022"
+1. Open *Greetings.xaml.cs*, and select this line: `MessageBox.Show("Hello.")`
+
+1. Add a breakpoint from the menu by selecting **Debug**, then **Toggle Breakpoint**.
+
+   A red circle appears next to the line of code in the far left margin of the editor window.
+
+1. Select this line: `MessageBox.Show("Goodbye.")`.
+
+1. Press the **F9** key to add a breakpoint, and then select **F5** to start debugging.
+
+1. In the **Greetings** window, choose the **Hello** radio button, and then choose the **Display** button.
+
+   The line `MessageBox.Show("Hello.")` is highlighted in yellow. At the bottom of the IDE, the Autos, Locals, and Watch windows are docked together on the left side. The **Call Stack**, **Breakpoints**, **Exception Settings**, **Command**, **Immediate**, and **Output** windows are docked together on the right side.
+
+   :::image type="content" source="media/visualstudio/explore-ide-debug-breakpoint.png" alt-text="Screenshot of a debug session, with the code window showing execution stopped at a breakpoint highlighted in yellow." lightbox="media/visualstudio/explore-ide-debug-breakpoint.png":::
+
+1. On the menu bar, choose **Debug** > **Step Out**.
+
+   The application resumes execution, and a message box with the word "Hello" appears.
+
+1. Choose **OK** on the message box to close it.
+
+1. In the **Greetings** window, choose the **Goodbye** radio button, and then choose the **Display** button.
+
+   The line `MessageBox.Show("Goodbye.")` is highlighted in yellow.
+
+1. Choose the **F5** key to continue debugging. When the message box appears, choose **OK** on the message box to close it.
+
+1. To stop debugging, close the application window.
+
+1. On the menu bar, choose **Debug** > **Disable All Breakpoints**.
+
+::: moniker-end
+
+::: moniker range="vs-2022"
 
 1. Open *Greetings.xaml.cs*, and select this line: `MessageBox.Show("Hello.")`
 
@@ -361,11 +483,18 @@ You can test the code during debugging by adding some breakpoints. You can add b
 
 In the running app, you should see a widget that appears at the top of your window. The widget is a runtime helper that provides quick access to some helpful debugging features. Select the first button, **Go to Live Visual Tree**. You should see a window with a tree that contains all the visual elements of your page. Expand the nodes to find the buttons you added.
 
-::: moniker range=">=vs-2022"
+::: moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/explore-ide-live-visual-tree.png" alt-text="Screenshot of the Live Visual Tree window, showing the tree of visual elements in HelloWPFApp.exe while it's running.":::
+
+::: moniker-end
+
+::: moniker range="vs-2022"
 
 :::image type="content" source="media/vs-2022/explore-ide-live-visual-tree.png" alt-text="Screenshot of the Live Visual Tree window, showing the tree of visual elements in HelloWPFApp.exe while it's running.":::
 
 ::: moniker-end
+
 ### Build a release version of the application
 
 After you verify that everything works, you can prepare a release build of the application.
