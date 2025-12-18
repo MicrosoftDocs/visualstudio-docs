@@ -5,7 +5,7 @@ description: List of all out-of-support components in Visual Studio 2022, Visual
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
-ms.date: 05/25/2023
+ms.date: 12/18/2025
 ms.custom: vs-acquisition
 ms.topic: reference
 helpviewer_keywords:
@@ -23,6 +23,8 @@ List of all out-of-support components in Visual Studio.
 ## Out-of-support components in Visual Studio 2022
 
 - .NET 5.0 Runtime
+- .NET 6.0 Runtime
+- .NET 7.0 Runtime
 - .NET Core 2.1 Runtime
 - .NET Core 3.1 Runtime
 - Development Tools for .NET Core 2.1
@@ -39,11 +41,12 @@ List of all out-of-support components in Visual Studio.
 - .NET SDK
 - Development Tools plus .NET Core 2.1
 - Web Development Tools plus .NET Core 2.1
-- C++ Windows XP Support for VS 2017 (v141) tools
 - Python 2 32 bit (2.7.18)
 - Python 2 64 bit (2.7.18)
 - Python 3 32 bit (3.7.8)
 - Python 3 64 bit (3.7.8)
+- Python 3 32 bit (3.9.13)
+- Python 3 64 bit (3.9.13)
 - IronPython
 - Python miniconda
 
