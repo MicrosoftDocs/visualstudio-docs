@@ -39,6 +39,20 @@ Make sure to install the following:
 
 ## Create the app
 
+   ::: moniker range="visualstudio"
+
+1. In the Start window (choose **File** > **Start Window** to open), select **Create a new project**.
+
+   :::image type="content" source="media/visualstudio/create-new-project.png" alt-text="Screenshot showing Create a new project":::
+
+1. Search for Angular in the search bar at the top and then select **Angular and ASP.NET Core**.
+   
+   :::image type="content" source="media/visualstudio/angular-choose-template.png" alt-text="Screenshot showing choosing a template.":::
+
+   ::: moniker-end
+   
+   ::: moniker range="vs-2022"
+
 1. In the Start window (choose **File** > **Start Window** to open), select **Create a new project**.
 
    :::image type="content" source="media/vs-2022/create-new-project.png" alt-text="Screenshot showing Create a new project":::
@@ -47,7 +61,7 @@ Make sure to install the following:
 
    :::image type="content" source="media/vs-2022/angular-choose-template.png" alt-text="Screenshot showing choosing a template.":::
 
-   ::: moniker range="vs-2022"
+   
    > [!NOTE]
    > There is a compatibility issue with Angular 20.x.x and the **Angular and ASP.NET Core** template in Visual Studio 2022. To use Angular 20.x.x in Visual Studio 2022, it's recommended that you create an ASP.NET Core project first, add an Angular project to the solution, and then add a project reference to the Angular project from the ASP.NET Core project. You can use this method instead of using the combined template described in this article. For more information about the issue, see [Creating a new Solution with Angular](https://developercommunity.visualstudio.com/t/Creating-a-new-Solution-with-Angular-is/10918866?q=Angular).
    ::: moniker-end
@@ -81,7 +95,17 @@ Make sure to install the following:
 
 1. In the Properties page, open the **Debug** tab and select **Open debug launch profiles UI** option. Uncheck the **Launch Browser** option for the **https** profile or the profile named after the ASP.NET Core project, if present.
 
+   :::moniker range="visualstudio"
+   
+   :::image type="content" source="media/visualstudio/asp-net-core-deselect-launch-browser-angular.png" alt-text="Screenshot showing Debug launch profiles UI."::: 
+   
+   :::moniker-end
+
+   :::moniker range="vs-2022"
+   
    :::image type="content" source="media/vs-2022/asp-net-core-deselect-launch-browser-angular.png" alt-text="Screenshot showing Debug launch profiles UI."::: 
+   
+   :::moniker-end
 
    This value prevents opening the web page with the source weather data.
 
@@ -190,7 +214,18 @@ If you create the project with [Docker support](../containers/overview.md#prereq
 
 1. After the app loads, get the Docker HTTPS port using the [Containers window](../containers/view-and-diagnose-containers.md) in Visual Studio. Check the **Environment** or **Ports** tab.
 
+   :::moniker range="visualstudio"
+
+   :::image type="content" source="media/visualstudio/asp-net-core-with-angular-docker-container-ports.png" alt-text="Screenshot showing Docker container ports."::: 
+
+   :::moniker-end
+
+   :::moniker range="vs-2022"
+
    :::image type="content" source="media/vs-2022/asp-net-core-with-angular-docker-container-ports.png" alt-text="Screenshot showing Docker container ports."::: 
+
+   :::moniker-end
+  
 
 1. Open the `proxy.conf.js` file for the Angular project. Update the `target` variable to match the HTTPS port in the Containers window. For example, in the following code:
 
