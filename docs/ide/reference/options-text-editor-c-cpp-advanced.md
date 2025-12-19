@@ -13,16 +13,40 @@ ms.custom: "ide-ref"
 author: tylermsft
 ms.author: twhitney
 manager: coxford
-monikerRange: 'vs-2022'
+monikerRange: '>=vs-2022'
 ---
 # Options, Text Editor, C/C++, Advanced
 
-By changing these options, you can change the behavior related to IntelliSense and the browsing database when you're programming in C or C++.
+:::moniker range="<=vs-2022"
+
+By changing these options, you can define the behavior related to IntelliSense and the browsing database when you're programming in C or C++.
 
 You can access the settings by selecting **Tools** > **Options** from the Visual Studio menu bar and expanding the **Text Editor** > **C/C++** > **Advanced** section. Most of the settings have a True/False value option. To enable a setting, set the value to True.
 
 > [!NOTE]
 > Your computer might show different names or locations for some of the Visual Studio IDE elements in the following instructions. The Visual Studio edition that you have and the settings that you use determine these elements. For more information, see [Personalize the Visual Studio IDE](../../ide/personalizing-the-visual-studio-ide.md).
+
+:::moniker-end
+:::moniker range="visualstudio"
+
+The options under **Text Editor** > **C/C++** > **Advanced** are moved to other locations in Visual Studio 2026:
+
+| Visual Studio 2022 | Visual Studio 2026 |
+|---|---|
+| **Brace Completion** | **All Settings** > **Languages** > **C/C++** > **Text Editor** > **[Brace completion](../configure-c-cpp-advanced-options.md#brace-completion)** |
+| **Browsing/Navigation** | **All Settings** > **Languages** > **C/C++** > **IntelliSense** > **[Browsing & navigation](../configure-languages-c-cpp-intellisense.md#browsing-and-navigation)** |
+| **Browsing Database Fallback** | **All Settings** > **Languages** > **C/C++** > **IntelliSense** > **Browsing & navigation** > **[Location](../configure-languages-c-cpp-intellisense.md#location-for-the-browsing-database)** |
+| **Code Analysis** | **All Settings** > **Languages** > **C/C++** > **[Code analysis](../configure-c-cpp-advanced-options.md#code-analysis)** |
+| **Diagnostic Logging** | **All Settings** > **Languages** > **C/C++** > **IntelliSense** > **[Diagnostic logging](../configure-languages-c-cpp-intellisense.md#diagnostic-logging)** |
+| **Error List** | **All Settings** > **Languages** > **C/C++** > **[Error list](../configure-c-cpp-advanced-options.md#error-list)** |
+| **IntelliSense** | **All Settings** > **Languages** > **C/C++** > **[IntelliSense](../configure-languages-c-cpp-intellisense.md#general-options)** |
+| **IntelliSense and Browsing for Non-Project Files** | **All Settings** > **Languages** > **C/C++** > **IntelliSense** > **[Non-project files](../configure-languages-c-cpp-intellisense.md#non-project-files)** |
+| **References** | **All Settings** > **Languages** > **C/C++** > **IntelliSense** > **[References](../configure-languages-c-cpp-intellisense.md#references)** |
+| **Text Editor** | **All Settings** > **Languages** > **C/C++** > **[Text editor](../configure-c-cpp-advanced-options.md#text-editor)** |
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
 
 ## Brace Completion
 
@@ -136,13 +160,15 @@ When enabled, searches in Solution Explorer return exact matches for your search
 
 ## Code Analysis
 
+The following options are provided to assist with code analysis.
+
 **Disable Background Code Analysis**
 
 When enabled, Visual Studio doesn't run C++ code analysis in the background when you open or save a file.
 
 **Disable Code Analysis Squiggles**
 
-When enabled, Visual Studio doesn't show squiggles for C++ code analysis warnings in the editor. Errors continue to display in the error list. If you modify the setting on this option and have open windows, the new setting affects only windows you open after the change.
+When enabled, Visual Studio doesn't show squiggles for C++ code analysis warnings in the editor. Errors continue to display in the Error List window. If you modify the setting on this option and have open windows, the new setting affects only windows you open after the change.
 
 **Enable Code Analysis Logging**
 
@@ -185,12 +211,172 @@ The following option is provided to assist with the collection of advanced infor
 
 **Show problem details on double click**
 
-When enabled (default), Visual Studio displays the **Problem Details** window when you double-click an issue to view associated details. The window is visible as you navigate from the Error List to the location of the issue in your source code.
+When enabled (default), Visual Studio displays the **Problem Details** window when you double-click an issue to view associated details. The window is visible as you navigate from the Error List window to the location of the issue in your source code.
 
 ## IntelliSense
 
-<!-- In progress -->
+The following options support configuration of various IntelliSense features.
 
+**Auto Quick Info**
+
+When enabled (default), QuickInfo tooltips display when you move the mouse pointer over text.
+
+**Disable IntelliSense**
+
+When enabled, all IntelliSense features are disabled. The IDE doesn't create _VCPkgSrv.exe_ processes to service IntelliSense requests, and no IntelliSense features work (QuickInfo, Member List, Auto Complete, Param Help). Semantic colorization and reference highlighting are also disabled. This option doesn't disable browsing features that rely solely on the database (including the Navigation Bar, ClassView, and Property window).
+
+<a name="disable-auto-updating"></a>
+
+**Disable Auto Updating**
+
+When enabled, IntelliSense updating is delayed until an actual request for IntelliSense is made. This delay can result in a longer execution time for the first IntelliSense operation on a file, but it can be helpful on slow or resource-constrained machines. 
+
+When enabled, the following options are also enabled (True) by default:
+
+- **[Disable Error Reporting](#disable-error-reporting)**
+- **[Disable Squiggles](#disable-squiggles)**
+
+<a name="disable-error-reporting"></a>
+
+**Disable Error Reporting**
+
+When enabled, IntelliSense errors aren't indicated with squiggles and they aren't displayed in the Error List window.
+
+Considerations for this option:
+
+- When enabled, background parsing for error reporting is disabled.
+- When enabled, the **[Disable Squiggles](#disable-squiggles)** option is also enabled (True) by default.
+- When the **[Disable Auto Updating](#disable-auto-updating)** option is enabled (True), this option is also enabled and unavailable for manual selection.
+
+<a name="disable-squiggles"></a>
+
+**Disable Squiggles**
+
+When enabled, IntelliSense errors aren't indicated with red "squiggles" in the editor window, but the error displays in the Error List window.
+
+Considerations for this option:
+
+- When the **[Disable Error Reporting](#disable-error-reporting)** option is enabled (True), this option is also enabled and unavailable for manual selection.
+- When the **[Disable Auto Updating](#disable-auto-updating)** option is enabled (True), this option is also enabled and unavailable for manual selection.
+
+**Auto Tune Max Cached Translation Units**
+
+When enabled (default), the **Max Cached Translation Units** value is automatically tuned based on available system RAM. This action automatically sets the maximum number of translation units to keep active at any one time for IntelliSense requests. If you prefer to specify the value manually, disable this option (False).
+
+For more information about translation units, see [Phases of translation](/cpp/preprocessor/phases-of-translation).
+
+**Max Cached Translation Units**
+
+Use this option to specify the maximum number of translation units to keep active at any one time for IntelliSense requests. The value must be between 2 and 64.
+
+When the **Auto Tune Max Cached Translation Units** option is enabled (True), the value of this option is determined for you by the system and can't be changed manually. To change the value, first set the **Auto Tune Max Cached Translation Units** option to False.
+
+**Disable #include Auto Complete**
+
+When enabled, IntelliSense doesn't provide an autocompletion list for `#include` statements.
+
+**Use Forward Slash in #include Auto Complete**
+
+When enabled (default), IntelliSense autocompletes `#include` statements when you specify the forward slash `/`. The default delimiter is backslash `\`. The compiler can accept either character, so use this option to indicate whether to use the forward slash for your code base.
+
+**Disable Aggressive Member List**
+
+When enabled, IntelliSense doesn't show the member list while you type the name of a type or variable. The list appears only after you enter one of the commit characters specified in the **[Member List Commit Characters](#member-list-commit-characters)** option.
+
+**Disable Member List Keywords**
+
+When enabled, IntelliSense doesn't show language keywords such as `void`, `class`, `switch` in member list suggestions.
+
+**Disable Member List Code Snippets**
+
+When enabled, IntelliSense doesn't show code snippets in member list suggestions.
+
+**Member List Filter Mode**
+
+Use this option to set the type of matching algorithm for filtering the member list. Choose from the following options:
+
+- **Fuzzy** (default): Find the most possible matches by using an algorithm similar to a spell-checker, which finds both approximate and identical matches.
+- **Smart**: Match substrings even if they're not at the start of a word.
+- **Prefix**: Only match identical substrings that start at the beginning of the word.
+- **None**: Don't use filtering.
+
+**Disable Semantic Colorization**
+
+When enabled, IntelliSense turns off all code colorization, except for language keywords, strings, and comments.
+
+<a name="member-list-commit-characters"></a>
+
+**Member List Commit Characters**
+
+Use this option to specify the characters you can enter to commit the highlighted member list suggestion. You can add or remove characters from this list: `{}[]().,:;+-*/%&|^!=<>?@#\`.
+
+**Smart Member List Commit**
+
+When enabled, after you select **Enter** at the end of a fully typed word to complete a commit, IntelliSense adds a new line.
+
+**Member List Commit Aggressive**
+
+When enabled, the set of commit characters specified in the **[Member List Commit Characters](#member-list-commit-characters)** option are available for an _aggressively invoked_ member list.
+
+**Use Aggressive Member List for Auto Member List**
+
+When enabled, and the _Auto Member List_ is shown, you can't complete the commit by using the set of characters specified in the **[Member List Commit Characters](#member-list-commit-characters)** option.
+
+**Use Tab to commit in Aggressive Member List**
+
+When enabled (default) and the _Aggressive Member List_ is shown, you can complete the commit by selecting **Tab**.
+
+**Use Tab to Insert Snippet**
+
+When enabled (default), IntelliSense inserts a snippet when you select **Tab**, regardless of whether the member list is shown. One exception for this behavior is when the shortcut key is assigned to the `Edit.InvokeSnippetFromShortcut` action.
+
+**Disable Modules**
+
+When enabled, IntelliSense displays various IDE features for C+ +20 Modules, such as automatic building of required modules.
+
+**Member List Filter Inaccessible**
+
+When enabled (default), IntelliSense doesn't display inaccessible items in member lists.
+
+**Disable IntelliSense for Inactive Platforms**
+
+When enabled, IntelliSense features are disabled for inactive platforms in folders and shared assets projects.
+
+**Enable Member List Dot-To-Arrow**
+
+When enabled (default), after IntelliSense commits an item, it replaces any period `.` character with an arrow `->` (dash and angle bracket).
+
+**Disable Automatic Precompiled Header**
+
+When enabled, IntelliSense doesn't use the _Automatic Precompiled Header_. Although the use of the header can speed up some IntelliSense operations, the faster action can increase expenses for a per-solution hard drive cache.
+
+**Automatic Precompiled Header Cache Quota**
+
+Use this option to specify the maximum size of the per-solution cache in megabytes. The actual usage might fluctuate around the specified value.
+
+**IntelliSense Process Memory Limit**
+
+Use this setting to specify the maximum total memory usage of an IntelliSense process in megabytes.
+
+**Inactive Platform IntelliSense Limit**
+
+Use this setting to specify the maximum number of inactive platforms that are processed for IntelliSense. The value must be between 1 and 16.
+
+**Enable Template IntelliSense**
+
+When enabled (default), if the cursor is active within a template body, IntelliSense displays a bar in the editor that you can use to configure the IntelliSense attributes for the template.
+
+**Enable Help Link on Quick Info**
+
+When enabled (default), IntelliSense supports linking to online searches on the Quick Info tooltip.
+
+**Use Web Search on Quick Info Help Link**
+
+When enabled (default), IntelliSense launches a web search with the specified search provider to support online searches in the Quick Info tooltip. If you disable (False) the option, IntelliSense supports **F1** Help.
+
+**Search Provider**
+
+Use the option to specify the URL to target for online help on errors. By default, the value is set to `https://www.bing.com/search?q={0}`. When you access the link from the IDE, IntelliSense replaces the `{0}` portion of the link with the token or error string from the tooltip.
 
 ## IntelliSense and Browsing for Non-Project Files
 
@@ -214,7 +400,7 @@ When enabled, IntelliSense squiggles display for standalone nonproject files. By
 
 **Show IntelliSense Errors In Error List**
 
-When enabled, IntelliSense errors from standalone nonproject files display in the Error List. By default, this option is set to False. When the **Enable Enhanced Single File** option is disabled (False), this option is ignored and unavailable for manual selection.
+When enabled, IntelliSense errors from standalone nonproject files display in the Error List window. By default, this option is set to False. When the **Enable Enhanced Single File** option is disabled (False), this option is ignored and unavailable for manual selection.
 
 <a name="suspend-new-files-during-debugging"></a>
 
@@ -256,8 +442,10 @@ When enabled, Visual Studio formats the code syntax within the enclosed section 
 
 **Expand Selection for Surround Scopes**
 
-When enabled, if you surround a selection within a scope (such as with parenthesis `()` or curly braces `{}`), the surround expands to contain the whole line. The default is True.
+When enabled, if you surround a selection within a scope, such as with parenthesis `()` or curly braces `{}`, the surround expands to contain the whole line. The default is True.
 
 ## Related content
 
 - [Setting language-specific editor options](/previous-versions/visualstudio/visual-studio-2017/ide/reference/setting-language-specific-editor-options)
+
+:::moniker-end
