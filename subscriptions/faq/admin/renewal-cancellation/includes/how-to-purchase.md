@@ -16,6 +16,7 @@ Visual Studio subscriptions are available for purchase through various channels,
 [Compare subscription benefits and pricing](https://visualstudio.microsoft.com/vs/pricing/) to understand the benefits of each Visual Studio subscription. 
 Check out the [subscription benefits page](https://visualstudio.microsoft.com/vs/benefits/) for more help deciding which subscription is right for you.   
 
+### Product Offerings and Purchasing Channels
 <!-- markdownlint-disable MD033 -->
 
 <table>
