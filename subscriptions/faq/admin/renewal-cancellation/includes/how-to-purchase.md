@@ -19,31 +19,17 @@ Check out the [subscription benefits page](https://visualstudio.microsoft.com/vs
 <!-- markdownlint-disable MD033 -->
 
 <table>
-  <caption style="caption-side: top; font-weight: bold; text-align: left;">
-    Product Offering and Purchasing Channels
-  </caption>
-  <colgroup>
-    <col style="width: 22%;">
-    <col style="width: 28%;">
-    <col style="width: 5%;">
-    <col style="width: 6%;">
-    <col style="width: 7%;">
-    <col style="width: 8%;">
-    <col style="width: 8%;">
-    <col style="width: 8%;">
-    <col style="width: 8%;">
-  </colgroup>
   <thead>
     <tr>
-      <th style="text-align:left;">Channel</th>
-      <th style="text-align:left;">Program</th>
-      <th style="text-align:center;">Visual Studio Enterprise<br>Subscription</th>
-      <th style="text-align:center;">Visual Studio Professional<br>Subscription</th>
-      <th style="text-align:center;">MSDN<br>Platforms</th>
-      <th style="text-align:center;">Visual Studio Test<br>Professional<br>Subscription</th>
-      <th style="text-align:center;">Azure DevOps<br>Server</th>
-      <th style="text-align:center;">Visual Studio 2026 Professional<br>(license‑only)</th>
-      <th style="text-align:center;">Visual Studio Monthly<br>Subscription</th>
+      <th>Channel / Source</th>
+      <th>Program</th>
+      <th>VS Enterprise<br>Subscription</th>
+      <th>VS Professional<br>Subscription</th>
+      <th>MSDN<br>Platforms</th>
+      <th>VS Test<br>Professional<br>Subscription</th>
+      <th>Azure DevOps<br>Server</th>
+      <th>VS 2026 Professional<br>(license‑only)</th>
+      <th>VS Monthly<br>Subscription</th>
     </tr>
   </thead>
   <tbody>
@@ -51,80 +37,75 @@ Check out the [subscription benefits page](https://visualstudio.microsoft.com/vs
     <tr>
       <td rowspan="5">Microsoft Volume Licensing</td>
       <td>Enterprise, Enterprise Subscription</td>
-      <td style="text-align:center;">✓</td>
-      <td style="text-align:center;">✓</td>
-      <td style="text-align:center;">✓</td>
-      <td style="text-align:center;">✓</td>
-      <td style="text-align:center;">✓</td>
-      <td style="text-align:center;">✗</td>
-      <td style="text-align:center;">✗</td>
+      <td>✓</td>
+      <td>✓</td>
+      <td>✓</td>
+      <td>✓</td>
+      <td>✓</td>
+      <td>✗</td>
+      <td>✗</td>
     </tr>
     <tr>
-      <!-- First column omitted because of rowspan -->
       <td>Select, Select Plus, MPSA</td>
-      <td style="text-align:center;">✓</td>
-      <td style="text-align:center;">✓</td>
-      <td style="text-align:center;">✓</td>
-      <td style="text-align:center;">✓</td>
-      <td style="text-align:center;">✓</td>
-      <td style="text-align:center;">✓</td>
-      <td style="text-align:center;">✗</td>
+      <td>✓</td>
+      <td>✓</td>
+      <td>✓</td>
+      <td>✓</td>
+      <td>✓</td>
+      <td>✓</td>
+      <td>✗</td>
     </tr>
     <tr>
-      <!-- First column omitted because of rowspan -->
       <td>Open Value, Open Value Subscription</td>
-      <td style="text-align:center;">✓</td>
-      <td style="text-align:center;">✓</td>
-      <td style="text-align:center;">✓</td>
-      <td style="text-align:center;">✓</td>
-      <td style="text-align:center;">✓</td>
-      <td style="text-align:center;">✗</td>
-      <td style="text-align:center;">✗</td>
+      <td>✓</td>
+      <td>✓</td>
+      <td>✓</td>
+      <td>✓</td>
+      <td>✓</td>
+      <td>✗</td>
+      <td>✗</td>
     </tr>
     <tr>
-      <!-- First column omitted because of rowspan -->
       <td>Cloud Solution Provider</td>
-      <td style="text-align:center;">✗</td>
-      <td style="text-align:center;">✗</td>
-      <td style="text-align:center;">✗</td>
-      <td style="text-align:center;">✗</td>
-      <td style="text-align:center;">✗</td>
-      <td style="text-align:center;">✓</td>
-      <td style="text-align:center;">✓</td>
+      <td>✗</td>
+      <td>✗</td>
+      <td>✗</td>
+      <td>✗</td>
+      <td>✗</td>
+      <td>✓</td>
+      <td>✓</td>
     </tr>
     <tr>
-      <!-- First column omitted because of rowspan -->
       <td>Campus, Enrollment for Education Solutions</td>
-      <td style="text-align:center;">✓</td>
-      <td style="text-align:center;">✓</td>
-      <td style="text-align:center;">✓</td>
-      <td style="text-align:center;">✓</td>
-      <td style="text-align:center;">✓</td>
-      <td style="text-align:center;">✗</td>
-      <td style="text-align:center;">✗</td>
+      <td>✓</td>
+      <td>✓</td>
+      <td>✓</td>
+      <td>✓</td>
+      <td>✓</td>
+      <td>✗</td>
+      <td>✗</td>
     </tr>
-    <!-- Remaining rows -->
     <tr>
       <td>Retail Channel</td>
       <td>Microsoft Store (online only)</td>
-      <td style="text-align:center;">✓</td>
-      <td style="text-align:center;">✓</td>
-      <td style="text-align:center;">✗</td>
-      <td style="text-align:center;">✓</td>
-      <td style="text-align:center;">✗</td>
-      <td style="text-align:center;">✓</td>
-      <td style="text-align:center;">✗</td>
+      <td>✓</td>
+      <td>✓</td>
+      <td>✗</td>
+      <td>✓</td>
+      <td>✗</td>
+      <td>✓</td>
+      <td>✗</td>
     </tr>
     <tr>
       <td>Microsoft Azure</td>
       <td>Visual Studio Marketplace</td>
-      <td style="text-align:center;">✗</td>
-      <td style="text-align:center;">✗</td>
-      <td style="text-align:center;">✗</td>
-      <td style="text-align:center;">✗</td>
-      <td style="text-align:center;">✗</td>
-      <td style="text-align:center;">✗</td>
-      <td style="text-align:center;">✓</td>
+      <td>✗</td>
+      <td>✗</td>
+      <td>✗</td>
+      <td>✗</td>
+      <td>✗</td>
+      <td>✗</td>
+      <td>✓</td>
     </tr>
   </tbody>
 </table>
