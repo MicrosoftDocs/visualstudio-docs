@@ -485,7 +485,7 @@ Use this option to specify the maximum number of concurrent threads the system c
 
 When the **Automatically determine the maximum number of find references threads...** option is selected, the value of this option is determined for you by the system and can't be changed manually. To change the value, first clear the **Automatically determine the maximum number of find references threads...** option.
 
-## Diagnostic loggingf
+## Diagnostic logging
 
 Options to support diagnostic logging for C/C++ are available in the **C/C++** > **IntelliSense** > **Diagnostic logging** section.
 
