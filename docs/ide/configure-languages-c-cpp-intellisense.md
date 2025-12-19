@@ -1,6 +1,6 @@
 ---
 title: Configure IntelliSense Options for C/C++
-description: Configure IntelliSense language settings for C/C++ in the Tools Options pane. Change options for tooltips, browsing and navigation, references, refactoring diagnostic logging, non-project files, and more.
+description: Configure IntelliSense language settings for C/C++ in the Tools Options pane. Change options for tooltips, browsing and navigation, references, refactoring diagnostic logging, nonproject files, and more.
 ms.date: 12/19/2025
 ms.topic: how-to
 f1_keywords:
@@ -19,7 +19,7 @@ monikerRange: 'visualstudio'
 
 This article describes how to modify IntelliSense settings for C/C++. You can access the settings by selecting **Tools** > **Options** from the Visual Studio menu bar and expanding the **All Settings** > **Languages** > **C/C++** > **IntelliSense** section.
 
-These options let you define the IntelliSense behavior for tooltips, browsing and navigation, references, refactoring, diagnostic logging, non-project files, and more for programming C/C++.
+These options let you define the IntelliSense behavior for programming C/C++. Configure tooltips, browsing and navigation, references, refactoring, diagnostic logging, nonproject files, and more.
 
 ## General options
 
@@ -263,9 +263,11 @@ When selected, Visual Studio waits for the code browsing database to be up-to-da
 
 When selected, Visual Studio shows information for the selected code element in the **Properties** tool window and elsewhere. By default, this option isn't selected.
 
+<a name="highlight-macros-inside-skipped-regions"></a>
+
 **Choose how to highlight macros that are inside regions skipped by the browsing database**
 
-Use this option to specify how to highlight macros inside regions that are skipped by the browsing database. Choose from **Suggestion** (default), **Warning**, **Error**, or **None**. For more information about hint files, see [Hint files](/cpp/build/reference/hint-files?view=msvc-180&preserve-view=true).
+Use this option to specify how to highlight macros inside regions that the browsing database skips. Choose from **Suggestion** (default), **Warning**, **Error**, or **None**. For more information about hint files, see [Hint files](/cpp/build/reference/hint-files?view=msvc-180&preserve-view=true).
 
 **Include skipped regions from external files when displaying browsing database errors**
 
@@ -331,7 +333,7 @@ Options to configure the browsing database location are available in the **C/C++
 
 By default, the primary location for the SDF and IntelliSense support files (for example, iPCH) is the solution directory folder. If this location isn't available, your temporary directory is used as the default secondary location. This scenario can occur if you don't have the permissions to write to the solution directory or the solution directory is on a slow device.
 
-You can use the following settings to identify a custom secondary location, or specify a custom location to always use as the primary location. For the secondary location, the IDE creates a subdirectory under the custom location (or the temporary directory) that includes the name of the solution along with a hash of the full path to the solution, which avoids issues with solution names being identical.
+You can use the following settings to identify a custom secondary location, or specify a custom location to always use as the primary location. For the secondary location, the IDE creates a subdirectory under the custom location (or the temporary directory). The secondary location includes the name of the solution along with a hash of the full path to the solution, which avoids issues with solution names being identical.
 
 **Always use the specified custom location for the browsing database**
 
@@ -371,7 +373,7 @@ Use this option to specify the maximum number of errors for which IntelliSense s
 
 These options are available in the **C/C++** > **IntelliSense** > **Refactoring** section.
 
-**Offer suggestions to create missing fuction declarations or definitions**
+**Offer suggestions to create missing function declarations or definitions**
 
 When selected (default), IntelliSense provides suggestions for how to create function declarations or definitions that are missing.
 
@@ -390,6 +392,8 @@ Use this option to specify how IntelliSence should highlight types that can have
 **Choose how to highlight global functions that can be made static**
 
 Use this option to specify how IntelliSence should highlight global functions that can be made static. Choose from **Suggestion** (default), **Warning**, **Error**, or **None**.
+
+<a name="highlight-macros-convert-constexpr"></a>
 
 **Choose how to highlight macro definitions that are able to be converted to equivalent constexpr definitions**
 
@@ -425,7 +429,7 @@ When selected (default), IntelliSense shows the parameter name inline at the sou
 
 **Add '&' to hints to indicate when a parameter is passed by non-const reference**
 
-When selected (default), IntelliSense adds the ampersand `&` to hints when a parameter is passed by a reference that doesn't use the `const` keyword. When the **Show parameter name inline at call sites** option isn't selected, this option isn't available for selection.
+When selected (default), IntelliSense adds the ampersand `&` to hints when a reference passes a parameter without the `const` keyword. When the **Show parameter name inline at call sites** option isn't selected, this option isn't available for selection.
 
 **Don't show a hint when the argument text (including inline comments) contains the parameter name**
 

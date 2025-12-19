@@ -1,7 +1,7 @@
 ---
 title: Options, Text Editor, C/C++, View
 description: Learn how to use the View page in the C/C++ section to change the default behavior of Code Squiggles, Inactive Code, Outlining, and more within Visual Studio.
-ms.date: 10/08/2021
+ms.date: 12/19/2025
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.C/C++.View"
@@ -11,12 +11,32 @@ ms.custom: "ide-ref"
 author: tylermsft
 ms.author: twhitney
 manager: coxford
+monikerRange: '>=vs-2022'
 ---
 # Options, Text Editor, C/C++, View
 
-Use these property pages to change the default behavior of the code editor when you are programming in C or C++.
+:::moniker range="<=vs-2022"
 
-To access this property page, choose **Tools** > **Options** and expand **Text Editor**, then **C/C++**, and then choose **View**.
+Use these property pages to change the default behavior of the code editor when you're programming in C or C++.
+
+You can access the settings by selecting **Tools** > **Options** from the Visual Studio menu bar and expanding the **Text Editor** > **C/C++** > **View** section. To modify a setting, use the dropdown list to select your preference (when available), or enter the preferred value.
+
+:::moniker-end
+:::moniker range="visualstudio"
+
+The options under **Text Editor** > **C/C++** > **View** are moved to other locations in Visual Studio 2026:
+
+| Visual Studio 2022 | Visual Studio 2026 |
+|---|---|
+| **Code Squiggles** | Languages > C/C++ > IntelliSense > Browsing & navigation > **[Choose how to highlight macros - skipped regions](../configure-languages-c-cpp-intellisense.md#highlight-macros-inside-skipped-regions)** and Refactoring > **[Choose how to highlight macros - constexpr definitions](../configure-languages-c-cpp-intellisense.md#highlight-macros-convert-constexpr)** |
+| **Inactive Code** | Languages > C/C++ > Text Editor** > **[Inactive Code](../configure-languages-c-cpp-text-editor.md#inactive-code)** |
+| **IntelliSense Error Fix Suggestions** | Languages > C/C++ > IntelliSense > **[Errors](../configure-languages-c-cpp-intellisense.md#errors)** |
+| **Miscellaneous** | Languages > C/C++ > **[Text editor](../configure-languages-c-cpp-text-editor.md#general-options)** |
+| **Outlining** | Languages > C/C++ > Text editor > **[Outlining](../configure-languages-c-cpp-text-editor.md#outlining)** |
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
 
 ## Code Squiggles
 
@@ -44,7 +64,7 @@ You can enable or disable the following settings to manage the way in which text
 
 ## Miscellaneous
 
-- **Enumerate Comment Tasks** - Scan open source files for VS tokens and report them in the Task List window.
+- **Enumerate Comment Tasks** - Scan open source files for Visual Studio tokens and report them in the Task List window.
 
 - **Highlight Matching Tokens** - Highlight enclosing braces or syntax that match where the cursor is positioned.
 
@@ -58,7 +78,9 @@ You can enable or disable the following settings to manage the way in which text
 
 - **Outline Statement Blocks** - Automatically outline statement blocks.
 
-## See also
+## Related content
 
-- [Setting Language-Specific Editor Options](../../ide/reference/setting-language-specific-editor-options.md)
-- [Refactoring in C++ (VC Blog)](https://devblogs.microsoft.com/cppblog/all-about-c-refactoring-in-visual-studio-2015-preview/)
+- [Setting language-specific editor options](/previous-versions/visualstudio/visual-studio-2017/ide/reference/setting-language-specific-editor-options)
+- [Refactoring in C++ (Blog)](https://devblogs.microsoft.com/cppblog/all-about-c-refactoring-in-visual-studio-2015-preview/)
+
+:::moniker-end

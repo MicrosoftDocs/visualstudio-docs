@@ -937,6 +937,8 @@
           href: ide/configure-c-cpp-advanced-options.md
         - name: Languages > C/C++ > IntelliSense
           href: ide/configure-languages-c-cpp-intellisense.md
+        - name: Languages > C/C++ > Text editor
+          href: ide/configure-languages-c-cpp-text-editor.md          
       - name: Environment
         items:
         - name: General

@@ -33,16 +33,16 @@ The options under **Text Editor** > **C/C++** > **Advanced** are moved to other 
 
 | Visual Studio 2022 | Visual Studio 2026 |
 |---|---|
-| **Brace Completion** | **All Settings** > **Languages** > **C/C++** > **Text Editor** > **[Brace completion](../configure-c-cpp-advanced-options.md#brace-completion)** |
-| **Browsing/Navigation** | **All Settings** > **Languages** > **C/C++** > **IntelliSense** > **[Browsing & navigation](../configure-languages-c-cpp-intellisense.md#browsing-and-navigation)** |
-| **Browsing Database Fallback** | **All Settings** > **Languages** > **C/C++** > **IntelliSense** > **Browsing & navigation** > **[Location](../configure-languages-c-cpp-intellisense.md#location-for-the-browsing-database)** |
-| **Code Analysis** | **All Settings** > **Languages** > **C/C++** > **[Code analysis](../configure-c-cpp-advanced-options.md#code-analysis)** |
-| **Diagnostic Logging** | **All Settings** > **Languages** > **C/C++** > **IntelliSense** > **[Diagnostic logging](../configure-languages-c-cpp-intellisense.md#diagnostic-logging)** |
-| **Error List** | **All Settings** > **Languages** > **C/C++** > **[Error list](../configure-c-cpp-advanced-options.md#error-list)** |
-| **IntelliSense** | **All Settings** > **Languages** > **C/C++** > **[IntelliSense](../configure-languages-c-cpp-intellisense.md#general-options)** |
-| **IntelliSense and Browsing for Non-Project Files** | **All Settings** > **Languages** > **C/C++** > **IntelliSense** > **[Non-project files](../configure-languages-c-cpp-intellisense.md#non-project-files)** |
-| **References** | **All Settings** > **Languages** > **C/C++** > **IntelliSense** > **[References](../configure-languages-c-cpp-intellisense.md#references)** |
-| **Text Editor** | **All Settings** > **Languages** > **C/C++** > **[Text editor](../configure-c-cpp-advanced-options.md#text-editor)** |
+| **Brace Completion** | Languages > C/C++ > Text Editor > **[Brace completion](../configure-languages-c-cpp-text-editor.md#brace-completion)** |
+| **Browsing/Navigation** | Languages > C/C++ > IntelliSense > **[Browsing & navigation](../configure-languages-c-cpp-intellisense.md#browsing-and-navigation)** |
+| **Browsing Database Fallback** | Languages > C/C++ > IntelliSense > Browsing & navigation > **[Location](../configure-languages-c-cpp-intellisense.md#location-for-the-browsing-database)** |
+| **Code Analysis** | Languages > C/C++ > **[Code analysis](../configure-c-cpp-advanced-options.md#code-analysis)** |
+| **Diagnostic Logging** | Languages > C/C++ > IntelliSense > **[Diagnostic logging](../configure-languages-c-cpp-intellisense.md#diagnostic-logging)** |
+| **Error List** | Languages > C/C++ > **[Error list](../configure-c-cpp-advanced-options.md#error-list)** |
+| **IntelliSense** | Languages > C/C++ > **[IntelliSense](../configure-languages-c-cpp-intellisense.md#general-options)** |
+| **IntelliSense and Browsing for Non-Project Files** | Languages > C/C++ > IntelliSense > **[Non-project files](../configure-languages-c-cpp-intellisense.md#non-project-files)** |
+| **References** | Languages > C/C++ > IntelliSense > **[References](../configure-languages-c-cpp-intellisense.md#references)** |
+| **Text Editor** | Languages > C/C++ > **[Text editor](../configure-languages-c-cpp-text-editor.md#general-options)**|
 
 :::moniker-end
 
