@@ -1,7 +1,7 @@
 ---
 title: How do I cancel monthly and annual subscriptions?
 description: When you cancel a Visual Studio cloud subscription, you're canceling automatic renewal. 
-comment:  As of August 2023 this include file is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Jose Becerra and Larissa Crawford of Red Door Collaborative and Angela Cao-Hong.
+comment:  As of August 2023 this include file is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Jose Becerra and Larissa Crawford of Red Door Collaborative and Aaron Mast.
 ms.faqid: group4_3
 ms.topic: include
 ms.assetid: 2c83cd19-2692-4aef-9cd7-b7842639cbce
@@ -19,4 +19,3 @@ Follow these steps to reduce the number of subscriptions:
 3. Select the **Overview** icon at the top left to display information about your subscriptions.
 4. Locate the entry for the subscriptions you wish to cancel, and select **Change quantity**. This takes you to the Visual Studio Marketplace where you can update your purchase quantity. 
 5. Set the quantity to zero (0). Your subscriptions remain in place until their scheduled billing date, but don't renew when the billing date is reached.
-
