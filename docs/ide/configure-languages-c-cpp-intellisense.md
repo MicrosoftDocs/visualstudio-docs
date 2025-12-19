@@ -19,7 +19,7 @@ monikerRange: 'visualstudio'
 
 This article describes how to modify IntelliSense settings for C/C++. You can access the settings by selecting **Tools** > **Options** from the Visual Studio menu bar and expanding the **All Settings** > **Languages** > **C/C++** > **IntelliSense** section.
 
-These options let you define the behavior for tooltips, browsing and navigation, references, refactoring, diagnostic logging, non-project files, and more for programming C/C++.
+These options let you define the IntelliSense behavior for tooltips, browsing and navigation, references, refactoring, diagnostic logging, non-project files, and more for programming C/C++.
 
 ## General options
 
@@ -466,12 +466,10 @@ When selected, IntelliSense isn't enabled for newly opened files while you're de
 
 ## References
 
-Options to support references for C/C++ project are available in the **C/C++** > **IntelliSense** > **References** section.
+Options to support references for C/C++ projects are available in the **C/C++** > **IntelliSense** > **References** section.
 
 > [!NOTE]
 > Earlier versions of Visual Studio provide **References** options under the **Text Editor** > **C/C++** > **Advanced** section.
-
-options-languages-c-cpp-intellisense
 
 **Highlight references to the symbol under the cursor**
 
@@ -487,7 +485,7 @@ Use this option to specify the maximum number of concurrent threads the system c
 
 When the **Automatically determine the maximum number of find references threads...** option is selected, the value of this option is determined for you by the system and can't be changed manually. To change the value, first clear the **Automatically determine the maximum number of find references threads...** option.
 
-## Diagnostic logging
+## Diagnostic loggingf
 
 Options to support diagnostic logging for C/C++ are available in the **C/C++** > **IntelliSense** > **Diagnostic logging** section.
 
@@ -497,6 +495,7 @@ Options to support diagnostic logging for C/C++ are available in the **C/C++** >
 > [!IMPORTANT]
 > The following options are provided to assist with the collection of advanced information to help diagnose issues. 
 > Unless you're requested to provide diagnostic logging data, the recommendation is to disable (clear) the options.
+
 **Log diagnostic information to the output window**
 
 When selected, Visual Studio sends diagnostic logging data to the output window.
@@ -525,4 +524,4 @@ Depending on the value, you might need to exit and restart Visual Studio.
 
 ## Related content
 
-- [Using IntelliSense](../using-intellisense.md)
+- [Using IntelliSense](using-intellisense.md)
