@@ -1,7 +1,7 @@
 ---
 title: "Add TypeScript to an ASP.NET Core app"
 description: Create a simple web application by using ASP.NET Core and TypeScript, add TypeScript code, run the app, and debug with breakpoints.
-ms.date: 5/14/2025
+ms.date: 12/19/2025
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
