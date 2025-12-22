@@ -26,7 +26,7 @@ Visual Studio Tools for Unreal Engine makes it easier to write and debug C++ cod
 * Visual Studio performance is tuned for large projects<sup>2</sup>
 * Be more productive with High-Level Shading Language (HLSL) files via syntax highlighting and statement completion
 
-<sup>1</sup> As of Visual Studio 2022 17.10, you no longer need Visual Studio Tools for Unreal Engine to view UE Blueprints in Visual Studio.
+<sup>1</sup> As of Visual Studio 2022 17.10, you no longer need Visual Studio Tools for Unreal Engine to view UE Blueprints in Visual Studio.\
 <sup>2</sup> These features are available in Visual Studio 17.7 or later without installing Visual Studio Tools for Unreal Engine.
 
 ## Supported Visual Studio versions
