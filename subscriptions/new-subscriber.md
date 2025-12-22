@@ -3,7 +3,7 @@ title: Get started with your new Visual Studio subscription
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 01/28/2025
+ms.date: 12/19/2025
 ms.topic: how-to
 description: Learn how to get started with your new Visual Studio subscription.
 ---
@@ -34,7 +34,7 @@ There are four pages in the portal, each of which provides you with different ca
 
 ## Get started using benefits
 
-The benefits included in your subscription depend on which subscription you have. Most, though, include the Visual Studio IDE, individual Azure credits, and Azure DevOps. Some also include benefits such as Pluralsight training, Microsoft 365 Developer, and Microsoft 365 apps for enterprise. 
+The benefits included in your subscription depend on which subscription you have. Most, though, include the Visual Studio IDE, individual Azure credits, and Azure DevOps. Some also include benefits such as Pluralsight training, Microsoft 365 Developer, and Microsoft 365 apps for enterprise. [Learn more about your benefits](https://my.visualstudio.com/Benefits?mkt).
 
 ### Visual Studio 
 
