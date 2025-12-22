@@ -73,7 +73,13 @@ Visual Studio opens your new project.
 
 1. Select **Install** to install the package.
 
-   ![Add NuGet package](../javascript/media/aspnet-core-ts-nuget.png)
+   :::moniker range="vs-2022"
+   ![Screenshot that shows how to install the NuGet package.](../javascript/media/aspnet-core-ts-nuget.png)
+   :::moniker-end
+
+   :::moniker range="visualstudio"
+   ![Screenshot that shows how to install the NuGet package.](../javascript/media/visualstudio/aspnet-core-ts-nuget.png)
+   :::moniker-end
 
    Visual Studio adds the NuGet package under the **Dependencies** node in Solution Explorer.
 
