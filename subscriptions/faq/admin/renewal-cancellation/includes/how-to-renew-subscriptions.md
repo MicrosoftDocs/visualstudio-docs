@@ -7,7 +7,7 @@ ms.assetid: 00b82d16-6a80-42d1-8b71-e12047c6b50c
 ms.subservice: 
 author: joseb-rdc
 ms.author: amast
-ms.date: 09/02/2025
+ms.date: 12/19/2025
 ms.faqid: q4_1
 ---
 
@@ -27,6 +27,10 @@ If you currently have a retail subscription, there are two ways to renew:
     [Visual Studio Professional](https://www.microsoft.com/p/visual-studio-professional-subscription/dg7gmgf0dst3?activetab=pivot%3aoverviewtab)
 
     [Visual Studio Test Professional](https://www.microsoft.com/p/visual-studio-test-professional-subscription/dg7gmgf0dst6?activetab=pivot%3aoverviewtab) 
+
+The subscription expiration date is one year from the purchase date, not the activation date. 
+
+There's a 30-day renewal grace period—that is, the period from when the Visual Studio Subscription expires to the point where the customer loses the option to renew at the renewal price. 
 
 ### How to activate subscriptions
 After you purchase a Visual Studio subscription, you can begin the activation process from the payment confirmation page or confirmation email you received after your purchase. For activation steps, visit [How to activate subscriptions](https://learn.microsoft.com/visualstudio/subscriptions/buy-activate-retail#how-to-activate-subscriptions).
