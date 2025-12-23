@@ -45,7 +45,7 @@ Getting help via the Concierge Chat service is easy.
 
 \*  *Includes:  Not for Resale (NFR), Visual Studio Industry Partner (VSIP), Microsoft Certified Trainer, Microsoft AI Cloud Partner Program (MAICPP), We Comms, Open Source Heroes, Microsoft Bug Bounty, Independent Software Vendor (ISV), Most Valuable Professional, and Regional Directors (MVP/RD).*
 
-\*  *Excludes: Microsoft Full Time Employee (FTE), Microsoft Partner Network (MPN), Microsoft Cloud Partner Program (MCPP), Azure Dev Tools for Teaching (ADT4T), Student Ambassadors, Microsoft for Startups, NFR Basic (Alumni, Xbox)*
+\*  *Excludes: Microsoft Full Time Employee (FTE), Microsoft Partner Network (MPN), Microsoft Cloud Partner Program (MCPP), Azure Dev Tools for Teaching (ADT4T), Student Ambassadors, Microsoft for Startups, NFR Basic (Alumni, Xbox).*
 
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There's no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
