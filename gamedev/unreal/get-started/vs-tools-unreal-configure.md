@@ -91,7 +91,7 @@ Enables code analysis for Unreal Engine naming conventions and coding standards 
 
 Configures High-Level Shader Language (HLSL) support for shader development. It enables HLSL-specific features for HLSL shader files like syntax coloring, IntelliSense, and error detection. This support is intended to improve the experience of writing and editing shaders in Visual Studio. 
 
-### UBA Visual configuration
+### UBA Visualizer configuration
 
 The Unreal Build Accelerator (UBA) virtualizes and distributes C++ compilation, allowing compilers and tools to run on remote machines while appearing local. This integration allows you to monitor the build processes for your Unreal Engine projects. It's a UBA specific diagnostic view that Visual Studio exposes when UBA is enabled for Unreal Engine builds. It allows you to:
 
