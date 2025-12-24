@@ -65,7 +65,7 @@ When an administrator assigns your subscription, you receive a confirmation emai
 
 If the GitHub Enterprise benefit doesn’t appear for you, your organization might not be finished with the required setup steps. You can't self‑assign this benefit.  
   
-Use the [Contact your admin](https://learn.microsoft.com/en-us/visualstudio/subscriptions/contact-my-admin) tool, to get a hold of your administrator for further help. 
+Use the [Contact your admin](https://learn.microsoft.com/visualstudio/subscriptions/contact-my-admin) tool, to get a hold of your administrator for further help. 
 
    > [!div class="mx-imgBorder"]
    > ![GitHub Enterprise pending invitation acceptance](_img/access-github/pending-acceptance.png "Screenshot of the pending org invite acceptance dialog.")  
