@@ -43,7 +43,8 @@ Visual Studio subscriptions with GitHub Enterprise are managed in two parts:
 
 When you're assigned to a Visual Studio subscription with GitHub Enterprise, you receive an email letting you know that your Visual Studio subscriptions admin assigned a subscription to you. At that point, you can view available subscription benefits at <https://my.visualstudio.com/benefits>.
 
-**Note:** Management of the combined Visual Studio + GitHub Enterprise entitlement occurs across **two systems**—the Visual Studio Subscriptions Admin Portal and the GitHub Enterprise administration interface. These responsibilities might be performed by **one person or multiple administrators**, depending on your organization’s structure.
+> [!NOTE]
+> Management of the combined Visual Studio + GitHub Enterprise entitlement occurs across **two systems**—the Visual Studio Subscriptions Admin Portal and the GitHub Enterprise administration interface. These responsibilities might be performed by **one person or multiple administrators**, depending on your organization’s structure.
 
 Once assigned, the GitHub Enterprise benefit looks like this:
 
