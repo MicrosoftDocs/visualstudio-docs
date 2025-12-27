@@ -172,6 +172,8 @@ SDK-style projects set a smaller default `AssemblySearchPaths` (excluding GAC/re
 - `{TargetFrameworkDirectory}`
 - `{RawFileName}`
 
+To see the effective value for your build, inspect the `SearchPaths` input logged by `ResolveAssemblyReference` (for example, in MSBuild Structured Log Viewer), or preprocess the project with `msbuild /pp`.
+
 Each entry can be disabled by setting the relevant flag to `false`:
 
 - Searching files from the current project is disabled by setting the `AssemblySearchPath_UseCandidateAssemblyFiles` property to false.
