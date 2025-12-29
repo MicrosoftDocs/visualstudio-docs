@@ -1,7 +1,7 @@
 ---
-title: Define consistent coding styles with EditorConfig
+title: Define Consistent Coding Styles with EditorConfig
 description: Add an EditorConfig file to your project or codebase to enforce consistent coding styles for everyone that works in the codebase.
-ms.date: 07/21/2025
+ms.date: 12/29/2025
 author: mikejo5000
 ms.author: mikejo
 manager: mijacobs
@@ -140,42 +140,61 @@ EditorConfig files are read from top to bottom. If there are multiple properties
 ## Edit EditorConfig files
 
 ::: moniker range=">= vs-2022"
-Visual Studio 2022 provides a visual editor for EditorConfig files.
+
+Visual Studio 2022 and later provides a visual editor for EditorConfig files.
 
 After you edit your EditorConfig file, you must reload your code files for the new settings to take effect.
-::: moniker-end
 
+::: moniker-end
 
 ### Example
 
 The following example shows the indent state of a C# code snippet before and after adding an EditorConfig file to the project:
 
-1. In the **Tools** > **Options** dialog box, set the **Text Editor** > **C#** > **Tabs** settings for the Visual Studio text editor to produce four space characters when you press the **Tab** key.
+:::moniker range="visualstudio"
 
-   :::image type="content" source="../ide/media/vs-2022/vside_editorconfig_tabsetting-new.png" alt-text="Screenshot that shows the Text Editor tab setting.":::
+1. In the **Tools** > **Options** pane, expand the **All Settings** > **Languages** > **C#** > **Tabs** section, and set the **Tab size** value to **4**:
 
-1. As expected, when you press the **Tab** key on the next line, it indents the line by adding four white-space characters.
+   :::image type="content" source="../ide/media/visualstudio/set-tab-spaces-value.png" alt-text="Screenshot that shows how to configure the Tabs settings for languages.":::
+
+   When the **Tab character** option is set to **Insert spaces**, Visual Studio produces four spaces when you select **Tab** in the text editor.
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+1. In the **Tools** > **Options** dialog, expand the **Text Editor** > **C#** > **Tabs** section, and set the **Tab size** value to **4**:
+
+   :::image type="content" source="../ide/media/vs-2022/set-tab-spaces-value.png" alt-text="Screenshot that shows how to configure the Tabs settings for the text editor.":::
+
+   When the **Insert spaces** option is selected, Visual Studio produces four spaces when you select **Tab** in the text editor.
+
+:::moniker-end
+
+2. As expected, when you press the **Tab** key on the next line, it indents the line by adding four white-space characters.
 
    ::: moniker range=">= vs-2022"
+
    :::image type="content" source="../ide/media/vs-2022/ide-editorconfig-before-new.png" alt-text="Screenshot that shows the Tab key adding spaces in code.":::
+
    ::: moniker-end
 
-
-1. Use EditorConfig to switch the tabs setting to use tabs.
+3. Use EditorConfig to switch the tabs setting to use tabs.
 
    ::: moniker range=">= vs-2022"
+
    Select **Use Tabs** in the EditorConfig file.
 
    :::image type="content" source="../ide/media/vs-2022/ide-editorconfig-use-tabs.png" alt-text="Screenshot that shows configuring use of tabs for Tab key.":::
+
    ::: moniker-end
 
-
-1. When you press the **Tab** key, tab characters now appear instead of spaces.
+4. When you press the **Tab** key, tab characters now appear instead of spaces.
 
    ::: moniker range=">= vs-2022"
-   :::image type="content" source="../ide/media/vs-2022/ide-editorconfig-tab.png" alt-text="Screenshot that shows the Tab key adding tab characters in code.":::
-   ::: moniker-end
 
+   :::image type="content" source="../ide/media/vs-2022/ide-editorconfig-tab.png" alt-text="Screenshot that shows the Tab key adding tab characters in code.":::
+
+   ::: moniker-end
 
 ## Troubleshoot EditorConfig settings
 
@@ -187,17 +206,28 @@ This means that if any editor settings in **Tools** > **Options** > **Text Edito
 
 To troubleshoot EditorConfig issues, follow these steps:
 
-1. To turn off EditorConfig support for Visual Studio, clear the **Follow project coding conventions** option in **Tools** > **Options** > **Text Editor**.
+:::moniker range="visualstudio"
 
-   :::image type="content" source="media/vs-2022/coding_conventions_option-new.png" alt-text="Screenshot that shows the setting for Follow project coding conventions.":::
+1. To turn off EditorConfig support for Visual Studio, open the **Tools** > **Options** pane, expand the **All Settings** > **Text Editor** > **General** section, and clear the **Follow project coding conventions** option: 
 
-1. To find any EditorConfig files in the parent directories of your project, open a command prompt and run the following command from the root of the disk that contains your project.
+   :::image type="content" source="media/visualstudio/follow-coding-conventions-option.png" alt-text="Screenshot that shows the setting for Follow project coding conventions.":::
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+1. To turn off EditorConfig support for Visual Studio, open the **Tools** > **Options** dialog, expand the **Text Editor** > **General** section, and clear the **Follow project coding conventions** option: 
+
+   :::image type="content" source="media/vs-2022/follow-coding-conventions-option.png" alt-text="Screenshot that shows the setting for Follow project coding conventions.":::
+
+:::moniker-end
+
+2. To find any EditorConfig files in the parent directories of your project, open a command prompt and run the following command from the root of the disk that contains your project.
 
    ```shell
    dir .editorconfig /s
    ```
 
-1. To control the scope of your EditorConfig conventions, set the `root=true` property in the `.editorconfig` file at the root of your repo or in the directory that your project resides.
+3. To control the scope of your EditorConfig conventions, set the `root=true` property in the `.editorconfig` file at the root of your repo or in the directory that your project resides.
 
    Visual Studio looks for a file named `.editorconfig` in the directory of the opened file and in every parent directory. The search ends when it reaches the root filepath, or if an `.editorconfig` file with `root=true` is found.
 
