@@ -1,7 +1,7 @@
 ---
-title: View type definitions with Go To and Peek features
+title: View Type Definitions with Go To and Peek Features
 description: Explore the Go To Definition and Peek Definition features that enable you to easily view the definition of a type or member in Visual Studio.
-ms.date: 10/2/2025
+ms.date: 12/29/2025
 ms.topic: concept-article
 helpviewer_keywords:
 - code editor, view definition
@@ -37,11 +37,22 @@ There are several ways you can access **Go To Definition**:
 
 ### Change action shortcut
 
-You can enable or disable the **Ctrl**+**Click** shortcut for **Go To Definition** with the **Enable mouse click to perform Go To Definition** option under **Tools** > **Options** > **Text Editor** > **General**.
+You can enable or disable the **Ctrl**+**Click** shortcut for **Go To Definition** with the **Enable mouse click to perform Go To Definition** option.
 
-To change the modifier key for the shortcut, expand the **Use modifier key** dropdown list and select **Ctrl** (default), **Alt**, or **Ctrl**+**Alt**:
+:::moniker range="visualstudio"
+
+Open the **Tools** > **Options** pane and expand the **All Settings** > **Text Editor** > **General** section. Use the **Modifier key** dropdown list and set the modifier key for the shortcut. Choose from **Ctrl** (default), **Alt**, or **Ctrl**+**Alt**.
+
+:::image type="content" source="./media/visualstudio/editor-options-peek-view.png" border="false" alt-text="Screenshot of the Text Editor options for the Peek Definition feature.":::
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+Open the **Tools** > **Options** dialog and expand the **Text Editor** > **General** section. Expand the **Use modifier key** dropdown list and set the modifier key for the shortcut. Choose from **Ctrl** (default), **Alt**, or **Ctrl**+**Alt**.
 
 :::image type="content" source="./media/editor-options-go-to-definition.png" border="false" alt-text="Screenshot of the Text Editor options for the Go To Definition feature, including the 'Use modifier key' setting.":::
+
+:::moniker-end
 
 ## Peek at a definition
 
@@ -61,14 +72,21 @@ There are several ways you can access **Peek Definition**:
 
 ### Change action shortcut
 
-You can configure the **Ctrl**+**Click** keyboard/mouse shortcut for **Go To Definition** to open the source code file in **Peek** view. Use the **Open definition in peek view** option under **Tools** > **Options** > **Text Editor** > **General**.
+You can configure the **Ctrl**+**Click** keyboard/mouse shortcut for **Go To Definition** to open the source code file in **Peek** view.
 
 :::moniker range="visualstudio"
-:::image type="content" source="./media/visualstudio/editor-options-peek-view.png" border="false" alt-text="Screenshot of the Text Editor options for the Peek Definition feature.":::
-:::moniker-end
 
+In the **Tools** > **Options** pane, expand the **All Settings** > **Text Editor** > **General** section, and select the **Open definition in peek view** option.
+
+:::image type="content" source="./media/visualstudio/editor-options-peek-view.png" border="false" alt-text="Screenshot of the Text Editor options for the Peek Definition feature.":::
+
+:::moniker-end
 :::moniker range="<=vs-2022"
+
+In the **Tools** > **Options** dialog, expand the **Text Editor** > **General** section, and select the **Open definition in peek view** option.
+
 :::image type="content" source="./media/editor-options-peek-view.png" border="false" alt-text="Screenshot of the Text Editor options for the Peek Definition feature.":::
+
 :::moniker-end
 
 ### Use breadcrumb path for multiple files
