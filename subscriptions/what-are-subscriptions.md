@@ -3,12 +3,19 @@ title: What are Visual Studio subscriptions?
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 12/10/2025
+ms.date: 12/30/2025
 ms.topic: article
-description:  Learn about Visual Studio subscriptions and how to acquire them
+description:  Learn about Visual Studio subscriptions, their benefits, and how to acquire them
 ---
 
 # What are Visual Studio subscriptions? 
+
+## What's on this page
+
++ **Learn what Visual Studio subscriptions are** and how they support development with a wide range of tools, services, training resources, and software downloads.
++ **Explore the kinds of benefits included**, from Azure credits and Azure DevOps access to professional training and technical support.
++ **Understand how benefits differ by subscription**, with guidance on comparing plans to choose the one that best fits your needs.
++ **Find out where and how you can buy a subscription**, including options like volume licensing, retail purchases, and flexible monthly cloud plans.
 
 Visual Studio subscriptions are a comprehensive set of tools and resources to speed up development, promote collaboration anywhere,
 and innovate on any platform—all while maximizing security and compliance. Various subscription options are offered across several different channels so you can choose a subscription that best serves your needs.  
@@ -23,7 +30,9 @@ In addition to the Visual Studio IDE, subscriptions can include benefits in thes
 > [!IMPORTANT]
 > Benefits included in any subscription depend on the type of subscription. **Not all benefits are included in all subscriptions.** To determine the best fit for your needs, be sure to visit the [Buy Visual Studio page](https://visualstudio.microsoft.com/vs/pricing/?tab=individual) and compare the benefits in each subscription.
 
-If you already have a subscription, access your benefits in the portal at my.visualstudio.com  
+If you already have a subscription, access your benefits in the portal at my.visualstudio.com
+
+Your Visual Studio subscription is more powerful than you think, offering extensive resources that enable greater innovation and productivity. More details are provided in the YouTube video [Get the most of Azure with your Visual Studio subscription](https://www.youtube.com/watch?v=DqKa-hDoCl4), which also covers other benefits that might be available to you.
 
 ### Tools & services
 The tools and services that might be included in a subscription include:
