@@ -195,23 +195,13 @@ Example prompts:
 - Create a Mermaid state diagram for the lifecycle of a task 
 - I'm new to this project, visualize major components and their relationships to help me onboard 
 
-:::moniker range="visualstudio"
-
-:::image type="content" source="media/visualstudio/visual-studio-github-copilot-chat/mermaid-syntax-chat.png" alt-text="Screenshot of diagram in chat." lightbox="media/visualstudio/visual-studio-github-copilot-chat/mermaid-syntax-chat.png" :::
-
-Copilot uses attached references and related files in your codebase to gather context, and then returns a diagram in the chat window. Select **Copy code block** to copy the diagram.
-
-:::moniker-end
-
-:::moniker range="vs-2022"
-
 :::image type="content" source="media/vs-2022/visual-studio-github-copilot-chat/mermaid-syntax-chat.png" alt-text="Screenshot of Mermaid diagram syntax in chat." lightbox="media/vs-2022/visual-studio-github-copilot-chat/mermaid-syntax-chat.png" :::
 
 Copilot uses attached references and related files in your codebase to gather context, then returns the Mermaid syntax in the chat window. Select **Preview** to open a new markdown file and view the diagram. You can save or share the markdown or rendered chart for future use.
 
 :::image type="content" source="media/vs-2022/visual-studio-github-copilot-chat/mermaid-diagram-rendering.png" alt-text="Screenshot of Mermaid diagram rendering." lightbox="media/vs-2022/visual-studio-github-copilot-chat/mermaid-diagram-rendering.png" :::
 
-:::moniker-end
+ 
 
 ## Next steps
 
