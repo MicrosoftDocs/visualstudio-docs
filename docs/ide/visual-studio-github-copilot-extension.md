@@ -153,7 +153,7 @@ Code referencing enables you to make an informed decision on using code attribut
 
 :::moniker range="visualstudio"
 
-The GPT-4.1 Copilot model for code completions is available for GitHub Copilot in Visual Studio version 17.14 or later.
+The GPT-4.1 Copilot model for code completions is available for GitHub Copilot in Visual Studio.
 
 To try the new model for better suggestions and performance:
 
@@ -168,7 +168,7 @@ To try the new model for better suggestions and performance:
 :::moniker-end
 :::moniker range="<=vs-2022"
 
-The GPT-4o Copilot model for code completions is available for GitHub Copilot in Visual Studio version 17.14 Preview 2 or later.
+The GPT-4.1 Copilot model for code completions is available for GitHub Copilot in Visual Studio version 17.14 Preview 2 or later.
 
 To try the new model for better suggestions and performance:
 
