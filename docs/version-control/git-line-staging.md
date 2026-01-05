@@ -1,8 +1,8 @@
 ---
-title: Stage lines of code in Visual Studio
+title: Stage Lines of Code in Visual Studio
 titleSuffix: ""
 description: Stage multiple lines of code at the same time or split changes across different commits by using Git from directly within Visual Studio.
-ms.date: 9/10/2025
+ms.date: 01/05/2026
 ms.topic: concept-article
 author: ghogen
 ms.author: ghogen
@@ -76,9 +76,22 @@ You can also access Peek Difference when you right-click a line of code that has
 
 ### Configure Peek Difference settings
 
-You can modify how Visual Studio interacts with code changes in the Peek Difference UI. The **Click to peek in margin** option is available on the **Tools** > **Options** > **Text Editor** > **Advanced** page.
+You can modify how Visual Studio interacts with code changes in the Peek Difference UI. 
+
+:::moniker range="vs-2022"
+
+The **Click to peek in margin** option is available on the **Tools** > **Options** > **Text Editor** > **Advanced** page.
 
 :::image type="content" source="media/vs-2022/text-editor-option-peek-in-margin.png" border="false" alt-text="Screenshot of the 'Click to peek in margin' Text Editor setting.":::
+
+:::moniker-end
+:::moniker range="visualstudio"
+
+The **Click to peek in margin** option is available from the **Tools** > **Options** pane in the **All Settings** > **Text Editor** > **Advanced** section.
+
+:::image type="content" source="media/visualstudio/text-editor-option-peek-in-margin.png" border="false" alt-text="Screenshot of the 'Click to peek in margin' Text Editor setting.":::
+
+:::moniker-end
 
 You can change the default **Single click** setting to **Double click**, or you can select **None** to turn off the Peek Difference UI.
 
