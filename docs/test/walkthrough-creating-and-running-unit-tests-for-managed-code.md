@@ -46,7 +46,7 @@ Visual Studio must be installed along with the **.NET desktop development** work
 
 1. Name the project **Bank**, and then click **Next**.
 
-1. Choose either the recommended target framework or .NET 8, and then choose **Create**.
+1. Choose either the recommended target framework or .NET 10, and then choose **Create**.
 
    The Bank project is created and displayed in **Solution Explorer** with the *Program.cs* file open in the code editor.
 
@@ -141,7 +141,7 @@ You now have a project with methods you can test. In this article, the tests foc
 
 1. Name the project **BankTests** and click **Next**.
 
-1. Choose either the recommended target framework or .NET 8, and then choose **Create**.
+1. Choose either the recommended target framework or .NET 10, and then choose **Create**.
 
    ::: moniker range=">=vs-2022"
    Starting in Visual Studio 2022 version 17.10, you can also select a test runner. For the test runner, you can choose either **VSTest** or **MSTest**. For more information on the difference between test runners, see [Microsoft.Testing.Platform and VSTest comparison](/dotnet/core/testing/unit-testing-platform-vs-vstest).

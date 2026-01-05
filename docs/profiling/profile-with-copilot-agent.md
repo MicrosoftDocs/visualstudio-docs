@@ -55,7 +55,7 @@ To get started, you need:
 
 1. In Visual Studio, create a new C# Console app.
 
-   On the start window, choose **Create a new project**. Type **console** in the search box, select **C#** as the language, and then choose **Console App** for .NET. Choose **Next**. Type a project name like **ConsoleApp_CopilotProfile** and select **Next**. Choose a target framework (for example, .NET 8) and choose **Create**.
+   On the start window, choose **Create a new project**. Type **console** in the search box, select **C#** as the language, and then choose **Console App** for .NET. Choose **Next**. Type a project name like **ConsoleApp_CopilotProfile** and select **Next**. Choose a target framework (for example, .NET 10) and choose **Create**.
 
 1. In Solution Explorer, right-click the **Dependencies** node in the project, choose **Manage NuGet packages**, search for **EntityFramework**, and then add the following packages to the project:
 
