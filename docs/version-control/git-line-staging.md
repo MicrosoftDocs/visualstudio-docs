@@ -2,7 +2,7 @@
 title: Stage Lines of Code in Visual Studio
 titleSuffix: ""
 description: Stage multiple lines of code at the same time or split changes across different commits by using Git from directly within Visual Studio.
-ms.date: 12/29/2025
+ms.date: 01/05/2026
 ms.topic: concept-article
 author: ghogen
 ms.author: ghogen
