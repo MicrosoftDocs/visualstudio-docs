@@ -1,7 +1,7 @@
 ---
 title: "Overview of the profiling tools"
 description: Review the different diagnostic tools available in Visual Studio for profiling your C#, Visual Basic, C++, and F# applications.
-ms.date: 11/10/2025
+ms.date: 12/18/2025
 ms.topic: concept-article
 f1_keywords:
   - vs.diagnosticshub.overview
@@ -30,12 +30,13 @@ Tools in the Performance Profiler are intended to provide analysis for **Release
 Open the Performance Profiler by choosing **Debug** > **Performance Profiler** (or **Alt + F2**).
 
 ::: moniker range="visualstudio"
-![Screenshot of Performance Profiler.](../profiling/media/vs/prof-tour-performance-profiler.png "Performance Profiler")
+![Screenshot of Performance Profiler.](../profiling/media/visualstudio/prof-tour-performance-profiler.png "Performance Profiler")
 
 Tools that can be used in combination appear in the **Flexible** tab. Tools that must be used in isolation appear in the **Standalone** tab. 
 ::: moniker-end
 ::: moniker range="vs-2022"
 ![Screenshot of Performance Profiler.](../profiling/media/vs-2022/prof-tour-performance-profiler.png "Performance Profiler")
+
 ::: moniker-end
 
 
@@ -84,14 +85,23 @@ In some scenarios, the window allows you to select [multiple profiling tools](..
 
 The profiling tools that you can access during a debugging session are available in the Diagnostic Tools window. The Diagnostic Tools window appears automatically unless you have turned it off. To bring up the window, click **Debug / Windows / Show Diagnostic Tools** (or press **Ctrl** + **Alt** + **F2**). With the window open, you can select tools for which you want to collect data.
 
-::: moniker range=">=vs-2022"
+::: moniker range="visualstudio"
+![Screenshot of the Diagnostic Tools window.](../profiling/media/visualstudio/prof-tour-diagnostic-tools.png)
+
+While you are debugging, you can use the **Diagnostic Tools** window to analyze CPU, memory usage, .NET counters, and you can view events that show performance-related information.
+::: moniker-end
+
+::: moniker range="vs-2022"
 ![Diagnostic Tools window](../profiling/media/vs-2022/prof-tour-diagnostic-tools.png "Diagnostic Tools")
 
 While you are debugging, you can use the **Diagnostic Tools** window to analyze CPU, memory usage, .NET counters, and you can view events that show performance-related information.
 ::: moniker-end
 
+::: moniker range="visualstudio"
+![Screenshot that shows the Diagnostic Tools summary view.](../profiling/media/visualstudio/prof-tour-cpu-and-memory-graph.png)
+::: moniker-end
 
-::: moniker range=">=vs-2022"
+::: moniker range="vs-2022"
 ![Diagnostic Tools Summary view](../profiling/media/vs-2022/prof-tour-cpu-and-memory-graph.png "Diagnostic Tools Summary")
 ::: moniker-end
 
@@ -120,23 +130,44 @@ Tools available in the Diagnostic Tools window or during a debugging session inc
 
 The CPU Usage tool is a good place to start analyzing your app's performance. It will tell you more about CPU resources that your app is consuming. You can use the [debugger-integrated CPU Usage tool](../profiling/beginners-guide-to-performance-profiling.md) or the [post-mortem CPU Usage tool](../profiling/cpu-usage.md).
 
-When using the debugger-integrated CPU Usage tool, open the Diagnostics Tool window (if it's closed, choose **Debug / Windows / Show Diagnostic Tools**). While debugging, open the  **Summary** view, and select **Record CPU Profile**.
+::: moniker range="visualstudio"
 
-::: moniker range=">=vs-2022"
-![Enable CPU usage in the Diagnostic Tools](../profiling/media/vs-2022/prof-tour-enable-cpu-profiling.png "Diagnostic Tools Enable CPU Usage")
+When using the debugger-integrated CPU Usage tool, open the Diagnostics Tool window (if it's closed, choose **Debug / Windows / Show Diagnostic Tools**). While debugging, open the  **Summary** view, and select **Start Recording**.
+
+![Screenshot that shows the Start Recording button.](../profiling/media/visualstudio/prof-tour-enable-cpu-profiling.png)
 ::: moniker-end
 
+::: moniker range="vs-2022"
+
+When using the debugger-integrated CPU Usage tool, open the Diagnostics Tool window (if it's closed, choose **Debug / Windows / Show Diagnostic Tools**). While debugging, open the  **Summary** view, and select **Record CPU Profile**.
+
+![Screenshot that shows the Record CPU Profile button.](../profiling/media/vs-2022/prof-tour-enable-cpu-profiling.png )
+::: moniker-end
 
 One way to use the tool is to set two breakpoints in your code, one at the beginning and one at the end of the function or the region of code you want to analyze. Examine the profiling data when you are paused at the second breakpoint.
 
-::: moniker range=">=vs-2022"
+::: moniker range="visualstudio"
+The **CPU Usage** view shows you a list of functions ordered by longest running, with the longest running function at the top under **Top Functions**. The **Hot Path** section shows you the call stack for the functions that are using the most CPU. These lists can help guide you to functions where performance bottlenecks are happening.
+
+![Screenshot that shows the CPU Usage tab.](../profiling/media/visualstudio/prof-tour-cpu-usage.png)
+::: moniker-end
+
+::: moniker range="vs-2022"
 The **CPU Usage** view shows you a list of functions ordered by longest running, with the longest running function at the top under **Top Functions**. The **Hot Path** section shows you the call stack for the functions that are using the most CPU. These lists can help guide you to functions where performance bottlenecks are happening.
 
 ![Diagnostic Tools CPU Usage view](../profiling/media/vs-2022/prof-tour-cpu-usage.png "Diagnostic Tools CPU Usage")
 ::: moniker-end
 
+::: moniker range="visualstudio"
+Click on a function that you are interested in, and you will see a more detailed **Call tree** view, with the selected function highlighted. The table shows columns with data such as the time spent in the function, including called functions (**Total CPU**), and a second column that shows the time spent in a function, excluding called functions (**Self CPU**). This data can help you evaluate whether the function itself is a performance bottleneck.
 
-::: moniker range=">=vs-2022"
+> [!TIP]
+> The Visual Studio profiler supports both collecting and viewing traces. The profiler can also view traces that have been collected previously by other tools, such as dotnet-trace. Dotnet-trace produces sampling results, not an instrumented trace. For more information, see [dotnet-trace](/dotnet/core/diagnostics/dotnet-trace).
+
+![Screenshot that shows the Diagnostic Tools Call tree view.](../profiling/media/visualstudio/prof-tour-call-tree-view.png)
+::: moniker-end
+
+::: moniker range="vs-2022"
 Click on a function that you are interested in, and you will see a more detailed **Call tree** view, with the selected function highlighted. The table shows columns with data such as the time spent in the function, including called functions (**Total CPU**), and a second column that shows the time spent in a function, excluding called functions (**Self CPU**). This data can help you evaluate whether the function itself is a performance bottleneck.
 
 > [!TIP]
@@ -157,14 +188,27 @@ The **Diagnostic Tools** window also allows you to evaluate memory usage in your
 
 To analyze memory usage with the **Memory Usage** tool, you need to take at least one memory snapshot. Often, the best way to analyze memory is to take two snapshots; the first right before a suspected memory issue, and the second snapshot right after a suspected memory issue occurs. Then you can view a diff of the two snapshots and see exactly what changed. The following illustration shows taking a snapshot with the debugger-integrated tool.
 
-::: moniker range=">=vs-2022"
+
+::: moniker range="visualstudio"
+![Screenshot that shows the Take Snapshot button in Diagnostic Tools.](../profiling/media/visualstudio/prof-tour-take-snapshot.png)
+::: moniker-end
+
+::: moniker range="vs-2022"
 ![Take a snapshot in the Diagnostic Tools](../profiling/media/vs-2022/prof-tour-take-snapshot.png "Diagnostic Tools Take Snapshots")
 ::: moniker-end
 
+::: moniker range="visualstudio"
+
+When you select one of the links under **Objects (Diff)** or **Heap Size (Diff)** and then select another snapshot in **Compare With Baseline**, you get a differential view of the heap size or object count. 
+
+:::image type="content" source="../profiling/media/visualstudio/prof-tour-memory-usage-diff-heap.png" alt-text="Screenshot that shows the Diagnostic Tools heap diff view." lightbox="../profiling/media/visualstudio/prof-tour-memory-usage-diff-heap.png":::
+
+::: moniker-end
+
+::: moniker range="vs-2022"
 
 When you select one of the arrow links, you are given a differential view of the heap (a red up arrow ![Memory Usage Increase](../profiling/media/prof-tour-mem-usage-up-arrow.png "Memory Usage Increase") shows an increasing object count (left) or an increasing heap size (right)). If you click the right link, you get a differential heap view ordered by objects that increased the most in heap size. This can help you pinpoint memory problems. For example, in the illustration below, the bytes used by `ClassHandlersStore` objects increased by 3,492 bytes in the second snapshot.
 
-::: moniker range=">=vs-2022"
 ![Diagnostic Tools heap diff view](../profiling/media/vs-2022/prof-tour-mem-usage-diff-heap.png "Diagnostic Tools Heap Diff view")
 ::: moniker-end
 
@@ -175,7 +219,12 @@ If you click the link on the left instead in the **Memory Usage** view, the heap
 
 The Instrumentation tool is similar to the CPU Usage tool, except that it provides exact call counts and wall clock time instead of CPU utilization. The instrumentation method requires more overhead than the CPU Usage tool. This tool is available in the Performance Profiler. Open the Performance Profiler by choosing **Debug** > **Performance Profiler** (or **Alt + F2**). For more information, see [Instrumentation](../profiling/instrumentation-overview.md).
 
-::: moniker range=">= vs-2022"
+::: moniker range="visualstudio"
+
+![Screenshot showing .NET Instrumentation data.](./media/visualstudio/instrumentation-data.png "Screenshot that shows instrumentation data.")
+::: moniker-end
+
+::: moniker range="vs-2022"
 
 ![Screenshot showing .NET Instrumentation data.](./media/vs-2022/instrumentation-data.png "Instrumentation data")
 ::: moniker-end
@@ -320,7 +369,11 @@ For more information, see [Application Timeline](../profiling/application-timeli
 
 In your UWP apps, you can enable **UI Analysis** in the **Diagnostic Tools** window. The tool searches for common performance or accessibility issues and displays them in the **Events** view while you are debugging. The event descriptions provide information that can help resolve issues.
 
-::: moniker range=">=vs-2022"
+::: moniker range="visualstudio"
+![Screenshot that shows the UI Analysis and Filter menu items.](../profiling/media/visualstudio/prof-tour-ui-analysis.png)
+::: moniker-end
+
+::: moniker range="vs-2022"
 ![View UI analysis events in the diagnostic tools](../profiling/media/vs-2022/prof-tour-ui-analysis.png "Diagnostic Tools View UI Analysis Events")
 ::: moniker-end
 
