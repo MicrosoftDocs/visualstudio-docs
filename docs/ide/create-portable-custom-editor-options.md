@@ -1,7 +1,7 @@
 ---
 title: Define Consistent Coding Styles with EditorConfig
 description: Add an EditorConfig file to your project or codebase to enforce consistent coding styles for everyone that works in the codebase.
-ms.date: 12/29/2025
+ms.date: 01/05/2026
 author: mikejo5000
 ms.author: mikejo
 manager: mijacobs
