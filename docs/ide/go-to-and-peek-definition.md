@@ -1,7 +1,7 @@
 ---
 title: View Type Definitions with Go To and Peek Features
 description: Explore the Go To Definition and Peek Definition features that enable you to easily view the definition of a type or member in Visual Studio.
-ms.date: 12/29/2025
+ms.date: 01/05/2026
 ms.topic: concept-article
 helpviewer_keywords:
 - code editor, view definition
