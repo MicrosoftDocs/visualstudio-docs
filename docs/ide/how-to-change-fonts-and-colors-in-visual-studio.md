@@ -207,7 +207,7 @@ Visual Studio displays pop-up windows in the editor. These pop-up windows includ
 
 Here's how to turn off the pop-up windows:
 
-::: moniker range="visualstudio"  BETH
+::: moniker range="visualstudio"
 
 1. Open the **Tools** > **Options** pane and expand the **All Settings** > **Languages** > **Defaults** > **General** > **Statement Completion** section.
 
