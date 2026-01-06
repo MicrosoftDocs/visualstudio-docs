@@ -47,7 +47,7 @@ To access these settings, open the **Tools** > **Options** pane and expand the *
 
 To access these settings, open the **Tools** > **Options** dialog and expand the **Environment** > **Documents** section.
 
-:::image type="content" source="media/documents-options.png" alt-text="Screenshot of the Documents section in the Options dialog":::
+:::image type="content" source="media/vs-2022/documents-options.png" alt-text="Screenshot of the Documents section in the Options dialog":::
 
 ::: moniker-end
 
