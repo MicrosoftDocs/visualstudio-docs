@@ -1,7 +1,7 @@
 ---
-title: Code style options and code cleanup
+title: Code Style Options and Code Cleanup
 description: Learn how to configure Visual Studio to apply code style preferences using the Code Cleanup command.
-ms.date: 05/08/2025
+ms.date: 01/06/2026
 ms.topic: how-to
 ms.custom: peer-review-program
 author: mikejo5000
@@ -42,7 +42,7 @@ In Visual Studio 2019 version 16.5 and later, rule set files are deprecated in f
 ::: zone pivot="programming-language-dotnet,programming-language-cpp,programming-language-dotnetf"
 ## Code styles in EditorConfig files
 
-Code style settings can be specified by adding an [EditorConfig](../ide/create-portable-custom-editor-options.md) file to your project. EditorConfig files are associated with a codebase rather than a Visual Studio personalization account. Settings in an EditorConfig file take precedence over code styles that are specified in the **Options** dialog box. Use an EditorConfig file when you want to enforce coding styles for all contributors to your repo or project. They are especially useful to ensure consistency in a teams programming environment.
+Code style settings can be specified by adding an [EditorConfig](../ide/create-portable-custom-editor-options.md) file to your project. EditorConfig files are associated with a codebase rather than a Visual Studio personalization account. Settings in an EditorConfig file take precedence over code styles that are specified in the **Options** dialog box. Use an EditorConfig file when you want to enforce coding styles for all contributors to your repo or project. They're especially useful to ensure consistency in a teams programming environment.
 
 To add an EditorConfig file, see [Add and remove EditorConfig files](../ide/create-portable-custom-editor-options.md#add-and-remove-editorconfig-files).
 ::: zone-end
@@ -54,13 +54,22 @@ For reference information on .NET code style settings, see [Code style settings]
 ::: zone pivot="programming-language-cpp"
 ## C/C++ code styles in the Options dialog box
 
-::: moniker range=">=vs-2022"
-You can specify many individual code formatting options, such as indentation and brace positions. To do so, go to **Tools** > **Options** > **Text Editor** > **C/C++** > **Code Style** > **Formatting** (or type **Ctrl + Q** and search for "Formatting"). Alternatively, you can specify one of the [ClangFormat](https://clang.llvm.org/docs/ClangFormat.html) styles (or your own custom ClangFormat style).
+You can specify many individual code formatting options, such as indentation and brace positions.
+
+::: moniker range="visualstudio"
+
+In the **Tools** > **Options** pane, expand the **All Settings** > **Languages** > **C/C++** > **Code Style** > **Formatting** > **General** section. You can also use the **Ctrl** + **Q** keyboard shortcut and search for _Formatting_. Alternatively, you can specify a [ClangFormat](https://clang.llvm.org/docs/ClangFormat.html) style or your own custom ClangFormat style.
+
+:::image type="content" source="media/visualstudio/code-style-format-general-cpp.png" border="false" alt-text="Screenshot of the general formatting options for C and C++ code style.":::
+
+::: moniker-end
+::: moniker range="<=vs-2022"
+
+To do so, go to **Tools** > **Options** > **Text Editor** > **C/C++** > **Code Style** > **Formatting** (or type **Ctrl + Q** and search for "Formatting"). Alternatively, you can specify one of the [ClangFormat](https://clang.llvm.org/docs/ClangFormat.html) styles (or your own custom ClangFormat style).
 
 ![Screenshot of the Options pane with Text Editor.](media/vs-2022/code-style-dialog-cpp.png)
 
 ::: moniker-end
-
 
 For more information about all the formatting options, see [Options, Text Editor, C/C++, Formatting](/visualstudio/ide/reference/options-text-editor-c-cpp-formatting).
 ::: zone-end
@@ -70,7 +79,7 @@ For more information about all the formatting options, see [Options, Text Editor
 
 ::: moniker range=">=vs-2022"
 
-Code style preferences can be set for all of your C# and Visual Basic projects by opening the **Options** dialog box from the **Tools** menu. In the **Options** dialog box, select **Text Editor** > [**C#** or  **Visual Basic**] > **Code Style**.
+Code style preferences can be set for all of your C# and Visual Basic projects by opening the **Options** dialog from the **Tools** menu. In the **Options** dialog, select **Text Editor** > [**C#** or  **Visual Basic**] > **Code Style**.
 
 - For formatting styles, select options under **Formatting**.
 - For code style preferences associated with [Quick Actions](../ide/quick-actions.md) and IDE code style rules, select options under **General** or **Naming**.
@@ -93,15 +102,15 @@ Options set in this window are applicable to your Visual Studio personalization 
 
 For each code style setting on the **General** and **Naming** options pages, you can set the **Preference** and **Severity** values using the drop-downs on each line. Severity can be set to **Refactoring Only**, **Suggestion**, **Warning**, or **Error**.
 
-- Code style preferences in the **General** and **Naming** options pages determine the [Quick Actions](../ide/quick-actions.md) for a code style. The **Quick Actions** light bulb :::image type="icon" source="media/light-bulb-dropdown.png":::, error light bulb :::image type="icon" source="media/error-bulb.png":::, or screwdriver :::image type="icon" source="media/screwdriver.png"::: icon appears when a non-preferred style is used, and you can choose an option on the **Quick Actions** list to automatically rewrite code to the preferred style.
+- Code style preferences in the **General** and **Naming** options pages determine the [Quick Actions](../ide/quick-actions.md) for a code style. The **Quick Actions** light bulb :::image type="icon" source="media/light-bulb-dropdown.png":::, error light bulb :::image type="icon" source="media/error-bulb.png":::, or screwdriver :::image type="icon" source="media/screwdriver.png"::: icon appears when a nonpreferred style is used, and you can choose an option on the **Quick Actions** list to automatically rewrite code to the preferred style.
 - If you want the violation to appear only as a Quick Action and also be excluded from code cleanup, set the **Severity** to **Refactoring Only**.
-- If you want the violation to appear in the Error List window as well as Quick Actions, and be included in code cleanup, set the **Severity** to **Suggestion**, **Warning**, or **Error**. Violations appear as a suggestion (message), warning, or error when you set the output in the Error List window to **Build + IntelliSense**. They are excluded from **Build** only output.
+- If you want the violation to appear in the Error List window along with Quick Actions, and be included in code cleanup, set the **Severity** to **Suggestion**, **Warning**, or **Error**. Violations appear as a suggestion (message), warning, or error when you set the output in the Error List window to **Build + IntelliSense**. They're excluded from **Build** only output.
 
 Settings in an EditorConfig file take precedence over code styles set in these pages.
 
 ## Enforce code styles on build
 
-Starting in Visual Studio 2019 version 16.8, which includes the .NET 5.0 RC2 SDK, you can [enforce the .NET coding conventions on build](/dotnet/fundamentals/productivity/code-analysis#code-style-analysis) for all .NET projects. At build time, .NET code style violations will appear as warnings or errors with an "IDE" prefix. This enables you to strictly enforce consistent code styles in your codebase.
+Starting in Visual Studio 2019 version 16.8, which includes the .NET 5.0 RC2 SDK, you can [enforce the .NET coding conventions on build](/dotnet/fundamentals/productivity/code-analysis#code-style-analysis) for all .NET projects. At build time, .NET code style violations appear as warnings or errors with an "IDE" prefix. This enables you to strictly enforce consistent code styles in your codebase.
 ::: zone-end
 
 ## Apply code styles
@@ -120,7 +129,7 @@ When you change a code style in the Options page or add an EditorConfig file to 
 
 ::: moniker range=">=vs-2022"
 
-To apply code styles from an EditorConfig file or from the **Code Style** options page, use the **Code Cleanup** button at the bottom of the editor (keyboard: **Ctrl**+**K**, **Ctrl**+**E**). If an EditorConfig file exists for the project, those are the settings that take precedence.
+To apply code styles from an EditorConfig file or from the **Code Style** options page, use the **Code Cleanup** button at the bottom of the editor (keyboard: **Ctrl**+**K**, **Ctrl**+**E**). If an EditorConfig file exists for the project, the settings in the file take precedence.
 
 ::: zone pivot="programming-language-dotnet,programming-language-dotnetf"
 > [!TIP]
@@ -129,7 +138,7 @@ To apply code styles from an EditorConfig file or from the **Code Style** option
 
 To apply code styles:
 
-1. First, configure which code styles you want to apply (in one of two profiles) in the **Configure Code Cleanup** dialog box. To open this dialog box, click the expander arrow next to the code cleanup broom icon and then choose **Configure Code Cleanup**. Alternatively, use the **Analyze** > **Code Cleanup** menu.
+1. First, configure which code styles you want to apply (in one of two profiles) in the **Configure Code Cleanup** dialog box. To open this dialog box, select the expander arrow next to the code cleanup broom icon and then choose **Configure Code Cleanup**. Alternatively, use the **Analyze** > **Code Cleanup** menu.
 
    ![Screenshot of Configure Code Cleanup.](media/vs-2022/configure-code-cleanup.png)
 
@@ -143,7 +152,7 @@ To apply code styles:
 
 1. After you've configured code cleanup, use one of the following methods to run code cleanup:
 
-   - Click on the broom icon or press **Ctrl**+**K**, **Ctrl**+**E**.
+   - Select the broom icon or press **Ctrl**+**K**, **Ctrl**+**E**.
 
      ![Screenshot of Execute code cleanup.](media/vs-2022/execute-code-cleanup.png)
 
