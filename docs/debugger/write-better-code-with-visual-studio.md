@@ -175,7 +175,7 @@ namespace Console_Parse_JSON
 }
 ```
 
-Next, check if `using System.Text` has been automatically added at the beginning of the file. If it is present, comment out this line of code.
+Next, check if `using System.Text` has been automatically added at the beginning of the file. By default, recent versions of Visual Studio automatically enable the **Add missing using directives on paste** option. If `using System.Text` was added, comment out this line of code.
 
 ```csharp
 // using System.Text;
