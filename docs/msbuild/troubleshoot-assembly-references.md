@@ -165,7 +165,7 @@ By default, non-SDK-style projects use the following search path order:
 9. Treat the `<Reference Include="...">` value as a real file name (`{RawFileName}`)
 10. The output directory (`$(OutDir)`)
 
-SDK-style projects set a smaller default `AssemblySearchPaths` (excluding GAC/registry/output directory searches by default):
+The .NET SDK sets a smaller default `AssemblySearchPaths` (excluding GAC/registry/output directory searches by default):
 
 - `{CandidateAssemblyFiles}`
 - `{HintPathFromItem}`
