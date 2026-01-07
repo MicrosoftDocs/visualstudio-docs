@@ -1,11 +1,11 @@
 ---
-title: Reformat your python code in Visual Studio
+title: Reformat Your Python Code in Visual Studio
 description: Automatically format your Python code in Visual Studio, including the code spacing, statements, long line wrapping, and code comments.
 author: Devdiv-VR
 ms.author: vedhar
 ms.subservice: python
 ms.topic: article
-ms.date: 04/18/2024
+ms.date: 01/07/2026
 manager: mijacobs
 
 # CustomerIntent: As a developer, I want to reformat Python code in Visual Studio so I can adjust settings like code spacing and line wrapping.
@@ -33,9 +33,20 @@ To format the whole file, select **Edit** > **Advanced** > **Format Document**.
 
 ## Word wrap
 
+::: moniker range="visualstudio"
+
+You can enable word wrapping in the **Tools** > **Options** pane under the **All Settings** > **Languages** > **Python** > **General** section. Select the **Word wrap** checkbox:
+
+:::image type="content" source="media/visualstudio/word-wrap-setting.png" alt-text="Screenshot that shows how to enable word wrapping for Python in Visual Studio." border="false":::
+
+::: moniker-end
+::: moniker range="<=vs-2022"
+
 You can enable word wrapping in **Tools** > **Options** > **Text Editor** > **Python** > **General**. In the **Settings** section, select the **Word wrap** checkbox.
 
-:::image type="content" source="media/word-wrap-setting.png" alt-text="Screenshot that shows how to enable word wrapping for Python in Visual Studio." lightbox="media/word-wrap-setting.png":::
+:::image type="content" source="media/vs-2022/word-wrap-setting.png" alt-text="Screenshot that shows how to enable word wrapping for Python in Visual Studio." lightbox="media/vs-2022/word-wrap-setting.png":::
+
+::: moniker-end
 
 ## Format comment text
 
