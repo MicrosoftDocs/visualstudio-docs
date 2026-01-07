@@ -275,7 +275,7 @@ To set both the intermediate and final output paths in *Directory.build.props*, 
 
 ## Use artifacts to organize build output
 
-For .NET 8 projects, you can use the artifacts functionality to arrange output in a highly customizable and flexible way. See [Artifacts output layout](/dotnet/core/sdk/artifacts-output).
+For .NET 8 and later projects, you can use the artifacts functionality to arrange output in a highly customizable and flexible way. See [Artifacts output layout](/dotnet/core/sdk/artifacts-output).
 
 :::moniker-end
 

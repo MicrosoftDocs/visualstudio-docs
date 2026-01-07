@@ -3,8 +3,8 @@ title: Integrate models by using ModelBus
 description: Learn how Visual Studio ModelBus provides a method for creating links between models and from other tools into models.
 ms.date: 06/24/2022
 ms.topic: how-to
-author: mgoertz-msft
-ms.author: mgoertz
+author: jekelly
+ms.author: jekelly
 manager: mijacobs
 ms.subservice: modeling
 ---

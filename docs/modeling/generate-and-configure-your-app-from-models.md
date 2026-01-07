@@ -3,8 +3,8 @@ title: Generate and configure your app from models
 description: Learn what a model represents and how you can generate or configure parts of your application from a model.
 ms.date: 11/04/2016
 ms.topic: article
-author: mgoertz-msft
-ms.author: mgoertz
+author: jekelly
+ms.author: jekelly
 manager: mijacobs
 ms.subservice: modeling
 ---

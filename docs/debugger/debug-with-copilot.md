@@ -75,7 +75,7 @@ The following simple example shows how to get AI assistance using the inline Cha
 
    On the start window, choose **Create a new project**. Type **console** in the search box, select **C#** as the language, and then choose **Console App** for .NET. Choose **Next**. Type a project name like **ConsoleApp_Copilot** and select **Next**.
 
-   Choose either the recommended target framework or .NET 8, and then choose **Create**.
+   Choose either the recommended target framework or .NET 10, and then choose **Create**.
 
    If you don't see the **Console App** project template for .NET, go to **Tools** > **Get Tools and Features**, which opens the Visual Studio Installer. Choose the **.NET desktop development** workload, then choose **Modify**.
 

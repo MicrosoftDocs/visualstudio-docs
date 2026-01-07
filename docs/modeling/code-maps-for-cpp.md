@@ -3,8 +3,8 @@ title: Map dependencies between C++ source & header files
 description: Check dependencies between C++ source code and header files by using code maps for C++ projects, and troubleshoot issues in C and C++ code.
 ms.date: 05/16/2018
 ms.topic: article
-author: mgoertz-msft
-ms.author: mgoertz
+author: jekelly
+ms.author: jekelly
 manager: mijacobs
 ms.subservice: modeling
 ---

@@ -44,7 +44,7 @@ This article includes steps on setting up a basic configuration of IIS on Window
 
    In Visual Studio, choose **File** > **Start window** to open the Start window, and then choose **Create a new project**. In the search box, type **web app**, then choose **C#** as the language, then choose **ASP.NET Core Web Application (Model-View-Controller)**, and then choose **Next**. On the next screen, name the project **MyASPApp**, and then choose **Next**.
 
-   Choose either the recommended target framework or .NET 8, and then choose **Create**. The version must match the version installed on the server.
+   Choose either the recommended target framework or .NET 10, and then choose **Create**. The version must match the version installed on the server.
 
 1. Open the *HomeController.cs* file in the Controllers folder and set a breakpoint in the `return View;` statement in the `Privacy` method.
 
