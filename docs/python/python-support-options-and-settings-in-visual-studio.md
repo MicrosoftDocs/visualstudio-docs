@@ -92,7 +92,7 @@ The following options are available under **Tools** > **Options** > **Python**> 
 | **Break on SystemExit exception with exit code of zero** | Off | If set, stops the debugger on this exception. When clear, the debugger exits without breaking. |
 | **Enable debugging of the Python standard library** | Off | Makes it possible to step into the standard library source code while debugging, but increases the time it takes for the debugger to start.|
 | **Show function return value** | On | Displays function return values in the **Locals** window then stepping over a function call in the debugger (F10) |
-| **Show variables** | On | Displays four groups of variables to show and how to format the display (Group, Hide, Inline). <br> - **Class**: Default is "Group" <br> - **Protected**: Default is Inline" <br> - **Function**: Default is "Group" <br> - **Special**: Default is "Group" |  
+| **Show variables** | On | Displays four groups of variables to show and how to format the display (Group, Hide, Inline). <br> - **Class**: Default is "Group" <br> - **Protected**: Default is "Inline" <br> - **Function**: Default is "Group" <br> - **Special**: Default is "Group" |  
 
 ::: moniker-end
 
