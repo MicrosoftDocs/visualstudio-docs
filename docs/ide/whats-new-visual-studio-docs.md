@@ -123,7 +123,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 - [Generate and run unit tests using GitHub Copilot testing for .NET](../test/unit-testing-with-github-copilot-test-dotnet.md)
   - Clarify unit testing framework details for GitHub Copilot testing
   - Update GitHub Copilot testing for .NET
-- [Customize code coverage analysis](../test/customizing-code-coverage-analysis.md) - Fix placement of IncludeTestAssembly in sample .runsettings file
+- [Customize code coverage analysis](../test/customizing-code-coverage-analysis.md) - Fix placement of IncludeTestAssembly in sample `.runsettings` file
 
 ### XAML tools
 
