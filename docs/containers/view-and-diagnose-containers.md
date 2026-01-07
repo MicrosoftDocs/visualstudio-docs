@@ -189,7 +189,7 @@ For Windows containers, the Windows command prompt opens. For Linux containers, 
 
 ![Screenshot of Bash window.](media/view-and-diagnose-containers/vs-2022/container-bash-window.png)
 
-If you're targeting .NET 8 in Visual Studio 2022 version 17.7 and later, your Dockerfile can specify the `USER app` command, which means your app runs with regular user permissions rather than elevated permissions. The terminal opens as the user specified in the Dockerfile, which is `app` by default for .NET 8 projects. If no user is specified, the terminal runs as the `root` user.
+If you're targeting .NET 8 or later in Visual Studio 2022 version 17.7 and later, your Dockerfile can specify the `USER app` command, which means your app runs with regular user permissions rather than elevated permissions. The terminal opens as the user specified in the Dockerfile, which is `app` by default for .NET 8 and later projects. If no user is specified, the terminal runs as the `root` user.
 
 :::moniker-end
 

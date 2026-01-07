@@ -105,7 +105,7 @@ The next step is to create the unit test project to test the StringLibrary libra
 
 3. Name the project **StringLibraryTests** and click **Next**.
 
-4. Choose either the recommended target framework or .NET 8, and then choose **Create**.
+4. Choose either the recommended target framework or .NET 10, and then choose **Create**.
 
    > [!NOTE]
    > This getting started tutorial uses Live Unit Testing with the MSTest test framework. You can also use the xUnit and NUnit test frameworks.

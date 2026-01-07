@@ -3,8 +3,8 @@ title: Code maps are slow
 description: Learn how to improve code map performance and how you can minimize the time required to finish rendering.
 ms.date: 05/16/2018
 ms.topic: article
-author: mgoertz-msft
-ms.author: mgoertz
+author: jekelly
+ms.author: jekelly
 manager: mijacobs
 ms.subservice: modeling
 ---

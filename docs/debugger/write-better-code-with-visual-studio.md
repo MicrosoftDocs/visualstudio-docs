@@ -46,7 +46,7 @@ Follow these steps to create the application:
 
 1. Enter a project name like **Console_Parse_JSON**, and then select **Next** or **Create**, as applicable.
 
-    Choose either the recommended target framework or .NET 8, and then choose **Create**.
+    Choose either the recommended target framework or .NET 10, and then choose **Create**.
 
     If you don't see the **Console App** for .NET project template, go to **Tools** > **Get Tools and Features**, which opens the Visual Studio Installer. Choose the **.NET desktop development** workload, then choose **Modify**.
 
