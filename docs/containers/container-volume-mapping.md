@@ -34,7 +34,7 @@ For debugging to work in containers, Visual Studio uses volume mapping to map th
 
 
 ::: moniker range="visualstudio"
-Here are the volumes that are mounted in your container. What you see in your containers might differ depending on the minor version of Visual Studio you are using.
+Here are the volumes that are mounted in your container. What you see in your containers might differ depending on the minor version of Visual Studio you're using.
 
 |Volume|Description|
 |-|-|
@@ -52,7 +52,7 @@ For .NET 8 and later, additional mount points at root and for the app user that 
 :::moniker-end
 
 ::: moniker range="vs-2022"
-Here are the volumes that are mounted in your container. What you see in your containers might differ depending on the minor version of Visual Studio 2022 you are using.
+Here are the volumes that are mounted in your container. What you see in your containers might differ depending on the minor version of Visual Studio 2022 you're using.
 
 |Volume|Description|
 |-|-|
