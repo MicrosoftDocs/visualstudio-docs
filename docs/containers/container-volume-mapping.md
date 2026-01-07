@@ -34,7 +34,7 @@ For debugging to work in containers, Visual Studio uses volume mapping to map th
 
 
 ::: moniker range="visualstudio"
-Here are the volumes that are mounted in your container. What you see in your containers might differ depending on the minor version of Visual Studio you are using.
+Here are the volumes that are mounted in your container. What you see in your containers might differ depending on the minor version of Visual Studio you're using.
 
 |Volume|Description|
 |-|-|
@@ -44,7 +44,7 @@ Here are the volumes that are mounted in your container. What you see in your co
 | **Source folder** | Contains the build context that is passed to Docker commands.|
 | **VSTools** | Contains Visual Studio tools that support working with the container, including support for the debugger, the **Containers** window, handling Azure tokens, the Hot Reload agent, and the Distroless Helper. |
 
-For .NET 8, additional mount points at root and for the app user that contain user secrets and the HTTPS certificate might also be present.
+For .NET 8 and later, additional mount points at root and for the app user that contain user secrets and the HTTPS certificate might also be present.
 
 > [!NOTE]
 > If you're using Docker Engine in Windows Subsystem for Linux (WSL) without Docker Desktop, set the environment variable `VSCT_WslDaemon=1` to have Visual Studio use WSL paths when creating volume mounts. The NuGet package [Microsoft.VisualStudio.Azure.Containers.Tools.Targets 1.20.0-Preview 1](https://www.nuget.org/packages/Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.20.0-Preview.1) is also required.
@@ -52,7 +52,7 @@ For .NET 8, additional mount points at root and for the app user that contain us
 :::moniker-end
 
 ::: moniker range="vs-2022"
-Here are the volumes that are mounted in your container. What you see in your containers might differ depending on the minor version of Visual Studio 2022 you are using.
+Here are the volumes that are mounted in your container. What you see in your containers might differ depending on the minor version of Visual Studio 2022 you're using.
 
 |Volume|Description|
 |-|-|
@@ -62,7 +62,7 @@ Here are the volumes that are mounted in your container. What you see in your co
 | **Source folder** | Contains the build context that is passed to Docker commands.|
 | **VSTools** | Contains Visual Studio tools that support working with the container, including support for the debugger, the **Containers** window, handling Azure tokens, the Hot Reload agent, and the Distroless Helper. |
 
-For .NET 8, additional mount points at root and for the app user that contain user secrets and the HTTPS certificate might also be present.
+For .NET 8 and later, additional mount points at root and for the app user that contain user secrets and the HTTPS certificate might also be present.
 
 > [!NOTE]
 > **Visual Studio 17.10 and later** If you're using Docker Engine in Windows Subsystem for Linux (WSL) without Docker Desktop, set the environment variable `VSCT_WslDaemon=1` to have Visual Studio use WSL paths when creating volume mounts. The NuGet package [Microsoft.VisualStudio.Azure.Containers.Tools.Targets 1.20.0-Preview 1](https://www.nuget.org/packages/Microsoft.VisualStudio.Azure.Containers.Tools.Targets/1.20.0-Preview.1) is also required.
