@@ -3,8 +3,8 @@ title: How to ... with Text Templates
 description: Learn about answers to common questions encountered when using text templates to generate text.
 ms.date: 11/04/2016
 ms.topic: how-to
-author: mgoertz-msft
-ms.author: mgoertz
+author: jekelly
+ms.author: jekelly
 manager: mijacobs
 ms.subservice: modeling
 ---

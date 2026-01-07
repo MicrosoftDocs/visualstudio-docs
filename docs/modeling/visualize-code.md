@@ -7,8 +7,8 @@ helpviewer_keywords:
 - code, understanding
 - code, visualizing
 - code, exploring
-author: mgoertz-msft
-ms.author: mgoertz
+author: jekelly
+ms.author: jekelly
 manager: mijacobs
 ms.subservice: modeling
 ---

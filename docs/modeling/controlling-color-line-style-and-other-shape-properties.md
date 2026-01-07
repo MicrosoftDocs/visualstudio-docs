@@ -3,8 +3,8 @@ title: Control Color, Line Style, and other Shape Properties
 description: Provides information about controlling shape properties such as color and line style.
 ms.date: 11/04/2016
 ms.topic: how-to
-author: mgoertz-msft
-ms.author: mgoertz
+author: jekelly
+ms.author: jekelly
 manager: mijacobs
 ms.subservice: modeling
 ---

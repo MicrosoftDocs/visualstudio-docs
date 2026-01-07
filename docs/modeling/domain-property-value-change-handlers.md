@@ -5,8 +5,8 @@ ms.date: 03/22/2018
 ms.topic: article
 helpviewer_keywords:
 - Domain-Specific Language, overriding event handlers
-author: mgoertz-msft
-ms.author: mgoertz
+author: jekelly
+ms.author: jekelly
 manager: mijacobs
 ms.subservice: modeling
 ---
