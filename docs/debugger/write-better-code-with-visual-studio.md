@@ -1,7 +1,7 @@
 ---
 title: Debugging techniques and tools
 description: Write better code with fewer bugs by using Visual Studio to fix exceptions and resolve errors, and make improvements to your code.
-ms.date: "10/24/2023"
+ms.date: "1/6/2025"
 ms.topic: how-to
 helpviewer_keywords:
   - "debugger"
@@ -175,6 +175,13 @@ namespace Console_Parse_JSON
 }
 ```
 
+Next, check if `using System.Text` has been automatically added at the beginning of the file. By default, recent versions of Visual Studio automatically enable the **Add missing using directives on paste** option. If `using System.Text` was added, comment out this line of code.
+
+```csharp
+// using System.Text;
+```
+
+
 ## Find the red and green squiggles!
 
 Before you try to start the sample app and run the debugger, check the code in the code editor for red and green squiggles. These represent errors and warnings identified by the IDE's code analyzer. The red squiggles are compile-time errors, which you must fix before you can run the code. The green squiggles are warnings. Although you can often run your app without fixing the warnings, they can be a source of bugs and you often save yourself time and trouble by investigating them. These warnings and errors also show up in the **Error List** window, if you prefer a list view.
@@ -303,7 +310,7 @@ For the sample app, fix the `SerializationException` in the `GetJsonData` method
 
 ::: moniker range=">= vs-2022"
 > [!TIP]
-> If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while you're debugging exceptions. Just look for the **Ask Copilot** ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png) button. For more information, see [Debug with Copilot](../debugger/debug-with-copilot.md).
+> If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while you're debugging exceptions. Just look for the **Analyze with Copilot** or **Ask Copilot** ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png) button. For more information, see [Debug with Copilot](../debugger/debug-with-copilot.md).
 ::: moniker-end
 
 ## Clarify your code intent by using assert
