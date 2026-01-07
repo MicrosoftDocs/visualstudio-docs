@@ -6,8 +6,8 @@ ms.date: 11/04/2016
 ms.topic: article
 helpviewer_keywords:
 - Domain-Specific Language Tools, supported Visual Studio editions
-author: mgoertz-msft
-ms.author: mgoertz
+author: jekelly
+ms.author: jekelly
 manager: mijacobs
 ms.subservice: modeling
 ---
