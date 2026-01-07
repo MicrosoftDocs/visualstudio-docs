@@ -44,7 +44,7 @@ You can enable word wrapping in the **Tools** > **Options** pane under the **All
 
 You can enable word wrapping in **Tools** > **Options** > **Text Editor** > **Python** > **General**. In the **Settings** section, select the **Word wrap** checkbox.
 
-:::image type="content" source="media/vs-2022/word-wrap-setting.png" alt-text="Screenshot that shows how to enable word wrapping for Python in Visual Studio." lightbox="media/word-wrap-setting.png":::
+:::image type="content" source="media/vs-2022/word-wrap-setting.png" alt-text="Screenshot that shows how to enable word wrapping for Python in Visual Studio." lightbox="media/vs-2022/word-wrap-setting.png":::
 
 ::: moniker-end
 
