@@ -105,9 +105,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- [Visual Studio integration (MSBuild)](../msbuild/visual-studio-integration-msbuild.md)
-  - Confirm merge from repo_sync_working_branch to main to sync with https://github.com/MicrosoftDocs/visualstudio-docs (branch main)
-  - Document support for `.msbuildproj` extension
+- [Visual Studio integration (MSBuild)](../msbuild/visual-studio-integration-msbuild.md) - Document support for `.msbuildproj` extension
 - [Configure targets and tasks](../msbuild/how-to-configure-targets-and-tasks.md) - Add some docs to cover .NET TaskHost features and limitations
 - [UsingTask element (MSBuild)](../msbuild/usingtask-element-msbuild.md) - Add some docs to cover .NET TaskHost features and limitations
 
