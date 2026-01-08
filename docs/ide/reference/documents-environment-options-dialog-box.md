@@ -1,7 +1,7 @@
 ---
-title: Documents, Environment, Options Dialog Box
+title: Documents, Environment, Options Dialog
 description: Learn how to use the Environments page in the Documents section to control the display of documents in the IDE and manage external changes to documents and files.
-ms.date: 9/26/2024
+ms.date: 01/07/2026
 ms.topic: reference
 f1_keywords:
 - VS.Environment.Documents
@@ -34,15 +34,26 @@ ms.subservice: general-ide
 ---
 # Options dialog box: Environment \> Documents
 
-Use this page of the **Options** dialog box to control the display of documents in the integrated development environment (IDE) and manage external changes to documents and files.
+Use this page of the **Options** dialog to control the display of documents in the integrated development environment (IDE) and manage external changes to documents and files.
 
-To access this dialog box, go to **Tools** > **Options** > **Environment** > **Documents**.
+::: moniker range="visualstudio"
 
-:::image type="content" source="media/documents-options.png" alt-text="Screenshot of the Documents section in the Options dialog box":::
+To access these settings, open the **Tools** > **Options** pane and expand the **All Settings** > **Environment** > **Documents** section.
+
+:::image type="content" source="media/visualstudio/documents-options.png" alt-text="Screenshot of the Documents section in the Options pane.":::
+
+::: moniker-end
+::: moniker range="<=vs-2022"
+
+To access these settings, open the **Tools** > **Options** dialog and expand the **Environment** > **Documents** section.
+
+:::image type="content" source="media/vs-2022/documents-options.png" alt-text="Screenshot of the Documents section in the Options dialog.":::
+
+::: moniker-end
 
 **Detect when file is changed outside the environment**
 
-When this option is selected, a message immediately notifies you of changes to an open file that have been made by an editor outside the IDE. The message lets you reload the file from storage.
+When this option is selected, a message immediately notifies you of changes to an open file made by an editor outside the IDE. The message lets you reload the file from storage.
 
 **Reload modified files unless there are unsaved changes**
 
@@ -50,7 +61,7 @@ When you have **Detect when file is changed outside the environment** selected a
 
 **Allow editing of read-only files; warn when attempt to save**
 
-When this option is enabled, you can open and edit a read-only file. When you are finished, you must use the **Save As** command to save the file by a new name if you want to save a record of your changes.
+When this option is enabled, you can open and edit a read-only file. When you're finished, you must use the **Save As** command to save the file by a new name if you want to save a record of your changes.
 
 **Open file using directory of currently active document**
 
@@ -66,16 +77,16 @@ Select this option to display a message box when the **Global Undo** command wil
 
 **Show Miscellaneous files in Solution Explorer**
 
-Select this option to display the **Miscellaneous Files** node in **Solution Explorer**. Miscellaneous files are files that are not associated with a project or solution but can appear in **Solution Explorer** for your convenience.
+Select this option to display the **Miscellaneous Files** node in **Solution Explorer**. Miscellaneous files are files that aren't associated with a project or solution but can appear in **Solution Explorer** for your convenience.
 
 > [!NOTE]
 > Select this option to enable the **View in Browser** command on the **File** menu for web documents not included in the active web application.
 
 **Items saved in the Miscellaneous files project**
 
-Specifies the number of files to persist in the **Miscellaneous Files** folder of **Solution Explorer**. These files are listed even if they are no longer open in an editor. You can specify any whole number from 0 to 99. The default number is 0.
+Specifies the number of files to persist in the **Miscellaneous Files** folder of **Solution Explorer**. These files are listed even if they're no longer open in an editor. You can specify any whole number from 0 to 99. The default number is 0.
 
-For example, if you set this option to 5 and have 10 miscellaneous files open, when you close all 10 files, the first 5 will still be shown in the **Miscellaneous Files** folder.
+For example, if you set this option to 5 and have 10 miscellaneous files open, when you close all 10 files, the first five are shown in the **Miscellaneous Files** folder.
 
 **Save documents as Unicode when data cannot be saved in codepage**
 
@@ -85,13 +96,17 @@ Select this option to cause files containing information incompatible with the s
 
 **Automatically save files when Visual Studio is in the background**
 
-Select this option when you want Visual Studio, after it loses focus, to save every file in the IDE. This includes project files, solution files, and even miscellaneous files that aren’t part of the project or solution. The intent is that when you switch to another tool, all your changes in Visual Studio are committed to disk.
+Select this option when you want Visual Studio, after it loses focus, to save every file in the IDE. The save action includes project files, solution files, and even miscellaneous files that aren’t part of the project or solution. The intent is that when you switch to another tool, all your changes in Visual Studio are committed to disk.
 
 To learn more, see the [Suffer from Ctrl+S fatigue? We have a feature for you](https://devblogs.microsoft.com/visualstudio/suffer-from-ctrls-fatigue-we-have-a-feature-for-you/) blog post.
 
+**Save files with a specific encoding**
+
+Select this option when you want Visual Studio to apply a specific encoding when you save a file. Use the dropdown list to set the **Save encoding** value.
+
 ::: moniker-end
 
-## See also
+## Related content
 
 - [Miscellaneous Files](../../ide/reference/miscellaneous-files.md)
 - [Finding and Replacing Text](../../ide/finding-and-replacing-text.md)

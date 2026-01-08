@@ -5,7 +5,7 @@ author: ghogen
 manager: mijacobs
 ms.subservice: azure-development
 ms.topic: overview
-ms.date: 12/3/2024
+ms.date: 1/8/2026
 ms.author: ghogen
 monikerRange: ">=vs-2022"
 ms.custom: sfi-image-nochange
@@ -61,7 +61,7 @@ Visual Studio provides options to connect to on-premises databases, locally emul
 | Name | Description |
 | - | - |
 | [Azure Cosmos DB Emulator on container](/azure/cosmos-db/introduction) | Azure Cosmos DB emulator running in a local container. |
-| [MongoDB on container](/azure/cosmos-db/introduction) | MongoDB document databases provides high reliability and easy scalability. This option makes it available in a local container. |
+| [MongoDB on container](https://www.mongodb.com/resources/products/compatibilities/docker) | [MongoDB Atlas](/azure/partner-solutions/mongo-db/overview) on Azure provides high reliability and easy scalability. This option makes it available in a local container. |
 | [PostgreSQL on container](/azure/postgresql/overview) | PostgreSQL is an object-relational database system that provides reliability and data integrity. This option makes it available in a local container. |
 | [SQLite](/ef/core/providers/sqlite/?tabs=dotnet-core-cli) | SQLite is an in-process library that provides a self-contained, transactional SQL Server Database Engine with no configuration. |
 | [SQL Server Database](/sql/sql-server/) | On-premises SQL Server Database. |

@@ -5,7 +5,7 @@ author: ghogen
 manager: mijacobs
 ms.subservice: azure-development
 ms.topic: how-to
-ms.date: 10/17/2024
+ms.date: 1/8/2026
 ms.author: ghogen
 ms.custom: sfi-image-nochange
 ---
@@ -27,7 +27,7 @@ The connected service functionality adds all the needed references and connectio
 
 ## Prerequisites
 
-- Visual Studio (see [Visual Studio downloads] (https://aka.ms/vs/download/?cid=learn-onpage-download-cta)) with the **Azure development** workload installed.
+- Visual Studio (see [Visual Studio downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-cta)) with the **Azure development** workload installed.
 - A project of one of the supported types
 - [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
 

@@ -8,7 +8,7 @@ metadata:
   manager: mijacobs
   ms.subservice: azure-development
   ms.topic: landing-page
-  ms.date: 10/21/2023
+  ms.date: 1/8/2026
   ms.author: ghogen
 
 landingContent:
@@ -31,7 +31,7 @@ landingContent:
             url: overview-connected-services.md
       - linkListType: tutorial
         links:
-          - text: Active Directory
+          - text: Microsoft Entra ID
             url: /azure/active-directory/develop/vs-active-directory-add-connected-service
           - text: Azure Cache for Redis
             url: azure-cache-for-redis-add-connected-service.md
