@@ -1,7 +1,7 @@
 ---
 title: Add name parameters to project and item templates
 description: Modify template parameters in Visual Studio to replace identifiers like class names and namespaces in existing templates or your own templates.
-ms.date: 12/03/2024
+ms.date: 1/8/2026
 ms.topic: how-to
 helpviewer_keywords:
 - template parameters
