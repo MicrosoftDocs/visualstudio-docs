@@ -15,7 +15,7 @@ This article provides an overview of C++ IntelliSense features. For information 
 
 ## IntelliSense features in C++
 
-IntelliSense is a name given to a set of features that make coding more convenient. Because different people have different ideas about what's convenient, virtually all IntelliSense features can be enabled or disabled by selecting **Tools** > **Options** on the menu bar.
+IntelliSense is a name given to a set of features that make coding more convenient. Virtually all IntelliSense features can be enabled or disabled by selecting **Tools** > **Options** on the menu bar.
 
 ::: moniker range="visualstudio"
 
