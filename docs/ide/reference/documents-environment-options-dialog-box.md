@@ -40,14 +40,14 @@ Use this page of the **Options** dialog to control the display of documents in t
 
 To access these settings, open the **Tools** > **Options** pane and expand the **All Settings** > **Environment** > **Documents** section.
 
-:::image type="content" source="media/visualstudio/documents-options.png" alt-text="Screenshot of the Documents section in the Options pane":::
+:::image type="content" source="media/visualstudio/documents-options.png" alt-text="Screenshot of the Documents section in the Options pane.":::
 
 ::: moniker-end
 ::: moniker range="<=vs-2022"
 
 To access these settings, open the **Tools** > **Options** dialog and expand the **Environment** > **Documents** section.
 
-:::image type="content" source="media/vs-2022/documents-options.png" alt-text="Screenshot of the Documents section in the Options dialog":::
+:::image type="content" source="media/vs-2022/documents-options.png" alt-text="Screenshot of the Documents section in the Options dialog.":::
 
 ::: moniker-end
 
