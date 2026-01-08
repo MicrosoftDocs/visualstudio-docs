@@ -128,7 +128,7 @@ For most MSBuild tasks, the default process is sufficient. But for custom or mor
 
 ## Using the .NET TaskHost
 
-With the release of the .NET 10 SDK and Visual Studio 2026, MSBuild introduced support for a `.NET TaskHost`. This feature allows MSBuild to run Tasks that must use a .NET runtime on a separate .NET process. This is enabled via the `Runtime="NET"` attribute in the `<UsingTask>` element:
+With the release of the .NET 10 SDK and Visual Studio 2026, MSBuild introduced support for a `.NET TaskHost`. This feature allows MSBuild to run tasks that must use a .NET runtime in a separate .NET process. This is enabled via the `Runtime="NET"` attribute in the `<UsingTask>` element:
 
 ```xml
 <UsingTask TaskName="MyNetTask"
@@ -137,18 +137,25 @@ With the release of the .NET 10 SDK and Visual Studio 2026, MSBuild introduced s
 ```
 
 When this attribute is set:
-- MSBuild automatically manages a pool of .NET TaskHost process and executes the specified task on a node in that pool.
+- MSBuild automatically manages a pool of .NET TaskHost processes and executes the specified task on a node in that pool.
 - Tasks can take advantage of APIs or libraries exclusive to modern .NET runtimes.
 - Isolation protects the build process from dependency or version conflicts.
 
 > [!WARNING]
-> This `.NET TaskHost` capability using `Runtime="NET"` is only available in projects that use the Microsoft.NET.Sdk **version 10 or higher** and/or **Visual Studio 2026 and later** (version 18 or higher). It is **not** supported in earlier SDKs, earlier Visual Studio versions, or in projects based on other SDKs. Attempting to use `Runtime="NET"` in these contexts may result in build failures or ignored settings.
+> This `.NET TaskHost` capability using `Runtime="NET"` is supported starting in MSBuild 18.0 (.NET SDK 10 / Visual Studio 2026) and is currently only supported for projects using `Microsoft.NET.Sdk`.
 
-Attempting to use the .NET TaskHost feature with a .NET SDK before 10.0.100 results in errors for your users when they build. To prevent this, you can do a version check to determine if the feature is safe to use. Here's, we'll use a version-comparison MSBuild Property Function to see if the current build is happening in a version greater than or equal to 10.0.100, and if so use the `NET` Runtime. Otherwise, if we're below SDK version 10.0.100 and running on the .NET Framework version of MSBuild, then we'll use a .NET Framework Task implementation instead.
+If you ship targets that need to work with older MSBuild toolsets, you can conditionally select a `UsingTask` definition based on the current MSBuild version (and, when applicable, `$(MSBuildRuntimeType)`):
 
 ```xml
-<UsingTask .... AssemblyFile="my/netcore/tasks.dll" Runtime="NET" Condition="$([MSBuild]::VersionGreaterThanOrEquals('$(SdkAnalysisLevel)', '10.0.100'))" />
-<UsingTask .... AssemblyFile="my/netframework/tasks.dll" Condition="!$([MSBuild]::VersionGreaterThanOrEquals('$(SdkAnalysisLevel)', '10.0.100')) and $(MSBuildRuntimeType) == 'Full' " />
+<UsingTask TaskName="MyTask"
+           Runtime="NET"
+           AssemblyFile="my/net/tasks.dll"
+           Condition="$([MSBuild]::VersionGreaterThanOrEquals('$(MSBuildVersion)', '18.0'))" />
+
+<UsingTask TaskName="MyTask"
+           Runtime="CLR4"
+           AssemblyFile="my/netframework/tasks.dll"
+           Condition="!$([MSBuild]::VersionGreaterThanOrEquals('$(MSBuildVersion)', '18.0')) and '$(MSBuildRuntimeType)' == 'Full'" />
 ```
 
 ### Why Use the .NET TaskHost?
