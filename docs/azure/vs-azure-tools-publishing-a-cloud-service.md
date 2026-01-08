@@ -18,7 +18,7 @@ Visual Studio can publish an application directly to Azure, with support for bot
 
 ## Prerequisites
 
-- Visual Studio (see [Visual Studio downloads] (https://aka.ms/vs/download/?cid=learn-onpage-download-cta)) with the **Azure development** workload installed, and the Individual Component **.NET Framework project and item templates** installed. See [Modify Visual Studio](../install/modify-visual-studio.md).
+- Visual Studio (see [Visual Studio downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-cta)) with the **Azure development** workload installed, and the Individual Component **.NET Framework project and item templates** installed. See [Modify Visual Studio](../install/modify-visual-studio.md).
 - [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
 
 ## Publish or package an Azure application from Visual Studio
