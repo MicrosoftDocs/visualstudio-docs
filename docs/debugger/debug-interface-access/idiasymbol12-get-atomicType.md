@@ -1,7 +1,7 @@
 ---
-title: IDiaSymbol13::get_atomicType
+title: IDiaSymbol12::get_atomicType
 description: Retrieves whether the symbol represents a C11 _Atomic type.
-ms.date: 12/08/2025
+ms.date: 1/08/2026
 ms.topic: reference
 helpviewer_keywords:
   - "IDiaSymbol13::get_atomicType"
@@ -13,9 +13,9 @@ manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
 
-# IDiaSymbol13::get_atomicType
+# IDiaSymbol12::get_atomicType
 
-Determines if the symbol represents a C11 `_Atomic` type. This property is part of the **IDiaSymbol13** interface.
+Determines if the symbol represents a C11 `_Atomic` type. This property is part of the **IDiaSymbol12** interface.
 
 ## Syntax
 
@@ -43,9 +43,9 @@ This property is relevant for compilers and toolchains that emit `_Atomic` type 
 
 If the symbol doesn't represent a C11 `_Atomic` type, the method returns `S_FALSE` and doesn't modify `pIsAtomic`.
 
-To access this property, obtain the `IDiaSymbol13` interface by calling `QueryInterface` on an existing `IDiaSymbol13` instance.
+To access this property, obtain the `IDiaSymbol12` interface by calling `QueryInterface` on an existing `IDiaSymbol12` instance.
 
 ## See also
 
-- [`IDiaSymbol13`](../../debugger/debug-interface-access/idiasymbol12.md)
+- [`IDiaSymbol12`](../../debugger/debug-interface-access/idiasymbol12.md)
 - [`DiaTagValue`](../../debugger/debug-interface-access/diatagvalue.md)
