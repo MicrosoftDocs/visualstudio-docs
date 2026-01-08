@@ -31,7 +31,7 @@ landingContent:
             url: overview-connected-services.md
       - linkListType: tutorial
         links:
-          - text: Active Directory
+          - text: Microsoft Entra ID
             url: /azure/active-directory/develop/vs-active-directory-add-connected-service
           - text: Azure Cache for Redis
             url: azure-cache-for-redis-add-connected-service.md
