@@ -89,7 +89,7 @@ The following options are available in the **C/C++** > **IntelliSense** > **Quic
 
 - **Show help link**: When selected (default), IntelliSense supports linking to online searches on the Quick Info tooltip. <!-- VS 22 = Enable Help Link on Quick Info -->
 
-- **Use web search for help link**: When selected (default), IntelliSense launches a web search with the specified search provider to support online searches in the Quick Info tooltip. If you disable (False) the option, IntelliSense supports **F1** Help. <!-- VS 22 = Use Web Search on Quick Info Help Link -->
+- **Use web search for help link**: When selected (default), IntelliSense launches a web search with the specified search provider to support online searches in the Quick Info tooltip. If you disable (**False**) the option, IntelliSense supports **F1** Help. <!-- VS 22 = Use Web Search on Quick Info Help Link -->
 
 - **URL used for web searches**: Use the option to specify the URL to target for online help on errors. By default, the value is set to `https://www.bing.com/search?q={0}`. When you access the link from the IDE, IntelliSense replaces the `{0}` portion of the link with the token or error string from the tooltip. <!-- VS 22 = Search Provider -->
 
@@ -144,7 +144,7 @@ General options to configure browsing and navigation are available in the **C/C+
 > Earlier versions of Visual Studio provide **Browsing/Navigation** options under the **Text Editor** > **C/C++** > **Advanced** section.
 
 > [!IMPORTANT]
-> The following options are disabled by default (False) and the recommendation is to leave them unchanged.
+> The following options are disabled by default (**False**) and the recommendation is to leave them unchanged.
 > In the rare case where a solution is so large that the database activity consumes an unacceptable amount of system resources, enable the necessary options only.
 
 - **Cache code browsing information**: When selected (default), the code browsing database (SDF), all browsing and navigation options, and all IntelliSense features are available.
@@ -187,7 +187,7 @@ General options to configure browsing and navigation are available in the **C/C+
 
    When selected (default), Visual Studio supports fuzzy navigation to current declarations and definitions. If you clear this option, you can't jump to a current declaration or definition from an older reference based on an outdated signature.
 
-- **Save code browsing information for external dependencies**: A project contains source files and header files that are explicitly specified. These files can contain references to other files that are external to the project (for example, _afxwin.h_, _windows.h_, and _atlbase.h_). The external files are referred to _dependencies_ or _implicit files_.  
+- **Save code browsing information for external dependencies**: A project contains source files and header files that are explicitly specified. These files can contain references to other files that are external to the project (for example, `afxwin.h`, `windows.h`, and `atlbase.h`). The external files are referred to _dependencies_ or _implicit files_.  
 
    When selected (default), the code browsing database collects data for the external dependencies that aren't specified in a project. The system finds these files and also indexes them for various browsing features (including Navigate To). 
 
@@ -199,7 +199,7 @@ General options to configure browsing and navigation are available in the **C/C+
 
 <a name="scan-external-dependencies"></a>
 
-- **Periodically scan external dependencies and remove data for files that are no longer included from the code browsing database**: When selected (default), Visual Studio periodically scans the external dependencies and removes data for unused files from the code browsing database. This option ensures implicit files are removed from the database when they're no longer used. For example, if you add an `#include` directive that references the _mapi.h_ header to a source file, the _mapi.h_ file is found and indexed. If you later remove the `#include` syntax, and the header file isn't referenced elsewhere, Visual Studio detects the unused file and removes the related date from the database.
+- **Periodically scan external dependencies and remove data for files that are no longer included from the code browsing database**: When selected (default), Visual Studio periodically scans the external dependencies and removes data for unused files from the code browsing database. This option ensures implicit files are removed from the database when they're no longer used. For example, if you add an `#include` directive that references the `mapi.h` header to a source file, the `mapi.h` file is found and indexed. If you later remove the `#include` syntax, and the header file isn't referenced elsewhere, Visual Studio detects the unused file and removes the related date from the database.
 
    If you clear this option, Visual Studio doesn't complete the period scans or updates to the database.
 

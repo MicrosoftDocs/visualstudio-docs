@@ -165,7 +165,7 @@ The following options configure various IntelliSense features.
 
 - **Auto Quick Info**: When enabled (default), QuickInfo tooltips display when you move the mouse pointer over text.
 
-- **Disable IntelliSense**: When enabled, all IntelliSense features are disabled. The IDE doesn't create _VCPkgSrv.exe_ processes to service IntelliSense requests, and no IntelliSense features work (QuickInfo, Member List, Auto Complete, Param Help). Semantic colorization and reference highlighting are also disabled. This option doesn't disable browsing features that rely solely on the database (including the Navigation Bar, ClassView, and Property window).
+- **Disable IntelliSense**: When enabled, all IntelliSense features are disabled. The IDE doesn't create `VCPkgSrv.exe` processes to service IntelliSense requests, and no IntelliSense features work (QuickInfo, Member List, Auto Complete, Param Help). Semantic colorization and reference highlighting are also disabled. This option doesn't disable browsing features that rely solely on the database (including the Navigation Bar, ClassView, and Property window).
 
 <a name="disable-auto-updating"></a>
 
@@ -244,7 +244,7 @@ The following options configure various IntelliSense features.
 
 - **Enable Member List Dot-To-Arrow**: When enabled (default), after IntelliSense commits an item, it replaces `.` with an arrow `->`.
 
-- **Disable Automatic Precompiled Header**: When enabled, IntelliSense doesn't use an automatic precompiled header. Precompiled headers might speed up some IntelliSense operations, but the size of the solution cache on the hard drive increases.
+- **Disable Automatic Precompiled Header**: When enabled, IntelliSense doesn't use an _Automatic Precompiled Header_. Precompiled headers might speed up some IntelliSense operations, but the size of the solution cache on the hard drive increases.
 
 - **Automatic Precompiled Header Cache Quota**: Use this option to specify the maximum size of the per-solution cache in megabytes. The actual usage might fluctuate around the specified value.
 
