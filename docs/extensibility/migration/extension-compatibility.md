@@ -88,7 +88,7 @@ Even if no changes are expected, test your extension on Visual Studio
 - Platform issues.
 - Unsupported API usage.
 
-If you hit a platform issue, report it with [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio.md) in
+If you hit a platform issue, report it with [Report a Problem](../../ide/how-to-report-a-problem-with-visual-studio.md) in
 Visual Studio.
 
 ## MSI-based extensions
