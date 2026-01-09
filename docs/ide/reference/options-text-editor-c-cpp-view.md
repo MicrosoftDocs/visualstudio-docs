@@ -24,7 +24,7 @@ You can access the settings by selecting **Tools** > **Options** from the Visual
 :::moniker-end
 :::moniker range="visualstudio"
 
-The options under **Text Editor** > **C/C++** > **View** are moved to other locations in Visual Studio 2026:
+The options under **Text Editor** > **C/C++** > **View** moved to other locations in Visual Studio 2026:
 
 | Visual Studio 2022 | Visual Studio 2026 |
 |---|---|
@@ -68,7 +68,7 @@ You can enable or disable the following settings to manage the way in which text
 
 - **Highlight Matching Tokens**: Highlight enclosing braces or syntax that match where the cursor is positioned.
 
-- **Color Scheme**: Various default color schemes for the C/C++ specific customizable colors.
+- **Color Scheme**: Various default color schemes for the C and C++ specific customizable colors.
 
 ## Outlining
 

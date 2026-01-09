@@ -1,6 +1,6 @@
 ---
 title: Configure IntelliSense Options for C and C++
-description: Configure IntelliSense language settings for C and C++ in the Tools Options pane. Change options for tooltips, browsing and navigation, references, refactoring diagnostic logging, non-project files, and more.
+description: Configure IntelliSense language settings for C and C++ in the Tools Options pane. Change options for tooltips, browsing and navigation, references, refactoring diagnostic logging, nonproject files, and more.
 ms.date: 01/09/2026
 ms.topic: how-to
 helpviewer_keywords:
@@ -8,14 +8,14 @@ helpviewer_keywords:
 ms.custom: "ide-ref"
 author: GitHubber17
 ms.author: twhitney
-manager: coxford
+manager: coxfordf
 monikerRange: 'visualstudio'
 ---
 # Configure Languages > C/C++ > IntelliSense options
 
 This article describes how to modify IntelliSense settings for C and C++. You can access the settings by selecting **Tools** > **Options** from the Visual Studio menu bar and expanding the **All Settings** > **Languages** > **C/C++** > **IntelliSense** section.
 
-These options let you define the IntelliSense behavior for C and C++. Configure tooltips, browsing and navigation, references, refactoring, diagnostic logging, non-project files, and more.
+These options let you define the IntelliSense behavior for C and C++. Configure tooltips, browsing and navigation, references, refactoring, diagnostic logging, nonproject files, and more.
 
 ## General options
 
@@ -285,7 +285,7 @@ The following options are available in the **C/C++** > **IntelliSense** > **Inla
 
 ## Non-project files
 
-Options to configure IntelliSense for standalone, non-project files are available in the **C/C++** > **IntelliSense** > **Non-project files** section.
+Options to configure IntelliSense for standalone, nonproject files are available in the **C/C++** > **IntelliSense** > **Non-project files** section.
 
 > [!NOTE]
 > Earlier versions of Visual Studio provide **IntelliSense and Browsing for Non-Project Files** options under the **Text Editor** > **C/C++** > **Advanced** section.
@@ -298,11 +298,11 @@ Options to configure IntelliSense for standalone, non-project files are availabl
 
 <a name="show-intellisense-errors-in-the-editor"></a>
 
-- **Show IntelliSense errors in the editor**: When selected, IntelliSense displays squiggles for errors in standalone non-project files. By default, this option is cleared. When the **Enable IntelliSense for standalone files that aren't part of an existing project** option is cleared, this option is ignored and unavailable for manual selection.
+- **Show IntelliSense errors in the editor**: When selected, IntelliSense displays squiggles for errors in standalone nonproject files. By default, this option is cleared. When the **Enable IntelliSense for standalone files that aren't part of an existing project** option is cleared, this option is ignored and unavailable for manual selection.
 
 <a name="show-intellisense-errors-in-the-error-list"></a>
 
-- **Show IntelliSense errors in the error list**: When selected, IntelliSense errors from standalone non-project files display in the Error List window. By default, this option is cleared. When the **Enable IntelliSense for standalone files that aren't part of an existing project** option is cleared, this option is ignored and unavailable for manual selection.
+- **Show IntelliSense errors in the error list**: When selected, IntelliSense errors from standalone nonproject files display in the Error List window. By default, this option is cleared. When the **Enable IntelliSense for standalone files that aren't part of an existing project** option is cleared, this option is ignored and unavailable for manual selection.
 
 <a name="suspend-enabing-intellisense-for-newly-opened-files-while-debugging"></a>
 
@@ -310,7 +310,7 @@ Options to configure IntelliSense for standalone, non-project files are availabl
 
 ## References
 
-Options to support references for C/C++ projects are available in the **C/C++** > **IntelliSense** > **References** section.
+Options to support references for C and C++ projects are available in the **C/C++** > **IntelliSense** > **References** section.
 
 > [!NOTE]
 > Earlier versions of Visual Studio provide **References** options under the **Text Editor** > **C/C++** > **Advanced** section.
@@ -325,7 +325,7 @@ Options to support references for C/C++ projects are available in the **C/C++** 
 
 ## Diagnostic logging
 
-Options to support diagnostic logging for C/C++ are available in the **C/C++** > **IntelliSense** > **Diagnostic logging** section.
+Options to support diagnostic logging for C and C++ are available in the **C/C++** > **IntelliSense** > **Diagnostic logging** section.
 
 > [!NOTE]
 > Earlier versions of Visual Studio provide **Diagnostic Logging** options under the **Text Editor** > **C/C++** > **Advanced** section.
