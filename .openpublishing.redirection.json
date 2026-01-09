@@ -21216,6 +21216,16 @@
       "source_path": "docs/debugger/dataset-visualizer-dialog-box.md",
       "redirect_url": "/visualstudio/debugger/view-data-in-tabular-visualizer",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/symbol-load-information-dialog-box.md",
+      "redirect_url": "/visualstudio/debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/when-breakpoint-is-hit-dialog-box.md",
+      "redirect_url": "/visualstudio/debugger/using-breakpoints",
+      "redirect_document_id": false
     }
   ]
 }

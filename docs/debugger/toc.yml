@@ -598,10 +598,6 @@
       href: stop-debugging-in-progress-dialog-box.md
     - name: String Visualizer dialog box
       href: string-visualizer-dialog-box.md
-    - name: Symbol Load Information dialog box
-      href: symbol-load-information-dialog-box.md
-    - name: When Breakpoint Is Hit dialog box
-      href: when-breakpoint-is-hit-dialog-box.md
     - name: Debugging Errors and Warning
       items:
       - name: Debugging Errors and Warning dialog box

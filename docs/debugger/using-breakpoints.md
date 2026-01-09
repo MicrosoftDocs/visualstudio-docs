@@ -15,6 +15,7 @@ f1_keywords:
   - vs.debug.breakpt.action
   - vs.debug.data
   - vs.debug.func
+  - vs.debug.whenbreakpointishit
 helpviewer_keywords: 
   - breakpoints, types of
 author: mikejo5000
