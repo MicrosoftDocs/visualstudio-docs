@@ -21211,6 +21211,11 @@
       "source_path": "docs/debugger/configure-firewall-for-remote-debugging-dialog-box.md",
       "redirect_url": "/visualstudio/debugger/configure-the-windows-firewall-for-remote-debugging",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/dataset-visualizer-dialog-box.md",
+      "redirect_url": "/visualstudio/debugger/view-data-in-tabular-visualizer",
+      "redirect_document_id": false
     }
   ]
 }

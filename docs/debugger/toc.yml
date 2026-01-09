@@ -580,8 +580,6 @@
   items:
   - name: Debugging User Interface Reference
     items:
-    - name: Configure Firewall for Remote Debugging dialog box
-      href: configure-firewall-for-remote-debugging-dialog-box.md
     - name: Debugging, Options
       items:
       - name: Debugging, Options dialog box
@@ -592,8 +590,6 @@
         href: just-in-time-debugging-options-dialog-box.md
       - name: Output Window, Debugging, Options dialog box
         href: output-window-debugging-options-dialog-box.md
-    - name: Dataset Visualizer dialog box
-      href: dataset-visualizer-dialog-box.md
     - name: Debug Source Files, Common Properties, Solution Property Pages dialog box
       href: debug-source-files-common-properties-solution-property-pages-dialog-box.md
     - name: Edit and Continue dialog box
