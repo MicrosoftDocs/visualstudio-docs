@@ -21201,6 +21201,16 @@
       "source_path": "docs/debugger/debugging-user-interface-reference.md",
       "redirect_url": "/visualstudio/debugger/find-your-debugging-task",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/choose-breakpoints-dialog-box.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/debugger/choose-breakpoints-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/configure-firewall-for-remote-debugging-dialog-box.md",
+      "redirect_url": "/visualstudio/debugger/configure-the-windows-firewall-for-remote-debugging",
+      "redirect_document_id": false
     }
   ]
 }
