@@ -594,8 +594,6 @@
       href: debug-source-files-common-properties-solution-property-pages-dialog-box.md
     - name: Problem Details window
       href: ../ide/reference/problem-details-window.md
-    - name: Select Code Type dialog box
-      href: select-code-type-dialog-box.md
     - name: Stop Debugging In Progress dialog box
       href: stop-debugging-in-progress-dialog-box.md
     - name: String Visualizer dialog box
