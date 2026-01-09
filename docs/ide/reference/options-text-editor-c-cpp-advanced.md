@@ -304,9 +304,9 @@ The following options configure automatic formatting actions in the code editor 
 
 - **Format After Auto Surround**: When enabled, Visual Studio formats the code syntax within the enclosed section after the selection is automatically surrounded. The default is **True**.
 
-- **Expand Selection for Surround Scopes**: When enabled, if you surround a selection that appears within a brace scope `{ ... }`, the surround expands to the complete line. The default is **True**.
+- **Expand Selection for Surround Scopes**: When enabled, if you surround a selection that appears within a brace scope `{ ... }`, the surround expands to the whole line. The default is **True**.
 
-   If your selection doesn't start and end on complete lines, Visual Studio automatically expands the selection to full lines before inserting `{ ... }`. This approach avoids wrapping partial lines within the braces.
+   If your selection doesn't start and end on whole lines, Visual Studio automatically expands the selection to whole lines before inserting `{ ... }`. This approach avoids wrapping partial lines within the braces.
 
 ## Related content
 
