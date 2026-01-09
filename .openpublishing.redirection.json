@@ -21196,6 +21196,11 @@
       "source_path": "docs/ide/reference/toolbox.md",
       "redirect_url": "/visualstudio/ide/toolbox",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/debugging-user-interface-reference.md",
+      "redirect_url": "/visualstudio/debugger/find-your-debugging-task",
+      "redirect_document_id": false
     }
   ]
 }

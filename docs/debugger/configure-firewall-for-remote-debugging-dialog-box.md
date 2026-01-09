@@ -43,4 +43,3 @@ This dialog box appears when the Windows Firewall blocks the debugger from recei
 
 - [Debugger Security](../debugger/debugger-security.md)
 - [Remote Debugging](../debugger/remote-debugging.md)
-- [Debugging User Interface Reference](../debugger/debugging-user-interface-reference.md)

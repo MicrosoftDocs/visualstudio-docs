@@ -4,6 +4,8 @@ metadata:
   description: Review frequently asked questions to help you identify the Visual Studio debugger feature to help you debug your application.
   ms.date: "11/22/2024"
   ms.topic: faq
+  f1_keywords:
+  - "vs.debug.uiref"
   helpviewer_keywords:
     - "debugging [Visual Studio], find your feature"
   author: "mikejo5000"
