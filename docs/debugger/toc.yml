@@ -580,8 +580,6 @@
   items:
   - name: Debugging User Interface Reference
     items:
-    - name: Choose Breakpoints dialog box
-      href: choose-breakpoints-dialog-box.md
     - name: Configure Firewall for Remote Debugging dialog box
       href: configure-firewall-for-remote-debugging-dialog-box.md
     - name: Debugging, Options
