@@ -3,10 +3,6 @@ title: Configure Advanced Language Options for C/C++
 description: Configure advanced language settings for C/C++ in the Tools Options pane. Change behavior for the text editor and error lists, and configure settings for code analysis.
 ms.date: 01/09/2026
 ms.topic: how-to
-f1_keywords:
-  - "VS.ToolsOptionsPages.Languages.C\\C++.Advanced"
-  - "VS.ToolsOptionsPages.Languages.C%2FC%2B%2B.Advanced"
-  - "VS.ToolsOptionsPages.Languages.C/C++.Advanced"
 helpviewer_keywords:
   - "Languages Options, advanced"
 ms.custom: "ide-ref"
@@ -17,7 +13,7 @@ monikerRange: 'visualstudio'
 ---
 # Configure Languages > C/C++ (Advanced options)
 
-This article describes how to configure advanced language settings for C/C++. You can access the settings by selecting **Tools** > **Options** from the Visual Studio menu bar and expanding the **All Settings** > **Languages** > **C/C++** section.
+This article describes how to configure advanced language settings for C and C++. You can access the settings by selecting **Tools** > **Options** from the Visual Studio menu bar and expanding the **All Settings** > **Languages** > **C/C++** section.
 
 These options let you define the behavior for code analysis, error lists, and programming C/C++ in the text editor.
 

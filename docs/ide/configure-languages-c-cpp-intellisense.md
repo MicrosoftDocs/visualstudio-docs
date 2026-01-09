@@ -1,12 +1,8 @@
 ---
-title: Configure IntelliSense Options for C/C++
-description: Configure IntelliSense language settings for C/C++ in the Tools Options pane. Change options for tooltips, browsing and navigation, references, refactoring diagnostic logging, nonproject files, and more.
+title: Configure IntelliSense Options for C and C++
+description: Configure IntelliSense language settings for C and C++ in the Tools Options pane. Change options for tooltips, browsing and navigation, references, refactoring diagnostic logging, nonproject files, and more.
 ms.date: 01/09/2026
 ms.topic: how-to
-f1_keywords:
-  - "VS.ToolsOptionsPages.Languages.C\\C++.IntelliSense"
-  - "VS.ToolsOptionsPages.Languages.C%2FC%2B%2B.IntelliSense"
-  - "VS.ToolsOptionsPages.Languages.C/C++.IntelliSense"
 helpviewer_keywords:
   - "Languages Options, IntelliSense"
 ms.custom: "ide-ref"
@@ -17,9 +13,9 @@ monikerRange: 'visualstudio'
 ---
 # Configure Languages > C/C++ > IntelliSense options
 
-This article describes how to modify IntelliSense settings for C/C++. You can access the settings by selecting **Tools** > **Options** from the Visual Studio menu bar and expanding the **All Settings** > **Languages** > **C/C++** > **IntelliSense** section.
+This article describes how to modify IntelliSense settings for C and C++. You can access the settings by selecting **Tools** > **Options** from the Visual Studio menu bar and expanding the **All Settings** > **Languages** > **C/C++** > **IntelliSense** section.
 
-These options let you define the IntelliSense behavior for programming C/C++. Configure tooltips, browsing and navigation, references, refactoring, diagnostic logging, nonproject files, and more.
+These options let you define the IntelliSense behavior for C and C++. Configure tooltips, browsing and navigation, references, refactoring, diagnostic logging, nonproject files, and more.
 
 ## General options
 
@@ -60,7 +56,7 @@ The following options are available in the **C/C++** > **IntelliSense** section.
 
 - **Expand snippets when tab is pressed**: When selected (default), IntelliSense expands a snippet when you select **Tab**, regardless of whether the member list is shown. One exception for this behavior is when the shortcut key is assigned to the `Edit.InvokeSnippetFromShortcut` action. <!-- VS 22 = Use Tab to Insert Snippet -->
 
-- **Enable IntelliSense for C+ +20 modules**: When selected (default), IntelliSense displays various IDE features for C+ +20 Modules, such as automatic building of required modules. <!-- VS 22 = Disable Modules -->
+- **Enable IntelliSense for C++20 modules**: When selected (default), IntelliSense displays various IDE features for C++20 Modules, such as automatic building of required modules. <!-- VS 22 = Disable Modules -->
 
 - **Enable IntelliSense for inactive platforms in folders and shared assets projects**: When selected (default), IntelliSense features are enabled for inactive platforms in folders and shared assets projects. <!-- VS 22 = Disable IntelliSense for Inactive Platforms -->
 
