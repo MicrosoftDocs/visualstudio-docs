@@ -28,7 +28,7 @@ Options to support C/C++ code analysis are available in the **C/C++** > **Code a
 
 - **Show code analysis warnings in the editor**: When selected (default), Visual Studio shows squiggles for C++ code analysis warnings in the editor. Changing this setting affects new windows, not windows that are currently open.
 
-= **Enable diagnostic logging for C++ background code analysis**: When selected, Visual Studio provides diagnostic logging during C++ background code analysis. By default, this option isn't selected.
+- **Enable diagnostic logging for C++ background code analysis**: When selected, Visual Studio provides diagnostic logging during C++ background code analysis. By default, this option isn't selected.
 
 ## Error list
 

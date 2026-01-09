@@ -48,7 +48,7 @@ The following options are available in the **C/C++** > **IntelliSense** section.
 
 - **Show completion list for #include statements**: When selected (default), IntelliSense provides an autocompletion list for `#include` statements. <!-- VS 22 = Disable #include Auto Complete -->
 
-**Use forward slash as the folder delimiter for #include completion statements**: When selected (default), IntelliSense autocompletes `#include` statements when you specify the forward slash `/`. The default delimiter is backslash `\`. The compiler can accept either character, so use this option to indicate whether to use the forward slash for your code base. <!-- VS 22 = Use Forward Slash in #include Auto Complete -->
+- **Use forward slash as the folder delimiter for #include completion statements**: When selected (default), IntelliSense autocompletes `#include` statements when you specify the forward slash `/`. The default delimiter is backslash `\`. The compiler can accept either character, so use this option to indicate whether to use the forward slash for your code base. <!-- VS 22 = Use Forward Slash in #include Auto Complete -->
 
    When the **Show completion list for #include statements** option isn't selected, this option isn't available.
 
@@ -72,7 +72,7 @@ The following options are available in the **C/C++** > **IntelliSense** section.
 
 - **Maximum total memory usage of an IntelliSense process in megabytes**: Use this setting to specify the maximum total memory usage of an IntelliSense process in megabytes. <!-- VS 22 = IntelliSense Process Memory Limit -->
 
-**Display a bar in the editor to configure IntelliSense inside templates**: When selected (default), if the cursor is active within a template body, IntelliSense displays a bar in the editor that you can use to configure the IntelliSense attributes for the template. <!-- VS 22 = Enable Template IntelliSense -->
+- **Display a bar in the editor to configure IntelliSense inside templates**: When selected (default), if the cursor is active within a template body, IntelliSense displays a bar in the editor that you can use to configure the IntelliSense attributes for the template. <!-- VS 22 = Enable Template IntelliSense -->
 
 - **Style for #include suggestions**: Use this option to specify the style for IntelliSense to use when providing suggestions for `#include` statements. Choose from **Core Guidelines** (default), **Quotes**, or **Angle brackets**.
 
