@@ -1,7 +1,7 @@
 ---
 title: Get started with unit testing
 description: Use Visual Studio to define and run unit tests to maintain code health, and to find errors and faults before your customers do.
-ms.date: 01/21/2025
+ms.date: 01/07/2026
 ms.topic: tutorial
 helpviewer_keywords:
 - unit testing, create unit test plans
@@ -56,10 +56,16 @@ This section describes how to create a unit test project.
 
    Type **test** in the search box to find a unit test project template for the test framework you want to use, such as **MSTest** (C#) or the **Native Unit Test** project (C++), and select it.
 
-   Starting in Visual Studio 2017 version 14.8, the .NET languages include built-in templates for NUnit and xUnit. For C++, in this example select the **Native Unit Test** project, which uses Microsoft Native Unit Test Framework. (To use a different C++ test framework, see [Writing unit tests for C/C++](../test/writing-unit-tests-for-c-cpp.md)). For Python, see [Set up unit testing in Python code](../python/unit-testing-python-in-visual-studio.md) to set up your test project.
+   The .NET languages in Visual Studio include built-in templates for NUnit and xUnit. For C++, in this example select the **Native Unit Test** project, which uses Microsoft Native Unit Test Framework. (To use a different C++ test framework, see [Writing unit tests for C/C++](../test/writing-unit-tests-for-c-cpp.md)). For Python, see [Set up unit testing in Python code](../python/unit-testing-python-in-visual-studio.md) to set up your test project.
 
+   ::: moniker range="visualstudio"
    > [!TIP]
-   > For C# only, you can create unit test projects from code using a faster method. For more information, see [Create unit test projects and test methods](../test/unit-test-basics.md#create-unit-test-projects-and-test-methods-c). To use this method with .NET Core or .NET Standard, Visual Studio 2019 or later is required.
+   > This article describes how to manually create unit tests. If you would like to generate tests automatically from existing code, see [Generate and run unit tests using GitHub Copilot testing for .NET](../test/unit-testing-with-github-copilot-test-dotnet.md), or for other languages, see [Use slash commands in GitHub Copilot](../ide/copilot-chat-context.md#slash-commands)
+   ::: moniker-end
+   ::: moniker range="<= vs-2022"
+   > [!TIP]
+   > This article describes how to manually create unit tests. If you would like to generate tests automatically from existing code, see [Create C# unit test method stubs from code](../test/create-unit-tests-menu.md), or for other languages, see [Use slash commands in GitHub Copilot](../ide/copilot-chat-context.md#slash-commands)
+   ::: moniker-end
 
    The following illustration shows an MSTest unit test, which is supported in .NET.
 
