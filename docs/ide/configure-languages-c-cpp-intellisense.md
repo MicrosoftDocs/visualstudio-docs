@@ -1,6 +1,6 @@
 ---
 title: Configure IntelliSense Options for C and C++
-description: Configure IntelliSense language settings for C and C++ in the Tools Options pane. Change options for tooltips, browsing and navigation, references, refactoring diagnostic logging, nonproject files, and more.
+description: Configure IntelliSense language settings for C and C++ in the Tools Options pane. Change options for tooltips, browsing and navigation, references, refactoring diagnostic logging, non-project files, and more.
 ms.date: 01/09/2026
 ms.topic: how-to
 helpviewer_keywords:
@@ -15,7 +15,7 @@ monikerRange: 'visualstudio'
 
 This article describes how to modify IntelliSense settings for C and C++. You can access the settings by selecting **Tools** > **Options** from the Visual Studio menu bar and expanding the **All Settings** > **Languages** > **C/C++** > **IntelliSense** section.
 
-These options let you define the IntelliSense behavior for C and C++. Configure tooltips, browsing and navigation, references, refactoring, diagnostic logging, nonproject files, and more.
+These options let you define the IntelliSense behavior for C and C++. Configure tooltips, browsing and navigation, references, refactoring, diagnostic logging, non-project files, and more.
 
 ## General options
 
@@ -283,9 +283,9 @@ The following options are available in the **C/C++** > **IntelliSense** > **Inla
 
 - **Don't show a hint when the argument text (including inline comments) contains the parameter name**: When selected (default), IntelliSense doesn't show a hint when the argument text contains the parameter name, including when the text appears within inline comments. When the **Show parameter name inline at call sites** option isn't selected, this option isn't available for selection.
 
-## Nonproject files
+## Non-project files
 
-Options to configure IntelliSense for standalone, nonproject files are available in the **C/C++** > **IntelliSense** > **Non-project files** section.
+Options to configure IntelliSense for standalone, non-project files are available in the **C/C++** > **IntelliSense** > **Non-project files** section.
 
 > [!NOTE]
 > Earlier versions of Visual Studio provide **IntelliSense and Browsing for Non-Project Files** options under the **Text Editor** > **C/C++** > **Advanced** section.
@@ -298,11 +298,11 @@ Options to configure IntelliSense for standalone, nonproject files are available
 
 <a name="show-intellisense-errors-in-the-editor"></a>
 
-- **Show IntelliSense errors in the editor**: When selected, IntelliSense displays squiggles for errors in standalone nonproject files. By default, this option is cleared. When the **Enable IntelliSense for standalone files that aren't part of an existing project** option is cleared, this option is ignored and unavailable for manual selection.
+- **Show IntelliSense errors in the editor**: When selected, IntelliSense displays squiggles for errors in standalone non-project files. By default, this option is cleared. When the **Enable IntelliSense for standalone files that aren't part of an existing project** option is cleared, this option is ignored and unavailable for manual selection.
 
 <a name="show-intellisense-errors-in-the-error-list"></a>
 
-- **Show IntelliSense errors in the error list**: When selected, IntelliSense errors from standalone nonproject files display in the Error List window. By default, this option is cleared. When the **Enable IntelliSense for standalone files that aren't part of an existing project** option is cleared, this option is ignored and unavailable for manual selection.
+- **Show IntelliSense errors in the error list**: When selected, IntelliSense errors from standalone non-project files display in the Error List window. By default, this option is cleared. When the **Enable IntelliSense for standalone files that aren't part of an existing project** option is cleared, this option is ignored and unavailable for manual selection.
 
 <a name="suspend-enabing-intellisense-for-newly-opened-files-while-debugging"></a>
 
