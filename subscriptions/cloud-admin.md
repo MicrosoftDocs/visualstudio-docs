@@ -55,13 +55,13 @@ To add admins for your subscriptions:
    > [![Choose Role, User access admin](_img/cloud-admin/add-role-user-access-administrator.png "Screenshot of the Add role assignment dialog. The Prvileged administrator roles option and User Access Administrators role are highlighted.")](_img/cloud-admin/add-role-user-access-administrator.png#lightbox)
 9. Select **Next**.
 10. From the **Add role** assignment screen, under Members, select **Select members**.
-   > [!dvi class="mx-imgBorder"]
+   > [!div class="mx-imgBorder"]
    > [![Select member](_img/cloud-admin/select-member.png "Screenshot of the Add role assignment screen dialog. 'Members' and 'Select members' are highlighted.")](_img/cloud-admin/select-member.png#lightbox)
 11. Choose the member you want to make an admin. 
-   > [!dvi class="mx-imgBorder"]
+   > [!div class="mx-imgBorder"]
    > [![Assign Access to member](_img/cloud-admin/assigned-access-revised.png "screenshot of the Select members list.")](_img/cloud-admin/assigned-access-revised.png#lightbox)
 12. To limit access, select **Conditions** and select from the options available in the **What user can do** section.
-   > [!dvi class="mx-imgBorder"]
+   > [!div class="mx-imgBorder"]
    > [![Choose conditions](_img/cloud-admin/select-conditions.png "Screenshot of Add role assignments screen dialog. 'Conditions' and 'What user can do' optinos are highlighted.")](_img/cloud-admin/select-conditions.png#lightbox)
 
 The recommended option is ***"Allow user to assign all roles except privileged administrator roles Owners, UAA, RBAC"***. One exception is when you need another Admin with "Owner" privileges. In this case, select ***"Allow user to assign all roles"***. (Role-base access control (RBAC))
