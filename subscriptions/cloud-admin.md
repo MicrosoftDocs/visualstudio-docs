@@ -38,28 +38,39 @@ As the owner of the Azure subscription used to purchase the monthly subscription
 To add admins for your subscriptions:
 
 1. Connect to the Azure portal at [portal.azure.com](https://portal.azure.com).
+
 2. Sign in with the account you used to purchase the Visual Studio monthly subscriptions.
+
 3. On the left pane, choose **Cost Management + Billing**.
    > [!div class="mx-imgBorder"]
    > [![Choose Cost Management + Billing in left pane](_img/cloud-admin/cost-management-and-billing.png "Screenshot of the left pane on the Azure portal. Cost Management and billing is highlighted.")](_img/cloud-admin/cost-management-and-billing.png#lightbox)
+
 4. Select **Subscriptions**, choose the Azure subscription that you used to make the purchase.
    > [!div class="mx-imgBorder"]
    > [![Choose subscription](_img/cloud-admin/select-subscriptions.png "Screenshot of the Subscriptions list in Azure Cost Management.")](_img/cloud-admin/select-subscriptions.png#lightbox)
+
 5. Select **Access control (IAM)**, which is located near the top of the list in the left navigation pane.
+
 6. Select **Add role assignment** in the "Grant access to this resource" tile.
    > [!div class="mx-imgBorder"]
    > [![Choose Access control](_img/cloud-admin/access-control-revised.png "Screenshot of the access control hightlighted. The Add role assignment button highlighted.")](_img/cloud-admin/access-control-revised.png#lightbox)
+
 7. In the **Add role assignment** screen, select "Privileged administrator roles.
+
 8. Choose **User Access Administrator** role from the list. 
    > [!div class="mx-imgBorder"]
    > [![Choose Role, User access admin](_img/cloud-admin/add-role-user-access-administrator.png "Screenshot of the Add role assignment dialog. The Prvileged administrator roles option and User Access Administrators role are highlighted.")](_img/cloud-admin/add-role-user-access-administrator.png#lightbox)
+
 9. Select **Next**.
+
 10. From the **Add role** assignment screen, under Members, select **Select members**.
    > [!div class="mx-imgBorder"]
    > [![Select member](_img/cloud-admin/select-member.png "Screenshot of the Add role assignment screen dialog. 'Members' and 'Select members' are highlighted.")](_img/cloud-admin/select-member.png#lightbox)
+
 11. Choose the member you want to make an admin. 
    > [!div class="mx-imgBorder"]
    > [![Assign Access to member](_img/cloud-admin/assigned-access-revised.png "screenshot of the Select members list.")](_img/cloud-admin/assigned-access-revised.png#lightbox)
+
 12. To limit access, select **Conditions** and select from the options available in the **What user can do** section.
    > [!div class="mx-imgBorder"]
    > [![Choose conditions](_img/cloud-admin/select-conditions.png "Screenshot of Add role assignments screen dialog. 'Conditions' and 'What user can do' optinos are highlighted.")](_img/cloud-admin/select-conditions.png#lightbox)
