@@ -196,7 +196,7 @@ When you want to modify the DSL definition, close the experimental instance and 
 
 You can make a wide variety of extensions to your DSL. The following examples will give you an impression of the possibilities.
 
-After each change, save the DSL definition, Click **Transform All T4 Templates** on the **Build** menu, and then press **F5** to experiment with the changed DSL.
+After each change, save the DSL definition, click **Transform All T4 Templates** on the **Build** menu, and then press **F5** to experiment with the changed DSL.
 
 ### Rename the Types and Tools
 
