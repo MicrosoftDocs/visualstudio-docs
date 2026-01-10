@@ -20,8 +20,8 @@ This video explains how Visual Studio **cloud subscriptions** use **Azure billin
 
 **Related resources**
 
-+ [Purchase Visual Studio cloud subscriptions](https://learn.microsoft.com/en-us/visualstudio/subscriptions/vscloud-overview)
-+ [Cloud subscriptions billing FAQ](https://learn.microsoft.com/en-us/visualstudio/subscriptions/vscloud-billing-faq)
++ [Purchase Visual Studio cloud subscriptions](https://learn.microsoft.com/visualstudio/subscriptions/vscloud-overview)
++ [Cloud subscriptions billing FAQ](https://learn.microsoft.com/visualstudio/subscriptions/vscloud-billing-faq)
 
 ## The Azure subscription owner is the first admin
 
@@ -90,7 +90,7 @@ For information about Visual Studio monthly subscriptions, see the [Overview](vs
 
 + [Purchase Visual Studio cloud subscriptions](https://learn.microsoft.com/visualstudio/subscriptions/vscloud-overview)
 + [Cloud subscriptions billing FAQ](https://learn.microsoft.com/visualstudio/subscriptions/vscloud-billing-faq)
-+ [Get started in the Admin Portal](https://learn.microsoft.com/visualstudio/subscriptions/using-admin-porta)
++ [Get started in the Admin Portal](https://learn.microsoft.com/visualstudio/subscriptions/using-admin-portal)
 
 ## Next steps
 
