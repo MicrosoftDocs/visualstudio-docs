@@ -37,12 +37,7 @@ You must have Visual Studio installed, with the following workloads:
 * **Desktop development with C++**
 * **.NET desktop development**
 ::: moniker-end
-::: moniker range="<=vs-2019"
-You must have Visual Studio installed, with the following workloads:
 
-* **Desktop development with C++**
-* **.NET desktop development** or **.NET Core cross platform development**, depending on the type of app that you want to create.
-::: moniker-end
 
 If you don't have Visual Studio, go to the [Visual Studio downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) page to install it for free.
 
@@ -58,9 +53,6 @@ If you have Visual Studio installed, but don't have the workloads you need, sele
     Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **Empty Project**, and then select the **Empty Project** for C++. In the **Configure your new project** dialog box that appears, type a name like **Mixed_Mode_Debugging** and click **Create**.
     ::: moniker-end
 
-    ::: moniker range="vs-2019"
-    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **Empty Project**, choose **Templates**, then choose **Empty Project** for C++. In the dialog box that appears, choose **Create**. Then, type a name like **Mixed_Mode_Debugging** and click **Create**.
-    ::: moniker-end
 
     If you don't see the **Empty Project** project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. The Visual Studio Installer launches. Choose the **Desktop development with C++** workload, then choose **Modify**.
 
@@ -134,13 +126,10 @@ If you have Visual Studio installed, but don't have the workloads you need, sele
     Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **console**, and then select the C# **Console App** for .NET or .NET Framework.
     ::: moniker-end
 
-    ::: moniker range="vs-2019"
-    Press **Esc** to close the start window. Type **Ctrl + Q** to open the search box, type **console**, choose **Templates**, and then choose **Console App** for .NET Core or **Console App (.NET Framework)** for C#. In the dialog box that appears, choose **Next**.
-    ::: moniker-end
 
     Then, type a name like **Mixed_Mode_Calling_App** and click **Next** or **Create**, whichever option is available.
 
-    For .NET Core or .NET 5+, choose either the recommended target framework or .NET 8, and then choose **Create**.
+    For .NET Core or .NET 5+, choose either the recommended target framework or .NET 10, and then choose **Create**.
 
     If you don't see the correct project template, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the correct .NET workload as described in the prerequisites, and then choose **Modify**.
 
@@ -198,11 +187,7 @@ If you have Visual Studio installed, but don't have the workloads you need, sele
 
     On the left menu, select **Debug**. Then, in the **Debugger engines** section, select the **Enable native code debugging** property, and then close the properties page to save the changes.
     ::: moniker-end
-    ::: moniker range="<=vs-2019"
-    Select **Debug** in the left pane, select the **Enable native code debugging** check box, and then close the properties page to save the changes.
 
-    ![Enable mixed mode debugging](../debugger/media/mixed-mode-enable-native-code-debugging.png)
-    ::: moniker-end
 
 1. If you are targeting an x64 DLL from a .NET Framework app, change the platform target from **Any CPU** to x64. To do this, you may need to select **Configuration Manager** from the Debug toolbar's Solution Platform drop-down. Then, if you can't switch to x64 directly, create a **New** Configuration that targets x64.
 
@@ -229,9 +214,7 @@ If you have Visual Studio installed, but don't have the workloads you need, sele
    ::: moniker range=">=vs-2022"
    ![Step into native code](../debugger/media/vs-2022/mixed-mode-step-into-native-code.png)
    ::: moniker-end
-   ::: moniker range="<=vs-2019"
-   ![Step into native code](../debugger/media/mixed-mode-step-into-native-code.png)
-   ::: moniker-end
+
 
 1. Now, you can set and hit breakpoints and inspect variables in the native or managed code.
 

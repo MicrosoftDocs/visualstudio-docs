@@ -1,7 +1,7 @@
 ---
 title: About GitHub Copilot Completions in Visual Studio
 description: Use GitHub Copilot Completions in Visual Studio to use AI assistance to generate information about your code, including suggested edits and new code snippets.
-ms.date: 5/30/2025
+ms.date: 12/17/2025
 ms.update-cycle: 180-days
 ms.topic: overview
 author: anandmeg
@@ -59,7 +59,21 @@ As you type code or comments in the editor, GitHub Copilot provides context-awar
        int subtractNumbers(
    ```
 
-1. Hover over the suggestion to see the GitHub Copilot command palette.
+:::moniker range="visualstudio"
+
+4. Press enter to see the GitHub Copilot command palette.
+
+   To accept the suggestion, select the <kbd>Tab</kbd> key. To reject the suggestion, select the <kbd>Esc</kbd> key or continue typing.
+
+   :::image type="content" source="media/visualstudio/visual-studio-github-copilot-extension/copilot-accept-code-suggestions.png" alt-text="Screenshot that shows suggestions to accept or modify a GitHub Copilot code suggestion in Visual Studio.":::
+
+   If the command palette doesn't appear, you might have reached the default limit for its display. To change this limit, go to **Tools** > **Options** > **IntelliCode** > **Advanced**, and adjust the value for **Minimum commits to suppress hint text**.
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
+4. Hover over the suggestion to see the GitHub Copilot command palette.
 
    To accept the suggestion, select the <kbd>Tab</kbd> key. To reject the suggestion, continue typing.
 
@@ -67,7 +81,9 @@ As you type code or comments in the editor, GitHub Copilot provides context-awar
 
    If the command palette doesn't appear, you might have reached the default limit for its display. To change this limit, go to **Tools** > **Options** > **IntelliCode** > **Advanced**, and adjust the value for **Minimum commits to suppress hint text**.
 
-1. Add the following code to see completions from GitHub Copilot:
+:::moniker-end
+
+5. Add the following code to see completions from GitHub Copilot:
 
    ```csharp
        int a = 5;
@@ -88,8 +104,20 @@ Here are keyboard shortcuts related to completions:
 
 Customize your completion experience by using settings:
 
-- If you feel that completions appear too quickly and interrupt your typing, go to **Tools** > **Options** > **IntelliCode** > **Advanced** and turn on **Wait for pauses in typing before showing whole line completions**. This setting adds a debounce delay, so completions don't flash and disappear while you're typing quickly.
-- By default, each of your keystrokes automatically triggers completions. To disable automatic completions, go to **Tools** > **Options** > **IntelliCode** > **General** and turn off **Automatically generate code completions in the Editor**. Then, use <kbd>Alt</kbd>+<kbd>,</kbd> to manually trigger completions.
+:::moniker range="visualstudio"
+
+- If completions appear too quickly and interrupt your typing, you can adjust the display timing in the **Tools** > **Options** pane. Expand the **All Settings** > **Text Editor** > **Code Completions** > **Preferences** section, and select the **Show code completions only after a pause in typing** checkbox. This setting adds a debounce delay, so completions don't flash and disappear while you're typing quickly.
+
+- By default, each of your keystrokes automatically triggers completions. You can disable automatic completions in the **Tools** > **Options** pane. Expand the **All Settings** > **Text Editor** > **Code Completions** > **General** section, and set the **Code Completion Invocation** option to **Manual**. After you make this adjustment, you can manually trigger completions by using the **Alt**+**,** keyboard shortcut.
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+- If you feel that completions appear too quickly and interrupt your typing, you can adjust the display timing in the **Tools** > **Options** dialog. Expand the **IntelliCode** > **Advanced** section and select the **Wait for pauses in typing before showing whole line completions** checkbox. This setting adds a debounce delay, so completions don't flash and disappear while you're typing quickly.
+
+- By default, each of your keystrokes automatically triggers completions. You can disable automatic completions in the **Tools** > **Options** dialog. Expand the **IntelliCode** > **General** section and clear the **Automatically generate code completions in the Editor** checkbox.  After you make this adjustment, you can manually trigger completions by using the **Alt**+**,** keyboard shortcut.
+
+:::moniker-end
 
 ## Content exclusion
 
@@ -99,29 +127,64 @@ With Visual Studio 2022 version 17.11, [content exclusion is available for GitHu
 
 With Visual Studio 2022 version 17.13, code referencing is available for GitHub Copilot Completions. If you or your organization [enabled suggestions that match public code](https://docs.github.com/en/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/managing-copilot-policies-as-an-individual-subscriber#enabling-or-disabling-suggestions-matching-public-code), Copilot notifies you when you accept a completion that matches code from a public GitHub repository.
 
-:::image type="content" source="media/vs-2022/visual-studio-github-copilot-extension/github-copilot-completions-code-referencing.png" alt-text="Screenshot that shows GitHub Copilot Completions code referencing in Visual Studio." lightbox="media/vs-2022/visual-studio-github-copilot-extension/github-copilot-completions-code-referencing.png"::::::
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/visual-studio-github-copilot-extension/github-copilot-completions-code-referencing.png" alt-text="Screenshot that shows GitHub Copilot Completions code referencing in Visual Studio." lightbox="media/visualstudio/visual-studio-github-copilot-extension/github-copilot-completions-code-referencing.png":::
+
+To see detailed information in GitHub Copilot logs in the **Output** window, select **View code matches**. The log entry includes a link to a GitHub.com page where you can view details on license type. It also includes references to similar code in public GitHub repositories.
+
+:::image type="content" source="media/visualstudio/visual-studio-github-copilot-extension/code-referencing-copilot-logs.png" alt-text="Screenshot that shows the log entry for a code reference in an output window." lightbox="media/visualstudio/visual-studio-github-copilot-extension/code-referencing-copilot-logs.png":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
+:::image type="content" source="media/vs-2022/visual-studio-github-copilot-extension/github-copilot-completions-code-referencing.png" alt-text="Screenshot that shows GitHub Copilot Completions code referencing in Visual Studio." lightbox="media/vs-2022/visual-studio-github-copilot-extension/github-copilot-completions-code-referencing.png":::
 
 To see detailed information in GitHub Copilot logs in the **Output** window, select **View code matches**. The log entry includes a link to a GitHub.com page where you can view details on license type. It also includes references to similar code in public GitHub repositories.
 
 :::image type="content" source="media/vs-2022/visual-studio-github-copilot-extension/code-referencing-copilot-logs.png" alt-text="Screenshot that shows the log entry for a code reference in an output window." lightbox="media/vs-2022/visual-studio-github-copilot-extension/code-referencing-copilot-logs.png":::
 
+:::moniker-end
+
 Code referencing enables you to make an informed decision on using code attribution or removing the code from your project.
 
 ## Completions model
 
-The GPT-4o Copilot model for code completions is available for GitHub Copilot in Visual Studio version 17.14 Preview 2 or later.
+:::moniker range="visualstudio"
+
+The GPT-4.1 Copilot model for code completions is available for GitHub Copilot in Visual Studio.
 
 To try the new model for better suggestions and performance:
 
-1. Go to **Tools** > **Options** > **GitHub** > **Copilot** > **Copilot Completions**.
+1. In the **Tools** > **Options** pane, expand the **All Settings** > **Text Editor** > **Code Completions** > **General** section.
 
-1. In the **Copilot Completions Model** dropdown list, select **GPT-4o Copilot**.
+1. Set the **Copilot Completions Model** option to **GPT-4.1 Copilot**.
 
-   :::image type="content" source="media/vs-2022/visual-studio-github-copilot-extension/completions-model-picker.png" alt-text="Screenshot that shows the dropdown list for selecting a completions model.":::
+   If the GPT-4.1 model isn't listed, try restarting Visual Studio to retrieve the latest model list.
 
-If you don't see the new GPT-4o model in the dropdown list, try restarting Visual Studio to retrieve the latest model list.
+   :::image type="content" source="media/visualstudio/visual-studio-github-copilot-extension/completions-model-picker.png" border="false" alt-text="Screenshot that shows how to select the Copilot completions model.":::
 
-You can also access **Settings** > **Options** from the Copilot badge in the upper-right corner of the editor.
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+The GPT-4.1 Copilot model for code completions is available for GitHub Copilot in Visual Studio version 17.14 Preview 2 or later.
+
+To try the new model for better suggestions and performance:
+
+1. In the **Tools** > **Options** dialog, expand the **GitHub** > **Copilot** section.
+
+1. In the **Copilot Completions** group, set the **Copilot Completions Model** option to **GPT-4o Copilot**.
+
+   If you don't see the GPT-4o model in the dropdown list, try restarting Visual Studio to retrieve the latest model list.
+
+   :::image type="content" source="media/vs-2022/visual-studio-github-copilot-extension/completions-model-picker.png" border="false" alt-text="Screenshot that shows the dropdown list for selecting a completions model.":::
+
+1. Select **OK**.
+
+You can also access **Settings** > **Options** from the Copilot badge at the top right in the editor.
+
+:::moniker-end
 
 ### Access
 

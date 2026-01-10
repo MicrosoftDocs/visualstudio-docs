@@ -27,10 +27,6 @@ In this tutorial, you learn how to:
 
 ## Prerequisites
 
-::: moniker range="vs-2019"
-You need Visual Studio to complete this tutorial.
-Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/vs/) for a free version.
-::: moniker-end
 ::: moniker range=">=vs-2022"
 You need Visual Studio to complete this tutorial.
 Visit the [Visual Studio downloads page](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) for a free version.

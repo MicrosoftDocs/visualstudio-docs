@@ -6,8 +6,8 @@ ms.topic: concept-article
 helpviewer_keywords:
 - text templates, in application or VS extension
 - text templates, custom directive hosts
-author: mgoertz-msft
-ms.author: mgoertz
+author: jekelly
+ms.author: jekelly
 manager: mijacobs
 ms.subservice: modeling
 ---

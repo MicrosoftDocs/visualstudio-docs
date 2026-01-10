@@ -3,8 +3,8 @@ title: Data science and analytical applications workload
 description: Review a Visual Studio workload that combines Python, F#, and their respective runtime distributions, including Anaconda, and also R for earlier versions of Visual Studio.
 ms.date: 04/18/2024
 ms.topic: overview
-author: cwebster-99
-ms.author: cowebster
+author: Devdiv-VR
+ms.author: vedhar
 manager: mijacobs
 ms.subservice: python
 ms.custom: sfi-image-nochange
@@ -32,11 +32,7 @@ The Data science and analytical applications workload is available in the Visual
 :::image type="content" source="media/workload/data-science-workload-2022.png" alt-text="Screenshot that shows how to select the Data science and analytics applications workload in the Visual Studio Installer." border="false" lightbox="media/workload/data-science-workload-2022.png":::
 
 ::: moniker-end
-::: moniker range="<=vs-2019"
 
-:::image type="content" source="media/workload/data-science-workload-2019.png" alt-text="Screenshot that shows how to select the Data science and analytics applications workload in the Visual Studio Installer 2019." border="false" lightbox="media/workload/data-science-workload-2019.png":::
-
-::: moniker-end
 
 By default, the workload installs the following options, which you can modify in the summary section for the workload in the Visual Studio Installer:
 
@@ -71,11 +67,7 @@ To take full advantage of SQL Server integration, use the Visual Studio Installe
 :::image type="content" source="media/workload/data-storage-workload-2022.png" alt-text="Screenshot that shows how to select the Data storage and processing workload in the Visual Studio Installer." border="false" lightbox="media/workload/data-storage-workload-2022.png":::
 
 ::: moniker-end
-::: moniker range="<=vs-2019"
 
-:::image type="content" source="media/workload/data-storage-workload-2019.png" alt-text="Screenshot that shows how to select the Data storage and processing workload in the Visual Studio Installer 2019." border="false" lightbox="media/workload/data-storage-workload-2019.png":::
-
-::: moniker-end
 
 For more information, see [Python in SQL Server 2017: Enhanced in-database machine learning (blog)](https://blogs.technet.microsoft.com/dataplatforminsider/2017/04/19/python-in-sql-server-2017-enhanced-in-database-machine-learning/).
 

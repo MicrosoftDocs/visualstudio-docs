@@ -3,8 +3,8 @@ title: Switch between Python environments
 description: Select a specific Python environment in Visual Studio, including Anaconda and virtual environments, to apply the environment to a specific project.
 ms.date: 04/18/2024
 ms.topic: how-to
-author: cwebster-99
-ms.author: cowebster
+author: Devdiv-VR
+ms.author: vedhar
 manager: mijacobs
 ms.subservice: python
 

@@ -34,9 +34,6 @@ Visual Studio includes the Microsoft unit test frameworks for both managed and n
 
 When you build the test project, the tests appear in Test Explorer. If Test Explorer is not visible, select **Test** on the Visual Studio menu, and then select **Test Explorer** (or select Ctrl+E, T).
 
-::: moniker range="vs-2019"
-![Screenshot that shows a test list in Test Explorer.](../test/media/vs-2019/test-explorer-16-2.png)
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 ![Screenshot that shows a test list in Test Explorer.](../test/media/vs-2022/test-explorer-17-0.png)
@@ -46,9 +43,6 @@ As you run, write, and rerun your tests, Test Explorer displays the results in a
 
 You can perform much of the work of finding, organizing, and running tests from the **Test Explorer** toolbar.
 
-::: moniker range="vs-2019"
-![Screenshot that describes icons for running tests from the Test Explorer toolbar.](../test/media/vs-2019/test-explorer-toolbar-diagram-16-2.png)
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 :::image type="content" source="../test/media/vs-2022/test-explorer-toolbar-diagram-17-0.png" alt-text="Screenshot that describes icons for running tests from the Test Explorer toolbar.":::
@@ -81,9 +75,6 @@ As you run, write, and rerun your tests, Test Explorer displays the results in g
 
 To view the details of an individual test, select the test.
 
-::: moniker range="vs-2019"
-![Screenshot of test execution details.](../test/media/vs-2019/test-explorer-detail.png)
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 ![Screenshot of test execution details.](../test/media/vs-2022/test-explorer-details.png)
@@ -113,15 +104,6 @@ In Test Explorer, you can group your tests into predefined categories. Most unit
 
 ### Grouping tests in the test list
 
-::: moniker range="vs-2019"
-Test Explorer lets you group your tests into a hierarchy. The default hierarchy grouping is **Project**, **Namespace**, and then **Class**. To change the way that tests are organized, select the **Group By** button ![Test Explorer group button](../test/media/ute_groupby_btn.png) and then select a new grouping criterion.
-
-![Screenshot that shows selections for grouping tests by category in Test Explorer.](../test/media/vs-2019/test-explorer-groupby-162.png)
-
-You can define your own levels of the hierarchy (group by **State** and then **Class**, for example) by selecting **Group By** options in your preferred order.
-
-![Screenshot of Test Explorer that shows a test hierarchy on one pane and the Group By menu on the other pane, with Class and State options selected.](../test/media/vs-2019/test-explorer-groupby-state-16-2.png)
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 Test Explorer lets you group your tests into a hierarchy. The default hierarchy grouping is **Project**, **Namespace**, and then **Class**. To change the way that tests are organized, select the **Group By** button ![Test Explorer group button](../test/media/ute_groupby_btn.png) and then select a new grouping criterion.
@@ -167,65 +149,6 @@ See [Use the Microsoft Unit Testing Framework for C++ in Visual Studio](how-to-u
 
 ## Create custom playlists
 
-::: moniker range="vs-2019"
-You can create and save a list of tests that you want to run or view as a group. When you select a playlist, the tests in the list appear on a new Test Explorer tab. You can add a test to more than one playlist.
-
-To create a playlist:
-
-1. Choose one or more tests in Test Explorer.
-1. Right-click somewhere on the pane, point to **Add to Playlist**, and then select **New Playlist**.
-
-![Screenshot that shows selections for creating a playlist.](../test/media/vs-2019/test-explorer-playlist-16-2.png)
-
-The playlist opens on a new Test Explorer tab. You can use this playlist once and then discard it. Or you can select the **Save** button on the playlist window's toolbar, and then select a name and location to save the playlist.
-
-![Screenshot that shows a playlist opened on a separate Test Explorer tab.](../test/media/vs-2019/test-explorer-playlist-tab-16-7.png)
-
-To open a playlist:
-
-1. On the Visual Studio toolbar, select the playlist icon.
-1. On the menu, select a previously saved playlist file.
-
-To edit a playlist, use one of these options:
-
-- Right-click any test, and then use the menu commands to add or remove it from a playlist.
-- On the toolbar, select the **Edit Playlist** button. Checkboxes that appear next to your tests show what tests are included and excluded in the playlist. Edit groups as desired. This capability started in Visual Studio 2019 version 16.7.
-
-  ![Screenshot that shows the Edit Playlist button on the toolbar.](../test/media/vs-2019/test-explorer-playlist-edit-16-7.png)
-
-You can also select or clear the boxes for the parent groups in the hierarchy. This action creates a dynamic playlist that always updates the playlist based on the tests that are in that group.
-
-For example, if you select a checkbox next to a class, any test added from that class becomes part of this playlist. If you delete a test from that class, it's removed from the playlist.
-
-You can learn more about the rules by saving the playlist via the **Save** button on the toolbar, and then opening the *.playlist* XML file that's created on your disk. This file lists all the rules and individual tests that make up a playlist.
-
-![Screenshot that shows the contents of a playlist XML file.](../test/media/vs-2019/test-explorer-playlist-xml-file.png)
-
-If you want to make a playlist for traits, use the following format for the MSTest framework:
-
-```xml
-<Playlist Version="2.0">
-  <Rule Name="Includes" Match="Any">
-    <Property Name="Trait" Value="SchemaUpdateBasic" />
-  </Rule>
-</Playlist>
-```
-
-Use the following format for the xUnit framework. Make sure there's a space between your `TestCategory` name and the `[Value]` value.
-
-```xml
-<Playlist Version="2.0">
-  <Rule Name="Includes" Match="Any">
-    <Rule Match="All">
-      <Property Name="Solution" />
-        <Rule Match="Any">
-            <Property Name="Trait" Value="TestCategory [Value]" />
-        </Rule>
-    </Rule>
-  </Rule>
-</Playlist>
-```
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 You can create and save a list of tests that you want to run or view as a group. When you select a playlist, the tests in the list appear on a new Test Explorer tab. You can add a test to more than one playlist.
@@ -287,25 +210,6 @@ Use the following format for the xUnit framework. Make sure there's a space betw
 ```
 ::: moniker-end
 
-::: moniker range="vs-2019"
-### Test Explorer columns
-
-[Groups](#test-explorer-groups) are also available as columns in Test Explorer, along with **Traits**, **Stack Trace**, **Error Message**, and **Fully Qualified Name**. Most columns are not visible by default. You can customize which columns appear.
-
-![Screenshot of Visual Studio Test Explorer that shows a menu with Columns selected and a submenu with Duration, Traits, and Error Message selected.](../test/media/vs-2019/test-explorer-columns-16-2.png)
-
-Columns can be filtered, rearranged, and sorted:
-
-- To filter to specific traits, select the filter icon at the top of the **Traits** column.
-
-  ![Screenshot of the column filter.](../test/media/vs-2019/test-explorer-filter-column-16-2.png)
-
-- To change the order of the columns, select a column header and drag it left or right.
-
-- To sort a column, select the column header. Not all columns can be sorted. You can also sort by a secondary column by holding the Shift key and selecting an additional column header.
-
-  ![Screenshot of a column sort.](../test/media/vs-2019/test-explorer-sort-column-16-2.png)
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 ### Test Explorer columns
@@ -341,9 +245,6 @@ To filter by a different criterion:
 
 3. Enter the filter value between the quotation marks. If you want to search for an exact match on the string instead of a containing match, use an equal sign (=) instead of the colon (:).
 
-::: moniker range="vs-2019"
-![Screenshot of filter tests in Test Explorer.](../test/media/vs-2019/test-explorer-search-filter-16-2.png)
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 ![Screenshot of filter tests in Test Explorer.](../test/media/vs-2022/test-explorer-search-filter-17-0.png)

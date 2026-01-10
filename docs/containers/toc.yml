@@ -18,7 +18,6 @@
       href: deploy-multicontainer-azure-container-apps.md
     expanded: true
   - name: How to
-    expanded: true
     items:
     - name: Add Docker support to a project
       href: add-container-support.md
@@ -52,6 +51,7 @@
       href: container-certificate-management.md
     - name: Configure HTTPS for Azure deployment
       href: manage-certificates.md
+    expanded: true
   - name: Troubleshooting
     href: /troubleshoot/developer/visualstudio/ide/troubleshooting-docker-errors?toc=%2Fvisualstudio%2Fcontainers%2Ftoc.json
   - name: Reference

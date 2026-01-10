@@ -29,25 +29,11 @@ A container entry point is a process that is configured to run when a container 
 
 :::moniker-end
 
-::: moniker range="vs-2019"
-
-## Prerequisites
-
-- [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
-- [Visual Studio 2019 or later](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, **.NET desktop development**, and/or **.NET Core cross-platform development** workload installed.
-
-:::moniker-end
 
 ## Entry point by project type
 
 Visual Studio uses a custom container entry point depending on the project type and the container operating system, here are the different combinations:
 
-:::moniker range="<=vs-2019"
-|Container type|Entry point|
-|-|-|
-| **Linux containers** | The entry point is `tail -f /dev/null`, which is an infinite wait to keep the container running. When the app is launched through the debugger, it's the debugger that is responsible to run the app (that is, `dotnet webapp.dll`). If launched without debugging, the tooling runs a `docker exec -i {containerId} dotnet webapp.dll` to run the app.|
-| **Windows containers**| The entry point is something like `C:\remote_debugger\x64\msvsmon.exe /noauth /anyuser /silent /nostatus` which runs the debugger, so it's listening for connections. This method applies when the debugger runs the app. When launched without debugging, a `docker exec` command is used. For .NET Framework web apps, the entry point is slightly different where `ServiceMonitor` is added to the command.|
-:::moniker-end
 
 :::moniker range="vs-2022"
 |Container type|Entry point|

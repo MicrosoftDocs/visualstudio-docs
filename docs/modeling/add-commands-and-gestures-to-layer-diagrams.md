@@ -6,8 +6,8 @@ ms.topic: how-to
 helpviewer_keywords:
   - "dependency diagrams, adding custom commands"
   - "dependency diagrams, adding custom gestures"
-author: mgoertz-msft
-ms.author: mgoertz
+author: jekelly
+ms.author: jekelly
 manager: mijacobs
 ms.subservice: modeling
 ---

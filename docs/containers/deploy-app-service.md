@@ -22,9 +22,6 @@ If you don't have an Azure subscription, create a [free account](https://azure.m
 
 To complete this tutorial:
 
-::: moniker range="vs-2019"
-- [Visual Studio 2019 or later](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) with the **ASP.NET and web development** workload.
-::: moniker-end
 ::: moniker range="vs-2022"
 - [Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) with the **ASP.NET and web development** workload.
 ::: moniker-end
@@ -53,60 +50,10 @@ The following steps guide you through creating a basic ASP.NET Core app that wil
 1. Select the container type, and click **Create**.
 
 :::moniker-end
-:::moniker range="vs-2019"
 
-1. From the Visual Studio start window, choose **Create a new project**.
-1. Choose **ASP.NET Core Web App**, and choose **Next**.
-1. Give your new application a name (or take the default) and choose **Next**.
-1. Choose the .NET version you want to target.
-1. Choose whether or not you want SSL support by using the **Configure for HTTPS** checkbox.
-1. Select the **Enable Docker Support** checkbox.
-1. Select the container type, and click **Create**.
-
-:::moniker-end
 
 ## Deploy the container to Azure
 
-:::moniker range="vs-2019"
-
-1. Right-click your project in **Solution Explorer** and choose **Publish**.
-1. On the **Publish** dialog, choose the **Azure** target.
-
-   ![Screenshot of Publish wizard.](media/deploy-app-service/publish-choices.png)
-
-1. On the **Specific target** tab, choose the appropriate deployment target, such as **App Service (Windows)** or **App Service (Linux)**, depending on your container type.
-
-   ![Screenshot of Specific target tab of Publish wizard.](media/deploy-app-service/publish-app-service-windows.png)
-
-1. If you are not signed in to the right Azure account with the subscription you want to use, sign in by using the button at the top left of the **Publish** window.
-
-1. You can use an existing app service or create a new one by clicking on the **Create new Azure App Service** link. Find your existing app service in the treeview by expanding its resource group, or change the **View** setting to **Resource type** to sort by type.
-
-   ![Screenshot showing choosing an App Service.](media/deploy-app-service/publish-app-service-windows2.png)
-
-1. If you create a new one, a resource group and app service will be generated in Azure. You can change the names if desired, as long as they are unique.
-
-   ![Screenshot showing creating an App Service.](media/deploy-app-service/publish-app-service-windows3.png)
-
-1. You can accept the default hosting plan or change the hosting plan now, or later in the Azure portal. The default is `S1` (small) in one of the supported regions. To create a hosting plan, choose **New** next to the **Hosting Plan** dropdown list. The **Hosting Plan** window appears.
-
-   ![Screenshot showing hosting plan options.](media/deploy-app-service/hosting-plan.png)
-
-   You can view the details about these options at [Azure App Service plan overview](/azure/app-service/overview-hosting-plans).
-
-1. Once you're done selecting or creating these resources, choose **Finish**. Your container is deployed to Azure in the resource group and app service you selected. This process takes a bit of time. When it's completed, the **Publish** tab shows information about what was published, including the site URL.
-
-   :::image type="content" source="media/deploy-app-service/publish-succeeded-windows.png" alt-text="Screenshot of publish tab." lightbox="media/deploy-app-service/publish-succeeded-windows.png":::
-
-1. Click on the site link to verify your app works as expected in Azure.
-
-   ![Screenshot of web application.](media/deploy-app-service/web-application-running2.png)
-
-1. The publishing profile is saved with all the details you selected, such as the resource group and app service.
-
-1. To deploy again with the same publishing profile, use the **Publish** button, the **Publish** button on the **Web Publish Activity** window, or right-click on the project in **Solution Explorer** and choose the **Publish** item on the context-menu.
-
-:::moniker-end
 
 :::moniker range=">=vs-2022"
 

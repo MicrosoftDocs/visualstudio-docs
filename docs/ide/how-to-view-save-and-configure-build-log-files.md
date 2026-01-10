@@ -1,7 +1,7 @@
 ---
 title: View, save, and configure build log files
 description: Explore how to configure build log files with information about the compiler and other tools for troubleshooting build failures.
-ms.date: 08/01/2025
+ms.date: 11/13/2025
 ms.subservice: compile-build
 ms.topic: how-to
 author: ghogen
@@ -49,7 +49,7 @@ Use the following procedures to generate and view build log files for your scena
 
 You can set environment variables to configure Visual Studio to write a binary log to the filesystem. Set `MSBuildDebugEngine` to `1` and set `MSBUILDDEBUGPATH` to the desired location of the build log file. The variables have to be set in the environment in which Visual Studio is launched. These settings affect all Visual Studio builds, so might not be a good option if you only want logs for a particular invocation of the build.
 
-For more advanced UI support for build logging in .NET projects, consider installing the [Project System Tools extension](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.ProjectSystemTools2022). With the extension installed, you can turn binary logging on and off in the UI, and choose from list of logs. However, due to the way it integrates with the Visual Studio build system, the logs are a little bit different from the ones you would get from the **Output** window, or with the environment variables.
+For more advanced UI support for build logging in .NET projects, consider installing the [Project System Tools extension](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.ProjectSystemTools2022). With the extension installed, you can turn binary logging on and off in the UI, and choose from list of logs. However, due to the way it integrates with the Visual Studio build system, the logs are slightly different from the ones you would get from the **Output** window, or with the environment variables.
 
 ## Specify data verbosity for build logs
 
@@ -68,18 +68,29 @@ The following table shows what types of messages are collected based on the logg
 
 You can configure the logger verbosity with the following steps:
 
-1. In Visual Studio, select **Tools** > **Options** to open the **Options** dialog.
+:::moniker range="visualstudio"
 
-1. On the dialog, expand the **Projects and Solutions** section and select the **Build and Run** tab.
+1. Open the **Tools** > **Options** pane, and expand the **All Settings** > **Projects and Solutions** > **Build and Run** section.
 
-1. Use the **MSBuild project build output verbosity** dropdown list and select your build output preference. 
+:::moniker-end
+:::moniker range="<=vs-2022"
 
-1. Use the **MSBuild project build log file verbosity** dropdown list and select your logger verbosity preference. 
+1. Open the **Tools** > **Options** dialog, and expand the **Projects and Solutions** > **Build and Run** section.
+
+:::moniker-end
+
+2. Use the **MSBuild project build output verbosity** dropdown list and select your build output preference. 
+
+3. Use the **MSBuild project build log file verbosity** dropdown list and select your logger verbosity preference. 
 
    > [!TIP]
    > If you want to see the command lines used for the compiler and other tools, choose at least the **Detailed** verbosity level.
 
-1. To apply your changes, select **OK**.
+:::moniker range="<=vs-2022"
+
+4. To apply your changes, select **OK**.
+
+:::moniker-end
 
 > [!IMPORTANT]
 > You must rebuild the project for your changes to take effect in the **Output** window. For C++ projects, the project rebuild also ensures the changes are reflected in the *\<ProjectName>.txt* file.
@@ -88,11 +99,6 @@ For more information, see [Options dialog box, Projects and Solutions, Build and
 
 ## Use binary logs for large log files
 
-:::moniker range="<=vs-2019"
-
-Binary logs are an optional feature for .NET projects that lets you have a richer log browsing experience that might make it easier to find information in large logs. To use binary logs, install the [Project System Tools](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.ProjectSystemTools). For more information, see [`https://msbuildlog.com`](https://msbuildlog.com) and [Binary Log](https://github.com/microsoft/msbuild/blob/main/documentation/wiki/Binary-Log.md).
-
-:::moniker-end
 :::moniker range=">=vs-2022"
 
 Binary logs are an optional feature for .NET projects that lets you have a richer log browsing experience that might make it easier to find information in large logs. To use binary logs, install the [Project System Tools 2022](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.ProjectSystemTools2022). For more information, see [`https://msbuildlog.com`](https://msbuildlog.com) and [Binary Log](https://github.com/microsoft/msbuild/blob/main/documentation/wiki/Binary-Log.md).

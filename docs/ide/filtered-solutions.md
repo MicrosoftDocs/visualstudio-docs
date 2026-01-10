@@ -10,7 +10,7 @@ author: TerryGLee
 ms.author: stsu
 manager: mijacobs
 ms.subservice: general-ide
-monikerRange: ">= vs-2019"
+monikerRange: ">= vs-2022"
 ---
 # Filtered solutions in Visual Studio
 

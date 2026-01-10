@@ -29,9 +29,6 @@ manager: mijacobs
 
 You need build configurations when you need to build your projects with different settings. For example, **Debug** and **Release** are build configurations, and different compiler options are used accordingly when building them.  One configuration is active and is indicated in the command bar at the top of the IDE.
 
-:::moniker range="<=vs-2019"
-![Screenshot showing the active configuration in the main Visual Studio toolbar.](media/understanding-build-configurations/active-config.png)
-:::moniker-end
 :::moniker range=">=vs-2022"
 ![Screenshot showing the active configuration in the main Visual Studio toolbar.](media/vs-2022/build-configurations-active-config.png)
 :::moniker-end
@@ -63,9 +60,6 @@ The active solution configuration also provides context to the IDE. For example,
 
 The configuration and platform that a project targets are used together to specify the build settings and compiler options to use when it's built. A project can have different settings for each combination of configuration and platform. To modify the properties of a project, open the shortcut menu for the project in **Solution Explorer**, and then choose **Properties**.  At the top of the **Build** tab of the project designer, choose an active configuration to edit its build settings.
 
-:::moniker range="<=vs-2019"
-![Screenshot of project designer configurations.](media/understanding-build-configurations/project-designer-configuration.png)
-:::moniker-end
 :::moniker range=">=vs-2022"
 ![Screenshot of project designer configurations.](media/vs-2022/understanding-build-configurations/project-designer-build-configurations.png)
 :::moniker-end

@@ -4,7 +4,7 @@ description: Explore tools available for working with Docker or Podman container
 author: ghogen
 ms.author: ghogen
 ms.topic: overview
-ms.date: 8/19/2025
+ms.date: 11/14/2025
 ms.subservice: container-tools
 ms.custom: peer-review-program
 ---
@@ -23,28 +23,6 @@ The tools included in Visual Studio for developing with [Docker](https://docs.do
 
 :::moniker-end
 
-
-
-::: moniker range="vs-2019"
-
-## Prerequisites
-
-- [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
-- [Visual Studio 2019 or later](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET Core cross-platform development** workload installed.
-- [.NET Core Development Tools](https://dotnet.microsoft.com/download/dotnet-core/) for development with .NET Core.
-- To publish to Azure Container Registry, an Azure subscription. [Sign up for a free trial](https://azure.microsoft.com/offers/ms-azr-0044p/).
-
-## Docker support in Visual Studio
-
-Docker support is available for ASP.NET projects, ASP.NET Core projects, and .NET Core and .NET Framework console projects.
-
-The support for Docker in Visual Studio has changed over a number of releases in response to customer needs. There are two levels of Docker support you can add to a project, and the supported options vary by the type of project and the version of Visual Studio. With some supported project types, if you just want a container for a single project, without using orchestration, you can do that by adding Docker support. The next level is container orchestration support, which adds appropriate support files for the particular orchestrator you choose.
-
-With Visual Studio 2019, you can use Docker Compose, Kubernetes, and Service Fabric as container orchestration services.
-
-In Visual Studio 2019 version 16.4 and later, the **Containers** window is available, which lets you view running containers, browse available images, view environment variables, logs, and port mappings, inspect the filesystem, attach a debugger, or open a terminal window inside the container environment. See [Use the Containers window](view-and-diagnose-containers.md).
-
-::: moniker-end
 
 ::: moniker range="visualstudio"
 
@@ -117,10 +95,13 @@ Open the **Containers** window by using the quick launch (**Ctrl**+**Q**) and ty
 
 Select a container, and use the tabs to view the information that's available. To check it out, run your Docker-enabled app, open the **Files** tab, and expand the **app** folder to see your deployed app on the container.
 
-:::moniker range="<=vs-2019"
-![Screenshot of Containers window.](media/overview/vs-2019/container-tools-window-2.png)
+:::moniker range="visualstudio"
+
+:::image type="content" source="media\overview\visualstudio\containers-files.png" alt-text="Screenshot that shows the Containers window.":::  
+
 :::moniker-end
-:::moniker range=">=vs-2022"
+
+:::moniker range="vs-2022"
 ![Screenshot of Containers window.](media/overview/vs-2022/containers-files.png)
 :::moniker-end
 
@@ -130,14 +111,29 @@ For more information, see [Use the Containers window](view-and-diagnose-containe
 
 When you want to compose a multi-container solution using Docker Compose, add container orchestrator support to your projects. This lets you run and debug a group of containers (a whole solution or group of projects) at the same time if they're defined in the same *docker-compose.yml* file.
 
+:::moniker range="visualstudio"
+
+To add container orchestrator support using Docker Compose, right-click the application in **Solution Explorer**, and then select **Add** > **Container Compose Support**.
+    
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+
 To add container orchestrator support using Docker Compose, right-click on the project node in **Solution Explorer**, and choose **Add > Container Orchestrator Support**. Then choose **Docker Compose** to manage the containers.
+
+:::moniker-end
 
 After you add container orchestrator support to your project, you see a *Dockerfile* added to the project (if there wasn't one there already) and a **docker-compose** folder added to the solution in **Solution Explorer**, as shown here:
 
-:::moniker range="<=vs-2019"
-![Screenshot of Docker files in Solution Explorer in Visual Studio.](media/overview/docker-support-solution-explorer.png)
+
+
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/overview/visualstudio/docker-compose-solution-explorer.png" alt-text="Screenshot that shows Docker files in Solution Explorer.":::
+
 :::moniker-end
-:::moniker range=">=vs-2022"
+
+:::moniker range="vs-2022"
 ![Screenshot of Docker files in Solution Explorer in Visual Studio.](media/overview/vs-2022/docker-compose-solution-explorer.png)
 :::moniker-end
 
@@ -150,16 +146,27 @@ If you work with a large number of services, you can save time and computing res
 > [!NOTE]
 > Remote Docker hosts are not supported in Visual Studio tooling.
 
+
 ## Service Fabric support
+
+:::moniker range="visualstudio"
+
+The Service Fabric Application Projects have been removed in Visual Studio 2026, and will become a Visual Studio Extension. For status on availability, see this [GitHub issue](https://github.com/microsoft/service-fabric/issues/1541).
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
 
 With Service Fabric tools in Visual Studio, you can develop and debug for Azure Service Fabric, run and debug locally, and deploy to Azure.
 
-Visual Studio 2019 and later support developing containerized microservices using Windows containers and Service Fabric orchestration.
+Visual Studio 2019 and Visual Studio 2022 support developing containerized microservices using Windows containers and Service Fabric orchestration.
 
 For a detailed tutorial, see
 [Tutorial: Deploy a .NET application in a Windows container to Azure Service Fabric](/azure/service-fabric/service-fabric-host-app-in-a-container).
 
 For more information on Azure Service Fabric, see [Service Fabric](/azure/service-fabric).
+
+:::moniker-end
 
 ## Continuous delivery and continuous integration (CI/CD)
 

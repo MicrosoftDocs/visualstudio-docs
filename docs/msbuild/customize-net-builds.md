@@ -1,7 +1,7 @@
 ---
-title: Customize .NET builds for computer, VM, container
+title: Customize .NET builds for computer, virtual machine, or container
 description: Customize all .NET builds in Visual Studio on a system governed by an installation of MSBuild for a specific computer, virtual machine, or container.
-ms.date: 02/28/2023
+ms.date: 11/13/2025
 ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, transforms
@@ -13,9 +13,9 @@ ms.subservice: msbuild
 ---
 # Customize all .NET builds
 
-The techniques in this article are useful when you want to customize all builds run on a specific computer, virtual machine, or container. For example, when you set up a build server, you might need to configure MSBuild settings globally for all builds on the server.  In principle, you could modify the global *Microsoft.Common.Targets* or *Microsoft.Common.Props* files, but there is a better way. You can affect all builds of a certain project type (such as all C# projects) by using certain MSBuild properties and adding certain custom `.targets` and `.props` files.
+The techniques in this article are useful when you want to customize all builds run on a specific computer, virtual machine, or container. For example, when you set up a build server, you might need to configure MSBuild settings globally for all builds on the server.  In principle, you could modify the global *Microsoft.Common.Targets* or *Microsoft.Common.Props* files, but there's a better way. You can affect all builds of a certain project type (such as all C# projects) by using certain MSBuild properties and adding certain custom `.targets` and `.props` files.
 
-## Before and after standard .props and .targets files
+## Before and after standard `.props` and `.targets` files
 
 To affect all C# or Visual Basic builds governed by an installation of MSBuild or Visual Studio, create a file *Custom.Before.Microsoft.Common.Targets* or *Custom.After.Microsoft.Common.Targets* with targets that will run before or after *Microsoft.Common.targets*, or a file *Custom.Before.Microsoft.Common.Props* or *Custom.After.Microsoft.Common.Props* with properties that will be processed before or after *Microsoft.Common.props*.
 
@@ -37,7 +37,7 @@ msbuild /p:CustomBeforeMicrosoftCommonTargets="C:\build\config\Custom.Before.Mic
 ```
 
 > [!WARNING]
-> Visual Studio uses the custom `.targets` or `.props` files if it finds them in the MSBuild folder whenever it builds any project of the matching type. This can have unintended consequences, and if done incorrectly, can disable the ability of Visual Studio to build on your computer.
+> Visual Studio uses the custom `.targets` or `.props` files if it finds them in the MSBuild folder whenever it builds any project of the matching type. This customization can have unintended consequences, and if done incorrectly, can disable the ability of Visual Studio to build on your computer.
 
 ## Replace common props file
 

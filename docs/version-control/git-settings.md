@@ -8,7 +8,7 @@ author: ghogen
 ms.author: ghogen
 ms.manager: mijacobs
 ms.subservice: general-ide
-monikerRange: ">=vs-2019"
+monikerRange: ">=vs-2022"
 ms.custom: sfi-image-nochange
 ---
 # Git settings and preferences in Visual Studio
@@ -28,9 +28,6 @@ You can configure two types of settings:
    :::image type="content" source="media/vs-2022/git-menu-settings.png" alt-text="The Git menu with a callout to the Settings command.":::
    :::moniker-end
 
-   :::moniker range="<=vs-2019"
-   :::image type="content" source="media/git-menu-settings.png" alt-text="The Git menu with a callout to the Settings command.":::
-   :::moniker-end
 
 2. Choose **Git Global Settings** or **Git Repository Settings** to view and configure global-level or repository-level settings.
 
@@ -183,18 +180,6 @@ The following settings manage Git-related preferences in Visual Studio, and are 
 
 :::moniker-end
 
-:::moniker range="<=vs-2019"
-
-- [Default location](#default-location)
-- [Close open solutions not under Git when opening a repository](#close-open-solutions-not-under-git-when-opening-a-repository)
-- [Enable download of author images from third-party sources](#enable-download-of-author-images-from-third-party-sources)
-- [Commit changes after merge by default](#commit-changes-after-merge-by-default)
-- [Enable push --force](#enable-push---force-with-lease)
-- [Open folder in Solution Explorer when opening a Git repository](#open-folder-in-solution-explorer-when-opening-a-git-repository)
-- [Automatically load the solution when opening a Git repository](#automatically-load-the-solution-when-opening-a-git-repository)
-- [Automatically check out branches with double-click or the Enter key](#automatically-check-out-branches-with-double-click-or-the-enter-key)
-
-:::moniker-end
 
 ### Default location
 
