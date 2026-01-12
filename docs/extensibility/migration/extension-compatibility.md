@@ -30,12 +30,6 @@ Visual Studio 2026 without republishing.
   time, Visual Studio evaluates the API versions an extension targets
   and loads only compatible extensions.
 
-  > [!NOTE]
-  > The extension API surface includes more than the Visual Studio SDK
-  > version. Extensions can reference multiple components (for example,
-  > CPS or Roslyn), each with its own versioning scheme. Visual Studio
-  > checks compatibility against the APIs available at runtime.
-
 - **Stable APIs avoid breaking changes.** Except for major platform
   shifts (such as the move to 64-bit in Visual Studio 2022), the
   platform aims to preserve backward compatibility for stable APIs.
@@ -101,8 +95,7 @@ MSI-distributed extensions:
 - Automatic migration from older Visual Studio versions does not apply.
 
 > [!TIP]
-> Prefer VSIX distribution. MSI-based installation is not recommended
-> for Visual Studio extensions.
+> Adopt VSIX for distribution whenever possible. MSI-based installation should be used for custom distribution needs only.
 
 ## Related Content
 
