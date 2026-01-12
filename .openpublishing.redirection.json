@@ -21233,6 +21233,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/debugger/debugging-options-dialog-box.md",
+      "redirect_url": "/visualstudio/debugger/how-to-specify-debugger-settings",
+      "redirect_document_id": false
+    }
+    {
       "source_path": "docs/debugger/debugger-settings-and-preparation.md",
       "redirect_url": "/visualstudio/debugger/how-to-specify-debugger-settings",
       "redirect_document_id": false
