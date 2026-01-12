@@ -2,7 +2,7 @@
 title: "Format specifiers in the debugger (C++)"
 description: Use a format specifier to change the format in which a value is displayed in a Watch, Autos, or Locals window. This article provides usage details.
 ms.date: 12/12/2025
-ms.topic: article
+ms.topic: concept-article
 dev_langs:
   - "C++"
 helpviewer_keywords:

@@ -5,7 +5,7 @@ author: mikadumont
 ms.author: midumont
 manager: mijacobs
 ms.subservice: code-analysis
-ms.topic: article
+ms.topic: concept-article
 helpviewer_keywords:
 - code analysis, managed code
 - analyzers

@@ -2,7 +2,7 @@
 title: Explore compatible database systems
 description: Explore compatible database systems for Visual Studio, including Microsoft SQL Server, Oracle, MySQL, PostgreSQL, SQLite, and Firebird.
 ms.date: 11/13/2025
-ms.topic: article
+ms.topic: concept-article
 helpviewer_keywords:
 - database systems
 - database compatibility

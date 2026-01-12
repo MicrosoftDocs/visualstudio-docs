@@ -4,7 +4,7 @@ description: Build cross-platform applications for Android, iOS, Mac Catalyst, a
 titleSuffix: ""
 ms.date: 02/21/2025
 ms.subservice: mobile-development
-ms.topic: article
+ms.topic: overview
 author: therealjohn
 ms.author: johmil
 ---
