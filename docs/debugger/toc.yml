@@ -444,6 +444,8 @@
         href: mfc-debugging-techniques.md
       - name: CRT debugging techniques >>
         href: /cpp/c-runtime-library/crt-debugging-techniques
+      - name: Problem Details window
+        href: ../ide/reference/problem-details-window.md
       - name: FAQ for debugging native code
         href: debugging-native-code-faqs.yml
       - name: COM
@@ -594,8 +596,6 @@
         href: output-window-debugging-options-dialog-box.md
     - name: Debug Source Files, Common Properties, Solution Property Pages dialog box
       href: debug-source-files-common-properties-solution-property-pages-dialog-box.md
-    - name: Problem Details window
-      href: ../ide/reference/problem-details-window.md
     - name: Debugging Errors and Warning
       items:
       - name: Debugging Errors and Warning dialog box
