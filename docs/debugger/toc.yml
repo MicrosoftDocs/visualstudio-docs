@@ -122,6 +122,8 @@
     href: how-to-improve-diagnostics-debugging-with-sourcelink.md
   - name: User code (Just My Code)
     href: just-my-code.md
+  - name: Specify debug source files
+    href: debug-source-files-common-properties-solution-property-pages-dialog-box.md
   - name: Debugger settings
     items:
     - name: Debugger settings and preparation
@@ -594,8 +596,6 @@
         href: just-in-time-debugging-options-dialog-box.md
       - name: Output Window, Debugging, Options dialog box
         href: output-window-debugging-options-dialog-box.md
-    - name: Debug Source Files, Common Properties, Solution Property Pages dialog box
-      href: debug-source-files-common-properties-solution-property-pages-dialog-box.md
     - name: Debugging Errors and Warning
       items:
       - name: Debugging Errors and Warning dialog box
