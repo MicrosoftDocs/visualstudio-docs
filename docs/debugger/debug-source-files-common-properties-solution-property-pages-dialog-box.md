@@ -32,7 +32,7 @@ To access the **Debug Source Files** property page, right-click on your Solution
 Contains a list of directories in which the debugger searches for source files when debugging the solution. Subdirectories of the specified directories are also searched.
 
 **Do not look for these source files**
-Enter the names of any files that you do not want the debugger to read. If the debugger finds one of these files in one of the directories specified above, it will ignore it. If the **Find Source** dialog box comes up while you are debugging and , you click **Cancel**, the file you were searching for gets added to this list so that the debugger will not continue searching for that file.
+Enter the names of any files that you don't want the debugger to read. If the debugger finds one of these files in one of the directories specified above, it will ignore it. If the **Find Source** dialog box comes up while you're debugging and , you click **Cancel**, the file you were searching for gets added to this list so that the debugger won't continue searching for that file.
 
 ## See also
 
