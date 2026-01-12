@@ -21231,6 +21231,11 @@
       "source_path": "docs/debugger/string-visualizer-dialog-box.md",
       "redirect_url": "/visualstudio/debugger/view-strings-visualizer",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/debugger-settings-and-preparation.md",
+      "redirect_url": "/visualstudio/debugger/how-to-specify-debugger-settings",
+      "redirect_document_id": false
     }
   ]
 }

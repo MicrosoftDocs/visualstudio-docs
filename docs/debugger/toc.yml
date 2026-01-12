@@ -126,8 +126,6 @@
     href: debug-source-files-common-properties-solution-property-pages-dialog-box.md
   - name: Debugger settings
     items:
-    - name: Debugger settings and preparation
-      href: debugger-settings-and-preparation.md
     - name: Debugger project settings
       items:
       - name: Project settings
@@ -588,8 +586,6 @@
     items:
     - name: Debugging, Options
       items:
-      - name: Debugging, Options dialog box
-        href: debugging-options-dialog-box.md
       - name: General, Debugging, Options dialog box
         href: general-debugging-options-dialog-box.md
       - name: Just-In-Time, Debugging, Options dialog box
