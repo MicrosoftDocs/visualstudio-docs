@@ -596,8 +596,6 @@
       href: ../ide/reference/problem-details-window.md
     - name: Stop Debugging In Progress dialog box
       href: stop-debugging-in-progress-dialog-box.md
-    - name: String Visualizer dialog box
-      href: string-visualizer-dialog-box.md
     - name: Debugging Errors and Warning
       items:
       - name: Debugging Errors and Warning dialog box

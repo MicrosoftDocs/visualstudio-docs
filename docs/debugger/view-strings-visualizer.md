@@ -1,8 +1,10 @@
 ---
 title: "View strings in a string visualizer"
 description: Use the string visualizer in Visual Studio debugger to view text strings, XML, HTML, and JSON. You can view other object types, including DataSet and DataTable.
-ms.date: "09/10/2025"
+ms.date: "01/12/26"
 ms.topic: article
+f1_keywords:
+  - "vs.debug.stringviewer"
 dev_langs:
   - "CSharp"
   - "VB"
@@ -39,7 +41,7 @@ In the string visualizer window, the **Expression** field shows the variable or 
 
 A blank **Value** means that the chosen visualizer can't recognize the string. For example, the **XML Visualizer** shows a blank **Value** for a text string with no XML tags, or a JSON string.
 
-## View Text  visualizer 
+## View Text visualizer
 
 The text visualizer shows textual data more conveniently. You can also use **Text Visualizer** to view strings that the chosen visualizer can't recognize.
 In addition, **Text Visualizer** provides tooling and string manipulation options and allows you to decode the following text with ease.

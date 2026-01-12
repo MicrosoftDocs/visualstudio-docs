@@ -21226,6 +21226,11 @@
       "source_path": "docs/debugger/when-breakpoint-is-hit-dialog-box.md",
       "redirect_url": "/visualstudio/debugger/using-breakpoints",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/string-visualizer-dialog-box.md",
+      "redirect_url": "/visualstudio/debugger/view-strings-visualizer",
+      "redirect_document_id": false
     }
   ]
 }
