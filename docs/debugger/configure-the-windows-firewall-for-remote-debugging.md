@@ -3,6 +3,8 @@ title: Configure Windows Firewall for remote debugging
 description: Configure Windows Firewall for remote debugging. Configure ports for remote debugging. Troubleshoot the remote debugging connection.
 ms.date: 10/01/2025
 ms.topic: how-to
+f1_keywords:
+  - "vs.debug.firewallconfiguration"
 author: mikejo5000
 ms.author: mikejo
 manager: mijacobs
