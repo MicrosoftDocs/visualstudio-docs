@@ -4,6 +4,8 @@ description: View large collection objects with built-in tabular visualizers in 
 ms.date: "09/03/2025"
 ms.update-cycle: 180-days
 ms.topic: article
+f1_keywords:
+  - "vs.debug.dataviewer"
 dev_langs:
   - "CSharp"
   - "VB"

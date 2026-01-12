@@ -9,6 +9,7 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Debugger.Symbols"
   - "vs.debug.options.Native"
   - "vs.debug.nosymbols"
+  - "vs.debug.symbols.loadinfo"
 dev_langs:
   - "CSharp"
   - "VB"

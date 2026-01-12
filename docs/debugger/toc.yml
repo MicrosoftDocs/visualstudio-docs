@@ -580,12 +580,6 @@
   items:
   - name: Debugging User Interface Reference
     items:
-    - name: User Interface Reference for debugging
-      href: debugging-user-interface-reference.md
-    - name: Choose Breakpoints dialog box
-      href: choose-breakpoints-dialog-box.md
-    - name: Configure Firewall for Remote Debugging dialog box
-      href: configure-firewall-for-remote-debugging-dialog-box.md
     - name: Debugging, Options
       items:
       - name: Debugging, Options dialog box
@@ -596,24 +590,14 @@
         href: just-in-time-debugging-options-dialog-box.md
       - name: Output Window, Debugging, Options dialog box
         href: output-window-debugging-options-dialog-box.md
-    - name: Dataset Visualizer dialog box
-      href: dataset-visualizer-dialog-box.md
     - name: Debug Source Files, Common Properties, Solution Property Pages dialog box
       href: debug-source-files-common-properties-solution-property-pages-dialog-box.md
-    - name: Edit and Continue dialog box
-      href: edit-and-continue-dialog-box.md
     - name: Problem Details window
       href: ../ide/reference/problem-details-window.md
-    - name: Select Code Type dialog box
-      href: select-code-type-dialog-box.md
     - name: Stop Debugging In Progress dialog box
       href: stop-debugging-in-progress-dialog-box.md
     - name: String Visualizer dialog box
       href: string-visualizer-dialog-box.md
-    - name: Symbol Load Information dialog box
-      href: symbol-load-information-dialog-box.md
-    - name: When Breakpoint Is Hit dialog box
-      href: when-breakpoint-is-hit-dialog-box.md
     - name: Debugging Errors and Warning
       items:
       - name: Debugging Errors and Warning dialog box
