@@ -2,7 +2,7 @@
 title: "Format specifiers in the debugger (C#)"
 description: Use a format specifier to change the format in which a value is displayed in the Watch window. This article provides usage details.
 ms.date: "11/21/2018"
-ms.topic: article
+ms.topic: concept-article
 dev_langs:
   - "CSharp"
   - "VB"
