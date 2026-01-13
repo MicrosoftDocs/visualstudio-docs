@@ -2,7 +2,7 @@
 title: Change Themes, Fonts, Text, Accessibility Options
 description: Learn how to change Visual Studio color themes, font colors, text sizes, extra-contrast colors, and more. Configure preferences to improve readability and accessibility in the IDE.
 titleSuffix: ''
-ms.date: 01/06/2026
+ms.date: 01/13/2026
 ms.topic: how-to
 helpviewer_keywords:
 - Visual Studio, color themes
