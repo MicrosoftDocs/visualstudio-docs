@@ -2,7 +2,7 @@
 title: "ClickOnce Deployment Samples and Walkthroughs"
 description: Use these sample applications, example code, and walk-throughs to understand techniques used to deploy Windows Forms, WPF, and console applications.
 ms.date: "11/04/2016"
-ms.topic: article
+ms.topic: concept-article
 dev_langs:
   - "FSharp"
   - "VB"

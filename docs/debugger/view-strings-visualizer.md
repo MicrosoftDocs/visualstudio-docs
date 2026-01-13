@@ -2,7 +2,7 @@
 title: "View strings in a string visualizer"
 description: Use the string visualizer in Visual Studio debugger to view text strings, XML, HTML, and JSON. You can view other object types, including DataSet and DataTable.
 ms.date: "01/12/2026"
-ms.topic: article
+ms.topic: how-to
 f1_keywords:
   - "vs.debug.stringviewer"
 dev_langs:
