@@ -147,10 +147,6 @@ A: Your admin can still decrease the number of subscriptions by visiting [https:
 
 A: Although they aren't able to buy another Cloud Annual subscription, there are many options to purchase Visual Studio Subscriptions. Learn more at [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/).
 
-## Learn more about managing Visual Studio cloud subscriptions
-> [!VIDEO https://medius.microsoft.com/Embed/video-nc/d9193ff6-5066-4801-9756-1f6e9d440c8c?r=950085727539]
-> Learn how Visual Studio Cloud subscriptions work with Azure billing, how to purchase subscriptions in the Marketplace, assign and manage users, adjust subscription quantities, add admins, and understand how subscription changes and expirations are handled.
-
 ## Related resources
 
 + [Visual Studio Subscriptions Admin portal](https://manage.visualstudio.com/)
