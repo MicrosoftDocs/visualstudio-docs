@@ -2,7 +2,7 @@
 title: "Advanced Visualizer Scenarios"
 description: Visual Studio debugger visualizers advanced scenarios and examples for them. 
 ms.date: "05/09/2022"
-ms.topic: article
+ms.topic: concept-article
 f1_keywords:
   - "vs.debug.visualizer.troubleshoot"
 dev_langs:

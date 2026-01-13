@@ -122,10 +122,10 @@
     href: how-to-improve-diagnostics-debugging-with-sourcelink.md
   - name: User code (Just My Code)
     href: just-my-code.md
+  - name: Specify debug source files
+    href: debug-source-files-common-properties-solution-property-pages-dialog-box.md
   - name: Debugger settings
     items:
-    - name: Debugger settings and preparation
-      href: debugger-settings-and-preparation.md
     - name: Debugger project settings
       items:
       - name: Project settings
@@ -444,6 +444,8 @@
         href: mfc-debugging-techniques.md
       - name: CRT debugging techniques >>
         href: /cpp/c-runtime-library/crt-debugging-techniques
+      - name: Problem Details window
+        href: ../ide/reference/problem-details-window.md
       - name: FAQ for debugging native code
         href: debugging-native-code-faqs.yml
       - name: COM
@@ -510,6 +512,8 @@
         href: how-to-step-into-wcf-services.md
       - name: Debug a self-hosted WCF service
         href: how-to-debug-a-self-hosted-wcf-service.md
+  - name: Stop Debugging In Progress dialog box
+    href: stop-debugging-in-progress-dialog-box.md
   - name: Collaborate
     items:
     - name: Write and debug code using Live Share >>
@@ -582,22 +586,12 @@
     items:
     - name: Debugging, Options
       items:
-      - name: Debugging, Options dialog box
-        href: debugging-options-dialog-box.md
       - name: General, Debugging, Options dialog box
         href: general-debugging-options-dialog-box.md
       - name: Just-In-Time, Debugging, Options dialog box
         href: just-in-time-debugging-options-dialog-box.md
       - name: Output Window, Debugging, Options dialog box
         href: output-window-debugging-options-dialog-box.md
-    - name: Debug Source Files, Common Properties, Solution Property Pages dialog box
-      href: debug-source-files-common-properties-solution-property-pages-dialog-box.md
-    - name: Problem Details window
-      href: ../ide/reference/problem-details-window.md
-    - name: Stop Debugging In Progress dialog box
-      href: stop-debugging-in-progress-dialog-box.md
-    - name: String Visualizer dialog box
-      href: string-visualizer-dialog-box.md
     - name: Debugging Errors and Warning
       items:
       - name: Debugging Errors and Warning dialog box

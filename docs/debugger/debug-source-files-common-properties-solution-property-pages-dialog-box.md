@@ -1,8 +1,8 @@
 ---
-title: "Debug Source Files/Solution Property Pages"
+title: "Specify debug source files"
 description: Access the Debug Source Files property page in Visual Studio by right-clicking your solution in Solution Explorer and selecting Properties > Common Properties.
-ms.date: "11/04/2016"
-ms.topic: "ui-reference"
+ms.date: "1/12/2026"
+ms.topic: article
 f1_keywords:
   - "vs.debug.options.FindSource"
 dev_langs:
@@ -22,17 +22,17 @@ ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
 ---
-# Debug Source Files, Common Properties, Solution Property Pages Dialog Box
+# Specify debug source files
 
-This property page specifies where the debugger will look for source files when debugging the solution.
+You can use the **Debug Source Files** property page to specify where the debugger will look for source files when debugging the solution.
 
- To access the **Debug Source Files** property page, right-click on your Solution in **Solution Explorer** and select **Properties** from the shortcut menu. Expand the **Common Properties** folder, and click the **Debug Source Files** page.
+To access the **Debug Source Files** property page, right-click on your Solution in **Solution Explorer** and select **Properties** from the shortcut menu. Expand the **Common Properties** folder, and click the **Debug Source Files** page.
 
- **Directories containing source code**
- Contains a list of directories in which the debugger searches for source files when debugging the solution. Subdirectories of the specified directories are also searched.
+**Directories containing source code**
+Contains a list of directories in which the debugger searches for source files when debugging the solution. Subdirectories of the specified directories are also searched.
 
- **Do not look for these source files**
- Enter the names of any files that you do not want the debugger to read. If the debugger finds one of these files in one of the directories specified above, it will ignore it. If the **Find Source** dialog box comes up while you are debugging and , you click **Cancel**, the file you were searching for gets added to this list so that the debugger will not continue searching for that file.
+**Do not look for these source files**
+Enter the names of any files that you don't want the debugger to read. If the debugger finds one of these files in one of the directories specified above, it will ignore it. If the **Find Source** dialog box comes up while you're debugging and , you click **Cancel**, the file you were searching for gets added to this list so that the debugger won't continue searching for that file.
 
 ## See also
 
