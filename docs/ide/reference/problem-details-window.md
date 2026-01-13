@@ -1,8 +1,8 @@
 ---
-title: Problem Details Window
+title: View problem details for C/C++
 description: Learn about the Problem Details window and how to use it to navigate structured diagnostics.
-ms.date: 10/24/2023
-ms.topic: reference
+ms.date: 10/24/2025
+ms.topic: article
 helpviewer_keywords:
 - Problem Details window
 - build errors
@@ -14,7 +14,7 @@ manager: mluparu
 ms.subservice: general-ide
 ---
 
-# Problem Details window
+# View problem details for C/C++
 
 The **Problem Details** window shows structured diagnostics issued by the MSVC Compiler or [Microsoft C++ Code Analysis](/cpp/code-quality/code-analysis-for-c-cpp-overview).
 
