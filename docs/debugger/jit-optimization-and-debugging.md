@@ -2,7 +2,7 @@
 title: "JIT Optimization and Debugging"
 description: Code that's optimized is more difficult to debug than code that isn't. Learn about JIT optimization, and about when and how to suppress it.
 ms.date: "11/03/2025"
-ms.topic: article
+ms.topic: concept-article
 dev_langs:
   - "CSharp"
   - "VB"

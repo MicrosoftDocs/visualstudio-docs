@@ -2,7 +2,7 @@
 title: "Protected mode for dump debugging"
 description: Using protected mode to debug dumps in isolation.
 ms.date: "09/04/2025"
-ms.topic: article
+ms.topic: concept-article
 author: "auott"
 ms.author: "auott"
 manager: barryta

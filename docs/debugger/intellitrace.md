@@ -2,7 +2,7 @@
 title: Record code execution history with IntelliTrace
 description: Use IntelliTrace to record and trace your code's execution history in Visual Studio. Record specific events, examine related code, and debug errors.
 ms.date: "09/19/2018"
-ms.topic: article
+ms.topic: concept-article
 f1_keywords:
   - "vs.historicaldebug.overview"
 helpviewer_keywords:
