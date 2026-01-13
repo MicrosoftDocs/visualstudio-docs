@@ -1,7 +1,7 @@
 ---
 title: Options, Text Editor, C and C++, Advanced
 description: Learn how to use the Advanced options for C and C++ to change the behavior related to IntelliSense and the browsing database.
-ms.date: 01/09/2026
+ms.date: 01/13/2026
 ms.topic: reference
 f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.C\\C++.Advanced"

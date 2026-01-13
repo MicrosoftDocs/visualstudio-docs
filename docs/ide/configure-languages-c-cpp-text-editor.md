@@ -1,7 +1,7 @@
 ---
 title: Configure Text Editor Options for C and C++
 description: Configure text editor language settings for C and C++ in the Tools Options pane. Change options for Inactive code, Brace completion, Outlining, and more.
-ms.date: 01/09/2026
+ms.date: 01/13/2026
 ms.topic: how-to
 helpviewer_keywords:
   - "Languages Options, Text editor"
@@ -21,13 +21,13 @@ These options let you configure settings for inactive code, brace completion, ou
 
 The following general options are available for the text editor.
 
-- **Show comment tasks in the task list**: When selected (default), Visual Studio scans open source files for tokens like `TODO`, `HACK`, and so on, and shows them in the Task List window. You can customize the list of scanned tokens in the **All Settings** > **Environment** > **Task List** section.
+- **Show comment tasks in the task list**: When selected (default), Visual Studio scans source files for tokens like `TODO`, `HACK`, and so on, and shows them in the **Task List** window. You can customize the list of scanned tokens in the **All Settings** > **Environment** > **Task List** section.
 
-- **Highlight enclosing braces or syntax when the cursor touches one of the set**: When selected (default), Visual Studio highlights enclosing braces or syntax that match where the cursor is positioned.
+- **Highlight enclosing braces or syntax when the cursor touches one of the set**: When selected (default), Visual Studio highlights enclosing braces, parenthesis, and so on, and paired constructs like `#if` / `#endif`.
 
-- **Color scheme for the C/C++ specific customizable colors**: Use this option to select the scheme to apply for C amd C++ specific customizable colors. Choose from **Enhanced** (default), **Visual Studio 2017**, or **Enhanced (Globals vs. Members)**.
+- **Color scheme for the C/C++ specific customizable colors**: Use this option to select the scheme to apply for C and C++ specific customizable colors. Choose from **Enhanced** (default), **Visual Studio 2017**, or **Enhanced (Globals vs. Members)**.
 
-- **Automatically surround selections when typing quotes or brackets**: Use this setting to control whether Visual Studio should automatically surround (enclose) your selections as you work in the editor. You can surround selections enclosed in brackets (square `[]`) and quotes (double `""` or single `''`).
+- **Automatically surround selections when typing quotes or brackets**: Use this setting to control whether Visual Studio should automatically surround (enclose) your selections as you work in the editor. You can surround selections enclosed in brackets (`[]`) and quotes (`""` or `''`).
 
    For example, if you type an open quote or bracket, Visual Studio can automatically add the closing quote or bracket to enclose (surround) your selection. Choose from **Quotes only**, **Brackets Only**, **All** (default), or **Never**.
 
@@ -41,7 +41,7 @@ The following general options are available for the text editor.
 
 The following options are available in the **C/C++** > **Text editor** > **Inactive code** section.
 
-- **Colorize inactive preprocessor blocks differently**: When selected (default), Visual Studio colorizes inactive preprocessor blocks differently. <!-- VS 22 = Show Inactive Blocks -->
+- **Colorize inactive preprocessor blocks differently**: When selected (default), Visual Studio colorizes inactive preprocessor blocks differently than active blocks. <!-- VS 22 = Show Inactive Blocks -->
 
 - **Use opacity percentage for inactive code blocks**: When selected (default), Visual Studio uses a shaded color for inactive code blocks based on the **Inactive code opacity percent** value. When the **Colorize inactive preprocessor blocks differently** is cleared, this option isn't available. <!-- VS 22 = Disable Inactive Code Opacity -->
 
@@ -53,13 +53,15 @@ The following options are available in the **C/C++** > **Text editor** > **Inact
 
 ## Outlining
 
+The outlining feature collapses and expands blocks of code so you can hide details and focus on structure. Visual Studio automatically detects code blocks (functions, classes, namespaces, loops, regions) and lets you collapse them into a single line by selecting the **+** / **–** icon.
+
 The following options are available in the **C/C++** > **Text editor** > **Outlining** section.
 
 - **Enable Outlining**: When selected (default), Visual Studio automatically enters outlining mode when a file opens.
 
-- **Enable automatic outlining of #pragma region blocks**: When selected (default), Visual Studio automatically outline `#pragma` region blocks.
+- **Enable automatic outlining of #pragma region blocks**: When selected (default), Visual Studio automatically outlines `#pragma` region blocks.
 
-- **Enable automatic outlining of statement blocks**: When selected (default), Visual Studio automatically outline statement blocks.
+- **Enable automatic outlining of statement blocks**: When selected (default), Visual Studio automatically outlines statement blocks.
 
 ## Brace completion
 
@@ -67,9 +69,11 @@ The following options are available in the **C/C++** > **Text editor** > **Brace
 
 - **Insert a semicolon after completing braces for types**: When selected (default), Visual Studio automatically inserts a semicolon (`;`) after the closing brace for a type definition.
 
-- **Complete parentheses in raw string literals**: When selected (default), if you type an open parenthesis (`()`) in a raw string literal, Visual Studio automatically adds the closing parenthesis (`)`).
+- **Complete parentheses in raw string literals**: When selected (default), if you type an open parenthesis `(` in a raw string literal, Visual Studio automatically adds the closing parenthesis `)`.
 
-- **Complete multiline comments**: When selected (default), Visual Studio automatically adds the completion syntax for multiline comments (comments that start with `/*`).
+   For example, if you type `auto json = R"json("`, the editor automatically adds the closing parenthesis `)`. Notice the editor doesn't add the delimiter sequence to the end of the closing parenthesis. That is, if you type `auto json = R"json(...`, the editor adds `)` to the end but not `)json`. You have to type the delimiter sequence yourself at the end.
+
+- **Complete multiline comments**: When selected (default), Visual Studio automatically adds the closing syntax `*/` for multiline comments (comments that start with `/*`).
 
 ## Related content
 
