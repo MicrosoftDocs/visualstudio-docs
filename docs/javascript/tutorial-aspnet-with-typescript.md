@@ -60,7 +60,7 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
 
 
 ::: moniker range=">=vs-2022"
-5. In the **Additional information** window, ensure **.NET 8.0** is selected in the **Framework** dropdown menu, and then select **Create**.  
+5. In the **Additional information** window, ensure **.NET 8.0** or later is selected in the **Framework** dropdown menu, and then select **Create**.  
 ::: moniker-end
 
 Visual Studio opens your new project.  
