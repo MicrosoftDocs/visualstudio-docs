@@ -33,7 +33,7 @@ Microsoft Entra ID enables support for end-user single sign-in in ASP.NET MVC we
 
 To see this scenario in action:
 1. Create a new **ASP.NET Core Web App** project.
-2. On the **Additional information** page, choose **.NET 8.0** from the **Target Framework** drop-down.
+2. On the **Additional information** page, choose **.NET 8.0** or later from the **Target Framework** drop-down.
 3. Choose an authentication type from the **Authentication Type** drop-down.
 
 <a name='identity-proxy-support-for-microsoft-entra-id-backed-accounts'></a>
