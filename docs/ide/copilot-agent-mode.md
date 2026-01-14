@@ -89,7 +89,7 @@ Follow these steps to get started:
 
 :::moniker-end
 
-   - Review individual file diffs and apply them selectively.
+      - Review individual file diffs and apply them selectively.
 
 :::moniker range="visualstudio"
 
