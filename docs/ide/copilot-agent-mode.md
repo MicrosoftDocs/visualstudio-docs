@@ -81,18 +81,15 @@ Follow these steps to get started:
 
 :::image type="content" source="media/visualstudio/copilot-agent-mode/copilot-agent-keep-undo.png" alt-text="Screenshot that shows a list of suggested edits." lightbox="media/visualstudio/copilot-agent-mode/copilot-agent-keep-undo.png":::
 
-- Review individual file diffs and apply them selectively.
-
 :::moniker-end
 
 :::moniker range="<=vs-2022"
 
 :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-keep-undo.png" alt-text="Screenshot that shows a list of suggested edits." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-keep-undo.png":::
 
-    - Review individual file diffs and apply them selectively.
 :::moniker-end
 
-     
+   - Review individual file diffs and apply them selectively.
 
 :::moniker range="visualstudio"
 
