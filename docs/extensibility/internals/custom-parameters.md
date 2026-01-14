@@ -2,7 +2,7 @@
 title: Custom Parameters
 description: Learn how to create custom parameters that control the operation of a wizard after a wizard has started, by modifying a .vsz file.
 ms.date: 11/04/2016
-ms.topic: article
+ms.topic: concept-article
 helpviewer_keywords:
 - wizards, custom parameters
 - custom parameters
