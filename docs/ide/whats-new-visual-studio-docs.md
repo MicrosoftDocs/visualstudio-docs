@@ -28,7 +28,6 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- [Debug for absolute beginners](../debugger/debugging-absolute-beginners.md) - Update metadata
 - [Context Operator in the Visual Studio Debugger (C++)](../debugger/context-operator-cpp.md) - Clarify usage for C++ context operator in the debugger
 - [Debug ASP.NET Exceptions](../debugger/how-to-debug-aspnet-exceptions.md) - Clarify usage of exception settings for ASP.NET
 - [BasicType](../debugger/debug-interface-access/basictype.md) - Add new types to DIA SDK
