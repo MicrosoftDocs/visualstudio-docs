@@ -2,7 +2,7 @@
 title: 'Test Area 5: Change Source Control'
 description: Use this source-control plug-in test to change the source control by using the Change Source Control command in Visual Studio.
 ms.date: 11/04/2016
-ms.topic: article
+ms.topic: how-to
 helpviewer_keywords:
 - source control [Visual Studio SDK], changing
 - source control plug-ins, changing source control
