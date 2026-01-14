@@ -21,7 +21,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **New articles**
 
-- [IDiaSymbol13::get_atomicType](../debugger/debug-interface-access/idiasymbol12-get-atomictype.md)
+- [IDiaSymbol12::get_atomicType](../debugger/debug-interface-access/idiasymbol12-get-atomictype.md)
 - [IDiaSymbol12::get_scalableRegisterType](../debugger/debug-interface-access/idiasymbol12-get-scalableregistertype.md)
 - [IDiaSymbol12](../debugger/debug-interface-access/idiasymbol12.md)
 - [ScalableVectorType](../debugger/debug-interface-access/scalablevectortype.md)
