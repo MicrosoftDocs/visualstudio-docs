@@ -2,7 +2,7 @@
 title: "ClickOnce and Authenticode"
 description: Learn about certificates Authenticode uses to verify the authenticity of applications. Learn how certificates are validated and stored.
 ms.date: "11/04/2016"
-ms.topic: article
+ms.topic: concept-article
 dev_langs:
   - "VB"
   - "CSharp"

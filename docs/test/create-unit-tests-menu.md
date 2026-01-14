@@ -1,7 +1,7 @@
 ---
 title: Create unit test method stubs
 description: Learn how to use the Create Unit Tests command, which allows easy configuration of a test project, the test class, and the test method stub within it.
-ms.date: 12/04/2023
+ms.date: 11/25/2025
 ms.topic: how-to
 helpviewer_keywords: 
   - unit testing, create unit tests
@@ -9,6 +9,7 @@ author: mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: test-tools
+monikerRange: '<= vs-2022'
 ---
 # Create unit test method stubs from code
 
@@ -23,9 +24,6 @@ The **Create Unit Tests** menu command is extensible and can be used to generate
 
 To get started, select a method, a type, or a namespace in the code editor in the project you want to test, right-click, and then choose **Create Unit Tests**. The **Create Unit Tests** dialog opens where you can configure how you want the tests to be created.
 
-::: moniker range="<=vs-2019"
-![Using the Create unit tests command](media/createunittestcommand.png)
-::: moniker-end
 ::: moniker range=">=vs-2022"
 ![Using the Create unit tests command and menu dialog](media/vs-2022/create-unit-test-command-menu-dialog.png)
 ::: moniker-end
@@ -36,9 +34,6 @@ If you don't see test framework options for NUnit or xUnit, see [Use third-party
 
 If you plan to run these tests as part of the test automation process, you might consider having the test created in another test project (the second option in the dialog above) and setting unit test traits for the unit test. This enables you to more easily include or exclude these specific tests as part of a continuous integration or continuous deployment pipeline. The traits are set by adding metadata to the unit test directly, as shown below.
 
-::: moniker range="<=vs-2019"
-![Setting unit test traits](media/createunittest.png)
-::: moniker-end
 ::: moniker range=">=vs-2022"
 ![Using the Create unit tests traits](media/vs-2022/create-unit-test-traits.png)
 ::: moniker-end

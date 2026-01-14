@@ -33,11 +33,6 @@ In break mode, app execution is suspended while functions, variables, and object
 
    For example, in the code editor in Visual Studio, you can use the **Run To Cursor** command to start the app, with the debugger attached, and enter break mode. Then you can use step commands to navigate the code.
 
-   ::: moniker range="vs-2019"
-
-   ![Animation that shows selecting Run To Cursor and then F11.](../debugger/media/vs-2019/navigate-code-code-stepping.gif)
-
-   ::: moniker-end
 
    ::: moniker range=">=vs-2022"
 
@@ -116,11 +111,6 @@ You might prefer to run directly to a specific location or function when you kno
 
 To set a simple breakpoint in your code, select the far-left margin next to the line of code where you want to suspend execution. You can also select the line and then select **F9**, select **Debug** > **Toggle Breakpoint**, or right-click and select **Breakpoint** > **Insert Breakpoint**. The breakpoint appears as a red dot in the left margin next to the line of code. The debugger suspends execution just before the line runs.
 
-::: moniker range="<=vs-2019"
-
-![Screenshot that shows how to set a breakpoint.](../debugger/media/vs-2019/dbg-basics-set-breakpoint.png)
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
@@ -140,11 +130,6 @@ To specify a function breakpoint by name:
 
 1. In the **New Function Breakpoint** dialog, enter the name of the function and select its language:
 
-   ::: moniker range="<=vs-2019"
-
-   ![Screenshot that shows the New Function Breakpoint dialog.](../debugger/media/vs-2019/dbg-execution-new-breakpoint.png)
-
-   ::: moniker-end
 
    ::: moniker range=">=vs-2022"
 
@@ -156,11 +141,6 @@ To specify a function breakpoint by name:
 
 If the function is overloaded or in more than one namespace, you can choose the one you want in the **Breakpoints** window:
 
-::: moniker range="<=vs-2019"
-
-![Screenshot that shows breakpoints window.](../debugger/media/vs-2019/dbg-execution-overloaded-breakpoints.png)
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 

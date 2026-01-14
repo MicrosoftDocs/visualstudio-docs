@@ -3,8 +3,8 @@ title: Guidelines for Writing T4 Text Templates
 description: Review helpful guidelines for generating program code or other application resources in Visual Studio with T4 text templates.
 ms.date: 11/04/2016
 ms.topic: article
-author: mgoertz-msft
-ms.author: mgoertz
+author: jekelly
+ms.author: jekelly
 manager: mijacobs
 ms.subservice: modeling
 ---

@@ -66,11 +66,7 @@ In some cases, Microsoft might ask for a minidump of a running Visual Studio pro
    :::image type="content" source="../ide/media/vs-2022/attach-to-process.png" alt-text="Screenshot showing the codes types selected in the Attach To Process dialog.":::
 
    ::: moniker-end
-   ::: moniker range="vs-2019"
 
-   ![Screenshot showing the codes types selected in the Attach To Process dialog.](../ide/media/attach-to-process.png)
-
-   ::: moniker-end
 
 1. Select the other Visual Studio instance to attach to from the list of running processes, and then choose **Attach**.
 

@@ -150,7 +150,31 @@ There were recent fixes made to `ResolveAssemblyReference` to alleviate the situ
 
 There are two ways to customize the list of paths `ResolveAssemblyReference` searches in attempting to locate an assembly. To fully customize the list, the property `AssemblySearchPaths` can be set ahead of time. The order matters; if an assembly is in two locations, `ResolveAssemblyReference` stops after it finds it at the first location.
 
-By default, there are ten locations `ResolveAssemblyReference` searches (four if you use the .NET SDK), and each can be disabled by setting the relevant flag to false:
+`AssemblySearchPaths` is a semicolon-delimited list. It supports a set of built-in placeholders (for example, `{HintPathFromItem}` and `{GAC}`) that expand to actual locations during resolution.
+
+By default, non-SDK-style projects use the following search path order:
+
+1. Candidate assembly files (`{CandidateAssemblyFiles}`)
+2. The `ReferencePath` property (`$(ReferencePath)`)
+3. Hint paths from `<Reference>` items (`{HintPathFromItem}`)
+4. The target framework directory (`{TargetFrameworkDirectory}`)
+5. Assembly folders from `AssemblyFolders.config` (`$(AssemblyFoldersConfigFileSearchPath)`)
+6. The registry (`{Registry:...}`)
+7. Legacy registered assembly folders (`{AssemblyFolders}`)
+8. The Global Assembly Cache (GAC) (`{GAC}`)
+9. Treat the `<Reference Include="...">` value as a real file name (`{RawFileName}`)
+10. The output directory (`$(OutDir)`)
+
+The .NET SDK sets a smaller default `AssemblySearchPaths` (excluding GAC/registry/output directory searches by default):
+
+- `{CandidateAssemblyFiles}`
+- `{HintPathFromItem}`
+- `{TargetFrameworkDirectory}`
+- `{RawFileName}`
+
+To see the effective value for your build, inspect the `SearchPaths` input logged by `ResolveAssemblyReference` (for example, in MSBuild Structured Log Viewer), or preprocess the project with `msbuild /pp`.
+
+Each entry can be disabled by setting the relevant flag to `false`:
 
 - Searching files from the current project is disabled by setting the `AssemblySearchPath_UseCandidateAssemblyFiles` property to false.
 - Searching the reference path property (from a `.user` file) is disabled by setting the `AssemblySearchPath_UseReferencePath` property to false.

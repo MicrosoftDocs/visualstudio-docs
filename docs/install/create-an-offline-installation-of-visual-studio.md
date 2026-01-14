@@ -58,12 +58,7 @@ Here are some common local layout creation examples. More examples can be found 
    ```shell
     vs_enterprise.exe --layout c:\localVSlayout
     ```
-::: moniker range="vs-2019"
 
-   > [!NOTE]
-   > Make sure that your full installation path is less than 80 characters and that your machine has ample storage. A complete local layout of Visual Studio requires a minimum of 41 GB of disk space. For more information, see [System requirements](/visualstudio/releases/2019/system-requirements/).
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
@@ -92,19 +87,6 @@ When you install Visual Studio from a local layout, the Visual Studio Installer 
 
 For example, if you created a local installation layout with the following command:
 
-::: moniker range="<=vs-2019"
-
-```shell
-vs_enterprise.exe --layout c:\localVSlayout --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetWeb --add Component.GitHub.VisualStudio --includeOptional --lang en-US
-```
-
-Then use the following command to run the installation and prevent the client machine from accessing the internet:
-
-```shell
-c:\localVSlayout\vs_enterprise.exe --noWeb --add Microsoft.VisualStudio.Workload.ManagedDesktop --add Microsoft.VisualStudio.Workload.NetWeb --add Component.GitHub.VisualStudio --includeOptional
-```
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 

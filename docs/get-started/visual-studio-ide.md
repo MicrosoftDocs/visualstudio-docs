@@ -23,14 +23,6 @@ Visual Studio is a powerful developer tool that you can use to complete the enti
 
 With the variety of features and language support in Visual Studio, you can grow from writing your first "Hello World" program to developing and deploying apps. For example, build, debug, and test .NET and C++ apps, edit ASP.NET pages in the web designer view, develop cross-platform mobile and desktop apps with .NET, or build responsive web UIs in C#.
 
-::: moniker range="vs-2019"
-
-To install Visual Studio, select the following button, and [choose the edition of Visual Studio](#choose-your-visual-studio-edition) to download.
-
- > [!div class="button"]
- > [Download Visual Studio](/visualstudio/releases/2019/release-notes/)
-
-::: moniker-end
 
 ::: moniker range="vs-2022"
 
@@ -161,12 +153,6 @@ There are three editions of Visual Studio:
 
 To install Visual Studio, select the following button, and then choose the edition of Visual Studio.
 
-::: moniker range="vs-2019"
-
- > [!div class="button"]
- > [Download Visual Studio](/visualstudio/releases/2019/release-notes/)
-
-::: moniker-end
 
 ::: moniker range="vs-2022"
 

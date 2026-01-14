@@ -10,7 +10,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
-monikerRange: '>= vs-2019'
+monikerRange: '>= vs-2022'
 ms.custom: sfi-image-nochange
 ---
 
@@ -47,9 +47,7 @@ To attach to a running process in a Linux Docker container:
    ::: moniker range=">= vs-2022"
    ![Screenshot of the Attach to Process dialog in Visual Studio showing a Connection type of Docker (Linux Container).](../debugger/media/vs-2022/attach-process-menu.png "Attach_To_Process_Menu")
    ::: moniker-end
-   ::: moniker range="vs-2019"
-   ![Screenshot of the Attach to Process dialog in Visual Studio showing a Connection type of Docker (Linux Container).](../debugger/media/attach-process-menu.png "Attach_To_Process_Menu")
-   ::: moniker-end
+
 
 3. Select **Find...** to set the **Connection target** via the **Select Docker Container** dialog box.
 
@@ -63,9 +61,7 @@ To attach to a running process in a Linux Docker container:
          ::: moniker range=">= vs-2022"
          ![Screenshot of select Docker Container Menu.](../debugger/media/vs-2022/select-docker-container.png "Select_Docker_Container_Menu")
          ::: moniker-end
-         ::: moniker range="vs-2019"
-         ![Screenshot of select Docker Container Menu.](../debugger/media/select-docker-container.png "Select_Docker_Container_Menu")
-         ::: moniker-end
+
 
     - To debug a Docker container process remotely:
 
@@ -77,9 +73,7 @@ To attach to a running process in a Linux Docker container:
            ::: moniker range=">= vs-2022"
            ![Screenshot of Connect to a Remote System.](../debugger/media/vs-2022/connect-remote-system.png "Connect to a Remote System")
            ::: moniker-end
-           ::: moniker range="vs-2019"
-           ![Screenshot of Connect to a Remote System.](../debugger/media/connect-remote-system.png "Connect to a Remote System")
-           ::: moniker-end
+
         1. Enter required connection information and choose **Connect**.
         1. After connecting to the SSH, select a running container to attach to, and then choose **OK**.
 
@@ -94,10 +88,7 @@ To attach to a running process in a Linux Docker container:
 
    ![Screenshot of the Attach to Process dialog in Visual Studio. Connection type is set to Docker (Linux Container) and the dotnet process is selected.](../debugger/media/vs-2022/docker-attach-complete.png "Completed Linux Docker Attach Menu")
    ::: moniker-end
-   ::: moniker range="vs-2019"
 
-   ![Screenshot of the Attach to Process dialog in Visual Studio. Connection type is set to Docker (Linux Container) and the dotnet process is selected.](../debugger/media/docker-attach-complete.png "Completed Linux Docker Attach Menu")
-   ::: moniker-end
 
 ## Attach to a process running on a Windows Docker container
 
@@ -116,10 +107,7 @@ To attach to a running process in a Windows Docker container:
 
    ![Screenshot of the Attach to Process dialog in Visual Studio showing a Connection type of Docker (Windows Container).](../debugger/media/vs-2022/attach-process-menu-docker-windows.png "Attach_To_Process_Menu")
    ::: moniker-end
-   ::: moniker range="vs-2019"
 
-   ![Screenshot of the Attach to Process dialog in Visual Studio showing a Connection type of Docker (Windows Container).](../debugger/media/attach-process-menu-docker-windows.png "Attach_To_Process_Menu")
-   ::: moniker-end
 
 3. Select **Find...** to set the **Connection target** using the **Select Docker Container** dialog box.
 
@@ -140,7 +128,4 @@ To attach to a running process in a Windows Docker container:
 
    ![Screenshot of the Attach to Process dialog in Visual Studio. Connection type is set to Docker (Windows Container) and the dotnet.exe process is selected.](../debugger/media/vs-2022/docker-attach-complete-windows.png "Completed Windows Docker Attach Menu")
    ::: moniker-end
-   ::: moniker range="vs-2019"
 
-   ![Screenshot of the Attach to Process dialog in Visual Studio. Connection type is set to Docker (Windows Container) and the dotnet.exe process is selected.](../debugger/media/docker-attach-complete-windows.png "Completed Windows Docker Attach Menu")
-   ::: moniker-end

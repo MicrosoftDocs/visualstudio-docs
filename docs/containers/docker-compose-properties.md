@@ -111,14 +111,6 @@ services:
 
 Use double quotes around the values, as in the preceding example, and use the backslash as an escape character for backslashes in paths.
 
-:::moniker range="<=vs-2019"
-|Label name|Description|
-|----------|-----------|
-|com.microsoft.visualstudio.debuggee.program|The program launched when starting debugging. For .NET Core apps, this setting is typically **dotnet**.|
-|com.microsoft.visualstudio.debuggee.arguments|The arguments passed to the program when starting debugging. For .NET Core apps, these arguments are typically additional search paths for NuGet packages followed by the path to the project's output assembly.|
-|com.microsoft.visualstudio.debuggee.workingdirectory|The directory used as the starting directory when starting debugging. This setting is typically */app* for Linux containers, or *C:\app* for Windows containers.|
-|com.microsoft.visualstudio.debuggee.killprogram|This command is used to stop the debuggee program that's running inside of the container (when necessary).|
-:::moniker-end
 
 :::moniker range=">=vs-2022"
 |Label name|Description|

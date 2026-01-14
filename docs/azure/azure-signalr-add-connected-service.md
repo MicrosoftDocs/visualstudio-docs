@@ -7,7 +7,7 @@ ms.subservice: azure-development
 ms.topic: how-to
 ms.date: 05/15/2023
 ms.author: ghogen
-monikerRange: ">= vs-2019"
+monikerRange: ">= vs-2022"
 ms.custom: sfi-image-nochange
 ---
 
@@ -32,54 +32,6 @@ The connected service functionality adds all the needed references and connectio
 - A project of one of the supported types
 - [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
 
-:::moniker range="vs-2019"
-
-## Connect to Azure SignalR using Connected Services
-
-1. Open your project in Visual Studio.
-
-1. In **Solution Explorer**, right-click the **Connected Services** node, and, from the context menu, select **Add Connected Service**.
-
-   If you don't see the **Connected Services** node, choose **Project** > **Connected Services** > **Add**.
-
-1. In the **Connected Services** tab, select the + icon for **Service Dependencies**.
-
-    ![Add Service Dependency](./media/vs-azure-tools-connected-services-storage/vs-2019/connected-services-tab.png)
-
-1. In the **Add Dependency** page, select **Azure SignalR Service**.
-
-    ![Add Azure SignalR Service](./media/azure-signalr-add-connected-service/add-signalr-service.png)
-
-    If you aren't signed in already, sign in to your Azure account. If you don't have an Azure account, you can sign up for a [free trial](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn).
-
-1. In the **Configure Azure SignalR** screen, select an existing Azure SignalR component, and select **Next**.
-
-    If you need to create a new component, go to the next step. Otherwise, skip to step 7.
-
-    ![Connect to existing Azure SignalR component](./media/azure-signalr-add-connected-service/created-signalr.png)
-
-1. To create an Azure SignalR service instance:
-
-   1. Select **Create a new Azure SignalR Service instance** at the bottom of the screen.
-
-   1. Fill out the **Azure SignalR Service: Create new** screen, and select **Create**.
-
-       ![New Azure SignalR Service instance](./media/azure-signalr-add-connected-service/create-new-signalr.png)
-
-   1. When the **Configure Azure SignalR Service** screen is displayed, the new instance appears in the list. Select the new instance in the list, and select **Next**.
-
-1. Enter a connection string name, or choose the default, and choose whether you want the connection string stored in a local secrets file, or in [Azure Key Vault](/azure/key-vault).
-
-   ![Specify connection string](./media/azure-signalr-add-connected-service/connection-string.png)
-
-1. The **Summary of changes** screen shows all the modifications that will be made to your project if you complete the process. If the changes look OK, choose **Finish**.
-
-   ![Summary of changes](./media/azure-signalr-add-connected-service/summary-of-changes.png)
-
-1. The connection appears under the **Service Dependencies** section of the **Connected Services** tab.
-
-   ![Service dependencies](./media/azure-signalr-add-connected-service/service-dependencies-after.png)
-:::moniker-end
 
 :::moniker range=">=vs-2022"
 

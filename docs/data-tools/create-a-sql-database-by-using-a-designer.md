@@ -37,9 +37,7 @@ To complete this walkthrough, you need the **.NET desktop development** and **Da
    :::moniker range=">=vs-2022"
    ![Add New item > Service-based database](media/vs-2022/visual-studio-add-service-database.png)
    :::moniker-end
-   :::moniker range="<=vs-2019"
-   ![Add New item > Service-based database](media/raddata-vsitemtemplates.png)
-   :::moniker-end
+
 
 4. Name the database **SampleDatabase.mdf**, and then select **Add**.
 
@@ -52,9 +50,7 @@ To complete this walkthrough, you need the **.NET desktop development** and **Da
    :::moniker range=">=vs-2022"
    ![Add new data source in Visual Studio](media/vs-2022/add-new-data-source.png)
    :::moniker-end
-   :::moniker range="<=vs-2019"
-   ![Add new data source in Visual Studio](media/add-new-data-source.png)
-   :::moniker-end
+
 
    The **Data Source Configuration Wizard** opens.
 
@@ -134,9 +130,7 @@ In this section, you create two tables, a primary key in each table, and a few r
    :::moniker range=">=vs-2022"
    ![Table Designer with Customers table](media/vs-2022/table-designer.png)
    :::moniker-end
-   :::moniker range="<=vs-2019"
-   ![Table Designer with Customers table](media/table-designer.png)
-   :::moniker-end
+
 
 8. In the upper-left corner of **Table Designer**, select **Update**, or press **Shift**+**Alt**+**U**.
 
@@ -178,9 +172,7 @@ In this section, you create two tables, a primary key in each table, and a few r
    :::moniker range=">=vs-2022"
    ![Tables node expanded in Server Explorer](media/vs-2022/server-explorer-tables-node.png)
    :::moniker-end
-   :::moniker range="<=vs-2019"
-   ![Tables node expanded in Server Explorer](media/server-explorer-tables-node.png)
-   :::moniker-end
+
 
    If you don't see it, hit the **Refresh** toolbar button.
 
@@ -191,9 +183,7 @@ In this section, you create two tables, a primary key in each table, and a few r
    :::moniker range=">=vs-2022"
    ![Add a foreign key in Table Designer in Visual Studio](media/vs-2022/add-foreign-key.png)
    :::moniker-end
-   :::moniker range="<=vs-2019"
-   ![Add a foreign key in Table Designer in Visual Studio](../data-tools/media/add-foreign-key.png)
-   :::moniker-end
+
 
 2. In the text box that appears, replace the text **ToTable** with **Customers**.
 

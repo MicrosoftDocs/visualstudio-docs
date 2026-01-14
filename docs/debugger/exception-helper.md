@@ -1,7 +1,7 @@
 ---
 title: Inspect and break exceptions when debugging
 description: Learn about the information that Visual Studio provides to help you debug exceptions, and how to selectively disable breaking on exceptions.
-ms.date: 11/10/2025
+ms.date: 01/06/2026
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -78,7 +78,10 @@ Starting in Visual Studio 2022 version 17.3, you can view exception stack frames
 ::: moniker range=">= vs-2022"
 ## Get AI assistance
 
-If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while you're debugging exceptions. Just look for the **Ask Copilot** ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png) button. In these scenarios, Copilot already knows the context for your questions, so you don't need to provide context yourself in chat. For more information, see [Debug with Copilot](../debugger/debug-with-copilot.md).
+If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while you're debugging exceptions. Just look for the **Analyze with Copilot** or **Ask Copilot** ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png) button. In these scenarios, Copilot already knows the context for your questions, so you don't need to provide context yourself in chat. For more information, see [Debug with Copilot](../debugger/debug-with-copilot.md).
+::: moniker-end
+::: moniker range=">=visualstudio"
+If Copilot wants access to the Output window context to help analyze the issue, it will prompt you for this permission in the Chat window. If you grant permission, you enable Copilot to perform additional analysis of the exception based on runtime details. The Exception Helper, variable analysis, code inspection, and other debugging scenarios gain access to this context for the current debug session.
 ::: moniker-end
 
 ::: moniker range=">=visualstudio"

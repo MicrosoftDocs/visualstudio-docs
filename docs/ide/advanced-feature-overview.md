@@ -27,11 +27,6 @@ To learn more about setting up Visual Studio on your system, see [Install Visual
 
 Visual Studio has a suite of tools to easily create Microsoft Azure cloud-enabled applications. You can configure, build, debug, package, and deploy Azure apps and services directly from the Visual Studio integrated development environment (IDE). To get the Azure tools and project templates, select the **Azure development** workload when you install Visual Studio.
 
-::: moniker range="<=vs-2019"
-
-![Screenshot of the Azure development workload in the Visual Studio Installer.](../data-tools/media/azure-development-workload.png)
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
@@ -39,13 +34,6 @@ Visual Studio has a suite of tools to easily create Microsoft Azure cloud-enable
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
-
-In Visual Studio, use [Cloud Explorer](/azure/vs-azure-tools-resources-managing-with-cloud-explorer) to view and manage your Azure-based cloud resources. Cloud resources might include virtual machines (VMs), tables, and SQL databases. **Cloud Explorer** shows the Azure resources in all the accounts under the Azure subscription you're signed into. If an operation requires the Azure portal, **Cloud Explorer** has links to the place in the portal you need to go.
-
-![Screenshot of Cloud Explorer in Visual Studio.](media/cloud-explorer.png)
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 > [!Important]
@@ -63,9 +51,6 @@ You can use Azure services for your apps by adding **Connected Services**, such 
 
 The available **Connected Services** depend on your project type. Add a service by right-clicking the project in **Solution Explorer** and choosing **Add** > **Connected Service**.
 
-::: moniker range="<=vs-2019"
-![Screenshot that shows Visual Studio Connected Services.](media/connected-services.png)
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
@@ -103,9 +88,6 @@ Visual Studio can build apps and games for macOS, Linux, and Windows, and for An
 
 **SQL Server Object Explorer** provides a view of your database objects, similar to SQL Server Management Studio. With SQL Server Object Explorer, you can do light-duty database administration and design work. Examples include editing table data, comparing schemas, and executing queries by using contextual menus.
 
-::: moniker range="<=vs-2019"
-![Screenshot that shows the SQL Server Object Explorer window.](../ide/media/vs2015_sqlobjectexplorer.png)
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
@@ -144,13 +126,6 @@ For full details, see the [Git experience in Visual Studio](../version-control/g
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
-
-How you open a project from a GitHub repo by using Visual Studio 2019 depends on which version you have. Specifically, if you've installed version [**version 16.8**](/visualstudio/releases/2019/release-notes/) or later, there's a new, more fully integrated [Git experience in Visual Studio](../version-control/git-with-visual-studio.md) available to you.
-
-And, for a step-by-step tutorial on how to connect to a Git or Azure DevOps repository by using Visual Studio, see the [Open a project from a repo](../get-started/tutorial-open-project-from-repo.md?view=vs-2019&preserve-view=true) page.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 

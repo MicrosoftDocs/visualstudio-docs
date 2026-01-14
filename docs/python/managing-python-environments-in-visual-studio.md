@@ -4,8 +4,8 @@ description: Use the Python Environments window to manage global, virtual, and c
 ms.date: 11/12/2025
 ms.customL: devdivchpfy22
 ms.topic: how-to
-author: cwebster-99
-ms.author: cowebster
+author: Devdiv-VR
+ms.author: vedhar
 manager: mijacobs
 ms.subservice: python
 
@@ -53,11 +53,6 @@ The environments that Visual Studio knows about are displayed in the **Python En
    
 :::moniker-end
 
-::: moniker range="vs-2019"
-
-   :::image type="content" source="media/environments/environments-view-all-2019.png" alt-text="Screenshot of the View All Python Environments command in Solution Explorer for Visual Studio 2019." lightbox="media/environments/environments-view-all-2019.png":::
-
-::: moniker-end
 ::: moniker range="vs-2022"
 
    :::image type="content" source="media/environments/environments-view-all-2022.png" alt-text="Screenshot of the View All Python Environments command in Solution Explorer for Visual Studio." lightbox="media/environments/environments-view-all-2022.png":::
@@ -72,11 +67,6 @@ The **Python Environments** window appears alongside **Solution Explorer** in Vi
     
 :::moniker-end
 
-::: moniker range="vs-2019"
-
-:::image type="content" source="media/environments/environments-default-view-2019.png" alt-text="Screenshot of the Python Environments window in Visual Studio 2019." lightbox="media/environments/environments-default-view-2019.png":::
-
-::: moniker-end
 ::: moniker range="vs-2022"
 
 :::image type="content" source="media/environments/environments-default-view-2022.png" alt-text="Screenshot of the Python Environments window in Visual Studio." lightbox="media/environments/environments-default-view-2022.png":::
@@ -105,14 +95,6 @@ To the right of each listed environment, is a control that opens an **Interactiv
 
 :::moniker-end
 
-::: moniker range="vs-2019"
-
-> [!TIP]
-> When you expand the **Python Environments** window wide enough, you see a fuller view of your environments that can be more convenient to work with.
->
-> :::image type="content" source="media/environments/environments-expanded-view-2019.png" alt-text="Screenshot of the Python Environments window expanded view in Visual Studio 2019." lightbox="media/environments/environments-expanded-view-2019.png":::
-
-::: moniker-end
 
 ::: moniker range="vs-2022"
 

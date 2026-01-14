@@ -11,11 +11,6 @@ ms.update-cycle: 90-days
 
 # Quickstart: Container Tools in Visual Studio
 
-::: moniker range="vs-2019"
-
-[!INCLUDE[Visual Studio Container Tools](includes/vs-2019/container-tools.md)]
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 

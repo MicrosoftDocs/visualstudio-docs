@@ -40,16 +40,12 @@ Usually, the local machine best replicates installed app execution. To collect d
    ::: moniker range=">=vs-2022"
    The deployment target typically matches the project name, indicating a local deployment.
    ::: moniker-end
-   ::: moniker range="vs-2019"
-   The deployment target is typically **Local Windows Debugger** (or **Local Machine**).
-   ::: moniker-end
+
 
     ::: moniker range=">=vs-2022"
     ![Screenshot that shows Select Release and Local Machine.](../profiling/media/vs-2022/cpu-use-select-release.png "Select Release")
     ::: moniker-end
-    ::: moniker range="<=vs-2019"
-    ![Screenshot that shows Select Release and Local Machine.](../profiling/media/cpu-use-select-release-local-machine.png "Select Release and Local Machine")
-    ::: moniker-end
+
 
 1. Select **Debug** > **Performance Profiler**.
 
@@ -58,9 +54,7 @@ Usually, the local machine best replicates installed app execution. To collect d
     ::: moniker range=">=vs-2022"
     ![Screenshot that shows Select CPU Usage.](../profiling/media/vs-2022/cpu-use-lib-choose-cpu-usage.png "Select CPU Usage")
     ::: moniker-end
-    ::: moniker range="<=vs-2019"
-    ![Screenshot that shows Select CPU Usage.](../profiling/media/cpu-use-lib-choose-cpu-usage.png "Select CPU Usage")
-    ::: moniker-end
+
 
     If you enable the **Start with collection paused** option before starting the profiler, data will not be collected until you select the **Record** button in the diagnostic session view.
 
@@ -72,18 +66,14 @@ Usually, the local machine best replicates installed app execution. To collect d
     ::: moniker range=">=vs-2022"
     ![Screenshot that shows Stop CPU Usage data collection.](../profiling/media/vs-2022/cpu-use-wt-stop-collection.png "Stop CPU Usage data collection")
     ::: moniker-end
-    ::: moniker range="<=vs-2019"
-    ![Screenshot that shows Stop CPU Usage data collection.](../profiling/media/cpu-use-wt-stop-collection.png "Stop CPU Usage data collection")
-    ::: moniker-end
+
 
     The CPU Usage tool analyzes the data and displays the report. If you have trouble collecting or displaying data, see [Troubleshoot profiling errors and fix issues](../profiling/troubleshoot-profiler-errors.md).
 
     ::: moniker range=">=vs-2022"
     ![Screenshot that shows CPU Usage report.](../profiling/media/vs-2022/cpu-use-wt-report.png "CPU Usage report")
     ::: moniker-end
-    ::: moniker range="<=vs-2019"
-    ![Screenshot that shows CPU Usage report.](../profiling/media/cpu-use-wt-report.png "CPU Usage report")
-    ::: moniker-end
+
 
     Use the **Filter** dropdown to select or deselect threads to display, and use the **Search** box to search for a specific thread or node. 
 
@@ -128,14 +118,6 @@ The following table provides a description of the detailed views.
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
-To analyze the report, click **Create detailed report**.
-
-The report provides different views of the diagnostic data:
-
-- Caller/callee
-- Call tree
-::: moniker-end
 
 In all views except Caller/callee, the diagnostic report is sorted by **Total CPU**, from highest to lowest. Change the sort order or sort column by selecting the column headers. You can double-click on a function that you are interested in, and you will see the source for the function as well as highlighting that shows where time is spent in that function. The table shows columns with data such as the time spent in the function, including called functions (Total CPU), and a second column that shows the time spent in a function, excluding called functions (Self CPU).
 
@@ -156,9 +138,7 @@ You can click the **Expand Hot Path** and **Show Hot Path** buttons to see the f
 ::: moniker range=">=vs-2022"
 ![Screenshot that shows Call tree structure.](../profiling/media/vs-2022/cpu-use-wt-call-tree-annotated.png "Call tree structure")
 ::: moniker-end
-::: moniker range="vs-2019"
-![Screenshot that shows Call tree structure.](../profiling/media/vs-2019/cpu-use-wt-getmaxnumber-call-tree-annotated.png "Call tree structure")
-::: moniker-end
+
 
 |Image|Description|
 |-|-|
@@ -178,13 +158,7 @@ To view the call paths of external code, on the main report summary page (right 
 
 ![Screenshot that shows Settings, then Show Just My Code.](../profiling/media/vs-2022/diagnostics-tools-show-external-code.png)
 ::: moniker-end
-::: moniker range="vs-2019"
-System and framework functions that are executed by your code are called *external code*. External code functions start and stop the app, draw the UI, control threading, and provide other low-level services to the app. In most cases, you aren't interested in external code, so the CPU Usage call tree gathers the external functions of a user method into one **[External Code]** node.
 
-To view the call paths of external code, on the main diagnostic report page (right pane), select **Show External Code** from the **Filter** dropdown, and then select **Apply**. The **Call Tree** view of the **CPU Usage** page then expands the external code calls. (The **Filter** dropdown is available on the main diagnostic page, not the detailed views.)
-
-![Screenshot that shows Show External Code.](../profiling/media/cpu-use-wt-filter-view.png "Show External Code")
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 When you disable **Show Just My Code**, the **Call Tree** view of the **CPU Usage** page expands the external code calls.
@@ -193,45 +167,26 @@ Many external code call chains are deeply nested, so the width of the chain can 
 
 ![Screenshot that shows nested external code in the call tree.](../profiling/media/vs-2022/cpu-use-wt-show-external-code.png "Nested external code in the call tree")
 ::: moniker-end
-::: moniker range="vs-2019"
-Many external code call chains are deeply nested, so the width of the chain can exceed the display width of the **Function Name** column. The function names then appear as **...**.
 
-![Screenshot that shows nested external code in the call tree.](../profiling/media/cpu-use-wt-show-external-code-too-wide.png "Nested external code in the call tree")
-::: moniker-end
 
 To find a function name you're looking for, use the search box. Hover over the selected line or use the horizontal scroll bar to view the data.
 
 ::: moniker range=">=vs-2022"
 ![Screenshot that shows Search for nested external code.](../profiling/media/vs-2022/cpu-use-wt-search.png "Search for nested external code")
 ::: moniker-end
-::: moniker range="vs-2019"
-![Screenshot that shows Search for nested external code.](../profiling/media/vs-2019/cpu-use-wt-show-external-code-too-wide-found.png "Search for nested external code")
-::: moniker-end
+
 
 #### <a name="BKMK_Asynchronous_functions_in_the_CPU_Usage_call_tree"></a> Asynchronous functions in the CPU usage call tree
 
 When the compiler encounters an asynchronous method, it creates a hidden class to control the method's execution. Conceptually, the class is a state machine. The class has compiler-generated functions that asynchronously call the original methods, and the callbacks, scheduler, and iterators needed to run them. When a parent method calls the original method, the compiler removes the method from the execution context of the parent, and runs the hidden class methods in the context of the system and framework code that controls app execution. The asynchronous methods are often, but not always, executed on one or more different threads. This code appears in the **CPU Usage** call tree as children of the **[External Code]** node immediately below the top node of the tree.
 
-::: moniker range="vs-2019"
-In the following example, the first two nodes under **[External Code]** are the compiler-generated methods of the state machine class. The third node is the call to the original method.
-
-![Screenshot that shows Asynchronous node.](media/cpu-use-wt-getmaxnumber-async-selected.png "Asynchronous node")
-::: moniker-end
 
 Expand the generated methods to show what's going on:
 
 ::: moniker range=">=vs-2022"
 ![Screenshot that shows expanded asynchronous node.](media/vs-2022/cpu-use-wt-expanded-call-tree.png "Expanded asynchronous node")
 ::: moniker-end
-::: moniker range="vs-2019"
-![Screenshot that shows expanded asynchronous node.](media/cpu-use-wt-getmaxnumber-async-expanded-call-tree.png "Expanded asynchronous node")
 
-- `MainPage::GetMaxNumberAsyncButton_Click` just manages a list of the task values, computes the maximum of the results, and displays the output.
-
-- `MainPage+<GetMaxNumberAsyncButton_Click>d__3::MoveNext` shows you the activity required to schedule and launch the 48 tasks that wrap the call to `GetNumberAsync`.
-
-- `MainPage::<GetNumberAsync>b__b` shows the activity of the tasks that call `GetNumber`.
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 

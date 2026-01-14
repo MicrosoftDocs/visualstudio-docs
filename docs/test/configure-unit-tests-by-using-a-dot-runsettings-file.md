@@ -1,7 +1,7 @@
 ---
 title: Configure unit tests with a .runsettings file
 description: Learn how to use the .runsettings file in Visual Studio to configure unit tests that are run from the command line, from the IDE, or in a build workflow.
-ms.date: 09/18/2025
+ms.date: 12/17/2025
 ms.topic: how-to
 ms.author: mikejo
 manager: mijacobs
@@ -61,13 +61,28 @@ To autodetect the run settings file, place it at the root of your solution.
 
 If auto detection of run settings files is enabled, the settings in this file are applied across all tests run. You can turn on auto detection of runsettings files using two methods:
 
-- Select **Tools** > **Options** > **Test** > **Auto Detect runsettings Files**
+:::moniker range="visualstudio"
 
-   ![Auto detect runsettings file option in Visual Studio](media/auto-detect-runsettings-tools-window.png)
+- Open the **Tools** > **Options** pane, expand the **All Settings** > **Test** section, and select the **Auto detect runsettings files** option:
 
-- Select **Test** > **Configure Run Settings** > **Auto Detect runsettings Files**
+   :::image type="content" source="media/visualstudio/auto-detect-runsettings-tools-window.png" border="false" alt-text="Screenshot shows the Auto detect runsettings file option in Visual Studio.":::
 
-   ![Auto detect runsettings file menu in Visual Studio](media/auto-detect-runsettings-menu.png)
+- Select **Test** > **Configure Run Settings** > **Auto Detect runsettings Files**.
+
+   ![Screenshot of Auto detect runsettings file menu in Visual Studio.](media/visualstudio/auto-detect-runsettings-menu.png)
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+- Open the **Tools** > **Options** dialog, expand the **Test** > **General** section, and select the **Auto Detect runsettings Files** option:
+
+   ![Auto detect runsettings file option in Visual Studio](media/visualstudio/auto-detect-runsettings-tools-window.png)
+
+- Select **Test** > **Configure Run Settings** > **Auto Detect runsettings Files**.
+
+   ![Screenshot of Auto detect runsettings file menu in Visual Studio.](media/auto-detect-runsettings-menu.png)
+
+:::moniker-end
 
 #### Manually select the run settings file
 
@@ -76,7 +91,17 @@ In the IDE, select **Test** > **Configure Run Settings** > **Select Solution Wid
 - This file overrides the *.runsettings* file at the root of the solution, if one is present, and is applied across all tests run.
 - This file selection only persists locally.
 
+:::moniker range="<=vs-2022"
+
 ![Select test solution-wide runsettings file menu in Visual Studio](media/select-solution-settings-file.png)
+
+:::moniker-end
+
+:::moniker range="visualstudio"
+
+![Screenshot of Select test solution-wide runsettings file menu in Visual Studio.](media/visualstudio/select-solution-settings-file.png)
+
+:::moniker-end
 
 #### Set a build property
 
@@ -160,7 +185,7 @@ The **RunConfiguration** element can include the following elements:
 |**MaxCpuCount**|1|**The option name is case sensitive and is easy to misspell as MaxCPUCount**.<br /><br />This setting controls the level of parallelism on process-level. Use 0 to enable the maximum process-level parallelism.<br /><br />This setting determines the maximum number of test DLLs, or other test containers that can run in parallel. Each DLL runs in its own testhost process, and is isolated on the process level from the tests in other test DLLs. This setting doesn't force tests in each test DLL to run in parallel. Controlling the parallel execution within a DLL (on the thread-level) is up to the test framework such as MSTest, XUnit or NUnit.<br /><br />The default value is `1`, meaning that only one testhost runs at the same time. A special value `0` allows as many testhosts as you have logical processors (for example, 6, for a computer with 6 physical cores without multi-threading, or 12, for a computer with six physical cores with multi-threading).<br /><br />The number of distinct DLLs in the run determines the actual number of testhosts started.|
 |**ResultsDirectory**||The directory where test results are placed. The path is relative to the directory that contains .runsettings file.|
 |**TargetFrameworkVersion**| net40 or netcoreapp1.0 |**Omit this whole tag to auto-detect.**<br /><br />This setting defines the framework version, or framework family to use to run tests.<br /><br />Accepted values are any framework moniker such as `net48`, `net472`,`net6.0`, `net5.0`, `netcoreapp3.1`, `uap10.0` or any valid full framework name such as`.NETFramework,Version=v4.7.2` or `.NETCoreApp,Version=v6.0.0`. For backwards compatibility `Framework35`, `Framework40`, `Framework45`, `FrameworkCore10`, `FrameworkUap10` are accepted, meaning (`net35`, `net40`, `net45`, `netcoreapp1.0` and `uap10.0` respectively). All the values are case-insensitive.<br /><br />The provided value is used to determine the test runtime provider to be used. Every test runtime provider must respect the framework family to be used, but might not respect the exact framework version:<br /><br />For .NET Framework 4.5.1 - 4.8 a testhost that was built with the specified exact version is used. For values outside of that range, .NET Framework 4.5.1 testhost is used.<br /><br />For .NET, the test project's `<TargetFramework>` (or more precisely `runtimeconfig.json`) determines the actual version.<br /><br />For UWP, the test project application is a testhost by itself, and determines the actual version of UWP that is used.<br /><br />Omit the `TargetFrameworkVersion` element from the *.runsettings* file to automatically determine the framework version from the built binaries.<br /><br />When autodetecting, all target frameworks are unified into a single common framework. When a different version from the same target framework family is found, the newer version is chosen (for example, net452, net472, net48 = net48).<br /><br />For .NET Framework runner (in Visual Studio, or vstest.console.exe in Developer command line) the common target framework is to net40. For .NET runner (dotnet test + DLLs), the common target framework is set to netcoreapp1.0.|
-|**TargetPlatform**|x86|**Omit this whole tag to auto-detect.**<br /><br />This setting defines the architecture to use to run tests. Possible values are `x86`, `x64`, `ARM`, `ARM64`, `S390x`.<br /><br />When autodetecting, the architecture for AnyCPU DLLs may differ based on the runner. For .NET Framework runner (in Visual Studio, or vstest.console.exe in Developer command line), the default is x86. For .NET runner (dotnet test), the default is the current process architecture.<br /><br />|
+|**TargetPlatform**|x86|**Omit this whole tag to auto-detect.**<br /><br />This setting defines the architecture to use to run tests. Possible values are `x86`, `x64`, `ARM`, `ARM64`, `S390x`.<br /><br />When autodetecting, the architecture for AnyCPU DLLs might differ based on the runner. For .NET Framework runner (in Visual Studio, or vstest.console.exe in Developer command line), the default is x86. For .NET runner (dotnet test), the default is the current process architecture.<br /><br />|
 |**TreatTestAdapterErrorsAsWarnings**|false|false, true|
 |**TestAdaptersPaths**||One or more paths to the directory where the TestAdapters are located|
 |**TestCaseFilter**|| A filter expression in the format \<property>\<operator>\<value>[\|\&amp;\<Expression>]. The boolean operator **\&** should be represented by the HTML entity **\&amp;**. Expressions can be enclosed in parentheses. For detailed syntax on expression structure, see [vstest/docs/filter.md](https://github.com/microsoft/vstest/blob/main/docs/filter.md). |

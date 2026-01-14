@@ -1,8 +1,8 @@
 ---
 title: Work with data in Visual Studio
 description: Work with data in Visual Studio and create apps that connect to data in other database products or services over local machines, LANs, and public or private clouds.
-ms.date: 12/3/2024
-ms.topic: article
+ms.date: 12/5/2025
+ms.topic: concept-article
 helpviewer_keywords:
 - data [Visual Studio]
 - data access [Visual Studio]
@@ -20,48 +20,6 @@ In Visual Studio, you can create applications that connect to data in virtually 
 
 For applications in JavaScript, Python, PHP, Ruby, or C++, you connect to data like you do anything else, by obtaining libraries and writing code. For .NET applications, Visual Studio provides tools that you can use to explore data sources, create object models to store and manipulate data in memory, and bind data to the user interface. Microsoft Azure provides SDKs for .NET, Java, Node.js, PHP, Python, Ruby, and mobile apps, and tools in Visual Studio for connecting to Azure Storage.
 
-::: moniker range="vs-2019"
-The following lists show just a few of the many database and storage systems that can be used from Visual Studio. The [Microsoft Azure](https://azure.microsoft.com/) offerings are data services that include all provisioning and administration of the underlying data store. The **Azure development** workload in [Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) enables you to work with Azure data stores directly from Visual Studio.
-
-![Azure development workload](media/azure-development-workload.png)
-
-Most of the other SQL and NoSQL database products that are listed here can be hosted on a local machine, on a local network, or in Microsoft Azure on a virtual machine. If you host the database in a Microsoft Azure virtual machine, you're responsible for managing the database itself.
-
-**Microsoft Azure**
-
-- SQL Database
-- Azure Cosmos DB
-- Storage (blobs, tables, queues, files)
-- SQL Data Warehouse
-- SQL Server Stretch Database
-- StorSimple
-- And more...
-
-**SQL**
-
-- SQL Server 2005-2016 (includes Express and LocalDB)
-- Firebird
-- MariaDB
-- MySQL
-- Oracle
-- PostgreSQL
-- SQLite
-- And more...
-
-**NoSQL**
-
-- Apache Cassandra
-- CouchDB
-- MongoDB
-- NDatabase
-- OrientDB|
-- RavenDB
-- VelocityDB
-- And more...
-
-Many database vendors and third parties support Visual Studio integration by NuGet packages. You can explore the offerings on nuget.org or through the NuGet Package Manager in Visual Studio (**Tools** > **NuGet Package Manager** > **Manage NuGet Packages for Solution**). Other database products integrate with Visual Studio as an extension. You can browse these offerings in the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) or by navigating to **Extensions** > **Manage Extensions** and then selecting **Online** in the left pane of the dialog box. For more information, see [Compatible database systems for Visual Studio](../data-tools/installing-database-systems-tools-and-samples.md).
-
-::: moniker-end
 
 :::moniker range=">=vs-2022"
 

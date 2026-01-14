@@ -4,8 +4,8 @@ description: Learn how you can use methods and properties in a text template tha
 titleSuffix: ''
 ms.date: 11/04/2016
 ms.topic: how-to
-author: mgoertz-msft
-ms.author: mgoertz
+author: jekelly
+ms.author: jekelly
 manager: mijacobs
 ms.subservice: modeling
 ---

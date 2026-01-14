@@ -48,24 +48,13 @@ While debugging, in the **Debug** menu, select **Windows > Call Stack** or press
   A arrow identifies the stack frame where the execution pointer is currently located. By default, this stack frame's information appears in the source, **Locals**, **Autos**, **Watch**, and **Disassembly** windows. To change the debugger context to another frame on the stack, [switch to another stack frame](#bkmk_switch).
 
   ::: moniker-end
-  ::: moniker range="vs-2019"
 
-  :::image type="content" source="../debugger/media/dbg_basics_callstack_window.png" alt-text="Screenshot showing the Call Stack Window.":::
-  
-
-A yellow arrow identifies the stack frame where the execution pointer is currently located. By default, this stack frame's information appears in the source, **Locals**, **Autos**, **Watch**, and **Disassembly** windows. To change the debugger context to another frame on the stack, [switch to another stack frame](#bkmk_switch).
-
-::: moniker-end
 ::: moniker range=">= vs-2022"
 You can also view exception stack frames in the call stack while debugging. For more information, see [View the call stack in the Exception helper](../debugger/exception-helper.md#view-the-call-stack).
 ::: moniker-end
 
 ## Display non-user code in the Call Stack window
-  ::: moniker range="vs-2019"
 
-To display external or non-user code toggle the Show External code  right-click on the **Call Stack** window and select **Show External Code**.
-
-  ::: moniker-end
 
   ::: moniker range=">=vs-2022"
 

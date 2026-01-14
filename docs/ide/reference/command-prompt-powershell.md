@@ -3,7 +3,7 @@ title: Command-Line Shells & Prompt For Developers
 description: Learn about the two command-line shells for developers in Visual Studio, the Developer Command Prompt and the Developer PowerShell.
 author: Mikejo5000
 ms.author: mikejo
-ms.date: 11/18/2025
+ms.date: 12/17/2025
 ms.topic: article
 helpviewer_keywords:
   - "Visual Studio command prompt"
@@ -12,7 +12,7 @@ helpviewer_keywords:
   - "Developer PowerShell"
   - "Visual Studio terminal"
 no-loc: cmdlet
-monikerRange: ">=vs-2019"
+monikerRange: ">=vs-2022"
 ms.subservice: general-ide
 ---
 # Visual Studio Developer Command Prompt and Developer PowerShell
@@ -21,29 +21,34 @@ Visual Studio includes two command-line shells for developers, a command prompt 
 
 - **Visual Studio Developer Command Prompt**: A standard command prompt with certain environment variables set to make using command-line developer tools easier.
 
-    ::: moniker range="vs-2019"
-    :::image type="content" source="media/developer-command-prompt-for-vs/command-prompt.png" alt-text="Screenshot of the Developer Command Prompt for Visual Studio 2019.":::
+    ::: moniker range="visualstudio"
+    :::image type="content" source="media/developer-command-prompt-for-vs/visualstudio/developer-command-prompt-visual-studio.png" alt-text="Screenshot of the Developer Command Prompt for Visual Studio.":::
     ::: moniker-end
 
-    ::: moniker range=">=vs-2022"
+    ::: moniker range="vs-2022"
     :::image type="content" source="media/developer-command-prompt-for-vs/developer-command-prompt-visual-studio-2022.png" alt-text="Screenshot of the Developer Command Prompt for Visual Studio.":::
     ::: moniker-end
 
 - **Visual Studio Developer PowerShell**: More powerful than a command prompt. For example, you can pass the output of one command, known as a *cmdlet*, to another cmdlet. This shell has the same environment variables set as Developer Command Prompt. Available since Visual Studio 2019.
 
-    ::: moniker range=">=vs-2022"
-    :::image type="content" source="media/developer-command-prompt-for-vs/developer-powershell-visual-studio-2022.png" alt-text="Screenshot of the Developer PowerShell tool in Visual Studio 2022 and later.":::
+    ::: moniker range="visualstudio"
+    :::image type="content" source="media/developer-command-prompt-for-vs/visualstudio/developer-powershell-visual-studio.png" alt-text="Screenshot of the Developer PowerShell tool in Visual Studio.":::
+    ::: moniker-end
+
+    ::: moniker range="vs-2022"
+    :::image type="content" source="media/developer-command-prompt-for-vs/developer-powershell-visual-studio-2022.png" alt-text="Screenshot of the Developer PowerShell tool in Visual Studio.":::
     ::: moniker-end
 
 Starting in Visual Studio 2019, Visual Studio includes an [integrated terminal](https://devblogs.microsoft.com/visualstudio/say-hello-to-the-new-visual-studio-terminal/) that can host either of these command-line shells. You can also open multiple tabs of each shell. The Visual Studio terminal is built on top of [Windows Terminal](/windows/terminal/). To open the terminal in Visual Studio, select **View** > **Terminal**.
 
-::: moniker range=">=vs-2022"
+::: moniker range="visualstudio"
+:::image type="content" source="media/developer-command-prompt-for-vs/visualstudio/visual-studio-terminal-window.png" alt-text="Screenshot of the Visual Studio terminal pane that shows multiple tabs.":::
+::: moniker-end
+
+::: moniker range="vs-2022"
 :::image type="content" source="media/developer-command-prompt-for-vs/visual-studio-2022-terminal-window.png" alt-text="Screenshot of the Visual Studio terminal pane that shows multiple tabs.":::
 ::: moniker-end
 
-::: moniker range="vs-2019"
-:::image type="content" source="media/developer-command-prompt-for-vs/vs-terminal.png" alt-text="Screenshot of the Visual Studio terminal showing multiple tabs.":::
-::: moniker-end
 
 > [!TIP]
 > This page describes how to use the command-line shells in [Visual Studio](https://visualstudio.microsoft.com/#vs-section). If you're looking for the equivalent in [Visual Studio Code](https://visualstudio.microsoft.com/#vscode-section)&mdash;also known as **VS Code**&mdash;see [Command Line Interface (CLI)](https://code.visualstudio.com/docs/editor/command-line) and [Terminal Basics](https://code.visualstudio.com/docs/terminal/basics).
@@ -72,13 +77,14 @@ Follow these steps to open Developer Command Prompt or Developer PowerShell from
 
 1. On the menu bar, select **Tools** > **Command Line** > **Developer Command Prompt** or **Developer PowerShell**.
 
-    ::: moniker range=">=vs-2022"
+    ::: moniker range="visualstudio"
+    :::image type="content" source="media/developer-command-prompt-for-vs/visualstudio/visual-studio-command-line-menu.png" alt-text="Screenshot of the Command Line menu in Visual Studio.":::
+    ::: moniker-end
+
+    ::: moniker range="vs-2022"
     :::image type="content" source="media/developer-command-prompt-for-vs/visual-studio-2022-command-line-menu.png" alt-text="Screenshot of the Command Line menu in Visual Studio.":::
     ::: moniker-end
 
-    ::: moniker range="vs-2019" 
-    :::image type="content" source="media/developer-command-prompt-for-vs/vs-menu.png" alt-text="Screenshot of the Command Line menu in Visual Studio 2019.":::
-    ::: moniker-end
 
 ## Start from Windows menu
 
@@ -112,7 +118,7 @@ Search for the name of the command prompt file, which is *VsDevCmd.bat*, or go t
 
 After you locate the command prompt file, open it by entering the following command in a regular command prompt window:
 
-::: moniker range="vs-2022"
+::: moniker range=">=vs-2022"
 
 ```cmd
 "%ProgramFiles%\Microsoft Visual Studio\2022\Community\Common7\Tools\VsDevCmd.bat"
@@ -125,20 +131,7 @@ Or enter the following command in the Windows **Run** dialog box:
 ```
 
 ::: moniker-end
-
-::: moniker range="vs-2019"
-
-```cmd
-"%ProgramFiles(x86)%\Microsoft Visual Studio\2019\Community\Common7\Tools\VsDevCmd.bat"
-```
-
-Or enter the following command in the Windows **Run** dialog box:
-
-```cmd
-%comspec% /k "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\Tools\VsDevCmd.bat"
-```
-
-::: moniker-end  
+  
 
 Since Visual Studio 2015, the Developer Command Prompt sets the `VSCMD_VER` environment variable, which contains the version information for Visual Studio (for example: 17.14.8). If you need to detect whether the Developer Command Prompt was already run in your console, it's recommended to check whether `VSCMD_VER` has been defined or not.
 
@@ -245,9 +238,6 @@ The Project Location can be adjusted in the **Tools** > **Options** pane in the 
 The Project Location can be adjusted in the **Tools** > **Options** dialog in the **Projects and Solutions** > **Locations** section.
 ::: moniker-end
 
-::: moniker range="vs-2019"
-The Project Location can be adjusted in **Tools** > **Options** > **Projects &amp; Solutions** > **Project Location**.
-::: moniker-end
 
 > [!TIP]
 > The command-line arguments `-Arch`, `-HostArch`, and `-SkipAutomaticLocation` are supported by both the `Launch-VsDevShell.ps1` script and the `Enter-VsDevShell` cmdlet.

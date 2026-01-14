@@ -17,9 +17,6 @@ ms.subservice: debug-diagnostics
 
 If the remote machine doesn't appear in the Remote Connections dialog, check the following common causes.
 
-::: moniker range="vs-2019"
-If you're using managed compatibility mode, please check the Visual Studio 2010 documentation: [Troubleshooting Remote Debugging - Visual Studio 2010](/previous-versions/visualstudio/visual-studio-2010/2ys11ead(v=vs.100)).
-::: moniker-end
 
 ### Common causes for this error
 

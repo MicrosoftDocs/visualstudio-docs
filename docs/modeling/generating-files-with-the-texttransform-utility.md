@@ -6,8 +6,8 @@ ms.topic: concept-article
 helpviewer_keywords:
 - text templates, TextTransform utility
 - TextTransform.exe
-author: mgoertz-msft
-ms.author: mgoertz
+author: jekelly
+ms.author: jekelly
 manager: mijacobs
 ms.subservice: modeling
 ---
@@ -20,29 +20,6 @@ TextTransform.exe is a command-line tool that you can use to transform a text te
 
 TextTransform.exe is located in the following directory:
 
-::: moniker range="=vs-2019"
-
-**\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE**
-
-for Professional edition, or
-
-**\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE**
-
-for Enterprise edition.
-
-::: moniker-end
-
-::: moniker range=">vs-2019"
-
-**\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE**
-
-for Professional edition, or
-
-**\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE**
-
-for Enterprise edition.
-
-::: moniker-end
 
 ## Syntax
 

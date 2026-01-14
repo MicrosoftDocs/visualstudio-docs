@@ -2,7 +2,7 @@
 title: "Recommended debugger property settings for C#, VB"
 description: See the build and compile property settings that should be the same for all managed debugging. Other settings can vary depending on project type.
 ms.date: "11/04/2016"
-ms.topic: article
+ms.topic: best-practice
 dev_langs:
   - "CSharp"
   - "VB"

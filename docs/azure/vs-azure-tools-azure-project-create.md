@@ -17,7 +17,7 @@ Visual Studio provides a project template that lets you create an [Azure Cloud S
 
 ## Prerequisites
 
-- Visual Studio (see [Visual Studio downloads] (https://aka.ms/vs/download/?cid=learn-onpage-download-cta)) with the **Azure development** workload installed, and the Individual Component **.NET Framework project and item templates** installed. See [Modify Visual Studio](../install/modify-visual-studio.md).
+- Visual Studio (see [Visual Studio downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-cta)) with the **Azure development** workload installed, and the Individual Component **.NET Framework project and item templates** installed. See [Modify Visual Studio](../install/modify-visual-studio.md).
 - [!INCLUDE [prerequisites-azure-subscription](includes/prerequisites-azure-subscription.md)]
 
 ## Steps to create an Azure Cloud Services (extended support) project in Visual Studio
@@ -28,18 +28,12 @@ This section walks you through creating an Azure Cloud Services (extended suppor
 
 1. In the search box, type in *Cloud*, and then choose **Azure Cloud Services (extended support)**.
 
-   :::moniker range="<=vs-2019"
-   ![Screenshot showing how to create a new Azure Cloud Services (extended support) project.](./media/vs-azure-tools-azure-project-create/vs-2019/new-project-cloud-service.png)
-   :::moniker-end
    :::moniker range=">=vs-2022"
    ![Screenshot showing how to create a new Azure Cloud Services (extended support) project.](./media/vs-azure-tools-azure-project-create/vs-2022/new-project-cloud-service.png)
    :::moniker-end
 
 1. Give the project a name and choose **Create**.
 
-   :::moniker range="<=vs-2019"
-   ![Screenshot showing creating an Azure Cloud Services (extended support) project, and giving the project a name.](./media/vs-azure-tools-azure-project-create/vs-2019/new-project-cloud-service-2.png)
-   :::moniker-end
    :::moniker range=">=vs-2022"
    ![Screenshot showing creating an Azure Cloud Services (extended support) project, and giving the project a name.](./media/vs-azure-tools-azure-project-create/vs-2022/new-project-cloud-service-2.png)
    :::moniker-end

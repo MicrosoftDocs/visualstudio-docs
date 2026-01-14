@@ -3,8 +3,8 @@ title: Python Support in Visual Studio on Windows
 description: Explore Python Tools for Visual Studio (PTVS) and other Python features in Visual Studio to edit, debug, test, and publish your Python applications.
 ms.date: 07/28/2025
 ms.topic: overview
-author: cwebster-99
-ms.author: cowebster
+author: Devdiv-VR
+ms.author: vedhar
 manager: mijacobs
 ms.subservice: python
 dev_langs:
@@ -35,11 +35,6 @@ To get started with Visual Studio on Windows:
 
 Visual Studio's **Python Environments** window gives you a single place to manage all of your global Python environments, conda environments, and virtual environments. Visual Studio automatically detects installations of Python in standard locations, and allows you to configure custom installations. With each environment, you can easily manage packages, open an interactive window for that environment, and access environment folders.
 
-::: moniker range="vs-2019"
-
-:::image type="content" source="media/environments/environments-expanded-view-2019.png" alt-text="Screenshot that shows the expanded view of the Python Environments window in Visual Studio 2019." lightbox="media/environments/environments-expanded-view-2019.png":::
-
-::: moniker-end
 :::moniker range=">=vs-2022"
 
 :::image type="content" source="media/environments/environments-expanded-view-2022.png" alt-text="Screenshot that shows the expanded view of the Python Environments window in Visual Studio." lightbox="media/environments/environments-expanded-view-2022.png":::
@@ -71,11 +66,6 @@ For more information, see:
 
 For every Python environment known to Visual Studio, you can easily open the same interactive (REPL) environment for a Python interpreter directly within Visual Studio, rather than using a separate command prompt. You can easily switch between environments as well. To open a separate command prompt, select your desired environment in the **Python Environments** window, then select the **Open in PowerShell** command as explained earlier in the [Support for multiple interpreters](#support-for-multiple-interpreters) section.
 
-:::moniker range="<=vs-2019"
-
-:::image type="content" source="media/interactive-window.png" alt-text="Screenshot that shows the expanded view of the Python interactive window in Visual Studio 2019.":::
-
-:::moniker-end
 :::moniker range=">=vs-2022"
 
 :::image type="content" source="media/interactive-window-2022.png" alt-text="Screenshot that shows the expanded view of the Python interactive window in Visual Studio 2022." lightbox="media/interactive-window-2022.png":::
@@ -162,7 +152,7 @@ For more information, see [Azure SDK for Python](/azure/python/) and [Azure libr
 
 ### Is Python support available with Visual Studio for Mac?
 
-Visual Studio for Mac isn't supported. For more information, see [What happened to Visual Studio for Mac?](/visualstudio/mac/what-happened-to-vs-for-mac) Visual Studio Code on Windows, Mac, and Linux [works well with Python through available extensions](https://code.visualstudio.com/docs/languages/python).
+Visual Studio for Mac isn't supported. Visual Studio Code on Windows, Mac, and Linux [works well with Python through available extensions](https://code.visualstudio.com/docs/languages/python).
 
 ### What can I use to build the UI with Python?
 

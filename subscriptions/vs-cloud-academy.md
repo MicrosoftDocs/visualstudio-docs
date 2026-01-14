@@ -3,7 +3,7 @@ title: Cloud Academy benefit in Visual Studio subscriptions
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 08/04/2025
+ms.date: 01/06/2026
 ms.topic: how-to
 description: Activate and explore the Cloud Academy (a QA Company) training benefit available in eligible Visual Studio subscriptions, and find answers to frequently asked questions.
 ---
@@ -31,16 +31,16 @@ Cloud Academy, now part of QA, is a premier learning platform that helps develop
 
 The following table describes the Cloud Academy training benefits that are included in select Visual Studio subscriptions:
 
-|  Subscription level | Channels | Benefit | Renewable? |
-|---------------------|----------|---------|------------|
-|  Visual Studio Enterprise (Standard) | Volume Licensing (VL), Azure, Retail | 12 months | No |
-|  Visual Studio Enterprise subscription with GitHub Enterprise | VL | 12 months | No |
-|  Visual Studio Professional (Standard) | VL, Azure, Retail | 12 months | No |
-|  Visual Studio Professional subscription with GitHub Enterprise | VL | 12 months | No |
-|  Visual Studio Test Professional (Standard) | VL, Retail | Not available | NA |
-|  MSDN Platforms (Standard) | VL, Retail | Not available | NA |
-|  Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure | Not available | NA |
-|  Visual Studio Enterprise (NFR<sup>1</sup>) | Program | Not available | NA |
+| Subscription level | Channels | Benefit | Renewable? |
+| ------------------- | -------- | ------- | ---------- |
+| Visual Studio Enterprise (Standard) | Volume Licensing (VL), Azure, Retail | 12 months | No |
+| Visual Studio Enterprise subscription with GitHub Enterprise | VL | 12 months | No |
+| Visual Studio Professional (Standard) | VL, Azure, Retail | 12 months | No |
+| Visual Studio Professional subscription with GitHub Enterprise | VL | 12 months | No |
+| Visual Studio Test Professional (Standard) | VL, Retail | Not available | NA |
+| MSDN Platforms (Standard) | VL, Retail | Not available | NA |
+| Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure | Not available | NA |
+| Visual Studio Enterprise (NFR<sup>1</sup>) | Program | Not available | NA |
 
 <sup>1</sup> *Includes: Not for Resale (NFR), Visual Studio Industry Partner (VSIP), MCT Software & Services Developer, Most Valuable Professional (MVP), Regional Director (RD), Microsoft AI Cloud Partner Program (MAICPP) formerly known as Microsoft Cloud Partner Program (MCPP) or Microsoft Partner Network (MPN), FTE, Imagine, NFR Basic.*
 
@@ -50,6 +50,8 @@ The following table describes the Cloud Academy training benefits that are inclu
 Not sure which subscription you're using? To see the subscriptions that are associated with your email address, go to the [Visual Studio subscriptions portal](https://my.visualstudio.com/subscriptions/). If you don't see all your subscriptions, you might have one or more subscriptions associated with a different email address. You need to sign in by using that email address to see those subscriptions.
 
 ## Activate your Cloud Academy benefit
+
+See this short video on how to [Activate your Cloud Academy benefit](https://www.youtube.com/embed/uFevI6DS120) on YouTube. It also provides an introduction to the Cloud Academy benefit, and highlights learning features including hands‑on labs and Ela.
 
 1. To activate the Cloud Academy benefit with your Visual Studio subscription, go to [Visual Studio Subscriptions](https://my.visualstudio.com/benefits/) and select the **Benefits** tab. Under **Benefits included in my subscription**, on the Cloud Academy tile, select **Activate**.
 

@@ -11,11 +11,6 @@ ms.custom:
 ---
 An *integrated development environment* (IDE) is a feature-rich program that supports many aspects of software development. The Visual Studio IDE is a creative launching pad that you can use to edit, debug, and build code, and then publish an app. Over and above the standard editor and debugger that most IDEs provide, Visual Studio includes compilers, code completion tools, graphical designers, and many more features to enhance the software development process.
 
-::: moniker range="vs-2019"
-
-:::image type="content" source="../media/vs-2019/ide-overview.png" alt-text="A screenshot of the Visual Studio 2019 IDE, which includes callouts that indicate where key features and functionality are located." lightbox="../media/vs-2019/ide-overview.png":::
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
@@ -45,20 +40,10 @@ Some popular features in Visual Studio that improve your productivity when devel
 
    Squiggles are wavy underlines that alert you to errors or potential problems in your code as you type. These visual clues help you fix problems immediately, without waiting to discover errors during build or runtime. If you hover over a squiggle, you see more information about the error. A lightbulb might also appear in the left margin showing *Quick Actions* you can take to fix the error.
 
-   ::: moniker range="<=vs-2019"
-   ![Screenshot showing squiggles in Visual Studio.](../media/squiggles-error.png)
-   ::: moniker-end
    ::: moniker range=">=vs-2022"
    ![Screenshot showing squiggles in Visual Studio.](../media/vs-2022/squiggles-error.png)
    ::: moniker-end
 
-::: moniker range="vs-2019"
-- Code Cleanup
-
-   With the click of a button, you can format your code and apply any code fixes suggested by your [code style settings](../../ide/reference/options-text-editor-csharp-formatting.md), [.editorconfig conventions](../../ide/create-portable-custom-editor-options.md), and [Roslyn analyzers](../../code-quality/roslyn-analyzers-overview.md). **Code Cleanup**, currently available for C# code only, helps you resolve issues in your code before it goes to code review.
-
-   ![Screenshot showing the Code Cleanup icon and menu in Visual Studio.](../media/vs-2019/code-cleanup.png)
-   ::: moniker-end
 
 ::: moniker range=">=vs-2022"
 - Code Cleanup
@@ -72,9 +57,6 @@ Some popular features in Visual Studio that improve your productivity when devel
 
    Refactoring includes operations such as intelligent renaming of variables, extracting one or more lines of code into a new method, and changing the order of method parameters.
 
-   ::: moniker range="<=vs-2019"
-   ![Screenshot that shows Refactoring in Visual Studio.](../media/refactoring-menu.png)
-   ::: moniker-end
    ::: moniker range=">=vs-2022"
    ![Screenshot that shows Refactoring in Visual Studio.](../media/vs-2022/refactoring-menu.png)
    ::: moniker-end
@@ -85,9 +67,6 @@ Some popular features in Visual Studio that improve your productivity when devel
 
    The following illustration shows how IntelliSense displays a member list for a type:
 
-   ::: moniker range="<=vs-2019"
-   ![Screenshot that shows an IntelliSense member list.](../media/intellisense-list-members.png)
-   ::: moniker-end
    ::: moniker range=">=vs-2022"
    ![Screenshot that shows an IntelliSense member list.](../media/vs-2022/intellisense-list-members.png)
    ::: moniker-end
@@ -98,13 +77,6 @@ Some popular features in Visual Studio that improve your productivity when devel
 
    Visual Studio menus, options, and properties can seem overwhelming at times. Visual Studio search, or **Ctrl**+**Q**, is a great way to rapidly find IDE features and code in one place.
 
-   ::: moniker range="vs-2019"
-
-   ![Screenshot that shows the Quick Launch search box in Visual Studio 2019.](../media/vs-2019/quick-launch-nuget.png)
-
-    For information and productivity tips, see [How to use Visual Studio search](../../ide/visual-studio-search.md).
-
-   ::: moniker-end
 
    ::: moniker range=">=vs-2022"
 
@@ -122,9 +94,6 @@ Some popular features in Visual Studio that improve your productivity when devel
 
    The **Call Hierarchy** window shows the methods that call a selected method. This information can be useful when you're thinking about changing or removing the method, or when you're trying to track down a bug.
 
-   ::: moniker range="<=vs-2019"
-   ![Screenshot that shows the Call Hierarchy window.](../../ide/media/call-hierarchy-csharp-expanded.png)
-   ::: moniker-end
    ::: moniker range=">=vs-2022"
    ![Screenshot that shows the Call Hierarchy window.](../media/vs-2022/call-hierarchy-csharp-expanded.png)
    ::: moniker-end
@@ -133,9 +102,6 @@ Some popular features in Visual Studio that improve your productivity when devel
 
    CodeLens helps you find code references, code changes, linked bugs, work items, code reviews, and unit tests, without leaving the editor.
 
-   ::: moniker range="<=vs-2019"
-   ![Screenshot that shows CodeLens.](../media/codelens-overview.png)
-   ::: moniker-end
    ::: moniker range=">=vs-2022"
    ![Screenshot that shows CodeLens.](../media/vs-2022/codelens-overview.png)
    ::: moniker-end
@@ -144,9 +110,6 @@ Some popular features in Visual Studio that improve your productivity when devel
 
    The **Go To Definition** feature takes you directly to the location of a function or type definition.
 
-   ::: moniker range="<=vs-2019"
-   ![Screenshot that shows the Go to Definition menu item.](../media/go-to-definition-menu.png)
-   ::: moniker-end
    ::: moniker range=">=vs-2022"
    ![Screenshot that shows the Go to Definition menu item.](../media/vs-2022/go-to-definition-menu.png)
    ::: moniker-end
@@ -155,9 +118,6 @@ Some popular features in Visual Studio that improve your productivity when devel
 
    The **Peek Definition** window shows a method or type definition without opening a separate file.
 
-   ::: moniker range="<=vs-2019"
-   ![Screenshot showing a Peek Definition window.](../media/peek-definition.png)
-   ::: moniker-end
    ::: moniker range=">=vs-2022"
    ![Screenshot showing a Peek Definition window.](../media/vs-2022/peek-definition.png)
    ::: moniker-end
@@ -176,13 +136,6 @@ Some popular features in Visual Studio that improve your productivity when devel
 
 In this section, you create a simple project to try out some of the things you can do with Visual Studio. You use [IntelliSense](../../ide/using-intellisense.md) as a coding aid, debug an app to see a variable value during app execution, and change the color theme.
 
-::: moniker range="vs-2019"
-
-To get started, [download Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) and install it on your system. The modular installer enables you to choose and install *workloads*, which are groups of features needed for the programming languages or platforms you want. To follow the steps to [create a program](#create-a-program), be sure to select the **.NET Core cross-platform development** workload during installation.
-
-![Screenshot of the .NET Core cross-platform development workload in the Visual Studio Installer.](../media/dotnet-core-cross-platform-workload.png)
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
@@ -198,80 +151,6 @@ When you open Visual Studio for the first time, you can [sign in](../../ide/sign
 
 Dive in and create a simple program.
 
-::: moniker range="vs-2019"
-
-1. Open Visual Studio.
-
-   The start window appears with options for cloning a repo, opening a recent project, or creating a new project.
-
-1. Choose **Create a new project**.
-
-    :::image type="content" source="../media/vs-2019/start-window-create-new-project.png" alt-text="Screenshot of the 'Create a new project' window in Visual Studio 2019.":::
-
-   The **Create a new project** window opens and shows several project *templates*. A template contains the basic files and settings required for a given project type.
-
-1. To find the template we want, type or enter **.net core console** in the search box. The list of available templates is automatically filtered based on the keywords you entered. You can further filter the template results by choosing **C#** from the **All language** drop-down list, **Windows** from the **All platforms** list, and **Console** from the **All project types** list.
-
-    Select the **Console Application** template, and then click **Next**.
-
-    :::image type="content" source="../media/vs-2019/create-new-project.png" alt-text="Screenshot of the 'Create a new project' window in Visual Studio 2019, where you select the template that you want.":::
-
-1. In the **Configure your new project** window, enter **HelloWorld** in the **Project name** box, optionally change the directory location for your project files (the default locale is `C:\Users\<name>\source\repos`), and then click **Next**.
-
-    :::image type="content" source="../media/vs-2019/configure-new-project.png" alt-text="Screenshot of the 'Configure your new project' window in Visual Studio 2019, where you enter the name of the project.":::
-
-1. In the **Additional information** window, verify that **.NET Core 3.1** appears in the **Target Framework** drop-down menu, and then click **Create**.
-
-    :::image type="content" source="../media/vs-2019/create-project-additional-info.png" alt-text="Screenshot of the 'Additional information' window in Visual Studio 2019, where you select the version of the .NET Core Framework that you want.":::
-
-   Visual Studio creates the project. It's a simple "Hello World" application that calls the <xref:System.Console.WriteLine?displayProperty=nameWithType> method to display the literal string "Hello World!" in the console (program output) window.
-
-   Shortly, you should see something like the following screen:
-
-   ![Screenshot that shows the Visual Studio IDE.](../media/vs-2019/overview-ide-console-app.png)
-
-   The C# code for your application shows in the editor window, which takes up most of the space. Notice that the text is automatically colorized to indicate different parts of the code, such as keywords and types. In addition, small, vertical dashed lines in the code indicate which braces match one another, and line numbers help you locate code later. You can choose the small, boxed minus signs to collapse or expand blocks of code. This code outlining feature lets you hide code you don't need, helping to minimize onscreen clutter. The project files are listed on the right side in a window called **Solution Explorer**.
-
-   ![Screenshot that shows the Visual Studio IDE with red boxes.](../media/vs-2019/overview-ide-console-app-red-boxes.png)
-
-   There are other menus and tool windows available, but let's move on for now.
-
-1. Now, start the app. You can do this by choosing **Start Without Debugging** from the **Debug** menu on the menu bar. You can also press **Ctrl**+**F5**.
-
-   ![Screenshot that shows the Debug > Start without Debugging menu item.](../media/overview-start-without-debugging.png)
-
-   Visual Studio builds the app, and a console window opens with the message **Hello World!**. You now have a running app!
-
-   ![Screenshot of the Microsoft Visual Studio Debug Console window showing the output 'Hello World!' and 'Press any key to close this window'.](../media/vs-2019/overview-console-window.png)
-
-1. To close the console window, press any key on your keyboard.
-
-1. Let's add some more code to the app. Add the following C# code before the line that says `Console.WriteLine("Hello World!");`:
-
-   ```csharp
-   Console.WriteLine("\nWhat is your name?");
-   var name = Console.ReadLine();
-   ```
-
-   This code displays **What is your name?** in the console window, and then waits until the user enters some text followed by the **Enter** key.
-
-1. Change the line that says `Console.WriteLine("Hello World!");` to the following code:
-
-   ```csharp
-   Console.WriteLine($"\nHello {name}!");
-   ```
-
-1. Run the app again by selecting **Debug** > **Start Without Debugging** or by pressing **Ctrl**+**F5**.
-
-   Visual Studio rebuilds the app, and a console window opens and prompts you for your name.
-
-1. Enter your name in the console window and press **Enter**.
-
-   :::image type="content" source="../media/vs-2019/overview-console-input.png" alt-text="Screenshot of the Debug Console window showing the prompt for a name, the input, and the output Hello Georgette!." lightbox="../media/vs-2019/overview-console-input.png" border="false":::
-
-1. Press any key to close the console window and stop the running program.
-
-::: moniker-end
 ::: moniker range=">=vs-2022"
 
 1. Start Visual Studio. The start window appears with options for cloning a repo, opening a recent project, or creating a new project.
@@ -359,9 +238,6 @@ First, rename the `name` variable:
 
 1. Select the light bulb icon to show the available [Quick Actions](../../ide/quick-actions.md). Select **Rename 'name' to 'username'**.
 
-   ::: moniker range="vs-2019"
-   ![Screenshot that shows the Rename action in Visual Studio.](../media/vs-2019/rename-quick-action.png)
-   ::: moniker-end
    ::: moniker range=">=vs-2022"
    ![Screenshot that shows the Rename action in Visual Studio.](../media/vs-2022/rename-quick-action.png)
    ::: moniker-end
@@ -372,9 +248,6 @@ First, rename the `name` variable:
 
    A box displays the members of the <xref:System.DateTime> class. The description of the currently selected member also displays in a separate box.
 
-   ::: moniker range="<=vs-2019"
-   ![Screenshot that shows IntelliSense list members in Visual Studio.](../media/intellisense-list-members.png)
-   ::: moniker-end
    ::: moniker range=">=vs-2022"
    ![Screenshot that shows IntelliSense list members in Visual Studio.](../media/vs-2022/intellisense-list-members.png)
    ::: moniker-end
@@ -397,9 +270,6 @@ First, rename the `name` variable:
 
 1. Select the screwdriver icon to see available suggestions from Visual Studio. This case shows the [Inline temporary variable](../../ide/reference/inline-temporary-variable.md) refactoring to remove a line of code without changing the overall code behavior.
 
-   ::: moniker range="<=vs-2019"
-   ![Screenshot showing the Inline temporary variable suggestion in Visual Studio.](../media/inline-temporary-variable-refactoring.png)
-   ::: moniker-end
    ::: moniker range=">=vs-2022"
    ![Screenshot showing the Inline temporary variable suggestion in Visual Studio.](../media/vs-2022/inline-temporary-variable-refactoring.png)
    ::: moniker-end
@@ -408,9 +278,6 @@ First, rename the `name` variable:
 
 1. Run the program again by pressing **Ctrl**+**F5**. The output looks something like this:
 
-   ::: moniker range="<=vs-2019"
-   :::image type="content" source="../media/vs-2019/overview-console-final.png" alt-text="Screenshot of the Debug Console window showing the prompt for a name, the input, and the output 'Hello Georgette! Day of year: 43'." lightbox="../media/vs-2019/overview-console-final.png" border="false":::
-   ::: moniker-end
    ::: moniker range=">=vs-2022"
    :::image type="content" source="../media/vs-2022/overview-console-final.png" alt-text="Screenshot of the Debug Console window showing the prompt for a name, the input, and the output 'Hello Georgette! Day of year: 244'." lightbox="../media/vs-2022/overview-console-final.png" border="false":::
    ::: moniker-end
@@ -425,9 +292,6 @@ Set a breakpoint to see the value of the `username` variable while the program i
 
    A red circle appears in the gutter, and the line is highlighted.
 
-   ::: moniker range="<=vs-2019"
-   ![Screenshot that shows a breakpoint on a line of code in Visual Studio.](../media/breakpoint.png)
-   ::: moniker-end
    ::: moniker range=">=vs-2022"
    ![Screenshot that shows a breakpoint on a line of code in Visual Studio.](../media/vs-2022/breakpoint.png)
    ::: moniker-end
@@ -440,9 +304,6 @@ Set a breakpoint to see the value of the `username` variable while the program i
 
 1. Hover your mouse over the `username` variable to see its value. You can also right-click on `username` and select **Add Watch** to add the variable to the **Watch** window, where you can also see its value.
 
-   ::: moniker range="<=vs-2019"
-   ![Screenshot that shows a variable value during debugging in Visual Studio.](../media/debugging-variable-value.png)
-   ::: moniker-end
    ::: moniker range=">=vs-2022"
    ![Screenshot that shows a variable value during debugging in Visual Studio.](../media/vs-2022/debugging-variable-value.png)
    ::: moniker-end
@@ -463,16 +324,6 @@ For more information about debugging in Visual Studio, see the [Debugger feature
 
 You can personalize the Visual Studio user interface, including changing the default color theme. To change the color theme:
 
-::: moniker range="vs-2019"
-
-1. On the menu bar, choose **Tools** > **Options** to open the **Options** dialog.
-
-1. On the **Environment** > **General** options page, change the **Color theme** selection to **Dark**, and then choose **OK**.
-
-   The color theme for the entire IDE changes to **Dark**.
-
-   ![Screenshot that shows Visual Studio in Dark theme.](../media/vs-2019/dark-theme.png)
-::: moniker-end
 
 ::: moniker range="vs-2022"
 

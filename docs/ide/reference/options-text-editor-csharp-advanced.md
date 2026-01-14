@@ -36,13 +36,6 @@ Use the **Advanced** options page to modify the settings for editor formatting, 
 
 ::: moniker-end
 
-::: moniker range="<=vs-2019"
-
-- Live code analysis or Background analysis scope
-
-   Configure the background analysis scope for managed code. For more information, see [How to: Configure live code analysis scope for managed code](../../code-quality/configure-live-code-analysis-scope-managed-code.md).
-
-::: moniker-end
 
 ## Using Directives
 

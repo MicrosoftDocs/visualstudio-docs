@@ -14,7 +14,7 @@ monikerRange: '>= vs-2022'
 ---
 # Access ClickOnce activation data for .NET on Windows
 
-Starting in the .NET 8.0 Preview 1 version of *dotnet-mage*, you can access `ActivationData` properties using environment variables. Using this version of *dotnet-mage*, you can programmatically:
+Starting in the .NET 8.0 version of *dotnet-mage*, you can access `ActivationData` properties using environment variables. Using this version of *dotnet-mage*, you can programmatically:
 
 - Discover the filename for activation based on a custom file association.
 - Discover arguments used for activation in the appref-ms file.
