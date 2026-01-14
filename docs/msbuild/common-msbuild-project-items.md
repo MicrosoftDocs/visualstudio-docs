@@ -32,7 +32,7 @@ Represents a .NET assembly (managed) reference in the project.
 |Name|Optional string. The display name of the assembly, for example, "System.Windows.Forms."|
 |FusionName|Optional string. Specifies the simple or strong fusion name for the item.<br /><br /> When this attribute is present, it can save time because the assembly file doesn't have to be opened to obtain the fusion name.|
 |SpecificVersion|Optional boolean. Specifies whether only the version in the fusion name should be referenced.|
-|Aliases|Optional string. Any aliases for the reference.|
+|Aliases|Optional string. Any aliases for the reference. Use with [extern alias](/dotnet/csharp/language-reference/keywords/extern-alias) in C# to handle naming conflicts.|
 |Private|Optional boolean. Specifies whether the reference should be copied to the output folder. This attribute matches the **Copy Local** property of the reference that's in the Visual Studio IDE. Defaults to `false`.|
 
 > [!NOTE]
@@ -81,7 +81,7 @@ Represents a native manifest file or a reference to such a file.
 
 ## ProjectReference
 
-Represents a reference to another project. `ProjectReference` items are transformed into [Reference](#reference) items by the `ResolveProjectReferences` target, so any valid metadata on a Reference may be valid on `ProjectReference`, if the transformation process doesn't overwrite it.
+Represents a reference to another project. `ProjectReference` items are transformed into [Reference](#reference) items by the `ResolveProjectReferences` target, so any valid metadata on a Reference may be valid on `ProjectReference`, if the transformation process doesn't overwrite it. For example, you can apply `Aliases` to handle naming conflicts.
 
 |Item metadata name|Description|
 |---------------|-----------------|
