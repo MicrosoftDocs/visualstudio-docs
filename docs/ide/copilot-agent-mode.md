@@ -271,7 +271,7 @@ When you enable Planning, a dedicated set of internal tools becomes active. Thes
 | **record_observation** | Captures runtime results or insights that influence next actions. |
 | **finish_plan** | Finalizes the plan once all steps are complete. |
 
-> These tools allow Copilot to manage multi-step workflows incrementally, maintain execution state, and stay aligned with user intent.
+These tools allow Copilot to manage multi-step workflows incrementally, maintain execution state, and stay aligned with user intent.
 
 ### Enabling and managing Planning tools
 
