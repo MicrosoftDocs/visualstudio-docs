@@ -88,7 +88,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- [Visual Studio out-of-support components](../install/out-of-support-components.md) - Update Out of support components list
+- [Visual Studio out-of-support components](../install/out-of-support-components.md) - Update out-of-support components list
 - [Repair Visual Studio](../install/repair-visual-studio.md) - Update images for Visual Studio 2026
 - [Modify Visual Studio workloads, components, and language packs](../install/modify-visual-studio.md) - Update images for Visual Studio 2026
 - [Uninstall or remove Visual Studio](../install/uninstall-visual-studio.md) - Update images for Visual Studio 2026
