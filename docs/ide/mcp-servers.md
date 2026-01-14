@@ -158,7 +158,7 @@ To add an MCP server from chat view:
 
 You can install an MCP server directly from the GitHub MCP server registry via Extensions in Visual Studio.
 
-1. From the Visual Studio menu, select **Extensions > MCP Regsitries...** to open the **MCP Server Manager**.
+1. From the Visual Studio menu, select **Extensions > MCP Registries...** to open the **MCP Server Manager**.
 
     :::image type="content" source="media/vs-2022/mcp-servers/model-context-protocol-registry.png" alt-text="Screenshot that shows the Extensions menu for MCP Registries." lightbox="media/vs-2022/mcp-servers/model-context-protocol-registry.png":::
        
