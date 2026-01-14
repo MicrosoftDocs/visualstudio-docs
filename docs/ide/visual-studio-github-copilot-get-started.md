@@ -1,7 +1,7 @@
 ---
 title: Get Started with GitHub Copilot
 description: Learn how to get started with GitHub Copilot in Visual Studio.
-ms.date: 8/29/2025
+ms.date: 12/02/2025
 ms.update-cycle: 180-days
 ms.topic: get-started
 author: anandmeg
@@ -9,7 +9,6 @@ ms.author: meghaanand
 ms.manager: mijacobs
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot 
-monikerRange: '>= vs-2022'
 ms.custom: copilot-learning-hub
 ---
 
@@ -26,9 +25,10 @@ In this article you learn how to use Copilot and make the most of its features i
 1. Launch Visual Studio (version 17.8 or later). </br>
    *It's recommended to update to the latest version of Visual Studio to get the most out of Copilot.*
 1. Create a new project, open an existing project, or continue without code to launch the IDE.
-1. Select the **GitHub Copilot** badge in the upper right corner of Visual Studio, and select **Open Chat Window to Sign In**
 
-   :::image type="content" source="media/vs-2022/visual-studio-github-copilot-install-and-states/copilot-state-inactive-sign-in.png" alt-text="Screenshot showing the GitHub Copilot badge in Visual Studio.":::
+1. Select the **GitHub Copilot** badge in the upper right corner of Visual Studio, and select **Open Chat Window to Sign In**.
+
+   :::image type="content" source="media/visualstudio/copilot-state-inactive-sign-in.png" alt-text="Screenshot showing the GitHub Copilot badge in Visual Studio.":::
 
    If Copilot isn't installed, select **Install Copilot** from the dropdown and follow the installer prompts. For more information, see [Manage Copilot installation and state](visual-studio-github-copilot-install-and-states.md).
 

@@ -17,6 +17,8 @@
     items:
     - name: Upgrade an extension
       href: migration/update-visual-studio-extension.md
+    - name: Extension compatibility
+      href: migration/extension-compatibility.md
     - name: Modernize theme colors
       href: migration/modernize-theme-colors.md
     - name: 'Example: ImageOptimizer'

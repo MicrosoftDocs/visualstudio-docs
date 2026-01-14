@@ -11,7 +11,7 @@ helpviewer_keywords:
 - analyzers
 - Roslyn analyzers
 - code analyzers
-ms.date: 04/04/2024
+ms.date: 12/17/2025
 
 #customer intent: As a developer, I want to learn about code analysis using .NET compiler platform (Roslyn) analyzers so that I can understand how then work and use them properly.
 ---
@@ -46,7 +46,17 @@ If an analyzer finds any analyzer rule violations, it reports them in the **Erro
 
 The following screenshot shows rule violations reported in the **Error List** window. The analyzer violations reported in the error list match the [severity level setting](../code-quality/use-roslyn-analyzers.md#configure-severity-levels) of the rule:
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/code-analysis-error-list.png" alt-text="Screenshot that shows analyzer violations in the Error List window." lightbox="media/visualstudio/code-analysis-error-list.png":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 :::image type="content" source="media/code-analysis-error-list.png" alt-text="Screenshot that shows analyzer violations in the Error List window." lightbox="media/code-analysis-error-list.png":::
+
+:::moniker-end
 
 The analyzer rule violations also appear in the code editor as squiggle lines under the offending code. For example, the following screenshot shows three violations: one error (red squiggle line), one warning (green squiggle line), and one suggestion (three gray dots):
 
