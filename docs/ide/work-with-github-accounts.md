@@ -161,7 +161,7 @@ By default, Visual Studio only has public GitHub accounts enabled. Use the follo
 
 :::moniker-end 
 
-    :::image type="content" source="../ide/media/vs-2022/add-github-enterprise-cloud-server-accounts.png" alt-text="Screenshot of GitHub Account.":::
+   :::image type="content" source="../ide/media/vs-2022/add-github-enterprise-cloud-server-accounts.png" alt-text="Screenshot of GitHub Account.":::
 
 1. Then, check the box to **Include GitHub Enterprise Cloud and GitHub Enterprise Server accounts**. The next time you go to your **Account Settings** and try to add a GitHub account, you'll see options for both GitHub and GitHub Enterprise.
 
