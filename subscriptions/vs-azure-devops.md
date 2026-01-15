@@ -30,7 +30,6 @@ When you sign in to Azure DevOps using either the identity that you used for act
 | Visual Studio Professional subscription with GitHub Enterprise | VL | Azure Boards & Repos (Basic<sup>2</sup>) | Yes |
 | Visual Studio Test Professional (Standard) | VL, Retail | Azure Boards & Repos (Basic<sup>2</sup>), Azure Test Plans | Yes |
 | MSDN Platforms (Standard) | VL, Retail | Azure Boards & Repos (Basic<sup>2</sup>), Azure Test Plans | Yes |
-||
 
 <sup>1</sup>  *Includes:  Not for Resale (NFR - including Independent Software Vendor (ISV), Alumni, Xbox Basic, and Bug Bounty), Most Valuable Professional (MVP), Regional Director (RD), Visual Studio Industry Partner (VSIP), Microsoft AI Cloud Partner Program (MAICPP, Enterprise), Microsoft Certified Trainer (MCT) Software & Services Developer, Full-Time Employee (FTE).
   Excludes: Azure DevOps Tools for Teaching (ADTFT), Student Ambassadors.*
@@ -69,7 +68,6 @@ A: Visual Studio Dev Essentials members must use Azure DevOps through the platfo
 | Stakeholder | Yes (unlimited, free) | View work items, dashboards, discounts; limited access to repos and pipelines. |
 | Basic | Yes, ***if assigned one of the organization's 5 free Basic seats*** | Note included as a Dev Essentials entitlement; assignment is at the organization owner's discretion. |
 | Basic + Test Plan | No | Requires a paid license or qualifying Visual Studio Subscription. [You might try test plans for free](https://learn.microsoft.com/azure/devops/organizations/billing/try-additional-features-vs). |
-||
 
 ### Q: What is "Azure DevOps organization" in Dev Essentials?
 
