@@ -73,7 +73,7 @@ A: Visual Studio Dev Essentials members must use Azure DevOps through the platfo
 
 A: An **Azure DevOps organization** is the top-level container that holds project, repos, pipelines, artifacts, and access assignments. Dev Essentials doesn't create a special or separate organization for you. Instead:
 + Any Dev Essentials member can **create their own organization** at https://dev.azure.com using their Microsoft account. 
-+ You can also be added to **someone else's organization.
++ You can also be added to **someone else's organization**.
 + The organization owner—not Dev Essentials membership—determines your access level within that organization.
 
 Thus, when you refer to "the Azure DevOps organization" as a Dev Essentials user, it means: **Any Azure DevOps organization where you are a member-created by you or by someone else**. 
