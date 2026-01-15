@@ -1,7 +1,7 @@
 ---
 title: Configure IntelliSense Options for C and C++
 description: Configure IntelliSense language settings for C and C++ in the Tools Options pane. Change options for tooltips, browsing and navigation, references, refactoring diagnostic logging, nonproject files, and more.
-ms.date: 01/13/2026
+ms.date: 01/15/2026
 ms.topic: how-to
 helpviewer_keywords:
   - "Languages Options, IntelliSense"
@@ -28,7 +28,7 @@ The following options are available in the **C/C++** > **IntelliSense** section.
 
    If you clear this option, all IntelliSense features are disabled and no IntelliSense features work (QuickInfo, Member List, Auto Complete, Param Help). Semantic colorization and reference highlighting are also disabled. This option doesn't disable browsing features that rely solely on the database (including the Navigation Bar, ClassView, and Property window).
 
-- **Use 64-bit IntelliSense engine**: When selected, Visual Studio runs the 64-bit IntelliSense engine rather than the 32-bit engine, which is helpful for large projects and projects that include large SDKs. By default, this option is cleared.
+- **Use 64-bit IntelliSense engine**: When selected, Visual Studio runs the 64-bit IntelliSense engine rather than the 32-bit engine, which is helpful for large projects and projects that include large SDKs. By default, this option isn't selected.
 
 - **Automatically update IntelliSense as you type**: When selected (default), IntelliSense continuously parses and analyzes your code in real-time as you type. If you clear this option, IntelliSense only updates when you explicitly request it. An explicit request might be desirable in large code bases where the system becomes sluggish while you type. The delay can result in a longer execution time for the first IntelliSense operation on a file, but it can be helpful on slow or resource-constrained machines. <!-- VS 22 = Disable Auto Updating, Disable Error Reporting, Disable Squiggles -->
 
@@ -85,7 +85,7 @@ The following options are available in the **C/C++** > **IntelliSense** > **Quic
 
 - **Show data structure's size and alignment in tooltips**: When selected (default), IntelliSense shows the size and alignment of a data structure in tooltips. If you clear this option, the **Show size and alignment for variables** option isn't available. <!-- VS 22 = Auto Quick Info -->
 
-- **Show size and alignment for variables**: When selected, IntelliSense shows the size and alignment for variables in tooltips. By default, this option is cleared. If the **Show data structure's size and alignment in tooltips** option isn't selected, this option isn't available.
+- **Show size and alignment for variables**: When selected, IntelliSense shows the size and alignment for variables in tooltips. By default, this option isn't selected. If the **Show data structure's size and alignment in tooltips** option isn't selected, this option isn't available.
 
 - **Show help link**: When selected (default), IntelliSense supports linking to online searches on the Quick Info tooltip. <!-- VS 22 = Enable Help Link on Quick Info -->
 
@@ -103,7 +103,7 @@ The following options are available in the **C/C++** > **IntelliSense** > **Comp
 
 - **Show suggestions as you type**: When selected (default), IntelliSense shows suggestions as you type.
 
-- **Commit the item by pressing one of the commit characters**: When selected, you can apply a suggestion by using any character specified in the **[Characters that will commit the selected suggestion](#commit-characters)** option. By default, this option is cleared. 
+- **Commit the item by pressing one of the commit characters**: When selected, you can apply a suggestion by using any character specified in the **[Characters that will commit the selected suggestion](#commit-characters)** option. By default, this option isn't selected.
 
    When the **Show suggestions as you type** option isn't enabled, this option isn't available. 
 
@@ -124,11 +124,11 @@ The following options are available in the **C/C++** > **IntelliSense** > **Comp
 
 - **Show code snippets**: When selected (default), IntelliSense shows code snippets in suggestions. <!-- VS 22 = Disable Member List Code Snippets -->
 
-- **Show inaccessible items**: When selected, IntelliSense displays inaccessible member list items. By default, this option is cleared. <!-- VS 22 = Member List Filter Inaccessible -->
+- **Show inaccessible items**: When selected, IntelliSense displays inaccessible member list items. By default, this option isn't selected. <!-- VS 22 = Member List Filter Inaccessible -->
 
 - **Replace '.' with '->' when applicable after committing an item**: When selected (default), after IntelliSense commits an item, it replaces any period `.` character with an arrow `->` (dash and angle bracket), as appropriate. <!-- VS 22 = Enable Member List Dot-To-Arrow -->
 
-- **Add a new line when pressing Enter to commit a fully typed word**: When selected, after you select **Enter** at the end of a fully typed word to complete a commit, IntelliSense adds a new line. By default, this option is cleared. <!-- VS 22 = Smart Member List Commit -->
+- **Add a new line when pressing Enter to commit a fully typed word**: When selected, after you select **Enter** at the end of a fully typed word to complete a commit, IntelliSense adds a new line. By default, this option isn't selected. <!-- VS 22 = Smart Member List Commit -->
 
 - **Provide context-aware list of suggestions**: When selected (default), IntelliSense shows a context-aware list of suggestions as you type. A maximum of 10 suggestions can be shown at a time.
 
@@ -150,7 +150,7 @@ General options to configure browsing and navigation are available in the **C/C+
 
 - **Enable updates to the code browsing database**: When selected (default), updates can be performed while files are being edited.
 
-   If you clear this option, the database is opened in read-only mode and no updates are performed while files are being edited. Most features continue to work. However, as edits are made, the data becomes stale leading to experience incorrect results.
+   If you clear this option, the database is opened in read-only mode and no updates are performed while files are being edited. Most features continue to work. However, as edits are made, the data becomes stale leading to incorrect results.
 
 - **Update code browsing information as you type**: When selected (default), the code browsing database is automatically updated when source files are modified.
 
@@ -174,7 +174,7 @@ General options to configure browsing and navigation are available in the **C/C+
 
 - **Include skipped regions from external files when displaying browsing database errors**: When selected, skipped regions from external files are included when Visual Studio displays browsing database errors. By default, this option isn't selected.
 
-- **Use fuzzy matching to provide search results**: Fuzzy matching finds approximate matches to search input. Rather than only finding exact matches, fuzzy matching finds similar strings or code snippets that might not exactly match the input. You might see results with variations like typos or different casing.
+- **Use fuzzy matching to provide search results**: Rather than only finding exact matches, fuzzy matching finds similar strings or code snippets that might not exactly match the input. You might see results with variations like typos or different casing.
 
    When selected (default), Visual Studio returns both exact matches and approximate matches. If you clear this option, only exact matches are returned.
  
@@ -184,7 +184,7 @@ General options to configure browsing and navigation are available in the **C/C+
 
    If you clear this option, you can't jump to a current declaration or definition from an older reference based on an outdated signature.
 
-- **Save code browsing information for external dependencies**: Explicitly specified source and header files can reference external files such as `afxwin.h`, `windows.h`, and `atlbase.h`. These external files aren't normally indexed. When selected (default), the browsing database indexes these files as well for features like Navigate To.
+- **Save code browsing information for external dependencies**: Explicitly specified source and header files can reference external files such as `afxwin.h`, `windows.h`, `atlbase.h`, and so on. These external files aren't normally indexed. When selected (default), the browsing database indexes these files as well for features like Navigate To.
 
    If you clear this option, external dependencies aren't indexed, and some features aren't available, such as:
 
@@ -246,7 +246,7 @@ These options are available in the **C/C++** > **IntelliSense** > **Refactoring*
 
 - **Offer suggestions to create missing function declarations or definitions**: When selected (default), IntelliSense provides suggestions for creating missing function declarations or definitions.
 
-- **Choose how to highlight functions that can have their declaration or definition generated**: Use this option to specify how IntelliSense should indicate missing function declarations or definitions that can be generated. Choose from **Suggestion** (default), **Warning**, **Error**, or **Refactoring only**. When the **Offer suggestions to create missing function declarations or definitions** option isn't selected, this option isn't available for selection.
+- **Choose how to highlight functions that can have their declaration or definition generated**: Use this option to specify how IntelliSense should indicate missing function declarations or definitions that can be generated. Choose from **Suggestion** (default), **Warning**, **Error**, or **Refactoring only**. When the **Offer suggestions to create missing function declarations or definitions** option isn't selected, this option can't be selected.
 
 - **Navigation action for the generated code after a refactoring operation**: Use this option to specify what the IDE should do after IntelliSense generates code for a refactor operation. Choose from **Open document** (default), **Peek document**, or **None**.
 
@@ -262,21 +262,21 @@ These options are available in the **C/C++** > **IntelliSense** > **Refactoring*
 
 The following options are available in the **C/C++** > **IntelliSense** > **Inlay hints** section.
 
-- **Enable background processing of inlay hints information**: When selected (default), inlay hints provide more context about call sites and deduced types directly in the source code. When you enable this option, the other options in the section become available for configuration.
+- **Enable background processing of inlay hints information**: When selected (default), inlay hints provide more context about call sites and deduced types directly in the source code. When you enable this option, the other options in the section can be configured.
 
-- **Display inlay hints in the editor**: When selected, IntelliSense displays the inlay hints in the editor. By default, this option is cleared. When the **Enable background processing of inlay hints information** option isn't selected, this option isn't available for selection.
+- **Display inlay hints in the editor**: When selected, IntelliSense displays the inlay hints in the editor. By default, this option isn't selected. When the **Enable background processing of inlay hints information** option isn't selected, this option can't be selected.
 
-- **Press Ctrl twice to toggle inlay hints**: When selected, you can select **Ctrl** twice to toggle visibility of the inlay hints. By default, this option is cleared. When the **Enable background processing of inlay hints information** option isn't selected, this option isn't available for selection.
+- **Press Ctrl twice to toggle inlay hints**: When selected, you can select **Ctrl** twice to toggle visibility of the inlay hints. By default, this option isn't selected. When the **Enable background processing of inlay hints information** option isn't selected, this option can't be selected.
 
-- **Show the deduced type when 'auto' is used in a declaration**: When selected (default), IntelliSense shows the deduced type for a declaration declared as `auto`. By default, this option is enabled. When the **Enable background processing of inlay hints information** option isn't selected, this option isn't available for selection.
+- **Show the deduced type when 'auto' is used in a declaration**: When selected (default), IntelliSense shows the deduced type for a declaration declared `auto`. By default, this option is enabled. When the **Enable background processing of inlay hints information** option isn't selected, this option can't be selected.
 
-- **Type hints will cover the 'auto' keyword instead of being shown next to it**: When selected, IntelliSense shows the hint for the deduced type in place of the `auto` keyword rather than next to the keyword. By default, this option is cleared. When the **Enable background processing of inlay hints information** option isn't selected, this option isn't available for selection.
+- **Type hints will cover the 'auto' keyword instead of being shown next to it**: When selected, IntelliSense shows the hint for the deduced type in place of the `auto` keyword rather than next to the keyword. By default, this option isn't selected. When the **Enable background processing of inlay hints information** option isn't selected, this option can't be selected.
 
 - **Show parameter name inline at call sites**: When selected (default), IntelliSense displays parameter names inline at the call site. This option is unavailable unless the **Enable background processing of inlay hints information** option is selected.
 
 - **Add '&' to hints to indicate when a parameter is passed by non-const reference**: When selected (default), IntelliSense adds the ampersand `&` hint when a reference passes a parameter without the `const` keyword. This option is unavailable unless the **Show parameter name inline at call sites** option is selected.
 
-- **Don't show a hint when the argument text (including inline comments) contains the parameter name**: When selected (default), IntelliSense doesn't show a hint when the argument text contains the parameter name, including when the text appears within inline comments. When the **Show parameter name inline at call sites** option isn't selected, this option isn't available for selection.
+- **Don't show a hint when the argument text (including inline comments) contains the parameter name**: When selected (default), IntelliSense doesn't show a hint when the argument text contains the parameter name, including when the text appears within inline comments. When the **Show parameter name inline at call sites** option isn't selected, this option can't be selected.
 
 ## Non-project files
 
@@ -293,11 +293,11 @@ Options to configure IntelliSense for standalone, nonproject files are available
 
 <a name="show-intellisense-errors-in-the-editor"></a>
 
-- **Show IntelliSense errors in the editor**: When selected, IntelliSense displays squiggles for errors in standalone nonproject files. By default, this option is cleared. When the **Enable IntelliSense for standalone files that aren't part of an existing project** option is cleared, this option is ignored and unavailable for manual selection.
+- **Show IntelliSense errors in the editor**: When selected, IntelliSense displays squiggles for errors in standalone nonproject files. By default, this option isn't selected. When the **Enable IntelliSense for standalone files that aren't part of an existing project** option is selected, this option is ignored and can't be selected.
 
 <a name="show-intellisense-errors-in-the-error-list"></a>
 
-- **Show IntelliSense errors in the error list**: When selected, IntelliSense errors from standalone nonproject files display in the **Error List** window. By default, this option is cleared. When the **Enable IntelliSense for standalone files that aren't part of an existing project** option is cleared, this option is ignored and unavailable for manual selection.
+- **Show IntelliSense errors in the error list**: When selected, IntelliSense errors from standalone nonproject files display in the **Error List** window. By default, this option isn't selected. When the **Enable IntelliSense for standalone files that aren't part of an existing project** option isn't selected, this option is ignored and can't be selected.
 
 <a name="suspend-enabing-intellisense-for-newly-opened-files-while-debugging"></a>
 

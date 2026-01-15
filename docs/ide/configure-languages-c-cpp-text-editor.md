@@ -1,7 +1,7 @@
 ---
 title: Configure Text Editor Options for C and C++
 description: Configure text editor language settings for C and C++ in the Tools Options pane. Change options for Inactive code, Brace completion, Outlining, and more.
-ms.date: 01/13/2026
+ms.date: 01/15/2026
 ms.topic: how-to
 helpviewer_keywords:
   - "Languages Options, Text editor"

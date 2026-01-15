@@ -1,7 +1,7 @@
 ---
 title: Configure Advanced Language Options for C and C++
 description: Configure advanced language settings for C and C++ in the Tools Options pane. Change behavior for the text editor and error lists, and configure settings for code analysis.
-ms.date: 01/13/2026
+ms.date: 01/15/2026
 ms.topic: how-to
 helpviewer_keywords:
   - "Languages Options, advanced"
