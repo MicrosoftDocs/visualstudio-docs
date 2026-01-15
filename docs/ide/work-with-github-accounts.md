@@ -72,7 +72,7 @@ Then, follow these instructions to add your GitHub account.
 
 :::moniker range="visualstudio"
 
-1. From the **All Accounts** submenu, select **+ Add** to add an account, and then select **GitHub**.
+2. From the **All Accounts** submenu, select **+ Add** to add an account, and then select **GitHub**.
 
    :::image type="content" source="../ide/media/visualstudio/account-settings-sign-in-add-github.png" alt-text="Screenshot showing the Add GitHub account option.":::
 
@@ -80,17 +80,17 @@ Then, follow these instructions to add your GitHub account.
 
 :::moniker range="vs-2022"
 
-1. From the **All Accounts** submenu, select **+ Add** to add an account, and then select **GitHub**.
+2. From the **All Accounts** submenu, select **+ Add** to add an account, and then select **GitHub**.
 
    :::image type="content" source="../ide/media/vs-2022/account-settings-sign-in-add-github.png" alt-text="Screenshot showing the Add GitHub account option.":::
 
 :::moniker-end
 
-1. You'll be redirected to the browser, where you can sign in with your GitHub credentials. After you sign in, you'll get a success window in the browser, and you can return to Visual Studio.
+3. You'll be redirected to the browser, where you can sign in with your GitHub credentials. After you sign in, you'll get a success window in the browser, and you can return to Visual Studio.
 
 :::moniker range="visualstudio"
 
-1. Your GitHub account will now be present in the **All Accounts** submenu. This account becomes the **Active** account.
+4. Your GitHub account will now be present in the **All Accounts** submenu. This account becomes the **Active** account.
 
    :::image type="content" source="../ide/media/visualstudio/account-settings-multiple-github-accounts.png" alt-text="Screenshot showing multiple GitHub accounts on the Account settings dialog.":::
 
@@ -167,7 +167,7 @@ You can add your GitHub EMU account as follows:
 
 :::moniker range="visualstudio"
 
-1. From the **All Accounts** submenu, select **+ Add** dropdown to add an account, and then select **GitHub**.
+2. From the **All Accounts** submenu, select **+ Add** dropdown to add an account, and then select **GitHub**.
 
    :::image type="content" source="../ide/media/visualstudio/sign-in-add-github.png" alt-text="Screenshot showing how to select and add a GitHub account.":::
 
@@ -175,13 +175,13 @@ You can add your GitHub EMU account as follows:
 
 :::moniker range="vs-2022"
 
-1. From the **All Accounts** submenu, select **+ Add** dropdown to add an account, and then select **GitHub**.
+2. From the **All Accounts** submenu, select **+ Add** dropdown to add an account, and then select **GitHub**.
 
    :::image type="content" source="../ide/media/vs-2022/sign-in-add-github.png" alt-text="Screenshot showing how to select and add a GitHub account.":::
 
 :::moniker-end
 
-1. Select **GitHub Enterprise** on the **Connect to GitHub** dialog.
+3. Select **GitHub Enterprise** on the **Connect to GitHub** dialog.
 
 > [!NOTE]
 > Ensure you enter your GitHub EMU account credentials (the username has an underscore followed by the company name) on this page.
@@ -200,7 +200,7 @@ To remove an account:
 
 :::moniker range="visualstudio"
 
-1. Select **Remove account** for the account you want to remove.
+2. Select **Remove account** for the account you want to remove.
 
    :::image type="content" source="media/visualstudio/signing-in-to-visual-studio/remove-an-account.png" alt-text="Screenshot of removing an account.":::
 
@@ -208,7 +208,7 @@ To remove an account:
 
 :::moniker range="vs-2022"
 
-1. Select **Remove account** for the account you want to remove.
+2. Select **Remove account** for the account you want to remove.
 
    :::image type="content" source="media/vs-2022/signing-in-to-visual-studio/remove-an-account.png" alt-text="Screenshot of removing an account.":::
 
@@ -221,7 +221,7 @@ You can also use the **Account Settings** dialog to remove an account.
 
 :::moniker range="visualstudio"
 
-1. Confirm the removal on the dialog that appears.
+3. Confirm the removal on the dialog that appears.
 
    :::image type="content" source="media/visualstudio/signing-in-to-visual-studio/remove-an-account-account-settings.png" alt-text="Screenshot of removing an account in Account Settings.":::
 
@@ -229,7 +229,7 @@ You can also use the **Account Settings** dialog to remove an account.
 
 :::moniker range="vs-2022"
 
-1. Confirm the removal on the dialog that appears.
+3. Confirm the removal on the dialog that appears.
 
    :::image type="content" source="media/vs-2022/signing-in-to-visual-studio/remove-an-account-account-settings.png" alt-text="Screenshot of removing an account in Account Settings.":::
 
