@@ -83,6 +83,8 @@ As the author of a domain-specific language (DSL), you can define validation con
 using Microsoft.VisualStudio.Modeling;
 using Microsoft.VisualStudio.Modeling.Validation;
 
+namespace Company.FamilyTree
+{
 // Allow validation methods in this class:
 [ValidationState(ValidationState.Enabled)]
 // In this DSL, ParentsHaveChildren is a domain relationship
@@ -116,6 +118,7 @@ public partial class ParentsHaveChildren
                        this.Parent);
     }
   }
+}
 ```
 
  Notice the following points about this code:
@@ -141,7 +144,7 @@ public partial class ParentsHaveChildren
 
 |Category|Execution|
 |-|-|
-|<xref:Microsoft.VisualStudio.Modeling.Validation.ValidationCategories>|When the user invokes the Validate menu command.|
+|<xref:Microsoft.VisualStudio.Modeling.Validation.ValidationCategories.Menu>|When the user invokes the Validate menu command.|
 |<xref:Microsoft.VisualStudio.Modeling.Validation.ValidationCategories>|When the model file is opened.|
 |<xref:Microsoft.VisualStudio.Modeling.Validation.ValidationCategories>|When the file is saved. If there are validation errors, the user will be given the option of canceling the save operation.|
 |<xref:Microsoft.VisualStudio.Modeling.Validation.ValidationCategories>|When the file is saved. If there are errors from methods in this category, the user is warned that it might not be possible to re-open the file.<br /><br /> Use this category for validation methods that test for duplicated names or IDs, or other conditions that might cause loading errors.|

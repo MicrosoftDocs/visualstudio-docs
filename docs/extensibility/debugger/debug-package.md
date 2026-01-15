@@ -2,7 +2,7 @@
 title: Debug Package
 description: Learn how the debug package runs in Visual Studio shell and handles UI by consuming the debugging interfaces and communicating with the session debug manager.
 ms.date: 11/04/2016
-ms.topic: article
+ms.topic: concept-article
 helpviewer_keywords:
 - debugging [Debugging SDK], packages
 author: tinaschrepfer
