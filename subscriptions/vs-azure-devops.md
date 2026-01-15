@@ -86,7 +86,7 @@ A: No. Only Visual Studio Subscription subscribers receive automatic access-leve
 
 ### Q: Can Dev Essentials users contribute to code, pipelines, and boards?
 
-A: Yes, **if** the organization assigns users a Basic seat. Otherwise, users remain Stakeholders with limited capabilities. 
+A: Yes, **if** the organization assigns users a Basic license. Otherwise, users remain Stakeholders with limited capabilities. 
 
 ### Do Visual Studio subscribers need manual upgrades to Basic?
 
