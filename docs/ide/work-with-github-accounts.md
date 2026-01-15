@@ -217,7 +217,7 @@ To remove an account:
 
 2. Select **Remove account** for the account you want to remove.
 
-   :::image type="content" source="media/visualstudio/signing-in-to-visual-studio/remove-an-account.png" alt-text="Screenshot of removing an account.":::
+   :::image type="content" source="media/visualstudio/remove-an-account.png" alt-text="Screenshot of removing an account.":::
 
 :::moniker-end
 
