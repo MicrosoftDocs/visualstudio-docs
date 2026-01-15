@@ -206,7 +206,7 @@ To use **Comments** in a data tip, follow these steps:
 
 1. To close the **Comments** region, use the double Up arrow to **Collapse comments**. Any comments you enter remain with the data tip, but they're not currently visible.
 
-::: moniker range=">= vs-2019"
+::: moniker range=">= vs-2022"
 
 ## Pin properties in data tips
 

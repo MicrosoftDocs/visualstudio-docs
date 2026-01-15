@@ -9,6 +9,7 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Debugger.Symbols"
   - "vs.debug.options.Native"
   - "vs.debug.nosymbols"
+  - "vs.debug.symbols.loadinfo"
 dev_langs:
   - "CSharp"
   - "VB"
@@ -150,18 +151,7 @@ From the **Tools** (or **Debug**) > **Options** menu, you can access the **Debug
    > Only the specified folder is searched. You must add entries for any subfolders that you want to search.
 
 :::moniker-end
-:::moniker range="<=vs-2019"
 
-3. Add a new symbol server location by selecting **New Location** (**+**) in the toolbar for the **Symbol file (.pdb) search locations** group box.
-
-   Enter the URL (http), network share, or local path of the symbol server or symbol location in the text field. Statement completion helps you find the correct format.
-
-   :::image type="content" source="media/dbg-options-symbols.gif" border="false" alt-text="Animation that shows how to add a new symbol server location.":::
-
-   > [!NOTE]
-   > Only the specified folder is searched. You must add entries for any subfolders that you want to search.
-
-:::moniker-end
 :::moniker range="<=vs-2022"
 
 4. Add a new Azure DevOps Symbol Server location by selecting :::image type="icon" source="media/dbg_tools_options_foldersicon.png"::: **New Azure DevOps Symbol Server Location** in the group box toolbar.
@@ -214,17 +204,7 @@ From the **Tools** (or **Debug**) > **Options** menu, you can access the **Debug
    - **Search for all module symbols unless excluded**: Force Visual Studio to load all symbols in your debugged process. This option isn't recommended because it can slow down your debugging experience. You can force Visual Studio to ignore certain symbols by creating the list of [Excluded modules](#excluded-modules-list).
 
    :::moniker-end
-   :::moniker range="<= vs-2019"
 
-   - **Load all modules, unless excluded** (default): Load all symbols for all modules in the symbol file location, except modules you specifically exclude.
-   
-      To exclude certain modules, select **Specify excluded modules**. Select **Add** (**+**), enter the names of the modules to exclude, and select **OK**.
-
-   - **Load only specified modules**: Load only modules you specify from the symbol file locations.
-   
-      To identify the modules, select **Specify included modules**. Select **Add** (**+**), enter the names of the modules to include, and then select **OK**. The symbol files for other modules aren't loaded.
-
-   :::moniker-end
 
 :::moniker range="<= vs-2022"
 

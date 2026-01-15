@@ -2,7 +2,7 @@
 title: Manage project and solution properties
 description: Manage both the project properties and the solution properties in Visual Studio for C#, Visual Basic, F#, C++, and JavaScript projects.
 ms.date: 02/25/2025
-ms.topic: article
+ms.topic: concept-article
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
@@ -23,11 +23,6 @@ Most project properties are not dependent on the configuration or the platform, 
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
-
-:::image type="content" source="media/vs-2019/properties-from-solution-explorer-context-menu.png" alt-text="Screenshot of the Solution Explorer context menu with the Properties option highlighted.":::
-
-::: moniker-end
 
 .NET projects might also have a properties node in the project tree itself.
 
@@ -49,11 +44,6 @@ The following screenshot shows the **Build** property page in the .NET **Project
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
-
-:::image type="content" source="reference/media/vs-2019/project-properties-designer-build-csharp.png" alt-text="Screenshot of the Project Designer, with the Build tab selected.":::
-
-::: moniker-end
 
 The following screenshot shows the **Compile** property page in the .NET **Project Designer** for a console project in Visual Basic:
 
@@ -63,11 +53,6 @@ The following screenshot shows the **Compile** property page in the .NET **Proje
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
-
-:::image type="content" source="reference/media/vs-2019/project-properties-designer-compile-visual-basic.png" alt-text="Screenshot of the Project Designer, with the Compile tab selected.":::
-
-::: moniker-end
 
 For more information about each of the **Project Designer** properties, see [What is the .NET Project Designer](reference/project-properties-reference.md).
 
@@ -84,11 +69,6 @@ For information about C++ project properties, see [Work with project properties 
 
 ## Solution properties
 
-::: moniker range="vs-2019"
-
-To access properties on the solution, right-click the [solution node](use-solution-explorer.md#solution-explorer-ui) in **Solution Explorer** and select **Properties**. In the dialog box, you can set project configurations for **Debug** or **Release** builds, choose which projects should be the startup project when you select **F5**, and set code analysis options.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 

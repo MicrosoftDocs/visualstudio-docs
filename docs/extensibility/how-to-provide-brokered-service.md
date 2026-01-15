@@ -1,7 +1,7 @@
 ---
 title: 'Provide a brokered service'
 description: Learn how to design, create, register, and proffer a brokered service for consumption by yourself and others.
-monikerRange: '>= vs-2019'
+monikerRange: '>= vs-2022'
 ms.date: 08/02/2024
 ms.topic: how-to
 helpviewer_keywords:

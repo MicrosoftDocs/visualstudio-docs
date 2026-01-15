@@ -78,40 +78,6 @@ To attach to a process on your local computer:
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
-1. In Visual Studio, select **Debug** > **Attach to Process** (or press **Ctrl**+**Alt**+**P**) to open the **Attach to Process** dialog box.
-
-1. Check the **Connection type**.
-
-   In most scenarios, you can use **Default**. Some scenarios might require a different connection type. For more info, see other sections in this article or [Common debugging scenarios](#BKMK_Scenarios).
-
-1. Set the **Connection target** to your local machine name.
-
-   ![Screenshot of the Attach to Process dialog box, with the connection target set to the local machine name.](../debugger/media/DBG_Basics_Attach_To_Process.png)
-
-1. In the **Available processes** list, find, and select the process or processes you want to attach to.
-
-   - To quickly select a process, type its name or first letter in the **Filter processes** box.
-
-   - If you don't know the process name, browse through the list, or see [Common debugging scenarios](#BKMK_Scenarios) for some common process names.
-
-   > [!TIP]
-   > Processes can start and stop in the background while the **Attach to Process** dialog box is open, so the list of running processes might not always be current. You can select **Refresh** at any time to see the current list.
-
-1. In the **Attach to** field, make sure the type of code you plan to debug is listed. The default **Automatic** setting works for most app types.
-
-   If you are using the **Default** connection type, you can manually select the type of code you want to attach to. Otherwise, the **Select** option might be disabled.
-
-   To select code types manually:
-   1. Click **Select**.
-   1. In the **Select Code Type** dialog box, select **Debug these code types**.
-      If you experience a failure when you try to attach to a process in the list, you can use the [Select Code Type](../debugger/select-code-type-dialog-box.md) dialog box to help [troubleshoot](#BKMK_Troubleshoot_attach_errors) the issue.
-   1. Select the code types you want to debug.
-   1. Select **OK**.
-
-1. Select **Attach**.
-
-::: moniker-end
 
 > [!NOTE]
 > You can be attached to multiple apps for debugging, but only one app is active in the debugger at a time. You can set the active app in the Visual Studio **Debug Location** toolbar or **Processes** window.
@@ -172,54 +138,6 @@ To attach to a running process on a remote computer:
 1. Select **Attach**.
 ::: moniker-end
 
-::: moniker range="vs-2019"
-1. In Visual Studio, select **Debug** > **Attach to Process** (or press **Ctrl**+**Alt**+**P**) to open the **Attach to Process** dialog box.
-
-1. Check the **Connection type**.
-
-   In most scenarios, you can use **Default**. Some scenarios, such as debugging Linux or a containerized app, require a different connection type. For more info, see other sections in this article or [Common debugging scenarios](#BKMK_Scenarios).
-
-1. In the **Connection target** box, select the remote computer, using one of the following methods:
-
-   - Select the dropdown list arrow next to **Connection target**, and select the computer name from the dropdown list.
-   - Type the computer name in the **Connection target** box and press **Enter**.
-   - Select the **Find** button next to the **Connection target** box to open the **Remote Connections** dialog box. The **Remote Connections** dialog box lists all the devices that are on your local subnet or directly attached to your computer. You might need to [open outbound UDP port 3702](../debugger/remote-debugger-port-assignments.md) on the server to discover remote devices. Select the computer or device you want, and then select **Select**.
-
-   Verify that Visual Studio adds the required port to the computer name, which appears in the format: **\<remote computer name>:port**
-
-   > [!NOTE]
-   > If you can't connect using the remote computer name, try using the IP and port address (for example, `123.45.678.9:4022`). 4024 is the default port for the Visual Studio 2019 remote debugger. For other remote debugger port assignments, see [Remote debugger port assignments](remote-debugger-port-assignments.md).
-
-   The **Connection type** setting persists between debugging sessions. The **Connection target** setting persists between debugging sessions only if a successful debugging connection occurred with that target.
-
-1. Click **Refresh** to populate the **Available processes** list.
-
-    > [!TIP]
-    > Processes can start and stop in the background while the **Attach to Process** dialog box is open, so the list of running processes might not always be current. You can select **Refresh** at any time to see the current list.
-
-1. In the **Available processes** list, find, and select the process or processes you want to attach to.
-
-   - To quickly select a process, type its name or first letter in the **Filter processes** box.
-
-   - If you don't know the process name, browse through the list, or see [Common debugging scenarios](#BKMK_Scenarios) for some common process names.
-
-   - To find processes running under all user accounts, select the **Show processes from all users** checkbox.
-
-     > [!NOTE]
-     > If you try to attach to a process owned by an untrusted user account, a security warning dialog box confirmation will appear. For more information, see [Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you are unsure, do not attach to this process](../debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user.md).
-
-1. In the **Attach to** field, make sure the type of code you plan to debug is listed. The default **Automatic** setting works for most app types.
-
-   If you are using the **Default** connection type, you can manually select the type of code you want to attach to. Otherwise, the **Select** option might be disabled.
-
-   To select code types manually:
-   1. Click **Select**.
-   1. In the **Select Code Type** dialog box, select **Debug these code types**.
-      If you experience a failure when you try to attach to a process in the list, you can use the [Select Code Type](../debugger/select-code-type-dialog-box.md) dialog box to help [troubleshoot](#BKMK_Troubleshoot_attach_errors) the issue.
-   1. Select **OK**.
-
-1. Select **Attach**.
-::: moniker-end
 
 > [!NOTE]
 > You can be attached to multiple apps for debugging, but only one app is active in the debugger at a time. You can set the active app in the Visual Studio **Debug Location** toolbar or **Processes** window.
@@ -236,14 +154,6 @@ If neither of those workarounds is possible, a third option is to attach to the 
 If you're publishing to Azure App Service (Windows), see [Remote debug ASP.NET Core on Azure](../debugger/remote-debugging-azure-app-service.md) or [Debugging Azure App Service](/azure/vs-azure-tools-debug-cloud-services-virtual-machines#debugging-azure-app-services) for instructions.
 ::: moniker-end
 
-::: moniker range="vs-2019"
-
-## Attach to a .NET Core process running on Azure App Service (Windows)
-
-If you're publishing to Azure App Service (Windows), you'll find the **Attach Debugger** option under the **...** menu under **Hosting** in the publish profile. Visual Studio attempts to attach the remote debugger to the instance of Azure App Service (Windows) that the profile is publishing to.
-
-:::image type="content" source="../debugger/media/attach-debugger-publish-profile.png" alt-text="Screenshot of the Attach Debugger option from within the Publish summary page.":::
-::: moniker-end
 
 ## Attach to a .NET Core process running on Linux using SSH
 
@@ -273,9 +183,6 @@ For the debugger to attach to code written in C++, the code needs to emit `Debug
 For client-side script debugging, script debugging must be enabled in the browser. For debugging client-side script on Chrome, choose **JavaScript or TypeScript** as the code type, and depending on your app type, you might need to close all Chrome instances and start the browser in debugging mode (type `chrome.exe --remote-debugging-port=9222` from a command line).
 ::: moniker-end
 
-::: moniker range="vs-2019"
-For client-side script debugging, script debugging must be enabled in the browser. For debugging client-side script on Chrome, choose **JavaScript (Chrome)** or **JavaScript (Microsoft Edge - Chromium)** as the code type, and depending on your app type, you might need to close all Chrome instances and start the browser in debugging mode (type `chrome.exe --remote-debugging-port=9222` from a command line). In earlier versions of Visual Studio, the script debugger for Chrome was **Web kit**.
-::: moniker-end
 
 |Scenario|Debug method|Process name|Notes and links|
 |-|-|-|-|
@@ -306,11 +213,6 @@ In some local debugging scenarios, you can debug in Visual Studio with no access
 In some scenarios, the debugger might need help to correctly identify the type of code to debug. If the connection values are set correctly (you can view the correct process in the **Available processes** list), but the debugger fails to attach, try to select the most appropriate debugger in the **Code type** list, which might be required, for example, if you are debugging a Linux or Python app.
 ::: moniker-end
 
-::: moniker range="vs-2019"
-In some scenarios, the debugger might need help to correctly identify the type of code to debug. If the connection values are set correctly (you can view the correct process in the **Available processes** list), but the debugger fails to attach, try to select the most appropriate connection type in the **Connection type** list, which might be required, for example, if you are debugging a Linux or Python app. If you are using the Default connection type, then you can alternatively select the specific type of code to connect to, as described later in this section.
-
-When the debugger attaches to a running process, the process can contain one or more types of code. The code types the debugger can attach to are displayed and selected in the [Select Code Type](../debugger/select-code-type-dialog-box.md) dialog box.
-::: moniker-end
 
 Sometimes, the debugger can successfully attach to one code type, but not to another code type. Typically, this occurs when:
 
@@ -339,23 +241,6 @@ If you want more specific information about why the debugger failed to attach to
     This time, the attach will fail completely, and you will get a specific error message.
 ::: moniker-end
 
-::: moniker range="vs-2019"
-1. Detach from the process. On the **Debug** menu, select **Detach All**.
-
-1. Reattach to the process, selecting only the code type that failed to attach.
-
-    1. In the **Attach to Process** dialog box, select the process in the **Available processes** list.
-
-    2. Select **Select**.
-
-    3. In the **Select Code Type** dialog box, select **Debug these code types** and the code type that failed to attach. Deselect the other code types.
-
-    4. Select **OK**.
-
-    5. In the **Attach to Process** dialog box, select **Attach**.
-
-    This time, the attach will fail completely, and you will get a specific error message.
-::: moniker-end
 
 ## Related content
 

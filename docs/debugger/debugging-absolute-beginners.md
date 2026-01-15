@@ -1,7 +1,7 @@
 ---
 title: "Debugging code for absolute beginners"
 description: "If you're debugging for the first time, learn a few principles to help you run your app in debugging mode with Visual Studio."
-ms.date: 12/5/2024
+ms.date: 12/18/2025
 ms.topic: tutorial
 helpviewer_keywords:
   - "debugger"
@@ -81,7 +81,7 @@ Next, you create an application that has a few bugs.
 
     If you use a different project name, you will need to modify the namespace value to match your project name when you copy the example code.
 
-    Choose either the recommended target framework or .NET 8, and then choose **Create**.
+    Choose either the recommended target framework or .NET 10, and then choose **Create**.
 
     If you don't see the **Console App** project template for .NET, go to **Tools** > **Get Tools and Features**, which opens the Visual Studio Installer. Choose the **.NET desktop development** workload, then choose **Modify**.
 
@@ -356,12 +356,6 @@ Maffei 1, 11,  ConsoleApp_FirstApp.GType
    :::image type="content" source="../debugger/media/vs-2022/beginners-edit.png" alt-text="Screenshot of the Visual Studio Debugger with a line of code highlighted in red and a message box with the Edit option selected.":::
    ::: moniker-end
 
-   ::: moniker range="<= vs-2019"
-
-   The Edit and Continue dialog box appears, indicating that edits can't be compiled.
-
-   :::image type="content" source="../debugger/media/beginners-edit.png" alt-text="Screenshot of the Visual Studio Debugger with a line of code highlighted in red and a message box with the Edit option selected.":::
-   ::: moniker-end
 
    > [!NOTE]
    > For debugging the Visual Basic example code, skip the next few steps until you're instructed to click the **Restart** :::image type="content" source="../debugger/media/dbg-tour-restart.png" alt-text="Icon showing Restart app button in Debug toolbar."::: button.

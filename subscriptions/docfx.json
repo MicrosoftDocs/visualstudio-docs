@@ -10,7 +10,7 @@
         ],
         "exclude": [
           "**/obj/**",
-          "includes/**",
+          "**/includes/**",
           "README.md",
           "LICENSE",
           "LICENSE-CODE",

@@ -3,7 +3,7 @@ title: IntelliCode suggestions
 ms.date: 09/13/2024
 ms.service: visual-studio-family
 ms.subservice: intellicode
-ms.topic: article
+ms.topic: concept-article
 description: IntelliCode suggestions
 author: ghogen
 ms.author: ghogen
@@ -40,11 +40,3 @@ When you accept a completions-list suggestion, if there are other locations you 
 
 ![Screenshot showing IntelliCode suggestions discovery.](media/intellicode/intellicode-suggestions-discovery-and-toolwindow.png)
 
-:::moniker range="<=vs-2019"
-
-## Disable IntelliCode suggestions
-
-Suggestions is turned on by default for Visual Studio version 16.7 and later. 
-
-If you wish to turn it off, choose **Tools** > **Options**, **IntelliCode General** tab, and then switch **C# suggestions** to **Disabled**.
-:::moniker-end

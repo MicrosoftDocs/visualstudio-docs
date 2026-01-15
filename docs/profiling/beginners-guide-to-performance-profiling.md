@@ -45,9 +45,7 @@ In this tutorial, you will:
     ::: moniker range=">=vs-2022"
     ![Screenshot that shows Diagnostics Tools.](../profiling/media/vs-2022/diag-tools-select-tool.png "DiagToolsSelectTool")
     ::: moniker-end
-    ::: moniker range="vs-2019"
-    ![Screenshot that shows  Diagnostics Tools.](../profiling/media/diag-tools-select-tool.png "DiagToolsSelectTool")
-    ::: moniker-end
+
 
      We will mainly be looking at CPU utilization, so make sure that **CPU Usage** is enabled (it is enabled by default).
 
@@ -57,9 +55,7 @@ In this tutorial, you will:
    ::: moniker range=">=vs-2022"
    ![Screenshot that shows Diagnostics Tools Summary Tab.](../profiling/media/vs-2022/diag-tools-summary-tab.png "DiagToolsSummaryTab")
    ::: moniker-end
-   ::: moniker range="vs-2019"
-   ![Screenshot that shows Diagnostics Tools Summary Tab.](../profiling/media/diag-tools-summary-tab.png "DiagToolsSummaryTab")
-   ::: moniker-end
+
 
    For more information on the events, see [Searching and filtering the Events tab of the Diagnostic Tools window](https://devblogs.microsoft.com/devops/searching-and-filtering-the-events-tab-of-the-diagnostic-tools-window/).
 
@@ -70,9 +66,7 @@ In this tutorial, you will:
    ::: moniker range=">=vs-2022"
    ![Screenshot that shows Diagnostics Tools enable CPU profiling.](../profiling/media/vs-2022/diag-tools-enable-cpu-profiling.png "DiagToolsEnableCPUProfiling")
    ::: moniker-end
-   ::: moniker range="vs-2019"
-   ![Screenshot that shows Diagnostics Tools enable CPU profiling.](../profiling/media/diag-tools-enable-cpu-profiling.png "DiagToolsEnableCPUProfiling")
-   ::: moniker-end
+
 
      When you choose **Record CPU Profile**, Visual Studio will begin recording your functions and how much time they take to execute. You can only view this collected data when your application is halted at a breakpoint.
 
@@ -85,27 +79,21 @@ In this tutorial, you will:
    ::: moniker range=">=vs-2022"
    ![Screenshot that shows Diagnostics Tools preparing threads.](../profiling/media/vs-2022/diag-tools-preparing-data.png "DiagToolsPreparingThreads")
    ::: moniker-end
-   ::: moniker range="vs-2019"
-   ![Screenshot that shows Diagnostics Tools preparing threads.](../profiling/media/diag-tools-preparing-data.png "DiagToolsPreparingThreads")
-   ::: moniker-end
+
 
    The CPU Usage tool displays the report in the **CPU Usage** tab.
 
    ::: moniker range=">=vs-2022"
    ![Screenshot that shows Diagnostics Tools CPU Usage Tab.](../profiling/media/vs-2022/diag-tools-cpu-usage-tab.png "DiagToolsCPUUsageTab")
    ::: moniker-end
-   ::: moniker range="vs-2019"
-   ![Screenshot that shows Diagnostics Tools CPU Usage Tab.](../profiling/media/diag-tools-cpu-usage-tab.png "DiagToolsCPUUsageTab")
-   ::: moniker-end
+
 
 9. If you want to select a more specific region of code to analyze, select a region in the CPU timeline (it must be a region that shows profiling data).
 
    ::: moniker range=">=vs-2022"
    ![Screenshot that shows Diagnostics Tools selecting a time segment.](../profiling/media/vs-2022/diag-tools-select-time-segment.png "DiagToolsSelectTimeSegment")
    ::: moniker-end
-   ::: moniker range="vs-2019"
-   ![Screenshot that shows Diagnostics Tools selecting a time segment.](../profiling/media/diag-tools-select-time-segment.png "DiagToolsSelectTimeSegment")
-   ::: moniker-end
+
 
      At this point, you can begin to analyze the data. If you have trouble collecting or displaying data, see [Troubleshoot profiling errors and fix issues](../profiling/troubleshoot-profiler-errors.md).
 
@@ -121,9 +109,7 @@ We recommend that you begin analyzing your data by examining the list of functio
    ::: moniker range=">=vs-2022"
    ![Screenshot that shows Diagnostics Tools CPU Usage Function List.](../profiling/media/diag-tools-cpu-usage-function-list.png "DiagToolsCPUUsageFunctionList")
    ::: moniker-end
-   ::: moniker range="vs-2019"
-   ![Screenshot that shows Diagnostics Tools CPU Usage Function List.](../profiling/media/diag-tools-cpu-usage-function-list.png "DiagToolsCPUUsageFunctionList")
-   ::: moniker-end
+
 
     > [!TIP]
     > Functions are listed in order starting with those doing the most work (they're not in call order). This helps you quickly identify the longest running functions.
@@ -140,16 +126,7 @@ We recommend that you begin analyzing your data by examining the list of functio
 
    This view shows you the total time (ms) and the percentage of the overall app running time that the function has taken to complete. **Function Body** also shows you the total amount of time (and the percentage of time) spent in the function body excluding time spent in calling and called functions.
    ::: moniker-end
-   ::: moniker range="vs-2019"
 
-   When you double-click a function, the **Caller/Callee** view opens in the left pane.
-
-   ![Screenshot that shows Diagnostics Tools Caller Callee View.](../profiling/media/diag-tools-caller-callee.png "DiagToolsCallerCallee")
-
-   In this view, the selected function shows up in the heading and in the **Current Function** box (GetNumber, in this example). The function that called the current function is shown on the left under **Calling Functions**, and any functions called by the current function are shown in **Called Functions** box on the right. (You can select either box to change the current function.)
-
-   This view shows you the total time (ms) and the percentage of the overall app running time that the function has taken to complete. **Function Body** also shows you the total amount of time (and the percentage of time) spent in the function body excluding time spent in calling and called functions. (In this example, 2367 out of 2389 ms were spent in the function body, and the remaining 22 ms were spent in external code called by this function).
-   ::: moniker-end
 
     > [!TIP]
     > High values in **Function Body** may indicate a performance bottleneck within the function itself.
@@ -206,15 +183,7 @@ If you want to view the call paths of external code, deselect **Show Just My Cod
 ![Screenshot that shows Settings, then Show Just My Code.](../profiling/media/vs-2022/diagnostics-tools-show-external-code.png)
 
 ::: moniker-end
-::: moniker range="vs-2019"
 
-External code are functions in system and framework components that are executed by the code you write. External code includes functions that start and stop the app, draw the UI, control threading, and provide other low-level services to the app. In most cases, you won't be interested in external code, and so the CPU Usage tool gathers the external functions of a user method into one **[External Code]** node.
-
-If you want to view the call paths of external code, choose **Show External Code** from the **Filter view** list and then choose **Apply**.
-
-![Screenshot that shows Choose Filter View, then Show External Code.](../profiling/media/diag-tools-show-external-code.png)
-
-::: moniker-end
 
 Be aware that many external code call chains are deeply nested, so that the width of the Function Name column can exceed the display width of all but the largest of computer monitors. When this happens, function names are shown as **[...]**.
 

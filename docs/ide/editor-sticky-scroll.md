@@ -1,7 +1,7 @@
 ---
-title: About the Editor Sticky Scroll feature
+title: About the Editor Sticky Scroll Feature
 description: Use the Sticky Scroll feature in Visual Studio to quickly view code scopes at the top of the editor, which helps you stay in the right context while you code. 
-ms.date: 10/18/2024
+ms.date: 12/29/2025
 ms.topic: overview 
 author: anandmeg
 ms.author: meghaanand
@@ -31,14 +31,29 @@ Here's an animated example of Sticky Scroll in a C++ file:
 
 Use the following steps:
 
-1. From the Visual Studio menu bar, select **Tools** > **Options** > **Text Editor** > **General**.
-1. In the **Sticky scroll** section, select, or unselect, the **Group the current scopes within a scrollable region of the editor window** option.
+:::moniker range="visualstudio"
+
+1. From the Visual Studio menu bar, select **Tools** > **Options** and expand the **All Settings** > **Text Editor** > **General** > **Sticky scroll** section.
+
+1. Select or clear the **Group the current scopes within a scrollable region of the editor window** option.
+
+:::moniker-end
+:::moniker range="vs-2022"
+
+1. From the Visual Studio menu bar, select **Tools** > **Options** and expand the **Text Editor** > **General** section.
+
+1. In the **Sticky scroll** group, select or clear the **Group the current scopes within a scrollable region of the editor window** option.
+
 1. Select **OK**.
+
+:::moniker-end
 
 If you want to turn Sticky Scroll off, you can do so from the editor by right-clicking in the Sticky Scroll header area and then selecting **Sticky Scroll**.
 
+:::moniker range="visualstudio"
+
 > [!IMPORTANT]
-> If you're using C# and Sticky Scroll isn't working for you, try this workaround. Select **Tools** > **Options** > **Text Editor** > **C#** > **Advanced**. Next, in the **Block Structure Guides** section, enable the following options.
+> If you're using C# and Sticky Scroll isn't working for you, try this workaround. Open the **Tools** > **Options** pane and expand the **All Settings** > **Languages** > **C#** > **Advanced** section. Next, in the **Block Structure Guides** group, enable the following options.
 >
 > | Option   | Description |
 > |:---------|:------------|
@@ -46,11 +61,23 @@ If you want to turn Sticky Scroll off, you can do so from the editor by right-cl
 > |**Show guides for code level constructs**        | Affects conditionals and loops |
 >
 
+:::moniker-end
+:::moniker range="vs-2022"
+
+> [!IMPORTANT]
+> If you're using C# and Sticky Scroll isn't working for you, try this workaround. Select **Tools** > **Options** > **Text Editor** > **C#** > **Advanced**. Next, in the **Block Structure Guides** group, enable the following options.
+>
+> | Option   | Description |
+> |:---------|:------------|
+> |**Show guides for declaration level constructs** | Affects namespaces, classes, and method initializations |
+> |**Show guides for code level constructs**        | Affects conditionals and loops |
+>
+
+:::moniker-end
+
 ## How Sticky Scroll works
 
-You can use Sticky Scroll to stick scopes such as namespaces, classes, methods, loop initialization statements, and conditionals.
-
-And, you can jump directly to a line of code by clicking its reference in the Sticky Scroll header.
+You can use Sticky Scroll to stick scopes such as namespaces, classes, methods, loop initialization statements, and conditionals. You can also jump directly to a line of code by selecting its reference in the Sticky Scroll header.
 
 :::image type="content" source="media/vs-2022/sticky-scroll-single-click-example.gif" alt-text="An animation of the single-click option in the Sticky Scroll header that takes to code.":::
 
@@ -68,9 +95,20 @@ But sometimes, the namespace and class name match the file name. When informatio
 
 :::image type="content" source="media/vs-2022/sticky-scroll-scopes-inner.gif" alt-text="An animation of the Sticky Scroll with inner scopes selected.":::
 
-You can configure whether to prioritize outer or inner scopes when the set number of scopes exceeds the maximum. From the Visual Studio menu bar, select **Tools** > **Options**> **Text Editor** > **Sticky scroll**, and then select **Prefer outer scopes** or **Prefer inner scopes**.
+:::moniker range="visualstudio"
+
+You can configure whether to prioritize outer or inner scopes when the specified number of scopes exceeds the maximum. Open the **Tools** > **Options** pane and expand the **All Settings** > **Text Editor** > **General** > **Sticky scroll** section. Use the dropdown list and set the **When the number of scopes exceeds the maximum** option to **Prefer outer scopes** or **Prefer inner scopes** (default).
+
+:::image type="content" source="./reference/media/visualstudio/tools-options-text-editor-scroll.png" alt-text="Screenshot of the inner and outer scope options for Sticky Scroll.":::
+
+:::moniker-end
+:::moniker range="vs-2022"
+
+You can configure whether to prioritize outer or inner scopes when the specified number of scopes exceeds the maximum. Open the **Tools** > **Options** dialog and expand the **Text Editor** > **General** section, In the **Sticky scroll** group, use the dropdown list and set the **When the number of scopes exceeds the maximum** option to **Prefer outer scopes** or **Prefer inner scopes** (default).
 
 :::image type="content" source="media/vs-2022/sticky-scroll-options.png" alt-text="Screenshot of the inner and outer scope options for Sticky Scroll.":::
+
+:::moniker-end
 
 ## Related content
 

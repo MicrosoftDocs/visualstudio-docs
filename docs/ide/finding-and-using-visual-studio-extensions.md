@@ -30,13 +30,6 @@ For information about creating Visual Studio extensions, see [Visual Studio SDK]
 
 ::: moniker-end
 
-::: moniker range="<=vs-2019"
-
-This article describes how to find, install, and manage extension packages in Visual Studio. [Extensions](../extensibility/index.yml) are code packages that run inside Visual Studio and provide new or improved features. Extensions can be controls, samples, templates, tools, or other components that add functionality to Visual Studio, for example, [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsls-vs) or [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs).
-
-For information about creating Visual Studio extensions, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md). For information about using extensions, see the individual extension page on [Visual Studio Marketplace](https://marketplace.visualstudio.com/vs).
-
-::: moniker-end
 
 ## Use Extension Manager 
 
@@ -48,11 +41,6 @@ In the Visual Studio IDE, Extension Manager is the tool that you use to find, in
 
 ::: moniker-end
 
-::: moniker range="<=vs-2019"
-
-:::image type="content" source="media/vs-2019/extensions-and-updates.png" alt-text="Screenshot of Extension Manager in Visual Studio.":::
-
-::: moniker-end
 
 The left pane categorizes extensions by those that are available on Visual Studio Marketplace (**Browse**), those that are installed, and those that have updates available. The **Roaming** tab lists all the Visual Studio extensions that you have installed on any machine or instance of Visual Studio. It's designed to let you find your favorite extensions more easily.
 
@@ -84,13 +72,6 @@ To install extensions from Visual Studio:
 
 ::: moniker-end
 
-::: moniker range="<=vs-2019"
-
-After the download completes, you'll see a notification at the bottom of the Manage Extensions dialog: "The extension is scheduled for install. Your extension will be installed after all instances of Visual Studio have been closed."
-
-  :::image type="content" source="media/vs-2019/manage-extensions-install-notification.png" alt-text="Screenshot that shows the notification in Extension Manager stating that changes are scheduled." lightbox="media/vs-2019/manage-extensions-install-notification.png":::
-
-::: moniker-end
 
 If you try to install an extension that has dependencies, the installer determines whether they're already installed. If they aren't installed, Extension Manager lists the dependencies that must be installed before you can install the extension.
 
@@ -129,17 +110,6 @@ To restrict when per-user extensions load:
 
 ### Automatic extension updates
 
-:::moniker range="<=vs-2019"
-
-Extensions are updated automatically when a new version is available on Visual Studio Marketplace. The new version of the extension is detected and installed in the background. The next time you open Visual Studio, the new version of the extension will be running.
-
-If you want to disable automatic updates, you can disable the feature for all extensions or for only specific extensions.
-
-- To disable automatic updates for all extensions, select the **View Settings** button in the **Extensions** > **Manage Extensions** dialog. In the **Options** dialog, under **Environment** > **Extensions**, clear **Automatically update extensions**.
-
-- To disable automatic updates for a specific extension, clear the **Automatically update this extension** option in the extension's details pane on the right side of Extension Manager.
-
-:::moniker-end
 
 :::moniker range=">=vs-2022"
 

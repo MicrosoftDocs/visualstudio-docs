@@ -1,7 +1,7 @@
 ---
 title: "Add TypeScript to an ASP.NET Core app"
 description: Create a simple web application by using ASP.NET Core and TypeScript, add TypeScript code, run the app, and debug with breakpoints.
-ms.date: 5/14/2025
+ms.date: 12/19/2025
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -19,9 +19,6 @@ In this tutorial for Visual Studio development using ASP.NET Core and TypeScript
 In Visual Studio 2022 and later, if you want to use Angular or Vue with ASP.NET Core, it's recommended that you use the ASP.NET Core Single Page Application (SPA) templates to create an ASP.NET Core app with TypeScript. For more information, see the Visual Studio tutorials for [Angular](../javascript/tutorial-asp-net-core-with-angular.md) or [Vue](../javascript/tutorial-asp-net-core-with-vue.md).
 ::: moniker-end
 
-::: moniker range="vs-2019"
-If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) page to install it for free.
-::: moniker-end
 
 In this tutorial, you learn how to:
 > [!div class="checklist"]
@@ -61,12 +58,9 @@ In this tutorial, you begin with a simple project containing code for an ASP.NET
 
 4. In the **Configure your new project** window, enter a name for your project in the **Project name** box. Then, select **Next**.
 
-::: moniker range="vs-2019"
-5. Select the recommended target framework (.NET 8.0 or Long-term support), and then select **Create**.
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
-5. In the **Additional information** window, ensure **.NET 8.0** is selected in the **Framework** dropdown menu, and then select **Create**.  
+5. In the **Additional information** window, ensure **.NET 8.0** or later is selected in the **Framework** dropdown menu, and then select **Create**.  
 ::: moniker-end
 
 Visual Studio opens your new project.  
@@ -79,7 +73,13 @@ Visual Studio opens your new project.
 
 1. Select **Install** to install the package.
 
-   ![Add NuGet package](../javascript/media/aspnet-core-ts-nuget.png)
+   :::moniker range="vs-2022"
+   ![Screenshot that shows how to install the NuGet package.](../javascript/media/aspnet-core-ts-nuget.png)
+   :::moniker-end
+
+   :::moniker range="visualstudio"
+   ![Screenshot that shows how to install the NuGet package.](../javascript/media/visualstudio/aspnet-core-ts-nuget.png)
+   :::moniker-end
 
    Visual Studio adds the NuGet package under the **Dependencies** node in Solution Explorer.
 

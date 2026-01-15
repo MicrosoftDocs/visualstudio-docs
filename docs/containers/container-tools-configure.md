@@ -36,14 +36,6 @@ You can control some aspects of how Visual Studio works with Docker containers b
 
 :::moniker-end
 
-::: moniker range="vs-2019"
-
-## Prerequisites
-
-- [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
-- [Visual Studio 2019 or later](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, **.NET desktop development**, and/or **.NET Core cross-platform development** workload installed.
-
-:::moniker-end
 
 ## Container Tools settings
 
@@ -51,19 +43,6 @@ To access the settings, select **Tools > Options** from the main Visual Studio m
 
 ### General settings
 
-:::moniker range="<=vs-2019"
-
-![Screenshot of Visual Studio Container Tools options.](./media/configure-container-tools/tools-options-1.png)
-
-The following table describes the **General** settings:
-
-|Setting|Default value|Description|
-|-----|---------------|----------|-----------|
-|Install Docker Desktop if needed|Prompt me|Choose whether you want to be prompted if Docker Desktop isn't installed.|
-|Start Docker Desktop if needed|Always|If Docker Desktop isn't started, choose whether to start it automatically or whether to prompt you.|
-|Trust ASP.NET Core SSL certificate|Prompt me|Choose whether to prompt if the `localhost` SSL certificate isn't trusted in an ASP.NET Core project.|
-
-:::moniker-end
 :::moniker range="vs-2022"
 
 ![Screenshot of Visual Studio Container Tools options.](./media/configure-container-tools/vs-2022/general.png)
@@ -99,23 +78,12 @@ The following table describes the **General** settings:
 
 The Container Tools **Single Project** and **Docker Compose** settings are identical.
 
-:::moniker range="<=vs-2019"
-![Screenshot of Visual Studio 2019 Container Tools options.](./media/configure-container-tools/tools-options-2.png)
-:::moniker-end
 :::moniker range="vs-2022"
 ![Screenshot of Visual Studio 2022 Container Tools options.](./media/configure-container-tools/vs-2022/tools-options-2.png)
 :::moniker-end
 
 The following table describes **Single Project** and **Docker Compose** settings:
 
-:::moniker range="<=vs-2019"
-|Setting|Default value|Description|
-|-----|---------------|-----------|
-|Pull required Docker images on project open|True|Whether to start a background Docker pull operation when loading a container project. Required images are downloaded or downloading when you're ready to run your code. If you just want to browse the code, you can set to **False** to avoid downloading container images you don't need.|
-|Pull updated Docker images on project open|.NET Core projects|Whether or on which projects to run a Docker pull for all images on project open to get the latest updates.|
-|Run containers on project open|True|Whether to create a container when loading a container project, so it's ready when you build and run. If you prefer to control when your container is created, set to **False**.|
-|Remove containers on project close|True|Whether to remove containers for your solution after closing the solution or closing Visual Studio.|
-:::moniker-end
 :::moniker range="vs-2022"
 |Setting|Default value|Description|
 |-----|:---------------|-----------|
@@ -145,24 +113,6 @@ The following settings appear in the **Debugging** section:
 
 :::moniker-end
 
-:::moniker range="<=vs-2019"
-### Containers Tool Window settings
-
-The **Containers Tool Window** settings apply to the **Containers** window in the Visual Studio IDE, which shows information about Docker containers and images. For more information, see [Use the Containers window](view-and-diagnose-containers.md).
-
-![Screenshot of the Visual Studio Container Tools Options, showing the settings available for the Containers Tool window.](media/configure-container-tools/tools-options-3.png)
-
-The following table describes the **Containers Tool Window** settings:
-
-|Setting|Default value|Description|
-|-----|---------------|-----------|
-|Confirm before pruning containers|Always|Whether to prompt you when pruning unused containers.|
-|Confirm before pruning images|Always|Whether to prompt you when pruning unused images.|
-|Confirm before removing a container|Always|Whether to prompt you when removing a container.|
-|Confirm before removing an image|Always|Whether to prompt you when removing an image.|
-|Confirm before running large number of images|Always|Whether to prompt you before starting containers from more than 10 images at a time.|
-
-:::moniker-end
 :::moniker range="vs-2022"
 ### Containers Window settings
 

@@ -1,8 +1,10 @@
 ---
 title: Save and open files with encoding
 description: Learn how to save and open files with specific encoding in Visual Studio, and ensure files open correctly in subsequent use.
-ms.date: 11/13/2025
+ms.date: 11/14/2025
 ms.topic: how-to
+f1_keywords:
+- vs.advancedsaveoptions
 helpviewer_keywords:
 - Unicode, bidirectional language support
 - files, encoding
@@ -26,7 +28,23 @@ You can save files with specific character encoding in Visual Studio to support 
 
 ## Save file with encoding
 
-Follow these steps to save your file with encoding:
+:::moniker range="visualstudio"
+
+Follow these steps to save your file with encoding. This procedure overwrites the file with its previous encoding.
+
+1. In the editor bottom margin, on the bottom right, click on the encoding widget.
+
+1. To save the file with a different encoding, choose **Save with Encoding**.
+
+   A dialog box appears with a dropdown list of available encodings. 
+
+   :::image type="content" alt-text="Screenshot of encodings dialog box." source="media/visualstudio/encoding-dialog-box.png":::
+
+1. Choose the encoding and select **OK**. The file is saved.
+
+:::moniker-end
+
+Follow these steps to save your file under a new filename with encoding:
 
 1. In Visual Studio, select **File** > **Save <Filename\> As** for the file you want to save.
 

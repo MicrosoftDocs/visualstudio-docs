@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with React"
 description: Create an ASP.NET Core project to serve as an API backend and a React project to provide the user interface in Visual Studio.
-ms.date: 04/09/2025
+ms.date: 12/17/2025
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -35,6 +35,21 @@ You can use the method described in this article to create ASP.NET Core Single P
 
 ## Create the app
 
+:::moniker range="visualstudio"
+
+1. In the Start window, select **Create a new project**. <!-- Avoid parenthetical clauses. https://review.learn.microsoft.com/en-us/help/contribute/localization-mt-guidance?branch=main-->
+
+   :::image type="content" source="media/visualstudio/create-new-project.png" alt-text="Screenshot showing Create a new project.":::
+
+1. Search for React in the search bar at the top and then select **React and ASP.NET Core**. This template is a JavaScript template.
+
+   :::image type="content" source="media/visualstudio/react-choose-template.png" alt-text="Screenshot showing choosing a template.":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+    
+
 1. In the Start window, select **Create a new project**. <!-- Avoid parenthetical clauses. https://review.learn.microsoft.com/en-us/help/contribute/localization-mt-guidance?branch=main-->
 
    :::image type="content" source="media/vs-2022/create-new-project.png" alt-text="Screenshot showing Create a new project.":::
@@ -43,11 +58,13 @@ You can use the method described in this article to create ASP.NET Core Single P
 
    :::image type="content" source="media/vs-2022/react-choose-template.png" alt-text="Screenshot showing choosing a template.":::
 
-1. Name the project **ReactWithASP** and then select **Next**.
+:::moniker-end
+
+3. Name the project **ReactWithASP** and then select **Next**.
 
    In the Additional Information dialog, make sure that **Configure for HTTPS** is enabled. In most scenarios, leave the other settings at the default values.
 
-1. Select **Create**.
+4. Select **Create**.
 
    Solution Explorer shows the following project information:
 
@@ -58,7 +75,7 @@ You can use the method described in this article to create ASP.NET Core Single P
    - vite.config.js
    - App.jsx (modified)
 
-1. Select an installed browser from the Debug toolbar, such as Chrome or Microsoft Edge.
+5. Select an installed browser from the Debug toolbar, such as Chrome or Microsoft Edge.
 
    If the browser you want is not yet installed, install the browser first, and then select it.
 
@@ -70,7 +87,19 @@ You can use the method described in this article to create ASP.NET Core Single P
 
 1. In the Properties page, open the **Debug** tab and select **Open debug launch profiles UI** option. Uncheck the **Launch Browser** option for the **https** profile or the profile named after the ASP.NET Core project, if present.
 
+   :::moniker range="visualstudio"
+   
+   :::image type="content" source="media/visualstudio/asp-net-core-deselect-launch-browser-react.png" alt-text="Screenshot showing Debug launch profiles UI."::: 
+   
+   :::moniker-end
+
+   :::moniker range="vs-2022"
+   
    :::image type="content" source="media/vs-2022/asp-net-core-deselect-launch-browser-react.png" alt-text="Screenshot showing Debug launch profiles UI."::: 
+   
+   :::moniker-end
+
+   
 
    This value prevents opening the web page with the source weather data.
 
@@ -133,7 +162,9 @@ If you don't see the weather forecast data in the browser, see [Troubleshooting]
    }
    ```
 
-1. To publish, right click the ASP.NET Core project, choose **Publish**, and select options to match your desired publish scenario, such as Azure, publish to a folder, etc.
+1. Right-click the ASP.NET Core project, choose **Publish**, and select options to match your desired publish scenario, such as Azure, publish to a folder, etc.
+
+1. After the publish profile is created, choose **Publish** in the Publish tab to publish the project.
 
    The publish process takes more time than it does for just an ASP.NET Core project, since the `npm run build` command gets invoked when publishing. The [BuildCommand](../javascript/javascript-project-system-msbuild-reference.md#buildcommand) runs `npm run build` by default.
 
@@ -184,7 +215,17 @@ If you create the project with [Docker support](../containers/container-tools-re
 
 1. After the app loads, get the Docker HTTPS port using the [Containers window](../containers/container-tools-react.md#containers-window) in Visual Studio. Check the **Environment** or **Ports** tab.
 
+   :::moniker range="visualstudio"
+       
+   :::image type="content" source="media/visualstudio/asp-net-core-with-react-docker-container-ports.png" alt-text="Screenshot showing Docker container ports.":::
+   
+   :::moniker-end
+ 
+   :::moniker range="vs-2022"
+       
    :::image type="content" source="media/vs-2022/asp-net-core-with-react-docker-container-ports.png" alt-text="Screenshot showing Docker container ports.":::
+   
+   :::moniker-end
 
 > [!NOTE]
 > If you do not see the environment name `ASPNETCORE_HTTPS_PORT`, add it manually using the **launchSettings.json** file. In the section `Container (Dockerfile)` and after the entry `"useSSL": true`, add `"sslPort": <any port>`. In this example, use the following: `"sslPort": 44307` 

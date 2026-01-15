@@ -1,7 +1,7 @@
 ---
 title: 'Configure Targets and Tasks'
 description: Learn how to set selected MSBuild tasks to run in the environment they target, regardless of the environment of the development computer.
-ms.date: 01/11/2022
+ms.date: 12/16/2025
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
@@ -13,13 +13,13 @@ ms.subservice: msbuild
 Selected MSBuild tasks can be set to run in the environment they target, when the development computer supports the target environment. For example, when you use a 64-bit Windows computer to build an application that targets a 32-bit Windows architecture, then selected tasks are run in a 32-bit process.
 
 > [!NOTE]
-> If a build task is written in a .NET language, such as Visual C# or Visual Basic, and does not use native resources or tools, then it will run in any target context without adaptation.
+> If a build task is written in a .NET language, such as Visual C# or Visual Basic, and does not use native resources or tools, then it can run in any target context without adaptation.
 
 ## UsingTask attributes and task parameters
 
 The following `UsingTask` attributes affect all operations of a task in a particular build process:
 
-- The `Runtime` attribute, if present, sets the common language runtime (CLR) version, and can take any one of these values: `CLR2`, `CLR4`, `CurrentRuntime`, or `*` (any runtime).
+- The `Runtime` attribute, if present, sets the common language runtime (CLR) version, and can take any one of these values: `CLR2`, `CLR4`, `CurrentRuntime`, `NET` (starting in .NET SDK 10/Visual Studio 2026/MSBuild 18.0) or `*` (any runtime).
 
 - The `Architecture` attribute, if present, sets the platform and bitness, and can take any one of these values: `x86`, `x64`, `CurrentArchitecture`, or `*` (any architecture).
 
@@ -69,7 +69,7 @@ Before MSBuild runs a task, it looks for a matching `UsingTask` that has the sam
 ```
 
 ## Overriding default UsingTasks
-By default, MSBuild handles UsingTask's as "first one wins." Starting in 17.2, MSBuild supports overriding this behavior via the `Override` parameter. A UsingTask with the parameter `Override` set to `true` will take priority over any other UsingTask of the same TaskName.
+By default, MSBuild handles UsingTask's as "first one wins." Starting in 17.2, MSBuild supports overriding this behavior via the `Override` parameter. A UsingTask with the parameter `Override` set to `true` takes priority over any other UsingTask of the same TaskName.
 
 ```xml
 <UsingTask TaskName="MyTool"
@@ -80,7 +80,7 @@ By default, MSBuild handles UsingTask's as "first one wins." Starting in 17.2, M
 ```
 
 > [!WARNING]
-> This can only be done **once per task**. Builds that attempt to add multiple overrides for the same task will receive MSBuild error `MSB4275`.
+> This can only be done **once per task**. Builds that attempt to add multiple overrides for the same task receives MSBuild error `MSB4275`.
 
 ## Task factories
 
@@ -116,6 +116,54 @@ The `RoslynCodeTaskFactory` provides a mechanism by which you can write C# or Vi
 
 `CodeTaskFactory` is an older version of `RoslynCodeTaskFactory` that is limited to the .NET Framework version of MSBuild. See [MSBuild inline tasks](msbuild-inline-tasks.md). This task factory is supported, but newer code should use `RoslynCodeTaskFactory` for wider applicability.
 
+## TaskHosts in MSBuild
+
+MSBuild executes tasks as part of the build process, and sometimes those tasks require running in a different runtime or architecture context than the default build process. To support this, MSBuild can use a "TaskHost"—a separate MSBuild process responsible for running tasks under the requested environment. TaskHosts ensure isolation, compatibility, and support for targeting different frameworks or platforms.
+
+Historically, TaskHosts enabled tasks to run in separate .NET Framework processes of specific versions (for example, CLR2 or CLR4). This support was governed by the `Runtime` and `Architecture` attributes of the `<UsingTask>` element in the project file or targets file:
+- `Architecture` can specify values like `x86`, `x64`, `CurrentArchitecture`, or `*` for “any architecture”.
+- `Runtime` can specify values like `CLR2`, `CLR4`, and (recently) `NET` or `CurrentRuntime`.
+
+For most MSBuild tasks, the default process is sufficient. But for custom or more advanced tasks—especially those with platform-specific dependencies—TaskHosts unlock compatibility and flexibility by launching a suitable runtime automatically.
+
+## Using the .NET TaskHost
+
+With the release of the .NET 10 SDK and Visual Studio 2026, MSBuild introduced support for a `.NET TaskHost`. This feature allows MSBuild to run tasks that must use a .NET runtime in a separate .NET process. This is enabled via the `Runtime="NET"` attribute in the `<UsingTask>` element:
+
+```xml
+<UsingTask TaskName="MyNetTask"
+           Runtime="NET"
+           AssemblyFile="path\to\task.dll" />
+```
+
+When this attribute is set:
+- MSBuild automatically manages a pool of .NET TaskHost processes and executes the specified task on a node in that pool.
+- Tasks can take advantage of APIs or libraries exclusive to modern .NET runtimes.
+- Isolation protects the build process from dependency or version conflicts.
+
+> [!WARNING]
+> This `.NET TaskHost` capability using `Runtime="NET"` is supported starting in MSBuild 18.0 (.NET SDK 10 / Visual Studio 2026) and is currently only supported for projects using `Microsoft.NET.Sdk`.
+
+If you ship targets that need to work with older MSBuild toolsets, you can conditionally select a `UsingTask` definition based on the current MSBuild version (and, when applicable, `$(MSBuildRuntimeType)`):
+
+```xml
+<UsingTask TaskName="MyTask"
+           Runtime="NET"
+           AssemblyFile="my/net/tasks.dll"
+           Condition="$([MSBuild]::VersionGreaterThanOrEquals('$(MSBuildVersion)', '18.0'))" />
+
+<UsingTask TaskName="MyTask"
+           Runtime="CLR4"
+           AssemblyFile="my/netframework/tasks.dll"
+           Condition="!$([MSBuild]::VersionGreaterThanOrEquals('$(MSBuildVersion)', '18.0')) and '$(MSBuildRuntimeType)' == 'Full'" />
+```
+
+### Why Use the .NET TaskHost?
+
+- **Access to modern .NET APIs:** .NET TaskHost enables tasks to use features and libraries only available in recent .NET releases.
+- **Improved compatibility:** Separating task execution can avoid versioning and dependency conflicts.
+- **Future proofing:** We intend to further expand TaskHost support and unify SDK/resolver logic (see [dotnet/msbuild#12895](https://github.com/dotnet/msbuild/issues/12895) for ongoing work).
+
 ## Phantom task parameters
 
 Like any other task parameters, `MSBuildRuntime` and `MSBuildArchitecture` can be set from build properties.
@@ -139,7 +187,7 @@ Unlike other task parameters, `MSBuildRuntime` and `MSBuildArchitecture` are not
 The `MSBuildRuntime` and `MSBuildArchitecture` parameters provide the most flexible way to set the target context, but also the most limited in scope. On the one hand, because they are set on the task instance itself and are not evaluated until the task is about to run, they can derive their value from the full scope of properties available at both evaluation-time and build-time. On the other hand, these parameters only apply to a particular instance of a task in a particular target.
 
 > [!NOTE]
-> Task parameters are evaluated in the context of the parent node, not in the context of the task host. Environment variables that are runtime- or architecture- dependent (such as the *Program Files* location) will evaluate to the value that matches the parent node. However, if the same environment variable is read directly by the task, it will correctly be evaluated in the context of the task host.
+> Task parameters are evaluated in the context of the parent node, not in the context of the task host. Environment variables that are runtime- or architecture- dependent (such as the *Program Files* location) evaluates to the value that matches the parent node. However, if the same environment variable is read directly by the task, it's correctly evaluated in the context of the task host.
 
 ## Related content
 

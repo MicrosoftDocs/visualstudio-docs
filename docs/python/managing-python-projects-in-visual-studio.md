@@ -3,8 +3,8 @@ title: Manage Python application projects
 description: Explore how projects in Visual Studio manage dependencies between files and the complexity of relationships in an application.
 ms.date: 04/18/2024
 ms.topic: how-to
-author: cwebster-99
-ms.author: cowebster
+author: Devdiv-VR
+ms.author: vedhar
 manager: mijacobs
 ms.subservice: python
 
@@ -79,23 +79,6 @@ The following templates are available in Visual Studio version 2022.
 
 ::: moniker-end
 
-::: moniker range="<=vs-2019"
-
-The following templates are available in Visual Studio version 2019. Not all templates available in version 2019 are available in earlier versions of Visual Studio.
-
-| Template | Description |
-| --- | --- |
-| [**From existing Python code**](#create-a-project-from-existing-files) | Creates a Visual Studio project from existing Python code in a folder structure. |
-| **Python Application** | Provides a basic project structure for a new Python application with a single, empty source file. By default, the project runs in the console interpreter of the default global environment. You can change [assign a different environment](selecting-a-python-environment-for-a-project.md). |
-| [**Web projects**](python-web-application-project-templates.md) | Projects for web apps based on various frameworks including Bottle, Django, and Flask. |
-| **Background Application (IoT)** | Supports deploying Python projects to run as background services on devices. For more information, see the [Windows IoT Dev Center](https://dev.windows.com/en-us/iot). |
-| **Python Extension Module** | This template appears under Visual C++ if you install the **Python native development tools** with the Python workload in Visual Studio 2017 or later (see [Installation](installing-python-support-in-visual-studio.md)). The template provides the core structure for a C++ extension DLL, similar to the structure described in [Create a C++ extension for Python](working-with-c-cpp-python-in-visual-studio.md). |
-| **IronPython Application** | Uses IronPython by default and enables .NET interop and mixed-mode debugging with .NET languages. This template is similar to the Python Application template. |
-| **IronPython WPF Application** | Provides a project structure by using IronPython with Windows Presentation Foundation XAML files for the application user interface. Visual Studio provides a XAML UI designer, code-behind can be written in Python, and the application runs without displaying a console. |
-| **IronPython Silverlight Web Page** | Creates an IronPython project that runs in a browser by using Silverlight. The application's Python code is included in the web page as script. A boilerplate script tag pulls down JavaScript code to initialize IronPython running inside of Silverlight, from which your Python code can interact with the DOM. |
-| **IronPython Windows Forms Application** | Builds a project structure with IronPython and UI created by using code with Windows Forms. The application runs without displaying a console. |
-
-::: moniker-end
 
 > [!Note]
 > Because Python is an interpreted language, Python projects in Visual Studio don't produce a stand-alone executable like other compiled language projects such as C#. For more information, see [questions and answers](overview-of-python-tools-for-visual-studio.md#questions-and-answers).

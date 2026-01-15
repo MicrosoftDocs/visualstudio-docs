@@ -3,6 +3,8 @@ title: Configure Windows Firewall for remote debugging
 description: Configure Windows Firewall for remote debugging. Configure ports for remote debugging. Troubleshoot the remote debugging connection.
 ms.date: 10/01/2025
 ms.topic: how-to
+f1_keywords:
+  - "vs.debug.firewallconfiguration"
 author: mikejo5000
 ms.author: mikejo
 manager: mijacobs
@@ -63,14 +65,7 @@ New-NetFirewallRule -DisplayName "msvsmon" -Direction Inbound -Program "Program 
 ```
 
 ::: moniker-end
-::: moniker range="vs-2019"
-The following example opens port 4024 for the remote debugger on the remote computer. The path you need to use might be different.
 
-```ps
-New-NetFirewallRule -DisplayName "msvsmon" -Direction Inbound -Program "Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\Remote Debugger\x64\msvsmon.exe" -LocalPort 4024 -Protocol TCP -Authentication Required -Action Allow
-```
-
-::: moniker-end
 
 ### Ports on the remote computer that enable remote debugging
 
@@ -86,22 +81,7 @@ For remote debugging, the following ports must be open on the remote computer:
 |3702|Outgoing|UDP|(Optional) Required for remote debugger discovery.|
 
 ::: moniker-end
-::: moniker range="vs-2019"
 
-|**Ports**|**Incoming/Outgoing**|**Protocol**|**Description**|
-|-|-|-|-|
-|4024|Incoming|TCP|For Visual Studio 2019 and Microsoft Azure App Service. The port number increments by 2 for each Visual Studio version. For more information, see [Visual Studio remote debugger port assignments](../debugger/remote-debugger-port-assignments.md).|
-|4025|Incoming|TCP|For Visual Studio 2019 and Azure App Service. This port is only used to remote debug a 32-bit process from a 64-bit version of the remote debugger. For more information, see [Visual Studio remote debugger port assignments](../debugger/remote-debugger-port-assignments.md).|
-|3702|Outgoing|UDP|(Optional) Required for remote debugger discovery.|
-
-If you select **Use Managed Compatibility Mode** under **Tools** > **Options** > **Debugging**, open these additional remote debugger ports. Debugger Managed Compatibility Mode enables a legacy, Visual Studio 2010 version of the debugger.
-
-|**Ports**|**Incoming/Outgoing**|**Protocol**|**Description**|
-|-|-|-|-|
-|135, 139, 445|Outgoing|TCP|Required.|
-|137, 138|Outgoing|UDP|Required.|
-
-::: moniker-end
 
 ## Ports for IPsec and IIS
 

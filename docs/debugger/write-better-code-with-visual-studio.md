@@ -1,7 +1,7 @@
 ---
 title: Debugging techniques and tools
 description: Write better code with fewer bugs by using Visual Studio to fix exceptions and resolve errors, and make improvements to your code.
-ms.date: "10/24/2023"
+ms.date: "1/6/2025"
 ms.topic: how-to
 helpviewer_keywords:
   - "debugger"
@@ -46,7 +46,7 @@ Follow these steps to create the application:
 
 1. Enter a project name like **Console_Parse_JSON**, and then select **Next** or **Create**, as applicable.
 
-    Choose either the recommended target framework or .NET 8, and then choose **Create**.
+    Choose either the recommended target framework or .NET 10, and then choose **Create**.
 
     If you don't see the **Console App** for .NET project template, go to **Tools** > **Get Tools and Features**, which opens the Visual Studio Installer. Choose the **.NET desktop development** workload, then choose **Modify**.
 
@@ -174,6 +174,13 @@ namespace Console_Parse_JSON
     }
 }
 ```
+
+Next, check if `using System.Text` has been automatically added at the beginning of the file. By default, recent versions of Visual Studio automatically enable the **Add missing using directives on paste** option. If `using System.Text` was added, comment out this line of code.
+
+```csharp
+// using System.Text;
+```
+
 
 ## Find the red and green squiggles!
 
@@ -303,7 +310,7 @@ For the sample app, fix the `SerializationException` in the `GetJsonData` method
 
 ::: moniker range=">= vs-2022"
 > [!TIP]
-> If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while you're debugging exceptions. Just look for the **Ask Copilot** ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png) button. For more information, see [Debug with Copilot](../debugger/debug-with-copilot.md).
+> If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while you're debugging exceptions. Just look for the **Analyze with Copilot** or **Ask Copilot** ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png) button. For more information, see [Debug with Copilot](../debugger/debug-with-copilot.md).
 ::: moniker-end
 
 ## Clarify your code intent by using assert

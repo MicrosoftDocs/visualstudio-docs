@@ -17,9 +17,6 @@ author: mikejo5000
 This article provides information on the process architecture used for running unit tests, how to set the process architecture, and how to run unit tests as a 64-bit process.
 ::: moniker-end
 
-::: moniker range="<=vs-2019"
-This article provides information on how to set the process architecture for unit tests and how to run unit tests as a 64-bit process.
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 ## Configure process architecture for MSTest projects

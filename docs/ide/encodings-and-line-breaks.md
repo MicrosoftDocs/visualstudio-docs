@@ -1,7 +1,7 @@
 ---
 title: Encoding and line break characters
 description: Explore the special characters that Visual Studio interprets as line breaks and separators and understand how to configure and maintain your encoding and line break.
-ms.date: 12/17/2024
+ms.date: 11/13/2025
 ms.topic: concept-article
 f1_keywords:
 - vs.Encoding
@@ -56,6 +56,19 @@ You can also place the **Advanced Save Options** command directly on the **File*
 
 For more information, see [Customize menus and toolbars](./how-to-customize-menus-and-toolbars-in-visual-studio.md#customize-a-menu-or-a-toolbar).
 
+:::moniker range="visualstudio"
+
+## Encoding in the editor margin
+
+The editor bottom margin features an encoding widget that displays the current automatically detected encoding for the file, but also lets you change it. You can reopen or save the current file with a different encoding.
+
+:::image type="content" alt-text="Screenshot showing editor bottom margin with the encoding widget highlighted." source="media/visualstudio/encoding-in-margin.png":::
+
+If you choose to reopen or save the file, a dialog appears that lets you select an encoding. For help deciding what encoding you need, see [Character and data encoding](/globalization/encoding/encoding-overview).
+
+:::moniker-end
+
 ## Related content
 
 - [Features of the code editor](./writing-code-in-the-code-and-text-editor.md)
+- [Character and data encoding](/globalization/encoding/encoding-overview)

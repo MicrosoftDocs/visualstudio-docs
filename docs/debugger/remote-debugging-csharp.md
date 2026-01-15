@@ -2,7 +2,7 @@
 title: "Remote Debug a C# or VB project"
 description: Learn how to debug a Visual Studio C# or Visual Basic application from a remote computer by following these step-by-step instructions.
 ms.date: "10/01/2025"
-ms.topic: article
+ms.topic: how-to
 dev_langs:
   - "C++"
   - "FSharp"
@@ -72,9 +72,7 @@ The debugger can't deploy Visual C# or Visual Basic desktop applications to a re
 
     ![Screenshot of the Debug tab in the Visual Studio Project Properties. The Use remote machine property is set to 'MJO-DL:4026'.](../debugger/media/vs-2022/remote-debugger-csharp.png)
     ::: moniker-end
-    ::: moniker range="vs-2019"
-    ![Screenshot of the Debug tab in the Visual Studio Project Properties. The Use remote machine property is set to 'MJO-DL:4022'.](../debugger/media/remotedebuggercsharp.png)
-    ::: moniker-end
+
 
 5. Make sure the **Working directory** text box is empty.
 
@@ -84,11 +82,7 @@ The debugger can't deploy Visual C# or Visual Basic desktop applications to a re
     ::: moniker range=">=vs-2022"
     **MJO-DL:4026** on Visual Studio 2022
     ::: moniker-end
-    ::: moniker range="vs-2019"
-    **MJO-DL:4024** on Visual Studio 2019
 
-    The port number increments by 2 in each version of Visual Studio.
-    ::: moniker-end
 
 7. Make sure that **Enable native code debugging** isn't selected.
 
@@ -108,9 +102,7 @@ The debugger can't deploy Visual C# or Visual Basic desktop applications to a re
     ::: moniker range=">= vs-2022"
     ![Screenshot of remote debugger window for VS 2022.](../debugger/media/vs-2022/remote-debugger-window.png "Remote Debugger window")
     ::: moniker-end
-    ::: moniker range="<= vs-2019"
-    ![Screenshot of remote debugger window for VS 2019.](../debugger/media/remotedebuggerwindow.png "Remote Debugger window")
-    ::: moniker-end
+
 
 12. In Visual Studio, start debugging (**Debug > Start Debugging**, or **F5**).
 

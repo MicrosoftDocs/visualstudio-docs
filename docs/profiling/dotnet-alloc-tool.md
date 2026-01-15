@@ -25,9 +25,7 @@ For a tutorial that shows how to improve performance using the .NET Object Alloc
    ::: moniker range=">=vs-2022"
    The deployment target typically matches the project name, indicating a local deployment.
    ::: moniker-end
-   ::: moniker range="vs-2019"
-   The deployment target is typically **Local Windows Debugger** (or **Local Machine**).
-   ::: moniker-end
+
 
 1. Select **Alt+F2** to open the Performance Profiler in Visual Studio.
 
@@ -36,9 +34,7 @@ For a tutorial that shows how to improve performance using the .NET Object Alloc
    ::: moniker range=">=vs-2022"
    ![Screenshot of the Dotnet Object Allocation Tracking tool selected.](../profiling/media/vs-2022/dotnet-alloc-tool-selected.png "The Dotnet Object Allocation Tracking tool selected")
    ::: moniker-end
-   ::: moniker range="vs-2019"
-   ![Screenshot of the Dotnet Object Allocation Tracking tool selected.](../profiling/media/dotnetalloctoolselected.png "The Dotnet Object Allocation Tracking tool selected")
-   ::: moniker-end
+
 
 1. Select the **Start** button to run the tool.
 
@@ -49,18 +45,14 @@ For a tutorial that shows how to improve performance using the .NET Object Alloc
    ::: moniker range=">=vs-2022"
    ![Screenshot of window showing Stop collection.](../profiling/media/vs-2022/stop-collection-dark-theme.png "A window showing Stop collection")
    ::: moniker-end
-   ::: moniker range="vs-2019"
-   ![Screenshot of window showing Stop collection.](../profiling/media/stopcollectionlighttheme.png "A window showing Stop collection")
-   ::: moniker-end
+
 
 1. Select the **Allocation** tab. Memory allocation data similar to the following appears.
 
    ::: moniker range=">=vs-2022"
    ![Screenshot of the Allocation tab.](../profiling/media/vs-2022/allocation-view.png "The Allocation tab")
    ::: moniker-end
-   ::: moniker range="vs-2019"
-   ![Screenshot of the Allocation tab.](../profiling/media/allocationview.png "The Allocation tab")
-   ::: moniker-end
+
 
 You can now analyze the memory allocation of the objects.
 
@@ -69,18 +61,14 @@ During collection, the tracking tool can slow down the profiled app. If performa
 ::: moniker range=">=vs-2022"
 ![Screenshot of settings for the Dotnet Allocation tool.](../profiling/media/vs-2022/dotnet-alloc-settings.png "Settings for the Dotnet Allocation tool")
 ::: moniker-end
-::: moniker range="vs-2019"
-![Screenshot of settings for the Dotnet Allocation tool.](../profiling/media/dotnetallocsettings.png "Settings for the Dotnet Allocation tool")
-::: moniker-end
+
 
 Adjust the sampling rate to the rate you want. This change helps speed up performance of your app during collection and analysis.
 
 ::: moniker range=">=vs-2022"
 ![Screenshot of an adjusted sampling rate.](../profiling/media/vs-2022/adjusted-sampling-rate-dotnet-alloc-tool.png "An adjusted sampling rate")
 ::: moniker-end
-::: moniker range="vs-2019"
-![Screenshot of an adjusted sampling rate.](../profiling/media/adjustedsamplingratedotnetalloctool.png "An adjusted sampling rate")
-::: moniker-end
+
 
 For more information on how to make the tool more efficient, see [Optimizing Profiler settings](../profiling/optimize-profiler-settings.md).
 
@@ -91,18 +79,14 @@ In the following graphical view, the top graph shows the number of live objects 
 ::: moniker range=">=vs-2022"
 ![Screenshot of graph for the Dotnet Allocation tool.](../profiling/media/vs-2022/graph-dotnet-alloc.png "A graph for the Dotnet Allocation tool")
 ::: moniker-end
-::: moniker range="vs-2019"
-![Screenshot of graph for the Dotnet Allocation tool.](../profiling/media/graphdotnetalloc.png "A graph for the Dotnet Allocation tool")
-::: moniker-end
+
 
 You can filter the tabular data to display activity for only a specified time range by selecting a time range. When you do this, the information that appears in the tabs is scoped to the filtered time range.
 
 ::: moniker range=">=vs-2022"
 ![Screenshot of filtered graph of the Dotnet Allocation time.](../profiling/media/vs-2022/graph-dotnet-alloc-time-filtered.png "A filtered graph of the Dotnet Allocation time")
 ::: moniker-end
-::: moniker range="vs-2019"
-![Screenshot of filtered graph of the Dotnet Allocation time.](../profiling/media/graphdotnetalloctimefiltered.png "A filtered graph of the Dotnet Allocation time")
-::: moniker-end
+
 
 You can also zoom into or out of the graph.
 
@@ -128,9 +112,7 @@ The **Allocation** view shows the location of objects that are allocating memory
 ::: moniker range=">=vs-2022"
 ![Screenshot of the Allocation view expanded.](../profiling/media/vs-2022/allocation-expanded-dark-theme.png "The Allocation view expanded")
 ::: moniker-end
-::: moniker range="vs-2019"
-![Screenshot of the Allocation view expanded.](../profiling/media/allocationexpandedlight.png "The Allocation view expanded")
-::: moniker-end
+
 
 The following information appears in the **Allocation** view:
 
@@ -165,9 +147,7 @@ The **Call Tree** view shows the function execution paths that contain objects
 ::: moniker range=">=vs-2022"
 ![Screenshot of the Call Tree view.](../profiling/media/vs-2022/dotnet-alloc-call-tree-dark-theme.png "The Call Tree view")
 ::: moniker-end
-::: moniker range="vs-2019"
-![Screenshot of the Call Tree view.](../profiling/media/calltreelight.png "The Call Tree view")
-::: moniker-end
+
 
 The following information appears in the **Call Tree** view:
 
@@ -185,9 +165,7 @@ Additional options that appear in the **Call Tree** view include:
 ::: moniker range=">=vs-2022"
    ![Screenshot of the hot path expanded.](../profiling/media/vs-2022/dotnet-alloc-call-tree-hot-path.png "A hot path expanded")
 ::: moniker-end
-::: moniker range="vs-2019"
-   ![Screenshot of the hot path expanded.](../profiling/media/hotpathlight.png "A hot path expanded")
-::: moniker-end
+
 
 ### Functions
 
@@ -196,9 +174,7 @@ The **Functions** view shows processes, modules, and functions that are allocati
 ::: moniker range=">=vs-2022"
 ![Screenshot of the Functions view.](../profiling/media/vs-2022/dotnet-alloc-functions-dark-theme.png "The Functions view")
 ::: moniker-end
-::: moniker range="vs-2019"
-![Screenshot of the Functions view.](../profiling/media/functionslight.png "The Functions view")
-::: moniker-end
+
 
 Information that appears in the **Functions** view includes:
 
@@ -218,9 +194,7 @@ The **Collection** view shows how many objects were collected or retained during
 ::: moniker range=">=vs-2022"
 ![Screenshot of the Collection view.](../profiling/media/vs-2022/dotnet-alloc-collection-dark-theme.png "The Collection view")
 ::: moniker-end
-::: moniker range="vs-2019"
-![Screenshot of the Collection view.](../profiling/media/collectionlight.png "The Collection view")
-::: moniker-end
+
 
 The following information appears in the **Collection** view.
 

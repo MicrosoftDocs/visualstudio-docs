@@ -45,11 +45,7 @@ To collect performance data on release builds, run the Performance Profiler tool
 
    Select **Show all tools** to also see tools that are disabled for this diagnostic session.
    ::: moniker-end
-   ::: moniker range="<=vs-2019"
-   ![Screenshot of diagnostic tools.](../profiling/media/diaghubsummarypage.png "DIAG_SelectTool")
 
-   Select **Show all tools** to also see tools that are disabled for this diagnostic session.
-   ::: moniker-end
 
 1. To start the diagnostic session, select **Start**.
 
@@ -58,9 +54,7 @@ To collect performance data on release builds, run the Performance Profiler tool
    ::: moniker range=">=vs-2022"
    ![Screenshot of data collection on the Performance Profiler.](../profiling/media/vs-2022/performance-profiler-collect-data.png "Diag collect data")
    ::: moniker-end
-   ::: moniker range="<=vs-2019"
-   ![Screenshot of data collection on the Performance Profiler.](../profiling/media/diaghubcollectdata.png "Hub collect data")
-   ::: moniker-end
+
 
 1. To end the diagnostic session, select **Stop Collection**.
 
@@ -86,9 +80,7 @@ To collect performance data on release builds, run the Performance Profiler tool
    ::: moniker range=">=vs-2022"
    ![Screenshot of Diagnostic Tools Recently Opened Sessions list.](../profiling/media/vs-2022/performance-profiler-open-existing-diagnostics-session.png "PDHUB_OpenExistingDiagSession")
    ::: moniker-end
-   ::: moniker range="<=vs-2019"
-   ![Screenshot of Diagnostic Tools Recently Opened Sessions list.](../profiling/media/diaghubopenexistingdiagsession.png "PDHUB_OpenExistingDiagSession")
-   ::: moniker-end
+
 
 ## <a name="BKMK_Quick_start__Collect_diagnostic_data"></a> Collect profiling data while debugging
 
@@ -99,13 +91,7 @@ When you start debugging in Visual Studio by selecting **Debug** > **Start Debug
 
 - Use the **Settings** icon in the toolbar to select whether to view **CPU Usage**, **Memory Usage**, or **.NET Counters**.
 ::: moniker-end
-::: moniker range="<=vs-2019"
-When you start debugging in Visual Studio by selecting **Debug** > **Start Debugging**, or pressing **F5**, the **Diagnostic Tools** window appears by default. To open it manually, select **Debug** > **Windows** > **Show Diagnostic Tools**. The **Diagnostic Tools** window shows information about events, process memory, and CPU usage.
 
-![Screenshot of the Diagnostic Tools window](../profiling/media/diagnostictoolswindow.png "Diagnostic Tools Window")
-
-- Use the **Settings** icon in the toolbar to select whether to view **CPU Usage**, **Memory Usage**, or **UI Analysis**.
-::: moniker-end
 
 - Select **Settings** in the **Settings** drop-down list to open the **Diagnostic Tools Property Pages** with more options.
 
@@ -128,20 +114,14 @@ Use the **Filter** drop-down list to filter events in and out of view, by select
 ::: moniker range=">=vs-2022"
 ![Screenshot of Diagnostic Event filter.](../profiling/media/vs-2022/diagnostic-event-filter.png "Diagnostic Event Filter")
 ::: moniker-end
-::: moniker range="<=vs-2019"
-![Screenshot of Diagnostic Event filter](../profiling/media/diagnosticeventfilter.png "Diagnostic Event Filter")
-::: moniker-end
+
 
 ::: moniker range=">=vs-2022"
 Use the search box to find a specific string in the event list. Here are the results of a search for the file name *model* that matched three events:
 
 ![Screenshot of Diagnostic Event search.](../profiling/media/vs-2022/diagnostics-event-search.png "Diagnostic Event Search")
 ::: moniker-end
-::: moniker range="<=vs-2019"
-Use the search box to find a specific string in the event list. Here are the results of a search for the string *name* that matched four events:
 
-![Screenshot of Diagnostic Event search](../profiling/media/diagnosticseventsearch.png "Diagnostic Event Search")
-::: moniker-end
 
 For more information, see [Searching and filtering the Events tab of the Diagnostic Tools window](https://devblogs.microsoft.com/devops/searching-and-filtering-the-events-tab-of-the-diagnostic-tools-window/).
 

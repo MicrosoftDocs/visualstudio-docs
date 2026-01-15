@@ -41,18 +41,19 @@ Visual Studio is also extensible and opens the door for third-party unit testing
 > [!NOTE]
 > Live unit testing is available in Enterprise edition only and is only supported for .NET code.
 
-## IntelliTest
+::: moniker range="visualstudio"
+## AI tools to generate tests
 
-IntelliTest automatically generates unit tests and test data for your managed code. IntelliTest improves coverage and dramatically reduces the effort to create and maintain unit tests for new or existing code.
+Starting in Visual Studio 2026 Insiders build, you can use GitHub Copilot testing for .NET to automatically generate unit tests. GitHub Copilot testing for .NET not only generates the tests, but debugs the tests, and runs them in Test Explorer.  For more information, see [Overview of GitHub Copilot testing for .NET](../test/github-copilot-test-dotnet-overview.md). This is the recommended method to generate tests.
 
-![IntelliTest in action](media/devtest-intellitest.png)
+Alternatively, you can use Copilot `/tests` slash command to generate unit tests from code. For example, you can type `/tests using NUnit Framework` to generate NUnit tests. For more information, see [Use slash commands in Copilot Chat](../ide/copilot-chat-context.md#slash-commands).
+::: moniker-end
 
-> [!NOTE]
-> IntelliTest is available in Enterprise edition only. It is supported for C# code that targets the .NET Framework. .NET Core and .NET Standard are not currently supported.
+::: moniker range="=vs-2022"
+## AI tools to generate tests
 
-* [Generate unit tests for your code with IntelliTest](generate-unit-tests-for-your-code-with-intellitest.md)
-* [IntelliTest – One test to rule them all](https://devblogs.microsoft.com/devops/intellitest-one-test-to-rule-them-all/)
-* [IntelliTest reference manual](intellitest-manual/index.md)
+You can use Copilot `/tests` slash command to generate unit tests from code. For example, you can type `/tests using NUnit Framework` to generate NUnit tests. For more information, see [Use slash commands in Copilot Chat](../ide/copilot-chat-context.md#slash-commands).
+::: moniker-end
 
 ## Code coverage
 
@@ -90,21 +91,25 @@ Code coverage is an option when you run test methods using Test Explorer. The re
 
 ::: moniker-end
 
-::: moniker range="<=vs-2019"
-## User interface testing with Coded UI and Selenium
+## IntelliTest
 
-Coded UI tests provide a way to create fully automated tests to validate the functionality and behavior of your application’s user interface. They can automate UI testing across a variety of technologies, including XAML-based UWP apps, browser apps, and SharePoint apps.
+IntelliTest automatically generates unit tests and test data for your managed code. IntelliTest improves coverage and dramatically reduces the effort to create and maintain unit tests for new or existing code.
 
-> [!NOTE]
-> Coded UI is a deprecated feature.
+![IntelliTest in action](media/devtest-intellitest.png)
 
-Whether you choose best-of-breed Coded UI Tests or generic browser-based UI testing with [Playwright](https://playwright.dev/), Visual Studio provides all the tools you need.
-
-* [Use UI automation to test your code](use-ui-automation-to-test-your-code.md)
-* [Get started creating, editing, and maintaining a coded UI test](/previous-versions/visualstudio/visual-studio-2017/test/walkthrough-creating-editing-and-maintaining-a-coded-ui-test)
-* [Test UWP apps with coded UI tests](/previous-versions/visualstudio/visual-studio-2017/test/test-uwp-app-with-coded-ui-test)
-* [Introduction to coded UI tests with Visual Studio Enterprise (Lab)](https://azuredevopslabs.com/labs/tfs/codedui)
+::: moniker range="visualstudio"
+[!INCLUDE [intellitest-deprecation](includes/intellitest-deprecation.md)]
 ::: moniker-end
+::: moniker range="vs-2022"
+[!INCLUDE [intellitest-visual-studio-2022](includes/intellitest-visual-studio-2022.md)]
+::: moniker-end
+
+For more information, see the following:
+
+* [Generate unit tests for your code with IntelliTest](generate-unit-tests-for-your-code-with-intellitest.md)
+* [IntelliTest – One test to rule them all](https://devblogs.microsoft.com/devops/intellitest-one-test-to-rule-them-all/)
+* [IntelliTest reference manual](intellitest-manual/index.md)
+
 
 ## Related content
 

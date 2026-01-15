@@ -5,7 +5,7 @@ ms.faqid: Section4
 ms.topic: article
 author: joseb-rdc
 ms.author: amast
-ms.date: 09/25/2024
+ms.date: 12/19/2025
 ---
 
 # Purchasing, renewing, canceling, or billing 
@@ -18,4 +18,8 @@ ms.date: 09/25/2024
 
 [!INCLUDE [How do I cancel monthly and annual subscriptions?](includes/cancel-cloud-subs.md)]
 
-[!INCLUDE [What are the licensing terms for Visual Studio subscriptions? ](includes/licensing-terms.md)]
+[!INCLUDE [How do I cancel a Visual Studio Subscription purchased via the Retail Channel (Microsoft Store)?](includes/cancel-retail.md)]
+
+[!INCLUDE [How do I cancel my Visual Studio Subscription purchased via my Volume Licensing Agreement?](includes/cancel-volume-licensing.md)]
+
+[!INCLUDE [What are the licensing terms for Visual Studio subscriptions?](includes/licensing-terms.md)]

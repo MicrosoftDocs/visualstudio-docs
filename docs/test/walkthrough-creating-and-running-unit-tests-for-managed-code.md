@@ -21,8 +21,14 @@ This article steps you through creating, running, and customizing a series of un
 
 This article describes how to manually create unit tests. If you would like to generate tests automatically from existing code, see the following articles:
 
+::: moniker range="visualstudio"
+- [Generate and run unit tests using GitHub Copilot testing for .NET](../test/unit-testing-with-github-copilot-test-dotnet.md)
+- [Use slash commands in GitHub Copilot](../ide/copilot-chat-context.md#slash-commands)
+::: moniker-end
+::: moniker range="<= vs-2022"
 - [Create unit test method stubs from code](../test/create-unit-tests-menu.md)
 - [Use slash commands in GitHub Copilot](../ide/copilot-chat-context.md#slash-commands)
+::: moniker-end
 
 ## Prerequisites
 
@@ -40,7 +46,7 @@ Visual Studio must be installed along with the **.NET desktop development** work
 
 1. Name the project **Bank**, and then click **Next**.
 
-1. Choose either the recommended target framework or .NET 8, and then choose **Create**.
+1. Choose either the recommended target framework or .NET 10, and then choose **Create**.
 
    The Bank project is created and displayed in **Solution Explorer** with the *Program.cs* file open in the code editor.
 
@@ -132,14 +138,10 @@ You now have a project with methods you can test. In this article, the tests foc
 
 1. Type **test** in the search box, select **C#** as the language, and then select the C# **MSTest Test Project** for .NET template, and then click **Next**.
 
-   ::: moniker range="vs-2019"
-   > [!NOTE]
-   > In Visual Studio 2019 version 16.9, the MSTest project template is **Unit Test Project**.
-   ::: moniker-end
 
 1. Name the project **BankTests** and click **Next**.
 
-1. Choose either the recommended target framework or .NET 8, and then choose **Create**.
+1. Choose either the recommended target framework or .NET 10, and then choose **Create**.
 
    ::: moniker range=">=vs-2022"
    Starting in Visual Studio 2022 version 17.10, you can also select a test runner. For the test runner, you can choose either **VSTest** or **MSTest**. For more information on the difference between test runners, see [Microsoft.Testing.Platform and VSTest comparison](/dotnet/core/testing/unit-testing-platform-vs-vstest).
@@ -290,9 +292,6 @@ m_balance -= amount;
 
 In **Test Explorer**, choose **Run All** to rerun the test (or press **Ctrl** + **R**, **V**). The red/green bar turns green to indicate that the test passed.
 
-::: moniker range="<=vs-2019"
-![Test Explorer in Visual Studio 2019 showing passed test](media/test-explorer-banktests-passed.png)
-::: moniker-end
 ::: moniker range=">=vs-2022"
 ![Test Explorer in Visual Studio 2019 showing passed test](media/vs-2022/test-explorer-banktests-passed.png)
 ::: moniker-end

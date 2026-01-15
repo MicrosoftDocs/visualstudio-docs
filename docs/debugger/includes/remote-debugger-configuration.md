@@ -1,4 +1,5 @@
 ---
+ms.topic: include
 translation.priority.ht: 
   - "cs-cz"
   - "de-de"
@@ -27,29 +28,26 @@ translation.priority.ht:
 
     ![Screenshot of remote debugger configuration.](../media/vs-2022/remote-debugger-configuration-wizard-page.png "Remote Debugger configuration")  
     ::: moniker-end
-    ::: moniker range="vs-2019"
-    ![Screenshot of remote debugger configuration.](../media/remotedebuggerconfwizardpage.png "Remote Debugger configuration")  
 
-    If the Windows Web Services API is not installed, which happens only on Windows Server 2008 R2, select the **Install** button.  
-    ::: moniker-end
   
 1. Select at least one network type you want to use the remote tools on. If the computers are connected through a domain, you must choose the first item. If the computers are connected through a workgroup or homegroup, choose the second or third item as appropriate.  
 
    ::: moniker range=">= vs-2022"
    Next, select **Finish** to start the remote debugger.
    ::: moniker-end
-   ::: moniker range="vs-2019"
-   Next, select **Configure remote debugging** to start the remote debugger.  
-   ::: moniker-end
+
   
 1. When configuration is complete, the **Remote Debugger** window appears.
+
+
+    ::: moniker range="visualstudio"
+    ![Screenshot of remote debugger window](../media/visualstudio/remote-debugger-window.png "Remote Debugger window")
+    ::: moniker-end
   
-    ::: moniker range=">= vs-2022"
+    ::: moniker range="vs-2022"
     ![Screenshot of remote debugger window](../media/vs-2022/remote-debugger-window.png "Remote Debugger window")
     ::: moniker-end
-    ::: moniker range="<= vs-2019"
-    ![Screenshot of remote debugger window](../media/remotedebuggerwindow.png "Remote Debugger window")
-    ::: moniker-end
+
   
     The remote debugger is now waiting for a connection. Use the server name and port number shown to set the remote connection configuration in Visual Studio.  
   

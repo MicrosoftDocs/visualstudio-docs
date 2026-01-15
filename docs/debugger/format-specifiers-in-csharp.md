@@ -2,7 +2,7 @@
 title: "Format specifiers in the debugger (C#)"
 description: Use a format specifier to change the format in which a value is displayed in the Watch window. This article provides usage details.
 ms.date: "11/21/2018"
-ms.topic: article
+ms.topic: concept-article
 dev_langs:
   - "CSharp"
   - "VB"
@@ -46,7 +46,7 @@ Add the `my_var1` variable to the **Watch** window while debugging, **Debug** > 
 
 ![Screenshot of the Visual Studio Watch window with one line that shows my_var1, d with a value of 101 and a type of int.](../debugger/media/watchformatcsharp.png)
 
-::: moniker range=">= vs-2019" 
+::: moniker range=">= vs-2022" 
 
 You can view and select from a list of available format specifiers by appending a comma (,) to the value in the **Watch** window. 
 

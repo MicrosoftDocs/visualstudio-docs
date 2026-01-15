@@ -27,16 +27,6 @@ In this tutorial, you create an MSBuild project file using Visual Studio. You ed
 
 ## Install MSBuild
 
-::: moniker range="vs-2019"
-If you have Visual Studio, then you already have MSBuild installed. With Visual Studio 2019 and later, it's installed under the Visual Studio installation folder. For a typical default installation on Windows 10, MSBuild.exe is under the installation folder in *MSBuild\Current\Bin*.
-
-In the installer, make sure MSBuild tools for the workloads you use are selected, and choose **Install**.
-
-![Installing MSBuild](media/walkthrough-using-msbuild/installation-msbuild-tools.png)
-
-To install MSBuild on a system that doesn't have Visual Studio, go to [Build Tools for Visual Studio 2019](https://visualstudio.microsoft.com/vs/older-downloads/#visual-studio-2019-and-other-products) on the [downloads page](https://aka.ms/vs/download/?cid=learn-onpage-download-cta). Another way of getting MSBuild is to install the [.NET SDK](/dotnet/core/sdk#acquiring-the-net-sdk).
-
-::: moniker-end
 
 ::: moniker range="vs-2022"
 
@@ -273,14 +263,6 @@ Use this syntax to examine some of the properties in the project file.
 
     ::: moniker-end
 
-    ::: moniker range="vs-2019"
-
-    ```output
-    Configuration is Debug
-    MSBuildToolsPath is C:\Program Files (x86)\Microsoft Visual Studio\2019\MSBuild\16.0\Bin
-    ```
-
-    ::: moniker-end
 
 ### Conditional properties
 

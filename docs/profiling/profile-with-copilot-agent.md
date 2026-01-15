@@ -1,7 +1,7 @@
 ---
 title: Profile with GitHub Copilot Profiler Agent
 description: Use the Copilot Profiler Agent in Visual Studio to collect CPU and memory traces and get AI-driven performance insights and fixes.
-ms.date: 11/12/2025
+ms.date: 01/07/2025
 ms.update-cycle: 90-days
 ms.topic: tutorial
 dev_langs:
@@ -31,6 +31,7 @@ The Profiler Agent can perform all of the following tasks.
 - Analyze CPU usage, memory allocations, and runtime behavior.
 - Surface performance bottlenecks.
 - Generate [BenchmarkDotNet Benchmarks](https://benchmarkdotnet.org/articles/features/vsprofiler.html) or optimize existing BenchmarkDotNet benchmarks.
+- (ASP.NET) Analyze [.NET Counters](../profiling/dotnet-counters-tool.md).
 - Apply suggested optimizations.
 - Validate improvements in a guided loop.
 
@@ -47,7 +48,7 @@ For information about other profiling features in Copilot, see [AI-enhanced scen
 
 To get started, you need:
 
-+ Visual Studio version 18.0.0 Preview 1 or later
++ Visual Studio 2022 version 17.14 or later
 + [Sign in to Visual Studio using a GitHub account](../ide/work-with-github-accounts.md) with [Copilot access](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot) <br/>
   <sup>**</sup> You can use [GitHub Copilot for Free](../ide/copilot-free-plan.md). Sign up and leverage AI to code faster and more efficiently.
 
@@ -55,7 +56,7 @@ To get started, you need:
 
 1. In Visual Studio, create a new C# Console app.
 
-   On the start window, choose **Create a new project**. Type **console** in the search box, select **C#** as the language, and then choose **Console App** for .NET. Choose **Next**. Type a project name like **ConsoleApp_CopilotProfile** and select **Next**. Choose a target framework (for example, .NET 8) and choose **Create**.
+   On the start window, choose **Create a new project**. Type **console** in the search box, select **C#** as the language, and then choose **Console App** for .NET. Choose **Next**. Type a project name like **ConsoleApp_CopilotProfile** and select **Next**. Choose a target framework (for example, .NET 10) and choose **Create**.
 
 1. In Solution Explorer, right-click the **Dependencies** node in the project, choose **Manage NuGet packages**, search for **EntityFramework**, and then add the following packages to the project:
 

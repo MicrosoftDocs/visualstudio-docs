@@ -27,11 +27,6 @@ The **VB Specific** property page, in the **Visual Basic** folder of the **Text 
 
 ::: moniker-end
 
-::: moniker range="<=vs-2019"
-
-The **VB Specific** property page, in the **Basic** folder of the **Text Editor** folder of the **Options** (**Tools** menu) dialog box, includes the following properties:
-
-::: moniker-end
 
 ## Analysis
 
@@ -50,13 +45,6 @@ The **VB Specific** property page, in the **Basic** folder of the **Text Editor*
 
 ::: moniker-end
 
-::: moniker range="<=vs-2019"
-
-- Live code analysis or Background analysis scope
-
-   Configure the background analysis scope for managed code. For more information, see [How to: Configure live code analysis scope for managed code](../../code-quality/configure-live-code-analysis-scope-managed-code.md).
-
-::: moniker-end
 
 ## Import Directives
 

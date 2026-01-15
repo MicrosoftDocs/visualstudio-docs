@@ -4,8 +4,8 @@ titleSuffix: ""
 description: Step 4 of a core walkthrough of Django capabilities in Visual Studio, including the Django Web Project template that helps you create an app with three pages that use static JavaScript libraries.
 ms.date: 04/18/2024
 ms.topic: tutorial
-author: cwebster-99
-ms.author: cowebster
+author: Devdiv-VR
+ms.author: vedhar
 manager: mijacobs
 ms.subservice: python
 
@@ -107,11 +107,7 @@ Now you're ready to run the Django web application and see the features provided
    :::image type="content" source="media/django/vs-2022/step-04-startup-project-bold.png" alt-text="Screenshot that shows the Django Web project name is bold in Solution Explorer to indicate it's the startup project in Visual Studio." border="false" lightbox="media/django/vs-2022/step-04-startup-project-bold.png":::
 
    ::: moniker-end
-   ::: moniker range="<=vs-2019"
 
-   :::image type="content" source="media/django/step-04-startup-project-bold.png" alt-text="Screenshot that shows the Django Web project name is bold in Solution Explorer to indicate it's the startup project in Visual Studio." border="false" lightbox="media/django/step-04-startup-project-bold.png":::
-
-   ::: moniker-end
 
 1. Select **Debug** > **Start Debugging** (**F5**) or use the **Web Server** button on the toolbar to run the server:
 

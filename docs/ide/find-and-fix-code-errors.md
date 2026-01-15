@@ -1,8 +1,8 @@
 ---
-title: Fix program errors and improve code
+title: Fix Program Errors and Improve Code
 description: Explore how Visual Studio can help you find and fix problems in your code, including build errors, code analysis, debugging tools, and unit tests.
-ms.date: 04/25/2023
-ms.topic: article
+ms.date: 01/06/2026
+ms.topic: how-to
 author: Mikejo5000
 ms.author: mikejo
 manager: mijacobs
@@ -32,7 +32,7 @@ When build succeeds, you see results like this in the **Output** window:
 
 ## Review the Error List
 
-Unless you've made no modifications to code you have previously and successfully compiled, you probably have an error. If you're new to coding, you probably have lots of them. Errors are sometimes obvious, such as a simple syntax error or incorrect variable name, and sometimes they're difficult to understand, with only a cryptic code to guide you. For a cleaner view of the issues, navigate to the bottom of the build **Output** window and select the **Error List** tab. This action takes you to a more organized view of the errors and warnings for your project, and gives you some extra options as well.
+Unless there are no modifications to the code you previously compiled successfully, you probably have an error. If you're new to coding, you probably have lots of them. Errors are sometimes obvious, such as a simple syntax error or incorrect variable name, and sometimes they're difficult to understand, with only a cryptic code to guide you. For a cleaner view of the issues, navigate to the bottom of the build **Output** window and select the **Error List** tab. This action takes you to a more organized view of the errors and warnings for your project, and gives you some extra options as well.
 
 ![Screenshot of the Visual Studio Output and Error List.](../ide/media/vs_ide_gs_debug_bad_build_error_list.png)
 
@@ -40,11 +40,24 @@ Select on the error line in the **Error List** window to jump to the line the er
 
 ![Screenshot of the Visual Studio editor with line numbers.](../ide/media/vs_ide_gs_debug_line_numbers.png)
 
-![Screenshot of the Visual Studio line numbers option.](../ide/media/vs_ide_gs_debug_options_line_numbers.png)
+::: moniker range="visualstudio"
+
+You can configure the **Line numbers** option in the **Tools** > **Options** pane under the **All Settings** > **Languages** > **Defaults** > **General** section.
+
+:::image type="content" source="./media/visualstudio/tools-options-line-numbers.png" border="false" alt-text="Screenshot that shows how to set the default line number option for all languages.":::
+
+::: moniker-end
+::: moniker range="<=vs-2022"
+
+You can configure the **Line numbers** option in the **Tools** > **Options** dialog under the **Text Editor** > **All Languages** > **General** section.
+
+:::image type="content" source="./media/vs-2022/tools-options-line-numbers.png" border="false" alt-text="Screenshot that shows how to set the default line number option for all languages.":::
+
+::: moniker-end
 
 Press **Ctrl**+**G** to quickly jump to the line number where the error occurred.
 
-Visual Studio identifies this error with a red "squiggle" underscore. Hover over it for more details. Make the fix and it goes away, although you might introduce a new error with the correction. (This action is called a "regression".)
+Visual Studio identifies this error with a red "squiggle" underscore. Hover over it for more details. Make the fix and it goes away, although you might introduce a new error with the correction. (This action is called a "regression.")
 
 ![Screenshot of the Visual Studio error hover action.](../ide/media/vs_ide_gs_debug_error_hover1.png)
 

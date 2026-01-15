@@ -2,7 +2,7 @@
 title: Document Context
 description: Learn about document context in Visual Studio debugging, which represents a position in a source file or a position in a source document for a code context.
 ms.date: 11/04/2016
-ms.topic: article
+ms.topic: concept-article
 helpviewer_keywords:
 - debugging [Debugging SDK], contexts
 author: tinaschrepfer

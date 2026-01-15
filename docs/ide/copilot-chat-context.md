@@ -1,7 +1,7 @@
 ---
 title: 'Customize chat responses'
 description: Use custom instructions and prompt files to customize responses and use slash commands to set quick context for common tasks.
-ms.date: 11/11/2025
+ms.date: 12/02/2025
 ms.update-cycle: 180-days
 ms.topic: how-to 
 author: anandmeg
@@ -12,7 +12,6 @@ ms.collection: ce-skilling-ai-copilot
 helpviewer_keywords: 
   - copilot chat context
   - context, copilot chat
-monikerRange: '>= vs-2022'
 ms.custom: sfi-image-nochange
 ---
 # Customize chat responses and set context
@@ -39,13 +38,35 @@ Support for GitHub Copilot Chat is provided by GitHub and can be reached at http
 
 The guided chat experience in Visual Studio 17.12 and later helps refine your prompts to clarify context for better answers. GitHub Copilot Chat now guides you with clarifying questions when context is unclear.
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/copilot-chat-context/copilot-chat-guided-chat.png" alt-text="Screenshot of guided chat experience with GitHub Copilot Chat.":::
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+
 :::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-guided-chat.png" alt-text="Screenshot of guided chat experience with GitHub Copilot Chat.":::
+
+:::moniker-end
+
+
 
 ## Use custom instructions
 
 The custom instructions feature enables you to automatically add prespecified contextual details to your chat questions. Copilot Chat uses these instructions tailored to your specific context, such as, the way your team works, the tools you use, or the specifics of your project, when generating responses. 
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/copilot-chat-context/custom-instruction-files.png" alt-text="Screenshot of custom instruction files used by Copilot in the References list.":::
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+
 :::image type="content" source="media/vs-2022/copilot-chat-context/custom-instruction-files.png" alt-text="Screenshot of custom instruction files used by Copilot in the References list.":::
+
+:::moniker-end
 
 ### Use a .github/copilot-instructions.md file
 
@@ -156,13 +177,57 @@ You can use slash commands in a [chat window](visual-studio-github-copilot-chat.
 | /generate | Generate code to answer specified question. <br> Example: `/generate code to add two numbers in Calculator.cs`| Yes | Yes | 
 | /help | Get help on using Copilot Chat. <br> Example: `/help`| Yes | Yes | 
 | /optimize | Analyze and improve running time of the selected code. <br> Examples:<br> - `/optimize the AddItemToBasket method in BasketService.cs`</br>- select desired code and enter `/optimize`| Yes | Yes |
-| /tests| Create unit tests for the selected code.<br>  Example: select desired code and enter `/tests using XUnit Framework`| Yes | Yes |
+| /tests| Create unit tests for the selected code.<br>  Example: select desired code and enter `/tests using XUnit Framework`<br>For .NET, we recommend [GitHub Copilot Testing for .NET](../test/github-copilot-test-dotnet-overview.md)| Yes | Yes |
+
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/copilot-chat-context/copilot-chat-context-slash-commands.png" alt-text="Screenshot of slash commands in inline chat view and chat windows.":::
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
 
 :::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-context-slash-commands.png" alt-text="Screenshot of slash commands in inline chat view and chat windows.":::
+
+:::moniker-end
 
 With Visual Studio 2022 version 17.13, as the user types a slash command, the command expands out the prompt in natural language to display the context for the command.
 
 ::: moniker range="visualstudio"
+
+## Use Copilot actions
+
+You can use Copilot actions from the context menu to quickly access preconfigured prompts and slash commands for common development tasks.
+
+:::image type="content" source="media/visualstudio/copilot-chat-context/copilot-actions.png" alt-text="Screenshot of Copilot actions in the context menu.":::
+
+The behavior of each action depends on whether you have code selected when you open the context menu: 
+
+| **Action** | **With code selected** | **Without code selected** |
+|---------------------------|--------------------|:----------:|:----------:|
+| Explain| Explains the selected code | Explains the code near the cursor position |
+| Optimize Selection | Optimizes the selected code for performance, maintainability, reliability, and architecture | Not applicable |
+| Generate Comments | Generates comments for the selected code | Generate comments for code near the cursor position |
+| Generate Tests | Generates tests for the selected code | Generate tests for code near the cursor position |
+| Add to Chat | Adds the selected code to Chat as a reference | Add the entire file to Chat as reference |
+
+When you select any action except *Optimize Selection*, the chat window opens automatically and sends a [slash command](#slash-commands) to Copilot with the appropriate scoped context. You can then review and interact with Copilot's response in the chat window.
+
+### Use Optimize Selection option for better code 
+
+Select a specific section of code and choose **Optimize Selection** to have Copilot analyze and improve just that section, rather than an entire file.
+
+Copilot examines the selected code and its surrounding context to provide meaningful, context-aware suggestions. The optimization preserves your existing code style, structure, and functionality, keeping your codebase organized and consistent. Unlike other actions that use the chat panel, **Optimize Selection** presents suggestions as an inline diff that you can directly review, accept, or reject.
+
+Copilot provides optimization suggestions across these areas: 
+- **Performance:** Faster algorithms, reduced memory usage, async patterns
+- **Maintainability:** Simplified logic, clearer structure, better naming 
+- **Reliability:** Error handling, resource cleanup, thread safety 
+- **Architecture:** Dependency injection, better interfaces, modular design 
+
+::: moniker-end
+
+::: moniker range="<=vs-2022"
 
 ## Use Copilot actions
 
