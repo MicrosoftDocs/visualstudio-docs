@@ -2,7 +2,7 @@
 title: Use models in your development process
 description: Learn that in Visual Studio, you can use a model to help you understand and change a system, application, or component.
 ms.date: 11/04/2016
-ms.topic: article
+ms.topic: concept-article
 helpviewer_keywords:
 - UML, using models
 author: jekelly

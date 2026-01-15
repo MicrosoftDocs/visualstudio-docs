@@ -2,7 +2,7 @@
 title: Validate your system during development
 description: Learn how Visual Studio can help keep your software consistent with user requirements and with the architecture of your system.
 ms.date: 11/04/2016
-ms.topic: article
+ms.topic: concept-article
 helpviewer_keywords:
 - dependency diagrams
 author: jekelly

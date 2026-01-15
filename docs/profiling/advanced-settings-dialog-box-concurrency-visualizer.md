@@ -2,7 +2,7 @@
 title: "Advanced Settings Dialog Box (Concurrency Visualizer)"
 description: Use Advanced Settings in Concurrency Visualizer to control trace content. There are tabs for symbols, Just My Code, buffering, and more.
 ms.date: "11/04/2016"
-ms.topic: article
+ms.topic: concept-article
 f1_keywords:
   - "vs.cv.settings"
 author: "mikejo5000"
