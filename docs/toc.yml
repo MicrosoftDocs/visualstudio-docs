@@ -930,9 +930,15 @@
     - name: Options
       items:
       - name: How To
-        items:
+        items:     
         - name: Environment > Visual Experience
           href: ide/configure-visual-experience-options.md
+        - name: Languages > C/C++ (Advanced options)
+          href: ide/configure-c-cpp-advanced-options.md
+        - name: Languages > C/C++ > IntelliSense
+          href: ide/configure-languages-c-cpp-intellisense.md
+        - name: Languages > C/C++ > Text editor
+          href: ide/configure-languages-c-cpp-text-editor.md          
       - name: Environment
         items:
         - name: General
@@ -977,7 +983,7 @@
           - name: Formatting
             href: ide/reference/options-text-editor-c-cpp-formatting.md
           - name: View
-            href: ide/reference/options-text-editor-c-cpp-view.md
+            href: ide/reference/options-text-editor-c-cpp-view.md         
         - name: F#
           items:
           - name: Advanced
