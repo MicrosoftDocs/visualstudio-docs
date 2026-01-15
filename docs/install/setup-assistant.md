@@ -4,7 +4,7 @@ description: When a project is loaded, Setup Assistant helps get what you need t
 ms.custom: vs-acquisition
 ms.date: 11/7/2025
 ms.subservice: installation
-ms.topic: article
+ms.topic: concept-article
 helpviewer_keywords:
 - dependency acquisition
 - setup assistant
