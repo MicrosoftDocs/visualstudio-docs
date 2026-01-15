@@ -4,7 +4,7 @@ description: Learn about the two command-line shells for developers in Visual St
 author: Mikejo5000
 ms.author: mikejo
 ms.date: 12/17/2025
-ms.topic: article
+ms.topic: concept-article
 helpviewer_keywords:
   - "Visual Studio command prompt"
   - "command prompt, Visual Studio"

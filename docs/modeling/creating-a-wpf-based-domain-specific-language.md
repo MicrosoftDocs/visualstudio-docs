@@ -2,7 +2,7 @@
 title: Create a WPF-based domain-specific language
 description: Learn how you can create a domain-specific language that has a WPF designer instead of a graphical designer.
 ms.date: 06/22/2022
-ms.topic: article
+ms.topic: concept-article
 author: jekelly
 ms.author: jekelly
 manager: mijacobs
