@@ -3,7 +3,7 @@ title: IntelliCode privacy
 ms.date: 09/26/2023
 ms.service: visual-studio-family
 ms.subservice: intellicode
-ms.topic: article
+ms.topic: concept-article
 description: IntelliCode privacy
 author: ghogen
 ms.author: ghogen
