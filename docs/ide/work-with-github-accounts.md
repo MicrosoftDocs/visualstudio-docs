@@ -149,7 +149,17 @@ Open **Account options** by clicking **...** for the account you want to make th
 
 By default, Visual Studio only has public GitHub accounts enabled. Use the following steps to add a GitHub Enterprise Server account or an account associated with `.ghe.com` endpoints.
 
+:::moniker range="visualstudio"
+
+1. To enable GitHub enterprise accounts, go to **Tools** > **Options** > **All Settings** > **Environment** > **Accounts**.
+
+:::moniker-end 
+
+:::moniker range="vs-2022"
+
 1. To enable GitHub enterprise accounts, go to **Tools** > **Options** > **More Accounts**.
+
+:::moniker-end 
 
     :::image type="content" source="../ide/media/vs-2022/add-github-enterprise-cloud-server-accounts.png" alt-text="Screenshot of GitHub Account.":::
 
