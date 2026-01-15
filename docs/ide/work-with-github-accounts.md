@@ -44,9 +44,24 @@ Select the GitHub Copilot badge in the upper-right corner of the IDE and selectâ
 Then select one of the following:
 - **Sign up for Copilot Free** to setup Copilot Free for a new or existing GitHub account
 - **Sign up with Google** to sign in with a Google account linked to your GitHub account
+
+:::moniker range="visualstudio"
+
 - **Sign in** to sign in with an existing GitHub account
 
+:::image type="content" source="media/visualstudio/sign-up-for-copilot-free.png" alt-text="Screenshot of Sign up for Copilot Free in the Chat window.":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
+- **Sign in** to sign in with an existing GitHub account
+- 
 :::image type="content" source="media/vs-2022/copilot-free/sign-up-for-copilot-free.png" alt-text="Screenshot of Sign up for Copilot Free in the Chat window.":::
+
+:::moniker-end
+
+
 
 ### Add a GitHub account from the **profile card**
 
