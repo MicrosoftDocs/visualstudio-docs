@@ -2,7 +2,7 @@
 title: Template Policy and the Properties Window
 description: Learn about using template policy to set default values for properties, hide properties, and add properties in the Properties window.
 ms.date: 11/04/2016
-ms.topic: article
+ms.topic: concept-article
 helpviewer_keywords:
 - Properties window, template policy
 author: tinaschrepfer
