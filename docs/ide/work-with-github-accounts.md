@@ -113,7 +113,7 @@ Then, follow these instructions to add your GitHub account.
 
 :::moniker range="vs-2022"
 
-1. Your GitHub account will now be present in the **All Accounts** submenu. This account becomes the **Active** account.
+4. Your GitHub account will now be present in the **All Accounts** submenu. This account becomes the **Active** account.
 
    :::image type="content" source="../ide/media/vs-2022/account-settings-multiple-github-accounts.png" alt-text="Screenshot showing multiple GitHub accounts on the Account settings dialog.":::
 
