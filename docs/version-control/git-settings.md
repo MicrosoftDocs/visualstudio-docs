@@ -53,7 +53,7 @@ You can configure two types of settings:
 
    To configure options for the current repository only, expand the **Git Repository Settings** section.
 
-   :::image type="content" source="media/source-control-settings.png" border="false" alt-text="Screenshot of the Options dialog showing the sections available under Source Control.":::
+   :::image type="content" source="media/vs-2022/source-control-settings.png" border="false" alt-text="Screenshot of the Options dialog showing the sections available under Source Control.":::
 
 ::: moniker-end
 
@@ -130,7 +130,7 @@ Here's how to change this setting:
 
 1. Set the **Prune remote branches during fetch** option to **True** (recommended).
 
-   :::image type="content" source="media/visualstudio/user-email-setting.png" border="false" alt-text="Screenshot that shows the 'Prune remote branches during fetch' option with 'True' selected in the dropdown list.":::
+   :::image type="content" source="media/visualstudio/prune-setting.png" border="false" alt-text="Screenshot that shows the 'Prune remote branches during fetch' option with 'True' selected in the dropdown list.":::
 
 ::: moniker-end
 ::: moniker range="vs-2022"
@@ -173,7 +173,7 @@ Here's how to change this setting:
 
 1. Set the **Rebase local branch when pulling** option to **True** (recommended).
 
-   :::image type="content" source="media/visualstudio/rebase-setting.png" border="false" alt-text="Screenshot that shows the 'Rebase local branch when pulling' option with 'Merges' selected in the dropdown list.":::
+   :::image type="content" source="media/visualstudio/rebase-branch-setting.png" border="false" alt-text="Screenshot that shows the 'Rebase local branch when pulling' option with 'Merges' selected in the dropdown list.":::
 
 ::: moniker-end
 ::: moniker range="vs-2022"
@@ -186,7 +186,7 @@ Here's how to change this setting:
 
 1. Set the **Rebase local branch when pulling** option to your desired value, and select **OK**.
 
-   :::image type="content" source="media/vs-2022/rebase-setting.png" border="false" alt-text="Screenshot that shows the 'Rebase local branch when pulling' option with 'Merges' selected in the dropdown list.":::
+   :::image type="content" source="media/vs-2022/rebase-branch-setting.png" border="false" alt-text="Screenshot that shows the 'Rebase local branch when pulling' option with 'Merges' selected in the dropdown list.":::
 
 ::: moniker-end
 
@@ -263,7 +263,7 @@ Here's how to change this setting:
 
 The **Enable commit graph for better Git performance** option instructs Visual Studio to generate a commit graph file in your local repository for quick parsing and sorting of your commits. A commit graph can decrease delays in Git operations and improve performance of repository actions in Visual Studio. For more information, see [Supercharge your Git experience in Visual Studio with a commit graph](https://devblogs.microsoft.com/visualstudio/supercharge-your-git-experience-in-vs/#what-happens-when-you-enable-the-commit-graph). 
 
-> ![NOTE]
+> [!NOTE]
 > It can take a few minutes to generate the commit graph based on the size of your repository. Until the operation complete, you can't run other Git operations in Visual Studio, such as Fetch or Pull.
 
 The following values are available at the local scope:
@@ -385,7 +385,7 @@ Here's how to work with these settings:
 
 1. In the **Options** pane, expand the **Git Repository Config** section, and scroll to the **Remotes** group.
 
-   :::image type="content" source="media/visualstudio/remote-setting.png" border="false" alt-text="Screenshot that shows the Git Remotes section for the local repository.":::
+   :::image type="content" source="media/visualstudio/remotes-setting.png" border="false" alt-text="Screenshot that shows the Git Remotes section for the local repository.":::
 
 ::: moniker-end
 ::: moniker range="vs-2022"
@@ -394,7 +394,7 @@ Here's how to work with these settings:
 
 1. In the **Options** dialog, expand the **Git Repository Settings** > **Remotes** section.
 
-   :::image type="content" source="media/vs-2022/remote-setting.png" border="false" alt-text="Screenshot that shows the Git Remotes section for the local repository.":::
+   :::image type="content" source="media/vs-2022/remotes-setting.png" border="false" alt-text="Screenshot that shows the Git Remotes section for the local repository.":::
 
 ::: moniker-end
 
@@ -619,7 +619,7 @@ This setting is applicable only when the [Open folder in Solution Explorer when 
 
 ::: moniker-end
 
-### Automatically check out branches with double-click or Enter key
+### Automatically check out branches with double-click or the Enter key
 
 The **Git Repository** window has a list of branches displayed in a tree structure. Single selecting a branch switches the commit history pane to display the commits for the selected branch. To check out a branch, right-click and select **Checkout**. If you select this setting, double-clicking or pressing **Enter** checks out the branch and display its commits.
 
@@ -634,7 +634,7 @@ The **Git Repository** window has a list of branches displayed in a tree structu
 
 ::: moniker-end
 
-### Restore Git Repository window on restart
+### Restore the Git Repository window on restart
 
 If checked, the **Git Repository** window opens along with other permanent windows when you start the Visual Studio IDE, if the window was open when Visual Studio was last closed. The position of the window is saved in the window layout. If you moved the window or docked it, it opens just where you had it before. Clear the checkbox to prevent the window from opening when Visual Studio starts. You can still open the window manually by selecting **View** > **Git Repository** on the main menubar command. The keyboard shortcut is **Ctrl**+**0**, **Ctrl**+**R**, or **Ctrl**+**Q** and searching on _Git Repository_.
 
