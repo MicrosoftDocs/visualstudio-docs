@@ -2,7 +2,7 @@
 title: "Cache data"
 description: Learn how you can cache data objects in a document-level customization so that the data can be accessed offline or without opening Microsoft Office Word or Excel.
 ms.date: "02/02/2017"
-ms.topic: article
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"

@@ -2,7 +2,7 @@
 title: The DslTextTransform Command
 description: Learn that DslTextTransform.cmd is a script that calls TextTransform.exe and runs it with common options.
 ms.date: 11/04/2016
-ms.topic: article
+ms.topic: concept-article
 helpviewer_keywords:
 - Domain-Specific Language, commands
 author: jekelly
