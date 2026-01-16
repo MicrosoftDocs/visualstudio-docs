@@ -588,8 +588,6 @@
       items:
       - name: General, Debugging, Options dialog box
         href: general-debugging-options-dialog-box.md
-      - name: Just-In-Time, Debugging, Options dialog box
-        href: just-in-time-debugging-options-dialog-box.md
       - name: Output Window, Debugging, Options dialog box
         href: output-window-debugging-options-dialog-box.md
     - name: Debugging Errors and Warning
