@@ -128,10 +128,6 @@
     items:
     - name: Debugger project settings
       items:
-      - name: Project settings
-        href: debugger-project-settings.md
-      - name: Specify debugger settings
-        href: how-to-specify-debugger-settings.md
       - name: Set debug and release configurations
         href: how-to-set-debug-and-release-configurations.md
       - name: Project settings (C++)
@@ -148,6 +144,8 @@
         href: project-settings-for-a-visual-basic-debug-configuration.md
       - name: Property pages settings (Web projects)
         href: property-pages-settings-for-web-projects.md
+    - name: Specify debugger options
+      href: how-to-specify-debugger-settings.md
     - name: DLL projects
       items:
       - name: Debug DLL projects
@@ -584,14 +582,6 @@
   items:
   - name: Debugging User Interface Reference
     items:
-    - name: Debugging, Options
-      items:
-      - name: General, Debugging, Options dialog box
-        href: general-debugging-options-dialog-box.md
-      - name: Just-In-Time, Debugging, Options dialog box
-        href: just-in-time-debugging-options-dialog-box.md
-      - name: Output Window, Debugging, Options dialog box
-        href: output-window-debugging-options-dialog-box.md
     - name: Debugging Errors and Warning
       items:
       - name: Debugging Errors and Warning dialog box
