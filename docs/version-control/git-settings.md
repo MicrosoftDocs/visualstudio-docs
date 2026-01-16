@@ -3,7 +3,7 @@ title: Git Settings in Visual Studio
 titleSuffix: ""
 description: Explore how Visual Studio uses .gitconfig files and Git settings to manage your project and solution preferences, such as your preferred diff and merge tools.
 ms.date: 01/16/2026
-ms.topic: article
+ms.topic: how-to
 author: ghogen
 ms.author: ghogen
 ms.manager: mijacobs

@@ -3,7 +3,7 @@ title: "Customize UI features By using extensibility interfaces"
 description: Learn that the Office development tools in Visual Studio provide extensibility interfaces that help you customize UI features.
 titleSuffix: ""
 ms.date: "02/02/2017"
-ms.topic: article
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"

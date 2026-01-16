@@ -2,7 +2,7 @@
 title: "Automate Word by using extended objects"
 description: Learn how you can use host items and host controls in your solutions when you develop Word solutions in Visual Studio.
 ms.date: 02/02/2017
-ms.topic: article
+ms.topic: concept-article
 dev_langs:
   - "VB"
   - "CSharp"

@@ -2,7 +2,7 @@
 title: Add extensions to domain-specific language definitions
 description: Learn how the DSL Definition extension allows you to create a package of extensions to a domain-specific language (DSL).
 ms.date: 06/22/2022
-ms.topic: article
+ms.topic: concept-article
 author: jekelly
 ms.author: jekelly
 manager: mijacobs
