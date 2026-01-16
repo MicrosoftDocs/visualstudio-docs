@@ -588,8 +588,6 @@
       items:
       - name: General, Debugging, Options dialog box
         href: general-debugging-options-dialog-box.md
-      - name: Output Window, Debugging, Options dialog box
-        href: output-window-debugging-options-dialog-box.md
     - name: Debugging Errors and Warning
       items:
       - name: Debugging Errors and Warning dialog box
