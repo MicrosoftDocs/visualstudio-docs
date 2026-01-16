@@ -2,7 +2,7 @@
 title: "Form Support in Workflows"
 description: 'Read about form support in SharePoint workflows. Four types of forms can be used in a workflow: association, initiation, task, and modification.'
 ms.date: "02/02/2017"
-ms.topic: article
+ms.topic: concept-article
 dev_langs:
   - "VB"
   - "CSharp"

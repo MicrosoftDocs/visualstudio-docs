@@ -2,7 +2,7 @@
 title: "Utilization View"
 description: Learn that the Utilization view displays information about the CPU, GPU, and other system resources that are used by the current process.
 ms.date: "11/04/2016"
-ms.topic: article
+ms.topic: concept-article
 f1_keywords:
   - "vs.performance.view.cpuutilization"
   - "vs.cv.cpu.graph"
