@@ -2,7 +2,7 @@
 title: "Develop Office solutions"
 description: Learn how to design a project by using Office developer tools in Visual Studio. Also learn how to begin implementing the code and custom user interface (UI).
 ms.date: "08/14/2019"
-ms.topic: article
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"
