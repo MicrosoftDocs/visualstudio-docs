@@ -348,7 +348,7 @@ Here's how to work with these settings:
 
 1. In the **Options** pane, expand the **Git Repository Config** section and scroll to the **Git files** group.
 
-1. To add the **Ignore file** (_.gitignore_) or **Attributes file** (_.gitattributes_), select **Add /.gitignore** or **Add /.gitattributes_**.
+1. To add the **Ignore file** (_.gitignore_) or **Attributes file** (_.gitattributes_), select **Add /.gitignore** or **Add /.gitattributes**.
 
    Visual Studio adds the file and changes the button label to **Edit \<filename>**.
 
