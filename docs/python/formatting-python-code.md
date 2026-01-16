@@ -4,7 +4,7 @@ description: Automatically format your Python code in Visual Studio, including t
 author: Devdiv-VR
 ms.author: vedhar
 ms.subservice: python
-ms.topic: article
+ms.topic: how-to
 ms.date: 01/07/2026
 manager: mijacobs
 
