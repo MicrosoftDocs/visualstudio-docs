@@ -264,7 +264,7 @@ Here's how to change this setting:
 The **Enable commit graph for better Git performance** option instructs Visual Studio to generate a commit graph file in your local repository for quick parsing and sorting of your commits. A commit graph can decrease delays in Git operations and improve performance of repository actions in Visual Studio. For more information, see [Supercharge your Git experience in Visual Studio with a commit graph](https://devblogs.microsoft.com/visualstudio/supercharge-your-git-experience-in-vs/#what-happens-when-you-enable-the-commit-graph). 
 
 > [!NOTE]
-> It can take a few minutes to generate the commit graph based on the size of your repository. Until the operation complete, you can't run other Git operations in Visual Studio, such as Fetch or Pull.
+> It can take a few minutes to generate the commit graph based on the size of your repository. Until the operation completes, you can't run other Git operations in Visual Studio, such as Fetch or Pull.
 
 The following values are available at the local scope:
 
