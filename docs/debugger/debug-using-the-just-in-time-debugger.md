@@ -1,8 +1,11 @@
 ---
 title: Debug using the Just-In-Time Debugger
 description: Debug using the Just-In-Time Debugger in Visual Studio. Just-In-Time debugging can launch Visual Studio automatically when an app returns errors or crashes.
-ms.date: 10/27/2025
+ms.date: 1/16/2026
 ms.topic: how-to
+f1_keywords:
+  - "VS.ToolsOptionsPages.Debugger.JIT"
+  - "vs.debug.options.JIT"
 helpviewer_keywords: 
   - debugging [Visual Studio], Just-In-Time
   - Just-In-Time debugging
@@ -174,6 +177,8 @@ You can start debugging at this point. If you're debugging a real app, you need 
 
 ## <a name="jit_errors"></a> Troubleshoot Just-In-Time debugging
 
+### Just-In-Time debugging fails to start
+
 If Just-In-Time debugging doesn't start when an app crashes, even though it's enabled in Visual Studio:
 
 - A known Windows issue might be causing the Just-In-Time debugger to fail.
@@ -194,29 +199,40 @@ If Just-In-Time debugging doesn't start when an app crashes, even though it's en
 
   For more information, see [.WER settings](/windows/desktop/wer/wer-settings).
 
+### Error messages
+
 You might see the following error messages during Just-In-Time debugging:
 
 - **Unable to attach to the crashing process. The specified program is not a Windows or MS-DOS program.**
 
-    The debugger tried to attach to a process running under another user.
+  The debugger tried to attach to a process running under another user.
 
-    To work around this problem, in Visual Studio, open **Debug** > **Attach to Process** (or press **Ctrl** + **Alt** + **P**), and find the process you want to debug in the **Available Processes** list. If you don't know the name of the process, find the Process ID in the **Visual Studio Just-In-Time Debugger** dialog. Select the process in the **Available Processes** list, and select **Attach**. Select **No** to dismiss the Just-In-Time debugger dialog.
+  To work around this problem, in Visual Studio, open **Debug** > **Attach to Process** (or press **Ctrl** + **Alt** + **P**), and find the process you want to debug in the **Available Processes** list. If you don't know the name of the process, find the Process ID in the **Visual Studio Just-In-Time Debugger** dialog. Select the process in the **Available Processes** list, and select **Attach**. Select **No** to dismiss the Just-In-Time debugger dialog.
 
 - **Debugger could not be started because no user is logged on.**
 
-    There's no user logged on to the console, so there's no user session to display the Just-In-Time debugging dialog.
+  There's no user logged on to the console, so there's no user session to display the Just-In-Time debugging dialog.
 
-    To fix this problem, log onto the machine.
+  To fix this problem, log onto the machine.
 
 - **Class not registered.**
 
-    The debugger tried to create a COM class that isn't registered, probably due to an installation problem.
+  The debugger tried to create a COM class that isn't registered, probably due to an installation problem.
 
-    To fix this problem, use the Visual Studio Installer to reinstall or repair your Visual Studio installation.
+  To fix this problem, use the Visual Studio Installer to reinstall or repair your Visual Studio installation.
+
+- **Another debugger has registered itself as the Just-In-Time debugger. To repair, enable Just-In-Time debugging or run Visual Studio repair.**
+
+  This message occurs if you have another debugger, possibly an older version of Visual Studio debugger, set as the Just-In-Time debugger.
+
+- **Just-In-Time debugging registration errors detected. To repair, enable Just-In-Time debugging or run Visual Studio repair.**
+
+  If you see either of these warnings, Just-In-Time debugging with Visual Studio requires Administrator privileges until you resolve the problem. If you try to enable the feature as a non-administrator under these conditions, you see the following error message:
+
+  **Access is denied. Have an administrator enable Just-In-Time debugging, or repair your installation of Visual Studio.**
 
 ## Related content
 
 - [Debugger security](../debugger/debugger-security.md)
 - [First look at the debugger](../debugger/debugger-feature-tour.md)
-- [Options, Debugging, Just-In-Time dialog box](../debugger/just-in-time-debugging-options-dialog-box.md)
 - [Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you're unsure, don't attach to this process](../debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user.md)
