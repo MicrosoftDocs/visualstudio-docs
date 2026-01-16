@@ -128,8 +128,6 @@
     items:
     - name: Debugger project settings
       items:
-      - name: Project settings
-        href: debugger-project-settings.md
       - name: Set debug and release configurations
         href: how-to-set-debug-and-release-configurations.md
       - name: Project settings (C++)

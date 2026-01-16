@@ -21256,6 +21256,11 @@
       "source_path": "docs/debugger/general-debugging-options-dialog-box.md",
       "redirect_url": "/visualstudio/debugger/how-to-specify-debugger-settings",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/debugger-project-settings.md",
+      "redirect_url": "/visualstudio/ide/managing-project-and-solution-properties",
+      "redirect_document_id": false
     }
   ]
 }
