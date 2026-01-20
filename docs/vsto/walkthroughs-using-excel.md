@@ -2,7 +2,7 @@
 title: "Walkthroughs using Excel"
 description: Learn how you can use document-level customizations and VSTO Add-ins to automate Microsoft Excel. You can also customize the user interface (UI).
 ms.date: "02/02/2017"
-ms.topic: article
+ms.topic: tutorial
 dev_langs:
   - "VB"
   - "CSharp"
