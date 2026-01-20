@@ -97,12 +97,12 @@ By default, the editor detects encoding by searching for byte order marks or cha
 
 ::: moniker range="visualstudio"
 
-When this setting is selected, any project-specific [code style settings specified in an *EditorConfig* file added to the project](../create-portable-custom-editor-options.md#code-consistency) override any local code style settings. The local settings are specified in the **Options** pane under **All Settings** > **Languages** > _\<Language, such as C#>_ > **Code Style** > **General**.
+When this setting is selected, any project-specific [code style settings specified in an *EditorConfig* file added to the project](create-portable-custom-editor-options.md#code-consistency) override any local code style settings. The local settings are specified in the **Options** pane under **All Settings** > **Languages** > _\<Language, such as C#>_ > **Code Style** > **General**.
 
 ::: moniker-end
 ::: moniker range="vs-2022"
 
-When this setting is selected, any project-specific [code style settings specified in an *EditorConfig* file added to the project](../create-portable-custom-editor-options.md#code-consistency) override any local code style settings. The local settings are specified in the **Options** dialog under **Text Editor** > _\<Language, such as C#>_ > **Code Style** > **General**.
+When this setting is selected, any project-specific [code style settings specified in an *EditorConfig* file added to the project](create-portable-custom-editor-options.md#code-consistency) override any local code style settings. The local settings are specified in the **Options** dialog under **Text Editor** > _\<Language, such as C#>_ > **Code Style** > **General**.
 
 ::: moniker-end
 
@@ -157,7 +157,7 @@ Set to a default of **5**, you can increase or decrease the number of lines that
 
 ### When number of scopes exceeds the maximum
 
-The default is **Prefer outer scopes**, which shows higher-level scopes. You can change it to **Prefer inner scopes**, which pushes out higher-level scopes as you scroll through deeply nested code. For more information, see the "[Inner and outer scopes](../editor-sticky-scroll.md#inner-and-outer-scopes)" section of the [What is Sticky Scroll for Visual Studio](editor-sticky-scroll.md) page.
+The default is **Prefer outer scopes**, which shows higher-level scopes. You can change it to **Prefer inner scopes**, which pushes out higher-level scopes as you scroll through deeply nested code. For more information, see the "[Inner and outer scopes](editor-sticky-scroll.md#inner-and-outer-scopes)" section of the [What is Sticky Scroll for Visual Studio](editor-sticky-scroll.md) page.
 
 ## Display settings
 
@@ -276,7 +276,7 @@ When this setting is selected, a vertical margin displays along the left edge of
 
 |Selection Margin on|Selection Margin off|
 | - | - |
-|![HTMLpageSelectionMarginOn screenshot](../../ide/media/vxselmaron.gif)|![HTMLpageSelectionMarginOff screenshot](../../ide/media/vxselmaroff.gif)|
+|![HTMLpageSelectionMarginOn screenshot](../ide/media/vxselmaron.gif)|![HTMLpageSelectionMarginOff screenshot](../ide/media/vxselmaroff.gif)|
 
 ### Enable brace pair colorization
 
