@@ -980,14 +980,6 @@
             href: ide/reference/options-text-editor-c-cpp-formatting.md
           - name: View
             href: ide/reference/options-text-editor-c-cpp-view.md         
-        - name: F#
-          items:
-          - name: Advanced
-            href: ide/reference/options-text-editor-fsharp-advanced.md
-          - name: Code Fixes
-            href: ide/reference/options-text-editor-fsharp-code-fixes.md
-          - name: IntelliSense
-            href: ide/reference/options-text-editor-fsharp-intellisense.md
       - name: Windows Forms Designer
         href: ide/reference/options-windows-forms-designer.md
   - name: Devenv command-line switches
