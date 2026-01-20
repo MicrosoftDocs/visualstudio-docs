@@ -550,6 +550,8 @@
         href: ide/reference/how-to-display-urls-as-links-in-the-editor.md
       - name: Change indents and tabs
         href: ide/options-text-editor-all-languages-tabs.md
+      - name: Customize general text editor options
+        href: ide/options-text-editor-general.md
       - name: Customize language options in the editor
         href: ide/options-text-editor-all-languages.md
       - name: Customize advanced text editor options
@@ -945,12 +947,8 @@
           href: ide/reference/general-environment-options-dialog-box.md
         - name: Accounts
           href: ide/reference/accounts-environment-options-dialog-box.md
-        - name: Documents
-          href: ide/reference/documents-environment-options-dialog-box.md
         - name: Extensions
           href: ide/reference/extensions-and-updates-environment-options-dialog-box.md
-        - name: Find and Replace
-          href: ide/reference/find-and-replace-environment-options-dialog-box.md
         - name: Fonts and Colors
           href: ide/reference/fonts-and-colors-environment-options-dialog-box.md
       - name: Projects and Solutions
@@ -961,8 +959,6 @@
           href: ide/reference/vcpp-project-settings-projects-and-solutions-options-dialog-box.md
       - name: Text Editor
         items:
-        - name: General
-          href: ide/reference/options-text-editor-general.md
         - name: All Languages
         - name: Visual Basic
           items:
