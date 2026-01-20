@@ -2,7 +2,7 @@
 title: "Grant trust to Office solutions"
 description: To grant trust to Office solutions means to modify the security policy of each target computer to trust the solution assembly, deployment manifest, and document.
 ms.date: "02/02/2017"
-ms.topic: article
+ms.topic: concept-article
 dev_langs:
   - "VB"
   - "CSharp"
