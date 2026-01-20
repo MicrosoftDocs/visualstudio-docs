@@ -2,7 +2,7 @@
 title: "Work with Visio documents"
 description: Learn about step-by-step procedures and code examples for using the object model of Microsoft Visio to work with documents in Office projects.
 ms.date: "02/02/2017"
-ms.topic: article
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"
