@@ -80,5 +80,5 @@ To reset all settings to their defaults, sign in to Visual Studio, and then sele
 
 - [Personalize the IDE](../ide/personalizing-the-visual-studio-ide.md)
 - [Environment settings](../ide/personalizing-the-visual-studio-ide.md)
-- [Environment > Accounts Options dialog box](reference/accounts-environment-options-dialog-box.md)
+- [Environment > Accounts Options dialog box](accounts-environment-options-dialog-box.md)
 - [Install Visual Studio versions side-by-side](../install/install-visual-studio-versions-side-by-side.md)
