@@ -907,6 +907,8 @@
       href: ide/work-with-github-accounts.md
     - name: Extend a trial version or update a license
       href: ide/how-to-unlock-visual-studio.md
+    - name: Configure environment options for an account
+      href: ide/accounts-environment-options-dialog-box.md
   - name: Tuning the performance of Visual Studio
     items:
     - name: Optimize performance
@@ -945,8 +947,6 @@
         items:
         - name: General
           href: ide/reference/general-environment-options-dialog-box.md
-        - name: Accounts
-          href: ide/reference/accounts-environment-options-dialog-box.md
         - name: Extensions
           href: ide/reference/extensions-and-updates-environment-options-dialog-box.md
         - name: Fonts and Colors
