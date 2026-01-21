@@ -2,7 +2,7 @@
 title: "XAML Hot Reload impact on performance diagnostics"
 description: "XAML Hot Reload and its impact on performance diagnostics"
 ms.date: 11/26/2025
-ms.topic: article
+ms.topic: best-practice
 helpviewer_keywords:
   - "xaml hot reload"
   - "performance profiling"
