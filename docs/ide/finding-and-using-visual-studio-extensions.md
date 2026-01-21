@@ -1,7 +1,7 @@
 ---
 title: Find and Manage Extension Packages
 description: Learn about extensions in Visual Studio and how to manage them so you have the controls, samples, templates, tools, and other components that you need.
-ms.date: 08/18/2025
+ms.date: 01/15/2026
 ms.topic: how-to
 f1_keywords:
 - vs.ExtensionManager
@@ -64,7 +64,15 @@ To install extensions from Visual Studio:
 
 1. Select **Install**.
 
-::: moniker range=">=vs-2022"
+:::moniker range="visualstudio"
+   
+   After the download completes, you see a notification at the top of Extension Manager: "Your changes are scheduled. The modifications will begin when Microsoft Visual Studio is closed."
+
+  :::image type="content" source="media/visualstudio/manage-extensions-install-notification.png" alt-text="Screenshot showing the notification in Extension Manager stating that changes are scheduled." lightbox="media/visualstudio/manage-extensions-install-notification.png":::
+  
+:::moniker-end
+
+::: moniker range="vs-2022"
 
   After the download completes, you see a notification at the top of Extension Manager: "Your changes are scheduled. The modifications will begin when Microsoft Visual Studio is closed."
 
@@ -125,6 +133,26 @@ The rest of this section describes changes available in Visual Studio 2022 17.14
 
 Whenever you open the Extension Manager window, you automatically trigger updates. This ensures that you're consistently working with the latest features and don't need to manually initiate updates.
 
+:::moniker-end
+
+:::moniker range="visualstudio"
+  
+When an update is available for an extension, you see notifications in the left pane and in the extension's pane:
+
+:::image type="content" source="./media/visualstudio/extension-manager-notification-bar.png" alt-text="Screenshot that shows how Visual Studio notifies you about extension updates that are available." lightbox="./media/visualstudio/extension-manager-notification-bar.png":::
+
+Also, a notification appears when updates are applied, reminding you to restart Visual Studio so that the extensions take effect.
+
+You can change settings for automatic updates on the extension's page in Extension Manager.
+
+:::image type="content" source="./media/vs-2022/finding-and-using-visual-studio-extensions/extension-manager-update-automatically.png" alt-text="Screenshot showing how to configure whether an extension is updated automatically." lightbox="./media/vs-2022/finding-and-using-visual-studio-extensions/extension-manager-update-automatically.png" :::
+
+The **Pending** category enables you to view only extensions that have pending updates.
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 When an update is available for an extension, you see a yellow notification infobar:
 
 :::image type="content" source="./media/vs-2022/finding-and-using-visual-studio-extensions/extension-manager-notification-bar.png" alt-text="Screenshot showing how Visual Studio notifies you about extension updates that are available.":::
@@ -137,17 +165,29 @@ You can change settings for automatic updates on the extension's page in Extensi
 
 The **Pending** category enables you to view only extensions that have pending updates.
 
+:::moniker-end
+
+:::moniker range="visualstudio"
+    
+:::image type="content" source="./media/visualstudio/extension-manager-category-pending.png" alt-text="Screenshot that shows how to filter the extension list to view only extensions that have pending updates." lightbox="./media/visualstudio/extension-manager-category-pending.png" :::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 :::image type="content" source="./media/vs-2022/finding-and-using-visual-studio-extensions/extension-manager-category-pending.png" alt-text="Screenshot showing how to filter the extension list to view only extensions that have pending updates." lightbox="./media/vs-2022/finding-and-using-visual-studio-extensions/extension-manager-category-pending.png" :::
+
+:::moniker-end
 
 #### Automatic update settings
 
 You can also configure automatic update settings in **Tools > Options**.
 
+<!-- Add new or updated image for Visual Studio 2026 -->
+
 :::image type="content" source="./media/vs-2022/finding-and-using-visual-studio-extensions/extension-manager-tools-options.png" alt-text="Screenshot showing how to configure automatic extension updates in Tools > Options." :::
 
 The list under **Extensions excluded from automatic updates** shows the extensions that won't be updated automatically. You might use this to ensure the stability and consistency of the extensions you're using during a critical phase of your development lifecycle.
-
-:::moniker-end
 
 ### Crash and unresponsiveness notifications
 
