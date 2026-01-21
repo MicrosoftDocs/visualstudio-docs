@@ -1,8 +1,8 @@
 ---
-title: Options, Text Editor, General
+title: Customize general text editor options
 description: Learn how to use the General page to change global settings for the Visual Studio Code editor.
 ms.date: 12/16/2025
-ms.topic: reference
+ms.topic: how-to
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor
 - VS.ToolsOptionsPages.Text_Editor.Advanced
@@ -34,7 +34,8 @@ ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide
 ---
-# Options dialog: Text Editor \> General
+
+# Customize general text editor options
 
 ::: moniker range="visualstudio"
 
@@ -96,17 +97,17 @@ By default, the editor detects encoding by searching for byte order marks or cha
 
 ::: moniker range="visualstudio"
 
-When this setting is selected, any project-specific [code style settings specified in an *EditorConfig* file added to the project](../create-portable-custom-editor-options.md#code-consistency) override any local code style settings. The local settings are specified in the **Options** pane under **All Settings** > **Languages** > _\<Language, such as C#>_ > **Code Style** > **General**.
+When this setting is selected, any project-specific [code style settings specified in an *EditorConfig* file added to the project](create-portable-custom-editor-options.md#code-consistency) override any local code style settings. The local settings are specified in the **Options** pane under **All Settings** > **Languages** > _\<Language, such as C#>_ > **Code Style** > **General**.
 
 ::: moniker-end
 ::: moniker range="vs-2022"
 
-When this setting is selected, any project-specific [code style settings specified in an *EditorConfig* file added to the project](../create-portable-custom-editor-options.md#code-consistency) override any local code style settings. The local settings are specified in the **Options** dialog under **Text Editor** > _\<Language, such as C#>_ > **Code Style** > **General**.
+When this setting is selected, any project-specific [code style settings specified in an *EditorConfig* file added to the project](create-portable-custom-editor-options.md#code-consistency) override any local code style settings. The local settings are specified in the **Options** dialog under **Text Editor** > _\<Language, such as C#>_ > **Code Style** > **General**.
 
 ::: moniker-end
 
 > [!TIP]
-> To learn more about coding conventions and how they're applied, see the [Create portable, custom editor settings with EditorConfig](../create-portable-custom-editor-options.md) page.
+> To learn more about coding conventions and how they're applied, see the [Create portable, custom editor settings with EditorConfig](create-portable-custom-editor-options.md) page.
 
 ### Enable image hover preview
 
@@ -129,7 +130,7 @@ You can set the **Modifier key** for the Go to Definition action to **Alt**, **C
 
 #### Open definition in peek view
 
-Select this checkbox to display the element definition in a window without navigating away from your current location in the code editor. For more information, see [How to: View and edit code by using Peek Definition](../how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md).
+Select this checkbox to display the element definition in a window without navigating away from your current location in the code editor. For more information, see [How to: View and edit code by using Peek Definition](how-to-view-and-edit-code-by-using-peek-definition-alt-plus-f12.md).
 
 ## Sticky scroll settings
 
@@ -148,7 +149,7 @@ The **Text Editor** > **General** section includes the following options for con
 
 ### Group the current scopes within a scrollable region of the editor window
 
-Select this checkbox to enable [Sticky scroll](../editor-sticky-scroll.md) to *stick* scopes to the top of the editor so they're always in view while you *scroll* through your code. Scopes include namespaces, classes, methods, loop initialization statements, and conditionals. This setting is available in Visual Studio 2022 [version 17.5](/visualstudio/releases/2022/release-notes-v17.5) and later. The supported programming languages and code formats for Sticky scroll include C#, C++, XAML, and JSON. 
+Select this checkbox to enable [Sticky scroll](editor-sticky-scroll.md) to *stick* scopes to the top of the editor so they're always in view while you *scroll* through your code. Scopes include namespaces, classes, methods, loop initialization statements, and conditionals. This setting is available in Visual Studio 2022 [version 17.5](/visualstudio/releases/2022/release-notes-v17.5) and later. The supported programming languages and code formats for Sticky scroll include C#, C++, XAML, and JSON. 
 
 ### Maximum sticky lines
 
@@ -156,7 +157,7 @@ Set to a default of **5**, you can increase or decrease the number of lines that
 
 ### When number of scopes exceeds the maximum
 
-The default is **Prefer outer scopes**, which shows higher-level scopes. You can change it to **Prefer inner scopes**, which pushes out higher-level scopes as you scroll through deeply nested code. For more information, see the "[Inner and outer scopes](../editor-sticky-scroll.md#inner-and-outer-scopes)" section of the [What is Sticky Scroll for Visual Studio](../editor-sticky-scroll.md) page.
+The default is **Prefer outer scopes**, which shows higher-level scopes. You can change it to **Prefer inner scopes**, which pushes out higher-level scopes as you scroll through deeply nested code. For more information, see the "[Inner and outer scopes](editor-sticky-scroll.md#inner-and-outer-scopes)" section of the [What is Sticky Scroll for Visual Studio](editor-sticky-scroll.md) page.
 
 ## Display settings
 
@@ -275,7 +276,7 @@ When this setting is selected, a vertical margin displays along the left edge of
 
 |Selection Margin on|Selection Margin off|
 | - | - |
-|![HTMLpageSelectionMarginOn screenshot](../../ide/media/vxselmaron.gif)|![HTMLpageSelectionMarginOff screenshot](../../ide/media/vxselmaroff.gif)|
+|![HTMLpageSelectionMarginOn screenshot](../ide/media/vxselmaron.gif)|![HTMLpageSelectionMarginOff screenshot](../ide/media/vxselmaroff.gif)|
 
 ### Enable brace pair colorization
 
@@ -363,9 +364,9 @@ Use this control to toggle the editing context settings altogether, or personali
 
 ## Related content
 
-- [Options, Text Editor, All Languages](../../ide/reference/options-text-editor-all-languages.md)
-- [Options, Text Editor, All Languages, Tabs](../../ide/options-text-editor-all-languages-tabs.md)
+- [Options, Text Editor, All Languages](reference/options-text-editor-all-languages.md)
+- [Options, Text Editor, All Languages, Tabs](options-text-editor-all-languages-tabs.md)
 - [Options, Text Editor, File Extension](/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-text-editor-file-extension)
-- [Identifying and Customizing Keyboard Shortcuts](../../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md)
-- [Customizing the Editor](../how-to-change-text-case-in-the-editor.md)
-- [Using IntelliSense](../../ide/using-intellisense.md)
+- [Identifying and Customizing Keyboard Shortcuts](identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md)
+- [Customizing the Editor](how-to-change-text-case-in-the-editor.md)
+- [Using IntelliSense](using-intellisense.md)
