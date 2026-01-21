@@ -1,8 +1,8 @@
 ---
 title: Configure environment options for an account
 description: Learn how to set some options related to the accounts you use when you sign in to Visual Studio.
-ms.date: 12/10/2018
-ms.topic: reference
+ms.date: 1/20/2025
+ms.topic: how-to
 f1_keywords:
 - VS.ToolsOptionsPages.Environment.RoamingSettings
 ms.custom: "ide-ref"
@@ -11,19 +11,20 @@ ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide
 ---
+
 # Configure environment options for an account
 
-Use this page to set various options related to the accounts you use to sign in to Visual Studio.
+You can set various options related to the accounts you use to sign in to Visual Studio.
 
 ## Personalization account
 
 ### Synchronize settings across devices
 
-Use this option to specify whether to synchronize your settings across multiple machines. For more information, see [Synchronized settings](../../ide/synchronized-settings-in-visual-studio.md).
+Use this option to specify whether to synchronize your settings across multiple machines. For more information, see [Synchronized settings](../ide/synchronized-settings-in-visual-studio.md).
 
 ### Enable device code flow
 
-When this option is selected, the behavior of Visual Studio changes when you select **Add an account** on the **File** > **Account Settings** page. Instead of seeing the **Sign in to your account** page, you're presented with a dialog box that gives you a URL and a code to paste into a web browser to sign in. This option is useful in cases where you can't sign in to Visual Studio in the regular manner, for example, if you use an older version of Internet Explorer, or if your firewall restricts access. For more information, see [Sign in to Visual Studio](../signing-in-to-visual-studio.md#add-and-switch-user-accounts-in-visual-studio).
+When this option is selected, the behavior of Visual Studio changes when you select **Add an account** on the **File** > **Account Settings** page. Instead of seeing the **Sign in to your account** page, you're presented with a dialog box that gives you a URL and a code to paste into a web browser to sign in. This option is useful in cases where you can't sign in to Visual Studio in the regular manner, for example, if you use an older version of Internet Explorer, or if your firewall restricts access. For more information, see [Sign in to Visual Studio](signing-in-to-visual-studio.md#add-and-switch-user-accounts-in-visual-studio).
 
 ## Registered Azure clouds
 
@@ -37,7 +38,7 @@ After you register an additional Azure cloud, you can choose which Azure cloud y
 
 ## See also
 
-- [Synchronize settings across multiple computers](../synchronized-settings-in-visual-studio.md)
-- [Sign in to Visual Studio](../signing-in-to-visual-studio.md)
-- [Work with multiple user accounts](../work-with-multiple-user-accounts.md)
-- [Environment settings](../personalizing-the-visual-studio-ide.md)
+- [Synchronize settings across multiple computers](synchronized-settings-in-visual-studio.md)
+- [Sign in to Visual Studio](signing-in-to-visual-studio.md)
+- [Work with multiple user accounts](work-with-multiple-user-accounts.md)
+- [Environment settings](personalizing-the-visual-studio-ide.md)
