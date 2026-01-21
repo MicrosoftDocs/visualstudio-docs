@@ -21263,6 +21263,20 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "docs/ide/reference/documents-environment-options-dialog-box.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/ide/reference/documents-environment-options-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/find-and-replace-environment-options-dialog-box.md",
+      "redirect_url": "/visualstudio/ide/finding-and-replacing-text",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/options-text-editor-general.md",
+      "redirect_url": "/visualstudio/ide/options-text-editor-general"
+    },
+    {
       "source_path": "docs/ide/reference/options-text-editor-fsharp-advanced.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/ide/reference/options-text-editor-fsharp-advanced",
       "redirect_document_id": false
@@ -21275,6 +21289,11 @@
     {
       "source_path": "docs/ide/reference/options-text-editor-fsharp-intellisense.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/ide/reference/options-text-editor-fsharp-intellisense",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/accounts-environment-options-dialog-box.md",
+      "redirect_url": "/visualstudio/ide/accounts-environment-options-dialog-box",
       "redirect_document_id": false
     }
   ]
