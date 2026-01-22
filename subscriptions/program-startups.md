@@ -4,7 +4,7 @@ author: joseb-rdc
 ms.author: amast
 manager: shve
 ms.date: 11/19/2025
-ms.topic: article
+ms.topic: concept-article
 description:  Details on subscriptions offered through the Microsoft for Startups program.
 ---
 
