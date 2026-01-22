@@ -5,7 +5,7 @@ comment:  As of August 2023 this include is used to render marketing FAQ content
 ms.assetid: 26fc654f-f76d-4c12-9d42-a827a5be5bdd  
 author: joseb-rdc 
 ms.author: amast 
-ms.topic: article
+ms.topic: include
 ms.date: 08/17/2023 
 user.type: admin 
 tags: purchasing 
