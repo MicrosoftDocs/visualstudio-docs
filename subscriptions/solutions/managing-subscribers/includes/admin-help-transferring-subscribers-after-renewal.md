@@ -5,7 +5,7 @@ comment:  As of August 2023 this include is used to render marketing FAQ content
 ms.assetid: a95181b0-b64c-4c29-a90e-928962c06d81
 author: joseb-rdc 
 ms.author: amast 
-ms.topic: article
+ms.topic: include
 ms.date: 04/09/2024
 user.type: admin 
 tags: renewal, transfer

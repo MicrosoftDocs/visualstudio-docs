@@ -4,7 +4,7 @@ author: joseb-rdc
 ms.author: amast
 manager: shve
 ms.date: 09/16/2024
-ms.topic: article
+ms.topic: how-to
 description:  Learn how admins can resolve over-allocated subscriptions
 ---
 
