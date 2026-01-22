@@ -174,7 +174,7 @@ Like any other task parameters, `MSBuildRuntime` and `MSBuildArchitecture` can b
         <FrameworkVersion>3.0</FrameworkVersion>
     </PropertyGroup>
     <Target Name="MyTarget">
-        <SimpleTask MSBuildRuntime="$(FrameworkVerion)" MSBuildArchitecture= "x86"/>
+        <SimpleTask MSBuildRuntime="$(FrameworkVersion)" MSBuildArchitecture= "x86"/>
     </Target>
 </Project>
 ```
