@@ -1,7 +1,7 @@
 ---
 title: Visual Studio subscription benefits
 description: FAQs list for Activating Subscription Benefits.
-ms.topic: article
+ms.topic: faq
 author: joseb-rdc
 ms.author: amast
 ms.date: 09/27/2024
