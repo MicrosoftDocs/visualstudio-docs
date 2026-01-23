@@ -1,6 +1,6 @@
 ---
 title: Generate code metrics from the IDE or command line
-ms.date: 04/14/2025
+ms.date: 01/22/2026
 description: Learn how to generate code metrics data in Visual Studio. See how to use Solution Explorer, a rule set file, the command line, or a menu command.
 ms.topic: how-to
 helpviewer_keywords:
@@ -200,10 +200,10 @@ The generated XML output takes the following format:
 
 If you don't want to install the NuGet package, you can generate and use the *Metrics.exe* executable directly. To generate the *Metrics.exe* executable:
 
-1. Clone the [dotnet/roslyn-analyzers](https://github.com/dotnet/roslyn-analyzers) repo.
+1. Clone the [dotnet/roslyn](https://github.com/dotnet/roslyn) repo.
 2. Open Developer Command Prompt for Visual Studio as an administrator.
-3. From the root of the **roslyn-analyzers** repo, execute the following command: `Restore.cmd`
-4. Change the directory to *src\Tools\Metrics*.
+3. From the root of the **roslyn** repo, execute the following command: `Restore.cmd`
+4. Change the directory to *src/RoslynAnalyzers/Tools/Metrics*.
 5. Execute the following command to build the **Metrics.csproj** project:
 
    ```shell

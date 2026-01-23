@@ -5,7 +5,7 @@ comment:  As of August 2023 this include is used to render marketing FAQ content
 ms.assetid:  6500f968-8f30-43ca-8538-072bd642873e
 author: joseb-rdc 
 ms.author: amast 
-ms.topic: article
+ms.topic: include
 ms.date: 08/17/2023
 user.type: admin 
 tags: renew  

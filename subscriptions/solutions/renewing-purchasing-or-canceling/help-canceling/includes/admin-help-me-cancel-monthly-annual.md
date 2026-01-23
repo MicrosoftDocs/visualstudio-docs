@@ -5,7 +5,7 @@ comment:  As of August 2023 this include is used to render marketing FAQ content
 ms.assetid: 93d4b42a-d59c-4206-a562-44f9adc73bce  
 author: joseb-rdc 
 ms.author: amast 
-ms.topic: article
+ms.topic: include
 ms.date: 08/17/2023
 user.type: admin 
 tags: cancel, cloud, monthly, annual 

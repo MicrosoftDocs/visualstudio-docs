@@ -4,7 +4,7 @@ author: joseb-rdc
 ms.author: amast
 manager: shve
 ms.date: 12/23/2025
-ms.topic: article
+ms.topic: get-started
 description: Discover how to access GitHub Enterprise as part of Visual Studio subscriptions, get started using GitHub, and find support options.
 ---
 
