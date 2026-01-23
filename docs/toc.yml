@@ -564,13 +564,13 @@
           href: ide/configure-languages-c-cpp-intellisense.md
         - name: Languages > C/C++ > Text editor
           href: ide/configure-languages-c-cpp-text-editor.md
-        - name: Advanced
+        - name: C/C++ Advanced
           href: ide/reference/options-text-editor-c-cpp-advanced.md
-        - name: Experimental
+        - name: C++ Experimental
           href: ide/reference/options-text-editor-c-cpp-experimental.md
-        - name: Formatting
+        - name: C/C++ Formatting
           href: ide/reference/options-text-editor-c-cpp-formatting.md
-        - name: View
+        - name: C/C++ View
           href: ide/reference/options-text-editor-c-cpp-view.md   
     - name: Code style
       items:
