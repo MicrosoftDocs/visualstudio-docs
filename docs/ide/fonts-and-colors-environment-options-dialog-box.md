@@ -1,8 +1,8 @@
 ---
-title: Fonts and Colors, Environment, Options dialog box
+title: Customize environment options for fonts and colors
 description: Learn how to use the Fonts and Colors page in the Environment section to establish a custom font and color scheme for various user interface elements in the IDE.
 ms.date: 11/12/2024
-ms.topic: reference
+ms.topic: how-to
 f1_keywords:
 - VS.ToolsOptionsPages.FontsAndColors
 - VS.ToolsOptionsPages.Environment.Fonts_And_Colors
@@ -26,7 +26,7 @@ ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide
 ---
-# Fonts and Colors, Environment, Options dialog box
+# Customize environment options for fonts and colors
 
 The **Fonts and Colors** page of the **Options** dialog box lets you establish a custom font and color scheme for various user interface elements in the integrated development environment (IDE). You can access this dialog box by clicking **Tools** > **Options**, and then selecting **Environment** > **Fonts and Colors**.
 

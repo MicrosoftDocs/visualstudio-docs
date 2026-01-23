@@ -1,8 +1,8 @@
 ---
-title: General, Environment, Options Dialog Box
+title: Customize general environment options
 description: Learn how to use the General page in the Environment section to change color themes, status bar settings, file extension associations, and more for the IDE.
 ms.date: 12/16/2025
-ms.topic: reference
+ms.topic: how-to
 f1_keywords:
 - VS.Environment.General
 - VS.Message.0x800a002e
@@ -22,7 +22,7 @@ ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide
 ---
-# Options dialog box: Environment \> General
+# Customize general environment options
 
 ::: moniker range="visualstudio"
 

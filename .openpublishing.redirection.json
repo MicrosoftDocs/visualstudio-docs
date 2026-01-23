@@ -21300,6 +21300,11 @@
       "source_path": "docs/ide/reference/general-environment-options-dialog-box.md",
       "redirect_url": "/visualstudio/ide/general-environment-options-dialog-box",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/fonts-and-colors-environment-options-dialog-box.md",
+      "redirect_url": "/visualstudio/ide/fonts-and-colors-environment-options-dialog-box",
+      "redirect_document_id": false
     }
   ]
 }

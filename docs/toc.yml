@@ -919,10 +919,12 @@
       href: ide/accounts-environment-options-dialog-box.md
   - name: Customize options
     items:
-    - name: General
+    - name: Customize general environment options
       href: ide/general-environment-options-dialog-box.md
-    - name: Environment > Visual Experience
-      href: ide/reference/configure-visual-experience-options.md
+    - name: Customize visual experience options
+      href: ide/configure-visual-experience-options.md
+    - name: Customize fonts and colors options
+      href: ide/fonts-and-colors-environment-options-dialog-box.md
   - name: Tuning the performance of Visual Studio
     items:
     - name: Optimize performance
@@ -951,8 +953,6 @@
         items:
         - name: Extensions
           href: ide/reference/extensions-and-updates-environment-options-dialog-box.md
-        - name: Fonts and Colors
-          href: ide/reference/fonts-and-colors-environment-options-dialog-box.md
       - name: Projects and Solutions
         items:
         - name: Build and Run
