@@ -563,7 +563,15 @@
         - name: Languages > C/C++ > IntelliSense
           href: ide/configure-languages-c-cpp-intellisense.md
         - name: Languages > C/C++ > Text editor
-          href: ide/configure-languages-c-cpp-text-editor.md   
+          href: ide/configure-languages-c-cpp-text-editor.md
+        - name: Advanced
+          href: ide/reference/options-text-editor-c-cpp-advanced.md
+        - name: Experimental
+          href: ide/reference/options-text-editor-c-cpp-experimental.md
+        - name: Formatting
+          href: ide/reference/options-text-editor-c-cpp-formatting.md
+        - name: View
+          href: ide/reference/options-text-editor-c-cpp-view.md   
     - name: Code style
       items:
       - name: Code style preferences
@@ -971,17 +979,7 @@
         - name: C#
           items:
           - name: Advanced
-            href: ide/reference/options-text-editor-csharp-advanced.md
-        - name: C/C++
-          items:
-          - name: Advanced
-            href: ide/reference/options-text-editor-c-cpp-advanced.md
-          - name: Experimental
-            href: ide/reference/options-text-editor-c-cpp-experimental.md
-          - name: Formatting
-            href: ide/reference/options-text-editor-c-cpp-formatting.md
-          - name: View
-            href: ide/reference/options-text-editor-c-cpp-view.md         
+            href: ide/reference/options-text-editor-csharp-advanced.md      
       - name: Windows Forms Designer
         href: ide/reference/options-windows-forms-designer.md
   - name: Devenv command-line switches
