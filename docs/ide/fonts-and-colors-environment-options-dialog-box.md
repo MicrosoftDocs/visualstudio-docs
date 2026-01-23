@@ -243,5 +243,5 @@ Displays a sample of the font style, size, and color scheme for the **Show setti
 
 ## See also
 
-- [Options Dialog Box](ide/options-dialog-box-visual-studio.md)
-- [How to: Change Fonts and Colors](ide/how-to-change-fonts-and-colors-in-visual-studio.md)
+- [Options Dialog Box](../ide/options-dialog-box-visual-studio.md)
+- [How to: Change Fonts and Colors](../ide/how-to-change-fonts-and-colors-in-visual-studio.md)
