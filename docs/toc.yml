@@ -552,10 +552,18 @@
         href: ide/options-text-editor-all-languages-tabs.md
       - name: Customize general text editor options
         href: ide/options-text-editor-general.md
-      - name: Customize language options in the editor
-        href: ide/options-text-editor-all-languages.md
       - name: Customize advanced text editor options
-        href: ide/options-text-editor-advanced.md
+        href: ide/options-text-editor-advanced.md 
+      - name: Customize language options
+        items: 
+        - name: Customize language options in the editor
+          href: ide/options-text-editor-all-languages.md 
+        - name: Languages > C/C++ (Advanced options)
+          href: ide/reference/configure-c-cpp-advanced-options.md
+        - name: Languages > C/C++ > IntelliSense
+          href: ide/reference/configure-languages-c-cpp-intellisense.md
+        - name: Languages > C/C++ > Text editor
+          href: ide/configure-languages-c-cpp-text-editor.md   
     - name: Code style
       items:
       - name: Code style preferences
@@ -909,6 +917,12 @@
       href: ide/how-to-unlock-visual-studio.md
     - name: Configure environment options for an account
       href: ide/accounts-environment-options-dialog-box.md
+  - name: Customize options
+    items:
+    - name: General
+      href: ide/general-environment-options-dialog-box.md
+    - name: Environment > Visual Experience
+      href: ide/reference/configure-visual-experience-options.md
   - name: Tuning the performance of Visual Studio
     items:
     - name: Optimize performance
@@ -932,21 +946,9 @@
     - name: Preview Changes
       href: ide/preview-changes.md
     - name: Options
-      items:
-      - name: How To
-        items:     
-        - name: Environment > Visual Experience
-          href: ide/configure-visual-experience-options.md
-        - name: Languages > C/C++ (Advanced options)
-          href: ide/configure-c-cpp-advanced-options.md
-        - name: Languages > C/C++ > IntelliSense
-          href: ide/configure-languages-c-cpp-intellisense.md
-        - name: Languages > C/C++ > Text editor
-          href: ide/configure-languages-c-cpp-text-editor.md          
+      items:       
       - name: Environment
         items:
-        - name: General
-          href: ide/reference/general-environment-options-dialog-box.md
         - name: Extensions
           href: ide/reference/extensions-and-updates-environment-options-dialog-box.md
         - name: Fonts and Colors

@@ -21295,6 +21295,11 @@
       "source_path": "docs/ide/reference/accounts-environment-options-dialog-box.md",
       "redirect_url": "/visualstudio/ide/accounts-environment-options-dialog-box",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/general-environment-options-dialog-box.md",
+      "redirect_url": "/visualstudio/ide/general-environment-options-dialog-box",
+      "redirect_document_id": false
     }
   ]
 }
