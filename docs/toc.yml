@@ -559,9 +559,9 @@
         - name: Customize language options in the editor
           href: ide/options-text-editor-all-languages.md 
         - name: Languages > C/C++ (Advanced options)
-          href: ide/reference/configure-c-cpp-advanced-options.md
+          href: ide/configure-c-cpp-advanced-options.md
         - name: Languages > C/C++ > IntelliSense
-          href: ide/reference/configure-languages-c-cpp-intellisense.md
+          href: ide/configure-languages-c-cpp-intellisense.md
         - name: Languages > C/C++ > Text editor
           href: ide/configure-languages-c-cpp-text-editor.md   
     - name: Code style
