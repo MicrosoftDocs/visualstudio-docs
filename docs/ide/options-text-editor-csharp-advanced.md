@@ -1,5 +1,5 @@
 ---
-title: Options, Text Editor, C#, Advanced
+title: Configure C# text editor advanced options
 description: Learn how to use the Advanced page in the C# section to modify the settings for editor formatting, code refactoring, and XML documentation comments for C#.
 ms.date: 10/29/2022
 ms.topic: reference
@@ -12,7 +12,7 @@ ms.author: midumont
 manager: mijacobs
 ms.subservice: general-ide
 ---
-# Options, Text Editor, C#, Advanced
+# Configure C# text editor advanced options
 
 Use the **Advanced** options page to modify the settings for editor formatting, code refactoring, and XML documentation comments for C#. To access this options page, choose **Tools** > **Options**, and then choose **Text Editor** > **C#** > **Advanced**.
 
@@ -35,7 +35,6 @@ Use the **Advanced** options page to modify the settings for editor formatting, 
   | Entire solution | All analyzers and compiler diagnostics are enabled on *all* documents in the solution, whether open or closed. |
 
 ::: moniker-end
-
 
 ## Using Directives
 
@@ -98,7 +97,7 @@ Use the **Advanced** options page to modify the settings for editor formatting, 
 
 - Suggest usings for types in NuGet packages
 
-   When these options are selected, a [Quick Action](../quick-actions.md) is available to install a NuGet package and add a `using` directive for unreferenced types.
+   When these options are selected, a [Quick Action](../ide/quick-actions.md) is available to install a NuGet package and add a `using` directive for unreferenced types.
 
    ![Quick Action to install NuGet package in Visual Studio](media/nuget-lightbulb.png)
 
@@ -229,7 +228,7 @@ Select these check boxes to display dotted vertical lines between the curly brac
 
 ## See also
 
-- [How to: Insert XML comments for documentation generation](../../ide/reference/generate-xml-documentation-comments.md)
+- [How to: Insert XML comments for documentation generation](../ide/reference/generate-xml-documentation-comments.md)
 - [Document your code with XML comments (C# Guide)](/dotnet/csharp/programming-guide/xmldoc/xml-documentation-comments)
-- [Set language-specific editor options](../../ide/reference/setting-language-specific-editor-options.md)
-- [C# IntelliSense](../../ide/visual-csharp-intellisense.md)
+- [Set language-specific editor options](../ide/reference/setting-language-specific-editor-options.md)
+- [C# IntelliSense](../ide/visual-csharp-intellisense.md)
