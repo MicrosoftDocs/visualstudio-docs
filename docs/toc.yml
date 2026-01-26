@@ -556,6 +556,10 @@
         href: ide/options-text-editor-advanced.md 
       - name: Customize language options in the editor
         href: ide/options-text-editor-all-languages.md 
+      - name: Customize C# language options
+        items: 
+        - name: Customize C# advanced text editor options
+          href: ide/options-text-editor-csharp-advanced.md      
       - name: Customize C/C++ language options
         items: 
         - name: Languages > C/C++ > IntelliSense
@@ -976,10 +980,6 @@
             href: ide/reference/options-text-editor-basic-visual-basic.md
           - name: IntelliSense
             href: ide/visual-basic-specific-intellisense.md
-        - name: C#
-          items:
-          - name: Advanced
-            href: ide/reference/options-text-editor-csharp-advanced.md      
       - name: Windows Forms Designer
         href: ide/reference/options-windows-forms-designer.md
   - name: Devenv command-line switches

@@ -1,5 +1,5 @@
 ---
-title: Options, Text Editor, C#, Advanced
+title: Configure C# text editor advanced options
 description: Learn how to use the Advanced page in the C# section to modify the settings for editor formatting, code refactoring, and XML documentation comments for C#.
 ms.date: 10/29/2022
 ms.topic: reference
@@ -12,7 +12,7 @@ ms.author: midumont
 manager: mijacobs
 ms.subservice: general-ide
 ---
-# Options, Text Editor, C#, Advanced
+# Configure C# text editor advanced options
 
 Use the **Advanced** options page to modify the settings for editor formatting, code refactoring, and XML documentation comments for C#. To access this options page, choose **Tools** > **Options**, and then choose **Text Editor** > **C#** > **Advanced**.
 
@@ -35,7 +35,6 @@ Use the **Advanced** options page to modify the settings for editor formatting, 
   | Entire solution | All analyzers and compiler diagnostics are enabled on *all* documents in the solution, whether open or closed. |
 
 ::: moniker-end
-
 
 ## Using Directives
 
