@@ -97,7 +97,7 @@ Use the **Advanced** options page to modify the settings for editor formatting, 
 
 - Suggest usings for types in NuGet packages
 
-   When these options are selected, a [Quick Action](../quick-actions.md) is available to install a NuGet package and add a `using` directive for unreferenced types.
+   When these options are selected, a [Quick Action](../ide/quick-actions.md) is available to install a NuGet package and add a `using` directive for unreferenced types.
 
    ![Quick Action to install NuGet package in Visual Studio](media/nuget-lightbulb.png)
 
@@ -228,7 +228,7 @@ Select these check boxes to display dotted vertical lines between the curly brac
 
 ## See also
 
-- [How to: Insert XML comments for documentation generation](../../ide/reference/generate-xml-documentation-comments.md)
+- [How to: Insert XML comments for documentation generation](../ide/reference/generate-xml-documentation-comments.md)
 - [Document your code with XML comments (C# Guide)](/dotnet/csharp/programming-guide/xmldoc/xml-documentation-comments)
-- [Set language-specific editor options](../../ide/reference/setting-language-specific-editor-options.md)
-- [C# IntelliSense](../../ide/visual-csharp-intellisense.md)
+- [Set language-specific editor options](../ide/reference/setting-language-specific-editor-options.md)
+- [C# IntelliSense](../ide/visual-csharp-intellisense.md)
