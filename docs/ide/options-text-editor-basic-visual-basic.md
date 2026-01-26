@@ -58,7 +58,7 @@ The **VB Specific** property page, in the **Visual Basic** folder of the **Text 
 - Suggest imports for types in reference assemblies
 - Suggest imports for types in NuGet packages
 
-   When these options are selected, a [Quick Action](../quick-actions.md) is available to install a NuGet package and add an `import` directive for unreferenced types.
+   When these options are selected, a [Quick Action](../ide/quick-actions.md) is available to install a NuGet package and add an `import` directive for unreferenced types.
 
    ![Quick Action to install NuGet package in Visual Studio](media/nuget-lightbulb.png)
 
@@ -72,7 +72,7 @@ The text editor can highlight all instances of a symbol or all keywords in a cla
 
 **Enable outlining mode**
 
-When you open a file in the code editor, you can view the document in outlining mode. See [Outlining](../../ide/outlining.md) for more information. When this option is selected, the outlining feature is activated when you open a file.
+When you open a file in the code editor, you can view the document in outlining mode. See [Outlining](../ide/outlining.md) for more information. When this option is selected, the outlining feature is activated when you open a file.
 
 **Show procedure line separators**
 
@@ -126,5 +126,5 @@ The text editor can suggest solutions to common errors and allow you to select t
 
 ## See also
 
-- [General, Environment, Options Dialog Box](../../ide/reference/general-environment-options-dialog-box.md)
-- [Options, Text Editor, All Languages, Tabs](../../ide/options-text-editor-all-languages-tabs.md)
+- [General, Environment, Options Dialog Box](../ide/reference/general-environment-options-dialog-box.md)
+- [Options, Text Editor, All Languages, Tabs](../ide/options-text-editor-all-languages-tabs.md)
