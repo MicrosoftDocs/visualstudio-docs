@@ -518,6 +518,8 @@
         href: ide/options-text-editor-csharp-intellisense.md
       - name: Configure a C++ project for IntelliSense
         href: ide/visual-cpp-intellisense-configuration.md
+      - name: Configure a Visual Basic project for IntelliSense
+        href: ide/visual-basic-specific-intellisense.md
     - name: Move around in code
       items:
       - name: Navigate your code
@@ -559,7 +561,11 @@
       - name: Customize C# language options
         items: 
         - name: Customize C# advanced text editor options
-          href: ide/options-text-editor-csharp-advanced.md      
+          href: ide/options-text-editor-csharp-advanced.md
+      - name: Customize Visual Basic language options
+        items: 
+        - name: Customize Visual Basic advanced text editor options
+          href: ide/options-text-editor-basic-visual-basic.md 
       - name: Customize C/C++ language options
         items: 
         - name: Languages > C/C++ > IntelliSense
@@ -971,15 +977,6 @@
           href: ide/reference/options-dialog-box-projects-and-solutions-build-and-run.md
         - name: VC++ Project Settings
           href: ide/reference/vcpp-project-settings-projects-and-solutions-options-dialog-box.md
-      - name: Text Editor
-        items:
-        - name: All Languages
-        - name: Visual Basic
-          items:
-          - name: Advanced
-            href: ide/reference/options-text-editor-basic-visual-basic.md
-          - name: IntelliSense
-            href: ide/visual-basic-specific-intellisense.md
       - name: Windows Forms Designer
         href: ide/reference/options-windows-forms-designer.md
   - name: Devenv command-line switches
