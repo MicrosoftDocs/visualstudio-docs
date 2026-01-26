@@ -554,24 +554,24 @@
         href: ide/options-text-editor-general.md
       - name: Customize advanced text editor options
         href: ide/options-text-editor-advanced.md 
-      - name: Customize language options
+      - name: Customize language options in the editor
+        href: ide/options-text-editor-all-languages.md 
+      - name: Customize C/C++ language options
         items: 
-        - name: Customize language options in the editor
-          href: ide/options-text-editor-all-languages.md 
-        - name: Languages > C/C++ (Advanced options)
-          href: ide/configure-c-cpp-advanced-options.md
         - name: Languages > C/C++ > IntelliSense
           href: ide/configure-languages-c-cpp-intellisense.md
         - name: Languages > C/C++ > Text editor
           href: ide/configure-languages-c-cpp-text-editor.md
-        - name: C/C++ Advanced
-          href: ide/reference/options-text-editor-c-cpp-advanced.md
+        - name: Configure C/C++ code analysis and error list  options
+          href: ide/configure-c-cpp-advanced-options.md
         - name: C++ Experimental
           href: ide/reference/options-text-editor-c-cpp-experimental.md
         - name: C/C++ Formatting
           href: ide/reference/options-text-editor-c-cpp-formatting.md
         - name: C/C++ View
-          href: ide/reference/options-text-editor-c-cpp-view.md   
+          href: ide/reference/options-text-editor-c-cpp-view.md
+        - name: C/C++ Advanced
+          href: ide/reference/options-text-editor-c-cpp-advanced.md 
     - name: Code style
       items:
       - name: Code style preferences
