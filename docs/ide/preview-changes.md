@@ -10,7 +10,7 @@ ms.subservice: general-ide
 f1_keywords:
 - vs.codefix.previewchanges
 ---
-# Preview Changes window
+# Preview code changes
 
 When using various [Quick Actions](../ide/quick-actions.md) or [Refactoring](../ide/refactoring-in-visual-studio.md) tools in Visual Studio, it is often possible to preview changes that are going to be made to your project prior to accepting them. The **Preview Changes** window is where this is done.  
 
