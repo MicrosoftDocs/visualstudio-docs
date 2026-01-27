@@ -31,6 +31,22 @@ Here's how to push to a remote in Visual Studio.
 
 1. To push to your remote, select **Push** button (the up arrow), or select **Push** from the **Git** menu.
 
+   If the local branch is behind the remote branch, git doesn't allow a normal push, and you're prompted for what to do next. You can:
+
+   1. **Pull then Push**. Use if you want to get the latest changes on the remote branch and then push your changes to the remote branch. This works well if you don't have any conflicting changes and you want to get up-to-date.
+   1. **Pull**. Updates the local branch, but doesn't push your changes. With this option, you can inspect the changes or resolve conflicts before trying to push your changes again.
+   1. (If you enable it) **Force push**. Push your changes without updating your local branch.
+
+      To enable force push, go to **Tools** > **Options** > **All Settings** > **Source Control** > **Git Settings**, and enable **Enable push --force-with-lease**. The intent of this option is to allow you to attempt a push even if changes have taken place in the remote repository, without overwriting the other changes. For more information about this option, see [this Stackoverflow question](https://stackoverflow.com/questions/52823692/git-push-force-with-lease-vs-force) and the official [git push documentation](https://git-scm.com/docs/git-push).
+
+      :::moniker range="visualstudio"
+      :::image type="content" alt-text="Git setting " source="./media/visualstudio/settings-push-force-with-lease.png":::
+      :::moniker-end
+
+      If you enable this option, the **Pull** option isn't available in the prompt. You can still pull normally as described in [git fetch, pull, push, & sync](./git-fetch-pull-sync.md).
+
+   1. **Cancel**. Nothing happens. The changes from the remote branch are not pulled, and your changes are not pushed. Your local branch is still out-of-date.
+
 ## Related content
 
 - [Create a pull request in Visual Studio](git-create-pull-request.md) or
