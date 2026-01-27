@@ -500,6 +500,8 @@
           href: ide/reference/unused-values-parameters.md
         - name: Wrap, indent, and align refactorings
           href: ide/reference/wrap-indent-align-refactorings.md
+      - name: Preview changes
+        href: ide/preview-changes.md
       - name: 'Walkthrough: Generate code from usage'
         href: ide/walkthrough-test-first-support-with-the-generate-from-usage-feature.md
     - name: IntelliSense
@@ -666,6 +668,8 @@
     - name: Use the keyboard exclusively
       displayName: accessibility
       href: ide/reference/how-to-use-the-keyboard-exclusively.md
+  - name: Developer Command Prompt & Developer PowerShell
+    href: ide/reference/command-prompt-powershell.md
   - name: Work with...
     items:
     - name: Windows Forms apps
@@ -943,6 +947,8 @@
       href: ide/configure-visual-experience-options.md
     - name: Customize fonts and colors options
       href: ide/fonts-and-colors-environment-options-dialog-box.md
+    - name: Customize C/C++ options for solutions and projects
+      href: ide/reference/vcpp-project-settings-projects-and-solutions-options-dialog-box.md
   - name: Tuning the performance of Visual Studio
     items:
     - name: Optimize performance
@@ -961,10 +967,6 @@
   - name: General user interface elements
     displayName: Windows and dialogs
     items:
-    - name: Developer Command Prompt & Developer PowerShell
-      href: ide/reference/command-prompt-powershell.md
-    - name: Preview Changes
-      href: ide/preview-changes.md
     - name: Options
       items:       
       - name: Environment
@@ -975,8 +977,6 @@
         items:
         - name: Build and Run
           href: ide/reference/options-dialog-box-projects-and-solutions-build-and-run.md
-        - name: VC++ Project Settings
-          href: ide/reference/vcpp-project-settings-projects-and-solutions-options-dialog-box.md
       - name: Windows Forms Designer
         href: ide/reference/options-windows-forms-designer.md
   - name: Devenv command-line switches
