@@ -21305,6 +21305,11 @@
       "source_path": "docs/ide/reference/fonts-and-colors-environment-options-dialog-box.md",
       "redirect_url": "/visualstudio/ide/fonts-and-colors-environment-options-dialog-box",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/options-text-editor-basic-visual-basic.md",
+      "redirect_url": "../../../ide/options-text-editor-basic-visual-basic",
+      "redirect_document_id": false
     }
   ]
 }
