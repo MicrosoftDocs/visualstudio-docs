@@ -14,6 +14,7 @@ f1_keywords:
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
+recommendations: false
 ---
 # Update Visual Studio
 
