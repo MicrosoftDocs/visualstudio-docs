@@ -1,13 +1,13 @@
 ---
 title: How do I purchase Visual Studio subscriptions? 
 description: Learn about the various ways to purchase Visual Studio subscriptions
-comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Jose Becerra and Larissa Crawford of Red Door Collaborative and Angela Cao-Hong.
+comment:  As of August 2023 this include is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Jose Becerra and Larissa Crawford of Red Door Collaborative and Aaron Mast.
 ms.faqid: q4_1
 ms.topic: include
 ms.assetid: 5b27454c-f036-4f4d-9d67-54d1fc775f72
 author: joseb-rdc
 ms.author: amast
-ms.date: 09/30/2024
+ms.date: 01/30/2026
 ---
 
 ## How do I purchase Visual Studio subscriptions?
@@ -26,6 +26,8 @@ Retail Visual Studio subscriptions available through the Microsoft Store include
 Each of these subscriptions offers the option to make an initial purchase or to renew an existing subscription. Renewal pricing reflects a significant discount and is only available for existing subscriptions. To qualify to renew subscriptions at the discounted renewal price, subscriptions should be renewed before they expire. 
 
 If you want to make a one-time purchase of Visual Studio without a subscription or any of the benefits that are included with a subscription, visit the Microsoft Store for [Visual Studio Professional 2022](https://www.microsoft.com/d/visual-studio-professional-2022/dg7gmgf0d3sj?activetab=pivot:overviewtab). 
+
+Microsoft Store support is available by phone through the [Customer service phone numbers – Microsoft Support](https://support.microsoft.com/topic/customer-service-phone-numbers-c0389ade-5640-e588-8b0e-28de8afeb3f2) page or by chat using the [Store Assistant](https://www.microsoft.com/store/b/sale) on the Microsoft Store website.
 
 ### Visual Studio Marketplace 
 With monthly subscriptions, you can rent Visual Studio and Azure DevOps without a long-term contract. Billing is handled through your Microsoft Azure subscription. If you don’t have an Azure subscription yet—it’s free to set up and you can do so while you make your first purchase.  
