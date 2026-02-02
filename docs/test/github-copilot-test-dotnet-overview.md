@@ -1,7 +1,7 @@
 ---
 title: Overview of GitHub Copilot testing for .NET
 description: Learn about GitHub Copilot testing for .NET in Visual Studio.
-ms.date: 11/10/2025
+ms.date: 02/02/2026
 ms.update-cycle: 90-days
 ms.topic: how-to
 dev_langs:
@@ -25,14 +25,12 @@ Unlike short-lived Copilot suggestions, GitHub Copilot testing for .NET provides
 
 ## Prerequisites
 
-+ Visual Studio 2026 Insiders build
++ Visual Studio 2026 version 18.3 or later
 + C# project
-+ [Sign in to Visual Studio using a GitHub account](../ide/work-with-github-accounts.md) with [Copilot access](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot)
++ [Sign in to Visual Studio using a GitHub account](../ide/work-with-github-accounts.md) with a paid [Copilot subscription](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot)
 
-  GitHub Copilot testing works with any active GitHub Copilot subscription, including individual and enterprise plans. While some features may be available with a free Copilot license, usage limits and token throttling may apply, especially for larger solutions or extended sessions. These limits are enforced by GitHub and may impact performance or availability.
-
->[!TIP]
-> For the best experience, we suggest using a paid Copilot subscription to avoid potential throttling and ensure consistent access.
+> [!NOTE]
+> GitHub Copilot testing for .NET requires a paid GitHub Copilot subscription (individual, business, or enterprise). Free Copilot subscriptions are not supported.
 
 ## What GitHub Copilot testing can do
 
@@ -59,7 +57,7 @@ GitHub Copilot testing for .NET offers a comprehensive experience compared to th
 
 - **Automated test generation:** Create tests for single files, multiple files in a single project, or entire solutions.
 - **Command-based interaction:** Use supported commands and parameters (listed in the `/help` message within GitHub Copilot testing).
-- **Structured prompts:** Free-form prompts aren't supported at this time, ensuring predictable and reliable output.
+- **Flexible prompts:** Use structured `@Test #<target>` syntax or freeform natural language prompts to describe what you want to test.
 
 ## Security warning
 
@@ -68,16 +66,6 @@ When you first run GitHub Copilot testing for .NET, Copilot requests your consen
 > [!CAUTION]
 > Your consent grants Copilot the ability to silently invoke arbitrary commands within your Visual Studio session. Microsoft can't guarantee the safety of these commands. You should only enable this switch inside a sandboxed environment, and you should take steps to limit the privileges available to that environment. For example, the sandboxed environment shouldn't use a cloud-connected account to log into Windows, and the sandboxed environment shouldn't be logged into Visual Studio using a privileged GitHub account that has read access to non-public repositories or write access to production repositories.
 
-## Troubleshooting
-
-If you don’t see the @test command in Copilot Chat, try the following steps:
-
-1. Verify your Visual Studio build. Make sure you are running the latest Visual Studio Insiders build, because this capability is currently available only in Insiders.
-1. Toggle the setting in **Tools > Options > GitHub Copilot**. When you disable and then re-enable the GitHub Copilot testing setting, this refreshes the integration.
-
-   ![Screenshot of testing setting in Options.](media/visualstudio/test-agent-settings.png)
-
-If the @test command does not appear in Chat, and the issue persists after toggling, please report the issue using **Help > Send Feedback** in Visual Studio.
 
 ## Next steps
 
