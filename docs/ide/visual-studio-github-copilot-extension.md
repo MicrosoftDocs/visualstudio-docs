@@ -119,6 +119,39 @@ Customize your completion experience by using settings:
 
 :::moniker-end
 
+## Colorized code completions
+
+Code completions from GitHub Copilot or IntelliCode now display with syntax highlighting, making it easier to parse suggested code at a glance. Variables, functions, keywords, strings, and other code elements appear in distinct colors, just like your actual code.
+
+To differentiate suggestions from your actual code, colorized completions use:
+
+- **Lower opacity**: Suggestions appear slightly faded compared to your code.
+- **Italic styling**: Suggestion text is italicized.
+
+For example, when you type a method signature, Copilot might suggest a complete implementation with colorized syntax:
+
+```csharp
+public string FormatUserMessage(string userName, int messageCount)
+{
+    var greeting = $"Hello, {userName}!";
+    return greeting + " You have " + messageCount.ToString() + " new messages.";
+}
+```
+
+In this suggestion, keywords like `public`, `string`, and `return` appear in one color, while string literals, variables, and method calls each display in their own distinct colors.
+
+### Supported languages
+
+Currently, colorized completions are available for C#. Support for more languages is planned. Share your feedback on which languages you'd like to see next by using **Help** > **Send Feedback** in Visual Studio.
+
+### Disable colorized completions
+
+If you prefer the original single-color appearance for code completions, you can disable colorization:
+
+1. Go to **Tools** > **Options**.
+2. Expand **Text Editor** > **Code Completions**.
+3. Clear the **Use colorized text for code completions** checkbox.
+
 ## Content exclusion
 
 With Visual Studio 2022 version 17.11, [content exclusion is available for GitHub Copilot Completions](visual-studio-github-copilot-admin.md#github-copilot-completions-in-visual-studio-and-content-exclusions). Completions and suggestions aren't available for content that your admin excludes. To learn more, see [Excluding content from GitHub Copilot](https://docs.github.com/copilot/managing-github-copilot-in-your-organization/configuring-content-exclusions-for-github-copilot?tool=visualstudio).
