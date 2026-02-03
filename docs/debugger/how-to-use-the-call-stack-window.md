@@ -53,11 +53,11 @@ While debugging, in the **Debug** menu, select **Windows > Call Stack** or press
 You can also view exception stack frames in the call stack while debugging. For more information, see [View the call stack in the Exception helper](../debugger/exception-helper.md#view-the-call-stack).
 ::: moniker-end
 
+::: moniker range="visualstudio"
+
 ## Analyze call stack with Copilot
 
-::: moniker range=">= vs-2022"
-
-Starting in Visual Studio 2022 version 17.14, you can use the **Analyze Call Stack** button to get AI-powered analysis of your current debug state.
+You can use the **Analyze Call Stack** button to get AI-powered analysis of your current debug state.
 
 The Analyze Call Stack feature helps answer the question: *What is my thread or app doing right now?* With one click, the **Analyze Call Stack** button sends the current debug state to Copilot, opening the Chat window with an app state analysis—no need to manually describe your debug context.
 
