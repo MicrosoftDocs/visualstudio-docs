@@ -47,11 +47,9 @@ For an introduction to unit testing, see [Unit test basics](../test/unit-test-ba
 
 You can start GitHub Copilot testing for .NET in several ways:
 
-| Method | How to access |
-|--------|---------------|
-| **Copilot Chat** | Type `@Test` followed by a target or prompt in the Chat window |
-| **Context menu** | Right-click in the editor > **Copilot Actions** > **Generate Tests** |
-| **Icebreaker** | Select **Write unit tests** from the Copilot Chat icebreaker suggestions |
+- From Copilot Chat, type `@Test` followed by a target or prompt in the Chat window.
+- From the editor, right-click to open the context menu and select **Copilot Actions** > **Generate Tests**.
+- In a new Copilot Chat thread, select **Write unit tests** from the Copilot Chat icebreaker suggestions.
 
 > [!NOTE]
 > The context menu and icebreaker options route to the `@Test` agent automatically when your IDE focus is on C# code. For non-C# projects, these options use a generic Copilot prompt instead.
@@ -60,7 +58,7 @@ You can start GitHub Copilot testing for .NET in several ways:
 
 GitHub Copilot testing supports two prompting methods: structured syntax and freeform prompts.
 
-### Structured syntax: @Test #\<target\>
+### Structured syntax
 
 Use the `@Test #<target>` syntax to generate tests for specific code elements:
 
@@ -83,7 +81,7 @@ Where `#<target>` can be:
 - `@Test #git_changes` — Generate tests for your current uncommitted changes
 - `@Test #MyProject` — Generate tests for all code in MyProject
 
-### Freeform prompts: @Test \<your prompt\>
+### Freeform prompts
 
 Use natural language to describe what you want to test:
 
