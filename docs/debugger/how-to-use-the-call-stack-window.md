@@ -1,7 +1,7 @@
 ---
 title: View the call stack in the debugger
 description: Use the Call Stack window in the Visual Studio integrated development environment (IDE) to view the function or procedure calls that are currently on the stack.
-ms.date: 02/28/2025
+ms.date: 02/03/2026
 ms.topic: how-to
 f1_keywords: 
   - vs.debug.callstack
@@ -51,6 +51,26 @@ While debugging, in the **Debug** menu, select **Windows > Call Stack** or press
 
 ::: moniker range=">= vs-2022"
 You can also view exception stack frames in the call stack while debugging. For more information, see [View the call stack in the Exception helper](../debugger/exception-helper.md#view-the-call-stack).
+::: moniker-end
+
+## Analyze call stack with Copilot
+
+::: moniker range=">= vs-2022"
+
+Starting in Visual Studio 2022 version 17.14, you can use the **Analyze Call Stack** button to get AI-powered analysis of your current debug state.
+
+The Analyze Call Stack feature helps answer the question: *What is my thread or app doing right now?* With one click, the **Analyze Call Stack** button sends the current debug state to Copilot, opening the Chat window with an app state analysis—no need to manually describe your debug context.
+
+Copilot understands both synchronous and asynchronous call stacks and annotates relevant frames. Whether your app is waiting on an async task or has broken during async execution, you can select an annotated frame to get a clear explanation of:
+
+- Why execution is paused
+- What the thread is waiting on
+- How the execution got to the current point
+
+This turns the call stack from a static list of frames into an interactive debugging experience. Instead of manually reconstructing async flows, Copilot helps you quickly understand runtime behavior and get back to fixing the real problem.
+
+For more information on debugging with Copilot, see [Debug your app with GitHub Copilot](debug-with-copilot.md).
+
 ::: moniker-end
 
 ## Display non-user code in the Call Stack window
