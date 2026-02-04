@@ -47,15 +47,16 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 - [Set debug and release configurations in Visual Studio](../debugger/how-to-set-debug-and-release-configurations.md) - Update article on setting debug and release configurations
 - [C/C++ Assertions](../debugger/c-cpp-assertions.md) - Fix code in article on navigating code in the debugger
-- [Debug using the Just-In-Time Debugger in Visual Studio](../debugger/debug-using-the-just-in-time-debugger.md) - Refactor debugger UI ref articles
-- [Specify debugger options](../debugger/how-to-specify-debugger-settings.md) - Refactor debugger UI reference articles
-- [Specify debug source files](../debugger/debug-source-files-common-properties-solution-property-pages-dialog-box.md) - Refactor debugger UI ref articles
-- [Stop debugging in progress](../debugger/stop-debugging-in-progress-dialog-box.md) - Refactor debugger UI reference articles
-- [View strings in a string visualizer in Visual Studio](../debugger/view-strings-visualizer.md) - Refactor debugger UI reference articles
-- [Configure Windows Firewall for remote debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md) - Refactor debugger UI reference
-- [Edit and Continue (C++)](../debugger/edit-and-continue-visual-cpp.md) - Refactor debugger UI reference
-- [FAQ - Debugger feature finder](../debugger/find-your-debugging-task.yml) - Refactor debugger UI reference
-- [Tabular visualizers in Visual Studio](../debugger/view-data-in-tabular-visualizer.md) - Refactor debugger UI reference
+- Refactor debugger UI reference articles
+  - [Debug using the Just-In-Time Debugger in Visual Studio](../debugger/debug-using-the-just-in-time-debugger.md)
+  - [Specify debugger options](../debugger/how-to-specify-debugger-settings.md)
+  - [Specify debug source files](../debugger/debug-source-files-common-properties-solution-property-pages-dialog-box.md)
+  - [Stop debugging in progress](../debugger/stop-debugging-in-progress-dialog-box.md)
+  - [View strings in a string visualizer in Visual Studio](../debugger/view-strings-visualizer.md)
+  - [Configure Windows Firewall for remote debugging](../debugger/configure-the-windows-firewall-for-remote-debugging.md)
+  - [Edit and Continue (C++)](../debugger/edit-and-continue-visual-cpp.md)
+  - [FAQ - Debugger feature finder](../debugger/find-your-debugging-task.yml)
+  - [Tabular visualizers in Visual Studio](../debugger/view-data-in-tabular-visualizer.md)
 - [IDiaSymbol12::get_atomicType](../debugger/debug-interface-access/idiasymbol12-get-atomictype.md) - Add Copilot profiling info for .NET Counters
 - [Inspect an exception using the Exception Helper](../debugger/exception-helper.md) - Update Exception Helper article for Copilot
 - [Debugging techniques and tools to help you write better code](../debugger/write-better-code-with-visual-studio.md) - Update debugging techniques and tools
@@ -82,17 +83,19 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- [Configure Visual Basic text editor options](../ide/options-text-editor-basic-visual-basic.md) - Refactor UI reference for text editor
-- [Configure C# text editor advanced options](../ide/options-text-editor-csharp-advanced.md) - Refactor UI reference for text editor
+- Refactor UI reference for text editor
+  - [Configure Visual Basic text editor options](../ide/options-text-editor-basic-visual-basic.md)
+  - [Configure C# text editor advanced options](../ide/options-text-editor-csharp-advanced.md)
 - [Configure C/C++ code analysis and error list options](../ide/configure-c-cpp-advanced-options.md)
   - TOC updates for text editor options
   - Review and update
-- [Customize environment options for fonts and colors](../ide/fonts-and-colors-environment-options-dialog-box.md) - Refactor IDE UI reference articles
-- [Customize general environment options](../ide/general-environment-options-dialog-box.md) - Refactor IDE UI reference articles
-- [Configure environment options for an account](../ide/accounts-environment-options-dialog-box.md) - Refactoring IDE UI reference articles
-- [Find and replace text in Visual Studio](../ide/finding-and-replacing-text.md) - Refactoring IDE UI reference articles
-- [Customize general text editor options](../ide/options-text-editor-general.md) - Refactoring IDE UI reference articles
-- [Options dialog box: Environment \> Extensions](../ide/reference/extensions-and-updates-environment-options-dialog-box.md) - Refactoring IDE UI reference articles
+- Refactor IDE UI reference articles
+  - [Customize environment options for fonts and colors](../ide/fonts-and-colors-environment-options-dialog-box.md)
+  - [Customize general environment options](../ide/general-environment-options-dialog-box.md)
+  - [Configure environment options for an account](../ide/accounts-environment-options-dialog-box.md)
+  - [Find and replace text in Visual Studio](../ide/finding-and-replacing-text.md)
+  - [Customize general text editor options](../ide/options-text-editor-general.md)
+  - [Options dialog box: Environment \> Extensions](../ide/reference/extensions-and-updates-environment-options-dialog-box.md)
 - [View problem details for C/C++](../ide/reference/problem-details-window.md) - Refactor debugger UI ref articles
 - [Visual C++ IntelliSense features](../ide/visual-cpp-intellisense.md) - Review and update
 - [Code style preferences and code cleanup](../ide/code-styles-and-code-cleanup.md) - Review and update
