@@ -3,6 +3,7 @@ title: View the call stack in the debugger
 description: Use the Call Stack window in the Visual Studio integrated development environment (IDE) to view the function or procedure calls that are currently on the stack.
 ms.date: 02/03/2026
 ms.topic: how-to
+ms.custom: awp-ai
 f1_keywords: 
   - vs.debug.callstack
 dev_langs: 

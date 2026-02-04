@@ -4,6 +4,7 @@ description: Use Copilot to help debug your apps and provide performance insight
 ms.date: 02/03/2026
 ms.update-cycle: 90-days
 ms.topic: how-to
+ms.custom: awp-ai
 dev_langs: 
   - CSharp
   - VB
