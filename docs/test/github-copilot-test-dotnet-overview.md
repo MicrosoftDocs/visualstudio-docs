@@ -4,6 +4,7 @@ description: Learn about GitHub Copilot testing for .NET in Visual Studio.
 ms.date: 02/02/2026
 ms.update-cycle: 90-days
 ms.topic: how-to
+ms.custom: awp-ai
 dev_langs:
   - CSharp
 helpviewer_keywords:
