@@ -45,6 +45,50 @@ When you enable this capability, GitHub Copilot testing interacts with your solu
 >[!IMPORTANT]
 > Copilot testing does not modify production code outside of the test generation process. All changes occur within your local development environment, and you retain full control to review, accept, or discard suggestions.
 
+## Actions taken by the @Test agent
+
+The `@Test` agent performs various actions during test generation. Understanding these actions helps you know what to expect when using the tool.
+
+### Build and test operations
+
+The agent uses Visual Studio APIs (not command-line tools like `dotnet restore` or `dotnet test`) to perform the following operations:
+
+- **Restore and build**: Restores packages and builds projects based on scope (from a single project up to the entire solution).
+- **Run tests**: Primarily runs only the generated tests. However, to compute initial and resulting code coverage (and for coverage optimization mode), the agent runs all tests within the given scope.
+- **Process git diff**: When using diff mode (`#git_changes`), the agent analyzes your uncommitted changes to generate targeted tests.
+
+### Package installation
+
+The agent installs NuGet packages as needed:
+
+- Test framework packages (MSTest, NUnit, or xUnit)
+- Mock framework packages if not already present
+- Coverage and TRX extensions for Microsoft Test Platform (MTP) if not present
+
+### LLM operations
+
+The agent makes LLM calls for:
+
+- Freeform prompt analysis
+- Summary processing
+- Test generation
+
+### Project and file modifications
+
+The agent creates a test project if one doesn't exist for the target code.
+
+The agent uses a custom file system with the following guarantees:
+
+- **Scope**: The agent never reads or writes files outside the repository root (except for logs).
+- **Read-only preference**: Whenever possible, the agent uses a read-only file system that prevents write actions.
+
+The agent can write to the following files:
+
+- Test project files
+- Source project files (for example, adding `InternalsVisibleTo` attributes)
+- Solution files (indirectly through Visual Studio APIs, such as when adding a project)
+- Test source files
+
 ## Why use GitHub Copilot testing for .NET?
 
 GitHub Copilot testing for .NET offers a comprehensive experience compared to the more basic Copilot capabilities related to the generation of tests (such as the `/tests` command). The unit testing capability in GitHub Copilot for .NET provides the following:
@@ -66,7 +110,6 @@ When you first run GitHub Copilot testing for .NET, Copilot requests your consen
 
 > [!CAUTION]
 > Your consent grants Copilot the ability to silently invoke arbitrary commands within your Visual Studio session. Microsoft can't guarantee the safety of these commands. You should only enable this switch inside a sandboxed environment, and you should take steps to limit the privileges available to that environment. For example, the sandboxed environment shouldn't use a cloud-connected account to log into Windows, and the sandboxed environment shouldn't be logged into Visual Studio using a privileged GitHub account that has read access to non-public repositories or write access to production repositories.
-
 
 ## Next steps
 
