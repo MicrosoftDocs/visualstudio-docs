@@ -119,7 +119,7 @@ For additional settings and options, see the **Inline Suggestions** settings pag
 
 To customize the appearance of completions, go to **Tools** > **Options** > **Environment** > **Font and Colors**, and  then select **Code Completions** from the **Display items** list, and adjust the font type, size, foreground/background color, and style.
 
-#### Colorized completions
+#### Colorized code completions
 
 Code completions display with syntax highlighting, making it easier to parse suggested code at a glance. Variables, functions, keywords, strings, and other code elements appear in distinct colors, just like your actual code.
 
