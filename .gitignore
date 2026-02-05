@@ -371,6 +371,7 @@ settings.json
 .github/prompts/
 .github/skills/
 .vscode/settings.json
+.vscode/mcp.json
 .dockit/
 .env
 .env.example
