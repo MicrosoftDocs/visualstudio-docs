@@ -119,6 +119,14 @@ For additional settings and options, see the **Inline Suggestions** settings pag
 
 To customize the appearance of completions, go to **Tools** > **Options** > **Environment** > **Font and Colors**, and  then select **Code Completions** from the **Display items** list, and adjust the font type, size, foreground/background color, and style.
 
+#### Colorized completions
+
+Code completions display with syntax highlighting, making it easier to parse suggested code at a glance. Variables, functions, keywords, strings, and other code elements appear in distinct colors, just like your actual code.
+
+:::image type="content" source="media/visualstudio/visual-studio-github-copilot-extension/colorized-completions.png" alt-text="Screenshot showing colorized code completions with syntax highlighting, displaying different colors for keywords, types, variables, and strings.":::
+
+To differentiate suggestions from your actual code, colorized completions appear with lower opacity and italic styling.
+
 :::moniker-end
 :::moniker range="vs-2022"
 
@@ -133,17 +141,6 @@ To customize the appearance of completions, go to **Tools** > **Options** > **En
 - **Disable colorized completions** - If you prefer the original single-color appearance, go to **Tools** > **Options** > **Text Editor** > **Code Completions**, and clear the **Use colorized text for code completions** checkbox.
 
 :::moniker-end
-
-## Colorized code completions
-
-Code completions from GitHub Copilot or IntelliCode now display with syntax highlighting, making it easier to parse suggested code at a glance. Variables, functions, keywords, strings, and other code elements appear in distinct colors, just like your actual code.
-
-:::image type="content" source="media/visualstudio/visual-studio-github-copilot-extension/colorized-completions.png" alt-text="Screenshot showing colorized code completions with syntax highlighting, displaying different colors for keywords, types, variables, and strings.":::
-
-To differentiate suggestions from your actual code, colorized completions use:
-
-- **Lower opacity**: Suggestions appear slightly faded compared to your code.
-- **Italic styling**: Suggestion text is italicized.
 
 ## Content exclusion
 
