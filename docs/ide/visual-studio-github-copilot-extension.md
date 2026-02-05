@@ -127,6 +127,8 @@ Code completions display with syntax highlighting, making it easier to parse sug
 
 To differentiate suggestions from your actual code, colorized completions appear with lower opacity and italic styling.
 
+To disable colorization and use the original single-color appearance, go to **Tools** > **Options** > **Text Editor** > **Code Completions**, and clear the **Use colorized text for code completions** checkbox.
+
 :::moniker-end
 :::moniker range="vs-2022"
 
@@ -137,8 +139,6 @@ To differentiate suggestions from your actual code, colorized completions appear
 - **Adjust completion timing** - If completions appear too quickly and interrupt your typing, go to **Tools** > **Options** > **IntelliCode** > **Advanced**, and select **Wait for pauses in typing before showing whole line completions**. This adds a debounce delay, so completions don't flash and disappear while you type.
 
 - **Disable automatic completions** - By default, each keystroke triggers completions. To disable this, go to **Tools** > **Options** > **IntelliCode** > **General**, and uncheck **Automatically generate code completions in the Editor**.  You can then manually trigger completions with **Alt**+**,**.
-
-- **Disable colorized completions** - If you prefer the original single-color appearance, go to **Tools** > **Options** > **Text Editor** > **Code Completions**, and clear the **Use colorized text for code completions** checkbox.
 
 :::moniker-end
 
