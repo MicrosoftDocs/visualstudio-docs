@@ -35,8 +35,6 @@ With a subscription to GitHub Copilot, you can get answers to questions and cons
 
 In version 17.9 and later, try out [AI-generated commit messages](../version-control/git-make-commit.md#generate-commit-messages-with-github-copilot-chat).
 
-**New in 18.3**: Code completions from GitHub Copilot and IntelliCode now display with [colorized syntax highlighting](visual-studio-github-copilot-extension.md#colorized-code-completions), making it easier to parse suggested code. Variables, functions, keywords, and strings appear in distinct colors. Currently available for C#.
-
 ## Performance improvements
 
 Visual Studio 2022 is faster, more approachable, more lightweight, and is designed for both learners and those building industrial scale solutions. Plus, we continue to focus on performance with each iterative release. To learn more, see the [Visual Studio 2022 – 17.5 Performance Enhancements](https://devblogs.microsoft.com/visualstudio/visual-studio-2022-17-5-performance-enhancements/) blog post.
