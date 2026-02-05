@@ -130,40 +130,20 @@ To customize the appearance of completions, go to **Tools** > **Options** > **En
 
 - **Disable automatic completions** - By default, each keystroke triggers completions. To disable this, go to **Tools** > **Options** > **IntelliCode** > **General**, and uncheck **Automatically generate code completions in the Editor**.  You can then manually trigger completions with **Alt**+**,**.
 
+- **Disable colorized completions** - If you prefer the original single-color appearance, go to **Tools** > **Options** > **Text Editor** > **Code Completions**, and clear the **Use colorized text for code completions** checkbox.
+
 :::moniker-end
 
 ## Colorized code completions
 
 Code completions from GitHub Copilot or IntelliCode now display with syntax highlighting, making it easier to parse suggested code at a glance. Variables, functions, keywords, strings, and other code elements appear in distinct colors, just like your actual code.
 
+:::image type="content" source="media/visualstudio/visual-studio-github-copilot-extension/colorized-completions.png" alt-text="Screenshot showing colorized code completions with syntax highlighting, displaying different colors for keywords, types, variables, and strings.":::
+
 To differentiate suggestions from your actual code, colorized completions use:
 
 - **Lower opacity**: Suggestions appear slightly faded compared to your code.
 - **Italic styling**: Suggestion text is italicized.
-
-For example, when you type a method signature, Copilot might suggest a complete implementation with colorized syntax:
-
-```csharp
-public string FormatUserMessage(string userName, int messageCount)
-{
-    var greeting = $"Hello, {userName}!";
-    return greeting + " You have " + messageCount.ToString() + " new messages.";
-}
-```
-
-In this suggestion, keywords like `public`, `string`, and `return` appear in one color, while string literals, variables, and method calls each display in their own distinct colors.
-
-### Supported languages
-
-Currently, colorized completions are available for C#. Support for more languages is planned. Share your feedback on which languages you'd like to see next by using **Help** > **Send Feedback** in Visual Studio.
-
-### Disable colorized completions
-
-If you prefer the original single-color appearance for code completions, you can disable colorization:
-
-1. Go to **Tools** > **Options**.
-2. Expand **Text Editor** > **Code Completions**.
-3. Clear the **Use colorized text for code completions** checkbox.
 
 ## Content exclusion
 
