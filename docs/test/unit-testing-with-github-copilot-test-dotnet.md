@@ -20,7 +20,7 @@ monikerRange: '>= visualstudio'
 
 # Generate and run unit tests using GitHub Copilot testing for .NET
 
-Make sure that your code is working as expected by creating and running unit tests using GitHub Copilot testing for .NET.
+Boost confidence in your code quality and improve your test coverage by creating and running unit tests using GitHub Copilot testing for .NET.
 
 Although Copilot can generate unit tests, you get extra testing capability by using GitHub Copilot testing for .NET in Visual Studio, including the following:
 
@@ -96,7 +96,7 @@ Use natural language to describe what you want to test:
 |--------|-------------|
 | `@Test class Foo` | Generate tests for a specific class |
 | `@Test generate tests for the core logic in my #solution` | Target specific areas of your codebase |
-| `@Test write unit tests for my current changes` | Test uncommitted git changes |
+| `@Test write unit tests for my current changes` | Generate tests for uncommitted git changes |
 | `@Test fix my failing tests` | Ask Copilot to fix failing tests |
 | `@Test class Bar, targeting 80% code coverage` | Specify a coverage target |
 | `@Test use xUnit with FluentAssertions` | Specify testing frameworks and conventions |
