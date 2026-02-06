@@ -31,23 +31,27 @@ The Profiler Agent can perform all of the following tasks.
 - Analyze CPU usage, memory allocations, and runtime behavior.
 - Surface performance bottlenecks.
 - Generate [BenchmarkDotNet Benchmarks](https://benchmarkdotnet.org/articles/features/vsprofiler.html) or optimize existing BenchmarkDotNet benchmarks.
+- (ASP.NET) Analyze [.NET Counters](../profiling/dotnet-counters-tool.md).
+- Apply suggested optimizations.
+- Validate improvements in a guided loop.
+
 ::: moniker range="visualstudio"
 - Discover and use unit tests that exercise performance-critical code paths.
 - Create lightweight measurement artifacts when no tests or benchmarks exist.
 ::: moniker-end
-- (ASP.NET) Analyze [.NET Counters](../profiling/dotnet-counters-tool.md).
-- Apply suggested optimizations.
-- Validate improvements in a guided loop.
 
 The Profiler Agent is especially helpful when:
 
 - You're unfamiliar with profiling.
 - You’re unsure where to start with performance tuning.
 - You want to validate optimizations with real benchmarks.
-- You’re working on high-performance apps like games, services, or client tools.::: moniker range="visualstudio"
+- You’re working on high-performance apps like games, services, or client tools.
+
+::: moniker range="visualstudio"
 - You're working with C++ projects where benchmarks aren't practical.
 - You want to leverage existing unit tests for performance validation.
 ::: moniker-end
+
 For information about other profiling features in Copilot, see [AI-enhanced scenarios](../profiling/profiling-feature-tour.md#ai-enhanced-scenarios). For general information about Copilot agents and agent mode, see [Use Copilot agent mode](../ide/copilot-agent-mode.md).
 
 ## Prerequisites
@@ -223,6 +227,8 @@ If a chat with Copilot approaches its token cap, you are prompted with the optio
 
 If you select this option, the agent automatically generates a concise, context-rich summary of the current chat thread and carries it forward into a fresh conversation. This allows you to avoid retracing any steps.
 
+
+
 ::: moniker range="visualstudio"
 
 ## Profile using unit tests
@@ -268,4 +274,5 @@ To profile a C++ application:
    The Profiler Agent discovers and uses your existing unit tests to collect performance data. Working alongside GitHub Copilot, the agent analyzes performance data, surfaces bottlenecks, suggests targeted optimizations, and validates improvements in a guided loop.
 
 ::: moniker-end
+
 
