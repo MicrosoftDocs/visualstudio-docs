@@ -125,7 +125,9 @@ GitHub Copilot testing provides commands for help and managing preferences:
 
 1. In Visual Studio, select **View > GitHub Copilot Chat**.
 
-1. Use any of the prompting methods to start GitHub Copilot testing:
+1. Use any of the prompting methods to start GitHub Copilot testing.
+
+   For the Bank sample application, use one of the following:
 
    - Structured: `@Test #BankAccount`
    - Freeform: `@Test generate comprehensive tests for the BankAccount class`
