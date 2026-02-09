@@ -1,7 +1,7 @@
 ---
 title: Copilot Completions
 description: Get code suggestions and completions from GitHub Copilot in Visual Studio.
-ms.date: 2/4/2026
+ms.date: 2/9/2026
 ms.update-cycle: 180-days
 ms.topic: overview
 author: anandmeg
@@ -11,6 +11,7 @@ ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
 monikerRange: '>= vs-2022'
 ai-usage: ai-assisted
+ms.custom: awp
 ---
 # Get started with GitHub Copilot completions
 
@@ -116,10 +117,6 @@ Customize your inline suggestions experience with these settings:
 For additional settings and options, see the **Inline Suggestions** settings page.
 
 ### Customize appearance
-
-To customize the appearance of completions, go to **Tools** > **Options** > **Environment** > **Font and Colors**, and  then select **Code Completions** from the **Display items** list, and adjust the font type, size, foreground/background color, and style.
-
-#### Colorized code completions
 
 Code completions display with syntax highlighting, making it easier to parse suggested code at a glance. Variables, functions, keywords, strings, and other code elements appear in distinct colors, just like your actual code.
 
