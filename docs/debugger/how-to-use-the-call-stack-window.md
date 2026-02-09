@@ -58,9 +58,9 @@ You can also view exception stack frames in the call stack while debugging. For 
 
 ## Analyze call stack with Copilot
 
-You can use the **Analyze Call Stack** button to get AI-powered analysis of your current debug state.
+You can use the **Analyze Call Stack** button to get AI-powered analysis of your current debug state. This feature helps answer the question: *What is my thread or app doing right now?* With one click, the **Analyze Call Stack** button sends the current debug state to Copilot, opening the Chat window with an app state analysis—no need to manually describe your debug context.
 
-The Analyze Call Stack feature helps answer the question: *What is my thread or app doing right now?* With one click, the **Analyze Call Stack** button sends the current debug state to Copilot, opening the Chat window with an app state analysis—no need to manually describe your debug context.
+To analyze the call stack, right-click on a frame in the Call Stack window, and select **Analyze Call Stack**.
 
 Copilot understands both synchronous and asynchronous call stacks and annotates relevant frames. Whether your app is waiting on an async task or has broken during async execution, you can select an annotated frame to get a clear explanation of:
 
