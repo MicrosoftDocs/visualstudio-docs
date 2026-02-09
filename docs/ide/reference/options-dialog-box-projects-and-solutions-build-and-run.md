@@ -1,76 +1,129 @@
 ---
-title: Options dialog, Projects and Solutions, Build and Run
-description: Specify the maximum number of C++ or C# projects that can build at the same time, certain default build behaviors, and some build log settings in Visual Studio.
-ms.date: 12/11/2025
+title: Configure build and run options in Visual Studio
+description: Learn how to configure parallel builds, build verbosity, startup project behavior, and other build and run settings in Visual Studio.
+ms.date: 02/09/2026
 ms.subservice: compile-build
-ms.topic: reference
+ms.topic: how-to
 f1_keywords:
   - "VS.ToolsOptionsPages.Projects.Build_and_Run"
 helpviewer_keywords:
   - "builds [Visual Studio], setting up"
   - "run actions"
   - "debugger, run options"
-ms.custom: "ide-ref"
+  - "parallel builds"
+  - "build verbosity"
 author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ---
-# Options dialog box: Projects and Solutions \> Build and Run
+# Configure build and run options in Visual Studio
+
+This article shows you how to configure build and run settings in Visual Studio to optimize your build workflow, control build behavior when debugging, and set appropriate verbosity levels for build output.
+
+## Prerequisites
+
+- Visual Studio installed. If you don't have it, see [Install Visual Studio](../../install/install-visual-studio.md).
+- A solution with one or more projects (required to see the effects of these settings).
+
+## Open the Build and Run options
 
 :::moniker range="visualstudio"
 
-Use this section of the **Options** pane to specify the maximum number of C++ or C# projects that can build at the same time, certain default build behaviors, and some build log settings. You can access these options by selecting **Tools** > **Options** and expanding the **All Settings** > **Projects and Solutions** > **Build and Run** section.
+1. Select **Tools** > **Options** from the menu bar.
+1. Expand **All Settings** > **Projects and Solutions**.
+1. Select **Build and Run** to open the settings pane.
 
 :::moniker-end
 :::moniker range="<=vs-2022"
 
-Use this page of the **Options** dialog to specify the maximum number of C++ or C# projects that can build at the same time, certain default build behaviors, and some build log settings. You can access these options by selecting **Tools** > **Options** and expanding the **Projects and Solutions** > **Build and Run** section.
+1. Select **Tools** > **Options** from the menu bar.
+1. Expand **Projects and Solutions**.
+1. Select **Build and Run** to open the settings page.
 
 :::moniker-end
 
-## Build and Run options
+## Configure parallel build settings
 
-The **Build and Run** section provides the following options for configuring project behavior.
+You can control how many C++ and C# projects build simultaneously to optimize build performance.
 
-**Maximum number of parallel project builds**
+1. Open the **Build and Run** options as described in the previous section.
+1. Locate **Maximum number of parallel project builds**.
+1. Set the value to the desired number of concurrent builds.
 
-Specifies the maximum number of C++ and C# projects that can build at the same time. To optimize the build process, the maximum number of parallel project builds is automatically set to the number of CPUs of your computer. The maximum is 32.
+   By default, this value matches the number of CPUs on your computer. The maximum allowed value is 32. Increase this value if you have a powerful machine with many cores, or decrease it if you want to reserve CPU resources for other tasks during builds.
 
-**Only build startup projects and dependencies on Run**
+## Control startup project build behavior
 
-Builds only the startup project and its dependencies when you use the **F5** key, the **Debug** > **Start Debugging** menu command, or applicable commands on the **Build** menu. If unchecked, all projects and dependencies are built.
+You can configure whether Visual Studio builds all projects or only the startup project when you run or debug.
 
-**On Run, when projects are out of date**
+1. Open the **Build and Run** options.
+1. To build only the startup project and its dependencies when you press **F5** or select **Debug** > **Start Debugging**, select the **Only build startup projects and dependencies on Run** checkbox.
+1. To build all projects in the solution, clear this checkbox.
 
-*Applies to C++ projects only.*
+## Set the startup project for new solutions
 
-When running a project with **F5** or the **Debug** > **Start Debugging** command, the default setting **Prompt to build** displays a message if a project configuration is out of date. Select **Always build** to build the project every time it runs. Select **Never build** to suppress all automatic builds when a project is run.
+To automatically set the currently selected project as the startup project when you create new solutions:
 
-**On Run, when build or deployment errors occur**
+1. Open the **Build and Run** options.
+1. Select the **For new solutions use the currently selected project as the startup project** checkbox.
 
-*Applies to C++ projects only.*
+## Configure build behavior for C++ projects
 
-When running a project with **F5** or the **Debug** > **Start Debugging** command, the default setting **Prompt to launch** displays a message if a project should be run even if the build failed. Select **Launch old version** to automatically launch the last good build, which could result in mismatches between the running code and the source code. Select **Do not launch** to suppress the message.
+The following options apply to C++ projects only.
 
-**For new solutions use the currently selected project as the startup project**
+### Handle out-of-date projects
 
-When this option is set, new solutions use the currently selected project as the startup project.
+Configure how Visual Studio responds when you run a C++ project that has out-of-date files:
 
-**MSBuild project build output verbosity**
+1. Open the **Build and Run** options.
+1. Locate **On Run, when projects are out of date** and select one of the following options:
+   - **Prompt to build** (default) — Displays a prompt asking whether to build the project.
+   - **Always build** — Automatically builds the project every time you run it.
+   - **Never build** — Runs without building, even if files are out of date.
 
-Determines how much information from the build process is displayed in the **Output** window.
+### Handle build or deployment errors
 
-**MSBuild project build log file verbosity**
+Configure how Visual Studio responds when you try to run a C++ project after a build failure:
 
-*Applies to C++ projects only.*
+1. Open the **Build and Run** options.
+1. Locate **On Run, when build or deployment errors occur** and select one of the following options:
+   - **Prompt to launch** (default) — Displays a prompt asking whether to run despite the failure.
+   - **Launch old version** — Automatically launches the last successful build. Be aware that this can cause mismatches between your running code and source code.
+   - **Do not launch** — Prevents launching when build errors occur.
 
-Determines how much information is written to the build log file, which is located at *\\\<ProjectName>\Debug\\\<ProjectName>.log*.
+## Set build output verbosity
+
+Control the amount of information displayed in the **Output** window during builds:
+
+1. Open the **Build and Run** options.
+1. Locate **MSBuild project build output verbosity**.
+1. Select a verbosity level from the dropdown:
+   - **Quiet** — Shows only errors and warnings.
+   - **Minimal** — Shows errors, warnings, and a summary.
+   - **Normal** — Shows standard build information.
+   - **Detailed** — Shows more information for troubleshooting.
+   - **Diagnostic** — Shows all available information.
+
+   Use **Minimal** or **Normal** for everyday development. Switch to **Detailed** or **Diagnostic** when troubleshooting build issues.
+
+### Set build log file verbosity (C++ only)
+
+For C++ projects, you can also control the verbosity of the build log file written to *\\\<ProjectName>\Debug\\\<ProjectName>.log*:
+
+1. Open the **Build and Run** options.
+1. Locate **MSBuild project build log file verbosity**.
+1. Select the desired verbosity level from the dropdown.
 
 :::moniker range=">=vs-2022"
 
-**Run build at low process priority**
+## Run builds at low process priority
 
-Instructs Visual Studio to run all compile and link processes at "Below normal" priority, as managed by the operating system. Selecting this option increases the responsiveness of your computer during the execution of a build, but increases the length of time it takes to complete a build. For information about how process priority works on Windows, see [Scheduling priorities](/windows/win32/procthread/scheduling-priorities).
+If you want to keep your computer responsive during long builds, you can configure Visual Studio to run build processes at a lower priority:
+
+1. Open the **Build and Run** options.
+1. Select the **Run build at low process priority** checkbox.
+
+When enabled, Visual Studio runs all compile and link processes at "Below normal" priority. This improves system responsiveness but increases build time. For more information about process priority, see [Scheduling priorities](/windows/win32/procthread/scheduling-priorities).
 
 :::moniker-end
 
