@@ -209,6 +209,24 @@ General options to configure browsing and navigation are available in the **C/C+
 
 - **Show external dependencies in solution explorer**: When selected (default), the **External Dependencies** folder for projects is visible in **Solution Explorer**. If you clear this option, the folder isn't visible.
 
+### Enable whole codebase semantic indexing (Experimental) 
+You can configure deeper semantic indexing in  the **C/C++** > **IntelliSense** > **Browsing & navigation** section. 
+
+> [!IMPORTANT]
+> The following options can consume a significant amount of system resources. Disable them as needed.
+
+Off by default, whole codebase indexing builds a semantic symbol index for your C++ projects. This deeper analysis parses your files more precisely, which can improve the reliability and responsiveness of common code navigation features such as syntax coloring, Go To Definition, and Find All References. When files are opened or edited, an additional background step populates the symbol index, which may take additional resources and time to complete for large solutions. This step is non-blocking for C++ IntelliSense features and prioritizes parsing active files to conserve resources.  
+
+- **Parse all files in the solution ahead of time**: When enabled, all files in the project are processed ahead of time on solution open, rather than prioritizing active files. This option can be resource intensive for large codebases. This setting is off by default.
+
+- **Include symbol references for function locals in the code browsing database**: Include all references to local symbols in the code browsing database. This option can be resource-intensive and increase the database size.
+
+- **Include all symbol references from external files in the code browsing database**: When enabled, all types of references of symbols from external files are included in the database. Otherwise, only declarations and definitions will be included, to reduce the database size. This is off by default. 
+
+- **Automatically determine the maximum number of threads to use based upon system CPU cores count**: Determine the number of threads used on your machine when building and maintaining the symbol index database. To optimize resource use, the default is determined based on factors like the number of CPU cores. 
+
+- **Enable CodeLens for references**: Adds C++ references to CodeLens indicators that show the reference count of symbol declarations/definitions and their detailed locations inline. This setting is off by default.
+
 ### Location for the browsing database
 
 Options to configure the browsing database location are available in the **C/C++** > **IntelliSense** > **Browsing & navigation** > **Location** section.
