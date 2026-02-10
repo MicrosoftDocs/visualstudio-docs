@@ -4,6 +4,7 @@ description: View large collection objects with built-in tabular visualizers in 
 ms.date: "02/05/2026"
 ms.update-cycle: 180-days
 ms.topic: how-to
+ms.custom: awp-ai
 f1_keywords:
   - "vs.debug.dataviewer"
 dev_langs:
