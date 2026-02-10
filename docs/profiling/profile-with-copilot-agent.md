@@ -36,7 +36,7 @@ The Profiler Agent can perform all of the following tasks.
 - Validate improvements in a guided loop.
 
 ::: moniker range="visualstudio"
-- Discover and use unit tests that exercise performance-critical code paths, or generate new tests when needed.
+- Discover and use C++ unit tests that exercise performance-critical code paths, or generate new C++ tests when needed.
 - Create lightweight measurement artifacts to capture baseline metrics when no suitable tests or benchmarks exist.
 ::: moniker-end
 
