@@ -1,9 +1,10 @@
 ---
 title: Overview of GitHub Copilot testing for .NET
 description: Learn about GitHub Copilot testing for .NET in Visual Studio.
-ms.date: 11/10/2025
+ms.date: 02/06/2026
 ms.update-cycle: 90-days
 ms.topic: how-to
+ms.custom: awp-ai
 dev_langs:
   - CSharp
 helpviewer_keywords:
@@ -21,18 +22,31 @@ monikerRange: '>= visualstudio'
 
 GitHub Copilot testing for .NET is a new capability in GitHub Copilot Chat that is integrated into Visual Studio. This feature automates the creation, running, and testing of C# code for entire projects, solutions, files, classes, or members. It is designed for C# developers who want to quickly bootstrap comprehensive test coverage without manually writing every test case. GitHub Copilot testing can generate tests for xUnit, NUnit, and MSTest test frameworks.
 
-Unlike short-lived Copilot suggestions, GitHub Copilot testing for .NET provides a guided, long-running experience for generating and managing tests across your codebase.
+Unlike one-off prompts in Copilot agent mode, GitHub Copilot testing for .NET offers a guided, long-running experience designed specifically for test generation. It produces deterministic results grounded in the C# compiler and language semantics, with deep awareness of your codebase, file structure, and testing conventions to ensure predictable, context-appropriate tests.
 
 ## Prerequisites
 
-+ Visual Studio 2026 Insiders build
++ Visual Studio 2026 version 18.3 or later
 + C# project
-+ [Sign in to Visual Studio using a GitHub account](../ide/work-with-github-accounts.md) with [Copilot access](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot)
++ [Sign in to Visual Studio using a GitHub account](../ide/work-with-github-accounts.md) with a paid [Copilot subscription](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot)
 
-  GitHub Copilot testing works with any active GitHub Copilot subscription, including individual and enterprise plans. While some features may be available with a free Copilot license, usage limits and token throttling may apply, especially for larger solutions or extended sessions. These limits are enforced by GitHub and may impact performance or availability.
+> [!NOTE]
+> GitHub Copilot testing for .NET requires a paid GitHub Copilot subscription (individual, business, or enterprise). Free Copilot subscriptions are not supported.
 
->[!TIP]
-> For the best experience, we suggest using a paid Copilot subscription to avoid potential throttling and ensure consistent access.
+## Why use GitHub Copilot testing for .NET?
+
+GitHub Copilot testing for .NET offers a comprehensive experience compared to the more general Copilot capabilities related to the generation of tests. The unit testing capability in GitHub Copilot for .NET provides the following:
+
+- **Efficiency:** Automatically generate, build, and run C# unit tests for large or small projects or solutions.
+- **Consistency:** Ensure tests follow best practices and project standards. Tests are created in a separate test project in the solution and are generated using the xUnit, NUnit, and MSTest frameworks. If the solution already has unit tests in NUnit or xUnit, GitHub Copilot testing for .NET generates new tests in the same unit testing framework. If there are no unit tests in the solution, new tests are generated using MSTest.
+- **Integration:** Works seamlessly within Visual Studio, leveraging Copilot’s AI capabilities.
+- **Predictability:** Copilot is generating tests deterministically, grounded in the C# compiler and language semantics, so assertions and edge cases are predictable and type-safe.
+
+## Key features
+
+- **Automated test generation at scale:** Create tests for single files, multiple files in a single project, or entire solutions.
+- **Command-based interaction:** Use supported commands and parameters (listed in the `/help` message within GitHub Copilot testing).
+- **Flexible prompts:** Use structured `@Test #<target>` syntax or freeform natural language prompts to describe what you want to test.
 
 ## What GitHub Copilot testing can do
 
@@ -46,20 +60,49 @@ When you enable this capability, GitHub Copilot testing interacts with your solu
 >[!IMPORTANT]
 > Copilot testing does not modify production code outside of the test generation process. All changes occur within your local development environment, and you retain full control to review, accept, or discard suggestions.
 
-## Why use GitHub Copilot testing for .NET?
+## Actions taken by the @Test agent
 
-GitHub Copilot testing for .NET offers a comprehensive experience compared to the more basic Copilot capabilities related to the generation of tests (such as the `/tests` command). The unit testing capability in GitHub Copilot for .NET provides the following:
+The `@Test` agent performs various actions during test generation. Understanding these actions helps you know what to expect when using the tool.
 
-- **Efficiency:** Automatically generate, build, and run C# unit tests for large or small projects or solutions.
-- **Consistency:** Ensure tests follow best practices and project standards. Tests are created in a separate test project in the solution and are generated using the xUnit, NUnit, and MSTest frameworks. If the solution already has unit tests in NUnit or xUnit, GitHub Copilot testing for .NET generates new tests in the same unit testing framework. If there are no unit tests in the solution, new tests are generated using MSTest.
-- **Integration:** Works seamlessly within Visual Studio, leveraging Copilot’s AI capabilities.
-- **Predictability:** Copilot is generating tests deterministically, grounded in the C# compiler and language semantics, so assertions and edge cases are predictable and type-safe.
+### Build and test operations
 
-## Key features
+The agent uses Visual Studio APIs (not command-line tools like `dotnet restore` or `dotnet test`) to perform the following operations:
 
-- **Automated test generation:** Create tests for single files, multiple files in a single project, or entire solutions.
-- **Command-based interaction:** Use supported commands and parameters (listed in the `/help` message within GitHub Copilot testing).
-- **Structured prompts:** Free-form prompts aren't supported at this time, ensuring predictable and reliable output.
+- **Restore and build**: Restores packages and builds projects based on scope (from a single project up to the entire solution).
+- **Run tests**: Primarily runs only the generated tests. However, to compute initial and resulting code coverage (and for coverage optimization mode), the agent runs all tests within the given scope.
+- **Process git diff**: When using diff mode (`#git_changes`), the agent analyzes your uncommitted changes to generate targeted tests.
+
+### Package installation
+
+The agent installs NuGet packages as needed:
+
+- Test framework packages (MSTest, NUnit, or xUnit)
+- Mock framework packages if not already present
+- Coverage and TRX extensions for Microsoft Test Platform (MTP) if not present
+
+### LLM operations
+
+The agent makes LLM calls for:
+
+- Freeform prompt analysis
+- Summary processing
+- Test generation
+
+### Project and file modifications
+
+The agent creates a test project if one doesn't exist for the target code.
+
+The agent uses a custom file system with the following guarantees:
+
+- **Scope**: The agent never reads or writes files outside the repository root (except for logs).
+- **Read-only preference**: Whenever possible, the agent uses a read-only file system that prevents write actions.
+
+The agent can write to the following files:
+
+- Test project files
+- Source project files (for example, adding `InternalsVisibleTo` attributes)
+- Solution files (indirectly through Visual Studio APIs, such as when adding a project)
+- Test source files
 
 ## Security warning
 
@@ -67,17 +110,6 @@ When you first run GitHub Copilot testing for .NET, Copilot requests your consen
 
 > [!CAUTION]
 > Your consent grants Copilot the ability to silently invoke arbitrary commands within your Visual Studio session. Microsoft can't guarantee the safety of these commands. You should only enable this switch inside a sandboxed environment, and you should take steps to limit the privileges available to that environment. For example, the sandboxed environment shouldn't use a cloud-connected account to log into Windows, and the sandboxed environment shouldn't be logged into Visual Studio using a privileged GitHub account that has read access to non-public repositories or write access to production repositories.
-
-## Troubleshooting
-
-If you don’t see the @test command in Copilot Chat, try the following steps:
-
-1. Verify your Visual Studio build. Make sure you are running the latest Visual Studio Insiders build, because this capability is currently available only in Insiders.
-1. Toggle the setting in **Tools > Options > GitHub Copilot**. When you disable and then re-enable the GitHub Copilot testing setting, this refreshes the integration.
-
-   ![Screenshot of testing setting in Options.](media/visualstudio/test-agent-settings.png)
-
-If the @test command does not appear in Chat, and the issue persists after toggling, please report the issue using **Help > Send Feedback** in Visual Studio.
 
 ## Next steps
 
