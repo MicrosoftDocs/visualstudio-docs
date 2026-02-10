@@ -18,6 +18,8 @@ manager: mijacobs
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
 monikerRange: '>= vs-2022'
+ms.custom: awp-ai
+ai-usage: ai-assisted
 ---
 
 # Profile your app with GitHub Copilot Profiler Agent
