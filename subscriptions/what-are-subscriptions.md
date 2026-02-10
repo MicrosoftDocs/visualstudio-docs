@@ -3,7 +3,7 @@ title: What are Visual Studio subscriptions?
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date:02/09/2026
+ms.date: 02/09/2026
 ms.topic: concept-article
 description:  Learn about Visual Studio subscriptions, their benefits, and how to acquire them
 ---

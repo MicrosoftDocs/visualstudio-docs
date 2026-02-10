@@ -34,7 +34,7 @@ Here's how to download and install the IDE for your version of Visual Studio. We
 
 1. Select **Continue** to accept the license terms.
 
-1. If you have other versions of Visual Studio installed, the installer gives you flexible options to move forward without losing your previous environment. You can migrate a previous Visual Studio 2022 configuration to copy workloads, SDKs, toolsets, and components, start a new install with the workloads and components you select, or [import your configuration](https://learn.microsoft.com/visualstudio/install/import-export-installation-configurations?view=visualstudio) from an exported `.vsconfig` file. 
+1. If you have other versions of Visual Studio installed, the installer gives you flexible options to move forward without losing your previous environment. You can migrate a previous Visual Studio configuration to copy workloads, SDKs, toolsets, and components, start a new install with the workloads and components you select, or [import your configuration](https://learn.microsoft.com/visualstudio/install/import-export-installation-configurations?view=visualstudio) from an exported `.vsconfig` file. 
 
    ![Screenshot of the Visual Studio Enterprise 2026 intall configuration.](_img/vs-ide-experience/install-visual-studio-enterprise-2026.png "Screenshot of the Install Visual Studio Enterprise 2026 window.")
 
