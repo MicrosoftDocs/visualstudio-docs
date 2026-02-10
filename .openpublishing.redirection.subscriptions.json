@@ -38,6 +38,10 @@
             "redirect_url": "/visualstudio/subscriptions",
             "redirect_document_id": false
         },
+        {   "source_path": "subscriptions/vs-windows-dev.md",
+            "redirect_url": "/visualstudio/subscriptions",
+            "redirect_document_id": false
+        },
         {   "source_path": "subscriptions/vs-datacamp.md",
             "redirect_url": "/visualstudio/subscriptions",
             "redirect_document_id": false
