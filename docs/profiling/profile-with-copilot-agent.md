@@ -36,8 +36,8 @@ The Profiler Agent can perform all of the following tasks.
 - Validate improvements in a guided loop.
 
 ::: moniker range="visualstudio"
-- Discover and use unit tests that exercise performance-critical code paths.
-- Create lightweight measurement artifacts when no tests or benchmarks exist.
+- Discover and use unit tests that exercise performance-critical code paths, or generate new tests when needed.
+- Create lightweight measurement artifacts to capture baseline metrics when no suitable tests or benchmarks exist.
 ::: moniker-end
 
 The Profiler Agent is especially helpful when:
@@ -48,8 +48,8 @@ The Profiler Agent is especially helpful when:
 - You’re working on high-performance apps like games, services, or client tools.
 
 ::: moniker range="visualstudio"
-- You're working with C++ projects where benchmarks aren't practical.
-- You want to leverage existing unit tests for performance validation.
+- You're working with C++ projects where benchmarks aren't practical but unit tests already exist.
+- You want to leverage tests your team already runs for performance validation.
 ::: moniker-end
 
 For information about other profiling features in Copilot, see [AI-enhanced scenarios](../profiling/profiling-feature-tour.md#ai-enhanced-scenarios). For general information about Copilot agents and agent mode, see [Use Copilot agent mode](../ide/copilot-agent-mode.md).
@@ -226,53 +226,3 @@ If a chat with Copilot approaches its token cap, you are prompted with the optio
 ![Screenshot of thread summarization.](../profiling/media/visualstudio/profiling-agent-thread-summarization.png) 
 
 If you select this option, the agent automatically generates a concise, context-rich summary of the current chat thread and carries it forward into a fresh conversation. This allows you to avoid retracing any steps.
-
-
-
-::: moniker range="visualstudio"
-
-## Profile using unit tests
-
-In addition to BenchmarkDotNet benchmarks, the Profiler Agent can discover and use relevant unit tests that exercise performance-critical code paths. This unit test–first approach enables more realistic and accessible ways to validate performance improvements.
-
-The agent uses unit tests when:
-
-- Your project contains unit tests that exercise performance-critical code.
-- BenchmarkDotNet benchmarks aren't available or practical for your scenario.
-- You want to measure performance using the tests your team already runs.
-
-When no suitable tests or benchmarks exist, the Profiler Agent can automatically create a lightweight measurement artifact to capture baseline metrics and compare results after optimization.
-
-To profile using unit tests:
-
-1. Open the Copilot Chat window and use the following prompt:
-
-   ```@Profiler Please evaluate the performance of this code using unit tests```
-
-1. Select **Send**.
-
-   The Profiler Agent examines your code and discovers relevant unit tests. It then runs the tests to collect performance data, including CPU usage, memory behavior, and runtime characteristics.
-
-1. Review the agent's findings and apply suggested optimizations.
-
-1. The agent validates improvements by rerunning the unit tests and comparing results.
-
-## Profile C++ applications
-
-The unit test–first approach enables Profiler Agent support for C++ scenarios, where benchmarks aren't always practical but unit tests already exist. By leveraging the tests teams run every day, the Profiler Agent can measure CPU usage, memory behavior, and runtime characteristics in real C++ code without forcing developers to become profiling experts or rewrite their workflow.
-
-To profile a C++ application:
-
-1. Ensure your C++ project includes unit tests that exercise performance-critical code paths.
-
-1. Open the Copilot Chat window and use the following prompt:
-
-   ```@Profiler Please evaluate the performance of this C++ code```
-
-1. Select **Send**.
-
-   The Profiler Agent discovers and uses your existing unit tests to collect performance data. Working alongside GitHub Copilot, the agent analyzes performance data, surfaces bottlenecks, suggests targeted optimizations, and validates improvements in a guided loop.
-
-::: moniker-end
-
-
