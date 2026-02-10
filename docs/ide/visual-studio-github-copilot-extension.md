@@ -120,7 +120,7 @@ For additional settings and options, see the **Inline Suggestions** settings pag
 
 To customize the appearance of completions, go to **Tools** > **Options** > **Environment** > **Font and Colors**, and  then select **Code Completions** from the **Display items** list, and adjust the font type, size, foreground/background color, and style.
 
-In the latest Visual Studio 2026 Insiders, code completions display with syntax highlighting, making it easier to parse suggested code at a glance. Variables, functions, keywords, strings, and other code elements appear in distinct colors, just like your actual code.
+In the latest Visual Studio 2026 Insiders build, code completions display with syntax highlighting, making it easier to parse suggested code at a glance. Variables, functions, keywords, strings, and other code elements appear in distinct colors, just like your actual code.
 
 :::image type="content" source="media/visualstudio/visual-studio-github-copilot-extension/colorized-completions.png" alt-text="Screenshot showing colorized code completions with syntax highlighting, displaying different colors for keywords, types, variables, and strings.":::
 
