@@ -3,7 +3,7 @@ title: Visual Studio IDE in Visual Studio subscriptions
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 11/12/2025
+ms.date: 02/09/2026
 ms.topic: how-to
 description: In this article, you learn how to download and install the Visual Studio IDE included in your Visual Studio subscription.
 ---
@@ -159,4 +159,3 @@ After you install Visual Studio, be sure to activate these important benefits:
 
 + [Azure DevOps](vs-azure-devops.md)
 + [Azure DevTest offer/credits](/azure/devtest/offer/)
-+ [Windows Developer account](vs-windows-dev.md)
