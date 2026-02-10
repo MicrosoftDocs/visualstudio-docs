@@ -215,7 +215,7 @@ To get started, you need:
         .ToList();
    ```
 
-1. If you want to agent to make additional optimizations, either select the suggestions provided by the agent or ask additional questions.
+1. If you want the agent to make additional optimizations, either select the suggestions provided by the agent or ask additional questions.
 
 ## Continue chat after reaching token limit
 
