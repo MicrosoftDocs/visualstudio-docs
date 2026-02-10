@@ -62,6 +62,8 @@ You can use the **Analyze Call Stack** button to get AI-powered analysis of your
 
 To analyze the call stack, right-click on a frame in the Call Stack window, and select **Analyze Call Stack**.
 
+:::image type="content" source="../debugger/media/visualstudio/debug-basics-analyze-call-stack.png" alt-text="Screenshot showing the Call Stack Window.":::
+
 Copilot understands both synchronous and asynchronous call stacks and annotates relevant frames. Whether your app is waiting on an async task or has broken during async execution, you can select an annotated frame to get a clear explanation of:
 
 - Why execution is paused
