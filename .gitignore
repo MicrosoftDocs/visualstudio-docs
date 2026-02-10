@@ -363,3 +363,16 @@ _themes.VS.Modern/
 
 # Custom added by ghogen
 settings.json
+
+# Doc-Kit workspace files
+.github/AGENTS.md
+.github/agents/
+.github/instructions/
+.github/prompts/
+.github/skills/
+.vscode/settings.json
+.vscode/mcp.json
+.dockit/
+.env
+.env.example
+requirements.txt
