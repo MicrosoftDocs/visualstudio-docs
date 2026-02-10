@@ -1,7 +1,7 @@
 ---
 title: Copilot Completions
 description: Get code suggestions and completions from GitHub Copilot in Visual Studio.
-ms.date: 2/4/2026
+ms.date: 2/9/2026
 ms.update-cycle: 180-days
 ms.topic: overview
 author: anandmeg
@@ -11,6 +11,7 @@ ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
 monikerRange: '>= vs-2022'
 ai-usage: ai-assisted
+ms.custom: awp
 ---
 # Get started with GitHub Copilot completions
 
@@ -118,6 +119,14 @@ For additional settings and options, see the **Inline Suggestions** settings pag
 ### Customize appearance
 
 To customize the appearance of completions, go to **Tools** > **Options** > **Environment** > **Font and Colors**, and  then select **Code Completions** from the **Display items** list, and adjust the font type, size, foreground/background color, and style.
+
+In the latest Visual Studio 2026 Insiders build, code completions display with syntax highlighting, making it easier to parse suggested code at a glance. Variables, functions, keywords, strings, and other code elements appear in distinct colors, just like your actual code.
+
+:::image type="content" source="media/visualstudio/visual-studio-github-copilot-extension/colorized-completions.png" alt-text="Screenshot showing colorized code completions with syntax highlighting, displaying different colors for keywords, types, variables, and strings.":::
+
+To differentiate suggestions from your actual code, colorized completions appear with lower opacity and italic styling.
+
+To disable colorization and use the original single-color appearance, go to **Tools** > **Options** > **Text Editor** > **Code Completions**, and clear the **Use colorized text for code completions** checkbox.
 
 :::moniker-end
 :::moniker range="vs-2022"
