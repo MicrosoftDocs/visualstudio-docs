@@ -3,7 +3,7 @@ title: Get started in the subscription portal
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 07/24/2025
+ms.date: 02/09/2026
 ms.topic: overview
 description: Explore the full range of benefits available with your Visual Studio subscriptions from the subscription portal, including tools, services, and partner offers.
 ---
@@ -30,7 +30,7 @@ The tools, services, and partner's offers included with your subscription are di
 
 ### Tools
 
-The Tools category is where you find the core development tools, such as the Visual Studio IDE, Azure DevOps, and tools provided by our partners. You also see services such as Azure and Windows Developer Account.
+The Tools category is where you find the core development tools, such as the Visual Studio IDE, Azure DevOps, and tools provided by our partners. You also see services such as Azure and Microsoft 365 Apps for Enterprise E5.
 
 ### Professional Development
 
