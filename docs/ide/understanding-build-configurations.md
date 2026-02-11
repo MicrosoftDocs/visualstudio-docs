@@ -1,9 +1,9 @@
 ---
-title: Understand build configurations
-description: Discover how to work with build configurations when you need to build your projects with different settings in Visual Studio.
+title: Understand project and solution configurations
+description: Discover how to work with project and solution configurations when you need to build your projects with different settings in Visual Studio.
 ms.date: 8/7/2025
 ms.subservice: compile-build
-ms.topic: how-to
+ms.topic: concept-article
 f1_keywords:
 - SolutionProperties.ActiveConfig
 - vs.build.newprojectconfiguration
@@ -25,26 +25,44 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ---
-# Understand build configurations
+# Project and solution configurations
 
-You need build configurations when you need to build your projects with different settings. For example, **Debug** and **Release** are build configurations, and different compiler options are used accordingly when building them.  One configuration is active and is indicated in the command bar at the top of the IDE.
+You need project configurations when you need to build your projects with different settings, and solution configurations organize project configurations at the solution level. The **Debug** and **Release** configurations are both solution configurations and corresponding project configurations. 
 
-:::moniker range=">=vs-2022"
+The solution configuration is like a container of project configurations. It really doesn't contain any settings by itself. The project configuration and the target platform (machine architecture) are directly associated with actual settings like compiler options.
+
+One solution configuration is active and is indicated in the command bar at the top of the IDE.
+
+:::moniker range="vs-2022"
 ![Screenshot showing the active configuration in the main Visual Studio toolbar.](media/vs-2022/build-configurations-active-config.png)
 :::moniker-end
+:::moniker range="visualstudio"
+![Screenshot showing the active configuration in the main Visual Studio toolbar.](media/visualstudio/understanding-build-configurations/active-configuration.png)
+:::moniker-end
 
-The configuration and the platform control where built output files are stored. Normally, when Visual Studio builds your project, the output is placed in a project subfolder named with the active configuration (for example, *bin/Debug/x86*), but you can change that.
+The project configuration and the platform control where built output files are stored. Normally, when Visual Studio builds your project, the output is placed in a project subfolder named with the active configuration (for example, *bin/Debug/x86*), but if you want to change that, see [Change the build output directory](how-to-change-the-build-output-directory.md).
 
-You can create your own build configurations at the solution and project level. The solution configuration determines which projects are included in the build when that configuration is active. Only the projects that are specified in the active solution configuration will be built. If multiple target platforms are selected in Configuration Manager, all projects that apply to that platform are built. The project configuration determines what build settings and compiler options are used when you build the project.
+You can create your own configurations at the solution and project level. The solution configuration determines which projects are included in the build when that configuration is active. Only the projects that are specified in the active solution configuration will be built. If multiple target platforms are selected in Configuration Manager, all projects that apply to that platform are built. The project configuration determines what build settings and compiler options are used when you build the project.
 
 To create, select, modify, or delete a configuration, you can use the **Configuration Manager**. To open it, on the menu bar, choose **Build** > **Configuration Manager**, or just type **Configuration** in the search box. You can also use the **Solution Configurations** list on the **Standard** toolbar to select a configuration or open the **Configuration Manager**.
 
+:::moniker range="<=vs-2022"
 ![Screenshot of Configuration Manager dialog.](media/understanding-build-configurations/config-manager.png)
+:::moniker-end
+:::moniker range="visualstudio"
+![Screenshot of Configuration Manager dialog.](media/visualstudio/understanding-build-configurations/configuration-manager.png)
+:::moniker-end
 
 > [!NOTE]
-> If you can't find solution configuration settings on the toolbar and can't access the **Configuration Manager**, it might be because you're using Visual Basic development settings. For more information, see [How to: Manage configurations with Visual Basic developer settings applied](/visualstudio/ide/understanding-build-configurations).
+> If you can't find solution configuration settings on the toolbar and can't access the **Configuration Manager**, it might be because you're using Visual Basic development settings. For more information, see [Manage configurations with Visual Basic developer settings applied](/visualstudio/ide/understanding-build-configurations).
 
-By default, **Debug** and **Release** configurations are included in projects that are created by using Visual Studio templates. A **Debug** configuration supports the debugging of an app, and a **Release** configuration builds a version of the app that can be deployed. For more information, see [How to: Set debug and release configurations](../debugger/how-to-set-debug-and-release-configurations.md). You can also create custom solution configurations and project configurations. For more information, see [How to: Create and edit configurations](../ide/how-to-create-and-edit-configurations.md).
+By default, **Debug** and **Release** configurations are included in projects that are created by using Visual Studio templates. A **Debug** configuration supports the debugging of an app, and a **Release** configuration builds a version of the app that can be deployed. For more information, see [Set debug and release configurations](../debugger/how-to-set-debug-and-release-configurations.md). You can also create custom solution configurations and project configurations. For more information, see [Create and edit configurations](../ide/how-to-create-and-edit-configurations.md).
+
+## Why there are both solution configurations and project configurations
+
+For any solution, the projects in that solution are not required to have the same configuration as the solution. For example, a **Debug** solution configuration does not require all the projects to use the **Debug** configuration.
+
+Suppose you are a developer who is part of a large shared solution, but you own one or more closely related projects in that solution. You might want to use a **Debug** configuration for your projects, but a **Release** configuration for all the other projects in that solution. To support this scenario, you would set up the **Debug** solution configuration to use the **Debug** project configuration only for some projects, and use the **Release** project configuration for everything else. This could mean significantly less overhead in terms of performance and file sizes for those projects, and by running in **Release** mode on projects that you're not actively debugging, you could run in a manner closer to the customer experience, and yet still preserve the ability to switch between **Debug** and **Release** builds in a way that is meaningful for your work.
 
 ## Solution configurations
 
@@ -65,6 +83,10 @@ The configuration and platform that a project targets are used together to speci
 :::moniker-end
 
 The predefined constants for each configuration are shown underneath the textbox where you can enter your own. These predefined constants are defined by the SDK your project uses. To see where these properties are defined, you can look for how the MSBuild property `DefineConstants` is defined and modified in the .NET SDK installation folder where `.props` and `.targets` files are located. The SDKs provide MSBuild properties that you can set in the project file to disable the predefined definitions; for example, see [DisableImplicitFrameworkDefines](/dotnet/core/project-sdk/msbuild-props#disableimplicitframeworkdefines).
+
+You can customize some project settings by configuration, some must have the same value across configuration, and some provide the option to choose. Click on the gear icon to see the available options and, if supported, you can set whether to use the same value across configurations, or vary by configuration. You can also reset to the default value.
+
+![Screenshot showing how to control whether a build setting varies by configuration or not.](./media/visualstudio/understanding-build-configurations/vary-value-by-configuration.png)
 
 ## How Visual Studio associates project configurations with solution configurations
 
@@ -90,7 +112,7 @@ Visual Studio uses the following criteria to associate solution configurations w
 
 When you build a solution using the **Build** > **Build Solution** command, Visual Studio only builds the active configuration. All projects that are specified in that solution configuration are built, and the only project configuration that's built is that one specified in the active solution configuration and active solution platform, which is shown in the toolbar in Visual Studio. For example, **Debug** and **x86**. Other defined configurations and platforms are not built.
 
-If you want to build multiple configurations and platforms in one action, you can use the **Build** > **Batch Build** option in Visual Studio. To access this feature, press **Ctrl**+**Q** to open the search box, and enter `Batch build`. Batch build is not available for all project types. See [How to: Build multiple configurations simultaneously](how-to-build-multiple-configurations-simultaneously.md).
+If you want to build multiple configurations and platforms in one action, you can use the **Build** > **Batch Build** option in Visual Studio. To access this feature, press **Ctrl**+**Q** to open the search box, and enter `Batch build`. Batch build is not available for all project types. See [Build multiple configurations simultaneously](how-to-build-multiple-configurations-simultaneously.md).
 
 ## Related content
 
