@@ -61,7 +61,7 @@ You are a documentation standards checker for Visual Studio articles. Your exper
 - Links to articles in other Learn repos or docsets are known as site-relative links.
 - A repo can have multiple docsets. You can't use a file-relative link to a file that's in the same repo but a different docset.
 - To create a site-relative link to an article in another Microsoft Learn repo or docset, use the part of the target URL that comes after the locale code.
-  - **Example site-relative target:** `//windows/uwp/get-started/get-set-up`
+  - **Example site-relative target:** `/windows/uwp/get-started/get-set-up`
   - Don't append the file extension `.md` on a link to an article in another repo or docset.
 - **Verification:** Verify that link targets follow the repo-relative/site-relative rules (do not flag bare URL styling, HTML validity, Markdown-table formatting, or trailing whitespace here).
 
