@@ -1,9 +1,10 @@
 ---
 title: Debug with GitHub Copilot
 description: Use Copilot to help debug your apps and provide performance insights.
-ms.date: 11/10/2025
+ms.date: 02/03/2026
 ms.update-cycle: 90-days
 ms.topic: how-to
+ms.custom: awp-ai
 dev_langs: 
   - CSharp
   - VB
@@ -46,6 +47,7 @@ In addition, Copilot provides more precise help for some targeted scenarios, suc
 
 |Feature or scenario|Link|
 |-|-|
+|Call stack analysis|See [Analyze call stack with Copilot](how-to-use-the-call-stack-window.md#analyze-call-stack-with-copilot). Get one-click analysis of what your thread is doing, including async flow explanations.|
 |Exceptions|See [Debug an exception with Copilot](#debug-an-exception-with-copilot) in this article. Help with exceptions includes help with deadlock detection errors.|
 |Variables|See [Get AI assistance](../debugger/autos-and-locals-windows.md#get-ai-assistance).|
 |LINQ query analysis|Hover over LINQ queries while debugging in the code editor to see return value. Select the **Analyze with Copilot** button for AI assistance. See [View return values of LINQ queries](../debugger/autos-and-locals-windows.md#view-return-values-of-linq-queries).|

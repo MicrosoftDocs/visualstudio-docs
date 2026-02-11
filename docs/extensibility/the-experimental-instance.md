@@ -1,7 +1,7 @@
 ---
 title: Explore experimental space in Visual Studio SDK
 description: Explore how the Visual Studio SDK provides an experimental space to run untested applications in debug mode and safeguard your development environment.
-ms.date: 11/04/2016
+ms.date: 12/17/2025
 ms.topic: concept-article
 helpviewer_keywords:
 - experimental builds
@@ -28,3 +28,14 @@ To safeguard your Visual Studio development environment from untested applicatio
 > `HKCU\Software\Microsoft\VisualStudio\14.0Exp` and `HKCU\Software\Microsoft\VisualStudio\14.0Exp_Config`
 
  We recommend that you run your extension in the experimental instance while you are developing it. When you deploy the extension, it runs in the development instance. For more information about registering applications, see [Registering VSPackages](../extensibility/internals/registering-vspackages.md).
+
+:::moniker range="visualstudio"
+## Start or reset the experimental instance
+
+You can reset or start the experimental instance by using the shortcuts `ResetExperimental` and `StartExperimental` in the VSSDK folder (under your Visual Studio installation folder).
+
+In Visual Studio 2026 and later, you can also use commands on the **Extensions** > **Extension Development** menu to start or reset the experimental instance.
+
+:::image type="content" source="media/visualstudio/start-reset-experimental-instance.png" alt-text="Screenshot showing menu commands to reset or start the experimental instance of Visual Studio.":::
+
+:::moniker-end
