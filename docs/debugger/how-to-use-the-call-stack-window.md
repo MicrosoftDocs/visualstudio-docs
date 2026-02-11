@@ -1,8 +1,10 @@
 ---
 title: View the call stack in the debugger
 description: Use the Call Stack window in the Visual Studio integrated development environment (IDE) to view the function or procedure calls that are currently on the stack.
-ms.date: 02/28/2025
+ms.date: 02/10/2026
 ms.topic: how-to
+ms.custom: awp-ai
+ai-usage: ai-assisted
 f1_keywords: 
   - vs.debug.callstack
 dev_langs: 
@@ -51,6 +53,31 @@ While debugging, in the **Debug** menu, select **Windows > Call Stack** or press
 
 ::: moniker range=">= vs-2022"
 You can also view exception stack frames in the call stack while debugging. For more information, see [View the call stack in the Exception helper](../debugger/exception-helper.md#view-the-call-stack).
+::: moniker-end
+
+::: moniker range="visualstudio"
+
+## Analyze call stack with Copilot
+
+You can get AI-powered analysis of your current debug state in the context of the Call Stack window. This feature helps answer the question: *What is my thread or app doing right now?* With one click, the **Analyze with Copilot** button sends the current debug state to Copilot, opening the Chat window with an app state analysis—no need to manually describe your debug context.
+
+To analyze the call stack:
+
+1. When Copilot identifies a call stack issue, such as a frame that is waiting on an async task or execution fails during async operations, Copilot shows the **Analyze with Copilot** button by the relevant frame in the **Call Stack** window.
+1. Select **Analyze with Copilot**.
+
+:::image type="content" source="../debugger/media/visualstudio/debug-basics-analyze-call-stack.png" alt-text="Screenshot showing the Call Stack Window.":::
+
+Copilot understands both synchronous and asynchronous call stacks and annotates relevant frames. You can analyze the frame to get a clear explanation of:
+
+- Why execution is paused
+- What the thread is waiting on
+- How the execution got to the current point
+
+This turns the call stack from a static list of frames into an interactive debugging experience. Instead of manually reconstructing async flows, Copilot helps you quickly understand runtime behavior and get back to fixing the real problem.
+
+For more information on debugging with Copilot, see [Debug your app with GitHub Copilot](debug-with-copilot.md).
+
 ::: moniker-end
 
 ## Display non-user code in the Call Stack window

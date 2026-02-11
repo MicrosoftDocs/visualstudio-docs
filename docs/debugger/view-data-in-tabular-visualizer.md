@@ -1,9 +1,10 @@
 ---
 title: "View  data with the Tabular visualizer "
 description: View large collection objects with built-in tabular visualizers in the Visual Studio debugger and examine data by row and column for fields and properties.
-ms.date: "09/03/2025"
+ms.date: "02/05/2026"
 ms.update-cycle: 180-days
 ms.topic: how-to
+ms.custom: awp-ai
 f1_keywords:
   - "vs.debug.dataviewer"
 dev_langs:
@@ -54,6 +55,23 @@ You can use the right-click context menu to customize the view:
 - Select **Hide Column** to hide duplicate data.
 - Select **Expand Column** to see more details items in the complex data.
 - Select **Hide Children** to get a more concise view of your data.
+
+::: moniker range="visualstudio"
+### View object details with DataTips
+
+Starting in Visual Studio 2026 version 18.3, you can hover over any cell in the IEnumerable visualizer grid to view a DataTip that shows the full object behind that value. The DataTip provides the same rich inspection experience available in the editor and Watch window.
+
+This feature is useful when you debug collections of complex or nested types:
+
+- **Domain objects**: Inspect a `List<Customer>` and hover over any property to see the complete `Customer` object with all its properties and nested members.
+- **Dictionaries with structured values**: Hover over dictionary values to view the full object graph without expanding multiple rows.
+- **Nested collections**: Quickly inspect nested objects without leaving the visualizer.
+
+:::image type="content" source="../debugger/media/visualstudio/debug-ienumerable-visualizer-datatip.png" alt-text="Screenshot showing a DataTip appearing when hovering over a cell in the IEnumerable visualizer.":::
+
+> [!TIP]
+> You can pin the DataTip to keep it visible while you continue exploring other cells in the visualizer.
+::: moniker-end
 
 ### Modify the expression in the IEnumerable visualizer
 
