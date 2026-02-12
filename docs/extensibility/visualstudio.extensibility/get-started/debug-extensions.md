@@ -52,7 +52,7 @@ You can reset or start the experimental instance by using the shortcuts `ResetEx
 
 In Visual Studio 2026 and later, you can also use commands on the **Extensions** > **Extension Development** menu to start or reset the experimental instance.
 
-:::image type="content" source="../media/visualstudio/start-reset-experimental-instance.png" alt-text="Menu commands to reset or start the experimental instance of Visual Studio.":::
+:::image type="content" source="../../media/visualstudio/start-reset-experimental-instance.png" alt-text="Menu commands to reset or start the experimental instance of Visual Studio.":::
 
 :::moniker-end
 
