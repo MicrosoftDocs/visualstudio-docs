@@ -9,6 +9,8 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
+ms.custom: awp-ai
+ai-usage: ai-assisted
 ---
 # Configure extension and update options in Visual Studio
 
@@ -86,4 +88,3 @@ For more information, see [Private galleries](../../extensibility/private-galler
 - [Find and use Visual Studio extensions](../finding-and-using-visual-studio-extensions.md)
 - [Update Visual Studio](../../install/update-visual-studio.md)
 - [Private galleries](../../extensibility/private-galleries.md)
-- [Manage extensions for Visual Studio](../managing-extensions-for-visual-studio.md)
