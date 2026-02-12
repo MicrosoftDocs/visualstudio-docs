@@ -3,7 +3,7 @@ title: What are Visual Studio subscriptions?
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 12/30/2025
+ms.date: 02/09/2026
 ms.topic: concept-article
 description:  Learn about Visual Studio subscriptions, their benefits, and how to acquire them
 ---
@@ -39,7 +39,6 @@ The tools and services that might be included in a subscription include:
 + Azure credits. Includes up to $150 in Azure credits per month, depending on the subscription
 + Discounted dev/test pricing on select Azure services for nonproduction workloads
 + Azure DevOps. Receive either the basic plan, or basic + test plans
-+ Windows Developer Account
 + Microsoft 365 Developer Account
 + Microsoft 365 apps for enterprise
 

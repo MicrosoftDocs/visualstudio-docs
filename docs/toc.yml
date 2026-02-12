@@ -796,16 +796,14 @@
       href: ide/how-to-suppress-compiler-warnings.md
   - name: Build actions
     href: ide/build-actions.md
-  - name: Build configurations
+  - name: Configurations and platforms
     items:
-    - name: Understand build configurations
+    - name: Project and solution configurations
       href: ide/understanding-build-configurations.md
     - name: Create and edit configurations
       href: ide/how-to-create-and-edit-configurations.md
     - name: Build multiple configurations simultaneously
       href: ide/how-to-build-multiple-configurations-simultaneously.md
-  - name: Build platforms
-    items:
     - name: Configure projects to target a platform
       href: ide/how-to-configure-projects-to-target-platforms.md
     - name: Configure projects to target multiple platforms
