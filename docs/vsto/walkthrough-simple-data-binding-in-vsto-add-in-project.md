@@ -3,7 +3,7 @@ title: "Walkthrough: Simple data binding in VSTO Add-in project"
 description: Learn how you can add controls to a Microsoft Word document and bind the controls to data at run time.
 titleSuffix: ""
 ms.date: "02/02/2017"
-ms.topic: article
+ms.topic: tutorial
 dev_langs:
   - "VB"
   - "CSharp"

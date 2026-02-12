@@ -73,7 +73,7 @@ The debugger steps through code statements, not physical lines. For example, an 
   ```csharp
   int x = 42;
   string s = "Not answered";
-  if( int x == 42) s = "Answered!";
+  if( x == 42) s = "Answered!";
   ```
 
   ### [VB](#tab/vb)

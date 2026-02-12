@@ -9,8 +9,9 @@ ms.author: meghaanand
 ms.manager: mijacobs
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
-monikerRange: '>= vs-2022'
+
 ---
+
 # Use MCP servers
 
 Model Context Protocol (MCP) is an open standard that enables AI models to interact with external tools and services through a unified interface. In Visual Studio, MCP support enhances GitHub Copilot agent mode by allowing you to connect any MCP-compatible server to your agentic coding workflow.
@@ -34,6 +35,75 @@ MCP support in Visual Studio works as follows:
 For example, an MCP server for a file system might provide tools for reading, writing, or searching files and directories. [The official GitHub MCP server](https://github.com/github/github-mcp-server) offers tools to list repositories, create pull requests, or manage issues. MCP servers can run locally on your machine or be hosted remotely. Visual Studio supports both configurations.
 
 By standardizing this interaction, MCP eliminates the need for custom integrations between each AI model and each tool. You can then extend your AI assistant's capabilities by simply adding new MCP servers to your workspace. [Learn more about the MCP specification](https://modelcontextprotocol.io/specification/draft).
+
+## Configuration example with a GitHub MCP server
+
+The following walkthrough requires version 17.14.9 or later.
+
+1. Create a new file: `<SOLUTIONDIR>\.mcp.json` or `%USERPROFILE%\.mcp.json`. We recommend that you use Visual Studio to edit this file so that its JSON schema is automatically applied.
+
+2. Paste the following contents into the `.mcp.json` file:
+
+    ```json
+    {
+      "servers": {
+        "github": {
+          "url": "https://api.githubcopilot.com/mcp/"
+        }
+      }
+    }
+    ```
+
+3. Save the file. Then activate the CodeLens information that appears over the new server to authenticate to this server through a GitHub account.
+
+4. In Visual Studio, select the **Ask** arrow in the GitHub Copilot Chat window, and then select **Agent**.
+
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/copilot-agent-dropdown.png" alt-text="Screenshot that shows the Agent button in Copilot." lightbox="media/visualstudio/copilot-agent-dropdown.png":::
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+
+:::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-dropdown.png" alt-text="Screenshot that shows the Copilot agent mode selector." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-dropdown.png":::
+
+:::moniker-end
+
+5. Select the tools that you want to use; for example, **List issues**.
+
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/model-context-protocol-github-tools-list.png" alt-text="Screenshot that shows the MCP GitHub tools." lightbox="media/visualstudio/model-context-protocol-github-tools-list.png":::
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+
+:::image type="content" source="media/vs-2022/mcp-servers/model-context-protocol-github-tools-list.png" alt-text="Screenshot that shows MCP GitHub tools." lightbox="media/vs-2022/mcp-servers/model-context-protocol-github-tools-list.png":::
+
+:::moniker-end
+
+    
+
+6. Try a sample prompt: **List issues assigned to me on GitHub**.
+
+
+:::moniker range="visualstudio"
+
+7. Copilot asks for permission to use a tool that the MCP server made available to it. Select **Confirm** with the scope that you want to proceed with.
+
+:::image type="content" source="media/visualstudio/copilot-agent-tool-approval.png" alt-text="Screenshot that shows the confirmation options for agent tools." lightbox="media/visualstudio/copilot-agent-tool-approval.png":::
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+
+7. Copilot asks for permission to use a tool that the MCP server made available to it. Select **Allow** with the scope that you want to proceed with.
+
+:::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-tool-approval.png" alt-text="Screenshot that shows confirmation options for agent tools." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-tool-approval.png":::
+
+:::moniker-end
 
 ## Supported MCP capabilities
 
@@ -88,7 +158,7 @@ To add an MCP server from chat view:
 
 You can install an MCP server directly from the GitHub MCP server registry via Extensions in Visual Studio.
 
-1. From the Visual Studio menu, select **Extensions > MCP Regsitries...** to open the **MCP Server Manager**.
+1. From the Visual Studio menu, select **Extensions > MCP Registries...** to open the **MCP Server Manager**.
 
     :::image type="content" source="media/vs-2022/mcp-servers/model-context-protocol-registry.png" alt-text="Screenshot that shows the Extensions menu for MCP Registries." lightbox="media/vs-2022/mcp-servers/model-context-protocol-registry.png":::
        
@@ -175,7 +245,19 @@ If you have an existing `mcp.json` file and you check the file into your version
 
 When you save the file with valid syntax, the GitHub Copilot agent restarts and reloads the configured servers.
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/model-context-protocol-add-solution-item.png" alt-text="Screenshot that shows how to add the MCP configuration file location to Solution Items." lightbox="media/visualstudio/model-context-protocol-add-solution-item.png":::
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+
 :::image type="content" source="media/vs-2022/mcp-servers/model-context-protocol-add-solution-item.png" alt-text="Screenshot that shows adding the MCP configuration file location to Solution Items." lightbox="media/vs-2022/mcp-servers/model-context-protocol-add-solution-item.png":::
+
+:::moniker-end
+
+
 
 ### Tool lifecycle
 
@@ -192,22 +274,35 @@ As soon as Visual Studio discovers or adds a server:
 
 When you invoke a tool, Copilot requests confirmation to run the tool. The reason is that tools might run locally on your machine and perform actions that modify files or data.
 
+:::moniker range="visualstudio"
+
+After a tool invocation, on the chat pane, use the **Confirm** dropdown options. You can automatically confirm the specific tool for the current session, the current solution, or all future invocations.
+
+:::image type="content" source="media/visualstudio/copilot-agent-tool-approval.png" alt-text="Screenshot that shows how to manage agent tool approvals." lightbox="media/visualstudio/copilot-agent-tool-approval.png":::
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+
 After a tool invocation, on the chat pane, use the **Allow** dropdown options. You can automatically confirm the specific tool for the current session, the current solution, or all future invocations.
 
 :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-tool-approval.png" alt-text="Screenshot that shows managing agent tool approvals." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-tool-approval.png":::
 
+:::moniker-end
+
 :::moniker range="visualstudio"
 
-You can reset tool confirmation selections in the **Tools** > **Options** pane, under the **All Settings** > **GitHub** > **Copilot** > **Tools** section.
+You can reset tool confirmation selections in the **Tools** > **Options** dialog, in the **All Settings** > **GitHub** > **Copilot** > **Tools** section.
 
-:::image type="content" source="media/visualstudio/copilot-agent-mode/copilot-agent-tool-config-options.png" alt-text="Screenshot that shows tool configuration settings for GitHub Copilot.":::
+:::image type="content" source="media/visualstudio/copilot-agent-tool-config.png" alt-text="Screenshot that shows Copilot tool configuration settings." lightbox="media/visualstudio/copilot-agent-tool-config.png":::
 
 :::moniker-end
+
 :::moniker range="<=vs-2022"
-      
+
 You can reset tool confirmation selections in the **Tools** > **Options** dialog, under the **GitHub** > **Copilot** section in the **Tools** group.
 
-:::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-tool-config.png" alt-text="Screenshot that shows tool configuration settings.":::
+:::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-tool-config.png" alt-text="Screenshot that shows tool configuration settings." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-tool-config.png":::
 
 :::moniker-end
 

@@ -2,7 +2,7 @@
 title: "Security/versioning/manifest issues (ClickOnce)"
 description: Learn about issues with ClickOnce security, application versioning, and manifest syntax and semantics that can cause a ClickOnce deployment not to succeed.
 ms.date: "11/04/2016"
-ms.topic: article
+ms.topic: troubleshooting-general
 dev_langs:
   - "VB"
   - "CSharp"

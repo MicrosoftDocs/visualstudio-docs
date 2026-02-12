@@ -2,7 +2,7 @@
 title: Preview code changes
 description: Learn how to use the Preview Changes window to go over the modifications that are going to be made to your project before you accept them.
 ms.date: 12/16/2016
-ms.topic: article
+ms.topic: how-to
 author: Mikejo5000
 ms.author: mikejo
 manager: mijacobs
@@ -10,7 +10,7 @@ ms.subservice: general-ide
 f1_keywords:
 - vs.codefix.previewchanges
 ---
-# Preview Changes window
+# Preview code changes
 
 When using various [Quick Actions](../ide/quick-actions.md) or [Refactoring](../ide/refactoring-in-visual-studio.md) tools in Visual Studio, it is often possible to preview changes that are going to be made to your project prior to accepting them. The **Preview Changes** window is where this is done.  
 

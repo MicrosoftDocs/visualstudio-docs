@@ -1,6 +1,6 @@
 ---
 title: Generate code metrics from the IDE or command line
-ms.date: 04/14/2025
+ms.date: 01/22/2026
 description: Learn how to generate code metrics data in Visual Studio. See how to use Solution Explorer, a rule set file, the command line, or a menu command.
 ms.topic: how-to
 helpviewer_keywords:
@@ -19,7 +19,7 @@ You can generate code metrics data in three ways:
 
 - By enabling [.NET code-quality analyzers](#net-code-quality-analyzers-code-metrics-rules) and enabling the four code metrics (maintainability) rules it contains.
 
-- By choosing the [**Analyze** > **Calculate Code Metrics**](#calculate-code-metrics-menu-command) menu command within Visual Studio.
+- By choosing the command or button to analyze code metrics in Visual Studio. Results are displayed in the Code Metrics window.
 
 - From the [command line](#command-line-code-metrics) for C# and Visual Basic projects.
 
@@ -60,10 +60,29 @@ You can configure the thresholds at which the code metrics rules fire.
    </ItemGroup>
    ```
 
-## Calculate Code Metrics menu command
+## Calculate Code Metrics
 
-Generate code metrics for one or all of your open projects in the IDE by using the **Analyze** > **Calculate Code Metrics** menu.
+Generate code metrics for one or all of your open projects in the IDE by using the Code Metrics window.
 
+::: moniker range="visualstudio"
+### Generate code metrics for a solution or project
+
+You can generate code metrics results for an entire solution or project using the following method:
+
+1. In **Solution Explorer**, set the scope of results to either a solution or project by selecting either the solution or project.
+
+1. From the menu bar, select **View** > **Other Windows** > **Code Metrics**.
+
+   The Code Metrics Results window opens.
+
+1. In the **Code Metrics Results** window, select the **Calculate Code Metrics for Solution** button.
+
+   The results are generated. To view the results details, expand the tree in the **Hierarchy** column.
+
+   ![Screenshot of the Code Metrics window.](../code-quality/media/visualstudio/code-metrics-window.png)
+::: moniker-end
+
+::: moniker range="vs-2022"
 ### Generate code metrics results for an entire solution
 
 You can generate code metrics results for an entire solution in any of the following ways:
@@ -83,6 +102,7 @@ The results are generated and the **Code Metrics Results** window is displayed. 
 1. From the menu bar, select **Analyze** > **Calculate Code Metrics** > **For Selected Project(s)**.
 
 The results are generated and the **Code Metrics Results** window is displayed. To view the results details, expand the tree in the **Hierarchy**.
+::: moniker-end
 
 ## Command-line code metrics
 
@@ -200,10 +220,10 @@ The generated XML output takes the following format:
 
 If you don't want to install the NuGet package, you can generate and use the *Metrics.exe* executable directly. To generate the *Metrics.exe* executable:
 
-1. Clone the [dotnet/roslyn-analyzers](https://github.com/dotnet/roslyn-analyzers) repo.
+1. Clone the [dotnet/roslyn](https://github.com/dotnet/roslyn) repo.
 2. Open Developer Command Prompt for Visual Studio as an administrator.
-3. From the root of the **roslyn-analyzers** repo, execute the following command: `Restore.cmd`
-4. Change the directory to *src\Tools\Metrics*.
+3. From the root of the **roslyn** repo, execute the following command: `Restore.cmd`
+4. Change the directory to *src/RoslynAnalyzers/Tools/Metrics*.
 5. Execute the following command to build the **Metrics.csproj** project:
 
    ```shell

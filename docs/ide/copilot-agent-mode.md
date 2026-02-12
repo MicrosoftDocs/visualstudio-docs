@@ -1,7 +1,7 @@
 ---
 title: Use Agent Mode
 description: Use the GitHub Copilot agent to iterate on code in Visual Studio by making code edits, running commands, and reading error/build context.
-ms.date: 11/07/2025
+ms.date: 11/24/2025
 ms.update-cycle: 180-days
 ms.topic: get-started
 author: anandmeg
@@ -9,7 +9,7 @@ ms.author: meghaanand
 ms.manager: mijacobs
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
-monikerRange: '>=vs-2022'
+
 ---
 # Get started with GitHub Copilot agent mode
 
@@ -29,39 +29,95 @@ Follow these steps to get started:
 
 1. Open the Copilot Chat window, select **Ask** to expand the mode dropdown, and then select **Agent**.
 
-    :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-dropdown.png" alt-text="Screenshot that shows the Copilot agent mode selector." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-dropdown.png":::
+:::moniker range="visualstudio"
 
-1. Enter your prompt, and then select **Send** or select the <kbd>Enter</kbd> key to submit it. You can specify a high-level requirement, and you don't have to specify which files to work on.
+:::image type="content" source="media/visualstudio/copilot-agent-mode/copilot-agent-dropdown.png" alt-text="Screenshot of the Copilot agent mode selector." lightbox="media/visualstudio/copilot-agent-mode/copilot-agent-dropdown.png":::
 
-1. Agent mode might invoke multiple tools to accomplish different tasks. Optionally, select the **Tools** icon to configure which additional tools the agent can use for responding to your request.
+:::moniker-end
 
-    :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-tools-list.png" alt-text="Screenshot that shows additional tools that agent mode uses." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-tools-list.png":::
+:::moniker range="<=vs-2022"
 
-1. Copilot requests confirmation before running a terminal command or using a tool that isn't built in.
+:::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-dropdown.png" alt-text="Screenshot that shows the Copilot agent mode selector." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-dropdown.png":::
 
-    :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-command-approval.png" alt-text="Screenshot that shows agent command approval." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-command-approval.png":::
+:::moniker-end
 
-1. Copilot automatically detects issues in code edits or terminal commands, and then takes action. The process repeats until the issues are resolved.
+2. Enter your prompt, and then select **Send** or select the <kbd>Enter</kbd> key to submit it. You can specify a high-level requirement, and you don't have to specify which files to work on.
 
-1. As Copilot processes your request, it streams the suggested code edits directly in the editor. Review the suggested edits and either:
+3. Agent mode might invoke multiple tools to accomplish different tasks. Optionally, select the **Tools** icon to configure which additional tools the agent can use for responding to your request.
+
+:::moniker range="visualstudio"
+    
+:::image type="content" source="media/visualstudio/copilot-agent-mode/copilot-agent-tools-list.png" alt-text="Screenshot that shows additional tools that agent mode uses." lightbox="media/visualstudio/copilot-agent-mode/copilot-agent-tools-list.png":::
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+    
+:::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-tools-list.png" alt-text="Screenshot that shows additional tools that agent mode uses." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-tools-list.png":::
+
+:::moniker-end
+
+4. Copilot requests confirmation before running a terminal command or using a tool that isn't built in.
+
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/copilot-agent-mode/copilot-agent-command-approval.png" alt-text="Screenshot that shows the commands for agent approval." lightbox="media/visualstudio/copilot-agent-mode/copilot-agent-command-approval.png":::
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+
+:::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-command-approval.png" alt-text="Screenshot that shows agent command approval." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-command-approval.png":::
+
+:::moniker-end
+
+5. Copilot automatically detects issues in code edits or terminal commands, and then takes action. The process repeats until the issues are resolved.
+
+6. As Copilot processes your request, it streams the suggested code edits directly in the editor. Review the suggested edits and either:
 
    - Keep or discard the suggested edits as a whole in **Total changes** in the chat window.
 
-     :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-keep-undo.png" alt-text="Screenshot that shows a list of suggested edits." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-keep-undo.png":::
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/copilot-agent-mode/copilot-agent-keep-undo.png" alt-text="Screenshot that shows a list of suggested edits." lightbox="media/visualstudio/copilot-agent-mode/copilot-agent-keep-undo.png":::
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+
+:::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-keep-undo.png" alt-text="Screenshot that shows a list of suggested edits." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-keep-undo.png":::
+
+:::moniker-end
 
    - Review individual file diffs and apply them selectively.
 
-1. If you want to review individual code changes that the agent made, you can either:
+:::moniker range="visualstudio"
+
+7. If you want to review individual code changes that the agent made, you can review the specific change at each step.
+
+:::image type="content" source="media/visualstudio/copilot-agent-mode/copilot-agent-stepwise-edits.png" alt-text="Screenshot that shows accessing individual edit diffs with the Copilot agent." lightbox="media/visualstudio/copilot-agent-mode/copilot-agent-stepwise-edits.png":::
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+
+7. If you want to review individual code changes that the agent made, you can either:
 
    - Review the specific change at each step.
 
-     :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-stepwise-edits.png" alt-text="Screenshot that shows accessing individual edit diffs with the Copilot agent." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-stepwise-edits.png":::
+:::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-stepwise-edits.png" alt-text="Screenshot that shows accessing individual edit diffs with the Copilot agent." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-stepwise-edits.png":::
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
 
    - Review the cumulative changes from the last time that changes were kept or undone.
 
      :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-cumulative-edits.png" alt-text="Screenshot that shows accessing cumulative edit diffs with the Copilot agent." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-cumulative-edits.png":::
 
-1. Continue to iterate on the code changes to refine the edits or implement more features.
+:::moniker-end
+
+8. Continue to iterate on the code changes to refine the edits or implement more features.
 
 ## Understand agent mode tools
 
@@ -72,7 +128,17 @@ Agent mode can use the following tools for responding to a request:
 
 To view and manage the tools that are available in agent mode, select the **Tools** icon in the chat window.
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/copilot-agent-mode/copilot-agent-partial-tools-list.png" alt-text="Screenshot that shows the tool selector for the Copilot agent." lightbox="media/visualstudio/copilot-agent-mode/copilot-agent-partial-tools-list.png":::
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+
 :::image type="content" source="media/vs-2022/mcp-servers/copilot-agent-partial-tools.png" alt-text="Screenshot that shows the tool selector for the Copilot agent." lightbox="media/vs-2022/mcp-servers/copilot-agent-partial-tools.png":::
+
+:::moniker-end
 
 Based on the outcome of a tool, Copilot might invoke other tools to accomplish the overall request. For example, if a code edit results in syntax errors in the file, Copilot might explore another approach and suggest different code changes.
 
@@ -82,7 +148,17 @@ Additional tools that you add by running MCP servers aren't automatically enable
 
 When Copilot invokes a tool, it requests confirmation to run the tool. The reason is that tools might run locally on your machine and perform actions that modify files or data.
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/copilot-agent-mode/copilot-agent-command-approval.png" alt-text="Screenshot that shows a tool confirmation request." lightbox="media/visualstudio/copilot-agent-mode/copilot-agent-command-approval.png":::
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+
 :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-command-approval.png" alt-text="Screenshot that shows a tool confirmation request." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-command-approval.png":::
+
+:::moniker-end
 
 In the chat window, after a tool invocation, use the **Allow** dropdown options to automatically confirm the specific tool for the current session or solution, or all future invocations.
 
@@ -93,6 +169,7 @@ You can reset tool confirmation selections in the **Tools** > **Options** pane. 
 :::image type="content" source="media/visualstudio/copilot-agent-mode/copilot-agent-tool-config-options.png" alt-text="Screenshot that shows GitHub Copilot tool call settings in Visual Studio.":::
 
 :::moniker-end
+
 :::moniker range="<=vs-2022"
 
 You can reset tool confirmation selections in the **Tools** > **Options** dialog. Expand the **GitHub** > **Copilot** > **Tools** section.
@@ -105,7 +182,17 @@ You can reset tool confirmation selections in the **Tools** > **Options** dialog
 
 Copilot lists the edited files in the **Total changes** list in the chat window.
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/copilot-agent-mode/copilot-agent-keep-undo.png" alt-text="Screenshot that shows a list of edited files." lightbox="media/visualstudio/copilot-agent-mode/copilot-agent-keep-undo.png":::
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+
 :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-keep-undo.png" alt-text="Screenshot that shows a list of edited files." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-keep-undo.png":::
+
+:::moniker-end
 
 Select each file to review changes individually. You can keep or undo edits made to each chunk of code.
 
@@ -115,7 +202,17 @@ Alternatively, in the **Total changes** list, select **Keep** or **Undo** for al
 
 As you request code edits, you might want to revert some changes. To revert, select **Restore** next to the checkpoint before the prompt that includes changes you don't want.
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/copilot-agent-mode/copilot-agent-checkpoint.png" alt-text="Screenshot that shows reverting edits." lightbox="media/visualstudio/copilot-agent-mode/copilot-agent-checkpoint.png":::
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+
 :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-checkpoint.png" alt-text="Screenshot that shows reverting edits." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-checkpoint.png":::
+
+:::moniker-end
 
 Currently, the Visual Studio Copilot agent doesn't support stepwise undo or redo.
 
@@ -171,7 +268,7 @@ When you enable Planning, a dedicated set of internal tools becomes active. Thes
 | **record_observation** | Captures runtime results or insights that influence next actions. |
 | **finish_plan** | Finalizes the plan once all steps are complete. |
 
-> These tools allow Copilot to manage multi-step workflows incrementally, maintain execution state, and stay aligned with user intent.
+These tools allow Copilot to manage multi-step workflows incrementally, maintain execution state, and stay aligned with user intent.
 
 ### Enabling and managing Planning tools
 
@@ -196,7 +293,7 @@ To enable **Planning** in Visual Studio 2022 version 17.14 or later:
 
 After you enable planning, the **Planning** tools appear in the **Tools** list in the chat window:
 
-:::image type="content" source="media/vs-2022/copilot-agent-mode/planning-tools-list.png" alt-text="Screenshot that shows Planning tools group with all subtools enabled in agent mode." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-checkpoint.png":::
+:::image type="content" source="media/vs-2022/copilot-agent-mode/planning-tools-list.png" alt-text="Screenshot that shows Planning tools group with all subtools enabled in agent mode." lightbox="media/vs-2022/copilot-agent-mode/planning-tools-list.png":::
 
 You can selectively disable the planning tool set directly in the Tools list in the chat window. If you need to disable planning tools, we recommend disabling all, not just one. Changes apply immediately to your current chat session.
 

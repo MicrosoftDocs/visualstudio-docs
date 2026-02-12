@@ -3,8 +3,8 @@ title: Azure DevOps benefits eligibility for subscribers
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 11/05/2025
-ms.topic: article
+ms.date: 01/14/2026
+ms.topic: concept-article
 description: Check if your Visual Studio subscription level makes you eligible for Azure DevOps benefits in each organization in which you're a member.
 ---
 # Azure DevOps for Visual Studio subscribers
@@ -22,15 +22,14 @@ When you sign in to Azure DevOps using either the identity that you used for act
 
 ## Eligibility
 
-| Subscription Level | Channels    | Benefit | Renewable? |
-|--------------------|-------------|---------|------------|
-| Visual Studio Enterprise (Standard, monthly cloud) | VL, Azure, Retail,  selected NFR<sup>1</sup>  | Azure Boards & Repos (Basic<sup>2</sup>), Azure Test Plans, self-hosted parallel jobs |  Yes |
+| Subscription Level | Channels | Benefit | Renewable? |
+| ------------------ | ----------- | ------- | ---------- |
+| Visual Studio Enterprise (Standard, monthly cloud) | VL, Azure, Retail,  selected NFR<sup>1</sup>  | Azure Boards & Repos (Basic<sup>2</sup>), Azure Test Plans, self-hosted parallel jobs | Yes |
 | Visual Studio Enterprise subscription with GitHub Enterprise | VL | Azure Boards & Repos (Basic<sup>2</sup>), Azure Test Plans, self-hosted parallel jobs | Yes |
 | Visual Studio Professional (Standard, monthly cloud) | VL, Azure, Retail | Azure Boards & Repos (Basic<sup>2</sup>) | Yes |
 | Visual Studio Professional subscription with GitHub Enterprise | VL | Azure Boards & Repos (Basic<sup>2</sup>) | Yes |
 | Visual Studio Test Professional (Standard) | VL, Retail | Azure Boards & Repos (Basic<sup>2</sup>), Azure Test Plans | Yes |
 | MSDN Platforms (Standard) | VL, Retail | Azure Boards & Repos (Basic<sup>2</sup>), Azure Test Plans | Yes |
-||
 
 <sup>1</sup>  *Includes:  Not for Resale (NFR - including Independent Software Vendor (ISV), Alumni, Xbox Basic, and Bug Bounty), Most Valuable Professional (MVP), Regional Director (RD), Visual Studio Industry Partner (VSIP), Microsoft AI Cloud Partner Program (MAICPP, Enterprise), Microsoft Certified Trainer (MCT) Software & Services Developer, Full-Time Employee (FTE).
   Excludes: Azure DevOps Tools for Teaching (ADTFT), Student Ambassadors.*
@@ -45,9 +44,9 @@ If you don't see all your subscriptions, you might have one or more assigned to 
 
 ## Frequently asked questions
 
-### Q: As a Visual Studio Enterprise subscriber, do I get more parallel jobs for TFS and Azure Pipelines?
+### Q: As a Visual Studio Enterprise subscriber, do I get more parallel jobs in Azure DevOps?
 
-A:  Yes. Visual Studio Enterprise subscribers get one parallel job in Team Foundation Server 2017 or later and one self-hosted parallel job in each Azure DevOps Services organization where they're a member.
+A:  Yes. Visual Studio Enterprise subscribers get one extra self-hosted parallel job in each Azure DevOps Services organization where they're a member.
 
 ### Q: Can I also use Azure DevOps Server with my subscription?  
 
@@ -56,10 +55,47 @@ A: Yes. Page 24 of the Licensing Whitepaper for the [Microsoft Visual Studio Pro
 "Visual Studio Enterprise Subscription, Visual Studio Professional Subscription, Visual Studio Test Professional Subscription, MSDN Platforms, and all Visual Studio 
 cloud subscribers can download and deploy one instance of Azure DevOps Server. These same Visual Studio subscribers are granted an Azure DevOps Server User CAL to be used within their organization (it isn't valid for use of Azure DevOps Server acquired by a different organization)."
 
+### Q: What does my Dev Essentials developer program include?
+
+A: [Visual Studio Dev Essentials](https://visualstudio.microsoft.com/dev-essentials/) is a free developer program offering tools, cloud services, training, and software trials. It includes Azure DevOps Basic Level, such as Free Git repos, Agile planning tools and hosted builds for any language-but **it isn't a Visual Studio Subscription** and it **doesn't** include subscription-level Azure DevOps entitlements such as "Basic + Test Plans" or parallel jobs.
+
+## Q: What Azure DevOps access levels are available for Dev Essentials users?
+
+A: Visual Studio Dev Essentials members must use Azure DevOps through the platform's built-in free tiers:
+
+| Access Level | Available to Dev Essentials? | Description |
+| ------------ | ---------------------------- | ----------- |
+| Stakeholder | Yes (unlimited, free) | View work items, dashboards, discounts; limited access to repos and pipelines. |
+| Basic | Yes, ***if assigned one of the organization's 5 free Basic seats*** | Note included as a Dev Essentials entitlement; assignment is at the organization owner's discretion. |
+| Basic + Test Plan | No | Requires a paid license or qualifying Visual Studio Subscription. [You might try test plans for free](https://learn.microsoft.com/azure/devops/organizations/billing/try-additional-features-vs). |
+
+### Q: What is "Azure DevOps organization" in Dev Essentials?
+
+A: An **Azure DevOps organization** is the top-level container that holds project, repos, pipelines, artifacts, and access assignments. Dev Essentials doesn't create a special or separate organization for you. Instead:
++ Any Dev Essentials member can **create their own organization** at https://dev.azure.com using their Microsoft account. 
++ You can also be added to **someone else's organization**.
++ The organization owner—not Dev Essentials membership—determines your access level within that organization.
+
+Thus, when you refer to "the Azure DevOps organization" as a Dev Essentials user, it means: **Any Azure DevOps organization where you are a member-created by you or by someone else**. 
+
+Dev Essentials doesn't automatically upgrade your access; you receive Stakeholder access unless an organization assigns you one of its free Basic licenses.
+
+### Q: Do Dev Essentials members receive Basic + Test Plans automatically?
+
+A: No. Only Visual Studio Subscription subscribers receive automatic access-level elevation. As a Dev Essentials user, you rely on free access tiers and organization assignments. [Try test plans for free](https://learn.microsoft.com/azure/devops/organizations/billing/try-additional-features-vs).
+
+### Q: Can Dev Essentials users contribute to code, pipelines, and boards?
+
+A: Yes, **if** the organization assigns users a Basic license. Otherwise, users remain Stakeholders with limited capabilities. 
+
+### Do Visual Studio subscribers need manual upgrades to Basic?
+
+A: No. Azure DevOps detects your subscription automatically and applies your correct entitlement upon sign-in. 
+
 ## Support resources
 
 + For assistance with sales, subscriptions, accounts, and billing for Visual Studio Subscriptions, see Visual Studio [Subscriptions support](https://aka.ms/vssubscriberhelp).
-+ Have a question about Visual Studio IDE, Azure DevOps, or other Visual Studio products or services?  Visit [Visual Studio support](https://visualstudio.microsoft.com/support/).
++ Have a question about Visual Studio IDE, Azure DevOps, or other Visual Studio products or services? Visit [Visual Studio support](https://visualstudio.microsoft.com/support/).
 + [Azure DevOps documentation](/azure/devops/).
 
 ## See also

@@ -21196,6 +21196,120 @@
       "source_path": "docs/ide/reference/toolbox.md",
       "redirect_url": "/visualstudio/ide/toolbox",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/debugging-user-interface-reference.md",
+      "redirect_url": "/visualstudio/debugger/find-your-debugging-task",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/choose-breakpoints-dialog-box.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/debugger/choose-breakpoints-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/configure-firewall-for-remote-debugging-dialog-box.md",
+      "redirect_url": "/visualstudio/debugger/configure-the-windows-firewall-for-remote-debugging",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/dataset-visualizer-dialog-box.md",
+      "redirect_url": "/visualstudio/debugger/view-data-in-tabular-visualizer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/symbol-load-information-dialog-box.md",
+      "redirect_url": "/visualstudio/debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/when-breakpoint-is-hit-dialog-box.md",
+      "redirect_url": "/visualstudio/debugger/using-breakpoints",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/string-visualizer-dialog-box.md",
+      "redirect_url": "/visualstudio/debugger/view-strings-visualizer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/debugging-options-dialog-box.md",
+      "redirect_url": "/visualstudio/debugger/how-to-specify-debugger-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/debugger-settings-and-preparation.md",
+      "redirect_url": "/visualstudio/debugger/how-to-specify-debugger-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/just-in-time-debugging-options-dialog-box.md",
+      "redirect_url": "/visualstudio/debugger/debug-using-the-just-in-time-debugger",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/output-window-debugging-options-dialog-box.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/debugger/output-window-debugging-options-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/general-debugging-options-dialog-box.md",
+      "redirect_url": "/visualstudio/debugger/how-to-specify-debugger-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/debugger-project-settings.md",
+      "redirect_url": "/visualstudio/ide/managing-project-and-solution-properties",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/documents-environment-options-dialog-box.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/ide/reference/documents-environment-options-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/find-and-replace-environment-options-dialog-box.md",
+      "redirect_url": "/visualstudio/ide/finding-and-replacing-text",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/options-text-editor-general.md",
+      "redirect_url": "/visualstudio/ide/options-text-editor-general"
+    },
+    {
+      "source_path": "docs/ide/reference/options-text-editor-fsharp-advanced.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/ide/reference/options-text-editor-fsharp-advanced",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/options-text-editor-fsharp-code-fixes.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/ide/reference/options-text-editor-fsharp-code-fixes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/options-text-editor-fsharp-intellisense.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/ide/reference/options-text-editor-fsharp-intellisense",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/accounts-environment-options-dialog-box.md",
+      "redirect_url": "/visualstudio/ide/accounts-environment-options-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/general-environment-options-dialog-box.md",
+      "redirect_url": "/visualstudio/ide/general-environment-options-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/fonts-and-colors-environment-options-dialog-box.md",
+      "redirect_url": "/visualstudio/ide/fonts-and-colors-environment-options-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/options-text-editor-basic-visual-basic.md",
+      "redirect_url": "/visualstudio/ide/options-text-editor-basic-visual-basic",
+      "redirect_document_id": false
     }
   ]
 }

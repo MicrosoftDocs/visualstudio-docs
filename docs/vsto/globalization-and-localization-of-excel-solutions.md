@@ -2,7 +2,7 @@
 title: "Globalization and localization of Excel solutions"
 description: Learn about special considerations for Microsoft Office Excel solutions that will be run on computers that have non-English settings for Windows.
 ms.date: "02/02/2017"
-ms.topic: article
+ms.topic: concept-article
 dev_langs:
   - "VB"
   - "CSharp"

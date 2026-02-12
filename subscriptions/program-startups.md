@@ -4,7 +4,7 @@ author: joseb-rdc
 ms.author: amast
 manager: shve
 ms.date: 11/19/2025
-ms.topic: article
+ms.topic: concept-article
 description:  Details on subscriptions offered through the Microsoft for Startups program.
 ---
 
@@ -32,7 +32,7 @@ A:  These subscriptions are monthly subscriptions, with limited benefits. Subscr
 For details, see our [pricing details page](https://visualstudio.microsoft.com/vs/pricing-details/)
 
 > [!NOTE]
-> Visual Studio 2022 for Mac and previous versions are included. For more information about Visual Studio for Mac, visit ["What happened to Visual Studio for Mac?"](https://learn.microsoft.com/visualstudio/releases/2022/what-happened-to-vs-for-mac)
+> Visual Studio 2022 for Mac and previous versions are included. For more information about Visual Studio for Mac, visit ["What happened to Visual Studio for Mac?"](/lifecycle/announcements/visual-studio-mac-end-of-servicing)
 
 ## Resources
 

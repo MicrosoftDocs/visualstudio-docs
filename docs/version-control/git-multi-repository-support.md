@@ -1,8 +1,8 @@
 ---
-title: Work with multiple repositories
+title: Work with Multiple Repositories
 titleSuffix: ""
 description: View, manage, and debug your code across 10 active repos at the same time by using the Git tooling within Visual Studio.
-ms.date: 03/14/2025
+ms.date: 01/14/2026
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
@@ -14,14 +14,14 @@ ms.custom: sfi-image-nochange
 ---
 # Work with multiple repos
 
-As one of our most [highly requested features in the Developer Community](https://developercommunity.visualstudio.com/t/allow-multiple-git-repositories-to-be-active-at-on/351156), we've added multi-repository support to Visual Studio 2022, starting with [version 17.4](/visualstudio/releases/2022/release-notes-v17.4).
+Multi-repository support is available in Visual Studio 2022 [version 17.4](/visualstudio/releases/2022/release-notes-v17.4) and later. It's one of the most [highly requested features in the Developer Community](https://developercommunity.visualstudio.com/t/allow-multiple-git-repositories-to-be-active-at-on/351156). You can have up to 25 active Git repositories at one time in Visual Studio. 
 
-Now, you can have up to 25 active Git repositories at one time in Visual Studio. Multi-repo support means that you can work with a solution that spans more than one repository, and apply Git operations across several repositories at the same time. For example, in a large web project, you might need different repositories to manage work done on the frontend, the API, the database, the documentation, along with various libraries and dependencies. Before multi-repo support, you might have had to open multiple instances of Visual Studio to work between repos. Starting with [version 17.4](/visualstudio/releases/2022/release-notes-v17.4), you can manage, view, and debug them all with one instance of Visual Studio.
+Multi-repo support means you can work with a solution that spans more than one repository, and apply Git operations across several repositories at the same time. For example, in a large web project, you might need different repositories to manage work done on the frontend, the API, the database, the documentation, along with various libraries and dependencies. Before multi-repo support, you might have multiple instances of Visual Studio open to work between repos. Now you can manage, view, and debug all your open repos with one instance of Visual Studio.
 
 > [!NOTE]
 > To see multi-repository support in action, view the [Use multiple Git repositories in Visual Studio](https://www.youtube.com/watch?v=ctnlQzX2YwI&t=34s) video on YouTube.
 
-If you have more than one GitHub account, you can easily switch between them. See [Add your GitHub accounts to your keychain](../ide/work-with-github-accounts.md). You might have access to different repos when you're signed in with a different account. Visual Studio automatically updates the git configuration to track which account is used for each repo, so you don't have to worry about this while you're working.
+If you have more than one GitHub account, you can easily switch between them. For more information, see [Add your GitHub accounts to your keychain](../ide/work-with-github-accounts.md). You might have access to different repos when you're signed in with a different account. Visual Studio automatically updates the git configuration to track which account is used for each repo.
 
 ## Branch management and track changes
 
@@ -37,7 +37,7 @@ Then, as you make changes, the **Git Changes** window tracks your work separated
 
 :::image type="content" source="media/vs-2022/multi-repo-track-changes.png" alt-text="Screenshot of the Git Changes window that tracks changes to your work.":::
 
-You can use the branch pickers in the status bar and the **Git Changes** tool window to switch branches. All you need to do is select the branch you’d like to check out. Also, you can perform inner loop branching operations like merging, rebasing, renaming, deleting, and comparing branches by right-clicking the branch to open the context menu.
+You can use the branch pickers in the status bar and the **Git Changes** tool window to switch branches. All you need to do is select the branch you'd like to check out. Also, you can perform inner loop branching operations like merging, rebasing, renaming, deleting, and comparing branches by right-clicking the branch to open the context menu.
 
 :::image type="content" source="media/vs-2022/multi-repo-branch-picker.png" alt-text="Screenshot of the branch picker functionality in the Git Changes tool window.":::
 
@@ -47,15 +47,34 @@ And, you can perform more advanced repository and branch management operations i
 
 ## Network operations
 
-Once you’re ready to commit, the network operations dialog makes it easy to specify the exact branch you’re pushing to and reorder your pushes. This same dialog allows you to exercise more control over other network operations, like [fetch and pull](git-fetch-pull-sync.md).
+After you're ready to commit your changes, the network operations dialog makes it easy to specify the exact branch you're pushing to and reorder your pushes. This same dialog allows you to exercise more control over other network operations, like [fetch and pull](git-fetch-pull-sync.md).
 
 :::image type="content" source="media/vs-2022/multi-repo-push-network-operation.png" alt-text="Screenshot showing a push action in the network operations dialog.":::
 
 ## Repository settings
 
-You can use the **Git Repository Settings** page to specify your options for each repository. For example, you can specify whether to prune remote branches during fetch.
+::: moniker range="visualstudio"
 
-:::image type="content" source="media/vs-2022/multi-repo-git-repository-settings.png" alt-text="Screenshot of the Git Repository Settings option in Visual Studio.":::
+You can use the **Git Repository Config** options to configure a specific repository. For example, you can specify whether to prune remote branches during fetch.
+
+In the **Tools** > **Options** pane, expand the **All Settings** > **Source Control** > **Git Settings** > **Git Repository Config** section. Use the **Repository**  dropdown list to select the repo to configure.
+
+:::image type="content" source="media/visualstudio/multi-repo-git-repository-settings.png" alt-text="Screenshot of the Git Repository Config options in Visual Studio.":::
+
+You can also configure the same options for all repositories in the **Git Settings** > **Git Global Config** section.
+
+::: moniker-end
+::: moniker range="vs-2022"
+
+You can use the **Git Repository Settings** options to configure the repo that's currently open in Visual Studio. For example, you can specify whether to prune remote branches during fetch.
+
+In the **Tools** > **Options** dialog, expand the **Source Control** > **Git Repository Settings** > **General** section.
+
+:::image type="content" source="media/vs-2022/multi-repo-git-repository-settings.png" alt-text="Screenshot of the Git Repository Settings, General options in Visual Studio.":::
+
+You can configure some of the same options for all repositories in the **Source Control** > **Git Global Settings** section.
+
+::: moniker-end
 
 ## Activate multiple repos from a solution or a folder
 
@@ -69,22 +88,21 @@ Here's how to create a solution with multiple repositories:
 
 1. Right-click the solution in **Solution Explorer**, and then select **Add** > **[Existing Project](../ide/use-solution-explorer.md#the-add-menu)**.
 
-1. Select the .csproj file for another project that has a repository initialized.
+1. Select the _.csproj_ file for another project that has a repository initialized.
 
    After the project's added, Visual Studio detects and activates the second repo. Then, you can adjust the Project References as necessary.
 
-If you create a new project in an existing solution with other projects that already have local or remote repos, you must initialize the new project with Git [`git init`](https://git-scm.com/docs/git-init) before it shows as an additional repo in the solution.
+If you create a new project in an existing solution with other projects that have local or remote repos, you must initialize the new project with [git init](https://git-scm.com/docs/git-init). After you initialize the new project, you can see the repos used by the other projects in the solution.
 
 ### Use a folder
 
-If the repositories you want to use are independent of each other and don't need to be part of the same solution, you might want to use a folder to open them.
+If the repositories you need are independent and don't need to be in the same solution, you can use a folder to open them.
 
-To do so, you can place the local repo directories in the same parent folder and then use the **Open a local folder** option from the Visual Studio launch page to open the parent folder. Visual Studio detects and activates each repo, and then tracks changes by repo (as shown in the following screenshot).
+Place the local repo directories in the same parent folder. Use the **Open a local folder** option from the Visual Studio launch page to open the parent folder. Visual Studio detects and activates each repo, and then tracks changes by repo (as shown in the following screenshot).
 
 :::image type="content" source="media/vs-2022/multi-repo-open-folder-solution.png" alt-text="Screenshot showing how you can activate multiple repositories from a folder in Visual Studio.":::
 
 ## Related content
 
-Want to know more about how we'll develop further Git functionality within Visual Studio 2022, or to share your feedback with us on the multi-repo feature? See the "Building with your feedback", "What's next", and "Let us know what you think" sections of the [Multi-repository support released](https://devblogs.microsoft.com/visualstudio/multi-repository-support-released/) blog post.
-
-Next, to continue your journey with repo management, see [Resolve merge conflicts in Visual Studio](git-resolve-conflicts.md).
+- [Multi-repository support released](https://devblogs.microsoft.com/visualstudio/multi-repository-support-released/)
+- [Resolve merge conflicts in Visual Studio](git-resolve-conflicts.md)

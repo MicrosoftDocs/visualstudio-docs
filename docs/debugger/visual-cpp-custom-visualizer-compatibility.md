@@ -3,7 +3,7 @@ title: "Visual C/C++ Custom Visualizer Compatibility"
 description: A new feature in Visual Studio 2019 might not be compatible with legacy C/C++ expression evaluator add-ins and custom visualizers. See this article for details.
 ms.date: "11/06/2025"
 
-ms.topic: article
+ms.topic: best-practice
 dev_langs:
   - "C++"
 helpviewer_keywords:

@@ -1,14 +1,14 @@
 ---
 title: Subscriptions admin support solutions 
 description: List of INCLUDEs files for Visual Studio subscriptions admin support widget content
-ms.topic: article
+ms.topic: faq
 robots: noindex, nofollow
 author: joseb-rdc 
 ms.author: amast 
-ms.date: 07/22/2025
+ms.date: 01/30/2026
 ---
 
-# Visual Studio subscriptions admin support widget content INCLUDES files
+# Visual Studio subscriptions admin support
 
 ## Managing agreements
 

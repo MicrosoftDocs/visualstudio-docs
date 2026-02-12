@@ -3,6 +3,8 @@ title: Edit and Continue in your C++ projects
 description: Edit and Continue is available for C++ projects. Learn what edits are supported, and how to can control whether, and when, your edits are applied.
 ms.date: "05/31/2018"
 ms.topic: how-to
+f1_keywords:
+  - "vs.debug.ENC.welcome"
 dev_langs:
   - "CSharp"
   - "VB"
@@ -24,7 +26,6 @@ ms.subservice: debug-diagnostics
 You can use Hot Reload, previously called Edit and Continue, in C++ projects. For information about the limitations of the feature, see [Supported Code Changes (C++)](../debugger/supported-code-changes-cpp.md).
 
 ::: moniker-end
-
 
 The [/Zo (Enhance Optimized Debugging)](/cpp/build/reference/zo-enhance-optimized-debugging) compiler option adds additional information to .pdb (symbol) files for binaries compiled without the [/Od (Disable (Debug))](/cpp/build/reference/od-disable-debug) option.
 

@@ -2,7 +2,7 @@
 title: "Worksheet host item"
 description: Learn that the Worksheet host item is a type that extends the Worksheet type from the primary interop assembly for Excel.
 ms.date: "02/02/2017"
-ms.topic: article
+ms.topic: concept-article
 dev_langs:
   - "VB"
   - "CSharp"

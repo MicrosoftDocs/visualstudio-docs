@@ -1,7 +1,7 @@
 ---
 title: Set debug and release configurations
 description: Set debug and release configurations in Visual Studio. You build the debug version for debugging and the release version for the final release distribution.
-ms.date: 01/21/2025
+ms.date: 01/30/2026
 ms.topic: how-to
 f1_keywords: 
   - vs.debug.builds
@@ -65,15 +65,17 @@ You can choose to generate symbol (.pdb) files and what debug information to inc
 Each project type may have a different way of setting these options.
 
 ::: moniker range=">=vs-2022"
-### Generate symbol files for a C# or ASP.NET Core project (.NET Core, .NET 5+ only)
+### Generate symbol files for a .NET Core, .NET 5+, or ASP.NET Core project
 
-For detailed information on project settings for debug configurations in C#, see [Project settings for a C# debug configuration](../debugger/project-settings-for-csharp-debug-configurations.md). (For .NET projects in Visual Basic, symbol files are configured the same as in .NET Framework.)
+For detailed information on project settings for debug configurations in C#, see [Project settings for a C# debug configuration](../debugger/project-settings-for-csharp-debug-configurations.md).
 
 1. In Solution Explorer, right-click the project and choose **Properties**.
 
-2. In the side pane, choose **Build** > **General**.
+2. In the side pane, choose **Build** > **General** (**Compile** > **General** for Visual Basic).
 
-3. In the **Optimize code** section, choose **Debug** or **Release**.
+3. In the **Enable optimizations** section, choose **Release**.
+
+   Typically, only the **Release** build is optimized. Optimization makes debugging more difficult.
 
 4. In the **Debug symbols** list, choose **PDB file, current platform**, **PBD file, portable**, or **Embedded**.
 
@@ -86,7 +88,7 @@ For detailed information on project settings for debug configurations in C#, see
    The compiler creates the symbol file(s) in the same folder as the executable or the main output file.
 ::: moniker-end
 
-### Generate symbol files for a C#, ASP.NET, or Visual Basic project (.NET Framework)
+### Generate symbol files for a .NET Framework or ASP.NET project
 
 For detailed information on project settings for debug configurations in C# or Visual Basic, see [Project settings for a C# debug configuration](../debugger/project-settings-for-csharp-debug-configurations.md) or [Project settings for a Visual Basic debug configuration](../debugger/project-settings-for-a-visual-basic-debug-configuration.md).
 

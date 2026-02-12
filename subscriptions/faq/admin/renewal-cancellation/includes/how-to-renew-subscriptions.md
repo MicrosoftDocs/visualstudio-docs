@@ -1,13 +1,13 @@
 ---
 title: How do I renew Visual Studio subscriptions?
 description: Learn how to renew retail, cloud, and Volume License subscriptions
-comment:  As of August 2023 this include file is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Jose Becerra and Larissa Crawford of Red Door Collaborative.
+comment:  As of August 2023 this include file is used to render marketing FAQ content for VS Subscriptions in the following portals - VSCom, Manage, and My portals. It was not used for learn.microsoft.com content at that time.  SMEs are Jose Becerra and Larissa Crawford of Red Door Collaborative and Aaron Mast.
 ms.topic: include
 ms.assetid: 00b82d16-6a80-42d1-8b71-e12047c6b50c
 ms.subservice: 
 author: joseb-rdc
 ms.author: amast
-ms.date: 12/19/2025
+ms.date: 01/30/2026
 ms.faqid: q4_1
 ---
 
@@ -31,6 +31,8 @@ If you currently have a retail subscription, there are two ways to renew:
 The subscription expiration date is one year from the purchase date, not the activation date. 
 
 There's a 30-day renewal grace period—that is, the period from when the Visual Studio Subscription expires to the point where the customer loses the option to renew at the renewal price. 
+
+Microsoft Store support is available by phone through the [Customer service phone numbers – Microsoft Support](https://support.microsoft.com/topic/customer-service-phone-numbers-c0389ade-5640-e588-8b0e-28de8afeb3f2) page or by chat using the [Store Assistant](https://www.microsoft.com/store/b/sale) on the Microsoft Store website.
 
 ### How to activate subscriptions
 After you purchase a Visual Studio subscription, you can begin the activation process from the payment confirmation page or confirmation email you received after your purchase. For activation steps, visit [How to activate subscriptions](https://learn.microsoft.com/visualstudio/subscriptions/buy-activate-retail#how-to-activate-subscriptions).

@@ -1,14 +1,14 @@
 ---
 title: Subscriptions support solutions 
 description: List of INCLUDEs files for Visual Studio subscriptions support widget content
-ms.topic: article
+ms.topic: troubleshooting-general
 robots: noindex, nofollow
 author: joseb-rdc
 ms.author: amast 
-ms.date: 11/20/2025
+ms.date: 01/30/2026
 ---
 
-# Visual Studio subscriptions support widget content INCLUDES files
+# Visual Studio subscriptions support
 
 ## Benefit activation
 
