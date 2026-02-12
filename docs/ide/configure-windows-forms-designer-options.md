@@ -15,6 +15,8 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
+ms.custom: awp-ai
+ms.ai-usage: ai-assisted
 ---
 # Configure Windows Forms Designer options in Visual Studio
 
@@ -175,4 +177,4 @@ To automatically add project-built components to the Toolbox:
 
 - [Designing Windows Forms](/dotnet/desktop/winforms/controls/developing-windows-forms-controls-at-design-time)
 - [Windows Forms Designer overview](/dotnet/desktop/winforms/controls/walkthrough-arranging-controls-on-windows-forms-using-a-tablelayoutpanel)
-- [Tutorial: Create a Windows Forms app in Visual Studio](../create-csharp-winform-visual-studio.md)
+- [Tutorial: Create a Windows Forms app in Visual Studio](create-csharp-winform-visual-studio.md)

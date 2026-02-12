@@ -18,7 +18,7 @@ This article shows you how to configure settings for Visual Studio updates, exte
 
 ## Prerequisites
 
-- Visual Studio installed. If you don't have it, see [Install Visual Studio](../../install/install-visual-studio.md).
+- Visual Studio installed. If you don't have it, see [Install Visual Studio](../install/install-visual-studio.md).
 
 ## Open the Extensions options
 
@@ -46,7 +46,7 @@ To control whether Visual Studio automatically checks for updates to itself, SDK
 
    When enabled, Visual Studio periodically checks for available updates and displays notifications in the menu bar when updates are found.
 
-For more information about updating Visual Studio, see [Update Visual Studio](../../install/update-visual-studio.md).
+For more information about updating Visual Studio, see [Update Visual Studio](../install/update-visual-studio.md).
 
 ## Install extension updates automatically
 
@@ -57,7 +57,7 @@ To control whether extensions update automatically without prompting:
 
    When enabled, Visual Studio automatically downloads and installs extension updates. When disabled, you receive notifications about available updates but must manually choose to install them.
 
-For more information, see [Find and use Visual Studio extensions](../finding-and-using-visual-studio-extensions.md).
+For more information, see [Find and use Visual Studio extensions](finding-and-using-visual-studio-extensions.md).
 
 ## Load per-user extensions when running as administrator
 
@@ -68,7 +68,7 @@ To control whether per-user extensions load when Visual Studio runs with elevate
 
    By default, per-user extensions don't load when you run Visual Studio as an administrator for security reasons.
 
-For more information, see [Find and use Visual Studio extensions](../finding-and-using-visual-studio-extensions.md).
+For more information, see [Find and use Visual Studio extensions](finding-and-using-visual-studio-extensions.md).
 
 ## Add private extension galleries
 
@@ -81,10 +81,10 @@ If your organization hosts a private gallery of proprietary extensions, you can 
 
 This is an Enterprise feature that enables support for galleries of proprietary extensions hosted by your organization.
 
-For more information, see [Private galleries](../../extensibility/private-galleries.md).
+For more information, see [Private galleries](../extensibility/private-galleries.md).
 
 ## Related content
 
-- [Find and use Visual Studio extensions](../finding-and-using-visual-studio-extensions.md)
-- [Update Visual Studio](../../install/update-visual-studio.md)
-- [Private galleries](../../extensibility/private-galleries.md)
+- [Find and use Visual Studio extensions](finding-and-using-visual-studio-extensions.md)
+- [Update Visual Studio](../install/update-visual-studio.md)
+- [Private galleries](../extensibility/private-galleries.md)

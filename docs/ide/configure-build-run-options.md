@@ -15,6 +15,8 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: mijacobs
+ai-usage: ai-assisted
+ms.custom: awp-ai
 ---
 # Configure build and run options in Visual Studio
 
@@ -22,7 +24,7 @@ This article shows you how to configure build and run settings in Visual Studio 
 
 ## Prerequisites
 
-- Visual Studio installed. If you don't have it, see [Install Visual Studio](../../install/install-visual-studio.md).
+- Visual Studio installed. If you don't have it, see [Install Visual Studio](../install/install-visual-studio.md).
 - A solution with one or more projects (required to see the effects of these settings).
 
 ## Open the Build and Run options
@@ -129,6 +131,5 @@ When enabled, Visual Studio runs all compile and link processes at "Below normal
 
 ## Related content
 
-- [Compiling and Building](../../ide/compiling-and-building-in-visual-studio.md)
-- [Options Dialog Box, Projects and Solutions](projects-and-solutions-options-dialog-box.md)
-- [Options Dialog Box, Projects and Solutions, Web Projects](/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-dialog-box-projects-and-solutions-web-projects)
+- [Compiling and Building](compiling-and-building-in-visual-studio.md)
+- [Projects and Solutions options](projects-and-solutions-options-dialog-box.md)
