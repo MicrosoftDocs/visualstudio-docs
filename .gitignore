@@ -376,3 +376,6 @@ settings.json
 .env
 .env.example
 requirements.txt
+
+# Allow Visual Studio-specific Agent file
+!.github/agents/visualstudio-standards-check.agent.md

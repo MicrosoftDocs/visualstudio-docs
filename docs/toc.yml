@@ -959,6 +959,8 @@
       href: ide/visual-studio-performance-tips-and-tricks.md
 - name: Reference
   items:
+  - name: Troubleshoot proxy and firewall issues
+    href: ide/reference/proxy-firewall-troubleshoot.md
   - name: Keyboard shortcuts & commands
     displayName: keyboard, shortcuts, short cuts, ctrl, short-cut
     href: ide/default-keyboard-shortcuts-in-visual-studio.md
