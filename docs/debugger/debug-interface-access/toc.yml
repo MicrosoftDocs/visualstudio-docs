@@ -926,6 +926,14 @@
           href: idiastackwalkhelper2.md
         - name: IDiaStackWalkHelper2::GetPointerAuthenticationMask
           href: idiastackwalkhelper2-getpointerauthenticationmask.md
+      - name: IDiaStackWalkHelper3
+        items:
+        - name: IDiaStackWalkHelper3
+          href: idiastackwalkhelper3.md
+        - name: IDiaStackWalkHelper3::get_registerValue
+          href: idiastackwalkhelper3-get-registervalue.md
+        - name: IDiaStackWalkHelper3::put_registerValue
+          href: idiastackwalkhelper3-put-registervalue.md
       - name: IDiaSymbol
         items:
         - name: IDiaSymbol
