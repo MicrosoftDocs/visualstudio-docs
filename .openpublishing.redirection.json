@@ -1,6 +1,21 @@
 {
   "redirections": [
     {
+      "source_path": "docs/ide/reference/extensions-and-updates-environment-options-dialog-box.md",
+      "redirect_url": "/visualstudio/ide/configure-extension-update-options",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/ide/reference/options-dialog-box-projects-and-solutions-build-and-run.md",
+      "redirect_url": "/visualstudio/ide/configure-build-run-options",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/ide/reference/options-windows-forms-designer.md",
+      "redirect_url": "/visualstudio/ide/configure-windows-forms-designer-options",
+      "redirect_document_id": true
+    },
+    {
       "source_path": "docs/ide/connect-team-project.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/ide/connect-team-project",
       "redirect_document_id": false
