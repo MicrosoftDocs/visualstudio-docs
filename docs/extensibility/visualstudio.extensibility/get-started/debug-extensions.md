@@ -2,7 +2,7 @@
 title: 'Debug an extension created with VisualStudio.Extensibility'
 description: Learn how to for debug an out-of-process extension in the Visual Studio Experimental instance.
 ms.topic: how-to
-ms.date: 5/30/2023
+ms.date: 1/9/2026
 ms.author: ghogen
 monikerRange: ">=vs-2022"
 author: ghogen
@@ -43,6 +43,18 @@ There is some internal code in the ServiceHub host process that handles the [RPC
 
 > [!TIP]
 > It can be convenient to have multiple monitors, so you can see both the debugger and the experimental instance at the same time on two different monitors. You might want to change the theme in the Experimental Instance to make it more obvious which IDE you're working with at any given time. See [Change fonts, colors, and themes in Visual Studio](../../../ide/how-to-change-fonts-and-colors-in-visual-studio.md).
+
+
+:::moniker range="visualstudio"
+## Start or reset the experimental instance
+
+You can reset or start the experimental instance by using the shortcuts `ResetExperimental` and `StartExperimental` in the VSSDK folder (under your Visual Studio installation folder).
+
+In Visual Studio 2026 and later, you can also use commands on the **Extensions** > **Extension Development** menu to start or reset the experimental instance.
+
+:::image type="content" source="../../media/visualstudio/start-reset-experimental-instance.png" alt-text="Menu commands to reset or start the experimental instance of Visual Studio.":::
+
+:::moniker-end
 
 ## Debug the extension using the Diagnostics Explorer
 
