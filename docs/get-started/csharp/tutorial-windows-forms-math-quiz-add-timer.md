@@ -5,16 +5,18 @@ ms.custom: vs-acquisition
 dev_langs:
   - "CSharp"
   - "VB"
-ms.date: 02/13/2025
+ms.date: 02/13/2026
 ms.topic: tutorial
 author: anandmeg
 ms.author: meghaanand
 manager: mijacobs
 ms.subservice: general-ide
+
+#customer intent: As a developer working with Windows Forms applications, I need to know how to use timers in my apps.
 ---
 # Tutorial: Add a timer to a math quiz WinForms app
 
-In this series of four tutorials, you'll build a math quiz. The quiz contains four random math problems that a quiz taker tries to answer within a specified time.
+In this series of four tutorials, you build a math quiz. The quiz contains four random math problems that a quiz taker tries to answer within a specified time.
 
 The quiz uses a Timer control. The code behind this control tracks the elapsed time and checks the quiz taker's answers.
 
@@ -48,7 +50,7 @@ To keep track of time during the quiz, you use a Timer component. You also need 
 
 ## Check the answers
 
-Because the timer raises a Tick event every second, it makes sense to check the elapsed time in a Tick event handler. It's also practical to check the answers in that event handler. If time has run out, or if the answers are correct, the quiz should end.
+Because the timer raises a Tick event every second, it makes sense to check the elapsed time in a Tick event handler. It's also practical to check the answers in that event handler. If time runs out or if the answers are correct, the quiz should end.
 
 Before you write that event handler, add a method called `CheckTheAnswer()` to determine whether the answers to the math problems are correct. This method should be in line with the other methods, such as `StartTheQuiz()`. Your code should look like the following sample.
 
@@ -71,19 +73,11 @@ This method determines the answers to the math problems and compares the results
 
 ## Add an event handler to the timer
 
-Now that you have a way to check the answers, you can write the code for the Tick event handler. This code runs every second, after the timer raises a Tick event. This event handler checks the quiz taker's answers by calling `CheckTheAnswer()`. It also checks how much time has elapsed in the quiz.
+Now that you have a way to check the answers, you can write the code for the Tick event handler. This code runs every second, after the timer raises a Tick event. This event handler checks the quiz taker's answers by calling `CheckTheAnswer()`. It also checks how much time elapsed in the quiz.
 
 1. On the form, double-click the **Timer** control, or select it and then select **Enter**. These actions add a Tick event handler. The code editor appears and displays the Tick handler's method.
 
-   For C#, it adds a line of code in the *Form1.Designer.cs* code file that hooks up the event handler:
-
-   ```csharp
-   timer1.Tick += new EventHandler(timer1_Tick);
-   ```
-
-   For Visual Basic, there's no need for that line, but the event handler contains a `handles Timer1.Tick` which does the same thing.
-
-1. Add the following statements to the new event handler method.
+1. Add the following statements to the new event handler method in **Form1.cs** or **Form1.vb**.
 
    ### [C#](#tab/csharp)
    :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step3/cs/form1.cs" id="Snippet6":::

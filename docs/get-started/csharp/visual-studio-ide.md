@@ -1,7 +1,7 @@
 ---
 title: Overview for C# developers
 description: Explore how to work with the Visual Studio integrated development environment (IDE) to edit, debug, and build code, and then publish an app as a C# developer.
-ms.date: 01/31/2023
+ms.date: 02/26/2026
 ms.subservice: general-ide
 ms.custom: vs-acquisition
 ms.topic: overview
@@ -10,6 +10,8 @@ ms.author: meghaanand
 manager: mijacobs
 dev_langs:
 - CSharp
+
+#customer intent: As a C# developer, I want to understand how to use the Visual Studio IDE to create, debug, and run a simple program.
 ---
 # Welcome to the Visual Studio IDE | C\#
 
@@ -31,7 +33,7 @@ You can configure Visual Studio to use environment settings tailored to C# devel
 
 To learn about other ways you can personalize the IDE, see [Personalize Visual Studio](../../ide/personalizing-the-visual-studio-ide.md).
 
-## Next steps
+## Related content
 
 Explore Visual Studio further by following along with one of these introductory articles:
 
@@ -41,7 +43,7 @@ Explore Visual Studio further by following along with one of these introductory 
 > [!div class="nextstepaction"]
 > [Learn about projects and solutions](../tutorial-projects-solutions.md)
 
-## See also
+For more information:
 
 - Discover [more Visual Studio features](../../ide/advanced-feature-overview.md).
 - Visit [visualstudio.microsoft.com](https://visualstudio.microsoft.com/vs/).

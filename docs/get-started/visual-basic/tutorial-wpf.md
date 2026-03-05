@@ -9,12 +9,14 @@ ms.topic: tutorial
 
 dev_langs:
   - "VB"
-ms.date: 12/07/2023
+ms.date: 02/26/2026
 ms.custom: vs-acquisition
+
+#customer intent: As a Visual Basic developer, I want to learn how to use Visual Studio to create a UI application using WPF.
 ---
 # Tutorial: Create a WPF application with Visual Basic
 
-In this tutorial, you'll create an application using Visual Basic in the Visual Studio integrated development environment (IDE).
+In this tutorial, you create an application using Visual Basic in the Visual Studio integrated development environment (IDE).
 Your program will use the Windows Presentation Foundation (WPF) UI framework.
 Use this tutorial to become familiar with many of the tools, dialog boxes, and designers that you can use in Visual Studio.
 
@@ -30,31 +32,59 @@ In this tutorial, you learn how to:
 
 ## What is WPF?
 
-WPF, or Windows Presentation Foundation, is a UI (user interface) framework that creates desktop client applications.  The WPF development platform supports a broad set of application development features, including an application model, resources, controls, graphics, layout, data binding, documents, and security.
+WPF, or Windows Presentation Foundation, is a user interface (UI) framework that creates desktop client applications. The WPF development platform supports a broad set of application development features, including:
 
-WPF is part of .NET, so if you have previously built applications with .NET using ASP.NET or Windows Forms, the programming experience should be familiar. WPF uses the Extensible Application Markup Language [XAML](../../xaml-tools/xaml-overview.md) to provide a declarative model for application programming. For more information, see [WPF .NET overview](/dotnet/desktop/wpf/overview/?view=netdesktop-6.0&preserve-view=true).
+- An application model
+- Resources
+- Controls
+- Graphics
+- Layout
+- Data binding
+- Documents
+- Security
+
+WPF is part of .NET. If you previously created applications with .NET using ASP.NET or Windows Forms, the programming experience should be familiar. WPF uses the Extensible Application Markup Language [XAML](../../xaml-tools/xaml-overview.md) to provide a declarative model for application programming. For more information, see [WPF .NET overview](/dotnet/desktop/wpf/overview/?view=netdesktop-6.0&preserve-view=true).
 
 ## Prerequisites
 
-::: moniker range=">=vs-2022"
 You need Visual Studio to complete this tutorial.
-Visit the [Visual Studio downloads page](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) for a free version.
-::: moniker-end
+For a free version, see [Visual Studio downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-cta).
 
 ## Create the project
 
 When you create an application in Visual Studio, you first create a project.
 In this tutorial, create a Windows Presentation Foundation project.
 
+::: moniker range=">=visualstudio"
+1. Open Visual Studio.
 
-::: moniker range=">=vs-2022"
+1. On the start window, choose **Create a new project**.
+
+   :::image type="content" source="media/visualstudio/start-window-create-new-project.png" alt-text="Screenshot of the start window in Visual Studio with the 'Create a new project' option highlighted.":::
+
+1. On the **Create a new project** window, search for *WPF* and select **Visual Basic** in the **All languages** list.
+   Choose **WPF App (.NET Framework)**, and then choose **Next**.
+
+   :::image type="content" source="media/visualstudio/visual-studio-create-wpf-project.png" alt-text="Screenshot of the 'Create a new project' dialog with 'WPF' entered in the search box, 'Visual Basic' selected in the languages list, and the 'WPF App (.NET Framework)' project template highlighted.":::
+
+1. Give the project a name, *HelloWPFApp*, and select **Create**.
+
+   Visual Studio creates the HelloWPFApp project and solution.
+   **Solution Explorer** shows the various files.
+
+   :::image type="content" source="media/visualstudio/explore-ide-hello-wpf-app-files.png" alt-text="Screenshot showing the files in the HelloWPFApp project and solution in the Solution Explorer.":::
+
+The **WPF Designer** shows a design view and a XAML view of *MainWindow.xaml* in a split view.
+::: moniker-end
+
+::: moniker range="vs-2022"
 1. Open Visual Studio.
 
 1. On the start window, choose **Create a new project**.
 
    :::image type="content" source="media/vs-2022/start-window-create-new-project.png" alt-text="Screenshot of the start window in Visual Studio 2022 with the 'Create a new project' option highlighted.":::
 
-1. On the **Create a new project** window, search for "WPF" and select **Visual Basic** in the **All languages** drop-down list.
+1. On the **Create a new project** window, search for *WPF* and select **Visual Basic** in the **All languages** list.
    Choose **WPF App (.NET Framework)**, and then choose **Next**.
 
    :::image type="content" source="media/tutorial-wpf/visual-studio-create-wpf-project.png" alt-text="Screenshot of the 'Create a new project' dialog with 'WPF' entered in the search box, 'Visual Basic' selected in the languages list, and the 'WPF App (.NET Framework)' project template highlighted.":::
@@ -64,13 +94,13 @@ In this tutorial, create a Windows Presentation Foundation project.
    Visual Studio creates the HelloWPFApp project and solution.
    **Solution Explorer** shows the various files.
 
-   :::image type="content" source="media/vs-2022/explore-ide-hello-wpf-app-files.png" alt-text="Screenshot showing the files in the HelloWPFApp project and solution in the Solution Explorer.":::
+   :::image type="content" source="media/vs-2022/explore-ide-hello-wpf-app-files.png" alt-text="Screenshot showing the files in the HelloWPFApp project and solution in the Solution Explorer in Visual Studio 2022.":::
 
 The **WPF Designer** shows a design view and a XAML view of *MainWindow.xaml* in a split view.
 ::: moniker-end
 
 > [!NOTE]
-> For more information about eXtensible Application Markup Language (XAML), see [XAML overview for WPF](/dotnet/framework/wpf/advanced/xaml-overview-wpf).
+> For more information about Extensible Application Markup Language (XAML), see [XAML overview for WPF](/dotnet/desktop/wpf/xaml).
 
 ## Configure window and add text
 
@@ -85,7 +115,13 @@ Using the **Properties** window, you can display and change options for project 
 
 1. Either expand **Common WPF Controls** or enter *Text* in the search bar to find **TextBlock**.
 
-   :::image type="content" source="media/tutorial-wpf/toolbox-tab-text-block.png" alt-text="Screenshot showing the Toolbox window with the TextBlock control highlighted in the list of Common WPF Controls.":::
+   ::: moniker range=">=visualstudio"
+   :::image type="content" source="media/tutorial-wpf/visualstudio/toolbox-tab-text-block.png" alt-text="Screenshot showing the Toolbox window with the TextBlock control highlighted in the list of Common WPF Controls.":::
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
+   :::image type="content" source="media/tutorial-wpf/toolbox-tab-text-block.png" alt-text="Screenshot showing the Toolbox window in Visual Studio 2022 with the TextBlock control highlighted in the list of Common WPF Controls.":::
+   ::: moniker-end
 
 1. Select the **TextBlock** item and drag it to the window on the design surface.
    You can move the TextBlock control by dragging it.
@@ -105,7 +141,7 @@ Using the **Properties** window, you can display and change options for project 
    Text="Select a message option and then choose the Display button."
    ```
 
-   Center the TextBlock again if necessary
+   Center the TextBlock again if necessary.
 
 1. Save your app by choosing the **Save All** toolbar button.
    Alternatively, to save your app, choose **File** > **Save All** from the menu bar, or press **Ctrl**+**Shift**+**S**.
@@ -115,12 +151,18 @@ Using the **Properties** window, you can display and change options for project 
 
 Your application uses two radio buttons and a button.
 Use these steps to add them.
-You'll add Visual Basic code to the button.
+You also add Visual Basic code to the button.
 That code refers to the radio button selection.
 
 1. In the **Toolbox**, find **RadioButton**.
 
-   :::image type="content" source="media/tutorial-wpf/toolbox-radio-button.png" alt-text="Screenshot showing the Toolbox window with the RadioButton control selected in the list of Common WPF Controls.":::
+   ::: moniker range=">=visualstudio"
+   :::image type="content" source="media/tutorial-wpf/visualstudio/toolbox-radio-button.png" alt-text="Screenshot showing the Toolbox window with the RadioButton control selected in the list of Common WPF Controls.":::
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
+   :::image type="content" source="media/tutorial-wpf/toolbox-radio-button.png" alt-text="Screenshot showing the Toolbox window in Visual Studio 2022 with the RadioButton control selected in the list of Common WPF Controls.":::
+   ::: moniker-end
 
 1. Add two RadioButton controls to the design surface by selecting the **RadioButton** item and dragging it to the  design surface.
    Move the buttons by selecting them and using the arrow keys.
@@ -130,7 +172,13 @@ That code refers to the radio button selection.
 
 1. In the **Properties** window for the left RadioButton control, change the **Name** property at the top of the **Properties** window to *HelloButton*.
 
-   :::image type="content" source="media/tutorial-wpf/properties-radio-button-name.png" alt-text="Screenshot showing the Solution Explorer Properties window for the 'HelloButton'  RadioButton.":::
+   ::: moniker range=">=visualstudio"
+   :::image type="content" source="media/tutorial-wpf/visualstudio/properties-radio-button-name.png" alt-text="Screenshot showing the Solution Explorer Properties window for the 'HelloButton'  RadioButton.":::
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
+   :::image type="content" source="media/tutorial-wpf/properties-radio-button-name.png" alt-text="Screenshot showing the Solution Explorer Properties window in Visual Studio 2022 for the 'HelloButton'  RadioButton.":::
+   ::: moniker-end
 
 1. In the **Properties** window for the right RadioButton control, change the **Name** property to *GoodbyeButton*.
 
@@ -153,7 +201,7 @@ That code refers to the radio button selection.
    The **IsChecked** attribute with the value **True** means that HelloButton is checked by default.
    This setting means that the radio button is always selected, even when the program starts.
 
-1. In the **Toolbox**, find the **Button** control, and then drag a button to the design surface under the RadioButton controls.
+1. In the **Toolbox**, find the **Button** control. Then drag a button to the design surface under the RadioButton controls.
 
 1. In the XAML view, change the value of **Content** for the Button control from `Content="Button"` to `Content="Display"`.
 
@@ -187,21 +235,16 @@ That code refers to the radio button selection.
 
 ## Debug and test the application
 
-Next, you'll debug the application to look for errors and test that both message boxes appear correctly.
+Next, debug the application to look for errors and test that both message boxes appear correctly.
 To see how this process works, the first step deliberately introduces an error into the program.
 
 1. In **Solution Explorer**, right-click on *MainWindow.xaml* and choose **Rename**. Rename the file to *Greetings.xaml*.
 
 1. Start the debugger by pressing **F5** or selecting **Debug**, then **Start Debugging**.
 
-   A **Break Mode** window appears, and the **Output** window indicates that an exception has occurred.
-
-
-   ::: moniker range=">=vs-2022"
+   A **Break Mode** window appears, and the **Output** window indicates that an exception occurred.
 
    :::image type="content" source="media/tutorial-wpf/exception-unhandled-vs-2022.png" alt-text="Screenshot showing the 'Exception Unhandled' window with a System.IO.Exception message that reads 'Cannot locate resource mainwindow.xaml'.":::
-
-   ::: moniker-end
 
 1. Stop the debugger by choosing **Debug** > **Stop Debugging**.
 
@@ -210,21 +253,16 @@ To see how this process works, the first step deliberately introduces an error i
 
 1. In **Solution Explorer**, open the *Application.xaml* file.
 
-1. Change `StartupUri="MainWindow.xaml"` to `StartupUri="Greetings.xaml"`
+1. Change `StartupUri="MainWindow.xaml"` to `StartupUri="Greetings.xaml"`.
 
 1. Start the debugger again (press **F5**). You should now see the **Greetings** window of your application.
 
-
-   ::: moniker range=">=vs-2022"
-
    :::image type="content" source="media/vs-2022/explore-ide-wpf-running-app.png" alt-text="Screenshot of the Greetings window with the TextBlock, RadioButtons, and Button controls visible. The 'Hello' radio button is selected.":::
-
-   ::: moniker-end
 
 1. Select **Hello** and the **Display** button, and then **Goodbye** and the **Display** button.
    Use the close icon in the upper right corner to stop debugging.
 
-For more information, see [Build a WPF application (WPF)](/dotnet/framework/wpf/app-development/building-a-wpf-application-wpf) and [Debug WPF](../../debugger/debugging-wpf.md).
+For more information, see [Compile a WPF Application](/dotnet/framework/wpf/app-development/building-a-wpf-application-wpf) and [Debug WPF](../../debugger/debugging-wpf.md).
 
 ## Debug with breakpoints
 
@@ -246,21 +284,27 @@ You can test the code during debugging by adding some breakpoints.
    At the bottom of the IDE, the **Autos**, **Locals**, and **Watch** windows are docked together on the left side.
    The **Call Stack**, **Breakpoints**, **Exception Settings**, **Command**, **Immediate**, and **Output** windows are docked together on the right side.
 
-   :::image type="content" source="media/vs-2022/explore-ide-debug-breakpoint.png" alt-text="Screenshot showing a debug session in Visual Studio with the Code, Diagnostics. Autos, and Call Stack windows open. Execution is stopped at a breakpoint in Greetings.xaml.vb.":::
+   ::: moniker range=">=visualstudio"
+   :::image type="content" source="media/visualstudio/explore-ide-debug-breakpoint.png" alt-text="Screenshot showing a debug session in Visual Studio with the Code, Diagnostics. Autos, and Call Stack windows open. Execution is stopped at a breakpoint in Greetings.xaml.vb." lightbox="media/visualstudio/explore-ide-debug-breakpoint.png":::
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
+   :::image type="content" source="media/vs-2022/explore-ide-debug-breakpoint.png" alt-text="Screenshot showing a debug session in Visual Studio 2022 with the Code, Diagnostics. Autos, and Call Stack windows open. Execution is stopped at a breakpoint in Greetings.xaml.vb." lightbox="media/vs-2022/explore-ide-debug-breakpoint.png":::
+   ::: moniker-end
 
 1. On the menu bar, choose **Debug** > **Step Out**.
 
    The application starts again.
-   A dialog box with the word "Hello" appears.
+   A dialog with the word "Hello" appears.
 
-1. Choose the **OK** button to close the dialog box.
+1. Choose the **OK** button to close the dialog.
 
 1. In the **Greetings** window, choose the **Goodbye** radio button, and then choose the **Display** button.
 
    The line `MessageBox.Show("Goodbye.")` is highlighted in yellow.
 
 1. Choose the **F5** key to continue debugging.
-   When the dialog box appears, choose **OK** to close the dialog box.
+   When the dialog appears, choose **OK** to close the dialog.
 
 1. Close the application window to stop debugging.
 
@@ -268,7 +312,7 @@ You can test the code during debugging by adding some breakpoints.
 
 ## Build a release version
 
-Now that you've verified that everything works, you can prepare a release build of your application.
+After you verify that everything works, you can prepare a release build of your application.
 
 1. Select **Build** > **Clean solution** to delete intermediate files and output files that were created during previous builds.
 
@@ -279,16 +323,14 @@ Now that you've verified that everything works, you can prepare a release build 
 Congratulations on completing this tutorial!
 You can find the *.exe* you built under your solution and project directory (*...\HelloWPFApp\bin\Release*).
 
-## Next steps
+## Next step
 
 Advance to the next article to learn how to create a Windows Forms app in Visual Studio with Visual Basic.
+
 > [!div class="nextstepaction"]
 > [Create a Windows Forms app](../../ide/create-a-visual-basic-winform-in-visual-studio.md)
 
-## Related links
+For more information about Visual Studio, see:
 
-For more information about Visual Studio, see these resources:
-
-::: moniker range=">=vs-2022"
 - [Productivity tips](../../ide/productivity-features.md)
-::: moniker-end
+
