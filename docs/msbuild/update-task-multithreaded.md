@@ -60,6 +60,76 @@ Static fields require the same treatment as in any multithreaded app development
 
 If you update your custom task and then distribute it to others, your task supports clients using MSBuild 18.0 or later. To support clients on earlier versions of MSBuild, you can implement the attribute yourself and apply it. Only the name of the attribute matters, even if you create the same attribute yourself. Then, when you apply the attribute to your task, it will run in both earlier versions of MSBuild as well as newer versions in both out-of-process or multithreaded mode (depending on command-line arguments)
 
+## Example
+
+Consider the following task code.
+
+```csharp
+
+using Microsoft.Build.Framework;
+using Microsoft.Build.Utilities;
+using System;
+using System.ComponentModel.DataAnnotations;
+using System.IO;
+using System.Linq;
+using System.Text.RegularExpressions;
+using System.Threading;
+
+using RequiredAttribute = Microsoft.Build.Framework.RequiredAttribute;
+
+namespace BuildCommentTask
+{
+    public class AddBuildCommentTask : Microsoft.Build.Utilities.Task
+    {
+        private static int ModifiedFileCount = 0;
+
+        [Required]
+        public ITaskItem[] TargetFiles { get; set; }
+
+        [Required]
+        public string VersionNumber { get; set; }
+
+        public string CommentPrefix { get; set; } = "//";
+        public string CommentSuffix { get; set; } = "";
+
+        public override bool Execute()
+        {
+            string buildDate = DateTime.UtcNow.ToString("yyyy-MM-dd HH:mm:ss");
+            string commentPattern = $@"^{Regex.Escape(CommentPrefix)}\s*Build Date:.*Version:.*{Regex.Escape(CommentSuffix)}$";
+
+            foreach (var item in TargetFiles)
+            {
+                var filePath = item.ItemSpec;
+                try
+                {
+                    string[] originalLines = File.ReadAllLines(filePath);
+
+                    // Check if a similar comment already exists at the top
+                    if (originalLines.Length > 0 && Regex.IsMatch(originalLines[0], commentPattern))
+                    {
+                        Log.LogMessage(MessageImportance.Low, $"Skipped (already annotated): {filePath}");
+                        continue;
+                    }
+
+                    int fileNumber = Interlocked.Increment(ref ModifiedFileCount);
+                    string comment = $"{CommentPrefix} Build Date: {buildDate}, Version: {VersionNumber}, File #: {fileNumber}{CommentSuffix}";
+                    File.WriteAllLines(filePath, new[] { comment }.Concat(originalLines));
+                    Log.LogMessage(MessageImportance.High, $"Added build comment to: {filePath}");
+                }
+                catch (Exception ex)
+                {
+                    Log.LogError($"Failed to process {filePath}: {ex.Message}");
+                    return false;
+                }
+            }
+            return true;
+        }
+    }
+}
+
+```
+
+
 ## Related content
 
 [MSBuild tasks](msbuild-task.md)
