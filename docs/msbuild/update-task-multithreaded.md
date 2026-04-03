@@ -42,7 +42,7 @@ Tasks that inherit from `MultiThreadableTask` (or implement `IMultiThreadableTas
 
 ## Example task: BuildCommentTask
 
-The following example `AddBuildCommentTask` is used throughout this article to illustrate the migration process. This task prepends a build comment to source files:
+The following example `AddBuildCommentTask` is used throughout this article to illustrate the migration process. This task prepends a build comment to text files. The `CommentPrefix` and `CommentSuffix` properties let callers specify the appropriate comment syntax for each file type (for example, `//` for C#, `<!--` and `-->` for XML or HTML, `#` for Python or YAML):
 
 ```csharp
 using Microsoft.Build.Framework;
@@ -65,6 +65,8 @@ namespace BuildCommentTask
         [Required]
         public string VersionNumber { get; set; }
 
+        // CommentPrefix and CommentSuffix let the caller specify comment
+        // syntax appropriate for each file type. Defaults to C-style "//".
         public string CommentPrefix { get; set; } = "//";
         public string CommentSuffix { get; set; } = "";
 
@@ -108,6 +110,23 @@ namespace BuildCommentTask
         }
     }
 }
+```
+
+A project file might invoke this task for different file types, passing the appropriate comment syntax for each:
+
+```xml
+<!-- Stamp C# source files with // comments -->
+<AddBuildCommentTask
+    TargetFiles="@(Compile)"
+    VersionNumber="$(Version)"
+    CommentPrefix="//" />
+
+<!-- Stamp XML content files with <!-- --> comments -->
+<AddBuildCommentTask
+    TargetFiles="@(Content -> WithMetadataValue('Extension', '.xml'))"
+    VersionNumber="$(Version)"
+    CommentPrefix="&lt;!--"
+    CommentSuffix="--&gt;" />
 ```
 
 This task has four thread-safety issues that need to be addressed for multithreaded builds:
@@ -421,6 +440,8 @@ namespace BuildCommentTask
         [Required]
         public string VersionNumber { get; set; }
 
+        // CommentPrefix and CommentSuffix let the caller specify comment
+        // syntax appropriate for each file type. Defaults to C-style "//".
         public string CommentPrefix { get; set; } = "//";
         public string CommentSuffix { get; set; } = "";
 
@@ -561,12 +582,10 @@ namespace BuildCommentTask
         [Required]
         public string VersionNumber { get; set; }
 
+        // CommentPrefix and CommentSuffix let the caller specify comment
+        // syntax appropriate for each file type. Defaults to C-style "//".
         public string CommentPrefix { get; set; } = "//";
         public string CommentSuffix { get; set; } = "";
-
-        public override bool Execute()
-        {
-            string disableComments = Environment.GetEnvironmentVariable("DISABLE_BUILD_COMMENTS");
             if (!string.IsNullOrEmpty(disableComments))
             {
                 Log.LogMessage(MessageImportance.Normal, "Build comments disabled via environment variable.");
