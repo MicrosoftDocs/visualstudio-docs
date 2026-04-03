@@ -51,8 +51,6 @@ using System;
 using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
-using System.Threading;
-
 using RequiredAttribute = Microsoft.Build.Framework.RequiredAttribute;
 
 namespace BuildCommentTask
@@ -95,8 +93,8 @@ namespace BuildCommentTask
                         continue;
                     }
 
-                    int fileNumber = Interlocked.Increment(ref ModifiedFileCount);
-                    string comment = $"{CommentPrefix} Build Date: {buildDate}, Version: {VersionNumber}, File #: {fileNumber}{CommentSuffix}";
+                    ModifiedFileCount++;
+                    string comment = $"{CommentPrefix} Build Date: {buildDate}, Version: {VersionNumber}, File #: {ModifiedFileCount}{CommentSuffix}";
                     File.WriteAllLines(filePath, new[] { comment }.Concat(originalLines));
                     Log.LogMessage(MessageImportance.High, $"Added build comment to: {filePath}");
                 }
@@ -295,8 +293,10 @@ In the `BuildCommentTask` example, the static field `ModifiedFileCount` is share
 private static int ModifiedFileCount = 0;
 
 // In Execute():
-int fileNumber = Interlocked.Increment(ref ModifiedFileCount);
+ModifiedFileCount++;
 ```
+
+The `++` operator isn't atomic — when multiple task instances run concurrently, two threads could read the same value and both write the same incremented result, losing a count.
 
 **After:**
 
@@ -307,7 +307,7 @@ private static int ModifiedFileCount = 0;
 int fileNumber = Interlocked.Increment(ref ModifiedFileCount);
 ```
 
-In this example, `Interlocked.Increment` is already atomic and thread-safe, so the field doesn't require additional locking. Each file still receives a unique number even when multiple task instances run concurrently.
+`Interlocked.Increment` performs the read-increment-write as a single atomic operation, so each file receives a unique number even when multiple task instances run concurrently.
 
 > [!NOTE]
 > When multiple builds run in the same process, a static counter like `ModifiedFileCount` is shared across all builds, so file numbers aren't isolated per build. If per-build isolation is required, consider using a `ConcurrentDictionary` keyed by a build identifier, or redesign the state to be instance-based. For many tasks, however, atomically incrementing a shared counter is sufficient.
@@ -322,7 +322,7 @@ The following code shows the fully migrated `AddBuildCommentTask` with all five 
 1. Has the `[MSBuildMultiThreadableTask]` attribute.
 1. Uses `TaskEnvironment.GetAbsolutePath()` for path resolution.
 1. Uses `TaskEnvironment.GetEnvironmentVariable()` instead of `Environment.GetEnvironmentVariable()`.
-1. Uses `Interlocked.Increment` for thread-safe access to the static counter (unchanged from the original, since it was already thread-safe).
+1. Uses `Interlocked.Increment` for thread-safe access to the static counter (replaces the non-atomic `++` operator).
 
 ```csharp
 using Microsoft.Build.Framework;
@@ -443,8 +443,6 @@ using System.ComponentModel.DataAnnotations;
 using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
-using System.Threading;
-
 using RequiredAttribute = Microsoft.Build.Framework.RequiredAttribute;
 
 namespace BuildCommentTask
@@ -488,8 +486,8 @@ namespace BuildCommentTask
                         continue;
                     }
 
-                    int fileNumber = Interlocked.Increment(ref ModifiedFileCount);
-                    string comment = $"{CommentPrefix} Build Date: {buildDate}, Version: {VersionNumber}, File #: {fileNumber}{CommentSuffix}";
+                    ModifiedFileCount++;
+                    string comment = $"{CommentPrefix} Build Date: {buildDate}, Version: {VersionNumber}, File #: {ModifiedFileCount}{CommentSuffix}";
                     File.WriteAllLines(filePath, new[] { comment }.Concat(originalLines));
                     Log.LogMessage(MessageImportance.High, $"Added build comment to: {filePath}");
                 }
