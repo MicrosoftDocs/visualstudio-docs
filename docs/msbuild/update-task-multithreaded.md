@@ -283,7 +283,9 @@ Process.Start(startInfo);
 
 ## Update static fields and data structures to be thread-safe
 
-Static fields require careful treatment when you migrate to multithreaded builds. In the old per-process model, each build invocation ran in its own process, so static state was naturally isolated — two concurrent `dotnet build` commands each had their own copy of every static field. In multithreaded mode, multiple builds can share the same process (especially with MSBuild Server). A static field is shared across all task instances in the process — not just within your build, but potentially across separate build invocations running concurrently. For example, two developers running `dotnet build` at the same time on a build server, or two terminal windows on the same machine, might share the same static state.
+Static fields require careful treatment when you migrate to multithreaded builds. Even in the old per-process model, static state didn't always behave as expected. When MSBuild node reuse is enabled (the default), worker processes persist between builds, so static fields aren't reset between successive `dotnet build` invocations. A counter like `ModifiedFileCount` would keep incrementing across builds rather than starting fresh each time. Most task authors didn't notice because builds ran sequentially within each worker process and stale counters were a minor nuisance rather than a correctness issue.
+
+Multithreaded mode adds a new dimension to this problem. Multiple builds can now share the same process and run tasks concurrently (especially with MSBuild Server, which is automatically enabled with multithreading). A static field is shared across all task instances in the process — not just within your build, but potentially across separate build invocations running concurrently. For example, two developers running `dotnet build` at the same time on a build server, or two terminal windows on the same machine, might share the same static state — and now those builds access it at the same time.
 
 In the `BuildCommentTask` example, the static field `ModifiedFileCount` is shared across all instances:
 
@@ -296,9 +298,9 @@ private static int ModifiedFileCount = 0;
 ModifiedFileCount++;
 ```
 
-The `++` operator isn't atomic. When multiple task instances run concurrently, two threads can read the same value and both write the same incremented result, causing lost counts.
+This code has two problems. First, the `++` operator isn't atomic — when multiple task instances run concurrently, two threads can read the same value and both write the same incremented result, causing lost counts. Second, because the field is static, it persists across builds and is shared between concurrent builds in the same process.
 
-The following sections show two approaches for fixing this problem, from simplest to most correct.
+The following sections show two approaches for fixing these problems, from simplest to most correct.
 
 ### Approach 1: `Interlocked.Increment` — thread-safe but process-wide
 
@@ -311,7 +313,7 @@ private static int ModifiedFileCount = 0;
 int fileNumber = Interlocked.Increment(ref ModifiedFileCount);
 ```
 
-`Interlocked.Increment` performs the read-increment-write as a single atomic operation, so no counts are lost. This approach is sufficient when you don't need per-build isolation. However, the counter is shared across all builds in the process. If two builds run concurrently, their file numbers interleave (Build A gets #1, #3, #5; Build B gets #2, #4, #6). For many tasks, this behavior is acceptable.
+`Interlocked.Increment` performs the read-increment-write as a single atomic operation, so no counts are lost. This approach solves the concurrency problem but doesn't address the isolation problem — the counter is still shared across all builds in the process. If two builds run concurrently, their file numbers interleave (Build A gets #1, #3, #5; Build B gets #2, #4, #6). For many tasks, this behavior is acceptable.
 
 ### Approach 2: `RegisterTaskObject` — build-scoped isolation
 
