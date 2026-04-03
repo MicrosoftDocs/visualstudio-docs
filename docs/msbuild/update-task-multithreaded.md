@@ -14,9 +14,9 @@ monikerRange: visualstudio
 
 # Update an MSBuild task to work in multithreaded mode
 
-MSBuild 18.0 introduces the capability to build in parallel within the same process. Previous versions of MSBuild supported parallel builds, but builds were done in separate processes. This change has some impacts to how you author tasks. Whereas previously, tasks would run in a separate process, now tasks run in the same process. While most logic doesn't need to change, there are some process-level constructs that need to be handled more carefully. Process-level constructs include the current working directory, environment variables, and process start info (`ProcessStartInfo`).
+MSBuild 18.4 introduces the capability to build in parallel within the same process. Previous versions of MSBuild supported parallel builds, but builds were done in separate processes. This change has some impacts to how you author tasks. Whereas previously, tasks would run in a separate process, now tasks run in the same process. While most logic doesn't need to change, there are some process-level constructs that need to be handled more carefully. Process-level constructs include the current working directory, environment variables, and process start info (`ProcessStartInfo`).
 
-To support these changes, MSBuild 18.0 introduces the `IMultiThreadableTask` interface (in `Microsoft.Build.Framework`), the `MultiThreadableTask` abstract class (in `Microsoft.Build.Utilities`), and the `TaskEnvironment` class. `TaskEnvironment` includes a `ProjectDirectory` property and methods such as `GetAbsolutePath()`, `GetEnvironmentVariable()`, `SetEnvironmentVariable()`, and `GetProcessStartInfo()`.
+To support these changes, MSBuild 18.4 introduces the `IMultiThreadableTask` interface (in `Microsoft.Build.Framework`), the `MultiThreadableTask` abstract class (in `Microsoft.Build.Utilities`), and the `TaskEnvironment` class. `TaskEnvironment` includes a `ProjectDirectory` property and methods such as `GetAbsolutePath()`, `GetEnvironmentVariable()`, `SetEnvironmentVariable()`, and `GetProcessStartInfo()`.
 
 The `IMultiThreadableTask` interface defines the contract for tasks that can run in-process in multithreaded builds:
 
@@ -147,7 +147,7 @@ This task has four thread-safety issues that need to be addressed for multithrea
 
 ## Prerequisites
 
-- MSBuild 18.0 or later.
+- MSBuild 18.4 or later.
 
 ## Plan the migration
 
@@ -530,11 +530,11 @@ Tasks that don't have the `[MSBuildMultiThreadableTask]` attribute or don't impl
 
 ## Support earlier versions of MSBuild
 
-If you update your custom task and then distribute it to others, your task supports clients using MSBuild 18.0 or later. To support clients on earlier versions of MSBuild, you have three options.
+If you update your custom task and then distribute it to others, your task supports clients using MSBuild 18.4 or later. To support clients on earlier versions of MSBuild, you have three options.
 
 ### Option 1: Maintain separate implementations
 
-Build separate task assemblies for MSBuild 18.0+ and earlier versions. The MSBuild 18.0+ version uses `MultiThreadableTask` and `TaskEnvironment`. The earlier version continues to use `Task` with process-level APIs.
+Build separate task assemblies for MSBuild 18.4+ and earlier versions. The MSBuild 18.4+ version uses `MultiThreadableTask` and `TaskEnvironment`. The earlier version continues to use `Task` with process-level APIs.
 
 ### Option 2: Compatibility bridge (recommended)
 
@@ -548,7 +548,7 @@ namespace Microsoft.Build.Framework
 }
 ```
 
-When running on MSBuild 18.0+, MSBuild recognizes the attribute and runs the task in-process. When running on earlier versions, MSBuild ignores the unknown attribute and runs the task out-of-process as before.
+When running on MSBuild 18.4+, MSBuild recognizes the attribute and runs the task in-process. When running on earlier versions, MSBuild ignores the unknown attribute and runs the task out-of-process as before.
 
 ### Option 3: Accept reduced performance
 
@@ -556,9 +556,9 @@ Make no changes to your task. MSBuild runs non-attributed tasks in a sidecar `Ta
 
 ### Comparison of approaches
 
-| Approach | Maintenance | Performance (18.0+) | Performance (older) | TaskEnvironment access |
+| Approach | Maintenance | Performance (18.4+) | Performance (older) | TaskEnvironment access |
 |---|---|---|---|---|
-| Separate implementations | High | Full in-process | Full out-of-process | Yes (18.0+ version) |
+| Separate implementations | High | Full in-process | Full out-of-process | Yes (18.4+ version) |
 | Compatibility bridge | Low | Full in-process | Full out-of-process | No (attribute-only) |
 | No changes | None | Sidecar (slower) | Full out-of-process | No |
 
