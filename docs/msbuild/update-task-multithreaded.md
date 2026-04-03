@@ -298,27 +298,21 @@ private static int ModifiedFileCount = 0;
 int fileNumber = Interlocked.Increment(ref ModifiedFileCount);
 ```
 
-You have two options for fixing this issue:
-
-**Option 1: Use an instance field** (recommended when the count is per-task-invocation):
+**After:**
 
 ```csharp
-private int _modifiedFileCount = 0;
+private static int ModifiedFileCount = 0;
 
 // In Execute():
-_modifiedFileCount++;
-string comment = $"{CommentPrefix} Build Date: {buildDate}, Version: {VersionNumber}, File #: {_modifiedFileCount}{CommentSuffix}";
+int fileNumber = Interlocked.Increment(ref ModifiedFileCount);
 ```
 
-**Option 2: Use a `ConcurrentDictionary`** (when you need shared state keyed by build):
+In this example, `Interlocked.Increment` is already atomic and thread-safe, so the field doesn't require additional locking. Each file still receives a unique number even when multiple task instances run concurrently.
 
-```csharp
-private static readonly ConcurrentDictionary<string, int> ModifiedFileCounts = new();
+> [!NOTE]
+> When multiple builds run in the same process, a static counter like `ModifiedFileCount` is shared across all builds, so file numbers aren't isolated per build. If per-build isolation is required, consider using a `ConcurrentDictionary` keyed by a build identifier, or redesign the state to be instance-based. For many tasks, however, atomically incrementing a shared counter is sufficient.
 
-// In Execute():
-string buildId = BuildEngine9.GetGlobalProperties()["BuildSessionId"];
-int fileNumber = ModifiedFileCounts.AddOrUpdate(buildId, 1, (_, count) => count + 1);
-```
+For more complex static state (collections, caches, or mutable objects), use standard thread-safe patterns such as `ConcurrentDictionary`, `lock` statements, or `ReaderWriterLockSlim`. See [Managed threading best practices](/dotnet/standard/threading/managed-threading-best-practices).
 
 ## Complete migration example
 
@@ -328,7 +322,7 @@ The following code shows the fully migrated `AddBuildCommentTask` with all five 
 1. Has the `[MSBuildMultiThreadableTask]` attribute.
 1. Uses `TaskEnvironment.GetAbsolutePath()` for path resolution.
 1. Uses `TaskEnvironment.GetEnvironmentVariable()` instead of `Environment.GetEnvironmentVariable()`.
-1. Replaces the static field with an instance field.
+1. Uses `Interlocked.Increment` for thread-safe access to the static counter (unchanged from the original, since it was already thread-safe).
 
 ```csharp
 using Microsoft.Build.Framework;
@@ -337,13 +331,14 @@ using System;
 using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
+using System.Threading;
 
 namespace BuildCommentTask
 {
     [MSBuildMultiThreadableTask]
     public class AddBuildCommentTask : MultiThreadableTask
     {
-        private int _modifiedFileCount = 0;
+        private static int ModifiedFileCount = 0;
 
         [Required]
         public ITaskItem[] TargetFiles { get; set; }
@@ -380,8 +375,8 @@ namespace BuildCommentTask
                         continue;
                     }
 
-                    _modifiedFileCount++;
-                    string comment = $"{CommentPrefix} Build Date: {buildDate}, Version: {VersionNumber}, File #: {_modifiedFileCount}{CommentSuffix}";
+                    int fileNumber = Interlocked.Increment(ref ModifiedFileCount);
+                    string comment = $"{CommentPrefix} Build Date: {buildDate}, Version: {VersionNumber}, File #: {fileNumber}{CommentSuffix}";
                     File.WriteAllLines(filePath, new[] { comment }.Concat(originalLines));
                     Log.LogMessage(MessageImportance.High, $"Added build comment to: {filePath}");
                 }
