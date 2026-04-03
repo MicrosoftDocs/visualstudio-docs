@@ -283,7 +283,7 @@ Process.Start(startInfo);
 
 ## Update static fields and data structures to be thread-safe
 
-Static fields require the same treatment as in any multithreaded app development scenario. Your task might be used by more than one build at the same time, and if these builds modify the static data, it must not adversely affect other running builds. Static fields must be protected from updates by multiple threads at the same time. Coding must follow best practices to avoid deadlocks and race conditions.
+Static fields require careful treatment when you migrate to multithreaded builds. In the old per-process model, each build invocation ran in its own process, so static state was naturally isolated — two concurrent `dotnet build` commands each had their own copy of every static field. In multithreaded mode, multiple builds can share the same process (especially with MSBuild Server). A static field is shared across all task instances in the process — not just within your build, but potentially across separate build invocations running concurrently. For example, two developers running `dotnet build` at the same time on a build server, or two terminal windows on the same machine, might share the same static state.
 
 In the `BuildCommentTask` example, the static field `ModifiedFileCount` is shared across all instances:
 
@@ -296,9 +296,13 @@ private static int ModifiedFileCount = 0;
 ModifiedFileCount++;
 ```
 
-The `++` operator isn't atomic — when multiple task instances run concurrently, two threads could read the same value and both write the same incremented result, losing a count.
+The `++` operator isn't atomic. When multiple task instances run concurrently, two threads can read the same value and both write the same incremented result, causing lost counts.
 
-**After:**
+The following sections show two approaches for fixing this problem, from simplest to most correct.
+
+### Approach 1: `Interlocked.Increment` — thread-safe but process-wide
+
+The simplest fix is to make the increment atomic:
 
 ```csharp
 private static int ModifiedFileCount = 0;
@@ -307,12 +311,75 @@ private static int ModifiedFileCount = 0;
 int fileNumber = Interlocked.Increment(ref ModifiedFileCount);
 ```
 
-`Interlocked.Increment` performs the read-increment-write as a single atomic operation, so each file receives a unique number even when multiple task instances run concurrently.
+`Interlocked.Increment` performs the read-increment-write as a single atomic operation, so no counts are lost. This approach is sufficient when you don't need per-build isolation. However, the counter is shared across all builds in the process. If two builds run concurrently, their file numbers interleave (Build A gets #1, #3, #5; Build B gets #2, #4, #6). For many tasks, this behavior is acceptable.
 
-> [!NOTE]
-> When multiple builds run in the same process, a static counter like `ModifiedFileCount` is shared across all builds, so file numbers aren't isolated per build. If per-build isolation is required, consider using a `ConcurrentDictionary` keyed by a build identifier, or redesign the state to be instance-based. For many tasks, however, atomically incrementing a shared counter is sufficient.
+### Approach 2: `RegisterTaskObject` — build-scoped isolation
 
-For more complex static state (collections, caches, or mutable objects), use standard thread-safe patterns such as `ConcurrentDictionary`, `lock` statements, or `ReaderWriterLockSlim`. See [Managed threading best practices](/dotnet/standard/threading/managed-threading-best-practices).
+If your task needs static state that's shared across sub-projects within a single build invocation but isolated from other concurrent builds, use `IBuildEngine4.RegisterTaskObject` with `RegisteredTaskObjectLifetime.Build`. MSBuild manages the lifetime of the object — it's created on first use and cleaned up when the build ends.
+
+First, define a simple thread-safe counter class:
+
+```csharp
+internal class FileCounter
+{
+    private int _count = 0;
+    public int Next() => Interlocked.Increment(ref _count);
+}
+```
+
+Then use a helper method with double-checked locking to get or create the counter:
+
+```csharp
+private static readonly object s_counterLock = new();
+
+private FileCounter GetOrCreateCounter()
+{
+    const string key = "BuildCommentTask.FileCounter";
+
+    var counter = BuildEngine4.GetRegisteredTaskObject(
+        key, RegisteredTaskObjectLifetime.Build) as FileCounter;
+
+    if (counter == null)
+    {
+        lock (s_counterLock)
+        {
+            counter = BuildEngine4.GetRegisteredTaskObject(
+                key, RegisteredTaskObjectLifetime.Build) as FileCounter;
+
+            if (counter == null)
+            {
+                counter = new FileCounter();
+                BuildEngine4.RegisterTaskObject(
+                    key, counter,
+                    RegisteredTaskObjectLifetime.Build,
+                    allowEarlyCollection: false);
+            }
+        }
+    }
+    return counter;
+}
+```
+
+In `Execute()`:
+
+```csharp
+FileCounter counter = GetOrCreateCounter();
+// ...
+int fileNumber = counter.Next();
+```
+
+With this approach, each build invocation gets its own `FileCounter`. All sub-projects within the same build share the counter (sequential numbering), but a separate `dotnet build` running at the same time on the same machine gets a different counter. `RegisteredTaskObjectLifetime.Build` tells MSBuild to scope the object to the current build invocation and clean it up when the build ends.
+
+### Choose the right approach
+
+Use the following guidelines to decide which pattern fits your scenario:
+
+- For simple counters or flags where cross-build leakage is harmless, `Interlocked.Increment` or other `System.Threading` primitives are sufficient.
+- For state where per-build isolation matters (caches, accumulators, shared data structures), use `IBuildEngine4.RegisterTaskObject` with `RegisteredTaskObjectLifetime.Build`.
+- For more complex static state (collections, mutable objects), use standard thread-safe patterns such as `ConcurrentDictionary`, `lock` statements, or `ReaderWriterLockSlim`. See [Managed threading best practices](/dotnet/standard/threading/managed-threading-best-practices).
+
+> [!TIP]
+> The complete migration example later in this article uses the `RegisterTaskObject` approach to demonstrate build-scoped isolation.
 
 ## Complete migration example
 
@@ -322,7 +389,7 @@ The following code shows the fully migrated `AddBuildCommentTask` with all five 
 1. Has the `[MSBuildMultiThreadableTask]` attribute.
 1. Uses `TaskEnvironment.GetAbsolutePath()` for path resolution.
 1. Uses `TaskEnvironment.GetEnvironmentVariable()` instead of `Environment.GetEnvironmentVariable()`.
-1. Uses `Interlocked.Increment` for thread-safe access to the static counter (replaces the non-atomic `++` operator).
+1. Uses `IBuildEngine4.RegisterTaskObject` with `RegisteredTaskObjectLifetime.Build` to scope the file counter to the current build invocation, replacing the process-wide static counter.
 
 ```csharp
 using Microsoft.Build.Framework;
@@ -335,10 +402,16 @@ using System.Threading;
 
 namespace BuildCommentTask
 {
+    internal class FileCounter
+    {
+        private int _count = 0;
+        public int Next() => Interlocked.Increment(ref _count);
+    }
+
     [MSBuildMultiThreadableTask]
     public class AddBuildCommentTask : MultiThreadableTask
     {
-        private static int ModifiedFileCount = 0;
+        private static readonly object s_counterLock = new();
 
         [Required]
         public ITaskItem[] TargetFiles { get; set; }
@@ -358,6 +431,8 @@ namespace BuildCommentTask
                 return true;
             }
 
+            FileCounter counter = GetOrCreateCounter();
+
             string buildDate = DateTime.UtcNow.ToString("yyyy-MM-dd HH:mm:ss");
             string commentPattern = $@"^{Regex.Escape(CommentPrefix)}\s*Build Date:.*Version:.*{Regex.Escape(CommentSuffix)}$";
 
@@ -375,7 +450,7 @@ namespace BuildCommentTask
                         continue;
                     }
 
-                    int fileNumber = Interlocked.Increment(ref ModifiedFileCount);
+                    int fileNumber = counter.Next();
                     string comment = $"{CommentPrefix} Build Date: {buildDate}, Version: {VersionNumber}, File #: {fileNumber}{CommentSuffix}";
                     File.WriteAllLines(filePath, new[] { comment }.Concat(originalLines));
                     Log.LogMessage(MessageImportance.High, $"Added build comment to: {filePath}");
@@ -387,6 +462,33 @@ namespace BuildCommentTask
                 }
             }
             return true;
+        }
+
+        private FileCounter GetOrCreateCounter()
+        {
+            const string key = "BuildCommentTask.FileCounter";
+
+            var counter = BuildEngine4.GetRegisteredTaskObject(
+                key, RegisteredTaskObjectLifetime.Build) as FileCounter;
+
+            if (counter == null)
+            {
+                lock (s_counterLock)
+                {
+                    counter = BuildEngine4.GetRegisteredTaskObject(
+                        key, RegisteredTaskObjectLifetime.Build) as FileCounter;
+
+                    if (counter == null)
+                    {
+                        counter = new FileCounter();
+                        BuildEngine4.RegisterTaskObject(
+                            key, counter,
+                            RegisteredTaskObjectLifetime.Build,
+                            allowEarlyCollection: false);
+                    }
+                }
+            }
+            return counter;
         }
     }
 }
