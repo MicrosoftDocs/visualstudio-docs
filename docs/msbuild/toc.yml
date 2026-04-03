@@ -79,6 +79,8 @@ items:
         href: msbuild-tasks.md
       - name: Task writing
         href: task-writing.md
+      - name: Update a task for multithreaded builds
+        href: update-task-multithreaded.md
       - name: Formats for errors and warnings
         href: msbuild-diagnostic-format-for-tasks.md
       - name: Ignore errors in tasks
