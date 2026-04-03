@@ -72,6 +72,13 @@ namespace BuildCommentTask
 
         public override bool Execute()
         {
+            string disableComments = Environment.GetEnvironmentVariable("DISABLE_BUILD_COMMENTS");
+            if (!string.IsNullOrEmpty(disableComments))
+            {
+                Log.LogMessage(MessageImportance.Normal, "Build comments disabled via environment variable.");
+                return true;
+            }
+
             string buildDate = DateTime.UtcNow.ToString("yyyy-MM-dd HH:mm:ss");
             string commentPattern = $@"^{Regex.Escape(CommentPrefix)}\s*Build Date:.*Version:.*{Regex.Escape(CommentSuffix)}$";
 
@@ -105,11 +112,12 @@ namespace BuildCommentTask
 }
 ```
 
-This task has three thread-safety issues that need to be addressed for multithreaded builds:
+This task has four thread-safety issues that need to be addressed for multithreaded builds:
 
 1. **Relative paths**: `File.ReadAllLines` and `File.WriteAllLines` use `item.ItemSpec` directly, which might be a relative path. In multithreaded mode, the process working directory isn't guaranteed to be the project directory.
 2. **Static field**: `ModifiedFileCount` is a `static` field shared across all instances, which causes data races when multiple builds run concurrently.
-3. **No TaskEnvironment usage**: The task doesn't use `TaskEnvironment` for path resolution, so it can't reliably resolve file paths in multithreaded mode.
+3. **Environment variable**: `Environment.GetEnvironmentVariable()` reads from the process-level environment, which is shared across all concurrent builds. In multithreaded mode, one build's environment changes can bleed into another.
+4. **No TaskEnvironment usage**: The task doesn't use `TaskEnvironment` for path resolution or environment access, so it can't reliably operate in multithreaded mode.
 
 > [!IMPORTANT]
 > The multithreaded build mode is currently available only for .NET CLI (`dotnet build`) builds. Visual Studio MSBuild builds do not yet support multithreaded execution in-process. In Visual Studio, all task execution continues to run out of process. Visual Studio integration is planned for a future release.
@@ -226,18 +234,25 @@ The goal of the update work is to preserve the analogy of this behavior, but in-
 
 Replace all calls to `Environment` get and set methods with the equivalent methods on `TaskEnvironment` throughout the task.
 
-**Before:**
+**Before** (from `BuildCommentTask`):
 
 ```csharp
-string value = Environment.GetEnvironmentVariable("MY_VAR");
-Environment.SetEnvironmentVariable("BUILD_OUTPUT", outputPath);
+string disableComments = Environment.GetEnvironmentVariable("DISABLE_BUILD_COMMENTS");
 ```
 
 **After:**
 
 ```csharp
-string value = TaskEnvironment.GetEnvironmentVariable("MY_VAR");
+string disableComments = TaskEnvironment.GetEnvironmentVariable("DISABLE_BUILD_COMMENTS");
+```
+
+The same pattern applies to setting environment variables and enumerating all variables:
+
+```csharp
+// Set a variable in the task's isolated environment table
 TaskEnvironment.SetEnvironmentVariable("BUILD_OUTPUT", outputPath);
+
+// Enumerate all environment variables visible to the task
 IReadOnlyDictionary<string, string> allVars = TaskEnvironment.GetEnvironmentVariables();
 ```
 
@@ -307,11 +322,12 @@ int fileNumber = ModifiedFileCounts.AddOrUpdate(buildId, 1, (_, count) => count 
 
 ## Complete migration example
 
-The following code shows the fully migrated `AddBuildCommentTask` with all four changes applied:
+The following code shows the fully migrated `AddBuildCommentTask` with all five changes applied:
 
 1. Inherits `MultiThreadableTask` instead of `Task`.
 1. Has the `[MSBuildMultiThreadableTask]` attribute.
 1. Uses `TaskEnvironment.GetAbsolutePath()` for path resolution.
+1. Uses `TaskEnvironment.GetEnvironmentVariable()` instead of `Environment.GetEnvironmentVariable()`.
 1. Replaces the static field with an instance field.
 
 ```csharp
@@ -340,6 +356,13 @@ namespace BuildCommentTask
 
         public override bool Execute()
         {
+            string disableComments = TaskEnvironment.GetEnvironmentVariable("DISABLE_BUILD_COMMENTS");
+            if (!string.IsNullOrEmpty(disableComments))
+            {
+                Log.LogMessage(MessageImportance.Normal, "Build comments disabled via environment variable.");
+                return true;
+            }
+
             string buildDate = DateTime.UtcNow.ToString("yyyy-MM-dd HH:mm:ss");
             string commentPattern = $@"^{Regex.Escape(CommentPrefix)}\s*Build Date:.*Version:.*{Regex.Escape(CommentSuffix)}$";
 
@@ -446,6 +469,13 @@ namespace BuildCommentTask
 
         public override bool Execute()
         {
+            string disableComments = Environment.GetEnvironmentVariable("DISABLE_BUILD_COMMENTS");
+            if (!string.IsNullOrEmpty(disableComments))
+            {
+                Log.LogMessage(MessageImportance.Normal, "Build comments disabled via environment variable.");
+                return true;
+            }
+
             string buildDate = DateTime.UtcNow.ToString("yyyy-MM-dd HH:mm:ss");
             string commentPattern = $@"^{Regex.Escape(CommentPrefix)}\s*Build Date:.*Version:.*{Regex.Escape(CommentSuffix)}$";
 
