@@ -289,6 +289,8 @@ Key guidelines for file I/O in multithreaded tasks:
 - **Avoid holding locks on multiple files at once.** If two task instances each lock one file and then try to lock the other, you get a deadlock. If you must operate on multiple files, lock them in a consistent order (for example, sorted by full path).
 - **Keep locks as short as possible.** Open the file, read, modify, write, and close in one operation. Don't hold a file lock while doing unrelated work.
 
+The preceding example is one approach. For general guidance on thread-safe file I/O in .NET, see [FileStream class](/dotnet/fundamentals/runtime-libraries/system-io-filestream), [FileShare enum](/dotnet/api/system.io.fileshare), and [Managed threading best practices](/dotnet/standard/threading/managed-threading-best-practices).
+
 > [!WARNING]
 > `TaskEnvironment` itself is not thread-safe. If your task spawns multiple threads internally, you must synchronize access to `TaskEnvironment` methods and properties.
 
