@@ -291,8 +291,8 @@ Key guidelines for file I/O in multithreaded tasks:
 
 The preceding example is one approach. For general guidance on thread-safe file I/O in .NET, see [FileStream class](/dotnet/fundamentals/runtime-libraries/system-io-filestream), [FileShare enum](/dotnet/api/system.io.fileshare), and [Managed threading best practices](/dotnet/standard/threading/managed-threading-best-practices).
 
-> [!WARNING]
-> `TaskEnvironment` itself is not thread-safe. If your task spawns multiple threads internally, you must synchronize access to `TaskEnvironment` methods and properties.
+> [!NOTE]
+> `TaskEnvironment` itself is not thread-safe. This only matters if your task internally spawns its own threads (for example, using `Parallel.ForEach` or `Task.Run`). Most tasks don't do this — they implement `Execute()` linearly and let MSBuild handle parallelism across task instances. If your task does create its own threads, capture values from `TaskEnvironment` into local variables before spawning them, rather than accessing `TaskEnvironment` from multiple threads concurrently.
 
 ## Update environment variables
 
