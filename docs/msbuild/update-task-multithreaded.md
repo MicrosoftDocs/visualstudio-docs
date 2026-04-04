@@ -255,6 +255,40 @@ string[] originalLines = File.ReadAllLines(filePath);  // AbsolutePath converts 
 File.WriteAllLines(filePath, new[] { comment }.Concat(originalLines));
 ```
 
+### Handle file contention in multithreaded builds
+
+In the old per-process model, tasks in different sub-project builds ran sequentially within each worker process, so file contention was rare. In multithreaded mode, multiple task instances run concurrently in the same process and might try to access the same file at the same time. This can happen when:
+
+- The same file appears in multiple sub-project builds (for example, a shared configuration file or a linked source file).
+- A task reads and writes a file that another task instance is also processing.
+
+Convenience methods like `File.ReadAllLines` and `File.WriteAllLines` don't provide explicit control over file locking. When concurrent access is possible, use `FileStream` with explicit sharing and locking:
+
+```csharp
+using (var stream = new FileStream(filePath, FileMode.Open, FileAccess.ReadWrite, FileShare.None))
+{
+    // FileShare.None ensures exclusive access — other attempts
+    // to open this file will throw IOException until the stream
+    // is disposed.
+    using var reader = new StreamReader(stream);
+    string content = reader.ReadToEnd();
+
+    stream.SetLength(0); // Truncate before rewriting.
+    stream.Position = 0;
+
+    using var writer = new StreamWriter(stream);
+    writer.WriteLine(comment);
+    writer.Write(content);
+}
+```
+
+Key guidelines for file I/O in multithreaded tasks:
+
+- **Use `FileShare.None` for read-modify-write operations.** This prevents another task instance from reading stale content while you're updating the file.
+- **Catch `IOException` and consider retrying.** When another task instance holds a lock, your open attempt throws `IOException`. A short retry with backoff is often appropriate.
+- **Avoid holding locks on multiple files at once.** If two task instances each lock one file and then try to lock the other, you get a deadlock. If you must operate on multiple files, lock them in a consistent order (for example, sorted by full path).
+- **Keep locks as short as possible.** Open the file, read, modify, write, and close in one operation. Don't hold a file lock while doing unrelated work.
+
 > [!WARNING]
 > `TaskEnvironment` itself is not thread-safe. If your task spawns multiple threads internally, you must synchronize access to `TaskEnvironment` methods and properties.
 
