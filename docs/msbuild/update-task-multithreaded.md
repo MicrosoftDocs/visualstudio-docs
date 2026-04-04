@@ -14,7 +14,7 @@ monikerRange: visualstudio
 
 # Update an MSBuild task to work in multithreaded mode
 
-MSBuild 18.4 introduces the capability to build in parallel within the same process. Previous versions of MSBuild supported parallel builds, but builds were done in separate processes. This change has some impacts to how you author tasks. Whereas previously, tasks would run in a separate process, now tasks run in the same process. While most logic doesn't need to change, there are some process-level constructs that need to be handled more carefully. Process-level constructs include the current working directory, environment variables, and process start info (`ProcessStartInfo`).
+MSBuild 18.4 introduces the capability to build in parallel within the same process. To opt in to this mode, pass the `-mt` command-line switch. Previous versions of MSBuild supported parallel builds, but builds were done in separate processes. This change has some impacts to how you author tasks. Whereas previously, tasks would run in a separate process, now tasks run in the same process. While most logic doesn't need to change, there are some process-level constructs that need to be handled more carefully. Process-level constructs include the current working directory, environment variables, and process start info (`ProcessStartInfo`).
 
 To support these changes, MSBuild 18.4 introduces the `IMultiThreadableTask` interface (in `Microsoft.Build.Framework`), the `MultiThreadableTask` abstract class (in `Microsoft.Build.Utilities`), and the `TaskEnvironment` class. `TaskEnvironment` includes a `ProjectDirectory` property and methods such as `GetAbsolutePath()`, `GetEnvironmentVariable()`, `SetEnvironmentVariable()`, and `GetProcessStartInfo()`.
 
@@ -148,6 +148,13 @@ This task has four thread-safety issues that need to be addressed for multithrea
 ## Prerequisites
 
 - MSBuild 18.4 or later.
+- Enable multithreaded task execution with the `-mt` command-line switch:
+
+  ```console
+  dotnet build -mt
+  ```
+
+  For more information about the `-mt` switch, see [MSBuild command-line reference](msbuild-command-line-reference.md).
 
 ## Plan the migration
 

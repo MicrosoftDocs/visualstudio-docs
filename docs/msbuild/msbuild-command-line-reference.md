@@ -1,7 +1,7 @@
 ---
 title: MSBuild Command-Line Reference
 description: Learn how to use MSBuild.exe command line to build a project or solution file, and several switches you can include.
-ms.date: 06/06/2024
+ms.date: 04/03/2026
 ms.topic: reference
 dev_langs:
 - VB
@@ -40,6 +40,8 @@ The first column in the following table shows a long and short form of each swit
 
 Square brackets `[]` indicate optional parts, and curly braces `{}`indicate user-supplied values.
 
+:::moniker range="vs-2022"
+
 |Switch|Description|
 |------------|-----------------|
 |`-detailedSummary[:{True or False}]`<br/><br/>`-ds[:{True or False}]`|If `True`, show detailed information at the end of the build log about the configurations that were built and how they were scheduled to nodes.|
@@ -73,6 +75,47 @@ Square brackets `[]` indicate optional parts, and curly braces `{}`indicate user
 |`-warnAsError[:{code; ...}]`<br/><br/>`-err[:{code; ...}]`|List of warning codes to treats as errors.  Use a semicolon or a comma to separate multiple warning codes. To treat all warnings as errors, use the switch with no values. When a warning is treated as an error, the target continues to execute as if it was a warning, but the overall build fails.<br/><br/>Example: `-err:MSB4130`|
 |`-warnNotAsError[:{code; ...}]`<br/><br/>`-noerr[:{code; ...}]`|MSBuild 17.0 and later. List of warning codes that shouldn't be promoted to errors. Specifically, if the warnAsError switch is set to promote all warnings to errors, error codes specified with warnNotAsError aren't promoted. This has no effect if warnAsError isn't set to promote all warnings to errors. Use a semicolon or a comma to separate multiple warning codes. <br/><br/>Example: `-noerr:MSB4130`|
 |`-warnAsMessage[:{code}; ...}]`<br/><br/>`-noWarn[:{code; ...}]`|List of warning codes to treats as low importance messages.  Use a semicolon or a comma to separate multiple warning codes.<br/><br/>Example: `-noWarn:MSB3026`|
+
+:::moniker-end
+
+:::moniker range="visualstudio"
+
+|Switch|Description|
+|------------|-----------------|
+|`-detailedSummary[:{True or False}]`<br/><br/>`-ds[:{True or False}]`|If `True`, show detailed information at the end of the build log about the configurations that were built and how they were scheduled to nodes.|
+|`-getItem:{itemName,...}`|Write out the value of the item or items after evaluation, without executing the build, or if either the `-targets` option or the `-getTargetResult` option is used, write out the values after the build.|
+|`-getProperty:{propertyName,...}`|Write out the value of the property or properties after evaluation, without executing the build, or if either the `-targets` option or the `-getTargetResult` option is used, write out the values after the build.|
+|`-getTargetResult:{targetName,...}`|Write out the output values of the specified targets.|
+|`-graphBuild[:{True or False}]`<br/><br/>`-graph[:{True or False}]`|Causes MSBuild to construct and build a project graph. Constructing a graph involves identifying project references to form dependencies. Building that graph involves attempting to build project references prior to the projects that reference them, differing from traditional MSBuild scheduling. Requires MSBuild 16 or later.|
+|`-help`<br/><br/>`/?` or `-h`|Display usage information. The following command is an example:<br /><br /> `msbuild.exe -?`|
+|`-ignoreProjectExtensions: {extensions}`<br/><br/>`-ignore: {extensions}`|Ignore the specified extensions when determining which project file to build. Use a semicolon or a comma to separate multiple extensions, as the following example shows:<br /><br /> `-ignoreprojectextensions:.vcproj,.sln`|
+|`-inputResultsCaches[:{cacheFile; ...}]`<br/><br/>`-irc[:{cacheFile; ...}]`|Semicolon separated list of input cache files that MSBuild will read build results from. If `-isolateProjects` is set to `False`, this sets it to `True`.|
+|`-interactive[:{True or False}]`|Indicates that actions in the build are allowed to interact with the user. Don't use this argument in an automated scenario where interactivity is not expected. Specifying `-interactive` is the same as specifying `-interactive:true`. Use the parameter to override a value that comes from a response file.|
+|`-isolateProjects[:{True, MessageUponIsolationViolation, False}]`<br/><br/>`-isolate[:{True, MessageUponIsolationViolation, False}]`|Causes MSBuild to build each project in isolation. When set to `MessageUponIsolationViolation` (or its short form `Message`), only the results from top-level targets are serialized if the `-outputResultsCache` switch is supplied. This option is to mitigate the chances of an isolation-violating target on a dependency project using incorrect state due to its dependency on a cached target whose side effects wouldn't be taken into account. (For example, the definition of a property.) This mode is more restrictive, as it requires that the project graph be statically discoverable at evaluation time, but can improve scheduling and reduce memory overhead when building a large set of projects.|
+|`-lowPriority[:{True or False}]`<br/><br/>`-low[:{True or False}]`|Causes MSBuild to run at low process priority. Specifying `-lowPriority` is the same as specifying `-lowPriority:True`.|
+|`-maxCpuCount[:{number}]`<br/><br/>`-m[:{number}]`|Specifies the maximum number of concurrent processes to use when building. If you don't include this switch, the default value is 1. If you include this switch without specifying a value, MSBuild uses up to the number of processors in the computer. For more information, see [Building multiple projects in parallel](../msbuild/building-multiple-projects-in-parallel-with-msbuild.md).<br /><br /> The following example instructs MSBuild to build using three MSBuild processes, which allows three projects to build at the same time:<br /><br /> `msbuild myproject.proj -maxcpucount:3`|
+|`-multiThreaded[:{True or False}]`<br/><br/>`-mt[:{True or False}]`|Enables multithreaded task execution within a single MSBuild process. When enabled, tasks that implement `IMultiThreadableTask` or have the `[MSBuildMultiThreadableTask]` attribute run in-process on multiple threads instead of in separate worker processes. Tasks that haven't opted in to multithreaded execution automatically fall back to running in a sidecar TaskHost process. Specifying `-mt` is the same as specifying `-mt:True`. Requires MSBuild 18.4 or later. For more information, see [Update a task for multithreaded builds](update-task-multithreaded.md).|
+|`-noAutoResponse`<br/><br/>`-noautorsp`|Don't include any *MSBuild.rsp* or *Directory.Build.rsp* files automatically.|
+|`-nodeReuse:{value}`<br/><br/>`-nr:{value}`|Enable or disable the reuse of MSBuild nodes. You can specify the following values:<br /><br /> -   **True**. Nodes remain after the build finishes so that subsequent builds can use them (default).<br />-   **False**. Nodes don't remain after the build completes.<br /><br /> A node corresponds to a project that's executing. If you include the `-maxcpucount` switch, multiple nodes can execute concurrently.|
+|`-nologo`|Don't display the startup banner or the copyright message.|
+|<a name="preprocess"></a> `-preprocess[:{filepath}]`<br/><br/>`-pp[:{filepath}]`|Create a single, aggregated project file by inlining all the files that would be imported during a build, with their boundaries marked. You can use this switch to more easily determine which files are being imported, from where the files are being imported, and which files contribute to the build. When you use this switch, the project isn't built.<br /><br /> If you specify a `filepath`, the aggregated project file is output to the file. Otherwise, the output appears in the console window.<br /><br /> For information about how to use the `Import` element to insert a project file into another project file, see [Import element (MSBuild)](../msbuild/import-element-msbuild.md) and [How to: Use the same target in multiple project files](../msbuild/how-to-use-the-same-target-in-multiple-project-files.md).|
+|`-outputResultsCache[:{cacheFile}]`<br/><br/>`-orc[:{cacheFile}]`|Output cache file where MSBuild writes the contents of its build result caches at the end of the build. If `-isolateProjects` is set to `False`, this sets it to `True`.|
+|`profileEvaluation:{file}`|Profiles MSBuild evaluation and writes the result to the specified file. If the extension of the specified file is '.md', the result is generated in Markdown format. Otherwise, a tab-separated file is produced.|
+|`-property:{name}={value}`<br/><br/>`-p:{name}={value}`|Set or override the specified project-level properties, where `name` is the property name and `value` is the property value. Specify each property separately, or use a semicolon or comma to separate multiple properties, as the following example shows:<br /><br /> `-property:WarningLevel=2;OutDir=bin\Debug`<br/><br/>See [Common MSBuild project properties](./common-msbuild-project-properties.md) for a list of commonly used properties. The full set of available properties depends on the project type, SDK, and imported files.|
+|`-restore`<br/><br/>`-r`|Runs the `Restore` target prior to building the actual targets.|
+|`-restoreProperty:{name}={value}`<br/><br/>`-rp:{name}={value}`|Set or override these project-level properties only during restore and don't use properties specified with the `-property` argument. `name` is the property name, and `value` is the property value. Use a semicolon or a comma to separate multiple properties, or specify each property separately.|
+|`-target:{targets}`<br/><br/>`-t:{targets}`|Build the specified targets in the project. Specify each target separately, or use a semicolon or comma to separate multiple targets, as the following example shows:<br /><br /> `-target:PrepareResources;Compile`<br /><br /> If you specify any targets by using this switch, they're run instead of any targets in the `DefaultTargets` attribute in the project file. For more information, see [Target build order](../msbuild/target-build-order.md) and [How to: Specify which target to build first](../msbuild/how-to-specify-which-target-to-build-first.md).<br /><br /> A target is a group of tasks. For more information, see [Targets](../msbuild/msbuild-targets.md).|
+|`-targets[:{file}]`<br/><br/>`-ts[:{file}]`|Write the list of available targets to the specified file (or the output device, if no file is specified), without actually executing the build process.|
+|`-toolsVersion:{version}`<br/><br/>`-tv:{version}`|  Specifies a custom toolset. A toolset consists of tasks, targets, and tools that are used to build an application. See [Toolset (ToolsVersion)](../msbuild/msbuild-toolset-toolsversion.md) and [Standard and custom toolset configurations](./standard-and-custom-toolset-configurations.md).|
+|`-validate:[{schema}]`<br/><br/>`-val[{schema}]`|Validate the project file and, if validation succeeds, build the project.<br /><br /> If you don't specify `schema`, the project is validated against the default schema.<br /><br /> If you specify `schema`, the project is validated against the schema that you specify.<br /><br /> The following setting is an example: `-validate:MyExtendedBuildSchema.xsd`|
+|`-verbosity:{level}`<br/><br/>`-v:{level}`|Specifies the amount of information to display in the build log. Each logger displays events based on the verbosity level that you set for that logger.<br /><br /> You can specify the following verbosity levels: `q[uiet]`, `m[inimal]`, `n[ormal]` (default), `d[etailed]`, and `diag[nostic]`.<br /><br /> The following setting is an example: `-verbosity:quiet`|
+|`-version`<br/><br/>`-ver`|Display version information only. The project isn't built.|
+|`@{file}`|Insert command-line switches from a text file. If you have multiple files, you specify them separately. For more information, see [Response files](../msbuild/msbuild-response-files.md).|
+|`-warnAsError[:{code; ...}]`<br/><br/>`-err[:{code; ...}]`|List of warning codes to treats as errors.  Use a semicolon or a comma to separate multiple warning codes. To treat all warnings as errors, use the switch with no values. When a warning is treated as an error, the target continues to execute as if it was a warning, but the overall build fails.<br/><br/>Example: `-err:MSB4130`|
+|`-warnNotAsError[:{code; ...}]`<br/><br/>`-noerr[:{code; ...}]`|MSBuild 17.0 and later. List of warning codes that shouldn't be promoted to errors. Specifically, if the warnAsError switch is set to promote all warnings to errors, error codes specified with warnNotAsError aren't promoted. This has no effect if warnAsError isn't set to promote all warnings to errors. Use a semicolon or a comma to separate multiple warning codes. <br/><br/>Example: `-noerr:MSB4130`|
+|`-warnAsMessage[:{code}; ...}]`<br/><br/>`-noWarn[:{code; ...}]`|List of warning codes to treats as low importance messages.  Use a semicolon or a comma to separate multiple warning codes.<br/><br/>Example: `-noWarn:MSB3026`|
+
+:::moniker-end
 
 ## Switches for loggers
 
