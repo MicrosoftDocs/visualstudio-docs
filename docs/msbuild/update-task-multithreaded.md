@@ -59,6 +59,8 @@ namespace BuildCommentTask
     {
         private static int ModifiedFileCount = 0;
 
+        // Callers are responsible for passing only text files in TargetFiles,
+        // and for setting CommentPrefix/CommentSuffix to match the file type.
         [Required]
         public ITaskItem[] TargetFiles { get; set; }
 
@@ -447,6 +449,8 @@ namespace BuildCommentTask
     {
         private static readonly object s_counterLock = new();
 
+        // Callers are responsible for passing only text files in TargetFiles,
+        // and for setting CommentPrefix/CommentSuffix to match the file type.
         [Required]
         public ITaskItem[] TargetFiles { get; set; }
 
@@ -590,6 +594,8 @@ namespace BuildCommentTask
     {
         private static int ModifiedFileCount = 0;
 
+        // Callers are responsible for passing only text files in TargetFiles,
+        // and for setting CommentPrefix/CommentSuffix to match the file type.
         [Required]
         public ITaskItem[] TargetFiles { get; set; }
 
