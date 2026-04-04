@@ -7,7 +7,7 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: msbuild
-ms.custom: doc-kit-assisted
+ms.custom: doc-kit-assisted, awp-ai
 monikerRange: visualstudio
 #customer intent: As a developer, I want to update an existing task to work in the MSBuild multithreaded build model.
 ---
