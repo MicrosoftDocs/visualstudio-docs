@@ -203,6 +203,7 @@ When setting property values, keep in mind that common properties may be set, re
 | KeyOriginatorFile | All | The name of the strong-name key file. |
 | ModuleAssemblyName | .NET | The name of the assembly that the compiled module is to be incorporated into. The property is equivalent to the `/moduleassemblyname` compiler switch. |
 | MSBuildProjectExtensionsPath | All | Specifies the path where project extensions are located. By default, this takes the same value as `BaseIntermediateOutputPath`. |
+| MSBuildTreatWarningsAsErrors | All | A boolean value that tells MSBuild to treat all warnings as errors, unless they're suppressed. |
 | MSBuildWarningsAsErrors | All | Specifies a list of warning codes to treat as errors. Separate multiple warnings by semicolons. If you're using the .NET SDK property `WarningsAsErrors`, `MSBuildWarningsAsErrors` will default to the value of `WarningsAsErrors`.|
 | MSBuildWarningsAsMessages | All | Specifies a list of warning codes to suppress by treating them as low-importance messages. Separate multiple warnings by semicolons. Note that some warnings emitted by MSBuild can't be suppressed by using this property; to suppress them, use the command-line switch `-warnAsMessage`. If you're using the .NET SDK property `NoWarn`, `MSBuildWarningsAsMessages` will default to the value of `NoWarn`.|
 
