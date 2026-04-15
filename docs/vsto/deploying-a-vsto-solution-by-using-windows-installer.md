@@ -114,13 +114,6 @@ The first step is to create the setup project.
 
 5. In the **Name** box, type **OfficeAddInSetup**.
 
-
-Visual Studio opens the File System Explorer for the new setup project. The File System Explorer allows you to add files to the setup project.
-
-   ![Screenshot of the File System Explorer for the setup project](media/setup-project-figure-1.png)
-
-   **Figure 1: File System Explorer for the setup project**
-
 The setup project needs to deploy the ExcelAddIn. You can configure the setup project for this task by adding the ExcelAddIn project output to the setup project.
 
 ### To add the ExcelAddIn project output
