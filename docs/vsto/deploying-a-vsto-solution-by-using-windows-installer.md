@@ -2,7 +2,7 @@
 title: Deploy a VSTO Solution with Windows Installer (Visual Studio)
 description: Deploy a Microsoft Visual Studio Tools for Office (VSTO) add-in or document-level solution by using a Visual Studio Installer project.
 titleSuffix: ""
-ms.date: "08/18/2010"
+ms.date: "04/16/2026"
 ms.topic: install-set-up-deploy
 dev_langs:
   - "VB"
@@ -117,7 +117,7 @@ The first step is to create the setup project.
 
 Visual Studio opens the File System Explorer for the new setup project. The File System Explorer allows you to add files to the setup project.
 
-   ![Screenshot of the File System Explorer for the setup project](media/setup-project-figure-1.png)
+   ![Screenshot of the File System Explorer for the setup project.](media/visualstudio/setup-project-figure-1.png)
 
    **Figure 1: File System Explorer for the setup project**
 
@@ -141,7 +141,7 @@ The setup project needs to deploy the deployment manifest and application manife
 2. In the **Add Files** dialog box, navigate to the **ExcelAddIn** output directory. Usually the output directory is the **bin\\release** subfolder of the project root directory, depending on the selected build configuration.
 3. Select the **ExcelAddIn.vsto** and **ExcelAddIn.dll.manifest** files and click **Open** to add these two files to the setup project.
 
-    ![Screenshot of the Application and deployment manifests in Solution Explorer](media/setup-project-figure-3.jpg)
+    ![Screenshot of the application and deployment manifests in Solution Explorer.](media/visualstudio/setup-project-figure-3.png)
 
     **Figure 3: Application and deployment manifests for the Add-in in Solution Explorer**
 
@@ -153,7 +153,7 @@ Referencing the ExcelAddIn includes all the components that ExcelAddIn requires.
 2. Right-click the group and select **Properties**.
 3. In the **Properties** window, change the **Exclude** property to **True** to exclude the dependent assemblies from the setup project. Make sure to not exclude any Utilities assemblies.
 
-    ![Screenshot of Solution Explorer showing the dependencies to exclude](media/setup-project-figure-4.jpg)
+    ![Screenshot that shows the dependencies to exclude in Solution Explorer.](media/visualstudio/setup-project-figure-4.png)
 
     **Figure 4: Excluding dependencies**
 
@@ -171,7 +171,7 @@ To configure dependent components as prerequisites
 3. Click the **Prerequisites** button.
 4. In the Prerequisites dialog box, select the correct version of the .NET Framework and the Microsoft Visual Studio Tools for Office Runtime.
 
-    ![Screenshot of the Prerequisites Dialog Box](media/setup-project-figure-5.png)
+    ![Screenshot of the Prerequisites dialog.](media/visualstudio/setup-project-figure-5.png)
 
     **Figure 5: Prerequisites Dialog Box**
 
@@ -208,7 +208,7 @@ Microsoft Office locates Add-ins by using registry keys. The keys in the HKEY\_C
 
 15. Select the **Manifest** key in the registry editor. In the **Properties Window**, change the **Value** property to **file:///[TARGETDIR]ExcelAddIn.vsto|vstolocal**
 
-    ![Screenshot of the Registry Editor](media/setup-project-figure-6.png)
+    ![Screenshot of the Registry Editor.](media/visualstudio/setup-project-figure-6.png)
 
     **Figure 6: Setting up registry keys**
 
@@ -225,7 +225,7 @@ Microsoft Office locates Add-ins by using registry keys. The keys in the HKEY\_C
 
 Installing an Add-in for both 32-bit and 64-bit versions of Office, will require you to create two separate MSI packages. One for 32-bit and one for 64-bit.
 
-  ![Screenshot of the Properties Window showing the Target Platform for registering Add-ins with 64-bit Office](media/setup-project-figure-7.jpg)
+  ![Screenshot of the Properties window that shows the target platform for registering add-ins with 64-bit Office.](media/visualstudio/setup-project-figure-7.png)
 
   **Figure 7: Target Platform for registering Add-ins with 64-bit Office**
 
@@ -253,7 +253,7 @@ If the MSI package is used to install the Add-in or solution, it may install wit
    3. Leave the **InstallURL** property blank.
    4. Set the **Message** to **The Visual Studio 2010 Tools for Office Runtime is not installed. Please run Setup.exe to install the Add-in**.
 
-        ![Screenshot of the Properties Window for the Verify Runtime Availability launch condition](media/setup-project-figure-8.jpg)
+        ![Screenshot of the Properties window for the Verify Runtime Availability launch condition.](media/visualstudio/setup-project-figure-8.png)
 
         **Figure 8: Properties Window for the Verify Runtime Availability launch condition**
 
@@ -274,7 +274,7 @@ If the MSI package is used to install the Add-in or solution, it may install wit
 
 5. Change the value of the **Condition** property to **VSTORUNTIMEREDIST \>="10.0.30319" OR OFFICERUNTIME\>="10.0.21022"**. The version numbers maybe different for you depending on the versions of the runtime that your Add-in requires.
 
-    ![Screenshot of the Properties Windows for the launch condition](media/setup-project-figure-9.jpg)
+    ![Screenshot of the Properties window for the launch condition.](media/visualstudio/setup-project-figure-9.png)
   
     **Figure 9: Properties Windows for the Verify Runtime Availability through Redist or Office launch condition**
 
@@ -310,7 +310,7 @@ For more information, see [Type Equivalence and Embedded Interop Types](/dotnet/
     3. Leave **InstallUrl** blank.
     4. Change the **Message** to **A required component for interacting with Excel is not available. Please run setup.exe**.
 
-    ![Screenshot of the Properties Window for the Verify Office Shared PIA launch condition](media/setup-project-figure-10.jpg)
+    ![Screenshot of the Properties Window for the Verify Office Shared PIA launch condition.](media/visualstudio/setup-project-figure-10.png)
   
     **Figure 10: Properties Window for the Verify Office Shared PIA launch condition**
 
@@ -330,7 +330,7 @@ For more information, see [Type Equivalence and Embedded Interop Types](/dotnet/
 |Office Shared|{64E2917E-AA13-4CA4-BFFE-EA6EDA3AFCB4}|{6A174BDB-0049-4D1C-86EF-3114CB0C4C4E}|{76601EBB-44A7-49EE-8DE3-7B7B9D7EBB05}|{68477CB0-662A-48FB-AF2E-9573C92869F7}|{625F5772-C1B3-497E-8ABE-7254EDB00506}|
 |Project|{957A4EC0-E67B-4E86-A383-6AF7270B216A}|{1C50E422-24FA-44A9-A120-E88280C8C341}|{706D7F44-8231-489D-9B25-3025ADE9F114}|{0B6EDA1D-4A15-4F88-8B20-EA6528978E4E}|{107BCD9A-F1DC-4004-A444-33706FC10058}|
 
-  ![Screenshot of the Final launch conditions](media/setup-project-figure-11.jpg)
+  ![Screenshot of the Final launch conditions.](media/visualstudio/setup-project-figure-11.png)
 
   **Figure 11: Final launch conditions**
 
@@ -380,7 +380,7 @@ To add the custom action project to your Visual Studio solution
 2. Expand **Add** and click **New Project**.
 3. Select the Console App template and name the project **AddCustomizationCustomAction**.
 
-    ![Screenshot of the Solution Explorer - AddCustomizationCustomAction](media/setup-project-figure-15.jpg)
+    ![Screenshot of AddCustomizationCustomAction in Solution Explorer.](media/visualstudio/setup-project-figure-15.png)
   
     **Figure 12: Solution Explorer - AddCustomizationCustomAction**
 
@@ -522,7 +522,7 @@ The last step is to configure the custom action for the **Install** and **Uninst
 2. In the **Add Project Output Group** dialog box, in the **Project** list, click **AddCustomizationCustomAction**.
 3. Select **Primary Output** and click **OK** to close the dialog box and add the assembly containing the custom action to the setup project.
 
-    ![Screenshot of the Document Manifest Custom Action - Add Project Output Group window](media/setup-project-figure-18.jpg)
+    ![Screenshot of the Add Project Output Group window.](media/visualstudio/setup-project-figure-18.png)
 
     **Figure 15: Document Manifest Custom Action - Add Project Output Group**
 
@@ -533,7 +533,7 @@ The last step is to configure the custom action for the **Install** and **Uninst
 8. Under the **Install node**, right-click **Primary output from AddCustomizationCustomAction(Active)**, and click **Rename**. Name the custom action **Copy document to My Documents and attach customization**.
 9. Under the **Uninstall node**, right-click **Primary output from AddCustomizationCustomAction(Active)** and click **Rename**. Name the custom action **Remove document from the Documents folder**.
 
-    ![Screenshot of the Document Manifest Custom Actions window](media/setup-project-figure-19.jpg)
+    ![Screenshot of the Document Manifest Custom Actions window.](media/visualstudio/setup-project-figure-19.png)
 
     **Figure 16: Document Manifest Custom Actions**
 
@@ -545,7 +545,7 @@ s
     /assemblyLocation="[INSTALLDIR]ExcelWorkbookProject.dll" /deploymentManifestLocation="[INSTALLDIR]ExcelWorkbookProject.vsto" /documentLocation="[INSTALLDIR]ExcelWorkbookProject.xlsx" /solutionID="Your Solution ID" /LogFile="[TARGETDIR]Setup.log"
     ```
 
-    ![Screenshot of the Custom Action to Copy Document to My Documents Properties window](media/setup-project-figure-20.jpg)
+    ![Screenshot of the Copy document to My Documents properties window.](media/visualstudio/setup-project-figure-20.png)
 
     **Figure 17: Custom Action to Copy Document to My Documents**
 
