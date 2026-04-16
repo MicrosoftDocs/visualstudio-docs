@@ -498,7 +498,7 @@ To retrieve the solution ID
 2. In the **Solution Explorer**, right-click the document-level project **ExcelWorkbookProject**
 3. Click **UnloadProject** to access the project file from inside Visual Studio.
 
-    ![Screenshot of Solution Explorer Unloading Excel Document Solution](media/setup-project-figure-16.jpg)
+    ![Screenshot of the unloaded Excel project in Solution Explorer.](media/visualstudio/setup-project-figure-16.png)
 
     **Figure 13: Unloading Excel Document Solution**
 
