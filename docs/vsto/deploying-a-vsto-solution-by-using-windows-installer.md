@@ -330,7 +330,7 @@ For more information, see [Type Equivalence and Embedded Interop Types](/dotnet/
 |Office Shared|{64E2917E-AA13-4CA4-BFFE-EA6EDA3AFCB4}|{6A174BDB-0049-4D1C-86EF-3114CB0C4C4E}|{76601EBB-44A7-49EE-8DE3-7B7B9D7EBB05}|{68477CB0-662A-48FB-AF2E-9573C92869F7}|{625F5772-C1B3-497E-8ABE-7254EDB00506}|
 |Project|{957A4EC0-E67B-4E86-A383-6AF7270B216A}|{1C50E422-24FA-44A9-A120-E88280C8C341}|{706D7F44-8231-489D-9B25-3025ADE9F114}|{0B6EDA1D-4A15-4F88-8B20-EA6528978E4E}|{107BCD9A-F1DC-4004-A444-33706FC10058}|
 
-  ![Screenshot of the Final launch conditions.](media/visualstudio/setup-project-figure-11.png)
+  ![Screenshot of the final launch conditions.](media/visualstudio/setup-project-figure-11.png)
 
   **Figure 11: Final launch conditions**
 
