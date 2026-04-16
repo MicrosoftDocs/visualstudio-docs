@@ -213,7 +213,7 @@ Microsoft Office locates Add-ins by using registry keys. The keys in the HKEY\_C
     **Figure 6: Setting up registry keys**
 
       The VSTO runtime uses this registry key to locate the deployment manifest. The [TARGETDIR] macro will be replaced with the folder where the add-in is installed to. The macro will include the trailing \ character, so the filename of the deployment manifest should be ExcelAddIn.vsto without the \ character.
-      The **vstolocal** postfix, tells the VSTO runtime that the Add-in should load from this location instead of the ClickOnce cache. Removing this postfix will cause the runtime to copy the customization into the ClickOnce cache.
+      The **vstolocal** postfix tells the VSTO runtime that the Add-in should load from this location instead of the ClickOnce cache. Removing this postfix will cause the runtime to copy the customization into the ClickOnce cache.
 
    >[!WARNING]
    >You should be very careful with the Registry Editor in Visual Studio. For example, if you accidentally set DeleteAtUninstall for the wrong key, you might delete an active part of the registry, leaving the user computer in an inconsistent, or even worse, broken state.
