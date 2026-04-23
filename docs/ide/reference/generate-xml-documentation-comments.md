@@ -26,11 +26,6 @@ To enable documentation generation, select the **Generate a file containing API 
 By default, a documentation file named the same as your assembly with an *.xml* file extension generates in the same directory as the assembly. If you want to configure a nondefault name or location for the  file, enter or browse to an alternate location under **XML documentation file path**.
    ::: moniker-end
 
-   ::: moniker range="<= vs-2019"
-To enable documentation generation, select the **XML documentation file** checkbox in the **Build** > **Output** section of your project's properties.
-
-By default, a documentation file named the same as your assembly with an *.xml* file extension generates in the same directory as the assembly. If you want to configure a nondefault name or location for the  file, enter or browse to an alternate location.
-   ::: moniker-end
 
 Alternatively, you can add the [GenerateDocumentationFile](/dotnet/core/project-sdk/msbuild-props#generatedocumentationfile) or [DocumentationFile](/dotnet/core/project-sdk/msbuild-props#documentationfile) properties to your *.csproj*, *.vbproj*, or *.fsproj* file. Set `GenerateDocumentationFile` to `true` to generate a documentation file with the default name and location. Use the `DocumentationFile` property to specify a different name or location.
 

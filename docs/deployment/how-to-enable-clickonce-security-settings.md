@@ -1,7 +1,7 @@
 ---
 title: Enable & configure ClickOnce security
 description: Learn how the Publish wizard automatically enables code access security for ClickOnce applications to publish the application.
-ms.date: 04/25/2025
+ms.date: 05/06/2025
 ms.topic: how-to
 f1_keywords:
 - vb.ProjectPropertiesSecurity

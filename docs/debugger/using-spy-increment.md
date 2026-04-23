@@ -2,7 +2,7 @@
 title: Use Spy++ to view threads, windows, and messages
 description: Learn how to use Spy++ to get a graphical view of the system's processes, threads, windows, and window messages.
 ms.date: 02/05/2024
-ms.topic: "conceptual"
+ms.topic: how-to
 helpviewer_keywords:
   - Using Spy++
   - viewing code, refreshing views, fonts

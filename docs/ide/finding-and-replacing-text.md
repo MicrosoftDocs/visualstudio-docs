@@ -1,8 +1,8 @@
 ---
 title: Find and replace text, and multi-caret selection
 description: Explore the Find and Replace feature in Visual Studio and discover how to use the feature to find and replace instances of a pattern.
-ms.date: 01/07/2025
-ms.topic: conceptual
+ms.date: 02/25/2026
+ms.topic: how-to
 f1_keywords:
 - vs.find
 - vs.findreplacecontrol
@@ -16,6 +16,8 @@ f1_keywords:
 - vs.findreplace.quickfind
 - vs.lookin
 - vs.replace
+- VS.ToolsOptionsPages.Environment.FindReplace
+- VS.ToolsOptionsPages.Environment.FindandReplace
 helpviewer_keywords:
 - text searches
 - Replace in Files dialog box
@@ -53,17 +55,18 @@ You can scope searches to the current document, the current solution, or a custo
 
 The **Find and Replace** control appears in the upper right corner of the code editor window. It immediately highlights every occurrence of the given search string in the current document. You can navigate from one occurrence to another by choosing the **Find Next** button or the **Find Previous** button on the search control.
 
-::: moniker range=">=vs-2022"
+::: moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/find-and-replace-box.png" alt-text="Screenshot of the Find and Replace dialog in the Editor in Visual Studio.":::
+
+::: moniker-end
+
+::: moniker range="vs-2022"
 
 :::image type="content" source="media/vs-2022/find-and-replace-box.png" alt-text="Screenshot of the Find and Replace dialog in the Editor in Visual Studio.":::
 
 ::: moniker-end
 
-::: moniker range="<=vs-2019"
-
-:::image type="content" source="media/find-and-replace-box.png" alt-text="Screenshot of the Find and Replace dialog in the Editor in Visual Studio 2019 and earlier versions.":::
-
-::: moniker-end
 
 You can access replacement options by choosing the button next to the **Find** text box. To make one replacement at a time, choose the **Replace Next** button next to the **Replace** text box. To replace all matches, choose the **Replace All** button.
 
@@ -81,24 +84,22 @@ A version of the **Find** control is also available in some tool windows. For ex
 
 Open the **Find and Replace** dialog box by pressing **Ctrl**+**Shift**+**F**, or:
 
-:::moniker range="<=vs-2019"
 
-1. Press **Ctrl**+**Q** and enter "find" in the search box at the top of the screen.
-1. Choose **Find in files** from the list of results.
-
-:::image type="content" source="media/find-files-vs2019.png" alt-text="Screenshot of the Find and Replace dialog box in Visual Studio 2019, with the Find in Files tab open.":::
-
-> [!IMPORTANT]
-> If you are using **Visual Studio 2019** [**version 16.6**](/visualstudio/releases/2019/release-notes-v16.6/) or earlier, the **Find and Replace** dialog box might not look like it appears here. Switch to the [Visual Studio 2017](find-in-files.md?view=vs-2017&preserve-view=true) version of this page for descriptions that'll match what you see on your screen.
-
-:::moniker-end
-
-::: moniker range=">=vs-2022"
+::: moniker range="vs-2022"
 
 1. On the menu bar, select **Edit** > **Find and Replace**.
 1. Choose **Find in Files** from the fly-out menu.
 
 :::image type="content" source="media/vs-2022/find-files.png" alt-text="Screenshot of the Find and Replace dialog box in Visual Studio 2022, with the Find in Files tab open.":::
+
+:::moniker-end
+
+::: moniker range="visualstudio"
+
+1. On the menu bar, select **Edit** > **Find and Replace**.
+1. Choose **Find in Files** from the fly-out menu.
+
+:::image type="content" source="media/visualstudio/find-files.png" alt-text="Screenshot of the Find and Replace dialog box in Visual Studio, with the Find in Files tab open.":::
 
 :::moniker-end
 
@@ -112,8 +113,14 @@ Set the scope of your search and replace operation to:
 - The current project
 - Specified folder sets
 - Specified file extensions
-  
+
 The **Find and Replace** tool does not search directories with the `Hidden` or `System` attribute.
+
+:::moniker range="visualstudio"
+You can permanently exclude some files from search; see [Exclude files from search](#exclude-files-from-search).
+:::moniker-end
+  
+### Cancel a search
 
 To cancel a Find or Replace operation, press **Ctrl**+**Break**.
 
@@ -133,6 +140,22 @@ You can define a search scope by choosing the **Choose Search Folders** button (
 ### Create custom component sets
 
 You can define component sets as your search scope by choosing the **Edit Custom Component Set** button next to the **Look in** box. You can specify installed .NET or COM components, Visual Studio projects that are included in your solution, or any assembly or type library (*.dll*, *.tlb*, *.olb*, *.exe*, or *.ocx*). To search references, select the **Look in references** box.
+
+:::moniker range="visualstudio"
+
+## Exclude files from search
+
+You can exclude specific files such as build artifacts, minified scripts, or generated files, that you don't want to be included in the typical search.
+
+To set up files to exclude, go to **Tools > Options > Environment > Search**, and look for the **Exclude files from search results** section. There, you can add, edit, or remove glob patterns to control exactly which files are left out of your search results.
+
+![Screenshot that shows settings to exclude files from search results.](media/visualstudio/find-file-exclusions.png)
+
+These exclusions are automatically applied in [Quick Find](#control). For [Find in Files](#multifile), these exclusions are applied in addition to any exclusions in the **File types** field. You can toggle the settings level exclusions on or off via the toggle button on the right of the **File types**.
+
+![Screenshot showing toggle button for file exclusions.](media/visualstudio/find-file-exclusions-find-in-files-toggle.png)
+
+:::moniker-end
 
 ## Multi-caret selection
 
@@ -158,38 +181,6 @@ To select multiple carets:
 
 ::: moniker-end
 
-::: moniker range="<=vs-2019"
-
-In the following screenshot, `-0000` is selected in three locations; if the user presses **Delete**, all three selections are deleted:
-
-![Multi-caret selection in an XML file in Visual Studio](media/multi-caret-selection.png)
-
-To select multiple carets, click or make first text selection as usual, and then press **Ctrl**+**Alt** while you click or select text in each additional location. You can also automatically add matching text as additional selections, or select a box of text to edit identically on each line.
-
-> [!TIP]
-> If you've selected **Alt** as the modifier key for mouse-click in "Go to Definition" from **Tools** > **Options** > **Text Editor** > **General**, multi-caret select is disabled. For more information, see [Options dialog box: Text Editor /> General](reference/options-text-editor-general.md).
-
-### Commands
-
-Use the following keys and actions for multi-caret selection behaviors:
-
-|Shortcut|Action|
-|-|-|
-|**Ctrl**+**Alt** + click|Add a secondary caret|
-|**Ctrl**+**Alt** + double-click|Add a secondary word selection|
-|**Ctrl**+**Alt** + click + drag|Add a secondary selection|
-|**Shift**+**Alt**+**.**|Add the next matching text as a selection|
-|**Shift**+**Alt**+**;**|Add all matching text as selections|
-|**Shift**+**Alt**+**,**|Remove last selected occurrence|
-|**Shift**+**Alt**+**/**|Skip next matching occurrence|
-|**Alt** + click|Add a box selection|
-|**Esc** or click|Clear all selections|
-
-Some of the commands are also available on the **Edit** menu, under **Multiple Carets**:
-
-:::image type="content" source="media/edit-menu-multiple-carets-find-replace.png" alt-text="Screenshot of the Multiple Carets fly-out menu in Visual Studio":::
-
-::: moniker-end
 
 ## Related content
 

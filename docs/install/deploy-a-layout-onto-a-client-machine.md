@@ -1,13 +1,13 @@
 ---
 title: Deploy a layout onto a client machine
 description: Deploy a network layout of Visual Studio onto a client machine within an enterprise programmatically as part of an installation script.
-ms.date: 3/11/2024
-ms.topic: conceptual
+ms.date: 11/4/2025
+ms.topic: install-set-up-deploy
 helpviewer_keywords:
 - 'deploy layout'
 - 'install layout'
-author: anandmeg
-ms.author: meghaanand
+author: RoseHJM
+ms.author: rosemalcolm
 manager: mijacobs
 
 ms.subservice: installation
@@ -57,7 +57,7 @@ Some enterprises want to host the layout on an intranet location to better manag
 
     #ADMIN CONFIGURATION
     #Enter layout URI here
-    $LayoutUri = "http://MyCompanyIntranetSite/VS2022Enterprise/"
+    $LayoutUri = "http://MyCompanyIntranetSite/VS2026Enterprise/"
 
     #Enter bootstrapper name which is present in layout.
     $BootstrapperName = "vs_Enterprise.exe"
@@ -111,6 +111,10 @@ Make sure that either the user or system account that's running the installation
 You need to make sure that any [offline client machines have the right certificates installed](install-certificates-for-visual-studio-offline.md).
 
 When you install from a layout, the installer on the client always looks for the Visual Studio packages in the layout's location. However, if the installer tries to install components that are *not* included in the layout, then it will attempt to acquire the Visual Studio packages from the [update source](update-visual-studio.md#configure-source-location-of-updates-1), which administrators often configure to [point back to itself](automated-installation-with-response-file.md#configure-the-response-file-used-when-installing-from-a-layout). 
+
+> [!IMPORTANT]
+> Remember that the layout location should remain the same for each Visual Studio instance.
+> For more details, see [Install Visual Studio from the local layout](create-an-offline-installation-of-visual-studio.md#step-3---install-visual-studio-from-the-local-layout).
 
 If you want to explicitly prevent the Visual Studio Installer from attempting to download any missing content from Microsoft hosted servers on the web, you can use the [`--noWeb` parameter](use-command-line-parameters-to-install-visual-studio.md#layout-command-and-command-line-parameters). If `--noWeb` is used and the layout is missing a component that is selected to be installed, then the setup will fail.  Also, if `--noWeb` is used and the layout is hosted on your intranet web servers as opposed to a file network share, then the setup will fail. 
 

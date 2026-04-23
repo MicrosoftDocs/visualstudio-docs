@@ -3,8 +3,8 @@ title: Use IPython REPL in the Interactive Window
 description: Use the Visual Studio Interactive Window in IPython mode for a user-friendly interactive development environment with Interactive Parallel Computing features.
 ms.date: 04/18/2024
 ms.topic: how-to
-author: cwebster-99
-ms.author: cowebster
+author: Devdiv-VR
+ms.author: vedhar
 manager: mijacobs
 ms.subservice: python
 
@@ -19,7 +19,7 @@ The Visual Studio **Interactive Window** in IPython mode is an advanced yet user
 
 - Visual Studio on Windows installed with support for Python workloads. For more information, see [Install Python support in Visual Studio](installing-python-support-in-visual-studio.md).
 
-   Visual Studio for Mac isn't supported. For more information, see [What's happening to Visual Studio for Mac?](/visualstudio/mac/what-happened-to-vs-for-mac) Visual Studio Code on Windows, Mac, and Linux [works well with Python through available extensions](https://code.visualstudio.com/docs/languages/python).
+   Visual Studio for Mac isn't supported. Visual Studio Code on Windows, Mac, and Linux [works well with Python through available extensions](https://code.visualstudio.com/docs/languages/python).
 
 - The Python installation must include the IPython, numpy, and matplotlib libraries. You can install these libraries by using the Package installer in Visual Studio, as described in [Tutorial: Install packages in your Python environment in Visual Studio](tutorial-working-with-python-in-visual-studio-step-05-installing-packages.md).
 
@@ -102,7 +102,7 @@ The following steps show you how to use IPython commands in the Interactive Wind
 
 1. To view the graphs outside of the **Interactive Window**, run the code with the **Debug** > **Start without Debugging** command on the main Visual Studio toolbar.
 
-IPython has many other useful features, such as escaping to the system shell, variable substitution, capturing output, and so on. For more information, see the [IPython documentation](https://ipython.org/documentation.html).
+IPython has many other useful features, such as escaping to the system shell, variable substitution, capturing output, and so on. For more information, see the [IPython documentation](https://ipython.org/).
 
 ## Related content
 

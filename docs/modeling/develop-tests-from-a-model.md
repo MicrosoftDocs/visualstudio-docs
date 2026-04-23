@@ -2,11 +2,11 @@
 title: Develop tests from a model
 description: Learn how you can use requirements and architectural models to help organize the tests of your system and its components.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - tests and requirements
-author: mgoertz-msft
-ms.author: mgoertz
+author: jekelly
+ms.author: jekelly
 manager: mijacobs
 ms.subservice: modeling
 ---

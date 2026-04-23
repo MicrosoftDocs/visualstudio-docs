@@ -1,14 +1,14 @@
 ---
 title: Subscriptions support solutions 
 description: List of INCLUDEs files for Visual Studio subscriptions support widget content
-ms.topic: conceptual
+ms.topic: troubleshooting-general
 robots: noindex, nofollow
 author: joseb-rdc
 ms.author: amast 
-ms.date: 02/14/2023
+ms.date: 01/30/2026
 ---
 
-# Visual Studio subscriptions support widget content INCLUDES files
+# Visual Studio subscriptions support
 
 ## Benefit activation
 
@@ -77,6 +77,8 @@ ms.date: 02/14/2023
 [!INCLUDE [No solution](other-or-no-solution/includes/no-solution.md)]
 
 [!INCLUDE [Questions about managing subscriptions](other-or-no-solution/includes/questions-about-managing-subscriptions.md)]
+
+[!INCLUDE [MIcrosoft Certified Trainer (MCT) and Learning questions](other-or-no-solution/includes/microsoft-certified-trainer-learning-questions.md)]
 
 ## Portal issues
 

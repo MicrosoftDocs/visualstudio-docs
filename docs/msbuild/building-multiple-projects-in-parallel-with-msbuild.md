@@ -6,7 +6,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: msbuild
 ms.topic: concept-article
-ms.date: 02/26/2025
+ms.date: 04/17/2026
 helpviewer_keywords:
 - parallel project builds
 - building multiple projects in parallel
@@ -29,7 +29,7 @@ To build multiple projects faster, you can use MSBuild to run builds in parallel
 
 ## -maxcpucount MSBuild switch
 
-If you use the `-maxcpucount` (`-m`) switch, which was introduced in MSBuild 3.5, MSBuild creates the specified number of *MSBuild.exe* processes that can be run in parallel. These processes are also known as *worker processes*. Each worker process uses a separate core or processor, if any are available, to build a project at the same time as other available processors might be building other projects.
+If you use the `-maxcpucount` (`-m`) switch, MSBuild creates the specified number of *MSBuild.exe* processes that can be run in parallel. These processes are also known as *worker processes*. Each worker process uses a separate core or processor, if any are available, to build a project at the same time as other available processors might be building other projects.
 For example, setting this switch to a value of `4` causes MSBuild to create four worker processes to build the project.
 
 If you include the `-maxcpucount` switch without specifying a value, MSBuild uses up to the number of processors on the computer.

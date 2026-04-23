@@ -1,7 +1,7 @@
 ---
 title: C++ Library Reference for Concurrency Visualizer
 description: See this section for Concurrency Visualizer SDK reference information.
-ms.date: 11/04/2016
+ms.date: 06/19/2024
 ms.topic: reference
 helpviewer_keywords: 
   - Concurrency Visualizer SDK, C++ Library Reference

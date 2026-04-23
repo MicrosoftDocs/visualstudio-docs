@@ -2,14 +2,14 @@
 title: 'Dependency Diagrams: Guidelines'
 description: Describe your application architecture at a high level by creating dependency diagrams with layers to represent functional areas or components in Visual Studio.
 ms.date: 09/28/2018
-ms.topic: conceptual
+ms.topic: best-practice
 helpviewer_keywords:
 - architecture, dependency diagrams
 - dependency diagrams
 - diagrams - modeling, layer
 - constraints, architectural
-author: mgoertz-msft
-ms.author: mgoertz
+author: jekelly
+ms.author: jekelly
 manager: mijacobs
 ms.subservice: modeling
 ---

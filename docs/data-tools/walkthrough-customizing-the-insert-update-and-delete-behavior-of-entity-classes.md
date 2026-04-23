@@ -2,7 +2,7 @@
 title: Customize insert/update/delete behavior
 description: In this walkthrough, customize the insert, update, and delete behavior of entity classes using the LINQ to SQL tools in Visual Studio.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 dev_langs:
 - VB
 - CSharp

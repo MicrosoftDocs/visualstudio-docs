@@ -2,7 +2,7 @@
 title: "Create bootstrapper packages"
 description: Learn about the Setup program and how to use XML manifests that specify the metadata to manage the installation of ClickOnce components.
 ms.date: "05/02/2018"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "FSharp"
   - "VB"

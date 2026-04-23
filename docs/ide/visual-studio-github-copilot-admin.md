@@ -1,16 +1,16 @@
 ---
 title: Admin controls for GitHub Copilot in Visual Studio
 description: Learn about the new features for administrators in GitHub Copilot for Visual Studio that enable admins to manage Copilot effectively. 
-ms.date: 9/23/2025
+ms.date: 03/26/2026
 ms.update-cycle: 180-days
 ms.topic: how-to 
-author: anandmeg
-ms.author: meghaanand
+author: RoseHJM
+ms.author: rosemalcolm
 ms.manager: mijacobs
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
 monikerRange: ">=vs-2022"
-ms.custom: ai-learning-hub
+ms.custom: "ai-learning-hub, awp-ai"
 ---
 
 # Admin controls for GitHub Copilot
@@ -19,6 +19,9 @@ Visual Studio 2022 introduces new features that enable administrators to configu
 
 In this article, you learn how to:
 - [Disable Copilot](#disable-copilot-skus)
+:::moniker range="visualstudio"
+- [Configure MCP server allowlist](#configure-mcp-server-allowlist)
+:::moniker-end
 - [Configure content exclusion](#configure-content-exclusion)
 
 ## Disable Copilot SKUs
@@ -49,6 +52,25 @@ With Visual Studio 2022 version 17.14.16 or later, project administrators can fu
 
 Policy location in the Local Group Policy Editor:
 **Computer Configuration > Administrative Templates > Visual Studio > Copilot Settings > Disable Agent Mode**
+
+:::moniker range="visualstudio"
+
+## Configure MCP server allowlist
+
+With Visual Studio 2026, administrators can configure an allowlist of approved MCP servers through the GitHub Copilot administration dashboard. When an allowlist is configured, developers in the organization can only connect to MCP servers that appear on the approved list.
+
+### How the MCP server allowlist works
+
+- Administrators specify which MCP servers are allowed within their organization by using the [GitHub Copilot enterprise policies for MCP](https://docs.github.com/en/copilot/managing-copilot/managing-copilot-for-your-enterprise/managing-policies-and-features-for-copilot-in-your-enterprise#defining-policies-for-your-enterprise). In the enterprise or organization settings, navigate to **AI Controls** and select **MCP** in the sidebar to configure MCP server policies.
+- Visual Studio checks the allowlist when a user attempts to connect to an MCP server.
+- If the server is on the allowlist, the connection proceeds normally.
+- If the server isn't on the allowlist, Visual Studio blocks the connection and displays an error message indicating that the server isn't permitted by the organization's policy.
+
+This feature helps organizations control which MCP servers can process sensitive data and maintain compliance with security policies.
+
+For more information on using MCP servers in Visual Studio, see [Use MCP servers](mcp-servers.md).
+
+:::moniker-end
 
 ## Configure content exclusion
 
@@ -86,6 +108,7 @@ Note that Visual Studio 2022 version 17.11 respects rules only in the root repos
 
 ## Related content
 
+- [Use MCP servers](mcp-servers.md)
 - [GitHub Copilot settings](https://github.com/settings/copilot)
 - [GitHub Copilot: Compare plans](https://github.com/features/copilot/plans)
 - [GitHub Copilot Trust Center](https://resources.github.com/copilot-trust-center/)

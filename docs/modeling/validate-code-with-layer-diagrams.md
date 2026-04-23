@@ -2,7 +2,7 @@
 title: Validate code with dependency diagrams
 description: Validate your code with dependency diagrams in Visual Studio to find conflicts in dependencies and refactor or migrate code to a different design as needed.
 ms.date: 09/28/2018
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - dependency diagrams, validating
 - validation, dependency diagrams
@@ -15,8 +15,8 @@ helpviewer_keywords:
 - MSBuild, tasks
 - MSBuild, dependency diagrams
 - MSBuild, validating code
-author: mgoertz-msft
-ms.author: mgoertz
+author: jekelly
+ms.author: jekelly
 manager: mijacobs
 ms.subservice: modeling
 ---

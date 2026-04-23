@@ -34,6 +34,8 @@ For information about C++ projects, see [Project files](/cpp/build/reference/pro
 
 For example, the C# project system loads *.csproj* files, but Visual Studio is not able to load a *.xxproj* file. A project file for source files in an arbitrary language must use the same extension as Visual Basic or C# project files to be loaded in Visual Studio.
 
+Alternatively, the extension *.msbuildproj is supported.
+
 ## Well-known target names
 
  Clicking the **Build** command in Visual Studio will execute the default target in the project. Often, this target is also named `Build`. Choosing the **Rebuild** or **Clean** command will attempt to execute a target of the same name in the project. Clicking **Publish** will execute a target named `PublishOnly` in the project.

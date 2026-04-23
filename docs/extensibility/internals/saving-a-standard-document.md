@@ -2,7 +2,7 @@
 title: Saving a Standard Document
 description: Learn about the process that occurs for a standard document for a project type that you add to the Visual Studio IDE.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - editors [Visual Studio SDK], saving standard documents
 - projects [Visual Studio SDK], saving standard documents

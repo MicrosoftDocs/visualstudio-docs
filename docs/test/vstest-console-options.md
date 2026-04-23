@@ -1,7 +1,7 @@
 ---
 title: VSTest.Console.exe command-line options
 description: Learn about the VSTest.Console.exe command-line tool that runs tests. This article includes the General command-line options.
-ms.date: 02/26/2025
+ms.date: 02/28/2025
 ms.topic: reference
 helpviewer_keywords:
 - vstest.console.exe

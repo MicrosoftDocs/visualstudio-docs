@@ -10,7 +10,7 @@ ms.subservice: azure-development
 ms.topic: overview
 ms.date: 04/15/2024
 ms.author: ghogen
-monikerRange: ">=vs-2019"
+monikerRange: ">=vs-2022"
 ---
 
 # Overview: Develop ASP.NET web apps for Azure with Visual Studio
@@ -23,7 +23,7 @@ ASP.NET Core provides a comprehensive solution for simple web sites and complex 
 
 If you haven't already, read the [Azure development in Visual Studio](overview.md) overview, which covers the basics of Connected Services in Visual Studio, deploying to Azure, debugging Azure applications, using Docker containers, and much more.
 
-You'll need [Visual Studio](https://visualstudio.microsoft.com/downloads) 2019 or later with the **Azure development** and **ASP.NET and web development** workloads installed.
+You'll need [Visual Studio](https://aka.ms/vs/download) 2019 or later with the **Azure development** and **ASP.NET and web development** workloads installed.
 
 ## Architecture diagram
 

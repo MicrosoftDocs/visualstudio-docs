@@ -13,7 +13,7 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
-monikerRange: ">=vs-2019"
+monikerRange: ">=vs-2022"
 ---
 # Notifications tool window
 

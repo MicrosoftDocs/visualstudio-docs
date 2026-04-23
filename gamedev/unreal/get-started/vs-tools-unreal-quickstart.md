@@ -1,7 +1,7 @@
 ---
 title: "Quickstart: Visual Studio Tools for Unreal Engine"
 description: "Learn about Visual Studio Tools for Unreal Engine, a free Visual Studio extension that helps you develop games with Unreal Engine"
-ms.date: 09/04/2025
+ms.date: 12/22/2025
 ms.topic: quickstart
 ms.service: visual-studio
 ms.subservice: unreal-engine-tools
@@ -12,7 +12,7 @@ manager: Coxford
 
 # Quickstart: Visual Studio Tools for Unreal Engine
 
-In this article, download an Unreal Engine (UE) game sample and configure Visual Studio Tools for Unreal Engine. Visual Studio Tools for Unreal Engine is a free extension that helps you develop games with Unreal Engine. It provides features that improve the Unreal Engine development experience in Visual Studio.
+In this quickstart, you download an Unreal Engine (UE) game sample and configure Visual Studio Tools for Unreal Engine. Visual Studio Tools for Unreal Engine is a free extension that helps you develop games with Unreal Engine. It provides features that improve the Unreal Engine development experience in Visual Studio.
 
 ## Prerequisites
 
@@ -22,17 +22,24 @@ The following must be installed:
 - Unreal Engine version 5 or later because the example used in this article requires Unreal Engine 5 or later.
 - Visual Studio Tools for Unreal Engine. See [Install Visual Studio Tools for Unreal Engine](vs-tools-unreal-install.md) for installation instructions.
 
-## Download and build the Lyra game sample in Visual Studio
+Lyra is a sample game project for learning about Unreal Engine. For download instructions, see the **Downloading the Lyra Starter Game** section at [Lyra Sample Game](https://docs.unrealengine.com/5.0/lyra-sample-game-in-unreal-engine/). If you acquired the Lyra project via the source code installation of Unreal Engine, that version doesn't contain the assets required to build and run the game. Use the download instructions to get everything you need.
 
-Lyra is a sample game project for learning about Unreal Engine. See the **Downloading the Lyra Starter Game** section at [Lyra Sample Game](https://docs.unrealengine.com/5.0/lyra-sample-game-in-unreal-engine/) for download instructions. If you acquired it via the source code installation of Unreal Engine, that version doesn't contain the assets required to build and run the game. Use the download instructions to get everything you need via the Epic installer.
+If you have Visual Studio 2022 version 17.11 or earlier, you must generate the Visual Studio solution file in Unreal Engine before you can open the project in Visual Studio. This is the scenario that this article covers.
 
-## Configure the Lyra game sample to use Visual Studio Tools for Unreal Engine
+> [!NOTE]
+> Visual Studio 2022 version 17.12 and later provides direct support for Unreal Engine projects. You can open the Lyra project directly in Visual Studio without generating a solution file in Unreal Engine. This is the recommended way to work with Unreal Engine projects in Visual Studio. To follow this path, follow the instructions in [Open Unreal Engine projects in Visual Studio](vs-tools-unreal-uproject.md) to build and run the Lyra sample. Then return to this article to learn more about the [Visual Studio build output window](#visual-studio-build-output-window), [Unreal Engine toolbar](#unreal-engine-toolbar), and [Command-line argument dropdown](#command-line-argument-dropdown) features.
 
-As of Visual Studio 2022 version 17.7, the Visual Studio Tools for Unreal Engine plugin is included with the Unreal Engine installation. It's no longer required to view Unreal Engine Blueprints. If you have an earlier version of Visual Studio, see [Install Visual Studio Tools for Unreal Engine](vs-tools-unreal-install.md) to install the plugin manually.
+## Configure Lyra to use Visual Studio Tools for Unreal Engine
 
-After you download the game sample, update `LyraStarterGame.uproject` to use the Visual Studio Tools plugin. One way to do this is in the Unreal Editor. Load the Lyra project and from the main menu choose **Edit** > **Plugins**. Find the **Visual Studio Integration Tools** plugin and check the box next to it.
+If you have Visual Studio 2022 17.11 or earlier, you must enable the Visual Studio Tools for Unreal Engine plugin in the Lyra project to use the features of Visual Studio Tools for Unreal Engine. After you download the Lyra game sample, update `LyraStarterGame.uproject` to use the Visual Studio Tools plugin. You can do this from the Unreal Editor or by manually editing the `LyraStarterGame.uproject` file.
 
-Another way to do this is to manually edit the `LyraStarterGame.uproject` file. Here's how:
+**Method 1: Enable the Visual Studio Integration Tools plugin in the Unreal Editor**
+
+1. In the Unreal Editor, load the Lyra project.
+1. From the Visual Studio main menu choose **Edit** > **Plugins**.
+1. Find the **Visual Studio Integration Tools** plugin and check the box next to it.
+
+**Method 2: edit the project file**
 
 1. Open the `LyraStarterGame.uproject` file in a text editor. It's in the directory where you installed the game sample.
 1. Add the following to the end of the `Plugins` section:
@@ -43,12 +50,13 @@ Another way to do this is to manually edit the `LyraStarterGame.uproject` file. 
         "Enabled": true
     }
     ```
+## Build the Lyra project in Visual Studio
 
-**In Unreal Engine**
+Before you build the Lyra project in Visual Studio:
 
 1. Open the Lyra project in Unreal Engine.
 1. From the Unreal Engine editor main menu, choose **Tools** > **Generate Visual Studio Project**. This creates the solution file for Visual Studio.
-1. From the Unreal Engine editor main menu, choose **Tools** > **Open Visual Studio** to open the game in Visual Studio. If you have multiple versions of Visual Studio on your machine, ensure that the right version opened: from the Visual Studio main menu, choose **Help** > **About Microsoft Visual Studio**. You need to use Visual Studio 2022 version 17.7 or higher. If the right version didn't open, manually open `LyraStarterGame.sln` in the correct version of Visual Studio.
+1. From the Unreal Engine editor main menu, choose **Tools** > **Open Visual Studio** to open the game in Visual Studio. If you have multiple versions of Visual Studio on your machine, ensure that the right version opened: from the Visual Studio main menu, choose **Help** > **About Microsoft Visual Studio**. You must use Visual Studio 2022 version 17.7 or higher. If the right version didn't open, manually open `LyraStarterGame.sln` in the correct version of Visual Studio.
 
 **In Visual Studio**
 

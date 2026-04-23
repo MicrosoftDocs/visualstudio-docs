@@ -7,8 +7,8 @@ helpviewer_keywords:
 - Visual Studio, commands
 - commands, Visual Studio
 - command syntax
-author: anandmeg
-ms.author: meghaanand
+author: ghogen
+ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
 ---

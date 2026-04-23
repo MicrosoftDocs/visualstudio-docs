@@ -2,7 +2,7 @@
 title: Debug language integrated query (LINQ)
 description: Debug language integrated query (LINQ) in Visual Studio. View LINQ results. Understand behavioral differences when stepping into LINQ code.
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "CSharp"
   - "VB"

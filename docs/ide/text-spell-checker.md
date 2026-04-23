@@ -1,10 +1,10 @@
 ---
 title: "Learn about the Spell Checker"
 description: Learn how to use the Spell Checker in Visual Studio to correct misspelled words in multiple languages and to customize it to share with your dev team.
-ms.date: 08/27/2024
-ms.topic: conceptual
-author: anandmeg
-ms.author: meghaanand
+ms.date: 04/20/2026
+ms.topic: how-to
+author: ghogen
+ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
 monikerRange: ">=vs-2022"
@@ -13,7 +13,13 @@ monikerRange: ">=vs-2022"
 
 Many of the features in Visual Studio are designed to help you write the code you want, from making sure that your code compiles to helping you with code styling. Now, with the **Spell Checker** feature&mdash;introduced in [version 17.5](/visualstudio/releases/2022/release-notes-v17.5)&mdash;Visual Studio can even make sure your spelling is accurate.
 
+:::moniker range="visualstudio"
+:::image type="content" source="media/visualstudio/text-spell-checker.png" alt-text="Screenshot that shows the Spell Checker identifying a potential error.":::
+:::moniker-end
+
+:::moniker range="vs-2022"
 :::image type="content" source="media/vs-2022/text-spell-checker.png" alt-text="Screenshot of an example of the Spell Checker in action.":::
+:::moniker-end
 
 The Spell Checker is available for any C#, C++, or Markdown file. When the Spell Checker is enabled, Visual Studio marks any words that it detects as misspelled words. Visual Studio also suggests alternate spellings and helps correct them. The feature even does a contextual rename when those misspellings are identifiers so that your code still compiles.
 
@@ -25,7 +31,13 @@ When the caret is on a spelling error, the [Quick Actions](quick-actions.md) pro
 
 If any of the dictionaries provide spelling suggestions, Visual Studio displays them. If multiple dictionaries provide suggestions, Visual Studio groups its suggestions by dictionary. For strings and comments, choosing one of these suggestions results in a single, in-place replacement. For identifiers in a C++ or a C# document, accepting a suggestion results in a Refactor/Rename that updates all instances of the identifier to make sure the code compiles.
 
+:::moniker range="visualstudio"
+:::image type="content" source="media/visualstudio/text-spell-checker-multiple-dictionaries.png" alt-text="Screenshot of the Spell Checker suggesting a fix.":::
+:::moniker-end
+
+:::moniker range="vs-2022"
 :::image type="content" source="media/vs-2022/text-spell-checker-multiple-dictionaries.png" alt-text="Screenshot of the Spell Checker with multiple dictionaries listed.":::
+:::moniker-end
 
 You can also choose to ignore the spelling issue. By choosing to ignore the issue, Visual Studio creates an exclusion.dic file in your AppData directory on your local machine. After you choose to ignore a word, the spelling checker ignores it across all instances of Visual Studio.
 
@@ -52,7 +64,13 @@ The following table shows some of the heuristics that the **Spell Checker** look
 
 If Visual Studio identifies a match for the token in any of the dictionaries it's using, the token is deemed acceptable, and the scan proceeds. Otherwise, the token is considered misspelled and Visual Studio flags it as a spelling error.
 
+:::moniker range="visualstudio"
+:::image type="content" source="media/visualstudio/text-spell-checker-error-list-example.png" alt-text="Screenshot of an example of spelling errors in the Error List.":::
+:::moniker-end
+
+:::moniker range="vs-2022"
 :::image type="content" source="media/vs-2022/text-spell-checker-error-list-example.png" alt-text="Screenshot of an example of spelling errors in the Error List.":::
+:::moniker-end
 
 ## How to customize the Spell Checker
 

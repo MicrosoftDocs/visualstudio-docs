@@ -2,7 +2,7 @@
 title: "Deploying COM Components with ClickOnce"
 description: Learn about steps necessary to deploy .NET applications in ClickOnce that contain legacy COM components.
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: install-set-up-deploy
 dev_langs:
   - "VB"
   - "CSharp"

@@ -2,8 +2,10 @@
 metadata:
   title: "FAQ - Debugger feature finder"
   description: Review frequently asked questions to help you identify the Visual Studio debugger feature to help you debug your application.
-  ms.date: "11/22/2024"
+  ms.date: "04/13/2026"
   ms.topic: faq
+  f1_keywords:
+  - "vs.debug.uiref"
   helpviewer_keywords:
     - "debugging [Visual Studio], find your feature"
   author: "mikejo5000"
@@ -32,7 +34,7 @@ sections:
 
           - **How do I log information to the Output window under configurable conditions without modifying or stopping my code?**
               
-             Tracepoints allow you to log information to the Output window under configurable conditions without modifying or stopping your code. For more information, see [Use tracepoints in the Visual Studio debugger](../debugger/using-tracepoints.md)         
+             Tracepoints allow you to log information to the Output window under configurable conditions without modifying or stopping your code. For more information, see [Use tracepoints in the Visual Studio debugger](../debugger/using-tracepoints.md).         
                     
           - **Manage and keep track of my breakpoints**
           
@@ -98,17 +100,17 @@ sections:
            
              See [Attach to a running processes](attach-to-running-processes-with-the-visual-studio-debugger.md).
 
-          - **How can I to attach to the same application repeatedly?** 
+          - **How can I attach to the same application repeatedly?** 
             
              You can use **Reattach to Process** (**Shift+Alt+P**) to easily allow you to start debugging your application in one click without needing to go through the Attach to Process dialog every time.
-             See [Reattach to a process](attach-to-running-processes-with-the-visual-studio-debugger.md#BKMK_reattach)
+             See [Reattach to a process](attach-to-running-processes-with-the-visual-studio-debugger.md#BKMK_reattach).
 
       - question: |
           Debug multithreaded applications
         answer: |
           - **How can I debug a multi-threaded application? Or, is my application in a hung state?**
 
-            See [Parallel Stacks window](using-the-parallel-stacks-window.md) further troubleshooting
+            See [Parallel Stacks window](using-the-parallel-stacks-window.md) further troubleshooting.
 
           - **How can I view the order in which functions are called?**
 
@@ -143,7 +145,7 @@ sections:
   
             Just My Code is a Visual Studio debugging feature that automatically steps over calls to system, framework, and other non-user code. 
             In the Call Stack window, Just My Code collapses these calls into [External Code] frames. 
-            See [Debug only user code with Just My Code](just-my-code.md)
+            See [Debug only user code with Just My Code](just-my-code.md).
 
           - **How can I view or debug the raw assembly instructions that my program is executing?** 
           
@@ -152,17 +154,17 @@ sections:
           - **Can I see source code for .NET Libraries?**  
            
             Enable Microsoft Symbol Servers from Debug > Options > Symbols in order to download symbols and source for .NET Libraries.
-            See [Specify symbol](specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)
+            See [Specify symbol](specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).
          
           - **How can I load PDBs from a specific or shared location or server?** 
 
             Configure your Symbol Servers from Debug > Options > Symbols. 
-            See [Specify symbol](specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)
+            See [Specify symbol](specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).
 
           - **How can I never load a specific PDB? Or, how can I always load one?**
 
             Configure your Include and Exclude Lists in Debug > Options > Symbols.  
-            See [Specify symbol](specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md)
+            See [Specify symbol](specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger.md).
 
       - question: |
           Configure debugging
@@ -182,16 +184,16 @@ sections:
           - **Do I need to save a dump?**
 
              While stopped at an error or breakpoint during debugging, select **Debug > Save Dump As**.
-             See [Dump files](using-dump-files.md)
+             See [Dump files](using-dump-files.md).
 
           - **How do I analyze a dump file?**
 
             Open the dump by choosing **File > Open** in Visual Studio. To start debugging, select **Debug with Managed Only**, **Debug with Native Only**, **Debug with Mixed**, or **Debug with Managed Memory**.
-            See [Dump files](using-dump-files.md)
+            See [Dump files](using-dump-files.md).
 
           - **Can I edit code during a debugging session?**
           
-            Use [Edit and continue](edit-and-continue.md). For XAML, use [XAML Hot Reload](../xaml-tools/xaml-hot-reload.md).
+            Use [Hot Reload](hot-reload.md), previously called Edit and Continue. For XAML, use [XAML Hot Reload](../xaml-tools/xaml-hot-reload.md).
 
           - **How can I debug on remote machines?**
           
@@ -199,8 +201,21 @@ sections:
           
           - **How can I fix performance issues?**
           
-            See [First look at the profiling tools](../profiling/profiling-feature-tour.md)
+            See [First look at the profiling tools](../profiling/profiling-feature-tour.md).
 
           - **How do I fix an exception?**
 
             See [Fix an exception](write-better-code-with-visual-studio.md#fix-an-exception).
+
+      - question: |
+          AI-assisted debugging
+        answer: |
+          - **How can I get AI assistance while debugging?**
+
+            If you have Copilot, look for the **Analyze with Copilot** or **Ask Copilot** button in debugger windows like the Exception Helper, data tips, and variables windows. Copilot already knows your debugging context.
+            See [Debug with Copilot](debug-with-copilot.md).
+
+          - **How do I use the Debugger Agent for end-to-end bug resolution?**
+
+            The Debugger Agent provides an agentic workflow that reproduces bugs, instruments your app, and validates fixes using live runtime data. Select **Debugger** from the mode dropdown in the Copilot Chat window and provide an issue link or describe the bug.
+            See [Agentic bug resolution with the Debugger Agent](debug-with-copilot.md#agentic-bug-resolution-with-the-debugger-agent).

@@ -2,7 +2,7 @@
 title: Use C++ assertion statements for debugging
 description: Read about how C/C++ assertions work in Visual Studio debugging. An assertion specifies a condition that you expect to be true at a point in your program.
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "CSharp"
   - "VB"
@@ -141,13 +141,13 @@ _ASSERTE(_CrtCheckMemory());
 The following example uses [_CrtIsValidPointer](/cpp/c-runtime-library/reference/crtisvalidpointer) to verify that a given memory range is valid for reading or writing.
 
 ```cpp
-_ASSERTE(_CrtIsValidPointer( address, size, TRUE );
+_ASSERTE(_CrtIsValidPointer( address, size, TRUE ));
 ```
 
 The following example uses [_CrtIsValidHeapPointer](/cpp/c-runtime-library/reference/crtisvalidheappointer) to verify a pointer points to memory in the local heap (the heap created and managed by this instance of the C run-time library — a DLL can have its own instance of the library, and therefore its own heap, outside of the application heap). This assertion catches not only null or out-of-bounds addresses, but also pointers to static variables, stack variables, and any other nonlocal memory.
 
 ```cpp
-_ASSERTE(_CrtIsValidHeapPointer( myData );
+_ASSERTE(_CrtIsValidHeapPointer( myData ));
 ```
 
 ### Checking a Memory Block

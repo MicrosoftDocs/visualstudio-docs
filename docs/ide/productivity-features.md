@@ -1,8 +1,8 @@
 ---
 title: Efficient coding, debugging, & keyboard shortcuts
 description: Learn about the keyboard shortcuts and productivity features in Visual Studio that can help you efficiently write code, debug code, and handle errors.
-ms.date: 04/08/2025
-ms.topic: conceptual
+ms.date: 03/10/2026
+ms.topic: best-practice
 ms.custom: peer-review-program
 author: Mikejo5000
 ms.author: mikejo
@@ -63,6 +63,10 @@ Write code more quickly by using the following features.
      To insert a snippet, on the menu bar, choose **Edit** > **IntelliSense** > **Insert Snippet** or **Surround With**, or open the shortcut menu in a file and choose **Snippet** > **Insert Snippet** or **Surround With**. For more information, see [Code Snippets](../ide/code-snippets.md).
 
 - **[Paste JSON or XML as classes](../ide/paste-json-xml.md)**. Copy any JSON or XML text fragment to the clipboard and then paste it as strongly typed .NET classes into any C# or Visual Basic code file. To do so, use **Edit** > **Paste Special** > **Paste JSON As Classes** (or **Paste XML As Classes**).
+
+::: moniker range=">=visualstudio"
+- **Adaptive paste**. If you're using [Copilot](../ide/visual-studio-github-copilot-install-and-states.md), Copilot analyzes where you paste code and suggests code changes that fit your file. For example, you can use it to fill in a missing interface or abstract members, apply consistent styling and formatting, fix small mistakes, translate between human or programming languages, or to continue a pattern or fill in blanks.
+::: moniker-end
 
 - **Fix code errors inline**. Quick Actions let you easily refactor, generate, or otherwise modify code with a single action. These actions can be applied using the light bulb ![Light bulb icon](media/light-bulb-icon.png) or screwdriver ![Screwdriver icon](media/screwdriver-icon.png) icons, or by pressing **Alt**+**Enter** or **Ctrl**+**.** when your cursor is on the appropriate line of code. See [Quick Actions](quick-actions.md) for more information.
 
@@ -136,7 +140,13 @@ You can search across the IDE for commands, files, and options, in addition to f
 
 - **Find dialog boxes, menu commands, options, and more**. In the search box, enter keywords or phrases for the items that you're trying to find. For example, the following options appear if you enter **new project**:
 
-   ![Search results for 'new project'](../ide/media/vs-2019/productivity-quick-launch-new-project.png)
+   :::moniker range="visualstudio"
+   ![Screenshot that shows search results for 'new project'.](../ide/media/visualstudio/productivity-quick-launch-new-project.png)
+   :::moniker-end
+
+   :::moniker range="vs-2022"
+   ![Screenshot that shows search results for 'new project'.](../ide/media/vs-2019/productivity-quick-launch-new-project.png)
+   :::moniker-end
 
    Press **Ctrl**+**Q** to jump straight to the search box.
 

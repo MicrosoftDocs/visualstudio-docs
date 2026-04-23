@@ -2,7 +2,7 @@
 title: Create models for your app
 description: Learn how modeling diagrams help you understand, clarify, and communicate ideas about your code and the user requirements that your software system must support.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 f1_keywords:
 - vs.teamarch.common.commentlink.properties
 - vs.teamarch.UMLModelExplorer.dependency
@@ -17,8 +17,8 @@ helpviewer_keywords:
 - diagrams - modeling, layer
 - software, designing
 - software, modeling
-author: mgoertz-msft
-ms.author: mgoertz
+author: jekelly
+ms.author: jekelly
 manager: mijacobs
 ms.subservice: modeling
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Debugging code for absolute beginners"
 description: "If you're debugging for the first time, learn a few principles to help you run your app in debugging mode with Visual Studio."
-ms.date: 12/5/2024
+ms.date: 12/18/2025
 ms.topic: tutorial
 helpviewer_keywords:
   - "debugger"
@@ -12,9 +12,9 @@ ms.subservice: debug-diagnostics
 ---
 # Debug for absolute beginners
 
-Without fail, the code we write as software developers doesn’t always do what we expected it to do. Sometimes it does something completely different! When the unexpected happens, the next task is to figure out why, and although we might be tempted to just keep staring at our code for hours, it's easier and more efficient to use a debugging tool or debugger.
+Without fail, the code we write as software developers doesn't always do what we expected it to do. Sometimes it does something completely different! When the unexpected happens, the next task is to figure out why, and although we might be tempted to just keep staring at our code for hours, it's easier and more efficient to use a debugging tool or debugger.
 
-A debugger, unfortunately, isn’t something that can magically reveal all the problems or “bugs” in our code. *Debugging* means to run your code step by step in a debugging tool like Visual Studio, to find the exact point where you made a programming mistake. You then understand what corrections you need to make in your code and debugging tools often allow you to make temporary changes so you can continue running the program.
+A debugger, unfortunately, isn't something that can magically reveal all the problems or "bugs" in our code. *Debugging* means to run your code step by step in a debugging tool like Visual Studio, to find the exact point where you made a programming mistake. You then understand what corrections you need to make in your code and debugging tools often allow you to make temporary changes so you can continue running the program.
 
 Using a debugger effectively is also a skill that takes time and practice to learn but is ultimately a fundamental task for every software developer. In this article, we introduce the core principles of debugging and provide tips to get you started.
 
@@ -38,7 +38,7 @@ Before you investigate a bug or an error, think of the assumptions that made you
 
 * Are you using an API correctly? Maybe you used the right API but didn't use it in the right way.
 
-* Does your code contain any typos? Some typos, like a simple misspelling of a variable name, can be difficult to see, especially when working with languages that don’t require variables to be declared before they’re used.
+* Does your code contain any typos? Some typos, like a simple misspelling of a variable name, can be difficult to see, especially when working with languages that don't require variables to be declared before they're used.
 
 * Did you make a change to your code and assume it's unrelated to the problem that you're seeing?
 
@@ -57,7 +57,7 @@ When you normally run an app, you see errors and incorrect results only after th
 
 When you run an app within a debugger, also called *debugging mode*, the debugger actively monitors everything that's happening as the program runs. It also allows you to pause the app at any point to examine its state and then step through your code line by line to watch every detail as it happens.
 
-In Visual Studio, you enter debugging mode by using **F5** (or the **Debug** > **Start Debugging** menu command or the **Start Debugging** button :::image type="content" source="../debugger/media/dbg-tour-start-debugging.png" alt-text="Icon showing Start Debugging button."::: in the Debug Toolbar). If any exceptions occur, Visual Studio’s Exception Helper takes you to the exact point where the exception occurred and provides other helpful information. For more information on how to handle exceptions in your code, see [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md#fix-an-exception).
+In Visual Studio, you enter debugging mode by using **F5** (or the **Debug** > **Start Debugging** menu command or the **Start Debugging** button :::image type="content" source="../debugger/media/dbg-tour-start-debugging.png" alt-text="Icon showing Start Debugging button."::: in the Debug Toolbar). If any exceptions occur, Visual Studio's Exception Helper takes you to the exact point where the exception occurred and provides other helpful information. For more information on how to handle exceptions in your code, see [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md#fix-an-exception).
 
 If you didn't get an exception, you probably have a good idea of where to look for the problem in your code. This step is where you use *breakpoints* with the debugger to give yourself a chance to examine your code more carefully. Breakpoints are the most basic and essential feature of reliable debugging. A breakpoint indicates where Visual Studio should pause your running code so you can take a look at the values of variables, or the behavior of memory, the sequence in which code runs.
 
@@ -71,7 +71,7 @@ Next, you create an application that has a few bugs.
 
 1. You must have Visual Studio installed, and the **.NET desktop development** workload installed.
 
-    If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
+    If you haven't already installed Visual Studio, go to the [Visual Studio downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) page to install it for free.
 
     If you need to install the workload but already have Visual Studio, select **Tools** > **Get Tools and Features**. The Visual Studio Installer launches. Choose the **.NET desktop development** workload, then choose **Modify**.
 
@@ -81,7 +81,7 @@ Next, you create an application that has a few bugs.
 
     If you use a different project name, you will need to modify the namespace value to match your project name when you copy the example code.
 
-    Choose either the recommended target framework or .NET 8, and then choose **Create**.
+    Choose either the recommended target framework or .NET 10, and then choose **Create**.
 
     If you don't see the **Console App** project template for .NET, go to **Tools** > **Get Tools and Features**, which opens the Visual Studio Installer. Choose the **.NET desktop development** workload, then choose **Modify**.
 
@@ -356,12 +356,6 @@ Maffei 1, 11,  ConsoleApp_FirstApp.GType
    :::image type="content" source="../debugger/media/vs-2022/beginners-edit.png" alt-text="Screenshot of the Visual Studio Debugger with a line of code highlighted in red and a message box with the Edit option selected.":::
    ::: moniker-end
 
-   ::: moniker range="<= vs-2019"
-
-   The Edit and Continue dialog box appears, indicating that edits can't be compiled.
-
-   :::image type="content" source="../debugger/media/beginners-edit.png" alt-text="Screenshot of the Visual Studio Debugger with a line of code highlighted in red and a message box with the Edit option selected.":::
-   ::: moniker-end
 
    > [!NOTE]
    > For debugging the Visual Basic example code, skip the next few steps until you're instructed to click the **Restart** :::image type="content" source="../debugger/media/dbg-tour-restart.png" alt-text="Icon showing Restart app button in Debug toolbar."::: button.

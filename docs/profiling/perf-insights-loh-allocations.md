@@ -1,12 +1,13 @@
 ---
 title: Perf insights for LOH allocations
 description: Learn how to improve performance for excessive LOH allocations.
-ms.date: 8/3/2022
+ms.date: 12/04/2025
 ms.topic: reference
 author: mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: debug-diagnostics
+monikerRange: '>= vs-2022'
 ---
 
 # Excessive LOH allocations triggering Gen2 GCs

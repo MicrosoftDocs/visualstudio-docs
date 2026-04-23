@@ -3,14 +3,14 @@ title: Visual Studio subscriptions offered through Microsoft for Startups
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 07/24/2025
-ms.topic: conceptual
+ms.date: 04/02/2026
+ms.topic: concept-article
 description:  Details on subscriptions offered through the Microsoft for Startups program.
 ---
 
 # Visual Studio subscriptions offered to startups
 
-Qualified startups who join the Microsoft for Startups program can earn five Visual Studio Enterprise [monthly cloud subscriptions](https://visualstudio.microsoft.com/vs/pricing-details/). 
+Qualified startups who join the Microsoft for Startups program can earn five Visual Studio Enterprise [monthly cloud subscriptions](https://visualstudio.microsoft.com/vs/pricing-details/). For eligibility requirements and application details, see [Microsoft for Startups - How to apply](https://learn.microsoft.com/microsoft-for-startups/application).
 
 ## Subscription details 
 
@@ -26,12 +26,13 @@ Product keys aren't offered to unlock the product. Signing in is the only option
 ### Q: What benefits are included with subscriptions provided through Microsoft for Startups?
 
 A:  These subscriptions are monthly subscriptions, with limited benefits. Subscriptions include:
-+ Visual Studio IDE for Windows and Mac* 
++ Visual Studio IDE 
 + Azure DevOps 
 + Azure DevOps Server 
 For details, see our [pricing details page](https://visualstudio.microsoft.com/vs/pricing-details/)
 
-***Visual Studio 2017 and 2019 for Mac are included**
+> [!NOTE]
+> Visual Studio 2022 for Mac and previous versions are included. For more information about Visual Studio for Mac, visit ["What happened to Visual Studio for Mac?"](/lifecycle/announcements/visual-studio-mac-end-of-servicing)
 
 ## Resources
 

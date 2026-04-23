@@ -1,32 +1,44 @@
 ---
 title: Copilot Next Edit Suggestions
-description: Use GitHub Copilot Next Edit Suggestions (NES) to predict where you'll want to make your next edit and what that edit should be, based on your recent code edits.
-ms.date: 8/20/2025
+description: Use GitHub Copilot next edit suggestions (NES) to predict where you'll want to make your next edit and what that edit should be, based on your recent code edits.
+ms.date: 2/4/2026
 ms.update-cycle: 180-days
 ms.topic: get-started
-author: anandmeg
-ms.author: meghaanand
+author: RoseHJM
+ms.author: rosemalcolm
 ms.manager: mijacobs
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
 monikerRange: '>= vs-2022'
 ---
-# Get started with GitHub Copilot Next Edit Suggestions
+# Get started with Copilot next edit suggestions
 
-The Next Edit Suggestions (NES) feature of GitHub Copilot uses your recent edits to anticipate the next edit that you might want to make, and the location of that edit. With this new ability, Copilot suggests revisions to your code, comments, tests, and more.
+GitHub Copilot acts as an AI-powered pair programmer, automatically offering inline suggestions to complete your code, comments, tests, and more. Copilot provides two kinds of inline suggestions, both of which take your existing code into account: completions and next edit suggestions.
 
-Inline completions are great at autocompleting a section of code. NES helps you stay in the logical edit flow by suggesting changes that are relevant to your current work. You can use the <kbd>Tab</kbd> key to quickly move through and accept suggestions. Suggestions might span a single symbol, an entire line, or multiple lines, depending on the scope of the potential change.
+Copilot next edit suggestions (NES) use your recent edits to anticipate the next edit that you might want to make, and the location of that edit.
+
+Inline [completions](visual-studio-github-copilot-extension.md) are great at autocompleting a section of code. NES helps you stay in the logical edit flow by suggesting changes that are relevant to your current work. You can use the <kbd>Tab</kbd> key to quickly move through and accept suggestions. Suggestions might span a single symbol, an entire line, or multiple lines, depending on the scope of the potential change.
 
 ## Prerequisites
 
-- Install [Visual Studio 2022 version 17.14](/visualstudio/releases/2022/release-history) or later.
+- [Visual Studio 2026](/visualstudio/releases/2026/release-notes) or [Visual Studio 2022 version 17.14](/visualstudio/releases/2022/release-history) (with the latest servicing release recommended for the most up-to-date features)
 - [Sign in to Visual Studio by using a GitHub account](work-with-github-accounts.md) with [Copilot access](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot).
   
-  You can use [GitHub Copilot for free](copilot-free-plan.md). Sign up and use AI to code faster and more efficiently.
+  If you don't yet have a Copilot subscription, you can use [Copilot for free](copilot-free-plan.md) by signing up for the Copilot Free plan and get a monthly limit of inline suggestions and chat interactions.
 
 ## Enable NES
 
-To get started with Copilot NES, enable the feature in **Tools** > **Options** > **GitHub** > **Copilot** > **Copilot Completions** > **Enable Next Edit Suggestions**.
+:::moniker range="visualstudio"
+
+To get started with Copilot NES, enable the feature in **Tools** > **Options** > **All Settings** > **Text Editor** > **Code Completions** > **General**, and select **Copilot Next Edit Suggestions (Next-edit predictions from Copilot)** in **Code Completions Providers**.
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+
+To get started with Copilot NES, enable the feature in the **Tools** > **Options** > **GitHub** > **Copilot** and select **Enable Next Edit Suggestions** in **Copilot Completions**.
+
+:::moniker-end
 
 ## Start using NES
 
@@ -78,7 +90,18 @@ After you paste some code, NES suggests adjustments to match it with the style o
 
 ## Hide NES
 
-With the release of Visual Studio 17.14, you can now hide suggestions from NES in Visual Studio and review them only when you choose. To enable this feature, select **Tools** > **Options** > **GitHub** > **Copilot** > **Copilot Completions** > **Collapse Next Edit Suggestions**.
+You can hide suggestions from NES in Visual Studio and review them only when you choose.
+
+:::moniker range="visualstudio"
+
+To disable automatic completions, go to **Tools** > **Options** > **All Settings** > **Inline Suggestions** > **General**, and select **Manual** from the **Inline Suggestions Invocation**. You can then manually trigger suggestions with **Alt**+**,** or **Alt**+**.**
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+To manage when suggestions are displayed, go to **Tools** > **Options** > **GitHub** > **Copilot** > **Copilot Completions**, and select **Collapse Next Edit Suggestions**.
+
+:::moniker-end
 
 Your edits still trigger NES, but when a suggestion is available, only the margin indicator appears in the gutter. This indicator points to the relevant line. The suggestion itself remains hidden until you choose to view it.
 

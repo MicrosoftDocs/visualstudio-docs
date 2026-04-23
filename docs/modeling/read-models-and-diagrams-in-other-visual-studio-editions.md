@@ -3,11 +3,11 @@ title: Read models and diagrams in other Visual Studio editions
 description: Learn about reading models and diagrams in Visual Studio, as well as read-only behavior when using a version of Visual Studio that does not support model creation.
 titleSuffix: ''
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - models, versions of Visual Studio
-author: mgoertz-msft
-ms.author: mgoertz
+author: jekelly
+ms.author: jekelly
 manager: mijacobs
 ms.subservice: modeling
 ---

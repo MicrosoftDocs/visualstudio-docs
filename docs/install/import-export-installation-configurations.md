@@ -2,15 +2,15 @@
 title: Import or export installation configurations
 titleSuffix: ''
 description: "Learn how to import, export, and share your Visual Studio installation configuration by using a .vsconfig file."
-ms.date: 02/05/2025
+ms.date: 03/19/2026
 ms.topic: how-to
 helpviewer_keywords:
 - import installation configuration
 - export installation configuration
 - install Visual Studio
 - Visual Studio installer
-author: anandmeg
-ms.author: meghaanand
+author: RoseHJM
+ms.author: rosemalcolm
 manager: mijacobs
 ms.subservice: installation
 ---
@@ -42,7 +42,13 @@ You can export an installation configuration file from a previously installed in
 
 1. Verify that your selections are accurate, and then choose **Export**.
 
-   ::: moniker range=">=vs-2022"
+    ::: moniker range="visualstudio"
+
+      :::image type="content" source="media/visualstudio/export-configuration-confirmation-1.png" alt-text="Screenshot of the Export Window." lightbox="media/visualstudio/export-configuration-confirmation-1.png":::
+
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
 
       :::image type="content" source="media/vs-2022/export-configuration-confirmation-1.png" alt-text="Screenshot of the Export Window." lightbox="media/vs-2022/export-configuration-confirmation-1.png":::
 
@@ -95,17 +101,14 @@ If you save a *.vsconfig* file into your solution root directory and then open a
 > [!NOTE]
 > If your *.vsconfig* file contains extensions, then currently, only those extensions that are hosted on the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) trigger the automatic *is-missing* detection and installation. If you would like this logic to include extensions that were installed from a non-Marketplace location, please [provide details about your scenario here](https://developercommunity.visualstudio.com/t/post/10607414).
 
+
+:::moniker range="visualstudio"
+:::image type="content" source="media/visualstudio/solution-explorer-config-file.png" alt-text="Screenshot of Solution Explorer suggesting additional components.":::
+:::moniker-end
+
+:::moniker range="vs-2022"
 :::image type="content" source="media/vs-2019/solution-explorer-config-file.png" alt-text="Screenshot of Solution Explorer suggesting additional components.":::
-
-You can also generate a *.vsconfig* file right from **Solution Explorer**.
-
-1. Right-click on your solution file.
-
-1. Choose **Add** > **Installation Configuration File**.
-
-1. Confirm the location where you want to save the *.vsconfig* file, and then choose **Review details**.
-
-1. Make sure you've got the workloads and components that you want, and then choose **Export**.
+:::moniker-end
 
 We also created an open source utility that locates Visual Studio installation configuration *.vsconfig* files downstream recursively and merges them all together. To learn more about this utility, see [VSConfigFinder on GitHub](https://github.com/microsoft/VSConfigFinder).
 

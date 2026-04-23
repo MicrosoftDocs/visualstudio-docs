@@ -2,7 +2,7 @@
 title: Getting Started with Source Control Plug-ins
 description: Learn about creating a source control plug-in that implements the functions defined in the Source Control Plug-in API for use in source code version control. 
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: get-started
 helpviewer_keywords:
 - source control plug-ins, getting started
 - getting started, source control plug-ins

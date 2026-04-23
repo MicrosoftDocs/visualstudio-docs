@@ -2,7 +2,7 @@
 title: Managing VSPackages
 description: Learn about managing VSPackages, so that you know when you can simply use the default VSPackage management provided by Visual Studio, and how and when to customize it.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - VSPackages, autoloading
 - VSPackages, delayed loading

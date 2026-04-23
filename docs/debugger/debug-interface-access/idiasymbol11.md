@@ -12,6 +12,7 @@ ms.author: "grantri"
 manager: twhitney
 ms.subservice: debug-diagnostics
 ---
+
 # IDiaSymbol11
 
 Describes additional properties of a `SymTagTaggedUnionCase` symbol instance.

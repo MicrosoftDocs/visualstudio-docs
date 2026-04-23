@@ -1,7 +1,7 @@
 ---
 title: Use Messages view
 description: Learn how to use Messages view, and how to choose the windows and messages types shown in a Messages view window.
-ms.date: 02/05/2024
+ms.date: 02/08/2024
 ms.topic: how-to
 helpviewer_keywords: 
   - Spy++, Messages view

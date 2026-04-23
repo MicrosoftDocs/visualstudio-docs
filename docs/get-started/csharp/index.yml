@@ -6,9 +6,9 @@ summary: Create C# apps with Visual Studio.
 metadata:
   title: C# development with Visual Studio
   description: Explore how to create different C# applications by using Visual Studio, including console, web, Windows Forms, and Windows Desktop apps, and find coding resources.
-  ms.custom: vs-acquisition
+  ms.custom: vs-acquisition, awp-ai
   ms.topic: landing-page
-  ms.date: 2/3/2025
+  ms.date: 2/13/2026
   author: ghogen
   ms.author: ghogen  
   manager: mijacobs
@@ -31,10 +31,6 @@ landingContent:
         links:
           - text: Start a guided tour 
             url: visual-studio-ide.md
-      - linkListType: quickstart
-        links: 
-          - text: Create a "Hello World" web app
-            url: ../../ide/quickstart-aspnet-core.md
 
   # Card
   - title: Create C# apps
@@ -54,7 +50,7 @@ landingContent:
           - text: Create a mobile app with .NET MAUI
             url: /dotnet/maui/get-started/first-app?tabs=vswin
           - text: Learn about the C# language
-            url: /dotnet/csharp/tutorials/intro-to-csharp/
+            url: /dotnet/csharp/tour-of-csharp/tutorials/
           - text: Windows Forms Match Game
             url: tutorial-windows-forms-create-match-game.md
           - text: "Windows Forms Math Quiz"
@@ -81,5 +77,5 @@ landingContent:
             url: ../../test/getting-started-with-unit-testing.md
       - linkListType: how-to-guide
         links:
-          - text: Access data
+          - text: Access data (.NET Framework)
             url:  ../../data-tools/create-a-sql-database-by-using-a-designer.md

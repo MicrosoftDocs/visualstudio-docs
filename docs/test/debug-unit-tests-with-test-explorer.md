@@ -1,7 +1,7 @@
 ---
 title: Debug Unit Tests with Test Explorer
 description: Debug and analyze unit tests via Test Explorer in Visual Studio by setting breakpoints to diagnose performance problems with a test method.
-ms.date: 03/26/2025
+ms.date: 03/09/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: mikejo5000
@@ -9,6 +9,8 @@ ms.author: mikejo
 manager: mijacobs
 ms.subservice: test-tools
 ms.collection: ce-skilling-ai-copilot
+ms.custom: awp-ai
+ai-usage: ai-assisted
 ---
 # Debug and analyze unit tests by using Test Explorer
 
@@ -27,10 +29,6 @@ To start debugging:
    ![Screenshot that shows test execution details.](../test/media/vs-2022/test-explorer-debug.png)
    ::: moniker-end
 
-   ::: moniker range="vs-2019"
-   ![Screenshot that shows test execution details.](../test/media/vs-2019/test-explorer-debug.png)
-   ::: moniker-end
-
 For more information about the debugger, see [Debug in Visual Studio](../debugger/debugger-feature-tour.md).
 
 ## Diagnose performance problems with a test method
@@ -46,15 +44,20 @@ To diagnose why a test method is taking more time than you'd like, or using more
 For more information, see [this blog post](https://devblogs.microsoft.com/visualstudio/a-unit-of-profiling-makes-the-allocations-go-away/) or see [Collect profiling data on release builds](../profiling/running-profiling-tools-with-or-without-the-debugger.md#collect-profiling-data-on-release-builds).
 ::: moniker-end
 
-::: moniker range="vs-2019"
-To diagnose why a test method is taking too much time:
+::: moniker range="visualstudio"
 
-- Right-click the method in Test Explorer, and then select **Profile**.
+### Profile a test with Copilot
 
-For more information, see [Instrumentation profiling report](../profiling/understanding-instrumentation-data-values.md?view=vs-2017&preserve-view=true).
+Starting in Visual Studio 2026 version 18.4, Test Explorer adds a **Profile with Copilot** command that helps you profile a specific test with one click.
 
-> [!NOTE]
-> This feature is not currently supported for .NET Core.
+To profile a test with Copilot:
+
+1. In Test Explorer, right-click the test method.
+1. Select **Profile with Copilot**.
+
+When you select this command, the profiling agent runs the selected test and analyzes performance data to provide actionable suggestions. By default, the command uses **Instrumentation** profiling and currently supports .NET tests.
+
+If you need deeper analysis, launch the selected test from Copilot chat and choose a different profiling tool.
 ::: moniker-end
 
 ::: moniker range=">=vs-2022"
@@ -67,7 +70,20 @@ Starting in Visual Studio 2022 version 17.12 Preview 2, you can get quick assist
 - **Debug with Copilot**
 
 ![Screenshot of debugging tests with Copilot.](../test/media/vs-2022/debug-tests-with-copilot.png)
+::: moniker-end
 
+::: moniker range="visualstudio"
+If you debug with GitHub Copilot, Copilot starts the Copilot Debugger Agent, which:
+
+1. Forms a hypothesis about the root cause of the failure.
+1. Applies targeted code edits based on its analysis.
+1. Validates fixes by running the test under the debugger.
+1. Iterates intelligently, if the issue persists, refining its hypothesis using debugger insights and repeating the cycle until the test passes.
+
+Once the failure is resolved, the agent provides a detailed summary of its actions and edits, making it easy for you to review and understand the changes.
+::: moniker-end
+
+::: moniker range="vs-2022"
 If you debug with GitHub Copilot:
 
 1. It provides you with a debug plan.

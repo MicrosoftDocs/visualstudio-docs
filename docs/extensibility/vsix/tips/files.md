@@ -2,7 +2,7 @@
 title: Working with files
 description: Tips for working with files.
 ms.date: 12/01/2021
-ms.topic: conceptual
+ms.topic: concept-article
 author: madskristensen
 ms.author: madsk
 manager: pchapman

@@ -2,7 +2,7 @@
 title: Automation Model Overview
 description: Learn about the Visual Studio automation model that consists of a set of objects against which you can write a Visual Studio add-in or extension.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - automation [Visual Studio SDK], about automation
 - extensibility

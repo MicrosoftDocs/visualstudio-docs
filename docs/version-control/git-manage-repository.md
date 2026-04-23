@@ -2,7 +2,7 @@
 title: Manage Git repos in Visual Studio
 titleSuffix: ""
 description: Manage any Git repository in Visual Studio by using the Git Repository window and change your last commit, merge commits (squash), cherry-pick commits, and more.
-ms.date: 8/7/2025
+ms.date: 02/23/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: ghogen
@@ -20,6 +20,9 @@ Version control with Visual Studio is easy with Git.  And, you can work remotely
 ## Open the Git Repository window
 
 To open the **Git Repository** window, choose **View** > **Git repository** (or press **Ctrl**+**0**, **Ctrl**+**R**), or press **Ctrl**+**Q** and under **Features**, search for **Git repo**.
+
+   > [!TIP]
+   > To keep this window open on restart, choose **Git** > **Settings** and check the ["Restore the Git Repository window on restart"](./git-settings.md#restore-the-git-repository-window-on-restart) box.
 
 ## Explain a commit with GitHub Copilot Chat
 
@@ -39,15 +42,45 @@ git commit --amend
 
 The **Git Repository** window makes it easy to update your most recent commit message. Open the commit details of the last commit by double-clicking it, and then select the **Edit** option next to the commit message.
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/git-repository-edit-commit.png" alt-text="Screenshot of editing a commit message." lightbox="media/visualstudio/git-repository-edit-commit.png":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 :::image type="content" source="media/vs-2022/git-repository-edit-commit.png" alt-text="Screenshot of editing a commit message." lightbox="media/vs-2022/git-repository-edit-commit.png":::
+
+:::moniker-end
 
 When you finish editing your commit message, select **Amend**.
 
-:::image type="content" source="media/vs-2022/git-repository-amend-commit.png" alt-text="Screenshot of saving an edited message by selecting Amend." lightbox="media/vs-2022/git-repository-amend-commit.png":::
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/git-repository-amend-commit.png" alt-text="Screenshot of saving an edited message by selecting Amend." lightbox="media/visualstudio/git-repository-amend-commit.png":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
+:::image type="content" source="media/vs-2022/git-repository-amend-commit.png" alt-text="Screenshot that shows saving an edited message by selecting Amend." lightbox="media/vs-2022/git-repository-amend-commit.png":::
+
+:::moniker-end
 
 If you need to include code changes to your last commit, you can do that in the **Git Changes** window. Select the **Amend** checkbox and then commit your changes.
 
+:::moniker range="visualstudio"
+   
+:::image type="content" source="media/visualstudio/git-changes-amend-commit.png" alt-text="Screenshot of amending code changes by using the Git Changes window." lightbox="media/visualstudio/git-changes-amend-commit.png":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+   
 :::image type="content" source="media/vs-2022/git-changes-amend-commit.png" alt-text="Screenshot of amending code changes by using the Git Changes window." lightbox="media/vs-2022/git-changes-amend-commit.png":::
+
+:::moniker-end
 
 To learn more about amending, including how to change commit messages other than the most recent one, see [Git Tools - Rewriting History](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History) on the Git website.
 
@@ -67,7 +100,17 @@ Then update `pick` to `squash`, save, and update the commit message.
 
 To merge commits in Visual Studio, use the **Ctrl** key to select multiple commits that you want to merge. Then right-click and select **Squash Commits**. Visual Studio automatically combines your commit messages, but sometimes it's better to provide an updated message. After you review and update your commit message, select the **Squash** button.
 
+:::moniker range="visualstudio"
+   
+:::image type="content" source="media/visualstudio/git-repository-squash-visual-studio.png" alt-text="Screenshot of squashing commits in Visual Studio." lightbox="media/visualstudio/git-repository-squash-visual-studio.png":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+   
 :::image type="content" source="media/vs-2022/git-repository-squash-visual-studio.png" alt-text="Screenshot of squashing commits in Visual Studio." lightbox="media/vs-2022/git-repository-squash-visual-studio.png":::
+
+:::moniker-end
 
 To learn more about squashing, see [Git Tools - Rewriting History](https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History) on the Git website.
 
@@ -87,7 +130,17 @@ git merge main
 
 To do the same in Visual Studio, check out the feature branch by double-clicking it in the branch list. Then right-click **main** and select **Merge 'main' into 'New_Feature'**.
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/git-repository-merge-ui.png" alt-text="Screenshot of merging branches in Visual Studio.":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 :::image type="content" source="media/vs-2022/git-repository-merge-ui.png" alt-text="Screenshot of merging branches in Visual Studio.":::
+
+:::moniker-end
 
 To rebase the main branch into your feature branch on the command line, use the following commands:
 
@@ -98,7 +151,17 @@ git rebase main
 
 To do the same in Visual Studio, check out the feature branch by double-clicking it in the branch list. Then right-click **main** and select **Rebase 'New_Feature' onto 'main'**.
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/git-repository-rebase-ui.png" alt-text="Screenshot of rebasing branches in Visual Studio.":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 :::image type="content" source="media/vs-2022/git-repository-rebase-ui.png" alt-text="Screenshot of rebasing branches in Visual Studio.":::
+
+:::moniker-end
 
 To learn more about merging, rebasing, and branching in general, see [Git Branching](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell) on the Git website.
 
@@ -118,7 +181,17 @@ git cherry-pick 7599e530
 
 To do the same in Visual Studio, preview the branch that you want to cherry-pick a commit from by selecting it with a single click. Then right-click the targeted commit and select **Cherry-Pick**.
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/git-repository-cherry-pick-ui.png" alt-text="Screenshot of cherry-picking in Visual Studio." lightbox="media/visualstudio/git-repository-cherry-pick-ui.png":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 :::image type="content" source="media/vs-2022/git-repository-cherry-pick-ui.png" alt-text="Screenshot of cherry-picking in Visual Studio." lightbox="media/vs-2022/git-repository-cherry-pick-ui.png":::
+
+:::moniker-end
 
 When the operation is complete, Visual Studio shows a success message. The commit that you cherry-picked appears in the **Outgoing** section.
 
@@ -137,11 +210,31 @@ git commit
 
 In the previous example, the commands will undo the changes made in commit 53333305 and create a new commit on the branch. The original commit is still in the Git history. To do the same in Visual Studio, right-click the commit you want to revert and then select **Revert**. After you confirm your action and the operation is complete, Visual Studio displays a success message and a new commit appears in the **Outgoing** section.
 
+:::moniker range="visualstudio"
+    
+:::image type="content" source="media/visualstudio/git-repository-revert-ui.png" alt-text="Screenshot of reverting in Visual Studio." lightbox="media/visualstudio/git-repository-revert-ui.png":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+    
 :::image type="content" source="media/vs-2022/git-repository-revert-ui.png" alt-text="Screenshot of reverting in Visual Studio." lightbox="media/vs-2022/git-repository-revert-ui.png":::
+
+:::moniker-end
 
 Select the new commit to confirm that it undoes the changes of the reverted commit.
 
+:::moniker range="visualstudio"
+    
+:::image type="content" source="media/visualstudio/git-repository-revert-confirmation.png" alt-text="Screenshot of confirming a revert operation." lightbox="media/visualstudio/git-repository-revert-confirmation.png":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+    
 :::image type="content" source="media/vs-2022/git-repository-revert-confirmation.png" alt-text="Screenshot of confirming a revert operation." lightbox="media/vs-2022/git-repository-revert-confirmation.png":::
+
+:::moniker-end
 
 The **Revert** menu item might be grayed out (disabled) in certain circumstances, such as for merge commits or when a Git operation is running.
 
@@ -162,7 +255,18 @@ git reset --hard 53333305
 
 The `--hard` part of the command tells Git to reset the files to the state of the previous commit and discard any staged changes. To do the same in Visual Studio, right-click the commit that you want to reset your branch to, and then select **Reset** > **Delete Changes (--hard)**.
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/git-repository-reset-ui.png" alt-text="Screenshot that shows resetting a branch in Visual Studio." lightbox="media/visualstudio/git-repository-reset-ui.png":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 :::image type="content" source="media/vs-2022/git-repository-reset-ui.png" alt-text="Screenshot that shows resetting a branch in Visual Studio." lightbox="media/vs-2022/git-repository-reset-ui.png":::
+
+:::moniker-end
+
 
 To learn more about resetting branches, see the [Git webpage for the reset command](https://git-scm.com/docs/git-reset).
 

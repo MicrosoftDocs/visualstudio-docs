@@ -1,7 +1,7 @@
 ---
 title: Inspect variables - Visual Studio debugger
 description: Inspect variables in the Autos and Locals windows while debugging in Visual Studio. The Autos and Locals windows show variable values while you are debugging.
-ms.date: 9/5/2025
+ms.date: 03/10/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 f1_keywords:
@@ -42,9 +42,7 @@ While paused in the debugger, hover over an object with the mouse and you see it
 ::: moniker range=">= vs-2022"
 ![View a Data Tip](../debugger/media/vs-2022/dbg-tour-data-tips.png "View a data tip")
 ::: moniker-end
-::: moniker range="<= vs-2019"
-![View a Data Tip](../debugger/media/dbg-tour-data-tips.gif "View a data tip")
-::: moniker-end
+
 
 If the variable has properties, you can expand the object to see all its properties.
 
@@ -80,16 +78,36 @@ You can use a **Watch** window to specify a variable (or an expression) that you
 
 While debugging, right-click an object in the code editor and choose **Add Watch**. A Watch window opens.
 
-::: moniker range=">= vs-2022"
+::: moniker range="visualstudio"
+![Screenshot that shows the Watch window.](../debugger/media/visualstudio/debug-tour-watch-window.png "Watch window")
+::: moniker-end
+
+::: moniker range="vs-2022"
 ![Watch Window](../debugger/media/vs-2022/dbg-tour-watch-window.png "Watch window")
 ::: moniker-end
-::: moniker range="<= vs-2019"
-![Watch Window](../debugger/media/dbg-tour-watch-window.png "Watch window")
-::: moniker-end
+
 
 In this example, you've a watch set on the object, and you can see its value change as you move through the debugger. Unlike the other variable windows, the **Watch** windows always show the variables that you're watching (they're grayed out when out of scope).
 
 For detailed information, see [Set a Watch using the Watch and QuickWatch Windows](../debugger/watch-and-quickwatch-windows.md).
+
+::: moniker range="visualstudio"
+## View inline values
+
+In .NET and C++ code, Visual Studio displays the evaluation result inline for the following: `if` statements, loops, and function parameter values.
+
+For an `if` statement, Visual Studio displays the inline value to the right of the condition itself.
+
+![Screenshot that shows inline values for if statements.](../debugger/media/visualstudio/view-inline-values-if-statements.png)
+
+For a loop statement, the inline value appears as follows.
+
+![Screenshot that shows inline values for loop statements.](../debugger/media/visualstudio/view-inline-values-loop-statements.png)
+
+For function parameters, the inline value also appears to the right.
+
+If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance for the evaluation. Hover over the condition and select **Analyze with Copilot**. Copilot not only breaks down the condition into its sub-expressions, but also helps you analyze unexpected or incorrect values, offering insight into why the result may differ from what you expected.
+::: moniker-end
 
 ::: moniker range=">= vs-2022"
 ## View return values of LINQ queries
@@ -101,7 +119,13 @@ While you're paused in the debugger, you can hover over individual clauses or se
 If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while hovering over the LINQ query. Select the **GitHub Copilot** icon at the end of the DataTip to analyze the query with Copilot. Copilot then explains the syntax of the LINQ query and clarifies why you're getting the specified result.
 ::: moniker-end
 
-::: moniker range=">= vs-2022"
+::: moniker range="visualstudio"
+## Get AI assistance
+
+If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while you're looking at variables in the code editor or in the Autos or Locals windows. While you're debugging, right-click on a variable and use the **Analyze with Copilot** ![Screenshot of Analyze with Copilot button.](../debugger/media/visualstudio/ask-copilot-button.png) button. In this scenario, Copilot already knows the context for your question, so you don't need to provide context yourself in chat. For more information, see [Debug with Copilot](../debugger/debug-with-copilot.md).
+::: moniker-end
+
+::: moniker range="vs-2022"
 ## Get AI assistance
 
 If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while you're looking at variables in the code editor or in the Autos or Locals windows. While you're debugging, right-click on a variable and use the **Ask Copilot** ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png) button. In this scenario, Copilot already knows the context for your question, so you don't need to provide context yourself in chat. For more information, see [Debug with Copilot](../debugger/debug-with-copilot.md).
@@ -119,11 +143,12 @@ The **Autos** and **Locals** windows show variable values while you're debugging
 
 Expandable arrays and objects show up in the **Autos** and **Locals** windows. Select the arrow to the left of a variable name to expand the view to show fields and properties. Here is an example of a <xref:System.IO.FileStream?displayProperty=fullName> object in the **Locals** window:
 
-::: moniker range=">= vs-2022"
-![Screenshot of the Locals window, with file set to a System.IO.FileStream value.](../debugger/media/vs-2022/locals-filestream.png)
+::: moniker range="visualstudio"
+![Screenshot of the Locals window, with file set to a System.IO.FileStream value.](../debugger/media/visualstudio/locals-filestream.png)
 ::: moniker-end
-::: moniker range="vs-2019"
-![Screenshot of the Locals window, with file set to a System.IO.FileStream value.](../debugger/media/locals-filestream.png)
+
+::: moniker range="vs-2022"
+![Screenshot of the Locals window, with file set to a System.IO.FileStream value.](../debugger/media/vs-2022/locals-filestream.png)
 ::: moniker-end
 
 A red value in the **Locals** or **Autos** window means the value has changed since the last evaluation. The change could be from a previous debugging session, or because you have changed the value in the window.
@@ -151,12 +176,14 @@ You can search for keywords in the Name, Value, and Type columns of the **Autos*
 
 Use the left and right arrows (Shift+F3 and F3, respectively) to navigate between found matches.
 
-::: moniker range=">= vs-2022"
+::: moniker range="visualstudio"
+![Screenshot that shows a search in the Locals window.](../debugger/media/visualstudio/search-locals.png "Search in Locals Window")
+::: moniker-end
+
+::: moniker range="vs-2022"
 ![Screenshot of Search in Locals Window.](../debugger/media/vs-2022/ee-search-locals.png "Search in Locals Window")
 ::: moniker-end
-::: moniker range="vs-2019"
-![Screenshot of Search in Locals Window.](../debugger/media/ee-search-locals.png "Search in Locals Window")
-::: moniker-end
+
 
 To make your search more or less thorough, use the **Search Deeper** dropdown list at the top of the **Autos** or **Locals** window to select how many levels deep you want to search into nested objects.
 
@@ -171,7 +198,13 @@ You can quickly inspect objects by their properties in the Autos and Locals wind
 
 You can also toggle property names and filter out non-pinned properties when viewing the object's property list in the Autos or Locals windows. You can access each option by selecting the buttons in the toolbar above the Autos or Locals windows.
 
+:::moniker range="visualstudio"
+![Screenshot of Filter favorite properties.](../debugger/media/visualstudio/filter-pinned-properties-locals.png "Filter favorite properties")
+:::moniker-end
+
+:::moniker range="vs-2022"
 ![Screenshot of Filter favorite properties.](../debugger/media/filter-pinned-properties-locals.png "Filter favorite properties")
+:::moniker-end
 
 ![Screenshot of Toggle property names.](../debugger/media/toggle-property-names.gif "Toggle property names")
 
@@ -183,12 +216,14 @@ To enable the **Debug Location** toolbar, click in an empty part of the toolbar 
 
 Set a breakpoint and start debugging. When the breakpoint is hit, execution pauses and you can see the location in the **Debug Location** toolbar.
 
-::: moniker range=">= vs-2022"
+::: moniker range="visualstudio"
+![Screenshot of the Debug Location toolbar.](../debugger/media/visualstudio/debug-location-toolbar.png "Debug Location toolbar")
+::: moniker-end
+
+::: moniker range="vs-2022"
 ![Screenshot of Debug Location toolbar.](../debugger/media/vs-2022/debug-location-toolbar.png "Debug Location toolbar")
 ::: moniker-end
-::: moniker range="vs-2019"
-![Screenshot of Debug Location toolbar.](../debugger/media/debuglocationtoolbar.png "Debug Location toolbar")
-::: moniker-end
+
 
 ## <a name="bkmk_whatvariables"></a> Language differences in the Autos window (C#, C++, Visual Basic, Python)
 
@@ -209,12 +244,14 @@ Different code languages display different variables in the **Autos** window.
 
    Set a breakpoint on the line `c = 3;`, and start the debugger. When execution pauses, the **Autos** window will display:
 
-   ::: moniker range=">= vs-2022"
+   ::: moniker range="visualstudio"
+   ![Screenshot of the Autos window, with the value of c set to 0.](../debugger/media/visualstudio/autos-csharp.png)
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
    ![Screenshot of the Autos window, with the value of c set to 0.](../debugger/media/vs-2022/autos-csharp.png)
    ::: moniker-end
-   ::: moniker range="vs-2019"
-   ![Screenshot of the Autos window, with the value of c set to 0.](../debugger/media/autos-csharp.png)
-   ::: moniker-end
+
 
    The value of `c` is 0, because the line `c = 3` has not yet been executed.
 
@@ -234,12 +271,14 @@ Different code languages display different variables in the **Autos** window.
 
     Set a breakpoint on the line `e = 5;` and run the debugger. When execution stops, the **Autos** window will display:
 
-    ::: moniker range=">= vs-2022"
+    ::: moniker range="visualstudio"
+    ![Screenshot of the Autos window. The int c has a value of 3.](../debugger/media/visualstudio/autos-c-plus-plus.png)
+    ::: moniker-end
+
+    ::: moniker range="vs-2022"
     ![Screenshot of the Autos window, with the line highlighted that shows the int c with a value of 3.](../debugger/media/vs-2022/autos-cplus.png)
     ::: moniker-end
-    ::: moniker range="vs-2019"
-    ![Screenshot of the Autos window, with the line highlighted that shows the int c with a value of 3.](../debugger/media/autos-cplus.png)
-    ::: moniker-end
+
 
     The variable `e` is uninitialized, because the line `e = 5` has not yet been executed.
 
@@ -278,9 +317,7 @@ To see the return values of the `sumVars()` and `subtractVars()` method calls in
    ::: moniker range=">= vs-2022"
    [ ![Screenshot of Autos return value C#.](../debugger/media/vs-2022/autos-return-value-csharp-2.png "Autos return value C#")](../debugger/media/vs-2022/autos-return-value-csharp-2.png#lightbox)
    ::: moniker-end
-   ::: moniker range="vs-2019"
-   ![Screenshot of Autos return value C#.](../debugger/media/autosreturnvaluecsharp2.png "Autos return value C#")
-   ::: moniker-end
+
 
 ## Open a visualizer to inspect variables
 
@@ -294,14 +331,20 @@ The visualizers appear in the **Autos** windows, data tips, and other debugger w
 > [!NOTE]
 > If you need to inspect XAML or WPF UI elements in a visualizer, see or [Inspect XAML properties while debugging](../xaml-tools/inspect-xaml-properties-while-debugging.md) or [How to use the WPF tree visualizer](../debugger/how-to-use-the-wpf-tree-visualizer.md).
 
+
+
+::: moniker range="visualstudio"
+To open a visualizer, you must be paused during debugging. In the Autos window, select the magnifying glass icon ![VisualizerIcon](../debugger/media/visualstudio/visualizer-icon.png).
+
+![Screenshot that shows how to open a text visualizer.](../debugger/media/visualstudio/debug-tips-string-visualizers.png "Open string visualizer")
+::: moniker-end
+
+::: moniker range="vs-2022"
 To open a visualizer, you must be paused during debugging. Hover over a variable that has a supported visualizer value, and select the magnifying glass icon ![VisualizerIcon](../debugger/media/dbg-tips-visualizer-icon.png).
 
-::: moniker range=">= vs-2022"
 ![Open a string visualizer](../debugger/media/vs-2022/debug-tips-string-visualizers.png "Open string visualizer")
 ::: moniker-end
-::: moniker range="vs-2019"
-![Open a string visualizer](../debugger/media/dbg-tips-string-visualizers.png "Open string visualizer")
-::: moniker-end
+
 
 ## Related content
 

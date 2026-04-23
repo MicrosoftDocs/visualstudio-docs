@@ -19,7 +19,7 @@ You can deploy a .NET 7 or later app without Docker Desktop or a Dockerfile. Vis
 
 - Install [Visual Studio](https://visualstudio.microsoft.com/vs/).
 - A .NET 7 or later project
-- For Azure targets, an Azure subscription. Sign up for a [free trial](https://azure.microsoft.com/free/search).
+- For Azure targets, an Azure subscription. Sign up for a [free trial](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn).
 - For Docker Hub, a Docker account. If you don't have one, you can [sign up](https://hub.docker.com/signup/).
 
 You don't need Docker Desktop or Podman Desktop.
@@ -30,7 +30,7 @@ You don't need Docker Desktop or Podman Desktop.
 
 - Install [Visual Studio 2022 version 17.5](https://visualstudio.microsoft.com/vs/) or later.
 - A .NET 7 or later project
-- For Azure targets, an Azure subscription. Sign up for a [free trial](https://azure.microsoft.com/free/search).
+- For Azure targets, an Azure subscription. Sign up for a [free trial](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn).
 - For Docker Hub, a Docker account. If you don't have one, you can [sign up](https://hub.docker.com/signup/).
 
 You don't need Docker Desktop.

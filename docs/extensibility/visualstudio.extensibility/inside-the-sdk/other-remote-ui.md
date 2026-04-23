@@ -1,7 +1,7 @@
 ---
 title: Other Remote UI concepts
 description: Additional topics related to working with the remote UI model.
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 8/9/2024
 ms.author: tinali
 monikerRange: ">=vs-2022"

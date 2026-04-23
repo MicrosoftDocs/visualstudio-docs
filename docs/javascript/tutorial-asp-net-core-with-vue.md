@@ -1,7 +1,7 @@
 ---
 title: "Create an ASP.NET Core app with Vue"
 description: Create an ASP.NET Core project to serve as an API backend and a Vue project to provide the user interface in Visual Studio.
-ms.date: 4/09/2025
+ms.date: 03/24/2026
 ms.topic: tutorial
 ms.devlang: javascript
 author: mikejo5000
@@ -16,21 +16,21 @@ monikerRange: '>= vs-2022'
 
 In this article, you learn how to build an ASP.NET Core project to act as an API backend and a Vue project to act as the UI.
 
-Visual Studio includes ASP.NET Core Single Page Application (SPA) templates that support Angular, React, and Vue. The templates provide a built-in Client App folder in your ASP.NET Core projects that contains the base files and folders of each framework.
+Visual Studio includes ASP.NET Core Single Page Application (SPA) templates that support Angular, React, and Vue. The templates provide a built-in client app folder in your ASP.NET Core solution that contains the base files and folders of each framework.
 
 You can use the method described in this article to create ASP.NET Core Single Page Applications that:
 
-- Put the client app in a separate project, outside from the ASP.NET Core project
+- Put the client app in a separate project, outside of the ASP.NET Core project
 - Create the client project based on the framework CLI installed on your computer
 
 > [!NOTE]
-> This article describes the project creation process using the updated template in Visual Studio 2022 version 17.11, which uses the Vite CLI. Vite determines the version of Vue using project dependencies, such as those configured in *package.json*.
+> This article describes the project creation process using the template in Visual Studio 2022 version 17.11 and later, which uses the Vite CLI. Vite determines the version of Vue using project dependencies, such as those configured in *package.json*.
 
 ## Prerequisites
 
 Make sure to install the following:
 
-- Visual Studio 2022 version 17.11 or later with the **ASP.NET and web development** workload installed. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
+- Visual Studio 2022 version 17.11 or later with the **ASP.NET and web development** workload installed. Go to the [Visual Studio downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) page to install it for free.
   If you need to install the workload and already have Visual Studio, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **ASP.NET and web development** workload, then choose **Modify**.
 - npm ([`https://www.npmjs.com/`](https://www.npmjs.com/package/npm)), which is included with Node.js.
 
@@ -38,7 +38,13 @@ Make sure to install the following:
 
 1. In the Start window (choose **File** > **Start Window** to open), select **Create a new project**.
 
+   :::moniker range="visualstudio"
+   :::image type="content" source="media/visualstudio/create-new-project.png" alt-text="Screenshot showing the Create a new project option.":::
+   :::moniker-end
+
+   :::moniker range="vs-2022"
    :::image type="content" source="media/vs-2022/create-new-project.png" alt-text="Screenshot showing Create a new project":::
+   :::moniker-end
 
 1. Search for Vue in the search bar at the top and then select **Vue and ASP.NET Core** with either JavaScript or TypeScript as the selected language.
 
@@ -52,7 +58,13 @@ Make sure to install the following:
 
    Solution Explorer shows the following project information:
 
+   :::moniker range="visualstudio"
+   :::image type="content" source="media/visualstudio/asp-net-core-with-vue-solution-explorer.png" alt-text="Screenshot showing Solution Explorer.":::
+   :::moniker-end
+
+   :::moniker range="vs-2022"
    :::image type="content" source="media/vs-2022/asp-net-core-with-vue-solution-explorer.png" alt-text="Screenshot showing Solution Explorer.":::
+   :::moniker-end
 
    Compared to the [standalone Vue template](../javascript/tutorial-create-vue-app.md), you see some new and modified files for integration with ASP.NET Core:
 
@@ -64,7 +76,13 @@ Make sure to install the following:
 
 1. In Solution Explorer, right-click the **VueWithASP.Server** and choose **Properties**.
 
-   :::image type="content" source="media/vs-2022/asp-net-core-project-properties-vue.png" alt-text="Screenshot showing Open project properties.":::
+   :::moniker range="visualstudio"
+   :::image type="content" source="media/visualstudio/asp-net-core-project-properties-vue.png" alt-text="Screenshot showing Open project properties. ":::
+   :::moniker-end
+
+   :::moniker range="vs-2022"
+   :::image type="content" source="media/vs-2022/asp-net-core-project-properties-vue.png" alt-text="Screenshot showing Open project properties. ":::
+   :::moniker-end
 
 1. In the Properties page, open the **Debug** tab and select **Open debug launch profiles UI** option. Uncheck the **Launch Browser** option for the **https** profile or the profile named after the ASP.NET Core project, if present.
 
@@ -89,7 +107,13 @@ Press **F5** or select the **Start** button at the top of the window to start th
 
 The Vue app appears and is populated via the API (the localhost port may vary from the screenshot). 
 
+:::moniker range="visualstudio"
+:::image type="content" source="media/visualstudio/asp-net-core-weather-forecast-app.png" alt-text="Screenshot showing the weather forecast app.":::
+:::moniker-end
+
+:::moniker range="vs-2022"
 :::image type="content" source="media/vs-2022/asp-net-core-weather-forecast-app.png" alt-text="Screenshot showing the weather forecast app.":::
+:::moniker-end
 
 If you don't see the weather forecast data in the browser, see [Troubleshooting](#troubleshooting).
 
@@ -136,13 +160,19 @@ Starting in Visual Studio 2022 version 17.3, you can publish the integrated solu
    }
    ```
 
-1. To publish, right click the ASP.NET Core project, choose **Publish**, and select options to match your desired publish scenario, such as Azure, publish to a folder, etc.
+1. Right-click the ASP.NET Core project, choose **Publish**, and select options to match your desired publish scenario, such as Azure, publish to a folder, etc.
+
+1. After the publish profile is created, choose **Publish** in the Publish tab to publish the project.
 
    The publish process takes more time than it does for just an ASP.NET Core project, since the `npm run build` command gets invoked when publishing. The [BuildCommand](../javascript/javascript-project-system-msbuild-reference.md#buildcommand) runs `npm run build` by default.
 
    If you publish to a folder, see [ASP.NET Core directory structure](/aspnet/core/host-and-deploy/directory-structure) for more information on the files added to the *publish* folder.
 
 ## Troubleshooting
+
+### Outdated versions of Node.js or the template
+
+If you experience issues not described elsewhere in this section, try updating Node.js to the current version and update Visual Studio to get the latest version of the template.
 
 ### Proxy error
 
@@ -193,7 +223,13 @@ If you create the project with [Docker support](../containers/overview.md#prereq
 
 1. After the app loads, get the Docker HTTPS port using the [Containers window](../containers/view-and-diagnose-containers.md) in Visual Studio. Check the **Environment** or **Ports** tab.
 
+   :::moniker range="visualstudio"
+   :::image type="content" source="media/visualstudio/asp-net-core-with-vue-docker-container-ports.png" alt-text="Screenshot showing Docker container ports."::: 
+   :::moniker-end
+
+   :::moniker range="vs-2022"
    :::image type="content" source="media/vs-2022/asp-net-core-with-vue-docker-container-ports.png" alt-text="Screenshot showing Docker container ports."::: 
+   :::moniker-end
 
 1. Open the `vite.config.js` file for the Vue project. Update the `target` variable to match the HTTPS port in the Containers window. For example, in the following code:
 

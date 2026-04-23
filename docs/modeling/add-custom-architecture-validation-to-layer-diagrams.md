@@ -6,8 +6,8 @@ ms.topic: how-to
 titleSuffix: ""
 helpviewer_keywords:
 - dependency diagrams, adding custom validation
-author: mgoertz-msft
-ms.author: mgoertz
+author: jekelly
+ms.author: jekelly
 manager: mijacobs
 ms.subservice: modeling
 ---

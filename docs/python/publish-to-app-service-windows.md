@@ -3,8 +3,8 @@ title: Publish Python web app to Azure App Service on Linux
 description: Publish a Python web application directly to Azure App Service on Linux from Visual Studio, including the necessary content for the web.config file.
 ms.date: 04/18/2024
 ms.topic: how-to
-author: cwebster-99
-ms.author: cowebster
+author: Devdiv-VR
+ms.author: vedhar
 manager: mijacobs
 ms.subservice: python
 ms.custom: sfi-image-nochange
@@ -27,7 +27,7 @@ Visual Studio provides the capability to publish a Python web app directly to Az
 
 - To publish to Azure, you need a target Azure App Service for your Azure subscription.
 
-   If you don't already have an Azure subscription, start with a [free full Azure account](https://azure.microsoft.com/free/). Also consider signing up for [Visual Studio Dev Essentials](https://visualstudio.microsoft.com/dev-essentials/).
+   If you don't already have an Azure subscription, start with a [free full Azure account](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn). Also consider signing up for [Visual Studio Dev Essentials](https://visualstudio.microsoft.com/dev-essentials/).
 
 ### Visual Studio versions
 

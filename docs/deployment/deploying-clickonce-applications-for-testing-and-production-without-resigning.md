@@ -2,7 +2,7 @@
 title: "Deploy ClickOnce apps without re-signing"
 description: Learn about deploying ClickOnce applications from multiple network locations without re-signing or changing the ClickOnce manifests.
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: install-set-up-deploy
 dev_langs:
   - "VB"
   - "CSharp"

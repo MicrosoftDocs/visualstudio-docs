@@ -1,7 +1,7 @@
 ---
 title: Common Quick Actions
 description: Most popular Quick Actions for C# and Visual Basic including fixing misspelled keywords or symbols, resolving merge conflicts, removing necessary imports, generating types, introducing local variables, etc.
-ms.date: 05/20/2022
+ms.date: 01/12/2024
 ms.topic: reference
 author: Mikejo5000
 ms.author: mikejo
@@ -176,11 +176,6 @@ Using types located in other projects in your solution will display the Quick Ac
 
 ::: moniker-end
 
-::: moniker range="<=vs-2019"
-
-Using types located in other projects in your solution will display the Quick Action automatically, however the others need to be enabled from the **Tools > Options > Text Editor > C#** or **Basic > Advanced** tab:
-
-::: moniker-end
 
 - Suggest usings/imports for types in reference assemblies
 - Suggest usings/imports for types in NuGet packages

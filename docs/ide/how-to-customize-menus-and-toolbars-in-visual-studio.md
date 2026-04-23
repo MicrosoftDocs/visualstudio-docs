@@ -22,8 +22,8 @@ helpviewer_keywords:
 - customizing toolbars
 - toolbars [Visual Studio], customizing
 - toolbars [Visual Studio], customizing in the IDE
-author: anandmeg
-ms.author: meghaanand
+author: ghogen
+ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
 ---

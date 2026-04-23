@@ -1,7 +1,7 @@
 ---
 title: Create a Product Manifest
 description: Learn how to deploy prerequisites for your ClickOnce application with a package that contains a single product manifest and a package manifest for each locale.
-ms.date: 11/04/2016
+ms.date: 01/12/2024
 ms.topic: how-to
 dev_langs: 
   - FSharp

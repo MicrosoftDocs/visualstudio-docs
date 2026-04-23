@@ -2,7 +2,7 @@
 title: "DebugBreak and __debugbreak"
 description: Learn how to use the DebugBreak function and the __debugbreak intrinsic to cause your program to break, just as though a breakpoint were set. 
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: reference
 f1_keywords:
   - "DebugBreak"
 dev_langs:

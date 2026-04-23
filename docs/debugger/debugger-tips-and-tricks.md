@@ -2,7 +2,7 @@
 title: "Tips and tricks in the debugger"
 description: Explore some of the lesser-known features supported by the Visual Studio debugger, such as keyboard shortcuts, data tips, and code editing during debugging.
 ms.date: "06/16/2023"
-ms.topic: "conceptual"
+ms.topic: how-to
 helpviewer_keywords:
   - "stepping"
   - "debugging [Visual Studio], execution control"

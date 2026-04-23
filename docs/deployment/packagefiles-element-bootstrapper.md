@@ -53,7 +53,7 @@ The `PackageFiles` element contains `PackageFile` elements, which define the ins
 | `HomeSite` | Optional. The location of the package on the remote server, if it is not included with the installer. |
 | `CopyOnBuild` | Optional. Specifies whether the bootstrapper should copy the package file onto the disk at build time. The default is true. |
 | `PublicKey` | The encrypted public key of the package's certificate signer. Required if `HomeSite` is used; otherwise, optional. |
-| `Hash` | Optional. An SHA1 hash of the package file. This is used to verify the integrity of the file at install time. If the identical hash cannot be computed from the package file, the package will not be installed. |
+| `Hash` | Optional. An SHA256 hash of the package file. This is used to verify the integrity of the file at install time. If the identical hash cannot be computed from the package file, the package will not be installed. (Note this was a SHA1 Hash for .NET 3.5 and earlier) |
 
 ## Example
  The following code example defines packages for the .NET Framework redistributable package and its dependencies, such as the Windows Installer.

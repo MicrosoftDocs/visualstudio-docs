@@ -3,8 +3,8 @@ title: API Reference for T4 Text Templates
 description: Learn how the Text Templating API lets you invoke and customize the transformation of text templates.s
 ms.date: 11/04/2016
 ms.topic: reference
-author: mgoertz-msft
-ms.author: mgoertz
+author: jekelly
+ms.author: jekelly
 manager: mijacobs
 ms.subservice: modeling
 ---

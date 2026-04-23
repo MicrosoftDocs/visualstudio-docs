@@ -2,7 +2,7 @@
 title: Getting a Port
 description: Learn how Visual Studio supplies a port to the debug engine to register program nodes with the port and to satisfy requests for process information.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - ports, getting
 - debugging [Debugging SDK], ports

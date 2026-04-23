@@ -2,12 +2,12 @@
 title: Share models and exporting diagrams
 description: Learn how you can use Visual Studio to create and edit models, dependency diagrams, and directed graphs.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - UML model, sharing
 - UML diagrams, saving
-author: mgoertz-msft
-ms.author: mgoertz
+author: jekelly
+ms.author: jekelly
 manager: mijacobs
 ms.subservice: modeling
 ---

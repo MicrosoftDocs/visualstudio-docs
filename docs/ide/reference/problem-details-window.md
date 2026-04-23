@@ -1,8 +1,8 @@
 ---
-title: Problem Details Window
+title: View problem details for C/C++
 description: Learn about the Problem Details window and how to use it to navigate structured diagnostics.
-ms.date: 10/24/2023
-ms.topic: reference
+ms.date: 10/24/2025
+ms.topic: article
 helpviewer_keywords:
 - Problem Details window
 - build errors
@@ -14,9 +14,9 @@ manager: mluparu
 ms.subservice: general-ide
 ---
 
-# Problem Details window
+# View problem details for C/C++
 
-The **Problem Details** window shows structured diagnostics issued by the MSVC compiler or [code analysis for C/C++](/cpp/code-quality/code-analysis-for-c-cpp-overview).
+The **Problem Details** window shows structured diagnostics issued by the MSVC Compiler or [Microsoft C++ Code Analysis](/cpp/code-quality/code-analysis-for-c-cpp-overview).
 
 Select entries in the [**Error List** window](error-list-window.md) that show an icon in the **Details** column to open the **Problem Details** window. The **Problem Details** window shows the structured diagnostics for the selected entry.
 
@@ -26,7 +26,7 @@ Select entries in the [**Error List** window](error-list-window.md) that show an
 
 Two scenarios produce these diagnostics:
 
-- C++ compilations using [**MSBuild**](/cpp/build/creating-and-managing-visual-cpp-projects) and the MSVC compiler may emit structured diagnostics.
+- C++ compilations using [**MSBuild**](/cpp/build/creating-and-managing-visual-cpp-projects) and the MSVC Compiler may emit structured diagnostics.
 - Code analysis warnings that support [**Key Event**](https://devblogs.microsoft.com/cppblog/microsoft-cpp-code-analysis-warnings-with-key-events) data emit structured diagnostics.
 
 Open the **Problem Details** window by doing one of the following:

@@ -1,17 +1,30 @@
 ---
 title: Customize your build with extensibility hooks
 description: Customize your build with several extensibility hooks that you can use to modify MSBuild projects that use the standard build process. 
-ms.date: 02/03/2025
+ms.date: 02/23/2026
 ms.topic: how-to
 helpviewer_keywords:
-- MSBuild, transforms
-- transforms [MSBuild]
+- MSBuild, customization
+- MSBuild, customize build
+- Directory.Build.props
+- Directory.Build.targets
 author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: msbuild
+ai-usage: ai-assisted
+ms.custom: awp-ai
 ---
 # Customize your build
+
+This article provides an overview of build customization options and guidance on when to use each approach. The options are presented in order of complexity, from command-line arguments to system-wide customizations.
+
+## Prerequisites
+
+- Familiarity with MSBuild project file structure (`.csproj`, `.vbproj`, or similar)
+- Basic understanding of MSBuild properties and targets
+
+## Overview
 
 MSBuild projects that use the standard build process (importing *Microsoft.Common.props* and *Microsoft.Common.targets*) have several extensibility hooks that you can use to customize your build process.
 
@@ -27,10 +40,11 @@ The following customization options are listed in order of increasing complexity
 | - | - |
 | [Add arguments to the MSBuild command line](#add-arguments-to-command-line-msbuild-invocations-for-your-project) | Set global properties that affect the main project build and builds of all dependent projects. |
 | [Customize the build for a single project](#choose-between-adding-properties-to-a-props-or-targets-file) | Add properties to `.props` or `.targets` files to customize build settings. |
-| [Handle generated files in the build process](customize-builds-for-generated-files.md) | How to make sure your generated files are properly included the build output. |
+| [Handle generated files in the build process](customize-builds-for-generated-files.md) | Make sure your generated files are properly included in the build. |
 | [Customize the build for one or more projects](customize-by-directory.md) | Add properties to *Directory.Build.props* or add properties and targets to *Directory.Build.targets* to customize the build for all projects under a folder. This technique is useful for setting properties that are set or used by an SDK, as well as scoping customizations so they affect all projects in a folder or subfolder. |
 | [Customize your local build](customize-your-local-build.md) | Make changes to the build just on your local machine without affecting shared source files. |
-| [Customize all .NET builds](customize-net-builds.md)| Customize the build with system-wide scope, for .NET builds. |
+| [Customize the solution build](customize-solution-build.md) | Customize build behavior at the solution level, before and after individual project builds. |
+| [Customize all .NET builds](customize-net-builds.md) | Customize the build with system-wide scope, for .NET builds. |
 | [Customize C++ builds](customize-cpp-builds.md) | Customize the C++ build, scoped to a project, solution, folder, or all builds governed by an installation of MSBuild on a system. |
 
 ## Add arguments to command-line MSBuild invocations for your project
@@ -47,7 +61,7 @@ When using explicit imports, you can import from a `.props` or `.targets` file a
 
 - `.props` files are imported early in the import order.
 
-- `.targets`  files are imported late in the build order.
+- `.targets` files are imported late in the build order.
 
 This convention is enforced by `<Project Sdk="SdkName">` imports (that is, the import of *Sdk.props* comes first, before all of the contents of the file, then *Sdk.targets* comes last, after all of the contents of the file).
 
@@ -71,6 +85,7 @@ When deciding where to put the properties, use the following general guidelines:
 
 ## Related content
 
-- [MSBuild concepts](../msbuild/msbuild-concepts.md)
-
-- [MSBuild reference](../msbuild/msbuild-reference.md)
+- [Build process overview](build-process-overview.md)
+- [Common MSBuild project properties](common-msbuild-project-properties.md)
+- [MSBuild response files](msbuild-response-files.md)
+- [MSBuild reference](msbuild-reference.md)

@@ -1,7 +1,7 @@
 ---
 title: Create a Git repo or work remotely with a provider
 description: Create a repo in Visual Studio by using Git, browse to an Azure DevOps repo, or work remotely with the Git provider of your choice.
-ms.date: 03/13/2025
+ms.date: 02/25/2026
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
@@ -28,7 +28,17 @@ To follow this article, you'll need:
 
 1. From the **Git** menu, select **Create Git Repository**.
 
+    :::moniker range="visualstudio"
+
+    :::image type="content" source="media/visualstudio/git-menu-create-git-repository.png" alt-text="Screenshot of the Create Git Repository option from the Git menu in Visual Studio.":::
+
+    :::moniker-end
+
+    :::moniker range="vs-2022"
+
     :::image type="content" source="media/vs-2022/git-menu-create-git-repository.png" alt-text="Screenshot of the Create Git Repository option from the Git menu in Visual Studio.":::
+
+    :::moniker-end
 
 1. In the **Create a Git repository** dialog, under the **Push to a new remote** section, choose **GitHub**.
 
@@ -36,8 +46,18 @@ To follow this article, you'll need:
 
    Visual Studio 17.12 and later support multiple GitHub accounts, so you can use the **Account** dropdown to switch to another GitHub account that you want to use for the new repository.
 
-    :::image type="content" source="../get-started/media/vs-2022/git-create-repo-dialog.png" alt-text="Screenshot of the Create Git Repository dialog in Visual Studio with the GitHub selection highlighted.":::
+    :::moniker range="visualstudio"
 
+    :::image type="content" source="media/visualstudio/git-create-repo-dialog.png" alt-text="Screenshot of the Create Git Repository dialog in Visual Studio with the GitHub selection highlighted." lightbox="media/visualstudio/git-create-repo-dialog.png":::
+    
+    :::moniker-end
+  
+    :::moniker range="vs-2022"
+
+    :::image type="content" source="../get-started/media/vs-2022/git-create-repo-dialog.png" alt-text="Screenshot of the Create Git Repository dialog in Visual Studio with the GitHub selection highlighted.":::
+    
+    :::moniker-end
+    
     With Visual Studio 2022 version 17.12 and later, you can choose the visibility of the new repo. Next to **Visibility**, choose **public**, **private**, or **internal** (see [About internal repositories](https://docs.github.com/enterprise-cloud@latest/repositories/creating-and-managing-repositories/about-repositories#about-internal-repositories)). To create an internal repo, you must be signed in with a [GitHub Enterprise](https://enterprise.github.com/login) account. With earlier versions, select the checkbox if you want a private repo.
 
 1. Under **Initialize a local Git Repository**, you can use the **.gitignore template** option to specify any intentionally untracked files that you want Git to ignore. To learn more about .gitignore, see [Ignoring files](https://docs.github.com/get-started/getting-started-with-git/ignoring-files). And to learn more about licensing, see [Licensing a repository](https://docs.github.com/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository).
@@ -68,13 +88,25 @@ To create a local repo:
 
 1. From the **Git** menu, select **Create Git Repository**.
 
-1. In the **Create a Git repository** dialog, under **Other**, choose **Local only**.
+:::moniker range="visualstudio"
+    
+2. In the **Create a Git repository** dialog, under **Other**, choose **Local**.
+
+   :::image type="content" source="media/visualstudio/git-repository-create-local.png" alt-text="Screenshot of the Create Git Repository screen, showing the Local option." lightbox="media/visualstudio/git-repository-create-local.png":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+    
+2. In the **Create a Git repository** dialog, under **Other**, choose **Local only**.
 
    :::image type="content" source="media/vs-2022/git-repository-create-local.png" alt-text="Screenshot of the Create Git Repository screen, showing the Local only option.":::
 
-1. Under **Initialize a local Git repository**, check the local path to the project, and modify any other settings if needed.
+:::moniker-end
 
-1. Select the **Create and Push** button to create your repo.
+3. Under **Initialize a local Git repository**, check the local path to the project, and modify any other settings if needed.
+
+4. Select the **Create and Push** button to create your repo.
 
 After you’ve created a repo or [cloned one](git-clone-repository.md), Visual Studio detects the Git repository and adds it to your list of **Local Repositories** in the Git menu. From there, you can quickly access and switch between your Git repositories.
 

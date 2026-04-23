@@ -3,14 +3,22 @@ title: Docker Compose build settings
 author: ghogen
 description: Learn how to edit the Docker Compose build properties to customize how Visual Studio builds and runs a Docker Compose application.
 ms.author: ghogen
-ms.date: 12/19/2024
+ms.date: 04/02/2026
 ms.subservice: container-tools
 ms.topic: reference
+ms.custom: awp-ai
 ---
 
 # Docker Compose build properties
 
 In addition to the properties that control individual Docker projects, described in [Container Tools build properties](container-msbuild-properties.md), you can also customize how Visual Studio builds your Docker Compose projects by setting the Docker Compose properties that MSBuild uses to build your solution. You can also control how the Visual Studio debugger runs your Docker Compose apps by setting file labels in Docker Compose configuration files.
+
+:::moniker range="visualstudio"
+
+> [!NOTE]
+> These build properties also apply when you use [Podman Compose](https://podman-desktop.io/docs/compose) as the Compose runtime in Visual Studio.
+
+:::moniker-end
 
 ## How to set the MSBuild properties
 
@@ -111,14 +119,6 @@ services:
 
 Use double quotes around the values, as in the preceding example, and use the backslash as an escape character for backslashes in paths.
 
-:::moniker range="<=vs-2019"
-|Label name|Description|
-|----------|-----------|
-|com.microsoft.visualstudio.debuggee.program|The program launched when starting debugging. For .NET Core apps, this setting is typically **dotnet**.|
-|com.microsoft.visualstudio.debuggee.arguments|The arguments passed to the program when starting debugging. For .NET Core apps, these arguments are typically additional search paths for NuGet packages followed by the path to the project's output assembly.|
-|com.microsoft.visualstudio.debuggee.workingdirectory|The directory used as the starting directory when starting debugging. This setting is typically */app* for Linux containers, or *C:\app* for Windows containers.|
-|com.microsoft.visualstudio.debuggee.killprogram|This command is used to stop the debuggee program that's running inside of the container (when necessary).|
-:::moniker-end
 
 :::moniker range=">=vs-2022"
 |Label name|Description|

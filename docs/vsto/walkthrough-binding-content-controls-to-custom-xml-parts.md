@@ -2,7 +2,7 @@
 title: Bind content controls to custom XML parts in Visual Studio
 description: Bind content controls in a document-level customization for Microsoft Office Word to XML data that is stored in the document.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"

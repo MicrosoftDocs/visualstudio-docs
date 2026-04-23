@@ -1,3 +1,7 @@
+---
+ms.topic: include
+---
+
 > [!TIP]
 >
 > **Try Microsoft Azure Storage Explorer**

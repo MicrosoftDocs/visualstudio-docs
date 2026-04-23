@@ -1,7 +1,7 @@
 ---
 title: Debug Azure services
 description: You can debug Azure services with Visual Studio. Use the links in this article to learn about the various ways to do this.
-ms.date: 09/14/2018
+ms.date: 09/22/2022
 ms.topic: how-to
 helpviewer_keywords:
   - debugger

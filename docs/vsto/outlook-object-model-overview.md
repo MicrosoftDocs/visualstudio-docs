@@ -2,7 +2,7 @@
 title: "Outlook object model overview"
 description: Interact with various objects provided by the Outlook object model to develop VSTO add-ins for Microsoft Outlook, such as for mail, appointments, and tasks. 
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: concept-article
 f1_keywords:
   - "VST.ProjectItem.OutlookAddin"
 dev_langs:

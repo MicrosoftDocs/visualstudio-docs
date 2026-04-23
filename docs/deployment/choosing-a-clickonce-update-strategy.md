@@ -2,7 +2,7 @@
 title: "Choosing a ClickOnce Update Strategy"
 description: Discover how a ClickOnce application supports automatic updates and review update strategy options, including checking on startup or through a user interface.
 ms.date: "01/27/2023"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"

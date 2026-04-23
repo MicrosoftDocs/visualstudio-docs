@@ -2,7 +2,7 @@
 title: "Create Visual Studio extensions with C# & .NET Framework"
 description: Create a Visual Studio extension with the .NET Framework and C# and an existing project template file, such as Empty VSIX Project (Community).
 ms.date: 12/01/2021
-ms.topic: conceptual
+ms.topic: how-to
 author: madskristensen
 ms.author: madsk
 manager: pchapman
@@ -117,7 +117,7 @@ namespace InsertGuid
 }
 ```
 
-You're using the `VS` object to get the active editor text view, and then insert the guid at its text buffer's caret position.
+You're using the `VS` object to get the active editor text view, and then insert the guid at its text buffer's caret position. `VS` is a static object that provides access to Visual Studio IDE UI elements; see its definition in [VS.cs](https://github.com/VsixCommunity/Community.VisualStudio.Toolkit/blob/master/src/toolkit/Community.VisualStudio.Toolkit.Shared/VS.cs) in the [VSIX Community Toolkit GitHub repository](https://github.com/VsixCommunity/Community.VisualStudio.Toolkit/tree/master).
 
 >[!NOTE]
 > You'll see `await JoinableTaskFactory.SwitchToMainThreadAsync()` and `ThreadHelper.ThrowIfNotOnUIThread()` in many places in this community toolkit. They handle thread switching best practices and you don't need to know when and how to use them at this point - compiler warnings with Code Fixes (light bulbs) makes that super easy.

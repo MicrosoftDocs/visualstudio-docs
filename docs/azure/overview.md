@@ -7,7 +7,7 @@ ms.subservice: azure-development
 ms.topic: overview
 ms.date: 7/1/2025
 ms.author: ghogen
-monikerRange: ">=vs-2019"
+monikerRange: ">=vs-2022"
 ---
 
 # Azure development with Visual Studio

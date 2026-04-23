@@ -2,7 +2,7 @@
 title: Evaluating Expressions
 description: Learn about evaluating expressions, which are created from strings passed down from the Autos, Watch, QuickWatch, or Immediate windows.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - expressions [Debugging SDK], evaluating
 - debugging [Debugging SDK], expression evaluation

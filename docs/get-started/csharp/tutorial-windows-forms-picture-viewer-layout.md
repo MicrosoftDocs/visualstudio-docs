@@ -1,12 +1,12 @@
 ---
 title: Create a WinForms project for a picture viewer app
 description: Create a C# or VB Windows Forms (.NET Framework) project for a picture viewer application in the Visual Studio integrated development environment (IDE).
-author: anandmeg
-ms.author: meghaanand
+author: MikeJo5000
+ms.author: mikejo
 manager: mijacobs
 ms.subservice: general-ide
 ms.topic: tutorial
-ms.date: 9/19/2024
+ms.date: 02/27/2026
 #customer intent: As a developer, I want to learn how to use Visual Studio to create C# or VB WinForms projects, starting with adding a layout element.
 ---
 # Tutorial: Create a picture viewer Windows Forms App (.NET Framework)
@@ -33,26 +33,27 @@ Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/vs/)
 
 When you create a picture viewer, the first step is to create a Windows Forms App project.
 
-::: moniker range="vs-2019"
+::: moniker range="visualstudio"
+
 1. Open Visual Studio.
 
 1. On the start window, select **Create a new project**.
 
-   :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-layout/create-new-project-dark-theme-2019.png" alt-text="Screenshot shows the Create a new project option in the Visual Studio 2019 start window.":::
+   :::image type="content" source="./media/visualstudio/create-new-project-dark-theme.png" alt-text="Screenshot shows the Create a new project option in the Visual Studio start window.":::
 
 1. On the **Create a new project** window, search for *Windows Forms*. Then select **Desktop** from the **Project type** list.
 
 1. Select the **Windows Forms App (.NET Framework)** template for either C# or Visual Basic, and then select **Next**.
 
-   :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-layout/create-project-windows-forms-2019.png" alt-text="Screenshot shows the Create a new project dialog box with Windows Forms entered and options for Windows Forms App in Visual Studio 2019." lightbox="../media/tutorial-windows-forms-picture-viewer-layout/create-project-windows-forms-2019.png":::
+   :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-layout/create-project-windows-forms.png" alt-text="Screenshot shows the Create a new project dialog box with Windows Forms entered and options for Windows Forms App." lightbox="../media/tutorial-windows-forms-picture-viewer-layout/create-project-windows-forms.png":::
 
 1. In the **Configure your new project** window, name your project *PictureViewer*, then select **Create**.
 
-   :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-layout/configure-new-project-2019.png" alt-text="Screenshot shows the Configure your new project dialog box in Visual Studio 2019.":::
+   :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-layout/configure-new-project.png" alt-text="Screenshot shows the Configure your new project dialog box.":::
 
 ::: moniker-end
 
-::: moniker range=">=vs-2022"
+::: moniker range="vs-2022"
 1. Open Visual Studio.
 
 1. On the start window, select **Create a new project**.
@@ -117,7 +118,17 @@ This section shows you how to change the title of your form, resize the form, an
 
 1. Select the small triangle symbol next to **Containers** to open the group.
 
+   :::moniker range="visualstudio"
+   
+   :::image type="content" source="./media/visualstudio/toolbox-container-table-layout-panel.png" alt-text="Screenshot shows the Containers group in the Toolbox tab.":::
+
+   :::moniker-end
+
+   :::moniker range="vs-2022"
+   
    :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-layout/toolbox-container-table-layout-panel.png" alt-text="Screenshot shows the Containers group in the Toolbox tab.":::
+
+   :::moniker-end
 
 1. Double-click **TableLayoutPanel** in the **Toolbox**.
    You can also drag a control from the toolbox onto the form.
@@ -136,7 +147,17 @@ This section shows you how to change the title of your form, resize the form, an
 1. With the TableLayoutPanel selected, find the **Dock** property, which has the value **None**.
    Select the dropdown arrow and then select **Fill**, which is the large button in the middle of the dropdown menu.
 
+   :::moniker range="visualstudio"
+   
+   :::image type="content" source="./media/visualstudio/dock-property.png" alt-text="Screenshot shows the Properties window with Fill selected.":::
+
+   :::moniker-end
+
+   :::moniker range="vs-2022"
+   
    :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-layout/dock-property.png" alt-text="Screenshot shows the Properties window with Fill selected.":::
+
+   :::moniker-end
 
    *Docking* refers to how a window is attached to another window or area.
 
@@ -192,8 +213,18 @@ To run the app, follow these steps.
    Look at the Visual Studio IDE toolbar.
    More buttons appear on the toolbar when you run an application.
    These buttons let you do things like stop and start your app, and help you track down any errors.
+   
+   :::moniker range="visualstudio"
+
+   :::image type="content" source="./media/visualstudio/debug-toolbar.png" alt-text="Screenshot shows the Debugging toolbar where you can stop the app.":::
+
+   :::moniker-end
+
+   :::moniker range="vs-2022"
 
    :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-layout/debug-toolbar.png" alt-text="Screenshot shows the Debugging toolbar where you can stop the app.":::
+
+   :::moniker-end
 
 1. Use one of the following methods to stop your app:
 

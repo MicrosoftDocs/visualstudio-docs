@@ -2,7 +2,7 @@
 title: Create a GitHub account to use with Visual Studio
 titleSuffix: ""
 description: Create a GitHub account to use with Visual Studio so that you can manage your code and collaborate on projects with your team.
-ms.date: 3/14/2025
+ms.date: 04/15/2026
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
@@ -19,37 +19,23 @@ If you don't already have a GitHub account, here's how to create one.
 
 1. Open [https://github.com](https://github.com) in a web browser, and then select **Sign up**.
 
-    :::image type="content" source="media/vs-2022/welcome-sign-up-github-account.png" alt-text="Screenshot of the Sign Up for GitHub page.":::
+    :::image type="content" source="media/visualstudio/welcome-sign-up-github-account.png" alt-text="Screenshot of the Sign Up for GitHub page.":::
 
-1. **Enter your email** address.
+1. Fill out the online form, and then select **Create account**.
 
-    :::image type="content" source="media/vs-2022/welcome-github-enter-email.png" alt-text="Screenshot of the Enter Your Email dialog.":::
+    :::image type="content" source="media/visualstudio/web-form.png" alt-text="Screenshot of the online form.":::
 
-1. **Create a password** for your new GitHub account, and **Enter a username**, too. Next, choose whether you want to receive updates and announcements via email, and then select **Continue**.
-
-    :::image type="content" source="media/vs-2022/welcome-github-create-password-enter-username.png" alt-text="Screenshot of the Create a Password and Enter a Username dialog.":::
-
-1. **Verify your account** by solving a puzzle. Select the **Start Puzzle** button to do so, and then follow the prompts.
+1. **Verify your account** by solving a puzzle. Select **Visual puzzle** or **Audio puzzle** to do so, and then follow the prompts.
 
 1. After you verify your account, select the **Create account** button.
 
-1. Next, GitHub sends a launch code to your email address. Type that launch code in the **Enter code** dialog, and then press **Enter**.
+1. Next, GitHub sends a launch code to your email address. Type that launch code in the **Enter code** boxes, and then select **Continue**.
 
-    :::image type="content" source="media/vs-2022/welcome-github-enter-launch-code.png" alt-text="Screenshot of the Enter Your Launch Code dialog.":::
+    :::image type="content" source="media/visualstudio/welcome-github-enter-launch-code.png" alt-text="Screenshot of the Enter code boxes.":::
 
-1. GitHub asks you some questions to help tailor your experience. Choose the answers that apply to you in the following dialogs:
+1. After you sign in, GitHub opens a personalized page in your browser.
 
-   - **How many team members will be working with you?**
-   - **What specific features are you interested in using?**
-
-1. On the **Where teams collaborate and ship** screen, you can choose whether you want to use the Free account or the Team account. To choose the **Free** account, select the **Skip personalization** button.
-
-    > [!TIP]
-    > You can always upgrade your account later. See the [**Types of GitHub accounts**](https://docs.github.com/get-started/learning-about-github/types-of-github-accounts) page to learn more.
-
-    GitHub opens a personalized page in your browser.
-
-    :::image type="content" source="media/vs-2022/welcome-github-new-user-page.png" alt-text="Your new user page.":::
+    :::image type="content" source="media/visualstudio/welcome-github-new-user-page.png" alt-text="Screenshot that shows the personalized page.":::
 
 Congratulations! You've successfully created your GitHub account.
 

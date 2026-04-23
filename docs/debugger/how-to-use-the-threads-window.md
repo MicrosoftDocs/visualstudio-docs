@@ -73,7 +73,7 @@ To create the project:
 
    In the **Configure your new project** window, type a name or use the default name in the **Project name** box. Then, choose **Next**.
 
-   For a .NET project, choose either the recommended target framework or .NET 8, and then choose **Create**.
+   For a .NET project, choose either the recommended target framework or .NET 10, and then choose **Create**.
 
    A new console project appears. After the project has been created, a source file appears.
 

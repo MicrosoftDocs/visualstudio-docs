@@ -1,10 +1,10 @@
 ---
 title: Extend a Trial Version or Update a License
 description: Learn how to extend a free trial of Visual Studio, use an online subscription or product key to unlock Visual Studio, and update a stale or expired license.
-ms.date: 08/08/2025
+ms.date: 03/02/2026
 ms.topic: how-to
-author: anandmeg
-ms.author: meghaanand
+author: ghogen
+ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
 
@@ -65,13 +65,33 @@ Note that CA policies that are enabled on an account might affect the account st
 
 If your extended trial or subscription is expired and you no longer have access rights to Visual Studio, you must renew your subscription, add another account that has a subscription, or enter a product key. For information about the license you're using, go to **File** > **Account Settings** and review the license information on the right side of the dialog. 
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/expired-license-account-settings-dialog.png" alt-text="Screenshot of an expired license notification in Visual Studio." border="false":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 :::image type="content" source="media/vs-2022/expired-license-account-settings-dialog.png" alt-text="Screenshot of an expired license notification in Visual Studio." border="false":::
+
+:::moniker-end
 
 If you have another subscription that's associated with a different account, [add that account](signing-in-to-visual-studio.md#add-and-switch-user-accounts-in-visual-studio) to the **All Accounts** list on the left side of the dialog box by selecting **+Add**.
 
 You can also enter the [product key for your Visual Studio subscription](/visualstudio/subscriptions/product-keys) in the **Account Settings** dialog. To do that, select **Unlock with a Product Key** and enter the product key in the **Enter a product key** dialog.
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/expired-license-enter-product-key.png" alt-text="Screenshot of the Enter a product key dialog.":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 :::image type="content" source="media/vs-2022/expired-license-enter-product-key.png" alt-text="Screenshot of the Enter a product key dialog.":::
+
+:::moniker-end
 
 ## Get support
 

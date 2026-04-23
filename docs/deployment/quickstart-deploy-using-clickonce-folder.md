@@ -1,7 +1,7 @@
 ---
 title: Deploy a .NET Windows Desktop app with ClickOnce
 description: Use the Publish tool in Visual Studio 2019 version 16.8 and later, and deploy .NET Core 3.1 or .NET 5 and later applications with ClickOnce.
-ms.date: 09/26/2022
+ms.date: 02/25/2026
 ms.topic: quickstart
 helpviewer_keywords:
   - "deployment, local folder, ClickOnce"
@@ -9,7 +9,7 @@ author: john-hart
 ms.author: JohnHart
 manager: mijacobs
 ms.subservice: deployment
-monikerRange: '>= vs-2019'
+monikerRange: '>= vs-2022'
 ms.custom: sfi-image-nochange
 ---
 # Deploy a .NET Windows desktop application using ClickOnce
@@ -23,7 +23,17 @@ Starting in Visual Studio 2019 version 16.8, you can use the **Publish** tool to
 
 1. In Solution Explorer, right-click the project and choose **Publish** (or use the **Build** > **Publish** menu item).
 
+    :::moniker range="visualstudio"
+
+    ![Screenshot that shows the Publish command on the project context menu in Solution Explorer.](../deployment/media/visualstudio/quickstart-clickonce-solution-explorer.png "Choose Publish")
+
+    :::moniker-end
+
+    :::moniker range="vs-2022"
+
     ![The Publish command on the project context menu in Solution Explorer](../deployment/media/quickstart-clickonce-solution-explorer.png "Choose Publish")
+
+    :::moniker-end
 
 1. If you have previously configured any publishing profiles, the **Publish** page appears. Select **New**.
 

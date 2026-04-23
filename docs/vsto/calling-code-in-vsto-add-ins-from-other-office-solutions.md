@@ -2,7 +2,7 @@
 title: "Call code in VSTO Add-ins from other Office solutions"
 description: Learn how you can expose an object in your VSTO Add-in to other solutions, including other Microsoft Office solutions.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"

@@ -3,8 +3,8 @@ title: Properties of Domain Roles
 description: Learn about the properties that are associated with a domain role, like Collection Type, Custom Attributes, and Is Property Browsable.
 ms.date: 11/04/2016
 ms.topic: reference
-author: mgoertz-msft
-ms.author: mgoertz
+author: jekelly
+ms.author: jekelly
 manager: mijacobs
 ms.subservice: modeling
 ---

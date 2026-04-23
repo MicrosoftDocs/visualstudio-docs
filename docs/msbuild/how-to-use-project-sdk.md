@@ -93,7 +93,7 @@ When you explicitly include the imports in your project, you have full control o
 When using the `Import` element, you can specify an optional `Version` attribute as well. For example, you can specify `<Import Project="Sdk.props" Sdk="My.Custom.Sdk" Version="1.2.3" />`.
 
 > [!WARNING]
-> If you change your project to use `Import` elements, make sure you add both `.props` and `.targets` imports, and that you remove the SDK from the `Project` element and `Sdk` elements. Failure to do so will result in duplicaate imports and an [`MSB4011`](./errors/msb4011.md) warning.
+> If you change your project to use `Import` elements, make sure you add both `.props` and `.targets` imports, and that you remove the SDK from the `Project` element and `Sdk` elements. Failure to do so will result in duplicate imports and an [`MSB4011`](./errors/msb4011.md) warning.
 
 ## How project SDKs are resolved
 

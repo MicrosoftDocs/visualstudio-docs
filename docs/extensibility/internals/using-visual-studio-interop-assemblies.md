@@ -2,7 +2,7 @@
 title: Using Visual Studio Interop Assemblies
 description: Learn how Visual Studio interop assemblies allow managed applications to access the COM interfaces that provide Visual Studio extensibility.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - Visual Studio, interop assemblies
 - interop assemblies, Visual Studio

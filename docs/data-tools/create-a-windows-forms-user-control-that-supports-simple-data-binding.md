@@ -2,7 +2,7 @@
 title: Create .NET Framework user controls that support simple data binding
 description: Learn to create a Windows Forms user control that supports simple data binding in a .NET Framework application, using the DefaultBindingPropertyAttribute class in Visual Studio.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 dev_langs:
 - VB
 - CSharp

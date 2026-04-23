@@ -1,7 +1,7 @@
 ---
 title: UsingTask Element (MSBuild)
 description: Learn about the MSBuild UsingTask element, which maps the task referenced in a task element to the assembly that contains the task implementation.
-ms.date: 03/13/2017
+ms.date: 12/16/2025
 ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/msbuild/2003#UsingTask
@@ -34,7 +34,7 @@ Maps the task that is referenced in a [Task](../msbuild/task-element-msbuild.md)
 ```
 
 > [!NOTE]
-> Unlike properties and items, the *first* `UsingTask` element that applies to a `TaskName` will be used; to override tasks you must define a new `UsingTask` *before* the existing one, or specify `Override="true"` in the new `UsingTask`.
+> Unlike properties and items, the *first* `UsingTask` element that applies to a `TaskName` is used; to override tasks you must define a new `UsingTask` *before* the existing one, or specify `Override="true"` in the new `UsingTask`.
 
 ## Attributes and elements
 
@@ -44,11 +44,11 @@ Maps the task that is referenced in a [Task](../msbuild/task-element-msbuild.md)
 
 |Attribute|Description|
 |---------------|-----------------|
-|`Architecture`|Optional attribute.<br /><br /> Specifies that the task must run in a process of the specified bitness. If the current process does not satisfy the requirement, the task will be run in a task host process that does.<br /><br /> Supported values are `x86` (32-bit), `x64` (64-bit), `CurrentArchitecture`, and `*` (any architecture).|  
+|`Architecture`|Optional attribute.<br /><br /> Specifies that the task must run in a process of the specified bitness. If the current process does not satisfy the requirement, the task runs in a task host process that does.<br /><br /> Supported values are `x86` (32-bit), `x64` (64-bit), `CurrentArchitecture`, and `*` (any architecture).|  
 |`AssemblyName`|Either the `AssemblyName` attribute or the `AssemblyFile` attribute is required.<br /><br /> The name of the assembly to load. The `AssemblyName` attribute accepts strong-named assemblies, although strong-naming is not required. Using this attribute is equivalent to loading an assembly by using the <xref:System.Reflection.Assembly.Load%2A> method in .NET.<br /><br /> You cannot use this attribute if the `AssemblyFile` attribute is used.|
 |`AssemblyFile`|Either the `AssemblyName` or the `AssemblyFile` attribute is required.<br /><br /> The file path of the assembly. This attribute accepts full paths or relative paths. Relative paths are relative to the directory of the project file or targets file where the `UsingTask` element is declared. Using this attribute is equivalent to loading an assembly by using the <xref:System.Reflection.Assembly.LoadFrom%2A> method in .NET.<br /><br /> You cannot use this attribute if the `AssemblyName` attribute is used.|
 |`Override`|Optional attribute.<br /><br /> Specifies that this `UsingTask` element should be higher priority than other elements defining the same task name. Only one override is permitted per task name. Added in MSBuild 17.2.|  
-|`Runtime`|Optional attribute.<br /><br /> Specifies that the task must run in a .NET Framework runtime of the specified version. If the current process does not satisfy the requirement, the task will be run in a task host process that does.<br /><br /> Supported values are 'NET' (.NET Core and .NET 5 or higher), `CLR2` (.NET Framework 3.5), `CLR4` (.NET Framework 4.7.2 or higher), `CurrentRuntime`, and `*` (any runtime). Note that you can't call NET tasks when you're running the .NET Framework (CLR4) MSBuild, and you can't call CLR2/CLR4 tasks from the .NET MSBuild (when running `dotnet build`).|  
+|`Runtime`|Optional attribute.<br /><br /> Specifies the runtime the task must run under. If the current MSBuild process does not satisfy the requirement, the task runs in a task host process that does.<br /><br /> Supported values are `CLR2` (.NET Framework 3.5), `CLR4` (.NET Framework 4.7.2 or higher), `CurrentRuntime`, `NET` (.NET), and `*` (any runtime). `Runtime="NET"` is supported starting in MSBuild 18.0 (.NET SDK 10/Visual Studio 2026) and is currently only supported for projects using `Microsoft.NET.Sdk`. `dotnet build` (the .NET version of MSBuild) can't run `CLR2`/`CLR4` tasks.|
 |`TaskFactory`|Optional attribute.<br /><br /> Specifies the class in the assembly that is responsible for generating instances of the specified `Task` name.  The user may also specify a `Task` as a child element that the task factory receives and uses to generate the task. The contents of the `Task` are specific to the task factory. The default `TaskFactory` is `AssemblyTaskFactory`, which loads the task into the running process.|
 |`TaskName`|Required attribute.<br /><br /> The name of the task to reference from an assembly. If ambiguities are possible, this attribute should always specify full namespaces. If there are ambiguities, MSBuild chooses an arbitrary match, which could produce unexpected results.|
 |`Condition`|Optional attribute.<br /><br /> The condition to evaluate. For more information, see [Conditions](../msbuild/msbuild-conditions.md).|
@@ -73,7 +73,7 @@ Maps the task that is referenced in a [Task](../msbuild/task-element-msbuild.md)
 > [!NOTE]
 > Project-level properties and items have no meaning if the `UsingTask` element is coming from one of the *.tasks* files that are globally registered with the MSBuild engine. Project-level values are not global to MSBuild.
 
- In MSBuild 4.0, using tasks can be loaded from *.overridetask* files.
+ In MSBuild 4.0, using tasks can be loaded from `.overridetask` files.
 
 The assembly containing the custom task is loaded when the `Task` is first used.
 
@@ -86,7 +86,7 @@ The assembly containing the custom task is loaded when the `Task` is first used.
            AssemblyFile="c:\myTasks\myTask.dll" />
 ```
 
-Because there is no `Runtime` or `TaskHost` specified, the task will be executed in the MSBuild process, in the runtime and architecture that happen to be running for a given build.
+Because there is no `Runtime` or `TaskHost` specified, the task executes in the MSBuild process, in the runtime and architecture that happen to be running for a given build.
 
 ## Example 2
 

@@ -31,7 +31,7 @@ This article explores how to work with the data tips feature in Visual Studio. D
 
 ## Prerequisites
 
-- Visual Studio. If you don't have Visual Studio, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
+- Visual Studio. If you don't have Visual Studio, go to the [Visual Studio downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) page to install it for free.
 
 - Some program code to run in the Visual Studio debugger.
 
@@ -206,7 +206,7 @@ To use **Comments** in a data tip, follow these steps:
 
 1. To close the **Comments** region, use the double Up arrow to **Collapse comments**. Any comments you enter remain with the data tip, but they're not currently visible.
 
-::: moniker range=">= vs-2019"
+::: moniker range=">= vs-2022"
 
 ## Pin properties in data tips
 

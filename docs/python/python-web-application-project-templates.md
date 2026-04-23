@@ -2,9 +2,9 @@
 title: Web application templates for Python
 description: Work with Python web app templates in Visual Studio for the Bottle, Flask, and Django frameworks, debug configurations, and publish to Azure App Service.
 ms.date: 04/18/2024
-ms.topic: conceptual
-author: cwebster-99
-ms.author: cowebster
+ms.topic: concept-article
+author: Devdiv-VR
+ms.author: vedhar
 manager: mijacobs
 ms.subservice: python
 

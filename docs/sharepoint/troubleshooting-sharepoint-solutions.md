@@ -2,7 +2,7 @@
 title: "Troubleshooting SharePoint Solutions"
 description: See what problems or alerts might occur when you debug SharePoint solutions by using the Visual Studio debugger.
 ms.date: "02/22/2017"
-ms.topic: "conceptual"
+ms.topic: troubleshooting-general
 f1_keywords:
   - "Microsoft.VisualStudio.Tools.SharePoint.Errors.Debugging"
   - "VS.SharePointTools.errors.general"

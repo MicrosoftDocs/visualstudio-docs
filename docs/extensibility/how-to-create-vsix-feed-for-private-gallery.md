@@ -2,7 +2,7 @@
 title: Create vsix feed for Private Gallery
 description: Learn how to create vsix feed with VSIX Util, and use the feed in private gallery.
 ms.date: 08/19/2021
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - VSIX galleries, private
 - private galleries, VSIX

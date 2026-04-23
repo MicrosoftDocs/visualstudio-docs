@@ -9,7 +9,7 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: deployment
-monikerRange: '>= vs-2019'
+monikerRange: '>= vs-2022'
 #customer intent: As a web developer, I want to understand and control the deployment settings for my web app.
 ---
 # Manage web deployment settings

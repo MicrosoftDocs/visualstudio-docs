@@ -4,8 +4,8 @@ titleSuffix: ''
 description: Details on each of the tabs that appear in the Python Environments window in Visual Studio.
 ms.date: 03/18/2019
 ms.topic: ui-reference
-author: cwebster-99
-ms.author: cowebster
+author: Devdiv-VR
+ms.author: vedhar
 manager: mijacobs
 ms.subservice: python
 ---

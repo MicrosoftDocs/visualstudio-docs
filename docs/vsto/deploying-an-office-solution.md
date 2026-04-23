@@ -2,7 +2,7 @@
 title: "Deploy an Office solution"
 description: Deploy Office solutions with Windows Installer or by using with ClickOnce to reduce the number of required deployment steps for your solution.
 ms.date: "08/14/2019"
-ms.topic: "conceptual"
+ms.topic: install-set-up-deploy
 dev_langs:
   - "VB"
   - "CSharp"

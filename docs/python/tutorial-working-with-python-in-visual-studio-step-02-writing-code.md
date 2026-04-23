@@ -2,10 +2,10 @@
 title: "Tutorial Step 2: Write and Run Python Code"
 titleSuffix: ""
 description: Explore step 2 of a tutorial about Python capabilities in Visual Studio that demonstrates how to edit code and run a project.
-ms.date: 07/29/2025
+ms.date: 03/26/2026
 ms.topic: tutorial
-author: cwebster-99
-ms.author: cowebster
+author: Devdiv-VR
+ms.author: vedhar
 manager: mijacobs
 ms.subservice: python
 
@@ -43,7 +43,13 @@ Follow these steps to start writing Python code:
 
    As you enter the function name, Visual Studio IntelliSense displays autocompletion options for your code. The default completion option is highlighted:
 
+   :::moniker range="visualstudio"
+   :::image type="content" source="media/visualstudio/tutor-python-2-intellisense-print-completion.png" alt-text="Screenshot that shows IntelliSense autocompletion options in the editor in Visual Studio. The default completion option is highlighted." lightbox="media/visualstudio/tutor-python-2-intellisense-print-completion.png":::
+   :::moniker-end
+
+   :::moniker range="vs-2022"
    :::image type="content" source="media/tutor-python-2-intellisense-print-completion.png" alt-text="Screenshot that shows IntelliSense autocompletion options in the editor in Visual Studio. The default completion option is highlighted." lightbox="media/tutor-python-2-intellisense-print-completion.png":::
+   :::moniker-end
 
    To apply the default completion to your code, select the **Tab** keyboard shortcut.
 
@@ -53,7 +59,13 @@ Follow these steps to start writing Python code:
 
    When you enter the open parenthesis `(`, Intellisense shows full usage information for the function. The current argument is in boldface. In this example, the argument is **values: object**:
 
+   :::moniker range="visualstudio"
+   :::image type="content" source="media/visualstudio/tutor-python-2-intellisense-argument-completion.png" alt-text="Screenshot that shows IntelliSense autocompletion options for the print function in the editor in Visual Studio." lightbox="media/visualstudio/tutor-python-2-intellisense-argument-completion.png":::
+   :::moniker-end
+
+   :::moniker range="vs-2022"
    :::image type="content" source="media/tutor-python-2-intellisense-argument-completion.png" alt-text="Screenshot that shows IntelliSense autocompletion options for the print function in the editor in Visual Studio." lightbox="media/tutor-python-2-intellisense-argument-completion.png":::
+   :::moniker-end
 
 1. In the editor, complete the code statement so it matches the following example:
 
@@ -67,7 +79,13 @@ Follow these steps to start writing Python code:
 
    Notice how Visual Studio shows a red underline for code that contains syntax errors.
 
-   :::image type="content" source="media/tutor-python-2-intellisense-colors-highlights.png" alt-text="Screenshot that shows IntelliSense syntax coloring and error highlighting in the editor in Visual Studio." lightbox="media/tutor-python-2-intellisense-colors-highlights.png":::
+   :::moniker range="visualstudio"
+   :::image type="content" source="media/visualstudio/tutor-python-2-intellisense-colors-highlights.png" alt-text="Screenshot that shows IntelliSense syntax  coloring and error highlighting in the editor in Visual Studio." lightbox="media/visualstudio/tutor-python-2-intellisense-colors-highlights.png":::
+   :::moniker-end
+
+   :::moniker range="vs-2022"
+   :::image type="content" source="media/tutor-python-2-intellisense-colors-highlights.png" alt-text="Screenshot that shows IntelliSense syntax  coloring and error highlighting in the editor in Visual Studio." lightbox="media/tutor-python-2-intellisense-colors-highlights.png":::
+   :::moniker-end
 
 1. Replace the closing quote mark `"` in your code.
 
@@ -114,7 +132,13 @@ Follow these steps to explore more Intellisense completion features:
 
 1. Start to enter the `import sys` statement. When you start to enter `sys`, Visual Studio shows a list of possible modules for the `import` function:
 
+   :::moniker range="visualstudio"
+   :::image type="content" source="media/visualstudio/tutor-python-2-intellisense-import-sys-completion.png" alt-text="Screenshot that shows how IntelliSense displays the available modules for an import statement in the editor in Visual Studio." lightbox="media/visualstudio/tutor-python-2-intellisense-import-sys-completion.png":::
+   :::moniker-end
+
+   :::moniker range="vs-2022"
    :::image type="content" source="media/tutor-python-2-intellisense-import-sys-completion.png" alt-text="Screenshot that shows how IntelliSense displays the available modules for an import statement in the editor in Visual Studio." lightbox="media/tutor-python-2-intellisense-import-sys-completion.png":::
+   :::moniker-end
 
    You can scroll through the list to see the full set of available modules.
 
@@ -122,13 +146,25 @@ Follow these steps to explore more Intellisense completion features:
 
 1. Move to the next line in your code file, and start to enter the `from math` statement. Visual Studio shows the list of possible modules for the function:
 
+   :::moniker range="visualstudio"
+   :::image type="content" source="media/visualstudio/tutor-python-2-intellisense-from-math-completion.png" alt-text="Screenshot that shows how IntelliSense displays the available modules for the 'from' statement in the editor in Visual Studio." border="false" lightbox="media/visualstudio/tutor-python-2-intellisense-from-math-completion.png":::
+   :::moniker-end
+
+   :::moniker range="vs-2022"
    :::image type="content" source="media/tutor-python-2-intellisense-from-math-completion.png" alt-text="Screenshot that shows how IntelliSense displays the available modules for the 'from' statement in the editor in Visual Studio." border="false" lightbox="media/tutor-python-2-intellisense-from-math-completion.png":::
+   :::moniker-end
 
 1. Complete the `math` library name or select the `math` completion option from the Intellisense dialog.
 
 1. Continue the statement by adding a space followed by the `import` function name. Visual Studio shows the list of possible module members for this use of the `import` function:
 
+   :::moniker range="visualstudio"
+   :::image type="content" source="media/visualstudio/tutor-python-2-intellisense-import-members-completion.png" alt-text="Screenshot that shows how IntelliSense displays the available module members for the import function in the editor in Visual Studio." lightbox="media/visualstudio/tutor-python-2-intellisense-import-members-completion.png":::
+   :::moniker-end
+
+   :::moniker range="vs-2022"
    :::image type="content" source="media/tutor-python-2-intellisense-import-members-completion.png" alt-text="Screenshot that shows how IntelliSense displays the available module members for the import function in the editor in Visual Studio." lightbox="media/tutor-python-2-intellisense-import-members-completion.png":::
+   :::moniker-end
 
 1. Finish the statement by using the Intellisense completion options to add the `cos` and `radians` members.
 

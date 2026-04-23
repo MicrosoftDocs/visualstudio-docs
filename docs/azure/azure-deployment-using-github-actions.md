@@ -10,7 +10,7 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: deployment
-monikerRange: '>= vs-2019'
+monikerRange: '>= vs-2022'
 ms.custom: sfi-image-nochange
 ---
 
@@ -45,7 +45,7 @@ Visual Studio generates a new GitHub Actions workflow and asks you to commit it 
 
 ![commit and push](./media/azure-deployment-using-github-actions/summary-commit-and-push.png)
 
-If you complete this step by using the [built-in Git tooling](../version-control/git-with-visual-studio.md?view=vs-2019&preserve-view=true#git-changes-window-in-visual-studio-2019), Visual Studio will detect the execution of the workflow.
+If you complete this step by using the [built-in Git tooling](../version-control/git-with-visual-studio.md), Visual Studio will detect the execution of the workflow.
 
 ![workflow is running](./media/azure-deployment-using-github-actions/summary-workflow-running.png)
 

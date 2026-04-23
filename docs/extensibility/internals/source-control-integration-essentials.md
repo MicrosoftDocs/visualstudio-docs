@@ -2,7 +2,7 @@
 title: Source Control Integration Essentials
 description: "Learn about the two types of source control integration that Visual Studio supports: a source control plug-in and a VSPackage-based source control solution."
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - Source Control Integration, essentials
 - Source Control Integration,overview

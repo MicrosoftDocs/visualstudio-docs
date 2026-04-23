@@ -2,12 +2,12 @@
 title: Set bookmarks in Visual Studio
 description: Learn how to use bookmarks to mark lines in your code so that you can quickly return to a specific location, or jump back and forth between locations.
 titleSuffix: ''
-ms.date: 09/12/2024
+ms.date: 04/20/2026
 ms.topic: how-to
 f1_keywords:
 - VS.BookmarkWindow
-author: anandmeg
-ms.author: meghaanand
+author: ghogen
+ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
 ---
@@ -18,26 +18,46 @@ You can use bookmarks to mark lines in your code so that you can quickly return 
 Bookmark commands and icons are available in two places: 
 
 - The **Text Editor** toolbar, which is the row of buttons under the menu bar in Visual Studio.
-  
-  ::: moniker range="<=vs-2019"
 
-    :::image type="content" source="media/vs-2019/tutorial-editor-toolbar-bookmarks.png" alt-text="Screenshot of Bookmark commands and icons in the Text Editor toolbar in Visual Studio 2022.":::
+  ::: moniker range="visualstudio"
+
+  :::image type="content" source="media/visualstudio/tutorial-editor-toolbar-bookmarks.png" alt-text="Screenshot of Bookmark commands and icons in the Text Editor toolbar in Visual Studio.":::
 
   ::: moniker-end
 
-  ::: moniker range=">=vs-2022"
+  ::: moniker range="vs-2022"
 
   :::image type="content" source="media/vs-2022/tutorial-editor-toolbar-bookmarks.png" alt-text="Screenshot of Bookmark commands and icons in the Text Editor toolbar in Visual Studio 2022.":::
 
   ::: moniker-end
 
-- The **Bookmarks** toolbar in the **Bookmarks** window; to open it, select **View** > **Bookmark Window** from the menu bar, or use the **Ctrl**+**K**, **Ctrl**+**W** keyboard shortcut. 
+- The **Bookmarks** toolbar in the **Bookmarks** window; to open it, select **View** > **Bookmarks** from the menu bar, or use the **Ctrl**+**K**, **Ctrl**+**W** keyboard shortcut. 
+
+    :::moniker range="visualstudio"
+
+    :::image type="content" source="media/visualstudio/view-menu-bookmarks-window.png" alt-text="Screenshot that shows the Bookmarks window option in the View menu.":::
+
+    :::moniker-end
    
+    :::moniker range="vs-2022"
+
     :::image type="content" source="media/vs-2022/view-menu-bookmarks-window.png" alt-text="Screenshot that shows the Bookmarks window option in the View menu.":::
-  
+
+    :::moniker-end
+
   The **Bookmarks** window:
 
+   :::moniker range="visualstudio"
+      
+   :::image type="content" source="media/visualstudio/bookmarks-window.png" alt-text="Screenshot that shows the Bookmarks window and the Bookmarks toolbar.":::
+
+   :::moniker-end  
+
+   :::moniker range="vs-2022"
+      
    :::image type="content" source="media/bookmarks-window.png" alt-text="Screenshot that shows the Bookmarks window and the Bookmarks toolbar.":::
+
+   :::moniker-end   
 
   The following table includes available toolbar commands and their [keyboard shortcuts](default-keyboard-shortcuts-in-visual-studio.md), listed from left to right.
 
@@ -60,7 +80,17 @@ Here's how to add a bookmark:
 1. Select **Toggle a bookmark**.
 1. Notice that Visual Studio adds a bookmark icon next to the line you selected, and a corresponding entry to the **Bookmarks** window. 
 
-  ![Screenshot of the Bookmarks window in Visual Studio that has bookmarks added.](media/bookmarks-window-visual-studio.png)
+   :::moniker range="visualstudio"
+      
+   :::image type="content" source="media/visualstudio/bookmarks-window-visual-studio.png" alt-text="Screenshot of the Bookmarks window in Visual Studio that has bookmarks added." lightbox="media/visualstudio/bookmarks-window-visual-studio.png":::
+
+   :::moniker-end
+
+   :::moniker range="vs-2022"
+      
+   ![Screenshot of the Bookmarks window in Visual Studio that has bookmarks added.](media/bookmarks-window-visual-studio.png)
+
+   :::moniker-end
 
 If you select **Toggle a bookmark** again, the bookmark is removed.
 
@@ -71,7 +101,17 @@ Here's how to rename a bookmark:
 1. If the **Bookmarks** window isn't open, select **View** > **Bookmark Window** from the menu bar. Or, enter **Ctrl**+**K**, **Ctrl**+**K**.
 1. Right-click the bookmark to open the context menu, and then select **Rename**.
 
+   :::moniker range="visualstudio"
+
+   :::image type="content" source="media/visualstudio/bookmarks-window-rename.png" alt-text="Screenshot of the Rename function in the right-click context menu in the Bookmarks window.":::
+
+   :::moniker-end
+
+   :::moniker range="vs-2022"
+
    :::image type="content" source="media/bookmarks-window-rename.png" alt-text="Screenshot of the Rename function in the right-click context menu in the Bookmarks window.":::
+
+   :::moniker-end
 
 ## Disable or delete bookmarks
 

@@ -1,12 +1,13 @@
 ---
 title: Perf insights for high LOH fragmentation
 description: Learn how to improve performance for high large object heap (LOH) fragmentation
-ms.date: 9/15/2022
+ms.date: 12/04/2025
 ms.topic: reference
 author: mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: debug-diagnostics
+monikerRange: '>= vs-2022'
 ---
 
 # High LOH Fragmentation

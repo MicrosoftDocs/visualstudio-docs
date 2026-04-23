@@ -66,7 +66,7 @@ Follow these steps to create a class library.
 
    - Set the **Project name** to *StockAnalysis*.
    - Set the **Solution name** to *StubsTutorial*.
-   - Set the project **Target framework** to **.NET 8.0**.
+   - Set the project **Target framework** to **.NET 8.0** or later.
 
 1. Delete the default file *Class1.cs*.
 
@@ -136,7 +136,7 @@ Create the test project for the exercise.
 
 1. Set the project name to *TestProject*.
 
-1. Set the project's target framework to **.NET 8.0**.
+1. Set the project's target framework to **.NET 8.0** or later.
 
    ![Screenshot of Test project in Visual Studio.](../test/media/microsoft-fakes-stubs-create-test-project.png)
 

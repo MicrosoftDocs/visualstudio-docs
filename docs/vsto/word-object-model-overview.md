@@ -2,7 +2,7 @@
 title: "Word object model overview"
 description: Explore the Word object model that consists of classes and interfaces provided in the primary interop assembly for Word and are defined in the Word namespace.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: concept-article
 dev_langs:
   - "VB"
   - "CSharp"

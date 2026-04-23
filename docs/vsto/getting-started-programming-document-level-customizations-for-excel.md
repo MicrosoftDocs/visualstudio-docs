@@ -3,7 +3,7 @@ title: "Excel: Get started programming document-level customizations"
 description: Learn what you need to know to get started creating document-level customizations for Microsoft Office Excel by using Visual Studio.
 titleSuffix: ""
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: get-started
 dev_langs:
   - "VB"
   - "CSharp"

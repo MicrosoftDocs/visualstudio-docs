@@ -2,7 +2,7 @@
 title: "Designing a Business Data Connectivity Model"
 description: Design a business data connectivity (BDC) model. Add entities and methods. Define method parameters. Add filter descriptors. Validate the BDC model.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: concept-article
 dev_langs:
   - "VB"
   - "CSharp"

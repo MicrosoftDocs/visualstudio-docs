@@ -1,8 +1,8 @@
 ---
 title: Create UIs with Visual Studio XAML Designer
 description: Explore XAML Designer workspace UI and features in Blend for Visual Studio that provides a visual interface to help you design XAML-based apps.
-ms.date: 08/30/2024
-ms.topic: conceptual
+ms.date: 02/24/2026
+ms.topic: how-to
 f1_keywords:
 - VS.XamlDesigner
 - VS.DevicePanel
@@ -21,18 +21,24 @@ The XAML Designer in Visual Studio and Blend for Visual Studio provides a visual
 For advanced users, you can even [customize the XAML Designer](https://github.com/microsoft/xaml-designer-extensibility/blob/main/documents/xaml-designer-extensibility-migration.md).
 
 > [!NOTE]
-> WinUI 3 / .NET MAUI XAML designer is not supported in Visual Studio 2022. To view your WinUI 3 / .NET MAUI XAML UIs and edit them while the app is running, use XAML Hot Reload for WinUI 3 / .NET MAUI. For more information, see the [XAML Hot Reload](../xaml-tools/xaml-hot-reload.md) page.
+> In Visual Studio 2022 17.14 and later, you can use XAML Live Preview to view and edit your WinUI 3 / .NET MAUI XAML UIs.  For more information, see the [XAML Hot Reload](../xaml-tools/xaml-hot-reload.md) page and the announcement on the [Visual Studio blog](https://devblogs.microsoft.com/visualstudio/enhancements-to-xaml-live-preview-in-visual-studio-for-net-maui/).
 
-::: moniker range="vs-2019"
-> [!NOTE]
-> Xamarin.Forms does not support a XAML designer. To view your Xamarin.Forms XAML UIs and edit them while the app is running, use XAML Hot Reload for Xamarin.Forms. For more information, see the [XAML Hot Reload for Xamarin.Forms](/xamarin/xamarin-forms/xaml/hot-reload/) page.
-::: moniker-end
 
 ## XAML Designer workspace
 
 The workspace in XAML Designer consists of several visual interface elements. These include the *artboard* (which is the visual design surface), XAML editor, Document Outline window (Objects and Timeline window in Blend for Visual Studio), and Properties window. To open the XAML Designer, right-click a XAML file in **Solution Explorer** and choose **View Designer**.
 
-XAML Designer provides a XAML view and a synchronized Design view of your app's rendered XAML markup. With a XAML file open in Visual Studio or Blend for Visual Studio, you can switch between Design view and XAML view by using the **Design** and **XAML** tabs. You can use the **Swap Panes** button ![Swap Panes button in XAML Designer](media/swap-panes.PNG) to switch which window appears on top: either the artboard or the XAML editor.
+:::moniker range="visualstudio"
+
+XAML Designer provides a XAML view and a synchronized Design view of your app's rendered XAML markup. With a XAML file open in Visual Studio or Blend for Visual Studio, you can switch between Design view and XAML view by using the **Design** and **XAML** tabs. You can use the **Swap Panes** button ![Screenshot that shows the swap panes button in the XAML Designer.](media/visualstudio/swap-panes.png) to switch which window appears on top: either the artboard or the XAML editor.
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
+XAML Designer provides a XAML view and a synchronized Design view of your app's rendered XAML markup. With a XAML file open in Visual Studio or Blend for Visual Studio, you can switch between Design view and XAML view by using the **Design** and **XAML** tabs. You can use the **Swap Panes** button ![Swap Panes button in XAML Designer](media/swap-panes.png) to switch which window appears on top: either the artboard or the XAML editor.
+
+:::moniker-end
 
 ### Design view
 
@@ -76,7 +82,17 @@ You can modify an element by using the element handles that appear on the artboa
 
 In **Design** view, additional artboard commands are available in the lower-left area of the window, as shown here:
 
+:::moniker range="visualstudio"
+    
+![Screenshot that shows the Design view commands.](media/visualstudio/xaml-design-view-controls.png)
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+    
 ![Design view commands](media/xaml-design-view-controls.png)
+
+:::moniker-end
 
 These commands are available on this toolbar:
 
@@ -108,7 +124,18 @@ Disables [project code](debugging-or-disabling-project-code-in-xaml-designer.md)
 
 In **XAML** view, the window containing the XAML editor is the active window, and the XAML editor is your primary authoring tool. The Extensible Application Markup Language (XAML) provides a declarative, XML-based vocabulary for specifying an application's user interface. XAML view includes IntelliSense, automatic formatting, syntax highlighting, and tag navigation. The following image shows XAML view with an IntelliSense menu open:
 
+:::moniker range="visualstudio"
+
+![Screenshot that shows XAML view.](media/visualstudio/xaml-editor.png)
+
+:::moniker-end
+
+
+:::moniker range="vs-2022"
+
 ![XAML view](media/xaml-editor.png)
+
+:::moniker-end
 
 ## Document Outline window
 
@@ -125,7 +152,17 @@ The Document Outline window in Visual Studio is similar to the [Objects and Time
 To view the Document Outline window in Visual Studio, on the menu bar select **View** > **Other Windows** > **Document Outline**.
 To view the Objects and Timeline window in Blend for Visual Studio, on the menu bar select **View** > **Document Outline**.
 
+:::moniker range="visualstudio"
+
+![Screenshot that shows the Document Outline window in Visual Studio.](media/visualstudio/document-outline-window.png)
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 ![Document Outline window in Visual Studio](media/document-outline-window.png)
+
+:::moniker-end
 
 The main view in the Document Outline/Objects and Timeline window displays the hierarchy of a document in a tree structure. You can use the hierarchical nature of the document outline to examine the document at varying levels of detail and to lock and hide elements singly or in groups. The following options are available in the Document Outline/Objects and Timeline window:
 
@@ -145,7 +182,17 @@ The option at the top of the Document Outline/Objects and Timeline window, which
 
 The **Properties** window enables you to set property values on controls. Here's what it looks like:
 
+:::moniker range="visualstudio"
+
+![Screenshot that shows the Properties window.](media/visualstudio/xaml-designer-properties-window.png)
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 ![Properties window](media/xaml-designer-properties-window.png)
+
+:::moniker-end
 
 There are various options at the top of the **Properties** window:
 

@@ -3,7 +3,7 @@ title: "Deploy, publish, & upgrade SharePoint solution packages"
 description: Deploy, publish, and upgrade SharePoint solution packages. Customize the deployment process. Publish packages to a remote or local server.
 titleSuffix: ""
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: upgrade-and-migration-article
 f1_keywords:
   - "VS.SharePointTools.Project.SharePointProjectPropertyTab"
   - "VS.SharePointTools.Project.Publishing"

@@ -46,15 +46,7 @@ Add Microsoft identity platform as a connected service to your application by fo
    - In **Solution Explorer**, right-click the **Connected Services** node for the project, and select **Add** > **Microsoft identity platform**.
 
    :::moniker-end
-   :::moniker range="<=vs-2019"
 
-   - Select **Project** > **Manage Connected Services** > **Add a service dependency** > **Microsoft identity platform**.
-   
-   - In **Solution Explorer**, right-click the **Connected Services** node for the project, and select **Manage Connected Services > Add a service dependency** > **Microsoft identity platform**.
-
-      :::image type="content" source="./media/vs-azure-active-directory/vs-2019/add-dependency-microsoft-identity-platform.png" border="false" alt-text="Screenshot showing the Microsoft identity platform option in Visual Studio.":::
-
-   :::moniker-end
 
    If your installation is missing the .NET MSIdentity tool, the **Required components** window opens with a message to complete the install:
 

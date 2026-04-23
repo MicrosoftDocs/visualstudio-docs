@@ -2,14 +2,14 @@
 title: Visual Studio administrator guide
 titleSuffix: ''
 description: Explore deployment options for Visual Studio in an enterprise environment, including acquiring the software and methods for deploying and updating the installation.
-ms.date: 02/05/2025
+ms.date: 11/03/2025
 ms.topic: overview
 helpviewer_keywords:
 - network installation, Visual Studio
 - administrator guide, Visual Studio
 - installing Visual Studio, administrator guide
-author: anandmeg
-ms.author: meghaanand
+author: RoseHJM
+ms.author: rosemalcolm
 manager: mijacobs
 
 ms.subservice: installation
@@ -22,27 +22,29 @@ In enterprise environments, system administrators typically deploy and update so
 
 Make a plan for how you deploy Visual Studio across your organization. It's best if your plan and decisions are made before the original installation happens on the client machine. The following guidelines describe key things to consider.
 
+::: moniker range="=visualstudio"
+
+- Make sure that each target computer meets the [minimum installation requirements](/visualstudio/releases/2026/vs-system-requirements). Visual Studio doesn't support application virtualization solutions such as Microsoft App-V or MSIX for Windows or non-Microsoft app virtualization technologies.
+
+::: moniker-end
+
 ::: moniker range="=vs-2022"
 
 - Make sure that each target computer meets the [minimum installation requirements](/visualstudio/releases/2022/system-requirements). Visual Studio doesn't support application virtualization solutions such as Microsoft App-V or MSIX for Windows or non-Microsoft app virtualization technologies.
 
 ::: moniker-end
 
-::: moniker range="=vs-2019"
-
-- Make sure that each target computer meets the [minimum installation requirements](/visualstudio/releases/2019/system-requirements). Visual Studio doesn't support application virtualization solutions such as Microsoft App-V or MSIX for Windows or non-Microsoft app virtualization technologies.
-
-::: moniker-end
 
 - Clarify your security and compatibility needs. Microsoft recommends that your organization always uses the latest and most secure software.
 
-::: moniker range="=vs-2019"
 
-- Make sure you understand the support options for Enterprise and Professional customers. For more information, see [Visual Studio product lifecycle and servicing](/visualstudio/releases/2019/servicing-vs2019#support-options-for-enterprise-and-professional-customers).  
-  
+::: moniker range=">=visualstudio"
+<!-- tbd No new servicing article yet. -->
+<!-- tbd Search Admin guide for DEV18 links to articles under the VS 2022 TOC node, since these would need to update to corresponding NEW 2026 articles. -->
+- If your company needs to stay on a feature set longer but still wants to get regular servicing security updates, you should plan to use a long-term servicing channel (LTSC). For more information, see the **Support options for Enterprise and Professional customers** section of the [Visual Studio product lifecycle and servicing](/visualstudio/releases/2026/servicing-vs#enterprise-professional-and-build-tools-editions-support) page.  
 ::: moniker-end
 
-::: moniker range=">=vs-2022"
+::: moniker range="vs-2022"
 
 - If your company needs to stay on a feature set longer but still wants to get regular servicing security updates, you should plan to use a long-term servicing channel (LTSC). For more information, see the **Support options for Enterprise and Professional customers** section of the [Visual Studio product lifecycle and servicing](/visualstudio/releases/2022/servicing-vs2022#enterprise-professional-and-build-tools-editions-support) page.  
 

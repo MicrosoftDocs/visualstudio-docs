@@ -2,7 +2,7 @@
 title: "Creating Application Pages for SharePoint"
 description: Create application pages for SharePoint, and work with ASP.NET web pages that are designed for use in a SharePoint website.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: concept-article
 dev_langs:
   - "VB"
   - "CSharp"

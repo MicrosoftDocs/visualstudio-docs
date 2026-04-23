@@ -1,15 +1,15 @@
 ---
 title: Install and use behind a firewall or proxy server
 description: Review the domain URLs, ports, and protocols that you might want to add to an allowlist or open if your organization uses a firewall or a proxy server.
-ms.date: 12/06/2024
-ms.topic: conceptual
+ms.date: 11/04/2025
+ms.topic: install-set-up-deploy
 helpviewer_keywords:
 - network installation, Visual Studio
 - administrator guide, Visual Studio
 - installing Visual Studio, administrator guide
 - list of domains, locations, URLs
-author: anandmeg
-ms.author: meghaanand
+author: RoseHJM
+ms.author: rosemalcolm
 manager: mijacobs
 ms.subservice: installation
 #customer intent: As a developer using Visual Studio behind my organization's firewall or proxy server, I want to know which domains to add to my allowlist.
@@ -154,6 +154,8 @@ Here are a few more support options:
 
 ## Related content
 
+* [Configure proxy settings in Visual Studio](../ide/reference/proxy-settings.md)
+* [Troubleshoot proxy and firewall issues in Visual Studio](../ide/reference/proxy-firewall-troubleshoot.md)
 * [Connectivity requirements for Live Share](/visualstudio/liveshare/reference/connectivity/)
 * [Create and maintain a network installation of Visual Studio](create-a-network-installation-of-visual-studio.md)
 * [Troubleshoot network-related errors in Visual Studio](/troubleshoot/developer/visualstudio/installation/troubleshoot-network-related-errors)

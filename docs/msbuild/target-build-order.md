@@ -27,7 +27,7 @@ In general, you shouldn't depend on the declaration order to specify what tasks 
 
 A target is never run twice during a build, even if a subsequent target in the build depends on it. Once a target has been run, its contribution to the build is complete.
 
-Targets can have a `Condition` attribute. If the specified condition evaluates to `false`, the target isn't executed and has no effect on the build. For more information about conditions, see [Conditions](../msbuild/msbuild-conditions.md).
+Targets can have a `Condition` attribute. If the specified condition evaluates to `false`, the target isn't executed and is considered skipped. See [Determine the target build order](#determine-the-target-build-order) for details on how skipped targets behave. For more information about conditions, see [Conditions](../msbuild/msbuild-conditions.md).
 
 ## Initial targets
 
@@ -127,9 +127,12 @@ MSBuild determines the target build order as follows:
 
 2. Targets specified on the command line by the **-target** switch are run. If you specify no targets on the command line, then the `DefaultTargets` targets are run. If neither is present, then the first target encountered is run.
 
-3. The `Condition` attribute of the target is evaluated. If the `Condition` attribute is present and evaluates to `false`, the target isn't executed and has no further effect on the build.
+3. The `Condition` attribute of the target is evaluated. If the `Condition` attribute is present and evaluates to `false`, the target isn't executed and is considered skipped.
 
    Other targets that list the conditional target in `BeforeTargets` or `AfterTargets` still execute in the prescribed order, regardless of the result of the condition.
+
+    > [!NOTE]
+    > A skipped target is not considered run. If another target later requests it through `DependsOnTargets` and the condition now evaluates to `true`, the target will execute at that point. However, `BeforeTargets` and `AfterTargets` that already ran for the originally skipped target will not run again.
 
 4. Before the target is executed or skipped, its `DependsOnTargets` targets are run, unless the `Condition` attribute is applied to the target and evaluates to `false`.
 

@@ -2,7 +2,7 @@
 title: "Add controls to document at run time in VSTO Add-in"
 description: Learn how to use the ribbon to enable users to add a Button class or a RichTextContentControl interface to a document.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"

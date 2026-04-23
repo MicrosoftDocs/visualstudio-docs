@@ -2,9 +2,9 @@
 title: Synchronize settings across multiple computers
 description: Learn how to synchronize your Visual Studio settings across multiple computers by signing in to the same personalization account.
 ms.date: 05/20/2022
-ms.topic: conceptual
-author: anandmeg
-ms.author: meghaanand
+ms.topic: how-to
+author: ghogen
+ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
 ---
@@ -59,24 +59,14 @@ If you have multiple installations of Visual Studio, the following table describ
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
-
-Synchronized settings for Visual Studio are turned on by default. You can turn off synchronized settings on a computer by going to the **Tools** > **Options** > **Environment** > **Accounts** page and unselecting the **Synchronize Visual Studio settings across devices** option.
-
-::: moniker-end
-
-::: moniker range="<=vs-2019"
-
-As an example, if you decide not to synchronize the settings in Visual Studio on computer "A", any setting changes made on computer "A" do not appear on computer "B" or computer "C". Computers "B" and "C" will continue to synchronize with each other, but not with computer "A".
-
-> [!NOTE]
-> If you choose not to synchronize settings by deselecting the option on the **Tools** > **Options** > **Environment** > **Accounts** page, other versions or editions of Visual Studio that you have on the same computer aren't affected. Those side-by-side installations of Visual Studio will continue to synchronize their settings (unless you uncheck the option there, too).
-
-::: moniker-end
 
 ## Synchronize settings across Visual Studio IDE products and editions
 
 Settings are synchronized across versions and editions of Visual Studio installed *side-by-side*. Settings are also synchronized across Visual Studio IDE products, including Blend for Visual Studio. However, an individual Visual Studio IDE product might have its own settings that aren't shared with Visual Studio. For example, settings specific to Blend for Visual Studio on computer "A" are not shared with Visual Studio on computers "A" or "B".
+
+:::moniker range="visualstudio"
+When you first sign in to Visual Studio 2026, settings from your Visual Studio 2022 profile synchronize to your Visual Studio 2026 profile, and to other Visual Studio 2026 sessions where you sign in with the same profile, but those settings do not synchronize back to Visual Studio 2022.
+:::moniker-end
 
 ## Side-by-side synchronized settings
 
@@ -90,5 +80,5 @@ To reset all settings to their defaults, sign in to Visual Studio, and then sele
 
 - [Personalize the IDE](../ide/personalizing-the-visual-studio-ide.md)
 - [Environment settings](../ide/personalizing-the-visual-studio-ide.md)
-- [Environment > Accounts Options dialog box](reference/accounts-environment-options-dialog-box.md)
+- [Environment > Accounts Options dialog box](accounts-environment-options-dialog-box.md)
 - [Install Visual Studio versions side-by-side](../install/install-visual-studio-versions-side-by-side.md)

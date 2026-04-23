@@ -1,7 +1,7 @@
 ---
 title: "Publish to IIS by importing publish settings"
 description: Create and import a publishing profile (.pubxml file) to deploy ASP.NET and ASP.NET Core web applications from Visual Studio to IIS.
-ms.date: 12/3/2024
+ms.date: 10/3/2025
 ms.topic: tutorial
 helpviewer_keywords:
   - "deployment, publish settings"
@@ -26,7 +26,7 @@ These steps apply to ASP.NET and ASP.NET Core web applications.
   * Install the latest updates in Visual Studio by selecting **Help** > **Check for Updates**.
   * Add the workload by selecting **Tools** > **Get Tools and Features**.
 
-* On your server, you must be running Windows Server 2012 or greater, and you must have the [IIS Web Server role](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45#solution) correctly installed (required to generate the publish settings file (`.publishsettings`). Either ASP.NET 4.5 or ASP.NET Core must also be installed on the server. The steps in this tutorial were tested in Windows Server 2022.
+* On your server, you must be running Windows Server 2012 or greater, and you must have the [IIS Web Server role](/iis/get-started/whats-new-in-iis-8/iis-80-using-aspnet-35-and-aspnet-45#solution) correctly installed (required to generate the publish settings file (`.publishsettings`). ASP.NET 4.5 or the correct version of ASP.NET Core must also be installed on the server. The steps in this tutorial were tested in Windows Server 2022 and IIS 10.
 
   * To set up ASP.NET Core, see [Host ASP.NET Core on Windows with IIS](/aspnet/core/publishing/iis?tabs=aspnetcore2x#iis-configuration). For ASP.NET Core, make sure you configure the Application Pool to use **No Managed Code**, as described in the article.
 
@@ -55,7 +55,11 @@ First, check the Output window in Visual Studio for status information, and chec
 
 - If you can't connect to the host using the host name, try the IP address instead.
 - Make sure the required ports are open on the remote server.
-- For ASP.NET Core, in IIS you need to make sure that the Application pool field for the **DefaultAppPool** is set to **No Managed Code**.
+- For ASP.NET Core, in IIS you need to make sure that the Application pool field (.NET CLR Version on IIS 10) for the **DefaultAppPool** is set to **No Managed Code**.
 - Verify that the version of ASP.NET used in your app is the same as the version you installed on the server. For your app, you can view and set the version in the **Properties** page. To set the app to a different version, that version must be installed.
 - If the app tried to open, but you see a certificate warning, choose to trust the site. If you already closed the warning, you can edit the *.pubxml file in your project and add the following element: `<AllowUntrustedCertificate>true</AllowUntrustedCertificate>`. This setting is for testing only!
 - If the app does not start from Visual Studio, start the app in IIS to test that it deployed correctly.
+
+## Related content
+
+[Host ASP.NET Core on Windows with IIS](/aspnet/core/host-and-deploy/iis)

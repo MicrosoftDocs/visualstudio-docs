@@ -2,7 +2,7 @@
 title: "Use local database files in Office solutions overview"
 description: Learn how you can include a database file, such as a SQL Server Express (.mdf) file or a Microsoft Office Access (.mdb) file, in your Office solution.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: concept-article
 dev_langs:
   - "VB"
   - "CSharp"

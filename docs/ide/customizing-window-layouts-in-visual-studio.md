@@ -1,7 +1,7 @@
 ---
 title: Customize and Save Layouts of Windows and Tabs
 description: Learn how to customize tabs and windows in Visual Studio to create layouts that work best for your development workflows.
-ms.date: 08/08/2025
+ms.date: 03/19/2026
 ms.topic: how-to
 f1_keywords:
 - vs.windows
@@ -19,8 +19,8 @@ helpviewer_keywords:
 - Tabbed Document mode
 - debug mode
 - custom layouts
-author: anandmeg
-ms.author: meghaanand
+author: ghogen
+ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
 
@@ -90,19 +90,26 @@ The following screenshot shows the guide diamond for document windows, which can
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
-
-:::image type="content" source="media/vs-2019/document-window-guide-diamond.png" alt-text="Screenshot of the document window guide diamond.":::
-
-::: moniker-end
 
 You can fasten tool windows to one side of a frame in the IDE or within the editing frame. To help you easily redock the window, a guide diamond appears when you drag the window to another location.
 
 :::image type="content" source="media/tool-window-guide-diamond-sml.png" alt-text="Screenshot of the Tool window guide diamond.":::
 
+:::moniker range="visualstudio"
+    
+The following screenshot shows Solution Explorer being docked in a new location that's demarcated by a green shaded area:
+
+:::image type="content" source="media/visualstudio/docked-diamond-solution-explorer-example-sml.png" alt-text="Screenshot of what appears in the IDE when you want to dock Solution Explorer in a new position.":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+    
 The following screenshot shows Solution Explorer being docked in a new location that's demarcated by a purple shaded area:
 
 :::image type="content" source="media/docked-diamond-solution-explorer-example-sml.png" alt-text="Screenshot of what appears in the IDE when you want to dock Solution Explorer in a new position.":::
+
+:::moniker-end
 
 ### Close and autohide tool windows
 
@@ -110,10 +117,30 @@ You can close a tool window by selecting the **Close** button in the upper-right
 
 If you right-click the title bar of a tool window and then select **Auto Hide**, the window will slide out of the way when you use a different window. When a window is automatically hidden, its name appears on a tab at the edge of the IDE. To use the window again, select the tab so that the window slides back into view.
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/auto-hide-lrg.png" alt-text="Set of two screenshots that show the Auto Hide menu item and the associated set of tabbed tool windows that appear when Auto Hide is selected." lightbox="media/visualstudio/auto-hide-lrg.png":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 :::image type="content" source="media/auto-hide-sml.png" alt-text="Set of two screenshots that show the Auto Hide menu item and the associated set of tabbed tool windows that appear when Auto Hide is selected." lightbox="media/auto-hide-lrg.png":::
 
+:::moniker-end
+
+:::moniker range="visualstudio"
+
 > [!TIP]
-> To specify whether auto hide operates on tool windows individually or as docked groups, select or clear **Auto Hide button affects active tool window only** in the **Tools** > **Options** dialog. For more information, see [Options dialog box: Environment > General](reference/general-environment-options-dialog-box.md).
+> To specify whether auto hide operates on tool windows individually or as docked groups, select or clear the **Auto Hide button affects active tool window only** option in the **Tools** > **Options** pane, under the **All Settings** > **Environment** > **General** section. For more information, see [Tools > Options: Environment > General](reference/general-environment-options-dialog-box.md).
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+> [!TIP]
+> To specify whether auto hide operates on tool windows individually or as docked groups, select or clear the **Auto Hide button affects active tool window only** option in the **Tools** > **Options** dialog, under the **Environment** > **General** section. For more information, see [Options dialog box: Environment > General](reference/general-environment-options-dialog-box.md).
+
+:::moniker-end
 
 > [!NOTE]
 > When auto hide is enabled on a tool window, the window might temporarily slide into view when it has focus. To hide the window again, select an item outside of the current window. When the window loses focus, it slides back out of view.
@@ -175,7 +202,17 @@ Next, add a new SQL Server database project to the solution:
 
 To switch between layouts, use the keyboard shortcuts from the reserved list of **Ctrl**+**Alt**+**1...0** shortcuts. Or, in the main menu, select **Window** > **Apply Window Layout**.
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/apply-window-layout-sml.png" alt-text="Screenshot of the Apply Window Layout menu.":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 :::image type="content" source="media/apply-window-layout-sml.png" alt-text="Screenshot of the Apply Window Layout menu.":::
+
+:::moniker-end
 
 If you have a multi-monitor setup at work and a single monitor laptop at home, you can create layouts that are optimized for each machine.
 
@@ -186,7 +223,17 @@ If you have a multi-monitor setup at work and a single monitor laptop at home, y
 
 You can remove, rename, or reorder your custom layout by selecting **Window** > **Manage Window Layouts**. If you move a layout, the key binding is automatically adjusted to reflect the new position in the list. The key bindings themselves can't be modified, but you can store as many as 10 layouts at a time.
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/manage-window-layouts-sml.png" alt-text="Screenshot of the Manage Window Layouts dialog.":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 :::image type="content" source="media/manage-window-layouts-sml.png" alt-text="Screenshot of the Manage Window Layouts dialog.":::
+
+:::moniker-end
 
 To remind yourself which keyboard shortcut is assigned to which layout, select **Window** > **Apply Window Layout**.
 
@@ -215,37 +262,39 @@ You can manage your document tabs in a vertical list on either the left or right
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
-
-[New in Visual Studio 2019 version 16.4 and later](/visualstudio/releases/2019/release-notes-v16.4/). These versions support one of the top feature requests: [vertical document tabs](https://developercommunity.visualstudio.com/idea/467369/vertical-group-tab.html). You can manage your document tabs in a vertical list on either the left or right side of the editor.
-
-:::image type="content" source="./media/vs-2019/vertical-tabs.gif" alt-text="Animation that shows vertical document tabs.":::
-
-::: moniker-end
 
 You can apply vertical document tabs in the following ways:
 
-- Select **Tools** > **Options** > **Environment** > **Tabs and Windows**. Then, in the **Set tab layout** list, select **Top**, **Left**, or **Right**.
+::: moniker range="visualstudio"
 
-::: moniker range="vs-2019"
+- Open the **Tools** > **Options** pane and expand the **All Settings** > **Environment** > **Tabs** > **Document Tabs** section. In the **Tab layout** list, select **Top**, **Left**, or **Right**.
 
-- Right-click a tab, select **Set Tab Layout**, and then select either **Left** or **Right**. (To return the tabs to their default position, select **Top**.)
+- Right-click a tab, select **Set Tab Layout**, and then select **Place Tabs on the Left**, **Place Tabs on the Top**, or **Place Tabs on the Right**. (To return the tabs to their default position, select **Place Tabs on the Top**.)
 
 ::: moniker-end
+::: moniker range="vs-2022"
 
-::: moniker range=">=vs-2022"
+- Open the **Tools** > **Options** dialog and expand the **Environment** > **Tabs and Windows** section. In the **Set tab layout** list, select **Top**, **Left**, or **Right**.
 
 - Right-click a tab, select **Set Tab Layout**, and then select **Place Tabs on the Left**, **Place Tabs on the Top**, or **Place Tabs on the Right**. (To return the tabs to their default position, select **Place Tabs on the Top**.)
 
 ::: moniker-end
 
-::: moniker range=">=vs-2022"
 
 ### Color-code document tabs
 
 In Visual Studio 2022 and later, you can color-code file tabs by project so that you don't need to hunt for your open files.
 
-To color-code tabs, go to **Tools** > **Options** > **Environment** > **Tabs and Windows**. Then select the **Colorize document tabs by** checkbox and select either **Project**, **File extension**, or **Regular Expression** in the dropdown list.
+::: moniker range="visualstudio"
+
+To color-code tabs, open the **Tools** > **Options** pane and expand the **All Settings** > **Environment** > **Tabs** > **Document Tabs** section. For the **Tab colorization method** option, select **Project**, **File extension**, **Regular Expression**, or **None**.
+
+::: moniker-end
+::: moniker range="vs-2022"
+
+To color-code tabs, open the **Tools** > **Options** dialog and expand the **Environment** > **Tabs and Windows** section. Select the **Colorize document tabs by** checkbox, and set the dropdown selector to **Project**, **File extension**, or **Regular Expression**.
+
+::: moniker-end
 
 #### Colorize tabs in different views
 
@@ -253,11 +302,25 @@ You can colorize tabs in both vertical and horizontal views in the editor.
 
 The following screenshot shows an example of colorized tabs in the vertical view:
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/color-tabs-vertical.png" alt-text="Screenshot of colorized tabs in the vertical view.":::
+
+The following screenshot shows an example of colorized tabs in the horizontal view:
+
+:::image type="content" source="media/visualstudio/color-tabs-horizontal.png" alt-text="Screenshot of colorized tabs in the horizontal view.":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 :::image type="content" source="media/vs-2022/color-tabs-vertical.png" alt-text="Screenshot of colorized tabs in the vertical view.":::
 
 The following screenshot shows an example of colorized tabs in the horizontal view:
 
 :::image type="content" source="media/vs-2022/color-tabs-horizontal.png" alt-text="Screenshot of colorized tabs in the horizontal view.":::
+
+:::moniker-end
 
 #### Select your own colors
 
@@ -265,47 +328,134 @@ You can also select your own tab colors. To do so, right-click a tab, select **S
 
 The following screenshot shows how to personalize the color scheme of tabs:
 
+:::moniker range="visualstudio"
+    
+:::image type="content" source="media/visualstudio/color-tabs-personalize-schemes.png" alt-text="Screenshot of the Set Tab Color option that you can use to personalize the colors of tabs.":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+    
 :::image type="content" source="media/vs-2022/color-tabs-personalize-schemes.png" alt-text="Screenshot of the Set Tab Color option that you can use to personalize the colors of tabs.":::
+
+:::moniker-end
 
 ### Multiple rows of tabs
 
 You can wrap tabs into multiple rows. This enables you to have more horizontal tabs open at once. Pinned tabs show up in a separate row from unpinned tabs.
 
+:::moniker range="visualstudio"
+    
+:::image type="content" source="media/visualstudio/tabs-multiple-rows-sml.png" alt-text="Screenshot of tabs arranged in multiple rows.":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+    
 :::image type="content" source="media/vs-2022/tabs-multiple-rows-sml.png" alt-text="Screenshot of tabs arranged in multiple rows.":::
 
-To change this behavior, go to **Tools** > **Options** > **Environment** > **Tabs and Windows** > **Show tabs in multiple rows**.
+:::moniker-end
+
+::: moniker range="visualstudio"
+
+Open the **Tools** > **Options** pane and expand the **All Settings** > **Environment** > **Tabs** > **Document Tabs** section. Under **Tab sorting**, select the **Show tabs in multiple rows** checkbox.
+
+::: moniker-end
+::: moniker range="vs-2022"
+
+Open the **Tools** > **Options** dialog and expand the **Environment** > **Tabs and Windows** section. Select the **Show tabs in multiple rows** checkbox.
+
+::: moniker-end
 
 ### Other tab options
 
 You can apply bold formatting to your current active tab, change your tab width, and add an extra close button at the top of a document.
 
-To change these options, go to **Tools** > **Options** > **Environment** > **Tabs and Windows**.
+::: moniker range="visualstudio"
 
-:::image type="content" source="media/vs-2022/custom-tab-organization-sml.png" alt-text="Screenshot options for tabs in Visual Studio.":::
+To change these options, go to the **Tools** > **Options** pane, and explore the **All Settings** > **Environment** > **Tabs** > **Document Tabs** section.
+
+:::image type="content" source="media/visualstudio/custom-tab-organization.png" alt-text="Screenshot that shows other tab options in Visual Studio.":::
+
+::: moniker-end
+::: moniker range="vs-2022"
+
+To change these options, go to the **Tools** > **Options** dialog, and explore the **Environment** > **Tabs and Windows** section.
+
+:::image type="content" source="media/vs-2022/custom-tab-organization-sml.png" alt-text="Screenshot of options for tabs in Visual Studio.":::
+
+::: moniker-end
 
 ### Unsaved changes indicator
 
 You can change the indicator for documents that have unsaved changes to a larger, more visible dot.
 
+:::moniker range="visualstudio"
+    
+:::image type="content" source="media/visualstudio/tabs-modify-asterisk.png" alt-text="Screenshot of large dot that indicates unsaved changes.":::
+
+:::moniker-end
+
+
+:::moniker range="vs-2022"
+    
 :::image type="content" source="media/vs-2022/tabs-modify-asterisk.png" alt-text="Screenshot of large dot that indicates unsaved changes.":::
 
-To change this setting, select your preference in **Tools** > **Options** > **Environment** > **Tabs and Windows** > **Dirty Indicator**.
+:::moniker-end
+
+::: moniker range="visualstudio"
+
+To change this setting, go to the **Tools** > **Options** pane, and expand the **All Settings** > **Environment** > **Tabs** > **Document Tabs** section. Select your preference in the **Dirty Indicator** option.
+
+::: moniker-end
+::: moniker range="vs-2022"
+
+To change this setting, go to the **Tools** > **Options** dialog, and expand the **Environment** > **Tabs and Windows** section. Select your preference in the **Dirty Indicator** option.
+
+::: moniker-end
 
 ### Show names in italics
 
 You can show the names of documents that aren't visible in italics.
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/tabs-italics-invisible.png" alt-text="Screenshot of invisible tabs listed in italics.":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 :::image type="content" source="media/vs-2022/tabs-italics-invisible.png" alt-text="Screenshot of invisible tabs listed in italics.":::
 
-To enable this option, go to **Tools** > **Options** > **Environment** > **Tabs and Windows** and select **Show invisible tabs in italic in tab dropdown menu**.
+:::moniker-end
+
+::: moniker range="visualstudio"
+
+To enable this option, go to the **Tools** > **Options** pane, and expand the **All Settings** > **Environment** > **Tabs** > **Document Tabs** section. Under **Tab sorting**, select the **Show invisible tabs in italic in tab dropdown menu** checkbox.
+
+::: moniker-end
+::: moniker range="vs-2022"
+
+To change this setting, go to the **Tools** > **Options** dialog, and expand the **Environment** > **Tabs and Windows** section. Select the **Show invisible tabs in italic in tab dropdown menu** checkbox.
+
+::: moniker-end
 
 ### Restore closed tabs
 
 You can reopen the last tab you closed by right-clicking a tab and selecting **Restore Closed Tab**, by using the **Ctrl**+**K**, **Ctrl**+**Z** keyboard shortcut, or by selecting **Window** > **Restore Closed Tab**.
 
+:::moniker range="visualstudio"
+    
+:::image type="content" source="media/visualstudio/tabs-restore-recent-documents.png" alt-text="Screenshot of the Restore Closed Tab menu item.":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+    
 :::image type="content" source="media/vs-2022/tabs-restore-recent-documents.png" alt-text="Screenshot of the Restore Closed Tab menu item.":::
 
-::: moniker-end
+:::moniker-end
 
 ## Related content
 

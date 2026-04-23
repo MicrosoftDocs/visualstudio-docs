@@ -1,7 +1,7 @@
 ---
 title: Connect to Access database in .NET Framework apps
 description: Connect to data stored in an Access database (.mdb file or .accdb file) from .NET Framework applications with ADO.NET in Visual Studio.
-ms.date: 03/12/2025
+ms.date: 03/6/2026
 ms.topic: how-to
 helpviewer_keywords:
 - data [Visual Studio], connecting
@@ -37,8 +37,6 @@ To use these procedures, you need:
 - A Windows Forms or Windows Presentation Foundation (WPF) project
 - Either an Access database (`.accdb` file), or an Access 2000-2003 database (`.mdb` file). Follow the procedure that corresponds to your file type.
 
-:::moniker range=">=vs-2022"
-
 ## Create a dataset for an .accdb file
 
 Connect to databases created with Microsoft 365, Access 2016, Access 2013, Access 2010, or Access 2007 by using the following procedure.
@@ -47,7 +45,13 @@ Connect to databases created with Microsoft 365, Access 2016, Access 2013, Acces
 
 2. To open the **Data Sources** window, press **Ctrl**+**Q**, enter "data" in the search box, and choose **Data Sources** window. Or on the **View** menu, select **Other Windows** > **Data Sources**. Or on the keyboard, press **Shift**+**Alt**+**D**.
 
+   :::moniker range="visualstudio"
+   ![Screenshot of Data Sources in the search box.](../data-tools/media/visualstudio/view-data-sources.png)
+   :::moniker-end
+
+   :::moniker range="vs-2022"
    ![Screenshot of Data Sources in search box](../data-tools/media/vs-2022/view-data-sources.png)
+   :::moniker-end
 
 3. In the **Data Sources** window, click **Add New Data Source**.
 
@@ -92,78 +96,30 @@ Connect to databases created with Microsoft 365, Access 2016, Access 2013, Acces
 
 12. Expand the **Tables** node on the **Choose your Database Objects** page.
 
+    :::moniker range="visualstudio"
+    ![Screenshot of the Choose Your Database Objects page.](media/visualstudio/choose-your-database-objects.png)
+    :::moniker-end
+
+    :::moniker range="vs-2022"
     ![Screenshot of Choose your Database Objects page](media/vs-2022/choose-your-database-objects.png)
+    :::moniker-end
 
 13. Select the tables or views you want to include in your dataset, and then select **Finish**.
 
     The dataset is added to your project, and the tables and views appear in the **Data Sources** window.
 
+
+    :::moniker range="visualstudio"
+    ![Screenshot of the Data Sources Window, populated with database objects.](media/visualstudio/data-sources-window-populated.png)
+    :::moniker-end
+
+    :::moniker range="vs-2022"
     ![Screenshot of Data Sources Window, populated with database objects](media/vs-2022/data-sources-window-populated.png)
+    :::moniker-end
 
 14. On 64-bit machines with the 64-bit Access database engine, you need to ensure that the application runs as a 64-bit application. Open the project properties (press **Alt**+**Enter** or right-click on the project node, and select **Properties**). In the **Build** tab for C#, or the **Compile** tab for Visual Basic, clear the **Prefer 32-bit** checkbox.
 
 The connection string is stored in *app.config*, and in the *Settings.settings* file under **Properties** in Solution Explorer.
-
-:::moniker-end
-
-:::moniker range="vs-2019"
-
-## Create a dataset for an .accdb file
-
-Connect to databases created with Microsoft 365, Access 2016, Access 2013, Access 2010, or Access 2007 by using the following procedure.
-
-1. Open a Windows Forms or WPF application project in Visual Studio.
-
-2. To open the **Data Sources** window, press **Ctrl**+**Q**, enter "data" in the search box, and choose **Data Sources** window. Or on the **View** menu, select **Other Windows** > **Data Sources**. Or on the keyboard, press **Shift**+**Alt**+**D**.
-
-   ![View Other Windows Data Sources](../data-tools/media/viewdatasources.png)
-
-3. In the **Data Sources** window, click **Add New Data Source**.
-
-   The **Data Source Configuration Wizard** opens.
-
-4. Select **Database** on the **Choose a Data Source Type** page, and then select **Next**.
-
-5. Select **Dataset** on the **Choose a Database Model** page, and then select **Next**.
-
-   ![Screenshot of Choose a Database Model page](media/vs-2022/data-source-configuration-wizard-2.png)
-
-6. On the **Choose your Data Connection** page, select **New Connection** to configure a new data connection.
-
-   ![Screenshot of Choose your Data Connection page](media/vs-2022/data-source-configuration-wizard-3.png)
-
-   The **Add Connection** dialog box opens.
-
-   ![Screenshot of Add Connection dialog box](media/vs-2022/add-connection.png)
-
-7. If **Data source** is not set to **Microsoft Access Database File**, select the **Change** button.
-
-   The **Change Data Source** dialog box opens. In the list of data sources, choose **Microsoft Access Database File**. The option **.NET Framework Data Provider for OLE DB** is already preselected. Choose **OK**.
-
-   ![Screenshot of Choose Data Source dialog box](media/vs-2022/choose-data-source.png)
-
-8. Choose **Browse** next to **Database file name**, and then navigate to your `.accdb` file and choose **Open**.
-
-   > [!NOTE]
-   > If the bitness (32-bit or 64-bit) of Microsoft Office and Visual Studio do not match, you see an error while connecting to an Access database. In Visual Studio 2019, you get an error that the database provider is not registered. In Visual Studio 2022, you see an error that you can't connect to a 32-bit data provider. To resolve this error, make sure that if you're using a 32-bit version of Office, you're using Visual Studio 2019 or earlier; for a 64-bit version of Office, you need Visual Studio 2022 or later.
-
-9. Enter a user name and password (if necessary), and then choose **OK**.
-
-10. Select **Next** on the **Choose your Data Connection** page.
-
-    You might get a dialog box telling you the data file is not in your current project. Select **Yes** or **No**.
-
-11. Select **Next** on the **Save connection string to the Application Configuration file** page.
-
-    ![Screenshot of page](media/vs-2022/data-source-configuration-wizard-4.png)
-
-12. Expand the **Tables** node on the **Choose your Database Objects** page.
-
-13. Select the tables or views you want to include in your dataset, and then select **Finish**.
-
-    The dataset is added to your project, and the tables and views appear in the **Data Sources** window.
-
-:::moniker-end
 
 ## Create a dataset for an .mdb file
 

@@ -9,7 +9,7 @@ metadata:
   author: joseb-rdc
   ms.author: amast
   manager: shve
-  ms.date: 01/25/2024
+  ms.date: 02/09/2026
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
 
@@ -79,14 +79,8 @@ landingContent:
             url: ~/vs-vsts.md
           - text: Microsoft 365 Developer Subscription
             url: ~/vs-office-dev.md
-          - text: Windows Developer Account
-            url: ~/vs-windows-dev.md
-          - text: LinkedIn Premium
-            url: ~/vs-linkedin-learning.md
           - text: Pluralsight
             url: ~/vs-pluralsight.md
-          - text: Data Camp
-            url: ~/vs-datacamp.md
           - text: Microsoft Professional Technical Support incidents
             url: ~/vs-tech-support.md
           - text: Azure Community

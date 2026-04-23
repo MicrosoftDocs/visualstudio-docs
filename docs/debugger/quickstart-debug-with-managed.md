@@ -1,7 +1,7 @@
 ---
 title: "Debug managed code"
 description: "Debug C# or Visual Basic using the Visual Studio debugger"
-ms.date: 10/23/2023
+ms.date: 01/05/2026
 ms.topic: quickstart
 helpviewer_keywords:
   - "debugger"
@@ -24,7 +24,7 @@ The Visual Studio debugger provides many powerful features to help you debug you
 
     After you apply the language and platform filters, choose the **Console App** template for .NET Core, and then choose **Next**.
 
-    Choose either the recommended target framework or .NET 8, and then choose **Create**.
+    Choose either the recommended target framework or .NET 10, and then choose **Create**.
 
     If you don't see the **Console App** project template for .NET Core, go to **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer. Choose the **.NET Core cross-platform development** workload, then choose **Modify**.
 

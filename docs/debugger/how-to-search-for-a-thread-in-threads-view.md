@@ -1,7 +1,7 @@
 ---
 title: Search for a thread in Threads view
 description: Search for a specific thread in the Spy++ tool's Threads view by using its thread ID or module string as search criteria when debugging in Visual Studio.
-ms.date: 02/05/2024
+ms.date: 02/08/2024
 ms.topic: how-to
 helpviewer_keywords: 
   - threads, searching

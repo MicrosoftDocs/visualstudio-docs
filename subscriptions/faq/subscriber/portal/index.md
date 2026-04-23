@@ -1,7 +1,7 @@
 ---
 title: Using the Visual Studio subscriber portal (my.visualstudio.com)
 description: FAQs list for Using the Subscriber Portal (my.visualstudio.com).
-ms.topic: conceptual
+ms.topic: concept-article
 author: joseb-rdc
 ms.author: amast
 ms.date: 09/30/2024

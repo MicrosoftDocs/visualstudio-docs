@@ -2,7 +2,7 @@
 title: "Download assemblies on demand using designer (ClickOnce API)"
 description: Learn how to mark certain assemblies in your ClickOnce application as optional by using Designer and download them when the common language runtime needs them.
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"

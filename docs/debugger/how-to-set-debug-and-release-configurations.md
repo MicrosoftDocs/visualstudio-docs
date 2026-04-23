@@ -1,7 +1,7 @@
 ---
 title: Set debug and release configurations
 description: Set debug and release configurations in Visual Studio. You build the debug version for debugging and the release version for the final release distribution.
-ms.date: 01/21/2025
+ms.date: 03/11/2026
 ms.topic: how-to
 f1_keywords: 
   - vs.debug.builds
@@ -49,7 +49,13 @@ To change the build configuration, either:
 
 * On the toolbar, choose either **Debug** or **Release** from the **Solution Configurations** list.
 
+  :::moniker range="visualstudio"
+  ![Screenshot that shows the build configurations on the toolbar.](../debugger/media/visualstudio/toolbar-build-configuration.png "ToolbarBuildConfiguration")
+  :::moniker-end
+
+  :::moniker range="vs-2022"
   ![toolbars build configuration](../debugger/media/toolbar-build-configuration.png "ToolbarBuildConfiguration")
+  :::moniker-end
 
   or
 
@@ -64,16 +70,42 @@ You can choose to generate symbol (.pdb) files and what debug information to inc
 
 Each project type may have a different way of setting these options.
 
-::: moniker range=">=vs-2022"
-### Generate symbol files for a C# or ASP.NET Core project (.NET Core, .NET 5+ only)
+::: moniker range="visualstudio"
+### Generate symbol files for a .NET Core, .NET 5+, or ASP.NET Core project
 
-For detailed information on project settings for debug configurations in C#, see [Project settings for a C# debug configuration](../debugger/project-settings-for-csharp-debug-configurations.md). (For .NET projects in Visual Basic, symbol files are configured the same as in .NET Framework.)
+For detailed information on project settings for debug configurations in C#, see [Project settings for a C# debug configuration](../debugger/project-settings-for-csharp-debug-configurations.md).
 
 1. In Solution Explorer, right-click the project and choose **Properties**.
 
-2. In the side pane, choose **Build** > **General**.
+2. In the side pane, choose **Build** > **General** (**Compile** > **General** for Visual Basic).
 
-3. In the **Optimize code** section, choose **Debug** or **Release**.
+3. In the **Enable optimizations** section, choose **Release**.
+
+   Typically, only the **Release** build is optimized. Optimization makes debugging more difficult.
+
+4. In the **Debug symbols** list, choose **PDB file, current platform**, **PBD file, portable**, or **Embedded**.
+
+   The portable format is the most recent cross-platform format for .NET Core. For more information on options, see [Advanced Build Settings dialog box (C#)](../ide/reference/advanced-build-settings-dialog-box-csharp.md).
+
+   ![Screenshot that shows the Build properties page.](../debugger/media/visualstudio/project-properties-dot-net.png "GeneratePDBsForDotNet")
+
+5. Build your project.
+
+   The compiler creates the symbol file(s) in the same folder as the executable or the main output file.
+::: moniker-end
+
+::: moniker range="vs-2022"
+### Generate symbol files for a .NET Core, .NET 5+, or ASP.NET Core project
+
+For detailed information on project settings for debug configurations in C#, see [Project settings for a C# debug configuration](../debugger/project-settings-for-csharp-debug-configurations.md).
+
+1. In Solution Explorer, right-click the project and choose **Properties**.
+
+2. In the side pane, choose **Build** > **General** (**Compile** > **General** for Visual Basic).
+
+3. In the **Enable optimizations** section, choose **Release**.
+
+   Typically, only the **Release** build is optimized. Optimization makes debugging more difficult.
 
 4. In the **Debug symbols** list, choose **PDB file, current platform**, **PBD file, portable**, or **Embedded**.
 
@@ -86,7 +118,7 @@ For detailed information on project settings for debug configurations in C#, see
    The compiler creates the symbol file(s) in the same folder as the executable or the main output file.
 ::: moniker-end
 
-### Generate symbol files for a C#, ASP.NET, or Visual Basic project (.NET Framework)
+### Generate symbol files for a .NET Framework or ASP.NET project
 
 For detailed information on project settings for debug configurations in C# or Visual Basic, see [Project settings for a C# debug configuration](../debugger/project-settings-for-csharp-debug-configurations.md) or [Project settings for a Visual Basic debug configuration](../debugger/project-settings-for-a-visual-basic-debug-configuration.md).
 
@@ -124,7 +156,17 @@ For detailed information on project settings for debug configurations in C# or V
 
    In most C++ projects, the default value is `$(OutDir)$(TargetName).pdb`, which generates .pdb files in the output folder.
 
+   :::moniker range="visualstudio"
+      
+   ![Screenshot that shows the Debugging property page.](../debugger/media/visualstudio/project-properties-c-plus-plus.png "GeneratePDBsforCPlusPlus")
+
+   :::moniker-end
+
+   :::moniker range="vs-2022"
+      
    ![Generate PDBs for builds in C++](../debugger/media/dbg-project-properties-pdb-cplusplus.png "GeneratePDBsforCPlusPlus")
+
+   :::moniker-end
 
 5. Build your project.
 

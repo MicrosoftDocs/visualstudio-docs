@@ -5,7 +5,7 @@ comment:  As of August 2023 this include is used to render marketing FAQ content
 ms.assetid: b1bca6ef-1f5f-40df-bef1-13054d3cbb3a  
 author: joseb-rdc 
 ms.author: amast 
-ms.topic: article
+ms.topic: include
 ms.date: 04/09/2024
 user.type: admin 
 tags: agreement, status

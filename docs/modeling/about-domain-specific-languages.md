@@ -2,11 +2,11 @@
 title: About Domain-Specific Languages
 description: Learn how a domain-specific language (DSL) is designed to express statements in a particular problem space, or domain.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - Domain-Specific Language
-author: mgoertz-msft
-ms.author: mgoertz
+author: jekelly
+ms.author: jekelly
 manager: mijacobs
 ms.subservice: modeling
 ---

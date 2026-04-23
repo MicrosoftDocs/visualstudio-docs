@@ -2,7 +2,7 @@
 title: 'Checklist: Creating New Project Types'
 description: Learn about the tasks that must be completed to create and display a new project type in Visual Studio.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: checklist
 helpviewer_keywords:
 - projects [Visual Studio SDK], creating new types
 - project types, checklist for creating

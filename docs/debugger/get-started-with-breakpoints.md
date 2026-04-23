@@ -1,7 +1,7 @@
 ---
 title: Get started with breakpoints
 description: Learn about breakpoints, one of the most important debugging techniques.
-ms.date: 11/22/2024
+ms.date: 10/28/2025
 ms.topic: how-to
 f1_keywords: 
   - vs.debug.breakpointswin
@@ -23,7 +23,7 @@ ms.subservice: debug-diagnostics
 ---
 # Get started with breakpoints in the Visual Studio debugger
 
-Breakpoints are one of the most important debugging techniques in your developer's toolbox. You set breakpoints wherever you want to pause debugger execution. For example, you may want to see the state of code variables or look at the call stack at a certain breakpoint.
+Breakpoints are one of the most important debugging techniques in your developer's toolbox. You set breakpoints wherever you want to pause debugger execution. For example, you might want to see the state of code variables or look at the call stack at a certain breakpoint.
 
 ## <a name="BKMK_Overview"></a> Set breakpoints in source code
 
@@ -44,14 +44,21 @@ To set a breakpoint in source code:
 
 - Click in the far left margin next to a line of code. You can also select the line and press **F9**, select **Debug** > **Toggle Breakpoint**, or right-click and select **Breakpoint** > **Insert breakpoint**. The breakpoint appears as a red dot in the left margin.
 
-For most languages (including C#), Visual Studio automatically highlights breakpoint and current execution lines. For some languages, such as C++, which isn't highlighted by default, you can turn on highlighting of breakpoint and current lines by selecting **Tools** (or **Debug**) > **Options** > **Debugging** >  **Highlight entire source line for breakpoints and current statement (C++ only)**.
+For most languages (including C#), Visual Studio automatically highlights breakpoint and current execution lines. For some languages, such as C++, which isn't highlighted by default, you can turn on highlighting of breakpoint and current lines.
 
-::: moniker range=">= vs-2022"
+:::moniker range="visualstudio"
+
+Open the **Tools** > **Options** pane, expand the **All Settings** > **Debugging** > **General** section, and select the **Highlight entire source line for breakpoints and current statement (C++ only)** checkbox.
+
+:::moniker-end
+:::moniker range="vs-2022"
+      
+Open the **Tools** > **Options** dialog, expand the **Debugging** > **General** section, and select the **Highlight entire source line for breakpoints and current statement (C++ only)** checkbox. Select **OK** to apply the change.
+
 ![Set a breakpoint](../debugger/media/vs-2022/basic-breakpoint.png "Basic breakpoint")
+
 ::: moniker-end
-::: moniker range="<= vs-2019"
-![Set a breakpoint](../debugger/media/basicbreakpoint.png "Basic breakpoint")
-::: moniker-end
+
 
 To debug, press **F5** or select **Debug** > **Start Debugging**.
 
@@ -63,11 +70,6 @@ At the breakpoint in the following example, the value of `testInt` is still 3. S
 ![Breakpoint execution stopped](../debugger/media/vs-2022/breakpoint-execution.png "Breakpoint execution")
 ::: moniker-end
 
-::: moniker range="<= vs-2019"
-At the breakpoint in the following example, the value of `testInt` is still 1. So, the value hasn't changed since the variable was initialized (set to a value of 1) because the statement in yellow hasn't yet executed.
-
-![Breakpoint execution stopped](../debugger/media/breakpointexecution.png "Breakpoint execution")
-::: moniker-end
 
 When the debugger stops at the breakpoint, you can look at the current state of the app, including [variable values](../debugger/debugger-feature-tour.md#inspect-variables-with-data-tips) and the [call stack](../debugger/how-to-use-the-call-stack-window.md).
 
@@ -100,9 +102,7 @@ To open the **Breakpoints** window, select **Debug** > **Windows** > **Breakpoin
 ::: moniker range=">= vs-2022"
 ![Breakpoints window](../debugger/media/vs-2022/breakpoints-window.png "Breakpoints window")
 ::: moniker-end
-::: moniker range="<= vs-2019"
-![Breakpoints window](../debugger/media/breakpointswindow.png "Breakpoints window")
-::: moniker-end
+
 
 To select the columns to display in the **Breakpoints** window, select **Show Columns**. Select a column header to sort the breakpoints list by that column.
 
@@ -116,7 +116,7 @@ You can use labels to sort and filter the list of breakpoints in the **Breakpoin
 ::: moniker range=">= vs-2022"
 ### Breakpoint groups
 
-For complex debugging scenarios, you may want to create breakpoint groups to organize your breakpoints. This allows you to quickly enable and disable logical groupings of breakpoints, based upon the current scenario that you're trying to debug.
+For complex debugging scenarios, you might want to create breakpoint groups to organize your breakpoints. This allows you to quickly enable and disable logical groupings of breakpoints, based upon the current scenario that you're trying to debug.
 
 You can create breakpoints in the **Breakpoints** window by selecting **New > Breakpoint Group**, and providing a name for the group. To add a breakpoint to a group, right-click the breakpoint and choose **Add to Breakpoint Group** > **\<group name\>**. Or, drag-and-drop your breakpoints into the desired group.
 

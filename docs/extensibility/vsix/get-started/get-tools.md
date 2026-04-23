@@ -2,7 +2,7 @@
 title: "Install & configure the extensibility workload"
 description: Explore the tools you need to write Visual Studio extensions and the process to install the corresponding extensibility workload.
 ms.date: 12/01/2021
-ms.topic: conceptual
+ms.topic: install-set-up-deploy
 author: madskristensen
 ms.author: madsk
 manager: pchapman

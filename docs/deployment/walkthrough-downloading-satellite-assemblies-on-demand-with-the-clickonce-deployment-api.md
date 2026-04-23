@@ -2,7 +2,7 @@
 title: "Download satellite assembly on demand (ClickOnce API)"
 description: Learn how to mark satellite assemblies as optional and download only the assembly a client machine needs for its current culture settings.
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"

@@ -24,8 +24,8 @@ helpviewer_keywords:
 - Call Stack window, show on code map
 - debugging [Visual Studio], tracing the call stack visually
 - debugging [Visual Studio], visualizing the call stack
-author: mgoertz-msft
-ms.author: mgoertz
+author: jekelly
+ms.author: jekelly
 manager: mijacobs
 ms.subservice: modeling
 ---
@@ -37,7 +37,7 @@ Create a code map to visually trace the call stack while you're debugging. You c
 
  You'll need:
 
-- [Visual Studio Enterprise](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta)
+- [Visual Studio Enterprise](https://aka.ms/vs/download/?cid=learn-onpage-download-cta)
 
 - Code that you can debug, such as Visual C#, Visual Basic, C++, JavaScript, or X++
 

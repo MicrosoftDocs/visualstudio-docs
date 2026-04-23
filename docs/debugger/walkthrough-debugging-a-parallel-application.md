@@ -2,7 +2,7 @@
 title: "Debug an async application"
 description: Debug an async application by using the Parallel Stacks windows in the Visual Studio integrated development environment (IDE).
 ms.date: "08/19/2025"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "CSharp"
 helpviewer_keywords:
@@ -83,7 +83,7 @@ To make the call stack intuitive, the sample app performs the following sequenti
 
    In the **Configure your new project** window, type a name or use the default name in the **Project name** box. Then, choose **Next**.
 
-   For .NET, choose either the recommended target framework or .NET 8, and then choose **Create**.
+   For .NET, choose either the recommended target framework or .NET 10, and then choose **Create**.
 
    A new console project appears. After the project has been created, a source file appears.
 

@@ -5,7 +5,7 @@ author: mikadumont
 ms.author: midumont
 manager: mijacobs
 ms.subservice: code-analysis
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - source suppression, code analysis
 - code analysis, source suppression
@@ -13,7 +13,7 @@ dev_langs:
 - CSharp
 - VB
 - CPP
-ms.date: 03/28/2024
+ms.date: 04/21/2026
 ---
 
 # Suppress code analysis violations
@@ -37,10 +37,26 @@ Or, you can use the [SuppressMessageAttribute attribute](#in-source-suppression-
 
 To suppress violations using the code editor, follow these steps:
 
+
+
 1. Place the cursor in the line of code with the violation and press **Ctrl**+**Period (.)** or **Alt+Enter** to open the **Quick Actions** menu.
 
 1. Select **Suppress or configure issues** > **Suppress \<rule number>**, and then choose either **in Source** or **in Source (attribute)**.
 
+::: moniker range="visualstudio"
+   
+   - If you choose **in Source**, you see a preview of the preprocessor directive added to your code.
+
+     :::image type="content" source="media/visualstudio/suppress-diagnostic-from-editor.png" alt-text="Screenshot that shows in Source selection from the Quick Actions Suppress menu." lightbox="media/visualstudio/suppress-diagnostic-from-editor.png":::
+
+   - If you choose **in Source (attribute)**, you see a preview of the [SuppressMessageAttribute attribute](#in-source-suppression-and-the-suppressmessageattribute-attribute) added to your code.
+
+      :::image type="content" source="media/visualstudio/suppress-diagnostic-from-editor-attribute.png" alt-text="Screenshot that shows in Source (attribute) selection from the Quick Actions Suppress menu." lightbox="media/visualstudio/suppress-diagnostic-from-editor-attribute.png":::
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+   
    - If you choose **in Source**, you see a preview of the preprocessor directive added to your code.
 
      :::image type="content" source="media/suppress-diagnostic-from-editor.png" alt-text="Screenshot that shows in Source selection from the Quick Actions Suppress menu." lightbox="media/suppress-diagnostic-from-editor.png":::
@@ -49,33 +65,8 @@ To suppress violations using the code editor, follow these steps:
 
       :::image type="content" source="media/suppress-diagnostic-from-editor-attribute.png" alt-text="Screenshot that shows in Source (attribute) selection from the Quick Actions Suppress menu." lightbox="media/suppress-diagnostic-from-editor-attribute.png":::
 
-::: moniker range="vs-2019"
-### Suppress violations using the Error List
-
-To suppress violations using the **Error List** window, follow these steps:
-
-1. From the **Error List** window, select the rules you want to suppress.
-
-1. Right-click, and then select **Suppress** > **In Source**.
-
-   The **Preview Changes** dialog opens and shows a preview of the C# [#pragma warning directive](/dotnet/csharp/language-reference/preprocessor-directives/preprocessor-pragma-warning) or Visual Basic [#Disable warning directive](/dotnet/visual-basic/language-reference/directives/directives) added to the source code.
-
-    ![Screenshot that shows the Preview Changes dialog box for adding #pragma warnings in code file.](media/pragma-warning-preview.png)
-
-1. Select **Apply** to save the changes to your code file.
-
-#### Exclude Error List build diagnostics
-
-If you don't see the **Suppress** menu option in the **Error List** window, the violation is likely from a build and not live analysis. The **Error List** window displays diagnostics, or rule violations, from both live code analysis and builds. Because build diagnostics can be stale, for example, if you edited the code to fix the violation but didn't rebuild it, you can't always suppress these diagnostics from the **Error List**.
-
-Diagnostics from live analysis, or IntelliSense, are always up-to-date with current sources and can always be suppressed from the **Error List**. To exclude build diagnostics from your selection, follow these steps:
-
-1. From the **Error List** source filter dropdown list, change the selection from **Build + IntelliSense** to **IntelliSense Only**.
-
-   ![Screenshot that shows the Error List source filter.](media/error-list-filter.png)
-
-1. Select the diagnostics you want to suppress and proceed as described previously.
 ::: moniker-end
+
 
 ## Suppress violations using a global suppression file
 
@@ -91,21 +82,6 @@ To suppress violations with a global suppression file by using the code editor, 
 
     Visual Studio creates a tab in the code editor containing the new global suppression file.
 
-::: moniker range="vs-2019"
-### Use a global suppression file from the Error List
-
-To suppress violations with a global suppression file by using the **Error List** window, follow these steps:
-
-1. From the **Error List** window, select the rules you want to suppress.
-
-1. Right-click, and then select **Suppress** > **In Suppression File**.
-
-   The **Preview Changes** dialog box opens and shows a preview of the <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute> attribute added to the global suppression file.
-
-   ![Screenshot that shows the Preview Changes dialog box with a SuppressMessageAttribute attribute in the suppression file.](media/preview-changes-in-suppression-file.png)
-
-1. Select **Apply** to save the global suppression file.
-::: moniker-end
 
 ## Suppress all current violations
 
@@ -125,13 +101,6 @@ To suppress violations by using Solution Explorer project settings, follow these
 
 1. From the **Properties** window, select **Code Analysis** from the left pane, and then clear **Suppress results from generated code**.
 
-::: moniker range="vs-2019"
-
-## Suppress violations using a rule set
-
-From the rule set editor, clear the checkbox next to its name or set **Action** to **None**.
-
-::: moniker-end
 
 ## In-source suppression and the SuppressMessageAttribute attribute
 

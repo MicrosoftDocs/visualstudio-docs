@@ -1,8 +1,10 @@
 ---
 title: View the call stack in the debugger
 description: Use the Call Stack window in the Visual Studio integrated development environment (IDE) to view the function or procedure calls that are currently on the stack.
-ms.date: 02/28/2025
+ms.date: 03/12/2026
 ms.topic: how-to
+ms.custom: awp-ai
+ai-usage: ai-assisted
 f1_keywords: 
   - vs.debug.callstack
 dev_langs: 
@@ -43,33 +45,58 @@ When [debugging symbols](#bkmk_symbols) are not available for part of a call sta
 
 While debugging, in the **Debug** menu, select **Windows > Call Stack** or press `ctrl`+`alt`+`C`.
 
-  ::: moniker range=">= vs-2022"
-  :::image type="content" source="../debugger/media/vs-2022/dbg-basics-callstack-window.png" alt-text="Screenshot showing the Call Stack Window.":::
-  A arrow identifies the stack frame where the execution pointer is currently located. By default, this stack frame's information appears in the source, **Locals**, **Autos**, **Watch**, and **Disassembly** windows. To change the debugger context to another frame on the stack, [switch to another stack frame](#bkmk_switch).
+> [!NOTE]
+> The **Debug > Windows > Call Stack** menu option is only available during an active debugging session. Start debugging first (for example, by pressing **F5** or selecting **Debug > Start Debugging**), and then pause execution at a breakpoint before opening the Call Stack window.
+
+  ::: moniker range="visualstudio"
+  :::image type="content" source="../debugger/media/visualstudio/call-stack-window.png" alt-text="Screenshot showing the Call Stack Window." lightbox="../debugger/media/visualstudio/call-stack-window.png":::
+An arrow identifies the stack frame where the execution pointer is currently located. By default, this stack frame's information appears in the source, **Locals**, **Autos**, **Watch**, and **Disassembly** windows. To change the debugger context to another frame on the stack, [switch to another stack frame](#bkmk_switch).
 
   ::: moniker-end
-  ::: moniker range="vs-2019"
 
-  :::image type="content" source="../debugger/media/dbg_basics_callstack_window.png" alt-text="Screenshot showing the Call Stack Window.":::
-  
+  ::: moniker range="vs-2022"
+  :::image type="content" source="../debugger/media/vs-2022/dbg-basics-callstack-window.png" alt-text="Screenshot showing the Call Stack Window.":::
+  An arrow identifies the stack frame where the execution pointer is currently located. By default, this stack frame's information appears in the source, **Locals**, **Autos**, **Watch**, and **Disassembly** windows. To change the debugger context to another frame on the stack, [switch to another stack frame](#bkmk_switch).
 
-A yellow arrow identifies the stack frame where the execution pointer is currently located. By default, this stack frame's information appears in the source, **Locals**, **Autos**, **Watch**, and **Disassembly** windows. To change the debugger context to another frame on the stack, [switch to another stack frame](#bkmk_switch).
+  ::: moniker-end
 
-::: moniker-end
 ::: moniker range=">= vs-2022"
 You can also view exception stack frames in the call stack while debugging. For more information, see [View the call stack in the Exception helper](../debugger/exception-helper.md#view-the-call-stack).
 ::: moniker-end
 
+::: moniker range="visualstudio"
+
+## Analyze call stack with Copilot
+
+You can get AI-powered analysis of your current debug state in the context of the Call Stack window. This feature helps answer the question: *What is my thread or app doing right now?* With one click, the **Analyze with Copilot** button sends the current debug state to Copilot, opening the Chat window with an app state analysis—no need to manually describe your debug context.
+
+Before you use this feature, make sure Copilot is enabled and your app is paused in the debugger.
+
+To analyze the call stack:
+
+1. When Copilot identifies a call stack issue, such as a frame that is waiting on an async task or execution fails during async operations, Copilot shows the **Analyze with Copilot** button by the relevant frame in the **Call Stack** window.
+1. Select **Analyze with Copilot**.
+
+:::image type="content" source="../debugger/media/visualstudio/debug-basics-analyze-call-stack.png" alt-text="Screenshot showing analysis from the Call Stack Window.":::
+
+Copilot understands both synchronous and asynchronous call stacks and annotates relevant frames. You can analyze the frame to get a clear explanation of:
+
+- Why execution is paused
+- What the thread is waiting on
+- How the execution got to the current point
+
+This turns the call stack from a static list of frames into an interactive debugging experience. Instead of manually reconstructing async flows, Copilot helps you quickly understand runtime behavior and get back to fixing the real problem.
+
+For more information on debugging with Copilot, see [Debug your app with GitHub Copilot](debug-with-copilot.md).
+
+::: moniker-end
+
 ## Display non-user code in the Call Stack window
-  ::: moniker range="vs-2019"
 
-To display external or non-user code toggle the Show External code  right-click on the **Call Stack** window and select **Show External Code**.
-
-  ::: moniker-end
 
   ::: moniker range=">=vs-2022"
 
-To display external or non-user code, toggle the **Show External Code** button from the call stack toolbar or  right-click on the **Call Stack** window and select **Show External Code**.
+To display external or non-user code, toggle the **Show External Code** button from the call stack toolbar or right-click in the **Call Stack** window and select **Show External Code**.
 
   ::: moniker-end
 
@@ -77,7 +104,15 @@ Non-user code is any code that is not shown when [Just My Code](../debugger/just
 
 `[<External Code>]`
 
+Show external code when you need to understand transitions between your code and framework or runtime code, such as:
+
+- tracing where an exception crosses framework boundaries
+- understanding callback and event-dispatch paths
+- identifying where control returns from library code into your code
+
 ## <a name="bkmk_switch"></a> Switch to another stack frame (change the debugger context)
+
+Switching frames is useful when you want to inspect locals, arguments, and source for an earlier caller without changing the current execution point.
 
 1. In the **Call Stack** window, right-click the stack frame whose code and data that you want to view.
 
@@ -91,11 +126,17 @@ Non-user code is any code that is not shown when [Just My Code](../debugger/just
 
 ## View all related threads
 
-Toggle the **View all threads** button to see all the related threads in the [Parallel Stack window](../debugger/using-the-parallel-stacks-window.md). The Parallel Stacks window provides visualizations of the call stacks for multithreaded apps.
+Toggle the **View all threads** button to see all related threads in the [Parallel Stack window](../debugger/using-the-parallel-stacks-window.md). The Parallel Stacks window visualizes call stacks for multithreaded apps.
+
+Use this view when a breakpoint could be affected by work on other threads, such as locks, async continuations, or thread-pool callbacks.
+
+:::image type="content" source="../debugger/media/vs-2022/dbg-multithreaded-parallel-stacks.png" alt-text="Screenshot showing related threads in the Parallel Stacks window.":::
 
 ## Call Stack Search
 
-You can search for relevant call stack frames by typing relevant search terms in the search box located in the top left corner of the call stack window. The pertinent call stack frames will get highlighted. 
+You can search for call stack frames by typing terms in the search box in the upper-left area of the **Call Stack** window.
+
+Search is useful for quickly finding a method, module, or namespace in deep stacks. Matching frames are highlighted so you can jump to relevant parts of the stack faster.
 
   ::: moniker-end
 
@@ -107,6 +148,8 @@ In the **Call Stack** window, right-click the function whose source code you wan
 
 In the **Call Stack** window, select the function, right-click, and then choose **Run to Cursor**.
 
+Use this command when you want to continue quickly to a known frame without stepping through every intermediate call.
+
 ## Set a breakpoint on the exit point of a function call
 
 See [Set a breakpoint at a call stack function](../debugger/get-started-with-breakpoints.md#BKMK_Set_a_breakpoint_from_debugger_windows).
@@ -114,6 +157,8 @@ See [Set a breakpoint at a call stack function](../debugger/get-started-with-bre
 ## Display calls to or from another thread
 
 Right-click the **Call Stack** window and select **Include Calls To/From Other Threads**.
+
+Use this option to expose cross-thread relationships when diagnosing handoffs between worker threads, UI threads, or task continuations.
 
 ## Visually trace the call stack
 
@@ -131,9 +176,12 @@ In the **Call Stack** window, right-click the function whose disassembly code yo
 
 ## Change the optional information displayed
 
-Right-click in the **Call Stack** window and set or clear **Show \<**_the information that you want_**>**.
+Right-click in the **Call Stack** window and set or clear **Show \<***the information that you want***>**.
+
+Use these options to customize frame details so the stack highlights the information you care about during investigation.
 
 ::: moniker range=">=vs-2022"
+
 ## Autodecompile .NET external code
 
 Starting in Visual Studio 2022 version 17.7, you can autodecompile .NET code by double-clicking external code in the Call Stack window. For more information, see [Generate source code from .NET assemblies while debugging](../debugger/decompilation.md).

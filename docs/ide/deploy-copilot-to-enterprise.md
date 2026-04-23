@@ -3,9 +3,9 @@ title: Deploy GitHub Copilot within your enterprise
 description: Configure and deploy GitHub Copilot programmatically to existing Visual Studio instances on a client's machine within an enterprise.
 ms.date: 8/30/2025
 ms.update-cycle: 180-days
-ms.topic: conceptual
-author: anandmeg
-ms.author: meghaanand
+ms.topic: install-set-up-deploy
+author: RoseHJM
+ms.author: rosemalcolm
 ms.manager: mijacobs
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot

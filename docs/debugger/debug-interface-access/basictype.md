@@ -1,7 +1,7 @@
 ---
 title: BasicType
 description: Find reference information about the BasicType enumeration, which specifies a symbol's basic type in the Visual Studio debug interface access SDK.
-ms.date: "11/04/2016"
+ms.date: "12/9/2025"
 ms.topic: "reference"
 dev_langs:
   - "C++"
@@ -41,7 +41,8 @@ enum BasicType {
     btHresult  = 31,
     btChar16   = 32,  // char16_t
     btChar32   = 33,  // char32_t
-    btChar8    = 34   // char8_t
+    btChar8    = 34,   // char8_t
+    btVector   = 35
 };
 ```
 
@@ -67,6 +68,7 @@ enum BasicType {
 | btBit      | Basic type is a bit.                                 |
 | btBSTR     | Basic type is a basic or binary string (`BSTR`).     |
 | btHresult  | Basic type is an `HRESULT`.                          |
+| btVector   | Basic type is a scalable vector.                     |
 
 ## Remarks
 

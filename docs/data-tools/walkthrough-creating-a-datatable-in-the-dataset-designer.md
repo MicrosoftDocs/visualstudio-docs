@@ -2,7 +2,7 @@
 title: New DataTable in Dataset Designer (.NET Framework)
 description: Create a DataTable (without a TableAdapter) with the Dataset Designer in Visual Studio for .NET Framework applications and build a Windows Forms app with a dataset.
 ms.date: 11/01/2023
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - DataTable objects, creating
 - Dataset Designer, creating data tables

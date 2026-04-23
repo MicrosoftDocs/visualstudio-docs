@@ -1,7 +1,7 @@
 ---
 title: 'Create and remove project dependencies'
 description: Create and remove your project's dependency on code from other projects in Visual Studio, and view the build order for the solution.
-ms.date: 03/12/2025
+ms.date: 04/15/2026
 ms.topic: how-to
 f1_keywords:
 - VS.ProjectDependenciesDlg
@@ -25,6 +25,48 @@ When building a solution that contains multiple projects, it can be necessary to
 > The feature discussed in this article, manually managing project dependencies, is distinct from project-to-project references used in modern project types, and reflects a method of handling dependencies between projects that predates MSBuild. If you're working with a .NET or C++ project or another project type that uses MSBuild, it's not necessary to explicitly add project dependencies as described in this article. A project dependency is automatically created when you add a project-to-project reference from one project to another project. In most cases, you should instead create a project-to-project reference, which in addition to creating a dependency relationship between the projects, also creates a reference that you can use to build code that uses classes, interfaces, and other code entities from the other project. See [Managing references in a project](managing-references-in-a-project.md#project-to-project-references).
 >
 > There are cases where a project requires another project to build first for some other reason than a project-to-project reference. For example, a project might require a build task that's built in another project. In that case, the steps described in this article provide a way to expressing that dependency.
+
+:::moniker range="visualstudio"
+
+## To assign dependencies to projects
+
+1. In **Solution Explorer**, right-click the solution node and then select **Project Build Dependencies**.
+
+    The **Project Build Dependencies** dialog opens.
+
+    ![Screenshot of the Project Build Dependencies dialog.](media/visualstudio/project-dependencies.png)
+
+3. On the **Dependencies** tab, select a project from the **Projects** menu.
+
+4. In the **Depends on** field, select the check box of any other project that must build before this project does.
+
+   Your solution must consist of more than one project before you can create project dependencies.
+
+## To remove dependencies from projects
+
+1. In **Solution Explorer**, right-click the solution node and then select **Project Build Dependencies**.
+
+     The **Project Build Dependencies** dialog opens.
+
+3. On the **Dependencies** tab, select a project from the **Projects** menu.
+
+4. In the **Depends on** field, clear the check boxes beside any other projects that are no longer dependencies of this project.
+
+## To view the build order
+
+In the **Project Build Dependencies** dialog, you can switch to the **Build Order** tab to the view the build order for the solution.
+
+To view the build order in a solution at any time, right-click the solution node and select **Project Build Dependencies**. Select the **Build Order** tab.
+
+You can use the **Build Order** tab to view the order that projects will be built, but you can't directly change the order from this tab.
+
+The order you see listed is the desired logical build order, but in practice, Visual Studio further optimizes the build process by building multiple projects in parallel. However, as long as you've specified the project dependencies, any dependent projects will not start building until after their dependencies have completed.
+
+![Screenshot of the Build Order tab.](media/visualstudio/project-build-order.png)
+
+:::moniker-end
+
+:::moniker range="vs-2022"
 
 ## To assign dependencies to projects
 
@@ -65,6 +107,8 @@ You can use the **Build order** tab to view the order that projects will be buil
 The order you see listed is the desired logical build order, but in practice, Visual Studio further optimizes the build process by building multiple projects in parallel. However, as long as you've specified the project dependencies, any dependent projects will not start building until after their dependencies have completed.
 
 ![Screenshot of the Build order tab.](media/vs-2022/project-build-order.png)
+
+:::moniker-end
 
 ## Related content
 

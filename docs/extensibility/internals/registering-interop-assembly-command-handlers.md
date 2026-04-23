@@ -2,7 +2,7 @@
 title: Registering Interop Assembly Command Handlers
 description: Learn about the basic command contract used by all VSPackages implementing commands using Interop assemblies.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - interop assemblies, command handlers
 - command handling with interop assemblies, registering

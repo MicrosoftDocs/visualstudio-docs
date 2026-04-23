@@ -3,8 +3,8 @@ title: Customizing Text and Image Fields
 description: Learn about customizing text and image files. Also learn that when you define a text decorator in a shape, it's represented by a TextField.
 ms.date: 11/04/2016
 ms.topic: how-to
-author: mgoertz-msft
-ms.author: mgoertz
+author: jekelly
+ms.author: jekelly
 manager: mijacobs
 ms.subservice: modeling
 ---

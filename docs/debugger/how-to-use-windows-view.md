@@ -1,7 +1,7 @@
 ---
 title: Use Windows view
 description: Learn how to use the Finder Tool and how to search for a window using the Spy++ Windows view.
-ms.date: 02/05/2024
+ms.date: 02/08/2024
 ms.topic: how-to
 helpviewer_keywords: 
   - Window Finder Tool

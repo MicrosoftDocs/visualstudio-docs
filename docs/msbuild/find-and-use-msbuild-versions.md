@@ -1,7 +1,7 @@
 ---
 title: Find MSBuild and use its API
 description: Create a programmatic build app on different machines with the same MSBuild version, and ensure builds from your app match builds in Visual Studio or MSBuild.exe. 
-ms.date: 3/10/2025
+ms.date: 4/17/2026
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
@@ -57,7 +57,7 @@ If you can't use NuGet packages, you can reference MSBuild assemblies that are d
 ```
 
 > [!NOTE]
-> If you're updating from a version of MSBuild prior to 15, MSBuild requires binding redirects for certain assemblies (`Microsoft.Build` assemblies), but if you reference the `Microsoft.Build.Locator` package, you ensure that your application automatically uses the required binding redirects to version 15.1.0.0. Binding redirects to this version support MSBuild 15.x, 16.x, and 17.x.
+> If you're updating from a version of MSBuild prior to 15, MSBuild requires binding redirects for certain assemblies (`Microsoft.Build` assemblies), but if you reference the `Microsoft.Build.Locator` package, you ensure that your application automatically uses the required binding redirects to version 15.1.0.0. Binding redirects to this version support MSBuild 15.x, 16.x, 17.x, and 18.x.
 
 ## Ensure output is clean
 

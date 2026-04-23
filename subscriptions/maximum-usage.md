@@ -3,8 +3,8 @@ title:  Use the Maximum Usage Feature in Visual Studio Subscriptions
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 01/28/2025
-ms.topic: conceptual
+ms.date: 11/03/2025
+ms.topic: how-to
 description: Learn how to view the maximum number of assigned subscriptions in the admin portal.
 ---
 # Use the maximum usage feature to track the number of assigned subscriptions
@@ -45,7 +45,7 @@ The information in the overview shows the *current* assignments and available su
 
 ## Related content
 
-* [Visual Studio licensing white paper](https://visualstudio.microsoft.com/wp-content/uploads/2019/06/Visual-Studio-Licensing-Whitepaper-May-2019.pdf)
+* [Visual Studio licensing white paper](https://aka.ms/vslicensing)
 * [Visual Studio administration and subscriptions support](https://aka.ms/vsadminhelp)
 * [Volume Licensing terms](https://www.microsoft.com/licensing/docs/view/Licensing-Use-Rights)
 * [Visual Studio documentation](/visualstudio/)

@@ -2,7 +2,7 @@
 title: Providing Automation for Code
 description: Learn about implementing a code model, which requires implementing interfaces that are determined by your internal data structure.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - CodeModel object
 author: tinaschrepfer

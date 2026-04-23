@@ -1,7 +1,7 @@
 ---
 title: 'Set multiple startup projects'
 description: Discover the Visual Studio process that allows you to specify how more than one project is run when you start the debugger, and create launch profiles you can share with others.
-ms.date: 9/3/2025
+ms.date: 02/25/2026
 ms.topic: how-to
 helpviewer_keywords:
 - startup projects, setting multiple startup projects
@@ -22,9 +22,21 @@ Some project templates include multiple projects that are already configured to 
 
 2. Choose the solution node's context (right-click) menu and then choose **Properties**. The **Solution Property Pages** dialog box appears.
 
+:::moniker range="visualstudio"
+
+   ![Screenshot that shows the solution property pages.](media/visualstudio/solution-properties-startup-projects.png)
+
+3. Expand the **Common Properties** node, and choose **Configure Startup Projects**.
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
    ![Solution Property Pages](media/vs-2022/solution-properties-startup-projects.png)
 
 3. Expand the **Common Properties** node, and choose **Startup Project**.
+
+:::moniker-end
 
 4. Choose the **Multiple Startup Projects** option and set the appropriate actions.
 
@@ -34,29 +46,64 @@ You can set up and save profiles for launching specific projects within a multi-
 
 ### Enable multi-project launch profile
 
-Multi-project launch profiles are available in Visual Studio 2022 17.11 and later. To enable or disable the **Multi-project Launch Profiles** feature, go to **Tools > Options > Preview Features** and toggle the checkbox for **Enable Multi Launch Profiles**.
+::: moniker range="visualstudio"
+
+1. In the **Tools** > **Options** pane, expand the **All Settings** > **Preview Features** section.
+
+1. Select the **Enable Multi-Project Launch Profiles** checkbox.
+
+::: moniker-end
+::: moniker range="vs-2022"
+
+Multi-project launch profiles are available in Visual Studio 2022 17.11 and later. 
+
+1. In the **Tools** > **Options** dialog, expand the **Environment** > **Preview Features** section.
+
+1. Select the **Enable Multi-Project Launch Profiles** checkbox, and then select **OK**.
 
 :::image type="content" source="media/launch-multiple-projects/tools-options-enable-multi-project-launch.png" alt-text="Screenshot showing the option to enable Multi-project Launch Profiles in the Tools Options dialog." border="true":::
+
+::: moniker-end
 
 ### Create a multi-project launch profile
 
 1. Open your Visual Studio solution that contains multiple projects.
-1. In Solution Explorer, right-click on your solution, and select **Configure Startup Projects...**.
+1. In Solution Explorer, right-click your solution, and select **Configure Startup Projects...**.
 
    You can also press **Ctrl**+**Q** (Quick Launch) and search for "Configure startup projects" in Feature Search.
+ 
+   :::moniker range="visualstudio"
+
+   :::image type="content" source="media/visualstudio/quick-launch-configure-startup-projects.png" alt-text="Screenshot showing searching for configure startup projects in Feature Search." border="true" :::
+
+   :::moniker-end
+
+   :::moniker range="vs-2022"
 
    :::image type="content" source="media/launch-multiple-projects/quick-launch-configure-startup-projects.png" alt-text="Screenshot showing searching for configure startup projects in Feature Search." border="true" :::
 
+   :::moniker-end
+
    The **Solution Property Pages** dialog appears.
 
-1. In the Solution Property Pages, click on the **Common Properties** tab, and select **Configure Startup Projects**.
+1. In the Solution Property Pages, select the **Common Properties** tab, and then select **Configure Startup Projects**.
 1. In the **Configure Startup Projects** section, choose the **Multiple startup projects** radio button.
 
+     :::moniker range="visualstudio"
+    
+     :::image type="content" source="media/visualstudio/solution-property-pages.jpg" alt-text="Screenshot showing the Multiple startup projects radio button." border="true" lightbox="media/visualstudio/solution-property-pages.jpg":::
+
+     :::moniker-end
+
+     :::moniker range="vs-2022"
+    
      :::image type="content" source="media/launch-multiple-projects/solution-property-pages.jpg" alt-text="Screenshot showing the Multiple startup projects radio button." border="true" lightbox="media/launch-multiple-projects/solution-property-pages.jpg":::
 
-   Below the radio button, you'll see a list of all the projects in your solution, and whether they are set to be launched or not when you press **F5**, and whether each project is started under the debugger or without debugging.
+     :::moniker-end
 
-   You can use the up and down arrows to control the order in which projects will be launched.
+   Below the radio button is a list of all the projects in your solution. You can see whether each project is set to launch when you select **F5**, and whether each project is started under the debugger or without debugging.
+
+   You can use the up and down arrows to control the order in which projects launch.
 
 1. Set the action for each project to either **Start**, **Start without debugging**, or **None**, and select a debug target depending on your requirements.
 
@@ -95,10 +142,20 @@ Multi-project launch profiles are available in Visual Studio 2022 17.11 and late
    ]
    ```
 
-1. Once you've configured the startup action for each project, click the **OK** or **Apply** button to save the profile.
+1. After you configure the startup action for each project, select the **OK** or **Apply** button to save the profile.
    The created launch profile appears in the toolbar dropdown list, allowing you to select the profile you want to debug.
 
+   :::moniker range="visualstudio"
+
+   :::image type="content" source="media/visualstudio/profile-in-toolbar.png" alt-text="Screenshot showing launch profile in toolbar.":::
+
+   :::moniker-end
+
+   :::moniker range="vs-2022"
+
    :::image type="content" source="media/launch-multiple-projects/profile-in-toolbar.png" alt-text="Screenshot showing launch profile in toolbar.":::
+
+   :::moniker-end
 
 ## With Docker Compose
 
@@ -106,9 +163,19 @@ When you're using Docker Compose to launch containerized projects on a local mac
 
 The following example shows a solution `WebFrontEndA` with three projects, a front-end web site, a Web API project, and a Docker Compose project. The following screenshot shows how to start two of the three projects, one with debugging and one without:
 
+:::moniker range="visualstudio"
+
+![Screenshot of the Solution Property Pages.](media/visualstudio/startup-projects.png)
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 ![Screenshot of the Solution Property Pages.](media/vs-2022/startup-projects.png)
 
-In this example and any other Docker Compose scenario, you choose `docker-compose` as the single startup project, but then you'll use a different way of specifying which projects or services to start. You'll use a Docker Compose launch profile to determine what services to start, and whether or not to attach the debugger, and there's a different dialog in Visual Studio for configuring it. See [Start a subset of services](../containers/launch-profiles.md). The **Solution Property Pages** dialog is only used for non-containerized solutions, or when you are *not* using Docker Compose to manage startup.
+:::moniker-end
+
+In this example and any other Docker Compose scenario, you choose `docker-compose` as the single startup project, but then you use a different way of specifying which projects or services to start. You use a Docker Compose launch profile to determine what services to start, and whether or not to attach the debugger, and there's a different dialog in Visual Studio for configuring it. See [Start a subset of services](../containers/launch-profiles.md). The **Solution Property Pages** dialog is only used for noncontainerized solutions, or when you aren't* using Docker Compose to manage startup.
 
 ## Related content
 

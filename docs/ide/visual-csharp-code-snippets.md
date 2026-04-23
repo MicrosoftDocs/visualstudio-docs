@@ -1,7 +1,7 @@
 ---
 title: C# code snippets
 description: Learn how to use code snippets to add commonly used code to your C# code files.
-ms.date: 04/05/2024
+ms.date: 04/08/2024
 ms.topic: reference
 helpviewer_keywords:
 - snippets [C#]

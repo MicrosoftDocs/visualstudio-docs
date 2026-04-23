@@ -2,7 +2,7 @@
 title: Extending Properties
 description: Learn about the interfaces that you must implement and call to extend the list of properties in the Visual Studio Properties window.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - Properties window, providing support
 author: tinaschrepfer

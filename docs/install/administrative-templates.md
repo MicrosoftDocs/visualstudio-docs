@@ -1,8 +1,8 @@
 ---
 title: Administrative Templates (ADMX)
 description: Configure and deploy group policy settings to the client machines in the Visual Studio ADMX Template and control Visual Studio behavior.
-ms.date: 9/23/2025
-ms.topic: conceptual
+ms.date: 11/4/2025
+ms.topic: concept-article
 ms.custom: vs-acquisition
 helpviewer_keywords:
 - dev15
@@ -11,8 +11,8 @@ helpviewer_keywords:
 - Visual Studio administrative templates
 - Visual Studio admx
 - Visual Studio administrator
-author: anandmeg
-ms.author: meghaanand
+author: RoseHJM
+ms.author: rosemalcolm
 manager: mijacobs
 
 ms.subservice: installation

@@ -1,16 +1,16 @@
 ---
-title: Activate Technical Support for subscriptions
+title: Use Technical Support for subscriptions
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 08/11/2025
+ms.date: 09/29/2025
 ms.topic: how-to
-description: Activate the technical support benefit included with your Visual Studio subscription, locate supported products and resources, and learn how to submit incidents.
+description: Use the technical support benefit included with your Visual Studio subscription, locate supported products and resources, and learn how to submit incidents.
 ms.custom: sfi-image-nochange
 ---
-# Activate and use the Technical Support benefit in Visual Studio subscriptions
+# Use your Technical Support benefit in Visual Studio subscriptions
 
-The Technical Support benefit in Visual Studio subscriptions is for resolving break-fix issues in **non-production environments** for products that are still in the mainstream support phase of the [support lifecycle](https://support.microsoft.com/lifecycle/search). Visual Studio Enterprise standard and annual cloud subscriptions receive four incidents, while Visual Studio Professional standard and annual cloud subscriptions receive two incidents, for up to one year from benefit activation. Benefit activation must occur while the subscription is current.
+The Technical Support benefit in Visual Studio subscriptions is for resolving break-fix issues in **non-production environments** for products that are still in the mainstream support phase of the [support lifecycle](https://support.microsoft.com/lifecycle/search). Visual Studio Enterprise standard and annual cloud subscriptions receive four incidents, while Visual Studio Professional standard and annual cloud subscriptions receive two incidents, for up to one year from obtaining your **Contract ID** and **Access ID**. Benefit setup must occur while the subscription is current.
 
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There's no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to <https://visualstudio.microsoft.com/vs/pricing/> to explore different options to purchase Visual Studio subscriptions.
@@ -35,14 +35,14 @@ Product level descriptions: Expand **Unavailable support plans**. If you see **S
 > - Microsoft Graph
 > - Microsoft Outlook
 
-## How to activate the benefit
+## How to use the benefit
 
 > [!NOTE]
-> The following steps apply to activation of the benefit in **English** only. For other languages, visit <https://visualstudio.microsoft.com/subscriptions/support>, scroll to the bottom, and select **Account, Subscription and Billing Support** and then select your country/region from the drop-down list.
+> The following steps apply to obtaining a **Contract ID** and **Access ID** in **English** only. For other languages, visit <https://visualstudio.microsoft.com/subscriptions/support>, scroll to the bottom, and select **Account, Subscription and Billing Support** and then select your country/region from the drop-down list.
 
-1. Go to <https://my.visualstudio.com/Benefits>, scroll down to the Support section, and on the Technical Support tile select **Chat to activate**.
+1. Go to <https://my.visualstudio.com/Benefits>, scroll down to the Support section, and on the Technical Support tile select **Get Help**.
     > [!div class="mx-imgBorder"]
-    > ![Technical Support Benefit Tile](_img/vs-tech-support/vs-tech-support-tile.png "Screenshot of the Technical Support tile. The chat to activate button is highlighted.")
+    > ![Technical Support Benefit Tile](_img/vs-tech-support/visual-studio-tech-support-tile-rev.png "Screenshot of the Technical Support tile. The Get Help button is highlighted.")
 2. You join a chat session with a representative who can create your **Contract ID** and **Access ID** and provide those numbers to you via email so you have them for your records.
 
 3. To complete the process, you need to provide the representative with:
@@ -59,7 +59,7 @@ Product level descriptions: Expand **Unavailable support plans**. If you see **S
 
 ## How to submit an incident using your benefit
 
-**To submit a support request using the benefit, you must first activate it.  Follow the steps in the previous section to complete the activation.**
+**To submit a support request using the benefit, you must first obtain a Contract ID and Access ID.  Follow the steps in the previous section to complete the process.**
 
 When you have your **Contract ID** and **Access ID** set up, you can use it to submit a Tech Support incident. 
 
@@ -116,7 +116,7 @@ To use your Visual Studio subscription technical support benefit for issues rela
 | MSDN Platforms (Standard) | VL, Retail | 2 incidents | Yes |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure | Not available | NA |
 
-<sup>1</sup> *Includes: Student Ambassadors. Excludes: Not for Resale (NFR), Visual Studio Industry Partner (VSIP), Microsoft AI Cloud Partner Program (MAICPP), Full Time Employee (FTE), Microsoft Certified Trainer (MCT) Software & Services Developer, Most Valuable Professional (MVP), Regional Director (RD), Not for Resale Basic (NFR Basic), Independent Software Vendor (ISV), Bug Bounty Program, Microsoft Startups.*
+<sup>1</sup> *Includes: Student Ambassadors. <br><br> Excludes: Not for Resale (NFR), Visual Studio Industry Partner (VSIP), Microsoft AI Cloud Partner Program (MAICPP), Full Time Employee (FTE), Microsoft Certified Trainer (MCT) Software & Services Developer, Most Valuable Professional (MVP), Regional Director (RD), Not for Resale Basic (NFR Basic), Independent Software Vendor (ISV), Bug Bounty Program, Microsoft Startups.*
 
 Not sure which subscription you're using? Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you might have one or more assigned to a different email address. You need to sign in with that email address to see those subscriptions.
 

@@ -1,7 +1,7 @@
 ---
 title: Find in Files Command
 description: Learn about the Find command and how it searches files using some of the options available on the Find in Files tab of the Find and Replace window.
-ms.date: 01/14/2022
+ms.date: 12/4/2025
 ms.topic: reference
 f1_keywords:
 - edit.findinfiles
@@ -12,14 +12,13 @@ author: Mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: general-ide
-monikerRange: "<=vs-2019"
 ---
 # Find in Files Command
 
 Search files using a subset of the options available on the **Find in Files** tab of the **Find and Replace** window.
 
 > [!IMPORTANT]
-> Support for this command was removed in version 16.5 of Visual Studio 2019, and restored in version 17.12 of Visual Studio 2022. If you use this command with versions 16.5-17.11, you might see an error message that says, *Command "Edit.FindinFiles" does not accept arguments or switches.* Some options have been changed in Visual Studio 2022.
+> Support for this command was removed in version 16.5 of Visual Studio 2019, and restored in version 17.12 of Visual Studio 2022. If you use this command with versions 16.5-17.11, you might see an error message that says, *Command "Edit.FindinFiles" doesn't accept arguments or switches.* Some options have been changed in Visual Studio 2022.
 
 ## Syntax
 
@@ -57,13 +56,13 @@ Optional. Directory to search. If the path contains spaces, enclose the entire p
 Optional. Displays a list of file names that contain matches.
 
 /options or /t\
-Optional. Displays a list of the current find option settings and does not perform a search.
+Optional. Displays a list of the current find option settings and doesn't perform a search.
 
 /regex or /r\
 Optional. Uses predefined special characters in the `findwhat` argument as notations that represent patterns of text rather than the literal characters. For a complete list of regular expression characters, see [Regular Expressions](../../ide/using-regular-expressions-in-visual-studio.md).
 
 /reset or /e\
-Optional. Returns the find options to their default settings and does not perform a search.
+Optional. Returns the find options to their default settings and doesn't perform a search.
 
 /stop\
 Optional. Halts the current search operation if one is in progress. Search ignores all other arguments when `/stop` has been specified. For example, to stop the current search you would enter the following:

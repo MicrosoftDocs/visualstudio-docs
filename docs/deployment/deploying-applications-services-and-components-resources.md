@@ -28,9 +28,6 @@ Get help for your deployment task:
 
 - To deploy to a new target, if you have previously created a publish profile, select **New** from the **Publish** screen for the previously configured profile. The **Publish** tool appears.
 
-::: moniker range="<=vs-2019"
-   ![Screenshot of Create a new publish profile.](../deployment/media/create-a-new-publish-profile.png)
-::: moniker-end
 ::: moniker range=">=vs-2022"
    ![Screenshot of Create a new publish profile.](../deployment/media/vs-2022/create-a-new-publish-profile.png)
 ::: moniker-end
@@ -54,9 +51,7 @@ The preceding options appear as shown in the following illustration when you cre
 ::: moniker range=">=vs-2022"
 ![Screenshot of Choose a publishing option.](../deployment/media/vs-2022/quickstart-publish-dialog.png)
 ::: moniker-end
-::: moniker range="vs-2019"
-![Screenshot of Choose a publishing option.](../deployment/media/quickstart-publish-dialog.png)
-::: moniker-end
+
 
 For a quick tour of more general application deployment options, see [First look at deployment](../deployment/deploying-applications-services-and-components.md).
 
@@ -68,11 +63,6 @@ When you choose Azure, you can choose between:
 - A Docker image deployed to [Azure Container Registry](#azure-container-registry)
 - An [Azure Virtual Machine](#azure-virtual-machine)
 
-::: moniker range="<=vs-2019"
-
-![Screenshot of Choose an Azure service.](../deployment/media/quickstart-choose-azure-service.png)
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 

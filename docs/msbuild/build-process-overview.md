@@ -108,7 +108,7 @@ In a single project, targets execute serially. The central issue is how to deter
 
 The target build order is determined by the use of the `BeforeTargets`, `DependsOnTargets`, and `AfterTargets` attributes on each target. The order of later targets can be influenced during execution of an earlier target if the earlier target modifies a property that's referenced in these attributes.
 
-The rules for ordering are described in [Determine the target build order](target-build-order.md#determine-the-target-build-order). The process is determined by a stack structure containing targets to build. The target at the top of this task starts execution, and if it depends on anything else, then those targets are pushed onto the top of the stack, and they start executing.  When there's a target without any dependencies, it executes to completion and its parent target resumes.
+The rules for ordering are described in [Determine the target build order](target-build-order.md#determine-the-target-build-order). The process is determined by a stack structure containing targets to build. The target at the top of this stack starts execution, and if it depends on anything else, then those targets are pushed onto the top of the stack, and they start executing.  When there's a target without any dependencies, it executes to completion and its parent target resumes.
 
 ### Project References
 

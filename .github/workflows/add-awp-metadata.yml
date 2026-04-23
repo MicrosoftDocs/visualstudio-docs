@@ -1,0 +1,304 @@
+name: Add AWP metadata to markdown
+
+on:
+  pull_request_target:
+    types: [opened, synchronize, labeled]
+  # pull_request:
+  #   types: [opened, synchronize, labeled]
+
+jobs:
+  add-awp-metadata:
+    if: contains(github.event.pull_request.labels.*.name, 'awp')
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout PR
+        uses: actions/checkout@v6
+        with:
+          # Checkout PR head via pull refs on the base repository.
+          # This avoids direct access to contributor forks during checkout.
+          ref: refs/pull/${{ github.event.pull_request.number }}/head
+          fetch-depth: 0
+
+      - name: Get changed markdown files
+        id: files
+        run: |
+          git fetch origin "${{ github.base_ref }}"
+          git diff --name-only "origin/${{ github.base_ref }}...HEAD" -- '*.md' > files.txt
+          cat files.txt
+
+      - name: Add or update ms.custom metadata
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          import json
+
+          TAG = "awp-ai"
+
+
+          def contains_awp_tag(value: str) -> bool:
+            normalized = value.strip().strip("\"'")
+            tokens = [token.strip() for token in re.split(r"[,\s]+", normalized) if token.strip()]
+            return TAG in tokens
+
+
+          files_list = Path("files.txt")
+          if not files_list.exists():
+            print("No changed markdown file list found. Skipping.")
+            raise SystemExit(0)
+
+          changed = 0
+          suggestions = []
+
+          for file_name in files_list.read_text(encoding="utf-8").splitlines():
+            rel_path = file_name.strip()
+            if not rel_path:
+              continue
+
+            path = Path(rel_path)
+            if not path.exists() or path.suffix.lower() != ".md":
+              continue
+
+            original = path.read_text(encoding="utf-8")
+            newline = "\r\n" if "\r\n" in original else "\n"
+            has_bom = original.startswith("\ufeff")
+            content = original[1:] if has_bom else original
+            lines = content.splitlines()
+            modified = False
+
+            if not lines or lines[0].strip() != "---":
+              lines = ["---", f"ms.custom: {TAG}", "---", ""] + lines
+              modified = True
+              print(f"{rel_path}: added front matter with ms.custom.")
+            else:
+              end_index = None
+              for idx in range(1, len(lines)):
+                if lines[idx].strip() == "---":
+                  end_index = idx
+                  break
+
+              if end_index is None:
+                lines = ["---", f"ms.custom: {TAG}", "---", ""] + lines
+                modified = True
+                print(f"{rel_path}: added missing closing front matter and ms.custom.")
+              else:
+                front_matter = lines[1:end_index]
+                body = lines[end_index + 1 :]
+
+                ms_custom_index = None
+                for idx, fm_line in enumerate(front_matter):
+                  if re.match(r"^\s*ms\.custom\s*:", fm_line):
+                    ms_custom_index = idx
+                    break
+
+                if ms_custom_index is None:
+                  front_matter.append(f"ms.custom: {TAG}")
+                  modified = True
+                  print(f"{rel_path}: added ms.custom.")
+                  suggestions.append({
+                    "file": rel_path,
+                    "start_line": end_index + 1,
+                    "end_line": end_index + 1,
+                    "suggestion": f"ms.custom: {TAG}\n---"
+                  })
+                else:
+                  line = front_matter[ms_custom_index]
+                  key, _, value = line.partition(":")
+                  value = value.strip()
+
+                  if value:
+                    if contains_awp_tag(value):
+                      print(f"{rel_path}: ms.custom already includes {TAG}; skipping.")
+                    else:
+                      quote = ""
+                      if len(value) >= 2 and value[0] == value[-1] and value[0] in ("\"", "'"):
+                        quote = value[0]
+
+                      inner_value = value[1:-1] if quote else value
+                      inner_value = inner_value.strip()
+                      updated_inner = f"{inner_value}, {TAG}" if inner_value else TAG
+                      updated_value = f"{quote}{updated_inner}{quote}" if quote else updated_inner
+                      front_matter[ms_custom_index] = f"{key}: {updated_value}"
+                      modified = True
+                      print(f"{rel_path}: updated ms.custom with {TAG}.")
+                      suggestions.append({
+                        "file": rel_path,
+                        "start_line": ms_custom_index + 2,
+                        "end_line": ms_custom_index + 2,
+                        "suggestion": front_matter[ms_custom_index]
+                      })
+                  else:
+                    block_end = ms_custom_index + 1
+                    while block_end < len(front_matter):
+                      if re.match(r"^[A-Za-z0-9_.-]+\s*:", front_matter[block_end]):
+                        break
+                      block_end += 1
+
+                    has_tag = False
+                    list_indent = "  "
+                    for idx in range(ms_custom_index + 1, block_end):
+                      match = re.match(r"^(\s*)-\s*(.+?)\s*$", front_matter[idx])
+                      if match:
+                        list_indent = match.group(1)
+                        list_value = match.group(2).strip().strip("\"'")
+                        if list_value == TAG:
+                          has_tag = True
+                          break
+
+                    if has_tag:
+                      print(f"{rel_path}: ms.custom already includes {TAG}; skipping.")
+                    else:
+                      front_matter.insert(block_end, f"{list_indent}- {TAG}")
+                      modified = True
+                      print(f"{rel_path}: updated ms.custom list with {TAG}.")
+                      suggestions.append({
+                        "file": rel_path,
+                        "start_line": ms_custom_index + 2,
+                        "end_line": block_end + 1,
+                        "suggestion": "\n".join(front_matter[ms_custom_index:block_end + 1])
+                      })
+
+                lines = ["---"] + front_matter + ["---"] + body
+
+            if modified:
+              new_content = newline.join(lines)
+              if content.endswith(("\n", "\r\n")):
+                new_content += newline
+              if has_bom:
+                new_content = "\ufeff" + new_content
+
+              path.write_text(new_content, encoding="utf-8")
+              changed += 1
+
+          print(f"Updated {changed} markdown file(s).")
+          Path("suggestions.json").write_text(json.dumps(suggestions, indent=2), encoding="utf-8")
+          print(f"Wrote {len(suggestions)} suggestion(s) to suggestions.json.")
+          PY
+
+      - name: Commit changes
+        id: commit
+        run: |
+          rm -f files.txt
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+
+          if git diff --quiet; then
+            echo "No changes"
+            echo "status=none" >> "$GITHUB_OUTPUT"
+          else
+            # Capture the list of files that were modified
+            git diff --name-only > updated_files.txt
+            cat updated_files.txt
+
+            git add -u
+            git commit -m "Add ms.custom awp-ai metadata"
+
+            if [ "${{ github.event.pull_request.head.repo.full_name }}" = "${{ github.repository }}" ]; then
+              if git push origin "HEAD:${{ github.event.pull_request.head.ref }}"; then
+                echo "Changes pushed to PR branch."
+                echo "status=pushed" >> "$GITHUB_OUTPUT"
+              else
+                echo "::warning::Unable to push changes to the PR branch in this repository."
+                echo "status=push-failed" >> "$GITHUB_OUTPUT"
+              fi
+            else
+              echo "::warning::Fork PR detected. Auto-push skipped."
+              echo "status=fork" >> "$GITHUB_OUTPUT"
+            fi
+          fi
+
+      - name: Post review suggestions for metadata updates
+        if: steps.commit.outputs.status == 'fork' || steps.commit.outputs.status == 'push-failed'
+        uses: actions/github-script@v9
+        with:
+          script: |
+            const fs = require('fs');
+            if (!fs.existsSync('suggestions.json')) {
+              console.log('No suggestions.json found; skipping.');
+              return;
+            }
+            const suggestions = JSON.parse(fs.readFileSync('suggestions.json', 'utf8'));
+            if (suggestions.length === 0) {
+              console.log('No suggestions to post.');
+              return;
+            }
+
+            const commitId = context.payload.pull_request.head.sha;
+            const failed = [];
+
+            for (const s of suggestions) {
+              const body = [
+                'Add `ms.custom: awp-ai` metadata:',
+                '```suggestion',
+                s.suggestion,
+                '```'
+              ].join('\n');
+
+              const params = {
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: context.issue.number,
+                commit_id: commitId,
+                path: s.file,
+                line: s.end_line,
+                side: 'RIGHT',
+                body,
+              };
+
+              if (s.start_line !== s.end_line) {
+                params.start_line = s.start_line;
+                params.start_side = 'RIGHT';
+              }
+
+              try {
+                await github.rest.pulls.createReviewComment(params);
+                console.log(`Posted suggestion for ${s.file} (lines ${s.start_line}-${s.end_line})`);
+              } catch (err) {
+                console.log(`Suggestion failed for ${s.file}: ${err.message}`);
+                failed.push(s.file);
+              }
+            }
+
+            // Fallback: post a regular PR comment for files where suggestions failed
+            if (failed.length > 0) {
+              const fileList = failed.map(f => `- \`${f}\``).join('\n');
+              const body = [
+                '## AWP metadata update needed',
+                '',
+                'Could not post commit suggestions for these files (front matter may not be in the diff). Please add `ms.custom: awp-ai` manually:',
+                '',
+                fileList,
+                '',
+                '> This comment was posted automatically by the **Add AWP metadata** workflow.',
+              ].join('\n');
+
+              const { data: comments } = await github.rest.issues.listComments({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+              });
+              const existing = comments.find(c =>
+                c.user.type === 'Bot' && c.body.includes('## AWP metadata update needed')
+              );
+
+              if (existing) {
+                await github.rest.issues.updateComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  comment_id: existing.id,
+                  body,
+                });
+              } else {
+                await github.rest.issues.createComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: context.issue.number,
+                  body,
+                });
+              }
+            }

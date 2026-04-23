@@ -1,7 +1,7 @@
 ---
 title: Windows Forms Designer tutorial
 description: 'Use Windows Forms Designer to build applications and arrange controls, set margins and padding, adjust layout, size, and display, and set property values.'
-ms.date: 8/5/2025
+ms.date: 02/20/2026
 ms.topic: tutorial
 helpviewer_keywords:
 - Windows Forms Designer, get started
@@ -9,6 +9,7 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: ui-designers
+ms.custom: awp-ai
 ---
 # Tutorial: Get started with Windows Forms Designer
 
@@ -25,23 +26,27 @@ The Windows Forms Designer provides many tools for building Windows Forms applic
 
 When you're finished, you'll have a custom control that's been assembled by using many of the layout features available in the Windows Forms Designer. This control implements the user interface (UI) for a simple calculator. The following image shows the general layout of the calculator control:
 
+:::moniker range="visualstudio"
+
+![Screenshot of the completed user interface for the calculator control.](media/visualstudio/calculator-ui.png)
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+
 ![Screenshot of the completed user interface for the calculator control.](media/calculator-ui.png)
+
+:::moniker-end
 
 > [!TIP]
 > If you're a C++ developer and are looking for a tutorial to help you create a Windows app that includes forms and controls, see [Creating a forms-based MFC application](/cpp/mfc/reference/creating-a-forms-based-mfc-application?view=msvc-170&preserve-view=true). For more generalized info, see [Overview of Windows programming in C++](/cpp/windows/overview-of-windows-programming-in-cpp?view=msvc-170&preserve-view=true).
 
 ## Prerequisites
 
-::: moniker range="=vs-2019"
-
-- If you don't have Visual Studio, go to [Visual Studio downloads](https://visualstudio.microsoft.com/vs/) to install it for free.
-- The **.NET desktop development** workload. To verify or install this workload in Visual Studio, select **Tools** > **Get Tools and Features**. For more information, see [Change workloads or individual components](../install/modify-visual-studio.md#change-workloads-or-individual-components).
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
-- If you don't have Visual Studio, go to [Visual Studio 2022 downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-create-csharp-winform-app-page-cta) to install it for free.
+- If you don't have Visual Studio, go to [Visual Studio downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-create-csharp-winform-app-page-cta) to install it for free.
 - The **.NET desktop development** workload. To verify or install this workload in Visual Studio, select **Tools** > **Get Tools and Features**. For more information, see [Change workloads or individual components](../install/modify-visual-studio.md#change-workloads-or-individual-components).
 
 ::: moniker-end
@@ -52,7 +57,18 @@ The first step is to create the DemoCalculator control project.
 
 1. Open Visual Studio and create a new **Windows Forms Control Library** project by using the .NET Framework template for either C# or Visual Basic. Name the project **DemoCalculatorLib**.
 
+   :::moniker range="visualstudio"
+  
+   ![Screenshot of the Windows Forms Control Library template in Visual Studio.](media/visualstudio/windows-forms-control-library-template.png)
+ 
+   :::moniker-end
+
+
+   :::moniker range="<=vs-2022"
+  
    ![Screenshot of the Windows Forms Control Library template in Visual Studio.](media/windows-forms-control-library-template.png)
+ 
+   :::moniker-end
 
 1. To rename the file, in **Solution Explorer**, right-click **UserControl1.vb** or **UserControl1.cs**, select **Rename**, and change the file name to DemoCalculator.vb or DemoCalculator.cs. Select **Yes** when you're asked if you want to rename all references to the code element "UserControl1".
 
@@ -329,3 +345,4 @@ This article has demonstrated how to construct the user interface for a simple c
 - [Windows Forms controls](/dotnet/framework/winforms/controls/)
 - [Accessibility for Windows Forms controls](/dotnet/framework/winforms/controls/providing-accessibility-information-for-controls-on-a-windows-form)
 - [Publish by using ClickOnce](../deployment/how-to-publish-a-clickonce-application-using-the-publish-wizard.md)
+- [Use .NET custom agents with GitHub Copilot](../ide/copilot-specialized-agents.md#net-development-agents)

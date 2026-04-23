@@ -8,7 +8,9 @@ f1_keywords:
 - cs.ProjectPropertiesApplication
 helpviewer_keywords:
 - Project Designer
-ms.custom: "ide-ref"
+ms.custom: 
+- "ide-ref"
+- awp-ai
 author: mikejo5000
 ms.author: mikejo
 manager: mijacobs
@@ -17,7 +19,7 @@ monikerRange: '>= vs-2022'
 ---
 # .NET Project Designer
 
-Use the **Project Designer** to specify the project's settings and properties for .NET Core and .NET 5+. For .NET Framework, see [What is the .NET Project Designer?](../ide/reference/project-properties-reference.md).
+Use the **Project Designer** to specify the project's settings and properties for .NET. For .NET Framework properties or for an overview of all project properties, see [Manage project and solution properties](managing-project-and-solution-properties.md).
 
 To access the Project Designer, choose a project node (not the **Solution** node) in **Solution Explorer**. Then choose **Project** > **Properties** on the menu bar. The **Project Designer** appears.
 
@@ -39,9 +41,9 @@ For information about how to access this property programmatically, see <xref:VS
 
 Specifies the version of .NET that the application targets. This option can have different values depending on which versions of .NET are installed on your computer.
 
-For a project that targets .NET Core or .NET 5+, the available versions might appear as follows:
+For a project that targets .NET, the available versions might appear as follows:
 
-:::image type="content" source="media/vs-2022/application-target-framework.png" alt-text="Screenshot of the target framework versions for a .NET Core project in Visual Studio 2022.":::
+:::image type="content" source="media/vs-2022/application-target-framework.png" alt-text="Screenshot of the target framework versions for a .NET project in Visual Studio 2022.":::
 
 > [!NOTE]
 > For ClickOnce applications, the prerequisite packages listed in the [Prerequisites Dialog Box](../ide/reference/prerequisites-dialog-box.md) are set automatically the first time that you open the dialog box. If you subsequently change the project's target framework, you must select the prerequisites manually to match the new target framework.
@@ -50,7 +52,7 @@ For more information, see [Framework targeting overview](../ide/visual-studio-mu
 
 **Target OS**
 
-Specifies the operating system that the project will target. Combined with the target framework, this generates a [.NET 5+ OS-specific TF](/dotnet/standard/frameworks#net-5-os-specific-tfms).
+Specifies the operating system that the project will target. Combined with the target framework, this generates a [.NET OS-specific TFM](/dotnet/standard/frameworks#net-5-os-specific-tfms).
 
 **Startup object**
 

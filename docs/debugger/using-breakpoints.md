@@ -1,7 +1,7 @@
 ---
 title: Use the right type of breakpoint
 description: Learn about the different types of breakpoints, one of the most important debugging techniques. The article covers breakpoint actions, tracepoints, conditions, and much more.
-ms.date: 09/03/2025
+ms.date: 03/11/2026
 ms.topic: how-to
 f1_keywords: 
   - vs.debug.breakpt.new
@@ -15,6 +15,7 @@ f1_keywords:
   - vs.debug.breakpt.action
   - vs.debug.data
   - vs.debug.func
+  - vs.debug.whenbreakpointishit
 helpviewer_keywords: 
   - breakpoints, types of
 author: mikejo5000
@@ -66,13 +67,14 @@ You can control when and where a breakpoint executes by setting conditions. The 
    ::: moniker-end
 
    You can also set conditions in the **Breakpoints** window by right-clicking a breakpoint and selecting **Settings**, and then selecting **Conditions**
+   ::: moniker range="visualstudio"
+   ![Screenshot that shows the breakpoint settings.](../debugger/media/visualstudio/breakpoint-settings.png "BreakpointSettings")
+   ::: moniker-end
 
-   ::: moniker range=">= vs-2022"
+   ::: moniker range="vs-2022"
    ![Breakpoint settings](../debugger/media/vs-2022/breakpoint-settings.png "BreakpointSettings")
    ::: moniker-end
-   ::: moniker range="<= vs-2019"
-   ![Breakpoint settings](../debugger/media/breakpointsettings.png "BreakpointSettings")
-   ::: moniker-end
+
 
 2. In the dropdown, select **Conditional Expression**, **Hit Count**, or **Filter**, and set the value accordingly.
 
@@ -80,7 +82,17 @@ You can control when and where a breakpoint executes by setting conditions. The 
 
 Breakpoints with conditions set appear with a **+** symbol in the source code and **Breakpoints** windows.
 
-::: moniker range=">= vs-2022"
+::: moniker range="visualstudio"
+## Get AI assistance
+
+If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while you're creating a conditional breakpoint. Copilot gives you suggestions for [conditional breakpoints](../debugger/using-breakpoints.md#breakpoint-conditions) and [tracepoints](../debugger/using-tracepoints.md) that are specific to your code. 
+
+![Screenshot of Copilot working on conditional breakpoint suggestions.](../debugger/media/visualstudio/debug-with-copilot-breakpoint-ask-copilot.png)
+
+For a step-by-step example, see [Debug with Copilot](../debugger/debug-with-copilot.md#get-suggestions-with-conditional-breakpoints-and-tracepoints).
+::: moniker-end
+
+::: moniker range="vs-2022"
 ## Get AI assistance
 
 If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while you're creating a conditional breakpoint. Copilot gives you suggestions for [conditional breakpoints](../debugger/using-breakpoints.md#breakpoint-conditions) and [tracepoints](../debugger/using-tracepoints.md) that are specific to your code. 
@@ -97,21 +109,25 @@ When you select **Conditional Expression**, you can choose between two condition
 
 In the following example, the breakpoint is hit only when the value of `testInt` is **4**:
 
-::: moniker range=">= vs-2022"
+::: moniker range="visualstudio"
+![Screenshot that shows a breakpoint with a condition of Is true.](../debugger/media/visualstudio/breakpoint-condition-is-true.png "Breakpoint Is true")
+::: moniker-end
+
+::: moniker range="vs-2022"
 ![Breakpoint condition is true](../debugger/media/vs-2022/breakpoint-condition-is-true.png "Breakpoint Is true")
 ::: moniker-end
-::: moniker range="<= vs-2019"
-![Breakpoint condition is true](../debugger/media/breakpointconditionistrue.png "Breakpoint Is true")
-::: moniker-end
+
 
 In the following example, the breakpoint is hit only when the value of `testInt` changes:
 
-::: moniker range=">= vs-2022"
+::: moniker range="visualstudio"
+![Screenshot that shows a When changed breakpoint.](../debugger/media/visualstudio/breakpoint-when-changed.png "Breakpoint When changed")
+::: moniker-end
+
+::: moniker range="vs-2022"
 ![Breakpoint When changed](../debugger/media/vs-2022/breakpoint-when-changed.png "Breakpoint When changed")
 ::: moniker-end
-::: moniker range="<= vs-2019"
-![Breakpoint When changed](../debugger/media/breakpointwhenchanged.png "Breakpoint When changed")
-::: moniker-end
+
 
 If you set a breakpoint condition with invalid syntax, a warning message appears. If you specify a breakpoint condition with valid syntax but invalid semantics, a warning message appears the first time the breakpoint is hit. In either case, the debugger breaks when it hits the invalid breakpoint. The breakpoint is skipped only if the condition is valid and evaluates to `false`.
 
@@ -151,12 +167,14 @@ If you suspect that a loop in your code starts misbehaving after a certain numbe
 
 Under **Conditions** in the **Breakpoint Settings** window, select **Hit Count**, and then specify the number of iterations. In the following example, the breakpoint is set to hit on every other iteration:
 
-::: moniker range=">= vs-2022"
+::: moniker range="visualstudio"
+![Screenshot that shows a breakpoint with a Hit Count condition.](../debugger/media/visualstudio/breakpoint-hit-count.png "BreakpointHitCount")
+::: moniker-end
+
+::: moniker range="vs-2022"
 ![Breakpoint hit count](../debugger/media/vs-2022/breakpoint-hit-count.png "BreakpointHitCount")
 ::: moniker-end
-::: moniker range="<= vs-2019"
-![Breakpoint hit count](../debugger/media/breakpointhitcount.png "BreakpointHitCount")
-::: moniker-end
+
 
 ### Set a filter condition
 
@@ -225,7 +243,34 @@ You can break execution when a function is called. This is useful, for example, 
    ((my_class *) 0xcccccccc)->my_method
    ```
 ::: zone-end
-::: moniker range=">= vs-2019"
+
+::: moniker range="visualstudio"
+
+::: zone pivot="programming-language-dotnet"
+## <a name="BKMK_set_a_data_breakpoint_managed"></a>Set data breakpoints (.NET Core 3.x or .NET 5+)
+
+Data breakpoints break execution when a specific object's property changes.
+
+To set a data breakpoint:
+
+1. In a .NET Core or .NET 5+ project, start debugging, and wait until a breakpoint is reached.
+
+2. In the **Autos**, **Watch**, or **Locals** window, right-click a property and select **Break when value changes** in the context menu.
+
+    ![Screenshot that shows the Break When Value Changes command.](../debugger/media/visualstudio/managed-data-breakpoint.png "Managed Data Breakpoint")
+
+Data breakpoints for .NET Core and .NET 5+ won't work for:
+
+- Properties that are not expandable in the tooltip, Locals, Autos, or Watch window
+- Static variables
+- Classes with the DebuggerTypeProxy Attribute
+- Fields inside of structs
+
+For the maximum number that you can set, see [Data breakpoint hardware limits](#data-breakpoint-hardware-limits).
+::: zone-end
+::: moniker-end
+
+::: moniker range="vs-2022"
 
 ::: zone pivot="programming-language-dotnet"
 ## <a name="BKMK_set_a_data_breakpoint_managed"></a>Set data breakpoints (.NET Core 3.x or .NET 5+)
@@ -289,7 +334,51 @@ The Windows kernel and the underlying hardware have the following limits when se
 |ARM64|2|
 |ARM|1|
 ::: zone-end
-::: moniker range=">= vs-2022"
+
+::: moniker range="visualstudio"
+## <a name="BKMK_set_a_dependent_breakpoint"></a>Set a dependent breakpoint
+
+Dependent breakpoints break execution only if another breakpoint is first hit. So, in a complex scenario such as  debugging a multi-threaded application, you can configure the additional breakpoints after another breakpoint is first hit. This can make debugging code in common paths such as game loop or a utility API much easier because a breakpoint in those functions can be configured to enable only if the function is invoked from a specific part of your application.
+
+**To set a dependent breakpoint:**
+
+1. Hover over the breakpoint symbol, choose the **Settings** icon, and then select **Only enable when the following breakpoint is hit** in the Breakpoint Settings window.
+
+2. In the dropdown, select the prerequisite breakpoint you want your current breakpoint to be dependent on.
+
+Choose **Close** or press **Ctrl+Enter** to close the Breakpoint Settings window. Or, from the Breakpoints window, choose **OK** to close the dialog.
+![Screenshot that shows a dependent breakpoint.](../debugger/media/visualstudio/dependent-breakpoint.png "DependentBreakpoint")
+
+You can also use the right-click context menu to set the dependent breakpoint.
+
+Right-click in the far left margin next to a line of code and select **Insert Dependent Breakpoint** from the context menu.
+
+   ![Screenshot that shows the Insert Dependent Breakpoint command.](../debugger/media/visualstudio/dependent-breakpoint-context.png "DependentBreakpointContext")
+
+- Dependent breakpoints don't work if there is only a single breakpoint in your application. 
+- Dependent breakpoints are converted to normal line breakpoint if the prerequisite breakpoint is deleted. 
+
+## <a name="BKMK_set_a_temporary_breakpoint"></a>Set a Temporary breakpoint
+
+This breakpoint lets you break the code only once. When debugging, the Visual Studio debugger only pauses the running application once for this breakpoint and then disables it immediately after it has been hit.
+
+**To set a temporary breakpoint:**
+
+1. Hover over the breakpoint symbol, choose the **Settings** icon, and then select **Disable breakpoint once hit** in the Breakpoint Settings window.
+2. Choose **Close** or press **Ctrl+Enter** to close the Breakpoint Settings window. Or, from the Breakpoints window, choose **OK** to close the dialog.
+
+   ![Screenshot that shows a temporary breakpoint.](../debugger/media/visualstudio/temporary-breakpoint.png "TemporaryBreakpoint")
+
+You can also use the right-click context menu to set the temporary breakpoint.
+
+Right-click in the far left margin next to a line of code and select **Insert Temporary Breakpoint** from the context menu.
+
+   ![Screenshot that shows the Insert Temporary Breakpoint command.](../debugger/media/visualstudio/temporary-breakpoint-context.png "TemporaryBreakpointContext")
+
+Or, simply use the shortcut **F9 + Shift + Alt, T** and  set the temporary breakpoint on line desired.
+::: moniker-end
+
+::: moniker range="vs-2022"
 ## <a name="BKMK_set_a_dependent_breakpoint"></a>Set a dependent breakpoint
 
 Dependent breakpoints break execution only if another breakpoint is first hit. So, in a complex scenario such as  debugging a multi-threaded application, you can configure the additional breakpoints after another breakpoint is first hit. This can make debugging code in common paths such as game loop or a utility API much easier because a breakpoint in those functions can be configured to enable only if the function is invoked from a specific part of your application.

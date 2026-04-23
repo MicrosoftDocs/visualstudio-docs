@@ -9,6 +9,7 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: ui-designers
+ms.custom: awp-ai
 #customer intent: As a developer, I want to use Windows Forms Designer in Visual Studio, so I can arrange controls, set margins and padding, and adjust the layout, size, and display of forms.
 ---
 # What is Windows Forms Designer?
@@ -39,8 +40,12 @@ When you work with Windows Forms Designer in Visual Studio, exercise caution in 
 
 - Resources in a _.resx_ file can be serialized by using the [BinaryFormatter](/dotnet/api/system.runtime.serialization.formatters.binary.binaryformatter) type. However, this type presents deserialization risks. The type is [insecure and not trustworthy](/dotnet/standard/serialization/binaryformatter-security-guide). Use Windows Forms Designer to work only with forms and controls that you trust.
 
+> [!TIP]
+> Use the [WinForms Expert custom agent](../ide/copilot-specialized-agents.md#winforms-expert) with GitHub Copilot for AI-assisted guidance that protects your designer code, follows modern .NET patterns, and understands WinForms layout best practices.
+
 ## Related content
 
 - [Windows Forms overview](/dotnet/framework/winforms/windows-forms-overview)
 - [Windows Forms controls](/dotnet/framework/winforms/controls/)
 - [User input in Windows Forms](/dotnet/framework/winforms/user-input-in-windows-forms)
+- [Use built-in and custom agents with GitHub Copilot](../ide/copilot-specialized-agents.md)

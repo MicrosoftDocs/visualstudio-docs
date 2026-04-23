@@ -5,16 +5,18 @@ ms.custom: vs-acquisition
 dev_langs:
   - "CSharp"
   - "VB"
-ms.date: 10/18/2024
+ms.date: 02/13/2026
 ms.topic: tutorial
-author: anandmeg
-ms.author: meghaanand
+author: MikeJo5000
+ms.author: mikejo
 manager: mijacobs
 ms.subservice: general-ide
+
+#customer intent: As a developer, I want to learn how to use code in an event handler in a Windows Forms application.
 ---
 # Tutorial: Add math problems to a math quiz WinForms app
 
-In this series of four tutorials, you'll build a math quiz. The quiz contains four random math problems that a quiz taker tries to answer within a specified time.
+In this series of four tutorials, you build a math quiz. The quiz contains four random math problems that a quiz taker tries to answer in a specified time.
 
 Controls use C# or Visual Basic code. In this second tutorial, you make the quiz challenging by adding code for math problems that are based on random numbers. You also create a method that's named `StartTheQuiz()` to fill in the problems.
 
@@ -33,17 +35,18 @@ This tutorial builds on a previous tutorial, [Create a math quiz WinForms app](t
 
 1. In your Visual Studio project, select **Windows Forms Designer**.
 
-1. Select the form, **Form1**.
+2. Select the form, **Form1**.
 
-1. On the menu bar, select **View** > **Code**. *Form1.cs* or *Form1.vb* appears, depending on the programming language that you're using, so that you can view the code behind the form.
+3. On the menu bar, select **View** > **Code**. *Form1.cs* or *Form1.vb* appears, depending on the programming language that you're using, so that you can view the code behind the form.
 
-1. Create a <xref:System.Random> object by adding a `new` statement near the top of the code in *Form1.cs* or *Form1.vb*.
+4. Create a <xref:System.Random> object by adding a `new` statement near the top of the code in *Form1.cs* or *Form1.vb*.
 
    ### [C#](#tab/csharp)
    :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step2/cs/form1.cs" id="Snippet1":::
 
    ### [VB](#tab/vb)
    :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step2/vb/form1.vb" id="Snippet1":::
+
    ---
 
    You can use `new` statements like this one to create buttons, labels, panels, OpenFileDialogs, ColorDialogs, SoundPlayers, Randoms, and even forms. These items are called *objects*.
@@ -52,7 +55,7 @@ This tutorial builds on a previous tutorial, [Create a math quiz WinForms app](t
 
    Your quiz needs variables to store the random numbers that it creates for each problem. Before using variables, you declare them, which means listing their names and data types.
 
-1. Add two integer variables to the form, and name them **addend1** and **addend2** in *Form1.cs* or *Form1.vb*.
+5. Add two integer variables to the form, and name them **addend1** and **addend2** in *Form1.cs* or *Form1.vb*.
 
    > [!NOTE]
    > An integer variable is known as an *int* in C# or an *Integer* in Visual Basic. This kind of variable stores a positive or negative number from -2147483648 through 2147483647 and can store only whole numbers, not decimals.
@@ -64,15 +67,17 @@ This tutorial builds on a previous tutorial, [Create a math quiz WinForms app](t
 
    ### [VB](#tab/vb)
    :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step2/vb/form1.vb" id="Snippet2":::
+
    ---
 
-1. Add a method that's named `StartTheQuiz()` *Form1.cs* or *Form1.vb*. This method uses the Random object's <xref:System.Random.Next> method to generate random numbers for the labels. `StartTheQuiz()` will eventually fill in all the problems and then start the timer, so add this information to the summary comment. The function should look like the following code.
+6. Add a method that's named `StartTheQuiz()` to *Form1.cs* or *Form1.vb*. This method uses the Random object's <xref:System.Random.Next> method to generate random numbers for the labels. `StartTheQuiz()` eventually fills in all the problems and then starts the timer, so add this information to the summary comment. The function should look like the following code.
 
    ### [C#](#tab/csharp)
    :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step2/cs/form1.cs" id="Snippet3":::
 
    ### [VB](#tab/vb)
    :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step2/vb/form1.vb" id="Snippet3":::
+
    ---
 
    When you use the `Next()` method with a Random object, such as when you call `randomizer.Next(51)`, you get a random number that's less than 51, or between 0 and 50. This code calls `randomizer.Next(51)` so that the two random numbers add up to an answer that's between 0 and 100.
@@ -84,6 +89,7 @@ This tutorial builds on a previous tutorial, [Create a math quiz WinForms app](t
 
    ### [VB](#tab/vb)
    :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step2/vb/form1.vb" id="Snippet18":::
+
    ---
 
    These statements set the **Text** properties of **plusLeftLabel** and **plusRightLabel** so that they display the two random numbers. Label controls display values in text format, and in programming, strings hold text. Each integer's `ToString()` method converts the integer into text that a label can display.
@@ -99,9 +105,10 @@ The next step is to declare variables and provide random values for the other ma
 
    ### [VB](#tab/vb)
    :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial3step7/vb/form1.vb" range="2-27":::
+
    ---
 
-1. Modify the `StartTheQuiz()` method in *Form1.cs* or *Form1.vb* by adding the following code, starting with the "Fill in the subtraction problem" comment.
+2. Modify the `StartTheQuiz()` method in *Form1.cs* or *Form1.vb* by adding the following code, starting with the "Fill in the subtraction problem" comment.
 
    ### [C#](#tab/csharp)
    :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial3step7/cs/form1.cs" range="51-94":::
@@ -116,11 +123,11 @@ The next step is to declare variables and provide random values for the other ma
 
 ## Add an event handler to the start button
 
-In this section, you add code to start the quiz when the start button is selected. Code that runs in reaction to an event like a button selection is called an event handler.
+In this section, you add code to start the quiz when the start button is selected. Code that runs in reaction to an event like a button selection is called an *event handler*.
 
 1. In **Windows Forms Designer**, either double-click the **Start the quiz** button, or select it and then select **Enter**. The form's code appears, and a new method is visible.
 
-   These actions add a [*Click*](/dotnet/api/system.windows.forms.control.click) event handler to the start button. When a quiz taker selects this button, the app runs the code that you'll add to this new method.
+   These actions add a [*Click*](/dotnet/api/system.windows.forms.control.click) event handler to the start button. When a quiz taker selects this button, the app runs the code that you add to this new method.
 
 1. Add the following two statements so that the event handler starts the quiz.
 
@@ -141,7 +148,7 @@ In this section, you add code to start the quiz when the start button is selecte
 
    :::image type="content" source="../media/tutorial-windows-forms-timed-math-quiz/random-math-problems.png" alt-text="Screenshot that shows random values in all four math problems. The Start the quiz button appears dimmed.":::
 
-## Next steps
+## Next step
 
 Advance to the next tutorial to add a timer to your math quiz and check user answers.
 > [!div class="nextstepaction"]

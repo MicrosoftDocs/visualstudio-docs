@@ -1,7 +1,7 @@
 ---
 title: "Tutorial: Create a Node.js and Express app"
 description: Follow this tutorial and learn how to create a basic Node.js application by using the Express web application framework in Visual Studio.
-ms.date: 12/17/2024
+ms.date: 04/21/2026
 ms.custom: vs-acquisition
 ms.topic: tutorial
 ms.devlang: javascript
@@ -35,7 +35,7 @@ In this tutorial, you:
 
 - Visual Studio 2022 **version 17.12** or later with the **ASP.NET and web development** workload installed.
 
-   - To install Visual Studio for free, go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page.
+   - To install Visual Studio for free, go to the [Visual Studio downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) page.
 
    - If you already have Visual Studio, you can install the workload from within the Interactive Development Environment (IDE):
    
@@ -61,8 +61,14 @@ Follow these steps to create a new Node.js app in Visual Studio:
 
 1. In the Visual Studio **Start** window (**File** > **Start Window**), select **Create a new project**:
 
+   :::moniker range="visualstudio"
+   :::image type="content" source="media/visualstudio/create-new-project.png" alt-text="Screenshot that shows how to select the Create a new project option in the Visual Studio Start window.":::
+   :::moniker-end  
+
+   :::moniker range="vs-2022"
    :::image type="content" source="media/vs-2022/create-new-project.png" alt-text="Screenshot that shows how to select the Create a new project option in the Visual Studio Start window.":::
-   
+   :::moniker-end  
+
 1. In the **Search** box, enter _Express_, and select the **JavaScript Express Application** template in the list of results:
 
    :::image type="content" source="media/vs-2022/express-choose-template.png" alt-text="Screenshot that shows how to search for and select the JavaScript Express Application template in the Visual Studio Start window.":::

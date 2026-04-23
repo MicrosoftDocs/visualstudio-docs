@@ -1,7 +1,7 @@
 ---
 title: Display custom info using DebuggerDisplay
 description: Use an instance of DebuggerDisplayAttribute to control how an object, property, or field is displayed in the debugger variable windows.
-ms.date: 04/15/2025
+ms.date: 11/06/2025
 ms.topic: how-to
 helpviewer_keywords: 
   - attributes, debugger
@@ -16,14 +16,22 @@ ms.subservice: debug-diagnostics
 
 The <xref:System.Diagnostics.DebuggerDisplayAttribute> controls how an object, property, or field is displayed in the debugger variable windows. This attribute can be applied to types (classes, structs, enums, delegates), but is typically applied only to classes and structs. If applied to a base type, the attribute also applies to a subclass.
 
-The `DebuggerDisplay` attribute has a single argument, which is a string to be displayed in the value column for instances of the type. This string can contain braces (`{` and `}`). Text within a pair of braces is evaluated as a field, property or method.
+The `DebuggerDisplay` attribute has a single argument, which is a string to be displayed in the value column for instances of the type. This string can contain braces (`{` and `}`). Text within a pair of braces is evaluated as a field, property, or method.
 
-If a class has an overridden `ToString()` method, the debugger uses the overridden method instead of the default `{<typeName>}`. In this case you do not have to use `DebuggerDisplay`. If you use both, the `DebuggerDisplay` attribute takes precedence over the overridden `ToString()` method. The `DebuggerDisplay` attribute also takes precedence over the overridden `ToString()` method in a subclass.
+If a class has an overridden `ToString()` method, the debugger uses the overridden method instead of the default `{<typeName>}`. In this case you don't have to use `DebuggerDisplay`. If you use both, the `DebuggerDisplay` attribute takes precedence over the overridden `ToString()` method. The `DebuggerDisplay` attribute also takes precedence over the overridden `ToString()` method in a subclass.
 
-Whether the debugger evaluates this implicit `ToString()` call depends on a user setting in the **Tools / Options / Debugging** dialog box.
+Whether the debugger evaluates this implicit `ToString()` call depends on a **Debugging** option under **Tools** (or **Debug**) > **Options**.
+
+:::moniker range="visualstudio"
 
 > [!IMPORTANT]
-> If the **Show raw structure of objects in variables windows** check box is selected in the **Tools / Options / Debugging** dialog box, then the `DebuggerDisplay` attribute is ignored.
+> If you select the **Show raw structure of objects in variables windows** option, the `DebuggerDisplay` attribute is ignored. This setting is located in the **Tools** > **Options** pane in the **All Settings** > **Debugging** > **General** section.
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+> [!IMPORTANT]
+> If you select the **Show raw structure of objects in variables windows** option, the `DebuggerDisplay` attribute is ignored. This setting is located in the **Tools** > **Options** dialog in the **Debugging** > **General** section.
+:::moniker-end
 
 > [!NOTE]
 > For native code, this attribute is supported only in C++/CLI code.
@@ -55,13 +63,13 @@ The changes to *autoexp.dll* will be picked up in the next debug session.
 
 ## Using Expressions in DebuggerDisplay
 
-Although you can use a general expression between the braces in a DebuggerDisplay attribute, this practice is not recommended.
+Although you can use a general expression between the braces in a DebuggerDisplay attribute, this practice isn't recommended.
 
-A general expression in DebuggerDisplay has implicit access to the `this` pointer for the current instance of the target type only. The expression has no access to aliases, locals, or pointers. If the expression references properties, attributes on those properties are not processed. For example, the C# code `[DebuggerDisplay("Object {count - 2}")]` would display `Object 6` if the field `count` was 8.
+A general expression in DebuggerDisplay has implicit access to the `this` pointer for the current instance of the target type only. The expression has no access to aliases, locals, or pointers. If the expression references properties, attributes on those properties aren't processed. For example, the C# code `[DebuggerDisplay("Object {count - 2}")]` would display `Object 6` if the field `count` was 8.
 
 Using expressions in DebuggerDisplay can lead to the following issues:
 
-- Evaluating expressions is the most expensive operation in the debugger and the expression is evaluated each time it is displayed. This can cause performance issues in stepping through code. For example, a complex expression that is used to display the values in a collection or list can be very slow when the number of elements is large.
+- Evaluating expressions is the most expensive operation in the debugger and the expression is evaluated each time it's displayed. This can cause performance issues in stepping through code. For example, a complex expression that is used to display the values in a collection or list can be very slow when the number of elements is large.
 
 - Expressions are evaluated by the expression evaluator of the language of the current stack frame and not by the evaluator of the language in which the expression was written. This can cause unpredictable results when the languages are different.
 

@@ -1,7 +1,7 @@
 ---
 title: Specify ClickOnce Publish properties
 description: Learn how to set the Publish properties for a ClickOnce application, such as the location where the application files and manifest are put, and the installation URL.
-ms.date: 05/05/2025
+ms.date: 05/06/2025
 ms.topic: how-to
 f1_keywords:
   - "Microsoft.VisualStudio.Publish.ClickOnceProvider.Dialog.PropertyPage"

@@ -2,15 +2,15 @@
 title: Find potential problems using code map analyzers
 description: Learn how you can run analyzers on code maps to help you identify code that might be overly complex or that might need improvement.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
 - vs.progression.codemapanalyzers
 helpviewer_keywords:
 - code analysis, dependency graphs
 - dependency graphs, analyzing code
 - graph documents, analyzing
-author: mgoertz-msft
-ms.author: mgoertz
+author: jekelly
+ms.author: jekelly
 manager: mijacobs
 ms.subservice: modeling
 ---

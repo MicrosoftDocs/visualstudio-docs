@@ -2,7 +2,7 @@
 title: "Debugging GPU Code"
 description: Learn about debugging C++ code that's running on the graphics processing unit (GPU) in Visual Studio.
 ms.date: "02/22/2022"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "CSharp"
   - "VB"

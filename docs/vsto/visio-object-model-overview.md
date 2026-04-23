@@ -2,7 +2,7 @@
 title: "Visio object model overview"
 description: Explore the Visio object model and review the different types of objects you can use to develop Office solutions for Microsoft Visio.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: concept-article
 dev_langs:
   - "VB"
   - "CSharp"

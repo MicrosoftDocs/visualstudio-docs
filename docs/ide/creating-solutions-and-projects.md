@@ -1,15 +1,15 @@
 ---
 title: "Create projects & solutions"
 description: Create Visual Studio solutions and projects and use them to store artifacts, including source code files, bitmaps, icons, and component and service references.
-ms.date: 11/12/2024
+ms.date: 03/02/2026
 ms.topic: how-to
 f1_keywords:
 - vs.openprojectfromweb
 helpviewer_keywords:
 - solutions [Visual Studio], creating
 - projects [Visual Studio], creating
-author: anandmeg
-ms.author: meghaanand
+author: ghogen
+ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
 ms.custom: sfi-image-nochange
@@ -27,7 +27,17 @@ In this article, you learn how to create Visual Studio projects from scratch and
 
 You can view your solutions and projects in a tool window called *Solution Explorer*. The following screenshot shows an example of a C# console solution in Solution Explorer. The solution contains two projects: **Calculator** and **CalculatorLibrary**. Each project contains multiple files and folders. The project name in bold is the *startup project*; that is, the project that starts when you run the app. You can specify which project is the startup project.
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/solution-explorer-two-projects-inline.png" alt-text="Screenshot of two projects in Solution Explorer.":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 :::image type="content" source="media/solution-explorer-two-projects-inline.png" alt-text="Screenshot of two projects in Solution Explorer.":::
+
+:::moniker-end
 
 Although you can construct a project yourself by adding the necessary files to it, Visual Studio offers a selection of project templates to give you a head start. Creating a new project from a template gives you a project that has the essentials for that project type. You can rename the files or add new or existing code and other resources to the project as needed.
 
@@ -86,11 +96,6 @@ When you create a .NET Framework project, you can specify a specific version of 
 
 To specify a .NET Framework version, select an item in the **Framework** list on the **Configure your new project** page.
 
-::: moniker range="vs-2019"
-
-:::image type="content" source="media/vs-2019/configure-new-project-framework.png" alt-text="Screenshot of the Framework dropdown list in the Configure new project dialog in Visual Studio 2019.":::
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 

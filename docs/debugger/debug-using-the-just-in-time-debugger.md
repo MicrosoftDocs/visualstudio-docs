@@ -1,8 +1,11 @@
 ---
 title: Debug using the Just-In-Time Debugger
 description: Debug using the Just-In-Time Debugger in Visual Studio. Just-In-Time debugging can launch Visual Studio automatically when an app returns errors or crashes.
-ms.date: 01/29/2025
+ms.date: 3/9/2026
 ms.topic: how-to
+f1_keywords:
+  - "VS.ToolsOptionsPages.Debugger.JIT"
+  - "vs.debug.options.JIT"
 helpviewer_keywords: 
   - debugging [Visual Studio], Just-In-Time
   - Just-In-Time debugging
@@ -18,29 +21,43 @@ Just-In-Time debugging can launch Visual Studio automatically when an app runnin
 Just-In-Time debugging works for Windows desktop apps. It doesn't work for Universal Windows Apps, or for managed code that is hosted in a native application, such as Visualizers.
 
 > [!TIP]
-> If you just want to stop the Just-In-Time Debugger dialog box from appearing, but don't have Visual Studio installed, see [Disable the Just-In-Time Debugger](../debugger/just-in-time-debugging-in-visual-studio.md). If you once had Visual Studio installed, you may need to [disable Just-In-Time debugging from the Windows registry](#disable-just-in-time-debugging-from-the-windows-registry).
+> If you just want to stop the Just-In-Time Debugger dialog box from appearing, but don't have Visual Studio installed, see [Disable the Just-In-Time Debugger](../debugger/just-in-time-debugging-in-visual-studio.md). If you once had Visual Studio installed, you might need to [disable Just-In-Time debugging from the Windows registry](#disable-just-in-time-debugging-from-the-windows-registry).
 
 ## <a name="BKMK_Enabling"></a> Enable or disable Just-In-Time debugging in Visual Studio
 
-You can configure Just-In-Time debugging from the Visual Studio **Tools** > **Options** (or **Debug** > **Options**) dialog box.
+When you work with the Just-In-Time debugger in Visual Studio, configuration options for the debugger are accessible from the **Tools** > **Options** or **Debug** > **Options** menus. The Just-In-Time debugger is available in the **Individual components** > **Debugging and testing** section of the installer.
 
 > [!NOTE]
-> To enable or disable Just-In-Time debugging, you must be running Visual Studio as an administrator. Enabling or disabling Just-In-Time debugging sets a registry key, and administrator privileges may be required to change that key. To open Visual Studio as an administrator, right-click the Visual Studio app and choose **Run as administrator**.
+> To enable or disable Just-In-Time debugging, you must be running Visual Studio as an administrator. Enabling or disabling Just-In-Time debugging sets a registry key, and administrator privileges might be required to change the key. To open Visual Studio as an administrator, right-click the Visual Studio app and choose **Run as administrator**.
 
 **To enable or disable Just-In-Time debugging:**
 
-1. On the **Tools** or **Debug** menu, select **Options** > **Debugging** > **Just-In-Time**.
+:::moniker range="visualstudio"
 
-   ![Enable or disable JIT debugging](../debugger/media/dbg-jit-enable-or-disable.png "Enable or disable JIT debugging")
+1. In the **Tools** > **Options** pane, expand the **All Settings** > **Debugging** > **General** section.
 
-   > [!NOTE]
-   > If the Just-In-Time menu option is not shown, make sure the Just-In-Time debugger is installed using the Visual Studio Installer.
+1. In the right pane, select the **Configure Just-In-Time debugging** link.
 
-1. In the **Enable Just-In-Time debugging for these types of code** box, select the types of code you want Just-In-Time debugging to debug: **Managed**, **Native**, and/or **Script**.
+   :::image type="content" source="../debugger/media/visualstudio/dbg-jit-enable-or-disable.png" border="false" alt-text="Screenshot that shows how to configure Just-In-Time debugging in Visual Studio.":::
+
+1. In the **Visual Studio Debugger Options** dialog, configure the **Enable Just-In-Time debugging for these types of code** option. Select the types of code you want Just-In-Time debugging to debug: **Managed** (.NET Framework) or **Native**.
 
 1. Select **OK**.
 
-If you enable the Just-In-Time debugger, but it doesn't open when an app crashes or errors, see [Troubleshoot Just-In-Time debugging](#jit_errors).
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+1. In the **Tools** > **Options** dialog, expand the **Debugging** > **Just-In-Time** section.
+
+1. In the **Enable Just-In-Time debugging for these types of code** box, select the types of code you want Just-In-Time debugging to debug: **Managed**, **Native**, and/or **Script**.
+
+   ![Enable or disable JIT debugging](../debugger/media/dbg-jit-enable-or-disable.png "Enable or disable JIT debugging")
+
+1. Select **OK**.
+
+:::moniker-end
+
+If you enable the Just-In-Time debugger, but it doesn't open when an app crashes or errors, see [Troubleshoot Just-In-Time debugging](#troubleshoot-just-in-time-debugging).
 
 ## Disable Just-In-Time debugging from the Windows registry
 
@@ -72,11 +89,17 @@ Just-In-Time debugging might still be enabled even if Visual Studio is no longer
 
 By default, Windows Form apps have a top-level exception handler that lets the app keep running if it can recover. If a Windows Forms app throws an unhandled exception, it shows the following dialog:
 
+:::moniker range="visualstudio"
+![Screenshot that shows a Windows Form unhandled exception.](../debugger/media/visualstudio/windows-forms-unhandled-exception.png "Windows Form unhandled exception")
+:::moniker-end
+
+:::moniker range="vs-2022"
 ![Windows Form unhandled exception](../debugger/media/windowsformsunhandledexception.png "Windows Form unhandled exception")
+:::moniker-end
 
 To enable Just-In-Time debugging instead of standard Windows Form error handling, add these settings:
 
-- In the `system.windows.forms` section of the *machine.config* or *\<app name>.exe.config* file, set the `jitDebugging` value to `true`:
+- In the `system.windows.forms` section of the *machine.config* or *bin\<app name>.exe.config* file, set the `jitDebugging` value to `true`:
 
     ```xml
     <configuration>
@@ -98,14 +121,21 @@ This example walks you through Just-In-Time debugging when an app throws an erro
 
 - You must have Visual Studio installed to follow these steps. If you don't have Visual Studio, you can download the free [Visual Studio Community Edition](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=15).
 
-- Make sure Just-In-Time debugging is [enabled](#BKMK_Enabling) in **Tools** > **Options** > **Debugging** > **Just-In-Time**.
+- Make sure Just-In-Time debugging is [enabled](#BKMK_Enabling) by configuring the **Enable Just-In-Time debugging for these types of code** option under **Tools** > **Options**.
 
 For this example, you make a C# console app in Visual Studio that throws a [NullReferenceException](/dotnet/api/system.nullreferenceexception).
 
 1. In Visual Studio, create a C# console app (**File** > **New** > **Project** > **Visual C#** > **Console Application**) named *ThrowsNullException*. For more information about creating projects in Visual Studio, see [Walkthrough: Create a simple application](../get-started/csharp/tutorial-wpf.md).
 
-1. When the project opens in Visual Studio, open the *Program.cs* file. Replace the Main() method with the following code, which prints a line to the console and then throws a NullReferenceException:
+1. When the project opens in Visual Studio, open the *Program.cs* file. Replace any default code, including the Main() method, if present, with the following code. The following code prints a line to the console and then throws a NullReferenceException:
 
+:::moniker range="visualstudio"
+   ```csharp
+   Console.WriteLine("we will now throw a NullReferenceException");
+   throw new NullReferenceException("this is the exception thrown by the console app");
+   ```
+::: moniker-end
+:::moniker range="<=vs-2022"
    ```csharp
    static void Main(string[] args)
    {
@@ -113,16 +143,30 @@ For this example, you make a C# console app in Visual Studio that throws a [Null
        throw new NullReferenceException("this is the exception thrown by the console app");
    }
    ```
+::: moniker-end
 
 1. To build the solution, choose either the **Debug** (default) or **Release** configuration, and then select **Build** > **Rebuild Solution**.
 
-   > [!NOTE]
-   > - Choose **Debug** configuration for the full debugging experience.
-   > - If you select [Release](../debugger/how-to-set-debug-and-release-configurations.md) configuration, you must turn off [Just My Code](../debugger/just-my-code.md) for this procedure to work. Under **Tools** > **Options** > **Debugging**, deselect **Enable Just My Code**.
+   - For the full debugging experience, select the **Debug** configuration.
+   
+   - If you select the [Release](../debugger/how-to-set-debug-and-release-configurations.md) configuration, you must turn off [Just My Code](../debugger/just-my-code.md) for this procedure to work.
+
+      :::moniker range="visualstudio"
+
+      In the **Tools** > **Options** pane, expand the **All Settings** > **Debugging** > **General** section, and clear the **Enable Just My Code** checkbox.
+
+      :::moniker-end
+      :::moniker range="<=vs-2022"
+      
+      In the **Tools** > **Options** dialog, expand the **Debugging** > **General** section, and clear the **Enable Just My Code** checkbox.
+      
+      :::moniker-end
+
+      When you deselect this option, the **Warn if no user code on start debugging (Managed only)** option is automatically disabled.
 
    For more information about build configurations, see [Understanding build configurations](../ide/understanding-build-configurations.md).
 
-1. Open the built app *ThrowsNullException.exe* in your C# project folder (*...\ThrowsNullException\ThrowsNullException\bin\Debug* or *...\ThrowsNullException\ThrowsNullException\bin\Release*).
+1. Open the built app *ThrowsNullException.exe* in your C# project folder (*...\ThrowsNullException\ThrowsNullException\bin\Debug* or *...\ThrowsNullException\ThrowsNullException\bin\Release*), or run the executable from a command line.
 
    You should see the following command window:
 
@@ -133,6 +177,9 @@ For this example, you make a C# console app in Visual Studio that throws a [Null
    ![Screenshot of the Choose Just-In-Time Debugger dialog box, which appears after the exception appears in the ThrowsNullException.exe console window.](../debugger/media/justintimedialog.png)
 
    Under **Available Debuggers**, select **New instance of \<your preferred Visual Studio version/edition>**, if not already selected.
+
+   >[!NOTE]
+   > If you don't see the Just-in-Time Debugger dialog box, you might need to add registry keys. See [Just-In-Time debugging fails to start](#troubleshoot-just-in-time-debugging)
 
 1. Select **OK**.
 
@@ -145,7 +192,9 @@ You can start debugging at this point. If you're debugging a real app, you need 
 > [!CAUTION]
 > If your app contains untrusted code, a security warning dialog box appears, enabling you to decide whether to proceed with debugging. Before you continue debugging, decide whether you trust the code. Did you write the code yourself? If the application is running on a remote machine, do you recognize the name of the process? If the app is running locally, consider the possibility of malicious code running on your computer. If you decide the code is trustworthy, select **OK**. Otherwise, select **Cancel**.
 
-## <a name="jit_errors"></a> Troubleshoot Just-In-Time debugging
+## Troubleshoot Just-In-Time debugging
+
+### Just-In-Time debugging fails to start
 
 If Just-In-Time debugging doesn't start when an app crashes, even though it's enabled in Visual Studio:
 
@@ -153,9 +202,9 @@ If Just-In-Time debugging doesn't start when an app crashes, even though it's en
 
   The fix is to add a **DWORD Value** of **Auto**, with **Value data** of **1**, to the following registry keys:
 
-  - **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AeDebug**
+  - (.NET) **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AeDebug**
 
-  - (For 32-bit apps on 64-bit machines) **HKEY_LOCAL_MACHINE\Software\WOW6432Node\Microsoft\Windows NT\CurrentVersion\AeDebug**
+  - (.NET Framework) **HKEY_LOCAL_MACHINE\Software\WOW6432Node\Microsoft\Windows NT\CurrentVersion\AeDebug**
 
 - Windows Error Reporting could be taking over the error handling on your computer.
 
@@ -167,29 +216,40 @@ If Just-In-Time debugging doesn't start when an app crashes, even though it's en
 
   For more information, see [.WER settings](/windows/desktop/wer/wer-settings).
 
+### Error messages
+
 You might see the following error messages during Just-In-Time debugging:
 
 - **Unable to attach to the crashing process. The specified program is not a Windows or MS-DOS program.**
 
-    The debugger tried to attach to a process running under another user.
+  The debugger tried to attach to a process running under another user.
 
-    To work around this problem, in Visual Studio, open **Debug** > **Attach to Process** (or press **Ctrl** + **Alt** + **P**), and find the process you want to debug in the **Available Processes** list. If you don't know the name of the process, find the Process ID in the **Visual Studio Just-In-Time Debugger** dialog. Select the process in the **Available Processes** list, and select **Attach**. Select **No** to dismiss the Just-In-Time debugger dialog.
+  To work around this problem, in Visual Studio, open **Debug** > **Attach to Process** (or press **Ctrl** + **Alt** + **P**), and find the process you want to debug in the **Available Processes** list. If you don't know the name of the process, find the Process ID in the **Visual Studio Just-In-Time Debugger** dialog. Select the process in the **Available Processes** list, and select **Attach**. Select **No** to dismiss the Just-In-Time debugger dialog.
 
 - **Debugger could not be started because no user is logged on.**
 
-    There's no user logged on to the console, so there's no user session to display the Just-In-Time debugging dialog.
+  There's no user logged on to the console, so there's no user session to display the Just-In-Time debugging dialog.
 
-    To fix this problem, log onto the machine.
+  To fix this problem, log onto the machine.
 
 - **Class not registered.**
 
-    The debugger tried to create a COM class that isn't registered, probably due to an installation problem.
+  The debugger tried to create a COM class that isn't registered, probably due to an installation problem.
 
-    To fix this problem, use the Visual Studio Installer to reinstall or repair your Visual Studio installation.
+  To fix this problem, use the Visual Studio Installer to reinstall or repair your Visual Studio installation.
+
+- **Another debugger has registered itself as the Just-In-Time debugger. To repair, enable Just-In-Time debugging or run Visual Studio repair.**
+
+  This message occurs if you have another debugger, possibly an older version of Visual Studio debugger, set as the Just-In-Time debugger.
+
+- **Just-In-Time debugging registration errors detected. To repair, enable Just-In-Time debugging or run Visual Studio repair.**
+
+  If you see either of these warnings, Just-In-Time debugging with Visual Studio requires Administrator privileges until you resolve the problem. If you try to enable the feature as a non-administrator under these conditions, you see the following error message:
+
+  **Access is denied. Have an administrator enable Just-In-Time debugging, or repair your installation of Visual Studio.**
 
 ## Related content
 
 - [Debugger security](../debugger/debugger-security.md)
 - [First look at the debugger](../debugger/debugger-feature-tour.md)
-- [Options, Debugging, Just-In-Time dialog box](../debugger/just-in-time-debugging-options-dialog-box.md)
 - [Security Warning: Attaching to a process owned by an untrusted user can be dangerous. If the following information looks suspicious or you're unsure, don't attach to this process](../debugger/security-warning-attaching-to-a-process-owned-by-an-untrusted-user.md)

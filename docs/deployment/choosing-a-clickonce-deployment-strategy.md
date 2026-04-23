@@ -2,7 +2,7 @@
 title: "Choosing a ClickOnce Deployment Strategy"
 description: Learn about the strategies for deploying a ClickOnce application and how to choose a strategy depending on the type of application that you are deploying.
 ms.date: "01/27/2023"
-ms.topic: "conceptual"
+ms.topic: concept-article
 dev_langs:
   - "VB"
   - "CSharp"

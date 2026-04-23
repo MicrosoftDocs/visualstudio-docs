@@ -1,5 +1,5 @@
 ---
-title: What happens when your subscription is removed?
+title: What Happens When Your Subscription is Removed?
 author: joseb-rdc
 ms.author: amast
 manager: shve
@@ -8,36 +8,37 @@ ms.topic: troubleshooting
 description: Understand what happens when an admin removes a Visual Studio subscription, including changes to benefits and available resources.
 ---
 
-# What happens when an admin removes my subscription?
+# What happens when your Visual Studio subscription is removed?
 
-If your Visual Studio subscription was assigned to you by an admin in your work or school organization, they might remove it at some point. Reasons can include changes to job roles or to your organization's purchase plans. This article outlines what you can expect if an admin removes your subscription. 
+If an admin in your work or school organization assigned your Visual Studio subscription to you, they might remove the subscription at some point. Reasons can include changes to job roles or to your organization's purchase plans. This article outlines what you can expect if an admin removes your subscription.
 
 > [!TIP]
-> If your admin removes your subscription, they might be planning to issue you a different subscription. If you receive a notification that your subscription is removed, you might wish to reach out to your admin to see if another subscription is available. Visit the [subscription portal](https://my.visualstudio.com) and select the **Contact my admin** button in the top right.
+> If your admin removes your subscription, they might be planning to issue you a different subscription. If you receive a notification that your subscription is removed, you might want to ask your admin if another subscription is available. In the [subscription portal](https://my.visualstudio.com), select the **Contact my admin** button.
 
-## How do my benefits change?
+This article also provides information for admins about why Microsoft might remove subscriptions and what happens after removal.
 
-The changes you see for a specific benefit depends on the benefit itself. This article looks at some examples and discusses steps you need to take to make sure you have access to things like your Azure assets. 
+## Changes to benefits after subscription removal
+
+After an admin removes your subscription, the changes for a specific benefit depend on the benefit itself. The following sections describe some examples and steps for making sure that you have access to things like your Azure assets.
 
 ### Visual Studio IDE
 
-The license for the Visual Studio IDE is dependent on a subscription being assigned to you. If your subscription is removed, you lose access to any version of the IDE provided in a paid subscription. If you still need Visual Studio, consider installing the free version: [Visual Studio Code](https://code.visualstudio.com/). 
+The license for the Visual Studio integrated development environment (IDE) is dependent on a subscription that's assigned to you. If your subscription is removed, you lose access to any version of the IDE provided in a paid subscription. If you still need Visual Studio, consider installing the free version: [Visual Studio Code](https://code.visualstudio.com/).
+
+To learn about the differences between the editions included in your subscription, see the [Compare Visual Studio Editions](https://visualstudio.microsoft.com/vs/compare/) page.
 
 ### Individual Azure credits
 
-When your subscription is removed, you no longer accrue individual Azure credits. The credits you accrue remain available for 30 days. After that time, your assets are no longer available. 
+When your subscription is removed, you no longer accrue individual Azure credits. The credits that you accrued remain available for 30 days. After that time, your assets are unavailable.
 
 To avoid losing your assets, make sure to take one of the following steps if your subscription is removed:
 
-+ Convert the subscription to pay-as-you-go. For details, visit our [Azure DevTest pay-as-you-go subscriptions page](https://azure.microsoft.com/offers/ms-azr-0023p/). You need to attach a payment instrument such as a credit card to this subscription. 
-+ Move your assets to another Azure subscription if one is available to you. For example, if you have an Azure subscription as part of a different Visual Studio subscription. Instructions for [moving resources to a new subscription](/azure/devtest/offer/how-to-change-directory-tenants-visual-studio-azure) are included in Azure's documentation. 
-
-  > [!IMPORTANT]
-  > It's important that you move your Azure assets to another Azure subscription or change the existing Azure subscription to pay-as-you-go to avoid loss of your existing Azure assets. 
++ Convert the subscription to pay-as-you-go pricing. For details, see the [Pay-As-You-Go Dev/Test](https://azure.microsoft.com/offers/ms-azr-0023p/) page. You need to attach a payment instrument such as a credit card to this subscription.
++ Move your assets to another Azure subscription if one is available to you. For example, you might have an Azure subscription as part of a different Visual Studio subscription. For more information, see [Change directory tenants with your Azure subscriptions](/azure/devtest/offer/how-to-change-directory-tenants-visual-studio-azure).
 
 ### Software downloads and product keys
 
-Access to software downloads and product keys from within the subscription's portal is lost. 
+Access to software downloads and product keys from the subscription portal is lost.
 
 ### Azure DevOps
 
@@ -45,62 +46,53 @@ Access to Azure DevOps requires a license and is lost.
 
 ### Other benefits
 
-The effects of having a subscription removed vary. 
+The effects of a subscription removal vary:
 
-+ Benefits with a fixed length
++ **Benefits that have a fixed length**: Many of the benefits provided by Microsoft partners are offers that have a fixed length of time. If you activated them before the removal of your subscription, many of them are unaffected and remain available to you until the end of their normal term.
 
-  Many of the benefits provided by our partners are offers that have a fixed length of time. If you activated them before the removal of your subscription, many of them are unaffected and remain available to you until the end of their normal term. If you've been accessing those benefits through the subscription portal, you need to access them directly on the partner site. For example, let's say you received a Pluralsight subscription as part of a Visual Studio subscription. When your Visual Studio subscription is removed, you still have any remaining time on the training subscription, but you need to sign in to Pluralsight's website directly.
+  If you've been accessing those benefits through the subscription portal, you need to access them directly on the partner site. For example, let's say you received a Pluralsight subscription as part of a Visual Studio subscription. When your Visual Studio subscription is removed, you still have any remaining time on the training subscription, but you need to sign in to Pluralsight's website directly.
 
-+ Benefits that require sign-in for each use are no longer available.
++ **Benefits that require sign-in for each use**: These benefits are no longer available.
 
-+ Upon removal of your subscription, you lose the ability to activate any more benefits. 
+Upon removal of your subscription, you lose the ability to activate any more benefits.
 
-## Visual Studio subscription assignments deleted by Microsoft
+## Microsoft deletion of Visual Studio subscription assignments
 
-If you're a subscriptions admin, you might occasionally see in your dashboard that Microsoft removed a subscription. The reason states that the account is closed. 
+If you're a subscription admin, you might occasionally see in your dashboard that Microsoft removed a subscription. The reason states that the account is closed.
 
 ### Why an account might be removed  
 
-+ Subscribers request closure of their Microsoft accounts. If a subscriber requests closure of a Microsoft account (MSA), subscriptions associated with that MSA are removed. For more information including important things to consider before closing an account, see [How to close your Microsoft account](https://support.microsoft.com/account-billing/how-to-close-your-microsoft-account-c1b2d13f-4de6-6e1b-4a31-d9d668849979).
-+ Subscribers are removed from Microsoft Entra tenant. Subscriptions can automatically assign subscriptions through a Microsoft Entra group. When they're removed from the group, their subscriptions are removed.
++ **Subscribers request closure of their Microsoft accounts**. If a subscriber requests closure of a Microsoft account, subscriptions associated with that account are removed. For more information, including important considerations before you close an account, see [How to close your Microsoft account](https://support.microsoft.com/account-billing/how-to-close-your-microsoft-account-c1b2d13f-4de6-6e1b-4a31-d9d668849979).
++ **Subscribers are removed from the Microsoft Entra tenant**. Admins can automatically assign subscriptions through a Microsoft Entra group. When subscribers are removed from the group, their subscriptions are removed.
 
-### What happens when the account is closed?
+### What happens when an account is closed
 
-If the subscription is removed, the subscriber loses access to the subscription. If a subscriber is removed from a Microsoft Entra group, their subscription information is permanently removed within 180 days. If a subscriber closes their MSA, their information is removed immediately. 
+If a subscription is removed, the subscriber loses access to the subscription. If a subscriber is removed from a Microsoft Entra group, their subscription information is permanently removed within 180 days. If a subscriber closes their Microsoft account, their information is removed immediately.
 
 ### Anonymization of Visual Studio subscriber information
 
-When an event occurs that blocks a subscriber's use of a subscription, the user's personal information such as name and sign-in account is scrambled to render it unusable. This "anonymization" is done to safeguard the subscriber's personal information. These events can include:
-+ Expiration of the subscription
-+ Deletion of the subscriber's sign-in account  
+When an event blocks a subscriber's use of a subscription, personal information (such as name and sign-in account) is scrambled to render it unusable. This *anonymization* helps safeguard the subscriber's personal information.
 
 [!INCLUDE [GDPR-related guidance](includes/gdpr-intro-sentence.md)]
 
-### When does anonymization occur?
+How quickly anonymization occurs depends on the type of subscription and the triggering event.
 
-Events that make a subscription unusable to a subscriber triggers anonymization. How quickly the anonymization occurs depends on the type of subscription and the triggering event.
-
-| Subscription Type  | Event triggering anonymization | When anonymization occurs |
-|--------------------|--------------------------------|---------------------------|
-| Visual Studio Dev Essentials | Subscriber opts out of the program or doesn't accept the terms of use | 30 days |
-| Visual Studio subscriptions purchased  through the Microsoft Store (retail) | Subscription expires or isn't activated  | 360 days |
-| Visual Studio subscriptions acquired through  Volume License, Visual Studio Marketplace  (cloud subscriptions), or programs such as Microsoft Cloud Partner Network | Subscription expires or isn't assigned to a user | 180 days |
-| All subscriptions | A Microsoft Entra account or Microsoft  Account (MSA) used to sign into the subscription is closed | Immediately |
-| All subscriptions | A subscriber is removed from the tenant that is associated with the Microsoft Entra account | Immediately |
+| Subscription type | Event that triggers anonymization | When anonymization occurs |
+| ----------------- | ------------------------------ | ---------------- |
+| Visual Studio Dev Essentials | The subscriber opts out of the program or doesn't accept the terms of use. | 30 days |
+| Visual Studio subscriptions purchased  through the Microsoft Store (retail) | The subscription expires or isn't activated. | 360 days |
+| Visual Studio subscriptions acquired through volume license, Visual Studio Marketplace (cloud subscriptions), or programs such as the Microsoft AI Cloud Partner Program | The subscription expires or isn't assigned to a user. | 180 days |
+| All subscriptions | A Microsoft Entra account or a Microsoft account that's used to sign in to the subscription is closed. | Immediately |
+| All subscriptions | A subscriber is removed from the tenant that's associated with the Microsoft Entra account. | Immediately |
 
 ## Support resources
 
-+ For assistance with sales, subscriptions, accounts, and billing for Visual Studio Subscriptions, contact [Visual Studio subscriptions support](https://my.visualstudio.com/gethelp).
-+ Have a question about Visual Studio IDE, Azure DevOps, or other Visual Studio products or services? Visit [Visual Studio support](https://visualstudio.microsoft.com/support/).
++ For assistance with sales, accounts, and billing for Visual Studio subscriptions, go to the [Get Help](https://my.visualstudio.com/gethelp) page of the subscription portal.
++ For assistance or questions about the Visual Studio IDE, Azure DevOps, or other Visual Studio products or services, go to the Visual Studio [Support](https://visualstudio.microsoft.com/support/) page.
 
-## See also
+## Related content
 
 + [Visual Studio documentation](/visualstudio/)
-+ [Azure DevOps Services documentation](/azure/devops/)
++ [Azure DevOps documentation](/azure/devops/)
 + [Azure documentation](/azure/)
 + [Microsoft 365 documentation](/microsoft-365/)
-
-## Next steps
-
-+ Learn about [Azure DevOps](https://azure.microsoft.com/services/devops/) features
-+ Learn about [Visual Studio IDE features by edition](https://visualstudio.microsoft.com/vs/compare/)

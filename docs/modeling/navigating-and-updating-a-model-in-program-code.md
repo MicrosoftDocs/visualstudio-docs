@@ -2,11 +2,11 @@
 title: Navigating and Updating a Model in Program Code
 description: Learn how you can write code to create and delete model elements, set their properties, and create and delete links between elements.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - Domain-Specific Language, programming domain models
-author: mgoertz-msft
-ms.author: mgoertz
+author: jekelly
+ms.author: jekelly
 manager: mijacobs
 ms.subservice: modeling
 ---

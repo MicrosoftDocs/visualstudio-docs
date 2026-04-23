@@ -1,12 +1,13 @@
 ---
 title: Perf insights for regex
 description: Learn how to improve performance for regex by using .NET 5+.
-ms.date: 8/10/2022
+ms.date: 12/04/2025
 ms.topic: reference
 author: mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: debug-diagnostics
+monikerRange: '>= vs-2022'
 ---
 
 # Improve regex performance with .NET 5+

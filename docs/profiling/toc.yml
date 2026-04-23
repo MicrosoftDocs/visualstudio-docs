@@ -36,13 +36,13 @@
     items:
     - name: CPU Usage
       href: cpu-usage.md
-    - name: Flame Graph 
+    - name: Flame Graph
       href: flame-graph.md
     - name: Understanding the call tree
       href: understand-call-tree-data.md
     - name: CPU Insights
       items:
-      - name: CPU Insights  
+      - name: CPU Insights
         href: cpu-insights.md
       - name: Performance insights
         items:
@@ -72,6 +72,14 @@
           href: performance-insights-string-startswith.md
         - name: String concatenation
           href: perf-insights-string-concatenation.md
+        - name: String.Format or interpolation
+          href: performance-insights-string-format.md
+        - name: LinkedList traversal
+          href: performance-insights-linked-list-traversal.md
+        - name: Immutable collection modifications
+          href: performance-insights-immutable-collection.md
+        - name: Inefficient List<T>.Find usage
+          href: performance-insights-list-find.md
   - name: Memory usage
     items:
     - name: Choose a memory analysis tool
@@ -90,6 +98,8 @@
           href: perf-insights-high-loh-fragmentation.md
         - name: Zero-length array allocations
           href: performance-insights-zero-length-array-allocations.md
+        - name: Boxed boolean
+          href: performance-insights-boxed-boolean.md
     - name: Analyze memory usage on release builds
       href: memory-usage-without-debugging2.md
     - name: Custom native ETW heap events

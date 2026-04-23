@@ -4,8 +4,8 @@ titleSuffix: ""
 description: Step 3 of a core walkthrough of Django capabilities in Visual Studio, including serving static files, adding pages to the Django app, and using template inheritance.
 ms.date: 04/18/2024
 ms.topic: tutorial
-author: cwebster-99
-ms.author: cowebster
+author: Devdiv-VR
+ms.author: vedhar
 manager: mijacobs
 ms.subservice: python
 
@@ -45,11 +45,7 @@ As you develop a Django application, you typically add many more Python, HTML, C
    :::image type="content" source="media/django/vs-2022/step-03-add-item-from-template.png" alt-text="Screenshot that shows the available templates on the Add New Item dialog in Visual Studio." border="false" lightbox="media/django/vs-2022/step-03-add-item-from-template.png"::: 
 
    ::: moniker-end
-   ::: moniker range="<=vs-2019"
 
-   :::image type="content" source="media/django/step-03-add-new-item-dialog.png" alt-text="Screenshot that shows the available templates on the Add New Item dialog in Visual Studio." lightbox="media/django/step-03-add-new-item-dialog.png" border="false":::
-
-   ::: moniker-end
 
 1. To use a template, select the desired template, enter a name for the file, and select **Add**.
 

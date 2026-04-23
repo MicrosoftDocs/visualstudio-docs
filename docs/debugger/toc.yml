@@ -122,16 +122,12 @@
     href: how-to-improve-diagnostics-debugging-with-sourcelink.md
   - name: User code (Just My Code)
     href: just-my-code.md
+  - name: Specify debug source files
+    href: debug-source-files-common-properties-solution-property-pages-dialog-box.md
   - name: Debugger settings
     items:
-    - name: Debugger settings and preparation
-      href: debugger-settings-and-preparation.md
     - name: Debugger project settings
       items:
-      - name: Project settings
-        href: debugger-project-settings.md
-      - name: Specify debugger settings
-        href: how-to-specify-debugger-settings.md
       - name: Set debug and release configurations
         href: how-to-set-debug-and-release-configurations.md
       - name: Project settings (C++)
@@ -148,6 +144,8 @@
         href: project-settings-for-a-visual-basic-debug-configuration.md
       - name: Property pages settings (Web projects)
         href: property-pages-settings-for-web-projects.md
+    - name: Specify debugger options
+      href: how-to-specify-debugger-settings.md
     - name: DLL projects
       items:
       - name: Debug DLL projects
@@ -214,23 +212,21 @@
         href: hot-reload.md
       - name: Extend Hot Reload (.NET)
         href: hot-reload-metadataupdatehandler.md
-    - name: Edit and Continue
-      items:
-      - name: Configure Edit and Continue
+      - name: Configure Hot Reload
         href: how-to-enable-and-disable-edit-and-continue.md
-      - name: Edit and Continue (C++)
+      - name: Hot Reload for C++
         items:
-        - name: Edit and Continue for C++
+        - name: Hot Reload for C++
           href: edit-and-continue-visual-cpp.md
         - name: Supported Code Changes (C++)
           href: supported-code-changes-cpp.md
-      - name: Edit and Continue (Visual C#)
+      - name: Hot Reload for C#
         items:
-        - name: Edit and Continue for C#
+        - name: Hot Reload for C#
           href: edit-and-continue-visual-csharp.md
         - name: Supported Code Changes
           href: supported-code-changes-csharp.md
-      - name: Edit and Continue (Visual Basic)
+      - name: Hot Reload for Visual Basic
         href: edit-and-continue-visual-basic.md
     - name: XAML Hot Reload
       items:
@@ -412,8 +408,6 @@
         href: /windows/uwp/debug-test-perf/deploying-and-debugging-uwp-apps
       - name: Debug UWP apps on a remote machine
         href: run-windows-store-apps-on-a-remote-machine.md
-      - name: Run UWP apps in the simulator
-        href: run-windows-store-apps-in-the-simulator.md
       - name: Deploy UWP apps from Visual Studio
         href: deploy-windows-store-apps-from-visual-studio.md
       - name: Debug an installed app package
@@ -446,6 +440,8 @@
         href: mfc-debugging-techniques.md
       - name: CRT debugging techniques >>
         href: /cpp/c-runtime-library/crt-debugging-techniques
+      - name: Problem Details window
+        href: ../ide/reference/problem-details-window.md
       - name: FAQ for debugging native code
         href: debugging-native-code-faqs.yml
       - name: COM
@@ -512,6 +508,8 @@
         href: how-to-step-into-wcf-services.md
       - name: Debug a self-hosted WCF service
         href: how-to-debug-a-self-hosted-wcf-service.md
+  - name: Stop Debugging In Progress dialog box
+    href: stop-debugging-in-progress-dialog-box.md
   - name: Collaborate
     items:
     - name: Write and debug code using Live Share >>
@@ -582,38 +580,6 @@
   items:
   - name: Debugging User Interface Reference
     items:
-    - name: User Interface Reference for debugging
-      href: debugging-user-interface-reference.md
-    - name: Choose Breakpoints dialog box
-      href: choose-breakpoints-dialog-box.md
-    - name: Configure Firewall for Remote Debugging dialog box
-      href: configure-firewall-for-remote-debugging-dialog-box.md
-    - name: Debugging, Options
-      items:
-      - name: Debugging, Options dialog box
-        href: debugging-options-dialog-box.md
-      - name: General, Debugging, Options dialog box
-        href: general-debugging-options-dialog-box.md
-      - name: Just-In-Time, Debugging, Options dialog box
-        href: just-in-time-debugging-options-dialog-box.md
-      - name: Output Window, Debugging, Options dialog box
-        href: output-window-debugging-options-dialog-box.md
-    - name: Dataset Visualizer dialog box
-      href: dataset-visualizer-dialog-box.md
-    - name: Debug Source Files, Common Properties, Solution Property Pages dialog box
-      href: debug-source-files-common-properties-solution-property-pages-dialog-box.md
-    - name: Edit and Continue dialog box
-      href: edit-and-continue-dialog-box.md
-    - name: Select Code Type dialog box
-      href: select-code-type-dialog-box.md
-    - name: Stop Debugging In Progress dialog box
-      href: stop-debugging-in-progress-dialog-box.md
-    - name: String Visualizer dialog box
-      href: string-visualizer-dialog-box.md
-    - name: Symbol Load Information dialog box
-      href: symbol-load-information-dialog-box.md
-    - name: When Breakpoint Is Hit dialog box
-      href: when-breakpoint-is-hit-dialog-box.md
     - name: Debugging Errors and Warning
       items:
       - name: Debugging Errors and Warning dialog box

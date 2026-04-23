@@ -3,8 +3,8 @@ title: Use the Python Interactive Window (REPL)
 description: Use the Interactive Window (REPL) for rapid Python code development in Visual Studio and review how to work with the Standard or Debug REPL mode.
 ms.date: 04/18/2024
 ms.topic: how-to
-author: cwebster-99
-ms.author: cowebster
+author: Devdiv-VR
+ms.author: vedhar
 manager: mijacobs
 ms.subservice: python
 
@@ -20,11 +20,7 @@ Visual Studio provides an interactive read-evaluate-print loop (REPL) window for
 :::image type="content" source="media/vs-2022/python-interactive-window.png" alt-text="Screenshot of the Python Interactive read-evaluate-print loop (REPL) Window in Visual Studio 2022." border="false" lightbox="media/vs-2022/python-interactive-window.png":::
 
 ::: moniker-end
-::: moniker range="<=vs-2019"
 
-:::image type="content" source="media/interactive-window.png" alt-text="Screenshot of the Python Interactive read-evaluate-print loop (REPL) Window in Visual Studio." lightbox="media/interactive-window.png":::
-
-::: moniker-end
 
 Visual Studio has many Python REPL modes to choose from:
 
@@ -43,7 +39,7 @@ For a detailed walkthrough with examples, including the interactions with the ed
 
 - Visual Studio on Windows installed with support for Python workloads. For more information, see [Install Python support in Visual Studio](installing-python-support-in-visual-studio.md).
 
-Visual Studio for Mac isn't supported. For more information, see [What's happening to Visual Studio for Mac?](/visualstudio/mac/what-happened-to-vs-for-mac) Visual Studio Code on Windows, Mac, and Linux [works well with Python through available extensions](https://code.visualstudio.com/docs/languages/python).
+Visual Studio for Mac isn't supported. Visual Studio Code on Windows, Mac, and Linux [works well with Python through available extensions](https://code.visualstudio.com/docs/languages/python).
 
 ## Open the Interactive Window
 
@@ -62,11 +58,7 @@ There are several ways to open the **Interactive Window** for a Python environme
    :::image type="content" source="media/vs-2022/open-python-interactive-window.png" alt-text="Screenshot that shows how to use the Open Interactive Window option for the selected environment in Visual Studio 2022." border="false" lightbox="media/vs-2022/open-python-interactive-window.png":::
 
    ::: moniker-end
-   ::: moniker range="<=vs-2019"
 
-   :::image type="content" source="media/interactive-window-opening.png" alt-text="Screenshot that shows how to use the Open Interactive Window option for the selected environment in Visual Studio." lightbox="media/interactive-window-opening.png":::
-
-   ::: moniker-end
 
 - From the **View** menu on the Visual Studio tool, select **Other Windows** > **Python Interactive Window**:
 
@@ -75,11 +67,7 @@ There are several ways to open the **Interactive Window** for a Python environme
    :::image type="content" source="media/vs-2022/view-python-interactive-window.png" alt-text="Screenshot that shows how to use the View Python Interactive Window menu option in Visual Studio 2022." border="false" lightbox="media/vs-2022/view-python-interactive-window.png":::
 
    ::: moniker-end
-   ::: moniker range="<=vs-2019"
 
-   :::image type="content" source="media/interactive-window-menu.png" alt-text="Screenshot that shows how to use the View Python Interactive Window menu option in Visual Studio." border="false" lightbox="media/interactive-window-menu.png":::
-
-   ::: moniker-end
 
 - From the **Debug** menu on the Visual Studio toolbar, select **Execute \<Project | File> in Python Interactive** or use the keyboard shortcut **Shift**+**Alt**+**F5**. You can open an **Interactive Window** for the **Startup File** in your project, or for any stand-alone file:
 
@@ -88,11 +76,7 @@ There are several ways to open the **Interactive Window** for a Python environme
    :::image type="content" source="media/vs-2022/debug-python-interactive-window.png" alt-text="Screenshot that shows how to use the Debug Execute Project in Python Interactive menu option in Visual Studio 2022." border="false" lightbox="media/vs-2022/debug-python-interactive-window.png":::
 
    ::: moniker-end
-   ::: moniker range="<=vs-2019"
 
-   :::image type="content" source="media/interactive-execute-project.png" alt-text="Screenshot that shows how to use the Debug Execute Project in Python Interactive menu option in Visual Studio." border="false" lightbox="media/interactive-execute-project.png":::
-
-   ::: moniker-end
 
 Another option is to send the code you're writing in the Visual Studio editor to the **Interactive Window**. This approach is described in [Send code to the Interactive Window](#send-code-to-interactive-window).
 
@@ -141,11 +125,7 @@ By default, the **Interactive Window** for a project is scoped to the project's 
 :::image type="content" source="media/vs-2022/change-scope-interactive-window.png" alt-text="Screenshot that shows how to use the Module Scope dropdown menu to change the scope in the Interactive Window in Visual Studio 2022." border="false" lightbox="media/vs-2022/change-scope-interactive-window.png":::
 
 ::: moniker-end
-::: moniker range="<=vs-2019"
 
-:::image type="content" source="media/interactive-scopes.png" alt-text="Screenshot that shows how to use the Module Scope dropdown menu to change the scope in the Interactive Window." lightbox="media/interactive-scopes.png":::
-
-::: moniker-end
 
 After you import a module, such as `import importlib`, options appear in the **Module scope** dropdown menu to switch into any scope in that module. A message in the **Interactive Window** reports the change to the new scope, so you can track how you got to a certain state during your session by reviewing the command history.
 
@@ -156,11 +136,7 @@ If you enter the `dir()` command in a scope, Visual Studio displays valid identi
 :::image type="content" source="media/vs-2022/interactive-importlib-scope-output.png" alt-text="Screenshot that shows the output in the Interactive Window for the importlib scope in Visual Studio 2022." border="false" lightbox="media/vs-2022/interactive-importlib-scope-output.png":::
 
 ::: moniker-end
-::: moniker range="<=vs-2019"
 
-:::image type="content" source="media/interactive-importlib-scope.png" alt-text="Screenshot that shows the output in the Interactive Window for the importlib scope." lightbox="media/interactive-importlib-scope.png":::
-
-::: moniker-end
 
 ## Send code to Interactive Window
 
@@ -175,11 +151,7 @@ In addition to working within the **Interactive Window** directly, you can send 
    :::image type="content" source="media/vs-2022/send-python-interactive-window.png" alt-text="Screenshot that shows how to use the Send to Interactive menu option in Visual Studio 2022." border="false" lightbox="media/vs-2022/send-python-interactive-window.png":::
 
    ::: moniker-end
-   ::: moniker range="<=vs-2019"
 
-   :::image type="content" source="media/interactive-send-to.png" alt-text="Screenshot that shows how to use the Send to Interactive menu option in Visual Studio.":::
-
-   ::: moniker-end
 
 ### Modify and run code
 
@@ -204,17 +176,9 @@ You can change the behavior with the **Paste removes REPL prompts** option for t
 1. Clear the **Paste removes REPL prompts** option.
 
 ::: moniker-end
-::: moniker range="<=vs-2019"
 
-1. Select **Tools** > **Options** to open the **Options** dialog.
 
-1. Expand the **Text Editor** > **Python** > **Advanced** section.
-
-1. Clear the **Paste removes REPL prompts** option.
-
-::: moniker-end
-
-When you clear the option, the prompt characters are retained in code pasted from the window. For more information, see [Options - Miscellaneous options](python-support-options-and-settings-in-visual-studio.md?view=vs-2019&preserve-view=true#miscellaneous-options).
+When you clear the option, the prompt characters are retained in code pasted from the window. For more information, see [Options](python-support-options-and-settings-in-visual-studio.md).
 
 ## Review IntelliSense behavior
 

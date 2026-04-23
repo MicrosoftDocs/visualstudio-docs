@@ -1,7 +1,7 @@
 ---
 title: Create a React project in Visual Studio
 description: Create, build, and run a simple React front-end web application project from a Visual Studio template, and set basic properties for the project.
-ms.date: 10/02/2024
+ms.date: 03/12/2026
 ms.custom: vs-acquisition
 ms.topic: tutorial
 ms.devlang: javascript
@@ -22,14 +22,20 @@ In this 5-10 minute introduction to the Visual Studio integrated development env
 
 Make sure to install the following software:
 
-- Visual Studio 2022 or later. Go to the [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) page to install it for free.
+- Visual Studio 2022 or later. Go to the [Visual Studio downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) page to install it for free.
 - npm ([`https://www.npmjs.com/`](https://www.npmjs.com/package/npm)), which is included with Node.js
 
 ## Create your app
 
 1. In the Start window (choose **File** > **Start Window** to open), select **Create a new project**.
 
+   :::moniker range="visualstudio"   
+   :::image type="content" source="media/visualstudio/create-new-project.png" alt-text="Screenshot that shows the Create a new project option.":::
+   :::moniker-end
+
+   :::moniker range="vs-2022"   
    :::image type="content" source="media/vs-2022/create-new-project.png" alt-text="Screenshot showing Create a new project":::
+   :::moniker-end
 
 1. Search for React in the search bar at the top and then select **React App** for either JavaScript or TypeScript, based on your preference.
 

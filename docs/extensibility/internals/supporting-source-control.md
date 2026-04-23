@@ -2,7 +2,7 @@
 title: Supporting Source Control
 description: Learn how Visual Studio supports file checkouts, checkins, and other source control operations for your project or editor.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - source control [Visual Studio SDK], supporting
 author: tinaschrepfer

@@ -1,7 +1,7 @@
 ---
 title: Item Element (MSBuild)
 description: Learn how MSBuild uses the Item element to contain a user-defined item and its metadata. Every item must be a child of an ItemGroup element.
-ms.date: 03/13/2017
+ms.date: 9/29/2025
 ms.topic: reference
 dev_langs:
 - VB
@@ -36,7 +36,7 @@ Contains a user-defined item and its metadata. Every item that is used in an MSB
 
 ## Specify metadata as attributes
 
-In MSBuild 15.1 or later, any metadata with a name that doesn't conflict with the current list of attributes can optionally be expressed as an attribute.
+You can specify item metadata as attributes for as child elements. Any metadata with a name that doesn't conflict with the current list of attributes can be expressed as an attribute.
 
 For example, to specify a list of NuGet packages, you would normally use something like the following syntax.
 
@@ -80,6 +80,8 @@ Now, however, you can pass the `Version` metadata as an attribute, such as in th
 |Element|Description|
 |-------------|-----------------|
 |[ItemMetadata](../msbuild/itemmetadata-element-msbuild.md)|A user-defined item metadata key, which contains the item metadata value. There may be zero or more `ItemMetadata` elements in an item.|
+
+MSBuild interprets child elements on item elements as item metadata.
 
 ### Parent elements
 

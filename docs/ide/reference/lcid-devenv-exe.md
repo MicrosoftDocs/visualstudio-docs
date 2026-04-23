@@ -1,7 +1,7 @@
 ---
 title: -LCID (devenv.exe)
 description: Learn how to use the LCID devenv command-line switch to set the default language used for text, currency, and other values within the IDE.
-ms.date: 12/10/2018
+ms.date: 11/19/2025
 ms.topic: reference
 helpviewer_keywords:
 - language default
@@ -36,7 +36,18 @@ devenv {/LCID|/L} LocaleID
 
 ## Remarks
 
-Loads the IDE and sets the default natural language for the environment. This change is persisted between sessions, and the IDE shows this change in the **Tools** > **Options** > **Environment** > **International Settings** > **Language** box.
+Loads the IDE and sets the default natural language for the environment. This change is persisted between sessions.
+
+:::moniker range="visualstudio"
+
+The IDE shows this change in the **Language** option, which is available from the **Tools** > **Options** pane, under the **All Settings** > **Environment** > **International Settings** section.
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+The IDE shows this change in the **Language** option, which is available from the **Tools** > **Options** dialog, under the **Environment** > **International Settings** section.
+
+:::moniker-end
 
 If the specified language isn't available on your system, the `/LCID` switch is ignored.
 

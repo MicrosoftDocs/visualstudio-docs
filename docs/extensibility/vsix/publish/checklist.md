@@ -2,7 +2,7 @@
 title: Best practices checklist
 description: A checklist to ensure your extension follows best practices before you publish it.
 ms.date: 12/01/2021
-ms.topic: conceptual
+ms.topic: best-practice
 author: madskristensen
 ms.author: madsk
 manager: pchapman

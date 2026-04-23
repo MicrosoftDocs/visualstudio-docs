@@ -2,7 +2,7 @@
 title: Command Availability
 description: Learn how command context, which changes based on the current project, current editor, and other factors, determines which commands are available in Visual Studio.
 ms.date: 03/22/2018
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - commands, context
 - menu items, visibility contexts

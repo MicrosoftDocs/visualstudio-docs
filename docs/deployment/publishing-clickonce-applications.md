@@ -2,7 +2,7 @@
 title: "Publishing ClickOnce Applications"
 description: Learn how to use the Publish Wizard to publish a ClickOnce application for the first time. Make later changes on the Publish page in the Project Designer.
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: concept-article
 f1_keywords:
   - "Microsoft.VisualStudio.Publish.ClickOnceProvider.Dialog.Options"
   - "Microsoft.VisualStudio.Publish.ClickOnceProvider.PublishWizard.Help"

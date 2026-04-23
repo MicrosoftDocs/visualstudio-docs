@@ -3,8 +3,8 @@ title: Visual Studio Test Agent 2022 workload and component IDs
 titleSuffix: ""
 description: "Use Visual Studio workload and component IDs to run automated tests and load tests remotely"
 keywords:
-author: anandmeg
-ms.author: meghaanand
+author: RoseHJM
+ms.author: rosemalcolm
 manager: mijacobs
 ms.date: 05/13/2025
 

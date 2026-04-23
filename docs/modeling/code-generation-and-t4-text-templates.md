@@ -11,8 +11,8 @@ helpviewer_keywords:
 - code generation
 - text templates
 - generating code
-author: mgoertz-msft
-ms.author: mgoertz
+author: jekelly
+ms.author: jekelly
 manager: mijacobs
 ms.subservice: modeling
 ---

@@ -7,7 +7,7 @@ ms.subservice: azure-development
 ms.topic: overview
 ms.date: 10/19/2023
 ms.author: ghogen
-monikerRange: ">=vs-2019"
+monikerRange: ">=vs-2022"
 ---
 
 # Deploy an ASP.NET web app to Azure

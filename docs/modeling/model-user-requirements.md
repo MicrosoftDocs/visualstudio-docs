@@ -2,12 +2,12 @@
 title: Model user requirements
 description: Learn how Visual Studio helps you understand, discuss, and communicate your users' needs by drawing diagrams about their activities.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - requirements
 - stories
-author: mgoertz-msft
-ms.author: mgoertz
+author: jekelly
+ms.author: jekelly
 manager: mijacobs
 ms.subservice: modeling
 ---

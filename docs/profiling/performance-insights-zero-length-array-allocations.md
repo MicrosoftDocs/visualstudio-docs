@@ -1,12 +1,13 @@
 ---
 title: Performance insights for zero-length array allocations
 description: Learn how to improve performance for zero-length array allocations.
-ms.date: 8/29/2025
+ms.date: 12/04/2025
 ms.topic: reference
 author: mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: debug-diagnostics
+monikerRange: '>= vs-2022'
 ---
 
 # Zero-length array allocations

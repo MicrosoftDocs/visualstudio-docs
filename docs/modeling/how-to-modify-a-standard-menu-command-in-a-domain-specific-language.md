@@ -6,8 +6,8 @@ ms.topic: how-to
 helpviewer_keywords:
   - ".vsct files, adding commands to a domain-specific language"
   - "Domain-Specific Language, adding custom commands"
-author: mgoertz-msft
-ms.author: mgoertz
+author: jekelly
+ms.author: jekelly
 manager: mijacobs
 ms.subservice: modeling
 ---

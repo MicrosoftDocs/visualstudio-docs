@@ -2,7 +2,7 @@
 title: "Debugging F#"
 description: Review a list of differences between debugging F# compared with debugging other managed languages in Visual Studio.
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: concept-article
 dev_langs:
   - "CSharp"
   - "VB"

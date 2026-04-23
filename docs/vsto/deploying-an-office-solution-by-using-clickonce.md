@@ -2,7 +2,7 @@
 title: "Deploy an Office solution by using ClickOnce"
 description: Deploy your Office solution by using ClickOnce to complete the task in fewer steps, and have your publishing solution automatically detect and install updates. 
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: install-set-up-deploy
 dev_langs:
   - "VB"
   - "CSharp"

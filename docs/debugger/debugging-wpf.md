@@ -2,7 +2,7 @@
 title: "Debugging WPF"
 description: See a list of articles describing additional features in Visual Studio that make debugging Windows Presentation Foundation (WPF) applications easier.
 ms.date: "10/22/2019"
-ms.topic: "conceptual"
+ms.topic: concept-article
 dev_langs:
   - "CSharp"
   - "VB"

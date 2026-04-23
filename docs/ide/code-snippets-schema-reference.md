@@ -1,7 +1,7 @@
 ---
 title: Code snippets schema reference
 description: Learn about the IntelliSense Code Snippet XML schema and how you can use them to increase your productivity.
-ms.date: 04/06/2024
+ms.date: 04/08/2024
 ms.topic: reference
 helpviewer_keywords:
 - schema reference [Visual Studio]

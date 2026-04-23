@@ -1,10 +1,10 @@
 ---
 title: Python Support in Visual Studio on Windows
 description: Explore Python Tools for Visual Studio (PTVS) and other Python features in Visual Studio to edit, debug, test, and publish your Python applications.
-ms.date: 07/28/2025
+ms.date: 03/25/2026
 ms.topic: overview
-author: cwebster-99
-ms.author: cowebster
+author: Devdiv-VR
+ms.author: vedhar
 manager: mijacobs
 ms.subservice: python
 dev_langs:
@@ -35,12 +35,13 @@ To get started with Visual Studio on Windows:
 
 Visual Studio's **Python Environments** window gives you a single place to manage all of your global Python environments, conda environments, and virtual environments. Visual Studio automatically detects installations of Python in standard locations, and allows you to configure custom installations. With each environment, you can easily manage packages, open an interactive window for that environment, and access environment folders.
 
-::: moniker range="vs-2019"
+:::moniker range="visualstudio"
 
-:::image type="content" source="media/environments/environments-expanded-view-2019.png" alt-text="Screenshot that shows the expanded view of the Python Environments window in Visual Studio 2019." lightbox="media/environments/environments-expanded-view-2019.png":::
+:::image type="content" source="media/visualstudio/environments-expanded-view-2022.png" alt-text="Screenshot that shows the expanded view of the Python Environments window in Visual Studio." lightbox="media/visualstudio/environments-expanded-view-2022.png":::
 
-::: moniker-end
-:::moniker range=">=vs-2022"
+:::moniker-end
+
+:::moniker range="vs-2022"
 
 :::image type="content" source="media/environments/environments-expanded-view-2022.png" alt-text="Screenshot that shows the expanded view of the Python Environments window in Visual Studio." lightbox="media/environments/environments-expanded-view-2022.png":::
 
@@ -57,7 +58,13 @@ For more information, see:
 
 Visual Studio provides a first-class Python editor, including syntax coloring, autocomplete across all your code and libraries, code formatting, signature help, refactoring, linting, and type hints. Visual Studio also provides unique features like class view, **Go to Definition**, **Find All References**, and code snippets. Direct integration with the [Interactive window](#interactive-window) helps you quickly develop existing Python code in a file.
 
+:::moniker range="visualstudio"
+:::image type="content" source="media/visualstudio/code-editing-completions-simple.png" alt-text="Screenshot that shows code completions for Python code in Visual Studio." border="false":::
+:::moniker-end
+
+:::moniker range="vs-2022"
 :::image type="content" source="media/code-editing-completions-simple.png" alt-text="Screenshot that shows code completions for Python code in Visual Studio." border="false":::
+:::moniker-end
 
 For more information, see:
 
@@ -71,12 +78,13 @@ For more information, see:
 
 For every Python environment known to Visual Studio, you can easily open the same interactive (REPL) environment for a Python interpreter directly within Visual Studio, rather than using a separate command prompt. You can easily switch between environments as well. To open a separate command prompt, select your desired environment in the **Python Environments** window, then select the **Open in PowerShell** command as explained earlier in the [Support for multiple interpreters](#support-for-multiple-interpreters) section.
 
-:::moniker range="<=vs-2019"
+:::moniker range="visualstudio"
 
-:::image type="content" source="media/interactive-window.png" alt-text="Screenshot that shows the expanded view of the Python interactive window in Visual Studio 2019.":::
+:::image type="content" source="media/visualstudio/interactive-window.png" alt-text="Screenshot that shows the expanded view of the Python interactive window in Visual Studio." lightbox="media/visualstudio/interactive-window.png":::
 
 :::moniker-end
-:::moniker range=">=vs-2022"
+
+:::moniker range="vs-2022"
 
 :::image type="content" source="media/interactive-window-2022.png" alt-text="Screenshot that shows the expanded view of the Python interactive window in Visual Studio 2022." lightbox="media/interactive-window-2022.png":::
 
@@ -100,11 +108,23 @@ Visual Studio helps you manage the complexity of a project as it grows over time
 
 The following image shows an example of a Visual Studio solution containing both Python and Flask projects in **Solution Explorer**.
 
+:::moniker range="visualstudio"
+:::image type="content" source="media/visualstudio/projects-solution-explorer-two-projects.png" alt-text="Screenshot that shows a Visual Studio solution containing both Python and Flask projects in Solution Explorer." lightbox="media/visualstudio/projects-solution-explorer-two-projects.png":::
+:::moniker-end
+
+:::moniker range="vs-2022"
 :::image type="content" source="media/projects-solution-explorer-two-projects.png" alt-text="Screenshot that shows a Visual Studio solution containing both Python and Flask projects in Solution Explorer." lightbox="media/projects-solution-explorer-two-projects.png":::
+:::moniker-end
 
 Project and item templates automate the process of setting up different types of projects and files. The templates save you valuable time and relieve you from managing intricate and error-prone details. Visual Studio provides templates for web, Azure, data science, console, and other types of projects. You can find templates for files like Python classes, unit tests, Azure web configuration, HTML, and even Django apps.
 
+:::moniker range="visualstudio"
+:::image type="content" source="media/visualstudio/project-and-item-templates.png" alt-text="Screenshot of Python project and item templates in Visual Studio." lightbox="media/visualstudio/project-and-item-templates.png":::
+:::moniker-end
+
+:::moniker range="vs-2022"
 :::image type="content" source="media/project-and-item-templates.png" alt-text="Screenshot of python project and item templates in Visual Studio." lightbox="media/project-and-item-templates.png":::
+:::moniker-end
 
 For more information, see:
 
@@ -119,7 +139,13 @@ For more information, see:
 
 One of Visual Studio's strengths is its powerful debugger. For Python in particular, Visual Studio includes Python/C++ [mixed-mode debugging](debugging-mixed-mode-c-cpp-python-in-visual-studio.md), remote debugging on Linux, debugging within the **Interactive** window, and debugging Python unit tests.
 
+:::moniker range="visualstudio"
+:::image type="content" source="media/visualstudio/debugging-exception-popup.png" alt-text="Screenshot of the Visual Studio debugger for Python showing an exception popup dialog.":::
+:::moniker-end
+
+:::moniker range="vs-2022"
 :::image type="content" source="media/debugging-exception-popup.png" alt-text="Screenshot of the Visual Studio debugger for Python showing an exception popup dialog.":::
+:::moniker-end
 
 In Visual Studio 2019 and later, you can run and debug code without having a Visual Studio project file. For an example, see [Quickstart: Open and run Python code in a folder](quickstart-05-python-visual-studio-open-folder.md).
 
@@ -129,7 +155,6 @@ For more information, see:
 - [Python/C++ mixed-mode debugging](debugging-mixed-mode-c-cpp-python-in-visual-studio.md)
 - [Remote debugging on Linux](debugging-python-code-on-remote-linux-machines.md)
 - [Feature tour of the Visual Studio debugger](../debugger/debugger-feature-tour.md)
-
 ## Profiling tools with comprehensive reporting
 
 Profiling explores how time is being spent within your application. Visual Studio supports profiling with CPython-based interpreters and includes the ability to compare performance between different profiling runs.
@@ -140,12 +165,17 @@ For more information, see:
 
 - [Python profiling tools](profiling-python-code-in-visual-studio.md)
 - [Visual Studio profiling feature tour](../profiling/profiling-feature-tour.md)
-
 ## Unit testing tools
 
 Discover, run, and manage tests in Visual Studio **Test Explorer**, and easily debug unit tests.
 
+:::moniker range="visualstudio"
+:::image type="content" source="media/visualstudio/unit-test-debugging.png" alt-text="Screenshot that shows debugging output for a Python unit test in Visual Studio.":::
+:::moniker-end
+
+:::moniker range="vs-2022"
 :::image type="content" source="media/unit-test-debugging.png" alt-text="Screenshot that shows debugging output for a Python unit test in Visual Studio.":::
+:::moniker-end
 
 For more information, see:
 
@@ -162,7 +192,7 @@ For more information, see [Azure SDK for Python](/azure/python/) and [Azure libr
 
 ### Is Python support available with Visual Studio for Mac?
 
-Visual Studio for Mac isn't supported. For more information, see [What happened to Visual Studio for Mac?](/visualstudio/mac/what-happened-to-vs-for-mac) Visual Studio Code on Windows, Mac, and Linux [works well with Python through available extensions](https://code.visualstudio.com/docs/languages/python).
+Visual Studio for Mac isn't supported. Visual Studio Code on Windows, Mac, and Linux [works well with Python through available extensions](https://code.visualstudio.com/docs/languages/python).
 
 ### What can I use to build the UI with Python?
 

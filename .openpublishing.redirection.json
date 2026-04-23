@@ -1,9 +1,137 @@
 {
   "redirections": [
     {
+      "source_path": "docs/ide/reference/proxy-settings.md",
+      "redirect_url": "/visualstudio/ide/reference/proxy-firewall-troubleshoot",
+      "redirect_document_id": false,
+      "monikers": [
+        "vs-2022"
+      ]
+    },
+    {
+      "source_path": "docs/ide/reference/extensions-and-updates-environment-options-dialog-box.md",
+      "redirect_url": "/visualstudio/ide/configure-extension-update-options",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/ide/reference/options-dialog-box-projects-and-solutions-build-and-run.md",
+      "redirect_url": "/visualstudio/ide/configure-build-run-options",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/ide/reference/options-windows-forms-designer.md",
+      "redirect_url": "/visualstudio/ide/configure-windows-forms-designer-options",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/ide/connect-team-project.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/ide/connect-team-project",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/javascript/quickstart-vuejs-with-nodejs.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/javascript/quickstart-vuejs-with-nodejs",
+      "redirect_document_id": false
+    },
+    {
+       "source_path": "docs/javascript/publish-nodejs-app-azure.md",
+       "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/javascript/publish-nodejs-app-azure",
+       "redirect_document_id": false
+    },
+    {
+       "source_path": "docs/javascript/create-application-with-vuejs.md",
+       "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/javascript/create-application-with-vuejs",
+       "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/javascript/tutorial-nodejs-with-react-and-jsx.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/javascript/tutorial-nodejs-with-react-and-jsx",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/run-windows-store-apps-in-the-simulator.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/debugger/run-windows-store-apps-in-the-simulator",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/azure/vs-azure-tools-virtual-machines-access-from-server-explorer.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/azure/vs-azure-tools-virtual-machines-access-from-server-explorer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/azure/vs-azure-tools-table-designer-construct-filter-strings.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/azure/vs-azure-tools-table-designer-construct-filter-strings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/azure/vs-azure-tools-storage-resources-server-explorer-browse-manage.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/azure/vs-azure-tools-storage-resources-server-explorer-browse-manage",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/managing-project-loading-in-a-solution.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/extensibility/managing-project-loading-in-a-solution",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/whats-new-in-visual-studio-2019.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/ide/whats-new-in-visual-studio-2019",
+      "redirect_document_id": false
+    },
+    {
+       "source_path": "docs/containers/container-tools-react.md",
+       "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/containers/container-tools-react",
+       "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/ux-guidelines/per-monitor-awareness-extenders.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/extensibility/ux-guidelines/per-monitor-awareness-extenders",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/team-explorer-reference.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/ide/team-explorer-reference",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/test/live-unit-testing-2019.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/test/live-unit-testing-2019",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/test/live-unit-testing-faq-2019.yml",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/test/live-unit-testing-faq-2019",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/version-control/git-team-explorer-feature-comparison.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/version-control/git-team-explorer-feature-comparison",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/migration/update-extension.md",
+      "redirect_url": "/visualstudio/extensibility/migration/update-visual-studio-extension",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/msbuild/msbuild-concepts.md",
       "redirect_url": "/visualstudio/msbuild/msbuild",
       "redirect_document_id": false
+    },
+    {
+       "source_path": "docs/ide/reference/xaml-designer.md",
+       "redirect_url": "/visualstudio/xaml-tools/xaml-designer",
+       "redirect_document_id": false
+    },
+    {
+       "source_path": "docs/ide/reference/options-text-editor-xml-formatting.md",
+       "redirect_url": "/visualstudio/xml-tools/options-text-editor-xml-formatting",
+       "redirect_document_id": false
+    },
+    {
+       "source_path": "docs/ide/reference/options-text-editor-xml-miscellaneous.md",
+       "redirect_url": "/visualstudio/xml-tools/options-text-editor-xml-formatting",
+       "redirect_document_id": false
     },
     {
        "source_path": "docs/ide/reference/options-text-editor-xaml-formatting.md",
@@ -1267,8 +1395,13 @@
     },
     {
       "source_path": "docs/ide/reference/project-properties-reference.md",
-      "redirect_url": "/visualstudio/ide/project-properties-reference",
+      "redirect_url": "/visualstudio/ide/managing-project-and-solution-properties",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/project-properties-reference.md",
+      "redirect_url": "/visualstudio/ide/managing-project-and-solution-properties",
+      "redirect_document_id": true
     },
     {
       "source_path": "docs/ide/reference/properties-window.md",
@@ -8395,8 +8528,8 @@
     },
     {
       "source_path": "docs/get-started/tutorial-open-project-from-repo-visual-studio-2019.md",
-      "redirect_url": "/visualstudio/get-started/tutorial-open-project-from-repo?view=vs-2019",
-      "redirect_document_id": true
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/get-started/tutorial-open-project-from-repo",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/get-started/tutorial-open-project-from-repo-visual-studio-2017.md",
@@ -21075,6 +21208,375 @@
     {
       "source_path": "docs/ide/reference/options-text-editor-html-formatting.md",
       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-text-editor-html-formatting",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/projects-and-solutions-options-dialog-box.md",
+      "redirect_url": "/visualstudio/ide/projects-and-solutions-options-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/options-text-editor-advanced.md",
+      "redirect_url": "/visualstudio/ide/options-text-editor-advanced",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/toolbox.md",
+      "redirect_url": "/visualstudio/ide/toolbox",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/debugging-user-interface-reference.md",
+      "redirect_url": "/visualstudio/debugger/find-your-debugging-task",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/choose-breakpoints-dialog-box.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/debugger/choose-breakpoints-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/configure-firewall-for-remote-debugging-dialog-box.md",
+      "redirect_url": "/visualstudio/debugger/configure-the-windows-firewall-for-remote-debugging",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/dataset-visualizer-dialog-box.md",
+      "redirect_url": "/visualstudio/debugger/view-data-in-tabular-visualizer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/symbol-load-information-dialog-box.md",
+      "redirect_url": "/visualstudio/debugger/specify-symbol-dot-pdb-and-source-files-in-the-visual-studio-debugger",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/when-breakpoint-is-hit-dialog-box.md",
+      "redirect_url": "/visualstudio/debugger/using-breakpoints",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/string-visualizer-dialog-box.md",
+      "redirect_url": "/visualstudio/debugger/view-strings-visualizer",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/debugging-options-dialog-box.md",
+      "redirect_url": "/visualstudio/debugger/how-to-specify-debugger-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/debugger-settings-and-preparation.md",
+      "redirect_url": "/visualstudio/debugger/how-to-specify-debugger-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/just-in-time-debugging-options-dialog-box.md",
+      "redirect_url": "/visualstudio/debugger/debug-using-the-just-in-time-debugger",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/output-window-debugging-options-dialog-box.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/debugger/output-window-debugging-options-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/general-debugging-options-dialog-box.md",
+      "redirect_url": "/visualstudio/debugger/how-to-specify-debugger-settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/debugger/debugger-project-settings.md",
+      "redirect_url": "/visualstudio/ide/managing-project-and-solution-properties",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/documents-environment-options-dialog-box.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/ide/reference/documents-environment-options-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/find-and-replace-environment-options-dialog-box.md",
+      "redirect_url": "/visualstudio/ide/finding-and-replacing-text",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/options-text-editor-general.md",
+      "redirect_url": "/visualstudio/ide/options-text-editor-general"
+    },
+    {
+      "source_path": "docs/ide/reference/options-text-editor-fsharp-advanced.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/ide/reference/options-text-editor-fsharp-advanced",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/options-text-editor-fsharp-code-fixes.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/ide/reference/options-text-editor-fsharp-code-fixes",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/options-text-editor-fsharp-intellisense.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/ide/reference/options-text-editor-fsharp-intellisense",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/accounts-environment-options-dialog-box.md",
+      "redirect_url": "/visualstudio/ide/accounts-environment-options-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/general-environment-options-dialog-box.md",
+      "redirect_url": "/visualstudio/ide/general-environment-options-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/fonts-and-colors-environment-options-dialog-box.md",
+      "redirect_url": "/visualstudio/ide/fonts-and-colors-environment-options-dialog-box",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/options-text-editor-basic-visual-basic.md",
+      "redirect_url": "/visualstudio/ide/options-text-editor-basic-visual-basic",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/rename.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-rename-move#rename-a-code-symbol",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/move-type-to-matching-file.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-rename-move#move-type-to-matching-file",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/sync-type-and-file.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-rename-move#sync-type-and-filename",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/sync-namespace-and-folder-name.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-rename-move#sync-namespace-and-folder-name",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/move-declaration-near-reference.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-rename-move#move-declaration-near-reference",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/extract-method.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-extract-inline#extract-method",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/extract-local-function.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-extract-inline#extract-local-function",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/extract-base-class.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-extract-inline#extract-base-class",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/extract-interface.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-extract-inline#extract-interface",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/inline-method.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-extract-inline#inline-method",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/inline-temporary-variable.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-extract-inline#inline-temporary-variable",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/change-method-signature.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-class-member#change-method-signature",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/pull-members-up.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-class-member#pull-members-up",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/make-class-abstract.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-class-member#make-class-abstract",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/make-member-static.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-class-member#make-member-static",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/convert-local-function-method.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-class-member#convert-local-function-to-method",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/static-local-function-refactor-options.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-class-member#static-local-function-refactorings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/encapsulate-field.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-property-field#encapsulate-field",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/convert-between-auto-property-and-full-property.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-property-field#convert-between-auto-property-and-full-property",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/convert-get-method-to-property.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-property-field#convert-between-get-method-and-property",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/convert-for-loop-to-foreach.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-loop-linq#convert-a-for-loop-to-a-foreach-statement",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/convert-foreach-linq.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-loop-linq#convert-a-foreach-loop-to-linq",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/convert-linq-to-foreach.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-loop-linq#convert-linq-to-foreach-statement",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/simplify-linq-expression.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-loop-linq#simplify-linq-expression",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/convert-if-statement-to-switch-statement-or-switch-expression.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-conditional-logic#convert-if-statement-to-switch-statement-or-switch-expression",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/convert-switch-statement-to-switch-expression.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-conditional-logic#convert-switch-statement-to-switch-expression",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/invert-if-statement.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-conditional-logic#invert-if-statement",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/invert-conditional-logical.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-conditional-logic#invert-conditional-expressions-and-conditional-andor-operators",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/split-or-merge-if-statement.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-conditional-logic#split-or-merge-if-statements",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/simplify-conditional-expression.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-conditional-logic#simplify-conditional-expression",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/convert-anonymous-type-to-class.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-type-string-syntax#convert-anonymous-type-to-class",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/convert-anonymous-type-to-tuple.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-type-string-syntax#convert-anonymous-type-to-tuple",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/convert-between-regular-string-verbatim-string.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-type-string-syntax#convert-between-regular-string-and-verbatim-string-literals",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/convert-typeof-to-nameof.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-type-string-syntax#convert-typeof-to-nameof",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/convert-var-to-explicit-type.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-type-string-syntax#use-explicit-type-instead-of-var",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/simplify-string-interpolation.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-type-string-syntax#simplify-string-interpolation",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/use-new.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-expression-pattern#use-new",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/use-pattern-matching.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-expression-pattern#use-pattern-matching",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/use-block-body-lambda.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-expression-pattern#use-expression-body-or-block-body-for-lambda-expressions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/add-null-checks-for-parameters.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-code-cleanup#add-null-checks-for-all-parameters",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/remove-unreachable-code.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-code-cleanup#remove-unreachable-code",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/remove-unused-references.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-code-cleanup#remove-unused-references",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/unused-values-parameters.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-code-cleanup#unused-value-assignments-variables-and-parameters",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/sort-usings.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-code-cleanup#sort-usings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/datetime-timespan-completion.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-intellisense-formatting#datetime-and-timespan-completion",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/regex-completion-through-intellisense.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-intellisense-formatting#regex-completion-through-intellisense",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/intellisense-completion-unimported-types-extension-methods.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-intellisense-formatting#intellisense-completion-for-unimported-types-and-extension-methods",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/ide/reference/wrap-indent-align-refactorings.md",
+      "redirect_url": "/visualstudio/ide/reference/refactoring-intellisense-formatting#wrap-and-align-call-chains",
       "redirect_document_id": false
     }
   ]

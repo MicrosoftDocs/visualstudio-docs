@@ -31,37 +31,37 @@
   items:
   - name: Python in Visual Studio
     items:
-    - name: "1. Create a new Python project"
+    - name: 1. Create a new Python project
       href: tutorial-working-with-python-in-visual-studio-step-01-create-project.md
-    - name: "2. Write and run code"
+    - name: 2. Write and run code
       href: tutorial-working-with-python-in-visual-studio-step-02-writing-code.md
-    - name: "3. Use the interactive REPL window"
+    - name: 3. Use the interactive REPL window
       href: tutorial-working-with-python-in-visual-studio-step-03-interactive-repl.md
-    - name: "4. Run code in the debugger"
+    - name: 4. Run code in the debugger
       href: tutorial-working-with-python-in-visual-studio-step-04-debugging.md
-    - name: "5. Install packages & manage Python environments"
+    - name: 5. Install packages & manage Python environments
       href: tutorial-working-with-python-in-visual-studio-step-05-installing-packages.md
-    - name: "6. Work with Git"
+    - name: 6. Work with Git
       href: tutorial-working-with-python-in-visual-studio-step-06-working-with-git.md
   - name: Learn Django in Visual Studio
     items:
-    - name: "1. Create a project & solution"
+    - name: 1. Create a project & solution
       href: learn-django-in-visual-studio-step-01-project-and-solution.md
-    - name: "2. Create a Django app"
+    - name: 2. Create a Django app
       href: learn-django-in-visual-studio-step-02-create-an-app.md
-    - name: "3. Serve static files & add pages"
+    - name: 3. Serve static files & add pages
       href: learn-django-in-visual-studio-step-03-serve-static-files-and-add-pages.md
-    - name: "4. Use Django Web Project template"
+    - name: 4. Use Django Web Project template
       href: learn-django-in-visual-studio-step-04-full-django-project-template.md
-    - name: "5. Authenticate users"
+    - name: 5. Authenticate users
       href: learn-django-in-visual-studio-step-05-django-authentication.md
   - name: Learn Flask in Visual Studio
     items:
-    - name: "1. Create a project & solution"
+    - name: 1. Create a project & solution
       href: learn-flask-visual-studio-step-01-project-solution.md
-    - name: "2. Create a Flask app"
+    - name: 2. Create a Flask app
       href: learn-flask-visual-studio-step-02-create-app.md
-    - name: "3. Serve static files & add pages"
+    - name: 3. Serve static files & add pages
       href: learn-flask-visual-studio-step-03-serve-static-files-add-pages.md
 - name: Concepts
   items:

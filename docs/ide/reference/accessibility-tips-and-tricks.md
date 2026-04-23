@@ -1,12 +1,12 @@
 ---
 title: "Accessibility tips and tricks for Visual Studio"
 description: Discover tips and tricks that help make the Visual Studio integrated development environment (IDE) more accessible for everyone, including people with disabilities.
-ms.date: 02/13/2025
-ms.topic: conceptual
+ms.date: 04/17/2026
+ms.topic: concept-article
 helpviewer_keywords:
   - "accessibility [Visual Studio]"
-author: anandmeg
-ms.author: meghaanand
+author: ghogen
+ms.author: ghogen
 ms.subservice: general-ide
 ---
 # Accessibility tips and tricks for Visual Studio
@@ -29,9 +29,9 @@ You can customize your IDE experience by saving your window layout, keyboard map
 
 ## Modify your IDE for high-contrast viewing
 
-For some folks, certain colors are more difficult to see. If you want more contrast as you code but don't want to use the typical *High Contrast* themes, we now offer a *Blue (Extra Contrast)* theme.
+For some folks, certain colors are more difficult to see. If you want more contrast as you code but don't want to use the typical *High Contrast* themes, we offer a *Dark (Extra Contrast)* theme.
 
-:::image type="content" source="media/blue-extra-contrast-theme.png" alt-text="Screenshot that shows a comparison of the Blue theme and the Blue Extra Contrast theme.":::
+:::image type="content" source="media/visualstudio/blue-extra-contrast-theme.png" alt-text="Screenshot that shows a comparison of the Dark theme and the Dark Extra Contrast theme.":::
 
 ::: moniker range=">=vs-2022"
 
@@ -44,7 +44,7 @@ For some folks, certain colors are more difficult to see. If you want more contr
 
 The Visual Studio editor includes many text *adornments* that let you know about characteristics and features at particular points on a line of code, such as screwdriver and light bulb icons, error and warning *squiggles*, bookmarks, and so on. You can use the **Show Line Annotations** command set to help you discover and then navigate between these adornments.
 
-:::image type="content" source="media/show-line-annotations-command-set.png" alt-text="Screenshot of the Show Line Annotations menu item.":::
+:::image type="content" source="media/visualstudio/show-line-annotations-command-set.png" alt-text="Screenshot of the Show Line Annotations menu item.":::
 
 ## Access toolbars by using keyboard shortcuts
 
@@ -95,7 +95,13 @@ When a notification appears in the IDE, here's how you can access the Notificati
 
    The **Notifications** window opens.
 
+   :::moniker range="visualstudio"
+   :::image type="content" source="media/visualstudio/toast-notification.png" alt-text="Screenshot of the Notifications window in the Visual Studio IDE.":::
+   :::moniker-end
+
+   :::moniker range="vs-2022"
    :::image type="content" source="media/toast-notification.png" alt-text="Screenshot of the Notifications window in the Visual Studio IDE.":::
+   :::moniker-end
 
 1. Use either the **Tab** key or the arrow keys to select a notification.
 

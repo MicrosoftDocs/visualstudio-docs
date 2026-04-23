@@ -2,7 +2,7 @@
 title: "Debug XAML in Blend"
 description: Learn how to use the tools in Blend for Visual Studio to detect, debug, and resolve XAML errors in your app.
 ms.date: "11/04/2016"
-ms.topic: conceptual
+ms.topic: how-to
 author: maddymontaquila
 ms.author: maleger
 manager: mijacobs

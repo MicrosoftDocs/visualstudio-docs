@@ -1,7 +1,7 @@
 ---
 title: Discovering available brokered services
 description: Discover available services supported by Visual Studio and the Visual Studio SDK, including service descriptors for obtaining an interface for each service.
-monikerRange: '>= vs-2019'
+monikerRange: '>= vs-2022'
 ms.date: 01/07/2022
 ms.topic: reference
 helpviewer_keywords:

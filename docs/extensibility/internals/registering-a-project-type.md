@@ -2,7 +2,7 @@
 title: Registering a Project Type
 description: Learn about creating registry entries that enable Visual Studio to recognize and work with your new project type.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - projects [Visual Studio SDK], new project registry entries
 - registry, new project types

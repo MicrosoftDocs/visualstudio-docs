@@ -3,7 +3,7 @@ title: "Beginner's guide to optimizing code"
 description: "Learn how to optimize code and reduce compute costs using Visual Studio profiling tools such as the CPU Usage tool, the .NET Object Allocation tool, and the Database tool."
 ms.date: 7/3/2025
 ms.update-cycle: 180-days
-ms.topic: conceptual
+ms.topic: how-to
 ms.custom: "profiling-seo"
 dev_langs:
   - "CSharp"

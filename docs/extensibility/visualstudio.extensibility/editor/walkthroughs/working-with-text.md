@@ -2,7 +2,7 @@
 title: Work with Text in the Editor
 description: This walkthrough shows you how to read text and track text changes in the Visual Studio editor by using extensions.
 ms.date: 1/13/2025
-ms.topic: conceptual
+ms.topic: how-to
 ms.author: tinali
 monikerRange: ">=vs-2022"
 author: tinaschrepfer

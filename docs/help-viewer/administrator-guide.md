@@ -1,8 +1,8 @@
 ---
 title: Deploy help locally with Help Viewer
 description: Read the Microsoft Help Viewer administrator guide. Deploy local Help content from the internet, or deploy pre-installed local Help content on client computers.
-ms.date: 11/01/2017
-ms.topic: conceptual
+ms.date: 1/9/2026
+ms.topic: install-set-up-deploy
 author: ghogen
 ms.author: ghogen
 manager: mijacobs

@@ -2,7 +2,8 @@
 title: Make a Git commit in Visual Studio
 titleSuffix: ""
 description: Make a Git commit in Visual Studio by using Git providers such as GitHub or Azure DevOps, or locally with no provider at all.
-ms.date: 8/7/2025
+ms.date: 03/12/2026
+ms.custom: awp-ai
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: ghogen
@@ -23,7 +24,17 @@ Git tracks file changes in your repo as you work, and separates the files in you
 
 As you do your work, Visual Studio keeps track of the file changes to your project in the **Changes** section of the **Git Changes** window.
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/git-changes-window.png" alt-text="Screenshot that shows the Git Changes window in Visual Studio.":::
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+
 :::image type="content" source="media/vs-2022/git-changes-window.png" alt-text="The Git Changes window in Visual Studio 2022.":::
+
+:::moniker-end
 
 ## Stage changes and make a commit
 
@@ -31,7 +42,17 @@ To stage changes when you're ready, select the **+** (plus) button on each file 
 
 When you stage a change, Visual Studio creates a **Staged Changes** section. Only changes in the **Staged Changes** section are added to the next commit, which you can do by selecting **Commit Staged**. The equivalent command for this action is `git commit -m "Your commit message"`.
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/git-commit-message.png" alt-text="Screenshot that shows the Git commit dialog in Visual Studio.":::
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+
 :::image type="content" source="media/vs-2022/git-commit-message.png" alt-text="The Git commit dialog in Visual Studio 2022.":::
+
+:::moniker-end
 
 Changes can also be unstaged by clicking the **–** (minus) button. The equivalent command for this action is `git reset <file_path>` to unstage a single file or `git reset <directory_path>` to unstage all the files in a directory.
 
@@ -39,7 +60,17 @@ You can also choose not to stage your modified files by skipping the staging are
 
 Visual Studio also makes it easy to commit and sync with one click by using the **Commit All and Push** and **Commit All and Sync** shortcuts. When you double-click any file in the **Changes** and the **Staged changes** sections, you can see a line-by-line comparison with the unmodified version of the file. See [Compare files - diff view](../ide/compare-with.md).
 
-:::image type="content" source="media/vs-2022/git-file-version-compare.png" alt-text="The line-by-line comparison of file versions in Visual Studio 2022.":::
+:::moniker range="<=vs-2022"
+
+:::image type="content" source="media/vs-2022/git-file-version-compare.png" alt-text="The line-by-line comparison of file versions in Visual Studio 2022." lightbox="media/vs-2022/git-file-version-compare.png":::
+
+:::moniker-end
+
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/git-file-version-compare.png" alt-text="Screenshot that shows line-by-line comparison of file versions in Visual Studio." lightbox="media/visualstudio/git-file-version-compare.png":::
+
+:::moniker-end
 
 :::moniker range=">=vs-2022"
 
@@ -49,7 +80,22 @@ New in [**version 17.12**](/visualstudio/releases/2022/release-notes-v17.12): Wh
 
 ### Review local changes with Copilot Chat 
 
-New in **version 17.13**: With [GitHub Copilot](../ide/visual-studio-github-copilot-install-and-states.md) installed, you can have GitHub Copilot review your code changes before you commit them. To use this feature, make sure that **Tools** > **Options** > **Preview Features** > **Pull Request Comments** is enabled, and also enable **Tools** > **Options** > **GitHub** > **Copilot** > **Source Control Integration** > **Enable Git preview features**.
+New in **version 17.13**: With [GitHub Copilot](../ide/visual-studio-github-copilot-install-and-states.md) installed, you can have GitHub Copilot review your code changes before you commit them.
+
+:::moniker-end
+
+:::moniker range="visualstudio"
+
+To enable this feature, open the **Tools** > **Options** pane, expand the **All Settings** > **Preview Features** section, and select the **Pull Request Comments** checkbox. Expand the **All Settings** > **GitHub** > **Copilot** > **Source Control Integration** section and select the **Enable Git preview features** checkbox.
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+To enable this feature, open the **Tools** > **Options** dialog, expand the **Environment** > **Preview Features** section, and select the **Pull Request Comments** checkbox. Expand the **GitHub** > **Copilot** > **Source Control Integration** section and select the **Enable Git preview features** checkbox. Select **OK**. 
+
+:::moniker-end
+
+:::moniker range="visualstudio"
 
 In the **Git Changes** window, click on the **Review changes with Copilot** button, which looks like a comment icon with a sparkle.
 
@@ -57,36 +103,119 @@ After a few moments, a link showing the number of code review comments appears i
 
 ![Screenshot showing Git Changes window with Review changes button.](./media/vs-2022/git-code-review-changes-button.png)
 
-The code review feedback shows up as comments, which show brief summary of the potential problem, and you can decide to make a change, or dismiss the comment box by using the downward arrow button on the top right of the comment box.
+The code review feedback shows up as comments, which show brief summary of the potential problem, and you can decide to make a change, or dismiss the comment box by using the up arrow button on the top right of the comment box.
+
+![Screenshot showing GitHub code review comment.](./media/visualstudio/git-code-review-comment.png)
+
+To remove all comments, use the **X** in the Git Changes window to close the Copilot code review link.
+
+### Navigate comments in the comment list
+
+The **Git Changes** window also shows a list of all Copilot review comments, organized by file. You can double-click any comment in the list to navigate directly to that comment located inline with the corresponding code in the editor.
+
+![Screenshot showing code review comments for each file in the Git Changes window.](./media/visualstudio/local-code-review-comment-list-cropped.png)
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
+In the **Git Changes** window, click on the **Review changes with Copilot** button, which looks like a comment icon with a sparkle.
+
+After a few moments, a link showing the number of code review comments appears in the **Git Changes** window that you can click on to view and navigate the comments. If no issues are detected, the message **Copilot did not comment on any files** appears.
+
+![Screenshot showing Git Changes window with Review changes button.](./media/vs-2022/git-code-review-changes-button.png)
+
+The code review feedback shows up as comments, which show brief summary of the potential problem, and you can decide to make a change, or dismiss the comment box by using the up arrow button on the top right of the comment box.
 
 ![Screenshot showing GitHub code review comment.](./media/vs-2022/git-code-review-comment.png)
 
 To remove all comments, use the **X** in the Git Changes window to close the Copilot code review link.
+
+:::moniker-end
+
+:::moniker range="visualstudio"
+
+### Apply suggestions from local code review
+
+GitHub Copilot can also suggest code edits based on comments from the local code review experience, helping you resolve feedback and get your changes commit-ready faster. After Copilot reviews your local changes and leaves comments, you can request an actionable code suggestion directly from the comment. The suggested change appears in an inline diff view where you can review the original code, the proposed edit, and surrounding context, then modify and test the fix before committing.
+
+![Screenshot showing how to apply a Copilot code suggestion from local code review in Visual Studio.](./media/visualstudio/suggest-a-fix-apply-suggestion.png)
+
+To use this feature, enable both of the following feature flags:
+
+- **Tools** > **Options** > **Preview Features** > **Pull Request Comments**
+- **Tools** > **Options** > **GitHub** > **Copilot** > **Source Control Integration** > **Enable Git preview features**
+
+You can also apply code suggestions from [pull request comments](git-create-pull-request.md#apply-a-suggested-change-from-a-pull-request-comment) in the editor.
+
 :::moniker-end
 
 ## Revert, reset, or amend a commit
 
 When you double-click a **Commit**, Visual Studio opens its details in a separate tool window. From here you can revert the commit, reset (undo) the commit, amend the commit message, or create a tag on the commit. When you click a changed file in the commit, Visual Studio opens the side-by-side **Diff** view of the commit and its parent.
 
-:::image type="content" source="media/vs-2022/git-branch-commit-details.png" alt-text="The Commit Details dialog in Visual Studio 2022.":::
+:::moniker range="visualstudio"
 
-:::moniker range=">=vs-2022"
+:::image type="content" source="media/visualstudio/git-branch-commit-details.png" alt-text="Screenshot that shows the Commit Details dialog in Visual Studio." lightbox="media/visualstudio/git-branch-commit-details.png":::
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+
+:::image type="content" source="media/vs-2022/git-branch-commit-details.png" alt-text="The Commit Details dialog in Visual Studio 2022." lightbox="media/vs-2022/git-branch-commit-details.png":::
+
+:::moniker-end
+
+:::moniker range="visualstudio"
+
 ## Generate commit messages with GitHub Copilot Chat
 
 With Visual Studio version 17.9 and later and the GitHub Copilot extensions, you can use AI to generate detailed commit messages that describe your changes.
 
 > [!NOTE]
->To enable AI-generated commit messages, you need GitHub Copilot and GitHub Copilot Chat. To get started, see [Get GitHub Copilot for Visual Studio 2022](../ide/visual-studio-github-copilot-install-and-states.md).
+> To enable AI-generated commit messages, you need GitHub Copilot and GitHub Copilot Chat. To get started, see [Manage GitHub Copilot installation and state](../ide/visual-studio-github-copilot-install-and-states.md).
+
+![Screenshot showing AI-generated commit message.](./media/visualstudio/git-commit-message-ai.png)
+
+When you're ready to make a commit, use the sparkly pen icon (tooltip: **Add AI generated commit message**) at the lower right of the commit message text box to request an AI-generated commit message. The AI-generated text is generated and added to anything you already had. Read it carefully to see if it's accurate. You have the option of accepting the insertion or discarding it. If you accept the insertion, you can then edit the text before submitting it. When you're ready, choose the **Commit Staged** button, or one of the other commit options available in the dropdown below the commit message editbox.
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
+## Generate commit messages with GitHub Copilot Chat
+
+With Visual Studio version 17.9 and later and the GitHub Copilot extensions, you can use AI to generate detailed commit messages that describe your changes.
+
+> [!NOTE]
+> To enable AI-generated commit messages, you need GitHub Copilot and GitHub Copilot Chat. To get started, see [Get GitHub Copilot for Visual Studio 2022](../ide/visual-studio-github-copilot-install-and-states.md).
 
 ![Screenshot showing AI-generated commit message.](./media/vs-2022/git-commit-message-ai.png)
 
 When you're ready to make a commit, use the sparkly pen icon (tooltip: **Add AI generated commit message**) at the lower right of the commit message text box to request an AI-generated commit message. The AI-generated text is generated and added to anything you already had. Read it carefully to see if it's accurate. You have the option of accepting the insertion or discarding it. If you accept the insertion, you can then edit the text before submitting it. When you're ready, choose the **Commit Staged** button, or one of the other commit options available in the dropdown below the commit message editbox.
 
-With Visual Studio 2022 version 17.12 and later, you can customize the commit message format globally by giving additional guidance in the prompt for GitHub Copilot. To add custom prompt instructions, open **Tools** > **Options** > **GitHub Copilot**, and under **Commit message custom instructions**, enter your additions to the prompt text. The changes affect every commit message. With this prompt guidance in place, teams can standardize commit message formats.
+:::moniker-end
+
+:::moniker range="visualstudio"
+
+You can customize the commit message format globally by giving additional guidance in the prompt for GitHub Copilot. To add custom prompt instructions, open the **Tools** > **Options** pane, and expand the **All Settings** > **GitHub** > **Copilot** > **Source Control Integration** section. In the **Commit message custom instructions** box, enter your additions to the prompt text. The changes affect every commit message. With this prompt guidance in place, teams can standardize commit message formats.
+
+:::image type="content" source="./media/visualstudio/git-customize-commit-message-with-ai.png" border="false" alt-text="Screenshot that shows how to to add a custom prompt for commit message with Tools Options." lightbox="./media/visualstudio/git-customize-commit-message-with-ai.png":::
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+With Visual Studio 2022 version 17.12 and later, you can customize the commit message format globally by giving additional guidance in the prompt for GitHub Copilot. 
+
+To add custom prompt instructions, open the **Tools** > **Options** dialog, and expand the **GitHub** > **Copilot** section. Under **Source Control Integration** group, enter your additions to the prompt text in the **Commit message custom instructions** box and select **OK**. The changes affect every commit message. With this prompt guidance in place, teams can standardize commit message formats.
 
 ![Screenshot showing Tools Options GitHub Copilot settings page with custom prompt for commit messages.](./media/vs-2022/git-customize-commit-message-with-ai.png)
 
-GitHub Copilot understands terms like "subject" (the first line of the commit message), "body" (the section describing the changes in more detail), and "footer" (the final section). Some examples include "Use all lowercase," "Limit subject to 50 characters," "Limit body to 2 sentences," "Add a footer with three hash marks", or "Follow Conventional Commits standard", which references the widely used [Conventional Commits](https://www.conventionalcommits.org/) standard.
+:::moniker-end
+
+:::moniker range=">=vs-2022"
+
+GitHub Copilot understands terms like "subject" (the first line of the commit message), "body" (the section describing the changes in more detail), and "footer" (the final section). Some examples include "Use all lowercase," "Limit subject to 50 characters," "Limit body to 2 sentences," "Add a footer with three hash marks," or "Follow Conventional Commits standard," which references the widely used [Conventional Commits](https://www.conventionalcommits.org/) standard.
 
 > [!NOTE]
 > Read about how GitHub Copilot protects the privacy of your data at [GitHub Copilot Business Privacy Statement](https://docs.github.com/site-policy/privacy-policies/github-copilot-business-privacy-statement).
@@ -95,5 +224,6 @@ GitHub Copilot understands terms like "subject" (the first line of the commit me
 
 ## Related content
 
+- [Create a pull request](git-create-pull-request.md)
 - [Stage lines of code](git-line-staging.md)
 - [Git experience in Visual Studio](git-with-visual-studio.md)

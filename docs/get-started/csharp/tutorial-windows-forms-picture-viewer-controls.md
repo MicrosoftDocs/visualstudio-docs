@@ -1,12 +1,12 @@
 ---
 title: "Tutorial: Add controls to the picture viewer Windows Forms app"
 description: Add a picture box, a checkbox, and buttons to a picture viewer application in the Visual Studio integrated development environment.
-author: anandmeg
-ms.author: meghaanand
+author: MikeJo5000
+ms.author: mikejo
 manager: mijacobs
 ms.subservice: general-ide
 ms.topic: tutorial
-ms.date: 09/19/2024
+ms.date: 02/13/2026
 #customer intent: As a developer, I want to learn how to use controls with layout elements in a Visual Studio WinForms project in C# or VB.
 ---
 # Tutorial: Add controls to the picture viewer Windows Forms App (.NET Framework)
@@ -25,7 +25,7 @@ In this second tutorial, you learn how to:
 > - Change control names and locations
 > - Add dialog components
 
-To create a new Windows Forms App with .NET, follow the tutorial [Create a Windows Forms app with .NET](/dotnet/desktop/winforms/get-started/create-app-visual-studio/). See the [Desktop Guide on Windows Forms .NET](/dotnet/desktop/winforms/overview/) to learn more.
+For more information, see [Desktop Guide on Windows Forms .NET](/dotnet/desktop/winforms/overview/).
 
 ## Prerequisites
 
@@ -89,6 +89,7 @@ These steps show you how to add four buttons to a new layout panel in the TableL
 1. Double-click **Button** again to  add another button. The IDE calls the next one **button2**.
 
 1. Add two more buttons this way.
+
    Another option is to select **button2**. Then select **Edit** > **Copy** or **Ctrl**+**C**.
    Next, choose **Edit** > **Paste** from the menu bar or press **Ctrl**+**V** to paste a copy of your button.
    Now paste it again.

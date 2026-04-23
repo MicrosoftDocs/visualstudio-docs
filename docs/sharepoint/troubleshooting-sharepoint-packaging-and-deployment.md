@@ -2,7 +2,7 @@
 title: "Troubleshooting SharePoint Packaging and Deployment"
 description: Understand and fix various problems that you might encounter when you package and deploy SharePoint solutions.
 ms.date: 02/22/2017
-ms.topic: "conceptual"
+ms.topic: troubleshooting-general
 f1_keywords:
   - "VSTO.WorkflowDeployment.Troubleshooting"
   - "VS.SharePointTools.Project.PackageRetraction"

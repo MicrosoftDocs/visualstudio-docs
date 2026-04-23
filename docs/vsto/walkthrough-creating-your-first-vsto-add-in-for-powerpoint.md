@@ -2,7 +2,7 @@
 title: Create your first VSTO Add-in for PowerPoint
 description: Create a VSTO add-in for the Microsoft Office PowerPoint with features that are available to the application itself, regardless of which presentations are open.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"

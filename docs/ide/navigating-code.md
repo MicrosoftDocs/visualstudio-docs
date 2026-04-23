@@ -1,8 +1,8 @@
 ---
-title: Options for Browsing Code in the Editor
+title: Navigate Code in the Editor
 description: Explore the options for using the Visual Studio editor for browsing your code, including the Navigation bar and Navigate Backward and Forward commands.
-ms.date: 04/04/2025
-ms.topic: conceptual
+ms.date: 04/17/2026
+ms.topic: how-to
 helpviewer_keywords:
 - code editor, navigation
 - code editor, go to
@@ -17,6 +17,8 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: j-martens
+ms.custom: "awp, awp-ai"
+ai-usage: ai-assisted
 
 #customer intent: As a developer, I want to learn about browsing code in Visual Studio so that I can write code more efficiently.
 ---
@@ -28,13 +30,24 @@ Visual Studio provides numerous ways to navigate code in the editor. This articl
 
 You can use the **Navigate Backward** (**Ctrl**+**-**) and **Navigate Forward** (**Ctrl**+**Shift**+**-**) buttons on the toolbar to move the insertion point to previous locations or to return to a more recent location from a previous location. These commands retain the last 20 locations of the insertion point.
 
+:::moniker range="visualstudio"
+:::image type="content" source="../ide/media/visualstudio/navigation-buttons.png" alt-text="Screenshot that shows the forward and back navigation buttons." lightbox="../ide/media/visualstudio/navigation-buttons.png":::
+:::moniker-end
+
+:::moniker range="vs-2022"
 :::image type="content" source="../ide/media/vs2017_nav_buttons.png" alt-text="Screenshot that shows the forward and back navigation buttons." lightbox="../ide/media/vs2017_nav_buttons.png":::
+:::moniker-end
 
 ## Navigation bar
 
 You can use the **navigation bar** (the drop-down boxes at the top of the code window) to navigate to code in a codebase. You can select a type or member to go directly to it. The navigation bar appears when you edit code in a Visual Basic, C#, or C++ codebase. In a partial class, members that are defined outside the current code file might be disabled (grayed out).
 
-:::image type="content" source="../ide/media/vside_navigation_bar.png" alt-text="Screenshot that shows the code navigation bar." lightbox="../ide/media/vside_navigation_bar.png":::
+:::moniker range="visualstudio"
+:::image type="content" source="../ide/media/visualstudio/navigation-bar.png" alt-text="Screenshot that shows the code navigation bar." lightbox="../ide/media/visualstudio/navigation-bar.png":::
+:::moniker-end
+:::moniker range="vs-2022"
+:::image type="content" source="../ide/media/visualstudio/navigation-bar.png" alt-text="Screenshot that shows the code navigation bar." lightbox="../ide/media/visualstudio/navigation-bar.png":::
+:::moniker-end
 
 You can use the navigation drop-down boxes in the following ways:
 
@@ -71,28 +84,6 @@ When you select a symbol in source code, all instances of that symbol are highli
 
 The following commands are available on the **Edit** menu under **Go To**:
 
-:::moniker range="<=vs-2019"
-- **Go To Line** (**Ctrl**+**G**): Move to the specified line number in the active document.
-
-- **Go To All** (**Ctrl**+**T** or **Ctrl**+**,**): Move to the specified line, type, file, member, or symbol. Selecting this option opens a search window. For more information, see [Visual Studio search](./visual-studio-search.md).
-
-- **Go To File** (**Ctrl**+**Shift**, **T**): Move to the specified file in the solution.
-
-- **Go To Recent File** (**Ctrl**+**1**, **Ctrl**+**R**): Move to the specified recently visited file in the solution.
-
-- **Go To Type** (**Ctrl**+**1**, **Ctrl**+**T**): Move to the specified type in the solution.
-
-- **Go To Member** (**Alt**+**\\**): Move to the specified member in the solution.
-
-- **Go To Symbol** (**Ctrl**+**1**, **Ctrl**+**S**): Move to the specified symbol in the solution.
-
-- **Go To Next Issue in File** (**Alt**+**PgDn**) and **Go To Previous Issue in File** (**Alt**+**PgUp**)
-
-- **Go To Last Edit Location** (**Ctrl**+**Shift**+**Backspace**)
-
-For more information about these commands, see [Find code using Go To commands](../ide/go-to.md).
-
-:::moniker-end
 
 :::moniker range=">=vs-2022"
 
@@ -169,9 +160,31 @@ In Visual Basic code files, you can use the Next Method and Previous Method comm
 
 The Structure Visualizer in the code editor shows *structure guide lines*, which are vertical dashed lines that indicate matching curly braces in your codebase. These lines make it easier to see where logical blocks begin and end.
 
+:::moniker range="visualstudio"
+:::image type="content" source="../ide/media/visualstudio/structure-visualizer.png" alt-text="Screenshot that shows the Structure Visualizer guide lines." lightbox="../ide/media/visualstudio/structure-visualizer.png":::
+:::moniker-end
+
+:::moniker range="vs-2022"
 :::image type="content" source="../ide/media/vside_structure_visualizer.png" alt-text="Screenshot that shows the Structure Visualizer guide lines." lightbox="../ide/media/vside_structure_visualizer.png":::
+:::moniker-end
 
 To disable structure guide lines, go to **Tools** > **Options** > **Text Editor** > **General** and clear the **Show structure guide lines** checkbox.
+
+::: moniker range="visualstudio"
+
+## Fast scrolling with Alt+mouse wheel
+
+You can move through large files faster by holding the **Alt** key while scrolling the mouse wheel in the code editor. On a touchpad, hold the **Alt** key while moving two fingers up or down.
+
+To configure this behavior, go to **Tools** > **Options** > **Text Editor** > **Advanced** > **Touchpad and mouse wheel scrolling sensitivity**, and adjust **Fast scroll multiplier**. For more information, see [Configure advanced Text Editor options](options-text-editor-advanced.md#fast-scroll-multiplier).
+
+## Middle-click scroll
+
+You can press and hold the middle mouse button (scroll wheel) in the code editor and then move the mouse to scroll quickly through the document in any direction. A cursor icon with directional arrows appears to indicate that middle-click scrolling is active.
+
+This feature is disabled by default. To enable it, go to **Tools** > **Options** > **Text Editor** > **Advanced** and select the **Middle click to scroll** checkbox. For more information, see [Configure advanced Text Editor options](options-text-editor-advanced.md#middle-click-to-scroll).
+
+::: moniker-end
 
 ## Enhanced scroll bar
 

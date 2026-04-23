@@ -39,22 +39,6 @@ For .NET Framework projects, follow these steps:
     
 :::moniker-end
 
-:::moniker range="<=vs-2019"
-Build events are specified in the **Build Events** dialog box, available from the **Compile** page of the **Project Designer**.
-
-## How to specify pre-build and post-build events
-
-### To specify a build event
-
-1. With a project selected in **Solution Explorer**, on the **Project** menu, click **Properties**.
-
-2. Click the **Compile** tab.
-
-3. Click the **Build Events** button to open the **Build Events** dialog box.
-
-4. Enter the command-line arguments for your pre-build or post-build action, and then click **OK**.
-
-:::moniker-end
 
 > [!NOTE]
 > Add a `call` statement before all post-build commands that run `.bat` files. For example, `call C:\MyFile.bat` or `call C:\MyFile.bat call C:\MyFile2.bat`.

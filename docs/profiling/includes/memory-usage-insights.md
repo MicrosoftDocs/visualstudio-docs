@@ -5,14 +5,24 @@ title: Memory Usage Insights report
  author: mikejo5000
  ms.service: ""
  ms.topic: include
- ms.date: 02/06/2024
+ ms.date: 03/04/2026
  ms.author: mikejo
  ms.custom: include file
 ---
 
 For managed memory, the Memory Analysis tool also gives multiple powerful built-in auto insights. Select the **Insights** tab in the Managed types reports and it shows the applicable auto insights like **Duplicate strings**, **Sparse arrays**, and **Event handler leaks**.
 
+:::moniker range="visualstudio"
+    
+[![Screenshot of the insight view in the Memory Usage tool.](../media/visualstudio/managed-insights.png "Memory Usage insight")](../media/visualstudio/managed-insights.png#lightbox)
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+    
 [![Screenshot of the insight view in the Memory Usage tool.](../media/vs-2022/dbgdiag-mem-managed-insights.png "Memory Usage insight")](../media/vs-2022/dbgdiag-mem-managed-insights.png#lightbox)
+
+:::moniker-end
 
 The **Duplicate Strings** section shows the list of strings that get allocated multiple times on the heap. In addition, this section shows the total wasted memory, that is, the (number of instances - 1) times the size of the string.
 

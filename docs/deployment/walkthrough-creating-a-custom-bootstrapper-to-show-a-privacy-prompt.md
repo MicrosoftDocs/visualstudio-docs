@@ -2,7 +2,7 @@
 title: "Create a custom bootstrapper with a privacy prompt"
 description: Learn how to configure ClickOnce applications to automatically update when assemblies with newer file versions and assembly versions become available.
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "FSharp"
   - "VB"

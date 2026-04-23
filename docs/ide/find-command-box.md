@@ -2,7 +2,7 @@
 title: Go to Find Combo box (Find/Command box)
 description: Learn about the Go to Find Combo box (Find/Command box) and how you can use it to search for text and run Visual Studio commands.
 ms.date: 10/31/2023
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
 - vs.findcommandbox
 helpviewer_keywords:

@@ -1,7 +1,7 @@
 ---
 title: Debug multi-process applications
 description: Debug multiple processes in Visual Studio. Start and switch between processes, break, continue, step through source, and end or detach from individual processes.
-ms.date: 11/20/2018
+ms.date: 10/27/2025
 ms.topic: how-to
 f1_keywords: 
   - vs.debug.programs
@@ -60,7 +60,7 @@ For more information, see [Attach to running processes](../debugger/attach-to-ru
 1. In the **Attach to Process** dialog box, select the process from the **Available Processes** list, and then select **Attach**.
 
 >[!NOTE]
->The debugger does not automatically attach to a child process that is started by a debugged process, even if the child project is in the same solution. To debug a child process, either attach to the child process after it starts, or configure the Windows Registry Editor to start the child process in a new debugger instance.
+>The debugger doesn't automatically attach to a child process that is started by a debugged process, even if the child project is in the same solution. To debug a child process, either attach to the child process after it starts, or configure the Windows Registry Editor to start the child process in a new debugger instance.
 
 ### <a name="BKMK_Automatically_start_an_process_in_the_debugger"></a> Use the Registry Editor to automatically start a process in the debugger
 
@@ -93,9 +93,21 @@ When debugging an app with several processes, the breaking, stepping, and contin
 
 **To change whether all processes are suspended when one process breaks:**
 
-- Under **Tools** (or **Debug**) > **Options** > **Debugging** > **General**, select or clear the **Break all processes when one process breaks** check box.
+:::moniker range="visualstudio"
 
-### <a name="BKMK_Break__step__and_continue_commands"></a> Break, step, and continue commands
+1. In the **Tools** (or **Debug**) > **Options** pane, expand the **All Settings** > **Debugging** > **General** section.
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+1. In the **Tools** (or **Debug**) > **Options** dialog, expand the **Debugging** > **General** section.
+
+:::moniker-end
+
+2. Select or clear the **Break all processes when one process breaks** option checkbox.
+
+
+### <a name="BKMK_Break__step__and_continue_commands"></a> Break, Step, Continue commands
 
 The following table describes the behaviors of debugging commands when the **Break all processes when one process breaks** check box is selected or deselected:
 
@@ -150,7 +162,7 @@ If you start debugging a process from a Visual Studio solution, then attach to a
 To control the way that **Stop Debugging** affects an individual process, in the **Processes** window, right-click a process, and then select or clear the **Detach when debugging stopped** check box.
 
 >[!NOTE]
->The **Break all processes when one process breaks** debugger option does not affect stopping, terminating, or detaching from processes.
+>The **Break all processes when one process breaks** debugger option doesn't affect stopping, terminating, or detaching from processes.
 
 ### Stop, terminate, and detach commands
 

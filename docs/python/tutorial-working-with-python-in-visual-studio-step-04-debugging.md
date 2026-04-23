@@ -2,10 +2,10 @@
 title: "Tutorial Step 4: Use Visual Studio Debugger"
 titleSuffix: ""
 description: Explore step 4 of a tutorial about Python capabilities in Visual Studio that demonstrates how to run Python code in the debugger.
-ms.date: 07/30/2025
+ms.date: 11/21/2025
 ms.topic: tutorial
-author: cwebster-99
-ms.author: cowebster
+author: Devdiv-VR
+ms.author: vedhar
 manager: mijacobs
 ms.subservice: python
 
@@ -65,7 +65,7 @@ Now you're ready to start checking your updated Python code in the **Debugger**.
    The **Debugger** doesn't detect any issues, so the program runs successfully. An output window opens and you see a few iterations of the cosine wave pattern. Select any key to close the output window.
 
    > [!TIP]
-   > To close the output window automatically when the program completes, select **Tools** > **Options**, expand the **Python**> **Debugging** tab, and clear the **Wait for input when process exits normally** option.
+   > In earlier versions of Visual Studio, you can close the output window automatically when the program completes. Select **Tools** > **Options**, expand the **Python**> **Debugging** node, and clear the **Wait for input when process exits normally** option.
 
 1. Set a breakpoint on the `for` loop statement by using one of the following methods:
 

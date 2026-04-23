@@ -2,7 +2,7 @@
 title: What is the Visual Studio SDK?
 description: Explore the Visual Studio SDK to add features and extend options in the Visual Studio IDE, including menus, commands, and IntelliSense.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 f1_keywords:
 - VSSDK.v90.StartPage
 helpviewer_keywords:

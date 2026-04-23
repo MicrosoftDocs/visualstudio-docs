@@ -1,15 +1,16 @@
 ---
 title: AI-assistance for developers in Visual Studio
 description: Learn about the AI-assisted development tools in Visual Studio, such as GitHub Copilot Completions and Chat, and IntelliCode, and how they can help you write code more efficiently.
-ms.date: 8/30/2025
+ms.date: 03/17/2026
 ms.update-cycle: 180-days
 ms.topic: overview 
-author: anandmeg
-ms.author: meghaanand
+author: ghogen
+ms.author: ghogen
 ms.manager: mijacobs
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
 monikerRange: ">=vs-2022"
+ms.custom: awp-ai
 ---
 # AI-assisted development in Visual Studio
 
@@ -67,7 +68,7 @@ GitHub Copilot and IntelliCode assist you in writing code faster and with greate
 
     :::image type="content" source="media/vs-2022/github-copilot-completions-visual-studio.gif" alt-text="Animated screenshot that shows the code completion capabilities of the GitHub Copilot extension." lightbox="media/vs-2022/github-copilot-completions-visual-studio.gif":::
 
-    Get started with [GitHub Copilot Completions in Visual Studio](visual-studio-github-copilot-extension.md#using-github-copilot-for-code-completions-and-suggestions).
+    Get started with [GitHub Copilot Completions in Visual Studio](visual-studio-github-copilot-extension.md#get-your-first-code-completions).
 
 - **[GitHub Copilot Chat in Visual Studio](visual-studio-github-copilot-chat.md)** is a fully integrated AI-powered chat experience from GitHub Copilot right within the Visual Studio IDE. It enables you to interact with GitHub Copilot using a chat interface within the IDE. By asking coding-related questions in natural language, you can receive context-specific code suggestions, get an in-depth analysis and explanation of how a code block works, generate unit tests, find issues and get proposed fixes. It enables you to get coding information and support without leaving the IDE, helping you make informed decisions and write better code.  
   
@@ -76,6 +77,8 @@ GitHub Copilot and IntelliCode assist you in writing code faster and with greate
   :::image type="content" source="media/vs-2022/copilot-chat-visual-studio.gif" alt-text="Animated screenshot that shows the capabilities of the GitHub Copilot Chat extension." lightbox="media/vs-2022/copilot-chat-visual-studio.gif":::
 
   Get started with [Copilot Chat in Visual Studio](visual-studio-github-copilot-chat.md#use-copilot-chat-in-visual-studio).
+
+- **[Did You Mean search suggestions](visual-studio-search.md#did-you-mean-code-search-suggestions-preview)** uses Copilot to intelligently detect your intent when searching for files in All-In-One Search. If you mistype a query or can't remember an exact file name, Copilot suggests better matches based on what you might have meant. This feature helps you find files faster without having to correct typos or remember exact names.
   
 ### IntelliCode in Visual Studio
 
@@ -99,16 +102,19 @@ The following table compares the capabilities of GitHub Copilot (and GitHub Copi
 | Available as |[Built-in by default in all workloads](visual-studio-github-copilot-install-and-states.md#install-copilot-using-the-visual-studio-installer) & available through the Visual Studio Installer in Visual Studio version 17.10 and later <br/>| Built-in by default in most [workloads](../install/modify-visual-studio.md#change-workloads-or-individual-components) & available through the Visual Studio Installer |
 | Subscription-based | **Yes** <br/>[Learn more](https://docs.github.com/en/billing/managing-billing-for-github-copilot/about-billing-for-github-copilot)| No |
 | User interface   | Inline <br/>Chat window | Inline |
-| Context-aware AI-assisted [IntelliSense](using-intellisense.md) | **Yes** <br/>[Learn more](visual-studio-github-copilot-extension.md#exploring-github-copilot) | **Yes** <br/>[Learn more](#intellicode-in-visual-studio) |
-| Whole-line completions in gray text | **Yes** <br/>[Learn more](visual-studio-github-copilot-extension.md#exploring-github-copilot) | **Yes** <br/>[Learn more](#intellicode-in-visual-studio) |
+| Context-aware AI-assisted [IntelliSense](using-intellisense.md) | **Yes** <br/>[Learn more](visual-studio-github-copilot-extension.md#get-your-first-code-completions) | **Yes** <br/>[Learn more](#intellicode-in-visual-studio) |
+| Whole-line completions in gray text | **Yes** <br/>[Learn more](visual-studio-github-copilot-extension.md#get-your-first-code-completions) | **Yes** <br/>[Learn more](#intellicode-in-visual-studio) |
 | Whole function & multi-line completions in gray text | **Yes** <br/>[Learn more](visual-studio-github-copilot-extension.md#how-github-copilot-works) | No |
-| Repeated edits detection | No | **Yes** <br/>[Learn more](intellicode-suggestions.md)|
+| Repeated edits detection | **Yes** <br/>[Learn more](copilot-next-edit-suggestions.md) | **Yes** <br/>[Learn more](intellicode-suggestions.md)|
 | Convert Natural language comments to code| **Yes** <br/>[Learn more](visual-studio-github-copilot-extension.md#how-github-copilot-works) | No |
 | Solve code problems with Natural language driven dev assistance | **Yes**, with Copilot Chat. <br/>[Learn more](visual-studio-github-copilot-chat.md#use-copilot-chat-in-visual-studio)| No |
 | Code debugging | **Yes**, with Copilot Chat. <br/>[Learn more](../debugger/debug-with-copilot.md)| No |
 | Measure app performance through profiling | **Yes** <br/>[Learn more](../profiling/profile-with-copilot-agent.md) | No |
 | API usage examples | No | **Yes** <br/>[Learn more](https://devblogs.microsoft.com/visualstudio/intellicode-api-usage-examples/)|
 | Languages supported | Supports several programming languages and frameworks, including but not limited to: C#, C++, Python, JavaScript, and TypeScript| C#, XAML, C++, JavaScript, TypeScript, Visual Basic |
+
+> [!NOTE]
+> As of April 20, 2026, all GitHub Copilot Pro trials, including existing trials, have been paused. New signups and enrollments for paid individual tiers — including Student, Pro, and Pro+ — are temporarily closed. If you were already on a Copilot trial, you can switch to [Copilot Free](copilot-free-plan.md) or upgrade to a Copilot Pro or Pro+ subscription. For the latest information and support, see https://docs.github.com/en/copilot/get-started/plans.
 
 ## Next steps
 

@@ -2,7 +2,7 @@
 title: Use Model Editor to view, create, modify 3D models
 description: Learn how to work with the Visual Studio Model Editor to view, create, and modify 3D models from scratch or more-complex 3D models created by modeling tools.
 ms.date: 04/12/2018
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
 - vs.graphics.designer.3dscene
 - vs.graphics.modelviewer

@@ -2,7 +2,7 @@
 title: "Threading support in Office"
 description: Threading is supported in the Microsoft Office object model. The Office object model isn't thread safe, but can work with multiple threads in an Office solution.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"

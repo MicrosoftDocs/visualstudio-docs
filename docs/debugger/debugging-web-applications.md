@@ -2,7 +2,7 @@
 title: "Debugging Web Applications"
 description: Find links to help you debug different types of web applications, such as ASP.NET apps, JavaScript and TypeScript apps, or AJAX script apps.
 ms.date: "11/05/2019"
-ms.topic: "conceptual"
+ms.topic: concept-article
 helpviewer_keywords:
   - "debugging ASP.NET Web applications, about debugging ASP.NET Web applications"
   - "ASP.NET debugging, Web services"

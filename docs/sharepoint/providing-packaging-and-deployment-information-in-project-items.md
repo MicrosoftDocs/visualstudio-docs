@@ -2,7 +2,7 @@
 title: "Packaging & deployment information in project items"
 description: Add packaging and deployment data in SharePoint project items using feature properties, feature receivers, project output references, and safe control entities.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 f1_keywords:
   - "VS.SharePointTools.Project.SafeControlEntries"
   - "VS.SharePointTools.Project.ProjectOutputReference"

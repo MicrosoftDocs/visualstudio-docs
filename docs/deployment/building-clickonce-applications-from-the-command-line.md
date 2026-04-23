@@ -2,7 +2,7 @@
 title: Build ClickOnce Applications from command line
 description: Learn how to build Visual Studio projects from the command line, which allows you to reproduce a build using an automated process.
 ms.date: "10/25/2023"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"

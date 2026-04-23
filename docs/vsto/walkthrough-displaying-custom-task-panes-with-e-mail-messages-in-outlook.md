@@ -3,7 +3,7 @@ title: "Display custom task panes with email messages in Outlook"
 description: Learn how to display a unique instance of a custom task pane with each email message in Microsoft Outlook that is created or opened.
 titleSuffix: ""
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"

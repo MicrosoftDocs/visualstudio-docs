@@ -2,7 +2,7 @@
 title: "Manually deploy ClickOnce app & keep branding"
 description: Learn how to create ClickOnce applications to be deployed by customers without generating a new deployment manifest and that can use the customer branding.
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: install-set-up-deploy
 dev_langs:
   - "VB"
   - "CSharp"

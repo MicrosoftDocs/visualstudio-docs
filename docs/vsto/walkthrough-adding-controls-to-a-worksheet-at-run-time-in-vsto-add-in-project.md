@@ -3,7 +3,7 @@ title: "Add controls to worksheet at run time in VSTO add-in project"
 description: Learn how to use the Ribbon to enable users to add a Button, a NamedRange, and a ListObject to a worksheet. 
 titleSuffix: ""
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"

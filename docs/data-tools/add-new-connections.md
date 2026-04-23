@@ -1,6 +1,6 @@
 ---
 title: Connect to database or open MDF file (ADO.NET)
-ms.date: 11/14/2024
+ms.date: 02/25/2026
 description: Connect to a database or data service with ADO.NET in Visual Studio, or connect to a database opened from a median disk file (.mdf).
 ms.topic: how-to
 author: ghogen
@@ -18,21 +18,6 @@ If you're working with an Access database (`.accdb` file), see [Connect to an Ac
 
 ## Server Explorer and SQL Server Object Explorer
 
-:::moniker range="<=vs-2019"
-You can open a connection to a database or service, a LocalDB database opened from an `.mdf` file, and view and edit tables and data rows, by using **Server Explorer** or **SQL Server Object Explorer**. The functionality of these windows overlaps to some extent. The basic differences are:
-
-- Server Explorer
-
-   Installed by default in Visual Studio. Can be used to test connections and view SQL Server databases, any other databases that have an ADO.NET provider installed, and some Azure services. Also shows low-level objects such as system performance counters, event logs, and message queues. If a data source has no ADO.NET provider, it won't show up here, but you can still use it from Visual Studio by connecting programmatically.
-
-- Cloud Explorer
-
-   Install this window manually as a Visual Studio extension from [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.CloudExplorerForVS). Provides specialized functionality for exploring and connecting to Azure services.
-
-- SQL Server Object Explorer
-
-   Installed with SQL Server Data Tools and visible under the **View** menu. If you don't see it there, go to **Programs and Features** in Control Panel, find Visual Studio, and then select **Change** to rerun the installer after selecting the checkbox for SQL Server Data Tools. Use **SQL Server Object Explorer** to view SQL databases (if they have an ADO.NET provider), create new databases, modify schemas, create stored procedures, retrieve connection strings, view the data, and more. SQL databases that have no ADO.NET provider installed won't show up here, but you can still connect to them programmatically.
-::: moniker-end
 :::moniker range=">=vs-2022"
 You can open a connection to a database or service, or a LocalDB database opened from an `.mdf` file, and view and edit tables and data rows, by using **Server Explorer** or **SQL Server Object Explorer**. The functionality of these windows overlaps to some extent. The basic differences are:
 
@@ -47,23 +32,48 @@ You can open a connection to a database or service, or a LocalDB database opened
 
 ## Add a connection in Server Explorer
 
-To create a connection to the database, click the **Connect to database** icon in **Server Explorer**, or right-click in **Server Explorer** on the **Data Connections** node and select **Add Connection**. From here, you can open a connection to a LocalDB database opened from an `.mdf` file, connect to a database on another server, a SharePoint service, or an Azure service.
+To create a connection to the database, click the **Connect to Database** icon in **Server Explorer**, or right-click in **Server Explorer** on the **Data Connections** node and select **Add Connection**. From here, you can open a connection to a LocalDB database opened from an `.mdf` file, connect to a database on another server, a SharePoint service, or an Azure service.
 
-:::moniker range="<=vs-2019"
-![Screenshot showing Server Explorer New Connection icon.](../data-tools/media/server-explorer-new-connection-icon.png)
+:::moniker range="visualstudio"
+![Screenshot showing Server Explorer Connect to Database icon.](./media/visualstudio/connect-to-database-server-explorer.png)
+
+This brings up the **Choose Data Source** dialog:
+
+:::image type="content" source="./media/visualstudio/choose-data-source.png" alt-text="Screenshot that shows the Choose Data Source dialog.":::
+
+Choose a data source and select **Continue** to advance to the **Add Connection** dialog. Here, we have entered the name of the SQL Server LocalDB instance, `(localdb)\MSSqlLocalDB`, which is usually installed with Visual Studio.
+
+If you don't have access to another database, and you don't see LocalDB installed, you can install LocalDB through the Visual Studio Installer, as part of the **Data storage and processing** workload, the **ASP.NET and web development** workload, or as an individual component. See [Modify Visual Studio](../install/modify-visual-studio.md).
+
 :::moniker-end
-:::moniker range=">=vs-2022"
+
+:::moniker range="vs-2022"
 ![Screenshot showing Server Explorer Connect to Database icon.](./media/vs-2022/connect-to-database-server-explorer.png)
-:::moniker-end
 
 This brings up the **Add Connection** dialog box. Here, we have entered the name of the SQL Server LocalDB instance, `(localdb)\MSSqlLocalDB`, which is usually installed with Visual Studio.
 
 If you don't have access to another database, and you don't see LocalDB installed, you can install LocalDB through the Visual Studio Installer, as part of the **Data storage and processing** workload, the **ASP.NET and web development** workload, or as an individual component. See [Modify Visual Studio](../install/modify-visual-studio.md).
 
-:::moniker range="<=vs-2019"
-![Screenshot of Add New Connection dialog box.](../data-tools/media/add-new-connection-dialog.png)
 :::moniker-end
-:::moniker range=">=vs-2022"
+
+:::moniker range="visualstudio"
+![Screenshot of Add New Connection dialog box.](./media/visualstudio/add-new-connection-with-trust-selected.png)
+
+In Visual Studio 2022 version 17.8 and later, the dialog includes two new options (**Encrypt** and **Trust Server Certificate**) that go into the connection string and affect the security settings used for your connection. These options support the stricter security features of the Microsoft.Data.SqlClient 4.0 database driver. See [Changes in encryption and certificate validation behavior](/sql/connect/ado-net/encryption-and-certificate-validation#changes-in-encryption-and-certificate-validation-behavior).
+
+The recommended security practice is to use encryption and install a certificate on the server for it. See [Encryption and certificate validation](/sql/connect/ado-net/encryption-and-certificate-validation). To opt out of this enhanced security, set **Encrypt** to **Optional (False)**.
+
+If you don't set **Encrypt** to optional with Visual Studio 17.8 or later, which use version 4.0 of the Microsoft.Data.SqlClient, then encryption defaults to mandatory. This is a breaking change from the behavior in earlier versions. If you don't have a valid certificate or don't choose **Trust Server Certificate**, you get the following error message:
+
+> Encryption was enabled on this connection, review your SSL and certificate configuration for the target SQL Server, or enable 'Trust server certificate' in the connection dialog.
+>
+> **Additional information**
+>
+> A connection was successfully established with the server, but then an error occurred during the login process. (provider: SSL Provider, error: 0 - The certificate chain was issued by an authority that is not trusted.) (Microsoft SQL Server)
+
+:::moniker-end
+
+:::moniker range="vs-2022"
 ![Screenshot of Add New Connection dialog box.](./media/vs-2022/add-new-connection-with-trust-selected.png)
 
 In Visual Studio 2022 version 17.8 and later, the dialog includes two new options (**Encrypt** and **Trust Server Certificate**) that go into the connection string and affect the security settings used for your connection. These options support the stricter security features of the Microsoft.Data.SqlClient 4.0 database driver. See [Changes in encryption and certificate validation behavior](/sql/connect/ado-net/encryption-and-certificate-validation#changes-in-encryption-and-certificate-validation-behavior).
@@ -84,7 +94,15 @@ If you don't set **Encrypt** to optional with Visual Studio 17.8 or later, which
 
 You can choose from a variety of authentication types that cover a wide range of scenarios. For details, see [Authentication types](/sql/ssdt/connect-to-an-existing-database-in-sql-server-data-tools#AuthTypes).
 
-:::moniker range=">=vs-2022"
+:::moniker range="visualstudio"
+
+In Visual Studio 17.8 and later, the names of the authentication options for SQL connections have been updated to reflect the name change from Active Directory to Microsoft Entra.
+
+![Screenshot showing authentication types for Visual Studio 17.8 and later.](./media/visualstudio/authentication-options-microsoft-entra.png)
+
+:::moniker-end
+
+:::moniker range="vs-2022"
 
 In Visual Studio 17.8 and later, the names of the authentication options for SQL connections have been updated to reflect the name change from Active Directory to Microsoft Entra.
 
@@ -100,11 +118,21 @@ If you already have `.mdf` file in your project, you can double-click or right-c
 
 To open an `.mdf` file that's not in your project in Visual Studio's Server Explorer, follow these steps:
 
-1. In the **Add connection** dialog box, under **Data Source**, choose **Microsoft SQL Server Database File (SqlClient)**.
+1. In the **Add Connection** dialog box, under **Data Source**, choose **Microsoft SQL Server Database File (SqlClient)**.
 
 1. Use the **Browse** button to find and select your master database file (`.mdf` file), or enter the path in the **Database filename** box.
 
+   :::moniker range="visualstudio"
+
+   ![Screenshot showing Add Connection dialog box, connecting to a SQL Database file.](./media/visualstudio/connect-to-database-file.png)
+
+   :::moniker-end
+
+   :::moniker range="vs-2022"
+
    ![Screenshot showing Add Connection dialog box, connecting to a SQL Database file.](./media/vs-2022/connect-to-database-file.png)
+
+   :::moniker-end
 
 1. Choose the authentication method.
 
@@ -116,11 +144,11 @@ If the data source is not what you want, click the **Change** button to choose a
 
 ::: moniker range=">=vs-2022"
 > [!NOTE]
-> If you're using Visual Studio 2022 to connect to OLEDB or ODBC data providers, you will need to be aware that Visual Studio 2022 is now a 64-bit process.
+> If you're using Visual Studio 2022 or later to connect to OLEDB or ODBC data providers, you will need to be aware that Visual Studio 2022 or later is a 64-bit process.
 >
 > This means some of the data tools in Visual Studio will not be able to connect to OLEDB or ODBC databases using 32-bit data providers. This includes the Microsoft Access 32-bit OLEDB data provider as well as other third-party 32-bit providers.
 >
-> If you need to maintain 32-bit applications that connect to OLEDB or ODBC, you will still be able to build and run the application with Visual Studio 2022. However, if you need to use any of the Visual Studio Data Tools such as Server Explorer, Data Source Wizard, or the DataSet Designer, you will need to use an earlier version of Visual Studio that is still a 32-bit process. The last version of Visual Studio that was a 32-bit process was Visual Studio 2019.
+> If you need to maintain 32-bit applications that connect to OLEDB or ODBC, you will still be able to build and run the application with Visual Studio 2022 and later. However, if you need to use any of the Visual Studio Data Tools such as Server Explorer, Data Source Wizard, or the DataSet Designer, you will need to use an earlier version of Visual Studio that is still a 32-bit process. The last version of Visual Studio that was a 32-bit process was Visual Studio 2019.
 >
 > If you plan on converting the project to be a 64-bit process you will need to update the OLEDB and ODBC data connections to use 64-bit data providers.
 >
@@ -130,10 +158,11 @@ If the data source is not what you want, click the **Change** button to choose a
 
 ::: moniker-end
 
-:::moniker range="<=vs-2019"
-![Screenshot showing how to change the ADO.NET data provider.](../data-tools/media/change-ado-net-data-provider.png)
+:::moniker range="visualstudio"
+![Screenshot showing how to change the ADO.NET data provider.](../data-tools/media/visualstudio/change-data-source-2.png)
 :::moniker-end
-:::moniker range=">=vs-2022"
+
+:::moniker range="vs-2022"
 ![Screenshot showing how to change the ADO.NET data provider.](../data-tools/media/vs-2022/change-data-source-2.png)
 :::moniker-end
 
@@ -141,16 +170,39 @@ If the data source is not what you want, click the **Change** button to choose a
 
 After you have chosen the data source, click **Test Connection**. If it doesn't succeed, you will need to troubleshoot based on the vendor's documentation.
 
-:::moniker range="<=vs-2019"
-![Screenshot showing Test Connection succeeded message box.](../data-tools/media/test-connection.png)
-:::moniker-end
 :::moniker range=">=vs-2022"
 ![Screenshot showing Test Connection succeeded message box.](./media/vs-2022/test-connection-succeeded.png)
 :::moniker-end
 
 If the test succeeds, you are ready to create a *data source*, which is a Visual Studio term that really means a *data model* that is based on the underlying database or service.
 
-:::moniker range=">=vs-2022"
+:::moniker range="visualstudio"
+
+## Connect using SQL Server Object Explorer
+
+The experience might be easier if you use **SQL Server Object Explorer**, which gives you a dialog that provides more help in finding available databases locally, on the local network, and in your Azure subscriptions, and provides a history of recently used choices.
+
+To access the connect dialog from **SQL Server Object Explorer**, click the toolbar button **Add SQL Server**.
+
+![Screenshot of SQL Server Object Explorer Add SQL Server button.](./media/visualstudio/sql-server-object-explorer-add-sql-server-button.png)
+
+The **Connect** dialog comes up. Choose your local, network, or Azure SQL Server, select a database, provide credentials, and choose **Connect**.
+
+![Screenshot of SQL Server Object Explorer Connect dialog.](./media/visualstudio/sql-server-object-explorer-connect-dialog.png)
+
+If you need to set other settings in your connection string, you can use the **Advanced** link, which brings up all the settings. For example, to connect to a LocalDB database that's based on an MDF file, choose **Advanced** and then set the property **Attach DB File Name**.
+
+![Screenshot showing Advanced settings.](./media/visualstudio/sql-connect-advanced-options.png)
+
+After you are done setting up the connection, the server and database are shown in the SQL Server Object Explorer window.
+
+![Screenshot showing Connected successfully message.](./media/visualstudio/successfully-added-connection.png)
+
+From there, you can browse the database, write and execute queries, edit data, stored procedures and functions, and perform other actions directly in Visual Studio.
+
+:::moniker-end
+
+:::moniker range="vs-2022"
 
 ## Connect using SQL Server Object Explorer
 
@@ -164,7 +216,7 @@ The connect dialog comes up. Choose your local, network, or Azure SQL Server, se
 
 ![Screenshot of SQL Server Object Explorer Connect dialog.](./media/vs-2022/sql-server-object-explorer-connect-dialog.png)
 
-If you need to set other settings in your connection string, you can use the **Advanced** link, which brings up all the settings. For example, to connect to a LocalDB database that's based on an MDF file, choose **Advanced** and then set the property **AttachDbFilename**.
+If you need to set other settings in your connection string, you can use the **Advanced** link, which brings up all the settings. For example, to connect to a LocalDB database that's based on an MDF file, choose **Advanced** and then set the property **Attach DB File Name**.
 
 ![Screenshot showing Advanced settings.](./media/vs-2022/sql-connect-advanced-options.png)
 
@@ -172,7 +224,7 @@ After you are done setting up the connection, the server and database are shown 
 
 ![Screenshot showing Connected successfully message.](./media/vs-2022/successfully-added-connection.png)
 
-From there, you can browse the database, write and execute queries, edit data, stored procedures and functions, and perform other actions directly in Visual Studio.
+From there, you can browse the database, write and execute queries, edit data, stored procedures and functions, and perform other actions directly in Visual Studio. 
 
 :::moniker-end
 

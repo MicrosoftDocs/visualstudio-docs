@@ -179,6 +179,10 @@ Facilitates walking the stack using the program debug database (PDB) file.
 
 Facilitates walking the stack using the program debug database (PDB) file. Supersedes [`IDiaStackWalkHelper`](../../debugger/debug-interface-access/idiastackwalkhelper.md)
 
+[`IDiaStackWalkHelper3`](../../debugger/debug-interface-access/idiastackwalkhelper3.md)
+
+Facilitates walking the stack using the program debug database (PDB) file. Extends [`IDiaStackWalkHelper2`](../../debugger/debug-interface-access/idiastackwalkhelper2.md) with support for variable-size registers including ARM64 SVE.
+
 [`IDiaSymbol`](../../debugger/debug-interface-access/idiasymbol.md)
 
 Describes the properties of a symbol instance.

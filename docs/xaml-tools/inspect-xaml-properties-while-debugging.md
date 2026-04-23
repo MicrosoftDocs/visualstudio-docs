@@ -71,7 +71,7 @@ Let's get started with a very simple WPF application that has a list view and a 
 
    When the window comes up you should see the in-app toolbar appear within your running application.
 
-   ::: moniker range=">= vs-2019"
+   ::: moniker range=">= vs-2022"
    ![Main window of the app](../debugger/media/vs-2019/livevisualtree-app.png "LiveVIsualTree-App")
    ::: moniker-end
 
@@ -83,13 +83,13 @@ Let's get started with a very simple WPF application that has a list view and a 
 
 1. In the **Live Visual Tree** window, expand the **ContentPresenter** node. It should contain nodes for the button and the list box. Expand the list box (and then the **ScrollContentPresenter** and the **ItemsPresenter**) to find the list box items.
 
-   ::: moniker range=">= vs-2019"
+   ::: moniker range=">= vs-2022"
    If you don't see **ContentPresenter** node, toggle the **Show Just My XAML** icon on the toolbar. Starting in Visual Studio 2019 version 16.4, the view of XAML elements is simplified by default using the Just My XAML feature. You can also [disable this setting](../debugger/general-debugging-options-dialog-box.md) in options to always show all XAML elements.
    ::: moniker-end
 
    The window should look like this:
 
-   ::: moniker range=">= vs-2019"
+   ::: moniker range=">= vs-2022"
    ![ListBoxItems in the Live Visual Tree](../debugger/media/vs-2019/livevisualtree-listboxitems.png "LiveVisualTree-ListBoxItems")
    ::: moniker-end
 
@@ -106,7 +106,7 @@ Let's get started with a very simple WPF application that has a list view and a 
 
    The actual structure of the XAML has a lot of elements that you're probably not directly interested in, and if you don't know the code well you might have a hard time navigating the tree to find what you're looking for. So the **Live Visual Tree** has a couple of ways that let you use the application's UI to help you find the element you want to examine.
 
-   ::: moniker range=">= vs-2019"
+   ::: moniker range=">= vs-2022"
    **Select Element in the Running Application**. You can enable this mode when you select this button on the **Live Visual Tree** toolbar. With this mode on, you can select a UI element in the application, and the **Live Visual Tree** (and the **Live Property Viewer**) automatically updates to show the node in the tree corresponding to that element, and its properties. Starting in Visual Studio 2019 version 16.4, you can [configure the behavior of element selection](../debugger/general-debugging-options-dialog-box.md).
 
    **Display Layout Adorners in the Running Application**. You can enable this mode when you select the button that is immediately to the right of the **Select element...** button. When **Display layout adorners** is on, it causes the application window to show horizontal and vertical lines along the bounds of the selected object so you can see what it aligns to, as well as rectangles showing the margins. For example, turn both **Select element** and **Display layout** on, and select the **Add Item** text block in the application. You should see the text block node in the **Live Visual Tree** and the text block properties in the **Live Property Viewer**, as well as the horizontal and vertical lines on the bounds of the text block.

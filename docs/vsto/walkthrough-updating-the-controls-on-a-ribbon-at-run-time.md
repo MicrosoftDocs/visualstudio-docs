@@ -2,7 +2,7 @@
 title: Update the controls on a ribbon at run time
 description: Use the Ribbon object model to update the controls on a ribbon after the ribbon is loaded into the Microsoft Office application.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"

@@ -6,7 +6,7 @@ ms.author: ghogen
 manager: mijacobs
 ms.subservice: msbuild
 ms.topic: concept-article
-ms.date: 02/28/2025
+ms.date: 04/17/2026
 helpviewer_keywords:
 - msbuild, incremental builds
 
@@ -60,9 +60,7 @@ To support incremental compilation, tasks must ensure that the `TaskParameter` a
 
 This code creates the property `Easy`, which has the value `123` whether or not the target is executed or skipped.
 
-Starting in MSBuild 3.5, output inference is performed automatically on item and property groups in a target. `CreateItem` tasks aren't required in a target and should be avoided. Also, `CreateProperty` tasks should be used in a target only to determine whether a target was executed.
-
-Before MSBuild 3.5, you can use the [CreateItem](../msbuild/createitem-task.md) task.
+Output inference is performed automatically on item and property groups in a target. `CreateItem` tasks aren't required in a target and should be avoided. Also, `CreateProperty` tasks should be used in a target only to determine whether a target was executed.
 
 ## Determine whether a target is run
 

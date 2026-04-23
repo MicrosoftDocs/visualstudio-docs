@@ -3,8 +3,8 @@ title: Directed Graph Markup Language (DGML) reference
 description: Learn how Directed Graph Markup Language (DGML) describes information used for visualization and to perform complexity analysis.
 ms.date: 11/04/2016
 ms.topic: reference
-author: mgoertz-msft
-ms.author: mgoertz
+author: jekelly
+ms.author: jekelly
 manager: mijacobs
 ms.subservice: modeling
 ---

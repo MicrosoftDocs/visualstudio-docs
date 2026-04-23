@@ -1,7 +1,7 @@
 ---
 title: View memory for variables in the debugger
 description: Learn how to use Memory windows as you debug, to see the memory space your app is using. Other windows show variables and where they reside in memory.
-ms.date: 11/19/2024
+ms.date: 11/04/2025
 ms.topic: how-to
 f1_keywords: 
   - vs.debug.memory
@@ -37,16 +37,25 @@ The **Memory** window isn't available for script or SQL debugging. Those languag
 
 Like other debugger windows, the **Memory** windows are available only during a debugging session.
 
->[!IMPORTANT]
->To enable the **Memory** windows, **Enable address-level debugging** must be selected in **Tools** > **Options** (or **Debug** > **Options**) > **Debugging** > **General**.
+> [!IMPORTANT]
+> To enable the **Memory** windows, the **Enable address-level debugging** checkbox must be selected under **Tools** (or **Debug**) > **Options** in the **Debugging** section.
 
 Open a Memory window:
 
-1. Make sure **Enable address-level debugging** is selected in **Tools** > **Options** (or **Debug** > **Options**) > **Debugging** > **General**.
+::: moniker range="visualstudio"
 
-1. Start debugging by selecting the green arrow, pressing **F5**, or selecting **Debug** > **Start Debugging**.
+1. Open the **Tools** (or **Debug**) > **Options** pane, expand the **All Settings** > **Debugging** > **General** section, and select the **Enable address-level debugging** checkbox.
 
-2. Under **Debug** > **Windows** > **Memory**, select **Memory 1**, **Memory 2**, **Memory 3**, or **Memory 4**. (Some editions of Visual Studio offer only one **Memory** window.)
+::: moniker-end
+::: moniker range="<=vs-2022"
+
+1. Open the **Tools** (or **Debug**) > **Options** dialog, expand the **Debugging** > **General** section, and select the **Enable address-level debugging** checkbox.
+
+::: moniker-end
+
+2. Start debugging by selecting the green arrow, pressing **F5**, or selecting **Debug** > **Start Debugging**.
+
+3. Under **Debug** > **Windows** > **Memory**, select **Memory 1**, **Memory 2**, **Memory 3**, or **Memory 4**. (Some editions of Visual Studio offer only one **Memory** window.)
 
   Multiple windows allow you to maintain views for different areas in memory space at the same time.
 
@@ -62,9 +71,9 @@ In most scenarios, you want to find a specific memory location.
 
 You can instantly go to a specified address in the **Memory** window by using drag-and-drop, or by entering the address in the **Address** field. The **Address** field accepts alphanumeric addresses, and expressions that evaluate to addresses, such as `e.User.NonroamableId`.
 
-To force immediate re-evaluation of an expression in the **Address** field, select the rounded-arrow **Reevaluate Automatically** icon.
+To force immediate reevaluation of an expression in the **Address** field, select the rounded-arrow **Reevaluate Automatically** icon.
 
-By default, the **Memory** window treats **Address** expressions as live expressions, which are re-evaluated as the app runs. Live expressions can be useful, for example, to view the memory that is touched by a pointer variable.
+By default, the **Memory** window treats **Address** expressions as live expressions, which are reevaluated as the app runs. Live expressions can be useful, for example, to view the memory that is touched by a pointer variable.
 
 Use drag and drop to move to a memory location:
 
@@ -94,7 +103,7 @@ Change the number of columns in the Memory window:
 
 - Select the dropdown arrow next to the **Columns** field, and select the number of columns to display, or select **Auto** for automatic adjustment based on window width.
 
-If you do not want the contents of the **Memory** window to change as your app runs, you can turn off live expression evaluation.
+If you don't want the contents of the **Memory** window to change as your app runs, you can turn off live expression evaluation.
 
 Toggle live evaluation:
 
@@ -103,7 +112,7 @@ Toggle live evaluation:
   >[!NOTE]
   >Live expression evaluation is a toggle, and is on by default, so selecting **Reevaluate Automatically** turns it off. Selecting **Reevaluate Automatically** again turns it back on.
 
-You can hide or display the toolbar at the top of the **Memory** window. You will not have access to the **Address** field or other tools when the toolbar is hidden.
+You can hide or display the toolbar at the top of the **Memory** window. You can't access the **Address** field or other tools when the toolbar is hidden.
 
 Toggle the toolbar display:
 

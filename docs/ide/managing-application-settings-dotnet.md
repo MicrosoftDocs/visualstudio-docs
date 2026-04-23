@@ -2,16 +2,18 @@
 title: Manage application settings (.NET)
 description: Manage application settings that aren't included in the application code but are needed at runtime with the Visual Studio IDE.
 ms.date: 10/02/2024
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
 - msvse_settingsdesigner.err.nameblank
 helpviewer_keywords:
 - application settings [Visual Studio]
-author: anandmeg
-ms.author: meghaanand
+author: ghogen
+ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
-ms.custom: sfi-ropc-nochange
+ms.custom: 
+- sfi-ropc-nochange
+- awp-ai 
 #customer intent: As a developer, I want to use application settings to store information that isn't included in the application code at runtime.
 ---
 # Manage application settings (.NET)
@@ -73,7 +75,7 @@ You can add customized settings files to your project for convenient management 
 
 For example, you can add a *SpecialSettings.settings* file to your project. While your `SpecialSettings` class isn't exposed in the `My` namespace, **View Code** can read the custom settings file that contains `Partial Class SpecialSettings`.
 
-The **Settings Designer** first searches for the *Settings.settings* file that the project system creates. This *Settings.settings* file is the default file that the [Project Designer](reference/project-properties-reference.md) displays in the **Settings** tab. The *Settings.settings* file is located in the *My Project* folder for Visual Basic projects and in the *Properties* folder for Visual C# projects. The **Project Designer** then searches for other settings files in the project's root folder. Therefore, you should put your custom settings file there. If you add a *.settings* file elsewhere in your project, the **Project Designer** can't locate it.
+The **Settings Designer** first searches for the *Settings.settings* file that the project system creates. This *Settings.settings* file is the default file that the [Project Designer](project-designer-dotnet-csharp.md) displays in the **Settings** tab. The *Settings.settings* file is located in the *My Project* folder for Visual Basic projects and in the *Properties* folder for Visual C# projects. The **Project Designer** then searches for other settings files in the project's root folder. Therefore, you should put your custom settings file there. If you add a *.settings* file elsewhere in your project, the **Project Designer** can't locate it.
 
 ## Access or change application settings at runtime in Visual Basic
 

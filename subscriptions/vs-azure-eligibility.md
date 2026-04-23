@@ -3,26 +3,30 @@ title: Azure Dev/Test eligible credits in subscriptions
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 07/30/2025
-ms.topic: conceptual
+ms.date: 04/17/2026
+ms.topic: concept-article
 description: Check if your Visual Studio subscription includes Azure Dev/Test credits so you can try various Azure services at no cost.
 ---
 # Azure Dev/Test credits for Visual Studio subscribers
 
-Many Visual Studio subscriptions include Azure individual Dev/Test credits. With these credits, you can try various Azure services at no cost. Credit amounts vary by subscription level. This article explains the credit allotments for each subscription level.  
+Many Visual Studio subscriptions include Azure individual Dev/Test credits that you can use to explore various Azure services for development and testing at no extra cost. Credit amounts vary by subscription level and this article explains the credit allotments for each subscription level.
 
-To get started using the Azure Dev/Test credits included in your subscription, visit the [How to get started with your individual Azure Credit Subscription](https://learn.microsoft.com/azure/devtest/offer/quickstart-individual-credit) article in the Azure documentation.  
+These credits are activated through an individual Azure credit subscription and can be used without adding a payment method. If no payment method is on file, Azure usage automatically stops once the monthly credit amount is fully consumed. Credit usage is applied based on standard Azure consumption meters and service availability.
+
+To get started using the Azure Dev/Test credits included in your subscription, visit the [How to get started with your individual Azure Credit Subscription](https://learn.microsoft.com/azure/devtest/offer/quickstart-individual-credit) article in the Azure documentation.
+
+For information about available Azure services and how they are billed, see the list of Azure products and pricing details on [Azure.Microsoft.com]( https://azure.microsoft.com/pricing/).
 
 ## Eligibility
 
-|  Subscription Level / Program  | Benefit | Renewable? |
-|--------------------------------|---------|------------|
+| Subscription Level / Program | Benefit | Renewable? |
+| ---------------------------- | ------- | ---------- |
 | Visual Studio Enterprise Standard | $150 monthly credit | Yes |
 | Visual Studio Enterprise subscription with GitHub Enterprise | $150 monthly credit | Yes |
 | Visual Studio Enterprise monthly | Not available | |
 | Visual Studio Professional Standard | $50 monthly credit | Yes |
 | Visual Studio Professional subscription with GitHub Enterprise | $50 monthly credit | Yes |
-| Visual Studio Professional monthly | Not available |  |
+| Visual Studio Professional monthly | Not available | |
 | Visual Studio Test Pro | $50 monthly credit | Yes |
 | MSDN Platforms | $100 monthly credit | Yes |
 | Visual Studio Enterprise - NFR* | $150 monthly credit | Yes |
@@ -37,7 +41,7 @@ To get started using the Azure Dev/Test credits included in your subscription, v
 \* *Includes: Not for Resale (NFR), Most Valuable Professional (MVP), Regional Director (RD), Visual Studio Industry Partner (VSIP), We. Communications. Excludes: NFR Basic programs such as Alumni, ISV, Xbox, etc., Microsoft AI Cloud Partner Program (MAICPP), Microsoft Bug Bounty, Azure DevOps Tools for Teaching (ADTFT).*
 
 > [!NOTE]
-> Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There's no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
+> Microsoft no longer offers Visual Studio Enterprise Annual subscriptions and Visual Studio Professional Annual subscriptions in Cloud Subscriptions. There's no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
 
 Not sure which subscription you're using? Connect to [https://my.visualstudio.com/subscriptions](https://my.visualstudio.com/subscriptions?wt.mc_id=o~msft~docs) to see all the subscriptions assigned to your email address. If you don't see all your subscriptions, you might have one or more assigned to a different email address. You need to sign in with that email address to see those subscriptions.
 
@@ -66,6 +70,6 @@ Apply here for access: [Apply now](https://aka.ms/oaiapply)
 
 ## Next steps
 
-+ [Learn more](https://learn.microsoft.com/azure/devtest/offer/overview-what-is-devtest-offer-visual-studio) about Azure Dev/Test credits
++ [Learn more](https://learn.microsoft.com/azure/devtest/offer/overview-what-is-devtest-offer-visual-studio) about Azure Dev/Test credits for Visual Studio subscribers
 + [Get started with Azure Dev/Test credits](https://learn.microsoft.com/azure/devtest/offer/quickstart-individual-credit)
 + See how you can use Azure Dev/Test credits with [Windows Virtual Desktop](vs-windows-virtual-desktop.md)

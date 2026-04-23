@@ -2,7 +2,7 @@
 title: "Creating ClickOnce Applications for Others to Deploy"
 description: Learn about customer hosted ClickOnce applications developed in .NET Framework 3.5 and previous versions of the .NET Framework.
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: install-set-up-deploy
 dev_langs:
   - "VB"
   - "CSharp"

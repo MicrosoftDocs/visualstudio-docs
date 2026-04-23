@@ -1,7 +1,7 @@
 ---
 title: Visualize dependencies with code maps
 description: Use code maps to visualize dependencies across your code and see how the code fits together without reading through files and lines of code.
-ms.date: 05/16/2021
+ms.date: 04/15/2026
 ms.topic: how-to
 f1_keywords:
 - vs.progression.codemap
@@ -12,8 +12,8 @@ helpviewer_keywords:
 - code visualization [Visual Studio]
 - dependencies, visualizing
 - dependency graphs
-author: mgoertz-msft
-ms.author: mgoertz
+author: jekelly
+ms.author: jekelly
 manager: mijacobs
 ms.subservice: modeling
 ---
@@ -25,7 +25,7 @@ In this article, you'll learn how to visualize dependencies across your code wit
 
 In Visual Studio, code maps help you more quickly see how your program code fits together without reading through files and lines of code.  With these maps, you can see the organization and relationships in your code, including its structure and its dependencies, how to update it, and estimate the cost of proposed changes.
 
-![View dependencies with code maps in Visual Studio](../modeling/media/codemapsmainintro.png)
+:::image type="content" source="../modeling/media/visualstudio/code-maps-main-intro.png" alt-text="Screenshot that shows how to view dependencies with code maps in Visual Studio." lightbox="../modeling/media/visualstudio/code-maps-main-intro.png":::
 
 You can map dependencies for code in these languages:
 
@@ -77,23 +77,23 @@ To see all the dependencies in your solution:
 
 1. On the menu bar, choose **Architecture** > **Generate Code Map for Solution**. If your code hasn't changed since the last time you built it, you can select **Architecture** > **Generate Code Map for Solution Without Building** instead.
 
-   ![Generate a code map command](../modeling/media/codemapsarchitecturemenu.png)
+   ![Screenshot that shows the Generate a Code Map for Solution command.](../modeling/media/visualstudio/code-maps-architecture-menu.png)
 
    A map is generated that shows the top-level assemblies and aggregated links between them. The wider the aggregate link, the more dependencies it represents.
 
 2. Use the **Legend** button on the code map toolbar to show or hide the list of project type icons (such as Test, Web, and Phone Project), code items (such as Classes, Methods, and Properties), and relation types (such as Inherits From, Implements, and Calls).
 
-   ![Top-level dependency graph of assemblies](../modeling/media/dependencygraph_toplevelassemblies.png)
+   ![Screenshot that shows a top-level dependency graph of assemblies.](../modeling/media/visualstudio/dependency-graph-top-level-assemblies.png)
 
    This example solution contains Solution Folders (**Tests** and **Components**), Test Projects, Web Projects, and assemblies. By default, all containment relationships appear as *groups*, which you can expand and collapse. The **Externals** group contains anything outside your solution, including platform dependencies. External assemblies show only those items that are used. By default, system base types are hidden on the map to reduce clutter.
 
 3. To drill down into the map, expand the groups that represent projects and assemblies. You can expand everything by pressing **CTRL+A** to select all the nodes and then choosing **Group**, **Expand** from the shortcut menu.
 
-   ![Expanding all groups in a code map](../modeling/media/codemapsexpandallgroups.png)
+   :::image type="content" source="../modeling/media/visualstudio/code-maps-expand-all-groups.png" alt-text="Screenshot that shows all groups expanded in a code map." lightbox="../modeling/media/visualstudio/code-maps-expand-all-groups.png":::
 
 4. However, this may not be useful for a large solution. In fact, for complex solutions, memory limitations may prevent you from expanding all the groups. Instead, to see inside an individual node, expand it. Move your mouse pointer on top of the node and then click the chevron (down arrow) when it appears.
 
-   ![Expanding a node in a code map](../modeling/media/dependencygraph_containment.png)
+   ![Screenshot that shows how to expand a node in a code map.](../modeling/media/visualstudio/dependency-graph-containment.png)
 
    Or use the keyboard by selecting the item then pressing the plus key (**+**). To explore deeper levels of code, do the same for namespaces, types, and members.
 
@@ -102,13 +102,13 @@ To see all the dependencies in your solution:
 
 5. To simplify the map and focus on individual parts, choose **Filters** on the code map toolbar and select just the types of nodes and links you are interested in. For example, you can hide all the Solution Folder and Assembly containers.
 
-   ![Simplify the map by filtering containers](../modeling/media/codemapsfilterfoldersassemblies.png)
+   ![Screenshot that shows how to simplify a map by filtering containers.](../modeling/media/visualstudio/code-maps-filter-folders-assemblies.png)
 
    You can also simplify the map by hiding or removing individual groups and items from the map, without affecting the underlying solution code.
 
 6. To see the relationships between items, select them in the map. The colors of the links indicate the types of relationship, as shown in the **Legend** pane.
 
-   ![View dependencies across your solutions](../modeling/media/codemapsmainintro.png)
+   :::image type="content" source="../modeling/media/visualstudio/code-maps-main-intro.png" alt-text="Screenshot that shows how to view dependencies across solutions." lightbox="../modeling/media/visualstudio/code-maps-main-intro.png":::
 
    In this example, the purple links are calls, the dotted links are references, and the light blue links are field access. Green links can be inheritance, or they may be *aggregate links* that indicate more than one type of relationship (or *category*).
 
@@ -117,25 +117,25 @@ To see all the dependencies in your solution:
 
 7. To get more information about an item or link, move the pointer on top of it until a tooltip appears. This shows details of a code element or the categories that a link represents.
 
-   ![Show the categories of a relationship](../modeling/media/codemapsshowlinkcatgories.png)
+   ![Screenshot that shows the categories of a relationship.](../modeling/media/visualstudio/code-maps-show-link-categories.png)
 
 8. To examine items and dependencies represented by an aggregate link, first select the link and then open its shortcut menu. Choose **Show Contributing Links** (or **Show Contributing Links on New Code Map**). This expands the groups at both ends of the link and shows only those items and dependencies that participate in the link.
 
 9. To focus in on specific parts of the map, you can continue to remove items you aren't interested in. For example, to drill into class and member view, simply filter all the namespace nodes in the **Filters** pane.
 
-   ![Drilling down to class and member level](../modeling/media/dependencygraph_expandedselectedgroups_2012.png)
+   :::image type="content" source="../modeling/media/visualstudio/dependency-graph-expanded-selected-groups.png" alt-text="Screenshot that shows how to drill down to class and member level." lightbox="../modeling/media/visualstudio/dependency-graph-expanded-selected-groups.png":::
 
 10. Another way to focus in on a complex solution map is to generate a new map containing selected items from an existing map. Hold **Ctrl** while selecting the items you want to focus on, open the shortcut menu, and choose **New Graph from Selection**.
 
-    ![Show selected items on a new code map](../modeling/media/codemapsshowonnewmap.png)
+    ![Screenshot that shows how to show selected items on a new code map.](../modeling/media/visualstudio/code-maps-show-on-new-map.png)
 
 11. The containing context is carried over to the new map. Hide Solution Folders and any other containers you don't want to see using the **Filters** pane.
 
-    ![Filter the containers to simplify the view](../modeling/media/codemapsexpandnewgroups.png)
+    :::image type="content" source="../modeling/media/visualstudio/code-maps-expand-new-groups.png" alt-text="Screenshot that shows how to filter containers to simplify the view." lightbox="../modeling/media/visualstudio/code-maps-expand-new-groups.png":::
 
 12. Expand the groups and select items in the map to view the relationships.
 
-    ![Select items to view the relationships](../modeling/media/codemapsviewnewrelationships.png)
+    :::image type="content" source="../modeling/media/visualstudio/code-maps-view-new-relationships.png" alt-text="Screenshot that shows selecting items to view the relationships." lightbox="../modeling/media/visualstudio/code-maps-view-new-relationships.png":::
 
 Also see:
 
@@ -147,36 +147,30 @@ Also see:
 
 Suppose you have a code review to perform in some files with pending changes. To see the dependencies in those changes, you can create a code map from those files.
 
-   ![Show specific dependencies on a code map](../modeling/media/codemapsspecificdependenciesintro.png)
+   ![Screenshot that shows dependencies on a code map.](../modeling/media/visualstudio/code-maps-specific-dependencies-intro.png)
 
-1. In **Solution Explorer**, select the projects, assembly references, folders, files, types, or members that you want to map.
-
-   ![Select the items you want to map](../modeling/media/codemapsselectinsolutionexplorer.png)
-
-1. On the **Solution Explorer** toolbar, choose **Show on Code Map** ![Create New Graph From Selected Nodes Button](../modeling/media/createnewgraphfromselectedbutton.gif). Or, open the shortcut menu for one or a group of items and choose **Show on Code Map**.
-
-   You can also drag items from **Solution Explorer**, **Class View**, or **Object Browser**, into a [new](#add-a-code-map) or existing code map. To include the parent hierarchy for your items, press and hold the **Ctrl** key while you drag items, or use the **Include Parents** button on the code map toolbar to specify the default action. You can also drag assembly files from outside Visual Studio, such as from **Windows Explorer**.
+1. Drag items from **Solution Explorer**, **Class View**, or **Object Browser** into a [new](#add-a-code-map) or existing code map. To include the parent hierarchy for your items, press and hold the **Ctrl** key while you drag items, or use the **Include Parents** button on the code map toolbar to specify the default action. You can also drag assembly files from outside Visual Studio, such as from **Windows Explorer**.
 
    > [!NOTE]
    > When you add items from a project that's shared across multiple apps, like Windows Phone or Microsoft Store, those items appear on the map with the currently active app project. If you change context to another app project and add more items from the shared project, those items now appear with the newly active app project. Operations that you perform with an item on the map apply only to those items that share the same context.
 
-3. The map shows the selected items within their containing assemblies.
+1. The map shows the selected items within their containing assemblies.
 
-   ![Selected items shown as groups on the map](../modeling/media/codemapsshowitemsfromsolnexplorer.png)
+   ![Screenshot that shows items as groups on a map.](../modeling/media/visualstudio/code-maps-show-items-from-solution-explorer.png)
 
-4. To explore items, expand them. Move the mouse pointer on top of an item, then click the chevron (down arrow) icon when it appears.
+1. To explore items, expand them. Move the mouse pointer on top of an item, then click the chevron (down arrow) icon when it appears.
 
-   ![Expand a node in a code map](../modeling/media/dependencygraph_containment.png)
+   ![Screenshot that shows the arrow for adding child items.](../modeling/media/visualstudio/dependency-graph-containment.png)
 
    To expand all items, select them using **Ctrl**+**A**, then open the shortcut menu for the map and choose **Group** > **Expand**. However, this option isn't available if expanding all groups creates an unusable map or memory issues.
 
-5. Continue to expand items you are interested in, right down to the class and member level if necessary.
+1. Continue to expand items you are interested in, right down to the class and member level if necessary.
 
-   ![Expand groups to class and member level](../modeling/media/codemapsexpandtoclassandmember.png)
+   :::image type="content" source="../modeling/media/visualstudio/code-maps-expand-to-class-and-member.png" alt-text="Screenshot that shows groups expanded to the class and member level." lightbox="../modeling/media/visualstudio/code-maps-expand-to-class-and-member.png":::
 
    To see members that are in the code but don't appear on the map, click the **Refetch Children** icon ![Refetch Children Icon](../modeling/media/dependencygraph_deletednodesicon.png) in the top left corner of a group.
 
-6. To see more items related to those on the map, select one and choose **Show Related** on the code map toolbar, then select the type of related items to add to the map. Alternatively, select one or more items, open the shortcut menu, and then choose the **Show** option for the type of related items to add to the map. For example:
+1. To see more items related to those on the map, select one and choose **Show Related** on the code map toolbar, then select the type of related items to add to the map. Alternatively, select one or more items, open the shortcut menu, and then choose the **Show** option for the type of related items to add to the map. For example:
 
     For an **assembly**, choose:
 
@@ -217,15 +211,15 @@ Suppose you have a code review to perform in some files with pending changes. To
     |**Show Containing Type**|Add the parent type.|
     |**Show Containing Type, Namespace, and Assembly**|Add the parent container hierarchy.|
 
-    ![Show methods called by this member](../modeling/media/codemapsshowrelatedmethods.png)
+    ![Screenshot that shows the command for showing methods.](../modeling/media/visualstudio/code-maps-show-related-methods.png)
 
-7. The map shows the relationships. In this example, the map shows the methods called by the `Find` method and their location in the solution or externally.
+1. The map shows the relationships. In this example, the map shows the methods called by the `Find` method and their location in the solution or externally.
 
-   ![Show specific dependencies on a code map](../modeling/media/codemapsspecificdependenciesintro.png)
+   :::image type="content" source="../modeling/media/visualstudio/specific-dependencies.png" alt-text="Screenshot that shows specific dependencies on a code map." lightbox="../modeling/media/visualstudio/specific-dependencies.png":::
 
-8. To simplify the map and focus on individual parts, choose **Filters** on the code map toolbar and select just the types of nodes and links you are interested in. For example, turn off display of Solution Folders, Assemblies, and Namespaces.
+1. To simplify the map and focus on individual parts, choose **Filters** on the code map toolbar and select just the types of nodes and links you are interested in. For example, turn off display of Solution Folders, Assemblies, and Namespaces.
 
-   ![Use the Filter pane to simplify the display](../modeling/media/almcodemapfilterpane.png)
+   :::image type="content" source="../modeling/media/visualstudio/code-map-filter-pane.png" alt-text="Screenshot that shows the Filter options for simplifying the display." lightbox="../modeling/media/visualstudio/code-map-filter-pane.png":::
 
 ## Related content
 

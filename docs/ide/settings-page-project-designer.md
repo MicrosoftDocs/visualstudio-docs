@@ -8,15 +8,17 @@ f1_keywords:
 helpviewer_keywords:
 - Settings page in Project Designer
 - Project Designer, Settings page
-ms.custom: "ide-ref"
-author: anandmeg
-ms.author: meghaanand
+ms.custom: 
+- "ide-ref"
+- awp-ai
+author: ghogen
+ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
 ---
 # Settings page, Project Designer
 
-Use the **Settings** page of the [Project Designer](../ide/reference/project-properties-reference.md) to specify a project's application settings. Application settings enable you to store and retrieve property settings and other information for your application dynamically. They also enable you to maintain custom application and user preferences on a client computer. For more information, see [Manage application settings](managing-application-settings-dotnet.md).
+Use the **Settings** page of the [Project Designer](project-designer-dotnet-csharp.md) to specify a project's application settings. Application settings enable you to store and retrieve property settings and other information for your application dynamically. They also enable you to maintain custom application and user preferences on a client computer. For more information, see [Manage application settings](managing-application-settings-dotnet.md).
 
 To access the **Settings** page, select a [project node](use-solution-explorer.md#solution-explorer-context-menu) in **Solution Explorer**, and then use the right-click context menu to select **Properties**. When the Project Designer appears, select the **Settings** tab.
 
@@ -32,9 +34,6 @@ Select the **Create or open application settings** link to open a Settings page 
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
-:::image type="content" source="media/vs-2019/project-properties-designer-settings.png" alt-text="Screenshot of the Settings tab in the Project Designer for a WPF project in Visual Studio 2019.":::
-::: moniker-end
 
 ## Header bar
 

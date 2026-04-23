@@ -1,7 +1,7 @@
 ---
 title: Find and Manage Extension Packages
 description: Learn about extensions in Visual Studio and how to manage them so you have the controls, samples, templates, tools, and other components that you need.
-ms.date: 08/18/2025
+ms.date: 01/21/2026
 ms.topic: how-to
 f1_keywords:
 - vs.ExtensionManager
@@ -30,13 +30,6 @@ For information about creating Visual Studio extensions, see [Visual Studio SDK]
 
 ::: moniker-end
 
-::: moniker range="<=vs-2019"
-
-This article describes how to find, install, and manage extension packages in Visual Studio. [Extensions](../extensibility/index.yml) are code packages that run inside Visual Studio and provide new or improved features. Extensions can be controls, samples, templates, tools, or other components that add functionality to Visual Studio, for example, [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsls-vs) or [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilotvs).
-
-For information about creating Visual Studio extensions, see [Visual Studio SDK](../extensibility/visual-studio-sdk.md). For information about using extensions, see the individual extension page on [Visual Studio Marketplace](https://marketplace.visualstudio.com/vs).
-
-::: moniker-end
 
 ## Use Extension Manager 
 
@@ -48,11 +41,6 @@ In the Visual Studio IDE, Extension Manager is the tool that you use to find, in
 
 ::: moniker-end
 
-::: moniker range="<=vs-2019"
-
-:::image type="content" source="media/vs-2019/extensions-and-updates.png" alt-text="Screenshot of Extension Manager in Visual Studio.":::
-
-::: moniker-end
 
 The left pane categorizes extensions by those that are available on Visual Studio Marketplace (**Browse**), those that are installed, and those that have updates available. The **Roaming** tab lists all the Visual Studio extensions that you have installed on any machine or instance of Visual Studio. It's designed to let you find your favorite extensions more easily.
 
@@ -76,7 +64,15 @@ To install extensions from Visual Studio:
 
 1. Select **Install**.
 
-::: moniker range=">=vs-2022"
+:::moniker range="visualstudio"
+   
+   After the download completes, you see a notification at the top of Extension Manager: "Your changes are scheduled. The modifications will begin when Microsoft Visual Studio is closed."
+
+  :::image type="content" source="media/visualstudio/manage-extensions-install-notification.png" alt-text="Screenshot showing the notification in Extension Manager stating that changes are scheduled." lightbox="media/visualstudio/manage-extensions-install-notification.png":::
+  
+:::moniker-end
+
+::: moniker range="vs-2022"
 
   After the download completes, you see a notification at the top of Extension Manager: "Your changes are scheduled. The modifications will begin when Microsoft Visual Studio is closed."
 
@@ -84,13 +80,6 @@ To install extensions from Visual Studio:
 
 ::: moniker-end
 
-::: moniker range="<=vs-2019"
-
-After the download completes, you'll see a notification at the bottom of the Manage Extensions dialog: "The extension is scheduled for install. Your extension will be installed after all instances of Visual Studio have been closed."
-
-  :::image type="content" source="media/vs-2019/manage-extensions-install-notification.png" alt-text="Screenshot that shows the notification in Extension Manager stating that changes are scheduled." lightbox="media/vs-2019/manage-extensions-install-notification.png":::
-
-::: moniker-end
 
 If you try to install an extension that has dependencies, the installer determines whether they're already installed. If they aren't installed, Extension Manager lists the dependencies that must be installed before you can install the extension.
 
@@ -129,17 +118,6 @@ To restrict when per-user extensions load:
 
 ### Automatic extension updates
 
-:::moniker range="<=vs-2019"
-
-Extensions are updated automatically when a new version is available on Visual Studio Marketplace. The new version of the extension is detected and installed in the background. The next time you open Visual Studio, the new version of the extension will be running.
-
-If you want to disable automatic updates, you can disable the feature for all extensions or for only specific extensions.
-
-- To disable automatic updates for all extensions, select the **View Settings** button in the **Extensions** > **Manage Extensions** dialog. In the **Options** dialog, under **Environment** > **Extensions**, clear **Automatically update extensions**.
-
-- To disable automatic updates for a specific extension, clear the **Automatically update this extension** option in the extension's details pane on the right side of Extension Manager.
-
-:::moniker-end
 
 :::moniker range=">=vs-2022"
 
@@ -155,6 +133,26 @@ The rest of this section describes changes available in Visual Studio 2022 17.14
 
 Whenever you open the Extension Manager window, you automatically trigger updates. This ensures that you're consistently working with the latest features and don't need to manually initiate updates.
 
+:::moniker-end
+
+:::moniker range="visualstudio"
+  
+When an update is available for an extension, you see notifications in the left pane and in the extension's pane:
+
+:::image type="content" source="./media/visualstudio/extension-manager-notification-bar.png" alt-text="Screenshot that shows how Visual Studio notifies you about extension updates that are available." lightbox="./media/visualstudio/extension-manager-notification-bar.png":::
+
+Also, a notification appears when updates are applied, reminding you to restart Visual Studio so that the extensions take effect.
+
+You can change settings for automatic updates on the extension's page in Extension Manager.
+
+:::image type="content" source="./media/vs-2022/finding-and-using-visual-studio-extensions/extension-manager-update-automatically.png" alt-text="Screenshot showing how to configure whether an extension is updated automatically." lightbox="./media/vs-2022/finding-and-using-visual-studio-extensions/extension-manager-update-automatically.png" :::
+
+The **Pending** category enables you to view only extensions that have pending updates.
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 When an update is available for an extension, you see a yellow notification infobar:
 
 :::image type="content" source="./media/vs-2022/finding-and-using-visual-studio-extensions/extension-manager-notification-bar.png" alt-text="Screenshot showing how Visual Studio notifies you about extension updates that are available.":::
@@ -167,17 +165,29 @@ You can change settings for automatic updates on the extension's page in Extensi
 
 The **Pending** category enables you to view only extensions that have pending updates.
 
+:::moniker-end
+
+:::moniker range="visualstudio"
+    
+:::image type="content" source="./media/visualstudio/extension-manager-category-pending.png" alt-text="Screenshot that shows how to filter the extension list to view only extensions that have pending updates." lightbox="./media/visualstudio/extension-manager-category-pending.png" :::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 :::image type="content" source="./media/vs-2022/finding-and-using-visual-studio-extensions/extension-manager-category-pending.png" alt-text="Screenshot showing how to filter the extension list to view only extensions that have pending updates." lightbox="./media/vs-2022/finding-and-using-visual-studio-extensions/extension-manager-category-pending.png" :::
+
+:::moniker-end
 
 #### Automatic update settings
 
 You can also configure automatic update settings in **Tools > Options**.
 
+<!-- Add new or updated image for Visual Studio 2026 -->
+
 :::image type="content" source="./media/vs-2022/finding-and-using-visual-studio-extensions/extension-manager-tools-options.png" alt-text="Screenshot showing how to configure automatic extension updates in Tools > Options." :::
 
 The list under **Extensions excluded from automatic updates** shows the extensions that won't be updated automatically. You might use this to ensure the stability and consistency of the extensions you're using during a critical phase of your development lifecycle.
-
-:::moniker-end
 
 ### Crash and unresponsiveness notifications
 

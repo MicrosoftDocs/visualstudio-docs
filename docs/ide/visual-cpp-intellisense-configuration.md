@@ -1,7 +1,7 @@
 ---
 title: Configure a C++ Project for IntelliSense
 description: Configure your C++ project manually to get IntelliSense working properly by using the Visual Studio IDE to help you identify and fix IntelliSense problems.
-ms.date: 03/26/2025
+ms.date: 11/17/2025
 ms.topic: concept-article
 author: tylermsft
 ms.author: twhitney
@@ -66,7 +66,32 @@ Tag parser errors appear in the **Error List** window.
 
 ## Validate project settings with diagnostic logging
 
-To check whether the IntelliSense compiler is using correct compiler options, including Include Paths and Preprocessor macros, turn on Diagnostic Logging of IntelliSense command lines in **Tools > Options > Text Editor > C/C++ > Advanced > Diagnostic Logging**. Set **Enable Logging** to True, **Logging Level** to 5 (most verbose), and **Logging Filter** to 8 (IntelliSense logging).
+To check whether the IntelliSense compiler is using correct compiler options, including Include Paths and Preprocessor macros, turn on Diagnostic Logging of IntelliSense command lines.
+
+:::moniker range="visualstudio"
+
+1. Open the **Tools** > **Options** pane and expand the **All Settings** > **Languages** > **C/C++** > **IntelliSense** > **Diagnostic logging** section.
+
+1. Select the **Log diagnostic information to the output window** checkbox.
+
+1. Set the **Logging level** value to 5 (most verbose).
+
+1. Set the **Logging filter** value to 8 (IntelliSense logging).
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+
+1. Open the **Tools** > **Options** dialog and expand the **Text Editor** > **C/C++** > **Advanced** section.
+
+1. In the **Diagnostic Logging** group, set the **Enable Logging** option to True.
+
+1. Set the **Logging Level** value to 5 (most verbose).
+
+1. Set the **Logging Filter** value to 8 (IntelliSense logging).
+
+1. Select **OK**.
+
+:::moniker-end
 
 The Output Window now shows the command lines that are passed to the IntelliSense compiler. Here's a sample output:
 

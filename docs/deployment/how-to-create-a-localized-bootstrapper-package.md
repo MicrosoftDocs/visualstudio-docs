@@ -1,7 +1,7 @@
 ---
 title: Create a Localized Bootstrapper Package
 description: Learn how to create localized versions of the bootstrapper package in ClickOnce by creating two more files for each locale.
-ms.date: 11/04/2016
+ms.date: 01/12/2024
 ms.topic: how-to
 helpviewer_keywords: 
   - localized bootstrapper packages

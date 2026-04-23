@@ -3,8 +3,8 @@ title: Assign subscriptions to multiple users
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 06/26/2025
-ms.topic: conceptual
+ms.date: 04/02/2026
+ms.topic: how-to
 description: Assign multiple subscriptions to one or more users at the same time with the bulk operation features in the Subscriptions Admin Portal.
 ms.custom: sfi-image-nochange
 ---
@@ -27,7 +27,7 @@ To add large groups of users, you can use the bulk add feature, or if your organ
 
 1. Bulk add uses a Microsoft Excel template to upload subscriber information. In the Upload Multiple Subscribers dialog box, select **Download** to download the template.
    > [!div class="mx-imgBorder"]
-   > ![Download the Excel template to upload multiple subscribers](media/download-template-upload-subscribers.png "Screenshot of the Upload multiple subscribers dialog. The link to download the template is highlighted.")
+   > ![Download the Excel template to upload multiple subscribers](media/assign-license-bulk/download-template-upload-subscriber-revised.png "Screenshot of the Upload multiple subscribers dialog. The link to download the template is highlighted.")
    >
    > [!NOTE]
    > Always download the latest version of this template. If you use an older version, your bulk upload can fail.
@@ -47,17 +47,17 @@ To add large groups of users, you can use the bulk add feature, or if your organ
 
 1. Return to the Visual Studio Subscriptions Admin portal. In the **Upload Multiple Subscribers** dialog box, select **Browse**.
    > [!div class="mx-imgBorder"]
-   > ![Browse to your saved template to upload multiple subscribers](media/bulk-add-browse-saved-template.png "Screenshot of the Upload multiple subscribers dialog. The Browse option to locate the completed template is highlighted.")
+   > ![Browse to your saved template to upload multiple subscribers](media/assign-license-bulk/bulk-add-browser-saved-template-revised.png "Screenshot of the Upload multiple subscribers dialog. The Browse option to locate the completed template is highlighted.")
 
 1. Navigate to the Excel file that you saved, and then select **OK**.
    > [!div class="mx-imgBorder"]
-   > ![Upload the Excel template to upload multiple subscribers](media/bulk-upload-subscribers.png "Screenshot of the Upload multiple subscribers dialog. The name of the completed upload template is highlighted.")
+   > ![Upload the Excel template to upload multiple subscribers](media/assign-license-bulk/bulk-upload-subscribers-revised.png "Screenshot of the Upload multiple subscribers dialog. The name of the completed upload template is highlighted.")
 
     An upload progress dialog appears.
 
     If the template contains errors, the upload fails. You're presented with the errors so that you can correct the template and attempt the bulk upload again.
    > [!div class="mx-imgBorder"]
-   > ![Error message if the upload of multiple subscribers fails](_img/assign-license-bulk/bulk-add-upload-failure.png "Screenshot of the Manage subscribers page showing an error message indicating the bulk upload has failed.")
+   > ![Error message if the upload of multiple subscribers fails](media/assign-license-bulk/bulk-add-upload-failure.png "Screenshot of the Manage subscribers page showing an error message indicating the bulk upload has failed.")
 
    If you encounter a failure, follow these steps:
    1. Open the Excel file you created, correct the problems, and save the file.
@@ -69,7 +69,7 @@ To add large groups of users, you can use the bulk add feature, or if your organ
 
     When the upload is successful, you see the list of subscribers and a confirmation message.
    > [!div class="mx-imgBorder"]
-   > ![Confirmation message if the upload of multiple subscribers succeeds](_img/assign-license-bulk/bulk-add-upload-success.png "Screenshot of the Manage subscribers page showing a message confirming the upload was successful.")
+   > ![Confirmation message if the upload of multiple subscribers succeeds](media/assign-license-bulk/bulk-add-upload-success.png "Screenshot of the Manage subscribers page showing a message confirming the upload was successful.")
 
 <a name='use-entra-id-groups-to-assign-subscriptions'></a>
 
@@ -80,8 +80,8 @@ Using this feature makes it easy to stay on top of your subscription assignments
 > [!IMPORTANT]
 >
 > The following limitations apply to the use of Microsoft Entra groups for adding subscribers:
-> + **Only TRUSTED agreements can use Microsoft Entra groups.**
-> + **MPSA agreements can overallocate subscriptions but can't use Entra groups.**
+> + **Only Enterprise Commercial, Education, US Government, Campus, Select 6 and Select Plus agreements can use Microsoft Entra groups.**
+> + **MPSA agreements can't use Entra groups.**
 > + The admin must be a member of the Microsoft Entra tenant when initially adding a group to the admin portal. After the group is added, changes to the membership of the groups doesn't require admin involvement. 
 > + Groups must contain at least one member. Empty groups aren't supported.
 > + All users must be in the top level of the group. Nested groups aren't supported.
@@ -101,14 +101,14 @@ Using this feature makes it easy to stay on top of your subscription assignments
 3. Choose the **Add** tab, then select **Microsoft Entra group** in the drop-down. 
 
    > [!div class="mx-imgBorder"]
-   > ![Choose bulk add using Microsoft Entra ID](_img/assign-license-bulk/bulk-add-entra.png "Screenshot of the Manage subscribers page. The Microsoft Entra group option on the Add menu is highlighted.")
+   > ![Choose bulk add using Microsoft Entra ID](media/assign-license-bulk/bulk-add-entra.png "Screenshot of the Manage subscribers page. The Microsoft Entra group option on the Add menu is highlighted.")
 
 4. A fly-out window appears in the right pane. Begin to enter the name of the Microsoft Entra group that you'd like to add into the form field. The system searches the available Microsoft Entra groups within your organization for a match. 
 
 5. When you select the group, the field populates with the group name. You're able to view the users in that group before you add them. Next, you can choose the subscription level, download rights, and communication preferences for the group. You can add details into the reference field if you wish. 
 
    > [!div class="mx-imgBorder"]
-   > ![Choose your Microsoft Entra group](_img/assign-license-bulk/bulk-add-entra-details.png "Screenshot of the Add group dialog. Search results are displayed.")
+   > ![Choose your Microsoft Entra group](media/assign-license-bulk/bulk-add-entra-details.png "Screenshot of the Add group dialog. Search results are displayed.")
 
 6. Select **Add** and then **Confirm**. 
 
@@ -130,7 +130,7 @@ Using this feature makes it easy to stay on top of your subscription assignments
 A: The feature is currently only available to organizations with trusted agreements. Select the **Details** button to display your agreement information.
 
    > [!div class="mx-imgBorder"]
-   > ![Select the Details button](_img/assign-license-bulk/bulk-add-agreement.png "Screenshot of the left nav of the manage portal. The Details button is highlighted.")
+   > ![Select the Details button](media/assign-license-bulk/bulk-add-agreement.png "Screenshot of the left nav of the manage portal. The Details button is highlighted.")
 
 <a name='q-i-added-users-to-my-entra-id-group-but-they-dont-have-subscriptions-yet-why'></a>
 

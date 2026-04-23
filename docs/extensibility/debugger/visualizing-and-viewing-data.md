@@ -2,7 +2,7 @@
 title: Visualizing and Viewing Data
 description: Learn how type visualizers and custom viewers present data to a developer. The expression evaluator supports third-party type visualizers.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - debugging [Debugging SDK], viewing data
 - debugging [Debugging SDK], visualizing data

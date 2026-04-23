@@ -2,7 +2,7 @@
 title: Extending and Customizing Tool Windows
 description: Learn about extending and customizing tool windows that Visual Studio provides, including the Properties window, the Output window, and the Task List window.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - user interfaces, essentials
 - tool windows, standard

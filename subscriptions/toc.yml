@@ -44,7 +44,7 @@
       href: find-my-subscription.md     
   - name: Subscriptions portal overview
     href: using-the-subscriber-portal.md
-  - name: Manage your subscriptions
+  - name: Use your subscription
     href: manage-vs-subscriptions.md
   - name: When subscriptions expire
     href: subscription-expiration.md 
@@ -58,14 +58,14 @@
   href: access-github.md
 - name: Visual Studio IDE
   href: vs-ide-benefit.md
-- name: Sign in to use Visual Studio
+- name: Authenticate Visual Studio IDE
   href: use-visual-studio-without-key.md
 - name: Azure benefits
   items:
-  - name: Azure DevTest offer
-    href: /azure/devtest/offer/
   - name: Azure Dev/Test offer eligibility
     href: vs-azure-eligibility.md
+  - name: Azure DevTest offer
+    href: /azure/devtest/offer/
   - name: Maintain Azure credit access
     href: azure-access.md  
   - name: Azure DevOps
@@ -84,8 +84,8 @@
       href: vs-m365.md
     - name: Power BI Pro
       href: vs-pbi.md
-    - name: Windows Developer Account
-      href: vs-windows-dev.md
+    - name: Syncfusion
+      href: syncfusion.md 
     - name: Windows Virtual Desktop
       href: vs-windows-virtual-desktop.md  
   - name: Professional development
@@ -94,10 +94,6 @@
       href: vs-code-magazine.md
     - name: Cloud Academy
       href: vs-cloud-academy.md
-    - name: DataCamp
-      href: vs-datacamp.md
-    - name: LinkedIn Learning
-      href: vs-linkedin-learning.md
     - name: Pluralsight
       href: vs-pluralsight.md
   - name: Support
@@ -197,7 +193,7 @@
 - name: Resources
   items:
   - name: Visual Studio licensing white paper
-    href: https://visualstudio.microsoft.com/wp-content/uploads/2019/06/Visual-Studio-Licensing-Whitepaper-May-2019.pdf
+    href: https://aka.ms/vslicensing
   - name: Compare subscription options and pricing
     href: https://visualstudio.microsoft.com/vs/pricing
   - name: Compare Visual Studio IDE features

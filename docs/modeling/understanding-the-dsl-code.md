@@ -2,11 +2,11 @@
 title: Understanding the DSL Code
 description: Learn how the Domain-Specific Language (DSL) solution generates an API that you can use to read and update instances of the DSL in Visual Studio.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - Domain-Specific Language, generated code
-author: mgoertz-msft
-ms.author: mgoertz
+author: jekelly
+ms.author: jekelly
 manager: mijacobs
 ms.subservice: modeling
 ---

@@ -10,7 +10,7 @@ author: ghogen
 ms.author: ghogen
 manager: mijacobs
 ms.subservice: msbuild
-monikerRange: ">= vs-2019"
+monikerRange: ">= vs-2022"
 ---
 # Solution filters in MSBuild
 

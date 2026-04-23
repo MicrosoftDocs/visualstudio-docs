@@ -1,7 +1,7 @@
 ---
 title: Analyze memory usage in the Performance Profiler
 description: Learn how to use the Memory Usage tool in release builds in the Visual Studio Performance Profiler to monitor your app's memory use.
-ms.date: 02/28/2025
+ms.date: 03/09/2026
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -12,6 +12,8 @@ author: mikejo5000
 ms.author: mikejo
 manager: mijacobs
 ms.subservice: debug-diagnostics
+ai-usage: ai-assisted
+ms.custom: awp-ai
 zone_pivot_groups: programming-languages-set-two
 ---
 # Analyze memory usage in release builds (C#, Visual Basic, C++, F#)
@@ -37,23 +39,24 @@ For the best experience with this documentation, choose your preferred developme
    The deployment target typically matches the project name, indicating a local deployment.
    ::: moniker-end
 
-   ::: moniker range="vs-2019"
-   The deployment target is typically **Local Windows Debugger** (or **Local Machine**).
-   ::: moniker-end
 
 1. On the menu bar, select  **Debug** > **Performance Profiler**.
 
-1. Under **Available Tools**, select **Memory Usage**, and then select **Start**.
+::: moniker range="visualstudio"
 
-   ::: moniker range=">=vs-2022"
+4. On the **Flexible** tab, select **Memory Usage**, and then select **Start**.
+   
+   [ ![Screenshot that shows the Memory Usage option and the Start button.](../profiling/media/visualstudio/memory-usage-start-performance-profiler.png)](../profiling/media/visualstudio/memory-usage-start-performance-profiler.png#lightbox)
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+4. Under **Available Tools**, select **Memory Usage**, and then select **Start**.
    [ ![Start a Memory Usage diagnostic session.](../profiling/media/vs-2022/memory-usage-start-performance-profiler.png)](../profiling/media/vs-2022/memory-usage-start-performance-profiler.png#lightbox)
-   ::: moniker-end
+::: moniker-end
 
-   ::: moniker range="vs-2019"
-   ![Start a Memory Usage diagnostic session.](../profiling/media/memory-usage-start-diagnostics-session.png "Start a Memory Usage diagnostic session")
-   ::: moniker-end
 
-   > ![NOTE]
+   > [!NOTE]
    > For some project types, such as CMake, you must set the startup target to **Executable**. For more information, see [Which tools are supported for my project?](../profiling/choose-performance-tool.md#which-tools-are-supported-for-my-project).
 ::: zone-end
 
@@ -61,13 +64,14 @@ For the best experience with this documentation, choose your preferred developme
 
 When you start a diagnostic session, your app starts, and the **Diagnostic Tools** window displays a timeline graph of your app's memory use.
 
-::: moniker range=">=vs-2022"
+::: moniker range="visualstudio"
+[ ![Screenshot of the Diagnostic Tools window in the Visual Studio Performance Profiler showing a timeline graph of the app's memory use.](../profiling/media/visualstudio/memory-usage-report-overview.png)](../profiling/media/visualstudio/memory-usage-report-overview.png#lightbox)
+::: moniker-end
+
+::: moniker range="vs-2022"
 [ ![Screenshot of the Diagnostic Tools window in the Visual Studio Performance Profiler showing a timeline graph of the app's memory use.](../profiling/media/vs-2022/memory-usage-report-overview-vs-2022.png)](../profiling/media/vs-2022/memory-usage-report-overview-vs-2022.png#lightbox)
 ::: moniker-end
 
-::: moniker range="vs-2019"
-![Screenshot of the Diagnostic Tools window in the Visual Studio Performance Profiler showing a timeline graph of the app's memory use.](../profiling/media/memory-usage-report-overview.png "Memory Report Overview")
-::: moniker-end
 
 The timeline graph shows memory fluctuations as the app runs. Spikes in the graph usually indicate that some code is collecting or creating data, and then discarding it when the processing is done. Large spikes indicate areas that you can optimize. Main concern is a rise in memory consumption that's not returned. This may indicate inefficient memory use or even a memory leak.
 
@@ -85,13 +89,14 @@ To collect snapshots, select **Take snapshot** when you want to capture the memo
 
 To stop a monitoring session without creating a report, just close the diagnostic window. To generate a report when you're done collecting or have taken snapshots, select **Stop Collection**.
 
-::: moniker range=">=vs-2022"
+::: moniker range="visualstudio"
+![Screenshot of stopping the collection.](../profiling/media/visualstudio/memory-usage-stop-collection.png)
+::: moniker-end
+
+::: moniker range="vs-2022"
 ![Screenshot of stopping the collection.](../profiling/media/vs-2022/memory-usage-stop-collection.png)
 ::: moniker-end
 
-::: moniker range="vs-2019"
-![Screenshot of stopping the collection.](../profiling/media/memory-usage-stop-collection.png)
-::: moniker-end
 
 If you have trouble collecting or displaying data, see [Troubleshoot profiling errors and fix issues](../profiling/troubleshoot-profiler-errors.md).
 
@@ -99,13 +104,14 @@ If you have trouble collecting or displaying data, see [Troubleshoot profiling e
 
 After you stop data collection, the **Memory Usage** tool stops the app and displays the **Memory Usage** overview page.
 
-::: moniker range=">=vs-2022"
+::: moniker range="visualstudio"
+![Screenshot of the overview page in the Memory Usage tool in the Visual Studio Performance Profiler, showing a memory usage graph and four snapshot panes.](../profiling/media/visualstudio/memory-usage-report-overview-1.png "Memory Usage overview page")
+::: moniker-end
+
+::: moniker range="vs-2022"
 ![Screenshot of the overview page in the Memory Usage tool in the Visual Studio Performance Profiler, showing a memory usage graph and two snapshot panes.](../profiling/media/vs-2022/memory-usage-report-overview-1-vs-2022.png "Memory Usage overview page")
 ::: moniker-end
 
-::: moniker range="vs-2019"
-![Screenshot of the overview page in the Memory Usage tool in the Visual Studio Performance Profiler, showing a memory usage graph and two snapshot panes.](../profiling/media/memory-usage-report-overview-1.png "Memory Usage overview page")
-::: moniker-end
 
 ### <a name="BKMK_Memory_Usage_snapshot_views"></a> Memory Usage snapshots
 
@@ -126,16 +132,6 @@ For C++, the **Objects (Diff)** column is named **Allocations (Diff)**.
 |![Step 4](../profiling/media/process-guide-4.png "Process Guide-4")|The difference between the total size of memory objects in this snapshot and the previous snapshot. A positive number means the memory size of this snapshot is larger than the previous one, and a negative number means the size is smaller. **Baseline** means a snapshot is the first in a diagnostic session. **No Difference** means the difference is zero. Select this link to display a snapshot diff report sorted by the difference in the total size of instances of the types.|
 ::: moniker-end
 
-::: moniker range="vs-2019"
-  ![Snapshot view links](../profiling/media/memory-usage-snapshot-view-numbered.png "Snapshot view links")
-
-|Image|Description|
-|-|-|
-|![Step 1](../profiling/media/process-guide-1.png "Process Guide-1")|The total number of bytes in memory when the snapshot was taken. Select this link to display a snapshot details report sorted by the total size of the type instances.|
-|![Step 2](../profiling/media/process-guide-2.png "Process Guide-2")|The total number of objects in memory when the snapshot was taken. Select this link to display a snapshot details report sorted by the count of instances of the types.|
-|![Step 3](../profiling/media/process-guide-3.png "Process Guide-3")|The difference between the total size of memory objects in this snapshot and the previous snapshot. A positive number means the memory size of this snapshot is larger than the previous one, and a negative number means the size is smaller. **Baseline** means a snapshot is the first in a diagnostic session. **No Difference** means the difference is zero. Select this link to display a snapshot diff report sorted by the difference in the total size of instances of the types.|
-|![Step 4](../profiling/media/process-guide-4.png "Process Guide-4")|The difference between the total number of memory objects in this snapshot and the previous snapshot. Select this link to display a snapshot diff report. It’s sorted by the difference in the total count of instances of the types.|
-::: moniker-end
 
 ::: zone pivot="programming-language-dotnet,programming-language-dotnetf"
 ## Managed types reports
@@ -150,9 +146,6 @@ Many types in apps aren't required for app developers to investigate memory issu
 ![Sort and filter options](../profiling/media/vs-2022/memory-usage-sort-and-filter-vs-2022.png "Memory usage sort and filter")
 ::: moniker-end
 
-::: moniker range="vs-2019"
-![Sort and filter options](../profiling/media/memory-usage-sort-and-filter.png "Memory Usage Sort and Filter")
-::: moniker-end
 
 - <a name="BKMK_Filter"></a> To filter a tree by type name, enter the name in the **Filter** box. The filter isn't case-sensitive, and it recognizes the specified string in any part of the type name.
 
@@ -183,25 +176,21 @@ Many types in apps aren't required for app developers to investigate memory issu
 
    ::: moniker-end
 
-   ::: moniker range="vs-2019"
 
-   ![Screenshot of Choose a change link in a cell.](../profiling/media/vs-2019/dbgdiag-mem-choose-diff-report.png)
+- Choose a snapshot in the **Compare With** list of a managed or native report.
+   
+   ::: moniker range="visualstudio"
+
+   [ ![Screenshot of the Compare With list.](../profiling/media/visualstudio/choose-compare-to.png)](../profiling/media/visualstudio/choose-compare-to.png#lightbox)
 
    ::: moniker-end
 
-- Choose a snapshot in the **Compare To** list of a managed or native report.
-
-   ::: moniker range=">=vs-2022"
+   ::: moniker range="vs-2022"
 
    ![Screenshot of Choose a snapshot from the Compare with list.](../profiling/media/vs-2022/dbgdiag-mem-choose-compare-to.png)
 
    ::: moniker-end
 
-   ::: moniker range="<=vs-2019"
-
-   ![Screenshot of Choose a snapshot from the Compare To list.](../profiling/media/vs-2019/dbgdiag-mem-choose-compare-to.png)
-
-   ::: moniker-end
 
 [!INCLUDE [change-diff-report](../profiling/includes/change-diff-report.md)]
 
@@ -209,5 +198,9 @@ Many types in apps aren't required for app developers to investigate memory issu
 
 - [Profiling in Visual Studio](../profiling/index.yml)
 - [First look at profiling tools](../profiling/profiling-feature-tour.md)
+- [Profile your app with GitHub Copilot Profiler Agent](../profiling/profile-with-copilot-agent.md)
 - [Analyze hot path to root](../profiling/hot-path-to-root.md)
+- [Choose a memory analysis tool](../profiling/analyze-memory-usage.md)
+- [.NET Object Allocation tool](../profiling/dotnet-alloc-tool.md)
+- [Troubleshoot profiling errors and fix issues](../profiling/troubleshoot-profiler-errors.md)
 - [Diagnosing memory issues with the new Memory Usage tool in Visual Studio](https://devblogs.microsoft.com/devops/diagnosing-memory-issues-with-the-new-memory-usage-tool-in-visual-studio/)

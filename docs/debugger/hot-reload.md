@@ -1,8 +1,8 @@
 ---
 title: "Write and debug code by using Hot Reload"
 description: Explore the Hot Reload feature, also known as Edit and Continue, and make changes to your code while running applications.
-ms.date: 02/28/2025
-ms.topic: conceptual
+ms.date: 04/13/2026
+ms.topic: how-to
 helpviewer_keywords:
   - "Hot reload"
   - ".NET Hot Reload"
@@ -12,9 +12,11 @@ manager: mijacobs
 ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2022'
 zone_pivot_groups: programming-languages-set-two
-
+ms.custom: awp-ai
 ---
 # Write and debug running code with Hot Reload in Visual Studio (C#, Visual Basic, C++)
+
+Hot Reload was previously known as Edit and Continue in Visual Studio documentation and some legacy UI text.
 
 Starting in Visual Studio 2022, the Hot Reload experience in Visual Studio works for both managed .NET and native C++ apps. Regardless of the type of app you’re working on, the intention of Hot Reload is to save you as many app restarts between edits as possible, making you more productive by reducing the time you spend waiting for apps to rebuild, restart, and re-navigate to the previous location where you were in the app itself.
 
@@ -165,13 +167,26 @@ To enable, disable, or configure Hot Reload, see [Configure Edit and Continue](.
 
 If you see the following dialog box, Hot Reload is unable to apply the current edits without restarting. You can choose either to rebuild the app and apply changes (restart) or to continue editing. If you rebuild, all application state is lost. If you continue editing, it's possible that additional changes or corrections might cause Hot Reload to work again.
 
-![Screenshot of the apply changes dialog box](../debugger/media/vs-2022/dotnet-hot-reload-apply-changes.png)
+::: moniker range=">=visualstudio"
+![Screenshot of the apply changes dialog box.](../debugger/media/visualstudio/dotnet-hot-reload-apply-changes.png)
+::: moniker-end
+::: moniker range="=vs-2022"
+![Screenshot of the apply changes dialog box.](../debugger/media/vs-2022/dotnet-hot-reload-apply-changes.png)
+::: moniker-end
 
 If you select the **Always rebuild when changes can't be applied** option in the dialog box, you won't see the dialog box again in the current Visual Studio session, and Visual Studio will automatically rebuild and reload instead of showing the dialog box.
 
 ## Troubleshooting
 
-It's highly recommended to check for the **Hot Reload Output** window for detailed diagnostic information regarding the Hot Reload session.
+If Hot Reload isn't working as expected, check the following:
+
+* Verify that you're running a supported app and scenario. Some project types, mixed-mode debugging, optimized code, and **Attach to Process** scenarios don't support Hot Reload. For more information, see [Unsupported scenarios](supported-code-changes-csharp.md#unsupported-scenarios).
+* Make sure the app is using a `Debug` configuration and that Hot Reload is enabled in **Tools** > **Options** > **Debugging** > **.NET/C++ Hot Reload**.
+* Set **Logging Verbosity** to **Detailed** or **Diagnostic** to get more information in the **Hot Reload** output.
+* Open the [Output window](../ide/output-window.md), and in **Show output from**, select **Hot Reload** to review diagnostic messages.
+* If a line appears read-only while debugging, it might be an active statement on the call stack, or the edit might require a restart.
+
+For a list of common diagnostics, see [Hot Reload and Edit and Continue error messages](edit-and-continue-errors.md). If the problem persists and the output doesn't show a clear cause, use [Report a Problem](../ide/how-to-report-a-problem-with-visual-studio.md) to send feedback to the Visual Studio team.
 
 ::: zone pivot="programming-language-dotnet"
 If you're using response compression on .NET Core, see the information on [response compression](/dotnet/core/tools/dotnet-watch#response-compression).
@@ -179,6 +194,6 @@ If you're using response compression on .NET Core, see the information on [respo
 
 ## Related content
 
-* [Edit and Continue (C#)](../debugger/edit-and-continue-visual-csharp.md)
-* [Edit and Continue (C++)](../debugger/edit-and-continue-visual-cpp.md)
-* [Configure Edit and Continue](../debugger/how-to-enable-and-disable-edit-and-continue.md)
+* [Hot Reload (Visual C#)](../debugger/edit-and-continue-visual-csharp.md)
+* [Hot Reload (C++)](../debugger/edit-and-continue-visual-cpp.md)
+* [Configure Hot Reload](../debugger/how-to-enable-and-disable-edit-and-continue.md)

@@ -4,8 +4,8 @@ titleSuffix: ""
 ms.date: 08/13/2024
 ms.topic: how-to
 description: Use Visual Studio with accounts that require multifactor authentication (MFA) to protect your apps and data with conditional access policies.
-author: anandmeg
-ms.author: meghaanand
+author: ghogen
+ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
 ms.custom: sfi-image-nochange
@@ -28,11 +28,6 @@ Once enabled, guest users will need more than just a username and password to ac
 
 ## Using Visual Studio with MFA policies
 
-::: moniker range="<=vs-2019"
-
-You can access resources secured via CA policies such as MFA in Visual Studio. To use this enhanced workflow, you'll need to opt into using your system's default web browser as the mechanism to add and reauthenticate Visual Studio accounts. 
-
-::: moniker-end
 
 ::: moniker range="=vs-2022"
 
@@ -77,11 +72,6 @@ To enable the **system web browser** workflow, go to Visual Studio's Options dia
 
 ### Sign into additional accounts with MFA policies 
 
-::: moniker range="<=vs-2019"
-
-Once the system web browser workflow is enabled, you can sign in or add accounts to Visual Studio as you normally would, via the Account Settings dialog **(File > Account Settings…)**.
-
-::: moniker-end
 
 ::: moniker range="=vs-2022"
 

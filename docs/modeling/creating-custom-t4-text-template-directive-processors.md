@@ -2,11 +2,11 @@
 title: Creating Custom T4 Text Template Directive Processors
 description: Learn about the text template transformation process and how to create a custom T4 text template directive processor.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - text templates, custom directive processors
-author: mgoertz-msft
-ms.author: mgoertz
+author: jekelly
+ms.author: jekelly
 manager: mijacobs
 ms.subservice: modeling
 ---

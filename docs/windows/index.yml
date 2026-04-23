@@ -7,11 +7,11 @@ metadata:
    titleSuffix: ""
    description: Learn how to use Visual Studio to develop applications, services, and tools in the language of your choice, for any platform or device.
    ms.topic: hub-page
-   ms.date: 6/4/2025
+   ms.date: 10/13/2025
    author: ghogen
    ms.author: ghogen
    manager: mijacobs
-   monikerRange: ">=vs-2019"
+   monikerRange: ">=vs-2022"
 
 highlightedContent:
    items:
@@ -21,12 +21,12 @@ highlightedContent:
    - title: What is Visual Studio
      itemType: overview
      url: ../get-started/visual-studio-ide.md
-   - title: Visual Studio 2022
+   - title: Visual Studio 2026 Release Notes
      itemType: whats-new
-     url: ../ide/whats-new-visual-studio-2022.md
+     url: /visualstudio/releases/2026/release-notes
    - title: GitHub Copilot
      itemType: get-started
-     url: ../ide/visual-studio-github-copilot-install-and-states.md
+     url: ../ide/visual-studio-github-copilot-get-started.md
    - title: Previous versions
      itemType: overview
      url: /previous-versions/visualstudio/

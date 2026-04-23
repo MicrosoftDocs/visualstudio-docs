@@ -3,8 +3,8 @@ title: 'Add a Drag-and-Drop Handler'
 description: Learn how you can add handlers for drag-and-drop events to your DSL so that users can drag items onto your diagram from other diagrams.
 ms.date: 11/04/2016
 ms.topic: how-to
-author: mgoertz-msft
-ms.author: mgoertz
+author: jekelly
+ms.author: jekelly
 manager: mijacobs
 ms.subservice: modeling
 ---

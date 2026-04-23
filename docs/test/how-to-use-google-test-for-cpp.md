@@ -26,17 +26,6 @@ In Visual Studio 2017 and later, Google Test is integrated into the Visual Studi
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
-
-## Add a Google Test project in Visual Studio 2019
-
-1. In **Solution Explorer**, right-click on the solution node and choose **Add** > **New Project**.
-2. Set **Language** to **C++** and type **test** in the search box. From the results list, choose **Google Test Project**.
-3. Give the test project a name and choose **OK**.
-
-![New Google Test Project](media/vs-2019/cpp-gtest-new-project-vs2019.png)
-
-::: moniker-end
 
 ## Configure the test project
 

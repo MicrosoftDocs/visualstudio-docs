@@ -2,7 +2,7 @@
 title: Dynamic symbolic execution | Microsoft IntelliTest Developer Test Tool
 description: Learn how IntelliTest generates inputs for parameterized unit tests by analyzing the branch conditions in the program. 
 ms.date: 05/02/2017
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - IntelliTest, Dynamic symbolic execution
 ms.author: mikejo

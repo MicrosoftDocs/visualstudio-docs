@@ -2,17 +2,17 @@
 title: "Tutorial: Create a 'math quiz' Windows Forms App"
 description: Create a C# or Visual Basic Windows Forms project for a math quiz application and use Visual Studio to add UI controls to a form.
 ms.custom: vs-acquisition
-ms.date: 06/18/2024
+ms.date: 02/13/2026
 ms.topic: tutorial
-author: anandmeg
-ms.author: meghaanand
+author: MikeJo5000
+ms.author: mikejo
 manager: mijacobs
 ms.subservice: general-ide
 # customer intent: As a developer, I want to learn how a Windows form project works in Visual Studio so that I can create such projects in the future.
 ---
 # Tutorial: Create a math quiz WinForms app
 
-In this series of four tutorials, you build a math quiz. The quiz contains four random math problems that a quiz taker tries to answer within a specified time.
+In this series of four tutorials, you build a math quiz. The quiz contains four random math problems that a quiz taker tries to answer in a specified time.
 
 The Visual Studio integrated development environment (IDE) provides the tools that you need to create the app. To learn more about this IDE, see [Welcome to the Visual Studio IDE](../visual-studio-ide.md).
 
@@ -26,14 +26,14 @@ In this first tutorial, you learn how to:
 
 ## Prerequisites
 
-You need Visual Studio to complete this tutorial. Visit the [Visual Studio downloads page](https://visualstudio.microsoft.com/vs/) for a free version.
+You need Visual Studio to complete this tutorial. For a free version, see [Visual Studio downloads](https://visualstudio.microsoft.com/vs/).
 
 > [!NOTE]
 > This tutorial requires the **Windows Forms App (.NET Framework)** project template. During installation, select the **.NET desktop development** workload:
 >
 > :::image type="content" source="../media/tutorial-windows-forms-timed-math-quiz/install-dot-net-desktop-env.png" alt-text="Screenshot that shows the dot NET desktop development workload in Visual Studio Installer.":::
 >
-> If you already have Visual Studio installed and need to add it, from the menu, select **Tools** > **Get Tools and Features**, or in the **Create a new project** window, select the **Install more tools and features** link.
+> If you already have Visual Studio installed and need to add the template, from the menu, select **Tools** > **Get Tools and Features**, or in the **Create a new project** window, select the **Install more tools and features** link.
 >
 > :::image type="content" source="../media/tutorial-windows-forms-timed-math-quiz/install-more-tools.png" alt-text="Screenshot that shows the Install more tools and features link from the Not finding what you're looking for message in the Create new project dialog box.":::
 
@@ -41,43 +41,43 @@ You need Visual Studio to complete this tutorial. Visit the [Visual Studio downl
 
 When you create a math quiz, the first step is to create a Windows Forms App project.
 
-::: moniker range="vs-2019"
+::: moniker range=">=visualstudio"
 
 1. Open Visual Studio.
 
 1. On the start window, select **Create a new project**.
 
-   :::image type="content" source="../media/tutorial-windows-forms-timed-math-quiz/create-new-project-dark-theme-2019.png" alt-text="Screenshot that shows the Create a new project option in the Visual Studio start window.":::
+   :::image type="content" source="../media/tutorial-windows-forms-timed-math-quiz/visualstudio/create-new-project-dark-theme.png" alt-text="Screenshot that shows the Create a new project option in the Visual Studio start window.":::
 
 1. In the **Create a new project** window, search for **Windows Forms**. Then select **Desktop** from the **Project type** list.
 
 1. Select the **Windows Forms App (.NET Framework)** template for either C# or Visual Basic, and then select **Next**.
 
-   :::image type="content" source="../media/tutorial-windows-forms-timed-math-quiz/create-project-windows-forms.png" alt-text="Screenshot that shows the Create a new project dialog box with the search box, the Project type list, and two templates called out.":::
+   :::image type="content" source="../media/tutorial-windows-forms-timed-math-quiz/visualstudio/create-project-windows-forms.png" alt-text="Screenshot that shows the Create a new project dialog box with the search box, the Project type list, and two templates called out.":::
 
 1. In the **Configure your new project** window, name your project **MathQuiz**, and then select **Create**.
 
 ::: moniker-end
 
-::: moniker range=">=vs-2022"
+::: moniker range="vs-2022"
 
 1. Open Visual Studio.
 
 1. On the start window, select **Create a new project**.
 
-   :::image type="content" source="../media/tutorial-windows-forms-timed-math-quiz/create-new-project-dark-theme.png" alt-text="Screenshot that shows the Create a new project option in the Visual Studio start window.":::
+   :::image type="content" source="../media/tutorial-windows-forms-timed-math-quiz/create-new-project-dark-theme.png" alt-text="Screenshot that shows the Create a new project option in the Visual Studio 2022 start window.":::
 
 1. In the **Create a new project** window, search for **Windows Forms**. Then select **Desktop** from the **Project type** list.
 
 1. Select the **Windows Forms App (.NET Framework)** template for either C# or Visual Basic, and then select **Next**.
 
-   :::image type="content" source="../media/tutorial-windows-forms-timed-math-quiz/create-project-windows-forms.png" alt-text="Screenshot that shows the Create a new project dialog box with the search box, the Project type list, and two templates called out.":::
+   :::image type="content" source="../media/tutorial-windows-forms-timed-math-quiz/create-project-windows-forms.png" alt-text="Screenshot that shows the Create a new project dialog box in Visual Studio 2022 with the search box, the Project type list, and two templates called out.":::
 
 1. In the **Configure your new project** window, name your project **MathQuiz**, and then select **Create**.
 
 ::: moniker-end
 
-Visual Studio creates a solution for your app. A solution is a container for all the projects and files that your app needs.
+Visual Studio creates a solution for your app. A *solution* is a container for all the projects and files that your app needs.
 
 ## Set form properties
 
@@ -91,7 +91,7 @@ After you select your template and name your file, Visual Studio opens a form fo
 
 1. Find the **Text** property in the **Properties** window. Depending on how the list is sorted, you might need to scroll down. Enter the value *Math Quiz* for the **Text** value, and then select **Enter**.
 
-   Your form now has the text "Math Quiz" in its title bar.
+   Your form now has the text **Math Quiz** in its title bar.
 
    > [!NOTE]
    > You can display properties by category or alphabetically.
@@ -234,7 +234,7 @@ This section shows you how to add a start button. You also specify the tabbing o
 
 ## Run your app
 
-The math problems don't work yet on your quiz. But you can still run your app to check whether the **TabIndex** values function as you expect.
+The math problems don't work yet on your quiz. You can still run your app to check whether the **TabIndex** values function as you expect.
 
 1. Use one of the following methods to save your app:
 

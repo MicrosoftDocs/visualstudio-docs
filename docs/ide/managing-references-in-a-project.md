@@ -1,8 +1,8 @@
 ---
 title: Manage references in a project
 description: Manage references to external components and connected services in your project so Visual Studio can locate the component or the service.
-ms.date: 8/5/2025
-ms.topic: conceptual
+ms.date: 02/18/2026
+ms.topic: how-to
 f1_keywords:
 - vs.ProjectPropertiesReferencePaths
 - cs.ProjectPropertiesReferencePaths
@@ -28,21 +28,29 @@ Before you write code against an external component or connected service, your p
 
 How you add a reference depends on the project type for the code you're working on:
 
+:::moniker range="visualstudio"
+
+- If you see a **Dependencies** node in **[Solution Explorer](use-solution-explorer.md)**, you can use the right-click context menu to select **Add Project Reference**.
+
+  :::image type="content" source="media/visualstudio/add-project-reference.png" alt-text="Screenshot of the Add Project Reference option from the right-click context menu.":::
+
+- If you see a **References** node in **[Solution Explorer](use-solution-explorer.md)**, you can use the right-click context menu to select **Add Reference**.
+
+  :::image type="content" source="media/visualstudio/add-reference.png" alt-text="Screenshot of the Add Reference option from the right-click context menu.":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 - If you see a **Dependencies** node in **[Solution Explorer](use-solution-explorer.md)**, you can use the right-click context menu to select **Add Project Reference**.
 
   :::image type="content" source="media/add-project-reference.png" alt-text="Screenshot of the Add Project Reference option from the right-click context menu.":::
-
-  ::: moniker range="<=vs-2019"
-  You can also right-click the [project node](use-solution-explorer.md#solution-explorer-ui) and select **Add** > **Project Reference**.
-  ::: moniker-end
 
 - If you see a **References** node in **[Solution Explorer](use-solution-explorer.md)**, you can use the right-click context menu to select **Add Reference**.
 
   :::image type="content" source="media/add-reference.png" alt-text="Screenshot of the Add Reference option from the right-click context menu.":::
 
-  ::: moniker range="<=vs-2019"
-  Or, right-click the [project node](use-solution-explorer.md#solution-explorer-ui) and select **Add** > **Reference**.
-  ::: moniker-end
+:::moniker-end
 
   For more information, see [How to: Add or remove references](../ide/how-to-add-or-remove-references-by-using-the-reference-manager.md).
 

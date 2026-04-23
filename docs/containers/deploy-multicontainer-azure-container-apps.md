@@ -20,7 +20,7 @@ The process involves a few steps using Visual Studio and the Azure portal. You c
 :::moniker range="visualstudio"
 ## Prerequisites
 
-- An Azure subscription. Sign up for a [free trial](https://azure.microsoft.com/free/search).
+- An Azure subscription. Sign up for a [free trial](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn).
 - [Visual Studio](https://visualstudio.microsoft.com/vs/) with the **Azure development** and **ASP.NET and web development** workloads installed.
 - The MulticontainerSample project at [`https://github.com/MicrosoftDocs/vs-tutorial-samples`](https://github.com/MicrosoftDocs/vs-tutorial-samples) in the *docker* folder. The sample solution contains two projects, the Web API backend and the ASP.NET Razor front end, as you created in another [tutorial](tutorial-multicontainer.md). You can also create the two projects from scratch, since they are very simple modifications of the default templates, by following that tutorial. You can skip the Docker Compose steps.
 :::moniker-end
@@ -28,7 +28,7 @@ The process involves a few steps using Visual Studio and the Azure portal. You c
 :::moniker range="vs-2022"
 ## Prerequisites
 
-- An Azure subscription. Sign up for a [free trial](https://azure.microsoft.com/free/search).
+- An Azure subscription. Sign up for a [free trial](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn).
 - [Visual Studio](https://visualstudio.microsoft.com/vs/) or later with the **Azure development** and **ASP.NET and web development** workloads installed.
 - The MulticontainerSample project at [`https://github.com/MicrosoftDocs/vs-tutorial-samples`](https://github.com/MicrosoftDocs/vs-tutorial-samples) in the *docker* folder. The sample solution contains two projects, the Web API backend and the ASP.NET Razor front end, as you created in another [tutorial](tutorial-multicontainer.md). You can also create the two projects from scratch, since they are very simple modifications of the default templates, by following that tutorial. You can skip the Docker Compose steps.
 :::moniker-end

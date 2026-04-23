@@ -4,7 +4,7 @@ description: See examples of programming using the Visual Studio Tools for Unity
 ms.date: "04/19/2021"
 ms.subservice: unity-tools
 ms.service: visual-studio
-ms.topic: "conceptual"
+ms.topic: concept-article
 author: therealjohn
 ms.author: johmil
 manager: crdun

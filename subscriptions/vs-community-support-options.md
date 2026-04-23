@@ -4,7 +4,7 @@ author: joseb-rdc
 ms.author: amast
 manager: shve
 ms.date: 07/24/2025
-ms.topic: conceptual
+ms.topic: concept-article
 description:  Learn about the various community-based support offerings in Visual Studio subscriptions
 ---
 
@@ -38,7 +38,6 @@ Within each area, there are updates, problem reports, discussion of new features
 > [!IMPORTANT]
 > Visual Studio for Mac was retired on August 31, 2024 in accordance with [Microsoft’s Modern Lifecycle Policy](https://learn.microsoft.com/lifecycle/policies/modern).
 >
-> [Learn more about support timelines and alternatives](/visualstudio/mac/what-happened-to-vs-for-mac).
 
 ## Microsoft Q&A
 

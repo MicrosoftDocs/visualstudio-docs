@@ -2,7 +2,7 @@
 title: "Prepare to debug C++ projects"
 description: Get information about preparing to debug the basic project types created by the Visual C++ project templates in Visual Studio.
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "C++"
 helpviewer_keywords:

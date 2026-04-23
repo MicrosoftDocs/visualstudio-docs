@@ -2,7 +2,7 @@
 title: "Creating SharePoint Features"
 description: Create a SharePoint feature to group related SharePoint project items for easier deployment. Add features to the SharePoint solution. Use the feature designer.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: concept-article
 dev_langs:
   - "VB"
   - "CSharp"

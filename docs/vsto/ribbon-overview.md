@@ -2,7 +2,7 @@
 title: Explore how to work with the ribbon
 description: Explore how to work with the ribbon, organize related commands to make them easier to find, and configure how commands appear as controls on the ribbon. 
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: concept-article
 dev_langs:
   - "VB"
   - "CSharp"

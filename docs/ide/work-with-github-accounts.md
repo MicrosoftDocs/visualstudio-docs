@@ -1,28 +1,16 @@
 ---
 title: Add GitHub accounts to your keychain
-ms.date: 07/29/2025
+ms.date: 02/18/2026
 ms.topic: how-to
 description: Add your public GitHub or GitHub Enterprise account to your Visual Studio keychain so you can track code changes in GitHub repositories from Visual Studio.
-author: anandmeg
-ms.author: meghaanand
+author: ghogen
+ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
-monikerRange: ">=vs-2019"
+monikerRange: ">=vs-2022"
 ms.custom: sfi-image-nochange
 ---
 # Add your GitHub accounts to your Visual Studio keychain
-
-::: moniker range="<=vs-2019"
-
-In this article, you learn how to add your public GitHub or GitHub Enterprise account to your Visual Studio keychain. After you add your account, you can [track your code changes in GitHub repositories](../version-control/git-create-repository.md), right from Visual Studio. You can also create and use [GitHub Actions for deployment automation](../azure/azure-deployment-using-github-actions.md).
-
-## Adding public GitHub accounts
-
-You can add your public GitHub account at any point, after you've [signed into Visual Studio with a Microsoft account, work account, or school account](signing-in-to-visual-studio.md#sign-in-to-your-account).
-
-::: moniker-end
-
-::: moniker range=">=vs-2022"
 
 In this article, you learn how to add your public GitHub or GitHub Enterprise account to your Visual Studio keychain. After you add your account, you can use [GitHub Copilot](visual-studio-github-copilot-install-and-states.md) and [track your code changes in GitHub repositories](../version-control/git-create-repository.md), right from Visual Studio. You can also create and use [GitHub Actions for deployment automation](../azure/azure-deployment-using-github-actions.md).
 
@@ -36,7 +24,13 @@ If you have [GitHub Copilot installed](visual-studio-github-copilot-install-and-
 
 With Visual Studio 17.13 or later, you can now sign in with a GitHub account when you [launch Visual Studio for the first time](signing-in-to-visual-studio.md#sign-in).
 
+:::moniker range="visualstudio"
+:::image type="content" source="../ide/media/visualstudio/visual-studio-sign-in-pop-up-first-launch.png" alt-text="Screenshot showing sign in at Visual Studio first launch.":::
+:::moniker-end
+
+:::moniker range="vs-2022"
 :::image type="content" source="../ide/media/vs-2022/visual-studio-sign-in-pop-up-first-launch.png" alt-text="Screenshot showing sign in at Visual Studio first launch.":::
+:::moniker-end
 
 If you sign in with a GitHub account that doesn't have an active GitHub Copilot subscription, you can choose to **Activate Copilot Free** during first launch with Visual Studio 17.14 or later, or [sign up later](copilot-free-plan.md#get-started-with-copilot-free-in-visual-studio) from the GitHub Copilot badge in the IDE or the chat window.
 
@@ -44,15 +38,27 @@ If you sign in with a GitHub account that doesn't have an active GitHub Copilot 
 
 If you choose to not sign in with GitHub at first launch, you can add your GitHub account later using the **Copilot Chat window**, **profile card**, or **Account Settings** dialog.
 
+>*If you're not signed in, the **Get started with Copilot Free** dialog appears when you try to use any Copilot feature.*
+
 ### Add a GitHub account from the Copilot Chat window
 
-Select the GitHub Copilot badge in the upper-right corner of the IDE and select **Open Chat Window** from the dropdown, or use **Ctrl+\\** to open the Copilot chat window.
-Then select one of the following:
-- **Sign up for Copilot Free** to setup Copilot Free for a new or existing GitHub account
-- **Sign up with Google** to sign in with a Google account linked to your GitHub account
-- **Sign in** to sign in with an existing GitHub account
+Select the GitHub Copilot badge in the upper-right corner of the IDE and select **Open Chat Window** from the dropdown, or use **Ctrl+\\** to open the Copilot chat window. 
 
-:::image type="content" source="media/vs-2022/copilot-free/sign-up-for-copilot-free.png" alt-text="Screenshot of Sign up for Copilot Free in the Chat window.":::
+In the Chat window, enter a prompt to start using Copilot. The **Get started with Copilot Free** dialog appears.Then select one of the following:
+- **Continue with GitHub** to setup Copilot Free for a new or existing GitHub account
+- **Continue with Google** to sign in with a Google account linked to your GitHub account
+
+:::moniker range="vs-2022"
+
+:::image type="content" source="../ide/media/vs-2022/get-started-with-copilot-free-dialog.png" alt-text="Screenshot of Sign up for Copilot Free in the Chat window.":::
+
+:::moniker-end
+
+:::moniker range="visualstudio"
+
+:::image type="content" source="../ide/media/visualstudio/get-started-with-copilot-free-dialog.png" alt-text="Screenshot of Sign up for Copilot Free in the Chat window.":::
+
+:::moniker-end
 
 ### Add a GitHub account from the **profile card**
 
@@ -72,41 +78,43 @@ Then, follow these instructions to add your GitHub account.
 
     :::image type="content" source="../ide/media/vs-2022/show-both-accounts-flyout-profile-card.png" alt-text="Screenshot showing both accounts on the sign in profile.":::
 
-::: moniker-end
-
 ### Add a GitHub account from the **Account settings** dialog
 
-::: moniker range="<=vs-2019"
-
 1. Open the Account Settings dialog by going to **File** > **Account Settings...**.
 
-1. From the **All Accounts** submenu, select **+ Add** to add an account, and select **GitHub**.
-    
-    :::image type="content" source="../ide/media/sign-in-add-github.png" alt-text="Select add GitHub account":::
+:::moniker range="visualstudio"
 
-1. You'll be redirected to the browser, where you can sign in with your GitHub credentials. After you sign in, you'll get a success window in the browser, and you can return to Visual Studio.
+2. From the **All Accounts** submenu, select **+ Add** to add an account, and then select **GitHub**.
 
-    :::image type="content" source="../ide/media/github-success-signin.png" alt-text="Success window in browser":::
+   :::image type="content" source="../ide/media/visualstudio/account-settings-sign-in-add-github.png" alt-text="Screenshot showing the Add GitHub account option.":::
 
-1. Your GitHub account will now be present in the **All Accounts** submenu.
+:::moniker-end
 
-   :::image type="content" source="../ide/media/show-both-accounts.png" alt-text="Both accounts showing":::
-   
-::: moniker-end
-   
-::: moniker range=">=vs-2022"
+:::moniker range="vs-2022"
 
-1. Open the Account Settings dialog by going to **File** > **Account Settings...**.
-
-1. From the **All Accounts** submenu, select **+ Add** to add an account, and then select **GitHub**.
+2. From the **All Accounts** submenu, select **+ Add** to add an account, and then select **GitHub**.
 
    :::image type="content" source="../ide/media/vs-2022/account-settings-sign-in-add-github.png" alt-text="Screenshot showing the Add GitHub account option.":::
 
-1. You'll be redirected to the browser, where you can sign in with your GitHub credentials. After you sign in, you'll get a success window in the browser, and you can return to Visual Studio.
+:::moniker-end
 
-1. Your GitHub account will now be present in the **All Accounts** submenu. This account becomes the **Active** account.
+3. You'll be redirected to the browser, where you can sign in with your GitHub credentials. After you sign in, you'll get a success window in the browser, and you can return to Visual Studio.
+
+:::moniker range="visualstudio"
+
+4. Your GitHub account will now be present in the **All Accounts** submenu. This account becomes the **Active** account.
+
+   :::image type="content" source="../ide/media/visualstudio/account-settings-multiple-github-accounts.png" alt-text="Screenshot showing multiple GitHub accounts on the Account settings dialog.":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
+4. Your GitHub account will now be present in the **All Accounts** submenu. This account becomes the **Active** account.
 
    :::image type="content" source="../ide/media/vs-2022/account-settings-multiple-github-accounts.png" alt-text="Screenshot showing multiple GitHub accounts on the Account settings dialog.":::
+
+:::moniker-end
 
 ### Switch the **active** account
 
@@ -122,50 +130,48 @@ Select the **Sign in** link in the upper-right corner of the IDE, select **...**
 
 Open **Account options** by clicking **...** for the account you want to make the new **active** account, then select **Set as active account**.
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="../ide/media/visualstudio/set-as-active-account.png" alt-text="Screenshot showing setting a different active account using Account Settings.":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 :::image type="content" source="../ide/media/vs-2022/set-as-active-account.png" alt-text="Screenshot showing setting a different active account using Account Settings.":::
 
-::: moniker-end
+:::moniker-end
 
 ## Enable GitHub enterprise accounts
 
 By default, Visual Studio only has public GitHub accounts enabled. Use the following steps to add a GitHub Enterprise Server account or an account associated with `.ghe.com` endpoints.
 
-::: moniker range="<=vs-2019"
+:::moniker range="visualstudio"
 
-1. To enable GitHub enterprise accounts, go to **Tools** > **Options** and search for the **Accounts** options.
+1. To enable GitHub enterprise accounts, go to **Tools** > **Options** > **All Settings** > **Environment** > **Accounts**.
 
-    :::image type="content" source="../ide/media/vs-2022/add-github-enterprise-account.png" alt-text="Screenshot of GitHub Account.":::
+:::moniker-end 
 
-1. Then, check the box to **Include GitHub Enterprise Server accounts**. The next time you go to your **Account Settings** and try to add a GitHub account, you'll see options for both GitHub and GitHub Enterprise.
-
-   :::image type="content" source="../ide/media/github-enterprise-endpoint-signin.png" alt-text="Screenshot showing Sign in with GitHub Enterprise.":::
-
-1. After you enter your GitHub Enterprise server address, select **Sign in with your browser**. There, you can sign in using your GitHub Enterprise credentials.
-
-::: moniker-end
-
-::: moniker range=">=vs-2022"
+:::moniker range="vs-2022"
 
 1. To enable GitHub enterprise accounts, go to **Tools** > **Options** > **More Accounts**.
 
-    :::image type="content" source="../ide/media/vs-2022/add-github-enterprise-cloud-server-accounts.png" alt-text="Screenshot of GitHub Account.":::
+:::moniker-end 
 
-1. Then, check the box to **Include GitHub Enterprise Cloud and GitHub Enterprise Server accounts**. The next time you go to your **Account Settings** and try to add a GitHub account, you'll see options for both GitHub and GitHub Enterprise.
+   :::image type="content" source="../ide/media/vs-2022/add-github-enterprise-cloud-server-accounts.png" alt-text="Screenshot of GitHub Account.":::
+
+2. Then, check the box to **Include GitHub Enterprise Cloud and GitHub Enterprise Server accounts**. The next time you go to your **Account Settings** and try to add a GitHub account, you'll see options for both GitHub and GitHub Enterprise.
 
    :::image type="content" source="../ide/media/vs-2022/github-enterprise-endpoint-signin.png" alt-text="Screenshot showing the Sign in with GitHub Enterprise.":::
 
-1. After you enter your GitHub Enterprise URL, select **Sign in with your browser**. There, you can sign in using your GitHub Enterprise credentials.
+3. After you enter your GitHub Enterprise URL, select **Sign in with your browser**. There, you can sign in using your GitHub Enterprise credentials.
 
 > [!NOTE]
 >  To add an account to access `github.com` resources, such as `github.com/enterprises/*`, follow the [steps for adding public GitHub accounts](#adding-public-github-accounts).
 
-::: moniker-end
-
 ## Add GitHub Enterprise Managed User (EMU) accounts
 
 You can add your GitHub EMU account as follows:
-
-::: moniker range=">=vs-2022"
 
 ### Manage accounts using the profile card
 
@@ -175,37 +181,29 @@ You can add your GitHub EMU account as follows:
 
 1. You'll be redirected to the browser, where you can sign in with your GitHub EMU credentials.
 
-::: moniker-end
-
 ### Manage accounts using the Account Settings dialog
-
-::: moniker range="<=vs-2019"
-
-1. Select the icon with your initials in the upper-right corner of the Visual Studio environment. Open the Account Settings dialog by selecting **Account settings** or by going to **File** > **Account Settings...**. 
-
-   :::image type="content" source="../ide/media/vs-2019/account-settings-1.png" alt-text="Screenshot of the Account Settings window.":::
-
-1. From the **All Accounts** submenu, select **+ Add** dropdown to add an account, and then select **GitHub**.
-
-   :::image type="content" source="../ide/media/sign-in-add-github.png" alt-text="Screenshot showing how to select and add a GitHub account.":::
-
-1. Select **GitHub Enterprise** on the **Connect to GitHub** dialog.
-
-::: moniker-end
-
-::: moniker range=">=vs-2022"
 
 1. Select the icon with your initials in the upper-right corner of the Visual Studio environment. Open the Account Settings dialog by selecting **Account settings** or by going to **File** > **Account Settings...**. 
 
    :::image type="content" source="../ide/media/vs-2022/account-settings-1.png" alt-text="Screenshot of the Account Settings window.":::
 
-1. From the **All Accounts** submenu, select **+ Add** dropdown to add an account, and then select **GitHub**.
+:::moniker range="visualstudio"
+
+2. From the **All Accounts** submenu, select **+ Add** dropdown to add an account, and then select **GitHub**.
+
+   :::image type="content" source="../ide/media/visualstudio/sign-in-add-github.png" alt-text="Screenshot showing how to select and add a GitHub account.":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
+2. From the **All Accounts** submenu, select **+ Add** dropdown to add an account, and then select **GitHub**.
 
    :::image type="content" source="../ide/media/vs-2022/sign-in-add-github.png" alt-text="Screenshot showing how to select and add a GitHub account.":::
 
-1. Select **GitHub Enterprise** on the **Connect to GitHub** dialog.
+:::moniker-end
 
-::: moniker-end
+3. Select **GitHub Enterprise** on the **Connect to GitHub** dialog.
 
 > [!NOTE]
 > Ensure you enter your GitHub EMU account credentials (the username has an underscore followed by the company name) on this page.
@@ -218,33 +216,46 @@ After you sign in, you'll get a success window in the browser, and you can retur
 
 ## Remove an account
 
-::: moniker range="vs-2019"
-
-To remove an account, select **Remove** for the account you want to remove from the **All Accounts** submenu in the **Account Settings** dialog.
-
-1. Select **File > Account Settings...**.
-1. **All Accounts** lists all accounts signed into Visual Studio. Select **Remove** for the account you want to remove.
-1. Confirm the removal on the dialog that appears.
-
-::: moniker-end
-
-::: moniker range=">=vs-2022"
-
 To remove an account:
 
 1. Select the icon with your profile name in the upper-right corner of your Visual Studio environment.
-1. Select **Remove account** for the account you want to remove.
+
+:::moniker range="visualstudio"
+
+2. Select **Remove account** for the account you want to remove.
+
+   :::image type="content" source="media/visualstudio/remove-an-account.png" alt-text="Screenshot of removing an account.":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
+2. Select **Remove account** for the account you want to remove.
 
    :::image type="content" source="media/vs-2022/signing-in-to-visual-studio/remove-an-account.png" alt-text="Screenshot of removing an account.":::
+
+:::moniker-end
 
 You can also use the **Account Settings** dialog to remove an account.
 
 1. Select **File > Account Settings...**.
 1. **All Accounts** lists all accounts signed into Visual Studio. Select **Remove** for the account you want to remove.
-1. Confirm the removal on the dialog that appears.
+
+:::moniker range="visualstudio"
+
+3. Confirm the removal on the dialog that appears.
+
+   :::image type="content" source="media/visualstudio/signing-in-to-visual-studio/remove-an-account-account-settings.png" alt-text="Screenshot of removing an account in Account Settings.":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
+3. Confirm the removal on the dialog that appears.
 
    :::image type="content" source="media/vs-2022/signing-in-to-visual-studio/remove-an-account-account-settings.png" alt-text="Screenshot of removing an account in Account Settings.":::
-::: moniker-end
+
+:::moniker-end
 
 ## Troubleshooting sign in issues
 

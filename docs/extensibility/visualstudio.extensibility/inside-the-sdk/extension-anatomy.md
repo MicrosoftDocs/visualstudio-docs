@@ -1,7 +1,7 @@
 ---
 title: Components of a VisualStudio.Extensibility extension
 description: Learn the components of a Visual Studio extension created with the VisualStudio.Extensibility model, and how they interact with each other.
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 3/31/2023
 ms.author: tinali
 monikerRange: ">=vs-2022"
@@ -47,8 +47,6 @@ For extension developers who are familiar with the existing VSSDK APIs, the `Met
 The object [`VisualStudioExtensibility`](/dotnet/api/microsoft.visualstudio.extensibility.visualstudioextensibility) acts as the entry point for extensibility features exposed by Visual Studio. This class has various extension methods, properties to quickly enumerate through available features in extensibility SDK. See the API documentation for the available methods.
 
 ## Extension parts
-
-For features where an extension contributes components to Visual Studio such as commands, editor listeners, extensions will utilize attributed classes. Build process will generate the correct metadata to ensure these components can be discovered by Visual Studio.
 
 For features where an extension contributes components to Visual Studio such as commands, editor listeners, tool windows, etc., extensions utilize classes marked with the [`VisualStudioContribution`](/dotnet/api/microsoft.visualstudio.extensibility.visualstudiocontributionattribute) attribute. The build process generates the correct metadata to ensure these components can be discovered by Visual Studio.
 

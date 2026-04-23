@@ -1,7 +1,7 @@
 ---
 title: Inspect and break exceptions when debugging
 description: Learn about the information that Visual Studio provides to help you debug exceptions, and how to selectively disable breaking on exceptions.
-ms.date: 09/04/2024
+ms.date: 04/13/2026
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -61,7 +61,7 @@ In cases where an exception has been `thrown` the Exception Helper shows the cal
 ::: moniker range=">= vs-2022"
 ## Inspect async exceptions (.NET)
 
-Starting with .NET 9, the Visual Studio debugger automatically breaks when an async Task method throws an exception within .NET framework code. This makes is easier to debug asynchronous code, especially in ASP.NET, because exceptions are often thrown across asynchronous boundaries.
+Starting with .NET 9, the Visual Studio debugger automatically breaks when an async Task method throws an exception within .NET framework code. This makes it easier to debug asynchronous code, especially in ASP.NET, because exceptions are often thrown across asynchronous boundaries.
 
 ![Screenshot of Exception helper with async method.](media/vs-2022/debugger-exception-helper-async.png)
 
@@ -78,7 +78,26 @@ Starting in Visual Studio 2022 version 17.3, you can view exception stack frames
 ::: moniker range=">= vs-2022"
 ## Get AI assistance
 
-If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while you're debugging exceptions. Just look for the **Ask Copilot** ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png) button. In these scenarios, Copilot already knows the context for your questions, so you don't need to provide context yourself in chat. For more information, see [Debug with Copilot](../debugger/debug-with-copilot.md).
+If you have [Copilot](../ide/visual-studio-github-copilot-extension.md), you can get AI assistance while you're debugging exceptions. Just look for the **Analyze with Copilot** or **Ask Copilot** ![Screenshot of Ask Copilot button.](../debugger/media/vs-2022/debug-with-copilot-ask-copilot-button.png) button. In these scenarios, Copilot already knows the context for your questions, so you don't need to provide context yourself in chat. For more information, see [Debug with Copilot](../debugger/debug-with-copilot.md).
+::: moniker-end
+::: moniker range=">=visualstudio"
+If Copilot wants access to the Output window context to help analyze the issue, it will prompt you for this permission in the Chat window. If you grant permission, you enable Copilot to perform additional analysis of the exception based on runtime details. The Exception Helper, variable analysis, code inspection, and other debugging scenarios gain access to this context for the current debug session.
+::: moniker-end
+
+::: moniker range=">=visualstudio"
+## Get AI assistance with repo context
+
+When you are working in Visual Studio with an Azure DevOps repo, exception analysis with Copilot incorporates the repository context for smarter, faster, and more precise exception resolution. Copilot cross-references your open repository including past bugs, issues, pull requests, and historical fixes to provide actionable insights directly relevant to your codebase.
+
+When you encounter an exception:
+
+- Copilot identifies the most likely root causes, impacted components, and potential fixes.
+- Copilot leverages repository knowledge to highlight similar past issues and their resolutions, helping you to learn from existing fixes.
+- Complex exceptions are analyzed with full context, connecting runtime behavior to historical patterns, so you can understand unexpected or incorrect values quickly.
+- By surfacing relevant fixes and insights automatically, Copilot saves time and reduces the trial-and-error often required to debug challenging issues.
+
+For complex bugs that require end-to-end diagnosis beyond a single exception, you can use the Debugger Agent. The Debugger Agent provides an agentic workflow that reproduces, instruments, and validates fixes using live runtime data. For more information, see [Agentic bug resolution with the Debugger Agent](../debugger/debug-with-copilot.md#agentic-bug-resolution-with-the-debugger-agent).
+
 ::: moniker-end
 
 ## Share a debug session with Live Share

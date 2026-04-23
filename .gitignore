@@ -363,3 +363,27 @@ _themes.VS.Modern/
 
 # Custom added by ghogen
 settings.json
+
+# Doc-Kit workspace files
+.github/agents/*
+.github/AGENTS.md
+.github/instructions/
+.github/policies/
+.github/skills/
+.github/prompts/*
+.github/workflows/*
+.vscode/settings.json
+.vscode/mcp.json
+.dockit/
+.env
+.env.example
+requirements.txt
+.github/hooks/doc-kit-hooks.json
+.github/hooks/scripts/add-dockit-tag.sh
+
+# Allow Visual Studio product instructions file
+!.github/instructions/visual-studio-product.instructions.md
+!.github/workflows/add-awp-metadata.yml
+
+# Allow Visual Studio prompts
+!.github/prompts/update-whats-new.prompt.md

@@ -1,7 +1,7 @@
 ---
 description: "Use this window to view and change the design-time properties and events of selected objects that are located in editors and designers."
 title: Properties Window
-ms.date: 11/04/2016
+ms.date: 04/01/2026
 ms.topic: reference
 helpviewer_keywords:
 - properties [Visual Studio], Properties Window
@@ -79,5 +79,5 @@ Provides a Search function for properties and events when editing XAML files in 
 
 ## See also
 
-- [Project Properties Reference](../ide/reference/project-properties-reference.md)
+- [Manage project and solution properties](managing-project-and-solution-properties.md)
 - [Customizing window layouts](../ide/customizing-window-layouts-in-visual-studio.md)

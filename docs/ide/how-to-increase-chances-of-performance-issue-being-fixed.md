@@ -6,7 +6,7 @@ ms.author: madsk
 manager: mijacobs
 ms.subservice: general-ide
 ms.date: 11/19/2019
-ms.topic: conceptual
+ms.topic: how-to
 ---
 # Increase the chances of a performance issue being fixed
 

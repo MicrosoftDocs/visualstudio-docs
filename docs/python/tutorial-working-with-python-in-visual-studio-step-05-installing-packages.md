@@ -2,10 +2,10 @@
 title: "Tutorial Step 5: Install Packages in Python Environment"
 titleSuffix: ""
 description: Explore step 5 of a tutorial about Python capabilities in Visual Studio that shows how to manage and install packages in a Python environment.
-ms.date: 07/30/2025
+ms.date: 03/16/2026
 ms.topic: tutorial
-author: cwebster-99
-ms.author: cowebster
+author: Devdiv-VR
+ms.author: vedhar
 manager: mijacobs
 ms.subservice: python
 
@@ -37,29 +37,33 @@ Visual Studio provides two places to view information about Python environments:
 
 - The **Python Environments** _node_ in **Solution Explorer** lists environments currently in use by your project. If you have more than one environment for a project, Visual Studio shows the active environment in bold. You can expand a specific environment to see the set of installed packages. When an environment is active, you can import its installed packages and use them in your code.
 
-   :::moniker range=">=vs-2022"
+   :::moniker range="visualstudio"
+
+   :::image type="content" source="media/visualstudio/python-environments-node.png" alt-text="Screenshot that shows the Python Environments node in Solution Explorer in Visual Studio." lightbox="media/visualstudio/python-environments-node.png":::
+
+   :::moniker-end
+
+   :::moniker range="vs-2022"
 
    :::image type="content" source="media/python-environments-node-2022.png" alt-text="Screenshot that shows the Python Environments node in Solution Explorer in Visual Studio." lightbox="media/python-environments-node-2022.png":::
 
    :::moniker-end
-   :::moniker range="<=vs-2019"
 
-   :::image type="content" source="media/python-environments-node-2019.png" alt-text="Screenshot that shows the Python Environments node in Solution Explorer in Visual Studio 2019." lightbox="media/python-environments-node-2019.png":::
-
-   :::moniker-end
 
 - The **Python Environments** _window_ displays all available environments and their installed packages. You can view environments installed by using the Visual Studio Installer and environments installed separately. The available environments include global, virtual, and conda environments. Visual Studio shows the default Python environment for new projects in bold.
 
-   :::moniker range=">=vs-2022"
+   :::moniker range="visualstudio"
+
+   :::image type="content" source="media/visualstudio/environments-default-view-2022.png" alt-text="Screenshot that shows the Python Environments window in Visual Studio." border="false" lightbox="media/visualstudio/environments-default-view-2022.png":::
+
+   :::moniker-end
+
+   :::moniker range="vs-2022"
 
    :::image type="content" source="media/environments/environments-default-view-2022.png" alt-text="Screenshot that shows the Python Environments window in Visual Studio." border="false" lightbox="media/environments/environments-default-view-2022.png":::
 
    :::moniker-end
-   :::moniker range="<=vs-2019"
 
-   :::image type="content" source="media/environments/environments-default-view-2019.png" alt-text="Screenshot that shows the Python Environments window in Visual Studio 2019." border="false" lightbox="media/environments/environments-default-view-2019.png":::
-
-   :::moniker-end
 
 Use one of the following methods to open the **Python Environments** window:
 
@@ -67,16 +71,18 @@ Use one of the following methods to open the **Python Environments** window:
 
 - If you have a Python project open in **Solution Explorer**, right-click the **Python Environments** node under the project, and select **View All Python Environments**:
 
-   :::moniker range=">=vs-2022"
+   :::moniker range="visualstudio"
+
+   :::image type="content" source="media/visualstudio/environments-view-all-2022.png" alt-text="Screenshot that shows how to open the Python Environments window with right-click in Visual Studio." lightbox="media/visualstudio/environments-view-all-2022.png":::
+
+   :::moniker-end
+
+   :::moniker range="vs-2022"
 
    :::image type="content" source="media/environments/environments-view-all-2022.png" alt-text="Screenshot that shows how to open the Python Environments window with right-click in Visual Studio." lightbox="media/environments/environments-view-all-2022.png":::
 
    :::moniker-end
-   :::moniker range="<=vs-2019"
 
-   :::image type="content" source="media/environments/environments-view-all-2019.png" alt-text="Screenshot that shows how to open the Python Environments window with right-click in Visual Studio 2019." lightbox="media/environments/environments-view-all-2019.png":::
-
-   :::moniker-end
 
    You can also use the **Ctrl+K, Ctrl+`** keyboard shortcut to open the **Python Environments** window from **Solution Explorer**. 
 
@@ -103,16 +109,18 @@ To prepare for the exercise, follow these steps to update your Python project fi
 
 1. In the editor, hover over the `matplotlib` import statement. Visual Studio uses special formatting to indicate the statement is unresolved. 
 
-   :::moniker range=">=vs-2022"
+   :::moniker range="visualstudio"
+
+   :::image type="content" source="media/visualstudio/packages-unresolved-import.png" alt-text="Screenshot that shows how Visual Studio uses special formatting to indicate that the matplotlib import statement is unresolved." lightbox="media/visualstudio/packages-unresolved-import.png":::
+
+   :::moniker-end
+
+   :::moniker range="vs-2022"
 
    :::image type="content" source="media/packages-unresolved-import-2022.png" alt-text="Screenshot that shows how Visual Studio uses special formatting to indicate that the matplotlib import statement is unresolved." lightbox="media/packages-unresolved-import-2022.png":::
 
    :::moniker-end
-   :::moniker range="<=vs-2019"
 
-   :::image type="content" source="media/packages-unresolved-import-2019.png" alt-text="Screenshot that shows how Visual Studio 2019 uses special formatting to indicate that the matplotlib import statement is unresolved." lightbox="media/packages-unresolved-import-2019.png":::
-
-   :::moniker-end
 
    The `matplotlib` import statement is unresolved because the necessary packages aren't installed in the default global environment. You learn how to install the required packages in the next section.
 
@@ -122,7 +130,13 @@ To resolve the `matplotlib` import statement, you need to install the necessary 
 
 1. In the **Python Environments** window, select the default environment for new Python projects, then select **Packages (PyPI)** in the dropdown menu. (PyPI is the acronym for the Python Package Index.)
 
-   :::moniker range=">=vs-2022"
+   :::moniker range="visualstudio"
+
+   :::image type="content" source="media/visualstudio/packages-installed.png" alt-text="Screenshot that shows how to select the Packages PyPI option for the selected environment to see the installed packages." lightbox="media/visualstudio/packages-installed.png":::
+
+   :::moniker-end
+
+   :::moniker range="vs-2022"
 
    :::image type="content" source="media/packages-installed-2022.png" alt-text="Screenshot that shows how to select the Packages PyPI option for the selected environment to see the installed packages." lightbox="media/packages-installed-2022.png":::
 
@@ -132,16 +146,18 @@ To resolve the `matplotlib` import statement, you need to install the necessary 
 
 1. In the **Search** field, enter *matplotlib*. In the results list, select the **Run command: pip install matplotlib** option.
 
-   :::moniker range=">=vs-2022"
+   :::moniker range="visualstudio"
+
+   :::image type="content" source="media/visualstudio/packages-install-matplotlib.png" alt-text="Screenshot that shows how to install the matplotlib library for the selected environment in the Python Environments window in Visual Studio." lightbox="media/visualstudio/packages-install-matplotlib.png":::
+
+   :::moniker-end
+
+   :::moniker range="vs-2022"
 
    :::image type="content" source="media/packages-install-matplotlib-2022.png" alt-text="Screenshot that shows how to install the matplotlib library for the selected environment in the Python Environments window in Visual Studio." lightbox="media/packages-install-matplotlib-2022.png":::
 
    :::moniker-end
-   :::moniker range="<=vs-2019"
 
-   :::image type="content" source="media/packages-install-matplotlib-2019.png" alt-text="Screenshot that shows how to install the matplotlib library for the selected environment in the Python Environments window in Visual Studio 2019." lightbox="media/packages-install-matplotlib-2019.png":::
-
-   :::moniker-end
 
    The command installs the `matplotlib` library, and also any packages it depends on. In this case, the dependent packages include the `numpy` library.
 
@@ -149,16 +165,18 @@ To resolve the `matplotlib` import statement, you need to install the necessary 
 
 1. After the packages install, the **Python Environments** window refreshes to show the packages for the selected environment:
 
-   :::moniker range=">=vs-2022"
+   :::moniker range="visualstudio"
+
+   :::image type="content" source="media/visualstudio/packages-matplotlib-numpy.png" alt-text="Screenshot that shows the newly installed matplotlib and numpy packages for the selected environment in the Python Environments window in Visual Studio." lightbox="media/visualstudio/packages-matplotlib-numpy.png":::
+
+   :::moniker-end
+
+   :::moniker range="vs-2022"
 
    :::image type="content" source="media/packages-matplotlib-numpy-2022.png" alt-text="Screenshot that shows the newly installed matplotlib and numpy packages for the selected environment in the Python Environments window in Visual Studio." lightbox="media/packages-matplotlib-numpy-2022.png":::
 
    :::moniker-end
-   :::moniker range="<=vs-2019"
 
-   :::image type="content" source="media/packages-matplotlib-2019.png" alt-text="Screenshot that shows the newly installed matplotlib and numpy packages for the selected environment in the Python Environments window in Visual Studio 2019." lightbox="media/packages-matplotlib-2019.png":::
-
-   :::moniker-end
 
    The **X** to the right of the package uninstalls it.
 

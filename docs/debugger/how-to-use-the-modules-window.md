@@ -2,7 +2,7 @@
 title: View DLLs and executables in Visual Studio
 description: View DLLs and executables (.exe files) that your app uses in the Modules window during a debugging session in Visual Studio.
 titleSuffix: Visual Studio Modules window
-ms.date: 04/16/2025
+ms.date: 05/12/2025
 ms.topic: how-to
 f1_keywords: 
   - vs.debug.modules

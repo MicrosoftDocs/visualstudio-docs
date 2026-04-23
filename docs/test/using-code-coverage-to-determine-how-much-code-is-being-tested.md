@@ -2,7 +2,7 @@
 title: Determine code testing coverage
 description: Learn how to use the code coverage feature of Visual Studio to determine what proportion of your project code is being tested by coded tests.
 ms.date: 09/09/2025
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - code coverage
 dev_langs:
@@ -27,17 +27,10 @@ Code coverage option is available under the Test menu when you run test methods 
 ::: moniker range=">=visualstudio"
 >[!NOTE]
 > Code coverage is available in Visual Studio Enterprise, Community, and Professional editions. In Visual Studio 2022 and previous versions, the code coverage feature was limited to Visual Studio Enterprise edition.
-
 ::: moniker-end
 ::: moniker range="<=vs-2022"
 >[!NOTE]
-> Code coverage is available only with Visual Studio Enterprise.
-
-::: moniker-end
-
->[!NOTE]
-> For .NET code coverage, you can alternatively use the command-line tool, [dotnet-coverage](/dotnet/core/additional-tools/dotnet-coverage).
-
+> Code coverage is available only with Visual Studio Enterprise. For .NET code coverage, you can alternatively use the command-line tool, [dotnet-coverage](/dotnet/core/additional-tools/dotnet-coverage).
 ::: moniker-end
 
 ## Analyze code coverage
@@ -47,9 +40,7 @@ Code coverage option is available under the Test menu when you run test methods 
     ::: moniker range=">=vs-2022"
     :::image type="content" source="media/vs-2022/analyze-code-coverage.png" alt-text="Screenshot of Test menu with Analyze code coverage highlighted.":::
     ::: moniker-end
-    ::: moniker range="vs-2019"
-    :::image type="content" source="media/vs-2019/analyze-code-coverage.png" alt-text="Screenshot of Test menu with Analyze code coverage highlighted.":::
-    ::: moniker-end
+
 
     > [!TIP]
     > You can also run code coverage from the **Test Explorer** tool window.
@@ -59,9 +50,7 @@ Code coverage option is available under the Test menu when you run test methods 
     ::: moniker range=">=vs-2022"
     :::image type="content" source="media/vs-2022/code-coverage-highlight.png" alt-text="Screenshot showing code coverage highlighted.":::
     ::: moniker-end
-    ::: moniker range="vs-2019"
-    :::image type="content" source="media/vs-2019/code-coverage-highlight.png" alt-text="Screenshot showing code coverage highlighted.":::
-    ::: moniker-end
+
 
    In the drop-down list for the **Show Code Coverage Coloring** option, you can select whether the coloring applies to lines of code, glyphs in the left margin, or both.
 
@@ -70,9 +59,7 @@ Code coverage option is available under the Test menu when you run test methods 
     ::: moniker range=">=vs-2022"
     :::image type="content" source="media/vs-2022/coverage-fonts-and-colors.png" alt-text="Screenshot showing code coverage fonts and colors":::
     ::: moniker-end
-    ::: moniker range="vs-2019"
-    :::image type="content" source="media/vs-2019/coverage-fonts-and-colors.png" alt-text="Screenshot showing code coverage fonts and colors.":::
-    ::: moniker-end
+
 
 1. If the results show low coverage, investigate which parts of the code aren't being exercised, and write more tests to cover them. Development teams typically aim for about 80% code coverage. In some situations, lower coverage is acceptable. For example, lower coverage is acceptable where some code is generated from a standard template.
 

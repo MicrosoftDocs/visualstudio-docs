@@ -1,7 +1,7 @@
 ---
 title: "Browse repos, compare branches & commits"
 description: Browse any Git repository in Visual Studio by using the Git Repository window to view local and remote branches and multiple branches at the same time.
-ms.date: 5/6/2025
+ms.date: 02/25/2026
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
@@ -19,7 +19,17 @@ You can work remotely with the Git provider of your choice, such as GitHub or Az
 
 To get started, open the **Git Repository** window by selecting **Git Repository** on the **View** menu (or by using the **Ctrl**+**0**, **Ctrl**+**R** keyboard shortcut). You can also access the **Git Repository** window by selecting the **outgoing/incoming** links in the **Git Changes** window and on the status bar.
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/git-repository-browse-ui.png" alt-text="Screenshot that shows the anatomy of the Git Repository window." lightbox="media/visualstudio/git-repository-browse-ui.png":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 :::image type="content" source="media/vs-2022/git-repository-browse-ui.png" alt-text="Screenshot that shows the anatomy of the Git Repository window." lightbox="media/vs-2022/git-repository-browse-ui.png":::
+
+:::moniker-end
 
 The **Git Repository** window contains three main sections, as numbered in the preceding screenshot:
 
@@ -41,12 +51,35 @@ You can browse through any local or remote branch without having to switch your 
 
 :::image type="content" source="media/vs-2022/git-repository-open-new-tab.png" alt-text="Screenshot of how to open a commit on a new tab." lightbox="media/vs-2022/git-repository-open-new-tab.png":::
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/git-repository-details-tab.png" alt-text="Screenshot of the tab for commit details." lightbox="media/visualstudio/git-repository-details-tab.png":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 :::image type="content" source="media/vs-2022/git-repository-details-tab.png" alt-text="Screenshot of the tab for commit details." lightbox="media/vs-2022/git-repository-details-tab.png":::
+
+:::moniker-end
+
+:::moniker range="visualstudio"
+
+> [!TIP]
+> To display your commit in full screen, detach your **Commit** tab and maximize the **Commit** window by using the **Maximize** button. You can also select your favorite diff configuration by selecting **Diff Configuration** (the gear icon).
+>
+> :::image type="content" source="media/visualstudio/git-repository-commit-details-full-screen.png" alt-text="Screenshot of full-screen commit details with diff configurations." lightbox="media/visualstudio/git-repository-commit-details-full-screen.png":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
 
 > [!TIP]
 > To display your commit in full screen, detach your **Commit** tab and maximize the **Commit** window by using the **Maximize** button. You can also select your favorite diff configuration by selecting **Diff Configuration** (the gear icon).
 >
 > :::image type="content" source="media/vs-2022/git-repository-commit-details-full-screen.png" alt-text="Screenshot of full-screen commit details with diff configurations." lightbox="media/vs-2022/git-repository-commit-details-full-screen.png":::
+
+:::moniker-end
 
 ### Multi-branch history view
 
@@ -79,9 +112,29 @@ You can also select **Show Outgoing/Incoming Only** on the context menu by right
 
 To compare any two commits in your branch, use the **Ctrl** key to select the two commits that you want to compare. Then, right-click one of them and select **Compare Commits**.
 
+:::moniker range="visualstudio"
+   
+:::image type="content" source="media/visualstudio/git-repository-compare-commits-option.png" alt-text="Screenshot of how to compare two commits." lightbox="media/visualstudio/git-repository-compare-commits-option.png":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+   
 :::image type="content" source="media/vs-2022/git-repository-compare-commits-option.png" alt-text="Screenshot of how to compare two commits." lightbox="media/vs-2022/git-repository-compare-commits-option.png":::
 
+:::moniker-end
+
+:::moniker range="visualstudio"
+   
+:::image type="content" source="media/visualstudio/git-repository-compare-commits-ui.png" alt-text="Screenshot of compared commits." lightbox="media/visualstudio/git-repository-compare-commits-ui.png":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+   
 :::image type="content" source="media/vs-2022/git-repository-compare-commits-ui.png" alt-text="Screenshot of compared commits." lightbox="media/vs-2022/git-repository-compare-commits-ui.png":::
+
+:::moniker-end
 
 > [!TIP]
 >Similar to **Commit Details**, you can use the **Open in New Tab** button to open the comparison on a different tab or maximize it on the screen.
@@ -90,7 +143,17 @@ To compare any two commits in your branch, use the **Ctrl** key to select the tw
 
 In Visual Studio, you can use the **Git Graph** pane in the **Git Repository** window to create branches from previous commits. To do so, right-click the commit you would like to create a new branch from, and then select **[New Branch](git-create-branch.md)**.
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/git-create-branch-from-commit.png" alt-text="Screenshot of the Git Graph pane of the Git Repository window.":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 :::image type="content" source="media/vs-2022/git-create-branch-from-commit.png" alt-text="Screenshot of the Git Graph pane of the Git Repository window.":::
+
+:::moniker-end
 
 > [!NOTE]
 > The equivalent command for this action is `git branch <branchname> [<commit-id>]`.
@@ -107,7 +170,17 @@ To compare your currently checked out branch with other branches using Visual St
 
 Selecting **Compare with Current Branch** opens the compare branches experience where you can navigate the **Changes** list and select the file that you would like to compare.
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/git-compare-branches.png" alt-text="Screenshot that shows how to compare branches by using the diff view." lightbox="media/visualstudio/git-compare-branches.png":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 :::image type="content" source="media/vs-2022/git-compare-branches.png" alt-text="Screenshot that shows how to compare branches by using the diff view." lightbox="media/vs-2022/git-compare-branches.png":::
+
+:::moniker-end
 
 > [!TIP]
 > If you prefer an inline diff, you can use the Diff Configuration Options gear icon and switch to an inline diff view.
@@ -133,7 +206,17 @@ Now that you are in a detached head state, feel free to run and test your code o
 
 Checking out the tip of a remote branch can be helpful if you would like to quickly review a pull request and evaluate the latest updates. To do that in Visual Studio, first make sure to fetch and get the latest updates from your remote repository. Then right-click the remote branch you would like to review and select **Checkout Tip Commit**.
 
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/git-checkout-tip-commit.png" alt-text="Screenshot that shows the Checkout Tip Commit option.":::
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 :::image type="content" source="media/vs-2022/git-checkout-tip-commit.png" alt-text="Screenshot that shows the Checkout Tip Commit option." lightbox="media/vs-2022/git-checkout-tip-commit.png":::
+
+:::moniker-end
 
 ## Related content
 

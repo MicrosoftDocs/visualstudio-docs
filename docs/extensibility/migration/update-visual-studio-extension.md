@@ -1,27 +1,70 @@
 ---
-title: Update a Visual Studio extension
-description: Update your Visual Studio extension for .NET or C++ to work with Visual Studio 2022, including running code in extensions and shared projects for multi-targeting.
-ms.date: 06/08/2021
-ms.topic: conceptual
+title: Upgrade a Visual Studio extension
+description: Upgrade your Visual Studio extension for .NET or C++ to work with a newer version of Visual Studio, including running code in extensions and shared projects for multi-targeting.
+ms.date: 11/5/2025
+ms.topic: how-to
 author: tinaschrepfer
 ms.author: tinali
 manager: mijacobs
 ms.subservice: extensibility-integration
-monikerRange: "vs-2022"
+monikerRange: ">=vs-2022"
 
 ---
-# Update a Visual Studio extension for Visual Studio 2022
+# Upgrade your Visual Studio extension
+
+:::moniker range="visualstudio"
+If you're an extension developer, this article can help you understand how your extensions work in Visual Studio 2026.
+With Visual Studio 2026, users can easily install your Visual Studio 2022 extensions.
+
+Since there are minimal breaking changes, upgrading your extension should be straightforward. With Visual Studio 2026, you can test your existing extension and provide us with your feedback.
+
+> [!NOTE]
+> The information in this article pertain to upgrading an extension from Visual Studio 2022 to work with Visual Studio 2026.
+>
+> For information about upgrading a Visual Studio 2019 extension to work with Visual Studio 2022 or Visual Studio 2026, switch to the Visual Studio 2022 version of this page by using the version dropdown, just above the table of contents.
+
+To install and test your extension:
+
+1. Install the latest [Visual Studio 2026](https://aka.ms/vs/download/?cid=learn-onpage-vs).
+
+1. Navigate to **Extension Manager**.
+
+1. Use the Search function to find your extension.
+
+1. Install it and confirm that it operates as expected. 
+
+If your extension is an MSI, you might need to modify the installer to allow the installation of Visual Studio 2022 extensions on Visual Studio 2026.
+
+:::image type="content" alt-text="Screenshot of Visual Studio Extension Manager." source="media/visualstudio/visual-studio-extension.png" lightbox="media/visualstudio/visual-studio-extension.png" :::
+
+For now, there are no instructions for creating extensions specifically for Visual Studio 2026. However, you can test and use Visual Studio 2022 extensions with Visual Studio 2026
+
+## Breaking changes
+
+The `IntegratedShell` install target has been removed. If your extension targets `IntegratedShell`, the `InstallationTarget` in the VSIX manifest should be updated to target `Microsoft.VisualStudio.Community`. To check or change the `InstallationTarget`, open the VSIX Manifest in the designer, select **Install Targets**. You can open the `.vsixmanifest` file in the XML text editor to inspect the `InstallationTarget` settings.
+
+To learn more about Breaking Changes, see [Breaking changes for Visual Studio Extensibility](https://github.com/microsoft/VSExtensibility/blob/main/docs/breaking_changes.md).
+
+## Feedback and Issue Reporting
+
+If you encounter issues with your extensions in Visual Studio 2026, report the problem [here](https://aka.ms/ExtensionFeedback) and include a reference to the ticket.
+
+:::moniker-end
+
+:::moniker range="vs-2022"
 
 > [!IMPORTANT]
-> The advice in this article can guide developers in migrating extensions that require major changes to work in both Visual Studio 2019 and Visual Studio 2022. In those cases, we recommend that you have two VSIX projects and conditional compilation.
+> The advice in this article can guide developers in upgrading extensions that require major changes to work in both Visual Studio 2019 and Visual Studio 2022 or later. In those cases, we recommend that you have two VSIX projects and conditional compilation.
 >
-> Many extensions will work in both Visual Studio 2019 and Visual Studio 2022 with minor changes that won't require following the advice on modernizing your extension in this article. Try your extension in Visual Studio 2022 and evaluate what option is best for your extension.
+> Many extensions will work in both Visual Studio 2019 and Visual Studio 2022 (or later) with minor changes that won't require following the advice on modernizing your extension in this article. Try your extension in Visual Studio 2022 and evaluate what option is best for your extension.
+>
+> For information about upgrading a Visual Studio 2022 extension to work with Visual Studio 2026, switch to the latest version of this page by using the version dropdown, just above the table of contents.
 
 Visual Studio 2022 is a 64-bit application and introduces some breaking changes in the Visual Studio SDK. This article walks you through the steps required to get your extension working with the current preview of Visual Studio 2022. Your extension can then be ready for users to install before Visual Studio 2022 reaches general availability.
 
 ## Install Visual Studio and compile extensions
 
-Install Visual Studio 2022 from [Visual Studio 2022 downloads](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta).
+Install Visual Studio 2022 from [Visual Studio 2022 downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-cta).
 
 ### Extensions written in a .NET language
 
@@ -339,3 +382,5 @@ This code will prevent package references from importing the old version of the 
 ## Related content
 
 Follow a step-by-step example, [ImageOptimizer](samples.md), with links to the project and code changes for each step.
+
+:::moniker-end

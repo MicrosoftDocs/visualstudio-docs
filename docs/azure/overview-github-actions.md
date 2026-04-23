@@ -7,7 +7,7 @@ ms.subservice: azure-development
 ms.topic: overview
 ms.date: 08/17/2023
 ms.author: ghogen
-monikerRange: ">=vs-2019"
+monikerRange: ">=vs-2022"
 ms.custom: sfi-image-nochange
 ---
 
@@ -40,10 +40,7 @@ Visual Studio also simplifies the process by handling your application secrets f
 
 Get started by right-clicking on your project in Solution Explorer and selecting **Publish** from the context menu. For a tutorial, see [Deploy your application to Azure using GitHub Actions workflows created by Visual Studio](/visualstudio/azure/azure-deployment-using-github-actions).
 
-## How do I get my project on GitHub.com?
-
-For more information, see [Create a new Git repository](../version-control/git-with-visual-studio.md?view=vs-2019&preserve-view=true#create-a-new-git-repository-in-visual-studio-2019).
-
 ## See also
 
 [GitHub Actions and .NET](/dotnet/devops/github-actions-overview)
+[About Git in Visual Studio](../version-control/git-with-visual-studio.md)

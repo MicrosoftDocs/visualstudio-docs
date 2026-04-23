@@ -2,7 +2,7 @@
 title: Use Replace in Files to Search Code and Make Changes
 description: Use the Replace in Files feature to search the code of a specified set of files for a string or expression and change some or all of the matches found.
 ms.date: 04/07/2025
-ms.topic: conceptual
+ms.topic: how-to
 f1_keywords:
 - vs.findreplace.replaceinfiles
 - vs.replaceinfiles
@@ -28,14 +28,6 @@ ms.subservice: general-ide
 
 ::: moniker-end
 
-::: moniker range="vs-2019"
-
-:::image type="content" source="media/vs-2019/find-replace-files.png" alt-text="Screenshot of the Find and Replace dialog box in Visual Studio 2019. The Replace in Files tab is open.":::
-
-> [!IMPORTANT]
-> If you use Visual Studio 2019 [version 16.6](/visualstudio/releases/2019/release-notes-v16.6/) or earlier, the **Find and Replace** dialog box might not look as it appears here. Switch to the [Visual Studio 2017](find-in-files.md?view=vs-2017&preserve-view=true) version of this page to get descriptions that match what you see on your screen.
-
-::: moniker-end
 
 You can use any of the following methods to display **Replace in Files** in the **Find and Replace** window. You can also use **Ctrl**+**Shift**+**H**.
 
@@ -72,16 +64,6 @@ Here are some examples:
 
 - Replacing "onetwothree" with "fourFiveSix" will turn "onetwothree" into "fourfivesix", "oneTwoThree" into "fourFiveSix", and "OneTwoThree" into "FourFiveSix".
 
-::: moniker range="vs-2019"
-
-## Keep modified files open after Replace All
-
-When you select **Keep modified files open after Replace All**, all files in which replacements have been made are left open, so you can undo or save the changes. Memory constraints might limit the number of files that can remain open after a replace operation.
-
-> [!CAUTION]
-> You can use **Undo** only on files that remain open for editing. If **Keep modified files open after Replace All** isn't selected, files that weren't already open for editing will remain closed, and no **Undo** option will be available in those files.
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 

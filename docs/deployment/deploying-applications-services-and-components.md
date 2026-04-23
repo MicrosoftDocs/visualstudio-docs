@@ -1,8 +1,8 @@
 ---
 title: "First look at deployment"
 description: Explore application deployment options in Visual Studio, including Azure, the web, network shares, devices, Microsoft Store, and Windows desktop installer packages.
-ms.date: 11/14/2024
-ms.topic: conceptual
+ms.date: 02/25/2026
+ms.topic: install-set-up-deploy
 dev_langs:
   - "FSharp"
   - "VB"
@@ -57,7 +57,7 @@ Deployment to a local folder is typically used for testing or to begin a staged 
   ![Screenshot that shows selecting Azure App Service.](../deployment/media/quickstart-publish-azure-new.png "Choose Azure App Service")
 
   > [!NOTE]
-  > If you don't already have an Azure account, you can [sign up here](https://azure.microsoft.com/free/?ref=microsoft.com&utm_source=microsoft.com&utm_medium=doc&utm_campaign=visualstudio).
+  > If you don't already have an Azure account, you can [sign up here](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn).
 
 ## Publish to the web or deploy to a network share
 
@@ -77,22 +77,6 @@ Deployment to a local folder is typically used for testing or to begin a staged 
   - [Deploy a .NET Windows desktop app using ClickOnce](quickstart-deploy-using-clickonce-folder.md)
   - [Deploy a C++/CLR app using ClickOnce](/cpp/windows/clickonce-deployment-for-visual-cpp-applications)
 
-:::moniker range="<=vs-2019"
-## Create an installer package (Windows desktop)
-
-If you require a more complex installation of a desktop application than ClickOnce can provide, you can create a Windows Installer package (MSI or EXE installation file) or a custom bootstrapper.
-
-- An MSI-based installer package can be created by using the [WiX Toolset Visual Studio 2019 Extension](https://marketplace.visualstudio.com/items?itemName=WixToolset.WixToolsetVisualStudio2019Extension). This is a command-line toolset.
-
-- An MSI or EXE installer package can be created by using a Setup project (vdproj). To use this option, see [Visual Studio Installer Projects Extension and .NET 6.0](../deployment/installer-projects-net-core.md) or, go directly to the [Visual Studio Installer Projects extension](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.MicrosoftVisualStudio2017InstallerProjects#overview).
-
-- An MSI or EXE installer package can be created by using [InstallShield](https://www.revenera.com/install/products/installshield/installshield-requirements) from Revenera Software. InstallShield may be used with Visual Studio 2017 and later versions. Community Edition isn't supported.
-
-  > [!NOTE]
-  > InstallShield Limited Edition is no longer included with Visual Studio and isn't supported in Visual Studio 2017 and later versions. Check with Revenera Software about future availability.
-
-- You can also install prerequisite components for desktop applications by configuring a generic installer package, which is known as a bootstrapper. For more information, see [Application deployment prerequisites](../deployment/application-deployment-prerequisites.md).
-:::moniker-end
 :::moniker range=">=vs-2022"
 ## Create an installer package (Windows desktop)
 
@@ -115,7 +99,13 @@ From Visual Studio, you can create app packages for deployment to Microsoft Stor
 
 - **UWP**: You can package your app and deploy it by using menu items. For more information, see [Package a UWP app by using Visual Studio](/windows/uwp/packaging/packaging-uwp-apps).
 
+    :::moniker range="visualstudio"
+    ![Screenshot that shows creating an app package.](../deployment/media/visualstudio/feature-tour-create-app-package.png)
+    :::moniker-end
+
+    :::moniker range="vs-2022"
     ![Screenshot that shows creating an app package.](../deployment/media/feature-tour-create-app-package.png)
+    :::moniker-end
 
 - **Windows desktop**: You can deploy to Microsoft Store starting in Visual Studio 2017 version 15.4. To do this, start by creating a Windows Application Packaging Project. For more information, see [Package a desktop app for Microsoft Store](/windows/uwp/porting/desktop-to-uwp-packaging-dot-net).
 

@@ -2,7 +2,7 @@
 title: Menus & commands
 description: A walkthrough of the menu and command system in Visual Studio.
 ms.date: 12/01/2021
-ms.topic: conceptual
+ms.topic: how-to
 author: madskristensen
 ms.author: madsk
 manager: pchapman

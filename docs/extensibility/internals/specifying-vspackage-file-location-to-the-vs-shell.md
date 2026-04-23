@@ -2,7 +2,7 @@
 title: Specifying VSPackage File Location to the VS Shell
 description: Learn how you can make it possible for Visual Studio to locate the assembly DLL to load the VSPackage.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - managed VSPackages, file location
 - VSPackages, managed package file location

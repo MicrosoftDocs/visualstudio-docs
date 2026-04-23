@@ -1,7 +1,7 @@
 ---
 title: Language Service and Editor Extension Points
 description: Learn about the extension points in the Visual Studio code editor that you can extend, including most language service features.
-ms.date: 11/04/2016
+ms.date: 10/22/2025
 ms.topic: reference
 helpviewer_keywords:
 - editors [Visual Studio SDK], new - extension points
@@ -172,7 +172,7 @@ internal static ClassificationTypeDefinition CSharpTestDefinition;
 
 - "warning"
 
-  To discover the list of available classification types, import the <xref:Microsoft.VisualStudio.Text.Classification.IClassificationTypeRegistryService>, which maintains the collection of classification types for the editor. The following code imports this service as a property.
+  To work with the list of available classification types, import the <xref:Microsoft.VisualStudio.Text.Classification.IClassificationTypeRegistryService>, which maintains the collection of classification types for the editor. The following code imports this service as a property.
 
 ```
 [Import]

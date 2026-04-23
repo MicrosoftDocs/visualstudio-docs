@@ -97,10 +97,6 @@ You can create your own code snippets and add them to the code snippets that Vis
    - *%USERPROFILE%\Documents\Visual Studio 2022\Code Snippets\Visual Basic\My Code Snippets*
    ::: moniker-end
 
-   ::: moniker range="<= vs-2019"
-   - *%USERPROFILE%\Documents\Visual Studio 2019\Code Snippets\Visual C#\My Code Snippets*
-   - *%USERPROFILE%\Documents\Visual Studio 2019\Code Snippets\Visual Basic\My Code Snippets*
-   ::: moniker-end
 
 1. Test your snippet by opening a C# or Visual Basic project. With a code file open in the editor, take one of the following actions:
 
@@ -121,10 +117,6 @@ The description field provides more information about your code snippet when vie
    - *%USERPROFILE%\Documents\Visual Studio 2022\Code Snippets\Visual Basic\My Code Snippets/SquareRoot.snippet*
    ::: moniker-end
 
-   ::: moniker range="<= vs-2019"
-   - *%USERPROFILE%\Documents\Visual Studio 2019\Code Snippets\Visual C#\My Code Snippets/SquareRoot.snippet*
-   - *%USERPROFILE%\Documents\Visual Studio 2019\Code Snippets\Visual Basic\My Code Snippets/SquareRoot.snippet*
-   ::: moniker-end
 
    > [!TIP]
    > Because you're editing the file in the directory where Visual Studio placed it, you don't need to reimport it to Visual Studio.

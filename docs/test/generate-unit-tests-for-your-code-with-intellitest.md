@@ -1,8 +1,8 @@
 ---
 title: Generate unit tests for your code with IntelliTest
 description: IntelliTest explores your .NET code to generate test data and a suite of unit tests. Learn how to run IntelliTest to generate smart fuzz tests that cover all your logic branches, see which tests are failing, and fix them. 
-ms.date: 10/11/2024
-ms.topic: conceptual
+ms.date: 12/11/2025
+ms.topic: how-to
 f1_keywords:
 - vs.UnitTest.CreateIntelliTest
 ms.author: mikejo
@@ -16,6 +16,13 @@ IntelliTest explores your .NET code to generate test data and a suite of unit te
 
 When you run IntelliTest, you can easily see which tests are failing and add any necessary code to fix them. You can select which of the generated tests to save into a test project to provide a regression suite. As you change your code, rerun IntelliTest to keep the generated tests in sync with your code changes.
 
+::: moniker range="visualstudio"
+[!INCLUDE [intellitest-deprecation](includes/intellitest-deprecation.md)]
+::: moniker-end
+::: moniker range="vs-2022"
+[!INCLUDE [intellitest-visual-studio-2022](includes/intellitest-visual-studio-2022.md)]
+::: moniker-end
+
 ## Availability and extensions
 
 The **Create IntelliTest** and **Run IntelliTest** menu commands:
@@ -23,10 +30,6 @@ The **Create IntelliTest** and **Run IntelliTest** menu commands:
 * Are available only in the Enterprise Edition of Visual Studio.
 
 * Support only C# code that targets the .NET Framework.
-
-  > [!NOTE]
-  > For .NET 6 support with IntelliTest and .NET Framework support for x64 configuration, you can install the Preview version of Visual Studio Enterprise and see the [announcement
-](https://devblogs.microsoft.com/visualstudio/intellitest-simplifies-writing-and-maintaining-unit-tests/).
 
 * Are [extensible](#extend-framework) and support emitting tests in MSTest, MSTest V2, NUnit, and xUnit format.
 
@@ -40,11 +43,6 @@ To generate unit tests, your types must be public.
 
 2. Right-click on a method and choose **Run IntelliTest** to generate unit tests for the code in your method.
 
-   ::: moniker range="<=vs-2019"
-
-   ![Screenshot of right click on method to generate unit tests.](../test/media/vs-2019/run-pex.png)
-
-   ::: moniker-end
 
    ::: moniker range=">=vs-2022"
 
@@ -54,11 +52,6 @@ To generate unit tests, your types must be public.
 
    IntelliTest runs your code many times with different inputs. Each run is represented in the table showing the input test data and the resulting output or exception.
 
-   ::: moniker range="<=vs-2019"
-
-   ![Screenshot of Exploration Results window.](../test/media/vs-2019/pex-exploration-results.png)
-
-   ::: moniker-end
 
    ::: moniker range=">=vs-2022"
 
@@ -68,11 +61,6 @@ To generate unit tests, your types must be public.
 
 To generate unit tests for all the public methods in a class, simply right-click in the class rather than a specific method, and then choose **Run IntelliTest**. Use the drop-down list in the **Exploration Results** window to display the unit tests and the input data for each method in the class.
 
-::: moniker range="<=vs-2019"
-
-![Screenshot of test results to view from list.](../test/media/vs-2019/select-pex-test.png)
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
@@ -86,11 +74,6 @@ For tests that pass, check that the reported results in the result column match 
 
 1. Select the data rows that you want to save with the parameterized unit test into a test project.
 
-     ::: moniker range="<=vs-2019"
-
-     ![Screenshot of Save test results.](../test/media/vs-2019/save-pex-tests.png)
-
-     ::: moniker-end
 
      ::: moniker range=">=vs-2022"
 
@@ -100,11 +83,6 @@ For tests that pass, check that the reported results in the result column match 
 
      You can view the test project and the parameterized unit test that has been created - the individual unit tests, corresponding to each of the rows, are saved in the *.g.cs* file in the test project, and a parameterized unit test is saved in its corresponding *.cs* file. You can run the unit tests and view the results from Test Explorer just as you would for any unit tests that you created manually.
 
-     ::: moniker range="<=vs-2019"
-
-     ![Screenshot of saved tests in Solution Explorer.](../test/media/vs-2019/test-method-pex.png)
-
-     ::: moniker-end
 
      ::: moniker range=">=vs-2022"
 
@@ -122,11 +100,6 @@ For tests that pass, check that the reported results in the result column match 
 
      View the warnings to decide what you want to do.
 
-     ::: moniker range="<=vs-2019"
-
-     ![Screenshot of View warnings.](../test/media/vs-2019/pex-view-warning.png)
-
-     ::: moniker-end
 
      ::: moniker range=">=vs-2022"
 
@@ -136,11 +109,6 @@ For tests that pass, check that the reported results in the result column match 
 
 2. After you investigate the code and understand what you want to test, you can fix the warning to choose which classes to use to test the interface.
 
-     ::: moniker range="<=vs-2019"
-
-     ![Screenshot of Fix warning.](../test/media/vs-2019/pex-fix-warning.png)
-
-     ::: moniker-end
 
      ::: moniker range=">=vs-2022"
 
@@ -154,11 +122,6 @@ For tests that pass, check that the reported results in the result column match 
 
 3. Now you can rerun IntelliTest to generate a parameterized unit test and test data just using the class that you fixed.
 
-     ::: moniker range="<=vs-2019"
-
-     ![Screenshot of Rerun IntelliTest after fix.](../test/media/vs-2019/pex-warnings-fixed.png)
-
-     ::: moniker-end
 
      ::: moniker range=">=vs-2022"
 
@@ -210,11 +173,6 @@ If you add an assertion and rerun IntelliTest, it will check that your assertion
 
 **A:** Yes, right-click in the class or method, then choose **Create IntelliTest**.
 
-::: moniker range="<=vs-2019"
-
-![Screenshot of Create IntelliTest.](../test/media/vs-2019/pex-create-intellitest.png)
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
@@ -224,11 +182,6 @@ If you add an assertion and rerun IntelliTest, it will check that your assertion
 
 Accept the default format to generate your tests, or change how your project and tests are named. You can create a new test project or save your tests to an existing project.
 
-::: moniker range="<=vs-2019"
-
-![Screenshot of Create IntelliTest with MSTest default.](../test/media/vs-2019/pex-create-intellitest-mstest.png)
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
@@ -244,11 +197,6 @@ Test framework extensions are also available in Visual Studio Marketplace, for e
 
 After you restart Visual Studio and reopen your solution, right-click in the class or method, then choose **Create IntelliTest**. Select your installed framework here:
 
-::: moniker range="<=vs-2019"
-
-![Screenshot of Select other unit test framework for IntelliTest.](../test/media/vs-2019/pex-create-intellitest-extensions.png)
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 

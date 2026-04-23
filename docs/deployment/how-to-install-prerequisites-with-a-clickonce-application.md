@@ -1,7 +1,7 @@
 ---
 title: Install prerequisites with a ClickOnce app
 description: Select the appropriate prerequisite components for your configuration to package along with your ClickOnce application during installation.
-ms.date: 11/04/2016
+ms.date: 05/06/2025
 ms.topic: how-to
 f1_keywords:
 - Microsoft.VisualStudio.Publish.BaseProvider.Dialog.Bootstrapper

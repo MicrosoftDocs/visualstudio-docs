@@ -2,11 +2,11 @@
 title: The Text Template Transformation Process
 description: Learn that the text template transformation process takes a text template file as the input and generates a new text file as the output.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - text templates, transformation process
-author: mgoertz-msft
-ms.author: mgoertz
+author: jekelly
+ms.author: jekelly
 manager: mijacobs
 ms.subservice: modeling
 ---

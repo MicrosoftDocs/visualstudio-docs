@@ -28,9 +28,7 @@ Install third-party unit test frameworks by using **NuGet Package Manager**:
    ::: moniker range=">=vs-2022"
    :::image type="content" source="media/vs-2022/nuget-package-manager.png" alt-text="Screenshot of NuGet Package Manager in Visual Studio 2022.":::
    ::: moniker-end
-   ::: moniker range="vs-2019"
-   :::image type="content" source="media/vs-2019/nuget-package-manager.png" alt-text="Screenshot of NuGet Package Manager in Visual Studio 2019.":::
-   ::: moniker-end
+
 
 1. Select the framework and then select **Install**.
 
@@ -53,13 +51,7 @@ Update to the latest stable test adapter to experience better test discovery and
    If the **Preview changes** dialog opens, confirm your selection, and select **Apply**. Accept any licensing changes, as needed.
 
    ::: moniker-end
-   ::: moniker range="vs-2019"
 
-   :::image type="content" source="media/install-adapter-upgrade.png" alt-text="Screenshot of Upgrade Test Adapter in Visual Studio 2019.":::
-
-   Select **Install**.
-
-   ::: moniker-end
 
 ## Related content
 

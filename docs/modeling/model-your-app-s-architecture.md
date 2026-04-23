@@ -2,11 +2,11 @@
 title: Model your app&apos;s architecture
 description: Learn how you can create models in Visual Studio as part of your description of the overall structure and behavior of your software system or application.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - UML, modeling architecture
-author: mgoertz-msft
-ms.author: mgoertz
+author: jekelly
+ms.author: jekelly
 manager: mijacobs
 ms.subservice: modeling
 ---

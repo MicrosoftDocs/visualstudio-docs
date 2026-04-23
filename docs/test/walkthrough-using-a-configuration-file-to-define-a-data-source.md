@@ -2,7 +2,7 @@
 title: Use config file to define data source
 description: Learn how to use a data source defined in an app.config file for unit testing, starting with creating an app.config file that defines a data source.
 ms.date: 03/18/2022
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - configuration files [Visual Studio ALM], defining data sources
 - unit tests, walkthrough

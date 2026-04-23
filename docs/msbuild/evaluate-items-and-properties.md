@@ -1,7 +1,7 @@
 ---
 title: Evaluate MSBuild items and properties
 description: Execute MSBuild to evaluate items and properties, without necessarily running a full build, or get the results of running a specific target or targets.
-ms.date: 11/30/2023
+ms.date: 11/13/2025
 ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, getProperty

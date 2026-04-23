@@ -2,7 +2,7 @@
 title: "Measure performance from the command line"
 description: Measure your application performance from the command line, and gather performance data for CPU usage, .NET memory allocation, instrumentation, and database queries.
 ms.date: 02/06/2025
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords: 
   - "Profiling Tools, command-line"
   - "Diagnostics Tools, command-line"
@@ -11,7 +11,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
-monikerRange: '>= vs-2019'
+monikerRange: '>= vs-2022'
 ---
 # Measure application performance from the command line
 
@@ -28,7 +28,7 @@ In the example described in this article, you collect performance information fo
 
 * Familiarity with command-line tools
 
-* To collect performance information on a remote machine without Visual Studio installed, install the [Remote Tools for Visual Studio](https://visualstudio.microsoft.com/downloads/#remote-tools-for-visual-studio-2019) on the remote machine. The version of the tools must match your version of Visual Studio.
+* To collect performance information on a remote machine without Visual Studio installed, install the [Remote Tools for Visual Studio](https://visualstudio.microsoft.com/downloads/#remote-tools-for-visual-studio-2022) on the remote machine. The version of the tools must match your version of Visual Studio.
 
 Most of the collection agents support .NET Core, .NET 5+, .NET Framework, and C++. However, support is limited to the support provided by the corresponding performance tool. For example, the [Database](../profiling/analyze-database.md) collection agent is limited to .NET Core and .NET 5+.
 
@@ -46,18 +46,14 @@ Profiling using the Visual Studio Diagnostics CLI tools works by attaching the p
    ::: moniker range="vs-2022"
    `<Visual Studio installation folder>\2022\Enterprise\Team Tools\DiagnosticsHub\Collector\`
    ::: moniker-end
-   ::: moniker range="vs-2019"
-   `<Visual Studio installation folder>\2019\Enterprise\Team Tools\DiagnosticsHub\Collector\`
-   ::: moniker-end
+
 
    For the remote tools, the collection agent executable is in this location:
 
    ::: moniker range=">= vs-2022"
    `Program Files\Microsoft Visual Studio 17.0\Team Tools\DiagnosticsHub\Collector\`
    ::: moniker-end
-   ::: moniker range="vs-2019"
-   `Program Files\Microsoft Visual Studio 16.0\Team Tools\DiagnosticsHub\Collector\`
-   ::: moniker-end
+
 
    > [!NOTE]
    > When using the command line in remote scenarios, you need to run the command-line instructions on the remote machine. If you want to attach to the remote machine from Visual Studio, use the Performance Profiler in Visual Studio instead.

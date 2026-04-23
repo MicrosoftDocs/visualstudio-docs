@@ -14,7 +14,7 @@ helpviewer_keywords:
 author: ghogen
 ms.author: ghogen
 manager: mijacobs
-monikerRange: '>= vs-2019'
+monikerRange: '>= vs-2022'
 ms.subservice: deployment
 ms.custom: sfi-image-nochange
 ---

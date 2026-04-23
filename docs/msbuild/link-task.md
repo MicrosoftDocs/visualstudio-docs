@@ -1,6 +1,6 @@
 ---
 title: Link Task
-description: Learn how MSBuild uses the Link task to wrap the Microsoft C++ linker tool, link.exe, which links COFF object files and libraries.
+description: Learn how MSBuild uses the Link task to wrap the Microsoft C++ Linker tool, link.exe, which links COFF object files and libraries.
 ms.date: 11/04/2016
 ms.topic: reference
 f1_keywords:
@@ -31,7 +31,7 @@ ms.subservice: msbuild
 
 [!INCLUDE [C++-specific task](./includes/cpp-task.md)]
 
-Wraps the Microsoft C++ linker tool, *link.exe*. The linker tool links Common Object File Format (COFF) object files and libraries to create an executable (*.exe*) file or a dynamic-link library (DLL). For more information, see [Linker options](/cpp/build/reference/linker-options) and [Use MSBuild from the command line](/cpp/build/msbuild-visual-cpp) and [Use the Microsoft C++ toolset from the command line](/cpp/build/building-on-the-command-line).
+Wraps the Microsoft C++ Linker tool, *link.exe*. The linker tool links Common Object File Format (COFF) object files and libraries to create an executable (*.exe*) file or a dynamic-link library (DLL). For more information, see [Linker options](/cpp/build/reference/linker-options) and [Use MSBuild from the command line](/cpp/build/msbuild-visual-cpp) and [Use the Microsoft C++ toolset from the command line](/cpp/build/building-on-the-command-line).
 
 ## Parameters
 

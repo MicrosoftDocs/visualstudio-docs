@@ -5,7 +5,7 @@ ms.author: amast
 manager: shve
 ms.assetid: 4e529a43-7aed-4eee-895d-862a631952df
 ms.date: 01/28/2025
-ms.topic: conceptual
+ms.topic: how-to
 description: Assign license subscriptions to users (subscribers) in the Subscriptions Admin Portal, set up email notifications, and send assignment messages.
 ms.custom: sfi-image-nochange
 ---

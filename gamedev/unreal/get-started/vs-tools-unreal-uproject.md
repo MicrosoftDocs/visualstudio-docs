@@ -1,7 +1,7 @@
 ---
 title: "Open Unreal Engine projects in Visual Studio"
 description: "Learn how to work with native Unreal Engine projects from within Visual Studio."
-ms.date: 10/30/2024
+ms.date: 07/28/2025
 ms.topic: how-to
 ms.service: visual-studio
 ms.subservice: unreal-engine-tools
@@ -13,7 +13,7 @@ manager: Coxford
 
 # Open Unreal Engine projects in Visual Studio
 
-Visual Studio 2022 version 17.12 provides direct support for Unreal Engine projects.
+Visual Studio 2022 version 17.12, and later, provides direct support for Unreal Engine projects.
 
 Previously, you had to generate a Microsoft Visual Studio project before you could work with an Unreal Engine project in Visual Studio. That process was cumbersome. And whenever a new asset was added from within the Unreal Engine Editor, or by another team member, the Visual Studio project had to be regenerated to stay in sync with the Unreal Engine project.
 
@@ -53,7 +53,7 @@ In this example, we use the Lyra game project to demonstrate opening a native Un
     There's a message at the top of the editor that other build systems are disabled because an Unreal Engine project is open. The **Output** window shows some last messages about the project workspace being set up. To the right is the solution explorer and it shows the folders and files in the Lyra game sample such as Platforms, Plugins, Source, and so on.
     :::image-end:::
 
-A message appears the Unreal Engine project support is activated and that other build systems like CMake and MSBUILD are disabled. You can dismiss this message by clicking the **X** in the corner of the message.
+A message may appear that Unreal Engine project support is activated and that other build systems like CMake and MSBUILD are disabled.
 
 ## View the project in the Solution Explorer
 
@@ -69,7 +69,7 @@ Visual Studio provides an Unreal Engine project configuration page. This page sh
 
 To access this page from the Visual Studio main menu, choose **Project** > **Configure Tools for Unreal Engine**:
 
-:::image type="complex" source="../media/vs-unreal-engine-configuration-page.png" alt-text="A screenshot of the Unreal Engine project configuration page.":::
+:::image type="complex" source="../media/vs-unreal-engine-configuration-page.png" alt-text="A screenshot of the Unreal Engine project configuration page." lightbox="../media/vs-unreal-engine-configuration-page.png":::
 The configuration page has a red/green status indicator and a refresh button for options such as Overall Configuration Status, Unreal Build Tool Status, Unreal Engine Targets, Blueprint Support, Visual Studio Integration Tool Status, and so on.
 :::image-end:::
 
@@ -89,21 +89,21 @@ In the **Output** window, messages appear while readying the Unreal Engine Build
 
 When you build an Unreal Engine project, there are different build configurations, called *targets*, that you can choose.
 
-The **Unreal Engine Targets** option is where you generate those targets. Choose the refresh icon to refresh the list of Unreal Engine targets and open the window where you can select the target configurations you want to create:
+The **Unreal Engine Targets** option is where you generate those targets. Choose the refresh icon to refresh the list of Unreal Engine targets.
 
 :::image type="complex" source="../media/vs-unreal-engine-targets-configuration.png" alt-text="A screenshot of the Unreal Engine Build Targets combinations window." lightbox="../media/vs-unreal-engine-targets-configuration.png":::
 There are three configuration option dropdowns and an **Add** and a **Generate Targets** button. The refresh button near the top is also highlighted.
 :::image-end:::
 
-For more information about target combinations, see Unreal Engine's documentation [Build Configuration Descriptions](https://dev.epicgames.com/documentation/en-us/unreal-engine/build-configurations-reference-for-unreal-engine?application_version=5.4).
-
 In this example, **LyraClient**, **DebugGame**, and **Win64** are selected in the dropdowns.
-1. Choose **Add** to add them to the list of configurations to generate.
+1. Choose **Add** to add this target to the list of configurations to generate.
 1. Choose **Generate Targets** to create the selected configurations for each configuration that has its checkbox selected.
 
 Once the targets are generated, you can select them as described in [Choose the build configuration](#choose-the-build-configuration). Watch for errors in the output window when you generate targets because some combinations may not be supported.
 
 You can remove targets by unchecking the ones you don't want and then selecting the **Generate Targets** button. When you select **Generate Targets**, targets that aren't selected are removed, though they won't disappear from this list until you reload the project.
+
+For more information about target combinations, see Unreal Engine's documentation [Build Configuration Descriptions](https://dev.epicgames.com/documentation/en-us/unreal-engine/build-configurations-reference-for-unreal-engine?application_version=5.4).
 
 ## Edit target properties
 

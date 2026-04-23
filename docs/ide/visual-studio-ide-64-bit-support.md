@@ -2,13 +2,13 @@
 title: Configure apps to target platforms like 64-bit
 description: Set up your applications in the Visual Studio integrated development environment (IDE) to target different platforms, including 64-bit platforms.
 ms.date: 07/19/2021
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - 64-bit applications [C++]
 - Visual Studio, 64-bit support
 - 64-bit programming [C++]
-author: anandmeg
-ms.author: meghaanand
+author: ghogen
+ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
 ---

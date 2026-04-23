@@ -1,8 +1,8 @@
 ---
 title: Capture & edit desktop app UI with XAML Live Preview
 description: Pair XAML Live Preview with XAML Hot Reload to capture desktop app UI, make iterative changes in Visual Studio, and view your changes in real time.
-ms.date: 04/24/2025
-ms.topic: conceptual
+ms.date: 04/17/2026
+ms.topic: how-to
 helpviewer_keywords:
   - "xaml edit"
   - "xaml live preview"
@@ -10,7 +10,7 @@ author: maddymontaquila
 ms.author: maleger
 manager: mijacobs
 ms.subservice: xaml-tools
-monikerRange: vs-2022
+monikerRange: ">=vs-2022"
 ---
 # XAML Live Preview: Capture and edit desktop app UI
 
@@ -28,7 +28,13 @@ Starting in Visual Studio 2022 version 17.14, XAML Live Preview and [XAML Hot Re
 
 Or, select the **Show in XAML Live Preview** button in the application toolbar.
 
+:::moniker range="visualstudio"
+:::image type="content" source="media/visualstudio/xaml-live-preview-toolbar.png" alt-text="Screenshot of the XAML Live Preview option from the application toolbar.":::
+:::moniker-end
+
+:::moniker range="vs-2022"
 :::image type="content" source="media/vs-2022/xaml-live-preview-toolbar.png" alt-text="Screenshot of the XAML Live Preview option from the application toolbar.":::
+:::moniker-end
 
 ### Scrolling and zooming
 
@@ -52,6 +58,19 @@ Element selection in XAML Live Preview is similar to selection in a running appl
 
 :::image type="content" source="media/vs-2022/xaml-live-preview-element-selection.gif" alt-text="An animation of the element selection action in XAML Live Preview.":::
 
+:::moniker range="visualstudio"
+
+Element selection is controlled by the first two toolbar buttons (from left to right).
+
+:::image type="content" source="media/visualstudio/xaml-live-preview-toolbar-selection.png" alt-text="Screenshot of the XAML Live Preview toolbar buttons for element selection.":::
+
+The toolbar buttons produce the following actions:
+
+- **Show element info during selection** is a toggle button that controls the display of size, color, and font information about the element under your mouse.
+- **Show Just My XAML** is a toggle button that controls which elements to highlight: all, or only those elements with source XAML available in solution. This behavior is the same as that in Live Visual Tree.
+:::moniker-end
+
+:::moniker range="vs-2022"
 Element selection is controlled by the first four toolbar buttons (from left to right).
 
 :::image type="content" source="media/vs-2022/xaml-live-preview-toolbar-selection.png" alt-text="Screenshot of the XAML Live Preview toolbar buttons for element selection.":::
@@ -62,6 +81,7 @@ The toolbar buttons produce the following actions:
 - **Show element info during selection** is a toggle button that controls the display of size, color, and font information about the element under your mouse.
 - **Just My XAML** is a toggle button that controls which elements to highlight: all, or only those elements with source XAML available in solution. This behavior is the same as that in Live Visual Tree.
 - **Preview Selected Item** is a toggle button that controls navigation to source XAML when an element is selected. It's off by default. This behavior is the same as that in Live Visual Tree.
+:::moniker-end
 
 ### Rulers
 
@@ -71,6 +91,17 @@ Rulers help you align elements in your application. They display distance, in ap
 
 The second group of toolbar buttons control the rulers, as follows (from left to right):
 
+:::moniker range="visualstudio"
+:::image type="content" source="media/visualstudio/xaml-live-preview-toolbar-rulers.png" alt-text="Screenshot of the second group of rulers toolbar buttons in XAML Live Preview.":::
+
+- **Select ruler color**. Changes the color of the rulers.
+- **Add vertical ruler**. Adds a single vertical ruler. If you click this button few times in a row, it will place new rulers so that they don't overlap existing rulers.
+- **Add horizontal ruler**. Adds a single horizontal ruler, similar to the vertical ruler.
+- **Remove all rulers**. Removes all rulers at time.
+- **Toggle ruler visibility**. Hides or shows all rulers with a single click.
+:::moniker-end
+
+:::moniker range="vs-2022"
 :::image type="content" source="media/vs-2022/xaml-live-preview-toolbar-rulers.png" alt-text="Screenshot of the second group of rulers toolbar buttons in XAML Live Preview.":::
 
 - **Add vertical ruler**. Adds a single vertical ruler. If you click this button few times in a row, it will place new rulers so that they don't overlap existing rulers.
@@ -78,6 +109,9 @@ The second group of toolbar buttons control the rulers, as follows (from left to
 - **Remove all rulers**. Removes all rulers at time.
 - **Select ruler color**. Changes the color of the rulers.
 - **Toggle ruler visibility**. Hides or shows all rulers with a single click.
+:::moniker-end
+
+
 
 Rulers are keyboard-friendly. You can tab around them. You can use arrow keys to move rulers one pixel at a time, or press **Ctrl** paired with arrow keys to move them by 10 app units at a time. The **Del** key deletes the currently selected ruler. You can also delete a ruler with a mouse by selecting the **Delete Ruler** button near the label.
 

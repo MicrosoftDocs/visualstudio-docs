@@ -3,14 +3,14 @@ title: Using Visual Studio on an Azure Virtual Machine
 titleSuffix: ''
 description: Use Visual Studio on an Azure virtual machine with system images for different Visual Studio configurations in the Azure Marketplace.
 ms.date: 4/9/2025
-ms.topic: conceptual
+ms.topic: concept-article
 helpviewer_keywords:
 - azure services
 - virtual machine
 - installation
 - visual studio
-author: anandmeg
-ms.author: meghaanand
+author: RoseHJM
+ms.author: rosemalcolm
 manager: mijacobs
 
 ms.subservice: installation

@@ -2,7 +2,7 @@
 title: "Securing ClickOnce Applications"
 description: Learn about the implications of code access security constraints in the .NET Framework that can limit access to code for your ClickOnce applications.
 ms.date: "02/17/2017"
-ms.topic: "conceptual"
+ms.topic: concept-article
 dev_langs:
   - "VB"
   - "CSharp"
@@ -72,7 +72,7 @@ ClickOnce applications are subject to code access security constraints in the .N
 > Query-string arguments are the only way to pass arguments to a ClickOnce application at startup. You can't pass arguments to a ClickOnce application from the command line.
 
 ## Deploying obfuscated assemblies
- Visual Studio includes the free [PreEmptive Protection - Dotfuscator Community](../ide/dotfuscator/index.md), which you can use to protect your ClickOnce applications through code obfuscation and active protection measures.  For details, please see [the ClickOnce section of the Dotfuscator Community User Guide](https://www.preemptive.com/dotfuscator/ce/docs/help/5.27/advanced_clickonce.html).
+ Visual Studio includes the free [PreEmptive Protection - Dotfuscator Community](../ide/dotfuscator/index.md), which you can use to protect your ClickOnce applications through code obfuscation and active protection measures.
 
 ## Related content
 - [ClickOnce security and deployment](../deployment/clickonce-security-and-deployment.md)

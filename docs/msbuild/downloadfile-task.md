@@ -35,7 +35,7 @@ The following table describes the parameters of the `DownloadFile` task.
 |Parameter|Description|
 |---------------|-----------------|
 |`DestinationFileName`|Optional <xref:Microsoft.Build.Framework.ITaskItem> parameter<br /><br /> The name to use for the downloaded file.  By default, the file name is derived from the `SourceUrl` or the remote server.|
-|`DestinationFolder`|Required <xref:Microsoft.Build.Framework.ITaskItem> parameter.<br /><br /> Specifies the destination folder to download the file to.  If folder is created if it does not exist.|
+|`DestinationFolder`|Required <xref:Microsoft.Build.Framework.ITaskItem> parameter.<br /><br /> Specifies the destination folder to download the file to.  The folder is created if it does not exist.|
 |`DownloadedFile`|Optional <xref:Microsoft.Build.Framework.ITaskItem> output parameter.<br /><br /> Specifies the file that was downloaded.|
 |`Retries`|Optional `Int32` parameter.<br /><br /> Specifies how many times to attempt to download, if all previous attempts have failed. Defaults to zero.|
 |`RetryDelayMilliseconds`|Optional `Int32` parameter.<br /><br /> Specifies the delay in milliseconds between any necessary retries. Defaults to 5000.|

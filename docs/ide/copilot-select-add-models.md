@@ -4,8 +4,8 @@ description: Learn how to use built-in models or bring your own model (BYOM) in 
 ms.date: 8/19/2025
 ms.update-cycle: 180-days
 ms.topic: get-started
-author: anandmeg
-ms.author: meghaanand
+author: RoseHJM
+ms.author: rosemalcolm
 ms.manager: mijacobs
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot

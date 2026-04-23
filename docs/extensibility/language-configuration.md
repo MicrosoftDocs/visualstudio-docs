@@ -1,7 +1,7 @@
 ---
 title: Add language-specific syntax support in a Visual Studio extension by using Language Configuration
 description: Explore the functionality and benefits of Language Configuration, which is a useful framework for providing language-specific syntax support for programming languages in the Visual Studio editor.
-ms.date: 2/1/2024
+ms.date: 11/06/2025
 ms.topic: how-to
 author: tinaschrepfer
 ms.author: tinali
@@ -129,7 +129,16 @@ When you move the cursor to a bracket defined here, Visual Studio highlights tha
 }
 ```
 
-The relevant setting in the Visual Studio **Tools > Options** dialog, in **Text Editor, General, Display**, is the checkbox **Enable brace pair colorization**.
+:::moniker range="visualstudio"
+
+In the **Tools > Options** pane, the relevant setting is the **Enable brace pair colorization** option, located under **All Settings** > **Text Editor** > **General** > **Display**.
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+      
+In the **Tools > Options** dialog, the relevant setting is the **Enable brace pair colorization** option, located under **Text Editor** > **General** > **Display**.
+
+:::moniker-end
 
 #### Autoclosing
 
@@ -157,7 +166,7 @@ The `notIn` key disables this feature in certain code ranges. For example, when 
 `ES6's Template String`;
 ```
 
-The single quote is not autoclosed.
+The single quote isn't autoclosed.
 
 Pairs that don't require a `notIn` property can also use a simpler syntax:
 
@@ -169,7 +178,7 @@ Pairs that don't require a `notIn` property can also use a simpler syntax:
 
 ##### Autoclosing before
 
-By default, Visual Studio only autocloses pairs if there's whitespace right after the cursor. So, when you type `{` in the following JSX code, you would not get autoclose:
+By default, Visual Studio only autocloses pairs if there's whitespace right after the cursor. So, when you type `{` in the following JSX code, you don't get autoclose:
 
 ```js
 const Component = () =>
@@ -205,7 +214,16 @@ When you select a range in Visual Studio and enter an opening bracket, Visual St
 }
 ```
 
-The relevant setting in Visual Studio **Tools > Options** is in **Text Editor, General, Display** the checkbox **Automatically surround selections when typing quotes or brackets**.
+:::moniker range="visualstudio"
+
+In the **Tools > Options** pane, the relevant setting is the **Automatically surround selections when typing quotes or brackets** option, located under **All Settings** > **Text Editor** > **General** > **Display**.
+
+:::moniker-end
+:::moniker range="<=vs-2022"
+      
+In the **Tools > Options** dialog, the relevant setting is the **Automatically surround selections when typing quotes or brackets** option, located under **Text Editor** > **General** > **Display**.
+
+:::moniker-end
 
 #### Word pattern
 
@@ -242,7 +260,7 @@ In addition to `increaseIndentPattern` and `decreaseIndentPatter`, there are two
 - `indentNextLinePattern` - If a line matches this pattern, then **only the next line** after it should be indented once.
 - `unIndentedLinePattern` - If a line matches this pattern, then its indentation shouldn't be changed and it shouldn't be evaluated against the other rules.
 
-If there's no indentation rule set for the programming language, the editor indents when the line ends with an open bracket and unindents when you type a closing bracket. The bracket here is defined by `brackets`.
+If there's no indentation rule set for the programming language, the editor indents when the line ends with an open bracket and unindents when you type a closing bracket. The bracket here's defined by `brackets`.
 
 #### Pressing Enter
 
@@ -283,7 +301,7 @@ Include in VSIX = True
 Copy to output = Copy always 
 ```
 
-## (optional) Add a grammar file
+## (Optional) Add a grammar file
 
 In addition, you can add a TextMate grammar file to provide syntax coloring for the language. TextMate grammars are a structured collection of regular expressions and are written as a plist (XML) or JSON files. See [Language Grammars](https://macromates.com/manual/en/language_grammars). If you don't provide a language-specific grammar file, a built-in default setting is used.
 

@@ -2,7 +2,7 @@
 title: Hitting a Breakpoint
 description: This article describes the process that takes place when the debug engine hits a breakpoint while running or stepping.
 ms.date: 11/04/2016
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
 - debugging [Debugging SDK], hitting breakpoints
 - breakpoints, hitting

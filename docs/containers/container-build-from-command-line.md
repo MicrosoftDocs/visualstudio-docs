@@ -3,9 +3,10 @@ title: Build a containerized Visual Studio project from the command line
 author: ghogen
 description: Build a container project in Visual Studio using the command line, either with MSBuild.exe or using Docker build, and learn how to enable detailed build logs.
 ms.author: ghogen
-ms.date: 9/10/2025
+ms.date: 04/02/2026
 ms.subservice: container-tools
 ms.topic: how-to
+ms.custom: awp-ai
 ---
 
 # Build a container project from the command line
@@ -22,16 +23,13 @@ If you want to build a container project with a Dockerfile outside of Visual Stu
 If you're using the .NET SDK build type, you don't have a Dockerfile, so you can't use `docker build`; instead, use `dotnet publish /t:PublishContainer` to build on the command line.
 :::moniker-end
 
-:::moniker range="vs-2019"
-If you want to build a container project with a Dockerfile outside of Visual Studio, you can use `docker build` or `dotnet publish /t:PublishContainer` to build from the command line.
-:::moniker-end
 
 :::moniker range="visualstudio"
 
 ## Prerequisites
 
 - [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows) or [Podman Desktop](https://podman-desktop.io/downloads).
-- [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta), or for Podman support, [Visual Studio (Insiders)](https://visualstudio.microsoft.com/insiders/?cid=learn-onpage-download-cta), with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET desktop development** workload installed.
+- [Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-cta), or for Podman support, [Visual Studio 2026](https://aka.ms/vs/download/?cid=learn-onpage-download-cta), with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET desktop development** workload installed.
 
 :::moniker-end
 ::: moniker range="vs-2022"
@@ -39,18 +37,10 @@ If you want to build a container project with a Dockerfile outside of Visual Stu
 ## Prerequisites
 
 - [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows).
-- [Visual Studio](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET desktop development** workload installed.
+- [Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET desktop development** workload installed.
 
 :::moniker-end
 
-::: moniker range="vs-2019"
-
-## Prerequisites
-
-- [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows)
-- [Visual Studio 2019 or later](https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, **.NET desktop development**, and/or **.NET Core cross-platform development** workload installed.
-
-:::moniker-end
 
 :::moniker range="<=vs-2022"
 ## Use Docker build
@@ -127,7 +117,7 @@ MSBuild MyProject.csproj /t:ContainerBuild /p:Configuration=Release
 
 You see output similar to what you see in the **Output** window when you build your solution from the Visual Studio IDE. Always use `/p:Configuration=Release`, since in cases where Visual Studio uses the multistage build optimization, results when building the **Debug** configuration might not be as expected. See [Customize container images for debugging](container-debug-customization.md).
 
-If you're using a Docker Compose project, use this command to build images:
+If you're using a Docker Compose project (using either Docker Compose or Podman Compose as the runtime), use this command to build images:
 
 ```cmd
 msbuild /p:SolutionPath=<solution-name>.sln /p:Configuration=Release docker-compose.dcproj

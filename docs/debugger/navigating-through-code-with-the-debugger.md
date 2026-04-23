@@ -1,7 +1,7 @@
 ---
 title: "Navigate code with the debugger"
 description: "Learn how to use the Visual Studio debugger to troubleshoot your code. Topics include entering break mode, stepping through code, and running to a target."
-ms.date: 06/09/2025
+ms.date: 01/27/2026
 ms.topic: how-to
 f1_keywords: 
   - vs.debug.execution
@@ -25,7 +25,7 @@ The Visual Studio debugger can help you navigate through code to inspect the sta
 
 Some navigation commands start your app and automatically attach the debugger. Your app pauses on a specific line of code based on the command you used to start navigation, and you enter *break mode* (that is, your app is paused in the debugger).
 
-In break mode, app execution is suspended while functions, variables, and objects remain in memory. When the debugger is in break mode, you can navigate through your code. There are two very common ways to quickly enter break mode:
+In break mode, app execution is suspended while functions, variables, and objects remain in memory. When the debugger is in break mode, you can navigate through your code. There are two common ways to quickly enter break mode:
 
 - [Set a breakpoint](#run-to-a-breakpoint-in-code) and start your app.
 
@@ -33,11 +33,6 @@ In break mode, app execution is suspended while functions, variables, and object
 
    For example, in the code editor in Visual Studio, you can use the **Run To Cursor** command to start the app, with the debugger attached, and enter break mode. Then you can use step commands to navigate the code.
 
-   ::: moniker range="vs-2019"
-
-   ![Animation that shows selecting Run To Cursor and then F11.](../debugger/media/vs-2019/navigate-code-code-stepping.gif)
-
-   ::: moniker-end
 
    ::: moniker range=">=vs-2022"
 
@@ -78,7 +73,7 @@ The debugger steps through code statements, not physical lines. For example, an 
   ```csharp
   int x = 42;
   string s = "Not answered";
-  if( int x == 42) s = "Answered!";
+  if( x == 42) s = "Answered!";
   ```
 
   ### [VB](#tab/vb)
@@ -98,11 +93,11 @@ On a nested function call, **Step Into** steps into the most deeply nested funct
 
 ### <a name="BKMK_Step_over_Step_out"></a> Step through code and skip some functions
 
-You might not care about a function when you're debugging. Or you might know some code works, like well-tested library code. You can use the following commands to skip code when you're code stepping. The functions still run, but the debugger skips over them.
+You might not care about a function while you're debugging. Or you might know some code works, like well-tested library code. You can use the following commands to skip code while you're stepping through code. The functions still run, but the debugger skips over them.
 
 |Keyboard command|Debug menu command|Description|
 |----------------------|------------------|-----------------|
-|**F10**|**Step Over**|If the current line contains a function call, **Step Over** runs the code and then suspends execution at the first line of code after the called function returns.|
+|**F10**|**Step Over**|If the current line contains a function call, **Step Over** runs the code, and then suspends execution at the first line of code after the called function returns.|
 |**Shift**+**F11**|**Step Out**|**Step Out** continues running code and suspends execution when the current function returns. The debugger skips through the current function.|
 
 ## Run to a specific location or function
@@ -116,11 +111,6 @@ You might prefer to run directly to a specific location or function when you kno
 
 To set a simple breakpoint in your code, select the far-left margin next to the line of code where you want to suspend execution. You can also select the line and then select **F9**, select **Debug** > **Toggle Breakpoint**, or right-click and select **Breakpoint** > **Insert Breakpoint**. The breakpoint appears as a red dot in the left margin next to the line of code. The debugger suspends execution just before the line runs.
 
-::: moniker range="<=vs-2019"
-
-![Screenshot that shows how to set a breakpoint.](../debugger/media/vs-2019/dbg-basics-set-breakpoint.png)
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
@@ -140,11 +130,6 @@ To specify a function breakpoint by name:
 
 1. In the **New Function Breakpoint** dialog, enter the name of the function and select its language:
 
-   ::: moniker range="<=vs-2019"
-
-   ![Screenshot that shows the New Function Breakpoint dialog.](../debugger/media/vs-2019/dbg-execution-new-breakpoint.png)
-
-   ::: moniker-end
 
    ::: moniker range=">=vs-2022"
 
@@ -156,11 +141,6 @@ To specify a function breakpoint by name:
 
 If the function is overloaded or in more than one namespace, you can choose the one you want in the **Breakpoints** window:
 
-::: moniker range="<=vs-2019"
-
-![Screenshot that shows breakpoints window.](../debugger/media/vs-2019/dbg-execution-overloaded-breakpoints.png)
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 
@@ -211,7 +191,20 @@ To break into the next available line of code in a running app, select **Debug**
 
 By default, the debugger tries to debug only your app code by enabling a setting called *Just My Code*. For details about how this feature works for various project types and languages, and how you can customize it, see [Just My Code](../debugger/just-my-code.md).
 
-To look at framework code, third-party library code, or system calls while debugging, you can disable Just My Code. In **Tools** (or **Debug**) > **Options** > **Debugging**, clear the **Enable Just My Code** checkbox. When Just My Code is disabled, non-user code appears in the debugger windows, and the debugger can step into the non-user code.
+To look at framework code, non-Microsoft library code, or system calls while debugging, you can disable the Just My Code feature.
+
+::: moniker range="visualstudio"
+
+Open the **Tools** (or **Debug**) > **Options** pane, expand the **All Settings** > **Debugging** > **General** section, and clear the **Enable Just My Code** checkbox.
+
+::: moniker-end
+::: moniker range="<=vs-2022"
+
+Open the **Tools** (or **Debug**) > **Options** dialog, expand the **Debugging** > **General** section, and clear the **Enable Just My Code** checkbox.
+
+::: moniker-end
+
+When Just My Code is disabled, non-user code appears in the debugger windows, and the debugger can step into the non-user code.
 
 > [!NOTE]
 > Just My Code isn't supported for device projects.

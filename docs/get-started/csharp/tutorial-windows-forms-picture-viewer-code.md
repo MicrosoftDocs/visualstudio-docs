@@ -4,12 +4,12 @@ description: Learn how to add C# or VB code to support the UI controls for a pic
 dev_langs:
   - "CSharp"
   - "VB"
-author: anandmeg
-ms.author: meghaanand
+author: MikeJo5000
+ms.author: mikejo
 manager: mijacobs
 ms.subservice: general-ide
 ms.topic: tutorial
-ms.date: 09/19/2024
+ms.date: 02/13/2026
 ms.custom: vs-acquisition
 #customer intent: As a developer, I want to learn how to add C# or VB code to my WinForms project to take actions when a user selects a control.
 ---
@@ -28,7 +28,7 @@ In this third tutorial, you learn how to:
 > - Write code for the other controls
 > - Run your application
 
-To create a new Windows Forms App with .NET, follow the tutorial [Create a Windows Forms app with .NET](/dotnet/desktop/winforms/get-started/create-app-visual-studio/). See the [Desktop Guide on Windows Forms .NET](/dotnet/desktop/winforms/overview/) to learn more.
+For more information, see [Desktop Guide on Windows Forms .NET](/dotnet/desktop/winforms/overview/).
 
 ## Prerequisites
 
@@ -71,7 +71,7 @@ Your application calls an event handler when an action takes place, such as sele
    ```
    ---
 
-1. Choose the **Windows Forms Designer** tab again, and then double-click the **Clear the picture** button to open its code.
+1. Choose the **Windows Forms Designer** tab again. Double-click the **Clear the picture** button to open its code.
    Repeat for the remaining two buttons.
    Each time, the Visual Studio IDE adds a new method to the form's code file.
 
@@ -111,7 +111,7 @@ As you type, IntelliSense suggests possible code.
 
    :::image type="content" source="../media/tutorial-windows-forms-picture-viewer-code/intellisense-window.png" alt-text="Screenshot shows IntelliSense with Visual C sharp code.":::
 
-1. The **IntelliSense** window should highlight the word `if`. Select the **Tab** key twice to insert the `if` snippet.
+1. **IntelliSense** should highlight the word `if`. Select the **Tab** key twice to insert the `if` snippet.
 
 1. Select **true** and then type `op` to overwrite it for C# or `Op` for Visual Basic.
 
@@ -136,11 +136,11 @@ As you type, IntelliSense suggests possible code.
 1. Type a dot to open the DialogResult value in the **IntelliSense** window. Enter the letter `O` and choose the **Tab** key to insert **OK**.
 
    > [!NOTE]
-   > The first line of code should be complete. For C#, it should be similar to the following.
+   > The first line of code should be complete. For C#, it should be similar to the following code.
    >
    >  `if (openFileDialog1.ShowDialog() == DialogResult.OK)`
    >
-   >  For Visual Basic, it should be the following.
+   >  For Visual Basic, it should be the following code.
    >
    >  `If OpenFileDialog1.ShowDialog() = DialogResult.OK Then`
 
@@ -165,9 +165,10 @@ As you type, IntelliSense suggests possible code.
 
    ### [VB](#tab/vb)
    :::code language="vb" source="../../snippets/visualbasic/VS_Snippets_VBCSharp/vbexpresstutorial1step8/vb/form1.vb" id="Snippet1":::
+
    ---
 
-1. Add the following comment to your code.
+12. Add the following comment to your code.
 
    ### [C#](#tab/csharp)
    :::code language="csharp" source="../../snippets/csharp/VS_Snippets_VBCSharp/vbexpresstutorial1step9_10/cs/form1.cs" id="Snippet1":::

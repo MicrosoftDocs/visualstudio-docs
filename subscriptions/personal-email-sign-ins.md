@@ -3,8 +3,8 @@ title: Personal emails for Visual Studio subscriptions in VLSC
 author: joseb-rdc
 ms.author: amast
 manager: shve
-ms.date: 10/16/2024
-ms.topic: conceptual
+ms.date: 02/09/2026
+ms.topic: troubleshooting-general
 description:  Visual Studio Subscriptions – Why do I see personal accounts for my subscribers?
 ms.custom: sfi-image-nochange
 ---
@@ -45,20 +45,20 @@ Next select on **Continue** which takes you to a list of the changes to take pla
 ## What happens when I update a Visual Studio subscriber's sign-in address?
 
 > [!NOTE]
-> When you edit the sign in email address this updates the email used by the subscriber to sign in to their subscription on https://my.visualstudio.com. Subscribers can use the newly updated email address going forward when activating benefits. For previously activated benefits, continue reading below for more information about which email address a subscriber should use.
+> When you edit the sign in email address, this updates the email used by the subscriber to sign in to their subscription on https://my.visualstudio.com. Subscribers can use the newly updated email address going forward when activating benefits. For previously activated benefits, continue reading below for more information about which email address a subscriber should use.
 
 ## Impact on Benefits
 
 If you, the admin, changed the sign-in email address on a subscription, subscribers should use this new email address for any new benefit activations. Refer to the chart below for insights on any currently active benefits that might be impacted.
 
 | Benefit Name | Use updated email address? | If subscriber hasn't activated the benefit yet | If subscriber activated with the previous sign-in email address | If the subscriber is using an alternate email address |
-|--------------|----------------------------|-------------------------------------------------|-----------------------------------------------------------------|------------------------------------------------------|
-| **Power BI Pro**<br>**Microsoft 365 apps for Enterprise**<br>**PARASOFT Virtualize/SOAtest Professional Desktop**<br>**WhiteSource Bolt**<br>**DataCamp - 3-month subscription**<br>**CODE Magazine** | No  | Use new sign-in email address to activate. | Continue using the old email address for access. | N/A |
-| **Pluralsight**<br>**LinkedIn Learning**<br>**Dometrain**<br>**DevForge** | No | Access can be created using any email address. Once it's created, it will not change even if an admin updates the subscriber's sign in email. | Access can be created using any email address. Once it's created, it will not change even if an admin updates the subscriber's sign in email. | Access can be created using any email address. Once it's created, it will not change even if an admin updates the subscriber's sign in email. |
+| ------------ | -------------------------- | ----------------------------------------------- | --------------------------------------------------------------- | ---------------------------------------------------- |
+| **Power BI Pro**<br>**Microsoft 365 apps for Enterprise**<br>**CODE Magazine** | No | Use new sign-in email address to activate. | Continue using the old email address for access. | N/A |
+| **Pluralsight**<br>**Cloud Academy**<br>**Dometrain**<br>**DevForge** | No | Access can be created using any email address. Once it's created, it will not change even if an admin updates the subscriber's sign in email. | Access can be created using any email address. Once it's created, it will not change even if an admin updates the subscriber's sign in email. | Access can be created using any email address. Once it's created, it will not change even if an admin updates the subscriber's sign in email. |
 | **Visual Studio LIVE! Events discount** | No | No email address is needed. | No email address is needed. | No email address is needed. |
 | **GitHub Enterprise** | No\* | This benefit is set up by the GitHub admin in your org. Subscribers should use the email address where their invitation was sent. | This benefit is set up by the GitHub admin in your org. Subscribers should use the email address where their invitation was sent. | This benefit is set up by the GitHub admin in your org. Subscribers should use the email address where their invitation was sent. |
 | **Visual Studio IDE**<br>**Azure DevOps**<br>**Azure dev/test monthly credit**<br>**Azure Dev/Test PAYG subscription (Unlimited)** | Yes | Use new sign-in email address to activate. | Use the new sign-in email address to continue accessing. | Continue using alternate email address. |
-| **TFS License**<br>**TFS CAL**<br>**Visual Studio App Center**<br>**Windows Developer Account**<br>**Microsoft 365 Developer**<br>**Microsoft R Server**<br>**Most Microsoft Server trials**<br>**Microsoft Office Pro Plus 2021, Project, Visio**<br>**Windows, Windows Server, Windows Embedded, SQL Server**<br>**SharePoint, Exchange, Dynamics & other MS**<br>**Technical Support**<br>**Developer Community Forums**<br>**Azure Community Forum**<br>**Online Concierge Chat**<br>**Code Search (included as Basic license)**<br>**Exploratory Testing (included in Basic license)**<br>**Azure Artifacts**<br>**C# Dev Kit for VS Code**<br>**Azure Test Plans** | Yes  | Use new sign-in email address to activate. | Use the new sign-in email address to continue accessing. | N/A |
+| **TFS License**<br>**TFS CAL**<br>**Visual Studio App Center**<br>**Microsoft 365 Developer**<br>**Microsoft R Server**<br>**Most Microsoft Server trials**<br>**Microsoft Office Pro Plus 2021, Project, Visio**<br>**Windows, Windows Server, Windows Embedded, SQL Server**<br>**SharePoint, Exchange, Dynamics & other MS**<br>**Technical Support**<br>**Developer Community Forums**<br>**Azure Community Forum**<br>**Online Concierge Chat**<br>**Code Search (included as Basic license)**<br>**Exploratory Testing (included in Basic license)**<br>**Azure Artifacts**<br>**C# Dev Kit for VS Code**<br>**Azure Test Plans** | Yes | Use new sign-in email address to activate. | Use the new sign-in email address to continue accessing. | N/A |
 
 \* *Note: This benefit is set up by the GitHub Admin. To determine the email address to use, get in touch with the GitHub Admin.* 
 

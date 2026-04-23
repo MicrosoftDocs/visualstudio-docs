@@ -3,7 +3,7 @@ title: "Isolate a performance issue"
 description: "Learn how to use .NET Counters and the Instrumentation tools to identify, isolate, and resolve performance issues."
 ms.date: 7/3/2025
 ms.update-cycle: 180-days
-ms.topic: conceptual
+ms.topic: how-to
 dev_langs:
   - "CSharp"
 helpviewer_keywords:

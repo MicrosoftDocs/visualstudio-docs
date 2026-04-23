@@ -2,7 +2,7 @@
 title: Create custom installer for ClickOnce application
 description: Explore the process for a custom installer to silently install and update a ClickOnce application based on an .exe file. 
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: how-to
 dev_langs:
   - "VB"
   - "CSharp"

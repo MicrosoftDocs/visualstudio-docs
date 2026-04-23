@@ -1,10 +1,10 @@
 ---
 title: "Change Log (Visual Studio Tools for Unity, Windows)"
 description: View the change log for Visual Studio Tools for Unity, Windows. See changes from version 1.0.0.0 through 4.7.0.0 and beyond.
-ms.date: "9/17/2025"
+ms.date: "3/17/2026"
 ms.subservice: unity-tools
 ms.service: visual-studio
-ms.topic: "conceptual"
+ms.topic: release-notes
 author: jbevain
 ms.author: jbevain
 manager: crdun
@@ -12,6 +12,77 @@ manager: crdun
 # Change log (Visual Studio Tools for Unity, Windows)
 
 Visual Studio Tools for Unity change log.
+
+## 18.5.1.0
+Released March 17, 2026
+
+### Bug fixes
+
+- **Integration:**
+
+  - Stability fixes with [`UNT0039`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0039.md) diagnostic regarding generic types.
+
+  - Improved trivia handling for analyzer code fixes.
+
+  - Stability fixes when accessing Unity process image path.
+
+## 18.5.0.0
+Released March 10, 2026
+
+### New Features
+
+- **Integration:**
+
+  - Added [`UNT0040`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0040.md) diagnostic, `GameObject.isStatic` is editor-only.
+
+  - Added [`UNT0041`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0041.md) diagnostic, Use `Animator.StringToHash` for repeated `Animator` method calls.
+
+  - Added [`UNT0042`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0042.md) diagnostic, `Mesh` array property accessed in loop.
+
+  - Limited the number of asset references shown in CodeLens.
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed [`UNT0022`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0022.md) diagnostic when reusing `transform`.
+
+## 18.3.1.0
+Released February 18, 2026
+
+### Bug fixes
+
+- **Integration:**
+
+  - Stability fixes with the CodeLens provider.
+
+## 18.3.0.0
+Released January 15, 2026
+
+### New Features
+
+- **Integration:**
+
+  - Improved the asset search engine performance with a new optimized YAML parser.
+
+  - Refresh asset database on save is now properly respecting the user setting.
+
+## 18.1.0.0
+Released December 16, 2025
+
+### New Features
+
+- **Integration:**
+
+  - Added support for Unified Settings.
+
+  - Added `OnChildRectTransformDimensionsChange` Unity message support.
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed service registration issues when the connector fails to initialize.
 
 ## 18.0.2.0
 Released September 9, 2025

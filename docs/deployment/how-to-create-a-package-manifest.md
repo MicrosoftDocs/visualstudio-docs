@@ -1,7 +1,7 @@
 ---
 title: Create a bootstrapper package manifest
 description: Learn about using a bootstrapper package to deploy prerequisites for your ClickOnce application, which contains a package manifest for each locale.
-ms.date: 11/04/2016
+ms.date: 01/12/2024
 ms.topic: how-to
 dev_langs: 
   - FSharp

@@ -2,9 +2,9 @@
 title: Customer Experience Improvement Program
 description: Manage privacy settings in Visual Studio, and explore system-generated logs, types of collected data, and how to fix problems and improve product quality.
 ms.date: 10/28/2021
-ms.topic: conceptual
-author: anandmeg
-ms.author: meghaanand
+ms.topic: concept-article
+author: ghogen
+ms.author: ghogen
 manager: mijacobs
 ms.subservice: general-ide
 ---
@@ -33,17 +33,10 @@ The VSCEIP is turned on by default. You can turn it off, or back on again, by fo
 
 #### Registry settings
 
-If you install the [Build Tools for Visual Studio](https://visualstudio.microsoft.com/downloads/#build-tools-for-visual-studio-2017), you must update the registry to configure the VSCEIP. Enterprise customers can construct a group policy to opt in or out of the VSCEIP by setting a registry-based policy.
+If you install the [Build Tools for Visual Studio](https://visualstudio.microsoft.com/vs/older-downloads/#visual-studio-2017-and-other-products), you must update the registry to configure the VSCEIP. Enterprise customers can construct a group policy to opt in or out of the VSCEIP by setting a registry-based policy.
 
 The relevant registry key and settings are as follows:
 
-::: moniker range="vs-2019"
-
-- On a 64-bit OS, Key = **HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\VSCommon\16.0\SQM**
-- On a 32-bit OS, Key = **HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VSCommon\16.0\SQM**
-- When Group Policy is enabled, Key = **HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\VisualStudio\SQM**
-
-::: moniker-end
 
 ::: moniker range=">=vs-2022"
 

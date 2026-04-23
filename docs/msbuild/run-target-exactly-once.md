@@ -1,7 +1,7 @@
 ---
 title: Run an MSBuild target exactly once
 description: Configure a .NET project to run a target once and once only, regardless of whether the project is built for multiple frameworks or only one.
-ms.date: 2/18/2025
+ms.date: 10/13/2025
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
@@ -71,7 +71,7 @@ This method relies on the way that multitargeting works in .NET SDK projects. Th
    `dotnet msbuild -nologo -tl:false -bl -clp:nosummary -p:Multitarget=false`
 
    ```output
-   ExtendMaybeMultitargeted.csproj(12,5): warning : MyBeforeBuildThing
+   ExtendMaybeMultitargeted.csproj(12,5): warning : MyBeforeBuildTarget
    ExtendMaybeMultitargeted -> ExtendMaybeMultitargeted\bin\Debug\net8.0\ExtendMaybeMultitargeted.dll
    ```
 
@@ -80,14 +80,14 @@ This method relies on the way that multitargeting works in .NET SDK projects. Th
    `dotnet msbuild -nologo -tl:false -bl -clp:nosummary -p:Multitarget=true`
 
    ```output
-   ExtendMaybeMultitargeted\ExtendMaybeMultitargeted.csproj(12,5): warning : MyBeforeBuildThing
+   ExtendMaybeMultitargeted\ExtendMaybeMultitargeted.csproj(12,5): warning : MyBeforeBuildTarget
      ExtendMaybeMultitargeted -> ExtendMaybeMultitargeted\bin\Debug\net8.0\ExtendMaybeMultitargeted.dll
      ExtendMaybeMultitargeted -> ExtendMaybeMultitargeted\bin\Debug\net7.0\ExtendMaybeMultitargeted.dll
    ```
 
 As you can see in the output, the warning was only emitted once regardless of whether multitargeting was used or not.
 
-The solution shown here works because the target you want to run once, `MyBeforeBuildTarget`, is tied to a different target  using`BeforeTargets`, but regardless of whether multitargeting is true or false, the target it's attached to is always one that runs once. The outer build is a single target, `DispatchToInnerBuilds`, that runs the inner build for all the different frameworks specified in `TargetFrameworks`. `DispatchToInnerBuilds` itself only runs once for a multitargeted build, but for a single targeted build, it doesn't run at all. For a single targeted build, you set `BeforeTargets` to `BeforeBuild` as usual to run your target, but the `Condition` makes sure that it's only attached to `BeforeBuild` in the single-targeted case.
+The solution shown here works because the target you want to run once, `MyBeforeBuildTarget`, is tied to a different target using `BeforeTargets`, but regardless of whether multitargeting is true or false, the target it's attached to is always one that runs once. The outer build is a single target, `DispatchToInnerBuilds`, that runs the inner build for all the different frameworks specified in `TargetFrameworks`; `DispatchToInnerBuilds` itself only runs once for a multitargeted build, but for a single targeted build, it doesn't run at all. For a single targeted build, you set `BeforeTargets` to `BeforeBuild` as usual to run your target, but the `Condition` makes sure that it's only attached to `BeforeBuild` in the single-targeted case.
 
 ## Related content
 

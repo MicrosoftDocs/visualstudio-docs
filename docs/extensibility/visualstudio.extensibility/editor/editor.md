@@ -2,7 +2,7 @@
 title: Editor Overview
 description: An overview of the editor-based extensions for the Visual Studio integrated development environment (IDE).
 ms.date: 3/31/2023
-ms.topic: conceptual
+ms.topic: concept-article
 ms.author: tinali
 monikerRange: ">=vs-2022"
 author: tinaschrepfer

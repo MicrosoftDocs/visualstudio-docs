@@ -2,7 +2,7 @@
 title: Get faster load & run times with solution filters
 description: Explore the solution filtering feature in Visual Studio and discover how it allows you to quickly load a subset of projects in a solution.
 ms.date: 04/22/2019
-ms.topic: conceptual
+ms.topic: how-to
 helpviewer_keywords:
  - "filtered solution"
  - "solution filtering"
@@ -10,7 +10,7 @@ author: TerryGLee
 ms.author: stsu
 manager: mijacobs
 ms.subservice: general-ide
-monikerRange: ">= vs-2019"
+monikerRange: ">= vs-2022"
 ---
 # Filtered solutions in Visual Studio
 

@@ -1,7 +1,7 @@
 ---
 title: Target and Task Batch using metadata with MSBuild
 description: Explore how MSBuild divides item lists into different categories, or batches, based on item metadata, and runs a target or task one time with each batch.
-ms.date: 06/09/2020
+ms.date: 11/13/2025
 ms.topic: how-to
 helpviewer_keywords:
 - batching [MSBuild]
@@ -17,7 +17,7 @@ MSBuild divides item lists into different categories, or batches, based on item 
 
 ## Task batching
 
-Task batching allows you to simplify your project files by providing a way to divide item lists into different batches and pass each of those batches into a task separately. This means that a project file only needs to have the task and its attributes declared once, even though it can be run several times.
+Task batching allows you to simplify your project files by providing a way to divide item lists into different batches and pass each of those batches into a task separately. Batching means that a project file only needs to have the task and its attributes declared once, even though it can be run several times.
 
 You specify that you want MSBuild to perform batching with a task by using the `%(ItemMetaDataName)` notation in one of the task attributes. The following example splits the `Example` item list into batches based on the `Color` item metadata value, and passes each of the batches to the `MyTask` task separately.
 
@@ -51,7 +51,7 @@ For more specific batching examples, see [Item metadata in task batching](../msb
 
 MSBuild checks if the inputs and outputs of a target are up to date before it runs the target. If both inputs and outputs are up to date, the target is skipped. If a task inside of a target uses batching, MSBuild needs to determine if the inputs and outputs for each batch of items is up to date. Otherwise, the target is executed every time it's hit.
 
-The following example shows a `Target` element that contains an `Outputs` attribute with the `%(ItemMetadataName)` notation. MSBuild will divide the `Example` item list into batches based on the `Color` item metadata, and analyze the timestamps of the output files for each batch. If the outputs from a batch aren't up to date, the target is run. Otherwise, the target is skipped.
+The following example shows a `Target` element that contains an `Outputs` attribute with the `%(ItemMetadataName)` notation. MSBuild divides the `Example` item list into batches based on the `Color` item metadata, and analyze the timestamps of the output files for each batch. If the outputs from a batch aren't up to date, the target is run. Otherwise, the target is skipped.
 
 ```xml
 <Project>
@@ -125,7 +125,7 @@ After batch execution, the property retains the final value of `%(MetadataValue)
 
 Although batches run independently, it's important to consider the difference between target batching and task batching and know which type applies to your situation. Consider the following example to understand better the importance of this distinction.
 
-Tasks can be implicit, rather than explicit, which can be confusing when task batching occurs with implicit tasks. When a `PropertyGroup` or `ItemGroup` element appears in a `Target`, each property declaration in the group is implicitly treated somewhat like a separate [CreateProperty](createproperty-task.md) or [CreateItem](createitem-task.md) task. This means that the behavior is different when the target is batched, versus when the target is not batched (that is, when it lacks the `%(ItemMetadataName)` syntax in the `Outputs` attribute). When the target is batched, the `ItemGroup` executes once per target, but when the target is not batched, the implicit equivalents of the `CreateItem` or `CreateProperty` tasks are batched using task batching, so the target only executes once, and each item or property in the group is batched separately using task batching.
+Tasks can be implicit, rather than explicit, which can be confusing when task batching occurs with implicit tasks. When a `PropertyGroup` or `ItemGroup` element appears in a `Target`, each property declaration in the group is implicitly treated somewhat like a separate [CreateProperty](createproperty-task.md) or [CreateItem](createitem-task.md) task. This behavior means that the build execution is different when the target is batched, versus when the target is not batched (that is, when it lacks the `%(ItemMetadataName)` syntax in the `Outputs` attribute). When the target is batched, the `ItemGroup` executes once per target, but when the target is not batched, the implicit equivalents of the `CreateItem` or `CreateProperty` tasks are batched using task batching, so the target only executes once, and each item or property in the group is batched separately using task batching.
 
 The following example illustrates target batching vs. task batching in the case where metadata is mutated. Consider a situation where you have folders A and B with some files:
 
@@ -270,9 +270,9 @@ Metadata referencing in this case leads to batching, which yields possibly unexp
   i->MyPath=[;b.txt;b.txt;d.txt]
 ```
 
-For each item instance, the engine applies metadata of all pre-existing item instances (that's why the `MyPath` is empty for the first item and contains `b.txt` for the second item). In the case of more pre-existing instances, this leads to multiplication of the current item instance (that's why the `g/h.txt` item instance occurring twice in the resulting list).
+For each item instance, the engine applies metadata of all pre-existing item instances (that's why the `MyPath` is empty for the first item and contains `b.txt` for the second item). In the case of more pre-existing instances, this behavior leads to multiplication of the current item instance (that's why the `g/h.txt` item instance occurs twice in the resulting list).
 
-To explicitly inform about this, possibly unintended, behavior, later versions of MSBuild issue message `MSB4120`:
+To explicitly inform about this possibly unintended behavior, later versions of MSBuild issue message `MSB4120`:
 
 ```output
 proj.proj(4,11):  message : MSB4120: Item 'i' definition within target is referencing self via metadata 'Filename' (qualified or unqualified). This can lead to unintended expansion and cross-applying of pre-existing items. More info: https://aka.ms/msbuild/metadata-self-ref
@@ -288,12 +288,12 @@ proj.proj(6,11):  message : MSB4120: Item 'i' definition within target is refere
 If the self-reference is intentional, you have few options depending on the actual scenario and exact needs:
 
  * Keep the code and ignore the message
- * [Define the item outside of the target](#item-self-referencing-metadata-outside-of-any-target)
- * [Define helper item and leverage transforms](#using-helper-item-and-transform)
+ * Define the item outside of the target
+ * Use a helper item and the transform operation
 
-#### Using helper item and transform
+#### Use a helper item and the transform operation
 
-If you want to prevent the batching behavior induced by the metadata reference, you can achieve that by defining a separate item and then leveraging the [transform](../msbuild/msbuild-transforms.md) operation to create item instances with the desired metadata:
+If you want to prevent the batching behavior induced by the metadata reference, you can achieve that by defining a separate item and then using the [transform](../msbuild/msbuild-transforms.md) operation to create item instances with the desired metadata:
 
 ```xml
 <Project>

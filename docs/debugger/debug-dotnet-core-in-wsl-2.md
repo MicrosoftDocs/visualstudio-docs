@@ -1,8 +1,8 @@
 ---
 title: Debug .NET apps in Linux using WSL
 description: Discover how to run and debug your .NET applications in WSL without leaving the Visual Studio integrated development environment (IDE).
-ms.date: "09/04/2025"
-ms.topic: "conceptual"
+ms.date: 03/13/2026
+ms.topic: how-to
 helpviewer_keywords:
   - "debugging, linux"
   - "debugging, wsl2"
@@ -10,7 +10,7 @@ author: "mikejo5000"
 ms.author: "mikejo"
 manager: mijacobs
 ms.subservice: debug-diagnostics
-monikerRange: '>= vs-2019'
+monikerRange: '>= vs-2022'
 ---
 
 # Debug .NET Apps in WSL with Visual Studio
@@ -65,22 +65,7 @@ You don't have to choose just one method! You can have a launch profile for Dock
     ```
 
     ::: moniker-end
-    ::: moniker range="vs-2019"
 
-    ```json
-    "WSL": {
-        "commandName": "WSL2",
-        "launchBrowser": true,
-        "launchUrl": "https://localhost:5001",
-        "environmentVariables": {
-            "ASPNETCORE_URLS": "https://localhost:5001;http://localhost:5000",
-            "ASPNETCORE_ENVIRONMENT": "Development"
-        },
-        "distributionName": ""
-    }
-    ```
-
-    ::: moniker-end
 
    Once you select the new profile, the extension checks that your WSL distribution is configured to run .NET apps, and helps you install any missing dependencies. Once you've installed these dependencies, you are ready to debug in WSL.
 
@@ -111,22 +96,7 @@ By default, the WSL 2 launch profile uses the default distribution as set in *ws
 ```
 
 ::: moniker-end
-::: moniker range="vs-2019"
 
-```json
-"WSL": {
-    "commandName": "WSL2",
-    "launchBrowser": true,
-    "launchUrl": "https://localhost:5001",
-    "environmentVariables": {
-        "ASPNETCORE_URLS": "https://localhost:5001;http://localhost:5000",
-        "ASPNETCORE_ENVIRONMENT": "Development"
-    },
-    "distributionName": "Ubuntu-20.04"
-}
-```
-
-::: moniker-end
 
 ## Target multiple distributions
 
@@ -150,28 +120,17 @@ Going one step further, if you are working on an application that needs to run i
 ```
 
 ::: moniker-end
-::: moniker range="vs-2019"
 
-```json
-"WSL : Debian": {
-    "commandName": "WSL2",
-    "distributionName": "Debian"
-},
-"WSL : Ubuntu 18.04": {
-    "commandName": "WSL2",
-    "distributionName": "Ubuntu-18.04"
-},
-"WSL : Ubuntu 20.04": {
-    "commandName": "WSL2",
-    "distributionName": "Ubuntu-20.04"
-}
-```
-
-::: moniker-end
 
 With these launch profiles, you can easily switch back and forth between your target distributions, all without leaving the comfort of Visual Studio.
 
+:::moniker range="visualstudio"
+![Screenshot that shows multiple WSL launch profiles in the launch profile list.](media/visualstudio/linux-wsl-2-debugging-switch-target-distribution.png)
+:::moniker-end
+
+:::moniker range="vs-2022"
 ![Multiple WSL launch profiles in the launch profile list](media/linux-wsl2-debugging-switch-target-distribution.png)
+:::moniker-end
 
 ## Attach to a running WSL process
 
@@ -186,9 +145,7 @@ In addition to debugging from app startup using F5, you can debug by attaching t
    ::: moniker range=">=vs-2022"
    ![Screenshot of WSL process in the attach to process dialog box.](media/vs-2022/linux-wsl2-debugging-attach-to-process.png)
    ::: moniker-end
-   ::: moniker range="vs-2019"
-   ![Screenshot of WSL process in the attach to process dialog box.](media/linux-wsl2-debugging-attach-to-process.png)
-   ::: moniker-end
+
 
 ## WSL settings in the launch profile
 
@@ -230,3 +187,7 @@ In the following example, you pass two arguments to a DLL project named ConsoleA
 ## Console apps
 
 For a console app running in WSL, the standard input stream (stdin) is redirected and there isn't a way to provide input. When debugging a console app that requires input, start the app directly from WSL using `dotnet run` and specify the path to the DLL on Windows. This provides access to stdin because the app runs in the Linux console. To debug, use the instructions described in the section [Attach to a running WSL process](#attach-to-a-running-wsl-process).
+
+## Remote debug unit tests
+
+To remotely debug unit tests in WSL, you must specify the test environment in *testEnvironments.json*. For more information, see [Local WSL 2 connections](../test/remote-testing.md#local-wsl2-connections).

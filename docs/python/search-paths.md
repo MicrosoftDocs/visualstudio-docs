@@ -3,8 +3,8 @@ title: Use Python folders in search paths
 description: Use the Add Folder to Search Path option in Solution Explorer to specify search paths for your Python environments and projects and avoid using system-wide variables.
 ms.date: 04/18/2024
 ms.topic: how-to
-author: cwebster-99
-ms.author: cowebster
+author: Devdiv-VR
+ms.author: vedhar
 manager: mijacobs
 ms.subservice: python
 

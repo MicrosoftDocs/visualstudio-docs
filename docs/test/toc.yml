@@ -4,6 +4,8 @@
   items:
   - name: Overview of testing tools
     href: improve-code-quality.md
+  - name: Overview of GitHub Copilot testing
+    href: github-copilot-test-dotnet-overview.md
   - name: Unit test tools and tasks
     href: unit-test-your-code.md
 - name: Tutorials
@@ -12,6 +14,8 @@
     href: getting-started-with-unit-testing.md
   - name: Create and run unit tests for .NET
     href: walkthrough-creating-and-running-unit-tests-for-managed-code.md
+  - name: Generate unit tests using AI
+    href: unit-testing-with-github-copilot-test-dotnet.md
   - name: Create unit tests from code
     href: create-unit-tests-menu.md
 - name: Unit testing
@@ -130,15 +134,11 @@
     href: live-unit-testing-start.md
   - name: Configure and use
     href: live-unit-testing.md
-  - name: Configure and use (VS 2019)
-    href: live-unit-testing-2019.md
   - name: FAQ
     href: live-unit-testing-faq.yml
-  - name: FAQ (VS 2019)
-    href: live-unit-testing-faq-2019.yml
 - name: Web performance and load testing
   items:
-  - name: 'Create a load test project'
+  - name: Create a load test project
     href: quickstart-create-a-load-test-project.md
   - name: Create a web service test
     href: how-to-create-a-web-service-test.md

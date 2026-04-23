@@ -2,7 +2,7 @@
 title: What's New in the Visual Studio 2019 SDK
 description: The Visual Studio SDK the new and updated features for Visual Studio 2019, including editor registration enhancements.
 ms.date: 03/29/2019
-ms.topic: conceptual
+ms.topic: whats-new
 author: tinaschrepfer
 ms.author: tinali
 manager: mijacobs

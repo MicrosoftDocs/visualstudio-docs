@@ -2,7 +2,7 @@
 title: "Locating Visual Studio"
 description: You can install multiple instances of the same version of Visual Studio. Learn how to use a COM query API to find the instance that you want.
 ms.date: "08/21/2017"
-ms.topic: "conceptual"
+ms.topic: concept-article
 helpviewer_keywords:
   - "deployment, VSIX"
 author: tinaschrepfer

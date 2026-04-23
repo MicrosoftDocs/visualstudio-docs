@@ -2,7 +2,7 @@
 title: "Visualizer API Reference"
 description: A visualizer displays a specific type of data element, and may allow editing also. To create one, use the Visualizer API documented in this section.
 ms.date: "11/04/2016"
-ms.topic: "conceptual"
+ms.topic: article
 dev_langs:
   - "CSharp"
   - "VB"

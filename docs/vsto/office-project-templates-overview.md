@@ -2,7 +2,7 @@
 title: "Office project templates overview"
 description: Explore how the Microsoft Office developer tools in Visual Studio include project templates for creating different types of Office solutions.
 ms.date: "02/02/2017"
-ms.topic: "conceptual"
+ms.topic: concept-article
 dev_langs:
   - "VB"
   - "CSharp"

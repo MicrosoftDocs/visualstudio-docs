@@ -2,7 +2,7 @@
 title: What is debugging and a debugger?
 description: Explore the process of debugging an application, what is a debugger, and the differences between debugging and running your app.
 ms.date: "10/17/2018"
-ms.topic: "conceptual"
+ms.topic: concept-article
 helpviewer_keywords:
   - "debugger"
 author: "mikejo5000"
@@ -22,7 +22,7 @@ A debugger is a very specialized developer tool that attaches to your running ap
 
 ## Debug mode vs. running your app
 
-When you run your app in Visual Studio for the first time, you may start it by pressing the green arrow button ![Start Debugging](../debugger/media/dbg-tour-start-debugging.png "Start Debugging") in the toolbar (or **F5**). By default, the **Debug** value appears in the drop-down to the left. If you are new to Visual Studio, this can leave the impression that debugging your app has something to do with running your app--which it does--but these are fundamentally two very different tasks.
+When you run your app in Visual Studio for the first time, you may start it by pressing the green arrow button ![Start Debugging](../debugger/media/dbg-tour-start-debugging.png "Start Debugging") in the toolbar (or **F5**). By default, the **Debug** value appears in the drop-down to the left. If you are new to Visual Studio, this can leave the impression that debugging your app has something to do with running your app—which it does—but these are fundamentally two very different tasks.
 
 ![Select a Debug build](../debugger/media/what-is-debugging-debug-build.png)
 
@@ -36,7 +36,7 @@ When you switch this setting, you change your project from a debug configuration
 
 ## When to use a debugger
 
-The debugger is an essential tool to find and fix bugs in your apps. However, context is king, and it is important to leverage all the tools at your disposable to help you quickly eliminate bugs or errors. Sometimes, the right "tool" might be a better coding practice. By learning when to use the debugger vs. some other tool, you will also learn how to use the debugger more effectively.
+The debugger is an essential tool to find and fix bugs in your apps. However, context is king, and it is important to leverage all the tools at your disposal to help you quickly eliminate bugs or errors. Sometimes, the right "tool" might be a better coding practice. By learning when to use the debugger vs. some other tool, you will also learn how to use the debugger more effectively.
 
 ## Related content
 
