@@ -167,7 +167,7 @@ Review your task code for the following issues:
 1. Check for any `ProcessStartInfo` API usage.
 1. Check any static fields or data structures and use standard methods to make them thread-safe.
 1. If none of the above apply, consider adding the attribute only.
-1. Consider special requirements for supporting earlier versions of MSBuild.
+1. Consider special requirements for supporting earlier versions of MSBuild. See [Support earlier versions of MSBuild](#support-earlier-versions-of-msbuild).
 
 > [!TIP]
 > MSBuild provides a Roslyn analyzer that can detect problematic API usage in your task code. Enable the analyzer in your task project to automatically flag calls to `Environment.GetEnvironmentVariable()`, `Environment.CurrentDirectory`, relative path usage, and other patterns that need to be updated for multithreaded builds.
@@ -608,86 +608,6 @@ Make no changes to your task. MSBuild runs non-attributed tasks in a sidecar `Ta
 | Separate implementations | High | Full in-process | Full out-of-process | Yes (18.4+ version) |
 | Compatibility bridge | Low | Full in-process | Full out-of-process | No (attribute-only) |
 | No changes | None | Sidecar (slower) | Full out-of-process | No |
-
-## Example
-
-Consider the following task code.
-
-```csharp
-
-using Microsoft.Build.Framework;
-using Microsoft.Build.Utilities;
-using System;
-using System.ComponentModel.DataAnnotations;
-using System.IO;
-using System.Linq;
-using System.Text.RegularExpressions;
-using RequiredAttribute = Microsoft.Build.Framework.RequiredAttribute;
-
-namespace BuildCommentTask
-{
-    public class AddBuildCommentTask : Microsoft.Build.Utilities.Task
-    {
-        private static int ModifiedFileCount = 0;
-
-        // Callers are responsible for passing only text files in TargetFiles,
-        // and for setting CommentPrefix/CommentSuffix to match the file type.
-        [Required]
-        public ITaskItem[] TargetFiles { get; set; }
-
-        [Required]
-        public string VersionNumber { get; set; }
-
-        // Optional CommentPrefix and CommentSuffix wrap the comment in
-        // language-appropriate syntax, e.g., "// " for C# or "# " for Python.
-        // Include any desired spacing in the prefix or suffix value.
-        public string CommentPrefix { get; set; } = "";
-        public string CommentSuffix { get; set; } = "";
-
-        public override bool Execute()
-        {
-            string disableComments = Environment.GetEnvironmentVariable("DISABLE_BUILD_COMMENTS");
-            if (!string.IsNullOrEmpty(disableComments))
-            {
-                Log.LogMessage(MessageImportance.Normal, "Build comments disabled via environment variable.");
-                return true;
-            }
-
-            string buildDate = DateTime.UtcNow.ToString("yyyy-MM-dd HH:mm:ss");
-            string commentPattern = $@"^{Regex.Escape(CommentPrefix)}\s*Build Date:.*Version:.*{Regex.Escape(CommentSuffix)}$";
-
-            foreach (var item in TargetFiles)
-            {
-                var filePath = item.ItemSpec;
-                try
-                {
-                    string[] originalLines = File.ReadAllLines(filePath);
-
-                    // Check if a similar comment already exists at the top
-                    if (originalLines.Length > 0 && Regex.IsMatch(originalLines[0], commentPattern))
-                    {
-                        Log.LogMessage(MessageImportance.Low, $"Skipped (already annotated): {filePath}");
-                        continue;
-                    }
-
-                    ModifiedFileCount++;
-                    string comment = $"{CommentPrefix}Build Date: {buildDate}, Version: {VersionNumber}, File #: {ModifiedFileCount}{CommentSuffix}";
-                    File.WriteAllLines(filePath, new[] { comment }.Concat(originalLines));
-                    Log.LogMessage(MessageImportance.High, $"Added build comment to: {filePath}");
-                }
-                catch (Exception ex)
-                {
-                    Log.LogError($"Failed to process {filePath}: {ex.Message}");
-                    return false;
-                }
-            }
-            return true;
-        }
-    }
-}
-
-```
-
 
 ## Related content
 
