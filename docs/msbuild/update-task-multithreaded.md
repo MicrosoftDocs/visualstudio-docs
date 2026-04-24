@@ -24,7 +24,7 @@ The `IMultiThreadableTask` interface defines the contract for tasks that can run
 // Microsoft.Build.Framework
 public interface IMultiThreadableTask : ITask
 {
-    ITaskEnvironment TaskEnvironment { get; set; }
+    TaskEnvironment TaskEnvironment { get; set; }
 }
 ```
 
@@ -33,7 +33,7 @@ To migrate a task, implement `IMultiThreadableTask` alongside your existing `Tas
 ```csharp
 public class MyTask : Task, IMultiThreadableTask
 {
-    public ITaskEnvironment TaskEnvironment { get; set; }
+    public TaskEnvironment TaskEnvironment { get; set; }
     // ...
 }
 ```
@@ -485,7 +485,7 @@ namespace BuildCommentTask
     {
         private static readonly object s_counterLock = new();
 
-        public ITaskEnvironment TaskEnvironment { get; set; }
+        public TaskEnvironment TaskEnvironment { get; set; }
 
         // Callers are responsible for passing only text files in TargetFiles,
         // and for setting CommentPrefix/CommentSuffix to match the file type.
