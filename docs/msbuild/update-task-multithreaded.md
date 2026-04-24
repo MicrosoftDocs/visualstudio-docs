@@ -16,7 +16,7 @@ monikerRange: visualstudio
 
 MSBuild 18.4 introduces the capability to build in parallel within the same process. To opt in to this mode, pass the `-mt` command-line switch. Previous versions of MSBuild supported parallel builds, but builds were done in separate processes. This change has some impacts to how you author tasks. Whereas previously, tasks would run in a separate process, now tasks run in the same process. While most logic doesn't need to change, there are some process-level constructs that need to be handled more carefully. Process-level constructs include the current working directory, environment variables, and process start info (`ProcessStartInfo`).
 
-To support these changes, MSBuild 18.4 introduces the `IMultiThreadableTask` interface (in `Microsoft.Build.Framework`), the `MultiThreadableTask` abstract class (in `Microsoft.Build.Utilities`), and the `TaskEnvironment` class. `TaskEnvironment` includes a `ProjectDirectory` property and methods such as `GetAbsolutePath()`, `GetEnvironmentVariable()`, `SetEnvironmentVariable()`, and `GetProcessStartInfo()`.
+To support these changes, MSBuild 18.4 introduces the `IMultiThreadableTask` interface (in `Microsoft.Build.Framework`) and the `TaskEnvironment` class. `TaskEnvironment` includes a `ProjectDirectory` property and methods such as `GetAbsolutePath()`, `GetEnvironmentVariable()`, `SetEnvironmentVariable()`, and `GetProcessStartInfo()`.
 
 The `IMultiThreadableTask` interface defines the contract for tasks that can run in-process in multithreaded builds:
 
@@ -28,17 +28,17 @@ public interface IMultiThreadableTask : ITask
 }
 ```
 
-The `MultiThreadableTask` abstract class (in `Microsoft.Build.Utilities`) provides a convenient base class that implements `IMultiThreadableTask` and extends `Task`:
+To migrate a task, implement `IMultiThreadableTask` alongside your existing `Task` base class and expose the `TaskEnvironment` property:
 
 ```csharp
-// Microsoft.Build.Utilities
-public abstract class MultiThreadableTask : Task, IMultiThreadableTask
+public class MyTask : Task, IMultiThreadableTask
 {
     public ITaskEnvironment TaskEnvironment { get; set; }
+    // ...
 }
 ```
 
-Tasks that inherit from `MultiThreadableTask` (or implement `IMultiThreadableTask`) can run in-process. If you have an existing task that you know is already safe to run in-process, you can add the `[MSBuildMultiThreadableTask]` attribute to indicate that the task is able to run in-process. Before marking a task with the attribute, confirm that it doesn't have any dependencies on process-level constructs like the current working directory or the environment, and that its code is thread-safe. Pay particular attention to ensure thread-safe access to static variables, as these are shared among all task instances and might be accessed or modified by different instances of the task that are also running in the same process.
+Tasks that implement `IMultiThreadableTask` can run in-process. If you have an existing task that you know is already safe to run in-process, you can add the `[MSBuildMultiThreadableTask]` attribute to indicate that the task is able to run in-process. Before marking a task with the attribute, confirm that it doesn't have any dependencies on process-level constructs like the current working directory or the environment, and that its code is thread-safe. Pay particular attention to ensure thread-safe access to static variables, as these are shared among all task instances and might be accessed or modified by different instances of the task that are also running in the same process.
 
 ## Example task: BuildCommentTask
 
@@ -207,7 +207,7 @@ public class MyTask : Task
 You have two options when marking a task for multithreaded builds:
 
 - **Attribute-only**: Add `[MSBuildMultiThreadableTask]` to an existing task that inherits from `Task`. This approach works for tasks that are already thread-safe and don't need access to `TaskEnvironment`. The task continues to inherit from `Task` (or `ToolTask`) as before.
-- **Interface-based**: Implement `IMultiThreadableTask` or inherit from `MultiThreadableTask`. This approach gives your task access to the `TaskEnvironment` property for resolving paths, reading environment variables, and getting process start info. Use this approach when your task needs to replace process-level API calls.
+- **Interface-based**: Implement `IMultiThreadableTask` in addition to inheriting from `Task`. This approach gives your task access to the `TaskEnvironment` property for resolving paths, reading environment variables, and getting process start info. Use this approach when your task needs to replace process-level API calls.
 
 > [!NOTE]
 > MSBuild detects the `MSBuildMultiThreadableTaskAttribute` by namespace and name only, ignoring the defining assembly. This means you can define the attribute yourself in your own code (see [Support earlier versions of MSBuild](#support-earlier-versions-of-msbuild)) and MSBuild still recognizes it.
@@ -457,7 +457,7 @@ Use the following guidelines to decide which pattern fits your scenario:
 
 The following code shows the fully migrated `AddBuildCommentTask` with all five changes applied:
 
-1. Inherits `MultiThreadableTask` instead of `Task`.
+1. Implements `IMultiThreadableTask` alongside the existing `Task` base class, and exposes the `TaskEnvironment` property.
 1. Has the `[MSBuildMultiThreadableTask]` attribute.
 1. Uses `TaskEnvironment.GetAbsolutePath()` for path resolution.
 1. Uses `TaskEnvironment.GetEnvironmentVariable()` instead of `Environment.GetEnvironmentVariable()`.
@@ -481,9 +481,11 @@ namespace BuildCommentTask
     }
 
     [MSBuildMultiThreadableTask]
-    public class AddBuildCommentTask : MultiThreadableTask
+    public class AddBuildCommentTask : Task, IMultiThreadableTask
     {
         private static readonly object s_counterLock = new();
+
+        public ITaskEnvironment TaskEnvironment { get; set; }
 
         // Callers are responsible for passing only text files in TargetFiles,
         // and for setting CommentPrefix/CommentSuffix to match the file type.
@@ -581,7 +583,7 @@ If you update your custom task and then distribute it to others, your task suppo
 
 ### Option 1: Maintain separate implementations
 
-Build separate task assemblies for MSBuild 18.4+ and earlier versions. The MSBuild 18.4+ version uses `MultiThreadableTask` and `TaskEnvironment`. The earlier version continues to use `Task` with process-level APIs.
+Build separate task assemblies for MSBuild 18.4+ and earlier versions. The MSBuild 18.4+ version implements `IMultiThreadableTask` and uses `TaskEnvironment`. The earlier version continues to use `Task` with process-level APIs.
 
 ### Option 2: Compatibility bridge (recommended)
 
@@ -595,7 +597,7 @@ namespace Microsoft.Build.Framework
 }
 ```
 
-When running on MSBuild 18.4+, MSBuild recognizes the attribute and runs the task in-process. When running on earlier versions, MSBuild ignores the unknown attribute and runs the task out-of-process as before.
+When running on MSBuild 18.4 or later, MSBuild recognizes the attribute and runs the task in-process. When running on earlier versions, MSBuild ignores the unknown attribute and runs the task out-of-process as before.
 
 ### Option 3: Accept reduced performance
 
