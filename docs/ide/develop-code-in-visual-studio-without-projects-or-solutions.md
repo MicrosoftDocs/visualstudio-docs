@@ -1,7 +1,7 @@
 ---
 title: Develop code without projects or solutions
 description: Develop code directly in Visual Studio without placing the code in a solution or project, and start working quickly with IntelliSense, search, debugging, and more. 
-ms.date: 11/7/2023
+ms.date: 04/27/2026
 ms.topic: how-to
 helpviewer_keywords:
 - open folder [Visual Studio]
@@ -82,6 +82,9 @@ As of Visual Studio 2019 [version 16.8](/visualstudio/releases/2019/release-note
 #### Use Team Explorer in Visual Studio
 
 You can still use Team Explorer in Visual Studio 2022 and in Visual Studio 2019 [version 16.8](/visualstudio/releases/2019/release-notes/) and later. However, you might find it easier to use the new Git experience. For more information, see [How Visual Studio makes version control easy with Git](../version-control/git-with-visual-studio.md).
+
+> [!NOTE]
+> The legacy work items experience in Team Explorer is deprecated. Work items open in the web portal instead of inside Visual Studio, which provides a modern and more consistent experience with full feature availability. For more information, see [work items in Visual Studio](https://devblogs.microsoft.com/devops/work-items-in-visual-studio/).
 
 1. In Visual Studio, choose the **Team Explorer** tab to open **Team Explorer**. If you don't see the tab, open it from **View** > **Team Explorer**.
 
