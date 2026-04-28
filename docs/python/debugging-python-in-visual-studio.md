@@ -182,7 +182,7 @@ When you stop code execution in the debugger, you can inspect and modify the val
 If an error occurs in your program during debugging, but you don't have an exception handler for it, the debugger breaks at the point of the exception:
 
 :::moniker range="visualstudio"
-:::image type="content" source="media/visualstudio/debugging-exception-popup.png" alt-text="Screenshot that shows an Exception popup for an unhandled error in the Visual Studio debugger." lightbox="media/visualstudio/debugging-exception-popup.png" border="false":::
+:::image type="content" source="media/visualstudio/debugging-exception.png" alt-text="Screenshot that shows an Exception popup for an unhandled error in the Visual Studio debugger." lightbox="media/visualstudio/debugging-exception.png" border="false":::
 :::moniker-end
 
 :::moniker range="vs-2022"
