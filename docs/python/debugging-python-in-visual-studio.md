@@ -1,7 +1,7 @@
 ---
 title: Debug Python code, set breakpoints, inspect code
 description: Use rich interactive debugging for Python code in Visual Studio, including setting breakpoints, stepping, inspecting values, looking at exceptions, and more.
-ms.date: 04/18/2024
+ms.date: 04/28/2026
 ms.topic: how-to
 author: Devdiv-VR
 ms.author: vedhar
@@ -59,7 +59,13 @@ Some breakpoints in Python can be surprising for developers who have worked with
 
 - To set a breakpoint, select in the left margin of the code editor or right-click a line of code and select **Breakpoint** > **Insert Breakpoint**. A red dot appears on each line that has a set breakpoint.
 
+   :::moniker range="visualstudio"
+   :::image type="content" source="media/visualstudio/debugging-breakpoints.png" alt-text="Screenshot that shows how breakpoints are displayed in the left margin of the code file in Visual Studio." lightbox="media/visualstudio/debugging-breakpoints.png" border="false":::
+   :::moniker-end
+
+   :::moniker range="vs-2022"
    :::image type="content" source="media/debugging-breakpoints.png" alt-text="Screenshot that shows how breakpoints are displayed in the left margin of the code file in Visual Studio." lightbox="media/debugging-breakpoints.png" border="false":::
+   :::moniker-end
 
 - To remove a breakpoint, select the red dot or right-click the line of code and select **Breakpoint** > **Delete Breakpoint**. You can also disable a breakpoint by selecting the red dot and selecting **Breakpoint** > **Disable Breakpoint**.
 
@@ -73,11 +79,23 @@ You can customize the conditions under which a breakpoint is triggered, such as 
 
    In the dialog, you can add multiple conditions and create conditional expressions by using Python code. For full details on this feature in Visual Studio, see [Breakpoint conditions](../debugger/using-breakpoints.md#breakpoint-conditions).
 
+   :::moniker range="visualstudio"
+   :::image type="content" source="media/visualstudio/debugging-breakpoints-conditions.png" alt-text="Screenshot that shows how to select the option to configure Conditions for a breakpoint in Visual Studio." lightbox="media/visualstudio/debugging-breakpoints-conditions.png" border="false"::: 
+   :::moniker-end
+
+   :::moniker range="vs-2022"
    :::image type="content" source="media/debugging-breakpoints-conditions.png" alt-text="Screenshot that shows how to select the option to configure Conditions for a breakpoint in Visual Studio." lightbox="media/debugging-breakpoints-conditions.png" border="false"::: 
+   :::moniker-end
 
 - You also have the options to set **Actions** for a breakpoint. You can create a message to log to the **Output** window and optionally specify to continue execution automatically.
 
+   :::moniker range="visualstudio"
+   :::image type="content" source="media/visualstudio/debugging-breakpoints-tracepoint.png" alt-text="Screenshot that shows how to create tracepoint actions for a breakpoint in Visual Studio." lightbox="media/visualstudio/debugging-breakpoints-tracepoint.png" border="false"::: 
+   :::moniker-end
+
+   :::moniker range="vs-2022"
    :::image type="content" source="media/debugging-breakpoints-tracepoint.png" alt-text="Screenshot that shows how to create tracepoint actions for a breakpoint in Visual Studio." lightbox="media/debugging-breakpoints-tracepoint.png" border="false"::: 
+   :::moniker-end
 
    Logging a message creates a *tracepoint* that doesn't add logging code to your application directly.
    
@@ -107,7 +125,13 @@ When you stop code execution in the debugger, you can inspect and modify the val
 
 - To view a value by using the **DataTips** feature during debugging, hover the mouse over any variable in the editor. You can select the variable value to change it:
 
+   :::moniker range="visualstudio"
+   :::image type="content" source="media/visualstudio/debugging-quick-tips.png" alt-text="Screenshot that shows the DataTips value for a variable in the Visual Studio debugger." lightbox="media/visualstudio/debugging-quick-tips.png" border="false"::: 
+   :::moniker-end
+
+   :::moniker range="vs-2022"
    :::image type="content" source="media/debugging-quick-tips.png" alt-text="Screenshot that shows the DataTips value for a variable in the Visual Studio debugger." lightbox="media/debugging-quick-tips.png" border="false"::: 
+   :::moniker-end
 
 - To use the **Autos** window, select **Debug** > **Windows** > **Autos**. This window contains variables and expressions that are close to the current statement. You can double-click in the value column or select and enter **F2** to edit the value:
 
@@ -117,13 +141,25 @@ When you stop code execution in the debugger, you can inspect and modify the val
 
 - To use the **Locals** window, select **Debug** > **Windows** > **Locals**. This window displays all variables that are in the current scope, which can again be edited:
  
+   :::moniker range="visualstudio"
+   :::image type="content" source="media/visualstudio/debugging-locals-window.png" alt-text="Screenshot that shows the Locals window in the Visual Studio debugger." lightbox="media/visualstudio/debugging-locals-window.png" border="false"::: 
+   :::moniker-end
+
+   :::moniker range="vs-2022"
    :::image type="content" source="media/debugging-locals-window.png" alt-text="Screenshot that shows the Locals window in the Visual Studio debugger." lightbox="media/debugging-locals-window.png" border="false"::: 
+   :::moniker-end
 
    For more information on using the **Locals** window, see [Inspect variables in the Autos and Locals windows](../debugger/autos-and-locals-windows.md).
 
 - To use the **Watch** windows, select **Debug** > **Windows** > **Watch** > **Watch 1-4**. This option allows you to enter arbitrary Python expressions and view the results. Expressions are reevaluated for each step:
 
+   :::moniker range="visualstudio"
+   :::image type="content" source="media/visualstudio/debugging-watch-window.png" alt-text="Screenshot that shows the Watch window in the Visual Studio debugger." lightbox="media/visualstudio/debugging-watch-window.png" border="false"::: 
+   :::moniker-end
+
+   :::moniker range="vs-2022"
    :::image type="content" source="media/debugging-watch-window.png" alt-text="Screenshot that shows the Watch window in the Visual Studio debugger." lightbox="media/debugging-watch-window.png" border="false"::: 
+   :::moniker-end
 
    For more information on using the **Watch** window, see [Set a watch on variables with the Watch and QuickWatch windows](../debugger/watch-and-quickwatch-windows.md).
 
@@ -131,7 +167,13 @@ When you stop code execution in the debugger, you can inspect and modify the val
 
    The **View** dropdown menu displays four visualization options: Text, HTML, XML, or JSON. 
 
+   :::moniker range="visualstudio"
+   :::image type="content" source="media/visualstudio/debugging-string-visualizers.png" alt-text="Screenshot that shows how to access visualizers from the View magnifying glass in the Visual Studio debugger." lightbox="media/visualstudio/debugging-string-visualizers.png" border="false":::
+   :::moniker-end
+
+   :::moniker range="vs-2022"
    :::image type="content" source="media/debugging-string-visualizers.png" alt-text="Screenshot that shows how to access visualizers from the View magnifying glass in the Visual Studio debugger." lightbox="media/debugging-string-visualizers.png" border="false":::
+   :::moniker-end
 
    After you select a visualization, a popup dialog shows the unquoted string value according to the selected type. You can view the string with wrapping and scrolling, syntax highlighting, and tree views. These visualizations can help to debug issues with long and complex strings.
 
@@ -139,13 +181,25 @@ When you stop code execution in the debugger, you can inspect and modify the val
 
 If an error occurs in your program during debugging, but you don't have an exception handler for it, the debugger breaks at the point of the exception:
 
+:::moniker range="visualstudio"
+:::image type="content" source="media/visualstudio/debugging-exception-popup.png" alt-text="Screenshot that shows an Exception popup for an unhandled error in the Visual Studio debugger." lightbox="media/visualstudio/debugging-exception-popup.png" border="false":::
+:::moniker-end
+
+:::moniker range="vs-2022"
 :::image type="content" source="media/debugging-exception-popup.png" alt-text="Screenshot that shows an Exception popup for an unhandled error in the Visual Studio debugger." lightbox="media/debugging-exception-popup.png" border="false":::
+:::moniker-end
 
 When an error occurs, you can inspect the current program state, including the call stack. However, if you step through the code, the debugging process continues to throw the exception until it's handled or your program exits.
 
 - To see an expanded view of exceptions, select **Debug** > **Windows** > **Exception Settings**. 
 
+   :::moniker range="visualstudio"
+   :::image type="content" source="media/visualstudio/debugging-exception-settings.png" alt-text="Screenshot that shows the Exceptions Settings window in the Visual Studio debugger." lightbox="media/visualstudio/debugging-exception-settings.png" border="false":::
+   :::moniker-end
+
+   :::moniker range="vs-2022"
    :::image type="content" source="media/debugging-exception-settings.png" alt-text="Screenshot that shows the Exceptions Settings window in the Visual Studio debugger." lightbox="media/debugging-exception-settings.png" border="false":::
+   :::moniker-end
 
    In the **Exceptions Settings** window, the checkbox next an exception controls whether the debugger *always* breaks when that exception is raised.
    
@@ -161,7 +215,13 @@ By default, the debugger starts your program with the standard Python launcher, 
 
 - To access the debug properties for a project, right-click your Python project in **Solution Explorer**, select **Properties**, and then select the **Debug** tab.
 
+   :::moniker range="visualstudio"
+   :::image type="content" source="media/visualstudio/debugging-project-properties.png" alt-text="Screenshot that shows the Python project debug properties in the Visual Studio debugger." lightbox="media/visualstudio/debugging-project-properties.png" border="false":::
+   :::moniker-end
+
+   :::moniker range="vs-2022"
    :::image type="content" source="media/debugging-project-properties.png" alt-text="Screenshot that shows the Python project debug properties in the Visual Studio debugger." lightbox="media/debugging-project-properties.png" border="false":::
+   :::moniker-end
 
 The following sections describe the specific properties.
 
@@ -204,7 +264,13 @@ The **Python Debug Interactive** window offers a rich environment with the full 
 
 - To use the **Debug Interactive** window, select **Debug** > **Windows** > **Python Debug Interactive** (**Shift**+**Alt**+**I**).
 
+   :::moniker range="visualstudio"
+   :::image type="content" source="media/visualstudio/debugging-interactive.png" alt-text="Screenshot that shows how to work with the Python Debug Interactive window in Visual Studio." lightbox="media/visualstudio/debugging-interactive.png":::
+   :::moniker-end
+
+   :::moniker range="vs-2022"
    :::image type="content" source="media/debugging-interactive.png" alt-text="Screenshot that shows how to work with the Python Debug Interactive window in Visual Studio." lightbox="media/debugging-interactive.png":::
+   :::moniker-end
 
 The **Debug Interactive** window supports special meta-commands in addition to the [standard REPL commands](python-interactive-repl-in-visual-studio.md#meta-commands), as described in the following table:
 
@@ -277,7 +343,13 @@ Follow these steps to manage your ptvsd installation:
 
 1. Enter *ptvsd* in the search box and examine the installed version of ptvsd:
 
+   :::moniker range="visualstudio"
+   :::image type="content" source="media/visualstudio/debugging-experimental-check-ptvsd.png" alt-text="Screenshot that shows how to check the ptvsd version in the Python Environments window." lightbox="media/visualstudio/debugging-experimental-check-ptvsd.png" border="false":::
+   :::moniker-end
+
+   :::moniker range="vs-2022"
    :::image type="content" source="media/debugging-experimental-check-ptvsd.png" alt-text="Screenshot that shows how to check the ptvsd version in the Python Environments window." lightbox="media/debugging-experimental-check-ptvsd.png" border="false":::
+   :::moniker-end
 
 1. If the version is lower than 4.1.1a9 (the version bundled with Visual Studio), select the **X** to the right of the package to uninstall the older version. Visual Studio then uses its bundled version. (You can also uninstall from PowerShell by using the `pip uninstall ptvsd` command.)
 
@@ -318,7 +390,13 @@ The following steps enable debugging in the current Visual Studio session:
 
 1. Start debugging and go through the steps necessary to reproduce your issue. During this time, debug logs appear in the **Output** window under **Debug Adapter Host Log**. You can then copy the logs from that window and paste into a GitHub issue, email, and so on.
 
+   :::moniker range="visualstudio"
+   :::image type="content" source="media/visualstudio/debugger-logging-output.png" alt-text="Screenshot that shows Debugger logging output in the Output window in Visual Studio." lightbox="media/visualstudio/debugger-logging-output.png" border="false":::
+   :::moniker-end
+
+   :::moniker range="vs-2022"
    :::image type="content" source="media/debugger-logging-output.png" alt-text="Screenshot that shows Debugger logging output in the Output window in Visual Studio." lightbox="media/debugger-logging-output.png" border="false":::
+   :::moniker-end
 
 1. If Visual Studio stops responding or you aren't otherwise able to access the **Output** window, restart Visual Studio, open a command window, and enter the following command:
 
