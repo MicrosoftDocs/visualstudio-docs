@@ -2,7 +2,7 @@
 title: Deploy a VSTO Solution with Windows Installer (Visual Studio)
 description: Deploy a Microsoft Visual Studio Tools for Office (VSTO) add-in or document-level solution by using a Visual Studio Installer project.
 titleSuffix: ""
-ms.date: "04/16/2026"
+ms.date: "04/29/2026"
 ms.topic: install-set-up-deploy
 dev_langs:
   - "VB"
@@ -503,10 +503,10 @@ To retrieve the solution ID
     **Figure 13: Unloading Excel Document Solution**
 
 4. In the **Solution Explorer**, right-click **ExcelWorkbookProject** and click **EditExcelWorkbookProject.vbproj** or **Edit ExcelWorkbookProject.csproj**.
-5. In the **ExcelWorkbookProject** editor, locate the **SolutionID** element inside the **PropertyGroup** element.
+5. In the **ExcelWorkbookProject** editor, locate the **ProjectGuid** element in the **PropertyGroup** element. The solution ID is typically the same as this project GUID. You can also use .NET Reflector or PowerShell to get the solution ID by inspecting the assembly.
 6. Copy the GUID value of this element.
 
-    ![Retrieving the SolutionID](media/setup-project-figure-17.jpg)
+    ![Screenshot that shows the ProjectGuid element in the PropertyGroup element.](media/visualstudio/setup-project-figure-17.png)
 
     **Figure 14: Retrieving the SolutionID**
 
