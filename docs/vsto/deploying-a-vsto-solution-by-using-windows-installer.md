@@ -208,7 +208,7 @@ Microsoft Office locates Add-ins by using registry keys. The keys in the HKEY\_C
 
 15. Select the **Manifest** key in the registry editor. In the **Properties Window**, change the **Value** property to **file:///[TARGETDIR]ExcelAddIn.vsto|vstolocal**
 
-    ![Screenshot of the Registry Editor.](media/visualstudio/setup-project-figure-6.png)
+    :::image type="content" source="media/visualstudio/setup-project-figure-6.png" alt-text="Screenshot of the Registry Editor." lightbox="media/visualstudio/setup-project-figure-6.png":::
 
     **Figure 6: Setting up registry keys**
 
