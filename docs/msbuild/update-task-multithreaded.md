@@ -629,6 +629,8 @@ Make no changes to your task. MSBuild runs non-attributed tasks in a sidecar `Ta
 
 ### Comparison of approaches
 
+The following table compares the three approaches when running in multithreaded mode (`-mt`). In non-multithreaded mode, all tasks run out-of-process regardless of how they are marked.
+
 | Approach | Maintenance | Performance (18.6+) | Performance (older) | TaskEnvironment access |
 |---|---|---|---|---|
 | Separate implementations | High | Full in-process | Full out-of-process | Yes (18.6+ version) |
