@@ -506,7 +506,7 @@ To retrieve the solution ID
 5. In the **ExcelWorkbookProject** editor, locate the **ProjectGuid** element in the **PropertyGroup** element. The solution ID is typically the same as this project GUID. You can also use .NET Reflector or PowerShell to get the solution ID by inspecting the assembly.
 6. Copy the GUID value of this element.
 
-    ![Screenshot that shows the ProjectGuid element in the PropertyGroup element.](media/visualstudio/setup-project-figure-17.png)
+    :::image type="content" source="media/visualstudio/setup-project-figure-17.png" alt-text="Screenshot that shows the ProjectGuid element in the PropertyGroup element." lightbox="media/visualstudio/setup-project-figure-17.png":::
 
     **Figure 14: Retrieving the SolutionID**
 
