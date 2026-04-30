@@ -28,19 +28,18 @@ public interface IMultiThreadableTask : ITask
 }
 ```
 
-To migrate a task, implement `IMultiThreadableTask` alongside your existing `Task` base class and expose the `TaskEnvironment` property. If you're targeting MSBuild 18.6 or later, initialize the property to `TaskEnvironment.Fallback`:
+To migrate a task, implement `IMultiThreadableTask` alongside your existing `Task` base class and expose the `TaskEnvironment` property:
 
 ```csharp
 public class MyTask : Task, IMultiThreadableTask
 {
+    // Initialize to Fallback so the task works safely outside the MSBuild engine (for example, in unit tests).
     public TaskEnvironment TaskEnvironment { get; set; } = TaskEnvironment.Fallback;
     // ...
 }
 ```
 
-The `TaskEnvironment.Fallback` default ensures that tasks instantiated outside of the MSBuild engine — for example, in unit tests or other hosting scenarios — do not fail with a null reference error. In a normal multithreaded build, MSBuild sets this property before calling `Execute()`. When running outside the engine, `TaskEnvironment.Fallback` provides safe no-op behavior so the task can still be exercised. If you need to support MSBuild versions earlier than 18.6 that don't have `TaskEnvironment.Fallback`, initialize the property to `null` and guard any `TaskEnvironment` calls with a null check, or use the compatibility approach described in [Support earlier versions of MSBuild](#support-earlier-versions-of-msbuild).
-
-Tasks that implement `IMultiThreadableTask` can run in-process. All such tasks must also carry the `[MSBuildMultiThreadableTask]` attribute — the attribute is the marker MSBuild uses to opt the task into in-process execution. Before adding the attribute, confirm that the task doesn't have any dependencies on process-level constructs like the current working directory or the environment, and that its code is thread-safe. Pay particular attention to ensure thread-safe access to static variables, as these are shared among all task instances and might be accessed or modified by different instances of the task that are also running in the same process.
+Tasks that implement `IMultiThreadableTask` can run in-process.All such tasks must also carry the `[MSBuildMultiThreadableTask]` attribute — the attribute is the marker MSBuild uses to opt the task into in-process execution. Before adding the attribute, confirm that the task doesn't have any dependencies on process-level constructs like the current working directory or the environment, and that its code is thread-safe. Pay particular attention to ensure thread-safe access to static variables, as these are shared among all task instances and might be accessed or modified by different instances of the task that are also running in the same process.
 
 ## Example task: BuildCommentTask
 
@@ -221,6 +220,18 @@ If your task does need to replace process-level API calls — for example, to re
 
 > [!NOTE]
 > The `MSBuildMultiThreadableTaskAttribute` is non-inheritable (`Inherited = false`). Each task class must explicitly declare the attribute to be recognized as multithreadable. Inheriting from a class that has the attribute doesn't automatically make the derived class multithreadable.
+
+### Initialize TaskEnvironment to Fallback
+
+When implementing `IMultiThreadableTask`, initialize the `TaskEnvironment` property to `TaskEnvironment.Fallback`:
+
+```csharp
+public TaskEnvironment TaskEnvironment { get; set; } = TaskEnvironment.Fallback;
+```
+
+MSBuild sets this property before calling `Execute()` in a normal build. The `Fallback` default ensures the task works correctly in other hosting scenarios — such as unit tests or custom build orchestration tools — where MSBuild isn't present to set the property. Without it, accessing `TaskEnvironment` outside the engine would throw a null reference exception.
+
+If you need to support MSBuild versions earlier than 18.6 that don't include `TaskEnvironment.Fallback`, initialize the property to `null` instead and guard any `TaskEnvironment` calls with a null check. See [Support earlier versions of MSBuild](#support-earlier-versions-of-msbuild) for more options.
 
 ## Update paths and file I/O
 
