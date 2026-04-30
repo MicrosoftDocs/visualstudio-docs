@@ -133,13 +133,15 @@ When you stop code execution in the debugger, you can inspect and modify the val
    :::image type="content" source="media/debugging-quick-tips.png" alt-text="Screenshot that shows the DataTips value for a variable in the Visual Studio debugger." lightbox="media/debugging-quick-tips.png" border="false"::: 
    :::moniker-end
 
+:::moniker range="vs-2022"
 - To use the **Autos** window, select **Debug** > **Windows** > **Autos**. This window contains variables and expressions that are close to the current statement. You can double-click in the value column or select and enter **F2** to edit the value:
 
    :::image type="content" source="media/debugging-autos-window.png" alt-text="Screenshot that shows the Autos window in the Visual Studio debugger." lightbox="media/debugging-autos-window.png" border="false"::: 
 
    For more information on using the **Autos** window, see [Inspect variables in the Autos and Locals windows](../debugger/autos-and-locals-windows.md).
+:::moniker-end
 
-- To use the **Locals** window, select **Debug** > **Windows** > **Locals**. This window displays all variables that are in the current scope, which can again be edited:
+- To use the **Locals** window, select **Debug** > **Windows** > **Locals**. This window displays all variables that are in the current scope. You can double-click in the value column or select and enter **F2** to edit the value:
  
    :::moniker range="visualstudio"
    :::image type="content" source="media/visualstudio/debugging-locals-window.png" alt-text="Screenshot that shows the Locals window in the Visual Studio debugger." lightbox="media/visualstudio/debugging-locals-window.png" border="false"::: 
