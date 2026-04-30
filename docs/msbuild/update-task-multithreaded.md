@@ -597,7 +597,7 @@ namespace Microsoft.Build.Framework
 }
 ```
 
-When running on MSBuild 18.4 or later, MSBuild recognizes the attribute and runs the task in-process. When running on earlier versions, MSBuild ignores the unknown attribute and runs the task out-of-process as before.
+When running on MSBuild 18.4 or later, MSBuild recognizes the attribute and runs the task in-process in multithreaded builds. On earlier versions, multithreaded mode is not available, and the unknown attribute is ignored.
 
 ### Option 3: Accept reduced performance
 
