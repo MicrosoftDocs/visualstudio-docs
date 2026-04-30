@@ -14,9 +14,9 @@ monikerRange: visualstudio
 
 # Update an MSBuild task to work in multithreaded mode
 
-MSBuild 18.4 introduces the capability to build in parallel within the same process. To opt in to this mode, pass the `-mt` command-line switch. Previous versions of MSBuild supported parallel builds, but builds were done in separate processes. This change has some impacts to how you author tasks. Whereas previously, tasks would run in a separate process, now tasks run in the same process. While most logic doesn't need to change, there are some process-level constructs that need to be handled more carefully. Process-level constructs include the current working directory, environment variables, and process start info (`ProcessStartInfo`).
+MSBuild 18.6 introduces the capability to build in parallel within the same process. To opt in to this mode, pass the `-mt` command-line switch. Previous versions of MSBuild supported parallel builds, but builds were done in separate processes. This change has some impacts to how you author tasks. Whereas previously, tasks would run in a separate process, now tasks run in the same process. While most logic doesn't need to change, there are some process-level constructs that need to be handled more carefully. Process-level constructs include the current working directory, environment variables, and process start info (`ProcessStartInfo`).
 
-To support these changes, MSBuild 18.4 introduces the `IMultiThreadableTask` interface (in `Microsoft.Build.Framework`) and the `TaskEnvironment` class. `TaskEnvironment` includes a `ProjectDirectory` property and methods such as `GetAbsolutePath()`, `GetEnvironmentVariable()`, `SetEnvironmentVariable()`, and `GetProcessStartInfo()`.
+To support these changes, MSBuild 18.6 introduces the `IMultiThreadableTask` interface (in `Microsoft.Build.Framework`) and the `TaskEnvironment` class. `TaskEnvironment` includes a `ProjectDirectory` property and methods such as `GetAbsolutePath()`, `GetEnvironmentVariable()`, `SetEnvironmentVariable()`, and `GetProcessStartInfo()`.
 
 The `IMultiThreadableTask` interface defines the contract for tasks that can run in-process in multithreaded builds:
 
@@ -28,17 +28,19 @@ public interface IMultiThreadableTask : ITask
 }
 ```
 
-To migrate a task, implement `IMultiThreadableTask` alongside your existing `Task` base class and expose the `TaskEnvironment` property:
+To migrate a task, implement `IMultiThreadableTask` alongside your existing `Task` base class and expose the `TaskEnvironment` property. If you're targeting MSBuild 18.6 or later, initialize the property to `TaskEnvironment.Fallback`:
 
 ```csharp
 public class MyTask : Task, IMultiThreadableTask
 {
-    public TaskEnvironment TaskEnvironment { get; set; }
+    public TaskEnvironment TaskEnvironment { get; set; } = TaskEnvironment.Fallback;
     // ...
 }
 ```
 
-Tasks that implement `IMultiThreadableTask` can run in-process. If you have an existing task that you know is already safe to run in-process, you can add the `[MSBuildMultiThreadableTask]` attribute to indicate that the task is able to run in-process. Before marking a task with the attribute, confirm that it doesn't have any dependencies on process-level constructs like the current working directory or the environment, and that its code is thread-safe. Pay particular attention to ensure thread-safe access to static variables, as these are shared among all task instances and might be accessed or modified by different instances of the task that are also running in the same process.
+The `TaskEnvironment.Fallback` default ensures that tasks instantiated outside of the MSBuild engine — for example, in unit tests or other hosting scenarios — do not fail with a null reference error. In a normal multithreaded build, MSBuild sets this property before calling `Execute()`. When running outside the engine, `TaskEnvironment.Fallback` provides safe no-op behavior so the task can still be exercised. If you need to support MSBuild versions earlier than 18.6 that don't have `TaskEnvironment.Fallback`, initialize the property to `null` and guard any `TaskEnvironment` calls with a null check, or use the compatibility approach described in [Support earlier versions of MSBuild](#support-earlier-versions-of-msbuild).
+
+Tasks that implement `IMultiThreadableTask` can run in-process. All such tasks must also carry the `[MSBuildMultiThreadableTask]` attribute — the attribute is the marker MSBuild uses to opt the task into in-process execution. Before adding the attribute, confirm that the task doesn't have any dependencies on process-level constructs like the current working directory or the environment, and that its code is thread-safe. Pay particular attention to ensure thread-safe access to static variables, as these are shared among all task instances and might be accessed or modified by different instances of the task that are also running in the same process.
 
 ## Example task: BuildCommentTask
 
@@ -149,7 +151,7 @@ This task has four thread-safety issues that need to be addressed for multithrea
 
 ## Prerequisites
 
-- MSBuild 18.4 or later.
+- MSBuild 18.6 or later.
 - Enable multithreaded task execution with the `-mt` command-line switch:
 
   ```console
@@ -178,7 +180,7 @@ The following table summarizes the .NET APIs that you should replace and their `
 
 | .NET API to avoid | Level | Replacement |
 |---|---|---|
-| `Path.GetFullPath(path)` | ERROR | `TaskEnvironment.GetAbsolutePath(path)` |
+| `Path.GetFullPath(path)` | ERROR | See note following this table |
 | `File.*` with relative paths | ERROR | Resolve with `TaskEnvironment.GetAbsolutePath()` first |
 | `Directory.*` with relative paths | ERROR | Resolve with `TaskEnvironment.GetAbsolutePath()` first |
 | `Environment.GetEnvironmentVariable()` | ERROR | `TaskEnvironment.GetEnvironmentVariable()` |
@@ -188,9 +190,15 @@ The following table summarizes the .NET APIs that you should replace and their `
 | `Process.Start()` | ERROR | Use `ToolTask` or `TaskEnvironment.GetProcessStartInfo()` |
 | Static fields | WARNING | Use instance fields or thread-safe collections |
 
-## Apply the attribute to thread-safe tasks
+> [!NOTE]
+> `Path.GetFullPath(path)` does two things: it converts a relative path to an absolute path, and it produces a **canonical** form of the path (resolving `.` and `..` segments). These need to be handled separately:
+>
+> - **Absolute path only**: Use `TaskEnvironment.GetAbsolutePath(path)`. This is sufficient for most file I/O operations where you're passing the path directly to .NET APIs.
+> - **Canonical path**: If you rely on the canonical form — for example, when using a path as a cache or dictionary key — use `Path.GetFullPath(TaskEnvironment.GetAbsolutePath(path))` to get a fully resolved, canonical absolute path.
 
-If your task already doesn't rely on process-level state and is thread-safe, you can add the `[MSBuildMultiThreadableTask]` attribute without any other code changes. This approach is a compatibility bridge that tells MSBuild the task is safe to run in-process.
+## Mark the task with the attribute
+
+All tasks that participate in multithreaded builds must be marked with the `[MSBuildMultiThreadableTask]` attribute. This is the signal MSBuild uses to identify tasks that are safe to run in-process.
 
 ```csharp
 [MSBuildMultiThreadableTask]
@@ -204,16 +212,15 @@ public class MyTask : Task
 }
 ```
 
-You have two options when marking a task for multithreaded builds:
+If your task is already thread-safe and doesn't use any process-level APIs (current working directory, environment variables, `ProcessStartInfo`), the attribute alone is all you need. The task continues to inherit from `Task` (or `ToolTask`) without any other changes.
 
-- **Attribute-only**: Add `[MSBuildMultiThreadableTask]` to an existing task that inherits from `Task`. This approach works for tasks that are already thread-safe and don't need access to `TaskEnvironment`. The task continues to inherit from `Task` (or `ToolTask`) as before.
-- **Interface-based**: Implement `IMultiThreadableTask` in addition to inheriting from `Task`. This approach gives your task access to the `TaskEnvironment` property for resolving paths, reading environment variables, and getting process start info. Use this approach when your task needs to replace process-level API calls.
+If your task does need to replace process-level API calls — for example, to resolve relative paths or read environment variables safely — also implement `IMultiThreadableTask`. This gives your task access to the `TaskEnvironment` property. The attribute remains required in both cases; `IMultiThreadableTask` is an additional step that unlocks the `TaskEnvironment` API.
 
 > [!NOTE]
 > MSBuild detects the `MSBuildMultiThreadableTaskAttribute` by namespace and name only, ignoring the defining assembly. This means you can define the attribute yourself in your own code (see [Support earlier versions of MSBuild](#support-earlier-versions-of-msbuild)) and MSBuild still recognizes it.
 
 > [!NOTE]
-> The `MSBuildMultiThreadableTaskAttribute` is non-inheritable (`Inherited = false`). Each task class must explicitly declare the attribute to be recognized as thread-safe. Inheriting from a class that has the attribute doesn't automatically make the derived class multithreadable.
+> The `MSBuildMultiThreadableTaskAttribute` is non-inheritable (`Inherited = false`). Each task class must explicitly declare the attribute to be recognized as multithreadable. Inheriting from a class that has the attribute doesn't automatically make the derived class multithreadable.
 
 ## Update paths and file I/O
 
@@ -229,6 +236,7 @@ Relative paths are always relative to the current working directory of the proce
 public readonly struct AbsolutePath : IEquatable<AbsolutePath>
 {
     public string Value { get; }
+    public string OriginalValue { get; }
     public AbsolutePath(string path);  // Validates Path.IsPathRooted
     public AbsolutePath(string path, AbsolutePath basePath);
     public static implicit operator string(AbsolutePath path);
@@ -236,6 +244,8 @@ public readonly struct AbsolutePath : IEquatable<AbsolutePath>
 ```
 
 The `AbsolutePath` constructor validates that the provided path is rooted. You can also construct an `AbsolutePath` by providing a relative path and a base path. The implicit conversion to `string` means you can pass an `AbsolutePath` directly to any API that expects a `string` path.
+
+The `OriginalValue` property preserves the original path string as it was passed in before resolution. This is useful when you need to keep relative paths in task outputs or log messages. For example, a task that logs which files it processed should use `OriginalValue` in its log messages so that paths in output remain relative and readable, while still using the resolved `Value` (or the implicit `string` conversion) for actual file I/O.
 
 Use `TaskEnvironment.GetAbsolutePath()` to resolve item paths:
 
@@ -253,11 +263,13 @@ File.WriteAllLines(filePath, new[] { comment }.Concat(originalLines));
 AbsolutePath filePath = TaskEnvironment.GetAbsolutePath(item.ItemSpec);
 string[] originalLines = File.ReadAllLines(filePath);  // AbsolutePath converts to string implicitly
 File.WriteAllLines(filePath, new[] { comment }.Concat(originalLines));
+// Use filePath.OriginalValue in log messages to preserve the relative path as written by the user
+Log.LogMessage(MessageImportance.High, $"Added build comment to: {filePath.OriginalValue}");
 ```
 
-### Handle file contention in multithreaded builds
+### Handle file contention in parallel builds
 
-In the old per-process model, tasks in different sub-project builds ran sequentially within each worker process, so file contention was rare. In multithreaded mode, multiple task instances run concurrently in the same process and might try to access the same file at the same time. This can happen when:
+File contention can occur whenever multiple tasks run in parallel and access the same file — this applies to both the traditional multi-process model and the newer in-process multithreaded mode. In both cases, the same file might be accessed concurrently when:
 
 - The same file appears in multiple sub-project builds (for example, a shared configuration file or a linked source file).
 - A task reads and writes a file that another task instance is also processing.
@@ -284,9 +296,9 @@ using (var stream = new FileStream(filePath, FileMode.Open, FileAccess.ReadWrite
 
 Key guidelines for file I/O in multithreaded tasks:
 
-- **Use `FileShare.None` for read-modify-write operations.** This prevents another task instance from reading stale content while you're updating the file.
-- **Catch `IOException` and consider retrying.** When another task instance holds a lock, your open attempt throws `IOException`. A short retry with backoff is often appropriate.
-- **Avoid holding locks on multiple files at once.** If two task instances each lock one file and then try to lock the other, you get a deadlock. If you must operate on multiple files, lock them in a consistent order (for example, sorted by full path).
+- **Use `FileShare.None` for read-modify-write operations.** This prevents another task from reading stale content while you're updating the file.
+- **Catch `IOException` and consider retrying.** When another task or process holds a lock, your open attempt throws `IOException`. A short retry with backoff is often appropriate.
+- **Avoid holding locks on multiple files at once.** If two tasks each lock one file and then try to lock the other, you get a deadlock. If you must operate on multiple files, lock them in a consistent order (for example, sorted by full path).
 - **Keep locks as short as possible.** Open the file, read, modify, write, and close in one operation. Don't hold a file lock while doing unrelated work.
 
 The preceding example is one approach. For general guidance on thread-safe file I/O in .NET, see [FileStream class](/dotnet/fundamentals/runtime-libraries/system-io-filestream), [FileShare enum](/dotnet/api/system.io.fileshare), and [Managed threading best practices](/dotnet/standard/threading/managed-threading-best-practices).
@@ -296,9 +308,17 @@ The preceding example is one approach. For general guidance on thread-safe file 
 
 ## Update environment variables
 
-In the earlier task runtime model, the original environment variables for a process would be read by the first task to execute in the project. That task might read or write the environment variables. Subsequent tasks that run in the same project use the modified environment variables.
+> [!NOTE]
+> Using environment variables to pass data between tasks or projects is not the recommended MSBuild pattern. The preferred approach is to use MSBuild properties and items, which are explicitly scoped, trackable, and work correctly across all build modes. If you're writing a new task, use task parameters (`[Required]` or optional properties) rather than environment variables to receive inputs and return outputs.
+>
+> The guidance in this section is for migrating existing tasks that already rely on environment variables. If you have the opportunity to refactor, consider moving that data to properties and items instead.
 
-The goal of the update work is to preserve the analogy of this behavior, but in-process. To do that, MSBuild's `TaskEnvironment` captures the original environment variable table, and then allows read and write operations to occur on that table of variables. The same table is reused for later tasks that run in the same project. This behavior ensures that the task environment usage pattern is preserved for all tasks in the project, as long as they are updated to use the `TaskEnvironment`'s table and not the actual process's environment variables.
+In the earlier task runtime model, the original environment variables for a process would be read by the first task to execute in the project. That task might read or write the environment variables, and subsequent tasks that ran in the same project would see the modified values.
+
+To preserve this behavior in-process, MSBuild's `TaskEnvironment` captures the original environment variable table and allows read and write operations on that per-project table. The same table is reused by later tasks in the same project, so existing patterns continue to work correctly as long as tasks are updated to use `TaskEnvironment` rather than the process-level `Environment` APIs.
+
+> [!NOTE]
+> This introduces a subtle behavioral difference compared to the multi-process model. In the old model, a worker process could handle multiple projects, so environment variable changes made by one project's tasks were visible to tasks in other projects running in the same process. In multithreaded mode, `TaskEnvironment` is scoped strictly to a single project — changes made by tasks in one project are not visible to tasks in another. If your task relies on environment variable changes being visible across project boundaries, that behavior will not carry over to multithreaded mode and you should refactor to use MSBuild properties instead.
 
 Replace all calls to `Environment` get and set methods with the equivalent methods on `TaskEnvironment` throughout the task.
 
@@ -383,7 +403,7 @@ private static int ModifiedFileCount = 0;
 int fileNumber = Interlocked.Increment(ref ModifiedFileCount);
 ```
 
-`Interlocked.Increment` performs the read-increment-write as a single atomic operation, so no counts are lost. This approach solves the concurrency problem but doesn't address the isolation problem — the counter is still shared across all builds in the process. If two builds run concurrently, their file numbers interleave (Build A gets #1, #3, #5; Build B gets #2, #4, #6). For many tasks, this behavior is acceptable.
+`Interlocked.Increment` performs the read-increment-write as a single atomic operation, so no counts are lost. This approach solves the concurrency problem, but the counter is still shared across all builds in the process — including consecutive builds and concurrent builds. If two builds run concurrently, their file numbers interleave (Build A gets #1, #3, #5; Build B gets #2, #4, #6). Whether this is acceptable depends on whether your task requires per-build isolation. For a sequential file numbering counter like `ModifiedFileCount`, cross-build sharing is a correctness issue — use `RegisterTaskObject` instead (see Approach 2).
 
 ### Approach 2: `RegisterTaskObject` — build-scoped isolation
 
@@ -444,11 +464,15 @@ With this approach, each build invocation gets its own `FileCounter`. All sub-pr
 
 ### Choose the right approach
 
-Use the following guidelines to decide which pattern fits your scenario:
+When deciding how to handle static state, start from this question: **is this data safe to share across all builds that might ever run in the same process, including consecutive builds and concurrent builds?**
 
-- For simple counters or flags where cross-build leakage is harmless, `Interlocked.Increment` or other `System.Threading` primitives are sufficient.
-- For state where per-build isolation matters (caches, accumulators, shared data structures), use `IBuildEngine4.RegisterTaskObject` with `RegisteredTaskObjectLifetime.Build`.
-- For more complex static state (collections, mutable objects), use standard thread-safe patterns such as `ConcurrentDictionary`, `lock` statements, or `ReaderWriterLockSlim`. See [Managed threading best practices](/dotnet/standard/threading/managed-threading-best-practices).
+MSBuild worker processes persist across invocations (node reuse is on by default), and an MSBuild process can potentially serve multiple solution builds over its lifetime — not just within a single `dotnet build` call. Don't assume that a process handles only one build.
+
+Use these guidelines:
+
+- **Retain the static field** only if the cached data is safe to access from multiple threads across different projects and across multiple builds without requiring invalidation between builds. For example, a cache of immutable data computed once from inputs that never change (such as assembly metadata loaded once at startup) might qualify.
+- **Use `IBuildEngine4.RegisterTaskObject` with `RegisteredTaskObjectLifetime.Build`** when the state must be isolated per build invocation — for example, counters, accumulators, or caches that should reset between builds or not leak between concurrent builds. This is the preferred approach for most shared mutable state.
+- **Use `System.Threading` primitives** (`Interlocked`, `ConcurrentDictionary`, `lock`, `ReaderWriterLockSlim`) to make any retained static state thread-safe, but remember that thread-safety alone does not provide build-level isolation. See [Managed threading best practices](/dotnet/standard/threading/managed-threading-best-practices).
 
 > [!TIP]
 > The complete migration example later in this article uses the `RegisterTaskObject` approach to demonstrate build-scoped isolation.
@@ -457,8 +481,8 @@ Use the following guidelines to decide which pattern fits your scenario:
 
 The following code shows the fully migrated `AddBuildCommentTask` with all five changes applied:
 
+1. Has the `[MSBuildMultiThreadableTask]` attribute, marking it for in-process execution.
 1. Implements `IMultiThreadableTask` alongside the existing `Task` base class, and exposes the `TaskEnvironment` property.
-1. Has the `[MSBuildMultiThreadableTask]` attribute.
 1. Uses `TaskEnvironment.GetAbsolutePath()` for path resolution.
 1. Uses `TaskEnvironment.GetEnvironmentVariable()` instead of `Environment.GetEnvironmentVariable()`.
 1. Uses `IBuildEngine4.RegisterTaskObject` with `RegisteredTaskObjectLifetime.Build` to scope the file counter to the current build invocation, replacing the process-wide static counter.
@@ -485,7 +509,7 @@ namespace BuildCommentTask
     {
         private static readonly object s_counterLock = new();
 
-        public TaskEnvironment TaskEnvironment { get; set; }
+        public TaskEnvironment TaskEnvironment { get; set; } = TaskEnvironment.Fallback;
 
         // Callers are responsible for passing only text files in TargetFiles,
         // and for setting CommentPrefix/CommentSuffix to match the file type.
@@ -579,13 +603,13 @@ Tasks that don't have the `[MSBuildMultiThreadableTask]` attribute or don't impl
 
 ## Support earlier versions of MSBuild
 
-If you update your custom task and then distribute it to others, your task supports clients using MSBuild 18.4 or later. To support clients on earlier versions of MSBuild, you have three options.
+If you update your custom task and then distribute it to others, your task supports clients using MSBuild 18.6 or later. To support clients on earlier versions of MSBuild, you have three options.
 
 ### Option 1: Maintain separate implementations
 
-Build separate task assemblies for MSBuild 18.4+ and earlier versions. The MSBuild 18.4+ version implements `IMultiThreadableTask` and uses `TaskEnvironment`. The earlier version continues to use `Task` with process-level APIs.
+Build separate task assemblies for MSBuild 18.6+ and earlier versions. The MSBuild 18.6+ version implements `IMultiThreadableTask` and uses `TaskEnvironment`. The earlier version continues to use `Task` with process-level APIs.
 
-### Option 2: Compatibility bridge (recommended)
+### Option 2: Compatibility bridge
 
 Define the `MSBuildMultiThreadableTaskAttribute` yourself in your task assembly. Because MSBuild detects the attribute by namespace and name only (ignoring the defining assembly), your self-defined attribute works in both old and new versions of MSBuild:
 
@@ -597,7 +621,7 @@ namespace Microsoft.Build.Framework
 }
 ```
 
-When running on MSBuild 18.4 or later, MSBuild recognizes the attribute and runs the task in-process. When running on earlier versions, MSBuild ignores the unknown attribute and runs the task out-of-process as before.
+When running on MSBuild 18.6 or later, MSBuild recognizes the attribute and runs the task in-process. When running on earlier versions, MSBuild ignores the unknown attribute and runs the task out-of-process as before.
 
 ### Option 3: Accept reduced performance
 
@@ -605,9 +629,9 @@ Make no changes to your task. MSBuild runs non-attributed tasks in a sidecar `Ta
 
 ### Comparison of approaches
 
-| Approach | Maintenance | Performance (18.4+) | Performance (older) | TaskEnvironment access |
+| Approach | Maintenance | Performance (18.6+) | Performance (older) | TaskEnvironment access |
 |---|---|---|---|---|
-| Separate implementations | High | Full in-process | Full out-of-process | Yes (18.4+ version) |
+| Separate implementations | High | Full in-process | Full out-of-process | Yes (18.6+ version) |
 | Compatibility bridge | Low | Full in-process | Full out-of-process | No (attribute-only) |
 | No changes | None | Sidecar (slower) | Full out-of-process | No |
 
