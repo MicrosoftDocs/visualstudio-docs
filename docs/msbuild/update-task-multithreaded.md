@@ -324,12 +324,12 @@ The preceding example is one approach. For general guidance on thread-safe file 
 >
 > The guidance in this section is for migrating existing tasks that already rely on environment variables. If you have the opportunity to refactor, consider moving that data to properties and items instead.
 
-In the earlier task runtime model, the original environment variables for a process would be read by the first task to execute in the project. That task might read or write the environment variables, and subsequent tasks that ran in the same project would see the modified values.
+In the multi-process model, the original environment variables for a process are read by the first task to execute in the project. That task can read or write the environment variables, and subsequent tasks that run in the same project see the modified values.
 
 To preserve this behavior in-process, MSBuild's `TaskEnvironment` captures the original environment variable table and allows read and write operations on that per-project table. The same table is reused by later tasks in the same project, so existing patterns continue to work correctly as long as tasks are updated to use `TaskEnvironment` rather than the process-level `Environment` APIs.
 
 > [!NOTE]
-> This introduces a subtle behavioral difference compared to the multi-process model. In the old model, a worker process could handle multiple projects, so environment variable changes made by one project's tasks were visible to tasks in other projects running in the same process. In multithreaded mode, `TaskEnvironment` is scoped strictly to a single project — changes made by tasks in one project are not visible to tasks in another. If your task relies on environment variable changes being visible across project boundaries, that behavior will not carry over to multithreaded mode and you should refactor to use MSBuild properties instead.
+> This introduces a subtle behavioral difference compared to the multi-process model. In the multi-process model, a worker process can handle multiple projects, so environment variable changes made by one project's tasks are visible to tasks in other projects running in the same process. In multithreaded mode, `TaskEnvironment` is scoped strictly to a single project — changes made by tasks in one project are not visible to tasks in another. If your task relies on environment variable changes being visible across project boundaries, that behavior will not carry over to multithreaded mode and you should refactor to use MSBuild properties instead.
 
 Replace all calls to `Environment` get and set methods with the equivalent methods on `TaskEnvironment` throughout the task.
 
@@ -384,7 +384,7 @@ Process.Start(startInfo);
 
 ## Update static fields and data structures to be thread-safe
 
-Static fields require careful treatment when you migrate to multithreaded builds. Even in the old per-process model, static state didn't always behave as expected. When MSBuild node reuse is enabled (the default), worker processes persist between builds, so static fields aren't reset between successive `dotnet build` invocations. A counter like `ModifiedFileCount` would keep incrementing across builds rather than starting fresh each time. Most task authors didn't notice because builds ran sequentially within each worker process and stale counters were a minor nuisance rather than a correctness issue.
+Static fields require careful treatment when you migrate to multithreaded builds. Even in the multi-process model, static state doesn't always behave as expected. When MSBuild node reuse is enabled (the default), worker processes persist between builds, so static fields aren't reset between successive `dotnet build` invocations. A counter like `ModifiedFileCount` keeps incrementing across builds rather than starting fresh each time. Many task authors don't notice because builds run sequentially within each worker process and stale counters are a minor nuisance rather than a correctness issue.
 
 Multithreaded mode adds a new dimension to this problem. Multiple builds can now share the same process and run tasks concurrently (especially with MSBuild Server, which is automatically enabled with multithreading). A static field is shared across all task instances in the process — not just within your build, but potentially across separate build invocations running concurrently. For example, two developers running `dotnet build` at the same time on a build server, or two terminal windows on the same machine, might share the same static state — and now those builds access it at the same time.
 
