@@ -9,6 +9,7 @@ helpviewer_keywords:
 - projects and solutions, develop code without
 author: Mikejo5000
 ms.author: mikejo
+ms.custom: awp-ai
 
 ms.subservice: general-ide
 ---
