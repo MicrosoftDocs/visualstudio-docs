@@ -1,7 +1,7 @@
 ---
 title: Use IntelliSense for quick information & completion
 description: Explore how to work with IntelliSense features in Visual Studio, including List Members, Parameter Info, Quick Info, and Complete Word.
-ms.date: 3/19/2026
+ms.date: 5/5/2026
 ms.topic: concept-article
 helpviewer_keywords:
 - Quick info
@@ -11,7 +11,7 @@ helpviewer_keywords:
 - IntelliSense [Visual Studio]
 author: ghogen
 ms.author: ghogen
-
+ms.custom: awp-ai
 ms.subservice: general-ide
 ---
 # IntelliSense in Visual Studio
@@ -26,7 +26,17 @@ These features include:
 
 Many aspects of IntelliSense are language-specific. For more information about IntelliSense for different languages, see the articles listed in the [Related content](#related-content) section.
 
+::: moniker range=">=visualstudio"
+
+In addition to IntelliSense, Visual Studio offers AI-powered code completions through GitHub Copilot. Copilot inline suggestions work alongside IntelliSense to provide whole-line and multi-line completions. When IntelliSense is active, Copilot completions are temporarily suppressed so you can focus on the IntelliSense list. Once you dismiss or commit the IntelliSense selection, Copilot completions resume automatically. To learn more, see [Get started with GitHub Copilot completions](visual-studio-github-copilot-extension.md).
+
+::: moniker-end
+
+::: moniker range="<= vs-2022"
+
 In addition to IntelliSense, Visual Studio offers AI-powered code completions through GitHub Copilot. Copilot inline suggestions work alongside IntelliSense to provide whole-line and multi-line completions. To learn more, see [Get started with GitHub Copilot completions](visual-studio-github-copilot-extension.md).
+
+::: moniker-end
 
 ## List Members
 

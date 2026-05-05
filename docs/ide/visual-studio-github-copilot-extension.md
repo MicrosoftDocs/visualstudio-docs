@@ -170,6 +170,10 @@ To differentiate suggestions from your actual code, colorized completions appear
 
 To disable colorization and use the original single-color appearance, go to **Tools** > **Options** > **Text Editor** > **Code Completions**, and clear the **Use colorized text for code completions** checkbox.
 
+### IntelliSense and Copilot completion behavior
+
+When IntelliSense is active (for example, when the member list or parameter info appears), Copilot completions are temporarily suppressed so you can focus on the IntelliSense list without distraction. Once you dismiss or commit the IntelliSense selection, Copilot completions resume automatically. This is the default behavior and requires no configuration.
+
 :::moniker-end
 :::moniker range="vs-2022"
 
