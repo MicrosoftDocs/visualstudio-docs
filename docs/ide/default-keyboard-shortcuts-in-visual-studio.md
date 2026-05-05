@@ -11,6 +11,7 @@ helpviewer_keywords:
 - keyboard shortcuts
 author: ghogen
 ms.author: ghogen
+ms.custom: awp-ai
 
 ms.subservice: general-ide
 ---
