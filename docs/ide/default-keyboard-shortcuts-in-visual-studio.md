@@ -524,7 +524,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Go to work items|**Ctrl+0** (zero), **Ctrl+W**<br /><br /> or<br /><br /> **Ctrl+0, W**| TeamFoundationContextMenus.Commands.GoToWorkItems |
 
 > [!NOTE]
-> The legacy Team Explorer work items experience is deprecated. The **Go to work items** command opens work items in the web portal instead of inside Visual Studio. For more information, see [work items in Visual Studio](https://devblogs.microsoft.com/devops/work-items-in-visual-studio/).
+> The legacy Team Explorer work items experience is deprecated. Going forward, the **Go to work items** command no longer opens inside Visual Studio and instead opens work items in the web portal, where you'll find a modern, more consistent experience. This change aligns with updates introduced in Visual Studio 2019 and 2022 and ensures that all work item features are available through the web experience. For more information, see [work items in Visual Studio](https://devblogs.microsoft.com/devops/work-items-in-visual-studio/).
 
 ### <a name="bkmk_test-global-shortcuts"></a> Test: global shortcuts
 

@@ -84,7 +84,7 @@ As of Visual Studio 2019 [version 16.8](/visualstudio/releases/2019/release-note
 You can still use Team Explorer in Visual Studio 2022 and in Visual Studio 2019 [version 16.8](/visualstudio/releases/2019/release-notes/) and later. However, you might find it easier to use the new Git experience. For more information, see [How Visual Studio makes version control easy with Git](../version-control/git-with-visual-studio.md).
 
 > [!NOTE]
-> The legacy work items experience in Team Explorer is deprecated. Work items open in the web portal instead of inside Visual Studio, which provides a modern and more consistent experience with full feature availability. For more information, see [work items in Visual Studio](https://devblogs.microsoft.com/devops/work-items-in-visual-studio/).
+> The legacy work items experience in Team Explorer is deprecated. Going forward, work items no longer open inside Visual Studio and instead open in the web portal, where you'll find a modern, more consistent experience. This change aligns with updates introduced in Visual Studio 2019 and 2022 and ensures that all work item features are available through the web experience. For more information, see [work items in Visual Studio](https://devblogs.microsoft.com/devops/work-items-in-visual-studio/).
 
 1. In Visual Studio, choose the **Team Explorer** tab to open **Team Explorer**. If you don't see the tab, open it from **View** > **Team Explorer**.
 
