@@ -101,6 +101,8 @@ namespace BuildCommentTask
 
                     ModifiedFileCount++;
                     string comment = $"{CommentPrefix}Build Date: {buildDate}, Version: {VersionNumber}, File #: {ModifiedFileCount}{CommentSuffix}";
+                    // Note: rewriting a file in place like this is convenient for a sample but is not
+                    // recommended in production tasks. Prefer writing to a separate output file instead.
                     File.WriteAllLines(filePath, new[] { comment }.Concat(originalLines));
                     Log.LogMessage(MessageImportance.High, $"Added build comment to: {filePath}");
                 }
@@ -142,7 +144,7 @@ This task has four thread-safety issues that need to be addressed for multithrea
 
 1. **Relative paths**: `File.ReadAllLines` and `File.WriteAllLines` use `item.ItemSpec` directly, which might be a relative path. In multithreaded mode, the process working directory isn't guaranteed to be the project directory.
 2. **Static field**: `ModifiedFileCount` is a `static` field shared across all instances, which causes data races when multiple builds run concurrently.
-3. **Environment variable**: `Environment.GetEnvironmentVariable()` reads from the process-level environment, which is shared across all concurrent builds. In multithreaded mode, one build's environment changes can bleed into another.
+3. **Environment variables**: The most common environment variable problem in multithreaded builds is tasks that *set* environment variables before spawning a child process, expecting the child to inherit them. In multithreaded mode, `Environment.SetEnvironmentVariable()` modifies the process-level environment shared by all concurrent builds, so a change intended for one project's child process can bleed into another's. Reading environment variables directly in task code (`Environment.GetEnvironmentVariable()`) is also generally a bad practice — MSBuild properties are a better alternative because they're logged and traceable.
 4. **No TaskEnvironment usage**: The task doesn't use `TaskEnvironment` for path resolution or environment access, so it can't reliably operate in multithreaded mode.
 
 > [!IMPORTANT]
@@ -265,6 +267,8 @@ Use `TaskEnvironment.GetAbsolutePath()` to resolve item paths:
 ```csharp
 var filePath = item.ItemSpec;
 string[] originalLines = File.ReadAllLines(filePath);
+// Note: rewriting a file in place like this is convenient for a sample but is not
+// recommended in production tasks. Prefer writing to a separate output file instead.
 File.WriteAllLines(filePath, new[] { comment }.Concat(originalLines));
 ```
 
@@ -273,6 +277,8 @@ File.WriteAllLines(filePath, new[] { comment }.Concat(originalLines));
 ```csharp
 AbsolutePath filePath = TaskEnvironment.GetAbsolutePath(item.ItemSpec);
 string[] originalLines = File.ReadAllLines(filePath);  // AbsolutePath converts to string implicitly
+// Note: rewriting a file in place like this is convenient for a sample but is not
+// recommended in production tasks. Prefer writing to a separate output file instead.
 File.WriteAllLines(filePath, new[] { comment }.Concat(originalLines));
 // Use filePath.OriginalValue in log messages to preserve the relative path as written by the user
 Log.LogMessage(MessageImportance.High, $"Added build comment to: {filePath.OriginalValue}");
@@ -320,18 +326,40 @@ The preceding example is one approach. For general guidance on thread-safe file 
 ## Update environment variables
 
 > [!NOTE]
-> Using environment variables to pass data between tasks or projects is not the recommended MSBuild pattern. The preferred approach is to use MSBuild properties and items, which are explicitly scoped, trackable, and work correctly across all build modes. If you're writing a new task, use task parameters (`[Required]` or optional properties) rather than environment variables to receive inputs and return outputs.
+> **Reading environment variables in task code is generally a bad practice**, even in single-threaded builds. MSBuild properties are a better alternative: they're explicitly scoped, logged during the build, and traceable in the build log. If your task currently reads an environment variable to receive input, consider replacing it with a task property instead. The project can still derive the value from an environment variable: `<AddBuildCommentTask DisableComments="$(DISABLE_BUILD_COMMENTS)" ... />`.
 >
-> The guidance in this section is for migrating existing tasks that already rely on environment variables. If you have the opportunity to refactor, consider moving that data to properties and items instead.
+> The guidance in this section is for migrating existing tasks that already rely on environment variables. If you have the opportunity to refactor, prefer properties and items.
 
-In the multi-process model, the original environment variables for a process are read by the first task to execute in the project. That task can read or write the environment variables, and subsequent tasks that run in the same project see the modified values.
+### Setting environment variables for child processes
 
-To preserve this behavior in-process, MSBuild's `TaskEnvironment` captures the original environment variable table and allows read and write operations on that per-project table. The same table is reused by later tasks in the same project, so existing patterns continue to work correctly as long as tasks are updated to use `TaskEnvironment` rather than the process-level `Environment` APIs.
+The most common environment variable problem in multithreaded builds is a task that **sets** an environment variable and then spawns a child process, expecting the child to inherit it. In the multi-process model, `Environment.SetEnvironmentVariable()` safely modified the worker process environment for that project. In multithreaded mode, the process is shared across all concurrent builds, so a change intended for one project's child process can leak into another.
+
+Use `TaskEnvironment.SetEnvironmentVariable()` together with `TaskEnvironment.GetProcessStartInfo()` (see [Update ProcessStart API calls](#update-processstart-api-calls)). `GetProcessStartInfo()` returns a `ProcessStartInfo` pre-populated with the project's working directory and its isolated environment table — including any variables you set with `SetEnvironmentVariable()` — so child processes automatically inherit the correct, project-scoped environment.
+
+**Before:**
+
+```csharp
+Environment.SetEnvironmentVariable("TOOL_OUTPUT_DIR", outputDir);
+var startInfo = new ProcessStartInfo("mytool.exe") { UseShellExecute = false };
+Process.Start(startInfo);  // inherits the modified process-level environment
+```
+
+**After:**
+
+```csharp
+TaskEnvironment.SetEnvironmentVariable("TOOL_OUTPUT_DIR", outputDir);
+ProcessStartInfo startInfo = TaskEnvironment.GetProcessStartInfo();
+startInfo.FileName = "mytool.exe";
+startInfo.UseShellExecute = false;
+Process.Start(startInfo);  // inherits the project-scoped environment
+```
 
 > [!NOTE]
-> This introduces a subtle behavioral difference compared to the multi-process model. In the multi-process model, a worker process can handle multiple projects, so environment variable changes made by one project's tasks are visible to tasks in other projects running in the same process. In multithreaded mode, `TaskEnvironment` is scoped strictly to a single project — changes made by tasks in one project are not visible to tasks in another. If your task relies on environment variable changes being visible across project boundaries, that behavior will not carry over to multithreaded mode and you should refactor to use MSBuild properties instead.
+> This introduces a subtle behavioral difference from the multi-process model. In the multi-process model, a worker process can handle multiple projects, so environment variable changes made by one project's tasks are visible to other projects in the same process. In multithreaded mode, `TaskEnvironment` is scoped strictly to a single project — changes made by one project's tasks are not visible to tasks in another project. If your task relies on cross-project environment variable visibility, refactor to use MSBuild properties instead.
 
-Replace all calls to `Environment` get and set methods with the equivalent methods on `TaskEnvironment` throughout the task.
+### Reading environment variables in existing tasks
+
+If your existing task reads environment variables and you can't immediately refactor to task properties, replace `Environment.GetEnvironmentVariable()` with `TaskEnvironment.GetEnvironmentVariable()`. This reads from the project-scoped environment table rather than the shared process environment, so concurrent builds don't interfere with each other.
 
 **Before** (from `BuildCommentTask`):
 
@@ -345,19 +373,12 @@ string disableComments = Environment.GetEnvironmentVariable("DISABLE_BUILD_COMME
 string disableComments = TaskEnvironment.GetEnvironmentVariable("DISABLE_BUILD_COMMENTS");
 ```
 
-The same pattern applies to setting environment variables and enumerating all variables:
-
-```csharp
-// Set a variable in the task's isolated environment table
-TaskEnvironment.SetEnvironmentVariable("BUILD_OUTPUT", outputPath);
-
-// Enumerate all environment variables visible to the task
-IReadOnlyDictionary<string, string> allVars = TaskEnvironment.GetEnvironmentVariables();
-```
+> [!TIP]
+> When updating existing code that reads an environment variable, consider replacing the pattern with a task property. For example, expose `public bool DisableComments { get; set; }` on the task and let the project pass `DisableComments="$(DISABLE_BUILD_COMMENTS)"`. MSBuild logs the resolved value, making it visible in the build log and far easier to diagnose than a hidden environment variable read.
 
 ## Update ProcessStart API calls
 
-Typically, if a task starts a process, you should use `ToolTask`, which handles everything for you. In cases where you're updating a task that calls `ProcessStartInfo` directly, use the `TaskEnvironment.GetProcessStartInfo()` method. This method returns a `ProcessStartInfo` that's configured with the correct working directory and environment variables for the task's project context.
+Typically, if a task starts a process, you should use `ToolTask`, which handles everything for you. In cases where you're updating a task that calls `ProcessStartInfo` directly, use `TaskEnvironment.GetProcessStartInfo()`. This returns a `ProcessStartInfo` configured with the project's working directory and its isolated environment table. If you're also setting environment variables before launching, use `TaskEnvironment.SetEnvironmentVariable()` first, as shown in the previous section.
 
 **Before:**
 
@@ -566,6 +587,8 @@ namespace BuildCommentTask
 
                     int fileNumber = counter.Next();
                     string comment = $"{CommentPrefix}Build Date: {buildDate}, Version: {VersionNumber}, File #: {fileNumber}{CommentSuffix}";
+                    // Note: rewriting a file in place like this is convenient for a sample but is not
+                    // recommended in production tasks. Prefer writing to a separate output file instead.
                     File.WriteAllLines(filePath, new[] { comment }.Concat(originalLines));
                     Log.LogMessage(MessageImportance.High, $"Added build comment to: {filePath}");
                 }
