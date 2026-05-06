@@ -1,7 +1,7 @@
 ---
 title: Configure Hot Reload
 description: Learn how to enable, disable, and configure Hot Reload (previously called Edit and Continue) in Visual Studio options at design time.
-ms.date: 04/13/2026
+ms.date: 05/05/2026
 ms.topic: how-to
 dev_langs: 
   - CSharp
@@ -41,20 +41,21 @@ For native C++, Hot Reload requires using the `/INCREMENTAL` option. For more in
 
 ::: moniker-end
 
-
-::: moniker range=">=vs-2022"
-
 ## Enable and configure Hot Reload
 
+::: moniker range="visualstudio"
+You can view Hot Reload settings by selecting **Settings** from the **Hot Reload** dropdown button.
+::: moniker-end
+
+::: moniker range="vs-2022"
 You can configure Hot Reload by selecting **Settings** from the **Hot Reload** dropdown button.
+::: moniker-end
 
 ![Screenshot of configuring Hot Reload.](../debugger/media/vs-2022/dotnet-hot-reload-configure.png)
 
-::: moniker-end
-
 :::moniker range="visualstudio"
 
-Or, open the **Tools** > **Options** pane and adjust the options in the **All Settings** > **Debugging** > **.NET/C++ Hot Reload** section. The following options are available:
+To change the settings, stop debugging, then select **Tools** > **Options** and adjust the options in the **All Settings** > **Debugging** > **.NET/C++ Hot Reload** section. The following options are available:
 
 - **Enable Hot Reload**: Use the Hot Reload feature with .NET and C++ code when your app is running with the debugger attached (**F5**).
 
