@@ -14,7 +14,7 @@ monikerRange: visualstudio
 
 # Update an MSBuild task to work in multithreaded mode
 
-MSBuild 18.6 introduces the capability to build in parallel within the same process. To opt in to this mode, pass the `-mt` command-line switch. Previous versions of MSBuild supported parallel builds, but builds were done in separate processes. This change has some impacts to how you author tasks. Whereas previously, tasks would run in a separate process, now tasks run in the same process. While most logic doesn't need to change, there are some process-level constructs that need to be handled more carefully. Process-level constructs include the current working directory, environment variables, and process start info (`ProcessStartInfo`).
+MSBuild 18.6 introduces the capability to build in parallel within the same process. To opt in to this mode, pass the `-mt` command-line switch. Previous versions of MSBuild supported parallel builds, but builds were done in separate processes. This change has some impacts to how you author tasks. Whereas previously, tasks would run in a separate process, now all multithread-enabled tasks run in the same process. While most logic doesn't need to change, there are some process-level constructs that need to be handled more carefully. Process-level constructs include the current working directory, environment variables, and process start info (`ProcessStartInfo`).
 
 To support these changes, MSBuild 18.6 introduces the `IMultiThreadableTask` interface (in `Microsoft.Build.Framework`) and the `TaskEnvironment` class. `TaskEnvironment` includes a `ProjectDirectory` property and methods such as `GetAbsolutePath()`, `GetEnvironmentVariable()`, `SetEnvironmentVariable()`, and `GetProcessStartInfo()`.
 
@@ -39,7 +39,7 @@ public class MyTask : Task, IMultiThreadableTask
 }
 ```
 
-Tasks that implement `IMultiThreadableTask` can run in-process.All such tasks must also carry the `[MSBuildMultiThreadableTask]` attribute — the attribute is the marker MSBuild uses to opt the task into in-process execution. Before adding the attribute, confirm that the task doesn't have any dependencies on process-level constructs like the current working directory or the environment, and that its code is thread-safe. Pay particular attention to ensure thread-safe access to static variables, as these are shared among all task instances and might be accessed or modified by different instances of the task that are also running in the same process.
+Tasks that implement `IMultiThreadableTask` can run in-process. All such tasks must also carry the `[MSBuildMultiThreadableTask]` attribute — the attribute is the marker MSBuild uses to opt the task into in-process execution. Before adding the attribute, confirm that the task doesn't have any dependencies on process-level constructs like the current working directory or the environment, and that its code is thread-safe. Pay particular attention to ensure thread-safe access to static variables, as these are shared among all task instances and might be accessed or modified by different instances of the task that are also running in the same process.
 
 ## Example task: BuildCommentTask
 
@@ -146,7 +146,7 @@ This task has four thread-safety issues that need to be addressed for multithrea
 4. **No TaskEnvironment usage**: The task doesn't use `TaskEnvironment` for path resolution or environment access, so it can't reliably operate in multithreaded mode.
 
 > [!IMPORTANT]
-> The multithreaded build mode is currently available only for .NET CLI (`dotnet build`) builds. Visual Studio MSBuild builds do not yet support multithreaded execution in-process. In Visual Studio, all task execution continues to run out of process. Visual Studio integration is planned for a future release.
+> The multithreaded build mode is currently available only for CLI (`dotnet build` and `MSBuild.exe`) builds. Visual Studio MSBuild builds do not yet support multithreaded execution in-process. In Visual Studio, all task execution continues to run out of process. Visual Studio integration is planned for a future release.
 
 ## Prerequisites
 
@@ -256,7 +256,7 @@ public readonly struct AbsolutePath : IEquatable<AbsolutePath>
 
 The `AbsolutePath` constructor validates that the provided path is rooted. You can also construct an `AbsolutePath` by providing a relative path and a base path. The implicit conversion to `string` means you can pass an `AbsolutePath` directly to any API that expects a `string` path.
 
-The `OriginalValue` property preserves the original path string as it was passed in before resolution. This is useful when you need to keep relative paths in task outputs or log messages. For example, a task that logs which files it processed should use `OriginalValue` in its log messages so that paths in output remain relative and readable, while still using the resolved `Value` (or the implicit `string` conversion) for actual file I/O.
+The `OriginalValue` property preserves the original path string as it was passed in before resolution. This is useful when you need to keep relative paths in task outputs or log messages. For example, a task that logs which files it processed may use `OriginalValue` in its log messages so that paths in output remain relative and readable, while still using the resolved `Value` (or the implicit `string` conversion) for actual file I/O.
 
 Use `TaskEnvironment.GetAbsolutePath()` to resolve item paths:
 
