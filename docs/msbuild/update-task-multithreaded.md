@@ -1,7 +1,7 @@
 ---
 title: Update an MSBuild custom task for multithreaded builds
 description: Learn how to migrate an MSBuild custom task to work in the multithreaded build model using IMultiThreadableTask, TaskEnvironment, and AbsolutePath.
-ms.date: 04/03/2026
+ms.date: 05/06/2026
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
@@ -17,6 +17,9 @@ monikerRange: visualstudio
 MSBuild 18.6 introduces the capability to build in parallel within the same process. To opt in to this mode, pass the `-mt` command-line switch. Previous versions of MSBuild supported parallel builds, but builds were done in separate processes. This change has some impacts to how you author tasks. Whereas previously, tasks would run in a separate process, now all multithread-enabled tasks run in the same process. While most logic doesn't need to change, there are some process-level constructs that need to be handled more carefully. Process-level constructs include the current working directory, environment variables, and process start info (`ProcessStartInfo`).
 
 To support these changes, MSBuild 18.6 introduces the `IMultiThreadableTask` interface (in `Microsoft.Build.Framework`) and the `TaskEnvironment` class. `TaskEnvironment` includes a `ProjectDirectory` property and methods such as `GetAbsolutePath()`, `GetEnvironmentVariable()`, `SetEnvironmentVariable()`, and `GetProcessStartInfo()`.
+
+> [!IMPORTANT]
+> Multithreaded mode is currently available as an experimental feature; it is not recommended for production use at this time.Updating your MSBuild library dependencies to use the multithreaded mode APIs implicitly prevents your libraries from running on older versions of Visual Studio and MSBuild. We encourage early adopters to try multithreaded mode, and provide feedback. Submit issues at the [MSBuild](https://github.com/dotnet/msbuild) GitHub repository. 
 
 The `IMultiThreadableTask` interface defines the contract for tasks that can run in-process in multithreaded builds:
 
