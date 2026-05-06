@@ -19,7 +19,7 @@ MSBuild 18.6 introduces the capability to build in parallel within the same proc
 To support these changes, MSBuild 18.6 introduces the `IMultiThreadableTask` interface (in `Microsoft.Build.Framework`) and the `TaskEnvironment` class. `TaskEnvironment` includes a `ProjectDirectory` property and methods such as `GetAbsolutePath()`, `GetEnvironmentVariable()`, `SetEnvironmentVariable()`, and `GetProcessStartInfo()`.
 
 > [!IMPORTANT]
-> Multithreaded mode is currently available as an experimental feature; it is not recommended for production use at this time.Updating your MSBuild library dependencies to use the multithreaded mode APIs implicitly prevents your libraries from running on older versions of Visual Studio and MSBuild. We encourage early adopters to try multithreaded mode, and provide feedback. Submit issues at the [MSBuild](https://github.com/dotnet/msbuild) GitHub repository. 
+> Multithreaded mode is currently available as an experimental feature; it is not recommended for production use at this time. Updating your MSBuild library dependencies to use the multithreaded mode APIs implicitly prevents your libraries from running on older versions of Visual Studio and MSBuild. We encourage early adopters to try multithreaded mode, and provide feedback. Submit issues at the [MSBuild](https://github.com/dotnet/msbuild) GitHub repository. 
 
 The `IMultiThreadableTask` interface defines the contract for tasks that can run in-process in multithreaded builds:
 
