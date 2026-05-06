@@ -83,7 +83,7 @@ namespace BuildCommentTask
                 return true;
             }
 
-            string buildDate = DateTime.UtcNow.ToString("yyyy-MM-dd HH:mm:ss");
+            string buildDate = DateTime.UtcNow.ToString("yyyy-MM-dd");
             string commentPattern = $@"^{Regex.Escape(CommentPrefix)}\s*Build Date:.*Version:.*{Regex.Escape(CommentSuffix)}$";
 
             foreach (var item in TargetFiles)
@@ -547,7 +547,7 @@ namespace BuildCommentTask
 
             FileCounter counter = GetOrCreateCounter();
 
-            string buildDate = DateTime.UtcNow.ToString("yyyy-MM-dd HH:mm:ss");
+            string buildDate = DateTime.UtcNow.ToString("yyyy-MM-dd");
             string commentPattern = $@"^{Regex.Escape(CommentPrefix)}\s*Build Date:.*Version:.*{Regex.Escape(CommentSuffix)}$";
 
             foreach (var item in TargetFiles)
