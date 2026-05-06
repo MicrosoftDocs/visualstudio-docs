@@ -145,7 +145,6 @@ This task has four thread-safety issues that need to be addressed for multithrea
 1. **Relative paths**: `File.ReadAllLines` and `File.WriteAllLines` use `item.ItemSpec` directly, which might be a relative path. In multithreaded mode, the process working directory isn't guaranteed to be the project directory.
 2. **Static field**: `ModifiedFileCount` is a `static` field shared across all instances, which causes data races when multiple builds run concurrently.
 3. **Environment variables**: The most common environment variable problem in multithreaded builds is tasks that *set* environment variables before spawning a child process, expecting the child to inherit them. In multithreaded mode, `Environment.SetEnvironmentVariable()` modifies the process-level environment shared by all concurrent builds, so a change intended for one project's child process can bleed into another's. Reading environment variables directly in task code (`Environment.GetEnvironmentVariable()`) is also generally a bad practice — MSBuild properties are a better alternative because they're logged and traceable.
-4. **No TaskEnvironment usage**: The task doesn't use `TaskEnvironment` for path resolution or environment access, so it can't reliably operate in multithreaded mode.
 
 > [!IMPORTANT]
 > The multithreaded build mode is currently available only for CLI (`dotnet build` and `MSBuild.exe`) builds. Visual Studio MSBuild builds do not yet support multithreaded execution in-process. In Visual Studio, all task execution continues to run out of process. Visual Studio integration is planned for a future release.
@@ -239,7 +238,7 @@ If you need to support MSBuild versions earlier than 18.6 that don't include `Ta
 
 A task often accepts inputs, such as item lists in MSBuild, which if they are files, might be in the form of relative paths.
 
-Relative paths are always relative to the current working directory of the process, but because the task now executes in-process, the working directory might not be the same as it was when the task ran in its own process. Such paths are relative to the project directory. The `TaskEnvironment` includes a `ProjectDirectory` property and a `GetAbsolutePath()` method that you can use to resolve relative paths to absolute paths.
+Relative paths are always relative to the current working directory of the process, but because the task now executes in-process, the working directory might not be the same as it was when the task ran in its own process. Such paths are relative to the project directory. The `TaskEnvironment` includes a `ProjectDirectory` property and a `GetAbsolutePath()` method that you can use to resolve relative paths to absolute paths. You can also access the `FullPath` metadatum; there is no need to use the `ItemSpec` relative path and then absolutize it.
 
 ### The AbsolutePath type
 
@@ -354,9 +353,6 @@ startInfo.UseShellExecute = false;
 Process.Start(startInfo);  // inherits the project-scoped environment
 ```
 
-> [!NOTE]
-> This introduces a subtle behavioral difference from the multi-process model. In the multi-process model, a worker process can handle multiple projects, so environment variable changes made by one project's tasks are visible to other projects in the same process. In multithreaded mode, `TaskEnvironment` is scoped strictly to a single project — changes made by one project's tasks are not visible to tasks in another project. If your task relies on cross-project environment variable visibility, refactor to use MSBuild properties instead.
-
 ### Reading environment variables in existing tasks
 
 If your existing task reads environment variables and you can't immediately refactor to task properties, replace `Environment.GetEnvironmentVariable()` with `TaskEnvironment.GetEnvironmentVariable()`. This reads from the project-scoped environment table rather than the shared process environment, so concurrent builds don't interfere with each other.
@@ -405,7 +401,7 @@ Process.Start(startInfo);
 
 ## Update static fields and data structures to be thread-safe
 
-Static fields require careful treatment when you migrate to multithreaded builds. Even in the multi-process model, static state doesn't always behave as expected. When MSBuild node reuse is enabled (the default), worker processes persist between builds, so static fields aren't reset between successive `dotnet build` invocations. A counter like `ModifiedFileCount` keeps incrementing across builds rather than starting fresh each time. Many task authors don't notice because builds run sequentially within each worker process and stale counters are a minor nuisance rather than a correctness issue.
+Static fields require careful treatment when you migrate to multithreaded builds. Even in the multi-process model, a single process can build multiple projects, so the static state is shared, just not concurrently.
 
 Multithreaded mode adds a new dimension to this problem. Multiple builds can now share the same process and run tasks concurrently (especially with MSBuild Server, which is automatically enabled with multithreading). A static field is shared across all task instances in the process — not just within your build, but potentially across separate build invocations running concurrently. For example, two developers running `dotnet build` at the same time on a build server, or two terminal windows on the same machine, might share the same static state — and now those builds access it at the same time.
 
@@ -424,7 +420,7 @@ This code has two problems. First, the `++` operator isn't atomic — when multi
 
 The following sections show two approaches for fixing these problems, from simplest to most correct.
 
-### Approach 1: `Interlocked.Increment` — thread-safe but process-wide
+### Approach 1: Use a thread-safe, but process-wide API
 
 The simplest fix is to make the increment atomic:
 
@@ -436,6 +432,8 @@ int fileNumber = Interlocked.Increment(ref ModifiedFileCount);
 ```
 
 `Interlocked.Increment` performs the read-increment-write as a single atomic operation, so no counts are lost. This approach solves the concurrency problem, but the counter is still shared across all builds in the process — including consecutive builds and concurrent builds. If two builds run concurrently, their file numbers interleave (Build A gets #1, #3, #5; Build B gets #2, #4, #6). Whether this is acceptable depends on whether your task requires per-build isolation. For a sequential file numbering counter like `ModifiedFileCount`, cross-build sharing is a correctness issue — use `RegisterTaskObject` instead (see Approach 2).
+
+Here, the thread-safe, but process-wide API equivalent is `InterlockedIncrement`, but in your own code, you would need to find appropriate thread-safe substitutes for any APIs that are not thread-safe. For example, if your task persists state using a `Dictionary`, consider using <xref:System.Collections.Concurrent.ConcurrentDictionary`2>.
 
 ### Approach 2: `RegisterTaskObject` — build-scoped isolation
 
@@ -633,17 +631,21 @@ namespace BuildCommentTask
 
 ## What happens to non-migrated tasks
 
-Tasks that don't have the `[MSBuildMultiThreadableTask]` attribute or don't implement `IMultiThreadableTask` continue to work without any changes. MSBuild runs these tasks in a sidecar `TaskHost` process, which provides the same process-level isolation as earlier versions of MSBuild. This approach is slower because of the overhead of inter-process communication, but it's fully compatible with existing task code. Migration is optional for correctness—non-migrated tasks still produce correct results—but migrating improves build performance.
+Tasks that don't have the `[MSBuildMultiThreadableTask]` attribute or don't implement `IMultiThreadableTask` continue to work without any changes. MSBuild runs these tasks in a subsidiary `TaskHost` process, which provides the same process-level isolation as earlier versions of MSBuild. This approach is slower because of the overhead of inter-process communication, but it's fully compatible with existing task code. Migration is optional for correctness—non-migrated tasks still produce correct results—but migrating improves build performance.
 
 ## Support earlier versions of MSBuild
 
 If you update your custom task and then distribute it to others, your task supports clients using MSBuild 18.6 or later. To support clients on earlier versions of MSBuild, you have three options.
 
-### Option 1: Maintain separate implementations
+### Option 1: Accept reduced performance
+
+Make no changes to your task. MSBuild runs non-attributed tasks in a subsidiary `TaskHost` process, which is slower but fully compatible. This option requires no code changes.
+
+### Option 2: Maintain separate implementations
 
 Build separate task assemblies for MSBuild 18.6+ and earlier versions. The MSBuild 18.6+ version implements `IMultiThreadableTask` and uses `TaskEnvironment`. The earlier version continues to use `Task` with process-level APIs.
 
-### Option 2: Compatibility bridge
+### Option 3: Compatibility bridge
 
 Define the `MSBuildMultiThreadableTaskAttribute` yourself in your task assembly. Because MSBuild detects the attribute by namespace and name only (ignoring the defining assembly), your self-defined attribute works in both old and new versions of MSBuild:
 
@@ -655,11 +657,9 @@ namespace Microsoft.Build.Framework
 }
 ```
 
-When running on MSBuild 18.6 or later, MSBuild recognizes the attribute and runs the task in-process. When running on earlier versions, MSBuild ignores the unknown attribute and runs the task out-of-process as before.
+When running on MSBuild 18.6 or later, MSBuild recognizes the attribute and runs the task in-process. When running on earlier versions, MSBuild ignores the unknown attribute and runs the task as before.
 
-### Option 3: Accept reduced performance
-
-Make no changes to your task. MSBuild runs non-attributed tasks in a sidecar `TaskHost` process, which is slower but fully compatible. This option requires no code changes.
+With this option, you don't have access to `TaskEnvironment`, so you will have to manually handle everything it handles, such as converting all your relative paths to absolute paths.
 
 ### Comparison of approaches
 
