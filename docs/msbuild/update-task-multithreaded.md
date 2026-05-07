@@ -437,7 +437,7 @@ Here, the thread-safe, but process-wide API equivalent is `InterlockedIncrement`
 
 ### Approach 2: `RegisterTaskObject` for build-scoped isolation
 
-If your task needs static state that's shared across sub-projects within a single build invocation but isolated from other concurrent builds, use `IBuildEngine4.RegisterTaskObject` with `RegisteredTaskObjectLifetime.Build`. MSBuild manages the lifetime of the object, which is created on first use and cleaned up when the build ends.
+If your task needs static state that's shared across sub-projects within a single build invocation but isolated from other concurrent builds, use `IBuildEngine4.RegisterTaskObject` with `RegisteredTaskObjectLifetime.Build`. MSBuild manages the lifetime of the object, which is created on first use and cleaned up when the build ends. Note that the registered objects have to be thread-safe.
 
 First, define a simple thread-safe counter class:
 
