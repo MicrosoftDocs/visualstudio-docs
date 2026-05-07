@@ -174,9 +174,6 @@ Review your task code for the following issues:
 1. If none of the above apply, consider adding the attribute only.
 1. Consider special requirements for supporting earlier versions of MSBuild. See [Support earlier versions of MSBuild](#support-earlier-versions-of-msbuild).
 
-> [!TIP]
-> MSBuild provides a Roslyn analyzer that can detect problematic API usage in your task code. Enable the analyzer in your task project to automatically flag calls to `Environment.GetEnvironmentVariable()`, `Environment.CurrentDirectory`, relative path usage, and other patterns that need to be updated for multithreaded builds.
-
 ## API replacement quick reference
 
 The following table summarizes the .NET APIs that you should replace and their `TaskEnvironment` equivalents:
