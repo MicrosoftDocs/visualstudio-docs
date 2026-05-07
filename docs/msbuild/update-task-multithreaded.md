@@ -42,7 +42,7 @@ public class MyTask : Task, IMultiThreadableTask
 }
 ```
 
-Tasks that implement `IMultiThreadableTask` can run in-process. All such tasks must also carry the `[MSBuildMultiThreadableTask]` attribute — the attribute is the marker MSBuild uses to opt the task into in-process execution. Before adding the attribute, confirm that the task doesn't have any dependencies on process-level constructs like the current working directory or the environment, and that its code is thread-safe. Pay particular attention to ensure thread-safe access to static variables, as these are shared among all task instances and might be accessed or modified by different instances of the task that are also running in the same process.
+Tasks that implement `IMultiThreadableTask` can run in-process. All such tasks must also carry the `[MSBuildMultiThreadableTask]` attribute, which is the marker MSBuild uses to opt the task into in-process execution. Before adding the attribute, confirm that the task doesn't have any dependencies on process-level constructs like the current working directory or the environment, and that its code is thread-safe. Pay particular attention to ensure thread-safe access to static variables, as these variables are shared among all task instances and might be accessed or modified by different instances of the task that are also running in the same process.
 
 ## Example task: BuildCommentTask
 
@@ -147,7 +147,7 @@ This task has four thread-safety issues that need to be addressed for multithrea
 
 1. **Relative paths**: `File.ReadAllLines` and `File.WriteAllLines` use `item.ItemSpec` directly, which might be a relative path. In multithreaded mode, the process working directory isn't guaranteed to be the project directory.
 2. **Static field**: `ModifiedFileCount` is a `static` field shared across all instances, which causes data races when multiple builds run concurrently.
-3. **Environment variables**: The most common environment variable problem in multithreaded builds is tasks that *set* environment variables before spawning a child process, expecting the child to inherit them. In multithreaded mode, `Environment.SetEnvironmentVariable()` modifies the process-level environment shared by all concurrent builds, so a change intended for one project's child process can bleed into another's. Reading environment variables directly in task code (`Environment.GetEnvironmentVariable()`) is also generally a bad practice — MSBuild properties are a better alternative because they're logged and traceable.
+3. **Environment variables**: The most common environment variable problem in multithreaded builds is tasks that *set* environment variables before spawning a child process, expecting the child to inherit them. In multithreaded mode, `Environment.SetEnvironmentVariable()` modifies the process-level environment shared by all concurrent builds, so a change intended for one project's child process can bleed into another's. Reading environment variables directly in task code (`Environment.GetEnvironmentVariable()`) is also generally a bad practice; MSBuild properties are a better alternative because they're logged and traceable.
 
 > [!IMPORTANT]
 > The multithreaded build mode is currently available only for CLI (`dotnet build` and `MSBuild.exe`) builds. Visual Studio MSBuild builds do not yet support multithreaded execution in-process. In Visual Studio, all task execution continues to run out of process. Visual Studio integration is planned for a future release.
@@ -193,12 +193,12 @@ The following table summarizes the .NET APIs that you should replace and their `
 > [!NOTE]
 > `Path.GetFullPath(path)` does two things: it converts a relative path to an absolute path, and it produces a **canonical** form of the path (resolving `.` and `..` segments). These need to be handled separately:
 >
-> - **Absolute path only**: Use `TaskEnvironment.GetAbsolutePath(path)`. This is sufficient for most file I/O operations where you're passing the path directly to .NET APIs.
-> - **Canonical path**: If you rely on the canonical form — for example, when using a path as a cache or dictionary key — use `Path.GetFullPath(TaskEnvironment.GetAbsolutePath(path))` to get a fully resolved, canonical absolute path.
+> - **Absolute path only**: Use `TaskEnvironment.GetAbsolutePath(path)`. This approach is sufficient for most file I/O operations where you're passing the path directly to .NET APIs.
+> - **Canonical path**: If you rely on the canonical form (for example, when using a path as a cache or dictionary key), use `Path.GetFullPath(TaskEnvironment.GetAbsolutePath(path))` to get a fully resolved, canonical absolute path.
 
 ## Mark the task with the attribute
 
-All tasks that participate in multithreaded builds must be marked with the `[MSBuildMultiThreadableTask]` attribute. This is the signal MSBuild uses to identify tasks that are safe to run in-process.
+All tasks that participate in multithreaded builds must be marked with the `[MSBuildMultiThreadableTask]` attribute. This attribute is the signal MSBuild uses to identify tasks that are safe to run in-process.
 
 ```csharp
 [MSBuildMultiThreadableTask]
@@ -214,7 +214,7 @@ public class MyTask : Task
 
 If your task is already thread-safe and doesn't use any process-level APIs (current working directory, environment variables, `ProcessStartInfo`), the attribute alone is all you need. The task continues to inherit from `Task` (or `ToolTask`) without any other changes.
 
-If your task does need to replace process-level API calls — for example, to resolve relative paths or read environment variables safely — also implement `IMultiThreadableTask`. This gives your task access to the `TaskEnvironment` property. The attribute remains required in both cases; `IMultiThreadableTask` is an additional step that unlocks the `TaskEnvironment` API.
+If your task does need to replace process-level API calls (for example, to resolve relative paths or read environment variables safely), also implement `IMultiThreadableTask`. This interface gives your task access to the `TaskEnvironment` property. The attribute remains required in both cases; `IMultiThreadableTask` is an additional step that unlocks the `TaskEnvironment` API.
 
 > [!NOTE]
 > MSBuild detects the `MSBuildMultiThreadableTaskAttribute` by namespace and name only, ignoring the defining assembly. This means you can define the attribute yourself in your own code (see [Support earlier versions of MSBuild](#support-earlier-versions-of-msbuild)) and MSBuild still recognizes it.
@@ -230,7 +230,7 @@ When implementing `IMultiThreadableTask`, initialize the `TaskEnvironment` prope
 public TaskEnvironment TaskEnvironment { get; set; } = TaskEnvironment.Fallback;
 ```
 
-MSBuild sets this property before calling `Execute()` in a normal build. The `Fallback` default ensures the task works correctly in other hosting scenarios — such as unit tests or custom build orchestration tools — where MSBuild isn't present to set the property. Without it, accessing `TaskEnvironment` outside the engine would throw a null reference exception.
+MSBuild sets this property before calling `Execute()` in a normal build. The `Fallback` default ensures the task works correctly in other hosting scenarios (such as unit tests or custom build orchestration tools) where MSBuild isn't present to set the property. Without it, accessing `TaskEnvironment` outside the engine would throw a null reference exception.
 
 If you need to support MSBuild versions earlier than 18.6 that don't include `TaskEnvironment.Fallback`, initialize the property to `null` instead and guard any `TaskEnvironment` calls with a null check. See [Support earlier versions of MSBuild](#support-earlier-versions-of-msbuild) for more options.
 
@@ -257,7 +257,7 @@ public readonly struct AbsolutePath : IEquatable<AbsolutePath>
 
 The `AbsolutePath` constructor validates that the provided path is rooted. You can also construct an `AbsolutePath` by providing a relative path and a base path. The implicit conversion to `string` means you can pass an `AbsolutePath` directly to any API that expects a `string` path.
 
-The `OriginalValue` property preserves the original path string as it was passed in before resolution. This is useful when you need to keep relative paths in task outputs or log messages. For example, a task that logs which files it processed may use `OriginalValue` in its log messages so that paths in output remain relative and readable, while still using the resolved `Value` (or the implicit `string` conversion) for actual file I/O.
+The `OriginalValue` property preserves the original path string as it was passed in before resolution. This property is useful when you need to keep relative paths in task outputs or log messages. For example, a task that logs which files it processed may use `OriginalValue` in its log messages so that paths in output remain relative and readable, while still using the resolved `Value` (or the implicit `string` conversion) for actual file I/O.
 
 Use `TaskEnvironment.GetAbsolutePath()` to resolve item paths:
 
@@ -285,7 +285,7 @@ Log.LogMessage(MessageImportance.High, $"Added build comment to: {filePath.Origi
 
 ### Handle file contention in parallel builds
 
-File contention can occur whenever multiple tasks run in parallel and access the same file — this applies to both the traditional multi-process model and the newer in-process multithreaded mode. In both cases, the same file might be accessed concurrently when:
+File contention can occur whenever multiple tasks run in parallel and access the same file. This concern applies to both the traditional multi-process model and the newer in-process multithreaded mode. In both cases, the same file might be accessed concurrently when:
 
 - The same file appears in multiple sub-project builds (for example, a shared configuration file or a linked source file).
 - A task reads and writes a file that another task instance is also processing.
@@ -295,7 +295,7 @@ Convenience methods like `File.ReadAllLines` and `File.WriteAllLines` don't prov
 ```csharp
 using (var stream = new FileStream(filePath, FileMode.Open, FileAccess.ReadWrite, FileShare.None))
 {
-    // FileShare.None ensures exclusive access — other attempts
+    // FileShare.None ensures exclusive access; other attempts
     // to open this file will throw IOException until the stream
     // is disposed.
     using var reader = new StreamReader(stream);
@@ -312,7 +312,7 @@ using (var stream = new FileStream(filePath, FileMode.Open, FileAccess.ReadWrite
 
 Key guidelines for file I/O in multithreaded tasks:
 
-- **Use `FileShare.None` for read-modify-write operations.** This prevents another task from reading stale content while you're updating the file.
+- **Use `FileShare.None` for read-modify-write operations.** This setting prevents another task from reading stale content while you're updating the file.
 - **Catch `IOException` and consider retrying.** When another task or process holds a lock, your open attempt throws `IOException`. A short retry with backoff is often appropriate.
 - **Avoid holding locks on multiple files at once.** If two tasks each lock one file and then try to lock the other, you get a deadlock. If you must operate on multiple files, lock them in a consistent order (for example, sorted by full path).
 - **Keep locks as short as possible.** Open the file, read, modify, write, and close in one operation. Don't hold a file lock while doing unrelated work.
@@ -320,7 +320,7 @@ Key guidelines for file I/O in multithreaded tasks:
 The preceding example is one approach. For general guidance on thread-safe file I/O in .NET, see [FileStream class](/dotnet/fundamentals/runtime-libraries/system-io-filestream), [FileShare enum](/dotnet/api/system.io.fileshare), and [Managed threading best practices](/dotnet/standard/threading/managed-threading-best-practices).
 
 > [!NOTE]
-> `TaskEnvironment` itself is not thread-safe. This only matters if your task internally spawns its own threads (for example, using `Parallel.ForEach` or `Task.Run`). Most tasks don't do this — they implement `Execute()` linearly and let MSBuild handle parallelism across task instances. If your task does create its own threads, capture values from `TaskEnvironment` into local variables before spawning them, rather than accessing `TaskEnvironment` from multiple threads concurrently.
+> `TaskEnvironment` itself is not thread-safe. This only matters if your task internally spawns its own threads (for example, using `Parallel.ForEach` or `Task.Run`). Most tasks don't do this. They implement `Execute()` linearly and let MSBuild handle parallelism across task instances. If your task does create its own threads, capture values from `TaskEnvironment` into local variables before spawning them, rather than accessing `TaskEnvironment` from multiple threads concurrently.
 
 ## Update environment variables
 
@@ -333,7 +333,7 @@ The preceding example is one approach. For general guidance on thread-safe file 
 
 The most common environment variable problem in multithreaded builds is a task that **sets** an environment variable and then spawns a child process, expecting the child to inherit it. In the multi-process model, `Environment.SetEnvironmentVariable()` safely modified the worker process environment for that project. In multithreaded mode, the process is shared across all concurrent builds, so a change intended for one project's child process can leak into another.
 
-Use `TaskEnvironment.SetEnvironmentVariable()` together with `TaskEnvironment.GetProcessStartInfo()` (see [Update ProcessStart API calls](#update-processstart-api-calls)). `GetProcessStartInfo()` returns a `ProcessStartInfo` pre-populated with the project's working directory and its isolated environment table — including any variables you set with `SetEnvironmentVariable()` — so child processes automatically inherit the correct, project-scoped environment.
+Use `TaskEnvironment.SetEnvironmentVariable()` together with `TaskEnvironment.GetProcessStartInfo()` (see [Update ProcessStart API calls](#update-processstart-api-calls)). `GetProcessStartInfo()` returns a `ProcessStartInfo` pre-populated with the project's working directory and its isolated environment table, including any variables you set with `SetEnvironmentVariable()`, so child processes automatically inherit the correct, project-scoped environment.
 
 **Before:**
 
@@ -355,7 +355,7 @@ Process.Start(startInfo);  // inherits the project-scoped environment
 
 ### Reading environment variables in existing tasks
 
-If your existing task reads environment variables and you can't immediately refactor to task properties, replace `Environment.GetEnvironmentVariable()` with `TaskEnvironment.GetEnvironmentVariable()`. This reads from the project-scoped environment table rather than the shared process environment, so concurrent builds don't interfere with each other.
+If your existing task reads environment variables and you can't immediately refactor to task properties, replace `Environment.GetEnvironmentVariable()` with `TaskEnvironment.GetEnvironmentVariable()`. This method call reads from the project-scoped environment table rather than the shared process environment, so concurrent builds don't interfere with each other.
 
 **Before** (from `BuildCommentTask`):
 
@@ -403,7 +403,7 @@ Process.Start(startInfo);
 
 Static fields require careful treatment when you migrate to multithreaded builds. Even in the multi-process model, a single process can build multiple projects, so the static state is shared, just not concurrently.
 
-Multithreaded mode adds a new dimension to this problem. Multiple builds can now share the same process and run tasks concurrently (especially with MSBuild Server, which is automatically enabled with multithreading). A static field is shared across all task instances in the process — not just within your build, but potentially across separate build invocations running concurrently. For example, two developers running `dotnet build` at the same time on a build server, or two terminal windows on the same machine, might share the same static state — and now those builds access it at the same time.
+Multithreaded mode adds a new dimension to this problem. Multiple builds can now share the same process and run tasks concurrently (especially with MSBuild Server, which is automatically enabled with multithreading). A static field is shared across all task instances in the process, not just within your build, but potentially across separate build invocations running concurrently. For example, two developers running `dotnet build` at the same time on a build server, or two terminal windows on the same machine, might share the same static state, and now those builds access it at the same time.
 
 In the `BuildCommentTask` example, the static field `ModifiedFileCount` is shared across all instances:
 
@@ -416,7 +416,7 @@ private static int ModifiedFileCount = 0;
 ModifiedFileCount++;
 ```
 
-This code has two problems. First, the `++` operator isn't atomic — when multiple task instances run concurrently, two threads can read the same value and both write the same incremented result, causing lost counts. Second, because the field is static, it persists across builds and is shared between concurrent builds in the same process.
+This code has two problems. First, the `++` operator isn't atomic. When multiple task instances run concurrently, two threads can read the same value and both write the same incremented result, causing lost counts. Second, because the field is static, it persists across builds and is shared between concurrent builds in the same process.
 
 The following sections show two approaches for fixing these problems, from simplest to most correct.
 
@@ -431,13 +431,13 @@ private static int ModifiedFileCount = 0;
 int fileNumber = Interlocked.Increment(ref ModifiedFileCount);
 ```
 
-`Interlocked.Increment` performs the read-increment-write as a single atomic operation, so no counts are lost. This approach solves the concurrency problem, but the counter is still shared across all builds in the process — including consecutive builds and concurrent builds. If two builds run concurrently, their file numbers interleave (Build A gets #1, #3, #5; Build B gets #2, #4, #6). Whether this is acceptable depends on whether your task requires per-build isolation. For a sequential file numbering counter like `ModifiedFileCount`, cross-build sharing is a correctness issue — use `RegisterTaskObject` instead (see Approach 2).
+`Interlocked.Increment` performs the read-increment-write as a single atomic operation, so no counts are lost. This approach solves the concurrency problem, but the counter is still shared across all builds in the process, including consecutive builds and concurrent builds. If two builds run concurrently, their file numbers interleave (Build A gets #1, #3, #5; Build B gets #2, #4, #6). Whether this situation is acceptable depends on whether your task requires per-build isolation. For a sequential file numbering counter like `ModifiedFileCount`, cross-build sharing is a correctness issue; use `RegisterTaskObject` instead (see Approach 2).
 
 Here, the thread-safe, but process-wide API equivalent is `InterlockedIncrement`, but in your own code, you would need to find appropriate thread-safe substitutes for any APIs that are not thread-safe. For example, if your task persists state using a `Dictionary`, consider using <xref:System.Collections.Concurrent.ConcurrentDictionary`2>.
 
-### Approach 2: `RegisterTaskObject` — build-scoped isolation
+### Approach 2: `RegisterTaskObject` for build-scoped isolation
 
-If your task needs static state that's shared across sub-projects within a single build invocation but isolated from other concurrent builds, use `IBuildEngine4.RegisterTaskObject` with `RegisteredTaskObjectLifetime.Build`. MSBuild manages the lifetime of the object — it's created on first use and cleaned up when the build ends.
+If your task needs static state that's shared across sub-projects within a single build invocation but isolated from other concurrent builds, use `IBuildEngine4.RegisterTaskObject` with `RegisteredTaskObjectLifetime.Build`. MSBuild manages the lifetime of the object, which is created on first use and cleaned up when the build ends.
 
 First, define a simple thread-safe counter class:
 
@@ -496,12 +496,12 @@ With this approach, each build invocation gets its own `FileCounter`. All sub-pr
 
 When deciding how to handle static state, start from this question: **is this data safe to share across all builds that might ever run in the same process, including consecutive builds and concurrent builds?**
 
-MSBuild worker processes persist across invocations (node reuse is on by default), and an MSBuild process can potentially serve multiple solution builds over its lifetime — not just within a single `dotnet build` call. Don't assume that a process handles only one build.
+MSBuild worker processes persist across invocations (node reuse is on by default), and an MSBuild process can potentially serve multiple solution builds over its lifetime, not just within a single `dotnet build` call. Don't assume that a process handles only one build.
 
 Use these guidelines:
 
 - **Retain the static field** only if the cached data is safe to access from multiple threads across different projects and across multiple builds without requiring invalidation between builds. For example, a cache of immutable data computed once from inputs that never change (such as assembly metadata loaded once at startup) might qualify.
-- **Use `IBuildEngine4.RegisterTaskObject` with `RegisteredTaskObjectLifetime.Build`** when the state must be isolated per build invocation — for example, counters, accumulators, or caches that should reset between builds or not leak between concurrent builds. This is the preferred approach for most shared mutable state.
+- **Use `IBuildEngine4.RegisterTaskObject` with `RegisteredTaskObjectLifetime.Build`** when the state must be isolated per build invocation (for example, counters, accumulators, or caches that should reset between builds or not leak between concurrent builds). This is the preferred approach for most shared mutable state.
 - **Use `System.Threading` primitives** (`Interlocked`, `ConcurrentDictionary`, `lock`, `ReaderWriterLockSlim`) to make any retained static state thread-safe, but remember that thread-safety alone does not provide build-level isolation. See [Managed threading best practices](/dotnet/standard/threading/managed-threading-best-practices).
 
 > [!TIP]
