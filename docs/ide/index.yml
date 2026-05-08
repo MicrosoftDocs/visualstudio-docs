@@ -70,7 +70,7 @@ landingContent:
           - text: Manage extensions
             url: finding-and-using-visual-studio-extensions.md
           - text: Configure Proxy Settings
-            url: proxy-settings.md
+            url: reference/proxy-settings.md
 
   # Card
   - title: Develop in your language
