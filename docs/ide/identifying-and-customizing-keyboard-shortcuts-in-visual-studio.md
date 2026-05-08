@@ -1,7 +1,7 @@
 ---
 title: Identify and customize keyboard shortcuts
 description: Learn how to identify keyboard shortcuts for Visual Studio commands, customize those shortcuts, and export them for others to use.
-ms.date: 02/05/2025
+ms.date: 05/07/2026
 ms.topic: how-to
 f1_keywords:
 - VS.ToolsOptionsPages.Environment.Keyboard
@@ -111,6 +111,17 @@ You can share your custom keyboard shortcuts by exporting them to a file and the
 
 1. In the **What do you want to name your settings file** and **Store my settings file in this directory** boxes, either leave the default values or specify different values, and then choose **Finish**.
 
+:::moniker range="visualstudio"
+> [!NOTE]
+> By default, your shortcuts are saved in a file in the following location:
+>
+> *%USERPROFILE%\AppData\Local\Microsoft\VisualStudio\1x.0_xxxxxxxx\Settings*
+>
+> In the current version of Visual Studio, the `1x.0_xxxxxxxx` folder would start with the numerals 18.0 followed by a set of alphanumeric characters that are specific to your installation. Similarly, for Visual Studio 2022, the folder would start with the numerals 17.0.
+>
+> The name of the file itself reflects the date when you exported the settings, and the extension is *.vssettings*.
+:::moniker-end
+:::moniker range="<=vs-2022"
 > [!NOTE]
 > By default, your shortcuts are saved in a file in the following location:
 >
@@ -119,6 +130,7 @@ You can share your custom keyboard shortcuts by exporting them to a file and the
 > For Visual Studio 2022, the `1x.0_xxxxxxxx` folder would start with the numerals 17.0 followed by a set of alphanumeric characters that are specific to your installation. Similarly, for Visual Studio 2019, the folder would start with the numerals 16.0.
 >
 > The name of the file itself reflects the date when you exported the settings, and the extension is *.vssettings*.
+:::moniker-end
 
 ### Import only keyboard shortcuts
 
