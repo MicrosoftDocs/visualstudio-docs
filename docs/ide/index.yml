@@ -115,9 +115,5 @@ landingContent:
         links:
           - text: Release notes
             url: /visualstudio/releases/2022/release-notes
-          - text: What's new in Visual Studio 2022
-            url: ../ide/whats-new-visual-studio-2022.md
-          - text: What's new in Visual Studio 2019
-            url: ../ide/whats-new-visual-studio-2019.md
           - text: What's new in the docs
             url: ../ide/whats-new-visual-studio-docs.md
