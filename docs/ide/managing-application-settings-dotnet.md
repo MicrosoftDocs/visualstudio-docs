@@ -1,7 +1,7 @@
 ---
 title: Manage application settings (.NET)
 description: Manage application settings that aren't included in the application code but are needed at runtime with the Visual Studio IDE.
-ms.date: 10/02/2024
+ms.date: 05/08/2026
 ms.topic: how-to
 f1_keywords:
 - msvse_settingsdesigner.err.nameblank
@@ -16,7 +16,7 @@ ms.custom:
 - awp-ai 
 #customer intent: As a developer, I want to use application settings to store information that isn't included in the application code at runtime.
 ---
-# Manage application settings (.NET)
+# Manage application settings (.NET Framework)
 
 Application settings enable you to store application information dynamically. With application settings, you can use a client computer to store information that shouldn't be included in the application code at runtime. Application settings can include connection strings, user preferences, and more.
 
