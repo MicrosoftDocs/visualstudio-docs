@@ -1,5 +1,5 @@
 ---
-title: Manage application settings (.NET)
+title: Manage application settings (.NET Framework)
 description: Manage application settings that aren't included in the application code but are needed at runtime with the Visual Studio IDE.
 ms.date: 05/08/2026
 ms.topic: how-to
