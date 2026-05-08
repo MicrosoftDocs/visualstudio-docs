@@ -13,7 +13,7 @@ metadata:
   author: ghogen
   ms.author: ghogen
   ms.manager: wiwagn
-  ms.date: 06/4/2025
+  ms.date: 5/8/2026
   ms.custom: vs-acquisition
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
@@ -47,6 +47,8 @@ landingContent:
             url: ../get-started/tutorial-editor.md
       - linkListType: overview
         links:
+          - text: Settings
+            url: visual-studio-settings.md
           - text: Track versions with Git
             url: ../version-control/git-with-visual-studio.md
       - linkListType: how-to-guide
