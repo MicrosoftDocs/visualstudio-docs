@@ -1,7 +1,7 @@
 ---
 title: Switch between Python environments
 description: Select a specific Python environment in Visual Studio, including Anaconda and virtual environments, to apply the environment to a specific project.
-ms.date: 04/18/2024
+ms.date: 04/28/2026
 ms.topic: how-to
 author: Devdiv-VR
 ms.author: vedhar
@@ -17,7 +17,13 @@ All code in a Python project runs within the context of a specific environment. 
 
 In Visual Studio, you can create multiple environments for a project and switch between them according to your specific development needs. All new Python projects are initially configured to use the default global environment. You can see the environments for your project under the **Python Environments** node in **Solution Explorer**:
 
+:::moniker range="visualstudio"
+:::image type="content" source="media/visualstudio/environments-project-global.png" alt-text="Screenshot that shows the global default Python environment for a project in Solution Explorer in Visual Studio." border="false" lightbox="media/visualstudio/environments-project-global.png":::
+:::moniker-end
+
+:::moniker range="vs-2022"
 :::image type="content" source="media/environments/environments-project-global.png" alt-text="Screenshot that shows the global default Python environment for a project in Solution Explorer in Visual Studio." border="false" lightbox="media/environments/environments-project-global.png":::
+:::moniker-end
 
 ## Prerequisites 
 
@@ -34,7 +40,13 @@ In Visual Studio, you can change the active (current) environment for a Python p
    - In **Solution Explorer**, right-click the **Python Environments** node for your project and select **Add Environment**.
    - Or, on the Python toolbar, select **Add Environment** from the **Environment** dropdown menu.
 
+   :::moniker range="visualstudio"
+   :::image type="content" source="media/visualstudio/environments-access-add-feature.png" alt-text="Screenshot that shows the two options to access the Add Environments feature in Visual Studio." border="false" lightbox="media/visualstudio/environments-access-add-feature.png":::
+   :::moniker-end
+
+   :::moniker range="vs-2022"
    :::image type="content" source="media/environments/environments-access-add-feature.png" alt-text="Screenshot that shows the two options to access the Add Environments feature in Visual Studio." border="false" lightbox="media/environments/environments-access-add-feature.png":::
+   :::moniker-end
 
 1. In the **Add Environment** dialog, select the **Existing environment** tab. Expand the **Environment** dropdown list and choose your desired environment, then select **Add**.
 
@@ -99,13 +111,25 @@ Follow these steps to activate an existing environment for a project:
    
 1. Right-click the environment, and select **Activate Environment**.
 
+   :::moniker range="visualstudio"
+   :::image type="content" source="media/visualstudio/environments-project-activate.png" alt-text="Screenshot that shows how to activate a project environment in Visual Studio." border="false" lightbox="media/visualstudio/environments-project-activate.png":::
+   :::moniker-end
+
+   :::moniker range="vs-2022"
    :::image type="content" source="media/environments/environments-project-activate.png" alt-text="Screenshot that shows how to activate a project environment in Visual Studio." border="false" lightbox="media/environments/environments-project-activate.png":::
+   :::moniker-end
 
    If Visual Studio detects a _requirements.txt_ file in that environment, it asks whether to install those packages.
 
    After Visual Studio activates the environment, the name of the active environment is shown in a bold font in **Solution Explorer**:
 
+   :::moniker range="visualstudio"
+   :::image type="content" source="media/visualstudio/environments-project-activated-item.png" alt-text="Screenshot that shows how Visual Studio shows the name of the active environment in a bold font in Solution Explorer." border="false":::
+   :::moniker-end
+
+   :::moniker range="vs-2022"
    :::image type="content" source="media/environments/environments-project-activated-item.png" alt-text="Screenshot that shows how Visual Studio shows the name of the active environment in a bold font in Solution Explorer." border="false":::
+   :::moniker-end
 
 ## Remove a virtual environment
 
@@ -124,15 +148,33 @@ In Solution Explorer, you can view and manage the packages installed in an envir
 
 - To quickly view the packages installed in an environment, expand the environment node under the **Python Environments** node for your project in **Solution Explorer**:
 
+   :::moniker range="visualstudio"
+   :::image type="content" source="media/visualstudio/environments-installed-packages.png" alt-text="Screenshot that shows Python packages for an environment in Solution Explorer in Visual Studio." border="false" lightbox="media/visualstudio/environments-installed-packages.png":::
+   :::moniker-end
+
+   :::moniker range="vs-2022"
    :::image type="content" source="media/environments/environments-installed-packages.png" alt-text="Screenshot that shows Python packages for an environment in Solution Explorer in Visual Studio." border="false" lightbox="media/environments/environments-installed-packages.png":::
+   :::moniker-end
 
 - To install new packages or manage existing packages, right-click the environment node and select **Manage Python Packages**. You can also use the package button on the Python toolbar:
 
+   :::moniker range="visualstudio"
+   :::image type="content" source="media/visualstudio/environments-manage-packages.png" alt-text="Screenshot that shows how to access the Manage Python packages option for an environment in Solution Explorer." border="false" lightbox="media/visualstudio/environments-manage-packages.png":::
+   :::moniker-end
+
+   :::moniker range="vs-2022"
    :::image type="content" source="media/environments/environments-manage-packages.png" alt-text="Screenshot that shows how to access the Manage Python packages option for an environment in Solution Explorer." border="false" lightbox="media/environments/environments-manage-packages.png":::
+   :::moniker-end
 
    The **Python Environments** window opens and shows the installed packages for the selected environment on the **Packages (PyPI)** tab:
 
+   :::moniker range="visualstudio"
+   :::image type="content" source="media/visualstudio/environments-current-packages.png" alt-text="Screenshot that shows the current packages for the selected environment in the Python Environments window." border="false" lightbox="media/visualstudio/environments-current-packages.png":::
+   :::moniker-end
+
+   :::moniker range="vs-2022"
    :::image type="content" source="media/environments/environments-current-packages.png" alt-text="Screenshot that shows the current packages for the selected environment in the Python Environments window." border="false" lightbox="media/environments/environments-current-packages.png":::
+   :::moniker-end
 
    In Visual Studio, packages and dependencies for most environments are downloaded from the [Python Package Index (PyPI)](https://pypi.org), where you can also search for available packages. Visual Studio's status bar and output window show information about the install.
 
@@ -142,7 +184,13 @@ In Solution Explorer, you can view and manage the packages installed in an envir
 
    Visual Studio displays matching packages. In this example, the search is for packages that match the term _blinker_.
 
+   :::moniker range="visualstudio"
+   :::image type="content" source="media/visualstudio/environments-search-packages.png" alt-text="Screenshot that shows how Visual Studio shows how to search for matching packages in the Python Environments window." border="false" lightbox="media/visualstudio/environments-search-packages.png":::
+   :::moniker-end
+
+   :::moniker range="vs-2022"
    :::image type="content" source="media/environments/environments-search-packages.png" alt-text="Screenshot that shows how Visual Studio shows how to search for matching packages in the Python Environments window." border="false" lightbox="media/environments/environments-search-packages.png":::
+   :::moniker-end
 
    Visual Studio displays a list of matching results as active command links.
 
