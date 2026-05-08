@@ -13,7 +13,7 @@ metadata:
   author: ghogen
   ms.author: ghogen
   ms.manager: wiwagn
-  ms.date: 06/4/2025
+  ms.date: 5/8/2026
   ms.custom: vs-acquisition
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
@@ -47,6 +47,8 @@ landingContent:
             url: ../get-started/tutorial-editor.md
       - linkListType: overview
         links:
+          - text: Settings
+            url: visual-studio-settings.md
           - text: Track versions with Git
             url: ../version-control/git-with-visual-studio.md
       - linkListType: how-to-guide
@@ -67,6 +69,8 @@ landingContent:
             url: reference/command-prompt-powershell.md
           - text: Manage extensions
             url: finding-and-using-visual-studio-extensions.md
+          - text: Configure Proxy Settings
+            url: reference/proxy-settings.md
 
   # Card
   - title: Develop in your language
@@ -111,9 +115,5 @@ landingContent:
         links:
           - text: Release notes
             url: /visualstudio/releases/2022/release-notes
-          - text: What's new in Visual Studio 2022
-            url: ../ide/whats-new-visual-studio-2022.md
-          - text: What's new in Visual Studio 2019
-            url: ../ide/whats-new-visual-studio-2019.md
           - text: What's new in the docs
             url: ../ide/whats-new-visual-studio-docs.md
