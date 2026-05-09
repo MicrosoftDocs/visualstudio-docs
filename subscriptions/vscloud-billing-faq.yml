@@ -62,10 +62,14 @@ sections:
         answer: |
           You can check your access in the following ways:
           
-          + **Try to make a purchase in the Visual Studio Marketplace**
+          + **Try to make a purchase in the Visual Studio Marketplace**.
+            
             Select **Buy** for a service and choose an Azure subscription. If you can select your EA-backed Azure subscription, you likely have the necessary privileges.
-          + **Check your role in the Azure portal**
+          
+          + **Check your role in the Azure portal**.
+            
             Sign in to the Azure portal and go to **Cost Management + Billing**. If you have access to the billing account and can view or manage subscriptions, you likely have the required privileges. 
+          
           If you don't have access, contact your organization's Enterprise Administrator and ask to be assigned the appropriate role. If you don't know who your administrator is, 
           you can use the **Contact my Admin** feature in the Visual Studio subscription portal. For more information, visit [Contact a subscription admin](https://learn.microsoft.com/en-us/visualstudio/subscriptions/contact-my-admin).
           
@@ -112,12 +116,12 @@ sections:
           it automatically renews. If you cancel at any time before the renewal date, the subscription expires on that date. Partial refunds aren't provided for unsued time.
 
           > [!NOTE]
-          > Microsoft no longer offers Visual Studio Professional Annual subscriptions and Visual Studio Enterprise Annual subscriptions in Cloud Subscriptions. There's no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
+          > Microsoft no longer offers Visual Studio Enterprise Annual subscriptions and Visual Studio Professional Annual subscriptions in Cloud Subscriptions. There's no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
           
       - question: |
            What kind of volume discounts are available for Visual Studio Subscriptions?
         answer: |
-          You get a 5% discount on the sixth and all subsequent subscriptions of the same type within a single billing period. :
+          You get a 5% discount on the sixth and all subsequent subscriptions of the same type within a single billing period.
           
           * Visual Studio Professional monthly
           * Visual Studio Professional annual
