@@ -47,7 +47,7 @@ sections:
       - question: |
            Where can I view my billing and usage data?
         answer: |
-          To view your billing and usage data, visit the [Understand Azure billing](https://learn.microsoft.com/azure/cost-management-billing/understand/understand-azure-invoice).
+          To view your billing and usage data, visit the [Understand Azure billing](https://learn.microsoft.com/azure/cost-management-billing/understand/understand-invoice).
           
   - name: Enterprise Agreement (EA) customers
     questions:
@@ -174,7 +174,7 @@ additionalContent: |
           
   ## See also
      - [Visual Studio pricing](https://visualstudio.microsoft.com/vs/pricing/)
-     - [Understand your Azure invoice](https://learn.microsoft.com/azure/cost-management-billing/understand/understand-azure-invoice)
+     - [Understand your Azure invoice](https://learn.microsoft.com/en-us/azure/cost-management-billing/understand/understand-invoice)
      - [Get started with your Enterprise Agreement billing account](https://learn.microsoft.com/azure/cost-management-billing/manage/ea-direct-portal-get-started)
      - [Contact a subscription admin](https://learn.microsoft.com/visualstudio/subscriptions/contact-my-admin)
           
