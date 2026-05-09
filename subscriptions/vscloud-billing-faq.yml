@@ -1,35 +1,36 @@
 ### YamlMime:FAQ
 metadata:
-  title: Billing FAQ for Visual Studio cloud subscriptions
+  title: Billing FAQ for Visual Studio Cloud Subscriptions
   author: joseb-rdc
   ms.author: amast
   manager: shve
   ms.assetid: 21e0471d-ad59-4d21-9c6f-13f7147569af
   ms.date: 05/08/2026
   ms.topic: article
-  description: Find answers to common billing questions for Visual Studio cloud subscriptions, including purchasing, charges, and subscription management.
+  description: Find answers to common billing questions for Visual Studio Cloud Subscriptions, including purchasing, charges, and subscription management.
     
-title: Visual Studio cloud subscriptions billing FAQ
+title: Visual Studio Cloud Subscriptions Billing FAQ
 summary: |
-  Visual Studio cloud subscriptions are purchased in the Visual Studio Marketplace and billed through an Azure subscription. You select or create an Azure subscription to manage billing for your purchases.
+  Visual Studio Cloud Subscriptions are purchased in the Visual Studio Marketplace and billed through an Azure subscription. You select or create an Azure subscription
+   to manage billing for your purchases.
   
   To compare subscription types, benefits, and pricing, visit [Visual Studio pricing](https://visualstudio.microsoft.com/vs/pricing/).
   
-  This article answers common questions about how to purchase, bill, and manage Visual Studio cloud subscriptions.
+  This article answers common questions about how to purchase, bill, and manage Visual Studio Cloud Subscriptions.
   
 sections:
   - name: General purchasing questions
     questions:
       - question: |
-           Can I buy Visual Studio cloud subscriptions using a Purchase Order?
+           Can I buy Visual Studio Cloud Subscriptions using a Purchase Order?
         answer: |
-          No. All Visual Studio cloud subscriptions must be purchased using an Azure subscription.
+          No. All Visual Studio Cloud Subscriptions must be purchased using an Azure subscription.
           To buy a subscription, use the Visual Studio Marketplace and select an Azure subscription for billing.
           
       - question: |
-           What types of Azure subscriptions can be used to buy Visual Studio cloud subscriptions?
+           What types of Azure subscriptions can be used to buy Visual Studio Cloud Subscriptions?
         answer: |
-          Visual Studio cloud subscriptions are billed through Azure subscriptions. You can buy them in the Visual Studio Marketplace and select or create an Azure subscription during purchase.
+          Visual Studio Cloud Subscriptions are billed through Azure subscriptions. You can buy them in the Visual Studio Marketplace and select or create an Azure subscription during purchase.
           Most Azure subscriptions can be used for billing, including:
           + pay-as-you-go subscriptions 
           + Enterprise Agreement (EA)
@@ -42,7 +43,7 @@ sections:
       - question: |
            Am I required to buy other Azure services?
         answer: |
-          No. You don't need to purchase any Azure services. You can use an Azure subscription only for billing Visual Studio cloud subscriptions. 
+          No. You don't need to purchase any Azure services. You can use an Azure subscription only for billing Visual Studio Cloud Subscriptions. 
           
       - question: |
            Where can I view my billing and usage data?
@@ -52,9 +53,9 @@ sections:
   - name: Enterprise Agreement (EA) customers
     questions:
       - question: |
-           Can I use an Enterprise Agreement to buy Visual Studio cloud subscriptions?
+           Can I use an Enterprise Agreement to buy Visual Studio Cloud Subscriptions?
         answer: |
-          Yes, you can use an Azure subscription associated with your Enterprise Agreement (EA) to purchase Visual Studio cloud subscriptions.
+          Yes, you can use an Azure subscription associated with your Enterprise Agreement (EA) to purchase Visual Studio Cloud Subscriptions.
           You must have Contributor access or higher on the Azure subscription. To buy subscriptions, use the Visual Studio Marketplace and select your EA-backed Azure subscription for billing.
           
       - question: |
@@ -71,13 +72,13 @@ sections:
             Sign in to the Azure portal and go to **Cost Management + Billing**. If you have access to the billing account and can view or manage subscriptions, you likely have the required privileges. 
           
           If you don't have access, contact your organization's Enterprise Administrator and ask to be assigned the appropriate role. If you don't know who your administrator is, 
-          you can use the **Contact my Admin** feature in the Visual Studio subscription portal. For more information, visit [Contact a subscription admin](https://learn.microsoft.com/en-us/visualstudio/subscriptions/contact-my-admin).
+          you can use the **Contact my Admin** feature in the Visual Studio Subscriptions portal. For more information, visit [Contact a subscriptions admin](https://learn.microsoft.com/en-us/visualstudio/subscriptions/contact-my-admin).
           
       - question: |
-           Can I use the Azure Monetary Commitment funds from my Enterprise Agreement to buy Visual Studio cloud subscriptions?
+           Can I use the Azure Monetary Commitment funds from my Enterprise Agreement to buy Visual Studio Cloud Subscriptions?
         answer: |
-          No, these prepaid funds aren't eligible for purchasing Visual Studio cloud subscriptions. When you choose an Azure subscription that was created for your
-          EA to purchase Visual Studio cloud subscriptions, the charges appear on your next "overage" invoice. Typically these charges are invoiced monthly, but due to historical
+          No, these prepaid funds aren't eligible for purchasing Visual Studio Cloud Subscriptions. When you choose an Azure subscription that was created for your
+          EA to purchase Visual Studio Cloud Subscriptions, the charges appear on your next "overage" invoice. Typically these charges are invoiced monthly, but due to historical
           rules for some EA customers, an overage invoice might not be issued for several months. Consult a licensing specialist for your EA if you need to know
           what number of extra purchases trigger an overage invoice. These purchases aren't eligible for Azure Monetary Commitment funds.
           
@@ -103,7 +104,7 @@ sections:
       - question: |
            How do cancellations work?
         answer: |
-          When you cancel a Visual Studio cloud subscription, you're canceling automatic renewal. The subscription continues until its normal renewal date and then simply expires.
+          When you cancel a Visual Studio Cloud Subscription, you're canceling automatic renewal. The subscription continues until its normal renewal date and then simply expires.
           At expiration, the Visual Studio subscriber can no longer use Visual Studio or any other benefits from the subscription.
           
           With monthly cloud subscriptions, cancellations take effect the first day of the next month. If you only cancel some of your monthly cloud subscriptions,
@@ -135,7 +136,7 @@ sections:
   - name: Other questions
     questions:
       - question: |
-           Can I use the monthly Azure DevTest individual credit as a Visual Studio subscriber to buy more Visual Studio cloud subscriptions?
+           Can I use the monthly Azure DevTest individual credit as a Visual Studio subscriber to buy more Visual Studio Cloud Subscriptions?
         answer: |
           No, you can't use your [monthly Azure DevTest individual credit](https://azure.microsoft.com/pricing/member-offers/credit-for-visual-studio-subscribers/) to pay for Visual Studio cloud subscriptions.
           
@@ -144,7 +145,7 @@ sections:
       - question: |
            What's the difference between annual and monthly cloud subscriptions?
         answer: |
-          Monthly cloud subscriptions include Visual Studio and access toAzure DevOps Services, with billing that renews each month.
+          Monthly cloud subscriptions include Visual Studio and access to Azure DevOps Services, with billing that renews each month.
           
           Annual cloud subscriptions include the same core benefits, along with other subscriber benefits such as Azure Dev/Test credits, software downloads,
           training, and support. These subscriptions are billed upfront for the full year.
@@ -155,12 +156,12 @@ sections:
           To compare subscription levels, benefits, and pricing, visit [Visual Studio pricing](https://visualstudio.microsoft.com/vs/pricing/).
 
       - question: |
-           Do I get new versions of Visual Studio if I buy a Visual Studio cloud subscription?
+           Do I get new versions of Visual Studio if I buy a Visual Studio Cloud Subscription?
         answer: |
           Yes. As new versions are released, you can download and run them. Plus you can continue to run previous versions too.
           
       - question: |
-           Can I buy Visual Studio cloud subscriptions from my software reseller?
+           Can I buy Visual Studio Cloud Subscriptions from my software reseller?
         answer: |
           Yes, you can, if your reseller participates in the Cloud Solution Provider (CSP) program.
           
@@ -173,16 +174,16 @@ additionalContent: |
 
   ## Related resources          
      - [Visual Studio Subscriptions Admin portal](https://manage.visualstudio.com/)
-     - [Visual Studio cloud subscription purchasing for CSPs](vscloud-csp.md)
+     - [Visual Studio Cloud Subscription purchasing for CSPs](vscloud-csp.md)
      - For assistance with sales, subscriptions, accounts and billing for Visual Studio Subscriptions, see Visual Studio [Subscriptions support](https://aka.ms/vssubscriberhelp).
           
   ## See also
      - [Visual Studio pricing](https://visualstudio.microsoft.com/vs/pricing/)
      - [Understand your Azure invoice](https://learn.microsoft.com/en-us/azure/cost-management-billing/understand/understand-invoice)
      - [Get started with your Enterprise Agreement billing account](https://learn.microsoft.com/azure/cost-management-billing/manage/ea-direct-portal-get-started)
-     - [Contact a subscription admin](https://learn.microsoft.com/visualstudio/subscriptions/contact-my-admin)
+     - [Contact a subscriptions admin](https://learn.microsoft.com/visualstudio/subscriptions/contact-my-admin)
           
   ## Next steps
-     Buy cloud subscriptions now
+     Buy Visual Studio Cloud Subscriptions now
      - [Visual Studio Professional monthly](https://marketplace.visualstudio.com/items?itemName=ms.vs-professional-monthly)
      - [Visual Studio Enterprise monthly](https://marketplace.visualstudio.com/items?itemName=ms.vs-enterprise-monthly)
