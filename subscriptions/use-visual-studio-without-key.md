@@ -3,43 +3,65 @@ title: Access and authenticate the Visual Studio IDE without a product key
 author: joseb-rdc
 ms.author: amast
 ms.manager:  shve
-ms.date: 11/04/2025
+ms.date: 05/11/2026
 ms.topic: how-to
-description: Learn how to install and use Visual Studio if you don't have access to downloads.
+description: Learn how to download, install, and access the Visual Studio IDE by signing in with your Visual Studio Subscription.
 ---
 
-# Access and authenticate the Visual Studio IDE
+# Access and authenticate the Visual Studio IDE by signing in
+Visual Studio Subscribers don’t need a product key to use the Visual Studio IDE. Instead, sign in with the account that your subscription is assigned to. When you sign in, Visual Studio automatically verifies your subscription and unlocks the IDE.
 
-If your subscription is provided by your work or school, you might not be able to download software or get product keys from the subscription portal. If you're part of a special program with limited subscriptions, you might also face the same issue. 
-
-You can use Visual Studio if included in your subscription. You can't download it from the portal or activate it with a product key. All you need to do is download Visual Studio from the Visual Studio website and sign in. This article details the steps for doing that. 
+## How Visual Studio authentication works
+Visual Studio authenticates access to the IDE through the account you sign in with. It checks for an active subscription associated with that account and maintains access using a license token tied to your account.
+ 
+Once signed in, you can continue working without needing a product key.
 
 ## Download Visual Studio from the Visual Studio page
-The first step is to download the Visual Studio installer package from the Visual Studio page instead of from the subscription portal.
-- Connect to [https://visualstudio.microsoft.com](https://visualstudio.microsoft.com). 
-- In the "Meet the Visual Studio family" section, locate the version of Visual Studio you want to install.
-- Select the **Download Visual Studio** drop-down and select the version included in your subscription. 
-- The installer package is downloaded to the default downloads folder on your computer. 
-- Start the installer. 
+To get started, download the Visual Studio installer package from the Visual Studio page instead of from the subscription portal.
++ Go to [https://visualstudio.microsoft.com](https://visualstudio.microsoft.com). 
++ Select **Download Visual Studio** to download the installer. 
++ The installer package is downloaded to the default downloads folder on your computer. 
++ Start the installer.
 
-## Sign in to Visual Studio
-After Visual Studio is installed, you'll need to launch it to sign in.
-- Launch Visual Studio. 
-- You're prompted to sign in to your account. Use the email address to which the subscription was assigned. (This address is normally the one where you received a notification that a subscription was assigned to you.)
+The installer doesn’t determine licensing. Your subscription is verified when you sign in to the Visual Studio IDE. 
 
-That's the process. As long as you're signed in your computer, Visual Studio recognizes you automatically. If you restart your computer, you're prompted to sign in again. 
+## Sign in to authenticate the IDE
+After Visual Studio is installed:
++ Launch Visual Studio.
++ When prompted, sign in using the email address your Visual Studio Subscription was assigned to. This address is normally the one where you received a notification that a subscription was assigned to you.
+  + If you skipped sign-in, select **Sign in** in the upper-right corner of the IDE, or go to **File** > **Account Settings**. For more sign in information to the IDE, visit [Sign in from the IDE](https://learn.microsoft.com/visualstudio/ide/signing-in-to-visual-studio#sign-in-from-the-ide-1)
+
+Once you're signed in, Visual Studio verifies your subscription and authenticates your access.
+
+## What to expect after signing in
++ In most cases, you remain signed in between sessions and don’t need to reauthenticate each time you open Visual Studio.
++ Visual Studio uses a license token tied to your signed-in account. You might be prompted to sign in again if:
+  + You sign out of the IDE.
+  + You’re offline for an extended period.
+  + The license token needs to refresh.
+
+## If sign-in doesn't work
+If you can’t sign in, or Visual Studio doesn’t recognize your subscription:
++ Confirm you’re using the same account that your subscription is assigned to.
++ Review troubleshooting guidance for common sign-in issues. Including tenant limitations and account changes by visiting [Sign in or switch Visual Studio user accounts](https://learn.microsoft.com/visualstudio/ide/signing-in-to-visual-studio)
+
+> [!Note]
+> The Visual Studio [Subscriptions portal]( https://my.visualstudio.com/?wt.mc_id=o%7Emsft%7Edocs) and [admin portal]( https://manage.visualstudio.com/) don't support [GCC High tenants,]( https://learn.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) also known as private or government domains. This limitation also applies when you try to sign in to the Visual Studio integrated development environment (IDE). To access Visual Studio Subscriptions, your organization needs to have a public tenant. For assistance in creating a public tenant, contact [Azure support]( https://azure.microsoft.com/support/create-ticket/).
+
+## Product keys
+Visual Studio Subscriptions might include product keys for certain products. However, for the Visual Studio IDE, sign-in is the primary method use to verify your subscription and unlock access. 
+
+Product keys aren’t available for all subscription levels. 
+
+To review product keys that are available with your subscription, sign in to the [Visual Studio Subscriptions portal](https://my.visualstudio.com/ProductKeys).
 
 ## Support resources
-
 + For assistance with sales, subscriptions, accounts, and billing for Visual Studio Subscriptions, see Visual Studio [Subscriptions support](https://aka.ms/vssubscriberhelp).
-+ For assistance with Visual Studio, visit [Visual Studio support](https://visualstudio.microsoft.com/support/).
++ For assistance with Visual Studio IDE, visit [Visual Studio support](https://visualstudio.microsoft.com/support/).
 
 ## See also
-
 + [Visual Studio documentation](/visualstudio/)
 
 ## Next steps
-
-Get the most out of your subscription. Activate these great benefits if they're included in your Visual Studio subscription:
-+ [Azure DevOps](vs-azure-devops.md)
-+ [Azure DevTest offer / credits](/azure/devtest/offer/)
++ [Learn how signing in works in the Visual Studio IDE](https://learn.microsoft.com/visualstudio/ide/signing-in-to-visual-studio)
++ [Learn how the Visual Studio IDE is included with Visual Studio Subscriptions and installed](https://learn.microsoft.com/visualstudio/subscriptions/vs-ide-benefit)
