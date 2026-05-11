@@ -29,7 +29,7 @@ HRESULT loadDataFromIStream (
 
 `pIStream`
 
-[in] An <xref:IStream> object representing the data stream to use.
+[in] An [IStream](/windows/desktop/api/objidl/nn-objidl-istream) object representing the data stream to use.
 
 ## Return Value
 
@@ -43,7 +43,7 @@ If successful, returns `S_OK`; otherwise, returns an error code. The following t
 
 ## Remarks
 
-This method allows the debug data for an executable to be obtained through an <xref:IStream> object.
+This method allows the debug data for an executable to be obtained through an [IStream](/windows/desktop/api/objidl/nn-objidl-istream) object.
 
 To load with prefetching, use the [`IDiaDataSourceEx::loadDataFromIStreamEx`](../../debugger/debug-interface-access/idiadatasourceex-loaddatafromistreamex.md) method.
 

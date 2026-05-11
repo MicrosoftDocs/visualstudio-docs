@@ -30,7 +30,7 @@ HRESULT loadDataFromIStreamEx (
 
 `pIStream`
 
-[in] An <xref:IStream> object representing the data stream to use.
+[in] An [IStream](/windows/desktop/api/objidl/nn-objidl-istream) object representing the data stream to use.
 
 `fPdbPrefetching`
 
@@ -48,7 +48,7 @@ If successful, returns `S_OK`; otherwise, returns an error code. The following t
 
 ## Remarks
 
-This method allows the debug data for an executable to be obtained from memory through an <xref:IStream> object.
+This method allows the debug data for an executable to be obtained from memory through an [IStream](/windows/desktop/api/objidl/nn-objidl-istream) object.
 
 To load a .pdb file without validation, use the [`IDiaDataSourceEx::loadDataFromPdbEx`](../../debugger/debug-interface-access/idiadatasourceex-loaddatafrompdbex.md) method.
 
