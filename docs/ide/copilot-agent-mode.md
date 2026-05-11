@@ -128,7 +128,7 @@ Agent mode can use the following tools for responding to a request:
 - [Agent skills](copilot-agent-skills.md) that provide task-specific instructions
 
 > [!TIP]
-> Visual Studio also includes built-in agents like @debug, @profiler, @test, and @vs that integrate with specific IDE features. The @debug agent supports a guided workflow to reproduce issues, collect instrumentation and telemetry, and validate fixes in agent mode. You can also create custom agents for your team workflows. For more information, see [Use custom agents in GitHub Copilot](copilot-specialized-agents.md).
+> Visual Studio also includes built-in agents like @debug, @profiler, @test, and @vs that integrate with specific IDE features. In agent mode, @debug can guide bug reproduction, instrumentation and telemetry collection, and fix validation. You can also create custom agents for your team workflows. For more information, see [Use custom agents in GitHub Copilot](copilot-specialized-agents.md).
 
 To view and manage the tools that are available in agent mode, select the **Tools** icon in the chat window.
 
