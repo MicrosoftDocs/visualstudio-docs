@@ -14,7 +14,7 @@ Visual Studio Subscribers don’t need a product key to use the Visual Studio ID
 ## How Visual Studio authentication works
 Visual Studio authenticates access to the IDE through the account you sign in with. It checks for an active subscription associated with that account and maintains access using a license token tied to your account.
  
-Once signed in, Visual Studio maintains access using a license token tied to your account, so you can continue working without needing a product key.
+Once signed in, you can continue working without needing a product key.
 
 ## Download Visual Studio from the Visual Studio page
 To get started, download the Visual Studio installer package from the Visual Studio page instead of from the subscription portal.
