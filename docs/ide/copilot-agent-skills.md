@@ -44,9 +44,7 @@ Workspace skills are shared with your team through source control. Personal skil
 
 ## Create a skill
 
-You can create a skill from the skills panel in Visual Studio, or manually in your file system.
-
-You can create a skill manually in your file system.
+You can create a skill from the skills panel in Visual Studio, or manually in your file system. To create a skill from the skills panel, you must have Visual Studio 2026 Insiders version 18.6 or later.
 
 ### Create a skill from the skills panel
 
