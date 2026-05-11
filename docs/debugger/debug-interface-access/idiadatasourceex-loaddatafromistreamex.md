@@ -30,11 +30,11 @@ HRESULT loadDataFromIStreamEx (
 
 `pIStream`
 
-[in] An <xref:IStream> object representing the data stream to use.
+[in] An [IStream](/windows/desktop/api/objidl/nn-objidl-istream) object representing the data stream to use.
 
 `fPdbPrefetching`
 
-[in] If set to `TRUE`, adjacent debug records are prefetched into memory, potentially replacing many smaller file I/O operations with fewer, larger operations, and thus improving overall throughput as those records are subsequently accessed, at the expense of potentially increased memory usage. If set to `FALSE`, this behaves identically to [`IDiaDataSource::loadDataFromIStream`](../../debugger/debug-interface-access/idiadatasource-loaddatafromistream.md). If set to some other value, behavior is unspecified.
+[in] If set to `TRUE`, adjacent debug records are prefetched into memory, potentially replacing many smaller file I/O operations with fewer, larger operations, and thus improving overall throughput as those records are subsequently accessed, at the expense of potentially increased memory usage. If set to `FALSE`, this function behaves identically to [`IDiaDataSource::loadDataFromIStream`](../../debugger/debug-interface-access/idiadatasource-loaddatafromistream.md). If set to some other value, behavior is unspecified.
 
 ## Return Value
 
@@ -44,11 +44,11 @@ If successful, returns `S_OK`; otherwise, returns an error code. The following t
 |-----------|-----------------|
 |`E_PDB_FORMAT`|Attempted to access a file with an obsolete format.|
 |`E_INVALIDARG`|Invalid parameter.|
-|`E_UNEXPECTED`|Data source has already been prepared.|
+|`E_UNEXPECTED`|Data source is already prepared.|
 
 ## Remarks
 
-This method allows the debug data for an executable to be obtained from memory through an <xref:IStream> object.
+This method allows the debug data for an executable to be obtained from memory through an [IStream](/windows/desktop/api/objidl/nn-objidl-istream) object.
 
 To load a .pdb file without validation, use the [`IDiaDataSourceEx::loadDataFromPdbEx`](../../debugger/debug-interface-access/idiadatasourceex-loaddatafrompdbex.md) method.
 
