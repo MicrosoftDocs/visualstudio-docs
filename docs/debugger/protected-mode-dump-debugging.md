@@ -24,6 +24,7 @@ Protected mode isolates the debugger process from the rest of the system using A
 * The **Tasks** view will be empty in the Parallel Stacks window
 * The debugger **Tasks** window (**Debug->Windows->Tasks**) will be empty
 * Protected mode isn't enabled for Diagnostic Analysis and Debug Managed Memory
+* Source Server isn't available in protected mode
 
 ## Disable protected mode
 
