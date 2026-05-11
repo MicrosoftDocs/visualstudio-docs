@@ -66,9 +66,7 @@ Each built-in agent focuses on a specific developer workflow. These agents integ
 
 :::moniker range="visualstudio"
 
-In Copilot Chat, you can start cloud-based agent sessions from the agent picker. These remote sessions are powered by the GitHub Copilot coding agent and can create repository issues and pull requests in the connected GitHub repository. Make sure you're signed in with GitHub and working in a repository context before starting a cloud agent session.
-
-A connected repository means you have a local solution open from a GitHub repository and you're signed in to GitHub in Visual Studio.
+In Copilot Chat, you can start cloud-based agent sessions from the agent picker. A connected repository means you have a local solution open from a GitHub repository and you're signed in to GitHub in Visual Studio. These remote sessions are powered by the GitHub Copilot coding agent and can create repository issues and pull requests in that repository.
 
 ::: moniker-end
 
