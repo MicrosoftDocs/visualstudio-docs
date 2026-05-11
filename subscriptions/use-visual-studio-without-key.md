@@ -29,7 +29,7 @@ The installer doesn’t determine licensing. Your subscription is verified when 
 After Visual Studio is installed:
 + Launch Visual Studio.
 + When prompted, sign in using the email address your Visual Studio Subscription was assigned to. This address is normally the one where you received a notification that a subscription was assigned to you.
-  + If you skipped sign-in, select **Sign in** in the upper-right corner of the IDE, or go to **File** > **Account Settings**. For more sign in information to the IDE, visit [Sign in from the IDE]( https://learn.microsoft.com/visualstudio/ide/signing-in-to-visual-studio?view=visualstudio#sign-in-from-the-ide-1)
+  + If you skipped sign-in, select **Sign in** in the upper-right corner of the IDE, or go to **File** > **Account Settings**. For more sign in information to the IDE, visit [Sign in from the IDE](https://learn.microsoft.com/visualstudio/ide/signing-in-to-visual-studio#sign-in-from-the-ide-1)
 
 Once you're signed in, Visual Studio verifies your subscription and authenticates your access.
 
@@ -43,7 +43,7 @@ Once you're signed in, Visual Studio verifies your subscription and authenticate
 ## If sign-in doesn't work
 If you can’t sign in, or Visual Studio doesn’t recognize your subscription:
 + Confirm you’re using the same account that your subscription is assigned to.
-+ Review troubleshooting guidance for common sign-in issues. Including tenant limitations and account changes by visiting [Sign in or switch Visual Studio user accounts]( https://learn.microsoft.com/visualstudio/ide/signing-in-to-visual-studio?view=visualstudio)
++ Review troubleshooting guidance for common sign-in issues. Including tenant limitations and account changes by visiting [Sign in or switch Visual Studio user accounts](https://learn.microsoft.com/visualstudio/ide/signing-in-to-visual-studio)
 
 > [!Note]
 > The Visual Studio [Subscriptions portal]( https://my.visualstudio.com/?wt.mc_id=o%7Emsft%7Edocs) and [admin portal]( https://manage.visualstudio.com/) don't support [GCC High tenants,]( https://learn.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod) also known as private or government domains. This limitation also applies when you try to sign in to the Visual Studio integrated development environment (IDE). To access Visual Studio Subscriptions, your organization needs to have a public tenant. For assistance in creating a public tenant, contact [Azure support]( https://azure.microsoft.com/support/create-ticket/).
