@@ -8,7 +8,7 @@ ms.author: rosemalcolm
 
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
-ms.custom: doc-kit-assisted
+ms.custom: doc-kit-assisted, awp-ai
 ms.update-cycle: 180-days
 helpviewer_keywords: 
   - copilot chat context
