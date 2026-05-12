@@ -165,7 +165,7 @@ Once you enable the tool, Copilot uses it automatically when answering your ques
 
 Supported languages include C++, C#, Razor, and TypeScript, plus any other language for which you have a supported Language Server Protocol (LSP) extension installed.
 
-For C++ projects, agent mode can also use C++-specific tools to navigate call and class hierarchies. For more information, see [C++ code editing tools](#c-code-editing-tools).
+For C++ projects, agent mode can also use C++ tools to navigate call and class hierarchies. For more information, see [C++ code editing tools](#c-code-editing-tools).
 
 For best results, write clear prompts and use AI models that support tool-calling. For more information about model capabilities, see [AI model comparison (GitHub Docs)](https://docs.github.com/copilot/reference/ai-models/model-comparison).
 
