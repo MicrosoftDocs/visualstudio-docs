@@ -410,6 +410,8 @@
         href: ux-guidelines/shared-colors-for-visual-studio.md
       - name: Color Value Reference
         href: ux-guidelines/color-value-reference-for-visual-studio.md
+      - name: Theme color token reference
+        href: theme-color-token-reference.md
     - name: Images and Icons
       items:
       - name: Images and Icons
