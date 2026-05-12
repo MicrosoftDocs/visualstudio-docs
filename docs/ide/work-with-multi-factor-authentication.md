@@ -31,7 +31,12 @@ With [Visual Studio 2022 version 17.11](/visualstudio/releases/2022/release-note
 
 Windows authentication broker uses [Web Account Manager (WAM)](/entra/msal/dotnet/acquiring-tokens/desktop-mobile/wam) and offers many benefits such as security, improved MFA support, and seamless integration between accounts added to the OS and Visual Studio. Using WAM as the authentication mechanism in Visual Studio makes it easier to access resources secured via CA policies such as MFA.
 
+:::moniker range="visualstudio"
+:::image type="content" source="media/visualstudio/windows-authentication-broker.png" alt-text="Select web authentication broker from the dropdown.":::
+:::moniker-end
+:::moniker range="vs-2022"
 :::image type="content" source="media/vs-2022/windows-authentication-broker.png" alt-text="Select web authentication broker from the dropdown.":::
+:::moniker-end
 
 If run into any [issues with using WAM](#web-account-manager-wam-errors), we recommend you [use System web browser](#enabling-system-web-browser) as the alternative to add and reauthenticate Visual Studio accounts.
 
@@ -60,7 +65,13 @@ Using Windows Account Manager (WAM) as the authentication mechanism in Visual St
 
 To enable the **system web browser** workflow, go to Visual Studio's Options dialog **(Tools > Options…)**, select the **Accounts** tab and select **System web browser** from the **Add and reauthenticate accounts using:** dropdown. 
 
+:::moniker range="visualstudio"
+:::image type="content" source="media/visualstudio/select-system-web-browser.png" alt-text="Select system web browser from the menu.":::
+:::moniker-end
+
+:::moniker range="vs-2022"
 :::image type="content" source="media/vs-2022/select-system-web-browser.png" alt-text="Select system web browser from the menu.":::
+:::moniker-end
 
 ### Sign into additional accounts with MFA policies 
 
