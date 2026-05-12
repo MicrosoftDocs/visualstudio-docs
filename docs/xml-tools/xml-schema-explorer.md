@@ -28,7 +28,7 @@ The **XML Schema Explorer** enables you to do the following:
 
 - Generate sample XML for global elements.
 
-The **XML Schema Explorer** provides a hierarchal view of the schema set through a tree view. The **XML Schema Explorer** also provides search, filtering, navigation, and sorting. To access the **XML Schema Explorer**, do one of the following:
+The **XML Schema Explorer** provides a hierarchical view of the schema set through a tree view. The **XML Schema Explorer** also provides search, filtering, navigation, and sorting. To access the **XML Schema Explorer**, do one of the following:
 
 - If you are on the [Start View](../xml-tools/start-view.md), click the **XML Schema Explorer** link.
 
