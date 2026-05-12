@@ -411,7 +411,7 @@
       - name: Color Value Reference
         href: ux-guidelines/color-value-reference-for-visual-studio.md
       - name: Theme color token reference
-        href: theme-color-token-reference.md
+        href: ux-guidelines/theme-color-token-reference.md
     - name: Images and Icons
       items:
       - name: Images and Icons
@@ -850,3 +850,4 @@
       href: roslyn-analyzers-and-code-aware-library-for-immutablearrays.md
     - name: Roslyn package version reference
       href: roslyn-version-support.md
+
