@@ -51,7 +51,17 @@ The **XML Schema Explorer** displays pre-compiled schema set information in a tr
 
 The following is an example of a tree structure:
 
+::: moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/xml-schema-explorer.png" alt-text="Screenshot showing the tree structure in XML Schema Explorer." lightbox="media/visualstudio/xml-schema-explorer.png":::
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
 ![XML Schema Explorer](../xml-tools/media/xmlschemaexplorer.gif)
+
+::: moniker-end
 
 ## Selection and activation
 To highlight and select a node, click once in the Schema Explorer.
