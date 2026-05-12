@@ -62,15 +62,12 @@ Each built-in agent focuses on a specific developer workflow. These agents integ
 | **@profiler** | Connects to Visual Studio's profiling infrastructure to identify bottlenecks and suggest targeted optimizations grounded in your codebase, not generic advice. |
 ::: moniker-end
 
+
+:::moniker range="visualstudio"
+
 ## Cloud agents
 
-:::moniker range="visualstudio"
-
 In Copilot Chat, you can start cloud-based agent sessions from the agent picker. A connected repository means you have a local solution open from a GitHub repository and you're signed in to GitHub in Visual Studio. These remote sessions are powered by the GitHub Copilot coding agent and can create repository issues and pull requests in that repository.
-
-::: moniker-end
-
-:::moniker range="visualstudio"
 
 ### Use the @debugger agent
 
@@ -107,10 +104,6 @@ The @test agent generates unit tests that match your project's testing framework
 + `@test Write integration tests for this API endpoint`
 
 For more comprehensive .NET testing support, see [GitHub Copilot testing for .NET](../test/github-copilot-test-dotnet-overview.md).
-
-::: moniker-end
-
-:::moniker range="visualstudio"
 
 ### Use the @modernize agent
 
