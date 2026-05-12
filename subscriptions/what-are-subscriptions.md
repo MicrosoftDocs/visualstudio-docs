@@ -24,7 +24,7 @@ In addition to the Visual Studio IDE, subscriptions can include benefits in thes
 
 If you already have a subscription, access your benefits in the portal at my.visualstudio.com
 
-Your Visual Studio Subscription offers extensive resources that support development and productivity. More details are provided in the YouTube video [Get the most of Azure with your Visual Studio subscription](https://www.youtube.com/watch?v=DqKa-hDoCl4), which also covers other benefits that might be available to you.
+Your Visual Studio Subscription offers extensive resources that support development and productivity. More details are provided in the YouTube video [Get the most of Azure with your Visual Studio Subscription](https://www.youtube.com/watch?v=DqKa-hDoCl4), which also covers other benefits that might be available to you.
 
 ## Tools & services
 The tools and services that might be included in a subscription include:
@@ -61,7 +61,7 @@ Subscriptions are available through several channels.
 + **Retail**
   + Individuals who are looking for a subscription for their own use can purchase subscriptions through the [Microsoft Store.](https://www.microsoft.com/store). 
 + **Monthly subscriptions**
-  + Sometimes called "cloud subscriptions," monthly subscriptions are billed each month and provide billing flexibility. They're a great option for developers who just need to use the IDE for a short time, and don’t need the other benefits. Monthly subscriptions can be purchased on the [Visual Studio Marketplace](https://marketplace.visualstudio.com/subscriptions) or through a [Cloud Solution Provider.](https://appsource.microsoft.com/en-us/marketplace/partner-dir).
+  + Sometimes called "cloud subscriptions," monthly subscriptions are billed each month and provide billing flexibility. They're a great option for developers who just need to use the IDE for a short time, and don’t need the other benefits. Monthly subscriptions can be purchased on the [Visual Studio Marketplace](https://marketplace.visualstudio.com/subscriptions) or through a [Cloud Solution Provider.](https://appsource.microsoft.com/marketplace/partner-dir).
 
 For general information about subscriptions, including options, benefits, and pricing, visit the [Visual Studio Subscriptions and benefits page.](https://visualstudio.microsoft.com/subscriptions/)
 
