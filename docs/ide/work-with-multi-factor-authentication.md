@@ -1,12 +1,11 @@
 ---
 title: Multifactor authentication with Visual Studio sign-ins
 titleSuffix: "" 
-ms.date: 08/13/2024
+ms.date: 5/12/2026
 ms.topic: how-to
 description: Use Visual Studio with accounts that require multifactor authentication (MFA) to protect your apps and data with conditional access policies.
 author: ghogen
 ms.author: ghogen
-
 ms.subservice: general-ide
 ms.custom: sfi-image-nochange
 ---
@@ -28,9 +27,6 @@ Once enabled, guest users will need more than just a username and password to ac
 
 ## Using Visual Studio with MFA policies
 
-
-::: moniker range="=vs-2022"
-
 With [Visual Studio 2022 version 17.11](/visualstudio/releases/2022/release-notes), Windows authentication broker is now the default workflow for adding and reauthenticating accounts in Visual Studio. 
 
 Windows authentication broker uses [Web Account Manager (WAM)](/entra/msal/dotnet/acquiring-tokens/desktop-mobile/wam) and offers many benefits such as security, improved MFA support, and seamless integration between accounts added to the OS and Visual Studio. Using WAM as the authentication mechanism in Visual Studio makes it easier to access resources secured via CA policies such as MFA.
@@ -39,12 +35,9 @@ Windows authentication broker uses [Web Account Manager (WAM)](/entra/msal/dotne
 
 If run into any [issues with using WAM](#web-account-manager-wam-errors), we recommend you [use System web browser](#enabling-system-web-browser) as the alternative to add and reauthenticate Visual Studio accounts.
 
-::: moniker-end
-
 > [!WARNING]
 > Not using this workflow could trigger a degraded experience resulting in multiple additional authentication prompts when adding or reauthenticating Visual Studio accounts. 
 
-::: moniker range="=vs-2022"
 
 ### Using Windows authentication broker
 
@@ -59,7 +52,6 @@ You can manage your accounts from the **Account Settings** dialog in Visual Stud
 
 Using Windows Account Manager (WAM) as the authentication mechanism in Visual Studio is the recommended workflow for adding and reauthenticating accounts. However, if run into any [issues with using WAM](#web-account-manager-wam-errors), you can switch to using the system web browser.
 
-::: moniker-end
 
 ### Enabling system web browser
 
@@ -71,9 +63,6 @@ To enable the **system web browser** workflow, go to Visual Studio's Options dia
 :::image type="content" source="media/vs-2022/select-system-web-browser.png" alt-text="Select system web browser from the menu.":::
 
 ### Sign into additional accounts with MFA policies 
-
-
-::: moniker range="=vs-2022"
 
 You can sign in or add accounts to Visual Studio via the [Profile Card](signing-in-to-visual-studio.md#add-and-switch-user-accounts-in-visual-studio) or the Account Settings dialog **(File > Account Settings…)**.
 
@@ -87,7 +76,6 @@ Once the Windows authentication broker workflow is enabled, you can sign in or a
 
 Once the system web browser workflow is enabled, you can sign in or add accounts to Visual Studio as you normally would.
 
-::: moniker-end
 
 :::image type="content" source="media/vs-2022/add-personalization-account.png" alt-text="Add a new personalization account to Visual Studio." border="false":::
 
@@ -142,7 +130,6 @@ Starting with Visual Studio 2022 version 17.5, if you see the previous error dia
 > [!NOTE]
 > Creating a ticket will help us identify problematic areas and provide the needed logs to investigate and address the issue.
 
-::: moniker range="=vs-2022"
 ### Web Account Manager (WAM) errors
 
 If you run into errors when using the [Windows authentication broker workflow for signing in to Visual Studio](#using-windows-authentication-broker), follow the action listed on the error dialog to resolve or report the issue. Use the links on the dialog to learn more about the error or to see error logs.
@@ -155,8 +142,6 @@ For example, if you see the following error dialog, you can attempt to resolve t
 
 If you need to switch to an authentication mechanism other than the Windows Broker, you can switch by following the instructions to [enable system web browser](#enabling-system-web-browser). 
 If those instructions don't work and you have a support contract please open a support ticket at [Technical support](https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=4fd4947b-15ea-ce01-080f-97f2ca3c76e8)
-
-::: moniker-end
 
 ## How to opt out of using a specific Microsoft Entra tenant in Visual Studio
 
