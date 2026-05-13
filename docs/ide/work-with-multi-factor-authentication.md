@@ -18,7 +18,7 @@ In this article, you learn to use Visual Studio with accounts that require multi
 
 When collaborating with external guest users, it's a good idea to protect your apps and data with **conditional access (CA)** policies such as **multifactor authentication (MFA)**.  
 
-Once enabled, guest users will need more than just a username and password to access your resources, and must satisfy additional security requirements. MFA policies can be enforced at the tenant, app, or individual guest user level, the same way that they're enabled for members of your own organization. 
+Once enabled, guest users need more than just a username and password to access your resources, and must satisfy additional security requirements. MFA policies can be enforced at the tenant, app, or individual guest user level, the same way that they're enabled for members of your own organization. 
 
 > [!NOTE]
 > Versions of Visual Studio prior to 16.6 may have degraded authentication experiences when used with accounts that have enabled CA policies such as MFA, and are associated with two or more tenants.
@@ -61,7 +61,7 @@ Using Windows Account Manager (WAM) as the authentication mechanism in Visual St
 ### Enabling system web browser
 
 > [!NOTE] 
-> For the best experience, we recommend that you clear your system’s default web browser data before proceeding with this workflow. Additionally, if you have Work or School accounts in your Windows 10 Settings under **Access work or school**, please verify that they are properly authenticated.
+> For the best experience, we recommend that you clear your system’s default web browser data before proceeding with this workflow. Additionally, if you have Work or School accounts in your Windows 10 Settings under **Access work or school**, verify that they are properly authenticated.
 
 To enable the **system web browser** workflow, go to Visual Studio's Options dialog **(Tools > Options…)**, select the **Accounts** tab and select **System web browser** from the **Add and reauthenticate accounts using:** dropdown. 
 
@@ -90,7 +90,7 @@ Once the system web browser workflow is enabled, you can sign in or add accounts
 
 :::image type="content" source="media/vs-2022/add-personalization-account.png" alt-text="Add a new personalization account to Visual Studio." border="false":::
 
-This action will open your system's default web browser, ask you to sign into your account, and validate any required MFA policy.
+This action opens your system's default web browser, ask you to sign into your account, and validate any required MFA policy.
 
 During the sign-in process, you may receive an additional prompt asking you to stay signed in. This prompt will likely show up the second time an account is used to sign in. To minimize the need to re-enter your credentials, we recommend that you select **Yes**, as this ensures your credentials are preserved across browser sessions.
 
@@ -104,9 +104,9 @@ If there's a problem with your account, Visual Studio might ask you to re-enter 
 
 :::image type="content" source="media/vs-2022/reauthenticate-account.png" alt-text="Screenshot showing account that needs reauthentication.":::
 
-Clicking on **Re-enter your credentials** will open your system's default web browser and attempt to automatically refresh your credentials. If unsuccessful, you'll be asked to sign into your account and validate any required CA/MFA policy.
+Clicking on **Re-enter your credentials** opens your system's default web browser and attempt to automatically refresh your credentials. If unsuccessful, you'll be asked to sign into your account and validate any required CA/MFA policy.
 
-If your account is associated with multiple Azure Active Directories and runs into an access problem with one or more of them, the **Re-enter your credentials** dialog will show you the impacted directories and the associated [AADSTS error codes](/azure/active-directory/develop/reference-error-codes#aadsts-error-codes). 
+If your account is associated with multiple Azure Active Directories and runs into an access problem with one or more of them, the **Re-enter your credentials** dialog shows you the impacted directories and the associated [AADSTS error codes](/azure/active-directory/develop/reference-error-codes#aadsts-error-codes). 
 
 You'll be able de-select any directories that you don't want to reauthenticate and **continue** a regular signing in operation with the home directory, as well as any guest tenants that remain selected. Deselected directories won't be accessible for future use until the [account filter](work-with-multi-factor-authentication.md#how-to-filter-out-individual-tenants) is removed.
 
@@ -126,7 +126,7 @@ If you're experiencing CA/MFA issues and/or are unable to log in even when using
 1. Sign in again.
 
 > [!NOTE]
-> After these steps you'll likely be able to log in, but your account will be put in a filtered state. While in a filtered state, only your account's default tenant and resources will be available. All other Microsoft Entra tenants and resources will become inaccessible, but you can [manually add them back](#how-to-opt-out-of-using-a-specific-microsoft-entra-tenant-in-visual-studio).
+> After these steps you likely can log in, but your account is put in a filtered state. While in a filtered state, only your account's default tenant and resources are available. All other Microsoft Entra tenants and resources become inaccessible, but you can [manually add them back](#how-to-opt-out-of-using-a-specific-microsoft-entra-tenant-in-visual-studio).
 
 ### Pre-authorization issues
 
@@ -139,7 +139,7 @@ Starting with Visual Studio 2022 version 17.5, if you see the previous error dia
 1. Create a new [Report a Problem](https://developercommunity.visualstudio.com/VisualStudio/report) ticket explaining the activity you were doing and/or resource you were trying to access before encountering the problem.
 
 > [!NOTE]
-> Creating a ticket will help us identify problematic areas and provide the needed logs to investigate and address the issue.
+> Creating a ticket helps us identify problematic areas and provide the needed logs to investigate and address the issue.
 
 ### Web Account Manager (WAM) errors
 
@@ -152,11 +152,11 @@ For example, if you see the following error dialog, you can attempt to resolve t
 :::image type="content" source="media/vs-2022/work-with-multi-factor-authentication/change-authentication-mechanism-error.png" alt-text="Screenshot of a WAM error dialog with the change authentication mechanism option to resolve the error." border="false":::
 
 If you need to switch to an authentication mechanism other than the Windows Broker, you can switch by following the instructions to [enable system web browser](#enabling-system-web-browser). 
-If those instructions don't work and you have a support contract please open a support ticket at [Technical support](https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=4fd4947b-15ea-ce01-080f-97f2ca3c76e8)
+If those instructions don't work and you have a support contract, open a support ticket at [Technical support](https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=4fd4947b-15ea-ce01-080f-97f2ca3c76e8)
 
 ## How to opt out of using a specific Microsoft Entra tenant in Visual Studio
 
-Visual Studio 2019 version 16.6 and above offers the flexibility to filter out tenants individually or globally, effectively hiding them from Visual Studio. Filtering eliminates the need to authenticate with that tenant, but it also means that you won't be able to access any associated resources.
+Visual Studio offers the flexibility to filter out tenants individually or globally, effectively hiding them from Visual Studio. Filtering eliminates the need to authenticate with that tenant, but it also means that you won't be able to access any associated resources.
 
 This functionality is useful when you have multiple tenants, but want to optimize your development environment by targeting a specific subset. It can also help in instances when you can't validate a particular CA/MFA policy, as you can filter out the offending tenant. 
 
@@ -172,11 +172,11 @@ To filter tenants that are associated with your Visual Studio account, open the 
 
 :::image type="content" source="media/vs-2022/apply-filter.png" alt-text="Apply filter." border="false":::
 
-The **Filter account** dialog will appear, allowing you to select which tenants you want to use with your account. 
+The **Filter account** dialog appears, allowing you to select which tenants you want to use with your account. 
 
 :::image type="content" source="media/vs-2022/select-filter-account.png" alt-text="Select account to filter.":::
 
-After you deselect the tenant to filter, the **Account Settings** and the **Filter account** dialogs will show filtered state.
+After you deselect the tenant to filter, the **Account Settings** and the **Filter account** dialogs shows filtered state.
 
 :::image type="content" source="media/vs-2022/account-settings-filter-account-dialogs-tenants-filtered-out-state.png" alt-text="Screenshot showing the filtered tenant state on the Account Settings and the Filter Account dialogs":::
 
@@ -228,7 +228,7 @@ These errors may be caused by the following:
 
  - SSL problems - See [SSL errors](#ssl-errors).
 
- - Proxy or firewalls on the network - If there is a proxy or firewall on the network, it will be the first device the connection attempts to communicate with, and it may be the one refusing the connection. You can determine if the firewall or proxy server is blocking connections by asking your network administrator. Alternatively, looking at network traces can indicate which machine the connection is being made to and identify who's refusing it. If it's an internal network address, it means the proxy or firewall blocked the connection. If it's an external IP address, this usually means DNS, IPV6, or SSL problems.
+ - Proxy or firewalls on the network - If there is a proxy or firewall on the network, it is the first device the connection attempts to communicate with, and it may be the one refusing the connection. You can determine if the firewall or proxy server is blocking connections by asking your network administrator. Alternatively, looking at network traces can indicate which machine the connection is being made to and identify who's refusing it. If it's an internal network address, it means the proxy or firewall blocked the connection. If it's an external IP address, this usually means DNS, IPV6, or SSL problems.
   
 #### Support for network related issues
 Network related issues are normally related to the machine or network configuration rather than Visual Studio. [Developer Community](https://developercommunity.visualstudio.com/VisualStudio) may provide some support, but it's focused on features within Visual Studio rather than machine configuration. For network-specific support, the [Microsoft Support Community](https://answers.microsoft.com/en-us) or [Technical support](https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=4fd4947b-15ea-ce01-080f-97f2ca3c76e8) can be helpful.
@@ -246,9 +246,9 @@ You may see one of the following errors:
 
 If you encounter these errors, close any open instances of Visual Studio and delete the file or directory mentioned in the error message to resolve the issue.
 
- Before deleting the file, check the security permissions on the file and consider logging a [Developer Community](https://developercommunity.visualstudio.com/VisualStudio) feedback ticket.  This will help us better understand why access to these files or directories is being denied.
+ Before deleting the file, check the security permissions on the file and consider logging a [Developer Community](https://developercommunity.visualstudio.com/VisualStudio) feedback ticket.  This helps us better understand why access to these files or directories is being denied.
 
-In your feedback ticket, please include the following information to help us investigate the issue:
+In your feedback ticket, include the following information to help us investigate the issue:
 1. A description or screenshot of the groups and users with permissions for the file or directory mentioned in the error. To view this, right-click the file or directory, then select **Properties** > **Security**.
 1. The user account you're using to run Visual Studio.
 1. If the error persists when launching Visual Studio a second time.
