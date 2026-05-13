@@ -26,9 +26,10 @@ To learn more about setting up Visual Studio on your system, see [Install Visual
 
 ## Create cloud-enabled Azure apps
 
-Visual Studio has a suite of tools to easily create Microsoft Azure cloud-enabled applications. You can configure, build, debug, package, and deploy Azure apps and services directly from the Visual Studio integrated development environment (IDE). To get the Azure tools and project templates, select the **Azure and AI development** workload when you install Visual Studio.
+Visual Studio has a suite of tools to easily create Microsoft Azure cloud-enabled applications. You can configure, build, debug, package, and deploy Azure apps and services directly from the Visual Studio integrated development environment (IDE). 
 
 ::: moniker range="visualstudio"
+To get the Azure tools and project templates, select the **Azure and AI development** workload when you install Visual Studio.
 
 :::image type="content" source="media/visualstudio/azure-development-workload.png" alt-text="Screenshot of the Azure and AI development workload selected in the Visual Studio 2026 Installer.":::
 
@@ -36,6 +37,7 @@ Visual Studio has a suite of tools to easily create Microsoft Azure cloud-enable
 
 
 ::: moniker range="vs-2022"
+To get the Azure tools and project templates, select the **Azure development** workload when you install Visual Studio.
 
 :::image type="content" source="media/vs-2022/azure-development-workload.png" alt-text="Screenshot of the Azure development workload selected in the Visual Studio Installer." border="false":::
 
