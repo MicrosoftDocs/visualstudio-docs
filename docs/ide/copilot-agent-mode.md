@@ -223,8 +223,12 @@ Select each file to review changes individually. You can keep or undo edits made
 
 Alternatively, in the **Total changes** list, select **Keep** or **Undo** for all edits made since the last time that you selected **Keep** or **Undo**.
 
+:::moniker range="visualstudio"
+
 > [!TIP]
 > Starting in Visual Studio 2026 version 18.6, you can use the [multi-file summary diff view](copilot-edits.md#review-all-changes-in-a-summary-view) to see all Copilot changes across multiple files in a single tab with granular accept and undo controls.
+
+:::moniker-end
 
 ## Revert edits
 
