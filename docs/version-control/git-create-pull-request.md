@@ -7,7 +7,7 @@ ms.update-cycle: 180-days
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
-ms.custom: doc-kit-assisted
+ms.custom: doc-kit-assisted, awp-ai
 
 ms.collection: ce-skilling-ai-copilot
 ms.subservice: general-ide
