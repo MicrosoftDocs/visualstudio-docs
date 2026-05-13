@@ -1,10 +1,11 @@
 ---
 title: "Browse repos, compare branches & commits"
 description: Browse any Git repository in Visual Studio by using the Git Repository window to view local and remote branches and multiple branches at the same time.
-ms.date: 02/25/2026
+ms.date: 05/13/2026
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
+ms.custom: doc-kit-assisted
 
 
 ms.subservice: general-ide
@@ -138,6 +139,16 @@ To compare any two commits in your branch, use the **Ctrl** key to select the tw
 
 > [!TIP]
 >Similar to **Commit Details**, you can use the **Open in New Tab** button to open the comparison on a different tab or maximize it on the screen.
+
+:::moniker range="visualstudio"
+
+### Review commit scope with a changes summary
+
+In **Git** > **View Branch History**, open any commit and select **Open changes summary**. Visual Studio shows changed lines from multiple files in one unified view, which is useful for a fast pass before deeper file-by-file review.
+
+:::image type="content" source="media/visualstudio/multi-file-summary-diff-commit-details-button.png" alt-text="Screenshot showing Open changes summary in commit details." :::
+
+:::moniker-end
 
 ## Create a branch from a commit
 
