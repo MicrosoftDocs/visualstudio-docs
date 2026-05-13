@@ -274,7 +274,7 @@ High Contrast values are system color indices. Visual Studio maps these to the u
 | `00000018` | `GradientActiveCaption` |
 | `0000001A` | `HotLight` |
 
-## See also
+## Related content
 
 - [Color theming tools](../internals/color-theming-tools.md)
 - [Modernize theme colors](../migration/modernize-theme-colors.md)
