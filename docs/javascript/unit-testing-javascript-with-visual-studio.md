@@ -104,7 +104,7 @@ The following example is based on the TypeScript React project template provided
    > For TypeScript, don't use the `outfile` option in *tsconfig.json*, because Test Explorer won't be able to find your unit tests. You can use the `outdir` option, but make sure that configuration files such as `package.json` and `tsconfig.json` are in the project root.
 
    > [!IMPORTANT]
-   > If the output from **Tests** in the Output window shows a `ReadOnlySpan` error during test discovery, use the following workaround for a known [MSBuild issue](https://github.com/dotnet/msbuild/issues/7873). For Visual Studio 2022, open the folder, *Program Files\Microsoft Visual Studio\2022\\<version\>\Common7\IDE\Extensions\TestPlatform*, and rename *System.Memory.dll* to a different name. This fix enables test discovery.
+   > If the output from **Tests** in the Output window shows a `ReadOnlySpan` error during test discovery, upgrade to the latest release of Visual Studio. If you still encounter the error, use the following workaround for a known [MSBuild issue](https://github.com/dotnet/msbuild/issues/7873). For Visual Studio 2022, open the folder, *Program Files\Microsoft Visual Studio\2022\\<version\>\Common7\IDE\Extensions\TestPlatform*, and rename *System.Memory.dll* to a different name. This fix enables test discovery. This workaround is not compatible with the use of code coverage.
 
 ### Run tests (.esproj)
 
@@ -357,7 +357,7 @@ The following example is based on the ASP.NET Core Model-View-Controller project
 
    ::: moniker range="vs-2022"
    > [!IMPORTANT]
-   > If the output from **Tests** in the Output window shows a `ReadOnlySpan` error during test discovery, use the following workaround for a known [MSBuild issue](https://github.com/dotnet/msbuild/issues/7873). In Visual Studio 2022, open the folder, *Program Files\Microsoft Visual Studio\2022\\<version\>\Common7\IDE\Extensions\TestPlatform*, and rename *System.Memory.dll* to a different name. This fix enables test discovery.
+   > If the output from **Tests** in the Output window shows a `ReadOnlySpan` error during test discovery, upgrade to the latest release of Visual Studio. If you still encounter the error, use the following workaround for a known [MSBuild issue](https://github.com/dotnet/msbuild/issues/7873). For Visual Studio 2022, open the folder, *Program Files\Microsoft Visual Studio\2022\\<version\>\Common7\IDE\Extensions\TestPlatform*, and rename *System.Memory.dll* to a different name. This fix enables test discovery. This workaround is not compatible with the use of code coverage.
    ::: moniker-end
 
 ### Run tests (ASP.NET Core)
