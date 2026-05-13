@@ -1,13 +1,14 @@
 ---
 title: 'Manage chat context with references'
 description: Use references to form better questions and get better answers with scoped context in GitHub Copilot Chat.
-ms.date: 11/2/2025
+ms.date: 05/13/2026
 ms.topic: how-to 
 author: RoseHJM
 ms.author: rosemalcolm
 
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
+ms.custom: doc-kit-assisted
 ms.update-cycle: 180-days
 helpviewer_keywords: 
   - copilot chat context
@@ -77,6 +78,28 @@ With Visual Studio 2022 version 17.11, [GitHub Copilot Enterprise](https://docs.
 
 :::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-context-at-github.png" alt-text="Screenshot of using GitHub skills in Copilot Chat.":::
 
+:::moniker range="visualstudio"
+
+### Reference commits from Git history
+
+You can attach one or more commits directly to GitHub Copilot Chat so Copilot can answer with commit-specific context.
+
+Use **Add to Chat** on a commit from any of these surfaces:
+
+- **Git History** (**Git** > **View Branch History**)
+- **File History** (right-click a file in **Solution Explorer**, then **Git** > **View History**)
+- **Annotate (Blame)** (right-click in the editor, then **Git** > **Annotate (Blame)**)
+
+After you attach commit context, try prompts such as:
+
+- Explain this change.
+- Does this introduce any issues?
+- Write a similar change for this other file.
+
+For a full walkthrough, see [Manage Git repositories in Visual Studio](../version-control/git-manage-repository.md#add-a-commit-to-github-copilot-chat).
+
+:::moniker-end
+
 ## <a name="attach-images"></a>Reference an image
 
 With vision integration for Copilot Chat in Visual Studio 17.14 and later, you can [attach images](visual-studio-github-copilot-chat.md#attach-images-to-chat-prompts) to your chat prompt, providing Copilot with additional context for improved responses. Use images in combination with [scope](#reference-context) and other contextual features such as [slash commands](copilot-chat-context.md#slash-commands) to generate tailored responses.
@@ -112,13 +135,13 @@ Note that Copilot can only reference static HTML content from the public URL you
 Here are some examples of using references for context control:
 
 | **Example** | **Context used by Copilot to form the question** |
-|---------------------------|:--------------------:|
-| What is the purpose of #MyFile.cs: 66-72?| Exact section of the file |
-| Where are the tests in #BasketService.cs?| BasketService.cs |
-| /explain the #AddItemToBasket in #BasketService.cs| AddItemToBasket method in BasketService.cs |
-| Is there a delete basket method in this @workspace| Current solution open in the IDE |
-| I have a test method named #TestCalculator. How can I ensure that it's being executed correctly?| TestCalculator method |
-| Could you explain the differences between classes #BasketService and #OrderService?| BasketService class and OrderService class |
+| --------------------------- | :--------------------: |
+| What is the purpose of #MyFile.cs: 66-72? | Exact section of the file |
+| Where are the tests in #BasketService.cs? | BasketService.cs |
+| /explain the #AddItemToBasket in #BasketService.cs | AddItemToBasket method in BasketService.cs |
+| Is there a delete basket method in this @workspace | Current solution open in the IDE |
+| I have a test method named #TestCalculator. How can I ensure that it's being executed correctly? | TestCalculator method |
+| Could you explain the differences between classes #BasketService and #OrderService? | BasketService class and OrderService class |
 | In my @workspace where is #AddItemToBasket? | Current solution open in the IDE |
 | Update my UI in App.tsx to resemble this image | Uploaded image |
 
