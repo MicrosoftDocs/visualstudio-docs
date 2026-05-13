@@ -11,6 +11,7 @@ helpviewer_keywords:
 author: chryw
 ms.author: cherwan
 ms.subservice: extensibility-integration
+monikerRange: "visualstudio"
 ---
 
 # Visual Studio theme color tokens

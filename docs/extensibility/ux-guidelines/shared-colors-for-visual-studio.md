@@ -5,7 +5,7 @@ ms.date: 04/26/2017
 ms.topic: reference
 author: tinaschrepfer
 ms.author: tinali
-
+monikerRange: "<=vs-2022"
 ms.subservice: extensibility-integration
 ms.custom: sfi-image-nochange
 ---
