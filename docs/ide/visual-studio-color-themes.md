@@ -30,9 +30,9 @@ Browse the sections below to preview each available theme.
 
 ## Use system setting
 
-Follows your Windows light or dark mode preference automatically. When Windows switches between light and dark modes, Visual Studio switches to the corresponding configured theme. See [Desktop Background and Themes Customizations](/windows-hardware/customize/desktop/wallpaper-and-themes-windows-11).
+Visual Studio follows your Windows light or dark mode preference automatically. When Windows switches between light and dark modes, Visual Studio switches to the corresponding configured theme. See [Desktop Background and Themes Customizations](/windows-hardware/customize/desktop/wallpaper-and-themes-windows-11).
 
-To choose specific themes for each system mode, go to **Tools > Options > Environment > Visual Experience** and set **System light theme** and **System dark theme**. For more information, see [Configure Visual Experience options](configure-visual-experience-options.md).
+To choose specific themes for each system mode, go to **Tools > Options > Environment > Visual Experience** and set **System light theme** and **System dark theme**. For details, see [Configure Visual Experience options](configure-visual-experience-options.md).
 
 ## Dark
 

@@ -31,15 +31,15 @@ Here's how to change the color theme of the IDE frame and the tool windows in Vi
 
 ### Configure system light and dark theme mappings
 
-When you use **Use system setting**, you can choose the specific Visual Studio themes used for each system mode.
+When you select **Use system setting**, you can configure specific themes for each system light and dark mode.
 
 1. Go to **Tools > Options > Environment > Visual Experience**.
 
 1. Set **Color theme** to **Use system setting**.
 
-1. Choose the themes to use for **System light theme** and **System dark theme**.
+1. Select the themes to use for **System light theme** and **System dark theme**.
 
-1. Change your system theme between light and dark and verify that Visual Studio switches to the theme you selected for each mode.
+1. Change your system theme between light and dark and verify that Visual Studio switches to the configured themes.
 
    :::image type="content" source="media/visualstudio/fonts-colors-theme.png" alt-text="Screenshot of the Options pane where you can change the color theme.":::
 

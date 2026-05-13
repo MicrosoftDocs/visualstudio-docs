@@ -37,7 +37,7 @@ The **Visual Experience** section provides the following general configuration o
 
 **Color theme**
 
-Change the color theme between Dark, Light, and other colors, or select **Use system setting** to use the current Windows theme. When you use **Use system setting**, select **System light theme** and **System dark theme** to choose which themes Visual Studio uses for each system mode. Visual Studio then switches between your selected themes when the system theme changes. Visual Studio includes color themes such as Cool Breeze, Spicy Red, Bubblegum, and more. For a visual preview of all available themes, see [Visual Studio color themes](visual-studio-color-themes.md). 
+Change the color theme between Dark, Light, and other colors, or select **Use system setting** to use the current Windows theme. When you select **Use system setting**, choose a **System light theme** and **System dark theme**. Visual Studio then automatically switches between your selected themes when the system theme changes. Visual Studio includes color themes such as Cool Breeze, Spicy Red, Bubblegum, and more. For a visual preview of all available themes, see [Visual Studio color themes](visual-studio-color-themes.md). 
 
 You can download and install predefined themes and custom themes on the [**Visual Studio Marketplace**](https://marketplace.visualstudio.com/search?target=VS&category=Tools&vsVersion=&subCategory=Themes&sortBy=Installs), such as:
 
