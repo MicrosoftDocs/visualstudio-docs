@@ -93,8 +93,6 @@ For example, you can ask questions such as:
 - What have I done so far in `#changes`?
 - Suggest unit tests for `#changes`.
 
-To use Git references in chat, enable Git preview features in Visual Studio.
-
 :::moniker range="visualstudio"
 
 Open the **Tools** > **Options** pane, expand **All Settings** > **GitHub** > **Copilot** > **Source Control Integration**, and select **Enable Git preview features**.
