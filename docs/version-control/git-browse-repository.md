@@ -146,7 +146,7 @@ To compare any two commits in your branch, use the **Ctrl** key to select the tw
 
 In **Git** > **View Branch History**, open any commit and select **Open changes summary**. Visual Studio shows changed lines from multiple files in one unified view, which is useful for a fast pass before deeper file-by-file review.
 
-:::image type="content" source="media/visualstudio/multi-file-summary-diff-commit-details-button.png" alt-text="Screenshot showing Open changes summary in commit details." :::
+:::image type="content" source="media/visualstudio/multi-file-summary-diff-git-changes-button.png" alt-text="Screenshot showing Open changes summary in commit details." :::
 
 :::moniker-end
 
