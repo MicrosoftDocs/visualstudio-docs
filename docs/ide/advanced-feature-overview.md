@@ -31,7 +31,7 @@ Visual Studio has a suite of tools to easily create Microsoft Azure cloud-enable
 ::: moniker range="visualstudio"
 To get the Azure tools and project templates, select the **Azure and AI development** workload when you install Visual Studio.
 
-:::image type="content" source="media/visualstudio/azure-development-workload.png" alt-text="Screenshot of the Azure and AI development workload selected in the Visual Studio 2026 Installer.":::
+:::image type="content" source="media/visualstudio/azure-development-workload.png" alt-text="Screenshot of the Azure and AI development workload selected in the Visual Studio Installer.":::
 
 ::: moniker-end
 
