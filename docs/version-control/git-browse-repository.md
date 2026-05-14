@@ -5,7 +5,7 @@ ms.date: 05/13/2026
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
-ms.custom: doc-kit-assisted
+ms.custom: doc-kit-assisted, awp-ai
 
 
 ms.subservice: general-ide
