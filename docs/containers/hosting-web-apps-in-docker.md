@@ -6,7 +6,7 @@ author: ghogen
 ms.devlang: dotnet
 ms.topic: how-to
 ms.subservice: container-tools
-ms.date: 8/25/2025
+ms.date: 5/14/2026
 ms.author: ghogen
 
 #customer intent: As a developer, I want to use Visual Studio Container Tools, so I can deploy a containerized ASP.NET or ASP.NET Core web app to Azure Container Registry.
