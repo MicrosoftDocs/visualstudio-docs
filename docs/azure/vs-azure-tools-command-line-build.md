@@ -2,7 +2,7 @@
 title: Command-line build for Azure
 description: Command-line build for Azure
 author: ghogen
-
+monikerRange: "<=vs-2022"
 ms.subservice: azure-development
 ms.topic: how-to
 ms.date: 03/05/2017

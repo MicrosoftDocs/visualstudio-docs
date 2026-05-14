@@ -2,7 +2,7 @@
 title: Configure cloud service with multiple configurations
 description: Learn how to configure an Azure Cloud Services (extended support) project by changing the ServiceDefinition.csdef, ServiceConfiguration.Local.cscfg, and ServiceConfiguration.Cloud.cscfg files.
 author: ghogen
-
+monikerRange: "<=vs-2022"
 ms.subservice: azure-development
 ms.topic: how-to
 ms.date: 11/11/2017
