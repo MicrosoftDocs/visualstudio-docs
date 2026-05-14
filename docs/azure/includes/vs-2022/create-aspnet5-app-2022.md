@@ -18,21 +18,19 @@ ms.date: 05/14/2026
 
 1. Choose whether you want SSL support by selecting or clearing the **Configure for HTTPS** checkbox.
 
-::: moniker range="visualstudio"
+1. Select the checkbox to enable Docker container support.
 
-1. Select the **Enable container support** checkbox.
+   ::: moniker range="visualstudio"
 
-   :::image type="content" source="../../media/create-aspnet5-app/visualstudio/asp-net-enable-docker-support-visual-studio.png" alt-text="Screenshot that shows how to create a new asp dot net Core web app project in Visual Studio.":::
+   :::image type="content" source="../../media/create-aspnet5-app/visualstudio/asp-net-enable-docker-support-visual-studio.png" alt-text="Screenshot that shows the container support checkbox in Visual Studio.":::
 
-::: moniker-end
+   ::: moniker-end
 
-::: moniker range="vs-2022"
+   ::: moniker range="vs-2022"
 
-1. Select the **Enable Docker** checkbox.
+   :::image type="content" source="../../media/create-aspnet5-app/asp-net-enable-docker-support-visual-studio.png" alt-text="Screenshot that shows how to create a new asp dot net Core web app project in Visual Studio 2022.":::
 
-   :::image type="content" source="../../media/create-aspnet5-app/asp-net-enable-docker-support-visual-studio.png" border="false" alt-text="Screenshot that shows how to create a new asp dot net Core web app project in Visual Studio 2022.":::
-
-::: moniker-end
+   ::: moniker-end
 
 1. Use the **Docker OS** dropdown list to select the type of container you want: **Windows** or **Linux**.
 
