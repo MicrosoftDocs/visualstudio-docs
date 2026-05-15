@@ -87,8 +87,13 @@ Once the Windows authentication broker workflow is enabled, you can sign in or a
 
 Once the system web browser workflow is enabled, you can sign in or add accounts to Visual Studio as you normally would.
 
+:::moniker range="visualstudio"
+:::image type="content" source="media/visualstudio/add-personalization-account.png" alt-text="Add a new personalization account to Visual Studio." border="false":::
+:::moniker-end
 
+:::moniker range="vs-2022"
 :::image type="content" source="media/vs-2022/add-personalization-account.png" alt-text="Add a new personalization account to Visual Studio." border="false":::
+:::moniker-end
 
 This action opens your system's default web browser, ask you to sign into your account, and validate any required MFA policy.
 
@@ -102,7 +107,13 @@ Based on your development activities and resource configuration, you may still b
 
 If there's a problem with your account, Visual Studio might ask you to re-enter your account credentials.  
 
+:::moniker range="visualstudio"
+:::image type="content" source="media/visualstudio/reauthenticate-account.png" alt-text="Screenshot showing account that needs reauthentication.":::
+:::moniker-end
+
+:::moniker range="vs-2022"
 :::image type="content" source="media/vs-2022/reauthenticate-account.png" alt-text="Screenshot showing account that needs reauthentication.":::
+:::moniker-end
 
 Clicking on **Re-enter your credentials** opens your system's default web browser and attempt to automatically refresh your credentials. If unsuccessful, you'll be asked to sign into your account and validate any required CA/MFA policy.
 
@@ -170,7 +181,12 @@ To filter tenants that are associated with your Visual Studio account, open the 
 </br>
 </br>
 
+:::moniker range="visualstudio"
+:::image type="content" source="media/visualstudio/apply-filter.png" alt-text="Apply filter." border="false":::
+:::moniker-end
+:::moniker range="vs-2022"
 :::image type="content" source="media/vs-2022/apply-filter.png" alt-text="Apply filter." border="false":::
+:::moniker-end
 
 The **Filter account** dialog appears, allowing you to select which tenants you want to use with your account. 
 
@@ -178,7 +194,13 @@ The **Filter account** dialog appears, allowing you to select which tenants you 
 
 After you deselect the tenant to filter, the **Account Settings** and the **Filter account** dialogs shows filtered state.
 
+:::moniker range="visualstudio"
+:::image type="content" source="media/visualstudio/account-settings-filter-account-dialogs-tenants-filtered-out-state.png" alt-text="Screenshot showing the filtered tenant state on the Account Settings and the Filter Account dialogs":::
+:::moniker-end
+
+:::moniker range="vs-2022"
 :::image type="content" source="media/vs-2022/account-settings-filter-account-dialogs-tenants-filtered-out-state.png" alt-text="Screenshot showing the filtered tenant state on the Account Settings and the Filter Account dialogs":::
+:::moniker-end
 
 ### Networking errors with Visual Studio
 
