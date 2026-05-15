@@ -1,7 +1,7 @@
 ---
 title: Keyboard shortcuts
 description: Learn about the default keyboard shortcuts in Visual Studio that allow you to access a variety of commands and windows.
-ms.date: 3/26/2026
+ms.date: 04/27/2026
 ms.topic: reference
 helpviewer_keywords:
 - shortcut keys [Visual Studio], keyboard binding schemes
@@ -11,6 +11,7 @@ helpviewer_keywords:
 - keyboard shortcuts
 author: ghogen
 ms.author: ghogen
+ms.custom: awp-ai
 
 ms.subservice: general-ide
 ---
@@ -522,6 +523,9 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Go to settings|**Ctrl+0** (zero), **Ctrl+S**<br /><br /> or<br /><br /> **Ctrl+0, S**| TeamFoundationContextMenus.Commands.GoToSettings |
 |Go to web access|**Ctrl+0** (zero), **Ctrl+A**<br /><br /> or<br /><br /> **Ctrl+0, A**| TeamFoundationContextMenus.Commands.GoToWebAccess |
 |Go to work items|**Ctrl+0** (zero), **Ctrl+W**<br /><br /> or<br /><br /> **Ctrl+0, W**| TeamFoundationContextMenus.Commands.GoToWorkItems |
+
+> [!NOTE]
+> The legacy Team Explorer work items experience is deprecated. Going forward, the **Go to work items** command no longer opens inside Visual Studio and instead opens work items in the web portal, where you'll find a modern, more consistent experience. This change aligns with updates introduced in Visual Studio 2019 and 2022 and ensures that all work item features are available through the web experience. For more information, see [work items in Visual Studio](https://devblogs.microsoft.com/devops/work-items-in-visual-studio/).
 
 ### <a name="bkmk_test-global-shortcuts"></a> Test: global shortcuts
 
