@@ -211,7 +211,6 @@ If a pull request comment doesn't include a code suggestion, you can ask GitHub 
 To use the apply and Copilot suggestion features, enable both of the following feature flags:
 
 - **Tools** > **Options** > **Preview Features** > **Pull Request Comments**
-- **Tools** > **Options** > **GitHub** > **Copilot** > **Source Control Integration** > **Enable Git preview features**
 
 You can also apply code suggestions from comments during [local code review](git-make-commit.md#apply-suggestions-from-local-code-review). Copilot uses your local review comments to suggest fixes before you commit.
 

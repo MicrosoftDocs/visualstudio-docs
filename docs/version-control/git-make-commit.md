@@ -150,7 +150,6 @@ GitHub Copilot can also suggest code edits based on comments from the local code
 To use this feature, enable both of the following feature flags:
 
 - **Tools** > **Options** > **Preview Features** > **Pull Request Comments**
-- **Tools** > **Options** > **GitHub** > **Copilot** > **Source Control Integration** > **Enable Git preview features**
 
 You can also apply code suggestions from [pull request comments](git-create-pull-request.md#apply-a-suggested-change-from-a-pull-request-comment) in the editor.
 
