@@ -2,8 +2,8 @@
 title: Make a Git commit in Visual Studio
 titleSuffix: ""
 description: Make a Git commit in Visual Studio by using Git providers such as GitHub or Azure DevOps, or locally with no provider at all.
-ms.date: 03/12/2026
-ms.custom: awp-ai
+ms.date: 05/14/2026
+ms.custom: awp-ai, doc-kit-assisted
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: ghogen
@@ -81,6 +81,12 @@ New in [**version 17.12**](/visualstudio/releases/2022/release-notes-v17.12): Wh
 ### Review local changes with Copilot Chat 
 
 New in **version 17.13**: With [GitHub Copilot](../ide/visual-studio-github-copilot-install-and-states.md) installed, you can have GitHub Copilot review your code changes before you commit them.
+
+:::moniker-end
+
+:::moniker range="visualstudio"
+
+You can also attach one or more commits directly from Git history to Copilot Chat by using **Add to Chat**. For details, see [Manage chat context with references](../ide/copilot-chat-context-references.md#reference-commits-from-git-history).
 
 :::moniker-end
 
