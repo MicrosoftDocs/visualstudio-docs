@@ -1,7 +1,7 @@
 ---
 title: 'GitHub Copilot Free in Visual Studio'
 description: Use GitHub Copilot Completions, Chat, and Edits for free in Visual Studio.
-ms.date: 2/18/2026
+ms.date: 05/15/2026
 ms.update-cycle: 180-days
 ms.topic: overview 
 author: RoseHJM
@@ -54,11 +54,11 @@ You can also [set up from the Copilot Chat window](work-with-github-accounts.md#
 
 ## Copilot Free usage limits in Visual Studio
 
-Copilot Free provides a limited number of code completions and chat responses for free each month. When you reach your monthly usage limit for chat or code completions, or both, you receive a notification and notice a change in Copilot functionality.
+Copilot Free includes a monthly token quota for code completions and chat. As you approach your limit, Visual Studio can show usage alerts. When your monthly quota is reached, you notice a change in Copilot functionality.
 
 :::moniker range="visualstudio"
 
-You can check your free tier status anytime by selecting **Copilot Usage** from the Copilot badge dropdown in the top-right corner of the IDE.
+You can check your free tier status anytime by selecting **Copilot Usage** from the Copilot status indicator in the Visual Studio status bar, or from the Copilot menu in the top-right corner of the IDE.
 
 :::image type="content" source="media/visualstudio/copilot-free-status.png" alt-text="Screenshot of Copilot Free Status menu option.":::
 
@@ -72,20 +72,29 @@ You can check your free tier status anytime by selecting **Copilot Free Status**
 
 :::moniker-end
 
-
-
 You can also check the current status of your Copilot Free account on the [GitHub account settings page](https://github.com/settings/copilot).
+
+> [!NOTE]
+> Exact usage labels and alerts vary by plan tier and by Visual Studio version.
 
 ### Usage limit reached
 
 When you reach the usage limits, your Copilot experience in Visual Studio might be affected as follows:
+
+:::moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/copilot-ubb/copilot-usage-monthly-limit-warning.png" alt-text="Screenshot showing a Copilot warning banner that indicates 86 percent of the monthly limit is used and includes an Upgrade plan button." lightbox="media/visualstudio/copilot-ubb/copilot-usage-monthly-limit-warning.png":::
+
+:::image type="content" source="media/visualstudio/copilot-ubb/copilot-usage-monthly-limit-reached.png" alt-text="Screenshot showing a Copilot alert banner that indicates the monthly limit is reached and includes a Manage plan button." lightbox="media/visualstudio/copilot-ubb/copilot-usage-monthly-limit-reached.png":::
+
+:::moniker-end
 
 :::row::: 
     :::column span="1"::: 
        **Usage limit for Completions is reached**
     :::column-end::: 
     :::column span="2"::: 
-       User receives IntelliCode suggestions instead of Copilot completions. The Copilot badge stays green, indicating **active** status. 
+       User receives IntelliCode suggestions instead of Copilot completions. The Copilot status indicator stays green, indicating **active** status. 
     :::column-end::: 
 :::row-end:::
 :::row::: 
@@ -93,13 +102,20 @@ When you reach the usage limits, your Copilot experience in Visual Studio might 
        **Usage limit for Chat is reached**
     :::column-end::: 
     :::column span="2"::: 
-       User no longer receives chat responses when sending prompts. The Copilot badge stays green, indicating **active** status. 
+      User no longer receives chat responses when sending prompts. The Copilot status indicator stays green, indicating **active** status. 
     :::column-end::: 
 :::row-end:::
 :::row::: 
 :::row-end:::
 
-When you reach usage limits for Copilot Free, wait for the limits to reset at the end of the monthly cycle or upgrade to Copilot Pro to continue using Copilot.
+When you reach usage limits for Copilot Free, wait for the monthly reset or upgrade to another Copilot plan to continue using Copilot.
+
+## Tips to get more from Copilot Free
+
+- Check **Copilot Usage** before long chat sessions so you can decide when to save quota.
+- Keep routine prompts concise and reserve larger prompts for tasks where chat or edits add the most value.
+- To preserve quota, open the Copilot menu, select **Settings**, and clear **Enable Copilot Completions** when you want to focus on chat only.
+- If Copilot doesn't behave as expected, confirm the correct GitHub account is active in Visual Studio.
 
 ## Frequently asked questions
 
