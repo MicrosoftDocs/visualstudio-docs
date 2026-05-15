@@ -25,36 +25,6 @@ To open the **Git Repository** window, choose **View** > **Git repository** (or 
    > [!TIP]
    > To keep this window open on restart, choose **Git** > **Settings** and check the ["Restore the Git Repository window on restart"](./git-settings.md#restore-the-git-repository-window-on-restart) box.
 
-:::moniker range="visualstudio"
-
-## Add a commit to GitHub Copilot Chat
-
-When you're reviewing a commit and want help understanding it, identifying risks, or creating a similar change, you can attach commit context directly to chat.
-
-With Visual Studio and [GitHub Copilot](../ide/visual-studio-github-copilot-install-and-states.md), right-click a commit and select **Add to Chat**. Visual Studio opens GitHub Copilot Chat with the selected commit attached as context.
-
-You can use this command from the following surfaces:
-
-- **Git History** (**Git** > **View Branch History**)
-- **File History** (right-click a file in **Solution Explorer**, then **Git** > **View History**)
-- **Annotate (Blame)** (right-click in the editor, then **Git** > **Annotate (Blame)**)
-
-You can also multiselect commits to attach several commits to chat at once.
-
-:::image type="content" source="media/visualstudio/add-commit-to-chat.png" alt-text="Screenshot showing the Add to Chat command for a selected commit in Git History." lightbox="media/visualstudio/add-commit-to-chat.png":::
-
-Copilot receives the selected commit as context, so you can ask prompts such as:
-
-- Explain this change.
-- Does this introduce any issues?
-- Write a similar change for this other file.
-
-:::image type="content" source="media/visualstudio/add-commit-to-chat-example-prompt.png" alt-text="Screenshot showing Copilot Chat with an attached commit used as context for a prompt." lightbox="media/visualstudio/add-commit-to-chat-example-prompt.png":::
-
-For more context strategies, see [Manage chat context with references](../ide/copilot-chat-context-references.md).
-
-:::moniker-end
-
 ## Change the last commit (amend)
 
 Updating the last commit is called *amending* in Git, and it's a common use case. Sometimes you just need to update your commit message, or you might need to include a last-minute change.

@@ -1,7 +1,7 @@
 ---
 title: 'Manage chat context with references'
 description: Use references to form better questions and get better answers with scoped context in GitHub Copilot Chat.
-ms.date: 05/13/2026
+ms.date: 05/14/2026
 ms.topic: how-to 
 author: RoseHJM
 ms.author: rosemalcolm
@@ -82,7 +82,9 @@ With Visual Studio 2022 version 17.11, [GitHub Copilot Enterprise](https://docs.
 
 ### Reference commits from Git history
 
-You can attach one or more commits directly to GitHub Copilot Chat so Copilot can answer with commit-specific context.
+When you're reviewing a commit and want Copilot help understanding changes, identifying potential issues, or drafting a similar edit, you can attach commit context directly to GitHub Copilot Chat.
+
+Instead of copying and pasting commit IDs into chat, use **Add to Chat** to attach the selected commit context from the IDE.
 
 Use **Add to Chat** on a commit from any of these surfaces:
 
@@ -90,13 +92,17 @@ Use **Add to Chat** on a commit from any of these surfaces:
 - **File History** (right-click a file in **Solution Explorer**, then **Git** > **View History**)
 - **Annotate (Blame)** (right-click in the editor, then **Git** > **Annotate (Blame)**)
 
+You can multiselect commits to attach several commits to chat at once.
+
+:::image type="content" source="../version-control/media/visualstudio/add-commit-to-chat.png" alt-text="Screenshot showing the Add to Chat command for a selected commit in Git History." lightbox="../version-control/media/visualstudio/add-commit-to-chat.png":::
+
 After you attach commit context, try prompts such as:
 
 - Explain this change.
 - Does this introduce any issues?
 - Write a similar change for this other file.
 
-For a full walkthrough, see [Manage Git repositories in Visual Studio](../version-control/git-manage-repository.md#add-a-commit-to-github-copilot-chat).
+:::image type="content" source="../version-control/media/visualstudio/add-commit-to-chat-example-prompt.png" alt-text="Screenshot showing Copilot Chat with an attached commit used as context for a prompt." lightbox="../version-control/media/visualstudio/add-commit-to-chat-example-prompt.png":::
 
 :::moniker-end
 

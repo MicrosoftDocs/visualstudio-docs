@@ -1,7 +1,7 @@
 ---
 title: About GitHub Copilot Chat in Visual Studio
 description: Learn about the fully integrated GitHub Copilot Chat in Visual Studio. Use chat to ask coding-related questions from right within the IDE.
-ms.date: 05/13/2026
+ms.date: 05/14/2026
 ms.update-cycle: 180-days
 ms.topic: overview 
 ai-usage: ai-assisted
@@ -34,7 +34,7 @@ Copilot Chat provides AI assistance to help you make informed decisions and writ
 - **[Review and commit code](../version-control/git-make-commit.md)**. [Generate commit messages](../version-control/git-make-commit.md#generate-commit-messages-with-github-copilot-chat) and [review local changes](../version-control/git-make-commit.md#review-local-changes-with-copilot-chat).
 
 :::moniker range="visualstudio"
-- **Commit history context**. Attach one or more commits directly from Git history to chat and ask Copilot to explain changes, spot issues, or propose similar edits. Learn more in [Manage Git repositories in Visual Studio](../version-control/git-manage-repository.md#add-a-commit-to-github-copilot-chat).
+- **Commit history context**. Attach one or more commits directly from Git history to chat and ask Copilot to explain changes, spot issues, or propose similar edits. Learn more in [Manage chat context with references](copilot-chat-context-references.md#reference-commits-from-git-history).
 :::moniker-end
 
 ## Prerequisites
