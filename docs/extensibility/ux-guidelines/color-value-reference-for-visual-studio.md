@@ -7,7 +7,7 @@ ms.author: madsk
 ms.date: 08/04/2017
 ms.topic: reference
 ms.reviewer: "Jamie.Young"
-
+monikerRange: "<=vs-2022"
 ms.subservice: extensibility-integration
 ---
 # Color value reference for Visual Studio

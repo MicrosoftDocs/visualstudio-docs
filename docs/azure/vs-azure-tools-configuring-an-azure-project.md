@@ -2,7 +2,7 @@
 title: Configure an Azure Cloud Services (extended support) project
 description: Learn how to configure an Azure Cloud Services (extended support) project in Visual Studio, depending on your requirements for that project.
 author: ghogen
-
+monikerRange: "<=vs-2022"
 ms.subservice: azure-development
 ms.topic: how-to
 ms.date: 03/06/2017

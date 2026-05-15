@@ -1,7 +1,7 @@
 ---
 title: Add, update, or remove WCF data service reference
 description: Explore how to add, update, or remove a Windows Communication Foundation (WCF) data service reference for .NET Framework applications in Visual Studio.
-ms.date: 5/2/2025
+ms.date: 5/14/2026
 ms.topic: how-to
 helpviewer_keywords:
 - service references [Visual Studio]
@@ -60,9 +60,21 @@ The WCF tools are not installed with the .NET workload; use the Visual Studio In
 
 1. Choose **Microsoft WCF Web Service Reference Provider**.
 
-   The **Configure WCF Web Service Reference** dialog appears.
+    ::: moniker range="visualstudio"
 
-   ![Screenshot of WCF Web Service Provider dialog box](media/vs-2019/configure-wcf-web-service-reference-dialog.png)
+    The **Add new WCF Web Service reference** dialog appears.
+
+    ![Screenshot of WCF Web Service reference dialog in Visual Studio.](media/visualstudio/configure-wcf-web-service-reference-dialog.png)
+
+    ::: moniker-end
+
+    ::: moniker range="vs-2022"
+
+    The **Configure WCF Web Service Reference** dialog appears.
+
+    ![Screenshot of WCF Web Service Provider dialog box.](media/vs-2019/configure-wcf-web-service-reference-dialog.png)
+
+    ::: moniker-end
 
 1. In the **URI** box, enter the URL for the service, and then select **Go** to search for the service. If the service implements user name and password security, you might be prompted for a user name and password.
 
