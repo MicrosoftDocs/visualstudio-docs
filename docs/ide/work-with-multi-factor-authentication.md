@@ -23,7 +23,7 @@ Once enabled, guest users need more than just a username and password to access 
 > [!NOTE]
 > Versions of Visual Studio prior to 16.6 may have degraded authentication experiences when used with accounts that have enabled CA policies such as MFA, and are associated with two or more tenants.
 >
-> These issues can cause your instance of Visual Studio to prompt reauthentication multiple times per day. You may have to re-enter your credentials for previously authenticated tenants, even during the course of the same Visual Studio session.
+> These issues can cause your instance of Visual Studio to prompt reauthentication multiple times per day. You may have to reenter your credentials for previously authenticated tenants, even during the course of the same Visual Studio session.
 
 ## Using Visual Studio with MFA policies
 
@@ -97,15 +97,15 @@ Once the system web browser workflow is enabled, you can sign in or add accounts
 
 This action opens your system's default web browser, ask you to sign into your account, and validate any required MFA policy.
 
-During the sign-in process, you may receive an additional prompt asking you to stay signed in. This prompt will likely show up the second time an account is used to sign in. To minimize the need to re-enter your credentials, we recommend that you select **Yes**, as this ensures your credentials are preserved across browser sessions.
+During the sign-in process, you may receive an additional prompt asking you to stay signed in. This prompt will likely show up the second time an account is used to sign in. To minimize the need to reenter your credentials, we recommend that you select **Yes**, as this ensures your credentials are preserved across browser sessions.
 
 :::image type="content" source="media/vs-2022/keep-me-signed-in.png" alt-text="Stay signed in?":::
 
-Based on your development activities and resource configuration, you may still be prompted to re-enter your credentials during your session. This can occur when you add a new resource, or try accessing a resource without having previously met its CA/MFA authorization requirements.
+Based on your development activities and resource configuration, you may still be prompted to reenter your credentials during your session. This can occur when you add a new resource, or try accessing a resource without having previously met its CA/MFA authorization requirements.
 
 ## Reauthenticating an account
 
-If there's a problem with your account, Visual Studio might ask you to re-enter your account credentials.  
+If there's a problem with your account, Visual Studio might ask you to reenter your account credentials.  
 
 :::moniker range="visualstudio"
 :::image type="content" source="media/visualstudio/reauthenticate-account.png" alt-text="Screenshot showing account that needs reauthentication.":::
@@ -139,9 +139,9 @@ If you're experiencing CA/MFA issues and/or are unable to log in even when using
 > [!NOTE]
 > After these steps you likely can log in, but your account is put in a filtered state. While in a filtered state, only your account's default tenant and resources are available. All other Microsoft Entra tenants and resources become inaccessible, but you can [manually add them back](#how-to-opt-out-of-using-a-specific-microsoft-entra-tenant-in-visual-studio).
 
-### Pre-authorization issues
+### Preauthorization issues
 
-:::image type="content" source="media/vs-2022/pre-auth-general.png" alt-text="Screenshot of a pre-authorization error dialog." border="false":::
+:::image type="content" source="media/vs-2022/pre-auth-general.png" alt-text="Screenshot of a preauthorization error dialog." border="false":::
 
 Starting with Visual Studio 2022 version 17.5, if you see the previous error dialog, try the following steps to resolve the issue:
 
@@ -204,18 +204,18 @@ After you deselect the tenant to filter, the **Account Settings** and the **Filt
 
 ### Networking errors with Visual Studio
 
-During sign in, Visual Studio may experience errors related to the network which aren't usually Visual Studio product issues and may need to be investigated by local IT support.
+During sign in, Visual Studio may experience errors related to the network that aren't usually Visual Studio product issues and may need to be investigated by local IT support.
 #### Error "Proxy authorization required
 If your machine or organization uses security measures such as a firewall or a proxy server, make sure you're following the
 [requirements to use Visual Studio behind a proxy or firewall](/visualstudio/install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server).
 
 #### SSL errors
-SSL errors may come in a variety of forms. Some examples are:
+SSL errors may come in various forms. Some examples are:
 
  - "The underlying connection was closed"
  - "The SSL connection could not be established"
  - "Could not create SSL/TLS secure channel"
- - "An existing connection was forcibly closed by the remote host.” (This can also be due to firewalls blocking the connection)
+ - "An existing connection was forcibly closed by the remote host.” (This issue can also be due to firewalls blocking the connection)
  - "The underlying connection was closed: An unexpected error occurred on send"
 
 These errors may be caused by the following:
@@ -240,11 +240,11 @@ These errors may be caused by the following:
  This error means when Visual Studio is trying to make a connection to an internet endpoint the machine refused the connection.
 
  Common Causes:
- - If the address "127.0.0.1" is in the error message this means a connection to a local proxy server was attempted but the local proxy server wasn't running.
+ - If the address "127.0.0.1" is in the error message, this means a connection to a local proxy server was attempted but the local proxy server wasn't running.
 
  - VPN connection - Try disconnecting from any VPNs and try the connection again. If it works, you'll want to follow up with the VPN provider or your network administrator. This includes corporate VPN or third-party VPN services.
 
- - DNS - The domain lookup on your machine has resolved to an address which doesn't point to the expected server. This means the connection is going to a different machine not running the expected services and refusing the connection. To debug this issue, you can use tools such as [NsLookup](/windows-server/administration/windows-commands/nslookup) and compare it to the [Azure IP Ranges and Service Tags](https://www.microsoft.com/en-gb/download/details.aspx?id=56519&msockid=29cb101f084a69eb165004b009d668ef).
+ - DNS - The domain lookup on your machine has resolved to an address that doesn't point to the expected server. This means the connection is going to a different machine not running the expected services and refusing the connection. To debug this issue, you can use tools such as [NsLookup](/windows-server/administration/windows-commands/nslookup) and compare it to the [Azure IP Ranges and Service Tags](https://www.microsoft.com/en-gb/download/details.aspx?id=56519&msockid=29cb101f084a69eb165004b009d668ef).
  
  - IPV6 - Some computers have IPV6 enabled but the network doesn't support the protocol. In this case you may see a connection refused message because the server couldn't be found. Try disabling IPV6 on the machine to see if the connection works. 
 
@@ -257,7 +257,7 @@ Network related issues are normally related to the machine or network configurat
 
 ### Errors on first launch
 
-You may encounter errors when launching Visual Studio for the first time. The error dialog will show the issue that prevented Visual Studio from opening.
+You may encounter errors when launching Visual Studio for the first time. The error dialog shows the issue that prevented Visual Studio from opening.
 
 #### Access denied
 You may see one of the following errors:
