@@ -92,7 +92,7 @@ You can also attach one or more commits directly from Git history to Copilot Cha
 
 :::moniker range="visualstudio"
 
-To enable this feature, open the **Tools** > **Options** pane, expand the **All Settings** > **Preview Features** section, and select the **Pull Request Comments** checkbox. Expand the **All Settings** > **GitHub** > **Copilot** > **Source Control Integration** section and select the **Enable Git preview features** checkbox.
+To enable this feature, open the **Tools** > **Options** pane, expand the **All Settings** > **Preview Features** section, and select the **Pull Request Comments** checkbox.
 
 :::moniker-end
 :::moniker range="<=vs-2022"
