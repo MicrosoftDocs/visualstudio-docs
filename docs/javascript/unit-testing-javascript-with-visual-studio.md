@@ -35,7 +35,6 @@ To run unit tests from the command-line, right-click the project in Solution Exp
 For information on setting up unit tests, see the following:
 
 - [Testing with Vitest](https://vitest.dev/guide/)
-- [Testing React with Jest](https://jestjs.io/docs/tutorial-react)
 - [Angular testing](https://angular.io/guide/testing)
 - [Testing Vue.js](https://vuejs.org/guide/scaling-up/testing.html#unit-testing)
 
