@@ -1,7 +1,7 @@
 ---
-title: "Visualize dotnet counters"
+title: "Visualize Dotnet Counters"
 description: Use the .NET Counters tool in the Visual Studio Performance Profiler to visualize dotnet counters over time and better understand your data.
-ms.date: "02/28/2025"
+ms.date: 05/15/2026
 ms.topic: how-to
 helpviewer_keywords:
   - "dotnet, counters, profiling"
@@ -30,11 +30,21 @@ For additional information on learning to use the .NET Counters tool effectively
 
 1. Open the Performance Profiler (**Alt + F2** or **Debug -> Performance Profiler**) in Visual Studio.
 
-2. Select the **.NET Counters** check box.
+1. Select the **.NET Counters** check box.
 
-   :::image type="content" source="../profiling/media/dotnet-counters-tool-selected.png" alt-text="Counters tool selected.":::
+   ::: moniker range="visualstudio"
 
-3. Click the **Start** button to run the tool.
+   :::image type="content" source="media/visualstudio/dotnet-counters-tool-selected.png" alt-text="Screenshot of the Counters tool in Visual Studio selected.":::
+
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
+
+   :::image type="content" source="media/dotnet-counters-tool-selected.png" alt-text="Screenshot of the Counters tool selected.":::
+
+   ::: moniker-end
+
+1. Click the **Start** button to run the tool.
 
 For more information on how to optimize tool performance, see [Optimizing Profiler settings](../profiling/optimize-profiler-settings.md).
 
@@ -42,7 +52,17 @@ For more information on how to optimize tool performance, see [Optimizing Profil
 
 While the tool is initially collecting data, you can see the live values of [dotnet counters](/dotnet/core/diagnostics/dotnet-counters).
 
-:::image type="content" source="../profiling/media/dotnet-counters-tool-collecting.png" alt-text=".NET Counter tool collecting.":::
+::: moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/dotnet-counters-tool-collecting.png" alt-text="Screenshot of the live values collected by the dotnet Counter tool in Visual Studio.":::
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+:::image type="content" source="media/dotnet-counters-tool-collecting.png" alt-text="Screenshot of the dotnet Counter tool collecting data.":::
+
+::: moniker-end
 
 You can also view graphs of the counters by selecting the checkbox next to the counter names. You can display the graphs of multiple counters at a time.
 
@@ -50,7 +70,17 @@ Once you are done exercising your app and collecting data, you can stop collecti
 
 Once the report loads, you should see a finalized report similar to the one shown below.
 
-:::image type="content" source="../profiling/media/dotnet-counters-tool-report.png" alt-text=".NET Counter tool report.":::
+::: moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/dotnet-counters-tool-report.png" alt-text="Screenshot of the Counter tool final report in Visual Studio.":::
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+:::image type="content" source="media/dotnet-counters-tool-report.png" alt-text="Screenshot of the Counter tool final report.":::
+
+::: moniker-end
 
 The report shows you the following values:
 
@@ -60,11 +90,31 @@ The report shows you the following values:
 
 You can filter or add columns in the table by right clicking the column headings and selecting a heading.
 
-:::image type="content" source="../profiling/media/dotnet-counters-tool-columns.png" alt-text=".NET Counter tool columns.":::
+::: moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/dotnet-counters-tool-columns.png" alt-text="Screenshot of the Counter tool columns in Visual Studio.":::
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+:::image type="content" source="media/dotnet-counters-tool-columns.png" alt-text="Screenshot of the Counter tool columns.":::
+
+::: moniker-end
 
 You can also view graphs in the detailed report by selecting the checkboxes next to counters. The data in the tables represents the values of the entire duration of your collected trace by default. To filter down the data to a specific time range, click and drag on the graphs.
 
-:::image type="content" source="../profiling/media/dotnet-counters-tool-time-filtering.png" alt-text=".NET Counters tool time filtering.":::
+::: moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/dotnet-counters-tool-time-filtering.png" alt-text="Screenshot of the Counter tool time filtering in Visual Studio.":::
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+:::image type="content" source="media/dotnet-counters-tool-time-filtering.png" alt-text="Screenshot of the Counter tool time filtering.":::
+
+::: moniker-end
 
 The table updates to relevant values for the time selected in the graphs. Use the **Clear Selection** button to reset the selected time range to the entire trace.
 
