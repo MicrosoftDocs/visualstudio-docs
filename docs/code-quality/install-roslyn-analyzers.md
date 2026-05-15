@@ -54,7 +54,7 @@ To install a Visual Studio Extension-based analyzer, follow these steps:
 
    ::: moniker range="visualstudio"
 
-   ![Screenshot of VSIX Installer dialog in Visual Studio.](media/visualstudio/vsix-installer-code-analysis.png)
+   ![Screenshot of VSIX Installer dialog in Visual Studio.](media/visualstudio/installer-code-analysis.png)
 
    ::: moniker-end
 
