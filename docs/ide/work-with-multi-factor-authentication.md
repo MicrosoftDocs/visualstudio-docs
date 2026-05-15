@@ -23,7 +23,7 @@ Once enabled, guest users need more than just a username and password to access 
 > [!NOTE]
 > Versions of Visual Studio prior to 16.6 may have degraded authentication experiences when used with accounts that have enabled CA policies such as MFA, and are associated with two or more tenants.
 >
-> These issues can cause your instance of Visual Studio to prompt reauthentication multiple times per day. You may have to reenter your credentials for previously authenticated tenants, even during the course of the same Visual Studio session.
+> These issues can cause your instance of Visual Studio to prompt reauthentication multiple times per day. You may have to reenter your credentials for previously authenticated tenants, even during the same Visual Studio session.
 
 ## Using Visual Studio with MFA policies
 
@@ -61,7 +61,7 @@ Using Windows Account Manager (WAM) as the authentication mechanism in Visual St
 ### Enabling system web browser
 
 > [!NOTE] 
-> For the best experience, we recommend that you clear your system’s default web browser data before proceeding with this workflow. Additionally, if you have Work or School accounts in your Windows 10 Settings under **Access work or school**, verify that they are properly authenticated.
+> For the best experience, we recommend that you clear your system’s default web browser data before proceeding with this workflow. Additionally, if you have Work or School accounts in your Windows 10 Settings under **Access work or school**, verify that they're properly authenticated.
 
 To enable the **system web browser** workflow, go to Visual Studio's Options dialog **(Tools > Options…)**, select the **Accounts** tab and select **System web browser** from the **Add and reauthenticate accounts using:** dropdown. 
 
@@ -101,7 +101,7 @@ During the sign-in process, you may receive an additional prompt asking you to s
 
 :::image type="content" source="media/vs-2022/keep-me-signed-in.png" alt-text="Stay signed in?":::
 
-Based on your development activities and resource configuration, you may still be prompted to reenter your credentials during your session. This can occur when you add a new resource, or try accessing a resource without having previously met its CA/MFA authorization requirements.
+Based on your development activities and resource configuration, you may still be prompted to reenter your credentials during your session. This prompt can occur when you add a new resource, or try accessing a resource without having previously met its CA/MFA authorization requirements.
 
 ## Reauthenticating an account
 
@@ -115,11 +115,11 @@ If there's a problem with your account, Visual Studio might ask you to reenter y
 :::image type="content" source="media/vs-2022/reauthenticate-account.png" alt-text="Screenshot showing account that needs reauthentication.":::
 :::moniker-end
 
-Clicking on **Re-enter your credentials** opens your system's default web browser and attempt to automatically refresh your credentials. If unsuccessful, you'll be asked to sign into your account and validate any required CA/MFA policy.
+Clicking on **Re-enter your credentials** opens your system's default web browser and attempt to automatically refresh your credentials. If unsuccessful, you are asked to sign into your account and validate any required CA/MFA policy.
 
 If your account is associated with multiple Azure Active Directories and runs into an access problem with one or more of them, the **Re-enter your credentials** dialog shows you the impacted directories and the associated [AADSTS error codes](/azure/active-directory/develop/reference-error-codes#aadsts-error-codes). 
 
-You'll be able de-select any directories that you don't want to reauthenticate and **continue** a regular signing in operation with the home directory, as well as any guest tenants that remain selected. Deselected directories won't be accessible for future use until the [account filter](work-with-multi-factor-authentication.md#how-to-filter-out-individual-tenants) is removed.
+You can deselect any directories that you don't want to reauthenticate and **continue** a regular signing in operation with the home directory, and any guest tenants that remain selected. Deselected directories won't be accessible for future use until the [account filter](work-with-multi-factor-authentication.md#how-to-filter-out-individual-tenants) is removed.
 
 :::image type="content" source="media/vs-2022/reauthenticate-client-access-problem-directories.png" alt-text="Reauthenticate your Visual Studio account.":::
 
@@ -215,7 +215,7 @@ SSL errors may come in various forms. Some examples are:
  - "The underlying connection was closed"
  - "The SSL connection could not be established"
  - "Could not create SSL/TLS secure channel"
- - "An existing connection was forcibly closed by the remote host.” (This issue can also be due to firewalls blocking the connection)
+ - "An existing connection was forcibly closed by the remote host." (This issue can also be due to firewalls blocking the connection)
  - "The underlying connection was closed: An unexpected error occurred on send"
 
 These errors may be caused by the following:
@@ -250,7 +250,7 @@ These errors may be caused by the following:
 
  - SSL problems - See [SSL errors](#ssl-errors).
 
- - Proxy or firewalls on the network - If there is a proxy or firewall on the network, it is the first device the connection attempts to communicate with, and it may be the one refusing the connection. You can determine if the firewall or proxy server is blocking connections by asking your network administrator. Alternatively, looking at network traces can indicate which machine the connection is being made to and identify who's refusing it. If it's an internal network address, it means the proxy or firewall blocked the connection. If it's an external IP address, this usually means DNS, IPV6, or SSL problems.
+ - Proxy or firewalls on the network - If there's a proxy or firewall on the network, it's the first device the connection attempts to communicate with, and it may be the one refusing the connection. You can determine if the firewall or proxy server is blocking connections by asking your network administrator. Alternatively, looking at network traces can indicate which machine the connection is being made to and identify who's refusing it. If it's an internal network address, it means the proxy or firewall blocked the connection. If it's an external IP address, this usually means DNS, IPV6, or SSL problems.
   
 #### Support for network related issues
 Network related issues are normally related to the machine or network configuration rather than Visual Studio. [Developer Community](https://developercommunity.visualstudio.com/VisualStudio) may provide some support, but it's focused on features within Visual Studio rather than machine configuration. For network-specific support, the [Microsoft Support Community](https://answers.microsoft.com/en-us) or [Technical support](https://support.serviceshub.microsoft.com/supportforbusiness/create?sapId=4fd4947b-15ea-ce01-080f-97f2ca3c76e8) can be helpful.
