@@ -9,7 +9,7 @@ ms.author: rosemalcolm
 
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot 
-ms.custom: copilot-learning-hub, doc-kit-assisted
+ms.custom: copilot-learning-hub, doc-kit-assisted, awp-ai
 ---
 
 # Get started with GitHub Copilot
