@@ -93,12 +93,6 @@ For example, you can ask questions such as:
 - What have I done so far in `#changes`?
 - Suggest unit tests for `#changes`.
 
-:::moniker range="visualstudio"
-
-Open the **Tools** > **Options** pane, expand **All Settings** > **GitHub** > **Copilot** > **Source Control Integration**, and select **Enable Git preview features**.
-
-:::moniker-end
-
 :::moniker range="<=vs-2022"
 
 Open the **Tools** > **Options** dialog, expand **GitHub** > **Copilot** > **Source Control Integration**, select **Enable Git preview features**, and then select **OK**.
