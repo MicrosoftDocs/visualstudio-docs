@@ -1,7 +1,7 @@
 ---
 title: Get Started with GitHub Copilot
 description: Learn how to get started with GitHub Copilot in Visual Studio.
-ms.date: 2/18/2026
+ms.date: 05/11/2026
 ms.update-cycle: 180-days
 ms.topic: get-started
 author: RoseHJM
@@ -56,10 +56,12 @@ Copilot is now ready to use in Visual Studio.
 After you sign in, use Copilot in the chat window and throughout the IDE.
 
 - **Use [agent mode](copilot-agent-mode.md) and [MCP servers](mcp-servers.md)**: In the chat window, select **Ask** and switch to **Agent** to enable agent mode. Use the tools icon to access Model Context Protocol (MCP) servers, configure servers, and choose which tools Copilot can use. For example, to get Copilot assistance with generating targeted code, send "Write unit tests for the methods in this file."
+  - As part of agent mode workflows, Copilot Chat can connect to cloud agents to run remote coding sessions that create repository issues and pull requests in your connected GitHub repository. You might be prompted to grant repository permissions the first time you start a cloud session, or when more permissions are required.
 
-- **Use [completions](visual-studio-github-copilot-extension.md) and [next edit suggestions](copilot-next-edit-suggestions.md)**: As you code, Copilot provides suggestions directly in the editor. Copilot suggests both new code (shown as gray text) and edits to existing code.
+- **Use [completions](visual-studio-github-copilot-extension.md) and [next edit suggestions](copilot-next-edit-suggestions.md)**: As you code, Copilot provides suggestions directly in the editor. Copilot suggests both new code (shown as gray text) and edits to existing code. By default, Visual Studio prioritizes IntelliSense over Copilot inline completions. You can customize keyboard shortcuts for accepting Copilot suggestions (full suggestion, next word, and next line) in **Tools** > **Options** > **Environment** > **Keyboard**.
 
 - **Use Copilot actions across Visual Studio**: Find Copilot-powered actions and suggestions on the editor context menu, error list, feature search, and other areas of the IDE.
+  - Use the Debugger Agent workflow from Copilot Chat or issue context. Start from a GitHub or Azure DevOps issue (or a natural-language prompt) to reproduce a problem, generate hypotheses, add instrumentation, analyze telemetry, and apply targeted fixes while validating live runtime behavior.
 
 ## Tailor Copilot chat to your workflow
 
@@ -70,6 +72,8 @@ Customize Copilot for your project and your development workflow.
 - **Access different [models](copilot-usage-and-models.md#understand-model-selection)**: Use the model picker in the prompt window to select AI models, or [bring your own model](copilot-select-add-models.md#bring-your-own-model-byom) to Copilot. Explore different models for different scenarios, whether it's answering quick questions, writing documentation, or generating multiple-file code edits.
 
 - **Add custom instructions**: Add reusable [custom instructions](copilot-chat-context.md#use-custom-instructions) in `.github/copilot-instructions.md` and [prompt files](copilot-chat-context.md#use-prompt-files) in `.github/prompts` to customize Copilot responses for your coding style or project needs.
+
+- **Create and manage custom agents**: In the Copilot Chat window, use the agent picker at the top of the prompt area to create and select custom agents. User-level custom agent definitions are stored in `%USERPROFILE%\.github\agents`. These agents retain workspace awareness, tool configuration, model selection, and MCP connections. For more information, see [Use built-in and custom agents with GitHub Copilot](copilot-specialized-agents.md).
 
 ## Helpful resources
 

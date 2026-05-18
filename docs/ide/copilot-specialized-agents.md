@@ -1,7 +1,7 @@
 ---
 title: Use custom agents in GitHub Copilot
 description: Learn about built-in agents for debugging, profiling, testing, and code modernization, and how to create custom agents for your team workflows.
-ms.date: 04/21/2026
+ms.date: 05/11/2026
 ms.topic: how-to
 author: mikejo5000
 ms.author: mikejo
@@ -43,12 +43,6 @@ You can access custom agents by using **@ syntax**: Type `@` followed by the age
 
 :::moniker-end
 
-:::moniker range="vs-2022"
-
-:::image type="content" source="media/vs-2022/agent-picker.png" alt-text="Screenshot showing the agent picker with custom agents.":::
-
-:::moniker-end
-
 ## Built-in agents
 
 Each built-in agent focuses on a specific developer workflow. These agents integrate with Visual Studio's native tooling in ways that a generic assistant can't.
@@ -68,7 +62,12 @@ Each built-in agent focuses on a specific developer workflow. These agents integ
 | **@profiler** | Connects to Visual Studio's profiling infrastructure to identify bottlenecks and suggest targeted optimizations grounded in your codebase, not generic advice. |
 ::: moniker-end
 
+
 :::moniker range="visualstudio"
+
+## Cloud agents
+
+In Copilot Chat, you can start cloud-based agent sessions from the agent picker. A connected repository means you have a local solution open from a GitHub repository and you're signed in to GitHub in Visual Studio. These remote sessions are powered by the GitHub Copilot coding agent and can create repository issues and pull requests in that repository.
 
 ### Use the @debugger agent
 
@@ -105,10 +104,6 @@ The @test agent generates unit tests that match your project's testing framework
 + `@test Write integration tests for this API endpoint`
 
 For more comprehensive .NET testing support, see [GitHub Copilot testing for .NET](../test/github-copilot-test-dotnet-overview.md).
-
-::: moniker-end
-
-:::moniker range="visualstudio"
 
 ### Use the @modernize agent
 
@@ -195,6 +190,15 @@ Tools extend what your custom agent can do. You can specify which tools the agen
 
 > [!IMPORTANT]
 > Tool names vary across GitHub Copilot platforms. Check the tools available in Visual Studio specifically to make sure your agent works as expected. Select the **Tools** icon in the chat window to see available tool names.
+
+### Language-specific tools for C++
+
+C++ code editing tools are generally available in agent mode. If the C++ workload is installed, your custom agent can use these Visual Studio-specific tool names in its `tools` array:
+
+- `get_symbol_call_hierarchy` for call hierarchy navigation
+- `get_symbol_class_hierarchy` for class and type hierarchy navigation
+
+These tools give agents language-aware navigation for C++ and help improve precision when analyzing and editing C++ code.
 
 ### Connect to external sources with MCP
 

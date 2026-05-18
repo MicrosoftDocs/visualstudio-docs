@@ -1,7 +1,7 @@
 ---
 title: Isolating Code Under Test with Microsoft Fakes
 description: Learn how Microsoft Fakes helps you isolate the code you are testing by replacing other parts of the application with stubs or shims.
-ms.date: 05/23/2023
+ms.date: 05/18/2026
 ms.topic: how-to
 ms.author: mikejo
 ms.manager:  aajohn
@@ -21,7 +21,7 @@ The benefit of this approach is that it allows you to focus on testing the speci
 
 - Visual Studio Enterprise
 - A .NET Framework project
-- .NET Core, .NET 5.0 or later, and SDK-style project support previewed in Visual Studio 2019 Update 6, and is enabled by default in Update 8. For more information, see [Microsoft Fakes for .NET Core and SDK-style projects](/visualstudio/releases/2019/release-notes#microsoft-fakes-for-net-core-and-sdk-style-projects).
+- .NET Core, .NET 5.0 or later, and SDK-style project support in Visual Studio 2019 and later. For more information, see [Microsoft Fakes for .NET Core and SDK-style projects](/visualstudio/releases/2019/release-notes#microsoft-fakes-for-net-core-and-sdk-style-projects).
 
 > [!NOTE]
 > Profiling with Visual Studio isn't available for tests that use Microsoft Fakes.

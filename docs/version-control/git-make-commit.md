@@ -2,7 +2,7 @@
 title: Make a Git commit in Visual Studio
 titleSuffix: ""
 description: Make a Git commit in Visual Studio by using Git providers such as GitHub or Azure DevOps, or locally with no provider at all.
-ms.date: 05/12/2026
+ms.date: 05/13/2026
 ms.custom: awp-ai, doc-kit-assisted
 ms.update-cycle: 180-days
 ms.topic: how-to
@@ -59,6 +59,20 @@ Changes can also be unstaged by clicking the **–** (minus) button. The equival
 You can also choose not to stage your modified files by skipping the staging area. In this case, Visual Studio allows you to commit your changes directly without having to stage them. Just enter your commit message and then select **Commit All**. The equivalent command for this action is `git commit -a`.
 
 Visual Studio also makes it easy to commit and sync with one click by using the **Commit All and Push** and **Commit All and Sync** shortcuts. When you double-click any file in the **Changes** and the **Staged changes** sections, you can see a line-by-line comparison with the unmodified version of the file. See [Compare files - diff view](../ide/compare-with.md).
+
+:::moniker range="visualstudio"
+
+### Review changed lines across files
+
+To quickly understand the scope of your pending commit, select **Open changes summary** in the **Git Changes** window. Visual Studio shows changed lines from multiple files in one unified view, so you can triage changes before you commit.
+
+:::image type="content" source="media/visualstudio/multi-file-summary-diff-git-changes-button.png" alt-text="Screenshot showing Open changes summary in the Git Changes toolbar." :::
+
+After you open the summary, Visual Studio displays changed lines from multiple files in one view.
+
+:::image type="content" source="media/visualstudio/multi-file-summary-diff-collapsed-2.png" alt-text="Screenshot showing changed lines from multiple files in a unified summary view." :::
+
+:::moniker-end
 
 :::moniker range="<=vs-2022"
 
