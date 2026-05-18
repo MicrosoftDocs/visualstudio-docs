@@ -6,7 +6,7 @@ author: ghogen
 ms.devlang: dotnet
 ms.topic: how-to
 ms.subservice: container-tools
-ms.date: 8/25/2025
+ms.date: 5/14/2026
 ms.author: ghogen
 
 #customer intent: As a developer, I want to use Visual Studio Container Tools, so I can deploy a containerized ASP.NET or ASP.NET Core web app to Azure Container Registry.
@@ -16,7 +16,7 @@ ms.author: ghogen
 
 This tutorial walks you through using Visual Studio to publish your containerized application to an [Azure Container Registry](https://azure.microsoft.com/products/container-registry).
 
-If you don't have an Azure subscription, create a [free account](https://azure.microsoft.com/pricing/purchase-options/azure-account?icid=dotnet?utm_source=acr-publish-doc&utm_medium=docs&utm_campaign=docs) before you begin.
+If you don't have an Azure subscription, create a [free account](https://azure.microsoft.com/pricing/purchase-options/azure-account?cid=msft_learn) before you begin.
 
 ## Prerequisites
 

@@ -74,13 +74,13 @@ Visual Studio also makes it easy to commit and sync with one click by using the 
 
 :::moniker range=">=vs-2022"
 
-New in [**version 17.6**](/visualstudio/releases/2022/release-notes-v17.6): You can also reference an issue or a pull request by typing `#` or selecting the **#** button in the lower right side of the commit message text box. For more information, see the [Reference issues and pull requests](https://devblogs.microsoft.com/visualstudio/reference-github-issues-and-pull-requests-in-visual-studio/) blog post.
+You can also reference an issue or a pull request by typing `#` or selecting the **#** button in the lower right side of the commit message text box. For more information, see the [Reference issues and pull requests](https://devblogs.microsoft.com/visualstudio/reference-github-issues-and-pull-requests-in-visual-studio/) blog post.
 
-New in [**version 17.12**](/visualstudio/releases/2022/release-notes-v17.12): When you rename a file, you'll see a notification bar at the top of the **Git Changes** window informing you that a file was renamed, and prompting you to stage that change. This notification appears before you stage or commit anything. You might want to stage and commit the change before making other changes, in order to ensure that Git detects the change as a rename, not a deletion and addition of a new file.
+When you rename a file, you'll see a notification bar at the top of the **Git Changes** window informing you that a file was renamed, and prompting you to stage that change. This notification appears before you stage or commit anything. You might want to stage and commit the change before making other changes, in order to ensure that Git detects the change as a rename, not a deletion and addition of a new file.
 
 ### Review local changes with Copilot Chat 
 
-New in **version 17.13**: With [GitHub Copilot](../ide/visual-studio-github-copilot-install-and-states.md) installed, you can have GitHub Copilot review your code changes before you commit them.
+With [GitHub Copilot](../ide/visual-studio-github-copilot-install-and-states.md) installed, you can have GitHub Copilot review your code changes before you commit them.
 
 If you want to ask follow-up questions about your pending work in a chat conversation, you can also reference `#changes` in Copilot Chat to summarize your uncommitted edits or ask for next steps. To review an earlier change, use `#commit:` in chat to reference a specific commit. For more information, see [Manage chat context with references](../ide/copilot-chat-context-references.md#reference-context).
 
@@ -172,7 +172,7 @@ When you double-click a **Commit**, Visual Studio opens its details in a separat
 
 ## Generate commit messages with GitHub Copilot Chat
 
-With Visual Studio version 17.9 and later and the GitHub Copilot extensions, you can use AI to generate detailed commit messages that describe your changes.
+With Visual Studio and the GitHub Copilot, you can use AI to generate detailed commit messages that describe your changes.
 
 > [!NOTE]
 > To enable AI-generated commit messages, you need GitHub Copilot and GitHub Copilot Chat. To get started, see [Manage GitHub Copilot installation and state](../ide/visual-studio-github-copilot-install-and-states.md).
@@ -200,14 +200,20 @@ When you're ready to make a commit, use the sparkly pen icon (tooltip: **Add AI 
 
 :::moniker range="visualstudio"
 
-You can customize the commit message format globally by giving additional guidance in the prompt for GitHub Copilot. To add custom prompt instructions, open the **Tools** > **Options** pane, and expand the **All Settings** > **GitHub** > **Copilot** > **Source Control Integration** section. In the **Commit message custom instructions** box, enter your additions to the prompt text. The changes affect every commit message. With this prompt guidance in place, teams can standardize commit message formats.
+If you've been using the **Commit message custom instructions** text box under **GitHub** > **Copilot** > **Source Control Integration** to tailor Copilot-generated commit messages, that setting no longer applies.
 
-:::image type="content" source="./media/visualstudio/git-customize-commit-message-with-ai.png" border="false" alt-text="Screenshot that shows how to to add a custom prompt for commit message with Tools Options." lightbox="./media/visualstudio/git-customize-commit-message-with-ai.png":::
+Going forward, manage commit message instructions in your repository's Copilot instructions file. This setup keeps commit message guidance in the same place as your other Copilot custom instructions.
+
+### Set up custom instructions
+
+Add your commit message instructions to your repository's Copilot instructions file. For setup steps, see [Add repository instructions](https://docs.github.com/en/copilot/how-tos/configure-custom-instructions/add-repository-instructions?tool=visualstudio).
+
+ :::image type="content" source="./media/visualstudio/commit-message-custom-instructions.png" alt-text="Screenshot showing a Copilot instructions file with commit message rules." lightbox="./media/visualstudio/commit-message-custom-instructions.png":::
 
 :::moniker-end
 :::moniker range="<=vs-2022"
 
-With Visual Studio 2022 version 17.12 and later, you can customize the commit message format globally by giving additional guidance in the prompt for GitHub Copilot. 
+With Visual Studio 2022, you can customize the commit message format globally by giving additional guidance in the prompt for GitHub Copilot.
 
 To add custom prompt instructions, open the **Tools** > **Options** dialog, and expand the **GitHub** > **Copilot** section. Under **Source Control Integration** group, enter your additions to the prompt text in the **Commit message custom instructions** box and select **OK**. The changes affect every commit message. With this prompt guidance in place, teams can standardize commit message formats.
 
