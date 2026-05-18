@@ -2,11 +2,12 @@
 title: Create a pull request in Visual Studio
 titleSuffix: ""
 description: Create a pull request in Visual Studio by using GitHub or Azure DevOps.
-ms.date: 03/23/2026
+ms.date: 05/13/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
+ms.custom: doc-kit-assisted, awp-ai
 
 ms.collection: ce-skilling-ai-copilot
 ms.subservice: general-ide
@@ -77,9 +78,16 @@ To create a pull request, follow these steps:
 1. The difference preview allows you to see all the changes in the files that have been committed as a part of your pull request. See [Compare files - diff view](../ide/compare-with.md).
 
    > [!TIP]
-   > The summary difference view option allows you to review only the changed sections of code. 
+   > Select **Open changes summary** to open a multi-line summary diff, which shows changed lines from multiple files in one unified view for faster review.
+
+   > [!NOTE]
+   > The pull requests list entry point in **View** > **Git Repository** is currently available in Visual Studio Insiders with the preview feature **View pull requests for a Git repository**.
 
    :::image type="content" source="media/vs-2022/git-create-pr-summary-diff.png" alt-text="The New Pull Request window with the summary button text highlighted in Visual Studio 2022."::: 
+
+   If you're using the pull requests list preview entry point, the **Open changes summary** button appears in that list.
+
+   <!-- >:::image type="content" source="media/visualstudio/multi-file-summary-diff-pr-list-button.png" alt-text="Screenshot showing Open changes summary in the pull requests list." ::: -->
 
 1. You can link work items by referencing them with the [issue search](https://devblogs.microsoft.com/visualstudio/reference-github-issues-and-pull-requests-in-visual-studio/), by typing `#` in the description box or pressing the **#** button in the lower right corner. You can also add your reviewers by typing their GitHub username or Azure DevOps identity or email. 
 
