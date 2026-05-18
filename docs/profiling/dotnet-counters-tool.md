@@ -1,5 +1,5 @@
 ---
-title: "Visualize Dotnet Counters"
+title: "Visualize dotnet counters"
 description: Use the .NET Counters tool in the Visual Studio Performance Profiler to visualize dotnet counters over time and better understand your data.
 ms.date: 05/15/2026
 ms.topic: how-to
