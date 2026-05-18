@@ -1,7 +1,7 @@
 ---
 title: "Unit testing JavaScript and TypeScript"
 description: Explore unit testing support in Visual Studio for JavaScript and TypeScript code by using the Node.js Tools for Visual Studio.
-ms.date: "8/6/2025"
+ms.date: "5/18/26"
 ms.topic: "how-to"
 ms.devlang: javascript
 author: "mikejo5000"
