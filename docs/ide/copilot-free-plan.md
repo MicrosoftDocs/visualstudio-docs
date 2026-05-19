@@ -82,14 +82,6 @@ You can also check the current status of your Copilot Free account on the [GitHu
 
 When you reach the usage limits, your Copilot experience in Visual Studio might be affected as follows:
 
-:::moniker range="visualstudio"
-
-:::image type="content" source="media/copilot-monthly-limit-warning.png" alt-text="Screenshot showing a warning banner that the user has used 75 percent of the monthly limit and can upgrade the plan." lightbox="media/copilot-monthly-limit-warning.png":::
-
-:::image type="content" source="media/copilot-enterprise-monthly-limit-reached-chat.png" alt-text="Screenshot showing an alert banner in Copilot Chat that the monthly limit is reached with an Upgrade plan option." lightbox="media/copilot-enterprise-monthly-limit-reached-chat.png":::
-
-:::moniker-end
-
 :::row::: 
     :::column span="1"::: 
        **Usage limit for Completions is reached**

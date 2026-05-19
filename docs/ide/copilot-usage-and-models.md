@@ -31,9 +31,15 @@ To track your Copilot usage:
 
    The usage window can look different depending on your plan.
 
+   If you have Copilot Pro, the usage dialog shows your monthly limit and upgrade options.
+
    :::image type="content" source="media/copilot-pro-usage-monthly-limit.png" alt-text="Screenshot showing Copilot Pro usage with a monthly limit bar and options to configure overages or upgrade the plan." lightbox="media/copilot-pro-usage-monthly-limit.png":::
 
+   If you have Copilot Business, the usage dialog shows organization-managed usage details and request options.
+
    :::image type="content" source="media/copilot-business-usage-monthly-limit.png" alt-text="Screenshot showing Copilot Business usage with monthly limit progress and a Request usage button." lightbox="media/copilot-business-usage-monthly-limit.png":::
+
+   If you have Copilot Enterprise, the usage dialog can show that no monthly limit is set by your organization.
 
    :::image type="content" source="media/copilot-enterprise-usage-no-monthly-limit.png" alt-text="Screenshot showing Copilot Enterprise usage with no monthly limit set by the organization." lightbox="media/copilot-enterprise-usage-no-monthly-limit.png":::
 
