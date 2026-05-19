@@ -6,13 +6,12 @@ ms.update-cycle: 180-days
 ms.topic: overview 
 author: RoseHJM
 ms.author: rosemalcolm
-
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
 ms.custom: awp-ai
 monikerRange: '>= vs-2022'
-
 ---
+
 # Use GitHub Copilot for free in Visual Studio
 
 GitHub Copilot Free enables you to experience AI-powered coding assistance in your IDE by providing limited access to select Copilot features. With [Copilot Free](https://devblogs.microsoft.com/visualstudio/github-copilot-free-is-here-in-visual-studio/), you can now access all AI-integrated features in Visual Studio, including [Completions](visual-studio-github-copilot-extension.md), Edits, and [Chat](visual-studio-github-copilot-chat.md).
@@ -62,6 +61,8 @@ You can check your free tier status anytime by selecting **Copilot Usage** from 
 
 :::image type="content" source="media/visualstudio/copilot-free-status.png" alt-text="Screenshot of Copilot Free Status menu option.":::
 
+:::image type="content" source="media/copilot-free-usage-monthly-limit.png" alt-text="Screenshot showing Copilot Free usage with monthly limit and inline suggestions usage details." lightbox="media/copilot-free-usage-monthly-limit.png":::
+
 :::moniker-end
 
 :::moniker range="<=vs-2022"
@@ -83,9 +84,9 @@ When you reach the usage limits, your Copilot experience in Visual Studio might 
 
 :::moniker range="visualstudio"
 
-:::image type="content" source="media/visualstudio/copilot-ubb/copilot-usage-monthly-limit-warning.png" alt-text="Screenshot showing a Copilot warning banner that indicates 86 percent of the monthly limit is used and includes an Upgrade plan button." lightbox="media/visualstudio/copilot-ubb/copilot-usage-monthly-limit-warning.png":::
+:::image type="content" source="media/copilot-monthly-limit-warning.png" alt-text="Screenshot showing a warning banner that the user has used 75 percent of the monthly limit and can upgrade the plan." lightbox="media/copilot-monthly-limit-warning.png":::
 
-:::image type="content" source="media/visualstudio/copilot-ubb/copilot-usage-monthly-limit-reached.png" alt-text="Screenshot showing a Copilot alert banner that indicates the monthly limit is reached and includes a Manage plan button." lightbox="media/visualstudio/copilot-ubb/copilot-usage-monthly-limit-reached.png":::
+:::image type="content" source="media/copilot-enterprise-monthly-limit-reached-chat.png" alt-text="Screenshot showing an alert banner in Copilot Chat that the monthly limit is reached with an Upgrade plan option." lightbox="media/copilot-enterprise-monthly-limit-reached-chat.png":::
 
 :::moniker-end
 
