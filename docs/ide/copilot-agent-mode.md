@@ -1,7 +1,7 @@
 ---
 title: Use Agent Mode
 description: Use the GitHub Copilot agent to iterate on code in Visual Studio by making code edits, running commands, and reading error/build context.
-ms.date: 04/02/2026
+ms.date: 05/11/2026
 ms.update-cycle: 180-days
 ms.topic: get-started
 author: RoseHJM
@@ -128,7 +128,7 @@ Agent mode can use the following tools for responding to a request:
 - [Agent skills](copilot-agent-skills.md) that provide task-specific instructions
 
 > [!TIP]
-> Visual Studio also includes built-in agents like @debug, @profiler, @test, and @vs that integrate with specific IDE features. You can also create custom agents for your team workflows. For more information, see [Use custom agents in GitHub Copilot](copilot-specialized-agents.md).
+> Visual Studio also includes built-in agents like @debug, @profiler, @test, and @vs that integrate with specific IDE features. In agent mode, @debug can guide bug reproduction, instrumentation and telemetry collection, and fix validation. You can also create custom agents for your team workflows. For more information, see [Use custom agents in GitHub Copilot](copilot-specialized-agents.md).
 
 To view and manage the tools that are available in agent mode, select the **Tools** icon in the chat window.
 
@@ -165,7 +165,18 @@ Once you enable the tool, Copilot uses it automatically when answering your ques
 
 Supported languages include C++, C#, Razor, and TypeScript, plus any other language for which you have a supported Language Server Protocol (LSP) extension installed.
 
+For C++ projects, agent mode can also use C++ tools to navigate call and class hierarchies. For more information, see [C++ code editing tools](#c-code-editing-tools).
+
 For best results, write clear prompts and use AI models that support tool-calling. For more information about model capabilities, see [AI model comparison (GitHub Docs)](https://docs.github.com/copilot/reference/ai-models/model-comparison).
+
+### C++ code editing tools
+
+When C++ code editing tools are enabled in the **Tools** list in Copilot Chat, agent mode can use these Visual Studio-specific tools:
+
+- `get_symbol_call_hierarchy` to traverse call hierarchies
+- `get_symbol_class_hierarchy` to navigate class and type hierarchies
+
+These tools help the agent reason over C++ relationships so it can make more precise navigation and editing decisions. To use these tools, install the **Desktop development with C++** workload. After these tools are available and enabled, agent mode uses them automatically when applicable.
 
 :::moniker-end
 
@@ -222,6 +233,13 @@ Copilot lists the edited files in the **Total changes** list in the chat window.
 Select each file to review changes individually. You can keep or undo edits made to each chunk of code.
 
 Alternatively, in the **Total changes** list, select **Keep** or **Undo** for all edits made since the last time that you selected **Keep** or **Undo**.
+
+:::moniker range="visualstudio"
+
+> [!TIP]
+> Starting in Visual Studio 2026 version 18.6, you can use the [multi-file summary diff view](copilot-edits.md#review-all-changes-in-a-summary-view) to see all Copilot changes across multiple files in a single tab with granular accept and undo controls.
+
+:::moniker-end
 
 ## Revert edits
 

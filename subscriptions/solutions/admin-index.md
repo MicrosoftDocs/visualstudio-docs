@@ -5,7 +5,11 @@ ms.topic: faq
 robots: noindex, nofollow
 author: joseb-rdc 
 ms.author: amast 
-ms.date: 01/30/2026
+ms.date: 05/19/2026
+ms.assetid: a3312f1d-c92c-4c45-8b9e-4c20a5911bb8
+sap.id: 190f557e-7edb-47a3-9846-410267ead91f
+user.type: admin
+subscription.type: vl, retail, partner, cloud
 ---
 
 # Visual Studio subscriptions admin support

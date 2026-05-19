@@ -60,6 +60,20 @@ You can also choose not to stage your modified files by skipping the staging are
 
 Visual Studio also makes it easy to commit and sync with one click by using the **Commit All and Push** and **Commit All and Sync** shortcuts. When you double-click any file in the **Changes** and the **Staged changes** sections, you can see a line-by-line comparison with the unmodified version of the file. See [Compare files - diff view](../ide/compare-with.md).
 
+:::moniker range="visualstudio"
+
+### Review changed lines across files
+
+To quickly understand the scope of your pending commit, select **Open changes summary** in the **Git Changes** window. Visual Studio shows changed lines from multiple files in one unified view, so you can triage changes before you commit.
+
+:::image type="content" source="media/visualstudio/multi-file-summary-diff-git-changes-button.png" alt-text="Screenshot showing Open changes summary in the Git Changes toolbar." :::
+
+After you open the summary, Visual Studio displays changed lines from multiple files in one view.
+
+:::image type="content" source="media/visualstudio/multi-file-summary-diff-collapsed-2.png" alt-text="Screenshot showing changed lines from multiple files in a unified summary view." :::
+
+:::moniker-end
+
 :::moniker range="<=vs-2022"
 
 :::image type="content" source="media/vs-2022/git-file-version-compare.png" alt-text="The line-by-line comparison of file versions in Visual Studio 2022." lightbox="media/vs-2022/git-file-version-compare.png":::
