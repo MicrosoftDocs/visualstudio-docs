@@ -20,13 +20,13 @@ You can acquire Visual Studio subscriptions in several ways, and the process for
 If you currently have a retail subscription, there are two ways to renew: 
 
 + Connect to the [Subscriptions page](https://my.visualstudio.com/subscriptions) on the [Subscriptions Portal](https://my.visualstudio.com/benefits) and select on the 'Renew' link. 
-+ Visit the [Microsoft Store](https://www.microsoft.com/store) and search for 'Visual Studio subscription' to see the available renewal opportunities. Here are some quick links: 
++ Visit the [Microsoft Store](https://www.microsoft.com/store) and search for 'Visual Studio Subscription' to see the available renewal opportunities. Here are some quick links: 
 
   + [Visual Studio Enterprise](https://www.microsoft.com/p/visual-studio-enterprise-subscription/dg7gmgf0dst4?activetab=pivot%3aoverviewtab) 
   + [Visual Studio Professional](https://www.microsoft.com/p/visual-studio-professional-subscription/dg7gmgf0dst3?activetab=pivot%3aoverviewtab)
   + [Visual Studio Test Professional](https://www.microsoft.com/p/visual-studio-test-professional-subscription/dg7gmgf0dst6?activetab=pivot%3aoverviewtab) 
 
-> [!Note]
+> [!NOTE]
 > You must renew your subscription within 30 days after the expiry to qualify for renewal pricing. If you renew through the Microsoft Store, be sure to activate your renewal with the 5x5 key that you receive or your subscription will not have an updated end date or be renewed.
 
 Microsoft Store support is available by phone through the [Customer service phone numbers – Microsoft Support](https://support.microsoft.com/topic/customer-service-phone-numbers-c0389ade-5640-e588-8b0e-28de8afeb3f2) page or by chat using the [Store Assistant](https://www.microsoft.com/store/b/sale) on the Microsoft Store website.
