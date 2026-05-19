@@ -3,7 +3,7 @@ title: Import publish settings in Visual Studio
 author: ghogen
 description: Learn how to import publish settings in Visual Studio
 ms.author: ghogen
-ms.date: 10/3/2025
+ms.date: 05/18/2026
 ms.subservice: deployment
 ms.topic: include
 ---
@@ -15,7 +15,17 @@ ms.topic: include
 
    In the **Publish** dialog box, click **Import Profile**.
 
-   ![Choose Publish](../../deployment/media/tutorial-publish-tool-import-profile.png)
+   ::: moniker range="visualstudio"
+
+   ![Screenshot of the option to import publish settings in Visual Studio.](../media/visualstudio/tutorial-publish-tool-import-profile.png)
+
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
+
+   ![Screenshot of the option to import publish settings.](../media/visualstudio/tutorial-publish-tool-import-profile.png)
+
+   ::: moniker-end
 
 1. Navigate to the location of the publish settings file that you created in the previous section.
 
