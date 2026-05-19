@@ -1,7 +1,7 @@
 ---
 title: Customize and Save Layouts of Windows and Tabs
 description: Learn how to customize tabs and windows in Visual Studio to create layouts that work best for your development workflows.
-ms.date: 03/19/2026
+ms.date: 05/19/2026
 ms.topic: how-to
 f1_keywords:
 - vs.windows
@@ -80,7 +80,7 @@ When you select and drag the title bar of a tool window or the tab of document w
 
 To move a dockable window without snapping it into place, select **Ctrl** while you drag the window.
 
-To return a tool window or document window to its most recent docked location, select **Ctrl** while you double-click the title bar or tab of the window.
+To toggle a tool window or document window between floating and its most recent docked location, press **Ctrl** while you double-click the title bar or tab. This doesn't affect other layout settings.
 
 The following screenshot shows the guide diamond for document windows, which can be docked only within the editing frame:
 
@@ -110,6 +110,17 @@ The following screenshot shows Solution Explorer being docked in a new location 
 :::image type="content" source="media/docked-diamond-solution-explorer-example-sml.png" alt-text="Screenshot of what appears in the IDE when you want to dock Solution Explorer in a new position.":::
 
 :::moniker-end
+
+#### Floating window ownership
+
+You can control how floating tool windows and document windows interact with the main Visual Studio IDE window by using the **Tools** > **Options** > **Environment** > **Windows** > **Floating Windows** setting. This setting has three options:
+
+- **None**: Floating windows behave as independent application windows, separate from the main IDE. With this setting, floating tool windows and document windows maintain their own taskbar presence and remain visible even when the main Visual Studio window is minimized.
+- **Tool Windows** (default): Floating tool windows are owned by the main IDE window. They minimize with the IDE, stay on top of other windows when the IDE is active, and don't appear as separate taskbar buttons.
+- **Documents and Tool Windows**: Both floating tool windows and floating document windows are owned by the main IDE window. Unlike the **Tool Windows** option, this also applies the ownership behavior to document windows.
+
+> [!NOTE]
+> Setting ownership to **None** is useful if you want to use tools like PowerToys FancyZones to snap floating Visual Studio windows into custom layouts, or if you need floating windows to remain visible while working with other applications.
 
 ### Close and autohide tool windows
 
