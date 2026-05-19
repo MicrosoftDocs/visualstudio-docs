@@ -1,7 +1,7 @@
 ---
 title: GitHub Copilot Edits in Visual Studio
 description: Use GitHub Copilot Edits to iterate quickly on code changes across multiple files in Visual Studio version 17.13 and later.
-ms.date: 03/26/2026
+ms.date: 05/13/2026
 ms.update-cycle: 180-days
 ms.topic: overview
 author: RoseHJM
@@ -9,7 +9,6 @@ ms.author: rosemalcolm
 
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
-monikerRange: 'vs-2022'
 ms.custom: awp-ai
 
 ---
@@ -85,6 +84,32 @@ Select **Accept all** to accept the proposed code changes across all files where
 
 :::image type="content" source="media/vs-2022/copilot-edits/accept-all.gif" alt-text="Animated screenshot that shows accepting all edits on all files." lightbox="media/vs-2022/copilot-edits/accept-all.gif":::
 
+:::moniker range="visualstudio"
+### Review all changes in a summary view
+
+Starting in Visual Studio 2026 version 18.6, when Copilot edits multiple files, you can review all changes in a single summary view instead of switching between files individually.
+
+1. After Copilot finishes editing, select the **Open Changes Summary** button in the Copilot Chat working set.
+
+   :::image type="content" source="media/visualstudio/multi-file-summary-diff-working-set.png" alt-text="Screenshot showing the Open Changes Summary button in the Copilot Chat working set." lightbox="media/visualstudio/multi-file-summary-diff-working-set.png":::
+
+1. A single tab opens that shows all changed files with their diffs together.
+
+   :::image type="content" source="media/visualstudio/multi-file-summary-diff-view.png" alt-text="Screenshot of the multi-file summary diff view displaying multiple files with inline diffs and accept/undo controls." lightbox="media/visualstudio/multi-file-summary-diff-view.png":::
+
+You can accept or undo changes at different levels of granularity:
+
+- **Across all files at once** by using the global accept/undo controls
+- **Per file** by using the controls next to each file header
+- **Per individual diff chunk** by using the inline accept/undo buttons
+
+Use the controls in the top-left corner to:
+
+- **Collapse all file contents** to see only file headers for a quick overview
+- **Navigate between diff chunks** using the next and previous buttons to jump through changes quickly
+
+You can also select any file to open it separately and see its full context.
+::: moniker-end
 
 ## Revert edits
 

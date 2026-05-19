@@ -1,7 +1,7 @@
 ---
 title: Compile and build TypeScript code using NuGet
 description: Add TypeScript support to your Visual Studio projects by using the NuGet package for portability across different platforms and environments.
-ms.date: 4/27/2026
+ms.date: 5/18/2026
 ms.topic: how-to
 author: "mikejo5000"
 ms.author: "mikejo"
@@ -29,7 +29,17 @@ If Visual Studio is installed, then the node.exe bundled with it will automatica
 
 1. In Solution Explorer (right pane). right-click the project node and choose **Manage NuGet Packages**. In the **Browse** tab, search for **Microsoft.TypeScript.MSBuild**, and then click **Install** to install the package.
 
-   ![Add NuGet package](../javascript/media/aspnet-core-ts-nuget.png)
+   ::: moniker range="visualstudio"
+
+   ![Screenshot of the Nuget package manager in Visual Studio.](media/visualstudio/aspnet-core-nuget.png)
+
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
+
+   ![Screenshot of the Nuget package manager.](media/aspnet-core-ts-nuget.png)
+
+   ::: moniker-end
 
    Visual Studio adds the NuGet package under the **Dependencies** node in Solution Explorer. The following package reference gets added to your *.csproj file.
 
