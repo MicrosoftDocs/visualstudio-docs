@@ -1,7 +1,7 @@
 ---
 title: "Tips and tricks in the debugger"
 description: Explore some of the lesser-known features supported by the Visual Studio debugger, such as keyboard shortcuts, data tips, and code editing during debugging.
-ms.date: "06/16/2023"
+ms.date: "05/19/2025"
 ms.topic: how-to
 helpviewer_keywords:
   - "stepping"
@@ -77,7 +77,12 @@ It's easy to view variables using debugger windows like the **Watch** window. Ho
 
 3. Find the variable in the **Locals** window (**Debug > Windows > Locals**), right-click the variable, and select **Make Object ID**.
 
-    ![Create an Object ID](../debugger/media/dbg-tips-watch-create-object-id.png "CreateObjectID")
+   ::: moniker range="=visualstudio"
+   ![Create an Object ID](../debugger/media/visualstudio/debug-tips-watch-create-object-id.png "CreateObjectID")
+   :::
+   ::: moniker range="=vs-2022"
+   ![Create an Object ID](../debugger/media/dbg-tips-watch-create-object-id.png "CreateObjectID")
+   :::
 
 4. You should see a **$** plus a number in the **Locals** window. This variable is the object ID.
 
