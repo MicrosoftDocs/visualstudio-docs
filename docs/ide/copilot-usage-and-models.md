@@ -26,20 +26,20 @@ GitHub Copilot includes built-in tools to help you track usage, manage your plan
 To track your Copilot usage:
 
 :::moniker range="visualstudio"
-1. Select the Copilot status indicator in the Visual Studio status bar, or select the down arrow next to the Copilot button in the top-right corner.
+1. Select the down arrow next to the Copilot badge in the top-right corner.
 1. Select **Copilot Usage** from the menu to view the dialog.
 
    The usage window can look different depending on your plan.
 
-   If you have Copilot Pro, the usage dialog shows your monthly limit and upgrade options.
+   If you have a Copilot Individual plan, the usage dialog can show monthly limit details and continuation options.
 
    :::image type="content" source="media/copilot-pro-usage-monthly-limit.png" alt-text="Screenshot showing Copilot Pro usage with a monthly limit bar and options to configure overages or upgrade the plan." lightbox="media/copilot-pro-usage-monthly-limit.png":::
 
-   If you have Copilot Business, the usage dialog shows organization-managed usage details and request options.
+   For Copilot Business and Copilot Enterprise, the usage dialog shows organization-managed usage details.
 
    :::image type="content" source="media/copilot-business-usage-monthly-limit.png" alt-text="Screenshot showing Copilot Business usage with monthly limit progress and a Request usage button." lightbox="media/copilot-business-usage-monthly-limit.png":::
 
-   If you have Copilot Enterprise, the usage dialog can show that no monthly limit is set by your organization.
+   For Copilot Business and Copilot Enterprise, the usage dialog can also show that no monthly limit is set by your organization.
 
    :::image type="content" source="media/copilot-enterprise-usage-no-monthly-limit.png" alt-text="Screenshot showing Copilot Enterprise usage with no monthly limit set by the organization." lightbox="media/copilot-enterprise-usage-no-monthly-limit.png":::
 
@@ -47,7 +47,9 @@ To track your Copilot usage:
 :::moniker-end
 
 :::moniker range="vs-2022"
-1. Select the **Copilot Consumptions** in the top-right corner of Visual Studio.
+1. Select the Copilot badge in the top-right corner of Visual Studio, and then select **Copilot Usage**.
+
+   In older versions, this experience can appear as **Copilot Consumptions**.
 
    :::image type="content" source="media/vs-2022/copilot-usage-models/copilot-consumptions-panel.png" alt-text="Screenshot that shows Copilot Consumptions panel." lightbox="media/vs-2022/copilot-usage-models/copilot-consumptions-panel.png":::
 
@@ -60,31 +62,18 @@ To track your Copilot usage:
 > [!NOTE]
 > GitHub manages billing and subscriptions. For details, visit your [GitHub settings](https://github.com/settings/billing/summary).
 
-## Use the Copilot status indicator
-
-:::moniker range="visualstudio"
-The Copilot status indicator in the Visual Studio status bar gives you at-a-glance state and quick access to actions such as **Copilot Usage**, **Open Chat Window**, and troubleshooting links.
-
-Use this menu to quickly check quota status before starting prompt-heavy tasks.
-:::moniker-end
-
-:::moniker range="vs-2022"
-Use the Copilot badge in the top-right corner to open the same menu options.
-:::moniker-end
-
 ## Understand model selection
 
-> [!NOTE]
-> With Usage-Based Billing (UBB), Copilot uses a token-based billing and quota model. Model multipliers are not shown in the model picker.
-
 Copilot supports multiple AI models with different capabilities and quota consumption rates. Choosing the right model for your task helps you manage your monthly quota more effectively. For most prompts, the **Auto** model provides an efficient balance, but you can switch to a premium model for complex tasks that benefit from advanced capabilities.
+
+For more details, see [Change the chat model](https://docs.github.com/copilot/how-tos/use-ai-models/change-the-chat-model?tool=visualstudio), [Supported AI models](https://docs.github.com/copilot/reference/ai-models/supported-models), and [Auto model selection](https://docs.github.com/copilot/concepts/auto-model-selection).
 
 To view or change your current model:
 
 1. Open the **Copilot Chat** window.
 1. Use the **Model picker** dropdown above the input field to select a model.
 
-In UBB-enabled experiences, the model picker can show model cost indicators, but it doesn't show multiplier labels (for example, "1x").
+The model picker can show model cost indicators that represent the relative cost of each model.
 
 ## Monitor quota and manage alerts
 
@@ -92,7 +81,7 @@ Understanding your quota status and setting appropriate alerts helps you stay wi
 
 ### Set a personal usage warning threshold
 
-You can set a custom warning level in Visual Studio to be notified before reaching your monthly quota. This helps you plan your usage throughout the month.
+Visual Studio already warns you as you approach your monthly quota. You can set a custom warning level if you want a different threshold.
 
 To set a personal usage warning threshold:
 
@@ -119,9 +108,7 @@ When you reach your monthly quota, Copilot displays an alert banner with options
 :::image type="content" source="media/copilot-enterprise-monthly-limit-reached-chat.png" alt-text="Screenshot showing an alert banner in Copilot Chat that the monthly limit is reached with an Upgrade plan option." lightbox="media/copilot-enterprise-monthly-limit-reached-chat.png":::
 
 > [!NOTE]
-> For Enterprise customers, the monthly quota is set by your organization and may be shared among multiple developers. Check with your IT administrator if you have questions about your quota limit or if you need an individual usage limit set.
-
-To manage model usage in non-chat interactions, configure the setting **Enhance non-chat requests with premium models** in **GitHub** > **Copilot** > **Editor**.
+> For Copilot Business and Copilot Enterprise customers, monthly quota is organization-managed and can be shared among multiple developers. In some organizations, no individual monthly limit is set and usage draws from a shared pool. For details, see [About usage limits](https://docs.github.com/en/copilot/concepts/usage-limits).
 
 > [!TIP]
 > Visit your [Copilot settings on GitHub](https://github.com/settings/copilot/features) to explore model options and subscription details.
@@ -130,7 +117,6 @@ To manage model usage in non-chat interactions, configure the setting **Enhance 
 
 - Use **Auto** in the model picker for most prompts, then switch models for complex requests.
 - Turn off **Enhance non-chat requests with premium models** in **GitHub** > **Copilot** > **Editor** if you want to reduce token usage for non-chat scenarios.
-- If you're near your monthly quota, temporarily disable **Enable Copilot Completions** from the Copilot menu **Settings**.
 - If you use multiple GitHub accounts in Visual Studio, verify the active account is the account with your expected Copilot plan.
 - Use **Manage plan** from the usage window to verify your current plan tier and overage policy.
 
