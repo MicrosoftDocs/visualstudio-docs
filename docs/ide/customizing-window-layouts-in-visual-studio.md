@@ -120,7 +120,7 @@ You can control how floating tool windows and document windows interact with the
 - **Documents and Tool Windows**: Both floating tool windows and floating document windows are owned by the main IDE window. Unlike the **Tool Windows** option, this also applies the ownership behavior to document windows.
 
 > [!NOTE]
-> Setting ownership to **None** is useful if you want to use tools like PowerToys FancyZones to snap floating Visual Studio windows into custom layouts, or if you need floating windows to remain visible while working with other applications.
+> Setting ownership to **None** is useful if you want to use tools like [PowerToys FancyZones](/windows/powertoys/fancyzones) to snap floating Visual Studio windows into custom layouts, or if you need floating windows to remain visible while working with other applications.
 
 ### Close and autohide tool windows
 
