@@ -79,10 +79,10 @@ It's easy to view variables using debugger windows like the **Watch** window. Ho
 
    ::: moniker range="=visualstudio"
    ![Create an Object ID](../debugger/media/visualstudio/debug-tips-watch-create-object-id.png "CreateObjectID")
-   :::
+   ::: moniker-end
    ::: moniker range="=vs-2022"
    ![Create an Object ID](../debugger/media/dbg-tips-watch-create-object-id.png "CreateObjectID")
-   :::
+   ::: moniker-end
 
 4. You should see a **$** plus a number in the **Locals** window. This variable is the object ID.
 
@@ -92,6 +92,13 @@ For more information, see [Create an Object ID](../debugger/watch-and-quickwatch
 
 ## View return values for functions
 
+::: moniker range="=visualstudio"
+Starting in Visual Studio 2022 version 17.12, you can view return values of functions inline. For more information, see [View inline return values of method calls in the code editor](../debugger/autos-and-locals-windows.md#view-inline-return-values-of-method-calls-in-the-code-editor).
+
+You can also view return values in the Autos window. For more information, see [View return values in the Autos window](../debugger/autos-and-locals-windows.md#view-return-values-in-the-autos-window).
+::: moniker-end
+
+::: moniker range="=vs-2022"
 To view return values for your functions, look at the functions that appear in the **Autos** window while you are stepping through your code. To see the return value for a function, make sure that the function you are interested in has already executed (press **F10** once if you are currently stopped on the function call). If the window is closed, use **Debug > Windows > Autos** to open the **Autos** window.
 
 ![Autos Window](../debugger/media/dbg-tips-autos-window.png "AutosWindow")
@@ -113,6 +120,7 @@ A string visualizer may help you find out whether a string is malformed, dependi
 ![JSON String Visualizer](../debugger/media/dbg-tips-string-visualizer-json.png "JSONStringVisualizer")
 
 For a few other types such as DataSet and DataTable objects that appear in the debugger windows, you can also open a built-in visualizer.
+::: moniker-end
 
 ## Analyze memory usage
 
