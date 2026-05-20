@@ -192,7 +192,12 @@ To attach to your running app, the debugger loads symbol (.pdb) files generated 
 
 Open the **Modules** window while debugging by selecting **Debug > Windows > Modules**. The **Modules** window can tell you what modules the debugger is treating as user code, or [*My Code*](../debugger/just-my-code.md), and the symbol loading status for the module. In most scenarios, the debugger automatically finds symbol files for user code, but if you want to step into (or debug) .NET code, system code, or third-party library code, extra steps are required to obtain the correct symbol files.
 
+::: moniker range="visualstudio"
+![View symbol information in the Modules window](../debugger/media/visualstudio/debug-tips-modules-window.png "ViewSymbolInformation")
+::: moniker-end
+::: moniker range="vs-2022"
 ![View symbol information in the Modules window](../debugger/media/dbg-tips-modules-window.png "ViewSymbolInformation")
+::: moniker-end
 
 You can load symbol information directly from the **Modules** window by right-clicking and choosing **Load Symbols**.
 
