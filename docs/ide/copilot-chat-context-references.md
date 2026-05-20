@@ -9,7 +9,7 @@ ms.author: rosemalcolm
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
 ms.update-cycle: 180-days
-ms.custom: doc-kit-assisted
+ms.custom: doc-kit-assisted, awp-ai
 helpviewer_keywords: 
   - copilot chat context
   - context, copilot chat
@@ -129,12 +129,12 @@ Copilot Chat displays the context it used after every result, so that you can te
 
 :::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-references-used-dropdown.png" alt-text="Screenshot of References used dropdown in Copilot Chat." lightbox="media/vs-2022/copilot-chat-context/copilot-chat-references-used-dropdown.png":::
 
-## <a name="threads"></a>Organize: manage chat history with the Chat History panel
+## <a name="threads"></a>Organize: manage chat history with the chat history panel
 
 As you iterate and send multiple chat prompts in a chat session, Copilot uses the history of chat prompts and responses as context for your current chat prompt. This means that you can ask follow-up questions or clarify your previous question without having to repeat the context. For example, you can ask "How does this differ from ...", "Now add a test case", "explain in more detail", and more.
 
 To start over with a new chat session and discard the current context, start a [new thread](#new-thread) in the chat view. This is useful when you want to move to a different topic and avoid the previous context and history.
-Use the Chat History panel to keep conversations focused on the task at hand, and keep the context clear so the answers are based on relevant history.
+Use the chat history panel to keep conversations focused on the task at hand, and keep the context clear so the answers are based on relevant history.
 
 ### <a name="new-thread"></a>New chat thread
 
@@ -144,7 +144,7 @@ Select **Create new thread** or <kbd>Ctrl</kbd>+<kbd>N</kbd> in the chat window 
 
 ### <a name="switch-thread"></a>Switch chat thread
 
-Use the Chat History panel to switch between chat sessions and provide the right historical context for your question.
+Use the chat history panel to switch between chat sessions and provide the right historical context for your question.
 
 Each chat history entry shows:
 

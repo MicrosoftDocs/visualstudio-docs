@@ -53,7 +53,7 @@ You can ask your coding related questions in natural language. GitHub Copilot Ch
 
 There are two places you can ask Copilot these questions: in a [chat window](#ask-questions-in-the-chat-window), or with [inline chat](#ask-questions-in-the-inline-chat-view) in the code that you want to modify. If your goal is to modify or add to the code file you have open in the editor, the inline chat view usually works best. For more general coding questions, the chat window is the better option.
 
-To get better answers with scoped context in Copilot Chat, see the [tips to improve Copilot chat results](copilot-chat-context.md). You can learn how to use [slash commands](copilot-chat-context.md#slash-commands), [references](copilot-chat-context-references.md#reference-context), [sources used](copilot-chat-context-references.md#find-context), and the [Chat History panel](copilot-chat-context-references.md#threads).
+To get better answers with scoped context in Copilot Chat, see the [tips to improve Copilot chat results](copilot-chat-context.md). You can learn how to use [slash commands](copilot-chat-context.md#slash-commands), [references](copilot-chat-context-references.md#reference-context), [sources used](copilot-chat-context-references.md#find-context), and the [chat history panel](copilot-chat-context-references.md#threads).
 
 > [!NOTE]
 > [Content exclusion is available for GitHub Copilot Chat](visual-studio-github-copilot-admin.md#github-copilot-chat-in-visual-studio-and-content-exclusions). Content excluded by your admin is ignored in responses from chat. For more information, see [Configuring content exclusions for GitHub Copilot](https://docs.github.com/copilot/managing-github-copilot-in-your-organization/configuring-content-exclusions-for-github-copilot?tool=visualstudio).
@@ -67,7 +67,7 @@ Ask your questions and see answers in the chat window. We recommend this tool fo
 1. In Visual Studio, select **View** > **GitHub Copilot Chat**.
 1. In the chat window, type a coding related question in the **Ask Copilot** text box. Select **Enter** or select **Send** to ask your question.
 
-    To resume earlier conversations, use the Chat History panel in the chat window. Each entry includes the chat title, a preview of the last message, and when the session was last updated.
+    To resume earlier conversations, use the chat history panel in the chat window. Each entry includes the chat title, a preview of the last message, and when the session was last updated.
 
     :::image type="content" source="media/visualstudio/visual-studio-github-copilot-chat/copilot-chat-window.png" alt-text="Screenshot of the Copilot Chat window.":::
 

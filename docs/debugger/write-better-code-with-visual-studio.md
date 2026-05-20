@@ -1,7 +1,7 @@
 ---
 title: Debugging techniques and tools
 description: Write better code with fewer bugs by using Visual Studio to fix exceptions and resolve errors, and make improvements to your code.
-ms.date: "1/6/2025"
+ms.date: "1/6/2026"
 ms.topic: how-to
 helpviewer_keywords:
   - "debugger"
