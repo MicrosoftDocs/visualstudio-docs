@@ -1,7 +1,7 @@
 ---
 title: 'GitHub Copilot usage and models'
 description: Learn how to manage your GitHub Copilot usage and models directly within Visual Studio.
-ms.date: 05/15/2026
+ms.date: 05/20/2026
 ms.update-cycle: 180-days
 ms.topic: overview 
 author: RoseHJM
@@ -128,7 +128,7 @@ Your model choice affects three things:
 To view or change your current model:
 
 1. Open the **Copilot Chat** window.
-1. Use the **Model picker** dropdown above the input field to select a model.
+1. Use the **Model picker** dropdown to select a model.
 
 The model picker shows model cost indicators for each model. Available model options can vary by plan.
 
