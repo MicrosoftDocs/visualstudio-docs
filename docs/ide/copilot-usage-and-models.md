@@ -29,21 +29,23 @@ To track your Copilot usage:
 1. Select the down arrow next to the Copilot badge in the top-right corner.
 1. Select **Copilot Usage** from the menu to view the dialog.
 
-   The usage window can look different depending on your plan.
+The usage window looks different depending on your plan.
 
-   If you have a Copilot Individual plan, the usage dialog can show monthly limit details and continuation options.
+### [Individual or Pro](#tab/individual-pro)
+The usage dialog shows monthly limit details and continuation options.
+:::image type="content" source="media/copilot-pro-usage-monthly-limit.png" alt-text="Screenshot showing Copilot Pro usage with a monthly limit bar and options to configure overages or upgrade the plan." lightbox="media/copilot-pro-usage-monthly-limit.png":::
 
-   :::image type="content" source="media/copilot-pro-usage-monthly-limit.png" alt-text="Screenshot showing Copilot Pro usage with a monthly limit bar and options to configure overages or upgrade the plan." lightbox="media/copilot-pro-usage-monthly-limit.png":::
+### [Business](#tab/business)
+The usage dialog shows organization-managed usage details.
+:::image type="content" source="media/copilot-business-usage-monthly-limit.png" alt-text="Screenshot showing Copilot Business usage with monthly limit progress and a Request usage button." lightbox="media/copilot-business-usage-monthly-limit.png":::
 
-   For Copilot Business and Copilot Enterprise, the usage dialog shows organization-managed usage details.
+### [Enterprise](#tab/enterprise)
+The usage dialog shows organization-managed usage details, including cases where no individual monthly limit is set.
+:::image type="content" source="media/copilot-enterprise-usage-no-monthly-limit.png" alt-text="Screenshot showing Copilot Enterprise usage with no monthly limit set by the organization." lightbox="media/copilot-enterprise-usage-no-monthly-limit.png":::
 
-   :::image type="content" source="media/copilot-business-usage-monthly-limit.png" alt-text="Screenshot showing Copilot Business usage with monthly limit progress and a Request usage button." lightbox="media/copilot-business-usage-monthly-limit.png":::
+---
 
-   For Copilot Business and Copilot Enterprise, the usage dialog can also show that no monthly limit is set by your organization.
-
-   :::image type="content" source="media/copilot-enterprise-usage-no-monthly-limit.png" alt-text="Screenshot showing Copilot Enterprise usage with no monthly limit set by the organization." lightbox="media/copilot-enterprise-usage-no-monthly-limit.png":::
-
-   The usage window shows quota usage, remaining monthly balance, and plan details. Depending on your plan, it can also show overage indicators and links to manage billing on *GitHub*.
+The usage window shows quota usage, remaining monthly balance, and plan details. Depending on your plan, it can also show overage indicators and links to manage billing on *GitHub*.
 :::moniker-end
 
 :::moniker range="vs-2022"
@@ -57,10 +59,7 @@ To track your Copilot usage:
 :::moniker-end
 
 > [!NOTE]
-> Exact labels and fields in the usage window vary by plan tier (for example, Free, Pro, Business, or Enterprise) and by Visual Studio version.
-
-> [!NOTE]
-> GitHub manages billing and subscriptions. For details, visit your [GitHub settings](https://github.com/settings/billing/summary).
+> Labels and fields in the usage window vary by plan (Free, Pro, Business, Enterprise) and Visual Studio version. GitHub manages billing and subscriptions. For details, visit your [GitHub settings](https://github.com/settings/billing/summary).
 
 ## Understand model selection
 
@@ -73,7 +72,7 @@ To view or change your current model:
 1. Open the **Copilot Chat** window.
 1. Use the **Model picker** dropdown above the input field to select a model.
 
-The model picker can show model cost indicators that represent the relative cost of each model.
+The model picker shows model cost indicators that represent the relative cost of each model.
 
 ## Monitor quota and manage alerts
 
@@ -99,16 +98,24 @@ Once configured, Copilot Chat displays a warning banner when your usage reaches 
 
 ### Understand quota limits and alerts
 
-When your monthly quota is near or at limit, Copilot can show alerts and overage indicators based on your plan.
+When your monthly quota is near or at limit, Copilot shows alerts and overage indicators based on your plan.
 
+### [Individual or Pro](#tab/individual-pro)
+Copilot shows warning and limit-reached banners with options to manage overages or upgrade your plan.
 :::image type="content" source="media/copilot-monthly-limit-warning.png" alt-text="Screenshot showing a warning banner that the user has used 75 percent of the monthly limit and can upgrade the plan." lightbox="media/copilot-monthly-limit-warning.png":::
 
-When you reach your monthly quota, Copilot displays an alert banner with options to manage your usage:
+### [Business](#tab/business)
+Monthly quota is organization-managed. If you need higher limits or policy changes, contact your organization administrator.
 
+### [Enterprise](#tab/enterprise)
+Monthly quota is organization-managed and can be shared across developers. In some organizations, no individual monthly limit is set and usage draws from a shared pool.
+When you reach your monthly quota, Copilot displays an alert banner with options to manage your usage:
 :::image type="content" source="media/copilot-enterprise-monthly-limit-reached-chat.png" alt-text="Screenshot showing an alert banner in Copilot Chat that the monthly limit is reached with an Upgrade plan option." lightbox="media/copilot-enterprise-monthly-limit-reached-chat.png":::
 
+---
+
 > [!NOTE]
-> For Copilot Business and Copilot Enterprise customers, monthly quota is organization-managed and can be shared among multiple developers. In some organizations, no individual monthly limit is set and usage draws from a shared pool. For details, see [About usage limits](https://docs.github.com/en/copilot/concepts/usage-limits).
+> For details, see [About usage limits](https://docs.github.com/en/copilot/concepts/usage-limits).
 
 > [!TIP]
 > Visit your [Copilot settings on GitHub](https://github.com/settings/copilot/features) to explore model options and subscription details.
@@ -122,7 +129,7 @@ When you reach your monthly quota, Copilot displays an alert banner with options
 
 ## Related content
 
-- [About usage limits](https://docs.github.com/en/copilot/concepts/usage-limits)
+- [About usage limits](https://docs.github.com/copilot/concepts/usage-limits)
 - [About Copilot billing](https://docs.github.com/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/billing-and-payments/about-billing-for-individual-copilot-plans)
 - [GitHub support](https://support.github.com/)
 - [Install and manage GitHub Copilot in Visual Studio](visual-studio-github-copilot-install-and-states.md)
