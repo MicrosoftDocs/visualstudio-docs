@@ -31,15 +31,15 @@ To track your Copilot usage:
 
 The usage window looks different depending on your plan.
 
-### [Individual or Pro](#tab/individual-pro)
+# [Individual or Pro](#tab/individual-pro)
 The usage dialog shows monthly limit details and continuation options.
 :::image type="content" source="media/copilot-pro-usage-monthly-limit.png" alt-text="Screenshot showing Copilot Pro usage with a monthly limit bar and options to configure overages or upgrade the plan." lightbox="media/copilot-pro-usage-monthly-limit.png":::
 
-### [Business](#tab/business)
+# [Business](#tab/business)
 The usage dialog shows organization-managed usage details.
 :::image type="content" source="media/copilot-business-usage-monthly-limit.png" alt-text="Screenshot showing Copilot Business usage with monthly limit progress and a Request usage button." lightbox="media/copilot-business-usage-monthly-limit.png":::
 
-### [Enterprise](#tab/enterprise)
+# [Enterprise](#tab/enterprise)
 The usage dialog shows organization-managed usage details, including cases where no individual monthly limit is set.
 :::image type="content" source="media/copilot-enterprise-usage-no-monthly-limit.png" alt-text="Screenshot showing Copilot Enterprise usage with no monthly limit set by the organization." lightbox="media/copilot-enterprise-usage-no-monthly-limit.png":::
 
@@ -63,7 +63,21 @@ The usage window shows quota usage, remaining monthly balance, and plan details.
 
 ## Understand model selection
 
-Copilot supports multiple AI models with different capabilities and quota consumption rates. Choosing the right model for your task helps you manage your monthly quota more effectively. For most prompts, the **Auto** model provides an efficient balance, but you can switch to a premium model for complex tasks that benefit from advanced capabilities.
+Copilot supports multiple AI models with different capabilities and quota consumption rates. Choosing the right model for your task helps you manage your monthly quota more effectively.
+
+For most prompts, choose **Auto**. Auto selects a model for you based on your prompt to balance quality, speed, and quota usage. For complex tasks, you can switch to a premium model.
+
+Your model choice affects three things:
+
+- **Cost (quota/credits):** Higher-capability models usually consume more credits per request.
+- **Style (response depth):** Higher-capability models often return more detailed, structured, and nuanced responses.
+- **Performance (speed):** Lower-cost models are often faster for simple tasks, while higher-capability models can take longer for complex reasoning.
+
+Use this guidance:
+
+- Start with **Auto** for common questions and coding tasks.
+- Switch to a premium model when you need deeper reasoning, more thorough explanations, or higher-quality outputs on difficult tasks.
+- Switch back to **Auto** or a lower-cost model for shorter follow-up prompts and routine edits.
 
 For more details, see [Change the chat model](https://docs.github.com/copilot/how-tos/use-ai-models/change-the-chat-model?tool=visualstudio), [Supported AI models](https://docs.github.com/copilot/reference/ai-models/supported-models), and [Auto model selection](https://docs.github.com/copilot/concepts/auto-model-selection).
 
@@ -72,7 +86,7 @@ To view or change your current model:
 1. Open the **Copilot Chat** window.
 1. Use the **Model picker** dropdown above the input field to select a model.
 
-The model picker shows model cost indicators that represent the relative cost of each model.
+The model picker shows model cost indicators that represent the relative cost of each model. Available model options can vary by plan.
 
 ## Monitor quota and manage alerts
 
@@ -100,14 +114,16 @@ Once configured, Copilot Chat displays a warning banner when your usage reaches 
 
 When your monthly quota is near or at limit, Copilot shows alerts and overage indicators based on your plan.
 
-### [Individual or Pro](#tab/individual-pro)
+Copilot credits are consumed based on token usage (input, output, and cached tokens), according to the published rates for each model. For details, see [Models and pricing](https://docs.github.com/copilot/reference/copilot-billing/models-and-pricing).
+
+# [Individual or Pro](#tab/individual-pro)
 Copilot shows warning and limit-reached banners with options to manage overages or upgrade your plan.
 :::image type="content" source="media/copilot-monthly-limit-warning.png" alt-text="Screenshot showing a warning banner that the user has used 75 percent of the monthly limit and can upgrade the plan." lightbox="media/copilot-monthly-limit-warning.png":::
 
-### [Business](#tab/business)
+# [Business](#tab/business)
 Monthly quota is organization-managed. If you need higher limits or policy changes, contact your organization administrator.
 
-### [Enterprise](#tab/enterprise)
+# [Enterprise](#tab/enterprise)
 Monthly quota is organization-managed and can be shared across developers. In some organizations, no individual monthly limit is set and usage draws from a shared pool.
 When you reach your monthly quota, Copilot displays an alert banner with options to manage your usage:
 :::image type="content" source="media/copilot-enterprise-monthly-limit-reached-chat.png" alt-text="Screenshot showing an alert banner in Copilot Chat that the monthly limit is reached with an Upgrade plan option." lightbox="media/copilot-enterprise-monthly-limit-reached-chat.png":::
@@ -131,5 +147,6 @@ When you reach your monthly quota, Copilot displays an alert banner with options
 
 - [About usage limits](https://docs.github.com/copilot/concepts/usage-limits)
 - [About Copilot billing](https://docs.github.com/copilot/managing-copilot/managing-copilot-as-an-individual-subscriber/billing-and-payments/about-billing-for-individual-copilot-plans)
+- [Models and pricing](https://docs.github.com/copilot/reference/copilot-billing/models-and-pricing)
 - [GitHub support](https://support.github.com/)
 - [Install and manage GitHub Copilot in Visual Studio](visual-studio-github-copilot-install-and-states.md)
