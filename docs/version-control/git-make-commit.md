@@ -168,7 +168,7 @@ You can also apply code suggestions from [pull request comments](git-create-pull
 
 ## Revert, reset, or amend a commit
 
-When you double-click a **Commit**, Visual Studio opens its details in a separate tool window. From here you can revert the commit, reset (undo) the commit, amend the commit message, or create a tag on the commit. When you click a changed file in the commit, Visual Studio opens the side-by-side **Diff** view of the commit and its parent.
+When you double-click a **Commit**, Visual Studio opens its details in a separate tool window. From here you can revert the commit, reset (undo) the commit, amend the commit message, or create a tag on the commit. When you select a changed file in the commit, Visual Studio opens the side-by-side **Diff** view of the commit and its parent.
 
 :::moniker range="visualstudio"
 
