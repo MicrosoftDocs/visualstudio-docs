@@ -38,7 +38,7 @@ As you do your work, Visual Studio keeps track of the file changes to your proje
 
 ## Stage changes and make a commit
 
-To stage changes when you're ready, select the **+** (plus) button on each file you want to stage, or right-click a file and then select **Stage**. You can also stage all your modified files with one click by using the stage all **+** (plus) button at the top of the **Changes** section.
+To stage changes when you're ready, select the **+** (plus) button on each file you want to stage, or right-click a file and then select **Stage**. You can also stage all your modified files with one action by using the stage all **+** (plus) button at the top of the **Changes** section.
 
 When you stage a change, Visual Studio creates a **Staged Changes** section. Only changes in the **Staged Changes** section are added to the next commit, which you can do by selecting **Commit Staged**. The equivalent command for this action is `git commit -m "Your commit message"`.
 
@@ -54,11 +54,11 @@ When you stage a change, Visual Studio creates a **Staged Changes** section. Onl
 
 :::moniker-end
 
-Changes can also be unstaged by clicking the **–** (minus) button. The equivalent command for this action is `git reset <file_path>` to unstage a single file or `git reset <directory_path>` to unstage all the files in a directory.
+Changes can also be unstaged by selecting the **–** (minus) button. The equivalent command for this action is `git reset <file_path>` to unstage a single file or `git reset <directory_path>` to unstage all the files in a directory.
 
 You can also choose not to stage your modified files by skipping the staging area. In this case, Visual Studio allows you to commit your changes directly without having to stage them. Just enter your commit message and then select **Commit All**. The equivalent command for this action is `git commit -a`.
 
-Visual Studio also makes it easy to commit and sync with one click by using the **Commit All and Push** and **Commit All and Sync** shortcuts. When you double-click any file in the **Changes** and the **Staged changes** sections, you can see a line-by-line comparison with the unmodified version of the file. See [Compare files - diff view](../ide/compare-with.md).
+Visual Studio also makes it easy to commit and sync with one action by using the **Commit All and Push** and **Commit All and Sync** shortcuts. When you double-click any file in the **Changes** and the **Staged changes** sections, you can see a line-by-line comparison with the unmodified version of the file. See [Compare files - diff view](../ide/compare-with.md).
 
 :::moniker range="visualstudio"
 
@@ -113,9 +113,9 @@ To enable this feature, open the **Tools** > **Options** dialog, expand the **En
 
 :::moniker range="visualstudio"
 
-In the **Git Changes** window, click on the **Review changes with Copilot** button, which looks like a comment icon with a sparkle.
+In the **Git Changes** window, select the **Review changes with Copilot** button, which looks like a comment icon with a sparkle.
 
-After a few moments, a link showing the number of code review comments appears in the **Git Changes** window that you can click on to view and navigate the comments. If no issues are detected, the message **Copilot did not comment on any files** appears.
+After a few moments, a link showing the number of code review comments appears in the **Git Changes** window that you can select to view and navigate the comments. If no issues are detected, the message **Copilot did not comment on any files** appears.
 
 ![Screenshot showing Git Changes window with Review changes button.](./media/vs-2022/git-code-review-changes-button.png)
 
@@ -135,9 +135,9 @@ The **Git Changes** window also shows a list of all Copilot review comments, org
 
 :::moniker range="vs-2022"
 
-In the **Git Changes** window, click on the **Review changes with Copilot** button, which looks like a comment icon with a sparkle.
+In the **Git Changes** window, select the **Review changes with Copilot** button, which looks like a comment icon with a sparkle.
 
-After a few moments, a link showing the number of code review comments appears in the **Git Changes** window that you can click on to view and navigate the comments. If no issues are detected, the message **Copilot did not comment on any files** appears.
+After a few moments, a link showing the number of code review comments appears in the **Git Changes** window that you can select to view and navigate the comments. If no issues are detected, the message **Copilot did not comment on any files** appears.
 
 ![Screenshot showing Git Changes window with Review changes button.](./media/vs-2022/git-code-review-changes-button.png)
 
