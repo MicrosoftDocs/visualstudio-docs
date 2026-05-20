@@ -152,7 +152,12 @@ The debugger breaks into your code on unhandled exceptions. However, handled exc
 
 The **Exception Settings** dialog box allows you to tell the debugger to break into code on specific exceptions. In the illustration below, the debugger breaks into your code whenever a `System.NullReferenceException` occurs. For more information, see [Managing exceptions](../debugger/managing-exceptions-with-the-debugger.md).
 
+::: moniker range="visualstudio"
+![Exception Settings Dialog Box](../debugger/media/visualstudio/debug-tips-exception-settings.png "ExceptionSettingsDialogBox")
+::: moniker-end
+::: moniker range="vs-2022"
 ![Exception Settings Dialog Box](../debugger/media/dbg-tips-exception-settings.png "ExceptionSettingsDialogBox")
+::: moniker-end
 
 ## Change the execution flow
 
