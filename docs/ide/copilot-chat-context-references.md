@@ -154,10 +154,7 @@ Each chat history entry shows:
 
 Select a session in the panel to jump directly to that conversation.
 
-<!-- :::image type="content" source="media/visualstudio/visual-studio-github-copilot-chat/chat-history-panel.png" alt-text="Screenshot of the Chat History panel showing session title, message preview, and last updated time." lightbox="media/visualstudio/visual-studio-github-copilot-chat/chat-history-panel.png"::: -->
-<!-- :::image type="content" source="media/vs-2022/visual-studio-github-copilot-chat/chat-history-panel.png" alt-text="Screenshot of the Chat History panel in Visual Studio 2022 showing session title, message preview, and last updated time." lightbox="media/vs-2022/visual-studio-github-copilot-chat/chat-history-panel.png"::: -->
-
-:::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-switch-threads.png" alt-text="Screenshot of switching between ongoing threads in Copilot Chat.":::
+:::image type="content" source="media/visualstudio/visual-studio-github-copilot-chat/chat-history-panel.png" alt-text="Screenshot of the Chat History panel showing session title, message preview, and last updated time." lightbox="media/visualstudio/visual-studio-github-copilot-chat/chat-history-panel.png":::
 
 ### <a name="promote-inline"></a>Promote inline chat to the chat window
 
