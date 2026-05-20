@@ -129,6 +129,32 @@ Copilot Chat displays the context it used after every result, so that you can te
 
 :::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-references-used-dropdown.png" alt-text="Screenshot of References used dropdown in Copilot Chat." lightbox="media/vs-2022/copilot-chat-context/copilot-chat-references-used-dropdown.png":::
 
+:::moniker range="vs-2022"
+
+## <a name="threads"></a>Organize: manage chat history context with threads
+
+As you iterate and send multiple chat prompts in a chat session, Copilot uses the history of chat prompts and responses as context for your current chat prompt. This means that you can ask follow-up questions or clarify your previous question without having to repeat the context. For example, you can ask "How does this differ from ...", "Now add a test case", "explain in more detail", and more.
+
+To start over with a new chat session and discard the current context, start a [new thread](#new-thread) in the chat view. This is useful when you want to move to a different topic and avoid the previous context and history.
+Use threads to keep conversations focused on the task at hand, and keep the context clear so the answers are based on relevant history.
+
+### <a name="new-thread"></a>New chat thread
+
+Select **Create new thread** or <kbd>Ctrl</kbd>+<kbd>N</kbd> in the chat window to start a new thread.
+
+:::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-new-thread-conversation.png" alt-text="Screenshot of Create new thread icon in Copilot Chat.":::
+
+
+### <a name="switch-thread"></a>Switch chat thread
+
+You can select between multiple ongoing threads to provide the right historical context for your question. You can use <kbd>Ctrl</kbd>+<kbd>PgDown</kbd> for previous thread or <kbd>Ctrl</kbd>+<kbd>PgUp</kbd> for next thread in the chat window. <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>T</kbd> expands the thread dropdown.
+
+:::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-switch-threads.png" alt-text="Screenshot of switching between ongoing threads in Copilot Chat.":::
+
+:::moniker-end
+
+:::moniker range="visualstudio"
+
 ## <a name="threads"></a>Organize: manage chat history with the chat history panel
 
 As you iterate and send multiple chat prompts in a chat session, Copilot uses the history of chat prompts and responses as context for your current chat prompt. This means that you can ask follow-up questions or clarify your previous question without having to repeat the context. For example, you can ask "How does this differ from ...", "Now add a test case", "explain in more detail", and more.
@@ -141,6 +167,7 @@ Use the chat history panel to keep conversations focused on the task at hand, an
 Select **Create new thread** or <kbd>Ctrl</kbd>+<kbd>N</kbd> in the chat window to start a new thread.
 
 :::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-new-thread-conversation.png" alt-text="Screenshot of Create new thread icon in Copilot Chat.":::
+
 
 ### <a name="switch-thread"></a>Switch chat thread
 
@@ -155,6 +182,8 @@ Each chat history entry shows:
 Select a session in the panel to jump directly to that conversation.
 
 :::image type="content" source="media/visualstudio/visual-studio-github-copilot-chat/chat-history-panel.png" alt-text="Screenshot of the Chat History panel showing session title, message preview, and last updated time." lightbox="media/visualstudio/visual-studio-github-copilot-chat/chat-history-panel.png":::
+
+:::moniker-end
 
 ### <a name="promote-inline"></a>Promote inline chat to the chat window
 
