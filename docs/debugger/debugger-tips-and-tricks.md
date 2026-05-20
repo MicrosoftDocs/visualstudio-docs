@@ -108,19 +108,29 @@ In addition, you can enter functions in the **Immediate** window to view return 
 ![Immediate Window](../debugger/media/dbg-tips-immediate-window.png "ImmediateWindow")
 
 You can also use [pseudovariables](../debugger/pseudovariables.md) in the **Watch** and **Immediate** window, such as `$ReturnValue`.
+::: moniker-end
 
 ## <a name="string_visualizer"></a>Inspect strings in a visualizer
 
 When working with strings, it can be helpful to view the entire formatted string. To view a plain text, XML, HTML, or JSON string, click the magnifying glass icon ![VisualizerIcon](../debugger/media/dbg-tips-visualizer-icon.png "Visualizer icon") while hovering over a variable containing a string value.
 
+::: moniker range="visualstudio"
+![Open a String Visualizer](../debugger/media/visualstudio/debug-tips-string-visualizers-2.png "OpenStringVisualizer")
+::: moniker-end
+::: moniker range="vs-2022"
 ![Open a String Visualizer](../debugger/media/dbg-tips-string-visualizers.png "OpenStringVisualizer")
+::: moniker-end
 
 A string visualizer may help you find out whether a string is malformed, depending on the string type. For example, a blank **Value** field indicates the string is not recognized by the visualizer type. For more information, see [String Visualizer Dialog Box](../debugger/string-visualizer-dialog-box.md).
 
+::: moniker range="visualstudio"
+![JSON String Visualizer](../debugger/media/visualstudio/debug-tips-string-visualizer-json.png "JSONStringVisualizer")
+::: moniker-end
+::: moniker range="vs-2022"
 ![JSON String Visualizer](../debugger/media/dbg-tips-string-visualizer-json.png "JSONStringVisualizer")
+::: moniker-end
 
 For a few other types such as DataSet and DataTable objects that appear in the debugger windows, you can also open a built-in visualizer.
-::: moniker-end
 
 ## Analyze memory usage
 
