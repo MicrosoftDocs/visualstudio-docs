@@ -86,7 +86,7 @@ This article lists the error codes used by Visual Studio Container Tools and, wh
 
 | Code | Description | Notes | Fix |
 | - | - | - | - |
-| CTC1001 | Docker volume sharing is not enabled | This error happens when file sharing is not enabled. File sharing allows local directories on Windows to be shared with Linux containers. This is applicable only in Linux containers that are using Hyper-V mode. See [Docker Desktop for Windows user manual]() or [Docker Documentation]() for more details.  | Enable Docker file sharing. |
+| CTC1001 | Docker volume sharing is not enabled | This error happens when file sharing is not enabled. File sharing allows local directories on Windows to be shared with Linux containers. This is applicable only in Linux containers that are using Hyper-V mode. See [Docker Desktop for Windows user manual](https://docs.docker.com/desktop) for more details.  | Enable Docker file sharing. |
 | CTC1002 | Docker Desktop is not installed |   | Install Docker Desktop. |
 | CTC1003 | Docker Desktop is not running |   | Start Docker Desktop. |
 | CTC1004 | Unable to get Docker server OS |   | Specify the default `targetOS` in the project file; for example, `<DockerDefaultTargetOS> Linux </DockerDefaultTargetOS>`). |
@@ -111,7 +111,7 @@ This article lists the error codes used by Visual Studio Container Tools and, wh
 | CTC1027 | Error running the `dev-certs` tool. | An error occurred while running the `dev-certs` tool to trust the ASP.NET Core development certificate. | See the **Output** window for more detailed error. |
 | CTC1028 | Invalid Launch URL | The application URL that will be launched when the debugging starts is invalid | Ensure the `launchUrl` specified in the Docker launch settings in *launchSettings.json* |
 | CTC1029 | Docker execution failed | An error occurred while trying to run a command to start the application process inside the container. | See the **Output** window for more detailed error. |
-| CTC1030 | Internal error | An unknown internal error occurred. | Please open a bug in [Visual Studio Feedback](). |
+| CTC1030 | Internal error | An unknown internal error occurred. | Please open a bug in [Visual Studio Feedback](https://developercommunity.visualstudio.com/VisualStudio). |
 | CTC1031 | Unsupported OS |   | Likely using .NET Framework project in a Linux container. Switch to a Windows container and try again. |
 | CTC1032 | Unused |   |   |
 | CTC1033 | Unused |   |   |
