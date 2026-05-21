@@ -1,17 +1,21 @@
 ---
 title: 'Manage chat context with references'
-description: Use references to form better questions and get better answers with scoped context in GitHub Copilot Chat.
-ms.date: 11/2/2025
+description: Use references to scope GitHub Copilot Chat with files, symbols, images, output logs, URLs, Git changes, and commits for better answers.
+ms.date: 05/12/2026
 ms.topic: how-to 
 author: RoseHJM
 ms.author: rosemalcolm
 
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
+ms.custom: doc-kit-assisted, awp-ai
 ms.update-cycle: 180-days
 helpviewer_keywords: 
   - copilot chat context
   - context, copilot chat
+  - git context chat
+  - copilot chat changes
+  - copilot chat commits
 monikerRange: '>= vs-2022'
 ---
 # Manage chat context with references
@@ -21,7 +25,7 @@ Scope your questions to [**GitHub Copilot Chat**](visual-studio-github-copilot-c
 In this article, you learn how to get better answers by providing more information to Copilot Chat:
 
 + Understand the [implicit context](#implicit-context) Copilot leverages behind the scenes
-+ Scope the chat to specific files using [references](#reference-context)
++ Scope the chat to specific files, changes, and commits using [references](#reference-context)
 + [Attach images](#attach-images) to your prompt to provide additional context and better illustrate your ideas
 + Review the [source](#find-context) used by Copilot to generate the answer
 + Use different [threads](#threads) for each of your Copilot chats to maintain chat history and different context in each
@@ -77,6 +81,40 @@ With Visual Studio 2022 version 17.11, [GitHub Copilot Enterprise](https://docs.
 
 :::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-context-at-github.png" alt-text="Screenshot of using GitHub skills in Copilot Chat.":::
 
+### Reference your changes
+
+With Visual Studio 2022 version 17.14 and later, you can use Git references in Copilot Chat.
+
+Use `#changes` to reference your uncommitted changes from the **Git Changes** window. This reference is useful when you want Copilot Chat to summarize the work you've done, explain the impact of pending edits, or suggest next steps before you commit.
+
+For example, you can ask questions such as:
+
+- Summarize `#changes`.
+- What have I done so far in `#changes`?
+- Suggest unit tests for `#changes`.
+
+:::moniker range="<=vs-2022"
+
+Open the **Tools** > **Options** dialog, expand **GitHub** > **Copilot** > **Source Control Integration**, select **Enable Git preview features**, and then select **OK**.
+
+:::moniker-end
+
+:::image type="content" source="media/visualstudio/copilot-chat-context/git-context-chat-changes.png" alt-text="Screenshot of Copilot Chat referencing uncommitted changes with #changes.":::
+
+### Reference a commit
+
+Use `#commit:` to reference a specific commit in Copilot Chat. When you start typing `#commit:`, Copilot shows a list of recent commits that you can select from. If you want to reference an older commit, enter the commit ID directly after `#commit:`.
+
+You can use commit references for tasks such as:
+
+- Explain `#commit:`.
+- Write unit tests to cover changes in `#commit:`.
+- Find potential issues in `#commit:`.
+
+This reference is useful when you want to review a past change, inspect the intent behind a commit, or ask Copilot to help you follow up on earlier work.
+
+:::image type="content" source="media/visualstudio/copilot-chat-context/git-context-chat-commits.png" alt-text="Screenshot of Copilot Chat showing recent commit suggestions after typing #commit:.":::
+
 ## <a name="attach-images"></a>Reference an image
 
 With vision integration for Copilot Chat in Visual Studio 17.14 and later, you can [attach images](visual-studio-github-copilot-chat.md#attach-images-to-chat-prompts) to your chat prompt, providing Copilot with additional context for improved responses. Use images in combination with [scope](#reference-context) and other contextual features such as [slash commands](copilot-chat-context.md#slash-commands) to generate tailored responses.
@@ -112,14 +150,16 @@ Note that Copilot can only reference static HTML content from the public URL you
 Here are some examples of using references for context control:
 
 | **Example** | **Context used by Copilot to form the question** |
-|---------------------------|:--------------------:|
-| What is the purpose of #MyFile.cs: 66-72?| Exact section of the file |
-| Where are the tests in #BasketService.cs?| BasketService.cs |
-| /explain the #AddItemToBasket in #BasketService.cs| AddItemToBasket method in BasketService.cs |
-| Is there a delete basket method in this @workspace| Current solution open in the IDE |
-| I have a test method named #TestCalculator. How can I ensure that it's being executed correctly?| TestCalculator method |
-| Could you explain the differences between classes #BasketService and #OrderService?| BasketService class and OrderService class |
+| --------------------------- | :--------------------: |
+| What is the purpose of #MyFile.cs: 66-72? | Exact section of the file |
+| Where are the tests in #BasketService.cs? | BasketService.cs |
+| /explain the #AddItemToBasket in #BasketService.cs | AddItemToBasket method in BasketService.cs |
+| Is there a delete basket method in this @workspace | Current solution open in the IDE |
+| I have a test method named #TestCalculator. How can I ensure that it's being executed correctly? | TestCalculator method |
+| Could you explain the differences between classes #BasketService and #OrderService? | BasketService class and OrderService class |
 | In my @workspace where is #AddItemToBasket? | Current solution open in the IDE |
+| Summarize #changes before I commit | Uncommitted changes in the Git Changes window |
+| Find potential issues in #commit:abc1234 | The specified commit |
 | Update my UI in App.tsx to resemble this image | Uploaded image |
 
 ## <a name="find-context"></a>Review the sources used by Copilot Chat
@@ -166,6 +206,7 @@ Keep the chat conversation open and continue to iterate and prompt Copilot to im
 
 - [GitHub Copilot experience for Visual Studio](visual-studio-github-copilot-extension.md)
 - [GitHub Copilot Chat experience for Visual Studio](visual-studio-github-copilot-chat.md)
+- [Make a Git commit in Visual Studio](../version-control/git-make-commit.md)
 - [GitHub Copilot Trust Center](https://resources.github.com/copilot-trust-center/)
 - [Send us suggestions, feedback, and issues](how-to-report-a-problem-with-visual-studio.md)
 - [Support for GitHub Copilot Chat](https://support.github.com)
