@@ -1,7 +1,7 @@
 ---
 title: CV_SourceChksum_t
 description: Specifies the type of source code checksum.
-ms.date: "07/18/2024"
+ms.date: "04/13/2026"
 ms.topic: "reference"
 dev_langs:
   - "C++"
@@ -26,6 +26,8 @@ enum CV_SourceChksum_t
     CHKSUM_TYPE_MD5,
     CHKSUM_TYPE_SHA1,
     CHKSUM_TYPE_SHA_256,
+    CHKSUM_TYPE_SHA_384,
+    CHKSUM_TYPE_SHA_512,
 };
 ```
 
@@ -37,6 +39,8 @@ enum CV_SourceChksum_t
 | `CHKSUM_TYPE_MD5` | 1 | `CALG_MD5` | Checksum generated with the MD5 hashing algorithm. |
 | `CHKSUM_TYPE_SHA1` | 2 | `CALG_SHA1` | Checksum generated with the SHA1 hashing algorithm. |
 | `CHKSUM_TYPE_SHA_256` | 3 |`CALG_SHA_256`| Checksum generated with the 256-bit SHA hashing algorithm.|
+| `CHKSUM_TYPE_SHA_384` | 4 |`CALG_SHA_384`| Checksum generated with the 384-bit SHA hashing algorithm.|
+| `CHKSUM_TYPE_SHA_512` | 5 |`CALG_SHA_512`| Checksum generated with the 512-bit SHA hashing algorithm.|
 
 ## Remarks
 
