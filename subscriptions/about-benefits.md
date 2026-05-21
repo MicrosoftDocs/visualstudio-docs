@@ -13,7 +13,7 @@ description: Explore benefits included in Visual Studio Subscriptions, including
    > [!div class="nextstepaction"]
    > **Get started:** View and activate your benefits in the **Subscriber portal** at https://my.visualstudio.com/benefits
 
-As a Visual Studio subscriber, the benefits available to you depend on your subscription level and might change over time, including during the lifetime of an active subscription. We regularly review and update benefits to keep them current and aligned with partner offerings and program requirements. As a result, benefits might be added, updated, or discontinued.
+As a Visual Studio Subscriber, the benefits available to you depend on your subscription level and might change over time, including during the lifetime of an active subscription. We regularly review and update benefits to keep them current and aligned with partner offerings and program requirements. As a result, benefits might be added, updated, or discontinued.
 
 ## Benefits vary based on your subscription 
 
