@@ -1,11 +1,11 @@
 ---
 title: About GitHub Copilot Chat in Visual Studio
 description: Learn about the fully integrated GitHub Copilot Chat in Visual Studio. Use chat to ask coding-related questions from right within the IDE.
-ms.date: 02/19/2026
+ms.date: 05/12/2026
 ms.update-cycle: 180-days
 ms.topic: overview 
 ai-usage: ai-assisted
-ms.custom: awp-ai
+ms.custom: awp-ai, doc-kit-assisted
 author: RoseHJM
 ms.author: rosemalcolm
 
@@ -39,9 +39,7 @@ Copilot Chat provides AI assistance to help you make informed decisions and writ
 
 - [Sign in to Visual Studio using a GitHub account](work-with-github-accounts.md) with [Copilot access](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot). You can use [GitHub Copilot for free](copilot-free-plan.md).
 
-
 [!INCLUDE [copilot-trials-paused-notice](../includes/copilot-trials-paused-notice.md)]
-
 
 ## Get GitHub Copilot Chat for Visual Studio
 
@@ -55,7 +53,7 @@ You can ask your coding related questions in natural language. GitHub Copilot Ch
 
 There are two places you can ask Copilot these questions: in a [chat window](#ask-questions-in-the-chat-window), or with [inline chat](#ask-questions-in-the-inline-chat-view) in the code that you want to modify. If your goal is to modify or add to the code file you have open in the editor, the inline chat view usually works best. For more general coding questions, the chat window is the better option.
 
-To get better answers with scoped context in Copilot Chat, see the [tips to improve Copilot chat results](copilot-chat-context.md). You can learn how to use [slash commands](copilot-chat-context.md#slash-commands), [references](copilot-chat-context-references.md#reference-context), [sources used](copilot-chat-context-references.md#find-context), and [threads](copilot-chat-context-references.md#threads).
+To get better answers with scoped context in Copilot Chat, see the [tips to improve Copilot chat results](copilot-chat-context.md). You can learn how to use [slash commands](copilot-chat-context.md#slash-commands), [references](copilot-chat-context-references.md#reference-context), [sources used](copilot-chat-context-references.md#find-context), and [threads](copilot-chat-context-references.md#threads). You can also reference Git changes and commits in chat to summarize pending work, explain earlier edits, and review a specific commit with more context.
 
 > [!NOTE]
 > [Content exclusion is available for GitHub Copilot Chat](visual-studio-github-copilot-admin.md#github-copilot-chat-in-visual-studio-and-content-exclusions). Content excluded by your admin is ignored in responses from chat. For more information, see [Configuring content exclusions for GitHub Copilot](https://docs.github.com/copilot/managing-github-copilot-in-your-organization/configuring-content-exclusions-for-github-copilot?tool=visualstudio).
