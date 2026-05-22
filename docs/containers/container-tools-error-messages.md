@@ -86,16 +86,16 @@ This article lists the error codes used by Visual Studio Container Tools and, wh
 
 | Code | Description | Notes | Fix |
 | - | - | - | - |
-| CTC1001 | Docker volume sharing isn't enabled | This error happens when file sharing isn't enabled. File sharing allows local directories on Windows to be shared with Linux containers. This is applicable only in Linux containers that are using Hyper-V mode. See [Docker Desktop for Windows user manual](https://docs.docker.com/desktop) for more details.  | Enable Docker file sharing. |
+| CTC1001 | Docker volume sharing isn't enabled | This error happens when file sharing isn't enabled. File sharing allows local directories on Windows to be shared with Linux containers. This issue is applicable only in Linux containers that are using Hyper-V mode. See [Docker Desktop for Windows user manual](https://docs.docker.com/desktop) for more details.  | Enable Docker file sharing. |
 | CTC1002 | Docker Desktop isn't installed |   | Install Docker Desktop. |
 | CTC1003 | Docker Desktop isn't running |   | Start Docker Desktop. |
-| CTC1004 | Unable to get Docker server OS |   | Specify the default `targetOS` in the project file; for example, `<DockerDefaultTargetOS> Linux </DockerDefaultTargetOS>`). |
+| CTC1004 | Unable to get Docker server OS |   | Specify the default `targetOS` in the project file; for example, `<DockerDefaultTargetOS> (Linux </DockerDefaultTargetOS>`). |
 | CTC1005 | Docker Desktop's operating system mode does not match the project's target operating system |   | Switch the Docker Desktop operating system mode to match the project's target operating system. |
 | CTC1006 | Docker Desktop is running but is in an error state and should be restarted. |   | Restart Docker Desktop and make sure Docker Desktop is functioning properly. |
-| CTC1007 | Downloading `vsdbg` failed but an existing copy was found on disk | This is just a warning and the debugging doesn't fail. This warning happens when the latest version of `vsdbg` fails to download but an existing copy was found and being used. | No action needed from user. |
+| CTC1007 | Downloading `vsdbg` failed but an existing copy was found on disk | This is just a warning and the debugging will not fail. This warning happens when the latest version of `vsdbg` fails to download but an existing copy was found and being used. | No action needed from user. |
 | CTC1008 | Downloading `vsdbg` failed and no existing copy was found on disk | **F5** failed to download `vsdbg.exe`. | Check your Internet connection. |
 | CTC1009 | Drive-sharing credentials are possibly invalid |   | This might be caused by the Shared Drives credentials used by Docker Desktop being out of date. Try resetting the credentials in the **Shared Drives** page of the Docker Desktop settings, and then restarting Docker. |
-| CTC1010 | The current user isn't in the `docker-users` group |   | The current user isn't in the `docker-users` group. Add yourself to the `docker-users` group and then log out and back in to Windows. |
+| CTC1010 | The current user isn't in the `docker-users` group. |   | The current user isn't in the `docker-users` group. Add yourself to the `docker-users` group, and then log out and back in to Windows. |
 | CTC1011 | Ports are in use | A container is trying to use a specific host port that is already in use. | Stop the previous container or other application that uses this port or update the application to use different port. |
 | CTC1012 | Not used |   |   |
 | CTC1013 | This current type isn't supported or the dotnet core version isn't supported   |   |   |
@@ -109,7 +109,7 @@ This article lists the error codes used by Visual Studio Container Tools and, wh
 | CTC1025 | An error occurred while trying to pull a Docker image. |   | See the **Output** window for a more detailed error on why the `docker pull` command failed. |
 | CTC1026 | Launch setting parsing error. | Unable to find the IISExpress settings or parsing failure while parsing the IISExpress setting in the *launchSettings.json* file.  | Make sure the IISExpress settings in *launchSettings.json* is valid. |
 | CTC1027 | Error running the `dev-certs` tool. | An error occurred while running the `dev-certs` tool to trust the ASP.NET Core development certificate. | See the **Output** window for more detailed error. |
-| CTC1028 | Invalid Launch URL | The application URL that is launched when the debugging starts is invalid. | Ensure the `launchUrl` specified in the Docker launch settings in *launchSettings.json* |
+| CTC1028 | Invalid Launch URL | The application URL that will be launched when the debugging starts is invalid | Ensure the `launchUrl` specified in the Docker launch settings in *launchSettings.json* |
 | CTC1029 | Docker execution failed | An error occurred while trying to run a command to start the application process inside the container. | See the **Output** window for more detailed error. |
 | CTC1030 | Internal error | An unknown internal error occurred. | Please open a bug in [Visual Studio Feedback](https://developercommunity.visualstudio.com/VisualStudio). |
 | CTC1031 | Unsupported OS |   | Likely using .NET Framework project in a Linux container. Switch to a Windows container and try again. |
@@ -121,15 +121,15 @@ This article lists the error codes used by Visual Studio Container Tools and, wh
 | CTC1037 | Blazor Manifest file access error | Rewriting Blazor static web assets file failed when debugging the Blazor application. | See the **Output** window for more detailed error. |
 | CTC1038 | The container is absent or not running at the time of debugging |   | See the **Output** window for more detail on why the container failed to start. |
 | CTC1039 | The binaries of the program to debug are not found at expected location in the container. |   |   |
-| CTC1040 | The debugged program exited with an unexpected exit code |   | Unable to start the application process. See the **Output** window for more details. |
-| CTC1041 | Incomplete Docker Desktop installation. |   | Docker Desktop does not appear to have finished installing. Please try rebooting, and if the issue persists, try repairing your Docker Desktop installation. |
+| CTC1040 | The debugged program exited with an unexpected exit code. |   | Unable to start the application process. See the **Output** window for more details. |
+| CTC1041 | Incomplete Docker Desktop installation. |   | Docker Desktop does not appear to have finished installing. Try rebooting, and if the issue persists, try repairing your Docker Desktop installation. |
 
 ## Docker-compose-specific error codes
 
 | Code | Description | Notes | Fix |
 | - | - | - | - |
 | DTP1001 | Host port not found | In the Docker Compose project, the Service URL specifies the token `{ServicePort}`, but the container doesn't have any corresponding host port. | Ensure the container is started with a host port for the right URL scheme (`http` or `https`). |
-| DTP1002 | Container not found | When debugging the Docker Compose project, the container was not started or container exited. | See the **Output** window for more detail on why the container is failed to start. |
+| DTP1002 | Container not found | When debugging the Docker Compose project, the container wasn't started or container exited. | See the **Output** window for more detail on why the container failed to start. |
 | DTP1003 | No service found while debugging the Docker Compose project. |   | Ensure that the Docker Compose document has one or more dotnet services defined. |
 | DTP1004 | Docker Compose scaffolding error |   | Try adding Docker Compose support again. |
 | DT1001 | Debugging failed due to an error running Docker Compose command. | See the **Output** window for more detail on this error. |
@@ -150,7 +150,7 @@ This article lists the error codes used by Visual Studio Container Tools and, wh
 | DT1016 | Using profile from newer version of Visual Studio |   | The profile version is higher than the current supported version. Please upgrade the Visual Studio to the latest version. |
 | DT1017 | Using profile from newer version of Visual Studio, but continues to work | This is a warning message | The profile version is higher than the current supported version, but still compatible with the current version of Visual Studio, but might be missing some features. |
 | DT1018 | Using old profile version, but compatible. | This is a warning message | The profile version is lower than the latest version, but still compatible. Some of the newer features might not work. Consider upgrading to the latest version of Visual Studio. |
-| DT1019 | Unsupported compose v2 | You are using older version of Docker Compose v2 that doesn't support the compose profile. | Upgrade Docker Compose to the latest version. |
+| DT1019 | Unsupported compose v2 | You're using older version of Docker Compose v2 that doesn't support the compose profile. | Upgrade Docker Compose to the latest version. |
 
 ## Single-project-specific error codes
 
@@ -158,7 +158,7 @@ This article lists the error codes used by Visual Studio Container Tools and, wh
 | - | - | - | - |
 | CTP1001 | Unused | | |
 | CTP1002 | Unused |   |   |
-| CTP1003 | The container is absent or not running at the time of debugging |   | See the **Output** window for more detail on why the container is failed to start. |
+| CTP1003 | The container is absent or not running at the time of debugging |   | See the **Output** window for more detail on why the container failed to start. |
 | CTP1004 | Docker scaffolding error |   | Try adding Docker support again. |
 | CTP1005 | Invalid target OS |   | Unknown Dockerfile target OS specified in `DockerDefaultTargetOS` property. Supported values are 'Windows' and 'Linux'. |
 | CTP1006 | Failed to stop the application within the container. | This is just a warning. | Make sure the application isn't in use. |
