@@ -188,7 +188,17 @@ Before you try to start the sample app and run the debugger, check the code in t
 
 In the sample app, you see several red squiggles that you need to fix, and a green one that you need to investigate. Here's the first error.
 
-![Error showing as a red squiggle](../debugger/media/write-better-code-red-squiggle.png)
+::: moniker range="visualstudio"
+
+![Screenshot showing an error as a red squiggle in Visual Studio.](media/visualstudio/write-better-code-red-squiggle.png)
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+![Screenshot showing an error as a red squiggle.](media/write-better-code-red-squiggle.png)
+
+::: moniker-end
 
 To fix this error, you can look at another feature of the IDE, represented by the light bulb icon.
 
