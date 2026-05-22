@@ -1,7 +1,7 @@
 ---
 title: Change waves
 description: Learn how to enable or disable features in MSBuild that are potentially disruptive.
-ms.date: 11/01/2023
+ms.date: 5/22/2026
 ms.topic: whats-new
 helpviewer_keywords:
 - Change waves [MSBuild]
@@ -35,38 +35,74 @@ You will receive a warning and/or default to a specific wave if you don't set `M
 
 ## Change waves and associated features
 
-### 17.10
+### Current Rotation of Change Waves
 
-- [AppDomain configuration is serialized without using BinFmt](https://github.com/dotnet/msbuild/pull/9320) - feature can be opted out only if [BinaryFormatter](/dotnet/api/system.runtime.serialization.formatters.binary.binaryformatter) is allowed at runtime by editing `MSBuild.runtimeconfig.json`
+#### 18.8
+- [RAR task: across multiple input properties, resolve relative paths against the project directory (not the process current directory)](https://github.com/dotnet/msbuild/pull/13319)
+
+#### 18.7
+- [Copy task retries on ERROR_ACCESS_DENIED on non-Windows platforms to handle transient lock conflicts (e.g. macOS CoW filesystems)](https://github.com/dotnet/msbuild/issues/13463)
+- [Fix ASP.NET WebSite projects to resolve netstandard2.0 dependencies](https://github.com/dotnet/msbuild/pull/13058) - Pass TargetFrameworkVersion to RAR task and copy netstandard.dll facade for .NET Framework 4.7.1+ web projects.
+
+#### 18.6
+- [AbsolutePath.GetCanonicalForm optimization - avoid expensive Path.GetFullPath calls when paths don't need canonicalization](https://github.com/dotnet/msbuild/pull/13369)
+- [TaskHostTask forwards request-level global properties (e.g. MSBuildRestoreSessionId) to out-of-proc TaskHost in -mt mode](https://github.com/dotnet/msbuild/pull/13443)
+- [Fix ShouldTreatWarningAsError in OOP TaskHost checking wrong collection (WarningsAsMessages instead of WarningsAsErrors)](https://github.com/dotnet/msbuild/issues/11952)
+- [Fix ToolTask hang when tool spawns grandchild processes that inherit stdout/stderr pipe handles](https://github.com/dotnet/msbuild/issues/2981)
+
+#### 18.5
+- [FindUnderPath and AssignTargetPath tasks no longer throw on invalid path characters when using TaskEnvironment.GetAbsolutePath](https://github.com/dotnet/msbuild/pull/13069)
+- [AssignTargetPath on Linux respects case sensitivity of the file system instead of always ignoring case](https://github.com/dotnet/msbuild/pull/13069)
+
+#### 18.4
+- [Start throwing on null or empty paths in MultiProcess and MultiThreaded Task Environment Drivers.](https://github.com/dotnet/msbuild/pull/12914)
+
+### Change waves that will be removed in the release accompanying .NET 11
+
+#### 18.3
+- [Replace Transactional property with ChangeWave control, implement atomic file replacement with retry logic, and update tests.](https://github.com/dotnet/msbuild/pull/12627)
+
+#### 17.14
+- ~[.SLNX support - use the new parser for .sln and .slnx](https://github.com/dotnet/msbuild/pull/10836)~ reverted after compat problems discovered
+- ~~[Support custom culture in RAR](https://github.com/dotnet/msbuild/pull/11000)~~ - see [11607](https://github.com/dotnet/msbuild/pull/11607) for details
+- [VS Telemetry](https://github.com/dotnet/msbuild/pull/11255)
+
+#### 17.12
+- [Log TaskParameterEvent for scalar parameters](https://github.com/dotnet/msbuild/pull/9908)
+- [Convert.ToString during a property evaluation uses the InvariantCulture for all types](https://github.com/dotnet/msbuild/pull/9874)
+- [Fix oversharing of build results in ResultsCache](https://github.com/dotnet/msbuild/pull/9987)
+- [Add ParameterName and PropertyName to TaskParameterEventArgs](https://github.com/dotnet/msbuild/pull/10130)
+- [Emit eval props if requested by any sink](https://github.com/dotnet/msbuild/pull/10243)
+- [Load Microsoft.DotNet.MSBuildSdkResolver into default load context (MSBuild.exe only)](https://github.com/dotnet/msbuild/pull/10603)
+
+#### 17.10
+- [AppDomain configuration is serialized without using BinFmt](https://github.com/dotnet/msbuild/pull/9320) - feature can be opted out only if [BinaryFormatter](https://learn.microsoft.com/en-us/dotnet/api/system.runtime.serialization.formatters.binary.binaryformatter) is allowed at runtime by editing `MSBuild.runtimeconfig.json`. **Please note that [any usage of BinaryFormatter is insecure](https://learn.microsoft.com/dotnet/standard/serialization/binaryformatter-security-guide).**
+- [Warning on serialization custom events by default in .NET framework](https://github.com/dotnet/msbuild/pull/9318)
 - [Cache SDK resolver data process-wide](https://github.com/dotnet/msbuild/pull/9335)
+- [Target parameters will be unquoted](https://github.com/dotnet/msbuild/pull/9452), meaning  the ';' symbol in the parameter target name will always be treated as separator
+- [Add Link metadata to Resources in AssignLinkMetadata target](https://github.com/dotnet/msbuild/pull/9464)
+- [Change Version switch output to finish with a newline](https://github.com/dotnet/msbuild/pull/9485)
+- [Load NuGet.Frameworks into secondary AppDomain (MSBuild.exe only)](https://github.com/dotnet/msbuild/pull/9446)
+- [Update Traits when environment has been changed](https://github.com/dotnet/msbuild/pull/9655)
+- [Exec task does not trim leading whitespaces for ConsoleOutput](https://github.com/dotnet/msbuild/pull/9722)
+- [Introduce [MSBuild]::StableStringHash overloads](https://github.com/dotnet/msbuild/issues/9519)
+- [Keep the encoding of standard output & error consistent with the console code page for ToolTask](https://github.com/dotnet/msbuild/pull/9539)
 
-### 17.8
+### Change Waves No Longer In Rotation
 
-- [[RAR] Don't do I/O on SDK-provided references](https://github.com/dotnet/msbuild/pull/8688)
-- [Delete destination file before copy](https://github.com/dotnet/msbuild/pull/8685)
-- [Moving from SHA1 to SHA256 for Hash task](https://github.com/dotnet/msbuild/pull/8812)
-- [Deprecating custom derived BuildEventArgs](https://github.com/dotnet/msbuild/pull/8917) - feature can be opted out only if [BinaryFormatter](/dotnet/api/system.runtime.serialization.formatters.binary.binaryformatter) is allowed at runtime by editing `MSBuild.runtimeconfig.json`
+#### 16.8
+- [Enable NoWarn](https://github.com/dotnet/msbuild/pull/5671)
+- [Truncate Target/Task skipped log messages to 1024 chars](https://github.com/dotnet/msbuild/pull/5553)
+- [Don't expand full drive globs with false condition](https://github.com/dotnet/msbuild/pull/5669)
 
-### 17.6
+#### 16.10
+- [Error when a property expansion in a condition has whitespace](https://github.com/dotnet/msbuild/pull/5672)
+- [Allow Custom CopyToOutputDirectory Location With TargetPath](https://github.com/dotnet/msbuild/pull/6237)
+- [Allow users that have certain special characters in their username to build successfully when using exec](https://github.com/dotnet/msbuild/pull/6223)
+- [Fail restore operations when an SDK is unresolveable](https://github.com/dotnet/msbuild/pull/6430)
+- [Optimize glob evaluation](https://github.com/dotnet/msbuild/pull/6151)
 
-- [Parse invalid property under target](https://github.com/dotnet/msbuild/pull/8190)
-- [Eliminate project string cache](https://github.com/dotnet/msbuild/pull/7965)
-- [Log an error when no provided search path for an import exists](https://github.com/dotnet/msbuild/pull/8095)
-- [Log assembly loads](https://github.com/dotnet/msbuild/pull/8316)
-- [AnyHaveMetadataValue returns false when passed an empty list](https://github.com/dotnet/msbuild/pull/8603)
-- [Log item self-expansion](https://github.com/dotnet/msbuild/pull/8581)
-
-### 17.4
-
-- [Respect deps.json when loading assemblies](https://github.com/dotnet/msbuild/pull/7520)
-- [Consider `Platform` as default during Platform Negotiation](https://github.com/dotnet/msbuild/pull/7511)
-- [Adding accepted SDK name match pattern to SDK manifests](https://github.com/dotnet/msbuild/pull/7597)
-- [Throw warning indicating invalid project types](https://github.com/dotnet/msbuild/pull/7708)
-- [MSBuild server](https://github.com/dotnet/msbuild/pull/7634)
-- [Call new CultureInfo API when validating cultures (.NET Core only)](https://github.com/dotnet/msbuild/pull/7853)
-
-### 17.0
-
+#### 17.0
 - [Scheduler should honor BuildParameters.DisableInprocNode](https://github.com/dotnet/msbuild/pull/6400)
 - [Don't compile globbing regexes on .NET Framework](https://github.com/dotnet/msbuild/pull/6632)
 - [Default to transitively copying content items](https://github.com/dotnet/msbuild/pull/6622)
@@ -79,20 +115,29 @@ You will receive a warning and/or default to a specific wave if you don't set `M
 - [Process-wide caching of ToolsetConfigurationSection](https://github.com/dotnet/msbuild/pull/6832)
 - [Normalize RAR output paths](https://github.com/dotnet/msbuild/pull/6533)
 
-## Change Waves No Longer In Rotation
+#### 17.4
 
-### 16.8
+- [Respect deps.json when loading assemblies](https://github.com/dotnet/msbuild/pull/7520)
+- [Consider `Platform` as default during Platform Negotiation](https://github.com/dotnet/msbuild/pull/7511)
+- [Adding accepted SDK name match pattern to SDK manifests](https://github.com/dotnet/msbuild/pull/7597)
+- [Throw warning indicating invalid project types](https://github.com/dotnet/msbuild/pull/7708)
+- [MSBuild server](https://github.com/dotnet/msbuild/pull/7634)
 
-- [Enable NoWarn](https://github.com/dotnet/msbuild/pull/5671)
-- [Truncate Target/Task skipped log messages to 1024 chars](https://github.com/dotnet/msbuild/pull/5553)
-- [Don't expand full drive globs with false condition](https://github.com/dotnet/msbuild/pull/5669)
+#### 17.6
 
-### 16.10
-- [Error when a property expansion in a condition has whitespace](https://github.com/dotnet/msbuild/pull/5672)
-- [Allow Custom CopyToOutputDirectory Location With TargetPath](https://github.com/dotnet/msbuild/pull/6237)
-- [Allow users that have certain special characters in their username to build successfully when using exec](https://github.com/dotnet/msbuild/pull/6223)
-- [Fail restore operations when an SDK is unresolveable](https://github.com/dotnet/msbuild/pull/6430)
-- [Optimize glob evaluation](https://github.com/dotnet/msbuild/pull/6151)
+- [Parse invalid property under target](https://github.com/dotnet/msbuild/pull/8190)
+- [Eliminate project string cache](https://github.com/dotnet/msbuild/pull/7965)
+- [Log an error when no provided search path for an import exists](https://github.com/dotnet/msbuild/pull/8095)
+- [Log assembly loads](https://github.com/dotnet/msbuild/pull/8316)
+- [AnyHaveMetadataValue returns false when passed an empty list](https://github.com/dotnet/msbuild/pull/8603)
+- [Log item self-expansion](https://github.com/dotnet/msbuild/pull/8581)
+
+#### 17.8
+
+- [[RAR] Don't do I/O on SDK-provided references](https://github.com/dotnet/msbuild/pull/8688)
+- [Delete destination file before copy](https://github.com/dotnet/msbuild/pull/8685)
+- [Moving from SHA1 to SHA256 for Hash task](https://github.com/dotnet/msbuild/pull/8812)
+- [Deprecating custom derived BuildEventArgs](https://github.com/dotnet/msbuild/pull/8917) - feature can be opted out only if [BinaryFormatter](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.formatters.binary.binaryformatter) is allowed at runtime by editing `MSBuild.runtimeconfig.json`
 
 ## FAQ
 
