@@ -2,7 +2,7 @@
 title: Manage Git repos in Visual Studio
 titleSuffix: ""
 description: Manage any Git repository in Visual Studio by using the Git Repository window and change your last commit, merge commits (squash), cherry-pick commits, and more.
-ms.date: 02/23/2026
+ms.date: 05/13/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: ghogen
@@ -10,6 +10,7 @@ ms.author: ghogen
 
 ms.subservice: general-ide
 ms.collection: ce-skilling-ai-copilot
+ms.custom: doc-kit-assisted
 ---
 # Manage Git repositories in Visual Studio
 
@@ -23,12 +24,6 @@ To open the **Git Repository** window, choose **View** > **Git repository** (or 
 
    > [!TIP]
    > To keep this window open on restart, choose **Git** > **Settings** and check the ["Restore the Git Repository window on restart"](./git-settings.md#restore-the-git-repository-window-on-restart) box.
-
-## Explain a commit with GitHub Copilot Chat
-
-With Visual Studio 2022 version 17.10 and later and [GitHub Copilot](../ide/visual-studio-github-copilot-install-and-states.md), you can use AI to generate a detailed commit description that describes the changes in that commit. Press the **Explain** button to request that GitHub Copilot create a commit description. To install GitHub Copilot, see [Install and manage GitHub Copilot in Visual Studio](../ide/visual-studio-github-copilot-install-and-states.md).
-
-:::image type="content" source="media/vs-2022/repository-commit-copilot.png" alt-text="Screenshot of the explain button to request that GitHub Copilot create a commit explanation.":::
 
 ## Change the last commit (amend)
 
@@ -266,7 +261,6 @@ The `--hard` part of the command tells Git to reset the files to the state of th
 :::image type="content" source="media/vs-2022/git-repository-reset-ui.png" alt-text="Screenshot that shows resetting a branch in Visual Studio." lightbox="media/vs-2022/git-repository-reset-ui.png":::
 
 :::moniker-end
-
 
 To learn more about resetting branches, see the [Git webpage for the reset command](https://git-scm.com/docs/git-reset).
 

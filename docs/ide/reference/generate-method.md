@@ -17,6 +17,8 @@ This code generation applies to:
 
 - Visual Basic
 
+- Razor files (`.razor`, `.cshtml`)
+
 **What:** Lets you immediately add a method to a class.
 
 **When:** You introduce a new method and want to properly declare it, automatically.
@@ -65,3 +67,4 @@ This code generation applies to:
 
 - [Code Generation](../code-generation-in-visual-studio.md)
 - [Preview Changes](../../ide/preview-changes.md)
+- [Razor editor code actions](razor-editor-code-actions.md)

@@ -369,6 +369,8 @@
           href: ide/reference/generate-class-type.md
         - name: Generate method
           href: ide/reference/generate-method.md
+        - name: Razor editor code actions
+          href: ide/reference/razor-editor-code-actions.md
         - name: Generate field/property/local
           href: ide/reference/generate-field-property-local.md
         - name: Generate Comparison Operators for IComparable

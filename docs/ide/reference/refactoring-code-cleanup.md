@@ -112,6 +112,8 @@ This feature fades out unused parameters and generates a warning for unused expr
 
 **Applies to:** C#, Visual Basic
 
+For Razor-specific organization and cleanup of `@using` directives, including duplicate removal, see [Razor editor code actions](razor-editor-code-actions.md).
+
 This refactoring sorts `using` directives at the top of your file alphabetically, making it easier to find a specific using directive.
 
 1. Select **Edit** from the menu bar.
