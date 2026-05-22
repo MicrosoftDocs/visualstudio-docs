@@ -58,7 +58,7 @@ To get better answers with scoped context in Copilot Chat, see the [tips to impr
 :::moniker-end
 
 :::moniker range="visualstudio"
-To get better answers with scoped context in Copilot Chat, see the [tips to improve Copilot chat results](copilot-chat-context.md). You can learn how to use [slash commands](copilot-chat-context.md#slash-commands), [references](copilot-chat-context-references.md#reference-context), [sources used](copilot-chat-context-references.md#find-context), and the [chat history panel](copilot-chat-context-references.md#threads).
+To get better answers with scoped context in Copilot Chat, see the [tips to improve Copilot chat results](copilot-chat-context.md). You can learn how to use [slash commands](copilot-chat-context.md#slash-commands), [references](copilot-chat-context-references.md#reference-context), [sources used](copilot-chat-context-references.md#find-context), and the [chat history panel](copilot-chat-context-references.md#threads). You can also reference Git changes and commits in chat to summarize pending work, explain earlier edits, and review a specific commit with more context.
 :::moniker-end
 
 > [!NOTE]
