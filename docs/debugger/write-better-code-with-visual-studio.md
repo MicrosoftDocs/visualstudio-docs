@@ -1,7 +1,7 @@
 ---
-title: Debugging techniques and tools
+title: Debugging Techniques and Tools
 description: Write better code with fewer bugs by using Visual Studio to fix exceptions and resolve errors, and make improvements to your code.
-ms.date: "1/6/2026"
+ms.date: 5/22/2026
 ms.topic: how-to
 helpviewer_keywords:
   - "debugger"
@@ -198,7 +198,17 @@ The first red squiggle represents a compile-time error. Hover over it and you se
 
 Notice that this error shows a light bulb icon to the lower left. Along with the screwdriver icon ![screwdriver icon](../ide/media/screwdriver-icon.png), the light bulb icon ![light bulb icon](../ide/media/light-bulb-icon.png) represents Quick Actions that can help you fix or refactor code inline. The light bulb represents issues that you *should* fix. The screwdriver is for issues that you might choose to fix. Use the first suggested fix to resolve this error by clicking **using System.Text** on the left.
 
-![Use the light bulb to fix code](../debugger/media/write-better-code-missing-include.png)
+::: moniker range="visualstudio"
+
+![Screenshot showing how to use the light bulb to fix code in Visual Studio.](media/visualstudio/write-better-code-missing-include.png)
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+![Screenshot showing how to use the light bulb to fix code.](media/write-better-code-missing-include.png)
+
+::: moniker-end
 
 When you select this item, Visual Studio adds the `using System.Text` statement at the top of the *Program.cs* file, and the red squiggle disappears. (When you're unsure about changes applied by a suggested fix, choose the **Preview changes** link on the right before applying the fix.)
 
@@ -208,7 +218,17 @@ The preceding error is a common one that you usually fix by adding a new `using`
 
 There are a few more squiggles to look at in this code. Here, you see a common type conversion error. When you hover over the squiggle, you see that the code is trying to convert a string to an int, which isn't supported unless you add explicit code to make the conversion.
 
-![Type conversion error](../debugger/media/write-better-code-conversion-error.png)
+::: moniker range="visualstudio"
+
+![Screenshot showing the type conversion error in Visual Studio.](media/visualstudio/write-better-code-conversion-error.png)
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+![Screenshot showing the type conversion error.](media/write-better-code-conversion-error.png)
+
+::: moniker-end
 
 Because the code analyzer can't guess your intent, there are no light bulbs to help you out this time. To fix this error, you need to know the intent of the code. In this example, it's not too hard to see that `points` should be a numeric (integer) value, since you're trying to add `points` to `totalpoints`.
 
