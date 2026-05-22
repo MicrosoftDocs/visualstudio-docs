@@ -1,7 +1,7 @@
 ---
 title: About GitHub Copilot Chat in Visual Studio
 description: Learn about the fully integrated GitHub Copilot Chat in Visual Studio. Use chat to ask coding-related questions from right within the IDE.
-ms.date: 05/12/2026
+ms.date: 05/14/2026
 ms.update-cycle: 180-days
 ms.topic: overview 
 ai-usage: ai-assisted
@@ -33,10 +33,13 @@ Copilot Chat provides AI assistance to help you make informed decisions and writ
 - **[Debugging](../debugger/debug-with-copilot.md)**. Find issues and get proposed fixes to bugs and [exceptions](../debugger/debug-with-copilot.md#debug-an-exception-with-copilot).
 - **[Review and commit code](../version-control/git-make-commit.md)**. [Generate commit messages](../version-control/git-make-commit.md#generate-commit-messages-with-github-copilot-chat) and [review local changes](../version-control/git-make-commit.md#review-local-changes-with-copilot-chat).
 
+:::moniker range="visualstudio"
+- **Commit history context**. Attach one or more commits directly from Git history to chat and ask Copilot to explain changes, spot issues, or propose similar edits. Learn more in [Manage chat context with references](copilot-chat-context-references.md#reference-commits-from-git-history).
+:::moniker-end
+
 ## Prerequisites
 
 - Visual Studio 2022 [version 17.8](/visualstudio/releases/2022/release-history) or later.
-
 - [Sign in to Visual Studio using a GitHub account](work-with-github-accounts.md) with [Copilot access](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot). You can use [GitHub Copilot for free](copilot-free-plan.md).
 
 [!INCLUDE [copilot-trials-paused-notice](../includes/copilot-trials-paused-notice.md)]

@@ -94,6 +94,8 @@ private void MyMethod()
 
 The **Remove Unnecessary Usings/Imports** Quick Action removes any unused `using` and `Import` directives for the current file. When you select this item, unused namespace imports are removed.
 
+For Razor files, a similar code action removes unnecessary `@using` directives. In MVC Razor views, this cleanup also applies to `@addTagHelper` directives. For more information, see [Razor editor code actions](reference/razor-editor-code-actions.md).
+
 ### Remove unnecessary cast
 
 If you cast a type to another type that doesn't require a cast, the **Remove Unnecessary Cast** Quick Action item removes the unnecessary cast.

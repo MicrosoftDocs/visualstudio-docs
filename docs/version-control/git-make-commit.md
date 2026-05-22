@@ -2,7 +2,7 @@
 title: Make a Git commit in Visual Studio
 titleSuffix: ""
 description: Make a Git commit in Visual Studio by using Git providers such as GitHub or Azure DevOps, or locally with no provider at all.
-ms.date: 05/13/2026
+ms.date: 05/14/2026
 ms.custom: awp-ai, doc-kit-assisted
 ms.update-cycle: 180-days
 ms.topic: how-to
@@ -102,7 +102,13 @@ If you want to ask follow-up questions about your pending work in a chat convers
 
 :::moniker range="visualstudio"
 
-To enable this feature, open the **Tools** > **Options** pane, expand the **All Settings** > **Preview Features** section, and select the **Pull Request Comments** checkbox. Expand the **All Settings** > **GitHub** > **Copilot** > **Source Control Integration** section and select the **Enable Git preview features** checkbox.
+You can also attach one or more commits directly from Git history to Copilot Chat by using **Add to Chat**. For details, see [Manage chat context with references](../ide/copilot-chat-context-references.md#reference-commits-from-git-history).
+
+:::moniker-end
+
+:::moniker range="visualstudio"
+
+To enable this feature, open the **Tools** > **Options** pane, expand the **All Settings** > **Preview Features** section, and select the **Pull Request Comments** checkbox.
 
 :::moniker-end
 :::moniker range="<=vs-2022"
@@ -160,7 +166,6 @@ GitHub Copilot can also suggest code edits based on comments from the local code
 To use this feature, enable both of the following feature flags:
 
 - **Tools** > **Options** > **Preview Features** > **Pull Request Comments**
-- **Tools** > **Options** > **GitHub** > **Copilot** > **Source Control Integration** > **Enable Git preview features**
 
 You can also apply code suggestions from [pull request comments](git-create-pull-request.md#apply-a-suggested-change-from-a-pull-request-comment) in the editor.
 
