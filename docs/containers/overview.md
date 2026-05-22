@@ -30,7 +30,7 @@ The tools included in Visual Studio for developing with [Docker](https://docs.do
 
 - [Docker Desktop](https://www.docker.com/get-docker) or [Podman Desktop](https://podman-desktop.io/downloads)
 - [Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-cta), or for Podman support, [Visual Studio 2026](https://aka.ms/vs/download/?cid=learn-onpage-download-cta), with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET desktop development** workload installed.
-- To publish to Azure Container Registry, an Azure subscription. [Sign up for a free trial](https://azure.microsoft.com/offers/ms-azr-0044p/).
+- To publish to Azure Container Registry, an Azure subscription. [Sign up for a free trial](https://azure.microsoft.com/pricing/offers/ms-azr-0044p?cid=msft_learn).
 
 ## Container support in Visual Studio
 
@@ -50,7 +50,7 @@ The **Containers** window lets you view running containers, browse available ima
 
 - [Docker Desktop](https://www.docker.com/get-docker)
 - [Visual Studio](https://aka.ms/vs/download/?cid=learn-onpage-download-cta). For Podman support, [Visual Studio 2026](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) with the **ASP.NET and web development**, **Azure development** workload, and/or **.NET desktop development** workload installed.
-- To publish to Azure Container Registry, an Azure subscription. [Sign up for a free trial](https://azure.microsoft.com/offers/ms-azr-0044p/).
+- To publish to Azure Container Registry, an Azure subscription. [Sign up for a free trial](https://azure.microsoft.com/pricing/offers/ms-azr-0044p?cid=msft_learn).
 
 ## Docker support in Visual Studio
 
