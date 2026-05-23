@@ -1,14 +1,14 @@
 ---
-title: Visual Studio subscriptions with GitHub Enterprise
+title: Visual Studio Subscriptions with GitHub Enterprise
 author: joseb-rdc
 ms.author: amast
 ms.manager:  shve
 ms.date: 12/23/2025
 ms.topic: get-started
-description: Discover how to access GitHub Enterprise as part of Visual Studio subscriptions, get started using GitHub, and find support options.
+description: Discover how to access GitHub Enterprise as part of Visual Studio Subscriptions, get started using GitHub, and find support options.
 ---
 
-# Visual Studio subscriptions with GitHub Enterprise 
+# Visual Studio Subscriptions with GitHub Enterprise 
 
 ## What's on this page
 
@@ -35,13 +35,13 @@ Visual Studio Enterprise, Visual Studio Professional, and GitHub Enterprise cont
 
 To learn more about benefits and options, visit <https://visualstudio.microsoft.com/subscriptions/visual-studio-github>. 
 
-## What is the Visual Studio subscription with GitHub Enterprise setup process?
+## What is the Visual Studio Subscription with GitHub Enterprise setup process?
 
-Visual Studio subscriptions with GitHub Enterprise are managed in two parts:
-1. The Visual Studio subscription (Enterprise or Professional)
+Visual Studio Subscriptions with GitHub Enterprise are managed in two parts:
+1. The Visual Studio Subscription (Enterprise or Professional)
 2. GitHub Enterprise 
 
-When you're assigned to a Visual Studio subscription with GitHub Enterprise, you receive an email letting you know that your Visual Studio subscriptions admin assigned a subscription to you. At that point, you can view available subscription benefits at <https://my.visualstudio.com/benefits>.
+When you're assigned to a Visual Studio Subscription with GitHub Enterprise, you receive an email letting you know that your Visual Studio Subscriptions admin assigned a subscription to you. At that point, you can view available subscription benefits at <https://my.visualstudio.com/benefits>.
 
 > [!NOTE]
 > Management of the combined Visual Studio + GitHub Enterprise entitlement occurs across **two systems**—the Visual Studio Subscriptions Admin Portal and the GitHub Enterprise administration interface. These responsibilities might be performed by **one person or multiple administrators**, depending on your organization’s structure.
@@ -51,10 +51,10 @@ Once assigned, the GitHub Enterprise benefit looks like this:
    > [!div class="mx-imgBorder"]
    > ![GitHub Enterprise pending Enterprise account setup](_img/access-github/pending-account-setup.png "Screenshot of the pending enterprise account setup dialog.")  
 
-A GitHub administrator manages GitHub Enterprise separately from Visual Studio subscriptions. When your company sets up a GitHub Enterprise account, you receive an email from GitHub notifying you that your Visual Studio subscription is linked and the benefit tile is updated as seen on the next screenshot. Setting up this account might take some time and is dependent on your company completing the setup process. After you receive the email, you can reach out to the appropriate GitHub organization admin to request an invitation to their organization and/or repo.  
+A GitHub administrator manages GitHub Enterprise separately from Visual Studio Subscriptions. When your company sets up a GitHub Enterprise account, you receive an email from GitHub notifying you that your Visual Studio Subscription is linked and the benefit tile is updated as seen on the next screenshot. Setting up this account might take some time and is dependent on your company completing the setup process. After you receive the email, you can reach out to the appropriate GitHub organization admin to request an invitation to their organization and/or repo.  
 
 Even when the same individual holds both administrative roles, both steps must still be completed:  
-1. Assign the Visual Studio subscription  
+1. Assign the Visual Studio Subscription  
 2. Invite the user to the correct GitHub Enterprise organization
 
    > [!div class="mx-imgBorder"]
@@ -93,8 +93,8 @@ If you're new to GitHub, here are some helpful resources:
 
 Administrators can reference:
 
-+ [Set up GitHub Enterprise licenses with Visual Studio subscriptions](https://learn.microsoft.com/visualstudio/subscriptions/assign-github)
-+ See video about [Managing Licenses in GitHub Enterprise for Visual Studio subscriptions](https://www.youtube.com/watch?v=RWG3sHLIRts) in YouTube
++ [Set up GitHub Enterprise licenses with Visual Studio Subscriptions](https://learn.microsoft.com/visualstudio/subscriptions/assign-github)
++ See video about [Managing Licenses in GitHub Enterprise for Visual Studio Subscriptions](https://www.youtube.com/watch?v=RWG3sHLIRts) in YouTube
 + [Understand GitHub Enterprise setup requirements](https://docs.github.com/enterprise-cloud@latest/billing/how-tos/set-up-payment/set-up-vs-subscription)
 
 ## Frequently asked questions
@@ -103,7 +103,7 @@ Administrators can reference:
 
 A: The process for setting up a GitHub Enterprise account can take a while. If you've been waiting, you might want to reach out to your GitHub admin. It's possible that your admin is still working on it or elected not to create a GitHub Enterprise account. 
 
-### Why doesn’t my GitHub Enterprise benefit appear even though I was assigned to a Visual Studio subscription?  
+### Why doesn’t my GitHub Enterprise benefit appear even though I was assigned to a Visual Studio Subscription?  
 
 A: Your subscription might already be assigned, but your organization might still need to complete the GitHub Enterprise setup steps. The GitHub portion of the benefit requires the admin (who might also be the Visual Studio admin) to configure the GitHub Enterprise account and invite you to their organization.
 
@@ -118,21 +118,21 @@ Once the GitHub admin sends the invitation and you accept it, your GitHub Enterp
 
 ### Can I activate my GitHub Enterprise access myself?
   
-A: No. Users can't self‑assign access to GitHub Enterprise. You must be assigned a GitHub‑enabled Visual Studio subscription and then be invited to the appropriate GitHub Enterprise organization.
+A: No. Users can't self‑assign access to GitHub Enterprise. You must be assigned a GitHub‑enabled Visual Studio Subscription and then be invited to the appropriate GitHub Enterprise organization.
 
 If you don't know who manages your subscription, use the “[Contact my admin](https://learn.microsoft.com/visualstudio/subscriptions/contact-my-admin)” tool.
 
 ### Who assigns my GitHub Enterprise license?
   
-A: A Visual Studio subscription administrator performs the subscription assignment. The GitHub Enterprise organization owner/admin performs the GitHub invitation. These roles **might be held by the same person or different people** in your organization.
+A: A Visual Studio Subscription administrator performs the subscription assignment. The GitHub Enterprise organization owner/admin performs the GitHub invitation. These roles **might be held by the same person or different people** in your organization.
 
 ### Why do I need both a subscription assignment and an organization invite?
   
 A: Visual Studio and GitHub Enterprise are managed in two separate systems.
 
-### Do I get the full Visual Studio subscription benefits?
+### Do I get the full Visual Studio Subscription benefits?
 
-A: Yes. When you receive GitHub Enterprise, you also receive the full set of Visual Studio subscription benefits. You still get software downloads, cloud services, technical support, and partner offers. It’s the same set of benefits you would have if you purchased the subscription separately.
+A: Yes. When you receive GitHub Enterprise, you also receive the full set of Visual Studio Subscription benefits. You still get software downloads, cloud services, technical support, and partner offers. It’s the same set of benefits you would have if you purchased the subscription separately.
 
 ### Is GitHub Enterprise included in subscriptions purchased in all channels?
 
