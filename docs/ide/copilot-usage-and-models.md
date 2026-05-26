@@ -19,7 +19,7 @@ ms.custom: awp-ai
 
 [!INCLUDE [copilot-billing-notice](../includes/copilot-billing-notice.md)]
 
-GitHub Copilot includes built-in tools to help you track usage, manage your plan, and understand how model selection affects your monthly token quota.
+GitHub Copilot includes built-in tools to help you track usage, manage your plan, and understand how model selection affects your monthly usage.
 
 ## View Copilot usage
 
