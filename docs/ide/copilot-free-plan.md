@@ -53,7 +53,7 @@ You can also [set up from the Copilot Chat window](work-with-github-accounts.md#
 
 ## Copilot Free usage limits in Visual Studio
 
-Copilot Free includes a monthly token quota for Copilot Chat. As you approach your limit, Visual Studio can show usage alerts. When your monthly quota is reached, you notice a change in Copilot functionality.
+Copilot Free includes a monthly usage limit for Copilot Chat. As you approach your limit, Visual Studio can show usage alerts. When your monthly quota is reached, you notice a change in Copilot functionality.
 
 :::moniker range="visualstudio"
 
@@ -87,7 +87,7 @@ When you reach the usage limits, your Copilot experience in Visual Studio might 
        **Usage limit for Completions is reached**
     :::column-end::: 
     :::column span="2"::: 
-       User receives IntelliCode suggestions instead of Copilot completions. The Copilot badge can still show an active state while completions are limited.
+       User receives IntelliCode suggestions instead of Copilot completions. The Copilot badge may still show an active state while completions are limited.
     :::column-end::: 
 :::row-end:::
 :::row::: 
@@ -95,7 +95,7 @@ When you reach the usage limits, your Copilot experience in Visual Studio might 
        **Usage limit for Chat is reached**
     :::column-end::: 
     :::column span="2"::: 
-         User no longer receives chat responses when sending prompts. The Copilot badge can still show an active state.
+         User no longer receives chat responses when sending prompts. A notification in chat will alert the user that they have reached their monthly limit.
     :::column-end::: 
 :::row-end:::
 
