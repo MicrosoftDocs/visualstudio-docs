@@ -25,7 +25,7 @@ To get started with Copilot Free in Visual Studio, you need:
 ## Get started with Copilot Free in Visual Studio
 
 With Visual Studio version 17.14 or later, you can [activate Copilot Free at first launch](work-with-github-accounts.md#add-a-github-account-at-first-launch).
-You can also [set up from the Copilot Chat window](work-with-github-accounts.md#add-a-github-account-from-the-copilot-chat-window) at any time by following the steps below.
+You can also [set up from the Copilot Chat window](work-with-github-accounts.md#add-a-github-account-from-the-copilot-chat-window) at any time by using the following steps.
 
 >*If you're not signed in, the **Get started with Copilot Free** dialog appears when you try to use any Copilot feature.*
 
@@ -37,13 +37,13 @@ You can also [set up from the Copilot Chat window](work-with-github-accounts.md#
 
    :::moniker range="<=vs-2022"
 
-      :::image type="content" source="media/vs-2022/get-started-with-copilot-free-dialog.png" alt-text="Screenshot of Sign up for Copilot Free in the Chat window.":::
+      :::image type="content" source="media/vs-2022/get-started-with-copilot-free-dialog.png" alt-text="Screenshot of Sign-up for Copilot Free in the Chat window.":::
 
    :::moniker-end
 
    :::moniker range="visualstudio"
 
-      :::image type="content" source="media/visualstudio/get-started-with-copilot-free-dialog.png" alt-text="Screenshot of Sign up for Copilot Free in the Chat window.":::
+      :::image type="content" source="media/visualstudio/get-started-with-copilot-free-dialog.png" alt-text="Screenshot of Sign-up for Copilot Free in the Chat window.":::
 
    :::moniker-end
 
@@ -87,7 +87,7 @@ When you reach the usage limits, your Copilot experience in Visual Studio might 
        **Usage limit for Completions is reached**
     :::column-end::: 
     :::column span="2"::: 
-       User receives IntelliCode suggestions instead of Copilot completions. The Copilot badge may still show an active state while completions are limited.
+       User receives IntelliCode suggestions instead of Copilot completions. The Copilot badge might still show an active state while completions are limited.
     :::column-end::: 
 :::row-end:::
 :::row::: 
@@ -95,7 +95,7 @@ When you reach the usage limits, your Copilot experience in Visual Studio might 
        **Usage limit for Chat is reached**
     :::column-end::: 
     :::column span="2"::: 
-         User no longer receives chat responses when sending prompts. A notification in chat will alert the user that they have reached their monthly limit.
+         User no longer receives chat responses when sending prompts. A notification in chat alerts the user that they have reached their monthly limit.
     :::column-end::: 
 :::row-end:::
 
