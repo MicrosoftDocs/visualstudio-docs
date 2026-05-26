@@ -1,9 +1,9 @@
 ---
-title: Create a Vue.js project in Visual Studio
+title: Create a Vue.js Project in Visual Studio
 description: Create, build, and run a Vue.js front-end web application project from a Visual Studio template, and set basic properties for the project.
-ms.date: 12/02/2024
+ms.date: 05/26/2026
 ms.custom: vs-acquisition
-ms.topic: tutorial
+ms.topic: quickstart
 ms.devlang: javascript
 author: mikejo5000
 ms.author: mikejo
@@ -12,62 +12,95 @@ ms.subservice: javascript-typescript
 dev_langs:
   - JavaScript
 monikerRange: '>= vs-2022'
----
-# Create a Vue.js project
 
-In this 5-10 minute introduction to the Visual Studio integrated development environment (IDE), you create and run a simple Vue.js frontend web application.
+# customer intent: As a developer, I want to create a Vue.js front-end web app project from a Visual Studio template, so I can set project properties, and build and run the app.
+---
+
+# Quickstart: Create a Vue.js project
+
+In this Quickstart, you create and run a base Vue.js front-end web application. This article provides a 5-10 minute introduction to the Visual Studio integrated development environment (IDE).
 
 ## Prerequisites
 
-Make sure to install the following software:
+Prepare your configuration with the following prerequisites:
 
-- Visual Studio 2022 or later. Go to the [Visual Studio downloads](https://aka.ms/vs/download/?cid=learn-onpage-download-cta) page to install it for free.
-- npm ([`https://www.npmjs.com/`](https://www.npmjs.com/package/npm)), which is included with Node.js
-- Vue.js ([Installation | Vue.js (vuejs.org)](https://v3.vuejs.org/guide/installation.html#npm))
+- Visual Studio 2022 or later (Get the free version at [Visual Studio downloads](https://visualstudio.microsoft.com/downloads/))
 
-## Create your app
+- npm (included with Node.js, [https://www.npmjs.com/](https://www.npmjs.com/package/npm))
 
-1. In the Start window (choose **File** > **Start Window** to open), select **Create a new project**.
+- Vue.js ([Installation | Vue.js (vuejs.org)](https://vuejs.org/guide/quick-start.html#npm))
 
-   :::image type="content" source="media/vs-2022/create-new-project.png" alt-text="Screenshot showing Create a new project":::
+## Create your Vue app
 
-1. Search for Vue in the search bar at the top and then select **Vue App** for either JavaScript or TypeScript.
+Create a Vue.js web app by following these steps:
 
-   :::image type="content" source="media/vs-2022/vue-choose-standalone-template.png" alt-text="Screenshot showing choosing a template":::
+1. In the Visual Studio **Start** window (select **File** > **Start Window**), select **Create a new project**.
 
-   Starting in Visual Studio 2022 version 11, the template name was changed from **Standalone JavaScript Vue Project** to **Vue App**.
+   ::: moniker range="visualstudio"
 
-1. Give your project and solution a name, and then choose **Next**.
+   :::image type="content" source="media/visualstudio/create-new-project.png" border="false" alt-text="Screenshot showing how to select the 'Create a new project' option.":::
 
-1. Choose **Create**, and then wait for Visual Studio to create the project.
+   ::: moniker-end
+   ::: moniker range="<=vs-2022"
+
+   :::image type="content" source="media/vs-2022/create-new-project.png" border="false" alt-text="Screenshot showing how to select the 'Create a new project' option.":::
+
+   ::: moniker-end
+
+1. In the **Create a new project** dialog, enter **Vue** in the search box. Select the **Vue App** template for JavaScript or TypeScript, and select **Next**.
+
+   ::: moniker range="visualstudio"
+
+   :::image type="content" source="media/visualstudio/vue-choose-template.png" border="false" alt-text="Screenshot showing how to choose a Vue template for JavaScript or TypeScript.":::
+
+   ::: moniker-end
+   ::: moniker range="<=vs-2022"
+
+   :::image type="content" source="media/vs-2022/vue-choose-standalone-template.png" border="false" alt-text="Screenshot showing how to choose a Vue template for JavaScript or TypeScript.":::
+
+   ::: moniker-end
+
+   In Visual Studio 2022 version 11 and later, the template name **Standalone JavaScript Vue Project** is changed to **Vue App**.
+
+1. Enter a name for your project and solution, and select **Create**.
+
+Wait for Visual Studio to create your new project.
 
 ## View the project properties
 
-The default project settings allow you to build and debug the project. But, if you need to change settings, right-click the project in Solution Explorer, select **Properties**, and then go the **Linting**, **Build** or **Deploy** section.
+The default project settings allow you to build and debug the project. 
 
-For debugger configuration, use [launch.json](../javascript/debug-nodejs.md#configure-debugging).
+If you want to change any settings, follow these steps:
 
->[!NOTE]
-> `launch.json` stores the startup settings associated with the **Start** button in the Debug toolbar. Currently, `launch.json` must be located under the `.vscode` folder.
+1. Right-click the project in Solution Explorer and select **Properties**.
 
-## Build Your Project
+1. In the project properties pane, select **Debug**, **Linting**, **Build**, or **Deploy** to see the corresponding properties.
 
-Choose **Build** > **Build Solution**  to build the project.
+For debugger configuration, use the [launch.json](../javascript/debug-nodejs.md#configure-debugging) file.
 
-## Start Your Project
+> [!NOTE]
+> The `launch.json` debugger configuration file stores the startup settings associated with the **Start** action in the Debug toolbar. The `launch.json` file must be located under the `.vscode` folder in your project.
 
-Press **F5** or select the **Start** button at the top of the window, and you'll see a command prompt such as:
+## Build your project
 
-- VITE v4.4.9 ready in 780 ms
+To build your new project, select **Build** > **Build Solution**.
 
-   >[!NOTE]
-   > Check console output for messages, such as a message instructing you to update your version of Node.js.
+## Start your project
 
-Next, you should see the base Vue.js app appear!
+Select **F5** or use the **Start** action at the top of the window.
 
-## Next steps
+The project opens a command prompt with the following text (or similar):
 
-For ASP.NET Core integration:
+```output
+VITE v4.4.9 ready in 780 ms
+```
+
+> [!NOTE]
+> Check the console output for messages, such as instructions to update your version of Node.js.
+
+When the process succeeds, the base Vue.js app opens.
+
+## Next step
 
 > [!div class="nextstepaction"]
 > [Create an ASP.NET Core app with Vue](tutorial-asp-net-core-with-vue.md)
