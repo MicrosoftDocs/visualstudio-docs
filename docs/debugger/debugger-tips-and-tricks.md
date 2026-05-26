@@ -1,7 +1,7 @@
 ---
 title: "Tips and tricks in the debugger"
 description: Explore some of the lesser-known features supported by the Visual Studio debugger, such as keyboard shortcuts, data tips, and code editing during debugging.
-ms.date: "06/16/2023"
+ms.date: "05/19/2025"
 ms.topic: how-to
 helpviewer_keywords:
   - "stepping"
@@ -77,7 +77,12 @@ It's easy to view variables using debugger windows like the **Watch** window. Ho
 
 3. Find the variable in the **Locals** window (**Debug > Windows > Locals**), right-click the variable, and select **Make Object ID**.
 
-    ![Create an Object ID](../debugger/media/dbg-tips-watch-create-object-id.png "CreateObjectID")
+   ::: moniker range="visualstudio"
+   ![Screenshot that shows how to create an Object ID.](../debugger/media/visualstudio/debug-tips-watch-create-object-id.png "CreateObjectID")
+   ::: moniker-end
+   ::: moniker range="vs-2022"
+   ![Screenshot that shows how to create an Object ID.](../debugger/media/dbg-tips-watch-create-object-id.png "CreateObjectID")
+   ::: moniker-end
 
 4. You should see a **$** plus a number in the **Locals** window. This variable is the object ID.
 
@@ -87,6 +92,13 @@ For more information, see [Create an Object ID](../debugger/watch-and-quickwatch
 
 ## View return values for functions
 
+::: moniker range="visualstudio"
+Starting in Visual Studio 2022 version 17.12, you can view return values of functions inline. For more information, see [View inline return values of method calls in the code editor](../debugger/autos-and-locals-windows.md#view-inline-return-values-of-method-calls-in-the-code-editor).
+
+You can also view return values in the Autos window. For more information, see [View return values in the Autos window](../debugger/autos-and-locals-windows.md#view-return-values-in-the-autos-window).
+::: moniker-end
+
+::: moniker range="vs-2022"
 To view return values for your functions, look at the functions that appear in the **Autos** window while you are stepping through your code. To see the return value for a function, make sure that the function you are interested in has already executed (press **F10** once if you are currently stopped on the function call). If the window is closed, use **Debug > Windows > Autos** to open the **Autos** window.
 
 ![Autos Window](../debugger/media/dbg-tips-autos-window.png "AutosWindow")
@@ -96,16 +108,27 @@ In addition, you can enter functions in the **Immediate** window to view return 
 ![Immediate Window](../debugger/media/dbg-tips-immediate-window.png "ImmediateWindow")
 
 You can also use [pseudovariables](../debugger/pseudovariables.md) in the **Watch** and **Immediate** window, such as `$ReturnValue`.
+::: moniker-end
 
 ## <a name="string_visualizer"></a>Inspect strings in a visualizer
 
 When working with strings, it can be helpful to view the entire formatted string. To view a plain text, XML, HTML, or JSON string, click the magnifying glass icon ![VisualizerIcon](../debugger/media/dbg-tips-visualizer-icon.png "Visualizer icon") while hovering over a variable containing a string value.
 
-![Open a String Visualizer](../debugger/media/dbg-tips-string-visualizers.png "OpenStringVisualizer")
+::: moniker range="visualstudio"
+![Screenshot that shows how to open a String Visualizer.](../debugger/media/visualstudio/debug-tips-string-visualizers-2.png "OpenStringVisualizer")
+::: moniker-end
+::: moniker range="vs-2022"
+![Screenshot that shows how to open a String Visualizer.](../debugger/media/dbg-tips-string-visualizers.png "OpenStringVisualizer")
+::: moniker-end
 
 A string visualizer may help you find out whether a string is malformed, depending on the string type. For example, a blank **Value** field indicates the string is not recognized by the visualizer type. For more information, see [String Visualizer Dialog Box](../debugger/string-visualizer-dialog-box.md).
 
-![JSON String Visualizer](../debugger/media/dbg-tips-string-visualizer-json.png "JSONStringVisualizer")
+::: moniker range="visualstudio"
+![Screenshot that shows the JSON String Visualizer.](../debugger/media/visualstudio/debug-tips-string-visualizer-json.png "JSONStringVisualizer")
+::: moniker-end
+::: moniker range="vs-2022"
+![Screenshot that shows the JSON String Visualizer.](../debugger/media/dbg-tips-string-visualizer-json.png "JSONStringVisualizer")
+::: moniker-end
 
 For a few other types such as DataSet and DataTable objects that appear in the debugger windows, you can also open a built-in visualizer.
 
@@ -117,7 +140,7 @@ You can take and compare snapshots of the heap, optimize memory usage, and find 
 
 A *dump file* is a snapshot that shows the process that was executing and modules that were loaded for an app at a point in time. A dump with heap information also includes a snapshot of the app's memory at that point. Dumps are mostly used to debug issues from machines that developers don't have access to.
 
-If you need to save a dump file, select select **Debug > Save Dump As**.
+If you need to save a dump file, select **Debug > Save Dump As**.
 
 To analyze a dump file, choose **File > Open** in Visual Studio. To start debugging using the dump file, select **Debug with Managed Only**, **Debug with Native Only**, **Debug with Mixed**, or **Debug with Managed Memory**.
 
@@ -129,7 +152,12 @@ The debugger breaks into your code on unhandled exceptions. However, handled exc
 
 The **Exception Settings** dialog box allows you to tell the debugger to break into code on specific exceptions. In the illustration below, the debugger breaks into your code whenever a `System.NullReferenceException` occurs. For more information, see [Managing exceptions](../debugger/managing-exceptions-with-the-debugger.md).
 
-![Exception Settings Dialog Box](../debugger/media/dbg-tips-exception-settings.png "ExceptionSettingsDialogBox")
+::: moniker range="visualstudio"
+![Screenshot that shows the Exception Settings dialog box.](../debugger/media/visualstudio/debug-tips-exception-settings.png "ExceptionSettingsDialogBox")
+::: moniker-end
+::: moniker range="vs-2022"
+![Screenshot that shows the Exception Settings dialog box.](../debugger/media/dbg-tips-exception-settings.png "ExceptionSettingsDialogBox")
+::: moniker-end
 
 ## Change the execution flow
 
@@ -164,7 +192,12 @@ To attach to your running app, the debugger loads symbol (.pdb) files generated 
 
 Open the **Modules** window while debugging by selecting **Debug > Windows > Modules**. The **Modules** window can tell you what modules the debugger is treating as user code, or [*My Code*](../debugger/just-my-code.md), and the symbol loading status for the module. In most scenarios, the debugger automatically finds symbol files for user code, but if you want to step into (or debug) .NET code, system code, or third-party library code, extra steps are required to obtain the correct symbol files.
 
-![View symbol information in the Modules window](../debugger/media/dbg-tips-modules-window.png "ViewSymbolInformation")
+::: moniker range="visualstudio"
+![Screenshot that shows how to view symbol information in the Modules window.](../debugger/media/visualstudio/debug-tips-modules-window.png "ViewSymbolInformation")
+::: moniker-end
+::: moniker range="vs-2022"
+![Screenshot that shows how to view symbol information in the Modules window.](../debugger/media/dbg-tips-modules-window.png "ViewSymbolInformation")
+::: moniker-end
 
 You can load symbol information directly from the **Modules** window by right-clicking and choosing **Load Symbols**.
 
