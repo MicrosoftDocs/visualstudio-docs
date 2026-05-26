@@ -27,7 +27,7 @@ If you frequently hover over data tips while debugging, you may want to pin the 
 
 ::: moniker range="visualstudio"
 
-![Screenshot showing how to pin a data tip in Visual Studio.](media/visualstudio/dbg-tips-data-tips-pinned.png)
+![Screenshot showing how to pin a data tip in Visual Studio.](media/visualstudio/debug-tips-data-tips-pinned.png)
 
 ::: moniker-end
 
@@ -65,7 +65,7 @@ If it is difficult or time-consuming to recreate a particular state in your app,
 
     ::: moniker range="visualstudio"
 
-    ![Screenshot showing how to set a conditional breakpoint in Visual Studio.](media/visualstudio/dbg-multithreaded-conditional-breakpoint.png)
+    ![Screenshot showing how to set a conditional breakpoint in Visual Studio.](media/visualstudio/debug-multithreaded-conditional-breakpoint.png)
 
     ::: moniker-end
 
@@ -99,7 +99,7 @@ It's easy to view variables using debugger windows like the **Watch** window. Ho
 
     ::: moniker range="visualstudio"
 
-    ![Screenshot showing how to create an object ID in Visual Studio.](media/visualstudio/dbg-tips-watch-create-object-id.png)
+    ![Screenshot showing how to create an object ID in Visual Studio.](media/visualstudio/debug-tips-watch-create-object-id.png)
 
     ::: moniker-end
 
@@ -126,9 +126,12 @@ You can also view return values in the Autos window. For more information, see [
 ::: moniker range="vs-2022"
 To view return values for your functions, look at the functions that appear in the **Autos** window while you are stepping through your code. To see the return value for a function, make sure that the function you are interested in has already executed (press **F10** once if you are currently stopped on the function call). If the window is closed, use **Debug > Windows > Autos** to open the **Autos** window.
 
+You can also use [pseudovariables](../debugger/pseudovariables.md) in the **Watch** and **Immediate** window, such as `$ReturnValue`.
+::: moniker-end
+
 ::: moniker range="visualstudio"
 
-![Screenshot showing how to look at the Autos window in Visual Studio.](media/visualstudio/dbg-tips-autos-window.png)
+![Screenshot showing how to look at the Autos window in Visual Studio.](media/visualstudio/debug-tips-autos-window.png)
 
 ::: moniker-end
 
@@ -142,7 +145,7 @@ In addition, you can enter functions in the **Immediate** window to view return 
 
 ::: moniker range="visualstudio"
 
-![Screenshot showing how to open the Immediate window in Visual Studio.](media/visualstudio/dbg-tips-immediate-window.png)
+![Screenshot showing how to open the Immediate window in Visual Studio.](media/visualstudio/debug-tips-immediate-window.png)
 
 ::: moniker-end
 
@@ -150,9 +153,6 @@ In addition, you can enter functions in the **Immediate** window to view return 
 
 ![Screenshot showing how to open the Immediate window.](media/dbg-tips-immediate-window.png "ImmediateWindow")
 
-::: moniker-end
-
-You can also use [pseudovariables](../debugger/pseudovariables.md) in the **Watch** and **Immediate** window, such as `$ReturnValue`.
 ::: moniker-end
 
 ## <a name="string_visualizer"></a>Inspect strings in a visualizer
