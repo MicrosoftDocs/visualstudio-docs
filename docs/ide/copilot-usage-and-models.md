@@ -19,7 +19,7 @@ ms.custom: awp-ai
 
 [!INCLUDE [copilot-billing-notice](../includes/copilot-billing-notice.md)]
 
-GitHub Copilot includes built-in tools to help you track usage, manage your plan, and understand how model selection affects your monthly token quota.
+GitHub Copilot includes built-in tools to help you track usage, manage your plan, and understand how model selection affects your monthly usage.
 
 ## View Copilot usage
 
@@ -61,7 +61,7 @@ The usage window shows quota usage, remaining monthly balance, and plan details.
 > [!NOTE]
 > Labels and fields in the usage window vary by plan (Free, Pro, Business, Enterprise) and Visual Studio version. GitHub manages billing and subscriptions. For details, visit your [GitHub settings](https://github.com/settings/billing/summary).
 
-## Monitor quota and manage alerts
+## Monitor usage and manage alerts
 
 Check your quota and set alerts to stay within monthly limits and avoid interruptions.
 
@@ -73,7 +73,9 @@ If you're new to Copilot, start with these steps:
 1. Review usage regularly in **Copilot Usage**.
 
 ### Set a personal usage warning threshold
+## Monitor quota and manage alerts
 
+Check your usage and set alerts to stay within monthly limits and avoid interruptions.
 Visual Studio warns you when usage reaches 75% of your monthly quota by default. You can change this threshold to match your usage needs.
 
 To set a personal usage warning threshold:
@@ -117,13 +119,13 @@ When you reach your monthly quota, Copilot displays an alert banner with options
 
 Copilot supports multiple AI models with different capabilities and quota consumption rates. Choose the model that matches your task.
 
-For most prompts, use **Auto**. Auto selects a model based on your prompt to balance quality, speed, and quota usage. For complex tasks, switch to a premium model.
+For most prompts, use **Auto**. Auto selects a model based on your prompt to balance quality, speed, and quota usage. For complex tasks, consider switching to a different model.
 
 Your model choice affects three things:
 
-- **Cost (quota/credits):** Higher-capability models usually consume more credits per request.
-- **Style (response depth):** Higher-capability models often return more detailed and structured responses.
-- **Performance (speed):** Lower-cost models are often faster for simple tasks, while higher-capability models can take longer for complex reasoning.
+- **Cost:** Higher-capability models usually consume more credits per request.
+- **Response quality:** Higher-capability models often return more detailed and structured responses.
+- **Performance:** Lower-cost models are often faster for simple tasks, while higher-capability models can take longer for complex reasoning.
 
 To view or change your current model:
 
@@ -132,7 +134,7 @@ To view or change your current model:
 
 The model picker shows model cost indicators for each model. Available model options can vary by plan.
 
-To reduce token usage for non-chat scenarios, turn off **Enhance non-chat requests with premium models** in **GitHub** > **Copilot** > **Editor**.
+To manage model usage for non-chat scenarios, turn off **Enhance non-chat requests with premium models** in **GitHub** > **Copilot** > **Editor**.
 
 For more details, see [Change the chat model](https://docs.github.com/copilot/how-tos/use-ai-models/change-the-chat-model?tool=visualstudio), [Supported AI models](https://docs.github.com/copilot/reference/ai-models/supported-models), and [Auto model selection](https://docs.github.com/copilot/concepts/auto-model-selection).
 
