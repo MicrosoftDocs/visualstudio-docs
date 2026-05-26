@@ -45,7 +45,7 @@ You can also customize data tips in several other ways, such as keeping a data t
 
 In most languages supported by Visual Studio, you can edit your code in the middle of a debugging session and continue debugging. To use this feature, click into your code with your cursor while paused in the debugger, make edits, and press **F5**, **F10**, or **F11** to continue debugging.
 
-![Animated showing how to edit and continue debugging.](media/dbg-tips-edit-and-continue.gif "EditAndContinue")
+![Animation showing how to edit and continue debugging.](media/dbg-tips-edit-and-continue.gif "EditAndContinue")
 
 For more information on using the feature and on feature limitations, see [Edit and Continue](/visualstudio/debugger/how-to-enable-and-disable-edit-and-continue).
 
@@ -117,6 +117,13 @@ For more information, see [Create an Object ID](../debugger/watch-and-quickwatch
 
 ## View return values for functions
 
+::: moniker range="visualstudio"
+Starting in Visual Studio 2022 version 17.12, you can view return values of functions inline. For more information, see [View inline return values of method calls in the code editor](../debugger/autos-and-locals-windows.md#view-inline-return-values-of-method-calls-in-the-code-editor).
+
+You can also view return values in the Autos window. For more information, see [View return values in the Autos window](../debugger/autos-and-locals-windows.md#view-return-values-in-the-autos-window).
+::: moniker-end
+
+::: moniker range="vs-2022"
 To view return values for your functions, look at the functions that appear in the **Autos** window while you are stepping through your code. To see the return value for a function, make sure that the function you are interested in has already executed (press **F10** once if you are currently stopped on the function call). If the window is closed, use **Debug > Windows > Autos** to open the **Autos** window.
 
 ::: moniker range="visualstudio"
@@ -146,6 +153,7 @@ In addition, you can enter functions in the **Immediate** window to view return 
 ::: moniker-end
 
 You can also use [pseudovariables](../debugger/pseudovariables.md) in the **Watch** and **Immediate** window, such as `$ReturnValue`.
+::: moniker-end
 
 ## <a name="string_visualizer"></a>Inspect strings in a visualizer
 
@@ -153,19 +161,29 @@ When working with strings, it can be helpful to view the entire formatted string
 
 ::: moniker range="visualstudio"
 
-![Screenshot showing how to open the String Visualizer in Visual Studio.](media/visualstudio/dbg-tips-string-visualizers.png)
+![Screenshot that shows how to open a String Visualizer in Visual Studio.](media/visualstudio/debug-tips-string-visualizers-2.png "OpenStringVisualizer")
 
 ::: moniker-end
 
 ::: moniker range="vs-2022"
 
-![Screenshot showing how to open the String Visualizer.](media/dbg-tips-string-visualizers.png "OpenStringVisualizer")
+![Screenshot that shows how to open a String Visualizer.](media/dbg-tips-string-visualizers.png "OpenStringVisualizer")
 
 ::: moniker-end
 
 A string visualizer may help you find out whether a string is malformed, depending on the string type. For example, a blank **Value** field indicates the string is not recognized by the visualizer type. For more information, see [String Visualizer Dialog Box](../debugger/string-visualizer-dialog-box.md).
 
-![Screenshot showing the JSON String Visualizer.](media/dbg-tips-string-visualizer-json.png "JSONStringVisualizer")
+::: moniker range="visualstudio"
+
+![Screenshot that shows the JSON String Visualizer in Visual Studio.](media/visualstudio/debug-tips-string-visualizer-json.png "JSONStringVisualizer")
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+![Screenshot that shows the JSON String Visualizer.](media/dbg-tips-string-visualizer-json.png "JSONStringVisualizer")
+
+::: moniker-end
 
 For a few other types such as DataSet and DataTable objects that appear in the debugger windows, you can also open a built-in visualizer.
 
@@ -177,7 +195,7 @@ You can take and compare snapshots of the heap, optimize memory usage, and find 
 
 A *dump file* is a snapshot that shows the process that was executing and modules that were loaded for an app at a point in time. A dump with heap information also includes a snapshot of the app's memory at that point. Dumps are mostly used to debug issues from machines that developers don't have access to.
 
-If you need to save a dump file, select select **Debug > Save Dump As**.
+If you need to save a dump file, select **Debug > Save Dump As**.
 
 To analyze a dump file, choose **File > Open** in Visual Studio. To start debugging using the dump file, select **Debug with Managed Only**, **Debug with Native Only**, **Debug with Mixed**, or **Debug with Managed Memory**.
 
@@ -191,13 +209,13 @@ The **Exception Settings** dialog box allows you to tell the debugger to break i
 
 ::: moniker range="visualstudio"
 
-![Screenshot showing how to open the Exception Settings dialog in Visual Studio.](media/visualstudio/dbg-tips-exception-settings.png)
+![Screenshot that shows the Exception Settings dialog box in Visual Studio.](media/visualstudio/debug-tips-exception-settings.png "ExceptionSettingsDialogBox")
 
 ::: moniker-end
 
 ::: moniker range="vs-2022"
 
-![Screenshot showing how to open the Exception Settings dialog.](media/dbg-tips-exception-settings.png "ExceptionSettingsDialogBox")
+![Screenshot that shows the Exception Settings dialog box.](media/dbg-tips-exception-settings.png "ExceptionSettingsDialogBox")
 
 ::: moniker-end
 
@@ -236,13 +254,13 @@ Open the **Modules** window while debugging by selecting **Debug > Windows > Mod
 
 ::: moniker range="visualstudio"
 
-![Screenshot showing how to View symbol information in the Modules window in Visual Studio.](media/visualstudio/dbg-tips-modules-window.png)
+![Screenshot that shows how to view symbol information in the Modules window in Visual Studio.](media/visualstudio/debug-tips-modules-window.png "ViewSymbolInformation")
 
 ::: moniker-end
 
 ::: moniker range="vs-2022"
 
-![Screenshot showing how to View symbol information in the Modules window.](media/dbg-tips-modules-window.png "ViewSymbolInformation")
+![Screenshot that shows how to view symbol information in the Modules window.](media/dbg-tips-modules-window.png "ViewSymbolInformation")
 
 ::: moniker-end
 
