@@ -95,7 +95,6 @@ Update some of the code supplied by the project template so you have more statem
             Console.Write("The second element is ");
             Console.Write(j);
             Console.Write("\n");
-
         }
 
         static int Main()
@@ -103,7 +102,6 @@ Update some of the code supplied by the project template so you have more statem
             // using namespace std;
             doWork();
             return 0;
-
         }
     }
    ```
