@@ -1,7 +1,7 @@
 ---
 title: Use MCP Servers
 description: Learn how to add MCP servers in Visual Studio to extend GitHub Copilot agent capabilities, set up mcp.json, and manage tool permissions.
-ms.date: 04/29/2026
+ms.date: 05/26/2026
 ms.update-cycle: 180-days
 ms.topic: get-started
 author: RoseHJM
@@ -185,6 +185,49 @@ As soon as Visual Studio discovers or adds a server:
 - When Visual Studio successfully enables the server, the agent makes the tools available. The tools are disabled by default and you must manually enable them.
 - If you remove a server, Visual Studio immediately stops its process and withdraws all its tools from the UI.
 - If you edit a server definition, Visual Studio terminates and restarts it, and then re-queries.
+
+## MCP server trust dialog
+
+Visual Studio helps protect you when an MCP server changes after you've already used it. If a server's configuration or capabilities change, Visual Studio asks you to review and trust the updated server before it runs.
+
+This trust flow applies to MCP servers that you add through the tool picker experience.
+
+### Two trust validation phases
+
+Visual Studio can check trust at two points during startup:
+
+- Configuration check: Before the server starts, Visual Studio checks whether server configuration changed.
+- Asset check: After the server loads, Visual Studio checks whether tools, prompts, resources, resource templates, or instructions changed.
+
+### What changes trigger re-trust
+
+A trust prompt appears when either of these inputs changes:
+
+- MCP server configuration values, such as transport type, URL or command, and arguments.
+- Declared server assets, such as tools, prompts, resources and resource templates, and instructions.
+
+### Trust decisions
+
+When a trust prompt appears, you can choose one of these actions:
+
+- **Accept**: Trust this version once and continue startup.
+- **Always Trust**: Trust this server permanently and skip future trust prompts for it.
+- **Reject**: Abort server startup.
+
+If you reject, Visual Studio stops the current transition and revalidates trust the next time activation is attempted.
+
+### When prompts are skipped (implicit trust)
+
+Visual Studio skips the trust prompt in these cases:
+
+- The server is built in and shipped with the extension.
+- Registry policy is set to `RegistryOnly` (organization-managed policy).
+- You previously selected **Always Trust** for that server.
+- The server is first seen; a baseline is saved silently.
+
+### First-time servers
+
+Servers seen for the first time are implicitly trusted. No trust dialog appears on first activation. Visual Studio saves the current configuration and asset fingerprints as the initial baseline for future comparisons.
 
 ### Management of tool approvals
 

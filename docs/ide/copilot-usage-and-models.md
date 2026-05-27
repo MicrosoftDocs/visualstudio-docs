@@ -89,6 +89,27 @@ When your monthly quota is near or at limit, Copilot shows alerts and overage in
 
 Copilot credits are consumed based on token usage (input, output, and cached tokens), according to the published rates for each model. In general, larger prompts and longer responses use more credits. For details, see [Models and pricing](https://docs.github.com/copilot/reference/copilot-billing/models-and-pricing).
 
+### Usage limit reached
+
+When you reach the usage limits, your Copilot experience in Visual Studio might be affected as follows:
+
+:::row::: 
+    :::column span="1"::: 
+       **Usage limit for Completions is reached**
+    :::column-end::: 
+    :::column span="2"::: 
+       User receives IntelliCode suggestions instead of Copilot completions. The Copilot badge might still show an active state while completions are limited.
+    :::column-end::: 
+:::row-end:::
+:::row::: 
+    :::column span="1"::: 
+       **Usage limit for Chat is reached**
+    :::column-end::: 
+    :::column span="2"::: 
+         User no longer receives chat responses when sending prompts. A notification in chat alerts the user that they have reached their monthly limit.
+    :::column-end::: 
+:::row-end:::
+
 #### Individual plans
 Copilot might show warning and limit-reached banners with options to manage overages or plan continuation.
 :::image type="content" source="media/copilot-monthly-limit-warning.png" alt-text="Screenshot showing a warning banner that the user has used 75 percent of the monthly limit and can upgrade the plan." lightbox="media/copilot-monthly-limit-warning.png":::

@@ -75,33 +75,14 @@ You can check your free tier status anytime by selecting **Copilot Free Status**
 
 You can also check the current status of your Copilot Free account on the [GitHub account settings page](https://github.com/settings/copilot).
 
-> [!NOTE]
-> Exact usage labels and alerts might vary by Visual Studio version.
-
 ### Usage limit reached
 
-For plan-to-plan usage behavior and model guidance, see [Manage Copilot usage and models](copilot-usage-and-models.md).
-
-When you reach the usage limits, your Copilot experience in Visual Studio might be affected as follows:
-
-:::row::: 
-    :::column span="1"::: 
-       **Usage limit for Completions is reached**
-    :::column-end::: 
-    :::column span="2"::: 
-       User receives IntelliCode suggestions instead of Copilot completions. The Copilot badge might still show an active state while completions are limited.
-    :::column-end::: 
-:::row-end:::
-:::row::: 
-    :::column span="1"::: 
-       **Usage limit for Chat is reached**
-    :::column-end::: 
-    :::column span="2"::: 
-         User no longer receives chat responses when sending prompts. A notification in chat alerts the user that they have reached their monthly limit.
-    :::column-end::: 
-:::row-end:::
-
 When you reach usage limits for Copilot Free, wait for the monthly reset or upgrade to another Copilot plan to continue using Copilot.
+
+For plan-to-plan usage behavior and model guidance, see [Manage Copilot usage and models](copilot-usage-and-models.md#usage-limit-reached).
+
+
+
 
 ## Tips to get more from Copilot Free
 
