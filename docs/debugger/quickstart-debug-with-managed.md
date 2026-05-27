@@ -205,7 +205,7 @@ Visual Studio provides several different ways for instructing the debugger to co
 
 ::: moniker range="visualstudio"
 
-While the code is paused at the breakpoint, hover over the statement `c1.AddLast(20)` until you see the green **Run to click** (_Run execution to here_):::image type="icon" source="../debugger/media/visualstudio/debugger-run-to-click.png"::: icon. Select the icon.
+While the code is paused at the breakpoint, hover over the statement `c1.AddLast(20)` until you see the green **Run to click** (_Run execution to here_) :::image type="icon" source="../debugger/media/visualstudio/debugger-run-to-click.png"::: icon. Select the icon.
 
 :::image type="content" source="../debugger/media/visualstudio/debugger-quickstart-run-to-click-csharp.png" border="false" alt-text="Screenshot that shows how to work with the Run to click action in the Visual Studio debugger.":::
 
