@@ -61,6 +61,8 @@ You can check your free tier status anytime by selecting **Copilot Usage** from 
 
 :::image type="content" source="media/visualstudio/copilot-free-status.png" alt-text="Screenshot of Copilot Free Status menu option.":::
 
+The following image shows the Copilot Free usage dialog with monthly limit details.
+
 :::image type="content" source="media/copilot-free-usage-monthly-limit.png" alt-text="Screenshot showing Copilot Free usage with monthly limit and inline suggestions usage details." lightbox="media/copilot-free-usage-monthly-limit.png":::
 
 :::moniker-end
