@@ -19,6 +19,8 @@ Specifies the type of source code checksum.
 
 ## Syntax
 
+:::moniker range="visualstudio"
+
 ```c++
 enum CV_SourceChksum_t
 {
@@ -31,7 +33,25 @@ enum CV_SourceChksum_t
 };
 ```
 
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+
+```c++
+enum CV_SourceChksum_t
+{
+    CHKSUM_TYPE_NONE = 0,
+    CHKSUM_TYPE_MD5,
+    CHKSUM_TYPE_SHA1,
+    CHKSUM_TYPE_SHA_256,
+};
+```
+
+:::moniker-end
+
 ## Elements
+
+:::moniker range="visualstudio"
 
 |Checksum Type|Value|CryptoAPI Label|Description|
 |-------------|-----|---------------|-----------|
@@ -41,6 +61,19 @@ enum CV_SourceChksum_t
 | `CHKSUM_TYPE_SHA_256` | 3 |`CALG_SHA_256`| Checksum generated with the 256-bit SHA hashing algorithm.|
 | `CHKSUM_TYPE_SHA_384` | 4 |`CALG_SHA_384`| Checksum generated with the 384-bit SHA hashing algorithm.|
 | `CHKSUM_TYPE_SHA_512` | 5 |`CALG_SHA_512`| Checksum generated with the 512-bit SHA hashing algorithm.|
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+
+|Checksum Type|Value|CryptoAPI Label|Description|
+|-------------|-----|---------------|-----------|
+| `CHKSUM_TYPE_NONE` | 0 | <none\> | No checksum present. |
+| `CHKSUM_TYPE_MD5` | 1 | `CALG_MD5` | Checksum generated with the MD5 hashing algorithm. |
+| `CHKSUM_TYPE_SHA1` | 2 | `CALG_SHA1` | Checksum generated with the SHA1 hashing algorithm. |
+| `CHKSUM_TYPE_SHA_256` | 3 |`CALG_SHA_256`| Checksum generated with the 256-bit SHA hashing algorithm.|
+
+:::moniker-end
 
 ## Remarks
 
