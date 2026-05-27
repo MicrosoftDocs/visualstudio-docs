@@ -72,8 +72,6 @@ You can check your free tier status anytime by selecting **Copilot Free Status**
 
 :::moniker-end
 
-
-
 You can also check the current status of your Copilot Free account on the [GitHub account settings page](https://github.com/settings/copilot).
 
 ### Usage limit reached
@@ -125,8 +123,6 @@ Learn more at [About GitHub Copilot Free](https://aka.ms/ghdocscopilotfreepage).
 #### What are the Copilot Free limits for Completions and Chat?
 
 See [About GitHub Copilot Free](https://aka.ms/ghdocscopilotfreepage) for information.
-
-[!INCLUDE [copilot-billing-notice](../includes/copilot-billing-notice.md)]
 
 ## Related content
 

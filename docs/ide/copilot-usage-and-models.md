@@ -17,8 +17,6 @@ ms.custom: awp-ai
 > [!NOTE]
 > This article applies to Visual Studio 2022 version 17.14 and later, and Visual Studio 2026.
 
-[!INCLUDE [copilot-billing-notice](../includes/copilot-billing-notice.md)]
-
 GitHub Copilot includes built-in tools to help you track usage, manage your plan, and understand how model selection affects [request consumption](https://docs.github.com/copilot/managing-copilot/monitoring-usage-and-entitlements/about-premium-requests).
 
 ## View Copilot usage
@@ -45,8 +43,6 @@ To track your Copilot usage:
 
 > [!NOTE]
 > GitHub manages billing and subscriptions. For details, visit your [GitHub settings](https://github.com/settings/billing/summary).
-
-
 
 ## Understand model selection
 
