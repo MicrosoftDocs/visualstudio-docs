@@ -1,7 +1,7 @@
 ---
 title: Identify hot paths with the Flame Graph
 description: Find hot paths in your code by using a Flame Graph for a visual overview of where time is spent in an application and view deeper data for specific nodes.
-ms.date: 10/21/2024
+ms.date: 05/18/2026
 ms.topic: how-to
 ms.custom: "profiling-seo"
 author: MikeJo5000
@@ -27,7 +27,17 @@ The Flame Graph view is in the details view of *.diagession* report.
 
 1. After you've stopped your profiling session and the report loads, select **Open details**.
 
+   ::: moniker range="visualstudio"
+
+   ![Screenshot showing Open Details selected in Visual Studio.](media/visualstudio/flame-graph-open-details.png)
+
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
+
    ![Screenshot showing Open Details selected.](./media/vs-2022/flame-graph-open-details.png "Open details view selected")
+
+   ::: moniker-end
 
 1. Select **Flame Graph** in the Current View dropdown selection.
 
