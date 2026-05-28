@@ -1,7 +1,7 @@
 ---
-title: Debug C++ code, set breakpoints, inspect variables
+title: Debug C++ Code, Set Breakpoints, Inspect Variables
 description: Debug native C++ code by using the Visual Studio debugger, create a project, set breakpoints, inspect variables, and edit code while debugging.
-ms.date: 04/07/2025
+ms.date: 05/28/2026
 ms.topic: quickstart
 helpviewer_keywords:
   - "debugger"
@@ -9,33 +9,68 @@ author: mikejo5000
 ms.author: mikejo
 
 ms.subservice: debug-diagnostics
+# customer intent: As a developer, I want to debug C++ apps in the Visual Studio debugger, so I can work with features that help me debug my code.
 ---
+
 # Quickstart: Debug with C++ using the Visual Studio debugger
 
-The Visual Studio debugger provides many powerful features to help you debug your apps. This topic provides a quick way to learn some of the basic features.
+In this Quickstart, you explore how to use the Visual Studio debugger to you debug your native C++ code. This article provides a quick way to learn some of the basic features for working in the debugger.
+
+If you don't have Visual Studio, you can install the [free trial version](https://visualstudio.microsoft.com/downloads/) from the Visual Studio Downloads page.
 
 ## Create a new project
 
-1. Open Visual Studio and create a project.
+Start by creating a new project, so you have some code to check in the debugger.
 
-    If the Start window isn't already open, select **File > Start Window**. In the Start window, select **Create a new project**. In the search box, type "Empty project", and then select the C++ **Empty Project** template.
+1. Open Visual Studio and create a new project.
 
-   If you don't see the project template, open the **Visual Studio Installer**. Choose the **Desktop development with C++ workload**, then choose **Modify**.
+   - If the **Start Window** isn't open, select **File** > **Start Window**.
+   
+   - In the Start Window, select **Create a new project**.
 
-   Visual Studio creates the project.
+1. In the **Create a new project** window, set the filters and search for a project template.
 
-   Create a new source file called `MyDbgApp.cpp`
+   <a name="select-empty-project-template"></a>
 
-1. In MyDbgApp.cpp, replace the following code
+   - In the **Search for templates** box, enter **empty**.
 
-    ```cpp
-    int main()
-    {
-        return 0;
-    }
-    ```
+   - Expand the **Language** dropdown and select **C++**.
 
-    with this code (don't remove `#include "stdafx.h"`):
+1. In the list of results, select the **Empty Project** template for C++, and then select **Next**.
+
+   If you don't see the **Empty Project** template for C++, select the **Continue without code** option.
+   
+   1. Select **Tools** > **Get Tools and Features...**, which opens the Visual Studio Installer.
+   
+   1. In the Installer window, select the checkbox for the **Desktop development with C++** workload, and then select **Modify**.
+
+       Your Visual Studio installation updates to include the selected C++ workload.
+   
+   1. After the update completes, select **File** > **Start Window**, and follow [the previous instructions](#select-empty-project-template) to select the required template.
+
+1. Configure the new project:
+
+   1. Enter a **Project name** and **Solution name**, or use the default values.
+
+   1. Use the default **Location** or select browse (**...**) to create the project in a different folder.
+
+   1. Select **Create**.
+
+   Visual Studio creates your new project and adds the project files in the specified folder.
+
+### Add a project file
+
+Add a code file so you have content to test in the debugger.
+
+1. In the **Solution Explorer** pane, right-click your *\<project-name>* and select **Add** > **New Item**.
+
+   If you don't see the **Solution Explorer** pane, select **View** > **Solution Explorer**.
+
+1. In the **Add new item** dialog, enter the file name **MyDbgApp.cpp**, and then select **Add**. 
+
+   The file opens in the code editor.
+
+1. Add the following code to the new file.
 
     ```cpp
     #include <list>
@@ -43,8 +78,7 @@ The Visual Studio debugger provides many powerful features to help you debug you
 
     using namespace std;
 
-    void doWork()
-    {
+    void doWork() {
         list <int> c1;
 
         c1.push_back(10);
@@ -55,75 +89,137 @@ The Visual Studio debugger provides many powerful features to help you debug you
         const int &j = c2.front();
         cout << "The first element is " << i << endl;
         cout << "The second element is " << j << endl;
-
     }
 
-    int main()
-    {
+    int main() {
         doWork();
     }
     ```
 
+1. Save your file changes with the **Ctrl**+**S** keyboard shortcut.
+
 ## Set a breakpoint
 
-A *breakpoint* is a marker that indicates where Visual Studio should suspend your running code so you can take a look at the values of variables, or the behavior of memory, or whether or not a branch of code is getting run. It's the most basic feature in debugging.
+A *breakpoint* is a marker that indicates where Visual Studio should suspend your running code. When a breakpoint is set, you can take a look at the current values of variables, examine the behavior of memory, and check if a specific branch of code is running. Breakpoints are the most basic feature in debugging.
 
-1. To set the breakpoint, click in the gutter to the left of the `doWork` function call (or select the line of code and press **F9**).
+1. To set a breakpoint, locate the call to the `doWork()` function in the code, and then select in the left gutter on the same line.
 
-    ![Set a breakpoint](../debugger/media/dbg-qs-set-breakpoint.png "Set a breakpoint")
+   When the breakpoint is set, a red dot displays in the left gutter on the corresponding line in the code.
 
-2. Now press **F5** (or choose **Debug > Start Debugging**).
+   ::: moniker range="visualstudio"
 
-    ![Hit a breakpoint](../debugger/media/dbg-qs-hit-breakpoint.png "Hit a breakpoint")
+   :::image type="content" source="../debugger/media/visualstudio/debugger-quickstart-set-breakpoint-cpp.png" border="false" alt-text="Screenshot that shows how to set a breakpoint in the Visual Studio debugger.":::
 
-    The debugger pauses where you set the breakpoint. The statement where the debugger and app execution is paused is indicated by the yellow arrow. The line with the `doWork` function call hasn't yet executed.
+   ::: moniker-end
+   ::: moniker range="<=vs-2022"
 
-    > [!TIP]
-    > If you have a breakpoint in a loop or recursion, or if you have many breakpoints that you frequently step through, use a [conditional breakpoint](../debugger/using-breakpoints.md#BKMK_Specify_a_breakpoint_condition_using_a_code_expression) to make sure that your code is suspended ONLY when specific conditions are met. A conditional breakpoint saves time and can also make it easier to debug issues that are hard to reproduce.
+   :::image type="content" source="../debugger/media/dbg-qs-set-breakpoint.png" alt-text="Screenshot that shows how to set a breakpoint in the Visual Studio 2022 debugger.":::
 
-    When trying to debug memory-related failures in C++, you can also use breakpoints to inspect address values (look for NULL) and reference counts.
+   ::: moniker-end
 
-## Navigate code
+1. Start debugging by using the **F5** keyboard shortcut (or select **Debug** > **Start Debugging**).
 
-There are different commands to instruct the debugger to continue. We show a useful code navigation command that is available starting in Visual Studio 2017.
+   ::: moniker range="visualstudio"
 
-While paused at the breakpoint, hover over the statement `c1.push_back(20)` until the green **Run to click** button ![Run to Click](../debugger/media/dbg-tour-run-to-click.png "RunToClick") appears, and then press the **Run to click** button.
+   :::image type="content" source="../debugger/media/visualstudio/debugger-quickstart-hit-breakpoint-cpp.png" border="false" alt-text="Screenshot that shows the debugger paused on a set breakpoint in Visual Studio.":::
 
-![Run to click](../debugger/media/dbg-qs-run-to-click.png "Run to click")
+   ::: moniker-end
+   ::: moniker range="<=vs-2022"
 
-The app continues execution, calling `doWork`, and pauses on the line of code where you clicked the button.
+   :::image type="content" source="../debugger/media/dbg-qs-hit-breakpoint.png" alt-text="Screenshot that shows the debugger paused on a set breakpoint in Visual Studio 2022.":::
 
-Common keyboard commands used to step through code include **F10** and **F11**. For more in-depth instructions, see [First look at the debugger](../debugger/debugger-feature-tour.md).
+   ::: moniker-end
 
-## Inspect variables in a datatip
+   Code execution pauses immediately before the call to the `doWork()` function.
+   
+   The debugger pauses where you set the breakpoint. A yellow arrow identifies the statement where the debugger pauses app execution. 
 
-1. In the current line of code (marked by the yellow execution pointer), hover over the `c1` object with your mouse to show a datatip.
+   > [!TIP]
+   > When you're debugging memory-related failures in your C++ code, you can also use breakpoints to inspect address values (look for `NULL`) and reference counts.
 
-    ![View a datatip](../debugger/media/dbg-qs-data-tip.png "View a datatip")
+### Set conditional breakpoints
 
-    The datatip shows you the current value of the `c1` variable and allows you to inspect its properties. When debugging, if you see a value you don't expect, you probably have a bug in the preceding or calling lines of code.
+If you set a breakpoint in a loop or recursion, or if you have many breakpoints that you frequently step through, use a [conditional breakpoint](../debugger/using-breakpoints.md#BKMK_Specify_a_breakpoint_condition_using_a_code_expression).
 
-2. Expand the datatip to look at the current property values of the `c1` object.
+This approach helps ensure your code is suspended **only** when specific conditions are met. A conditional breakpoint can save time and also make it easier to debug issues that are hard to reproduce.
 
-3. If you want to pin the datatip so that you can continue to see the value of `c1` while you execute code, click the small pin icon. (You can move the pinned datatip to a convenient location.)
+## Walk through your code
 
-## Edit code and continue debugging
+Visual Studio provides several different ways for instructing the debugger to continue with app execution. The following example shows a useful command for walking through your code.
 
-If you identify a change that you want to test in your code while in the middle of a debugging session, you can do that, too.
+::: moniker range="visualstudio"
 
-1. Click the second instance of `c2.front()` and change `c2.front()` to `c2.back()`.
+While the code is paused at the breakpoint, hover over the statement `c1.push_back(20)` until you see the green **Run to click** (_Run execution to here_) :::image type="icon" source="../debugger/media/visualstudio/debugger-run-to-click.png"::: icon. Select the icon.
 
-2. Press **F10** (or **Debug > Step Over**) a few times to advance the debugger and execute the edited code.
+:::image type="content" source="../debugger/media/visualstudio/debugger-quickstart-run-to-click-cpp.png" border="false" alt-text="Screenshot that shows how to work with the Run to click action in the Visual Studio debugger.":::
 
-    ![Edit and continue](../debugger/media/dbg-qs-edit-and-continue.gif "Edit and continue")
+::: moniker-end
+::: moniker range="<=vs-2022"
 
-    **F10** advances the debugger one statement at a time, but steps over functions instead of stepping into them (the code that you skip still executes).
+While the code is paused at the breakpoint, hover over the statement `c1.AddLast(20)` until you see the green **Run to click** (_Run execution to here_) :::image type="icon" source="../debugger/media/dbg-tour-run-to-click.png"::: icon. Select the icon.
 
-For more information on using edit-and-continue and on feature limitations, see [Edit and Continue](/visualstudio/debugger/how-to-enable-and-disable-edit-and-continue).
+:::image type="content" source="../debugger/media/dbg-qs-run-to-click.png" alt-text="Screenshot that shows how to work with the Run to click action in the Visual Studio 2022 debugger.":::
 
-## Next steps
+::: moniker-end
 
-In this tutorial, you've learned how to start the debugger, step through code, and inspect variables. You may want to get a high-level look at debugger features along with links to more information.
+The app continues execution, calling `doWork`, and pauses on the line of code where you selected **Run to click**.
+
+Common keyboard commands used to step through code include **F10** and **F11**. For more in-depth instructions, see [Overview of the Visual Studio debugger](../debugger/debugger-feature-tour.md).
+
+## Inspect variables in a data tip
+
+You can inspect the state of your variables by using the **data tip** feature.
+
+1. In the current line of code (marked by the yellow execution pointer), hover over the `c1` object to see the data tip.
+
+   ::: moniker range="visualstudio"
+
+   :::image type="content" source="../debugger/media/visualstudio/debugger-quickstart-data-tip-cpp.png" border="false" alt-text="Screenshot that shows how to view data tips for code variables in the Visual Studio debugger.":::
+
+   ::: moniker-end
+   ::: moniker range="<=vs-2022"
+
+   :::image type="content" source="../debugger/media/dbg-qs-data-tip.png" alt-text="Screenshot that shows how to view data tips for code variables in the Visual Studio 2022 debugger.":::
+
+   ::: moniker-end
+
+   The data tip shows you the current value of the `c1` variable and allows you to inspect its properties.
+   
+   When you're debugging, if you see an unexpected value for a variable, you probably have a bug. The bug could be in the code that makes the call to the variable or in the previous line.
+
+1. Expand the data tip to look at the current property values of the `c1` object.
+
+1. To continue checking the value of `c1` as the code executes, select the **pin** :::image type="icon" source="../debugger/media/debugger-pin-data-tip.png"::: icon on the data tip.
+
+   The **pin** action keeps the data tip open. As the code executes, the value in the pinned tip changes to show the current state of the watched object.
+
+   You can move the pinned tip to any location in the IDE, so it doesn't prevent you watching other items while debugging.
+
+
+## Enable hot reload while debugging
+
+While you're debugging, if you see a change that you want to test in your code, you can use the **Hot Reload** feature (previously called _Edit and Continue_).
+
+1. Select the second instance of the `c2.front()` statement, and change the code to `c2.back()`.
+
+1. Select **F10** a few times (or select **Debug** > **Step Over** a few times) to advance the debugger and execute the edited code.
+
+   ::: moniker range="visualstudio"
+
+   :::image type="content" source="../debugger/media/visualstudio/debugger-quickstart-hot-reload-cpp.gif" border="false" alt-text="Animation that shows how to edit and continue with the 'Hot Reload' feature in the Visual Studio debugger.":::
+
+   ::: moniker-end
+   ::: moniker range="<=vs-2022"
+
+   :::image type="content" source="../debugger/media/dbg-qs-edit-and-continue.gif" alt-text="Animation that shows how to edit and continue in the Visual Studio 2022 debugger.":::
+
+   ::: moniker-end
+
+   **F10** advances the debugger one statement at a time, but steps over functions instead of stepping into them (the code that you skip still executes).
+
+For more information about the feature and limitations, see [Configure Hot Reload](/visualstudio/debugger/how-to-enable-and-disable-edit-and-continue).
+
+## Next step
 
 > [!div class="nextstepaction"]
-> [First look at the debugger](../debugger/debugger-feature-tour.md)
+> [Overview of the Visual Studio debugger](../debugger/debugger-feature-tour.md)
