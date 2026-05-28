@@ -1,8 +1,8 @@
 ---
-title: Create your first extension reference
+title: Create Your First Extension Reference
 description: A quickstart for creating your first out-of-process extension
 ms.topic: quickstart
-ms.date: 3/31/2023
+ms.date: 5/28/2026
 ms.author: tinali
 monikerRange: ">=vs-2022"
 author: tinaschrepfer
@@ -72,9 +72,9 @@ Configuration properties are evaluated by the C# compiler when building the exte
 
 You can see that the display name of the command is `"%MyExtension.Command1.DisplayName%"`, which references the `MyExtension.Command1.DisplayName` string in the `.vsextension/string-resources.json` file, allowing this string to be localized.
 
-When the command is executed, Visual Studio will call in to [`ExecuteCommandAsync`](/dotnet/api/microsoft.visualstudio.extensibility.commands.dynamiccommand.executecommandasync) method where you can place a breakpoint. You can utilize `context` argument or `this.Extensibility` object to interact with Visual Studio.
+When the command is executed, Visual Studio calls in to [`ExecuteCommandAsync`](/dotnet/api/microsoft.visualstudio.extensibility.commands.dynamiccommand.executecommandasync) method where you can place a breakpoint. You can utilize `context` argument or `this.Extensibility` object to interact with Visual Studio.
 
-For example, a command handler could be as below:
+For example, a command handler could be as follows:
 
 ```csharp
 public override async Task ExecuteCommandAsync(IClientContext context, CancellationToken cancellationToken)
@@ -86,15 +86,25 @@ public override async Task ExecuteCommandAsync(IClientContext context, Cancellat
 }
 ```
 
-For more information on how to add commands, please refer to [Commands](../command/command.md) section.
+For more information on how to add commands, refer to [Commands](../command/command.md) section.
 
 ## Debug your extension
 
 1. Make sure that your extension project is selected as startup project in Visual Studio, and press `F5` to start debugging.
-2. Pressing `F5` builds your extension and deploy it to the experimental instance of Visual Studio version you're using. The debugger should attach once your extension is loaded.
-3. You can find the new command in `Extensions` menu as shown in the following image:
+1. Pressing `F5` builds your extension and deploy it to the experimental instance of Visual Studio version you're using. The debugger should attach once your extension is loaded.
+1. You can find the new command in `Extensions` menu as shown in the following image:
+
+   ::: moniker range="visualstudio"
+
+   ![Screenshot showing sample command in Visual Studio.](media/visualstudio/extension-command.png)
+
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
 
    ![Screenshot showing sample command.](./media/extension-command.png)
+
+   ::: moniker-end
 
 ## Next steps
 
