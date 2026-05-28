@@ -96,7 +96,7 @@ For more information on how to add commands, refer to [Commands](../command/comm
 
    ::: moniker range="visualstudio"
 
-   ![Screenshot showing sample command in Visual Studio.](media/visualstudio/extension-command.png)
+   ![Screenshot showing sample command in Visual Studio.](media/visual-studio-extension-command.png)
 
    ::: moniker-end
 
