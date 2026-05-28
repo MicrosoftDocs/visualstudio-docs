@@ -249,8 +249,6 @@ You can inspect the state of your variables by using the **data tip** feature.
 
    You can move the pinned tip to any location in the IDE, so it doesn't prevent you watching other items while debugging.
 
-::: moniker range="visualstudio"
-
 ## Enable hot reload while debugging
 
 While you're debugging, if you see a change that you want to test in your code, you can use the **Hot Reload** feature (previously called _Edit and Continue_).
@@ -259,30 +257,20 @@ While you're debugging, if you see a change that you want to test in your code, 
 
 1. Select **F10** a few times (or select **Debug** > **Step Over** a few times) to advance the debugger and execute the edited code.
 
+   ::: moniker range="visualstudio"
+
    :::image type="content" source="../debugger/media/visualstudio/debugger-quickstart-hot-reload-csharp.gif" border="false" alt-text="Animation that shows how to edit and continue with the 'Hot Reload' feature in the Visual Studio debugger.":::
+
+   ::: moniker-end
+   ::: moniker range="<=vs-2022"
+
+   :::image type="content" source="../debugger/media/dbg-qs-edit-and-continue-csharp.gif" alt-text="Animation that shows how to edit and continue with the 'Hot Reload' feature in the Visual Studio 2022 debugger.":::
+
+   ::: moniker-end
 
    **F10** advances the debugger one statement at a time, but steps over functions instead of stepping into them (the code that you skip still executes).
 
 For more information about the feature and limitations, see [Configure Hot Reload](/visualstudio/debugger/how-to-enable-and-disable-edit-and-continue).
-
-::: moniker-end
-::: moniker range="<=vs-2022"
-
-## Edit code and continue debugging
-
-While you're debugging, if you see a change that you want to test in your code, you can use the **Edit and Continue** feature.
-
-1. Select the second instance of the `c2.First.Value` statement, and change the code to `c2.Last.Value`.
-
-1. Select **F10** a few times (or select **Debug** > **Step Over** a few times) to advance the debugger and execute the edited code.
-
-   :::image type="content" source="../debugger/media/dbg-qs-edit-and-continue-csharp.gif" alt-text="Animation that shows how to edit and continue in the Visual Studio 2022 debugger.":::
-
-   **F10** advances the debugger one statement at a time, but steps over functions instead of stepping into them (the code that you skip still executes).
-
-For more information on using edit-and-continue and feature limitations, see [Edit and Continue (Hot Reload)](/visualstudio/debugger/how-to-enable-and-disable-edit-and-continue).
-
-::: moniker-end
 
 ## Next step
 
