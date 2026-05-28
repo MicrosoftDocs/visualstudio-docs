@@ -1,7 +1,7 @@
 ---
-title: "Tips and tricks in the debugger"
+title: "Tips and Tricks in the Debugger"
 description: Explore some of the lesser-known features supported by the Visual Studio debugger, such as keyboard shortcuts, data tips, and code editing during debugging.
-ms.date: "05/19/2025"
+ms.date: 05/26/2026
 ms.topic: how-to
 helpviewer_keywords:
   - "stepping"
@@ -25,7 +25,17 @@ For a list of the most common keyboard shortcuts related to debugging, see the [
 
 If you frequently hover over data tips while debugging, you may want to pin the data tip for the variable to give yourself quick access. The variable stays pinned even after restarting. To pin the data tip, click the pin icon while hovering over it. You can pin multiple variables.
 
-![Pinning a Data Tip](../debugger/media/dbg-tips-data-tips-pinned.png "PinningDataTip")
+::: moniker range="visualstudio"
+
+![Screenshot showing how to pin a data tip in Visual Studio.](media/visualstudio/debug-tips-data-tips-pinned.png)
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+![Screenshot showing how to pin a data tip.](media/dbg-tips-data-tips-pinned.png)
+
+::: moniker-end
 
 ::: moniker range=">= vs-2022"
 You can also customize data tips in several other ways, such as keeping a data tip expanded (a *sticky data tip*), or making a data tip transparent. For more information, see [View data values in DataTips in the code editor](../debugger/view-data-values-in-data-tips-in-the-code-editor.md).
@@ -35,7 +45,7 @@ You can also customize data tips in several other ways, such as keeping a data t
 
 In most languages supported by Visual Studio, you can edit your code in the middle of a debugging session and continue debugging. To use this feature, click into your code with your cursor while paused in the debugger, make edits, and press **F5**, **F10**, or **F11** to continue debugging.
 
-![Edit and continue debugging](../debugger/media/dbg-tips-edit-and-continue.gif "EditAndContinue")
+![Animation showing how to edit and continue debugging.](media/dbg-tips-edit-and-continue.gif "EditAndContinue")
 
 For more information on using the feature and on feature limitations, see [Edit and Continue](/visualstudio/debugger/how-to-enable-and-disable-edit-and-continue).
 
@@ -51,11 +61,21 @@ If it is difficult or time-consuming to recreate a particular state in your app,
 
 1. Right-click a breakpoint icon (the red sphere) and choose **Conditions**.
 
-2. In the **Breakpoint Settings** window, type an expression.
+1. In the **Breakpoint Settings** window, type an expression.
 
-    ![Conditional Breakpoint](../debugger/media/dbg-multithreaded-conditional-breakpoint.png "ConditionalBreakpoint")
+    ::: moniker range="visualstudio"
 
-3. If you are interested in another type of condition, select **Filter** instead of **Conditional expression** in the **Breakpoint Settings** dialog box, and then follow the filter tips.
+    ![Screenshot showing how to set a conditional breakpoint in Visual Studio.](media/visualstudio/debug-multithreaded-conditional-breakpoint.png)
+
+    ::: moniker-end
+
+    ::: moniker range="vs-2022"
+
+    ![Screenshot showing how to set a conditional breakpoint.](media/dbg-multithreaded-conditional-breakpoint.png "ConditionalBreakpoint")
+
+    ::: moniker-end
+
+1. If you are interested in another type of condition, select **Filter** instead of **Conditional expression** in the **Breakpoint Settings** dialog box, and then follow the filter tips.
 
 ## Configure the data to show in the debugger
 
@@ -73,20 +93,25 @@ It's easy to view variables using debugger windows like the **Watch** window. Ho
 
 1. Set a breakpoint near a variable that you want to track.
 
-2. Start the debugger (**F5**) and stop at the breakpoint.
+1. Start the debugger (**F5**) and stop at the breakpoint.
 
-3. Find the variable in the **Locals** window (**Debug > Windows > Locals**), right-click the variable, and select **Make Object ID**.
+1. Find the variable in the **Locals** window (**Debug > Windows > Locals**), right-click the variable, and select **Make Object ID**.
 
-   ::: moniker range="visualstudio"
-   ![Create an Object ID](../debugger/media/visualstudio/debug-tips-watch-create-object-id.png "CreateObjectID")
-   ::: moniker-end
-   ::: moniker range="vs-2022"
-   ![Create an Object ID](../debugger/media/dbg-tips-watch-create-object-id.png "CreateObjectID")
-   ::: moniker-end
+    ::: moniker range="visualstudio"
 
-4. You should see a **$** plus a number in the **Locals** window. This variable is the object ID.
+    ![Screenshot showing how to create an object ID in Visual Studio.](media/visualstudio/debug-tips-watch-create-object-id.png)
 
-5. Right-click the object ID variable and choose **Add Watch**.
+    ::: moniker-end
+
+    ::: moniker range="vs-2022"
+
+    ![Screenshot showing how to create an object ID.](media/dbg-tips-watch-create-object-id.png "CreateObjectID")
+
+    ::: moniker-end
+
+1. You should see a **$** plus a number in the **Locals** window. This variable is the object ID.
+
+1. Right-click the object ID variable and choose **Add Watch**.
 
 For more information, see [Create an Object ID](../debugger/watch-and-quickwatch-windows.md#bkmk_objectIds).
 
@@ -101,13 +126,33 @@ You can also view return values in the Autos window. For more information, see [
 ::: moniker range="vs-2022"
 To view return values for your functions, look at the functions that appear in the **Autos** window while you are stepping through your code. To see the return value for a function, make sure that the function you are interested in has already executed (press **F10** once if you are currently stopped on the function call). If the window is closed, use **Debug > Windows > Autos** to open the **Autos** window.
 
-![Autos Window](../debugger/media/dbg-tips-autos-window.png "AutosWindow")
+You can also use [pseudovariables](../debugger/pseudovariables.md) in the **Watch** and **Immediate** window, such as `$ReturnValue`.
+::: moniker-end
+
+::: moniker range="visualstudio"
+
+![Screenshot showing how to look at the Autos window in Visual Studio.](media/visualstudio/debug-tips-autos-window.png)
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+![Screenshot showing how to look at the Autos window.](media/dbg-tips-autos-window.png "AutosWindow")
+
+::: moniker-end
 
 In addition, you can enter functions in the **Immediate** window to view return values. (Open it using **Debug > Windows > Immediate**.)
 
-![Immediate Window](../debugger/media/dbg-tips-immediate-window.png "ImmediateWindow")
+::: moniker range="visualstudio"
 
-You can also use [pseudovariables](../debugger/pseudovariables.md) in the **Watch** and **Immediate** window, such as `$ReturnValue`.
+![Screenshot showing how to open the Immediate window in Visual Studio.](media/visualstudio/debug-tips-immediate-window.png)
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+![Screenshot showing how to open the Immediate window.](media/dbg-tips-immediate-window.png "ImmediateWindow")
+
 ::: moniker-end
 
 ## <a name="string_visualizer"></a>Inspect strings in a visualizer
@@ -115,19 +160,29 @@ You can also use [pseudovariables](../debugger/pseudovariables.md) in the **Watc
 When working with strings, it can be helpful to view the entire formatted string. To view a plain text, XML, HTML, or JSON string, click the magnifying glass icon ![VisualizerIcon](../debugger/media/dbg-tips-visualizer-icon.png "Visualizer icon") while hovering over a variable containing a string value.
 
 ::: moniker range="visualstudio"
-![Open a String Visualizer](../debugger/media/visualstudio/debug-tips-string-visualizers-2.png "OpenStringVisualizer")
+
+![Screenshot that shows how to open a String Visualizer in Visual Studio.](media/visualstudio/debug-tips-string-visualizers-2.png "OpenStringVisualizer")
+
 ::: moniker-end
+
 ::: moniker range="vs-2022"
-![Open a String Visualizer](../debugger/media/dbg-tips-string-visualizers.png "OpenStringVisualizer")
+
+![Screenshot that shows how to open a String Visualizer.](media/dbg-tips-string-visualizers.png "OpenStringVisualizer")
+
 ::: moniker-end
 
 A string visualizer may help you find out whether a string is malformed, depending on the string type. For example, a blank **Value** field indicates the string is not recognized by the visualizer type. For more information, see [String Visualizer Dialog Box](../debugger/string-visualizer-dialog-box.md).
 
 ::: moniker range="visualstudio"
-![JSON String Visualizer](../debugger/media/visualstudio/debug-tips-string-visualizer-json.png "JSONStringVisualizer")
+
+![Screenshot that shows the JSON String Visualizer in Visual Studio.](media/visualstudio/debug-tips-string-visualizer-json.png "JSONStringVisualizer")
+
 ::: moniker-end
+
 ::: moniker range="vs-2022"
-![JSON String Visualizer](../debugger/media/dbg-tips-string-visualizer-json.png "JSONStringVisualizer")
+
+![Screenshot that shows the JSON String Visualizer.](media/dbg-tips-string-visualizer-json.png "JSONStringVisualizer")
+
 ::: moniker-end
 
 For a few other types such as DataSet and DataTable objects that appear in the debugger windows, you can also open a built-in visualizer.
@@ -140,7 +195,7 @@ You can take and compare snapshots of the heap, optimize memory usage, and find 
 
 A *dump file* is a snapshot that shows the process that was executing and modules that were loaded for an app at a point in time. A dump with heap information also includes a snapshot of the app's memory at that point. Dumps are mostly used to debug issues from machines that developers don't have access to.
 
-If you need to save a dump file, select select **Debug > Save Dump As**.
+If you need to save a dump file, select **Debug > Save Dump As**.
 
 To analyze a dump file, choose **File > Open** in Visual Studio. To start debugging using the dump file, select **Debug with Managed Only**, **Debug with Native Only**, **Debug with Mixed**, or **Debug with Managed Memory**.
 
@@ -153,17 +208,22 @@ The debugger breaks into your code on unhandled exceptions. However, handled exc
 The **Exception Settings** dialog box allows you to tell the debugger to break into code on specific exceptions. In the illustration below, the debugger breaks into your code whenever a `System.NullReferenceException` occurs. For more information, see [Managing exceptions](../debugger/managing-exceptions-with-the-debugger.md).
 
 ::: moniker range="visualstudio"
-![Exception Settings Dialog Box](../debugger/media/visualstudio/debug-tips-exception-settings.png "ExceptionSettingsDialogBox")
+
+![Screenshot that shows the Exception Settings dialog box in Visual Studio.](media/visualstudio/debug-tips-exception-settings.png "ExceptionSettingsDialogBox")
+
 ::: moniker-end
+
 ::: moniker range="vs-2022"
-![Exception Settings Dialog Box](../debugger/media/dbg-tips-exception-settings.png "ExceptionSettingsDialogBox")
+
+![Screenshot that shows the Exception Settings dialog box.](media/dbg-tips-exception-settings.png "ExceptionSettingsDialogBox")
+
 ::: moniker-end
 
 ## Change the execution flow
 
 With the debugger paused on a line of code, use the mouse to grab the yellow arrow pointer on the left. Move the yellow arrow pointer to a different point in the code execution path. Then you use F5 or a step command to continue running the app.
 
-![Move the Execution Pointer](../debugger/media/dbg-tour-move-the-execution-pointer.gif "Move the Execution Pointer")
+![Animation showing how to move the execution pointer.](media/dbg-tour-move-the-execution-pointer.gif "Move the Execution Pointer")
 
 By changing the execution flow, you can do things like test different code execution paths or rerun code without restarting the debugger. For more information, see [Move the execution pointer](../debugger/move-the-execution-pointer-with-the-debugger.md).
 
@@ -178,11 +238,11 @@ To show threads in your source code:
 
 1. While debugging, click the **Show Threads in Source** button ![Show Threads in Source](../debugger/media/dbg-multithreaded-show-threads.png "ThreadMarker") in the **Debug** toolbar.
 
-2. Look at the gutter on the left side of the window. On this line, you see a *thread marker* icon  ![Thread Marker](../debugger/media/dbg-thread-marker.png "ThreadMarker") that resembles two cloth threads. The thread marker indicates that a thread is stopped at this location.
+1. Look at the gutter on the left side of the window. On this line, you see a *thread marker* icon  ![Thread Marker](../debugger/media/dbg-thread-marker.png "ThreadMarker") that resembles two cloth threads. The thread marker indicates that a thread is stopped at this location.
 
     Notice that a thread marker may be partially concealed by a breakpoint.
 
-3. Hover the pointer over the thread marker. A DataTip appears. The DataTip tells you the name and thread ID number for each stopped thread.
+1. Hover the pointer over the thread marker. A DataTip appears. The DataTip tells you the name and thread ID number for each stopped thread.
 
     You can also view the location of threads in the [Parallel Stacks window](../debugger/get-started-debugging-multithreaded-apps.md).
 
@@ -193,10 +253,15 @@ To attach to your running app, the debugger loads symbol (.pdb) files generated 
 Open the **Modules** window while debugging by selecting **Debug > Windows > Modules**. The **Modules** window can tell you what modules the debugger is treating as user code, or [*My Code*](../debugger/just-my-code.md), and the symbol loading status for the module. In most scenarios, the debugger automatically finds symbol files for user code, but if you want to step into (or debug) .NET code, system code, or third-party library code, extra steps are required to obtain the correct symbol files.
 
 ::: moniker range="visualstudio"
-![View symbol information in the Modules window](../debugger/media/visualstudio/debug-tips-modules-window.png "ViewSymbolInformation")
+
+![Screenshot that shows how to view symbol information in the Modules window in Visual Studio.](media/visualstudio/debug-tips-modules-window.png "ViewSymbolInformation")
+
 ::: moniker-end
+
 ::: moniker range="vs-2022"
-![View symbol information in the Modules window](../debugger/media/dbg-tips-modules-window.png "ViewSymbolInformation")
+
+![Screenshot that shows how to view symbol information in the Modules window.](media/dbg-tips-modules-window.png "ViewSymbolInformation")
+
 ::: moniker-end
 
 You can load symbol information directly from the **Modules** window by right-clicking and choosing **Load Symbols**.

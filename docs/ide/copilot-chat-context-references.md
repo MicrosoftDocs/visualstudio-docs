@@ -1,17 +1,21 @@
 ---
 title: 'Manage chat context with references'
 description: Use references to form better questions and get better answers with scoped context in GitHub Copilot Chat.
-ms.date: 11/2/2025
+ms.date: 05/14/2026
 ms.topic: how-to 
 author: RoseHJM
 ms.author: rosemalcolm
 
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
+ms.custom: doc-kit-assisted, awp-ai
 ms.update-cycle: 180-days
 helpviewer_keywords: 
   - copilot chat context
   - context, copilot chat
+  - git context chat
+  - copilot chat changes
+  - copilot chat commits
 monikerRange: '>= vs-2022'
 ---
 # Manage chat context with references
@@ -21,7 +25,7 @@ Scope your questions to [**GitHub Copilot Chat**](visual-studio-github-copilot-c
 In this article, you learn how to get better answers by providing more information to Copilot Chat:
 
 + Understand the [implicit context](#implicit-context) Copilot leverages behind the scenes
-+ Scope the chat to specific files using [references](#reference-context)
++ Scope the chat to specific files, changes, and commits using [references](#reference-context)
 + [Attach images](#attach-images) to your prompt to provide additional context and better illustrate your ideas
 + Review the [source](#find-context) used by Copilot to generate the answer
 + Use different [threads](#threads) for each of your Copilot chats to maintain chat history and different context in each
@@ -77,6 +81,67 @@ With Visual Studio 2022 version 17.11, [GitHub Copilot Enterprise](https://docs.
 
 :::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-context-at-github.png" alt-text="Screenshot of using GitHub skills in Copilot Chat.":::
 
+:::moniker range="visualstudio"
+
+### Reference commits from Git history
+
+When you're reviewing a commit and want Copilot help understanding changes, identifying potential issues, or drafting a similar edit, you can attach commit context directly to GitHub Copilot Chat.
+
+Instead of copying and pasting commit IDs into chat, use **Add to Chat** to attach the selected commit context from the IDE.
+
+Use **Add to Chat** on a commit from any of these surfaces:
+
+- **Git History** (**Git** > **View Branch History**)
+- **File History** (right-click a file in **Solution Explorer**, then **Git** > **View History**)
+- **Annotate (Blame)** (right-click in the editor, then **Git** > **Annotate (Blame)**)
+
+You can multiselect commits to attach several commits to chat at once.
+
+:::image type="content" source="../version-control/media/visualstudio/add-commit-to-chat.png" alt-text="Screenshot showing the Add to Chat command for a selected commit in Git History." lightbox="../version-control/media/visualstudio/add-commit-to-chat.png":::
+
+After you attach commit context, try prompts such as:
+
+- Explain this change.
+- Does this introduce any issues?
+- Write a similar change for this other file.
+
+:::image type="content" source="../version-control/media/visualstudio/add-commit-to-chat-example-prompt.png" alt-text="Screenshot showing Copilot Chat with an attached commit used as context for a prompt." lightbox="../version-control/media/visualstudio/add-commit-to-chat-example-prompt.png":::
+
+:::moniker-end
+### Reference your changes
+
+With Visual Studio 2022 version 17.14 and later, you can use Git references in Copilot Chat.
+
+Use `#changes` to reference your uncommitted changes from the **Git Changes** window. This reference is useful when you want Copilot Chat to summarize the work you've done, explain the impact of pending edits, or suggest next steps before you commit.
+
+For example, you can ask questions such as:
+
+- Summarize `#changes`.
+- What have I done so far in `#changes`?
+- Suggest unit tests for `#changes`.
+
+:::moniker range="<=vs-2022"
+
+Open the **Tools** > **Options** dialog, expand **GitHub** > **Copilot** > **Source Control Integration**, select **Enable Git preview features**, and then select **OK**.
+
+:::moniker-end
+
+:::image type="content" source="media/visualstudio/copilot-chat-context/git-context-chat-changes.png" alt-text="Screenshot of Copilot Chat referencing uncommitted changes with #changes.":::
+
+### Reference a commit
+
+Use `#commit:` to reference a specific commit in Copilot Chat. When you start typing `#commit:`, Copilot shows a list of recent commits that you can select from. If you want to reference an older commit, enter the commit ID directly after `#commit:`.
+
+You can use commit references for tasks such as:
+
+- Explain `#commit:`.
+- Write unit tests to cover changes in `#commit:`.
+- Find potential issues in `#commit:`.
+
+This reference is useful when you want to review a past change, inspect the intent behind a commit, or ask Copilot to help you follow up on earlier work.
+
+:::image type="content" source="media/visualstudio/copilot-chat-context/git-context-chat-commits.png" alt-text="Screenshot of Copilot Chat showing recent commit suggestions after typing #commit:.":::
+
 ## <a name="attach-images"></a>Reference an image
 
 With vision integration for Copilot Chat in Visual Studio 17.14 and later, you can [attach images](visual-studio-github-copilot-chat.md#attach-images-to-chat-prompts) to your chat prompt, providing Copilot with additional context for improved responses. Use images in combination with [scope](#reference-context) and other contextual features such as [slash commands](copilot-chat-context.md#slash-commands) to generate tailored responses.
@@ -112,14 +177,16 @@ Note that Copilot can only reference static HTML content from the public URL you
 Here are some examples of using references for context control:
 
 | **Example** | **Context used by Copilot to form the question** |
-|---------------------------|:--------------------:|
-| What is the purpose of #MyFile.cs: 66-72?| Exact section of the file |
-| Where are the tests in #BasketService.cs?| BasketService.cs |
-| /explain the #AddItemToBasket in #BasketService.cs| AddItemToBasket method in BasketService.cs |
-| Is there a delete basket method in this @workspace| Current solution open in the IDE |
-| I have a test method named #TestCalculator. How can I ensure that it's being executed correctly?| TestCalculator method |
-| Could you explain the differences between classes #BasketService and #OrderService?| BasketService class and OrderService class |
+| --------------------------- | :--------------------: |
+| What is the purpose of #MyFile.cs: 66-72? | Exact section of the file |
+| Where are the tests in #BasketService.cs? | BasketService.cs |
+| /explain the #AddItemToBasket in #BasketService.cs | AddItemToBasket method in BasketService.cs |
+| Is there a delete basket method in this @workspace | Current solution open in the IDE |
+| I have a test method named #TestCalculator. How can I ensure that it's being executed correctly? | TestCalculator method |
+| Could you explain the differences between classes #BasketService and #OrderService? | BasketService class and OrderService class |
 | In my @workspace where is #AddItemToBasket? | Current solution open in the IDE |
+| Summarize #changes before I commit | Uncommitted changes in the Git Changes window |
+| Find potential issues in #commit:abc1234 | The specified commit |
 | Update my UI in App.tsx to resemble this image | Uploaded image |
 
 ## <a name="find-context"></a>Review the sources used by Copilot Chat
@@ -128,12 +195,14 @@ Copilot Chat displays the context it used after every result, so that you can te
 
 :::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-references-used-dropdown.png" alt-text="Screenshot of References used dropdown in Copilot Chat." lightbox="media/vs-2022/copilot-chat-context/copilot-chat-references-used-dropdown.png":::
 
-## <a name="threads"></a>Organize: manage chat history context with threads 
+:::moniker range="vs-2022"
+
+## <a name="threads"></a>Organize: manage chat history context with threads
 
 As you iterate and send multiple chat prompts in a chat session, Copilot uses the history of chat prompts and responses as context for your current chat prompt. This means that you can ask follow-up questions or clarify your previous question without having to repeat the context. For example, you can ask "How does this differ from ...", "Now add a test case", "explain in more detail", and more.
 
 To start over with a new chat session and discard the current context, start a [new thread](#new-thread) in the chat view. This is useful when you want to move to a different topic and avoid the previous context and history.
-Use threads to keep conversations focused on the task at hand, and keep the context clear so the answers are based on relevant history. 
+Use threads to keep conversations focused on the task at hand, and keep the context clear so the answers are based on relevant history.
 
 ### <a name="new-thread"></a>New chat thread
 
@@ -141,11 +210,46 @@ Select **Create new thread** or <kbd>Ctrl</kbd>+<kbd>N</kbd> in the chat window 
 
 :::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-new-thread-conversation.png" alt-text="Screenshot of Create new thread icon in Copilot Chat.":::
 
+
 ### <a name="switch-thread"></a>Switch chat thread
 
 You can select between multiple ongoing threads to provide the right historical context for your question. You can use <kbd>Ctrl</kbd>+<kbd>PgDown</kbd> for previous thread or <kbd>Ctrl</kbd>+<kbd>PgUp</kbd> for next thread in the chat window. <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>T</kbd> expands the thread dropdown.
 
 :::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-switch-threads.png" alt-text="Screenshot of switching between ongoing threads in Copilot Chat.":::
+
+:::moniker-end
+
+:::moniker range="visualstudio"
+
+## <a name="threads"></a>Organize: manage chat history with the chat history panel
+
+As you iterate and send multiple chat prompts in a chat session, Copilot uses the history of chat prompts and responses as context for your current chat prompt. This means that you can ask follow-up questions or clarify your previous question without having to repeat the context. For example, you can ask "How does this differ from ...", "Now add a test case", "explain in more detail", and more.
+
+To start over with a new chat session and discard the current context, start a [new thread](#new-thread) in the chat view. This is useful when you want to move to a different topic and avoid the previous context and history.
+Use the chat history panel to keep conversations focused on the task at hand, and keep the context clear so the answers are based on relevant history.
+
+### <a name="new-thread"></a>New chat thread
+
+Select **Create new thread** or <kbd>Ctrl</kbd>+<kbd>N</kbd> in the chat window to start a new thread.
+
+:::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-new-thread-conversation.png" alt-text="Screenshot of Create new thread icon in Copilot Chat.":::
+
+
+### <a name="switch-thread"></a>Switch chat thread
+
+Use the chat history panel to switch between chat sessions and provide the right historical context for your question.
+
+Each chat history entry shows:
+
+- The chat title
+- A preview of the most recent message
+- When the session was last updated
+
+Select a session in the panel to jump directly to that conversation.
+
+:::image type="content" source="media/visualstudio/visual-studio-github-copilot-chat/chat-history-panel.png" alt-text="Screenshot of the Chat History panel showing session title, message preview, and last updated time." lightbox="media/visualstudio/visual-studio-github-copilot-chat/chat-history-panel.png":::
+
+:::moniker-end
 
 ### <a name="promote-inline"></a>Promote inline chat to the chat window
 
@@ -157,7 +261,7 @@ With [Visual Studio 2022 version 17.11](/visualstudio/releases/2022/release-note
 
 Copilot Chat uses the chat history to get context about your request. To give Copilot only the relevant history:
 
-* Use threads to start a new conversation for a new task.
+* Use new threads to start a new conversation for a new task.
 * Delete requests that are no longer relevant or that didn’t give you the desired result.
 
 Keep the chat conversation open and continue to iterate and prompt Copilot to improve the suggested solution. Copilot has both the context of the generated code and your current conversation history. As you keep asking additional questions, Copilot further refines the response according to your requirements. See [Prompt engineering for GitHub Copilot](https://docs.github.com/en/copilot/using-github-copilot/prompt-engineering-for-github-copilot) for strategies on effective prompting to improve your Copilot results.
@@ -166,6 +270,7 @@ Keep the chat conversation open and continue to iterate and prompt Copilot to im
 
 - [GitHub Copilot experience for Visual Studio](visual-studio-github-copilot-extension.md)
 - [GitHub Copilot Chat experience for Visual Studio](visual-studio-github-copilot-chat.md)
+- [Make a Git commit in Visual Studio](../version-control/git-make-commit.md)
 - [GitHub Copilot Trust Center](https://resources.github.com/copilot-trust-center/)
 - [Send us suggestions, feedback, and issues](how-to-report-a-problem-with-visual-studio.md)
 - [Support for GitHub Copilot Chat](https://support.github.com)
