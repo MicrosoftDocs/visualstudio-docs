@@ -53,7 +53,7 @@ You can also [set up from the Copilot Chat window](work-with-github-accounts.md#
 
 ## Copilot Free usage limits in Visual Studio
 
-Copilot Free includes a monthly usage limit for Copilot Chat. As you approach your limit, Visual Studio might show usage alerts. When your monthly quota is reached, you notice a change in Copilot functionality.
+Copilot Free includes a monthly usage limit for Copilot Chat. As you approach your limit, Visual Studio might show usage alerts. When your monthly limit is reached, you notice a change in Copilot functionality.
 
 :::moniker range="visualstudio"
 

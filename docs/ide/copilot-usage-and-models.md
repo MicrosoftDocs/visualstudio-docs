@@ -31,7 +31,7 @@ To view Copilot usage:
 
 The usage window looks different depending on your plan category.
 
-### Individual plans (Free, Pro, Pro+, Max)
+### Individual plans
 
 Individual plans show personal monthly usage details and continuation options.
 :::image type="content" source="media/copilot-pro-usage-monthly-limit.png" alt-text="Screenshot showing usage details for an individual Copilot plan, including monthly usage and continuation options." lightbox="media/copilot-pro-usage-monthly-limit.png":::
@@ -43,7 +43,7 @@ Business and Enterprise plans show organization-managed usage details. In some o
 
 For plan behavior details, see [About usage limits](https://docs.github.com/copilot/concepts/usage-limits).
 
-The usage window shows quota usage, remaining monthly balance, and plan details. Depending on your plan, it might also show overage indicators and links to manage billing on *GitHub*.
+The usage window shows monthly usage, remaining monthly balance, plan details, and relevant actions you can take to manage billing. Depending on your plan, it might also show information on additional usage.
 :::moniker-end
 
 :::moniker range="vs-2022"
@@ -57,7 +57,7 @@ The usage window shows quota usage, remaining monthly balance, and plan details.
 :::moniker-end
 
 > [!NOTE]
-> Labels and fields in the usage window vary by plan (Free, Pro, Business, Enterprise) and Visual Studio version. GitHub manages billing and subscriptions. For details, visit your [GitHub settings](https://github.com/settings/billing/summary).
+> Labels and fields in the usage window vary by GitHub Copilot plan type and Visual Studio version. GitHub manages billing and subscriptions. For details, visit your [GitHub settings](https://github.com/settings/billing/summary).
 
 ## Monitor usage and manage alerts
 
@@ -129,7 +129,7 @@ For plan behavior details, see [About usage limits](https://docs.github.com/copi
 
 Copilot supports multiple AI models with different capabilities and quota consumption rates. Choose the model that matches your task.
 
-For most prompts, use **Auto**. Auto selects a model based on your prompt to balance quality, speed, and quota usage. For complex tasks, consider switching to a different model.
+For most prompts, use **Auto**. Auto routes you to a model based on  model reliability and availability, and is available at a discounted rate. For complex tasks, consider switching to a different model.
 
 Your model choice affects three things:
 
