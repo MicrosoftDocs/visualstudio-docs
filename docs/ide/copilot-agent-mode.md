@@ -368,7 +368,7 @@ Agent mode can't access files and directories excluded through file exclusion.
 
 For terminal commands, agent mode has the same permissions as the running Visual Studio process and isn't limited to the preceding restrictions. Carefully review proposed terminal commands before you run them.
 
-### I don't see ask, plan, or agent options in the Copilot Chat window
+### I don't see ask mode and agent mode in the Copilot Chat window
 
 Take the following troubleshooting steps in the specified order:
 
@@ -393,10 +393,9 @@ Take the following troubleshooting steps in the specified order:
 
 1. Try restarting Visual Studio.
 
-### When should I use ask mode, Planning in agent mode (Preview), or agent mode?
+### When should I use ask mode vs. agent mode?
 
 - Ask mode is excellent when you want 100% confidence that no code edits are made unless you explicitly select **Apply** or copy and paste the code yourself.
-- Use **Planning in agent mode (Preview)** when you're already in agent mode and want the agent to maintain a structured in-session plan while it executes.
 - Agent mode can handle the same conceptual questions and generate code examples without applying them, along with its agent capabilities of editing code.
 - If you want to use MCP capabilities, you must have agent mode selected.
 
