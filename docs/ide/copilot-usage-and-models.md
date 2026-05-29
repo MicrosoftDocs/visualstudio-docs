@@ -41,7 +41,8 @@ Individual plans show personal monthly usage details and continuation options.
 Business and Enterprise plans show organization-managed usage details. In some organizations, no individual monthly limit is set and usage draws from a shared pool.
 :::image type="content" source="media/copilot-enterprise-usage-no-monthly-limit.png" alt-text="Screenshot showing organization-managed Copilot usage where no individual monthly limit is set." lightbox="media/copilot-enterprise-usage-no-monthly-limit.png":::
 
-The usage window shows quota usage, remaining monthly balance, and plan details. Depending on your plan, it might also show overage indicators and links to manage billing on *GitHub*.
+The usage window shows monthly usage, remaining monthly balance, plan details, and relevant actions you can take to manage billing. Depending on your plan, it might also show information on additional usage.
+
 :::moniker-end
 
 :::moniker range="vs-2022"
