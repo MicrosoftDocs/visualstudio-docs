@@ -55,6 +55,12 @@ Copilot is now ready to use in Visual Studio.
 
 After you sign in, use Copilot in the chat window and throughout the IDE.
 
+:::moniker range="visualstudio"
+
+- **Use the [plan agent](copilot-plan-agent.md)**: In the chat window, use the agent picker to select **Plan** and create an implementation plan before making code changes. Copilot explores your codebase with read-only tools, asks clarifying questions when needed, and saves the plan as markdown in `.copilot/plans/`.
+
+:::moniker-end
+
 - **Use [agent mode](copilot-agent-mode.md) and [MCP servers](mcp-servers.md)**: In the chat window, select **Ask** and switch to **Agent** to enable agent mode. Use the tools icon to access Model Context Protocol (MCP) servers, configure servers, and choose which tools Copilot can use. For example, to get Copilot assistance with generating targeted code, send "Write unit tests for the methods in this file."
   - As part of agent mode workflows, Copilot Chat can connect to cloud agents to run remote coding sessions that create repository issues and pull requests in your connected GitHub repository. You might be prompted to grant repository permissions the first time you start a cloud session, or when more permissions are required.
 
