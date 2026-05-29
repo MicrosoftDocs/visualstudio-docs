@@ -91,7 +91,7 @@ Follow these steps to get started:
 
 :::moniker-end
 
-Review individual file diffs and apply them selectively.
+   - Review individual file diffs and apply them selectively.
 
 :::moniker range="visualstudio"
 
@@ -348,16 +348,12 @@ You can selectively disable the planning tool set directly in the Tools list in 
 ### Limitations
 
 - Plans are stored temporarily and deleted when the session ends unless saved manually.
-- Slight latency overhead ex#ists due to structured state tracking.
+- Slight latency overhead exists due to structured state tracking.
 - Some specialized agents might not yet support planning.
 
 ### Give feedback
 
 We’re actively improving Planning in agent mode. Share your feedback, report issues, or suggest improvements here: [Planning in Copilot Chat – Visual Studio Developer Community](https://developercommunity.visualstudio.com/)
-
-:::moniker range="visualstudio"
-
-:::moniker-end
 
 ## Frequently asked questions
 
