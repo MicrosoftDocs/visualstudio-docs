@@ -270,9 +270,6 @@ To stop a build, select **Build** on the top toolbar, and then select **Cancel**
 > [!NOTE] 
 > Planning is available in public preview with Visual Studio 2022 version 17.14. This feature is under active development and might evolve based on user feedback.
 
-> [!IMPORTANT]
-> **Planning in agent mode (Preview)** is different from the GitHub Copilot [plan agent](copilot-plan-agent.md). Planning in agent mode is an in-session planning workflow inside agent mode. The plan agent is a separate chat mode that creates a plan before implementation and then hands it off with **Implement plan**.
-
 **Planning** in agent mode allows Copilot to break down complex or multistep requests into structured, trackable tasks before execution.
 
 When Planning is active, Copilot:
@@ -358,10 +355,6 @@ We’re actively improving Planning in agent mode. Share your feedback, report i
 
 :::moniker range="visualstudio"
 
-## Create a plan before implementation
-
-If you want to align on an approach before making code changes, use the GitHub Copilot [plan agent](copilot-plan-agent.md). The plan agent explores your codebase with read-only tools, drafts an implementation plan in `.copilot/plans/`, and lets you refine that plan before handing it off to agent mode with **Implement plan**.
-
 :::moniker-end
 
 ## Frequently asked questions
@@ -402,13 +395,10 @@ Take the following troubleshooting steps in the specified order:
 
 1. Try restarting Visual Studio.
 
-### When should I use ask mode, Planning in agent mode (Preview), the plan agent, or agent mode?
+### When should I use ask mode, Planning in agent mode (Preview), or agent mode?
 
 - Ask mode is excellent when you want 100% confidence that no code edits are made unless you explicitly select **Apply** or copy and paste the code yourself.
 - Use **Planning in agent mode (Preview)** when you're already in agent mode and want the agent to maintain a structured in-session plan while it executes.
-:::moniker range="visualstudio"
-- Use the [plan agent](copilot-plan-agent.md) when you want Copilot to explore the codebase, ask clarifying questions, and create a reviewable implementation plan before any code changes start.
-:::moniker-end
 - Agent mode can handle the same conceptual questions and generate code examples without applying them, along with its agent capabilities of editing code.
 - If you want to use MCP capabilities, you must have agent mode selected.
 
@@ -430,7 +420,6 @@ For more information, see [Managing policies and features for GitHub Copilot in 
 
 ## Related content
 
-- [Use the GitHub Copilot plan agent](copilot-plan-agent.md)
 - [Use custom agents in GitHub Copilot](copilot-specialized-agents.md)
 - [Use Agent Skills](copilot-agent-skills.md)
 - [GitHub Copilot Edits](copilot-edits.md)
