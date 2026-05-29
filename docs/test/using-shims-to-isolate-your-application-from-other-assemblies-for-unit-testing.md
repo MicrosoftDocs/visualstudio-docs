@@ -98,7 +98,6 @@ Create a new solution and initial project for the class library.
        End Sub
    End Class
    ```
-
    ---
 
 ### Add a unit test project
@@ -260,7 +259,6 @@ Add a unit test for your project.
       End Using
    End Sub
    ```
-
    ---
 
 1. To see all the Fakes assemblies for the unit test, select **Show All Files** in the **Solution Explorer** menubar:
@@ -681,3 +679,4 @@ When you make these modifications, you gain the ability to control and test how 
 ## Related content
 
 - [Isolate code under test with Microsoft Fakes](../test/isolating-code-under-test-with-microsoft-fakes.md)
+- [Use stubs to isolate parts of your app for unit testing](../test/using-stubs-to-isolate-parts-of-your-application-from-each-other-for-unit-testing.md)
