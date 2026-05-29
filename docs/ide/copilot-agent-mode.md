@@ -15,7 +15,7 @@ ms.custom: awp-ai
 ---
 # Get started with GitHub Copilot agent mode
 
-With the GitHub Copilot agent mode in Visual Studio, you can use natural language to specify a high-level task. AI determines the steps, makes code edits, runs terminal commands, invokes tools, and applies changes across your codebase. It monitors outcomes, such as build results, unit-test failures, or tool outputs, and iterates as needed.
+With the GitHub Copilot agent mode in Visual Studio, you can use natural language to specify a high-level task. AI creates a plan, makes code edits, runs terminal commands, invokes tools, and applies changes across your codebase. It monitors outcomes, such as build results, unit-test failures, or tool outputs, and iterates as needed.
 
 Unlike *ask mode*, agent mode doesn't stop after a single response. It continues running and refining steps until you reach the goal in your prompt or more input is required.
 
@@ -113,9 +113,9 @@ Follow these steps to get started:
 
 :::moniker range="<=vs-2022"
 
-Review the cumulative changes from the last time that changes were kept or undone.
+   - Review the cumulative changes from the last time that changes were kept or undone.
 
-:::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-cumulative-edits.png" alt-text="Screenshot that shows accessing cumulative edit diffs with the Copilot agent." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-cumulative-edits.png":::
+     :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-cumulative-edits.png" alt-text="Screenshot that shows accessing cumulative edit diffs with the Copilot agent." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-cumulative-edits.png":::
 
 :::moniker-end
 
@@ -306,7 +306,7 @@ Both files are stored in `C:\Users\username\AppData\Local\Temp\VisualStudio\copi
 When you enable Planning, a dedicated set of internal tools becomes active. These tools coordinate how Copilot creates, updates, and finalizes plans during execution.
 
 | Tool | Description |
-| ---- | ----------- |
+|------|--------------|
 | **plan** | Generates the initial structured plan from the user request. |
 | **adapt_plan** | Refines or adjusts the plan based on new context or feedback. |
 | **update_plan_progress** | Updates step completion status and synchronizes plan state. |
