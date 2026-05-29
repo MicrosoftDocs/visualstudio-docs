@@ -11,6 +11,7 @@ ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
 
 ms.custom: awp-ai
+ms.custom: awp-ai
 ---
 # Get started with GitHub Copilot agent mode
 
