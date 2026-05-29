@@ -48,20 +48,24 @@ You can access custom agents by using **@ syntax**: Type `@` followed by the age
 Each built-in agent focuses on a specific developer workflow. These agents integrate with Visual Studio's native tooling in ways that a generic assistant can't.
 
 :::moniker range="visualstudio"
+
 | Agent | Description |
-|-------|-------------|
+| ----- | ----------- |
 | **@debugger** | Goes beyond reading error messages. Uses your call stacks, variable state, and diagnostic tools to walk through error diagnosis systematically across your solution. |
 | **@profiler** | Connects to Visual Studio's profiling infrastructure to identify bottlenecks and suggest targeted optimizations grounded in your codebase, not generic advice. |
 | **@test** | Generates unit tests tuned to your project's framework and patterns, not boilerplate that your CI rejects. |
 | **@modernize** | (.NET and C++ only) Handles framework and dependency upgrades with awareness of your actual project graph. Flags breaking changes, generates migration code, and follows your existing patterns. |
-::: moniker-end
+| **Plan agent** | Creates and refines implementation plans before code changes begin by exploring your codebase with read-only tools, then hands the plan off to agent mode with **Implement plan**. |
+
+:::moniker-end
 
 :::moniker range="vs-2022"
-| Agent | Description |
-|-------|-------------|
-| **@profiler** | Connects to Visual Studio's profiling infrastructure to identify bottlenecks and suggest targeted optimizations grounded in your codebase, not generic advice. |
-::: moniker-end
 
+| Agent | Description |
+| ----- | ----------- |
+| **@profiler** | Connects to Visual Studio's profiling infrastructure to identify bottlenecks and suggest targeted optimizations grounded in your codebase, not generic advice. |
+
+:::moniker-end
 
 :::moniker range="visualstudio"
 
@@ -178,7 +182,7 @@ Flag violations clearly and suggest fixes inline.
 #### Frontmatter properties
 
 | Property | Required | Description |
-|----------|----------|-------------|
+| -------- | -------- | ----------- |
 | `name` | No | Display name for the agent in the agent picker. If you don't specify this property, the agent name comes from the filename (for example, `code-reviewer.agent.md` becomes `code-reviewer`). |
 | `description` | Yes | Brief description shown when hovering over the agent |
 | `model` | No | AI model to use. If you don't specify this property, the model selected in the model picker is used. |
@@ -232,7 +236,9 @@ You are a code reviewer for our team. Review changes for:
 Flag violations clearly and suggest fixes inline.
 ```
 
-#### Planning agent
+#### Feature planning agent example
+
+Use a custom feature-planning agent when you want a team-specific planning workflow or extra tools beyond the built-in plan agent.
 
 ```markdown
 ---
@@ -241,8 +247,7 @@ description: Helps plan features before writing code
 tools: ["code_search", "readfile", "find_references"]
 ---
 
-You are a planning assistant. When asked about a feature:
-
+You are a feature planning assistant. When asked about a feature:
 1. Gather requirements by asking clarifying questions
 2. Identify affected files and components in the codebase
 3. Break down the work into discrete tasks
