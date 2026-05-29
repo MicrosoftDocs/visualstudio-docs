@@ -50,7 +50,7 @@ Create a new solution and initial project for the class library.
 
    ::: moniker range="visualstudio"
 
-   :::image type="content" source="./media/visualstudio/microsoft-fakes-shims-create-class-library-project.png" border="false" alt-text="Screenshot of the Class Library project template for .NET Framework and C# in Visual Studio.":::
+   :::image type="content" source="../test/media/visualstudio/microsoft-fakes-shims-create-class-library-project.png" border="false" alt-text="Screenshot of the Class Library project template for .NET Framework and C# in Visual Studio.":::
 
    ::: moniker-end
    ::: moniker range="<=vs-2022"
@@ -111,7 +111,7 @@ Add another project to your solution for the unit tests.
 
    ::: moniker range="visualstudio"
 
-   :::image type="content" source="./media/visualstudio/microsoft-fakes-shims-create-test-project.png" border="false" alt-text="Screenshot of the Microsoft Unit Test project template for .NET Framework and C# in Visual Studio.":::
+   :::image type="content" source="../test/media/visualstudio/microsoft-fakes-shims-create-test-project.png" border="false" alt-text="Screenshot of the Microsoft Unit Test project template for .NET Framework and C# in Visual Studio.":::
 
    ::: moniker-end
    ::: moniker range="<=vs-2022"
@@ -135,7 +135,7 @@ Add a reference to the `HexFileReader` project.
 
    ::: moniker range="visualstudio"
 
-   :::image type="content" source="./media/visualstudio/microsoft-fakes-shims-add-project-reference.png" border="false" alt-text="Screenshot of the Microsoft Unit Test project template for .NET Framework and C# in Visual Studio.":::
+   :::image type="content" source="../test/media/visualstudio/microsoft-fakes-shims-add-project-reference.png" border="false" alt-text="Screenshot that shows how to add a reference from the unit test project to the class in Visual Studio.":::
 
    ::: moniker-end
    ::: moniker range="<=vs-2022"
@@ -164,7 +164,7 @@ Add a reference to the `HexFileReader` project.
 
       ::: moniker range="visualstudio"
 
-      :::image type="content" source="./media/visualstudio/microsoft-fakes-shims-add-fakes-assembly.png" border="false" alt-text="Screenshot that shows how to add the Fakes assembly for the project in Visual Studio.":::
+      :::image type="content" source="../test/media/visualstudio/microsoft-fakes-shims-add-fakes-assembly.png" border="false" alt-text="Screenshot that shows how to add the Fakes assembly for the project in Visual Studio.":::
 
       ::: moniker-end
       ::: moniker range="<=vs-2022"
@@ -267,7 +267,7 @@ Add a unit test for your project.
    
    ::: moniker range="visualstudio"
 
-   :::image type="content" source="./media/visualstudio/microsoft-fakes-shims-all-files-small.png" border="false" alt-text="Screenshot of Solution Explorer in Visual Studio showing all files, which includes the Fakes assemblies." lightbox="./media/visualstudio/microsoft-fakes-shims-all-files.png" :::
+   :::image type="content" source="../test/media/visualstudio/microsoft-fakes-shims-all-files-small.png" border="false" alt-text="Screenshot of Solution Explorer in Visual Studio showing all files, which includes the Fakes assemblies." lightbox="../test/media/visualstudio/microsoft-fakes-shims-all-files.png" :::
 
    ::: moniker-end
    ::: moniker range="<=vs-2022"
