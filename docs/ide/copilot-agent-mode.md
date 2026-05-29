@@ -13,7 +13,7 @@ ms.collection: ce-skilling-ai-copilot
 ---
 # Get started with GitHub Copilot agent mode
 
-With the GitHub Copilot agent mode in Visual Studio, you can use natural language to specify a high-level task. AI creates a plan, makes code edits, runs terminal commands, invokes tools, and applies changes across your codebase. It monitors outcomes, such as build results, unit-test failures, or tool outputs, and iterates as needed.
+With the GitHub Copilot agent mode in Visual Studio, you can use natural language to specify a high-level task. AI determines the steps, makes code edits, runs terminal commands, invokes tools, and applies changes across your codebase. It monitors outcomes, such as build results, unit-test failures, or tool outputs, and iterates as needed.
 
 Unlike *ask mode*, agent mode doesn't stop after a single response. It continues running and refining steps until you reach the goal in your prompt or more input is required.
 
@@ -89,7 +89,7 @@ Follow these steps to get started:
 
 :::moniker-end
 
-   - Review individual file diffs and apply them selectively.
+Review individual file diffs and apply them selectively.
 
 :::moniker range="visualstudio"
 
@@ -111,9 +111,9 @@ Follow these steps to get started:
 
 :::moniker range="<=vs-2022"
 
-   - Review the cumulative changes from the last time that changes were kept or undone.
+Review the cumulative changes from the last time that changes were kept or undone.
 
-     :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-cumulative-edits.png" alt-text="Screenshot that shows accessing cumulative edit diffs with the Copilot agent." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-cumulative-edits.png":::
+:::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-cumulative-edits.png" alt-text="Screenshot that shows accessing cumulative edit diffs with the Copilot agent." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-cumulative-edits.png":::
 
 :::moniker-end
 
@@ -270,6 +270,9 @@ To stop a build, select **Build** on the top toolbar, and then select **Cancel**
 > [!NOTE] 
 > Planning is available in public preview with Visual Studio 2022 version 17.14. This feature is under active development and might evolve based on user feedback.
 
+> [!IMPORTANT]
+> **Planning in agent mode (Preview)** is different from the GitHub Copilot [plan agent](copilot-plan-agent.md). Planning in agent mode is an in-session planning workflow inside agent mode. The plan agent is a separate chat mode that creates a plan before implementation and then hands it off with **Implement plan**.
+
 **Planning** in agent mode allows Copilot to break down complex or multistep requests into structured, trackable tasks before execution.
 
 When Planning is active, Copilot:
@@ -304,7 +307,7 @@ Both files are stored in `C:\Users\username\AppData\Local\Temp\VisualStudio\copi
 When you enable Planning, a dedicated set of internal tools becomes active. These tools coordinate how Copilot creates, updates, and finalizes plans during execution.
 
 | Tool | Description |
-|------|--------------|
+| ---- | ----------- |
 | **plan** | Generates the initial structured plan from the user request. |
 | **adapt_plan** | Refines or adjusts the plan based on new context or feedback. |
 | **update_plan_progress** | Updates step completion status and synchronizes plan state. |
@@ -346,12 +349,20 @@ You can selectively disable the planning tool set directly in the Tools list in 
 ### Limitations
 
 - Plans are stored temporarily and deleted when the session ends unless saved manually.
-- Slight latency overhead exists due to structured state tracking.
+- Slight latency overhead ex#ists due to structured state tracking.
 - Some specialized agents might not yet support planning.
 
 ### Give feedback
 
 We’re actively improving Planning in agent mode. Share your feedback, report issues, or suggest improvements here: [Planning in Copilot Chat – Visual Studio Developer Community](https://developercommunity.visualstudio.com/)
+
+:::moniker range="visualstudio"
+
+## Create a plan before implementation
+
+If you want to align on an approach before making code changes, use the GitHub Copilot [plan agent](copilot-plan-agent.md). The plan agent explores your codebase with read-only tools, drafts an implementation plan in `.copilot/plans/`, and lets you refine that plan before handing it off to agent mode with **Implement plan**.
+
+:::moniker-end
 
 ## Frequently asked questions
 
@@ -366,7 +377,7 @@ Agent mode can't access files and directories excluded through file exclusion.
 
 For terminal commands, agent mode has the same permissions as the running Visual Studio process and isn't limited to the preceding restrictions. Carefully review proposed terminal commands before you run them.
 
-### I don't see ask mode and agent mode in the Copilot Chat window
+### I don't see ask, plan, or agent options in the Copilot Chat window
 
 Take the following troubleshooting steps in the specified order:
 
@@ -391,9 +402,13 @@ Take the following troubleshooting steps in the specified order:
 
 1. Try restarting Visual Studio.
 
-### When should I use ask mode vs. agent mode?
+### When should I use ask mode, Planning in agent mode (Preview), the plan agent, or agent mode?
 
 - Ask mode is excellent when you want 100% confidence that no code edits are made unless you explicitly select **Apply** or copy and paste the code yourself.
+- Use **Planning in agent mode (Preview)** when you're already in agent mode and want the agent to maintain a structured in-session plan while it executes.
+:::moniker range="visualstudio"
+- Use the [plan agent](copilot-plan-agent.md) when you want Copilot to explore the codebase, ask clarifying questions, and create a reviewable implementation plan before any code changes start.
+:::moniker-end
 - Agent mode can handle the same conceptual questions and generate code examples without applying them, along with its agent capabilities of editing code.
 - If you want to use MCP capabilities, you must have agent mode selected.
 
@@ -415,6 +430,7 @@ For more information, see [Managing policies and features for GitHub Copilot in 
 
 ## Related content
 
+- [Use the GitHub Copilot plan agent](copilot-plan-agent.md)
 - [Use custom agents in GitHub Copilot](copilot-specialized-agents.md)
 - [Use Agent Skills](copilot-agent-skills.md)
 - [GitHub Copilot Edits](copilot-edits.md)

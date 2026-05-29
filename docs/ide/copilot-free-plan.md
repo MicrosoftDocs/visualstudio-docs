@@ -83,8 +83,7 @@ When you reach usage limits for Copilot Free, wait for the monthly reset or upgr
 
 For plan-to-plan usage behavior and model guidance, see [Manage Copilot usage and models](copilot-usage-and-models.md#usage-limit-reached).
 
-
-
+[!INCLUDE [copilot-trials-paused-notice](../includes/copilot-trials-paused-notice.md)]
 
 ## Tips to get more from Copilot Free
 
