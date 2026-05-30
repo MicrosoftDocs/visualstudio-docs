@@ -1,7 +1,7 @@
 ---
-title: 'Manage chat context with references'
-description: Use references to form better questions and get better answers with scoped context in GitHub Copilot Chat.
-ms.date: 05/14/2026
+title: Manage chat context in GitHub Copilot Chat
+description: Use references, chat history, and context window tools to ask better questions and get better answers in GitHub Copilot Chat.
+ms.date: 05/20/2026
 ms.topic: how-to 
 author: RoseHJM
 ms.author: rosemalcolm
@@ -18,9 +18,9 @@ helpviewer_keywords:
   - copilot chat commits
 monikerRange: '>= vs-2022'
 ---
-# Manage chat context with references
+# Manage chat context in Copilot Chat
 
-Scope your questions to [**GitHub Copilot Chat**](visual-studio-github-copilot-chat.md) by using references, in addition to its implicit contextual knowledge, to get better answers.
+Manage chat context in [**GitHub Copilot Chat**](visual-studio-github-copilot-chat.md) by combining implicit context, references, chat history, and context window tools to get better answers.
 
 In this article, you learn how to get better answers by providing more information to Copilot Chat:
 
@@ -29,6 +29,8 @@ In this article, you learn how to get better answers by providing more informati
 + [Attach images](#attach-images) to your prompt to provide additional context and better illustrate your ideas
 + Review the [source](#find-context) used by Copilot to generate the answer
 + Use different [threads](#threads) for each of your Copilot chats to maintain chat history and different context in each
++ Monitor [context window usage](#context-window-indicator)
++ Summarize (compact) [conversation history to free up space](#context-compaction)
 
 ## Prerequisites
 
@@ -210,7 +212,6 @@ Select **Create new thread** or <kbd>Ctrl</kbd>+<kbd>N</kbd> in the chat window 
 
 :::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-new-thread-conversation.png" alt-text="Screenshot of Create new thread icon in Copilot Chat.":::
 
-
 ### <a name="switch-thread"></a>Switch chat thread
 
 You can select between multiple ongoing threads to provide the right historical context for your question. You can use <kbd>Ctrl</kbd>+<kbd>PgDown</kbd> for previous thread or <kbd>Ctrl</kbd>+<kbd>PgUp</kbd> for next thread in the chat window. <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>T</kbd> expands the thread dropdown.
@@ -234,7 +235,6 @@ Select **Create new thread** or <kbd>Ctrl</kbd>+<kbd>N</kbd> in the chat window 
 
 :::image type="content" source="media/vs-2022/copilot-chat-context/copilot-chat-new-thread-conversation.png" alt-text="Screenshot of Create new thread icon in Copilot Chat.":::
 
-
 ### <a name="switch-thread"></a>Switch chat thread
 
 Use the chat history panel to switch between chat sessions and provide the right historical context for your question.
@@ -257,11 +257,50 @@ With [Visual Studio 2022 version 17.11](/visualstudio/releases/2022/release-note
 
 :::image type="content" source="media/vs-2022/copilot-chat-context/promote-inline-chat-to-chat-window.png" alt-text="Screenshot of promoting ongoing thread in inline chat to the chat window.":::
 
+:::moniker range="visualstudio"
+
+## <a name="context-window-indicator"></a>Monitor and optimize context window usage
+
+When you chat with Copilot, it uses a context window that includes your conversation history, attached files, and other contextual inputs. As the context window fills, Copilot can lose older details from earlier in the thread.
+
+Use the context window indicator to track usage in real time:
+
+1. Open the Copilot Chat window.
+1. In the upper-right corner of the chat prompt box, locate the ring indicator.
+1. Select the indicator to view the exact percentage of context used.
+1. Review the breakdown of what contributes to context usage (for example, conversation messages and workspace files).
+
+:::image type="content" source="media/visualstudio/copilot-chat-context/copilot-context-window-indicator.png" alt-text="Screenshot of the context window indicator in Copilot Chat showing 45 percent usage with a context breakdown." lightbox="media/visualstudio/copilot-chat-context/copilot-context-window-indicator.png":::
+
+## <a name="context-compaction"></a>Summarize and compact conversation history
+
+Compaction reduces the amount of context used by older parts of the current thread, so you can keep working in the same conversation.
+
+When available context is running low, select **Summarize conversation** to compress earlier parts of the thread and reclaim space while staying in the current conversation.
+
+:::image type="content" source="media/visualstudio/copilot-chat-context/copilot-context-window-summarized.png" alt-text="Screenshot of the context window indicator after summarization showing reduced usage and a conversation summarized confirmation." lightbox="media/visualstudio/copilot-chat-context/copilot-context-window-summarized.png":::
+
+Use compaction in either of these ways:
+
+- Select **Summarize conversation** from the context window indicator to automatically compact earlier messages.
+- Type `/compact` in chat to manually compact the conversation at any time.
+
+After compaction, Copilot keeps a summary of earlier turns instead of the full transcript. This helps free context window space while preserving the thread's overall direction.
+
+Use compaction when:
+
+- Context usage is high and you want to avoid losing important recent context.
+- A thread has grown long, but you still want to continue in the same chat.
+- You want to improve focus before asking a new set of follow-up questions.
+
+:::moniker-end
+
 ### Best practices
 
 Copilot Chat uses the chat history to get context about your request. To give Copilot only the relevant history:
 
 * Use new threads to start a new conversation for a new task.
+* If you want to keep the same thread, use **Summarize conversation** when context usage is high.
 * Delete requests that are no longer relevant or that didn’t give you the desired result.
 
 Keep the chat conversation open and continue to iterate and prompt Copilot to improve the suggested solution. Copilot has both the context of the generated code and your current conversation history. As you keep asking additional questions, Copilot further refines the response according to your requirements. See [Prompt engineering for GitHub Copilot](https://docs.github.com/en/copilot/using-github-copilot/prompt-engineering-for-github-copilot) for strategies on effective prompting to improve your Copilot results.
