@@ -270,15 +270,11 @@ Use the context window indicator to track usage in real time:
 1. Select the indicator to view the exact percentage of context used.
 1. Review the breakdown of what contributes to context usage (for example, conversation messages and workspace files).
 
-:::image type="content" source="media/visualstudio/copilot-chat-context/copilot-context-window-indicator.png" alt-text="Screenshot of the context window indicator in Copilot Chat showing 45 percent usage with a context breakdown." lightbox="media/visualstudio/copilot-chat-context/copilot-context-window-indicator.png":::
-
 ## <a name="context-compaction"></a>Summarize and compact conversation history
 
 Compaction reduces the amount of context used by older parts of the current thread, so you can keep working in the same conversation.
 
 When available context is running low, select **Summarize conversation** to compress earlier parts of the thread and reclaim space while staying in the current conversation.
-
-:::image type="content" source="media/visualstudio/copilot-chat-context/copilot-context-window-summarized.png" alt-text="Screenshot of the context window indicator after summarization showing reduced usage and a conversation summarized confirmation." lightbox="media/visualstudio/copilot-chat-context/copilot-context-window-summarized.png":::
 
 Use compaction in either of these ways:
 

@@ -121,9 +121,10 @@ When monthly usage limits are configured, Copilot might display an alert banner 
 
 For plan behavior details, see [About usage limits](https://docs.github.com/copilot/concepts/usage-limits).
 
+For chat context usage (separate from billing usage), monitor context window usage and summarize conversation history as needed. Learn more in [Manage chat context in Copilot Chat](copilot-chat-context-references.md#context-window-indicator).
+
 > [!TIP]
 > Visit your [Copilot settings on GitHub](https://github.com/settings/copilot/features) to explore model options and subscription details.
-> For chat context usage (separate from billing usage), monitor context window usage and summarize conversation history as needed. Learn more in [Manage chat context in Copilot Chat](copilot-chat-context-references.md#monitor-and-optimize-context-window-usage).
 
 ## Understand model selection
 
