@@ -37,13 +37,13 @@ You can also [set up from the Copilot Chat window](work-with-github-accounts.md#
 
    :::moniker range="<=vs-2022"
 
-      :::image type="content" source="media/vs-2022/get-started-with-copilot-free-dialog.png" alt-text="Screenshot of Sign-up for Copilot Free in the Chat window.":::
+      :::image type="content" source="media/vs-2022/get-started-with-copilot-free-dialog.png" alt-text="Screenshot of Sign up for Copilot Free in the Chat window.":::
 
    :::moniker-end
 
    :::moniker range="visualstudio"
 
-      :::image type="content" source="media/visualstudio/get-started-with-copilot-free-dialog.png" alt-text="Screenshot of Sign-up for Copilot Free in the Chat window.":::
+      :::image type="content" source="media/visualstudio/get-started-with-copilot-free-dialog.png" alt-text="Screenshot of Sign up for Copilot Free in the Chat window.":::
 
    :::moniker-end
 
@@ -87,7 +87,7 @@ For plan-to-plan usage behavior and model guidance, see [Manage Copilot usage an
 
 ## Tips to get more from Copilot Free
 
-- Check **Copilot Usage** before long chat sessions so you can decide when to save quota.
+- Check **Copilot Usage** before long chat sessions so you can decide when to conserve your usage.
 - Keep routine prompts concise and reserve larger prompts for tasks where chat or edits add the most value.
 - To customize Copilot behavior, open **Tools** > **Options** > **GitHub** > **Copilot** and enable or disable the capabilities you want to use.
 - If Copilot doesn't behave as expected, confirm the correct GitHub account is active in Visual Studio.

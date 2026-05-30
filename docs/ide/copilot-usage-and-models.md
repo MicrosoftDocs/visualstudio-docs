@@ -3,7 +3,7 @@ title: 'GitHub Copilot usage and models'
 description: Learn how to manage your GitHub Copilot usage and models directly within Visual Studio.
 ms.date: 05/20/2026
 ms.update-cycle: 180-days
-ms.topic: overview 
+ms.topic: overview
 author: RoseHJM
 ms.author: rosemalcolm
 ms.subservice: ai-tools
@@ -52,7 +52,7 @@ The usage window shows monthly usage, remaining monthly balance, plan details, a
 
    :::image type="content" source="media/vs-2022/copilot-usage-models/copilot-consumptions-panel.png" alt-text="Screenshot that shows Copilot Consumptions panel." lightbox="media/vs-2022/copilot-usage-models/copilot-consumptions-panel.png":::
 
-   Here, you might view usage details and monthly quota information for your plan.
+   Here, you might view usage details and monthly limit information for your plan.
 :::moniker-end
 
 > [!NOTE]
@@ -64,13 +64,13 @@ Check your usage and set alerts to stay within monthly limits and avoid interrup
 
 ### Set a personal usage warning threshold
 
-Visual Studio warns you when usage reaches 75% of your monthly quota by default. You might change this threshold to match your usage needs.
+Visual Studio warns you when usage reaches 75% of your monthly usage limit by default. You might change this threshold to match your usage needs.
 
 To set a personal usage warning threshold:
 
 1. Open **Tools** > **Options** > **GitHub** > **Copilot** > **Copilot Chat**.
 1. Find the **Quota warning threshold percentage** setting.
-1. Enter the percentage of your monthly quota at which you want to be warned.
+1. Enter the percentage of your monthly usage limit at which you want to be warned.
 1. Select **OK** to save your changes.
 
 Once configured, Copilot Chat displays a warning banner when your usage reaches the threshold percentage you set.
@@ -80,13 +80,13 @@ This warning is a notification only. It doesn't stop usage or enforce a spending
 :::image type="content" source="media/copilot-quota-warning-threshold-setting.png" alt-text="Screenshot of the Visual Studio Options dialog showing the GitHub Copilot Chat settings with Quota warning threshold percentage field set to 75 percent." lightbox="media/copilot-quota-warning-threshold-setting.png":::
 
 > [!NOTE]
-> This setting applies locally to your Visual Studio installation. Your GitHub Copilot plan tier determines your actual monthly quota and any overage policies.
+> This setting applies locally to your Visual Studio installation. Your GitHub Copilot plan tier determines your actual monthly usage limits and any overage policies.
 
-### Understand quota limits and alerts
+### Understand usage limits and alerts
 
-When your monthly quota is near or at limit, Copilot shows alerts and overage indicators based on your plan.
+When your monthly usage is near or at your limit, Copilot shows alerts and overage indicators based on your plan.
 
-Copilot credits are consumed based on token usage (input, output, and cached tokens), according to the published rates for each model. In general, larger prompts and longer responses use more credits. For details, see [Models and pricing](https://docs.github.com/copilot/reference/copilot-billing/models-and-pricing).
+Copilot usage is measured according to the published rates for each model. In general, larger prompts and longer responses use more credits. For details, see [Models and pricing](https://docs.github.com/copilot/reference/copilot-billing/models-and-pricing).
 
 ### Usage limit reached
 
@@ -110,7 +110,7 @@ When you reach the usage limits, your Copilot experience in Visual Studio might 
 :::row-end:::
 
 #### Individual plans
-Copilot might show warning and limit-reached banners with options to manage overages or plan continuation.
+Copilot might show warnings and limit-reached banners with options to manage overages or plan continuation.
 :::image type="content" source="media/copilot-monthly-limit-warning.png" alt-text="Screenshot showing a warning banner that the user has used 75 percent of the monthly limit and can upgrade the plan." lightbox="media/copilot-monthly-limit-warning.png":::
 
 #### Business and Enterprise plans
@@ -121,18 +121,20 @@ When monthly usage limits are configured, Copilot might display an alert banner 
 
 For plan behavior details, see [About usage limits](https://docs.github.com/copilot/concepts/usage-limits).
 
+For chat context usage (separate from billing usage), monitor context window usage and summarize conversation history as needed. Learn more in [Manage chat context in Copilot Chat](copilot-chat-context-references.md#context-window-indicator).
+
 > [!TIP]
 > Visit your [Copilot settings on GitHub](https://github.com/settings/copilot/features) to explore model options and subscription details.
 
 ## Understand model selection
 
-Copilot supports multiple AI models with different capabilities and quota consumption rates. Choose the model that matches your task.
+Copilot supports multiple AI models, and each model may consume usage at different [rates](https://docs.github.com/en/copilot/reference/copilot-billing/models-and-pricing).
 
-For most prompts, use **Auto**. Auto routes you to a model based on  model reliability and availability, and is available at a discounted rate. For complex tasks, consider switching to a different model.
+For most prompts, use **Auto**. Auto routes you to a model based on model reliability and availability, and is available at a discounted rate. For complex tasks, consider switching to a different model.
 
 Your model choice affects three things:
 
-- **Cost:** Higher-capability models usually consume more credits per request.
+- **Cost:** Higher-capability models usually consume more credits per prompt.
 - **Response quality:** Higher-capability models often return more detailed and structured responses.
 - **Performance:** Lower-cost models are often faster for simple tasks, while higher-capability models might take longer for complex reasoning.
 
@@ -149,8 +151,8 @@ For more information, see [Change the chat model](https://docs.github.com/copilo
 
 ## Tips to optimize usage
 
-- Use **Auto** in the model picker for most prompts, then switch models for complex requests.
-- To reduce token usage for non-chat scenarios, turn off **Enhance non-chat requests with premium models** in **GitHub** > **Copilot** > **Editor**. For more context, see [Understand model selection](#understand-model-selection).
+- Use **Auto** in the model picker for most prompts, then switch models for complex tasks.
+- To reduce usage for non-chat scenarios, turn off **Enhance non-chat requests with premium models** in **GitHub** > **Copilot** > **Editor**. For more context, see [Understand model selection](#understand-model-selection).
 - If you use multiple GitHub accounts in Visual Studio, verify the active account is the account with your expected Copilot plan.
 - Use **Manage plan** from the usage window to verify your current plan tier and overage policy.
 
