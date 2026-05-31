@@ -153,6 +153,8 @@
     items:
     - name: Ask mode
       href: ide/visual-studio-github-copilot-chat.md
+    - name: Plan agent
+      href: ide/copilot-plan-agent.md
     - name: Agent mode
       href: ide/copilot-agent-mode.md
     - name: Specialized agents
