@@ -1,7 +1,7 @@
 ---
 title: Start the Spy++ Tool to Debug a Solution
 description: Explore the Spy++ tool in Visual Studio for debugging a solution and start the tool from the integrated development environment (IDE) or from a command prompt.
-ms.date: 04/17/2025
+ms.date: 05/29/2026
 ms.topic: how-to
 helpviewer_keywords: 
   - Spy++, starting
