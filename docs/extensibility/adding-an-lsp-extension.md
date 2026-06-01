@@ -112,7 +112,7 @@ On the start window, choose **Create a new project**. Search for *VSIX*, then se
 
 ::: moniker range="vs-2022"
 
-![Screenshot showing how to create a VSIX project](media/lsp-vsix-project.png)
+![Screenshot showing how to create a VSIX project.](media/lsp-vsix-project.png)
 
 ::: moniker-end
 
@@ -365,7 +365,7 @@ Follow these steps to add support for settings to your LSP language service exte
 
    ::: moniker range="vs-2022"
 
-   ![creenshot showing how to edit vspackage asset.](media/lsp-add-vspackage-asset.png)
+   ![Screenshot showing how to edit vspackage asset.](media/lsp-add-vspackage-asset.png)
 
    ::: moniker-end
 
