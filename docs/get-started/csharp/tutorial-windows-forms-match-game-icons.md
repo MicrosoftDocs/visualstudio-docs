@@ -1,5 +1,5 @@
 ---
-title: "Tutorial: Add icons to the matching game"
+title: "Tutorial: Add Icons to the Matching Game"
 description: Assign a random icon to each label in a matching game Windows Form and add an event handler to display the icons with C# or VB in Visual Studio.
 dev_langs:
   - "CSharp"
@@ -9,7 +9,7 @@ ms.author: mikejo
 
 ms.subservice: general-ide
 ms.topic: tutorial
-ms.date: 03/16/2023
+ms.date: 05/26/2026
 ms.custom: vs-acquisition
 ---
 # Tutorial: Add icons to your matching game WinForms app
@@ -166,7 +166,17 @@ To get your game to work this way, add a <xref:System.Windows.Forms.Control.Clic
 1. In the **Properties** window, select the **Events** button, which is a lightning bolt.
    For the **Click** event, select **label1_Click** in the box.
 
-     ![Screenshot shows the Properties window showing Click event.](../media/tutorial-windows-forms-match-game-icons/click-event.png)
+    ::: moniker range="visualstudio"
+
+    ![Screenshot of the Properties window showing Click event in Visual Studio.](../media/visualstudio/click-event.png)
+
+    ::: moniker-end
+
+    ::: moniker range="vs-2022"
+
+    ![Screenshot shows the Properties window showing Click event.](../media/tutorial-windows-forms-match-game-icons/click-event.png)
+
+    ::: moniker-end
 
 1. Select the **Enter** key. The IDE adds a `Click` event handler called **label1 _Click()** to the code in **Form1.cs** or **Form1.vb**.
    Because you selected all the labels, the handler is hooked to each of the labels.
