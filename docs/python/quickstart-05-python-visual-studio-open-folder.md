@@ -1,7 +1,7 @@
 ---
-title: "Quickstart: Open and run Python code in a folder"
+title: "Quickstart: Open and Run Python Code in a Folder"
 description: Follow guided steps to open and run Python code from a folder in Visual Studio without using a project in Visual Studio 2019 and later.
-ms.date: 04/18/2024
+ms.date: 05/29/2026
 ms.topic: quickstart
 author: Devdiv-VR
 ms.author: vedhar
@@ -34,41 +34,61 @@ Follow these steps to open a local folder with existing Python code in Visual St
 
 1. Launch Visual Studio. In the start window, select **Open a local folder** in the **Get started** column:
 
-   ::: moniker range=">=vs-2022"
+   ::: moniker range="visualstudio"
 
-   :::image type="content" source="media/quickstart-open-folder/vs-2022/open-local-folder.png" alt-text="Screenshot that shows how to select the Open a local folder option when Visual Studio 2022 starts." border="false" lightbox="media/quickstart-open-folder/vs-2022/open-local-folder.png":::
+   :::image type="content" source="media/quickstart-open-folder/visualstudio/open-local-folder.png" alt-text="Screenshot that shows how to select the Open a local folder option when Visual Studio starts." lightbox="media/quickstart-open-folder/visualstudio/open-local-folder.png":::
 
    ::: moniker-end
 
+   ::: moniker range="vs-2022"
+
+   :::image type="content" source="media/quickstart-open-folder/vs-2022/open-local-folder.png" alt-text="Screenshot that shows how to select the Open a local folder option." lightbox="media/quickstart-open-folder/vs-2022/open-local-folder.png":::
+
+   ::: moniker-end
 
    If Visual Studio is already running, you can select **File** > **Open** > **Folder** instead.
 
 1. Browse to the folder that contains your Python code and choose **Select Folder**:
 
-   ::: moniker range=">=vs-2022"
+   ::: moniker range="visualstudio"
 
-   :::image type="content" source="media/quickstart-open-folder/vs-2022/select-folder.png" alt-text="Screenshot that shows how to select the local folder that has the existing Python code in Visual Studio 2022." lightbox="media/quickstart-open-folder/vs-2022/select-folder.png":::
+   :::image type="content" source="media/quickstart-open-folder/visualstudio/select-folder.png" alt-text="Screenshot that shows how to select the local folder in Visual Studio." lightbox="media/quickstart-open-folder/visualstudio/select-folder.png":::
 
    ::: moniker-end
 
+   ::: moniker range="vs-2022"
+
+   :::image type="content" source="media/quickstart-open-folder/vs-2022/select-folder.png" alt-text="Screenshot that shows how to select the local folder that has the existing Python code." lightbox="media/quickstart-open-folder/vs-2022/select-folder.png":::
+
+   ::: moniker-end
 
 1. Visual Studio displays the files in **Solution Explorer** in the **Folder View**. You can expand and collapse a folder by using the arrow to the left of the folder name:
 
-   ::: moniker range=">=vs-2022"
+   ::: moniker range="visualstudio"
 
-   :::image type="content" source="media/quickstart-open-folder/vs-2022/expand-collapse-folders.png" alt-text="Screenshot that shows the expand and collapse arrows for folders in Solution Explorer in Visual Studio 2022." border="false" lightbox="media/quickstart-open-folder/vs-2022/expand-collapse-folders.png":::
+   :::image type="content" source="media/quickstart-open-folder/visualstudio/expand-collapse-folders.png" alt-text="Screenshot that shows the expand and collapse arrows for folders in Visual Studio." lightbox="media/quickstart-open-folder/visualstudio/expand-collapse-folders.png":::
 
    ::: moniker-end
 
+   ::: moniker range="vs-2022"
+
+   :::image type="content" source="media/quickstart-open-folder/vs-2022/expand-collapse-folders.png" alt-text="Screenshot that shows the expand and collapse arrows for folders." lightbox="media/quickstart-open-folder/vs-2022/expand-collapse-folders.png":::
+
+   ::: moniker-end
 
 1. When you open a Python folder, Visual Studio creates several hidden folders to manage settings related to the program. To see these folders (and any other hidden files and folders, such as the _.git_ folder), select the **Show All Files** toolbar option:
 
-   ::: moniker range=">=vs-2022"
+   ::: moniker range="visualstudio"
 
-   :::image type="content" source="media/quickstart-open-folder/vs-2022/view-hidden-folders.png" alt-text="Screenshot that shows how to view hidden folders and files in Solution Explorer in Visual Studio 2022." border="false" lightbox="media/quickstart-open-folder/vs-2022/view-hidden-folders.png":::
+   :::image type="content" source="media/quickstart-open-folder/visualstudio/view-hidden-folders.png" alt-text="Screenshot that shows how to view hidden folders and files in Visual Studio." lightbox="media/quickstart-open-folder/visualstudio/view-hidden-folders.png":::
 
    ::: moniker-end
 
+   ::: moniker range="vs-2022"
+
+   :::image type="content" source="media/quickstart-open-folder/vs-2022/view-hidden-folders.png" alt-text="Screenshot that shows how to view hidden folders and files." lightbox="media/quickstart-open-folder/vs-2022/view-hidden-folders.png":::
+
+   ::: moniker-end
 
 ## Run the program
 
@@ -76,12 +96,17 @@ After you open the existing Python code in Visual Studio, you can run the progra
 
 1. In **Solution Explorer**, right-click the _contemplate-koans.py_ file and select **Set as Startup Item**:
 
-   ::: moniker range=">=vs-2022"
+   ::: moniker range="visualstudio"
 
-   :::image type="content" source="media/quickstart-open-folder/vs-2022/set-as-startup-item.png" alt-text="Screenshot that shows how to set the contemplate koans Python file as the startup item in Solution Explorer in Visual Studio 2022." border="false" lightbox="media/quickstart-open-folder/vs-2022/set-as-startup-item.png":::
+   :::image type="content" source="media/quickstart-open-folder/visualstudio/set-as-startup-item.png" alt-text="Screenshot that shows how to set the contemplate koans Python file as the startup item in Visual Studio." lightbox="media/quickstart-open-folder/visualstudio/set-as-startup-item.png":::
 
    ::: moniker-end
 
+   ::: moniker range="vs-2022"
+
+   :::image type="content" source="media/quickstart-open-folder/vs-2022/set-as-startup-item.png" alt-text="Screenshot that shows how to set the contemplate koans Python file as the startup item." lightbox="media/quickstart-open-folder/vs-2022/set-as-startup-item.png":::
+
+   ::: moniker-end
 
    > [!IMPORTANT]
    > If your Startup Item isn't located in the root of the folder you opened, you must also add a line to the launch configuration JSON file as described in [Set working directory](#set-working-directory).
@@ -92,7 +117,7 @@ After you open the existing Python code in Visual Studio, you can run the progra
 
    For all of these start methods, Visual Studio detects that your Startup Item is a Python file and automatically runs the code in the default Python environment. The current environment is shown to the right of the Startup Item name on the toolbar. In the following example, the current environment is **Python 3.11 (64-bit)**:
 
-   :::image type="content" source="media/quickstart-open-folder/vs-2022/start-debug-from-toolbar.png" alt-text="Screenshot that shows how to start the program with debugging by using the solid play arrow on the Visual Studio 2022 toolbar." border="false" lightbox="media/quickstart-open-folder/vs-2022/start-debug-from-toolbar.png":::
+   :::image type="content" source="media/quickstart-open-folder/vs-2022/start-debug-from-toolbar.png" alt-text="Screenshot that shows how to start the program with debugging by using the solid play arrow on the Visual Studio 2022 toolbar." lightbox="media/quickstart-open-folder/vs-2022/start-debug-from-toolbar.png":::
 
    ::: moniker-end
 
@@ -127,15 +152,23 @@ Suppose you open the root folder of the `python_koans` repository and see a subf
 
 In such cases, you must also add a line to the launch configuration JSON file to specify the working directory:
 
-::: moniker range=">=vs-2022"
-
 1. In **Solution Explorer**, right-click the Python (_.py_) Startup File and select **Add Debug Configuration**:
 
-   :::image type="content" source="media/quickstart-open-folder/vs-2022/add-debug-configuration.png" alt-text="Screenshot that shows how to select the Add Debug Configuration option for a selected file in Solution Explorer in Visual Studio 2022." border="false" lightbox="media/quickstart-open-folder/vs-2022/add-debug-configuration.png":::
+   ::: moniker range="visualstudio"
+
+   :::image type="content" source="media/quickstart-open-folder/visualstudio/add-debug-configuration.png" alt-text="Screenshot that shows how to select the Add Debug Configuration option for a selected file in Visual Studio." lightbox="media/quickstart-open-folder/visualstudio/add-debug-configuration.png":::
+
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
+
+   :::image type="content" source="media/quickstart-open-folder/vs-2022/add-debug-configuration.png" alt-text="Screenshot that shows how to select the Add Debug Configuration option for a selected file." lightbox="media/quickstart-open-folder/vs-2022/add-debug-configuration.png":::
+
+   ::: moniker-end
 
 1. In the **Select Debugger** dialog, select the **Default** option in the list, and then choose **Select**:
 
-   :::image type="content" source="media/quickstart-open-folder/vs-2022/select-debugger.png" alt-text="Screenshot that shows how to select the Default Debugger in the Select a Debugger dialog in Visual Studio 2022." border="false" lightbox="media/quickstart-open-folder/vs-2022/select-debugger.png":::
+   :::image type="content" source="media/quickstart-open-folder/vs-2022/select-debugger.png" alt-text="Screenshot that shows how to select the Default Debugger in the Select a Debugger dialog." lightbox="media/quickstart-open-folder/vs-2022/select-debugger.png":::
 
    > [!NOTE]
    > If you don't see **Default** as an option, be sure to choose a Python _.py_ file when you select the **Add Debug Configuration** command. Visual Studio uses the file type to determine which debugger options to display.
@@ -167,9 +200,6 @@ In such cases, you must also add a line to the launch configuration JSON file to
 1. Save your changes to the _launch.vs.json_ file.
 
 1. Run your program again. The code execution should now run in the specified folder.
-
-::: moniker-end
-
 
 ## Related content
 
