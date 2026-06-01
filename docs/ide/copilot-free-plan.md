@@ -117,8 +117,6 @@ Learn more at [About GitHub Copilot Free](https://aka.ms/ghdocscopilotfreepage).
 
 See [About GitHub Copilot Free](https://aka.ms/ghdocscopilotfreepage) for information.
 
-[!INCLUDE [copilot-billing-notice](../includes/copilot-billing-notice.md)]
-
 ## Related content
 
 - [Install and manage GitHub Copilot in Visual Studio](visual-studio-github-copilot-install-and-states.md)
