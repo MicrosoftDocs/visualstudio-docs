@@ -1,7 +1,7 @@
 ---
 title: "Remote debug ASP.NET on an IIS computer"
 description: Learn how to set up and configure a Visual Studio ASP.NET MVC 4.8 application, deploy it to IIS, and attach the remote debugger from Visual Studio. 
-ms.date: 04/23/2024
+ms.date: 05/28/2026
 ms.topic: how-to
 author: "mikejo5000"
 ms.author: "mikejo"
@@ -18,7 +18,7 @@ To debug an ASP.NET application that has been deployed to IIS, install and run t
 This guide explains how to set up and configure a Visual Studio ASP.NET MVC 4.8 application, deploy it to IIS, and attach the remote debugger from Visual Studio.
 
 > [!NOTE]
-> To remote debug ASP.NET Core instead, see [Remote Debug ASP.NET Core on an IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md). For Azure App Service, see [Remote debug ASP.NET Core on Azure](/training/modules/dotnet-debug-visual-studio-azure-web-apps/) or, for Visual Studio Enterprise, use the [Snapshot Debugger](../debugger/debug-live-azure-applications.md) (.NET 4.6.1 required).
+> To remote debug ASP.NET Core instead, see [Remote Debug ASP.NET Core on an IIS Computer](../debugger/remote-debugging-aspnet-on-a-remote-iis-computer.md). For Azure App Service, see [Remote debug ASP.NET Core on Azure](../debugger/remote-debugging-azure-app-service.md).
 
 ## Prerequisites
 
@@ -26,6 +26,7 @@ Visual Studio 2019 or a later version is required to follow the steps shown in t
 
 These procedures have been tested on these server configurations:
 
+* Windows Server 2025 and IIS 10
 * Windows Server 2022 and IIS 10
 * Windows Server 2012 R2 and IIS 8 (For Windows Server 2008 R2, the server steps are different)
 
@@ -123,14 +124,13 @@ After the app deploys successfully, it should start automatically. If the app do
 When you're ready, switch to a debug configuration.
 
 > [!IMPORTANT]
-> If you choose to debug a Release configuration, you disable debugging in the *web.config* file when you publish.
+> If you choose a Release configuration, you disable debugging in the *web.config* file when you publish.
 
 ::: moniker range=">=vs-2022"
 1. Select **More Options** > **Edit** to edit the profile, and then select **Settings**.
 1. Select a **Debug** configuration, and then select **Remove additional files at destination** under the **File Publish** options.
 1. Select **Save** and then republish the app.
 ::: moniker-end
-
 
 > [!WARNING]
 > Using username and password credentials (basic authentication) is not the most secure method of authentication. Whenever possible, use alternative methods. For example, consider publishing to a package from Visual Studio, and then use *WebDeploy.exe* from a command line to deploy the package. With that method, you can use IIS Manager to configure authorized Windows users who can publish to the web server, and run *WebDeploy.exe* under that Windows user account. See [Installing and Configuring Web Deploy on IIS 8.0 or Later](/iis/install/installing-publishing-technologies/installing-and-configuring-web-deploy-on-iis-80-or-later). If you do use password credentials, be sure to use a strong password, and secure the password from being leaked or shared.
@@ -263,7 +263,7 @@ Starting in Visual Studio 2022 version 17.10 Preview 2, the Attach to Process di
 - If you can't connect to the host using the host name, try the IP address instead.
 - Make sure the required ports are open on the remote server.
 - Verify that the version of ASP.NET used in your app is the same as the version you installed on the server. For your app, you can view and set the version in the **Properties** page. To set the app to a different version, that version must be installed.
-- If the app tried to open, but you see a certificate warning, choose to trust the site. If you already closed the warning, you can edit the publishing profile, a *.pubxml file, in your project and add the following element (for test only): `<AllowUntrustedCertificate>true</AllowUntrustedCertificate>`
+- If the app tried to open, but you see a certificate warning, choose to trust the site. If you already closed the warning, you can edit the publishing profile, a *.pubxml* file in the *Properties\PublishProfiles* folder, and add the following element (for test only): `<AllowUntrustedCertificate>true</AllowUntrustedCertificate>`
 - After it's deployed, start the app in IIS to test that it deployed correctly.
 - Check the Output window in Visual Studio for status information, and check your error messages.
 
