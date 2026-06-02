@@ -98,21 +98,11 @@ It's easy to view variables using debugger windows like the **Watch** window. Ho
 1. Find the variable in the **Locals** window (**Debug > Windows > Locals**), right-click the variable, and select **Make Object ID**.
 
    ::: moniker range="visualstudio"
-   ![Screenshot that shows how to create an Object ID.](../debugger/media/visualstudio/debug-tips-watch-create-object-id.png "CreateObjectID")
+   ![Screenshot showing how to create an object ID in Visual Studio.](media/visualstudio/debug-tips-watch-create-object-id.png)
    ::: moniker-end
    ::: moniker range="vs-2022"
-   ![Screenshot that shows how to create an Object ID.](../debugger/media/dbg-tips-watch-create-object-id.png "CreateObjectID")
+   ![Screenshot showing how to create an object ID.](media/dbg-tips-watch-create-object-id.png "CreateObjectID")
    ::: moniker-end
-
-    ![Screenshot showing how to create an object ID in Visual Studio.](media/visualstudio/debug-tips-watch-create-object-id.png)
-
-    ::: moniker-end
-
-    ::: moniker range="vs-2022"
-
-    ![Screenshot showing how to create an object ID.](media/dbg-tips-watch-create-object-id.png "CreateObjectID")
-
-    ::: moniker-end
 
 1. You should see a **$** plus a number in the **Locals** window. This variable is the object ID.
 
