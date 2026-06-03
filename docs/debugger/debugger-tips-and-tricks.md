@@ -97,17 +97,12 @@ It's easy to view variables using debugger windows like the **Watch** window. Ho
 
 1. Find the variable in the **Locals** window (**Debug > Windows > Locals**), right-click the variable, and select **Make Object ID**.
 
-    ::: moniker range="visualstudio"
-
-    ![Screenshot showing how to create an object ID in Visual Studio.](media/visualstudio/debug-tips-watch-create-object-id.png)
-
-    ::: moniker-end
-
-    ::: moniker range="vs-2022"
-
-    ![Screenshot showing how to create an object ID.](media/dbg-tips-watch-create-object-id.png "CreateObjectID")
-
-    ::: moniker-end
+   ::: moniker range="visualstudio"
+   ![Screenshot showing how to create an object ID in Visual Studio.](media/visualstudio/debug-tips-watch-create-object-id.png)
+   ::: moniker-end
+   ::: moniker range="vs-2022"
+   ![Screenshot showing how to create an object ID.](media/dbg-tips-watch-create-object-id.png "CreateObjectID")
+   ::: moniker-end
 
 1. You should see a **$** plus a number in the **Locals** window. This variable is the object ID.
 
@@ -160,29 +155,21 @@ In addition, you can enter functions in the **Immediate** window to view return 
 When working with strings, it can be helpful to view the entire formatted string. To view a plain text, XML, HTML, or JSON string, click the magnifying glass icon ![VisualizerIcon](../debugger/media/dbg-tips-visualizer-icon.png "Visualizer icon") while hovering over a variable containing a string value.
 
 ::: moniker range="visualstudio"
-
-![Screenshot that shows how to open a String Visualizer in Visual Studio.](media/visualstudio/debug-tips-string-visualizers-2.png "OpenStringVisualizer")
-
+![Screenshot that shows how to open a String Visualizer.](../debugger/media/visualstudio/debug-tips-string-visualizers-2.png "OpenStringVisualizer")
 ::: moniker-end
 
 ::: moniker range="vs-2022"
-
-![Screenshot that shows how to open a String Visualizer.](media/dbg-tips-string-visualizers.png "OpenStringVisualizer")
-
+![Screenshot that shows how to open a String Visualizer.](../debugger/media/dbg-tips-string-visualizers.png "OpenStringVisualizer")
 ::: moniker-end
 
 A string visualizer may help you find out whether a string is malformed, depending on the string type. For example, a blank **Value** field indicates the string is not recognized by the visualizer type. For more information, see [String Visualizer Dialog Box](../debugger/string-visualizer-dialog-box.md).
 
 ::: moniker range="visualstudio"
-
-![Screenshot that shows the JSON String Visualizer in Visual Studio.](media/visualstudio/debug-tips-string-visualizer-json.png "JSONStringVisualizer")
-
+![Screenshot that shows the JSON String Visualizer.](../debugger/media/visualstudio/debug-tips-string-visualizer-json.png "JSONStringVisualizer")
 ::: moniker-end
 
 ::: moniker range="vs-2022"
-
-![Screenshot that shows the JSON String Visualizer.](media/dbg-tips-string-visualizer-json.png "JSONStringVisualizer")
-
+![Screenshot that shows the JSON String Visualizer.](../debugger/media/dbg-tips-string-visualizer-json.png "JSONStringVisualizer")
 ::: moniker-end
 
 For a few other types such as DataSet and DataTable objects that appear in the debugger windows, you can also open a built-in visualizer.
@@ -208,15 +195,11 @@ The debugger breaks into your code on unhandled exceptions. However, handled exc
 The **Exception Settings** dialog box allows you to tell the debugger to break into code on specific exceptions. In the illustration below, the debugger breaks into your code whenever a `System.NullReferenceException` occurs. For more information, see [Managing exceptions](../debugger/managing-exceptions-with-the-debugger.md).
 
 ::: moniker range="visualstudio"
-
-![Screenshot that shows the Exception Settings dialog box in Visual Studio.](media/visualstudio/debug-tips-exception-settings.png "ExceptionSettingsDialogBox")
-
+![Screenshot that shows the Exception Settings dialog box.](../debugger/media/visualstudio/debug-tips-exception-settings.png "ExceptionSettingsDialogBox")
 ::: moniker-end
 
 ::: moniker range="vs-2022"
-
-![Screenshot that shows the Exception Settings dialog box.](media/dbg-tips-exception-settings.png "ExceptionSettingsDialogBox")
-
+![Screenshot that shows the Exception Settings dialog box.](../debugger/media/dbg-tips-exception-settings.png "ExceptionSettingsDialogBox")
 ::: moniker-end
 
 ## Change the execution flow
@@ -253,15 +236,11 @@ To attach to your running app, the debugger loads symbol (.pdb) files generated 
 Open the **Modules** window while debugging by selecting **Debug > Windows > Modules**. The **Modules** window can tell you what modules the debugger is treating as user code, or [*My Code*](../debugger/just-my-code.md), and the symbol loading status for the module. In most scenarios, the debugger automatically finds symbol files for user code, but if you want to step into (or debug) .NET code, system code, or third-party library code, extra steps are required to obtain the correct symbol files.
 
 ::: moniker range="visualstudio"
-
-![Screenshot that shows how to view symbol information in the Modules window in Visual Studio.](media/visualstudio/debug-tips-modules-window.png "ViewSymbolInformation")
-
+![Screenshot that shows how to view symbol information in the Modules window.](../debugger/media/visualstudio/debug-tips-modules-window.png "ViewSymbolInformation")
 ::: moniker-end
 
 ::: moniker range="vs-2022"
-
-![Screenshot that shows how to view symbol information in the Modules window.](media/dbg-tips-modules-window.png "ViewSymbolInformation")
-
+![Screenshot that shows how to view symbol information in the Modules window.](../debugger/media/dbg-tips-modules-window.png "ViewSymbolInformation")
 ::: moniker-end
 
 You can load symbol information directly from the **Modules** window by right-clicking and choosing **Load Symbols**.

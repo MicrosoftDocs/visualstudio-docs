@@ -1,7 +1,7 @@
 ---
 title: "Remote Debug ASP.NET Core on IIS and an Azure VM"
 description: Learn how to set up and configure a Visual Studio ASP.NET Core app, deploy it to IIS using an Azure VM, and attach the remote debugger from Visual Studio. 
-ms.date: 04/23/2024
+ms.date: 05/28/2026
 ms.topic: how-to
 author: "mikejo5000"
 ms.author: "mikejo"
@@ -25,6 +25,7 @@ For an Azure VM, you must deploy your app from Visual Studio to Azure and you al
 
 These procedures have been tested on these server configurations:
 
+* Windows Server 2025 Datacenter: Azure Edition
 * Windows Server 2022 and IIS 10
 * Windows Server 2019 and IIS 10
 * Windows Server 2016 and IIS 10
@@ -53,7 +54,7 @@ This article includes steps on setting up a basic configuration of IIS on Window
 
 1. Create a new ASP.NET Core web application.
 
-   In Visual Studio, choose **File** > **Start window** to open the Start window, and then choose **Create a new project**. In the search box, type **web app**, then choose **C#** as the language, then choose **ASP.NET Core Web Application (Model-View-Controller)**, and then choose **Next**. On the next screen, name the project **MyASPApp**, and then choose **Next**.
+   In Visual Studio, choose **File** > **Start window** to open the Start window, and then choose **Create a new project**. In the search box, type **web app**, then choose **C#** as the language, then choose **ASP.NET Core Web App (Model-View-Controller)**, and then choose **Next**. On the next screen, name the project **MyASPApp**, and then choose **Next**.
 
    Choose either the recommended target framework or .NET 10, and then choose **Create**. The version must match the version installed on the server.
 
@@ -81,10 +82,7 @@ When you download the software, you might get requests to grant permission to lo
    > [!NOTE]
    > If you previously installed IIS, the ASP.NET Core IIS Module gets installed with ASP.NET Core. Otherwise, install the ASP.NET Core IIS Module manually.
 
-   For .NET Core 2, install the [.NET Core Windows Server Hosting](https://aka.ms/dotnetcore-2-windowshosting).
-
-   > [!NOTE]
-   > If the system doesn't have an Internet connection, obtain and install the *[Microsoft Visual C++ 2015 Redistributable](https://www.microsoft.com/download/details.aspx?id=53840)* before installing the .NET Core Windows Server Hosting bundle.
+   If the system doesn't have an Internet connection, obtain and install the *[Microsoft Visual C++ 2015 Redistributable](https://www.microsoft.com/download/details.aspx?id=53840)* before installing the .NET Core Windows Server Hosting bundle.
 
 1. Restart the system (or execute **net stop was /y** followed by **net start w3svc** from a command prompt to pick up a change to the system PATH).
 
@@ -132,14 +130,13 @@ After the app deploys successfully, it should start automatically.
 When you're ready, switch to a debug configuration.
 
 > [!IMPORTANT]
-> If you choose to debug a Release configuration, you disable debugging in the *web.config* file when you publish.
+> If you choose a Release configuration, you disable debugging in the *web.config* file when you publish.
 
 ::: moniker range=">=vs-2022"
 1. Select **More Options** > **Edit** to edit the profile, and then select **Settings**.
 1. Select **Save** and then republish the app.
 1. Select a **Debug** configuration, and then select **Remove additional files at destination** under the **File Publish** options.
 ::: moniker-end
-
 
 > [!WARNING]
 > Using username and password credentials (basic authentication) is not the most secure method of authentication. Whenever possible, use alternative methods. For example, consider publishing to a package from Visual Studio, and then use *WebDeploy.exe* from a command line to deploy the package. With that method, you can use IIS Manager to configure authorized Windows users who can publish to the web server, and run *WebDeploy.exe* under that Windows user account. See [Installing and Configuring Web Deploy on IIS 8.0 or Later](/iis/install/installing-publishing-technologies/installing-and-configuring-web-deploy-on-iis-80-or-later). If you do use password credentials, be sure to use a strong password, and secure the password from being leaked or shared.
@@ -251,7 +248,7 @@ Starting in Visual Studio 2022 version 17.10 Preview 2, the Attach to Process di
 - Make sure the required ports are open on the remote server.
 - For ASP.NET Core, you need to make sure that the Application pool field for the **DefaultAppPool** is set to **No Managed Code**.
 - Verify that the version of ASP.NET used in your app is the same as the version you installed on the server. For your app, you can view and set the version in the **Properties** page. To set the app to a different version, that version must be installed.
-- If the app tried to open, but you see a certificate warning, choose to trust the site. If you already closed the warning, you can edit the publishing profile, a *.pubxml file, in your project and add the following element (for test only): `<AllowUntrustedCertificate>true</AllowUntrustedCertificate>`
+- If the app tried to open, but you see a certificate warning, choose to trust the site. If you already closed the warning, you can edit the publishing profile, a *.pubxml* file in the *Properties\PublishProfiles* folder, and add the following element (for test only): `<AllowUntrustedCertificate>true</AllowUntrustedCertificate>`
 - After it's deployed, start the app in IIS to test that it deployed correctly.
 - Check the Output window in Visual Studio for status information, and check your error messages.
 
