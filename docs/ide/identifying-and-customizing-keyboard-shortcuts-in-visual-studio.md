@@ -37,11 +37,12 @@ If a shortcut is assigned to a command in the **Global** context and no other co
 
 ## Identify a keyboard shortcut
 
+:::moniker range="visualstudio"
 1. On the menu bar, choose **Tools** > **Options**.
 
-1. Expand **Environment**, and then choose **Keyboard**.
+1. Expand **All Settings** > **Environment**, and then choose **Keyboard**, and select the **Keyboard** link.
 
-    :::image type="content" source="media/tools-options-environment-keyboard.png" alt-text="Screenshot of Environment options in Visual Studio with the Keyboard option selected.":::
+    :::image type="content" source="media/visualstudio/tools-options-environment-keyboard.png" alt-text="Screenshot of Environment options in Visual Studio with the Keyboard option selected.":::
 
 1. In the **Show commands containing** box, enter all or part of the name of the command without spaces.
 
@@ -54,7 +55,26 @@ If a shortcut is assigned to a command in the **Global** context and no other co
 1. If the command has a keyboard shortcut, it appears in the **Shortcuts for selected command** list.
 
     :::image type="content" source="media/view-solution-explorer-command-shortcut.png" alt-text="Screenshot of the keyboard shortcut for the View.SolutionExplorer command.":::
+:::moniker-end
+:::moniker range="vs-2022"
+1. On the menu bar, choose **Tools** > **Options**.
 
+1. Expand **Environment**, and then choose **Keyboard**.
+
+    :::image type="content" source="media/tools-options-environment-keyboard.png" alt-text="Screenshot of Environment options in Visual Studio 2022 with the Keyboard option selected.":::
+
+1. In the **Show commands containing** box, enter all or part of the name of the command without spaces.
+
+   For example, you can find commands that contain *solutionexplorer*.
+
+1. In the list, choose the correct command.
+
+    For example, you can choose **View.SolutionExplorer**.
+
+1. If the command has a keyboard shortcut, it appears in the **Shortcuts for selected command** list.
+
+    :::image type="content" source="media/view-solution-explorer-command-shortcut.png" alt-text="Screenshot of the keyboard shortcut for the View.SolutionExplorer command.":::
+:::moniker-end
 ## Customize a keyboard shortcut
 
 1. On the menu bar, choose **Tools** > **Options**.
