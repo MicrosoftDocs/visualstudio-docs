@@ -30,12 +30,8 @@ Web Deploy provides additional configuration features that enable the creation o
 
     ![Screenshot showing Web Deploy 4.0 components](../../deployment/media/tutorial-iis-web-deploy-40-setup.png)
 
-1. (Optional) Verify that Web Deploy is running correctly by opening  **Control Panel > System and Security > Windows Tools > Services**, and then make sure that:
+1. (Optional) Verify that Web Deploy is running correctly by opening  **Control Panel > System and Security > Windows Tools > Services**, and then make sure that **Web Deployment Agent Service** is running (the service name is different in older versions).
 
-    * **Web Deployment Agent Service** is running (the service name is different in older versions).
-
-    * **Web Management Service** is running.
-
-    If one of the agent services is not running, restart the **Web Deployment Agent Service**.
+    If the agent service is not running, restart the **Web Deployment Agent Service**.
 
     If the Web Deployment Agent Service is not present at all, go to **Control Panel > Programs > Uninstall a program**, find **Microsoft Web Deploy \<version>**. Choose to **Change** the installation and make sure that you choose  **Will be installed to the local hard drive** for the Web Deploy components. Complete the change installation steps.

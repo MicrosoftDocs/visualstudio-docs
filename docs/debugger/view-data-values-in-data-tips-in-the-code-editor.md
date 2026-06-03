@@ -1,7 +1,7 @@
 ---
-title: View and change variable values with data tips
+title: View and Change Variable Values with Data Tips
 description: Use data tips while debugging code in the Visual Studio Code editor to view and change variable values like arrays and structures.
-ms.date: 3/17/2025
+ms.date: 5/29/2026
 ms.topic: how-to
 dev_langs:
   - CSharp
@@ -24,7 +24,17 @@ ms.subservice: debug-diagnostics
 
 This article explores how to work with the data tips feature in Visual Studio. Data tips provide a convenient way to view information about variables in your program while you debug your code. When you set breakpoints in your code and start debugging, data tips are visible for variables as they enter the current scope of execution. You can use the data tip to change the value for a variable in scope, and rerun the code over the breakpoint to see the effect of the change.
 
-:::image type="content" source="../debugger/media/data-tips-examples.png" border="false" alt-text="Screenshot of a debugging session in Visual Studio with examples of data tips for variables in scope." lightbox="../debugger/media/data-tips-examples.png":::
+::: moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/data-tips-examples.png" alt-text="Screenshot of a debugging session in Visual Studio with examples of data tips." lightbox="media/visualstudio/data-tips-examples.png":::
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+:::image type="content" source="media/data-tips-examples.png" alt-text="Screenshot of a debugging session with examples of data tips." lightbox="media/data-tips-examples.png":::
+
+::: moniker-end
 
 > [!TIP]
 > If you're new to debugging, you might want to read [Debugging for absolute beginners](../debugger/debugging-absolute-beginners.md) and [Debugging techniques and tools](../debugger/write-better-code-with-visual-studio.md) before you work through this article.
@@ -108,7 +118,17 @@ To pin a data tip, follow these steps:
 
 1. In the data tip, use the pushpin to select **Pin to source**:
 
-   :::image type="content" source="../debugger/media/dbg-tips-data-tips-pinned.png" border="false" alt-text="Screenshot that shows how to pin a data tip and move it to any location on the code editor surface.":::
+   ::: moniker range="visualstudio"
+
+   :::image type="content" source="media/visualstudio/debug-data-tips.png" alt-text="Screenshot that shows how to pin a data tip in Visual Studio.":::
+
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
+
+   :::image type="content" source="media/dbg-tips-data-tips-pinned.png" alt-text="Screenshot that shows how to pin a data tip.":::
+
+   ::: moniker-end
 
    Visual Studio pins the data tip to a place nearby the variable on the code surface. A pushpin appears in the gutter of the code editor next to the line where you pin the data tip.
 
@@ -124,7 +144,17 @@ To float a data tip, follow these steps:
 
    Visual Studio unpins the data tip and gives the data tip a solid color background. The pushpin for the data tip changes to the unpinned position, and the pushpin in the gutter of the code editor is removed.
 
-   :::image type="content" source="../debugger/media/dbg-tips-data-tips-float.png" border="false" alt-text="Screenshot that shows how to float a data tip anywhere in the Visual Studio IDE.":::
+   ::: moniker range="visualstudio"
+
+   :::image type="content" source="media/visualstudio/debug-data-tips-float.png" alt-text="Screenshot that shows how to float a data tip anywhere in Visual Studio.":::
+
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
+
+   :::image type="content" source="media/dbg-tips-data-tips-float.png" alt-text="Screenshot that shows how to float a data tip anywhere.":::
+
+   ::: moniker-end
 
 1. Select and drag the floating data tip to any location in the Visual Studio IDE.
 
@@ -168,13 +198,33 @@ To expand the view for an object in a data tip, follow these steps:
 
 1. In a data tip for an array, structure, or object, select the expand arrow before the item name to show the members. The view is presented in a tree format:
 
-   :::image type="content" source="../debugger/media/dbg-tour-data-tips-arrow.png" border="false" alt-text="Screenshot that shows how to select the expand arrow for an object in a data tip.":::
+   ::: moniker range="visualstudio"
+
+   :::image type="content" source="media/visualstudio/debug-data-tips-arrow.png" alt-text="Screenshot that shows how to select the expand arrow for an object in a data tip in Visual Studio.":::
+
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
+
+   :::image type="content" source="media/dbg-tour-data-tips-arrow.png" alt-text="Screenshot that shows how to select the expand arrow for an object in a data tip.":::
+
+   ::: moniker-end
 
    For a pinned data tip, select the plus symbol (**+**) before the variable name to expand the definition.
 
 1. Continue to select the expand arrows to view more of the member hierarchy:
 
-   :::image type="content" source="../debugger/media/dbg-tour-data-tips.png" border="false" alt-text="Screenshot that shows how to continue to expand the object tree to show the member tree." lightbox="../debugger/media/dbg-tour-data-tips.png":::
+   ::: moniker range="visualstudio"
+
+   :::image type="content" source="media/visualstudio/debug-tour-data-tips.png" alt-text="Screenshot that shows how to expand the object tree in Visual Studio." lightbox="media/visualstudio/debug-tour-data-tips.png":::
+
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
+
+   :::image type="content" source="media/dbg-tour-data-tips.png" alt-text="Screenshot that shows how to expand the object tree." lightbox="media/dbg-tour-data-tips.png":::
+
+   ::: moniker-end
 
 1. To move up and down in the expanded view, use the mouse or keyboard Up and Down arrow keys.
 
@@ -202,11 +252,19 @@ To use **Comments** in a data tip, follow these steps:
 
 1. To add a comment, insert your cursor in the **Comments** region and enter text. The region accepts multiple lines.
 
-   :::image type="content" source="../debugger/media/dbg-data-tips-comments.png" border="false" alt-text="Screenshot that shows how to enter comments in a data tip." lightbox="../debugger/media/dbg-data-tips-comments.png":::
+   ::: moniker range="visualstudio"
+
+   :::image type="content" source="media/visualstudio/debug-data-tips-comments.png" alt-text="Screenshot that shows how to enter comments in a data tip in Visual Studio." lightbox="media/visualstudio/debug-data-tips-comments.png":::
+
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
+
+   :::image type="content" source="media/dbg-data-tips-comments.png" alt-text="Screenshot that shows how to enter comments in a data tip." lightbox="media/dbg-data-tips-comments.png":::
+
+   ::: moniker-end
 
 1. To close the **Comments** region, use the double Up arrow to **Collapse comments**. Any comments you enter remain with the data tip, but they're not currently visible.
-
-::: moniker range=">= vs-2022"
 
 ## Pin properties in data tips
 
@@ -220,7 +278,17 @@ To pin properties in data tips, follow these steps:
 
    Visual Studio moves the selected property to the top of the object's property list. The property name and value display in the right column of the pinned data tip:
 
-   :::image type="content" source="../debugger/media/dbg-data-tips-pin-property.png" border="false" alt-text="Screenshot that shows how to pin properties in a data tip.":::
+   ::: moniker range="visualstudio"
+
+   :::image type="content" source="media/visualstudio/debug-data-tips-pin-property.png" alt-text="Screenshot that shows how to pin properties in a data tip in Visual Studio.":::
+
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
+
+   :::image type="content" source="media/dbg-data-tips-pin-property.png" alt-text="Screenshot that shows how to pin properties in a data tip.":::
+
+   ::: moniker-end
 
 1. To unpin a property in a data tip, select the pushpin for the property again, or right-click the property and select **Unpin Member As Favorite**.
 
@@ -232,7 +300,15 @@ You can also toggle visibility of property names and filter out unpinned propert
 
 The following image shows the various options on the right-click menu for the member hierarchy in a data tip:
 
-:::image type="content" source="../debugger/media/dbg-data-tips-member-right-click-menu.png" border="false" alt-text="Screenshot of the right-click menu for members in a data tip, which includes the 'Unpin Member As Favorite' and 'Show Only Pinned Members' options.":::
+::: moniker range="visualstudio"
+
+:::image type="content" source="media/visualstudio/debug-data-tips-member-right-click-menu.png" alt-text="Screenshot of the right-click menu for members in a data tip in Visual Studio." lightbox="media/visualstudio/debug-data-tips-member-right-click-menu.png":::
+
+::: moniker-end
+
+::: moniker range="vs-2022"
+
+:::image type="content" source="media/dbg-data-tips-member-right-click-menu.png" alt-text="Screenshot of the right-click menu for members in a data tip." lightbox="media/dbg-data-tips-member-right-click-menu.png":::
 
 ::: moniker-end
 
