@@ -17,18 +17,48 @@ Follow these steps to create a project from existing files.
 
 1. In the **Create New Project from Existing Python Code** wizard, set the **Folder path** to your existing code, set a **Filter** for file types, and specify any **Search paths** that your project requires, then select **Next**. If you don't know the search paths, leave the field blank.
 
+   ::: moniker range="visualstudio"
+
+   :::image type="content" source="../media/visualstudio/projects-from-existing-1.png" alt-text="Screenshot of a New Project creation from Existing Code, including choosing the folder path, file type filters, and search paths in Visual Studio." lightbox="../media/visualstudio/projects-from-existing-1.png":::
+
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
+
    :::image type="content" source="../media/projects-from-existing-1.png" alt-text="Screenshot of a New Project creation from Existing Code, including choosing the folder path, file type filters, and search paths." lightbox="../media/projects-from-existing-1.png":::
+
+   ::: moniker-end
 
 1. On the next page, select the **Startup file** for your project. Visual Studio selects the default global Python interpreter and version. You can change the environment by using the dropdown menu. When you're ready, select **Next**.
 
    > [!NOTE]
    > The dialog shows only files in the root folder. If the file you want is in a subfolder, leave the startup file blank. You can set the startup file in **Solution Explorer**, as described in a later step.
 
+   ::: moniker range="visualstudio"
+
+   :::image type="content" source="../media/visualstudio/projects-from-existing-2.png" alt-text="Screenshot of New Project Creation from Existing Code window, including choosing the startup file and Python environment in Visual Studio." lightbox="../media/visualstudio/projects-from-existing-2.png":::
+
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
+
    :::image type="content" source="../media/projects-from-existing-2.png" alt-text="Screenshot of New Project Creation from Existing Code window, including choosing the startup file and Python environment." lightbox="../media/projects-from-existing-2.png":::
+
+   ::: moniker-end
 
 1. Select the location to store the project file (a _.pyproj_ file on disk). If applicable, you can also include autodetection of virtual environments and customize the project for different web frameworks. If you're unsure of these options, leave the fields set to the defaults.
 
+   ::: moniker range="visualstudio"
+
+   :::image type="content" source="../media/visualstudio/projects-from-existing-3.png" alt-text="Screenshot of a New Project creation from Existing Code window, including the location for the project file and other optional settings in Visual Studio." lightbox="../media/visualstudio/projects-from-existing-3.png":::
+
+   ::: moniker-end
+
+   ::: moniker range="vs-2022"
+
    :::image type="content" source="../media/projects-from-existing-3.png" alt-text="Screenshot of a New Project creation from Existing Code window, including the location for the project file and other optional settings." lightbox="../media/projects-from-existing-3.png" :::
+
+   ::: moniker-end
 
 1. Select **Finish**.
 
