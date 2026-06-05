@@ -41,7 +41,12 @@ To open the package manager, from Solution Explorer, right-click the **npm** nod
 
 Next, you can search for npm packages, select one, and install by selecting **Install Package**.
 
+::: moniker range="visualstudio"
+:::image type="content" source="../javascript/media/visualstudio/npm-packages-install-esproj.png" alt-text="Install new npm package for esproj" border="true":::
+::: moniker-end
+::: moniker range="vs-2022"
 :::image type="content" source="../javascript/media/vs-2022/npm-packages-install-esproj.png" alt-text="Install new npm package for esproj" border="true":::
+::: moniker-end
 
 ## ASP.NET Core projects
 
