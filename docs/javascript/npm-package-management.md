@@ -1,7 +1,7 @@
 ---
 title: Manage npm packages for Node.js and ASP.NET Core projects
 description: Manage packages in Visual Studio by using the Node.js package manager (npm) for both Node.js and ASP.NET Core applications.
-ms.date: "2/11/2025"
+ms.date: "6/05/2026"
 ms.topic: "how-to"
 ms.devlang: javascript
 author: "mikejo5000"
@@ -16,30 +16,32 @@ dev_langs:
 npm allows you to install and manage packages for use in both Node.js and ASP.NET Core applications. Visual Studio makes it easy to interact with npm and issue npm commands through the UI or directly. If you're unfamiliar with npm and want to learn more, go to the [npm documentation](https://docs.npmjs.com/).
 
 Visual Studio integration with npm is different depending on your project type.
+
 ::: moniker range=">=vs-2022"
 * [CLI-based projects (.esproj)](#cli-based-project-esproj)
 * [ASP.NET Core](#aspnet-core-projects)
 * [Open folder (Node.js)](../javascript/develop-javascript-code-without-solutions-projects.md)
 ::: moniker-end
 
-
 > [!IMPORTANT]
 > npm expects the *node_modules* folder and *package.json* in the project root. If your app's folder structure is different, you should modify your folder structure if you want to manage npm packages using Visual Studio.
 
-::: moniker range=">=vs-2022"
 ## CLI-based project (.esproj)
 
 Starting in Visual Studio 2022, the npm package manager is available for [CLI-based projects](../javascript/javascript-in-vs-2022.md#project-templates), so you can now download npm modules similarly to the way you download NuGet packages for ASP.NET Core projects. Then you can use *package.json* to modify and delete packages.
 
 To open the package manager, from Solution Explorer, right-click the **npm** node in your project and choose **Add npm package**.
 
+::: moniker range="visualstudio"
+:::image type="content" source="../javascript/media/visualstudio/npm-packages-open-manager-esproj.png" alt-text="Open package manager from Solution Explorer" border="true":::
+::: moniker-end
+::: moniker range="vs-2022"
 :::image type="content" source="../javascript/media/vs-2022/npm-packages-open-manager-esproj.png" alt-text="Open package manager from Solution Explorer" border="true":::
+::: moniker-end
 
 Next, you can search for npm packages, select one, and install by selecting **Install Package**.
 
 :::image type="content" source="../javascript/media/vs-2022/npm-packages-install-esproj.png" alt-text="Install new npm package for esproj" border="true":::
-::: moniker-end
-
 
 ## ASP.NET Core projects
 
