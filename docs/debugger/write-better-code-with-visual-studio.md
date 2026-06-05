@@ -1,7 +1,7 @@
 ---
 title: Debugging Techniques and Tools
 description: Write better code with fewer bugs by using Visual Studio to fix exceptions and resolve errors, and make improvements to your code.
-ms.date: 5/22/2026
+ms.date: 06/03/2026
 ms.topic: how-to
 helpviewer_keywords:
   - "debugger"
@@ -224,7 +224,12 @@ When you select this item, Visual Studio adds the `using System.Text` statement 
 
 The preceding error is a common one that you usually fix by adding a new `using` statement to your code. There are several common, similar errors to this one such as `The type or namespace "Name" cannot be found.` These kinds of errors might indicate a missing assembly reference (right-click the project, choose **Add** > **Reference**), a misspelled name, or a missing library that you need to add (for C#, right-click the project and choose **Manage NuGet Packages**).
 
+::: moniker range="visualstudio"
+## Fix the remaining errors
+::: moniker-end
+::: moniker range="vs-2022"
 ## Fix the remaining errors and warnings
+::: moniker-end
 
 There are a few more squiggles to look at in this code. Here, you see a common type conversion error. When you hover over the squiggle, you see that the code is trying to convert a string to an int, which isn't supported unless you add explicit code to make the conversion.
 
@@ -258,6 +263,8 @@ internal int points;
 
 The red squiggly lines in the code editor go away.
 
+::: moniker range="vs-2022"
+
 Next, hover over the green squiggle in the declaration of the `points` data member. The code analyzer tells you the variable is never assigned a value.
 
 ![Warning message for unassigned variable](../debugger/media/write-better-code-warning-message.png)
@@ -276,10 +283,17 @@ item.totalpoints += users[i].points;
 ```
 
 The green squiggle goes away.
+::: moniker-end
 
 ## Fix an exception
 
+::: moniker range="visualstudio"
+When you have fixed all the red squiggles at least looked at all the green squiggles, you're ready to start the debugger and run the app.
+::: moniker-end
+
+::: moniker range="vs-2022"
 When you have fixed all the red squiggles and resolved—or at least investigated—all the green squiggles, you're ready to start the debugger and run the app.
+::: moniker-end
 
 Press **F5** (**Debug > Start Debugging**) or the **Start Debugging** button ![Start Debugging](../debugger/media/dbg-tour-start-debugging.png "Start Debugging") in the Debug toolbar.
 
