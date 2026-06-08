@@ -1,7 +1,7 @@
 ---
 title: "Browse repos, compare branches & commits"
-description: Browse any Git repository in Visual Studio by using the Git Repository window to view local and remote branches and multiple branches at the same time.
-ms.date: 05/13/2026
+description: Browse Git repositories in Visual Studio, compare branches and commits, view line-by-line change history with Git Blame annotations, and track who made specific code changes.
+ms.date: 05/26/2026
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
@@ -228,6 +228,53 @@ Checking out the tip of a remote branch can be helpful if you would like to quic
 :::image type="content" source="media/vs-2022/git-checkout-tip-commit.png" alt-text="Screenshot that shows the Checkout Tip Commit option." lightbox="media/vs-2022/git-checkout-tip-commit.png":::
 
 :::moniker-end
+
+## View line-by-line change history with Git Blame
+
+Git Blame shows you who last modified each line of code in a file, along with when and why the change was made. This feature is useful when you need to understand the history and context behind specific code changes, track down the origin of a bug, or identify the author of a particular implementation.
+
+### Access Git Blame annotations
+
+You can view Git Blame annotations directly from the code editor or from Solution Explorer.
+
+**From the code editor:**
+
+1. Open a file in the editor.
+1. Right-click anywhere in the code editor.
+1. Select **Git** > **Blame (Annotate)**.
+
+**From Solution Explorer:**
+
+1. Right-click a file in Solution Explorer.
+1. Select **Git** > **Blame (Annotate)**.
+
+Blame annotations appear in the left margin of the editor, showing the author name, commit date, and the commit link.
+The file opens in the editor with Blame annotations visible.
+
+
+### Explore commit details from Blame annotations
+
+Once Blame annotations are visible in the editor, you can interact with them to get more information:
+
+- **Click** on the commit to **View details**: you can view the complete commit, where you can see all files changed in that commit and access additional options, such as comparing the current version with the previous version.
+
+> [!TIP]
+> Git Blame is most useful for understanding unexpected behavior or tracking down why a particular change was made.
+
+### When Git Blame is unavailable
+
+Git Blame is only available for tracked files that have been committed to your Git repository. If the **Git** > **Blame** option doesn't appear, check the table below for common causes and solutions.
+
+| **Scenario** | **Solution** |
+|----------|----------|
+| **File is not tracked** | Check the **Git Changes** window. If the file appears under **Untracked Files**, stage and commit it first. |
+| **File is in .gitignore** | Remove the file from `.gitignore`, add it to the repository, and commit. |
+| **Binary file** | Blame only works with text files like source code (`.cs`, `.js`, `.py`), configuration files (`.json`, `.xml`), and documentation (`.md`, `.txt`). For binary files (`.dll`, `.exe`, images), use **Git** > **View History** instead. |
+| **No commit history** | Make at least one commit that includes the file. |
+| **Detached HEAD state** | Check the status bar. If detached, checkout a branch from the **Git Repository** window. See [Checkout commits](#checkout-commits). |
+| **Very large file** | For performance, Blame may be disabled on extremely large files. Use **Git** > **View History** instead. |
+
+**Alternative for all scenarios:** Right-click the file and select **Git** > **View History** to see all commits that modified the file.
 
 ## Related content
 
