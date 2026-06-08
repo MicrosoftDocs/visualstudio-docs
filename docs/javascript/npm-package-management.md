@@ -63,8 +63,8 @@ If your project does not already include a *package.json* file, you can add one 
 
    ```json
    "devDependencies": {
-      "gulp": "4.0.2",
-      "@types/jquery": "3.5.29"
+     "gulp": "5.0.1",
+     "@types/jquery": "4.0.1"
    }
    ```
 
