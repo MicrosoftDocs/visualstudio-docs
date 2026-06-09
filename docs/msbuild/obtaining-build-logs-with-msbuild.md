@@ -86,10 +86,20 @@ In the following example, a binary log file is created with the name *binarylogf
 ```cmd
 -bl:binarylogfilename.binlog
 ```
-
 You can use the [Structured log viewer](https://msbuildlog.com/) to view binary logs in a way that makes it much easier to see what is going on.
 
 For more information, see [Command-line reference](../msbuild/msbuild-command-line-reference.md).
+
+The binary log includes the following information from a build:
+- Logged messages with the `diagnostic` verbosity level
+- The full contents of files imported by each project
+- Properties, their final value, and any property reassignments
+- Items, their metadata, and any item updates or removals
+- Task inputs and outputs
+
+> [!NOTE]
+> Since the binary logger includes a substantial amount of information from the build, large builds can experience measurable overhead when it is enabled.
+> Users with large, complex builds should consider only using the binary logger when necessary to avoid the potential for longer overall build times.
 
 ## Use a custom logger
 
