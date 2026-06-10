@@ -70,7 +70,7 @@ When you first sign in to Visual Studio 2026, settings from your Visual Studio 2
 
 ## Side-by-side synchronized settings
 
-Certain settings like tool window layout aren't shared between different side-by-side installations of Visual Studio. For example, the *CurrentSettings.vssettings* file in *%userprofile%\Documents\Visual Studio 2019\Settings* is in an installation-specific folder that is similar to *%localappdata%\Microsoft\VisualStudio\16.0_xxxxxxxx\Settings*.
+Settings aren't shared between different side-by-side installations of Visual Studio. The *CurrentSettings.vssettings* file is in an installation-specific folder that is similar to *%localappdata%\Microsoft\VisualStudio\version_xxxxxxxx\Settings*.
 
 ## Reset synchronized settings
 
