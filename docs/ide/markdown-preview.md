@@ -17,6 +17,8 @@ monikerRange: "visualstudio"
 
 The Visual Studio Markdown editor gives you more control over how you view and edit Markdown files. You can switch between different preview modes to focus on either editing or viewing rendered content, and you can zoom in on Mermaid diagrams to see details in complex visualizations.
 
+For general behavior and supported surfaces, including emoji rendering in full color, see [Use color emojis in Visual Studio](color-emojis.md).
+
 ## Preview modes
 
 Visual Studio provides three preview modes for working with Markdown files:
