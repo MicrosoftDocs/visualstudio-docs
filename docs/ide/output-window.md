@@ -52,6 +52,8 @@ Turns the Word Wrap feature on and off in the **Output** pane. When Word Wrap is
 
 The **Output** pane selected in the **Show output from** list displays output from the source indicated.
 
+Emoji characters in Output text render in full color. For more information about emoji behavior across Visual Studio surfaces, see [Use color emojis in Visual Studio](color-emojis.md).
+
 ## Route messages to the Output window
 
 To display the **Output** window whenever you build a project, in the **Options** dialog box, on the **Projects and Solutions** > **General** page, select **Show Output window when build starts**. Then, with a code file open for editing, choose **Go to Next Message** and **Go To Previous Message** on the **Output** window toolbar to select entries in the **Output** pane. As you do this, the insertion point in the code editor jumps to the line of code where the selected problem occurs.
