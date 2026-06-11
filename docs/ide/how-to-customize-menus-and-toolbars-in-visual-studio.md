@@ -1,7 +1,7 @@
 ---
 title: Customize menus and toolbars
 description: Learn how to customize Visual Studio menus and toolbars, and also learn how to customize any commands included in the menus and toolbars.
-ms.date: 01/27/2023
+ms.date: 06/10/2026
 ms.topic: how-to
 f1_keywords:
 - vs.renametoolbar
