@@ -5,11 +5,12 @@ ms.topic: troubleshooting-general
 robots: noindex, nofollow
 author: joseb-rdc
 ms.author: amast 
-ms.date: 05/19/2026
+ms.date: 06/12/2026
 ms.assetid: 4d355da2-0447-4675-8bc6-1c0406256920
 sap.id: 2fd08cf9-47b0-4ce8-95d9-2cd5f1cf5bd9
 use.type: subscriber
 subscription.type: vl, cloud, retail, partner
+tags: subscriber, solutions, support
 ---
 
 # Visual Studio subscriptions support
