@@ -21,7 +21,12 @@ To create a code map in Visual Studio Enterprise, first install the **Code Map**
 
 1. Scroll down to the **Code tools** section and select **Code Map** and **Live Dependency Validation**.
 
+   :::moniker range="vs-2022"
    ![Code Map and Live Dependency Validation components in Visual Studio Installer](media/modeling-components.png)
+   :::moniker-end
+   :::moniker range="visualstudio"
+   ![Screenshot that shows Code Map and Live Dependency Validation components in Visual Studio Installer.](media/visualstudio/modeling-components.png)
+   :::moniker-end
 
 1. Select **Modify**.
 

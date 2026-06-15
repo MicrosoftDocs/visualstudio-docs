@@ -1,7 +1,7 @@
 ---
 title: Synchronize settings across multiple computers
 description: Learn how to synchronize your Visual Studio settings across multiple computers by signing in to the same personalization account.
-ms.date: 05/20/2022
+ms.date: 06/10/2026
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
@@ -70,7 +70,7 @@ When you first sign in to Visual Studio 2026, settings from your Visual Studio 2
 
 ## Side-by-side synchronized settings
 
-Certain settings like tool window layout aren't shared between different side-by-side installations of Visual Studio. For example, the *CurrentSettings.vssettings* file in *%userprofile%\Documents\Visual Studio 2019\Settings* is in an installation-specific folder that is similar to *%localappdata%\Microsoft\VisualStudio\16.0_xxxxxxxx\Settings*.
+Settings aren't shared between different side-by-side installations of Visual Studio. The *CurrentSettings.vssettings* file is in an installation-specific folder that is similar to *%localappdata%\Microsoft\VisualStudio\version_xxxxxxxx\Settings*.
 
 ## Reset synchronized settings
 
