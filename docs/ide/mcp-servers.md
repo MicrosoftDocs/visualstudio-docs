@@ -1,7 +1,7 @@
 ---
-title: Use MCP Servers
-description: Learn how to add MCP servers in Visual Studio to extend GitHub Copilot agent capabilities, set up mcp.json, and manage tool permissions.
-ms.date: 04/29/2026
+title: Use MCP Servers to Extend GitHub Copilot
+description: Learn how to add MCP servers in Visual Studio, configure mcp.json, and manage tool permissions to extend GitHub Copilot agents. Get started.
+ms.date: 05/26/2026
 ms.update-cycle: 180-days
 ms.topic: get-started
 author: RoseHJM
@@ -13,9 +13,9 @@ ai-usage: ai-assisted
 
 ---
 
-# Use MCP servers
+# Use MCP servers in Visual Studio
 
-Model Context Protocol (MCP) is an open standard that lets GitHub Copilot use tools and services outside the IDE. In Visual Studio, MCP lets GitHub Copilot agents use external tools by connecting MCP clients to MCP servers that expose important functionality like file access, repo management, or PR creation. By standardizing how tools are discovered and invoked, MCP removes the need for custom integrations and makes it easy to extend AI assistants simply by adding new MCP servers.
+MCP servers use the open Model Context Protocol (MCP) to let GitHub Copilot use tools and services outside the IDE. In Visual Studio, you can add MCP servers to extend agent capabilities for tasks such as file access, repo management, and pull request creation.
 
 MCP support enhances GitHub Copilot agent mode by allowing you to connect any MCP-compatible server to your agentic coding workflow. MCP support in Visual Studio works as follows:
 
@@ -57,29 +57,29 @@ Try out some popular MCP servers in Visual Studio with one-click:
 - [![Install MongoDB MCP in Visual Studio](https://img.shields.io/badge/Visual_Studio-Install_MongoDB_MCP-purple?style=flat-square&logo=visualstudio&logoColor=white)](https://vs-open.link/mcp-install?%7B%22name%22%3A%22mongodb%22%2C%22gallery%22%3Atrue%2C%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22mongodb-mcp-server%22%5D%7D) – Database operations and management. Execute queries, manage collections, aggregation pipelines, and document operations.
 - [![Install HuggingFace MCP in Visual Studio](https://img.shields.io/badge/Visual_Studio-Install_HuggingFace_MCP-purple?style=flat-square&logo=visualstudio&logoColor=white)](https://vs-open.link/mcp-install?%7B%22name%22%3A%22huggingface%22%2C%22gallery%22%3Atrue%2C%22url%22%3A%22https%3A%2F%2Fhf.co%2Fmcp%22%7D) – Access models, datasets, and Spaces on the Hugging Face Hub.
 
-### Add an MCP Server from chat
+### Add an MCP server from chat
 
 To add an MCP server from chat view:
 
 1. Select the green plus (`+`) button in the tool picker in the chat window.
 
-   :::image type="content" source="media/vs-2022/mcp-servers/plus-button-add-mcp.png" alt-text="Screenshot the plus button in tool picker of Visual Studio chat to add MCP server." lightbox="media/vs-2022/mcp-servers/configure-server-visual-studio.png":::
+   :::image type="content" source="media/vs-2022/mcp-servers/plus-button-add-mcp.png" alt-text="Screenshot of the plus button in the Visual Studio chat tool picker for adding an MCP server." lightbox="media/vs-2022/mcp-servers/configure-server-visual-studio.png":::
 
 1. Specify the server name and connection details, such as the URL for HTTP servers or the command and arguments for stdio servers.
 
-   :::image type="content" source="media/vs-2022/mcp-servers/configure-server-visual-studio.png" alt-text="Screenshot that shows adding an MCP server from the chat view." lightbox="media/vs-2022/mcp-servers/configure-server-visual-studio.png":::
+   :::image type="content" source="media/vs-2022/mcp-servers/configure-server-visual-studio.png" alt-text="Screenshot of the chat view for adding an MCP server in Visual Studio." lightbox="media/vs-2022/mcp-servers/configure-server-visual-studio.png":::
 
 ### Add an MCP server from the GitHub MCP server registry
 
-You can install an MCP server directly from the GitHub MCP server registry via Extensions in Visual Studio.
+You can install an MCP server directly from the GitHub MCP server registry via **Extensions** in Visual Studio.
 
 1. From the Visual Studio menu, select **Extensions** > **MCP Registries...** to open the **MCP Server Manager**.
 
-    :::image type="content" source="media/vs-2022/mcp-servers/model-context-protocol-registry.png" alt-text="Screenshot that shows the Extensions menu for MCP Registries." lightbox="media/vs-2022/mcp-servers/model-context-protocol-registry.png":::
+    :::image type="content" source="media/vs-2022/mcp-servers/model-context-protocol-registry.png" alt-text="Screenshot of the Extensions menu option for MCP Registries in Visual Studio." lightbox="media/vs-2022/mcp-servers/model-context-protocol-registry.png":::
        
 1. Select the server you want, and then select **Install** for your Visual Studio instance.
 
-    :::image type="content" source="media/vs-2022/mcp-servers/model-context-protocol-server-manager.png" alt-text="Screenshot that shows adding an MCP server from the MCP Server Manager." lightbox="media/vs-2022/mcp-servers/model-context-protocol-server-manager.png":::
+    :::image type="content" source="media/vs-2022/mcp-servers/model-context-protocol-server-manager.png" alt-text="Screenshot of the MCP Server Manager for installing an MCP server." lightbox="media/vs-2022/mcp-servers/model-context-protocol-server-manager.png":::
 
 ### Add an MCP server to the `.mcp.json` file
 
@@ -105,23 +105,23 @@ The following steps walk you through a configuration example with the GitHub MCP
 1. In the file, select **Authentication Required** from the CodeLens that appears to authenticate to the server through a GitHub account.
    Select **Authenticate** on the pop-up dialog to authenticate with your GitHub account.
 
-    :::image type="content" source="media/vs-2022/mcp-servers/codelens-authentication.png" alt-text="Screenshot that shows CodeLens authentication." lightbox="media/vs-2022/mcp-servers/codelens-authentication.png":::
+    :::image type="content" source="media/vs-2022/mcp-servers/codelens-authentication.png" alt-text="Screenshot of the CodeLens prompt for MCP server authentication." lightbox="media/vs-2022/mcp-servers/codelens-authentication.png":::
 
     If you don't see the CodeLens, ensure it's enabled in **Tools** > **Options** > **Text Editor** > **CodeLens**.
 
 1. At the bottom of the chat panel, select **Agent** from the mode dropdown.
 
-    :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-dropdown.png" alt-text="Screenshot that shows the Copilot agent mode selector." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-dropdown.png":::
+    :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-dropdown.png" alt-text="Screenshot of the GitHub Copilot agent mode selector in the chat pane." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-dropdown.png":::
 
 1. Select the tools that you want to use, for example, **List issues**.
 
-    :::image type="content" source="media/vs-2022/mcp-servers/model-context-protocol-github-tools-list.png" alt-text="Screenshot that shows MCP GitHub tools." lightbox="media/vs-2022/mcp-servers/model-context-protocol-github-tools-list.png":::
+    :::image type="content" source="media/vs-2022/mcp-servers/model-context-protocol-github-tools-list.png" alt-text="Screenshot of GitHub MCP tools available in the Visual Studio chat pane." lightbox="media/vs-2022/mcp-servers/model-context-protocol-github-tools-list.png":::
 
    Try a sample prompt: **List issues assigned to me on GitHub**.
 
 1. Copilot asks for permission to use a tool that the MCP server made available to it. Select **Allow** with the scope that you want to proceed with.
 
-    :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-tool-approval.png" alt-text="Screenshot that shows confirmation options for agent tools." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-tool-approval.png":::
+    :::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-tool-approval.png" alt-text="Screenshot of confirmation options for GitHub Copilot agent tools." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-tool-approval.png":::
 
 ## Manage configuration of MCP servers
 
@@ -157,7 +157,7 @@ It's common to invoke tools through package managers. For example, use `npx -y @
 
 The format must follow the MCP specification. For example, it must include an array of server objects, each with `name`, `command` or `url`, and `transport`.
 
-### Editing MCP configuration
+### Edit MCP configuration
 
 If you have an existing `mcp.json` file and you check the file into your version control system, add the file location to **Solution Items** in Solution Explorer.
 
@@ -165,13 +165,13 @@ When you save the file with valid syntax, the GitHub Copilot agent restarts and 
 
 :::moniker range="visualstudio"
 
-:::image type="content" source="media/visualstudio/model-context-protocol-add-solution-item.png" alt-text="Screenshot that shows how to add the MCP configuration file location to Solution Items." lightbox="media/visualstudio/model-context-protocol-add-solution-item.png":::
+:::image type="content" source="media/visualstudio/model-context-protocol-add-solution-item.png" alt-text="Screenshot of adding the MCP configuration file location to Solution Items." lightbox="media/visualstudio/model-context-protocol-add-solution-item.png":::
 
 :::moniker-end
 
 :::moniker range="<=vs-2022"
 
-:::image type="content" source="media/vs-2022/mcp-servers/model-context-protocol-add-solution-item.png" alt-text="Screenshot that shows adding the MCP configuration file location to Solution Items." lightbox="media/vs-2022/mcp-servers/model-context-protocol-add-solution-item.png":::
+:::image type="content" source="media/vs-2022/mcp-servers/model-context-protocol-add-solution-item.png" alt-text="Screenshot of the MCP configuration file location added to Solution Items." lightbox="media/vs-2022/mcp-servers/model-context-protocol-add-solution-item.png":::
 
 :::moniker-end
 
@@ -186,7 +186,50 @@ As soon as Visual Studio discovers or adds a server:
 - If you remove a server, Visual Studio immediately stops its process and withdraws all its tools from the UI.
 - If you edit a server definition, Visual Studio terminates and restarts it, and then re-queries.
 
-### Management of tool approvals
+:::moniker range="visualstudio"
+
+## MCP server trust dialog
+
+> [!NOTE]
+> MCP server trust is available in Visual Studio 2026 version 18.7 and later.
+
+Visual Studio asks you to trust an MCP server again when the server has changed since the last time you used it. This prompt helps you decide whether to run the updated server. 
+
+### What to do when you're prompted
+
+When the trust dialog appears, review the change and choose the action that matches your intent:
+
+- **Accept** to run this updated version now.
+- **Always Trust** to stop future trust prompts for this server.
+- **Reject** to stop startup because you don't want to run the updated server.
+
+If you choose **Reject**, Visual Studio doesn't start the server and asks again the next time you try to activate it.
+
+### When you'll see the trust dialog
+
+You'll be prompted when Visual Studio detects changes to either of these:
+
+- Server configuration details, such as transport type, URL, command, or arguments.
+- Server capabilities, such as tools, prompts, resources, resource templates, or instructions.
+
+### When you won't see the trust dialog
+
+Visual Studio skips the prompt when:
+
+- The server is built in and shipped with the extension.
+- Organization policy is set to `RegistryOnly`.
+- You already selected **Always Trust** for that server.
+- It's the first time the server is seen. Visual Studio saves an initial trust baseline automatically.
+
+### Turn trust prompts on or off for updated MCP servers
+
+To control whether Visual Studio prompts before running tools from an updated MCP server, go to **Tools** > **Options** > **GitHub** > **Copilot** and in **Copilot Chat** select or clear **Show trust dialog before running tools from an updated MCP server**.
+
+If you don't see this setting, update to Visual Studio 2026 version 18.7 or later.
+
+:::moniker-end
+
+## Management of tool approvals
 
 When you invoke a tool, Copilot requests confirmation to run the tool. The reason is that tools might run locally on your machine and perform actions that modify files or data.
 
@@ -194,7 +237,7 @@ When you invoke a tool, Copilot requests confirmation to run the tool. The reaso
 
 After a tool invocation, on the chat pane, use the **Confirm** dropdown options. You can automatically confirm the specific tool for the current session, the current solution, or all future invocations.
 
-:::image type="content" source="media/visualstudio/copilot-agent-tool-approval.png" alt-text="Screenshot that shows how to manage agent tool approvals." lightbox="media/visualstudio/copilot-agent-tool-approval.png":::
+:::image type="content" source="media/visualstudio/copilot-agent-tool-approval.png" alt-text="Screenshot of the chat pane options for managing agent tool approvals." lightbox="media/visualstudio/copilot-agent-tool-approval.png":::
 
 :::moniker-end
 
@@ -202,7 +245,7 @@ After a tool invocation, on the chat pane, use the **Confirm** dropdown options.
 
 After a tool invocation, on the chat pane, use the **Allow** dropdown options. You can automatically confirm the specific tool for the current session, the current solution, or all future invocations.
 
-:::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-tool-approval.png" alt-text="Screenshot that shows managing agent tool approvals." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-tool-approval.png":::
+:::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-tool-approval.png" alt-text="Screenshot of agent tool approval options in the Visual Studio chat pane." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-tool-approval.png":::
 
 :::moniker-end
 
@@ -210,7 +253,7 @@ After a tool invocation, on the chat pane, use the **Allow** dropdown options. Y
 
 You can reset tool confirmation selections in the **Tools** > **Options** dialog, in the **All Settings** > **GitHub** > **Copilot** > **Tools** section.
 
-:::image type="content" source="media/visualstudio/copilot-agent-tool-config.png" alt-text="Screenshot that shows Copilot tool configuration settings." lightbox="media/visualstudio/copilot-agent-tool-config.png":::
+:::image type="content" source="media/visualstudio/copilot-agent-tool-config.png" alt-text="Screenshot of GitHub Copilot tool configuration settings in Visual Studio." lightbox="media/visualstudio/copilot-agent-tool-config.png":::
 
 :::moniker-end
 
@@ -218,7 +261,7 @@ You can reset tool confirmation selections in the **Tools** > **Options** dialog
 
 You can reset tool confirmation selections in the **Tools** > **Options** dialog, under the **GitHub** > **Copilot** section in the **Tools** group.
 
-:::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-tool-config.png" alt-text="Screenshot that shows tool configuration settings." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-tool-config.png":::
+:::image type="content" source="media/vs-2022/copilot-agent-mode/copilot-agent-tool-config.png" alt-text="Screenshot of tool configuration settings for GitHub Copilot in Visual Studio." lightbox="media/vs-2022/copilot-agent-mode/copilot-agent-tool-config.png":::
 
 :::moniker-end
 
