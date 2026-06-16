@@ -24,7 +24,7 @@ Released May 27, 2026
 
   - Modernized the Unity Project Explorer with proper styling, and preview-on-click navigation.
 
-  - Added `ScriptedImporter` support for CodeLens and completion.
+  - Added `ScriptedImporter` support.
 
   - CodeLens now displays the values of serialized fields.
 
