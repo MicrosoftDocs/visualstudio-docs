@@ -16,7 +16,7 @@ Visual Studio Tools for Unity change log.
 ## 18.7.0.0
 Released May 27, 2026
 
-### New Features
+### New features
 
 - **Integration:**
 
