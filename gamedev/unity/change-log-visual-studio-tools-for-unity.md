@@ -1,7 +1,7 @@
 ---
 title: "Change Log (Visual Studio Tools for Unity, Windows)"
 description: View the change log for Visual Studio Tools for Unity, Windows. See changes from version 1.0.0.0 through 4.7.0.0 and beyond.
-ms.date: "3/17/2026"
+ms.date: "5/27/2026"
 ms.subservice: unity-tools
 ms.service: visual-studio
 ms.topic: release-notes
@@ -12,6 +12,33 @@ ms.manager:  crdun
 # Change log (Visual Studio Tools for Unity, Windows)
 
 Visual Studio Tools for Unity change log.
+
+## 18.7.0.0
+Released May 27, 2026
+
+### New Features
+
+- **Integration:**
+
+  - Added a search bar to the Unity Project Explorer.
+
+  - Modernized the Unity Project Explorer with native Visual Studio styling, collapsible `Assets` and `Packages` nodes, and preview-on-click navigation.
+
+  - Added `ScriptedImporter` support for CodeLens and completion.
+
+  - CodeLens now displays the values of serialized fields.
+
+### Bug fixes
+
+- **Integration:**
+
+  - Improved keyboard accessibility in the MonoBehaviour Wizard and Attach Unity Debugger dialogs.
+
+  - Fixed focus stealing, freezes, and duplicate results in Unity Project Explorer search.
+
+  - Preserved tree expansion state across code changes in the Unity Project Explorer.
+
+  - Stability fixes.
 
 ## 18.5.1.0
 Released March 17, 2026
