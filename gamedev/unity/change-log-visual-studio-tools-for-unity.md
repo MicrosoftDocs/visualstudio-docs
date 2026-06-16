@@ -22,7 +22,7 @@ Released May 27, 2026
 
   - Added a search bar to the Unity Project Explorer.
 
-  - Modernized the Unity Project Explorer with native Visual Studio styling, collapsible `Assets` and `Packages` nodes, and preview-on-click navigation.
+  - Modernized the Unity Project Explorer with proper styling, and preview-on-click navigation.
 
   - Added `ScriptedImporter` support for CodeLens and completion.
 
@@ -33,10 +33,6 @@ Released May 27, 2026
 - **Integration:**
 
   - Improved keyboard accessibility in the MonoBehaviour Wizard and Attach Unity Debugger dialogs.
-
-  - Fixed focus stealing, freezes, and duplicate results in Unity Project Explorer search.
-
-  - Preserved tree expansion state across code changes in the Unity Project Explorer.
 
   - Stability fixes.
 
