@@ -315,6 +315,8 @@
       href: ide/writing-code-in-the-code-and-text-editor.md
     - name: Markdown preview
       href: ide/markdown-preview.md
+    - name: Use color emojis
+      href: ide/color-emojis.md
     - name: Use the Spell Checker
       href: ide/text-spell-checker.md
     - name: Use Sticky Scroll

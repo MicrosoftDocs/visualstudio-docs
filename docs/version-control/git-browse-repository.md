@@ -1,12 +1,11 @@
 ---
 title: "Browse repos, compare branches & commits"
-description: Browse any Git repository in Visual Studio by using the Git Repository window to view local and remote branches and multiple branches at the same time.
-ms.date: 05/13/2026
+description: Browse Git repositories in Visual Studio, compare branches and commits, view line-by-line change history with Git Blame annotations, and track who made specific code changes.
+ms.date: 06/11/2026
 ms.topic: how-to
 author: ghogen
 ms.author: ghogen
 ms.custom: doc-kit-assisted, awp-ai
-
 
 ms.subservice: general-ide
 ---
@@ -22,31 +21,59 @@ To get started, open the **Git Repository** window by selecting **Git Repository
 
 :::moniker range="visualstudio"
 
-:::image type="content" source="media/visualstudio/git-repository-browse-ui.png" alt-text="Screenshot that shows the anatomy of the Git Repository window." lightbox="media/visualstudio/git-repository-browse-ui.png":::
+:::image type="content" source="media/visualstudio/view-pull-requests.png" alt-text="Screenshot of the Git Repository window in Visual Studio with Branches or Tags and Pull Requests in the left pane, and pull request details in the main pane." lightbox="media/visualstudio/view-pull-requests.png":::
 
 :::moniker-end
 
 :::moniker range="vs-2022"
 
 :::image type="content" source="media/vs-2022/git-repository-browse-ui.png" alt-text="Screenshot that shows the anatomy of the Git Repository window." lightbox="media/vs-2022/git-repository-browse-ui.png":::
+:::moniker-end
+
+The **Git Repository** window contains a left pane. What you select there drives the content on the right side.
+
+:::moniker range="visualstudio"
+
+In Visual Studio, the left pane includes **Branches / Tags** and **Pull Requests**.
 
 :::moniker-end
 
+:::moniker range="<=vs-2022"
+
 The **Git Repository** window contains three main sections, as numbered in the preceding screenshot:
 
-1. **Branches / Tags**: Git empowers users to multitask and experiment with their code through branches. Branching in Git is helpful in several scenarios, especially when working on complex projects with multiple features or when collaborating with a team. With Visual Studio 17.13 and later, you can see tags in the repo, and navigate to any tag. Your team can use git tags (for example, `v1.0`), to mark points in the history of your repo and view the state of the repo at that point in history. See [Git - Tagging](https://git-scm.com/book/en/v2/Git-Basics-Tagging).
+**Branches / Tags**: Git empowers users to multitask and experiment with their code through branches. Branching in Git is helpful in several scenarios, especially when working on complex projects with multiple features or when collaborating with a team. With Visual Studio 17.13 and later, you can see tags in the repo, and navigate to any tag. Your team can use git tags (for example, `v1.0`), to mark points in the history of your repo and view the state of the repo at that point in history. See [Git - Tagging](https://git-scm.com/book/en/v2/Git-Basics-Tagging).
+
+:::image type="content" alt-text="Screenshot that shows git tags in the Git Repository window." source="./media/vs-2022/git-tags.png" lightbox="./media/vs-2022/git-tags.png" :::
+
+**Graph**: This section visualizes the state of your branch. It has three subsections:
+
+- **Incoming** shows incoming commits that your team has been contributing.
+- **Outgoing** shows your local commits that you still haven't pushed.
+- **Local History** shows the rest of commits tracked by your local repository.
+
+**Commit**: To open this section, select any commit in the **Graph** section. You can check the changes that a commit has introduced by selecting them, which shows a difference. For example, the previous screenshot shows the changes that one commit introduced to the *Resize.cs* file.
+:::moniker-end
+:::moniker range="visualstudio"
+
+**Branches / Tags**: Git empowers users to multitask and experiment with their code through branches. Branching in Git is helpful in several scenarios, especially when working on complex projects with multiple features or when collaborating with a team. You can see tags in the repo, and navigate to any tag. Your team can use git tags (for example, `v1.0`), to mark points in the history of your repo and view the state of the repo at that point in history. See [Git - Tagging](https://git-scm.com/book/en/v2/Git-Basics-Tagging).
 
    :::image type="content" alt-text="Screenshot that shows git tags in the Git Repository window." source="./media/vs-2022/git-tags.png" lightbox="./media/vs-2022/git-tags.png" :::
 
-1. **Graph**: This section visualizes the state of your branch. It has three subsections:
+   With **Branches / Tags** selected, you see **Graph** and **Commit** sections on the right side.
 
-   - **Incoming** shows incoming commits that your team has been contributing.
-   - **Outgoing** shows your local commits that you still haven't pushed.
-   - **Local History** shows the rest of commits tracked by your local repository.
+**Graph**: This section visualizes the state of your branch. It has three subsections:
 
-1. **Commit**: To open this section, select any commit in the **Graph** section. You can check the changes that a commit has introduced by selecting them, which shows a difference. For example, the previous screenshot shows the changes that one commit introduced to the *Resize.cs* file.
+- **Incoming** shows incoming commits that your team has been contributing.
+- **Outgoing** shows your local commits that you still haven't pushed.
+- **Local History** shows the rest of commits tracked by your local repository.
 
-The **Alt**+**Up arrow** or **Alt**+**Down arrow** keyboard shortcuts allow you to jump between these sections.
+**Commit**: To open this section, select any commit in the **Graph** section. You can check the changes that a commit has introduced by selecting them, which shows a difference. For example, the previous screenshot shows the changes that one commit introduced to the *Resize.cs* file.
+:::moniker-end
+
+### Browse commits in detail
+
+The **Alt**+**Up arrow** or **Alt**+**Down arrow** keyboard shortcuts allow you to jump between the sections in the left panel.
 
 You can browse through any local or remote branch without having to switch your branch. When you find a commit that you want to focus on, select the **Open in New Tab** button to open the commit on a different tab.
 
@@ -79,6 +106,51 @@ You can browse through any local or remote branch without having to switch your 
 > To display your commit in full screen, detach your **Commit** tab and maximize the **Commit** window by using the **Maximize** button. You can also select your favorite diff configuration by selecting **Diff Configuration** (the gear icon).
 >
 > :::image type="content" source="media/vs-2022/git-repository-commit-details-full-screen.png" alt-text="Screenshot of full-screen commit details with diff configurations." lightbox="media/vs-2022/git-repository-commit-details-full-screen.png":::
+
+:::moniker-end
+
+:::moniker range="visualstudio"
+
+### Pull requests
+
+If you are reviewing branches and commits, switch to **Pull Requests** in the left panel.
+
+The **Pull Requests** section shows a list of active pull requests.
+
+#### Browse and open pull requests
+
+Select any pull request to open an embedded review view without checking out the branch. Find pull requests from the **Git Repository** window (**View** > **Git Repository**), **Git Changes**, or **Git** > **GitHub** (or **Azure DevOps**) > **View Pull Requests**.
+
+:::image type="content" alt-text="Screenshot of the pull request list on the left and the selected pull request overview on the right with description and changed files." source="./media/visualstudio/pr-review-overview.png" lightbox="./media/visualstudio/pr-review-overview.png":::
+
+- Pull request description, changed files, commits, related items, and reviewers in one view.
+- Switch between active pull requests without disrupting your working branch.
+- View commit details and changes for individual commits in the pull request.
+
+#### Comment and discuss
+
+Leave feedback directly in the diff view, and continue the conversation without switching to a browser.
+
+:::image type="content" alt-text="Screenshot of a file diff with an inline pull request comment thread that includes a reply and a resolve action." source="./media/visualstudio/pr-review-comments.png" lightbox="./media/visualstudio/pr-review-comments.png":::
+
+- Add inline comments on specific lines, reply to comments, and resolve threads.
+- View comment indicators per file in the **Changes** list.
+- Render inline images and formatted text in comments, similar to the web experience.
+
+#### Approve, complete, and merge
+
+When you're ready, approve and complete the pull request in Visual Studio. Vote and completion actions are available from multiple views so you can approve while reviewing changes.
+
+- Approve the pull request. More vote options are available from the dropdown for Azure DevOps.
+- View status checks, merge conflicts, and required approvals on the overview tab.
+- Complete or merge the pull request, with options to convert to draft and abandon or close.
+
+You can manage this experience in **Tools** > **Options** > **Preview Features**:
+
+- **Pull Request Comments**
+- **View pull requests for a Git repository**
+
+For detailed workflows to comment on pull requests in files and in diff views, see [Create a pull request in Visual Studio](git-create-pull-request.md#view-or-add-pull-request-comments-in-the-editor).
 
 :::moniker-end
 
@@ -228,6 +300,53 @@ Checking out the tip of a remote branch can be helpful if you would like to quic
 :::image type="content" source="media/vs-2022/git-checkout-tip-commit.png" alt-text="Screenshot that shows the Checkout Tip Commit option." lightbox="media/vs-2022/git-checkout-tip-commit.png":::
 
 :::moniker-end
+
+## View line-by-line change history with Git Blame
+
+Git Blame shows you who last modified each line of code in a file, along with when and why the change was made. This feature is useful when you need to understand the history and context behind specific code changes, track down the origin of a bug, or identify the author of a particular implementation.
+
+### Access Git Blame annotations
+
+You can view Git Blame annotations directly from the code editor or from Solution Explorer.
+
+**From the code editor:**
+
+1. Open a file in the editor.
+1. Right-click anywhere in the code editor.
+1. Select **Git** > **Blame (Annotate)**.
+
+**From Solution Explorer:**
+
+1. Right-click a file in Solution Explorer.
+1. Select **Git** > **Blame (Annotate)**.
+
+Blame annotations appear in the left margin of the editor, showing the author name, commit date, and the commit link.
+The file opens in the editor with Blame annotations visible.
+
+
+### Explore commit details from Blame annotations
+
+Once Blame annotations are visible in the editor, you can interact with them to get more information:
+
+- **Click** on the commit to **View details**: you can view the complete commit, where you can see all files changed in that commit and access additional options, such as comparing the current version with the previous version.
+
+> [!TIP]
+> Git Blame is most useful for understanding unexpected behavior or tracking down why a particular change was made.
+
+### When Git Blame is unavailable
+
+Git Blame is only available for tracked files that have been committed to your Git repository. If the **Git** > **Blame** option doesn't appear, check the table below for common causes and solutions.
+
+| **Scenario** | **Solution** |
+|----------|----------|
+| **File is not tracked** | Check the **Git Changes** window. If the file appears under **Untracked Files**, stage and commit it first. |
+| **File is in .gitignore** | Remove the file from `.gitignore`, add it to the repository, and commit. |
+| **Binary file** | Blame only works with text files like source code (`.cs`, `.js`, `.py`), configuration files (`.json`, `.xml`), and documentation (`.md`, `.txt`). For binary files (`.dll`, `.exe`, images), use **Git** > **View History** instead. |
+| **No commit history** | Make at least one commit that includes the file. |
+| **Detached HEAD state** | Check the status bar. If detached, check out a branch from the **Git Repository** window. See [Checkout commits](#checkout-commits). |
+| **Very large file** | For performance, Blame may be disabled on extremely large files. Use **Git** > **View History** instead. |
+
+**Alternative for all scenarios:** Right-click the file and select **Git** > **View History** to see all commits that modified the file.
 
 ## Related content
 

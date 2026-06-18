@@ -15,6 +15,8 @@ ms.subservice: general-ide
 
 You can use Solution Explorer to manage the projects and files within a solution. This article describes the Solution Explorer user interface (UI) in detail, and how to open Solution Explorer if you inadvertently close it. The article also describes how you can use right-click context menu in Solution Explorer to quickly add new files, folders, and code elements to a project.
 
+Solution and item names that include emoji characters render in full color. For more information, see [Use color emojis in Visual Studio](color-emojis.md).
+
 ## Open Solution Explorer
 
 By default, the Solution Explorer tool window appears as a pane in the upper-right side of the Visual Studio [integrated development environment](../get-started/visual-studio-ide.md) (IDE). If you don't see the Solution Explorer tool window, you can open it from the Visual Studio menu bar by using **View** > **Solution Explorer**, or by selecting <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>L</kbd>.
