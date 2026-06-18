@@ -26,7 +26,7 @@ Before you activate the DataCamp benefit, confirm that your subscription is elig
 | Visual Studio Professional | VL, Retail | 3 months | No. Available to new subscribers only |
 | Visual Studio Professional with GitHub Enterprise | VL | 3 months | No. Available to new subscribers only |
 | Visual Studio Test Professional | VL, Retail | 3 months | No. Available to new subscribers only |
-| MSDN Platforms (Standard) | VL, Retail | 3 months | No. Available to new subscribers only |
+| MSDN Platforms | VL, Retail | 3 months | No. Available to new subscribers only |
 | Visual Studio Dev Essentials | N/A | 2 months | N/A |
 | Visual Studio Enterprise | NFR* | Not available | N/A |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure | Not available | N/A |
