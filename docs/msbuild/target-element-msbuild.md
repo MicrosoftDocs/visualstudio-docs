@@ -53,7 +53,7 @@ Contains a set of tasks for MSBuild to execute sequentially.
 |Attribute|Description|
 |---------------|-----------------|
 |`Name`|Required attribute.<br /><br /> The name of the target. A target name may contain any character except `$@()%*?.`.|
-|`Condition`|Optional attribute.<br /><br /> The condition to be evaluated. If the condition evaluates to `false`, the target will not execute the body of the target or any targets that are set in the `DependsOnTargets` attribute. For more information about conditions, see [Conditions](../msbuild/msbuild-conditions.md).|
+|`Condition`|Optional attribute.<br /><br /> The condition to be evaluated. If the condition evaluates to `false`, the target won't execute the body of the target or any targets that are set in the `DependsOnTargets` attribute. For more information about conditions, see [Conditions](../msbuild/msbuild-conditions.md).|
 |`Inputs`|Optional attribute.<br /><br /> The files that form inputs into this target. Multiple files are separated by semicolons. The timestamps of the files will be compared with the timestamps of files in `Outputs` to determine whether the `Target` is up to date. For more information, see [Incremental builds](../msbuild/incremental-builds.md), [How to: Build incrementally](../msbuild/how-to-build-incrementally.md), and [Transforms](../msbuild/msbuild-transforms.md).|
 |`Outputs`|Optional attribute.<br /><br /> The files that form outputs into this target. Multiple files are separated by semicolons. The timestamps of the files will be compared with the timestamps of files in `Inputs` to determine whether the `Target` is up to date. For more information, see [Incremental builds](../msbuild/incremental-builds.md), [How to: Build incrementally](../msbuild/how-to-build-incrementally.md), and [Transforms](../msbuild/msbuild-transforms.md).|
 |`Returns`|Optional attribute.<br /><br /> The set of items that will be made available to tasks that invoke this target, for example, MSBuild tasks. Multiple targets are separated by semicolons. If the targets in the file have no `Returns` attributes, the Outputs attributes are used instead for this purpose.|
@@ -86,15 +86,17 @@ Contains a set of tasks for MSBuild to execute sequentially.
 
  A target is only executed once during a build, even if more than one target has a dependency on it.
 
- If a target is skipped because its `Condition` attribute evaluates to `false`, it can still be executed if it is invoked later in the build and its `Condition` attribute evaluates to `true` at that time.
+ If a target is skipped because its `Condition` attribute evaluates to `false`, it can still be executed if it's invoked later in the build and its `Condition` attribute evaluates to `true` at that time.
 
- Before MSBuild 4, `Target` returned any items that were specified in the `Outputs` attribute.  To do this, MSBuild had to record these items in case tasks later in the build requested them. Because there was no way to indicate which targets had outputs that callers would require, MSBuild accumulated all items from all `Outputs` on all invoked `Target`s. This lead to scaling problems for builds that had a large number of output items.
+ Before MSBuild 4, `Target` returned any items that were specified in the `Outputs` attribute.  To do this, MSBuild had to record these items in case tasks later in the build requested them. Because there was no way to indicate which targets had outputs that callers would require, MSBuild accumulated all items from all `Outputs` on all invoked `Target`s. This led to scaling problems for builds that had a large number of output items.
 
  If the user specifies a `Returns` on any `Target` element in a project, then only those `Target`s that have a `Returns` attribute record those items.
 
- A `Target` may contain both an `Outputs` attribute and a `Returns` attribute.  `Outputs` is used with `Inputs` to determine whether the target is up-to-date. `Returns`, if present, overrides the value of `Outputs` to determine which items are returned to callers.  If `Returns` is not present, then `Outputs` will be made available to callers except in the case described earlier.
+ A `Target` may contain both an `Outputs` attribute and a `Returns` attribute.  `Outputs` is used with `Inputs` to determine whether the target is up-to-date. `Returns`, if present, overrides the value of `Outputs` to determine which items are returned to callers.  If `Returns` isn't present, then `Outputs` will be made available to callers except in the case described earlier.
 
- Before MSBuild 4, any time that a `Target` included multiple references to the same item in its `Outputs`, those duplicate items would be recorded. In very large builds that had a large number of outputs and many project interdependencies, this would cause a large amount of memory to be wasted because the duplicate items were not of any use. When the `KeepDuplicateOutputs` attribute is set to `true`, these duplicates are recorded.
+ The result made available to callers via `Outputs` or `Returns` is captured immediately after the target completes. Inspecting the state of the same item expression later may return different results, for instance if another target hooked the target with `AfterTargets` and modified the returned item list (after the target completed but before returning control to the caller of the target).
+
+ Before MSBuild 4, any time that a `Target` included multiple references to the same item in its `Outputs`, those duplicate items would be recorded. In very large builds that had a large number of outputs and many project interdependencies, this would cause a large amount of memory to be wasted because the duplicate items weren't of any use. When the `KeepDuplicateOutputs` attribute is set to `true`, these duplicates are recorded.
 
 ## Example
 
