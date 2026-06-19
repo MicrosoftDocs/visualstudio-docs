@@ -66,6 +66,7 @@ The following tables describe the format specifiers that you can use in Visual S
 |b|unsigned binary integer|25|0b00000000000000000000000000011001|
 |bb|unsigned binary integer(without leading 0b)|25|00000000000000000000000000011001|
 |e|scientific notation|25000000|2.500000e+07|
+|f|fixed-point floating point|25000000|25000000.000000|
 |g|shorter of scientific or floating point|25000000|2.5e+07|
 |c|single character|0x0065|101 'e'|
 |s|const char* string (with quotation marks)|\<location> "hello world"|"hello world"|
