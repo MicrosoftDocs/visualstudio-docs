@@ -137,25 +137,29 @@ The **Git Changes** window also shows a list of all Copilot review comments, org
 
 ![Screenshot showing code review comments for each file in the Git Changes window.](./media/visualstudio/local-code-review-comment-list-cropped.png)
 
-:::moniker-end
+#### Review from the Git agent in Copilot Chat
 
-:::moniker range="vs-2022"
+In Copilot Chat, switch to the **Git** agent. You can select it from the agent picker or type `@git` in the chat input.
 
-In the **Git Changes** window, select the **Review changes with Copilot** button, which looks like a comment icon with a sparkle.
+![Screenshot showing the Git agent description card in Copilot Chat.](./media/visualstudio/git-agent-code-review-description.png)
 
-After a few moments, a link showing the number of code review comments appears in the **Git Changes** window that you can select to view and navigate the comments. If no issues are detected, the message **Copilot did not comment on any files** appears.
+Ask the agent to review your changes. You can use the suggested **Review changes** prompt or type your own.
 
-![Screenshot showing Git Changes window with Review changes button.](./media/vs-2022/git-code-review-changes-button.png)
+![Screenshot showing Copilot Chat with the Git agent and Review changes option highlighted.](./media/visualstudio/git-agent-code-review-icebreaker.png)
 
-The code review feedback shows up as comments, which show brief summary of the potential problem, and you can decide to make a change, or dismiss the comment box by using the up arrow button on the top right of the comment box.
+The agent analyzes your uncommitted changes by using GitHub Copilot code review. After the service returns a result, a link showing the number of code review comments appears in the **Git Changes** window. Select the link to view and navigate comments. If no issues are detected, the message **Copilot did not comment on any files** appears.
 
-![Screenshot showing GitHub code review comment.](./media/vs-2022/git-code-review-comment.png)
+The review feedback appears inline in the editor and in the **Git Changes** comment list. You can continue the conversation in chat to ask for explanations, discuss findings, and work through suggested edits.
 
-To remove all comments, use the **X** in the Git Changes window to close the Copilot code review link.
+![Screenshot showing an inline code review comment from the Git agent in the editor.](./media/visualstudio/git-agent-code-review-comment-2.png)
 
-:::moniker-end
+To remove all comments, use the **X** in the **Git Changes** window to close the Copilot code review link.
 
-:::moniker range="visualstudio"
+##### Navigate comments for Git agent reviews
+
+The **Git Changes** window also shows a list of all Copilot review comments, organized by file. You can double-click any comment in the list to navigate directly to that comment located inline with the corresponding code in the editor.
+
+![Screenshot showing code review comments for each file in the Git Changes window.](./media/visualstudio/local-code-review-comment-list-cropped.png)
 
 ### Apply suggestions from local code review
 
@@ -168,6 +172,22 @@ To use this feature, enable both of the following feature flags:
 - **Tools** > **Options** > **Preview Features** > **Pull Request Comments**
 
 You can also apply code suggestions from [pull request comments](git-create-pull-request.md#apply-a-suggested-change-from-a-pull-request-comment) in the editor.
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
+In the **Git Changes** window, click on the **Review changes with Copilot** button, which looks like a comment icon with a sparkle.
+
+After a few moments, a link showing the number of code review comments appears in the **Git Changes** window that you can click on to view and navigate the comments. If no issues are detected, the message **Copilot did not comment on any files** appears.
+
+![Screenshot showing Git Changes window with Review changes button.](./media/vs-2022/git-code-review-changes-button.png)
+
+The code review feedback shows up as comments, which show brief summary of the potential problem, and you can decide to make a change, or dismiss the comment box by using the up arrow button on the top right of the comment box.
+
+![Screenshot showing GitHub code review comment.](./media/vs-2022/git-code-review-comment.png)
+
+To remove all comments, use the **X** in the **Git Changes** window to close the Copilot code review link.
 
 :::moniker-end
 
