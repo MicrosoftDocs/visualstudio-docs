@@ -1,7 +1,7 @@
 ---
 title: "Format specifiers in the debugger (C++)"
 description: Use a format specifier to change the format in which a value is displayed in a Watch, Autos, or Locals window. This article provides usage details.
-ms.date: 12/12/2025
+ms.date: 06/15/2026
 ms.topic: concept-article
 dev_langs:
   - "C++"
@@ -66,6 +66,7 @@ The following tables describe the format specifiers that you can use in Visual S
 |b|unsigned binary integer|25|0b00000000000000000000000000011001|
 |bb|unsigned binary integer(without leading 0b)|25|00000000000000000000000000011001|
 |e|scientific notation|25000000|2.500000e+07|
+|f|fixed-point floating point|25000000|25000000.000000|
 |g|shorter of scientific or floating point|25000000|2.5e+07|
 |c|single character|0x0065|101 'e'|
 |s|const char* string (with quotation marks)|\<location> "hello world"|"hello world"|
@@ -86,6 +87,7 @@ The following tables describe the format specifiers that you can use in Visual S
 |wc|Window class flag|0x0010|WC_DEFAULTCHAR|
 |wm|Windows message numbers|16|WM_CLOSE|
 |nr|Suppress "Raw View" item|
+|fe|bit flags enum (use when auto detection fails)|6|flag1 \| flag2 (6)|
 |nvo|Show "Raw View" item for numeric values only|
 |!|raw format, ignoring any data type views customizations|\<customized representation>|4|
 |handle|Displays information about win32 handle|0x000000000000009c| Displays useful information about handle such as thread ID, etc. |
