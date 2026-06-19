@@ -8,7 +8,7 @@ ms.author: mikejo
 
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
-ms.custom: awp
+ms.custom: awp, doc-kit-assisted
 ai-usage: ai-assisted
 ms.update-cycle: 180-days
 monikerRange: '>= vs-2022'
@@ -52,6 +52,7 @@ Each built-in agent focuses on a specific developer workflow. These agents integ
 | Agent | Description |
 | ----- | ----------- |
 | **@debugger** | Goes beyond reading error messages. Uses your call stacks, variable state, and diagnostic tools to walk through error diagnosis systematically across your solution. |
+| **@git** | Reviews your local uncommitted changes and surfaces feedback as inline comments in the editor and in the Git Changes experience. |
 | **@profiler** | Connects to Visual Studio's profiling infrastructure to identify bottlenecks and suggest targeted optimizations grounded in your codebase, not generic advice. |
 | **@test** | Generates unit tests tuned to your project's framework and patterns, not boilerplate that your CI rejects. |
 | **@modernize** | (.NET and C++ only) Handles framework and dependency upgrades with awareness of your actual project graph. Flags breaking changes, generates migration code, and follows your existing patterns. |
@@ -64,6 +65,8 @@ Each built-in agent focuses on a specific developer workflow. These agents integ
 | Agent | Description |
 | ----- | ----------- |
 | **@profiler** | Connects to Visual Studio's profiling infrastructure to identify bottlenecks and suggest targeted optimizations grounded in your codebase, not generic advice. |
+
+::: moniker-end
 
 :::moniker-end
 
@@ -82,6 +85,23 @@ The @debugger agent helps you diagnose errors systematically by analyzing your d
 + `@debugger Why is this exception being thrown?`
 + `@debugger Analyze the current call stack and explain what went wrong`
 + `@debugger What's causing the null reference in this method?`
+
+::: moniker-end
+
+:::moniker range="visualstudio"
+
+### Use the @git agent
+
+Use the @git agent to review local uncommitted changes without leaving Copilot Chat.
+
+**Example prompts**:
+
++ `@git Review my changes`
++ `@git Explain this review comment and suggest a fix`
+
+:::image type="content" source="../version-control/media/visualstudio/git-agent-code-review-icebreaker.png" alt-text="Screenshot showing Copilot Chat with the Git agent and Review changes option highlighted.":::
+
+For the full local review workflow, see [Review local changes with Copilot Chat](../version-control/git-make-commit.md#review-local-changes-with-copilot-chat).
 
 ::: moniker-end
 
