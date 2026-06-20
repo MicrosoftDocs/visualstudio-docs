@@ -1,7 +1,7 @@
 ---
 title: "Change Log (Visual Studio Tools for Unity, Windows)"
 description: View the change log for Visual Studio Tools for Unity, Windows. See changes from version 1.0.0.0 through 4.7.0.0 and beyond.
-ms.date: "5/27/2026"
+ms.date: "6/20/2026"
 ms.subservice: unity-tools
 ms.service: visual-studio
 ms.topic: release-notes
@@ -25,8 +25,6 @@ Released May 27, 2026
   - Modernized the Unity Project Explorer with proper styling, and preview-on-click navigation.
 
   - Added `ScriptedImporter` support.
-
-  - CodeLens now displays the values of serialized fields.
 
 ### Bug fixes
 
