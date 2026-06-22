@@ -10,7 +10,7 @@ description: Learn how to get started with your new Visual Studio subscription.
 
 # You have a new Visual Studio subscription. What now?
 
-Congratulations on your new Visual Studio Aubscription. You now have access to a comprehensive set of tools and resources to speed up development, promote collaboration anywhere, and innovate on any platform.
+Congratulations on your new Visual Studio subscription. You now have access to a comprehensive set of tools and resources to speed up development, promote collaboration anywhere, and innovate on any platform.
 
 If this subscription is your first, you might not be sure how to get started. This article helps new subscribers get oriented by introducing you to the [Visual Studio Subscription portal](https://my.visualstudio.com) and some of the most popular benefits included in your subscription.
 
