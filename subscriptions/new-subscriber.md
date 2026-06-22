@@ -23,7 +23,7 @@ When you go to the [Visual Studio Subscription portal](https://my.visualstudio.c
 + [Sign in by using GitHub](sign-in-github.md). If your GitHub account has other email addresses linked to it, you can use your GitHub account in place of the address that's associated with the subscription.
 
 > [!NOTE]
-> If your subscription was assigned by your organization, you might not have administrator access. Being a subscriber lets you sign in and use your benefits in the Visual Studio Subscriptions portal, but managing subscriptions and users requires admin permissions in a separate admin portal. If you need admin access, contact your organization's subscription administrator.
+> If your organization assigned your subscription, you might not have administrator access. Being a subscriber lets you sign in and use your benefits in the Visual Studio Subscriptions portal, but managing subscriptions and users requires admin permissions in a separate admin portal. If you need admin access, contact your organization's subscription administrator.
 
 ## Quick tour of the portal
 
