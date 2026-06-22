@@ -8,7 +8,7 @@ ms.topic: how-to
 description: Learn how to get started with your new Visual Studio subscription.
 ---
 
-# You have a new Visual Studio Subscription. What now?
+# You got a new Visual Studio Subscription. What now?
 
 Congratulations on your new Visual Studio Subscription. You now have access to a comprehensive set of tools and resources to speed up development, promote collaboration anywhere, and innovate on any platform.
 
