@@ -3,24 +3,27 @@ title: Get Started with Your New Subscription
 author: joseb-rdc
 ms.author: amast
 ms.manager:  shve
-ms.date: 04/17/2026
+ms.date: 06/22/2026
 ms.topic: how-to
 description: Learn how to get started with your new Visual Studio subscription.
 ---
 
-# You have a new Visual Studio subscription. What now?
+# You got a new Visual Studio Subscription. What now?
 
-Congratulations on your new Visual Studio subscription. You now have access to a comprehensive set of tools and resources to speed up development, promote collaboration anywhere, and innovate on any platform.
+Congratulations on your new Visual Studio Subscription. You now have access to a comprehensive set of tools and resources to speed up development, promote collaboration anywhere, and innovate on any platform.
 
-If this subscription is your first, you might not be sure how to get started. This article helps new subscribers get oriented by introducing you to the [Visual Studio subscription portal](https://my.visualstudio.com) and some of the most popular benefits included in your subscription.
+If this subscription is your first, you might not be sure how to get started. This article helps new subscribers get oriented by introducing you to the [Visual Studio Subscription portal](https://my.visualstudio.com) and some of the most popular benefits included in your subscription.
 
 ## How to sign in to the portal
 
-When you go to the [Visual Studio subscription portal](https://my.visualstudio.com), signing in is simple. Which email address you use depends on how you got the subscription:
+When you go to the [Visual Studio Subscription portal](https://my.visualstudio.com), signing in is simple. Which email address you use depends on how you got the subscription:
 
 + [Sign in by using your Microsoft account](sign-in-msa.md). This scenario is the most common when you purchased a subscription through the Microsoft Store.
 + [Sign in by using your work or school account](sign-in-work.md). Use this address if your work or school assigned your subscription to you.
 + [Sign in by using GitHub](sign-in-github.md). If your GitHub account has other email addresses linked to it, you can use your GitHub account in place of the address that's associated with the subscription.
+
+> [!NOTE]
+> If your organization assigned your subscription, you might not have administrator access. Being a subscriber lets you sign in and use your benefits in the Visual Studio Subscriptions portal, but managing subscriptions and users requires admin permissions in a separate admin portal. If you need admin access, contact your organization's subscription administrator.
 
 ## Quick tour of the portal
 
@@ -41,15 +44,15 @@ The benefits included in your subscription depend on which subscription you have
 
 ### Visual Studio
 
-As part of your Visual Studio subscription, you receive licensed access to the Visual Studio IDE, based on your subscription level. Your subscription determines which edition you can install and use, with access tied to the account associated with your subscription.
+As part of your Visual Studio Subscription, you receive licensed access to the Visual Studio IDE, based on your subscription level. Your subscription determines which edition you can install and use, with access tied to the account associated with your subscription.
 
 Visual Studio is a comprehensive integrated development environment (IDE) for .NET and C++ developers on Windows, providing tools to build, debug, and deploy applications. [Learn how to install Visual Studio](vs-ide-benefit.md).
 
 ### Individual Azure credits
 
-Most Visual Studio subscriptions include Azure credits every month that you can use to explore and try Azure services. When you activate your credits, you create a new Azure subscription where you can start using them right away. No credit card is required.
+Most Visual Studio Subscriptions include Azure credits every month that you can use to explore and try Azure services. When you activate your credits, you create a new Azure subscription where you can start using them right away. No credit card is required.
 
-The number of Azure credits that you receive depends on the type of your Visual Studio subscription. When you reach the monthly cap for your credits, your Azure services stop until your next monthly credits are added. The alternative is to remove the spending cap by upgrading to pay-as-you-go pricing.
+The number of Azure credits that you receive depends on the type of your Visual Studio Subscription. When you reach the monthly cap for your credits, your Azure services stop until your next monthly credits are added. The alternative is to remove the spending cap by upgrading to pay-as-you-go pricing.
 
 To learn more about what you can do with Azure credits, see the [Monthly Azure credits for Visual Studio subscribers](https://azure.microsoft.com/pricing/member-offers/credit-for-visual-studio-subscribers/) page.
 

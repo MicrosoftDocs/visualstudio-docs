@@ -1,56 +1,84 @@
 ---
-title: Admin portal changes for expired Visual Studio subscription agreements
+title: What happens when Visual Studio Subscription agreements expire
 author: joseb-rdc
 ms.author: amast
-ms.manager:  shve
-ms.date: 09/12/2024
+ms.manager: shve
+ms.date: 06/22/2026
 ms.topic: concept-article
-description: Learn what happens for admins when an agreement expires.
+description: Understand what happens when a Visual Studio Subscriptions agreement expires, including lifecycle stages, access changes, and actions admins might need to take.
 ---
 
-# Admin portal changes for expired agreements
+# What happens when Visual Studio Subscription agreements expire
 
-When the agreement used to purchase Visual Studio subscriptions expires, the agreement and the subscriptions assigned within it remain available for a limited time. That period might not be the same for all agreements, and more specific information about the length of that period is provided in communications you receive via emails and in the admin portal. Depending on your company's plans, you might need to take some action to assist subscribers or to prevent loss of important information.
+When the agreement used to purchase Visual Studio Subscriptions expires, the agreement and the subscriptions assigned within it remain available for a limited time. That period might not be the same for all agreements. You receive more specific information about the length of that period in communications by email and in the admin portal. This article applies to Visual Studio Subscriptions purchased through Volume Licensing programs (specifically Enterprise Agreement and Campus Agreement) and managed in the Visual Studio Subscriptions admin portal.
 
-## Expiration timeline
+## Expiration lifecycle
 
-The timeline for agreement expiration consists of three phases:
-+ [Before expiration](#before-expiration)
-+ [Expired](#expired)
-+ [Disabled](#disabled)
+Agreements that include Visual Studio Subscriptions have a defined end date. As that date approaches, your organization can choose to renew the agreement or replace it with a new one. If you don't renew or replace the agreement, it moves through several lifecycle states that affect how subscriptions are managed and accessed. 
+
+The lifecycle consists of three phases:
 
 ### Before expiration
 
-Beginning about 120 days before the expiration of your agreement, we send notifications to admins and super admins with information about the expiration. We include steps you might need to take depending on whether your company plans to renew their agreement. 
+Starting about 120 days before the expiration of your agreement, admins and super admins receive notifications with information about the expiration. The notifications include steps you might need to take depending on whether your company plans to renew its agreement.
 
 ### Expired
 
-When your agreement reaches its expiration date, admins and subscribers still have access for a limited time. Access provides an opportunity for your company to complete any ongoing purchasing processes. It also provides admins and subscribers the opportunity to take steps to preserve data if your company doesn't renew their agreement or purchases a new one. Admins will continue to receive notifications during that period with links to specific information to help preserve information such as subscriber lists for future use. Subscribers also receive notifications providing them with guidance around preserving information such as any assets they created in existing Azure subscriptions. 
+When your agreement reaches its expiration date, it enters an expired state. During this period, admins and subscribers continue to have access for a limited time.
 
-During this phase, both admins and subscribers continue to have access to their respective portals. Admins are able to carry out the full range of subscription management tasks. Subscribers continue to have unrestricted access to their subscription benefits. 
+This period provides an opportunity for your organization to:
++ Complete ongoing purchasing processes.
++ Take steps to preserve data if your agreement isn't renewed or replaced.
+
+Admins and subscribers continue to receive notifications during this phase, including: 
++ Links to specific information to help preserve data such as subscriber lists for future use.
++ Notifications for subscribers providing guidance on preserving resources, such as assets in existing Azure subscriptions.
+
+During the expired phase:
++ Both admins and subscribers continue to have access to their respective portals.
++ Admins carry out the full range of subscription management tasks.
++ Subscribers continue to have unrestricted access to their subscription benefits.
 
 > [!IMPORTANT]
 > While admins and subscribers will continue to have access to their respective resources, it's important that action be taken quickly so that important data is preserved before this period expires and access to the information is lost.
 
 ### Disabled
 
-When your agreement reaches the end of the expired period:
-+ Admins and super admins lose access to any expired agreements in the [admin portal](https://manage.visualstudio.com). They can't make any changes to subscriptions within the agreement. (Access to any other current agreements in the admin portal remains unaffected. The [Get help](https://manage.visualstudio.com/gethelp) page continues to be available.)
-+ Subscribers lose access to the expired subscription in the [subscription portal](https://my.visualstudio.com). If they have any other subscriptions assigned to them as part of another agreement, those subscriptions aren't affected. Thirty days after a Visual Studio subscription is disabled, any Azure subscriptions that rely on the Visual Studio subscription are removed. It's vital that subscribers move their Azure assets to another valid subscription to retain them. Azure has its own notification process that helps guide subscribers in this case. 
+When the expired period ends, the agreement becomes disabled.
+
+At this point:
++ Admins and super admins:
+  + Lose access to expired agreements in the [admin portal](https://manage.visualstudio.com).
+  + Can't make changes to subscriptions within that agreement.
+  + Access to any other current agreements in the admin portal remains unaffected.
++ Subscribers:
+  + Lose access to the subscription associated with the expired agreement.
+  + Continue to have access to subscriptions assigned to them as part of another agreement.
++ Azure subscriptions:
+  + Thirty days after a Visual Studio Subscription is disabled, any Azure subscriptions that rely on the Visual Studio Subscription are removed.
+  + Subscribers must move Azure assets to another active subscription to retain them.
+
+Access to the [Get help](https://manage.visualstudio.com/gethelp) page continues to be available in the admin portal. 
 
 ## Preserving your information
 
-There's some information you might want to retain if your agreement expires or you purchase a new agreement. 
+You might need to retain certain information to support planning and transition activities if your agreement expires or you purchase a new agreement. 
 + Maximum usage. Understanding how many subscriptions you assigned during the life of your agreement can help your organization purchase the right number of subscriptions for your needs. You can [view your usage and export a report](maximum-usage.md) from within the admin portal. 
 + Your subscriber list. [Exporting a list of the subscribers](exporting-subscriptions.md) in your current agreement can help you move those subscriptions to a new agreement quickly. 
 
 ## Assisting subscribers
 
-When they begin to receive notifications of the expiration of their subscriptions, subscribers might contact you with questions. Some of the answers to those questions depend on your company's plan. If your company plans to renew their agreement or purchase a new one, you can help your subscribers understand where your company is in the process. If your company doesn't intend to renew, you can help guide them in the process of saving their important information. You might find it helpful to learn how individual subscribers are affected when an agreement expires. Check out our [When subscriptions expire](subscription-expiration.md) article for more information. 
+As your agreement approaches expiration, subscribers might also receive notifications about upcoming changes to their subscriptions and benefits or associated resources such as Azure. These changes might prompt questions about how their access, benefits, or resources are affected.
+
+The answers to those questions depend on your organization's plans. If your organization intends to renew its agreement or replace it with a new one, you can help subscribers understand what to expect and when their access will continue or change. If the agreement won't be renewed, you can guide them to take steps to preserve their data and resources before access is removed.
+
+Subscribers should also be aware that some benefits continue for a limited time after expiration, while others depend on an active subscription and might no longer be available. For details about how expiration affects downloads, product keys, and benefits, see [When subscriptions expire](subscription-expiration.md).
+
+Subscribers who use Azure might need to transfer resources to another subscription or take steps to maintain access before their subscription is disabled. For guidance, see [Renew an expired subscription, purchase a new one, or transfer your Azure resources](https://learn.microsoft.com/azure/devtest/offer/troubleshoot-expired-removed-subscription). 
 
 ## Moving to a new agreement
 
-If your company purchases a new agreement, you can [move subscribers to a new agreement](migrate-subscriptions.md) rather than recreating them in the new agreement. 
+If your organization purchases a new agreement, you might need to move existing Visual Studio Subscriptions to that agreement to maintain access and continue managing subscriptions. For detailed instructions, see [Migrate subscriptions](migrate-subscriptions.md).
 
 ## Next steps
 
