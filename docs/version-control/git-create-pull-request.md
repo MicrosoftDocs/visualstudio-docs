@@ -2,7 +2,7 @@
 title: Create a pull request in Visual Studio
 titleSuffix: ""
 description: Create a pull request in Visual Studio by using GitHub or Azure DevOps.
-ms.date: 05/13/2026
+ms.date: 06/02/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: ghogen
@@ -80,12 +80,13 @@ To create a pull request, follow these steps:
    > [!TIP]
    > Select **Open changes summary** to open a multi-line summary diff, which shows changed lines from multiple files in one unified view for faster review.
 
-   > [!NOTE]
-   > The pull requests list entry point in **View** > **Git Repository** is currently available in Visual Studio Insiders with the preview feature **View pull requests for a Git repository**.
-
    :::image type="content" source="media/vs-2022/git-create-pr-summary-diff.png" alt-text="The New Pull Request window with the summary button text highlighted in Visual Studio 2022."::: 
 
-   If you're using the pull requests list preview entry point, the **Open changes summary** button appears in that list.
+   :::moniker range="visualstudio"
+
+   The **Open changes summary** button also appears in the pull request list view.
+
+   :::moniker-end
 
    <!-- >:::image type="content" source="media/visualstudio/multi-file-summary-diff-pr-list-button.png" alt-text="Screenshot showing Open changes summary in the pull requests list." ::: -->
 
@@ -108,6 +109,37 @@ To create a pull request, follow these steps:
    :::moniker-end
 
 Learn more about how to add a pull request template to your repository in the [GitHub documentation](https://docs.github.com/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository) and [Azure DevOps documentation](/azure/devops/repos/git/pull-request-templates#default-pull-request-templates).
+
+:::moniker range="visualstudio"
+
+## Review, vote, and complete pull requests in Visual Studio
+
+You can open a pull request in Visual Studio, understand whether it's ready, and act on it all in one place.
+
+:::image type="content" source="media/visualstudio/pr-updates-overview.png" alt-text="Screenshot of a pull request overview with status checks, reviewer votes, and vote and complete actions in Visual Studio." lightbox="media/visualstudio/pr-updates-overview.png":::
+
+- Vote on pull requests and complete or merge them directly from the embedded pull request view.
+- Check status checks, merge conflicts, and required approvals in the **overview** tab to see whether a pull request is ready.
+- Review commit details in the pull request view to follow changes commit by commit.
+- Move between pull requests from the list, sorted by last updated time by default.
+- See comments per file in the **Changes** list to quickly find active discussions.
+
+To access pull requests, use the **Git** menu, the **Git Repository** window, or the **Git Changes** window.
+
+:::image type="content" source="media/visualstudio/pr-updates-entry-points.png" alt-text="Screenshot showing three pull request entry points in Visual Studio: the Git menu, Git Repository window, and Git Changes window." lightbox="media/visualstudio/pr-updates-entry-points.png":::
+
+### Add pull requests to Copilot Chat
+
+Copilot Chat already knows about your commits and changes, and you can also bring pull requests into the conversation.
+
+In the **Git Repository** window, right-click a pull request and select **Add to Copilot Chat** to attach pull request context, including the pull request description, changed files, and comments.
+
+You can also reference a pull request directly in chat by typing `#` and a pull request ID. For example, ask Copilot to summarize a pull request to get a quick overview without reading every file.
+
+:::image type="content" source="media/visualstudio/add-pr-to-chat.png" alt-text="Screenshot showing a pull request being added to Copilot Chat from the Git Repository window." lightbox="media/visualstudio/add-pr-to-chat.png":::
+
+
+:::moniker-end
 
 ## View or add pull request comments in the editor
 
