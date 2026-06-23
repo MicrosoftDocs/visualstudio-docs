@@ -266,8 +266,10 @@ Note that all Administrator Update parameters are default run in the "update" co
 Syntax example for passing parameters into an Administrator update:
 
 ```shell
-visualstudioupdate-16.9.0to16.9.4.exe --installerUpdateArgs=--force,--noWeb,--keepWindowsUpdateOn --checkPendingReboot
+visualstudioupdate-16.9.0to16.9.4.exe --installerUpdateArgs "--force --noWeb --keepWindowsUpdateOn" --checkPendingReboot
 ```
+
+If you encounter error 87 (`The parameter is incorrect`), verify that the `--installerUpdateArgs` value is quoted and that the switches inside that value are space-separated.
 
 ## Remove channel command and command-line parameters
 Channels that are available to update from, are cached on the client, and over time they can clutter things up. You can manually remove [update channels](update-visual-studio.md#configure-source-location-of-updates-1) by bringing up the Visual Studio Installer, switching to the **Available** tab, and clicking on the **X** in the top right corner of the product card. You can programmatically remove channels (for example, older layout locations) using the `removeChannel` command. You can run [vswhere](tools-for-managing-visual-studio-instances.md#using-vswhereexe) programmatically on the client machine to determine which channels are cached on the client machine. 
