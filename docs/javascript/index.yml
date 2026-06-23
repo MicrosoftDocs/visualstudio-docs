@@ -24,7 +24,7 @@ landingContent:
       - linkListType: overview
         links:
           - text: JavaScript and TypeScript in Visual Studio
-            url: javascript-in-vs-2022.md
+            url: javascript-in-visual-studio.md
       - linkListType: how-to-guide
         links:
           - text: Install Visual Studio
