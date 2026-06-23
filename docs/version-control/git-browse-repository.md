@@ -145,12 +145,9 @@ When you're ready, approve and complete the pull request in Visual Studio. Vote 
 - View status checks, merge conflicts, and required approvals on the overview tab.
 - Complete or merge the pull request, with options to convert to draft and abandon or close.
 
-You can manage this experience in **Tools** > **Options** > **Preview Features**:
-
-- **Pull Request Comments**
-- **View pull requests for a Git repository**
-
 For detailed workflows to comment on pull requests in files and in diff views, see [Create a pull request in Visual Studio](git-create-pull-request.md#view-or-add-pull-request-comments-in-the-editor).
+
+For Copilot Chat workflows with pull requests, see [Add pull requests to Copilot Chat](git-create-pull-request.md#add-pull-requests-to-copilot-chat).
 
 :::moniker-end
 
