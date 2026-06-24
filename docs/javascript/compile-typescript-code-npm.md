@@ -13,7 +13,7 @@ dev_langs:
 # Transpile TypeScript code using npm
 
 ::: moniker range=">=vs-2022"
-Use the TypeScript npm package to add TypeScript support to projects based on the [JavaScript Project System (JSPS)](../javascript/javascript-in-visual-studio.md#project-templates), or *.esproj*. Starting in Visual Studio 2019, it's recommended that you use the npm package instead of the TypeScript SDK. The TypeScript npm package provides greater portability across different platforms and environments.
+Use the TypeScript npm package to add TypeScript support to projects based on the [JavaScript Project System (JSPS)](../javascript/javascript-in-visual-studio.md#project-templates) or *.esproj*. The TypeScript npm package provides greater portability across different platforms and environments.
 ::: moniker-end
 
 
@@ -22,7 +22,8 @@ Use the TypeScript npm package to add TypeScript support to projects based on th
 
 ## Add TypeScript support using npm
 
-The [TypeScript npm package](https://www.npmjs.com/package/typescript) adds TypeScript support. When the npm package for TypeScript 2.1 or higher is installed into your project, the corresponding version of the TypeScript language service gets loaded in the editor.
+Add TypeScript support by using the [TypeScript npm package](https://www.npmjs.com/package/typescript). When you install the npm package into your project, the editor loads the corresponding version of the TypeScript language service.
+
 
 1. Check if you need to install any development workload for Visual Studio or the Node.js runtime.
 

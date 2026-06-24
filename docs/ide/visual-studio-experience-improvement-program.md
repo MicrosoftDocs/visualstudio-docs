@@ -110,6 +110,10 @@ Engineers use the information available in a work item to determine the root cau
 
 Extension authors should limit exposure of personal information by not using personal or other sensitive information in the names of their modules, types, and methods. If a crash or similar error condition occurs with that code on the stack, that information gets collected as part of the system-generated logs.
 
+### Feedback Analysis using AI based tooling
+
+To help improve user experience, Microsoft might use an AI-based tool to analyze diagnostic data (such as dumps and traces) collected through Visual Studio and Visual Studio Feedback. To opt out, follow the steps in [Opt in or out of the Visual Studio Experience Improvement Program](https://learn.microsoft.com/visualstudio/ide/visual-studio-experience-improvement-program?view=visualstudio#opt-in-or-out).
+
 ## Related content
 
 * [How to report a problem with Visual Studio](../ide/how-to-report-a-problem-with-visual-studio.md)
