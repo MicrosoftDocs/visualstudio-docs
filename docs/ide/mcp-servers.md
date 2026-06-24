@@ -61,11 +61,51 @@ Try out some popular MCP servers in Visual Studio with one-click:
 
 To add an MCP server from chat view:
 
-1. Select the green plus (`+`) button in the tool picker in the chat window.
+:::moniker range="visualstudio"
+
+1. In the chat pane, switch to **Agent** mode from the mode selector at the bottom of the pane.
+
+1. Select **Tools** to open the tool picker.
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+
+1. In the chat pane, select the **Tools** button (wrench icon) to open the **Select tools** picker.
+
+:::moniker-end
+
+1. In the tool picker, select the plus (`+`) button.
 
    :::image type="content" source="media/vs-2022/mcp-servers/plus-button-add-mcp.png" alt-text="Screenshot of the plus button in the Visual Studio chat tool picker for adding an MCP server." lightbox="media/vs-2022/mcp-servers/configure-server-visual-studio.png":::
 
-1. Specify the server name and connection details, such as the URL for HTTP servers or the command and arguments for stdio servers.
+:::moniker range="visualstudio"
+
+1. On the menu that appears, select **Add custom MCP server**.
+
+:::moniker-end
+
+:::moniker range="<=vs-2022"
+
+1. The **Add MCP server** dialog opens.
+
+:::moniker-end
+
+1. In the **Add MCP server** dialog, enter the server name and connection details, such as the URL for HTTP servers or the command and arguments for stdio servers.
+
+    :::moniker range="visualstudio"
+
+    > [!TIP]
+    > If the **Add MCP server** dialog doesn't appear after you select the plus button, close and reopen the tool picker, confirm that you're still in **Agent** mode, and then select **Add custom MCP server**.
+
+    :::moniker-end
+
+    :::moniker range="<=vs-2022"
+
+    > [!TIP]
+    > If the **Add MCP server** dialog doesn't appear after you select the plus button, close and reopen the **Select tools** picker, and then select the plus button again.
+
+    :::moniker-end
 
    :::image type="content" source="media/vs-2022/mcp-servers/configure-server-visual-studio.png" alt-text="Screenshot of the chat view for adding an MCP server in Visual Studio." lightbox="media/vs-2022/mcp-servers/configure-server-visual-studio.png":::
 
