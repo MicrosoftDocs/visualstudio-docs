@@ -43,12 +43,29 @@ In addition, the menu also allows you to run scripts defined in the `scripts` el
 
 ### package.json
 
-If the *package.json* in the folder specifies a `main` element, the **Debug** command will be available in the right-click shortcut menu for *package.json*.
-Clicking this will start *node.exe* with the specified script as its argument.
+If the *package.json* in the folder specifies a `main` element, the **Debug** command will be available in the right-click shortcut menu for *package.json*. Clicking this starts *node.exe* with the specified script as its argument.
+
+If the **Debug** command fails to start the app correctly, make sure your *package.json* file includes a start script, such as the following example.
+
+```json
+"main": "index.js",
+"scripts": {
+  "start": "node index.js",
+  "test": "echo \"Error: no test specified\" && exit 1"
+},
+```
+
+In this example, you can run the start script from *package.json* by right-clicking *package.json* in Solution Explorer and choosing *Npm* > *npm run script start*.
+
+::: moniker range="visualstudio"
+![npm menu in Solution Explorer](../javascript/media/visualstudio/solution-explorer-npm-run-script.png)
+::: moniker-end
 
 ### JavaScript files
 
 You can debug JavaScript files by right-clicking a file and selecting **Debug** from the shortcut menu. This starts *node.exe* with that JavaScript file as its argument.
+
+If the **Debug** command fails to start the app correctly, use the method described in the [package.json](#packagejson) section to run a start script.
 
 ### TypeScript files and tsconfig.json
 
