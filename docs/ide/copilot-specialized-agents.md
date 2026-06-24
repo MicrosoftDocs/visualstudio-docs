@@ -66,8 +66,6 @@ Each built-in agent focuses on a specific developer workflow. These agents integ
 | ----- | ----------- |
 | **@profiler** | Connects to Visual Studio's profiling infrastructure to identify bottlenecks and suggest targeted optimizations grounded in your codebase, not generic advice. |
 
-::: moniker-end
-
 :::moniker-end
 
 :::moniker range="visualstudio"
