@@ -9,10 +9,11 @@ ms.author: "mikejo"
 ms.subservice: javascript-typescript
 dev_langs:
   - JavaScript
+ms.custom: awp-ai
 ---
 # Compile TypeScript code (ASP.NET Core)
 
-Use the TypeScript NuGet package to add TypeScript support to your ASP.NET Core projects. Starting in Visual Studio 2019, it's recommended that you use the NuGet package instead of the TypeScript SDK. The TypeScript NuGet package provides greater portability across different platforms and environments.
+Use the TypeScript NuGet package to add TypeScript support to your ASP.NET Core projects. The TypeScript NuGet package provides greater portability across different platforms and environments.
 
 For ASP.NET Core projects, one common usage for the NuGet package is to compile TypeScript using the .NET Core CLI. In .NET scenarios, the NuGet package is the preferred option, and it's the only way to enable TypeScript compilation using .NET Core CLI commands such as `dotnet build` and `dotnet publish`. Also, for [MSBuild integration](https://www.staging-typescript.org/docs/handbook/compiler-options-in-msbuild.html) with ASP.NET Core and TypeScript, choose the NuGet package.
 
@@ -21,7 +22,7 @@ For ASP.NET Core projects, one common usage for the NuGet package is to compile 
 
 ## Add TypeScript support with NuGet
 
-[The TypeScript NuGet package](https://www.nuget.org/packages/Microsoft.TypeScript.MSBuild) adds TypeScript support. When the NuGet package for TypeScript 3.2 or higher is installed into your project, the corresponding version of the TypeScript language service gets loaded in the editor.
+[The TypeScript NuGet package](https://www.nuget.org/packages/Microsoft.TypeScript.MSBuild) adds TypeScript support. When you install the NuGet package into your project, the editor loads the corresponding version of the TypeScript language service.
 
 If Visual Studio is installed, then the node.exe bundled with it will automatically be picked up by Visual Studio. If you don't have Node.js installed, we recommend you install the LTS version from the [Node.js](https://nodejs.org/en/download/) website.
 
