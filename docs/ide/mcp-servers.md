@@ -71,17 +71,17 @@ To add an MCP server from chat view:
 
 :::moniker range="visualstudio"
 
-1. On the menu that appears, select **Add custom MCP server**.
+4. On the menu that appears, select **Add custom MCP server**.
 
 :::moniker-end
 
 :::moniker range="<=vs-2022"
 
-1. The **Add MCP server** dialog opens.
+4. The **Add MCP server** dialog opens.
 
 :::moniker-end
 
-1. In the **Add MCP server** dialog, enter the server name and connection details, such as the URL for HTTP servers or the command and arguments for stdio servers.
+5. In the **Add MCP server** dialog, enter the server name and connection details, such as the URL for HTTP servers or the command and arguments for stdio servers.
 
    :::image type="content" source="media/vs-2022/mcp-servers/configure-server-visual-studio.png" alt-text="Screenshot of the chat view for adding an MCP server in Visual Studio." lightbox="media/vs-2022/mcp-servers/configure-server-visual-studio.png":::
 
