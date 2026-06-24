@@ -2,7 +2,7 @@
 title: Write JavaScript code in Visual Studio without solution or project
 titleSuffix: ""
 description: Write JavaScript code in Visual Studio without placing the code in a solution or project, and start working quickly with IntelliSense, search, debugging, and more. 
-ms.date: "01/23/2023"
+ms.date: 06/24/2026
 ms.topic: "how-to"
 ms.devlang: javascript
 author: "mikejo5000"
@@ -14,23 +14,25 @@ dev_langs:
 ---
 # Develop JavaScript and TypeScript code in Visual Studio without solutions or projects
 
-Starting in Visual Studio 2017, you can [develop code without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md), which enables you to open a folder of code and immediately start working with rich editor support such as IntelliSense, search, refactoring, debugging, and more. In addition to these features, the Node.js Tools for Visual Studio adds support for building TypeScript files, managing npm packages, and running npm scripts.
+You can [develop code without projects or solutions](../ide/develop-code-in-visual-studio-without-projects-or-solutions.md), which enables you to open a folder of code and immediately start working with rich editor support such as IntelliSense, search, refactoring, debugging, and more. In addition to these features, the Node.js Tools for Visual Studio adds support for building TypeScript files, managing npm packages, and running npm scripts.
 
 To get started, select **File** > **Open** > **Folder** from the toolbar. Solution Explorer displays all the files in the folder, and you can open any of the files to begin editing. In the background, Visual Studio indexes the files to enable npm, build, and debug features.
 
-> [!TIP]
-> Before using an Open Folder project, try creating a solution from existing Node.js code. In some scenarios, this method provides better feature support in Visual Studio. To create the project, choose **File > New Project > JavaScript > From Existing Node.js code**, and then choose your project folder as the source.
-
 ## Prerequisites
 
-- Visual Studio 2017 version 15.8 or later versions
 - Visual Studio **Node.js development** workload must be installed
 
 ## npm integration
 
 If the folder you open contains a *package.json* file, you can right-click *package.json* to show a context menu (shortcut menu) specific to npm.
 
+::: moniker range="visualstudio"
+![npm menu in Solution Explorer](../javascript/media/visualstudio/solution-explorer-npm-ctx.png)
+::: moniker-end
+
+::: moniker range="vs-2022"
 ![npm menu in Solution Explorer](../javascript/media/solution-explorer-npm-ctx.png)
+::: moniker-end
 
 In the shortcut menu, you can manage the packages installed by npm in the same way that you
 [manage npm packages](npm-package-management.md) when using a project file.
@@ -47,9 +49,6 @@ Clicking this will start *node.exe* with the specified script as its argument.
 ### JavaScript files
 
 You can debug JavaScript files by right-clicking a file and selecting **Debug** from the shortcut menu. This starts *node.exe* with that JavaScript file as its argument.
-
-> [!NOTE]
-> If you don't see the **Debug** menu option, you may need to create the project from existing Node.js code, as described previously.
 
 ### TypeScript files and tsconfig.json
 
