@@ -289,7 +289,7 @@ For more information about Unreal Engine target files, see [Targets](https://dev
 
 ## Enable C++ Dynamic Debugging for Unreal Engine 5.5 or earlier
 
-For Unreal Engine 5.5 or earlier, cherry-pick the Unreal Build Tool changes from [GitHub](https://aka.ms/vcdd_ue) into your repository.
+For Unreal Engine 5.5 or earlier, cherry-pick the Unreal Build Tool changes from [GitHub](https://aka.ms/vcdd_ue) into your repository. If you get a 404 for that link, sign into GitHub and then retry the link.
 
 > [!NOTE]
 > To access the Epic repositories on GitHub, you need an [Epic account](https://www.unrealengine.com/) and [registered GitHub account](https://www.unrealengine.com/ue-on-github).
