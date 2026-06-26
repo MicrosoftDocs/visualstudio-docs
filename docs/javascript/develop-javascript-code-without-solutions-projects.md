@@ -58,7 +58,7 @@ If the **Debug** command fails to start the app correctly, make sure your *packa
 In this example, you can run the start script from *package.json* by right-clicking *package.json* in Solution Explorer and choosing *Npm* > *npm run script start*.
 
 ::: moniker range="visualstudio"
-![npm menu in Solution Explorer](../javascript/media/visualstudio/solution-explorer-npm-run-script.png)
+![Run a start script from the npm menu](../javascript/media/visualstudio/solution-explorer-npm-run-script.png)
 ::: moniker-end
 
 ### JavaScript files
