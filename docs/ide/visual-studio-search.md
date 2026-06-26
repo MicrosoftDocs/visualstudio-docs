@@ -1,7 +1,7 @@
 ---
 title: Use Visual Studio search to find code & do queries
 description: Explore the Visual Studio search feature and discover how to find settings, menus, code, and work with filters, queries, and more.
-ms.date: 9/16/2025
+ms.date: 06/26/2026
 ms.topic: how-to
 helpviewer_keywords:
 - environments [Visual Studio], navigation
@@ -155,7 +155,7 @@ In Visual Studio 17.13 and later, when you open Code Search without a query, you
 
 ### Keyboard shortcuts for search
 
-You can use the **Ctrl**+**Q** keyboard shortcut for feature searches, and the **Ctrl**+**T** keyboard shortcut for code searches. 
+You can use the **Ctrl**+**Shift**+**P** or **Ctrl**+**Q** keyboard shortcut for feature searches, and the **Ctrl**+**P** or **Ctrl**+**T** keyboard shortcut for code searches. 
 
 ### Filters for Code Search queries
 

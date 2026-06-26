@@ -1,7 +1,7 @@
 ---
 title: Keyboard shortcuts
 description: Learn about the default keyboard shortcuts in Visual Studio that allow you to access a variety of commands and windows.
-ms.date: 04/27/2026
+ms.date: 06/26/2026
 ms.topic: reference
 helpviewer_keywords:
 - shortcut keys [Visual Studio], keyboard binding schemes
@@ -111,7 +111,7 @@ All shortcuts in this section apply globally unless otherwise specified. The *Gl
 |Line down extend column|**Shift+Alt+Down Arrow** [Text Editor]| Edit.LineDownExtendColumn |
 |Line open above|**Ctrl+Enter** [Text Editor]| Edit.LineOpenAbove |
 |List members|**Ctrl+J** [Text Editor, Workflow Designer]<br /><br />or **Ctrl+K, Ctrl+L** [Workflow Designer]<br /><br />or **Ctrl+K, L** [Workflow Designer]| Edit.ListMembers |
-|Navigate to|**Ctrl+,**| Edit.NavigateTo |
+|Navigate to|**Ctrl+P**<br /><br />or **Ctrl+,**<br /><br />or **Ctrl+T**| Edit.NavigateTo |
 |Open file|**Ctrl+Shift+G**| Edit.OpenFile |
 |Overtype mode|**Insert** [Text Editor]| Edit.OvertypeMode |
 |Parameter info|**Ctrl+Shift+Spacebar** [Text Editor, Workflow Designer]<br /><br />or **Ctrl+K, Ctrl+P** [Workflow Designer]<br /><br />or **Ctrl+K, P** [Workflow Designer]| Edit.ParameterInfo |
@@ -120,7 +120,6 @@ All shortcuts in this section apply globally unless otherwise specified. The *Gl
 |Redo|**Ctrl+Y**<br /><br />or **Shift+Alt+Backspace**<br /><br />or **Ctrl+Shift+Z**| Edit.Redo |
 |Replace|**Ctrl+H**| Edit.Replace |
 |Select all|**Ctrl+A**| Edit.SelectAll |
-|Select current word|**Ctrl+W** [Text Editor]| Edit.SelectCurrentWord |
 |Selection cancel|**Esc** [Text Editor, Report Designer, Settings Designer, Windows Forms Designer, Managed Resources Editor]| Edit.SelectionCancel |
 |Remove and sort usings|**Ctrl+R, Ctrl+G** [Text Editor]| EditorContextMenus.CodeWindow.RemoveAndSort |
 |Surround with|**Ctrl+K, Ctrl+S** <br>(available only in Visual Studio 2019 and earlier)| Edit.SurroundWith |
@@ -196,10 +195,13 @@ All shortcuts in this section apply globally unless otherwise specified. The *Gl
 |Commands|Keyboard shortcuts [Special contexts]|Command ID|
 |-|-|-|
 |Activate document window|**Esc**| Window.ActivateDocumentWindow |
-|Close document window|**Ctrl+F4**| Window.CloseDocumentWindow |
+|Close document window|**Ctrl+W**<br /><br />or **Ctrl+F4**| Window.CloseDocumentWindow |
 |Next document window|**Ctrl+F6**| Window.NextDocumentWindow |
 |Next document window nav|**Ctrl+Tab**| Window.NextDocumentWindowNav |
 |Next split pane|**F6**| Window.NextSplitPane |
+
+> [!NOTE]
+> In the Visual C# profile, **Ctrl+W** isn't assigned to **Window.CloseDocumentWindow** by default. If you want to use **Ctrl+W** to close tabs, go to **Tools** > **Options** > **Environment** > **More Settings** > **Keyboard** to customize the shortcut. For more information, see [customize a keyboard shortcut](identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md#customize-a-keyboard-shortcut).
 
 ## Global shortcuts
 
@@ -370,7 +372,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Find previous selected|**Ctrl+Shift+F3**| Edit.FindPreviousSelected |
 |Generate method|**Ctrl+K, Ctrl+M**| Edit.GenerateMethod |
 |Go to|**Ctrl+G**| Edit.GoTo |
-|Go to all|**Ctrl+,** or **Ctrl+T**| Edit.GoToAll |
+|Go to all|**Ctrl+P** or **Ctrl+,** or **Ctrl+T**| Edit.GoToAll |
 |Go to declaration|**Ctrl+F12**| Edit.GoToDeclaration |
 |Go to definition|**F12**| Edit.GoToDefinition |
 |Go to member|**Ctrl+1, Ctrl+M** or **Ctrl+1, M** or **Alt+\\**| Edit.GoToMember |
@@ -612,7 +614,7 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |-|-|-|
 |Activate document window|**Esc**| Window.ActivateDocumentWindow |
 |Add tab to selection|**Ctrl+Shift+Alt+Space**| Window.AddTabtoSelection |
-|Close document window|**Ctrl+F4**| Window.CloseDocumentWindow |
+|Close document window|**Ctrl+W**<br /><br />or **Ctrl+F4**| Window.CloseDocumentWindow |
 |Close tool window|**Shift+Esc**| Window.CloseToolWindow |
 |Keep tab open|**Ctrl+Alt+Home**| Window.KeepTabOpen |
 |Move  to navigation bar|**Ctrl+F2**| Window.MovetoNavigationBar |
@@ -1163,7 +1165,7 @@ The shortcuts specific to this context are:
 |Reverse incremental search| **Ctrl+Shift+I** | Edit.ReverseIncrementalSearch |
 |Scroll line down| **Ctrl+Down Arrow** | Edit.ScrollLineDown |
 |Scroll line up| **Ctrl+Up Arrow** | Edit.ScrollLineUp |
-|Select current word| **Ctrl+W** | Edit.SelectCurrentWord |
+|Select current word| None | Edit.SelectCurrentWord |
 |Selection cancel| **Escape** | Edit.SelectionCancel |
 |Select to last go back| **Ctrl+=** | Edit.SelectToLastGoBack |
 |Show code lens menu| **Ctrl+K, Ctrl+\`** | Edit.ShowCodeLensMenu |
