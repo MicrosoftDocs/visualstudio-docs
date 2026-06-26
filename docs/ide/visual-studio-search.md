@@ -155,7 +155,7 @@ In Visual Studio 17.13 and later, when you open Code Search without a query, you
 
 ### Keyboard shortcuts for search
 
-You can use the **Ctrl**+**Shift**+**P** or **Ctrl**+**Q** keyboard shortcut for feature searches, and the **Ctrl**+**P** or **Ctrl**+**T** keyboard shortcut for code searches. 
+Use the **Ctrl**+**Shift**+**P** or **Ctrl**+**Q** keyboard shortcut for feature searches. Use the **Ctrl**+**P** or **Ctrl**+**T** keyboard shortcut for code searches.
 
 ### Filters for Code Search queries
 
