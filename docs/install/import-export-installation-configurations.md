@@ -2,7 +2,7 @@
 title: Import or export installation configurations
 titleSuffix: ''
 description: "Learn how to import, export, and share your Visual Studio installation configuration by using a .vsconfig file."
-ms.date: 03/19/2026
+ms.date: 06/26/2026
 ms.topic: how-to
 helpviewer_keywords:
 - import installation configuration
@@ -62,6 +62,11 @@ You can programmatically export a configuration file of a particular Visual Stud
 
 You can import an installation configuration file into a previously installed instance of Visual Studio, or you can use it to initialize a new installation of Visual Studio. Importing a configuration file into Visual Studio installs anything listed in the config file that's not already installed.
 
+How you apply a *.vsconfig* file depends on whether Visual Studio is already installed:
+
+- For a new installation, use the edition bootstrapper (for example, `vs_professional.exe`) with the `--config` parameter.
+- For an existing installation, use the installed `setup.exe` with the `modify` verb and `--config`.
+
 ### Use the Visual Studio Installer UI
 
 When you're ready to import an installation configuration file, follow these steps.
@@ -74,9 +79,28 @@ When you're ready to import an installation configuration file, follow these ste
 
 1. Verify that your selections are accurate, and then choose **Modify**.
 
+### Programmatically use a configuration file for a new installation
+
+To use a *.vsconfig* file during a first-time installation, download the correct bootstrapper that matches the version and edition that you want (for example, `vs_professional.exe`). Then open an Administrator Command Prompt and run the bootstrapper with the `--config` parameter.
+
+```shell
+vs_professional.exe --config "C:\myconfig.vsconfig" --passive --wait
+```
+
+If you want to set the install location explicitly, include `--installPath`.
+
+```shell
+vs_professional.exe --installPath "C:\Program Files\Microsoft Visual Studio\2026\Professional" --config "C:\myconfig.vsconfig" --passive --wait
+```
+
+> [!IMPORTANT]
+> For a first-time installation, use the edition bootstrapper (`vs_professional.exe`, `vs_enterprise.exe`, and so on), not `setup.exe modify`.
+>
+> If your *.vsconfig* file includes extensions and you're running in `--passive` or `--quiet` mode, include `--allowUnsignedExtensions`.
+
 ### Programmatically use a configuration file to add components to an existing installation
  
-You can use the `--config` parameter to either initialize or modify an existing installation and add components. The following example uses the installer on the client machine to `modify` an existing installation.
+You can use the `--config` parameter with `modify` to add components to an existing installation. The following example uses the installer on the client machine to `modify` an existing installation.
 
 ```shell
 "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" modify --installPath "C:\Program Files\Microsoft Visual Studio\2022\Professional" --config "C:\myconfig.vsconfig" --passive --allowUnsignedExtensions
@@ -100,7 +124,6 @@ If you save a *.vsconfig* file into your solution root directory and then open a
 
 > [!NOTE]
 > If your *.vsconfig* file contains extensions, then currently, only those extensions that are hosted on the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) trigger the automatic *is-missing* detection and installation. If you would like this logic to include extensions that were installed from a non-Marketplace location, please [provide details about your scenario here](https://developercommunity.visualstudio.com/t/post/10607414).
-
 
 :::moniker range="visualstudio"
 :::image type="content" source="media/visualstudio/solution-explorer-config-file.png" alt-text="Screenshot of Solution Explorer suggesting additional components.":::
