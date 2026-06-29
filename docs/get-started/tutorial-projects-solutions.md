@@ -1,7 +1,7 @@
 ---
 title: Introduction to projects and solutions
 description: Explore the difference between projects and solutions that contain and organize projects, and how to work with these items in Visual Studio.
-ms.date: 12/06/2024
+ms.date: 06/29/2026
 ms.subservice: general-ide
 ms.custom: vs-acquisition
 ms.topic: tutorial
