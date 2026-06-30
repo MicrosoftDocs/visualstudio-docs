@@ -11,7 +11,7 @@ ms.custom: sfi-image-nochange
 
 # Troubleshooting suggestions for signing in to Visual Studio Subscriptions
 
-To use your Visual Studio Subscription, you must first sign in. Depending on your subscription, you might have either a Microsoft account (MSA) or a Microsoft Entra identity. This article discusses some of the issues you might encounter while signing in to your subscription, including  what happens when your admin updates your Visual Studio subscriber's sign-in address. 
+To use your Visual Studio Subscription, you must first sign in. Depending on your subscription, you might have either a Microsoft account (MSA) or a Microsoft Entra identity. This article discusses some of the issues you might encounter while signing in to your subscription, including what happens when your admin updates your Visual Studio subscriber's sign-in address. 
 
 ## Microsoft Accounts (MSA) can't be created using work/school email addresses
 
