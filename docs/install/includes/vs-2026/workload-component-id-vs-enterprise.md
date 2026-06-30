@@ -149,6 +149,7 @@ Microsoft.VisualStudio.Component.VC.14.44.17.14.x86.x64 | MSVC v143 - VS 2022 C+
 Microsoft.VisualStudio.Component.VC.CoreIde | C++ core features | 18.0.11101.78 | Optional
 Microsoft.VisualStudio.Component.VC.DiagnosticTools | C++ profiling tools | 18.0.11101.84 | Optional
 Microsoft.VisualStudio.Component.VC.Tools.x86.x64 | MSVC Build Tools for x64/x86 (Latest) | 18.0.11123.170 | Optional
+Microsoft.VisualStudio.Component.VC.Preview.Tools.x86.x64 | MSVC Build Tools for x64/x86 (Preview) | 18.0.11123.170 | Optional
 Microsoft.VisualStudio.Component.Windows10SDK | Windows Universal C Runtime | 18.0.11101.84 | Optional
 Microsoft.VisualStudio.Component.Windows11SDK.26100 | Windows 11 SDK (10.0.26100.6901) | 18.0.11201.18 | Optional
 
@@ -306,6 +307,8 @@ Microsoft.VisualStudio.Component.VC.DiagnosticTools | C++ profiling tools | 18.0
 Microsoft.VisualStudio.Component.VC.TestAdapterForBoostTest | Test Adapter for Boost.Test | 18.0.11101.78 | Recommended
 Microsoft.VisualStudio.Component.VC.TestAdapterForGoogleTest | Test Adapter for Google Test | 18.0.11101.84 | Recommended
 Microsoft.VisualStudio.Component.VC.Tools.x86.x64 | MSVC Build Tools for x64/x86 (Latest) | 18.0.11123.170 | Recommended
+Microsoft.VisualStudio.Component.VC.Preview.ATL | C++ ATL for x64/x86 (MSVC Preview) | 18.0.11123.170 | Optional
+Microsoft.VisualStudio.Component.VC.Preview.Tools.x86.x64 | MSVC Build Tools for x64/x86 (Preview) | 18.0.11123.170 | Optional
 Microsoft.VisualStudio.Component.Vcpkg | vcpkg package manager | 18.0.11101.78 | Recommended
 Microsoft.VisualStudio.Component.Windows11SDK.26100 | Windows 11 SDK (10.0.26100.6901) | 18.0.11201.18 | Recommended
 Microsoft.VisualStudio.Component.Windows11Sdk.WindowsPerformanceToolkit | Windows Performance Toolkit | 18.0.11101.84 | Recommended
@@ -325,6 +328,8 @@ Microsoft.VisualStudio.Component.VC.14.44.17.14.MFC | C++ v14.44 (17.14) MFC for
 Microsoft.VisualStudio.Component.VC.140 | MSVC v140 - VS 2015 C++ build tools (v14.00) (Out of support) | 18.0.11201.18 | Optional
 Microsoft.VisualStudio.Component.VC.ATLMFC | C++ MFC for x64/x86 (Latest MSVC) | 18.0.11123.170 | Optional
 Microsoft.VisualStudio.Component.VC.CLI.Support | C++/CLI support (Latest MSVC) | 18.0.11123.170 | Optional
+Microsoft.VisualStudio.Component.VC.Preview.MFC | C++ MFC for x64/x86 (MSVC Preview) | 18.0.11123.170 | Optional
+Microsoft.VisualStudio.Component.VC.Preview.CLI.Support | C++/CLI support (MSVC Preview) | 18.0.11123.170 | Optional
 Microsoft.VisualStudio.Component.VC.Llvm.Clang | C++ Clang Compiler for Windows (20.1.8) | 18.0.11101.84 | Optional
 Microsoft.VisualStudio.Component.VC.Llvm.ClangToolset | MSBuild support for LLVM (clang-cl) toolset | 18.0.11101.84 | Optional
 Microsoft.VisualStudio.Component.VC.v141.x86.x64 | MSVC v141 - VS 2017 C++ x64/x86 build tools (v14.16) | 18.0.11101.78 | Optional
@@ -369,6 +374,7 @@ Microsoft.VisualStudio.Component.VC.14.44.17.14.x86.x64 | MSVC v143 - VS 2022 C+
 Microsoft.VisualStudio.Component.VC.ASAN | MSVC AddressSanitizer | 18.0.11123.170 | Recommended
 Microsoft.VisualStudio.Component.VC.DiagnosticTools | C++ profiling tools | 18.0.11101.84 | Recommended
 Microsoft.VisualStudio.Component.VC.Tools.x86.x64 | MSVC Build Tools for x64/x86 (Latest) | 18.0.11123.170 | Recommended
+Microsoft.VisualStudio.Component.VC.Preview.Tools.x86.x64 | MSVC Build Tools for x64/x86 (Preview) | 18.0.11123.170 | Optional
 Microsoft.VisualStudio.Component.Vcpkg | vcpkg package manager | 18.0.11101.78 | Recommended
 Microsoft.VisualStudio.Component.Windows11SDK.26100 | Windows 11 SDK (10.0.26100.6901) | 18.0.11201.18 | Recommended
 Microsoft.VisualStudio.Component.Windows11Sdk.WindowsPerformanceToolkit | Windows Performance Toolkit | 18.0.11101.84 | Recommended
@@ -595,6 +601,7 @@ Microsoft.VisualStudio.Component.Debugger.JustInTime | Just-In-Time debugger | 1
 Microsoft.VisualStudio.Component.VC.14.44.17.14.x86.x64 | MSVC v143 - VS 2022 C++ x64/x86 build tools (v14.44-17.14) | 18.0.11101.78 | Optional
 Microsoft.VisualStudio.Component.VC.CoreIde | C++ core features | 18.0.11101.78 | Optional
 Microsoft.VisualStudio.Component.VC.Tools.x86.x64 | MSVC Build Tools for x64/x86 (Latest) | 18.0.11123.170 | Optional
+Microsoft.VisualStudio.Component.VC.Preview.Tools.x86.x64 | MSVC Build Tools for x64/x86 (Preview) | 18.0.11123.170 | Optional
 
 ## Microsoft 365 development
 
@@ -689,6 +696,7 @@ Microsoft.VisualStudio.Component.VC.14.44.17.14.x86.x64 | MSVC v143 - VS 2022 C+
 Microsoft.VisualStudio.Component.VC.CoreIde | C++ core features | 18.0.11101.78 | Optional
 Microsoft.VisualStudio.Component.VC.DiagnosticTools | C++ profiling tools | 18.0.11101.84 | Optional
 Microsoft.VisualStudio.Component.VC.Tools.x86.x64 | MSVC Build Tools for x64/x86 (Latest) | 18.0.11123.170 | Optional
+Microsoft.VisualStudio.Component.VC.Preview.Tools.x86.x64 | MSVC Build Tools for x64/x86 (Preview) | 18.0.11123.170 | Optional
 Microsoft.VisualStudio.Component.WebDeploy | Web Deploy | 18.0.11101.78 | Optional
 Microsoft.VisualStudio.Component.Windows10SDK | Windows Universal C Runtime | 18.0.11101.84 | Optional
 Microsoft.VisualStudio.Component.Windows11SDK.26100 | Windows 11 SDK (10.0.26100.6901) | 18.0.11201.18 | Optional
@@ -748,6 +756,8 @@ Microsoft.VisualStudio.Component.VC.Redist.14.Latest | Visual C++ v14 Redistribu
 Microsoft.VisualStudio.Component.VC.Tools.ARM64 | MSVC Build Tools for ARM64/ARM64EC (Latest) | 18.0.11123.170 | Optional
 Microsoft.VisualStudio.Component.VC.Tools.ARM64EC | MSVC Build Tools for ARM64EC (Latest) | 18.0.11123.170 | Optional
 Microsoft.VisualStudio.Component.VC.Tools.x86.x64 | MSVC Build Tools for x64/x86 (Latest) | 18.0.11123.170 | Optional
+Microsoft.VisualStudio.Component.VC.Preview.ARM64 | MSVC Build Tools for ARM64/ARM64EC (Preview) | 18.0.11123.170 | Optional
+Microsoft.VisualStudio.Component.VC.Preview.Tools.x86.x64 | MSVC Build Tools for x64/x86 (Preview) | 18.0.11123.170 | Optional
 Microsoft.VisualStudio.Component.VC.v141.ARM | MSVC v141 - VS 2017 C++ ARM build tools (v14.16) | 18.0.11101.84 | Optional
 Microsoft.VisualStudio.Component.VC.v141.ARM64 | MSVC v141 - VS 2017 C++ ARM64 build tools (v14.16) | 18.0.11101.78 | Optional
 Microsoft.VisualStudio.Component.VC.v141.x86.x64 | MSVC v141 - VS 2017 C++ x64/x86 build tools (v14.16) | 18.0.11101.78 | Optional
@@ -878,6 +888,14 @@ Microsoft.VisualStudio.Component.VC.MFC.ARM64.Spectre | C++ MFC with Spectre mit
 Microsoft.VisualStudio.Component.VC.Redist.MSM | Visual C++ v14 Redistributable MSMs | 18.0.11123.170
 Microsoft.VisualStudio.Component.VC.Runtimes.ARM64.Spectre | C++ Spectre-mitigated libraries for ARM64/ARM64EC (Latest MSVC) | 18.0.11123.170
 Microsoft.VisualStudio.Component.VC.Runtimes.x86.x64.Spectre | C++ Spectre-mitigated libraries for x64/x86 (Latest MSVC) | 18.0.11123.170
+Microsoft.VisualStudio.Component.VC.Preview.ATL.ARM64 | C++ ATL for ARM64 (MSVC Preview) | 18.0.11123.170
+Microsoft.VisualStudio.Component.VC.Preview.ATL.ARM64.Spectre | C++ ATL with Spectre mitigations for ARM64 (MSVC Preview) | 18.0.11123.170
+Microsoft.VisualStudio.Component.VC.Preview.ATL.Spectre | C++ ATL with Spectre mitigations for x64/x86 (MSVC Preview) | 18.0.11123.170
+Microsoft.VisualStudio.Component.VC.Preview.MFC.ARM64 | C++ MFC for ARM64 (MSVC Preview) | 18.0.11123.170
+Microsoft.VisualStudio.Component.VC.Preview.MFC.ARM64.Spectre | C++ MFC with Spectre mitigations for ARM64 (MSVC Preview) | 18.0.11123.170
+Microsoft.VisualStudio.Component.VC.Preview.MFC.Spectre | C++ MFC with Spectre mitigations for x64/x86 (MSVC Preview) | 18.0.11123.170
+Microsoft.VisualStudio.Component.VC.Preview.ARM64.Spectre | C++ Spectre-mitigated libraries for ARM64/ARM64EC (MSVC Preview) | 18.0.11123.170
+Microsoft.VisualStudio.Component.VC.Preview.Tools.x86.x64.Spectre | C++ Spectre-mitigated libraries for x64/x86 (MSVC Preview) | 18.0.11123.170
 Microsoft.VisualStudio.Component.VC.v141.ARM.Spectre | MSVC v141 - VS 2017 C++ ARM Spectre-mitigated libs (v14.16) | 18.0.11101.84
 Microsoft.VisualStudio.Component.VC.v141.ARM64.Spectre | MSVC v141 - VS 2017 C++ ARM64 Spectre-mitigated libs (v14.16) | 18.0.11101.84
 Microsoft.VisualStudio.Component.VC.v141.ATL | C++ ATL for v141 build tools (x86 & x64) | 18.0.11101.78
