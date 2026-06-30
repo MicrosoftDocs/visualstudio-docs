@@ -72,7 +72,7 @@ Aliasing can be encountered when a company has a Microsoft Online Service for th
 
 ### What options do I have?
 
-From a subscriber perspective, it's important to first work with your admin to understand your company's identity configuration. If necessary, your admin might have to update your account settings from their admin portal, or you might need to create a Microsoft Account (MSA) using your corporate email address. Before taking the steps to create an MSA, speak with your admin regarding any policies or issues with taking this action.
+From a subscriber perspective, it's important to first work with your admin to understand your company's identity configuration. If necessary, your admin might need to update your account settings from their admin portal, or you might need to create a Microsoft Account (MSA) by using your corporate email address. Before taking the steps to create an MSA, speak with your admin regarding any policies or issues with taking this action.
 
 ### What happens when my Admin updates my Visual Studio Subscription's sign-in address?
 
