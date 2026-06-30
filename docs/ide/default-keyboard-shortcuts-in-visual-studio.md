@@ -201,7 +201,7 @@ All shortcuts in this section apply globally unless otherwise specified. The *Gl
 |Next split pane|**F6**| Window.NextSplitPane |
 
 > [!NOTE]
-> In the Visual C# profile, **Ctrl+W** isn't assigned to **Window.CloseDocumentWindow** by default. If you want to use **Ctrl+W** to close tabs, go to **Tools** > **Options** > **Environment** > **More Settings** > **Keyboard** to customize the shortcut. For more information, see [customize a keyboard shortcut](identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md#customize-a-keyboard-shortcut).
+> In the Visual C# profile, **Ctrl+W** isn't assigned to **Window.CloseDocumentWindow** by default. If you want to use **Ctrl+W** to close tabs, go to **Tools** > **Options** > **Environment** > **Keyboard** to customize the shortcut. For more information, see [customize a keyboard shortcut](identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md#customize-a-keyboard-shortcut).
 
 ## Global shortcuts
 
