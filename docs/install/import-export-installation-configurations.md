@@ -64,8 +64,8 @@ You can import an installation configuration file into a previously installed in
 
 How you apply a *.vsconfig* file depends on whether Visual Studio is already installed:
 
-- For a new installation, use the edition bootstrapper (for example, `vs_professional.exe`) with the `--config` parameter.
-- For an existing installation, use the installed `setup.exe` with the `modify` verb and `--config`.
+- If Visual Studio isn't installed yet, use the edition bootstrapper (for example, `vs_professional.exe`) with `--config`.
+- If Visual Studio is already installed, use `modify` with `--config` (for example, `setup.exe modify`).
 
 ### Use the Visual Studio Installer UI
 
@@ -81,7 +81,7 @@ When you're ready to import an installation configuration file, follow these ste
 
 ### Programmatically use a configuration file for a new installation
 
-To use a *.vsconfig* file during a first-time installation, download the correct bootstrapper that matches the version and edition that you want (for example, `vs_professional.exe`). Then open an Administrator Command Prompt and run the bootstrapper with the `--config` parameter.
+To use a *.vsconfig* file during a first-time installation, [download the correct bootstrapper that matches the version and edition that you want](install-visual-studio.md#step-2---determine-which-version-and-edition-of-visual-studio-to-install) (for example, `vs_professional.exe`). Then open an Administrator Command Prompt and run the bootstrapper with the `--config` parameter.
 
 ```shell
 vs_professional.exe --config "C:\myconfig.vsconfig" --passive --wait
@@ -89,9 +89,21 @@ vs_professional.exe --config "C:\myconfig.vsconfig" --passive --wait
 
 If you want to set the install location explicitly, include `--installPath`.
 
+:::moniker range="visualstudio"
+
 ```shell
 vs_professional.exe --installPath "C:\Program Files\Microsoft Visual Studio\18\Professional" --config "C:\myconfig.vsconfig" --passive --wait
 ```
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
+```shell
+vs_professional.exe --installPath "C:\Program Files\Microsoft Visual Studio\2022\Professional" --config "C:\myconfig.vsconfig" --passive --wait
+```
+
+:::moniker-end
 
 > [!IMPORTANT]
 > For a first-time installation, use the edition bootstrapper (`vs_professional.exe`, `vs_enterprise.exe`, and so on), not `setup.exe modify`.
@@ -102,9 +114,21 @@ vs_professional.exe --installPath "C:\Program Files\Microsoft Visual Studio\18\P
  
 You can use the `--config` parameter with `modify` to add components to an existing installation. The following example uses the installer on the client machine to `modify` an existing installation.
 
+:::moniker range="visualstudio"
+
+```shell
+"C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" modify --installPath "C:\Program Files\Microsoft Visual Studio\18\Professional" --config "C:\myconfig.vsconfig" --passive --allowUnsignedExtensions
+```
+
+:::moniker-end
+
+:::moniker range="vs-2022"
+
 ```shell
 "C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" modify --installPath "C:\Program Files\Microsoft Visual Studio\2022\Professional" --config "C:\myconfig.vsconfig" --passive --allowUnsignedExtensions
 ```
+
+:::moniker-end
 
 > [!NOTE]
 > To add components to an existing installation by using a *.vsconfig* file, you need to use `modify` and **not** `update`. The `update` command just updates existing installed components to the latest version. To learn more about the different installer operations, refer to the [Install Visual Studio from the command line](use-command-line-parameters-to-install-visual-studio.md) documentation.
