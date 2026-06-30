@@ -90,7 +90,7 @@ vs_professional.exe --config "C:\myconfig.vsconfig" --passive --wait
 If you want to set the install location explicitly, include `--installPath`.
 
 ```shell
-vs_professional.exe --installPath "C:\Program Files\Microsoft Visual Studio\2026\Professional" --config "C:\myconfig.vsconfig" --passive --wait
+vs_professional.exe --installPath "C:\Program Files\Microsoft Visual Studio\18\Professional" --config "C:\myconfig.vsconfig" --passive --wait
 ```
 
 > [!IMPORTANT]
