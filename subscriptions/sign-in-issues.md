@@ -66,7 +66,7 @@ Depending on the account type used to sign in, available subscriptions might not
 
 ### What is aliasing?
 
-The term "aliasing" refers to users having different identities to sign in to Windows (or your Active Directory) and to access email.
+Aliasing refers to users having different identities to sign in to Windows (or your Active Directory) and to access email.
 
 Aliasing can be encountered when a company has a Microsoft Online Service for their directory sign-in but users access their email accounts using aliases or friendly names. For example, a user's work email name might be `johnd@contoso.com`, but they might use `John.Doe@contoso.com`. For many customers who manage their subscriptions through the Volume Licensing Service Center (VLSC), sign-in fails. The sign-in email address must match the one listed in the "Work or School Account" option.
 
