@@ -74,7 +74,7 @@ Aliasing can be encountered when a company has a Microsoft Online Service for th
 
 From a subscriber perspective, it's important to first work with your admin to understand your company's identity configuration. If necessary, your admin might need to update your account settings from their admin portal, or you might need to create a Microsoft Account (MSA) by using your corporate email address. Before taking the steps to create an MSA, speak with your admin regarding any policies or issues with taking this action.
 
-### What happens when my Admin updates my Visual Studio Subscription's sign-in address?
+### What happens when my admin updates my Visual Studio Subscription's sign-in address?
 
 > [!NOTE]
 > When your admin edits the sign in email address this action updates the email used by you to sign in to your subscription on https://my.visualstudio.com. You can use the newly updated email address going forward when activating benefits. For previously activated benefits, continue reading below for more information about which email address you should use. 
