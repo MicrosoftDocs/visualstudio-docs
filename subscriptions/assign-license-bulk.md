@@ -156,7 +156,7 @@ A: No - To modify information for an individual subscriber, remove them from the
 
 ### Q: Can I add separate notification email addresses for members of a Microsoft Entra group?
 
-A: No - Separate email addresses for notifications are currently not supported for subscriptions added using Microsoft Entra groups. All emails are to the primary email (user principle name).
+A: No - Separate email addresses for notifications aren't currently supported for subscriptions added through Microsoft Entra groups. All emails go to the primary email (user principal name).
 
 ## Resources
 
