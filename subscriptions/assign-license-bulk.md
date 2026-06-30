@@ -127,7 +127,7 @@ Using this feature makes it easy to stay on top of your subscription assignments
 
 ### Q: Why can't I see the option to use Microsoft Entra groups to add subscribers?
 
-A: The feature is currently only available for supported agreement types. To check your agreement, select the **Details** button to display your agreement information.
+A: This feature is currently available only for supported agreement types. To check your agreement, select the **Details** button to display your agreement information.
 
 Microsoft Entra group assignment is supported for Enterprise (E6), Education (EU), Campus (CC), US Government (USG), Select 6 (S6), and Select Plus (SLP) agreements. If your agreement type isn't one of these, this option won't appear.
 
