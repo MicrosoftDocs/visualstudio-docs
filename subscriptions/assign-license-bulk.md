@@ -129,7 +129,7 @@ Using this feature makes it easy to stay on top of your subscription assignments
 
 A: This feature is currently available only for supported agreement types. To check your agreement, select the **Details** button to display your agreement information.
 
-Microsoft Entra group assignment is supported for Enterprise (E6), Education (EU), Campus (CC), US Government (USG), Select 6 (S6), and Select Plus (SLP) agreements. If your agreement type isn't one of these, this option won't appear.
+Microsoft Entra group assignment supports Enterprise (E6), Education (EU), Campus (CC), US Government (USG), Select 6 (S6), and Select Plus (SLP) agreements. If your agreement type isn't one of these types, this option doesn't appear.
 
    > [!div class="mx-imgBorder"]
    > ![Select the Details button](media/assign-license-bulk/bulk-add-agreement.png "Screenshot of the left nav of the manage portal. The Details button is highlighted.")
