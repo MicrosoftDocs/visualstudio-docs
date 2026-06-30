@@ -3,14 +3,14 @@ title: What are Visual Studio Subscriptions?
 author: joseb-rdc
 ms.author: amast
 ms.manager: shve
-ms.date: 05/12/2026
+ms.date: 06/30/2026
 ms.topic: concept-article
 description:  Learn about Visual Studio Subscriptions, their benefits, and how to acquire them
 ---
 
 # What are Visual Studio Subscriptions? 
 
-Visual Studio Subscriptions include access to the Visual Studio Integrated Development Environment (IDE), the primary development environment for building and debugging applications, along with a comprehensive set of tools and resources to speed up development, promote collaboration anywhere, and support development across platforms—all while maintaining security and compliance. Visual Studio Subscriptions also include access to software downloads and other resources available to subscribers. Various subscription options are offered across several channels so you can choose the subscription that best fits your needs.
+Visual Studio Subscriptions include access to the Visual Studio Integrated Development Environment (IDE), the primary development environment for building and debugging applications, along with a comprehensive set of tools and resources to speed up development, promote collaboration anywhere, and support development across platforms-all while maintaining security and compliance. Visual Studio Subscriptions also include access to software downloads and other resources available to subscribers. Various subscription options are offered across several channels so you can choose the subscription that best fits your needs.
 
 ## Subscription benefits
 In addition to the Visual Studio IDE, subscriptions can include benefits in these areas:
@@ -42,7 +42,6 @@ Build your development skill set with training and content from providers like:
 
 Access to training partners with exclusive subscriber discounts
 
-+ [Dometrain with Nick Chapsas](https://dometrain.com/courses/)
 + [Time Corey's DevForge](https://www.iamtimcorey.com/devpass-business)
 + [Visual Studio Live! Conferences](https://vslive.com/Home.aspx)
 
@@ -61,7 +60,7 @@ Subscriptions are available through several channels.
 + **Retail**
   + Individuals who are looking for a subscription for their own use can purchase subscriptions through the [Microsoft Store.](https://www.microsoft.com/store). 
 + **Monthly subscriptions**
-  + Sometimes called "cloud subscriptions," monthly subscriptions are billed each month and provide billing flexibility. They're a great option for developers who just need to use the IDE for a short time, and don’t need the other benefits. Monthly subscriptions can be purchased on the [Visual Studio Marketplace](https://marketplace.visualstudio.com/subscriptions) or through a [Cloud Solution Provider.](https://appsource.microsoft.com/marketplace/partner-dir).
+  + Sometimes called "cloud subscriptions," monthly subscriptions are billed each month and provide billing flexibility. They're a great option for developers who just need to use the IDE for a short time, and don't need the other benefits. Monthly subscriptions can be purchased on the [Visual Studio Marketplace](https://marketplace.visualstudio.com/subscriptions) or through a [Cloud Solution Provider.](https://appsource.microsoft.com/marketplace/partner-dir).
 
 For general information about subscriptions, including options, benefits, and pricing, visit the [Visual Studio Subscriptions and benefits page.](https://visualstudio.microsoft.com/subscriptions/)
 
