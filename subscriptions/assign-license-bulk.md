@@ -80,7 +80,7 @@ Using this feature makes it easy to stay on top of your subscription assignments
 > [!IMPORTANT]
 >
 > The following limitations apply to the use of Microsoft Entra groups for adding subscribers:
-> + **Only Enterprise Commercial, Education, US Government, Campus, Select 6 and Select Plus agreements can use Microsoft Entra groups.**
+> + **Only Enterprise (E6), Education (EU), Campus (CC), US Government (USG), Select 6 (S6), and Select Plus (SLP) agreements can use Microsoft Entra groups.**
 > + **MPSA agreements can't use Entra groups.**
 > + The admin must be a member of the Microsoft Entra tenant when initially adding a group to the admin portal. After the group is added, changes to the membership of the groups doesn't require admin involvement. 
 > + Groups must contain at least one member. Empty groups aren't supported.
@@ -127,14 +127,16 @@ Using this feature makes it easy to stay on top of your subscription assignments
 
 ### Q: Why can't I see the option to use Microsoft Entra groups to add subscribers?
 
-A: The feature is currently only available to organizations with trusted agreements. Select the **Details** button to display your agreement information.
+A: This feature is currently available only for supported agreement types. To check your agreement, select the **Details** button to display your agreement information.
+
+Microsoft Entra group assignment supports Enterprise (E6), Education (EU), Campus (CC), US Government (USG), Select 6 (S6), and Select Plus (SLP) agreements. If your agreement type isn't one of these types, this option doesn't appear.
 
    > [!div class="mx-imgBorder"]
    > ![Select the Details button](media/assign-license-bulk/bulk-add-agreement.png "Screenshot of the left nav of the manage portal. The Details button is highlighted.")
 
 <a name='q-i-added-users-to-my-entra-id-group-but-they-dont-have-subscriptions-yet-why'></a>
 
-### Q: I added users to my Microsoft Entra group, but they don’t have subscriptions yet. Why? 
+### Q: I added users to my Microsoft Entra group, but they don't have subscriptions yet. Why? 
 
 A: If the changes were made directly in Microsoft Entra ID the subscriptions should be assigned quickly. If the changes were made in an on-premises Active Directory, it first needs to be synced to Microsoft Entra ID. Depending how your on-premises Active Directory is configured, the changes could take up to 24 hours to be reflected. If it takes  longer than 24 hours, our [support team can help troubleshoot any issues](https://aka.ms/vsadminhelp). 
 
@@ -142,19 +144,19 @@ A: If the changes were made directly in Microsoft Entra ID the subscriptions sho
 
 ### Q: Can I choose multiple subscription levels to be assigned within a Microsoft Entra group?
 
-A: No--Everyone in the group receives the same subscription level.
+A: No - Everyone in the group receives the same subscription level.
 
 <a name='q-can-i-edit-subscriber-details-of-individuals-added-in-an-entra-id-group'></a>
 
 ### Q: Can I edit subscriber details of individuals added in a Microsoft Entra group?
 
-A: No--To modify information for an individual subscriber, remove them from the Microsoft Entra group and assign them a subscription individually.
+A: No - To modify information for an individual subscriber, remove them from the Microsoft Entra group and assign them a subscription individually.
 
 <a name='q-can-i-add-separate-notification-email-addresses-for-members-of-an-entra-id-group'></a>
 
 ### Q: Can I add separate notification email addresses for members of a Microsoft Entra group?
 
-A: No – Separate email addresses for notifications are currently not supported for subscriptions added using Microsoft Entra groups. All emails are to the primary email (user principle name).
+A: No - Separate email addresses for notifications aren't currently supported for subscriptions added through Microsoft Entra groups. All emails go to the primary email (user principal name).
 
 ## Resources
 
