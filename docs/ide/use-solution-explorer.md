@@ -1,7 +1,7 @@
 ---
 title: Learn about Solution Explorer
 description: Use Solution Explorer in Visual Studio and review the context menu options to manage the projects and files in a solution.
-ms.date: 03/17/2026
+ms.date: 06/25/2026
 ms.topic: concept-article
 ms.custom: awp-ai
 helpviewer_keywords:
@@ -325,7 +325,11 @@ You can adjust the spacing between items in Solution Explorer. By default, Visua
 
 To enable compact spacing, go to **Tools** > **Options** > **Environment** > **Visual Experience** and select **Use compact spacing in Solution Explorer**. Changes take effect immediately.
 
-For more information about Visual Experience options, see [Configure Environment > Visual Experience options](configure-visual-experience-options.md).
+By default, Solution Explorer can also show symbols such as classes, methods, and properties beneath files. If you prefer a simpler view that shows only files, go to **Tools** > **Options** > **Projects and Solutions** > **General** and clear **Show symbols under Solution Explorer files**.
+
+:::image type="content" source="media/show-symbols-enabled-vs-disabled.png" alt-text="Side-by-side comparison of Solution Explorer with Show symbols under Solution Explorer files turned off on the left and turned on on the right.":::
+
+For more information about these settings, see [Customize Visual Studio for working with projects and solutions](projects-and-solutions-options-dialog-box.md) and [Configure Environment > Visual Experience options](configure-visual-experience-options.md).
 
 ::: moniker-end
 

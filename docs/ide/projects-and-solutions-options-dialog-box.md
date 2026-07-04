@@ -1,7 +1,7 @@
 ---
 title: Customize Visual Studio for working with projects and solutions
 description: Learn how to configure the General page in the Projects and Solutions section to define the behavior of Visual Studio related to projects and solutions.
-ms.date: 12/11/2025
+ms.date: 06/25/2026
 ms.topic: how-to
 f1_keywords:
 - VS.ToolsOptionsPages.Projects.General
@@ -73,7 +73,11 @@ When selected, restores the state of nodes in Solution Explorer with respect to 
 
 ### Show symbols under Solution Explorer files
 
-When selected, Solution Explorer displays the symbols under files.
+When selected, Solution Explorer displays symbols such as classes, methods, and properties under files so you can navigate to them directly from the file tree.
+
+Clear this option if you prefer a cleaner Solution Explorer view that shows only files and folders without symbol nodes under each file.
+
+:::image type="content" source="media/show-symbols-under-solution-explorer-files.png" alt-text="Screenshot showing the option to disable the 'showing symbols under solution explorer files' feature.":::
 
 :::moniker-end
 
