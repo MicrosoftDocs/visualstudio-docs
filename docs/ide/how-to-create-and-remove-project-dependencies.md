@@ -13,8 +13,8 @@ helpviewer_keywords:
 - dependencies, project
 - projects [Visual Studio], dependencies
 ms.subservice: compile-build
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ---
 # Create and remove project dependencies

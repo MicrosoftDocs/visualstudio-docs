@@ -3,8 +3,8 @@ title: Use stored procedures in LINQ to SQL to update data
 description: Use stored procedures in the LINQ to SQL Object Relational Designer (O/R Designer) to perform updates, inserts, and deletes of data.
 ms.date: 11/04/2016
 ms.topic: how-to
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: data-tools
 ---

@@ -18,8 +18,8 @@ helpviewer_keywords:
 - Rebuild Solution command
 - solution build configurations, build order
 - builds [Visual Studio], preparing
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ---
 # Build and clean projects and solutions in Visual Studio

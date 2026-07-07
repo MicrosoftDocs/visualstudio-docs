@@ -7,8 +7,8 @@ f1_keywords:
   - "vs.cv.threads.nothreadreport"
 helpviewer_keywords:
   - "Concurrency Visualizer, No Thread Activity to Show (Threads View)"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: debug-diagnostics
 ---

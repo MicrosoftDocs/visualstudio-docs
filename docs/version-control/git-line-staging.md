@@ -4,8 +4,8 @@ titleSuffix: ""
 description: Stage multiple lines of code at the same time or split changes across different commits by using Git from directly within Visual Studio.
 ms.date: 01/05/2026
 ms.topic: concept-article
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: general-ide
 monikerRange: ">=vs-2022"

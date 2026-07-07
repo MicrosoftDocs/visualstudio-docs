@@ -1,8 +1,8 @@
 ---
 title: Use the Containers window
 description: Use the Visual Studio Containers window to view, debug, and interact with containers and images.
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 ms.topic: how-to
 ms.date: 04/02/2026
 ms.subservice: container-tools

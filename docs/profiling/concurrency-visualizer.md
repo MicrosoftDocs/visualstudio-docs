@@ -10,8 +10,8 @@ f1_keywords:
   - "vs.cv.gettingstarted"
 helpviewer_keywords:
   - "Concurrency Visualizer, Concurrency Visualizer"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: debug-diagnostics
 ---

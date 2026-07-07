@@ -4,8 +4,8 @@ titleSuffix: ""
 description: View, manage, and debug your code across 10 active repos at the same time by using the Git tooling within Visual Studio.
 ms.date: 01/14/2026
 ms.topic: how-to
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 
 ms.subservice: general-ide

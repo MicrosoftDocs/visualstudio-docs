@@ -1,8 +1,8 @@
 ---
 title: Create publish settings in IIS
-author: ghogen
+author: nitinme
 description: "Learn how to create a .publishsettings file in IIS"
-ms.author: ghogen
+ms.author: nitinme
 ms.date: 10/3/2025
 ms.subservice: deployment
 ms.topic: include

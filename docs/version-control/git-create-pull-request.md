@@ -5,8 +5,8 @@ description: Create a pull request in Visual Studio by using GitHub or Azure Dev
 ms.date: 06/02/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 ms.custom: doc-kit-assisted, awp-ai
 
 ms.collection: ce-skilling-ai-copilot

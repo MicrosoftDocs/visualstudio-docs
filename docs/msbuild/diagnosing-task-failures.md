@@ -9,8 +9,8 @@ dev_langs:
 - VB
 - CSharp
 - C++
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: msbuild
 ---

@@ -1,13 +1,13 @@
 ---
 title: Launch a subset of Docker Compose services
 description: Use Docker Compose launch profiles and control what services are available for running and debugging with Visual Studio for Windows.
-author: ghogen
+author: nitinme
 
 ms.subservice: container-tools
 ms.devlang: dotnet
 ms.topic: how-to
 ms.date: 04/02/2026
-ms.author: ghogen
+ms.author: nitinme
 monikerRange: ">=vs-2022"
 ms.custom: awp-ai
 ---

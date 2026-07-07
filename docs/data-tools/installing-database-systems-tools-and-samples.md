@@ -7,8 +7,8 @@ helpviewer_keywords:
 - database systems
 - database compatibility
 - databases for Visual Studio
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: data-tools
 ---

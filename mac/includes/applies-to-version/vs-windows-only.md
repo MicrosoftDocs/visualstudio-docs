@@ -1,8 +1,8 @@
 ---
-author: ghogen
+author: nitinme
 ms.topic: include
 ms.date: 04/21/2022
-ms.author: ghogen
+ms.author: nitinme
 ---
 
   **Applies to:**   [!INCLUDE [Visual Studio](./_vs-windows.md)] [!INCLUDE [Visual Studio for Mac](./_not-vs-mac.md)]

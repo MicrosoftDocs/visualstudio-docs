@@ -5,8 +5,8 @@ ms.date: 7/2/2025
 ms.topic: how-to
 helpviewer_keywords:
 - msbuild, Item functions
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: msbuild
 ---

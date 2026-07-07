@@ -8,8 +8,8 @@ helpviewer_keywords:
 - code editor, go to line
 - go to line
 - go to
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: general-ide
 ms.custom: sfi-image-nochange

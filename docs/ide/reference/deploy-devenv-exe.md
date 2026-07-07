@@ -8,8 +8,8 @@ helpviewer_keywords:
 - Deploy Devenv switch
 - deploying applications [Visual Studio], after build
 - /Deploy Devenv switch
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: general-ide
 ---

@@ -5,8 +5,8 @@ ms.date: 10/3/2025
 ms.topic: tutorial
 helpviewer_keywords:
   - "deployment, publish settings"
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: deployment
 ---

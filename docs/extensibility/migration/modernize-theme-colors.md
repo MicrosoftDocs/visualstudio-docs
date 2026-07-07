@@ -7,8 +7,8 @@ helpviewer_keywords:
 - themes, modernizing
 - color tokens, migration
 - Visual Studio themes, upgrading
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: extensibility-integration
 monikerRange: visualstudio

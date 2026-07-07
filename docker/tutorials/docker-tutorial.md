@@ -2,8 +2,8 @@
 title: Get started with container apps in Visual Studio Code
 titleSuffix: ""
 description: Create container applications with Visual Studio Code, the Container Tools Visual Studio Code Extension, Docker Desktop, and Docker Hub.
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 ms.service: vs-code
 ms.topic: tutorial 
 ms.date: 05/30/2024

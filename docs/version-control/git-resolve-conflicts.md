@@ -4,8 +4,8 @@ titleSuffix: ""
 description: Understand how Git works to resolve conflicting changes that cause merge conflicts in your code branches and project files in Visual Studio.
 ms.date: 11/15/2025
 ms.topic: how-to
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 
 ms.subservice: general-ide

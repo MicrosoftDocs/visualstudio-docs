@@ -21,8 +21,8 @@ helpviewer_keywords:
 - build configurations, advanced
 - projects [Visual Studio], build configuration
 - solutions [Visual Studio], build configuration
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.custom: peer-review-program
 ---

@@ -3,8 +3,8 @@ title: Compile and build TypeScript code using NuGet
 description: Add TypeScript support to your Visual Studio projects by using the NuGet package for portability across different platforms and environments.
 ms.date: 5/18/2026
 ms.topic: how-to
-author: "mikejo5000"
-ms.author: "mikejo"
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: javascript-typescript
 dev_langs:

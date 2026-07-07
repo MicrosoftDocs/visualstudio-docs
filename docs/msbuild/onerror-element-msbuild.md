@@ -12,8 +12,8 @@ dev_langs:
 helpviewer_keywords:
 - OnError Element [MSBuild]
 - <OnError Element [MSBuild]
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: msbuild
 ---

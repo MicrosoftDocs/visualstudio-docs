@@ -12,8 +12,8 @@ dev_langs:
 helpviewer_keywords:
 - Csc task [MSBuild]
 - MSBuild, Csc task
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: msbuild
 ---

@@ -3,8 +3,8 @@ title: Object from unsupported provider
 description: You have selected a database object from an unsupported database provider. View information about this Visual Studio (O/R Designer) message.
 ms.date: 11/04/2016
 ms.topic: error-reference
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: data-tools
 ---

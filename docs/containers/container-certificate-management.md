@@ -1,8 +1,8 @@
 ---
 title: Manage SSL certificates for containerized apps
-author: ghogen
+author: nitinme
 description: Lear how to use secure communications over HTTPS for a containerized app using SSL, and manage certificates and ports.
-ms.author: ghogen
+ms.author: nitinme
 ms.date: 09/10/2025
 ms.subservice: container-tools
 ms.topic: how-to

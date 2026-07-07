@@ -7,8 +7,8 @@ helpviewer_keywords:
 - RunExit Devenv switch
 - Devenv, /RunExit switch
 - /RunExit Devenv switch
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: general-ide
 ---

@@ -12,8 +12,8 @@ dev_langs:
 helpviewer_keywords:
 - MSBuild task [MSBuild]
 - MSBuild, MSBuild task
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: msbuild
 ---

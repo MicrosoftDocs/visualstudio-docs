@@ -13,8 +13,8 @@ helpviewer_keywords:
 - hierarchical update, committing edited records
 - BindingSource class, committing edited records
 - EndEdit method
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: data-tools
 ---

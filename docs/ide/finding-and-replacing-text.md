@@ -28,8 +28,8 @@ helpviewer_keywords:
 - find text
 - replace text
 - multi-caret selection
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: general-ide
 ---

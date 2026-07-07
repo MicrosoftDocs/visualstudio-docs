@@ -13,8 +13,8 @@ helpviewer_keywords:
 - MSBuild, GenerateApplicationManifest task
 - HostInBrowser property (MSBuild)
 - GenerateApplicationManifest task [MSBuild]
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: msbuild
 ---

@@ -6,8 +6,8 @@ ms.topic: how-to
 helpviewer_keywords:
 - editors, text case
 - text, case
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: general-ide
 ---

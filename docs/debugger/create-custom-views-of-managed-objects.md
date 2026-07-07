@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "mcee_cs.dat file"
   - "debugger, expanding data types"
   - "mcee_mc.dat file"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: debug-diagnostics
 ---

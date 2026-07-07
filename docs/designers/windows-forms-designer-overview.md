@@ -5,8 +5,8 @@ ms.date: 06/24/2025
 ms.topic: overview
 helpviewer_keywords:
 - Windows Forms Designer
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: ui-designers
 ms.custom: awp-ai

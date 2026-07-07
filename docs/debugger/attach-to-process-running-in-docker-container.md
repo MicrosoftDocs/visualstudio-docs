@@ -6,8 +6,8 @@ ms.topic: how-to
 helpviewer_keywords:
   - "debugging, linux Docker container"
   - "debugging, Docker container"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2022'

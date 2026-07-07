@@ -5,8 +5,8 @@ ms.date: 03/10/2025
 ms.topic: tutorial
 helpviewer_keywords:
 - MSBuild, tutorial
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: msbuild
 ---

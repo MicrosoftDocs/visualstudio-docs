@@ -17,8 +17,8 @@ helpviewer_keywords:
 - General Environment Options dialog box
 - Environment Options dialog box
 ms.custom: "ide-ref"
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: general-ide
 ---

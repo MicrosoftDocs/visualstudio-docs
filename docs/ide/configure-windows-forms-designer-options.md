@@ -11,8 +11,8 @@ helpviewer_keywords:
 - grid settings, Windows Forms
 - snap to grid
 - layout mode
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: general-ide
 ms.custom: awp-ai

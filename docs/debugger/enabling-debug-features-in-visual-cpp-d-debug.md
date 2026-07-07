@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "MFC libraries, debug version"
   - "debug builds, MFC"
   - "_DEBUG macro"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: debug-diagnostics
 ---

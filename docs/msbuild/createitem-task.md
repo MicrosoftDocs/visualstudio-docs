@@ -12,8 +12,8 @@ dev_langs:
 helpviewer_keywords:
 - CreateItem task [MSBuild]
 - MSBuild, CreateItem task
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: msbuild
 ---

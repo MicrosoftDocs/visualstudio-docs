@@ -8,8 +8,8 @@ helpviewer_keywords:
 - MSBuild, customize build
 - Directory.Build.props
 - Directory.Build.targets
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: msbuild
 ai-usage: ai-assisted

@@ -12,8 +12,8 @@ dev_langs:
 helpviewer_keywords:
 - ConvertToAbsolutePath task [MSBuild]
 - MSBuild, ConvertToAbsolutePath task
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: msbuild
 ---

@@ -123,8 +123,8 @@ helpviewer_keywords:
 - msbuild, project file properties
 - ExcludeDeploymentUrl property
 - project file properties (MSBuild)
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: msbuild
 ---

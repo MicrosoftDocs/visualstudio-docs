@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - data [Visual Studio], data sources
 - data sources
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: data-tools
 

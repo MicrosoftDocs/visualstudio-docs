@@ -95,8 +95,8 @@ f1_keywords:
  - MSBuild.ResolveAssemblyReference.MismatchBetweenTargetedAndReferencedArchOfImplementation
  - MSBuild.InvalidSdkFormat
  - MSBuild.FindInvalidProjectReferences.WarnWhenVersionIsIncompatible
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: msbuild
 ---

@@ -16,8 +16,8 @@ helpviewer_keywords:
 - ZipDirectory task [MSBuild]
 - MSBuild, ZipDirectory task
 caps.latest.revision: 16
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: msbuild
 ---

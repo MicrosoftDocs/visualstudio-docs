@@ -20,8 +20,8 @@ helpviewer_keywords:
 - Dotfuscator command line
 - Dotfuscator Professional
 description: Protect your .NET applications with the free copy of Dotfuscator Community in Visual Studio, find your installed version or upgrade, and update related references.
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: general-ide
 ms.custom: awp-ai

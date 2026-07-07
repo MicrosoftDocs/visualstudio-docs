@@ -6,8 +6,8 @@ titleSuffix: ''
 ms.date: 04/17/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: general-ide
 ms.collection: ce-skilling-ai-copilot

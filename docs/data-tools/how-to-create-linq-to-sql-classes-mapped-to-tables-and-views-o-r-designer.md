@@ -3,8 +3,8 @@ title: Map LINQ to SQL classes to tables/views (O-R Designer)
 description: Understand how to create LINQ to SQL entity classes (classes that are mapped to tables and views) in Object Relational Designer (O/R Designer).
 ms.date: 11/04/2016
 ms.topic: how-to
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: data-tools
 ---

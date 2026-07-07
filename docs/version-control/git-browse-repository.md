@@ -3,8 +3,8 @@ title: "Browse repos, compare branches & commits"
 description: Browse Git repositories in Visual Studio, compare branches and commits, view line-by-line change history with Git Blame annotations, and track who made specific code changes.
 ms.date: 06/11/2026
 ms.topic: how-to
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 ms.custom: doc-kit-assisted, awp-ai
 
 ms.subservice: general-ide

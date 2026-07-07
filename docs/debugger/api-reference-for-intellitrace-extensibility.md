@@ -5,8 +5,8 @@ ms.date: "11/07/2018"
 ms.topic: reference
 helpviewer_keywords:
   - "IntelliTrace, API reference"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: debug-diagnostics
 ---

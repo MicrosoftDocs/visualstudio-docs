@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - File.NewFile command
 - New File command
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: general-ide
 ---

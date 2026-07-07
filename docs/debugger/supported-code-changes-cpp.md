@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "code changes, handling in Edit and Continue"
   - "what's new [C++], supported code changes"
   - "code changes"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: debug-diagnostics
 ---
