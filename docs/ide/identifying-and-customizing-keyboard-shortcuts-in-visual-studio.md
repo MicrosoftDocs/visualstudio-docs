@@ -13,8 +13,8 @@ helpviewer_keywords:
 - custom shortcut keys [Visual Studio]
 - customizing keyboard shortcuts [Visual Studio]
 - exporting shortcut keys [Visual Studio]
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: general-ide
 ---

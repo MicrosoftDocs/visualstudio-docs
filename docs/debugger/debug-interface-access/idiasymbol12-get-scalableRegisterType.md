@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "IDiaSymbol12::get_scalableRegisterType"
 dev_langs:
   - "C++"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: debug-diagnostics
 ---

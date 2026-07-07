@@ -3,8 +3,8 @@ title: Configure inheritance by using the O-R Designer
 description: Learn how to configure inheritance using the Object Relational Designer (O/R Designer), which supports single-table inheritance. Created inherited data classes.
 ms.date: 11/04/2016
 ms.topic: how-to
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: data-tools
 ---

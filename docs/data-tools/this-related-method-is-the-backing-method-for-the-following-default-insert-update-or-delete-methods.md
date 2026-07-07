@@ -3,8 +3,8 @@ title: Can't delete backing method
 description: This related method is the backing method for the following default insert, update, or delete methods
 ms.date: 11/04/2016
 ms.topic: error-reference
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: data-tools
 ---

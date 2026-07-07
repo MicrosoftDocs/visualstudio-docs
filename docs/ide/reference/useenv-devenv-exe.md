@@ -14,8 +14,8 @@ helpviewer_keywords:
 - UseEnv switch
 - /UseEnv Devenv switch
 - Devenv, /UseEnv
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: general-ide
 ---

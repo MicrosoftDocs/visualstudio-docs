@@ -10,8 +10,8 @@ dev_langs:
 helpviewer_keywords:
 - build support [WPF]
 - MSBuild [WPF]
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: msbuild
 ---

@@ -6,8 +6,8 @@ ms.topic: how-to
 helpviewer_keywords:
 - Class Designer, partial classes
 - partial classes, Class Designer
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: general-ide
 dev_langs:

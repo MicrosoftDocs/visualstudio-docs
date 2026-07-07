@@ -7,8 +7,8 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaInjectedSource::get_virtualFilename method"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: debug-diagnostics
 ---

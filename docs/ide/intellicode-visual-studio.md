@@ -6,8 +6,8 @@ ms.date: 11/13/2025
 ms.service: visual-studio-family
 ms.subservice: intellicode
 ms.topic: concept-article
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ---
 # IntelliCode: AI-assisted code development in Visual Studio

@@ -4,8 +4,8 @@ description: Debug JavaScript and TypeScript applications in Visual Studio, reac
 ms.date: "11/19/2025"
 ms.topic: "how-to"
 ms.devlang: javascript
-author: "mikejo5000"
-ms.author: "mikejo"
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: javascript-typescript
 dev_langs:

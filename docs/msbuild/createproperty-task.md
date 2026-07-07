@@ -12,8 +12,8 @@ dev_langs:
 helpviewer_keywords:
 - CreateProperty task [MSBuild]
 - MSBuild, CreateProperty task
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: msbuild
 ---

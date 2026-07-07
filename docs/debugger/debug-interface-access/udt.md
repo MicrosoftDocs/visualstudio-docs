@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "unions, as symbols"
   - "UDT symbol"
   - "structs [C++]"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: debug-diagnostics
 ---

@@ -8,8 +8,8 @@ helpviewer_keywords:
 - middle tier
 - data tier
 - n-tier applications, about n-tier applications
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: data-tools
 ---

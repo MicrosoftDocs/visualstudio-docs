@@ -5,8 +5,8 @@ ms.date: 02/25/2026
 ms.topic: concept-article
 helpviewer_keywords:
   - "Spy++"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: debug-diagnostics
 ---

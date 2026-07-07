@@ -14,8 +14,8 @@ helpviewer_keywords:
 - peek definition
 - go to line
 - go to
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 ms.manager:  j-martens
 ms.custom: "awp, awp-ai"
 ai-usage: ai-assisted

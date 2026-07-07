@@ -7,8 +7,8 @@ helpviewer_keywords:
 - escape characters
 - escape
 - MSBuild Escape Characters
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: msbuild
 ---

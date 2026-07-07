@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "Call Stack window, mixed-mode debugging"
   - "debugging managed code, mixed code"
   - "mixed-mode debugging, call stack"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: debug-diagnostics
 ---

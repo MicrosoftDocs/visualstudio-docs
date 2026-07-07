@@ -10,8 +10,8 @@ dev_langs:
 helpviewer_keywords:
 - MSBuild (C++), MultiToolTask task
 - MultiToolTask task (MSBuild (C++))
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 ---
 # MultiToolTask task
 

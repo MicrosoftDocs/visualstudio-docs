@@ -3,8 +3,8 @@ title: About the Editor Sticky Scroll Feature
 description: Use the Sticky Scroll feature in Visual Studio to quickly view code scopes at the top of the editor, which helps you stay in the right context while you code. 
 ms.date: 12/29/2025
 ms.topic: overview 
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: general-ide
 monikerRange: ">=vs-2022"

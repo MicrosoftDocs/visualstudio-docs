@@ -3,8 +3,8 @@ title: "View events with IntelliTrace"
 description: Learn how to use IntelliTrace in Visual Studio Enterprise to collect data about specific events, categories of events, and individual function calls.
 ms.date: "11/04/2016"
 ms.topic: how-to
-author: "mikejo5000"
-ms.author: "mikejo"
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: debug-diagnostics
 ---

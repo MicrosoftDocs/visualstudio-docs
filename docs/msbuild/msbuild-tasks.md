@@ -6,8 +6,8 @@ ms.topic: language-reference
 helpviewer_keywords:
 - tasks
 - MSBuild, tasks
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: msbuild
 ---

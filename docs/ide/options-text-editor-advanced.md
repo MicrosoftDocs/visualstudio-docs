@@ -12,8 +12,8 @@ helpviewer_keywords:
 - editors, global settings
 ms.custom: "awp, ide-ref"
 ai-usage: ai-assisted
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: general-ide
 monikerRange: '>=vs-2022'

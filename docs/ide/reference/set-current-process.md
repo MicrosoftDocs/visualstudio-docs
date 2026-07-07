@@ -7,8 +7,8 @@ helpviewer_keywords:
 - Debug.SetCurrentProcess command
 - Set Current Process command
 ms.custom: "ide-ref"
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: general-ide
 ---

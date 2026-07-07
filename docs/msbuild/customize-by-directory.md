@@ -9,8 +9,8 @@ helpviewer_keywords:
 - Directory.Build.props
 - Directory.Build.targets
 - customize build [MSBuild]
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ai-usage: ai-assisted
 ms.custom: awp-ai

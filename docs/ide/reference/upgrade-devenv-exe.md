@@ -7,8 +7,8 @@ helpviewer_keywords:
 - /upgrade Devenv switch
 - Devenv, /upgrade switch
 - upgrade Devenv switch
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: general-ide
 ---

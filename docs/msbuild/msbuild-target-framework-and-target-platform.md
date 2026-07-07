@@ -3,8 +3,8 @@ title: MSBuild Target Framework and Target Platform
 description: Build an MSBuild project to run on a target .NET Framework version, a target platform, or a software architecture, and view supported .NET Framework versions.
 ms.date: 09/14/2023
 ms.topic: language-reference
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: msbuild
 ---

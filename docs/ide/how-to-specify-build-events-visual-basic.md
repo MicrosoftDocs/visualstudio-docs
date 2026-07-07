@@ -13,8 +13,8 @@ helpviewer_keywords:
 f1_keywords:
 - vb.ProjectPropertiesBuildEvents
 - vb.ProjectPropertiesBuildEventsBuilder
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ---
 # Specify build events (Visual Basic)

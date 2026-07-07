@@ -7,8 +7,8 @@ f1_keywords:
   - "vs.historicaldebug.collectdataoutsideVS"
 helpviewer_keywords:
   - "IntelliTrace, debugging applications in production"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: debug-diagnostics
 ---

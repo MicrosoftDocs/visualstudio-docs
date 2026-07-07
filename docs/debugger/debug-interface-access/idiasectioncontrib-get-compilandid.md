@@ -7,8 +7,8 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSectionContrib::get_compilandId method"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: debug-diagnostics
 ---

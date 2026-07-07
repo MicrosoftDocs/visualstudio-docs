@@ -3,8 +3,8 @@ title: Turn pluralization on and off (O-R Designer)
 description: Know how to turn pluralization on and off in Object Relational Designer (O/R Designer). The default setting converts plural names to singular.
 ms.date: 10/24/2025
 ms.topic: how-to
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: data-tools
 ---

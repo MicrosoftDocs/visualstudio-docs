@@ -5,8 +5,8 @@ ms.date: 5/1/2025
 ms.topic: how-to
 helpviewer_keywords:
 - msbuild, build order
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: msbuild
 ---

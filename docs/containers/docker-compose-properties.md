@@ -1,8 +1,8 @@
 ---
 title: Docker Compose build settings
-author: ghogen
+author: nitinme
 description: Learn how to edit the Docker Compose build properties to customize how Visual Studio builds and runs a Docker Compose application.
-ms.author: ghogen
+ms.author: nitinme
 ms.date: 04/02/2026
 ms.subservice: container-tools
 ms.topic: reference

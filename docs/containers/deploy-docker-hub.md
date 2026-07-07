@@ -1,13 +1,13 @@
 ---
 title: Deploy an ASP.NET Core web app to Docker Hub
 description: Use Visual Studio Container Tools to manually deploy an ASP.NET Core web application to Docker Hub for convenient hosting of your image repositories.
-author: ghogen
+author: nitinme
 
 ms.subservice: container-tools
 ms.devlang: dotnet
 ms.topic: how-to
 ms.date: 9/10/2025
-ms.author: ghogen
+ms.author: nitinme
 monikerRange: ">=vs-2022"
 ms.custom: sfi-image-nochange
 ---

@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "Watch window, format specifiers in C#"
   - "format specifiers, debugger"
   - "debugger, format specifiers recognized by"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: debug-diagnostics
 ---

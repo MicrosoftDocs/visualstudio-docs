@@ -6,8 +6,8 @@ ms.topic: how-to
 helpviewer_keywords:
   - "deployment, GitHub Actions"
   - GitHub Actions, publish
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: deployment
 monikerRange: '>= vs-2022'

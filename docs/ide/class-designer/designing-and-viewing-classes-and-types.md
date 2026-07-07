@@ -15,8 +15,8 @@ helpviewer_keywords:
 - types [Visual Studio], viewing
 - classes [Visual Studio], viewing
 - class designer
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: general-ide
 ai-usage: ai-assisted

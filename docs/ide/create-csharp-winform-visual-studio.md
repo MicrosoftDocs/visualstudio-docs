@@ -5,8 +5,8 @@ ms.custom: vs-acquisition
 ms.date: 11/25/2025
 ms.topic: tutorial
 ms.devlang: csharp
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: general-ide
 dev_langs:

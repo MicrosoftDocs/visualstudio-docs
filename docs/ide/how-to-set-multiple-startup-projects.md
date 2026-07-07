@@ -6,8 +6,8 @@ ms.topic: how-to
 helpviewer_keywords:
 - startup projects, setting multiple startup projects
 ms.subservice: compile-build
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ---
 # Set multiple startup projects

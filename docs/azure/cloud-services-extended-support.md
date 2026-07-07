@@ -1,14 +1,14 @@
 ---
 title: Publish Cloud Services (classic) to Cloud Services (extended support) - Visual Studio
 description: Learn how to publish an existing Azure Cloud Services (classic) project to Azure Cloud Services (extended support) by using an Azure Resource Manager template (ARM template) in Visual Studio on Windows.
-author: ghogen
+author: nitinme
 
 f1_keywords:
  - AzureTools.Publish.UI
 ms.subservice: azure-development
 ms.topic: how-to
 ms.date: 06/18/2024
-ms.author: ghogen
+ms.author: nitinme
 monikerRange: "<=vs-2022"
 ms.custom: sfi-image-nochange
 ---

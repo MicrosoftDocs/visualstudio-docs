@@ -12,8 +12,8 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "No Source Code Available for the Current Location dialog box"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: debug-diagnostics
 ---

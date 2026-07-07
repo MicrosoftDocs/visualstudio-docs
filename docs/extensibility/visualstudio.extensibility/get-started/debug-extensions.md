@@ -3,9 +3,9 @@ title: 'Debug an extension created with VisualStudio.Extensibility'
 description: Learn how to for debug an out-of-process extension in the Visual Studio Experimental instance.
 ms.topic: how-to
 ms.date: 1/9/2026
-ms.author: ghogen
+ms.author: nitinme
 monikerRange: ">=vs-2022"
-author: ghogen
+author: nitinme
 
 ms.subservice: extensibility-integration
 ms.update-cycle: 365-days

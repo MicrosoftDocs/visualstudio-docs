@@ -1,8 +1,8 @@
 ---
 title: Create a basic data app with WPF and Entity Framework 6
 description: Create a forms-over-data .NET Framework application in Visual Studio with Windows Presentation Foundation (WPF) and Entity Framework 6.
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: data-tools
 ms.topic: tutorial

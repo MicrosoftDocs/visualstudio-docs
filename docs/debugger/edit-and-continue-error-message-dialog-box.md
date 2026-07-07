@@ -13,8 +13,8 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "Edit and Continue Error Message dialog box"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: debug-diagnostics
 ---

@@ -12,8 +12,8 @@ dev_langs:
 helpviewer_keywords:
 - Error task [MSBuild]
 - MSBuild, Error task
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: msbuild
 ---

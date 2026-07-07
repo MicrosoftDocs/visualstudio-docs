@@ -7,8 +7,8 @@ helpviewer_keywords:
 - MSBuild, writing loggers
 - MSBuild, logging
 - logging [MSBuild]
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: msbuild
 ---
