@@ -16,8 +16,8 @@ helpviewer_keywords:
 - data validation
 - validating data, datasets
 - updating datasets, validating data
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: data-tools
 ---

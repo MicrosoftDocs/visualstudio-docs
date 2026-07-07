@@ -1,8 +1,8 @@
 ---
 title: Learn how to set the container entry point for Docker containers in Visual Studio
-author: ghogen
+author: nitinme
 description: Understand and configure the custom container entry point set by Visual Studio based on the project type and the container operating system.
-ms.author: ghogen
+ms.author: nitinme
 ms.date: 9/10/2025
 ms.subservice: container-tools
 ms.topic: how-to

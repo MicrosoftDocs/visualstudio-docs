@@ -6,8 +6,8 @@ ms.topic: overview
 helpviewer_keywords:
 - MSBuild, about MSBuild
 - MSBuild, overview
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: msbuild
 ---

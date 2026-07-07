@@ -8,8 +8,8 @@ dev_langs:
 helpviewer_keywords:
   - "enumerated types as symbols"
   - "Enum symbol"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: debug-diagnostics
 ---

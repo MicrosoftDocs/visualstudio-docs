@@ -5,8 +5,8 @@ ms.service: visual-studio-family
 ms.subservice: intellicode
 ms.topic: concept-article
 description: IntelliCode suggestions
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ---
 # AI assistance while you edit code

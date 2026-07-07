@@ -1,8 +1,8 @@
 ---
 title: Visual Studio Container Tools for Docker with ASP.NET on Windows
-author: ghogen
+author: nitinme
 description: Learn how to use Visual Studio 2019 tooling and Docker for Windows
-ms.author: ghogen
+ms.author: nitinme
 ms.date: 9/10/2025
 ms.subservice: container-tools
 ms.topic: include

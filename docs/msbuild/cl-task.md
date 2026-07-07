@@ -13,8 +13,8 @@ dev_langs:
 helpviewer_keywords:
 - MSBuild (C++), CL task
 - CL task (MSBuild (C++))
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: msbuild
 ---

@@ -8,8 +8,8 @@ helpviewer_keywords:
 - windows, managing editor windows
 - editors, windows management
 - Code Editor, windows management
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: general-ide
 ---

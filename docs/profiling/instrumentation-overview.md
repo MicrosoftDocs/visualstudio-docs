@@ -4,8 +4,8 @@ description: Explore the tools you can use to instrument your applications in Vi
 ms.date: "05/01/2024"
 ms.topic: concept-article
 ms.custom: "profiling-seo"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: debug-diagnostics
 ---

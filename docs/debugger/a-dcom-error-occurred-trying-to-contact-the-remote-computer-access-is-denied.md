@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "remote debugging, DCOM error"
   - "remote DCOM access denied error"
   - "DCOM, access errors"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: debug-diagnostics
 ---

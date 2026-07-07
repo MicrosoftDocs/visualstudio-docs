@@ -3,8 +3,8 @@ title: Remote debug ASP.NET Core on a remote IIS computer
 description: Debug an ASP.NET Core application that has been deployed to a remote Internet Information Services (IIS) computer using the Visual Studio remote debugger.
 ms.date: 05/28/2026
 ms.topic: how-to
-author: "mikejo5000"
-ms.author: "mikejo"
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: debug-diagnostics
 ---

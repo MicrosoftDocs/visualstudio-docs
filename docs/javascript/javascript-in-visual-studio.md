@@ -9,8 +9,8 @@ dev_langs:
   - "JavaScript"
   - "TypeScript"
   - "DHTML"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: nitinme
+ms.author: nitinme
 ms.custom: awp-ai
 ---
 # JavaScript and TypeScript in Visual Studio

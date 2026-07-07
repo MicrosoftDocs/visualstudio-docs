@@ -14,8 +14,8 @@ dev_langs:
 helpviewer_keywords:
   - "Edit and Continue, limitations"
   - "Failed to Apply Code Changes dialog box"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: debug-diagnostics
 ---

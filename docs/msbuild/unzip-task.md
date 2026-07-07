@@ -16,8 +16,8 @@ helpviewer_keywords:
 - Unzip task [MSBuild]
 - MSBuild, Unzip task
 caps.latest.revision: 16
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: msbuild
 ---

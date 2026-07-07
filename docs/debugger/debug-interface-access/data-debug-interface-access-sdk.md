@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "local variables [C++], as symbols"
   - "class members [C++], as symbols"
   - "Data symbol"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: debug-diagnostics
 ---

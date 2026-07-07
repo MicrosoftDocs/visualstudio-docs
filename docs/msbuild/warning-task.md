@@ -12,8 +12,8 @@ dev_langs:
 helpviewer_keywords:
 - Warning task [MSBuild]
 - MSBuild, Warning task
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: msbuild
 ---

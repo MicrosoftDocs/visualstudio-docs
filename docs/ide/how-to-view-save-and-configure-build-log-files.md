@@ -4,8 +4,8 @@ description: Explore how to configure build log files with information about the
 ms.date: 11/13/2025
 ms.subservice: compile-build
 ms.topic: how-to
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 
 #customer intent: As a developer, I want to work with build log files in Visual Studio so I can troubleshoot build failures.

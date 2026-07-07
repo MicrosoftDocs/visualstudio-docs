@@ -11,8 +11,8 @@ helpviewer_keywords:
 ms.custom: 
 - "ide-ref"
 - awp-ai
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: general-ide
 ---

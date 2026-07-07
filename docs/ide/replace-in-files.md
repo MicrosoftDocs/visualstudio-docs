@@ -10,8 +10,8 @@ helpviewer_keywords:
 - text searches, replacing text
 - find and replace
 - replace in files
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: general-ide
 

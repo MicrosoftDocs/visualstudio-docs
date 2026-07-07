@@ -1,8 +1,8 @@
 ---
 title: Import publish settings in Visual Studio
-author: ghogen
+author: nitinme
 description: Learn how to import publish settings in Visual Studio
-ms.author: ghogen
+ms.author: nitinme
 ms.date: 05/18/2026
 ms.subservice: deployment
 ms.topic: include

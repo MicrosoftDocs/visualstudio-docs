@@ -15,8 +15,8 @@ helpviewer_keywords:
 - Class Designer, C++ support
 - Class Designer, limitations
 - Class Designer, tasks in C++
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: general-ide
 ---

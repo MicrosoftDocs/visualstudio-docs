@@ -13,8 +13,8 @@ f1_keywords:
 helpviewer_keywords:
 - solutions [Visual Studio]
 - projects [Visual Studio]
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: general-ide
 #customer intent: As a developer, I want to learn about Visual Studio projects and solutions so that I can effectively manage my solutions.

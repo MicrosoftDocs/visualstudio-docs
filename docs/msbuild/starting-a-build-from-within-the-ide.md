@@ -5,8 +5,8 @@ ms.date: 11/04/2016
 ms.topic: how-to
 helpviewer_keywords:
 - build
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: msbuild
 ---

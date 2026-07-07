@@ -12,8 +12,8 @@ dev_langs:
   - "VB"
   - "FSharp"
   - "C++"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: debug-diagnostics
 ---

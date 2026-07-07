@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "debugging [Visual Basic], Edit and Continue"
   - "Visual Basic, Edit and Continue"
   - "64-bit Edit and Continue"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: debug-diagnostics
 ms.custom: awp-ai

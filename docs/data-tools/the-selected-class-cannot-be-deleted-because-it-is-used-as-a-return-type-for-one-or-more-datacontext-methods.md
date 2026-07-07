@@ -3,8 +3,8 @@ title: Selected class cannot be deleted
 description: The selected class cannot be deleted because it is used as a return type for one or more DataContext methods
 ms.date: 11/04/2016
 ms.topic: error-reference
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: data-tools
 ---

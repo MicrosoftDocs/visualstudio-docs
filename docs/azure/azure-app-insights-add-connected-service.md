@@ -1,12 +1,12 @@
 ---
 title: Add Application Insights With Connected Services
 description: Connect Application Insights to your application by using Connected Services in Visual Studio and add a connected service.
-author: ghogen
+author: nitinme
 
 ms.subservice: azure-development
 ms.topic: how-to
 ms.date: 07/01/2025
-ms.author: ghogen
+ms.author: nitinme
 ms.custom:
   - sfi-ropc-nochange
   - sfi-image-nochange

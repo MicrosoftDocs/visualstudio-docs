@@ -1,8 +1,8 @@
 ---
 ms.date: 12/04/2024
 ms.subservice: general-ide
-ms.author: ghogen
-author: ghogen
+ms.author: nitinme
+author: nitinme
 
 ms.topic: include
 ms.custom:

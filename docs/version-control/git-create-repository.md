@@ -3,8 +3,8 @@ title: Create a Git repo or work remotely with a provider
 description: Create a repo in Visual Studio by using Git, browse to an Azure DevOps repo, or work remotely with the Git provider of your choice.
 ms.date: 02/25/2026
 ms.topic: how-to
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 
 ms.subservice: general-ide

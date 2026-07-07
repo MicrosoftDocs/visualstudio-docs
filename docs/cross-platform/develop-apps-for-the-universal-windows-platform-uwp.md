@@ -4,8 +4,8 @@ description: Learn about creating apps using Visual Studio and the Universal Win
 ms.date: 10/24/2017
 ms.subservice: general-ide
 ms.topic: get-started
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ---
 

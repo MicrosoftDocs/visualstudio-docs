@@ -24,8 +24,8 @@ helpviewer_keywords:
 - methods [Visual Studio], adding parameters
 - Class Details window
 - Class Details window, member creation
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: general-ide
 ---

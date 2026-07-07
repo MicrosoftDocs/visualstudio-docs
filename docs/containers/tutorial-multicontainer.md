@@ -1,8 +1,8 @@
 ---
 title: Work with multiple containers using Docker Compose
-author: ghogen
+author: nitinme
 description: Create and manage multi-container applications with Docker Compose and Container Tools in Visual Studio, including custom launch profiles.
-ms.author: ghogen
+ms.author: nitinme
 ms.date: 04/02/2026
 ms.subservice: container-tools
 ms.topic: tutorial

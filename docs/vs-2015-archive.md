@@ -3,8 +3,8 @@ title: Visual Studio 2015 documentation
 description: How to find documentation for Visual Studio 2015 after it was archived to the previous-versions site.
 ms.date: 10/13/2020
 ms.topic: release-notes
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ---
 

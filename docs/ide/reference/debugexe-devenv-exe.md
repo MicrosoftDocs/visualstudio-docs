@@ -8,8 +8,8 @@ helpviewer_keywords:
 - DebugExe switch
 - /DebugExe [devenv.exe]
 - debugging executables
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: general-ide
 ---

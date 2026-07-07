@@ -14,8 +14,8 @@ dev_langs:
   - "SQL"
 helpviewer_keywords:
   - "Stop Debugging in Progress dialog box"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: debug-diagnostics
 ---

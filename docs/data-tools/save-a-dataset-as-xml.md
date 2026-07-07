@@ -11,8 +11,8 @@ helpviewer_keywords:
 - data [Visual Studio], saving as XML
 - datasets [Visual Basic], saving as XML
 - saving data
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: data-tools
 ---

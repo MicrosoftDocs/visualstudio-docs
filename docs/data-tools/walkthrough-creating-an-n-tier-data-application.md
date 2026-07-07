@@ -9,8 +9,8 @@ dev_langs:
 helpviewer_keywords:
 - n-tier applications, creating
 - n-tier applications, walkthroughs
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: data-tools
 ms.custom: sfi-image-nochange

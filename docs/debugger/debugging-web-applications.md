@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "ASP.NET debugging, Web services"
   - "debugging [ASP.NET], about debugging ASP.NET Web applications"
   - "ASP.NET Web pages, debugging"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: debug-diagnostics
 ---

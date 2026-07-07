@@ -4,8 +4,8 @@ description: Learn about the AI-assisted development tools in Visual Studio, suc
 ms.date: 03/17/2026
 ms.update-cycle: 180-days
 ms.topic: overview 
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot

@@ -5,8 +5,8 @@ ms.date: 03/10/2019
 ms.topic: reference
 dev_langs:
 - C++
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 ---
 # TrackedVCToolTask base class
 

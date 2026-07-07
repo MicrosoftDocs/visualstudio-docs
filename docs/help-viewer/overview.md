@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "Help Viewer, window components"
   - "Help Viewer, navigating"
   - "toolbar [Help Viewer]"
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: help-viewer
 ---

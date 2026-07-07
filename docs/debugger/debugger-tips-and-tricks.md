@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "stepping"
   - "debugging [Visual Studio], execution control"
   - "execution, controlling in debugger"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: debug-diagnostics
 ms.custom: sfi-image-nochange

@@ -5,8 +5,8 @@ ms.date: 11/04/2016
 ms.topic: language-reference
 helpviewer_keywords:
 - msbuild, item definitions
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: msbuild
 ---

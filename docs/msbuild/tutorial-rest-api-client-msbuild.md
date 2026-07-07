@@ -6,8 +6,8 @@ ms.topic: tutorial
 helpviewer_keywords:
 - MSBuild, tutorial
 - MSBuild, code generation
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: msbuild
 ---
