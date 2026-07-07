@@ -5,8 +5,8 @@ ms.date: "10/28/2025"
 ms.topic: "error-reference"
 f1_keywords:
   - "vs.debug.error.process_exit_during_func_eval"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: debug-diagnostics
 ---

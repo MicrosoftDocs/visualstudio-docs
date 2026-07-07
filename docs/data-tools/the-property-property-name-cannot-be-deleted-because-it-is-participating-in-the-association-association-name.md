@@ -3,8 +3,8 @@ title: Property participates in association
 description: The property cannot be deleted because it is participating in the association. View information about this Object Relational Designer (O/R Designer) message.
 ms.date: 11/04/2016
 ms.topic: error-reference
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: data-tools
 ---

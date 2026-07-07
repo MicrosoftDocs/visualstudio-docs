@@ -5,8 +5,8 @@ ms.date: 11/04/2016
 ms.topic: overview
 dev_langs:
 - CPP
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: data-tools
 ---

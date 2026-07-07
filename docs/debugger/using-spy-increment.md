@@ -7,8 +7,8 @@ helpviewer_keywords:
   - Using Spy++
   - viewing code, refreshing views, fonts
   - expanding and collapsing Spy++ trees
-author: "mikejo5000"
-ms.author: "mikejo"
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: debug-diagnostics
 ---

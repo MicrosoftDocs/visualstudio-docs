@@ -12,8 +12,8 @@ helpviewer_keywords:
 - Data Sources Window, setting controls to display images
 - PictureBox control [Windows Forms], data binding
 - images [Visual Basic], dragging from Data Sources window
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: data-tools
 ---

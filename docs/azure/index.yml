@@ -4,12 +4,12 @@ summary: Learn to connect apps to Azure services and deploy them to Azure.
 metadata:
   title: Azure development with Visual Studio
   description: Tutorials and conceptual articles about using Visual Studio to connect apps and services to Azure and develop services that run in the Azure cloud.
-  author: ghogen
+  author: nitinme
   manager: wiwagn
   ms.subservice: azure-development
   ms.topic: landing-page
   ms.date: 1/8/2026
-  ms.author: ghogen
+  ms.author: nitinme
 
 landingContent:
   - title: Develop Azure applications

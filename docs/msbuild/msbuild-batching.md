@@ -6,8 +6,8 @@ ms.topic: how-to
 helpviewer_keywords:
 - batching [MSBuild]
 - MSBuild, batching
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: msbuild
 ---

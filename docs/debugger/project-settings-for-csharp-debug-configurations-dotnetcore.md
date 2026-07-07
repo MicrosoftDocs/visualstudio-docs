@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "projects [Visual Studio], debug configurations"
   - "project configurations, debug"
   - "debugging [C#], debugger settings"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2022'

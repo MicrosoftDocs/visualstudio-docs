@@ -9,8 +9,8 @@ helpviewer_keywords:
 - WCF data service references
 - ADO.NET service references
 - ADO.NET Data Service reference
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: data-tools
 ---

@@ -8,8 +8,8 @@ dev_langs:
 helpviewer_keywords:
   - "PDB files"
   - ".pdb files, querying"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: debug-diagnostics
 ---

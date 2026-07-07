@@ -3,8 +3,8 @@ title: Razor editor code actions
 description: Learn how to use Generate Method, Remove unnecessary directives, and Sort and Consolidate Usings in Razor files in Visual Studio.
 ms.date: 05/13/2026
 ms.topic: reference
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 ms.subservice: general-ide
 ---
 # Razor editor code actions in Visual Studio

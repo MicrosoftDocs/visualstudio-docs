@@ -13,8 +13,8 @@ helpviewer_keywords:
 - /L Devenv switch
 - LCID devenv switch
 - /LCID Devenv switch
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: general-ide
 ---

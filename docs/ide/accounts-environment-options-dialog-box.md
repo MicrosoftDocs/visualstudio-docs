@@ -6,8 +6,8 @@ ms.topic: how-to
 f1_keywords:
 - VS.ToolsOptionsPages.Environment.RoamingSettings
 ms.custom: "ide-ref"
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: general-ide
 ---

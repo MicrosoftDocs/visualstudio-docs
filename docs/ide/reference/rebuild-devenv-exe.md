@@ -9,8 +9,8 @@ helpviewer_keywords:
 - projects [Visual Studio], rebuilding
 - /Rebuild Devenv switch
 - applications [Visual Studio], rebuilding
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: general-ide
 ---

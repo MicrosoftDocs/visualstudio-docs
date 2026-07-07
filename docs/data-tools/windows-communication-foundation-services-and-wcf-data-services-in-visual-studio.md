@@ -30,8 +30,8 @@ helpviewer_keywords:
 - type sharing in WCF services
 - WCF services, endpoints
 - service method, called asynchronously[Visual Studio]
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: data-tools
 #customer intent: As a developer, I want to explore WCF Services and WCF Data Services in Visual Studio, so I can create distributed applications.

@@ -7,8 +7,8 @@ helpviewer_keywords:
 - Hebrew character display [Visual Studio]
 - bidirectional language support
 - Arabic, creating applications
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: general-ide
 ---

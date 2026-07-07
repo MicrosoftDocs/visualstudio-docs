@@ -9,8 +9,8 @@ helpviewer_keywords:
 - Help [Visual Studio], shortcut keys
 - keyboard shortcuts [Visual Studio], keyboard binding schemes
 - keyboard shortcuts
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 ms.custom: awp-ai
 
 ms.subservice: general-ide

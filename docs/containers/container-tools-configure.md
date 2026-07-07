@@ -1,8 +1,8 @@
 ---
 title: Configure Container Tools
 description: Use Visual Studio Container Tools to control how Visual Studio works with Docker or Podman containers, including performance settings and resource usage.
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 ms.topic: how-to
 ms.date: 04/02/2026
 ms.subservice: container-tools

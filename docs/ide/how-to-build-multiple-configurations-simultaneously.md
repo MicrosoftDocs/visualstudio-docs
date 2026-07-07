@@ -4,8 +4,8 @@ description: Build multiple or all configurations of a project in Visual Studio 
 ms.date: 06/25/2025
 ms.subservice: compile-build
 ms.topic: how-to
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 #customer intent: As a developer, I want to build multiple or all configurations of my project in Visual Studio, so I can use a single request to complete the task.
 ---

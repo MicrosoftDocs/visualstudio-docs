@@ -16,8 +16,8 @@ helpviewer_keywords:
 - modified data saving
 - updated data saving
 - related tables, saving
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: data-tools
 ---

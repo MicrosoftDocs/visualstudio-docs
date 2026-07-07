@@ -2,10 +2,10 @@
 title: Welcome to the Visual Studio docs
 description: Find and learn about the resources available in the docs for the Visual Studio IDE on the Windows platform.
 ms.topic: ui-reference
-ms.author: ghogen
+ms.author: nitinme
 ms.service: visual-studio
 ms.subservice: 
-author: ghogen
+author: nitinme
 
 f1_keywords:
  - vs.ViewHelp

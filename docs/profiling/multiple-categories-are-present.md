@@ -7,8 +7,8 @@ f1_keywords:
   - "vs.cv.threads.timeline.multicategory"
 helpviewer_keywords:
   - "Concurrency Visualizer, Multiple Categories Are Present"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: debug-diagnostics
 ---

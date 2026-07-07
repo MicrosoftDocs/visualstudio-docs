@@ -11,8 +11,8 @@ helpviewer_keywords:
 - Tools.Alias command
 - command aliases
 - alias command
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: general-ide
 ---

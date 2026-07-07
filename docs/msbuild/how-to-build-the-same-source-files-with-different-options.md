@@ -8,8 +8,8 @@ helpviewer_keywords:
 - MSBuild, properties
 - project properties, modifying
 - Hello World example [Visual Studio]
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: msbuild
 #customer intent: As a developer, I want to create multiple MSBuild build configurations for my source files, so I can build the same files by using different options.

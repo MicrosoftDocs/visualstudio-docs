@@ -3,8 +3,8 @@ title: Connect to database or open MDF file (ADO.NET)
 ms.date: 02/25/2026
 description: Connect to a database or data service with ADO.NET in Visual Studio, or connect to a database opened from a median disk file (.mdf).
 ms.topic: how-to
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: data-tools
 ms.custom: sfi-image-nochange

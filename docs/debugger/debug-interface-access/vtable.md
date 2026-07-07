@@ -8,8 +8,8 @@ dev_langs:
 helpviewer_keywords:
   - "VTable symbol"
   - "virtual tables"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: debug-diagnostics
 ---

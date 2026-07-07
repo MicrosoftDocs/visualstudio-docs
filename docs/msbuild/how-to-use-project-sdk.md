@@ -5,8 +5,8 @@ ms.date: 5/1/2025
 ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, SDKs, SDK
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: msbuild
 ---

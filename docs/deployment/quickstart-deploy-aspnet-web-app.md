@@ -5,8 +5,8 @@ ms.date: 02/23/2026
 ms.topic: quickstart
 helpviewer_keywords:
   - "deployment, web app"
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: deployment
 ms.custom: sfi-image-nochange

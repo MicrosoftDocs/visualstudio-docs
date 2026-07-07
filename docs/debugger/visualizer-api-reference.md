@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "APIs, visualizers"
   - "reference, visualizer APIs"
   - "visualizers, API reference"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: debug-diagnostics
 ---

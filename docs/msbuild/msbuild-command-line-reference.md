@@ -11,8 +11,8 @@ helpviewer_keywords:
 - MSBuild, msbuild.exe
 - MSBuild, command line reference
 - msbuild.exe
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: msbuild
 ---

@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "exception handling, during debugging"
   - "debugger, exceptions"
   - "throwing exceptions, during debugging"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: debug-diagnostics
 ---

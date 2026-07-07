@@ -6,8 +6,8 @@ ms.topic: how-to
 f1_keywords:
 - VS.ToolsOptionsPages.Environment.ProxySettings
 monikerRange: 'visualstudio'
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 ms.subservice: general-ide
 ms.custom: awp-ai
 ---

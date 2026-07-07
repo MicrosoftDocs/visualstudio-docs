@@ -15,8 +15,8 @@ dev_langs:
 helpviewer_keywords:
 - MSBUILD (C++), MT task
 - MT task (MSBuild (C++))
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: msbuild
 ---

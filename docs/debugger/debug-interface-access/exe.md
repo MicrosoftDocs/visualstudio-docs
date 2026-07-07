@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "Exe symbol"
   - ".exe files"
   - "executable files, Exe symbol"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: debug-diagnostics
 ---

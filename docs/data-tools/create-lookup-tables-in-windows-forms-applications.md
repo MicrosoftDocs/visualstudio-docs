@@ -6,8 +6,8 @@ ms.topic: how-to
 helpviewer_keywords:
 - lookup tables
 - lookup tables, creating
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: data-tools
 ---

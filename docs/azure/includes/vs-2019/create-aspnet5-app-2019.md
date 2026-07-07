@@ -1,9 +1,9 @@
 ---
 title: include
 description: include
-author: ghogen
+author: nitinme
 ms.subservice: azure-development
-ms.author: ghogen
+ms.author: nitinme
 ms.topic: include
 ms.date: 08/22/2024
 ---

@@ -14,8 +14,8 @@ helpviewer_keywords:
 - types [Visual Studio], refactoring
 - Class Designer [Visual Studio], refactoring classes
 - refactoring, classes
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: general-ide
 ---

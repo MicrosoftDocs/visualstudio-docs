@@ -12,8 +12,8 @@ helpviewer_keywords:
 - windows [Visual Studio], navigating
 - Window.QuickLaunch
 - IDE navigator
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: general-ide
 ms.custom: awp-ai

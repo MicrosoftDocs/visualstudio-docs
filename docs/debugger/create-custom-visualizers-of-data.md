@@ -14,8 +14,8 @@ dev_langs:
 helpviewer_keywords:
   - "debugger, visualizers"
   - "visualizers"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: debug-diagnostics
 ---

@@ -3,8 +3,8 @@ title: Access multiple user accounts
 description: Access multiple accounts associated with your Visual Studio sign-in account by using Server Explorer, the Add Connected Service dialog, or Microsoft Entra ID.
 ms.date: 11/01/2023
 ms.topic: how-to
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: general-ide
 ms.custom: sfi-image-nochange

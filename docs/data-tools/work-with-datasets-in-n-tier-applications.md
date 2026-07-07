@@ -14,8 +14,8 @@ helpviewer_keywords:
 - tiers, n-tier applications
 - typed datasets, n-tier applications
 - multiple tier applications
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: data-tools
 ---

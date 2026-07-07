@@ -5,8 +5,8 @@ ms.date: "10/17/2018"
 ms.topic: concept-article
 helpviewer_keywords:
   - "debugger"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: debug-diagnostics
 ---

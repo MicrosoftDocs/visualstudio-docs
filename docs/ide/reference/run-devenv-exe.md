@@ -10,8 +10,8 @@ helpviewer_keywords:
 - /R Devenv switch
 - Devenv, /Run switch
 - R Devenv switch (/R)
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: general-ide
 ---

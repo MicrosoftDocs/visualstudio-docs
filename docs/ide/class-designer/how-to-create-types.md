@@ -16,8 +16,8 @@ helpviewer_keywords:
 - Class Designer [Visual Studio], creating classes
 - types [Visual Studio], class diagrams
 - attributes [Visual Studio], applying custom
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: general-ide
 ---

@@ -11,8 +11,8 @@ helpviewer_keywords:
 - data [Visual Studio], saving
 - saving data, walkthroughs
 - data [Visual Studio], updating
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: data-tools
 ---

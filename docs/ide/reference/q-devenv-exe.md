@@ -7,8 +7,8 @@ helpviewer_keywords:
 - /? Devenv switch
 - Devenv, /? switch
 - Devenv, command-line help
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: general-ide
 ---

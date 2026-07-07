@@ -10,8 +10,8 @@ dev_langs:
 helpviewer_keywords:
 - CallTarget task [MSBuild]
 - MSBuild, CallTarget task
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: msbuild
 ---

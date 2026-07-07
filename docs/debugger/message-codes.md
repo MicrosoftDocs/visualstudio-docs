@@ -5,8 +5,8 @@ ms.date: 02/05/2024
 ms.topic: error-reference
 helpviewer_keywords:
   - "message codes"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: debug-diagnostics
 ---

@@ -14,8 +14,8 @@ helpviewer_keywords:
 - MSBuild, output groups
 - MSBuild, in-process compilers
 - MSBuild, design-time target execution
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: msbuild
 ---

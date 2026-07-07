@@ -2,8 +2,8 @@
 title: "Tutorial: Share container apps in Visual Studio Code"
 titleSuffix: ""
 description: 'Share container applications with the Container Tools Visual Studio Code Extension: create the container, build the container image, and start the container.'
-author: ghogen
-ms.author: ghogen
+author: nitinme
+ms.author: nitinme
 ms.service: vs-code
 ms.topic: tutorial 
 ms.date: 03/24/2023

@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "SymTagBlock symbol"
   - "nested scopes"
   - "Block symbol"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: debug-diagnostics
 ---

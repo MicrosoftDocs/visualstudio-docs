@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "debugging [C++], DebugBreak function"
   - "DebugBreak function"
   - "breakpoints, DebugBreak function"
-author: "mikejo5000"
-ms.author: "mikejo"
+author: nitinme
+ms.author: nitinme
 
 ms.subservice: debug-diagnostics
 ---
