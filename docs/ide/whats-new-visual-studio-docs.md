@@ -1,7 +1,7 @@
 ---
 title: "What's new in Visual Studio docs"
 description: Discover recent changes in the Visual Studio documentation, including updated articles about getting started, the IDE, and deployment.
-ms.date: 06/01/2026
+ms.date: 06/30/2026
 helpviewer_keywords:
   - "Visual Studio, what's new, docs"
   - "what's new [Visual Studio]"
@@ -14,6 +14,49 @@ ms.topic: whats-new
 # What's new in Visual Studio docs
 
 Welcome to what's new in Visual Studio docs. The following sections provide details on the previous three months of new and updated content.
+
+## June 2026
+
+### Debugger
+
+**Updated articles**
+
+- [Supported Code Changes (C# and Visual Basic)](../debugger/supported-code-changes-csharp.md) - Clarify Hot Reload support
+
+### IDE
+
+**Updated articles**
+
+- [Keyboard shortcuts](../ide/default-keyboard-shortcuts-in-visual-studio.md) - Add Git Blame and search updates
+- [Visual Studio search](../ide/visual-studio-search.md) - Enhance search documentation
+- [Use MCP Servers](../ide/mcp-servers.md) - Clarify MCP server chat setup steps
+
+### Install
+
+**Updated articles**
+
+- [Applying administrator updates](../install/applying-administrator-updates.md) - Clarify .vsconfig install guidance
+- [Installing Visual Studio](../install/install-visual-studio.md) - Clarify settings sharing in side-by-side installations
+
+### JavaScript
+
+**Updated articles**
+
+- [Opening JavaScript projects that have no solution file](../javascript/project-open-without-sln.md) - Update project opening guidance
+- [Unit testing JavaScript and TypeScript](../javascript/unit-testing-javascript-with-visual-studio.md) - Updates for TypeScript 7 SDK
+
+### MSBuild
+
+**Updated articles**
+
+- [General MSBuild project properties](../msbuild/common-msbuild-project-properties.md) - Clarify MSB3821 messaging
+
+### Testing
+
+**Updated articles**
+
+- Add color emoji documentation support
+  - [Unit testing in Visual Studio](../test/unit-test-your-code.md)
 
 ## May 2026
 
