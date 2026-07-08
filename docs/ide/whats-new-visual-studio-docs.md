@@ -42,7 +42,7 @@ Welcome to what's new in Visual Studio docs. The following sections provide deta
 
 **Updated articles**
 
-- [Develop JavaScript code without solutions or projects](../javascript/develop-javascript-code-without-solutions-projects.md) - Update project opening guidance
+- [Develop JavaScript code without solutions or projects](../javascript/develop-javascript-code-without-solutions-projects.md) - Update project opening guidance.
 - [Unit testing JavaScript and TypeScript](../javascript/unit-testing-javascript-with-visual-studio.md) - Updates for TypeScript 7 SDK
 
 ### MSBuild
