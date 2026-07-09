@@ -3,7 +3,7 @@ title: Use Azure Virtual Desktop with Visual Studio Subscriptions
 author: joseb-rdc
 ms.author: amast
 ms.manager:  shve
-ms.date: 05/01/2026
+ms.date: 07/09/2026
 ms.topic: concept-article
 description:  Learn how to use Azure Virtual Desktop via your Visual Studio Subscriptions using Azure Dev/Test credits and pricing for developer and testing workloads. 
 ---
@@ -71,7 +71,7 @@ Azure Virtual Desktop isn't activated as a separate benefit in the Visual Studio
 | Visual Studio Enterprise (Standard) | NFR* | Not available | N/A |
 | Visual Studio Enterprise, Visual Studio Professional (monthly cloud) | Azure | Not available | N/A |
 
-\* *Includes:  Not for Resale (NFR), FTE, Most Valuable Professional (MVP), Regional Director (RD), Microsoft AI Cloud Partner Program, Visual Studio Industry Partner (VSIP), Microsoft Certified Trainer, BizSpark, Imagine, NFR Basic, Open Source Heroes, Student Ambassadors, Microsoft Bug Bounty, We. Comms, ISV*
+\* *Not for Resale (NFR), FTE, Most Valuable Professional (MVP), Regional Director (RD), Microsoft AI Cloud Partner Program, Visual Studio Industry Partner (VSIP), Microsoft Certified Trainer, BizSpark, Imagine, NFR Basic, Open Source Heroes, Student Ambassadors, Microsoft Bug Bounty, We. Comms, ISV*
 
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Enterprise Annual subscriptions and Visual Studio Professional Annual subscriptions in Cloud Subscriptions. There are no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
