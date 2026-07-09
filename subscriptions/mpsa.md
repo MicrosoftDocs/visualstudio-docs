@@ -55,7 +55,7 @@ Similarly, having admin permissions on the Visual Studio Subscriptions Admin por
 
 If you registered to the Business Center with an email that wasn't a work account (not registered in the Microsoft Entra ID), as explained previously, the tenant association is slightly different. You need to perform a "domain take-over." During this process, you make yourself the Global Administrator (Company Administrator) which changes your tenant from "unmanaged" to "managed."
 
-For a more detailed explanation for this process, you can use the Quick Start guides. Download the guide named "Setup and Use Your Online Services" located in the **Support** section of teh Business Cenger, for steps to perform a domain take-over (pg. 7-8).
+For a more detailed explanation of this process, see the Quick Start guides. To perform a domain take-over, download the guide named **Setup and Use Your Online Services** located in the **Support** section of the Business Center (pg. 7-8).
 
 After you complete the domain take-over process, you must adhere to the two criteria from section “Managed Tenant” to administer Visual Studio subscriptions on the Visual Studio Subscriptions Admin Portal. In you encounter problems, contact Business Center support.
 
