@@ -3,7 +3,7 @@ title: The CODE Magazine benefit in Visual Studio Subscriptions
 author: joseb-rdc
 ms.author: amast
 ms.manager:  shve
-ms.date: 03/13/2026
+ms.date: 07/13/2026
 ms.topic: how-to
 description:  Learn about the CODE Magazine benefit included in your Visual Studio Subscription.
 ---
@@ -58,7 +58,7 @@ After you complete your subscription order, you see a confirmation page, includi
 | Visual Studio Enterprise, Visual Studio Professional (annual cloud - See NOTE below) | Azure | Available | No |
 | Visual Studio Enterprise NFR\* | NFR | Not available | N/A |
 
-\* *Includes: Not for Resale (NFR), FTE, Microsoft AI Cloud Partner Program (MAICPP), Microsoft Partner Network (MPN), Most Valuable Professional (MVP), Regional Director (RD), MCT Software & Services Developer, Azure Dev Tools for Teaching (ADTfT), Student Ambassadors, Alumni, NFR Basic, Microsoft for Startups, We Comms, Open Source Heroes, Independent Software Vendor (ISV), Microsoft Bounty Program.*
+\* *Not for Resale (NFR), FTE, Microsoft AI Cloud Partner Program (MAICPP), Microsoft Partner Network (MPN), Most Valuable Professional (MVP), Regional Director (RD), MCT Software & Services Developer, Azure Dev Tools for Teaching (ADTfT), Student Ambassadors, Alumni, NFR Basic, Microsoft for Startups, We Comms, Open Source Heroes, Independent Software Vendor (ISV), Microsoft Bounty Program.*
 
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Enterprise Annual subscriptions and Visual Studio Professional Annual subscriptions in Cloud Subscriptions. There will be no change to existing customers experience and ability to renew, increase, decrease, or cancel their subscriptions. New customers are encouraged to go to [https://visualstudio.microsoft.com/vs/pricing/](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
