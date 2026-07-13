@@ -1,12 +1,11 @@
 ---
 title: Configure IntelliSense Options for C and C++
-description: Configure IntelliSense language settings for C and C++ in the Tools Options pane. Change options for tooltips, browsing and navigation, references, refactoring diagnostic logging, nonproject files, and more.
-ms.date: 01/15/2026
+description: Configure IntelliSense language settings for C and C++ in the Tools Options pane. Change options for tooltips, browsing and navigation, references, refactoring diagnostic logging, nonproject files, and more. Includes the C++ EditorConfig settings for #include completion.
+ms.date: 07/13/2026
 ms.topic: how-to
 helpviewer_keywords:
   - "Languages Options, IntelliSense"
 ms.custom: "ide-ref"
-author: GitHubber17
 ms.author: twhitney
 ms.manager:  coxfordf
 monikerRange: 'visualstudio'
@@ -52,6 +51,8 @@ The following options are available in the **C/C++** > **IntelliSense** section.
 
    When the **Show completion list for #include statements** option isn't selected, this option isn't available.
 
+   The equivalent `.editorconfig` setting is `cpp_includes_use_forward_slash = [true|false]`.
+
 - **Colorize tokens based on IntelliSense classifications**: When selected (default), IntelliSense uses token colorization based on standard classifications, including language keywords, strings, and comments. <!-- VS 22 = Disable Semantic Colorization -->
 
 - **Expand snippets when tab is pressed**: When selected (default), IntelliSense expands a snippet when you select **Tab**, regardless of whether the member list is shown. One exception for this behavior is when the shortcut key is assigned to the `Edit.InvokeSnippetFromShortcut` action. <!-- VS 22 = Use Tab to Insert Snippet -->
@@ -75,6 +76,12 @@ The following options are available in the **C/C++** > **IntelliSense** section.
 - **Display a bar in the editor to configure IntelliSense inside templates**: When selected (default), if the cursor is active within a template body, IntelliSense displays a bar in the editor that you can use to configure the IntelliSense attributes for the template. <!-- VS 22 = Enable Template IntelliSense -->
 
 - **Style for #include suggestions**: Use this option to specify the style for IntelliSense to use when providing suggestions for `#include` statements. Choose from **Core Guidelines** (default), **Quotes**, or **Angle brackets**.
+
+   The equivalent `.editorconfig` setting is `cpp_includes_style = [default|always_quotes|always_angle_brackets]`, where:
+
+   - `default` follows the [C++ Core Guidelines](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines) rule for choosing between quotes and angle brackets.
+   - `always_quotes` uses quotes for all `#include` directives except those for system headers.
+   - `always_angle_brackets` always uses angle brackets. This choice is useful for library authors who need every public-surface `#include` to use angle brackets regardless of where the header sits on disk.
 
 ## Quick info
 
@@ -370,3 +377,5 @@ Options to support diagnostic logging for C and C++ are available in the **C/C++
 ## Related content
 
 - [Using IntelliSense](using-intellisense.md)
+- [C++ EditorConfig formatting conventions](cpp-editorconfig-properties.md)
+- [Configure C/C++ Include Cleanup in Visual Studio](/cpp/ide/include-cleanup-config)
