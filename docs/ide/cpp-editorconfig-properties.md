@@ -44,7 +44,7 @@ cpp_indent_case_contents_when_block = true
 cpp_new_line_before_open_brace_namespace = same_line
 ```
 
-The rest of this document lists all the EditorConfig C++ formatting settings supported by Visual Studio and VS Code.
+The rest of this article lists all the EditorConfig C++ formatting settings supported by Visual Studio and VS Code.
 
 ### Indentation settings
 
