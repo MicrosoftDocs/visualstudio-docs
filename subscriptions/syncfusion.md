@@ -3,7 +3,7 @@ title: Syncfusion benefits in Visual Studio Subscriptions and Dev Essentials
 author: joseb-rdc
 ms.author: amast
 ms.manager:  shve
-ms.date: 04/13/2026
+ms.date: 07/13/2026
 ms.topic: how-to
 description: Learn about available Syncfusion benefits with Visual Studio Enterprise Subscriptions, Visual Studio Professional Subscriptions, and Dev Essentials and how to activate them.
 ---
@@ -41,7 +41,7 @@ Use the Benefit Eligibility table to see which Syncfusion benefits are available
 | [Essential Studio UI Edition](https://www.syncfusion.com/vsde-esui-offer) | Dev Essentials | N/A | Six months | N/A |
 | [Syncfusion Succinctly Series](https://www.syncfusion.com/succinctly-free-ebooks) | Dev Essentials | N/A | Ongoing | N/A |
 
-***Includes:** Visual Studio Enterprise NFR, FTE, Most Value Partner (MVP) and Regional Director (RD), Microsoft AI Cloud Partner Program (MAICPP), Microsoft Partner Program (MPN), ISV, Bug Bounty, Microsoft Certified Trainer (MCT), Student Ambassadors, Alumni, and Xbox (NFR Basic), Azure Dev Tools for Teaching (ADTfT), Microsoft Startups, We. Comms, Open-Source Heroes.*
+**Visual Studio Enterprise NFR, FTE, Most Value Partner (MVP) and Regional Director (RD), Microsoft AI Cloud Partner Program (MAICPP), Microsoft Partner Program (MPN), ISV, Bug Bounty, Microsoft Certified Trainer (MCT), Student Ambassadors, Alumni, and Xbox (NFR Basic), Azure Dev Tools for Teaching (ADTfT), Microsoft Startups, We. Comms, Open-Source Heroes.*
 
 > [!NOTE]
 > Microsoft no longer offers Visual Studio Enterprise annual and Visual Studio Professional annual subscriptions as cloud subscriptions. Current customers continue to have the same experience and ability to renew, increase, decrease, or cancel subscriptions. New customers are encouraged to go to [Visual Studio pricing](https://visualstudio.microsoft.com/vs/pricing/) to explore different options to purchase Visual Studio.
