@@ -389,8 +389,6 @@ Values: `true`, `false`
   - `all_one_line_scopes` - Don't wrap code blocks where opening and closing braces are on the next line.
   - `never` - Always apply New Lines settings for blocks.
 
-## Include cleanup settings
-
 ## See also
 
 - [EditorConfig.org](https://editorconfig.org/)
