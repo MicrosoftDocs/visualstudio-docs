@@ -41,7 +41,7 @@ The following options are available in the **C/C++** > **IntelliSense** section.
 
    For more information about translation units, see [Phases of translation](/cpp/preprocessor/phases-of-translation).
 
-- **Maximum number of translation units that will be kept active at a time for IntelliSense requests**: Use this option to specify the maximum number of translation units to keep active at any one time for IntelliSense requests. The value must be from 2 to 64. <!-- VS 22 = Max Cached Translation Units -->
+- **Maximum number of translation units that are kept active at a time for IntelliSense requests**: Use this option to specify the maximum number of translation units to keep active at any one time for IntelliSense requests. The value must be from 2 to 64. <!-- VS 22 = Max Cached Translation Units -->
 
    When the **Automatically determine the maximum number of translation units to cache based upon available system memory** option is enabled, the value of this option is determined for you by the system and can't be changed manually. To change the value, first clear the **Automatically determine the maximum number of translation units ...** option.
 
