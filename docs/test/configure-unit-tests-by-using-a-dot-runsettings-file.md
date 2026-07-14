@@ -152,16 +152,18 @@ For more information, see [VSTest.Console.exe command-line options](vstest-conso
 
 ## Override run settings from the command line
 
-You can also override some run settings directly from the command line. Specify run settings as name-value pairs after `--`. Include the space after `--`; all arguments after `--` are treated as run settings overrides, so these arguments must be last. Command-line run settings overrides take precedence over values from a file passed with `--settings`.
+You can also override some run settings directly from the command line. Specify run settings as name-value pairs after `--`. Include the space after `--`; all arguments after `--` are treated as run settings overrides, so these arguments must be last. Command-line run settings overrides take precedence over values from a file passed with `/Settings`.
 
 ```cmd
-dotnet test -- MSTest.MapInconclusiveToFailed=True MSTest.DeploymentEnabled=False
+vstest.console.exe test.dll -- MSTest.MapInconclusiveToFailed=True MSTest.DeploymentEnabled=False
 ```
 
-Starting with the .NET SDK 5.0, you can set **TestRunParameters** from the command line:
+The same syntax works with `dotnet test` (use `dotnet test -- MSTest.MapInconclusiveToFailed=True`).
+
+You can set **TestRunParameters** from the command line:
 
 ```cmd
-dotnet test -- TestRunParameters.Parameter(name="myParam", value="value")
+vstest.console.exe test.dll -- TestRunParameters.Parameter(name="myParam", value="value")
 ```
 
 Shell quoting rules differ. In Command Prompt, escape quotation marks as needed. In PowerShell 7.3 and later, native command argument handling supports this syntax more directly; in earlier PowerShell versions, or when `$PSNativeCommandArgumentPassing` is set to `legacy`, use the `--%` stop-parsing token. In Bash, escape characters such as parentheses, quotation marks, spaces, and semicolons.
