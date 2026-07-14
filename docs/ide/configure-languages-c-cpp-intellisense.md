@@ -229,7 +229,7 @@ Off by default, whole codebase indexing builds a semantic symbol index for your 
 
 - **Include symbol references for function locals in the code browsing database**: Include all references to local symbols in the code browsing database. This option can be resource-intensive and increase the database size.
 
-- **Include all symbol references from external files in the code browsing database**: When enabled, all types of references of symbols from external files are included in the database. Otherwise, only declarations and definitions are included, to reduce the database size. This is off by default. 
+- **Include all symbol references from external files in the code browsing database**: When enabled, all types of references of symbols from external files are included in the database. Otherwise, only declarations and definitions are included, to reduce the database size. This setting is off by default. 
 
 - **Automatically determine the maximum number of threads to use based upon system CPU cores count**: Determine the number of threads used on your machine when building and maintaining the symbol index database. To optimize resource use, the default is determined based on factors like the number of CPU cores. 
 
