@@ -6,8 +6,8 @@ ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, logging
 - logging [MSBuild]
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: msbuild
 ---
