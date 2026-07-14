@@ -50,7 +50,6 @@ The following options are available in the **C/C++** > **IntelliSense** section.
 - **Use forward slash as the folder delimiter for #include completion statements**: When selected (default), IntelliSense autocompletes `#include` statements when you specify the forward slash `/`. The default delimiter is backslash `\`. The compiler can accept either character, so use this option to indicate whether to use the forward slash for your code base. <!-- VS 22 = Use Forward Slash in #include Auto Complete -->
 
    When the **Show completion list for #include statements** option isn't selected, this option isn't available.
-
    The equivalent `.editorconfig` setting is `cpp_includes_use_forward_slash = [true|false]`.
 
 - **Colorize tokens based on IntelliSense classifications**: When selected (default), IntelliSense uses token colorization based on standard classifications, including language keywords, strings, and comments. <!-- VS 22 = Disable Semantic Colorization -->

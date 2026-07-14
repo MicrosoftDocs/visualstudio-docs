@@ -25,7 +25,7 @@ This document lists all the EditorConfig C++ formatting settings supported by Vi
 
 C++ has additional `.editorconfig` settings that aren't formatting settings. Those settings are documented with the features they configure:
 
-- **Include Cleanup** settings (`cpp_include_cleanup_*` and `cpp_sort_includes_*`) are documented in [Configure C/C++ Include Cleanup in Visual Studio](/cpp/ide/include-cleanup-config).
+- **Include Cleanup** settings (`cpp_include_cleanup_*` and `cpp_sort_includes_*`) are documented in [Configure C/C++ Include Cleanup in Visual Studio](/cpp/ide/include-cleanup-config#configure-include-cleanup-with-editorconfig).
 - **IntelliSense** settings for `#include` completion (`cpp_includes_use_forward_slash` and `cpp_includes_style`) are documented in [Configure Languages > C/C++ > IntelliSense options](configure-languages-c-cpp-intellisense.md).
 
 For more information about:
