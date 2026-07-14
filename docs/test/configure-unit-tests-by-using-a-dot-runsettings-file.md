@@ -152,7 +152,7 @@ For more information, see [VSTest.Console.exe command-line options](vstest-conso
 
 ## Override run settings from the command line
 
-You can also override some run settings directly from the command line. Specify run settings as name-value pairs after `--`. Include the space after `--`; all arguments after `--` are treated as run settings overrides, so these arguments must be last. Command-line run settings overrides take precedence over values from a file passed with `/Settings`.
+You can also override some run settings directly from the command line. Specify run settings overrides after `--`. Include the space after `--`; all arguments after `--` are treated as run settings overrides, so these arguments must be last. Command-line run settings overrides take precedence over values from a file passed with `/Settings`.
 
 ```cmd
 vstest.console.exe test.dll -- MSTest.MapInconclusiveToFailed=True MSTest.DeploymentEnabled=False
@@ -178,7 +178,7 @@ Parameter values can contain semicolons and other special characters, such as co
 </RunSettings>
 ```
 
-For more command-line examples and shell-specific quoting details, see [Passing runsettings arguments through commandline](https://github.com/microsoft/vstest/blob/main/docs/RunSettingsArguments.md).
+For more command-line examples and shell-specific quoting details, see [Passing runsettings arguments through the command line](https://github.com/microsoft/vstest/blob/main/docs/RunSettingsArguments.md).
 
 ## The *.runsettings file
 

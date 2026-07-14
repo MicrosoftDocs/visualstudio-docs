@@ -119,7 +119,7 @@ In PowerShell, you need to use quotes:
 vstest.console.exe myTestFile.dll /logger:"console;verbosity=detailed"
 ```
 
-For the full list of available loggers — including the built-in console, TRX, and HTML loggers and community loggers for xUnit, NUnit, JUnit, AppVeyor, Azure Pipelines, GitHub Actions, and TeamCity — as well as instructions for authoring your own logger, see [Reporting test results](https://github.com/microsoft/vstest/blob/main/docs/report.md) in the vstest repository.
+For the full list of available loggers, as well as instructions for authoring your own logger, see [Reporting test results](https://github.com/microsoft/vstest/blob/main/docs/report.md) in the vstest repository.
 
 ## UWP example
 
