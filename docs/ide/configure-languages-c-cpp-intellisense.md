@@ -61,7 +61,7 @@ The following options are available in the **C/C++** > **IntelliSense** section.
 
 - **Enable IntelliSense for inactive platforms in folders and shared assets projects**: When selected (default), IntelliSense features are enabled for inactive platforms in folders and shared assets projects. <!-- VS 22 = Disable IntelliSense for Inactive Platforms -->
 
-- **Maximum number of inactive platforms that will be processed for IntelliSense**: Use this setting to specify the maximum number of inactive platforms that are processed for IntelliSense. The value must be from 1 to 16. <!-- VS 22 = Inactive Platform IntelliSense Limit -->
+- **Maximum number of inactive platforms that are processed for IntelliSense**: Use this setting to specify the maximum number of inactive platforms that are processed for IntelliSense. The value must be from 1 to 16. <!-- VS 22 = Inactive Platform IntelliSense Limit -->
 
    When the **Enable IntelliSense for inactive platforms in folders and shared assets projects** option isn't selected, this option isn't available.
 
@@ -157,7 +157,7 @@ General options to configure browsing and navigation are available in the **C/C+
 
 - **Enable updates to the code browsing database**: When selected (default), updates can be performed while files are being edited.
 
-   If you clear this option, the database is opened in read-only mode and no updates are performed while files are being edited. Most features continue to work. However, as edits are made, the data becomes stale, leading to incorrect results.
+   If you clear this option, the database is opened in read-only mode and no updates are performed while files are being edited. Most features continue to work. However, as you make edits, the data becomes stale, leading to incorrect results.
 
 - **Update code browsing information as you type**: When selected (default), the code browsing database is automatically updated when source files are modified.
 
@@ -223,7 +223,7 @@ Configure deeper semantic indexing in the **C/C++** > **IntelliSense** > **Brows
 > [!IMPORTANT]
 > The following options can consume a significant amount of system resources. Disable them as needed.
 
-Off by default, whole codebase indexing builds a semantic symbol index for your C++ projects. This deeper analysis parses your files more precisely, which can improve the reliability and responsiveness of common code navigation features such as syntax coloring, Go To Definition, and Find All References. When files are opened or edited, an additional background step populates the symbol index, which might take additional resources and time to complete for large solutions. This step is non-blocking for C++ IntelliSense features and prioritizes parsing active files to conserve resources.  
+Off by default, whole codebase indexing builds a semantic symbol index for your C++ projects. This deeper analysis parses your files more precisely, which can improve the reliability and responsiveness of common code navigation features such as syntax coloring, Go To Definition, and Find All References. When you open or edit files, an additional background step populates the symbol index. For large solutions, this step might take extra resources and time to complete. This step is non-blocking for C++ IntelliSense features and prioritizes parsing active files to conserve resources.  
 
 - **Parse all files in the solution ahead of time**: When enabled, all files in the project are processed ahead of time on solution open, rather than prioritizing active files. This option can be resource intensive for large codebases. This setting is off by default.
 
@@ -237,7 +237,7 @@ Off by default, whole codebase indexing builds a semantic symbol index for your 
 
 ### Location for the browsing database
 
-Configure the browsing database location in the **C/C++** > **IntelliSense** > **Browsing & navigation** > **Location** section.
+Set the browsing database location in **C/C++** > **IntelliSense** > **Browsing & navigation** > **Location**.
 
 > [!NOTE]
 > Earlier versions of Visual Studio provide similar options under the **Text Editor** > **C/C++** > **Advanced** section in the **Browsing Database Fallback** category.
@@ -264,7 +264,7 @@ These options are available in the **C/C++** > **IntelliSense** > **Errors** sec
 
 - **Maximum number of threads to use for looking up suggestions**: Use this option to specify the maximum number of threads for IntelliSense to use when looking up suggestions. The value must be between 1 and 16.
 
-- **Maximum number of errors to lookup fixes for**: Use this option to specify the maximum number of errors for which IntelliSense looks up fixes. The value must be between 1 and 1,000.
+- **Maximum number of errors to lookup fixes for**: Use this option to specify the maximum number of errors for which IntelliSense looks up fixes. Set the value between 1 and 1,000.
 
 ## Refactoring
 
@@ -290,11 +290,11 @@ The following options are available in the **C/C++** > **IntelliSense** > **Inla
 
 - **Enable background processing of inlay hints information**: When selected (default), inlay hints provide more context about call sites and deduced types directly in the source code. When you enable this option, the other options in the section can be configured.
 
-- **Display inlay hints in the editor**: When selected, IntelliSense shows the inlay hints in the editor. By default, this option isn't selected. When the **Enable background processing of inlay hints information** option isn't selected, this option can't be selected.
+- **Display inlay hints in the editor**: When selected, IntelliSense shows the inlay hints in the editor. By default, this option isn't selected. When the **Enable background processing of inlay hints information** option isn't selected, you can't select this option.
 
-- **Press Ctrl twice to toggle inlay hints**: When selected, select <kbd>Ctrl</kbd> twice to toggle visibility of the inlay hints. By default, this option isn't selected. When the **Enable background processing of inlay hints information** option isn't selected, this option can't be selected.
+- **Press Ctrl twice to toggle inlay hints**: When selected, select <kbd>Ctrl</kbd> twice to toggle visibility of the inlay hints. By default, this option isn't selected. When the **Enable background processing of inlay hints information** option isn't selected, you can't select this option.
 
-- **Show the deduced type when 'auto' is used in a declaration**: When selected (default), IntelliSense shows the deduced type for a declaration declared `auto`. When the **Enable background processing of inlay hints information** option isn't selected, this option can't be selected.
+- **Show the deduced type when 'auto' is used in a declaration**: When selected (default), IntelliSense shows the deduced type for a declaration declared `auto`. When the **Enable background processing of inlay hints information** option isn't selected, you can't select this option.
 
 - **Type hints will cover the 'auto' keyword instead of being shown next to it**: When selected, IntelliSense shows the hint for the deduced type in place of the `auto` keyword rather than next to the keyword. By default, this option isn't selected. When the **Enable background processing of inlay hints information** option isn't selected, this option can't be selected.
 
@@ -357,7 +357,7 @@ Options to support diagnostic logging for C and C++ are available in the **C/C++
 
 - **Log diagnostic information to the output window**: When selected, Visual Studio sends diagnostic logging data to the output window.
 
-- **Logging level**: Use this option to set the logging verbosity, from 0 (most quiet) to 5 (most verbose—default).
+- **Logging level**: Set the logging verbosity, from 0 (most quiet) to 5 (most verbose - default).
 
 - **Logging filter**: Use this option to filter displayed event types by specifying the sum of any of the following event types. For example, to see Work Item (4) and Database (32) logs, enter 36 as the value.
 
