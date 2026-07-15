@@ -7,6 +7,8 @@ author: hharshada
 ms.reviewer: hharshada
 ms.topic: concept-article
 ms.service: visual-studio-windows
+f1_keywords:
+  - "vs.debug.copilot.prompts"
 ---
 
 # Debugger Agent concepts
