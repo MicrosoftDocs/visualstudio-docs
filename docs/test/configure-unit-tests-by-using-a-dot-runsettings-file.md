@@ -1,7 +1,7 @@
 ---
 title: Configure unit tests with a .runsettings file
 description: Learn how to use the .runsettings file in Visual Studio to configure unit tests that are run from the command line, from the IDE, or in a build workflow.
-ms.date: 07/13/2026
+ms.date: 07/15/2026
 ms.topic: how-to
 ms.author: mikejo
 
@@ -167,6 +167,12 @@ vstest.console.exe test.dll -- TestRunParameters.Parameter(name="myParam", value
 ```
 
 Shell quoting rules differ. In Command Prompt, escape quotation marks as needed. In PowerShell 7.3 and later, native command argument handling supports this syntax more directly; in earlier PowerShell versions, or when `$PSNativeCommandArgumentPassing` is set to `legacy`, use the `--%` stop-parsing token. In Bash, escape characters such as parentheses, quotation marks, spaces, and semicolons.
+
+In zsh (the default shell on macOS), use the same escaping as Bash: escape quotation marks, spaces, and semicolons. Because zsh also treats unquoted parentheses as globbing and array syntax, always escape or quote the parentheses in `TestRunParameters.Parameter(...)`. For example:
+
+```zsh
+vstest.console.exe test.dll -- TestRunParameters.Parameter\(name=\"myParam\",\ value=\"value\"\)
+```
 
 Parameter values can contain semicolons and other special characters, such as connection strings, but the shell must pass them through literally. For complex values, consider using a *.runsettings* file instead:
 
