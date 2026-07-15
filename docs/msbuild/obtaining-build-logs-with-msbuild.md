@@ -98,7 +98,7 @@ The binary log includes the following information from a build:
 - Task inputs and outputs
 
 > [!NOTE]
-> Since the binary logger includes a substantial amount of information from the build, large builds can experience measurable overhead when it is enabled.
+> Because the binary logger includes a substantial amount of information from the build, large builds can experience measurable overhead when it's enabled.
 > If you have a large, complex build, consider enabling the binary logger only when necessary to avoid longer overall build times.
 
 ## Use a custom logger
