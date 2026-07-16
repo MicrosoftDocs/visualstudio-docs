@@ -1,12 +1,11 @@
 ---
 title: Configure IntelliSense Options for C and C++
-description: Configure IntelliSense language settings for C and C++ in the Tools Options pane. Change options for tooltips, browsing and navigation, references, refactoring diagnostic logging, nonproject files, and more.
-ms.date: 01/15/2026
+description: Configure IntelliSense language settings for C and C++ in the Tools Options pane. Change options for tooltips, browsing and navigation, references, refactoring diagnostic logging, nonproject files, and more. Includes the C++ EditorConfig settings for #include completion.
+ms.date: 07/13/2026
 ms.topic: how-to
 helpviewer_keywords:
   - "Languages Options, IntelliSense"
 ms.custom: "ide-ref"
-author: GitHubber17
 ms.author: twhitney
 ms.manager:  coxfordf
 monikerRange: 'visualstudio'
@@ -22,7 +21,7 @@ These options let you define the IntelliSense behavior for C and C++. Configure 
 The following options are available in the **C/C++** > **IntelliSense** section.
 
 > [!NOTE]
-> Earlier versions of Visual Studio provide similar options under the **Text Editor** > **C/C++** > **Advanced** > **IntelliSense** section.
+> Earlier versions of Visual Studio provide similar options under **Text Editor** > **C/C++** > **Advanced** > **IntelliSense**.
 
 - **Enable IntelliSense**: When selected (default), IntelliSense features are available to support C and C++ programming. This option must be enabled to configure the other settings in this section. <!-- VS 22 = Disable IntelliSense -->
 
@@ -30,7 +29,7 @@ The following options are available in the **C/C++** > **IntelliSense** section.
 
 - **Use 64-bit IntelliSense engine**: When selected, Visual Studio runs the 64-bit IntelliSense engine rather than the 32-bit engine, which is helpful for large projects and projects that include large SDKs. By default, this option isn't selected.
 
-- **Automatically update IntelliSense as you type**: When selected (default), IntelliSense continuously parses and analyzes your code in real-time as you type. If you clear this option, IntelliSense only updates when you explicitly request it. An explicit request might be desirable in large code bases where the system becomes sluggish while you type. The delay can result in a longer execution time for the first IntelliSense operation on a file, but it can be helpful on slow or resource-constrained machines. <!-- VS 22 = Disable Auto Updating, Disable Error Reporting, Disable Squiggles -->
+- **Automatically update IntelliSense as you type**: When selected (default), IntelliSense continuously parses and analyzes your code in real time as you type. If you clear this option, IntelliSense only updates when you explicitly request it. An explicit request might be desirable in large code bases where the system becomes sluggish while you type. The delay can result in a longer execution time for the first IntelliSense operation on a file, but it can be helpful on slow or resource-constrained machines. <!-- VS 22 = Disable Auto Updating, Disable Error Reporting, Disable Squiggles -->
 
    Other consequences of disabling the feature include:
 
@@ -42,7 +41,7 @@ The following options are available in the **C/C++** > **IntelliSense** section.
 
    For more information about translation units, see [Phases of translation](/cpp/preprocessor/phases-of-translation).
 
-- **Maximum number of translation units that will be kept active at a time for IntelliSense requests**: Use this option to specify the maximum number of translation units to keep active at any one time for IntelliSense requests. The value must be between 2 and 64. <!-- VS 22 = Max Cached Translation Units -->
+- **Maximum number of translation units that are kept active at a time for IntelliSense requests**: Use this option to specify the maximum number of translation units to keep active at any one time for IntelliSense requests. The value must be from 2 to 64. <!-- VS 22 = Max Cached Translation Units -->
 
    When the **Automatically determine the maximum number of translation units to cache based upon available system memory** option is enabled, the value of this option is determined for you by the system and can't be changed manually. To change the value, first clear the **Automatically determine the maximum number of translation units ...** option.
 
@@ -51,16 +50,17 @@ The following options are available in the **C/C++** > **IntelliSense** section.
 - **Use forward slash as the folder delimiter for #include completion statements**: When selected (default), IntelliSense autocompletes `#include` statements when you specify the forward slash `/`. The default delimiter is backslash `\`. The compiler can accept either character, so use this option to indicate whether to use the forward slash for your code base. <!-- VS 22 = Use Forward Slash in #include Auto Complete -->
 
    When the **Show completion list for #include statements** option isn't selected, this option isn't available.
+   The equivalent `.editorconfig` setting is `cpp_includes_use_forward_slash = [true|false]`.
 
 - **Colorize tokens based on IntelliSense classifications**: When selected (default), IntelliSense uses token colorization based on standard classifications, including language keywords, strings, and comments. <!-- VS 22 = Disable Semantic Colorization -->
 
-- **Expand snippets when tab is pressed**: When selected (default), IntelliSense expands a snippet when you select **Tab**, regardless of whether the member list is shown. One exception for this behavior is when the shortcut key is assigned to the `Edit.InvokeSnippetFromShortcut` action. <!-- VS 22 = Use Tab to Insert Snippet -->
+- **Expand snippets when tab is pressed**: When selected (default), IntelliSense expands a snippet when you select <kbd>Tab</kbd>, regardless of whether the member list is shown. One exception for this behavior is when the shortcut key is assigned to the `Edit.InvokeSnippetFromShortcut` action. <!-- VS 22 = Use Tab to Insert Snippet -->
 
 - **Enable IntelliSense for C++20 modules**: When selected (default), IntelliSense provides code completion for modules. Enable this option if you use the `module`, `import`, and `export` declarations available in C++20. <!-- VS 22 = Disable Modules -->
 
 - **Enable IntelliSense for inactive platforms in folders and shared assets projects**: When selected (default), IntelliSense features are enabled for inactive platforms in folders and shared assets projects. <!-- VS 22 = Disable IntelliSense for Inactive Platforms -->
 
-- **Maximum number of inactive platforms that will be processed for IntelliSense**: Use this setting to specify the maximum number of inactive platforms that are processed for IntelliSense. The value must be between 1 and 16. <!-- VS 22 = Inactive Platform IntelliSense Limit -->
+- **Maximum number of inactive platforms that are processed for IntelliSense**: Use this setting to specify the maximum number of inactive platforms that are processed for IntelliSense. The value must be from 1 to 16. <!-- VS 22 = Inactive Platform IntelliSense Limit -->
 
    When the **Enable IntelliSense for inactive platforms in folders and shared assets projects** option isn't selected, this option isn't available.
 
@@ -75,6 +75,12 @@ The following options are available in the **C/C++** > **IntelliSense** section.
 - **Display a bar in the editor to configure IntelliSense inside templates**: When selected (default), if the cursor is active within a template body, IntelliSense displays a bar in the editor that you can use to configure the IntelliSense attributes for the template. <!-- VS 22 = Enable Template IntelliSense -->
 
 - **Style for #include suggestions**: Use this option to specify the style for IntelliSense to use when providing suggestions for `#include` statements. Choose from **Core Guidelines** (default), **Quotes**, or **Angle brackets**.
+
+   The equivalent `.editorconfig` setting is `cpp_includes_style = [default|always_quotes|always_angle_brackets]`, where:
+
+   - `default` follows the [C++ Core Guidelines](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines) rule for choosing between quotes and angle brackets.
+   - `always_quotes` uses quotes for all `#include` directives except those for system headers.
+   - `always_angle_brackets` always uses angle brackets. This choice is useful for library authors who need every public-surface `#include` to use angle brackets regardless of where the header sits on disk.
 
 ## Quick info
 
@@ -91,9 +97,9 @@ The following options are available in the **C/C++** > **IntelliSense** > **Quic
 
 - **Use web search for help link**: When selected (default), IntelliSense launches a web search with the specified search provider to support online searches in the Quick Info tooltip. If you disable the option (**False**), IntelliSense uses **F1** Help. <!-- VS 22 = Use Web Search on Quick Info Help Link -->
 
-- **URL used for web searches**: Use the option to specify the URL to target for online help on errors. By default, the value is set to `https://www.bing.com/search?q={0}`. IntelliSense replaces the `{0}` portion of the link with the token or error string from the tooltip. <!-- VS 22 = Search Provider -->
+- **URL used for web searches**: Specifies the URL to target for online help on errors. By default, the value is set to `https://www.bing.com/search?q={0}`. IntelliSense replaces the `{0}` portion of the link with the token or error string from the tooltip. <!-- VS 22 = Search Provider -->
 
-- **Doxygen tags to display on Quick Info tooltips**: Use this option to identify the set of [Doxygen command tags](https://www.doxygen.nl/manual/commands.html) that IntelliSense can use when displaying Quick Info tooltips. By default, the set includes the `param`, `tparam`, `returns`, `deprecated`, and `exception` tags, in that order. Use the **Add**, **Remove**, and **Move Up/Down** actions to modify the list as needed.
+- **Doxygen tags to display on Quick Info tooltips**: Identifies the set of [Doxygen command tags](https://www.doxygen.nl/manual/commands.html) that IntelliSense can use when displaying Quick Info tooltips. By default, the set includes the `param`, `tparam`, `returns`, `deprecated`, and `exception` tags, in that order. Use the **Add**, **Remove**, and **Move Up/Down** actions to modify the list as needed.
 
 ## Completion list
 
@@ -103,19 +109,19 @@ The following options are available in the **C/C++** > **IntelliSense** > **Comp
 
 - **Show suggestions as you type**: When selected (default), IntelliSense shows suggestions as you type.
 
-- **Commit the item by pressing one of the commit characters**: When selected, you can apply a suggestion by using any character specified in the **[Characters that will commit the selected suggestion](#commit-characters)** option. By default, this option isn't selected.
+- **Commit the item by pressing one of the commit characters**: When selected, apply a suggestion by using any character specified in the **[Characters that will commit the selected suggestion](#commit-characters)** option. By default, this option isn't selected.
 
    When the **Show suggestions as you type** option isn't enabled, this option isn't available. 
 
-- **When an item is highlighted but not selected commit the item by pressing Tab**: When selected (default), you can select **Tab** to commit a highlighted item. <!-- VS 22 = Use Tab to commit in Aggressive Member List -->
+- **When an item is highlighted but not selected commit the item by pressing Tab**: When selected (default), select **Tab** to commit a highlighted item. <!-- VS 22 = Use Tab to commit in Aggressive Member List -->
 
 <a name="commit-characters"></a>
 
-- **Characters that will commit the selected suggestion**: Use this option to specify the characters you can enter to commit the highlighted suggestion. You can add or remove characters from this list: `{}[]().,:;+-*/%&|^!=<>?@#\`. <!-- VS 22 = Member List Commit Characters -->
+- **Characters that will commit the selected suggestion**: Use this option to specify the characters to enter to commit the highlighted suggestion. Add or remove characters from this list: `{}[]().,:;+-*/%&|^!=<>?@#\`. <!-- VS 22 = Member List Commit Characters -->
 
 - **Type of filtering**: Use this option to set the type of matching algorithm for filtering. Choose from the following options: <!-- VS 22 = Member List Filter Mode -->
 
-   - **Fuzzy** (default): Find the most possible matches by using an algorithm similar to a spell-checker, which finds both approximate and identical matches.
+   - **Fuzzy** (default): Finds the most possible matches by using an algorithm similar to a spell-checker, which finds both approximate and identical matches.
    - **Smart**: Match substrings even if they're not at the start of a word.
    - **Prefix**: Only match identical substrings that start at the beginning of the word.
    - **None**: Don't use filtering.
@@ -130,7 +136,7 @@ The following options are available in the **C/C++** > **IntelliSense** > **Comp
 
 - **Add a new line when pressing Enter to commit a fully typed word**: When selected, after you select **Enter** at the end of a fully typed word to complete a commit, IntelliSense adds a new line. By default, this option isn't selected. <!-- VS 22 = Smart Member List Commit -->
 
-- **Provide context-aware list of suggestions**: When selected (default), IntelliSense shows a context-aware list of suggestions as you type. A maximum of 10 suggestions can be shown at a time.
+- **Provide context-aware list of suggestions**: When selected (default), IntelliSense shows a context-aware list of suggestions as you type. IntelliSense shows a maximum of 10 suggestions at a time.
 
 - **Provide extended context-aware list of suggestions for enum types**: When selected (default), IntelliSense shows an extended list of context-aware suggestions when you use enums in `switch case` labels, `return` statements, and comparison operations. When the **Provide context-aware list of suggestions** option isn't enabled, this option isn't available. 
 
@@ -150,7 +156,7 @@ General options to configure browsing and navigation are available in the **C/C+
 
 - **Enable updates to the code browsing database**: When selected (default), updates can be performed while files are being edited.
 
-   If you clear this option, the database is opened in read-only mode and no updates are performed while files are being edited. Most features continue to work. However, as edits are made, the data becomes stale leading to incorrect results.
+   If you clear this option, the database is opened in read-only mode and no updates are performed while files are being edited. Most features continue to work. However, as you make edits, the data becomes stale, leading to incorrect results.
 
 - **Update code browsing information as you type**: When selected (default), the code browsing database is automatically updated when source files are modified.
 
@@ -209,19 +215,20 @@ General options to configure browsing and navigation are available in the **C/C+
 
 - **Show external dependencies in solution explorer**: When selected (default), the **External Dependencies** folder for projects is visible in **Solution Explorer**. If you clear this option, the folder isn't visible.
 
-### Enable whole codebase semantic indexing (Experimental) 
-You can configure deeper semantic indexing in  the **C/C++** > **IntelliSense** > **Browsing & navigation** section. 
+### Enable whole codebase semantic indexing (experimental)
+
+Configure deeper semantic indexing in the **C/C++** > **IntelliSense** > **Browsing & navigation** section. 
 
 > [!IMPORTANT]
 > The following options can consume a significant amount of system resources. Disable them as needed.
 
-Off by default, whole codebase indexing builds a semantic symbol index for your C++ projects. This deeper analysis parses your files more precisely, which can improve the reliability and responsiveness of common code navigation features such as syntax coloring, Go To Definition, and Find All References. When files are opened or edited, an additional background step populates the symbol index, which may take additional resources and time to complete for large solutions. This step is non-blocking for C++ IntelliSense features and prioritizes parsing active files to conserve resources.  
+Off by default, whole codebase indexing builds a semantic symbol index for your C++ projects. This deeper analysis parses your files more precisely, which can improve the reliability and responsiveness of common code navigation features such as syntax coloring, Go To Definition, and Find All References. When you open or edit files, an additional background step populates the symbol index. For large solutions, this step might take extra resources and time to complete. This step is non-blocking for C++ IntelliSense features and prioritizes parsing active files to conserve resources.  
 
 - **Parse all files in the solution ahead of time**: When enabled, all files in the project are processed ahead of time on solution open, rather than prioritizing active files. This option can be resource intensive for large codebases. This setting is off by default.
 
 - **Include symbol references for function locals in the code browsing database**: Include all references to local symbols in the code browsing database. This option can be resource-intensive and increase the database size.
 
-- **Include all symbol references from external files in the code browsing database**: When enabled, all types of references of symbols from external files are included in the database. Otherwise, only declarations and definitions will be included, to reduce the database size. This is off by default. 
+- **Include all symbol references from external files in the code browsing database**: When enabled, all types of references of symbols from external files are included in the database. Otherwise, only declarations and definitions are included, to reduce the database size. This setting is off by default. 
 
 - **Automatically determine the maximum number of threads to use based upon system CPU cores count**: Determine the number of threads used on your machine when building and maintaining the symbol index database. To optimize resource use, the default is determined based on factors like the number of CPU cores. 
 
@@ -229,7 +236,7 @@ Off by default, whole codebase indexing builds a semantic symbol index for your 
 
 ### Location for the browsing database
 
-Options to configure the browsing database location are available in the **C/C++** > **IntelliSense** > **Browsing & navigation** > **Location** section.
+Set the browsing database location in **C/C++** > **IntelliSense** > **Browsing & navigation** > **Location**.
 
 > [!NOTE]
 > Earlier versions of Visual Studio provide similar options under the **Text Editor** > **C/C++** > **Advanced** section in the **Browsing Database Fallback** category.
@@ -256,7 +263,7 @@ These options are available in the **C/C++** > **IntelliSense** > **Errors** sec
 
 - **Maximum number of threads to use for looking up suggestions**: Use this option to specify the maximum number of threads for IntelliSense to use when looking up suggestions. The value must be between 1 and 16.
 
-- **Maximum number of errors to lookup fixes for**: Use this option to specify the maximum number of errors for which IntelliSense should lookup fixes. The value must be between 1 and 1,000.
+- **Maximum number of errors to lookup fixes for**: Use this option to specify the maximum number of errors for which IntelliSense looks up fixes. Set the value between 1 and 1,000.
 
 ## Refactoring
 
@@ -266,7 +273,7 @@ These options are available in the **C/C++** > **IntelliSense** > **Refactoring*
 
 - **Choose how to highlight functions that can have their declaration or definition generated**: Use this option to specify how IntelliSense should indicate missing function declarations or definitions that can be generated. Choose from **Suggestion** (default), **Warning**, **Error**, or **Refactoring only**. When the **Offer suggestions to create missing function declarations or definitions** option isn't selected, this option can't be selected.
 
-- **Navigation action for the generated code after a refactoring operation**: Use this option to specify what the IDE should do after IntelliSense generates code for a refactor operation. Choose from **Open document** (default), **Peek document**, or **None**.
+- **Navigation action for the generated code after a refactoring operation**: Use this option to specify what the IDE does after IntelliSense generates code for a refactor operation. Choose from **Open document** (default), **Peek document**, or **None**.
 
 - **Choose how to highlight types that can have member functions generated**: Use this option to specify how IntelliSense should indicate that member functions can be generated for a type. Choose from **Suggestion**, **Warning**, **Error**, or **Refactoring only** (default).
 
@@ -282,11 +289,11 @@ The following options are available in the **C/C++** > **IntelliSense** > **Inla
 
 - **Enable background processing of inlay hints information**: When selected (default), inlay hints provide more context about call sites and deduced types directly in the source code. When you enable this option, the other options in the section can be configured.
 
-- **Display inlay hints in the editor**: When selected, IntelliSense displays the inlay hints in the editor. By default, this option isn't selected. When the **Enable background processing of inlay hints information** option isn't selected, this option can't be selected.
+- **Display inlay hints in the editor**: When selected, IntelliSense shows the inlay hints in the editor. By default, this option isn't selected. When the **Enable background processing of inlay hints information** option isn't selected, you can't select this option.
 
-- **Press Ctrl twice to toggle inlay hints**: When selected, you can select **Ctrl** twice to toggle visibility of the inlay hints. By default, this option isn't selected. When the **Enable background processing of inlay hints information** option isn't selected, this option can't be selected.
+- **Press Ctrl twice to toggle inlay hints**: When selected, select <kbd>Ctrl</kbd> twice to toggle visibility of the inlay hints. By default, this option isn't selected. When the **Enable background processing of inlay hints information** option isn't selected, you can't select this option.
 
-- **Show the deduced type when 'auto' is used in a declaration**: When selected (default), IntelliSense shows the deduced type for a declaration declared `auto`. By default, this option is enabled. When the **Enable background processing of inlay hints information** option isn't selected, this option can't be selected.
+- **Show the deduced type when 'auto' is used in a declaration**: When selected (default), IntelliSense shows the deduced type for a declaration declared `auto`. When the **Enable background processing of inlay hints information** option isn't selected, you can't select this option.
 
 - **Type hints will cover the 'auto' keyword instead of being shown next to it**: When selected, IntelliSense shows the hint for the deduced type in place of the `auto` keyword rather than next to the keyword. By default, this option isn't selected. When the **Enable background processing of inlay hints information** option isn't selected, this option can't be selected.
 
@@ -332,9 +339,9 @@ Options to support references for C and C++ projects are available in the **C/C+
 
 - **Automatically determine the maximum number of find references threads to use based on system CPU cores count**: When selected, the **Maximum number of threads to use for finding references** value is automatically tuned based on the number of CPU cores. If you prefer to specify the value manually, clear this option (default).
 
-- **Maximum number of threads to use for finding references**: Use this option to specify the maximum number of threads the system can use for finding references. The value must be between 1 and 63.
+- **Maximum number of threads to use for finding references**: Specifies the maximum number of threads the system can use for finding references. The value must be between 1 and 63.
 
-   When the **Automatically determine the maximum number of find references threads...** option is selected, the value of this option is determined for you by the system.
+   When the **Automatically determine the maximum number of find references threads...** option is selected, the system determines the value of this option for you.
 
 ## Diagnostic logging
 
@@ -349,7 +356,7 @@ Options to support diagnostic logging for C and C++ are available in the **C/C++
 
 - **Log diagnostic information to the output window**: When selected, Visual Studio sends diagnostic logging data to the output window.
 
-- **Logging level**: Use this option to set the logging verbosity, from 0 (most quiet) to 5 (most verbose - default).
+- **Logging level**: Set the logging verbosity, from 0 (most quiet) to 5 (most verbose - default).
 
 - **Logging filter**: Use this option to filter displayed event types by specifying the sum of any of the following event types. For example, to see Work Item (4) and Database (32) logs, enter 36 as the value.
 
@@ -365,8 +372,10 @@ Options to support diagnostic logging for C and C++ are available in the **C/C++
    |  64   | Timing         |
    | 128   | Statistics     |
 
-   Depending on the value, you might need to exit and restart Visual Studio.
+   Depending on the value, you might need to exit Visual Studio and restart it.
 
 ## Related content
 
 - [Using IntelliSense](using-intellisense.md)
+- [C++ EditorConfig formatting conventions](cpp-editorconfig-properties.md)
+- [Configure C/C++ Include Cleanup in Visual Studio](/cpp/ide/include-cleanup-config)
