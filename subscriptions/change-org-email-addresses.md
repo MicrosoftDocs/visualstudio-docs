@@ -1,17 +1,17 @@
 ---
-title: Organization name change impacts on Visual Studio subscriptions
+title: Organization name change impacts on Visual Studio Subscriptions
 author: joseb-rdc
 ms.author: amast
 ms.manager:  shve
 ms.assetid: bda8772c-cc0b-4949-8419-1084331cc54b
-ms.date: 09/16/2024
+ms.date: 07/16/2026
 ms.topic: how-to
 description:  Learn what to do if your email domain changes to ensure uninterrupted access to the admin portal and subscriptions. 
 ---
 
 # What happens when your organization’s name or email domain changes
 
-In today's fast moving business climate, organizations can undergo important changes.  Mergers, acquisitions, spin-offs, and rebranding can all cause the names of organizations and their tenants and domains to change.  Changes to email addresses can affect the ability of both subscribers and admins to access Visual Studio subscriptions.  For instance, if you're an admin and your email address changes, you can't log into the admin portal with your new address.  Follow the steps in this article to ensure you have uninterrupted access to your subscriptions when organization name changes occur. 
+In today's fast moving business climate, organizations can undergo important changes. Mergers, acquisitions, spin-offs, and rebranding can all cause the names of organizations and their tenants and domains to change. Changes to email addresses can affect the ability of both subscribers and admins to access Visual Studio Subscriptions. For instance, if you're an admin and your email address changes, you can't log into the admin portal with your new address. Follow the steps in this article to ensure you have uninterrupted access to your subscriptions when organization name changes occur. 
 
 ## What to do if your organization's email addresses change
 
@@ -45,8 +45,7 @@ Perform these steps **AFTER** the subscribers' email addresses change.
 
 ## Next steps
 
-+ Need to change a subscription without deleting it?  Learn how to [Edit subscriptions](edit-license.md).
-+ To find a particular subscription, check out [Search for a subscription](search-license.md).
-+ Need to create a list of all your subscriptions?  See [Export subscriptions](exporting-subscriptions.md).
++ Want to change a subscription without deleting it? Learn how to [Edit subscriptions](edit-license.md).
++ Need to create a list of all your subscriptions? See [Export subscriptions](exporting-subscriptions.md).
 + Learn how to [delete subscriptions](delete-license.md). 
 + [Migrate existing subscriptions](migrate-subscriptions.md) to a new agreement.
