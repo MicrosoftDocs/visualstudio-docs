@@ -22,6 +22,6 @@ GitHub administrators manage GitHub Enterprise separately from Visual Studio Sub
 
 When an invitation is sent from your GitHub org administrator, you receive an email from GitHub, and the benefit tile updates again. 
 
-After you accept the GitHub org invitation, the appearance of the benefit tile at [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits) will change from "Pending" to "Activated" and you can now start using GitHub Enterprise. 
+After you accept the GitHub org invitation, the appearance of the benefit tile at [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits) changes from "Pending" to "Activated" and you can now start using GitHub Enterprise. 
 
 [Read more](https://learn.microsoft.com/visualstudio/subscriptions/access-github) details on the GitHub Enterprise set up process. 
