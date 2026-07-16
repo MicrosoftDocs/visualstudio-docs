@@ -5,13 +5,13 @@ ms.topic: include
 ms.assetid: 
 author: joseb-rdc
 ms.author: amast
-ms.date: 07/14/2025
+ms.date: 07/16/2026
 ms.faqid: q2_7
 ---
 
 ## Visual Studio Subscription Issues?
 
-If you're an MCT (Microsoft Certified Trainer), have a valid Vision Studio subscription, and are experiencing issues with your Visual Studio subscription, submit a ticket via the MCT support portal at <https://aka.ms/NewMCTSupport>.
+If you're an MCT (Microsoft Certified Trainer), have a valid Visual Studio Subscription, and are experiencing problems with your Visual Studio Subscription, submit a ticket through the MCT support portal at [https://aka.ms/NewMCTSupport](https://aka.ms/NewMCTSupport).
 
 Provide the following details in your ticket:
 + Your full name and MCT ID
@@ -23,4 +23,4 @@ After submitting your ticket, you'll receive a confirmation email. A support rep
 
 For the fastest resolution, ensure all required information is included when submitting your request.
 
-**If you are a newly enrolled MCT, please do not submit a support ticket asking about your Visual Studio subscription. The MCT Program team will contact you directly once your Visual Studio subscription has been activated.** 
+**If you're a newly enrolled MCT, don't submit a support ticket asking about your Visual Studio Subscription. The MCT Program team contacts you directly once your Visual Studio Subscription is activated.**
