@@ -1,7 +1,7 @@
 ---
 title: Copilot Next Edit Suggestions
 description: Use GitHub Copilot next edit suggestions (NES) to predict where you'll want to make your next edit and what that edit should be, based on your recent code edits.
-ms.date: 2/4/2026
+ms.date: 07/16/2026
 ms.update-cycle: 180-days
 ms.topic: get-started
 author: RoseHJM
@@ -30,7 +30,9 @@ Inline [completions](visual-studio-github-copilot-extension.md) are great at aut
 
 :::moniker range="visualstudio"
 
-To get started with Copilot NES, enable the feature in **Tools** > **Options** > **All Settings** > **Text Editor** > **Code Completions** > **General**, and select **Copilot Next Edit Suggestions (Next-edit predictions from Copilot)** in **Code Completions Providers**.
+To get started with Copilot NES, enable the feature in **Tools** > **Options** > **All Settings** > **Text Editor** > **Inline Suggestions** > **General**, and select **Copilot Next Edit Suggestions (Next-edit predictions from Copilot)** in **Suggestions Providers**.
+
+By default, NES focuses on edits near your current location. To allow long-distance suggestions anywhere in the current file, turn on the extended-range option for next edit suggestions on this settings page.
 
 :::moniker-end
 
@@ -51,6 +53,8 @@ Select the arrow to explore the edit suggestion menu, which includes keyboard sh
 :::image type="content" source="media/vs-2022/next-edit-suggestions/next-edits-menu.png" alt-text="Screenshot that shows the menu for edit suggestions." lightbox="media/vs-2022/next-edit-suggestions/next-edits-menu.png":::
 
 If an edit suggestion is below the current editor view, the arrow points down instead of right. Scroll past an edit suggestion, and the arrow hints the location of the next edit suggestion by pointing up or down, based on where you are in the file.
+
+With default settings, these suggestions are usually close to where you're actively editing. If you enable extended-range suggestions, NES can point you to related edits farther away in the same file.
 
 :::image type="content" source="media/vs-2022/next-edit-suggestions/arrow-upward.png" alt-text="Screenshot that shows an arrow pointing upward to indicate the location of the next edit suggestion in a file.":::
 
@@ -94,7 +98,9 @@ You can hide suggestions from NES in Visual Studio and review them only when you
 
 :::moniker range="visualstudio"
 
-To disable automatic completions, go to **Tools** > **Options** > **All Settings** > **Inline Suggestions** > **General**, and select **Manual** from the **Inline Suggestions Invocation**. You can then manually trigger suggestions with **Alt**+**,** or **Alt**+**.**
+- To disable automatic completions, go to **Tools** > **Options** > **All Settings** > **Text Editor** > **Inline Suggestions** > **General**, and select **Manual** from the **Invocation**. You can then manually trigger suggestions with **Alt**+**,** or **Alt**+**.**
+
+- To manage when suggestions are displayed, go to **Tools** > **Options** > **All Settings** > **Text Editor** > **Inline Suggestions** > **General**, and select **Collapse Next Edit Suggestions**.
 
 :::moniker-end
 :::moniker range="<=vs-2022"
