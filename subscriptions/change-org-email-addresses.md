@@ -45,7 +45,7 @@ Perform these steps **AFTER** the subscribers' email addresses change.
 
 ## Next steps
 
-+ Need to change a subscription without deleting it? Learn how to [Edit subscriptions](edit-license.md).
++ Want to change a subscription without deleting it? Learn how to [Edit subscriptions](edit-license.md).
 + Need to create a list of all your subscriptions? See [Export subscriptions](exporting-subscriptions.md).
 + Learn how to [delete subscriptions](delete-license.md). 
 + [Migrate existing subscriptions](migrate-subscriptions.md) to a new agreement.
