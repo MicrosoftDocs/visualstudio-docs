@@ -11,7 +11,7 @@ ms.faqid: q2_7
 
 ## Visual Studio Subscription Issues?
 
-If you're an MCT (Microsoft Certified Trainer), have a valid Vision Studio Subscription, and are experiencing issues with your Visual Studio Subscription, submit a ticket via the MCT support portal at [https://aka.ms/NewMCTSupport](https://aka.ms/NewMCTSupport).
+If you're an MCT (Microsoft Certified Trainer), have a valid Visual Studio Subscription, and are experiencing problems with your Visual Studio Subscription, submit a ticket through the MCT support portal at [https://aka.ms/NewMCTSupport](https://aka.ms/NewMCTSupport).
 
 Provide the following details in your ticket:
 + Your full name and MCT ID
