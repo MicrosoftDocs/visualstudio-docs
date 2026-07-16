@@ -23,4 +23,4 @@ After submitting your ticket, you'll receive a confirmation email. A support rep
 
 For the fastest resolution, ensure all required information is included when submitting your request.
 
-**If you are a newly enrolled MCT, please do not submit a support ticket asking about your Visual Studio Subscription. The MCT Program team will contact you directly once your Visual Studio Subscription has been activated.** 
+**If you're a newly enrolled MCT, don't submit a support ticket asking about your Visual Studio Subscription. The MCT Program team contacts you directly once your Visual Studio Subscription is activated.**
