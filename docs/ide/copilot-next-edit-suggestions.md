@@ -98,7 +98,9 @@ You can hide suggestions from NES in Visual Studio and review them only when you
 
 :::moniker range="visualstudio"
 
-To disable automatic completions, go to **Tools** > **Options** > **All Settings** > **Inline Suggestions** > **General**, and select **Manual** from the **Inline Suggestions Invocation**. You can then manually trigger suggestions with **Alt**+**,** or **Alt**+**.**
+To disable automatic completions, go to **Tools** > **Options** > **All Settings** > **Text Editor** > **Inline Suggestions** > **General**, and select **Manual** from the **Invocation**. You can then manually trigger suggestions with **Alt**+**,** or **Alt**+**.**
+
+To manage when suggestions are displayed, go to **Tools** > **Options** > **All Settings** > **Text Editor** > **Inline Suggestions** > **General**, and select **Collapse Next Edit Suggestions**.
 
 :::moniker-end
 :::moniker range="<=vs-2022"
