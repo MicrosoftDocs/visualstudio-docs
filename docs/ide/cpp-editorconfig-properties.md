@@ -2,13 +2,18 @@
 title: "C++ EditorConfig formatting conventions"
 titleSuffix: ""
 description: "Learn about how to use EditorConfig to format C++ code in Visual Studio."
-ms.date: 08/22/2024
-author: jureid
-ms.author: nitinme 
+ms.date: 07/13/2026
+author: TylerMSFT
+ms.author: twhitney 
 
 ms.subservice: general-ide
 dev_langs:
  - CPP
+
+helpviewer_keywords:
+  - "C++ editorconfig settings"
+  - "editorconfig, C++"
+  - "C++ coding conventions"
 
 ms.topic: reference
 ---
@@ -17,6 +22,11 @@ ms.topic: reference
 You can add EditorConfig files to your project to configure C++ formatting to enforce a consistent code style for everyone contributing to the project. Both Visual Studio and Visual Studio Code have built-in [EditorConfig](https://editorconfig.org/) support for each of the global Visual Studio C++ formatting settings. The EditorConfig settings are stored in an `.editorconfig` file. When that file is present in your project, it takes precedence over the Visual Studio formatting settings.
 
 This document lists all the EditorConfig C++ formatting settings supported by Visual Studio and Visual Studio Code.
+
+C++ has additional `.editorconfig` settings that aren't formatting settings. Those settings are documented with the features they configure:
+
+- **Include Cleanup** settings (`cpp_include_cleanup_*` and `cpp_sort_includes_*`) are documented in [Configure C/C++ Include Cleanup in Visual Studio](/cpp/ide/include-cleanup-config#configure-include-cleanup-with-editorconfig).
+- **IntelliSense** settings for `#include` completion (`cpp_includes_use_forward_slash` and `cpp_includes_style`) are documented in [Configure Languages > C/C++ > IntelliSense options](configure-languages-c-cpp-intellisense.md).
 
 For more information about:
 
@@ -34,7 +44,7 @@ cpp_indent_case_contents_when_block = true
 cpp_new_line_before_open_brace_namespace = same_line
 ```
 
-The rest of this document lists all the EditorConfig C++ formatting settings supported by Visual Studio and VS Code.
+The rest of this article lists all the EditorConfig C++ formatting settings supported by Visual Studio and VS Code.
 
 ### Indentation settings
 
