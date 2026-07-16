@@ -30,7 +30,7 @@ Inline [completions](visual-studio-github-copilot-extension.md) are great at aut
 
 :::moniker range="visualstudio"
 
-To get started with Copilot NES, enable the feature in **Tools** > **Options** > **All Settings** > **Text Editor** > **Code Completions** > **General**, and select **Copilot Next Edit Suggestions (Next-edit predictions from Copilot)** in **Code Completions Providers**.
+To get started with Copilot NES, enable the feature in **Tools** > **Options** > **All Settings** > **Text Editor** > **Inline Suggestions** > **General**, and select **Copilot Next Edit Suggestions (Next-edit predictions from Copilot)** in **Suggestions Providers**.
 
 By default, NES focuses on edits near your current location. To allow long-distance suggestions anywhere in the current file, turn on the extended-range option for next edit suggestions on this settings page.
 
