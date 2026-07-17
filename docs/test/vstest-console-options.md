@@ -24,7 +24,7 @@ Open [Developer Command Prompt](../ide/reference/command-prompt-powershell.md) t
 
 ## General command-line options
 
-The following table lists all the options for *VSTest.Console.exe* and short descriptions of them. You can see a similar summary by typing `VSTest.Console/?` at a command line.
+The following table lists the commonly used options for *VSTest.Console.exe* and short descriptions of them. You can see a similar summary by typing `VSTest.Console/?` at a command line. For the complete reference, including internal and legacy switches that aren't listed here, see [vstest.console.exe command line options](https://github.com/microsoft/vstest/blob/main/docs/commandline.md) and specifically [Omitted switches](https://github.com/microsoft/vstest/blob/main/docs/commandline.md#omitted-switches) in the vstest repository.
 
 | Option | Description |
 |---|---|
@@ -32,9 +32,7 @@ The following table lists all the options for *VSTest.Console.exe* and short des
 |**/Settings:[*file name*]**|Run tests with additional settings such as data collectors. For more information, see [Configure unit tests using a .runsettings file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md)<br />Example: `/Settings:local.runsettings`|
 |**/Tests:[*test name*]**|Run tests with names that contain the provided values. This command matches against the full test name, including the namespace. To provide multiple values, separate them by commas.<br />Example: `/Tests:TestMethod1,testMethod2`<br />The **/Tests** command-line option can't be used with the **/TestCaseFilter** command-line option.|
 |**/Parallel**|Specifies that the tests be executed in parallel. By default, up to all available cores on the machine can be used. You can configure the number of cores to use in a settings file.|
-|**/Enablecodecoverage**|Enables data diagnostic adapter CodeCoverage in the test run.<br />Default settings are used if not specified using settings file.|
 |**/InIsolation**|Runs the tests in an isolated process.<br />This isolation makes the *vstest.console.exe* process less likely to be stopped on an error in the tests, but tests might run slower.|
-|**/UseVsixExtensions**|This option makes the *vstest.console.exe* process use or skip the VSIX extensions installed (if any) in the test run.<br />This option is deprecated. Starting from the next major release of Visual Studio this option may be removed. Move to consuming extensions made available as a NuGet package.<br />Example: `/UseVsixExtensions:true`|
 |**/TestAdapterPath:[*path*]**|Forces the *vstest.console.exe* process to use custom test adapters from a specified path (if any) in the test run.<br />Example: `/TestAdapterPath:[pathToCustomAdapters]`|
 |**/Platform:[*platform type*]**|Forces the given platform architecture to be used, instead of the platform determined from the current runtime. Values are case-insensitive; the accepted values are `x86`, `x64`, `ARM`, `ARM64`, `S390x`, `Ppc64le`, `RiscV64`, and `LoongArch64`.<br />On Windows, only x86 and x64 can be reliably forced; specifying `ARM` results in x64 on most systems. Don't specify this option to run on a runtime that isn't in the list of valid values.|
 |**/Framework: [*framework version*]**|Target .NET version to be used for test execution.<br />Modern framework short forms are accepted and parsed by the NuGet framework parser, for example `net48`, `net6.0`, or `net10.0` (as well as the long forms such as `.NETFramework,Version=v4.8` and `.NETCoreApp,Version=v10.0`).<br />The legacy aliases `Framework35`, `Framework40`, `Framework45`, `FrameworkCore10`, and `FrameworkUap10` are also accepted.<br />TargetFrameworkAttribute is used to automatically detect this option from your assembly, and defaults to `Framework40` when the attribute isn't present. You must specify this option explicitly if you remove the [TargetFrameworkAttribute](/dotnet/api/system.runtime.versioning.targetframeworkattribute) from your .NET Core assemblies.<br />If the target framework is specified as **Framework35**, the tests run in CLR 4.0 "compatibility mode".<br />Example: `/Framework:net8.0`|
@@ -43,10 +41,6 @@ The following table lists all the options for *VSTest.Console.exe* and short des
 |**/?**|Displays usage information.|
 |**/Logger:[*uri/friendlyname*]**|Specify a logger for test results. Specify the parameter multiple times to enable multiple loggers.<br />Example: To log results into a Visual Studio Test Results File (TRX), use<br />**/Logger:trx**<br />**[;LogFileName=\<Defaults to unique file name>]**<br />Use `LogFilePrefix=<prefix>` instead of `LogFileName` to keep a separate, timestamped file per run. `LogFileName` sets an explicit name and overwrites the previous file, whereas `LogFilePrefix` doesn't.<br />For more information, see [Logging example](#logging-example).|
 |**/ListTests:[*file name*]**|Lists discovered tests from the given test container. Short form: **/lt**.<br />Note: The `/TestCaseFilters` option has no effect when listing tests; it only controls which tests get run.|
-|**/ListDiscoverers**|Lists installed test discoverers.|
-|**/ListExecutors**|Lists installed test executors.|
-|**/ListLoggers**|Lists installed test loggers.|
-|**/ListSettingsProviders**|Lists installed test settings providers.|
 |**/Blame**|Runs the tests in blame mode. This option is helpful in isolating problematic tests that cause the test host to crash. When a crash is detected, it creates a sequence file in `TestResults/<Guid>/<Guid>_Sequence.xml` that captures the order of tests that were run before the crash.<br />You can also collect a crash or hang dump, for example `/Blame:CollectDump;DumpType=full` or `/Blame:CollectHangDump;TestTimeout=90m;HangDumpType=mini`. The equivalent `dotnet test` switches are `--blame-crash` and `--blame-hang`.<br />For the full option matrix and dump-collection requirements, see [Blame data collector](https://github.com/microsoft/vstest/blob/main/docs/extensions/blame-datacollector.md).|
 |**/Diag:[*file name*]**|Writes diagnostic trace logs to the specified file.<br />Set the trace level with `/Diag:<file name>;tracelevel=<off\|error\|warning\|info\|verbose>` (default is `verbose`).|
 |**/ResultsDirectory:[*path*]**|Test results directory will be created in specified path if not exists.<br />Example: `/ResultsDirectory:<pathToResultsDirectory>`|
@@ -159,11 +153,25 @@ For UWP, the appxrecipe file must be referenced instead of a DLL.
 vstest.console.exe /Logger:trx /Platform:x64 /framework:frameworkuap10 UnitTestsUWP\bin\x64\Release\UnitTestsUWP.build.appxrecipe
 ```
 
+## Environment variables
+
+The test platform recognizes several environment variables. The following are the ones most useful when you run tests from the command line. For the complete list, see [Environment variables understood by the test platform](https://github.com/microsoft/vstest/blob/main/docs/environment-variables.md) in the vstest repository.
+
+| Variable | Description |
+|---|---|
+|`VSTEST_CONNECTION_TIMEOUT`|Timeout, in seconds, for establishing connections between test platform components (*vstest.console.exe*, testhost, and data collector). The default is 90. Increase it on slow machines or when network latency causes connection timeouts.|
+|`VSTEST_DIAG`|Enables diagnostic logging and specifies the path to the log file. Equivalent to the **/Diag** option.|
+|`VSTEST_DIAG_VERBOSITY`|Sets the verbosity of diagnostic logging when `VSTEST_DIAG` is enabled. Valid values are `Verbose`, `Info`, `Warning`, and `Error` (default is `Verbose`).|
+|`VSTEST_HOST_DEBUG`|Set to any non-empty value to enable debugging of the testhost process.|
+|`VSTEST_RUNNER_DEBUG`|Set to any non-empty value to enable debugging of the runner (*vstest.console.exe*).|
+|`VSTEST_DUMP_PATH`|Overrides the default directory where blame crash dumps are stored.|
+|`VSTEST_DUMP_FORCEPROCDUMP`|Set to any non-empty value to force ProcDump to be used for crash dump collection.|
+|`VSTEST_DISABLE_UTF8_CONSOLE_ENCODING`|Set to `1` to disable setting UTF-8 encoding on console output.|
+|`VSTEST_CONSOLE_PATH`|Path to the *vstest.console.exe* executable used by the .NET SDK's `dotnet test` forwarding app. Equivalent to `-p:VSTestConsolePath` when you run `dotnet test` on a project.|
+
 ## Related content
 
-- [Configure unit tests using a .runsettings file](configure-unit-tests-by-using-a-dot-runsettings-file.md)
 - [Quickstart: run tests from the command line](https://github.com/microsoft/vstest/blob/main/docs/quickstart.md) in the vstest repository
-- [Full command-line options reference](https://github.com/microsoft/vstest/blob/main/docs/commandline.md), including [internal and legacy switches omitted from this article](https://github.com/microsoft/vstest/blob/main/docs/commandline.md#omitted-switches), in the vstest repository
-- [Environment variables understood by the test platform](https://github.com/microsoft/vstest/blob/main/docs/environment-variables.md) in the vstest repository
+- [Configure unit tests using a .runsettings file](configure-unit-tests-by-using-a-dot-runsettings-file.md)
 - [Create a data collector](https://github.com/microsoft/vstest/blob/main/docs/extensions/datacollector.md) in the vstest repository
 - [dotnet test command reference](/dotnet/core/tools/dotnet-test)
