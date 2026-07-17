@@ -1,10 +1,10 @@
 ---
 title: Use Agent Skills with GitHub Copilot
 description: Learn how to define reusable Agent Skills that teach Copilot agents how to perform specific tasks in Visual Studio.
-ms.date: 04/27/2026
+ms.date: 07/16/2026
 ms.topic: how-to
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 ms.manager: mijacobs
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
@@ -47,18 +47,18 @@ Workspace skills are shared with your team through source control. Personal skil
 <!-- GA in 18.7, Insiders in 18.6-->
 You can create a skill from the skills panel in Visual Studio, or manually in your file system. To create a skill from the skills panel, you must have Visual Studio 2026 Insiders version 18.6 or later.
 
-### Create a skill from the skills panel
+### Create a skill from the skills panel (Insiders)
 
 1. Select the **Tools** icon in the bottom-right corner of Copilot Chat to open the skills panel.
 2. Select the **+** button in the top-right corner of the panel.
 
    :::image type="content" source="media/visualstudio/skills-create.png" alt-text="Screenshot that shows creating a new skill from the skills panel." lightbox="media/visualstudio/skills-create.png":::
 
-1. Choose a destination (global or solution-level skill) and pick a name.
+1. Choose a scope (**workspace** or **personal**) and enter a name and description for your skill.
 
    :::image type="content" source="media/visualstudio/skills-create-new.png" alt-text="Screenshot that shows naming a new skill." lightbox="media/visualstudio/skills-create-new.png":::
 
-1. Visual Studio generates a skill template for you to fill in. You can use Copilot agent mode to help you complete the template.
+1. Visual Studio writes the `SKILL.md` to the selected location following the [agentskills.io specification](https://agentskills.io/specification) and generates a template for you to fill in. You can use Copilot agent mode to help you complete the template.
 
 ### Create a skill manually
 
