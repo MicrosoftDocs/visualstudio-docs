@@ -158,3 +158,10 @@ For UWP, the appxrecipe file must be referenced instead of a DLL.
 ```cmd
 vstest.console.exe /Logger:trx /Platform:x64 /framework:frameworkuap10 UnitTestsUWP\bin\x64\Release\UnitTestsUWP.build.appxrecipe
 ```
+
+## Related content
+
+- [Configure unit tests using a .runsettings file](configure-unit-tests-by-using-a-dot-runsettings-file.md)
+- [Quickstart: run tests from the command line](https://github.com/microsoft/vstest/blob/main/docs/quickstart.md) in the vstest repository
+- [Full command-line options reference](https://github.com/microsoft/vstest/blob/main/docs/commandline.md), including [internal and legacy switches omitted from this article](https://github.com/microsoft/vstest/blob/main/docs/commandline.md#omitted-switches), in the vstest repository
+- [dotnet test command reference](/dotnet/core/tools/dotnet-test)
