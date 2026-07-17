@@ -2,32 +2,32 @@
 title: Sign in to Visual Studio Subscriptions with a Microsoft Account
 author: joseb-rdc
 ms.author: amast 
-ms.manager:  shve
-ms.date: 09/17/2024
+ms.manager: shve
+ms.date: 07/16/2026
 ms.topic: how-to
-description: Learn how to sign in to your Visual Studio subscription with your Microsoft Account (MSA).
+description: Learn how to sign in to your Visual Studio Subscription with your Microsoft Account (MSA).
 ---
 
-# Sign in to your Visual Studio subscription with your Microsoft Account (MSA)
+# Sign in to your Visual Studio Subscription with your Microsoft Account (MSA)
 
-The steps to sign in to your Visual Studio subscription depend on the kind of account you're using. For example, you might be using a Microsoft Account (MSA) or an email address supplied by your employer or school. As of January 2019, you can now also use your GitHub account to sign in to some subscriptions. 
+The steps to sign in to your Visual Studio Subscription depend on the type of account you're using. For example, you might use a Microsoft Account (MSA) or an email address supplied by your employer or school. You can also use your GitHub account to sign in to some subscriptions. 
 
 This article provides the steps for signing in with your Microsoft Account (MSA).
 
 > [!NOTE]
-> Visual Studio [subscription portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs) and [admin portal](https://manage.visualstudio.com) do not support Government Community Cloud (GCC High) [tenants](https://learn.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod), also known as private or government domains. This also applies to subscribers attempting to sign into the Visual Studio IDE. To access Visual Studio subscriptions, your organization will need to have a public tenant. For further assistance creating a public tenant, contact [Azure support](https://azure.microsoft.com/support/create-ticket/). 
+> [Visual Studio Subscription portal](https://my.visualstudio.com?wt.mc_id=o~msft~docs) and [admin portal](https://manage.visualstudio.com) don't support Government Community Cloud (GCC High) [tenants](https://learn.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/gcc-high-and-dod), also known as private or government domains. This limitation also applies to subscribers attempting to sign into the Visual Studio IDE. To access Visual Studio Subscriptions, your organization needs a public tenant. For further assistance creating a public tenant, contact [Azure support](https://azure.microsoft.com/support/create-ticket/). 
 
 ## Signing in with your Microsoft Account (MSA)
 
 1. Visit [https://my.visualstudio.com](https://my.visualstudio.com?wt.mc_id=o~msft~docs).
-2. Enter the email address you provided when you set up or purchased your Visual Studio subscription.
+1. Enter the email address you provided when you set up or purchased your Visual Studio Subscription.
 
-   > [!NOTE]
-   > This address is also identified in the subscriber welcome email you received when you purchased the subscription or signed up for Visual Studio Dev Essentials. Please check your junk mail folders if you have trouble locating the welcome email.
+  > [!NOTE]
+  > The subscriber welcome email you received when you purchased the subscription or signed up for Visual Studio Dev Essentials also identifies this address. If you have trouble locating the welcome email, check your junk mail folders.
 
 3. Enter your password.
 4. Select **Sign in**.
-5. At this point, the "Benefits" page should be displayed.
+1. The **Benefits** page should now be displayed.
 
 ## Frequently asked questions
 
@@ -43,7 +43,7 @@ A: Many users have more than one subscription. If you're able to sign in to the 
 
 ## Resources 
 
-For assistance with sales, subscriptions, accounts, and billing for Visual Studio Subscriptions, see Visual Studio [Subscriptions support](https://aka.ms/vssubscriberhelp).
+For assistance with sales, subscriptions, accounts, and billing for Visual Studio Subscriptions, see [Visual Studio Subscriptions support](https://aka.ms/vssubscriberhelp).
 
 ## See also
 
