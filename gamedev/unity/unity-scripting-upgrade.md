@@ -37,7 +37,7 @@ Once you've switched to the .NET 4.x equivalent scripting runtime, you can speci
 
 * **.NET Framework**. This profile provides access to the latest .NET 4 API. It includes all of the code available in the .NET Framework class libraries and supports .NET Standard 2.1 profiles as well. Use the .NET 4.x profile if your project requires part of the API not included in the .NET Standard 2.0 profile. However, some parts of this API may not be supported on all of Unity's platforms.
 
-You can read more about these options in Unity's [blog post](https://docs.unity3d.com/2019.1/Documentation/Manual/ScriptingRuntimeUpgrade.html).
+To learn more about these options, see Unity's [blog post](https://docs.unity3d.com/2019.1/Documentation/Manual/ScriptingRuntimeUpgrade.html).
 
 ### Adding assembly references when using the .NET 4.x Api Compatibility Level
 
