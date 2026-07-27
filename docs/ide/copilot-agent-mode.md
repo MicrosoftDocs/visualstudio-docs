@@ -362,7 +362,7 @@ If you want to align on an approach before making code changes, use the GitHub C
 
 ### What visibility does agent mode have into my files?
 
-Agent mode can manipulate only:
+Agent mode can only manipulate:
 
 - Local files that are part of the solution.
 - Local files that are in the open solution directory or its subdirectories.
