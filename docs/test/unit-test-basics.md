@@ -5,8 +5,8 @@ ms.date: 03/09/2026
 ms.topic: how-to
 f1_keywords:
 - vs.UnitTest.CreateUnitTest
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: test-tools
 ---

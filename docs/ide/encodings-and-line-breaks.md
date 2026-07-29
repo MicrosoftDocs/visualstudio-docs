@@ -12,8 +12,8 @@ helpviewer_keywords:
 - editors, line breaks
 - line break characters
 - Visual Studio, line break characters
-author: Mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 

@@ -6,7 +6,7 @@ monikerRange: "<=vs-2022"
 ms.subservice: azure-development
 ms.topic: how-to
 ms.date: 03/06/2024
-ms.author: mikejo
+ms.author: rosemalcolm
 ms.custom: sfi-image-nochange
 ---
 

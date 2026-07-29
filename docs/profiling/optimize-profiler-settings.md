@@ -5,8 +5,8 @@ ms.date: 11/20/2025
 ms.topic: how-to
 helpviewer_keywords: 
   - Profiler, improve performance
-author: MikeJo5000
-ms.author: mikejo 
+author: RoseHJM
+ms.author: rosemalcolm 
 ms.manager:  AndSter
 ms.subservice: debug-diagnostics
 ---

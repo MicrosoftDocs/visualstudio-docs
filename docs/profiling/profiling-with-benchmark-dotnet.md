@@ -8,8 +8,8 @@ dev_langs:
 helpviewer_keywords:
   - "BenchmarkDotNet"
   - "profiling, BenchmarkDotNet"
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2022'

@@ -5,10 +5,10 @@ ms.date: 12/11/2025
 ms.topic: how-to
 f1_keywords:
 - vs.UnitTest.CreateIntelliTest
-ms.author: mikejo
+ms.author: rosemalcolm
 
 ms.subservice: test-tools
-author: mikejo5000
+author: RoseHJM
 ---
 # Generate unit tests for fuzz testing by using IntelliTest
 

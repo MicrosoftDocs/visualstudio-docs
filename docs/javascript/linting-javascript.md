@@ -9,8 +9,8 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.TypeScript.Linting.General"
   - "VS.ToolsOptionsPages.Text_Editor.TypeScript.Linting"
 ms.devlang: javascript
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: javascript-typescript
 dev_langs:

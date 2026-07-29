@@ -4,8 +4,8 @@ description: Explore the Visual Studio integrated development environment (IDE) 
 titleSuffix: ""
 ms.date: 05/26/2026
 ms.topic: quickstart
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: javascript-typescript
 monikerRange: '>= vs-2022'

@@ -3,8 +3,8 @@ title: Perf insights for excessive string.Format or interpolation usage
 description: Learn how to improve performance for excessive use of string.Format or string interpolation.
 ms.date: 12/04/2025
 ms.topic: reference
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2022'

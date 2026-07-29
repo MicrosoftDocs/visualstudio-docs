@@ -4,8 +4,8 @@ description: Complete code development on a matching game by adding code to keep
 dev_langs:
   - "CSharp"
   - "VB"
-author: MikeJo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 ms.topic: tutorial

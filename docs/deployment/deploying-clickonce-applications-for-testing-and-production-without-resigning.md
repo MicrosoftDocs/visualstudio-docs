@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "update location [ClickOnce]"
   - "deploymentProvider tag"
   - "manifests [ClickOnce]"
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: deployment
 ---

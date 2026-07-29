@@ -9,8 +9,8 @@ dev_langs:
 - CSharp
 - VB
 - CPP
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: test-tools
 ---

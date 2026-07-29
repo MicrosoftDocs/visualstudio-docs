@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "ClickOnce deployment, on-demand download"
   - "localization, ClickOnce deployment"
   - "ClickOnce deployment, localization"
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: deployment
 ---

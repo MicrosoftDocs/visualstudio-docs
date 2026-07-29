@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "RedistList file"
   - "custom prerequisites"
   - "redistributables list"
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: deployment
 ---

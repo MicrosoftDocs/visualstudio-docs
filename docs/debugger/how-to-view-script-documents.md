@@ -10,8 +10,8 @@ dev_langs:
   - C++
 helpviewer_keywords: 
   - Script Explorer
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: debug-diagnostics
 ---

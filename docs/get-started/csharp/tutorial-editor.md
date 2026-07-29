@@ -5,8 +5,8 @@ ms.custom: vs-acquisition
 ms.date: 09/14/2021
 ms.subservice: general-ide
 ms.topic: tutorial
-author: MikeJo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 dev_langs:
 - CSharp

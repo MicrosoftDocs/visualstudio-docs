@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "security [ClickOnce], ClickOnce applications"
   - "ClickOnce applications, code access security policies"
   - "security, ClickOnce"
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: deployment
 ---

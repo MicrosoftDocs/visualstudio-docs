@@ -5,8 +5,8 @@ ms.date: 05/28/2026
 ms.topic: quickstart
 helpviewer_keywords:
   - "debugger"
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: debug-diagnostics
 # customer intent: As a developer, I want to debug C++ apps in the Visual Studio debugger, so I can work with features that help me debug my code.

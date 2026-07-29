@@ -3,8 +3,8 @@ title: Use debugger PerfTips and integrated Diagnostic Tools
 description: Learn how to use the Visual Studio debugger PerfTips and integrated Diagnostic Tools to monitor and analyze your app performance while debugging.
 ms.date: 03/13/2026
 ms.topic: how-to
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: debug-diagnostics
 ms.custom: awp-ai

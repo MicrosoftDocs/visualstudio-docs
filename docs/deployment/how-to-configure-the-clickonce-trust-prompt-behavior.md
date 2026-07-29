@@ -13,8 +13,8 @@ helpviewer_keywords:
   - ClickOnce applications, install without prompting
   - ClickOnce applications, trust prompt
   - ClickOnce deployment, trust prompt
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: deployment
 ---

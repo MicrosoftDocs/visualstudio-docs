@@ -3,8 +3,8 @@ title: Troubleshoot profiling errors
 description: Troubleshoot profiling errors, including no data in filters, slow results, and source information unavailable, and follow error message guidance to fix issues.
 ms.date: 08/19/2025
 ms.topic: how-to
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: debug-diagnostics
 ---

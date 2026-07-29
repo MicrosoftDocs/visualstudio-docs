@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "applications [Visual Studio], walkthroughs"
   - "Visual Studio, deployment walkthroughs"
   - "Visual Studio, walkthroughs"
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: deployment
 ---

@@ -18,8 +18,8 @@ helpviewer_keywords:
   - memory [Visual Studio], debugging
   - debugging [Visual Studio], Memory window
   - buffers, viewing
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: debug-diagnostics
 ---

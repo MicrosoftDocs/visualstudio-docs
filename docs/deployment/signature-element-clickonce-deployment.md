@@ -9,8 +9,8 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "<Signature> element [ClickOnce deployment manifest]"
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: deployment
 ---

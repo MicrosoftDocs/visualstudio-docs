@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "ClickOnce deployment, SDK tools"
   - "manual ClickOnce deployments"
   - "manifests [ClickOnce]"
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: deployment
 ---

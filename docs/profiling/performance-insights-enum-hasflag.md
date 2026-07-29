@@ -3,8 +3,8 @@ title: Perf insights for Enum.HasFlag
 description: Learn how to improve performance for Enum.HasFlag.
 ms.date: 12/04/2025
 ms.topic: reference
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2022'

@@ -15,8 +15,8 @@ helpviewer_keywords:
 - signing manifests [Visual Studio]
 - application manifests [Visual Studio]
 - assemblies [Visual Studio], signing
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ---
 # Manage assembly and manifest signing

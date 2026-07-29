@@ -4,8 +4,8 @@ description: Create a simple web application by using ASP.NET Core and TypeScrip
 ms.date: 01/07/2026
 ms.topic: tutorial
 ms.devlang: javascript
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: javascript-typescript
 dev_langs:

@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - Debug.Goto command
 - Go To command
-author: Mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 ---

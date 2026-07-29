@@ -9,8 +9,8 @@ helpviewer_keywords:
 - Debug.EvaluateStatement command
 - Evaluate Statement command
 ms.custom: "ide-ref"
-author: Mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 ---

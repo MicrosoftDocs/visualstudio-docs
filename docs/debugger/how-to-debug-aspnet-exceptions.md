@@ -12,8 +12,8 @@ helpviewer_keywords:
   - debugging [Visual Studio], ASP.NET exceptions
   - ASP.NET, exceptions
   - exceptions, ASP.NET
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: debug-diagnostics
 ---

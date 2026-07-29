@@ -5,8 +5,8 @@ ms.date: 04/22/2026
 ms.topic: how-to
 helpviewer_keywords: 
   - memory allocation, memory usage
-author: Mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 ms.manager:  AndSter
 ms.subservice: debug-diagnostics
 ---

@@ -4,8 +4,8 @@ description: Use reference variables to control labels in Visual Studio by using
 dev_langs:
   - "CSharp"
   - "VB"
-author: MikeJo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 ms.topic: tutorial

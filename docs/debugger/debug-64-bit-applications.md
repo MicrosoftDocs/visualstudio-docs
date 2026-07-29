@@ -11,8 +11,8 @@ dev_langs:
 helpviewer_keywords:
   - debugging [Visual Studio], 64-bit
   - 64-bit debugging
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: debug-diagnostics
 ---

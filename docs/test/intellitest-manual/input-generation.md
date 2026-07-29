@@ -5,10 +5,10 @@ ms.date: 05/02/2017
 ms.topic: how-to
 helpviewer_keywords:
 - IntelliTest, Dynamic symbolic execution
-ms.author: mikejo
+ms.author: rosemalcolm
 
 ms.subservice: test-tools
-author: mikejo5000
+author: RoseHJM
 ---
 # Input generation using dynamic symbolic execution
 

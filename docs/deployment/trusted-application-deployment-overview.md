@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "ClickOnce deployment, install without prompting"
   - "ClickOnce deployment, security"
   - "trusted application deployment"
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: deployment
 ---

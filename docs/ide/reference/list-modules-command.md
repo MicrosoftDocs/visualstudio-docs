@@ -9,8 +9,8 @@ helpviewer_keywords:
 - Debug.ListModules command
 - ListModules command
 - list modules command
-author: Mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 ---

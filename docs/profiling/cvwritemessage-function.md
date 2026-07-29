@@ -21,8 +21,8 @@ helpviewer_keywords:
   - CvWriteMessageA method
   - CvWriteMessageVA method
   - CvWriteMessageExA method
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: debug-diagnostics
 ---
