@@ -3,8 +3,8 @@ title: Add user marks to the profiling timeline
 description: Learn how to include your own user marks in the profiling timeline to track custom events
 ms.date: 07/18/2024
 ms.topic: how-to
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2022'

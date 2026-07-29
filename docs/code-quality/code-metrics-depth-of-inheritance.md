@@ -3,8 +3,8 @@ title: Code metrics - Depth of inheritance
 ms.date: 1/8/2021
 description: Learn about the depth of inheritance metric for code metrics in Visual Studio.
 ms.topic: concept-article
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: code-analysis
 ---

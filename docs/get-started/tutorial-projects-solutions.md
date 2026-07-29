@@ -7,8 +7,8 @@ ms.custom: vs-acquisition
 ms.topic: tutorial
 f1_keywords:
 - project.addnewitem
-author: MikeJo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 #customer intent: As a developer new to Visual Studio, I want to understand the concepts of solution and project in order to plan and implement my development projects.
 ---

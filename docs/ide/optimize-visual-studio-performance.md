@@ -6,8 +6,8 @@ ms.date: 07/23/2025
 ms.topic: best-practice
 helpviewer_keywords:
 - performance [Visual Studio]
-author: Mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 f1_keywords:

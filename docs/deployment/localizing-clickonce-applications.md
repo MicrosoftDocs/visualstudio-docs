@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "ClickOnce deployment, localization"
   - "Windows Forms, ClickOnce applications"
   - "console applications, ClickOnce applications"
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: deployment
 ---

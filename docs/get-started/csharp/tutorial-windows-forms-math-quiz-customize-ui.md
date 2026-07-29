@@ -7,8 +7,8 @@ dev_langs:
   - "VB"
 ms.date: 04/20/2023
 ms.topic: tutorial
-author: MikeJo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 ---

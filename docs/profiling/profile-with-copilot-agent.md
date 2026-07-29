@@ -12,8 +12,8 @@ dev_langs:
 helpviewer_keywords:
   - profiler, Copilot
   - Copilot, profiling
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot

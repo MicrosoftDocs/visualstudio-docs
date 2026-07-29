@@ -1,8 +1,8 @@
 ---
 ms.date: 02/26/2026
 ms.subservice: general-ide
-author: MikeJo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.topic: include
 ms.custom:

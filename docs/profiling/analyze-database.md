@@ -5,8 +5,8 @@ ms.date: "5/5/2020"
 ms.topic: how-to
 helpviewer_keywords:
   - "database, profiling"
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: debug-diagnostics
 ---

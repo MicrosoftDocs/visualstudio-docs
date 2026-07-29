@@ -5,10 +5,10 @@ ms.date: 05/02/2017
 ms.topic: how-to
 helpviewer_keywords:
 - IntelliTest, Test generation
-ms.author: mikejo
+ms.author: rosemalcolm
 
 ms.subservice: test-tools
-author: mikejo5000
+author: RoseHJM
 ---
 # Test generation
 

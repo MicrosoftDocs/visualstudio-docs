@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
   - "Set Current Stack Frame command"
   - "Debug.SetCurrentStackFrame command"
-author: Mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 ---

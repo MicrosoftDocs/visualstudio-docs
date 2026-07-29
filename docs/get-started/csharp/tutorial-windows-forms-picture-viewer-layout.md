@@ -1,8 +1,8 @@
 ---
 title: Create a WinForms project for a picture viewer app
 description: Create a C# or VB Windows Forms (.NET Framework) project for a picture viewer application in the Visual Studio integrated development environment (IDE).
-author: MikeJo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 ms.topic: tutorial

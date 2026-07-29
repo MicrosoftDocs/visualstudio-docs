@@ -1,8 +1,8 @@
 ---
 title: Visual Studio .NET ClickOnce task support
-author: mikejo5000
+author: RoseHJM
 description: Learn about unsupported tasks in ClickOnce for .NET 3.1 and .NET 5 and later
-ms.author: mikejo
+ms.author: rosemalcolm
 ms.date: 09/14/2022
 ms.subservice: deployment
 ms.topic: include

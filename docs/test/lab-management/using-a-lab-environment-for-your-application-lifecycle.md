@@ -5,10 +5,10 @@ ms.date: 08/22/2022
 ms.topic: how-to
 helpviewer_keywords:
   - lab environment, test lab
-ms.author: mikejo
+ms.author: rosemalcolm
 
 ms.subservice: test-tools
-author: mikejo5000
+author: RoseHJM
 ---
 # Use a lab environment for your devops
 

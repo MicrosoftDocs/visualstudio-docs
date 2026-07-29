@@ -32,8 +32,8 @@ helpviewer_keywords:
   - debugging arrays
   - stack pointers
   - arrays [Visual Studio], debugging
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: debug-diagnostics
 ---

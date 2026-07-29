@@ -3,10 +3,10 @@ title: Test-driven development
 description: Learn how to develop a tested method in C# using Microsoft Test Framework, which you can easily adapt for other languages or test frameworks, such as NUnit.
 ms.date: 04/22/2026
 ms.topic: how-to
-ms.author: mikejo
+ms.author: rosemalcolm
 
 ms.subservice: test-tools
-author: mikejo5000
+author: RoseHJM
 ---
 # Get started with test-driven development using Test Explorer
 

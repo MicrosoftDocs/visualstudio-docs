@@ -9,8 +9,8 @@ helpviewer_keywords:
 f1_keywords:
 - vs.csharp.refactoring.preview
 ms.devlang: csharp
-author: Mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 ---

@@ -10,8 +10,8 @@ f1_keywords:
 - VC.Project.ImageContentTask.Compress
 - VC.Project.ShaderGraphContentTask.ContentOutput
 - VC.Project.ImageContentTask.GenerateMips
-author: Mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: ui-designers
 ---

@@ -11,8 +11,8 @@ dev_langs:
 helpviewer_keywords: 
   - .NET Framework, specifying version for debugging
   - debugging [Visual Studio], specifying .NET Framework version
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: debug-diagnostics
 ---

@@ -10,8 +10,8 @@ dev_langs:
 helpviewer_keywords: 
   - logs, ClickOnce deployment
   - ClickOnce deployment, logging
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: deployment
 ---

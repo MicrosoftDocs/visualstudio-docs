@@ -5,8 +5,8 @@ ms.date: 04/06/2026
 ms.topic: how-to
 f1_keywords:
 - VS.ToolsOptionsPages.Text_Editor.All_Languages.CodeLens
-author: Mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 ms.custom: "sfi-image-nochange, awp-ai"

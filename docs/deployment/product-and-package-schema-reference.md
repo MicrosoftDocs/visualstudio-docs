@@ -20,8 +20,8 @@ helpviewer_keywords:
   - "product files [Windows Installer]"
   - "package files [ClickOnce]"
   - "Windows Installer, bootstrapper elements"
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: deployment
 ---

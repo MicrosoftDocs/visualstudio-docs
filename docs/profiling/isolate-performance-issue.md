@@ -9,8 +9,8 @@ dev_langs:
 helpviewer_keywords:
   - "isolate performance issues, profiling tools"
   - "profiling tools, .NET Counters"
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: debug-diagnostics
 ms.collection: ce-skilling-ai-copilot

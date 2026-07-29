@@ -8,8 +8,8 @@ metadata:
   description: Explore analysis options in Visual Studio to assess code quality, including options for .NET and C++, quality and style rules, and handling warnings.
   ms.subservice: code-analysis
   ms.topic: landing-page
-  author: Mikejo5000
-  ms.author: mikejo
+  author: RoseHJM
+  ms.author: rosemalcolm
   ms.date: 12/10/2024
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new

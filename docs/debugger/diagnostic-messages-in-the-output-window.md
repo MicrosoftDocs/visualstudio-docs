@@ -16,8 +16,8 @@ helpviewer_keywords:
   - debugger, Output window
   - debugging [Visual Studio], diagnostic messages in Output window
   - Debug class
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: debug-diagnostics
 ---

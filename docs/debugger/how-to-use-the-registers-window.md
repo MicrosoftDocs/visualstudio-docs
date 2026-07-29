@@ -20,8 +20,8 @@ helpviewer_keywords:
   - register groups
   - debugging [Visual Studio], Registers window
   - Registers window
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: debug-diagnostics
 ---

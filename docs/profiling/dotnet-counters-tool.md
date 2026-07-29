@@ -5,8 +5,8 @@ ms.date: 05/15/2026
 ms.topic: how-to
 helpviewer_keywords:
   - "dotnet, counters, profiling"
-author: MikeJo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 ms.manager:  AndSter
 ms.subservice: debug-diagnostics
 ---

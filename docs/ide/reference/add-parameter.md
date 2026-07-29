@@ -4,8 +4,8 @@ description: Learn how to use a Quick Action to automatically add and declare a 
 ms.date: 09/28/2018
 ms.topic: reference
 ms.custom: "ide-ref"
-author: Mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 ---

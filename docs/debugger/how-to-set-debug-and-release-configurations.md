@@ -26,8 +26,8 @@ helpviewer_keywords:
   - debug configurations
   - release builds, switching to debug build
   - Visual Basic projects, debug and release builds
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: debug-diagnostics
 ---

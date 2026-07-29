@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "Windows Vista, ClickOnce deployments"
   - "manifests [ClickOnce]"
   - "ClickOnce applications, security issues"
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: deployment
 ---

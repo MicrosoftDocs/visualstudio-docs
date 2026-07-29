@@ -1,8 +1,8 @@
 ---
 title: Visual Studio .NET ClickOnce API support
-author: mikejo5000
+author: RoseHJM
 description: Learn about .NET ClickOnce API support in ClickOnce
-ms.author: mikejo
+ms.author: rosemalcolm
 ms.date: 11/22/2022
 ms.subservice: deployment
 ms.topic: include
