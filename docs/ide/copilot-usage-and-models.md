@@ -151,7 +151,7 @@ For more information, see [Change the chat model](https://docs.github.com/copilo
 
 Some supported models expose a **thinking effort** (also called reasoning effort) setting that controls how much reasoning the model performs before responding. Availability and the levels offered vary by model; some models don't provide this control at all.
 
-Thinking effort levels typically include **Low**, **Medium**, and **High**, and some models additionally offer **Extra High** or **Max**. Higher levels can increase the depth of a response and may be preferable for complex prompts, while lower levels use fewer credits and can provide quicker responses for simpler tasks.
+Thinking effort levels typically include **Low**, **Medium**, and **High**, and some models additionally offer **Extra High** or **Max**. Higher levels can increase the depth of a response and might be preferable for complex prompts, while lower levels use fewer credits and can provide quicker responses for simpler tasks.
 
 > [!NOTE]
 > Adjusting thinking effort changes credit consumption and response time independently of switching models. Higher thinking effort levels consume more AI usage credits.
