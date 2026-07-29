@@ -13,8 +13,8 @@ helpviewer_keywords:
   - deploying applications, signing manifests
   - ClickOnce deployment, signing manifests
   - Office development in Visual Studio, signing manifests
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: deployment
 ---

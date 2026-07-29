@@ -10,8 +10,8 @@ dev_langs:
 helpviewer_keywords:
   - testing, Copilot
   - Copilot, testing
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot

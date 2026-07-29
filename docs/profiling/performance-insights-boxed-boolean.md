@@ -3,8 +3,8 @@ title: Performance insights for boxed boolean allocations
 description: Learn how to improve performance for boxed boolean allocations.
 ms.date: 12/04/2025
 ms.topic: reference
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: debug-diagnostics
 monikerRange: '>= visualstudio'

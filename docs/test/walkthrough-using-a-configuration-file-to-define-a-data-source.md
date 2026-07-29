@@ -7,8 +7,8 @@ helpviewer_keywords:
 - configuration files [Visual Studio ALM], defining data sources
 - unit tests, walkthrough
 - data sources, defining with configuration files
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: test-tools
 ---

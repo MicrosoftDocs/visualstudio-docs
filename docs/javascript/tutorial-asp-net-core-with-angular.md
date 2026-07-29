@@ -4,8 +4,8 @@ description: Create an ASP.NET Core project to serve as an API backend and an An
 ms.date: 03/24/2026
 ms.topic: tutorial
 ms.devlang: javascript
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: javascript-typescript
 dev_langs:

@@ -4,8 +4,8 @@ description: Create a C# or Visual Basic Windows Forms project for a math quiz a
 ms.custom: vs-acquisition
 ms.date: 02/13/2026
 ms.topic: tutorial
-author: MikeJo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 # customer intent: As a developer, I want to learn how a Windows form project works in Visual Studio so that I can create such projects in the future.

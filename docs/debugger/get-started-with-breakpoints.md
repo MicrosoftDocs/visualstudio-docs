@@ -16,8 +16,8 @@ f1_keywords:
   - vs.debug.address
 helpviewer_keywords: 
   - breakpoints, about breakpoints
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: debug-diagnostics
 ---

@@ -4,8 +4,8 @@ description: Explore how to work with Visual Studio to edit, debug, and build co
 ms.date: 02/25/2026
 ms.subservice: general-ide
 ms.topic: how-to
-author: MikeJo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.custom:
   - vs-acquisition

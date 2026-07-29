@@ -11,8 +11,8 @@ helpviewer_keywords:
   - ClickOnce applications, multiple .NET Framework versions
   - ClickOnce deployment, multiple .NET Framework versions
   - deploying applications [ClickOnce], multiple .NET Framework versions
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: deployment
 ---

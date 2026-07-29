@@ -14,8 +14,8 @@ helpviewer_keywords:
   - debugger, setting options
   - debugging [Visual Studio], debugger settings
   - options, debugging
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: debug-diagnostics
 ---

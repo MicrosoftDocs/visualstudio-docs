@@ -5,10 +5,10 @@ ms.date: 05/02/2017
 ms.topic: concept-article
 helpviewer_keywords:
 - IntelliTest, Settings waterfall
-ms.author: mikejo
+ms.author: rosemalcolm
 
 ms.subservice: test-tools
-author: mikejo5000
+author: RoseHJM
 ---
 # Settings waterfall
 

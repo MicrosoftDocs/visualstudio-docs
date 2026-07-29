@@ -12,8 +12,8 @@ dev_langs:
 helpviewer_keywords: 
   - ClickOnce deployment, file exclusion
   - files, publishing via ClickOnce
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: deployment
 ---

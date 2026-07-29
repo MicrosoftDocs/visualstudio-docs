@@ -11,8 +11,8 @@ helpviewer_keywords:
   - troubleshooting ClickOnce deployments
   - ClickOnce deployment, troubleshooting
   - ClickOnce deployment, error logging
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: deployment
 ---

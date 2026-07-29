@@ -3,8 +3,8 @@ title: Include prerequisites (ClickOnce app)
 description: Learn how to get installer packages for prerequisites to distribute for your ClickOnce application for your development computer.
 ms.date: 7/29/2025
 ms.topic: how-to
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: deployment
 ---

@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "deploying applications [ClickOnce], custom installer"
   - "InPlaceHostingManager [ClickOnce], custom installer"
   - "custom installer [ClickOnce]"
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: deployment
 ---

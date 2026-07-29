@@ -12,8 +12,8 @@ dev_langs:
 helpviewer_keywords: 
   - exception helper, debugger, exception
   - debugging [Visual Studio], exception helper, Examine an exception
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: debug-diagnostics
 ---

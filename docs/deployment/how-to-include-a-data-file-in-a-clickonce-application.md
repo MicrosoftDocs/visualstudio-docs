@@ -11,8 +11,8 @@ helpviewer_keywords:
   - ClickOnce deployment, data
   - deploying applications [ClickOnce], data files
   - data access, ClickOnce applications
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: deployment
 ---

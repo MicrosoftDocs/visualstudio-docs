@@ -23,8 +23,8 @@ helpviewer_keywords:
   - "CleanOnlineAppCache [ClickOnce unmanaged]"
   - "CleanOnlineAppCacheW interface [ClickOnce unmanaged]"
   - "GetDeploymentDataFromManifest [ClickOnce unmanaged]"
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: deployment
 ---

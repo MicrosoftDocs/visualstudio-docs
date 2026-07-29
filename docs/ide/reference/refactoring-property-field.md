@@ -7,8 +7,8 @@ ms.custom: awp-ai
 f1_keywords:
   - vs.csharp.refactoring.encapsulatefield
   - vs.csharp.refactoring.convertmethodtoproperty
-author: Mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 dev_langs:

@@ -35,8 +35,8 @@ helpviewer_keywords:
   - ClickOnce deployment, AutoStart
   - ClickOnce deployment, installation on CD or DVD
   - deploying applications [ClickOnce], installation on CD or DVD
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: deployment
 ---

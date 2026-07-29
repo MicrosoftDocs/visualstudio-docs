@@ -13,8 +13,8 @@ helpviewer_keywords:
   - deploying applications [ClickOnce], prerequisites
   - prerequisites, ClickOnce
   - components, bootstrapping
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: deployment
 ---

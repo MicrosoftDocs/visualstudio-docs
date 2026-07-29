@@ -7,10 +7,10 @@ helpviewer_keywords:
 - Visual Studio, unit tests
 - unit tests, verifying code with
 - testing code, automated tests
-ms.author: mikejo
+ms.author: rosemalcolm
 
 ms.subservice: test-tools
-author: mikejo5000
+author: RoseHJM
 ---
 # Unit test tools and tasks
 

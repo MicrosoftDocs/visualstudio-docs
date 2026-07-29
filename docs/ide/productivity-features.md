@@ -4,8 +4,8 @@ description: Learn about the keyboard shortcuts and productivity features in Vis
 ms.date: 03/10/2026
 ms.topic: best-practice
 ms.custom: peer-review-program
-author: Mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 zone_pivot_groups: programming-languages-set-three

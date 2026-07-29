@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
   - "list call stack command"
   - "Debug.ListCallStack command"
-author: Mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 ---

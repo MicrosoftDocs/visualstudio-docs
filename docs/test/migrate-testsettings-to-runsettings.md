@@ -5,8 +5,8 @@ ms.date: 07/17/2026
 ms.topic: upgrade-and-migration-article
 f1_keywords:
 - vs.UnitTest.Migrate
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: test-tools
 ---

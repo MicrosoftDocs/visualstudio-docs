@@ -13,8 +13,8 @@ helpviewer_keywords:
   - ClickOnce deployment, troubleshooting
   - Windows applications, ClickOnce deployments
   - deploying applications [ClickOnce], troubleshooting
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: deployment
 ---

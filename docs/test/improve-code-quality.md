@@ -6,10 +6,10 @@ ms.topic: concept-article
 helpviewer_keywords:
 - testing tools [Visual Studio]
 - unit tests [Visual Studio]
-ms.author: mikejo
+ms.author: rosemalcolm
 
 ms.subservice: test-tools
-author: mikejo5000
+author: RoseHJM
 ---
 # Overview of testing tools in Visual Studio
 

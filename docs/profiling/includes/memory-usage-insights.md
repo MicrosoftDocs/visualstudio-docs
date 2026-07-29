@@ -2,11 +2,11 @@
 title: Memory Usage Insights report
  description: Memory Usage Insights report in the Memory Usage tool
  services: ""
- author: mikejo5000
+ author: RoseHJM
  ms.service: ""
  ms.topic: include
  ms.date: 03/04/2026
- ms.author: mikejo
+ ms.author: rosemalcolm
  ms.custom: include file
 ---
 

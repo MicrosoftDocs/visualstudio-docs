@@ -5,8 +5,8 @@ ms.date: 11/07/2024
 ms.custom: updateeachrelease
 ms.topic: reference
 ms.devlang: javascript
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: javascript-typescript
 dev_langs:

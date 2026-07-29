@@ -16,8 +16,8 @@ helpviewer_keywords:
 - ClickOnce deployment [Visual Studio], signing assemblies
 - key files [Visual Studio]
 - assemblies [Visual Studio], signing
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ---
 # Sign application and deployment manifests

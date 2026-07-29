@@ -11,8 +11,8 @@ helpviewer_keywords:
   - disallowUrlActivation
   - URL activation, ClickOnce applications
   - ClickOnce deployment, URL activation
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: deployment
 ---

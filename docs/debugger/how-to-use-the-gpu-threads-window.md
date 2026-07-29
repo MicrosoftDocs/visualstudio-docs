@@ -12,8 +12,8 @@ dev_langs:
   - C++
 helpviewer_keywords: 
   - debugger, GPU threads window
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: debug-diagnostics
 ---

@@ -13,8 +13,8 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "<Strings> element [bootstrapper]"
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: deployment
 ---

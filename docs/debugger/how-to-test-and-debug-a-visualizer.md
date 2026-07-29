@@ -12,8 +12,8 @@ helpviewer_keywords:
   - visualizers, testing
   - visualizers, debugging
   - debugging [Visual Studio], visualizers
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: debug-diagnostics
 ---
