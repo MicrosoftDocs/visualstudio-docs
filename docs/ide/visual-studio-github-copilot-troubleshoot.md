@@ -9,7 +9,7 @@ ms.author: rosemalcolm
 
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot 
-ms.custom: ai-learning-hub
+ms.custom: ai-learning-hub, doc-kit-assisted
 ---
 
 # Troubleshoot GitHub Copilot in Visual Studio
@@ -63,6 +63,35 @@ Occasionally, you may need to refresh your credentials due to expected timeouts.
 > [!NOTE]
 > **Known issue:** If you don’t see the option to refresh your credentials for the GitHub account in the  **All Accounts** window, you can resolve this by removing and re-adding your GitHub account. For more information, refer to the  [Dev Community ticket](https://developercommunity.visualstudio.com/t/Copilot-badge-refresh-credentials-not-wo/10667230?q=refresh+credentials) related to this issue.
 
+:::moniker range="visualstudio"
+
+## Custom agent tool groups start disabled or reset between turns
+
+Some users reported this behavior in Visual Studio 2026 version 18.6.0 and 18.6.1 when using custom agents from `.github/agents/*.agent.md`, including minimal agent files that define only `name` and `description`.
+
+Possible symptoms include:
+
+- Tool groups such as **C++ Context**, or **MCP server tools** appear disabled after selecting a custom agent.
+- Tool selections reset after each follow-up message in the same chat thread.
+- In severe cases, Copilot falls back to file and shell methods because built-in and MCP selections are cleared.
+
+If the behavior occurs, use the following workaround:
+
+1. Open the **Tools** panel in Copilot Chat and re-enable the required tool groups after selecting your custom agent.
+1. If selections reset after each follow-up, re-enable the required groups for each message turn.
+1. Confirm MCP integration is enabled in **Tools** > **Options** > **GitHub** > **Copilot**, and verify your MCP server configuration in `.vs/mcp.json` or `.mcp.json`.
+
+No confirmed product fix is available at this time.
+
+For diagnostics and escalation:
+
+1. Open the **Output** window and select **GitHub Copilot**.
+1. Capture logs for agent selection and at least one follow-up message.
+1. Include your Visual Studio version, Copilot Chat extension version, and whether logs show entries such as `MCP sources changed` or auth/session resets.
+1. [Report a problem](how-to-report-a-problem-with-visual-studio.md) from Visual Studio and share the same details in [Visual Studio Developer Community](https://developercommunity.visualstudio.com/VisualStudio).
+
+:::moniker-end
+
 ## Copilot is disabled
 
 Your administrator may have disabled GitHub Copilot for individual or any Copilot license. With Visual Studio version 17.10, your [admin can disable Copilot](visual-studio-github-copilot-admin.md#disable-copilot-skus).
@@ -83,10 +112,10 @@ Your administrator may have disabled GitHub Copilot for individual or any Copilo
 
 ## Send feedback
 
- - [Report a problem](how-to-report-a-problem-with-visual-studio.md) to us from either the Visual Studio IDE or the installer. The built-in Feedback Tool allows you to easily add diagnostic information that helps the Visual Studio teams diagnose and fix the issues.
- - Suggest a feature, track product issues, and find answers in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/VisualStudio).
+- [Report a problem](how-to-report-a-problem-with-visual-studio.md) to us from either the Visual Studio IDE or the installer. The built-in Feedback Tool makes it easy to add diagnostic information that helps the Visual Studio teams diagnose and fix the problems.
+- Suggest a feature, track product issues, and find answers in the [Visual Studio Developer Community](https://developercommunity.visualstudio.com/VisualStudio).
 
- ## Related content
+## Related content
 
- - [Troubleshooting network errors for GitHub Copilot](https://docs.github.com/en/copilot/troubleshooting-github-copilot/troubleshooting-network-errors-for-github-copilot)
- - [Troubleshooting firewall settings for GitHub Copilot](https://docs.github.com/en/copilot/troubleshooting-github-copilot/troubleshooting-firewall-settings-for-github-copilot)
+- [Troubleshooting network errors for GitHub Copilot](https://docs.github.com/en/copilot/troubleshooting-github-copilot/troubleshooting-network-errors-for-github-copilot)
+- [Troubleshooting firewall settings for GitHub Copilot](https://docs.github.com/en/copilot/troubleshooting-github-copilot/troubleshooting-firewall-settings-for-github-copilot)

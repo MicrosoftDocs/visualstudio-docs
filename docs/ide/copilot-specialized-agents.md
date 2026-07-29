@@ -206,6 +206,13 @@ Flag violations clearly and suggest fixes inline.
 | `model` | No | AI model to use. If you don't specify this property, the model selected in the model picker is used. |
 | `tools` | No | Array of tool names the agent can use. If you don't specify this property, all available tools are enabled. |
 
+:::moniker range="visualstudio"
+
+> [!NOTE]
+> For some custom agents, tool groups appear disabled after you select the agent, even when you don't specify the `tools` property. In some sessions, tool selections reset after each follow-up message in the same chat thread. If this condition occurs, manually re-enable required tools in the **Tools** panel. For steps and reporting guidance, see [Custom agent tool groups start disabled or reset between turns](visual-studio-github-copilot-troubleshoot.md#custom-agent-tool-groups-start-disabled-or-reset-between-turns).
+
+:::moniker-end
+
 ### Specify tools
 
 Tools extend what your custom agent can do. You can specify which tools the agent should use in the `tools` array.
