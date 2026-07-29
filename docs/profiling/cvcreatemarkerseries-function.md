@@ -9,8 +9,8 @@ f1_keywords:
 helpviewer_keywords: 
   - CvCreateMarkerSeriesA method
   - CvCreateMarkerSeriesW method
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: debug-diagnostics
 ---

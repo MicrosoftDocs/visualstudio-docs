@@ -3,8 +3,8 @@ title: Perf insights for List<T>.Find usage
 description: Learn how to improve performance by replacing List<T>.Find with Dictionary<TKey, TValue>.
 ms.date: 12/04/2025
 ms.topic: reference
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2022'

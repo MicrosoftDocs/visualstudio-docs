@@ -3,8 +3,8 @@ title: Publish a WPF app with visual styles enabled
 description: Learn how to publish a WPF application with visual styles enabled, which allows the appearance of controls to change based on the theme chosen by the user.
 ms.date: 01/12/2024
 ms.topic: how-to
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: deployment
 ---

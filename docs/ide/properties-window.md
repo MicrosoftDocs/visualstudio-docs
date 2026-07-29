@@ -16,8 +16,8 @@ helpviewer_keywords:
 - virtual functions, Properties window
 - Properties window
 ms.custom: "ide-ref"
-author: Mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 ---

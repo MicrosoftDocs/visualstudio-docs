@@ -5,8 +5,8 @@ description: Enable first-party .NET analyzers by using the .NET SDK in Visual S
 ms.topic: how-to
 helpviewer_keywords:
   - .NET analyzers
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: code-analysis
 ---

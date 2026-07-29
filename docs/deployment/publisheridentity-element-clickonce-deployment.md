@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "publisherIdentity Element [ClickOnce deployment manifest], introduction"
   - "required element for signed manifests [ClickOnce], publisherIdentity Element"
   - "publisherIdentity Element [ClickOnce deployment manifest], syntax, elements, and attributes"
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: deployment
 ---

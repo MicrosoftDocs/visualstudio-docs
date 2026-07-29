@@ -2,11 +2,11 @@
  title: Prerequisites for .NET Core on Linux and SSH
  description: Prerequisites for debugging .NET Core on Linux and SSH by attaching to a process
  services: ""
- author: mikejo5000
+ author: RoseHJM
  ms.service: ""
  ms.topic: include
  ms.date: 03/20/2023
- ms.author: mikejo
+ ms.author: rosemalcolm
  ms.custom: include file
 ---
 

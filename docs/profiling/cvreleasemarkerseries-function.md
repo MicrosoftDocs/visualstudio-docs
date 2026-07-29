@@ -7,8 +7,8 @@ f1_keywords:
   - cvmarkers/CvReleaseMarkerSeries
 helpviewer_keywords: 
   - CvReleaseMarkerSeries method
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: debug-diagnostics
 ---

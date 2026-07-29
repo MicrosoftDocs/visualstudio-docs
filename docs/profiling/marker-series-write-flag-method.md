@@ -7,8 +7,8 @@ f1_keywords:
 - cvmarkersojb/Concurrency, diagnostic::marker_series::write_flag
 helpviewer_keywords: 
 - Concurrency, diagnostic::marker_series::write_flag method
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: debug-diagnostics
 ---

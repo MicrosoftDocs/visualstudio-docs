@@ -3,10 +3,10 @@ title: Configure Microsoft Fakes code generation
 description: Learn about options and issues in Fakes code generation and compilation, including the naming conventions for Fakes-generated types, members, and parameters.
 ms.date: 05/23/2023
 ms.topic: how-to
-ms.author: mikejo
+ms.author: rosemalcolm
 ms.manager:  aajohn
 ms.subservice: test-tools
-author: mikejo5000
+author: RoseHJM
 ---
 # Code generation, compilation, and naming conventions in Microsoft Fakes
 

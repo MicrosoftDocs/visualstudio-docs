@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "ClickOnce deployment, dependencies"
   - "prerequisites, ClickOnce"
   - "dependencies, ClickOnce"
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: deployment
 ---

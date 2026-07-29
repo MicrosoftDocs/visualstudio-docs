@@ -5,8 +5,8 @@ ms.date: 05/25/2023
 ms.topic: how-to
 helpviewer_keywords: 
   - execution, controlling in debugger
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: debug-diagnostics
 ---

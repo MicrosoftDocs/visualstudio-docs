@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "Authenticode, ClickOnce"
   - "ClickOnce deployment, certificates"
   - "ClickOnce deployment, security"
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: deployment
 ---

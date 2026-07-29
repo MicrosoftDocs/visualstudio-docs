@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "64-bit [Visual Studio]"
   - "64-bit programming [Visual Studio]"
   - "64-bit applications [Visual Studio]"
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: deployment
 ---

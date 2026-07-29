@@ -2,11 +2,11 @@
 title: Remote debugger download
  description: Download links for the remote debugger
  services: ""
- author: mikejo5000
+ author: RoseHJM
  ms.service: ""
  ms.topic: include
  ms.date: 12/5/2025
- ms.author: mikejo
+ ms.author: rosemalcolm
  ms.custom: include file
 ---
 

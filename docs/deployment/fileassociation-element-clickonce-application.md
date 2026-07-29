@@ -10,8 +10,8 @@ dev_langs:
 helpviewer_keywords:
   - "<fileAssociation> element [ClickOnce application manifest]"
   - "manifests [ClickOnce], fileAssociation element"
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: deployment
 ---

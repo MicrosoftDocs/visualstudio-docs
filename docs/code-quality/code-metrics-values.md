@@ -11,8 +11,8 @@ dev_langs:
   - "FSharp"
 helpviewer_keywords:
   - code metrics [Visual Studio]
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: code-analysis
 ---

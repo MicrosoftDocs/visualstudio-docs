@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - Edit.FindInFiles command
 - find in files command
-author: Mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 ---

@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "ClickOnce deployment, from command line"
   - "publishing"
   - "publishing, ClickOnce"
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: deployment
 ---

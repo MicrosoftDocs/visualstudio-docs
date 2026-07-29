@@ -5,8 +5,8 @@ ms.date: 02/08/2024
 ms.topic: how-to
 helpviewer_keywords: 
   - threads, searching
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: debug-diagnostics
 ---

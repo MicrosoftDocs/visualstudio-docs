@@ -4,8 +4,8 @@ description: Create, build, and run a React to-do list web application project f
 ms.date: 09/22/2025
 ms.topic: tutorial
 ms.devlang: javascript
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: javascript-typescript
 dev_langs:

@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "Windows applications, ClickOnce deployemtn"
   - "ClickOnce applications, cache"
   - "ClickOnce deployment, cache"
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: deployment
 ---

@@ -3,8 +3,8 @@ title: 'Export a Shader'
 description: Learn how to use the Shader Designer to export a Directed Graph Shader Language shader so that you can use it in your app.
 ms.date: 11/04/2016
 ms.topic: how-to
-author: Mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: ui-designers
 ---

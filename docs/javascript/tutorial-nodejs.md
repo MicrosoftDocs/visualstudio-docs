@@ -5,8 +5,8 @@ ms.date: 04/21/2026
 ms.custom: vs-acquisition
 ms.topic: tutorial
 ms.devlang: javascript
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: javascript-typescript
 monikerRange: '>= vs-2022'

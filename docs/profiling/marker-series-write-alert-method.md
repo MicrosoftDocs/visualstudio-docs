@@ -7,8 +7,8 @@ f1_keywords:
 - cvmarkersobj/Concurrency, diagnostic:marker_series::write_alert
 helpviewer_keywords: 
 - Concurrency, diagnostic:marker_series::write_alert method
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: debug-diagnostics
 ---

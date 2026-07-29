@@ -13,8 +13,8 @@ helpviewer_keywords:
   - CvWriteAlertA method
   - CvWriteAlertVA method
   - CvWriteAlertW method
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: debug-diagnostics
 ---

@@ -7,8 +7,8 @@ f1_keywords:
 - cvmarkersobj/Concurrency, diagnostic::marker_series
 helpviewer_keywords: 
 - Concurrency, diagnostic::marker_series class
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: debug-diagnostics
 ---

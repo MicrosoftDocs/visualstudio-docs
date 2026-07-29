@@ -15,8 +15,8 @@ helpviewer_keywords:
   - security [Visual Studio], ClickOnce applications
   - ClickOnce deployment, security settings
   - security settings, ClickOnce deployment
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: deployment
 ---

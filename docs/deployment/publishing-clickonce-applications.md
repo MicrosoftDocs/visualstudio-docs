@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "ClickOnce applications, publishing"
   - "applications [Visual Studio], ClickOnce deployment"
   - "deploying applications [ClickOnce], publishing ClickOnce applications"
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: deployment
 ---

@@ -7,8 +7,8 @@ helpviewer_keywords:
   - attributes, debugger
   - DebuggerDisplay attribute
   - DebuggerDisplayAttribute class
-author: mikejo5000
-ms.author: mikejo
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: debug-diagnostics
 ---
