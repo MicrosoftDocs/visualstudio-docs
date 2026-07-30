@@ -9,7 +9,7 @@ ms.author: rosemalcolm
 
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
-ms.custom: awp-ai
+ms.custom: awp-ai, doc-kit-assisted
 ---
 # Get started with GitHub Copilot agent mode
 
@@ -148,6 +148,13 @@ To view and manage the tools that are available in agent mode, select the **Tool
 Based on the outcome of a tool, Copilot might invoke other tools to accomplish the overall request. For example, if a code edit results in syntax errors in the file, Copilot might explore another approach and suggest different code changes.
 
 Additional tools that you add by running MCP servers aren't automatically enabled. Their checkboxes are cleared by default, and you must select them to activate the tools.
+
+:::moniker range="visualstudio"
+
+> [!NOTE]
+> When you use a custom agent from `.github/agents/*.agent.md`, some tool groups might start disabled or reset between turns. For workaround steps, see [Custom agent tool groups start disabled or reset between turns](visual-studio-github-copilot-troubleshoot.md#custom-agent-tool-groups-start-disabled-or-reset-between-turns).
+
+:::moniker-end
 
 :::moniker range="visualstudio"
 

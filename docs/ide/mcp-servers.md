@@ -8,7 +8,7 @@ author: RoseHJM
 ms.author: rosemalcolm
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
-ms.custom: awp-ai
+ms.custom: awp-ai, doc-kit-assisted
 ai-usage: ai-assisted
 
 ---
@@ -202,14 +202,17 @@ As soon as Visual Studio discovers or adds a server:
 - If you remove a server, Visual Studio immediately stops its process and withdraws all its tools from the UI.
 - If you edit a server definition, Visual Studio terminates and restarts it, and then re-queries.
 
+> [!NOTE]
+> When you select some custom agents, tool group state can reset unexpectedly even when agent and MCP configuration files didn't change. If tool groups start disabled or reset between turns, see [Custom agent tool groups start disabled or reset between turns](visual-studio-github-copilot-troubleshoot.md#custom-agent-tool-groups-start-disabled-or-reset-between-turns).
+
 :::moniker range="visualstudio"
 
 ## MCP server trust dialog
 
+Visual Studio asks you to trust an MCP server again when the server changes since the last time you used it. This prompt helps you decide whether to run the updated server. 
+
 > [!NOTE]
 > MCP server trust is available in Visual Studio 2026 version 18.7 and later.
-
-Visual Studio asks you to trust an MCP server again when the server has changed since the last time you used it. This prompt helps you decide whether to run the updated server. 
 
 ### What to do when you're prompted
 
