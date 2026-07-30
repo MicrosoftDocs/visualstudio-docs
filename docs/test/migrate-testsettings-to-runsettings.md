@@ -1,7 +1,7 @@
 ---
 title: Migrate testsettings to runsettings
 description: Learn how to migrate testsettings to runsettings
-ms.date: 03/18/2021
+ms.date: 07/17/2026
 ms.topic: upgrade-and-migration-article
 f1_keywords:
 - vs.UnitTest.Migrate
@@ -34,7 +34,7 @@ SettingsMigrator.exe E:\MyTest\MyTestSettings.testsettings
 SettingsMigrator.exe E:\MyTest\MyTestSettings.testsettings E:\MyTest\MyNewRunSettings.runsettings
 ```
 
-If you're interested in reading more on how the *.testsettings* options convert to *.runsettings* you can find more implementation details in the [open source test platform repository](https://github.com/microsoft/vstest-docs/blob/main/RFCs/0023-TestSettings-Deprecation.md#migration) on GitHub.
+If you're interested in reading more on how the *.testsettings* options convert to *.runsettings*, you can find more implementation details in the [open source test platform repository](https://github.com/microsoft/vstest/blob/main/docs/RFCs/0023-TestSettings-Deprecation.md#migration) on GitHub.
 
 ## Related content
 
