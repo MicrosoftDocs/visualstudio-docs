@@ -3,61 +3,57 @@ title: Edit Visual Studio Subscriptions in the Admin Portal
 author: joseb-rdc
 ms.author: amast
 ms.manager:  shve
-ms.date: 01/28/2025
+ms.date: 07/30/2026
 ms.topic: how-to
 description: Learn how admins can edit subscription assignments.
 ms.custom: sfi-image-nochange
 ---
 
-# Edit Visual Studio subscription assignments
+# Edit Visual Studio Subscription assignments
 
-As a subscription admin, you can make changes to the subscriptions assigned to members of your organization. This article discusses changes that you can make and provides the necessary steps.
+As a subscription admin, you can update subscriptions assigned to members of your organization. This article explains how to update subscriber information and subscription assignments.
 
    > [!NOTE]
-   > If you need to change certain subscription details for a subscriber assigned through a Microsoft Entra group, you need to remove them from the group and add them into the admin portal individually. Changes to email addresses and name spelling should be made in the Microsoft Entra group. If you need to change subscription levels or download permissions, you need to remove them from the group and add them directly into the admin portal.
+   > If you assign a subscriber through a Microsoft Entra group, you can't edit some subscription details in the Admin Portal. Update email addresses and name spelling in the Microsoft Entra group. To change subscription levels or download permissions, remove the subscriber from the group and add the subscriber directly in the Admin Portal.
 
 ## Change subscriber information
 
-You can edit a subscriber's information to correct errors or update information.
+Edit subscriber information to correct errors or update details.
 
-To edit a subscriber, select the ellipsis (…) that appears next to the subscriber's email address when you hover your mouse over it. Use the dropdown menu to select **Edit** to modify the subscriber's details.
+To edit a subscriber, select the ellipsis (...) next to the subscriber's email address, and then select **Edit**.
 > [!div class="mx-imgBorder"]
-> ![Select subscriber to edit](_img/edit-license/select-subscriber.png "Screenshot of the flyout menu. Select the ellipsis and choose Edit.")
+> ![Select subscriber to edit](media/edit-license/select-subscriber.png "Screenshot of the flyout menu. Select the ellipsis and choose Edit.")
 
-You can update the following fields: subscriber's first name, family name, subscription level, email address, country/region, language, downloads, and reference. Edit the subscriber's information, and select **Save**.
+Update the subscriber's name, subscription level, email address, country or region, language, download and product key access, expiration date, or reference information, and then select **Save**.
 
 ## <a name = "edit-multiple-subscribers-using-bulk-edit"></a> Edit multiple subscribers by using bulk edit
 
-You can edit multiple subscribers at the same time by using the bulk edit process. This feature is primarily used for organizations that are going through corporate email address changes or that want to restrict access to downloads.
+Edit multiple subscribers at the same time by using the Bulk Edit feature. This feature is commonly used during corporate email address changes or when managing download and product key access for multiple subscribers.
 
-To learn how to edit multiple subscribers by using bulk edit, watch the following video or read on.
+To edit multiple subscribers by using bulk edit, watch the following video or read on.
 
 > [!VIDEO https://medius.microsoft.com/Embed/video-nc/325f5ca9-c8c9-4a15-a93d-8190423c9ef7?r=552201291173]
 
 > [!NOTE]
-> Don't change subscription GUIDs in the template. See this article about [assigning specific subscription GUIDs](assign-guid.md).
+> Don't change subscription GUIDs in the template. For more information, see [assigning specific subscription GUIDs](assign-guid.md).
 
-1. To edit multiple subscribers at the same time, go to the **Subscribers** tab. In the ribbon at the top, select **Bulk Edit**.
+1. Sign in to the Visual Studio Subscriptions [Admin Portal](https://manage.visualstudio.com/). On the **Manage Subscribers** tab, select **Bulk Edit**.
 
-2. The **Bulk edit** feature makes edits to subscriber information by using an Excel template. In the **Bulk Edit** box, select **Export this excel** to download the current list of subscribers, including all of their information.
+1. The **Bulk edit** feature uses an Excel template to update subscriber information. In the **Bulk Edit** dialog, select **Export this excel** to download the current subscriber list.
    > [!div class="mx-imgBorder"]
-   > ![Editing a License - Export Bulk Edits List](_img/edit-license/edit-license-bulk-edit-export.png "Screenshot of the Edit multiple subscribers dialog with the Export this excel link highlighted.")
+   > ![Editing a License - Export Bulk Edits List](media/edit-license/edit-license-bulk-edit-export.png "Screenshot of the Edit multiple subscribers dialog with the Export this excel link highlighted.")
 
-3. Save the file locally so that you can easily find it and make any necessary changes before uploading it.
+1. Save the file locally and the required changes before uploading it.
 
-4. Return to the Visual Studio Subscriptions Admin portal and in the **Bulk Edit** dialog, select **Browse**. Choose the Excel file you saved and select **OK**. The upload progress appears.
+1. Return to the Visual Studio Subscriptions Admin Portal. In the **Bulk Edit** dialog, select **Browse**, choose the Excel file, and select **OK**. The upload progress appears.
    > [!div class="mx-imgBorder"]
-   > ![Editing a License - Bulk Edits File Upload](_img/edit-license/edit-license-bulk-file-upload1.png "Screenshot of the Edit multiple subscribers dialog with the name of the completed template highlighted.")
+   > ![Editing a License - Bulk Edits File Upload](media/edit-license/edit-license-bulk-file-upload-1.png "Screenshot of the Edit multiple subscribers dialog with the name of the completed template highlighted.")
 
-5. After you upload the file, you see a notification that it was successful. Your edits are now reflected in the subscriber information.
+1. After the upload completes, a confirmation message appears. The Admin Portal displays the updated subscriber information.
 
 ## Related content
 
 * [Subscriptions support](https://aka.ms/vsadminhelp)
-* [Visual Studio documentation](/visualstudio/)
-* [Azure DevOps documentation](/azure/devops/)
-* [Azure documentation](/azure/)
-* [Microsoft 365 documentation](/microsoft-365/)
-* Need to assign a specific subscription ID? Check out [Assigning a subscription ID](https://learn.microsoft.com/visualstudio/subscriptions/assign-guid).
-* For help with finding a particular subscription, check out [Search for a subscription](search-license.md).
-* Need to create a list of all your subscriptions? Check out [Export subscriptions](exporting-subscriptions.md).
+* [Manage subscriptions for large teams](manage-teams.md)
+* [Assign specific subscription IDs](https://learn.microsoft.com/visualstudio/subscriptions/assign-guid)
+* [Export subscriber information](exporting-subscriptions.md)
