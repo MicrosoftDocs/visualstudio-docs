@@ -7,7 +7,7 @@ ms.topic: include
 ms.assetid: ee7e5ba2-a4b5-4db0-bd05-583dca51c75e
 author: joseb-rdc
 ms.author: amast
-ms.date: 07/16/2026
+ms.date: 07/22/2026
 ---
 
 ## How do my developers download Visual Studio?
@@ -16,9 +16,11 @@ The developers' assigned subscription levels identify which level of the Visual 
 ### For the latest release
 1. Have your subscribers sign in to the subscriptions portal at [https://my.visualstudio.com/benefits](https://my.visualstudio.com/benefits). 
 0. Locate the Visual Studio IDE tile in the Tools section and click on the **Download** link at the bottom of the benefit tile. 
-0. They’ll be redirected to the Download Results page for Visual Studio to download the IDE. 
+1. They're redirected to the Download Results page for Visual Studio to download the IDE. 
 0. Follow the download and set up instructions.
-0. Using the email their subscription is assigned to, they’ll be able to immediately sign into the IDE after installation; no product key is required. [Learn how to claim a product key](https://learn.microsoft.com/visualstudio/subscriptions/find-keys) for use in an offline environment.
+1. By using the email their subscription is assigned to, developers can sign into the IDE after installation. Visual Studio 2026 doesn't require a product key. Instead, signing in verifies the subscription and unlocks access to the IDE; **no product key is required**.
+
+If your organization uses Volume Licensing for qualifying broad, offline, or managed deployment scenarios, Visual Studio 2026 keys may still be available through your Volume Licensing admin.
 
 ### Find older versions
 Your subscribers can also search for and download previous versions from the [downloads page](https://my.visualstudio.com/downloads) in the subscriptions portal at [https://my.visualstudio.com](https://my.visualstudio.com).
