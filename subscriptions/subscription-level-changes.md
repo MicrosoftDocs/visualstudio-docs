@@ -3,16 +3,16 @@ title: Effects of Changing Subscription Levels
 author: joseb-rdc
 ms.author: amast
 ms.manager:  shve
-ms.date: 02/03/2026
+ms.date: 07/28/2026
 ms.topic: concept-article
-description: Learn about the effects of upgrading or downgrading your Visual Studio subscription level.
+description: Learn about the effects of upgrading or downgrading your Visual Studio Subscription level.
 ---
 
-# What happens when you change Visual Studio subscription levels?
+# What happens when you change Visual Studio Subscription levels?
 
-In Visual Studio subscriptions, the software, tools, services, and other benefits that you receive depend on your subscription level. Higher subscription levels include more robust benefits.
+In Visual Studio Subscriptions, the software, tools, services, and other benefits that you receive depend on your subscription level. Higher subscription levels include more robust benefits.
 
-You might need to change levels for several reasons. For example, you might want a more full‑featured version of the Visual Studio integrated development environment (IDE). Your company's subscription admin might also adjust your subscription based on your role, your current project, or purchasing needs.
+You might need to change levels for several reasons. For example, you might want a more full-featured version of the Visual Studio integrated development environment (IDE). Your company's subscription admin might also adjust your subscription based on your role, your current project, or purchasing needs.
 
 Depending on your new subscription level, you might need to take action to keep access to your benefits. How your benefits change when you change the subscription level depends on the benefit type. This article provides examples and explains the effects of upgrades and downgrades for key benefits.
 
@@ -36,7 +36,9 @@ You get access to the IDE edition included in your new subscription. To use it, 
 
 You keep perpetual use rights for the version included at the higher level. You might not be able to sign in to keep using that higher edition after your access changes.
 
-To avoid disruption, confirm that you can still validate the IDE license before your subscription level changes. You can perform this validation by signing in with an eligible account or by using a product key from the [Product Keys](https://my.visualstudio.com/productkeys) page of the subscription portal. [Learn more about finding and claiming product keys](find-keys.md).
+To avoid disruption, confirm that you can still validate the IDE license before your subscription level changes. You can perform this validation by signing in with an eligible account or, for eligible earlier Visual Studio versions, by using a product key from the [Product Keys](https://my.visualstudio.com/productkeys) page of the subscription portal. [Learn more about finding and claiming product keys](find-keys.md).
+
+Visual Studio 2026 is licensed through subscription sign-in. No product key is required.
 
 ## What happens to individual Azure credits?
 
@@ -46,7 +48,7 @@ When your subscription changes (upgrade, downgrade, or new subscription ID), the
 
 To avoid losing your Azure assets, choose one of these options:
 
-+ Convert the old subscription to [pay‑as‑you‑go](https://azure.microsoft.com/offers/ms-azr-0023p/) billing. A payment method is required.  
++ Convert the old subscription to [pay-as-you-go](https://azure.microsoft.com/offers/ms-azr-0023p/) billing. A payment method is required.  
 + Create a new Azure subscription by using your new benefits and move your existing assets into the new subscription.
 
 ## What happens to software downloads?
