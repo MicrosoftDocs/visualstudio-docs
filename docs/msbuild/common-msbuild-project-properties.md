@@ -1,7 +1,7 @@
 ---
 title: Common MSBuild Project Properties
 description: Learn about common MSBuild project properties that can be defined or used in project files or included in targets files that MSBuild provides.
-ms.date: 4/17/2025
+ms.date: 08/03/2026
 ms.topic: reference
 dev_langs:
 - VB
@@ -35,6 +35,7 @@ f1_keywords:
 - "http://schemas.microsoft.com/developer/msbuild/2003#DefineTrace"
 - "http://schemas.microsoft.com/developer/msbuild/2003#DelaySign"
 - "http://schemas.microsoft.com/developer/msbuild/2003#Deterministic"
+- "http://schemas.microsoft.com/developer/msbuild/2003#DeterministicTimestamp"
 - "http://schemas.microsoft.com/developer/msbuild/2003#DirectoryBuildPropsPath"
 - "http://schemas.microsoft.com/developer/msbuild/2003#DirectoryBuildTargetsPath"
 - "http://schemas.microsoft.com/developer/msbuild/2003#DisableFastUpToDateCheck"
@@ -177,7 +178,8 @@ When setting property values, keep in mind that common properties may be set, re
 | DefineDebug | All |  A boolean value that indicates whether you want the DEBUG constant defined. |
 | DefineTrace | All | A boolean value that indicates whether you want the TRACE constant defined. |
 | DelaySign | .NET | A boolean value that indicates whether you want to delay-sign the assembly rather than full-sign it. |
-| Deterministic | .NET | A boolean value that indicates whether the compiler should produce identical assemblies for identical inputs. This parameter corresponds to the `/deterministic` switch of the compilers. |
+| Deterministic | .NET | A boolean value that indicates whether build outputs should be deterministic. Tasks and tools that support this property produce equivalent outputs for identical inputs. For compiled assemblies, this property corresponds to the `/deterministic` compiler switch. |
+| DeterministicTimestamp | All | Specifies a timestamp that tasks and tools can use when they produce deterministic outputs. Set this property to an RFC 3339 date and time or a Unix timestamp expressed as the number of seconds since January 1, 1970. Supporting tasks use the timestamp in place of time-dependent values that would otherwise prevent outputs from being reproducible across machines and runs. For example, archive and package creation tasks can use the value as the timestamp for every archive entry. The Unix timestamp format is compatible with the `SOURCE_DATE_EPOCH` environment variable. |
 | DirectoryBuildPropsPath | All | Specifies the path to the *Directory.Build.props* file; if defined, this property overrides the default search algorithm. See [Customize your build](customize-your-build.md#choose-between-adding-properties-to-a-props-or-targets-file). |
 | DirectoryBuildTargetsPath| All | Specifies the path to the *Directory.Build.targets* file; if defined, this property overrides the default search algorithm. See [Customize your build](customize-your-build.md#choose-between-adding-properties-to-a-props-or-targets-file). |
 | DisableFastUpToDateCheck | All | A boolean value that applies to Visual Studio only. The Visual Studio build manager uses a process called FastUpToDateCheck to determine whether a project must be rebuilt to be up to date. This process is faster than using MSBuild to determine this. Setting the DisableFastUpToDateCheck property to `true` lets you bypass the Visual Studio build manager and force it to use MSBuild to determine whether the project is up to date. |
