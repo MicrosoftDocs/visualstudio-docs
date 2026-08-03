@@ -1,7 +1,7 @@
 ---
 title: "Change Log (Visual Studio Tools for Unity, Windows)"
 description: View the change log for Visual Studio Tools for Unity, Windows. See changes from version 1.0.0.0 through 4.7.0.0 and beyond.
-ms.date: "6/20/2026"
+ms.date: "8/11/2026"
 ms.subservice: unity-tools
 ms.service: visual-studio
 ms.topic: release-notes
@@ -12,6 +12,31 @@ ms.manager:  crdun
 # Change log (Visual Studio Tools for Unity, Windows)
 
 Visual Studio Tools for Unity change log.
+
+## 18.9.0.0
+Released August 11, 2026
+
+### New features
+
+- **Debugging:**
+
+  - Added Unity-specific pseudo locals and expanded views when debugging Unity projects that use CoreCLR.
+
+- **Integration:**
+
+  - Added [`UNT0043`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0043.md) diagnostic, Possible typo in conditional compilation symbol.
+
+### Bug fixes
+
+- **Integration:**
+
+  - Fixed [`UNT0008`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0008.md) code fixes for null propagation statements and chained member access.
+
+  - Fixed [`UNT0013`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0013.md) diagnostic for `[SerializeField]` on public dictionary fields.
+
+  - Fixed stability issues with [`UNT0038`](https://github.com/microsoft/Microsoft.Unity.Analyzers/blob/main/doc/UNT0038.md) when analyzing object creations with multiple arguments.
+
+  - Fixed stability issues in the Unity file watcher when files are deleted, renamed, or temporarily unavailable.
 
 ## 18.7.0.0
 Released May 27, 2026
