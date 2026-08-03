@@ -20,7 +20,7 @@ Released August 11, 2026
 
 - **Debugging:**
 
-  - Added Unity-specific pseudo locals and expanded views for scenes and `GameObject` instances when debugging Unity projects that use CoreCLR.
+  - Added Unity-specific pseudo locals and expanded views when debugging Unity projects that use CoreCLR.
 
 - **Integration:**
 
