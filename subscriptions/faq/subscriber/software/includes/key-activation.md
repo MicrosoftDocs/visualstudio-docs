@@ -5,7 +5,7 @@ ms.topic: include
 ms.assetid: f4638a80-a11f-4662-954e-4dff118d8503
 author: joseb-rdc
 ms.author: amast
-ms.date: 09/30/2024
+ms.date: 07/22/2026
 ms.faqid: q2_2
 ---
 
@@ -15,8 +15,14 @@ Activation isn't always required for a product. In some cases, a single key can 
 
 You can obtain product keys in two places:
 
-- When you [download](https://my.visualstudio.com/downloads) a product you can click on the \'Get Key\' link listed next to the product you're downloading.
+- When you [download](https://my.visualstudio.com/downloads) a product, click the **Blue Key** icon next to the product you want.
 - You can also find keys on the [Product Keys](https://my.visualstudio.com/ProductKeys) page in the [Subscriber Portal](https://my.visualstudio.com/benefits).
+
+> [!NOTE]
+>
+> Visual Studio 2026 doesn't require a product key. Instead, the IDE is available when you sign in with the account your Visual Studio Subscription is assigned to. Product keys for other eligible products and earlier Visual Studio versions remain available on the Product Keys page in the subscriber portal.
+>
+> If your organization uses Volume Licensing for qualifying broad, offline, or managed deployment scenarios, Visual Studio 2026 keys may still be available through your Volume Licensing admin.
 
 For more information about obtaining and using product keys, please see these articles:
 
