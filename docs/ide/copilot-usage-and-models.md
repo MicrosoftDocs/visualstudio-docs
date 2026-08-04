@@ -151,7 +151,7 @@ Pin frequently used models so they remain at the top of the **Model picker**. Ex
 
 Select **Manage models** in the **Model picker** to open the language models view. Use this view to compare model capabilities, context-window size, cost level, and available thinking-effort options.
 
-Custom models that you provide appear alongside Copilot models. From this view, you can pin models, review their capabilities, or configure a provider.
+From this view, you can add custom models from supported providers using your own API key. Custom models appear alongside Copilot models, where you can pin them, review their capabilities, or configure a provider.
 
 ### Monitor context window usage
 
