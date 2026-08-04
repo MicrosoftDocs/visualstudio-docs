@@ -181,7 +181,7 @@ To configure thinking effort for a model:
 ## Tips to optimize usage
 
 - Use **Auto** in the model picker for most prompts, then switch models for complex tasks.
-- For complex prompts that benefit from deeper reasoning, consider increasing the [thinking effort](#configure-thinking-effort) level for a supported model. For simpler prompts, a lower thinking effort level reduces credit usage.
+- For complex prompts that benefit from deeper reasoning, consider increasing the [thinking effort](#configure-thinking-effort) level for a supported model. For simpler prompts, a lower thinking effort level reduces credit usage and yields quicker responses.
 - To reduce usage for non-chat scenarios, turn off **Enhance non-chat requests with premium models** in **GitHub** > **Copilot** > **Editor**. For more context, see [Understand model selection](#understand-model-selection).
 - If you use multiple GitHub accounts in Visual Studio, verify the active account is the account with your expected Copilot plan.
 - Use **Manage plan** from the usage window to verify your current plan tier and overage policy.
