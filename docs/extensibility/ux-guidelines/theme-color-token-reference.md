@@ -1,7 +1,7 @@
 ---
 title: Visual Studio Theme Color Tokens
 description: Reference for the theme color tokens used in Fluent UI in Visual Studio 2026.
-ms.date: 5/12/2026
+ms.date: 08/04/2026
 ms.topic: reference
 helpviewer_keywords:
 - content_types
@@ -19,6 +19,16 @@ monikerRange: "visualstudio"
 Visual Studio uses semantic color tokens to define the appearance of every UI surface. These tokens are part of the Fluent design system introduced in Visual Studio 2026. Instead of referencing specific hex colors, each control and surface references a named token. Themes provide values for these tokens, and the entire IDE updates accordingly.
 
 This reference lists every available theme color token, its intended usage, and its default values in the Light, Dark, and High Contrast themes. Use this reference when creating custom themes or overriding individual tokens in your settings.
+
+## Customize theme colors in Visual Studio
+
+Visual Studio 2026 (18.7) includes an in-product **Theme colors** page for customizing Fluent theme color tokens. Open **Tools > Options > Environment > Visual Experience > Theme colors** to view the tokens for the active theme in a searchable grid. Changes apply live, support per-token reset, and are saved per theme so they're retained when you switch themes.
+
+For broader end-user appearance settings, see [Change fonts, colors, and themes in Visual Studio](../../ide/how-to-change-fonts-and-colors-in-visual-studio.md).
+
+### Sharing theme overrides
+
+To share token overrides, place a theme-named JSON file in `%LOCALAPPDATA%\Microsoft\VisualStudio\18.0\_xxxxxxxx\ColorThemes`. The overrides apply to the matching theme after you restart Visual Studio.
 
 ## How theme tokens work
 
@@ -202,6 +212,8 @@ Tokens for status indicators — attention, caution, critical, success, and neut
 
 These tokens control IDE chrome surfaces — the main window frame, tool window headers, tabs, status bar, and other shell-level elements. They're the primary tokens theme authors use to change the overall feel of the IDE.
 
+Visual Studio adds Fluent color tokens as shell areas become more granular. Additional tokens can appear for chrome surfaces such as tab headers and window headers so theme authors can style those areas independently from other shell chrome.
+
 ### Environment
 
 Tokens that control the main window and shell chrome surfaces.
@@ -279,7 +291,3 @@ High Contrast values are system color indices. Visual Studio maps these to the u
 - [Color theming tools](../internals/color-theming-tools.md)
 - [Modernize theme colors](../migration/modernize-theme-colors.md)
 - [Matching Visual Studio themes in Visual Studio extensions](../vsix/recipes/use-themes.md)
-- [Change fonts, colors, and themes in Visual Studio](../../ide/how-to-change-fonts-and-colors-in-visual-studio.md)
-
-
-

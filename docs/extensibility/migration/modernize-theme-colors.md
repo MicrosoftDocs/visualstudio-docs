@@ -1,7 +1,7 @@
 ---
 title: "Modernize Visual Studio theme colors"
 description: "Learn how to migrate Visual Studio themes from the legacy token-based system to the new streamlined color system introduced in Visual Studio 2026."
-ms.date: 10/23/2025
+ms.date: 08/04/2026
 ms.topic: how-to
 helpviewer_keywords:
 - themes, modernizing
@@ -59,6 +59,8 @@ Here is an example of categories and color tokens from a Visual Studio 2022 them
 
 Visual Studio 2026 consolidates tokens into a handful of intent-first categories with predictable naming tiers. An out-of-box shell theme now contains only four top-level categories and 229 color tokens—an ~87% reduction.
 
+Additional Fluent semantic tokens provide more granular control over shell areas. For example, theme authors can independently color tab and window headers from other shell chrome.
+
 Here is an example of semantic, intent-first tokens from a Visual Studio 2026 theme:
 
 ```xml
@@ -89,6 +91,14 @@ Here is an example of semantic, intent-first tokens from a Visual Studio 2026 th
 - **Improved accessibility:** Centralized color ramps and semantic states (Success, Caution, Critical, Attention) make contrast validation easier and more reliable.
 
 - **Better performance and maintainability:** Semantic layers replace   granular color setters, reducing maintenance overhead and improving UI quality.
+
+### Customize tokens in Visual Studio
+
+Visual Studio 2026 (18.7) adds an in-IDE **Theme colors** options page for interactive theme color customization. Open **Tools > Options > Environment > Visual Experience > Theme colors** to view the Fluent theme color tokens for the active theme in a searchable grid. Changes apply live, so you can tweak tokens without installing an extension, editing JSON, or restarting Visual Studio.
+
+Theme color overrides are saved per theme, persist when you switch themes, and support resetting individual tokens. These behaviors are useful when validating semantic tokens or customizing a few values without creating a full theme package.
+
+To share theme overrides, place a theme-named JSON file in `%LOCALAPPDATA%\Microsoft\VisualStudio\18.0\_xxxxxxxx\ColorThemes`. Visual Studio applies file-based changes after you restart the IDE.
 
 ## Migrate themes to Visual Studio 2026
 
@@ -234,4 +244,3 @@ The refactor reduces style lookups and redundant resources, improving memory loc
 ### Are editor colors changing too?
 
 The editor currently retains most of its syntax colorization. This change targets shell UI shared surfaces such as tool windows, menus and dialogs. You can choose editor appearance (including Extra Contrast) independently.
-

@@ -1,7 +1,7 @@
 ---
 title: Colors and Styling for Visual Studio
 description: Learn how the Visual Studio User Experience uses color as a communication tool, instead of for purely aesthetic reasons.
-ms.date: 07/31/2017
+ms.date: 08/04/2026
 ms.topic: reference
 author: tinaschrepfer
 ms.author: tinali
@@ -53,13 +53,19 @@ Users are prompted to select a theme during their first use of Visual Studio and
 
 Users can also use Control Panel to switch their entire systems into one of several High Contrast themes. If a user selects a High Contrast theme, then the Visual Studio color theme selector no longer affects colors in Visual Studio, although any theme changes are saved for when the user exits High Contrast mode. For more information about High Contrast mode, see [Choosing High Contrast colors](../../extensibility/ux-guidelines/colors-and-styling-for-visual-studio.md#BKMK_ChoosingHighContrastColors).
 
+Users can also customize Fluent theme color tokens in Visual Studio by opening **Tools > Options > Environment > Visual Experience > Theme colors**. These overrides are saved per theme, persist when users switch themes, and support per-token reset.
+
 ### The VSColor service
 
 Visual Studio provides an environment color service, known as the VSColor service, which allows you to bind the color values of your UI elements to a named entry containing color values for each Visual Studio theme. This ensures that your colors will automatically change to reflect the current user-selected theme or system High Contrast mode. Use of the service means that the implementation of all theme-related color changes is handled in one place, and if you are using common shared colors from the service, your UI will automatically reflect new themes in future versions of Visual Studio.
 
+Theme color customizations can change the values returned for theme tokens at runtime. Bind extension UI to VSColor or `ThemeResourceKey` tokens instead of hardcoding colors, and validate UI with non-default token values.
+
 ### Implementation
 
 The Visual Studio source code includes several package definition files that contain lists of token names and the respective color values for each theme. The color service reads the VSColors defined in these package definition files. These colors are referenced in XAML markup or in code and then loaded through either the `IVsUIShell5.GetThemedColor` method or a DynamicResource mapping.
+
+Token overrides can be shared by placing a theme-named JSON file under `%LOCALAPPDATA%\Microsoft\VisualStudio\18.0\_xxxxxxxx\ColorThemes`. File-based overrides apply after Visual Studio restarts.
 
 ### System colors
 
@@ -76,6 +82,8 @@ Before using common shared colors, make sure that you understand how to use them
 See: [Exposing colors for end users](../../extensibility/ux-guidelines/colors-and-styling-for-visual-studio.md#BKMK_ExposingColorsForEndUsers)
 
 Sometimes, you will want to allow the end user to customize your UI, like when you are creating a code editor or design surface. Customizable UI components are found in the **Fonts and Colors** section of the **Tools &gt; Options** dialog, where users can choose to change the foreground color, background color, or both.
+
+Use **Fonts and Colors** for feature or editor color categories, such as code editors and specialized designers. Use **Theme colors** for shell and Fluent theme tokens that affect shared IDE chrome and common themed surfaces.
 
 ![Tools &gt; Options dialog](../../extensibility/ux-guidelines/media/0301-a_toolsoptionsdialog.png "0301-a_ToolsOptionsDialog")<br />Tools &gt; Options dialog
 
@@ -263,7 +271,6 @@ protected override void Dispose(bool disposing)
 
 ## <a name="BKMK_ChoosingHighContrastColors"></a> Choosing High Contrast colors
 
-
 Windows uses several high-contrast system-level themes that increase the color contrast of text, backgrounds, and images, making elements appear more distinct on the screen. For accessibility reasons, it is important that Visual Studio interface elements respond correctly when users switch to a High Contrast theme.
 
 Only a handful of system colors can be used for High Contrast themes. When choosing your system color names, remember the following tips:
@@ -325,8 +332,9 @@ Many common UI elements already have High Contrast colors defined. You can refer
 
 ## <a name="BKMK_ExposingColorsForEndUsers"></a> Exposing colors for end users
 
-
 Sometimes you'll want to allow the end user to customize your UI, like when you're creating a code editor or design surface. The most common way to do this is by using the **Tools &gt; Options** dialog. Unless you have highly specialized UI that requires special controls, the easiest way to present the customization is through the **Fonts and Colors** page within the **Environment** section of the dialog. For each element that you expose for customization, the user can choose to change the foreground color, background color, or both.
+
+The **Fonts and Colors** page is for feature and editor color categories that your package exposes. The **Theme colors** page is a separate customization surface for shell and Fluent theme tokens. If your UI binds to shared theme tokens, user overrides from **Theme colors** can change the token values your UI receives without requiring a custom Fonts and Colors category.
 
 ### Building a VSPackage for your customizable colors
 
