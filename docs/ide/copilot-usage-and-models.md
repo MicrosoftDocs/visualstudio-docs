@@ -155,7 +155,7 @@ Custom models that you provide appear alongside Copilot models. From this view, 
 
 ### Monitor context window usage
 
-Select the donut-chart icon in the prompt box to view context-window usage for the current thread. As usage approaches 100%, use the indicator to decide when to summarize the conversation, start a new thread, or select a model with a larger context window.
+Select the donut-chart icon in the prompt box to view context-window usage for the current thread. As the context window usage approaches 100%, consider one of the following options to optimize greater context and response quality: summarize the conversation, start a new thread, or select a model with a larger context window.
 
 To manage model usage for non-chat scenarios, turn off **Enhance non-chat requests with premium models** in **GitHub** > **Copilot** > **Editor**.
 
