@@ -1,7 +1,7 @@
 ---
 title: 'GitHub Copilot usage and models'
 description: Learn how to manage your GitHub Copilot usage and models directly within Visual Studio.
-ms.date: 07/29/2026
+ms.date: 08/11/2026
 ms.update-cycle: 180-days
 ms.topic: overview
 author: RoseHJM
@@ -119,7 +119,7 @@ When monthly usage limits are configured, Copilot might display an alert banner 
 
 For plan behavior details, see [About usage limits](https://docs.github.com/copilot/concepts/usage-limits).
 
-For chat context usage (separate from billing usage), monitor context window usage and summarize conversation history as needed. Learn more in [Manage chat context in Copilot Chat](copilot-chat-context-references.md#context-window-indicator).
+For chat context usage (separate from billing usage), see [Monitor context window usage](#monitor-context-window-usage).
 
 > [!TIP]
 > Visit your [Copilot settings on GitHub](https://github.com/settings/copilot/features) to explore model options and subscription details.
@@ -142,6 +142,20 @@ To view or change your current model:
 1. Use the **Model picker** dropdown to select a model.
 
 The model picker shows model cost indicators for each model. Available model options might vary by plan.
+
+### Organize models in the picker
+
+Pin frequently used models so they remain at the top of the **Model picker**. Expand the list to view all available models or collapse it to show only your pinned models.
+
+### Manage models
+
+Select **Manage models** in the **Model picker** to open the language models view. Use this view to compare model capabilities, context-window size, cost level, and available thinking-effort options.
+
+Custom models that you provide appear alongside Copilot models. From this view, you can pin models, review their capabilities, or configure a provider.
+
+### Monitor context window usage
+
+Select the donut-chart icon in the prompt box to view context-window usage for the current thread. As usage approaches 100%, use the indicator to decide when to summarize the conversation, start a new thread, or select a model with a larger context window.
 
 To manage model usage for non-chat scenarios, turn off **Enhance non-chat requests with premium models** in **GitHub** > **Copilot** > **Editor**.
 
