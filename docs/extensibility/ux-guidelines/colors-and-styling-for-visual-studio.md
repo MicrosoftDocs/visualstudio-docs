@@ -65,7 +65,7 @@ Theme color customizations can change the values returned for theme tokens at ru
 
 The Visual Studio source code includes several package definition files that contain lists of token names and the respective color values for each theme. The color service reads the VSColors defined in these package definition files. These colors are referenced in XAML markup or in code and then loaded through either the `IVsUIShell5.GetThemedColor` method or a DynamicResource mapping.
 
-Token overrides can be shared by placing a theme-named JSON file under `%LOCALAPPDATA%\Microsoft\VisualStudio\18.0\_xxxxxxxx\ColorThemes`. File-based overrides apply after Visual Studio restarts.
+Token overrides can be shared by placing a theme-named JSON file under `%LOCALAPPDATA%\Microsoft\VisualStudio\18.0_xxxxxxxx\ColorThemes`. File-based overrides apply after Visual Studio restarts.
 
 ### System colors
 

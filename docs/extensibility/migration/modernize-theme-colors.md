@@ -98,7 +98,7 @@ Visual Studio 2026 (18.7) adds an in-IDE **Theme colors** options page for inter
 
 Theme color overrides are saved per theme, persist when you switch themes, and support resetting individual tokens. These behaviors are useful when validating semantic tokens or customizing a few values without creating a full theme package.
 
-To share theme overrides, place a theme-named JSON file in `%LOCALAPPDATA%\Microsoft\VisualStudio\18.0\_xxxxxxxx\ColorThemes`. Visual Studio applies file-based changes after you restart the IDE.
+To share theme overrides, place a theme-named JSON file in `%LOCALAPPDATA%\Microsoft\VisualStudio\18.0_xxxxxxxx\ColorThemes`. Visual Studio applies file-based changes after you restart the IDE.
 
 ## Migrate themes to Visual Studio 2026
 

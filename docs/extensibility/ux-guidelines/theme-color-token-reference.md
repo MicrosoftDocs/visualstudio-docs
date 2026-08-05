@@ -28,7 +28,7 @@ For broader end-user appearance settings, see [Change fonts, colors, and themes 
 
 ### Sharing theme overrides
 
-To share token overrides, place a theme-named JSON file in `%LOCALAPPDATA%\Microsoft\VisualStudio\18.0\_xxxxxxxx\ColorThemes`. The overrides apply to the matching theme after you restart Visual Studio.
+To share token overrides, place a theme-named JSON file in `%LOCALAPPDATA%\Microsoft\VisualStudio\18.0_xxxxxxxx\ColorThemes`. The overrides apply to the matching theme after you restart Visual Studio.
 
 ## How theme tokens work
 
