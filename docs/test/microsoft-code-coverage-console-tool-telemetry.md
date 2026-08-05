@@ -86,18 +86,6 @@ The telemetry feature collects the following data points:
 | 18.10 | Log level, such as `Debug`. |
 | 18.10 | Timeout value. |
 
-### Command events
-
-Each command invocation emits an event named `dotnet/codecoverage/<command>/init`, for example, `dotnet/codecoverage/instrument/init`. Running the tool without a command, or with `--help` or `--version`, doesn't emit an event. Properties are grouped under a `metadata.*` namespace for application and system identity and a `coverage.*` namespace for the invoked command and the options or arguments provided.
-
-The following rules determine what is recorded for options and arguments:
-
-- Only options and arguments explicitly provided by the user are recorded. Defaults and unset values are omitted.
-- For options and flags that might contain user data, only the fact that the option or argument was provided is sent as the Boolean value `true`. The actual value is sent only for the nonsensitive options `logLevel`, `outputFormat`, and `timeout`.
-- Mandatory arguments are never sent because they're always present and provide no usage signal. These arguments are `command` for `connect`, `files` for `merge`, `session` for `connect`, `snapshot`, and `shutdown`, and `input-file` for `instrument` and `uninstrument`.
-- The `session-id` option is never sent for any command.
-- The `--help`, `--version`, and `-?` options are never sent.
-
 ### Shared context
 
 Because telemetry is delivered through Azure Application Insights, each event also includes standard, nonpersonal context: the operating system description and a randomly generated session identifier used to correlate events from a single run. This context doesn't include the contents of your code, assemblies, or coverage data.
