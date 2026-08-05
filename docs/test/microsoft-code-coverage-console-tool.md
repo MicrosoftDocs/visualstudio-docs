@@ -198,6 +198,7 @@ D:\ConsoleApplication\x64\Debug>Microsoft.CodeCoverage.Console shutdown 73c34ce5
 
 ## Related content
 
+- [Microsoft.CodeCoverage.Console telemetry](microsoft-code-coverage-console-tool-telemetry.md)
 - [dotnet-coverage code coverage utility](/dotnet/core/additional-tools/dotnet-coverage)
 - [Customize code coverage analysis](../test/customizing-code-coverage-analysis.md)
 - [Configure unit tests by using a run settings file](../test/configure-unit-tests-by-using-a-dot-runsettings-file.md)
