@@ -2,7 +2,7 @@
 title: Microsoft.CodeCoverage.Console telemetry
 description: Learn about the telemetry data collected by Microsoft.CodeCoverage.Console and dotnet-coverage and how to disable telemetry reporting.
 ms.date: 08/05/2026
-ms.topic: conceptual
+ms.topic: concept-article
 author: RoseHJM
 ms.author: rosemalcolm
 
