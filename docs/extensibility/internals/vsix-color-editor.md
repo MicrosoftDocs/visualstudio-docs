@@ -188,7 +188,7 @@ namespace MyCustomColors
 ## Notes
  This tool is intended to be used for creating custom colors for the preexisting Visual Studio themes, or for editing the colors of a custom Visual Studio theme. To create complete custom Visual Studio themes, download the [Visual Studio Color Theme Editor extension](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.VisualStudio2015ColorThemeEditor) from the Visual Studio Extensions Gallery.
 
- Theme overrides can be shared by placing a theme-named JSON file under `%LOCALAPPDATA%\Microsoft\VisualStudio\18.0\_xxxxxxxx\ColorThemes`. Visual Studio applies those file-based overrides after you restart the IDE.
+ Theme overrides can be shared by placing a theme-named JSON file under `%LOCALAPPDATA%\Microsoft\VisualStudio\18.0_xxxxxxxx\ColorThemes`. Visual Studio applies those file-based overrides after you restart the IDE.
 
 ## Sample Output
  **XML color output**
