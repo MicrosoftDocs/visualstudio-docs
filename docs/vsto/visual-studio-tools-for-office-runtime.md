@@ -52,6 +52,6 @@ The following list contains the VSTO Runtime releases and the corresponding vers
 | 10.0.60828 | 01/12/2018 | Microsoft Office 2019 / <br>Microsoft Office 2021 / <br>Office 365 |
 | 10.0.60910 | 08/08/2023 | Microsoft Office 2013 / <br>Microsoft Office 2016 / <br>Microsoft Office 2019 / <br>Microsoft Office 2021 / <br>Office 365 |
 | 10.0.60912 | 11/01/2023 | Microsoft Office 2019 / <br>Microsoft Office 2021 / <br>Office 365 |
-| 10.0.60917 | 02/28/2024 | Microsoft Office 2019 / <br>Microsoft Office 2021 / <br>Office 365 |
+| 10.0.60917 | 02/28/2024 | Microsoft Office 2019 / <br>Microsoft Office 2021 / <br>Microsoft Office 2024 / <br>Office 365 |
 
 For more information on the Office Support Lifecycle, see [Lifecycle FAQ - Office, Office 365, and Microsoft 365](/lifecycle/faq/office).
