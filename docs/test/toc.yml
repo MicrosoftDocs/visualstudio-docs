@@ -117,6 +117,9 @@
       href: customizing-code-coverage-analysis.md
     - name: Microsoft.CodeCoverage.Console tool
       href: microsoft-code-coverage-console-tool.md
+      items:
+      - name: Telemetry
+        href: microsoft-code-coverage-console-tool-telemetry.md
     - name: Troubleshoot code coverage
       href: /troubleshoot/developer/visualstudio/ide/troubleshooting-code-coverage?toc=%2Fvisualstudio%2Ftest%2Ftoc.json
   - name: Migration
