@@ -1,7 +1,7 @@
 ---
 title: Secure MSBuild usage best practices
 description: Learn about best practices for configuring and running your builds with MSBuild securely.
-ms.date: 02/24/2025
+ms.date: 07/27/2026
 ms.topic: how-to
 helpviewer_keywords:
 - best practices, MSBuild
@@ -65,6 +65,9 @@ Build logic can be affected by command-line arguments or environment variables, 
 Don't run under an account that could be used on a same system to previously run unknown processes or scripts, including a different build. Especially if the unrelated build under same user account might have run on sources that aren't fully trusted and known.
 
 MSBuild can source logic from various locations from the user profile (specifically MSBuild SDK automatically includes build logic located in [MSBuildUserExtensionsPath](./customize-your-local-build.md#msbuildextensionspath-and-msbuilduserextensionspath) location), or from locations injectable by environment variables (you can customize `MSBuildUserExtensionsPath` with a MSBuild property with the same name. Such property doesn't have a default value, so it can be sourced from the environment variable with the same name).
+
+> [!NOTE]
+> As an implementation detail, MSBuild locates and communicates with its persistent processes through named pipes and mutexes. On Windows, these named pipes and mutexes share a machine-wide namespace. So, a process under another local account can occupy those names and block your build from creating them. This situation is an availability (denial-of-service) concern only. OS access controls still prevent another account from reading or altering the build. Prefer a machine where all local accounts are trusted, or an isolated session, container, or VM.
 
 ### Related configurations 
  * [MSBuildExtensionsPath and MSBuildUserExtensionsPath](./customize-your-local-build.md#msbuildextensionspath-and-msbuilduserextensionspath):  you can set the `ImportUserLocationsByWildcardBefore{ImportingFileNameWithNoDots}` property to `false` to opt out of the auto-inclusion of the specific extension build logic.
