@@ -1,7 +1,7 @@
 ---
 title: 'GitHub Copilot usage and models'
 description: Learn how to manage your GitHub Copilot usage and models directly within Visual Studio.
-ms.date: 05/20/2026
+ms.date: 08/11/2026
 ms.update-cycle: 180-days
 ms.topic: overview
 author: RoseHJM
@@ -119,7 +119,7 @@ When monthly usage limits are configured, Copilot might display an alert banner 
 
 For plan behavior details, see [About usage limits](https://docs.github.com/copilot/concepts/usage-limits).
 
-For chat context usage (separate from billing usage), monitor context window usage and summarize conversation history as needed. Learn more in [Manage chat context in Copilot Chat](copilot-chat-context-references.md#context-window-indicator).
+For chat context usage (separate from billing usage), see [Monitor context window usage](#monitor-context-window-usage).
 
 > [!TIP]
 > Visit your [Copilot settings on GitHub](https://github.com/settings/copilot/features) to explore model options and subscription details.
@@ -132,9 +132,9 @@ For most prompts, use **Auto**. Auto routes you to a model based on model reliab
 
 Your model choice affects three things:
 
-- **Cost:** Higher-capability models usually consume more credits per prompt.
+- **Cost:** Higher-capability models usually consume more credits per prompt. In addition, some models support a [thinking effort](#configure-thinking-effort) setting that can increase credit usage even when you stay on the same model.
 - **Response quality:** Higher-capability models often return more detailed and structured responses.
-- **Performance:** Lower-cost models are often faster for simple tasks, while higher-capability models might take longer for complex reasoning.
+- **Performance:** Lower-cost models are often faster for simple tasks, while higher-capability models might take longer for complex reasoning. Thinking effort level can also affect response time independently of model selection.
 
 To view or change your current model:
 
@@ -143,13 +143,45 @@ To view or change your current model:
 
 The model picker shows model cost indicators for each model. Available model options might vary by plan.
 
+### Organize models in the picker
+
+Pin frequently used models so they remain at the top of the **Model picker**. Expand the list to view all available models or collapse it to show only your pinned models.
+
+### Manage models
+
+Select **Manage models** in the **Model picker** to open the language models view. Use this view to compare model capabilities, context-window size, cost level, and available thinking-effort options.
+
+From this view, you can add custom models from supported providers using your own API key. Custom models appear alongside Copilot models, where you can pin them, review their capabilities, or configure a provider.
+
+### Monitor context window usage
+
+Select the donut-chart icon in the prompt box to view context-window usage for the current thread. As the context window usage approaches 100%, consider one of the following options to optimize greater context and response quality: summarize the conversation, start a new thread, or select a model with a larger context window.
+
 To manage model usage for non-chat scenarios, turn off **Enhance non-chat requests with premium models** in **GitHub** > **Copilot** > **Editor**.
 
 For more information, see [Change the chat model](https://docs.github.com/copilot/how-tos/use-ai-models/change-the-chat-model?tool=visualstudio), [Supported AI models](https://docs.github.com/copilot/reference/ai-models/supported-models), and [Auto model selection](https://docs.github.com/copilot/concepts/auto-model-selection).
 
+### Configure thinking effort
+
+Some supported models expose a **thinking effort** (also called reasoning effort) setting that controls how much reasoning the model performs before responding. Availability and the levels offered vary by model; some models don't provide this control at all.
+
+Thinking effort levels typically include **Low**, **Medium**, and **High**, and some models additionally offer **Extra High** or **Max**. Higher levels can increase the depth of a response and might be preferable for complex prompts, while lower levels use fewer credits and can provide quicker responses for simpler tasks.
+
+> [!NOTE]
+> Adjusting thinking effort changes credit consumption and response time independently of switching models. Higher thinking effort levels consume more AI usage credits.
+
+To configure thinking effort for a model:
+
+1. Open the **Copilot Chat** window.
+1. Select the **Model picker** dropdown.
+1. Select **Manage models** to open the model management view.
+1. Find the model you want to configure. The view shows each model's capabilities, context size, cost, and thinking effort options (if supported).
+1. Select the thinking effort level you want for that model.
+
 ## Tips to optimize usage
 
 - Use **Auto** in the model picker for most prompts, then switch models for complex tasks.
+- For complex prompts that benefit from deeper reasoning, consider increasing the [thinking effort](#configure-thinking-effort) level for a supported model. For simpler prompts, a lower thinking effort level reduces credit usage and yields quicker responses.
 - To reduce usage for non-chat scenarios, turn off **Enhance non-chat requests with premium models** in **GitHub** > **Copilot** > **Editor**. For more context, see [Understand model selection](#understand-model-selection).
 - If you use multiple GitHub accounts in Visual Studio, verify the active account is the account with your expected Copilot plan.
 - Use **Manage plan** from the usage window to verify your current plan tier and overage policy.
