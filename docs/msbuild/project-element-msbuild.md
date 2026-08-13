@@ -13,8 +13,8 @@ helpviewer_keywords:
 - ToolsVersion attribute [MSBuild]
 - <Project> element [MSBuild]
 - Project element [MSBuild]
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: msbuild
 ---

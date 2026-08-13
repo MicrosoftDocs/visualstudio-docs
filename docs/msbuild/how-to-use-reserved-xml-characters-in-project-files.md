@@ -6,8 +6,8 @@ ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, using reserved XML characters
 - MSBuild, reserved XML characters
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: msbuild
 ---

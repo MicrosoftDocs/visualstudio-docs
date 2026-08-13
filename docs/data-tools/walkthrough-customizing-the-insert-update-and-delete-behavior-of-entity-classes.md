@@ -6,8 +6,8 @@ ms.topic: how-to
 dev_langs:
 - VB
 - CSharp
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: data-tools
 ---

@@ -12,8 +12,8 @@ dev_langs:
 helpviewer_keywords:
 - RemoveDir task [MSBuild]
 - MSBuild, RemoveDir task
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: msbuild
 ---

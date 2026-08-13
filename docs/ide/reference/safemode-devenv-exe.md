@@ -7,8 +7,8 @@ helpviewer_keywords:
 - /SafeMode Devenv switch
 - Devenv, /SafeMode switch
 - SafeMode switch
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 ---

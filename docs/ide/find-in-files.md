@@ -15,8 +15,8 @@ helpviewer_keywords:
 - documents, searching
 - files, searching
 - Find in Files tab, Find and Replace window
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 ---

@@ -9,8 +9,8 @@ helpviewer_keywords:
 - Edit.ReplaceInFiles command
 - Replace In Files command
 - ReplaceInFiles command
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 ---

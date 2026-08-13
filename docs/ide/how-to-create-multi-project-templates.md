@@ -7,8 +7,8 @@ helpviewer_keywords:
 - Visual Studio templates, creating multi-project
 - project templates, multi-project
 - multi-project templates
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 ---

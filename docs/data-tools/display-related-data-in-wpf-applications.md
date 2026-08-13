@@ -11,8 +11,8 @@ helpviewer_keywords:
 - WPF [WPF], data
 - WPF Designer, data binding
 - data binding, WPF
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: data-tools
 ---

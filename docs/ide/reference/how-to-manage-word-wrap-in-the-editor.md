@@ -8,8 +8,8 @@ helpviewer_keywords:
 - editors, text viewing
 - Code Editor, word wrap
 ms.custom: "ide-ref"
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 #customer intent: As a developer, I want to turn word wrap on or off to improve usability of Visual Studio in writing code in different situations.

@@ -10,8 +10,8 @@ dev_langs:
 helpviewer_keywords:
 - <ParameterGroup> element [MSBuild]
 - ParameterGroup element [MSBuild]
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: msbuild
 ---

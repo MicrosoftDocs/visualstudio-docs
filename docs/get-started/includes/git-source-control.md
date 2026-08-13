@@ -1,8 +1,8 @@
 ---
 ms.date: 12/04/2024
 ms.subservice: general-ide
-ms.author: nitinme
-author: nitinme
+ms.author: rosemalcolm
+author: RoseHJM
 
 ms.topic: include
 ms.custom:

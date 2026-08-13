@@ -10,8 +10,8 @@ dev_langs:
 helpviewer_keywords:
 - FindAppConfigFile task [MSBuild]
 - MSBuild, FindAppConfigFile task
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: msbuild
 ---

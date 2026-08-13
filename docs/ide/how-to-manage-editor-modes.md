@@ -19,8 +19,8 @@ helpviewer_keywords:
 - views, line numbers
 - views, changing mode
 - views, outlining
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 ---

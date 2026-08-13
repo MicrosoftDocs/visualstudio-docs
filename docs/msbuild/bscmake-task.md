@@ -11,8 +11,8 @@ dev_langs:
 helpviewer_keywords:
 - MSBuild (C++), tasks
 - BscMake task (MSBuild (C++))
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: msbuild
 ---

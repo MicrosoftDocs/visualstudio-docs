@@ -8,8 +8,8 @@ helpviewer_keywords:
 - template parameters [Visual Studio]
 - project templates, parameters
 - item templates, parameters
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 ---

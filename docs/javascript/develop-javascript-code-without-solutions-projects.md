@@ -5,8 +5,8 @@ description: Write JavaScript code in Visual Studio without placing the code in 
 ms.date: 06/24/2026
 ms.topic: "how-to"
 ms.devlang: javascript
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: javascript-typescript
 dev_langs:

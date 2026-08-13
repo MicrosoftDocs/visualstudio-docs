@@ -12,8 +12,8 @@ dev_langs:
 helpviewer_keywords:
 - <PropertyGroup> element [MSBuild]
 - PropertyGroup element [MSBuild]
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: msbuild
 ---

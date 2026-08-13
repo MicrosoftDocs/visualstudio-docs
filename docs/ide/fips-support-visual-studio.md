@@ -4,8 +4,8 @@ titleSuffix: ''
 description: Learn about how Visual Studio supports the Federal Information Processing Standard Publication 140-2 approved mode of operation for Windows, Azure, and .NET.
 ms.date: 10/01/2021
 ms.topic: concept-article
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 ---

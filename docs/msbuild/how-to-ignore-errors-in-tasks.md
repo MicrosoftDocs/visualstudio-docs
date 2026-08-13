@@ -6,8 +6,8 @@ ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, ignoring errors
 - ContinueOnError attribute [MSBuild]
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: msbuild
 ---

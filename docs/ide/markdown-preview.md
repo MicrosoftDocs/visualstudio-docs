@@ -3,8 +3,8 @@ title: Markdown preview controls
 description: Learn how to switch between editor modes and use zoom controls when previewing Markdown files and Mermaid diagrams in Visual Studio.
 ms.date: 02/19/2026
 ms.topic: how-to
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 ai-usage: ai-assisted

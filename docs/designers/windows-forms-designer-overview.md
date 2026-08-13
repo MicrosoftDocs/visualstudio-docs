@@ -5,8 +5,8 @@ ms.date: 06/24/2025
 ms.topic: overview
 helpviewer_keywords:
 - Windows Forms Designer
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: ui-designers
 ms.custom: awp-ai

@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "msbuild, multi-proc aware loggers"
   - "multi-proc loggers"
   - "loggers, multi-proc"
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: msbuild
 ---

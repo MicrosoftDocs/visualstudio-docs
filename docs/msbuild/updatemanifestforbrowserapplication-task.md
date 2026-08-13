@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "adding the <hostInBrowser /> element to the application manifest [WPF MSBuild]"
   - "building XBAP projects [WPF MSBuild]"
   - "UpdateManifestForBrowserApplication task [WPF MSBuild], parameters"
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: msbuild
 ---

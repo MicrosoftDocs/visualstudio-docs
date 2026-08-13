@@ -10,8 +10,8 @@ dev_langs:
 helpviewer_keywords:
   - "MSBuild, ResolveNonMSBuildProjectOutput task"
   - "ResolveNonMSBuildProjectOutput task [MSBuild]"
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: msbuild
 ---

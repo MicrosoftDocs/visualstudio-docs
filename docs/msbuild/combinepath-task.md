@@ -10,8 +10,8 @@ dev_langs:
 helpviewer_keywords:
 - MSBuild, CombinePath task
 - CombinePath task [MSBuild]
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: msbuild
 ---

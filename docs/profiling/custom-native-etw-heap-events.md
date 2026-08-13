@@ -3,8 +3,8 @@ title: "Custom Native ETW Heap Events"
 description: Learn how to use a custom heap to reduce allocation overhead, but still provide allocation information to the memory profiler for allocation analysis.
 ms.date: "02/24/2017"
 ms.topic: how-to
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: debug-diagnostics
 dev_langs:

@@ -3,8 +3,8 @@ title: "Learn about the Spell Checker"
 description: Learn how to use the Spell Checker in Visual Studio to correct misspelled words in multiple languages and to customize it to share with your dev team.
 ms.date: 04/20/2026
 ms.topic: how-to
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 monikerRange: ">=vs-2022"

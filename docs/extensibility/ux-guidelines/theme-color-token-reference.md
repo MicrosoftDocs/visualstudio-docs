@@ -1,7 +1,7 @@
 ---
 title: Visual Studio Theme Color Tokens
 description: Reference for the theme color tokens used in Fluent UI in Visual Studio 2026.
-ms.date: 08/04/2026
+ms.date: 08/13/2026
 ms.topic: reference
 helpviewer_keywords:
 - content_types
@@ -22,13 +22,15 @@ This reference lists every available theme color token, its intended usage, and 
 
 ## Customize theme colors in Visual Studio
 
-Visual Studio 2026 (18.7) includes an in-product **Theme colors** page for customizing Fluent theme color tokens. Open **Tools > Options > Environment > Visual Experience > Theme colors** to view the tokens for the active theme in a searchable grid. Changes apply live, support per-token reset, and are saved per theme so they're retained when you switch themes.
+Visual Studio 2026 (18.7) includes an in-product **Theme colors** page for customizing Fluent theme color tokens. Use the **Edit theme colors** command, or open **Tools > Options > Environment > Visual Experience > Theme colors**. The page lists the tokens for the active theme in a searchable grid.
+
+Select a token and choose a color to apply the change immediately. You can reset an individual token without removing your other customizations. Overrides are saved separately for each theme and layered on top of the selected theme, so switching themes also switches to the overrides saved for that theme. Depending on the available tokens, you can customize editor colors, tool windows, shell chrome, tab headers, window headers, and interaction states such as hover colors.
 
 For broader end-user appearance settings, see [Change fonts, colors, and themes in Visual Studio](../../ide/how-to-change-fonts-and-colors-in-visual-studio.md).
 
 ### Sharing theme overrides
 
-To share token overrides, place a theme-named JSON file in `%LOCALAPPDATA%\Microsoft\VisualStudio\18.0_xxxxxxxx\ColorThemes`. The overrides apply to the matching theme after you restart Visual Studio.
+To share token overrides, place a JSON file in `%LOCALAPPDATA%\Microsoft\VisualStudio\18.0_xxxxxxxx\ColorThemes`. The file name must match the theme to override. For example, `dark.json` overrides the Dark theme. Restart Visual Studio to apply file-based overrides to the matching theme.
 
 ## How theme tokens work
 

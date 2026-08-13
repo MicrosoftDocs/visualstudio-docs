@@ -3,8 +3,8 @@ title: Add GitHub accounts to your keychain
 ms.date: 02/18/2026
 ms.topic: how-to
 description: Add your public GitHub or GitHub Enterprise account to your Visual Studio keychain so you can track code changes in GitHub repositories from Visual Studio.
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 monikerRange: ">=vs-2022"

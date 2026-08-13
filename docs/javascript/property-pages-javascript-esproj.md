@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "debug configurations, JavaScript"
   - "debug configurations, esproj"
 ms.custom: "ide-ref"
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: javascript-typescript
 monikerRange: '>= vs-2022'

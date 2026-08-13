@@ -12,8 +12,8 @@ helpviewer_keywords:
 - editors, global settings
 ms.custom: "awp, ide-ref"
 ai-usage: ai-assisted
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 monikerRange: '>=vs-2022'

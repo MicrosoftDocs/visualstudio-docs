@@ -10,8 +10,8 @@ dev_langs:
 helpviewer_keywords:
 - ResolveManifestFiles task [MSBuild]
 - MSBuild, ResolveManifestFiles task
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: msbuild
 ---

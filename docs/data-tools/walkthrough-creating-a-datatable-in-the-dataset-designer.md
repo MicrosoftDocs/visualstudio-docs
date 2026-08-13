@@ -8,8 +8,8 @@ helpviewer_keywords:
 - Dataset Designer, creating data tables
 - tables [Visual Studio], creating
 - data [Visual Studio], Dataset Designer
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: data-tools
 ---

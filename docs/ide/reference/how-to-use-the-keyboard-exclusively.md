@@ -11,8 +11,8 @@ helpviewer_keywords:
 - dialog boxes [Visual Studio], shortcut keys
 - accessibility [Visual Studio]
 ms.custom: "ide-ref"
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 ---

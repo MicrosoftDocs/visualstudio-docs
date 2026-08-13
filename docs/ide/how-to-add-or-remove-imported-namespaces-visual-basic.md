@@ -9,8 +9,8 @@ helpviewer_keywords:
 - namespaces [Visual Studio], imported
 - imported namespaces [Visual Studio]
 - references [Visual Studio], imported namespaces
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 ---

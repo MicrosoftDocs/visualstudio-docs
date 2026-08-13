@@ -8,8 +8,8 @@ helpviewer_keywords:
 - smart captions
 - captions, data-bound
 - Data Sources Window, label captions
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: data-tools
 ---

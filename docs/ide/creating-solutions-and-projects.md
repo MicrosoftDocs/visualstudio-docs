@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - solutions [Visual Studio], creating
 - projects [Visual Studio], creating
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 ms.custom: sfi-image-nochange
