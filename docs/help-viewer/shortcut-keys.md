@@ -6,8 +6,8 @@ ms.topic: reference
 helpviewer_keywords:
   - "shortcut keys [Help Viewer]"
   - "Help Viewer, shortcut keys"
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: help-viewer
 ---

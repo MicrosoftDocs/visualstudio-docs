@@ -9,8 +9,8 @@ helpviewer_keywords:
 - data [Visual Studio], Dataset Designer
 - Dataset Designer, walkthroughs
 - datasets [Visual Basic], creating
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: data-tools
 ---

@@ -7,8 +7,8 @@ ms.topic: how-to
 helpviewer_keywords:
 - projects [Visual Studio], targeting platforms
 - platforms, changing target platforms
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ---
 # Configure projects to target multiple platforms

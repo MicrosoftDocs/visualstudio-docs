@@ -11,8 +11,8 @@ helpviewer_keywords:
 - Project Devenv switch (/Project)
 - Devenv, /Project switch
 - projects [Visual Studio], cleaning
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 ---

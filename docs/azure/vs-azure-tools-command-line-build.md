@@ -1,12 +1,12 @@
 ---
 title: Command-line build for Azure
 description: Command-line build for Azure
-author: nitinme
+author: RoseHJM
 monikerRange: "<=vs-2022"
 ms.subservice: azure-development
 ms.topic: how-to
 ms.date: 03/05/2017
-ms.author: nitinme
+ms.author: rosemalcolm
 ---
 
 # Building Azure projects from the command line

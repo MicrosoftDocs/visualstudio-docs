@@ -7,8 +7,8 @@ f1_keywords:
   - "cvmarkersobj/Concurrency::diagnostic::span::span"
 helpviewer_keywords:
   - "Concurrency::diagnostic::span constructor"
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: debug-diagnostics
 ---

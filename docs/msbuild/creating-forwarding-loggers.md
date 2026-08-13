@@ -6,8 +6,8 @@ ms.topic: concept-article
 helpviewer_keywords:
   - "MSBuild, forwarding loggers"
   - "MSBuild, logging"
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: msbuild
 ---

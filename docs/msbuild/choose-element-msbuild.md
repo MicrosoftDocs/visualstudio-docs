@@ -13,8 +13,8 @@ dev_langs:
 helpviewer_keywords:
 - <Choose> Element [MSBuild]
 - Choose Element [MSBuild]
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: msbuild
 ---

@@ -7,8 +7,8 @@ helpviewer_keywords:
 - data [Visual Studio], connecting
 - connecting to data, Access databases
 - Access databases, connecting
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: data-tools
 ms.custom: sfi-image-nochange

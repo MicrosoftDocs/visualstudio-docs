@@ -7,8 +7,8 @@ helpviewer_keywords:
 - template parameters
 - template parameters, substituting
 - Visual Studio templates, using parameters
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 ---

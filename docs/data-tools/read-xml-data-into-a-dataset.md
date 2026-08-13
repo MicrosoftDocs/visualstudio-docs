@@ -15,8 +15,8 @@ helpviewer_keywords:
 - XML [Visual Studio], reading
 - XML documents, reading
 - datasets [Visual Basic], reading XML data
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: data-tools
 ---

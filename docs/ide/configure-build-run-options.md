@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "debugger, run options"
   - "parallel builds"
   - "build verbosity"
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ai-usage: ai-assisted
 ms.custom: awp-ai

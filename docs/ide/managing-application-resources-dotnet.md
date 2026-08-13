@@ -13,8 +13,8 @@ helpviewer_keywords:
 - resources [Visual Studio]
 - Resources page in Project Designer
 - application resources [Visual Studio]
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 ---

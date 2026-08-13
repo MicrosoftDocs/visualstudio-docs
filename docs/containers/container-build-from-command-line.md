@@ -1,8 +1,8 @@
 ---
 title: Build a containerized Visual Studio project from the command line
-author: nitinme
+author: RoseHJM
 description: Build a container project in Visual Studio using the command line, either with MSBuild.exe or using Docker build, and learn how to enable detailed build logs.
-ms.author: nitinme
+ms.author: rosemalcolm
 ms.date: 04/02/2026
 ms.subservice: container-tools
 ms.topic: how-to

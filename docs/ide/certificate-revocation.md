@@ -2,8 +2,8 @@
 title: Certificate revocation check 
 description: Learn how to enable certificate revocation check to keep Visual Studio secure.
 ms.date: 11/13/2025
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 ms.topic: how-to

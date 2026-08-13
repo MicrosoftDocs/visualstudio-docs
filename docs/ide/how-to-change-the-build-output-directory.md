@@ -6,8 +6,8 @@ ms.subservice: compile-build
 ms.topic: how-to
 helpviewer_keywords:
 - output directory, changing
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ---
 # Change the build output directory

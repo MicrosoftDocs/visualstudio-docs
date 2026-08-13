@@ -12,8 +12,8 @@ helpviewer_keywords:
 - wavy underlines
 - Text Editor Options dialog box, IntelliSense
 ms.custom: "ide-ref"
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 

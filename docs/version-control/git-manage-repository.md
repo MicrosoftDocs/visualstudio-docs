@@ -5,8 +5,8 @@ description: Manage any Git repository in Visual Studio by using the Git Reposit
 ms.date: 05/13/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 ms.collection: ce-skilling-ai-copilot

@@ -5,8 +5,8 @@ ms.date: 04/11/2025
 ms.topic: how-to
 helpviewer_keywords:
 - item templates [Visual Studio], creating
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 

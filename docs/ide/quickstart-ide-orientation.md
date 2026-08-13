@@ -6,8 +6,8 @@ titleSuffix: ''
 ms.date: 04/17/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 ms.collection: ce-skilling-ai-copilot

@@ -12,8 +12,8 @@ dev_langs:
 helpviewer_keywords:
 - Vbc task [MSBuild]
 - MSBuild, Vbc task
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: msbuild
 ---

@@ -7,8 +7,8 @@ helpviewer_keywords:
 - MSBuild, incremental builds
 - incremental builds
 - MSBuild, building incrementally
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: msbuild
 #customer intent: As a developer, I want to run incremental builds with MSBuild, so I can build only new targets or out-of-date targets.

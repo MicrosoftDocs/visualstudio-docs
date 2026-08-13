@@ -12,8 +12,8 @@ helpviewer_keywords:
 - LookupBindingPropertiesAttribute class, using
 - ComplexBindingPropertiesAttribute class, using
 - Data Sources Window, selecting controls
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: data-tools
 ---

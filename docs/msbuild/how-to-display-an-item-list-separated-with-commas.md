@@ -6,8 +6,8 @@ ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, separating items with semicolons
 - MSBuild, formatting item collections
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: msbuild
 ---

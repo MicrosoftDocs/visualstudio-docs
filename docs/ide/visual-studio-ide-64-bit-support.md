@@ -7,8 +7,8 @@ helpviewer_keywords:
 - 64-bit applications [C++]
 - Visual Studio, 64-bit support
 - 64-bit programming [C++]
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 ---

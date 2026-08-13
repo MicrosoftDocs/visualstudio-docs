@@ -6,8 +6,8 @@ ms.topic: whats-new
 helpviewer_keywords:
 - Change waves [MSBuild]
 - MSBuildDisableFeaturesFromVersion environment variable
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: msbuild
 ---

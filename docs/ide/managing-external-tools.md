@@ -7,8 +7,8 @@ f1_keywords:
 - vs.externaltools
 helpviewer_keywords:
 - external tools [Visual Studio]
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 ---

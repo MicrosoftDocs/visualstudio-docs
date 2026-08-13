@@ -13,8 +13,8 @@ f1_keywords:
 helpviewer_keywords:
 - task list
 - Visual Studio, task list
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 

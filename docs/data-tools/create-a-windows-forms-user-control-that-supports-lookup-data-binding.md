@@ -10,8 +10,8 @@ helpviewer_keywords:
 - data binding, user controls
 - LookupBindingPropertiesAttribute class, examples
 - user controls [Visual Basic], creating
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: data-tools
 ---

@@ -6,8 +6,8 @@ ms.topic: concept-article
 helpviewer_keywords:
 - code, editing [Visual Studio]
 - code editor [Visual Studio]
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 ---

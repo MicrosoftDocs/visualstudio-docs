@@ -12,8 +12,8 @@ helpviewer_keywords:
 - MSBuild, response files
 - MSBuild, .rsp files
 - .rsp files
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: msbuild
 ---

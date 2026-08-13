@@ -8,8 +8,8 @@ helpviewer_keywords:
 - Visual Studio templates, updating
 - project templates, updating
 - updating templates [Visual Studio]
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 

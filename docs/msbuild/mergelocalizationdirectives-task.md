@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "MergeLocalizationDirectives task [WPF MSBuild], parameters"
   - "MergeLocalizationDirectives task [WPF MSBuild]"
   - "moving localization comments and attributes to a separate file [WPF MSBuild]"
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: msbuild
 ---

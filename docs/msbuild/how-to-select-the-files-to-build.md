@@ -7,8 +7,8 @@ helpviewer_keywords:
 - MSBuild, wildcards
 - MSBuild, including files
 - Include attribute [MSBuild]
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: msbuild
 ---

@@ -4,8 +4,8 @@ titleSuffix: ""
 description: Explore sign in concepts for working with Visual Studio, and find out how to sign in and how to add and switch user accounts.
 ms.date: 12/01/2025
 ms.topic: how-to
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 ---

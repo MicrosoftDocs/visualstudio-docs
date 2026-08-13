@@ -1,8 +1,8 @@
 ---
 title: Manage certificates when deploying containerized apps
-author: nitinme
+author: RoseHJM
 description: Learn how to set up TLS (SSL) certificates for secure traffic over HTTPS in containerized applications when you deploy to Azure from Visual Studio.
-ms.author: nitinme
+ms.author: rosemalcolm
 ms.date: 9/10/2025
 ms.subservice: container-tools
 ms.topic: how-to

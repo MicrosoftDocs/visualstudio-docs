@@ -6,8 +6,8 @@ ms.topic: how-to
 helpviewer_keywords:
 - lookup tables
 - lookup tables, creating
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: data-tools
 ---
