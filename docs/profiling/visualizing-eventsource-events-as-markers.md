@@ -3,8 +3,8 @@ title: "Visualizing EventSource Events as Markers"
 description: Learn that Concurrency Visualizer can display EventSource events as markers, and you can control how the markers are displayed.
 ms.date: "11/04/2016"
 ms.topic: how-to
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: debug-diagnostics
 ---

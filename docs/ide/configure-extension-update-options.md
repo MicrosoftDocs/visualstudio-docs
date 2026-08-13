@@ -5,8 +5,8 @@ ms.date: 02/09/2026
 ms.topic: how-to
 f1_keywords:
 - VS.ToolsOptionsPages.Environment.ExtensionManager
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 ms.custom: awp-ai

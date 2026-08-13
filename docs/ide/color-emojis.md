@@ -3,8 +3,8 @@ title: Use color emojis in Visual Studio
 description: Learn where Visual Studio shows emojis in full color, including comments, Markdown, Copilot Chat, Output window text, and Solution Explorer items.
 ms.date: 06/08/2026
 ms.topic: how-to
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 ms.subservice: general-ide
 ---
 

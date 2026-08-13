@@ -1,8 +1,8 @@
 ---
-author: nitinme
+author: RoseHJM
 ms.topic: include
 ms.date: 04/21/2022
-ms.author: nitinme
+ms.author: rosemalcolm
 ---
 
   **Applies to:**   [!INCLUDE [Visual Studio](./_vs-windows.md)] [!INCLUDE [Visual Studio for Mac](./_vs-mac.md)]

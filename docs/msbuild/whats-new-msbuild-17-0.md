@@ -3,8 +3,8 @@ title: What's New in MSBuild 17
 description: Review the changed, updated, and new features of MSBuild 17, including support for .NET Framework 4.7.2 and .NET 6.0, and access links to release notes.
 ms.date: 12/3/2024
 ms.topic: whats-new
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: msbuild
 monikerRange: '>=vs-2022'

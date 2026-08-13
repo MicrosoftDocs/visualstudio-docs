@@ -4,8 +4,8 @@ description: Diagnose and resolve proxy server, firewall, and SSL certificate is
 ms.date: 02/03/2026
 ms.topic: troubleshooting
 monikerRange: '>=vs-2022'
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 ms.subservice: general-ide
 ai-usage: ai-assisted
 ---

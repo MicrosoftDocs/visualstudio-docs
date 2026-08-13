@@ -3,8 +3,8 @@ title: Map DataContext methods to sprocs and functions
 description: Learn to create DataContext methods that are mapped to stored procedures (sprocs) and functions using Object Relational Designer (O/R Designer).
 ms.date: 11/04/2016
 ms.topic: how-to
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: data-tools
 ---

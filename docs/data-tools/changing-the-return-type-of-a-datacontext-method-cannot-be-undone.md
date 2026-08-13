@@ -3,8 +3,8 @@ title: Can't undo change of return type
 description: Changing the return type of a DataContext method cannot be undone. View information about this Visual Studio Object Relational Designer (O/R Designer) message.
 ms.date: 11/04/2016
 ms.topic: error-reference
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: data-tools
 ---

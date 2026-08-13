@@ -6,8 +6,8 @@ ms.topic: concept-article
 helpviewer_keywords:
 - code editor, find all references
 - find all references
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 # customer intent: As a developer, I want to use the Find All References command to find code elements. 

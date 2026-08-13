@@ -12,8 +12,8 @@ dev_langs:
 helpviewer_keywords:
 - Exec task [MSBuild]
 - MSBuild, Exec task
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: msbuild
 ---

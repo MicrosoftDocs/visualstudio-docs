@@ -11,8 +11,8 @@ helpviewer_keywords:
 ms.custom: 
 - "ide-ref"
 - awp-ai
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 ---

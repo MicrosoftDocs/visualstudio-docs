@@ -3,8 +3,8 @@ title: Use Peek Definition to view and edit code
 description: Use the Peek Definition command to view and edit your code without having to switch context from the code you're currently writing.
 ms.date: 11/13/2025
 ms.topic: how-to
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 ---

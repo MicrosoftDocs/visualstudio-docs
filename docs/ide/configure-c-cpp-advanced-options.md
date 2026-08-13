@@ -6,7 +6,7 @@ ms.topic: how-to
 helpviewer_keywords:
   - "Languages Options, advanced"
 ms.custom: "ide-ref"
-author: GitHubber17
+author: TylerMSFT
 ms.author: twhitney
 ms.manager:  coxford
 monikerRange: 'visualstudio'

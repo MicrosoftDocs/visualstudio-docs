@@ -1,8 +1,8 @@
 ---
 title: Visual Studio Container Tools launch settings
-author: nitinme
+author: RoseHJM
 description: Learn about the launch settings for Container Tools that are related to how Visual Studio handles containerized apps.
-ms.author: nitinme
+ms.author: rosemalcolm
 ms.date: 8/25/2025
 ms.subservice: container-tools
 ms.topic: reference

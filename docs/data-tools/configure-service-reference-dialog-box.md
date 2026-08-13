@@ -9,8 +9,8 @@ helpviewer_keywords:
 - WCF services, Configure Service Reference dialog box
 - service references [Visual Studio], configuring behavior
 - Configure Service Reference dialog box
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: data-tools
 ---

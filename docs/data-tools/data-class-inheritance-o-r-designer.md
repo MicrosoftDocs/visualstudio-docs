@@ -3,8 +3,8 @@ title: Data class inheritance (O-R Designer)
 description: Work with data class inheritance in Object Relational Designer (O/R Designer), a LINQ to SQL class tool in Visual Studio.
 ms.date: 11/04/2016
 ms.topic: concept-article
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: data-tools
 ---
