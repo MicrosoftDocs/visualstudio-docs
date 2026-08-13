@@ -7,8 +7,8 @@ ms.topic: how-to
 helpviewer_keywords:
 - builds [Visual Studio], about building in Visual Studio
 - custom build steps, types of builds
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ai-usage: ai-assisted
 ms.custom: awp-ai

@@ -6,8 +6,8 @@ ms.date: 02/19/2026
 ms.subservice: general-ide
 ms.topic: tutorial
 ms.devlang: csharp
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 dev_langs:
   - csharp

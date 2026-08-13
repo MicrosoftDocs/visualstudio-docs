@@ -5,8 +5,8 @@ ms.date: 7/14/2025
 ms.topic: concept-article
 helpviewer_keywords:
 - MSBuild, tasks
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: msbuild
 ---

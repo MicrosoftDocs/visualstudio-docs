@@ -9,8 +9,8 @@ helpviewer_keywords:
 - parameters, displaying filtered data
 - data [Visual Studio], parameterizing queries
 - data [Visual Studio], searching
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: data-tools
 ---

@@ -4,8 +4,8 @@ titleSuffix: ""
 description: Explore Git options for source control in Visual Studio and track the code changes you make over time or revert to specific versions.
 ms.date: 11/25/2025
 ms.topic: overview
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 ms.custom: 

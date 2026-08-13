@@ -4,8 +4,8 @@ description: Exclude projects from a build in Visual Studio by building the solu
 ms.date: 4/1/2025
 ms.subservice: compile-build
 ms.topic: how-to
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ---
 # Exclude projects from a build

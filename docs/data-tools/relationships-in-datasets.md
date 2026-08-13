@@ -9,8 +9,8 @@ helpviewer_keywords:
 - relationships, about relationships
 - datasets [Visual Basic], relationships
 - relationships, datasets
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: data-tools
 ---

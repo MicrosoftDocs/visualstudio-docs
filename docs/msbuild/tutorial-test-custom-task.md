@@ -5,8 +5,8 @@ ms.date: 03/17/2022
 ms.topic: tutorial
 helpviewer_keywords:
 - MSBuild, test custom task
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: msbuild
 ---

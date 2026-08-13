@@ -6,8 +6,8 @@ ms.topic: concept-article
 helpviewer_keywords:
 - customizing templates [Visual Studio]
 - Visual Studio templates, customizing
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 

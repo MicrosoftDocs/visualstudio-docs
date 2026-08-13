@@ -4,8 +4,8 @@ description: Become more familiar with several options that you can configure wh
 ms.date: 02/25/2026
 ms.subservice: compile-build
 ms.topic: tutorial
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ---
 # Tutorial: Build an application

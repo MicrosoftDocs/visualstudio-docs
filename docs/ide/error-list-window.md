@@ -9,8 +9,8 @@ helpviewer_keywords:
 - Error List window
 - errors [Visual Studio], Error List window
 ms.custom: "ide-ref"
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 ai-usage: ai-assisted

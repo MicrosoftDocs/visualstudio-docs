@@ -8,8 +8,8 @@ helpviewer_keywords:
 - user permissions
 - administrative privileges
 - permissions
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 ---

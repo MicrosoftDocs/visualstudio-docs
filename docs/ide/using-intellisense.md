@@ -9,8 +9,8 @@ helpviewer_keywords:
 - Complete word
 - List members
 - IntelliSense [Visual Studio]
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 ms.custom: awp-ai
 ms.subservice: general-ide
 ---

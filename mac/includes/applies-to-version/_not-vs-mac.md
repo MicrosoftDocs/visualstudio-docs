@@ -1,8 +1,8 @@
 ---
-author: nitinme
+author: RoseHJM
 ms.topic: include
 ms.date: 04/21/2022
-ms.author: nitinme
+ms.author: rosemalcolm
 ---
 
 ![no](../../media/no-icon.png)Visual Studio for Mac

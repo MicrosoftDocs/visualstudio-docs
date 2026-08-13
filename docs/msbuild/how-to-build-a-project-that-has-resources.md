@@ -8,8 +8,8 @@ helpviewer_keywords:
 - resources [Visual Studio], compiling with MSBuild
 - projects [.NET Framework], building
 - MSBuild, building a project with resources
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: msbuild
 ---

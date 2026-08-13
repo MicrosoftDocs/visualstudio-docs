@@ -1,9 +1,9 @@
 ---
 title: include
 description: include
-author: nitinme
+author: RoseHJM
 ms.subservice: azure-development
-ms.author: nitinme
+ms.author: rosemalcolm
 ms.topic: include
 ms.date: 12/20/2023
 ---

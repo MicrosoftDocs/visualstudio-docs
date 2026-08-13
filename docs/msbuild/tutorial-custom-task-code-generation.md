@@ -6,8 +6,8 @@ ms.topic: tutorial
 helpviewer_keywords:
 - tasks
 - MSBuild, tasks
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: msbuild
 ---

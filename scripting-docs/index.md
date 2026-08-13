@@ -5,8 +5,8 @@ ms.topic: overview
 ms.date: "3/14/2025"
 ms.service: visual-studio-windows
 ms.subservice: javascript-typescript
-ms.author: nitinme
-author: nitinme
+ms.author: rosemalcolm
+author: RoseHJM
 
 ---
 # JavaScript in Visual Studio

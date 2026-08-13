@@ -7,8 +7,8 @@ helpviewer_keywords:
 - Devenv, /DoNotLoadProjects switch
 - /DoNotLoadProjects Devenv switch
 - DoNotLoadProjects Devenv switch
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 ---

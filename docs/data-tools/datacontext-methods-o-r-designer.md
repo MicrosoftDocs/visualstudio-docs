@@ -3,8 +3,8 @@ title: DataContext Methods (O-R Designer)
 description: Understand DataContext methods in the context of the LINQ to SQL tools for Visual Studio. These methods run stored procedures and functions in a database.
 ms.date: 11/04/2016
 ms.topic: concept-article
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: data-tools
 ---

@@ -18,8 +18,8 @@ helpviewer_keywords:
 - TableAdapter.Update method
 - saving data
 - TableAdapters
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: data-tools
 ---

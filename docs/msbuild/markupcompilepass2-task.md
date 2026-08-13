@@ -11,8 +11,8 @@ helpviewer_keywords:
 - performing second-pass markup [WPF MSBuild], MarkupCompilePass2 task
 - MarkupCompilePass2 task [WPF MSBuild]
 - MarkupCompilePass2 task [WPF MSBuild], parameters
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: msbuild
 ---

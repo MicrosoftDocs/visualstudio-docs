@@ -12,8 +12,8 @@ dev_langs:
 helpviewer_keywords:
 - Sdk element [MSBuild]
 - <Sdk> element [MSBuild]
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: msbuild
 ---

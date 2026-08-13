@@ -7,8 +7,8 @@ ms.topic: how-to
 helpviewer_keywords:
 - Visual Studio, color themes
 - color themes, Visual Studio
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 moniker range: '>=vs-2022'

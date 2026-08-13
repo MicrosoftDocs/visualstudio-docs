@@ -4,8 +4,8 @@ description: Explore how to use the dynamic Instrumentation tool for your .NET a
 ms.date: "9/2/2025"
 ms.topic: how-to
 ms.custom: "profiling-seo"
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2022'

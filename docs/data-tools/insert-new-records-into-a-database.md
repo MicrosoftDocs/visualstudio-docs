@@ -12,8 +12,8 @@ helpviewer_keywords:
 - databases, inserting new records into
 - records, inserting
 - saving data
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: data-tools
 

@@ -9,8 +9,8 @@ dev_langs:
 - C++
 helpviewer_keywords:
 - MSBuild, reserved properties
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: msbuild
 ---

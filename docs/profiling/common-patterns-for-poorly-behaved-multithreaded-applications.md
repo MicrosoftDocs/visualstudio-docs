@@ -7,8 +7,8 @@ f1_keywords:
   - "vs.cv.threads.tools.gallery"
 helpviewer_keywords:
   - "Concurrency Visualizer, common patterns for poorly-behaved multithreaded applications"
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: debug-diagnostics
 ---

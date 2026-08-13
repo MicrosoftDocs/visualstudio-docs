@@ -4,8 +4,8 @@ description: Learn how to copy any JSON or XML text from the clipboard and then 
 ms.date: 04/04/2023
 ms.topic: reference
 ms.custom: "ide-ref"
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 ---

@@ -16,8 +16,8 @@ helpviewer_keywords:
 - modified data saving
 - updated data saving
 - related tables, saving
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: data-tools
 ---
