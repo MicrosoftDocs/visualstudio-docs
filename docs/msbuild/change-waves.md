@@ -1,7 +1,7 @@
 ---
 title: Change waves
 description: Learn how to enable or disable features in MSBuild that are potentially disruptive.
-ms.date: 5/22/2026
+ms.date: 08/13/2026
 ms.topic: whats-new
 helpviewer_keywords:
 - Change waves [MSBuild]
@@ -19,7 +19,13 @@ When you upgrade to a new version of MSBuild, changes that are potentially break
 
 ## Opt out of change wave features
 
-To disable the features in a change wave, set the environment variable `MSBuildDisableFeaturesFromVersion` to the change wave (or MSBuild version) that contains the feature you want **disabled**. This is the version of MSBuild that the features were developed for. See the mapping of change waves to features below. After modifying a ChangeWave make sure to dispose stale persistent MSBuild processes with `dotnet build-server shutdown` or killing `MSBuild.exe`.
+To disable the features in a change wave, set the environment variable `MSBuildDisableFeaturesFromVersion` to the change wave (or MSBuild version) that contains the feature you want **disabled**. This is the version of MSBuild that the features were developed for. See the mapping of change waves to the following features.
+
+### Change waves and reused processes
+
+`MSBuildDisableFeaturesFromVersion` is read once per process, so a process that outlives a single build, such as a reused worker node or an MSBuild Server node, keeps the change wave it started with. To ensure that every process taking part in a build agrees on the change wave, the resolved change wave is part of the node handshake. A node that resolves a different change wave refuses the connection, and MSBuild starts a new node instead. Changing `MSBuildDisableFeaturesFromVersion` between builds therefore starts new nodes rather than reusing the existing ones. Values that resolve to the same change wave, such as an unset variable and a value in an invalid format, still allow node reuse.
+
+Task hosts don't use this handshake. A task host connection can involve two different MSBuild versions. For example, a .NET Framework parent process, such as Visual Studio, can communicate with a child process from the installed .NET SDK. The resolved change wave is version-relative because the environment variable is clamped and rounded to the wave list of the binary that reads it. Two versions can therefore resolve the same variable to different waves. Unlike a worker node, a task host can't be replaced with a compatible node when the resolved change wave differs, because the parent can only restart the same executable. In that case, the build would fail with MSB4216. A task host consequently keeps the change wave it started with across builds.
 
 ### MSBuildDisableFeaturesFromVersion Values
 
