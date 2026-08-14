@@ -1,7 +1,7 @@
 ---
 title: Change waves
 description: Learn how to enable or disable features in MSBuild that are potentially disruptive.
-ms.date: 5/22/2026
+ms.date: 08/13/2026
 ms.topic: whats-new
 helpviewer_keywords:
 - Change waves [MSBuild]
@@ -19,7 +19,9 @@ When you upgrade to a new version of MSBuild, changes that are potentially break
 
 ## Opt out of change wave features
 
-To disable the features in a change wave, set the environment variable `MSBuildDisableFeaturesFromVersion` to the change wave (or MSBuild version) that contains the feature you want **disabled**. This is the version of MSBuild that the features were developed for. See the mapping of change waves to features below.
+To disable the features in a change wave, set the environment variable `MSBuildDisableFeaturesFromVersion` to the change wave (or MSBuild version) that contains the feature you want **disabled**. This is the version of MSBuild that the features were developed for. See the mapping of change waves to the following features.
+
+Persistent MSBuild processes keep the value of `MSBuildDisableFeaturesFromVersion` that they started with. After you change the environment variable, shut down persistent build processes before you run another build. For builds run with the .NET CLI, use `dotnet build-server shutdown`. For builds run with Visual Studio or `MSBuild.exe`, close Visual Studio and end any remaining `MSBuild.exe` processes. Otherwise, reused processes might continue to use the previous value, and projects built in parallel might use different values.
 
 ### MSBuildDisableFeaturesFromVersion Values
 
