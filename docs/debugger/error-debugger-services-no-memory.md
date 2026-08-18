@@ -12,8 +12,8 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "debugger"
-author: RoseHJM
-ms.author: rosemalcolm
+author: TylerMSFT
+ms.author: twhitney
 
 ---
 # Debugger Services Running Out of Memory

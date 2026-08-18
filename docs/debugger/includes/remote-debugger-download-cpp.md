@@ -2,11 +2,11 @@
  title: Remote debugger download (C++)
  description: Download links for the remote debugger for C++
  services: ""
- author: RoseHJM
+ author: TylerMSFT
  ms.service: ""
  ms.topic: include
  ms.date: 12/5/2025
- ms.author: rosemalcolm
+ ms.author: twhitney
  ms.custom: include file
 ---
 

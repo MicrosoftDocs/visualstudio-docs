@@ -17,8 +17,8 @@ helpviewer_keywords:
   - Modules window
   - debugging [Visual Studio], DLL crashes
   - DLLs, load order of
-author: RoseHJM
-ms.author: rosemalcolm
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

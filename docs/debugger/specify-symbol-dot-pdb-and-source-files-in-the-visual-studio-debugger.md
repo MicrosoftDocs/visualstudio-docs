@@ -24,8 +24,8 @@ helpviewer_keywords:
   - "dbg files"
   - "pdb files"
   - "debugger"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

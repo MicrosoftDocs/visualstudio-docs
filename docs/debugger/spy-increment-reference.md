@@ -6,8 +6,8 @@ ms.topic: "ui-reference"
 helpviewer_keywords:
   - "reference, Spy++"
   - "Spy++ reference"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

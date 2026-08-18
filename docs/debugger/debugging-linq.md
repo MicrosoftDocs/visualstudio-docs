@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "LINQ, debugging"
   - "LINQ, stepping"
   - "LINQ, edit and continue"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

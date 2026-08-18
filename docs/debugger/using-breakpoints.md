@@ -18,8 +18,8 @@ f1_keywords:
   - vs.debug.whenbreakpointishit
 helpviewer_keywords: 
   - breakpoints, types of
-author: RoseHJM
-ms.author: rosemalcolm
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 zone_pivot_groups: programming-languages-set-one

@@ -5,8 +5,8 @@ ms.topic: concept-article
 ms.date: 03/23/2026
 helpviewer_keywords:
   - "debugger"
-author: RoseHJM
-ms.author: rosemalcolm
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

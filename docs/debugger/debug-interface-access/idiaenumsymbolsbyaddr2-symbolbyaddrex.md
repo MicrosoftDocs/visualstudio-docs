@@ -8,7 +8,7 @@ dev_langs:
 helpviewer_keywords:
   - "IDiaEnumSymbolsByAddr2::symbolByAddrEx method"
 author: "grantri"
-ms.author: "grantri"
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

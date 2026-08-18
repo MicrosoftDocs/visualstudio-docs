@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "user-defined types, base classes"
   - "BaseClass symbol"
   - "base classes, user-defined types"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

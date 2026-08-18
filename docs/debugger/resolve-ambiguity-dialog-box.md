@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "Resolve Ambiguity dialog box"
   - "debugger, Resolve Ambiguity dialog box"
   - "debugging [C++], resolving ambiguity"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

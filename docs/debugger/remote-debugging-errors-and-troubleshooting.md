@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "troubleshooting remote debugging"
   - "errors [debugger], remote debugging"
   - "remote debugging, errors"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

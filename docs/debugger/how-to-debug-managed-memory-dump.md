@@ -11,8 +11,8 @@ helpviewer_keywords:
   - dump debugging
   - debugging managed memory dump
   - debugging [Visual Studio]
-author: poppastring
-ms.author: madownie
+author: TylerMSFT
+ms.author: twhitney
 ms.manager:  andster
 monikerRange: '>= vs-2022'
 ---

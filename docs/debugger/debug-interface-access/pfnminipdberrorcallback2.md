@@ -8,7 +8,7 @@ dev_langs:
 helpviewer_keywords:
   - "PFNMINIPDBERRORCALLBACK2 typedef"
 author: "grantri"
-ms.author: "grantri"
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

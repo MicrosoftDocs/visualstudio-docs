@@ -14,8 +14,8 @@ helpviewer_keywords:
   - tools, aspnet_wp.exe
   - ASP.NET, tools
   - aspnet_wp.exe
-author: RoseHJM
-ms.author: rosemalcolm
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

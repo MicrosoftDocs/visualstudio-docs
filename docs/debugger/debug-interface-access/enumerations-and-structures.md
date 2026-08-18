@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "DIA SDK, enumerations"
   - "structures [DIA SDK]"
   - "DIA SDK, structures"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

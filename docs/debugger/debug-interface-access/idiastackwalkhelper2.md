@@ -8,7 +8,7 @@ dev_langs:
 helpviewer_keywords:
   - "IDiaStackWalkHelper2 interface"
 author: "grantri"
-ms.author: "grantri"
+ms.author: twhitney
 ms.manager:  twhitney
 ms.subservice: debug-diagnostics
 ---

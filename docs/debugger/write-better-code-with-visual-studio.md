@@ -5,8 +5,8 @@ ms.date: 06/03/2026
 ms.topic: how-to
 helpviewer_keywords:
   - "debugger"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

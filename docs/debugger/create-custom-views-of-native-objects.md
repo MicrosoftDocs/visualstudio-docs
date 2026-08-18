@@ -7,8 +7,8 @@ f1_keywords:
   - natvis
 dev_langs:
   - C++
-author: RoseHJM
-ms.author: rosemalcolm
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

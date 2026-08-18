@@ -16,8 +16,8 @@ helpviewer_keywords:
   - breakpoints, Disassembly window
   - Disassembly window
   - machine code
-author: RoseHJM
-ms.author: rosemalcolm
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

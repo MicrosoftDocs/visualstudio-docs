@@ -25,8 +25,8 @@ helpviewer_keywords:
   - Call Stack window, viewing source code for functions on the call stack
   - stack, switching stack frames
   - Call Stack window, viewing disassembly code for functions on the call stack
-author: RoseHJM
-ms.author: rosemalcolm
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

@@ -9,8 +9,8 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaStackWalkHelper3::get_registerValue method"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---
