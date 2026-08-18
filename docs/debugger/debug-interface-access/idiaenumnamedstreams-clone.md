@@ -7,7 +7,7 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaEnumNamedStreams::Clone method"
-author: "grantri"
+author: vzarytovskii
 ms.author: twhitney
 
 ms.subservice: debug-diagnostics
