@@ -105,8 +105,8 @@ helpviewer_keywords:
   - "-Z7 compiler option [C++]"
   - "pdb files, debug build project settings"
   - "/MAP linker option"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

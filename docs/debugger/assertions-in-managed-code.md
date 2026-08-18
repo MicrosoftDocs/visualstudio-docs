@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "assertions, side effects"
   - "Trace.Listeners property"
   - "assertions, managed code"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

@@ -13,8 +13,8 @@ helpviewer_keywords:
   - debugging DLLs
   - DLLs, debugging projects
   - debugging [Visual Studio], DLLs
-author: RoseHJM
-ms.author: rosemalcolm
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 #customer intent: As a developer, I want to debug a DLL project from the project itself in Visual Studio, so I can trigger debug actions from the calling application.

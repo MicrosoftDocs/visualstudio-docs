@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "IDiaSymbol13::get_atomicType"
 dev_langs:
   - "C++"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

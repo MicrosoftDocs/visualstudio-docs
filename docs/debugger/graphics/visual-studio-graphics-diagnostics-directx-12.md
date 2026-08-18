@@ -4,7 +4,7 @@ description: "DirectX 11 and 12 users are recommended to use PIX on Windows for 
 ms.date: "09/29/2020"
 ms.topic: concept-article
 author: "davidcongruili"
-ms.author: "davidli1"
+ms.author: twhitney
 ms.manager:  mluparu
 ---
 # DirectX Support in Visual Studio

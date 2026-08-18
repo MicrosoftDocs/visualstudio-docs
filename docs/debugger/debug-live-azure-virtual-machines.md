@@ -5,8 +5,8 @@ ms.date: 02/06/2019
 ms.topic: how-to
 helpviewer_keywords: 
   - debugger
-author: poppastring
-ms.author: madownie
+author: TylerMSFT
+ms.author: twhitney
 ms.manager:  andster
 monikerRange: '>= vs-2022'
 ---

@@ -9,7 +9,7 @@ helpviewer_keywords:
   - "constants, HRESULT, DIA SDK"
   - "DIA SDK, HRESULT, constants"
 author: "grantri"
-ms.author: "grantri"
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

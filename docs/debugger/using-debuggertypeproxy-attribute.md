@@ -12,8 +12,8 @@ helpviewer_keywords:
   - attributes [C#], debugger
   - DebuggerTypeProxyAttribute class
   - DebuggerTypeProxy attribute
-author: RoseHJM
-ms.author: rosemalcolm
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

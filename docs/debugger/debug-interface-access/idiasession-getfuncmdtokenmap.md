@@ -8,7 +8,7 @@ dev_langs:
 helpviewer_keywords:
   - "IDiaSession::getFuncMDTokenMap method"
 author: "grantri"
-ms.author: "grantri"
+ms.author: twhitney
 ms.manager:  twhitney
 ms.subservice: debug-diagnostics
 ---

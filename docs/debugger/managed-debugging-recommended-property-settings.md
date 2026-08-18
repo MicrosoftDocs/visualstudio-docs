@@ -11,8 +11,8 @@ dev_langs:
 helpviewer_keywords:
   - "debugging [Visual Studio], managed"
   - "debugging managed code, recommended property settings"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

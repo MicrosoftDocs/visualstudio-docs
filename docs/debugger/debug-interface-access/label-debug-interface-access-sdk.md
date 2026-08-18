@@ -8,8 +8,8 @@ dev_langs:
 helpviewer_keywords:
   - "locations, in program code"
   - "Label symbol"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

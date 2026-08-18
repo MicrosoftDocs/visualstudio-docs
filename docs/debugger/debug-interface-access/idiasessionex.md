@@ -8,7 +8,7 @@ dev_langs:
 helpviewer_keywords:
   - "IDiaSessionEx interface"
 author: "grantri"
-ms.author: "grantri"
+ms.author: twhitney
 ms.manager:  twhitney
 ms.subservice: debug-diagnostics
 ---

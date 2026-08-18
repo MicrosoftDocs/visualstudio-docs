@@ -10,8 +10,8 @@ dev_langs:
 helpviewer_keywords:
   - "Edit and Continue [C#], supported code changes"
   - "Edit and Continue [Visual Basic], supported code changes"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

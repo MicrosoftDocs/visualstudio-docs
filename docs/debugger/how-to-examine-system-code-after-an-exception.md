@@ -11,8 +11,8 @@ dev_langs:
 helpviewer_keywords: 
   - debugging, exceptions
   - exceptions, debugging
-author: RoseHJM
-ms.author: rosemalcolm
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---
