@@ -1,12 +1,11 @@
 ---
 title: 'Customize chat responses'
 description: Use custom instructions and prompt files to customize responses and use slash commands to set quick context for common tasks.
-ms.date: 02/23/2026
+ms.date: 08/18/2026
 ms.update-cycle: 180-days
 ms.topic: how-to 
 author: RoseHJM
 ms.author: rosemalcolm
-
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot 
 helpviewer_keywords: 
@@ -106,6 +105,19 @@ Custom instructions aren't visible in the Chat view or inline chat. However, whe
 [Copilot memories](copilot-context-overview.md#copilot-memories) can automatically detect your preferences during chat and add them to your instruction files, so you don't have to write them manually.
 
 :::moniker range="visualstudio"
+
+### Use organization-level custom instructions
+
+> [!NOTE]
+> Organization-level custom instructions apply only to repositories that belong to a GitHub organization.
+
+GitHub organization owners can add custom instructions that tailor Copilot responses to the organization's needs and preferences. These instructions can help teams establish shared guidance for using Copilot. Custom instructions express preferences; they don't enforce organizational policies.
+
+For setup instructions, see [Add organization custom instructions](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/copilot-on-github/customize-copilot/add-custom-instructions/add-organization-instructions#adding-organization-custom-instructions).
+
+When you work in a repository that belongs to your organization, Copilot automatically applies the organization's custom instructions. Applied instructions appear in the **References** list during Copilot interactions. Select the reference to open the complete instructions.
+
+To prevent Copilot from applying organization-level instructions, select **Tools** > **Options** > **GitHub** > **Copilot** > **Copilot Chat**, and then clear **Enable organization-level custom instructions**. You can disable organization-level instructions if they conflict with your user-level preferences.
 
 ### Use user-level preferences
 
