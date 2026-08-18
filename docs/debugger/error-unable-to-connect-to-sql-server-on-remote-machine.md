@@ -11,8 +11,8 @@ dev_langs:
   - "FSharp"
   - "C++"
   - "SQL"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

@@ -8,7 +8,7 @@ dev_langs:
 helpviewer_keywords:
   - "IDiaSymbol4::get_noexcept method"
 author: "grantri"
-ms.author: "grantri"
+ms.author: twhitney
 ms.manager:  twhitney
 ms.subservice: debug-diagnostics
 ---

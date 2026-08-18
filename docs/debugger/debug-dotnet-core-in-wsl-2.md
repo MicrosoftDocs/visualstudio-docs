@@ -6,8 +6,8 @@ ms.topic: how-to
 helpviewer_keywords:
   - "debugging, linux"
   - "debugging, wsl2"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2022'

@@ -7,8 +7,8 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSectionContrib::get_code16bit method"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

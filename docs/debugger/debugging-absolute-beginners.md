@@ -5,8 +5,8 @@ ms.date: 12/18/2025
 ms.topic: tutorial
 helpviewer_keywords:
   - "debugger"
-author: RoseHJM
-ms.author: rosemalcolm
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

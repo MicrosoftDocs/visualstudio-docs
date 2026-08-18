@@ -14,8 +14,8 @@ helpviewer_keywords:
   - debugging [Visual Studio], executables
   - executable files, importing
   - executable files, debugging outside of projects
-author: RoseHJM
-ms.author: rosemalcolm
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

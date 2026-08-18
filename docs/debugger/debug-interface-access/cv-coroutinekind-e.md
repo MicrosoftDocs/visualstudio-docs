@@ -8,7 +8,7 @@ dev_langs:
 helpviewer_keywords:
   - "CV_CoroutineKind_e enumeration"
 author: "grantri"
-ms.author: "grantri"
+ms.author: twhitney
 ms.manager:  twhitney
 ms.subservice: debug-diagnostics
 ---

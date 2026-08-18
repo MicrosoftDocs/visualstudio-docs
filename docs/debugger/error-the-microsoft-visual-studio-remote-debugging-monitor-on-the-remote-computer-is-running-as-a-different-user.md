@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "Remote Debugging Monitor"
   - "remote debugging, Remote Debugging Monitor"
   - "msvsmon.exe"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

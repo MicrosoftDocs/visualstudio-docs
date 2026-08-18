@@ -12,8 +12,8 @@ dev_langs:
 helpviewer_keywords:
   - debugging [Visual Studio], data tips
   - data tips tool
-author: RoseHJM
-ms.author: rosemalcolm
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 

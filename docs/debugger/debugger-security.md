@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "debugging [Visual Studio], security"
   - "debugger, security"
   - "security [Visual Studio], debugging best practices"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

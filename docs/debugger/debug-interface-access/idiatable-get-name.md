@@ -7,8 +7,8 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaTable::get_name method"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

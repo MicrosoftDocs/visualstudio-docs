@@ -5,8 +5,8 @@ ms.date: 02/05/2024
 ms.topic: ui-reference
 helpviewer_keywords:
   - "Spy++ toolbar"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

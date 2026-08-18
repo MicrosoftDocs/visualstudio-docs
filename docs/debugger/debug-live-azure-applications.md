@@ -6,8 +6,8 @@ ms.date: 03/16/2018
 ms.topic: how-to
 helpviewer_keywords: 
   - debugger
-author: RoseHJM
-ms.author: rosemalcolm
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ms.custom: sfi-image-nochange

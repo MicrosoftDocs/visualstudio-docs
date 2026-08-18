@@ -5,8 +5,8 @@ ms.date: "11/04/2016"
 ms.topic: "reference"
 dev_langs:
   - "C++"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

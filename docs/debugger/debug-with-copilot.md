@@ -13,8 +13,8 @@ dev_langs:
 helpviewer_keywords: 
   - debugger, Copilot
   - Copilot, debugging
-author: RoseHJM
-ms.author: rosemalcolm
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
