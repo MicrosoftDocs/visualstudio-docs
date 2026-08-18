@@ -12,8 +12,8 @@ dev_langs:
 helpviewer_keywords:
   - debugger, visualizers
   - visualizers, installing
-author: RoseHJM
-ms.author: rosemalcolm
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

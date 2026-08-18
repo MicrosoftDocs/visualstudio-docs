@@ -10,8 +10,8 @@ dev_langs:
   - VB
   - FSharp
   - C++
-author: RoseHJM
-ms.author: rosemalcolm
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

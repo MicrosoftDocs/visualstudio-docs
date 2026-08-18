@@ -8,8 +8,8 @@ dev_langs:
 helpviewer_keywords:
   - "thunk properties [DIA SDK]"
   - "thunk symbol"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

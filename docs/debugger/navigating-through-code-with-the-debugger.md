@@ -9,8 +9,8 @@ helpviewer_keywords:
   - stepping
   - debugging [Visual Studio], execution control
   - execution, controlling in debugger
-author: RoseHJM
-ms.author: rosemalcolm
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

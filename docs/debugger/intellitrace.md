@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "debugging, (See also IntelliTrace [Visual Studio ALM])"
   - "IntelliTrace"
   - "IntelliTrace, debugging after a crash"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

@@ -5,8 +5,8 @@ ms.date: 09/03/2025
 ms.topic: "how-to"
 helpviewer_keywords:
   - "tracepoints, about tracepoints"
-author: RoseHJM
-ms.author: rosemalcolm
+author: TylerMSFT
+ms.author: twhitney
 ms.manager:  AndSter
 ms.subservice: debug-diagnostics
 ---
