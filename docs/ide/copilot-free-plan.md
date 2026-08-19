@@ -81,7 +81,7 @@ You can also check the current status of your Copilot Free account on the [GitHu
 
 When you reach usage limits for Copilot Free, wait for the monthly reset or upgrade to another Copilot plan to continue using Copilot.
 
-For plan-to-plan usage behavior and model guidance, see [Manage Copilot usage and models](copilot-usage-and-models.md#usage-limit-reached).
+For plan-to-plan usage behavior and model guidance, see [Manage Copilot usage and models](copilot-usage-and-models.md#when-included-usage-is-exhausted).
 
 [!INCLUDE [copilot-trials-paused-notice](../includes/copilot-trials-paused-notice.md)]
 
