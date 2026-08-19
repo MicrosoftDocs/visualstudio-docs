@@ -7,7 +7,7 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "CV_SourceChksum_t enumeration"
-author: "grantri"
+author: vzarytovskii
 ms.author: twhitney
 ms.manager:  twhitney
 ms.subservice: debug-diagnostics

@@ -7,7 +7,7 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaEnumInputAssemblyFiles::get_Count method"
-author: "grantri"
+author: vzarytovskii
 ms.author: twhitney
 
 ms.subservice: debug-diagnostics
