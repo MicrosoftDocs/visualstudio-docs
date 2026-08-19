@@ -1,11 +1,10 @@
 ---
 title: Use custom agents in GitHub Copilot
 description: Learn about built-in agents for debugging, profiling, testing, and code modernization, and how to create custom agents for your team workflows.
-ms.date: 05/11/2026
+ms.date: 08/19/2026
 ms.topic: how-to
 author: RoseHJM
 ms.author: rosemalcolm
-
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
 ms.custom: awp, doc-kit-assisted
@@ -28,7 +27,7 @@ Visual Studio includes a set of curated built-in agents that integrate deeply wi
 :::moniker range="visualstudio"
 You can access custom agents in two ways:
 
-+ **Agent picker**: In the Copilot Chat window, select the agent picker dropdown to see available agents. Currently, this option is available only in the Visual Studio 2026 Insiders build.
++ **Agent picker**: In the Copilot Chat window, select the agent picker dropdown to see available agents.
 + **@ syntax**: Type `@` followed by the agent name in the chat input (for example, `@debugger`).
 
 ::: moniker-end
@@ -172,13 +171,34 @@ your-repo/
 
 :::moniker range="visualstudio"
 
-You can also define user-level agents that apply across all your projects. User-level agents are stored in `%USERPROFILE%\.github\agents` by default. You can change this location in **Tools** > **Options** > **GitHub** > **Copilot**.
+You can also define user-level agents that apply across all your projects. Store user-level agents in `%USERPROFILE%\.github\agents` by default. You can change this location in **Tools** > **Options** > **GitHub** > **Copilot**.
+
+:::moniker-end
+
+### Use organization-level custom agents
+
+:::moniker range="visualstudio"
+
+> [!NOTE]
+> Organization-level custom agents require a repository that belongs to a GitHub organization.
+
+GitHub organization and enterprise owners can publish custom agents for members to use across repositories in an organization. When you open a repository in the organization, Visual Studio automatically detects these agents and adds them to the agent picker.
+
+To inspect an organization-level custom agent before you use it:
+
+1. Open Copilot Chat and select the agent picker.
+1. Hover over the agent to view its description and source organization.
+1. Select the definition button to open the agent definition file.
+
+:::image type="content" source="media/visualstudio/org-level-agent.png" alt-text="Screenshot showing organization-level custom agents in the agent picker with descriptions, organization sources, and buttons to open agent definitions." lightbox="media/visualstudio/org-level-agent.png":::
+
+Organization and enterprise owners configure these agents in GitHub. For setup guidance, see [Prepare to use custom agents in your organization](https://docs.github.com/copilot/how-tos/administer-copilot/manage-for-organization/prepare-for-custom-agents) or [Prepare to use custom agents in your enterprise](https://docs.github.com/copilot/how-tos/administer-copilot/manage-for-enterprise/manage-agents/prepare-for-custom-agents#enabling-and-protecting-custom-agents-in-your-enterprise).
 
 :::moniker-end
 
 ### Agent file format
 
-Each agent file uses a simple template with YAML frontmatter followed by Markdown instructions:
+Each agent file uses a simple template with YAML front matter followed by Markdown instructions:
 
 ```markdown
 ---
@@ -197,7 +217,7 @@ You are a code reviewer for our team. When reviewing changes, check for:
 Flag violations clearly and suggest fixes inline.
 ```
 
-#### Frontmatter properties
+#### Front matter properties
 
 | Property | Required | Description |
 | -------- | -------- | ----------- |
@@ -222,7 +242,7 @@ Tools extend what your custom agent can do. You can specify which tools the agen
 
 ### Language-specific tools for C++
 
-C++ code editing tools are generally available in agent mode. If the C++ workload is installed, your custom agent can use these Visual Studio-specific tool names in its `tools` array:
+Agent mode generally includes C++ code editing tools. If you install the C++ workload, your custom agent can use these Visual Studio-specific tool names in its `tools` array:
 
 - `get_symbol_call_hierarchy` for call hierarchy navigation
 - `get_symbol_class_hierarchy` for class and type hierarchy navigation

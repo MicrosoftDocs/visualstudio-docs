@@ -1,7 +1,7 @@
 ---
 title: Manage chat context in GitHub Copilot Chat
 description: Use references, chat history, and context window tools to ask better questions and get better answers in GitHub Copilot Chat.
-ms.date: 05/20/2026
+ms.date: 08/19/2026
 ms.topic: how-to 
 author: RoseHJM
 ms.author: rosemalcolm
@@ -263,10 +263,10 @@ With [Visual Studio 2022 version 17.11](/visualstudio/releases/2022/release-note
 
 When you chat with Copilot, it uses a context window that includes your conversation history, attached files, and other contextual inputs. As the context window fills, Copilot can lose older details from earlier in the thread.
 
-Use the context window indicator to track usage in real time:
+Use the context window indicator to track usage for the current thread in real time. Depending on your Visual Studio version and where you use Copilot Chat, the indicator can appear as a donut chart in the chat input area or as an indicator in the editor.
 
-1. Open the Copilot Chat window.
-1. In the upper-right corner of the chat prompt box, locate the ring indicator.
+1. Open or continue the Copilot Chat thread you want to monitor.
+1. Locate the context window indicator in the chat input area or editor.
 1. Select the indicator to view the exact percentage of context used.
 1. Review the breakdown of what contributes to context usage (for example, conversation messages and workspace files).
 
