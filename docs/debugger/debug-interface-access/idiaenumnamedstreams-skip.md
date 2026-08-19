@@ -7,7 +7,7 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaEnumNamedStreams::Skip method"
-author: "grantri"
+author: vzarytovskii
 ms.author: twhitney
 
 ms.subservice: debug-diagnostics
