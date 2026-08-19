@@ -7,7 +7,7 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSesIDiaStackWalkHelpersion::getFunctionFragmentsForVA method"
-author: "grantri"
+author: vzarytovskii
 ms.author: twhitney
 ms.manager:  twhitney
 ms.subservice: debug-diagnostics

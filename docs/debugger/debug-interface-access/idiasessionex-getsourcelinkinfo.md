@@ -7,7 +7,7 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSessionEx::getSourceLinkInfo method"
-author: "grantri"
+author: vzarytovskii
 ms.author: twhitney
 ms.manager:  twhitney
 ms.subservice: debug-diagnostics
