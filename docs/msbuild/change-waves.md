@@ -19,7 +19,7 @@ When you upgrade to a new version of MSBuild, changes that are potentially break
 
 ## Opt out of change wave features
 
-To disable the features in a change wave, set the environment variable `MSBuildDisableFeaturesFromVersion` to the change wave (or MSBuild version) that contains the feature you want **disabled**. This is the version of MSBuild that the features were developed for. See the mapping of change waves to features below. After modifying a change wave, make sure to dispose stale persistent MSBuild processes with `dotnet build-server shutdown` or by killing `MSBuild.exe`.
+To disable the features in a change wave, set the environment variable `MSBuildDisableFeaturesFromVersion` to the change wave (or MSBuild version) that contains the feature you want **disabled**. This version of MSBuild is the version that the features were developed for. See the mapping of change waves to features in the following section. After modifying a change wave, make sure to dispose stale persistent MSBuild processes with `dotnet build-server shutdown` or by killing `MSBuild.exe`.
 
 ### MSBuildDisableFeaturesFromVersion Values
 
@@ -39,7 +39,7 @@ You will receive a warning and/or default to a specific wave if you don't set `M
 
 #### 18.10
 - [Resolve relative project paths against the Unix logical current directory from `PWD`, so builds under symlinked directories produce stable project full paths and related output paths.](https://github.com/dotnet/msbuild/pull/13752)
-- [Restore passes ExcludeRestorePackageImports=true as a global property so NuGet's restore no longer triggers a second evaluation of every project.](https://github.com/dotnet/msbuild/issues/14273)
+- [Restore passes `ExcludeRestorePackageImports=true` as a global property so NuGet's restore no longer triggers a second evaluation of every project.](https://github.com/dotnet/msbuild/issues/14273)
 - [`-getProperty`/`-getItem` (without a target) stop evaluation after the pass that produces the requested data instead of running a full evaluation, avoiding later passes such as target registration.](https://github.com/dotnet/msbuild/pull/14290)
 
 #### 18.9
@@ -48,7 +48,7 @@ You will receive a warning and/or default to a specific wave if you don't set `M
 
 #### 18.8
 - [RAR task: across multiple input properties, resolve relative paths against the project directory (not the process current directory)](https://github.com/dotnet/msbuild/pull/13319)
-- [Console, parallel console, and terminal loggers print the paths of log files written by registered loggers (e.g. file logger and binary logger) as part of the end-of-build summary.](https://github.com/dotnet/msbuild/pull/13577)
+- [Console, parallel console, and terminal loggers print the paths of log files written by registered loggers (for example, file logger and binary logger) as part of the end-of-build summary.](https://github.com/dotnet/msbuild/pull/13577)
 
 #### 18.7
 - [Copy task retries on ERROR_ACCESS_DENIED on non-Windows platforms to handle transient lock conflicts (e.g. macOS CoW filesystems)](https://github.com/dotnet/msbuild/issues/13463)
