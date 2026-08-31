@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "IntelliTrace, log files"
   - "IntelliTrace log files"
   - ".iTrace files"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ms.custom: sfi-image-nochange

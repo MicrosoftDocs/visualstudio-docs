@@ -4,8 +4,8 @@ titleSuffix: ""
 description: Explore how Visual Studio uses .gitconfig files and Git settings to manage your project and solution preferences, such as your preferred diff and merge tools.
 ms.date: 01/16/2026
 ms.topic: how-to
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 monikerRange: ">=vs-2022"

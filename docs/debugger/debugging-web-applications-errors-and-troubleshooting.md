@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "debugger, errors"
   - "debugging Web applications, troubleshooting"
   - "troubleshooting Web applications"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

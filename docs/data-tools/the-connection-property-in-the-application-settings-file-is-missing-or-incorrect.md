@@ -3,8 +3,8 @@ title: Connection property missing
 description: The connection property in the Application Settings file is missing or incorrect. View information about this Visual Studio O/R Designer message.
 ms.date: 11/04/2016
 ms.topic: error-reference
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: data-tools
 ---

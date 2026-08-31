@@ -7,8 +7,8 @@ f1_keywords:
 - VS.ExportTemplateWizard
 helpviewer_keywords:
 - project templates [Visual Studio], creating
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 ---

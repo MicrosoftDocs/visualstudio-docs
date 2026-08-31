@@ -12,8 +12,8 @@ helpviewer_keywords:
 - conditions [MSBuild]
 - Exists, MSBuild condition function
 - HasTrailingSlash, MSBuild condition function
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: msbuild
 ---

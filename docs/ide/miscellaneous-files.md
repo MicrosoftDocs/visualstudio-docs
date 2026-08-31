@@ -14,8 +14,8 @@ helpviewer_keywords:
 - Miscellaneous Files folder
 - files [Visual Studio], miscellaneous
 ms.custom: "ide-ref"
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 ---

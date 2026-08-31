@@ -10,8 +10,8 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Text_Editor.TypeScript.Formatting.Spacing"
   - "VS.ToolsOptionsPages.Text_Editor.TypeScript.Formatting.General"
   - "VS.ToolsOptionsPages.Text_Editor.TypeScript.Formatting.New_Lines"
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: javascript-typescript
 dev_langs:

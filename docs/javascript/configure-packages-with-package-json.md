@@ -4,8 +4,8 @@ description: Specify npm package versions for your Node.js application by using 
 ms.date: "09/06/2018"
 ms.topic: how-to
 ms.devlang: javascript
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: javascript-typescript
 dev_langs:

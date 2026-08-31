@@ -11,8 +11,8 @@ dev_langs:
 helpviewer_keywords:
   - "Publish tool"
   - ".NET applications, publishing"
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 monikerRange: '>= vs-2022'
 ms.subservice: deployment

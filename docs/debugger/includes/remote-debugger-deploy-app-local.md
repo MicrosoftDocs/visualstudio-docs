@@ -2,11 +2,11 @@
  title: Deploy to local folder
  description: Deploy an app to a local folder
  services: ""
- author: RoseHJM
+ author: TylerMSFT
  ms.service: ""
  ms.topic: include
  ms.date: 05/23/2018
- ms.author: rosemalcolm
+ ms.author: twhitney
  ms.custom:
    - include file
    - sfi-image-nochange

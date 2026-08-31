@@ -11,8 +11,8 @@ helpviewer_keywords:
 - data [Visual Studio], binding to objects
 - object binding
 - binding, to objects
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: data-tools
 ---

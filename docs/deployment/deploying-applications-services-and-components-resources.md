@@ -11,8 +11,8 @@ dev_langs:
   - "VB"
   - "CSharp"
   - "C++"
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: deployment
 ---

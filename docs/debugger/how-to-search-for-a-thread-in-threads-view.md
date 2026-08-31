@@ -5,8 +5,8 @@ ms.date: 02/08/2024
 ms.topic: how-to
 helpviewer_keywords: 
   - threads, searching
-author: RoseHJM
-ms.author: rosemalcolm
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

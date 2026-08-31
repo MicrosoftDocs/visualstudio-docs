@@ -10,8 +10,8 @@ dev_langs:
 helpviewer_keywords:
 - MSBuild (C++), CustomBuild task
 - CustomBuild task (MSBuild (C++))
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 ---
 # CustomBuild task
 

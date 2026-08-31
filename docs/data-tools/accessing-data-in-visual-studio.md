@@ -8,8 +8,8 @@ helpviewer_keywords:
 - data access [Visual Studio]
 - data [C#]
 - ADO.NET, data access
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: data-tools
 ---

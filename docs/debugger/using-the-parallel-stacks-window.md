@@ -12,8 +12,8 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "debugger, parallel tasks window"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

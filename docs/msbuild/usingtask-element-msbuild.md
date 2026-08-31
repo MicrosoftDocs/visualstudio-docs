@@ -12,8 +12,8 @@ dev_langs:
 helpviewer_keywords:
 - UsingTask element [MSBuild]
 - <UsingTask> element [MSBuild]
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: msbuild
 ---

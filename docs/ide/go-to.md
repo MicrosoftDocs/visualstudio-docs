@@ -8,8 +8,8 @@ helpviewer_keywords:
 - code editor, go to line
 - go to line
 - go to
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 ms.custom: sfi-image-nochange

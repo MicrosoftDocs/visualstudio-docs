@@ -7,8 +7,8 @@ helpviewer_keywords:
 - Add References dialog box, registering extensions of the .NET Framework
 - MSBuild, registering extensions of the .NET Framework
 - .NET Framework extensions, registering
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: msbuild
 ---

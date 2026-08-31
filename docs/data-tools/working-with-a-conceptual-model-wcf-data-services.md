@@ -7,8 +7,8 @@ helpviewer_keywords:
 - data [Visual Studio], querying a service
 - data [Visual Studio], LINQ to Entities
 - data [Visual Studio], querying an EDM
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: data-tools
 ---

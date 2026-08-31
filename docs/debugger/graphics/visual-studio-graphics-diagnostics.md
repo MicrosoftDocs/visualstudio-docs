@@ -5,8 +5,8 @@ ms.date: "04/19/2023"
 ms.topic: concept-article
 f1_keywords:
   - "vs.graphics"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

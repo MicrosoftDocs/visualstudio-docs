@@ -13,8 +13,8 @@ helpviewer_keywords:
 - Toolbox [Visual Studio]
 - custom controls [Visual Studio]
 ms.custom: "ide-ref"
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 ---

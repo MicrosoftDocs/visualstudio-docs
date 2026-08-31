@@ -4,8 +4,8 @@ description: Cannot create an association - property listed twice. View informat
 ms.date: 11/04/2016
 ms.topic: error-reference
 ms.subservice: data-tools
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ---
 

@@ -5,8 +5,8 @@ ms.date: 06/01/2023
 ms.topic: language-reference
 helpviewer_keywords:
 - MSBuild, Items
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: msbuild
 ---

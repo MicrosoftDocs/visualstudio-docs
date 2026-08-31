@@ -11,8 +11,8 @@ helpviewer_keywords:
 - data [Visual Studio], saving
 - saving data, tutorials
 - data [Visual Studio], TableAdapter
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: data-tools
 ---

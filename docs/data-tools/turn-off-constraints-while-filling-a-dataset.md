@@ -15,8 +15,8 @@ helpviewer_keywords:
 - constraints [Visual Basic], datasets
 - datasets [Visual Basic], constraints
 - constraints [Visual Basic], suspending during dataset update
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: data-tools
 ---

@@ -12,8 +12,8 @@ dev_langs:
 helpviewer_keywords:
 - <Output> Element [MSBuild]
 - Output Element [MSBuild]
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: msbuild
 ---

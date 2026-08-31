@@ -14,8 +14,8 @@ helpviewer_keywords:
 - tiers, n-tier applications
 - typed datasets, n-tier applications
 - multiple tier applications
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: data-tools
 ---

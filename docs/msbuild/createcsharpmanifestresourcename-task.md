@@ -10,8 +10,8 @@ dev_langs:
 helpviewer_keywords:
 - MSBuild, CreateCSharpManifestResourceName task
 - CreateCSharpManifestResourceName task [MSBuild]
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: msbuild
 ---

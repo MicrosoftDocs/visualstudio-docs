@@ -7,8 +7,8 @@ helpviewer_keywords:
 - database tables, creating
 - database files, creating
 - table designer
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: data-tools
 ---

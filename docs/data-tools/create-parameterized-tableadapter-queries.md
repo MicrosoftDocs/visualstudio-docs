@@ -13,8 +13,8 @@ helpviewer_keywords:
 - queries [Visual Studio], creating
 - TableAdapters, searching data
 - queries [Visual Studio], TableAdapters
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: data-tools
 ---

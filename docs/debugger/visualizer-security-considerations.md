@@ -11,8 +11,8 @@ dev_langs:
 helpviewer_keywords:
   - "visualizers, security"
   - "security [Visual Studio], visualizers"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

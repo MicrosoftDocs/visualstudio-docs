@@ -12,8 +12,8 @@ dev_langs:
 helpviewer_keywords: 
   - run-time errors, reporting functions
   - reporting function
-author: RoseHJM
-ms.author: rosemalcolm
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

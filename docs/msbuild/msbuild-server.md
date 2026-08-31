@@ -5,8 +5,8 @@ ms.date: 10/11/2022
 ms.topic: overview
 helpviewer_keywords:
 - MSBuild Server
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: msbuild
 ---

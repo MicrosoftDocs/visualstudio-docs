@@ -5,8 +5,8 @@ ms.date: 11/04/2016
 ms.topic: language-reference
 helpviewer_keywords:
 - msbuild, item definitions
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: msbuild
 ---

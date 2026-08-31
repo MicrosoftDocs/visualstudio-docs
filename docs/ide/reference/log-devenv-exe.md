@@ -7,8 +7,8 @@ helpviewer_keywords:
 - Devenv, /Log switch
 - Log switch [devenv.exe]
 - /Log Devenv switch
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 ---

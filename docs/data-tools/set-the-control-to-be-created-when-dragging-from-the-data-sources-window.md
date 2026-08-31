@@ -8,8 +8,8 @@ helpviewer_keywords:
 - Windows Forms, displaying data
 - data [Visual Studio], displaying on Windows Forms
 - data [Visual Studio], Data Sources window
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: data-tools
 ---

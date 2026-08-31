@@ -15,8 +15,8 @@ helpviewer_keywords:
   - debugging Web services
   - ASP.NET, debugging Web applications
   - XML Web services, debugging
-author: RoseHJM
-ms.author: rosemalcolm
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

@@ -3,8 +3,8 @@ title: Connection string contains password
 description: The connection string contains credentials with a clear text password and is not using integrated security
 ms.date: 11/04/2016
 ms.topic: error-reference
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: data-tools
 ---

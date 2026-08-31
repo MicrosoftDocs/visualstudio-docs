@@ -13,8 +13,8 @@ f1_keywords:
   - "vs.cv.threads.timeline.uiprocessing"
 helpviewer_keywords:
   - "Concurrency Visualizer, Threads View Timeline Reports (Parallel Performance)"
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: debug-diagnostics
 ---

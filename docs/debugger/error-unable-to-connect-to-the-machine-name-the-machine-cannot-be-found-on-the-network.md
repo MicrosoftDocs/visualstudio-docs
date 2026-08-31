@@ -12,8 +12,8 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "DCOM, unable to connect error"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

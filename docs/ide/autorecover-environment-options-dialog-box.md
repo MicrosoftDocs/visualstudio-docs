@@ -13,8 +13,8 @@ helpviewer_keywords:
 - saving files, automatically
 - files, saving automatically
 ms.custom: "ide-ref"
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 ---

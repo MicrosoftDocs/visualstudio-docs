@@ -1,13 +1,13 @@
 ---
 title: Deploy an ASP.NET Core app to Azure App Service
 description: Use Visual Studio Container Tools to deploy an ASP.NET Core web app in a Docker container to Azure App Service and view the settings.
-author: nitinme
+author: RoseHJM
 
 ms.subservice: container-tools
 ms.devlang: dotnet
 ms.topic: how-to
 ms.date: 9/10/2025
-ms.author: nitinme
+ms.author: rosemalcolm
 ---
 
 # Deploy an ASP.NET Core container to Azure App Service using Visual Studio

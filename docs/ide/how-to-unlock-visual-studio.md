@@ -3,8 +3,8 @@ title: Extend a Trial Version or Update a License
 description: Learn how to extend a free trial of Visual Studio, use an online subscription or product key to unlock Visual Studio, and update a stale or expired license.
 ms.date: 03/02/2026
 ms.topic: how-to
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 

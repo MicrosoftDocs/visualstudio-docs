@@ -7,8 +7,8 @@ helpviewer_keywords:
 - Devenv, /Command switch
 - /Command Devenv switch
 - Command Devenv switch
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 ---

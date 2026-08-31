@@ -8,8 +8,8 @@ dev_langs:
 helpviewer_keywords:
   - "interfaces [DIA SDK]"
   - "DIA SDK, interfaces"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

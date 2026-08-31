@@ -8,8 +8,8 @@ dev_langs:
 helpviewer_keywords:
   - "function signature"
   - "FunctionType symbol"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

@@ -6,8 +6,8 @@ ms.date: 04/20/2026
 ms.topic: how-to
 f1_keywords:
 - VS.BookmarkWindow
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: general-ide
 ---

@@ -11,8 +11,8 @@ dev_langs:
 helpviewer_keywords: 
   - WPF, debugging
   - debugging, WPF
-author: RoseHJM
-ms.author: rosemalcolm
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

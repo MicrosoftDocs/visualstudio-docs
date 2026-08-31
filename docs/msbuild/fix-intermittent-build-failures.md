@@ -5,8 +5,8 @@ ms.date: 01/31/2023
 ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, solve build race conditions
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: msbuild
 ---

@@ -16,8 +16,8 @@ helpviewer_keywords:
 - DownloadFile task [MSBuild]
 - MSBuild, DownloadFile task
 caps.latest.revision: 16
-author: nitinme
-ms.author: nitinme
+author: RoseHJM
+ms.author: rosemalcolm
 
 ms.subservice: msbuild
 ---
