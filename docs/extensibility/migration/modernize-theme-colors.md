@@ -1,7 +1,7 @@
 ---
 title: "Modernize Visual Studio theme colors"
 description: "Learn how to migrate Visual Studio themes from the legacy token-based system to the new streamlined color system introduced in Visual Studio 2026."
-ms.date: 08/04/2026
+ms.date: 08/24/2026
 ms.topic: how-to
 helpviewer_keywords:
 - themes, modernizing
@@ -59,7 +59,7 @@ Here is an example of categories and color tokens from a Visual Studio 2022 them
 
 Visual Studio 2026 consolidates tokens into a handful of intent-first categories with predictable naming tiers. An out-of-box shell theme now contains only four top-level categories and 229 color tokens—an ~87% reduction.
 
-Additional Fluent semantic tokens provide more granular control over shell areas. For example, theme authors can independently color tab and window headers from other shell chrome.
+Additional Fluent semantic tokens provide more granular control over shell areas. For example, `EnvironmentHeader` and `EnvironmentTab` tokens let theme authors independently color window and tab headers from other shell chrome.
 
 Here is an example of semantic, intent-first tokens from a Visual Studio 2026 theme:
 
@@ -94,9 +94,11 @@ Here is an example of semantic, intent-first tokens from a Visual Studio 2026 th
 
 ### Customize tokens in Visual Studio
 
-Visual Studio 2026 (18.7) adds an in-IDE **Theme colors** options page for interactive theme color customization. Open **Tools > Options > Environment > Visual Experience > Theme colors** to view the Fluent theme color tokens for the active theme in a searchable grid. Changes apply live, so you can tweak tokens without installing an extension, editing JSON, or restarting Visual Studio.
+Visual Studio 2026 (18.7) adds an in-IDE **Theme colors** options page for interactive theme color customization. Use the **Edit theme colors** command, or open **Tools > Options > Environment > Visual Experience > Theme colors**, to view the Fluent theme color tokens for the active theme in a searchable grid. Changes apply live, so you can tweak tokens without installing an extension, editing JSON, or restarting Visual Studio.
 
-Theme color overrides are saved per theme, persist when you switch themes, and support resetting individual tokens. These behaviors are useful when validating semantic tokens or customizing a few values without creating a full theme package.
+The page exposes the same semantic tokens that theme authors define in a theme package, including tokens for editor, tool window, and shell surfaces. You can search tokens and reset individual values while you validate how your migrated theme responds to token changes.
+
+Theme color overrides are saved for the selected theme and applied as a layer on top of the base theme. Switching themes changes which override set is active. These behaviors are useful when validating semantic tokens or customizing a few values without creating a full theme package. If users override token values after installing a theme, resetting those tokens restores the theme-provided values.
 
 To share theme overrides, place a theme-named JSON file in `%LOCALAPPDATA%\Microsoft\VisualStudio\18.0_xxxxxxxx\ColorThemes`. Visual Studio applies file-based changes after you restart the IDE.
 
