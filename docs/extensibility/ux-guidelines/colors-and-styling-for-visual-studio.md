@@ -1,7 +1,7 @@
 ---
 title: Colors and Styling for Visual Studio
 description: Learn how the Visual Studio User Experience uses color as a communication tool, instead of for purely aesthetic reasons.
-ms.date: 08/04/2026
+ms.date: 08/24/2026
 ms.topic: reference
 author: tinaschrepfer
 ms.author: tinali
@@ -32,7 +32,7 @@ Several options exist for assigning colors to UI elements in Visual Studio. Some
 - Correctly use the option you have chosen.
 
 > [!NOTE]
-> Never hardcode hex, RGB, or system colors to your UI elements. Using the services allows for flexibility in tuning hue. Additionally, without the service, you will not be able to take advantage of the theme-switching capabilities of [the VSColor service](../../extensibility/ux-guidelines/colors-and-styling-for-visual-studio.md#BKMK_TheVSColorService).
+> Never hardcode hex, RGB, or system colors to your UI elements. Using the services allows for flexibility in tuning hue. Additionally, without the service, you will not be able to take advantage of the theme-switching capabilities of [the VSColor service](../../extensibility/ux-guidelines/colors-and-styling-for-visual-studio.md#BKMK_TheVSColorService). Users can override theme tokens in the IDE, so assuming default theme values is unsafe.
 
 ### Methods for assigning color to Visual Studio interface elements
 
@@ -53,13 +53,13 @@ Users are prompted to select a theme during their first use of Visual Studio and
 
 Users can also use Control Panel to switch their entire systems into one of several High Contrast themes. If a user selects a High Contrast theme, then the Visual Studio color theme selector no longer affects colors in Visual Studio, although any theme changes are saved for when the user exits High Contrast mode. For more information about High Contrast mode, see [Choosing High Contrast colors](../../extensibility/ux-guidelines/colors-and-styling-for-visual-studio.md#BKMK_ChoosingHighContrastColors).
 
-Users can also customize Fluent theme color tokens in Visual Studio by opening **Tools > Options > Environment > Visual Experience > Theme colors**. These overrides are saved per theme, persist when users switch themes, and support per-token reset.
+Users can also customize Fluent theme color tokens in Visual Studio by using the **Edit theme colors** command or opening **Tools > Options > Environment > Visual Experience > Theme colors**. These overrides are saved per theme and applied as a layer on top of the selected theme, so UI can appear different even when the same base theme is selected. Switching themes changes which override set is active, and users can reset individual tokens.
 
 ### The VSColor service
 
 Visual Studio provides an environment color service, known as the VSColor service, which allows you to bind the color values of your UI elements to a named entry containing color values for each Visual Studio theme. This ensures that your colors will automatically change to reflect the current user-selected theme or system High Contrast mode. Use of the service means that the implementation of all theme-related color changes is handled in one place, and if you are using common shared colors from the service, your UI will automatically reflect new themes in future versions of Visual Studio.
 
-Theme color customizations can change the values returned for theme tokens at runtime. Bind extension UI to VSColor or `ThemeResourceKey` tokens instead of hardcoding colors, and validate UI with non-default token values.
+Theme color customizations can change the values returned for theme tokens at runtime. Bind extension UI to VSColor or `ThemeResourceKey` tokens instead of hardcoding colors, and validate UI with customized token values, not just the default Light, Dark, and High Contrast values.
 
 ### Implementation
 
