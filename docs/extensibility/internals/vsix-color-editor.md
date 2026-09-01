@@ -1,7 +1,7 @@
 ---
 title: VSIX Color Editor
 description: Learn about the Visual Studio Extension Color Editor tool, which can create and edit custom colors for Visual Studio and generate theme resource keys.
-ms.date: 08/13/2026
+ms.date: 08/24/2026
 ms.topic: reference
 author: tinaschrepfer
 ms.author: tinali
@@ -31,6 +31,8 @@ Visual Studio 2026 (18.7) also includes an in-IDE **Theme colors** options page 
 - **Color values (or hues):** Needed for each colored theme. Always create background and text color values in pairs. Colors are paired for background/foreground so that the text (foreground) color is always readable against the background color on which it is drawn. These colors are linked and will be used together in the UI. If the background is not intended for use with text, do not define a foreground color.
 
 - **System color name:** For use in high-contrast displays.
+
+Visual Studio color token sets can evolve between versions. Newer Visual Studio 2026 versions include more granular shell, tab, and window header-related tokens, so validate token availability and behavior against the Visual Studio version your extension targets.
 
 ## How to use the tool
  As much as possible, and where appropriate, existing Visual Studio colors should be reused instead of making new ones. However, for cases where no appropriate colors are defined, custom colors should be created to keep an extension theming compatible.
@@ -188,7 +190,7 @@ namespace MyCustomColors
  To make the changes permanent, rebuild and redeploy the Visual Studio extension after adding the new colors to the .pkgdef file and writing the code that will use those colors. Rebuilding the Visual Studio extension will merge the registry values for the new colors into the rest of the themes. Then relaunch Visual Studio, view the UI, and verify that the new colors appear as expected.
 
 ## Notes
- This tool is intended to be used for creating custom colors for the preexisting Visual Studio themes, or for editing the colors of a custom Visual Studio theme. To create complete custom Visual Studio themes, download the [Visual Studio Color Theme Editor extension](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.VisualStudio2015ColorThemeEditor) from the Visual Studio Extensions Gallery.
+ This tool is intended to be used for creating custom colors for the preexisting Visual Studio themes, or for editing the colors of a custom Visual Studio theme. To create complete custom Visual Studio themes with legacy external tooling, you can use the [Visual Studio Color Theme Editor extension](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.VisualStudio2015ColorThemeEditor) from the Visual Studio Extensions Gallery. If your goal is simple local customization rather than authoring distributable theme resources, use the built-in **Theme colors** experience instead.
 
  For information about personal theme overrides and sharing override files, see [Visual Studio theme color tokens](../ux-guidelines/theme-color-token-reference.md#customize-theme-colors-in-visual-studio).
 
