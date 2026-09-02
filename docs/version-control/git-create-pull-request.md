@@ -124,6 +124,7 @@ You can open a pull request in Visual Studio, understand whether it's ready, and
 - Move between pull requests from the list, sorted by last updated time by default.
 - See comments per file in the **Changes** list to quickly find active discussions.
 - Comment on specific lines in the diff, reply to a thread, and resolve it, with inline images and [Markdown formatting](#markdown-formatting-in-comments) rendered in the comment.
+- Select **Open in New Tab** in the pull request header to open the pull request in a dedicated tab. This is an alternate way to view pull request details instead of embedded navigation, and it helps you keep multiple pull requests open at the same time.
 
 > [!NOTE]
 > The actions and vote states that are available depend on the host. Azure DevOps supports more pull request actions than GitHub's approve and merge flow, such as converting a pull request to a draft or abandoning it.
@@ -143,6 +144,8 @@ In the **Git Repository** window, right-click a pull request and select **Add to
 You can also reference a pull request directly in chat by typing `#` and a pull request ID. For example, ask Copilot to summarize a pull request to get a quick overview without reading every file.
 
 :::image type="content" source="media/visualstudio/add-pr-to-chat.png" alt-text="Screenshot showing a pull request being added to Copilot Chat from the Git Repository window." lightbox="media/visualstudio/add-pr-to-chat.png":::
+
+You can also attach a Git branch as chat context. In the **Git Repository** window, right-click a branch and select **Add to Chat** to attach the branch name and its associated changes as context, separate from adding a pull request.
 
 
 :::moniker-end
@@ -216,6 +219,13 @@ The comment text isn't published until you click the **Add Comment** button on t
 You can continue the conversation on an existing comment by using the **Reply** section in the comment box. Comments are either active or resolved. You can click **Reply and Resolve** to reply to a comment and change the status to resolved in one click, or change the status using the dropdown above the comment text.
 
 You can toggle your like status on a comment by clicking on the icon, or by clicking on the three dots, you can copy the comment text to the clipboard, copy a link to the comment to the clipboard, delete the comment, or open the comment in the web browser at the provider's site (such as github.com or your Azure DevOps project site).
+
+:::moniker range="visualstudio"
+
+> [!NOTE]
+> Pull request comments also support emoji reactions, for both GitHub and Azure DevOps repositories. Use the reaction control on the comment to add or remove a reaction.
+
+:::moniker-end
 
 The ability to add comments to a pull request is limited for some Git providers. For example, with GitHub as the provider, you can only add comments on lines within 3 lines of a change, but with the Azure DevOps provider, you can add comments at any line of a file involved in the pull request. In any case, you can only add comments on files that are included in the pull request.
 
