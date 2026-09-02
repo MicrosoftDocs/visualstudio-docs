@@ -106,6 +106,17 @@ Any violations to the discussion etiquette can lead to removal of the comment an
 
 If you believe your account was banned by mistake, please reach out to vsfeedback@microsoft.com to request an unban.
 
+## Change your Developer Community name
+
+You can change your name in Developer Community by following these steps:
+
+1. Select the user icon in the upper right corner.
+1. Select **Profile and Preferences**.
+1. Select **Edit** next to your name.
+1. Change your name and select **Save**.
+
+![Screenshot of Developer Community profile settings with controls for changing your display name.](media/developer-community-guidelines/change-developer-community-name.png)
+
 ## Data privacy
 
 Comments and replies are publicly visible, but any attached files are privately shared with Microsoft only. This visibility is beneficial because it allows the entire community to see the issues and solutions found by other users. If you're concerned about the privacy of your data or identity, you have options. Read more about [Developer Community data privacy](./developer-community-privacy.md).
