@@ -1,12 +1,12 @@
 ---
 title: "Browse repos, compare branches & commits"
 description: Browse Git repositories in Visual Studio, compare branches and commits, view line-by-line change history with Git Blame annotations, and track who made specific code changes.
-ms.date: 06/11/2026
+ms.date: 09/04/2026
 ms.topic: how-to
 author: RoseHJM
 ms.author: rosemalcolm
 ms.custom: doc-kit-assisted, awp-ai
-
+ai-usage: ai-assisted
 ms.subservice: general-ide
 ---
 # Browse Git repositories and compare branches in Visual Studio
@@ -126,6 +126,8 @@ Select any pull request to open an embedded review view without checking out the
 - Pull request description, changed files, commits, related items, and reviewers in one view.
 - Switch between active pull requests without disrupting your working branch.
 - View commit details and changes for individual commits in the pull request.
+- Select **Open in New Tab** in the pull request header to open the pull request in a dedicated tab and arrange it alongside your code.
+- Track pushes, votes, and other events in the update timeline on the **Overview** tab.
 
 #### Comment and discuss
 
@@ -134,6 +136,7 @@ Leave feedback directly in the diff view, and continue the conversation without 
 :::image type="content" alt-text="Screenshot of a file diff with an inline pull request comment thread that includes a reply and a resolve action." source="./media/visualstudio/pr-review-comments.png" lightbox="./media/visualstudio/pr-review-comments.png":::
 
 - Add inline comments on specific lines, reply to comments, and resolve threads.
+- Add or remove emoji reactions on comments for GitHub and Azure DevOps pull requests.
 - View comment indicators per file in the **Changes** list.
 - Render inline images and formatted text in comments, similar to the web experience.
 
@@ -143,6 +146,7 @@ When you're ready, approve and complete the pull request in Visual Studio. Vote 
 
 - Approve the pull request. More vote options are available from the dropdown for Azure DevOps.
 - View status checks, merge conflicts, and required approvals on the overview tab.
+- Set the pull request to autocomplete or auto-merge after it meets required approvals and policy checks.
 - Complete or merge the pull request, with options to convert to draft and abandon or close.
 
 For detailed workflows to comment on pull requests in files and in diff views, see [Create a pull request in Visual Studio](git-create-pull-request.md#view-or-add-pull-request-comments-in-the-editor).
@@ -177,6 +181,19 @@ You can use the toolbar buttons at the top of the commit history view to customi
 :::image type="content" source="media/vs-2022/filter-incoming-outgoing-commits.png" alt-text="Screenshot showing the Git Repository window with the Show Outgoing/Incoming Only toolbar button." :::
 
 You can also select **Show Outgoing/Incoming Only** on the context menu by right-clicking anywhere in the history view.
+
+:::moniker range="visualstudio"
+
+## Compare a file to your working tree
+
+To compare an earlier version of a file with your current local changes:
+
+1. In **Solution Explorer**, right-click the file, and then select **Git** > **View History**.
+1. In the file history, right-click a commit, and then select **Compare with Working Tree**.
+
+Visual Studio opens a diff with the committed version on the left and the working tree version on the right. The diff includes committed and uncommitted changes made since the selected commit.
+
+:::moniker-end
 
 ## Compare commits
 
@@ -216,6 +233,25 @@ To compare any two commits in your branch, use the **Ctrl** key to select the tw
 In **Git** > **View Branch History**, open any commit and select **Open changes summary**. Visual Studio shows changed lines from multiple files in one unified view, which is useful for a fast pass before deeper file-by-file review.
 
 :::image type="content" source="media/visualstudio/multi-file-summary-diff-git-changes-button.png" alt-text="Screenshot showing Open changes summary in commit details." :::
+
+:::moniker-end
+
+:::moniker range="visualstudio"
+
+## Review commits with GitHub Copilot
+
+You can request a private Copilot code review for changes in one commit or between two commits. To review a specific block of code, see [Review selected code](../ide/copilot-chat-context.md#review-selected-code). To review all uncommitted local changes, see [Review local changes with Copilot Chat](git-make-commit.md#review-local-changes-with-copilot-chat).
+
+- To review one commit, right-click the commit in the **Git Repository** window, and then select **Review Commit**.
+- To review a range, select two commits, right-click the selection, and then select **Review Commit**.
+
+You can also reference a commit in Copilot Chat and ask the **Git agent** to review it.
+
+Copilot review comments appear inline on the changed files. A review of one commit opens in the **Commit Details** window, and a review of a two-commit range opens in the **Compare Commits** view. Select a comment to go directly to the related code.
+
+Reviews remain local to your Visual Studio session and work with GitHub and Azure DevOps repositories.
+
+To enable commit reviews, select **Tools** > **Options** > **GitHub** > **Copilot** > **Source Control Integration**, and then turn on **Review Git changes locally and provide suggestions from comments**.
 
 :::moniker-end
 
