@@ -1,7 +1,8 @@
 ---
 title: "Browse repos, compare branches & commits"
 description: Browse Git repositories in Visual Studio, compare branches and commits, view line-by-line change history with Git Blame annotations, and track who made specific code changes.
-ms.date: 06/11/2026
+ms.date: 09/04/2026
+ai-usage: ai-assisted
 ms.topic: how-to
 author: RoseHJM
 ms.author: rosemalcolm
@@ -178,6 +179,19 @@ You can use the toolbar buttons at the top of the commit history view to customi
 
 You can also select **Show Outgoing/Incoming Only** on the context menu by right-clicking anywhere in the history view.
 
+:::moniker range="visualstudio"
+
+## Compare a file to your working tree
+
+To compare an earlier version of a file with your current local changes:
+
+1. In **Solution Explorer**, right-click the file, and then select **Git** > **View History**.
+1. In the file history, right-click a commit, and then select **Compare with Working Tree**.
+
+Visual Studio opens a diff with the committed version on the left and the working tree version on the right. The diff includes committed and uncommitted changes made since the selected commit.
+
+:::moniker-end
+
 ## Compare commits
 
 To compare any two commits in your branch, use the **Ctrl** key to select the two commits that you want to compare. Then, right-click one of them and select **Compare Commits**.
@@ -216,6 +230,25 @@ To compare any two commits in your branch, use the **Ctrl** key to select the tw
 In **Git** > **View Branch History**, open any commit and select **Open changes summary**. Visual Studio shows changed lines from multiple files in one unified view, which is useful for a fast pass before deeper file-by-file review.
 
 :::image type="content" source="media/visualstudio/multi-file-summary-diff-git-changes-button.png" alt-text="Screenshot showing Open changes summary in commit details." :::
+
+:::moniker-end
+
+:::moniker range="visualstudio"
+
+## Review commits with GitHub Copilot
+
+You can request a private Copilot code review for one commit or for the changes between two commits:
+
+- To review one commit, right-click the commit in the **Git Repository** window, and then select **Review Commit**.
+- To review a range, select two commits, right-click the selection, and then select **Review Commit**.
+
+You can also reference a commit in Copilot Chat and ask the **Git agent** to review it.
+
+Copilot review comments appear inline on the changed files. A review of one commit opens in the **Commit Details** window, and a review of a two-commit range opens in the **Compare Commits** view. Select a comment to go directly to the related code.
+
+Reviews remain local to your Visual Studio session and work with GitHub and Azure DevOps repositories.
+
+To enable commit reviews, select **Tools** > **Options** > **GitHub** > **Copilot** > **Source Control Integration**, and then turn on **Review Git changes locally and provide suggestions from comments**.
 
 :::moniker-end
 
