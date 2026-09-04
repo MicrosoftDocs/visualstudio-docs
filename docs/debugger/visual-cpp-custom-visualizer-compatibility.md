@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "assertions, debugging"
   - "assertions, assertion failures"
   - "Assertion Failed dialog box"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 monikerRange: ">= vs-2022"

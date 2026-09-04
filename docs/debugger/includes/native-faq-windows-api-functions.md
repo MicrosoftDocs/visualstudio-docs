@@ -2,11 +2,11 @@
  title: Native debugging - Windows API functions
  description: Native debugging FAQ content for windows API functions
  services: ""
- author: RoseHJM
+ author: TylerMSFT
  ms.service: ""
  ms.topic: include
  ms.date: 03/10/2023
- ms.author: rosemalcolm
+ ms.author: twhitney
  ms.custom: include file
 ---
 To set a breakpoint on a Windows API function with NT symbols loaded:

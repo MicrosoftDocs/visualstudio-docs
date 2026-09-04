@@ -35,6 +35,7 @@ Copilot Chat provides AI assistance to help you make informed decisions and writ
 
 :::moniker range="visualstudio"
 - **Commit history context**. Attach one or more commits directly from Git history to chat and ask Copilot to explain changes, spot issues, or propose similar edits. Learn more in [Manage chat context with references](copilot-chat-context-references.md#reference-commits-from-git-history).
+- **Branch context**. Attach a Git branch directly from the **Git Repository** window using the **Add to Chat** action to bring the branch name and its associated changes into the conversation.
 :::moniker-end
 
 ## Prerequisites
@@ -61,7 +62,7 @@ To get better answers with scoped context in Copilot Chat, see the [tips to impr
 :::moniker-end
 
 :::moniker range="visualstudio"
-To get better answers with scoped context in Copilot Chat, see the [tips to improve Copilot chat results](copilot-chat-context.md). You can learn how to use [slash commands](copilot-chat-context.md#slash-commands), [references](copilot-chat-context-references.md#reference-context), [sources used](copilot-chat-context-references.md#find-context), and the [chat history panel](copilot-chat-context-references.md#threads). You can also reference Git changes and commits in chat to summarize pending work, explain earlier edits, and review a specific commit with more context.
+To get better answers with scoped context in Copilot Chat, see the [tips to improve Copilot chat results](copilot-chat-context.md). You can learn how to use [slash commands](copilot-chat-context.md#slash-commands), [references](copilot-chat-context-references.md#reference-context), [sources used](copilot-chat-context-references.md#find-context), and the [chat history panel](copilot-chat-context-references.md#threads). You can also reference Git changes and commits in chat to summarize pending work, explain earlier edits, and review a specific commit with more context. You can also add a Git branch as chat context directly from the **Git Repository** window with the **Add to Chat** action.
 :::moniker-end
 
 > [!NOTE]

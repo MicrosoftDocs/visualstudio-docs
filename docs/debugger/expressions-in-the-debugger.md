@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "debugger, evaluating expressions"
   - "debugging [Visual Studio], expression evaluation"
   - "debugging [Visual Studio], variable evaluation"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

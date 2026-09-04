@@ -1,7 +1,7 @@
 ---
 title: VSIX Color Editor
 description: Learn about the Visual Studio Extension Color Editor tool, which can create and edit custom colors for Visual Studio and generate theme resource keys.
-ms.date: 08/04/2026
+ms.date: 08/24/2026
 ms.topic: reference
 author: tinaschrepfer
 ms.author: tinali
@@ -12,7 +12,7 @@ ms.subservice: extensibility-integration
 
 The Visual Studio Extension Color Editor tool can create and edit custom colors for Visual Studio. The tool can also generate theme resource keys so that the colors can be used in code. This tool is useful for making colors for a Visual Studio extension that supports theming. This tool can open .pkgdef and .xml files. Visual Studio themes (.vstheme files) can be used with the Visual Studio Extension Color Editor by changing the file extension to .xml. Additionally, .vstheme files can be imported into a current .xml file.
 
-Visual Studio 2026 (18.7) also includes an in-IDE **Theme colors** options page at **Tools > Options > Environment > Visual Experience > Theme colors**. Use that page to customize Fluent theme color tokens for the IDE without extensions. Use the VSIX Color Editor when you need to author tokens and resources for extensions or generate resource keys.
+Visual Studio 2026 (18.7) also includes an in-IDE **Theme colors** options page for personal, per-theme overrides of Fluent color tokens. Use the **Edit theme colors** command, or open **Tools > Options > Environment > Visual Experience > Theme colors**. Use the VSIX Color Editor when you need to author `.xml` or `.pkgdef` theme resources for an extension, generate resource keys, or distribute theme resources to other users. For more information about built-in customization, see [Visual Studio theme color tokens](../ux-guidelines/theme-color-token-reference.md#customize-theme-colors-in-visual-studio).
 
  ![VSIX Color Editor Hero](../../extensibility/internals/media/vsix-color-editor-hero.png "VSIX Color Editor Hero")
 
@@ -31,6 +31,8 @@ Visual Studio 2026 (18.7) also includes an in-IDE **Theme colors** options page 
 - **Color values (or hues):** Needed for each colored theme. Always create background and text color values in pairs. Colors are paired for background/foreground so that the text (foreground) color is always readable against the background color on which it is drawn. These colors are linked and will be used together in the UI. If the background is not intended for use with text, do not define a foreground color.
 
 - **System color name:** For use in high-contrast displays.
+
+Visual Studio color token sets can evolve between versions. Newer Visual Studio 2026 versions include more granular shell, tab, and window header-related tokens, so validate token availability and behavior against the Visual Studio version your extension targets.
 
 ## How to use the tool
  As much as possible, and where appropriate, existing Visual Studio colors should be reused instead of making new ones. However, for cases where no appropriate colors are defined, custom colors should be created to keep an extension theming compatible.
@@ -179,16 +181,18 @@ namespace MyCustomColors
 
  The color editor can temporarily apply color tokens to the running instances of Visual Studio to view live changes to colors without rebuilding the extension package. To do so, click the "Apply this theme to running Visual Studio windows" button located on the header of each theme column. This temporary theme will go away when the VSIX Color Editor is closed.
 
- For faster experimentation with Fluent theme tokens in the active theme, you can also use **Tools > Options > Environment > Visual Experience > Theme colors**. Changes from that page apply live, are saved per theme, and support per-token reset. Use the VSIX Color Editor when you need to produce .pkgdef or .xml outputs for extension deployment.
+ For faster experimentation with Fluent theme tokens in the active theme, use the **Edit theme colors** command or open **Tools > Options > Environment > Visual Experience > Theme colors**. Changes from that page apply live, are saved per theme, and support per-token reset. Use the VSIX Color Editor when you need to produce .pkgdef or .xml outputs for extension deployment.
+
+ Theme color overrides take precedence over the corresponding colors in the selected theme. As a result, an override can change the appearance of extension UI that uses Visual Studio theme resources. When you test an extension, change the tokens it uses, switch between themes, and reset individual tokens. Verify that text, controls, and interaction states remain readable and usable throughout these changes.
 
  ![VSIX Color Editor Apply](../../extensibility/internals/media/vsix-color-editor-apply.png "VSIX Color Editor Apply")
 
  To make the changes permanent, rebuild and redeploy the Visual Studio extension after adding the new colors to the .pkgdef file and writing the code that will use those colors. Rebuilding the Visual Studio extension will merge the registry values for the new colors into the rest of the themes. Then relaunch Visual Studio, view the UI, and verify that the new colors appear as expected.
 
 ## Notes
- This tool is intended to be used for creating custom colors for the preexisting Visual Studio themes, or for editing the colors of a custom Visual Studio theme. To create complete custom Visual Studio themes, download the [Visual Studio Color Theme Editor extension](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.VisualStudio2015ColorThemeEditor) from the Visual Studio Extensions Gallery.
+ This tool is intended to be used for creating custom colors for the preexisting Visual Studio themes, or for editing the colors of a custom Visual Studio theme. To create complete custom Visual Studio themes with legacy external tooling, you can use the [Visual Studio Color Theme Editor extension](https://marketplace.visualstudio.com/items?itemName=VisualStudioProductTeam.VisualStudio2015ColorThemeEditor) from the Visual Studio Extensions Gallery. If your goal is simple local customization rather than authoring distributable theme resources, use the built-in **Theme colors** experience instead.
 
- Theme overrides can be shared by placing a theme-named JSON file under `%LOCALAPPDATA%\Microsoft\VisualStudio\18.0_xxxxxxxx\ColorThemes`. Visual Studio applies those file-based overrides after you restart the IDE.
+ For information about personal theme overrides and sharing override files, see [Visual Studio theme color tokens](../ux-guidelines/theme-color-token-reference.md#customize-theme-colors-in-visual-studio).
 
 ## Sample Output
  **XML color output**

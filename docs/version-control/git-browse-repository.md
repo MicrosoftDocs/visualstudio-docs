@@ -127,6 +127,8 @@ Select any pull request to open an embedded review view without checking out the
 - Pull request description, changed files, commits, related items, and reviewers in one view.
 - Switch between active pull requests without disrupting your working branch.
 - View commit details and changes for individual commits in the pull request.
+- Select **Open in New Tab** in the pull request header to open the pull request in a dedicated tab and arrange it alongside your code.
+- Track pushes, votes, and other events in the update timeline on the **Overview** tab.
 
 #### Comment and discuss
 
@@ -135,6 +137,7 @@ Leave feedback directly in the diff view, and continue the conversation without 
 :::image type="content" alt-text="Screenshot of a file diff with an inline pull request comment thread that includes a reply and a resolve action." source="./media/visualstudio/pr-review-comments.png" lightbox="./media/visualstudio/pr-review-comments.png":::
 
 - Add inline comments on specific lines, reply to comments, and resolve threads.
+- Add or remove emoji reactions on comments for GitHub and Azure DevOps pull requests.
 - View comment indicators per file in the **Changes** list.
 - Render inline images and formatted text in comments, similar to the web experience.
 
@@ -144,6 +147,7 @@ When you're ready, approve and complete the pull request in Visual Studio. Vote 
 
 - Approve the pull request. More vote options are available from the dropdown for Azure DevOps.
 - View status checks, merge conflicts, and required approvals on the overview tab.
+- Set the pull request to autocomplete or auto-merge after it meets required approvals and policy checks.
 - Complete or merge the pull request, with options to convert to draft and abandon or close.
 
 For detailed workflows to comment on pull requests in files and in diff views, see [Create a pull request in Visual Studio](git-create-pull-request.md#view-or-add-pull-request-comments-in-the-editor).

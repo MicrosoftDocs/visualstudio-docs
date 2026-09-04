@@ -12,8 +12,8 @@ helpviewer_keywords:
   - debugging, WCF
   - WCF, self-hosted service
   - WCF, debugging
-author: RoseHJM
-ms.author: rosemalcolm
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

@@ -8,8 +8,8 @@ dev_langs:
 helpviewer_keywords:
   - "sample applications [DIA SDK]"
   - "Dia2dump sample [DIA SDK]"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

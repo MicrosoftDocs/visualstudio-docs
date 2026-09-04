@@ -13,8 +13,8 @@ dev_langs:
   - "JScript"
 helpviewer_keywords:
   - "remote debugging, notification error"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "breakpoints, design-time debugging"
   - "Immediate window, design-time debugging"
   - "design-time debugging"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

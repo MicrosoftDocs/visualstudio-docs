@@ -6,8 +6,8 @@ ms.topic: how-to
 helpviewer_keywords: 
   - Window Finder Tool
   - searching in Windows view
-author: RoseHJM
-ms.author: rosemalcolm
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "debugging [Visual Studio], errors"
   - "debugger, errors"
   - "errors [Visual Studio], debugger"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

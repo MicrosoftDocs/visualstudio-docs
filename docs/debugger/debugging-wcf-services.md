@@ -11,8 +11,8 @@ dev_langs:
 helpviewer_keywords:
   - "debugging, WCF"
   - "WCF, debugging"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 ms.manager: wiwagn
 ms.subservice: debug-diagnostics
 ---

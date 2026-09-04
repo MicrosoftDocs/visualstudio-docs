@@ -10,8 +10,8 @@ f1_keywords:
 helpviewer_keywords:
   - debugger, variable windows
   - debugging [Visual Studio], variable windows
-author: RoseHJM
-ms.author: rosemalcolm
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ms.collection: ce-skilling-ai-copilot
