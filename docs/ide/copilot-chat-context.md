@@ -1,7 +1,7 @@
 ---
 title: 'Customize chat responses'
 description: Use custom instructions and prompt files to customize responses and use slash commands to set quick context for common tasks.
-ms.date: 08/18/2026
+ms.date: 09/04/2026
 ms.update-cycle: 180-days
 ms.topic: how-to 
 author: RoseHJM
@@ -316,12 +316,21 @@ The behavior of each action depends on whether you select code when you open the
 | **Action** | **With code selected** | **Without code selected** |
 |---------------------------|--------------------|:----------:|:----------:|
 | Explain| Explains the selected code | Explains the code near the cursor position |
+| Review Selection | Reviews the selected code and adds inline comments | Not applicable |
 | Optimize Selection | Optimizes the selected code for performance, maintainability, reliability, and architecture | Not applicable |
 | Generate Comments | Generates comments for the selected code | Generate comments for code near the cursor position |
 | Generate Tests | Generates tests for the selected code | Generate tests for code near the cursor position |
 | Add to Chat | Adds the selected code to Chat as a reference | Add the entire file to Chat as reference |
 
-When you select any action except *Optimize Selection*, the chat window opens automatically and sends a [slash command](#slash-commands) to Copilot with the appropriate scoped context. You can then review and interact with Copilot's response in the chat window.
+When you select any action except **Review Selection** or **Optimize Selection**, the chat window opens automatically and sends a [slash command](#slash-commands) to Copilot with the appropriate scoped context. You can then review and interact with Copilot's response in the chat window.
+
+### Review selected code
+
+Use **Review Selection** when you want targeted code review feedback on a specific block of code. In the editor, select the code, right-click the selection, and then select **Copilot Actions** > **Review Selection**.
+
+Copilot adds review comments inline to the selected code. Review each comment and choose whether to update the code. To apply a suggested fix, select the sparkle icon on the comment. If the comment doesn't include a suggestion, Copilot generates one.
+
+**Review Selection** uses [GitHub Copilot code review](https://docs.github.com/copilot/how-tos/use-copilot-agents/request-a-code-review/use-code-review?tool=visualstudio). To review all uncommitted local changes, see [Review local changes with Copilot Chat](../version-control/git-make-commit.md#review-local-changes-with-copilot-chat). To review changes in one commit or between two commits, see [Review commits with GitHub Copilot](../version-control/git-browse-repository.md#review-commits-with-github-copilot).
 
 ### Use Optimize Selection option for better code 
 

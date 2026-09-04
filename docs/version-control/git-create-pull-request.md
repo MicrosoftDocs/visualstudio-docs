@@ -2,7 +2,7 @@
 title: Create a pull request in Visual Studio
 titleSuffix: ""
 description: Create a pull request in Visual Studio by using GitHub or Azure DevOps.
-ms.date: 08/24/2026
+ms.date: 09/04/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: RoseHJM
@@ -129,6 +129,16 @@ You can open a pull request in Visual Studio, understand whether it's ready, and
 > [!NOTE]
 > The actions and vote states that are available depend on the host. Azure DevOps supports more pull request actions than GitHub's approve and merge flow, such as converting a pull request to a draft or abandoning it.
 
+### Open a pull request in a dedicated tab
+
+Select **Open in New Tab** in the pull request header to open the pull request in a dedicated tab. You can arrange the tab alongside your code for a more flexible review layout.
+
+### Track updates and complete a pull request automatically
+
+Use the update timeline on the **Overview** tab to review the pull request history, including pushes, votes, and other events.
+
+Set the pull request to autocomplete or auto-merge from the pull request header. Visual Studio completes or merges the pull request after it meets required approvals and policy checks. The update timeline and automatic completion are available for GitHub and Azure DevOps repositories.
+
 To access pull requests, use the **Git** menu, the **Git Repository** window, or the **Git Changes** window.
 
 :::image type="content" source="media/visualstudio/pr-updates-entry-points.png" alt-text="Screenshot showing three pull request entry points in Visual Studio: the Git menu, Git Repository window, and Git Changes window." lightbox="media/visualstudio/pr-updates-entry-points.png":::
@@ -222,8 +232,9 @@ You can toggle your like status on a comment by clicking on the icon, or by clic
 
 :::moniker range="visualstudio"
 
-> [!NOTE]
-> Pull request comments also support emoji reactions, for both GitHub and Azure DevOps repositories. Use the reaction control on the comment to add or remove a reaction.
+### React to pull request comments
+
+Pull request comments support the same emoji reactions available on the web for GitHub and Azure DevOps repositories. Use the reaction control on a comment to add or remove a reaction.
 
 :::moniker-end
 
