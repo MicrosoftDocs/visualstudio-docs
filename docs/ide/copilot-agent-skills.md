@@ -1,11 +1,11 @@
 ---
 title: Use Agent Skills with GitHub Copilot
 description: Learn how to define reusable Agent Skills that teach Copilot agents how to perform specific tasks in Visual Studio.
-ms.date: 07/16/2026
+ms.date: 09/04/2026
 ms.topic: how-to
 author: RoseHJM
 ms.author: rosemalcolm
-ms.manager: mijacobs
+ms.manager: wiwagn
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
 ms.custom: awp-ai
@@ -31,9 +31,17 @@ When you use [agent mode](copilot-agent-mode.md), Copilot automatically discover
 
 :::image type="content" source="media/visualstudio/agent-skills.png" alt-text="Screenshot that shows a skill being used by the Copilot agent in chat." lightbox="media/visualstudio/agent-skills.png":::
 
+### Use built-in .NET and Azure skills
+
+Visual Studio includes built-in skills created by experts from the .NET and Azure teams. The skills are available when you install the corresponding .NET and Azure workloads.
+
+Built-in skills are disabled by default. To review and manage them, select the **Tools** icon in Copilot Chat to open the tool picker, and then expand **Built-in**. Hover over a skill to display its description and file path. To inspect the complete skill or its folder, use the **...** menu. Enable only the skills that apply to your tasks.
+
+For more information about the available skills, see the [.NET skills](https://github.com/dotnet/skills) and [Azure skills](https://github.com/microsoft/azure-skills) repositories.
+
 ## Skill locations
 
-Skills are picked up from the following locations:
+Visual Studio discovers custom skills from the following locations:
 
 | Skill type | Location |
 |---|---|
