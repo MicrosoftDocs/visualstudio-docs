@@ -12,8 +12,8 @@ dev_langs:
 helpviewer_keywords:
   - "debugging [Visual Studio], inspecting programs"
   - "debugger, viewing data"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

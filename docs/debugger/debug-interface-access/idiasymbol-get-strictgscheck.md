@@ -7,8 +7,8 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaSymbol::get_strictGSCheck method"
-author: "grantri"
-ms.author: "grantri"
+author: vzarytovskii
+ms.author: twhitney
 ms.manager:  twhitney
 ms.subservice: debug-diagnostics
 ---

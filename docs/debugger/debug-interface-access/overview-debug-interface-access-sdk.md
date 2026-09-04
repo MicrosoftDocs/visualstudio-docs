@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "COM objects, in DIA SDK"
   - "compilands"
   - "executable images"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

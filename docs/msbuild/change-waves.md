@@ -1,7 +1,7 @@
 ---
 title: Change waves
 description: Learn how to enable or disable features in MSBuild that are potentially disruptive.
-ms.date: 5/22/2026
+ms.date: 08/13/2026
 ms.topic: whats-new
 helpviewer_keywords:
 - Change waves [MSBuild]
@@ -19,7 +19,9 @@ When you upgrade to a new version of MSBuild, changes that are potentially break
 
 ## Opt out of change wave features
 
-To disable the features in a change wave, set the environment variable `MSBuildDisableFeaturesFromVersion` to the change wave (or MSBuild version) that contains the feature you want **disabled**. This is the version of MSBuild that the features were developed for. See the mapping of change waves to features below.
+To disable the features in a change wave, set the environment variable `MSBuildDisableFeaturesFromVersion` to the change wave (or MSBuild version) that contains the feature you want **disabled**. This is the version of MSBuild that the features were developed for. See the mapping of change waves to the following features.
+
+Persistent MSBuild processes keep the value of `MSBuildDisableFeaturesFromVersion` that they started with. After you change the environment variable, shut down persistent build processes before you run another build. For builds run with the .NET CLI, use `dotnet build-server shutdown`. For builds run with Visual Studio or `MSBuild.exe`, close Visual Studio and end any remaining `MSBuild.exe` processes. Otherwise, reused processes might continue to use the previous value, and projects built in parallel might use different values.
 
 ### MSBuildDisableFeaturesFromVersion Values
 
@@ -37,8 +39,18 @@ You will receive a warning and/or default to a specific wave if you don't set `M
 
 ### Current Rotation of Change Waves
 
+#### 18.10
+- [Resolve relative project paths against the Unix logical current directory from `PWD`, so builds under symlinked directories produce stable project full paths and related output paths.](https://github.com/dotnet/msbuild/pull/13752)
+- [Restore passes `ExcludeRestorePackageImports=true` as a global property so NuGet's restore no longer triggers a second evaluation of every project.](https://github.com/dotnet/msbuild/issues/14273)
+- [`-getProperty`/`-getItem` (without a target) stop evaluation after the pass that produces the requested data instead of running a full evaluation, avoiding later passes such as target registration.](https://github.com/dotnet/msbuild/pull/14290)
+
+#### 18.9
+- [GenerateResource: typed ResX data/metadata entries in Mark-of-the-Web files are now treated as untrusted and blocked with MSB3821; unblock the file (or set MSBUILDDISABLEFEATURESFROMVERSION=18.9) to restore prior behavior. ResXFileRef entries are always blocked regardless of this wave.](https://github.com/dotnet/msbuild/pull/14015)
+- [TaskHost named-pipe buffers default to 1 MB (was 128 KB), reducing send backpressure for large TaskHostConfiguration packets. Tunable via MSBUILDNODECONNECTIONBUFFERSIZE](https://github.com/dotnet/msbuild/pull/14094)
+
 #### 18.8
 - [RAR task: across multiple input properties, resolve relative paths against the project directory (not the process current directory)](https://github.com/dotnet/msbuild/pull/13319)
+- [Console, parallel console, and terminal loggers print the paths of log files written by registered loggers (for example, file logger and binary logger) as part of the end-of-build summary.](https://github.com/dotnet/msbuild/pull/13577)
 
 #### 18.7
 - [Copy task retries on ERROR_ACCESS_DENIED on non-Windows platforms to handle transient lock conflicts (e.g. macOS CoW filesystems)](https://github.com/dotnet/msbuild/issues/13463)

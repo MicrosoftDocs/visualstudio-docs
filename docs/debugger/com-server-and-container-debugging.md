@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "COM servers, debugging"
   - "ActiveX controls, debugging"
   - "COM [Visual Studio], debugging"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

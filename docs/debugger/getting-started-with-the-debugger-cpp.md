@@ -8,8 +8,8 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "debugger"
-author: RoseHJM
-ms.author: rosemalcolm
+author: TylerMSFT
+ms.author: twhitney
 
 ms.update-cycle: 90-days
 

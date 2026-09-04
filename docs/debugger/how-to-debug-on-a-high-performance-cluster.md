@@ -11,8 +11,8 @@ dev_langs:
 helpviewer_keywords: 
   - cluster debugging
   - high-performance debugging
-author: RoseHJM
-ms.author: rosemalcolm
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

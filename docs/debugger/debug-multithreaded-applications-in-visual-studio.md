@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "debugging [Visual Studio], multithreaded"
   - "multithreaded debugging"
   - "high-performance debugging"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

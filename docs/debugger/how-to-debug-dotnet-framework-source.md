@@ -5,8 +5,8 @@ ms.date: 10/30/2025
 ms.topic: how-to
 helpviewer_keywords: 
   - debugging, .NET Framework source
-author: RoseHJM
-ms.author: rosemalcolm
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

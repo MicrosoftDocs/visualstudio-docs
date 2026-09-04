@@ -8,8 +8,8 @@ dev_langs:
 helpviewer_keywords:
   - "VTableShape symbol"
   - "SymTagVTableShape tag"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

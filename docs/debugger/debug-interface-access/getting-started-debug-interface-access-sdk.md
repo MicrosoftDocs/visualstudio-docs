@@ -8,8 +8,8 @@ dev_langs:
 helpviewer_keywords:
   - ".dbg files"
   - "DBG files"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

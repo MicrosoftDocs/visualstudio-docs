@@ -14,8 +14,8 @@ dev_langs:
 helpviewer_keywords:
   - "tabular visualizer"
   - "visualizers, tabular"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ms.collection: ce-skilling-ai-copilot

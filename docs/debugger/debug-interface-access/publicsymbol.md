@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "data symbols [C++]"
   - "PublicSymbol symbol"
   - "global functions [C++], as public symbols"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

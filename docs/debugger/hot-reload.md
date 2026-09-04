@@ -6,8 +6,8 @@ ms.topic: how-to
 helpviewer_keywords:
   - "Hot reload"
   - ".NET Hot Reload"
-author: RoseHJM
-ms.author: rosemalcolm
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2022'

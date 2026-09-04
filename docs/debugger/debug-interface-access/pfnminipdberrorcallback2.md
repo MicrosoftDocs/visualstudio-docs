@@ -7,8 +7,8 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "PFNMINIPDBERRORCALLBACK2 typedef"
-author: "grantri"
-ms.author: "grantri"
+author: vzarytovskii
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

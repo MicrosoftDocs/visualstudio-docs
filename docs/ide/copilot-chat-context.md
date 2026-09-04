@@ -18,7 +18,7 @@ ms.ai-usage: ai-assisted
 
 You can ask [**GitHub Copilot Chat**](visual-studio-github-copilot-chat.md) to give you code suggestions, explain code, generate unit tests, and suggest code fixes. Chat in Visual Studio can give you responses and generate code that matches your coding practices and project requirements, if you give it the right context. Instead of repeatedly adding this information in every chat prompt, you can store this context in files and automatically include it in every chat request.
 
-In this article, you learn how to get better answers by providing more information to Copilot Chat:
+To provide relevant context and tailor Copilot Chat responses, you can do the following tasks:
 
 :::moniker range="visualstudio"
 
@@ -40,16 +40,18 @@ Learn more about [AI-assisted development in Visual Studio](../ide/ai-assisted-d
 
 ## Prerequisites
 
-To get started using GitHub Copilot Chat in Visual Studio, you need:
-+ Visual Studio 2022 [version 17.10](/visualstudio/releases/2022/release-history) or later
-+ [Sign in to Visual Studio using a GitHub account](work-with-github-accounts.md) with [Copilot access](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot) <br/>
-  <sup>**</sup> You can sign up for [GitHub Copilot for Free](copilot-free-plan.md).
+Before you begin, ensure you meet the following prerequisites.
+
+| Prerequisite | Details |
+| --- | --- |
+| Visual Studio | Visual Studio 2022 [version 17.10](/visualstudio/releases/2022/release-history) or later. |
+| GitHub account | [Sign in to Visual Studio using a GitHub account](work-with-github-accounts.md) with [Copilot access](https://docs.github.com/en/copilot/about-github-copilot/what-is-github-copilot#getting-access-to-copilot). You can sign up for [GitHub Copilot Free](copilot-free-plan.md). |
 
 
 [!INCLUDE [copilot-trials-paused-notice](../includes/copilot-trials-paused-notice.md)]
 
 
-Support for GitHub Copilot Chat is provided by GitHub and can be reached at https://support.github.com.
+For GitHub Copilot Chat support, contact GitHub at https://support.github.com.
 
 ## Prompting guidance
 
@@ -69,17 +71,17 @@ The guided chat experience in Visual Studio 17.12 and later helps refine your pr
 
 ## Use custom instructions
 
-The custom instructions feature enables you to automatically add prespecified contextual details to your chat questions. Copilot Chat uses these instructions tailored to your specific context, such as, the way your team works, the tools you use, or the specifics of your project, when generating responses. 
+By using the custom instructions feature, you can automatically add prespecified contextual details to your chat questions. Copilot Chat uses these instructions to generate responses that reflect your specific context, such as the way your team works, the tools you use, or the specifics of your project.
 
 :::moniker range="visualstudio"
 
-:::image type="content" source="media/visualstudio/copilot-chat-context/custom-instruction-files.png" alt-text="Screenshot of custom instruction files used by Copilot in the References list.":::
+:::image type="content" source="media/visualstudio/copilot-chat-context/custom-instruction-files.png" alt-text="Screenshot of the References list showing custom instruction files that Copilot uses.":::
 
 :::moniker-end
 
 :::moniker range="<=vs-2022"
 
-:::image type="content" source="media/vs-2022/copilot-chat-context/custom-instruction-files.png" alt-text="Screenshot of custom instruction files used by Copilot in the References list.":::
+:::image type="content" source="media/vs-2022/copilot-chat-context/custom-instruction-files.png" alt-text="Screenshot of the References list showing custom instruction files that Copilot uses.":::
 
 :::moniker-end
 
@@ -87,7 +89,7 @@ The custom instructions feature enables you to automatically add prespecified co
 
 To use a `.github/copilot-instructions.md` file:
 
-1. [Create/add](https://docs.github.com/en/enterprise-cloud@latest/copilot/customizing-copilot/adding-custom-instructions-for-github-copilot) a custom instructions file `.github/copilot-instructions.md` in the root of your repository.
+1. [Create or add](https://docs.github.com/en/enterprise-cloud@latest/copilot/customizing-copilot/adding-custom-instructions-for-github-copilot) a custom instructions file `.github/copilot-instructions.md` in the root of your repository.
 
 :::moniker range="visualstudio"
 
@@ -100,7 +102,7 @@ To use a `.github/copilot-instructions.md` file:
 
 :::moniker-end
 
-Custom instructions aren't visible in the Chat view or inline chat. However, when used by Copilot, the`.github/copilot-instructions.md` file is listed in the References list of a response.
+The contents of custom instructions don't appear in the Chat view or inline chat. However, when Copilot uses the `.github/copilot-instructions.md` file, it lists the file in the **References** list for the response.
 
 [Copilot memories](copilot-context-overview.md#copilot-memories) can automatically detect your preferences during chat and add them to your instruction files, so you don't have to write them manually.
 
@@ -108,22 +110,31 @@ Custom instructions aren't visible in the Chat view or inline chat. However, whe
 
 ### Use organization-level custom instructions
 
+With organization-level custom instructions, GitHub organization owners can provide shared guidance that tailors Copilot responses across repositories in the organization. Teams can use these instructions to establish common preferences and working conventions.
+
 > [!NOTE]
-> Organization-level custom instructions apply only to repositories that belong to a GitHub organization.
+> Organization-level custom instructions apply only to repositories that belong to a GitHub organization. These instructions express preferences and don't enforce organizational policies.
 
-GitHub organization owners can add custom instructions that tailor Copilot responses to the organization's needs and preferences. These instructions can help teams establish shared guidance for using Copilot. Custom instructions express preferences; they don't enforce organizational policies.
+#### Add organization-level custom instructions
 
-For setup instructions, see [Add organization custom instructions](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/copilot-on-github/customize-copilot/add-custom-instructions/add-organization-instructions#adding-organization-custom-instructions).
+Organization owners can [add organization custom instructions](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/copilot-on-github/customize-copilot/add-custom-instructions/add-organization-instructions#adding-organization-custom-instructions) in GitHub.
+
+#### Review applied instructions
 
 When you work in a repository that belongs to your organization, Copilot automatically applies the organization's custom instructions. Applied instructions appear in the **References** list during Copilot interactions. Select the reference to open the complete instructions.
 
-To prevent Copilot from applying organization-level instructions, select **Tools** > **Options** > **GitHub** > **Copilot** > **Copilot Chat**, and then clear **Enable organization-level custom instructions**. You can disable organization-level instructions if they conflict with your user-level preferences.
+#### Disable organization-level custom instructions
+
+Disable organization-level instructions if you don't want to use them or if they conflict with your user-level preferences:
+
+1. Select **Tools** > **Options** > **GitHub** > **Copilot** > **Copilot Chat**.
+1. Clear **Enable organization-level custom instructions**.
 
 ### Use user-level preferences
 
-In addition to repo-level custom instructions, you can define user-level preferences that apply to all your Copilot sessions across projects. User-level preferences are saved to `%USERPROFILE%/copilot-instructions.md`.
+In addition to repo-level custom instructions, you can define user-level preferences that apply to all your Copilot sessions across projects. The `%USERPROFILE%/copilot-instructions.md` file stores these preferences.
 
-Use user-level preferences for personal coding standards, preferred patterns, or workflow conventions that you want Copilot to follow regardless of the repository you're working in. Repo-level instructions in `.github/copilot-instructions.md` still apply alongside your user-level preferences, so your team's shared standards are also respected.
+Use user-level preferences for personal coding standards, preferred patterns, or workflow conventions that you want Copilot to follow regardless of the repository you're working in. Repo-level instructions in `.github/copilot-instructions.md` still apply alongside your user-level preferences, so Copilot also respects your team's shared standards.
 
 You can add preferences to this file manually, or let [Copilot memories](copilot-context-overview.md#copilot-memories) detect and save them automatically as you chat.
 
@@ -159,7 +170,7 @@ To use a `.github/instructions/*.instructions.md` file:
 Targeted instruction files use the `.instructions.md` extension and have this structure:
 
 * **Header** (optional): YAML frontmatter
-  - `description`: Description shown on hover in Chat view
+  - `description`: Description that appears when you hover over the file in Chat view
   - `applyTo`: Glob pattern that matches the files or folders you want the instructions to apply to
 * **Body**: Instructions in Markdown format
 
@@ -187,9 +198,9 @@ For more examples of custom instructions, see the list of [instruction samples o
 
 ### How instruction files work 
 
-When you start working with Copilot, it automatically detects which instruction files are relevant to your current context and attaches them as references. This ensures Copilot’s suggestions are always aligned with your project’s rules no matter where you’re working in your codebase.
+When you start working with Copilot, it automatically detects which instruction files are relevant to your current context and attaches them as references. This feature ensures Copilot’s suggestions always align with your project’s rules, no matter where you’re working in your codebase.
 
-The instruction files used by Copilot are listed in the References list of the response.
+Copilot lists the instruction files it uses in the References list of the response.
 
 ## Use prompt files
 
@@ -200,38 +211,38 @@ To create a prompt file:
 1. Copy the prompt into a markdown file, and save it with the `.prompt.md` extension in the `.github/prompts` folder at the root of your repository.
 
 To use a prompt file:
-1. Type `#prompt:` in chat input to reference any prompt files from your `.github/prompts` folder, or click the ➕ icon in the chat input to add it as context.
+1. Type `#prompt:` in chat input to reference any prompt files from your `.github/prompts` folder, or select the **➕** icon in the chat input to add it as context.
 1. Add any extra details, or simply enter the prompt as is.
 
 :::image type="content" source="media/vs-2022/copilot-chat-context/prompt-files.png" alt-text="Screenshot of using prompt files in GitHub Copilot Chat.":::
 
 :::moniker range="visualstudio"
 
-Once you've created prompt files, you can quickly invoke them by typing `/` in the chat input.
+Once you create prompt files, you can quickly invoke them by typing `/` in the chat input.
 
 ## Invoke custom prompts with slash commands
 
-You can quickly invoke your favorite custom prompts directly from the chat input box using slash commands.
+You can quickly invoke your favorite custom prompts directly from the chat input box by using slash commands.
 
 ### Access custom prompts with /
 
 Type `/` in the chat input to see your custom prompts at the top of the IntelliSense list.
 
-- **Custom prompts** appear at the top of the list with a bookmark icon
-- **System commands** (like `/help`, `/savePrompt`) appear below without an icon
+- **Custom prompts** appear at the top of the list with a bookmark icon.
+- **System commands** (like `/help`, `/savePrompt`) appear below without an icon.
 
 :::image type="content" source="media/visualstudio/copilot-chat-context/slash-commands.png" alt-text="Screenshot of IntelliSense list showing custom prompts with bookmark icons at the top after typing slash.":::
 
 ### Create custom instructions with /generateInstructions
 
-Use the `/generateInstructions` command to automatically generate repository-level custom instructions for your project. This command analyzes your project structure and coding patterns to create a `copilot-instructions.md` file tailored to your repository.
+Use the `/generateInstructions` command to automatically generate repository-level custom instructions for your project. This command analyzes your project structure and coding patterns to create a repository-specific `copilot-instructions.md` file.
 
 **To use `/generateInstructions`:**
 
 1. Open Copilot Chat in Visual Studio.
 1. Type `/generateInstructions` in the chat input and press **Enter**.
 1. Copilot analyzes your project structure and coding patterns.
-1. A `copilot-instructions.md` file is generated in your `.github` folder.
+1. Copilot generates a `copilot-instructions.md` file in your `.github` folder.
 
 This command leverages project smarts to detect coding styles and preferences, making it easy to set up custom instructions without manually authoring the file.
 
@@ -242,11 +253,11 @@ Use the `/savePrompt` command to extract a reusable prompt from your current con
 **To use `/savePrompt`:**
 
 1. Type a prompt in Copilot Chat that you want to reuse.
-1. After Copilot responds, type `/savePrompt` in the chat input and press **Enter**.
+1. After Copilot responds, type `/savePrompt` in the chat input and select **Enter**.
 1. Choose a name for the prompt file.
-1. The prompt is saved to `.github/prompts/[name].prompt.md`.
+1. `/savePrompt` saves the prompt to `.github/prompts/[name].prompt.md`.
 
-Once saved, you can quickly access this prompt by typing `/` and selecting it from the IntelliSense list.
+You can then quickly access the prompt by typing `/` and selecting it from the IntelliSense list.
 
 :::moniker-end
 
@@ -264,7 +275,7 @@ You can use slash commands in a [chat window](visual-studio-github-copilot-chat.
 | /explain | Get code explanations. <br><br>  Examples: <br> - `/explain the AddItemToBasket method in BasketService.cs`</br>- select desired code and enter `/explain`| Yes | Yes |
 | /fix | Propose a fix for problems in the selected code. <br>  Examples: <br> - `/fix the SetQuantities method in BasketService.cs`</br>- select desired code and enter `/fix`| Yes | Yes |
 | /generate | Generate code to answer specified question. <br> Example: `/generate code to add two numbers in Calculator.cs`| Yes | Yes | 
-| /generateInstructions | Generate repository-level custom instructions (`copilot-instructions.md`) based on your project's coding patterns and structure. | Yes | No |
+| /generateInstructions | Generate repository-level custom instructions (`copilot-instructions.md`) that reflect your project's coding patterns and structure. | Yes | No |
 | /help | Get help on using Copilot Chat. <br> Example: `/help`| Yes | Yes | 
 | /optimize | Analyze and improve running time of the selected code. <br> Examples:<br> - `/optimize the AddItemToBasket method in BasketService.cs`</br>- select desired code and enter `/optimize`| Yes | Yes |
 | /savePrompt | Save a reusable prompt from the current conversation thread to a `.prompt.md` file in your `.github/prompts` folder. | Yes | No |
@@ -296,11 +307,11 @@ With Visual Studio 2022 version 17.13, as the user types a slash command, the co
 
 ## Use Copilot actions
 
-You can use Copilot actions from the context menu to quickly access preconfigured prompts and slash commands for common development tasks.
+Use Copilot actions from the context menu to quickly access preconfigured prompts and slash commands for common development tasks.
 
 :::image type="content" source="media/visualstudio/copilot-chat-context/copilot-actions.png" alt-text="Screenshot of Copilot actions in the context menu.":::
 
-The behavior of each action depends on whether you have code selected when you open the context menu: 
+The behavior of each action depends on whether you select code when you open the context menu: 
 
 | **Action** | **With code selected** | **Without code selected** |
 |---------------------------|--------------------|:----------:|:----------:|
@@ -339,11 +350,11 @@ Copilot provides optimization suggestions across these areas:
 
 ## Use Copilot actions
 
-You can use Copilot actions from the context menu to quickly access preconfigured prompts and slash commands for common development tasks.
+Use Copilot actions from the context menu to quickly access preconfigured prompts and slash commands for common development tasks.
 
 :::image type="content" source="media/vs-2022/copilot-chat-context/copilot-actions.png" alt-text="Screenshot of Copilot actions in the context menu.":::
 
-The behavior of each action depends on whether you have code selected when you open the context menu: 
+The behavior of each action depends on whether you select code when you open the context menu: 
 
 | **Action** | **With code selected** | **Without code selected** |
 |---------------------------|--------------------|:----------:|:----------:|

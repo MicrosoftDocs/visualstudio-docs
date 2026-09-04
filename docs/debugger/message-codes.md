@@ -5,8 +5,8 @@ ms.date: 02/05/2024
 ms.topic: error-reference
 helpviewer_keywords:
   - "message codes"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

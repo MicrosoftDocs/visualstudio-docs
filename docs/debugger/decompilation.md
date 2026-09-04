@@ -8,8 +8,8 @@ dev_langs:
 helpviewer_keywords: 
   - decompilation, debugger, exception
   - debugging [Visual Studio], decompilation, source not found
-author: RoseHJM
-ms.author: rosemalcolm
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2022'

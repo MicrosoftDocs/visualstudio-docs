@@ -13,8 +13,8 @@ helpviewer_keywords:
   - tutorials, multithreaded debugging
   - deadlock, debugging
   - debugging, deadlock
-author: RoseHJM
-ms.author: rosemalcolm
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2022'

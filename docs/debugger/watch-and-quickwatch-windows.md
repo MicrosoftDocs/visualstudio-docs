@@ -14,8 +14,8 @@ helpviewer_keywords:
   - expression evaluation
   - registers, evaluating
   - debugging [Visual Studio], expression evaluation
-author: RoseHJM
-ms.author: rosemalcolm
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---
