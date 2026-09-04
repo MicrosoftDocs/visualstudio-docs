@@ -2,12 +2,11 @@
 title: "Browse repos, compare branches & commits"
 description: Browse Git repositories in Visual Studio, compare branches and commits, view line-by-line change history with Git Blame annotations, and track who made specific code changes.
 ms.date: 09/04/2026
-ai-usage: ai-assisted
 ms.topic: how-to
 author: RoseHJM
 ms.author: rosemalcolm
 ms.custom: doc-kit-assisted, awp-ai
-
+ai-usage: ai-assisted
 ms.subservice: general-ide
 ---
 # Browse Git repositories and compare branches in Visual Studio
@@ -241,7 +240,7 @@ In **Git** > **View Branch History**, open any commit and select **Open changes 
 
 ## Review commits with GitHub Copilot
 
-You can request a private Copilot code review for one commit or for the changes between two commits:
+You can request a private Copilot code review for changes in one commit or between two commits. To review a specific block of code, see [Review selected code](../ide/copilot-chat-context.md#review-selected-code). To review all uncommitted local changes, see [Review local changes with Copilot Chat](git-make-commit.md#review-local-changes-with-copilot-chat).
 
 - To review one commit, right-click the commit in the **Git Repository** window, and then select **Review Commit**.
 - To review a range, select two commits, right-click the selection, and then select **Review Commit**.
