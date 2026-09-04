@@ -94,7 +94,7 @@ When you rename a file, you'll see a notification bar at the top of the **Git Ch
 
 ### Review local changes with Copilot Chat 
 
-With [GitHub Copilot](../ide/visual-studio-github-copilot-install-and-states.md) installed, you can have GitHub Copilot review your uncommitted local changes before you commit them.
+When you install [GitHub Copilot](../ide/visual-studio-github-copilot-install-and-states.md), you can use it to review your uncommitted local changes before you commit them.
 
 To review a specific block of code, see [Review selected code](../ide/copilot-chat-context.md#review-selected-code). To review changes in one commit or between two commits, see [Review commits with GitHub Copilot](git-browse-repository.md#review-commits-with-github-copilot).
 
