@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "SymTagManagedType symbol"
   - "managed type symbol"
   - "ManagedType symbol"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

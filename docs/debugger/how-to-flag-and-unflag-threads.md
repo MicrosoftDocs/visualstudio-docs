@@ -10,8 +10,8 @@ dev_langs:
   - C++
 helpviewer_keywords: 
   - treads, switching [debugging]
-author: RoseHJM
-ms.author: rosemalcolm
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

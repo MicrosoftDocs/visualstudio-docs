@@ -5,8 +5,8 @@ ms.date: 05/28/2026
 ms.topic: quickstart
 helpviewer_keywords:
   - "debugger"
-author: RoseHJM
-ms.author: rosemalcolm
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 # customer intent: As a developer, I want to debug my ASP.NET Core apps in the Visual Studio debugger, so I can work with features that help me debug my code.

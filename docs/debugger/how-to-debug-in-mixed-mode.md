@@ -12,8 +12,8 @@ helpviewer_keywords:
   - debugging DLLs
   - debugging [Visual Studio], mixed-mode
   - mixed-mode debugging
-author: RoseHJM
-ms.author: rosemalcolm
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 zone_pivot_groups: programming-languages-set-two

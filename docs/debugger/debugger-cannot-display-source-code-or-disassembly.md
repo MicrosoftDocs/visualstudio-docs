@@ -10,8 +10,8 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "disassembly code, errors"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

@@ -7,8 +7,8 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaEnumNamedStreams::Next method"
-author: "grantri"
-ms.author: "grantri"
+author: vzarytovskii
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

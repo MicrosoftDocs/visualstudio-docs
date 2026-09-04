@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "debugger, Web application errors"
   - "error messages, ASP.NET"
   - "ASP.NET, installation error messages"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

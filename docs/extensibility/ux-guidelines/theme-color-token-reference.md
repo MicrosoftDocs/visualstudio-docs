@@ -1,7 +1,7 @@
 ---
 title: Visual Studio Theme Color Tokens
 description: Reference for the theme color tokens used in Fluent UI in Visual Studio 2026.
-ms.date: 08/04/2026
+ms.date: 08/24/2026
 ms.topic: reference
 helpviewer_keywords:
 - content_types
@@ -18,17 +18,19 @@ monikerRange: "visualstudio"
 
 Visual Studio uses semantic color tokens to define the appearance of every UI surface. These tokens are part of the Fluent design system introduced in Visual Studio 2026. Instead of referencing specific hex colors, each control and surface references a named token. Themes provide values for these tokens, and the entire IDE updates accordingly.
 
-This reference lists every available theme color token, its intended usage, and its default values in the Light, Dark, and High Contrast themes. Use this reference when creating custom themes or overriding individual tokens in your settings.
+This reference lists every available theme color token, its intended usage, and its default values in the Light, Dark, and High Contrast themes. Use this reference when creating custom themes or overriding individual tokens in your settings or via the **Theme colors** editor.
 
 ## Customize theme colors in Visual Studio
 
-Visual Studio 2026 (18.7) includes an in-product **Theme colors** page for customizing Fluent theme color tokens. Open **Tools > Options > Environment > Visual Experience > Theme colors** to view the tokens for the active theme in a searchable grid. Changes apply live, support per-token reset, and are saved per theme so they're retained when you switch themes.
+Visual Studio 2026 (18.7) includes an in-product **Theme colors** page for customizing Fluent theme color tokens. Use the **Edit theme colors** command, or open **Tools > Options > Environment > Visual Experience > Theme colors**. The page lists the tokens for the active theme in a searchable grid.
+
+Select a token and choose a color to apply the change immediately. You can reset an individual token without removing your other customizations. Overrides are saved separately for each theme and layered on top of the selected theme, so switching themes also switches to the overrides saved for that theme. Depending on the available tokens, you can customize editor colors, tool windows, shell chrome, tab headers, window headers, and interaction states such as hover colors.
 
 For broader end-user appearance settings, see [Change fonts, colors, and themes in Visual Studio](../../ide/how-to-change-fonts-and-colors-in-visual-studio.md).
 
 ### Sharing theme overrides
 
-To share token overrides, place a theme-named JSON file in `%LOCALAPPDATA%\Microsoft\VisualStudio\18.0_xxxxxxxx\ColorThemes`. The overrides apply to the matching theme after you restart Visual Studio.
+To share token overrides, place a JSON file in `%LOCALAPPDATA%\Microsoft\VisualStudio\18.0_xxxxxxxx\ColorThemes`. The file name must match the theme to override. For example, `dark.json` overrides the Dark theme. Restart Visual Studio to apply file-based overrides to the matching theme.
 
 ## How theme tokens work
 
@@ -42,6 +44,10 @@ Each token is a semantic name that maps to a color value. Tokens are organized i
 Colors are specified in `#AARRGGBB` format (alpha, red, green, blue). For example, `#B2FFFFFF` is white at ~70% opacity.
 
 High Contrast values are system color indices (for example, `00000008` = `WindowText`). Visual Studio resolves these to the user's current High Contrast color scheme at runtime.
+
+### Override behavior
+
+Theme-provided token values are the base values for the selected theme. When a user changes a token in the **Theme colors** editor, Visual Studio applies that value as an override layer on top of the selected theme. Removing or resetting an individual override restores the token to the selected theme's base value without affecting other overrides.
 
 ## Shell colors
 
@@ -226,14 +232,14 @@ Tokens that control the main window and shell chrome surfaces.
 | `EnvironmentBodyText` | Text color in the body/content area of the main shell window | :::image type="icon" source="media/visualstudio/swatch-001.svg" alt-text="Color swatch #000000 image 195" border="true"::: `#E4000000` | :::image type="icon" source="media/visualstudio/swatch-055.svg" alt-text="Color swatch #FFFFFF image 196" border="true"::: `#FFFFFFFF` | `00000008` |
 | `EnvironmentBorder` | Active main window border | :::image type="icon" source="media/visualstudio/swatch-028.svg" alt-text="Color swatch #5649B0 image 197" border="true"::: `#FF5649B0` | :::image type="icon" source="media/visualstudio/swatch-034.svg" alt-text="Color swatch #9184EE image 198" border="true"::: `#FF9184EE` | `0000000A` |
 | `EnvironmentBorderInactive` | Inactive main window border and internal dividers | :::image type="icon" source="media/visualstudio/swatch-038.svg" alt-text="Color swatch #ADADAD image 199" border="true"::: `#FFADADAD` | :::image type="icon" source="media/visualstudio/swatch-027.svg" alt-text="Color swatch #454545 image 200" border="true"::: `#FF454545` | `00000003` |
-| `EnvironmentHeader` | Background for active header areas | :::image type="icon" source="media/visualstudio/swatch-049.svg" alt-text="Color swatch #F9F9F9 image 201" border="true"::: `#FFF9F9F9` | :::image type="icon" source="media/visualstudio/swatch-017.svg" alt-text="Color swatch #282828 image 202" border="true"::: `#FF282828` | `00000005` |
-| `EnvironmentHeaderInactive` | Background for inactive header areas | :::image type="icon" source="media/visualstudio/swatch-049.svg" alt-text="Color swatch #F9F9F9 image 203" border="true"::: `#FFF9F9F9` | :::image type="icon" source="media/visualstudio/swatch-017.svg" alt-text="Color swatch #282828 image 204" border="true"::: `#FF282828` | `00000005` |
+| `EnvironmentHeader` | Active window or tool-window header background, separate from tab backgrounds | :::image type="icon" source="media/visualstudio/swatch-049.svg" alt-text="Color swatch #F9F9F9 image 201" border="true"::: `#FFF9F9F9` | :::image type="icon" source="media/visualstudio/swatch-017.svg" alt-text="Color swatch #282828 image 202" border="true"::: `#FF282828` | `00000005` |
+| `EnvironmentHeaderInactive` | Inactive window or tool-window header background, separate from tab backgrounds | :::image type="icon" source="media/visualstudio/swatch-049.svg" alt-text="Color swatch #F9F9F9 image 203" border="true"::: `#FFF9F9F9` | :::image type="icon" source="media/visualstudio/swatch-017.svg" alt-text="Color swatch #282828 image 204" border="true"::: `#FF282828` | `00000005` |
 | `EnvironmentIndicator` | Border or indicator for auto-hidden tabs | :::image type="icon" source="media/visualstudio/swatch-031.svg" alt-text="Color swatch #757575 image 205" border="true"::: `#66757575` | :::image type="icon" source="media/visualstudio/swatch-031.svg" alt-text="Color swatch #757575 image 206" border="true"::: `#66757575` | `0000000A` |
 | `EnvironmentLayeredBackground` | Background for layered elements like InfoBars and tab groups | :::image type="icon" source="media/visualstudio/swatch-055.svg" alt-text="Color swatch #FFFFFF image 207" border="true"::: `#80FFFFFF` | :::image type="icon" source="media/visualstudio/swatch-023.svg" alt-text="Color swatch #3A3A3A image 208" border="true"::: `#4D3A3A3A` | `00000005` |
 | `EnvironmentLayeredBorder` | Border for layered elements like InfoBars and badges | :::image type="icon" source="media/visualstudio/swatch-001.svg" alt-text="Color swatch #000000 image 209" border="true"::: `#0F000000` | :::image type="icon" source="media/visualstudio/swatch-001.svg" alt-text="Color swatch #000000 image 210" border="true"::: `#80000000` | `00000010` |
 | `EnvironmentLogo` | Visual Studio logo fill in the system menu | :::image type="icon" source="media/visualstudio/swatch-028.svg" alt-text="Color swatch #5649B0 image 211" border="true"::: `#FF5649B0` | :::image type="icon" source="media/visualstudio/swatch-034.svg" alt-text="Color swatch #9184EE image 212" border="true"::: `#FF9184EE` | `0000000D` |
-| `EnvironmentTab` | Tab element background | :::image type="icon" source="media/visualstudio/swatch-049.svg" alt-text="Color swatch #F9F9F9 image 213" border="true"::: `#FFF9F9F9` | :::image type="icon" source="media/visualstudio/swatch-017.svg" alt-text="Color swatch #282828 image 214" border="true"::: `#FF282828` | `00000005` |
-| `EnvironmentTabInactive` | Inactive tab element background | :::image type="icon" source="media/visualstudio/swatch-049.svg" alt-text="Color swatch #F9F9F9 image 215" border="true"::: `#FFF9F9F9` | :::image type="icon" source="media/visualstudio/swatch-017.svg" alt-text="Color swatch #282828 image 216" border="true"::: `#FF282828` | `00000005` |
+| `EnvironmentTab` | Active tab header background, separate from window and tool-window headers | :::image type="icon" source="media/visualstudio/swatch-049.svg" alt-text="Color swatch #F9F9F9 image 213" border="true"::: `#FFF9F9F9` | :::image type="icon" source="media/visualstudio/swatch-017.svg" alt-text="Color swatch #282828 image 214" border="true"::: `#FF282828` | `00000005` |
+| `EnvironmentTabInactive` | Inactive tab header background, separate from window and tool-window headers | :::image type="icon" source="media/visualstudio/swatch-049.svg" alt-text="Color swatch #F9F9F9 image 215" border="true"::: `#FFF9F9F9` | :::image type="icon" source="media/visualstudio/swatch-017.svg" alt-text="Color swatch #282828 image 216" border="true"::: `#FF282828` | `00000005` |
 
 ### Caption
 

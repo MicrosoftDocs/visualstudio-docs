@@ -14,8 +14,8 @@ dev_langs:
   - VB
 helpviewer_keywords:
   - app package, debug
-author: RoseHJM
-ms.author: rosemalcolm
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ms.custom: sfi-image-nochange

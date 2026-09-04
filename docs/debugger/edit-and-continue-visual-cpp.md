@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "Edit and Continue [C++]"
   - "debugging [C++], Edit and Continue"
   - "C/C++, Edit and Continue"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ms.custom: awp-ai

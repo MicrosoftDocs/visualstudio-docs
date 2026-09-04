@@ -380,6 +380,7 @@ settings.json
 requirements.txt
 .github/hooks/doc-kit-hooks.json
 .github/hooks/scripts/add-dockit-tag.sh
+.github/hooks/scripts/add-dockit-tag.mjs
 
 # Allow Visual Studio product instructions file
 !.github/instructions/visual-studio-product.instructions.md

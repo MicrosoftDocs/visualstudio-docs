@@ -114,7 +114,7 @@ Learn more about how to add a pull request template to your repository in the [G
 
 ## Review, vote, and complete pull requests in Visual Studio
 
-You can open a pull request in Visual Studio, understand whether it's ready, and act on it all in one place.
+You can open a pull request in Visual Studio, understand whether it's ready, and act on it all in one place. The embedded pull request view lets you browse any pull request in the repository, including its description, changed files, commits, and related work items and reviewers, without checking out the pull request branch. To annotate files in the editor instead, use [Show comments in files](#view-or-add-pull-request-comments-in-the-editor), which requires you to check out the pull request branch.
 
 :::image type="content" source="media/visualstudio/pr-updates-overview.png" alt-text="Screenshot of a pull request overview with status checks, reviewer votes, and vote and complete actions in Visual Studio." lightbox="media/visualstudio/pr-updates-overview.png":::
 
@@ -123,6 +123,11 @@ You can open a pull request in Visual Studio, understand whether it's ready, and
 - Review commit details in the pull request view to follow changes commit by commit.
 - Move between pull requests from the list, sorted by last updated time by default.
 - See comments per file in the **Changes** list to quickly find active discussions.
+- Comment on specific lines in the diff, reply to a thread, and resolve it, with inline images and [Markdown formatting](#markdown-formatting-in-comments) rendered in the comment.
+- Select **Open in New Tab** in the pull request header to open the pull request in a dedicated tab. This is an alternate way to view pull request details instead of embedded navigation, and it helps you keep multiple pull requests open at the same time.
+
+> [!NOTE]
+> The actions and vote states that are available depend on the host. Azure DevOps supports more pull request actions than GitHub's approve and merge flow, such as converting a pull request to a draft or abandoning it.
 
 ### Open a pull request in a dedicated tab
 
@@ -138,6 +143,8 @@ To access pull requests, use the **Git** menu, the **Git Repository** window, or
 
 :::image type="content" source="media/visualstudio/pr-updates-entry-points.png" alt-text="Screenshot showing three pull request entry points in Visual Studio: the Git menu, Git Repository window, and Git Changes window." lightbox="media/visualstudio/pr-updates-entry-points.png":::
 
+If the pull request list isn't available, open the **Tools** > **Options** pane, expand the **All Settings** > **Preview Features** section, and select the **View pull requests for a Git repository** checkbox. This setting is separate from the **Pull Request Comments** setting, which controls the [comments in the editor](#view-or-add-pull-request-comments-in-the-editor) experience.
+
 ### Add pull requests to Copilot Chat
 
 Copilot Chat already knows about your commits and changes, and you can also bring pull requests into the conversation.
@@ -147,6 +154,8 @@ In the **Git Repository** window, right-click a pull request and select **Add to
 You can also reference a pull request directly in chat by typing `#` and a pull request ID. For example, ask Copilot to summarize a pull request to get a quick overview without reading every file.
 
 :::image type="content" source="media/visualstudio/add-pr-to-chat.png" alt-text="Screenshot showing a pull request being added to Copilot Chat from the Git Repository window." lightbox="media/visualstudio/add-pr-to-chat.png":::
+
+You can also attach a Git branch as chat context. In the **Git Repository** window, right-click a branch and select **Add to Chat** to attach the branch name and its associated changes as context, separate from adding a pull request.
 
 
 :::moniker-end

@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "C++ projects, debugging"
   - "debug builds, project settings"
   - "debugging [C++]"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

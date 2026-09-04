@@ -1,7 +1,7 @@
 ---
 title: Visual Studio Color Themes
 description: Browse all available Visual Studio color themes including Dark, Light, Cool Breeze, Spicy Red, Bubblegum, and more. See screenshots of each theme in action.
-ms.date: 02/26/2026
+ms.date: 08/24/2026
 ms.topic: reference
 author: RoseHJM
 ms.author: rosemalcolm
@@ -25,6 +25,14 @@ To change your color theme:
 1. Select **Tools** > **Options** from the menu bar.
 1. Expand **All Settings** > **Environment** > **Visual Experience**.
 1. Select a theme from the **Color theme** dropdown.
+
+## Customize theme colors
+
+Visual Studio includes built-in theme color customization for Fluent color tokens. Use the **Edit theme colors** command, or open **Tools > Options > Environment > Visual Experience > Theme colors**, to customize token colors in the IDE without installing an extension.
+
+Theme color changes are saved per theme and applied as an override layer on top of the currently selected theme. They don't create a separate theme. When you switch themes, Visual Studio uses the overrides saved for the new theme. To revert a change, reset the individual token.
+
+The **Theme colors** page lets you search for tokens, change colors that affect the editor, tool windows, and shell surfaces, and reset individual tokens. Newer Visual Studio versions include distinct tokens for shell chrome, tab headers, and window headers, so these areas can be adjusted independently when the theme exposes those tokens.
 
 Browse the sections below to preview each available theme.
 

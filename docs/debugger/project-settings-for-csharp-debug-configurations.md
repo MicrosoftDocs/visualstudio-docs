@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "projects [Visual Studio], debug configurations"
   - "project configurations, debug"
   - "debugging [C#], debugger settings"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---

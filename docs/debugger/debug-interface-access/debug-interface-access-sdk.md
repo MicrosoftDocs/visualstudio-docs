@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "debugging [DIA SDK]"
   - "debugger [DIA SDK]"
   - "DIA SDK"
-author: nitinme
-ms.author: nitinme
+author: TylerMSFT
+ms.author: twhitney
 
 ms.subservice: debug-diagnostics
 ---
