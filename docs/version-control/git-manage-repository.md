@@ -1,13 +1,13 @@
 ---
 title: Manage Git repos in Visual Studio
 titleSuffix: ""
-description: Manage any Git repository in Visual Studio by using the Git Repository window and change your last commit, merge commits (squash), cherry-pick commits, and more.
-ms.date: 05/13/2026
+description: Manage Git repositories in Visual Studio by using worktrees, changing commits, merging branches, cherry-picking commits, and more.
+ms.date: 09/08/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: RoseHJM
 ms.author: rosemalcolm
-
+ai-usage: ai-assisted
 ms.subservice: general-ide
 ms.collection: ce-skilling-ai-copilot
 ms.custom: doc-kit-assisted
@@ -16,7 +16,7 @@ ms.custom: doc-kit-assisted
 
 The **Git Repository** window provides a full-screen Git experience that helps you manage your Git repository and stay up to date with your team's projects. For example, you might need to reset, revert, or cherry-pick commits, or just clean your commit history. The **Git Repository** window is also a great place to visualize and manage your branches. 
 
-Version control with Visual Studio is easy with Git.  And, you can work remotely with the Git provider of your choice, such as GitHub or Azure DevOps. Or, you can work locally with no provider at all.
+Version control with Visual Studio is easy with Git. And, you can work remotely with the Git provider of your choice, such as GitHub or Azure DevOps. Or, you can work locally with no provider at all.
 
 ## Open the Git Repository window
 
@@ -24,6 +24,32 @@ To open the **Git Repository** window, choose **View** > **Git repository** (or 
 
    > [!TIP]
    > To keep this window open on restart, choose **Git** > **Settings** and check the ["Restore the Git Repository window on restart"](./git-settings.md#restore-the-git-repository-window-on-restart) box.
+
+:::moniker range="visualstudio"
+
+## Work on multiple branches with Git worktrees
+
+A Git worktree is a separate working directory for the same repository. Worktrees let you work on multiple branches at the same time without stashing changes or cloning the repository again.
+
+To create and open a worktree:
+
+1. In the **Git Repository** window, right-click a branch and select **New Worktree from**. You can create a branch for the worktree or use the selected branch.
+
+   You can also right-click a commit in the history graph and select **New Worktree from** to create a worktree from that commit.
+
+1. Open the worktree by selecting **Open Worktree in Current Window** or **Open Worktree in New Window**.
+
+   :::image type="content" source="media/git-worktree-context-menu.png" alt-text="Screenshot of the Git Repository context menu with commands to create, open, and delete a worktree." lightbox="media/git-worktree-context-menu.png":::
+
+Worktrees appear with branches in the **Git Repository** window. To switch to a worktree, select it in the branch list, branch picker, or repository picker.
+
+:::image type="content" source="media/git-worktree-branch-list.png" alt-text="Screenshot of worktrees listed with branches in the Git Repository window." lightbox="media/git-worktree-branch-list.png":::
+
+To remove a worktree, right-click the worktree in the **Git Repository** window and select **Delete Worktree**.
+
+For more information and to share feedback, see the [Git worktree support feature ticket](https://developercommunity.visualstudio.com/t/Git-worktree-support-in-the-Visual-Studi/10708556).
+
+:::moniker-end
 
 ## Change the last commit (amend)
 
@@ -81,7 +107,7 @@ To learn more about amending, including how to change commit messages other than
 
 ## Merge commits (squash)
 
-To merge a series of commits, Git provides an option to squash commits down into a single commit. This option can be helpful if you make frequent commits and end up with a long list of commits that you want to clean up before pushing to a remote repository.
+To merge a series of commits, Git provides an option to squash commits into a single commit. This option is helpful if you make frequent commits and end up with a long list of commits that you want to clean up before pushing to a remote repository.
 
 You can squash two commits on the command line by using the following command:
 
@@ -111,7 +137,7 @@ To learn more about squashing, see [Git Tools - Rewriting History](https://git-s
 
 ## Merge and rebase branches
 
-If you're using Git branches to work on different features, at some point you'll need to include updates introduced to other branches. This can happen while you're still working on your feature branch. It can also happen when you're done working on your feature branch and need to keep your changes by adding them to a different branch. In Git, you can include these updates by merging or rebasing branches.
+If you use Git branches to work on different features, you sometimes need to include updates that other branches introduce. This need can arise while you're still working on your feature branch. It can also arise when you're done working on your feature branch and need to keep your changes by adding them to a different branch. In Git, you can include these updates by merging or rebasing branches.
 
 > [!NOTE]
 > The following instructions use *New_Feature* as an example name for a feature branch. Replace it with the name of your own branch.
@@ -123,7 +149,7 @@ git checkout New_Feature
 git merge main
 ```
 
-To do the same in Visual Studio, check out the feature branch by double-clicking it in the branch list. Then right-click **main** and select **Merge 'main' into 'New_Feature'**.
+To do the same thing in Visual Studio, check out the feature branch by double-clicking it in the branch list. Then right-click **main** and select **Merge 'main' into 'New_Feature'**.
 
 :::moniker range="visualstudio"
 
@@ -144,7 +170,7 @@ git checkout New_Feature
 git rebase main
 ```
 
-To do the same in Visual Studio, check out the feature branch by double-clicking it in the branch list. Then right-click **main** and select **Rebase 'New_Feature' onto 'main'**.
+To do the same thing in Visual Studio, check out the feature branch by double-clicking it in the branch list. Then right-click **main** and select **Rebase 'New_Feature' onto 'main'**.
 
 :::moniker range="visualstudio"
 
@@ -203,7 +229,7 @@ git revert 53333305
 git commit
 ```
 
-In the previous example, the commands will undo the changes made in commit 53333305 and create a new commit on the branch. The original commit is still in the Git history. To do the same in Visual Studio, right-click the commit you want to revert and then select **Revert**. After you confirm your action and the operation is complete, Visual Studio displays a success message and a new commit appears in the **Outgoing** section.
+In the following example, the commands undo the changes made in commit 53333305 and create a new commit on the branch. The original commit is still in the Git history. To do the same in Visual Studio, right-click the commit you want to revert and then select **Revert**. After you confirm your action and the operation is complete, Visual Studio displays a success message and a new commit appears in the **Outgoing** section.
 
 :::moniker range="visualstudio"
     
@@ -237,7 +263,7 @@ To learn more about reverting changes, see the [Git webpage for the revert comma
 
 ## Reset a branch to a previous state
 
-Use the reset command to bring a branch in your local repository back to the contents of a previous commit. This action discards all changes that have happened since the commit that you're resetting your branch to.
+Use the reset command to bring a branch in your local repository back to the contents of a previous commit. This action discards all changes that happen after the commit that you reset your branch to.
 
 > [!WARNING]
 > Don't reset shared branches, because you might delete other people's work. Use the revert command instead.
