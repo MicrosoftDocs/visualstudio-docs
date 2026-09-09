@@ -2,11 +2,11 @@
 title: Git Settings in Visual Studio
 titleSuffix: ""
 description: Explore how Visual Studio uses .gitconfig files and Git settings to manage your project and solution preferences, such as your preferred diff and merge tools.
-ms.date: 01/16/2026
+ms.date: 09/08/2026
 ms.topic: how-to
 author: RoseHJM
 ms.author: rosemalcolm
-
+ai-usage: ai-assisted
 ms.subservice: general-ide
 monikerRange: ">=vs-2022"
 ms.custom: sfi-image-nochange
@@ -417,34 +417,66 @@ To view all of your other Git configuration settings, you can open and view the 
 
 The following settings manage Git-related preferences in Visual Studio, and are managed by Visual Studio instead of Git configuration files. Most of the settings are configured in the **All Settings** > **Source Control** > **Git Settings** section of the **Options** pane.
 
-- [Default location](#default-location)
-- [Default branch name](#default-branch-name)
-- [Close non-Git solutions](#close-non-git-solutions)
-- [Automatically activate multiple repositories](#automatically-activate-multiple-repositories)
-- [Enable download of author images from third-party sources](#enable-download-of-author-images-from-third-party-source)
-- [Commit changes after merge by default](#commit-changes-after-merge-by-default)
-- [Enable push --force](#enable-push---force-with-lease)
-- [Open folder in Solution Explorer when opening a Git repository](#open-folder-in-solution-explorer-when-opening-a-git-repository)
-- [Automatically load the solution when opening a Git repository](#automatically-load-the-solution-when-opening-a-git-repository)
-- [Automatically check out branches with double-click or the Enter key](#automatically-check-out-branches-with-double-click-or-the-enter-key)
-- [Restore the Git Repository window on restart](#restore-the-git-repository-window-on-restart)
+- [Git settings and preferences in Visual Studio](#git-settings-and-preferences-in-visual-studio)
+  - [How to configure settings](#how-to-configure-settings)
+  - [Git settings](#git-settings)
+    - [User name and email](#user-name-and-email)
+    - [Prune remote branches during fetch](#prune-remote-branches-during-fetch)
+    - [Rebase local branch when pulling](#rebase-local-branch-when-pulling)
+    - [Cryptographic network provider](#cryptographic-network-provider)
+    - [Credential helper](#credential-helper)
+    - [Enable commit graph](#enable-commit-graph)
+    - [Diff and Merge Tools](#diff-and-merge-tools)
+    - [Git files](#git-files)
+    - [Remotes](#remotes)
+    - [Other settings](#other-settings)
+  - [Visual Studio settings](#visual-studio-settings)
+    - [Default location](#default-location)
+    - [Default branch name](#default-branch-name)
+    - [Close non-Git solutions](#close-non-git-solutions)
+    - [Close open solutions not under Git when opening a repository](#close-open-solutions-not-under-git-when-opening-a-repository)
+    - [Automatically activate multiple repositories](#automatically-activate-multiple-repositories)
+    - [Enable download of author images from third-party source](#enable-download-of-author-images-from-third-party-source)
+    - [Commit changes after merge by default](#commit-changes-after-merge-by-default)
+    - [Enable push --force-with-lease](#enable-push---force-with-lease)
+    - [Open folder in Solution Explorer when opening a Git repository](#open-folder-in-solution-explorer-when-opening-a-git-repository)
+    - [Automatically load the solution when opening a Git repository](#automatically-load-the-solution-when-opening-a-git-repository)
+    - [Automatically check out branches with double-click or the Enter key](#automatically-check-out-branches-with-double-click-or-the-enter-key)
+    - [Restore the Git Repository window on restart](#restore-the-git-repository-window-on-restart)
+  - [Related content](#related-content)
 
 ::: moniker-end
 ::: moniker range="vs-2022"
 
 The following settings configure Git-related preferences in Visual Studio, and are managed by Visual Studio instead of Git configuration files. All of the settings in this section are configured in the **Source Control** > **Git Global Settings** section of the **Options** dialog.
 
-- [Default location](#default-location)
-- [Default branch name](#default-branch-name)
-- [Close open solutions not under Git when opening a repository](#close-open-solutions-not-under-git-when-opening-a-repository)
-- [Automatically activate multiple repositories](#automatically-activate-multiple-repositories)
-- [Enable download of author images from third-party sources](#enable-download-of-author-images-from-third-party-source)
-- [Commit changes after merge by default](#commit-changes-after-merge-by-default)
-- [Enable push --force](#enable-push---force-with-lease)
-- [Open folder in Solution Explorer when opening a Git repository](#open-folder-in-solution-explorer-when-opening-a-git-repository)
-- [Automatically load the solution when opening a Git repository](#automatically-load-the-solution-when-opening-a-git-repository)
-- [Automatically check out branches with double-click or the Enter key](#automatically-check-out-branches-with-double-click-or-the-enter-key)
-- [Restore the Git Repository window on restart](#restore-the-git-repository-window-on-restart)
+- [Git settings and preferences in Visual Studio](#git-settings-and-preferences-in-visual-studio)
+  - [How to configure settings](#how-to-configure-settings)
+  - [Git settings](#git-settings)
+    - [User name and email](#user-name-and-email)
+    - [Prune remote branches during fetch](#prune-remote-branches-during-fetch)
+    - [Rebase local branch when pulling](#rebase-local-branch-when-pulling)
+    - [Cryptographic network provider](#cryptographic-network-provider)
+    - [Credential helper](#credential-helper)
+    - [Enable commit graph](#enable-commit-graph)
+    - [Diff and Merge Tools](#diff-and-merge-tools)
+    - [Git files](#git-files)
+    - [Remotes](#remotes)
+    - [Other settings](#other-settings)
+  - [Visual Studio settings](#visual-studio-settings)
+    - [Default location](#default-location)
+    - [Default branch name](#default-branch-name)
+    - [Close non-Git solutions](#close-non-git-solutions)
+    - [Close open solutions not under Git when opening a repository](#close-open-solutions-not-under-git-when-opening-a-repository)
+    - [Automatically activate multiple repositories](#automatically-activate-multiple-repositories)
+    - [Enable download of author images from third-party source](#enable-download-of-author-images-from-third-party-source)
+    - [Commit changes after merge by default](#commit-changes-after-merge-by-default)
+    - [Enable push --force-with-lease](#enable-push---force-with-lease)
+    - [Open folder in Solution Explorer when opening a Git repository](#open-folder-in-solution-explorer-when-opening-a-git-repository)
+    - [Automatically load the solution when opening a Git repository](#automatically-load-the-solution-when-opening-a-git-repository)
+    - [Automatically check out branches with double-click or the Enter key](#automatically-check-out-branches-with-double-click-or-the-enter-key)
+    - [Restore the Git Repository window on restart](#restore-the-git-repository-window-on-restart)
+  - [Related content](#related-content)
 
 ::: moniker-end
 
@@ -516,17 +548,23 @@ The following values are available:
 
 This setting lets you control whether Visual Studio spends resources on activating multiple repositories at once, or whether to optimize your workflow by activating a single repository at a time. If you primarily work with a single repository, you can unselect this setting to improve the performance of Visual Studio. If you change the setting, the change doesn't take effect until the next time the solution loads.
 
+::: moniker range="visualstudio"
+
 The following values are available:
 
-- **Yes** (default): Visual Studio activates multiple repositories.
+- **Yes** (default): Visual Studio activates multiple repositories but treats submodules as read-only.
+- **Yes, include submodules**: Visual Studio activates multiple repositories and lets you make changes within submodules.
 - **No**: Visual Studio only activates one repository.
-
-::: moniker range="visualstudio"
 
 :::image type="content" source="media/visualstudio/activate-multiple-repos.png" border="false" alt-text="Screenshot of the 'Automatically activate multiple repositories' option in the Options pane.":::
 
 ::: moniker-end
 ::: moniker range="vs-2022"
+
+The following values are available:
+
+- **Yes** (default): Visual Studio activates multiple repositories.
+- **No**: Visual Studio activates only one repository.
 
 :::image type="content" source="media/vs-2022/activate-multiple-repos.png" border="false" alt-text="Screenshot of the 'Automatically activate multiple repositories' option in the Options dialog.":::
 
