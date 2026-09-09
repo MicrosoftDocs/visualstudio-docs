@@ -1,18 +1,18 @@
 ---
-title: Work with Multiple Repositories
+title: Work with multiple repositories and submodules
 titleSuffix: ""
-description: View, manage, and debug your code across 10 active repos at the same time by using the Git tooling within Visual Studio.
-ms.date: 01/14/2026
+description: Manage multiple Git repositories and add, update, delete, or work in Git submodules by using Visual Studio.
+ms.date: 09/08/2026
 ms.topic: how-to
 author: RoseHJM
 ms.author: rosemalcolm
-
-
+ai-usage: ai-assisted
 ms.subservice: general-ide
 monikerRange: ">=vs-2022"
 ms.custom: sfi-image-nochange
 ---
-# Work with multiple repos
+
+# Work with multiple repositories and submodules
 
 Multi-repository support is available in Visual Studio 2022 [version 17.4](/visualstudio/releases/2022/release-notes-v17.4) and later. It's one of the most [highly requested features in the Developer Community](https://developercommunity.visualstudio.com/t/allow-multiple-git-repositories-to-be-active-at-on/351156). You can have up to 25 active Git repositories at one time in Visual Studio. 
 
@@ -22,6 +22,26 @@ Multi-repo support means you can work with a solution that spans more than one r
 > To see multi-repository support in action, view the [Use multiple Git repositories in Visual Studio](https://www.youtube.com/watch?v=ctnlQzX2YwI&t=34s) video on YouTube.
 
 If you have more than one GitHub account, you can easily switch between them. For more information, see [Add your GitHub accounts to your keychain](../ide/work-with-github-accounts.md). You might have access to different repos when you're signed in with a different account. Visual Studio automatically updates the git configuration to track which account is used for each repo.
+
+::: moniker range="visualstudio"
+
+## Manage Git submodules
+
+Starting in Visual Studio 18.9, first-class Git submodule support addresses a [highly requested Developer Community feature](https://developercommunity.visualstudio.com/t/full-git-submodule-support/351549). You can manage submodules without leaving the IDE. Visual Studio displays submodules in a dedicated **Submodules** section of the **Git Repository** window.
+
+:::image type="content" source="media/git-repo-submodules.png" alt-text="Screenshot of the Submodules section in the Git Repository window with three submodules.":::
+
+The branch and repository picker reflects the parent-child repository hierarchy. The **Git Changes** window also identifies changes by repository.
+
+:::image type="content" source="media/git-changes-repos-filter.png" alt-text="Screenshot of the repository picker in the Git Changes window showing parent repositories and their submodules.":::
+
+In the **Submodules** section, you can add, update, and delete submodules. Visual Studio automatically discovers and activates submodules when you open a solution or folder. To reduce clutter, submodules don't appear in the general local repositories list.
+
+:::image type="content" source="media/git-delete-submodule.png" alt-text="Screenshot of the Git Repository window with the Delete command selected for a submodule.":::
+
+By default, Visual Studio treats submodules as read-only. To make changes within submodules, select **Tools** > **Options** > **All Settings** > **Source Control** > **Git Settings**. For **Automatically activate multiple repositories**, select **Yes, include submodules**. The setting takes effect the next time the solution loads.
+
+::: moniker-end
 
 ## Branch management and track changes
 
