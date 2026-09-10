@@ -69,7 +69,7 @@ You can edit the *.vstemplate* file to specify that your item template appears o
 The following example shows a *.vstemplate* file for `Office` projects.
 
 ```xml
-<VSTemplate Version="2.0.0" Type="Item" Version="2.0.0">
+<VSTemplate Version="2.0.0" Type="Item">
    <TemplateData>
       <Name>Class</Name>
       <Description>An empty class file</Description>
