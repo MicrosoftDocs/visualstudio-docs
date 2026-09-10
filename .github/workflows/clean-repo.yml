@@ -35,7 +35,7 @@ jobs:
 
       # Create the PR for the work done by the "clean repo" tool
       - name: create-pull-request
-        uses: dotnet/actions-create-pull-request@v4
+        uses: dotnet/actions-create-pull-request@2b011faafdcbc9ceb11414d64d0573f37c774b04 # v4
         with:
           branch: cleanrepo-orphaned-images
           title: "Monthly chores: Delete orphaned images"
