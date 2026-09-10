@@ -81,7 +81,6 @@ This piece of XML indicates that before the `Build` target can run, all the targ
 ```xml
 <PropertyGroup>
     <BuildDependsOn>
-        $(BuildDependsOn);
         BeforeBuild;
         CoreBuild;
         AfterBuild
