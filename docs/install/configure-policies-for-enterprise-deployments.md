@@ -1,7 +1,7 @@
 ---
 title: Configure policies for enterprise deployments
 description: Configure domain policies, related registry keys, and other configuration operations for enterprise deployments of Visual Studio.
-ms.date: 11/04/2025
+ms.date: 09/09/2026
 ms.topic: how-to
 f1_keywords:
 - gpo
@@ -56,10 +56,23 @@ The registry settings in this section control how and where the Visual Studio pr
 | `HideAvailableTab`               | `REG_DWORD`                 | 0                                                   | **Hide the installer's Available tab**:  if set to 1, then administrators are able to hide the installer's **Available** tab, which can prevent users within the organization from accidentally installing the wrong product. |
 | `DisableSound`                   | `REG_DWORD`                 | 0                                                   | **Disable sounds in the installer**: if set to 1, then users are able to disable sounds in the Visual Studio Installer, which will prevent any audio cue when an installer operation is done or when there is an error. Installer operations include install, update, modify, and many other operations done by the installer or any error dialogs while trying the requested operation. If set to 0 or missing entirely, then users are able to re-enable sounds in the installer. For more information, see the [DisableSound blog post](https://aka.ms/vs/disablesound). |
 | `DisableMigrationDialog`  | `REG_DWORD`   | 0           | **Disable the stale-build migration dialog**: if set to 1, it prevents users from seeing the dialog that prompts them to update to the latest version of the Visual Studio IDE. This policy applies to Visual Studio 2026 and later. Insiders and Community scenarios aren't supported. |
+| `SkipNgenAfterSetup`             | `REG_DWORD`                 | 0                                                   | **Skip immediate background Native Image Generator (NGen) optimization**: set to 1 to skip only the immediate background NGen optimization launched as setup finishes. Set to 0 to allow this optimization to run normally. This machine-wide policy applies to Visual Studio 2026 and later. |
 
 > [!IMPORTANT]
 > If you change the `CachePath` registry policy after any installations, you must move the existing package cache to the new location and make sure it's secured so that `SYSTEM` and `Administrators` have **Full Control** and that `Everyone` has **Read** access.
 > Failure to move the existing cache or securing it might cause problems with future installs.
+
+::: moniker range="visualstudio"
+
+## Skip immediate background NGen optimization
+
+Use `SkipNgenAfterSetup` to skip the immediate background NGen optimization launched as setup finishes. Setup doesn't wait for this optimization, which can continue running after the setup operation finishes. Skipping this optimization can help avoid interference with automated setup, but it might delay native-image generation and affect Visual Studio startup performance until optimization occurs.
+
+An administrator can configure this policy directly in the registry by setting the `SkipNgenAfterSetup` DWORD value under `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\VisualStudio\Setup`, using the 64-bit registry view. The policy applies to all users on the machine.
+
+The [registry key precedence](#registry-keys) applies to this value. Removing the managed policy value allows a lower-priority local `SkipNgenAfterSetup` preference to take effect. To allow normal behavior regardless of a lower-priority value of 1, set the managed policy value to 0. If the value isn't set in any of the registry locations, normal behavior applies.
+
+::: moniker-end
 
 ## Controlling Administrator Updates
 
