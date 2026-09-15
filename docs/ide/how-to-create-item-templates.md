@@ -66,7 +66,7 @@ You can edit the *.vstemplate* file to specify that your item template appears o
 1. Open the *.vstemplate* file for editing.
 1. Add a [ProjectSubType](../extensibility/projectsubtype-element-visual-studio-templates.md) element immediately after the `ProjectType` element, with value `Windows`, `Office`, `Database`, or `Web`. For example: `<ProjectSubType>Database</ProjectSubType>`.
 
-The following example shows a *.vstemplate* file for `Office` projects, where `Class.cs` is the default name in the New dialog and `Class1.cs` is the name of the C# class template located alongside the *.vstemplate* file.
+The following example shows a *.vstemplate* file for `Office` projects. `Class.cs` is the default item name in the **Add New Item** dialog, and `Class1.cs` is the source file included alongside the *.vstemplate* file.
 
 ```xml
 <VSTemplate Version="2.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
