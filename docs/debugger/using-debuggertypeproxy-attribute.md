@@ -65,7 +65,7 @@ The syntax for an open type looks like this:
 
 If you use a generic type as a target in `DebuggerTypeProxy`, you must use this syntax. The `DebuggerTypeProxy` mechanism infers the type parameters for you.
 
-For more information on open and closed types in C# see the [C# Language Specification](/dotnet/csharp/language-reference/language-specification), section 20.5.2 Open and closed types.
+For more information on open and closed types in C#, see the [C# Language Specification section 8.4.3, Open and closed types](/dotnet/csharp/language-reference/language-specification/types#843-open-and-closed-types).
 
 Visual Basic doesn't have open type syntax, so you can't do the same thing in Visual Basic. Instead, you must use a string representation of the open type name.
 
