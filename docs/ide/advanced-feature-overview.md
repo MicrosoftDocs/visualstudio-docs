@@ -135,16 +135,6 @@ For full details, see the [Git experience in Visual Studio](../version-control/g
 
 ::: moniker-end
 
-
-::: moniker range=">=vs-2022"
-
-## Optimize the Visual Studio experience on Microsoft Dev Box
-
-Visual Studio supports performance optimizations for Microsoft Dev Box images. You can [pregenerate Visual Studio caches and include them in your dev box image](/azure/dev-box/how-to-generate-visual-studio-caches#enable-visual-studio-caches-in-dev-box-images) to help solutions load faster and to enable key IDE features sooner.
-You can also improve the Git performance on large repositories by [enabling Git commit-graph optimizations in dev box images](/azure/dev-box/how-to-generate-visual-studio-caches#enable-git-commit-graph-optimizations-in-dev-box-images).
-
-::: moniker-end
-
 ## Extend Visual Studio
 
 If Visual Studio doesn't have the exact functionality you need, you can add it. Personalize the IDE based on your workflow and style, add support for external tools that aren't integrated with Visual Studio, and modify existing functionality to increase your productivity. For new extension development, start with [VisualStudio.Extensibility](../extensibility/visualstudio.extensibility/visualstudio-extensibility.md). If you need scenarios that aren't yet available there, use the [Visual Studio SDK (VSSDK)](../extensibility/visual-studio-sdk.md). For guidance on choosing a model, see [Choose the right Visual Studio extensibility model for you](../extensibility/visualstudio.extensibility/extensibility-models.md).
