@@ -289,6 +289,5 @@ You looked at just a few of the features of Visual Studio to get acquainted with
 - [Overview of the Visual Studio IDE](../get-started/visual-studio-ide.md)
 - [More features of Visual Studio](../ide/advanced-feature-overview.md)
 - [Change theme and font colors](../ide/how-to-change-fonts-and-colors-in-visual-studio.md)
-- [Optimize the Visual Studio experience on Microsoft Dev Box](/azure/dev-box/how-to-generate-visual-studio-caches)
 - [GitHub Copilot Completions in Visual Studio](../ide/visual-studio-github-copilot-extension.md)
 - [GitHub Copilot Chat in Visual Studio](../ide//visual-studio-github-copilot-chat.md)
