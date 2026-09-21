@@ -11,7 +11,7 @@ The documentation for Visual Basic and Visual C# is located in the [dotnet docs 
 We welcome your contributions to help us improve the Visual Studio docs. All the articles in this repository use GitHub-flavored markdown.
 
 Several feature areas of Visual Studio have their own folders in this repo, such as **debugger** for topics on debugging, **ide** for topics on the Visual Studio interactive development environment (IDE), and so forth. The **/media** subfolder in each folder contains art files for the topics.
-
+gh repo clone MicrosoftDocs/visualstudio-docs
 For more information about contributing, see the [Contributing guide](CONTRIBUTING.md).
 #111#
 # Microsoft Open Source Code of Conduct
