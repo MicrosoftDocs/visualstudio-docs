@@ -59,13 +59,6 @@ productDirectory:
           text: About Copilot in Visual Studio 2022
         - url: https://code.visualstudio.com/docs/editor/github-copilot
           text: About Copilot in Visual Studio Code
-    - title: Microsoft Dev Box
-      imageSrc: ./media/dev-box.svg
-      links:
-         - url: /azure/dev-box/overview-what-is-microsoft-dev-box
-           text: About Microsoft Dev Box
-         - url: /azure/dev-box/how-to-generate-visual-studio-caches?branch=main
-           text: Visual Studio on Microsoft Dev Box
     - title: Productivity services for developers
       imageSrc: ./media/Microsoft_logo.svg
       links:
@@ -73,5 +66,3 @@ productDirectory:
           text: Azure Dev Tunnels docs
         - url: https://code.visualstudio.com/docs/remote/codespaces/
           text: GitHub Codespaces with Visual Studio Code
-        - url: /azure/deployment-environments/
-          text: Azure Deployment Environments docs          
