@@ -68,7 +68,7 @@ The menu labels in Visual Studio are presented in title case styling by default,
 
 **Use compact menu and search bar**
 
-By default, Visual Studio combines the top menu bar and search bar into a single widget, which increases the available vertical space in the IDE. If you prefer separate widgets, select this option. When you change the option, you must restart your computer.
+By default, Visual Studio combines the top menu bar and search bar into a single widget, which increases the available vertical space in the IDE. If you prefer separate widgets, select this option. When you change the option, you must restart Visual Studio.
 
 **Use compact spacing in Solution Explorer**
 
