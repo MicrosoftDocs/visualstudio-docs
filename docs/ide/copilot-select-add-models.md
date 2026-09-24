@@ -1,7 +1,7 @@
 ---
 title: Using AI models in Copilot Chat
 description: Learn how to use built-in models or bring your own model (BYOM) in GitHub Copilot Chat for Visual Studio.
-ms.date: 8/19/2025
+ms.date: 09/24/2026
 ms.update-cycle: 180-days
 ms.topic: get-started
 author: RoseHJM
@@ -34,9 +34,21 @@ Choose from an expanded set of models in the model picker:
 Improvements to model selection include:
 
 - **Persistent selection**: The model that you choose remains selected across chat threads.
-- **Ability to enable models directly**: If a model is available in your plan but not yet enabled, you see a prompt in the model picker to activate it.
+- **Pinned models**: Pin frequently used models so they remain at the top of the **Model picker**. Expand the list to view all available models, or collapse it to show only your pinned models.
 
 Model availability depends on your Copilot subscription and the current status of each model. For Copilot Enterprise and Business, administrators must enable the **Preview** policy in Copilot settings before models are available in Visual Studio.
+
+:::moniker range="visualstudio"
+
+### Manage models
+
+Select **Manage models** in the **Model picker** to open the model management view. The view lists available Copilot and custom models. Use it to compare each model's cost, capabilities, and context-window size, and to enable or pin the models that you want to use. Custom models that you add by using your own API key also appear in this view.
+
+### Configure thinking effort
+
+Some supported models offer a **thinking effort** setting. Choose **Low**, **Medium**, or **High** from the model's thinking-effort control in the **Model picker** or in the model management view. Higher thinking effort can produce deeper reasoning for complex prompts, but uses more tokens and can increase AI Credit consumption. The control and available levels depend on the selected model.
+
+:::moniker-end
 
 ## Bring your own model (BYOM)
 
@@ -53,9 +65,9 @@ Using your own model enables you to:
 
 ### Steps for adding an API key
 
-1. In the chat view, go to the **Model picker** dropdown list.
+1. In the chat view, open the **Model picker** dropdown list and select **Manage models**.
 
-1. Select your provider. These providers are currently supported: **OpenAI**, **Anthropic**, and **Google**.
+1. In the model management view, select **Add custom model**, and then select your provider. These providers are currently supported: **OpenAI**, **Anthropic**, and **Google**.
 
 1. Enter your **API key** value.
 
@@ -64,7 +76,7 @@ Using your own model enables you to:
     - Any standard model listed
     - Any supported model that your provider offers, even if it doesn't appear in the default list
 
-1. Confirm that the custom model appears in the model picker.
+1. Confirm that the custom model appears in the model management view, where you can review its metadata and pin it. The model then appears in the **Model picker**.
 
 1. Start prompting in a chat. Copilot Chat uses the custom model.
 
