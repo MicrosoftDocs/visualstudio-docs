@@ -28,8 +28,6 @@ Before you install versions side-by-side, review the following conditions:
 
 ::: moniker-end
 
-- If you uninstall a version of Visual Studio on a computer that has more than one version installed, the file associations for Visual Studio are removed for all versions.
-
 - Visual Studio doesn't automatically upgrade extensions because not all extensions are compatible. You must reinstall the extensions from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) or the software publisher.
 
 ## Install different editions of the same major Visual Studio version side-by-side
