@@ -1,7 +1,7 @@
 ---
 title: Update an MSBuild custom task for multithreaded builds
 description: Learn how to migrate an MSBuild custom task to work in the multithreaded build model using IMultiThreadableTask, TaskEnvironment, and AbsolutePath.
-ms.date: 05/06/2026
+ms.date: 09/02/2026
 ms.topic: how-to
 author: RoseHJM
 ms.author: rosemalcolm
@@ -437,7 +437,13 @@ Here, the thread-safe, but process-wide API equivalent is `InterlockedIncrement`
 
 ### Approach 2: `RegisterTaskObject` for build-scoped isolation
 
-If your task needs static state that's shared across sub-projects within a single build invocation but isolated from other concurrent builds, use `IBuildEngine4.RegisterTaskObject` with `RegisteredTaskObjectLifetime.Build`. MSBuild manages the lifetime of the object, which is created on first use and cleaned up when the build ends. Note that the registered objects have to be thread-safe.
+If your task needs state that's shared across in-process work within a single build invocation but isolated from other build invocations, use `IBuildEngine4.RegisterTaskObject` with `RegisteredTaskObjectLifetime.Build`. MSBuild manages the lifetime of the object and cleans it up when the build ends.
+
+Review these registered task object semantics when you migrate a task:
+
+- In a multithreaded (`-mt`) build, in-process thread nodes in the same MSBuild process share registered task objects. Separate worker processes and subsidiary `TaskHost` processes have separate registries.
+- Registry operations are thread-safe, but the registered object and its construction pattern must support concurrent callers. A get-then-register sequence isn't atomic, and registration keeps the first object. Dispose a losing object if necessary.
+- Review keys for collisions. Also, don't require separate build invocations to share a cache, including when node reuse is enabled.
 
 First, define a simple thread-safe counter class:
 
@@ -490,7 +496,7 @@ FileCounter counter = GetOrCreateCounter();
 int fileNumber = counter.Next();
 ```
 
-With this approach, each build invocation gets its own `FileCounter`. All sub-projects within the same build share the counter (sequential numbering), but a separate `dotnet build` running at the same time on the same machine gets a different counter. `RegisteredTaskObjectLifetime.Build` tells MSBuild to scope the object to the current build invocation and clean it up when the build ends.
+With this approach, in-process work for the build in the same MSBuild process shares the `FileCounter`. Work in another worker or `TaskHost` process uses a separate registry, and a separate build invocation gets a different build-lifetime registration.
 
 ### Choose the right approach
 
@@ -515,7 +521,7 @@ The following code shows the fully migrated `AddBuildCommentTask` with all five 
 1. Implements `IMultiThreadableTask` alongside the existing `Task` base class, and exposes the `TaskEnvironment` property.
 1. Uses `TaskEnvironment.GetAbsolutePath()` for path resolution.
 1. Uses `TaskEnvironment.GetEnvironmentVariable()` instead of `Environment.GetEnvironmentVariable()`.
-1. Uses `IBuildEngine4.RegisterTaskObject` with `RegisteredTaskObjectLifetime.Build` to scope the file counter to the current build invocation, replacing the process-wide static counter.
+1. Uses `IBuildEngine4.RegisterTaskObject` with `RegisteredTaskObjectLifetime.Build` to scope the process-local file counter to the current build invocation, replacing the process-wide static counter.
 
 ```csharp
 using Microsoft.Build.Framework;
