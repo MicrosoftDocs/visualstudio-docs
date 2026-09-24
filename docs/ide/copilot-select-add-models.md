@@ -41,7 +41,7 @@ Model availability depends on your Copilot subscription and the current status o
 
 ### Manage models
 
-The model management view lists enabled Copilot and custom models. Use it to compare each model's cost, capabilities, and context-window size, and to enable or pin the models that you want to use. Custom models that you add by using your own API key also appear in this view.
+The model management view lists available Copilot and custom models. Use it to compare each model's cost, capabilities, and context-window size, and to enable or pin the models that you want to use. Custom models that you add by using your own API key also appear in this view.
 
 ### Configure thinking effort
 
@@ -64,7 +64,7 @@ Using your own model enables you to:
 
 1. In the chat view, open the **Model picker** dropdown list and select **Manage models**.
 
-1. In the model management view, select the option to add a custom model, then select your provider. These providers are currently supported: **OpenAI**, **Anthropic**, and **Google**.
+1. In the model management view, select **Add custom model**, then select your provider. These providers are currently supported: **OpenAI**, **Anthropic**, and **Google**.
 
 1. Enter your **API key** value.
 
