@@ -67,7 +67,7 @@ Using your own model enables you to:
 
 1. In the chat view, open the **Model picker** dropdown list and select **Manage models**.
 
-1. In the model management view, select **Add custom model**, then select your provider. These providers are currently supported: **OpenAI**, **Anthropic**, and **Google**.
+1. In the model management view, select **Add custom model**, and then select your provider. These providers are currently supported: **OpenAI**, **Anthropic**, and **Google**.
 
 1. Enter your **API key** value.
 
