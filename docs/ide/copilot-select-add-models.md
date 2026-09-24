@@ -35,17 +35,16 @@ Improvements to model selection include:
 
 - **Persistent selection**: The model that you choose remains selected across chat threads.
 - **Pinned models**: Pin frequently used models so they remain at the top of the **Model picker**. Expand the list to view all available models, or collapse it to show only your pinned models.
-- **Model management**: Select **Manage models** in the **Model picker** to open the model management view. Use this view to enable, pin, and manage models.
 
 Model availability depends on your Copilot subscription and the current status of each model. For Copilot Enterprise and Business, administrators must enable the **Preview** policy in Copilot settings before models are available in Visual Studio.
 
 ### Manage models
 
-The model management view lists available Copilot and custom models. Use it to compare each model's cost, capabilities, and context-window size, and to enable or pin the models that you want to use. Custom models that you add by using your own API key also appear in this view.
+In Visual Studio 18.9 and later, select **Manage models** in the **Model picker** to open the model management view. The view lists available Copilot and custom models. Use it to compare each model's cost, capabilities, and context-window size, and to enable or pin the models that you want to use. Custom models that you add by using your own API key also appear in this view.
 
 ### Configure thinking effort
 
-Some supported models offer a **thinking effort** setting. Choose **Low**, **Medium**, or **High** from the model's thinking-effort control in the **Model picker** or in the model management view. Higher thinking effort can produce deeper reasoning for complex prompts, but uses more tokens and can increase AI Credit consumption. The control and available levels depend on the selected model.
+In Visual Studio 18.9 and later, some supported models offer a **thinking effort** setting. Choose **Low**, **Medium**, or **High** from the model's thinking-effort control in the **Model picker** or in the model management view. Higher thinking effort can produce deeper reasoning for complex prompts, but uses more tokens and can increase AI Credit consumption. The control and available levels depend on the selected model.
 
 ## Bring your own model (BYOM)
 
