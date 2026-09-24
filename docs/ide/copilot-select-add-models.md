@@ -38,16 +38,16 @@ Improvements to model selection include:
 
 Model availability depends on your Copilot subscription and the current status of each model. For Copilot Enterprise and Business, administrators must enable the **Preview** policy in Copilot settings before models are available in Visual Studio.
 
+:::moniker range="visualstudio"
+
 ### Manage models
 
-:::moniker range="visualstudio"
 Select **Manage models** in the **Model picker** to open the model management view. The view lists available Copilot and custom models. Use it to compare each model's cost, capabilities, and context-window size, and to enable or pin the models that you want to use. Custom models that you add by using your own API key also appear in this view.
-:::moniker-end
 
 ### Configure thinking effort
 
-:::moniker range="visualstudio"
 Some supported models offer a **thinking effort** setting. Choose **Low**, **Medium**, or **High** from the model's thinking-effort control in the **Model picker** or in the model management view. Higher thinking effort can produce deeper reasoning for complex prompts, but uses more tokens and can increase AI Credit consumption. The control and available levels depend on the selected model.
+
 :::moniker-end
 
 ## Bring your own model (BYOM)
