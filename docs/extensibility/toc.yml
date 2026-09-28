@@ -9,6 +9,8 @@
     href: vsix/visual-studio-community-toolkit.md
   - name: Start to Develop Visual Studio Extensions
     href: starting-to-develop-visual-studio-extensions.md
+  - name: Create a VSIX project with the Visual Studio project SDK
+    href: create-vsix-with-project-sdk.md
   - name: 'Create your First Extension: Hello World'
     href: extensibility-hello-world.md
   - name: VisualStudio.Extensibility SDK (Preview) >>
@@ -17,6 +19,8 @@
     items:
     - name: Upgrade an extension
       href: migration/update-visual-studio-extension.md
+    - name: Migrate a VSIX project to the Visual Studio project SDK
+      href: migration/migrate-vsix-to-project-sdk.md
     - name: Extension compatibility
       href: migration/extension-compatibility.md
     - name: Modernize theme colors
@@ -850,4 +854,3 @@
       href: roslyn-analyzers-and-code-aware-library-for-immutablearrays.md
     - name: Roslyn package version reference
       href: roslyn-version-support.md
-

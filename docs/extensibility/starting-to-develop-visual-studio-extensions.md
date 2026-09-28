@@ -60,6 +60,8 @@ In practice, we have found that the features most people want to extend are comm
 
  For Visual C# and Visual Basic extensions, the VSSDK provides an empty VSIX project template that you can use together with the new item templates that create menu commands, tool windows, and editor extensions. You can also use this template to package project templates, code snippets, and other artifacts for distribution to other users.
 
+ For a new C# extension, use the [VSIX Project template with the top-level Visual Studio project SDK](create-vsix-with-project-sdk.md). To move an existing project to that SDK, see [Migrate a VSIX project](migration/migrate-vsix-to-project-sdk.md).
+
  For C++, the VSPackage wizard provides the code to add menu commands, tool windows, and custom editors.
 
 The following articles show you how to get started with each kind of extension:

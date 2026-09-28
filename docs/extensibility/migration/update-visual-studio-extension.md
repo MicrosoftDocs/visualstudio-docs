@@ -37,7 +37,9 @@ If your extension is an MSI, you might need to modify the installer to allow the
 
 :::image type="content" alt-text="Screenshot of Visual Studio Extension Manager." source="media/visualstudio/visual-studio-extension.png" lightbox="media/visualstudio/visual-studio-extension.png" :::
 
-For now, there are no instructions for creating extensions specifically for Visual Studio 2026. However, you can test and use Visual Studio 2022 extensions with Visual Studio 2026
+To create a new extension targeting Visual Studio 2026, use the [VSIX Project template with the top-level Visual Studio project SDK](../create-vsix-with-project-sdk.md).
+To convert an existing managed VSIX project, see [Migrate a VSIX project](migrate-vsix-to-project-sdk.md).
+You can also test an existing Visual Studio 2022 extension in Visual Studio 2026 without converting its project.
 
 ## Breaking changes
 
@@ -121,6 +123,8 @@ You can skip the steps in this article about using shared projects and multiple 
 If you author MSBuild tasks, be aware that in Visual Studio 2022, it's likely that they'll be loaded in a 64-bit MSBuild.exe process. If your task requires a 32-bit process to run, see [Configure targets and tasks](../../msbuild/how-to-configure-targets-and-tasks.md#usingtask-attributes-and-task-parameters) to ensure that MSBuild loads your task in a 32-bit process.
 
 ## Modernize your VSIX project
+
+For a managed VSIX project targeting Visual Studio 2022 (17.14) or later, see [Migrate a VSIX project to the top-level Visual Studio project SDK](migrate-vsix-to-project-sdk.md). The steps below describe modernizing a project that continues to reference the VSSDK packages explicitly.
 
 Before you add Visual Studio 2022 support to your extension, we strongly recommend that you clean up and modernize your existing project:
 
