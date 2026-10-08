@@ -39,6 +39,12 @@ You can open code into Visual Studio in the following ways:
 
 - Open code from a cloned GitHub repo.
 
+:::moniker range="visualstudio"
+
+Starting in Visual Studio 2026 version 18.11, Open Folder respects the **Reopen documents on solution load** and **Restore Solution Explorer project hierarchy state on solution load** preferences. Configure them independently in [Projects and Solutions options](projects-and-solutions-options-dialog-box.md#restore-solution-explorer-project-hierarchy-state-on-solution-load) to control what is restored when you reopen a folder.
+
+:::moniker-end
+
 ### To open multiple folders
 Starting in Visual Studio 2022 version 17.9 Preview 1, you can specify multiple folders to open in Visual Studio. Opening multiple folders is especially useful in code repos with lots of unrelated code, and a developer only needs a subset to do some work.
 - On the Visual Studio menu bar, choose **File** > **Open** > **Workspace**, and then browse to the `.code-workspace` file location.

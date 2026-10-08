@@ -59,6 +59,25 @@ You can configure Visual Studio to automatically back up files or not. You can a
 
 :::moniker-end
 
+:::moniker range="visualstudio"
+
+## Restore unsaved work with Hot Exit (Preview)
+
+Hot Exit preserves session state when you close Visual Studio normally and restores it the next time you open Visual Studio. It is separate from AutoRecover, which creates periodic backups for recovery after an unexpected shutdown.
+
+Hot Exit is **off by default**. To enable it, go to **Tools** > **Options** > **Preview Features** > **Hot Exit**.
+
+Hot Exit preserves:
+
+- Unsaved files.
+- Unsaved changes to previously saved files.
+- Undo functionality for saved files, including **Ctrl+Z**.
+- Tab and window layout.
+
+For preferences that control reopening documents and Solution Explorer state for solutions and folders, see [Projects and Solutions options](projects-and-solutions-options-dialog-box.md).
+
+:::moniker-end
+
 ### See also
 
 - [Options dialog box](../ide/reference/options-dialog-box-visual-studio.md)
