@@ -195,6 +195,20 @@ Visual Studio opens a diff with the committed version on the left and the workin
 
 :::moniker-end
 
+:::moniker range="visualstudio"
+
+## Compare a commit to your working tree
+
+Starting in Visual Studio 2026 version 18.11, you can compare a commit with your working tree across the repository, rather than comparing only one file.
+
+1. In commit history or the branch list, right-click the commit you want to compare.
+1. Select **Compare with Working Tree**.
+1. In the compare view, select changed files to inspect their diffs against your working tree.
+
+You don't need to check out the commit to perform the comparison. For a single-file comparison, see [Compare a file to your working tree](#compare-a-file-to-your-working-tree).
+
+:::moniker-end
+
 ## Compare commits
 
 To compare any two commits in your branch, use the **Ctrl** key to select the two commits that you want to compare. Then, right-click one of them and select **Compare Commits**.

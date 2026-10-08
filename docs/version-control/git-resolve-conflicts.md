@@ -148,6 +148,22 @@ Git is good at automatically merging file changes in most circumstances, as long
 > [!TIP]
 > To learn more about the accessibility options available to you, see the [Git keyboard shortcuts](../ide/reference/accessibility-tips-and-tricks.md#git-keyboard-shortcuts) section of the [Accessibility tips and tricks for Visual Studio](../ide/reference/accessibility-tips-and-tricks.md) page.
 
+:::moniker range="visualstudio"
+
+## Resolve conflicts in bulk
+
+Starting in Visual Studio 2026 version 18.11, you can resolve conflicts for a file, a folder, or the entire repository in one step when you want to keep the same side for all affected files.
+
+1. In **Git Changes**, find **Unmerged Changes**.
+1. Right-click a file, folder, or repository root.
+1. Select **Keep All Current** to keep the current versions, or **Take All Incoming** to accept the incoming versions.
+
+The action applies to the selected file or to the conflicted files underneath the selected folder or repository root. Review the scope before choosing an action. These bulk commands are an alternative to resolving each file in Merge Editor; they are distinct from its **Take Current** and **Take Incoming** buttons.
+
+After resolving all conflicts, use **Git Changes** to create the merge commit as described in [Resolve merge conflicts](#resolve-merge-conflicts).
+
+:::moniker-end
+
 ## Configure your diff tool
 
 If you set your [`.gitconfig` file](https://git-scm.com/docs/git-config) to use a third-party diff tool such as BeyondCompare or KDiff3, Visual Studio respects it. Whenever Visual Studio would normally display a diff, a separate window is opened in the tool of your choice. For an example, see this [Stack Overflow](https://stackoverflow.com/questions/4466238/how-to-configure-visual-studio-to-use-beyond-compare) question.
