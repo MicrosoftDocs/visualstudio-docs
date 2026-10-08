@@ -54,6 +54,19 @@ You can control how many C++ and C# projects build simultaneously to optimize bu
 
    By default, this value matches the number of CPUs on your computer. The maximum allowed value is 32. Increase this value if you have a powerful machine with many cores, or decrease it if you want to reserve CPU resources for other tasks during builds.
 
+:::moniker range="visualstudio"
+
+## Stop solution builds after the first failure
+
+Starting in Visual Studio 2026 version 18.11, you can stop a solution build after the first project fails. The **Stop solution build after first failure** setting is opt-in and disabled by default.
+
+1. Open **Tools** > **Options** > **Projects and Solutions** > **Build and Run**.
+1. Enable **Stop solution build after first failure**.
+
+When a project fails, Visual Studio stops starting queued projects and safely stops projects that are already building. The build reports as **failed**, not canceled. If you leave the setting disabled, build behavior is unchanged.
+
+:::moniker-end
+
 ## Control startup project build behavior
 
 You can configure whether Visual Studio builds all projects or only the startup project when you run or debug.
