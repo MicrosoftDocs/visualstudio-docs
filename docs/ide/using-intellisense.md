@@ -92,7 +92,7 @@ If a function is overloaded, IntelliSense might not display information for all 
 
 ::: moniker range="visualstudio"
 
-Starting in Visual Studio 2026 version 18.11, you can [configure the Quick Info hover delay](options-text-editor-advanced.md#quick-info-hover-delay-ms). This setting controls mouse hover timing, not the keyboard command for invoking Quick Info.
+Starting in Visual Studio 2026 version 18.11, you can [configure the Quick Info hover delay](options-text-editor-advanced.md#quick-info-hover-delay-ms). This setting controls mouse hover timing, not the keyboard command for invoking *Quick Info*.
 
 To turn Quick Info off, go to **Tools** > **Options** > **Text Editor** > **All Languages** and deselect **Show Quick Info on hover** in the **Settings** section.
 
