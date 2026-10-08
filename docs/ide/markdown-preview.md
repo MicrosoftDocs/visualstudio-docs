@@ -19,6 +19,14 @@ The Visual Studio Markdown editor gives you more control over how you view and e
 
 For general behavior and supported surfaces, including emoji rendering in full color, see [Use color emojis in Visual Studio](color-emojis.md).
 
+## Create a Markdown file
+
+Starting in Visual Studio 2026 version 18.11, you can create a Markdown file from the **New File** dialog:
+
+1. Press **Ctrl+N**.
+1. Select **Markdown** to create the file.
+1. Start writing in the editor.
+
 ## Preview modes
 
 Visual Studio provides three preview modes for working with Markdown files:

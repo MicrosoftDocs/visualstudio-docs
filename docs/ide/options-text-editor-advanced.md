@@ -123,6 +123,18 @@ Use this setting to increase or decrease the maximum parser line limit. The defa
 
 Use these options to customize how the editor displays and interacts with your code.
 
+:::moniker range="visualstudio"
+
+### Quick Info hover delay (ms)
+
+Starting in Visual Studio 2026 version 18.11, use **Tools** > **Options** > **Text Editor** > **Advanced** > **Quick Info hover delay (ms)** to control how long you hover over code before the Quick Info tooltip appears.
+
+The default is **150 ms**. Valid values range from **50 to 10000 ms**. Changes apply immediately without restarting Visual Studio or reopening files.
+
+This setting controls hover handlers that don't request their own timing, including Quick Info. Extensions that request an explicit hover delay retain their own timing.
+
+:::moniker-end
+
 ### Allow CodeLens to displace the caret line
 
 By default, [CodeLens](find-code-changes-and-other-history-with-codelens.md) information appears over a code line. When you enable this setting, the CodeLens information displays directly in your code line at your current caret position.
