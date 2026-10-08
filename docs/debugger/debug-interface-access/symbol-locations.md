@@ -8,8 +8,8 @@ dev_langs:
 helpviewer_keywords:
   - "LocationType values"
   - "symbols [DIA SDK], locations"
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

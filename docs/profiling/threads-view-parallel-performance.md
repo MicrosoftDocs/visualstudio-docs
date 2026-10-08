@@ -22,8 +22,8 @@ f1_keywords:
   - "vs.cv.threads.tools.zoom"
 helpviewer_keywords:
   - "Concurrency Visualizer, Threads View (Parallel Performance)"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

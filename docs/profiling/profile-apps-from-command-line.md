@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "Profiling Tools, command-line"
   - "Diagnostics Tools, command-line"
   - "CPU Usage, command-line"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2022'

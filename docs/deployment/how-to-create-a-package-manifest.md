@@ -13,8 +13,8 @@ helpviewer_keywords:
   - package files [ClickOnce]
   - prerequisites, custom bootstrapper package
   - dependencies, custom bootstrapper packages
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: deployment
 ---

@@ -8,8 +8,8 @@ helpviewer_keywords:
 - automate
 - installation
 - command-line
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 
 ms.subservice: installation

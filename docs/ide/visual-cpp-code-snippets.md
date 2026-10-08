@@ -3,8 +3,8 @@ title: Visual C++ code snippets
 description: Learn how to use code snippets to add commonly used code to your C++ code files.
 ms.date: 04/05/2024
 ms.topic: reference
-author: tylermsft
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 ms.manager:  coxford
 dev_langs:
  - CPP

@@ -3,8 +3,8 @@ title: 'Create Shaders with Shader Designer'
 description: Learn how to use Shader Designer to create different types of shaders
 ms.date: 06/04/2023
 ms.topic: how-to
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: ui-designers
 ---

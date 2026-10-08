@@ -15,8 +15,8 @@ f1_keywords:
   - "vs.cv.threads.timeline.gpuother"
 helpviewer_keywords:
   - "Concurrency Visualizer, CPU Utilization View"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

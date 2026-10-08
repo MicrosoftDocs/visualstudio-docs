@@ -15,8 +15,8 @@ helpviewer_keywords:
   - publishing localized projects
   - macros, deploying with
   - macros, publishing with
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: deployment
 ---

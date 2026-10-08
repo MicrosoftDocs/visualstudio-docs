@@ -10,8 +10,8 @@ dev_langs:
 helpviewer_keywords:
   - "MSBuild (C++), GetOutOfDateItems task"
   - "GetOutOfDateItems task (MSBuild (C++))"
-author: tylermsft
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 ---
 # GetOutOfDateItems task
 

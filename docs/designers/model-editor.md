@@ -6,8 +6,8 @@ ms.topic: how-to
 f1_keywords:
 - vs.graphics.designer.3dscene
 - vs.graphics.modelviewer
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: ui-designers
 ---

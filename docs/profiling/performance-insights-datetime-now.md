@@ -3,8 +3,8 @@ title: Perf insights for DateTime.Now
 description: Learn how to improve performance for DateTime.get_Now.
 ms.date: 12/04/2025
 ms.topic: reference
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2022'

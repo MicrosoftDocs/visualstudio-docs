@@ -11,8 +11,8 @@ dev_langs:
   - "FSharp"
 helpviewer_keywords:
   - "debugger, parallel tasks window"
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

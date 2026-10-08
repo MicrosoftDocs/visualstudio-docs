@@ -9,8 +9,8 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords:
   - "diagnostic tools"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 zone_pivot_groups: programming-languages-set-two

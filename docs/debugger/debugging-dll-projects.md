@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "templates, debugging DLLs"
   - "DLLs, debugging"
   - "debugging [Visual Studio], DLLs"
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

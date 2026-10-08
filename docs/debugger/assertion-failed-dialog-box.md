@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "assertions, debugging"
   - "assertions, assertion failures"
   - "Assertion Failed dialog box"
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

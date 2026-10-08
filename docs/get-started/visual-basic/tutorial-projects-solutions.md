@@ -5,8 +5,8 @@ ms.date: 02/20/2026
 ms.subservice: general-ide
 ms.custom: vs-acquisition
 ms.topic: how-to
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 dev_langs:
 - VB

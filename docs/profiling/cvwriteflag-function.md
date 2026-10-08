@@ -13,8 +13,8 @@ helpviewer_keywords:
   - CvWriteFlagExVA method
   - CvWriteFlagExA method
   - CvWriteFlagExVW method
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

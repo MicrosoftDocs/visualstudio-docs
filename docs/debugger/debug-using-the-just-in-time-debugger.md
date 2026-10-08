@@ -9,8 +9,8 @@ f1_keywords:
 helpviewer_keywords: 
   - debugging [Visual Studio], Just-In-Time
   - Just-In-Time debugging
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

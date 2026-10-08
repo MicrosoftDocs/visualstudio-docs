@@ -8,8 +8,8 @@ helpviewer_keywords:
 - characters, escapes
 - escape characters
 - MSBuild, escaping special characters
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: msbuild
 ---

@@ -3,8 +3,8 @@ title: About Shader Designer nodes
 description: Learn about the various Shader Designer nodes that you can use to create graphics effects.
 ms.date: 06/30/2023
 ms.topic: overview
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: ui-designers
 ---

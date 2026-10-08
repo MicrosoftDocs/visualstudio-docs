@@ -18,8 +18,8 @@ helpviewer_keywords:
 - Visual Experience Environment Options pane
 - Visual Experience Options pane
 ms.custom: "awp, ide-ref"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 monikerRange: 'visualstudio'

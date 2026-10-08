@@ -6,8 +6,8 @@ ms.update-cycle: 180-days
 ms.topic: concept-article
 ms.custom: awp-ai
 ai-usage: ai-assisted
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 dev_langs:

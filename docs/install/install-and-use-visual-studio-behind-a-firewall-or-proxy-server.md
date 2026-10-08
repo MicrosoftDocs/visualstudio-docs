@@ -8,8 +8,8 @@ helpviewer_keywords:
 - administrator guide, Visual Studio
 - installing Visual Studio, administrator guide
 - list of domains, locations, URLs
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: installation
 #customer intent: As a developer using Visual Studio behind my organization's firewall or proxy server, I want to know which domains to add to my allowlist.
@@ -122,7 +122,7 @@ When you use Visual Studio or Azure Services behind a firewall or proxy server, 
 | Azure Data Lake      | &#42;.azuredatalakestore.net <br>&#42;.azuredatalakeanalytics.net    | https/443    | Used to compile, submit, view, diagnose, and debug  jobs. Used to browse ADLS files. Used to upload and download files.  |
 | Packaging Service    | [account].visualstudio.com <br/> [account].\*.visualstudio.com <br/> \*.blob.core.windows.net <br/> registry.npmjs.org </br> nodejs.org <br/> dist.nuget.org <br/> nuget.org   | https/443     | The \*.npmjs.org, \*.nuget.org, and \*.nodejs.org are only required for certain build task scenarios (for example: NuGet Tool Installer, Node Tool Installer) or if you intend to use public upstream with your Feeds. The other three domains are required for core functionality of the Packaging service.   |
 | Azure DevOps Services    | \*.vsassets.io <br/> static2.sharepointonline.com <br/> dev.azure.com    |  <br/> | Used to connect with Azure DevOps Services     |
-| Azure Service Bus     | \*.servicebus.windows.net  | ampq/5671 and 5672, </br> sbmp/9350-9354, </br> http/80, </br> https/443   | Used to create queues, topics, and subscriptions.</br> Also used to send/receive messages to/from Service Bus queues and topics.   |
+| Azure Service Bus     | \*.servicebus.windows.net  | amqp/5671 and 5672, </br> http/80, </br> https/443   | Used to create queues, topics, and subscriptions.</br> Also used to send/receive messages to/from Service Bus queues and topics. See [Service Bus network ports](/azure/service-bus-messaging/service-bus-faq#what-ports-do-i-need-to-open-on-the-firewall).   |
 | Azure Cosmos DB    | \*.documents.azure.com    | https/443   | Used to call core document database APIs     |
 | Developer Community       | sendvsfeedback2.azurewebsites.net/api      | https/443     | Used to call Developer Community Feedback Tool APIs (my issues, search, vote, comment, submit, upload, resume)    |
 | Intellicode   | \*.intellicode.vsengsaas.visualstudio.com     | https/443    | Used to call Intellicode APIs      |

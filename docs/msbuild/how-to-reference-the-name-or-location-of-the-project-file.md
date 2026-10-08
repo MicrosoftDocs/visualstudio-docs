@@ -11,8 +11,8 @@ helpviewer_keywords:
 - names, referencing
 - reserved properties
 - project files, referencing
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: msbuild
 

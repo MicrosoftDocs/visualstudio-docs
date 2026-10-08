@@ -8,8 +8,8 @@ helpviewer_keywords:
 - MSBuild, overriding DependsOn properties
 - MSBuild, extending Visual Studio builds
 - MSBuild, DependsOn properties
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: msbuild
 ---

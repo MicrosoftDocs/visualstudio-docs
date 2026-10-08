@@ -14,7 +14,7 @@ helpviewer_keywords:
 - Domain-Specific Language, domain properties
 author: jekelly
 ms.author: jekelly
-ms.manager: wiwagn
+ms.manager: ansonh
 ms.subservice: modeling
 ---
 # Define a Domain-Specific Language

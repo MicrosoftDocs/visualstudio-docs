@@ -9,8 +9,8 @@ helpviewer_keywords:
 - ListThreads command
 - list threads command
 - Debug.ListThreads command
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 ---

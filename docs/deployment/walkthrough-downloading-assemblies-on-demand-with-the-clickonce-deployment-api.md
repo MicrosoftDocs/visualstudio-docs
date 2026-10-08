@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "assemblies, downloading [ClickOnce]"
   - "ClickOnce deployment, on-demand download"
   - "on-demand assemblies, ClickOnce"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: deployment
 ---

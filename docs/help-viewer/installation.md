@@ -6,8 +6,8 @@ ms.topic: how-to
 helpviewer_keywords:
   - "installing Help Viewer"
   - "Help Viewer, installing"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: help-viewer
 ---

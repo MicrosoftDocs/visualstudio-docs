@@ -11,8 +11,8 @@ dev_langs:
 helpviewer_keywords: 
   - ASP.NET debugging, ASP.NET process
   - ASP.NET process
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

@@ -8,8 +8,8 @@ helpviewer_keywords:
 - middle tier
 - data tier
 - n-tier applications, about n-tier applications
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: data-tools
 ---

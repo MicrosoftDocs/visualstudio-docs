@@ -1,6 +1,6 @@
 ---
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.date: 03/16/2020
 ms.subservice: installation

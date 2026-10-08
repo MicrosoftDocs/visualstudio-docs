@@ -5,8 +5,8 @@ ms.date: 05/16/2025
 ms.topic: how-to
 helpviewer_keywords:
   - "deployment, ClickOnce for .NET 5+"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: deployment
 monikerRange: '>= vs-2022'

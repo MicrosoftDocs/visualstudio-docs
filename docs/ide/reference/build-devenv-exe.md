@@ -9,8 +9,8 @@ helpviewer_keywords:
 - Devenv, /build switch
 - build Devenv switch
 - command-line builds
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 ---

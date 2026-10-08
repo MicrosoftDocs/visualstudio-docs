@@ -6,8 +6,8 @@ ms.date: 5/13/2025
 helpviewer_keywords:
   - "Visual Studio, what's new"
   - "what's new [Visual Studio]"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice:
 

@@ -5,8 +5,8 @@ ms.date: "10/28/2025"
 ms.topic: "error-reference"
 f1_keywords:
   - "vs.debug.error.process_exit_during_func_eval"
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

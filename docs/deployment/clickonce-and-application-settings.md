@@ -9,8 +9,8 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "ClickOnce deployment, application settings"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: deployment
 ---

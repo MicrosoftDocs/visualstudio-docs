@@ -3,8 +3,8 @@ title: Visual Studio Community 2026 workload and component IDs
 titleSuffix: ""
 description: "Use workload and component IDs to install Visual Studio by using the command line or to specify as a dependency in a VSIX manifest"
 keywords:
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.date: 11/11/2025
 ms.subservice: installation

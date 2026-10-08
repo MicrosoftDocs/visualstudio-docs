@@ -3,8 +3,8 @@ title: Visual Studio Community workload and component IDs
 titleSuffix: ''
 description: Use Visual Studio Community workload and component IDs to install Visual Studio from the command line or specify a dependency in a VSIX manifest.
 keywords:
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.date: 11/11/2025
 ms.topic: reference

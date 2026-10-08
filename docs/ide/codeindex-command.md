@@ -7,8 +7,8 @@ helpviewer_keywords:
 - command-line tools [Team Foundation Server]
 - TFSConfig
 - CodeIndex command [Team Foundation Server]
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 ---

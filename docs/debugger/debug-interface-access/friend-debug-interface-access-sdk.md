@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "friend functions [DIA SDK]"
   - "friend classes [DIA SDK]"
   - "Friend symbol"
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

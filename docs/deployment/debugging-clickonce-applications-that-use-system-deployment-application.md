@@ -12,8 +12,8 @@ helpviewer_keywords:
   - debugging, ClickOnce applications
   - debugging, System.Deployment
   - deploying applications [ClickOnce], debugging
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: deployment
 ---

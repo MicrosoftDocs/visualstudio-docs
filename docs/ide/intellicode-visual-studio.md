@@ -6,8 +6,8 @@ ms.date: 11/13/2025
 ms.service: visual-studio-family
 ms.subservice: intellicode
 ms.topic: concept-article
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ---
 # IntelliCode: AI-assisted code development in Visual Studio

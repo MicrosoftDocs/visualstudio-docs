@@ -8,9 +8,9 @@ metadata:
   - "vs.debug.uiref"
   helpviewer_keywords:
     - "debugging [Visual Studio], find your feature"
-  author: nitinme
-  ms.author: nitinme
-  manager: wiwagn
+  author: madskristensen
+  ms.author: madsk
+  manager: ansonh
   ms.workload:
     - "multiple"
   ms.subservice: debug-diagnostics

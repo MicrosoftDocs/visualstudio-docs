@@ -4,8 +4,8 @@ titleSuffix: ""
 description: Clone a repo in Visual Studio by using the Git Clone Repository option or browse to and then clone an Azure DevOps repo.
 ms.date: 11/25/2025
 ms.topic: how-to
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 ms.custom: sfi-image-nochange

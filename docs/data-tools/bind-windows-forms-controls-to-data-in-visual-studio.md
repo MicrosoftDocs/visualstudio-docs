@@ -12,8 +12,8 @@ helpviewer_keywords:
 - data sources, displaying data
 - displaying data, Windows Forms
 - data [Windows Forms], displaying
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: data-tools
 ms.custom: sfi-image-nochange

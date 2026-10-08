@@ -3,8 +3,8 @@ title: Manage chat context in GitHub Copilot Chat
 description: Use references, chat history, and context window tools to ask better questions and get better answers in GitHub Copilot Chat.
 ms.date: 08/19/2026
 ms.topic: how-to 
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot

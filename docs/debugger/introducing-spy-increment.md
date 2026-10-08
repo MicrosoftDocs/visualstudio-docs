@@ -5,8 +5,8 @@ ms.date: 02/25/2026
 ms.topic: concept-article
 helpviewer_keywords:
   - "Spy++"
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

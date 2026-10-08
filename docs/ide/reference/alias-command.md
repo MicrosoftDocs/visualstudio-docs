@@ -11,8 +11,8 @@ helpviewer_keywords:
 - Tools.Alias command
 - command aliases
 - alias command
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 ---

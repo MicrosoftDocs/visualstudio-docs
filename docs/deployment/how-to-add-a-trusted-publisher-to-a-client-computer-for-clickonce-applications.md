@@ -10,8 +10,8 @@ dev_langs:
 helpviewer_keywords: 
   - ClickOnce deployment, install without prompting
   - trusted application deployment, Trusted Publishers
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: deployment
 ---

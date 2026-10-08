@@ -4,8 +4,8 @@ description: Use CPU Insights to diagnose and optimize your code's performance
 ms.date: 07/04/2025
 ms.update-cycle: 180-days
 ms.topic: how-to
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ms.collection: ce-skilling-ai-copilot

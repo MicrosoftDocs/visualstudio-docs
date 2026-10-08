@@ -5,8 +5,8 @@ ms.date: "11/04/2016"
 ms.topic: concept-article
 f1_keywords:
   - "vs.cv.settings"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

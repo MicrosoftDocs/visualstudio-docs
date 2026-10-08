@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "Windows Forms, localization"
   - "ClickOnce deployment, localization"
   - "walkthroughs, localization"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: deployment
 ---

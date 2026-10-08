@@ -3,8 +3,8 @@ title: Understanding the call tree
 description: Learn how to interpret call tree data in the CPU Usage and Instrumentation.
 ms.date: 02/19/2025
 ms.topic: how-to
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

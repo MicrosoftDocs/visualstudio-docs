@@ -12,8 +12,8 @@ dev_langs:
 helpviewer_keywords:
   - "GetFrameworkPath task [MSBuild]"
   - "MSBuild, GetFrameworkPath task"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: msbuild
 ---

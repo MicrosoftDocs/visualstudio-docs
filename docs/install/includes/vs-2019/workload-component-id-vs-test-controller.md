@@ -3,8 +3,8 @@ title: Visual Studio Test Controller 2019 workload and component IDs
 titleSuffix: ""
 description: "Use Visual Studio workload and component IDs to distribute automated tests to multiple machines"
 keywords:
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.date: 08/10/2021
 

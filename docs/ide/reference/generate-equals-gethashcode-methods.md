@@ -4,8 +4,8 @@ description: Learn how to use the Quick Actions and Refactorings menu to generat
 ms.date: 03/08/2021
 ms.topic: reference
 ms.custom: "ide-ref"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 ---

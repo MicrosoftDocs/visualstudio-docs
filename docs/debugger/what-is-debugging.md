@@ -5,8 +5,8 @@ ms.date: "10/17/2018"
 ms.topic: concept-article
 helpviewer_keywords:
   - "debugger"
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

@@ -6,8 +6,8 @@ ms.update-cycle: 180-days
 ms.topic: overview 
 ai-usage: ai-assisted
 ms.custom: awp-ai, doc-kit-assisted
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot

@@ -17,8 +17,8 @@ dev_langs:
 helpviewer_keywords:
   - "<file> element [ClickOnce application manifest]"
   - "manifests [ClickOnce], file element"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: deployment
 ---

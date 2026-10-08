@@ -4,8 +4,8 @@ titleSuffix: ''
 description: Apply administrator updates to Visual Studio with Microsoft Endpoint Configuration Manager, view configurations, explore update distribution, view reports, and more.
 ms.date: 11/04/2025
 ms.topic: overview
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 
 ms.subservice: installation

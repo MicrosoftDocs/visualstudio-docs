@@ -4,8 +4,8 @@ titleSuffix: ""
 description: Manage multiple Git repositories and add, update, delete, or work in Git submodules by using Visual Studio.
 ms.date: 09/08/2026
 ms.topic: how-to
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 ai-usage: ai-assisted
 ms.subservice: general-ide
 monikerRange: ">=vs-2022"

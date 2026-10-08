@@ -3,8 +3,8 @@ title: Troubleshoot COM reference build errors
 description: Learn how to understand and troubleshoot COM reference problems in .NET builds with MSBuild.
 ms.date: 11/20/2025
 ms.topic: how-to
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: msbuild
 ---

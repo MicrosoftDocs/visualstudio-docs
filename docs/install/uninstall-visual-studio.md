@@ -8,8 +8,8 @@ ms.topic: how-to
 f1_keywords:
 - uninstall
 - uninstall Visual Studio
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 
 ms.subservice: installation

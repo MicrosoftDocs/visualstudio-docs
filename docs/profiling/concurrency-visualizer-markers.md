@@ -8,8 +8,8 @@ f1_keywords:
   - "vs.cv.markers.flag"
   - "vs.cv.markers.message"
   - "vs.cv.markers.span"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

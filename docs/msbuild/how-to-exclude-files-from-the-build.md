@@ -7,8 +7,8 @@ helpviewer_keywords:
 - MSBuild, wildcards
 - MSBuild, excluding files
 - wildcards, MSBuild
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: msbuild
 ---

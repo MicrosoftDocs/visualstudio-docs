@@ -5,8 +5,8 @@ ms.date: 06/24/2025
 ms.topic: concept-article
 helpviewer_keywords:
 - databases, managing change
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: data-tools
 #customer intent: As a developer, I want to explore database projects and data-tier applications (DACs) in Visual Studio, so I can create and updated databases and DACs.

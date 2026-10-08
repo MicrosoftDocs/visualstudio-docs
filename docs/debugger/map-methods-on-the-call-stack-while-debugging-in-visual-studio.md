@@ -24,8 +24,8 @@ helpviewer_keywords:
   - Call Stack window, show on code map
   - debugging [Visual Studio], tracing the call stack visually
   - debugging [Visual Studio], visualizing the call stack
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

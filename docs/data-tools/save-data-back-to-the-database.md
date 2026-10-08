@@ -15,8 +15,8 @@ helpviewer_keywords:
 - saving data, about saving data
 - datasets [Visual Basic], constraints
 - TableAdapters
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: data-tools
 ---

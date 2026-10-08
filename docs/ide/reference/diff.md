@@ -7,8 +7,8 @@ helpviewer_keywords:
 - Devenv, /Diff switch
 - /Diff Devenv switch
 - Diff Devenv switch
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 ---

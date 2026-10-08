@@ -13,8 +13,8 @@ helpviewer_keywords:
 f1_keywords:
 - cs.ProjectPropertiesBuildEvents
 - cs.ProjectPropertiesBuildEventsBuilder
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ---
 # Specify build events (C#)

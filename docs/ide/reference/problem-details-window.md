@@ -8,8 +8,8 @@ helpviewer_keywords:
 - build errors
 - Error List window../
 ms.custom: "ide-ref"
-author: tylermsft
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 ms.manager:  mluparu
 ms.subservice: general-ide
 ---

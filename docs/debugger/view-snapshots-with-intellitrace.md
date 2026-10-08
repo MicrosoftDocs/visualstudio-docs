@@ -5,8 +5,8 @@ ms.date: 09/20/2018
 ms.topic: quickstart
 helpviewer_keywords:
   - "IntelliTrace step-back"
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

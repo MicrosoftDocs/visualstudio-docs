@@ -3,8 +3,8 @@ title: Visual Studio Color Themes
 description: Browse all available Visual Studio color themes including Dark, Light, Cool Breeze, Spicy Red, Bubblegum, and more. See screenshots of each theme in action.
 ms.date: 08/24/2026
 ms.topic: reference
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 ai-usage: ai-assisted

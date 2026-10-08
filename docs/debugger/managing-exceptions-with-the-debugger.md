@@ -27,8 +27,8 @@ helpviewer_keywords:
   - common language runtime, exceptions
   - native run-time checks
   - exceptions, debugging
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

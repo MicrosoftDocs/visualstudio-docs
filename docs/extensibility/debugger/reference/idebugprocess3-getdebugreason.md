@@ -9,7 +9,7 @@ helpviewer_keywords:
 - IDebugProcess3::GetDebugReason
 author: tinaschrepfer
 ms.author: tinali
-ms.manager: wiwagn
+ms.manager: ansonh
 ms.subservice: debug-diagnostics
 dev_langs:
 - CPP

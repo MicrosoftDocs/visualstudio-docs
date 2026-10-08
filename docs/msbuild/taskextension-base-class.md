@@ -10,8 +10,8 @@ dev_langs:
 helpviewer_keywords:
 - MSBuild, tool task base class
 - tool task base class [MSBuild]
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: msbuild
 ---

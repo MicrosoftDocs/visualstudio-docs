@@ -13,8 +13,8 @@ helpviewer_keywords:
 - data concurrency, walkthroughs
 - updating datasets, errors
 - concurrency control, walkthroughs
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: data-tools
 ---

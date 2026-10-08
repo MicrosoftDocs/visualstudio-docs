@@ -8,8 +8,8 @@ helpviewer_keywords:
 - ResetSettings switch
 - /ResetSettings Devenv switch
 - settings [Visual Studio], resetting
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 ---

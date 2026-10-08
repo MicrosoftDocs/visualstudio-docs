@@ -3,8 +3,8 @@ title: Code metrics - Class coupling
 ms.date: 1/8/2021
 description: Explore the class coupling metric for code metrics in Visual Studio, also known as Coupling Between Objects (CBO), and measure how many classes a single class uses.
 ms.topic: concept-article
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: code-analysis
 ---

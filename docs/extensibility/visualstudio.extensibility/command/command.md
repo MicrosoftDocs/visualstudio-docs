@@ -1,8 +1,8 @@
 ---
 title: Commands reference
 description: An overview of extensibility commands
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 monikerRange: ">=vs-2022"
 ms.subservice: extensibility-integration
 ms.update-cycle: 365-days

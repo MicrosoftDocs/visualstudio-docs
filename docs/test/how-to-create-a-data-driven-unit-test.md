@@ -10,10 +10,10 @@ helpviewer_keywords:
   - unit tests, running
   - unit tests, data-driven
   - data-driven unit tests
-ms.author: rosemalcolm
+ms.author: madsk
 
 ms.subservice: test-tools
-author: RoseHJM
+author: madskristensen
 ---
 # Create a data-driven unit test
 

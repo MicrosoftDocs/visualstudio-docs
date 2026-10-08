@@ -3,8 +3,8 @@ title: Explore IntelliSense Features for Coding C++ Projects
 description: Explore some IntelliSense features that you can use while coding your C++ project, such as statement completion, help with parameters, and error indicators.
 ms.date: 01/06/2026
 ms.topic: overview
-author: tylermsft
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 ms.manager:  coxford
 ---
 # Visual C++ IntelliSense features

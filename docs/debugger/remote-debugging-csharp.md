@@ -11,8 +11,8 @@ dev_langs:
   - "VB"
 helpviewer_keywords:
   - "remote debugging, setup"
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

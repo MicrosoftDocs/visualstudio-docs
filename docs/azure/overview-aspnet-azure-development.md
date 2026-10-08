@@ -4,12 +4,12 @@
 title: Develop ASP.NET web sites for Azure with Visual Studio
 titleSuffix: ""
 description: Learn about how Visual Studio can help you connect your ASP.NET web apps to Azure services, including information about the available services.
-author: RoseHJM
+author: madskristensen
 
 ms.subservice: azure-development
 ms.topic: overview
 ms.date: 04/15/2024
-ms.author: rosemalcolm
+ms.author: madsk
 monikerRange: ">=vs-2022"
 ---
 

@@ -3,8 +3,8 @@ title: Configure a C++ Project for IntelliSense
 description: Configure your C++ project manually to get IntelliSense working properly by using the Visual Studio IDE to help you identify and fix IntelliSense problems.
 ms.date: 11/17/2025
 ms.topic: concept-article
-author: tylermsft
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 ms.manager:  coxford
 ---
 # Configure a C++ project for IntelliSense

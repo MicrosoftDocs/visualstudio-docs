@@ -42,8 +42,8 @@ helpviewer_keywords:
 - datasets [Visual Basic], populating
 - datasets [Visual Basic], namespace
 - data adapters, populating datasets
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: data-tools
 ---

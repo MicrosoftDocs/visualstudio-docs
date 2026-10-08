@@ -5,8 +5,8 @@ ms.service: visual-studio-family
 ms.subservice: intellicode
 ms.topic: how-to
 description: IntelliCode Visual Studio Code Completions
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ---
 

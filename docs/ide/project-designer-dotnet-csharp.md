@@ -11,8 +11,8 @@ helpviewer_keywords:
 ms.custom: 
 - "ide-ref"
 - awp-ai
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 monikerRange: '>= vs-2022'

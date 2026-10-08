@@ -7,8 +7,8 @@ f1_keywords:
   - cvmarkers/CvInitProvider
 helpviewer_keywords: 
   - CvInitProvider method
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

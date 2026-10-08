@@ -13,8 +13,8 @@ helpviewer_keywords:
 - Out Devenv switch
 - builds [Visual Studio], errors
 - output files, build errors
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 ---

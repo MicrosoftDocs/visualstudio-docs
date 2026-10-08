@@ -124,8 +124,8 @@ helpviewer_keywords:
 - msbuild, project file properties
 - ExcludeDeploymentUrl property
 - project file properties (MSBuild)
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: msbuild
 ---

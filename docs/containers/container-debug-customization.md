@@ -1,8 +1,8 @@
 ---
 title: Customize container images for debugging
-author: nitinme
+author: madskristensen
 description: Modify the Dockerfile to customize your container images for both debug and production builds.
-ms.author: nitinme
+ms.author: madsk
 ms.date: 8/25/2025
 ms.subservice: container-tools
 ms.topic: how-to

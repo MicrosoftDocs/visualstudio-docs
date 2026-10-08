@@ -5,10 +5,10 @@ ms.date: 05/02/2017
 ms.topic: reference
 helpviewer_keywords:
 - IntelliTest, Warnings and errors
-ms.author: rosemalcolm
+ms.author: madsk
 
 ms.subservice: test-tools
-author: RoseHJM
+author: madskristensen
 ---
 # Warnings and errors
 

@@ -8,7 +8,7 @@ dev_langs:
 helpviewer_keywords:
   - "IDiaEnumNamedStreams::get__NewEnum method"
 author: vzarytovskii
-ms.author: twhitney
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

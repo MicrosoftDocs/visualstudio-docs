@@ -8,8 +8,8 @@ dev_langs:
   - VB
   - FSharp
   - C++
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ai-usage: ai-assisted
