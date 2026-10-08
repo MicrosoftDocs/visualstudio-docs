@@ -290,7 +290,7 @@ You can also change the settings for how text is displayed in the editor. Here's
 
 #### Change the colors for text, margin indicators, white space, and code elements
 
-You can choose to change the default colors for text, margin indicators, white space, and code elements in the editor. The following legacy dialog procedure applies to Visual Studio 2022 and Visual Studio 2026 before version 18.11. For version 18.11 and later, use the [modern Fonts and Colors experience](#use-the-modern-fonts-and-colors-experience).
+You can change the default colors for text, margin indicators, white space, and code elements in the editor. The following legacy dialog procedure applies to Visual Studio 2022 and Visual Studio 2026 before version 18.11. For version 18.11 and later, use the [modern Fonts and Colors experience](#use-the-modern-fonts-and-colors-experience).
 
 1. From the **Tools** menu, select **Options**.
 

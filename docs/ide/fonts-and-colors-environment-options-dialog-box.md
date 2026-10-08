@@ -28,7 +28,7 @@ ms.subservice: general-ide
 ---
 # Customize environment options for fonts and colors
 
-The **Fonts and Colors** settings let you establish a custom font and color scheme for various user interface elements in the integrated development environment (IDE). Open **Tools** > **Options** to access these settings. In the legacy dialog, select **Environment** > **Fonts and Colors**. For Visual Studio 2026 version 18.11 and later, use the modern experience described in the next section.
+Use the **Fonts and Colors** settings to create a custom font and color scheme for different user interface elements in the integrated development environment (IDE). Open **Tools** > **Options** to access these settings. In the legacy dialog, select **Environment** > **Fonts and Colors**. For Visual Studio 2026 version 18.11 and later, use the modern experience described in the next section.
 
 :::moniker range="visualstudio"
 

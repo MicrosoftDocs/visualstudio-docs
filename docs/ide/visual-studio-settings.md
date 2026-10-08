@@ -26,7 +26,7 @@ Settings are organized into categories, shown in a hierarchy tree on the left si
 Settings associated with specific workloads, optional components, or extensions don't appear in the tree unless they're installed. See [Modify Visual Studio](../install/modify-visual-studio.md) to install workloads and components. For extensions, see [Manage extensions](finding-and-using-visual-studio-extensions.md).
 
 > [!NOTE]
-> In the first public release of Visual Studio 2026, **Fonts and Colors** and **Accounts** had not been migrated to the unified settings experience. Use settings search to find settings that aren't in their usual category. Starting in version 18.11, **Fonts and Colors** uses the unified settings experience, including category navigation, integrated search, and inline previews. This update doesn't change the migration guidance for **Accounts**.
+> The first public release of Visual Studio 2026 didn't include **Fonts and Colors** or **Accounts** in the unified settings experience. Use settings search to find settings that aren't in their usual category. Starting in version 18.11, **Fonts and Colors** uses the unified settings experience, including category navigation, integrated search, and inline previews. This update doesn't change the migration guidance for **Accounts**.
 
 ## Search settings by keywords
 
