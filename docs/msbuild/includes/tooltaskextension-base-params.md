@@ -1,6 +1,6 @@
 ---
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 ms.topic: include
 ms.date: 4/23/2020
 ---

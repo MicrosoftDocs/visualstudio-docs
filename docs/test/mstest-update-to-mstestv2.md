@@ -5,8 +5,8 @@ description: Upgrade an MSTestV1 test project to target MSTestV2 in the .csproj 
 ms.topic: upgrade-and-migration-article
 f1_keywords:
 - vs.UnitTest.Migrate
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: test-tools
 ---

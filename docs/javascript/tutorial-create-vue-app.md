@@ -5,8 +5,8 @@ ms.date: 05/26/2026
 ms.custom: vs-acquisition
 ms.topic: quickstart
 ms.devlang: javascript
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: javascript-typescript
 dev_langs:

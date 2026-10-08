@@ -3,8 +3,8 @@ title: Use GitHub Copilot agents in Visual Studio
 description: Learn how to access and use GitHub Copilot agents for debugging, profiling, testing, modernization, and other development tasks.
 ms.date: 09/16/2026
 ms.topic: how-to
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 ms.service: visual-studio-windows
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot

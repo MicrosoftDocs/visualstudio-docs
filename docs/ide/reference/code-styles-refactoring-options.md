@@ -7,8 +7,8 @@ dev_langs:
 - CSharp
 - VB
 ms.custom: "ide-ref"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 ---

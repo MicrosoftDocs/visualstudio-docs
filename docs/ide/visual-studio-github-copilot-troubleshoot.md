@@ -4,8 +4,8 @@ description: Learn how to use the GitHub Copilot badge in the Visual Studio IDE 
 ms.date: 2/19/2026
 ms.update-cycle: 180-days
 ms.topic: troubleshooting-problem-resolution
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot 

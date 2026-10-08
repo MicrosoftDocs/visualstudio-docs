@@ -5,8 +5,8 @@ ms.date: 09/11/2017
 ms.topic: concept-article
 helpviewer_keywords:
 - Live Unit Testing
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: test-tools
 ---

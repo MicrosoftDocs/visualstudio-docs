@@ -1,8 +1,8 @@
 ---
 title: Visual Studio ClickOnce code access security
-author: RoseHJM
+author: madskristensen
 description: Learn about Code Access Security support in ClickOnce
-ms.author: rosemalcolm
+ms.author: madsk
 ms.date: 04/25/2025
 ms.subservice: deployment
 ms.topic: include

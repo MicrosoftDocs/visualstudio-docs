@@ -13,8 +13,8 @@ helpviewer_keywords:
 - .exe files
 - Shell, launching exe files
 - Visual Studio, executables from
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 ---

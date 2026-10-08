@@ -10,8 +10,8 @@ f1_keywords:
 helpviewer_keywords:
 - surround with
 - code snippets
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 dev_langs:

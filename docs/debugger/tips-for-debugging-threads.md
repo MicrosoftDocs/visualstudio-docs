@@ -17,8 +17,8 @@ helpviewer_keywords:
   - thread names
   - Thread.Name property
   - threading [Visual Studio], names
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

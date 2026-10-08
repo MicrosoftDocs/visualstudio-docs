@@ -7,8 +7,8 @@ f1_keywords:
   - natvis, intrinsic function
 dev_langs:
   - C++
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

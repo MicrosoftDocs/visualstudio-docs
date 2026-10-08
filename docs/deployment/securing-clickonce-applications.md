@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "Windows applications, ClickOnce security"
   - "ClickOnce deployment, security"
   - "deploying applications, ClickOnce security"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: deployment
 ---

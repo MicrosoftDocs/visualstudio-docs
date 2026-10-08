@@ -12,8 +12,8 @@ helpviewer_keywords:
   - debugging [C++], optimized code
   - optimization, debug builds
   - optimized code, debugging
-author: tylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 ms.manager:  coxford
 ms.subservice: debug-diagnostics
 ---

@@ -5,8 +5,8 @@ ms.date: 08/03/2023
 ms.topic: quickstart
 helpviewer_keywords:
 - load testing, quickstart
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: test-tools
 ---

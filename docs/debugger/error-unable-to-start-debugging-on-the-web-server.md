@@ -22,8 +22,8 @@ helpviewer_keywords:
   - "errors [debugger], unable to start debugging"
   - "debugging ASP.NET Web applications, unable to start debugging error"
   - "remote debugging, errors"
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

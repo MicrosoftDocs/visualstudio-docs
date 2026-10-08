@@ -4,8 +4,8 @@ description: Explore unit testing support in Visual Studio for JavaScript and Ty
 ms.date: "05/18/2026"
 ms.topic: "how-to"
 ms.devlang: javascript
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: javascript-typescript
 dev_langs:

@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "debugging [C++], native code"
   - "debugging [Visual Studio], native code"
   - "native code, debugging"
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

@@ -11,8 +11,8 @@ helpviewer_keywords:
 - code [Visual Studio], outlining
 - code [Visual Studio], hiding
 - outlining code
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 #customer intent: As a developer, I want to learn how to collapse and expand code in Visual Studio to make it easier to write and maintain code.

@@ -11,8 +11,8 @@ helpviewer_keywords:
 - Output window
 - Toolbox, removing controls
 ms.custom: "ide-ref"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 ---

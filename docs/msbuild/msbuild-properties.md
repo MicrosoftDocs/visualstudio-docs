@@ -5,8 +5,8 @@ ms.date: 08/15/2023
 ms.topic: language-reference
 helpviewer_keywords:
 - MSBuild, properties
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: msbuild
 ---

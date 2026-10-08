@@ -7,8 +7,8 @@ f1_keywords:
   - cvmakers/CvCreateMarkerSeriesWithCodePageA
 helpviewer_keywords: 
   - CvCreateMarkerSeriesWithCodePageA method
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

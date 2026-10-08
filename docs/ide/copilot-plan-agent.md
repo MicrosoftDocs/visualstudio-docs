@@ -4,8 +4,8 @@ description: Create and refine implementation plans with GitHub Copilot in Visua
 ms.date: 05/20/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot

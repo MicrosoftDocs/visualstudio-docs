@@ -9,8 +9,8 @@ helpviewer_keywords:
 - select an installation location for Visual Studio files
 - move installation files to different drives
 - use the D drive
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: installation
 #customer intent: As a developer, I want to control the installation footprint of Visual Studio on my system drive to optimize any resource issues.

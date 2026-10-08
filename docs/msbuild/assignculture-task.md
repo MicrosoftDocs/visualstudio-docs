@@ -12,8 +12,8 @@ dev_langs:
 helpviewer_keywords:
   - "MSBuild, AssignCulture task"
   - "AssignCulture task [MSBuild]"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: msbuild
 ---

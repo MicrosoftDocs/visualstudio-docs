@@ -6,8 +6,8 @@ ms.date: 09/04/2026
 ms.custom: awp-ai, doc-kit-assisted
 ms.update-cycle: 180-days
 ms.topic: how-to
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 ai-usage: ai-assisted
 ms.subservice: general-ide
 ms.collection: ce-skilling-ai-copilot

@@ -4,8 +4,8 @@ description: Learn about the CPU profiler performance tool, which shows the CPU 
 ms.date: 03/13/2026
 ms.topic: how-to
 ms.custom: "profiling-seo"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

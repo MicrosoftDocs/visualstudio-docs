@@ -4,8 +4,8 @@ description: Learn how to install and manage Copilot in Visual Studio. Use the C
 ms.date: 11/20/2025
 ms.update-cycle: 180-days
 ms.topic: install-set-up-deploy
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot 

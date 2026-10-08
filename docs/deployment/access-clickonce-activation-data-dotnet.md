@@ -6,8 +6,8 @@ ms.topic: how-to
 helpviewer_keywords:
   - "activation data, ClickOnce for .NET 5+"
   - "file associations, ClickOnce for .NET 5+"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: deployment
 monikerRange: '>= vs-2022'

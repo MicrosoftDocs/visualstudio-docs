@@ -9,8 +9,8 @@ dev_langs:
 - C++
 helpviewer_keywords:
 - MSBuild, tasks specific to C++
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: msbuild
 ---

@@ -9,8 +9,8 @@ helpviewer_keywords:
 - symbol path command
 - Debug.SymbolPath command
 - SymbolPath command
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 ---

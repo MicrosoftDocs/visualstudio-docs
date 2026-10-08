@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "debugging [Visual Studio], specifying source and symbol files"
   - "source files, specifying in debugger"
   - "debugger, source files"
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

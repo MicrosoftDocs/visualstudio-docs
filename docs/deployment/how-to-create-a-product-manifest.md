@@ -13,8 +13,8 @@ helpviewer_keywords:
   - product files [Windows Installer]
   - prerequisites, custom bootstrapper package
   - dependencies, custom bootstrapper package
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: deployment
 ---

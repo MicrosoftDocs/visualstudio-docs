@@ -11,8 +11,8 @@ helpviewer_keywords:
 - web services, reading data
 - web services, as data sources
 - web services, connecting
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: data-tools
 ---

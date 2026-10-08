@@ -10,8 +10,8 @@ helpviewer_keywords:
 - op command
 - File.OpenProject command
 - Open Project command
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 ---

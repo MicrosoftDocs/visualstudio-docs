@@ -10,8 +10,8 @@ dev_langs:
 helpviewer_keywords:
   - "optimize code, profiling tools"
   - "profiling tools, optimize code"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ms.collection: ce-skilling-ai-copilot

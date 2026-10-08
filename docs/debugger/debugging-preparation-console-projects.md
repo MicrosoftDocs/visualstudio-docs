@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "debugging [Visual Studio], console applications"
   - "debugging console applications"
   - "console applications, debugging"
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

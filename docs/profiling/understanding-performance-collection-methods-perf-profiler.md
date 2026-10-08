@@ -6,8 +6,8 @@ ms.topic: concept-article
 f1_keywords:
 helpviewer_keywords:
   - "Performance Profiler, profiling methods"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

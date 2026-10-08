@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "reference [DIA SDK]"
   - "API reference [DIA SDK]"
   - "DIA SDK, reference"
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

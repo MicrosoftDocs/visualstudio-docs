@@ -8,8 +8,8 @@ dev_langs:
 helpviewer_keywords:
   - "visualizers, writing"
   - "walkthroughs [Visual Studio], visualizers"
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

@@ -9,7 +9,7 @@ helpviewer_keywords:
 - dependency acquisition
 - setup assistant
 author: jasonchlus
-ms.author: rosemalcolm
+ms.author: madsk
 
 ---
 

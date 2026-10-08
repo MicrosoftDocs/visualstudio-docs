@@ -8,8 +8,8 @@ helpviewer_keywords:
 - snippets [Visual Studio], schema reference
 - code snippets [Visual Studio], schema reference
 - IntelliSense Code Snippets, XML Schema
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 ---

@@ -3,8 +3,8 @@ title: Visual Studio Build Tools 2026 workload and component IDs
 titleSuffix: ""
 description: "Use Visual Studio workload and component IDs to build classic Windows-based applications"
 keywords:
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.date: 11/11/2025
 ms.subservice: installation

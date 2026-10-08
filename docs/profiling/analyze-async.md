@@ -5,8 +5,8 @@ ms.date: "5/5/2020"
 ms.topic: how-to
 helpviewer_keywords:
   - "asynchronous, async, profiling"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

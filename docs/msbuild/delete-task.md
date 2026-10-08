@@ -12,8 +12,8 @@ dev_langs:
 helpviewer_keywords:
 - Delete task [MSBuild]
 - MSBuild, Delete task
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: msbuild
 ---

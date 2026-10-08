@@ -7,8 +7,8 @@ f1_keywords:
   - cvmarkers/CvCreateDefaultMarkerSeriesOfDefaultProvider
 helpviewer_keywords: 
   - CvCreateDefaultMarkerSeriesOfDefaultProvider method
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

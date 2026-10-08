@@ -4,8 +4,8 @@ description: In this tutorial, learn how to open a cloned project in a Git or Az
 ms.date: 02/27/2026
 ms.subservice: general-ide
 ms.topic: tutorial
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 dev_langs:
   - CSharp

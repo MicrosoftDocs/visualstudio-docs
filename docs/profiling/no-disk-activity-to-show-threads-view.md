@@ -7,8 +7,8 @@ f1_keywords:
   - "vs.cv.threads.nodiskreport"
 helpviewer_keywords:
   - "Concurrency Visualizer, No Disk Activity to Show (Threads View)"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

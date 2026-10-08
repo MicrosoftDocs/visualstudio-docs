@@ -6,10 +6,10 @@ ms.topic: how-to
 helpviewer_keywords: 
   - unit tests, process architecture
   - unit tests, 64-bit process
-ms.author: rosemalcolm
+ms.author: madsk
 
 ms.subservice: test-tools
-author: RoseHJM
+author: madskristensen
 ---
 # Configure process architecture for a unit test
 

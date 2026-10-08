@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "manual ClickOnce deployments"
   - "manifests [ClickOnce]"
   - "ClickOnce applications, deployed by others"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: deployment
 ---

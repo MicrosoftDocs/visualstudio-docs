@@ -6,9 +6,9 @@ metadata:
   ms.topic: faq
   helpviewer_keywords:
   - code analysis FAQ
-  author: RoseHJM
-  ms.author: rosemalcolm
-  manager: wiwagn
+  author: madskristensen
+  ms.author: madsk
+  manager: ansonh
   ms.workload:
   - dotnet
   ms.subservice: code-analysis

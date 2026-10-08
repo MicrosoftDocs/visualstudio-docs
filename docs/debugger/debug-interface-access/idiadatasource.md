@@ -7,9 +7,9 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaDataSource interface"
-author: TylerMSFT
-ms.author: twhitney
-ms.manager: wiwagn
+author: madskristensen
+ms.author: madsk
+ms.manager: ansonh
 ms.subservice: debug-diagnostics
 ---
 

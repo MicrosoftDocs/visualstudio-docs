@@ -12,8 +12,8 @@ helpviewer_keywords:
 - transactions, saving data
 - Transactions namespace
 - saving data
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: data-tools
 ---

@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "deploying applications [Visual Studio], custom prerequisites"
   - "Windows Installer deployment, prerequisites"
   - "prerequisites [.NET Framework], custom bootstrapper package"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: deployment
 ---

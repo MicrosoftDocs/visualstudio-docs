@@ -9,8 +9,8 @@ ms.topic: how-to
 helpviewer_keywords:
 - Generate From Usage
 - Test-First Development
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 ---

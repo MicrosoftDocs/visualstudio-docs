@@ -6,8 +6,8 @@ ms.topic: best-practice
 helpviewer_keywords:
 - security [Visual Studio], applications
 - application design, securability
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 ---

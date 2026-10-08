@@ -21,8 +21,8 @@ helpviewer_keywords:
   - Edit and Continue, applying code changes
   - Step command
   - Go command
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ms.custom: awp-ai

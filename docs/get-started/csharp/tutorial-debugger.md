@@ -8,8 +8,8 @@ dev_langs:
   - "CSharp"
 helpviewer_keywords:
   - "debugger"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.update-cycle: 90-days
 

@@ -8,8 +8,8 @@ f1_keywords:
   - "cvmarkersobj/Concurrency"
 helpviewer_keywords:
   - "Concurrency namespace"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

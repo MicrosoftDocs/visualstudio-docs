@@ -7,8 +7,8 @@ ms.topic: how-to
 helpviewer_keywords:
   - "MSBuild, building on multiple computers"
   - "build environment, MSBuild"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ---
 # Walkthrough: Create a multiple-computer build environment

@@ -12,8 +12,8 @@ helpviewer_keywords:
   - VSInstr
   - VSInstr tool
   - performance tools, VSInstr tool
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

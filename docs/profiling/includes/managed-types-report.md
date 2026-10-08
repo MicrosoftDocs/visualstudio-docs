@@ -2,11 +2,11 @@
 title: Managed Types report
  description: Managed Types report in the Memory Usage tool
  services: ""
- author: RoseHJM
+ author: madskristensen
  ms.service: ""
  ms.topic: include
  ms.date: 03/04/2026
- ms.author: rosemalcolm
+ ms.author: madsk
  ms.custom: include file
 ---
 

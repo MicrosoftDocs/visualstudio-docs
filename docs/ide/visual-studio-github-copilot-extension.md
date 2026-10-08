@@ -4,8 +4,8 @@ description: Get code suggestions and completions from GitHub Copilot in Visual 
 ms.date: 04/20/2026
 ms.update-cycle: 180-days
 ms.topic: overview
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot

@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "IntelliTrace, disabling"
   - "IntelliTrace, turn on"
   - "debugging [Visual Studio ALM], IntelliTrace"
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

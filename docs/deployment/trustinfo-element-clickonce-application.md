@@ -17,8 +17,8 @@ dev_langs:
 helpviewer_keywords:
   - "manifests [ClickOnce], trustInfo element"
   - "<trustInfo> element [ClickOnce application manifest]"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: deployment
 ---

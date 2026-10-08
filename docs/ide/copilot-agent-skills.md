@@ -3,9 +3,9 @@ title: Use Agent Skills with GitHub Copilot
 description: Learn how to define reusable Agent Skills that teach Copilot agents how to perform specific tasks in Visual Studio.
 ms.date: 09/04/2026
 ms.topic: how-to
-author: RoseHJM
-ms.author: rosemalcolm
-ms.manager: wiwagn
+author: madskristensen
+ms.author: madsk
+ms.manager: ansonh
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
 ms.custom: awp-ai

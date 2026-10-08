@@ -21,8 +21,8 @@ helpviewer_keywords:
   - "Attach to Process dialog box"
   - "debugging [Visual Studio], attaching to processes"
   - "debugger, processes"
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 zone_pivot_groups: programming-languages-set-one

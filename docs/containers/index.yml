@@ -3,12 +3,12 @@ title: Container Tools in Visual Studio
 metadata:
   title: Docker container development tools documentation
   description: Learn how to build and manage container-based apps and services. Get documentation, example code, tutorials, and more.
-  author: nitinme
-  manager: wiwagn
+  author: madskristensen
+  manager: ansonh
   ms.subservice: container-tools
   ms.topic: landing-page
   ms.date: 11/13/2025
-  ms.author: nitinme
+  ms.author: madsk
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
 

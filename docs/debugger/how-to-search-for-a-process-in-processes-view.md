@@ -6,8 +6,8 @@ ms.topic: how-to
 helpviewer_keywords: 
   - Processes view
   - processes, searching for
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

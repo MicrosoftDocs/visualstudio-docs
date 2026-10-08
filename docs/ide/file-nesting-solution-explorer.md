@@ -6,8 +6,8 @@ ms.topic: how-to
 helpviewer_keywords:
  - "file nesting"
  - "Solution Explorer, file nesting"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 ---

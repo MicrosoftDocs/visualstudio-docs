@@ -1,12 +1,12 @@
 ---
 title: Configure the roles for an Azure Cloud Services (extended support) project
 description: Learn how to set up and configure roles for Azure Cloud Services (extended support) using Visual Studio.
-author: RoseHJM
+author: madskristensen
 monikerRange: "<=vs-2022"
 ms.subservice: azure-development
 ms.topic: how-to
 ms.date: 03/21/2017
-ms.author: rosemalcolm
+ms.author: madsk
 ms.custom: sfi-image-nochange
 ---
 

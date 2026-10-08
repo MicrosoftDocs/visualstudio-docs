@@ -4,8 +4,8 @@ description: Assign a random icon to each label in a matching game Windows Form 
 dev_langs:
   - "CSharp"
   - "VB"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 ms.topic: tutorial

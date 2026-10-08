@@ -10,8 +10,8 @@ helpviewer_keywords:
 - data [Visual Studio], saving
 - data access [Visual Studio], objects
 - saving data
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: data-tools
 ---

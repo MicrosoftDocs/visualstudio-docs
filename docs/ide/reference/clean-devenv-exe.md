@@ -8,8 +8,8 @@ helpviewer_keywords:
 - Clean Devenv switch
 - /Clean Devenv switch
 - Devenv, /Clean switch
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 ---

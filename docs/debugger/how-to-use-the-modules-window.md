@@ -19,8 +19,8 @@ helpviewer_keywords:
   - debugging [Visual Studio], displaying modules
   - DLLs, displaying while debugging
   - modules, displaying
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

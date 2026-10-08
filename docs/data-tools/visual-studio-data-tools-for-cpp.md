@@ -5,8 +5,8 @@ ms.date: 11/04/2016
 ms.topic: overview
 dev_langs:
 - CPP
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: data-tools
 ---

@@ -3,8 +3,8 @@ title: Update Visual Studio with minimal offline layout
 description: Create a minimal layout for a quick and easy way to update your offline Visual Studio instances for computers that aren't connected to the internet.
 ms.date: 11/04/2025
 ms.topic: how-to
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 
 ms.subservice: installation

@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "perfview"
   - "ETL Trace"
   - minidumps for Visual Studio issues"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 dev_langs:

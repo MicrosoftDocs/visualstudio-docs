@@ -10,8 +10,8 @@ helpviewer_keywords:
 - data [Visual Studio], TableAdapters
 - data [Visual Studio], extending TableAdapters
 - TableAdapters, adding functionality
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: data-tools
 ---

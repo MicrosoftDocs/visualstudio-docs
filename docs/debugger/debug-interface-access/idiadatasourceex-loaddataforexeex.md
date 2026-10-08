@@ -8,7 +8,7 @@ dev_langs:
 helpviewer_keywords:
   - "IDiaDataSourceEx::loadDataForExeEx method"
 author: vzarytovskii
-ms.author: twhitney
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

@@ -12,8 +12,8 @@ dev_langs:
 helpviewer_keywords:
 - XSD task (MSBuild (C++))
 - MSBuild (C++), XSD task
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: msbuild
 ---

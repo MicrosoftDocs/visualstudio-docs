@@ -19,8 +19,8 @@ helpviewer_keywords:
 - Tabbed Document mode
 - debug mode
 - custom layouts
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 

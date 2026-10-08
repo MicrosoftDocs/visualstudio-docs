@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - Call Hierarchy
 ms.custom: "ide-ref"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 ---

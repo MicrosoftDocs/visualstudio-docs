@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "context operator, in expressions"
   - "debugging [C++], expressions"
   - "native expression evaluator"
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

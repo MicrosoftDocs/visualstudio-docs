@@ -5,10 +5,10 @@ ms.date: 10/16/2025
 ms.topic: overview
 helpviewer_keywords:
 - IntelliTest, Visual Studio IntelliTest developer testing tool
-ms.author: rosemalcolm
+ms.author: madsk
 
 ms.subservice: test-tools
-author: RoseHJM
+author: madskristensen
 ---
 # Overview of Microsoft IntelliTest
 

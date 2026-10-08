@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "debugging managed code, Stop statements vs breakpoints"
   - "Stop statements, about Stop statements"
   - "debugging [Visual Basic], Stop statements vs. breakpoints"
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

@@ -5,8 +5,8 @@ ms.date: "10/28/2025"
 ms.topic: "error-reference"
 f1_keywords:
   - "vs.debug.error.unsafe_func_eval_abort"
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

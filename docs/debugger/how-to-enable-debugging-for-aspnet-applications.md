@@ -12,8 +12,8 @@ helpviewer_keywords:
   - debugging ASP.NET Web applications
   - Web.config configuration file, debug mode
   - debugging [Visual Studio], ASP.NET
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

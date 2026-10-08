@@ -4,8 +4,8 @@ title: "Start page for the Snapshot Debugger"
 ms.date: "07/14/2018"
 robots: "noindex, nofollow"
 ms.topic: "reference"
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

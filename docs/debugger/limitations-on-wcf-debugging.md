@@ -11,8 +11,8 @@ dev_langs:
 helpviewer_keywords:
   - "debugging, WCF"
   - "WCF, debugging limitations"
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

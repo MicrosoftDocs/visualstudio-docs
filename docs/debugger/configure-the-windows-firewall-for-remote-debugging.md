@@ -5,8 +5,8 @@ ms.date: 10/01/2025
 ms.topic: how-to
 f1_keywords:
   - "vs.debug.firewallconfiguration"
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

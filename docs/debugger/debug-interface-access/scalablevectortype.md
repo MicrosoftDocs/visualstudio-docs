@@ -10,8 +10,8 @@ helpviewer_keywords:
   - SVE_Z
   - SVE_P
   - SVE_FFR
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

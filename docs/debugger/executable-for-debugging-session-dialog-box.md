@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "DLLs, debugging"
   - "debugger, Executable for Debugging Session dialog box"
   - "Executable for Debugging Session dialog box"
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

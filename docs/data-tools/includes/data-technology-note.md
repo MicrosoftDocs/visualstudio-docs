@@ -1,8 +1,8 @@
 ---
 title: Data technology note
-author: RoseHJM
+author: madskristensen
 description: Note saying that ADO data technologies aren't recommended for new development.
-ms.author: rosemalcolm
+ms.author: madsk
 ms.date: 07/02/2025
 ms.subservice: data-tools
 ms.topic: include

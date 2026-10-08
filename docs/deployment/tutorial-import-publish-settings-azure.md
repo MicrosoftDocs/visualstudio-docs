@@ -5,8 +5,8 @@ ms.date: 03/21/2025
 ms.topic: tutorial
 helpviewer_keywords:
   - "deployment, publish settings"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: deployment
 ms.custom: sfi-image-nochange

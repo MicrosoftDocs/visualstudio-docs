@@ -13,8 +13,8 @@ dev_langs:
 helpviewer_keywords:
   - "<entryPoint> element [ClickOnce application manifest]"
   - "manifests [ClickOnce], entryPoint element"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: deployment
 ---

@@ -14,8 +14,8 @@ helpviewer_keywords:
   - debugging managed code, OnStart method
   - debugging Windows Services applications, OnStart method
   - Windows Service applications, debugging
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

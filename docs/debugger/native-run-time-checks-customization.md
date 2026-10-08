@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "/RTC compiler option [C++], native run-time checks"
   - "customizing CRT error checking"
   - "native run-time checks, customizing"
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

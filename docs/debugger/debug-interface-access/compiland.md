@@ -8,8 +8,8 @@ dev_langs:
 helpviewer_keywords:
   - "compiland symbol"
   - "compilands, compiland symbol"
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

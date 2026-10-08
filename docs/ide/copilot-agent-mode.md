@@ -4,8 +4,8 @@ description: Use the GitHub Copilot agent to iterate on code in Visual Studio by
 ms.date: 05/11/2026
 ms.update-cycle: 180-days
 ms.topic: get-started
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot

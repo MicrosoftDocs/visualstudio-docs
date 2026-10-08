@@ -4,9 +4,9 @@ description: Create and run unit tests with Google Test for C++, add and configu
 ms.date: 01/19/2022
 ms-custom: devdivchpfy22
 ms.topic: how-to
-ms.author: twhitney
+ms.author: madsk
 ms.manager:  coxford
-author: tylermsft
+author: madskristensen
 ---
 # Use Google Test for C++ in Visual Studio
 

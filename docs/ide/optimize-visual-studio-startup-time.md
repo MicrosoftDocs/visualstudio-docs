@@ -7,8 +7,8 @@ helpviewer_keywords:
 - startup time [Visual Studio]
 - optimizing performance [Visual Studio]
 - speed up start time [Visual Studio]
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 ---
