@@ -158,7 +158,7 @@ Starting in Visual Studio 2026 version 18.11, you can resolve conflicts for a fi
 1. Right-click a file, folder, or repository root.
 1. Select **Keep All Current** to keep the current versions, or **Take All Incoming** to accept the incoming versions.
 
-The action applies to the selected file or to the conflicted files underneath the selected folder or repository root. Review the scope before choosing an action. These bulk commands are an alternative to resolving each file in Merge Editor; they are distinct from its **Take Current** and **Take Incoming** buttons.
+The action applies to the selected file or to the conflicted files under the selected folder or repository root. Review the scope before choosing an action. These bulk commands are an alternative to resolving each file in Merge Editor. They're distinct from its **Take Current** and **Take Incoming** buttons.
 
 After resolving all conflicts, use **Git Changes** to create the merge commit as described in [Resolve merge conflicts](#resolve-merge-conflicts).
 
