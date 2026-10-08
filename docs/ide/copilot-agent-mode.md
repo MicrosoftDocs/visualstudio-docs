@@ -22,6 +22,12 @@ Unlike *ask mode*, agent mode doesn't stop after a single response. It continues
 - [Visual Studio 2022 version 17.14](/visualstudio/releases/2022/release-history) or later.
 - Familiarity with [selecting AI models in Copilot Chat](copilot-select-add-models.md).
 
+:::moniker range="visualstudio"
+
+Starting in Visual Studio 2026 version 18.11, you can optionally [enable the new Copilot chat experience](visual-studio-github-copilot-chat.md#enable-the-new-copilot-chat-experience), which uses the shared Copilot SDK foundation for Ask and Agent modes. Enabling it requires restarting Visual Studio.
+
+:::moniker-end
+
 ## Use agent mode
 
 In agent mode, Copilot operates autonomously and determines the relevant context for your prompt.

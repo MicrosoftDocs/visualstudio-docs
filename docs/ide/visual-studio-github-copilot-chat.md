@@ -51,6 +51,19 @@ If you use Visual Studio version 17.10 or later, GitHub Copilot Chat is included
 
 GitHub Copilot isn't included in Visual Studio Subscriptions. Instead, it's a separate subscription managed by GitHub. For questions regarding GitHub Copilot subscriptions and support, see the GitHub pages for [business subscriptions](https://docs.github.com/en/billing/managing-billing-for-github-copilot/managing-your-github-copilot-business-subscription) and [individual subscriptions](https://docs.github.com/en/billing/managing-billing-for-github-copilot/managing-your-github-copilot-individual-subscription).
 
+:::moniker range="visualstudio"
+
+## Enable the new Copilot chat experience
+
+Starting in Visual Studio 2026 version 18.11, you can enable a new Copilot chat experience built on the Copilot SDK, the same foundation used by the Copilot CLI and the GitHub Copilot app. The shared foundation powers Ask mode, Agent mode, and the underlying chat infrastructure.
+
+1. Go to **Tools** > **Options**.
+1. Go to **GitHub** > **Copilot** > **Copilot Chat**.
+1. Select **Use new Copilot chat experience**.
+1. Restart Visual Studio for the change to take effect.
+
+:::moniker-end
+
 ## Use Copilot Chat in Visual Studio
 
 You can ask your coding related questions in natural language. GitHub Copilot Chat answers these questions in your development context.
