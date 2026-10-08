@@ -14,8 +14,8 @@ helpviewer_keywords:
 - peek definition
 - go to line
 - go to
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 ms.manager:  j-martens
 ms.custom: "awp, awp-ai"
 ai-usage: ai-assisted

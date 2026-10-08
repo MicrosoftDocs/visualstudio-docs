@@ -10,8 +10,8 @@ dev_langs:
 helpviewer_keywords: 
   - file associations, ClickOnce applications
   - ClickOnce deployment, file associations
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: deployment
 ---

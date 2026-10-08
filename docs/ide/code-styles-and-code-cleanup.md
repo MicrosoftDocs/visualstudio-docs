@@ -4,8 +4,8 @@ description: Learn how to configure Visual Studio to apply code style preference
 ms.date: 01/06/2026
 ms.topic: how-to
 ms.custom: peer-review-program
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 f1_keywords:

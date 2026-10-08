@@ -9,8 +9,8 @@ helpviewer_keywords:
   - opening Messages view in Spy++
   - Message Search dialog box
   - logs, starting message log display
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

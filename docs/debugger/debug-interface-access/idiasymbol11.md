@@ -8,7 +8,7 @@ dev_langs:
 helpviewer_keywords:
   - "IDiaSymbol11 interface"
 author: vzarytovskii
-ms.author: twhitney
+ms.author: madsk
 ms.manager:  twhitney
 ms.subservice: debug-diagnostics
 ---

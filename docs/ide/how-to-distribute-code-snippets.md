@@ -5,8 +5,8 @@ ms.date: 04/03/2024
 ms.topic: how-to
 helpviewer_keywords:
 - code snippets, distributing
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 dev_langs:

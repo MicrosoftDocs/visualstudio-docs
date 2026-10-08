@@ -8,8 +8,8 @@ dev_langs:
 helpviewer_keywords:
   - "FuncDebugEnd symbol"
   - "debugging [DIA SDK], end point"
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

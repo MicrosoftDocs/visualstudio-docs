@@ -2,11 +2,11 @@
  title: Native debugging - Access violation
  description: Native debugging FAQ content for access violation
  services: ""
- author: TylerMSFT
+ author: madskristensen
  ms.service: ""
  ms.topic: include
  ms.date: 03/10/2023
- ms.author: twhitney
+ ms.author: madsk
  ms.custom: include file
 ---
 If you get an access violation on a line of code that dereferences  multiple pointers, it can be difficult to find out which pointer caused the access violation. In Visual Studio, the exception dialog box explicitly names the pointer that caused the access violation.

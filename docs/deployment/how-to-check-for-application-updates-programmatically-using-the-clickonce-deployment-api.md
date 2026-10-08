@@ -10,8 +10,8 @@ dev_langs:
 helpviewer_keywords: 
   - ClickOnce deployment, updates
   - application updates
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: deployment
 ---

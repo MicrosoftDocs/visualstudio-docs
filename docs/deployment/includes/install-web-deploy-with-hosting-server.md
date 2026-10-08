@@ -1,8 +1,8 @@
 ---
 title: Install Web Deploy with hosting server
-author: RoseHJM
+author: madskristensen
 description: Learn how to install Web Deploy on IIS
-ms.author: rosemalcolm
+ms.author: madsk
 ms.date: 10/3/2025
 ms.subservice: deployment
 ms.topic: include

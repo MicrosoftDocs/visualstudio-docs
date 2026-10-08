@@ -3,8 +3,8 @@ title: .NET SDK Multitargeting Overview
 description: Use MSBuild to compile an application to run on any one of several versions of .NET.
 ms.date: 1/9/2025
 ms.topic: how-to
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: msbuild
 ai-usage: ai-assisted

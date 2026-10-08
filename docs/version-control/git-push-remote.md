@@ -4,8 +4,8 @@ titleSuffix: ""
 description: Push your local project directory to a remote in Visual Studio by using GitHub or Azure DevOps for a safe place to store your code in the cloud.
 ms.date: 06/10/2026
 ms.topic: how-to
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 ---

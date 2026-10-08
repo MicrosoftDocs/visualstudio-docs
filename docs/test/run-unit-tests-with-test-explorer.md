@@ -5,8 +5,8 @@ ms.date: 03/06/2026
 ms.topic: how-to
 f1_keywords:
 - VS.ToolsOptionsPages.Test.General
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: test-tools
 ---

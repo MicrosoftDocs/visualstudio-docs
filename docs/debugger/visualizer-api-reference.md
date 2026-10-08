@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "APIs, visualizers"
   - "reference, visualizer APIs"
   - "visualizers, API reference"
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

@@ -3,8 +3,8 @@ title: Schema does not match
 description: One or more selected database objects return a schema that does not match the schema of the target class
 ms.date: 11/04/2016
 ms.topic: error-reference
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: data-tools
 ---

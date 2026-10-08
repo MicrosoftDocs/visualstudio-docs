@@ -8,8 +8,8 @@ dev_langs:
 helpviewer_keywords:
   - "FuncDebugStart symbol"
   - "debugging [DIA SDK], start point"
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

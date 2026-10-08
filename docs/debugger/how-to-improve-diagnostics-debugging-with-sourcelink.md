@@ -8,8 +8,8 @@ dev_langs:
   - VB
 helpviewer_keywords: 
   - source link, debugging, diagnostics
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 ms.subservice: debug-diagnostics
 ---
 

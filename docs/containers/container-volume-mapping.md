@@ -1,8 +1,8 @@
 ---
 title: Understand and customize volume mapping in Docker containers
-author: RoseHJM
+author: madskristensen
 description: Explore how Visual Studio handles volume mapping for container images, and learn how to customize volume mappings.
-ms.author: rosemalcolm
+ms.author: madsk
 ms.date: 8/19/2025
 ms.subservice: container-tools
 ms.topic: how-to

@@ -6,10 +6,10 @@ ms.topic: concept-article
 helpviewer_keywords:
 - generics, and unit tests
 - unit tests, and generics
-ms.author: rosemalcolm
+ms.author: madsk
 
 ms.subservice: test-tools
-author: RoseHJM
+author: madskristensen
 ---
 # Unit tests for generic methods
 

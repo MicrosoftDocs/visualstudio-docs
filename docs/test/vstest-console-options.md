@@ -6,8 +6,8 @@ ms.topic: reference
 helpviewer_keywords:
 - vstest.console.exe
 - command-line tests
-ms.author: rosemalcolm
-author: RoseHJM
+ms.author: madsk
+author: madskristensen
 
 ms.subservice: test-tools
 ---

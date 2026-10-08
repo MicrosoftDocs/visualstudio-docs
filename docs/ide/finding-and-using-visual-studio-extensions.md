@@ -9,8 +9,8 @@ helpviewer_keywords:
 - install extensions
 - install packages
 - managing extensions visual studio
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 

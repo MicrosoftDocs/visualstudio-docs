@@ -6,8 +6,8 @@ ms.topic: concept-article
 helpviewer_keywords:
 - environments [Visual Studio], settings
 monikerRange: "visualstudio"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 ms.custom: peer-review-program, awp-ai

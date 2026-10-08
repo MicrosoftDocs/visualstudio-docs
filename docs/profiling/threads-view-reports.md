@@ -11,8 +11,8 @@ f1_keywords:
   - "vs.cv.threads.report.executionbreakdown"
 helpviewer_keywords:
   - "Concurrency Visualizer, Threads View Reports (Parallel Performance)"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

@@ -3,8 +3,8 @@ title: 'Model 3D Terrain'
 description: Learn how to use the Model Editor to create a 3D terrain model by dividing a plane to make additional faces and manipulating their vertices.
 ms.date: 11/04/2016
 ms.topic: how-to
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: ui-designers
 ---

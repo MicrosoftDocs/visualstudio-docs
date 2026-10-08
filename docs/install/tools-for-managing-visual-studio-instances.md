@@ -8,8 +8,8 @@ helpviewer_keywords:
 - vswhere
 - vswhere.exe
 - visual studio instance
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 
 ms.subservice: installation

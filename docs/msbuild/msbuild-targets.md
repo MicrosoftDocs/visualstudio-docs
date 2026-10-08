@@ -5,8 +5,8 @@ ms.date: 06/01/2023
 ms.topic: language-reference
 helpviewer_keywords:
 - MSBuild, targets
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: msbuild
 ---

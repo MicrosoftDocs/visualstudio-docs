@@ -11,8 +11,8 @@ helpviewer_keywords:
 - System.Transactions namespace
 - transactions, saving data
 - data [Visual Studio], saving
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: data-tools
 ---

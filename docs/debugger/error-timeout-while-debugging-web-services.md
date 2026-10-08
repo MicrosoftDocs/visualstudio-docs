@@ -11,8 +11,8 @@ dev_langs:
 helpviewer_keywords:
   - "debugger, Web application errors"
   - "XML Web services, timeout while debugging"
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

@@ -3,8 +3,8 @@ title: Perf insights for LOH allocations
 description: Learn how to improve performance for excessive LOH allocations.
 ms.date: 12/04/2025
 ms.topic: reference
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2022'

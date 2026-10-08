@@ -13,8 +13,8 @@ helpviewer_keywords:
   - debugger, restoring commands
   - debugging [Visual Studio], restoring commands
   - commands, debugger
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

@@ -4,8 +4,8 @@ description: Learn how to add MCP servers in Visual Studio, configure mcp.json, 
 ms.date: 05/26/2026
 ms.update-cycle: 180-days
 ms.topic: get-started
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
 ms.custom: awp-ai, doc-kit-assisted

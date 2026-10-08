@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "classifying a resource set to embed in an assembly [WPF MSBuild]"
   - "non-localizable resources [WPF MSBuild], classifying to embed in an assembly"
   - "FileClassifier task [WPF MSBuild]"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: msbuild
 ---

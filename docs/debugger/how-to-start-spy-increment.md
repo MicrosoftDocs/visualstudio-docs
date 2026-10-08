@@ -5,8 +5,8 @@ ms.date: 05/29/2026
 ms.topic: how-to
 helpviewer_keywords: 
   - Spy++, starting
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 #customer intent: As a developer, I want to use the Spy++ tool in Visual Studio so I can debug my solution.

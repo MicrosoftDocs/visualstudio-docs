@@ -1,8 +1,8 @@
 ---
 title: Configure trust settings for files and folders
 description: Learn how to change trust settings for files and folders to keep Visual Studio secure.
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 ms.date: 11/17/2025

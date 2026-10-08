@@ -10,8 +10,8 @@ dev_langs:
 helpviewer_keywords:
   - "XDCMake task (MSBuild (C++))"
   - "MSBuild (C++), XDCMake task"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: msbuild
 ---

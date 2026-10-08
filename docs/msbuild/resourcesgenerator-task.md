@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "embedding resources into a .resources file [WPF MSBuild]"
   - "ResourcesGenerator task [WPF MSBuild]"
   - "ResourcesGenerator task [WPF MSBuild], parameters"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: msbuild
 ---

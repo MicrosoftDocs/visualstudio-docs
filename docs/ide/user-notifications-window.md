@@ -9,8 +9,8 @@ f1_keywords:
 helpviewer_keywords:
   - "User Notifications tool window"
 ms.custom: "ide-ref"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 monikerRange: ">=vs-2022"

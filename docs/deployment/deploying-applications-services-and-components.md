@@ -16,8 +16,8 @@ helpviewer_keywords:
   - "deploying applications [Visual Studio]"
   - "deploying applications [Visual Studio], about deploying applications"
   - "components [.NET Framework], deploying"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: deployment
 ms.custom: peer-review-program

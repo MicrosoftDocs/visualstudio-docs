@@ -10,8 +10,8 @@ helpviewer_keywords:
 - code snippets, replacements
 - code snippets, references
 - code snippets, imports
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 dev_langs:

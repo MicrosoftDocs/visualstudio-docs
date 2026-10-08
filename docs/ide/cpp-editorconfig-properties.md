@@ -3,8 +3,8 @@ title: "C++ EditorConfig formatting conventions"
 titleSuffix: ""
 description: "Learn about how to use EditorConfig to format C++ code in Visual Studio."
 ms.date: 07/13/2026
-author: TylerMSFT
-ms.author: twhitney 
+author: madskristensen
+ms.author: madsk 
 
 ms.subservice: general-ide
 dev_langs:

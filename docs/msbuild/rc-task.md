@@ -13,8 +13,8 @@ dev_langs:
 helpviewer_keywords:
   - "RC task (MSBuild (C++))"
   - "MSBuild (C++), RC task"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: msbuild
 ---

@@ -12,8 +12,8 @@ dev_langs:
 helpviewer_keywords:
 - Import element [MSBuild]
 - <Import> element [MSBuild]
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: msbuild
 ---

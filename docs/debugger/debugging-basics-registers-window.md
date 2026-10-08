@@ -12,8 +12,8 @@ dev_langs:
 helpviewer_keywords:
   - "Registers window, about Registers window"
   - "debugging [Visual Studio], Registers window"
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

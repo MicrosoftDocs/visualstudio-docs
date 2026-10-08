@@ -4,8 +4,8 @@ description: Learn how to open GitHub Copilot in Visual Studio and use chat, age
 ms.date: 09/16/2026
 ms.update-cycle: 180-days
 ms.topic: get-started
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.service: visual-studio-windows
 ms.subservice: ai-tools

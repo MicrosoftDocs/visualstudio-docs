@@ -11,8 +11,8 @@ dev_langs:
 helpviewer_keywords:
   - "debugging ASP.NET Web applications, system requirements"
   - "debugging ASP.NET Web applications, security requirements"
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

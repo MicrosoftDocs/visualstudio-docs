@@ -5,8 +5,8 @@ ms.date: 06/19/2024
 ms.topic: reference
 helpviewer_keywords: 
   - Concurrency Visualizer SDK, C++ Library Reference
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

@@ -10,8 +10,8 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "<Commands> element [bootstrapper]"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: deployment
 ---

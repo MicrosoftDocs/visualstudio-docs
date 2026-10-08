@@ -7,8 +7,8 @@ helpviewer_keywords:
 - environment variables, referencing
 - projects [.NET Framework], environment variables
 - MSBuild, environment variables
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: msbuild
 ---

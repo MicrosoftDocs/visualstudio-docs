@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "summary line"
   - "unit tests"
   - "Test Explorer FAQ"
-ms.author: rosemalcolm
-author: RoseHJM
+ms.author: madsk
+author: madskristensen
 
 ms.subservice: test-tools
 ---

@@ -5,8 +5,8 @@ description: Manage Git repositories in Visual Studio by using worktrees, changi
 ms.date: 09/08/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 ai-usage: ai-assisted
 ms.subservice: general-ide
 ms.collection: ce-skilling-ai-copilot

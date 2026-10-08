@@ -1,8 +1,8 @@
 ---
 title: Deploy multiple containers to Azure
-author: RoseHJM
+author: madskristensen
 description: Deploy multi-container applications to Azure.
-ms.author: rosemalcolm
+ms.author: madsk
 ms.date: 9/10/2025
 ms.subservice: container-tools
 ms.topic: tutorial

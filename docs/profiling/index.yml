@@ -8,9 +8,9 @@ metadata:
   description: Explore documentation to help you use profiling tools in Visual Studio to measure performance, including overviews, getting started tutorials, and how-to guides.
   ms.topic: landing-page
   ms.subservice: debug-diagnostics
-  author: RoseHJM
-  ms.author: rosemalcolm
-  manager: wiwagn
+  author: madskristensen
+  ms.author: madsk
+  manager: ansonh
   ms.date: 07/23/2025
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new

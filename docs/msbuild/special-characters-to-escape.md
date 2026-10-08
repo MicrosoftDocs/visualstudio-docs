@@ -10,8 +10,8 @@ dev_langs:
 helpviewer_keywords:
 - special characters to escape
 - msbuild, special characters to escape
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: msbuild
 ---

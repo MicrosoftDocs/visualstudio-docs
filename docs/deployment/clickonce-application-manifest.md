@@ -10,8 +10,8 @@ dev_langs:
 helpviewer_keywords:
   - "application manifests [ClickOnce]"
   - "ClickOnce, application manifests"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: deployment
 ---

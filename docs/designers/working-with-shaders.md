@@ -3,8 +3,8 @@ title: Working with Shaders
 description: Learn how to design custom shader effects by using the graph-based Shader Designer in Visual Studio. You can use shaders in your DirectX-based game or app.
 ms.date: 11/04/2016
 ms.topic: concept-article
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: ui-designers
 ---

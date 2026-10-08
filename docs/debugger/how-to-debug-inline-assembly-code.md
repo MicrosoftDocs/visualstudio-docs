@@ -14,8 +14,8 @@ helpviewer_keywords:
   - assembly language, debugging inline assembly code
   - debugging [C++], inline assembly code
   - inline assembly, debugging
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

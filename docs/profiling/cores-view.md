@@ -11,8 +11,8 @@ f1_keywords:
   - "vs.cv.cores.zoom"
 helpviewer_keywords:
   - "Concurrency Visualizer, Cores View"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

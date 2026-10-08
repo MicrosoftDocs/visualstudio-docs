@@ -5,8 +5,8 @@ ms.date: 03/05/2026
 ms.topic: tutorial
 helpviewer_keywords:
 - unit testing, create unit test plans
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: test-tools
 ms.update-cycle: 90-days

@@ -5,8 +5,8 @@ ms.date: 11/25/2025
 ms.topic: how-to
 helpviewer_keywords: 
   - unit testing, create unit tests
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: test-tools
 monikerRange: '<= vs-2022'

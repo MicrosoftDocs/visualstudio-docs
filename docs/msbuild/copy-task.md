@@ -14,8 +14,8 @@ dev_langs:
 helpviewer_keywords:
 - MSBuild, Copy task
 - Copy task [MSBuild]
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: msbuild
 ---

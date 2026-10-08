@@ -7,8 +7,8 @@ helpviewer_keywords:
   - Web performance tests, creating Web service tests
   - Web services [Visual Studio ALM], creating
   - service tests, Web
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: test-tools
 ---

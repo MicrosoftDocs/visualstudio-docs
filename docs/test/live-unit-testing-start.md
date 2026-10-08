@@ -5,8 +5,8 @@ ms.date: 01/05/2026
 ms.topic: how-to
 helpviewer_keywords: 
   - Live Unit Testing
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: test-tools
 ---

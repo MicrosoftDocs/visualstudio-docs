@@ -6,8 +6,8 @@ ms.topic: how-to
 helpviewer_keywords:
   - "accessibility features [Help Viewer]"
   - "Help Viewer, accessibility features"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: help-viewer
 ---

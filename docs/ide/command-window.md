@@ -12,8 +12,8 @@ helpviewer_keywords:
 - Command mode in Command window
 - IDE Command window
 ms.custom: "ide-ref"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 ---

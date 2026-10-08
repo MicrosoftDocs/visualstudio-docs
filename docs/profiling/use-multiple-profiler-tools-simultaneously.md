@@ -5,8 +5,8 @@ ms.date: 4/29/2020
 ms.topic: how-to
 helpviewer_keywords: 
   - Profiler, multiple tools
-author: RoseHJM
-ms.author: rosemalcolm 
+author: madskristensen
+ms.author: madsk 
 ms.manager:  AndSter
 ms.subservice: debug-diagnostics
 ---

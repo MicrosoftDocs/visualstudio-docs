@@ -5,8 +5,8 @@ ms.date: 09/27/2024
 ms.topic: how-to
 helpviewer_keywords:
   - "deployment settings, web app"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: deployment
 monikerRange: '>= vs-2022'

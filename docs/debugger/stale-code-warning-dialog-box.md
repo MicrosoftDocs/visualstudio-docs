@@ -15,8 +15,8 @@ helpviewer_keywords:
   - "code, stale code warning"
   - "warnings, Stale Code Warning dialog box"
   - "Edit and Continue, stale code"
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

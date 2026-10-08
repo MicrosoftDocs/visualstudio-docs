@@ -6,8 +6,8 @@ ms.date: 02/11/2026
 ms.subservice: general-ide
 ms.topic: tutorial
 ms.devlang: csharp
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 monikerRange: ">=vs-2022"
 dev_langs:

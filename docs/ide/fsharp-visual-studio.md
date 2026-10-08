@@ -7,8 +7,8 @@ helpviewer_keywords:
 - F# features [Visual Studio]
 f1_keywords:
 - fs.ProjectPropertiesDebug
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 ---

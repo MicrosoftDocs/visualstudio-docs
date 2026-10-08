@@ -10,8 +10,8 @@ dev_langs:
 helpviewer_keywords:
 - MSBuild (C++), GetOutputFileName task
 - GetOutputFileName task (MSBuild (C++))
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 ---
 # GetOutputFileName task
 

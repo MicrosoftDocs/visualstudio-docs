@@ -5,8 +5,8 @@ ms.date: 05/06/2024
 ms.topic: how-to
 helpviewer_keywords: 
   - Profiler, Events Viewer
-author: RoseHJM
-ms.author: rosemalcolm 
+author: madskristensen
+ms.author: madsk 
 ms.manager:  AndSter
 ms.subservice: debug-diagnostics
 ms.custom: sfi-image-nochange

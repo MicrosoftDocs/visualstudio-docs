@@ -12,8 +12,8 @@ helpviewer_keywords:
 - Text Editor Options dialog box, formatting
 - ClangFormat
 ms.custom: "ide-ref"
-author: tylermsft
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 ms.manager:  coxford
 ---
 # Options, Text Editor, C/C++, Formatting

@@ -4,8 +4,8 @@ description: Use GitHub Copilot Completions, Chat, and Edits for free in Visual 
 ms.date: 05/15/2026
 ms.update-cycle: 180-days
 ms.topic: overview 
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot
 ms.custom: awp-ai

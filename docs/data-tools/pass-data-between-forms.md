@@ -12,8 +12,8 @@ helpviewer_keywords:
 - data [Visual Studio], passing between forms
 - forms, passing data between
 - Windows Forms, walkthroughs
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: data-tools
 

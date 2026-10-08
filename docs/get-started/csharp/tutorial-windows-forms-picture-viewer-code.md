@@ -4,8 +4,8 @@ description: Learn how to add C# or VB code to support the UI controls for a pic
 dev_langs:
   - "CSharp"
   - "VB"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 ms.topic: tutorial

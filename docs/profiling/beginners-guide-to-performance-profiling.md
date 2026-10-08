@@ -8,8 +8,8 @@ helpviewer_keywords:
   - "Diagnostics Tools, CPU Usage"
   - "CPU Usage"
   - "Diagnostics Tools"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ms.update-cycle: 90-days

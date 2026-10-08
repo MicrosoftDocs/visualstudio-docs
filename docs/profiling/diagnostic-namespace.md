@@ -7,8 +7,8 @@ f1_keywords:
 - cvmarkersobj/Concurrency, diagnostic
 helpviewer_keywords: 
 - Concurrency, diagnostic namespace
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

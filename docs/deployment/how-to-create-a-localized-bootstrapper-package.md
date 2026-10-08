@@ -7,8 +7,8 @@ helpviewer_keywords:
   - localized bootstrapper packages
   - dependencies, creating localized bootstrapper packages
   - prerequisites, creating localized bootstrapper packages
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: deployment
 ---

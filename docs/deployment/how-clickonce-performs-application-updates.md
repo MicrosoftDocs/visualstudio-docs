@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "updates, ClickOnce"
   - "ClickOnce deployment, updates"
   - "deploying applications [ClickOnce], application updates"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: deployment
 ---

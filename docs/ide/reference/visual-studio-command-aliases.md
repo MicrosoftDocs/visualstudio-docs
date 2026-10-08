@@ -11,8 +11,8 @@ helpviewer_keywords:
 - Visual Studio commands
 - pre-defined command aliases
 - command aliases
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 ---

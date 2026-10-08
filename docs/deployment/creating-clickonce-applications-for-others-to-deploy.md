@@ -19,8 +19,8 @@ helpviewer_keywords:
   - "trust applications, ClickOnce"
   - "ClickOnce applications, deployed by others"
   - "ClickOnce applications, previous .NET Framework"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: deployment
 ---
