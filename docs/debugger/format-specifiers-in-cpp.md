@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "watch variable symbols"
   - "format specifiers, debugger"
   - "debugger, format specifiers recognized by"
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

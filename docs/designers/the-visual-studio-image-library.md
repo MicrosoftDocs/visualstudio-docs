@@ -11,8 +11,8 @@ helpviewer_keywords:
 - Visual Studio Image Library
 - icons [Visual Studio], Image Library
 - bitmaps [Visual Studio], Image Library
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: ui-designers
 ---

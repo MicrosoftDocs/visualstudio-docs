@@ -10,8 +10,8 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "debugger, Web application errors"
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

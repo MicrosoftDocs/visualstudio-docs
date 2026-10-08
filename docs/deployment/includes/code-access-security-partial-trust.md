@@ -1,8 +1,8 @@
 ---
 title: Visual Studio ClickOnce partial trust and code access security
-author: RoseHJM
+author: madskristensen
 description: Learn about partial trust and Code Access Security support in ClickOnce
-ms.author: rosemalcolm
+ms.author: madsk
 ms.date: 04/25/2025
 ms.subservice: deployment
 ms.topic: include

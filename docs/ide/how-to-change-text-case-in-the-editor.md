@@ -6,8 +6,8 @@ ms.topic: how-to
 helpviewer_keywords:
 - editors, text case
 - text, case
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 ---

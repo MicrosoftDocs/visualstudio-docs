@@ -5,8 +5,8 @@ ms.date: 03/10/2025
 ms.topic: tutorial
 helpviewer_keywords:
 - MSBuild, tutorial
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: msbuild
 ---

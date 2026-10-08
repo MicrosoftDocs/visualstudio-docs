@@ -8,8 +8,8 @@ f1_keywords:
 - command-line parameters
 - switches
 - command prompt
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 
 ms.subservice: installation

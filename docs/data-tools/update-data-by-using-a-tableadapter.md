@@ -13,8 +13,8 @@ helpviewer_keywords:
 - TableAdapters, updating data
 - data [Visual Studio], updating
 - saving data
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: data-tools
 ---

@@ -19,8 +19,8 @@ helpviewer_keywords:
   - CvEnterSpanA method
   - CvEnterSpanExVW method
   - CvEnterSpanExW method
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

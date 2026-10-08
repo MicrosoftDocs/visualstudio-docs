@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "parallel tasks toolwindow"
   - "debugging, async applications"
   - "async applications, debugging [C#]"
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2022'

@@ -14,8 +14,8 @@ helpviewer_keywords:
 - data views, filtering
 - sorting datasets, using data views
 - dataset filtering, using data views
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: data-tools
 ---

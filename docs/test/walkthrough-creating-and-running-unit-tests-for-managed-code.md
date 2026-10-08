@@ -9,10 +9,10 @@ helpviewer_keywords:
 - unit tests, generating
 - unit tests, running
 - unit tests, authoring
-ms.author: rosemalcolm
+ms.author: madsk
 
 ms.subservice: test-tools
-author: RoseHJM
+author: madskristensen
 ms.update-cycle: 90-days
 ---
 # Create and run unit tests for .NET

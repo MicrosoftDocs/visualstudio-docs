@@ -6,8 +6,8 @@ ms.topic: how-to
 helpviewer_keywords:
   - "Languages Options, Text editor"
 ms.custom: "ide-ref"
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 ms.manager:  coxford
 monikerRange: 'visualstudio'
 ---

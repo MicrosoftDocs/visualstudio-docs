@@ -8,8 +8,8 @@ helpviewer_keywords:
 - command-line switches, Devenv
 - command line [Visual Studio], switches
 - Devenv
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 ---

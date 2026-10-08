@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "Watch window, pseudovariables"
   - "debugging [Visual Studio], pseudovariables"
   - "pseudovariables"
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

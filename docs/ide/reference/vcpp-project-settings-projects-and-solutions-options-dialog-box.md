@@ -14,8 +14,8 @@ helpviewer_keywords:
   - "extensions, files built by C or C++ compiler"
   - "BuildLog.htm"
 ms.custom: "ide-ref"
-author: tylermsft
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 ms.manager:  coxford
 ---
 # VC++ Project Settings, Projects and Solutions, Options Dialog Box

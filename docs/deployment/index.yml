@@ -8,9 +8,9 @@ metadata:
   description: Explore Visual Studio tools and features to deploy applications, services, and components, including ASP.NET, C++, .NET Framework and .NET Core, Docker, and Azure.
   ms.topic: landing-page
   ms.subservice: deployment
-  author: nitinme
-  ms.author: nitinme
-  manager: wiwagn
+  author: madskristensen
+  ms.author: madsk
+  manager: ansonh
   ms.date: 5/1/2025
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new

@@ -10,8 +10,8 @@ dev_langs:
 helpviewer_keywords:
 - <Property> Element [MSBuild]
 - Property Element [MSBuild]
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: msbuild
 ---

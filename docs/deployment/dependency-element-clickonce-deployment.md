@@ -20,8 +20,8 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "<dependency> element [ClickOnce deployment manifest]"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: deployment
 ---

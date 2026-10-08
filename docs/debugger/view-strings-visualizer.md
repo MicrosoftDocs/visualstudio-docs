@@ -15,8 +15,8 @@ dev_langs:
 helpviewer_keywords:
   - "string visualizer"
   - "visualizers, string"
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

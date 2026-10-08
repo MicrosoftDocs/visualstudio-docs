@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "Threads window"
   - "@TIB"
   - "debugging [Visual Studio], threads"
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 

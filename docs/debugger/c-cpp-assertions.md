@@ -23,8 +23,8 @@ helpviewer_keywords:
   - "_DEBUG macro"
   - "Assertion Failed dialog box"
   - "failures, finding locations"
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

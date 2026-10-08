@@ -13,8 +13,8 @@ ms.custom:
 f1_keywords:
 - vs.startpage
 - VS.StartPage.HowDoI
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 #customer intent: As a developer, I want to understand the features of Visual Studio so that I can decide which features are useful to me.
 ---

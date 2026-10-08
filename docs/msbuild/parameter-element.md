@@ -11,8 +11,8 @@ dev_langs:
 helpviewer_keywords:
 - Parameter element [MSBuild]
 - <Parameter> element [MSBuild]
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: msbuild
 ---

@@ -17,8 +17,8 @@ helpviewer_keywords:
   - "projects [Visual Studio], debug configurations"
   - "project configurations, debug"
   - "debug configurations, Visual Basic"
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

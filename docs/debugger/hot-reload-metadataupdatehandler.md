@@ -7,8 +7,8 @@ helpviewer_keywords:
   - "Hot reload, MetadataUpdateHandler"
   - ".NET Hot Reload, MetadataUpdateHandler"
   - "MetadataUpdateHandler for .NET Hot Reload"
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2022'

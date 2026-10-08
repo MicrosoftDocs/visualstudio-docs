@@ -10,8 +10,8 @@ helpviewer_keywords:
 - files, encoding
 - bidirectional language support, encoded files
 - file encoding, bidirectional languages
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 

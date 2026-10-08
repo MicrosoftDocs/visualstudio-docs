@@ -9,8 +9,8 @@ helpviewer_keywords:
 - Open File command
 - File.OpenFile command
 - of command
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 ---

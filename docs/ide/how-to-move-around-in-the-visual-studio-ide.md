@@ -12,8 +12,8 @@ helpviewer_keywords:
 - windows [Visual Studio], navigating
 - Window.NextDocumentWindowNav
 - IDE navigator
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 ---

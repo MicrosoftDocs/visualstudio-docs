@@ -4,8 +4,8 @@ description: Learn how to manage your GitHub Copilot usage and models directly w
 ms.date: 08/19/2026
 ms.update-cycle: 180-days
 ms.topic: overview
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 ai-usage: ai-assisted
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot

@@ -13,8 +13,8 @@ helpviewer_keywords:
   - "COM components, deploying"
   - "deploying applications [ClickOnce], COM components"
   - "components, deploying"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: deployment
 ---

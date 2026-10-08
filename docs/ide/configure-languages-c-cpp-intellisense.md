@@ -6,7 +6,7 @@ ms.topic: how-to
 helpviewer_keywords:
   - "Languages Options, IntelliSense"
 ms.custom: "ide-ref"
-ms.author: twhitney
+ms.author: madsk
 ms.manager:  coxfordf
 monikerRange: 'visualstudio'
 ---

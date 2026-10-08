@@ -10,8 +10,8 @@ helpviewer_keywords:
 - localization [Visual Studio]
 - world-ready applications
 - international applications [Visual Studio]
-author: BillWagner
-ms.author: wiwagn
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 ---

@@ -6,7 +6,7 @@ ms.topic: tutorial
 helpviewer_keywords:
   - "deployment, web app"
 author: alexwolfmsft
-ms.author: alexwolf
+ms.author: madsk
 ms.subservice: deployment
 monikerRange: '>= vs-2022'
 ms.custom:

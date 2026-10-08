@@ -1,8 +1,8 @@
 ---
 title: "Tutorial: Create Windows Forms app (Visual Basic)"
 description: Create a Windows Forms app in Visual Studio with Visual Basic, add a button to the form, add a label and code, and run the application.
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 ms.topic: tutorial

@@ -8,8 +8,8 @@ dev_langs:
   - "VB"
 helpviewer_keywords:
   - "debugger"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 
 #customer intent: As a Visual Basic developer, I want to understand how debugging works in Visual Studio.

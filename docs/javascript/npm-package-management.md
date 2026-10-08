@@ -4,8 +4,8 @@ description: Manage packages in Visual Studio by using the Node.js package manag
 ms.date: "6/15/2026"
 ms.topic: "how-to"
 ms.devlang: javascript
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: javascript-typescript
 dev_langs:

@@ -1,8 +1,8 @@
 ---
 title: Visual Studio .NET ClickOnce feature support
-author: RoseHJM
+author: madskristensen
 description: Learn about unsupported features in ClickOnce for .NET 3.1 and .NET 5 and later
-ms.author: rosemalcolm
+ms.author: madsk
 ms.date: 09/14/2022
 ms.subservice: deployment
 ms.topic: include

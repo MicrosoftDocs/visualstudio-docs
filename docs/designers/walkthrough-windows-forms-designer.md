@@ -5,8 +5,8 @@ ms.date: 02/20/2026
 ms.topic: tutorial
 helpviewer_keywords:
 - Windows Forms Designer, get started
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: ui-designers
 ms.custom: awp-ai

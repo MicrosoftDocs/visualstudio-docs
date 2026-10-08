@@ -20,8 +20,8 @@ helpviewer_keywords:
   - threading [Visual Studio], continuing execution after exceptions
   - Exceptions dialog box
   - programs, executing
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

@@ -8,8 +8,8 @@ helpviewer_keywords:
 - data sources, displaying data
 - Data Sources window
 - displaying data
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: data-tools
 ---

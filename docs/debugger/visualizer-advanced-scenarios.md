@@ -14,7 +14,7 @@ helpviewer_keywords:
   - "visualizers, writing"
   - "visualizers"
 author: "mpeyrotc"
-ms.author: twhitney
+ms.author: madsk
 ms.manager:  caslan
 ---
 # Advanced visualizer scenarios

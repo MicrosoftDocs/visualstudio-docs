@@ -4,8 +4,8 @@ description: Use custom instructions and prompt files to customize responses and
 ms.date: 09/04/2026
 ms.update-cycle: 180-days
 ms.topic: how-to 
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot 
 helpviewer_keywords: 

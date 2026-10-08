@@ -8,9 +8,9 @@ metadata:
    description: Learn how to use MSBuild to build projects.
    ms.topic: hub-page
    ms.date: 7/1/2025
-   author: nitinme
-   ms.author: nitinme
-   manager: wiwagn
+   author: madskristensen
+   ms.author: madsk
+   manager: ansonh
    uhfHeaderId: MSDocsHeader-MSBuild
    monikerRange: ">=vs-2022"
 

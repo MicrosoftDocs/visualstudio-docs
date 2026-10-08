@@ -18,8 +18,8 @@ helpviewer_keywords:
   - "managed call stacks"
   - "mixed-mode debugging, call stack"
   - "stepping, out of managed code"
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

@@ -12,8 +12,8 @@ dev_langs:
   - C++
 helpviewer_keywords: 
   - debugger, parallel watch window
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

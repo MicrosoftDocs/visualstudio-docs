@@ -8,8 +8,8 @@ f1_keywords:
 helpviewer_keywords:
 - Start command
 - Debug.Start command
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 ---

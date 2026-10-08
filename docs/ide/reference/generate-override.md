@@ -4,8 +4,8 @@ description: Learn how to immediately generate the code for any method which can
 ms.date: 01/26/2018
 ms.topic: reference
 ms.custom: "ide-ref"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 ---

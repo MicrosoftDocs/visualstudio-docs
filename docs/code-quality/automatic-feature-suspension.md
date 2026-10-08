@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "full solution analysis"
   - "performance"
   - "low-memory"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: code-analysis
 ---

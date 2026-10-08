@@ -10,8 +10,8 @@ helpviewer_keywords:
   - "diagnostic tools"
   - "profiling tools"
   - "performance tools"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

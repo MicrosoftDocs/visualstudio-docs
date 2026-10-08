@@ -9,8 +9,8 @@ dev_langs:
   - "C++"
 helpviewer_keywords:
   - "IDiaStackWalkHelper3::put_registerValue method"
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

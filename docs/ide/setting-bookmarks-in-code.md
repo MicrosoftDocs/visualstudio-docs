@@ -6,8 +6,8 @@ ms.date: 04/20/2026
 ms.topic: how-to
 f1_keywords:
 - VS.BookmarkWindow
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 ---

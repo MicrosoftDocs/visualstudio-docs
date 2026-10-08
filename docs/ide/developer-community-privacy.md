@@ -6,8 +6,8 @@ ms.topic: best-practice
 helpviewer_keywords:
 - developer community privacy
 - privacy, developer community
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 ---

@@ -1,8 +1,8 @@
 ---
 title: Visual Studio .NET ClickOnce Publish tool
-author: RoseHJM
+author: madskristensen
 description: Learn about using the Publish tool for .NET Core 3.1, .NET 5 and later ClickOnce applications
-ms.author: rosemalcolm
+ms.author: madsk
 ms.date: 09/14/2022
 ms.subservice: deployment
 ms.topic: include

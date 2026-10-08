@@ -100,8 +100,8 @@ f1_keywords:
 helpviewer_keywords:
   - "Edit and Continue error messages"
   - "Hot Reload error messages"
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---

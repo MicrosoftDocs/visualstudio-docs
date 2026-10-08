@@ -13,8 +13,8 @@ helpviewer_keywords:
   - ClickOnce deployment, signtool.exe
   - ClickOnce applications, re-signing setup.exe
   - ClickOnce deployment, re-signing setup.exe
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: deployment
 ---

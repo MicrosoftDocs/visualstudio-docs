@@ -9,8 +9,8 @@ helpviewer_keywords:
   - "Debug.ListSource command"
   - "list source command"
   - "ListSource command"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: general-ide
 ---

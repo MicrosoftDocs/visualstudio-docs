@@ -1,8 +1,8 @@
 ---
-author: RoseHJM
+author: madskristensen
 ms.topic: include
 ms.date: 06/26/2023
-ms.author: rosemalcolm
+ms.author: madsk
 ---
 
 > [!NOTE]

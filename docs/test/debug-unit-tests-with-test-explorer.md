@@ -4,8 +4,8 @@ description: Debug and analyze unit tests via Test Explorer in Visual Studio by 
 ms.date: 03/09/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: test-tools
 ms.collection: ce-skilling-ai-copilot

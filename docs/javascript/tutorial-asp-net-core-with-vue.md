@@ -4,8 +4,8 @@ description: Create an ASP.NET Core project to serve as an API backend and a Vue
 ms.date: 03/24/2026
 ms.topic: tutorial
 ms.devlang: javascript
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: javascript-typescript
 dev_langs:

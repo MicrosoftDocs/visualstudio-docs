@@ -4,8 +4,8 @@ description: Find hot paths in your code by using a Flame Graph for a visual ove
 ms.date: 05/18/2026
 ms.topic: how-to
 ms.custom: "profiling-seo"
-author: RoseHJM
-ms.author: rosemalcolm
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 monikerRange: '>= vs-2022'

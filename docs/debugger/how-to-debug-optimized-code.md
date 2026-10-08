@@ -16,8 +16,8 @@ helpviewer_keywords:
   - optimization, debug builds
   - debug builds, optimizing
   - optimized code, debugging
-author: TylerMSFT
-ms.author: twhitney
+author: madskristensen
+ms.author: madsk
 
 ms.subservice: debug-diagnostics
 ---
