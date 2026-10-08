@@ -440,4 +440,4 @@ For more information, see [Managing policies and features for GitHub Copilot in 
 - [Use custom agents in GitHub Copilot](copilot-specialized-agents.md)
 - [Use Agent Skills](copilot-agent-skills.md)
 - [GitHub Copilot Edits](copilot-edits.md)
-- [GitHub Copilot Free](https://aka.ms/ghdocscopilotfreepage)
+- [GitHub Copilot Free](copilot-free-plan.md)
