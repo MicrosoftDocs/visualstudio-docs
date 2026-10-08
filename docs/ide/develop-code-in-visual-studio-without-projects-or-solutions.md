@@ -41,7 +41,7 @@ You can open code into Visual Studio in the following ways:
 
 :::moniker range="visualstudio"
 
-Starting in Visual Studio 2026 version 18.11, Open Folder respects the **Reopen documents on solution load** and **Restore Solution Explorer project hierarchy state on solution load** preferences. Configure them independently in [Projects and Solutions options](projects-and-solutions-options-dialog-box.md#restore-solution-explorer-project-hierarchy-state-on-solution-load) to control what is restored when you reopen a folder.
+Starting in Visual Studio 2026 version 18.11, **Open Folder** respects the **Reopen documents on solution load** and **Restore Solution Explorer project hierarchy state on solution load** preferences. Configure them independently in [Projects and Solutions options](projects-and-solutions-options-dialog-box.md#restore-solution-explorer-project-hierarchy-state-on-solution-load) to control what is restored when you reopen a folder.
 
 :::moniker-end
 
