@@ -11,7 +11,7 @@ author: RoseHJM
 ms.author: rosemalcolm
 
 ms.subservice: general-ide
-moniker range: '>=vs-2022'
+monikerRange: '>=vs-2022'
 ---
 # Change fonts, colors, and themes in Visual Studio
 
@@ -81,7 +81,7 @@ Changes made in the UI are reflected in **settings.json**. You can inspect, edit
 
 ### To change the font and text size in the IDE
 
-The following legacy dialog procedure and screenshot apply to Visual Studio 2022 and Visual Studio 2026 before version 18.11. For version 18.11 and later, use the [modern Fonts and Colors experience](#use-the-modern-fonts-and-colors-experience).
+The following legacy dialog procedure and screenshot apply to Visual Studio 2022 and Visual Studio 2026 before version 18.11. For version 18.11 and later, use the [modern Fonts and Colors experience](how-to-change-fonts-and-colors-in-visual-studio.md?view=visualstudio&preserve-view=true#use-the-modern-fonts-and-colors-experience).
 
 1. On the menu bar, select **Tools** > **Options**.
 
@@ -102,7 +102,7 @@ To learn more about setting default font settings for the user interface in an a
 
 ### To change the font and text size in the editor
 
-The following legacy dialog procedure and screenshot apply to Visual Studio 2022 and Visual Studio 2026 before version 18.11. For version 18.11 and later, use the [modern Fonts and Colors experience](#use-the-modern-fonts-and-colors-experience).
+The following legacy dialog procedure and screenshot apply to Visual Studio 2022 and Visual Studio 2026 before version 18.11. For version 18.11 and later, use the [modern Fonts and Colors experience](how-to-change-fonts-and-colors-in-visual-studio.md?view=visualstudio&preserve-view=true#use-the-modern-fonts-and-colors-experience).
 
 1. On the menu bar, select **Tools** > **Options**.
 
@@ -164,7 +164,7 @@ The following screenshot shows an example of the Cascadia Code font, where the s
 
 Notice that the last line of text in the Cascadia Code screenshot shows how the space between duplicate characters is reduced, which also makes them easier to read.
 
-In Visual Studio 2026 version 18.11 and later, use the [modern Fonts and Colors experience](#use-the-modern-fonts-and-colors-experience) to change your font. Here's how to toggle between the Cascadia fonts in the legacy dialog (Visual Studio 2022 and Visual Studio 2026 before version 18.11):
+In Visual Studio 2026 version 18.11 and later, use the [modern Fonts and Colors experience](how-to-change-fonts-and-colors-in-visual-studio.md?view=visualstudio&preserve-view=true#use-the-modern-fonts-and-colors-experience) to change your font. Here's how to toggle between the Cascadia fonts in the legacy dialog (Visual Studio 2022 and Visual Studio 2026 before version 18.11):
 
 1. Go to **Tools** > **Options** > **Environment** > **Fonts and colors**.
 
@@ -255,7 +255,7 @@ You can rearrange the windows in the integrated development environment (IDE) to
 
 #### Change the settings of text-based tool windows
 
-The following legacy dialog controls and procedure apply to Visual Studio 2022 and Visual Studio 2026 before version 18.11. For version 18.11 and later, use the [modern Fonts and Colors experience](#use-the-modern-fonts-and-colors-experience).
+The following legacy dialog controls and procedure apply to Visual Studio 2022 and Visual Studio 2026 before version 18.11. For version 18.11 and later, use the [modern Fonts and Colors experience](how-to-change-fonts-and-colors-in-visual-studio.md?view=visualstudio&preserve-view=true#use-the-modern-fonts-and-colors-experience).
 
 You can change the settings for text-based tool windows, such as the **Command** window, **Immediate** window, and **Output** window by using **Tools** > **Options** > **Environment** > **Fonts and Colors**.
 
@@ -290,7 +290,7 @@ You can also change the settings for how text is displayed in the editor. Here's
 
 #### Change the colors for text, margin indicators, white space, and code elements
 
-You can change the default colors for text, margin indicators, white space, and code elements in the editor. The following legacy dialog procedure applies to Visual Studio 2022 and Visual Studio 2026 before version 18.11. For version 18.11 and later, use the [modern Fonts and Colors experience](#use-the-modern-fonts-and-colors-experience).
+You can change the default colors for text, margin indicators, white space, and code elements in the editor. The following legacy dialog procedure applies to Visual Studio 2022 and Visual Studio 2026 before version 18.11. For version 18.11 and later, use the [modern Fonts and Colors experience](how-to-change-fonts-and-colors-in-visual-studio.md?view=visualstudio&preserve-view=true#use-the-modern-fonts-and-colors-experience).
 
 1. From the **Tools** menu, select **Options**.
 
