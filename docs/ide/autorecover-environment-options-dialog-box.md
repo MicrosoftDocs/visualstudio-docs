@@ -61,11 +61,13 @@ You can configure Visual Studio to automatically back up files or not. You can a
 
 :::moniker range="visualstudio"
 
-## Restore unsaved work with Hot Exit (Preview)
+## Restore unsaved work with Hot Exit
 
-Hot Exit preserves session state when you close Visual Studio normally and restores it the next time you open Visual Studio. It is separate from AutoRecover, which creates periodic backups for recovery after an unexpected shutdown.
+When enabled, Hot Exit preserves session state when you close Visual Studio normally and restores it the next time you open Visual Studio. It is separate from AutoRecover, which creates periodic backups for recovery after an unexpected shutdown.
 
-Hot Exit is **off by default**. To enable it, go to **Tools** > **Options** > **Preview Features** > **Hot Exit**.
+In Visual Studio 2026 version 18.11, enable Hot Exit by opening **Tools** > **Options**, expanding **All Settings** > **Projects and Solutions** > **General**, and selecting **Reopen unsaved documents on solution load or empty environment**.
+
+In Visual Studio 2026 version 18.10, Hot Exit was a preview feature and was **off by default**. To enable it in that version, go to **Tools** > **Options** > **Preview Features** > **Hot Exit**.
 
 Hot Exit preserves:
 

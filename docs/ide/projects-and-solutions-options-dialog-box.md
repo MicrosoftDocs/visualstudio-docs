@@ -109,6 +109,12 @@ Reopening certain types of files or designers can delay solution load. Uncheck t
 
 Starting in Visual Studio 2026 version 18.11, **Reopen documents on solution load** also controls document restoration when you reopen a folder with **Open Folder**. Clear it to prevent reopening the folder's previous documents. This option is independent of **Restore Solution Explorer project hierarchy state on solution load**. Before version 18.11, Open Folder restored documents and hierarchy state regardless of these settings.
 
+### Reopen unsaved documents on solution load or empty environment
+
+In Visual Studio 2026 version 18.11, select this option to enable Hot Exit, which preserves unsaved files and changes when you close Visual Studio normally and restores them the next time you open Visual Studio. Configure it in **Tools** > **Options** > **All Settings** > **Projects and Solutions** > **General**.
+
+For details about the session state preserved by Hot Exit and how it differs from AutoRecover, see [Restore unsaved work with Hot Exit](autorecover-environment-options-dialog-box.md#restore-unsaved-work-with-hot-exit).
+
 :::moniker-end
 
 ## Configure file and project management
