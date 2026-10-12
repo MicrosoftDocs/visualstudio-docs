@@ -26,7 +26,7 @@ jobs:
       # Call clean repo
       - name: Clean repo
         id: clean-repo-step
-        uses: dotnet/docs-tools/cleanrepo@main
+        uses: dotnet/docs-tools/cleanrepo@29d4c14d85afd6386bd20735fd1969205ec35cc7 # legacy-projects
         with:
           function: "FindOrphanedImages"
           docfx_directory: "docs"
