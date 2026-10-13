@@ -1,7 +1,7 @@
 ---
 title: How to view errors and warnings
 description: Step-by-step instructions for using the Error List window to view, filter, search, navigate, and save errors and warnings in Visual Studio.
-ms.date: 8/27/2025
+ms.date: 10/13/2026
 ms.topic: how-to
 helpviewer_keywords:
 - Task List
@@ -63,6 +63,21 @@ Use the toolbar dropdowns to limit which entries appear:
 - Press **F1** to open the documentation page for the selected error code (if available). The page opens in your default browser or Help Viewer.
 - In Visual Studio 17.12 and later, copying an error from the Error List using **Ctrl**+**C** also copies the description to the clipboard so you can paste it into a search.
 - To open the browser and initiate a Bing search with the error description in one keystroke, press **Ctrl**+**F1**.
+
+:::moniker range="visualstudio"
+
+## Fix vulnerable NuGet packages with GitHub Copilot
+
+Starting in Visual Studio 2026 version 18.10, you can ask GitHub Copilot to fix vulnerable NuGet packages directly from the Error List. NuGet Audit reports known package vulnerabilities during restore as warnings with codes NU1901, NU1902, NU1903, or NU1904.
+
+To use this feature, sign in to GitHub Copilot and enable the built-in NuGet Model Context Protocol (MCP) server from the Copilot Chat tools menu. For more information, see the [NuGet MCP server documentation](https://aka.ms/nugetmcp/docs).
+
+1. Restore a solution that contains a package with a known vulnerability.
+1. Open **View** > **Error List** and find the NuGet Audit warning.
+1. Select the sparkle action in the **Fixer** column for the warning. This action opens GitHub Copilot Chat in [agent mode](copilot-agent-mode.md) with a request to fix the vulnerable NuGet packages using the NuGet MCP server.
+1. Review and apply the changes proposed by GitHub Copilot.
+
+:::moniker-end
 
 ## View problem details
 
