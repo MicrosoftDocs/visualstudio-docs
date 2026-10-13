@@ -282,6 +282,13 @@ ms.custom: sfi-image-nochange
 
  **Infobars in Visual Studio**
 
+> [!NOTE]
+> The image shows the infobar of earlier versions of Visual Studio. Starting with Visual Studio 2026, an infobar is a rounded card with a neutral background, and its icon sets its color: the warning, error, and success status icons (`KnownMonikers.StatusWarning`, `KnownMonikers.StatusError`, and `KnownMonikers.StatusOK`) give the infobar the caution, critical, and success background. The guidance in this section about usage, placement, and stacking still applies. For the color values, see `EnvironmentLayeredBackground`, `EnvironmentLayeredBorder`, `SystemFillCautionBackground`, `SystemFillCriticalBackground`, and `SystemFillSuccessBackground` in [Visual Studio theme color tokens](theme-color-token-reference.md).
+
+:::image type="content" source="../../version-control/media/visualstudio/git-create-pull-request-infobar-two-links.png" alt-text="Screenshot of an infobar with two links at the top of a tool window in Visual Studio 2026.":::
+
+ **Infobar in Visual Studio 2026**
+
 #### Appropriate uses for an infobar
 
 - To give the user a non-blocking but important message relevant to the current context
