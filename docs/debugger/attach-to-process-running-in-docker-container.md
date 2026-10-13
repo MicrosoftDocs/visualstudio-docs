@@ -141,7 +141,7 @@ Starting in Visual Studio 18.10, **Attach to Process** discovers Podman containe
 1. Start your Podman container.
 1. In Visual Studio, select **Debug** > **Attach to Process**.
 1. Set **Connection type** to **Podman**, and select **Find**. Your running Podman containers appear automatically.
-1. Select the container, then select the process in **Available processes** and select **Attach**.
+1. Select the container, select the process in **Available processes**, and select **Attach**.
 
 For source code and symbol requirements when attaching the debugger, see [Use debugger features](attach-to-running-processes-with-the-visual-studio-debugger.md#use-debugger-features).
 ::: moniker-end
