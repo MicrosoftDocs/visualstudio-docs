@@ -28,7 +28,23 @@ ms.subservice: general-ide
 ---
 # Customize environment options for fonts and colors
 
-The **Fonts and Colors** page of the **Options** dialog box lets you establish a custom font and color scheme for various user interface elements in the integrated development environment (IDE). You can access this dialog box by clicking **Tools** > **Options**, and then selecting **Environment** > **Fonts and Colors**.
+Use the **Fonts and Colors** settings to create a custom font and color scheme for different user interface elements in the integrated development environment (IDE). Open **Tools** > **Options** to access these settings. In the legacy dialog, select **Environment** > **Fonts and Colors**. For Visual Studio 2026 version 18.11 and later, use the [modern Fonts and Colors settings](fonts-and-colors-environment-options-dialog-box.md?view=visualstudio&preserve-view=true#modern-fonts-and-colors-settings).
+
+:::moniker range="visualstudio"
+
+## Modern Fonts and Colors settings
+
+Starting in Visual Studio 2026 version 18.11, Fonts and Colors is part of the unified settings experience. Open **Tools** > **Options** and use settings search to find **Fonts and Colors**. Category-based navigation and integrated search help you locate customizations.
+
+The settings grid displays foreground colors, background colors, font styles, and previews inline. You can review and update multiple settings without repeatedly selecting individual items.
+
+Fonts and Colors customizations participate in the **settings.json** model. Changes in the UI are reflected in the file, and you can inspect, edit, share, or revert customizations while keeping the UI and JSON synchronized. See [View or edit the JSON configuration file](visual-studio-settings.md#view-or-edit-the-json-configuration-file).
+
+:::moniker-end
+
+## Legacy Fonts and Colors dialog
+
+The controls and timing behavior in this section apply to the legacy dialog in Visual Studio 2022 and Visual Studio 2026 before version 18.11.
 
 Color scheme changes do not take effect during the session in which you make them. You can evaluate color changes by opening another instance of Visual Studio and producing the conditions under which you expect your changes to apply.
 
