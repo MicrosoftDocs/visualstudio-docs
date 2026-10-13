@@ -71,6 +71,12 @@ When selected, restores the state of nodes in Solution Explorer with respect to 
 
 :::moniker range="visualstudio"
 
+Starting in Visual Studio 2026 version 18.11, this option also controls Solution Explorer hierarchy restoration when you reopen a folder with **Open Folder**. Clear it to prevent restoring the folder's expanded and collapsed nodes. This option is independent of **Reopen documents on solution load**.
+
+:::moniker-end
+
+:::moniker range="visualstudio"
+
 ### Show symbols under Solution Explorer files
 
 When selected, Solution Explorer displays symbols such as classes, methods, and properties under files so you can navigate to them directly from the file tree.
@@ -98,6 +104,18 @@ When selected, Visual Studio loads large .NET solutions faster when you reload t
 When selected, documents that were left open the previous time the solution was closed are automatically opened when the solution is opened.
 
 Reopening certain types of files or designers can delay solution load. Uncheck this option to [improve solution load performance](visual-studio-performance-tips-and-tricks.md#disable-automatic-file-restore) if you don't want to restore the solution's previous context.
+
+:::moniker range="visualstudio"
+
+Starting in Visual Studio 2026 version 18.11, **Reopen documents on solution load** also controls document restoration when you reopen a folder with **Open Folder**. Clear it to prevent reopening the folder's previous documents. This option is independent of **Restore Solution Explorer project hierarchy state on solution load**. Before version 18.11, Open Folder restored documents and hierarchy state regardless of these settings.
+
+### Reopen unsaved documents on solution load or empty environment
+
+In Visual Studio 2026 version 18.11, select this option to enable Hot Exit, which preserves unsaved files and changes when you close Visual Studio normally and restores them the next time you open Visual Studio. Configure it in **Tools** > **Options** > **All Settings** > **Projects and Solutions** > **General**.
+
+For details about the session state preserved by Hot Exit and how it differs from AutoRecover, see [Restore unsaved work with Hot Exit](autorecover-environment-options-dialog-box.md#restore-unsaved-work-with-hot-exit).
+
+:::moniker-end
 
 ## Configure file and project management
 
