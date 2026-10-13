@@ -60,7 +60,7 @@ BYOK works with the new **Agent (Preview)** experience, which uses a GitHub Copi
 
 Supported providers are Microsoft Foundry, OpenAI, Anthropic, and Ollama. Custom endpoint support is available for OpenAI and Ollama. This doesn't mean that every custom endpoint or model configuration is supported.
 
-To get started:
+To use BYOK, follow these steps:
 
 1. Open **Chat**.
 1. Open the **Model picker** and select **Add a model** or **Manage Models**.
