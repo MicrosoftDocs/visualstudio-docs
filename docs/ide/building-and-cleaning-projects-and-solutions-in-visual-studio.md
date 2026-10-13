@@ -136,6 +136,12 @@ Perform either of the following steps:
 
 The **Cancel** menu item only appears unless a build is currently running.
 
+:::moniker range="visualstudio"
+
+Starting in Visual Studio 2026 version 18.11, you can also [configure solution builds to stop automatically after the first project failure](configure-build-run-options.md#stop-solution-builds-after-the-first-failure). Unlike manual cancellation, this opt-in setting leaves the build result as failed, not canceled.
+
+:::moniker-end
+
 ## Related content
 
 - [How to: View, save, and configure build log files](../ide/how-to-view-save-and-configure-build-log-files.md)

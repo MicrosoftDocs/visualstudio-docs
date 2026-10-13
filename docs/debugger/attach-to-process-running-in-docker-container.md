@@ -1,7 +1,7 @@
 ---
 title: Attach to a process running on a Docker container
 description: Explore how to debug an application running a Windows Docker container or a Linux .NET Core Docker container by using Visual Studio.
-ms.date: "11/19/2024"
+ms.date: "10/13/2026"
 ms.topic: how-to
 helpviewer_keywords:
   - "debugging, linux Docker container"
@@ -17,6 +17,10 @@ ms.custom: sfi-image-nochange
 # Attach to a process running on a Docker container
 
 You can debug apps running in either a Windows Docker Container or a Linux .NET Core Docker container using Visual Studio.
+
+::: moniker range="visualstudio"
+Starting in Visual Studio 18.10, you can also [attach to processes in Podman containers](#attach-to-a-process-running-in-a-podman-container).
+::: moniker-end
 
 ## Prerequisites
 
@@ -128,4 +132,17 @@ To attach to a running process in a Windows Docker container:
 
    ![Screenshot of the Attach to Process dialog in Visual Studio. Connection type is set to Docker (Windows Container) and the dotnet.exe process is selected.](../debugger/media/vs-2022/docker-attach-complete-windows.png "Completed Windows Docker Attach Menu")
    ::: moniker-end
+
+::: moniker range="visualstudio"
+## Attach to a process running in a Podman container
+
+Starting in Visual Studio 18.10, **Attach to Process** discovers Podman containers alongside Docker containers. You can debug both .NET and C++ processes in Podman containers without extra configuration for Podman discovery.
+
+1. Start your Podman container.
+1. In Visual Studio, select **Debug** > **Attach to Process**.
+1. Set **Connection type** to **Podman**, and select **Find**. Your running Podman containers appear automatically.
+1. Select the container, select the process in **Available processes**, and select **Attach**.
+
+For source code and symbol requirements when attaching the debugger, see [Use debugger features](attach-to-running-processes-with-the-visual-studio-debugger.md#use-debugger-features).
+::: moniker-end
 

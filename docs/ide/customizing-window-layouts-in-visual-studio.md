@@ -257,6 +257,20 @@ You can personalize tabs to interact with document windows in several ways. For 
 > [!TIP]
 > To learn more about how to manage tabs in Visual Studio 2022 and later, see the following blog post: [Too many tabs open? No problem!](https://devblogs.microsoft.com/visualstudio/too-many-tabs-open-no-problem/).
 
+:::moniker range="visualstudio"
+
+### Navigate and reorder tabs with the keyboard
+
+Starting in Visual Studio 2026 version 18.11, press **Ctrl+NumPad1** through **Ctrl+NumPad9** to activate the corresponding visible document tab in the active document group. Numbering follows the document well's visual order, including pinned and unpinned tabs. Preview tabs don't consume a shortcut slot. Switching to another document group updates the mapping.
+
+To reorder the active tab within the document well, press **Ctrl+Shift+PgUp** to move it one visual position left, or **Ctrl+Shift+PgDn** to move it one position right. With vertical tabs, these shortcuts move the tab up or down. They work for documents and tool windows hosted in the document well.
+
+Movement preserves the boundary between pinned and unpinned tabs. With vertical tabs, a tab stays within its project group, and manual reordering is unavailable when alphabetical sorting is enabled. Preview tabs can't be moved.
+
+To remap **Window.MoveTabLeft** or **Window.MoveTabRight**, use **Tools** > **Options** > **Environment** > **Keyboard**.
+
+:::moniker-end
+
 ### Preview tab
 
 On the **Preview** tab, you can view files in the editor without opening them. You can preview files by selecting them in Solution Explorer, during debugging when you step into files, with **Go to Definition**, and when you browse through results of a search. Preview files appear in a tab on the right side of the document tab well. The file opens for editing if you modify it or select  **Open** on the file's context menu in Solution Explorer.
