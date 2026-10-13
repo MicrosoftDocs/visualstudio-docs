@@ -1,7 +1,7 @@
 ---
 title: Using AI models in Copilot Chat
-description: Learn how to use built-in models or bring your own model (BYOM) in GitHub Copilot Chat for Visual Studio.
-ms.date: 09/24/2026
+description: Learn how to use built-in models, bring your own key (BYOK), or use earlier bring your own model (BYOM) support in Visual Studio.
+ms.date: 10/13/2026
 ms.update-cycle: 180-days
 ms.topic: get-started
 author: madskristensen
@@ -36,7 +36,7 @@ Improvements to model selection include:
 - **Persistent selection**: The model that you choose remains selected across chat threads.
 - **Pinned models**: Pin frequently used models so they remain at the top of the **Model picker**. Expand the list to view all available models, or collapse it to show only your pinned models.
 
-Model availability depends on your Copilot subscription and the current status of each model. For Copilot Enterprise and Business, administrators must enable the **Preview** policy in Copilot settings before models are available in Visual Studio.
+Availability of Copilot-provided models depends on your Copilot subscription and the current status of each model. For Copilot Enterprise and Business, administrators must enable the **Preview** policy in Copilot settings before models are available in Visual Studio.
 
 :::moniker range="visualstudio"
 
@@ -50,7 +50,30 @@ Some supported models offer a **thinking effort** setting. Choose **Low**, **Med
 
 :::moniker-end
 
+:::moniker range="visualstudio"
+
+## Bring your own key (BYOK) in Visual Studio 18.10
+
+Starting in Visual Studio 2026 version 18.10, Bring Your Own Key (BYOK) is available in preview and enabled by default in the Community, Professional, and Enterprise editions. You can use your own model deployments whether or not you're signed in to GitHub.
+
+BYOK works with the new **Agent (Preview)** experience, which uses a GitHub Copilot SDK-powered harness. The earlier BYOK experience in the previous Ask and Agent modes is no longer supported in this release.
+
+Supported providers are Microsoft Foundry, OpenAI, Anthropic, and Ollama. Custom endpoint support is available for OpenAI and Ollama. This doesn't mean that every custom endpoint or model configuration is supported.
+
+To use BYOK, follow these steps:
+
+1. Open **Chat**.
+1. Open the **Model picker** and select **Add a model** or **Manage Models**.
+1. Connect to your supported provider.
+1. Start working in **Agent (Preview)**.
+
+Not every model supports every Agent Mode capability yet. Visual Studio indicates when a capability isn't supported. BYOK remains a preview feature even though it's included in the Visual Studio 18.10 GA release.
+
+:::moniker-end
+
 ## Bring your own model (BYOM)
+
+The following guidance applies to the earlier BYOM experience in Visual Studio versions before 18.10.
 
 You can add your own language model to Copilot Chat by providing API keys from providers such as Anthropic, Google, or OpenAI. This ability allows you to select and configure custom AI models to match your workflow or to evaluate new model capabilities.
 
