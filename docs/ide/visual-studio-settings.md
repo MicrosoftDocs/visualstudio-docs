@@ -26,7 +26,7 @@ Settings are organized into categories, shown in a hierarchy tree on the left si
 Settings associated with specific workloads, optional components, or extensions don't appear in the tree unless they're installed. See [Modify Visual Studio](../install/modify-visual-studio.md) to install workloads and components. For extensions, see [Manage extensions](finding-and-using-visual-studio-extensions.md).
 
 > [!NOTE]
-> Some settings that haven't been migrated to the Visual Studio 2026 experience don't show up in their usual places where you might be used to finding them. For example, **Fonts and Colors** and **Accounts** have not been migrated in Visual Studio 2026 in the first public release. To find these settings, use the **Search feature**.
+> The first public release of Visual Studio 2026 didn't include **Fonts and Colors** or **Accounts** in the unified settings experience. Use settings search to find settings that aren't in their usual category. Starting in version 18.11, **Fonts and Colors** uses the unified settings experience, including category navigation, integrated search, and inline previews. This update doesn't change the migration guidance for **Accounts**.
 
 ## Search settings by keywords
 
@@ -65,6 +65,8 @@ The **Sync** button lets you manually trigger synchronization to ensure your loc
 ## View or edit the JSON configuration file
 
 You can view or edit the settings you've modified from the defaults by opening the JSON configuration file. To open the file, select **Edit user settings as JSON** from the toolbar. The JSON configuration opens, showing you what settings you've customized. You can edit these in JSON, or copy any setting to the clipboard to share customizations with others.
+
+Starting in Visual Studio 2026 version 18.11, Fonts and Colors customizations also participate in **settings.json**. Changes in the UI are reflected in the file, so you can inspect, edit, share, or revert these customizations while keeping the UI and JSON synchronized. To find the supported JSON entries for your customization, change it in the Fonts and Colors UI and then open **Edit user settings as JSON**.
 
 Here's an example of the settings file:
 

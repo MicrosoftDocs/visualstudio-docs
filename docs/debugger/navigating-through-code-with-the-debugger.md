@@ -1,7 +1,7 @@
 ---
 title: "Navigate code with the debugger"
 description: "Learn how to use the Visual Studio debugger to troubleshoot your code. Topics include entering break mode, stepping through code, and running to a target."
-ms.date: 01/27/2026
+ms.date: 10/13/2026
 ms.topic: how-to
 f1_keywords: 
   - vs.debug.execution
@@ -99,6 +99,17 @@ You might not care about a function while you're debugging. Or you might know so
 |----------------------|------------------|-----------------|
 |**F10**|**Step Over**|If the current line contains a function call, **Step Over** runs the code, and then suspends execution at the first line of code after the called function returns.|
 |**Shift**+**F11**|**Step Out**|**Step Out** continues running code and suspends execution when the current function returns. The debugger skips through the current function.|
+
+::: moniker range="visualstudio"
+### Inspect compound if conditions (C#)
+
+Starting in Visual Studio 18.10, when you pause on a C# `if` statement that uses `&&` or `||`, inline branch highlighting shows which operand determined the condition's result. Red and green highlighting appears alongside the inline `→ true` or `→ false` hint.
+
+- If an `&&` condition evaluates to `false`, the highlighting identifies the operand that failed or caused evaluation to short-circuit.
+- If an `||` condition evaluates to `true`, the highlighting identifies the operand that satisfied the condition.
+
+To disable branch highlighting, right-click a highlighted expression and use the editor context menu. To customize the highlight colors for your theme, go to **Tools** > **Options** > **Environment** > **Fonts and Colors**.
+::: moniker-end
 
 ## Run to a specific location or function
 

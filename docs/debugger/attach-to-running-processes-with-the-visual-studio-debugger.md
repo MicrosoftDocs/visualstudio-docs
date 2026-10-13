@@ -1,7 +1,7 @@
 ---
 title: Attach to running processes with the debugger
 description: Attach the Visual Studio debugger to a running process on a local or remote computer to debug running apps, apps not created in Visual Studio, and other scenarios.
-ms.date: "01/30/2026"
+ms.date: "10/13/2026"
 ms.topic: how-to
 f1_keywords:
   - "vs.debug.processes.attach"
@@ -163,6 +163,12 @@ For more information, see [Remote debug .NET Core running on Linux using SSH](..
 ## <a name="BKMK_Linux_Docker_Attach"></a> Attach to a process running on a Docker container
 
 Starting in Visual Studio 2019, you can attach the Visual Studio debugger to a process running on a Docker container. For a Linux .NET Core Docker container, see [Attach to a process running on a Linux Docker container](../debugger/attach-to-process-running-in-docker-container.md#attach-to-a-process-running-on-a-linux-docker-container). For a Windows Docker container, see [Attach to a process running on a Windows Docker container](../debugger/attach-to-process-running-in-docker-container.md#attach-to-a-process-running-on-a-windows-docker-container).
+
+::: moniker range="visualstudio"
+## Attach to a process running in a Podman container
+
+Starting in Visual Studio 18.10, **Attach to Process** supports Podman containers for .NET and C++ debugging. Set **Connection type** to **Podman** and select **Find** to discover running containers. For the full workflow, see [Attach to a process running in a Podman container](attach-to-process-running-in-docker-container.md#attach-to-a-process-running-in-a-podman-container).
+::: moniker-end
 
 ## <a name="BKMK_reattach"></a> Reattach to a process
 
