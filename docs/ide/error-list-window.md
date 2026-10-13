@@ -68,7 +68,7 @@ Use the toolbar dropdowns to limit which entries appear:
 
 ## Fix vulnerable NuGet packages with GitHub Copilot
 
-Starting in Visual Studio 2026 version 18.10, you can ask GitHub Copilot to fix vulnerable NuGet packages directly from the Error List. NuGet Audit reports known package vulnerabilities during restore as warnings with codes NU1901, NU1902, NU1903, or NU1904.
+Starting in Visual Studio 2026 version 18.10, you can ask GitHub Copilot to fix vulnerable NuGet packages directly from the Error List. NuGet Audit reports known package vulnerabilities during restore as warnings with codes `NU1901`, `NU1902`, `NU1903`, or `NU1904`.
 
 To use this feature, sign in to GitHub Copilot and enable the built-in NuGet Model Context Protocol (MCP) server from the Copilot Chat tools menu. For more information, see the [NuGet MCP server documentation](https://aka.ms/nugetmcp/docs).
 
