@@ -608,6 +608,16 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Zoom out|**Ctrl+Shift+,**| View.ZoomOut |
 |Show Test Explorer|**Ctrl+E, T**| TestExplorer.ShowTestExplorer |
 
+:::moniker range="visualstudio"
+
+Starting in Visual Studio 2026 version 18.11, the following shortcut resets the editor zoom to 100%.
+
+|Command|Keyboard shortcut|Command ID|
+|-|-|-|
+|Reset editor zoom|**Ctrl+NumPad0**| View.ZoomReset |
+
+:::moniker-end
+
 ### <a name="bkmk_window-global-shortcuts"></a> Window: global shortcuts
 
 |Commands|Keyboard shortcuts|Command ID|
@@ -638,6 +648,19 @@ These keyboard shortcuts are *global*, which means that you can use them when an
 |Show Ex MDI file list|**Ctrl+Alt+Down Arrow**| Window.ShowEzMDIFileList |
 |Solution explorer search|**Ctrl+;**| Window.SolutionExplorerSearch |
 |Window search|**Alt+`**| Window.WindowSearch |
+
+:::moniker range="visualstudio"
+
+Starting in Visual Studio 2026 version 18.11, you can reorder the active tab with the following global commands.
+
+|Command|Keyboard shortcut|Command ID|
+|-|-|-|
+|Move tab left (up with vertical tabs)|**Ctrl+Shift+PgUp**| Window.MoveTabLeft |
+|Move tab right (down with vertical tabs)|**Ctrl+Shift+PgDn**| Window.MoveTabRight |
+
+You can also press **Ctrl+NumPad1** through **Ctrl+NumPad9** to activate the corresponding visible document tab in the active document group. Numbering follows visual order, includes pinned and unpinned tabs, and excludes preview tabs. For details and reordering restrictions, see [Navigate and reorder tabs with the keyboard](customizing-window-layouts-in-visual-studio.md#navigate-and-reorder-tabs-with-the-keyboard).
+
+:::moniker-end
 
 ## Context-specific shortcuts
 These keyboard shortcuts are context specific, which means that you can use them with menus and items in Visual Studio that are specific to a project type, programming language, or platform.
@@ -1182,9 +1205,9 @@ The shortcuts specific to this context are:
 |Toggle word wrap| **Ctrl+E, Ctrl+W** | Edit.ToggleWordWrap |
 |Uncomment selection| **Ctrl+K, Ctrl+U** | Edit.UncommentSelection |
 |View bottom| **Ctrl+PgDn** | Edit.ViewBottom |
-|View bottom extend| **Ctrl+Shift+PgDn** | Edit.ViewBottomExtend |
+|View bottom extend| **Ctrl+Shift+PgDn** (before Visual Studio 2026 version 18.11) | Edit.ViewBottomExtend |
 |View top| **Ctrl+PgUp** | Edit.ViewTop |
-|View top extend| **Ctrl+Shift+PgUp** | Edit.ViewTopExtend |
+|View top extend| **Ctrl+Shift+PgUp** (before Visual Studio 2026 version 18.11) | Edit.ViewTopExtend |
 |View white space| **Ctrl+R, Ctrl+W** | Edit.ViewWhiteSpace |
 |Word delete to end| **Ctrl+Delete** | Edit.WordDeleteToEnd |
 |Word delete to start| **Ctrl+Backspace** | Edit.WordDeleteToStart |
@@ -1200,6 +1223,12 @@ The shortcuts specific to this context are:
 |View  in page inspector| **Ctrl+K, Ctrl+G** | OtherContextMenus.HTMLContext.ViewinPageInspector |
 |TFS annotate move next region| **Alt+PgDn** | TeamFoundationContextMenus.Annotate.TfsAnnotateMoveNextRegion |
 |TFS annotate move previous region| **Alt+PgUp** | TeamFoundationContextMenus.Annotate.TfsAnnotateMovePreviousRegion |
+
+:::moniker range="visualstudio"
+
+Starting in Visual Studio 2026 version 18.11, **Ctrl+Shift+PgUp** and **Ctrl+Shift+PgDn** move tabs instead of invoking **Edit.ViewTopExtend** and **Edit.ViewBottomExtend**. The editor commands remain available. To assign different shortcuts, use **Tools** > **Options** > **Environment** > **Keyboard**.
+
+:::moniker-end
 
 ### <a name="bkmk_uml-activity-diagram-context-specific-shortcuts"></a> UML activity diagram: context specific shortcuts
 
