@@ -180,7 +180,7 @@ catch (Exception ex)
 }
 ```
 
-The implementation of the other methods that use these inputs to build the text for the generated code file isn't shown here; see [AppSettingStronglyTyped.cs](https://github.com/v-fearam/msbuild-examples/blob/main/custom-task-code-generation/AppSettingStronglyTyped/AppSettingStronglyTyped/AppSettingStronglyTyped.cs) in the sample repo.
+The implementation of the other methods that use these inputs to build the text for the generated code file isn't shown here; see [AppSettingStronglyTyped.cs](https://github.com/dotnet/samples/blob/main/msbuild/custom-task-code-generation/AppSettingStronglyTyped/AppSettingStronglyTyped/AppSettingStronglyTyped.cs) in the sample repo.
 
 The example code generates C# code during the build process. The task is like any other C# class, so when you're done with this tutorial, you can customize it and add whatever functionality is necessary for your own scenario.
 

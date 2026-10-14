@@ -144,7 +144,7 @@ The `todo` app supports setting certain environment variables to specify your My
 | `MYSQL_DATABASE` | `todos` | The name of the database to use after the connection is established. |
 
 > [!WARNING]
-> Using environment variables to set connection settings is acceptable for development, but this practice isn't recommended for running applications in production. For more information, see [Why you shouldn't use environment variables for secret data](https://diogomonica.com/2017/03/27/why-you-shouldnt-use-env-variables-for-secret-data/).
+> Using environment variables to set connection settings is acceptable for development, but this practice isn't recommended for running applications in production. For more information, see [Why you shouldn't use environment variables for secret data](https://blog.diogomonica.com/2017/03/27/why-you-shouldnt-use-env-variables-for-secret-data/).
 >
 > A more secure mechanism is to use the secret support provided by your container orchestration framework. In most cases, these secrets are mounted as files in the running container.
 
