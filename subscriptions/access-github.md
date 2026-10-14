@@ -83,11 +83,11 @@ If you're new to GitHub, here are some helpful resources:
 | Subject | GitHub Help article |
 | ------- | ----------------- |
 | General questions/information | [GitHub Help](https://help.github.com) |
-| What is GitHub? How do I learn more? | [About GitHub](https://help.github.com/categories/about-github) |
-| How do I get started using GitHub? | [Bootcamp](https://help.github.com/categories/bootcamp) |
-| How do I manage my user account and profile? | [Setting up and managing your GitHub user account](https://help.github.com/categories/setting-up-and-managing-your-github-user-account) |
-| How do I manage my access to GitHub? | [Authenticating to GitHub](https://help.github.com/categories/authenticating-to-github) |
-| How does GitHub use and protect my data? | [Understanding how GitHub uses and protect your data](https://help.github.com/categories/understanding-how-github-uses-and-protects-your-data) |
+| What is GitHub? How do I learn more? | [About GitHub](https://docs.github.com/en/get-started/start-your-journey/what-is-github) |
+| How do I get started using GitHub? | [Bootcamp](https://docs.github.com/en/get-started/git-basics) |
+| How do I manage my user account and profile? | [Setting up and managing your GitHub user account](https://docs.github.com/en/account-and-profile/how-tos/account-management/creating-an-account-on-github) |
+| How do I manage my access to GitHub? | [Authenticating to GitHub](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-authentication-to-github) |
+| How does GitHub use and protect my data? | [Understanding how GitHub uses and protect your data](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) |
 
 ## Administrator resources
 

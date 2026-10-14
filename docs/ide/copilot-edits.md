@@ -136,4 +136,4 @@ A popup dialog confirms the action before reverting file states.
 - [Install and manage GitHub Copilot in Visual Studio](visual-studio-github-copilot-install-and-states.md)
 - [GitHub Copilot experience for Visual Studio](visual-studio-github-copilot-extension.md)
 - [GitHub Copilot Chat experience for Visual Studio](visual-studio-github-copilot-chat.md)
-- [GitHub Copilot Free](https://aka.ms/ghdocscopilotfreepage)
+- [GitHub Copilot Free](https://docs.github.com/en/copilot/how-tos/manage-your-account/get-started-with-a-copilot-plan#accessing-copilot-free)

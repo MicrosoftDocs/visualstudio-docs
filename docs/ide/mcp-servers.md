@@ -380,4 +380,4 @@ For more information, see [Managing policies and features for GitHub Copilot in 
 - [GitHub Copilot agent mode](copilot-agent-mode.md)
 - [GitHub Copilot Chat experience for Visual Studio](visual-studio-github-copilot-chat.md)
 - [Admin controls for GitHub Copilot](visual-studio-github-copilot-admin.md)
-- [GitHub Copilot Free](https://aka.ms/ghdocscopilotfreepage#github-copilot-free)
+- [GitHub Copilot Free](https://docs.github.com/en/copilot/how-tos/manage-your-account/get-started-with-a-copilot-plan#accessing-copilot-free)
