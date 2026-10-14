@@ -2,7 +2,7 @@
 title: Create a pull request in Visual Studio
 titleSuffix: ""
 description: Create a pull request in Visual Studio by using GitHub or Azure DevOps.
-ms.date: 10/13/2026
+ms.date: 09/04/2026
 ms.update-cycle: 180-days
 ms.topic: how-to
 author: madskristensen
@@ -152,8 +152,6 @@ Copilot Chat already knows about your commits and changes, and you can also brin
 In the **Git Repository** window, right-click a pull request and select **Add to Copilot Chat** to attach pull request context, including the pull request description, changed files, and comments.
 
 You can also reference a pull request directly in chat by typing `#` and a pull request ID. For example, ask Copilot to summarize a pull request to get a quick overview without reading every file.
-
-Starting in Visual Studio version 18.10, [explore a pull request with the Git agent](../ide/copilot-specialized-agents.md#explore-a-pull-request) to get responses with links that open the corresponding comments and files in the IDE's pull request view.
 
 :::image type="content" source="media/visualstudio/add-pr-to-chat.png" alt-text="Screenshot showing a pull request being added to Copilot Chat from the Git Repository window." lightbox="media/visualstudio/add-pr-to-chat.png":::
 
