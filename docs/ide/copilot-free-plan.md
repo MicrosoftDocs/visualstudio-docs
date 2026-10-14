@@ -97,7 +97,7 @@ For plan-to-plan usage behavior and model guidance, see [Manage Copilot usage an
 #### Who can access Copilot Free?
 
 Copilot Free isn't available if you have an EMU account, access to a Copilot license through an organization, an existing Copilot Pro subscription, or free access to Copilot Pro as a student, teacher, or open-source maintainer.
-For the latest information, see [About GitHub Copilot Free](https://aka.ms/ghdocscopilotfreepage).
+For the latest information, see [About GitHub Copilot Free](https://docs.github.com/en/copilot/how-tos/manage-your-account/get-started-with-a-copilot-plan#accessing-copilot-free).
 
 #### Can I turn off completions to save them for later?
 
@@ -111,15 +111,15 @@ Yes. You can configure these settings from the [GitHub Copilot Settings](https:/
 #### What Copilot features are included in Copilot Free?
 
 Copilot Free includes the following features: Copilot [Completions](visual-studio-github-copilot-extension.md), [Edits](copilot-edits.md), and [Chat](visual-studio-github-copilot-chat.md).
-Learn more at [About GitHub Copilot Free](https://aka.ms/ghdocscopilotfreepage).
+Learn more at [About GitHub Copilot Free](https://docs.github.com/en/copilot/how-tos/manage-your-account/get-started-with-a-copilot-plan#accessing-copilot-free).
 
 #### What are the Copilot Free limits for Completions and Chat?
 
-See [About GitHub Copilot Free](https://aka.ms/ghdocscopilotfreepage) for information.
+See [About GitHub Copilot Free](https://docs.github.com/en/copilot/how-tos/manage-your-account/get-started-with-a-copilot-plan#accessing-copilot-free) for information.
 
 ## Related content
 
 - [Install and manage GitHub Copilot in Visual Studio](visual-studio-github-copilot-install-and-states.md)
 - [GitHub Copilot experience for Visual Studio](visual-studio-github-copilot-extension.md)
 - [GitHub Copilot Chat experience for Visual Studio](visual-studio-github-copilot-chat.md)
-- [About GitHub Copilot Free](https://aka.ms/ghdocscopilotfreepage)
+- [About GitHub Copilot Free](https://docs.github.com/en/copilot/how-tos/manage-your-account/get-started-with-a-copilot-plan#accessing-copilot-free)

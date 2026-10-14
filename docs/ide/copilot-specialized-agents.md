@@ -1,7 +1,7 @@
 ---
 title: Use GitHub Copilot agents in Visual Studio
 description: Learn how to access and use GitHub Copilot agents for debugging, profiling, testing, modernization, and other development tasks.
-ms.date: 10/13/2026
+ms.date: 09/16/2026
 ms.topic: how-to
 author: madskristensen
 ms.author: madsk
@@ -70,19 +70,6 @@ Use the @git agent to review local uncommitted changes without leaving Copilot C
 For the full local review workflow, see [Review local changes with Copilot Chat](../version-control/git-make-commit.md#review-local-changes-with-copilot-chat).
 
 **Review Selection** requires Visual Studio version 18.8 or later. To review only selected code, select the code in the editor, right-click the selection, and then select **Copilot Actions** > **Review Selection**. Copilot adds inline comments and can apply or generate suggestions. This command uses the same GitHub Copilot code-review experience as the Git Changes workflow. For more information, see [Review selected code](copilot-chat-context.md#review-selected-code).
-
-#### Explore a pull request
-
-Starting in Visual Studio version 18.10, the **Git agent** can help you explore a pull request and navigate to its comments and files in the IDE.
-
-1. Open **Copilot Chat** and select the **Git agent**.
-1. Attach the pull request as context from the **Git Repository** window. For the attachment steps, see [Add pull requests to Copilot Chat](../version-control/git-create-pull-request.md#add-pull-requests-to-copilot-chat).
-1. Ask the agent about the pull request. For example, enter `Summarize this pull request and its discussion`.
-1. Select a link in the response to open the corresponding comment or file directly in the pull request view in Visual Studio.
-
-Ask follow-up questions in the same conversation to explore the pull request in more detail.
-
-For additional pull request context, connect your Git provider's [MCP servers](mcp-servers.md). Both GitHub and Azure DevOps are supported.
 
 ### Use the @profiler agent
 
