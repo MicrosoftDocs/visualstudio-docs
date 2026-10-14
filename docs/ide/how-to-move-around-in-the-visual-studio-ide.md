@@ -61,6 +61,8 @@ The **IDE Navigator** works much like the Windows application switcher. It is no
     > [!TIP]
     > To reverse the order in which you go through the **Active Files** list, hold down the **Ctrl**+**Shift** keys and press **Tab**.
 
+- Press **Ctrl**+**NumPad 1** through **Ctrl**+**NumPad 9** to activate the corresponding visible document tab in the active document group. The numbers follow the tab well's visual left-to-right order, and preview tabs are excluded from the numbered slots.
+
     \- or -
 
 - In the upper right corner of the editor, choose the **Active Files** button, and then select a file from the list to switch to.
