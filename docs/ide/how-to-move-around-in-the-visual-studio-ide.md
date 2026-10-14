@@ -1,7 +1,7 @@
 ---
 title: Move around in the IDE across windows and files
 description: Explore how to move around in the Visual Studio integrated development environment (IDE) from window to window and file to file in several different ways.
-ms.date: 11/04/2016
+ms.date: 10/14/2026
 ms.topic: how-to
 helpviewer_keywords:
 - environments [Visual Studio], navigation
@@ -28,9 +28,15 @@ The integrated development environment (IDE) has been designed to allow you to m
 
 Almost every menu command in Visual Studio has a keyboard shortcut. You can also create your own custom shortcuts. For more information, see [Identify and customize keyboard shortcuts](../ide/identifying-and-customizing-keyboard-shortcuts-in-visual-studio.md).
 
+To search for or customize the `Window.MoveTabLeft` and `Window.MoveTabRight` commands, go to **Tools** > **Options** > **Environment** > **Keyboard**.
+
 ## Navigate among files in the editor
 
 You can use several methods to move through the files open in the editor. You can move among files based on the order in which you access them, use the IDE Navigator to quickly find any file currently open, or pin favorite files to the tab well so that they are always visible.
+
+### Reorder tabs with keyboard shortcuts
+
+Starting in Visual Studio 2026 version 18.11, press **Ctrl**+**Shift**+**PgUp** or **Ctrl**+**Shift**+**PgDn** to move the active document or tool window tab one position left or right in the document well (`Window.MoveTabLeft` and `Window.MoveTabRight`). With vertical tabs, these shortcuts move the tab up or down. You can't move a tab across the boundary between pinned and unpinned tabs.
 
 Navigate backward and navigate forward cycle through the open files in the editor based on the order in which they were accessed, much like back and forward do for your viewing history in a browser.
 
