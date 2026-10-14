@@ -52,13 +52,13 @@ You can invoke the List Members feature manually by typing **Ctrl**+**J**, choos
 
 ::: moniker range="visualstudio"
 
-To turn List Members off by default so that it doesn't appear unless specifically invoked, go to **Tools** > **Options** > **All Settings** > **Languages** > **Defaults** > **General** > **Statement Completion** and clear **Auto list members**. To turn off List Members only for a specific language, go to **General** settings for that language.
+To turn **List Members** off by default so that it doesn't appear unless specifically invoked, go to **Tools** > **Options** > **All Settings** > **Languages** > **Defaults** > **General** > **Statement Completion** and clear **Auto list members**. To turn off **List Members** only for a specific language, go to **General** settings for that language.
 
 ::: moniker-end
 
 ::: moniker range="vs-2022"
 
-To turn List Members off by default so that it doesn't appear unless specifically invoked, go to **Tools** > **Options** > **Text Editor** > **All Languages** > **General** and deselect **Auto list members**. To turn off List Members only for a specific language, go to **General** settings for that language.
+To turn **List Members** off by default so that it doesn't appear unless specifically invoked, go to **Tools** > **Options** > **Text Editor** > **All Languages** > **General** and deselect **Auto list members**. To turn off **List Members** only for a specific language, go to **General** settings for that language.
 
 ::: moniker-end
 
