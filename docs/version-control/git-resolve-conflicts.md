@@ -130,7 +130,7 @@ Git is good at automatically merging file changes in most circumstances, as long
     :::moniker range="visualstudio"
 
     > [!NOTE]
-    > If you want to keep all of your changes to a file, you can right-click it in the **Unmerged Changes** section and select **Keep Current (Local)** without having to open Merge Editor.
+    > To resolve conflicts without opening Merge Editor, right-click a file, folder, or the repository root in **Unmerged Changes**. For a single file, select **Keep Current (Local)**. To resolve all conflicts in the selected scope, select **Keep All Current** or **Take All Incoming**. For details, see [Resolve conflicts in bulk](#resolve-conflicts-in-bulk).
     >
     > :::image type="content" source="media/visualstudio/git-conflicts-keep-changes.png" alt-text="Screenshot that shows the Keep Current menu option.":::
 
