@@ -52,7 +52,7 @@ You can invoke the List Members feature manually by typing **Ctrl**+**J**, choos
 
 ::: moniker range="visualstudio"
 
-To turn List Members off by default so that it doesn't appear unless specifically invoked, go to **Tools** > **Options** > **Languages** > **Defaults** > **General** > **Statement Completion** and deselect **Auto list members**. To turn off List Members only for a specific language, go to **General** settings for that language.
+To turn List Members off by default so that it doesn't appear unless specifically invoked, go to **Tools** > **Options** > **All Settings** > **Languages** > **Defaults** > **General** > **Statement Completion** and clear **Auto list members**. To turn off List Members only for a specific language, go to **General** settings for that language.
 
 ::: moniker-end
 
@@ -94,13 +94,13 @@ If a function is overloaded, IntelliSense might not display information for all 
 
 Starting in Visual Studio 2026 version 18.11, you can configure the **Quick Info hover delay (ms)** option in **Tools** > **Options** > **Text Editor** > **Advanced**. The default is **150 ms**; changes take effect immediately without restarting Visual Studio. The delay applies when a hover handler doesn't request its own timing. For more information, see [Quick Info hover delay](options-text-editor-advanced.md#quick-info-hover-delay-ms). This setting controls mouse hover timing, not the keyboard command for invoking *Quick Info*.
 
-To turn Quick Info off, go to **Tools** > **Options** > **All Settings** > **Text Editor** > **General** and deselect **Show Quick Info on hover**.
+To turn *Quick Info* off, go to **Tools** > **Options** > **All Settings** > **Text Editor** > **General** and clear **Show Quick Info on hover**.
 
 ::: moniker-end
 
 ::: moniker range="vs-2022"
 
-To turn Quick Info off, go to **Tools** > **Options** > **Text Editor** > **All Languages** > **General** and deselect **Show Quick Info on hover**.
+To turn *Quick Info* off, go to **Tools** > **Options** > **Text Editor** > **All Languages** > **General** and clear **Show Quick Info on hover**.
 
 ::: moniker-end
 

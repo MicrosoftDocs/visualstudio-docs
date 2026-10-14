@@ -36,7 +36,7 @@ You can use several methods to move through the files open in the editor. You ca
 
 ### Reorder tabs with keyboard shortcuts
 
-Starting in Visual Studio 2026 version 18.11, press **Ctrl**+**Shift**+**PgUp** or **Ctrl**+**Shift**+**PgDn** to move the active document or tool window tab one position left or right in the document well (`Window.MoveTabLeft` and `Window.MoveTabRight`). With vertical tabs, these shortcuts move the tab up or down. A tab can't be moved across the boundary between pinned and unpinned tabs.
+Starting in Visual Studio 2026 version 18.11, press **Ctrl**+**Shift**+**PgUp** or **Ctrl**+**Shift**+**PgDn** to move the active document or tool window tab one position left or right in the document well (`Window.MoveTabLeft` and `Window.MoveTabRight`). With vertical tabs, these shortcuts move the tab up or down. You can't move a tab across the boundary between pinned and unpinned tabs.
 
 Navigate backward and navigate forward cycle through the open files in the editor based on the order in which they were accessed, much like back and forward do for your viewing history in a browser.
 
