@@ -1,7 +1,7 @@
 ---
 title: Keyboard shortcuts
 description: Learn about the default keyboard shortcuts in Visual Studio that allow you to access a variety of commands and windows.
-ms.date: 06/26/2026
+ms.date: 10/14/2026
 ms.topic: reference
 helpviewer_keywords:
 - shortcut keys [Visual Studio], keyboard binding schemes
@@ -657,6 +657,8 @@ Starting in Visual Studio 2026 version 18.11, you can reorder the active tab wit
 |-|-|-|
 |Move tab left (up with vertical tabs)|**Ctrl+Shift+PgUp**| Window.MoveTabLeft |
 |Move tab right (down with vertical tabs)|**Ctrl+Shift+PgDn**| Window.MoveTabRight |
+
+`Window.NextTab` and `Window.PreviousTab` switch the active tab; `Window.MoveTabLeft` and `Window.MoveTabRight` reorder tabs without switching focus.
 
 You can also press **Ctrl+NumPad1** through **Ctrl+NumPad9** to activate the corresponding visible document tab in the active document group. Numbering follows visual order, includes pinned and unpinned tabs, and excludes preview tabs. For details and reordering restrictions, see [Navigate and reorder tabs with the keyboard](customizing-window-layouts-in-visual-studio.md#navigate-and-reorder-tabs-with-the-keyboard).
 
