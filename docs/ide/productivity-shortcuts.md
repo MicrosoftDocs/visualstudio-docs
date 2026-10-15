@@ -1,7 +1,7 @@
 ---
 title: Keyboard and mouse shortcuts
 description: This article contains tips for keyboard and mouse shortcuts in Visual Studio that can help you be more productive.
-ms.date: 07/12/2022
+ms.date: 10/14/2026
 ms.topic: reference
 author: madskristensen
 ms.author: madsk
@@ -22,6 +22,7 @@ For a comprehensive list of command shortcuts and a printable keyboard shortcut 
 |Maximize/minimize windows|**Win**+**Up arrow** / **Win**+**Down arrow**|
 |Redock floating window|**Ctrl**+**double-click** on title bar|
 |Move/dock floating windows|**Win**+**Left arrow** / **Win**+**Right arrow**|
+|Move active tab left/right in the document well|**Ctrl**+**Shift**+**PgUp** / **Ctrl**+**Shift**+**PgDn** (`Window.MoveTabLeft` / `Window.MoveTabRight`)|
 |Close active document|**Ctrl**+**F4**|
 |Show open file list|**Ctrl**+**Alt**+**Down arrow**|
 |Show all floating windows|**Ctrl**+**Shift**+**M**|
@@ -72,6 +73,7 @@ For a comprehensive list of command shortcuts and a printable keyboard shortcut 
 |Navigate To|**Ctrl**+**,**|
 |Navigate highlighted references|**Ctrl**+**Shift**+**Up** (Previous)<br />**Ctrl**+**Shift**+**Down** (Next)|
 |Editor zoom|**Ctrl**+**Shift**+**>** (In)<br />**Ctrl**+**Shift**+**<** (Out)|
+|Reset editor zoom to 100%|**Ctrl**+**NumPad0** (`View.ZoomReset`)|
 |Block selection|Hold **Alt** and drag mouse<br />**Shift**+**Alt**+**Arrow keys**|
 |Move line up/down|**Alt**+**Up arrow** / **Alt**+**Down arrow**|
 |Duplicate line|**Ctrl**+**E**,**V**|
