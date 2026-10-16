@@ -75,7 +75,7 @@ VS.StatusBar.EndAnimationAsync(StatusAnimation.Sync).FireAndForget();
 An Info Bar is a bar at the top of a tool- or document window. It's useful for grabbing the attention of the user without blocking them. An Info Bar can contain an icon, text, and several hyperlinks.
 
 > [!NOTE]
-> The screenshots in this section show the yellow Info Bar of earlier versions of Visual Studio. Starting with Visual Studio 2026, an Info Bar has a neutral background, and the icon you pass to the `InfoBarModel` sets its color: `KnownMonikers.StatusWarning`, `KnownMonikers.StatusError`, and `KnownMonikers.StatusOK` give the Info Bar the caution, critical, and success background. For the color values, see [Visual Studio theme color tokens](../../ux-guidelines/theme-color-token-reference.md).
+> The screenshots in this section show the yellow Info Bar of earlier versions of Visual Studio. In Visual Studio, an Info Bar has a neutral background, and the icon you pass to the `InfoBarModel` sets its color: `KnownMonikers.StatusWarning`, `KnownMonikers.StatusError`, and `KnownMonikers.StatusOK` give the Info Bar the caution, critical, and success background. For the color values, see [Visual Studio theme color tokens](../../ux-guidelines/theme-color-token-reference.md).
 
 :::image type="content" source="../media/info-bar-solution-explorer.png" alt-text="An Info Bar showing in Solution Explorer.":::
 
