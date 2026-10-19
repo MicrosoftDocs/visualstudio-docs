@@ -267,7 +267,11 @@ To reorder the active tab within the document well, press **Ctrl+Shift+PgUp** to
 
 Movement preserves the boundary between pinned and unpinned tabs. With vertical tabs, a tab stays within its project group, and manual reordering is unavailable when alphabetical sorting is enabled. Preview tabs can't be moved.
 
-To remap **Window.MoveTabLeft** or **Window.MoveTabRight**, use **Tools** > **Options** > **Environment** > **Keyboard**.
+The default **Ctrl+Shift+PgUp/PgDn** and **Ctrl+NumPad1** through **Ctrl+NumPad9** shortcuts can replace existing Text Editor bindings for **Edit.ViewTopExtend** and **Edit.ViewBottomExtend**. To restore prior bindings or customize **Window.MoveTabLeft**, **Window.MoveTabRight**, or the numbered-tab activation commands, use **Tools** > **Options** > **Environment** > **Keyboard**.
+
+### Tool window tabs
+
+Tool window tabs can size individually instead of sharing the width of the longest tab label. To configure minimum and maximum widths for tool window tabs, open **Tools** > **Options** > **All Settings** > **Environment** > **Tabs** > **Tool Window Tabs**.
 
 :::moniker-end
 
