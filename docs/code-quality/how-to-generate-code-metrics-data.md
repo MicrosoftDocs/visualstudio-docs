@@ -7,8 +7,8 @@ helpviewer_keywords:
   - code metrics data
   - code metrics results
   - code metrics [Visual Studio]
-author: madskristensen
-ms.author: madsk
+author: cathysull
+ms.author: cathys
 
 ms.subservice: code-analysis
 ---

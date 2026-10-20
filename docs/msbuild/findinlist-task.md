@@ -10,8 +10,8 @@ dev_langs:
 helpviewer_keywords:
 - FindInList task [MSBuild]
 - MSBuild, FindInList task
-author: madskristensen
-ms.author: madsk
+author: baronfel
+ms.author: chethusk
 
 ms.subservice: msbuild
 ---

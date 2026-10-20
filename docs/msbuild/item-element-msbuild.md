@@ -10,8 +10,8 @@ dev_langs:
 helpviewer_keywords:
 - Item Element [MSBuild]
 - <Item> Element [MSBuild]
-author: madskristensen
-ms.author: madsk
+author: baronfel
+ms.author: chethusk
 
 ms.subservice: msbuild
 ---

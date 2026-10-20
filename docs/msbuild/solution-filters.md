@@ -6,8 +6,8 @@ ms.topic: "reference"
 helpviewer_keywords:
   - "MSBuild, solution filters"
   - "solution filters [MSBuild]"
-author: madskristensen
-ms.author: madsk
+author: baronfel
+ms.author: chethusk
 
 ms.subservice: msbuild
 monikerRange: ">= vs-2022"

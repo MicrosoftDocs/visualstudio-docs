@@ -22,8 +22,8 @@ dev_langs:
 helpviewer_keywords:
 - MSBuild (C++), Link task
 - Link task (MSBuild (C++))
-author: madskristensen
-ms.author: madsk
+author: baronfel
+ms.author: chethusk
 
 ms.subservice: msbuild
 ---

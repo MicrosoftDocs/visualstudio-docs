@@ -13,8 +13,8 @@ dev_langs:
 helpviewer_keywords:
 - MSBuild (C++), CL task
 - CL task (MSBuild (C++))
-author: madskristensen
-ms.author: madsk
+author: baronfel
+ms.author: chethusk
 
 ms.subservice: msbuild
 ---

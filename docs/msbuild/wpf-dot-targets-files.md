@@ -11,8 +11,8 @@ helpviewer_keywords:
   - "combining tasks into a .targets file to build an MSBuild project [WPF MSBuild]"
   - "WPF .targets files [WPF MSBuild], introduction"
   - "WPF .targets files [WPF MSBuild]"
-author: madskristensen
-ms.author: madsk
+author: baronfel
+ms.author: chethusk
 
 ms.subservice: msbuild
 ---

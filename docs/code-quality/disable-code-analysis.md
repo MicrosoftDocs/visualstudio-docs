@@ -1,8 +1,8 @@
 ---
 title: Disable source code analysis for .NET
 description: Learn how to disable the Visual Studio source code analysis feature in .NET Core, .NET Standard, .NET 5+, and .NET Framework projects.
-author: mikadumont
-ms.author: midumont
+author: cathysull
+ms.author: cathys
 
 ms.subservice: code-analysis
 ms.topic: how-to

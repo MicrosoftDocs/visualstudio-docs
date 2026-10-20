@@ -10,8 +10,8 @@ dev_langs:
 helpviewer_keywords:
 - XmlPeek task [MSBuild]
 - MSBuild, XmlPeek task
-author: madskristensen
-ms.author: madsk
+author: baronfel
+ms.author: chethusk
 
 ms.subservice: msbuild
 ---

@@ -12,8 +12,8 @@ dev_langs:
 helpviewer_keywords:
 - <When> Element [MSBuild]
 - When Element [MSBuild]
-author: madskristensen
-ms.author: madsk
+author: baronfel
+ms.author: chethusk
 
 ms.subservice: msbuild
 ---

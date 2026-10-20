@@ -6,8 +6,8 @@ ms.topic: how-to
 helpviewer_keywords:
 - best practices, MSBuild
 - MSBuild, best practices
-author: madskristensen
-ms.author: madsk
+author: baronfel
+ms.author: chethusk
 
 ms.subservice: msbuild
 ---

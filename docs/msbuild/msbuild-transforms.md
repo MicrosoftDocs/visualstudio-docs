@@ -6,8 +6,8 @@ ms.topic: concept-article
 helpviewer_keywords:
 - MSBuild, transforms
 - transforms [MSBuild]
-author: madskristensen
-ms.author: madsk
+author: baronfel
+ms.author: chethusk
 
 ms.subservice: msbuild
 #customer intent: As a developer, I want to understand how MSBuild applies transforms for project builds and target mapping, so I can use transforms in my projects.

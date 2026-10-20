@@ -10,8 +10,8 @@ dev_langs:
 helpviewer_keywords:
   - "VerifyFileHash task [MSBuild]"
   - "MSBuild, VerifyFileHash task"
-author: madskristensen
-ms.author: madsk
+author: baronfel
+ms.author: chethusk
 
 ms.subservice: msbuild
 ---

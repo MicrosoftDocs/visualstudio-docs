@@ -9,8 +9,8 @@ helpviewer_keywords:
 - FxCop, migration
 - legacy analysis, migration
 - source code analysis, migration
-author: madskristensen
-ms.author: madsk
+author: cathysull
+ms.author: cathys
 
 ms.subservice: code-analysis
 ---

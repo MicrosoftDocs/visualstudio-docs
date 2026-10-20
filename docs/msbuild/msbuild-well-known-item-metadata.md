@@ -10,8 +10,8 @@ dev_langs:
 helpviewer_keywords:
 - MSBuild, item metadata
 - MSBuild, well-known item metadata
-author: madskristensen
-ms.author: madsk
+author: baronfel
+ms.author: chethusk
 
 ms.subservice: msbuild
 ---

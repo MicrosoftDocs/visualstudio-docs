@@ -1,12 +1,12 @@
 ---
 title: Diagnostics - Azure Cloud Services (extended support) services and VMs
 description: Learn how to set up diagnostics for debugging Azure Cloud Services (extended support) and virtual machines (VMs) in Visual Studio.
-author: madskristensen
+author: cathysull
 monikerRange: "<=vs-2022"
 ms.subservice: azure-development
 ms.topic: how-to
 ms.date: 03/06/2024
-ms.author: madsk
+ms.author: cathys
 ms.custom: sfi-image-nochange
 ---
 
