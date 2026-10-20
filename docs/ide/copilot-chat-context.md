@@ -180,7 +180,7 @@ Here's an example C# custom instruction:
 
 ```markdown
 ---
-applyTo: `**/*.cs`
+applyTo: "**/*.cs"
 ---
 
 - Write clear and concise comments for each function.
