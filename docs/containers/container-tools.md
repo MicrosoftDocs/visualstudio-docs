@@ -1,8 +1,8 @@
 ---
 title: Visual Studio Container Tools with ASP.NET
-author: madskristensen
+author: cathysull
 description: Use Visual Studio Container Tools and Docker for Windows to build and debug containerized apps and publish to a container registry, Docker Hub, or Azure App Service.
-ms.author: madsk
+ms.author: cathys
 ms.date: 9/10/2025
 ms.subservice: container-tools
 ms.topic: quickstart

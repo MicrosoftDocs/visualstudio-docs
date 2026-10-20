@@ -21,8 +21,8 @@ helpviewer_keywords:
 - build configurations, advanced
 - projects [Visual Studio], build configuration
 - solutions [Visual Studio], build configuration
-author: madskristensen
-ms.author: madsk
+author: cathysull
+ms.author: cathys
 
 ms.custom: peer-review-program
 ---

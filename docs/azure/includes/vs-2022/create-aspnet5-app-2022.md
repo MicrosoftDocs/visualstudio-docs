@@ -1,9 +1,9 @@
 ---
 title: include
 description: include
-author: madskristensen
+author: cathysull
 ms.subservice: azure-development
-ms.author: madsk
+ms.author: cathys
 ms.topic: include
 ms.date: 05/14/2026
 ---

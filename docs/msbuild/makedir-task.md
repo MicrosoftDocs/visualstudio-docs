@@ -12,8 +12,8 @@ dev_langs:
 helpviewer_keywords:
 - MakeDir task [MSBuild]
 - MSBuild, MakeDir task
-author: madskristensen
-ms.author: madsk
+author: baronfel
+ms.author: chethusk
 
 ms.subservice: msbuild
 ---

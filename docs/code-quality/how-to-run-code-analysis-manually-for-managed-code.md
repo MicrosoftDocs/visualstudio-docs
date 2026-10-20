@@ -1,8 +1,8 @@
 ---
 title: Run code analysis manually for .NET
 description: Learn how to manually run code analysis in Visual Studio with Roslyn analyzers on C# and Visual Basic code.
-author: mikadumont
-ms.author: midumont
+author: cathysull
+ms.author: cathys
 
 ms.subservice: code-analysis
 ms.topic: how-to

@@ -8,8 +8,8 @@ helpviewer_keywords:
 - MSBuild, batching
 - task batching [MSBuild]
 - MSBuild, task batching
-author: madskristensen
-ms.author: madsk
+author: baronfel
+ms.author: chethusk
 
 ms.subservice: msbuild
 ---

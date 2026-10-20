@@ -11,8 +11,8 @@ f1_keywords:
   - "VS.ToolsOptionsPages.Python_Tools.Experimental"
   - "VS.ToolsOptionsPages.Python_Tools.Interactive_Windows"
   - "VS.ToolsOptionsPages.Text_Editor.Python.Advanced"
-author: Devdiv-VR
-ms.author: vedhar
+author: brettcannon
+ms.author: brcan
 
 ms.subservice: python
 

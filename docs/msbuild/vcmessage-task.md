@@ -10,8 +10,8 @@ dev_langs:
 helpviewer_keywords:
 - VCMessage task (MSBuild (C++))
 - MSBuild (C++), VCMessage task
-author: madskristensen
-ms.author: madsk
+author: baronfel
+ms.author: chethusk
 
 ms.subservice: msbuild
 ---

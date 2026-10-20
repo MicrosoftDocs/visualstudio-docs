@@ -7,8 +7,8 @@ dev_langs:
 - VB
 - CSharp
 - C++
-author: madskristensen
-ms.author: madsk
+author: baronfel
+ms.author: chethusk
 
 ms.subservice: msbuild
 ---

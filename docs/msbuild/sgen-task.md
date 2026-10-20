@@ -12,8 +12,8 @@ dev_langs:
 helpviewer_keywords:
 - SGen task [MSBuild]
 - MSBuild, SGen task
-author: madskristensen
-ms.author: madsk
+author: baronfel
+ms.author: chethusk
 
 ms.subservice: msbuild
 ---

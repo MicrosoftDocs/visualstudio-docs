@@ -10,8 +10,8 @@ dev_langs:
 helpviewer_keywords:
   - "RequiresFramework35SP1Assembly task [MSBuild]"
   - "MSBuild, RequiresFramework35SP1Assembly task"
-author: madskristensen
-ms.author: madsk
+author: baronfel
+ms.author: chethusk
 
 ms.subservice: msbuild
 ---

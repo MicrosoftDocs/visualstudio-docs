@@ -7,8 +7,8 @@ helpviewer_keywords:
 - memory use (MSBuild)
 - msbuild, efficient memory use building large trees
 - caching (MSBuild)
-author: madskristensen
-ms.author: madsk
+author: baronfel
+ms.author: chethusk
 
 ms.subservice: msbuild
 ---

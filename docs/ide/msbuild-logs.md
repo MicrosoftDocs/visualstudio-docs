@@ -6,8 +6,8 @@ ms.subservice: compile-build
 ms.topic: how-to
 helpviewer_keywords:
   - MSBuild logs"
-author: madskristensen
-ms.author: madsk
+author: cathysull
+ms.author: cathys
 
 dev_langs:
  - CSharp

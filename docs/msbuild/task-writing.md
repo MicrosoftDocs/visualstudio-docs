@@ -7,8 +7,8 @@ helpviewer_keywords:
 - MSBuild, writing tasks
 - tasks, creating for MSBuild
 - MSBuild, creating tasks
-author: madskristensen
-ms.author: madsk
+author: baronfel
+ms.author: chethusk
 
 ms.subservice: msbuild
 

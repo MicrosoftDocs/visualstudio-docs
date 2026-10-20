@@ -9,8 +9,8 @@ helpviewer_keywords:
 - code metrics results
 - code metrics results window
 - results window, code metrics
-author: madskristensen
-ms.author: madsk
+author: cathysull
+ms.author: cathys
 
 ms.subservice: code-analysis
 ---

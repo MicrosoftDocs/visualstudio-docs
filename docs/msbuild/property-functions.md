@@ -5,8 +5,8 @@ ms.date: 6/4/2025
 ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, property functions
-author: madskristensen
-ms.author: madsk
+author: baronfel
+ms.author: chethusk
 
 ms.subservice: msbuild
 ---

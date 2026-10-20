@@ -12,8 +12,8 @@ dev_langs:
 helpviewer_keywords:
 - <Otherwise> Element [MSBuild]
 - Otherwise Element [MSBuild]
-author: madskristensen
-ms.author: madsk
+author: baronfel
+ms.author: chethusk
 
 ms.subservice: msbuild
 ---
