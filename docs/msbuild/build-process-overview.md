@@ -5,8 +5,8 @@ ms.date: 06/04/2026
 ms.topic: overview
 helpviewer_keywords:
 - MSBuild, build process overview
-author: madskristensen
-ms.author: madsk
+author: baronfel
+ms.author: chethusk
 
 ms.subservice: msbuild
 ms.custom: peer-review-program

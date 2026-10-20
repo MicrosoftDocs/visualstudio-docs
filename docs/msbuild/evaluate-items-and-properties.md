@@ -11,8 +11,8 @@ helpviewer_keywords:
 - getItem [MSBuild]
 - getTargetResult [MSBuild]
 - evaluation [MSBuild]
-author: madskristensen
-ms.author: madsk
+author: baronfel
+ms.author: chethusk
 
 ms.subservice: msbuild
 ---

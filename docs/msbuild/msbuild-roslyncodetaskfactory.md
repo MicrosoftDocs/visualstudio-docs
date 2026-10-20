@@ -5,8 +5,8 @@ ms.date: 7/15/2025
 ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, tasks
-author: madskristensen
-ms.author: madsk
+author: baronfel
+ms.author: chethusk
 
 ms.subservice: msbuild
 ---

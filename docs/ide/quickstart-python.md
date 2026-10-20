@@ -5,8 +5,8 @@ description: Learn how to use Visual Studio and the Flask framework to build a w
 ms.date: 04/15/2026
 ms.subservice: python
 ms.topic: quickstart
-author: cwebster-99
-ms.author: cowebster
+author: brettcannon
+ms.author: brcan
 
 ms.custom: vs-acquisition
 

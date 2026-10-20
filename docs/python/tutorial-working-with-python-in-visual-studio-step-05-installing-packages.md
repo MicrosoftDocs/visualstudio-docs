@@ -4,8 +4,8 @@ titleSuffix: ""
 description: Explore step 5 of a tutorial about Python capabilities in Visual Studio that shows how to manage and install packages in a Python environment.
 ms.date: 03/16/2026
 ms.topic: tutorial
-author: Devdiv-VR
-ms.author: vedhar
+author: brettcannon
+ms.author: brcan
 
 ms.subservice: python
 

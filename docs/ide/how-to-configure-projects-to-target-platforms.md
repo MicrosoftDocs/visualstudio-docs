@@ -15,8 +15,8 @@ helpviewer_keywords:
 - Arm64 targeting [Visual Studio]
 - CPUs, targeting specific
 - 64-bit applications [Visual Studio]
-author: madskristensen
-ms.author: madsk
+author: cathysull
+ms.author: cathys
 
 ---
 # Configure projects to target platforms

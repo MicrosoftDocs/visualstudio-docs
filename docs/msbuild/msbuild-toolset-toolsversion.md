@@ -8,8 +8,8 @@ helpviewer_keywords:
 - targeting a specific .NET Framework [MSBuild]
 - MSBuild, targeting a specific .NET Framework
 - multitargeting [MSBuild]
-author: madskristensen
-ms.author: madsk
+author: baronfel
+ms.author: chethusk
 
 ms.subservice: msbuild
 ---
