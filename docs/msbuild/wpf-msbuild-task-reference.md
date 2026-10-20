@@ -12,8 +12,8 @@ helpviewer_keywords:
   - "build tasks [WPF MSBuild], Microsoft build engine"
   - "build tasks using the Microsoft build engine [WPF MSBuild], compile markup and process resources"
   - "WPF MSBuild task reference [WPF MSBuild]"
-author: madskristensen
-ms.author: madsk
+author: baronfel
+ms.author: chethusk
 
 ms.subservice: msbuild
 ---

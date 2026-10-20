@@ -20,8 +20,8 @@ dev_langs:
 helpviewer_keywords:
 - MSBuild (C++), MIDL task
 - MIDL task (MSBuild (C++))
-author: madskristensen
-ms.author: madsk
+author: baronfel
+ms.author: chethusk
 
 ms.subservice: msbuild
 ---

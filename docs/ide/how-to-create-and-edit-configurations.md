@@ -14,8 +14,8 @@ helpviewer_keywords:
 - Configuration Manager
 - project build configurations, creating
 - project build configurations, editing
-author: madskristensen
-ms.author: madsk
+author: cathysull
+ms.author: cathys
 
 ---
 # Create and edit configurations

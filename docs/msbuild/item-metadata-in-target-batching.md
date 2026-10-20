@@ -7,8 +7,8 @@ helpviewer_keywords:
 - batching [MSBuild]
 - MSBuild, target batching
 - target batching [MSBuild]
-author: madskristensen
-ms.author: madsk
+author: baronfel
+ms.author: chethusk
 
 ms.subservice: msbuild
 ---

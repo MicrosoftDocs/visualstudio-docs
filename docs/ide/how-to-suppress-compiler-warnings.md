@@ -4,8 +4,8 @@ description: Use Visual Studio to declutter a build log by filtering out one or 
 ms.date: 02/23/2026
 ms.subservice: compile-build
 ms.topic: how-to
-author: madskristensen
-ms.author: madsk
+author: cathysull
+ms.author: cathys
 
 ---
 # Suppress compiler warnings

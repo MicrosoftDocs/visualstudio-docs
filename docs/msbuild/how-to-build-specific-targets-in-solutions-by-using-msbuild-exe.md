@@ -7,8 +7,8 @@ helpviewer_keywords:
 - MSBuild, building specific targets in a solution
 - msbuild.exe, building specific targets in a solution
 - MSBuild, msbuild.exe
-author: madskristensen
-ms.author: madsk
+author: baronfel
+ms.author: chethusk
 
 ms.subservice: msbuild
 ---

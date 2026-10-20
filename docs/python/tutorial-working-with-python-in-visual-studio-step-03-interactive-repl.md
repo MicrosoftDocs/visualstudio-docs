@@ -4,8 +4,8 @@ titleSuffix: ""
 description: Explore step 3 of a tutorial about Python capabilities in Visual Studio that demonstrates how to work with the Python Interactive REPL window.
 ms.date: 04/27/2026
 ms.topic: tutorial
-author: Devdiv-VR
-ms.author: vedhar
+author: brettcannon
+ms.author: brcan
 
 ms.subservice: python
 

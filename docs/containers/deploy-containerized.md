@@ -1,8 +1,8 @@
 ---
 title: Deploy an app into a container in the cloud
-author: madskristensen
+author: cathysull
 description: Deploy an application into a container in Azure or Docker Hub in Visual Studio rather than using Docker Desktop or a Dockerfile.
-ms.author: madsk
+ms.author: cathys
 ms.date: 8/19/2025
 ms.subservice: container-tools
 ms.topic: how-to

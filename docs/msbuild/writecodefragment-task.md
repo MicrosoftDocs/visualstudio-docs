@@ -10,8 +10,8 @@ dev_langs:
 helpviewer_keywords:
 - MSBuild, WriteCodeFragment task
 - WriteCodeFragment task [MSBuild]
-author: madskristensen
-ms.author: madsk
+author: baronfel
+ms.author: chethusk
 
 ms.subservice: msbuild
 ---

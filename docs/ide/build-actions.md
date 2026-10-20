@@ -4,8 +4,8 @@ description: Learn how all files in a Visual Studio project have a build action 
 ms.date: 04/18/2024
 ms.subservice: compile-build
 ms.topic: reference
-author: madskristensen
-ms.author: madsk
+author: cathysull
+ms.author: cathys
 
 ---
 # Build actions

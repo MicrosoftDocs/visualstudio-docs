@@ -10,8 +10,8 @@ dev_langs:
 helpviewer_keywords:
   - "MSBuild, UpdateManifest task"
   - "UpdateManifest task [MSBuild]"
-author: madskristensen
-ms.author: madsk
+author: baronfel
+ms.author: chethusk
 
 ms.subservice: msbuild
 ---

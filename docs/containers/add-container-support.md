@@ -1,8 +1,8 @@
 ---
 title: Add support for containers
 description: Learn how to containerize your projects by adding container support, and choose whether to work with a Dockerfile, or build a containerized app without a Dockerfile.
-author: madskristensen
-ms.author: madsk
+author: cathysull
+ms.author: cathys
 ms.topic: overview
 ms.date: 9/10/2025
 ms.subservice: container-tools

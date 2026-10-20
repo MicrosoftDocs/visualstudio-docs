@@ -6,8 +6,8 @@ ms.topic: concept-article
 helpviewer_keywords:
   - "code analysis, managed code"
   - "managed code, code analysis"
-author: mikadumont
-ms.author: midumont
+author: cathysull
+ms.author: cathys
 
 ms.subservice: code-analysis
 ---

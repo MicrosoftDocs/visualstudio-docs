@@ -10,8 +10,8 @@ dev_langs:
 helpviewer_keywords:
   - "GetFileHash task [MSBuild]"
   - "MSBuild, GetFileHash task"
-author: madskristensen
-ms.author: madsk
+author: baronfel
+ms.author: chethusk
 
 ms.subservice: msbuild
 ---

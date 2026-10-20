@@ -1,8 +1,8 @@
 ---
 title: Error codes for Visual Studio Container Tools
-author: madskristensen
+author: cathysull
 description: Information and troubleshooting suggestions for the error codes and error messages used by Visual Studio Container Tools.
-ms.author: madsk
+ms.author: cathys
 ms.date: 07/20/2022
 ms.subservice: container-tools
 ms.topic: error-reference

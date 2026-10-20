@@ -3,8 +3,8 @@ title: Update an MSBuild custom task for multithreaded builds
 description: Learn how to migrate an MSBuild custom task to work in the multithreaded build model using IMultiThreadableTask, TaskEnvironment, and AbsolutePath.
 ms.date: 09/02/2026
 ms.topic: how-to
-author: madskristensen
-ms.author: madsk
+author: baronfel
+ms.author: chethusk
 manager: mijacobs
 ms.subservice: msbuild
 ms.custom: doc-kit-assisted, awp-ai

@@ -9,8 +9,8 @@ dev_langs:
 - C++
 helpviewer_keywords:
 - MSBuild, common project items
-author: madskristensen
-ms.author: madsk
+author: baronfel
+ms.author: chethusk
 
 ms.subservice: msbuild
 ---
