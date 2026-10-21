@@ -179,9 +179,8 @@ Targeted instruction files use the `.instructions.md` extension and have this st
 Here's an example C# custom instruction:
 
 ```markdown
-## C# Instructions
 ---
-applyTo: `**/*.cs`
+applyTo: "**/*.cs"
 ---
 
 - Write clear and concise comments for each function.
