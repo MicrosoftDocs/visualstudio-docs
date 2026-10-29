@@ -4,7 +4,7 @@ author: joseb-rdc
 ms.author: amast
 ms.manager:  shve
 ms.assetid: e49242bc-e9f2-49e8-8caa-f574d508aba6
-ms.date: 07/02/2025
+ms.date: 10/29/2026
 ms.topic: how-to
 description:  Learn how admins can delete subscription assignments in the Visual Studio Subscriptions Admin Portal.
 ms.custom: sfi-image-nochange
@@ -99,8 +99,6 @@ If you need to delete a large number of subscription assignments, you can use th
 
 * [Subscriptions support](https://aka.ms/vsadminhelp)
 * [Visual Studio documentation](/visualstudio/)
-* [Azure DevOps documentation](/azure/devops/)
-* [Azure documentation](/azure/)
 * [Microsoft 365 documentation](/microsoft-365/)
 * Need to change a subscription without deleting it? Learn how to [edit subscriptions](edit-license.md).
 * To find a particular subscription, check out [search for a subscription](search-license.md).
