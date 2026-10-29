@@ -1,7 +1,7 @@
 ---
 title: Publish extension using command line
 description: Learn how to use the command line to publish an extension to the Visual Studio Marketplace, which allows developers to browse for new and updated extensions.
-ms.date: 07/12/2018
+ms.date: 10/20/2026
 ms.topic: how-to
 helpviewer_keywords:
 - publishing extensions
@@ -28,10 +28,17 @@ Publishes an extension to the Marketplace. The extension can be a vsix, an exe/m
 |payload (required) | Either a path to the payload to publish or a link to use as the "more info URL". |
 |publishManifest (required) | Path to the publish manifest file to use. |
 |ignoreWarnings | List of warnings to ignore when publishing an extension. These warnings are shown as command line messages when publishing an extension. (for example, "VSIXValidatorWarning01, VSIXValidatorWarning02")
-|personalAccessToken | Personal Access Token (PAT) that's used to authenticate the publisher. If not provided, the PAT is acquired from the logged-in users. |
+|personalAccessToken | Personal Access Token (PAT) used to authenticate the publisher. If you don't specify this option or `oidc`, the `login` command gets the PAT from the publisher credentials it saved. Don't specify this option together with `oidc`. |
+|oidc | Uses trusted publishing from GitHub Actions instead of a PAT. This flag doesn't take a value. Requires a trusted publishing policy configured in the Marketplace and `id-token: write` permission in the GitHub Actions job. See [Publish from GitHub Actions with trusted publishing](#publish-from-github-actions-with-trusted-publishing). |
 
 ```
-VsixPublisher.exe publish -payload "{path to vsix}" -publishManifest "{path to vs-publish.json}" -ignoreWarnings "VSIXValidatorWarning01,VSIXValidatorWarning02"
+VsixPublisher.exe publish -payload "{path to vsix}" -publishManifest "{path to vs-publish.json}" -ignoreWarnings "VSIXValidatorWarning01,VSIXValidatorWarning02" -personalAccessToken "{Your PAT}"
+```
+
+To publish from a GitHub Actions workflow configured for trusted publishing, use `-oidc` instead of `-personalAccessToken`:
+
+```console
+VsixPublisher.exe publish -payload "{path to vsix}" -publishManifest "{path to vs-publish.json}" -oidc
 ```
 
 ### deletePublisher
@@ -91,6 +98,65 @@ VsixPublisher.exe logout -publisherName "{Publisher Name}"
 ### createPublisher
 > [!Caution]
 > This command is no longer available. You can create a new publisher by navigating to [Visual Studio Marketplace](https://marketplace.visualstudio.com/manage/publishers).
+
+## Publish from GitHub Actions with trusted publishing
+
+<!-- Before publication, confirm the minimum supported Visual Studio / VSSDK Build Tools version and add a link to the Marketplace trusted publishing policy setup instructions. -->
+
+Trusted publishing lets a GitHub Actions workflow publish your Visual Studio extension without storing a Personal Access Token (PAT). Use the `-oidc` flag with the `publish` command to authenticate by using the workflow's OpenID Connect (OIDC) identity.
+
+`VsixPublisher.exe` requests an OIDC token from GitHub Actions with the audience `marketplace.visualstudio.com`, then exchanges it for a short-lived Marketplace session token. The tool uses that session token to publish the extension.
+
+### Trusted publishing prerequisites
+
+Before publishing by using `-oidc`:
+
+- Use a version of `VsixPublisher.exe` that supports the `oidc` option.
+- Create a publisher in the [Visual Studio Marketplace](https://marketplace.visualstudio.com/manage/publishers) and configure a trusted publishing policy that authorizes your GitHub repository and workflow.
+- Set the `publisher` property in your [publish manifest](#publishmanifest-file) to the Marketplace publisher identifier associated with that policy.
+- Grant the publishing job `id-token: write` permission so it can request an OIDC token from GitHub Actions.
+- Make the extension payload, publish manifest, overview file, and any other referenced assets available on the Windows runner.
+
+### Configure the workflow
+
+Add the following permissions to the GitHub Actions job that publishes your extension:
+
+```yaml
+permissions:
+  contents: read
+  id-token: write
+```
+
+The `id-token: write` permission allows the job to request an OIDC token. It doesn't, by itself, authorize publishing to the Marketplace; the repository and workflow must also match the publisher's trusted publishing policy.
+
+After your workflow builds the extension or downloads its build artifacts, add a publishing step like the following. Replace the executable, payload, and manifest paths with the paths used by your workflow. The executable is normally installed under `<VSInstallDir>\VSSDK\VisualStudioIntegration\Tools\Bin\VsixPublisher.exe`.
+
+```yaml
+- name: Publish extension to Visual Studio Marketplace
+  shell: pwsh
+  run: |
+    & "C:\path\to\VsixPublisher.exe" publish `
+      -payload ".\artifacts\TestPublish.vsix" `
+      -publishManifest ".\publishManifest.json" `
+      -oidc
+    if ($LASTEXITCODE -ne 0) {
+      exit $LASTEXITCODE
+    }
+```
+
+You don't need to run `VsixPublisher.exe login` or provide a PAT when using `-oidc`. The tool obtains the token from the GitHub Actions job automatically.
+
+> [!IMPORTANT]
+> Don't combine `-oidc` with `-personalAccessToken`. If OIDC token acquisition or the Marketplace token exchange fails, publishing fails; the tool doesn't fall back to saved PAT credentials.
+
+### Troubleshoot trusted publishing
+
+| Problem | What to check |
+| --- | --- |
+| The tool reports that `-oidc` is an invalid argument. | Confirm that the installed version of `VsixPublisher.exe` supports trusted publishing and that the flag has a single hyphen. |
+| The tool reports missing GitHub Actions OIDC environment variables. | Run the command in a GitHub Actions job with `id-token: write` permission. The implementation requires `ACTIONS_ID_TOKEN_REQUEST_URL` and `ACTIONS_ID_TOKEN_REQUEST_TOKEN`, which GitHub Actions supplies. Running the same command in a local terminal doesn't provide these variables. |
+| The tool can't exchange the OIDC token for a Marketplace session token. | Check that the Marketplace trusted publishing policy authorizes the repository and workflow, and that the publish manifest specifies the correct publisher identifier. |
+| The tool reports conflicting authentication arguments. | Remove `-personalAccessToken` when using `-oidc`. |
 
 ## publishManifest file
 
@@ -199,7 +265,7 @@ In this case, we will use a default VSPackage extension, but the same steps are 
 
 1. In Visual Studio, start debugging. to open an experimental instance of Visual Studio.
 
-2. In the experimental instance, go to the **Tools** menu and click **Extensions and Updates...**. The TestPublish extension should appear in the center pane and be enabled.
+2. In the experimental instance, go to the **Tools** menu and select **Extensions and Updates...**. The TestPublish extension should appear in the center pane and be enabled.
 
 3. On the **Tools** menu, make sure you see the test command.
 
@@ -211,10 +277,20 @@ In this case, we will use a default VSPackage extension, but the same steps are 
 
 3. Open command line and navigate to ${VSInstallDir}\VSSDK\VisualStudioIntegration\Tools\Bin\ directory.
 
-4. To publish a new extension, use the following command:
+4. To publish a new extension, select the authentication method for your environment.
 
+   - To authenticate with a personal access token (PAT), use:
+
+   ```console
+   VsixPublisher.exe publish -payload "{Path to vsix file}" -publishManifest "{path to publishManifest file}" -personalAccessToken "{Personal Access Token}"
    ```
-   VsixPublisher.exe publish -payload "{Path to vsix file}"  -publishManifest "{path to publishManifest file}"  -personalAccessToken "{Personal Access Token that is used to authenticate the publisher. If not provided, the pat is acquired from the logged-in users.}"
+
+   - Omit `-personalAccessToken` if you previously saved credentials for the publisher by using the `login` command.
+
+   - To authenticate from a GitHub Actions workflow configured for [trusted publishing](#publish-from-github-actions-with-trusted-publishing), use:
+
+   ```console
+   VsixPublisher.exe publish -payload "{Path to vsix file}" -publishManifest "{path to publishManifest file}" -oidc
    ```
 
 5. On successful publishing of extension, you will see the following command line message:
@@ -229,11 +305,11 @@ In this case, we will use a default VSPackage extension, but the same steps are 
 
 Now that the extension is published, install it in Visual Studio and test it there.
 
-1. In Visual Studio, on the **Tools** menu, click **Extensions and Updates...**.
+1. In Visual Studio, on the **Tools** menu, select **Extensions and Updates...**.
 
-2. Click **Online** and then search for TestPublish.
+2. Select **Online** and then search for TestPublish.
 
-3. Click **Download**. The extension will then be scheduled for install.
+3. Select **Download**. The extension will then be scheduled for install.
 
 4. To complete the installation, close all instances of Visual Studio.
 
@@ -257,8 +333,13 @@ You can remove the extension from the Visual Studio Marketplace and from your co
 
 ### To remove the extension from your computer
 
-1. In Visual Studio, on the **Tools** menu, click **Extensions and Updates**.
+1. In Visual Studio, on the **Tools** menu, select **Extensions and Updates**.
 
-2. Select "MyVsixExtension" and then click **Uninstall**. The extension will then be scheduled for uninstall.
+2. Select "MyVsixExtension" and then select **Uninstall**. The extension will then be scheduled for uninstall.
 
 3. To complete the uninstallation, close all instances of Visual Studio.
+
+## See also
+
+- [Installing the Visual Studio SDK](installing-the-visual-studio-sdk.md)
+- [Create your first extension: Hello World](extensibility-hello-world.md)
