@@ -194,7 +194,7 @@ First, create a user interface (UI) project. The idea is to maximize the space f
      Your new layout is assigned the next keyboard shortcut from the reserved list of **Ctrl**+**Alt**+**1...0** shortcuts.
 
 > [!NOTE]
-> To include the **Git Repository** window in a saved layout, enable **Restore the Git Repository window on restart** under **Tools > Options > Source Control > Git Global Settings** before saving the layout. If you saved a layout while this setting was turned off, open the Git Repository window and save the layout again after enabling it. Enabling the setting doesn't update previously saved layouts.
+> To include the **Git Repository** window in a saved layout, enable **Restore the Git Repository window on restart** under **Tools** > **Options** > **Source Control** > **Git Global Settings** before saving the layout. If you saved a layout while this setting was turned off, open the **Git Repository** window and save the layout again after enabling it. Enabling the setting doesn't update previously saved layouts.
 
 ##### Create a database project and layout
 
