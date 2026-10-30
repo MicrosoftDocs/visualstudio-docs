@@ -3,7 +3,7 @@ title: Get Started with Your New Subscription
 author: joseb-rdc
 ms.author: amast
 ms.manager:  shve
-ms.date: 06/22/2026
+ms.date: 10/30/2026
 ms.topic: how-to
 description: Learn how to get started with your new Visual Studio subscription.
 ---
@@ -40,7 +40,7 @@ Each tab in the portal opens a page that provides capabilities:
 
 ## Benefits
 
-The benefits included in your subscription depend on which subscription you have. Most subscriptions include the Visual Studio IDE, individual Azure credits, and Azure DevOps. Some subscriptions also include benefits such as Pluralsight training, a Microsoft 365 E5 developer subscription, and Microsoft 365 Apps for enterprise. [Learn more about your benefits](https://my.visualstudio.com/Benefits?mkt).
+The benefits included in your subscription depend on which subscription you have. Most subscriptions include the Visual Studio IDE, individual Azure credits, and Azure DevOps. Some subscriptions also include training from providers such as Pluralsight and Cloud Academy, a Microsoft 365 E5 developer subscription, and Microsoft 365 Apps for enterprise. See the **Benefits** tab in the [Visual Studio Subscriptions portal](https://my.visualstudio.com/Benefits?mkt) for the authoritative list of benefits for your subscription level.
 
 ### Visual Studio
 
@@ -65,6 +65,10 @@ The concept of DevOps combines development and operations. DevOps is the union o
 What does DevOps mean for teams? DevOps enables formerly siloed roles (development, IT operations, quality engineering, and security) to coordinate and collaborate for the production of better, more reliable products. When teams adopt a DevOps culture along with DevOps practices and tools, they gain the ability to better respond to customer needs, increase confidence in the applications that they build, and achieve business goals faster.
 
 As an active Visual Studio subscriber, you can use features in the Azure DevOps service that are included with your subscription. You can use these same features in each Azure DevOps organization in which you're a member, whether you created the organization or someone else added you. [Get started with using Azure DevOps](vs-azure-devops.md).
+
+### Training and learning benefits
+
+Depending on your subscription, you might have access to third-party training libraries and hands-on labs from providers such as [Pluralsight](vs-pluralsight.md) and [Cloud Academy](vs-cloud-academy.md). To check whether these benefits are included and activate them, sign in to the [Visual Studio Subscriptions portal](https://my.visualstudio.com/benefits) and select the **Benefits** tab. Training benefits vary by subscription level.
 
 ## Related content
 
