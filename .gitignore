@@ -388,3 +388,12 @@ requirements.txt
 
 # Allow Visual Studio prompts
 !.github/prompts/update-whats-new.prompt.md
+
+# Track the required Knowledge Partnership workflows.
+!.github/workflows/reusable-kp-configuration.yml
+!.github/workflows/reusable-kp-label-event.yml
+!.github/workflows/reusable-kp-reminder.yml
+!.github/workflows/reusable-kp-validate-labels.yml
+!.github/workflows/stale-comment-knowledgepartnership.yml
+!.github/workflows/stale-enroll-knowledgepartnership.yml
+!.github/workflows/stale-reconcile-knowledgepartnership.yml
