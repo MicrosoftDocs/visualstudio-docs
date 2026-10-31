@@ -68,7 +68,7 @@ As an active Visual Studio subscriber, you can use features in the Azure DevOps 
 
 ### Training and learning benefits
 
-Depending on your subscription, you might have access to third-party training libraries and hands-on labs from providers such as [Pluralsight](vs-pluralsight.md) and [Cloud Academy](vs-cloud-academy.md). To check whether these benefits are included and activate them, sign in to the [Visual Studio Subscriptions portal](https://my.visualstudio.com/benefits) and select the **Benefits** tab. Training benefits vary by subscription level.
+Depending on your subscription, you might have access to third-party training libraries and hands-on labs from providers such as [Pluralsight](vs-pluralsight.md) and [Cloud Academy](vs-cloud-academy.md). To check whether your subscription includes these benefits and to activate them, sign in to the [Visual Studio Subscriptions portal](https://my.visualstudio.com/benefits) and select the **Benefits** tab. Training benefits vary by subscription level.
 
 ## Related content
 
