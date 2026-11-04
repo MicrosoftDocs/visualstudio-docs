@@ -1,6 +1,566 @@
 {
   "redirections": [
     {
+      "source_path": "docs/extensibility/visualstudio.extensibility/advanced/compare-extensibility-models.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/advanced/compare-extensibility-models",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/advanced/modernize-theme-colors.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/advanced/modernize-theme-colors",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/advanced/private-galleries.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/advanced/private-galleries",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/advanced/upgrade-and-migrate.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/advanced/upgrade-and-migrate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/diagnostics/visualstudio-extensibility-diagnostics-extension.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/diagnostics/visualstudio-extensibility-diagnostics-extension",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/get-started/create-your-first-extension.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/get-started/create-your-first-extension",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/get-started/debug-extensions.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/get-started/debug-extensions",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/get-started/extension-anatomy.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/get-started/extension-anatomy",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/get-started/install-tools.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/get-started/install-tools",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/how-it-works/activation-constraints.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/how-it-works/activation-constraints",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/how-it-works/advanced-remote-ui.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/how-it-works/advanced-remote-ui",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/how-it-works/contributions-and-configurations.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/how-it-works/contributions-and-configurations",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/how-it-works/dependency-injection.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/how-it-works/dependency-injection",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/how-it-works/dotnet-management-overview.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/how-it-works/dotnet-management-overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/how-it-works/inside-the-sdk.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/how-it-works/inside-the-sdk",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/how-it-works/logging.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/how-it-works/logging",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/how-it-works/models/extensibility-models.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/how-it-works/models/extensibility-models",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/how-it-works/models/extension-anatomy.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/how-it-works/models/extension-anatomy",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/how-it-works/models/in-proc-extensions.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/how-it-works/models/in-proc-extensions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/how-it-works/models/vssdk-and-compatibility.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/how-it-works/models/vssdk-and-compatibility",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/how-it-works/other-remote-ui.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/how-it-works/other-remote-ui",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/how-it-works/remote-ui.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/how-it-works/remote-ui",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/how-it-works/theme-color-token-reference.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/how-it-works/theme-color-token-reference",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/index.yml",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/overview/what-is-vs-extensibility.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/overview/what-is-vs-extensibility",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/recipes/commands/commands.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/recipes/commands/commands",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/recipes/commands/menus-and-toolbars.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/recipes/commands/menus-and-toolbars",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/recipes/documents.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/recipes/documents",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/recipes/editor/codelens.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/recipes/editor/codelens",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/recipes/editor/editor-concepts.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/recipes/editor/editor-concepts",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/recipes/editor/editor-rpc.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/recipes/editor/editor-rpc",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/recipes/editor/editor.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/recipes/editor/editor",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/recipes/editor/margins.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/recipes/editor/margins",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/recipes/editor/syntax-highlighting.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/recipes/editor/syntax-highlighting",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/recipes/editor/taggers.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/recipes/editor/taggers",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/recipes/language-server-provider.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/recipes/language-server-provider",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/recipes/observability/debugger-visualizers.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/recipes/observability/debugger-visualizers",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/recipes/observability/output-window.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/recipes/observability/output-window",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/recipes/observability/status-bar.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/recipes/observability/status-bar",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/recipes/project-concepts.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/recipes/project-concepts",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/recipes/prompts/dialogs.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/recipes/prompts/dialogs",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/recipes/prompts/file-directory-pickers.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/recipes/prompts/file-directory-pickers",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/recipes/prompts/user-prompts.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/recipes/prompts/user-prompts",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/recipes/query-projects.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/recipes/query-projects",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/recipes/settings.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/recipes/settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/recipes/themes-colors-fonts.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/recipes/themes-colors-fonts",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/recipes/tool-windows.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/recipes/tool-windows",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/ship/localize-extensions.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/ship/localize-extensions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/ship/overview.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/ship/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/ship/publish-to-marketplace.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/ship/publish-to-marketplace",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/ship/publish-via-command-line.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/ship/publish-via-command-line",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/ship/sign-vsix-packages.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/ship/sign-vsix-packages",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/ship/vsix-projects.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/ship/vsix-projects",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/how-it-works/editor-concepts.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/recipes/editor/editor-concepts",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/how-it-works/editor-rpc.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/recipes/editor/editor-rpc",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/visualstudio-extensibility.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/overview/what-is-vs-extensibility",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/advanced/vssdk-users.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/how-it-works/models/vssdk-and-compatibility",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/advanced/extension-compatibility.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/how-it-works/models/vssdk-and-compatibility",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/advanced/migrate-from-vssdk.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/advanced/upgrade-and-migrate",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/advanced/upgrade-to-vs2026.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/advanced/upgrade-and-migrate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/advanced/unified-settings.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/recipes/settings",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/other/private-galleries.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/advanced/private-galleries",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/extensibility-models.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/how-it-works/models/extensibility-models",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/dotnet-management-overview.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/how-it-works/dotnet-management-overview",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/command/command.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/recipes/commands/commands",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/command/menus-and-toolbars.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/recipes/commands/menus-and-toolbars",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/command/localize-metadata.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/ship/localize-extensions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/tool-window/tool-window.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/recipes/tool-windows",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/user-prompt/user-prompts.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/recipes/prompts/user-prompts",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/dialog/dialog.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/recipes/prompts/dialogs",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/user-prompt/file-directory-picker-prompts.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/recipes/prompts/file-directory-pickers",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/output-window/output-window.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/recipes/observability/output-window",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/editor/editor.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/recipes/editor/editor",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/editor/walkthroughs/working-with-text.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/recipes/editor/editor",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/editor/walkthroughs/editing-text.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/recipes/editor/editor",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/editor/walkthroughs/textview-margin.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/recipes/editor/margins",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/editor/walkthroughs/codelens.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/recipes/editor/codelens",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/editor/walkthroughs/taggers.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/recipes/editor/taggers",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/editor/walkthroughs/classification.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/recipes/editor/syntax-highlighting",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/editor/editor-concepts.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/recipes/editor/editor-concepts",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/editor/editor-rpc.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/recipes/editor/editor-rpc",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/language-server-provider/language-server-provider.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/recipes/language-server-provider",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/debugger-visualizer/debugger-visualizers.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/recipes/observability/debugger-visualizers",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/project/project.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/recipes/project-concepts",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/project/project-concepts.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/recipes/project-concepts",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/settings/settings.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/recipes/settings",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/document/documents.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/recipes/documents",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/inside-the-sdk/extension-anatomy.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/how-it-works/models/extension-anatomy",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/inside-the-sdk/activation-constraints.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/how-it-works/activation-constraints",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/inside-the-sdk/contributions-and-configurations.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/how-it-works/contributions-and-configurations",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/inside-the-sdk/dependency-injection.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/how-it-works/dependency-injection",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/inside-the-sdk/remote-ui.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/how-it-works/other-remote-ui",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/inside-the-sdk/advanced-remote-ui.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/how-it-works/advanced-remote-ui",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/inside-the-sdk/other-remote-ui.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/how-it-works/other-remote-ui",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/inside-the-sdk/inside-the-sdk.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/how-it-works/inside-the-sdk",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/inside-the-sdk/logging.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/how-it-works/logging",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/publish/publish-overview.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/ship/overview",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/publish/publish-to-marketplace.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/ship/publish-to-marketplace",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/publish/publish-via-command-line.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/ship/publish-via-command-line",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/publish/update-extension.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/ship/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/publish/sign-vsix-packages.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/ship/sign-vsix-packages",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/publish/localize-vsix-packages.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/ship/localize-extensions",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/publish/vsix-package-anatomy.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/ship/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/how-it-works/vsix-package-anatomy.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/ship/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/publish/private-galleries.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/advanced/private-galleries",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/recipes/hybrid/about-hybrid.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/how-it-works/models/in-proc-extensions",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/upgrade/migrate-from-vssdk.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/advanced/upgrade-and-migrate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/upgrade/upgrade-extension.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/advanced/upgrade-and-migrate",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/upgrade/extension-compatibility.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/how-it-works/models/vssdk-and-compatibility",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/upgrade/modernize-theme-colors.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/advanced/modernize-theme-colors",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/get-started/in-proc-extensions.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/how-it-works/models/in-proc-extensions",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/get-started/oop-extensibility-model-overview.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/how-it-works/models/vssdk-and-compatibility",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "docs/ide/reference/proxy-settings.md",
       "redirect_url": "/visualstudio/ide/reference/proxy-firewall-troubleshoot",
       "redirect_document_id": false,
@@ -34,14 +594,14 @@
       "redirect_document_id": false
     },
     {
-       "source_path": "docs/javascript/publish-nodejs-app-azure.md",
-       "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/javascript/publish-nodejs-app-azure",
-       "redirect_document_id": false
+      "source_path": "docs/javascript/publish-nodejs-app-azure.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/javascript/publish-nodejs-app-azure",
+      "redirect_document_id": false
     },
     {
-       "source_path": "docs/javascript/create-application-with-vuejs.md",
-       "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/javascript/create-application-with-vuejs",
-       "redirect_document_id": false
+      "source_path": "docs/javascript/create-application-with-vuejs.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/javascript/create-application-with-vuejs",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/javascript/tutorial-nodejs-with-react-and-jsx.md",
@@ -79,9 +639,9 @@
       "redirect_document_id": false
     },
     {
-       "source_path": "docs/containers/container-tools-react.md",
-       "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/containers/container-tools-react",
-       "redirect_document_id": false
+      "source_path": "docs/containers/container-tools-react.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2019/containers/container-tools-react",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/extensibility/ux-guidelines/per-monitor-awareness-extenders.md",
@@ -119,39 +679,39 @@
       "redirect_document_id": false
     },
     {
-       "source_path": "docs/ide/reference/xaml-designer.md",
-       "redirect_url": "/visualstudio/xaml-tools/xaml-designer",
-       "redirect_document_id": false
+      "source_path": "docs/ide/reference/xaml-designer.md",
+      "redirect_url": "/visualstudio/xaml-tools/xaml-designer",
+      "redirect_document_id": false
     },
     {
-       "source_path": "docs/ide/reference/options-text-editor-xml-formatting.md",
-       "redirect_url": "/visualstudio/xml-tools/options-text-editor-xml-formatting",
-       "redirect_document_id": false
+      "source_path": "docs/ide/reference/options-text-editor-xml-formatting.md",
+      "redirect_url": "/visualstudio/xml-tools/options-text-editor-xml-formatting",
+      "redirect_document_id": false
     },
     {
-       "source_path": "docs/ide/reference/options-text-editor-xml-miscellaneous.md",
-       "redirect_url": "/visualstudio/xml-tools/options-text-editor-xml-formatting",
-       "redirect_document_id": false
+      "source_path": "docs/ide/reference/options-text-editor-xml-miscellaneous.md",
+      "redirect_url": "/visualstudio/xml-tools/options-text-editor-xml-formatting",
+      "redirect_document_id": false
     },
     {
-       "source_path": "docs/ide/reference/options-text-editor-xaml-formatting.md",
-       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-text-editor-xaml-formatting",
-       "redirect_document_id": false
+      "source_path": "docs/ide/reference/options-text-editor-xaml-formatting.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-text-editor-xaml-formatting",
+      "redirect_document_id": false
     },
     {
-       "source_path": "docs/ide/reference/options-text-editor-xaml-miscellaneous.md",
-       "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-text-editor-xaml-miscellaneous",
-       "redirect_document_id": false
+      "source_path": "docs/ide/reference/options-text-editor-xaml-miscellaneous.md",
+      "redirect_url": "/previous-versions/visualstudio/visual-studio-2017/ide/reference/options-text-editor-xaml-miscellaneous",
+      "redirect_document_id": false
     },
     {
-       "source_path": "docs/ide/reference/call-hierarchy.md",
-       "redirect_url": "/visualstudio/ide/call-hierarchy",
-       "redirect_document_id": false
+      "source_path": "docs/ide/reference/call-hierarchy.md",
+      "redirect_url": "/visualstudio/ide/call-hierarchy",
+      "redirect_document_id": false
     },
     {
-       "source_path": "docs/ide/reference/import-and-export-settings-environment-options-dialog-box.md",
-       "redirect_url": "/visualstudio/ide/personalizing-the-visual-studio-ide",
-       "redirect_document_id": false
+      "source_path": "docs/ide/reference/import-and-export-settings-environment-options-dialog-box.md",
+      "redirect_url": "/visualstudio/ide/personalizing-the-visual-studio-ide",
+      "redirect_document_id": false
     },
     {
       "source_path": "docs/ide/reference/command-window.md",
@@ -21578,6 +22138,11 @@
       "source_path": "docs/ide/reference/wrap-indent-align-refactorings.md",
       "redirect_url": "/visualstudio/ide/reference/refactoring-intellisense-formatting#wrap-and-align-call-chains",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "docs/extensibility/visualstudio.extensibility/get-started/tutorial-create-simple-extension.md",
+      "redirect_url": "/visualstudio/extensibility/visualstudio-extensibility/get-started/create-your-first-extension",
+      "redirect_document_id": true
     }
   ]
 }

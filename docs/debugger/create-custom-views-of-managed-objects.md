@@ -38,7 +38,7 @@ In .NET Framework 2.0 code, Visual Basic doesn't support the DebuggerBrowsable a
 
 There are two options to create a visualizer for a .NET type:
 
-- **Using the VisualStudio.Extensibility SDK:** Starting in Visual Studio 2022 version 17.9, Visual Studio ships a new way to create custom visualizers that offers, among other things, simple extension installation, and the ability to target newer versions of .NET. This option is the recommended API, except in cases where the visualizer and the visualized type should ship together, or in cases where an older version of Visual Studio needs to be supported. For more information, see [Create Visual Studio debugger visualizers](../extensibility/visualstudio.extensibility/debugger-visualizer/debugger-visualizers.md).
+- **Using the VisualStudio.Extensibility SDK:** Starting in Visual Studio 2022 version 17.9, Visual Studio ships a new way to create custom visualizers that offers, among other things, simple extension installation, and the ability to target newer versions of .NET. This option is the recommended API, except in cases where the visualizer and the visualized type should ship together, or in cases where an older version of Visual Studio needs to be supported. For more information, see [Create Visual Studio debugger visualizers](../extensibility/visualstudio-extensibility/recipes/observability/debugger-visualizers.md).
 - **Using Microsoft.VisualStudio.DebuggerVisualizers.DialogDebuggerVisualizer:** For more information on this approach, see [Custom visualizers](create-custom-visualizers-of-data.md).
 
 > [!NOTE]

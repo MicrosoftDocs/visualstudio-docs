@@ -145,6 +145,12 @@
       "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
       "branch": "main",
       "branch_mapping": {}
+    },
+    {
+      "path_to_root": "vs-extensibility-samples",
+      "url": "https://github.com/microsoft/VSExtensibility",
+      "branch": "preview_18.12",
+      "branch_mapping": {}
     }
   ],
   "branch_target_mapping": {

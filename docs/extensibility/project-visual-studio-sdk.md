@@ -12,7 +12,7 @@ ms.date: 05/01/2024
 # Query the project API (Visual Studio SDK)
 
 > [!IMPORTANT]
-> This documentation refers to Project Query API functionality for the **Visual Studio SDK**. For VisualStudio.Extensibility API documentation, see [Query the project API](visualstudio.extensibility/project/project.md) for VisualStudio.Extensibility.
+> This documentation refers to Project Query API functionality for the **Visual Studio SDK**. For VisualStudio.Extensibility API documentation, see [Query the project API](visualstudio-extensibility/recipes/project-concepts.md) for VisualStudio.Extensibility.
 
 The Project Query API in the Visual Studio SDK enables querying information from the project system. Project systems are components of Visual Studio that assist users in managing projects, running builds to generate outputs, and testing those outputs.
 
@@ -778,6 +778,6 @@ var projects = workSpace.Projects
 
 ## Next steps
 
-To review keywords and concepts regarding the Project Query API, see [Project Query Concepts](visualstudio.extensibility/project/project-concepts.md).
+To review keywords and concepts regarding the Project Query API, see [Project Query Concepts](visualstudio-extensibility/recipes/project-concepts.md).
 
 Review the code for an extension that uses the Project Query API at [VSProjectQueryAPISample](https://github.com/Microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples/VSProjectQueryAPISample/README.md).

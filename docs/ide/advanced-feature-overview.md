@@ -137,7 +137,7 @@ For full details, see the [Git experience in Visual Studio](../version-control/g
 
 ## Extend Visual Studio
 
-If Visual Studio doesn't have the exact functionality you need, you can add it. Personalize the IDE based on your workflow and style, add support for external tools that aren't integrated with Visual Studio, and modify existing functionality to increase your productivity. For new extension development, start with [VisualStudio.Extensibility](../extensibility/visualstudio.extensibility/visualstudio-extensibility.md). If you need scenarios that aren't yet available there, use the [Visual Studio SDK (VSSDK)](../extensibility/visual-studio-sdk.md). For guidance on choosing a model, see [Choose the right Visual Studio extensibility model for you](../extensibility/visualstudio.extensibility/extensibility-models.md).
+If Visual Studio doesn't have the exact functionality you need, you can add it. Personalize the IDE based on your workflow and style, add support for external tools that aren't integrated with Visual Studio, and modify existing functionality to increase your productivity. For new extension development, start with [VisualStudio.Extensibility](../extensibility/visualstudio-extensibility/overview/what-is-vs-extensibility.md). If you need scenarios that aren't yet available there, use the [Visual Studio SDK (VSSDK)](../extensibility/visual-studio-sdk.md). For guidance on choosing a model, see [Choose the right Visual Studio extensibility model for you](../extensibility/visualstudio-extensibility/how-it-works/models/extensibility-models.md).
 
 You can use the .NET Compiler Platform *Roslyn* to write your own code analyzers and code generators. Find everything you need at [Roslyn](https://github.com/dotnet/Roslyn).
 
@@ -148,7 +148,7 @@ To learn more about extending Visual Studio, see [Extend Visual Studio IDE](http
 ## Related content
 
 - [Visual Studio SDK](../extensibility/visual-studio-sdk.md)
-- [VisualStudio.Extensibility](../extensibility/visualstudio.extensibility/visualstudio-extensibility.md)
+- [VisualStudio.Extensibility](../extensibility/visualstudio-extensibility/overview/what-is-vs-extensibility.md)
 - [Roslyn](https://github.com/dotnet/Roslyn)
 - [Visual Studio IDE overview](../get-started/visual-studio-ide.md)
 - [What's new in Visual Studio docs](whats-new-visual-studio-docs.md)
