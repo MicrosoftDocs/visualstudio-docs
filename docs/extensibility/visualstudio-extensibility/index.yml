@@ -1,0 +1,122 @@
+### YamlMime:Landing
+
+title: Visual Studio Extensibility
+summary: Build extensions that customize and enhance the Visual Studio IDE.
+
+metadata:
+  title: Visual Studio Extensibility
+  description: Build extensions for Visual Studio — add commands, tool windows, editor features, and more. Get started with the Visual Studio Extensibility SDK.
+  ms.topic: landing-page
+  ms.date: 07/27/2026
+  author: tinaschrepfer
+  ms.author: tinali
+  monikerRange: ">=vs-2022"
+  manager: ansonh
+  
+  ms.subservice: extensibility-integration  
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
+
+landingContent: 
+  # Card
+  - title: Overview
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: What is Visual Studio extensibility?
+            url: ./overview/what-is-vs-extensibility.md
+          - text: Choose your extensibility approach
+            url: ./how-it-works/models/extensibility-models.md
+          - text: Extension project anatomy
+            url: ./get-started/extension-anatomy.md
+
+  # Card
+  - title: Get started
+    linkLists:
+      - linkListType: get-started
+        links:
+          - text: Install the tools
+            url: ./get-started/install-tools.md
+          - text: Create your first extension
+            url: ./get-started/create-your-first-extension.md
+          - text: Debug an extension
+            url: ./get-started/debug-extensions.md
+
+  # Card
+  - title: How-to
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: Commands
+            url: ./recipes/commands/commands.md
+          - text: Tool windows
+            url: ./recipes/tool-windows.md
+          - text: Themes, colors, and fonts
+            url: ./recipes/themes-colors-fonts.md
+          - text: User prompts and dialogs
+            url: ./recipes/prompts/user-prompts.md
+          - text: Editor extensions
+            url: ./recipes/editor/editor.md
+          - text: Language Server Provider
+            url: ./recipes/language-server-provider.md
+          - text: Debugger visualizers
+            url: ./recipes/observability/debugger-visualizers.md
+          - text: Query projects and solutions
+            url: ./recipes/query-projects.md
+          - text: Settings and options
+            url: ./recipes/settings.md
+
+  # Card
+  - title: Ship your extension
+    linkLists:
+      - linkListType: deploy
+        links:
+          - text: Ship overview
+            url: ./ship/overview.md
+          - text: Publish to the Marketplace
+            url: ./ship/publish-to-marketplace.md
+          - text: Sign VSIX packages
+            url: ./ship/sign-vsix-packages.md
+      - linkListType: concept
+        links:
+          - text: Localize extensions
+            url: ./ship/localize-extensions.md
+
+  # Card
+  - title: Concepts
+    linkLists:
+      - linkListType: concept
+        links:
+          - text: Out-of-process architecture
+            url: ./how-it-works/inside-the-sdk.md
+          - text: Remote UI
+            url: ./how-it-works/remote-ui.md
+          - text: Activation constraints
+            url: ./how-it-works/activation-constraints.md
+          - text: Contributions and configurations
+            url: ./how-it-works/contributions-and-configurations.md
+          - text: Dependency injection
+            url: ./how-it-works/dependency-injection.md
+          - text: Editor concepts
+            url: ./recipes/editor/editor-concepts.md
+          - text: In-process extensions (VSSDK)
+            url: ./how-it-works/models/in-proc-extensions.md
+
+  # Card
+  - title: Resources
+    linkLists:
+      - linkListType: sample
+        links:
+          - text: Samples on GitHub
+            url: https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples
+      - linkListType: reference
+        links:
+          - text: API reference
+            url: https://learn.microsoft.com/dotnet/api/microsoft.visualstudio.extensibility
+          - text: VSIX Cookbook
+            url: https://www.vsixcookbook.com/
+          - text: Extensibility on Visual Studio Blog
+            url: https://devblogs.microsoft.com/visualstudio/tag/extensions/
+          - text: Issues
+            url: https://github.com/Microsoft/VSExtensibility/issues
+
