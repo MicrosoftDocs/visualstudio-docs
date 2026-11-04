@@ -64,7 +64,7 @@ Whether you're writing your first "Hello World" program or deploying enterprise 
 - AI-assisted development. Write, debug, and test code faster with [GitHub Copilot](../ide/visual-studio-github-copilot-extension.md).
 - Workload-based installer. Install only the components you need.
 - Integrated version control. Clone, branch, commit, and review pull requests by using built-in Git tooling.
-- Extensible platform. Customize your IDE with extensions from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/), or [build your own](../extensibility/visualstudio.extensibility/get-started/create-your-first-extension.md).
+- Extensible platform. Customize your IDE with extensions from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/), or [build your own](../extensibility/visualstudio-extensibility/get-started/create-your-first-extension.md).
 
 ## Discover Visual Studio
 
