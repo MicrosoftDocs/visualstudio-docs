@@ -12,7 +12,7 @@
   - name: 'Create your First Extension: Hello World'
     href: extensibility-hello-world.md
   - name: VisualStudio.Extensibility SDK (Preview) >>
-    href: ./visualstudio.extensibility/index.yml
+    href: ./visualstudio-extensibility/index.yml
   - name: Upgrade extensions for Visual Studio
     items:
     - name: Upgrade an extension
@@ -850,4 +850,3 @@
       href: roslyn-analyzers-and-code-aware-library-for-immutablearrays.md
     - name: Roslyn package version reference
       href: roslyn-version-support.md
-

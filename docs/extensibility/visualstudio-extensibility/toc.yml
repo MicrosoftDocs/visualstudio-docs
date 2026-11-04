@@ -1,0 +1,170 @@
+items:
+- name: Visual Studio Extensibility SDK
+  href: index.yml
+
+# ── OVERVIEW ──
+- name: Overview
+  items:
+  - name: What is Visual Studio extensibility?
+    href: ./overview/what-is-vs-extensibility.md
+  - name: Choose the right extensibility model
+    href: ./how-it-works/models/extensibility-models.md
+  - name: Extension project anatomy
+    href: ./get-started/extension-anatomy.md
+  expanded: true
+
+# ── GETTING STARTED ──
+- name: Getting started
+  items:
+  - name: Install the tools
+    href: ./get-started/install-tools.md
+  - name: Create your first extension
+    href: ./get-started/create-your-first-extension.md
+  - name: Debug and test your extension
+    href: ./get-started/debug-extensions.md
+
+# ── HOW-TO ──
+- name: How-to
+  items:
+  - name: Commands
+    items:
+    - name: Add a command
+      href: ./recipes/commands/commands.md
+    - name: Menus and toolbars
+      href: ./recipes/commands/menus-and-toolbars.md
+    - name: Localize command metadata
+      href: ./ship/localize-extensions.md
+  - name: Tool windows
+    href: ./recipes/tool-windows.md
+  - name: Editor
+    items:
+    - name: Read and edit text
+      href: ./recipes/editor/editor.md
+    - name: Editor margins
+      href: ./recipes/editor/margins.md
+    - name: CodeLens
+      href: ./recipes/editor/codelens.md
+    - name: Taggers and classification
+      href: ./recipes/editor/taggers.md
+    - name: Syntax highlighting
+      href: ./recipes/editor/syntax-highlighting.md
+  - name: Dialogs and prompts
+    items:
+    - name: User prompts
+      href: ./recipes/prompts/user-prompts.md
+    - name: Dialogs
+      href: ./recipes/prompts/dialogs.md
+    - name: File and folder pickers
+      href: ./recipes/prompts/file-directory-pickers.md
+  - name: Language Server Provider
+    href: ./recipes/language-server-provider.md
+  - name: Query the project API
+    href: ./recipes/query-projects.md
+  - name: Debugger visualizers
+    href: ./recipes/observability/debugger-visualizers.md
+  - name: Settings and options
+    href: ./recipes/settings.md
+  - name: External settings providers
+    href: ./recipes/external-settings.md
+  - name: Output and status
+    items:
+    - name: Output window
+      href: ./recipes/observability/output-window.md
+    - name: Status bar
+      href: ./recipes/observability/status-bar.md
+  - name: Themes and colors
+    href: ./recipes/themes-colors-fonts.md
+  - name: Documents
+    href: ./recipes/documents.md
+  - name: Diagnostics Explorer
+    href: ./diagnostics/visualstudio-extensibility-diagnostics-extension.md
+
+# ── SHIP YOUR EXTENSION ──
+- name: Ship your extension
+  items:
+  - name: Overview
+    href: ./ship/overview.md
+  - name: Modern VSIX Project Template
+    href: ./ship/create-vsix-with-project-sdk.md
+  - name: VSIX packaging (older projects)
+    href: ./ship/vsix-projects.md
+  - name: Publish to the Marketplace
+    href: ./ship/publish-to-marketplace.md
+  - name: Publish multiple VSIX payloads in one Marketplace entry
+    href: ./ship/publish-multiple-payloads.md
+  - name: Publish via command line
+    href: ./ship/publish-via-command-line.md
+  - name: Sign VSIX packages
+    href: ./ship/sign-vsix-packages.md
+  - name: Localize your extension
+    href: ./ship/localize-extensions.md
+
+# ── CONCEPTUAL DOCS ──
+- name: Conceptual docs
+  items:
+  - name: Extension anatomy and lifecycle
+    href: ./how-it-works/models/extension-anatomy.md
+  - name: Out-of-process architecture
+    href: ./how-it-works/inside-the-sdk.md
+  - name: Remote UI
+    items:
+    - name: Remote UI overview
+      href: ./how-it-works/remote-ui.md
+    - name: Advanced Remote UI
+      href: ./how-it-works/advanced-remote-ui.md
+    - name: Remote UI patterns
+      href: ./how-it-works/other-remote-ui.md
+  - name: Activation constraints
+    href: ./how-it-works/activation-constraints.md
+  - name: Contributions and configurations
+    href: ./how-it-works/contributions-and-configurations.md
+  - name: Dependency injection
+    href: ./how-it-works/dependency-injection.md
+  - name: Logging and diagnostics
+    href: ./how-it-works/logging.md
+  - name: Editor concepts
+    href: ./recipes/editor/editor-concepts.md
+  - name: Editor RPC support
+    href: ./recipes/editor/editor-rpc.md
+  - name: Project query concepts
+    href: ./recipes/project-concepts.md
+
+# ── ADVANCED ──
+- name: Advanced
+  items:
+  - name: Detailed model comparison
+    href: ./advanced/compare-extensibility-models.md
+  - name: Managing extension .NET targets
+    href: ./how-it-works/dotnet-management-overview.md
+  - name: Migrate from VSSDK
+    href: ./advanced/upgrade-and-migrate.md
+  - name: Migrate a VSIX project to the project SDK
+    href: ./advanced/migrate-vsix-to-project-sdk.md
+  - name: Theme color token reference
+    href: ./how-it-works/theme-color-token-reference.md
+  - name: Modernize theme colors
+    href: ./advanced/modernize-theme-colors.md
+  - name: Private extension galleries
+    href: ./advanced/private-galleries.md
+  - name: Common controls reference
+    href: ./advanced/common-controls.md
+  - name: Resources and references
+    items:
+    - name: VisualStudio.Extensibility API reference >>
+      href: /dotnet/api/microsoft.visualstudio.extensibility
+    - name: VisualStudio.Extensibility samples >>
+      href: https://github.com/microsoft/VSExtensibility/tree/main/New_Extensibility_Model/Samples
+    - name: Visual Studio SDK (VSSDK) documentation >>
+      href: /visualstudio/extensibility/visual-studio-sdk
+    - name: In-process (hybrid) extensions
+      href: ./how-it-works/models/in-proc-extensions.md
+    - name: VSSDK compatibility
+      href: ./how-it-works/models/vssdk-and-compatibility.md
+    - name: .NET Compiler Platform (Roslyn) >>
+      href: /visualstudio/extensibility/dotnet-compiler-platform-roslyn-extensibility
+    - name: Visual Studio C++ extensibility >>
+      href: /visualstudio/extensibility/visual-cpp-project-extensibility
+    - name: VSSDK menus and commands reference >>
+      href: /visualstudio/extensibility/extending-menus-and-commands
+    - name: Custom project and item templates >>
+      href: /visualstudio/extensibility/creating-custom-project-and-item-templates

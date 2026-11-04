@@ -299,7 +299,7 @@ model applies when writing extensibility content.
 - NuGet package: `Microsoft.VisualStudio.Extensibility`
 - Runs out-of-process for stability
 - Preferred for all new extensions
-- Docs: `docs/extensibility/visualstudio.extensibility/`
+- Docs: `docs/extensibility/visualstudio-extensibility/`
 
 ### VSSDK (Legacy, in-process)
 - NuGet package: `Microsoft.VisualStudio.SDK`
