@@ -129,7 +129,6 @@ Forums let you interact with other developers, and also Microsoft employees. If 
 Here's a list of forum resources:
 
 - [Visual Studio on Q&A](/answers/products/vs/)
-- [Visual Studio MSDN Forum](https://social.msdn.microsoft.com/Forums/vstudio)
 - [Stack Overflow](https://stackoverflow.com/search?q=%22visual+studio%22)
 
 ##  Feedback and additional support
