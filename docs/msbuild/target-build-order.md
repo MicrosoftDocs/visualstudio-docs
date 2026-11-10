@@ -13,7 +13,7 @@ ms.subservice: msbuild
 
 # Target build order
 
-Targets must be ordered if the input to one target depends on the output of another target. You can use these attributes to specify the order in which targets are run:
+Targets must specify order relationships if the input to one target depends on the output of another target. The order of the `Target` elements in the XML doesn't determine execution order. Use these attributes to specify the order in which targets run:
 
 - `InitialTargets`. This `Project` attribute specifies the targets that will run first, even if targets are specified on the command line or in the `DefaultTargets` attribute.
 
@@ -21,9 +21,7 @@ Targets must be ordered if the input to one target depends on the output of anot
 
 - `DependsOnTargets`. This `Target` attribute specifies targets that must run before this target can run.
 
-- `BeforeTargets` and `AfterTargets`. These `Target` attributes specify that this target should run before or after the specified targets.
-
-In general, you shouldn't depend on the declaration order to specify what tasks run before other tasks.
+- `BeforeTargets` and `AfterTargets`. These `Target` attributes specify that this target should run before or after the specified targets, if they run.
 
 A target is never run twice during a build, even if a subsequent target in the build depends on it. Once a target has been run, its contribution to the build is complete.
 
@@ -75,8 +73,11 @@ Targets can describe dependency relationships with each other. The `DependsOnTar
 <Target Name="Serve" DependsOnTargets="Chop;Cook" />
 ```
 
-tells MSBuild that the `Serve` target depends on the `Chop` target and the `Cook` target. MSBuild runs the `Chop` target, and then runs the `Cook` target before it runs the `Serve` target.
+tells MSBuild that the `Serve` target depends on the `Chop` target and the `Cook` target. MSBuild ensures that both the `Chop` target and the `Cook` target run before it runs the `Serve` target.
 
+> [!CAUTION]
+> Order within `DependsOnTargets` is considered when running targets, but it doesn't provide a guarantee. The build engine considers `DependsOnTargets`, `BeforeTargets`, and `AfterTargets` specified for each target. In the preceding example, if neither `Chop` nor `Cook` specifies any dependencies, `Chop` runs first, but it's possible for `Cook` to run first. If `Chop` specifies `DependsOnTargets="Cook"`, the order would be `Cook;Chop;Serve`.
+> 
 > [!NOTE]
 > The standard targets in the SDK define a number of `DependsOn` properties that contain the list of targets that are dependencies for that target (for example, `$(BuildDependsOn)`, `$(CleanDependsOn)`, and so on). For example,
 >
@@ -86,7 +87,7 @@ tells MSBuild that the `Serve` target depends on the `Chop` target and the `Cook
 
 ## BeforeTargets and AfterTargets
 
-You can specify target order by using the `BeforeTargets` and `AfterTargets` attributes.
+You can specify target order by using the `BeforeTargets` and `AfterTargets` attributes. These attributes allow you to augment build logic you don't directly control, such as the .NET SDK or MSBuild’s [default build targets](./msbuild-targets.md#sdk-and-default-build-targets).
 
 Consider the following script.
 
@@ -118,6 +119,50 @@ Alternately, specify the order as
 ```
 
 It isn't useful to specify *both* `BeforeTargets` and `AfterTargets` on the same target. As described in the next section, only the first target encountered will cause the new target to run.
+
+## Choosing between `AfterTargets` and `DependsOnTargets`
+
+`DependsOnTargets` and `AfterTargets` have different behavior. The differences involve what happens when targets aren't built, and what happens when you specify multiple targets.
+
+If a target produces data that your target depends on, specify it in `DependsOnTargets`. That ensures that **every** target specified in `DependsOnTargets` runs before your target.
+
+Use `AfterTargets` to run your target any time the specified target runs or is skipped. If you specify multiple targets, your target follows the *first* one that runs (or is skipped).
+
+If your target runs (or is skipped) first because of other dependencies or an explicit request, the targets you specify in `AfterTargets` **aren't guaranteed to run**. You can observe this behavior with a project like
+
+```xml
+<Project DefaultTargets="Default;After1">
+  <Target Name="Default" AfterTargets="After1">
+    <Warning Text="Default" />
+  </Target>
+  <Target Name="After1">
+    <Warning Text="After1" />
+  </Target>
+  <Target Name="After2" AfterTargets="Default">
+    <Warning Text="After2" />
+  </Target>
+</Project>
+```
+
+which emits
+
+```text
+warning : Default
+warning : After2
+warning : After1
+```
+
+because `Default` doesn't have a `DependsOnTargets` attribute and isn't named in any `BeforeTargets`, so it can run immediately when `DefaultTargets` requests it. When it runs, `After2`'s `AfterTargets` causes it to run. Then `Default` is complete, so the next target to run is `After1` from `DefaultTargets`. `Default`'s `AfterTargets` doesn't do anything in this build because `Default` already ran and can't run again.
+
+In some cases, it makes sense to specify a target or targets in _both_ `AfterTargets` and `DependsOnTargets`.
+
+```xml
+<Target Name="SpecifiesBoth"
+        AfterTargets="A;B;C"
+        DependsOnTargets="A;B;C" />
+```
+
+In this example, `SpecifiesBoth` runs if _any_ of `A`, `B`, or `C` runs, and ensures that all of `A`, `B`, and `C` run before `SpecifiesBoth`.
 
 ## Determine the target build order
 
