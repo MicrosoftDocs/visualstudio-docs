@@ -76,8 +76,8 @@ Targets can describe dependency relationships with each other. The `DependsOnTar
 tells MSBuild that the `Serve` target depends on the `Chop` target and the `Cook` target. MSBuild ensures that both the `Chop` target and the `Cook` target run before it runs the `Serve` target.
 
 > [!CAUTION]
-> Order within `DependsOnTargets` is considered when running targets, but it does not provide a guarantee. The build engine will consider `DependsOnTargets`, `BeforeTargets`, and `AfterTargets` specified for each target. In the example above, if neither `Chop` nor `Cook` specifies any dependencies, `Chop` will run first, but it's possible for `Cook` to run first, for example if `Chop` specifies `DependsOnTargets="Cook"`.
-
+> Order within `DependsOnTargets` is considered when running targets, but it doesn't provide a guarantee. The build engine considers `DependsOnTargets`, `BeforeTargets`, and `AfterTargets` specified for each target. In the preceding example, if neither `Chop` nor `Cook` specifies any dependencies, `Chop` runs first, but it's possible for `Cook` to run first. If `Chop` specifies `DependsOnTargets="Cook"`, the order would be `Cook;Chop;Serve`.
+> 
 > [!NOTE]
 > The standard targets in the SDK define a number of `DependsOn` properties that contain the list of targets that are dependencies for that target (for example, `$(BuildDependsOn)`, `$(CleanDependsOn)`, and so on). For example,
 >
@@ -124,7 +124,7 @@ It isn't useful to specify *both* `BeforeTargets` and `AfterTargets` on the same
 
 `DependsOnTargets` and `AfterTargets` have different behavior. The differences involve what happens when targets aren't built, and what happens when you specify multiple targets.
 
-If a target produces data that your target depends on, you should specify it in `DependsOnTargets`. **Every** target specified in `DependsOnTargets` will be run before your target.
+If a target produces data that your target depends on, specify it in `DependsOnTargets`. That ensures that **every** target specified in `DependsOnTargets` runs before your target.
 
 Use `AfterTargets` to run your target any time the specified target runs or is skipped. If you specify multiple targets, your target follows the *first* one that runs (or is skipped).
 
