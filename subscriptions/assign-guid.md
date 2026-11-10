@@ -3,7 +3,7 @@ title: Assign specific subscription GUIDs in the Visual Studio Subscriptions Adm
 author: a-haage
 ms.author: amast
 ms.manager: madownie
-ms.date: 11/05/2026
+ms.date: 11/10/2026
 ms.topic: how-to
 description: Learn how admins can assign specific subscription GUID to users.
 ms.custom: sfi-image-nochange
@@ -15,7 +15,7 @@ As a Visual Studio Subscription administrator, you can choose which available su
 
 When you assign a subscription through the standard process, you select a subscription level, and the Admin Portal manages the assignment. In most cases, you don't need to select a specific GUID.
 
-However, assigning a specific GUID gives you more control over how your organization's available subscriptions are used. For example, you might want to assign a previously used subscription to a contractor who needs access for a limited period, while reserving unused subscriptions for a longer-term employee.
+However, assigning a specific GUID gives you more control over how your organization's available subscriptions are used. For example, you might want to assign a partially used subscription to a contractor who needs access for a limited period, while reserving unused subscriptions for a longer-term employee.
 
 This article explains when to use specific GUID assignments, what to consider before reassigning a previously used subscription, and how to complete the process in the Admin Portal.
 
@@ -92,8 +92,6 @@ The export includes subscription identifiers, assignment information, subscripti
 4. Check the subscription level and expiration date.
 
 5. Copy the GUID for the subscriptions you want to assign.
-
-If the subscription was previously used, confirm that it's eligible for reassignment.
 
 **Step 3: Assign the GUID by using Bulk add**
 
