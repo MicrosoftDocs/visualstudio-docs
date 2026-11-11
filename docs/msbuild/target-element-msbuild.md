@@ -59,8 +59,8 @@ Contains a set of tasks for MSBuild to execute sequentially.
 |`Returns`|Optional attribute.<br /><br /> The set of items that will be made available to tasks that invoke this target, for example, MSBuild tasks. Multiple targets are separated by semicolons. If the targets in the file have no `Returns` attributes, the Outputs attributes are used instead for this purpose.|
 |`KeepDuplicateOutputs`|Optional Boolean attribute.<br /><br /> If `true`, multiple references to the same item in the target's Returns are recorded.  By default, this attribute is `false`.|
 |`BeforeTargets`|Optional attribute.<br /><br /> A semicolon-separated list of target names.  When specified, indicates that this target should run before the specified target or targets. This lets the project author extend an existing set of targets without modifying them directly. For more information, see [Target build order](../msbuild/target-build-order.md).|
-|`AfterTargets`|Optional attribute.<br /><br /> A semicolon-separated list of target names. When specified, indicates that this target should run after the specified target or targets. This lets the project author extend an existing set of targets without modifying them directly. For more information, see [Target build order](../msbuild/target-build-order.md).|
-|`DependsOnTargets`|Optional attribute.<br /><br /> The targets that must be executed before this target can be executed or top-level dependency analysis can occur. Multiple targets are separated by semicolons.|
+|`AfterTargets`|Optional attribute.<br /><br /> A semicolon-separated list of target names. When specified, indicates that this target should run after the specified target *if the specified target runs* or is skipped (if multiple targets are specified, after the *first* of the specified targets that runs or is skipped). Specifying a target in `AfterTargets` does not guarantee that the specified target will run first. `AfterTargets` lets a project author extend an existing set of targets without modifying them directly. For more information, see [Target build order](../msbuild/target-build-order.md).|
+|`DependsOnTargets`|Optional attribute.<br /><br /> The targets that must be executed before this target can be executed or top-level dependency analysis can occur. Multiple targets are separated by semicolons. For more information, see [Target build order](../msbuild/target-build-order.md).|
 |`Label`|Optional attribute.<br /><br /> An identifier that can identify or order system and user elements.|
 
 ### Child elements
@@ -80,7 +80,7 @@ Contains a set of tasks for MSBuild to execute sequentially.
 
 ## Remarks
 
- The first target to execute is specified at run time. Targets can have dependencies on other targets. For example, a target for deployment depends on a target for compilation. The MSBuild engine executes dependencies in the order in which they appear in the `DependsOnTargets` attribute, from left to right. For more information, see [Targets](../msbuild/msbuild-targets.md).
+ The first target to execute is specified at run time. Targets can have dependencies on other targets. For example, a target for deployment depends on a target for compilation. The MSBuild engine executes dependencies in the order in which they appear in the `DependsOnTargets` attribute, from left to right, but processing each dependency's dependencies can change that order. For more information, see [Targets](../msbuild/msbuild-targets.md).
 
  MSBuild is import-order dependent, and the last definition of a target with a specific `Name` attribute is the definition used.
 
