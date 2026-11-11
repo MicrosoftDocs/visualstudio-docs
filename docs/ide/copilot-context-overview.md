@@ -9,7 +9,7 @@ ms.author: madsk
 
 ms.subservice: ai-tools
 ms.collection: ce-skilling-ai-copilot 
-ms.ai-usage: ai-assisted
+ai-usage: ai-assisted
 ms.custom: awp-ai
 monikerRange: '>= vs-2022'
 ---
