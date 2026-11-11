@@ -16,7 +16,7 @@ ms.author: madsk
 
 ms.subservice: general-ide
 ms.custom: awp-ai
-ms.ai-usage: ai-assisted
+ai-usage: ai-assisted
 ---
 # Configure Windows Forms Designer options in Visual Studio
 
