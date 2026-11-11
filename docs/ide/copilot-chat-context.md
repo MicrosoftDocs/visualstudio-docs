@@ -12,7 +12,7 @@ helpviewer_keywords:
   - copilot chat context
   - context, copilot chat
 ms.custom: "awp-ai, sfi-image-nochange"
-ms.ai-usage: ai-assisted
+ai-usage: ai-assisted
 ---
 # Customize chat responses and set context
 
