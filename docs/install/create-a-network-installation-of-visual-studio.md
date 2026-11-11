@@ -97,13 +97,12 @@ The recommended approach is to create an initial layout of Visual Studio with al
 
   ```vs_enterprise.exe --layout c:\VSLayout```
   
-::: moniker range=">=vs-2022"
 <!-- paused -->
 ### Ensure your layout is based off of the correct channel
 
-It's important to ensure that the network layout is based on the correct [channel](/visualstudio/releases/2022/release-rhythm-vs2022). This is because the channel is one of the criteria that [administrator updates](applying-administrator-updates.md) use, when deployed throughout the organization, to identify which client instances should be updated. For example, if your layout is based on the VisualStudio.17.Release.LTSC.17.0 channel and if your clients are configured to receive updates from Microsoft-hosted servers, then any security updates released on the 17.0 LTSC channel will be available to the clients that installed or updated from that layout. 
-
 ::: moniker range="vs-2022"
+
+It's important to ensure that the network layout is based on the correct [channel](/visualstudio/releases/2022/release-rhythm-vs2022). This is because the channel is one of the criteria that [administrator updates](applying-administrator-updates.md) use, when deployed throughout the organization, to identify which client instances should be updated. For example, if your layout is based on the VisualStudio.17.Release.LTSC.17.0 channel and if your clients are configured to receive updates from Microsoft-hosted servers, then any security updates released on the 17.0 LTSC channel will be available to the clients that installed or updated from that layout.
 
 The bootstrappers listed previously are based off of the Current channel. To create a layout based off of one of the LTSC channels, acquire the correct channel's bootstrapper from the [Visual Studio 2022 Release History](/visualstudio/releases/2022/release-history#release-dates-and-build-numbers) page, copy it into your layout folder, and use it to create or update the layout.
 
@@ -111,11 +110,11 @@ The bootstrappers listed previously are based off of the Current channel. To cre
 
 ::: moniker range="visualstudio"
 
+It's important to ensure that the network layout is based on the correct [channel](/visualstudio/releases/2026/release-rhythm). This is because the channel is one of the criteria that [administrator updates](applying-administrator-updates.md) use to identify which client instances should be updated.
+
 For a Visual Studio 2026 LTSC 18.11 layout, download the LTSC 18.11 bootstrapper from the [Visual Studio 2026 Release History](/visualstudio/releases/2026/release-history#release-dates-and-build-numbers) page and use it to create or update the layout. Using the LTSC 18.11 bootstrapper keeps the layout on that channel so clients can receive its updates.
 
 The Stable channel continues to receive feature and quality updates. Visual Studio 2026 LTSC 18.11 receives security and critical fixes only.
-
-::: moniker-end
 
 ::: moniker-end
 
@@ -284,19 +283,19 @@ An administrator update doesn't initiate the creation of a new layout; it only u
 
 ::: moniker-end
 
-::: moniker range=">=vs-2022"
-
 ### Ensuring your network layout is based off of a supported version
+
+::: moniker range="vs-2022"
 
 Occasionally, as channels transition out of support, you need to ensure that the network layout continues to be based on a supported channel so that your clients can continue to receive notifications of security updates. If your layout is based on the VisualStudio.17.Release.LTSC.17.0 channel, then once the 17.0 LTSC channel goes out of support in July 2023, we won't release any more security updates to it and your layout and clients will become insecure. [Support dates for various Visual Studio 2022 channels can be found here](/visualstudio/releases/2022/release-history#evergreen-bootstrappers).
 
 To change the channel that the layout is based off of, acquire the desired channel's bootstrapper from the [Visual Studio 2022 Release History](/visualstudio/releases/2022/release-history#release-dates-and-build-numbers) page, copy it into your layout folder, and perform a normal update. Your clients should then be appropriately notified of an update so they are able to stay secure too.
 
+::: moniker-end
+
 ::: moniker range="visualstudio"
 
-Visual Studio 2026 LTSC 18.11 is supported for two years, through November 14, 2028. For current support dates, see the [Visual Studio 2026 Release History](/visualstudio/releases/2026/release-history#release-dates-and-build-numbers) and [Visual Studio product lifecycle and servicing](/visualstudio/releases/2026/servicing-v).
-
-::: moniker-end
+Visual Studio 2026 LTSC 18.11 is supported for two years, through November 14, 2028. For current support dates, see the [Visual Studio 2026 Release History](/visualstudio/releases/2026/release-history#release-dates-and-build-numbers) and [Visual Studio product lifecycle and servicing](/visualstudio/releases/2026/servicing-vs#enterprise-professional-and-build-tools-editions-support).
 
 ::: moniker-end
 
