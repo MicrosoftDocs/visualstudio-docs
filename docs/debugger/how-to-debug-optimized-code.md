@@ -25,7 +25,7 @@ ms.subservice: debug-diagnostics
 
 This article explains which compiler switches to set to enable you to debug optimized code better.
 
-A better experience is available starting in Visual Studio 2022 version 17.14 that allows you to debug optimized code as if it were compiled unoptimized, while retaining the speed of optimized code. For more information, see [C++ Dynamic Debugging (Preview)](cpp-dynamic-debugging.md).
+Starting in Visual Studio 2022 version 17.14, you can debug optimized code as if it were compiled unoptimized, while retaining the speed of optimized code. For more information, see [C++ Dynamic Debugging](cpp-dynamic-debugging.md).
 
 > [!NOTE]
 > The dialog boxes and menu commands you see might differ from those described in Help depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset all settings](../ide/personalizing-the-visual-studio-ide.md#reset-all-settings).
