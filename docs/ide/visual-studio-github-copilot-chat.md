@@ -1,7 +1,7 @@
 ---
 title: About GitHub Copilot Chat in Visual Studio
 description: Learn about the fully integrated GitHub Copilot Chat in Visual Studio. Use chat to ask coding-related questions from right within the IDE.
-ms.date: 05/14/2026
+ms.date: 11/10/2026
 ms.update-cycle: 180-days
 ms.topic: overview 
 ai-usage: ai-assisted
@@ -19,9 +19,21 @@ monikerRange: '>= vs-2022'
 
 In this article, you learn about using Copilot Chat in Visual Studio, a fully integrated AI-powered chat experience from [GitHub Copilot](visual-studio-github-copilot-extension.md) within the Visual Studio IDE. With the extension, you get coding information and support, such as syntax, programming concepts, context-specific code help, test cases, debugging, and more, without leaving the IDE. [Use the chat interface](#use-copilot-chat-in-visual-studio) to submit your question as a prompt and [set intent](copilot-chat-context.md) for better scoped answers.
 
-Copilot Chat includes multiple interaction modes. Use Ask mode for questions and answers, and Agent mode for task-oriented, multi-step workflows. Starting in Visual Studio 2026 version 18.11, the new chat experience uses a shared Copilot SDK foundation also used by the Copilot CLI and GitHub Copilot app. For mode-specific guidance, see [Ask mode](#ask-questions-in-the-chat-window) and [Agent mode](copilot-agent-mode.md).
+Copilot Chat includes multiple interaction modes. Use Ask mode for questions and answers, and Agent mode for task-oriented, multi-step workflows. Starting in Visual Studio 2026 version 18.12, Copilot Chat runs on the Microsoft Copilot harness, which uses the Microsoft Copilot SDK. This experience is enabled by default and aligns the underlying technology with GitHub Copilot CLI, the GitHub Copilot app, and Visual Studio Code. In version 18.11, the new experience was available as an opt-in. For mode-specific guidance, see [Ask mode](#ask-questions-in-the-chat-window) and [Agent mode](copilot-agent-mode.md).
 
 For more information on the GitHub Copilot completions in Visual Studio, see [About GitHub Copilot completions for Visual Studio](visual-studio-github-copilot-extension.md).
+
+## What's different in the new Copilot chat experience?
+
+The new experience adds several capabilities to Copilot Chat:
+
+- Steer a task while it's running, or cancel a pending message.
+- Follow progress step by step, including executed commands and their results. Live subagent cards show each subagent's model and steps.
+- Set a working directory for a chat session or attach folders outside the solution to provide more context.
+- Use additional built-in agent slash commands, such as `/security-review` and `/rubber-duck`. For more information about slash commands, see [Use slash commands to set context for common tasks](copilot-chat-context.md#slash-commands).
+- Get shorter, more focused responses and see the credit cost for each request.
+
+For detailed workflows, see [Get started with GitHub Copilot agent mode](copilot-agent-mode.md).
 
 ## Why use Copilot Chat in Visual Studio?
 
@@ -57,7 +69,7 @@ GitHub Copilot isn't included in Visual Studio Subscriptions. Instead, it's a se
 
 ## Enable the new Copilot chat experience
 
-Starting in Visual Studio 2026 version 18.11, you can enable the new Copilot chat experience.
+Starting in Visual Studio 2026 version 18.12, the new Copilot chat experience is enabled by default. In version 18.11, enable it manually:
 
 1. Go to **Tools** > **Options**.
 1. Go to **GitHub** > **Copilot** > **Copilot Chat**.
