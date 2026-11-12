@@ -40,7 +40,6 @@ Each built-in agent focuses on a specific developer workflow. These agents integ
 | Agent | Description |
 | ----- | ----------- |
 | **@debugger** | Goes beyond reading error messages. Uses your call stacks, variable state, and diagnostic tools to walk through error diagnosis systematically across your solution. |
-| **@git** | Reviews your local uncommitted changes and surfaces feedback as inline comments in the editor and in the Git Changes experience. |
 | **@profiler** | Connects to Visual Studio's profiling infrastructure to identify bottlenecks and suggest targeted optimizations grounded in your codebase, not generic advice. |
 | **@test** | Generates unit tests tuned to your project's framework and patterns, not boilerplate that your CI rejects. |
 | **@modernize** | (.NET and C++ only) Handles framework and dependency upgrades with awareness of your actual project graph. Flags breaking changes, generates migration code, and follows your existing patterns. |
@@ -55,21 +54,6 @@ The @debugger agent helps you diagnose errors systematically by analyzing your d
 + `@debugger Why is this exception being thrown?`
 + `@debugger Analyze the current call stack and explain what went wrong`
 + `@debugger What's causing the null reference in this method?`
-
-### Use the @git agent
-
-Use the @git agent to review local uncommitted changes without leaving Copilot Chat.
-
-**Example prompts**:
-
-+ `@git Review my changes`
-+ `@git Explain this review comment and suggest a fix`
-
-:::image type="content" source="../version-control/media/visualstudio/git-agent-code-review-icebreaker.png" alt-text="Screenshot of Visual Studio Copilot Chat with the Git agent and Review changes option highlighted.":::
-
-For the full local review workflow, see [Review local changes with Copilot Chat](../version-control/git-make-commit.md#review-local-changes-with-copilot-chat).
-
-**Review Selection** requires Visual Studio version 18.8 or later. To review only selected code, select the code in the editor, right-click the selection, and then select **Copilot Actions** > **Review Selection**. Copilot adds inline comments and can apply or generate suggestions. This command uses the same GitHub Copilot code-review experience as the Git Changes workflow. For more information, see [Review selected code](copilot-chat-context.md#review-selected-code).
 
 ### Use the @profiler agent
 
