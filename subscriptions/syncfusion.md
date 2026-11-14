@@ -20,7 +20,7 @@ Visual Studio Subscribers receive access to select Syncfusion benefits at no ext
 
 **BoldSign – eSignature API** provides access to an eSignature service that includes 50 API document credits. This benefit is available for 12 months from activation.
 
-**Bold BI** provides access to an analytics platform, with interactive dashboards and reports. This benefit is available for six months from activation.
+**Bold BI Cloud Edition** provides access to an analytics platform, with interactive dashboards and reports. This benefit is available for six months from activation. Subscribers can connect to many data sources, create interactive dashboards, and embed dashboards in applications. Onboarding services are included; Syncfusion provides details during or after activation on its site. For full feature details, see [Bold BI documentation](https://www.boldbi.com/resources/documentation/).
 
 ## Benefits for Dev Essentials members
 
