@@ -149,7 +149,7 @@
     {
       "path_to_root": "vs-extensibility-samples",
       "url": "https://github.com/microsoft/VSExtensibility",
-      "branch": "preview_18.12",
+      "branch": "preview_18.13",
       "branch_mapping": {}
     }
   ],
