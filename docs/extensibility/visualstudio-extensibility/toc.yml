@@ -58,6 +58,8 @@ items:
       href: ./recipes/prompts/file-directory-pickers.md
   - name: Language Server Provider
     href: ./recipes/language-server-provider.md
+  - name: Query the C#/VB Compiler workspace
+    href: ./recipes/compiler-workspace-queries.md
   - name: Query the project API
     href: ./recipes/query-projects.md
   - name: Debugger visualizers
@@ -160,7 +162,7 @@ items:
       href: ./how-it-works/models/in-proc-extensions.md
     - name: VSSDK compatibility
       href: ./how-it-works/models/vssdk-and-compatibility.md
-    - name: .NET Compiler Platform (Roslyn) >>
+    - name: C#/VB Compiler extensibility >>
       href: /visualstudio/extensibility/dotnet-compiler-platform-roslyn-extensibility
     - name: Visual Studio C++ extensibility >>
       href: /visualstudio/extensibility/visual-cpp-project-extensibility
