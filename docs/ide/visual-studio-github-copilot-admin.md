@@ -1,7 +1,7 @@
 ---
 title: Admin controls for GitHub Copilot in Visual Studio
 description: Learn about the new features for administrators in GitHub Copilot for Visual Studio that enable admins to manage Copilot effectively. 
-ms.date: 03/26/2026
+ms.date: 11/18/2026
 ms.update-cycle: 180-days
 ms.topic: how-to 
 author: madskristensen
@@ -20,7 +20,7 @@ Visual Studio 2022 introduces new features that enable administrators to configu
 In this article, you learn how to:
 - [Disable Copilot](#disable-copilot-skus)
 :::moniker range="visualstudio"
-- [Configure MCP server allowlist](#configure-mcp-server-allowlist)
+- [Configure an MCP server allow list](#configure-an-mcp-server-allow-list)
 :::moniker-end
 - [Configure content exclusion](#configure-content-exclusion)
 
@@ -30,7 +30,7 @@ With Visual Studio 2022 version 17.10 or later, project administrators can disab
 
 With Visual Studio 2022 version 17.13 or later, you can disable Copilot Free. 
 
-To configure and deploy these policies, you can use [Microsoft Intune](../install/administrative-templates.md#deploying-the-policies) or the [Local Group Policy Editor](#configure-copilot-group-policy) directly on the client machine. 
+To configure and deploy these policies, use the [Microsoft Intune settings catalog or Visual Studio ADMX templates](../install/configure-policies-for-enterprise-deployments.md#choose-a-policy-management-method), or the [Local Group Policy Editor](#configure-copilot-group-policy) directly on the client machine.
 
 ### Configure Copilot group policy
 
@@ -55,16 +55,18 @@ Policy location in the Local Group Policy Editor:
 
 :::moniker range="visualstudio"
 
-## Configure MCP server allowlist
+<a name="configure-mcp-server-allowlist"></a>
 
-With Visual Studio 2026, administrators can configure an allowlist of approved MCP servers through the GitHub Copilot administration dashboard. When an allowlist is configured, developers in the organization can only connect to MCP servers that appear on the approved list.
+## Configure an MCP server allow list
 
-### How the MCP server allowlist works
+For Visual Studio 2026, administrators can use the GitHub Copilot administration dashboard to configure an allow list of approved MCP servers. When an administrator configures an allow list, developers in the organization can only connect to MCP servers that appear on the approved list.
+
+### How the MCP server allow list works
 
 - Administrators specify which MCP servers are allowed within their organization by using the [GitHub Copilot enterprise policies for MCP](https://docs.github.com/en/copilot/managing-copilot/managing-copilot-for-your-enterprise/managing-policies-and-features-for-copilot-in-your-enterprise#defining-policies-for-your-enterprise). In the enterprise or organization settings, navigate to **AI Controls** and select **MCP** in the sidebar to configure MCP server policies.
-- Visual Studio checks the allowlist when a user attempts to connect to an MCP server.
-- If the server is on the allowlist, the connection proceeds normally.
-- If the server isn't on the allowlist, Visual Studio blocks the connection and displays an error message indicating that the server isn't permitted by the organization's policy.
+- Visual Studio checks the allow list when a user attempts to connect to an MCP server.
+- If the server is on the allow list, the connection proceeds normally.
+- If the server isn't on the allow list, Visual Studio blocks the connection and displays an error message indicating that the server isn't permitted by the organization's policy.
 
 This feature helps organizations control which MCP servers can process sensitive data and maintain compliance with security policies.
 
@@ -74,7 +76,7 @@ For more information on using MCP servers in Visual Studio, see [Use MCP servers
 
 ## Configure content exclusion
 
-Content exclusion for GitHub Copilot enables administrators to prevent certain files from being available to Copilot and keep sensitive content secure from Copilot use. You can use content exclusions to configure GitHub Copilot to ignore specific files in a [repository](https://docs.github.com/en/copilot/managing-github-copilot-in-your-organization/configuring-content-exclusions-for-github-copilot#configuring-content-exclusions-for-your-repository) or [organization](https://docs.github.com/en/copilot/managing-github-copilot-in-your-organization/configuring-content-exclusions-for-github-copilot#configuring-content-exclusions-for-your-organization).
+Content exclusion for GitHub Copilot enables administrators to prevent certain files from being available to Copilot and keep sensitive content secure from Copilot use. You can use content exclusions to configure GitHub Copilot to ignore specific files in a [repository](https://docs.github.com/en/copilot/how-tos/configure-content-exclusion/exclude-content-from-copilot#configuring-content-exclusion-for-your-repository) or [organization](https://docs.github.com/en/copilot/how-tos/configure-content-exclusion/exclude-content-from-copilot#configuring-content-exclusion-for-your-organization).
 
 Content exclusion is available only with a GitHub Copilot Business or a GitHub Copilot Enterprise [subscriptions](https://docs.github.com/en/copilot/about-github-copilot/subscription-plans-for-github-copilot). 
 

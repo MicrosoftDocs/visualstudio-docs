@@ -37,7 +37,7 @@ If your clients are [configured to acquire updates](update-visual-studio.md?view
 
 If your clients are [configured to acquire updates](update-visual-studio.md#configure-source-location-of-updates-1) from a layout, then the first step before updating the client is to make sure that the layout itself contains the updated version of Visual Studio. The IT administrator should either [update the existing layout with the latest product updates](create-a-network-installation-of-visual-studio.md#maintaining-your-layout) so that both new client installations or client updates can receive the updated version, or they can [create a whole new layout](create-a-network-installation-of-visual-studio.md) in a different layout directory that you can use to update the client machines. Best practice is to update the layouts on the second Tuesday of the month right after the security updates are released.
 
-Make sure that either the user or system account that's running the update has proper access to the network share or internal website that contains the layout. For more information, refer to [Troubleshoot network-related errors when you install or use Visual Studio](/troubleshoot/developer/visualstudio/installation/troubleshoot-network-related-errors#error-the-product-fails-to-install-or-update-because-network-share-permissions-arent-configured-correctly).
+Ensure that either the user or system account running the update has proper access to the network share or internal website that contains the layout. For more information, see [Check access to an internal layout](install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md#check-access-to-an-internal-layout).
 
 ## Manually initiate the update on the client machine
 
@@ -70,7 +70,9 @@ For details on how to control when update notifications are presented to users, 
 
 ## Use administrator updates to update the client machines
 
-If you're in an organization, the recommended best practice is to enroll your client machines into [Visual Studio administrator updates](enabling-administrator-updates.md). Visual Studio security releases typically become available on "patch Tuesdays", which is the second Tuesday of the month. The IT Administrator should develop a habit of maintaining and updating their layouts on a monthly basis, like on the morning of the second Wednesday of the month, and they [use Microsoft Endpoint Manager to deploy the Visual Studio security updates to the client machines across their organization](applying-administrator-updates.md). Administrator updates will trigger clients to go look at their [update source location](update-visual-studio.md#configure-source-location-of-updates-1) for any new updates, and if the layout has been updated, then the update will be automatically applied to the client machine (presuming that Visual Studio isn't in use). 
+If your organization uses administrator updates, enroll your client machines in [Visual Studio administrator updates](applying-administrator-updates.md#enable-or-disable-client-machines-ability-to-receive-visual-studio-administrator-updates). Visual Studio security releases typically become available on "patch Tuesdays", which is the second Tuesday of the month. The IT Administrator should maintain and update their layouts monthly, such as on the morning of the second Wednesday of the month, and then use Microsoft Endpoint Manager to deploy the Visual Studio security updates to the client machines across their organization. Administrator updates trigger clients to check their [update source location](update-visual-studio.md#configure-source-location-of-updates-1) for new updates. If the layout is updated, the update automatically applies to the client machine (presuming that Visual Studio isn't in use).
+
+For IT-initiated servicing through Intune or Configuration Manager, follow [Deploy and verify administrator updates](applying-administrator-updates.md). Maintain the layout before deploying the client update, verify source access as the execution account, and pilot the update with Visual Studio closed. The administrator-update package initiates servicing; the product packages still come from the client's configured layout or Microsoft-hosted source.
 
 ## Programmatically update the client machines
 Administrators can programmatically update the client installations of Visual Studio by either issuing the commands to the client-side installer or by invoking a bootstrapper in the network layout.
@@ -157,8 +159,8 @@ We have other support options available, too. See our [Visual Studio Developer C
 
 * [Create and maintain a network layout](create-a-network-installation-of-visual-studio.md)
 * [Visual Studio administrator guide](visual-studio-administrator-guide.md)
-* [Troubleshoot network-related errors when you install or use Visual Studio](/troubleshoot/developer/visualstudio/installation/troubleshoot-network-related-errors)
+* [Troubleshoot network-related errors](install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md#troubleshoot-network-related-errors)
 * [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
 * [Tools for detecting and managing Visual Studio instances](tools-for-managing-visual-studio-instances.md)
-* [Configure policies for enterprise deployments of Visual Studio](configure-policies-for-enterprise-deployments.md)
+* [Configure Visual Studio policies](configure-policies-for-enterprise-deployments.md)
 * [Visual Studio product lifecycle and servicing](/visualstudio/productinfo/vs-servicing)

@@ -1,7 +1,7 @@
 ---
 title: Create a network-based installation
 description: Create a private network install point to deploy Visual Studio to support enterprise users with limited permissions or client machines with limited internet access.
-ms.date: 11/3/2025
+ms.date: 11/18/2026
 ms.topic: how-to
 helpviewer_keywords:
 - '{{PLACEHOLDER}}'
@@ -158,7 +158,7 @@ Here are a few examples of how to create a custom network layout.
 
 You can use the `--config` parameter to pass in a [`*.vsconfig` file](import-export-installation-configurations.md). Make sure you specify the **full path** of the config file. Using a `*.vsconfig` file during layout creation customizes and limits the contents of a network layout to what is specified in the configuration file. The configuration file is copied into the layout directory and renamed to `layout.vsconfig`.  
 
-Any [extensions specified in the `*.vsconfig` file](import-export-installation-configurations.md#extensions) aren't copied directly into the layout. Instead, the layout's `response.json` file contains a reference to the newly created `layout.vsconfig` file, defining the installation location for the client's extensions. If you're installing extensions that aren't digitally signed, make sure to edit the `response.json` to add `"allowUnsignedExtensions": true`. See [`response.json` content examples](automated-installation-with-response-file.md#example-customized-layout-response-file-content).  
+Any [extensions specified in the `*.vsconfig` file](import-export-installation-configurations.md#extensions) aren't copied directly into the layout. Instead, the layout's `response.json` file contains a reference to the newly created `layout.vsconfig` file, defining the installation location for the client's extensions. Prefer signed extensions. If your organization explicitly approves unsigned extensions for a `--passive` or `--quiet` installation, you can add `"allowUnsignedExtensions": true` to the layout's `response.json` file. See [response file configuration](automated-installation-with-response-file.md#configure-the-response-file-used-when-installing-from-a-layout).
 
 ```shell
 vs_enterprise.exe --layout "C:\VSLayout" --config "C:\myconfig.vsconfig" 
@@ -426,8 +426,8 @@ We have other support options available, too. See our [Visual Studio Developer C
 - [Visual Studio administrator guide](visual-studio-administrator-guide.md)
 - [Deploy Visual Studio from a layout onto a client machine](deploy-a-layout-onto-a-client-machine.md)
 - [Update a network-based installation of Visual Studio](update-a-network-installation-of-visual-studio.md)
-- [Troubleshoot network-related errors when you install or use Visual Studio](/troubleshoot/developer/visualstudio/installation/troubleshoot-network-related-errors)
-- [Configure policies for enterprise deployments of Visual Studio](configure-policies-for-enterprise-deployments.md) 
+- [Troubleshoot network-related errors](install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md#troubleshoot-network-related-errors)
+- [Configure Visual Studio policies](configure-policies-for-enterprise-deployments.md)
 - [Visual Studio product lifecycle and servicing](/visualstudio/productinfo/vs-servicing/)
 - [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)
 - [Visual Studio workload and component IDs](workload-and-component-ids.md)

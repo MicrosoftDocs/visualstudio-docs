@@ -1,7 +1,7 @@
 ---
-title: Configure policies for enterprise deployments
-description: Configure domain policies, related registry keys, and other configuration operations for enterprise deployments of Visual Studio.
-ms.date: 09/09/2026
+title: Configure Visual Studio policies
+description: Configure Visual Studio policies with Intune, Group Policy, ADMX templates, or registry settings.
+ms.date: 10/29/2026
 ms.topic: how-to
 f1_keywords:
 - gpo
@@ -15,9 +15,11 @@ ms.author: madsk
 
 ms.subservice: installation
 ---
-# Configure policies for enterprise deployments of Visual Studio
+# Configure Visual Studio policies
 
-You can configure certain aspects of Visual Studio's deployment and update behavior via policies. Some of these configurations are particular to an installed instance of Visual Studio, and some of the configurations can be global and apply to all Visual Studio instances on the client machine. You can configure the following:
+You can configure certain aspects of Visual Studio's behavior through policies. Some policies apply to an installed instance, while machine-wide policies can apply to all Visual Studio instances on a client. This article brings together Visual Studio deployment, update, feedback, and survey policies and explains how to manage them.
+
+You can configure policies to control:
 
 - Should users without administrator permissions be allowed to update or modify Visual Studio
 - Should unsupported components be removed from the machine
@@ -27,11 +29,43 @@ You can configure certain aspects of Visual Studio's deployment and update behav
 - Which update channels are available and how they're presented to the client
 - How notifications appear or don't appear
 
-Configure and deploy global machine wide policies across your organization by using the [Microsoft Intune settings catalog](/mem/intune/configuration/settings-catalog) or by importing [Visual Studio Administrative Templates (ADMX)](administrative-templates.md) into legacy tools like Group Policy editor. You can also set registry values directly on the client machine. Per instance behaviors, are typically controlled by using [command-line options](use-command-line-parameters-to-install-visual-studio.md) on the client machine.
+For machine-wide policies, use the [Microsoft Intune settings catalog ↗](/mem/intune/configuration/settings-catalog), deploy the Visual Studio ADMX policies through Group Policy, or configure the documented registry values directly. Use [command-line options](use-command-line-parameters-to-install-visual-studio.md) on the client to control per-instance behavior.
+
+## Choose a policy management method
+
+The Visual Studio ADMX template describes policy settings for management tools. Download the current [Visual Studio Administrative Template (ADMX) ↗](https://aka.ms/vs/admx/details) and check its included categories and policy descriptions before deployment. Microsoft updates the templates periodically.
+
+The Visual Studio policy settings in the ADMX template are machine-wide for all users. They apply to all applicable installed instances, versions, and SKUs of Visual Studio. When a policy applies only to a specific version of Visual Studio, the template calls this out.
+
+<a name="deploying-the-policies"></a>
+
+### Deploy the policies
+
+For cloud-connected environments managed by Microsoft Intune, you have two choices for configuring and deploying Visual Studio policies:
+
+1. Access Visual Studio policies through the [settings catalog ↗](/mem/intune/configuration/settings-catalog). This is the recommended approach.
+1. [Import the Visual Studio Administrative Templates (ADMX) ↗](/mem/intune/configuration/administrative-templates-import-custom#add-the-admx-and-adml-files) into your **Devices > Configuration profiles**, and then [create a customized **Configuration profile** ↗](/mem/intune/configuration/administrative-templates-import-custom#create-a-profile-using-your-imported-files) based on the imported ADMX files. Use this option if you need a template setting that isn't available in the settings catalog. The Visual Studio Administrative Templates (ADMX) depend on the [Windows administrative template (Windows.admx) ↗](/mem/intune/configuration/administrative-templates-windows), so ensure you manually import that one too.
+
+For machines within a corporate network, you can use the [Group Policy editor ↗](/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/dn265982(v=ws.11)) or [Microsoft Endpoint Manager (SCCM) ↗](/mem/configmgr/core/understand/introduction) to deploy Visual Studio policies. To use Group Policy, copy the downloaded `.admx` template to the local `C:\Windows\PolicyDefinitions` folder or your organization's Group Policy Central Store. Copy its matching language `.adml` file into the corresponding language subfolder, such as `en-US`. Then use the Group Policy Management Editor or Local Group Policy Editor to configure the Visual Studio settings and apply the policy to the intended machines. Follow your Windows domain's Central Store procedures when managing domain policies.
+
+You can also set a documented registry value directly when that deployment method is appropriate for your organization. Follow the registry path, data type, precedence, and scope documented for each setting.
+
+Distributing Visual Studio through an endpoint-management tool doesn't automatically configure its policies or administrator-update enrollment.
+
+The Visual Studio ADMX template includes policy categories for Copilot, Dev Tunnels, feedback, installation and updates, Live Share, and privacy. The following inventory covers all 34 policy definitions in the [template and matching English descriptions at revision `0a45fdd` ↗](https://github.com/microsoft/Visual-Studio-Administrative-Templates/tree/0a45fddff18f11cf9570493d6533d1b4e4ec8faf/settingFiles/admx). This article documents installation, update, feedback, and survey settings in detail. For other categories, use the feature-specific guidance rather than applying the Setup registry path to them.
+
+| Category | ADMX policy names | Guidance |
+|---|---|---|
+| Copilot | `DisableCopilot`, `DisableCopilotForIndividuals`, `DisableAgentMode`, `DisableMCP`, `DisableBringYourOwnKeyNoAuth` | [Admin controls for GitHub Copilot ↗](../ide/visual-studio-github-copilot-admin.md) |
+| Dev Tunnels | `DisableVisualStudioDevTunnels` | [Dev Tunnels policy reference ↗](https://aka.ms/devtunnels/vs/admx) |
+| Feedback | `DisableFeedbackDialog`, `DisableScreenshotCapture`, `ProductFeedbackDisabled`, `SurveysDisabled` | [Configure feedback and survey policies](#configure-feedback-and-survey-policies) |
+| Install and update | `RemoveOutOfSupport`, `CachePath`, `BackgroundDownloadDisabled`, `SharedInstallationPath`, `KeepDownloadedPayloads`, `AdministratorUpdatesEnabled`, `AdministratorUpdatesOptOut`, `AdministratorUpdatesNotifications`, `UpdateConfigurationFile`, `DisableRollback`, `HideAvailableTab`, `AllowStandardUserControl`, `UpdateNotificationsOptOut`, `AvailableTabProducts`, `DisableMigrationDialog` | Registry settings in this article. The `RemoveOutOfSupport` ADMX policy writes the `RemoveOos` registry value. |
+| Live Share | `LiveShareDomainName`, `DirectConnectionMode`, `DisableAnonymousGuests`, `GuestApprovalRequired`, `DisableSharedServer`, `DisableReadWriteTerminal`, `DisableChat` | [Live Share policy reference ↗](https://aka.ms/vsls-policies) |
+| Privacy | `TelemetryOptIn`, `IntelliCodeRemoteAnalysisDisabled` | [Visual Studio privacy and telemetry policies ↗](https://aka.ms/vs/admx/telemetry) and [IntelliCode privacy ↗](/visualstudio/intellicode/intellicode-privacy) |
 
 ## Registry keys
 
-There are several locations in the registry where you can set these policies. Visual Studio looks sequentially, in the following order, to see if any enterprise policies are set. As soon as a policy value is discovered, the remaining keys are ignored.  
+For installation and update policies, Visual Studio checks the following registry locations in order. As soon as Visual Studio finds a policy value, it stops checking the remaining keys. Feedback and survey policies use a separate [Feedback registry path](#configure-feedback-and-survey-policies).
 
 1. `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\VisualStudio\Setup`
 2. `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\Setup`
@@ -51,28 +85,24 @@ The registry settings in this section control how and where the Visual Studio pr
 | `KeepDownloadedPayloads`         | `REG_DWORD`                 | 1                                                   | **Keep package payloads after installation**:  disabling the policy removes any cached package payloads for the instance you repair or modify. You can change the value anytime. For more information, see [Disable or move the package cache](disable-or-move-the-package-cache.md) page.   |
 | `SharedInstallationPath`         | `REG_SZ` or `REG_EXPAND_SZ` | %ProgramFiles(x86)%<br>\Microsoft Visual Studio<br>\Shared  | **Shared installation path**: the directory where some packages shared across versions of instances of Visual Studio are installed. You can change the value anytime, but it will only affect future installs. Any products already installed to the old location must not be moved or they might not function correctly. The Visual Studio Installer enforces a 150 character limit for the path.     |
 | `BackgroundDownloadDisabled`     | `REG_DWORD`                 | 0                                                   | **Disable downloading updates automatically**: if set to 1, then setup will be prevented from downloading updates automatically for all installed Visual Studio products. You can change the value anytime.  |
-| `RemoveOos`                      | `REG_DWORD`                 | 0                                                   | **Remove out-of-support components during updates**: if set to 1, then the Visual Studio Installer will remove all installed components transitioned to an out-of-support state during all subsequent updates. If set to 0 or missing entirely, then the `removeOos` behavior respects other locations where this setting can be configured, such as commandline parameter or the **Update Settings** dialog. For more information, see [Remove out-of-support components blog post](https://aka.ms/vs/removeoos/blog). This functionality requires the latest version of Visual Studio to be installed on the client machine. |
-| `DisableRollback`                | `REG_DWORD`                 | 0                                                   | **Disable the ability to rollback or undo a Visual Studio update**: if set to 1, then users will be prevented from accessing the rollback capability, which prevents Visual Studio from reverting the most recent update, which may contain a security fix. If set to 0 or missing entirely, then users are able to access the rollback feature in Visual Studio, and undo an update and roll back their Visual Studio instances to the previously installed version. For more information, see the [Rollback blog post](https://aka.ms/vs/rollback).|
-| `HideAvailableTab`               | `REG_DWORD`                 | 0                                                   | **Hide the installer's Available tab**:  if set to 1, then administrators are able to hide the installer's **Available** tab, which can prevent users within the organization from accidentally installing the wrong product. |
-| `DisableSound`                   | `REG_DWORD`                 | 0                                                   | **Disable sounds in the installer**: if set to 1, then users are able to disable sounds in the Visual Studio Installer, which will prevent any audio cue when an installer operation is done or when there is an error. Installer operations include install, update, modify, and many other operations done by the installer or any error dialogs while trying the requested operation. If set to 0 or missing entirely, then users are able to re-enable sounds in the installer. For more information, see the [DisableSound blog post](https://aka.ms/vs/disablesound). |
-| `DisableMigrationDialog`  | `REG_DWORD`   | 0           | **Disable the stale-build migration dialog**: if set to 1, it prevents users from seeing the dialog that prompts them to update to the latest version of the Visual Studio IDE. This policy applies to Visual Studio 2026 and later. Insiders and Community scenarios aren't supported. |
-| `SkipNgenAfterSetup`             | `REG_DWORD`                 | 0                                                   | **Skip immediate background Native Image Generator (NGen) optimization**: set to 1 to skip only the immediate background NGen optimization launched as setup finishes. Set to 0 to allow this optimization to run normally. This machine-wide policy applies to Visual Studio 2026 and later. |
+| `RemoveOos` | `REG_DWORD` | 0 | **Remove out-of-support components during updates**: the ADMX policy is named `RemoveOutOfSupport`. Set to `1` to remove out-of-support components from all Visual Studio installations during subsequent updates. Set to `0`, or leave unset, to respect other configuration locations such as command-line options and **Update Settings**. Requires the Visual Studio 2022 version 17.4 Installer or later. |
+| `DisableRollback` | `REG_DWORD` | 0 | **Disable rollback**: set to `1` to prevent users from undoing the most recent update, which might contain a security fix. Set to `0`, or leave unset, to allow rollback to the previously installed version. Applies to release instances of Visual Studio 2022 and later. |
+| `HideAvailableTab` | `REG_DWORD` | 0 | **Hide the Installer's Available tab**: set to `1` to hide the tab and prevent product installation through that tab. Set to `0`, or leave unset, to show it. This setting doesn't block installation through the command line or bootstrapper. Requires the Visual Studio 2022 version 17.6 Installer or later. |
+| `AvailableTabProducts` | `REG_SZ` or `REG_EXPAND_SZ` | Not configured | **Restrict products shown on the Available tab**: specify the product IDs to display, such as `Microsoft.VisualStudio.Product.Professional`. This policy applies only to machines that have the Visual Studio Installer installed but no Visual Studio product installed. It isn't an installation allow list for other routes. |
+| `UpdateNotificationsOptOut` | `REG_DWORD` | 0 | **Suppress eligible IDE update notifications**: set to `1` to suppress update notifications for Enterprise and Professional editions on Release or LTSC channels, only when they receive updates from a layout or are enrolled for administrator updates. Set to `0`, or leave unset, to show notifications when an update is detected. This setting doesn't disable updates or administrator-update toast notifications. |
+| `DisableMigrationDialog` | `REG_DWORD` | 0 | **Disable the stale-build migration dialog**: set to `1` to hide the dialog prompting Enterprise and Professional users on Stable or LTSC channels to move to the latest version. This policy applies to Visual Studio 2026 and later; it doesn't apply to Insiders or Community. |
 
 > [!IMPORTANT]
 > If you change the `CachePath` registry policy after any installations, you must move the existing package cache to the new location and make sure it's secured so that `SYSTEM` and `Administrators` have **Full Control** and that `Everyone` has **Read** access.
 > Failure to move the existing cache or securing it might cause problems with future installs.
 
-::: moniker range="visualstudio"
+### Registry-only Installer setting
 
-## Skip immediate background NGen optimization
+`DisableSound` is documented separately from the ADMX inventory because it isn't defined in the template revision listed above. Its absence from ADMX doesn't establish that the registry setting is unsupported.
 
-Use `SkipNgenAfterSetup` to skip the immediate background NGen optimization launched as setup finishes. Setup doesn't wait for this optimization, which can continue running after the setup operation finishes. Skipping this optimization can help avoid interference with automated setup, but it might delay native-image generation and affect Visual Studio startup performance until optimization occurs.
-
-An administrator can configure this policy directly in the registry by setting the `SkipNgenAfterSetup` DWORD value under `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\VisualStudio\Setup`, using the 64-bit registry view. The policy applies to all users on the machine.
-
-The [registry key precedence](#registry-keys) applies to this value. Removing the managed policy value allows a lower-priority local `SkipNgenAfterSetup` preference to take effect. To allow normal behavior regardless of a lower-priority value of 1, set the managed policy value to 0. If the value isn't set in any of the registry locations, normal behavior applies.
-
-::: moniker-end
+| Name | Type | Default | Description |
+|---|---|---|---|
+| `DisableSound` | `REG_DWORD` | 0 | Set to `1` to disable Installer audio cues for operation completion and errors. Set to `0`, or leave unset, to allow sounds. See the [Installer sound-setting announcement ↗](https://aka.ms/vs/disablesound). |
 
 ## Controlling Administrator Updates
 
@@ -80,13 +110,13 @@ The registry settings in this section control if and how administrator updates a
 
 | **Name**                         | **Type**                    | **Default**                                         | **Description**           |
 |----------------------------------|-----------------------------|-----------------------------------------------------|---------------------------|
-| `AdministratorUpdatesEnabled`| `REG_DWORD`                 | 0                                                   | **Enable administrator updates**: allows administrator updates to be applied to the client computer. If this value is missing or is set to 0, administrator updates are blocked. A value of 1 makes the client machine available for updates deployed through the WSUS/SCCM channel. The recommended value of **2** makes the client machine available to receive updates deployed through either the WSUS/SCCM channel or the Windows Update for Business/Intune/Microsoft Endpoint manager channel. This registry key is for the administrator user. For more information, see [Enabling Administrator Updates](enabling-administrator-updates.md). |
-| `AdministratorUpdatesNotifications`| `REG_DWORD`           | 0                                                   | **Enables admins to notify users to close Visual Studio to unblock the administrator update**: If Visual Studio is open or in use, then the administrator update fails to apply. By setting this registry key, the administrator can cause a Windows toast notification prompt that prompts the user to close Visual Studio and save their work so that the pending update can apply. This registry key is for the administrator user. For more information, refer to the [blog post announcement](https://devblogs.microsoft.com/visualstudio/visual-studio-17-8-now-available/#administrators-can-prompt-users-to-close-to-unblock-updates). |
+| `AdministratorUpdatesEnabled` | `REG_DWORD` | 0 | **Enable administrator updates**: set to `1` to receive updates through WSUS/Configuration Manager on Active Directory-joined clients. Set to `2` to allow WSUS/Configuration Manager or Microsoft Update/Intune delivery. The Microsoft Update route requires Active Directory- or Microsoft Entra-joined clients enrolled in Windows Update for Business with updates for other Microsoft products enabled. Set to `0`, or leave unset, to block administrator updates. This is a machine-wide policy configured by an administrator. See [Deploy and verify administrator updates](applying-administrator-updates.md). |
+| `AdministratorUpdatesNotifications` | `REG_DWORD` | 0 | **Show administrator-update prompts and status**: set to `1` to show Windows toast notifications for update success or failure, diagnostic information, and prompts to close Visual Studio when it blocks an update. These notifications respect the client's Windows toast-notification settings. |
 | `AdministratorUpdatesOptOut` | `REG_DWORD`                 | 0                                                   | **Opt out of administrator updates**: indicates that the user does not want to receive administrator updates to Visual Studio. The absence of the registry value, or a set value of 0, means that the Visual Studio user wants to receive administrator updates to Visual Studio. This policy is for the developer user to configure if they have admin permissions on the client machine. <br> <br> The AdministratorUpdatesOptOut key for encoding user preference is prioritized over the AdministratorUpdatesEnabled key, which encodes the IT admin intent. If AdministratorUpdatesOptOut is set to 1, the update is blocked on the client, even if the AdministratorUpdatesEnabled key is also set to 1. This action assumes that IT admins can access and monitor which developers chose to opt out. The two parties can then discuss whose needs are more important. IT admins can always change either key whenever they want.|
-| `UpdateConfigurationFile`    | `REG_SZ` or `REG_EXPAND_SZ`  | %ProgramData%<br>\Microsoft<br>\VisualStudio<br>\updates.config | **Custom path to the update configuration file**: the path to the file on the client that can be used to configure Administrative Updates. By default, this file doesn't exist and the policy isn't set. If you choose to add the policy to the client machine and define a custom configuration file location, then the Administrator update will look for this file. If the file doesn’t exist, then an exception is thrown and the update fails. For more information, see [Methods for configuring an administrator update](../install/applying-administrator-updates.md#methods-for-configuring-an-administrator-update).   |    
+| `UpdateConfigurationFile`    | `REG_SZ` or `REG_EXPAND_SZ`  | %ProgramData%<br>\Microsoft<br>\VisualStudio<br>\updates.config | **Custom path to the update configuration file**: the path to the file on the client that can be used to configure Administrative Updates. By default, this file doesn't exist and the policy isn't set. If you choose to add the policy to the client machine and define a custom configuration file location, the Administrator update looks for this file. If the file doesn't exist, the update fails and throws an exception. For more information, see [Methods for configuring an administrator update](../install/applying-administrator-updates.md#methods-for-configuring-an-administrator-update).   |
 
 > [!IMPORTANT]
-> Cloud connected client machines that are managed by Intune must be configured for [Windows Update for Business](/windows/deployment/update/waas-manage-updates-wufb) and opted into the ["Enable Updates for other Microsoft Products"](/windows/client-management/mdm/policy-csp-update#update-allowmuupdateservice) in order to receive Visual Studio administrator updates through the Windows Update for Business Microsoft Update channel.
+> Cloud connected client machines that Intune manages must be configured for [Windows Update for Business ↗](/windows/deployment/update/waas-manage-updates-wufb) and opted into the ["Enable Updates for other Microsoft Products" ↗](/windows/client-management/mdm/policy-csp-update#allowmuupdateservice) in order to receive Visual Studio administrator updates through the Windows Update for Business Microsoft Update channel.
 
 ## Configuring source location for updates 
 
@@ -133,7 +163,7 @@ Windows Registry Editor Version 5.00
 "Description"="Developer Tools based on the VS 2026 18.0.Winter.2026 LSTC servicing baseline"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\VisualStudio\Setup\DisabledChannels\Preview]
-"channelUri"="[https://aka.ms/vs/insiders/channel"](https://aka.ms/vs/insiders/channel%22)
+"channelUri"="[https://aka.ms/vs/insiders/channel" ↗](https://aka.ms/vs/insiders/channel%22)
 ```
 ::: moniker-end
 
@@ -262,12 +292,28 @@ If the value doesn’t exist (default condition), the previous command indicates
 > [!TIP]
 > Use [vswhere.exe](tools-for-managing-visual-studio-instances.md#detecting-existing-visual-studio-instances) to find a specific instance of Visual Studio on a client workstation.
 
+## Configure feedback and survey policies
+
+The Visual Studio ADMX template includes four feedback policies. `SurveysDisabled` and `ProductFeedbackDisabled` are machine-wide policies for Visual Studio 2022 version 17.13 or later. `DisableFeedbackDialog` and `DisableScreenshotCapture` are legacy send-a-smile policies that remain in the current template.
+
+Configure these policies through one of the management methods in [Choose a policy management method](#choose-a-policy-management-method). All use `SOFTWARE\Policies\Microsoft\VisualStudio\Feedback`, not the Setup path. The two machine-wide policies use `HKEY_LOCAL_MACHINE`. The two legacy policies have ADMX class `Both`, so the template also supports user configuration under `HKEY_CURRENT_USER`.
+
+| Name | Type | Default | Description |
+|---|---|---:|---|
+| `SurveysDisabled` | `REG_DWORD` | `0` | Set to `1` to hide product survey requests and links in Visual Studio and the Visual Studio Installer. |
+| `ProductFeedbackDisabled` | `REG_DWORD` | `0` | Set to `1` to disable feedback mechanisms in Visual Studio and the Installer, including thumbs up or down, feedback pop-ups, send-a-smile, and information bars without survey links. |
+| `DisableFeedbackDialog` | `REG_DWORD` | Not configured | Set to `1` to disable the legacy send-a-smile feature. The template's disabled value is `0`. Supports computer and user configuration. |
+| `DisableScreenshotCapture` | `REG_DWORD` | Not configured | Set to `1` to disable screenshot capture in the legacy send-a-smile feature. The template's disabled value is `0`. Supports computer and user configuration. |
+
+Prefer `SurveysDisabled` and `ProductFeedbackDisabled` for the current feedback experience. Don't apply their Visual Studio 2022 version 17.13 requirement to the legacy policies.
+
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## Related content
 
 - [Install Visual Studio](install-visual-studio.md)
 - [Visual Studio administrator guide](visual-studio-administrator-guide.md)
+- [Download the Visual Studio ADMX template ↗](https://aka.ms/vs/admx/details)
 - [Applying administrator updates](applying-administrator-updates.md)
 - [Disable or move the package cache](disable-or-move-the-package-cache.md)
 - [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)

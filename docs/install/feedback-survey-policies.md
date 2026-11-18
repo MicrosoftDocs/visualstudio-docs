@@ -1,43 +1,20 @@
 ---
-title: Configure feedback Group Policies
-description: Configure Group Policies that control submission of feedback and survey responses for enterprise deployments of Visual Studio.
-ms.date: 11/04/2025
-ms.topic: concept-article
-f1_keywords:
-- gpo
-- policy
-- feedback
+title: Configure feedback and survey policies
+description: Configure Visual Studio feedback and survey policies in the consolidated policy reference.
+ms.date: 10/20/2026
+ms.topic: reference
 author: jasonchlus
 ms.author: jasonchlus
-ms.manager:  dominicn
-
 ms.subservice: installation
 ---
-# Configure feedback Group Policies
+# Configure feedback and survey policies
 
-Visual Studio allows you to configure and deploy global machine-wide policies across your organization by using the [Microsoft Intune settings catalog](/intune/intune-service/configuration/settings-catalog) or by importing [Visual Studio Administrative Templates (ADMX)](administrative-templates.md) into legacy tools like Group Policy editor. To learn more, see [Configure policies for enterprise deployments of Visual Studio](configure-policies-for-enterprise-deployments.md).
-
-One of the main categories included in the Visual Studio ADMX templates is feedback. Feedback Group Policies can be used to control the types of feedback sent through Visual Studio. IT administrators may find these policies useful to control whether Visual Studio users in their organization are permitted to submit feedback or survey responses to Microsoft. By default, users can submit both feedback and survey responses through Visual Studio.
+Feedback and survey policy guidance is now included in [Configure Visual Studio policies](configure-policies-for-enterprise-deployments.md#configure-feedback-and-survey-policies). The consolidated article documents the supported settings, registry path, and management methods.
 
 ## Supported policies
 
-> [!IMPORTANT]
-> These policies require Visual Studio 2022 version 17.13 or later.
+See the current feedback and survey policy settings in [Configure Visual Studio policies](configure-policies-for-enterprise-deployments.md#configure-feedback-and-survey-policies).
 
-In addition to configuring policies through Intune or the Group Policy editor, you can find and adjust policies in the registry at `HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\VisualStudio\Feedback`.
+## See also
 
-Feedback Group Policies for Visual Studio include the following:
-
-| **Name**                         | **Description**                                               |
-|----------------------------------|---------------------------------------------------------------|
-| `SurveysDisabled`                | **Controls whether the user receives survey links in Visual Studio:** If enabled, Visual Studio and the Visual Studio Installer don't display any product survey requests or links to surveys to the user. |
-| `ProductFeedbackDisabled`        | **Controls whether the user can submit feedback through Visual Studio:** If enabled, Visual Studio and the Visual Studio Installer don't allow users to submit feedback to Microsoft. Examples include, but aren't limited to reporting feedback, submitting suggestions, and providing feedback on features via a thumbs up/down control. |
-
-   > [!NOTE]
-   > `DisableFeedbackDialog` is an older feedback policy that may be available on your machine depending on the ADMX template version on box. This policy controls feedback mechanisms in Visual Studio 2019 and earlier. We recommend using the newer `SurveysDisabled` and `ProductFeedbackDisabled` policies only.
-
-## Related content
-
-* [Visual Studio administrator guide](../install/visual-studio-administrator-guide.md)
-* [Visual Studio Administrative Templates (ADMX)](administrative-templates.md)
-* [Configure policies for enterprise deployments of Visual Studio](configure-policies-for-enterprise-deployments.md) 
+- [Configure Visual Studio policies](configure-policies-for-enterprise-deployments.md)

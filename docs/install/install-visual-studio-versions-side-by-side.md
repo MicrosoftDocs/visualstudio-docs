@@ -16,7 +16,7 @@ ms.author: madsk
 ---
 # Install Visual Studio versions side-by-side
 
-You can install Visual Studio on a computer that has an earlier or later [major version](/visualstudio/productinfo/release-rhythm#determining-your-product-edition-version-and-channel) of Visual Studio already installed. This article describes how to install multiple versions of Visual Studio. 
+You can install Visual Studio on a computer that has an earlier or later [major version](/visualstudio/productinfo/release-rhythm#annual-releases) of Visual Studio already installed. This article describes how to install multiple versions of Visual Studio.
 
 ::: moniker range=">=vs-2022"
 
@@ -69,7 +69,7 @@ You can manually use another bootstrapper to install a new instance of Visual St
 Next, follow the steps to select the components you need for your installation. For more information, see [Install Visual Studio](install-visual-studio.md#step-4---choose-workloads).
 
 > [!TIP]
-> IT Administrators who want to suppress visibility of the Visual Studio Installer **Available** tab, or otherwise customize the availability of layout offerings on the **Available** tab, can configure the client registry and policies. For more information, see [Configure policies for enterprise deployments of Visual Studio](/visualstudio/install/configure-policies-for-enterprise-deployments).
+> IT Administrators who want to suppress visibility of the Visual Studio Installer **Available** tab, or otherwise customize the availability of layout offerings on the **Available** tab, can configure the client registry and policies. For more information, see [Configure Visual Studio policies](configure-policies-for-enterprise-deployments.md).
 
 ### Programmatic installation
 
@@ -123,8 +123,8 @@ For language-specific information, see the appropriate article in the following 
 
 | Language     | Article |
 |:-------------|:--------|
-| Visual Basic | [Application Page, Project Designer (Visual Basic)](../ide/reference/application-page-project-designer-visual-basic.md) |
-| Visual C#    | [Application Page, Project Designer (C#)](../ide/reference/application-page-project-designer-csharp.md) |
+| Visual Basic | [Change the target framework](../ide/visual-studio-multi-targeting-overview.md) |
+| Visual C#    | [Change the target framework](../ide/visual-studio-multi-targeting-overview.md) |
 | Visual F#    | [Develop with Visual F# in Visual Studio](../ide/fsharp-visual-studio.md) |
 | C++          | [How to: Modify the target framework and platform toolset](/cpp/build/how-to-modify-the-target-framework-and-platform-toolset/) |
 
