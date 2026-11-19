@@ -34,7 +34,7 @@
     href: install/change-installation-locations.md
   - name: Import or export installation configurations
     href: install/import-export-installation-configurations.md
-  - name: Troubleshoot installation issues
+  - name: Troubleshoot installation issues >>
     href: /troubleshoot/developer/visualstudio/installation/troubleshoot-installation-issues?toc=%2Fvisualstudio%2Ftoc.json
   - name: Setup Assistant
     href: install/setup-assistant.md
@@ -47,11 +47,24 @@
   - name: Uninstall Visual Studio
     href: install/uninstall-visual-studio.md
   - name: Release dates & build numbers
-    href: /visualstudio/releases/2022/release-history?toc=%2Fvisualstudio%2Ftoc.json#release-dates-and-build-numbers
-  - name: Administrator guide
+    href: /visualstudio/releases/2026/release-history
+  - name: Enterprise management
     items:
     - name: Overview
       href: install/visual-studio-administrator-guide.md
+    - name: Golden paths
+      href: install/enterprise-deployment-golden-paths.md
+      items:
+      - name: High-compliance organizations with standard-user developers
+        href: install/deploy-restricted-network-standard-users.md
+      - name: Fully offline workstations
+        href: install/deploy-fully-offline-workstations.md
+      - name: Package Visual Studio for managed deployment
+        href: install/package-visual-studio-for-enterprise-deployment.md
+      - name: Deploy Visual Studio in persistent virtual desktops
+        href: install/deploy-visual-studio-in-persistent-virtual-desktops.md
+      - name: Control Visual Studio servicing with LTSC
+        href: install/control-visual-studio-servicing-with-ltsc.md
     - name: Use the command line
       items:
       - name: Install by using command-line parameters
@@ -60,50 +73,41 @@
         href: install/command-line-parameter-examples.md
     - name: Deploy in an enterprise
       items:
-      - name: Create a network-based installation
+      - name: Create and maintain a network layout
         href: install/create-a-network-installation-of-visual-studio.md
       - name: Deploy from layouts to client machines
         href: install/deploy-a-layout-onto-a-client-machine.md
-      - name: Automate installation with a response file
+      - name: Configure layout defaults with a response file
         href: install/automated-installation-with-response-file.md
       - name: Apply product keys when deploying
         href: install/automatically-apply-product-keys-when-deploying-visual-studio.md
       - name: Set up Visual Studio behind a firewall or proxy server
         href: install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md
       - name: Troubleshoot network errors
-        href: /troubleshoot/developer/visualstudio/installation/troubleshoot-network-related-errors?toc=%2Fvisualstudio%2Ftoc.json
-      - name: Visual Studio workload and component IDs
+        href: install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md#troubleshoot-network-related-errors
+      - name: Workload and component IDs
+        displayName: Workload and component IDs
+        href: install/workload-and-component-ids.md
         items:
-        - name: Overview
-          displayName: Workload and component IDs
-          href: install/workload-and-component-ids.md
-        - name: Visual Studio Enterprise
+        - name: Enterprise
           href: install/workload-component-id-vs-enterprise.md
-        - name: Visual Studio Professional
+        - name: Professional
           href: install/workload-component-id-vs-professional.md
-        - name: Visual Studio Community
+        - name: Community
           href: install/workload-component-id-vs-community.md
-        - name: Visual Studio Team Explorer
+        - name: Team Explorer
           href: install/workload-component-id-vs-team-explorer.md
-        - name: Visual Studio Build Tools
+        - name: Build Tools
           href: install/workload-component-id-vs-build-tools.md
-        - name: Visual Studio Test Agent
+        - name: Test Agent
           href: install/workload-component-id-vs-test-agent.md
-        - name: Visual Studio Test Controller
+        - name: Test Controller
           href: install/workload-component-id-vs-test-controller.md
     - name: Manage global policies
+      href: install/configure-policies-for-enterprise-deployments.md
+    - name: Manage and update installations
       items:
-      - name: Administrative Templates (ADMX)
-        href: install/administrative-templates.md
-      - name: Configure policies for enterprise deployments
-        href: install/configure-policies-for-enterprise-deployments.md
-      - name: Configure feedback policies
-        href: install/feedback-survey-policies.md
-    - name: Manage & update installations
-      items:
-      - name: Enabling administrator updates
-        href: install/enabling-administrator-updates.md
-      - name: Applying administrator updates
+      - name: Deploy and verify administrator updates
         href: install/applying-administrator-updates.md
       - name: Update an instance installed from a network
         href: install/update-a-network-installation-of-visual-studio.md
@@ -111,8 +115,27 @@
         href: install/update-minimal-layout.md
       - name: Disable or move the package cache
         href: install/disable-or-move-the-package-cache.md
-      - name: Tools to detect & manage Visual Studio instances
+      - name: Tools to detect and manage Visual Studio instances
         href: install/tools-for-managing-visual-studio-instances.md
+    - name: Govern extensions
+      items:
+      - name: Configure extension and update options >>
+        href: ide/configure-extension-update-options.md
+      - name: Find, install, and manage extensions >>
+        href: ide/finding-and-using-visual-studio-extensions.md
+      - name: Private galleries >>
+        href: extensibility/private-galleries.md
+    - name: Govern AI
+      items:
+      - name: Admin controls for GitHub Copilot >>
+        href: ide/visual-studio-github-copilot-admin.md
+        monikerRange: ">=vs-2022"
+      - name: Deploy GitHub Copilot to existing instances >>
+        href: ide/deploy-copilot-to-enterprise.md
+        monikerRange: ">=vs-2022"
+      - name: Configure AI models and BYOK >>
+        href: ide/copilot-select-add-models.md
+        monikerRange: ">=vs-2022"
   - name: Use on Devices, VMs, and Containers
     items:
     - name: Use on Azure virtual machines
@@ -233,11 +256,11 @@
         href: ide/how-to-add-or-remove-references-by-using-the-reference-manager.md
       - name: Add or remove imported namespaces (Visual Basic)
         href: ide/how-to-add-or-remove-imported-namespaces-visual-basic.md
-      - name: Troubleshoot broken references
+      - name: Troubleshoot broken references >>
         href: /troubleshoot/developer/visualstudio/project-build/troubleshooting-broken-references?toc=%2Fvisualstudio%2Fmsbuild%2Ftoc.json
     - name: Manage application resources (.NET)
       href: ide/managing-application-resources-dotnet.md
-    - name: Troubleshoot Resource Editor errors
+    - name: Troubleshoot Resource Editor errors >>
       href: /troubleshoot/developer/visualstudio/project-build/troubleshoot-resource-editor-errors?toc=%2Fvisualstudio%2Ftoc.json
     - name: Application settings (.NET)
       items:
@@ -279,7 +302,7 @@
         href: ide/how-to-create-multi-file-item-templates.md
       - name: Create web templates
         href: ide/how-to-manually-create-web-templates.md
-      - name: Troubleshoot templates
+      - name: Troubleshoot templates >>
         href: /troubleshoot/developer/visualstudio/project-build/how-to-troubleshoot-templates?toc=%2Fvisualstudio%2Ftoc.json
     - name: Locate project and item templates
       href: ide/how-to-locate-and-organize-project-and-item-templates.md
@@ -361,7 +384,7 @@
           href: ide/how-to-distribute-code-snippets.md
         - name: Code snippets schema reference
           href: ide/code-snippets-schema-reference.md
-        - name: Troubleshoot snippets
+        - name: Troubleshoot snippets >>
           href: /troubleshoot/developer/visualstudio/ide/troubleshooting-snippets?toc=%2Fvisualstudio%2Ftoc.json
       - name: Quick Actions
         displayName: light bulb screwdriver suggestions
@@ -583,7 +606,7 @@
       href: ide/class-designer/how-to-create-a-nullable-type.md
     - name: C++ in Class Designer
       href: ide/class-designer/working-with-visual-cpp-code.md
-    - name: Class Designer errors
+    - name: Class Designer errors >>
       href: /troubleshoot/developer/visualstudio/ide/troubleshoot-class-designer-errors?toc=%2Fvisualstudio%2Ftoc.json
   - name: Improve your code
     href: ide/find-and-fix-code-errors.md
@@ -1060,8 +1083,8 @@
     href: /visualstudio/productinfo/release-rhythm/
   - name: "Visual Studio 2022: What's new"
     href: ide/whats-new-visual-studio-2022.md
-  - name: "Visual Studio 2019: What's new"
-    href: ide/whats-new-visual-studio-2019.md
+  - name: "Visual Studio 2019: What's new >>"
+    href: /previous-versions/visualstudio/visual-studio-2017/ide/whats-new-visual-studio-2019
   - name: License terms >>
     href: https://visualstudio.microsoft.com/license-terms/
   - name: Support lifecycle and servicing >>

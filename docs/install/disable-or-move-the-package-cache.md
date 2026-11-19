@@ -50,5 +50,5 @@ Currently, you can do this operation only if you set the `CachePath` [registry p
 ## Related content
 
 * [Install Visual Studio](install-visual-studio.md)
-* [Configure policies for enterprise deployments](configure-policies-for-enterprise-deployments.md)
+* [Configure Visual Studio policies](configure-policies-for-enterprise-deployments.md)
 * [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md)

@@ -1,7 +1,7 @@
 ---
 title: Update Visual Studio with minimal offline layout
 description: Create a minimal layout for a quick and easy way to update your offline Visual Studio instances for computers that aren't connected to the internet.
-ms.date: 11/04/2025
+ms.date: 11/18/2026
 ms.topic: how-to
 author: madskristensen
 ms.author: madsk
@@ -14,6 +14,27 @@ ms.subservice: installation
 For computers that are not connected to the internet, creating a minimal layout is the easiest and fastest way to update your offline Visual Studio instances.
 
 The minimal layout tool generates a layout tailored specifically to your team's needs. Enterprise administrators can use this tool to create update layout(s) for most versions of Visual Studio, including Visual Studio 2017. Unlike a full Visual Studio layout, a minimal layout only contains the updated packages, so it is always smaller and faster to generate and deploy. You can further minimize the size of the update layout by specifying only the desired languages, workloads, and components.
+
+## Install a new machine after updating existing clients
+
+Suppose your organization has a full layout for an approved baseline version. You generate a minimal layout to update existing installations to a newer approved version. A new developer workstation then needs its first installation at that newer version.
+
+The minimal layout contains only new or changed packages for the specified version range and configuration. It isn't a complete installation source. A fresh installation doesn't automatically combine packages from the older full layout and the newer minimal layout.
+
+| Target machine | Recommended source |
+|---|---|
+| An existing installation within the minimal layout's supported version range and configuration | Use the minimal layout to update the installation. |
+| A new machine that must install without internet access | Update the full layout to the approved target version, or create a new full layout for that version. Install from that complete source. |
+| A new machine allowed to download installation content | Use the approved target-version bootstrapper or layout with access to Microsoft download services. A minimal layout alone doesn't supply all required packages; any missing packages require downloads. |
+
+For new machines that need a complete internal source:
+
+1. On the connected acquisition machine, [update the existing full layout](create-a-network-installation-of-visual-studio.md#maintaining-your-layout) to the approved target version, or create a new full layout for that version. You don't need to create a new layout from scratch when you can maintain the existing full layout.
+1. Verify the complete source and publish or transfer it through your approved process. Follow the layout maintenance guidance to avoid exposing a partially updated source to clients.
+1. [Install on the new machine from the updated full layout](deploy-a-layout-onto-a-client-machine.md#install-from-a-network-layout), using the approved configuration and an elevated deployment account. If installation must remain offline, use `--noWeb` and confirm all required content is present.
+1. Verify the installed version and configuration before handing the machine to its developer.
+
+Maintain the full layout for new-machine provisioning separately from minimal layouts used to reduce update distribution. Don't merge minimal layout folders into an older full layout manually or rely on a fresh installation to search both sources.
 
 ## How to generate a minimal layout
 
@@ -163,7 +184,7 @@ The update is applied to a Visual Studio instance in two steps. Start by updatin
     Run the following command, substituting `vs_enterprise.exe`  with the correct bootstrapper application name if necessary.
 
     ```shell
-    vs_enterprise.exe --quiet --update --offline C:\VSLayout\vs_installer.opc
+    vs_enterprise.exe --quiet --wait --update --offline C:\VSLayout\vs_installer.opc
     ```
 
 2. **Update the Visual Studio application**
@@ -173,7 +194,7 @@ The update is applied to a Visual Studio instance in two steps. Start by updatin
     Run the following command, substituting the installPath command-line parameter appropriately. Be sure to use the correct bootstrapper application name as well.
 
     ```shell
-    vs_enterprise.exe update --noWeb --quiet --installpath "C:\Program Files\Microsoft Visual Studio\2022\Enterprise"
+    vs_enterprise.exe update --noWeb --quiet --wait --installpath "C:\Program Files\Microsoft Visual Studio\2022\Enterprise"
     ```
 
 ::: moniker-end
@@ -185,7 +206,7 @@ The update is applied to a Visual Studio instance in two steps. Start by updatin
     Run the following command, substituting `vs_enterprise.exe`  with the correct bootstrapper application name if necessary.
 
     ```shell
-    vs_enterprise.exe --quiet --update --offline C:\VSLayout\vs_installer.opc
+    vs_enterprise.exe --quiet --wait --update --offline C:\VSLayout\vs_installer.opc
     ```
 
 2. **Update the Visual Studio application**
@@ -195,7 +216,7 @@ The update is applied to a Visual Studio instance in two steps. Start by updatin
     Run the following command, substituting the installPath command-line parameter appropriately. Be sure to use the correct bootstrapper application name as well.
 
     ```shell
-    vs_enterprise.exe update --noWeb --quiet --installpath "C:\Program Files\Microsoft Visual Studio\18\Enterprise"
+    vs_enterprise.exe update --noWeb --quiet --wait --installpath "C:\Program Files\Microsoft Visual Studio\18\Enterprise"
     ```
 
 ::: moniker-end
