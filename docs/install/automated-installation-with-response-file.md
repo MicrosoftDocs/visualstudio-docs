@@ -1,7 +1,7 @@
 ---
 title: Configure installation defaults with a response file
 description: Create a response JSON file to help automate your Visual Studio installation with default settings for workloads, components, and other installation options.
-ms.date: 11/11/2025
+ms.date: 11/18/2026
 ms.topic: how-to
 helpviewer_keywords:
 - response file
@@ -39,12 +39,12 @@ If an administrator [deploys Visual Studio by invoking the bootstrapper from a l
 
 ## Response file contents
 
-The response file encapsulates command line parameters used by the Visual Studio Installer, and it follows these general rules:
+The response file encapsulates command-line parameters used by the Visual Studio Installer, and it follows these general rules:
  - If a command-line parameter takes no arguments (for example, `--quiet`, `--passive`, `includeRecommended`, `removeOos`, `useLatestInstaller`, `allowUnsignedExtensions`, etc.), the value in the response file should be true/false. 
  - If the parameter takes an argument (for example, `--installPath <dir>`, `--config <*.vsconfig file>`), then the value in the response file should be a string. 
- - If the parameter takes an argument and can appear on the command-line more than once (for example, `--add <id>`), the value in the response file should be an array of strings.
+ - If the parameter takes an argument and can appear on the command line more than once (for example, `--add <id>`), the value in the response file should be an array of strings.
 
-Parameters that are specified on the command-line override the settings that are included in the response file, except when parameters take multiple inputs (for example, `--add`). When you have multiple inputs, the inputs supplied on the command line are merged with settings from the response file.
+Parameters that you specify on the command line override the settings that are included in the response file, except when parameters take multiple inputs (for example, `--add`). When you have multiple inputs, the inputs supplied on the command line are merged with settings from the response file.
 
 ## Configure the response file used when installing from a layout
 
@@ -110,7 +110,7 @@ When you create or update a layout, a response.template.json file is also create
 
 ::: moniker range="=vs-2022"
 
-The following `response.json` file example initializes a Visual Studio Enterprise client install to select several common workloads and components, to select both the English and French UI languages, and to have the update location configured to look for sources in a network hosted layout. Refer to the [Configure policies for enterprise deployments of Visual Studio](configure-policies-for-enterprise-deployments.md#configuring-source-location-for-updates) and the [Configure your layout to always include and provide the latest installer](create-a-network-installation-of-visual-studio.md#configure-the-layout-to-always-include-and-provide-the-latest-installer) for information on how to configure this.
+The following `response.json` file example initializes a Visual Studio Enterprise client install to select several common workloads and components, to select both the English and French UI languages, and to have the update location configured to look for sources in a network hosted layout. Refer to [Configure Visual Studio policies](configure-policies-for-enterprise-deployments.md#configuring-source-location-for-updates) and [Configure your layout to always include and provide the latest installer](create-a-network-installation-of-visual-studio.md#configure-the-layout-to-always-include-and-provide-the-latest-installer) for information on how to configure this.
 
 ```Example response.json
 {
@@ -149,7 +149,6 @@ In the following example, the `response.json` file initializes a Visual Studio E
 - [Uses a configuration *.vsconfig file that defines what workloads, components, and extensions to install](import-export-installation-configurations.md#use-a-configuration-file-to-initialize-the-contents-of-a-layout)
 - Selects both the English and French UI languages
 - Configures the [update location to look for sources in an http hosted layout](create-a-network-installation-of-visual-studio.md#making-your-layout-accessible-via-an-intranet-site)
-- Allows [programmatic loading of unsigned extensions](import-export-installation-configurations.md#extensions)
 - [Removes components transitioned to an out-of-support state at the time of updating the client](update-visual-studio.md#remove-out-of-support-components). See the list of out-of-support components [here](out-of-support-components.md).
 
 ```Example response.json
@@ -160,7 +159,7 @@ In the following example, the `response.json` file initializes a Visual Studio E
   "channelId": "VisualStudio.17.Release",
   "productId": "Microsoft.VisualStudio.Product.Enterprise",
   "arch": "x64",
-  "config": ".\\Layout.vsconfig"
+  "config": ".\\Layout.vsconfig",
   "installPath": "C:\\VS2022",
   "quiet": false,
   "passive": false,
@@ -168,7 +167,6 @@ In the following example, the `response.json` file initializes a Visual Studio E
   "norestart": false,
   "useLatestInstaller": true,
   "removeOos": true,
-  "allowUnsignedExtensions": true,
 
   "addProductLang": [
     "en-US",
@@ -181,7 +179,7 @@ In the following example, the `response.json` file initializes a Visual Studio E
 
 ::: moniker range="=visualstudio"
 
-The following `response.json` file example initializes a Visual Studio Enterprise client install to select several common workloads and components, to select both the English and French UI languages, and to have the update location configured to look for sources in a network hosted layout. Refer to the [Configure policies for enterprise deployments of Visual Studio](configure-policies-for-enterprise-deployments.md#configuring-source-location-for-updates) and the [Configure your layout to always include and provide the latest installer](create-a-network-installation-of-visual-studio.md#configure-the-layout-to-always-include-and-provide-the-latest-installer) for information on how to configure this.
+The following `response.json` file example initializes a Visual Studio Enterprise client install to select several common workloads and components, to select both the English and French UI languages, and to have the update location configured to look for sources in a network hosted layout. Refer to [Configure Visual Studio policies](configure-policies-for-enterprise-deployments.md#configuring-source-location-for-updates) and [Configure your layout to always include and provide the latest installer](create-a-network-installation-of-visual-studio.md#configure-the-layout-to-always-include-and-provide-the-latest-installer) for information on how to configure this.
 
 ```Example response.json
 {
@@ -220,7 +218,6 @@ In the following example, the `response.json` file initializes a Visual Studio E
 - [Uses a configuration *.vsconfig file that defines what workloads, components, and extensions to install](import-export-installation-configurations.md#use-a-configuration-file-to-initialize-the-contents-of-a-layout)
 - Selects both the English and French UI languages
 - Configures the [update location to look for sources in an http hosted layout](create-a-network-installation-of-visual-studio.md#making-your-layout-accessible-via-an-intranet-site)
-- Allows [programmatic loading of unsigned extensions](import-export-installation-configurations.md#extensions)
 - [Removes components transitioned to an out-of-support state at the time of updating the client](update-visual-studio.md#remove-out-of-support-components). See the list of out-of-support components [here](out-of-support-components.md).
 
 ```Example response.json
@@ -231,7 +228,7 @@ In the following example, the `response.json` file initializes a Visual Studio E
   "channelId": "VisualStudio.18.Stable",
   "productId": "Microsoft.VisualStudio.Product.Enterprise",
   "arch": "x64",
-  "config": ".\\Layout.vsconfig"
+  "config": ".\\Layout.vsconfig",
   "installPath": "C:\\/2026/",
   "quiet": false,
   "passive": false,
@@ -239,7 +236,6 @@ In the following example, the `response.json` file initializes a Visual Studio E
   "norestart": false,
   "useLatestInstaller": true,
   "removeOos": true,
-  "allowUnsignedExtensions": true,
 
   "addProductLang": [
     "en-US",
@@ -255,14 +251,14 @@ In the following example, the `response.json` file initializes a Visual Studio E
 
 ## Troubleshooting
 
-If you run into a problem with the Visual Studio bootstrapper throwing an error when you pair it with a `response.json` file, see [Troubleshoot network-related errors when you install or use Visual Studio](/troubleshoot/developer/visualstudio/installation/troubleshoot-network-related-errors#error-failed-to-parse-id-from-parent-process) page for more information.
+If the Visual Studio bootstrapper reports an error when you use a `response.json` file, see [Troubleshoot network-related errors](install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md#troubleshoot-network-related-errors).
 
 [!INCLUDE[install_get_support_md](includes/install_get_support_md.md)]
 
 ## Related content
-* [Visual Studio Administrators Guide](https://aka.ms/vs/admin/guide)
+* [Visual Studio Administrators Guide](visual-studio-administrator-guide.md)
 * [Create and maintain a network installation of Visual Studio](create-a-network-installation-of-visual-studio.md)
 * [Deploy Visual Studio from a layout onto a client machine](deploy-a-layout-onto-a-client-machine.md)
-* [Configure policies for enterprise deployments](configure-policies-for-enterprise-deployments.md)
+* [Configure Visual Studio policies](configure-policies-for-enterprise-deployments.md)
 * [Visual Studio workload and component IDs](workload-and-component-ids.md)
-* [Troubleshoot network-related errors when you install or use Visual Studio](/troubleshoot/developer/visualstudio/installation/troubleshoot-network-related-errors)
+* [Troubleshoot network-related errors](install-and-use-visual-studio-behind-a-firewall-or-proxy-server.md#troubleshoot-network-related-errors)

@@ -23,7 +23,7 @@ Click the edition names in the following table to see the available workload and
 
 ::: moniker range="vs-2022"
 
-**Updated for the [17.14 release](/visualstudio/releases/2022/release-notes/)**
+**Updated for the [17.14 release ↗](/visualstudio/releases/2022/release-notes/)**
 
 | **Edition** | **ID** | **Description** |
 | ----------- | ------ | --------------- |
@@ -34,9 +34,9 @@ Click the edition names in the following table to see the available workload and
 | [Visual&nbsp;Studio Build&nbsp;Tools&nbsp;2022](workload-component-id-vs-build-tools.md?view=vs-2022&preserve-view=true) | Microsoft.VisualStudio.Product.BuildTools | The Visual Studio Build Tools allows you to build native and managed MSBuild-based applications without requiring the Visual Studio IDE. There are options to install the Visual C++ compilers and libraries, MFC, ATL, and C++/CLI support. |
 | [Visual&nbsp;Studio Test&nbsp;Agent&nbsp;2022](workload-component-id-vs-test-agent.md?view=vs-2022&preserve-view=true)  | Microsoft.VisualStudio.Product.TestAgent | Supports running automated tests and load tests remotely |
 | [Visual&nbsp;Studio Load&nbsp;Test&nbsp;Controller 2022](workload-component-id-vs-test-controller.md?view=vs-2022&preserve-view=true) | Microsoft.VisualStudio.Product.TestController | Distribute automated tests to multiple machines |
-| [SQL Server Management Studio (SSMS)](/ssms/install/workload-component-ids) | Microsoft.VisualStudio.Product.Ssms | An integrated environment for managing SQL infrastructure. |
+| [SQL Server Management Studio (SSMS) ↗](/ssms/install/workload-component-ids) | Microsoft.VisualStudio.Product.Ssms | An integrated environment for managing SQL infrastructure. |
 
-For more information about how to use these lists, see the [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md?view=vs-2022&preserve-view=true) page and the [Update a Visual Studio extension for Visual Studio 2026](../extensibility/migration/update-visual-studio-extension.md) page.
+For more information about how to use these lists, see the [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md?view=vs-2022&preserve-view=true) page and the [Update a Visual Studio extension for Visual Studio 2026 ↗](../extensibility/migration/update-visual-studio-extension.md) page.
 
 > [!NOTE]
 > For a list of the workload and component IDs for the previous version, see [Visual Studio 2019 workload and component IDs](workload-and-component-ids.md?view=vs-2019&preserve-view=true)
@@ -52,9 +52,9 @@ For more information about how to use these lists, see the [Use command-line par
 | [Visual&nbsp;Studio Community&nbsp;2026](workload-component-id-vs-community.md?view=vs-2026&preserve-view=true) | Microsoft.VisualStudio.Product.Community | Free, fully featured IDE for students, open-source, and individual developers |
 | [Visual&nbsp;Studio Team&nbsp;Explorer&nbsp;2026](workload-component-id-vs-team-explorer.md?view=vs-2026&preserve-view=true) | Microsoft.VisualStudio.Product.TeamExplorer | Interact with Team Foundation Server and Azure DevOps Services without a Visual Studio developer toolset |
 | [Visual&nbsp;Studio Build&nbsp;Tools&nbsp;2026](workload-component-id-vs-build-tools.md?view=vs-2026&preserve-view=true) | Microsoft.VisualStudio.Product.BuildTools | The Visual Studio Build Tools allows you to build native and managed MSBuild-based applications without requiring the Visual Studio IDE. There are options to install the Visual C++ compilers and libraries, MFC, ATL, and C++/CLI support. |
-| [SQL Server Management Studio (SSMS)](/ssms/install/workload-component-ids) | Microsoft.VisualStudio.Product.Ssms | An integrated environment for managing SQL infrastructure. |
+| [SQL Server Management Studio (SSMS) ↗](/ssms/install/workload-component-ids) | Microsoft.VisualStudio.Product.Ssms | An integrated environment for managing SQL infrastructure. |
 
-For more information about how to use these lists, see the [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md) page and the [Update a Visual Studio extension for Visual Studio](../extensibility/migration/update-extension.md) page.
+For more information about how to use these lists, see the [Use command-line parameters to install Visual Studio](use-command-line-parameters-to-install-visual-studio.md) page and the [Update a Visual Studio extension for Visual Studio ↗](../extensibility/migration/update-visual-studio-extension.md) page.
 
 > [!NOTE]
 > For a list of the workload and component IDs for the previous version, see [Visual Studio 2022 workload and component IDs](workload-and-component-ids.md?view=vs-2022&preserve-view=true)

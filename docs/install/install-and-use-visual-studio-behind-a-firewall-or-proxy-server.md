@@ -1,7 +1,7 @@
 ---
 title: Install and use behind a firewall or proxy server
-description: Review the domain URLs, ports, and protocols that you might want to add to an allowlist or open if your organization uses a firewall or a proxy server.
-ms.date: 11/04/2025
+description: Review the domain URLs, ports, and protocols that you might want to add to an allow list or open if your organization uses a firewall or a proxy server.
+ms.date: 11/18/2026
 ms.topic: install-set-up-deploy
 helpviewer_keywords:
 - network installation, Visual Studio
@@ -12,21 +12,23 @@ author: madskristensen
 ms.author: madsk
 
 ms.subservice: installation
-#customer intent: As a developer using Visual Studio behind my organization's firewall or proxy server, I want to know which domains to add to my allowlist.
+#customer intent: As a developer using Visual Studio behind my organization's firewall or proxy server, I want to know which domains to add to my allow list.
 ---
 # Install and use Visual Studio and Azure Services behind a firewall or proxy server
 
-If you or your organization uses security measures such as a firewall or proxy server, there are domain URLs that you might want to add to an *allowlist*. To you have the best experience when you install and use Visual Studio and Azure Services, you might want to open certain ports and protocols.
+If you or your organization uses security measures such as a firewall or proxy server, you might need to add domain URLs to an *allow list* and open certain ports and protocols. Doing so gives you the best experience when you install and use Visual Studio and Azure Services.
 
-* [Install Visual Studio](#install-visual-studio): These tables include the domain URLs to add to an allowlist so that you have access to all the components and workloads that you want.
+* [Install Visual Studio](#install-visual-studio): These tables include the domain URLs to add to an allow list so that you have access to all the components and workloads that you want.
 
-* [Use Visual Studio and Azure Services](#use-visual-studio-and-azure-services): This table includes the domain URLs to add to an allowlist and the ports and protocols to open so that you have access to all the features and services that you want.
+* [Use Visual Studio and Azure Services](#use-visual-studio-and-azure-services): This table includes the domain URLs to add to an allow list and the ports and protocols to open so that you have access to all the features and services that you want.
 
 ## Install Visual Studio
 
-### URLs to add to an allowlist
+<a name="urls-to-add-to-an-allowlist"></a>
 
-The Visual Studio Installer downloads files from various domains and their download servers. You might want to add these domain URLs to an allowlist as trusted in the UI or in your deployment scripts.
+### URLs to add to an allow list
+
+The Visual Studio Installer downloads files from various domains and their download servers. You might want to add these domain URLs to an allow list as trusted in the UI or in your deployment scripts.
 
 #### Microsoft domains
 
@@ -76,7 +78,9 @@ The Visual Studio Installer downloads files from various domains and their downl
 
 ## Use Visual Studio and Azure Services
 
-### URLs to add to an allowlist and ports and protocols to open
+<a name="urls-to-add-to-an-allowlist-and-ports-and-protocols-to-open"></a>
+
+### URLs to add to an allow list and ports and protocols to open
 
 When you use Visual Studio or Azure Services behind a firewall or proxy server, you might want to allow the following URLs and open the associated ports and protocols.
 
@@ -122,7 +126,7 @@ When you use Visual Studio or Azure Services behind a firewall or proxy server, 
 | Azure Data Lake      | &#42;.azuredatalakestore.net <br>&#42;.azuredatalakeanalytics.net    | https/443    | Used to compile, submit, view, diagnose, and debug  jobs. Used to browse ADLS files. Used to upload and download files.  |
 | Packaging Service    | [account].visualstudio.com <br/> [account].\*.visualstudio.com <br/> \*.blob.core.windows.net <br/> registry.npmjs.org </br> nodejs.org <br/> dist.nuget.org <br/> nuget.org   | https/443     | The \*.npmjs.org, \*.nuget.org, and \*.nodejs.org are only required for certain build task scenarios (for example: NuGet Tool Installer, Node Tool Installer) or if you intend to use public upstream with your Feeds. The other three domains are required for core functionality of the Packaging service.   |
 | Azure DevOps Services    | \*.vsassets.io <br/> static2.sharepointonline.com <br/> dev.azure.com    |  <br/> | Used to connect with Azure DevOps Services     |
-| Azure Service Bus     | \*.servicebus.windows.net  | amqp/5671 and 5672, </br> http/80, </br> https/443   | Used to create queues, topics, and subscriptions.</br> Also used to send/receive messages to/from Service Bus queues and topics. See [Service Bus network ports](/azure/service-bus-messaging/service-bus-faq#what-ports-do-i-need-to-open-on-the-firewall).   |
+| Azure Service Bus     | \*.servicebus.windows.net  | amqp/5671 and 5672, </br> http/80, </br> https/443   | Used to create queues, topics, and subscriptions.</br> Also used to send/receive messages to/from Service Bus queues and topics. See [Service Bus networking FAQ ↗](/azure/service-bus-messaging/service-bus-faq).   |
 | Azure Cosmos DB    | \*.documents.azure.com    | https/443   | Used to call core document database APIs     |
 | Developer Community       | sendvsfeedback2.azurewebsites.net/api      | https/443     | Used to call Developer Community Feedback Tool APIs (my issues, search, vote, comment, submit, upload, resume)    |
 | Intellicode   | \*.intellicode.vsengsaas.visualstudio.com     | https/443    | Used to call Intellicode APIs      |
@@ -140,7 +144,26 @@ When you use Visual Studio or Azure Services behind a firewall or proxy server, 
 
 ## Troubleshoot network-related errors
 
-Sometimes, you might run in to network- or proxy-related errors when you install or use Visual Studio behind a firewall or a proxy server. For more information about solutions for such error messages, see [Troubleshooting network-related errors](/troubleshoot/developer/visualstudio/installation/troubleshoot-network-related-errors).
+First, identify which operation fails: acquiring layout content on a connected machine, installing or updating a client, or accessing a service from the IDE. Record the failing URL or layout path, the error message, and the account running that operation. Browser access as a signed-in administrator doesn't establish access for an unattended deployment running as `SYSTEM`.
+
+| Symptom | Check | Next action |
+|---|---|---|
+| The bootstrapper or Installer can't download packages | The failing host against the [installation allow list](#urls-to-add-to-an-allow-list), including redirected download hosts | Have your network administrator review firewall and proxy logs for the failing request and permit the required endpoints through your approved process. Retry acquisition as the deployment account. |
+| An installation or update can't read an internal layout | The actual deployment account's access to the share and its files | Follow [layout access checks](#check-access-to-an-internal-layout). |
+| An offline operation requests missing content | The requested edition, version, workloads, and languages against the layout contents | [Update and verify the full layout](create-a-network-installation-of-visual-studio.md#maintaining-your-layout), then repeat the approved transfer. |
+| Packages fail signature or certificate verification | Client trust and layout integrity | Follow [offline certificate preparation](install-certificates-for-visual-studio-offline.md) and layout verification. Don't disable signature validation or re-sign packages. |
+| Setup reports `Failed to parse ID from parent process` when using a response file on a network drive | Whether the elevated bootstrapper can access the drive or share under its elevated access token | Reestablish network access in the elevated deployment context and confirm that it can read both the bootstrapper and `response.json`. Follow [layout access checks](#check-access-to-an-internal-layout); don't disable User Account Control to bypass the problem. |
+| Setup succeeds but an IDE service can't connect | The service's [endpoints and ports](#use-visual-studio-and-azure-services) and the signed-in user's proxy configuration | Review [IDE proxy settings ↗](../ide/reference/proxy-settings.md). These settings aren't a substitute for testing Installer or system-context connectivity. |
+
+### Check access to an internal layout
+
+1. Determine the account used by your deployment system to run the installation or update. Test access from the target machine with that account, not only with an administrator's interactive account.
+1. For a file-share layout, check both share and NTFS permissions. Allow the intended deployment accounts or client machine accounts to read the content; keep write access restricted to administrators.
+1. Confirm that the layout contains the target packages and that clients aren't reading it while its content is being updated. Follow [layout maintenance guidance](create-a-network-installation-of-visual-studio.md#maintaining-your-layout) to stage and publish complete updates.
+1. Check the [client update source](update-a-network-installation-of-visual-studio.md#manually-configure-where-the-visual-studio-client-looks-for-updates). Editing the original layout's `response.json` doesn't redirect an existing installation.
+1. Retry the failed operation and verify the completion result and target version before expanding deployment.
+
+If the problem persists, collect the setup logs with the [Visual Studio Collect tool ↗](https://aka.ms/vscollect) and use **Report a Problem** in the Installer. Include the failing operation, account context, source location, and error message. Review logs for sensitive information before sharing them.
 
 ## Get support
 
@@ -158,6 +181,6 @@ Here are a few more support options:
 * [Troubleshoot proxy and firewall issues in Visual Studio](../ide/reference/proxy-firewall-troubleshoot.md)
 * [Connectivity requirements for Live Share](/visualstudio/liveshare/reference/connectivity/)
 * [Create and maintain a network installation of Visual Studio](create-a-network-installation-of-visual-studio.md)
-* [Troubleshoot network-related errors in Visual Studio](/troubleshoot/developer/visualstudio/installation/troubleshoot-network-related-errors)
+* [Deploy a layout onto client machines](deploy-a-layout-onto-a-client-machine.md)
 * [Visual Studio administrator guide](visual-studio-administrator-guide.md)
-* [Configure network settings for Copilot in Visual Studio](https://docs.github.com/en/copilot/configuring-github-copilot/configuring-network-settings-for-github-copilot?tool=visualstudio#configuring-proxy-settings-for-github-copilot)
+* [Configure network settings for Copilot in Visual Studio ↗](https://docs.github.com/en/copilot/how-tos/copilot-in-your-ide/set-up-copilot/configure-network-settings?tool=visualstudio)
