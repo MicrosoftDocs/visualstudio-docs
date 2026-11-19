@@ -2,7 +2,7 @@
 title: Update Visual Studio installation to recent release
 titleSuffix: ''
 description: Update your Visual Studio installation to the most recent release to access the latest feature changes and fixes for known issues. 
-ms.date: 4/21/2025
+ms.date: 11/18/2026
 ms.custom: vs-acquisition
 ms.topic: how-to
 ms.subservice: installation
@@ -20,7 +20,7 @@ recommendations: false
 
 Visual Studio must first be [installed on the machine](../install/install-visual-studio.md) before you can update it. 
 
-If you are an IT Administrator and want to configure your organization's clients to update from a network layout, refer to the [Visual Studio Administrators Guide](https://aka.ms/vs/admin/guide), particularly the section on [manage and update a network installation](../install/update-a-network-installation-of-visual-studio.md).
+If you're an IT administrator and want to configure your organization's clients to update from a network layout, see the [Visual Studio Administrators Guide](visual-studio-administrator-guide.md), particularly the section on [manage and update a network installation](../install/update-a-network-installation-of-visual-studio.md).
 
 ## Before you update
 
@@ -125,7 +125,7 @@ There are several different settings that can be customized to control the updat
 
 ### Configure source location of updates
 
-With Visual Studio 2022, you can now configure where your clients will get their updates from. These update source locations are called *channels*, and you can find more information about channel purpose and availability in the [Visual Studio Release Rhythm](/visualstudio/productinfo/release-rhythm) documentation. Microsoft makes both the Current and the Preview channels available to everyone, and the [long term servicing channels (LTSCs) are available to Enterprise and Professional customers for about 18 months](/visualstudio/productinfo/vs-servicing#long-term-servicing-channel-ltsc-support). IT Administrators can also configure the update source locations, such as network layouts, that the clients should have access to. Refer to the [Visual Studio Administrators Guide](https://aka.ms/vs/admin/guide) for additional approach recommendations, and to the [modifySettings command documentation](/visualstudio/install/use-command-line-parameters-to-install-visual-studio#modifysettings-command-and-command-line-parameters) for how to access this functionality programmatically.  
+With Visual Studio 2022, you can now configure where your clients get their updates. These update source locations are called *channels*. For more information about channel purpose and availability, see the [Visual Studio Release Rhythm](/visualstudio/productinfo/release-rhythm) documentation. Microsoft makes both the Current and the Preview channels available to everyone, and the [long-term servicing channels (LTSCs) are available to Enterprise and Professional customers for about 18 months](/visualstudio/productinfo/vs-servicing#long-term-servicing-channel-ltsc-support). IT administrators can also configure the update source locations, such as network layouts, that the clients should have access to. Refer to the [Visual Studio Administrators Guide](visual-studio-administrator-guide.md) for additional approach recommendations, and to the [modifySettings command documentation](/visualstudio/install/use-command-line-parameters-to-install-visual-studio#modifysettings-command-and-command-line-parameters) for how to access this functionality programmatically.  
 
 There are two ways to bring up the Update Settings dialog, which allows you to manually change the channel that your Visual Studio instance should get its updates from. 
 
@@ -252,7 +252,7 @@ With Visual Studio, you can configure where your clients will get their updates 
 > [!IMPORTANT]
 > Channels have been restructured for the latest prerelease of Visual Studio. The Insiders Channel replaces the "Preview Channel" that was available with Visual Studio 2022. The Stable Channel replaces the "Current Channel" that was available with Visual Studio 2022. The Stable Channel will not be available until Visual Studio 2026 is generally available. See [Visual Studio Release Rhythm](/visualstudio/releases/2026/release-rhythm).
 
-Microsoft makes both the Stable and the Insiders channels available to everyone, and the [long term servicing channels (LTSCs) are available to Enterprise and Professional customers for about 18 months](/visualstudio/productinfo/vs-servicing#long-term-servicing-channel-ltsc-support). IT Administrators can also configure the update source locations, such as network layouts, that the clients should have access to. Refer to the [Visual Studio Administrators Guide](https://aka.ms/vs/admin/guide) for additional approach recommendations, and to the [modifySettings command documentation](/visualstudio/install/use-command-line-parameters-to-install-visual-studio#modifysettings-command-and-command-line-parameters) for how to access this functionality programmatically.  
+Microsoft makes both the Stable and the Insiders channels available to everyone. The [long-term servicing channels (LTSCs) are available to eligible editions for a defined support period](/visualstudio/productinfo/vs-servicing#long-term-servicing-channel-ltsc-support). IT administrators can also configure the update source locations, such as network layouts, that the clients should access. Refer to the [Visual Studio Administrators Guide](visual-studio-administrator-guide.md) for additional approach recommendations, and to the [modifySettings command documentation](/visualstudio/install/use-command-line-parameters-to-install-visual-studio#modifysettings-command-and-command-line-parameters) for how to access this functionality programmatically.  
 
 There are two ways to bring up the Update Settings dialog, which allows you to manually change the channel that your Visual Studio instance should get its updates from. 
 

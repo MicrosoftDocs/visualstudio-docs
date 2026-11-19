@@ -2,7 +2,7 @@
 title: Import or export installation configurations
 titleSuffix: ''
 description: "Learn how to import, export, and share your Visual Studio installation configuration by using a .vsconfig file."
-ms.date: 06/26/2026
+ms.date: 11/18/2026
 ms.topic: how-to
 helpviewer_keywords:
 - import installation configuration
@@ -108,7 +108,7 @@ vs_professional.exe --installPath "C:\Program Files\Microsoft Visual Studio\2022
 > [!IMPORTANT]
 > For a first-time installation, use the edition bootstrapper (`vs_professional.exe`, `vs_enterprise.exe`, and so on), not `setup.exe modify`.
 >
-> If your *.vsconfig* file includes extensions and you're running in `--passive` or `--quiet` mode, include `--allowUnsignedExtensions`.
+> Prefer signed extensions. If your organization explicitly approves an unsigned extension, use `--allowUnsignedExtensions` to allow unsigned extensions when installing with `--passive` or `--quiet`. See [Extensions](#extensions).
 
 ### Programmatically use a configuration file to add components to an existing installation
  
@@ -117,7 +117,7 @@ You can use the `--config` parameter with `modify` to add components to an exist
 :::moniker range="visualstudio"
 
 ```shell
-"C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" modify --installPath "C:\Program Files\Microsoft Visual Studio\18\Professional" --config "C:\myconfig.vsconfig" --passive --allowUnsignedExtensions
+"C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" modify --installPath "C:\Program Files\Microsoft Visual Studio\18\Professional" --config "C:\myconfig.vsconfig" --passive
 ```
 
 :::moniker-end
@@ -125,7 +125,7 @@ You can use the `--config` parameter with `modify` to add components to an exist
 :::moniker range="vs-2022"
 
 ```shell
-"C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" modify --installPath "C:\Program Files\Microsoft Visual Studio\2022\Professional" --config "C:\myconfig.vsconfig" --passive --allowUnsignedExtensions
+"C:\Program Files (x86)\Microsoft Visual Studio\Installer\setup.exe" modify --installPath "C:\Program Files\Microsoft Visual Studio\2022\Professional" --config "C:\myconfig.vsconfig" --passive
 ```
 
 :::moniker-end
@@ -183,7 +183,7 @@ There are a few known caveats with supporting extensions in the config file.
 - Since the extensions loaded via a config file are installed instance wide, you must have admin permissions or have been granted control of the installer via the [AllowStandardUserControl](https://aka.ms/vs/setup/policies) policy in order to install them. Any extensions previously installed by the Visual Studio Extension Manager had the capability of being (and were typically) installed per user, not instance wide, and the user didn't need to have admin permissions to install.
 - The Visual Studio Installer currently only supports importing certain types of extensions, such as those contained in a `*.vsix` package or those that aren't exceedingly *complicated*. If you have an extension that isn't being loaded via a config file properly, please let us know about it via a new [Developer Community suggestion](https://developercommunity.visualstudio.com/VisualStudio/suggest).  
 - Only extensions that are hosted on the [Visual Studio Marketplace](https://marketplace.visualstudio.com/) trigger the automatic *missing* detection and installation if the *.vsconfig* file is in a solution directory. If you'd like this logic to include extensions that were installed from a non-Marketplace location, [please provide details about your scenario here](https://developercommunity.visualstudio.com/t/VS-solution-load-should-detect-and-promp/10607414).
-- If you're programmatically using a *.vsconfig* file to add extensions, then you also need to use the [`--allowUnsignedExtensions`](use-command-line-parameters-to-install-visual-studio.md) parameter to allow *unsigned* extensions to be loaded in `--passive` or `--quiet` context. If you're installing from a layout, you can add the [`"allowUnsignedExtensions" : true` syntax to your `response.json` file](/visualstudio/install/automated-installation-with-response-file#example-customized-layout-response-file-content) to achieve a similar effect.
+- Prefer signed extensions. If your organization explicitly approves unsigned extensions, use [`--allowUnsignedExtensions`](use-command-line-parameters-to-install-visual-studio.md) to allow them when applying a *.vsconfig* file in `--passive` or `--quiet` mode. For an installation from a layout, you can instead add `"allowUnsignedExtensions": true` to the [response file](automated-installation-with-response-file.md). This option isn't limited to a specific extension, so review the configuration before applying it.
 
 All instance-wide extensions are automatically updated approximately once a day via a scheduled task. For more information, see [Automatic extension updates](/visualstudio/ide/finding-and-using-visual-studio-extensions#automatic-extension-updates).
 
@@ -204,7 +204,6 @@ The *.vsconfig* file format that includes extensions should look like this.
     // The extensions must be in a *.vsix package
     // Make sure that the extensions you specify are designed to work with that version of Visual Studio.
     // examples below
-    "https://marketplace.visualstudio.com/items?itemName=MadsKristensen.ImageOptimizer64bit",   //unsigned extension
     "https://marketplace.visualstudio.com/items?itemName=vsext.RegexMatchVisualizer",  //signed extension
     "c:\\mylocaldrive\\someextension.vsix",
     "\\\\server\\share\\myextension.vsix",
@@ -221,4 +220,4 @@ The *.vsconfig* file format that includes extensions should look like this.
 * [Create a network installation of Visual Studio](create-a-network-installation-of-visual-studio.md)
 * [Update a Visual Studio client that was installed from a layout](update-a-network-installation-of-visual-studio.md)
 * [Control updates to network-based Visual Studio deployments](controlling-updates-to-visual-studio-deployments.md)
-* [Configure policies for enterprise deployments](configure-policies-for-enterprise-deployments.md)
+* [Configure Visual Studio policies](configure-policies-for-enterprise-deployments.md)
