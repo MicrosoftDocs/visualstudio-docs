@@ -274,6 +274,8 @@
     href: solutions-overview.md
   - name: Solution (.sln) File
     href: solution-dot-sln-file.md
+  - name: Solution (.slnx) File
+    href: solution-dot-slnx-file.md
   - name: Solution User Options (.suo) File
     href: solution-user-options-dot-suo-file.md
 - name: Extending Properties
