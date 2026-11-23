@@ -116,7 +116,7 @@ A task shouldn't depend on any relative order of parameter-property setter invoc
 
 Choose clear, descriptive PascalCase names for task parameter properties. The public C# property name is also the name of the corresponding attribute in the task's XML element, so choose names that make sense in both contexts.
 
-Don't use task parameter names that start with the prefix `MSBuild`; it is reserved for MSBuild, which uses names such as `MSBuildRuntime` and `MSBuildArchitecture` for its own [phantom task parameters](how-to-configure-targets-and-tasks.md#phantom-task-parameters).
+Don't use task parameter names that start with the prefix `MSBuild`. MSBuild reserves this prefix for itself and uses names such as `MSBuildRuntime` and `MSBuildArchitecture` for its own [phantom task parameters](how-to-configure-targets-and-tasks.md#phantom-task-parameters).
 
 ### Task parameter types
 
