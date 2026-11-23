@@ -1,7 +1,7 @@
 ---
 title: "GetReferenceAssemblyPaths Task"
 description: Use the MSBuild GetReferenceAssemblyPaths task to return the reference assembly paths of the various frameworks.
-ms.date: "11/04/2016"
+ms.date: "11/23/2026"
 ms.topic: "reference"
 dev_langs:
   - "VB"
@@ -26,6 +26,8 @@ Returns the reference assembly paths of the various frameworks.
 |`FullFrameworkReferenceAssemblyPaths`|Optional `String[]` output parameter.<br /><br /> Returns the path, based on the `TargetFrameworkMoniker` parameter, without considering the profile part of the moniker. If the `TargetFrameworkMoniker` is null or empty, this path will be `String.Empty`.|
 |`TargetFrameworkMoniker`|Optional `String` parameter.<br /><br /> Specifies the target framework moniker that is associated with the reference assembly paths.|
 |`RootPath`|Optional `String` parameter.<br /><br /> Specifies the root path to use to generate the reference assembly path.|
+|`SuppressNotFoundError`|Optional `Boolean` parameter.<br /><br /> If `true`, suppresses errors and warnings when reference assemblies are not found. The default is `false`.|
+|`TargetFrameworkFallbackSearchPaths`|Optional `String` parameter.<br /><br /> Specifies semicolon-separated paths to search, in order, if reference assemblies are not found under `RootPath`.|
 |`BypassFrameworkInstallChecks`|Optional <xref:System.Boolean> parameter.<br /><br /> If `true`, bypasses the basic checks that `GetReferenceAssemblyPaths` performs by default to ensure that certain runtime frameworks are installed, depending on the target framework.|
 |`TargetFrameworkMonikerDisplayName`|Optional `String` output parameter.<br /><br /> Specifies the display name for the target framework moniker.|
 
