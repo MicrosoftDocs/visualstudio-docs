@@ -1,7 +1,7 @@
 ---
 title: Delete Task
 description: Learn about parameters and considerations for using the MSBuild Delete task to delete specified files.
-ms.date: 07/08/2022
+ms.date: 11/23/2026
 ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/msbuild/2003#Delete
@@ -29,6 +29,8 @@ The following table describes the parameters of the `Delete` task.
 |---------------|-----------------|
 |`DeletedFiles`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Specifies the files that were successfully deleted.|
 |`Files`|Required <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies the files to delete.|
+|`Retries`|Optional `Int32` parameter.<br /><br /> Specifies the number of retries after a deletion attempt fails. The default is `0`. Available in MSBuild 17.6 and later.|
+|`RetryDelayMilliseconds`|Optional `Int32` parameter.<br /><br /> Specifies the delay in milliseconds between retries. The default is `1000`. Available in MSBuild 17.6 and later.|
 |`TreatErrorsAsWarnings`|Optional `Boolean` parameter<br /><br /> If `true`, errors are logged as warnings. The default value is `false`.|
 
 ## Remarks

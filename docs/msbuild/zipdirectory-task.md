@@ -1,7 +1,7 @@
 ---
 title: ZipDirectory Task
 description: Learn how MSBuild uses the ZipDirectory task to create a .zip archive from the contents of a directory.
-ms.date: 11/04/2016
+ms.date: 11/23/2026
 ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -34,9 +34,21 @@ Creates a *.zip* archive from the contents of a directory.
 
 |Parameter|Description|
 |---------------|-----------------|
+|`CompressionLevel`|Optional `String` parameter.<br /><br /> Sets the compression level for the archive. Available in MSBuild 18.0 and later. See [Compression level](#compression-level).|
 |`DestinationFile`|Required <xref:Microsoft.Build.Framework.ITaskItem> parameter<br /><br /> The full path to the *.zip* file to create.|
 |`Overwrite`|Optional `Boolean` parameter.<br /><br /> If `true`, the destination file will be overwritten if it exists. Defaults to `false`.|
 |`SourceDirectory`|Required <xref:Microsoft.Build.Framework.ITaskItem> parameter.<br /><br /> Specifies the directory to create a *.zip* archive from.|
+
+### Compression level
+
+The `CompressionLevel` parameter accepts the following case-insensitive values:
+
+- `Optimal`: Balances compression speed and archive size.
+- `Fastest`: Favors speed over archive size.
+- `NoCompression`: Stores files without compression.
+- `SmallestSize`: Favors archive size over speed. This value is supported only when MSBuild runs on .NET, not .NET Framework.
+
+If you omit `CompressionLevel`, the task uses the default compression level. If you specify an unsupported value, the task logs a warning and uses the default compression level. For example, `SmallestSize` causes a warning and uses the default compression level when MSBuild runs on .NET Framework. For more information about these values, see <xref:System.IO.Compression.CompressionLevel>.
 
 ## Remarks
 
@@ -44,7 +56,7 @@ Creates a *.zip* archive from the contents of a directory.
 
 ## Example
 
- The following example (if used as an imported *.targets* file) creates a *.zip* archive from the output directory after building a project. The `$(OutputPath)` property would normally be defined in an MSBuild project file, so a project file that imports the following file would produce a zip archive `output.zip`:
+The following example, when imported as a *.targets* file, creates a *.zip* archive from the output directory after a build. A project that defines `$(OutputPath)` and imports this file produces an archive named `output.zip`. The example requires MSBuild 18.0 or later.
 
 ```xml
 <Project>
@@ -52,7 +64,8 @@ Creates a *.zip* archive from the contents of a directory.
     <Target Name="ZipOutputPath" AfterTargets="Build">
         <ZipDirectory
             SourceDirectory="$(OutputPath)"
-            DestinationFile="$(MSBuildProjectDirectory)\output.zip" />
+            DestinationFile="$(MSBuildProjectDirectory)\output.zip"
+            CompressionLevel="Fastest" />
     </Target>
 
 </Project>

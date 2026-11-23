@@ -1,7 +1,7 @@
 ---
 title: GenerateApplicationManifest Task
 description: Use the MSBuild GenerateApplicationManifest task to generates a ClickOnce application manifest or a native manifest.
-ms.date: 11/04/2016
+ms.date: 11/23/2026
 ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/msbuild/2003#GenerateApplicationManifest
@@ -51,6 +51,8 @@ The following table describes the parameters for the `GenerateApplicationManifes
 | `Product` | Optional `String` parameter.<br /><br /> Specifies the name of the application. If this parameter is not specified, the name is inferred from the identity of the generated manifest. This name is used for the shortcut name on the **Start** menu and is part of the name that appears in the **Add or Remove Programs** dialog box. |
 | `Publisher` | Optional `String` parameter.<br /><br /> Specifies the publisher of the application. If this parameter is not specified, the name is inferred from the registered user, or the identity of the generated manifest. This name is used for the folder name on the **Start** menu and is part of the name that appears in the **Add or Remove Programs** dialog box. |
 | `RequiresMinimumFramework35SP1` | Optional `Boolean` parameter.<br /><br /> If true, the application requires the .NET Framework 3.5 SP1 or a more recent version. |
+| `SuiteName` | Optional `String` parameter.<br /><br /> Specifies the **Start** menu folder for the deployed application. This parameter applies when `UseApplicationTrust` is `true`. |
+| `SupportUrl` | Optional `String` parameter.<br /><br /> Specifies the support link for the deployed application. This parameter applies when `UseApplicationTrust` is `true`. |
 | `TargetCulture` | Optional `String` parameter.<br /><br /> Identifies the culture of the application and specifies the `Language` field of the assembly identity for the generated manifest. If this parameter is not specified, it is assumed the application is culture invariant. |
 | `TargetFrameworkMoniker` | Optional `String` parameter.<br /><br /> Specifies the target framework moniker. |
 | `TargetFrameworkProfile` | Optional `String` parameter.<br /><br /> Specifies the target framework profile. |
