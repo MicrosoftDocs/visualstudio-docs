@@ -1,7 +1,7 @@
 ---
 title: Copy Task
 description: Learn how to use the MSBuild Copy task to copy files to a new file or folder location in the file system.
-ms.date: 11/04/2016
+ms.date: 11/23/2026
 ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/msbuild/2003#Copy
@@ -32,6 +32,7 @@ The following table describes the parameters of the `Copy` task.
 |`CopiedFiles`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` output parameter.<br /><br /> Contains the items that were successfully copied, *including* those that were not actually copied, but were skipped because they were already up-to-date and `SkipUnchangedFiles` was `true`.|
 |`DestinationFiles`|Optional <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies the list of files to copy the source files to. This list is expected to be a one-to-one mapping with the list specified in the `SourceFiles` parameter. That is, the first file specified in `SourceFiles` will be copied to the first location specified in `DestinationFiles`, and so forth.|
 |`DestinationFolder`|Optional <xref:Microsoft.Build.Framework.ITaskItem> parameter.<br /><br /> Specifies the directory to which you want to copy the files. This must be a directory, not a file. If the directory does not exist, it is created automatically.|
+|`ErrorIfLinkFails`|Optional `Boolean` parameter.<br /><br /> If `true`, the task fails when it cannot create a hard link or symbolic link instead of falling back to a file copy. Requires `UseHardlinksIfPossible` or `UseSymbolicLinksIfPossible` to be `true`. The default is `false`. Available in MSBuild 16.4 and later.|
 |`OverwriteReadOnlyFiles`|Optional `Boolean` parameter.<br /><br /> Overwrite files even if they are marked as read only files|
 |`Retries`|Optional `Int32` parameter.<br /><br /> Specifies how many times to attempt to copy, if all previous attempts have failed. Defaults to zero.<br /><br /> **Caution:** The use of retries can mask a synchronization problem in your build process.<br /><br /> **Note:** While the *task* default is zero retries, uses of the task often pass `$(CopyRetryCount)` which is nonzero by default.|
 |`RetryDelayMilliseconds`|Optional `Int32` parameter.<br /><br /> Specifies the delay between any necessary retries. Defaults to the RetryDelayMillisecondsDefault argument, which is passed to the CopyTask constructor.|
@@ -39,6 +40,7 @@ The following table describes the parameters of the `Copy` task.
 |`SourceFiles`|Required <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies the files to copy.|
 |`UseHardlinksIfPossible`|Optional `Boolean` parameter.<br /><br /> If `true`, creates hard links for the copied files instead of copying the files.|
 |`UseSymbolicLinksIfPossible`|Optional `Boolean` parameter.<br /><br />If `true`, creates symbolic links for the copied files rather than copy the files, if it's possible to do so.|
+|`WroteAtLeastOneFile`|Optional `Boolean` output parameter.<br /><br /> Returns `true` if the task copied or linked at least one file. Available in MSBuild 16.11.1 and later.|
 
 ## Warnings
 
