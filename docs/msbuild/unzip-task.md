@@ -1,7 +1,7 @@
 ---
 title: Unzip Task
 description: Learn about parameters and usage of the MSBuild Unzip task, which unzips a .zip archive to a specified location.
-ms.date: 11/04/2016
+ms.date: 11/23/2026
 ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -35,6 +35,8 @@ Unzips a *.zip* archive to the specified location.
 |Parameter|Description|
 |---------------|-----------------|
 |`DestinationFolder`|Required <xref:Microsoft.Build.Framework.ITaskItem> parameter<br /><br /> Specifies the destination folder to unzip the file to.|
+|`Exclude`|Optional `String` parameter.<br /><br /> Specifies one or more semicolon-separated MSBuild glob patterns for archive entries to exclude. Exclusion takes precedence over inclusion. Available in MSBuild 16.10 and later.|
+|`Include`|Optional `String` parameter.<br /><br /> Specifies one or more semicolon-separated MSBuild glob patterns for archive entries to include. If omitted, all entries are included unless excluded. Available in MSBuild 16.10 and later.|
 |`OverwriteReadOnlyFiles`|Optional `Boolean` parameter.<br /><br /> If `true`, overwrites read-only files. Defaults to `false`.|
 |`SkipUnchangedFiles`|Optional `Boolean` parameter.<br /><br /> If `true`, skips unzipping files that are unchanged. Defaults to `true`. The `Unzip` task considers files to be unchanged if they have the same size and the same last modified time.|
 |`SourceFiles`|Required <xref:Microsoft.Build.Framework.ITaskItem>`[]` parameter.<br /><br /> Specifies one or more the files to unzip. When specifying multiple files they are unzipped in order to the same folder.|

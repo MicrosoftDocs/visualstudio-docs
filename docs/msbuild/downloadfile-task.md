@@ -1,7 +1,7 @@
 ---
 title: DownloadFile Task
 description: Learn about the parameters of the MSBuild DownloadFile task, which downloads specified files using HTTP.
-ms.date: 11/04/2016
+ms.date: 11/23/2026
 ms.reviewer: ''
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -41,6 +41,7 @@ The following table describes the parameters of the `DownloadFile` task.
 |`RetryDelayMilliseconds`|Optional `Int32` parameter.<br /><br /> Specifies the delay in milliseconds between any necessary retries. Defaults to 5000.|
 |`SkipUnchangedFiles`|Optional `Boolean` parameter.<br /><br /> If `true`, skips the downloading of files that are unchanged. Defaults to `true`. The `DownloadFile` task considers files to be unchanged if they have the same size and the same last modified time according to the remote server. <br /><br />**Note:**  Not all HTTP servers indicate the last modified date of files will cause the file to be downloaded again.|
 |`SourceUrl`|Required `String` parameter.<br /><br /> Specifies the URL to download.|
+|`Timeout`|Optional `Int32` parameter.<br /><br /> Specifies the request timeout in milliseconds. The default is `100000`. Available in MSBuild 17.3 and later.|
 
 ## Remarks
 
