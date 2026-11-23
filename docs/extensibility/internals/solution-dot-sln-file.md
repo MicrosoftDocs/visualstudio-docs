@@ -1,7 +1,7 @@
 ---
 title: Project Solution (.sln) file
 description: Explore the project solution (.sln) file, which is one of the files that maintains state information for a project in Visual Studio.
-ms.date: 02/02/2022
+ms.date: 11/17/2026
 ms.topic: how-to
 helpviewer_keywords:
 - sln files, VSPackages
@@ -14,13 +14,15 @@ ms.subservice: extensibility-integration
 ---
 # Solution (.sln) file
 
-A solution is a structure for organizing projects in Visual Studio. The solution maintains the state information for projects in two files:
+In Visual Studio, solutions organize projects. These files store the solution information:
 
-- `.sln` file (text-based, shared)
+- **Solution file (`.sln` or `.slnx`):** Stores shared solution information in the traditional, text-based `.sln` format or the [newer, XML-based `.slnx` format](solution-dot-slnx-file.md).
+- **Solution user options file (`.suo`):** Stores user-specific solution options in a binary format. For more information, see [Solution user options (.suo) file](solution-user-options-dot-suo-file.md).
 
-- `.suo` file (binary, user-specific solution options)
+Each project file defines its own source files, references, and project-specific build settings.
 
-For more information about .suo files, see [Solution User Options (.suo) File](../../extensibility/internals/solution-user-options-dot-suo-file.md).
+> [!NOTE]
+> **This article describes the `.sln` format.** For the newer `.slnx` format, see [Solution (.slnx) file](solution-dot-slnx-file.md).
 
 If your VSPackage is loaded because of being referenced in the `.sln` file, the environment calls <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionProps.ReadSolutionProps%2A> to read in the `.sln` file.
 
@@ -136,6 +138,7 @@ Only the `.sln` file contains entries in the `preSolution` and `postSolution` se
 
 ## Related content
 
+- [Solution (.slnx) file format](solution-dot-slnx-file.md)
 - <xref:Microsoft.VisualStudio.Shell.Interop.IVsPersistSolutionProps>
 - [Solution User Options (.suo) File](../../extensibility/internals/solution-user-options-dot-suo-file.md)
 - [Solutions](../../extensibility/internals/solutions-overview.md)
