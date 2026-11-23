@@ -1,7 +1,7 @@
 ---
 title: Message Task
 description: Learn about the parameters and settings for the MSBuild Message task, which logs messages during builds.
-ms.date: 11/04/2016
+ms.date: 11/23/2026
 ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/msbuild/2003#Message
@@ -27,8 +27,12 @@ Logs a message during a build.
 
 |Parameter|Description|
 |---------------|-----------------|
+|`Code`|Optional `String` parameter.<br /><br /> Specifies the message code. The task includes it in the logged message when `File` is specified or `IsCritical` is `true`.|
+|`File`|Optional `String` parameter.<br /><br /> Specifies the file associated with the message. For a critical message, the default is the file containing the task.|
+|`HelpKeyword`|Optional `String` parameter.<br /><br /> Specifies the help keyword. The task includes it in the logged message when `File` is specified or `IsCritical` is `true`.|
 |`Importance`|Optional `String` parameter.<br /><br /> Specifies the importance of the message. This parameter can have a value of `high`, `normal` or `low`. The default value is `normal`.|
-|`Text`|Optional `String` parameter.<br /><br /> The error text to log.|
+|`IsCritical`|Optional `Boolean` parameter.<br /><br /> If `true`, logs the message as a critical message. The default is `false`.|
+|`Text`|Optional `String` parameter.<br /><br /> The message text to log.|
 
 ## Remarks
 

@@ -1,7 +1,7 @@
 ---
 title: GenerateDeploymentManifest Task
 description: Learn to use the MSBuild GenerateDeploymentManifest task to generate a ClickOnce deployment manifest.
-ms.date: 11/04/2016
+ms.date: 11/23/2026
 ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/msbuild/2003#GenerateDeploymentManifest
@@ -44,7 +44,7 @@ The following table describes the parameters for the `GenerateDeploymentManifest
 | `Platform` | Optional `String` parameter.<br /><br /> Specifies the target platform of the application. This parameter can have the following values:<br /><br /> -   `AnyCPU`<br />-   `x86`<br />-   `x64`<br />-   `Itanium`<br /><br /> The default value is `AnyCPU`. |
 | `Product` | Optional `String` parameter.<br /><br /> Specifies the name of the application. If this parameter is not specified, the name is inferred from the identity of the generated manifest. This name is used for the shortcut name on the **Start** menu and is part of the name that appears in the **Add or Remove Programs** dialog box. |
 | `Publisher` | Optional `String` parameter.<br /><br /> Specifies the publisher of the application. If this parameter is not specified, the name is inferred from the registered user, or the identity of the generated manifest. This name is used for the folder name on the **Start** menu and is part of the name that appears in the **Add or Remove Programs** dialog box. |
-| `SuiteNamel` | Optional `String` parameter.<br /><br /> Specifies the name of the folder on the **Start** menu where the application is located after ClickOnce deployment. |
+| `SuiteName` | Optional `String` parameter.<br /><br /> Specifies the name of the **Start** menu folder for the deployed application. The task ignores this parameter for target framework versions earlier than 3.5. |
 | `SupportUrl` | Optional `String` parameter.<br /><br /> Specifies the link that appears in the **Add or Remove Programs** dialog box for the application. The specified value should be a fully qualified URL or UNC path. |
 | `TargetCulture` | Optional `String` parameter.<br /><br /> Identifies the culture of the application, and specifies the `Language` field of the assembly identity for the generated manifest. If this parameter is not specified, it is assumed that the application is culture invariant. |
 | `TrustUrlParameters` | Optional `Boolean` parameter.<br /><br /> Specifies whether URL query-string parameters should be made available to the application. The default value of this parameter is `false`, which indicates that parameters will not be available to the application. |
