@@ -1,7 +1,7 @@
 ---
 title: UsingTask Element (MSBuild)
 description: Learn about the MSBuild UsingTask element, which maps the task referenced in a task element to the assembly that contains the task implementation.
-ms.date: 12/16/2025
+ms.date: 11/18/2026
 ms.topic: reference
 f1_keywords:
 - http://schemas.microsoft.com/developer/msbuild/2003#UsingTask
@@ -44,7 +44,7 @@ Maps the task that is referenced in a [Task](../msbuild/task-element-msbuild.md)
 
 |Attribute|Description|
 |---------------|-----------------|
-|`Architecture`|Optional attribute.<br /><br /> Specifies that the task must run in a process of the specified bitness. If the current process does not satisfy the requirement, the task runs in a task host process that does.<br /><br /> Supported values are `x86` (32-bit), `x64` (64-bit), `CurrentArchitecture`, and `*` (any architecture).|  
+|`Architecture`|Optional attribute.<br /><br /> Specifies that the task must run in a process with the specified architecture. If the current process doesn't satisfy the requirement, the task will run in a task host process that does.<br /><br /> Supported values are `x86` (32-bit), `x64` (64-bit), `arm64` (64-bit ARM), `CurrentArchitecture`, and `*` (any architecture).|
 |`AssemblyName`|Either the `AssemblyName` attribute or the `AssemblyFile` attribute is required.<br /><br /> The name of the assembly to load. The `AssemblyName` attribute accepts strong-named assemblies, although strong-naming is not required. Using this attribute is equivalent to loading an assembly by using the <xref:System.Reflection.Assembly.Load%2A> method in .NET.<br /><br /> You cannot use this attribute if the `AssemblyFile` attribute is used.|
 |`AssemblyFile`|Either the `AssemblyName` or the `AssemblyFile` attribute is required.<br /><br /> The file path of the assembly. This attribute accepts full paths or relative paths. Relative paths are relative to the directory of the project file or targets file where the `UsingTask` element is declared. Using this attribute is equivalent to loading an assembly by using the <xref:System.Reflection.Assembly.LoadFrom%2A> method in .NET.<br /><br /> You cannot use this attribute if the `AssemblyName` attribute is used.|
 |`Override`|Optional attribute.<br /><br /> Specifies that this `UsingTask` element should be higher priority than other elements defining the same task name. Only one override is permitted per task name. Added in MSBuild 17.2.|  

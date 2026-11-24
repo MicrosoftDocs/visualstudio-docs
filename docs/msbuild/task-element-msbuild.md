@@ -1,7 +1,7 @@
 ---
 title: Task Element of Target (MSBuild)
 description: Learn about the Task element of MSBuild Target, which creates and executes an instance of an MSBuild task. 
-ms.date: 03/13/2017
+ms.date: 11/18/2026
 ms.topic: reference
 dev_langs:
 - VB
@@ -27,7 +27,9 @@ Creates and executes an instance of an MSBuild task. The element name is determi
 ```xml
 <Task Parameter1="Value1"... ParameterN="ValueN"
     ContinueOnError="WarnAndContinue/true/ErrorAndContinue/ErrorAndStop/false"
-    Condition="'String A' == 'String B'" >
+    Condition="'String A' == 'String B'"
+    MSBuildRuntime="Runtime"
+    MSBuildArchitecture="Architecture" >
     <Output... />
 </Task>
 ```
@@ -42,7 +44,9 @@ Creates and executes an instance of an MSBuild task. The element name is determi
 |---------------|-----------------|
 |`Condition`|Optional attribute. Condition to be evaluated. For more information, see [Conditions](../msbuild/msbuild-conditions.md).|
 |`ContinueOnError`|Optional attribute. Can contain one of the following values:<br /><br /> -   **WarnAndContinue** or **true**. When a task fails, subsequent tasks in the [Target](../msbuild/target-element-msbuild.md) element and the build continue to execute, and all errors from the task are treated as warnings.<br />-   **ErrorAndContinue**. When a task fails, subsequent tasks in the `Target` element and the build continue to execute, and all errors from the task are treated as errors.<br />-   **ErrorAndStop** or **false** (default). When a task fails, the remaining tasks in the `Target` element and the build aren't executed, and the entire `Target` element and the build is considered to have failed.<br /><br /> Versions of the .NET Framework before 4.5 supported only the `true` and `false` values.<br /><br /> For more information, see [How to: Ignore errors in tasks](../msbuild/how-to-ignore-errors-in-tasks.md).|
-|`Parameter`|Required if the task class contains one or more properties labeled with the `[Required]` attribute.<br /><br /> A user-defined task parameter that contains the parameter value as its value. There can be any number of parameters in the `Task` element, with each attribute mapping to a .NET property in the task class.|
+|`MSBuildArchitecture`|Optional attribute. Specifies the process architecture for this task. For more information, see [Phantom task parameters](../msbuild/how-to-configure-targets-and-tasks.md#phantom-task-parameters).|
+|`MSBuildRuntime`|Optional attribute. Specifies the runtime for this task. For more information, see [Phantom task parameters](../msbuild/how-to-configure-targets-and-tasks.md#phantom-task-parameters).|
+|`Parameter`|Required if the task class contains one or more properties labeled with the `[Required]` attribute.<br /><br /> A user-defined task parameter that contains the parameter value as its value. There can be any number of task-specific parameters in the `Task` element, each mapping to a .NET property in the task class.|
 
 ### Child elements
 
