@@ -1,7 +1,7 @@
 ---
 title: Write tasks for MSBuild
 description: Explore how you can create your own tasks to provide the code that runs during the MSBuild build process for your projects.
-ms.date: 04/29/2025
+ms.date: 11/18/2026
 ms.topic: how-to
 helpviewer_keywords:
 - MSBuild, writing tasks
@@ -111,6 +111,12 @@ For example, in the following project, only the setter for `Input3` is called.
 ```
 
 A task shouldn't depend on any relative order of parameter-property setter invocation.
+
+### Task parameter naming
+
+Choose clear, descriptive PascalCase names for task parameter properties. The public C# property name is also the name of the corresponding attribute in the task's XML element, so choose names that make sense in both contexts.
+
+Don't use task parameter names that start with the prefix `MSBuild`. MSBuild reserves this prefix for itself and uses names such as `MSBuildRuntime` and `MSBuildArchitecture` for its own [phantom task parameters](how-to-configure-targets-and-tasks.md#phantom-task-parameters).
 
 ### Task parameter types
 

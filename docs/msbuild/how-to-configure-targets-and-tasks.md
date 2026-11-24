@@ -1,7 +1,7 @@
 ---
 title: 'Configure Targets and Tasks'
 description: Learn how to set selected MSBuild tasks to run in the environment they target, regardless of the environment of the development computer.
-ms.date: 12/16/2025
+ms.date: 11/18/2026
 ms.topic: how-to
 author: baronfel
 ms.author: chethusk
@@ -21,7 +21,7 @@ The following `UsingTask` attributes affect all operations of a task in a partic
 
 - The `Runtime` attribute, if present, sets the common language runtime (CLR) version, and can take any one of these values: `CLR2`, `CLR4`, `CurrentRuntime`, `NET` (starting in .NET SDK 10/Visual Studio 2026/MSBuild 18.0) or `*` (any runtime).
 
-- The `Architecture` attribute, if present, sets the platform and bitness, and can take any one of these values: `x86`, `x64`, `CurrentArchitecture`, or `*` (any architecture).
+- The `Architecture` attribute, if present, sets the platform and bitness, and can take any one of these values: `x86`, `x64`, `arm64`, `CurrentArchitecture`, or `*` (any architecture).
 
 - The `TaskFactory` attribute, if present, sets the task factory that creates and runs the task instance, and takes only the value `TaskHostFactory`. For more information, see [Task factories](#task-factories) later in this document.
 
@@ -121,7 +121,7 @@ The `RoslynCodeTaskFactory` provides a mechanism by which you can write C# or Vi
 MSBuild executes tasks as part of the build process, and sometimes those tasks require running in a different runtime or architecture context than the default build process. To support this, MSBuild can use a "TaskHost"—a separate MSBuild process responsible for running tasks under the requested environment. TaskHosts ensure isolation, compatibility, and support for targeting different frameworks or platforms.
 
 Historically, TaskHosts enabled tasks to run in separate .NET Framework processes of specific versions (for example, CLR2 or CLR4). This support was governed by the `Runtime` and `Architecture` attributes of the `<UsingTask>` element in the project file or targets file:
-- `Architecture` can specify values like `x86`, `x64`, `CurrentArchitecture`, or `*` for “any architecture”.
+- `Architecture` can specify values like `x86`, `x64`, `arm64`, `CurrentArchitecture`, or `*` for any architecture.
 - `Runtime` can specify values like `CLR2`, `CLR4`, and (recently) `NET` or `CurrentRuntime`.
 
 For most MSBuild tasks, the default process is sufficient. But for custom or more advanced tasks—especially those with platform-specific dependencies—TaskHosts unlock compatibility and flexibility by launching a suitable runtime automatically.
@@ -166,20 +166,26 @@ If you ship targets that need to work with older MSBuild toolsets, you can condi
 
 ## Phantom task parameters
 
-Like any other task parameters, `MSBuildRuntime` and `MSBuildArchitecture` can be set from build properties.
+Any task invocation can include the `MSBuildRuntime` and `MSBuildArchitecture` phantom parameters. They tell MSBuild which runtime and architecture to use for the task. MSBuild uses them to select the task's execution context, but doesn't pass them to the task as properties.
+
+Like other task parameters, you can set these attributes of a [Task element](../msbuild/task-element-msbuild.md) from build properties. This example uses the runtime and architecture of the MSBuild process:
 
 ```xml
 <Project>
     <PropertyGroup>
-        <FrameworkVersion>3.0</FrameworkVersion>
+        <TaskRuntime>CurrentRuntime</TaskRuntime>
+        <TaskArchitecture>CurrentArchitecture</TaskArchitecture>
     </PropertyGroup>
     <Target Name="MyTarget">
-        <SimpleTask MSBuildRuntime="$(FrameworkVersion)" MSBuildArchitecture= "x86"/>
+        <Message Text="The task ran."
+                 Importance="high"
+                 MSBuildRuntime="$(TaskRuntime)"
+                 MSBuildArchitecture="$(TaskArchitecture)" />
     </Target>
 </Project>
 ```
 
-Unlike other task parameters, `MSBuildRuntime` and `MSBuildArchitecture` are not apparent to the task itself. To write a task that is aware of the context in which it runs, you must either test the context by calling the .NET Framework, or use build properties to pass the context information through other task parameters.
+Since these parameters aren't passed to the task explicitly, a task that wants to know about them must query the runtime and process architecture by using .NET APIs or use other task parameters to pass that information to the task.
 
 > [!NOTE]
 > `UsingTask` attributes can be set from toolset and environment properties.
